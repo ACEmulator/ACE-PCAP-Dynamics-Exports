@@ -5,9 +5,9 @@ VALUES (0x75426001,  1154, 0x54260023, 101.0205, 51.08254, -0.8934, 0.3107782, 0
 /* @teleloc 0x54260023 [101.020500 51.082540 -0.893400] 0.310778 0.000000 0.000000 -0.950483 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75426001, 0x75426002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75426001, 0x75426003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x75426001, 0x75426004, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x75426001, 0x75426002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75426001, 0x75426003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x75426001, 0x75426004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75426002,  4248, 0x54260023, 101.0205, 51.08254, -0.8934, 0.3107782, 0, 0, -0.9504825,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

@@ -5,28 +5,28 @@ VALUES (0x70C60001,  1154, 0x0C600039, 177.5937, 1.264493, 0.8059778, -0.3937896
 /* @teleloc 0x0C600039 [177.593700 1.264493 0.805978] -0.393790 0.000000 0.000000 -0.919201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C60001, 0x70C60002, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70C60001, 0x70C60003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C60001, 0x70C60004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C60005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C60006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70C60001, 0x70C60007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70C60001, 0x70C60008, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C60009, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C60001, 0x70C6000A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70C60001, 0x70C6000B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C6000C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70C60001, 0x70C6000D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C6000E, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C60001, 0x70C6000F, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C60001, 0x70C60010, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C60001, 0x70C60011, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70C60001, 0x70C60012, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C60001, 0x70C60013, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70C60001, 0x70C60014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C60001, 0x70C60015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C60001, 0x70C60016, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70C60001, 0x70C60017, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x70C60001, 0x70C60002, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70C60001, 0x70C60003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C60001, 0x70C60004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C60005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C60006, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70C60001, 0x70C60007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70C60001, 0x70C60008, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C60009, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C60001, 0x70C6000A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70C60001, 0x70C6000B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C6000C, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70C60001, 0x70C6000D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C6000E, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C60001, 0x70C6000F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C60001, 0x70C60010, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C60001, 0x70C60011, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70C60001, 0x70C60012, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C60001, 0x70C60013, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70C60001, 0x70C60014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C60001, 0x70C60015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C60001, 0x70C60016, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70C60001, 0x70C60017, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C60002, 22911, 0x0C600039, 177.5937, 1.264493, 0.8059778, -0.3937896, 0, 0, -0.9192006,  True, '2019-02-10 00:00:00'); /* Paroxysm Shadow */
@@ -121,9 +121,9 @@ VALUES (0x70C60018,  1542, 0x0C60003C, 184.8008, 92.4772, -0.9, 0.9990482, 0, 0,
 /* @teleloc 0x0C60003C [184.800800 92.477200 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C60018, 0x70C60019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x70C60018, 0x70C6001A, '2019-02-10 00:00:00') /* Bones */
-     , (0x70C60018, 0x70C6001B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70C60018, 0x70C60019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x70C60018, 0x70C6001A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70C60018, 0x70C6001B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C60019,  4179, 0x0C60003C, 184.8008, 92.4772, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

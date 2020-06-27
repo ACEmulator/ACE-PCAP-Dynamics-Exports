@@ -5,15 +5,15 @@ VALUES (0x7981D001,  1154, 0x981D0037, 147.8557, 153.5549, 188.2759, 0.8433914, 
 /* @teleloc 0x981D0037 [147.855700 153.554900 188.275900] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7981D001, 0x7981D002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7981D001, 0x7981D003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7981D001, 0x7981D004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7981D001, 0x7981D005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7981D001, 0x7981D006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7981D001, 0x7981D007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7981D001, 0x7981D008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7981D001, 0x7981D009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7981D001, 0x7981D00A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7981D001, 0x7981D002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7981D001, 0x7981D003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7981D001, 0x7981D004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7981D001, 0x7981D005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7981D001, 0x7981D006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7981D001, 0x7981D007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7981D001, 0x7981D008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7981D001, 0x7981D009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7981D001, 0x7981D00A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7981D002,  1610, 0x981D0037, 147.8557, 153.5549, 188.2759, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

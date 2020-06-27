@@ -5,10 +5,10 @@ VALUES (0x7CC6E001,  1154, 0xCC6E001C, 89.31313, 92.79835, 51.13604, 0.8660254, 
 /* @teleloc 0xCC6E001C [89.313130 92.798350 51.136040] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC6E001, 0x7CC6E002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC6E001, 0x7CC6E003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CC6E001, 0x7CC6E004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC6E001, 0x7CC6E005, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7CC6E001, 0x7CC6E002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC6E001, 0x7CC6E003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CC6E001, 0x7CC6E004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC6E001, 0x7CC6E005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC6E002,  7978, 0xCC6E001C, 89.31313, 92.79835, 51.13604, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

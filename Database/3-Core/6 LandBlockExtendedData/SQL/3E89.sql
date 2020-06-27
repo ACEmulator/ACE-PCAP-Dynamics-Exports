@@ -5,13 +5,13 @@ VALUES (0x73E89001,  1154, 0x3E890001, 23.23472, 0.6465188, 4.068774, -0.793238,
 /* @teleloc 0x3E890001 [23.234720 0.646519 4.068774] -0.793238 0.000000 0.000000 -0.608912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E89001, 0x73E89002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73E89001, 0x73E89003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73E89001, 0x73E89004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73E89001, 0x73E89005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E89001, 0x73E89006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73E89001, 0x73E89007, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73E89001, 0x73E89008, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x73E89001, 0x73E89002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73E89001, 0x73E89003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73E89001, 0x73E89004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73E89001, 0x73E89005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E89001, 0x73E89006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73E89001, 0x73E89007, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x73E89001, 0x73E89008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E89002, 23563, 0x3E890001, 23.23472, 0.6465188, 4.068774, -0.793238, 0, 0, -0.6089116,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

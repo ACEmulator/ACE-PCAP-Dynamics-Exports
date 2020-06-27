@@ -5,16 +5,16 @@ VALUES (0x78294001,  1154, 0x8294001E, 82.79237, 124.8517, 124.9039, 0.9659258, 
 /* @teleloc 0x8294001E [82.792370 124.851700 124.903900] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78294001, 0x78294002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78294001, 0x78294003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78294001, 0x78294004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78294001, 0x78294005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78294001, 0x78294006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78294001, 0x78294007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78294001, 0x78294008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78294001, 0x78294009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78294001, 0x7829400A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78294001, 0x7829400B, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x78294001, 0x78294002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78294001, 0x78294003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78294001, 0x78294004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78294001, 0x78294005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78294001, 0x78294006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78294001, 0x78294007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78294001, 0x78294008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78294001, 0x78294009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78294001, 0x7829400A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78294001, 0x7829400B, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78294002,  1609, 0x8294001E, 82.79237, 124.8517, 124.9039, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -61,7 +61,7 @@ VALUES (0x7829400C,  1542, 0x82940034, 159.5005, 79.55059, 131.0545, 1, 0, 0, 0,
 /* @teleloc 0x82940034 [159.500500 79.550590 131.054500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7829400C, 0x7829400D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7829400C, 0x7829400D, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7829400D, 22570, 0x82940034, 159.5005, 79.55059, 131.0545, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

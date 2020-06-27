@@ -5,36 +5,36 @@ VALUES (0x78DF1001,  1154, 0x8DF10021, 112.2337, 3.10389, 20.012, 0.9159247, 0, 
 /* @teleloc 0x8DF10021 [112.233700 3.103890 20.012000] 0.915925 0.000000 0.000000 -0.401350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DF1001, 0x78DF1002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DF1001, 0x78DF1003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78DF1001, 0x78DF1004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78DF1001, 0x78DF1005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DF1001, 0x78DF1006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x78DF1001, 0x78DF1007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78DF1001, 0x78DF1008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78DF1001, 0x78DF1009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DF1001, 0x78DF100A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DF1001, 0x78DF100B, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x78DF1001, 0x78DF100C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78DF1001, 0x78DF100D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78DF1001, 0x78DF100E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DF1001, 0x78DF100F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DF1001, 0x78DF1010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DF1001, 0x78DF1011, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78DF1001, 0x78DF1012, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DF1001, 0x78DF1013, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DF1001, 0x78DF1014, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78DF1001, 0x78DF1015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78DF1001, 0x78DF1016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x78DF1001, 0x78DF1017, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78DF1001, 0x78DF1018, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78DF1001, 0x78DF1019, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78DF1001, 0x78DF101A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78DF1001, 0x78DF101B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DF1001, 0x78DF101C, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78DF1001, 0x78DF101D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DF1001, 0x78DF101E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x78DF1001, 0x78DF101F, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x78DF1001, 0x78DF1002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DF1001, 0x78DF1003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78DF1001, 0x78DF1004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78DF1001, 0x78DF1005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DF1001, 0x78DF1006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x78DF1001, 0x78DF1007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78DF1001, 0x78DF1008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78DF1001, 0x78DF1009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DF1001, 0x78DF100A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DF1001, 0x78DF100B, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x78DF1001, 0x78DF100C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78DF1001, 0x78DF100D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78DF1001, 0x78DF100E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DF1001, 0x78DF100F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DF1001, 0x78DF1010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DF1001, 0x78DF1011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78DF1001, 0x78DF1012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DF1001, 0x78DF1013, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DF1001, 0x78DF1014, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78DF1001, 0x78DF1015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78DF1001, 0x78DF1016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x78DF1001, 0x78DF1017, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78DF1001, 0x78DF1018, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78DF1001, 0x78DF1019, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78DF1001, 0x78DF101A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78DF1001, 0x78DF101B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DF1001, 0x78DF101C, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78DF1001, 0x78DF101D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DF1001, 0x78DF101E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78DF1001, 0x78DF101F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DF1002,  7105, 0x8DF10021, 112.2337, 3.10389, 20.012, 0.9159247, 0, 0, -0.4013501,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -161,9 +161,9 @@ VALUES (0x78DF1020,  1542, 0x8DF10002, 1.312276, 40.60917, 33.01309, -4.371139E-
 /* @teleloc 0x8DF10002 [1.312276 40.609170 33.013090] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DF1020, 0x78DF1021, '2019-02-10 00:00:00') /* Bones */
-     , (0x78DF1020, 0x78DF1022, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */
-     , (0x78DF1020, 0x78DF1023, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78DF1020, 0x78DF1021, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78DF1020, 0x78DF1022, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */
+     , (0x78DF1020, 0x78DF1023, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DF1021,  4380, 0x8DF10002, 1.312276, 40.60917, 33.01309, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

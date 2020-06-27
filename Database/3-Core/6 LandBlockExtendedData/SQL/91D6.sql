@@ -5,18 +5,18 @@ VALUES (0x791D6001,  1154, 0x91D6000D, 33.30155, 119.1457, 184.8057, 0.03788681,
 /* @teleloc 0x91D6000D [33.301550 119.145700 184.805700] 0.037887 0.000000 0.000000 -0.999282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D6001, 0x791D6002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791D6001, 0x791D6003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791D6001, 0x791D6004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x791D6001, 0x791D6005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x791D6001, 0x791D6006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x791D6001, 0x791D6007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x791D6001, 0x791D6008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791D6001, 0x791D6009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791D6001, 0x791D600A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791D6001, 0x791D600B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x791D6001, 0x791D600C, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x791D6001, 0x791D600D, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x791D6001, 0x791D6002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791D6001, 0x791D6003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791D6001, 0x791D6004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x791D6001, 0x791D6005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x791D6001, 0x791D6006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791D6001, 0x791D6007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x791D6001, 0x791D6008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791D6001, 0x791D6009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791D6001, 0x791D600A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791D6001, 0x791D600B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x791D6001, 0x791D600C, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x791D6001, 0x791D600D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D6002,     3, 0x91D6000D, 33.30155, 119.1457, 184.8057, 0.03788681, 0, 0, -0.9992821,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

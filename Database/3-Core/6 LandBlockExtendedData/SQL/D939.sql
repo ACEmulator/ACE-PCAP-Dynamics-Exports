@@ -5,23 +5,23 @@ VALUES (0x7D939001,  1154, 0xD939001E, 82.12961, 138.5838, 81.95354, 0.9238795, 
 /* @teleloc 0xD939001E [82.129610 138.583800 81.953540] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D939001, 0x7D939002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D939001, 0x7D939003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D939001, 0x7D939004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D939001, 0x7D939005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D939001, 0x7D939006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D939001, 0x7D939007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D939001, 0x7D939008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D939001, 0x7D939009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D939001, 0x7D93900A, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7D939001, 0x7D93900B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D939001, 0x7D93900C, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7D939001, 0x7D93900D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D939001, 0x7D93900E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D939001, 0x7D93900F, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7D939001, 0x7D939010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D939001, 0x7D939011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D939001, 0x7D939012, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7D939001, 0x7D939002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D939001, 0x7D939003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D939001, 0x7D939004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D939001, 0x7D939005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D939001, 0x7D939006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D939001, 0x7D939007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D939001, 0x7D939008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D939001, 0x7D939009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D939001, 0x7D93900A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7D939001, 0x7D93900B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D939001, 0x7D93900C, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7D939001, 0x7D93900D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D939001, 0x7D93900E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D939001, 0x7D93900F, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7D939001, 0x7D939010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D939001, 0x7D939011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D939001, 0x7D939012, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D939002,   235, 0xD939001E, 82.12961, 138.5838, 81.95354, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -96,8 +96,8 @@ VALUES (0x7D939013,  1542, 0xD939000A, 44.95333, 31.78853, 58.64904, 1, 0, 0, 0,
 /* @teleloc 0xD939000A [44.953330 31.788530 58.649040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D939013, 0x7D939014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D939013, 0x7D939015, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D939013, 0x7D939014, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7D939013, 0x7D939015, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D939014, 22576, 0xD939000A, 44.95333, 31.78853, 58.64904, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

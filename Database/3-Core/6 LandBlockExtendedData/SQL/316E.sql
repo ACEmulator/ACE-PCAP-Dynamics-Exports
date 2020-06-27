@@ -5,11 +5,11 @@ VALUES (0x7316E001,  1154, 0x316E0039, 188.6917, 23.92456, 172.3486, 0.9793547, 
 /* @teleloc 0x316E0039 [188.691700 23.924560 172.348600] 0.979355 0.000000 0.000000 -0.202149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7316E001, 0x7316E002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7316E001, 0x7316E003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7316E001, 0x7316E004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7316E001, 0x7316E005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7316E001, 0x7316E006, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7316E001, 0x7316E002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7316E001, 0x7316E003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7316E001, 0x7316E004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7316E001, 0x7316E005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7316E001, 0x7316E006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316E002,  8138, 0x316E0039, 188.6917, 23.92456, 172.3486, 0.9793547, 0, 0, -0.2021491,  True, '2019-02-10 00:00:00'); /* Extas Raider */

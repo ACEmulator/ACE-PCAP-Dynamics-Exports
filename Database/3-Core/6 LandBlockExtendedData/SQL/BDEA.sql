@@ -5,26 +5,26 @@ VALUES (0x7BDEA001,  1154, 0xBDEA0002, 8.21228, 24.2253, 17.97593, 1, 0, 0, 0, F
 /* @teleloc 0xBDEA0002 [8.212280 24.225300 17.975930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDEA001, 0x7BDEA002, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BDEA001, 0x7BDEA003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BDEA001, 0x7BDEA004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDEA001, 0x7BDEA005, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BDEA001, 0x7BDEA006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BDEA001, 0x7BDEA007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDEA001, 0x7BDEA008, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7BDEA001, 0x7BDEA009, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BDEA001, 0x7BDEA00A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BDEA001, 0x7BDEA00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA00D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDEA001, 0x7BDEA00E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDEA001, 0x7BDEA00F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BDEA001, 0x7BDEA010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA013, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDEA001, 0x7BDEA014, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BDEA001, 0x7BDEA015, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7BDEA001, 0x7BDEA002, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BDEA001, 0x7BDEA003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BDEA001, 0x7BDEA004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDEA001, 0x7BDEA005, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BDEA001, 0x7BDEA006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BDEA001, 0x7BDEA007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDEA001, 0x7BDEA008, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7BDEA001, 0x7BDEA009, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BDEA001, 0x7BDEA00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BDEA001, 0x7BDEA00B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDEA001, 0x7BDEA00C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BDEA001, 0x7BDEA00D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDEA001, 0x7BDEA00E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDEA001, 0x7BDEA00F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BDEA001, 0x7BDEA010, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BDEA001, 0x7BDEA011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDEA001, 0x7BDEA012, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BDEA001, 0x7BDEA013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDEA001, 0x7BDEA014, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BDEA001, 0x7BDEA015, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDEA002, 28048, 0xBDEA0002, 8.21228, 24.2253, 17.97593, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Specter */

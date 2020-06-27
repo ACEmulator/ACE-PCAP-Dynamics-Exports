@@ -5,16 +5,16 @@ VALUES (0x7AEB0001,  1154, 0xAEB0003A, 181.9104, 39.13494, 66.09748, 0.4838692, 
 /* @teleloc 0xAEB0003A [181.910400 39.134940 66.097480] 0.483869 0.000000 0.000000 -0.875140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB0001, 0x7AEB0002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AEB0001, 0x7AEB0003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AEB0001, 0x7AEB0004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AEB0001, 0x7AEB0005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AEB0001, 0x7AEB0006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AEB0001, 0x7AEB0007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AEB0001, 0x7AEB0008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AEB0001, 0x7AEB0009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AEB0001, 0x7AEB000A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AEB0001, 0x7AEB000B, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7AEB0001, 0x7AEB0002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AEB0001, 0x7AEB0003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AEB0001, 0x7AEB0004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AEB0001, 0x7AEB0005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AEB0001, 0x7AEB0006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AEB0001, 0x7AEB0007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AEB0001, 0x7AEB0008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AEB0001, 0x7AEB0009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AEB0001, 0x7AEB000A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AEB0001, 0x7AEB000B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB0002,  2566, 0xAEB0003A, 181.9104, 39.13494, 66.09748, 0.4838692, 0, 0, -0.8751404,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

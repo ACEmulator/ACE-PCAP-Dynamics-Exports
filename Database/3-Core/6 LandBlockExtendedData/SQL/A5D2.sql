@@ -5,19 +5,19 @@ VALUES (0x7A5D2001,  1154, 0xA5D20019, 88.22565, 1.032625, 203.1687, -0.153718, 
 /* @teleloc 0xA5D20019 [88.225650 1.032625 203.168700] -0.153718 0.000000 0.000000 -0.988115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D2001, 0x7A5D2002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A5D2001, 0x7A5D2003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7A5D2001, 0x7A5D2004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7A5D2001, 0x7A5D2005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A5D2001, 0x7A5D2006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A5D2001, 0x7A5D2007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A5D2001, 0x7A5D2008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A5D2001, 0x7A5D2009, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A5D2001, 0x7A5D200A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A5D2001, 0x7A5D200B, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7A5D2001, 0x7A5D200C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A5D2001, 0x7A5D200D, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D2001, 0x7A5D200E, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7A5D2001, 0x7A5D2002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A5D2001, 0x7A5D2003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7A5D2001, 0x7A5D2004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7A5D2001, 0x7A5D2005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A5D2001, 0x7A5D2006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A5D2001, 0x7A5D2007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A5D2001, 0x7A5D2008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A5D2001, 0x7A5D2009, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A5D2001, 0x7A5D200A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A5D2001, 0x7A5D200B, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7A5D2001, 0x7A5D200C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A5D2001, 0x7A5D200D, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D2001, 0x7A5D200E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D2002,  7090, 0xA5D20019, 88.22565, 1.032625, 203.1687, -0.153718, 0, 0, -0.9881148,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

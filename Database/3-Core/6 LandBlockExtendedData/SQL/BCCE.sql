@@ -5,13 +5,13 @@ VALUES (0x7BCCE001,  1154, 0xBCCE0038, 150.7824, 177.9417, 156.5762, -4.371139E-
 /* @teleloc 0xBCCE0038 [150.782400 177.941700 156.576200] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCCE001, 0x7BCCE002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BCCE001, 0x7BCCE003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BCCE001, 0x7BCCE004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7BCCE001, 0x7BCCE005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BCCE001, 0x7BCCE006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BCCE001, 0x7BCCE007, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BCCE001, 0x7BCCE008, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7BCCE001, 0x7BCCE002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BCCE001, 0x7BCCE003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BCCE001, 0x7BCCE004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7BCCE001, 0x7BCCE005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BCCE001, 0x7BCCE006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BCCE001, 0x7BCCE007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BCCE001, 0x7BCCE008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCCE002,  1628, 0xBCCE0038, 150.7824, 177.9417, 156.5762, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

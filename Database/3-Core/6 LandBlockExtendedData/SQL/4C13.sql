@@ -5,17 +5,17 @@ VALUES (0x74C13001,  1154, 0x4C130026, 103.735, 133.5362, 225.1946, 0.9659258, 0
 /* @teleloc 0x4C130026 [103.735000 133.536200 225.194600] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C13001, 0x74C13002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74C13001, 0x74C13003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74C13001, 0x74C13004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74C13001, 0x74C13005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74C13001, 0x74C13006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74C13001, 0x74C13007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74C13001, 0x74C13008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74C13001, 0x74C13009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74C13001, 0x74C1300A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74C13001, 0x74C1300B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74C13001, 0x74C1300C, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74C13001, 0x74C13002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74C13001, 0x74C13003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74C13001, 0x74C13004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74C13001, 0x74C13005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74C13001, 0x74C13006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74C13001, 0x74C13007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74C13001, 0x74C13008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74C13001, 0x74C13009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74C13001, 0x74C1300A, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74C13001, 0x74C1300B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74C13001, 0x74C1300C, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C13002,  5497, 0x4C130026, 103.735, 133.5362, 225.1946, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Director */

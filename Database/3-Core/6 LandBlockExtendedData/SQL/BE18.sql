@@ -5,37 +5,37 @@ VALUES (0x7BE18001,  1154, 0xBE180019, 88.87749, 21.63056, -0.4434, 0.9948471, 0
 /* @teleloc 0xBE180019 [88.877490 21.630560 -0.443400] 0.994847 0.000000 0.000000 -0.101387 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE18001, 0x7BE18002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE18001, 0x7BE18003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE18001, 0x7BE18004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE18001, 0x7BE18005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE18001, 0x7BE18006, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BE18001, 0x7BE18007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BE18001, 0x7BE18008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE18001, 0x7BE18009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BE18001, 0x7BE1800A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE18001, 0x7BE1800B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BE18001, 0x7BE1800C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BE18001, 0x7BE1800D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BE18001, 0x7BE1800E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BE18001, 0x7BE1800F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE18001, 0x7BE18010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BE18001, 0x7BE18011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE18001, 0x7BE18012, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BE18001, 0x7BE18013, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BE18001, 0x7BE18014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE18001, 0x7BE18015, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BE18001, 0x7BE18016, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE18001, 0x7BE18017, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE18001, 0x7BE18018, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE18001, 0x7BE18019, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BE18001, 0x7BE1801A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE18001, 0x7BE1801B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE18001, 0x7BE1801C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE18001, 0x7BE1801D, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BE18001, 0x7BE1801E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BE18001, 0x7BE1801F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BE18001, 0x7BE18020, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7BE18001, 0x7BE18002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE18001, 0x7BE18003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE18001, 0x7BE18004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE18001, 0x7BE18005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE18001, 0x7BE18006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BE18001, 0x7BE18007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BE18001, 0x7BE18008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE18001, 0x7BE18009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BE18001, 0x7BE1800A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE18001, 0x7BE1800B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BE18001, 0x7BE1800C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BE18001, 0x7BE1800D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BE18001, 0x7BE1800E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BE18001, 0x7BE1800F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE18001, 0x7BE18010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BE18001, 0x7BE18011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE18001, 0x7BE18012, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BE18001, 0x7BE18013, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BE18001, 0x7BE18014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE18001, 0x7BE18015, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BE18001, 0x7BE18016, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE18001, 0x7BE18017, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE18001, 0x7BE18018, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE18001, 0x7BE18019, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BE18001, 0x7BE1801A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE18001, 0x7BE1801B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE18001, 0x7BE1801C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE18001, 0x7BE1801D, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BE18001, 0x7BE1801E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BE18001, 0x7BE1801F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BE18001, 0x7BE18020, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE18002,  7103, 0xBE180019, 88.87749, 21.63056, -0.4434, 0.9948471, 0, 0, -0.101387,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -166,10 +166,10 @@ VALUES (0x7BE18021,  1542, 0xBE18001B, 85.75988, 71.53997, -0.09999999, 0.971977
 /* @teleloc 0xBE18001B [85.759880 71.539970 -0.100000] 0.971978 0.000000 0.000000 -0.235074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE18021, 0x7BE18022, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BE18021, 0x7BE18023, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7BE18021, 0x7BE18024, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7BE18021, 0x7BE18025, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7BE18021, 0x7BE18022, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BE18021, 0x7BE18023, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7BE18021, 0x7BE18024, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7BE18021, 0x7BE18025, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE18022,  8648, 0xBE18001B, 85.75988, 71.53997, -0.09999999, 0.9719775, 0, 0, -0.2350738,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

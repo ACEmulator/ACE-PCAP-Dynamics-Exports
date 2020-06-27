@@ -5,12 +5,12 @@ VALUES (0x78FEA001,  1154, 0x8FEA0033, 145.4785, 50.17015, 43.70595, -0.578164, 
 /* @teleloc 0x8FEA0033 [145.478500 50.170150 43.705950] -0.578164 0.000000 0.000000 -0.815921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FEA001, 0x78FEA002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FEA001, 0x78FEA003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78FEA001, 0x78FEA004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78FEA001, 0x78FEA005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78FEA001, 0x78FEA006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FEA001, 0x78FEA007, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x78FEA001, 0x78FEA002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FEA001, 0x78FEA003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78FEA001, 0x78FEA004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78FEA001, 0x78FEA005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78FEA001, 0x78FEA006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FEA001, 0x78FEA007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FEA002,  7096, 0x8FEA0033, 145.4785, 50.17015, 43.70595, -0.578164, 0, 0, -0.8159206,  True, '2019-02-10 00:00:00'); /* Gold Golem */

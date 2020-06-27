@@ -5,14 +5,14 @@ VALUES (0x744C0001,  1154, 0x44C00022, 113.9679, 45.80662, 20.81963, 0.8191521, 
 /* @teleloc 0x44C00022 [113.967900 45.806620 20.819630] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744C0001, 0x744C0002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x744C0001, 0x744C0003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x744C0001, 0x744C0004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x744C0001, 0x744C0005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x744C0001, 0x744C0006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x744C0001, 0x744C0007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x744C0001, 0x744C0008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x744C0001, 0x744C0009, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x744C0001, 0x744C0002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x744C0001, 0x744C0003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x744C0001, 0x744C0004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x744C0001, 0x744C0005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x744C0001, 0x744C0006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x744C0001, 0x744C0007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x744C0001, 0x744C0008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x744C0001, 0x744C0009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744C0002, 23565, 0x44C00022, 113.9679, 45.80662, 20.81963, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

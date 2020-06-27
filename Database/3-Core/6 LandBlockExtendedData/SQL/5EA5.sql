@@ -5,14 +5,14 @@ VALUES (0x75EA5001,  1154, 0x5EA50019, 89.83157, 11.61242, 74.38, -0.5156312, 0,
 /* @teleloc 0x5EA50019 [89.831570 11.612420 74.380000] -0.515631 0.000000 0.000000 -0.856811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EA5001, 0x75EA5002, '2019-02-10 00:00:00') /* Ember */
-     , (0x75EA5001, 0x75EA5003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75EA5001, 0x75EA5004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75EA5001, 0x75EA5005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75EA5001, 0x75EA5006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EA5001, 0x75EA5007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75EA5001, 0x75EA5008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EA5001, 0x75EA5009, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x75EA5001, 0x75EA5002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75EA5001, 0x75EA5003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75EA5001, 0x75EA5004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75EA5001, 0x75EA5005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75EA5001, 0x75EA5006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EA5001, 0x75EA5007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75EA5001, 0x75EA5008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EA5001, 0x75EA5009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EA5002,  7607, 0x5EA50019, 89.83157, 11.61242, 74.38, -0.5156312, 0, 0, -0.8568106,  True, '2019-02-10 00:00:00'); /* Ember */

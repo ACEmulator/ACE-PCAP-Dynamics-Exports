@@ -9,21 +9,21 @@ VALUES (0x7998D00A,  1154, 0x998D0103, 154.5187, 35.65012, 110.1345, -0.0679118,
 /* @teleloc 0x998D0103 [154.518700 35.650120 110.134500] -0.067912 0.000000 0.000000 0.997691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7998D00A, 0x7998D00B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D00C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D00D, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D00E, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D00F, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D010, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D011, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D012, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D013, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D014, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D015, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7998D00A, 0x7998D016, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D017, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D018, '2019-02-10 00:00:00') /* A small pile of rocks */
-     , (0x7998D00A, 0x7998D019, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7998D00A, 0x7998D00B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D00C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D00D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D00E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D00F, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D010, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D011, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D012, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D013, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D014, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D015, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7998D00A, 0x7998D016, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D017, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D018, '2019-02-10 00:00:00') /* A small pile of rocks (25450) */
+     , (0x7998D00A, 0x7998D019, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7998D00B,   180, 0x998D0103, 154.5187, 35.65012, 110.1345, -0.0679118, 0, 0, 0.997691,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */

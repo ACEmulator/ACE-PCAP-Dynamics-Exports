@@ -5,14 +5,14 @@ VALUES (0x714B7001,  1154, 0x14B7003A, 187.6332, 45.73215, 23.2782, 1, 0, 0, 0, 
 /* @teleloc 0x14B7003A [187.633200 45.732150 23.278200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B7001, 0x714B7002, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x714B7001, 0x714B7003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x714B7001, 0x714B7004, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x714B7001, 0x714B7005, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x714B7001, 0x714B7006, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x714B7001, 0x714B7007, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x714B7001, 0x714B7008, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x714B7001, 0x714B7009, '2019-02-10 00:00:00') /* Carenzi Stalker */;
+VALUES (0x714B7001, 0x714B7002, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x714B7001, 0x714B7003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x714B7001, 0x714B7004, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x714B7001, 0x714B7005, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x714B7001, 0x714B7006, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x714B7001, 0x714B7007, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x714B7001, 0x714B7008, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x714B7001, 0x714B7009, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B7002, 11524, 0x14B7003A, 187.6332, 45.73215, 23.2782, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Windreave */

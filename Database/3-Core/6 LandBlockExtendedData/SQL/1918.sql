@@ -5,14 +5,14 @@ VALUES (0x71918001,  1154, 0x19180039, 170.0348, 0.7308238, -0.4399999, 0.428977
 /* @teleloc 0x19180039 [170.034800 0.730824 -0.440000] 0.428977 0.000000 0.000000 -0.903315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71918001, 0x71918002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71918001, 0x71918003, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71918001, 0x71918004, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71918001, 0x71918005, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71918001, 0x71918006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71918001, 0x71918007, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71918001, 0x71918008, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71918001, 0x71918009, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x71918001, 0x71918002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71918001, 0x71918003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71918001, 0x71918004, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71918001, 0x71918005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71918001, 0x71918006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71918001, 0x71918007, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71918001, 0x71918008, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71918001, 0x71918009, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71918002, 35833, 0x19180039, 170.0348, 0.7308238, -0.4399999, 0.4289772, 0, 0, -0.9033153,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
@@ -51,7 +51,7 @@ VALUES (0x7191800A,  1542, 0x1918003A, 171.0962, 32.97652, -0.00999999, 0.428977
 /* @teleloc 0x1918003A [171.096200 32.976520 -0.010000] 0.428977 0.000000 0.000000 -0.903315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7191800A, 0x7191800B, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7191800A, 0x7191800B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7191800B,  9288, 0x1918003A, 171.0962, 32.97652, -0.00999999, 0.4289772, 0, 0, -0.9033153,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

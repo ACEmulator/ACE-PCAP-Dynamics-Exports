@@ -5,13 +5,13 @@ VALUES (0x7BD16001,  1154, 0xBD160033, 146.9991, 55.74834, 43.25195, 0.02839108,
 /* @teleloc 0xBD160033 [146.999100 55.748340 43.251950] 0.028391 0.000000 0.000000 -0.999597 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD16001, 0x7BD16002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7BD16001, 0x7BD16003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BD16001, 0x7BD16004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BD16001, 0x7BD16005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BD16001, 0x7BD16006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BD16001, 0x7BD16007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BD16001, 0x7BD16008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x7BD16001, 0x7BD16002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7BD16001, 0x7BD16003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BD16001, 0x7BD16004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BD16001, 0x7BD16005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BD16001, 0x7BD16006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BD16001, 0x7BD16007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BD16001, 0x7BD16008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD16002,  5890, 0xBD160033, 146.9991, 55.74834, 43.25195, 0.02839108, 0, 0, -0.9995969,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */
@@ -46,7 +46,7 @@ VALUES (0x7BD16009,  1542, 0xBD16002A, 133.6405, 47.85699, 73.75146, -0.9571657,
 /* @teleloc 0xBD16002A [133.640500 47.856990 73.751460] -0.957166 0.000000 0.000000 -0.289541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD16009, 0x7BD1600A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BD16009, 0x7BD1600A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD1600A,  8646, 0xBD16002A, 133.6405, 47.85699, 73.75146, -0.9571657, 0, 0, -0.2895409,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,12 +5,12 @@ VALUES (0x765B2001,  1154, 0x65B2000B, 39.65382, 66.27421, 47.65981, 0.7972984, 
 /* @teleloc 0x65B2000B [39.653820 66.274210 47.659810] 0.797298 0.000000 0.000000 -0.603585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765B2001, 0x765B2002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x765B2001, 0x765B2003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765B2001, 0x765B2004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x765B2001, 0x765B2005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x765B2001, 0x765B2006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x765B2001, 0x765B2007, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x765B2001, 0x765B2002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x765B2001, 0x765B2003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x765B2001, 0x765B2004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x765B2001, 0x765B2005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x765B2001, 0x765B2006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x765B2001, 0x765B2007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765B2002, 38177, 0x65B2000B, 39.65382, 66.27421, 47.65981, 0.7972984, 0, 0, -0.6035853,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

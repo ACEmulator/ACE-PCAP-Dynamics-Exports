@@ -5,17 +5,17 @@ VALUES (0x73562001,  1154, 0x35620035, 151.6718, 105.3716, 39.7192, 0.7450237, 0
 /* @teleloc 0x35620035 [151.671800 105.371600 39.719200] 0.745024 0.000000 0.000000 -0.667038 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73562001, 0x73562002, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x73562001, 0x73562003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73562001, 0x73562004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73562001, 0x73562005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73562001, 0x73562006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73562001, 0x73562007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73562001, 0x73562008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73562001, 0x73562009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73562001, 0x7356200A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73562001, 0x7356200B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73562001, 0x7356200C, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x73562001, 0x73562002, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x73562001, 0x73562003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73562001, 0x73562004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73562001, 0x73562005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73562001, 0x73562006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73562001, 0x73562007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73562001, 0x73562008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73562001, 0x73562009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73562001, 0x7356200A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73562001, 0x7356200B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73562001, 0x7356200C, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73562002, 12026, 0x35620035, 151.6718, 105.3716, 39.7192, 0.7450237, 0, 0, -0.6670381,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */
@@ -66,7 +66,7 @@ VALUES (0x7356200D,  1542, 0x3562002E, 123.1068, 136.6383, 39.99784, 1, 0, 0, 0,
 /* @teleloc 0x3562002E [123.106800 136.638300 39.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356200D, 0x7356200E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7356200D, 0x7356200E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356200E, 31445, 0x3562002E, 123.1068, 136.6383, 39.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

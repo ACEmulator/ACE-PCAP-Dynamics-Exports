@@ -5,14 +5,14 @@ VALUES (0x7A728001,  1154, 0xA7280037, 154.9153, 158.9661, 190.4443, 0.9396926, 
 /* @teleloc 0xA7280037 [154.915300 158.966100 190.444300] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A728001, 0x7A728002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A728001, 0x7A728003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A728001, 0x7A728004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7A728001, 0x7A728005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A728001, 0x7A728006, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7A728001, 0x7A728007, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7A728001, 0x7A728008, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7A728001, 0x7A728009, '2019-02-10 00:00:00') /* K'nath N'osaj */;
+VALUES (0x7A728001, 0x7A728002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A728001, 0x7A728003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A728001, 0x7A728004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7A728001, 0x7A728005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A728001, 0x7A728006, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7A728001, 0x7A728007, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7A728001, 0x7A728008, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7A728001, 0x7A728009, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A728002, 37100, 0xA7280037, 154.9153, 158.9661, 190.4443, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */

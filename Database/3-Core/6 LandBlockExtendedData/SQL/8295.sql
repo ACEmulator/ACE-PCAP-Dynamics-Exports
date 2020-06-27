@@ -5,10 +5,10 @@ VALUES (0x78295001,  1154, 0x8295000A, 44.21115, 40.21392, 124.0121, -0.1736482,
 /* @teleloc 0x8295000A [44.211150 40.213920 124.012100] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78295001, 0x78295002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78295001, 0x78295003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x78295001, 0x78295004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78295001, 0x78295005, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x78295001, 0x78295002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78295001, 0x78295003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x78295001, 0x78295004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78295001, 0x78295005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78295002,  1627, 0x8295000A, 44.21115, 40.21392, 124.0121, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -31,7 +31,7 @@ VALUES (0x78295006,  1542, 0x8295000A, 45.82844, 36.91746, 123.999, 0.7071068, 0
 /* @teleloc 0x8295000A [45.828440 36.917460 123.999000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78295006, 0x78295007, '2019-02-10 00:00:00') /* Eyebright */;
+VALUES (0x78295006, 0x78295007, '2019-02-10 00:00:00') /* Eyebright (770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78295007,   770, 0x8295000A, 45.82844, 36.91746, 123.999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Eyebright */

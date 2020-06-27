@@ -5,8 +5,8 @@ VALUES (0x7BD43001,  1154, 0xBD43001B, 86.58032, 53.79582, 27.21503, 0.9291391, 
 /* @teleloc 0xBD43001B [86.580320 53.795820 27.215030] 0.929139 0.000000 0.000000 -0.369730 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD43001, 0x7BD43002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7BD43001, 0x7BD43003, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7BD43001, 0x7BD43002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7BD43001, 0x7BD43003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD43002, 22009, 0xBD43001B, 86.58032, 53.79582, 27.21503, 0.9291391, 0, 0, -0.3697304,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -21,8 +21,8 @@ VALUES (0x7BD43004,  1542, 0xBD43000E, 24.41443, 124.5584, 27.41337, 0.9922342, 
 /* @teleloc 0xBD43000E [24.414430 124.558400 27.413370] 0.992234 0.000000 0.000000 -0.124384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD43004, 0x7BD43005, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7BD43004, 0x7BD43006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD43004, 0x7BD43005, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7BD43004, 0x7BD43006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD43005,  8037, 0xBD43000E, 24.41443, 124.5584, 27.41337, 0.9922342, 0, 0, -0.1243836,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

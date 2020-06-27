@@ -5,40 +5,40 @@ VALUES (0x7A4B9001,  1154, 0xA4B9000C, 46.29487, 76.12521, 118.1867, -0.9931694,
 /* @teleloc 0xA4B9000C [46.294870 76.125210 118.186700] -0.993169 0.000000 0.000000 -0.116681 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4B9001, 0x7A4B9002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7A4B9001, 0x7A4B9003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A4B9001, 0x7A4B9004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A4B9001, 0x7A4B9005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A4B9001, 0x7A4B9006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A4B9001, 0x7A4B9007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B9008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B9009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B900A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A4B9001, 0x7A4B900B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B900C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A4B9001, 0x7A4B900D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A4B9001, 0x7A4B900E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A4B9001, 0x7A4B900F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B9010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A4B9001, 0x7A4B9011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A4B9001, 0x7A4B9012, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7A4B9001, 0x7A4B9013, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4B9001, 0x7A4B9014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4B9001, 0x7A4B9015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A4B9001, 0x7A4B9016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A4B9001, 0x7A4B9017, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4B9001, 0x7A4B9018, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A4B9001, 0x7A4B9019, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A4B9001, 0x7A4B901A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A4B9001, 0x7A4B901B, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A4B9001, 0x7A4B901C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4B9001, 0x7A4B901D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A4B9001, 0x7A4B901E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A4B9001, 0x7A4B901F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B9020, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7A4B9001, 0x7A4B9021, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7A4B9001, 0x7A4B9022, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A4B9001, 0x7A4B9023, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7A4B9001, 0x7A4B9002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7A4B9001, 0x7A4B9003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A4B9001, 0x7A4B9004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A4B9001, 0x7A4B9005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A4B9001, 0x7A4B9006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A4B9001, 0x7A4B9007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B9008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B9009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B900A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A4B9001, 0x7A4B900B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B900C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A4B9001, 0x7A4B900D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A4B9001, 0x7A4B900E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A4B9001, 0x7A4B900F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B9010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A4B9001, 0x7A4B9011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A4B9001, 0x7A4B9012, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7A4B9001, 0x7A4B9013, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4B9001, 0x7A4B9014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4B9001, 0x7A4B9015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A4B9001, 0x7A4B9016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A4B9001, 0x7A4B9017, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4B9001, 0x7A4B9018, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A4B9001, 0x7A4B9019, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A4B9001, 0x7A4B901A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A4B9001, 0x7A4B901B, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A4B9001, 0x7A4B901C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4B9001, 0x7A4B901D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A4B9001, 0x7A4B901E, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7A4B9001, 0x7A4B901F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B9020, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7A4B9001, 0x7A4B9021, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7A4B9001, 0x7A4B9022, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A4B9001, 0x7A4B9023, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4B9002,  8010, 0xA4B9000C, 46.29487, 76.12521, 118.1867, -0.9931694, 0, 0, -0.1166809,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -181,10 +181,10 @@ VALUES (0x7A4B9024,  1542, 0xA4B90040, 168.2378, 171.5726, 129.7221, 0.9990482, 
 /* @teleloc 0xA4B90040 [168.237800 171.572600 129.722100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4B9024, 0x7A4B9025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A4B9024, 0x7A4B9026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A4B9024, 0x7A4B9027, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A4B9024, 0x7A4B9028, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A4B9024, 0x7A4B9025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A4B9024, 0x7A4B9026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A4B9024, 0x7A4B9027, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A4B9024, 0x7A4B9028, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4B9025,  4179, 0xA4B90040, 168.2378, 171.5726, 129.7221, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

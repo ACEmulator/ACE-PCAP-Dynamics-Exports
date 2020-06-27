@@ -5,14 +5,14 @@ VALUES (0x7B60D001,  1154, 0xB60D002F, 137.3905, 158.5331, -0.09339994, 0.706107
 /* @teleloc 0xB60D002F [137.390500 158.533100 -0.093400] 0.706108 0.000000 0.000000 -0.708105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B60D001, 0x7B60D002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B60D001, 0x7B60D003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7B60D001, 0x7B60D004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B60D001, 0x7B60D005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B60D001, 0x7B60D006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B60D001, 0x7B60D007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B60D001, 0x7B60D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B60D001, 0x7B60D009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7B60D001, 0x7B60D002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B60D001, 0x7B60D003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7B60D001, 0x7B60D004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B60D001, 0x7B60D005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B60D001, 0x7B60D006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B60D001, 0x7B60D007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B60D001, 0x7B60D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B60D001, 0x7B60D009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B60D002,  7102, 0xB60D002F, 137.3905, 158.5331, -0.09339994, 0.7061077, 0, 0, -0.7081045,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

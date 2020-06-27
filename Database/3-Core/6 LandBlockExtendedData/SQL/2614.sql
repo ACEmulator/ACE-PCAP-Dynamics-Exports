@@ -5,9 +5,9 @@ VALUES (0x72614001,  1154, 0x2614002B, 141.4961, 64.07304, 49.37403, 0.9640732, 
 /* @teleloc 0x2614002B [141.496100 64.073040 49.374030] 0.964073 0.000000 0.000000 -0.265637 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72614001, 0x72614002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72614001, 0x72614003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72614001, 0x72614004, '2019-02-10 00:00:00') /* Shadow Phantom */;
+VALUES (0x72614001, 0x72614002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72614001, 0x72614003, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72614001, 0x72614004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72614002, 24133, 0x2614002B, 141.4961, 64.07304, 49.37403, 0.9640732, 0, 0, -0.2656367,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

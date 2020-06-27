@@ -9,23 +9,23 @@ VALUES (0x7EF1C001,  1154, 0xEF1C002E, 137.3931, 127.0522, 1.430511E-06, -0.4045
 /* @teleloc 0xEF1C002E [137.393100 127.052200 0.000001] -0.404501 0.000000 0.000000 -0.914538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF1C001, 0x7EF1C002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EF1C001, 0x7EF1C003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1C001, 0x7EF1C004, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EF1C001, 0x7EF1C005, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EF1C001, 0x7EF1C006, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EF1C001, 0x7EF1C007, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EF1C001, 0x7EF1C008, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EF1C001, 0x7EF1C009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1C001, 0x7EF1C00A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EF1C001, 0x7EF1C00B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EF1C001, 0x7EF1C00C, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EF1C001, 0x7EF1C00D, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EF1C001, 0x7EF1C00E, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EF1C001, 0x7EF1C00F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EF1C001, 0x7EF1C010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EF1C001, 0x7EF1C011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EF1C001, 0x7EF1C012, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7EF1C001, 0x7EF1C002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EF1C001, 0x7EF1C003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1C001, 0x7EF1C004, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EF1C001, 0x7EF1C005, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EF1C001, 0x7EF1C006, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EF1C001, 0x7EF1C007, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EF1C001, 0x7EF1C008, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EF1C001, 0x7EF1C009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1C001, 0x7EF1C00A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF1C001, 0x7EF1C00B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EF1C001, 0x7EF1C00C, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EF1C001, 0x7EF1C00D, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EF1C001, 0x7EF1C00E, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EF1C001, 0x7EF1C00F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF1C001, 0x7EF1C010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EF1C001, 0x7EF1C011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EF1C001, 0x7EF1C012, '2019-02-10 00:00:00') /* Idol (8466) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF1C002,  7126, 0xEF1C002E, 137.3931, 127.0522, 1.430511E-06, -0.4045008, 0, 0, -0.9145377,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

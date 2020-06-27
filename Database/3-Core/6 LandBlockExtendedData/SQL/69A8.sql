@@ -5,14 +5,14 @@ VALUES (0x769A8001,  1154, 0x69A80038, 162.069, 191.938, 88.97885, -0.1372885, 0
 /* @teleloc 0x69A80038 [162.069000 191.938000 88.978850] -0.137289 0.000000 0.000000 -0.990531 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769A8001, 0x769A8002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x769A8001, 0x769A8003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x769A8001, 0x769A8004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x769A8001, 0x769A8005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x769A8001, 0x769A8006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x769A8001, 0x769A8007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x769A8001, 0x769A8008, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x769A8001, 0x769A8009, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x769A8001, 0x769A8002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x769A8001, 0x769A8003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x769A8001, 0x769A8004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x769A8001, 0x769A8005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x769A8001, 0x769A8006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x769A8001, 0x769A8007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x769A8001, 0x769A8008, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x769A8001, 0x769A8009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769A8002,  1629, 0x69A80038, 162.069, 191.938, 88.97885, -0.1372885, 0, 0, -0.9905311,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -51,7 +51,7 @@ VALUES (0x769A800A,  1542, 0x69A80034, 150.2091, 79.60179, 63.9766, 0.9537169, 0
 /* @teleloc 0x69A80034 [150.209100 79.601790 63.976600] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769A800A, 0x769A800B, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x769A800A, 0x769A800B, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769A800B,  5779, 0x69A80034, 150.2091, 79.60179, 63.9766, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

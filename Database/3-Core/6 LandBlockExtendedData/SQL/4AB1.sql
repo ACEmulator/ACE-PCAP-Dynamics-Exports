@@ -5,13 +5,13 @@ VALUES (0x74AB1001,  1154, 0x4AB10022, 100.5836, 27.14503, 57.32143, 0.7071068, 
 /* @teleloc 0x4AB10022 [100.583600 27.145030 57.321430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB1001, 0x74AB1002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB1001, 0x74AB1003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74AB1001, 0x74AB1004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x74AB1001, 0x74AB1005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB1001, 0x74AB1006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB1001, 0x74AB1007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74AB1001, 0x74AB1008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x74AB1001, 0x74AB1002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB1001, 0x74AB1003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74AB1001, 0x74AB1004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x74AB1001, 0x74AB1005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB1001, 0x74AB1006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB1001, 0x74AB1007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74AB1001, 0x74AB1008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB1002,  1629, 0x4AB10022, 100.5836, 27.14503, 57.32143, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -46,10 +46,10 @@ VALUES (0x74AB1009,  1542, 0x4AB1000B, 30.93903, 49.35519, 71.93347, 1, 0, 0, 0,
 /* @teleloc 0x4AB1000B [30.939030 49.355190 71.933470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB1009, 0x74AB100A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x74AB1009, 0x74AB100B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74AB1009, 0x74AB100C, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x74AB1009, 0x74AB100D, '2019-02-10 00:00:00') /* Wandering Vendor Backback */;
+VALUES (0x74AB1009, 0x74AB100A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x74AB1009, 0x74AB100B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74AB1009, 0x74AB100C, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x74AB1009, 0x74AB100D, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB100A,  9024, 0x4AB1000B, 30.93903, 49.35519, 71.93347, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

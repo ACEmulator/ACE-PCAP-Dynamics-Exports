@@ -5,24 +5,24 @@ VALUES (0x7A7EA001,  1154, 0xA7EA002B, 138.3195, 67.90021, 0.008249998, -0.16169
 /* @teleloc 0xA7EA002B [138.319500 67.900210 0.008250] -0.161693 0.000000 0.000000 -0.986841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7EA001, 0x7A7EA002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A7EA001, 0x7A7EA003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A7EA001, 0x7A7EA004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A7EA001, 0x7A7EA005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A7EA001, 0x7A7EA006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A7EA001, 0x7A7EA007, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7A7EA001, 0x7A7EA008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7A7EA001, 0x7A7EA009, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A7EA001, 0x7A7EA00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A7EA001, 0x7A7EA00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7A7EA001, 0x7A7EA00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A7EA001, 0x7A7EA00D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A7EA001, 0x7A7EA00E, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7A7EA001, 0x7A7EA00F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A7EA001, 0x7A7EA010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A7EA001, 0x7A7EA011, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A7EA001, 0x7A7EA012, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A7EA001, 0x7A7EA013, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7A7EA001, 0x7A7EA002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A7EA001, 0x7A7EA003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A7EA001, 0x7A7EA004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A7EA001, 0x7A7EA005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A7EA001, 0x7A7EA006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A7EA001, 0x7A7EA007, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7A7EA001, 0x7A7EA008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7A7EA001, 0x7A7EA009, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A7EA001, 0x7A7EA00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A7EA001, 0x7A7EA00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7A7EA001, 0x7A7EA00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A7EA001, 0x7A7EA00D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A7EA001, 0x7A7EA00E, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7A7EA001, 0x7A7EA00F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A7EA001, 0x7A7EA010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A7EA001, 0x7A7EA011, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A7EA001, 0x7A7EA012, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A7EA001, 0x7A7EA013, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7EA002,   619, 0xA7EA002B, 138.3195, 67.90021, 0.008249998, -0.1616927, 0, 0, -0.9868411,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -101,8 +101,8 @@ VALUES (0x7A7EA014,  1542, 0xA7EA0015, 67.01884, 115.1888, 1.435329, 0.2458556, 
 /* @teleloc 0xA7EA0015 [67.018840 115.188800 1.435329] 0.245856 0.000000 0.000000 -0.969307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7EA014, 0x7A7EA015, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7A7EA014, 0x7A7EA016, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x7A7EA014, 0x7A7EA015, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7A7EA014, 0x7A7EA016, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7EA015, 31687, 0xA7EA0015, 67.01884, 115.1888, 1.435329, 0.2458556, 0, 0, -0.9693065,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

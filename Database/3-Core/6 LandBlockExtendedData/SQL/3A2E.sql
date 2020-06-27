@@ -5,24 +5,24 @@ VALUES (0x73A2E001,  1154, 0x3A2E0026, 97.55458, 121.2726, 67.07648, 0.7071068, 
 /* @teleloc 0x3A2E0026 [97.554580 121.272600 67.076480] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A2E001, 0x73A2E002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73A2E001, 0x73A2E006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73A2E001, 0x73A2E007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73A2E001, 0x73A2E008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73A2E001, 0x73A2E009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73A2E001, 0x73A2E00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73A2E001, 0x73A2E00C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E00D, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73A2E001, 0x73A2E00E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73A2E001, 0x73A2E00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E010, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73A2E001, 0x73A2E011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73A2E001, 0x73A2E012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73A2E001, 0x73A2E013, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x73A2E001, 0x73A2E002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A2E001, 0x73A2E003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A2E001, 0x73A2E004, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73A2E001, 0x73A2E005, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73A2E001, 0x73A2E006, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73A2E001, 0x73A2E007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73A2E001, 0x73A2E008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x73A2E001, 0x73A2E009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73A2E001, 0x73A2E00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73A2E001, 0x73A2E00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73A2E001, 0x73A2E00C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A2E001, 0x73A2E00D, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73A2E001, 0x73A2E00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x73A2E001, 0x73A2E00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A2E001, 0x73A2E010, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x73A2E001, 0x73A2E011, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x73A2E001, 0x73A2E012, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73A2E001, 0x73A2E013, '2019-02-10 00:00:00') /* Banderling Savage (24276) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A2E002, 36822, 0x3A2E0026, 97.55458, 121.2726, 67.07648, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -101,8 +101,8 @@ VALUES (0x73A2E014,  1542, 0x3A2E0025, 97.13631, 113.3203, 65.10779, 1, 0, 0, 0,
 /* @teleloc 0x3A2E0025 [97.136310 113.320300 65.107790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A2E014, 0x73A2E015, '2019-02-10 00:00:00') /* Portal to Arwic */
-     , (0x73A2E014, 0x73A2E016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73A2E014, 0x73A2E015, '2019-02-10 00:00:00') /* Portal to Arwic (42819) */
+     , (0x73A2E014, 0x73A2E016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A2E015, 42819, 0x3A2E0025, 97.13631, 113.3203, 65.10779, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Arwic */

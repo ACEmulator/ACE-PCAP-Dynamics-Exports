@@ -5,35 +5,35 @@ VALUES (0x72A4E001,  1154, 0x2A4E0007, 1.018967, 150.7315, 15.4425, -0.7258789, 
 /* @teleloc 0x2A4E0007 [1.018967 150.731500 15.442500] -0.725879 0.000000 0.000000 -0.687823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4E001, 0x72A4E002, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72A4E001, 0x72A4E003, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x72A4E001, 0x72A4E004, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72A4E001, 0x72A4E005, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72A4E001, 0x72A4E006, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72A4E001, 0x72A4E007, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72A4E001, 0x72A4E008, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72A4E001, 0x72A4E009, '2019-02-10 00:00:00') /* K'nath X'ela */
-     , (0x72A4E001, 0x72A4E00A, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72A4E001, 0x72A4E00B, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A4E001, 0x72A4E00C, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72A4E001, 0x72A4E00D, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4E001, 0x72A4E00E, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72A4E001, 0x72A4E00F, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4E001, 0x72A4E010, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4E001, 0x72A4E011, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72A4E001, 0x72A4E012, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout */
-     , (0x72A4E001, 0x72A4E013, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72A4E001, 0x72A4E014, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72A4E001, 0x72A4E015, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72A4E001, 0x72A4E016, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E017, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E018, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E019, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E01A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E01B, '2019-02-10 00:00:00') /* Platinum Golem Mountain King */
-     , (0x72A4E001, 0x72A4E01C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A4E001, 0x72A4E01D, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72A4E001, 0x72A4E01E, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */;
+VALUES (0x72A4E001, 0x72A4E002, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72A4E001, 0x72A4E003, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x72A4E001, 0x72A4E004, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72A4E001, 0x72A4E005, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72A4E001, 0x72A4E006, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72A4E001, 0x72A4E007, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72A4E001, 0x72A4E008, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72A4E001, 0x72A4E009, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72A4E001, 0x72A4E00A, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72A4E001, 0x72A4E00B, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A4E001, 0x72A4E00C, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72A4E001, 0x72A4E00D, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4E001, 0x72A4E00E, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72A4E001, 0x72A4E00F, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4E001, 0x72A4E010, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4E001, 0x72A4E011, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72A4E001, 0x72A4E012, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout (41735) */
+     , (0x72A4E001, 0x72A4E013, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72A4E001, 0x72A4E014, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72A4E001, 0x72A4E015, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72A4E001, 0x72A4E016, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E017, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E018, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E019, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E01A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E01B, '2019-02-10 00:00:00') /* Platinum Golem Mountain King (23550) */
+     , (0x72A4E001, 0x72A4E01C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A4E001, 0x72A4E01D, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72A4E001, 0x72A4E01E, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4E002, 25659, 0x2A4E0007, 1.018967, 150.7315, 15.4425, -0.7258789, 0, 0, -0.6878225,  True, '2019-02-10 00:00:00'); /* K'nath I'km */

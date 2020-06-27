@@ -5,15 +5,15 @@ VALUES (0x72E78001,  1154, 0x2E780007, 3.956772, 148.1747, 132.5903, 0.9428967, 
 /* @teleloc 0x2E780007 [3.956772 148.174700 132.590300] 0.942897 0.000000 0.000000 -0.333085 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E78001, 0x72E78002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72E78001, 0x72E78003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72E78001, 0x72E78004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E78001, 0x72E78005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E78001, 0x72E78006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72E78001, 0x72E78007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E78001, 0x72E78008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72E78001, 0x72E78009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72E78001, 0x72E7800A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x72E78001, 0x72E78002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72E78001, 0x72E78003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72E78001, 0x72E78004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E78001, 0x72E78005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E78001, 0x72E78006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72E78001, 0x72E78007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E78001, 0x72E78008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72E78001, 0x72E78009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72E78001, 0x72E7800A, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E78002, 23616, 0x2E780007, 3.956772, 148.1747, 132.5903, 0.9428967, 0, 0, -0.3330854,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -56,7 +56,7 @@ VALUES (0x72E7800B,  1542, 0x2E78002C, 135.9935, 79.72429, 145.5631, 1, 0, 0, 0,
 /* @teleloc 0x2E78002C [135.993500 79.724290 145.563100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E7800B, 0x72E7800C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72E7800B, 0x72E7800C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E7800C, 22567, 0x2E78002C, 135.9935, 79.72429, 145.5631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

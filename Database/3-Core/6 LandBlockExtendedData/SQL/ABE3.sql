@@ -5,10 +5,10 @@ VALUES (0x7ABE3001,  1154, 0xABE3001E, 85.76217, 128.2298, 25.86615, -4.371139E-
 /* @teleloc 0xABE3001E [85.762170 128.229800 25.866150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABE3001, 0x7ABE3002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ABE3001, 0x7ABE3003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ABE3001, 0x7ABE3004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ABE3001, 0x7ABE3005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7ABE3001, 0x7ABE3002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ABE3001, 0x7ABE3003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ABE3001, 0x7ABE3004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ABE3001, 0x7ABE3005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABE3002, 24293, 0xABE3001E, 85.76217, 128.2298, 25.86615, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

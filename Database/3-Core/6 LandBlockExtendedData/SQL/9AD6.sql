@@ -5,17 +5,17 @@ VALUES (0x79AD6001,  1154, 0x9AD6000E, 28.67558, 120.4019, 90.00401, 0.9238795, 
 /* @teleloc 0x9AD6000E [28.675580 120.401900 90.004010] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD6001, 0x79AD6002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79AD6001, 0x79AD6003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79AD6001, 0x79AD6004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x79AD6001, 0x79AD6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79AD6001, 0x79AD6006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79AD6001, 0x79AD6007, '2019-02-10 00:00:00') /* Ember */
-     , (0x79AD6001, 0x79AD6008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79AD6001, 0x79AD6009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79AD6001, 0x79AD600A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79AD6001, 0x79AD600B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79AD6001, 0x79AD600C, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x79AD6001, 0x79AD6002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79AD6001, 0x79AD6003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79AD6001, 0x79AD6004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x79AD6001, 0x79AD6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79AD6001, 0x79AD6006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79AD6001, 0x79AD6007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x79AD6001, 0x79AD6008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79AD6001, 0x79AD6009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79AD6001, 0x79AD600A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79AD6001, 0x79AD600B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79AD6001, 0x79AD600C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD6002,  4254, 0x9AD6000E, 28.67558, 120.4019, 90.00401, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

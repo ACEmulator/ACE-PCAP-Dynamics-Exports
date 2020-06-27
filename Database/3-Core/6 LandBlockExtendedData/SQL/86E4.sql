@@ -5,14 +5,14 @@ VALUES (0x786E4001,  1154, 0x86E40029, 123.4914, 22.25613, 70.5915, 0.9765856, 0
 /* @teleloc 0x86E40029 [123.491400 22.256130 70.591500] 0.976586 0.000000 0.000000 -0.215129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786E4001, 0x786E4002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786E4001, 0x786E4003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786E4001, 0x786E4004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x786E4001, 0x786E4005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x786E4001, 0x786E4006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x786E4001, 0x786E4007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x786E4001, 0x786E4008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x786E4001, 0x786E4009, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x786E4001, 0x786E4002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786E4001, 0x786E4003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786E4001, 0x786E4004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x786E4001, 0x786E4005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x786E4001, 0x786E4006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x786E4001, 0x786E4007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x786E4001, 0x786E4008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x786E4001, 0x786E4009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786E4002, 22519, 0x86E40029, 123.4914, 22.25613, 70.5915, 0.9765856, 0, 0, -0.215129,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

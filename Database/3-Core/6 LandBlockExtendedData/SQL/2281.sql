@@ -5,12 +5,12 @@ VALUES (0x72281001,  1154, 0x2281003E, 187.803, 121.9353, 241.7588, 0.9672041, 0
 /* @teleloc 0x2281003E [187.803000 121.935300 241.758800] 0.967204 0.000000 0.000000 -0.254001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72281001, 0x72281002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72281001, 0x72281003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72281001, 0x72281004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72281001, 0x72281005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72281001, 0x72281006, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72281001, 0x72281007, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x72281001, 0x72281002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72281001, 0x72281003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72281001, 0x72281004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72281001, 0x72281005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72281001, 0x72281006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72281001, 0x72281007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72281002, 36832, 0x2281003E, 187.803, 121.9353, 241.7588, 0.9672041, 0, 0, -0.2540005,  True, '2019-02-10 00:00:00'); /* Gold Golem */

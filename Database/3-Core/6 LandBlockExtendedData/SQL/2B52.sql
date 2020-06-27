@@ -5,60 +5,60 @@ VALUES (0x72B52001,  1154, 0x2B520001, 23.25046, 4.96063, 0.007149994, 0.992069,
 /* @teleloc 0x2B520001 [23.250460 4.960630 0.007150] 0.992069 0.000000 0.000000 -0.125694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B52001, 0x72B52002, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72B52001, 0x72B52003, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72B52001, 0x72B52004, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72B52001, 0x72B52005, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B52001, 0x72B52006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72B52001, 0x72B52007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72B52001, 0x72B52008, '2019-02-10 00:00:00') /* Platinum Golem Mountain King */
-     , (0x72B52001, 0x72B52009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72B52001, 0x72B5200A, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72B52001, 0x72B5200B, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B52001, 0x72B5200C, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B52001, 0x72B5200D, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B52001, 0x72B5200E, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72B52001, 0x72B5200F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72B52001, 0x72B52010, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72B52001, 0x72B52011, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72B52001, 0x72B52012, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B52001, 0x72B52013, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72B52001, 0x72B52014, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B52001, 0x72B52015, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72B52001, 0x72B52016, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72B52001, 0x72B52017, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72B52001, 0x72B52018, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B52001, 0x72B52019, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B5201A, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B52001, 0x72B5201B, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B5201C, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B52001, 0x72B5201D, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72B52001, 0x72B5201E, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B52001, 0x72B5201F, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B52001, 0x72B52020, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B52021, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B52001, 0x72B52022, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B52023, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B52001, 0x72B52024, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B52001, 0x72B52025, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B52001, 0x72B52026, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B52001, 0x72B52027, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B52001, 0x72B52028, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B52001, 0x72B52029, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B52001, 0x72B5202A, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B52001, 0x72B5202B, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B52001, 0x72B5202C, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B52001, 0x72B5202D, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B52001, 0x72B5202E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72B52001, 0x72B5202F, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72B52001, 0x72B52030, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72B52001, 0x72B52031, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72B52001, 0x72B52032, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x72B52001, 0x72B52033, '2019-02-10 00:00:00') /* Fallen Tumerok */
-     , (0x72B52001, 0x72B52034, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B52001, 0x72B52035, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B52036, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B52001, 0x72B52037, '2019-02-10 00:00:00') /* Banderling Paragon */;
+VALUES (0x72B52001, 0x72B52002, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72B52001, 0x72B52003, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72B52001, 0x72B52004, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72B52001, 0x72B52005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B52001, 0x72B52006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72B52001, 0x72B52007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72B52001, 0x72B52008, '2019-02-10 00:00:00') /* Platinum Golem Mountain King (23550) */
+     , (0x72B52001, 0x72B52009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72B52001, 0x72B5200A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72B52001, 0x72B5200B, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B52001, 0x72B5200C, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B52001, 0x72B5200D, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B52001, 0x72B5200E, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72B52001, 0x72B5200F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72B52001, 0x72B52010, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72B52001, 0x72B52011, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72B52001, 0x72B52012, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B52001, 0x72B52013, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72B52001, 0x72B52014, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B52001, 0x72B52015, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72B52001, 0x72B52016, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72B52001, 0x72B52017, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72B52001, 0x72B52018, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B52001, 0x72B52019, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B5201A, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B52001, 0x72B5201B, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B5201C, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B52001, 0x72B5201D, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72B52001, 0x72B5201E, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B52001, 0x72B5201F, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B52001, 0x72B52020, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B52021, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B52001, 0x72B52022, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B52023, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B52001, 0x72B52024, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B52001, 0x72B52025, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B52001, 0x72B52026, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B52001, 0x72B52027, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B52001, 0x72B52028, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B52001, 0x72B52029, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B52001, 0x72B5202A, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B52001, 0x72B5202B, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B52001, 0x72B5202C, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B52001, 0x72B5202D, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B52001, 0x72B5202E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72B52001, 0x72B5202F, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B52001, 0x72B52030, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B52001, 0x72B52031, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72B52001, 0x72B52032, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72B52001, 0x72B52033, '2019-02-10 00:00:00') /* Fallen Tumerok (30886) */
+     , (0x72B52001, 0x72B52034, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B52001, 0x72B52035, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B52036, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B52001, 0x72B52037, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B52002, 22897, 0x2B520001, 23.25046, 4.96063, 0.007149994, 0.992069, 0, 0, -0.1256943,  True, '2019-02-10 00:00:00'); /* Banderling Hierophant */
@@ -281,11 +281,11 @@ VALUES (0x72B52038,  1542, 0x2B520027, 99.83959, 167.9957, 0, 0.9375651, 0, 0, -
 /* @teleloc 0x2B520027 [99.839590 167.995700 0.000000] 0.937565 0.000000 0.000000 -0.347810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B52038, 0x72B52039, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */
-     , (0x72B52038, 0x72B5203A, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x72B52038, 0x72B5203B, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */
-     , (0x72B52038, 0x72B5203C, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72B52038, 0x72B5203D, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72B52038, 0x72B52039, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */
+     , (0x72B52038, 0x72B5203A, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x72B52038, 0x72B5203B, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */
+     , (0x72B52038, 0x72B5203C, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72B52038, 0x72B5203D, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B52039, 34572, 0x2B520027, 99.83959, 167.9957, 0, 0.9375651, 0, 0, -0.3478097,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */

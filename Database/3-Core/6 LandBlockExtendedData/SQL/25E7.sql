@@ -5,10 +5,10 @@ VALUES (0x725E7001,  1154, 0x25E70010, 40.15487, 177.5023, 1.735474, -0.7600429,
 /* @teleloc 0x25E70010 [40.154870 177.502300 1.735474] -0.760043 0.000000 0.000000 -0.649873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725E7001, 0x725E7002, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x725E7001, 0x725E7003, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x725E7001, 0x725E7004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x725E7001, 0x725E7005, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x725E7001, 0x725E7002, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x725E7001, 0x725E7003, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x725E7001, 0x725E7004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x725E7001, 0x725E7005, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E7002, 28649, 0x25E70010, 40.15487, 177.5023, 1.735474, -0.7600429, 0, 0, -0.6498729,  True, '2019-02-10 00:00:00'); /* Crazed Fiun */

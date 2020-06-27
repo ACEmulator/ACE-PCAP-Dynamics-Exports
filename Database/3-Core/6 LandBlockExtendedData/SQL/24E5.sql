@@ -5,11 +5,11 @@ VALUES (0x724E5001,  1154, 0x24E50020, 94.00032, 191.0656, 78.75485, -0.4318522,
 /* @teleloc 0x24E50020 [94.000320 191.065600 78.754850] -0.431852 0.000000 0.000000 -0.901944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724E5001, 0x724E5002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x724E5001, 0x724E5003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x724E5001, 0x724E5004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x724E5001, 0x724E5005, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x724E5001, 0x724E5006, '2019-02-10 00:00:00') /* Beefsteak Thrungus */;
+VALUES (0x724E5001, 0x724E5002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x724E5001, 0x724E5003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x724E5001, 0x724E5004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x724E5001, 0x724E5005, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x724E5001, 0x724E5006, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724E5002,  1610, 0x24E50020, 94.00032, 191.0656, 78.75485, -0.4318522, 0, 0, -0.9019444,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

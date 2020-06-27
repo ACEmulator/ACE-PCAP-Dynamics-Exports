@@ -5,20 +5,20 @@ VALUES (0x7A037001,  1154, 0xA0370001, 4.547388, 9.471672, 57.98159, 0.5836917, 
 /* @teleloc 0xA0370001 [4.547388 9.471672 57.981590] 0.583692 0.000000 0.000000 -0.811975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A037001, 0x7A037002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A037001, 0x7A037003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A037001, 0x7A037004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A037001, 0x7A037005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A037001, 0x7A037006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A037001, 0x7A037007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A037001, 0x7A037008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A037001, 0x7A037009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A037001, 0x7A03700A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A037001, 0x7A03700B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A037001, 0x7A03700C, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A037001, 0x7A03700D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A037001, 0x7A03700E, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A037001, 0x7A03700F, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7A037001, 0x7A037002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A037001, 0x7A037003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A037001, 0x7A037004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A037001, 0x7A037005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A037001, 0x7A037006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A037001, 0x7A037007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A037001, 0x7A037008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A037001, 0x7A037009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A037001, 0x7A03700A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A037001, 0x7A03700B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A037001, 0x7A03700C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A037001, 0x7A03700D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A037001, 0x7A03700E, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A037001, 0x7A03700F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A037002,   217, 0xA0370001, 4.547388, 9.471672, 57.98159, 0.5836917, 0, 0, -0.8119754,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -81,7 +81,7 @@ VALUES (0x7A037010,  1542, 0xA0370022, 113.2851, 40.59884, 60, 1, 0, 0, 0, False
 /* @teleloc 0xA0370022 [113.285100 40.598840 60.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A037010, 0x7A037011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A037010, 0x7A037011, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A037011, 22576, 0xA0370022, 113.2851, 40.59884, 60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

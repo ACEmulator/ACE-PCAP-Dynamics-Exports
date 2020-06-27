@@ -5,18 +5,18 @@ VALUES (0x7AFAE001,  1154, 0xAFAE001B, 80.11636, 51.19932, 85.77736, -0.4519718,
 /* @teleloc 0xAFAE001B [80.116360 51.199320 85.777360] -0.451972 0.000000 0.000000 -0.892032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFAE001, 0x7AFAE002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AFAE001, 0x7AFAE003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFAE001, 0x7AFAE004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AFAE001, 0x7AFAE005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7AFAE001, 0x7AFAE006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AFAE001, 0x7AFAE007, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AFAE001, 0x7AFAE008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AFAE001, 0x7AFAE009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFAE001, 0x7AFAE00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7AFAE001, 0x7AFAE00B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AFAE001, 0x7AFAE00C, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AFAE001, 0x7AFAE00D, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7AFAE001, 0x7AFAE002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AFAE001, 0x7AFAE003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFAE001, 0x7AFAE004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AFAE001, 0x7AFAE005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7AFAE001, 0x7AFAE006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AFAE001, 0x7AFAE007, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AFAE001, 0x7AFAE008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AFAE001, 0x7AFAE009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFAE001, 0x7AFAE00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7AFAE001, 0x7AFAE00B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AFAE001, 0x7AFAE00C, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AFAE001, 0x7AFAE00D, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFAE002, 24937, 0xAFAE001B, 80.11636, 51.19932, 85.77736, -0.4519718, 0, 0, -0.8920323,  True, '2019-02-10 00:00:00'); /* Chicken */

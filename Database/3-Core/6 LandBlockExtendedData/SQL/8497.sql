@@ -5,13 +5,13 @@ VALUES (0x78497001,  1154, 0x84970034, 145.4552, 74.07484, 125.13, 0.9875843, 0,
 /* @teleloc 0x84970034 [145.455200 74.074840 125.130000] 0.987584 0.000000 0.000000 -0.157090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78497001, 0x78497002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78497001, 0x78497003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x78497001, 0x78497004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78497001, 0x78497005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78497001, 0x78497006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78497001, 0x78497007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78497001, 0x78497008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x78497001, 0x78497002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78497001, 0x78497003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78497001, 0x78497004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78497001, 0x78497005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78497001, 0x78497006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78497001, 0x78497007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78497001, 0x78497008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78497002,  1758, 0x84970034, 145.4552, 74.07484, 125.13, 0.9875843, 0, 0, -0.15709,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -46,7 +46,7 @@ VALUES (0x78497009,  1542, 0x8497002F, 122.3731, 151.0458, 138.3262, 0.2330544, 
 /* @teleloc 0x8497002F [122.373100 151.045800 138.326200] 0.233054 0.000000 0.000000 -0.972464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78497009, 0x7849700A, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x78497009, 0x7849700A, '2019-02-10 00:00:00') /* Old Gravestone (34132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7849700A, 34132, 0x8497002F, 122.3731, 151.0458, 138.3262, 0.2330544, 0, 0, -0.9724637,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

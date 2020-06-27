@@ -5,16 +5,16 @@ VALUES (0x7371B001,  1154, 0x371B003C, 178.7581, 85.02229, 11.83612, 0.9238795, 
 /* @teleloc 0x371B003C [178.758100 85.022290 11.836120] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7371B001, 0x7371B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7371B001, 0x7371B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7371B001, 0x7371B004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7371B001, 0x7371B005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7371B001, 0x7371B006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7371B001, 0x7371B007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7371B001, 0x7371B008, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7371B001, 0x7371B009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7371B001, 0x7371B00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7371B001, 0x7371B00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7371B001, 0x7371B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7371B001, 0x7371B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7371B001, 0x7371B004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7371B001, 0x7371B005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7371B001, 0x7371B006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7371B001, 0x7371B007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7371B001, 0x7371B008, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7371B001, 0x7371B009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7371B001, 0x7371B00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7371B001, 0x7371B00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7371B002,  7119, 0x371B003C, 178.7581, 85.02229, 11.83612, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -61,7 +61,7 @@ VALUES (0x7371B00C,  1542, 0x371B000C, 37.68197, 84.13998, 15.17683, 0.5394711, 
 /* @teleloc 0x371B000C [37.681970 84.139980 15.176830] 0.539471 0.000000 0.000000 -0.842004 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7371B00C, 0x7371B00D, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7371B00C, 0x7371B00D, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7371B00D,  9286, 0x371B000C, 37.68197, 84.13998, 15.17683, 0.5394711, 0, 0, -0.8420041,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

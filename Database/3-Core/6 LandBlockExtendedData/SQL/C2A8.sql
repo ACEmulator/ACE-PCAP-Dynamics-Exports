@@ -5,17 +5,17 @@ VALUES (0x7C2A8001,  1154, 0xC2A80020, 95.24184, 187.8228, 86.00676, -0.6139364,
 /* @teleloc 0xC2A80020 [95.241840 187.822800 86.006760] -0.613936 0.000000 0.000000 -0.789356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A8001, 0x7C2A8002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C2A8001, 0x7C2A8003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C2A8001, 0x7C2A8004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C2A8001, 0x7C2A8005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C2A8001, 0x7C2A8006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C2A8001, 0x7C2A8007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2A8001, 0x7C2A8008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C2A8001, 0x7C2A8009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C2A8001, 0x7C2A800A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C2A8001, 0x7C2A800B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C2A8001, 0x7C2A800C, '2019-02-10 00:00:00') /* Nasty Scarecrow */;
+VALUES (0x7C2A8001, 0x7C2A8002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C2A8001, 0x7C2A8003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C2A8001, 0x7C2A8004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C2A8001, 0x7C2A8005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C2A8001, 0x7C2A8006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C2A8001, 0x7C2A8007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2A8001, 0x7C2A8008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C2A8001, 0x7C2A8009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C2A8001, 0x7C2A800A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C2A8001, 0x7C2A800B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C2A8001, 0x7C2A800C, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A8002,     3, 0xC2A80020, 95.24184, 187.8228, 86.00676, -0.6139364, 0, 0, -0.7893555,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -66,11 +66,11 @@ VALUES (0x7C2A800D,  1542, 0xC2A80006, 0.5123084, 142.998, 67.9165, 0.9990482, 0
 /* @teleloc 0xC2A80006 [0.512308 142.998000 67.916500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A800D, 0x7C2A800E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C2A800D, 0x7C2A800F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7C2A800D, 0x7C2A8010, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C2A800D, 0x7C2A8011, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C2A800D, 0x7C2A8012, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7C2A800D, 0x7C2A800E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C2A800D, 0x7C2A800F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7C2A800D, 0x7C2A8010, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C2A800D, 0x7C2A8011, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C2A800D, 0x7C2A8012, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A800E,  4179, 0xC2A80006, 0.5123084, 142.998, 67.9165, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

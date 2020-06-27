@@ -5,13 +5,13 @@ VALUES (0x70E5A001,  1154, 0x0E5A0024, 105.3278, 78.95375, 35.89657, -0.0712757,
 /* @teleloc 0x0E5A0024 [105.327800 78.953750 35.896570] -0.071276 0.000000 0.000000 -0.997457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5A001, 0x70E5A002, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70E5A001, 0x70E5A003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5A001, 0x70E5A004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5A001, 0x70E5A005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5A001, 0x70E5A006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70E5A001, 0x70E5A007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E5A001, 0x70E5A008, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x70E5A001, 0x70E5A002, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70E5A001, 0x70E5A003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5A001, 0x70E5A004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5A001, 0x70E5A005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5A001, 0x70E5A006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70E5A001, 0x70E5A007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E5A001, 0x70E5A008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5A002, 36836, 0x0E5A0024, 105.3278, 78.95375, 35.89657, -0.0712757, 0, 0, -0.9974567,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
@@ -46,7 +46,7 @@ VALUES (0x70E5A009,  1542, 0x0E5A0024, 107.8651, 77.88851, 36.93378, -0.0712757,
 /* @teleloc 0x0E5A0024 [107.865100 77.888510 36.933780] -0.071276 0.000000 0.000000 -0.997457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5A009, 0x70E5A00A, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70E5A009, 0x70E5A00A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5A00A,  9288, 0x0E5A0024, 107.8651, 77.88851, 36.93378, -0.0712757, 0, 0, -0.9974567,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

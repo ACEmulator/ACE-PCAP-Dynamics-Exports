@@ -5,11 +5,11 @@ VALUES (0x7C696001,  1154, 0xC6960001, 6.169439, 9.672729, 1.9003, -0.9761066, 0
 /* @teleloc 0xC6960001 [6.169439 9.672729 1.900300] -0.976107 0.000000 0.000000 -0.217292 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C696001, 0x7C696002, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C696001, 0x7C696003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C696001, 0x7C696004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C696001, 0x7C696005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C696001, 0x7C696006, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7C696001, 0x7C696002, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C696001, 0x7C696003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C696001, 0x7C696004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C696001, 0x7C696005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C696001, 0x7C696006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C696002,  7985, 0xC6960001, 6.169439, 9.672729, 1.9003, -0.9761066, 0, 0, -0.217292,  True, '2019-02-10 00:00:00'); /* Listris Niffis */

@@ -5,19 +5,19 @@ VALUES (0x7326D001,  1154, 0x326D0017, 54.77182, 148.0573, 226.3195, -0.08715577
 /* @teleloc 0x326D0017 [54.771820 148.057300 226.319500] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326D001, 0x7326D002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7326D001, 0x7326D003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7326D001, 0x7326D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7326D001, 0x7326D005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7326D001, 0x7326D006, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7326D001, 0x7326D007, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7326D001, 0x7326D008, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7326D001, 0x7326D009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7326D001, 0x7326D00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326D001, 0x7326D00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326D001, 0x7326D00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326D001, 0x7326D00D, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7326D001, 0x7326D00E, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7326D001, 0x7326D002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7326D001, 0x7326D003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7326D001, 0x7326D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7326D001, 0x7326D005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7326D001, 0x7326D006, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7326D001, 0x7326D007, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7326D001, 0x7326D008, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7326D001, 0x7326D009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7326D001, 0x7326D00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326D001, 0x7326D00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326D001, 0x7326D00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326D001, 0x7326D00D, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7326D001, 0x7326D00E, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326D002, 24497, 0x326D0017, 54.77182, 148.0573, 226.3195, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -76,7 +76,7 @@ VALUES (0x7326D00F,  1542, 0x326D0010, 35.14465, 174.4317, 220.1807, 1, 0, 0, 0,
 /* @teleloc 0x326D0010 [35.144650 174.431700 220.180700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326D00F, 0x7326D010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7326D00F, 0x7326D010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326D010,  4380, 0x326D0010, 35.14465, 174.4317, 220.1807, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

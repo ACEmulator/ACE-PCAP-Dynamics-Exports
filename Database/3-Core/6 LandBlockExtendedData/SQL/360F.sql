@@ -5,18 +5,18 @@ VALUES (0x7360F001,  1154, 0x360F003F, 185.2214, 162.1382, 13.44162, -0.7082958,
 /* @teleloc 0x360F003F [185.221400 162.138200 13.441620] -0.708296 0.000000 0.000000 -0.705916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7360F001, 0x7360F002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7360F001, 0x7360F003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7360F001, 0x7360F004, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7360F001, 0x7360F005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7360F001, 0x7360F006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7360F001, 0x7360F007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7360F001, 0x7360F008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7360F001, 0x7360F009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7360F001, 0x7360F00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7360F001, 0x7360F00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7360F001, 0x7360F00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7360F001, 0x7360F00D, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7360F001, 0x7360F002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7360F001, 0x7360F003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7360F001, 0x7360F004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7360F001, 0x7360F005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7360F001, 0x7360F006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7360F001, 0x7360F007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7360F001, 0x7360F008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7360F001, 0x7360F009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7360F001, 0x7360F00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7360F001, 0x7360F00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7360F001, 0x7360F00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7360F001, 0x7360F00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7360F002, 21551, 0x360F003F, 185.2214, 162.1382, 13.44162, -0.7082958, 0, 0, -0.7059157,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
@@ -71,7 +71,7 @@ VALUES (0x7360F00E,  1542, 0x360F0024, 110.8788, 86.51309, 12.77, -0.1736482, 0,
 /* @teleloc 0x360F0024 [110.878800 86.513090 12.770000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7360F00E, 0x7360F00F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7360F00E, 0x7360F00F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7360F00F,  4180, 0x360F0024, 110.8788, 86.51309, 12.77, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

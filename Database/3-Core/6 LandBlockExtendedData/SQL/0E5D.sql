@@ -5,20 +5,20 @@ VALUES (0x70E5D001,  1154, 0x0E5D0012, 54.57746, 33.64816, 35.40547, 0.7071068, 
 /* @teleloc 0x0E5D0012 [54.577460 33.648160 35.405470] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5D001, 0x70E5D002, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70E5D001, 0x70E5D003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70E5D001, 0x70E5D004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70E5D001, 0x70E5D005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70E5D001, 0x70E5D006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E5D001, 0x70E5D007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70E5D001, 0x70E5D008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E5D001, 0x70E5D009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E5D001, 0x70E5D00A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E5D001, 0x70E5D00B, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70E5D001, 0x70E5D00C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70E5D001, 0x70E5D00D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70E5D001, 0x70E5D00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E5D001, 0x70E5D00F, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x70E5D001, 0x70E5D002, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70E5D001, 0x70E5D003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70E5D001, 0x70E5D004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70E5D001, 0x70E5D005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70E5D001, 0x70E5D006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E5D001, 0x70E5D007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70E5D001, 0x70E5D008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E5D001, 0x70E5D009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E5D001, 0x70E5D00A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E5D001, 0x70E5D00B, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70E5D001, 0x70E5D00C, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70E5D001, 0x70E5D00D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70E5D001, 0x70E5D00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E5D001, 0x70E5D00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5D002, 36837, 0x0E5D0012, 54.57746, 33.64816, 35.40547, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
@@ -81,8 +81,8 @@ VALUES (0x70E5D010,  1542, 0x0E5D0012, 52.61335, 36.73203, 39.80484, -4.371139E-
 /* @teleloc 0x0E5D0012 [52.613350 36.732030 39.804840] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5D010, 0x70E5D011, '2019-02-10 00:00:00') /* Bones */
-     , (0x70E5D010, 0x70E5D012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70E5D010, 0x70E5D011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70E5D010, 0x70E5D012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5D011,  4380, 0x0E5D0012, 52.61335, 36.73203, 39.80484, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,12 +5,12 @@ VALUES (0x7894E001,  1154, 0x894E0003, 20.56202, 54.5293, 10.006, 0.6788448, 0, 
 /* @teleloc 0x894E0003 [20.562020 54.529300 10.006000] 0.678845 0.000000 0.000000 0.734282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7894E001, 0x7894E002, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x7894E001, 0x7894E003, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x7894E001, 0x7894E004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7894E001, 0x7894E005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7894E001, 0x7894E006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x7894E001, 0x7894E007, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x7894E001, 0x7894E002, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x7894E001, 0x7894E003, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x7894E001, 0x7894E004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7894E001, 0x7894E005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7894E001, 0x7894E006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x7894E001, 0x7894E007, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7894E002, 41574, 0x894E0003, 20.56202, 54.5293, 10.006, 0.6788448, 0, 0, 0.7342818,  True, '2019-02-10 00:00:00'); /* Gold Gear Trooper */

@@ -5,14 +5,14 @@ VALUES (0x7B65A001,  1154, 0xB65A001D, 82.34832, 97.44744, 17.16664, 0.2588191, 
 /* @teleloc 0xB65A001D [82.348320 97.447440 17.166640] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B65A001, 0x7B65A002, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B65A001, 0x7B65A003, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B65A001, 0x7B65A004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B65A001, 0x7B65A005, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B65A001, 0x7B65A006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B65A001, 0x7B65A007, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B65A001, 0x7B65A008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B65A001, 0x7B65A009, '2019-02-10 00:00:00') /* Laigus Lugian */;
+VALUES (0x7B65A001, 0x7B65A002, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B65A001, 0x7B65A003, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B65A001, 0x7B65A004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B65A001, 0x7B65A005, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B65A001, 0x7B65A006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B65A001, 0x7B65A007, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B65A001, 0x7B65A008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B65A001, 0x7B65A009, '2019-02-10 00:00:00') /* Laigus Lugian (5) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B65A002,  9243, 0xB65A001D, 82.34832, 97.44744, 17.16664, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Innocuous Doll */

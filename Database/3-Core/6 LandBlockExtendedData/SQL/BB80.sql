@@ -53,32 +53,32 @@ VALUES (0x7BB80013,  1154, 0xBB800026, 111.2543, 138.437, 45.992, -0.9929854, 0,
 /* @teleloc 0xBB800026 [111.254300 138.437000 45.992000] -0.992985 0.000000 0.000000 -0.118237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB80013, 0x7BB80014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB80015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB80016, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80017, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80018, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80019, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8001A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB8001B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB8001C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8001D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8001E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8001F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB80020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80021, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB80023, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80024, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80025, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80026, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80027, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB80028, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB80029, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8002A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8002B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB80013, 0x7BB8002C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB80013, 0x7BB8002D, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7BB80013, 0x7BB80014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB80015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB80016, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80017, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80018, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80019, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8001A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB8001B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB8001C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8001D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8001E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8001F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB80020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80021, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB80023, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80024, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80025, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80026, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80027, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB80028, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB80029, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8002A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8002B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB80013, 0x7BB8002C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB80013, 0x7BB8002D, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB80014, 24937, 0xBB800026, 111.2543, 138.437, 45.992, -0.9929854, 0, 0, -0.118237,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -189,7 +189,7 @@ VALUES (0x7BB8002E,  1154, 0xBB80010B, 179.556, 129.229, 47.005, 0.996726, 0, 0,
 /* @teleloc 0xBB80010B [179.556000 129.229000 47.005000] 0.996726 0.000000 0.000000 -0.080848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB8002E, 0x7BB8002F, '2019-02-10 00:00:00') /* Beltslora */;
+VALUES (0x7BB8002E, 0x7BB8002F, '2019-02-10 00:00:00') /* Beltslora (5047) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB8002F,  5047, 0xBB80010B, 179.556, 129.229, 47.005, 0.996726, 0, 0, -0.0808481,  True, '2019-02-10 00:00:00'); /* Beltslora */

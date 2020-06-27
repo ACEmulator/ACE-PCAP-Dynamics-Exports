@@ -5,14 +5,14 @@ VALUES (0x7B45A001,  1154, 0xB45A0006, 20.43653, 136.9938, 19.70905, 0.8191521, 
 /* @teleloc 0xB45A0006 [20.436530 136.993800 19.709050] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B45A001, 0x7B45A002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B45A001, 0x7B45A003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B45A001, 0x7B45A004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B45A001, 0x7B45A005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B45A001, 0x7B45A006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B45A001, 0x7B45A007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B45A001, 0x7B45A008, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B45A001, 0x7B45A009, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7B45A001, 0x7B45A002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B45A001, 0x7B45A003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B45A001, 0x7B45A004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B45A001, 0x7B45A005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B45A001, 0x7B45A006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B45A001, 0x7B45A007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B45A001, 0x7B45A008, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B45A001, 0x7B45A009, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B45A002,   227, 0xB45A0006, 20.43653, 136.9938, 19.70905, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

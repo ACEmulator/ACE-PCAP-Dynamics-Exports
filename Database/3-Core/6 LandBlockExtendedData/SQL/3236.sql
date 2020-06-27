@@ -5,11 +5,11 @@ VALUES (0x73236001,  1154, 0x32360029, 127.5022, 7.678911, 63.01106, -0.3801739,
 /* @teleloc 0x32360029 [127.502200 7.678911 63.011060] -0.380174 0.000000 0.000000 -0.924915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73236001, 0x73236002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73236001, 0x73236003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x73236001, 0x73236004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73236001, 0x73236005, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x73236001, 0x73236006, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x73236001, 0x73236002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73236001, 0x73236003, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x73236001, 0x73236004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73236001, 0x73236005, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x73236001, 0x73236006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73236002, 24133, 0x32360029, 127.5022, 7.678911, 63.01106, -0.3801739, 0, 0, -0.924915,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

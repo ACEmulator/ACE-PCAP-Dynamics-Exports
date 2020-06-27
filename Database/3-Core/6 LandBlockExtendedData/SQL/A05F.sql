@@ -9,17 +9,17 @@ VALUES (0x7A05F001,  1154, 0xA05F0039, 172.1723, 5.716614, 61.30711, -0.5126706,
 /* @teleloc 0xA05F0039 [172.172300 5.716614 61.307110] -0.512671 0.000000 0.000000 -0.858585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A05F001, 0x7A05F002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A05F001, 0x7A05F003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05F001, 0x7A05F004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05F001, 0x7A05F005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05F001, 0x7A05F006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05F001, 0x7A05F007, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A05F001, 0x7A05F008, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A05F001, 0x7A05F009, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A05F001, 0x7A05F00A, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7A05F001, 0x7A05F00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A05F001, 0x7A05F00C, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x7A05F001, 0x7A05F002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A05F001, 0x7A05F003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05F001, 0x7A05F004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05F001, 0x7A05F005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05F001, 0x7A05F006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05F001, 0x7A05F007, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A05F001, 0x7A05F008, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A05F001, 0x7A05F009, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A05F001, 0x7A05F00A, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7A05F001, 0x7A05F00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A05F001, 0x7A05F00C, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05F002, 38179, 0xA05F0039, 172.1723, 5.716614, 61.30711, -0.5126706, 0, 0, -0.8585854,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

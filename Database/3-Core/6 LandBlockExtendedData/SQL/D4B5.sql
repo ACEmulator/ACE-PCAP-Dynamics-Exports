@@ -5,25 +5,25 @@ VALUES (0x7D4B5001,  1154, 0xD4B5001B, 92.709, 62.7172, 0.01050007, -0.04934539,
 /* @teleloc 0xD4B5001B [92.709000 62.717200 0.010500] -0.049345 0.000000 0.000000 0.998782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B5001, 0x7D4B5002, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4B5001, 0x7D4B5008, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B5009, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B500A, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B500B, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D4B5001, 0x7D4B500C, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B500D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D4B5001, 0x7D4B500E, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B500F, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B5010, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B5011, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B5001, 0x7D4B5012, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D4B5001, 0x7D4B5013, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D4B5001, 0x7D4B5014, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7D4B5001, 0x7D4B5002, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4B5001, 0x7D4B5008, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B5009, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B500A, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B500B, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D4B5001, 0x7D4B500C, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B500D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D4B5001, 0x7D4B500E, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B500F, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B5010, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B5011, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B5001, 0x7D4B5012, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D4B5001, 0x7D4B5013, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D4B5001, 0x7D4B5014, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4B5002,  2565, 0xD4B5001B, 92.709, 62.7172, 0.01050007, -0.04934539, 0, 0, 0.9987818,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */

@@ -5,23 +5,23 @@ VALUES (0x7E94B001,  1154, 0xE94B003D, 179.4844, 99.98637, 26.58297, 0.8191521, 
 /* @teleloc 0xE94B003D [179.484400 99.986370 26.582970] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E94B001, 0x7E94B002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E94B001, 0x7E94B003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7E94B001, 0x7E94B004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E94B001, 0x7E94B005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E94B001, 0x7E94B006, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E94B001, 0x7E94B007, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E94B001, 0x7E94B008, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E94B001, 0x7E94B009, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E94B001, 0x7E94B00A, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E94B001, 0x7E94B00B, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E94B001, 0x7E94B00C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E94B001, 0x7E94B00D, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E94B001, 0x7E94B00E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E94B001, 0x7E94B00F, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E94B001, 0x7E94B010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E94B001, 0x7E94B011, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E94B001, 0x7E94B012, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x7E94B001, 0x7E94B002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E94B001, 0x7E94B003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7E94B001, 0x7E94B004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E94B001, 0x7E94B005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E94B001, 0x7E94B006, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E94B001, 0x7E94B007, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E94B001, 0x7E94B008, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E94B001, 0x7E94B009, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E94B001, 0x7E94B00A, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E94B001, 0x7E94B00B, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E94B001, 0x7E94B00C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E94B001, 0x7E94B00D, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E94B001, 0x7E94B00E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E94B001, 0x7E94B00F, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E94B001, 0x7E94B010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E94B001, 0x7E94B011, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E94B001, 0x7E94B012, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E94B002,  1614, 0xE94B003D, 179.4844, 99.98637, 26.58297, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

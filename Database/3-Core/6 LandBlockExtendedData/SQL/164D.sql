@@ -5,11 +5,11 @@ VALUES (0x7164D001,  1154, 0x164D0003, 11.61034, 68.63422, 25.9, 0.9238795, 0, 0
 /* @teleloc 0x164D0003 [11.610340 68.634220 25.900000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164D001, 0x7164D002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7164D001, 0x7164D003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7164D001, 0x7164D004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7164D001, 0x7164D005, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7164D001, 0x7164D006, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x7164D001, 0x7164D002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7164D001, 0x7164D003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7164D001, 0x7164D004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7164D001, 0x7164D005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7164D001, 0x7164D006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164D002,  7090, 0x164D0003, 11.61034, 68.63422, 25.9, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -36,9 +36,9 @@ VALUES (0x7164D007,  1542, 0x164D0003, 12.5355, 69.70383, 25.9, 1, 0, 0, 0, Fals
 /* @teleloc 0x164D0003 [12.535500 69.703830 25.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164D007, 0x7164D008, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7164D007, 0x7164D009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7164D007, 0x7164D00A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7164D007, 0x7164D008, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7164D007, 0x7164D009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7164D007, 0x7164D00A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164D008,  4179, 0x164D0003, 12.5355, 69.70383, 25.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

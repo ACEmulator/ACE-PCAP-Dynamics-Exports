@@ -5,30 +5,30 @@ VALUES (0x72D0F001,  1154, 0x2D0F003E, 179.0574, 122.4199, 10.92146, -0.4697682,
 /* @teleloc 0x2D0F003E [179.057400 122.419900 10.921460] -0.469768 0.000000 0.000000 -0.882790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0F001, 0x72D0F002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72D0F001, 0x72D0F003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D0F001, 0x72D0F004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D0F001, 0x72D0F005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D0F001, 0x72D0F006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72D0F001, 0x72D0F007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72D0F001, 0x72D0F008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D0F001, 0x72D0F009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0F001, 0x72D0F00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D0F001, 0x72D0F00B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0F001, 0x72D0F00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D0F001, 0x72D0F00D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D0F001, 0x72D0F00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D0F001, 0x72D0F00F, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x72D0F001, 0x72D0F010, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72D0F001, 0x72D0F011, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72D0F001, 0x72D0F012, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72D0F001, 0x72D0F013, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D0F001, 0x72D0F014, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D0F001, 0x72D0F015, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D0F001, 0x72D0F016, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D0F001, 0x72D0F017, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72D0F001, 0x72D0F018, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72D0F001, 0x72D0F019, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x72D0F001, 0x72D0F002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72D0F001, 0x72D0F003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D0F001, 0x72D0F004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D0F001, 0x72D0F005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D0F001, 0x72D0F006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D0F001, 0x72D0F007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D0F001, 0x72D0F008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D0F001, 0x72D0F009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0F001, 0x72D0F00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D0F001, 0x72D0F00B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0F001, 0x72D0F00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D0F001, 0x72D0F00D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D0F001, 0x72D0F00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D0F001, 0x72D0F00F, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x72D0F001, 0x72D0F010, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72D0F001, 0x72D0F011, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72D0F001, 0x72D0F012, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72D0F001, 0x72D0F013, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D0F001, 0x72D0F014, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D0F001, 0x72D0F015, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D0F001, 0x72D0F016, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D0F001, 0x72D0F017, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72D0F001, 0x72D0F018, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72D0F001, 0x72D0F019, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0F002,  7126, 0x2D0F003E, 179.0574, 122.4199, 10.92146, -0.4697682, 0, 0, -0.8827899,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -131,9 +131,9 @@ VALUES (0x72D0F01A,  1542, 0x2D0F003A, 180.847, 26.02747, 14.33791, 1, 0, 0, 0, 
 /* @teleloc 0x2D0F003A [180.847000 26.027470 14.337910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0F01A, 0x72D0F01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72D0F01A, 0x72D0F01C, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72D0F01A, 0x72D0F01D, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72D0F01A, 0x72D0F01B, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72D0F01A, 0x72D0F01C, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72D0F01A, 0x72D0F01D, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0F01B, 22571, 0x2D0F003A, 180.847, 26.02747, 14.33791, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

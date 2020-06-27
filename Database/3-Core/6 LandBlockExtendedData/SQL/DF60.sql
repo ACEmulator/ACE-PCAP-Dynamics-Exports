@@ -5,18 +5,18 @@ VALUES (0x7DF60001,  1154, 0xDF600024, 102.9503, 95.65575, 15.4254, -0.9366798, 
 /* @teleloc 0xDF600024 [102.950300 95.655750 15.425400] -0.936680 0.000000 0.000000 -0.350187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF60001, 0x7DF60002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7DF60001, 0x7DF60003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7DF60001, 0x7DF60004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7DF60001, 0x7DF60005, '2019-02-10 00:00:00') /* Lich */
-     , (0x7DF60001, 0x7DF60006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7DF60001, 0x7DF60007, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7DF60001, 0x7DF60008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7DF60001, 0x7DF60009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DF60001, 0x7DF6000A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DF60001, 0x7DF6000B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7DF60001, 0x7DF6000C, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7DF60001, 0x7DF6000D, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7DF60001, 0x7DF60002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7DF60001, 0x7DF60003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7DF60001, 0x7DF60004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7DF60001, 0x7DF60005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7DF60001, 0x7DF60006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7DF60001, 0x7DF60007, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7DF60001, 0x7DF60008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7DF60001, 0x7DF60009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DF60001, 0x7DF6000A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DF60001, 0x7DF6000B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7DF60001, 0x7DF6000C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7DF60001, 0x7DF6000D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF60002,  4246, 0xDF600024, 102.9503, 95.65575, 15.4254, -0.9366798, 0, 0, -0.3501869,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

@@ -5,19 +5,19 @@ VALUES (0x7D4AC001,  1154, 0xD4AC0031, 156.2606, 7.694214, -0.0934, -0.5935029, 
 /* @teleloc 0xD4AC0031 [156.260600 7.694214 -0.093400] -0.593503 0.000000 0.000000 -0.804832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4AC001, 0x7D4AC002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D4AC001, 0x7D4AC003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4AC001, 0x7D4AC004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4AC001, 0x7D4AC005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D4AC001, 0x7D4AC006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D4AC001, 0x7D4AC007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D4AC001, 0x7D4AC008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4AC001, 0x7D4AC009, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D4AC001, 0x7D4AC00A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D4AC001, 0x7D4AC00B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D4AC001, 0x7D4AC00C, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D4AC001, 0x7D4AC00D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D4AC001, 0x7D4AC00E, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7D4AC001, 0x7D4AC002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D4AC001, 0x7D4AC003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4AC001, 0x7D4AC004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4AC001, 0x7D4AC005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D4AC001, 0x7D4AC006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D4AC001, 0x7D4AC007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D4AC001, 0x7D4AC008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4AC001, 0x7D4AC009, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D4AC001, 0x7D4AC00A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D4AC001, 0x7D4AC00B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D4AC001, 0x7D4AC00C, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D4AC001, 0x7D4AC00D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D4AC001, 0x7D4AC00E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4AC002,  8430, 0xD4AC0031, 156.2606, 7.694214, -0.0934, -0.5935029, 0, 0, -0.8048318,  True, '2019-02-10 00:00:00'); /* Mosswart Soul Trapper */
@@ -76,7 +76,7 @@ VALUES (0x7D4AC00F,  1542, 0xD4AC0031, 165.2109, 9.992967, -0.09999999, 0.999048
 /* @teleloc 0xD4AC0031 [165.210900 9.992967 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4AC00F, 0x7D4AC010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D4AC00F, 0x7D4AC010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4AC010,  4179, 0xD4AC0031, 165.2109, 9.992967, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

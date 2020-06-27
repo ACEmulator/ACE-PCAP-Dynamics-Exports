@@ -5,15 +5,15 @@ VALUES (0x7211C001,  1154, 0x211C0038, 163.2727, 189.0824, 15.2996, -0.5657772, 
 /* @teleloc 0x211C0038 [163.272700 189.082400 15.299600] -0.565777 0.000000 0.000000 -0.824558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7211C001, 0x7211C002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7211C001, 0x7211C003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7211C001, 0x7211C004, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7211C001, 0x7211C005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7211C001, 0x7211C006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7211C001, 0x7211C007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7211C001, 0x7211C008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7211C001, 0x7211C009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7211C001, 0x7211C00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x7211C001, 0x7211C002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7211C001, 0x7211C003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7211C001, 0x7211C004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7211C001, 0x7211C005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7211C001, 0x7211C006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7211C001, 0x7211C007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7211C001, 0x7211C008, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7211C001, 0x7211C009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7211C001, 0x7211C00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7211C002, 22914, 0x211C0038, 163.2727, 189.0824, 15.2996, -0.5657772, 0, 0, -0.8245581,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

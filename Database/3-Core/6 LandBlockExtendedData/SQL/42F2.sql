@@ -5,17 +5,17 @@ VALUES (0x742F2001,  1154, 0x42F20028, 106.8863, 174.4727, 4.012, 0.6918272, 0, 
 /* @teleloc 0x42F20028 [106.886300 174.472700 4.012000] 0.691827 0.000000 0.000000 -0.722063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742F2001, 0x742F2002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x742F2001, 0x742F2003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x742F2001, 0x742F2004, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x742F2001, 0x742F2005, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x742F2001, 0x742F2006, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x742F2001, 0x742F2007, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x742F2001, 0x742F2008, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x742F2001, 0x742F2009, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x742F2001, 0x742F200A, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x742F2001, 0x742F200B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x742F2001, 0x742F200C, '2019-02-10 00:00:00') /* Voracious Eater */;
+VALUES (0x742F2001, 0x742F2002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x742F2001, 0x742F2003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x742F2001, 0x742F2004, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x742F2001, 0x742F2005, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x742F2001, 0x742F2006, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x742F2001, 0x742F2007, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x742F2001, 0x742F2008, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x742F2001, 0x742F2009, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x742F2001, 0x742F200A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x742F2001, 0x742F200B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x742F2001, 0x742F200C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742F2002, 28051, 0x42F20028, 106.8863, 174.4727, 4.012, 0.6918272, 0, 0, -0.7220631,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

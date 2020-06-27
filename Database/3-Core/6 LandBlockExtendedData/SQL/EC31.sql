@@ -5,23 +5,23 @@ VALUES (0x7EC31001,  1154, 0xEC31003B, 178.546, 51.98516, 0.004599988, 0.9961947
 /* @teleloc 0xEC31003B [178.546000 51.985160 0.004600] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC31001, 0x7EC31002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EC31001, 0x7EC31003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EC31001, 0x7EC31004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EC31001, 0x7EC31005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC31001, 0x7EC31006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC31001, 0x7EC31007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7EC31001, 0x7EC31008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7EC31001, 0x7EC31009, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7EC31001, 0x7EC3100A, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7EC31001, 0x7EC3100B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EC31001, 0x7EC3100C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EC31001, 0x7EC3100D, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7EC31001, 0x7EC3100E, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7EC31001, 0x7EC3100F, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7EC31001, 0x7EC31010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EC31001, 0x7EC31011, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7EC31001, 0x7EC31012, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7EC31001, 0x7EC31002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EC31001, 0x7EC31003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EC31001, 0x7EC31004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EC31001, 0x7EC31005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC31001, 0x7EC31006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC31001, 0x7EC31007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7EC31001, 0x7EC31008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7EC31001, 0x7EC31009, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7EC31001, 0x7EC3100A, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7EC31001, 0x7EC3100B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EC31001, 0x7EC3100C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EC31001, 0x7EC3100D, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7EC31001, 0x7EC3100E, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7EC31001, 0x7EC3100F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7EC31001, 0x7EC31010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EC31001, 0x7EC31011, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7EC31001, 0x7EC31012, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC31002,  4246, 0xEC31003B, 178.546, 51.98516, 0.004599988, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

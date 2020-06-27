@@ -25,68 +25,68 @@ VALUES (0x7B95F056,  1154, 0xB95F0116, 67.0087, 100.141, 30.03846, -0.800405, 0,
 /* @teleloc 0xB95F0116 [67.008700 100.141000 30.038460] -0.800405 0.000000 0.000000 -0.599460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F056, 0x7B95F057, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F058, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F059, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F05A, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F05B, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F05C, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F05D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7B95F056, 0x7B95F05E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F05F, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F060, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F061, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F062, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F063, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F064, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F065, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F066, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F067, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F068, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F069, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F06A, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7B95F056, 0x7B95F06B, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F06C, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F06D, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F06E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F06F, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F070, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F071, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F072, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F073, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F074, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F075, '2019-02-10 00:00:00') /* Fortress Barrier */
-     , (0x7B95F056, 0x7B95F076, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7B95F056, 0x7B95F077, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F078, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F079, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F07A, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F07B, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F07C, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F07D, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F07E, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F07F, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F080, '2019-02-10 00:00:00') /* Guruk Basher */
-     , (0x7B95F056, 0x7B95F081, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7B95F056, 0x7B95F082, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B95F056, 0x7B95F083, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B95F056, 0x7B95F084, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B95F056, 0x7B95F085, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B95F056, 0x7B95F086, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B95F056, 0x7B95F087, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B95F056, 0x7B95F088, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B95F056, 0x7B95F089, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B95F056, 0x7B95F08A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B95F056, 0x7B95F08B, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B95F056, 0x7B95F08C, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B95F056, 0x7B95F08D, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F08E, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F08F, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7B95F056, 0x7B95F090, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B95F056, 0x7B95F091, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B95F056, 0x7B95F092, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7B95F056, 0x7B95F093, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B95F056, 0x7B95F094, '2019-02-10 00:00:00') /* Se Sclavus */;
+VALUES (0x7B95F056, 0x7B95F057, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F058, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F059, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F05A, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F05B, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F05C, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F05D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7B95F056, 0x7B95F05E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F05F, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F060, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F061, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F062, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F063, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F064, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F065, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F066, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F067, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F068, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F069, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F06A, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7B95F056, 0x7B95F06B, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F06C, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F06D, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F06E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F06F, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F070, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F071, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F072, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F073, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F074, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F075, '2019-02-10 00:00:00') /* Fortress Barrier (28449) */
+     , (0x7B95F056, 0x7B95F076, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7B95F056, 0x7B95F077, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F078, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F079, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F07A, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F07B, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F07C, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F07D, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F07E, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F07F, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F080, '2019-02-10 00:00:00') /* Guruk Basher (27978) */
+     , (0x7B95F056, 0x7B95F081, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7B95F056, 0x7B95F082, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B95F056, 0x7B95F083, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B95F056, 0x7B95F084, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B95F056, 0x7B95F085, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B95F056, 0x7B95F086, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B95F056, 0x7B95F087, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B95F056, 0x7B95F088, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B95F056, 0x7B95F089, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B95F056, 0x7B95F08A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B95F056, 0x7B95F08B, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B95F056, 0x7B95F08C, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B95F056, 0x7B95F08D, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F08E, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F08F, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7B95F056, 0x7B95F090, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B95F056, 0x7B95F091, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B95F056, 0x7B95F092, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7B95F056, 0x7B95F093, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B95F056, 0x7B95F094, '2019-02-10 00:00:00') /* Se Sclavus (2583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F057, 26019, 0xB95F0116, 67.0087, 100.141, 30.03846, -0.800405, 0, 0, -0.59946,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Seer */
@@ -341,9 +341,9 @@ VALUES (0x7B95F095,  1542, 0xB95F000A, 35.9705, 38.66, 7.176, 0.288523, 0, 0, -0
 /* @teleloc 0xB95F000A [35.970500 38.660000 7.176000] 0.288523 0.000000 0.000000 -0.957473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95F095, 0x7B95F096, '2019-02-10 00:00:00') /* Blueprints for a Burun Fortress */
-     , (0x7B95F095, 0x7B95F097, '2019-02-10 00:00:00') /* A Missive */
-     , (0x7B95F095, 0x7B95F098, '2019-02-10 00:00:00') /* A Missive */;
+VALUES (0x7B95F095, 0x7B95F096, '2019-02-10 00:00:00') /* Blueprints for a Burun Fortress (28073) */
+     , (0x7B95F095, 0x7B95F097, '2019-02-10 00:00:00') /* A Missive (28106) */
+     , (0x7B95F095, 0x7B95F098, '2019-02-10 00:00:00') /* A Missive (28105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95F096, 28073, 0xB95F000A, 35.9705, 38.66, 7.176, 0.288523, 0, 0, -0.957473,  True, '2019-02-10 00:00:00'); /* Blueprints for a Burun Fortress */

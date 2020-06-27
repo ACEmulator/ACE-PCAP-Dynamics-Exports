@@ -21,25 +21,25 @@ VALUES (0x7AD9B006,  1154, 0xAD9B0037, 147.1209, 148.1546, 62.0085, -0.928197, 0
 /* @teleloc 0xAD9B0037 [147.120900 148.154600 62.008500] -0.928197 0.000000 0.000000 0.372090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9B006, 0x7AD9B007, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AD9B006, 0x7AD9B008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AD9B006, 0x7AD9B009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AD9B006, 0x7AD9B00A, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AD9B006, 0x7AD9B00B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AD9B006, 0x7AD9B00C, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AD9B006, 0x7AD9B00D, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AD9B006, 0x7AD9B00E, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AD9B006, 0x7AD9B00F, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AD9B006, 0x7AD9B010, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AD9B006, 0x7AD9B011, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD9B006, 0x7AD9B012, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AD9B006, 0x7AD9B013, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AD9B006, 0x7AD9B014, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AD9B006, 0x7AD9B015, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AD9B006, 0x7AD9B016, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD9B006, 0x7AD9B017, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AD9B006, 0x7AD9B018, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AD9B006, 0x7AD9B019, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7AD9B006, 0x7AD9B007, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AD9B006, 0x7AD9B008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AD9B006, 0x7AD9B009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AD9B006, 0x7AD9B00A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AD9B006, 0x7AD9B00B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AD9B006, 0x7AD9B00C, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AD9B006, 0x7AD9B00D, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AD9B006, 0x7AD9B00E, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AD9B006, 0x7AD9B00F, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AD9B006, 0x7AD9B010, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AD9B006, 0x7AD9B011, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD9B006, 0x7AD9B012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AD9B006, 0x7AD9B013, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AD9B006, 0x7AD9B014, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AD9B006, 0x7AD9B015, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AD9B006, 0x7AD9B016, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD9B006, 0x7AD9B017, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AD9B006, 0x7AD9B018, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AD9B006, 0x7AD9B019, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9B007,   181, 0xAD9B0037, 147.1209, 148.1546, 62.0085, -0.928197, 0, 0, 0.37209,  True, '2019-02-10 00:00:00'); /* Auroch Cow */
@@ -122,10 +122,10 @@ VALUES (0x7AD9B01A,  1542, 0xAD9B003F, 177.1017, 146.6969, 62.0057, -0.250882, 0
 /* @teleloc 0xAD9B003F [177.101700 146.696900 62.005700] -0.250882 0.000000 0.000000 -0.968018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9B01A, 0x7AD9B01B, '2019-02-10 00:00:00') /* Cow */
-     , (0x7AD9B01A, 0x7AD9B01C, '2019-02-10 00:00:00') /* Cow */
-     , (0x7AD9B01A, 0x7AD9B01D, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AD9B01A, 0x7AD9B01E, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7AD9B01A, 0x7AD9B01B, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7AD9B01A, 0x7AD9B01C, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7AD9B01A, 0x7AD9B01D, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AD9B01A, 0x7AD9B01E, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9B01B,    14, 0xAD9B003F, 177.1017, 146.6969, 62.0057, -0.250882, 0, 0, -0.968018,  True, '2019-02-10 00:00:00'); /* Cow */

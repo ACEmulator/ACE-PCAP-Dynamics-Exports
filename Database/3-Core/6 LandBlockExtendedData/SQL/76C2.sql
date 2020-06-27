@@ -5,21 +5,21 @@ VALUES (0x776C2001,  1154, 0x76C2002C, 143.9377, 95.85804, 157.9913, 0.8870109, 
 /* @teleloc 0x76C2002C [143.937700 95.858040 157.991300] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C2001, 0x776C2002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x776C2001, 0x776C2003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x776C2001, 0x776C2004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x776C2001, 0x776C2005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x776C2001, 0x776C2006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x776C2001, 0x776C2007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x776C2001, 0x776C2008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x776C2001, 0x776C2009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x776C2001, 0x776C200A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x776C2001, 0x776C200B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x776C2001, 0x776C200C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776C2001, 0x776C200D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x776C2001, 0x776C200E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x776C2001, 0x776C200F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x776C2001, 0x776C2010, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x776C2001, 0x776C2002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x776C2001, 0x776C2003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x776C2001, 0x776C2004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x776C2001, 0x776C2005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x776C2001, 0x776C2006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x776C2001, 0x776C2007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x776C2001, 0x776C2008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x776C2001, 0x776C2009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x776C2001, 0x776C200A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x776C2001, 0x776C200B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x776C2001, 0x776C200C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776C2001, 0x776C200D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x776C2001, 0x776C200E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x776C2001, 0x776C200F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x776C2001, 0x776C2010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C2002,  4254, 0x76C2002C, 143.9377, 95.85804, 157.9913, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -86,10 +86,10 @@ VALUES (0x776C2011,  1542, 0x76C20023, 119.4541, 71.35016, 148.3704, 1, 0, 0, 0,
 /* @teleloc 0x76C20023 [119.454100 71.350160 148.370400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776C2011, 0x776C2012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x776C2011, 0x776C2013, '2019-02-10 00:00:00') /* Bones */
-     , (0x776C2011, 0x776C2014, '2019-02-10 00:00:00') /* Rock */
-     , (0x776C2011, 0x776C2015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x776C2011, 0x776C2012, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x776C2011, 0x776C2013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x776C2011, 0x776C2014, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x776C2011, 0x776C2015, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776C2012, 22567, 0x76C20023, 119.4541, 71.35016, 148.3704, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

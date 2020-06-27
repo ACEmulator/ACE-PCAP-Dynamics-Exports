@@ -5,23 +5,23 @@ VALUES (0x7A0B1001,  1154, 0xA0B10006, 17.28051, 121.1097, 66.64493, 0.8660254, 
 /* @teleloc 0xA0B10006 [17.280510 121.109700 66.644930] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B1001, 0x7A0B1002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A0B1001, 0x7A0B1003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7A0B1001, 0x7A0B1004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A0B1001, 0x7A0B1005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A0B1001, 0x7A0B1006, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7A0B1001, 0x7A0B1007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B1001, 0x7A0B1008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B1001, 0x7A0B1009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B1001, 0x7A0B100A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B1001, 0x7A0B100B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A0B1001, 0x7A0B100C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A0B1001, 0x7A0B100D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A0B1001, 0x7A0B100E, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A0B1001, 0x7A0B100F, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A0B1001, 0x7A0B1010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A0B1001, 0x7A0B1011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A0B1001, 0x7A0B1012, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7A0B1001, 0x7A0B1002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A0B1001, 0x7A0B1003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7A0B1001, 0x7A0B1004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A0B1001, 0x7A0B1005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A0B1001, 0x7A0B1006, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7A0B1001, 0x7A0B1007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B1001, 0x7A0B1008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B1001, 0x7A0B1009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B1001, 0x7A0B100A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B1001, 0x7A0B100B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A0B1001, 0x7A0B100C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A0B1001, 0x7A0B100D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A0B1001, 0x7A0B100E, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A0B1001, 0x7A0B100F, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7A0B1001, 0x7A0B1010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A0B1001, 0x7A0B1011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A0B1001, 0x7A0B1012, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B1002,  2612, 0xA0B10006, 17.28051, 121.1097, 66.64493, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -96,7 +96,7 @@ VALUES (0x7A0B1013,  1542, 0xA0B10003, 8.892884, 50.06796, 66, 1, 0, 0, 0, False
 /* @teleloc 0xA0B10003 [8.892884 50.067960 66.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B1013, 0x7A0B1014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A0B1013, 0x7A0B1014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B1014,  4179, 0xA0B10003, 8.892884, 50.06796, 66, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

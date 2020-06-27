@@ -5,12 +5,12 @@ VALUES (0x7AE5A001,  1154, 0xAE5A003D, 173.6586, 101.4678, 13.54985, 1, 0, 0, 0,
 /* @teleloc 0xAE5A003D [173.658600 101.467800 13.549850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE5A001, 0x7AE5A002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AE5A001, 0x7AE5A003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE5A001, 0x7AE5A004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE5A001, 0x7AE5A005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AE5A001, 0x7AE5A006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AE5A001, 0x7AE5A007, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x7AE5A001, 0x7AE5A002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AE5A001, 0x7AE5A003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AE5A001, 0x7AE5A004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE5A001, 0x7AE5A005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AE5A001, 0x7AE5A006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AE5A001, 0x7AE5A007, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE5A002,   231, 0xAE5A003D, 173.6586, 101.4678, 13.54985, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -41,8 +41,8 @@ VALUES (0x7AE5A008,  1542, 0xAE5A003D, 181.4824, 113.9529, 12.50393, 1, 0, 0, 0,
 /* @teleloc 0xAE5A003D [181.482400 113.952900 12.503930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE5A008, 0x7AE5A009, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7AE5A008, 0x7AE5A00A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AE5A008, 0x7AE5A009, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7AE5A008, 0x7AE5A00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE5A009,  8999, 0xAE5A003D, 181.4824, 113.9529, 12.50393, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

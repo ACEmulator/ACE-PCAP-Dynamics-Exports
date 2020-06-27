@@ -9,15 +9,15 @@ VALUES (0x7E15B001,  1154, 0xE15B002B, 138.5699, 66.99051, 6.528395, 0.9007758, 
 /* @teleloc 0xE15B002B [138.569900 66.990510 6.528395] 0.900776 0.000000 0.000000 -0.434284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E15B001, 0x7E15B002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7E15B001, 0x7E15B003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E15B001, 0x7E15B004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E15B001, 0x7E15B005, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E15B001, 0x7E15B006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E15B001, 0x7E15B007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E15B001, 0x7E15B008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E15B001, 0x7E15B009, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E15B001, 0x7E15B00A, '2019-02-10 00:00:00') /* Sewer Rat */;
+VALUES (0x7E15B001, 0x7E15B002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7E15B001, 0x7E15B003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E15B001, 0x7E15B004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E15B001, 0x7E15B005, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7E15B001, 0x7E15B006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E15B001, 0x7E15B007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E15B001, 0x7E15B008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E15B001, 0x7E15B009, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E15B001, 0x7E15B00A, '2019-02-10 00:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E15B002,  8673, 0xE15B002B, 138.5699, 66.99051, 6.528395, 0.9007758, 0, 0, -0.4342843,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -60,8 +60,8 @@ VALUES (0x7E15B00B,  1542, 0xE15B0024, 113.4192, 77.2172, 3.750067, -0.6811197, 
 /* @teleloc 0xE15B0024 [113.419200 77.217200 3.750067] -0.681120 0.000000 0.000000 -0.732172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E15B00B, 0x7E15B00C, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7E15B00B, 0x7E15B00D, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7E15B00B, 0x7E15B00C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7E15B00B, 0x7E15B00D, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E15B00C, 31686, 0xE15B0024, 113.4192, 77.2172, 3.750067, -0.6811197, 0, 0, -0.7321721,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

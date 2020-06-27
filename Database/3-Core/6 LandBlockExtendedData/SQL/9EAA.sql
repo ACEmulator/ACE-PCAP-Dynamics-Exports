@@ -5,12 +5,12 @@ VALUES (0x79EAA001,  1154, 0x9EAA0012, 50.66899, 45.97392, 86.96029, -0.3051364,
 /* @teleloc 0x9EAA0012 [50.668990 45.973920 86.960290] -0.305136 0.000000 0.000000 -0.952309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EAA001, 0x79EAA002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x79EAA001, 0x79EAA003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EAA001, 0x79EAA004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EAA001, 0x79EAA005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79EAA001, 0x79EAA006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EAA001, 0x79EAA007, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79EAA001, 0x79EAA002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x79EAA001, 0x79EAA003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EAA001, 0x79EAA004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EAA001, 0x79EAA005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79EAA001, 0x79EAA006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EAA001, 0x79EAA007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EAA002, 28878, 0x9EAA0012, 50.66899, 45.97392, 86.96029, -0.3051364, 0, 0, -0.9523087,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -41,9 +41,9 @@ VALUES (0x79EAA008,  1542, 0x9EAA0012, 52.06534, 45.50524, 84.96247, 1, 0, 0, 0,
 /* @teleloc 0x9EAA0012 [52.065340 45.505240 84.962470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EAA008, 0x79EAA009, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79EAA008, 0x79EAA00A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79EAA008, 0x79EAA00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79EAA008, 0x79EAA009, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79EAA008, 0x79EAA00A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79EAA008, 0x79EAA00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EAA009,  8232, 0x9EAA0012, 52.06534, 45.50524, 84.96247, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

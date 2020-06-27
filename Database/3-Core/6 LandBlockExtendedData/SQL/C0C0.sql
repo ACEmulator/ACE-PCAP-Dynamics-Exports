@@ -5,16 +5,16 @@ VALUES (0x7C0C0001,  1154, 0xC0C00038, 150.8788, 174.9144, 149.4218, 0.9161694, 
 /* @teleloc 0xC0C00038 [150.878800 174.914400 149.421800] 0.916169 0.000000 0.000000 -0.400791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0C0001, 0x7C0C0002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C0001, 0x7C0C0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C0001, 0x7C0C0004, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C0C0001, 0x7C0C0005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C0001, 0x7C0C0006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7C0C0001, 0x7C0C0007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C0C0001, 0x7C0C0008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C0C0001, 0x7C0C0009, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C0C0001, 0x7C0C000A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C0C0001, 0x7C0C000B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C0C0001, 0x7C0C0002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C0001, 0x7C0C0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C0001, 0x7C0C0004, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C0C0001, 0x7C0C0005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C0001, 0x7C0C0006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7C0C0001, 0x7C0C0007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C0C0001, 0x7C0C0008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C0C0001, 0x7C0C0009, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C0C0001, 0x7C0C000A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C0C0001, 0x7C0C000B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0C0002, 11478, 0xC0C00038, 150.8788, 174.9144, 149.4218, 0.9161694, 0, 0, -0.4007912,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

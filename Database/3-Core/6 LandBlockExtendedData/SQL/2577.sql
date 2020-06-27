@@ -5,17 +5,17 @@ VALUES (0x72577001,  1154, 0x25770022, 114.1822, 32.03399, 101.831, -0.01291792,
 /* @teleloc 0x25770022 [114.182200 32.033990 101.831000] -0.012918 0.000000 0.000000 -0.999917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72577001, 0x72577002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72577001, 0x72577003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72577001, 0x72577004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72577001, 0x72577005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72577001, 0x72577006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72577001, 0x72577007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72577001, 0x72577008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72577001, 0x72577009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72577001, 0x7257700A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72577001, 0x7257700B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72577001, 0x7257700C, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72577001, 0x72577002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72577001, 0x72577003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72577001, 0x72577004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72577001, 0x72577005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72577001, 0x72577006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72577001, 0x72577007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72577001, 0x72577008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72577001, 0x72577009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72577001, 0x7257700A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72577001, 0x7257700B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72577001, 0x7257700C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72577002,  7346, 0x25770022, 114.1822, 32.03399, 101.831, -0.01291792, 0, 0, -0.9999166,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -66,8 +66,8 @@ VALUES (0x7257700D,  1542, 0x2577000F, 30.73255, 147.66, 128, -4.371139E-08, 0, 
 /* @teleloc 0x2577000F [30.732550 147.660000 128.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257700D, 0x7257700E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7257700D, 0x7257700F, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7257700D, 0x7257700E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7257700D, 0x7257700F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257700E,  4380, 0x2577000F, 30.73255, 147.66, 128, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

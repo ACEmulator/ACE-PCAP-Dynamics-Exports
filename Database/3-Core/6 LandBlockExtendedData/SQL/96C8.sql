@@ -5,12 +5,12 @@ VALUES (0x796C8001,  1542, 0x96C8003B, 188.873, 69.70998, 130.1246, 1, 0, 0, 0, 
 /* @teleloc 0x96C8003B [188.873000 69.709980 130.124600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796C8001, 0x796C8002, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x796C8001, 0x796C8003, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x796C8001, 0x796C8004, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796C8001, 0x796C8005, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x796C8001, 0x796C8006, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x796C8001, 0x796C8007, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x796C8001, 0x796C8002, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x796C8001, 0x796C8003, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x796C8001, 0x796C8004, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796C8001, 0x796C8005, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x796C8001, 0x796C8006, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x796C8001, 0x796C8007, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796C8002, 22571, 0x96C8003B, 188.873, 69.70998, 130.1246, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

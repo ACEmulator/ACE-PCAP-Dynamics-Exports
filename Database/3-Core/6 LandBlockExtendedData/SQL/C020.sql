@@ -5,10 +5,10 @@ VALUES (0x7C020001,  1154, 0xC0200019, 79.20265, 22.32214, 205.3266, 0.7071068, 
 /* @teleloc 0xC0200019 [79.202650 22.322140 205.326600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C020001, 0x7C020002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7C020001, 0x7C020003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7C020001, 0x7C020004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C020001, 0x7C020005, '2019-02-10 00:00:00') /* Hoary Mattekar */;
+VALUES (0x7C020001, 0x7C020002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7C020001, 0x7C020003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7C020001, 0x7C020004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C020001, 0x7C020005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C020002,  7088, 0xC0200019, 79.20265, 22.32214, 205.3266, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -31,8 +31,8 @@ VALUES (0x7C020006,  1542, 0xC0200019, 77.05027, 20.36462, 205.7107, 1, 0, 0, 0,
 /* @teleloc 0xC0200019 [77.050270 20.364620 205.710700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C020006, 0x7C020007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C020006, 0x7C020008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C020006, 0x7C020007, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7C020006, 0x7C020008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C020007, 22571, 0xC0200019, 77.05027, 20.36462, 205.7107, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,16 +5,16 @@ VALUES (0x79B7C001,  1154, 0x9B7C0009, 26.90176, 1.728211, 21.75819, 0.2732233, 
 /* @teleloc 0x9B7C0009 [26.901760 1.728211 21.758190] 0.273223 0.000000 0.000000 -0.961951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B7C001, 0x79B7C002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7C001, 0x79B7C003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7C001, 0x79B7C004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7C001, 0x79B7C005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7C001, 0x79B7C006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7C001, 0x79B7C007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7C001, 0x79B7C008, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7C001, 0x79B7C009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7C001, 0x79B7C00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7C001, 0x79B7C00B, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x79B7C001, 0x79B7C002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7C001, 0x79B7C003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7C001, 0x79B7C004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7C001, 0x79B7C005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7C001, 0x79B7C006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7C001, 0x79B7C007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7C001, 0x79B7C008, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7C001, 0x79B7C009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7C001, 0x79B7C00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7C001, 0x79B7C00B, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B7C002,  5429, 0x9B7C0009, 26.90176, 1.728211, 21.75819, 0.2732233, 0, 0, -0.9619506,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

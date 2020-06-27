@@ -5,13 +5,13 @@ VALUES (0x71921001,  1154, 0x19210009, 34.46694, 12.61598, 12.54856, -0.08175992
 /* @teleloc 0x19210009 [34.466940 12.615980 12.548560] -0.081760 0.000000 0.000000 -0.996652 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71921001, 0x71921002, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71921001, 0x71921003, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71921001, 0x71921004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71921001, 0x71921005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71921001, 0x71921006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71921001, 0x71921007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71921001, 0x71921008, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71921001, 0x71921002, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71921001, 0x71921003, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71921001, 0x71921004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71921001, 0x71921005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71921001, 0x71921006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71921001, 0x71921007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71921001, 0x71921008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71921002, 35830, 0x19210009, 34.46694, 12.61598, 12.54856, -0.08175992, 0, 0, -0.9966521,  True, '2019-02-10 00:00:00'); /* Withered Banderling Paragon */

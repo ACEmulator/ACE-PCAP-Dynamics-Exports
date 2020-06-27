@@ -85,20 +85,20 @@ VALUES (0x702CC024,  1154, 0x02CC0100, 29.8638, -19.4656, 0.008249998, 0.466403,
 /* @teleloc 0x02CC0100 [29.863800 -19.465600 0.008250] 0.466403 0.000000 0.000000 -0.884573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CC024, 0x702CC025, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC026, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC027, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC028, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC029, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02A, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02B, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02C, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02D, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02E, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC02F, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC030, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC031, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702CC024, 0x702CC032, '2019-02-10 00:00:00') /* Zombie Mage */;
+VALUES (0x702CC024, 0x702CC025, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC026, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC027, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC028, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC029, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02A, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02B, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02C, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02D, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02E, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC02F, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC030, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC031, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702CC024, 0x702CC032, '2019-02-10 00:00:00') /* Zombie Mage (43162) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC025, 43162, 0x02CC0100, 29.8638, -19.4656, 0.008249998, 0.466403, 0, 0, -0.884573,  True, '2019-02-10 00:00:00'); /* Zombie Mage */
@@ -161,9 +161,9 @@ VALUES (0x702CC033,  1542, 0x02CC0128, 3.023698, -20, 5.937, 0.9537169, 0, 0, -0
 /* @teleloc 0x02CC0128 [3.023698 -20.000000 5.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CC033, 0x702CC034, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x702CC033, 0x702CC035, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x702CC033, 0x702CC036, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x702CC033, 0x702CC034, '2019-02-10 00:00:00') /* The Floating City (8191) */
+     , (0x702CC033, 0x702CC035, '2019-02-10 00:00:00') /* The Floating City (8195) */
+     , (0x702CC033, 0x702CC036, '2019-02-10 00:00:00') /* The Floating City (8193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CC034,  8191, 0x02CC0128, 3.023698, -20, 5.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* The Floating City */

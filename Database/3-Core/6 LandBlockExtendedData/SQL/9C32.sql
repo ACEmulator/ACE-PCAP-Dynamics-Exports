@@ -5,20 +5,20 @@ VALUES (0x79C32001,  1154, 0x9C320037, 155.53, 165.9675, 47.29958, 0.9901882, 0,
 /* @teleloc 0x9C320037 [155.530000 165.967500 47.299580] 0.990188 0.000000 0.000000 -0.139740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C32001, 0x79C32002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79C32001, 0x79C32003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79C32001, 0x79C32004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79C32001, 0x79C32005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79C32001, 0x79C32006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79C32001, 0x79C32007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79C32001, 0x79C32008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79C32001, 0x79C32009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79C32001, 0x79C3200A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79C32001, 0x79C3200B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79C32001, 0x79C3200C, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79C32001, 0x79C3200D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79C32001, 0x79C3200E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79C32001, 0x79C3200F, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x79C32001, 0x79C32002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79C32001, 0x79C32003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79C32001, 0x79C32004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79C32001, 0x79C32005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79C32001, 0x79C32006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79C32001, 0x79C32007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79C32001, 0x79C32008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79C32001, 0x79C32009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79C32001, 0x79C3200A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79C32001, 0x79C3200B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79C32001, 0x79C3200C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79C32001, 0x79C3200D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79C32001, 0x79C3200E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79C32001, 0x79C3200F, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C32002,  1989, 0x9C320037, 155.53, 165.9675, 47.29958, 0.9901882, 0, 0, -0.13974,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -81,7 +81,7 @@ VALUES (0x79C32010,  1542, 0x9C320001, 8.169896, 10.62823, 49.79514, 1, 0, 0, 0,
 /* @teleloc 0x9C320001 [8.169896 10.628230 49.795140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C32010, 0x79C32011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79C32010, 0x79C32011, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C32011, 22570, 0x9C320001, 8.169896, 10.62823, 49.79514, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

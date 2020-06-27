@@ -5,8 +5,8 @@ VALUES (0x7865D001,  1154, 0x865D0032, 150.2737, 47.30015, 11.05311, -0.9967551,
 /* @teleloc 0x865D0032 [150.273700 47.300150 11.053110] -0.996755 0.000000 0.000000 -0.080494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7865D001, 0x7865D002, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7865D001, 0x7865D003, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x7865D001, 0x7865D002, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7865D001, 0x7865D003, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7865D002, 10801, 0x865D0032, 150.2737, 47.30015, 11.05311, -0.9967551, 0, 0, -0.08049392,  True, '2019-02-10 00:00:00'); /* Shallow Rift */

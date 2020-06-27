@@ -5,12 +5,12 @@ VALUES (0x72B74001,  1154, 0x2B740030, 125.2312, 170.4167, 143.9728, 1, 0, 0, 0,
 /* @teleloc 0x2B740030 [125.231200 170.416700 143.972800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B74001, 0x72B74002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72B74001, 0x72B74003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B74001, 0x72B74004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B74001, 0x72B74005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B74001, 0x72B74006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72B74001, 0x72B74007, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72B74001, 0x72B74002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72B74001, 0x72B74003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B74001, 0x72B74004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B74001, 0x72B74005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B74001, 0x72B74006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72B74001, 0x72B74007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B74002, 23566, 0x2B740030, 125.2312, 170.4167, 143.9728, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -41,7 +41,7 @@ VALUES (0x72B74008,  1542, 0x2B740030, 124.0271, 171.1584, 144.1886, 1, 0, 0, 0,
 /* @teleloc 0x2B740030 [124.027100 171.158400 144.188600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B74008, 0x72B74009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72B74008, 0x72B74009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B74009, 31445, 0x2B740030, 124.0271, 171.1584, 144.1886, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

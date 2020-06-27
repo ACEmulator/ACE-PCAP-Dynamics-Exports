@@ -165,121 +165,121 @@ VALUES (0x7C4F209E,  1154, 0xC4F2045C, 160.408, 171.385, 8, -0.889431, 0, 0, 0.4
 /* @teleloc 0xC4F2045C [160.408000 171.385000 8.000000] -0.889431 0.000000 0.000000 0.457069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4F209E, 0x7C4F209F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A0, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F20A1, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F20A2, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F20A3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20A9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20AF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20B9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20BF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20C9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20CF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20D9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20DF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20E0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20E1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20E2, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20E3, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20E4, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20E5, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20E6, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20E7, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20E8, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20E9, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20EA, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20EB, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20EC, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20ED, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20EE, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20EF, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F0, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F1, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20F2, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20F3, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F4, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F5, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F6, '2019-02-10 00:00:00') /* Hellfire */
-     , (0x7C4F209E, 0x7C4F20F7, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20F8, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20F9, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20FA, '2019-02-10 00:00:00') /* Ancient Magma Golem */
-     , (0x7C4F209E, 0x7C4F20FB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20FC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20FD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20FE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F20FF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F2100, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F2101, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2102, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2103, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2104, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F2105, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F2106, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2107, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2108, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F2109, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7C4F209E, 0x7C4F210A, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C4F209E, 0x7C4F210B, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C4F209E, 0x7C4F210C, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C4F209E, 0x7C4F210D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C4F209E, 0x7C4F210E, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C4F209E, 0x7C4F210F, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C4F209E, 0x7C4F2110, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C4F209E, 0x7C4F2111, '2019-02-10 00:00:00') /* Remoran Corsair */;
+VALUES (0x7C4F209E, 0x7C4F209F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20A0, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C4F209E, 0x7C4F20A1, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F20A2, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F20A3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20A9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20AF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20B0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42441) */
+     , (0x7C4F209E, 0x7C4F20B1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42441) */
+     , (0x7C4F209E, 0x7C4F20B2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20B3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42441) */
+     , (0x7C4F209E, 0x7C4F20B4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42441) */
+     , (0x7C4F209E, 0x7C4F20B5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20B6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20B7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20B8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42440) */
+     , (0x7C4F209E, 0x7C4F20B9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42440) */
+     , (0x7C4F209E, 0x7C4F20BA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42439) */
+     , (0x7C4F209E, 0x7C4F20BB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20BC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20BD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20BE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20BF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40268) */
+     , (0x7C4F209E, 0x7C4F20C0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20C1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20C9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20CA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20CB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20CC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20CD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20CE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20CF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D2, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D3, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20D4, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D5, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20D6, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D7, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D8, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20D9, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20DA, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20DB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20DC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20DD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20DE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20DF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20E0, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20E1, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20E2, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20E3, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20E4, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20E5, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20E6, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20E7, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20E8, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20E9, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20EA, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20EB, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20EC, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20ED, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20EE, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20EF, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F0, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F1, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20F2, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20F3, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F4, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F5, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F6, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x7C4F209E, 0x7C4F20F7, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20F8, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20F9, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20FA, '2019-02-10 00:00:00') /* Ancient Magma Golem (40267) */
+     , (0x7C4F209E, 0x7C4F20FB, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38412) */
+     , (0x7C4F209E, 0x7C4F20FC, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38442) */
+     , (0x7C4F209E, 0x7C4F20FD, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20FE, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F20FF, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F2100, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38441) */
+     , (0x7C4F209E, 0x7C4F2101, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C4F209E, 0x7C4F2102, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F2103, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F2104, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42440) */
+     , (0x7C4F209E, 0x7C4F2105, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42440) */
+     , (0x7C4F209E, 0x7C4F2106, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C4F209E, 0x7C4F2107, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F2108, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F2109, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (42440) */
+     , (0x7C4F209E, 0x7C4F210A, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C4F209E, 0x7C4F210B, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C4F209E, 0x7C4F210C, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C4F209E, 0x7C4F210D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C4F209E, 0x7C4F210E, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C4F209E, 0x7C4F210F, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C4F209E, 0x7C4F2110, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C4F209E, 0x7C4F2111, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4F209F, 38412, 0xC4F2045C, 160.408, 171.385, 8, -0.889431, 0, 0, 0.457069,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
@@ -746,8 +746,8 @@ VALUES (0x7C4F2112,  1542, 0xC4F203F9, 166.836, 212.514, -9.93046, -0.8863023, 0
 /* @teleloc 0xC4F203F9 [166.836000 212.514000 -9.930460] -0.886302 0.000000 0.000000 0.463107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4F2112, 0x7C4F2113, '2019-02-10 00:00:00') /* Charred Falatacot Journal */
-     , (0x7C4F2112, 0x7C4F2114, '2019-02-10 00:00:00') /* Radiant Mana Infusion */;
+VALUES (0x7C4F2112, 0x7C4F2113, '2019-02-10 00:00:00') /* Charred Falatacot Journal (40271) */
+     , (0x7C4F2112, 0x7C4F2114, '2019-02-10 00:00:00') /* Radiant Mana Infusion (40090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4F2113, 40271, 0xC4F203F9, 166.836, 212.514, -9.93046, -0.8863023, 0, 0, 0.4631071,  True, '2019-02-10 00:00:00'); /* Charred Falatacot Journal */

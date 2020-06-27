@@ -5,39 +5,39 @@ VALUES (0x728EF001,  1154, 0x28EF0031, 157.9928, 11.61495, 43.93833, 0.100743, 0
 /* @teleloc 0x28EF0031 [157.992800 11.614950 43.938330] 0.100743 0.000000 0.000000 -0.994913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728EF001, 0x728EF002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x728EF001, 0x728EF003, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x728EF001, 0x728EF004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x728EF001, 0x728EF005, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x728EF001, 0x728EF006, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x728EF001, 0x728EF007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EF001, 0x728EF008, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EF001, 0x728EF009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EF001, 0x728EF00A, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x728EF001, 0x728EF00B, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x728EF001, 0x728EF00C, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x728EF001, 0x728EF00D, '2019-02-10 00:00:00') /* Eater */
-     , (0x728EF001, 0x728EF00E, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728EF001, 0x728EF00F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EF001, 0x728EF010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x728EF001, 0x728EF011, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x728EF001, 0x728EF012, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x728EF001, 0x728EF013, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x728EF001, 0x728EF014, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728EF001, 0x728EF015, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EF001, 0x728EF016, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x728EF001, 0x728EF017, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x728EF001, 0x728EF018, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x728EF001, 0x728EF019, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x728EF001, 0x728EF01A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x728EF001, 0x728EF01B, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x728EF001, 0x728EF01C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x728EF001, 0x728EF01D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728EF001, 0x728EF01E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x728EF001, 0x728EF01F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x728EF001, 0x728EF020, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x728EF001, 0x728EF021, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x728EF001, 0x728EF022, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x728EF001, 0x728EF002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x728EF001, 0x728EF003, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x728EF001, 0x728EF004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x728EF001, 0x728EF005, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x728EF001, 0x728EF006, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x728EF001, 0x728EF007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EF001, 0x728EF008, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EF001, 0x728EF009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EF001, 0x728EF00A, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x728EF001, 0x728EF00B, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x728EF001, 0x728EF00C, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x728EF001, 0x728EF00D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x728EF001, 0x728EF00E, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728EF001, 0x728EF00F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EF001, 0x728EF010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x728EF001, 0x728EF011, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x728EF001, 0x728EF012, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x728EF001, 0x728EF013, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x728EF001, 0x728EF014, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728EF001, 0x728EF015, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EF001, 0x728EF016, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x728EF001, 0x728EF017, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x728EF001, 0x728EF018, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x728EF001, 0x728EF019, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x728EF001, 0x728EF01A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x728EF001, 0x728EF01B, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x728EF001, 0x728EF01C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x728EF001, 0x728EF01D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728EF001, 0x728EF01E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x728EF001, 0x728EF01F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x728EF001, 0x728EF020, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x728EF001, 0x728EF021, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x728EF001, 0x728EF022, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728EF002,  8968, 0x28EF0031, 157.9928, 11.61495, 43.93833, 0.100743, 0, 0, -0.9949125,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

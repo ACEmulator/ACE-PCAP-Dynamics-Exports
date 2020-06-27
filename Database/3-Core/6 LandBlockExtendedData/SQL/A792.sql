@@ -5,9 +5,9 @@ VALUES (0x7A792001,  1154, 0xA7920011, 50.21024, 18.44623, 36.93663, 0.7660445, 
 /* @teleloc 0xA7920011 [50.210240 18.446230 36.936630] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A792001, 0x7A792002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A792001, 0x7A792003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A792001, 0x7A792004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7A792001, 0x7A792002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A792001, 0x7A792003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A792001, 0x7A792004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A792002,   195, 0xA7920011, 50.21024, 18.44623, 36.93663, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -26,8 +26,8 @@ VALUES (0x7A792005,  1542, 0xA7920011, 49.23973, 14.56575, 37.61354, 0.7660445, 
 /* @teleloc 0xA7920011 [49.239730 14.565750 37.613540] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A792005, 0x7A792006, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x7A792005, 0x7A792007, '2019-02-10 00:00:00') /* Amulet */;
+VALUES (0x7A792005, 0x7A792006, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7A792005, 0x7A792007, '2019-02-10 00:00:00') /* Amulet (294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A792006,   623, 0xA7920011, 49.23973, 14.56575, 37.61354, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Heavy Necklace */

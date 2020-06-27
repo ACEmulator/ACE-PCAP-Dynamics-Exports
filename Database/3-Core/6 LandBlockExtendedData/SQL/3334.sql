@@ -5,12 +5,12 @@ VALUES (0x73334001,  1154, 0x33340037, 153.3343, 163.2833, 42.78786, 0.7601429, 
 /* @teleloc 0x33340037 [153.334300 163.283300 42.787860] 0.760143 0.000000 0.000000 -0.649756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73334001, 0x73334002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x73334001, 0x73334003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73334001, 0x73334004, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x73334001, 0x73334005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73334001, 0x73334006, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x73334001, 0x73334007, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x73334001, 0x73334002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x73334001, 0x73334003, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73334001, 0x73334004, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x73334001, 0x73334005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73334001, 0x73334006, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x73334001, 0x73334007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73334002,  7098, 0x33340037, 153.3343, 163.2833, 42.78786, 0.7601429, 0, 0, -0.6497559,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

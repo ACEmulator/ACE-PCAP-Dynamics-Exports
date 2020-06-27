@@ -5,20 +5,20 @@ VALUES (0x7E94F001,  1154, 0xE94F0023, 108.7636, 54.70137, -0.4496999, -0.617058
 /* @teleloc 0xE94F0023 [108.763600 54.701370 -0.449700] -0.617058 0.000000 0.000000 -0.786917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E94F001, 0x7E94F002, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7E94F001, 0x7E94F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E94F001, 0x7E94F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E94F001, 0x7E94F005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E94F001, 0x7E94F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E94F001, 0x7E94F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E94F001, 0x7E94F008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E94F001, 0x7E94F009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E94F001, 0x7E94F00A, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E94F001, 0x7E94F00B, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E94F001, 0x7E94F00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E94F001, 0x7E94F00D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E94F001, 0x7E94F00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E94F001, 0x7E94F00F, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7E94F001, 0x7E94F002, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7E94F001, 0x7E94F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E94F001, 0x7E94F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E94F001, 0x7E94F005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E94F001, 0x7E94F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E94F001, 0x7E94F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E94F001, 0x7E94F008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E94F001, 0x7E94F009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E94F001, 0x7E94F00A, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E94F001, 0x7E94F00B, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E94F001, 0x7E94F00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E94F001, 0x7E94F00D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E94F001, 0x7E94F00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E94F001, 0x7E94F00F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E94F002,  7985, 0xE94F0023, 108.7636, 54.70137, -0.4496999, -0.6170583, 0, 0, -0.7869174,  True, '2019-02-10 00:00:00'); /* Listris Niffis */

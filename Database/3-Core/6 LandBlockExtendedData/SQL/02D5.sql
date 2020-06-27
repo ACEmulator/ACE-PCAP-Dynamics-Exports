@@ -13,54 +13,54 @@ VALUES (0x702D503F,  1154, 0x02D50230, 74.327, -20.6802, 0.003324986, 0.714421, 
 /* @teleloc 0x02D50230 [74.327000 -20.680200 0.003325] 0.714421 0.000000 0.000000 -0.699716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D503F, 0x702D5040, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5041, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5042, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5043, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5044, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702D503F, 0x702D5045, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702D503F, 0x702D5046, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702D503F, 0x702D5047, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5048, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5049, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D504A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D504B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702D503F, 0x702D504C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702D503F, 0x702D504D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702D503F, 0x702D504E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D504F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5050, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x702D503F, 0x702D5051, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5052, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5053, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5054, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5055, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5056, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5057, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5058, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5059, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D505A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D505B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D505C, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D505D, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D505E, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D505F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5060, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5061, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5062, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5063, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D5064, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5065, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D5066, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x702D503F, 0x702D5067, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D5068, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D5069, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D506A, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D506B, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x702D503F, 0x702D506C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x702D503F, 0x702D506D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x702D503F, 0x702D506E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x702D503F, 0x702D506F, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x702D503F, 0x702D5040, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5041, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5042, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5043, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5044, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702D503F, 0x702D5045, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702D503F, 0x702D5046, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702D503F, 0x702D5047, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5048, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5049, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D504A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D504B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702D503F, 0x702D504C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702D503F, 0x702D504D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702D503F, 0x702D504E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D504F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5050, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x702D503F, 0x702D5051, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5052, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5053, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5054, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5055, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5056, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5057, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5058, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5059, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D505A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D505B, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x702D503F, 0x702D505C, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D505D, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D505E, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D505F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5060, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5061, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5062, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x702D503F, 0x702D5063, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D5064, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x702D503F, 0x702D5065, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D5066, '2019-02-10 00:00:00') /* Banderling Striker (7330) */
+     , (0x702D503F, 0x702D5067, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D5068, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D5069, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D506A, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D506B, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x702D503F, 0x702D506C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x702D503F, 0x702D506D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x702D503F, 0x702D506E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x702D503F, 0x702D506F, '2019-02-10 00:00:00') /* Banderling Striker (7330) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D5040,  1608, 0x02D50230, 74.327, -20.6802, 0.003324986, 0.714421, 0, 0, -0.699716,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -259,8 +259,8 @@ VALUES (0x702D5070,  1542, 0x02D50103, 48.6974, -158.212, -41.921, 0.561168, 0, 
 /* @teleloc 0x02D50103 [48.697400 -158.212000 -41.921000] 0.561168 0.000000 0.000000 -0.827702 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D5070, 0x702D5071, '2019-02-10 00:00:00') /* Sdolin Buk! */
-     , (0x702D5070, 0x702D5072, '2019-02-10 00:00:00') /* Brewmaster's Spine */;
+VALUES (0x702D5070, 0x702D5071, '2019-02-10 00:00:00') /* Sdolin Buk! (28757) */
+     , (0x702D5070, 0x702D5072, '2019-02-10 00:00:00') /* Brewmaster's Spine (29208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D5071, 28757, 0x02D50103, 48.6974, -158.212, -41.921, 0.561168, 0, 0, -0.8277019,  True, '2019-02-10 00:00:00'); /* Sdolin Buk! */

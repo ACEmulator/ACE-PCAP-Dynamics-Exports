@@ -5,19 +5,19 @@ VALUES (0x71653001,  1154, 0x16530008, 6.430452, 181.2755, 33.28888, -0.6997979,
 /* @teleloc 0x16530008 [6.430452 181.275500 33.288880] -0.699798 0.000000 0.000000 -0.714341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71653001, 0x71653002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71653001, 0x71653003, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71653001, 0x71653004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71653001, 0x71653005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71653001, 0x71653006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71653001, 0x71653007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71653001, 0x71653008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71653001, 0x71653009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71653001, 0x7165300A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71653001, 0x7165300B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71653001, 0x7165300C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71653001, 0x7165300D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71653001, 0x7165300E, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71653001, 0x71653002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71653001, 0x71653003, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71653001, 0x71653004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71653001, 0x71653005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71653001, 0x71653006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71653001, 0x71653007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71653001, 0x71653008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71653001, 0x71653009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71653001, 0x7165300A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71653001, 0x7165300B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71653001, 0x7165300C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71653001, 0x7165300D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71653001, 0x7165300E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71653002, 36821, 0x16530008, 6.430452, 181.2755, 33.28888, -0.6997979, 0, 0, -0.7143409,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -76,7 +76,7 @@ VALUES (0x7165300F,  1542, 0x16530008, 0.02518655, 185.0337, 35.3355, -0.1736482
 /* @teleloc 0x16530008 [0.025187 185.033700 35.335500] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165300F, 0x71653010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7165300F, 0x71653010, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71653010,  4381, 0x16530008, 0.02518655, 185.0337, 35.3355, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

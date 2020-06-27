@@ -5,15 +5,15 @@ VALUES (0x7C972001,  1154, 0xC9720006, 18.1022, 124.4882, 36.49698, 1, 0, 0, 0, 
 /* @teleloc 0xC9720006 [18.102200 124.488200 36.496980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C972001, 0x7C972002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C972001, 0x7C972003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C972001, 0x7C972004, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7C972001, 0x7C972005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C972001, 0x7C972006, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7C972001, 0x7C972007, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7C972001, 0x7C972008, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7C972001, 0x7C972009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C972001, 0x7C97200A, '2019-02-10 00:00:00') /* Battered Doll */;
+VALUES (0x7C972001, 0x7C972002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C972001, 0x7C972003, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x7C972001, 0x7C972004, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7C972001, 0x7C972005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C972001, 0x7C972006, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7C972001, 0x7C972007, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7C972001, 0x7C972008, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7C972001, 0x7C972009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C972001, 0x7C97200A, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C972002,   231, 0xC9720006, 18.1022, 124.4882, 36.49698, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -56,11 +56,11 @@ VALUES (0x7C97200B,  1542, 0xC9720006, 22.25099, 121.9541, 36.20234, 1, 0, 0, 0,
 /* @teleloc 0xC9720006 [22.250990 121.954100 36.202340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C97200B, 0x7C97200C, '2019-02-10 00:00:00') /* Map to Burun Lair */
-     , (0x7C97200B, 0x7C97200D, '2019-02-10 00:00:00') /* Map to Burun Lair */
-     , (0x7C97200B, 0x7C97200E, '2019-02-10 00:00:00') /* Map to Burun Lair */
-     , (0x7C97200B, 0x7C97200F, '2019-02-10 00:00:00') /* Campfire */
-     , (0x7C97200B, 0x7C972010, '2019-02-10 00:00:00') /* Map to Burun Lair */;
+VALUES (0x7C97200B, 0x7C97200C, '2019-02-10 00:00:00') /* Map to Burun Lair (27700) */
+     , (0x7C97200B, 0x7C97200D, '2019-02-10 00:00:00') /* Map to Burun Lair (27700) */
+     , (0x7C97200B, 0x7C97200E, '2019-02-10 00:00:00') /* Map to Burun Lair (27700) */
+     , (0x7C97200B, 0x7C97200F, '2019-02-10 00:00:00') /* Campfire (4128) */
+     , (0x7C97200B, 0x7C972010, '2019-02-10 00:00:00') /* Map to Burun Lair (27700) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C97200C, 27700, 0xC9720006, 22.25099, 121.9541, 36.20234, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Map to Burun Lair */

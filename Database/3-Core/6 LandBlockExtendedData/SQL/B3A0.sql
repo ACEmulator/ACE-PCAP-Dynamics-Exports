@@ -5,17 +5,17 @@ VALUES (0x7B3A0001,  1154, 0xB3A00040, 169.9131, 185.2405, 67.84772, 0.7071068, 
 /* @teleloc 0xB3A00040 [169.913100 185.240500 67.847720] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A0001, 0x7B3A0002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B3A0001, 0x7B3A0003, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B3A0001, 0x7B3A0004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B3A0001, 0x7B3A0005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B3A0001, 0x7B3A0006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A0001, 0x7B3A0007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A0001, 0x7B3A0008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A0001, 0x7B3A0009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A0001, 0x7B3A000A, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B3A0001, 0x7B3A000B, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B3A0001, 0x7B3A000C, '2019-02-10 00:00:00') /* Mite Digger */;
+VALUES (0x7B3A0001, 0x7B3A0002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B3A0001, 0x7B3A0003, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B3A0001, 0x7B3A0004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B3A0001, 0x7B3A0005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B3A0001, 0x7B3A0006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A0001, 0x7B3A0007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A0001, 0x7B3A0008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A0001, 0x7B3A0009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A0001, 0x7B3A000A, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B3A0001, 0x7B3A000B, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B3A0001, 0x7B3A000C, '2019-02-10 00:00:00') /* Mite Digger (944) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A0002,   938, 0xB3A00040, 169.9131, 185.2405, 67.84772, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Raider */

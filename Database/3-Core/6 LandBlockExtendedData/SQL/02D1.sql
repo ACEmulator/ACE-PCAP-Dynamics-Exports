@@ -105,36 +105,36 @@ VALUES (0x702D1032,  1154, 0x02D101E0, 49.4068, -71.423, 0.007149994, -0.792269,
 /* @teleloc 0x02D101E0 [49.406800 -71.423000 0.007150] -0.792269 0.000000 0.000000 -0.610172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D1032, 0x702D1033, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1034, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1035, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1036, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1037, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1038, '2019-02-10 00:00:00') /* Grave Rat */
-     , (0x702D1032, 0x702D1039, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D103A, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D103B, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D103C, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D103D, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702D1032, 0x702D103E, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D103F, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702D1032, 0x702D1040, '2019-02-10 00:00:00') /* Disgust Wisp */
-     , (0x702D1032, 0x702D1041, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1042, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1043, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1044, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1045, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1046, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1047, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1048, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1049, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D104A, '2019-02-10 00:00:00') /* Virindi Monitor */
-     , (0x702D1032, 0x702D104B, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x702D1032, 0x702D104C, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x702D1032, 0x702D104D, '2019-02-10 00:00:00') /* Zombie Mage */
-     , (0x702D1032, 0x702D104E, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D104F, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x702D1032, 0x702D1050, '2019-02-10 00:00:00') /* Banderling Smasher */;
+VALUES (0x702D1032, 0x702D1033, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1034, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1035, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1036, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1037, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1038, '2019-02-10 00:00:00') /* Grave Rat (43166) */
+     , (0x702D1032, 0x702D1039, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D103A, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D103B, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D103C, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D103D, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702D1032, 0x702D103E, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D103F, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702D1032, 0x702D1040, '2019-02-10 00:00:00') /* Disgust Wisp (43160) */
+     , (0x702D1032, 0x702D1041, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1042, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1043, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1044, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1045, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1046, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1047, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1048, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1049, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D104A, '2019-02-10 00:00:00') /* Virindi Monitor (43227) */
+     , (0x702D1032, 0x702D104B, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x702D1032, 0x702D104C, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x702D1032, 0x702D104D, '2019-02-10 00:00:00') /* Zombie Mage (43162) */
+     , (0x702D1032, 0x702D104E, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D104F, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */
+     , (0x702D1032, 0x702D1050, '2019-02-10 00:00:00') /* Banderling Smasher (43165) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D1033, 43165, 0x02D101E0, 49.4068, -71.423, 0.007149994, -0.792269, 0, 0, -0.610172,  True, '2019-02-10 00:00:00'); /* Banderling Smasher */
@@ -261,14 +261,14 @@ VALUES (0x702D1051,  1542, 0x02D10230, 56.81808, -68.59554, 6.024, -0.282977, 0,
 /* @teleloc 0x02D10230 [56.818080 -68.595540 6.024000] -0.282977 0.000000 0.000000 -0.959127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D1051, 0x702D1052, '2019-02-10 00:00:00') /* Cheese */
-     , (0x702D1051, 0x702D1053, '2019-02-10 00:00:00') /* Eastham Portal */
-     , (0x702D1051, 0x702D1054, '2019-02-10 00:00:00') /* Qalaba'r Portal */
-     , (0x702D1051, 0x702D1055, '2019-02-10 00:00:00') /* Cheese */
-     , (0x702D1051, 0x702D1056, '2019-02-10 00:00:00') /* Sho Roadside */
-     , (0x702D1051, 0x702D1057, '2019-02-10 00:00:00') /* Plateau Portal */
-     , (0x702D1051, 0x702D1058, '2019-02-10 00:00:00') /* Portal to Zaikhal */
-     , (0x702D1051, 0x702D1059, '2019-02-10 00:00:00') /* Eastham Portal */;
+VALUES (0x702D1051, 0x702D1052, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x702D1051, 0x702D1053, '2019-02-10 00:00:00') /* Eastham Portal (42815) */
+     , (0x702D1051, 0x702D1054, '2019-02-10 00:00:00') /* Qalaba'r Portal (42833) */
+     , (0x702D1051, 0x702D1055, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x702D1051, 0x702D1056, '2019-02-10 00:00:00') /* Sho Roadside (1907) */
+     , (0x702D1051, 0x702D1057, '2019-02-10 00:00:00') /* Plateau Portal (42812) */
+     , (0x702D1051, 0x702D1058, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */
+     , (0x702D1051, 0x702D1059, '2019-02-10 00:00:00') /* Eastham Portal (42815) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D1052,   261, 0x02D10230, 56.81808, -68.59554, 6.024, -0.282977, 0, 0, -0.959127,  True, '2019-02-10 00:00:00'); /* Cheese */

@@ -5,10 +5,10 @@ VALUES (0x74339001,  1154, 0x43390006, 18.59507, 130.7198, 30.44625, 0.918646, 0
 /* @teleloc 0x43390006 [18.595070 130.719800 30.446250] 0.918646 0.000000 0.000000 -0.395082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74339001, 0x74339002, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x74339001, 0x74339003, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x74339001, 0x74339004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74339001, 0x74339005, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x74339001, 0x74339002, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x74339001, 0x74339003, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x74339001, 0x74339004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74339001, 0x74339005, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74339002, 23485, 0x43390006, 18.59507, 130.7198, 30.44625, 0.918646, 0, 0, -0.3950817,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */

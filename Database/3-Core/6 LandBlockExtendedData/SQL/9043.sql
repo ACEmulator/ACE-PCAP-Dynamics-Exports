@@ -5,14 +5,14 @@ VALUES (0x79043001,  1154, 0x90430019, 85.26827, 3.233154, 14.01, -0.444704, 0, 
 /* @teleloc 0x90430019 [85.268270 3.233154 14.010000] -0.444704 0.000000 0.000000 -0.895678 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79043001, 0x79043002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79043001, 0x79043003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79043001, 0x79043004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79043001, 0x79043005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79043001, 0x79043006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79043001, 0x79043007, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79043001, 0x79043008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79043001, 0x79043009, '2019-02-10 00:00:00') /* Dark Marionette */;
+VALUES (0x79043001, 0x79043002, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79043001, 0x79043003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79043001, 0x79043004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79043001, 0x79043005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79043001, 0x79043006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79043001, 0x79043007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79043001, 0x79043008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79043001, 0x79043009, '2019-02-10 00:00:00') /* Dark Marionette (9250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79043002,  6645, 0x90430019, 85.26827, 3.233154, 14.01, -0.444704, 0, 0, -0.8956776,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -51,7 +51,7 @@ VALUES (0x7904300A,  1542, 0x9043001F, 87.52315, 147.08, 15.15614, -0.798925, 0,
 /* @teleloc 0x9043001F [87.523150 147.080000 15.156140] -0.798925 0.000000 0.000000 -0.601431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7904300A, 0x7904300B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7904300A, 0x7904300B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7904300B,  8041, 0x9043001F, 87.52315, 147.08, 15.15614, -0.798925, 0, 0, -0.6014306,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

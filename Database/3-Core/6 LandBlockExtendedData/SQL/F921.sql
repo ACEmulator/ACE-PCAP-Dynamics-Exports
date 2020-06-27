@@ -9,24 +9,24 @@ VALUES (0x7F921001,  1154, 0xF9210100, 60.9354, 119.012, 13.655, -0.0603658, 0, 
 /* @teleloc 0xF9210100 [60.935400 119.012000 13.655000] -0.060366 0.000000 0.000000 -0.998176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F921001, 0x7F921002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921009, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F921001, 0x7F92100A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F921001, 0x7F92100B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F921001, 0x7F92100C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F92100D, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F921001, 0x7F92100E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F921001, 0x7F92100F, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921011, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F921001, 0x7F921012, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F921001, 0x7F921013, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7F921001, 0x7F921002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921009, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F921001, 0x7F92100A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F921001, 0x7F92100B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F921001, 0x7F92100C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F92100D, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F921001, 0x7F92100E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F921001, 0x7F92100F, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921011, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F921001, 0x7F921012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F921001, 0x7F921013, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F921002,  7111, 0xF9210100, 60.9354, 119.012, 13.655, -0.0603658, 0, 0, -0.998176,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -105,7 +105,7 @@ VALUES (0x7F921014,  1542, 0xF921002A, 133.7128, 24.28235, 20, -0.1824904, 0, 0,
 /* @teleloc 0xF921002A [133.712800 24.282350 20.000000] -0.182490 0.000000 0.000000 -0.983208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F921014, 0x7F921015, '2019-02-10 00:00:00') /* Nutmeg */;
+VALUES (0x7F921014, 0x7F921015, '2019-02-10 00:00:00') /* Nutmeg (14795) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F921015, 14795, 0xF921002A, 133.7128, 24.28235, 20, -0.1824904, 0, 0, -0.9832076,  True, '2019-02-10 00:00:00'); /* Nutmeg */

@@ -5,11 +5,11 @@ VALUES (0x7BE8C001,  1154, 0xBE8C0006, 5.681213, 127.5561, 30.0045, 0.4250594, 0
 /* @teleloc 0xBE8C0006 [5.681213 127.556100 30.004500] 0.425059 0.000000 0.000000 -0.905165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE8C001, 0x7BE8C002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BE8C001, 0x7BE8C003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BE8C001, 0x7BE8C004, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BE8C001, 0x7BE8C005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BE8C001, 0x7BE8C006, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7BE8C001, 0x7BE8C002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BE8C001, 0x7BE8C003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BE8C001, 0x7BE8C004, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BE8C001, 0x7BE8C005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE8C001, 0x7BE8C006, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE8C002,  1613, 0xBE8C0006, 5.681213, 127.5561, 30.0045, 0.4250594, 0, 0, -0.9051654,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */

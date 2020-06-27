@@ -5,10 +5,10 @@ VALUES (0x72431001,  1154, 0x24310025, 109.9053, 104.5896, 133.6359, 0.8458998, 
 /* @teleloc 0x24310025 [109.905300 104.589600 133.635900] 0.845900 0.000000 0.000000 -0.533342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72431001, 0x72431002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72431001, 0x72431003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72431001, 0x72431004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72431001, 0x72431005, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x72431001, 0x72431002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72431001, 0x72431003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72431001, 0x72431004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72431001, 0x72431005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72431002, 23566, 0x24310025, 109.9053, 104.5896, 133.6359, 0.8458998, 0, 0, -0.5333418,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

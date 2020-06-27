@@ -5,13 +5,13 @@ VALUES (0x7A033001,  1154, 0xA033003F, 179.8314, 164.419, 58.72018, 0.6575634, 0
 /* @teleloc 0xA033003F [179.831400 164.419000 58.720180] 0.657563 0.000000 0.000000 -0.753399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A033001, 0x7A033002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A033001, 0x7A033003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A033001, 0x7A033004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A033001, 0x7A033005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A033001, 0x7A033006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A033001, 0x7A033007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A033001, 0x7A033008, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7A033001, 0x7A033002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A033001, 0x7A033003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A033001, 0x7A033004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A033001, 0x7A033005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A033001, 0x7A033006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A033001, 0x7A033007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A033001, 0x7A033008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A033002,  1609, 0xA033003F, 179.8314, 164.419, 58.72018, 0.6575634, 0, 0, -0.7533992,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

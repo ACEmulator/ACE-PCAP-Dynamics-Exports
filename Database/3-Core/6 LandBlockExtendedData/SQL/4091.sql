@@ -5,11 +5,11 @@ VALUES (0x74091001,  1154, 0x40910032, 152.8133, 35.91558, 44.1623, 0.2050008, 0
 /* @teleloc 0x40910032 [152.813300 35.915580 44.162300] 0.205001 0.000000 0.000000 -0.978762 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74091001, 0x74091002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74091001, 0x74091003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74091001, 0x74091004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74091001, 0x74091005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74091001, 0x74091006, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x74091001, 0x74091002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74091001, 0x74091003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74091001, 0x74091004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74091001, 0x74091005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74091001, 0x74091006, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74091002, 36855, 0x40910032, 152.8133, 35.91558, 44.1623, 0.2050008, 0, 0, -0.9787618,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

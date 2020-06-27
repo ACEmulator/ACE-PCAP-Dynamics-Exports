@@ -5,14 +5,14 @@ VALUES (0x73D8F001,  1154, 0x3D8F0037, 164.6579, 152.5551, -0.8899999, 0.0652412
 /* @teleloc 0x3D8F0037 [164.657900 152.555100 -0.890000] 0.065241 0.000000 0.000000 -0.997870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D8F001, 0x73D8F002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73D8F001, 0x73D8F003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73D8F001, 0x73D8F004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D8F001, 0x73D8F005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D8F001, 0x73D8F006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D8F001, 0x73D8F007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73D8F001, 0x73D8F008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73D8F001, 0x73D8F009, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73D8F001, 0x73D8F002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73D8F001, 0x73D8F003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73D8F001, 0x73D8F004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D8F001, 0x73D8F005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D8F001, 0x73D8F006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D8F001, 0x73D8F007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73D8F001, 0x73D8F008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73D8F001, 0x73D8F009, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D8F002, 36827, 0x3D8F0037, 164.6579, 152.5551, -0.8899999, 0.06524129, 0, 0, -0.9978695,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
@@ -51,8 +51,8 @@ VALUES (0x73D8F00A,  1542, 0x3D8F000D, 44.3382, 105.4346, 0.3051504, 0.9990482, 
 /* @teleloc 0x3D8F000D [44.338200 105.434600 0.305150] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D8F00A, 0x73D8F00B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73D8F00A, 0x73D8F00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73D8F00A, 0x73D8F00B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73D8F00A, 0x73D8F00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D8F00B,  4179, 0x3D8F000D, 44.3382, 105.4346, 0.3051504, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

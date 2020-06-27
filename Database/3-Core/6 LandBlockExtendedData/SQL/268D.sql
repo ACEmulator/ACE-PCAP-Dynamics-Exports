@@ -5,13 +5,13 @@ VALUES (0x7268D001,  1154, 0x268D0023, 109.0411, 60.18347, 63.80591, 0.9238795, 
 /* @teleloc 0x268D0023 [109.041100 60.183470 63.805910] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7268D001, 0x7268D002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7268D001, 0x7268D003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7268D001, 0x7268D004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7268D001, 0x7268D005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7268D001, 0x7268D006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7268D001, 0x7268D007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7268D001, 0x7268D008, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x7268D001, 0x7268D002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7268D001, 0x7268D003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7268D001, 0x7268D004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7268D001, 0x7268D005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7268D001, 0x7268D006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7268D001, 0x7268D007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7268D001, 0x7268D008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7268D002, 36830, 0x268D0023, 109.0411, 60.18347, 63.80591, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

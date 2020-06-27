@@ -5,10 +5,10 @@ VALUES (0x7CC7A001,  1154, 0xCC7A0039, 174.7646, 10.62777, 4.306928, 0.9895416, 
 /* @teleloc 0xCC7A0039 [174.764600 10.627770 4.306928] 0.989542 0.000000 0.000000 -0.144247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC7A001, 0x7CC7A002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CC7A001, 0x7CC7A003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CC7A001, 0x7CC7A004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CC7A001, 0x7CC7A005, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7CC7A001, 0x7CC7A002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CC7A001, 0x7CC7A003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CC7A001, 0x7CC7A004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CC7A001, 0x7CC7A005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC7A002,  4110, 0xCC7A0039, 174.7646, 10.62777, 4.306928, 0.9895416, 0, 0, -0.1442474,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

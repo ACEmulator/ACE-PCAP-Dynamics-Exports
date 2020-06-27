@@ -9,33 +9,33 @@ VALUES (0x7228E001,  1154, 0x228E003E, 185.431, 138.371, 260.0065, 0.174913, 0, 
 /* @teleloc 0x228E003E [185.431000 138.371000 260.006500] 0.174913 0.000000 0.000000 -0.984584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7228E001, 0x7228E002, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7228E001, 0x7228E003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7228E001, 0x7228E004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7228E001, 0x7228E005, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7228E001, 0x7228E007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E00B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E00C, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E00D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7228E001, 0x7228E00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E00F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7228E001, 0x7228E010, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E011, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E012, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E013, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E014, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E015, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E016, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7228E001, 0x7228E017, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7228E001, 0x7228E018, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7228E001, 0x7228E019, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7228E001, 0x7228E01A, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7228E001, 0x7228E01B, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7228E001, 0x7228E01C, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x7228E001, 0x7228E002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7228E001, 0x7228E003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7228E001, 0x7228E004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7228E001, 0x7228E005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7228E001, 0x7228E007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E00B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E00C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7228E001, 0x7228E00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E00F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7228E001, 0x7228E010, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E011, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E012, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E013, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E014, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E015, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E016, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7228E001, 0x7228E017, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7228E001, 0x7228E018, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7228E001, 0x7228E019, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7228E001, 0x7228E01A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7228E001, 0x7228E01B, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7228E001, 0x7228E01C, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7228E002,   230, 0x228E003E, 185.431, 138.371, 260.0065, 0.174913, 0, 0, -0.984584,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */

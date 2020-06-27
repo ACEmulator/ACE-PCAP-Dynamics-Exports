@@ -53,17 +53,17 @@ VALUES (0x702BB015,  1154, 0x02BB0164, 87.36826, -90.60474, 0.004999995, -0.9660
 /* @teleloc 0x02BB0164 [87.368260 -90.604740 0.005000] -0.966006 0.000000 0.000000 -0.258520 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BB015, 0x702BB016, '2019-02-10 00:00:00') /* Shadow */
-     , (0x702BB015, 0x702BB017, '2019-02-10 00:00:00') /* Shadow */
-     , (0x702BB015, 0x702BB018, '2019-02-10 00:00:00') /* Shadow */
-     , (0x702BB015, 0x702BB019, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x702BB015, 0x702BB01A, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x702BB015, 0x702BB01B, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x702BB015, 0x702BB01C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x702BB015, 0x702BB01D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702BB015, 0x702BB01E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702BB015, 0x702BB01F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702BB015, 0x702BB020, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x702BB015, 0x702BB016, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x702BB015, 0x702BB017, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x702BB015, 0x702BB018, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x702BB015, 0x702BB019, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x702BB015, 0x702BB01A, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x702BB015, 0x702BB01B, '2019-02-10 00:00:00') /* Small Shadow Child (8423) */
+     , (0x702BB015, 0x702BB01C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x702BB015, 0x702BB01D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702BB015, 0x702BB01E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702BB015, 0x702BB01F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702BB015, 0x702BB020, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BB016,  1758, 0x02BB0164, 87.36826, -90.60474, 0.004999995, -0.966006, 0, 0, -0.2585195,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -114,7 +114,7 @@ VALUES (0x702BB021,  1542, 0x02BB0196, 105.0647, -83.0366, 23.937, 0.2416665, 0,
 /* @teleloc 0x02BB0196 [105.064700 -83.036600 23.937000] 0.241667 0.000000 0.000000 -0.970359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BB021, 0x702BB022, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x702BB021, 0x702BB022, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BB022,  1955, 0x02BB0196, 105.0647, -83.0366, 23.937, 0.2416665, 0, 0, -0.9703594,  True, '2019-02-10 00:00:00'); /* Gateway */

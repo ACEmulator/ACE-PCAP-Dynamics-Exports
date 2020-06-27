@@ -5,17 +5,17 @@ VALUES (0x7AED8001,  1154, 0xAED80030, 143.8582, 183.9389, 18.005, -0.4330654, 0
 /* @teleloc 0xAED80030 [143.858200 183.938900 18.005000] -0.433065 0.000000 0.000000 -0.901363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED8001, 0x7AED8002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AED8001, 0x7AED8003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AED8001, 0x7AED8004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AED8001, 0x7AED8005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7AED8001, 0x7AED8006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AED8001, 0x7AED8007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AED8001, 0x7AED8008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AED8001, 0x7AED8009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AED8001, 0x7AED800A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7AED8001, 0x7AED800B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AED8001, 0x7AED800C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7AED8001, 0x7AED8002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AED8001, 0x7AED8003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AED8001, 0x7AED8004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AED8001, 0x7AED8005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7AED8001, 0x7AED8006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AED8001, 0x7AED8007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AED8001, 0x7AED8008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AED8001, 0x7AED8009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AED8001, 0x7AED800A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7AED8001, 0x7AED800B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AED8001, 0x7AED800C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED8002,  4253, 0xAED80030, 143.8582, 183.9389, 18.005, -0.4330654, 0, 0, -0.9013625,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -66,7 +66,7 @@ VALUES (0x7AED800D,  1542, 0xAED8002B, 123.9708, 66.69785, 25.6691, 0.5378963, 0
 /* @teleloc 0xAED8002B [123.970800 66.697850 25.669100] 0.537896 0.000000 0.000000 -0.843011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED800D, 0x7AED800E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7AED800D, 0x7AED800E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED800E,  8041, 0xAED8002B, 123.9708, 66.69785, 25.6691, 0.5378963, 0, 0, -0.843011,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

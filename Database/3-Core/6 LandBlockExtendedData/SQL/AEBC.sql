@@ -5,13 +5,13 @@ VALUES (0x7AEBC001,  1154, 0xAEBC0011, 52.84838, 3.203551, 115.7292, 0.05725049,
 /* @teleloc 0xAEBC0011 [52.848380 3.203551 115.729200] 0.057250 0.000000 0.000000 -0.998360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEBC001, 0x7AEBC002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEBC001, 0x7AEBC003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEBC001, 0x7AEBC004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AEBC001, 0x7AEBC005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AEBC001, 0x7AEBC006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEBC001, 0x7AEBC007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AEBC001, 0x7AEBC008, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7AEBC001, 0x7AEBC002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AEBC001, 0x7AEBC003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEBC001, 0x7AEBC004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AEBC001, 0x7AEBC005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AEBC001, 0x7AEBC006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEBC001, 0x7AEBC007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AEBC001, 0x7AEBC008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEBC002,   193, 0xAEBC0011, 52.84838, 3.203551, 115.7292, 0.05725049, 0, 0, -0.9983599,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

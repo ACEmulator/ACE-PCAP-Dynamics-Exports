@@ -5,13 +5,13 @@ VALUES (0x742EE001,  1154, 0x42EE002E, 125.4428, 142.802, 40.0066, 0.1094825, 0,
 /* @teleloc 0x42EE002E [125.442800 142.802000 40.006600] 0.109483 0.000000 0.000000 -0.993989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742EE001, 0x742EE002, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x742EE001, 0x742EE003, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x742EE001, 0x742EE004, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x742EE001, 0x742EE005, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x742EE001, 0x742EE006, '2019-02-10 00:00:00') /* Uber Penguin */
-     , (0x742EE001, 0x742EE007, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x742EE001, 0x742EE008, '2019-02-10 00:00:00') /* Abhorrent Eater */;
+VALUES (0x742EE001, 0x742EE002, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x742EE001, 0x742EE003, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x742EE001, 0x742EE004, '2019-02-10 00:00:00') /* Uber Penguin (28659) */
+     , (0x742EE001, 0x742EE005, '2019-02-10 00:00:00') /* Uber Penguin (28660) */
+     , (0x742EE001, 0x742EE006, '2019-02-10 00:00:00') /* Uber Penguin (28660) */
+     , (0x742EE001, 0x742EE007, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x742EE001, 0x742EE008, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742EE002, 29344, 0x42EE002E, 125.4428, 142.802, 40.0066, 0.1094825, 0, 0, -0.9939887,  True, '2019-02-10 00:00:00'); /* Ruschk Sadist */

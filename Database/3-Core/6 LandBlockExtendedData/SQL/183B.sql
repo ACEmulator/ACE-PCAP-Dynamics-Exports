@@ -5,15 +5,15 @@ VALUES (0x7183B001,  1154, 0x183B0023, 111.7252, 71.93649, 0.007149994, 0.887144
 /* @teleloc 0x183B0023 [111.725200 71.936490 0.007150] 0.887144 0.000000 0.000000 -0.461492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183B001, 0x7183B002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7183B001, 0x7183B003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7183B001, 0x7183B004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7183B001, 0x7183B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7183B001, 0x7183B006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7183B001, 0x7183B007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7183B001, 0x7183B008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7183B001, 0x7183B009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7183B001, 0x7183B00A, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x7183B001, 0x7183B002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7183B001, 0x7183B003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7183B001, 0x7183B004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7183B001, 0x7183B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7183B001, 0x7183B006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7183B001, 0x7183B007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7183B001, 0x7183B008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7183B001, 0x7183B009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7183B001, 0x7183B00A, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183B002, 36818, 0x183B0023, 111.7252, 71.93649, 0.007149994, 0.8871444, 0, 0, -0.461492,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

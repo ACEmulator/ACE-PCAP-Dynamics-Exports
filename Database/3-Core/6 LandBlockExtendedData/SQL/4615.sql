@@ -5,16 +5,16 @@ VALUES (0x74615001,  1154, 0x46150019, 93.03037, 0.9348482, -0.438, 0.7071068, 0
 /* @teleloc 0x46150019 [93.030370 0.934848 -0.438000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74615001, 0x74615002, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74615001, 0x74615003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74615001, 0x74615004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74615001, 0x74615005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74615001, 0x74615006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74615001, 0x74615007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74615001, 0x74615008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74615001, 0x74615009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74615001, 0x7461500A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74615001, 0x7461500B, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x74615001, 0x74615002, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74615001, 0x74615003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74615001, 0x74615004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74615001, 0x74615005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74615001, 0x74615006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74615001, 0x74615007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74615001, 0x74615008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74615001, 0x74615009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74615001, 0x7461500A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74615001, 0x7461500B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74615002, 24310, 0x46150019, 93.03037, 0.9348482, -0.438, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Direland Rat */
@@ -61,7 +61,7 @@ VALUES (0x7461500C,  1542, 0x46150003, 4.414926, 57.81823, 68, 1, 0, 0, 0, False
 /* @teleloc 0x46150003 [4.414926 57.818230 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7461500C, 0x7461500D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7461500C, 0x7461500D, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7461500D, 22571, 0x46150003, 4.414926, 57.81823, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,18 +5,18 @@ VALUES (0x7BC70001,  1154, 0xBC70001D, 72.10331, 99.28574, 5.562, 0.9400944, 0, 
 /* @teleloc 0xBC70001D [72.103310 99.285740 5.562000] 0.940094 0.000000 0.000000 -0.340914 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC70001, 0x7BC70002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC70003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC70004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC70005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BC70001, 0x7BC70006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC70001, 0x7BC70007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC70001, 0x7BC70008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC70009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC7000A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC70001, 0x7BC7000B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC70001, 0x7BC7000C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC70001, 0x7BC7000D, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7BC70001, 0x7BC70002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC70003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC70004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC70005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BC70001, 0x7BC70006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC70001, 0x7BC70007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC70001, 0x7BC70008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC70009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC7000A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC70001, 0x7BC7000B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC70001, 0x7BC7000C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC70001, 0x7BC7000D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC70002,   216, 0xBC70001D, 72.10331, 99.28574, 5.562, 0.9400944, 0, 0, -0.3409142,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

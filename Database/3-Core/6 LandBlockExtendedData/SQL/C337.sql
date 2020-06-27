@@ -5,18 +5,18 @@ VALUES (0x7C337001,  1154, 0xC3370037, 166.9514, 158.8807, 70.67711, 0.9521098, 
 /* @teleloc 0xC3370037 [166.951400 158.880700 70.677110] 0.952110 0.000000 0.000000 -0.305756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C337001, 0x7C337002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C337001, 0x7C337003, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C337001, 0x7C337004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C337001, 0x7C337005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C337001, 0x7C337006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C337001, 0x7C337007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C337001, 0x7C337008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C337001, 0x7C337009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C337001, 0x7C33700A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C337001, 0x7C33700B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C337001, 0x7C33700C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C337001, 0x7C33700D, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7C337001, 0x7C337002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C337001, 0x7C337003, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C337001, 0x7C337004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C337001, 0x7C337005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C337001, 0x7C337006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C337001, 0x7C337007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C337001, 0x7C337008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C337001, 0x7C337009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C337001, 0x7C33700A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C337001, 0x7C33700B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C337001, 0x7C33700C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C337001, 0x7C33700D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C337002,  1609, 0xC3370037, 166.9514, 158.8807, 70.67711, 0.9521098, 0, 0, -0.3057563,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

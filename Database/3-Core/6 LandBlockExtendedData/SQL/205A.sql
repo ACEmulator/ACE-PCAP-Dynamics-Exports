@@ -5,12 +5,12 @@ VALUES (0x7205A001,  1154, 0x205A0034, 144.053, 80.52066, 9.153244, -0.8090839, 
 /* @teleloc 0x205A0034 [144.053000 80.520660 9.153244] -0.809084 0.000000 0.000000 -0.587693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7205A001, 0x7205A002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7205A001, 0x7205A003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7205A001, 0x7205A004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7205A001, 0x7205A005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7205A001, 0x7205A006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7205A001, 0x7205A007, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7205A001, 0x7205A002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7205A001, 0x7205A003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7205A001, 0x7205A004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7205A001, 0x7205A005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7205A001, 0x7205A006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7205A001, 0x7205A007, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7205A002, 24134, 0x205A0034, 144.053, 80.52066, 9.153244, -0.8090839, 0, 0, -0.5876932,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */

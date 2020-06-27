@@ -5,30 +5,30 @@ VALUES (0x7C39E001,  1154, 0xC39E0009, 44.34304, 20.74535, 3.680254, 0.7372774, 
 /* @teleloc 0xC39E0009 [44.343040 20.745350 3.680254] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39E001, 0x7C39E002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C39E001, 0x7C39E003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C39E001, 0x7C39E004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C39E001, 0x7C39E005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C39E001, 0x7C39E006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C39E001, 0x7C39E007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C39E001, 0x7C39E008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C39E001, 0x7C39E009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39E001, 0x7C39E00A, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C39E001, 0x7C39E00B, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C39E001, 0x7C39E00C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39E001, 0x7C39E00D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39E001, 0x7C39E00E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39E001, 0x7C39E00F, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C39E001, 0x7C39E010, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7C39E001, 0x7C39E011, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C39E001, 0x7C39E012, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C39E001, 0x7C39E013, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C39E001, 0x7C39E014, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C39E001, 0x7C39E015, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C39E001, 0x7C39E016, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C39E001, 0x7C39E017, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C39E001, 0x7C39E018, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C39E001, 0x7C39E019, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7C39E001, 0x7C39E002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C39E001, 0x7C39E003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C39E001, 0x7C39E004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C39E001, 0x7C39E005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C39E001, 0x7C39E006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C39E001, 0x7C39E007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C39E001, 0x7C39E008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C39E001, 0x7C39E009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39E001, 0x7C39E00A, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C39E001, 0x7C39E00B, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C39E001, 0x7C39E00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39E001, 0x7C39E00D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39E001, 0x7C39E00E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39E001, 0x7C39E00F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C39E001, 0x7C39E010, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7C39E001, 0x7C39E011, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C39E001, 0x7C39E012, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C39E001, 0x7C39E013, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C39E001, 0x7C39E014, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C39E001, 0x7C39E015, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C39E001, 0x7C39E016, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C39E001, 0x7C39E017, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C39E001, 0x7C39E018, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C39E001, 0x7C39E019, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39E002,  4111, 0xC39E0009, 44.34304, 20.74535, 3.680254, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -131,8 +131,8 @@ VALUES (0x7C39E01A,  1542, 0xC39E0015, 60.57912, 98.79581, 2.232984, 0.9990482, 
 /* @teleloc 0xC39E0015 [60.579120 98.795810 2.232984] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39E01A, 0x7C39E01B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C39E01A, 0x7C39E01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C39E01A, 0x7C39E01B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C39E01A, 0x7C39E01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39E01B,  4179, 0xC39E0015, 60.57912, 98.79581, 2.232984, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

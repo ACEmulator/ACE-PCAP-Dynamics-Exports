@@ -5,24 +5,24 @@ VALUES (0x72E76001,  1154, 0x2E760028, 102.5617, 174.7526, 152, -0.999701, 0, 0,
 /* @teleloc 0x2E760028 [102.561700 174.752600 152.000000] -0.999701 0.000000 0.000000 -0.024453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E76001, 0x72E76002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E76001, 0x72E76003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E76001, 0x72E76004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E76001, 0x72E76005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E76001, 0x72E76006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E76001, 0x72E76007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72E76001, 0x72E76008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E76001, 0x72E76009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E76001, 0x72E7600A, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72E76001, 0x72E7600B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E76001, 0x72E7600C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E76001, 0x72E7600D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72E76001, 0x72E7600E, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72E76001, 0x72E7600F, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72E76001, 0x72E76010, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72E76001, 0x72E76011, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72E76001, 0x72E76012, '2019-02-10 00:00:00') /* Frost */
-     , (0x72E76001, 0x72E76013, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x72E76001, 0x72E76002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E76001, 0x72E76003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E76001, 0x72E76004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E76001, 0x72E76005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E76001, 0x72E76006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E76001, 0x72E76007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72E76001, 0x72E76008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E76001, 0x72E76009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E76001, 0x72E7600A, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72E76001, 0x72E7600B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E76001, 0x72E7600C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E76001, 0x72E7600D, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72E76001, 0x72E7600E, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72E76001, 0x72E7600F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72E76001, 0x72E76010, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72E76001, 0x72E76011, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72E76001, 0x72E76012, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72E76001, 0x72E76013, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E76002, 23482, 0x2E760028, 102.5617, 174.7526, 152, -0.999701, 0, 0, -0.02445326,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

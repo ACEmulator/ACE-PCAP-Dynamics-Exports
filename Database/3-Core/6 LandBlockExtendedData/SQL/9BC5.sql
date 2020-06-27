@@ -5,14 +5,14 @@ VALUES (0x79BC5001,  1154, 0x9BC50004, 3.914529, 83.63885, 53.03009, -0.2695066,
 /* @teleloc 0x9BC50004 [3.914529 83.638850 53.030090] -0.269507 0.000000 0.000000 -0.962999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BC5001, 0x79BC5002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79BC5001, 0x79BC5003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79BC5001, 0x79BC5004, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x79BC5001, 0x79BC5005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BC5001, 0x79BC5006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BC5001, 0x79BC5007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BC5001, 0x79BC5008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79BC5001, 0x79BC5009, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x79BC5001, 0x79BC5002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79BC5001, 0x79BC5003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79BC5001, 0x79BC5004, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x79BC5001, 0x79BC5005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BC5001, 0x79BC5006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BC5001, 0x79BC5007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BC5001, 0x79BC5008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79BC5001, 0x79BC5009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BC5002,  1989, 0x9BC50004, 3.914529, 83.63885, 53.03009, -0.2695066, 0, 0, -0.9629986,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

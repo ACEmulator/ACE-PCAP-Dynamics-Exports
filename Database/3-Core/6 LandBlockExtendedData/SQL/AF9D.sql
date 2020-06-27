@@ -5,30 +5,30 @@ VALUES (0x7AF9D001,  1154, 0xAF9D0010, 36.38538, 177.5589, 68.97088, 0.9525101, 
 /* @teleloc 0xAF9D0010 [36.385380 177.558900 68.970880] 0.952510 0.000000 0.000000 -0.304507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF9D001, 0x7AF9D002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AF9D001, 0x7AF9D003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AF9D001, 0x7AF9D004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF9D001, 0x7AF9D005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF9D001, 0x7AF9D006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AF9D001, 0x7AF9D007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF9D001, 0x7AF9D008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AF9D001, 0x7AF9D009, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7AF9D001, 0x7AF9D00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AF9D001, 0x7AF9D00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF9D001, 0x7AF9D00C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF9D001, 0x7AF9D00D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AF9D001, 0x7AF9D00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AF9D001, 0x7AF9D00F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AF9D001, 0x7AF9D010, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AF9D001, 0x7AF9D011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AF9D001, 0x7AF9D012, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AF9D001, 0x7AF9D013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AF9D001, 0x7AF9D014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AF9D001, 0x7AF9D015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AF9D001, 0x7AF9D016, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AF9D001, 0x7AF9D017, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AF9D001, 0x7AF9D018, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF9D001, 0x7AF9D019, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AF9D001, 0x7AF9D002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AF9D001, 0x7AF9D003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AF9D001, 0x7AF9D004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF9D001, 0x7AF9D005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF9D001, 0x7AF9D006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AF9D001, 0x7AF9D007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF9D001, 0x7AF9D008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AF9D001, 0x7AF9D009, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7AF9D001, 0x7AF9D00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AF9D001, 0x7AF9D00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF9D001, 0x7AF9D00C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF9D001, 0x7AF9D00D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AF9D001, 0x7AF9D00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AF9D001, 0x7AF9D00F, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AF9D001, 0x7AF9D010, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AF9D001, 0x7AF9D011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AF9D001, 0x7AF9D012, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AF9D001, 0x7AF9D013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AF9D001, 0x7AF9D014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AF9D001, 0x7AF9D015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AF9D001, 0x7AF9D016, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AF9D001, 0x7AF9D017, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AF9D001, 0x7AF9D018, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF9D001, 0x7AF9D019, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF9D002, 21168, 0xAF9D0010, 36.38538, 177.5589, 68.97088, 0.9525101, 0, 0, -0.3045068,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -131,7 +131,7 @@ VALUES (0x7AF9D01A,  1542, 0xAF9D0012, 48.6297, 47.42572, 91.88581, 1, 0, 0, 0, 
 /* @teleloc 0xAF9D0012 [48.629700 47.425720 91.885810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF9D01A, 0x7AF9D01B, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7AF9D01A, 0x7AF9D01B, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF9D01B,  8232, 0xAF9D0012, 48.6297, 47.42572, 91.88581, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

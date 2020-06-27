@@ -5,42 +5,42 @@ VALUES (0x79CED001,  1154, 0x9CED002B, 129.8998, 71.57513, 12.04541, -0.9986316,
 /* @teleloc 0x9CED002B [129.899800 71.575130 12.045410] -0.998632 0.000000 0.000000 -0.052296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CED001, 0x79CED002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79CED001, 0x79CED003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79CED001, 0x79CED004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x79CED001, 0x79CED005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x79CED001, 0x79CED006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x79CED001, 0x79CED007, '2019-02-10 00:00:00') /* Frost */
-     , (0x79CED001, 0x79CED008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x79CED001, 0x79CED009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79CED001, 0x79CED00A, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x79CED001, 0x79CED00B, '2019-02-10 00:00:00') /* Banished Mu-miyah */
-     , (0x79CED001, 0x79CED00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x79CED001, 0x79CED00D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x79CED001, 0x79CED00E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x79CED001, 0x79CED00F, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x79CED001, 0x79CED010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79CED001, 0x79CED011, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79CED001, 0x79CED012, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79CED001, 0x79CED013, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79CED001, 0x79CED014, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79CED001, 0x79CED015, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x79CED001, 0x79CED016, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x79CED001, 0x79CED017, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x79CED001, 0x79CED018, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79CED001, 0x79CED019, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79CED001, 0x79CED01A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79CED001, 0x79CED01B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79CED001, 0x79CED01C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79CED001, 0x79CED01D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79CED001, 0x79CED01E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x79CED001, 0x79CED01F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79CED001, 0x79CED020, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79CED001, 0x79CED021, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79CED001, 0x79CED022, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79CED001, 0x79CED023, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79CED001, 0x79CED024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x79CED001, 0x79CED025, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x79CED001, 0x79CED002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79CED001, 0x79CED003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79CED001, 0x79CED004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x79CED001, 0x79CED005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x79CED001, 0x79CED006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x79CED001, 0x79CED007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79CED001, 0x79CED008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x79CED001, 0x79CED009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79CED001, 0x79CED00A, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x79CED001, 0x79CED00B, '2019-02-10 00:00:00') /* Banished Mu-miyah (30902) */
+     , (0x79CED001, 0x79CED00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x79CED001, 0x79CED00D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x79CED001, 0x79CED00E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x79CED001, 0x79CED00F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x79CED001, 0x79CED010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79CED001, 0x79CED011, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79CED001, 0x79CED012, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79CED001, 0x79CED013, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79CED001, 0x79CED014, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79CED001, 0x79CED015, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x79CED001, 0x79CED016, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x79CED001, 0x79CED017, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x79CED001, 0x79CED018, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79CED001, 0x79CED019, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79CED001, 0x79CED01A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79CED001, 0x79CED01B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79CED001, 0x79CED01C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79CED001, 0x79CED01D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79CED001, 0x79CED01E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x79CED001, 0x79CED01F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79CED001, 0x79CED020, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79CED001, 0x79CED021, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79CED001, 0x79CED022, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79CED001, 0x79CED023, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79CED001, 0x79CED024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x79CED001, 0x79CED025, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CED002, 26468, 0x9CED002B, 129.8998, 71.57513, 12.04541, -0.9986316, 0, 0, -0.05229605,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -191,10 +191,10 @@ VALUES (0x79CED026,  1542, 0x9CED0026, 108.2717, 123.7178, 0, -0.9357719, 0, 0, 
 /* @teleloc 0x9CED0026 [108.271700 123.717800 0.000000] -0.935772 0.000000 0.000000 -0.352606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CED026, 0x79CED027, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x79CED026, 0x79CED028, '2019-02-10 00:00:00') /* Bones */
-     , (0x79CED026, 0x79CED029, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79CED026, 0x79CED02A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x79CED026, 0x79CED027, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x79CED026, 0x79CED028, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79CED026, 0x79CED029, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79CED026, 0x79CED02A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CED027, 31687, 0x9CED0026, 108.2717, 123.7178, 0, -0.9357719, 0, 0, -0.3526061,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

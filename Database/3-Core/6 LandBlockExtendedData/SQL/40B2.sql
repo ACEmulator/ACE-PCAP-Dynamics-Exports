@@ -5,9 +5,9 @@ VALUES (0x740B2001,  1154, 0x40B2003A, 181.5842, 44.09722, 10.87349, -0.1628873,
 /* @teleloc 0x40B2003A [181.584200 44.097220 10.873490] -0.162887 0.000000 0.000000 -0.986645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B2001, 0x740B2002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x740B2001, 0x740B2003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x740B2001, 0x740B2004, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x740B2001, 0x740B2002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x740B2001, 0x740B2003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x740B2001, 0x740B2004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B2002,   231, 0x40B2003A, 181.5842, 44.09722, 10.87349, -0.1628873, 0, 0, -0.9866447,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

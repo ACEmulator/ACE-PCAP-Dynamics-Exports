@@ -5,10 +5,10 @@ VALUES (0x7A453001,  1154, 0xA4530011, 65.04175, 9.043272, 56.029, 0.9238795, 0,
 /* @teleloc 0xA4530011 [65.041750 9.043272 56.029000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A453001, 0x7A453002, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7A453001, 0x7A453003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A453001, 0x7A453004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A453001, 0x7A453005, '2019-02-10 00:00:00') /* Marionette */;
+VALUES (0x7A453001, 0x7A453002, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7A453001, 0x7A453003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A453001, 0x7A453004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A453001, 0x7A453005, '2019-02-10 00:00:00') /* Marionette (9249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A453002, 10773, 0xA4530011, 65.04175, 9.043272, 56.029, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Broken Doll */
@@ -31,7 +31,7 @@ VALUES (0x7A453006,  1542, 0xA453000B, 44.88294, 54.64265, 57.38345, 0.9537169, 
 /* @teleloc 0xA453000B [44.882940 54.642650 57.383450] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A453006, 0x7A453007, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7A453006, 0x7A453007, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A453007,  7934, 0xA453000B, 44.88294, 54.64265, 57.38345, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

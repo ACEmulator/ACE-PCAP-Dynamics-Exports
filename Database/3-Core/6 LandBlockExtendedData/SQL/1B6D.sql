@@ -5,15 +5,15 @@ VALUES (0x71B6D001,  1154, 0x1B6D0035, 146.7732, 101.3671, 40.01, 0.1736482, 0, 
 /* @teleloc 0x1B6D0035 [146.773200 101.367100 40.010000] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B6D001, 0x71B6D002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B6D001, 0x71B6D003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B6D001, 0x71B6D004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71B6D001, 0x71B6D005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x71B6D001, 0x71B6D006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71B6D001, 0x71B6D007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71B6D001, 0x71B6D008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71B6D001, 0x71B6D009, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71B6D001, 0x71B6D00A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x71B6D001, 0x71B6D002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B6D001, 0x71B6D003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B6D001, 0x71B6D004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71B6D001, 0x71B6D005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x71B6D001, 0x71B6D006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71B6D001, 0x71B6D007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71B6D001, 0x71B6D008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71B6D001, 0x71B6D009, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71B6D001, 0x71B6D00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B6D002, 36832, 0x1B6D0035, 146.7732, 101.3671, 40.01, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */

@@ -5,17 +5,17 @@ VALUES (0x7A1B6001,  1154, 0xA1B60002, 8.207294, 41.87061, 77.48921, -0.5748388,
 /* @teleloc 0xA1B60002 [8.207294 41.870610 77.489210] -0.574839 0.000000 0.000000 -0.818267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B6001, 0x7A1B6002, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7A1B6001, 0x7A1B6003, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7A1B6001, 0x7A1B6004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1B6001, 0x7A1B6005, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7A1B6001, 0x7A1B6006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A1B6001, 0x7A1B6007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A1B6001, 0x7A1B6008, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7A1B6001, 0x7A1B6009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A1B6001, 0x7A1B600A, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A1B6001, 0x7A1B600B, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A1B6001, 0x7A1B600C, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7A1B6001, 0x7A1B6002, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7A1B6001, 0x7A1B6003, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7A1B6001, 0x7A1B6004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1B6001, 0x7A1B6005, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7A1B6001, 0x7A1B6006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A1B6001, 0x7A1B6007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A1B6001, 0x7A1B6008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7A1B6001, 0x7A1B6009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A1B6001, 0x7A1B600A, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A1B6001, 0x7A1B600B, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A1B6001, 0x7A1B600C, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B6002,  1988, 0xA1B60002, 8.207294, 41.87061, 77.48921, -0.5748388, 0, 0, -0.8182667,  True, '2019-02-10 00:00:00'); /* Dark Wisp */

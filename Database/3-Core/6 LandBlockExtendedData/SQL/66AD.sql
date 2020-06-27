@@ -5,9 +5,9 @@ VALUES (0x766AD001,  1154, 0x66AD001B, 81.86265, 68.92601, 84.79982, 0.8870109, 
 /* @teleloc 0x66AD001B [81.862650 68.926010 84.799820] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766AD001, 0x766AD002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x766AD001, 0x766AD003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x766AD001, 0x766AD004, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x766AD001, 0x766AD002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x766AD001, 0x766AD003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x766AD001, 0x766AD004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766AD002,  1756, 0x66AD001B, 81.86265, 68.92601, 84.79982, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

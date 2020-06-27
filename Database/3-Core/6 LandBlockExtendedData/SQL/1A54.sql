@@ -5,10 +5,10 @@ VALUES (0x71A54001,  1154, 0x1A540007, 16.01821, 152.2907, 78.68879, 0.9063078, 
 /* @teleloc 0x1A540007 [16.018210 152.290700 78.688790] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A54001, 0x71A54002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A54001, 0x71A54003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71A54001, 0x71A54004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71A54001, 0x71A54005, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71A54001, 0x71A54002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A54001, 0x71A54003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71A54001, 0x71A54004, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71A54001, 0x71A54005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A54002,  7982, 0x1A540007, 16.01821, 152.2907, 78.68879, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

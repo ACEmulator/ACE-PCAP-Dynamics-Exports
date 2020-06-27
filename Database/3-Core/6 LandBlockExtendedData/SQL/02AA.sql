@@ -37,68 +37,68 @@ VALUES (0x702AA03E,  1154, 0x02AA0284, 80.2249, -447.277, 36.0055, -0.9788131, 0
 /* @teleloc 0x02AA0284 [80.224900 -447.277000 36.005500] -0.978813 0.000000 0.000000 0.204756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AA03E, 0x702AA03F, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA040, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA041, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA042, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA043, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA044, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA045, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA046, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA047, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA048, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA049, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA04A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA04B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA04C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA04D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x702AA03E, 0x702AA04E, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x702AA03E, 0x702AA04F, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA050, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x702AA03E, 0x702AA051, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x702AA03E, 0x702AA052, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA053, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702AA03E, 0x702AA054, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702AA03E, 0x702AA055, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA056, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA057, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702AA03E, 0x702AA058, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702AA03E, 0x702AA059, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702AA03E, 0x702AA05A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA05B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA05C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA05D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA05E, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702AA03E, 0x702AA05F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA060, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA061, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA062, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA063, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA064, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA065, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA066, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA067, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA068, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA069, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA06A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x702AA03E, 0x702AA06B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x702AA03E, 0x702AA06C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x702AA03E, 0x702AA06D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA06E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA06F, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702AA03E, 0x702AA070, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA071, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702AA03E, 0x702AA072, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA073, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA074, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702AA03E, 0x702AA075, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA076, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702AA03E, 0x702AA077, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA078, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x702AA03E, 0x702AA079, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA07A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA07B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x702AA03E, 0x702AA07C, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x702AA03E, 0x702AA03F, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA040, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA041, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x702AA03E, 0x702AA042, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x702AA03E, 0x702AA043, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA044, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA045, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA046, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA047, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x702AA03E, 0x702AA048, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x702AA03E, 0x702AA049, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA04A, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x702AA03E, 0x702AA04B, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x702AA03E, 0x702AA04C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x702AA03E, 0x702AA04D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x702AA03E, 0x702AA04E, '2019-02-10 00:00:00') /* Tumerok Officer (4103) */
+     , (0x702AA03E, 0x702AA04F, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x702AA03E, 0x702AA050, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x702AA03E, 0x702AA051, '2019-02-10 00:00:00') /* Tumerok Officer (4103) */
+     , (0x702AA03E, 0x702AA052, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x702AA03E, 0x702AA053, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702AA03E, 0x702AA054, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702AA03E, 0x702AA055, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA056, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA057, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702AA03E, 0x702AA058, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702AA03E, 0x702AA059, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702AA03E, 0x702AA05A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA05B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA05C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA05D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA05E, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702AA03E, 0x702AA05F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA060, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA061, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA062, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA063, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA064, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA065, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA066, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA067, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA068, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA069, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA06A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702AA03E, 0x702AA06B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702AA03E, 0x702AA06C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x702AA03E, 0x702AA06D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA06E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA06F, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702AA03E, 0x702AA070, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA071, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702AA03E, 0x702AA072, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA073, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA074, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702AA03E, 0x702AA075, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x702AA03E, 0x702AA076, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702AA03E, 0x702AA077, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x702AA03E, 0x702AA078, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x702AA03E, 0x702AA079, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA07A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA07B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x702AA03E, 0x702AA07C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AA03F,  4100, 0x02AA0284, 80.2249, -447.277, 36.0055, -0.9788131, 0, 0, 0.204756,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -353,9 +353,9 @@ VALUES (0x702AA07D,  1542, 0x02AA012B, 264.3897, -30.0112, -0.06299996, 0.623978
 /* @teleloc 0x02AA012B [264.389700 -30.011200 -0.063000] 0.623979 0.000000 0.000000 -0.781441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AA07D, 0x702AA07E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702AA07D, 0x702AA07F, '2019-02-10 00:00:00') /* Torch */
-     , (0x702AA07D, 0x702AA080, '2019-02-10 00:00:00') /* Torch */;
+VALUES (0x702AA07D, 0x702AA07E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702AA07D, 0x702AA07F, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x702AA07D, 0x702AA080, '2019-02-10 00:00:00') /* Torch (293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AA07E,  1955, 0x02AA012B, 264.3897, -30.0112, -0.06299996, 0.6239787, 0, 0, -0.7814413,  True, '2019-02-10 00:00:00'); /* Gateway */

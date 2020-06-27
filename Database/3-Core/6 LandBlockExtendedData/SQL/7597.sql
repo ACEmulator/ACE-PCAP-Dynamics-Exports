@@ -5,10 +5,10 @@ VALUES (0x77597001,  1154, 0x7597003B, 169.2344, 70.35651, 104.0242, 0.9255493, 
 /* @teleloc 0x7597003B [169.234400 70.356510 104.024200] 0.925549 0.000000 0.000000 -0.378627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77597001, 0x77597002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x77597001, 0x77597003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77597001, 0x77597004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77597001, 0x77597005, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x77597001, 0x77597002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x77597001, 0x77597003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77597001, 0x77597004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77597001, 0x77597005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77597002, 14800, 0x7597003B, 169.2344, 70.35651, 104.0242, 0.9255493, 0, 0, -0.3786272,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

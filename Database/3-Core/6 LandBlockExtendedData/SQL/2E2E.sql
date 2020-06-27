@@ -5,39 +5,39 @@ VALUES (0x72E2E001,  1154, 0x2E2E001B, 75.74506, 53.48066, 30.9291, -0.8281198, 
 /* @teleloc 0x2E2E001B [75.745060 53.480660 30.929100] -0.828120 0.000000 0.000000 -0.560551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E2E001, 0x72E2E002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E2E001, 0x72E2E003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E2E001, 0x72E2E004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2E001, 0x72E2E005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E2E001, 0x72E2E006, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72E2E001, 0x72E2E007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E2E001, 0x72E2E008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2E001, 0x72E2E009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72E2E001, 0x72E2E00A, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72E2E001, 0x72E2E00B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72E2E001, 0x72E2E00C, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72E2E001, 0x72E2E00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72E2E001, 0x72E2E00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E2E001, 0x72E2E00F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2E001, 0x72E2E010, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E2E001, 0x72E2E011, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72E2E001, 0x72E2E012, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2E001, 0x72E2E013, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72E2E001, 0x72E2E014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72E2E001, 0x72E2E015, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E2E001, 0x72E2E016, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72E2E001, 0x72E2E017, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E2E001, 0x72E2E018, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72E2E001, 0x72E2E019, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72E2E001, 0x72E2E01A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72E2E001, 0x72E2E01B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72E2E001, 0x72E2E01C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72E2E001, 0x72E2E01D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72E2E001, 0x72E2E01E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72E2E001, 0x72E2E01F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72E2E001, 0x72E2E020, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72E2E001, 0x72E2E021, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E2E001, 0x72E2E022, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72E2E001, 0x72E2E002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E2E001, 0x72E2E003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E2E001, 0x72E2E004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2E001, 0x72E2E005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E2E001, 0x72E2E006, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72E2E001, 0x72E2E007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E2E001, 0x72E2E008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2E001, 0x72E2E009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72E2E001, 0x72E2E00A, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72E2E001, 0x72E2E00B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72E2E001, 0x72E2E00C, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72E2E001, 0x72E2E00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72E2E001, 0x72E2E00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E2E001, 0x72E2E00F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2E001, 0x72E2E010, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E2E001, 0x72E2E011, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72E2E001, 0x72E2E012, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2E001, 0x72E2E013, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72E2E001, 0x72E2E014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72E2E001, 0x72E2E015, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E2E001, 0x72E2E016, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72E2E001, 0x72E2E017, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E2E001, 0x72E2E018, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72E2E001, 0x72E2E019, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72E2E001, 0x72E2E01A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72E2E001, 0x72E2E01B, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72E2E001, 0x72E2E01C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72E2E001, 0x72E2E01D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72E2E001, 0x72E2E01E, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72E2E001, 0x72E2E01F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72E2E001, 0x72E2E020, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x72E2E001, 0x72E2E021, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72E2E001, 0x72E2E022, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E2E002,  7097, 0x2E2E001B, 75.74506, 53.48066, 30.9291, -0.8281198, 0, 0, -0.5605512,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -176,10 +176,10 @@ VALUES (0x72E2E023,  1542, 0x2E2E0007, 0.2582173, 153.7255, 39.08351, 1, 0, 0, 0
 /* @teleloc 0x2E2E0007 [0.258217 153.725500 39.083510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E2E023, 0x72E2E024, '2019-02-10 00:00:00') /* Portal to Hebian-To */
-     , (0x72E2E023, 0x72E2E025, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72E2E023, 0x72E2E026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72E2E023, 0x72E2E027, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72E2E023, 0x72E2E024, '2019-02-10 00:00:00') /* Portal to Hebian-To (42846) */
+     , (0x72E2E023, 0x72E2E025, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72E2E023, 0x72E2E026, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72E2E023, 0x72E2E027, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E2E024, 42846, 0x2E2E0007, 0.2582173, 153.7255, 39.08351, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Hebian-To */

@@ -9,8 +9,8 @@ VALUES (0x75FD3001,  1154, 0x5FD3000E, 29.01056, 130.7249, 54.08652, -0.9004101,
 /* @teleloc 0x5FD3000E [29.010560 130.724900 54.086520] -0.900410 0.000000 0.000000 -0.435042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD3001, 0x75FD3002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75FD3001, 0x75FD3003, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x75FD3001, 0x75FD3002, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75FD3001, 0x75FD3003, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD3002, 28657, 0x5FD3000E, 29.01056, 130.7249, 54.08652, -0.9004101, 0, 0, -0.4350421,  True, '2019-02-10 00:00:00'); /* Viamontian Man-at-Arms */

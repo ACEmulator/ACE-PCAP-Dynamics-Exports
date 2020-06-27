@@ -5,13 +5,13 @@ VALUES (0x71BC2001,  1154, 0x1BC2002B, 141.5654, 63.42918, 70.96531, -0.3876552,
 /* @teleloc 0x1BC2002B [141.565400 63.429180 70.965310] -0.387655 0.000000 0.000000 -0.921805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BC2001, 0x71BC2002, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71BC2001, 0x71BC2003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71BC2001, 0x71BC2004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71BC2001, 0x71BC2005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71BC2001, 0x71BC2006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71BC2001, 0x71BC2007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71BC2001, 0x71BC2008, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x71BC2001, 0x71BC2002, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71BC2001, 0x71BC2003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71BC2001, 0x71BC2004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71BC2001, 0x71BC2005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71BC2001, 0x71BC2006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71BC2001, 0x71BC2007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71BC2001, 0x71BC2008, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC2002, 27712, 0x1BC2002B, 141.5654, 63.42918, 70.96531, -0.3876552, 0, 0, -0.9218045,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */

@@ -5,9 +5,9 @@ VALUES (0x72793001,  1154, 0x27930031, 153.4485, 19.89431, 125.1298, -0.9849102,
 /* @teleloc 0x27930031 [153.448500 19.894310 125.129800] -0.984910 0.000000 0.000000 -0.173066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72793001, 0x72793002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72793001, 0x72793003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72793001, 0x72793004, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x72793001, 0x72793002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72793001, 0x72793003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72793001, 0x72793004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72793002, 36833, 0x27930031, 153.4485, 19.89431, 125.1298, -0.9849102, 0, 0, -0.173066,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

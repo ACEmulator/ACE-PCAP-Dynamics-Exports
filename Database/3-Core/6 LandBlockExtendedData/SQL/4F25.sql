@@ -5,11 +5,11 @@ VALUES (0x74F25001,  1154, 0x4F250037, 144.7388, 152.4818, 8.99306, -0.999899, 0
 /* @teleloc 0x4F250037 [144.738800 152.481800 8.993060] -0.999899 0.000000 0.000000 -0.014211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F25001, 0x74F25002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74F25001, 0x74F25003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74F25001, 0x74F25004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74F25001, 0x74F25005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74F25001, 0x74F25006, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x74F25001, 0x74F25002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74F25001, 0x74F25003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74F25001, 0x74F25004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74F25001, 0x74F25005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74F25001, 0x74F25006, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F25002, 23563, 0x4F250037, 144.7388, 152.4818, 8.99306, -0.999899, 0, 0, -0.01421085,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

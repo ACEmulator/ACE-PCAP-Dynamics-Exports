@@ -5,9 +5,9 @@ VALUES (0x7CB78001,  1154, 0xCB78000D, 31.05394, 102.1466, 3.1055, 0.6715254, 0,
 /* @teleloc 0xCB78000D [31.053940 102.146600 3.105500] 0.671525 0.000000 0.000000 -0.740982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB78001, 0x7CB78002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CB78001, 0x7CB78003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CB78001, 0x7CB78004, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x7CB78001, 0x7CB78002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CB78001, 0x7CB78003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CB78001, 0x7CB78004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB78002,   947, 0xCB78000D, 31.05394, 102.1466, 3.1055, 0.6715254, 0, 0, -0.7409815,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

@@ -5,27 +5,27 @@ VALUES (0x7B210001,  1154, 0xB210001D, 76.55035, 109.1722, 15.00848, -0.917901, 
 /* @teleloc 0xB210001D [76.550350 109.172200 15.008480] -0.917901 0.000000 0.000000 -0.396809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B210001, 0x7B210002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7B210001, 0x7B210003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7B210001, 0x7B210004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7B210001, 0x7B210005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B210001, 0x7B210006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B210001, 0x7B210007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B210001, 0x7B210008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B210001, 0x7B210009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B210001, 0x7B21000A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B210001, 0x7B21000B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7B210001, 0x7B21000C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B210001, 0x7B21000D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B210001, 0x7B21000E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B210001, 0x7B21000F, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B210001, 0x7B210010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B210001, 0x7B210011, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7B210001, 0x7B210012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B210001, 0x7B210013, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B210001, 0x7B210014, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B210001, 0x7B210015, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B210001, 0x7B210016, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7B210001, 0x7B210002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7B210001, 0x7B210003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7B210001, 0x7B210004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7B210001, 0x7B210005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B210001, 0x7B210006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B210001, 0x7B210007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B210001, 0x7B210008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B210001, 0x7B210009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B210001, 0x7B21000A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B210001, 0x7B21000B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7B210001, 0x7B21000C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B210001, 0x7B21000D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B210001, 0x7B21000E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B210001, 0x7B21000F, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B210001, 0x7B210010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B210001, 0x7B210011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7B210001, 0x7B210012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B210001, 0x7B210013, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B210001, 0x7B210014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B210001, 0x7B210015, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B210001, 0x7B210016, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B210002,  7109, 0xB210001D, 76.55035, 109.1722, 15.00848, -0.917901, 0, 0, -0.3968094,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -116,7 +116,7 @@ VALUES (0x7B210017,  1542, 0xB210001A, 73.41148, 37.06647, 5.465458, 0.9238795, 
 /* @teleloc 0xB210001A [73.411480 37.066470 5.465458] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B210017, 0x7B210018, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B210017, 0x7B210018, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B210018,  4180, 0xB210001A, 73.41148, 37.06647, 5.465458, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

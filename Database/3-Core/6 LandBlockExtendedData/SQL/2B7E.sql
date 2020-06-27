@@ -5,15 +5,15 @@ VALUES (0x72B7E001,  1154, 0x2B7E0018, 63.17465, 174.2757, 179.2995, 0.9976759, 
 /* @teleloc 0x2B7E0018 [63.174650 174.275700 179.299500] 0.997676 0.000000 0.000000 -0.068138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B7E001, 0x72B7E002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72B7E001, 0x72B7E003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72B7E001, 0x72B7E004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72B7E001, 0x72B7E005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72B7E001, 0x72B7E006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72B7E001, 0x72B7E007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72B7E001, 0x72B7E008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72B7E001, 0x72B7E009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B7E001, 0x72B7E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72B7E001, 0x72B7E002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72B7E001, 0x72B7E003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72B7E001, 0x72B7E004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72B7E001, 0x72B7E005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72B7E001, 0x72B7E006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72B7E001, 0x72B7E007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72B7E001, 0x72B7E008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72B7E001, 0x72B7E009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B7E001, 0x72B7E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B7E002, 24958, 0x2B7E0018, 63.17465, 174.2757, 179.2995, 0.9976759, 0, 0, -0.06813773,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -56,7 +56,7 @@ VALUES (0x72B7E00B,  1542, 0x2B7E000E, 43.85828, 123.3907, 178.6313, 0.02518765,
 /* @teleloc 0x2B7E000E [43.858280 123.390700 178.631300] 0.025188 0.000000 0.000000 -0.999683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B7E00B, 0x72B7E00C, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x72B7E00B, 0x72B7E00C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B7E00C,  8644, 0x2B7E000E, 43.85828, 123.3907, 178.6313, 0.02518765, 0, 0, -0.9996827,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,11 +5,11 @@ VALUES (0x7AB61001,  1154, 0xAB61002D, 122.9205, 114.3767, 45.1547, -0.1733547, 
 /* @teleloc 0xAB61002D [122.920500 114.376700 45.154700] -0.173355 0.000000 0.000000 -0.984860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB61001, 0x7AB61002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AB61001, 0x7AB61003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AB61001, 0x7AB61004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AB61001, 0x7AB61005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AB61001, 0x7AB61006, '2019-02-10 00:00:00') /* Innocent Doll */;
+VALUES (0x7AB61001, 0x7AB61002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AB61001, 0x7AB61003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AB61001, 0x7AB61004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AB61001, 0x7AB61005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AB61001, 0x7AB61006, '2019-02-10 00:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB61002, 21160, 0xAB61002D, 122.9205, 114.3767, 45.1547, -0.1733547, 0, 0, -0.9848595,  True, '2019-02-10 00:00:00'); /* Scourge */
@@ -36,7 +36,7 @@ VALUES (0x7AB61007,  1542, 0xAB610033, 144.3931, 66.2177, 29.62347, 1, 0, 0, 0, 
 /* @teleloc 0xAB610033 [144.393100 66.217700 29.623470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB61007, 0x7AB61008, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7AB61007, 0x7AB61008, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB61008,  8999, 0xAB610033, 144.3931, 66.2177, 29.62347, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

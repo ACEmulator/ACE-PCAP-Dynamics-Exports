@@ -5,22 +5,22 @@ VALUES (0x7AA0C001,  1154, 0xAA0C0011, 71.52756, 6.849187, 10.5739, -0.07019493,
 /* @teleloc 0xAA0C0011 [71.527560 6.849187 10.573900] -0.070195 0.000000 0.000000 -0.997533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA0C001, 0x7AA0C002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AA0C001, 0x7AA0C003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA0C001, 0x7AA0C004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA0C001, 0x7AA0C005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7AA0C001, 0x7AA0C006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AA0C001, 0x7AA0C007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA0C001, 0x7AA0C008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA0C001, 0x7AA0C009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AA0C001, 0x7AA0C00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AA0C001, 0x7AA0C00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7AA0C001, 0x7AA0C00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA0C001, 0x7AA0C00D, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7AA0C001, 0x7AA0C00E, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AA0C001, 0x7AA0C00F, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7AA0C001, 0x7AA0C010, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7AA0C001, 0x7AA0C011, '2019-02-10 00:00:00') /* Ebon Mattekar */;
+VALUES (0x7AA0C001, 0x7AA0C002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AA0C001, 0x7AA0C003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA0C001, 0x7AA0C004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA0C001, 0x7AA0C005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7AA0C001, 0x7AA0C006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AA0C001, 0x7AA0C007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7AA0C001, 0x7AA0C008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA0C001, 0x7AA0C009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AA0C001, 0x7AA0C00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AA0C001, 0x7AA0C00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7AA0C001, 0x7AA0C00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AA0C001, 0x7AA0C00D, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7AA0C001, 0x7AA0C00E, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AA0C001, 0x7AA0C00F, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7AA0C001, 0x7AA0C010, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7AA0C001, 0x7AA0C011, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA0C002, 38181, 0xAA0C0011, 71.52756, 6.849187, 10.5739, -0.07019493, 0, 0, -0.9975333,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -91,8 +91,8 @@ VALUES (0x7AA0C012,  1542, 0xAA0C000E, 47.80049, 132.1993, 32.96669, 0.6892789, 
 /* @teleloc 0xAA0C000E [47.800490 132.199300 32.966690] 0.689279 0.000000 0.000000 -0.724496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA0C012, 0x7AA0C013, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7AA0C012, 0x7AA0C014, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7AA0C012, 0x7AA0C013, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7AA0C012, 0x7AA0C014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA0C013,  8648, 0xAA0C000E, 47.80049, 132.1993, 32.96669, 0.6892789, 0, 0, -0.7244961,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

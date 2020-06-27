@@ -5,27 +5,27 @@ VALUES (0x7227E001,  1154, 0x227E0040, 184.7679, 173.2139, 222.0211, -0.6932895,
 /* @teleloc 0x227E0040 [184.767900 173.213900 222.021100] -0.693290 0.000000 0.000000 -0.720659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7227E001, 0x7227E002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7227E001, 0x7227E003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7227E001, 0x7227E004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7227E001, 0x7227E005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7227E001, 0x7227E006, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7227E001, 0x7227E007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7227E001, 0x7227E008, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7227E001, 0x7227E009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7227E001, 0x7227E00A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7227E001, 0x7227E00B, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7227E001, 0x7227E00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7227E001, 0x7227E00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7227E001, 0x7227E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7227E001, 0x7227E00F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7227E001, 0x7227E010, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7227E001, 0x7227E011, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7227E001, 0x7227E012, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x7227E001, 0x7227E013, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7227E001, 0x7227E014, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7227E001, 0x7227E015, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7227E001, 0x7227E016, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7227E001, 0x7227E002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7227E001, 0x7227E003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7227E001, 0x7227E004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7227E001, 0x7227E005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7227E001, 0x7227E006, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7227E001, 0x7227E007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7227E001, 0x7227E008, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7227E001, 0x7227E009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7227E001, 0x7227E00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7227E001, 0x7227E00B, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7227E001, 0x7227E00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7227E001, 0x7227E00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7227E001, 0x7227E00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7227E001, 0x7227E00F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7227E001, 0x7227E010, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7227E001, 0x7227E011, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7227E001, 0x7227E012, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x7227E001, 0x7227E013, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7227E001, 0x7227E014, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7227E001, 0x7227E015, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7227E001, 0x7227E016, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7227E002, 24958, 0x227E0040, 184.7679, 173.2139, 222.0211, -0.6932895, 0, 0, -0.7206593,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -116,8 +116,8 @@ VALUES (0x7227E017,  1542, 0x227E0030, 140.5331, 187.5297, 228.1374, 0.9983188, 
 /* @teleloc 0x227E0030 [140.533100 187.529700 228.137400] 0.998319 0.000000 0.000000 -0.057962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7227E017, 0x7227E018, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7227E017, 0x7227E019, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7227E017, 0x7227E018, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7227E017, 0x7227E019, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7227E018,  8644, 0x227E0030, 140.5331, 187.5297, 228.1374, 0.9983188, 0, 0, -0.05796156,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

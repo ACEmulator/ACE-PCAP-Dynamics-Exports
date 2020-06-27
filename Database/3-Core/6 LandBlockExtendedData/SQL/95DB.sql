@@ -5,14 +5,14 @@ VALUES (0x795DB001,  1154, 0x95DB0029, 143.596, 0.8373108, 128.1857, 0.9940643, 
 /* @teleloc 0x95DB0029 [143.596000 0.837311 128.185700] 0.994064 0.000000 0.000000 -0.108794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DB001, 0x795DB002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x795DB001, 0x795DB003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795DB001, 0x795DB004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x795DB001, 0x795DB005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x795DB001, 0x795DB006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795DB001, 0x795DB007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795DB001, 0x795DB008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795DB001, 0x795DB009, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x795DB001, 0x795DB002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x795DB001, 0x795DB003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795DB001, 0x795DB004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x795DB001, 0x795DB005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x795DB001, 0x795DB006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795DB001, 0x795DB007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795DB001, 0x795DB008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795DB001, 0x795DB009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DB002,   201, 0x95DB0029, 143.596, 0.8373108, 128.1857, 0.9940643, 0, 0, -0.1087944,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -51,7 +51,7 @@ VALUES (0x795DB00A,  1542, 0x95DB0032, 155.8138, 36.50858, 139.154, -0.9354592, 
 /* @teleloc 0x95DB0032 [155.813800 36.508580 139.154000] -0.935459 0.000000 0.000000 -0.353435 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DB00A, 0x795DB00B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x795DB00A, 0x795DB00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DB00B,  8644, 0x95DB0032, 155.8138, 36.50858, 139.154, -0.9354592, 0, 0, -0.3534347,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

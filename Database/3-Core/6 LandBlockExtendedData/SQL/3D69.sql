@@ -5,21 +5,21 @@ VALUES (0x73D69001,  1154, 0x3D69001D, 89.59592, 109.1137, 104.0082, 0.7071068, 
 /* @teleloc 0x3D69001D [89.595920 109.113700 104.008200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D69001, 0x73D69002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73D69001, 0x73D69003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73D69001, 0x73D69004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73D69001, 0x73D69005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73D69001, 0x73D69006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73D69001, 0x73D69007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73D69001, 0x73D69008, '2019-02-10 00:00:00') /* Flare */
-     , (0x73D69001, 0x73D69009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73D69001, 0x73D6900A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73D69001, 0x73D6900B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73D69001, 0x73D6900C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73D69001, 0x73D6900D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73D69001, 0x73D6900E, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D69001, 0x73D6900F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73D69001, 0x73D69010, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73D69001, 0x73D69002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73D69001, 0x73D69003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73D69001, 0x73D69004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73D69001, 0x73D69005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73D69001, 0x73D69006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73D69001, 0x73D69007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73D69001, 0x73D69008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73D69001, 0x73D69009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73D69001, 0x73D6900A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73D69001, 0x73D6900B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73D69001, 0x73D6900C, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73D69001, 0x73D6900D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73D69001, 0x73D6900E, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D69001, 0x73D6900F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73D69001, 0x73D69010, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D69002, 24319, 0x3D69001D, 89.59592, 109.1137, 104.0082, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -86,8 +86,8 @@ VALUES (0x73D69011,  1542, 0x3D690004, 11.36114, 90.30884, 102.832, -0.8076425, 
 /* @teleloc 0x3D690004 [11.361140 90.308840 102.832000] -0.807643 0.000000 0.000000 -0.589673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D69011, 0x73D69012, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x73D69011, 0x73D69013, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x73D69011, 0x73D69012, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x73D69011, 0x73D69013, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D69012,  9288, 0x3D690004, 11.36114, 90.30884, 102.832, -0.8076425, 0, 0, -0.5896725,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,19 +5,19 @@ VALUES (0x71D64001,  1154, 0x1D640036, 154.5304, 131.9672, 61.00923, -0.8260557,
 /* @teleloc 0x1D640036 [154.530400 131.967200 61.009230] -0.826056 0.000000 0.000000 -0.563589 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D64001, 0x71D64002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x71D64001, 0x71D64003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x71D64001, 0x71D64004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71D64001, 0x71D64005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71D64001, 0x71D64006, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x71D64001, 0x71D64007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x71D64001, 0x71D64008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71D64001, 0x71D64009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71D64001, 0x71D6400A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x71D64001, 0x71D6400B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71D64001, 0x71D6400C, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71D64001, 0x71D6400D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71D64001, 0x71D6400E, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x71D64001, 0x71D64002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x71D64001, 0x71D64003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x71D64001, 0x71D64004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71D64001, 0x71D64005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71D64001, 0x71D64006, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x71D64001, 0x71D64007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x71D64001, 0x71D64008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71D64001, 0x71D64009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71D64001, 0x71D6400A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x71D64001, 0x71D6400B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71D64001, 0x71D6400C, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71D64001, 0x71D6400D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71D64001, 0x71D6400E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D64002, 23617, 0x1D640036, 154.5304, 131.9672, 61.00923, -0.8260557, 0, 0, -0.5635885,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -76,7 +76,7 @@ VALUES (0x71D6400F,  1542, 0x1D64001F, 80.07387, 160.8415, 50.76541, 1, 0, 0, 0,
 /* @teleloc 0x1D64001F [80.073870 160.841500 50.765410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6400F, 0x71D64010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71D6400F, 0x71D64010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D64010, 31445, 0x1D64001F, 80.07387, 160.8415, 50.76541, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

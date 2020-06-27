@@ -5,9 +5,9 @@ VALUES (0x7C540001,  1154, 0xC540002E, 140.2019, 134.9344, 56.93802, -0.6870416,
 /* @teleloc 0xC540002E [140.201900 134.934400 56.938020] -0.687042 0.000000 0.000000 -0.726618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C540001, 0x7C540002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7C540001, 0x7C540003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C540001, 0x7C540004, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7C540001, 0x7C540002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7C540001, 0x7C540003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C540001, 0x7C540004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C540002,  8143, 0xC540002E, 140.2019, 134.9344, 56.93802, -0.6870416, 0, 0, -0.7266181,  True, '2019-02-10 00:00:00'); /* Amploth Raider */

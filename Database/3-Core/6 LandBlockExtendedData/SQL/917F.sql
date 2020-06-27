@@ -5,9 +5,9 @@ VALUES (0x7917F001,  1154, 0x917F0020, 85.01422, 174.0423, 49.09502, -0.6980308,
 /* @teleloc 0x917F0020 [85.014220 174.042300 49.095020] -0.698031 0.000000 0.000000 -0.716068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7917F001, 0x7917F002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7917F001, 0x7917F003, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x7917F001, 0x7917F004, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7917F001, 0x7917F002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7917F001, 0x7917F003, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x7917F001, 0x7917F004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7917F002,    19, 0x917F0020, 85.01422, 174.0423, 49.09502, -0.6980308, 0, 0, -0.7160678,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */

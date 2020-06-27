@@ -5,9 +5,9 @@ VALUES (0x7DA45001,  1154, 0xDA45000E, 36.36489, 141.9761, 87.7973, 0.7071068, 0
 /* @teleloc 0xDA45000E [36.364890 141.976100 87.797300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA45001, 0x7DA45002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7DA45001, 0x7DA45003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7DA45001, 0x7DA45004, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7DA45001, 0x7DA45002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7DA45001, 0x7DA45003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7DA45001, 0x7DA45004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA45002,  5766, 0xDA45000E, 36.36489, 141.9761, 87.7973, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -26,7 +26,7 @@ VALUES (0x7DA45005,  1542, 0xDA450023, 112.5957, 64.9511, 65.51683, 0.7071068, 0
 /* @teleloc 0xDA450023 [112.595700 64.951100 65.516830] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA45005, 0x7DA45006, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7DA45005, 0x7DA45006, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA45006,  9008, 0xDA450023, 112.5957, 64.9511, 65.51683, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

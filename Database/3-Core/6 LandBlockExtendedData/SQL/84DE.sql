@@ -9,10 +9,10 @@ VALUES (0x784DE001,  1154, 0x84DE001A, 72.74599, 29.55981, 115.4223, -0.8588069,
 /* @teleloc 0x84DE001A [72.745990 29.559810 115.422300] -0.858807 0.000000 0.000000 -0.512299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784DE001, 0x784DE002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x784DE001, 0x784DE003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x784DE001, 0x784DE004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x784DE001, 0x784DE005, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x784DE001, 0x784DE002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x784DE001, 0x784DE003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x784DE001, 0x784DE004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x784DE001, 0x784DE005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784DE002, 14800, 0x84DE001A, 72.74599, 29.55981, 115.4223, -0.8588069, 0, 0, -0.5122994,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -35,7 +35,7 @@ VALUES (0x784DE006,  1542, 0x84DE001B, 81.84585, 54.35627, 111.8293, 1, 0, 0, 0,
 /* @teleloc 0x84DE001B [81.845850 54.356270 111.829300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784DE006, 0x784DE007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x784DE006, 0x784DE007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784DE007, 22567, 0x84DE001B, 81.84585, 54.35627, 111.8293, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

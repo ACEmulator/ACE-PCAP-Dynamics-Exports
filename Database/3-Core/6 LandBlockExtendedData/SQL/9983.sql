@@ -5,16 +5,16 @@ VALUES (0x79983001,  1154, 0x9983002F, 135.3488, 148.4198, 35.64988, -0.9990171,
 /* @teleloc 0x9983002F [135.348800 148.419800 35.649880] -0.999017 0.000000 0.000000 -0.044326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79983001, 0x79983002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79983001, 0x79983003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79983001, 0x79983004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79983001, 0x79983005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79983001, 0x79983006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79983001, 0x79983007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79983001, 0x79983008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79983001, 0x79983009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79983001, 0x7998300A, '2019-02-10 00:00:00') /* Charge */
-     , (0x79983001, 0x7998300B, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x79983001, 0x79983002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79983001, 0x79983003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79983001, 0x79983004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79983001, 0x79983005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79983001, 0x79983006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79983001, 0x79983007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79983001, 0x79983008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79983001, 0x79983009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79983001, 0x7998300A, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79983001, 0x7998300B, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79983002,  1762, 0x9983002F, 135.3488, 148.4198, 35.64988, -0.9990171, 0, 0, -0.044326,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -61,7 +61,7 @@ VALUES (0x7998300C,  1542, 0x99830024, 102.2964, 79.20181, 32.99889, 0.9990482, 
 /* @teleloc 0x99830024 [102.296400 79.201810 32.998890] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7998300C, 0x7998300D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7998300C, 0x7998300D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7998300D,  4179, 0x99830024, 102.2964, 79.20181, 32.99889, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

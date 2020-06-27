@@ -9,9 +9,9 @@ VALUES (0x7CBB4005,  1154, 0xCBB40002, 17.37333, 45.38452, 275.3308, 0.503418, 0
 /* @teleloc 0xCBB40002 [17.373330 45.384520 275.330800] 0.503418 0.000000 0.000000 -0.864043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB4005, 0x7CBB4006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7CBB4005, 0x7CBB4007, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7CBB4005, 0x7CBB4008, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7CBB4005, 0x7CBB4006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7CBB4005, 0x7CBB4007, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7CBB4005, 0x7CBB4008, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB4006,   218, 0xCBB40002, 17.37333, 45.38452, 275.3308, 0.503418, 0, 0, -0.864043,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -30,28 +30,28 @@ VALUES (0x7CBB4009,  1542, 0xCBB4000A, 30.03394, 46.70864, 274.1, -0.9223451, 0,
 /* @teleloc 0xCBB4000A [30.033940 46.708640 274.100000] -0.922345 0.000000 0.000000 -0.386367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB4009, 0x7CBB400A, '2019-02-10 00:00:00') /* Shortbow */
-     , (0x7CBB4009, 0x7CBB400B, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7CBB4009, 0x7CBB400C, '2019-02-10 00:00:00') /* Sandals */
-     , (0x7CBB4009, 0x7CBB400D, '2019-02-10 00:00:00') /* Pants */
-     , (0x7CBB4009, 0x7CBB400E, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7CBB4009, 0x7CBB400F, '2019-02-10 00:00:00') /* Shouyumi */
-     , (0x7CBB4009, 0x7CBB4010, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7CBB4009, 0x7CBB4011, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7CBB4009, 0x7CBB4012, '2019-02-10 00:00:00') /* Jerkin */
-     , (0x7CBB4009, 0x7CBB4013, '2019-02-10 00:00:00') /* Pants */
-     , (0x7CBB4009, 0x7CBB4014, '2019-02-10 00:00:00') /* Shouyumi */
-     , (0x7CBB4009, 0x7CBB4015, '2019-02-10 00:00:00') /* Shouyumi */
-     , (0x7CBB4009, 0x7CBB4016, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7CBB4009, 0x7CBB4017, '2019-02-10 00:00:00') /* Pants */
-     , (0x7CBB4009, 0x7CBB4018, '2019-02-10 00:00:00') /* Sandals */
-     , (0x7CBB4009, 0x7CBB4019, '2019-02-10 00:00:00') /* Light Crossbow */
-     , (0x7CBB4009, 0x7CBB401A, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7CBB4009, 0x7CBB401B, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7CBB4009, 0x7CBB401C, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7CBB4009, 0x7CBB401D, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7CBB4009, 0x7CBB401E, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7CBB4009, 0x7CBB401F, '2019-02-10 00:00:00') /* Light Crossbow */;
+VALUES (0x7CBB4009, 0x7CBB400A, '2019-02-10 00:00:00') /* Shortbow (307) */
+     , (0x7CBB4009, 0x7CBB400B, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7CBB4009, 0x7CBB400C, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x7CBB4009, 0x7CBB400D, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7CBB4009, 0x7CBB400E, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7CBB4009, 0x7CBB400F, '2019-02-10 00:00:00') /* Shouyumi (341) */
+     , (0x7CBB4009, 0x7CBB4010, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7CBB4009, 0x7CBB4011, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7CBB4009, 0x7CBB4012, '2019-02-10 00:00:00') /* Jerkin (124) */
+     , (0x7CBB4009, 0x7CBB4013, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7CBB4009, 0x7CBB4014, '2019-02-10 00:00:00') /* Shouyumi (341) */
+     , (0x7CBB4009, 0x7CBB4015, '2019-02-10 00:00:00') /* Shouyumi (341) */
+     , (0x7CBB4009, 0x7CBB4016, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7CBB4009, 0x7CBB4017, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7CBB4009, 0x7CBB4018, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x7CBB4009, 0x7CBB4019, '2019-02-10 00:00:00') /* Light Crossbow (312) */
+     , (0x7CBB4009, 0x7CBB401A, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7CBB4009, 0x7CBB401B, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7CBB4009, 0x7CBB401C, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7CBB4009, 0x7CBB401D, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7CBB4009, 0x7CBB401E, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7CBB4009, 0x7CBB401F, '2019-02-10 00:00:00') /* Light Crossbow (312) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB400A,   307, 0xCBB4000A, 30.03394, 46.70864, 274.1, -0.9223451, 0, 0, -0.3863671,  True, '2019-02-10 00:00:00'); /* Shortbow */

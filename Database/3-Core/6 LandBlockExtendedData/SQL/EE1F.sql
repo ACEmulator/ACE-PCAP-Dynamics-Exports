@@ -5,42 +5,42 @@ VALUES (0x7EE1F001,  1154, 0xEE1F0019, 72.44022, 5.271868, 35.96451, 0.8802799, 
 /* @teleloc 0xEE1F0019 [72.440220 5.271868 35.964510] 0.880280 0.000000 0.000000 -0.474455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE1F001, 0x7EE1F002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE1F001, 0x7EE1F003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE1F001, 0x7EE1F004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE1F001, 0x7EE1F005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE1F001, 0x7EE1F006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE1F001, 0x7EE1F007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F008, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F009, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EE1F001, 0x7EE1F00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F00B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EE1F001, 0x7EE1F015, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7EE1F001, 0x7EE1F016, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F017, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F018, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F019, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EE1F001, 0x7EE1F01A, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7EE1F001, 0x7EE1F01B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F01C, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EE1F001, 0x7EE1F01D, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7EE1F001, 0x7EE1F01E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE1F001, 0x7EE1F01F, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F020, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F021, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7EE1F001, 0x7EE1F022, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1F001, 0x7EE1F023, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1F001, 0x7EE1F024, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7EE1F001, 0x7EE1F025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7EE1F001, 0x7EE1F002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE1F001, 0x7EE1F003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE1F001, 0x7EE1F004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE1F001, 0x7EE1F005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE1F001, 0x7EE1F006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE1F001, 0x7EE1F007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F008, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F009, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7EE1F001, 0x7EE1F00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F00B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EE1F001, 0x7EE1F015, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7EE1F001, 0x7EE1F016, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F017, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F018, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F019, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7EE1F001, 0x7EE1F01A, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7EE1F001, 0x7EE1F01B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F01C, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7EE1F001, 0x7EE1F01D, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7EE1F001, 0x7EE1F01E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE1F001, 0x7EE1F01F, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F020, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F021, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7EE1F001, 0x7EE1F022, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1F001, 0x7EE1F023, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1F001, 0x7EE1F024, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7EE1F001, 0x7EE1F025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE1F002,  7108, 0xEE1F0019, 72.44022, 5.271868, 35.96451, 0.8802799, 0, 0, -0.4744548,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -191,8 +191,8 @@ VALUES (0x7EE1F026,  1542, 0xEE1F0011, 58.70742, 15.9729, 35.72525, 1, 0, 0, 0, 
 /* @teleloc 0xEE1F0011 [58.707420 15.972900 35.725250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE1F026, 0x7EE1F027, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EE1F026, 0x7EE1F028, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7EE1F026, 0x7EE1F027, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7EE1F026, 0x7EE1F028, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE1F027,  8588, 0xEE1F0011, 58.70742, 15.9729, 35.72525, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

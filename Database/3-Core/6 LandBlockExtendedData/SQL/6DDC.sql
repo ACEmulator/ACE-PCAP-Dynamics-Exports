@@ -5,10 +5,10 @@ VALUES (0x76DDC001,  1154, 0x6DDC0037, 150.6359, 163.6658, 265.6257, 1, 0, 0, 0,
 /* @teleloc 0x6DDC0037 [150.635900 163.665800 265.625700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76DDC001, 0x76DDC002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x76DDC001, 0x76DDC003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x76DDC001, 0x76DDC004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x76DDC001, 0x76DDC005, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x76DDC001, 0x76DDC002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x76DDC001, 0x76DDC003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x76DDC001, 0x76DDC004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x76DDC001, 0x76DDC005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76DDC002, 14875, 0x6DDC0037, 150.6359, 163.6658, 265.6257, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hyem */
@@ -31,7 +31,7 @@ VALUES (0x76DDC006,  1542, 0x6DDC003B, 182.785, 71.87418, 252.7784, 1, 0, 0, 0, 
 /* @teleloc 0x6DDC003B [182.785000 71.874180 252.778400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76DDC006, 0x76DDC007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x76DDC006, 0x76DDC007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76DDC007, 22567, 0x6DDC003B, 182.785, 71.87418, 252.7784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

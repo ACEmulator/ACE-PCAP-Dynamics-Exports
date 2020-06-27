@@ -5,14 +5,14 @@ VALUES (0x79B66001,  1154, 0x9B66003F, 172.8062, 153.2155, 30.0025, 0.3501391, 0
 /* @teleloc 0x9B66003F [172.806200 153.215500 30.002500] 0.350139 0.000000 0.000000 -0.936698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B66001, 0x79B66002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79B66001, 0x79B66003, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79B66001, 0x79B66004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79B66001, 0x79B66005, '2019-02-10 00:00:00') /* Undead */
-     , (0x79B66001, 0x79B66006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B66001, 0x79B66007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79B66001, 0x79B66008, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79B66001, 0x79B66009, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79B66001, 0x79B66002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79B66001, 0x79B66003, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79B66001, 0x79B66004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79B66001, 0x79B66005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79B66001, 0x79B66006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B66001, 0x79B66007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79B66001, 0x79B66008, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79B66001, 0x79B66009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B66002,  1760, 0x9B66003F, 172.8062, 153.2155, 30.0025, 0.3501391, 0, 0, -0.9366977,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

@@ -5,23 +5,23 @@ VALUES (0x7EC3C001,  1154, 0xEC3C000A, 28.49532, 44.70278, 4.988012, 0.9843165, 
 /* @teleloc 0xEC3C000A [28.495320 44.702780 4.988012] 0.984317 0.000000 0.000000 -0.176412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC3C001, 0x7EC3C002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7EC3C001, 0x7EC3C003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EC3C001, 0x7EC3C004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7EC3C001, 0x7EC3C005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EC3C001, 0x7EC3C006, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7EC3C001, 0x7EC3C007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7EC3C001, 0x7EC3C008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EC3C001, 0x7EC3C009, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7EC3C001, 0x7EC3C00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EC3C001, 0x7EC3C00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7EC3C001, 0x7EC3C00C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EC3C001, 0x7EC3C00D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7EC3C001, 0x7EC3C00E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EC3C001, 0x7EC3C00F, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7EC3C001, 0x7EC3C010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7EC3C001, 0x7EC3C011, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7EC3C001, 0x7EC3C012, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7EC3C001, 0x7EC3C002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7EC3C001, 0x7EC3C003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EC3C001, 0x7EC3C004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7EC3C001, 0x7EC3C005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EC3C001, 0x7EC3C006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7EC3C001, 0x7EC3C007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7EC3C001, 0x7EC3C008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EC3C001, 0x7EC3C009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7EC3C001, 0x7EC3C00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EC3C001, 0x7EC3C00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7EC3C001, 0x7EC3C00C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EC3C001, 0x7EC3C00D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7EC3C001, 0x7EC3C00E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EC3C001, 0x7EC3C00F, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7EC3C001, 0x7EC3C010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7EC3C001, 0x7EC3C011, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7EC3C001, 0x7EC3C012, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC3C002,   215, 0xEC3C000A, 28.49532, 44.70278, 4.988012, 0.9843165, 0, 0, -0.1764117,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

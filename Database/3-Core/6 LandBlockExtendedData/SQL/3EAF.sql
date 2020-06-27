@@ -5,11 +5,11 @@ VALUES (0x73EAF001,  1154, 0x3EAF0036, 161.3915, 140.7368, -0.9217501, 0.7372774
 /* @teleloc 0x3EAF0036 [161.391500 140.736800 -0.921750] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EAF001, 0x73EAF002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EAF001, 0x73EAF003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EAF001, 0x73EAF004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EAF001, 0x73EAF005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73EAF001, 0x73EAF006, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x73EAF001, 0x73EAF002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EAF001, 0x73EAF003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EAF001, 0x73EAF004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EAF001, 0x73EAF005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73EAF001, 0x73EAF006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EAF002,  4255, 0x3EAF0036, 161.3915, 140.7368, -0.9217501, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

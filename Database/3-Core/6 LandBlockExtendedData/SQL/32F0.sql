@@ -5,11 +5,11 @@ VALUES (0x732F0001,  1154, 0x32F0003F, 179.3067, 157.3209, 18, -0.8469756, 0, 0,
 /* @teleloc 0x32F0003F [179.306700 157.320900 18.000000] -0.846976 0.000000 0.000000 -0.531632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x732F0001, 0x732F0002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x732F0001, 0x732F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x732F0001, 0x732F0004, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x732F0001, 0x732F0005, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x732F0001, 0x732F0006, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x732F0001, 0x732F0002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x732F0001, 0x732F0003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x732F0001, 0x732F0004, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x732F0001, 0x732F0005, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x732F0001, 0x732F0006, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732F0002,  2566, 0x32F0003F, 179.3067, 157.3209, 18, -0.8469756, 0, 0, -0.5316318,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

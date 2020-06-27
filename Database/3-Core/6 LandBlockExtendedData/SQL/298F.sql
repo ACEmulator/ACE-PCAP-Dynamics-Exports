@@ -5,51 +5,51 @@ VALUES (0x7298F001,  1154, 0x298F0021, 110.6715, 12.14385, 36.97004, 0.7071068, 
 /* @teleloc 0x298F0021 [110.671500 12.143850 36.970040] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298F001, 0x7298F002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7298F001, 0x7298F003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7298F001, 0x7298F004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7298F001, 0x7298F005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298F001, 0x7298F006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298F001, 0x7298F007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298F001, 0x7298F008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7298F001, 0x7298F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F00C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298F001, 0x7298F00D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7298F001, 0x7298F00E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7298F001, 0x7298F00F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7298F001, 0x7298F010, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7298F001, 0x7298F011, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298F001, 0x7298F012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298F001, 0x7298F013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298F001, 0x7298F014, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298F001, 0x7298F015, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298F001, 0x7298F016, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298F001, 0x7298F017, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7298F001, 0x7298F018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7298F001, 0x7298F019, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7298F001, 0x7298F01A, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7298F001, 0x7298F01B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F01C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F01D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F01E, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298F001, 0x7298F01F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7298F001, 0x7298F020, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7298F001, 0x7298F021, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7298F001, 0x7298F022, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7298F001, 0x7298F023, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7298F001, 0x7298F024, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7298F001, 0x7298F025, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7298F001, 0x7298F026, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7298F001, 0x7298F027, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7298F001, 0x7298F028, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7298F001, 0x7298F029, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7298F001, 0x7298F02A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7298F001, 0x7298F02B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298F001, 0x7298F02C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7298F001, 0x7298F02D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7298F001, 0x7298F02E, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7298F001, 0x7298F002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7298F001, 0x7298F003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7298F001, 0x7298F004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7298F001, 0x7298F005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298F001, 0x7298F006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298F001, 0x7298F007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298F001, 0x7298F008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7298F001, 0x7298F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F00C, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298F001, 0x7298F00D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7298F001, 0x7298F00E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7298F001, 0x7298F00F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7298F001, 0x7298F010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7298F001, 0x7298F011, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298F001, 0x7298F012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298F001, 0x7298F013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298F001, 0x7298F014, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298F001, 0x7298F015, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298F001, 0x7298F016, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298F001, 0x7298F017, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7298F001, 0x7298F018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7298F001, 0x7298F019, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7298F001, 0x7298F01A, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7298F001, 0x7298F01B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F01C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F01D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F01E, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298F001, 0x7298F01F, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7298F001, 0x7298F020, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7298F001, 0x7298F021, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7298F001, 0x7298F022, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7298F001, 0x7298F023, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7298F001, 0x7298F024, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7298F001, 0x7298F025, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7298F001, 0x7298F026, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7298F001, 0x7298F027, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7298F001, 0x7298F028, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7298F001, 0x7298F029, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7298F001, 0x7298F02A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7298F001, 0x7298F02B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298F001, 0x7298F02C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7298F001, 0x7298F02D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7298F001, 0x7298F02E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298F002,   228, 0x298F0021, 110.6715, 12.14385, 36.97004, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -236,10 +236,10 @@ VALUES (0x7298F02F,  1542, 0x298F002E, 121.8073, 140.5101, 30, 1, 0, 0, 0, False
 /* @teleloc 0x298F002E [121.807300 140.510100 30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298F02F, 0x7298F030, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7298F02F, 0x7298F031, '2019-02-10 00:00:00') /* Bones */
-     , (0x7298F02F, 0x7298F032, '2019-02-10 00:00:00') /* Bones */
-     , (0x7298F02F, 0x7298F033, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7298F02F, 0x7298F030, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7298F02F, 0x7298F031, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7298F02F, 0x7298F032, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7298F02F, 0x7298F033, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298F030,  4179, 0x298F002E, 121.8073, 140.5101, 30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

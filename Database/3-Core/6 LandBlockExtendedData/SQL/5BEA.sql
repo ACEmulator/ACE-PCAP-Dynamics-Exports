@@ -5,23 +5,23 @@ VALUES (0x75BEA001,  1154, 0x5BEA0030, 122.5298, 169.8179, -0.8974999, -0.541973
 /* @teleloc 0x5BEA0030 [122.529800 169.817900 -0.897500] -0.541974 0.000000 0.000000 -0.840395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BEA001, 0x75BEA002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75BEA001, 0x75BEA003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75BEA001, 0x75BEA004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x75BEA001, 0x75BEA005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75BEA001, 0x75BEA006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75BEA001, 0x75BEA007, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75BEA001, 0x75BEA008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75BEA001, 0x75BEA009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x75BEA001, 0x75BEA00A, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75BEA001, 0x75BEA00B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75BEA001, 0x75BEA00C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75BEA001, 0x75BEA00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75BEA001, 0x75BEA00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75BEA001, 0x75BEA00F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75BEA001, 0x75BEA010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75BEA001, 0x75BEA011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75BEA001, 0x75BEA012, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x75BEA001, 0x75BEA002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75BEA001, 0x75BEA003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75BEA001, 0x75BEA004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x75BEA001, 0x75BEA005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75BEA001, 0x75BEA006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75BEA001, 0x75BEA007, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75BEA001, 0x75BEA008, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75BEA001, 0x75BEA009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x75BEA001, 0x75BEA00A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75BEA001, 0x75BEA00B, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x75BEA001, 0x75BEA00C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x75BEA001, 0x75BEA00D, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x75BEA001, 0x75BEA00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75BEA001, 0x75BEA00F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75BEA001, 0x75BEA010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75BEA001, 0x75BEA011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75BEA001, 0x75BEA012, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BEA002, 24313, 0x5BEA0030, 122.5298, 169.8179, -0.8974999, -0.5419739, 0, 0, -0.8403953,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -96,7 +96,7 @@ VALUES (0x75BEA013,  1542, 0x5BEA0030, 138.2032, 190.3358, -0.9, 0.9990482, 0, 0
 /* @teleloc 0x5BEA0030 [138.203200 190.335800 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BEA013, 0x75BEA014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75BEA013, 0x75BEA014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BEA014,  4179, 0x5BEA0030, 138.2032, 190.3358, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

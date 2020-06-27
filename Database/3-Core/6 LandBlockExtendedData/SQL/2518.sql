@@ -5,18 +5,18 @@ VALUES (0x72518001,  1154, 0x2518003F, 187.5759, 149.1032, 54.89173, -0.2901274,
 /* @teleloc 0x2518003F [187.575900 149.103200 54.891730] -0.290127 0.000000 0.000000 -0.956988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72518001, 0x72518002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x72518001, 0x72518003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x72518004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x72518005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x72518006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x72518001, 0x72518007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x72518008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x72518009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x72518001, 0x7251800A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72518001, 0x7251800B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72518001, 0x7251800C, '2019-02-10 00:00:00') /* Theral */
-     , (0x72518001, 0x7251800D, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x72518001, 0x72518002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x72518001, 0x72518003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x72518004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x72518005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x72518006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x72518001, 0x72518007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x72518008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x72518009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72518001, 0x7251800A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72518001, 0x7251800B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72518001, 0x7251800C, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x72518001, 0x7251800D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72518002,  7983, 0x2518003F, 187.5759, 149.1032, 54.89173, -0.2901274, 0, 0, -0.956988,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
@@ -71,8 +71,8 @@ VALUES (0x7251800E,  1542, 0x25180038, 158.6491, 186.7004, 49.39797, -4.371139E-
 /* @teleloc 0x25180038 [158.649100 186.700400 49.397970] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251800E, 0x7251800F, '2019-02-10 00:00:00') /* Bones */
-     , (0x7251800E, 0x72518010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7251800E, 0x7251800F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7251800E, 0x72518010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251800F,  4380, 0x25180038, 158.6491, 186.7004, 49.39797, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,15 +5,15 @@ VALUES (0x72A2F001,  1154, 0x2A2F0017, 63.97833, 154.1839, 52.34639, -0.8936626,
 /* @teleloc 0x2A2F0017 [63.978330 154.183900 52.346390] -0.893663 0.000000 0.000000 -0.448740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A2F001, 0x72A2F002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A2F001, 0x72A2F003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A2F001, 0x72A2F004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72A2F001, 0x72A2F005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A2F001, 0x72A2F006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72A2F001, 0x72A2F007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72A2F001, 0x72A2F008, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72A2F001, 0x72A2F009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72A2F001, 0x72A2F00A, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x72A2F001, 0x72A2F002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72A2F001, 0x72A2F003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A2F001, 0x72A2F004, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72A2F001, 0x72A2F005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A2F001, 0x72A2F006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72A2F001, 0x72A2F007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72A2F001, 0x72A2F008, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72A2F001, 0x72A2F009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72A2F001, 0x72A2F00A, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A2F002, 36845, 0x2A2F0017, 63.97833, 154.1839, 52.34639, -0.8936626, 0, 0, -0.4487395,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

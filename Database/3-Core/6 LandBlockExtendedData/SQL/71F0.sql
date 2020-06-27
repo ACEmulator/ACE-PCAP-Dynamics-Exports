@@ -5,16 +5,16 @@ VALUES (0x771F0001,  1154, 0x71F0002B, 125.9302, 55.13723, 20.3871, 0.3764198, 0
 /* @teleloc 0x71F0002B [125.930200 55.137230 20.387100] 0.376420 0.000000 0.000000 -0.926449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771F0001, 0x771F0002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x771F0001, 0x771F0003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x771F0001, 0x771F0004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x771F0001, 0x771F0005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x771F0001, 0x771F0006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x771F0001, 0x771F0007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x771F0001, 0x771F0008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x771F0001, 0x771F0009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x771F0001, 0x771F000A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x771F0001, 0x771F000B, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x771F0001, 0x771F0002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x771F0001, 0x771F0003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x771F0001, 0x771F0004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x771F0001, 0x771F0005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x771F0001, 0x771F0006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x771F0001, 0x771F0007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x771F0001, 0x771F0008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x771F0001, 0x771F0009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x771F0001, 0x771F000A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x771F0001, 0x771F000B, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771F0002, 24287, 0x71F0002B, 125.9302, 55.13723, 20.3871, 0.3764198, 0, 0, -0.9264492,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -61,10 +61,10 @@ VALUES (0x771F000C,  1542, 0x71F0003E, 184.4279, 131.0342, 22.16097, 1, 0, 0, 0,
 /* @teleloc 0x71F0003E [184.427900 131.034200 22.160970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771F000C, 0x771F000D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x771F000C, 0x771F000E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x771F000C, 0x771F000F, '2019-02-10 00:00:00') /* Bones */
-     , (0x771F000C, 0x771F0010, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x771F000C, 0x771F000D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x771F000C, 0x771F000E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x771F000C, 0x771F000F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x771F000C, 0x771F0010, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771F000D, 22571, 0x71F0003E, 184.4279, 131.0342, 22.16097, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

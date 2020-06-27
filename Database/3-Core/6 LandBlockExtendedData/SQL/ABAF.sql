@@ -5,14 +5,14 @@ VALUES (0x7ABAF001,  1154, 0xABAF003E, 184.3555, 126.9537, 70.79064, 0.170419, 0
 /* @teleloc 0xABAF003E [184.355500 126.953700 70.790640] 0.170419 0.000000 0.000000 -0.985372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAF001, 0x7ABAF002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABAF001, 0x7ABAF003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABAF001, 0x7ABAF004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7ABAF001, 0x7ABAF005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABAF001, 0x7ABAF006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABAF001, 0x7ABAF007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABAF001, 0x7ABAF008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABAF001, 0x7ABAF009, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7ABAF001, 0x7ABAF002, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABAF001, 0x7ABAF003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABAF001, 0x7ABAF004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7ABAF001, 0x7ABAF005, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABAF001, 0x7ABAF006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABAF001, 0x7ABAF007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABAF001, 0x7ABAF008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABAF001, 0x7ABAF009, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAF002, 19256, 0xABAF003E, 184.3555, 126.9537, 70.79064, 0.170419, 0, 0, -0.9853717,  True, '2019-02-10 00:00:00'); /* Young Banderling */

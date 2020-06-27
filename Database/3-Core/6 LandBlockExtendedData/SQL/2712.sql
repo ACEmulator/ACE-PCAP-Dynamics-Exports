@@ -5,20 +5,20 @@ VALUES (0x72712001,  1154, 0x27120037, 161.1838, 162.7286, 10.01, 0.9643931, 0, 
 /* @teleloc 0x27120037 [161.183800 162.728600 10.010000] 0.964393 0.000000 0.000000 -0.264473 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72712001, 0x72712002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72712001, 0x72712003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72712001, 0x72712004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72712001, 0x72712005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72712001, 0x72712006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72712001, 0x72712007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72712001, 0x72712008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72712001, 0x72712009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72712001, 0x7271200A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72712001, 0x7271200B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72712001, 0x7271200C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72712001, 0x7271200D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72712001, 0x7271200E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72712001, 0x7271200F, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x72712001, 0x72712002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72712001, 0x72712003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72712001, 0x72712004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72712001, 0x72712005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72712001, 0x72712006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72712001, 0x72712007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72712001, 0x72712008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72712001, 0x72712009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72712001, 0x7271200A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72712001, 0x7271200B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72712001, 0x7271200C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72712001, 0x7271200D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72712001, 0x7271200E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72712001, 0x7271200F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72712002, 36829, 0x27120037, 161.1838, 162.7286, 10.01, 0.9643931, 0, 0, -0.2644731,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -81,7 +81,7 @@ VALUES (0x72712010,  1542, 0x2712001A, 76.80367, 32.61412, 12.33731, 1, 0, 0, 0,
 /* @teleloc 0x2712001A [76.803670 32.614120 12.337310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72712010, 0x72712011, '2019-02-10 00:00:00') /* Portal to Zaikhal */;
+VALUES (0x72712010, 0x72712011, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72712011, 42831, 0x2712001A, 76.80367, 32.61412, 12.33731, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Zaikhal */

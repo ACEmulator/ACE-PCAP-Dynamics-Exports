@@ -5,21 +5,21 @@ VALUES (0x77FF5001,  1154, 0x7FF5003B, 170.7245, 58.95422, 96.46729, 0.2380623, 
 /* @teleloc 0x7FF5003B [170.724500 58.954220 96.467290] 0.238062 0.000000 0.000000 -0.971250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FF5001, 0x77FF5002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x77FF5001, 0x77FF5003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77FF5001, 0x77FF5004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77FF5001, 0x77FF5005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x77FF5001, 0x77FF5006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FF5001, 0x77FF5007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FF5001, 0x77FF5008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77FF5001, 0x77FF5009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FF5001, 0x77FF500A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FF5001, 0x77FF500B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x77FF5001, 0x77FF500C, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77FF5001, 0x77FF500D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77FF5001, 0x77FF500E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77FF5001, 0x77FF500F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77FF5001, 0x77FF5010, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x77FF5001, 0x77FF5002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x77FF5001, 0x77FF5003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77FF5001, 0x77FF5004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77FF5001, 0x77FF5005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x77FF5001, 0x77FF5006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FF5001, 0x77FF5007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FF5001, 0x77FF5008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77FF5001, 0x77FF5009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FF5001, 0x77FF500A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FF5001, 0x77FF500B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x77FF5001, 0x77FF500C, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77FF5001, 0x77FF500D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77FF5001, 0x77FF500E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77FF5001, 0x77FF500F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77FF5001, 0x77FF5010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FF5002, 10810, 0x7FF5003B, 170.7245, 58.95422, 96.46729, 0.2380623, 0, 0, -0.9712499,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -86,7 +86,7 @@ VALUES (0x77FF5011,  1542, 0x7FF5000F, 34.94249, 146.2613, 65.62312, 1, 0, 0, 0,
 /* @teleloc 0x7FF5000F [34.942490 146.261300 65.623120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FF5011, 0x77FF5012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77FF5011, 0x77FF5012, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FF5012, 22566, 0x7FF5000F, 34.94249, 146.2613, 65.62312, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

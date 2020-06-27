@@ -5,15 +5,15 @@ VALUES (0x7AEAE001,  1154, 0xAEAE0019, 82.29855, 9.809349, 95.55509, 0.2588191, 
 /* @teleloc 0xAEAE0019 [82.298550 9.809349 95.555090] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEAE001, 0x7AEAE002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEAE001, 0x7AEAE003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AEAE001, 0x7AEAE004, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AEAE001, 0x7AEAE005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7AEAE001, 0x7AEAE006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEAE001, 0x7AEAE007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEAE001, 0x7AEAE008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEAE001, 0x7AEAE009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEAE001, 0x7AEAE00A, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7AEAE001, 0x7AEAE002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEAE001, 0x7AEAE003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AEAE001, 0x7AEAE004, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AEAE001, 0x7AEAE005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7AEAE001, 0x7AEAE006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEAE001, 0x7AEAE007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEAE001, 0x7AEAE008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEAE001, 0x7AEAE009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEAE001, 0x7AEAE00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEAE002,   937, 0xAEAE0019, 82.29855, 9.809349, 95.55509, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Guard */

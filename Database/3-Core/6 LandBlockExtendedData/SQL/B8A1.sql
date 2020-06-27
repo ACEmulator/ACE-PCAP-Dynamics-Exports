@@ -5,40 +5,40 @@ VALUES (0x7B8A1001,  1154, 0xB8A10009, 36.50348, 7.229106, 38.17772, 0.1260788, 
 /* @teleloc 0xB8A10009 [36.503480 7.229106 38.177720] 0.126079 0.000000 0.000000 -0.992020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8A1001, 0x7B8A1002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B8A1001, 0x7B8A1003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B8A1001, 0x7B8A1004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B8A1001, 0x7B8A1005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B8A1001, 0x7B8A1006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B8A1001, 0x7B8A1007, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B8A1001, 0x7B8A1008, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B8A1001, 0x7B8A1009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B8A1001, 0x7B8A100A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B8A1001, 0x7B8A100B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B8A1001, 0x7B8A100C, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7B8A1001, 0x7B8A100D, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7B8A1001, 0x7B8A100E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B8A1001, 0x7B8A100F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B8A1001, 0x7B8A1010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B8A1001, 0x7B8A1011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B8A1001, 0x7B8A1012, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B8A1001, 0x7B8A1013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B8A1001, 0x7B8A1014, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B8A1001, 0x7B8A1015, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B8A1001, 0x7B8A1016, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B8A1001, 0x7B8A1017, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B8A1001, 0x7B8A1018, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B8A1001, 0x7B8A1019, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B8A1001, 0x7B8A101A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B8A1001, 0x7B8A101B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B8A1001, 0x7B8A101C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B8A1001, 0x7B8A101D, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B8A1001, 0x7B8A101E, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B8A1001, 0x7B8A101F, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B8A1001, 0x7B8A1020, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B8A1001, 0x7B8A1021, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B8A1001, 0x7B8A1022, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B8A1001, 0x7B8A1023, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7B8A1001, 0x7B8A1002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B8A1001, 0x7B8A1003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B8A1001, 0x7B8A1004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B8A1001, 0x7B8A1005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B8A1001, 0x7B8A1006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B8A1001, 0x7B8A1007, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B8A1001, 0x7B8A1008, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B8A1001, 0x7B8A1009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B8A1001, 0x7B8A100A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B8A1001, 0x7B8A100B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B8A1001, 0x7B8A100C, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7B8A1001, 0x7B8A100D, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7B8A1001, 0x7B8A100E, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B8A1001, 0x7B8A100F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B8A1001, 0x7B8A1010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B8A1001, 0x7B8A1011, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B8A1001, 0x7B8A1012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B8A1001, 0x7B8A1013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B8A1001, 0x7B8A1014, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B8A1001, 0x7B8A1015, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B8A1001, 0x7B8A1016, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B8A1001, 0x7B8A1017, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B8A1001, 0x7B8A1018, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B8A1001, 0x7B8A1019, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B8A1001, 0x7B8A101A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B8A1001, 0x7B8A101B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B8A1001, 0x7B8A101C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B8A1001, 0x7B8A101D, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B8A1001, 0x7B8A101E, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B8A1001, 0x7B8A101F, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B8A1001, 0x7B8A1020, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B8A1001, 0x7B8A1021, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B8A1001, 0x7B8A1022, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B8A1001, 0x7B8A1023, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8A1002,  8010, 0xB8A10009, 36.50348, 7.229106, 38.17772, 0.1260788, 0, 0, -0.9920202,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -181,10 +181,10 @@ VALUES (0x7B8A1024,  1542, 0xB8A10001, 22.34611, 8.976509, 40.11185, 1, 0, 0, 0,
 /* @teleloc 0xB8A10001 [22.346110 8.976509 40.111850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8A1024, 0x7B8A1025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B8A1024, 0x7B8A1026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B8A1024, 0x7B8A1027, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B8A1024, 0x7B8A1028, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B8A1024, 0x7B8A1025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B8A1024, 0x7B8A1026, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B8A1024, 0x7B8A1027, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B8A1024, 0x7B8A1028, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8A1025,  4179, 0xB8A10001, 22.34611, 8.976509, 40.11185, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,13 +5,13 @@ VALUES (0x750B7001,  1154, 0x50B70018, 70.06033, 184.1995, 76.71192, -0.4935129,
 /* @teleloc 0x50B70018 [70.060330 184.199500 76.711920] -0.493513 0.000000 0.000000 -0.869739 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750B7001, 0x750B7002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x750B7001, 0x750B7003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x750B7001, 0x750B7004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x750B7001, 0x750B7005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750B7001, 0x750B7006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750B7001, 0x750B7007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x750B7001, 0x750B7008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x750B7001, 0x750B7002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x750B7001, 0x750B7003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x750B7001, 0x750B7004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x750B7001, 0x750B7005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x750B7001, 0x750B7006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x750B7001, 0x750B7007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x750B7001, 0x750B7008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750B7002,  7105, 0x50B70018, 70.06033, 184.1995, 76.71192, -0.4935129, 0, 0, -0.8697385,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

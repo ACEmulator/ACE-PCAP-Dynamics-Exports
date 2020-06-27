@@ -5,32 +5,32 @@ VALUES (0x7CAC2001,  1154, 0xCAC20004, 4.149237, 87.85243, -0.09545004, 0.855611
 /* @teleloc 0xCAC20004 [4.149237 87.852430 -0.095450] 0.855611 0.000000 0.000000 -0.517619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAC2001, 0x7CAC2002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7CAC2001, 0x7CAC2003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC2004, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7CAC2001, 0x7CAC2005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7CAC2001, 0x7CAC2006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7CAC2001, 0x7CAC2007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7CAC2001, 0x7CAC2008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC2001, 0x7CAC2009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7CAC2001, 0x7CAC200A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CAC2001, 0x7CAC200B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CAC2001, 0x7CAC200C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC200D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC2001, 0x7CAC200E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC2001, 0x7CAC200F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC2001, 0x7CAC2010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC2001, 0x7CAC2011, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC2001, 0x7CAC2012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC2013, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC2001, 0x7CAC2014, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC2015, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC2001, 0x7CAC2016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC2017, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC2001, 0x7CAC2018, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC2019, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC2001, 0x7CAC201A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC2001, 0x7CAC201B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CAC2001, 0x7CAC2002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7CAC2001, 0x7CAC2003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC2004, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7CAC2001, 0x7CAC2005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7CAC2001, 0x7CAC2006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7CAC2001, 0x7CAC2007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7CAC2001, 0x7CAC2008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC2001, 0x7CAC2009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7CAC2001, 0x7CAC200A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CAC2001, 0x7CAC200B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CAC2001, 0x7CAC200C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC200D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC2001, 0x7CAC200E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC2001, 0x7CAC200F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC2001, 0x7CAC2010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC2001, 0x7CAC2011, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC2001, 0x7CAC2012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC2013, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC2001, 0x7CAC2014, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC2015, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC2001, 0x7CAC2016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC2017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC2001, 0x7CAC2018, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC2019, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC2001, 0x7CAC201A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC2001, 0x7CAC201B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAC2002, 24281, 0xCAC20004, 4.149237, 87.85243, -0.09545004, 0.855611, 0, 0, -0.5176194,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
@@ -141,7 +141,7 @@ VALUES (0x7CAC201C,  1542, 0xCAC20003, 8.732106, 67.51841, -0.09999999, 0.999048
 /* @teleloc 0xCAC20003 [8.732106 67.518410 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAC201C, 0x7CAC201D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CAC201C, 0x7CAC201D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAC201D,  4179, 0xCAC20003, 8.732106, 67.51841, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

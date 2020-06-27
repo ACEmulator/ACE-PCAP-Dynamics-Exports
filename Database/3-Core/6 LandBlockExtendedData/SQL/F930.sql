@@ -5,409 +5,409 @@ VALUES (0x7F930001,  1154, 0xF93005C4, 40.0962, 217.097, 80.40079, 1, 0, 0, 0, F
 /* @teleloc 0xF93005C4 [40.096200 217.097000 80.400790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F930001, 0x7F930002, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930003, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930004, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930005, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930006, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930007, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930008, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93000A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93000B, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93000C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93000D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93000E, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93000F, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930010, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930011, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930012, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930013, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930014, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930015, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930016, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930017, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930018, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930019, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93001A, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93001B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93001C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93001D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93001E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93001F, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930020, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930021, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F930001, 0x7F930022, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7F930001, 0x7F930023, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930024, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930025, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930026, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930027, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930028, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930029, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93002A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93002B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93002C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93002D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93002E, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93002F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930030, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930031, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930032, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930033, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930034, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930035, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930036, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930037, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930038, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930039, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93003A, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93003B, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93003C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93003D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93003E, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93003F, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930040, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F930001, 0x7F930041, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F930001, 0x7F930042, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7F930001, 0x7F930043, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930044, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930045, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930046, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930047, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930048, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930049, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93004A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F930001, 0x7F93004B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F930001, 0x7F93004C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F930001, 0x7F93004D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F930001, 0x7F93004E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F930001, 0x7F93004F, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930050, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930051, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930052, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930053, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930054, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930055, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930056, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930057, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930058, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930059, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93005A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93005B, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93005C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93005D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93005E, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93005F, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930060, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930061, '2019-02-10 00:00:00') /* Killer Phyntos Hive */
-     , (0x7F930001, 0x7F930062, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930063, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930064, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930065, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930066, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930067, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930068, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930069, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93006A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93006B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93006C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93006D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93006E, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93006F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930070, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930071, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930072, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930073, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930074, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930075, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930076, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930077, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930078, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930079, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93007A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93007B, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93007C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93007D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93007E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93007F, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930080, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930081, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930082, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930083, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930084, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930085, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930086, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930087, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930088, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930089, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93008A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93008B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93008C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93008D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93008E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93008F, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930090, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930091, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930092, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930093, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930094, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930095, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930096, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930097, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930098, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930099, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93009A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93009B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93009C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93009D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93009E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93009F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300A0, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300A1, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300A2, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300A3, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300A4, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300A5, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300A6, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300A7, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300A8, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300A9, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300AA, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300AB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300AC, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300AD, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300AE, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300AF, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300B0, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300B1, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300B2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300B3, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300B4, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300B5, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300B6, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300B7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300B8, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300B9, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300BA, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300BB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300BC, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300BD, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300BE, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300BF, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300C0, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300C1, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300C2, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300C3, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300C4, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300C5, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300C6, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300C7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300C8, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300C9, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300CA, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300CB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300CC, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300CD, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300CE, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300CF, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300D0, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300D1, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300D2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300D3, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300D4, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300D5, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300D6, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300D7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300D8, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300D9, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300DA, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300DB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300DC, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300DD, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300DE, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300DF, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300E0, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E1, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E2, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E3, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300E4, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300E5, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300E6, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E7, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E8, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300E9, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300EA, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300EB, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300EC, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300ED, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300EE, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300EF, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F9300F0, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F1, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F9300F3, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F4, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F5, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F6, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F7, '2019-02-10 00:00:00') /* Killer Phyntos Queen */
-     , (0x7F930001, 0x7F9300F8, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300F9, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300FA, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300FB, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F9300FC, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300FD, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300FE, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F9300FF, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930100, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930101, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930102, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930103, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930104, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930105, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930106, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930107, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930108, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930109, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010A, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010B, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010C, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010D, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010E, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93010F, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930110, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930111, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930112, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930113, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F930001, 0x7F930114, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930115, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930116, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930117, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930118, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930119, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93011A, '2019-02-10 00:00:00') /* Glowing Jungle Lily */
-     , (0x7F930001, 0x7F93011B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93011C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93011D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93011E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93011F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930120, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930121, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930122, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930123, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930124, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930125, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930126, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930127, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930128, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930129, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93012A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93012B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93012C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93012D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93012E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93012F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930130, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930131, '2019-02-10 00:00:00') /* Killer Phyntos Queen */
-     , (0x7F930001, 0x7F930132, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930133, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930134, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930135, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930136, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930137, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930138, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930139, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93013A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93013B, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93013C, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93013D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93013E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93013F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930140, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930141, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930142, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930143, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930144, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930145, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930146, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F930001, 0x7F930147, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7F930001, 0x7F930148, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7F930001, 0x7F930149, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93014A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93014B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93014C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93014D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93014E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93014F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930150, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930151, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930152, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930153, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930154, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930155, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930156, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930157, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930158, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930159, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93015A, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93015B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93015C, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F93015D, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93015E, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93015F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930160, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930161, '2019-02-10 00:00:00') /* Phyntos Larva */
-     , (0x7F930001, 0x7F930162, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930163, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930164, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930165, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930166, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930167, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930168, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930169, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93016A, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93016B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93016C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93016D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F93016E, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F93016F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930170, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930171, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930172, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930173, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930174, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930175, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930176, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930177, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930178, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930179, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93017A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93017B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93017C, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F930001, 0x7F93017D, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7F930001, 0x7F93017E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93017F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930180, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930181, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930182, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930183, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930184, '2019-02-10 00:00:00') /* Killer Phyntos Drone */
-     , (0x7F930001, 0x7F930185, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930186, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930187, '2019-02-10 00:00:00') /* Killer Phyntos Soldier */
-     , (0x7F930001, 0x7F930188, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930189, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F930001, 0x7F93018A, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F930001, 0x7F93018B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93018C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93018D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93018E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F93018F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930190, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F930001, 0x7F930191, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F930001, 0x7F930192, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930193, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */
-     , (0x7F930001, 0x7F930194, '2019-02-10 00:00:00') /* Killer Phyntos Swarm */;
+VALUES (0x7F930001, 0x7F930002, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930003, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930004, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930005, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930006, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930007, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930008, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930009, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93000A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93000B, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93000C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93000D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93000E, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93000F, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930010, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930011, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930012, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930013, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930014, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930015, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930016, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930017, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930018, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930019, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93001A, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93001B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93001C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93001D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93001E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93001F, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930020, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930021, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F930001, 0x7F930022, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7F930001, 0x7F930023, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930024, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930025, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930026, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930027, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930028, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930029, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93002A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93002B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93002C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93002D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93002E, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93002F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930030, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930031, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930032, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930033, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930034, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930035, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930036, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930037, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930038, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930039, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93003A, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93003B, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93003C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93003D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93003E, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93003F, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930040, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F930001, 0x7F930041, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F930001, 0x7F930042, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F930001, 0x7F930043, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930044, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930045, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930046, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930047, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930048, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930049, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93004A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F930001, 0x7F93004B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F930001, 0x7F93004C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F930001, 0x7F93004D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F930001, 0x7F93004E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F930001, 0x7F93004F, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930050, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930051, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930052, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930053, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930054, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930055, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930056, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930057, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930058, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930059, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93005A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93005B, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93005C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93005D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93005E, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93005F, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930060, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930061, '2019-02-10 00:00:00') /* Killer Phyntos Hive (41798) */
+     , (0x7F930001, 0x7F930062, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930063, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930064, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930065, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930066, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930067, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930068, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930069, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93006A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93006B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93006C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93006D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93006E, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93006F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930070, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930071, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930072, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930073, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930074, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930075, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930076, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930077, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930078, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930079, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93007A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93007B, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93007C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93007D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93007E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93007F, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930080, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930081, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930082, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930083, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930084, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930085, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930086, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930087, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930088, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930089, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93008A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93008B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93008C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93008D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93008E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93008F, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930090, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930091, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930092, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930093, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930094, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930095, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930096, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930097, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930098, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930099, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93009A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93009B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93009C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93009D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93009E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93009F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300A0, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300A1, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300A2, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300A3, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300A4, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300A5, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300A6, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300A7, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300A8, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300A9, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300AA, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300AB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300AC, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300AD, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300AE, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300AF, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300B0, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300B1, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300B2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300B3, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300B4, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300B5, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300B6, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300B7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300B8, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300B9, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300BA, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300BB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300BC, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300BD, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300BE, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300BF, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300C0, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300C1, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300C2, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300C3, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300C4, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300C5, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300C6, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300C7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300C8, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300C9, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300CA, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300CB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300CC, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300CD, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300CE, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300CF, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300D0, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300D1, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300D2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300D3, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300D4, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300D5, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300D6, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300D7, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300D8, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300D9, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300DA, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300DB, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300DC, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300DD, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300DE, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300DF, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300E0, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E1, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E2, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E3, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300E4, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300E5, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300E6, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E7, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E8, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300E9, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300EA, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300EB, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300EC, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300ED, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300EE, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300EF, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F9300F0, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F1, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F2, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F9300F3, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F4, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F5, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F6, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F7, '2019-02-10 00:00:00') /* Killer Phyntos Queen (41799) */
+     , (0x7F930001, 0x7F9300F8, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300F9, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300FA, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300FB, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F9300FC, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300FD, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300FE, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F9300FF, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930100, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930101, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930102, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930103, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930104, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930105, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930106, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930107, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930108, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930109, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010A, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010B, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010C, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010D, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010E, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93010F, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930110, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930111, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930112, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930113, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F930001, 0x7F930114, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930115, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930116, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930117, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930118, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930119, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93011A, '2019-02-10 00:00:00') /* Glowing Jungle Lily (38416) */
+     , (0x7F930001, 0x7F93011B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93011C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93011D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93011E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93011F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930120, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930121, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930122, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930123, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930124, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930125, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930126, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930127, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930128, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930129, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93012A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93012B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93012C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93012D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93012E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93012F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930130, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930131, '2019-02-10 00:00:00') /* Killer Phyntos Queen (41799) */
+     , (0x7F930001, 0x7F930132, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930133, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930134, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930135, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930136, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930137, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930138, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930139, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93013A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93013B, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93013C, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93013D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93013E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93013F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930140, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930141, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930142, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930143, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930144, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930145, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930146, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F930001, 0x7F930147, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F930001, 0x7F930148, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F930001, 0x7F930149, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93014A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93014B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93014C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93014D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93014E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93014F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930150, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930151, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930152, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930153, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930154, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930155, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930156, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930157, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930158, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930159, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93015A, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93015B, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93015C, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F93015D, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93015E, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93015F, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930160, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930161, '2019-02-10 00:00:00') /* Phyntos Larva (41796) */
+     , (0x7F930001, 0x7F930162, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930163, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930164, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930165, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930166, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930167, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930168, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930169, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93016A, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93016B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93016C, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93016D, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F93016E, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F93016F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930170, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930171, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930172, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930173, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930174, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930175, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930176, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930177, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930178, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930179, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93017A, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93017B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93017C, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F930001, 0x7F93017D, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7F930001, 0x7F93017E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93017F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930180, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930181, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930182, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930183, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930184, '2019-02-10 00:00:00') /* Killer Phyntos Drone (41797) */
+     , (0x7F930001, 0x7F930185, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930186, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930187, '2019-02-10 00:00:00') /* Killer Phyntos Soldier (41800) */
+     , (0x7F930001, 0x7F930188, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930189, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F930001, 0x7F93018A, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F930001, 0x7F93018B, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93018C, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93018D, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93018E, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F93018F, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930190, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F930001, 0x7F930191, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F930001, 0x7F930192, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930193, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
+     , (0x7F930001, 0x7F930194, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F930002, 41801, 0xF93005C4, 40.0962, 217.097, 80.40079, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Killer Phyntos Swarm */
@@ -2026,30 +2026,30 @@ VALUES (0x7F930195,  1154, 0xF9300010, 39.48919, 174.7821, 86.14906, 0.9549194, 
 /* @teleloc 0xF9300010 [39.489190 174.782100 86.149060] 0.954919 0.000000 0.000000 0.296865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F930195, 0x7F930196, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F930197, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F930198, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F930199, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */
-     , (0x7F930195, 0x7F93019A, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F93019B, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */
-     , (0x7F930195, 0x7F93019C, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F93019D, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F93019E, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F93019F, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301A0, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301A1, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301A2, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F9301A3, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F9301A4, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301A5, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */
-     , (0x7F930195, 0x7F9301A6, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F9301A7, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */
-     , (0x7F930195, 0x7F9301A8, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301A9, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301AA, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */
-     , (0x7F930195, 0x7F9301AB, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent */
-     , (0x7F930195, 0x7F9301AC, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent */
-     , (0x7F930195, 0x7F9301AD, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent */;
+VALUES (0x7F930195, 0x7F930196, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F930197, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F930198, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F930199, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */
+     , (0x7F930195, 0x7F93019A, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F93019B, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */
+     , (0x7F930195, 0x7F93019C, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F93019D, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F93019E, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F93019F, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301A0, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301A1, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301A2, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F9301A3, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F9301A4, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301A5, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */
+     , (0x7F930195, 0x7F9301A6, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F9301A7, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */
+     , (0x7F930195, 0x7F9301A8, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301A9, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301AA, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */
+     , (0x7F930195, 0x7F9301AB, '2019-02-10 00:00:00') /* Corpse of Radiant Blood Agent (41805) */
+     , (0x7F930195, 0x7F9301AC, '2019-02-10 00:00:00') /* Corpse of Eldrytch Web Agent (41804) */
+     , (0x7F930195, 0x7F9301AD, '2019-02-10 00:00:00') /* Corpse of Celestial Hand Agent (41803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F930196, 41804, 0xF9300010, 39.48919, 174.7821, 86.14906, 0.9549194, 0, 0, 0.2968651,  True, '2019-02-10 00:00:00'); /* Corpse of Eldrytch Web Agent */
@@ -2152,21 +2152,21 @@ VALUES (0x7F9301AE,  1542, 0xF9300686, 90.24543, 171.7247, 80.4, 0.6427876, 0, 0
 /* @teleloc 0xF9300686 [90.245430 171.724700 80.400000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F9301AE, 0x7F9301AF, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B0, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B1, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B2, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B3, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B4, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B5, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B6, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B7, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B8, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301B9, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301BA, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301BB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F9301AE, 0x7F9301BC, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F9301AE, 0x7F9301BD, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7F9301AE, 0x7F9301AF, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301B0, '2019-02-10 00:00:00') /* Corpse (41806) */
+     , (0x7F9301AE, 0x7F9301B1, '2019-02-10 00:00:00') /* Corpse (41806) */
+     , (0x7F9301AE, 0x7F9301B2, '2019-02-10 00:00:00') /* Corpse (41808) */
+     , (0x7F9301AE, 0x7F9301B3, '2019-02-10 00:00:00') /* Corpse (41806) */
+     , (0x7F9301AE, 0x7F9301B4, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301B5, '2019-02-10 00:00:00') /* Corpse (41808) */
+     , (0x7F9301AE, 0x7F9301B6, '2019-02-10 00:00:00') /* Corpse (41806) */
+     , (0x7F9301AE, 0x7F9301B7, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301B8, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301B9, '2019-02-10 00:00:00') /* Corpse (41808) */
+     , (0x7F9301AE, 0x7F9301BA, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301BB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F9301AE, 0x7F9301BC, '2019-02-10 00:00:00') /* Corpse (41807) */
+     , (0x7F9301AE, 0x7F9301BD, '2019-02-10 00:00:00') /* Corpse (41807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F9301AF, 41807, 0xF9300686, 90.24543, 171.7247, 80.4, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Corpse */

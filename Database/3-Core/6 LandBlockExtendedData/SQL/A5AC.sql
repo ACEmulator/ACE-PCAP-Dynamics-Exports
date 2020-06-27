@@ -5,25 +5,25 @@ VALUES (0x7A5AC001,  1154, 0xA5AC0040, 189.9951, 172.8611, 105.1912, 0.9537169, 
 /* @teleloc 0xA5AC0040 [189.995100 172.861100 105.191200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5AC001, 0x7A5AC002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A5AC001, 0x7A5AC003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A5AC001, 0x7A5AC004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A5AC001, 0x7A5AC005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A5AC001, 0x7A5AC006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A5AC001, 0x7A5AC007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A5AC001, 0x7A5AC008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A5AC001, 0x7A5AC009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A5AC001, 0x7A5AC00A, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7A5AC001, 0x7A5AC00B, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A5AC001, 0x7A5AC00C, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A5AC001, 0x7A5AC00D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A5AC001, 0x7A5AC00E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A5AC001, 0x7A5AC00F, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A5AC001, 0x7A5AC010, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A5AC001, 0x7A5AC011, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7A5AC001, 0x7A5AC012, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A5AC001, 0x7A5AC013, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7A5AC001, 0x7A5AC014, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7A5AC001, 0x7A5AC002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A5AC001, 0x7A5AC003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A5AC001, 0x7A5AC004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A5AC001, 0x7A5AC005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A5AC001, 0x7A5AC006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A5AC001, 0x7A5AC007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A5AC001, 0x7A5AC008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A5AC001, 0x7A5AC009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A5AC001, 0x7A5AC00A, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7A5AC001, 0x7A5AC00B, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A5AC001, 0x7A5AC00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A5AC001, 0x7A5AC00D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A5AC001, 0x7A5AC00E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A5AC001, 0x7A5AC00F, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A5AC001, 0x7A5AC010, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A5AC001, 0x7A5AC011, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7A5AC001, 0x7A5AC012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A5AC001, 0x7A5AC013, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7A5AC001, 0x7A5AC014, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5AC002,   222, 0xA5AC0040, 189.9951, 172.8611, 105.1912, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -106,7 +106,7 @@ VALUES (0x7A5AC015,  1542, 0xA5AC0037, 162.3071, 144.92, 107.9233, 1, 0, 0, 0, F
 /* @teleloc 0xA5AC0037 [162.307100 144.920000 107.923300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5AC015, 0x7A5AC016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A5AC015, 0x7A5AC016, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5AC016, 22572, 0xA5AC0037, 162.3071, 144.92, 107.9233, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x74995001,  1154, 0x4995003D, 169.1829, 97.09534, 7.724367, 0.1827674, 
 /* @teleloc 0x4995003D [169.182900 97.095340 7.724367] 0.182767 0.000000 0.000000 -0.983156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74995001, 0x74995002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x74995001, 0x74995003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74995001, 0x74995004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74995001, 0x74995005, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x74995001, 0x74995002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x74995001, 0x74995003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74995001, 0x74995004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74995001, 0x74995005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74995002,   231, 0x4995003D, 169.1829, 97.09534, 7.724367, 0.1827674, 0, 0, -0.9831562,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

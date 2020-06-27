@@ -5,14 +5,14 @@ VALUES (0x73234001,  1154, 0x32340031, 161.0053, 17.19432, 56.86572, 0.9985649, 
 /* @teleloc 0x32340031 [161.005300 17.194320 56.865720] 0.998565 0.000000 0.000000 -0.053555 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73234001, 0x73234002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x73234001, 0x73234003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73234001, 0x73234004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73234001, 0x73234005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73234001, 0x73234006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73234001, 0x73234007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73234001, 0x73234008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73234001, 0x73234009, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x73234001, 0x73234002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x73234001, 0x73234003, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73234001, 0x73234004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73234001, 0x73234005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73234001, 0x73234006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73234001, 0x73234007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73234001, 0x73234008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73234001, 0x73234009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73234002, 11536, 0x32340031, 161.0053, 17.19432, 56.86572, 0.9985649, 0, 0, -0.05355513,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

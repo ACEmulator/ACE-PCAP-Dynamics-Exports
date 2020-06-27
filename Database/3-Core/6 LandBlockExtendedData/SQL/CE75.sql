@@ -5,10 +5,10 @@ VALUES (0x7CE75001,  1154, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.9499798, 
 /* @teleloc 0xCE750002 [1.449936 46.118630 26.004600] -0.949980 0.000000 0.000000 -0.312311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE75001, 0x7CE75002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CE75001, 0x7CE75003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CE75001, 0x7CE75004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CE75001, 0x7CE75005, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7CE75001, 0x7CE75002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CE75001, 0x7CE75003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CE75001, 0x7CE75004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CE75001, 0x7CE75005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE75002,  4246, 0xCE750002, 1.449936, 46.11863, 26.0046, -0.9499798, 0, 0, -0.3123114,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -31,7 +31,7 @@ VALUES (0x7CE75006,  1542, 0xCE750001, 4.697878, 13.58015, 25.99784, 1, 0, 0, 0,
 /* @teleloc 0xCE750001 [4.697878 13.580150 25.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE75006, 0x7CE75007, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CE75006, 0x7CE75007, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE75007, 31443, 0xCE750001, 4.697878, 13.58015, 25.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

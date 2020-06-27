@@ -5,24 +5,24 @@ VALUES (0x7A32A001,  1154, 0xA32A0035, 159.5309, 100.5986, 168.5066, 0.9798681, 
 /* @teleloc 0xA32A0035 [159.530900 100.598600 168.506600] 0.979868 0.000000 0.000000 -0.199646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A32A001, 0x7A32A002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A32A001, 0x7A32A003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A32A001, 0x7A32A004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A32A001, 0x7A32A005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A32A001, 0x7A32A006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A32A001, 0x7A32A009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A32A001, 0x7A32A00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A32A001, 0x7A32A00B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A00C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A00D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A00E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A32A001, 0x7A32A00F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A32A001, 0x7A32A010, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A32A001, 0x7A32A011, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7A32A001, 0x7A32A012, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A32A001, 0x7A32A013, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x7A32A001, 0x7A32A002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A32A001, 0x7A32A003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A32A001, 0x7A32A004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A32A001, 0x7A32A005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A32A001, 0x7A32A006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A32A001, 0x7A32A009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A32A001, 0x7A32A00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A32A001, 0x7A32A00B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A00C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A00D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A00E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A32A001, 0x7A32A00F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A32A001, 0x7A32A010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A32A001, 0x7A32A011, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7A32A001, 0x7A32A012, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A32A001, 0x7A32A013, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A32A002,  1610, 0xA32A0035, 159.5309, 100.5986, 168.5066, 0.9798681, 0, 0, -0.1996459,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -101,11 +101,11 @@ VALUES (0x7A32A014,  1542, 0xA32A0022, 107.8715, 43.08875, 164.9367, -0.1713827,
 /* @teleloc 0xA32A0022 [107.871500 43.088750 164.936700] -0.171383 0.000000 0.000000 -0.985205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A32A014, 0x7A32A015, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A32A014, 0x7A32A016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A32A014, 0x7A32A017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A32A014, 0x7A32A018, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7A32A014, 0x7A32A019, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7A32A014, 0x7A32A015, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A32A014, 0x7A32A016, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A32A014, 0x7A32A017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A32A014, 0x7A32A018, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7A32A014, 0x7A32A019, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A32A015, 42528, 0xA32A0022, 107.8715, 43.08875, 164.9367, -0.1713827, 0, 0, -0.9852045,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,14 +5,14 @@ VALUES (0x73B95001,  1154, 0x3B950015, 54.20136, 96.47278, 31.30379, 0.7372774, 
 /* @teleloc 0x3B950015 [54.201360 96.472780 31.303790] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B95001, 0x73B95002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73B95001, 0x73B95003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73B95001, 0x73B95004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73B95001, 0x73B95005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73B95001, 0x73B95006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73B95001, 0x73B95007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73B95001, 0x73B95008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73B95001, 0x73B95009, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x73B95001, 0x73B95002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73B95001, 0x73B95003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73B95001, 0x73B95004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73B95001, 0x73B95005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x73B95001, 0x73B95006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73B95001, 0x73B95007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x73B95001, 0x73B95008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73B95001, 0x73B95009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B95002, 10806, 0x3B950015, 54.20136, 96.47278, 31.30379, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

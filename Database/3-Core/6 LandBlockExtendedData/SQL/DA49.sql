@@ -5,10 +5,10 @@ VALUES (0x7DA49001,  1154, 0xDA490038, 146.8372, 174.8392, 35.665, 0.9429007, 0,
 /* @teleloc 0xDA490038 [146.837200 174.839200 35.665000] 0.942901 0.000000 0.000000 -0.333074 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA49001, 0x7DA49002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7DA49001, 0x7DA49003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7DA49001, 0x7DA49004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7DA49001, 0x7DA49005, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7DA49001, 0x7DA49002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7DA49001, 0x7DA49003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7DA49001, 0x7DA49004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7DA49001, 0x7DA49005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA49002,  7979, 0xDA490038, 146.8372, 174.8392, 35.665, 0.9429007, 0, 0, -0.3330739,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

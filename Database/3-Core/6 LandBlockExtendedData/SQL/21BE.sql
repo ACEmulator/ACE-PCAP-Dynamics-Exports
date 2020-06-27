@@ -5,11 +5,11 @@ VALUES (0x721BE001,  1154, 0x21BE000A, 28.13142, 28.85193, 90.005, 1, 0, 0, 0, F
 /* @teleloc 0x21BE000A [28.131420 28.851930 90.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721BE001, 0x721BE002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BE001, 0x721BE003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BE001, 0x721BE004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x721BE001, 0x721BE005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x721BE001, 0x721BE006, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x721BE001, 0x721BE002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BE001, 0x721BE003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BE001, 0x721BE004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x721BE001, 0x721BE005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x721BE001, 0x721BE006, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721BE002, 11526, 0x21BE000A, 28.13142, 28.85193, 90.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -36,8 +36,8 @@ VALUES (0x721BE007,  1542, 0x21BE0012, 68.79916, 46.33263, 91, 1, 0, 0, 0, False
 /* @teleloc 0x21BE0012 [68.799160 46.332630 91.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721BE007, 0x721BE008, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x721BE007, 0x721BE009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x721BE007, 0x721BE008, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x721BE007, 0x721BE009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721BE008,  9024, 0x21BE0012, 68.79916, 46.33263, 91, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

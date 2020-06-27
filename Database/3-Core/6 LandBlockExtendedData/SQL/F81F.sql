@@ -5,14 +5,14 @@ VALUES (0x7F81F001,  1154, 0xF81F000D, 44.39476, 110.3913, 52.015, -0.9989771, 0
 /* @teleloc 0xF81F000D [44.394760 110.391300 52.015000] -0.998977 0.000000 0.000000 -0.045219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F81F001, 0x7F81F002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F81F001, 0x7F81F003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F81F001, 0x7F81F004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F81F001, 0x7F81F005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F81F001, 0x7F81F006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F81F001, 0x7F81F007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F81F001, 0x7F81F008, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F81F001, 0x7F81F009, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F81F001, 0x7F81F002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F81F001, 0x7F81F003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F81F001, 0x7F81F004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F81F001, 0x7F81F005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F81F001, 0x7F81F006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F81F001, 0x7F81F007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F81F001, 0x7F81F008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F81F001, 0x7F81F009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81F002,  7129, 0xF81F000D, 44.39476, 110.3913, 52.015, -0.9989771, 0, 0, -0.04521869,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -51,7 +51,7 @@ VALUES (0x7F81F00A,  1542, 0xF81F0010, 40.07758, 184.1473, 47.81717, 0.9914449, 
 /* @teleloc 0xF81F0010 [40.077580 184.147300 47.817170] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F81F00A, 0x7F81F00B, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7F81F00A, 0x7F81F00B, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81F00B,  5779, 0xF81F0010, 40.07758, 184.1473, 47.81717, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Strange Stick */

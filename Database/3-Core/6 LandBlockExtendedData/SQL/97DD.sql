@@ -5,13 +5,13 @@ VALUES (0x797DD001,  1154, 0x97DD0033, 163.3435, 54.87621, 180.4477, -0.9373274,
 /* @teleloc 0x97DD0033 [163.343500 54.876210 180.447700] -0.937327 0.000000 0.000000 -0.348450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797DD001, 0x797DD002, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x797DD001, 0x797DD003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797DD001, 0x797DD004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x797DD001, 0x797DD005, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x797DD001, 0x797DD006, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x797DD001, 0x797DD007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x797DD001, 0x797DD008, '2019-02-10 00:00:00') /* Banished Mu-miyah */;
+VALUES (0x797DD001, 0x797DD002, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x797DD001, 0x797DD003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797DD001, 0x797DD004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x797DD001, 0x797DD005, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x797DD001, 0x797DD006, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x797DD001, 0x797DD007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x797DD001, 0x797DD008, '2019-02-10 00:00:00') /* Banished Mu-miyah (30902) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797DD002, 34295, 0x97DD0033, 163.3435, 54.87621, 180.4477, -0.9373274, 0, 0, -0.3484499,  True, '2019-02-10 00:00:00'); /* Acolyte of Breath */

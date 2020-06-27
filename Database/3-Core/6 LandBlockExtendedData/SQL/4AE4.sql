@@ -5,42 +5,42 @@ VALUES (0x74AE4001,  1154, 0x4AE4001C, 89.1812, 77.60338, 35.44394, 0.7372774, 0
 /* @teleloc 0x4AE4001C [89.181200 77.603380 35.443940] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE4001, 0x74AE4002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AE4001, 0x74AE4003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74AE4001, 0x74AE4004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74AE4001, 0x74AE4005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AE4001, 0x74AE4006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AE4001, 0x74AE4007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74AE4001, 0x74AE4008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74AE4001, 0x74AE4009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74AE4001, 0x74AE400A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74AE4001, 0x74AE400B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74AE4001, 0x74AE400C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74AE4001, 0x74AE400D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AE4001, 0x74AE400E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AE4001, 0x74AE400F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AE4001, 0x74AE4010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AE4001, 0x74AE4011, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74AE4001, 0x74AE4012, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74AE4001, 0x74AE4013, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74AE4001, 0x74AE4014, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74AE4001, 0x74AE4015, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74AE4001, 0x74AE4016, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE4001, 0x74AE4017, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74AE4001, 0x74AE4018, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AE4001, 0x74AE4019, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AE4001, 0x74AE401A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74AE4001, 0x74AE401B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AE4001, 0x74AE401C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74AE4001, 0x74AE401D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AE4001, 0x74AE401E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AE4001, 0x74AE401F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74AE4001, 0x74AE4020, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE4001, 0x74AE4021, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AE4001, 0x74AE4022, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74AE4001, 0x74AE4023, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AE4001, 0x74AE4024, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AE4001, 0x74AE4025, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x74AE4001, 0x74AE4002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AE4001, 0x74AE4003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74AE4001, 0x74AE4004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74AE4001, 0x74AE4005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AE4001, 0x74AE4006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AE4001, 0x74AE4007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74AE4001, 0x74AE4008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74AE4001, 0x74AE4009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74AE4001, 0x74AE400A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74AE4001, 0x74AE400B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74AE4001, 0x74AE400C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74AE4001, 0x74AE400D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AE4001, 0x74AE400E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AE4001, 0x74AE400F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AE4001, 0x74AE4010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AE4001, 0x74AE4011, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x74AE4001, 0x74AE4012, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74AE4001, 0x74AE4013, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74AE4001, 0x74AE4014, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x74AE4001, 0x74AE4015, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74AE4001, 0x74AE4016, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE4001, 0x74AE4017, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74AE4001, 0x74AE4018, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AE4001, 0x74AE4019, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AE4001, 0x74AE401A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74AE4001, 0x74AE401B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AE4001, 0x74AE401C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74AE4001, 0x74AE401D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AE4001, 0x74AE401E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AE4001, 0x74AE401F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74AE4001, 0x74AE4020, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE4001, 0x74AE4021, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AE4001, 0x74AE4022, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74AE4001, 0x74AE4023, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AE4001, 0x74AE4024, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AE4001, 0x74AE4025, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE4002,  7113, 0x4AE4001C, 89.1812, 77.60338, 35.44394, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -191,12 +191,12 @@ VALUES (0x74AE4026,  1542, 0x4AE40023, 99.03233, 68.00745, 38.66542, -0.7975076,
 /* @teleloc 0x4AE40023 [99.032330 68.007450 38.665420] -0.797508 0.000000 0.000000 -0.603309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE4026, 0x74AE4027, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x74AE4026, 0x74AE4028, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74AE4026, 0x74AE4029, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x74AE4026, 0x74AE402A, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x74AE4026, 0x74AE402B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74AE4026, 0x74AE402C, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x74AE4026, 0x74AE4027, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x74AE4026, 0x74AE4028, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x74AE4026, 0x74AE4029, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x74AE4026, 0x74AE402A, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x74AE4026, 0x74AE402B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74AE4026, 0x74AE402C, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE4027, 11554, 0x4AE40023, 99.03233, 68.00745, 38.66542, -0.7975076, 0, 0, -0.6033089,  True, '2019-02-10 00:00:00'); /* Colban Plant */

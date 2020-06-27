@@ -5,14 +5,14 @@ VALUES (0x7B3BC001,  1154, 0xB3BC000D, 39.67374, 98.00359, 139.2971, 0.5008501, 
 /* @teleloc 0xB3BC000D [39.673740 98.003590 139.297100] 0.500850 0.000000 0.000000 -0.865534 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3BC001, 0x7B3BC002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B3BC001, 0x7B3BC003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B3BC001, 0x7B3BC004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B3BC001, 0x7B3BC005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B3BC001, 0x7B3BC006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B3BC001, 0x7B3BC007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B3BC001, 0x7B3BC008, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7B3BC001, 0x7B3BC009, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7B3BC001, 0x7B3BC002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B3BC001, 0x7B3BC003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B3BC001, 0x7B3BC004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B3BC001, 0x7B3BC005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B3BC001, 0x7B3BC006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B3BC001, 0x7B3BC007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B3BC001, 0x7B3BC008, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7B3BC001, 0x7B3BC009, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3BC002,  9251, 0xB3BC000D, 39.67374, 98.00359, 139.2971, 0.5008501, 0, 0, -0.8655341,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7B3BC00A,  1542, 0xB3BC0016, 69.56837, 122.866, 140.275, 0.8492174, 0,
 /* @teleloc 0xB3BC0016 [69.568370 122.866000 140.275000] 0.849217 0.000000 0.000000 -0.528043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3BC00A, 0x7B3BC00B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B3BC00A, 0x7B3BC00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3BC00B,  8644, 0xB3BC0016, 69.56837, 122.866, 140.275, 0.8492174, 0, 0, -0.5280434,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

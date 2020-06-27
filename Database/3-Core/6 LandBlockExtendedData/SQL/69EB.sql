@@ -5,17 +5,17 @@ VALUES (0x769EB001,  1154, 0x69EB0017, 50.56996, 145.931, 5.898327, 1, 0, 0, 0, 
 /* @teleloc 0x69EB0017 [50.569960 145.931000 5.898327] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769EB001, 0x769EB002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x769EB001, 0x769EB003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x769EB001, 0x769EB004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x769EB001, 0x769EB005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x769EB001, 0x769EB006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x769EB001, 0x769EB007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x769EB001, 0x769EB008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x769EB001, 0x769EB009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x769EB001, 0x769EB00A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x769EB001, 0x769EB00B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x769EB001, 0x769EB00C, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x769EB001, 0x769EB002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x769EB001, 0x769EB003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x769EB001, 0x769EB004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x769EB001, 0x769EB005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x769EB001, 0x769EB006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x769EB001, 0x769EB007, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x769EB001, 0x769EB008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x769EB001, 0x769EB009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x769EB001, 0x769EB00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x769EB001, 0x769EB00B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x769EB001, 0x769EB00C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769EB002, 23566, 0x69EB0017, 50.56996, 145.931, 5.898327, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -66,12 +66,12 @@ VALUES (0x769EB00D,  1542, 0x69EB0017, 50.04598, 144.8131, 6.032813, 1, 0, 0, 0,
 /* @teleloc 0x69EB0017 [50.045980 144.813100 6.032813] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769EB00D, 0x769EB00E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x769EB00D, 0x769EB00F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x769EB00D, 0x769EB010, '2019-02-10 00:00:00') /* Bones */
-     , (0x769EB00D, 0x769EB011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x769EB00D, 0x769EB012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x769EB00D, 0x769EB013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x769EB00D, 0x769EB00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x769EB00D, 0x769EB00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x769EB00D, 0x769EB010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x769EB00D, 0x769EB011, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x769EB00D, 0x769EB012, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x769EB00D, 0x769EB013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769EB00E, 31445, 0x69EB0017, 50.04598, 144.8131, 6.032813, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

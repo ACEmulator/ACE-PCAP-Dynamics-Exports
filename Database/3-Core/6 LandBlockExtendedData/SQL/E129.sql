@@ -5,24 +5,24 @@ VALUES (0x7E129001,  1154, 0xE1290029, 122.6592, 5.609643, 10.9222, 0.7071068, 0
 /* @teleloc 0xE1290029 [122.659200 5.609643 10.922200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E129001, 0x7E129002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7E129001, 0x7E129003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7E129001, 0x7E129004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E129001, 0x7E129005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E129001, 0x7E129006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7E129001, 0x7E129007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7E129001, 0x7E129008, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7E129001, 0x7E129009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E129001, 0x7E12900A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E129001, 0x7E12900B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7E129001, 0x7E12900C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E129001, 0x7E12900D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E129001, 0x7E12900E, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7E129001, 0x7E12900F, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7E129001, 0x7E129010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7E129001, 0x7E129011, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7E129001, 0x7E129012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E129001, 0x7E129013, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7E129001, 0x7E129002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7E129001, 0x7E129003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7E129001, 0x7E129004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E129001, 0x7E129005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E129001, 0x7E129006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7E129001, 0x7E129007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7E129001, 0x7E129008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7E129001, 0x7E129009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E129001, 0x7E12900A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E129001, 0x7E12900B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7E129001, 0x7E12900C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E129001, 0x7E12900D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E129001, 0x7E12900E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7E129001, 0x7E12900F, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7E129001, 0x7E129010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7E129001, 0x7E129011, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7E129001, 0x7E129012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E129001, 0x7E129013, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E129002,  7090, 0xE1290029, 122.6592, 5.609643, 10.9222, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

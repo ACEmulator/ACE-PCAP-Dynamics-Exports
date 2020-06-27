@@ -5,27 +5,27 @@ VALUES (0x71E88001,  1154, 0x1E880005, 13.24854, 110.6127, 63.994, 0.7071068, 0,
 /* @teleloc 0x1E880005 [13.248540 110.612700 63.994000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E88001, 0x71E88002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71E88001, 0x71E88003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71E88001, 0x71E88004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71E88001, 0x71E88005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71E88001, 0x71E88006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E88001, 0x71E88007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E88001, 0x71E88008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71E88001, 0x71E88009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E88001, 0x71E8800A, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E88001, 0x71E8800B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71E88001, 0x71E8800C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71E88001, 0x71E8800D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E88001, 0x71E8800E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E88001, 0x71E8800F, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71E88001, 0x71E88010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71E88001, 0x71E88011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E88001, 0x71E88012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71E88001, 0x71E88013, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71E88001, 0x71E88014, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71E88001, 0x71E88015, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71E88001, 0x71E88016, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x71E88001, 0x71E88002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71E88001, 0x71E88003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71E88001, 0x71E88004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71E88001, 0x71E88005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71E88001, 0x71E88006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E88001, 0x71E88007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E88001, 0x71E88008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71E88001, 0x71E88009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E88001, 0x71E8800A, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E88001, 0x71E8800B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71E88001, 0x71E8800C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71E88001, 0x71E8800D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E88001, 0x71E8800E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E88001, 0x71E8800F, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71E88001, 0x71E88010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71E88001, 0x71E88011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E88001, 0x71E88012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71E88001, 0x71E88013, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71E88001, 0x71E88014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71E88001, 0x71E88015, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71E88001, 0x71E88016, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E88002, 36843, 0x1E880005, 13.24854, 110.6127, 63.994, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -116,10 +116,10 @@ VALUES (0x71E88017,  1542, 0x1E880005, 15.71814, 110.5793, 64.00001, -4.371139E-
 /* @teleloc 0x1E880005 [15.718140 110.579300 64.000010] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E88017, 0x71E88018, '2019-02-10 00:00:00') /* Bones */
-     , (0x71E88017, 0x71E88019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71E88017, 0x71E8801A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71E88017, 0x71E8801B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71E88017, 0x71E88018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71E88017, 0x71E88019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71E88017, 0x71E8801A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x71E88017, 0x71E8801B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E88018,  4380, 0x1E880005, 15.71814, 110.5793, 64.00001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,20 +5,20 @@ VALUES (0x7137B001,  1154, 0x137B0028, 111.0315, 170.9629, 143.7663, 0.3644449, 
 /* @teleloc 0x137B0028 [111.031500 170.962900 143.766300] 0.364445 0.000000 0.000000 -0.931225 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137B001, 0x7137B002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7137B001, 0x7137B003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7137B001, 0x7137B004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137B001, 0x7137B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7137B001, 0x7137B006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7137B001, 0x7137B007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7137B001, 0x7137B008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7137B001, 0x7137B009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137B001, 0x7137B00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137B001, 0x7137B00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7137B001, 0x7137B00C, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7137B001, 0x7137B00D, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7137B001, 0x7137B00E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7137B001, 0x7137B00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7137B001, 0x7137B002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7137B001, 0x7137B003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7137B001, 0x7137B004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137B001, 0x7137B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7137B001, 0x7137B006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7137B001, 0x7137B007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7137B001, 0x7137B008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7137B001, 0x7137B009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137B001, 0x7137B00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137B001, 0x7137B00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7137B001, 0x7137B00C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7137B001, 0x7137B00D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7137B001, 0x7137B00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7137B001, 0x7137B00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137B002, 11540, 0x137B0028, 111.0315, 170.9629, 143.7663, 0.3644449, 0, 0, -0.931225,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -81,9 +81,9 @@ VALUES (0x7137B010,  1542, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0,
 /* @teleloc 0x137B000A [45.093760 44.393320 137.768500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137B010, 0x7137B011, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7137B010, 0x7137B012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7137B010, 0x7137B013, '2019-02-10 00:00:00') /* Lead Scarab */;
+VALUES (0x7137B010, 0x7137B011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7137B010, 0x7137B012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7137B010, 0x7137B013, '2019-02-10 00:00:00') /* Lead Scarab (691) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137B011, 31445, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

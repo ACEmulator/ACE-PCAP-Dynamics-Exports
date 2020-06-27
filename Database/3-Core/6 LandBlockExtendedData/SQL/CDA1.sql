@@ -5,12 +5,12 @@ VALUES (0x7CDA1001,  1154, 0xCDA1001B, 77.19557, 53.16729, 31.35123, -0.4003417,
 /* @teleloc 0xCDA1001B [77.195570 53.167290 31.351230] -0.400342 0.000000 0.000000 -0.916366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDA1001, 0x7CDA1002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CDA1001, 0x7CDA1003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CDA1001, 0x7CDA1004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CDA1001, 0x7CDA1005, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CDA1001, 0x7CDA1006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CDA1001, 0x7CDA1007, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x7CDA1001, 0x7CDA1002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CDA1001, 0x7CDA1003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CDA1001, 0x7CDA1004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CDA1001, 0x7CDA1005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CDA1001, 0x7CDA1006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CDA1001, 0x7CDA1007, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDA1002,   229, 0xCDA1001B, 77.19557, 53.16729, 31.35123, -0.4003417, 0, 0, -0.9163659,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

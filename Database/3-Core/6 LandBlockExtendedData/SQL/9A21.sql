@@ -5,19 +5,19 @@ VALUES (0x79A21001,  1154, 0x9A210027, 104.5593, 164.6865, 101.2942, 1, 0, 0, 0,
 /* @teleloc 0x9A210027 [104.559300 164.686500 101.294200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A21001, 0x79A21002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A21001, 0x79A21003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A21001, 0x79A21004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79A21001, 0x79A21005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x79A21001, 0x79A21006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79A21001, 0x79A21007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79A21001, 0x79A21008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79A21001, 0x79A21009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79A21001, 0x79A2100A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79A21001, 0x79A2100B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A21001, 0x79A2100C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A21001, 0x79A2100D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79A21001, 0x79A2100E, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x79A21001, 0x79A21002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A21001, 0x79A21003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A21001, 0x79A21004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79A21001, 0x79A21005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x79A21001, 0x79A21006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79A21001, 0x79A21007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79A21001, 0x79A21008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79A21001, 0x79A21009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79A21001, 0x79A2100A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79A21001, 0x79A2100B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A21001, 0x79A2100C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A21001, 0x79A2100D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79A21001, 0x79A2100E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A21002,  7123, 0x9A210027, 104.5593, 164.6865, 101.2942, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -76,7 +76,7 @@ VALUES (0x79A2100F,  1542, 0x9A210102, 59.8415, 117.138, 90.33701, 1, 0, 0, 0, F
 /* @teleloc 0x9A210102 [59.841500 117.138000 90.337010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A2100F, 0x79A21010, '2019-02-10 00:00:00') /* Olthoi Tunnel */;
+VALUES (0x79A2100F, 0x79A21010, '2019-02-10 00:00:00') /* Olthoi Tunnel (43573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A21010, 43573, 0x9A210102, 59.8415, 117.138, 90.33701, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

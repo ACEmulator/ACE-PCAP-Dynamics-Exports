@@ -5,16 +5,16 @@ VALUES (0x7B4CA001,  1154, 0xB4CA001D, 89.56802, 107.227, 155.3237, -0.9963543, 
 /* @teleloc 0xB4CA001D [89.568020 107.227000 155.323700] -0.996354 0.000000 0.000000 -0.085311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4CA001, 0x7B4CA002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B4CA001, 0x7B4CA003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B4CA001, 0x7B4CA004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4CA001, 0x7B4CA005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B4CA001, 0x7B4CA006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B4CA001, 0x7B4CA007, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7B4CA001, 0x7B4CA008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B4CA001, 0x7B4CA009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4CA001, 0x7B4CA00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B4CA001, 0x7B4CA00B, '2019-02-10 00:00:00') /* Northern Black Claw Raider */;
+VALUES (0x7B4CA001, 0x7B4CA002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B4CA001, 0x7B4CA003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B4CA001, 0x7B4CA004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4CA001, 0x7B4CA005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B4CA001, 0x7B4CA006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B4CA001, 0x7B4CA007, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7B4CA001, 0x7B4CA008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B4CA001, 0x7B4CA009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4CA001, 0x7B4CA00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B4CA001, 0x7B4CA00B, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4CA002, 24959, 0xB4CA001D, 89.56802, 107.227, 155.3237, -0.9963543, 0, 0, -0.08531145,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

@@ -5,8 +5,8 @@ VALUES (0x7C82D001,  1154, 0xC82D0008, 13.77898, 175.337, 206.9288, 0.5921684, 0
 /* @teleloc 0xC82D0008 [13.778980 175.337000 206.928800] 0.592168 0.000000 0.000000 -0.805814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C82D001, 0x7C82D002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C82D001, 0x7C82D003, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7C82D001, 0x7C82D002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C82D001, 0x7C82D003, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C82D002,  7179, 0xC82D0008, 13.77898, 175.337, 206.9288, 0.5921684, 0, 0, -0.8058143,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -21,8 +21,8 @@ VALUES (0x7C82D004,  1542, 0xC82D0018, 71.61697, 172.65, 201.818, 0.4749605, 0, 
 /* @teleloc 0xC82D0018 [71.616970 172.650000 201.818000] 0.474961 0.000000 0.000000 -0.880007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C82D004, 0x7C82D005, '2019-02-10 00:00:00') /* Rock */
-     , (0x7C82D004, 0x7C82D006, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C82D004, 0x7C82D005, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7C82D004, 0x7C82D006, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C82D005, 42528, 0xC82D0018, 71.61697, 172.65, 201.818, 0.4749605, 0, 0, -0.8800071,  True, '2019-02-10 00:00:00'); /* Rock */

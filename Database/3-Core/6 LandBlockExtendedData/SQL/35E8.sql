@@ -5,13 +5,13 @@ VALUES (0x735E8001,  1154, 0x35E8003C, 191.3199, 82.01947, 2.178273, -0.2685215,
 /* @teleloc 0x35E8003C [191.319900 82.019470 2.178273] -0.268522 0.000000 0.000000 -0.963274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735E8001, 0x735E8002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x735E8001, 0x735E8003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x735E8001, 0x735E8004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x735E8001, 0x735E8005, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x735E8001, 0x735E8006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x735E8001, 0x735E8007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735E8001, 0x735E8008, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x735E8001, 0x735E8002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x735E8001, 0x735E8003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x735E8001, 0x735E8004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x735E8001, 0x735E8005, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x735E8001, 0x735E8006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x735E8001, 0x735E8007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x735E8001, 0x735E8008, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735E8002, 24320, 0x35E8003C, 191.3199, 82.01947, 2.178273, -0.2685215, 0, 0, -0.9632737,  True, '2019-02-10 00:00:00'); /* Great Revenant */

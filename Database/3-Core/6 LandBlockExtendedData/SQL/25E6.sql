@@ -5,8 +5,8 @@ VALUES (0x725E6001,  1154, 0x25E60018, 50.81243, 187.4453, 0.0005000234, -0.9845
 /* @teleloc 0x25E60018 [50.812430 187.445300 0.000500] -0.984536 0.000000 0.000000 -0.175182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725E6001, 0x725E6002, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x725E6001, 0x725E6003, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x725E6001, 0x725E6002, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x725E6001, 0x725E6003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E6002, 29350, 0x25E60018, 50.81243, 187.4453, 0.0005000234, -0.9845361, 0, 0, -0.1751818,  True, '2019-02-10 00:00:00'); /* Ehlyis Niffis */

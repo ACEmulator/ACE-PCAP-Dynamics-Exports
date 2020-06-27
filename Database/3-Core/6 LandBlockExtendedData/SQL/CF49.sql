@@ -5,10 +5,10 @@ VALUES (0x7CF49001,  1154, 0xCF49002C, 137.0111, 94.85995, 38.57341, -0.3134172,
 /* @teleloc 0xCF49002C [137.011100 94.859950 38.573410] -0.313417 0.000000 0.000000 -0.949616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF49001, 0x7CF49002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CF49001, 0x7CF49003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CF49001, 0x7CF49004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF49001, 0x7CF49005, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7CF49001, 0x7CF49002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CF49001, 0x7CF49003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CF49001, 0x7CF49004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF49001, 0x7CF49005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF49002,  9251, 0xCF49002C, 137.0111, 94.85995, 38.57341, -0.3134172, 0, 0, -0.9496155,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -31,7 +31,7 @@ VALUES (0x7CF49006,  1542, 0xCF49002C, 120.7462, 88.95797, 39.41317, -0.6758586,
 /* @teleloc 0xCF49002C [120.746200 88.957970 39.413170] -0.675859 0.000000 0.000000 -0.737031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF49006, 0x7CF49007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CF49006, 0x7CF49007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF49007,  8037, 0xCF49002C, 120.7462, 88.95797, 39.41317, -0.6758586, 0, 0, -0.7370313,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

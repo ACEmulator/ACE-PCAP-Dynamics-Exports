@@ -5,18 +5,18 @@ VALUES (0x741DC001,  1154, 0x41DC000C, 30.21862, 87.20352, 0.006500006, 0.730552
 /* @teleloc 0x41DC000C [30.218620 87.203520 0.006500] 0.730552 0.000000 0.000000 -0.682857 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DC001, 0x741DC002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x741DC001, 0x741DC003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741DC001, 0x741DC004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741DC001, 0x741DC005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x741DC001, 0x741DC006, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x741DC001, 0x741DC007, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x741DC001, 0x741DC008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x741DC001, 0x741DC009, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x741DC001, 0x741DC00A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x741DC001, 0x741DC00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x741DC001, 0x741DC00C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x741DC001, 0x741DC00D, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x741DC001, 0x741DC002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x741DC001, 0x741DC003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741DC001, 0x741DC004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741DC001, 0x741DC005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x741DC001, 0x741DC006, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x741DC001, 0x741DC007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x741DC001, 0x741DC008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x741DC001, 0x741DC009, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x741DC001, 0x741DC00A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x741DC001, 0x741DC00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x741DC001, 0x741DC00C, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x741DC001, 0x741DC00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DC002, 21549, 0x41DC000C, 30.21862, 87.20352, 0.006500006, 0.7305523, 0, 0, -0.6828568,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -71,7 +71,7 @@ VALUES (0x741DC00E,  1542, 0x41DC001C, 76.79935, 87.82611, 30.32, -0.9065874, 0,
 /* @teleloc 0x41DC001C [76.799350 87.826110 30.320000] -0.906587 0.000000 0.000000 -0.422018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DC00E, 0x741DC00F, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x741DC00E, 0x741DC00F, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DC00F, 11555, 0x41DC001C, 76.79935, 87.82611, 30.32, -0.9065874, 0, 0, -0.4220182,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

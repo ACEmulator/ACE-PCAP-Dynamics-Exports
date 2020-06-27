@@ -5,13 +5,13 @@ VALUES (0x752CD001,  1154, 0x52CD0040, 182.0146, 173.7138, 164.366, -0.2562414, 
 /* @teleloc 0x52CD0040 [182.014600 173.713800 164.366000] -0.256241 0.000000 0.000000 -0.966613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752CD001, 0x752CD002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x752CD001, 0x752CD003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x752CD001, 0x752CD004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x752CD001, 0x752CD005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x752CD001, 0x752CD006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x752CD001, 0x752CD007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x752CD001, 0x752CD008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x752CD001, 0x752CD002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x752CD001, 0x752CD003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x752CD001, 0x752CD004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x752CD001, 0x752CD005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x752CD001, 0x752CD006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x752CD001, 0x752CD007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x752CD001, 0x752CD008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752CD002, 36830, 0x52CD0040, 182.0146, 173.7138, 164.366, -0.2562414, 0, 0, -0.9666128,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -46,9 +46,9 @@ VALUES (0x752CD009,  1542, 0x52CD0027, 114.1525, 165.42, 167.5127, 0.3727551, 0,
 /* @teleloc 0x52CD0027 [114.152500 165.420000 167.512700] 0.372755 0.000000 0.000000 -0.927930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752CD009, 0x752CD00A, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x752CD009, 0x752CD00B, '2019-02-10 00:00:00') /* Rock */
-     , (0x752CD009, 0x752CD00C, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x752CD009, 0x752CD00A, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x752CD009, 0x752CD00B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x752CD009, 0x752CD00C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752CD00A,  8648, 0x52CD0027, 114.1525, 165.42, 167.5127, 0.3727551, 0, 0, -0.9279298,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

@@ -5,30 +5,30 @@ VALUES (0x7221C001,  1154, 0x221C0015, 54.26506, 96.66228, 56.00715, 0.9961947, 
 /* @teleloc 0x221C0015 [54.265060 96.662280 56.007150] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7221C001, 0x7221C002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7221C001, 0x7221C003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7221C001, 0x7221C004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7221C001, 0x7221C005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7221C001, 0x7221C006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7221C001, 0x7221C007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7221C001, 0x7221C008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7221C001, 0x7221C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7221C001, 0x7221C00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7221C001, 0x7221C00B, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7221C001, 0x7221C00C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7221C001, 0x7221C00D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7221C001, 0x7221C00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221C001, 0x7221C00F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7221C001, 0x7221C010, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7221C001, 0x7221C011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7221C001, 0x7221C012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221C001, 0x7221C013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221C001, 0x7221C014, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7221C001, 0x7221C015, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7221C001, 0x7221C016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7221C001, 0x7221C017, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7221C001, 0x7221C018, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7221C001, 0x7221C019, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x7221C001, 0x7221C002, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7221C001, 0x7221C003, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7221C001, 0x7221C004, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7221C001, 0x7221C005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7221C001, 0x7221C006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7221C001, 0x7221C007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7221C001, 0x7221C008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7221C001, 0x7221C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7221C001, 0x7221C00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7221C001, 0x7221C00B, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7221C001, 0x7221C00C, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7221C001, 0x7221C00D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7221C001, 0x7221C00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221C001, 0x7221C00F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7221C001, 0x7221C010, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7221C001, 0x7221C011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7221C001, 0x7221C012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221C001, 0x7221C013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221C001, 0x7221C014, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7221C001, 0x7221C015, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7221C001, 0x7221C016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7221C001, 0x7221C017, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7221C001, 0x7221C018, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7221C001, 0x7221C019, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221C002, 24274, 0x221C0015, 54.26506, 96.66228, 56.00715, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
@@ -131,8 +131,8 @@ VALUES (0x7221C01A,  1542, 0x221C0015, 53.17821, 98.5873, 56, 1, 0, 0, 0, False,
 /* @teleloc 0x221C0015 [53.178210 98.587300 56.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7221C01A, 0x7221C01B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7221C01A, 0x7221C01C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7221C01A, 0x7221C01B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7221C01A, 0x7221C01C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221C01B, 22566, 0x221C0015, 53.17821, 98.5873, 56, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

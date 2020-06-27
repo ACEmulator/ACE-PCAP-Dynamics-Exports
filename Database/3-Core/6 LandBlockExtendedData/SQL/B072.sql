@@ -5,16 +5,16 @@ VALUES (0x7B072001,  1154, 0xB072001C, 81.64409, 77.27642, 34.56575, 0.9238795, 
 /* @teleloc 0xB072001C [81.644090 77.276420 34.565750] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B072001, 0x7B072002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B072001, 0x7B072003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B072001, 0x7B072004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B072001, 0x7B072005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B072001, 0x7B072006, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B072001, 0x7B072007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B072001, 0x7B072008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B072001, 0x7B072009, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B072001, 0x7B07200A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B072001, 0x7B07200B, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7B072001, 0x7B072002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B072001, 0x7B072003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B072001, 0x7B072004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B072001, 0x7B072005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B072001, 0x7B072006, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B072001, 0x7B072007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B072001, 0x7B072008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B072001, 0x7B072009, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B072001, 0x7B07200A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B072001, 0x7B07200B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B072002,  8270, 0xB072001C, 81.64409, 77.27642, 34.56575, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
@@ -61,8 +61,8 @@ VALUES (0x7B07200C,  1542, 0xB0720010, 42.00745, 170.3381, 56.19635, 0.5318049, 
 /* @teleloc 0xB0720010 [42.007450 170.338100 56.196350] 0.531805 0.000000 0.000000 -0.846867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B07200C, 0x7B07200D, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7B07200C, 0x7B07200E, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7B07200C, 0x7B07200D, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7B07200C, 0x7B07200E, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B07200D, 15715, 0xB0720010, 42.00745, 170.3381, 56.19635, 0.5318049, 0, 0, -0.8468669,  True, '2019-02-10 00:00:00'); /* Sunflower */

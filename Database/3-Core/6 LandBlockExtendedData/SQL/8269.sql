@@ -5,10 +5,10 @@ VALUES (0x78269001,  1154, 0x82690020, 87.45482, 185.463, 11.4267, 0.8258043, 0,
 /* @teleloc 0x82690020 [87.454820 185.463000 11.426700] 0.825804 0.000000 0.000000 -0.563957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78269001, 0x78269002, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x78269001, 0x78269003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78269001, 0x78269004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78269001, 0x78269005, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x78269001, 0x78269002, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x78269001, 0x78269003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78269001, 0x78269004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78269001, 0x78269005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78269002,  6535, 0x82690020, 87.45482, 185.463, 11.4267, 0.8258043, 0, 0, -0.5639569,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */

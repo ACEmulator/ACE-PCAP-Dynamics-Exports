@@ -5,12 +5,12 @@ VALUES (0x7CB75001,  1154, 0xCB750035, 165.9715, 98.39898, 21.985, 0.5756773, 0,
 /* @teleloc 0xCB750035 [165.971500 98.398980 21.985000] 0.575677 0.000000 0.000000 -0.817677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB75001, 0x7CB75002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CB75001, 0x7CB75003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7CB75001, 0x7CB75004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CB75001, 0x7CB75005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CB75001, 0x7CB75006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7CB75001, 0x7CB75007, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7CB75001, 0x7CB75002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CB75001, 0x7CB75003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7CB75001, 0x7CB75004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CB75001, 0x7CB75005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CB75001, 0x7CB75006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7CB75001, 0x7CB75007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB75002,  8010, 0xCB750035, 165.9715, 98.39898, 21.985, 0.5756773, 0, 0, -0.817677,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -41,7 +41,7 @@ VALUES (0x7CB75008,  1542, 0xCB750012, 61.55321, 43.44439, 22, 1, 0, 0, 0, False
 /* @teleloc 0xCB750012 [61.553210 43.444390 22.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB75008, 0x7CB75009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CB75008, 0x7CB75009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB75009,  4179, 0xCB750012, 61.55321, 43.44439, 22, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

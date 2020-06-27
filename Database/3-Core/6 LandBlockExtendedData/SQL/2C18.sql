@@ -5,12 +5,12 @@ VALUES (0x72C18001,  1154, 0x2C180039, 185.2843, 16.13378, 24.13432, -0.2435269,
 /* @teleloc 0x2C180039 [185.284300 16.133780 24.134320] -0.243527 0.000000 0.000000 -0.969894 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C18001, 0x72C18002, '2019-02-10 00:00:00') /* Flare */
-     , (0x72C18001, 0x72C18003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72C18001, 0x72C18004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C18001, 0x72C18005, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72C18001, 0x72C18006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72C18001, 0x72C18007, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72C18001, 0x72C18002, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72C18001, 0x72C18003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72C18001, 0x72C18004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C18001, 0x72C18005, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72C18001, 0x72C18006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72C18001, 0x72C18007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C18002,  5710, 0x2C180039, 185.2843, 16.13378, 24.13432, -0.2435269, 0, 0, -0.9698942,  True, '2019-02-10 00:00:00'); /* Flare */

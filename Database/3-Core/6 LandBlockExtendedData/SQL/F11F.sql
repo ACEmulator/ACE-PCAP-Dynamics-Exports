@@ -9,16 +9,16 @@ VALUES (0x7F11F005,  1154, 0xF11F0005, 4.667054, 108.9248, 0.001199961, 0.953716
 /* @teleloc 0xF11F0005 [4.667054 108.924800 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F11F005, 0x7F11F006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F11F005, 0x7F11F007, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7F11F005, 0x7F11F008, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7F11F005, 0x7F11F009, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F11F005, 0x7F11F00A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F11F005, 0x7F11F00B, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7F11F005, 0x7F11F00C, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7F11F005, 0x7F11F00D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F11F005, 0x7F11F00E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F11F005, 0x7F11F00F, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7F11F005, 0x7F11F006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F11F005, 0x7F11F007, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7F11F005, 0x7F11F008, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F005, 0x7F11F009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F005, 0x7F11F00A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F005, 0x7F11F00B, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F005, 0x7F11F00C, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7F11F005, 0x7F11F00D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F11F005, 0x7F11F00E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F11F005, 0x7F11F00F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F11F006,  7109, 0xF11F0005, 4.667054, 108.9248, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

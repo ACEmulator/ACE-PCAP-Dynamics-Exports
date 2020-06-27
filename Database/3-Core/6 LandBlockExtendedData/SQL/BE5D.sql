@@ -5,11 +5,11 @@ VALUES (0x7BE5D001,  1154, 0xBE5D0002, 14.56381, 46.31209, 6.00495, 0.3911299, 0
 /* @teleloc 0xBE5D0002 [14.563810 46.312090 6.004950] 0.391130 0.000000 0.000000 -0.920336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE5D001, 0x7BE5D002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BE5D001, 0x7BE5D003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE5D001, 0x7BE5D004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE5D001, 0x7BE5D005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BE5D001, 0x7BE5D006, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7BE5D001, 0x7BE5D002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BE5D001, 0x7BE5D003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE5D001, 0x7BE5D004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE5D001, 0x7BE5D005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BE5D001, 0x7BE5D006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE5D002,     8, 0xBE5D0002, 14.56381, 46.31209, 6.00495, 0.3911299, 0, 0, -0.9203355,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

@@ -5,12 +5,12 @@ VALUES (0x71984001,  1154, 0x19840014, 63.16267, 88.44997, 70.30596, -0.4732844,
 /* @teleloc 0x19840014 [63.162670 88.449970 70.305960] -0.473284 0.000000 0.000000 -0.880910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71984001, 0x71984002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71984001, 0x71984003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71984001, 0x71984004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71984001, 0x71984005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71984001, 0x71984006, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71984001, 0x71984007, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71984001, 0x71984002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71984001, 0x71984003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71984001, 0x71984004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71984001, 0x71984005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71984001, 0x71984006, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71984001, 0x71984007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71984002, 23563, 0x19840014, 63.16267, 88.44997, 70.30596, -0.4732844, 0, 0, -0.8809097,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

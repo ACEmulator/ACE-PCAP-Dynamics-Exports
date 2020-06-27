@@ -5,25 +5,25 @@ VALUES (0x7B59E001,  1154, 0xB59E0040, 177.6553, 172.7255, 62.41582, 0.1907882, 
 /* @teleloc 0xB59E0040 [177.655300 172.725500 62.415820] 0.190788 0.000000 0.000000 -0.981631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B59E001, 0x7B59E002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B59E001, 0x7B59E003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B59E001, 0x7B59E004, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B59E001, 0x7B59E005, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B59E001, 0x7B59E006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B59E001, 0x7B59E007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B59E001, 0x7B59E008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B59E001, 0x7B59E009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B59E001, 0x7B59E00A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B59E001, 0x7B59E00B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B59E001, 0x7B59E00C, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7B59E001, 0x7B59E00D, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B59E001, 0x7B59E00E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B59E001, 0x7B59E00F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B59E001, 0x7B59E010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B59E001, 0x7B59E011, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B59E001, 0x7B59E012, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B59E001, 0x7B59E013, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B59E001, 0x7B59E014, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7B59E001, 0x7B59E002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B59E001, 0x7B59E003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B59E001, 0x7B59E004, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B59E001, 0x7B59E005, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B59E001, 0x7B59E006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B59E001, 0x7B59E007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B59E001, 0x7B59E008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B59E001, 0x7B59E009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B59E001, 0x7B59E00A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B59E001, 0x7B59E00B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B59E001, 0x7B59E00C, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B59E001, 0x7B59E00D, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B59E001, 0x7B59E00E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B59E001, 0x7B59E00F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B59E001, 0x7B59E010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B59E001, 0x7B59E011, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B59E001, 0x7B59E012, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B59E001, 0x7B59E013, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B59E001, 0x7B59E014, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B59E002,   946, 0xB59E0040, 177.6553, 172.7255, 62.41582, 0.1907882, 0, 0, -0.9816312,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -106,8 +106,8 @@ VALUES (0x7B59E015,  1542, 0xB59E000A, 46.38883, 42.80181, 54, 0.9990482, 0, 0, 
 /* @teleloc 0xB59E000A [46.388830 42.801810 54.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B59E015, 0x7B59E016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B59E015, 0x7B59E017, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B59E015, 0x7B59E016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B59E015, 0x7B59E017, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B59E016,  4179, 0xB59E000A, 46.38883, 42.80181, 54, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

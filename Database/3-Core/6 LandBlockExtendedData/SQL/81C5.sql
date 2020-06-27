@@ -5,11 +5,11 @@ VALUES (0x781C5001,  1154, 0x81C5000D, 41.17433, 113.8939, 94.84236, -0.1540639,
 /* @teleloc 0x81C5000D [41.174330 113.893900 94.842360] -0.154064 0.000000 0.000000 -0.988061 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781C5001, 0x781C5002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x781C5001, 0x781C5003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x781C5001, 0x781C5004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x781C5001, 0x781C5005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x781C5001, 0x781C5006, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x781C5001, 0x781C5002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x781C5001, 0x781C5003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x781C5001, 0x781C5004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x781C5001, 0x781C5005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x781C5001, 0x781C5006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781C5002,  1610, 0x81C5000D, 41.17433, 113.8939, 94.84236, -0.1540639, 0, 0, -0.9880609,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

@@ -5,22 +5,22 @@ VALUES (0x77AC8001,  1154, 0x7AC80019, 77.73615, 6.745605, 177.9055, 0.9941237, 
 /* @teleloc 0x7AC80019 [77.736150 6.745605 177.905500] 0.994124 0.000000 0.000000 -0.108250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC8001, 0x77AC8002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x77AC8001, 0x77AC8003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77AC8001, 0x77AC8004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77AC8001, 0x77AC8005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77AC8001, 0x77AC8006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77AC8001, 0x77AC8007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77AC8001, 0x77AC8008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77AC8001, 0x77AC8009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77AC8001, 0x77AC800A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77AC8001, 0x77AC800B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77AC8001, 0x77AC800C, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77AC8001, 0x77AC800D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77AC8001, 0x77AC800E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77AC8001, 0x77AC800F, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77AC8001, 0x77AC8010, '2019-02-10 00:00:00') /* Inferno */
-     , (0x77AC8001, 0x77AC8011, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x77AC8001, 0x77AC8002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x77AC8001, 0x77AC8003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77AC8001, 0x77AC8004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77AC8001, 0x77AC8005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x77AC8001, 0x77AC8006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77AC8001, 0x77AC8007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77AC8001, 0x77AC8008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77AC8001, 0x77AC8009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77AC8001, 0x77AC800A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x77AC8001, 0x77AC800B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77AC8001, 0x77AC800C, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77AC8001, 0x77AC800D, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x77AC8001, 0x77AC800E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77AC8001, 0x77AC800F, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x77AC8001, 0x77AC8010, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x77AC8001, 0x77AC8011, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC8002, 36840, 0x7AC80019, 77.73615, 6.745605, 177.9055, 0.9941237, 0, 0, -0.1082501,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

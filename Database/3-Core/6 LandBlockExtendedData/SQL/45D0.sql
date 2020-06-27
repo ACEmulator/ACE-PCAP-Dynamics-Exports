@@ -5,8 +5,8 @@ VALUES (0x745D0001,  1154, 0x45D0000C, 46.14616, 92.06459, 51.07867, -0.8045313,
 /* @teleloc 0x45D0000C [46.146160 92.064590 51.078670] -0.804531 0.000000 0.000000 -0.593910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745D0001, 0x745D0002, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x745D0001, 0x745D0003, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x745D0001, 0x745D0002, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x745D0001, 0x745D0003, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745D0002, 36918, 0x45D0000C, 46.14616, 92.06459, 51.07867, -0.8045313, 0, 0, -0.5939102,  True, '2019-02-10 00:00:00'); /* Three Eyed Snowman */

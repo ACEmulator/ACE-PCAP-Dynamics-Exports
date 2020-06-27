@@ -5,12 +5,12 @@ VALUES (0x7CD5A001,  1154, 0xCD5A0017, 60.06932, 145.0668, 25.64288, 1, 0, 0, 0,
 /* @teleloc 0xCD5A0017 [60.069320 145.066800 25.642880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD5A001, 0x7CD5A002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CD5A001, 0x7CD5A003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD5A001, 0x7CD5A004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CD5A001, 0x7CD5A005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD5A001, 0x7CD5A006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CD5A001, 0x7CD5A007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7CD5A001, 0x7CD5A002, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CD5A001, 0x7CD5A003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD5A001, 0x7CD5A004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CD5A001, 0x7CD5A005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD5A001, 0x7CD5A006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CD5A001, 0x7CD5A007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD5A002,  4104, 0xCD5A0017, 60.06932, 145.0668, 25.64288, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -41,9 +41,9 @@ VALUES (0x7CD5A008,  1542, 0xCD5A0017, 50.32322, 153.0741, 20.94978, 0.9982011, 
 /* @teleloc 0xCD5A0017 [50.323220 153.074100 20.949780] 0.998201 0.000000 0.000000 -0.059955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD5A008, 0x7CD5A009, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CD5A008, 0x7CD5A00A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CD5A008, 0x7CD5A00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CD5A008, 0x7CD5A009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CD5A008, 0x7CD5A00A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CD5A008, 0x7CD5A00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD5A009,  8037, 0xCD5A0017, 50.32322, 153.0741, 20.94978, 0.9982011, 0, 0, -0.05995453,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

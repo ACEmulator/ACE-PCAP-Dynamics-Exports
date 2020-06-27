@@ -5,15 +5,15 @@ VALUES (0x78B53001,  1154, 0x8B53001E, 74.18897, 125.5431, 11.66777, 0.9911582, 
 /* @teleloc 0x8B53001E [74.188970 125.543100 11.667770] 0.991158 0.000000 0.000000 -0.132686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B53001, 0x78B53002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78B53001, 0x78B53003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78B53001, 0x78B53004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78B53001, 0x78B53005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78B53001, 0x78B53006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78B53001, 0x78B53007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78B53001, 0x78B53008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78B53001, 0x78B53009, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B53001, 0x78B5300A, '2019-02-10 00:00:00') /* Rust Gromnie */;
+VALUES (0x78B53001, 0x78B53002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78B53001, 0x78B53003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78B53001, 0x78B53004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78B53001, 0x78B53005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78B53001, 0x78B53006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78B53001, 0x78B53007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78B53001, 0x78B53008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78B53001, 0x78B53009, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B53001, 0x78B5300A, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B53002,  4266, 0x8B53001E, 74.18897, 125.5431, 11.66777, 0.9911582, 0, 0, -0.1326855,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -56,7 +56,7 @@ VALUES (0x78B5300B,  1542, 0x8B530031, 156.8965, 18.84871, 11.34, 0.9990482, 0, 
 /* @teleloc 0x8B530031 [156.896500 18.848710 11.340000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B5300B, 0x78B5300C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78B5300B, 0x78B5300C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B5300C,  4179, 0x8B530031, 156.8965, 18.84871, 11.34, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

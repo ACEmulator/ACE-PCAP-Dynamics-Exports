@@ -5,15 +5,15 @@ VALUES (0x7239C001,  1154, 0x239C001D, 87.01704, 97.92367, 5.600455, 0.9747406, 
 /* @teleloc 0x239C001D [87.017040 97.923670 5.600455] 0.974741 0.000000 0.000000 -0.223340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7239C001, 0x7239C002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7239C001, 0x7239C003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7239C001, 0x7239C004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7239C001, 0x7239C005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7239C001, 0x7239C006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7239C001, 0x7239C007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7239C001, 0x7239C008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7239C001, 0x7239C009, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7239C001, 0x7239C00A, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x7239C001, 0x7239C002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7239C001, 0x7239C003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7239C001, 0x7239C004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7239C001, 0x7239C005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7239C001, 0x7239C006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7239C001, 0x7239C007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7239C001, 0x7239C008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7239C001, 0x7239C009, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7239C001, 0x7239C00A, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7239C002, 21549, 0x239C001D, 87.01704, 97.92367, 5.600455, 0.9747406, 0, 0, -0.22334,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -56,7 +56,7 @@ VALUES (0x7239C00B,  1542, 0x239C0025, 107.8848, 119.4602, 7.297171, -4.371139E-
 /* @teleloc 0x239C0025 [107.884800 119.460200 7.297171] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7239C00B, 0x7239C00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7239C00B, 0x7239C00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7239C00C,  4380, 0x239C0025, 107.8848, 119.4602, 7.297171, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

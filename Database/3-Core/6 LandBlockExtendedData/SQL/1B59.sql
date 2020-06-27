@@ -5,13 +5,13 @@ VALUES (0x71B59001,  1154, 0x1B59003B, 173.2912, 52.72919, 0.4040996, -0.7660444
 /* @teleloc 0x1B59003B [173.291200 52.729190 0.404100] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B59001, 0x71B59002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71B59001, 0x71B59003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71B59001, 0x71B59004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x71B59001, 0x71B59005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x71B59001, 0x71B59006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71B59001, 0x71B59007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71B59001, 0x71B59008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x71B59001, 0x71B59002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71B59001, 0x71B59003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71B59001, 0x71B59004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x71B59001, 0x71B59005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x71B59001, 0x71B59006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71B59001, 0x71B59007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71B59001, 0x71B59008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B59002, 24497, 0x1B59003B, 173.2912, 52.72919, 0.4040996, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

@@ -5,16 +5,16 @@ VALUES (0x71E87001,  1154, 0x1E870013, 55.60691, 60.65627, 65.71519, -0.3732693,
 /* @teleloc 0x1E870013 [55.606910 60.656270 65.715190] -0.373269 0.000000 0.000000 -0.927723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E87001, 0x71E87002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71E87001, 0x71E87003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E87001, 0x71E87004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71E87001, 0x71E87005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71E87001, 0x71E87006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71E87001, 0x71E87007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71E87001, 0x71E87008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71E87001, 0x71E87009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71E87001, 0x71E8700A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71E87001, 0x71E8700B, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x71E87001, 0x71E87002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71E87001, 0x71E87003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E87001, 0x71E87004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71E87001, 0x71E87005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71E87001, 0x71E87006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71E87001, 0x71E87007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71E87001, 0x71E87008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71E87001, 0x71E87009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71E87001, 0x71E8700A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71E87001, 0x71E8700B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E87002, 24497, 0x1E870013, 55.60691, 60.65627, 65.71519, -0.3732693, 0, 0, -0.9277231,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

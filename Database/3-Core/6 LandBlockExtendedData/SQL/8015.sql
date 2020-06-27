@@ -5,19 +5,19 @@ VALUES (0x78015001,  1154, 0x80150011, 50.59537, 4.869094, 212.4376, -0.3691559,
 /* @teleloc 0x80150011 [50.595370 4.869094 212.437600] -0.369156 0.000000 0.000000 -0.929368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78015001, 0x78015002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78015001, 0x78015003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78015001, 0x78015004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78015001, 0x78015005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78015001, 0x78015006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x78015001, 0x78015007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78015001, 0x78015008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78015001, 0x78015009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78015001, 0x7801500A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78015001, 0x7801500B, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x78015001, 0x7801500C, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x78015001, 0x7801500D, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x78015001, 0x7801500E, '2019-02-10 00:00:00') /* K'nath T'aed */;
+VALUES (0x78015001, 0x78015002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78015001, 0x78015003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78015001, 0x78015004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78015001, 0x78015005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78015001, 0x78015006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x78015001, 0x78015007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78015001, 0x78015008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78015001, 0x78015009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78015001, 0x7801500A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78015001, 0x7801500B, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x78015001, 0x7801500C, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x78015001, 0x7801500D, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x78015001, 0x7801500E, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78015002,  4253, 0x80150011, 50.59537, 4.869094, 212.4376, -0.3691559, 0, 0, -0.9293675,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -76,8 +76,8 @@ VALUES (0x7801500F,  1542, 0x80150009, 47.62739, 16.57247, 211.937, -0.3691559, 
 /* @teleloc 0x80150009 [47.627390 16.572470 211.937000] -0.369156 0.000000 0.000000 -0.929368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7801500F, 0x78015010, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x7801500F, 0x78015011, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7801500F, 0x78015010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7801500F, 0x78015011, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78015010,  9071, 0x80150009, 47.62739, 16.57247, 211.937, -0.3691559, 0, 0, -0.9293675,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

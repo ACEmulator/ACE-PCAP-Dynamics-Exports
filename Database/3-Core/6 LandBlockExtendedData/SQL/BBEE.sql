@@ -5,15 +5,15 @@ VALUES (0x7BBEE001,  1154, 0xBBEE0018, 67.8373, 184.1661, 146.8284, 1, 0, 0, 0, 
 /* @teleloc 0xBBEE0018 [67.837300 184.166100 146.828400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBEE001, 0x7BBEE002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7BBEE001, 0x7BBEE003, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BBEE001, 0x7BBEE004, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BBEE001, 0x7BBEE005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BBEE001, 0x7BBEE006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7BBEE001, 0x7BBEE007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BBEE001, 0x7BBEE008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BBEE001, 0x7BBEE009, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBEE001, 0x7BBEE00A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7BBEE001, 0x7BBEE002, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BBEE001, 0x7BBEE003, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BBEE001, 0x7BBEE004, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BBEE001, 0x7BBEE005, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BBEE001, 0x7BBEE006, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x7BBEE001, 0x7BBEE007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BBEE001, 0x7BBEE008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BBEE001, 0x7BBEE009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBEE001, 0x7BBEE00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBEE002, 38178, 0xBBEE0018, 67.8373, 184.1661, 146.8284, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Blighted Pyreal Golem */
@@ -56,7 +56,7 @@ VALUES (0x7BBEE00B,  1542, 0xBBEE0009, 30.23305, 0.2326993, 59.3015, 1, 0, 0, 0,
 /* @teleloc 0xBBEE0009 [30.233050 0.232699 59.301500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBEE00B, 0x7BBEE00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BBEE00B, 0x7BBEE00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBEE00C,  4179, 0xBBEE0009, 30.23305, 0.2326993, 59.3015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

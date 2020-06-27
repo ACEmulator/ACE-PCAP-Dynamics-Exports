@@ -5,11 +5,11 @@ VALUES (0x7D84F001,  1154, 0xD84F0018, 53.25258, 175.2852, 39.56944, -0.4627928,
 /* @teleloc 0xD84F0018 [53.252580 175.285200 39.569440] -0.462793 0.000000 0.000000 -0.886466 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D84F001, 0x7D84F002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D84F001, 0x7D84F003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D84F001, 0x7D84F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D84F001, 0x7D84F005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D84F001, 0x7D84F006, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D84F001, 0x7D84F002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D84F001, 0x7D84F003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D84F001, 0x7D84F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D84F001, 0x7D84F005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D84F001, 0x7D84F006, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D84F002,     6, 0xD84F0018, 53.25258, 175.2852, 39.56944, -0.4627928, 0, 0, -0.8864664,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

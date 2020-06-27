@@ -9,15 +9,15 @@ VALUES (0x701C8003,  1154, 0x01C8011A, 59.03774, -10.9988, 0.00999999, -0.767794
 /* @teleloc 0x01C8011A [59.037740 -10.998800 0.010000] -0.767794 0.000000 0.000000 -0.640696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C8003, 0x701C8004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C8003, 0x701C8005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C8003, 0x701C8006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C8003, 0x701C8007, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x701C8003, 0x701C8008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C8003, 0x701C8009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701C8003, 0x701C800A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701C8003, 0x701C800B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701C8003, 0x701C800C, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x701C8003, 0x701C8004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C8003, 0x701C8005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C8003, 0x701C8006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C8003, 0x701C8007, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701C8003, 0x701C8008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C8003, 0x701C8009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701C8003, 0x701C800A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701C8003, 0x701C800B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701C8003, 0x701C800C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C8004, 24941, 0x01C8011A, 59.03774, -10.9988, 0.00999999, -0.767794, 0, 0, -0.640696,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -60,15 +60,15 @@ VALUES (0x701C800D,  1542, 0x01C80117, 47.1945, -12.5606, 0, -0.7071068, 0, 0, -
 /* @teleloc 0x01C80117 [47.194500 -12.560600 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C800D, 0x701C800E, '2019-02-10 00:00:00') /* Powdered Agate */
-     , (0x701C800D, 0x701C800F, '2019-02-10 00:00:00') /* Buckler */
-     , (0x701C800D, 0x701C8010, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x701C800D, 0x701C8011, '2019-02-10 00:00:00') /* Powdered Lapis Lazuli */
-     , (0x701C800D, 0x701C8012, '2019-02-10 00:00:00') /* Buckler */
-     , (0x701C800D, 0x701C8013, '2019-02-10 00:00:00') /* Powdered Azurite */
-     , (0x701C800D, 0x701C8014, '2019-02-10 00:00:00') /* Buckler */
-     , (0x701C800D, 0x701C8015, '2019-02-10 00:00:00') /* Powdered Hematite */
-     , (0x701C800D, 0x701C8016, '2019-02-10 00:00:00') /* Round Shield */;
+VALUES (0x701C800D, 0x701C800E, '2019-02-10 00:00:00') /* Powdered Agate (782) */
+     , (0x701C800D, 0x701C800F, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x701C800D, 0x701C8010, '2019-02-10 00:00:00') /* Diamond Shield (94) */
+     , (0x701C800D, 0x701C8011, '2019-02-10 00:00:00') /* Powdered Lapis Lazuli (787) */
+     , (0x701C800D, 0x701C8012, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x701C800D, 0x701C8013, '2019-02-10 00:00:00') /* Powdered Azurite (784) */
+     , (0x701C800D, 0x701C8014, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x701C800D, 0x701C8015, '2019-02-10 00:00:00') /* Powdered Hematite (626) */
+     , (0x701C800D, 0x701C8016, '2019-02-10 00:00:00') /* Round Shield (93) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C800E,   782, 0x01C80117, 47.1945, -12.5606, 0, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Powdered Agate */

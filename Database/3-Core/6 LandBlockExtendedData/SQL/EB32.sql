@@ -5,12 +5,12 @@ VALUES (0x7EB32001,  1154, 0xEB320039, 176.5182, 15.18218, 140.4677, 1, 0, 0, 0,
 /* @teleloc 0xEB320039 [176.518200 15.182180 140.467700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB32001, 0x7EB32002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7EB32001, 0x7EB32003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7EB32001, 0x7EB32004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7EB32001, 0x7EB32005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7EB32001, 0x7EB32006, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7EB32001, 0x7EB32007, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7EB32001, 0x7EB32002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7EB32001, 0x7EB32003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7EB32001, 0x7EB32004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7EB32001, 0x7EB32005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7EB32001, 0x7EB32006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7EB32001, 0x7EB32007, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB32002, 24937, 0xEB320039, 176.5182, 15.18218, 140.4677, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */

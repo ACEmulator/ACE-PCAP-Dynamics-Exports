@@ -5,10 +5,10 @@ VALUES (0x72A7D001,  1154, 0x2A7D0003, 8.388245, 57.3192, 256.127, -0.1366888, 0
 /* @teleloc 0x2A7D0003 [8.388245 57.319200 256.127000] -0.136689 0.000000 0.000000 -0.990614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7D001, 0x72A7D002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72A7D001, 0x72A7D003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A7D001, 0x72A7D004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72A7D001, 0x72A7D005, '2019-02-10 00:00:00') /* Merciless Monouga */;
+VALUES (0x72A7D001, 0x72A7D002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72A7D001, 0x72A7D003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A7D001, 0x72A7D004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72A7D001, 0x72A7D005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7D002, 36833, 0x2A7D0003, 8.388245, 57.3192, 256.127, -0.1366888, 0, 0, -0.9906141,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

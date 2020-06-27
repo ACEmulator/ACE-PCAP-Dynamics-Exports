@@ -5,11 +5,11 @@ VALUES (0x7A0B4001,  1154, 0xA0B40010, 32.69431, 175.5314, 78.63362, -0.03406537
 /* @teleloc 0xA0B40010 [32.694310 175.531400 78.633620] -0.034065 0.000000 0.000000 -0.999420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B4001, 0x7A0B4002, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A0B4001, 0x7A0B4003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A0B4001, 0x7A0B4004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A0B4001, 0x7A0B4005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A0B4001, 0x7A0B4006, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7A0B4001, 0x7A0B4002, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A0B4001, 0x7A0B4003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A0B4001, 0x7A0B4004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A0B4001, 0x7A0B4005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A0B4001, 0x7A0B4006, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B4002,   209, 0xA0B40010, 32.69431, 175.5314, 78.63362, -0.03406537, 0, 0, -0.9994196,  True, '2019-02-10 00:00:00'); /* Mite Squib */

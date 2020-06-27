@@ -5,14 +5,14 @@ VALUES (0x71251001,  1154, 0x12510025, 106.8246, 111.0502, -0.09545004, 0.707106
 /* @teleloc 0x12510025 [106.824600 111.050200 -0.095450] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71251001, 0x71251002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71251001, 0x71251003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71251001, 0x71251004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71251001, 0x71251005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71251001, 0x71251006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71251001, 0x71251007, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71251001, 0x71251008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71251001, 0x71251009, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x71251001, 0x71251002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71251001, 0x71251003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71251001, 0x71251004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71251001, 0x71251005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71251001, 0x71251006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71251001, 0x71251007, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71251001, 0x71251008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71251001, 0x71251009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71251002, 36825, 0x12510025, 106.8246, 111.0502, -0.09545004, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

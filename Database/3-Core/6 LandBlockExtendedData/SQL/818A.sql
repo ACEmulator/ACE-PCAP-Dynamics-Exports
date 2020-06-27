@@ -5,13 +5,13 @@ VALUES (0x7818A001,  1154, 0x818A0032, 154.3202, 30.02822, 321.9211, -0.3664526,
 /* @teleloc 0x818A0032 [154.320200 30.028220 321.921100] -0.366453 0.000000 0.000000 -0.930437 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7818A001, 0x7818A002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7818A001, 0x7818A003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7818A001, 0x7818A004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7818A001, 0x7818A005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7818A001, 0x7818A006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7818A001, 0x7818A007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7818A001, 0x7818A008, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7818A001, 0x7818A002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7818A001, 0x7818A003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7818A001, 0x7818A004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7818A001, 0x7818A005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7818A001, 0x7818A006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7818A001, 0x7818A007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7818A001, 0x7818A008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7818A002,  7345, 0x818A0032, 154.3202, 30.02822, 321.9211, -0.3664526, 0, 0, -0.9304367,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

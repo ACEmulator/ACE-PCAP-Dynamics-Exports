@@ -5,19 +5,19 @@ VALUES (0x7174F001,  1154, 0x174F003F, 171.0228, 167.9114, 65.9979, 0.7800073, 0
 /* @teleloc 0x174F003F [171.022800 167.911400 65.997900] 0.780007 0.000000 0.000000 -0.625770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174F001, 0x7174F002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7174F001, 0x7174F003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174F001, 0x7174F004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7174F001, 0x7174F005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7174F001, 0x7174F006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174F001, 0x7174F007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7174F001, 0x7174F008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7174F001, 0x7174F009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7174F001, 0x7174F00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7174F001, 0x7174F00B, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7174F001, 0x7174F00C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7174F001, 0x7174F00D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7174F001, 0x7174F00E, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7174F001, 0x7174F002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7174F001, 0x7174F003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174F001, 0x7174F004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7174F001, 0x7174F005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7174F001, 0x7174F006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174F001, 0x7174F007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7174F001, 0x7174F008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7174F001, 0x7174F009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7174F001, 0x7174F00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7174F001, 0x7174F00B, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7174F001, 0x7174F00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7174F001, 0x7174F00D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7174F001, 0x7174F00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174F002,  7982, 0x174F003F, 171.0228, 167.9114, 65.9979, 0.7800073, 0, 0, -0.6257704,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -76,8 +76,8 @@ VALUES (0x7174F00F,  1542, 0x174F001B, 81.48277, 68.10239, 36.7008, 1, 0, 0, 0, 
 /* @teleloc 0x174F001B [81.482770 68.102390 36.700800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7174F00F, 0x7174F010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7174F00F, 0x7174F011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7174F00F, 0x7174F010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7174F00F, 0x7174F011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7174F010,  4179, 0x174F001B, 81.48277, 68.10239, 36.7008, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

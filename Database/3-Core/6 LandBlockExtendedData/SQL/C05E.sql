@@ -5,24 +5,24 @@ VALUES (0x7C05E001,  1154, 0xC05E0038, 152.3159, 184.4169, 5.5555, 0.9063078, 0,
 /* @teleloc 0xC05E0038 [152.315900 184.416900 5.555500] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05E001, 0x7C05E002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C05E001, 0x7C05E003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C05E001, 0x7C05E004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C05E001, 0x7C05E005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C05E001, 0x7C05E007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C05E001, 0x7C05E008, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C05E001, 0x7C05E009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E00A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E00B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C05E001, 0x7C05E00C, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7C05E001, 0x7C05E00D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E00E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E00F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05E001, 0x7C05E010, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C05E001, 0x7C05E011, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C05E001, 0x7C05E012, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C05E001, 0x7C05E013, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7C05E001, 0x7C05E002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C05E001, 0x7C05E003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C05E001, 0x7C05E004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C05E001, 0x7C05E005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C05E001, 0x7C05E007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C05E001, 0x7C05E008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C05E001, 0x7C05E009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E00A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E00B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C05E001, 0x7C05E00C, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7C05E001, 0x7C05E00D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E00E, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E00F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05E001, 0x7C05E010, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C05E001, 0x7C05E011, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C05E001, 0x7C05E012, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C05E001, 0x7C05E013, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05E002,   211, 0xC05E0038, 152.3159, 184.4169, 5.5555, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -101,7 +101,7 @@ VALUES (0x7C05E014,  1542, 0xC05E0038, 154.9804, 189.2195, 5.55, 1, 0, 0, 0, Fal
 /* @teleloc 0xC05E0038 [154.980400 189.219500 5.550000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05E014, 0x7C05E015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C05E014, 0x7C05E015, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05E015, 22568, 0xC05E0038, 154.9804, 189.2195, 5.55, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

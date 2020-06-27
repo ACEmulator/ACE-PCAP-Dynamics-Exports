@@ -313,77 +313,77 @@ VALUES (0x700EA15E,  1154, 0x00EA04CC, 10.4364, -101.352, -17.995, -0.9735242, 0
 /* @teleloc 0x00EA04CC [10.436400 -101.352000 -17.995000] -0.973524 0.000000 0.000000 0.228584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EA15E, 0x700EA15F, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA160, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA161, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA162, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA163, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA164, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA165, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA166, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA167, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA168, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA169, '2019-02-10 00:00:00') /* Wight Captain */
-     , (0x700EA15E, 0x700EA16A, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA16B, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA16C, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA16D, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA16E, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA16F, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA170, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA171, '2019-02-10 00:00:00') /* Wight Blade Sorcerer */
-     , (0x700EA15E, 0x700EA172, '2019-02-10 00:00:00') /* Spectral Dread */
-     , (0x700EA15E, 0x700EA173, '2019-02-10 00:00:00') /* Door */
-     , (0x700EA15E, 0x700EA174, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA175, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA176, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA177, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA178, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA179, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA17A, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA17B, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x700EA15E, 0x700EA17C, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA17D, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA17E, '2019-02-10 00:00:00') /* Grave Rat */
-     , (0x700EA15E, 0x700EA17F, '2019-02-10 00:00:00') /* Grave Rat */
-     , (0x700EA15E, 0x700EA180, '2019-02-10 00:00:00') /* Grave Rat */
-     , (0x700EA15E, 0x700EA181, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA182, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA183, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA184, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA185, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA186, '2019-02-10 00:00:00') /* Spectral Dread */
-     , (0x700EA15E, 0x700EA187, '2019-02-10 00:00:00') /* Door */
-     , (0x700EA15E, 0x700EA188, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA189, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA18A, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA18B, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA18C, '2019-02-10 00:00:00') /* Wight Blade Sorcerer */
-     , (0x700EA15E, 0x700EA18D, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA18E, '2019-02-10 00:00:00') /* Pyre Skeleton */
-     , (0x700EA15E, 0x700EA18F, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA190, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA191, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA192, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA193, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA194, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA195, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA196, '2019-02-10 00:00:00') /* Pyre Skeleton */
-     , (0x700EA15E, 0x700EA197, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA198, '2019-02-10 00:00:00') /* Forge Golem */
-     , (0x700EA15E, 0x700EA199, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA19A, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA19B, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA19C, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA19D, '2019-02-10 00:00:00') /* Pyre Skeleton */
-     , (0x700EA15E, 0x700EA19E, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA19F, '2019-02-10 00:00:00') /* Corrupted Dread */
-     , (0x700EA15E, 0x700EA1A0, '2019-02-10 00:00:00') /* Corrupted Maiden */
-     , (0x700EA15E, 0x700EA1A1, '2019-02-10 00:00:00') /* Wight Blade Sorcerer */
-     , (0x700EA15E, 0x700EA1A2, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA1A3, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA1A4, '2019-02-10 00:00:00') /* Pyre Minion */
-     , (0x700EA15E, 0x700EA1A5, '2019-02-10 00:00:00') /* Pyre Minion */;
+VALUES (0x700EA15E, 0x700EA15F, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA160, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA161, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA162, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA163, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA164, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA165, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA166, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA167, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA168, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA169, '2019-02-10 00:00:00') /* Wight Captain (37460) */
+     , (0x700EA15E, 0x700EA16A, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA16B, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA16C, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA16D, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA16E, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA16F, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA170, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA171, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
+     , (0x700EA15E, 0x700EA172, '2019-02-10 00:00:00') /* Spectral Dread (37454) */
+     , (0x700EA15E, 0x700EA173, '2019-02-10 00:00:00') /* Door (37157) */
+     , (0x700EA15E, 0x700EA174, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA175, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA176, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA177, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA178, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA179, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA17A, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA17B, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x700EA15E, 0x700EA17C, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA17D, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA17E, '2019-02-10 00:00:00') /* Grave Rat (37456) */
+     , (0x700EA15E, 0x700EA17F, '2019-02-10 00:00:00') /* Grave Rat (37456) */
+     , (0x700EA15E, 0x700EA180, '2019-02-10 00:00:00') /* Grave Rat (37456) */
+     , (0x700EA15E, 0x700EA181, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA182, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA183, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA184, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA185, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA186, '2019-02-10 00:00:00') /* Spectral Dread (37454) */
+     , (0x700EA15E, 0x700EA187, '2019-02-10 00:00:00') /* Door (37157) */
+     , (0x700EA15E, 0x700EA188, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA189, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA18A, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA18B, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA18C, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
+     , (0x700EA15E, 0x700EA18D, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA18E, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
+     , (0x700EA15E, 0x700EA18F, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA190, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA191, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA192, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA193, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA194, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA195, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA196, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
+     , (0x700EA15E, 0x700EA197, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA198, '2019-02-10 00:00:00') /* Forge Golem (37455) */
+     , (0x700EA15E, 0x700EA199, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA19A, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA19B, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA19C, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA19D, '2019-02-10 00:00:00') /* Pyre Skeleton (37459) */
+     , (0x700EA15E, 0x700EA19E, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA19F, '2019-02-10 00:00:00') /* Corrupted Dread (37452) */
+     , (0x700EA15E, 0x700EA1A0, '2019-02-10 00:00:00') /* Corrupted Maiden (37453) */
+     , (0x700EA15E, 0x700EA1A1, '2019-02-10 00:00:00') /* Wight Blade Sorcerer (37461) */
+     , (0x700EA15E, 0x700EA1A2, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA1A3, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA1A4, '2019-02-10 00:00:00') /* Pyre Minion (37458) */
+     , (0x700EA15E, 0x700EA1A5, '2019-02-10 00:00:00') /* Pyre Minion (37458) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EA15F, 37453, 0x00EA04CC, 10.4364, -101.352, -17.995, -0.9735242, 0, 0, 0.2285841,  True, '2019-02-10 00:00:00'); /* Corrupted Maiden */
@@ -674,9 +674,9 @@ VALUES (0x700EA1A6,  1154, 0x00EA029E, 50, -120, -42, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x00EA029E [50.000000 -120.000000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EA1A6, 0x700EA1A7, '2019-02-10 00:00:00') /* Jester's Marker */
-     , (0x700EA1A6, 0x700EA1A8, '2019-02-10 00:00:00') /* Jester's Marker */
-     , (0x700EA1A6, 0x700EA1A9, '2019-02-10 00:00:00') /* Jester's Marker */;
+VALUES (0x700EA1A6, 0x700EA1A7, '2019-02-10 00:00:00') /* Jester's Marker (37485) */
+     , (0x700EA1A6, 0x700EA1A8, '2019-02-10 00:00:00') /* Jester's Marker (37486) */
+     , (0x700EA1A6, 0x700EA1A9, '2019-02-10 00:00:00') /* Jester's Marker (37480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EA1A7, 37485, 0x00EA029E, 50, -120, -42, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Jester's Marker */
@@ -695,8 +695,8 @@ VALUES (0x700EA1AA,  1542, 0x00EA013B, 127.051, -62.9392, -76.99601, 0.8822303, 
 /* @teleloc 0x00EA013B [127.051000 -62.939200 -76.996010] 0.882230 0.000000 0.000000 -0.470818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700EA1AA, 0x700EA1AB, '2019-02-10 00:00:00') /* Todo List */
-     , (0x700EA1AA, 0x700EA1AC, '2019-02-10 00:00:00') /* Hurnmel the Smith */;
+VALUES (0x700EA1AA, 0x700EA1AB, '2019-02-10 00:00:00') /* Todo List (37506) */
+     , (0x700EA1AA, 0x700EA1AC, '2019-02-10 00:00:00') /* Hurnmel the Smith (37477) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700EA1AB, 37506, 0x00EA013B, 127.051, -62.9392, -76.99601, 0.8822303, 0, 0, -0.4708182,  True, '2019-02-10 00:00:00'); /* Todo List */

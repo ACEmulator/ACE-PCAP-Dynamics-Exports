@@ -5,18 +5,18 @@ VALUES (0x72E69001,  1154, 0x2E69003F, 191.6803, 152.8989, 144.6943, 1, 0, 0, 0,
 /* @teleloc 0x2E69003F [191.680300 152.898900 144.694300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E69001, 0x72E69002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E69001, 0x72E69003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72E69001, 0x72E69004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72E69001, 0x72E69005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72E69001, 0x72E69006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72E69001, 0x72E69007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72E69001, 0x72E69008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72E69001, 0x72E69009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72E69001, 0x72E6900A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72E69001, 0x72E6900B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72E69001, 0x72E6900C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72E69001, 0x72E6900D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x72E69001, 0x72E69002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E69001, 0x72E69003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72E69001, 0x72E69004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72E69001, 0x72E69005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72E69001, 0x72E69006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72E69001, 0x72E69007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72E69001, 0x72E69008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72E69001, 0x72E69009, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72E69001, 0x72E6900A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72E69001, 0x72E6900B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72E69001, 0x72E6900C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72E69001, 0x72E6900D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E69002, 23566, 0x2E69003F, 191.6803, 152.8989, 144.6943, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -71,8 +71,8 @@ VALUES (0x72E6900E,  1542, 0x2E69003F, 190.6507, 153.7875, 144.5886, 1, 0, 0, 0,
 /* @teleloc 0x2E69003F [190.650700 153.787500 144.588600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E6900E, 0x72E6900F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72E6900E, 0x72E69010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72E6900E, 0x72E6900F, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72E6900E, 0x72E69010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E6900F, 31445, 0x2E69003F, 190.6507, 153.7875, 144.5886, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

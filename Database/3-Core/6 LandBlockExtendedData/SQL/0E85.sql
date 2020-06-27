@@ -5,10 +5,10 @@ VALUES (0x70E85001,  1154, 0x0E850031, 164.7721, 8.024073, 13.36033, -0.8373574,
 /* @teleloc 0x0E850031 [164.772100 8.024073 13.360330] -0.837357 0.000000 0.000000 -0.546656 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E85001, 0x70E85002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70E85001, 0x70E85003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70E85001, 0x70E85004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E85001, 0x70E85005, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70E85001, 0x70E85002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70E85001, 0x70E85003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70E85001, 0x70E85004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E85001, 0x70E85005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E85002, 22914, 0x0E850031, 164.7721, 8.024073, 13.36033, -0.8373574, 0, 0, -0.5466558,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

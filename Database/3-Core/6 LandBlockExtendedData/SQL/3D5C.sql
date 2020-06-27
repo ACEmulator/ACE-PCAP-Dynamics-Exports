@@ -5,16 +5,16 @@ VALUES (0x73D5C001,  1154, 0x3D5C003C, 171.0083, 82.12569, 34.9417, 0.9659258, 0
 /* @teleloc 0x3D5C003C [171.008300 82.125690 34.941700] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D5C001, 0x73D5C002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73D5C001, 0x73D5C003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73D5C001, 0x73D5C004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73D5C001, 0x73D5C005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73D5C001, 0x73D5C006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D5C001, 0x73D5C007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73D5C001, 0x73D5C008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73D5C001, 0x73D5C009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D5C001, 0x73D5C00A, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73D5C001, 0x73D5C00B, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x73D5C001, 0x73D5C002, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73D5C001, 0x73D5C003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73D5C001, 0x73D5C004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73D5C001, 0x73D5C005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73D5C001, 0x73D5C006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D5C001, 0x73D5C007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73D5C001, 0x73D5C008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73D5C001, 0x73D5C009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D5C001, 0x73D5C00A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73D5C001, 0x73D5C00B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D5C002, 10776, 0x3D5C003C, 171.0083, 82.12569, 34.9417, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

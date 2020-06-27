@@ -5,9 +5,9 @@ VALUES (0x74463001,  1154, 0x44630013, 66.77634, 51.81573, 23.28028, 0.7660445, 
 /* @teleloc 0x44630013 [66.776340 51.815730 23.280280] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74463001, 0x74463002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74463001, 0x74463003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74463001, 0x74463004, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x74463001, 0x74463002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74463001, 0x74463003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74463001, 0x74463004, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74463002,  7121, 0x44630013, 66.77634, 51.81573, 23.28028, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

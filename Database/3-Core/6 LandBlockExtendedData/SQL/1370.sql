@@ -5,9 +5,9 @@ VALUES (0x71370001,  1154, 0x13700008, 22.23378, 184.5723, 99.25908, -0.9840842,
 /* @teleloc 0x13700008 [22.233780 184.572300 99.259080] -0.984084 0.000000 0.000000 -0.177703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71370001, 0x71370002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71370001, 0x71370003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71370001, 0x71370004, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x71370001, 0x71370002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71370001, 0x71370003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71370001, 0x71370004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71370002, 36842, 0x13700008, 22.23378, 184.5723, 99.25908, -0.9840842, 0, 0, -0.1777029,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -26,7 +26,7 @@ VALUES (0x71370005,  1542, 0x1370002B, 137.4416, 50.71971, 120.011, -0.9780384, 
 /* @teleloc 0x1370002B [137.441600 50.719710 120.011000] -0.978038 0.000000 0.000000 -0.208425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71370005, 0x71370006, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x71370005, 0x71370006, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71370006, 31688, 0x1370002B, 137.4416, 50.71971, 120.011, -0.9780384, 0, 0, -0.2084249,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

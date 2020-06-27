@@ -5,10 +5,10 @@ VALUES (0x74D11001,  1154, 0x4D110040, 178.6446, 178.4313, -0.09175003, -0.12510
 /* @teleloc 0x4D110040 [178.644600 178.431300 -0.091750] -0.125103 0.000000 0.000000 -0.992144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D11001, 0x74D11002, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x74D11001, 0x74D11003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74D11001, 0x74D11004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74D11001, 0x74D11005, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x74D11001, 0x74D11002, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x74D11001, 0x74D11003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74D11001, 0x74D11004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74D11001, 0x74D11005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D11002, 12037, 0x4D110040, 178.6446, 178.4313, -0.09175003, -0.1251031, 0, 0, -0.9921438,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */

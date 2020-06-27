@@ -121,55 +121,55 @@ VALUES (0x7DB3B01F,  1154, 0xDB3B002C, 124.5104, 94.98436, 26.75229, -0.09828178
 /* @teleloc 0xDB3B002C [124.510400 94.984360 26.752290] -0.098282 0.000000 0.000000 -0.995159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B01F, 0x7DB3B020, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B021, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B023, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B025, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B026, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B027, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B028, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B029, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B02A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B02B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B02C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B02D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B02E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B02F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B030, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B031, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B032, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B033, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B034, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B035, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B036, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B037, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B038, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B039, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B03A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B03B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B03C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B03D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B03E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B03F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B040, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B041, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B042, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B043, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B044, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B045, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B046, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B047, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B048, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B049, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B04A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B04B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B04C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B04D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DB3B01F, 0x7DB3B04E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B04F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DB3B01F, 0x7DB3B050, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7DB3B01F, 0x7DB3B020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B021, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B023, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B025, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B026, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B027, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B028, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B029, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B02A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B02B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B02C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B02D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B02E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B02F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B030, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B031, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B032, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B033, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B034, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B035, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B036, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B037, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B038, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B039, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B03A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B03B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B03C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B03D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B03E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B03F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B040, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B041, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B042, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B043, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B044, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B045, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B046, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B047, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B048, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B049, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B04A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B04B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B04C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B04D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DB3B01F, 0x7DB3B04E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B04F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B050, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3B020,  2567, 0xDB3B002C, 124.5104, 94.98436, 26.75229, -0.09828178, 0, 0, -0.9951586,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -372,8 +372,8 @@ VALUES (0x7DB3B051,  1154, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0,
 /* @teleloc 0xDB3B010D [55.401600 82.378400 28.005000] 0.874849 0.000000 0.000000 -0.484396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B051, 0x7DB3B052, '2019-02-10 00:00:00') /* Apprentice Alchemist */
-     , (0x7DB3B051, 0x7DB3B053, '2019-02-10 00:00:00') /* Agent of the Arcanum */;
+VALUES (0x7DB3B051, 0x7DB3B052, '2019-02-10 00:00:00') /* Apprentice Alchemist (28184) */
+     , (0x7DB3B051, 0x7DB3B053, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3B052, 28184, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396,  True, '2019-02-10 00:00:00'); /* Apprentice Alchemist */
@@ -388,7 +388,7 @@ VALUES (0x7DB3B054,  1542, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0, 
 /* @teleloc 0xDB3B002B [138.475400 51.618200 24.917020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B054, 0x7DB3B055, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7DB3B054, 0x7DB3B055, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3B055,   546, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

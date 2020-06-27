@@ -5,14 +5,14 @@ VALUES (0x7E96F001,  1154, 0xE96F003D, 184.2934, 103.0988, 20.40548, 0.967994, 0
 /* @teleloc 0xE96F003D [184.293400 103.098800 20.405480] 0.967994 0.000000 0.000000 -0.250973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E96F001, 0x7E96F002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E96F001, 0x7E96F003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7E96F001, 0x7E96F004, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E96F001, 0x7E96F005, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7E96F001, 0x7E96F006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E96F001, 0x7E96F007, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E96F001, 0x7E96F008, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E96F001, 0x7E96F009, '2019-02-10 00:00:00') /* Iron Spined Chittick */;
+VALUES (0x7E96F001, 0x7E96F002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E96F001, 0x7E96F003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7E96F001, 0x7E96F004, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E96F001, 0x7E96F005, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7E96F001, 0x7E96F006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E96F001, 0x7E96F007, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E96F001, 0x7E96F008, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E96F001, 0x7E96F009, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E96F002, 22053, 0xE96F003D, 184.2934, 103.0988, 20.40548, 0.967994, 0, 0, -0.2509733,  True, '2019-02-10 00:00:00'); /* Assailer */

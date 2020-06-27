@@ -5,13 +5,13 @@ VALUES (0x7AFB8001,  1154, 0xAFB80003, 22.73854, 67.15591, 104.0085, 0.9659258, 
 /* @teleloc 0xAFB80003 [22.738540 67.155910 104.008500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB8001, 0x7AFB8002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AFB8001, 0x7AFB8003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFB8001, 0x7AFB8004, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7AFB8001, 0x7AFB8005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AFB8001, 0x7AFB8006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AFB8001, 0x7AFB8007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7AFB8001, 0x7AFB8008, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7AFB8001, 0x7AFB8002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AFB8001, 0x7AFB8003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFB8001, 0x7AFB8004, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7AFB8001, 0x7AFB8005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AFB8001, 0x7AFB8006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AFB8001, 0x7AFB8007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7AFB8001, 0x7AFB8008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB8002,   181, 0xAFB80003, 22.73854, 67.15591, 104.0085, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Auroch Cow */
@@ -46,9 +46,9 @@ VALUES (0x7AFB8009,  1542, 0xAFB8001E, 91.52639, 120.312, 109.4038, 0.8191521, 0
 /* @teleloc 0xAFB8001E [91.526390 120.312000 109.403800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB8009, 0x7AFB800A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AFB8009, 0x7AFB800B, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7AFB8009, 0x7AFB800C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AFB8009, 0x7AFB800A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AFB8009, 0x7AFB800B, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7AFB8009, 0x7AFB800C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB800A,  4380, 0xAFB8001E, 91.52639, 120.312, 109.4038, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

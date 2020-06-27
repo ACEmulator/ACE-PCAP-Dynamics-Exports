@@ -5,23 +5,23 @@ VALUES (0x756A3001,  1154, 0x56A30023, 108.6758, 67.80588, 38.46465, 0.7660445, 
 /* @teleloc 0x56A30023 [108.675800 67.805880 38.464650] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756A3001, 0x756A3002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x756A3001, 0x756A3003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x756A3001, 0x756A3004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x756A3001, 0x756A3005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x756A3001, 0x756A3006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x756A3001, 0x756A3007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x756A3001, 0x756A3008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x756A3001, 0x756A3009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x756A3001, 0x756A300A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x756A3001, 0x756A300B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x756A3001, 0x756A300C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x756A3001, 0x756A300D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x756A3001, 0x756A300E, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x756A3001, 0x756A300F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x756A3001, 0x756A3010, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x756A3001, 0x756A3011, '2019-02-10 00:00:00') /* Banished Lugian */
-     , (0x756A3001, 0x756A3012, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x756A3001, 0x756A3002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x756A3001, 0x756A3003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x756A3001, 0x756A3004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x756A3001, 0x756A3005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x756A3001, 0x756A3006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x756A3001, 0x756A3007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x756A3001, 0x756A3008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x756A3001, 0x756A3009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x756A3001, 0x756A300A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x756A3001, 0x756A300B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x756A3001, 0x756A300C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x756A3001, 0x756A300D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x756A3001, 0x756A300E, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x756A3001, 0x756A300F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x756A3001, 0x756A3010, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x756A3001, 0x756A3011, '2019-02-10 00:00:00') /* Banished Lugian (30901) */
+     , (0x756A3001, 0x756A3012, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756A3002,  7334, 0x56A30023, 108.6758, 67.80588, 38.46465, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -96,8 +96,8 @@ VALUES (0x756A3013,  1542, 0x56A30023, 106.9337, 67.62969, 38.18648, 1, 0, 0, 0,
 /* @teleloc 0x56A30023 [106.933700 67.629690 38.186480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756A3013, 0x756A3014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x756A3013, 0x756A3015, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x756A3013, 0x756A3014, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x756A3013, 0x756A3015, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756A3014, 22567, 0x56A30023, 106.9337, 67.62969, 38.18648, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

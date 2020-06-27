@@ -5,23 +5,23 @@ VALUES (0x79D3F001,  1154, 0x9D3F000C, 45.3116, 87.31385, 106.9534, -0.5943552, 
 /* @teleloc 0x9D3F000C [45.311600 87.313850 106.953400] -0.594355 0.000000 0.000000 -0.804203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D3F001, 0x79D3F002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79D3F001, 0x79D3F003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79D3F001, 0x79D3F004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79D3F001, 0x79D3F005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79D3F001, 0x79D3F006, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79D3F001, 0x79D3F007, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79D3F001, 0x79D3F008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79D3F001, 0x79D3F009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79D3F001, 0x79D3F00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79D3F001, 0x79D3F00B, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79D3F001, 0x79D3F00C, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79D3F001, 0x79D3F00D, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79D3F001, 0x79D3F00E, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79D3F001, 0x79D3F00F, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79D3F001, 0x79D3F010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79D3F001, 0x79D3F011, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79D3F001, 0x79D3F012, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x79D3F001, 0x79D3F002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79D3F001, 0x79D3F003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79D3F001, 0x79D3F004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79D3F001, 0x79D3F005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79D3F001, 0x79D3F006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79D3F001, 0x79D3F007, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79D3F001, 0x79D3F008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79D3F001, 0x79D3F009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79D3F001, 0x79D3F00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79D3F001, 0x79D3F00B, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79D3F001, 0x79D3F00C, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79D3F001, 0x79D3F00D, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79D3F001, 0x79D3F00E, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79D3F001, 0x79D3F00F, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79D3F001, 0x79D3F010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79D3F001, 0x79D3F011, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79D3F001, 0x79D3F012, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D3F002,   229, 0x9D3F000C, 45.3116, 87.31385, 106.9534, -0.5943552, 0, 0, -0.8042027,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

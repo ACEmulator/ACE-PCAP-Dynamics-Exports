@@ -5,8 +5,8 @@ VALUES (0x74516001,  1154, 0x4516003C, 184.7261, 76.65598, 173.0911, 0.5926734, 
 /* @teleloc 0x4516003C [184.726100 76.655980 173.091100] 0.592673 0.000000 0.000000 -0.805443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74516001, 0x74516002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74516001, 0x74516003, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74516001, 0x74516002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74516001, 0x74516003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74516002,  7081, 0x4516003C, 184.7261, 76.65598, 173.0911, 0.5926734, 0, 0, -0.8054429,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

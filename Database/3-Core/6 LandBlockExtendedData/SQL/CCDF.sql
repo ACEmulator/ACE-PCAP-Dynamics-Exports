@@ -5,11 +5,11 @@ VALUES (0x7CCDF001,  1154, 0xCCDF0007, 11.80029, 147.8894, 0.001199961, 0.507850
 /* @teleloc 0xCCDF0007 [11.800290 147.889400 0.001200] 0.507850 0.000000 0.000000 -0.861445 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCDF001, 0x7CCDF002, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CCDF001, 0x7CCDF003, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CCDF001, 0x7CCDF004, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CCDF001, 0x7CCDF005, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CCDF001, 0x7CCDF006, '2019-02-10 00:00:00') /* Scummy Moarsman */;
+VALUES (0x7CCDF001, 0x7CCDF002, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CCDF001, 0x7CCDF003, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CCDF001, 0x7CCDF004, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CCDF001, 0x7CCDF005, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CCDF001, 0x7CCDF006, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCDF002, 31909, 0xCCDF0007, 11.80029, 147.8894, 0.001199961, 0.5078503, 0, 0, -0.8614453,  True, '2019-02-10 00:00:00'); /* Shallows Gorger */

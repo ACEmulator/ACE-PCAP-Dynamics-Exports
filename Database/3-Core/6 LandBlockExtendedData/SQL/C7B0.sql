@@ -5,14 +5,14 @@ VALUES (0x7C7B0001,  1154, 0xC7B0000F, 36.32272, 166.4965, 165.8728, 0.6758137, 
 /* @teleloc 0xC7B0000F [36.322720 166.496500 165.872800] 0.675814 0.000000 0.000000 -0.737073 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7B0001, 0x7C7B0002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C7B0001, 0x7C7B0003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C7B0001, 0x7C7B0004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C7B0001, 0x7C7B0005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C7B0001, 0x7C7B0006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C7B0001, 0x7C7B0007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C7B0001, 0x7C7B0008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C7B0001, 0x7C7B0009, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7C7B0001, 0x7C7B0002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C7B0001, 0x7C7B0003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C7B0001, 0x7C7B0004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C7B0001, 0x7C7B0005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C7B0001, 0x7C7B0006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C7B0001, 0x7C7B0007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C7B0001, 0x7C7B0008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C7B0001, 0x7C7B0009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B0002, 24959, 0xC7B0000F, 36.32272, 166.4965, 165.8728, 0.6758137, 0, 0, -0.7370725,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

@@ -5,17 +5,17 @@ VALUES (0x7E344001,  1154, 0xE3440012, 69.8808, 28.29644, 29.985, -0.04981438, 0
 /* @teleloc 0xE3440012 [69.880800 28.296440 29.985000] -0.049814 0.000000 0.000000 -0.998759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E344001, 0x7E344002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E344001, 0x7E344003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E344001, 0x7E344004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E344001, 0x7E344005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7E344001, 0x7E344006, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E344001, 0x7E344007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7E344001, 0x7E344008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E344001, 0x7E344009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E344001, 0x7E34400A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E344001, 0x7E34400B, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E344001, 0x7E34400C, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7E344001, 0x7E344002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E344001, 0x7E344003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E344001, 0x7E344004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E344001, 0x7E344005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7E344001, 0x7E344006, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E344001, 0x7E344007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7E344001, 0x7E344008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E344001, 0x7E344009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E344001, 0x7E34400A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E344001, 0x7E34400B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E344001, 0x7E34400C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E344002,  4110, 0xE3440012, 69.8808, 28.29644, 29.985, -0.04981438, 0, 0, -0.9987585,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

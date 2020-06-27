@@ -5,20 +5,20 @@ VALUES (0x70C70001,  1154, 0x0C70000E, 35.07095, 127.8107, 70.00455, 0.2588191, 
 /* @teleloc 0x0C70000E [35.070950 127.810700 70.004550] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C70001, 0x70C70002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C70001, 0x70C70003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C70001, 0x70C70004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C70001, 0x70C70005, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C70001, 0x70C70006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C70001, 0x70C70007, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70C70001, 0x70C70008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70C70001, 0x70C70009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70C70001, 0x70C7000A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70C70001, 0x70C7000B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C70001, 0x70C7000C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C70001, 0x70C7000D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C70001, 0x70C7000E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C70001, 0x70C7000F, '2019-02-10 00:00:00') /* Miasma */;
+VALUES (0x70C70001, 0x70C70002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C70001, 0x70C70003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C70001, 0x70C70004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C70001, 0x70C70005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C70001, 0x70C70006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C70001, 0x70C70007, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70C70001, 0x70C70008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70C70001, 0x70C70009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70C70001, 0x70C7000A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70C70001, 0x70C7000B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C70001, 0x70C7000C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C70001, 0x70C7000D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C70001, 0x70C7000E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C70001, 0x70C7000F, '2019-02-10 00:00:00') /* Miasma (14514) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C70002, 36822, 0x0C70000E, 35.07095, 127.8107, 70.00455, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -81,7 +81,7 @@ VALUES (0x70C70010,  1542, 0x0C700003, 6.216574, 71.49682, 89.99, 0.2907213, 0, 
 /* @teleloc 0x0C700003 [6.216574 71.496820 89.990000] 0.290721 0.000000 0.000000 -0.956808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C70010, 0x70C70011, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70C70010, 0x70C70011, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C70011,  9288, 0x0C700003, 6.216574, 71.49682, 89.99, 0.2907213, 0, 0, -0.9568078,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -9,7 +9,7 @@ VALUES (0x74AB5001,  1154, 0x4AB50019, 85, 15, 240.005, -0.707107, 0, 0, -0.7071
 /* @teleloc 0x4AB50019 [85.000000 15.000000 240.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB5001, 0x74AB5002, '2019-02-10 00:00:00') /* Lieutenant Allandal */;
+VALUES (0x74AB5001, 0x74AB5002, '2019-02-10 00:00:00') /* Lieutenant Allandal (32841) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB5002, 32841, 0x4AB50019, 85, 15, 240.005, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Lieutenant Allandal */

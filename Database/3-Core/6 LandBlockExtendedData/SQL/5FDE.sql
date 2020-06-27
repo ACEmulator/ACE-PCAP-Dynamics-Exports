@@ -5,17 +5,17 @@ VALUES (0x75FDE001,  1154, 0x5FDE000E, 26.91291, 128.5451, 81.43068, -0.9998159,
 /* @teleloc 0x5FDE000E [26.912910 128.545100 81.430680] -0.999816 0.000000 0.000000 -0.019185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FDE001, 0x75FDE002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75FDE001, 0x75FDE003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x75FDE001, 0x75FDE004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75FDE001, 0x75FDE005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75FDE001, 0x75FDE006, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x75FDE001, 0x75FDE007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75FDE001, 0x75FDE008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x75FDE001, 0x75FDE009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x75FDE001, 0x75FDE00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75FDE001, 0x75FDE00B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x75FDE001, 0x75FDE00C, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x75FDE001, 0x75FDE002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75FDE001, 0x75FDE003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x75FDE001, 0x75FDE004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75FDE001, 0x75FDE005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75FDE001, 0x75FDE006, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x75FDE001, 0x75FDE007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75FDE001, 0x75FDE008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75FDE001, 0x75FDE009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75FDE001, 0x75FDE00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75FDE001, 0x75FDE00B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75FDE001, 0x75FDE00C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FDE002, 21549, 0x5FDE000E, 26.91291, 128.5451, 81.43068, -0.9998159, 0, 0, -0.01918499,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

@@ -5,22 +5,22 @@ VALUES (0x7A3E6001,  1154, 0xA3E60036, 157.9261, 141.2202, 101.7209, -0.9274958,
 /* @teleloc 0xA3E60036 [157.926100 141.220200 101.720900] -0.927496 0.000000 0.000000 -0.373834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3E6001, 0x7A3E6002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x7A3E6001, 0x7A3E6003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A3E6001, 0x7A3E6004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A3E6001, 0x7A3E6005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A3E6001, 0x7A3E6006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A3E6001, 0x7A3E6007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A3E6001, 0x7A3E6008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A3E6001, 0x7A3E6009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A3E6001, 0x7A3E600A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3E6001, 0x7A3E600B, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A3E6001, 0x7A3E600C, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A3E6001, 0x7A3E600D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A3E6001, 0x7A3E600E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A3E6001, 0x7A3E600F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A3E6001, 0x7A3E6010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A3E6001, 0x7A3E6011, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7A3E6001, 0x7A3E6002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x7A3E6001, 0x7A3E6003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A3E6001, 0x7A3E6004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A3E6001, 0x7A3E6005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A3E6001, 0x7A3E6006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A3E6001, 0x7A3E6007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A3E6001, 0x7A3E6008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A3E6001, 0x7A3E6009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A3E6001, 0x7A3E600A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3E6001, 0x7A3E600B, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A3E6001, 0x7A3E600C, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A3E6001, 0x7A3E600D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A3E6001, 0x7A3E600E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A3E6001, 0x7A3E600F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A3E6001, 0x7A3E6010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A3E6001, 0x7A3E6011, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3E6002, 26468, 0xA3E60036, 157.9261, 141.2202, 101.7209, -0.9274958, 0, 0, -0.3738335,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -91,9 +91,9 @@ VALUES (0x7A3E6012,  1542, 0xA3E6000F, 40.02032, 149.0541, 84.31532, 0.696875, 0
 /* @teleloc 0xA3E6000F [40.020320 149.054100 84.315320] 0.696875 0.000000 0.000000 -0.717193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3E6012, 0x7A3E6013, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7A3E6012, 0x7A3E6014, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A3E6012, 0x7A3E6015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A3E6012, 0x7A3E6013, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7A3E6012, 0x7A3E6014, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A3E6012, 0x7A3E6015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3E6013,  8646, 0xA3E6000F, 40.02032, 149.0541, 84.31532, 0.696875, 0, 0, -0.7171925,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

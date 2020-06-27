@@ -5,13 +5,13 @@ VALUES (0x7225F001,  1154, 0x225F000D, 32.8186, 110.9716, 24.43678, -0.8863412, 
 /* @teleloc 0x225F000D [32.818600 110.971600 24.436780] -0.886341 0.000000 0.000000 -0.463033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7225F001, 0x7225F002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7225F001, 0x7225F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7225F001, 0x7225F004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7225F001, 0x7225F005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7225F001, 0x7225F006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7225F001, 0x7225F007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7225F001, 0x7225F008, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x7225F001, 0x7225F002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7225F001, 0x7225F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7225F001, 0x7225F004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7225F001, 0x7225F005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7225F001, 0x7225F006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7225F001, 0x7225F007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7225F001, 0x7225F008, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7225F002, 36830, 0x225F000D, 32.8186, 110.9716, 24.43678, -0.8863412, 0, 0, -0.4630327,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -46,8 +46,8 @@ VALUES (0x7225F009,  1542, 0x225F0014, 62.41468, 72.0096, 29.941, 1, 0, 0, 0, Fa
 /* @teleloc 0x225F0014 [62.414680 72.009600 29.941000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7225F009, 0x7225F00A, '2019-02-10 00:00:00') /* Qalaba'r Portal */
-     , (0x7225F009, 0x7225F00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7225F009, 0x7225F00A, '2019-02-10 00:00:00') /* Qalaba'r Portal (42833) */
+     , (0x7225F009, 0x7225F00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7225F00A, 42833, 0x225F0014, 62.41468, 72.0096, 29.941, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Qalaba'r Portal */

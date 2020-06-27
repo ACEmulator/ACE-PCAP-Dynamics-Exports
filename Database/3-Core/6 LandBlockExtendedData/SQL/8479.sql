@@ -5,9 +5,9 @@ VALUES (0x78479001,  1154, 0x84790003, 8.868776, 65.22927, 12.22269, 0.9063078, 
 /* @teleloc 0x84790003 [8.868776 65.229270 12.222690] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78479001, 0x78479002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x78479001, 0x78479003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x78479001, 0x78479004, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x78479001, 0x78479002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x78479001, 0x78479003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x78479001, 0x78479004, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78479002,   211, 0x84790003, 8.868776, 65.22927, 12.22269, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -26,7 +26,7 @@ VALUES (0x78479005,  1542, 0x84790003, 10.65048, 67.8434, 12.66262, 1, 0, 0, 0, 
 /* @teleloc 0x84790003 [10.650480 67.843400 12.662620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78479005, 0x78479006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78479005, 0x78479006, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78479006, 22568, 0x84790003, 10.65048, 67.8434, 12.66262, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

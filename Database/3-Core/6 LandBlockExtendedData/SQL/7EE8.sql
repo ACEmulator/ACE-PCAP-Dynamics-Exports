@@ -5,10 +5,10 @@ VALUES (0x77EE8001,  1154, 0x7EE80040, 186.829, 174.985, 44.30689, 0.8870109, 0,
 /* @teleloc 0x7EE80040 [186.829000 174.985000 44.306890] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EE8001, 0x77EE8002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x77EE8001, 0x77EE8003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77EE8001, 0x77EE8004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x77EE8001, 0x77EE8005, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x77EE8001, 0x77EE8002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x77EE8001, 0x77EE8003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77EE8001, 0x77EE8004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x77EE8001, 0x77EE8005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EE8002,  1610, 0x7EE80040, 186.829, 174.985, 44.30689, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

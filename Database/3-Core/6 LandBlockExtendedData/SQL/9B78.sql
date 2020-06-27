@@ -5,20 +5,20 @@ VALUES (0x79B78001,  1154, 0x9B780027, 117.9732, 158.8568, 28.005, -0.1175078, 0
 /* @teleloc 0x9B780027 [117.973200 158.856800 28.005000] -0.117508 0.000000 0.000000 -0.993072 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B78001, 0x79B78002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79B78001, 0x79B78003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79B78001, 0x79B78004, '2019-02-10 00:00:00') /* Lich */
-     , (0x79B78001, 0x79B78005, '2019-02-10 00:00:00') /* Lich */
-     , (0x79B78001, 0x79B78006, '2019-02-10 00:00:00') /* Undead */
-     , (0x79B78001, 0x79B78007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79B78001, 0x79B78008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79B78001, 0x79B78009, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79B78001, 0x79B7800A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79B78001, 0x79B7800B, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79B78001, 0x79B7800C, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79B78001, 0x79B7800D, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79B78001, 0x79B7800E, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79B78001, 0x79B7800F, '2019-02-10 00:00:00') /* Lesser Mu-miyah */;
+VALUES (0x79B78001, 0x79B78002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79B78001, 0x79B78003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79B78001, 0x79B78004, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79B78001, 0x79B78005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79B78001, 0x79B78006, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79B78001, 0x79B78007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79B78001, 0x79B78008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79B78001, 0x79B78009, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79B78001, 0x79B7800A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79B78001, 0x79B7800B, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79B78001, 0x79B7800C, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79B78001, 0x79B7800D, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79B78001, 0x79B7800E, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79B78001, 0x79B7800F, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B78002,   232, 0x9B780027, 117.9732, 158.8568, 28.005, -0.1175078, 0, 0, -0.993072,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -81,8 +81,8 @@ VALUES (0x79B78010,  1542, 0x9B780023, 114.5073, 59.3364, 29.90985, 0.9238795, 0
 /* @teleloc 0x9B780023 [114.507300 59.336400 29.909850] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B78010, 0x79B78011, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79B78010, 0x79B78012, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79B78010, 0x79B78011, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79B78010, 0x79B78012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B78011,  4180, 0x9B780023, 114.5073, 59.3364, 29.90985, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

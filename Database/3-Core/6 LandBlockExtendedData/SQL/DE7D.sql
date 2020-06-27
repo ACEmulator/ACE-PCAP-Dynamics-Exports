@@ -5,13 +5,13 @@ VALUES (0x7DE7D001,  1154, 0xDE7D003D, 170.6372, 98.63425, 0.008250117, 0.809149
 /* @teleloc 0xDE7D003D [170.637200 98.634250 0.008250] 0.809149 0.000000 0.000000 -0.587603 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE7D001, 0x7DE7D002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DE7D001, 0x7DE7D003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DE7D001, 0x7DE7D004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DE7D001, 0x7DE7D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE7D001, 0x7DE7D006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DE7D001, 0x7DE7D007, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7DE7D001, 0x7DE7D008, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7DE7D001, 0x7DE7D002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DE7D001, 0x7DE7D003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DE7D001, 0x7DE7D004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DE7D001, 0x7DE7D005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DE7D001, 0x7DE7D006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DE7D001, 0x7DE7D007, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7DE7D001, 0x7DE7D008, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE7D002,   619, 0xDE7D003D, 170.6372, 98.63425, 0.008250117, 0.8091491, 0, 0, -0.5876034,  True, '2019-02-10 00:00:00'); /* Revenant */

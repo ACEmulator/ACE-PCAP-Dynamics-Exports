@@ -5,30 +5,30 @@ VALUES (0x7445B001,  1154, 0x445B0022, 96.59435, 45.85101, 37.17558, -0.8254154,
 /* @teleloc 0x445B0022 [96.594350 45.851010 37.175580] -0.825415 0.000000 0.000000 -0.564526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445B001, 0x7445B002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7445B001, 0x7445B003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7445B001, 0x7445B004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7445B001, 0x7445B005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7445B001, 0x7445B006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7445B001, 0x7445B007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7445B001, 0x7445B008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7445B001, 0x7445B009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7445B001, 0x7445B00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7445B001, 0x7445B00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7445B001, 0x7445B00C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7445B001, 0x7445B00D, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7445B001, 0x7445B00E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7445B001, 0x7445B00F, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7445B001, 0x7445B010, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7445B001, 0x7445B011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7445B001, 0x7445B012, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7445B001, 0x7445B013, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7445B001, 0x7445B014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7445B001, 0x7445B015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7445B001, 0x7445B016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7445B001, 0x7445B017, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7445B001, 0x7445B018, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7445B001, 0x7445B019, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7445B001, 0x7445B002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7445B001, 0x7445B003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7445B001, 0x7445B004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7445B001, 0x7445B005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7445B001, 0x7445B006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7445B001, 0x7445B007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7445B001, 0x7445B008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7445B001, 0x7445B009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7445B001, 0x7445B00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7445B001, 0x7445B00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7445B001, 0x7445B00C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7445B001, 0x7445B00D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7445B001, 0x7445B00E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7445B001, 0x7445B00F, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7445B001, 0x7445B010, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7445B001, 0x7445B011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7445B001, 0x7445B012, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7445B001, 0x7445B013, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7445B001, 0x7445B014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7445B001, 0x7445B015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7445B001, 0x7445B016, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7445B001, 0x7445B017, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7445B001, 0x7445B018, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7445B001, 0x7445B019, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445B002,  8138, 0x445B0022, 96.59435, 45.85101, 37.17558, -0.8254154, 0, 0, -0.5645258,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -131,7 +131,7 @@ VALUES (0x7445B01A,  1542, 0x445B001F, 79.31202, 157.7873, 27.06026, 1, 0, 0, 0,
 /* @teleloc 0x445B001F [79.312020 157.787300 27.060260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445B01A, 0x7445B01B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7445B01A, 0x7445B01B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445B01B,  8999, 0x445B001F, 79.31202, 157.7873, 27.06026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

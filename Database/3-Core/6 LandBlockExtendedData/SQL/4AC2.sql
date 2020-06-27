@@ -5,14 +5,14 @@ VALUES (0x74AC2001,  1154, 0x4AC20020, 80.55434, 185.8688, 2.317263, -0.9597844,
 /* @teleloc 0x4AC20020 [80.554340 185.868800 2.317263] -0.959784 0.000000 0.000000 -0.280738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC2001, 0x74AC2002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74AC2001, 0x74AC2003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74AC2001, 0x74AC2004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x74AC2001, 0x74AC2005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AC2001, 0x74AC2006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AC2001, 0x74AC2007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AC2001, 0x74AC2008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74AC2001, 0x74AC2009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x74AC2001, 0x74AC2002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74AC2001, 0x74AC2003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74AC2001, 0x74AC2004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x74AC2001, 0x74AC2005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AC2001, 0x74AC2006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AC2001, 0x74AC2007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AC2001, 0x74AC2008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74AC2001, 0x74AC2009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC2002,  4217, 0x4AC20020, 80.55434, 185.8688, 2.317263, -0.9597844, 0, 0, -0.2807383,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

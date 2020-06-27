@@ -5,17 +5,17 @@ VALUES (0x72D35001,  1154, 0x2D35002C, 120.1186, 74.01852, 74.16333, 0.7071068, 
 /* @teleloc 0x2D35002C [120.118600 74.018520 74.163330] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D35001, 0x72D35002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D35001, 0x72D35003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D35001, 0x72D35004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D35001, 0x72D35005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72D35001, 0x72D35006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D35001, 0x72D35007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72D35001, 0x72D35008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72D35001, 0x72D35009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D35001, 0x72D3500A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D35001, 0x72D3500B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D35001, 0x72D3500C, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x72D35001, 0x72D35002, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72D35001, 0x72D35003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D35001, 0x72D35004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D35001, 0x72D35005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72D35001, 0x72D35006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D35001, 0x72D35007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72D35001, 0x72D35008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72D35001, 0x72D35009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D35001, 0x72D3500A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D35001, 0x72D3500B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D35001, 0x72D3500C, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D35002, 36853, 0x2D35002C, 120.1186, 74.01852, 74.16333, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -66,7 +66,7 @@ VALUES (0x72D3500D,  1542, 0x2D350024, 106.1052, 89.87112, 75.42626, 1, 0, 0, 0,
 /* @teleloc 0x2D350024 [106.105200 89.871120 75.426260] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3500D, 0x72D3500E, '2019-02-10 00:00:00') /* Sho Roadside */;
+VALUES (0x72D3500D, 0x72D3500E, '2019-02-10 00:00:00') /* Sho Roadside (1907) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3500E,  1907, 0x2D350024, 106.1052, 89.87112, 75.42626, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sho Roadside */

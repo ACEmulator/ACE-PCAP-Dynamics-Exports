@@ -5,11 +5,11 @@ VALUES (0x7CEA1001,  1154, 0xCEA10028, 111.1385, 188.3155, 13.9925, 0.8870109, 0
 /* @teleloc 0xCEA10028 [111.138500 188.315500 13.992500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA1001, 0x7CEA1002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CEA1001, 0x7CEA1003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CEA1001, 0x7CEA1004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CEA1001, 0x7CEA1005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CEA1001, 0x7CEA1006, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CEA1001, 0x7CEA1002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CEA1001, 0x7CEA1003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CEA1001, 0x7CEA1004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CEA1001, 0x7CEA1005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CEA1001, 0x7CEA1006, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA1002,  2576, 0xCEA10028, 111.1385, 188.3155, 13.9925, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -36,7 +36,7 @@ VALUES (0x7CEA1007,  1542, 0xCEA1003F, 187.1039, 163.6846, 18.35962, 0.9990482, 
 /* @teleloc 0xCEA1003F [187.103900 163.684600 18.359620] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA1007, 0x7CEA1008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CEA1007, 0x7CEA1008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA1008,  4179, 0xCEA1003F, 187.1039, 163.6846, 18.35962, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

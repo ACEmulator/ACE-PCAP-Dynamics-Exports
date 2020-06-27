@@ -5,9 +5,9 @@ VALUES (0x7A851001,  1154, 0xA8510028, 105.352, 169.5821, 56.57347, 0.7481055, 0
 /* @teleloc 0xA8510028 [105.352000 169.582100 56.573470] 0.748106 0.000000 0.000000 -0.663580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A851001, 0x7A851002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A851001, 0x7A851003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A851001, 0x7A851004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A851001, 0x7A851002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A851001, 0x7A851003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A851001, 0x7A851004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A851002,  1626, 0xA8510028, 105.352, 169.5821, 56.57347, 0.7481055, 0, 0, -0.6635798,  True, '2019-02-10 00:00:00'); /* Silver Rat */

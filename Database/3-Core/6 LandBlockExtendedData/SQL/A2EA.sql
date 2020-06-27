@@ -5,15 +5,15 @@ VALUES (0x7A2EA001,  1154, 0xA2EA000F, 38.04368, 159.9546, 22.6893, 1, 0, 0, 0, 
 /* @teleloc 0xA2EA000F [38.043680 159.954600 22.689300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2EA001, 0x7A2EA002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2EA001, 0x7A2EA003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2EA001, 0x7A2EA004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2EA001, 0x7A2EA005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A2EA001, 0x7A2EA006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A2EA001, 0x7A2EA007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A2EA001, 0x7A2EA008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A2EA001, 0x7A2EA009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A2EA001, 0x7A2EA00A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7A2EA001, 0x7A2EA002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2EA001, 0x7A2EA003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2EA001, 0x7A2EA004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2EA001, 0x7A2EA005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A2EA001, 0x7A2EA006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A2EA001, 0x7A2EA007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A2EA001, 0x7A2EA008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A2EA001, 0x7A2EA009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A2EA001, 0x7A2EA00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2EA002,  7124, 0xA2EA000F, 38.04368, 159.9546, 22.6893, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */

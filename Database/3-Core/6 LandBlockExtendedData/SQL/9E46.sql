@@ -5,8 +5,8 @@ VALUES (0x79E46001,  1154, 0x9E460013, 48.71262, 55.078, 64.50006, -0.3155427, 0
 /* @teleloc 0x9E460013 [48.712620 55.078000 64.500060] -0.315543 0.000000 0.000000 -0.948911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E46001, 0x79E46002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79E46001, 0x79E46003, '2019-02-10 00:00:00') /* Broken Doll */;
+VALUES (0x79E46001, 0x79E46002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79E46001, 0x79E46003, '2019-02-10 00:00:00') /* Broken Doll (10773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E46002,    23, 0x9E460013, 48.71262, 55.078, 64.50006, -0.3155427, 0, 0, -0.9489114,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -21,7 +21,7 @@ VALUES (0x79E46004,  1542, 0x9E46000B, 31.44968, 69.31404, 66, -0.3155427, 0, 0,
 /* @teleloc 0x9E46000B [31.449680 69.314040 66.000000] -0.315543 0.000000 0.000000 -0.948911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E46004, 0x79E46005, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79E46004, 0x79E46005, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E46005,  8041, 0x9E46000B, 31.44968, 69.31404, 66, -0.3155427, 0, 0, -0.9489114,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

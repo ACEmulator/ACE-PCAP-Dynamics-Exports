@@ -5,10 +5,10 @@ VALUES (0x7A24F001,  1154, 0xA24F0034, 153.1361, 79.34241, 60.003, -0.9430051, 0
 /* @teleloc 0xA24F0034 [153.136100 79.342410 60.003000] -0.943005 0.000000 0.000000 -0.332778 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A24F001, 0x7A24F002, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A24F001, 0x7A24F003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A24F001, 0x7A24F004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A24F001, 0x7A24F005, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7A24F001, 0x7A24F002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A24F001, 0x7A24F003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A24F001, 0x7A24F004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A24F001, 0x7A24F005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A24F002, 21164, 0xA24F0034, 153.1361, 79.34241, 60.003, -0.9430051, 0, 0, -0.3327781,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -31,7 +31,7 @@ VALUES (0x7A24F006,  1542, 0xA24F0034, 144.1601, 86.23354, 60, -0.5062203, 0, 0,
 /* @teleloc 0xA24F0034 [144.160100 86.233540 60.000000] -0.506220 0.000000 0.000000 -0.862404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A24F006, 0x7A24F007, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7A24F006, 0x7A24F007, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A24F007,  8041, 0xA24F0034, 144.1601, 86.23354, 60, -0.5062203, 0, 0, -0.8624042,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

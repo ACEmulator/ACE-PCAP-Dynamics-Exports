@@ -5,17 +5,17 @@ VALUES (0x7D4CA001,  1154, 0xD4CA0016, 57.39176, 139.3514, 44.37766, -0.3362423,
 /* @teleloc 0xD4CA0016 [57.391760 139.351400 44.377660] -0.336242 0.000000 0.000000 -0.941776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4CA001, 0x7D4CA002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D4CA001, 0x7D4CA003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D4CA001, 0x7D4CA004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D4CA001, 0x7D4CA005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D4CA001, 0x7D4CA006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D4CA001, 0x7D4CA007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D4CA001, 0x7D4CA008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D4CA001, 0x7D4CA009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D4CA001, 0x7D4CA00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D4CA001, 0x7D4CA00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D4CA001, 0x7D4CA00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7D4CA001, 0x7D4CA002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D4CA001, 0x7D4CA003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D4CA001, 0x7D4CA004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D4CA001, 0x7D4CA005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D4CA001, 0x7D4CA006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D4CA001, 0x7D4CA007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D4CA001, 0x7D4CA008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D4CA001, 0x7D4CA009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D4CA001, 0x7D4CA00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D4CA001, 0x7D4CA00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D4CA001, 0x7D4CA00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4CA002, 11478, 0xD4CA0016, 57.39176, 139.3514, 44.37766, -0.3362423, 0, 0, -0.9417755,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

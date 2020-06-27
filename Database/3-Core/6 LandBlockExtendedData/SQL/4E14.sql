@@ -5,25 +5,25 @@ VALUES (0x74E14001,  1154, 0x4E14000B, 46.67736, 54.43394, 0.2286901, 0.2183145,
 /* @teleloc 0x4E14000B [46.677360 54.433940 0.228690] 0.218315 0.000000 0.000000 -0.975879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E14001, 0x74E14002, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x74E14001, 0x74E14003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74E14001, 0x74E14004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74E14001, 0x74E14005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74E14001, 0x74E14006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74E14001, 0x74E14007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74E14001, 0x74E14008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74E14001, 0x74E14009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74E14001, 0x74E1400A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74E14001, 0x74E1400B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74E14001, 0x74E1400C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74E14001, 0x74E1400D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74E14001, 0x74E1400E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74E14001, 0x74E1400F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74E14001, 0x74E14010, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x74E14001, 0x74E14011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74E14001, 0x74E14012, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74E14001, 0x74E14013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74E14001, 0x74E14014, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74E14001, 0x74E14002, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x74E14001, 0x74E14003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74E14001, 0x74E14004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74E14001, 0x74E14005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74E14001, 0x74E14006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74E14001, 0x74E14007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74E14001, 0x74E14008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74E14001, 0x74E14009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74E14001, 0x74E1400A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74E14001, 0x74E1400B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74E14001, 0x74E1400C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74E14001, 0x74E1400D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74E14001, 0x74E1400E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74E14001, 0x74E1400F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74E14001, 0x74E14010, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x74E14001, 0x74E14011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74E14001, 0x74E14012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74E14001, 0x74E14013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74E14001, 0x74E14014, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E14002, 12037, 0x4E14000B, 46.67736, 54.43394, 0.2286901, 0.2183145, 0, 0, -0.9758785,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */
@@ -106,9 +106,9 @@ VALUES (0x74E14015,  1542, 0x4E14002A, 130.4383, 26.91426, 3.204273, 0.8104541, 
 /* @teleloc 0x4E14002A [130.438300 26.914260 3.204273] 0.810454 0.000000 0.000000 -0.585802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E14015, 0x74E14016, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x74E14015, 0x74E14017, '2019-02-10 00:00:00') /* Bones */
-     , (0x74E14015, 0x74E14018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x74E14015, 0x74E14016, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x74E14015, 0x74E14017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74E14015, 0x74E14018, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E14016,  9286, 0x4E14002A, 130.4383, 26.91426, 3.204273, 0.8104541, 0, 0, -0.5858022,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

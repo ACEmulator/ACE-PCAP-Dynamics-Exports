@@ -5,19 +5,19 @@ VALUES (0x73394001,  1154, 0x3394003B, 172.5016, 49.45863, 0.3833797, 0.7071068,
 /* @teleloc 0x3394003B [172.501600 49.458630 0.383380] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73394001, 0x73394002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73394001, 0x73394003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73394001, 0x73394004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73394001, 0x73394005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73394001, 0x73394006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73394001, 0x73394007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73394001, 0x73394008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73394001, 0x73394009, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73394001, 0x7339400A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73394001, 0x7339400B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73394001, 0x7339400C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73394001, 0x7339400D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73394001, 0x7339400E, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x73394001, 0x73394002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73394001, 0x73394003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73394001, 0x73394004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73394001, 0x73394005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73394001, 0x73394006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73394001, 0x73394007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73394001, 0x73394008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73394001, 0x73394009, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73394001, 0x7339400A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73394001, 0x7339400B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73394001, 0x7339400C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73394001, 0x7339400D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73394001, 0x7339400E, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73394002, 24325, 0x3394003B, 172.5016, 49.45863, 0.3833797, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -76,7 +76,7 @@ VALUES (0x7339400F,  1542, 0x3394003B, 173.4063, 53.49861, 0.5631701, -4.371139E
 /* @teleloc 0x3394003B [173.406300 53.498610 0.563170] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7339400F, 0x73394010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7339400F, 0x73394010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73394010,  4380, 0x3394003B, 173.4063, 53.49861, 0.5631701, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

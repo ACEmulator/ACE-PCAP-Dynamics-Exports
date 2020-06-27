@@ -5,30 +5,30 @@ VALUES (0x760EA001,  1154, 0x60EA000E, 47.96485, 133.6304, -0.4368, -4.371139E-0
 /* @teleloc 0x60EA000E [47.964850 133.630400 -0.436800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760EA001, 0x760EA002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x760EA001, 0x760EA003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x760EA001, 0x760EA004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x760EA001, 0x760EA005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x760EA001, 0x760EA006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x760EA001, 0x760EA007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA00B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x760EA001, 0x760EA00C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x760EA001, 0x760EA00D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x760EA001, 0x760EA00E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x760EA001, 0x760EA00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760EA001, 0x760EA012, '2019-02-10 00:00:00') /* Rampager */
-     , (0x760EA001, 0x760EA013, '2019-02-10 00:00:00') /* Rampager */
-     , (0x760EA001, 0x760EA014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x760EA001, 0x760EA015, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x760EA001, 0x760EA016, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x760EA001, 0x760EA017, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x760EA001, 0x760EA018, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x760EA001, 0x760EA019, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x760EA001, 0x760EA002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x760EA001, 0x760EA003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x760EA001, 0x760EA004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x760EA001, 0x760EA005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x760EA001, 0x760EA006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x760EA001, 0x760EA007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA00B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x760EA001, 0x760EA00C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x760EA001, 0x760EA00D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x760EA001, 0x760EA00E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x760EA001, 0x760EA00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760EA001, 0x760EA012, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x760EA001, 0x760EA013, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x760EA001, 0x760EA014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x760EA001, 0x760EA015, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x760EA001, 0x760EA016, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x760EA001, 0x760EA017, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x760EA001, 0x760EA018, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x760EA001, 0x760EA019, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760EA002, 10810, 0x60EA000E, 47.96485, 133.6304, -0.4368, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -131,7 +131,7 @@ VALUES (0x760EA01A,  1542, 0x60EA000B, 38.42315, 63.35885, 1.596143, 1, 0, 0, 0,
 /* @teleloc 0x60EA000B [38.423150 63.358850 1.596143] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760EA01A, 0x760EA01B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x760EA01A, 0x760EA01B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760EA01B,  8999, 0x60EA000B, 38.42315, 63.35885, 1.596143, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

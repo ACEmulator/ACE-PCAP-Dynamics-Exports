@@ -5,16 +5,16 @@ VALUES (0x7BA29001,  1154, 0xBA290027, 115.0973, 166.0809, 200.1699, 0.03451277,
 /* @teleloc 0xBA290027 [115.097300 166.080900 200.169900] 0.034513 0.000000 0.000000 -0.999404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA29001, 0x7BA29002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA29001, 0x7BA29003, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7BA29001, 0x7BA29004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA29001, 0x7BA29005, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BA29001, 0x7BA29006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BA29001, 0x7BA29007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA29001, 0x7BA29008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA29001, 0x7BA29009, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BA29001, 0x7BA2900A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA29001, 0x7BA2900B, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7BA29001, 0x7BA29002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA29001, 0x7BA29003, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7BA29001, 0x7BA29004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA29001, 0x7BA29005, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BA29001, 0x7BA29006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BA29001, 0x7BA29007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA29001, 0x7BA29008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA29001, 0x7BA29009, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BA29001, 0x7BA2900A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA29001, 0x7BA2900B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA29002, 14559, 0xBA290027, 115.0973, 166.0809, 200.1699, 0.03451277, 0, 0, -0.9994043,  True, '2019-02-10 00:00:00'); /* Oak Golem */

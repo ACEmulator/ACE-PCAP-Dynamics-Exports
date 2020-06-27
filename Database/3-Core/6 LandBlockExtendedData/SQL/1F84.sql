@@ -5,27 +5,27 @@ VALUES (0x71F84001,  1154, 0x1F840031, 161.1396, 18.43779, 132.4031, -0.9470634,
 /* @teleloc 0x1F840031 [161.139600 18.437790 132.403100] -0.947063 0.000000 0.000000 -0.321047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F84001, 0x71F84002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71F84001, 0x71F84003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F84001, 0x71F84004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F84001, 0x71F84005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F84001, 0x71F84006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F84001, 0x71F84007, '2019-02-10 00:00:00') /* Hyem */
-     , (0x71F84001, 0x71F84008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F84001, 0x71F84009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F84001, 0x71F8400A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F84001, 0x71F8400B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F84001, 0x71F8400C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F84001, 0x71F8400D, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F84001, 0x71F8400E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F84001, 0x71F8400F, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71F84001, 0x71F84010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F84001, 0x71F84011, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71F84001, 0x71F84012, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71F84001, 0x71F84013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71F84001, 0x71F84014, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71F84001, 0x71F84015, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71F84001, 0x71F84016, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x71F84001, 0x71F84002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71F84001, 0x71F84003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F84001, 0x71F84004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F84001, 0x71F84005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F84001, 0x71F84006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F84001, 0x71F84007, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x71F84001, 0x71F84008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F84001, 0x71F84009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F84001, 0x71F8400A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F84001, 0x71F8400B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F84001, 0x71F8400C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F84001, 0x71F8400D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F84001, 0x71F8400E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F84001, 0x71F8400F, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71F84001, 0x71F84010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F84001, 0x71F84011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71F84001, 0x71F84012, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71F84001, 0x71F84013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71F84001, 0x71F84014, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71F84001, 0x71F84015, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F84001, 0x71F84016, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F84002, 36833, 0x1F840031, 161.1396, 18.43779, 132.4031, -0.9470634, 0, 0, -0.3210466,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -116,8 +116,8 @@ VALUES (0x71F84017,  1542, 0x1F840036, 155.0741, 133.6351, 128, -4.371139E-08, 0
 /* @teleloc 0x1F840036 [155.074100 133.635100 128.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F84017, 0x71F84018, '2019-02-10 00:00:00') /* Bones */
-     , (0x71F84017, 0x71F84019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71F84017, 0x71F84018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71F84017, 0x71F84019, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F84018,  4380, 0x1F840036, 155.0741, 133.6351, 128, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

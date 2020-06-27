@@ -5,13 +5,13 @@ VALUES (0x7BA3C001,  1154, 0xBA3C0009, 37.51887, 19.16528, 83.32417, -0.9998562,
 /* @teleloc 0xBA3C0009 [37.518870 19.165280 83.324170] -0.999856 0.000000 0.000000 -0.016957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA3C001, 0x7BA3C002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7BA3C001, 0x7BA3C003, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BA3C001, 0x7BA3C004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BA3C001, 0x7BA3C005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA3C001, 0x7BA3C006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BA3C001, 0x7BA3C007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BA3C001, 0x7BA3C008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7BA3C001, 0x7BA3C002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7BA3C001, 0x7BA3C003, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BA3C001, 0x7BA3C004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BA3C001, 0x7BA3C005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA3C001, 0x7BA3C006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7BA3C001, 0x7BA3C007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BA3C001, 0x7BA3C008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA3C002,  1627, 0xBA3C0009, 37.51887, 19.16528, 83.32417, -0.9998562, 0, 0, -0.01695686,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -46,7 +46,7 @@ VALUES (0x7BA3C009,  1542, 0xBA3C0032, 163.8345, 30.61603, 110.243, 0.6560912, 0
 /* @teleloc 0xBA3C0032 [163.834500 30.616030 110.243000] 0.656091 0.000000 0.000000 -0.754682 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA3C009, 0x7BA3C00A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BA3C009, 0x7BA3C00A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA3C00A, 42528, 0xBA3C0032, 163.8345, 30.61603, 110.243, 0.6560912, 0, 0, -0.7546816,  True, '2019-02-10 00:00:00'); /* Rock */

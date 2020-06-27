@@ -5,17 +5,17 @@ VALUES (0x7BE76001,  1154, 0xBE760036, 150.8922, 138.2941, 21.53386, 0.4420546, 
 /* @teleloc 0xBE760036 [150.892200 138.294100 21.533860] 0.442055 0.000000 0.000000 -0.896988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE76001, 0x7BE76002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BE76001, 0x7BE76003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE76004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BE76001, 0x7BE76005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE76006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE76007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE76008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BE76001, 0x7BE76009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE7600A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE7600B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BE76001, 0x7BE7600C, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BE76001, 0x7BE76002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BE76001, 0x7BE76003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE76004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BE76001, 0x7BE76005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE76006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE76007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE76008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BE76001, 0x7BE76009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE7600A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE7600B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BE76001, 0x7BE7600C, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE76002,    20, 0xBE760036, 150.8922, 138.2941, 21.53386, 0.4420546, 0, 0, -0.8969882,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
@@ -66,7 +66,7 @@ VALUES (0x7BE7600D,  1542, 0xBE760013, 59.85855, 64.59057, 20, 0.9659258, 0, 0, 
 /* @teleloc 0xBE760013 [59.858550 64.590570 20.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7600D, 0x7BE7600E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BE7600D, 0x7BE7600E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7600E,  4180, 0xBE760013, 59.85855, 64.59057, 20, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

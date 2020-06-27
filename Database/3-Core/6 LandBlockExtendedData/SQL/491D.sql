@@ -5,12 +5,12 @@ VALUES (0x7491D001,  1154, 0x491D0018, 55.14095, 176.3193, 58.68678, 0.7071068, 
 /* @teleloc 0x491D0018 [55.140950 176.319300 58.686780] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7491D001, 0x7491D002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7491D001, 0x7491D003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7491D001, 0x7491D004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7491D001, 0x7491D005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7491D001, 0x7491D006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7491D001, 0x7491D007, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x7491D001, 0x7491D002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7491D001, 0x7491D003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7491D001, 0x7491D004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7491D001, 0x7491D005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7491D001, 0x7491D006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7491D001, 0x7491D007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7491D002, 36840, 0x491D0018, 55.14095, 176.3193, 58.68678, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -41,8 +41,8 @@ VALUES (0x7491D008,  1542, 0x491D0018, 59.25906, 176.745, 59.55491, -4.371139E-0
 /* @teleloc 0x491D0018 [59.259060 176.745000 59.554910] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7491D008, 0x7491D009, '2019-02-10 00:00:00') /* Bones */
-     , (0x7491D008, 0x7491D00A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7491D008, 0x7491D009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7491D008, 0x7491D00A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7491D009,  4380, 0x491D0018, 59.25906, 176.745, 59.55491, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

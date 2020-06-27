@@ -5,28 +5,28 @@ VALUES (0x71F43001,  1154, 0x1F430009, 43.56746, 11.18328, 33.10704, 0.8272383, 
 /* @teleloc 0x1F430009 [43.567460 11.183280 33.107040] 0.827238 0.000000 0.000000 -0.561851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F43001, 0x71F43002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71F43001, 0x71F43003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F43001, 0x71F43004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71F43001, 0x71F43005, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71F43001, 0x71F43006, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71F43001, 0x71F43007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71F43001, 0x71F43008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71F43001, 0x71F43009, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71F43001, 0x71F4300A, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71F43001, 0x71F4300B, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71F43001, 0x71F4300C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71F43001, 0x71F4300D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71F43001, 0x71F4300E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71F43001, 0x71F4300F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71F43001, 0x71F43010, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71F43001, 0x71F43011, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71F43001, 0x71F43012, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71F43001, 0x71F43013, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71F43001, 0x71F43014, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71F43001, 0x71F43015, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71F43001, 0x71F43016, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71F43001, 0x71F43017, '2019-02-10 00:00:00') /* Gotrok Titan */;
+VALUES (0x71F43001, 0x71F43002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71F43001, 0x71F43003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F43001, 0x71F43004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71F43001, 0x71F43005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71F43001, 0x71F43006, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71F43001, 0x71F43007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71F43001, 0x71F43008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71F43001, 0x71F43009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71F43001, 0x71F4300A, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71F43001, 0x71F4300B, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71F43001, 0x71F4300C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71F43001, 0x71F4300D, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71F43001, 0x71F4300E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71F43001, 0x71F4300F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71F43001, 0x71F43010, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71F43001, 0x71F43011, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71F43001, 0x71F43012, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71F43001, 0x71F43013, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71F43001, 0x71F43014, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71F43001, 0x71F43015, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71F43001, 0x71F43016, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71F43001, 0x71F43017, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F43002, 23481, 0x1F430009, 43.56746, 11.18328, 33.10704, 0.8272383, 0, 0, -0.5618513,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -121,8 +121,8 @@ VALUES (0x71F43018,  1542, 0x1F43000E, 40.53555, 121.0483, 4.748683, -4.371139E-
 /* @teleloc 0x1F43000E [40.535550 121.048300 4.748683] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F43018, 0x71F43019, '2019-02-10 00:00:00') /* Bones */
-     , (0x71F43018, 0x71F4301A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71F43018, 0x71F43019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71F43018, 0x71F4301A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F43019,  4380, 0x1F43000E, 40.53555, 121.0483, 4.748683, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

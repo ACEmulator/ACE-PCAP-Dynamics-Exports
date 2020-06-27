@@ -5,20 +5,20 @@ VALUES (0x760B8001,  1154, 0x60B80005, 23.72757, 118.8287, 4.006297, 0.7071068, 
 /* @teleloc 0x60B80005 [23.727570 118.828700 4.006297] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760B8001, 0x760B8002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x760B8001, 0x760B8003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x760B8001, 0x760B8004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x760B8001, 0x760B8005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x760B8001, 0x760B8006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x760B8001, 0x760B8007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x760B8001, 0x760B8008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x760B8001, 0x760B8009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x760B8001, 0x760B800A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x760B8001, 0x760B800B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x760B8001, 0x760B800C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760B8001, 0x760B800D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760B8001, 0x760B800E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760B8001, 0x760B800F, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x760B8001, 0x760B8002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x760B8001, 0x760B8003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x760B8001, 0x760B8004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x760B8001, 0x760B8005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x760B8001, 0x760B8006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x760B8001, 0x760B8007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x760B8001, 0x760B8008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x760B8001, 0x760B8009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x760B8001, 0x760B800A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x760B8001, 0x760B800B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x760B8001, 0x760B800C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760B8001, 0x760B800D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760B8001, 0x760B800E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760B8001, 0x760B800F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760B8002,    23, 0x60B80005, 23.72757, 118.8287, 4.006297, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

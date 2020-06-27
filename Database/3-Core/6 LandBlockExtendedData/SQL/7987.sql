@@ -5,8 +5,8 @@ VALUES (0x77987001,  1154, 0x79870017, 49.31139, 144.3677, 35.63493, -0.6691307,
 /* @teleloc 0x79870017 [49.311390 144.367700 35.634930] -0.669131 0.000000 0.000000 -0.743145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77987001, 0x77987002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x77987001, 0x77987003, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x77987001, 0x77987002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x77987001, 0x77987003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77987002,  8428, 0x79870017, 49.31139, 144.3677, 35.63493, -0.6691307, 0, 0, -0.7431448,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */

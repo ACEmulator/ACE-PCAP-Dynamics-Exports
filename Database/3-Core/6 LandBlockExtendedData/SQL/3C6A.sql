@@ -5,15 +5,15 @@ VALUES (0x73C6A001,  1154, 0x3C6A0002, 21.28126, 25.61969, 57.74088, -0.1682657,
 /* @teleloc 0x3C6A0002 [21.281260 25.619690 57.740880] -0.168266 0.000000 0.000000 -0.985742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C6A001, 0x73C6A002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73C6A001, 0x73C6A003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73C6A001, 0x73C6A004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C6A001, 0x73C6A005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C6A001, 0x73C6A006, '2019-02-10 00:00:00') /* Dire Champion Golem */
-     , (0x73C6A001, 0x73C6A007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73C6A001, 0x73C6A008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73C6A001, 0x73C6A009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73C6A001, 0x73C6A00A, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x73C6A001, 0x73C6A002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73C6A001, 0x73C6A003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73C6A001, 0x73C6A004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C6A001, 0x73C6A005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C6A001, 0x73C6A006, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */
+     , (0x73C6A001, 0x73C6A007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73C6A001, 0x73C6A008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73C6A001, 0x73C6A009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73C6A001, 0x73C6A00A, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C6A002, 10807, 0x3C6A0002, 21.28126, 25.61969, 57.74088, -0.1682657, 0, 0, -0.9857417,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

@@ -5,12 +5,12 @@ VALUES (0x7CCDA001,  1154, 0xCCDA003B, 171.5844, 60.98613, -0.003899395, 0.27676
 /* @teleloc 0xCCDA003B [171.584400 60.986130 -0.003899] 0.276769 0.000000 0.000000 -0.960936 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCDA001, 0x7CCDA002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CCDA001, 0x7CCDA003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCDA001, 0x7CCDA004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7CCDA001, 0x7CCDA005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CCDA001, 0x7CCDA006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7CCDA001, 0x7CCDA007, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x7CCDA001, 0x7CCDA002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CCDA001, 0x7CCDA003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCDA001, 0x7CCDA004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7CCDA001, 0x7CCDA005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CCDA001, 0x7CCDA006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7CCDA001, 0x7CCDA007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCDA002, 24959, 0xCCDA003B, 171.5844, 60.98613, -0.003899395, 0.2767694, 0, 0, -0.9609364,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -41,8 +41,8 @@ VALUES (0x7CCDA008,  1542, 0xCCDA001C, 90.07458, 74.67741, 0.2706671, -0.4989076
 /* @teleloc 0xCCDA001C [90.074580 74.677410 0.270667] -0.498908 0.000000 0.000000 -0.866655 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCDA008, 0x7CCDA009, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x7CCDA008, 0x7CCDA00A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CCDA008, 0x7CCDA009, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x7CCDA008, 0x7CCDA00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCDA009, 11555, 0xCCDA001C, 90.07458, 74.67741, 0.2706671, -0.4989076, 0, 0, -0.8666552,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

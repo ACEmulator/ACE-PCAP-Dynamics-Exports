@@ -5,22 +5,22 @@ VALUES (0x78E54001,  1154, 0x8E540010, 43.73544, 176.2585, 20.85268, -0.9808784,
 /* @teleloc 0x8E540010 [43.735440 176.258500 20.852680] -0.980878 0.000000 0.000000 -0.194621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E54001, 0x78E54002, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x78E54001, 0x78E54003, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78E54001, 0x78E54004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78E54001, 0x78E54005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78E54001, 0x78E54006, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x78E54001, 0x78E54007, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x78E54001, 0x78E54008, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x78E54001, 0x78E54009, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x78E54001, 0x78E5400A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x78E54001, 0x78E5400B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78E54001, 0x78E5400C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78E54001, 0x78E5400D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x78E54001, 0x78E5400E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x78E54001, 0x78E5400F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x78E54001, 0x78E54010, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78E54001, 0x78E54011, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x78E54001, 0x78E54002, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78E54001, 0x78E54003, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78E54001, 0x78E54004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78E54001, 0x78E54005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78E54001, 0x78E54006, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x78E54001, 0x78E54007, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x78E54001, 0x78E54008, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x78E54001, 0x78E54009, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x78E54001, 0x78E5400A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x78E54001, 0x78E5400B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78E54001, 0x78E5400C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78E54001, 0x78E5400D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x78E54001, 0x78E5400E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x78E54001, 0x78E5400F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x78E54001, 0x78E54010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78E54001, 0x78E54011, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E54002,  1764, 0x8E540010, 43.73544, 176.2585, 20.85268, -0.9808784, 0, 0, -0.1946214,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */
@@ -91,9 +91,9 @@ VALUES (0x78E54012,  1542, 0x8E540003, 23.39952, 58.77984, 12.79824, 1, 0, 0, 0,
 /* @teleloc 0x8E540003 [23.399520 58.779840 12.798240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E54012, 0x78E54013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78E54012, 0x78E54014, '2019-02-10 00:00:00') /* Renegade Chest */
-     , (0x78E54012, 0x78E54015, '2019-02-10 00:00:00') /* Campfire */;
+VALUES (0x78E54012, 0x78E54013, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x78E54012, 0x78E54014, '2019-02-10 00:00:00') /* Renegade Chest (27655) */
+     , (0x78E54012, 0x78E54015, '2019-02-10 00:00:00') /* Campfire (4128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E54013, 22572, 0x8E540003, 23.39952, 58.77984, 12.79824, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

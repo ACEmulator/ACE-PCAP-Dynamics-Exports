@@ -5,12 +5,12 @@ VALUES (0x72C2B001,  1154, 0x2C2B0027, 105.9043, 146.7889, 67.41705, -0.9574024,
 /* @teleloc 0x2C2B0027 [105.904300 146.788900 67.417050] -0.957402 0.000000 0.000000 -0.288757 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C2B001, 0x72C2B002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72C2B001, 0x72C2B003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72C2B001, 0x72C2B004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72C2B001, 0x72C2B005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72C2B001, 0x72C2B006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72C2B001, 0x72C2B007, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x72C2B001, 0x72C2B002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72C2B001, 0x72C2B003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72C2B001, 0x72C2B004, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72C2B001, 0x72C2B005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72C2B001, 0x72C2B006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72C2B001, 0x72C2B007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C2B002,  7098, 0x2C2B0027, 105.9043, 146.7889, 67.41705, -0.9574024, 0, 0, -0.2887571,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

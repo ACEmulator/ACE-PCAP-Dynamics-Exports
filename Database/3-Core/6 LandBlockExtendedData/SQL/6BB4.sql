@@ -5,11 +5,11 @@ VALUES (0x76BB4001,  1154, 0x6BB40032, 167.6178, 28.88021, 78.38171, 0.7071068, 
 /* @teleloc 0x6BB40032 [167.617800 28.880210 78.381710] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BB4001, 0x76BB4002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x76BB4001, 0x76BB4003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x76BB4001, 0x76BB4004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76BB4001, 0x76BB4005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76BB4001, 0x76BB4006, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x76BB4001, 0x76BB4002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x76BB4001, 0x76BB4003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x76BB4001, 0x76BB4004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76BB4001, 0x76BB4005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76BB4001, 0x76BB4006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BB4002,  7345, 0x6BB40032, 167.6178, 28.88021, 78.38171, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

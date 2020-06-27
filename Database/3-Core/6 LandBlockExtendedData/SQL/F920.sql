@@ -5,20 +5,20 @@ VALUES (0x7F920001,  1154, 0xF9200009, 34.16922, 3.465178, 35.13028, 0.9238795, 
 /* @teleloc 0xF9200009 [34.169220 3.465178 35.130280] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F920001, 0x7F920002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F920001, 0x7F920003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F920001, 0x7F920004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F920001, 0x7F920005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F920001, 0x7F920006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F920001, 0x7F920007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F920001, 0x7F920008, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F920001, 0x7F920009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F920001, 0x7F92000A, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F920001, 0x7F92000B, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F920001, 0x7F92000C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F920001, 0x7F92000D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F920001, 0x7F92000E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F920001, 0x7F92000F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7F920001, 0x7F920002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F920001, 0x7F920003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F920001, 0x7F920004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F920001, 0x7F920005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F920001, 0x7F920006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F920001, 0x7F920007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F920001, 0x7F920008, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F920001, 0x7F920009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F920001, 0x7F92000A, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F920001, 0x7F92000B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F920001, 0x7F92000C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F920001, 0x7F92000D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F920001, 0x7F92000E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F920001, 0x7F92000F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F920002,  7111, 0xF9200009, 34.16922, 3.465178, 35.13028, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -81,7 +81,7 @@ VALUES (0x7F920010,  1542, 0xF9200034, 151.3046, 89.26663, 18.1, 0.9990482, 0, 0
 /* @teleloc 0xF9200034 [151.304600 89.266630 18.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F920010, 0x7F920011, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7F920010, 0x7F920011, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F920011,  6117, 0xF9200034, 151.3046, 89.26663, 18.1, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

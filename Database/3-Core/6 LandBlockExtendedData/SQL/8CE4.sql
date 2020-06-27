@@ -5,18 +5,18 @@ VALUES (0x78CE4001,  1154, 0x8CE40029, 125.8673, 4.33146, 57.1501, -0.9541386, 0
 /* @teleloc 0x8CE40029 [125.867300 4.331460 57.150100] -0.954139 0.000000 0.000000 -0.299365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CE4001, 0x78CE4002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CE4001, 0x78CE4003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CE4001, 0x78CE4004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CE4001, 0x78CE4005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CE4001, 0x78CE4006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CE4001, 0x78CE4007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CE4001, 0x78CE4008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CE4001, 0x78CE4009, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78CE4001, 0x78CE400A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CE4001, 0x78CE400B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CE4001, 0x78CE400C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CE4001, 0x78CE400D, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x78CE4001, 0x78CE4002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CE4001, 0x78CE4003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CE4001, 0x78CE4004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CE4001, 0x78CE4005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CE4001, 0x78CE4006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CE4001, 0x78CE4007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CE4001, 0x78CE4008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CE4001, 0x78CE4009, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78CE4001, 0x78CE400A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CE4001, 0x78CE400B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CE4001, 0x78CE400C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CE4001, 0x78CE400D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CE4002, 28551, 0x8CE40029, 125.8673, 4.33146, 57.1501, -0.9541386, 0, 0, -0.2993652,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -71,7 +71,7 @@ VALUES (0x78CE400E,  1542, 0x8CE40006, 1.189561, 137.4394, 41.09344, 0.9990482, 
 /* @teleloc 0x8CE40006 [1.189561 137.439400 41.093440] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CE400E, 0x78CE400F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78CE400E, 0x78CE400F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CE400F,  4179, 0x8CE40006, 1.189561, 137.4394, 41.09344, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

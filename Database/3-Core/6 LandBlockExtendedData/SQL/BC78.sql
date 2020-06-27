@@ -5,21 +5,21 @@ VALUES (0x7BC78001,  1154, 0xBC780023, 97.12777, 67.6032, 40.92409, 1, 0, 0, 0, 
 /* @teleloc 0xBC780023 [97.127770 67.603200 40.924090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC78001, 0x7BC78002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC78001, 0x7BC78003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BC78001, 0x7BC78004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BC78001, 0x7BC78005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BC78001, 0x7BC78006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC78001, 0x7BC78007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC78008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC78009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC7800A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC7800B, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BC78001, 0x7BC7800C, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BC78001, 0x7BC7800D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC7800E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC7800F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC78001, 0x7BC78010, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BC78001, 0x7BC78002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC78001, 0x7BC78003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BC78001, 0x7BC78004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BC78001, 0x7BC78005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BC78001, 0x7BC78006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC78001, 0x7BC78007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC78008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC78009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC7800A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC7800B, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BC78001, 0x7BC7800C, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BC78001, 0x7BC7800D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC7800E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC7800F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC78001, 0x7BC78010, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC78002,   193, 0xBC780023, 97.12777, 67.6032, 40.92409, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -86,7 +86,7 @@ VALUES (0x7BC78011,  1542, 0xBC780023, 99.57853, 66.2941, 41.54741, 1, 0, 0, 0, 
 /* @teleloc 0xBC780023 [99.578530 66.294100 41.547410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC78011, 0x7BC78012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BC78011, 0x7BC78012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC78012,  4179, 0xBC780023, 99.57853, 66.2941, 41.54741, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

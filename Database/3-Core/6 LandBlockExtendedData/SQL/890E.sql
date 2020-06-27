@@ -5,17 +5,17 @@ VALUES (0x7890E001,  1154, 0x890E0003, 5.664166, 50.93037, 0.002499998, -0.95071
 /* @teleloc 0x890E0003 [5.664166 50.930370 0.002500] -0.950714 0.000000 0.000000 -0.310070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7890E001, 0x7890E002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7890E001, 0x7890E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7890E001, 0x7890E004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7890E001, 0x7890E005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7890E001, 0x7890E006, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7890E001, 0x7890E007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7890E001, 0x7890E008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7890E001, 0x7890E009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7890E001, 0x7890E00A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7890E001, 0x7890E00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7890E001, 0x7890E00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7890E001, 0x7890E002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7890E001, 0x7890E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7890E001, 0x7890E004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7890E001, 0x7890E005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7890E001, 0x7890E006, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7890E001, 0x7890E007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7890E001, 0x7890E008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7890E001, 0x7890E009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7890E001, 0x7890E00A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7890E001, 0x7890E00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7890E001, 0x7890E00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7890E002,  7121, 0x890E0003, 5.664166, 50.93037, 0.002499998, -0.9507139, 0, 0, -0.3100697,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -66,7 +66,7 @@ VALUES (0x7890E00D,  1542, 0x890E0004, 2.192954, 74.58109, 2.010208, -0.9507139,
 /* @teleloc 0x890E0004 [2.192954 74.581090 2.010208] -0.950714 0.000000 0.000000 -0.310070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7890E00D, 0x7890E00E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7890E00D, 0x7890E00E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7890E00E,  8644, 0x890E0004, 2.192954, 74.58109, 2.010208, -0.9507139, 0, 0, -0.3100697,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

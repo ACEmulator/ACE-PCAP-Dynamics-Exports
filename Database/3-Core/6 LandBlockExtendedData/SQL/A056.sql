@@ -5,15 +5,15 @@ VALUES (0x7A056001,  1154, 0xA0560021, 96.71225, 4.584238, 74.33917, -0.9801456,
 /* @teleloc 0xA0560021 [96.712250 4.584238 74.339170] -0.980146 0.000000 0.000000 -0.198279 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A056001, 0x7A056002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A056001, 0x7A056003, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7A056001, 0x7A056004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A056001, 0x7A056005, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A056001, 0x7A056006, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7A056001, 0x7A056007, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7A056001, 0x7A056008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A056001, 0x7A056009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A056001, 0x7A05600A, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x7A056001, 0x7A056002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A056001, 0x7A056003, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7A056001, 0x7A056004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A056001, 0x7A056005, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A056001, 0x7A056006, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A056001, 0x7A056007, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A056001, 0x7A056008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A056001, 0x7A056009, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A056001, 0x7A05600A, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A056002, 38179, 0xA0560021, 96.71225, 4.584238, 74.33917, -0.9801456, 0, 0, -0.1982793,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

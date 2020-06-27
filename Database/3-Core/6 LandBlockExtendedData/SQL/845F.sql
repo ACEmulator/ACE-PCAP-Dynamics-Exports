@@ -5,11 +5,11 @@ VALUES (0x7845F001,  1154, 0x845F001A, 89.51623, 31.33304, 11.38141, -0.9138182,
 /* @teleloc 0x845F001A [89.516230 31.333040 11.381410] -0.913818 0.000000 0.000000 -0.406123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7845F001, 0x7845F002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7845F001, 0x7845F003, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7845F001, 0x7845F004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7845F001, 0x7845F005, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7845F001, 0x7845F006, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7845F001, 0x7845F002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7845F001, 0x7845F003, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7845F001, 0x7845F004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7845F001, 0x7845F005, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7845F001, 0x7845F006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7845F002,  2612, 0x845F001A, 89.51623, 31.33304, 11.38141, -0.9138182, 0, 0, -0.4061234,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

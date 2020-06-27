@@ -5,16 +5,16 @@ VALUES (0x72187001,  1154, 0x21870028, 99.20958, 188.2854, 155.2026, 0.3406996, 
 /* @teleloc 0x21870028 [99.209580 188.285400 155.202600] 0.340700 0.000000 0.000000 -0.940172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72187001, 0x72187002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72187001, 0x72187003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72187001, 0x72187004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72187001, 0x72187005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72187001, 0x72187006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72187001, 0x72187007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72187001, 0x72187008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72187001, 0x72187009, '2019-02-10 00:00:00') /* Dire Champion Golem */
-     , (0x72187001, 0x7218700A, '2019-02-10 00:00:00') /* Hyem */
-     , (0x72187001, 0x7218700B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x72187001, 0x72187002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72187001, 0x72187003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72187001, 0x72187004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72187001, 0x72187005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72187001, 0x72187006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72187001, 0x72187007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72187001, 0x72187008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72187001, 0x72187009, '2019-02-10 00:00:00') /* Dire Champion Golem (36831) */
+     , (0x72187001, 0x7218700A, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x72187001, 0x7218700B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72187002, 21550, 0x21870028, 99.20958, 188.2854, 155.2026, 0.3406996, 0, 0, -0.9401722,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -61,8 +61,8 @@ VALUES (0x7218700C,  1542, 0x2187002E, 133.2548, 138.7073, 184.2812, 0.9747031, 
 /* @teleloc 0x2187002E [133.254800 138.707300 184.281200] 0.974703 0.000000 0.000000 -0.223504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7218700C, 0x7218700D, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7218700C, 0x7218700E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7218700C, 0x7218700D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7218700C, 0x7218700E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7218700D,  8648, 0x2187002E, 133.2548, 138.7073, 184.2812, 0.9747031, 0, 0, -0.2235039,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

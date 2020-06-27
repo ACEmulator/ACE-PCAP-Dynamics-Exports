@@ -5,13 +5,13 @@ VALUES (0x74334001,  1154, 0x43340032, 163.7994, 44.04771, 7.514621, -0.9193872,
 /* @teleloc 0x43340032 [163.799400 44.047710 7.514621] -0.919387 0.000000 0.000000 -0.393354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74334001, 0x74334002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74334001, 0x74334003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74334001, 0x74334004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74334001, 0x74334005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74334001, 0x74334006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74334001, 0x74334007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74334001, 0x74334008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74334001, 0x74334002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74334001, 0x74334003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74334001, 0x74334004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74334001, 0x74334005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74334001, 0x74334006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74334001, 0x74334007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74334001, 0x74334008, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74334002,  7982, 0x43340032, 163.7994, 44.04771, 7.514621, -0.9193872, 0, 0, -0.3933537,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

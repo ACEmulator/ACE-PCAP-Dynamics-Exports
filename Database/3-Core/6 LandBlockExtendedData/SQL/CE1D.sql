@@ -5,12 +5,12 @@ VALUES (0x7CE1D001,  1154, 0xCE1D0006, 11.21771, 135.742, 87.64066, -0.9752452, 
 /* @teleloc 0xCE1D0006 [11.217710 135.742000 87.640660] -0.975245 0.000000 0.000000 -0.221126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE1D001, 0x7CE1D002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CE1D001, 0x7CE1D003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CE1D001, 0x7CE1D004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CE1D001, 0x7CE1D005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CE1D001, 0x7CE1D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CE1D001, 0x7CE1D007, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7CE1D001, 0x7CE1D002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CE1D001, 0x7CE1D003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CE1D001, 0x7CE1D004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CE1D001, 0x7CE1D005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CE1D001, 0x7CE1D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CE1D001, 0x7CE1D007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE1D002,  4217, 0xCE1D0006, 11.21771, 135.742, 87.64066, -0.9752452, 0, 0, -0.2211263,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

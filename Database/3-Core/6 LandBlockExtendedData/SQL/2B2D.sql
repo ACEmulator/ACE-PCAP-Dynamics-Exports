@@ -5,19 +5,19 @@ VALUES (0x72B2D001,  1154, 0x2B2D0018, 57.5358, 169.1551, 73.71456, -0.965503, 0
 /* @teleloc 0x2B2D0018 [57.535800 169.155100 73.714560] -0.965503 0.000000 0.000000 -0.260392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B2D001, 0x72B2D002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72B2D001, 0x72B2D003, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72B2D001, 0x72B2D004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72B2D001, 0x72B2D005, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72B2D001, 0x72B2D006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72B2D001, 0x72B2D007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72B2D001, 0x72B2D008, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72B2D001, 0x72B2D009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72B2D001, 0x72B2D00A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72B2D001, 0x72B2D00B, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72B2D001, 0x72B2D00C, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72B2D001, 0x72B2D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B2D001, 0x72B2D00E, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72B2D001, 0x72B2D002, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72B2D001, 0x72B2D003, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72B2D001, 0x72B2D004, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72B2D001, 0x72B2D005, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72B2D001, 0x72B2D006, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72B2D001, 0x72B2D007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72B2D001, 0x72B2D008, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72B2D001, 0x72B2D009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72B2D001, 0x72B2D00A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72B2D001, 0x72B2D00B, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72B2D001, 0x72B2D00C, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72B2D001, 0x72B2D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72B2D001, 0x72B2D00E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B2D002, 36861, 0x2B2D0018, 57.5358, 169.1551, 73.71456, -0.965503, 0, 0, -0.260392,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

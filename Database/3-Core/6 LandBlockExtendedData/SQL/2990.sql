@@ -5,17 +5,17 @@ VALUES (0x72990001,  1154, 0x2990000A, 31.16013, 24.478, 30.0075, 0.02221159, 0,
 /* @teleloc 0x2990000A [31.160130 24.478000 30.007500] 0.022212 0.000000 0.000000 -0.999753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72990001, 0x72990002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72990001, 0x72990003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72990001, 0x72990004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72990001, 0x72990005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72990001, 0x72990006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72990001, 0x72990007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72990001, 0x72990008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72990001, 0x72990009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72990001, 0x7299000A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72990001, 0x7299000B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72990001, 0x7299000C, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x72990001, 0x72990002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72990001, 0x72990003, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72990001, 0x72990004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72990001, 0x72990005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72990001, 0x72990006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72990001, 0x72990007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72990001, 0x72990008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72990001, 0x72990009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72990001, 0x7299000A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72990001, 0x7299000B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72990001, 0x7299000C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72990002, 41534, 0x2990000A, 31.16013, 24.478, 30.0075, 0.02221159, 0, 0, -0.9997533,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
@@ -66,8 +66,8 @@ VALUES (0x7299000D,  1542, 0x2990001D, 82.39695, 99.58374, 29.99784, 1, 0, 0, 0,
 /* @teleloc 0x2990001D [82.396950 99.583740 29.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7299000D, 0x7299000E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7299000D, 0x7299000F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7299000D, 0x7299000E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7299000D, 0x7299000F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7299000E, 31445, 0x2990001D, 82.39695, 99.58374, 29.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

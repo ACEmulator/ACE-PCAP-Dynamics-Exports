@@ -5,14 +5,14 @@ VALUES (0x78CE7001,  1154, 0x8CE7002E, 121.2406, 139.6926, 20.52146, 0.6268132, 
 /* @teleloc 0x8CE7002E [121.240600 139.692600 20.521460] 0.626813 0.000000 0.000000 -0.779170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CE7001, 0x78CE7002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CE7001, 0x78CE7003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CE7001, 0x78CE7004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CE7001, 0x78CE7005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CE7001, 0x78CE7006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CE7001, 0x78CE7007, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x78CE7001, 0x78CE7008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CE7001, 0x78CE7009, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x78CE7001, 0x78CE7002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CE7001, 0x78CE7003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CE7001, 0x78CE7004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CE7001, 0x78CE7005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CE7001, 0x78CE7006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CE7001, 0x78CE7007, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x78CE7001, 0x78CE7008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CE7001, 0x78CE7009, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CE7002,  1610, 0x8CE7002E, 121.2406, 139.6926, 20.52146, 0.6268132, 0, 0, -0.7791696,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

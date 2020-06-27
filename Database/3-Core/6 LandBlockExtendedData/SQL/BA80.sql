@@ -5,23 +5,23 @@ VALUES (0x7BA80001,  1154, 0xBA80002C, 136.457, 82.28932, 32.11146, -0.394658, 0
 /* @teleloc 0xBA80002C [136.457000 82.289320 32.111460] -0.394658 0.000000 0.000000 -0.918828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA80001, 0x7BA80002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA80001, 0x7BA80003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA80001, 0x7BA80004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BA80001, 0x7BA80005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BA80001, 0x7BA80006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA80001, 0x7BA80007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA80001, 0x7BA80008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BA80001, 0x7BA80009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BA80001, 0x7BA8000A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BA80001, 0x7BA8000B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BA80001, 0x7BA8000C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BA80001, 0x7BA8000D, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA80001, 0x7BA8000E, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BA80001, 0x7BA8000F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BA80001, 0x7BA80010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA80001, 0x7BA80011, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BA80001, 0x7BA80012, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7BA80001, 0x7BA80002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA80001, 0x7BA80003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA80001, 0x7BA80004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BA80001, 0x7BA80005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BA80001, 0x7BA80006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA80001, 0x7BA80007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA80001, 0x7BA80008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BA80001, 0x7BA80009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BA80001, 0x7BA8000A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BA80001, 0x7BA8000B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BA80001, 0x7BA8000C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BA80001, 0x7BA8000D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA80001, 0x7BA8000E, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BA80001, 0x7BA8000F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BA80001, 0x7BA80010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA80001, 0x7BA80011, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BA80001, 0x7BA80012, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA80002,  2566, 0xBA80002C, 136.457, 82.28932, 32.11146, -0.394658, 0, 0, -0.9188281,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -96,7 +96,7 @@ VALUES (0x7BA80013,  1542, 0xBA80000F, 25.62966, 165.8679, 36.06525, 1, 0, 0, 0,
 /* @teleloc 0xBA80000F [25.629660 165.867900 36.065250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA80013, 0x7BA80014, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7BA80013, 0x7BA80014, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA80014,   265, 0xBA80000F, 25.62966, 165.8679, 36.06525, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

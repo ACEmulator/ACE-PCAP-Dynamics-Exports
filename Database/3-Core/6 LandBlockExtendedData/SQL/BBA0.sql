@@ -5,17 +5,17 @@ VALUES (0x7BBA0001,  1154, 0xBBA0002F, 138.4115, 162.7988, 1.118509, 0.702189, 0
 /* @teleloc 0xBBA0002F [138.411500 162.798800 1.118509] 0.702189 0.000000 0.000000 -0.711991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA0001, 0x7BBA0002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BBA0001, 0x7BBA0003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BBA0001, 0x7BBA0004, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BBA0001, 0x7BBA0005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BBA0001, 0x7BBA0006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BBA0001, 0x7BBA0007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BBA0001, 0x7BBA0008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BBA0001, 0x7BBA0009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BBA0001, 0x7BBA000A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BBA0001, 0x7BBA000B, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BBA0001, 0x7BBA000C, '2019-02-10 00:00:00') /* Shallows Shark */;
+VALUES (0x7BBA0001, 0x7BBA0002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BBA0001, 0x7BBA0003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BBA0001, 0x7BBA0004, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BBA0001, 0x7BBA0005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BBA0001, 0x7BBA0006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BBA0001, 0x7BBA0007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BBA0001, 0x7BBA0008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BBA0001, 0x7BBA0009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BBA0001, 0x7BBA000A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BBA0001, 0x7BBA000B, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BBA0001, 0x7BBA000C, '2019-02-10 00:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA0002,   192, 0xBBA0002F, 138.4115, 162.7988, 1.118509, 0.702189, 0, 0, -0.7119906,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

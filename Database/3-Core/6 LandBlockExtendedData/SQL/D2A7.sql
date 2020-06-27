@@ -5,24 +5,24 @@ VALUES (0x7D2A7001,  1154, 0xD2A70025, 106.8421, 118.5647, 17.32741, 0.1736482, 
 /* @teleloc 0xD2A70025 [106.842100 118.564700 17.327410] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2A7001, 0x7D2A7002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A7003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A7004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D2A7001, 0x7D2A7005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D2A7001, 0x7D2A7006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A7007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D2A7001, 0x7D2A7008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7D2A7001, 0x7D2A7009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D2A7001, 0x7D2A700A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D2A7001, 0x7D2A700B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D2A7001, 0x7D2A700C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D2A7001, 0x7D2A700D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7D2A7001, 0x7D2A700E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A700F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A7010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D2A7001, 0x7D2A7011, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7D2A7001, 0x7D2A7012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A7001, 0x7D2A7013, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7D2A7001, 0x7D2A7002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A7003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A7004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D2A7001, 0x7D2A7005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D2A7001, 0x7D2A7006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A7007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D2A7001, 0x7D2A7008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7D2A7001, 0x7D2A7009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D2A7001, 0x7D2A700A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D2A7001, 0x7D2A700B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D2A7001, 0x7D2A700C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D2A7001, 0x7D2A700D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7D2A7001, 0x7D2A700E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A700F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A7010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D2A7001, 0x7D2A7011, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7D2A7001, 0x7D2A7012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A7001, 0x7D2A7013, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2A7002,   195, 0xD2A70025, 106.8421, 118.5647, 17.32741, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -101,13 +101,13 @@ VALUES (0x7D2A7014,  1542, 0xD2A70025, 119.5323, 116.7395, 13.79226, 0.7660445, 
 /* @teleloc 0xD2A70025 [119.532300 116.739500 13.792260] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2A7014, 0x7D2A7015, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7D2A7014, 0x7D2A7016, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7D2A7014, 0x7D2A7017, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7D2A7014, 0x7D2A7018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D2A7014, 0x7D2A7019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D2A7014, 0x7D2A701A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D2A7014, 0x7D2A701B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D2A7014, 0x7D2A7015, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7D2A7014, 0x7D2A7016, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7D2A7014, 0x7D2A7017, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x7D2A7014, 0x7D2A7018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D2A7014, 0x7D2A7019, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7D2A7014, 0x7D2A701A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D2A7014, 0x7D2A701B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2A7015,   621, 0xD2A70025, 119.5323, 116.7395, 13.79226, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Heavy Bracelet */

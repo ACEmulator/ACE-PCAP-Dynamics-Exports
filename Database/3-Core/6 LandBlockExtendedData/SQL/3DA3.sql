@@ -5,9 +5,9 @@ VALUES (0x73DA3001,  1154, 0x3DA30016, 56.19395, 130.3644, 0.6888296, 0.3324687,
 /* @teleloc 0x3DA30016 [56.193950 130.364400 0.688830] 0.332469 0.000000 0.000000 -0.943114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DA3001, 0x73DA3002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73DA3001, 0x73DA3003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73DA3001, 0x73DA3004, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x73DA3001, 0x73DA3002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73DA3001, 0x73DA3003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73DA3001, 0x73DA3004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DA3002,   227, 0x3DA30016, 56.19395, 130.3644, 0.6888296, 0.3324687, 0, 0, -0.9431143,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

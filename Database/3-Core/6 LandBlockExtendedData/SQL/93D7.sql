@@ -5,29 +5,29 @@ VALUES (0x793D7001,  1154, 0x93D70040, 175.7014, 181.8602, 169.4427, -0.7919452,
 /* @teleloc 0x93D70040 [175.701400 181.860200 169.442700] -0.791945 0.000000 0.000000 -0.610592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793D7001, 0x793D7002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x793D7001, 0x793D7003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x793D7001, 0x793D7004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793D7001, 0x793D7005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x793D7001, 0x793D7006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x793D7001, 0x793D7007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793D7001, 0x793D7008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x793D7001, 0x793D7009, '2019-02-10 00:00:00') /* Frost */
-     , (0x793D7001, 0x793D700A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x793D7001, 0x793D700B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x793D7001, 0x793D700C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x793D7001, 0x793D700D, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x793D7001, 0x793D700E, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x793D7001, 0x793D700F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x793D7001, 0x793D7010, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x793D7001, 0x793D7011, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x793D7001, 0x793D7012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x793D7001, 0x793D7013, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D7001, 0x793D7014, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D7001, 0x793D7015, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D7001, 0x793D7016, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D7001, 0x793D7017, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x793D7001, 0x793D7018, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x793D7001, 0x793D7002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x793D7001, 0x793D7003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x793D7001, 0x793D7004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793D7001, 0x793D7005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x793D7001, 0x793D7006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x793D7001, 0x793D7007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793D7001, 0x793D7008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x793D7001, 0x793D7009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x793D7001, 0x793D700A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x793D7001, 0x793D700B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x793D7001, 0x793D700C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x793D7001, 0x793D700D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x793D7001, 0x793D700E, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x793D7001, 0x793D700F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x793D7001, 0x793D7010, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x793D7001, 0x793D7011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x793D7001, 0x793D7012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x793D7001, 0x793D7013, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D7001, 0x793D7014, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D7001, 0x793D7015, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D7001, 0x793D7016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D7001, 0x793D7017, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x793D7001, 0x793D7018, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793D7002, 22519, 0x93D70040, 175.7014, 181.8602, 169.4427, -0.7919452, 0, 0, -0.6105921,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -126,8 +126,8 @@ VALUES (0x793D7019,  1542, 0x93D70006, 10.24769, 121.6141, 180, 1, 0, 0, 0, Fals
 /* @teleloc 0x93D70006 [10.247690 121.614100 180.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793D7019, 0x793D701A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x793D7019, 0x793D701B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x793D7019, 0x793D701A, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x793D7019, 0x793D701B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793D701A, 22571, 0x93D70006, 10.24769, 121.6141, 180, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

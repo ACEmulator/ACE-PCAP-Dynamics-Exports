@@ -5,23 +5,23 @@ VALUES (0x7AE61001,  1154, 0xAE610040, 173.4059, 171.4428, 42.01, -0.1147823, 0,
 /* @teleloc 0xAE610040 [173.405900 171.442800 42.010000] -0.114782 0.000000 0.000000 -0.993391 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE61001, 0x7AE61002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AE61001, 0x7AE61003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE61001, 0x7AE61004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE61001, 0x7AE61005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AE61001, 0x7AE61006, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AE61001, 0x7AE61007, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7AE61001, 0x7AE61008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AE61001, 0x7AE61009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AE61001, 0x7AE6100A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AE61001, 0x7AE6100B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AE61001, 0x7AE6100C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE61001, 0x7AE6100D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AE61001, 0x7AE6100E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE61001, 0x7AE6100F, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7AE61001, 0x7AE61010, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AE61001, 0x7AE61011, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AE61001, 0x7AE61012, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7AE61001, 0x7AE61002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AE61001, 0x7AE61003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE61001, 0x7AE61004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE61001, 0x7AE61005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AE61001, 0x7AE61006, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AE61001, 0x7AE61007, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7AE61001, 0x7AE61008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AE61001, 0x7AE61009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AE61001, 0x7AE6100A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AE61001, 0x7AE6100B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AE61001, 0x7AE6100C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE61001, 0x7AE6100D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AE61001, 0x7AE6100E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE61001, 0x7AE6100F, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7AE61001, 0x7AE61010, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AE61001, 0x7AE61011, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AE61001, 0x7AE61012, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE61002,   206, 0xAE610040, 173.4059, 171.4428, 42.01, -0.1147823, 0, 0, -0.9933907,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
@@ -96,7 +96,7 @@ VALUES (0x7AE61013,  1542, 0xAE610031, 165.9088, 7.827794, 42.51752, 1, 0, 0, 0,
 /* @teleloc 0xAE610031 [165.908800 7.827794 42.517520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE61013, 0x7AE61014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AE61013, 0x7AE61014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE61014,  4380, 0xAE610031, 165.9088, 7.827794, 42.51752, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

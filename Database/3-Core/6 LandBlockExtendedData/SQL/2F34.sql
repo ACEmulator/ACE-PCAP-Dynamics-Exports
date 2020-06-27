@@ -5,27 +5,27 @@ VALUES (0x72F34001,  1154, 0x2F340010, 39.28899, 175.9878, 24.66565, 0.7554839, 
 /* @teleloc 0x2F340010 [39.288990 175.987800 24.665650] 0.755484 0.000000 0.000000 -0.655167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F34001, 0x72F34002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72F34001, 0x72F34003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72F34001, 0x72F34004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F34001, 0x72F34005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F34001, 0x72F34006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F34001, 0x72F34007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F34001, 0x72F34008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F34001, 0x72F34009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F34001, 0x72F3400A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F34001, 0x72F3400B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F34001, 0x72F3400C, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72F34001, 0x72F3400D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F34001, 0x72F3400E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F34001, 0x72F3400F, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F34001, 0x72F34010, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F34001, 0x72F34011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F34001, 0x72F34012, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F34001, 0x72F34013, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72F34001, 0x72F34014, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F34001, 0x72F34015, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F34001, 0x72F34016, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x72F34001, 0x72F34002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72F34001, 0x72F34003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72F34001, 0x72F34004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F34001, 0x72F34005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F34001, 0x72F34006, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72F34001, 0x72F34007, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72F34001, 0x72F34008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F34001, 0x72F34009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F34001, 0x72F3400A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72F34001, 0x72F3400B, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F34001, 0x72F3400C, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72F34001, 0x72F3400D, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72F34001, 0x72F3400E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F34001, 0x72F3400F, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F34001, 0x72F34010, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F34001, 0x72F34011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F34001, 0x72F34012, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F34001, 0x72F34013, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72F34001, 0x72F34014, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F34001, 0x72F34015, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F34001, 0x72F34016, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F34002, 11535, 0x2F340010, 39.28899, 175.9878, 24.66565, 0.7554839, 0, 0, -0.6551673,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -116,7 +116,7 @@ VALUES (0x72F34017,  1542, 0x2F340008, 23.56794, 170.9685, 24.28804, 1, 0, 0, 0,
 /* @teleloc 0x2F340008 [23.567940 170.968500 24.288040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F34017, 0x72F34018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F34017, 0x72F34018, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F34018, 22566, 0x2F340008, 23.56794, 170.9685, 24.28804, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

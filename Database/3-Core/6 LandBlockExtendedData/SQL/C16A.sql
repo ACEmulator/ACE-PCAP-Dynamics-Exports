@@ -5,11 +5,11 @@ VALUES (0x7C16A001,  1154, 0xC16A0022, 119.507, 27.84227, 62, 0.6976718, 0, 0, -
 /* @teleloc 0xC16A0022 [119.507000 27.842270 62.000000] 0.697672 0.000000 0.000000 -0.716418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16A001, 0x7C16A002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C16A001, 0x7C16A003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C16A001, 0x7C16A004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C16A001, 0x7C16A005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7C16A001, 0x7C16A006, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C16A001, 0x7C16A002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C16A001, 0x7C16A003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C16A001, 0x7C16A004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C16A001, 0x7C16A005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7C16A001, 0x7C16A006, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16A002,  8014, 0xC16A0022, 119.507, 27.84227, 62, 0.6976718, 0, 0, -0.7164175,  True, '2019-02-10 00:00:00'); /* Fragment */

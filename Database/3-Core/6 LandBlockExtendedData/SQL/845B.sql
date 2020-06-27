@@ -509,11 +509,11 @@ VALUES (0x7845B07F,  1542, 0x845B000C, 41.83059, 92.97594, 18.30752, 0.6787638, 
 /* @teleloc 0x845B000C [41.830590 92.975940 18.307520] 0.678764 0.000000 0.000000 0.734357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7845B07F, 0x7845B080, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7845B07F, 0x7845B081, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7845B07F, 0x7845B082, '2019-02-10 00:00:00') /* Koji's Visage */
-     , (0x7845B07F, 0x7845B083, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7845B07F, 0x7845B084, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7845B07F, 0x7845B080, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7845B07F, 0x7845B081, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7845B07F, 0x7845B082, '2019-02-10 00:00:00') /* Koji's Visage (25338) */
+     , (0x7845B07F, 0x7845B083, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7845B07F, 0x7845B084, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7845B080,  1955, 0x845B000C, 41.83059, 92.97594, 18.30752, 0.6787638, 0, 0, 0.7343566,  True, '2019-02-10 00:00:00'); /* Gateway */

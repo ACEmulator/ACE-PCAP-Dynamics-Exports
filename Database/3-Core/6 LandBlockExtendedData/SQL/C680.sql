@@ -5,12 +5,12 @@ VALUES (0x7C680001,  1154, 0xC680000C, 32.48077, 85.40205, 26.0055, 0.9643663, 0
 /* @teleloc 0xC680000C [32.480770 85.402050 26.005500] 0.964366 0.000000 0.000000 -0.264571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C680001, 0x7C680002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C680001, 0x7C680003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C680001, 0x7C680004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C680001, 0x7C680005, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C680001, 0x7C680006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C680001, 0x7C680007, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7C680001, 0x7C680002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C680001, 0x7C680003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C680001, 0x7C680004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C680001, 0x7C680005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C680001, 0x7C680006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C680001, 0x7C680007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C680002,  2439, 0xC680000C, 32.48077, 85.40205, 26.0055, 0.9643663, 0, 0, -0.2645706,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

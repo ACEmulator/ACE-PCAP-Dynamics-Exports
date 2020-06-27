@@ -5,14 +5,14 @@ VALUES (0x7DA88001,  1154, 0xDA88001B, 80.96331, 61.32582, 2.0105, 0.9238795, 0,
 /* @teleloc 0xDA88001B [80.963310 61.325820 2.010500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA88001, 0x7DA88002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DA88001, 0x7DA88003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DA88001, 0x7DA88004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7DA88001, 0x7DA88005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7DA88001, 0x7DA88006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7DA88001, 0x7DA88007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DA88001, 0x7DA88008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DA88001, 0x7DA88009, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7DA88001, 0x7DA88002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DA88001, 0x7DA88003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DA88001, 0x7DA88004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7DA88001, 0x7DA88005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7DA88001, 0x7DA88006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7DA88001, 0x7DA88007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DA88001, 0x7DA88008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DA88001, 0x7DA88009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA88002,  2564, 0xDA88001B, 80.96331, 61.32582, 2.0105, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -51,7 +51,7 @@ VALUES (0x7DA8800A,  1542, 0xDA880020, 90.73518, 177.7018, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xDA880020 [90.735180 177.701800 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA8800A, 0x7DA8800B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DA8800A, 0x7DA8800B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA8800B,  4179, 0xDA880020, 90.73518, 177.7018, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

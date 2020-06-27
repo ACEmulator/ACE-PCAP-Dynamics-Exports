@@ -5,31 +5,31 @@ VALUES (0x71A7F001,  1154, 0x1A7F0009, 32.66473, 10.34173, 145.6969, 0.7071068, 
 /* @teleloc 0x1A7F0009 [32.664730 10.341730 145.696900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A7F001, 0x71A7F002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A7F001, 0x71A7F003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71A7F001, 0x71A7F004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71A7F001, 0x71A7F005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A7F001, 0x71A7F006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71A7F001, 0x71A7F007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71A7F001, 0x71A7F008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71A7F001, 0x71A7F009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A7F001, 0x71A7F00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71A7F001, 0x71A7F00B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71A7F001, 0x71A7F00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A7F001, 0x71A7F00D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A7F001, 0x71A7F00E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A7F001, 0x71A7F00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A7F001, 0x71A7F010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A7F001, 0x71A7F011, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A7F001, 0x71A7F012, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71A7F001, 0x71A7F013, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71A7F001, 0x71A7F014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A7F001, 0x71A7F015, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71A7F001, 0x71A7F016, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71A7F001, 0x71A7F017, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A7F001, 0x71A7F018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A7F001, 0x71A7F019, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A7F001, 0x71A7F01A, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x71A7F001, 0x71A7F002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A7F001, 0x71A7F003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71A7F001, 0x71A7F004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71A7F001, 0x71A7F005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A7F001, 0x71A7F006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71A7F001, 0x71A7F007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71A7F001, 0x71A7F008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71A7F001, 0x71A7F009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A7F001, 0x71A7F00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71A7F001, 0x71A7F00B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71A7F001, 0x71A7F00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A7F001, 0x71A7F00D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A7F001, 0x71A7F00E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A7F001, 0x71A7F00F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A7F001, 0x71A7F010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A7F001, 0x71A7F011, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A7F001, 0x71A7F012, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71A7F001, 0x71A7F013, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71A7F001, 0x71A7F014, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A7F001, 0x71A7F015, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71A7F001, 0x71A7F016, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71A7F001, 0x71A7F017, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A7F001, 0x71A7F018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A7F001, 0x71A7F019, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A7F001, 0x71A7F01A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A7F002,   228, 0x1A7F0009, 32.66473, 10.34173, 145.6969, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -136,9 +136,9 @@ VALUES (0x71A7F01B,  1542, 0x1A7F003F, 189.1888, 146.6625, 79.99784, 1, 0, 0, 0,
 /* @teleloc 0x1A7F003F [189.188800 146.662500 79.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A7F01B, 0x71A7F01C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x71A7F01B, 0x71A7F01D, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x71A7F01B, 0x71A7F01E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71A7F01B, 0x71A7F01C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x71A7F01B, 0x71A7F01D, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x71A7F01B, 0x71A7F01E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A7F01C, 31445, 0x1A7F003F, 189.1888, 146.6625, 79.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

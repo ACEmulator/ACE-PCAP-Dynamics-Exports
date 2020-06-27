@@ -5,16 +5,16 @@ VALUES (0x76EBC001,  1154, 0x6EBC002E, 138.6056, 129.531, 160.5319, 0.8870109, 0
 /* @teleloc 0x6EBC002E [138.605600 129.531000 160.531900] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EBC001, 0x76EBC002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x76EBC001, 0x76EBC003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76EBC001, 0x76EBC004, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC005, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC006, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC007, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x76EBC001, 0x76EBC009, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EBC001, 0x76EBC00B, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x76EBC001, 0x76EBC002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x76EBC001, 0x76EBC003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76EBC001, 0x76EBC004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x76EBC001, 0x76EBC009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC00A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EBC001, 0x76EBC00B, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EBC002,  1756, 0x6EBC002E, 138.6056, 129.531, 160.5319, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

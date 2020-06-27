@@ -5,14 +5,14 @@ VALUES (0x7CB1D001,  1154, 0xCB1D001D, 74.75459, 96.4793, 92.16477, 0.9794163, 0
 /* @teleloc 0xCB1D001D [74.754590 96.479300 92.164770] 0.979416 0.000000 0.000000 -0.201851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB1D001, 0x7CB1D002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CB1D001, 0x7CB1D003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CB1D001, 0x7CB1D004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7CB1D001, 0x7CB1D005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CB1D001, 0x7CB1D006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CB1D001, 0x7CB1D007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CB1D001, 0x7CB1D008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7CB1D001, 0x7CB1D009, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7CB1D001, 0x7CB1D002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CB1D001, 0x7CB1D003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CB1D001, 0x7CB1D004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7CB1D001, 0x7CB1D005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CB1D001, 0x7CB1D006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CB1D001, 0x7CB1D007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CB1D001, 0x7CB1D008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7CB1D001, 0x7CB1D009, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB1D002,  1757, 0xCB1D001D, 74.75459, 96.4793, 92.16477, 0.9794163, 0, 0, -0.2018509,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

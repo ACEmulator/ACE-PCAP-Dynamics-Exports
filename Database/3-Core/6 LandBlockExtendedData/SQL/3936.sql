@@ -5,14 +5,14 @@ VALUES (0x73936001,  1154, 0x39360008, 5.829873, 184.2745, 42.12988, -0.3250126,
 /* @teleloc 0x39360008 [5.829873 184.274500 42.129880] -0.325013 0.000000 0.000000 -0.945710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73936001, 0x73936002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73936001, 0x73936003, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x73936001, 0x73936004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73936001, 0x73936005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73936001, 0x73936006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73936001, 0x73936007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73936001, 0x73936008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73936001, 0x73936009, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x73936001, 0x73936002, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73936001, 0x73936003, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73936001, 0x73936004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73936001, 0x73936005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73936001, 0x73936006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73936001, 0x73936007, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73936001, 0x73936008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73936001, 0x73936009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73936002, 24282, 0x39360008, 5.829873, 184.2745, 42.12988, -0.3250126, 0, 0, -0.9457097,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */

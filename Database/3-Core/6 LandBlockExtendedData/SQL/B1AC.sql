@@ -5,15 +5,15 @@ VALUES (0x7B1AC001,  1154, 0xB1AC001D, 73.68903, 114.947, 29.86257, 0.4226182, 0
 /* @teleloc 0xB1AC001D [73.689030 114.947000 29.862570] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1AC001, 0x7B1AC002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1AC001, 0x7B1AC003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1AC001, 0x7B1AC004, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B1AC001, 0x7B1AC005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B1AC001, 0x7B1AC006, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B1AC001, 0x7B1AC007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B1AC001, 0x7B1AC008, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B1AC001, 0x7B1AC009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B1AC001, 0x7B1AC00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7B1AC001, 0x7B1AC002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1AC001, 0x7B1AC003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1AC001, 0x7B1AC004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B1AC001, 0x7B1AC005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B1AC001, 0x7B1AC006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B1AC001, 0x7B1AC007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B1AC001, 0x7B1AC008, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B1AC001, 0x7B1AC009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B1AC001, 0x7B1AC00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1AC002,   193, 0xB1AC001D, 73.68903, 114.947, 29.86257, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

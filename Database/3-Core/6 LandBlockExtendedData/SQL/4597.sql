@@ -5,11 +5,11 @@ VALUES (0x74597001,  1154, 0x45970023, 104.897, 52.21696, -0.9089999, 0.6611091,
 /* @teleloc 0x45970023 [104.897000 52.216960 -0.909000] 0.661109 0.000000 0.000000 -0.750290 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74597001, 0x74597002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74597001, 0x74597003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x74597001, 0x74597004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74597001, 0x74597005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x74597001, 0x74597006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x74597001, 0x74597002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74597001, 0x74597003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x74597001, 0x74597004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74597001, 0x74597005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x74597001, 0x74597006, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74597002,  9252, 0x45970023, 104.897, 52.21696, -0.9089999, 0.6611091, 0, 0, -0.7502898,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

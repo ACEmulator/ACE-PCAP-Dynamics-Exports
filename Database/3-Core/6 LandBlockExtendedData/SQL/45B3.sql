@@ -5,13 +5,13 @@ VALUES (0x745B3001,  1154, 0x45B3000C, 40.01942, 85.66402, 80.08067, -4.371139E-
 /* @teleloc 0x45B3000C [40.019420 85.664020 80.080670] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B3001, 0x745B3002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x745B3001, 0x745B3003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x745B3001, 0x745B3004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x745B3001, 0x745B3005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x745B3001, 0x745B3006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x745B3001, 0x745B3007, '2019-02-10 00:00:00') /* Frost */
-     , (0x745B3001, 0x745B3008, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x745B3001, 0x745B3002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x745B3001, 0x745B3003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x745B3001, 0x745B3004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x745B3001, 0x745B3005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x745B3001, 0x745B3006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x745B3001, 0x745B3007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x745B3001, 0x745B3008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B3002, 24288, 0x45B3000C, 40.01942, 85.66402, 80.08067, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

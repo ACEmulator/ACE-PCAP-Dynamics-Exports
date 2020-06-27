@@ -5,13 +5,13 @@ VALUES (0x74228001,  1154, 0x4228000B, 26.20874, 68.12683, 38.20353, 0.7933533, 
 /* @teleloc 0x4228000B [26.208740 68.126830 38.203530] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74228001, 0x74228002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74228001, 0x74228003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74228001, 0x74228004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x74228001, 0x74228005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74228001, 0x74228006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74228001, 0x74228007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74228001, 0x74228008, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74228001, 0x74228002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74228001, 0x74228003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74228001, 0x74228004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x74228001, 0x74228005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74228001, 0x74228006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74228001, 0x74228007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74228001, 0x74228008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74228002, 36858, 0x4228000B, 26.20874, 68.12683, 38.20353, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Great Skeleton */

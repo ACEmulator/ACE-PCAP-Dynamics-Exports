@@ -5,18 +5,18 @@ VALUES (0x7CB25001,  1154, 0xCB250040, 170.0979, 184.5501, 82.62582, 0.2402151, 
 /* @teleloc 0xCB250040 [170.097900 184.550100 82.625820] 0.240215 0.000000 0.000000 -0.970720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB25001, 0x7CB25002, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CB25001, 0x7CB25003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CB25001, 0x7CB25004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CB25001, 0x7CB25005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CB25001, 0x7CB25006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7CB25001, 0x7CB25007, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CB25001, 0x7CB25008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CB25001, 0x7CB25009, '2019-02-10 00:00:00') /* Ember */
-     , (0x7CB25001, 0x7CB2500A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CB25001, 0x7CB2500B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB25001, 0x7CB2500C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB25001, 0x7CB2500D, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7CB25001, 0x7CB25002, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CB25001, 0x7CB25003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CB25001, 0x7CB25004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CB25001, 0x7CB25005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CB25001, 0x7CB25006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7CB25001, 0x7CB25007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CB25001, 0x7CB25008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CB25001, 0x7CB25009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7CB25001, 0x7CB2500A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CB25001, 0x7CB2500B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB25001, 0x7CB2500C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB25001, 0x7CB2500D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB25002, 11527, 0xCB250040, 170.0979, 184.5501, 82.62582, 0.2402151, 0, 0, -0.9707197,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */

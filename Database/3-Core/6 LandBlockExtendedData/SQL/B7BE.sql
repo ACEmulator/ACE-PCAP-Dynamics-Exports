@@ -5,17 +5,17 @@ VALUES (0x7B7BE001,  1154, 0xB7BE001A, 87.75665, 47.28716, 215.0604, 0.4464161, 
 /* @teleloc 0xB7BE001A [87.756650 47.287160 215.060400] 0.446416 0.000000 0.000000 -0.894826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7BE001, 0x7B7BE002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B7BE001, 0x7B7BE003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B7BE001, 0x7B7BE004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B7BE001, 0x7B7BE005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B7BE001, 0x7B7BE006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B7BE001, 0x7B7BE007, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B7BE001, 0x7B7BE008, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B7BE001, 0x7B7BE009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B7BE001, 0x7B7BE00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B7BE001, 0x7B7BE00B, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B7BE001, 0x7B7BE00C, '2019-02-10 00:00:00') /* K'nath Z'bog */;
+VALUES (0x7B7BE001, 0x7B7BE002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B7BE001, 0x7B7BE003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B7BE001, 0x7B7BE004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B7BE001, 0x7B7BE005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B7BE001, 0x7B7BE006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B7BE001, 0x7B7BE007, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B7BE001, 0x7B7BE008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B7BE001, 0x7B7BE009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B7BE001, 0x7B7BE00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B7BE001, 0x7B7BE00B, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B7BE001, 0x7B7BE00C, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7BE002, 28552, 0xB7BE001A, 87.75665, 47.28716, 215.0604, 0.4464161, 0, 0, -0.8948255,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -66,7 +66,7 @@ VALUES (0x7B7BE00D,  1542, 0xB7BE0015, 70.65019, 104.791, 236.3138, -0.5621237, 
 /* @teleloc 0xB7BE0015 [70.650190 104.791000 236.313800] -0.562124 0.000000 0.000000 -0.827053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7BE00D, 0x7B7BE00E, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B7BE00D, 0x7B7BE00E, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7BE00E, 42528, 0xB7BE0015, 70.65019, 104.791, 236.3138, -0.5621237, 0, 0, -0.8270531,  True, '2019-02-10 00:00:00'); /* Rock */

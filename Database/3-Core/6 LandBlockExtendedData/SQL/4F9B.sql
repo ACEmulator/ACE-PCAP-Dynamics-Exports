@@ -5,19 +5,19 @@ VALUES (0x74F9B001,  1154, 0x4F9B001E, 83.45264, 128.7771, 13.2424, 0.6322444, 0
 /* @teleloc 0x4F9B001E [83.452640 128.777100 13.242400] 0.632244 0.000000 0.000000 -0.774769 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F9B001, 0x74F9B002, '2019-02-10 00:00:00') /* Ember */
-     , (0x74F9B001, 0x74F9B003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74F9B001, 0x74F9B004, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x74F9B001, 0x74F9B005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74F9B001, 0x74F9B006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74F9B001, 0x74F9B007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x74F9B001, 0x74F9B008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74F9B001, 0x74F9B009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74F9B001, 0x74F9B00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74F9B001, 0x74F9B00B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x74F9B001, 0x74F9B00C, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x74F9B001, 0x74F9B00D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74F9B001, 0x74F9B00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x74F9B001, 0x74F9B002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x74F9B001, 0x74F9B003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74F9B001, 0x74F9B004, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x74F9B001, 0x74F9B005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74F9B001, 0x74F9B006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74F9B001, 0x74F9B007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x74F9B001, 0x74F9B008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74F9B001, 0x74F9B009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74F9B001, 0x74F9B00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74F9B001, 0x74F9B00B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x74F9B001, 0x74F9B00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x74F9B001, 0x74F9B00D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74F9B001, 0x74F9B00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F9B002,  7607, 0x4F9B001E, 83.45264, 128.7771, 13.2424, 0.6322444, 0, 0, -0.774769,  True, '2019-02-10 00:00:00'); /* Ember */

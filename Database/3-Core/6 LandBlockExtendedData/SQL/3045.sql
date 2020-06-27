@@ -5,16 +5,16 @@ VALUES (0x73045001,  1154, 0x30450038, 155.2489, 182.9601, 24.36967, 0.9238795, 
 /* @teleloc 0x30450038 [155.248900 182.960100 24.369670] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73045001, 0x73045002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73045001, 0x73045003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73045001, 0x73045004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73045001, 0x73045005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73045001, 0x73045006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73045001, 0x73045007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73045001, 0x73045008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73045001, 0x73045009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73045001, 0x7304500A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73045001, 0x7304500B, '2019-02-10 00:00:00') /* Aste Sclavus Lord */;
+VALUES (0x73045001, 0x73045002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73045001, 0x73045003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73045001, 0x73045004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73045001, 0x73045005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73045001, 0x73045006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73045001, 0x73045007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73045001, 0x73045008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73045001, 0x73045009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73045001, 0x7304500A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73045001, 0x7304500B, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73045002,  7119, 0x30450038, 155.2489, 182.9601, 24.36967, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -61,7 +61,7 @@ VALUES (0x7304500C,  1542, 0x30450040, 176.2299, 180.1751, 8.355783, 1, 0, 0, 0,
 /* @teleloc 0x30450040 [176.229900 180.175100 8.355783] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304500C, 0x7304500D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7304500C, 0x7304500D, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304500D, 31445, 0x30450040, 176.2299, 180.1751, 8.355783, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

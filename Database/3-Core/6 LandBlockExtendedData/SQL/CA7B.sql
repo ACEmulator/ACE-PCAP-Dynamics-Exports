@@ -5,12 +5,12 @@ VALUES (0x7CA7B001,  1154, 0xCA7B0018, 50.37015, 187.1524, 27.99286, 0.9986898, 
 /* @teleloc 0xCA7B0018 [50.370150 187.152400 27.992860] 0.998690 0.000000 0.000000 -0.051173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA7B001, 0x7CA7B002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CA7B001, 0x7CA7B003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CA7B001, 0x7CA7B004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CA7B001, 0x7CA7B005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CA7B001, 0x7CA7B006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CA7B001, 0x7CA7B007, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7CA7B001, 0x7CA7B002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CA7B001, 0x7CA7B003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CA7B001, 0x7CA7B004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CA7B001, 0x7CA7B005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CA7B001, 0x7CA7B006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CA7B001, 0x7CA7B007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA7B002,  7989, 0xCA7B0018, 50.37015, 187.1524, 27.99286, 0.9986898, 0, 0, -0.05117313,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

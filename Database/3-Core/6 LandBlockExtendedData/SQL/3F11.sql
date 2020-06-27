@@ -5,14 +5,14 @@ VALUES (0x73F11001,  1154, 0x3F110002, 18.17818, 33.01627, -0.4475, -0.325732, 0
 /* @teleloc 0x3F110002 [18.178180 33.016270 -0.447500] -0.325732 0.000000 0.000000 -0.945462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F11001, 0x73F11002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73F11001, 0x73F11003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F11001, 0x73F11004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73F11001, 0x73F11005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73F11001, 0x73F11006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F11001, 0x73F11007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73F11001, 0x73F11008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F11001, 0x73F11009, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73F11001, 0x73F11002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73F11001, 0x73F11003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F11001, 0x73F11004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73F11001, 0x73F11005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73F11001, 0x73F11006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F11001, 0x73F11007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73F11001, 0x73F11008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F11001, 0x73F11009, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F11002, 36855, 0x3F110002, 18.17818, 33.01627, -0.4475, -0.325732, 0, 0, -0.9454622,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

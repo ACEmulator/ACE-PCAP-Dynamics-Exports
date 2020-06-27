@@ -5,14 +5,14 @@ VALUES (0x753D6001,  1154, 0x53D6000C, 43.55304, 75.72182, 21.01912, 0.9990476, 
 /* @teleloc 0x53D6000C [43.553040 75.721820 21.019120] 0.999048 0.000000 0.000000 -0.043635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753D6001, 0x753D6002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x753D6001, 0x753D6003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x753D6001, 0x753D6004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x753D6001, 0x753D6005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x753D6001, 0x753D6006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753D6001, 0x753D6007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753D6001, 0x753D6008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x753D6001, 0x753D6009, '2019-02-10 00:00:00') /* Viamontian Warcaster */;
+VALUES (0x753D6001, 0x753D6002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x753D6001, 0x753D6003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x753D6001, 0x753D6004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x753D6001, 0x753D6005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x753D6001, 0x753D6006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753D6001, 0x753D6007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753D6001, 0x753D6008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x753D6001, 0x753D6009, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753D6002, 14520, 0x53D6000C, 43.55304, 75.72182, 21.01912, 0.9990476, 0, 0, -0.04363469,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

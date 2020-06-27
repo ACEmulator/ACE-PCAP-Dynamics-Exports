@@ -21,63 +21,63 @@ VALUES (0x701DB03A,  1154, 0x01DB01F7, 108.539, -32.9852, 0.006600022, -0.276088
 /* @teleloc 0x01DB01F7 [108.539000 -32.985200 0.006600] -0.276088 0.000000 0.000000 0.961132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701DB03A, 0x701DB03B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB03C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB03D, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB03E, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB03F, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB040, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB041, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB042, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB043, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB044, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB045, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB046, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB047, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB048, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB049, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB04A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB04B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB04C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB04D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB04E, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB04F, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB050, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB051, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB052, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB053, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB054, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB055, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB056, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB057, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB058, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB059, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB05A, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB05B, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB05C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB05D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB05E, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB05F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB060, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB061, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB062, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB063, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB064, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB065, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB066, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB067, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB068, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB069, '2019-02-10 00:00:00') /* Gragghk */
-     , (0x701DB03A, 0x701DB06A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x701DB03A, 0x701DB06B, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB06C, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB06D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB06E, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB06F, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x701DB03A, 0x701DB070, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB071, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB072, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x701DB03A, 0x701DB073, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */;
+VALUES (0x701DB03A, 0x701DB03B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB03C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB03D, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB03E, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB03F, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB040, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB041, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB042, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB043, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB044, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB045, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB046, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB047, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB048, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB049, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB04A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB04B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB04C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB04D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB04E, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB04F, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB050, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB051, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB052, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB053, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB054, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB055, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB056, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB057, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB058, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB059, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB05A, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB05B, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB05C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB05D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB05E, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB05F, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB060, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB061, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB062, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB063, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB064, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB065, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB066, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB067, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB068, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB069, '2019-02-10 00:00:00') /* Gragghk (9165) */
+     , (0x701DB03A, 0x701DB06A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x701DB03A, 0x701DB06B, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB06C, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB06D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB06E, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB06F, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x701DB03A, 0x701DB070, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB071, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB072, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x701DB03A, 0x701DB073, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701DB03B,  7102, 0x01DB01F7, 108.539, -32.9852, 0.006600022, -0.276088, 0, 0, 0.961132,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

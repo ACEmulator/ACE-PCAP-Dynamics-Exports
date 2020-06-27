@@ -5,23 +5,23 @@ VALUES (0x7CF9A001,  1154, 0xCF9A0007, 23.40749, 152.0924, 0.05687588, 0.9659258
 /* @teleloc 0xCF9A0007 [23.407490 152.092400 0.056876] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF9A001, 0x7CF9A002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF9A001, 0x7CF9A003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF9A001, 0x7CF9A004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF9A001, 0x7CF9A005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF9A001, 0x7CF9A006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF9A001, 0x7CF9A007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CF9A001, 0x7CF9A008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7CF9A001, 0x7CF9A009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CF9A001, 0x7CF9A00A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CF9A001, 0x7CF9A00B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CF9A001, 0x7CF9A00C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CF9A001, 0x7CF9A00D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CF9A001, 0x7CF9A00E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CF9A001, 0x7CF9A00F, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CF9A001, 0x7CF9A010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7CF9A001, 0x7CF9A011, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7CF9A001, 0x7CF9A012, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x7CF9A001, 0x7CF9A002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF9A001, 0x7CF9A003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF9A001, 0x7CF9A004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF9A001, 0x7CF9A005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF9A001, 0x7CF9A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF9A001, 0x7CF9A007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CF9A001, 0x7CF9A008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7CF9A001, 0x7CF9A009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CF9A001, 0x7CF9A00A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CF9A001, 0x7CF9A00B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CF9A001, 0x7CF9A00C, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CF9A001, 0x7CF9A00D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CF9A001, 0x7CF9A00E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CF9A001, 0x7CF9A00F, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CF9A001, 0x7CF9A010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7CF9A001, 0x7CF9A011, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7CF9A001, 0x7CF9A012, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF9A002,  1630, 0xCF9A0007, 23.40749, 152.0924, 0.05687588, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -96,8 +96,8 @@ VALUES (0x7CF9A013,  1542, 0xCF9A0015, 66.8222, 105.5796, 0.011, -0.5322984, 0, 
 /* @teleloc 0xCF9A0015 [66.822200 105.579600 0.011000] -0.532298 0.000000 0.000000 -0.846557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF9A013, 0x7CF9A014, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7CF9A013, 0x7CF9A015, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CF9A013, 0x7CF9A014, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7CF9A013, 0x7CF9A015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF9A014, 31686, 0xCF9A0015, 66.8222, 105.5796, 0.011, -0.5322984, 0, 0, -0.8465568,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

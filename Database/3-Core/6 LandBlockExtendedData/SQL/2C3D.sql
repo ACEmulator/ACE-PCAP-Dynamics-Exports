@@ -5,23 +5,23 @@ VALUES (0x72C3D001,  1154, 0x2C3D000F, 44.26089, 162.007, -0.07100004, 0.8191521
 /* @teleloc 0x2C3D000F [44.260890 162.007000 -0.071000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C3D001, 0x72C3D002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72C3D001, 0x72C3D003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72C3D001, 0x72C3D004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72C3D001, 0x72C3D005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72C3D001, 0x72C3D006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72C3D001, 0x72C3D007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72C3D001, 0x72C3D008, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72C3D001, 0x72C3D009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72C3D001, 0x72C3D00A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72C3D001, 0x72C3D00B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72C3D001, 0x72C3D00C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72C3D001, 0x72C3D00D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72C3D001, 0x72C3D00E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72C3D001, 0x72C3D00F, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C3D001, 0x72C3D010, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72C3D001, 0x72C3D011, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72C3D001, 0x72C3D012, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x72C3D001, 0x72C3D002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72C3D001, 0x72C3D003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72C3D001, 0x72C3D004, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72C3D001, 0x72C3D005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72C3D001, 0x72C3D006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72C3D001, 0x72C3D007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72C3D001, 0x72C3D008, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72C3D001, 0x72C3D009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72C3D001, 0x72C3D00A, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72C3D001, 0x72C3D00B, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72C3D001, 0x72C3D00C, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72C3D001, 0x72C3D00D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72C3D001, 0x72C3D00E, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72C3D001, 0x72C3D00F, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C3D001, 0x72C3D010, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72C3D001, 0x72C3D011, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72C3D001, 0x72C3D012, '2019-02-10 00:00:00') /* Banderling Predator (23478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C3D002, 36860, 0x2C3D000F, 44.26089, 162.007, -0.07100004, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

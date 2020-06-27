@@ -5,35 +5,35 @@ VALUES (0x74A0D001,  1154, 0x4A0D001E, 92.24757, 131.3532, -0.45, 0.7071068, 0, 
 /* @teleloc 0x4A0D001E [92.247570 131.353200 -0.450000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A0D001, 0x74A0D002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74A0D001, 0x74A0D003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74A0D001, 0x74A0D004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74A0D001, 0x74A0D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x74A0D001, 0x74A0D006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74A0D001, 0x74A0D009, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74A0D001, 0x74A0D00A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74A0D001, 0x74A0D00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74A0D001, 0x74A0D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74A0D001, 0x74A0D00E, '2019-02-10 00:00:00') /* Caustic */
-     , (0x74A0D001, 0x74A0D00F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x74A0D001, 0x74A0D010, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74A0D001, 0x74A0D011, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74A0D001, 0x74A0D012, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D013, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74A0D001, 0x74A0D014, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D015, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74A0D001, 0x74A0D016, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74A0D001, 0x74A0D017, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74A0D001, 0x74A0D018, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74A0D001, 0x74A0D019, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74A0D001, 0x74A0D01A, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74A0D001, 0x74A0D01B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74A0D001, 0x74A0D01C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74A0D001, 0x74A0D01D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x74A0D001, 0x74A0D01E, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x74A0D001, 0x74A0D002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74A0D001, 0x74A0D003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74A0D001, 0x74A0D004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74A0D001, 0x74A0D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x74A0D001, 0x74A0D006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74A0D001, 0x74A0D009, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74A0D001, 0x74A0D00A, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74A0D001, 0x74A0D00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74A0D001, 0x74A0D00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74A0D001, 0x74A0D00E, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x74A0D001, 0x74A0D00F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x74A0D001, 0x74A0D010, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74A0D001, 0x74A0D011, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74A0D001, 0x74A0D012, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D013, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74A0D001, 0x74A0D014, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D015, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74A0D001, 0x74A0D016, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74A0D001, 0x74A0D017, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74A0D001, 0x74A0D018, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74A0D001, 0x74A0D019, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74A0D001, 0x74A0D01A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74A0D001, 0x74A0D01B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74A0D001, 0x74A0D01C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74A0D001, 0x74A0D01D, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x74A0D001, 0x74A0D01E, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A0D002,  7112, 0x4A0D001E, 92.24757, 131.3532, -0.45, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

@@ -5,8 +5,8 @@ VALUES (0x7988B001,  1154, 0x988B0014, 51.57012, 86.04725, 77.49988, -0.7875081,
 /* @teleloc 0x988B0014 [51.570120 86.047250 77.499880] -0.787508 0.000000 0.000000 -0.616304 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7988B001, 0x7988B002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7988B001, 0x7988B003, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7988B001, 0x7988B002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7988B001, 0x7988B003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7988B002,  1630, 0x988B0014, 51.57012, 86.04725, 77.49988, -0.7875081, 0, 0, -0.6163043,  True, '2019-02-10 00:00:00'); /* Lich Lord */

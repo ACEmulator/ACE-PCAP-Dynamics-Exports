@@ -5,27 +5,27 @@ VALUES (0x7CC9B001,  1154, 0xCC9B0020, 76.82564, 188.5097, 18, 0.8191521, 0, 0, 
 /* @teleloc 0xCC9B0020 [76.825640 188.509700 18.000000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9B001, 0x7CC9B002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CC9B001, 0x7CC9B003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CC9B001, 0x7CC9B004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9B001, 0x7CC9B005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9B001, 0x7CC9B006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC9B001, 0x7CC9B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC9B001, 0x7CC9B008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC9B001, 0x7CC9B009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC9B001, 0x7CC9B00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CC9B001, 0x7CC9B00B, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CC9B001, 0x7CC9B00C, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CC9B001, 0x7CC9B00D, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B00E, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B00F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B010, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B011, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B012, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9B001, 0x7CC9B013, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CC9B001, 0x7CC9B014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9B001, 0x7CC9B015, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CC9B001, 0x7CC9B016, '2019-02-10 00:00:00') /* Nefarious Scarecrow */;
+VALUES (0x7CC9B001, 0x7CC9B002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CC9B001, 0x7CC9B003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CC9B001, 0x7CC9B004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9B001, 0x7CC9B005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9B001, 0x7CC9B006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC9B001, 0x7CC9B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC9B001, 0x7CC9B008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC9B001, 0x7CC9B009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC9B001, 0x7CC9B00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CC9B001, 0x7CC9B00B, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CC9B001, 0x7CC9B00C, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CC9B001, 0x7CC9B00D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B00E, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B00F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B010, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B011, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B012, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9B001, 0x7CC9B013, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CC9B001, 0x7CC9B014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9B001, 0x7CC9B015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CC9B001, 0x7CC9B016, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9B002,  1760, 0xCC9B0020, 76.82564, 188.5097, 18, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -116,9 +116,9 @@ VALUES (0x7CC9B017,  1542, 0xCC9B0011, 65.73511, 14.7364, 15.43722, 0.9537169, 0
 /* @teleloc 0xCC9B0011 [65.735110 14.736400 15.437220] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9B017, 0x7CC9B018, '2019-02-10 00:00:00') /* Golem Sanctum Portal */
-     , (0x7CC9B017, 0x7CC9B019, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CC9B017, 0x7CC9B01A, '2019-02-10 00:00:00') /* Great Pumpkin */;
+VALUES (0x7CC9B017, 0x7CC9B018, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */
+     , (0x7CC9B017, 0x7CC9B019, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CC9B017, 0x7CC9B01A, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9B018,  7934, 0xCC9B0011, 65.73511, 14.7364, 15.43722, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

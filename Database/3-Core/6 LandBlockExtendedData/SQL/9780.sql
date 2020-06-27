@@ -5,10 +5,10 @@ VALUES (0x79780001,  1154, 0x97800004, 5.980035, 83.49769, 26.96749, -0.6319034,
 /* @teleloc 0x97800004 [5.980035 83.497690 26.967490] -0.631903 0.000000 0.000000 -0.775047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79780001, 0x79780002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x79780001, 0x79780003, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79780001, 0x79780004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79780001, 0x79780005, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x79780001, 0x79780002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x79780001, 0x79780003, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79780001, 0x79780004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79780001, 0x79780005, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79780002,    20, 0x97800004, 5.980035, 83.49769, 26.96749, -0.6319034, 0, 0, -0.7750471,  True, '2019-02-10 00:00:00'); /* Auroch Bull */

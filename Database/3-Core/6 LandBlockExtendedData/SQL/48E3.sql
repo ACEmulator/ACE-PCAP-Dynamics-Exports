@@ -5,8 +5,8 @@ VALUES (0x748E3001,  1154, 0x48E3000A, 40.52011, 45.22118, 10.76335, -0.1231647,
 /* @teleloc 0x48E3000A [40.520110 45.221180 10.763350] -0.123165 0.000000 0.000000 -0.992386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748E3001, 0x748E3002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x748E3001, 0x748E3003, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x748E3001, 0x748E3002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x748E3001, 0x748E3003, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748E3002, 14520, 0x48E3000A, 40.52011, 45.22118, 10.76335, -0.1231647, 0, 0, -0.9923862,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

@@ -5,14 +5,14 @@ VALUES (0x7305D001,  1154, 0x305D0032, 155.6258, 39.43951, 29.29488, -0.09563131
 /* @teleloc 0x305D0032 [155.625800 39.439510 29.294880] -0.095631 0.000000 0.000000 -0.995417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7305D001, 0x7305D002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7305D001, 0x7305D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7305D001, 0x7305D004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7305D001, 0x7305D005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7305D001, 0x7305D006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7305D001, 0x7305D007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7305D001, 0x7305D008, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7305D001, 0x7305D009, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7305D001, 0x7305D002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7305D001, 0x7305D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7305D001, 0x7305D004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7305D001, 0x7305D005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7305D001, 0x7305D006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7305D001, 0x7305D007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7305D001, 0x7305D008, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7305D001, 0x7305D009, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7305D002, 24319, 0x305D0032, 155.6258, 39.43951, 29.29488, -0.09563131, 0, 0, -0.9954168,  True, '2019-02-10 00:00:00'); /* Dark Master */

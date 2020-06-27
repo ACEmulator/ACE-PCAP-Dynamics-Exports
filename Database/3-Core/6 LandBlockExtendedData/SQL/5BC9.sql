@@ -5,8 +5,8 @@ VALUES (0x75BC9001,  1154, 0x5BC90019, 79.64246, 2.698712, 71.40809, -0.7279707,
 /* @teleloc 0x5BC90019 [79.642460 2.698712 71.408090] -0.727971 0.000000 0.000000 -0.685608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BC9001, 0x75BC9002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75BC9001, 0x75BC9003, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x75BC9001, 0x75BC9002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75BC9001, 0x75BC9003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BC9002,  7086, 0x5BC90019, 79.64246, 2.698712, 71.40809, -0.7279707, 0, 0, -0.6856083,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */

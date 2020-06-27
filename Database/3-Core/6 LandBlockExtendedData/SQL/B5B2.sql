@@ -5,12 +5,12 @@ VALUES (0x7B5B2001,  1154, 0xB5B2001B, 93.4942, 50.82001, 100.0077, 0.9238795, 0
 /* @teleloc 0xB5B2001B [93.494200 50.820010 100.007700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5B2001, 0x7B5B2002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B5B2001, 0x7B5B2003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B5B2001, 0x7B5B2004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B5B2001, 0x7B5B2005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B5B2001, 0x7B5B2006, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B5B2001, 0x7B5B2007, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7B5B2001, 0x7B5B2002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B5B2001, 0x7B5B2003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B5B2001, 0x7B5B2004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B5B2001, 0x7B5B2005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B5B2001, 0x7B5B2006, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B5B2001, 0x7B5B2007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5B2002,   182, 0xB5B2001B, 93.4942, 50.82001, 100.0077, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

@@ -5,12 +5,12 @@ VALUES (0x7B72B001,  1154, 0xB72B0012, 64.17815, 39.5754, 240.1627, -0.508413, 0
 /* @teleloc 0xB72B0012 [64.178150 39.575400 240.162700] -0.508413 0.000000 0.000000 -0.861113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B72B001, 0x7B72B002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B72B001, 0x7B72B003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B72B001, 0x7B72B004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B72B001, 0x7B72B005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B72B001, 0x7B72B006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B72B001, 0x7B72B007, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7B72B001, 0x7B72B002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B72B001, 0x7B72B003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B72B001, 0x7B72B004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B72B001, 0x7B72B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B72B001, 0x7B72B006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B72B001, 0x7B72B007, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B72B002,  7107, 0xB72B0012, 64.17815, 39.5754, 240.1627, -0.508413, 0, 0, -0.8611134,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

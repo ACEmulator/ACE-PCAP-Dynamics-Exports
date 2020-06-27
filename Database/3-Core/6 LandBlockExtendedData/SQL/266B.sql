@@ -5,11 +5,11 @@ VALUES (0x7266B001,  1154, 0x266B0030, 140.0217, 179.1545, 92.16919, -0.9547276,
 /* @teleloc 0x266B0030 [140.021700 179.154500 92.169190] -0.954728 0.000000 0.000000 -0.297482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266B001, 0x7266B002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7266B001, 0x7266B003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7266B001, 0x7266B004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7266B001, 0x7266B005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7266B001, 0x7266B006, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x7266B001, 0x7266B002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7266B001, 0x7266B003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7266B001, 0x7266B004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7266B001, 0x7266B005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7266B001, 0x7266B006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266B002, 23616, 0x266B0030, 140.0217, 179.1545, 92.16919, -0.9547276, 0, 0, -0.2974815,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

@@ -5,24 +5,24 @@ VALUES (0x77F12001,  1154, 0x7F120007, 14.04969, 144.329, -0.4488, 0.9537169, 0,
 /* @teleloc 0x7F120007 [14.049690 144.329000 -0.448800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F12001, 0x77F12002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x77F12001, 0x77F12003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77F12001, 0x77F12004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77F12001, 0x77F12005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77F12001, 0x77F12006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77F12001, 0x77F12007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77F12001, 0x77F12008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77F12001, 0x77F12009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x77F12001, 0x77F1200A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x77F12001, 0x77F1200B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77F12001, 0x77F1200C, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x77F12001, 0x77F1200D, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x77F12001, 0x77F1200E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77F12001, 0x77F1200F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x77F12001, 0x77F12010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x77F12001, 0x77F12011, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x77F12001, 0x77F12012, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x77F12001, 0x77F12013, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x77F12001, 0x77F12002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x77F12001, 0x77F12003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77F12001, 0x77F12004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77F12001, 0x77F12005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77F12001, 0x77F12006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77F12001, 0x77F12007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77F12001, 0x77F12008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77F12001, 0x77F12009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x77F12001, 0x77F1200A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x77F12001, 0x77F1200B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77F12001, 0x77F1200C, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x77F12001, 0x77F1200D, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x77F12001, 0x77F1200E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77F12001, 0x77F1200F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x77F12001, 0x77F12010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x77F12001, 0x77F12011, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x77F12001, 0x77F12012, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x77F12001, 0x77F12013, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F12002,  7109, 0x7F120007, 14.04969, 144.329, -0.4488, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

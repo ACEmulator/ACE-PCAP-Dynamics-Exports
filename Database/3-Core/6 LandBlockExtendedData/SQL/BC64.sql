@@ -5,17 +5,17 @@ VALUES (0x7BC64001,  1154, 0xBC640100, 14.27319, 180.7224, 6.324379, 0.670535, 0
 /* @teleloc 0xBC640100 [14.273190 180.722400 6.324379] 0.670535 0.000000 0.000000 -0.741878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC64001, 0x7BC64002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC64009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC6400A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC6400B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BC64001, 0x7BC6400C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7BC64001, 0x7BC64002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC64009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC6400A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC6400B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BC64001, 0x7BC6400C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC64002, 27100, 0xBC640100, 14.27319, 180.7224, 6.324379, 0.670535, 0, 0, -0.741878,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */

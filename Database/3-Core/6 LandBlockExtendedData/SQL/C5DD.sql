@@ -5,46 +5,46 @@ VALUES (0x7C5DD001,  1154, 0xC5DD003D, 173.2138, 102.1835, 2.977662, 0.6049814, 
 /* @teleloc 0xC5DD003D [173.213800 102.183500 2.977662] 0.604981 0.000000 0.000000 -0.796240 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5DD001, 0x7C5DD002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C5DD001, 0x7C5DD003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C5DD001, 0x7C5DD004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7C5DD001, 0x7C5DD005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7C5DD001, 0x7C5DD006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C5DD001, 0x7C5DD007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C5DD001, 0x7C5DD008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C5DD001, 0x7C5DD009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C5DD001, 0x7C5DD00A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C5DD001, 0x7C5DD00B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C5DD001, 0x7C5DD00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7C5DD001, 0x7C5DD00D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C5DD001, 0x7C5DD00E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C5DD001, 0x7C5DD00F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C5DD001, 0x7C5DD010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C5DD001, 0x7C5DD011, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C5DD001, 0x7C5DD012, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7C5DD001, 0x7C5DD013, '2019-02-10 00:00:00') /* Static */
-     , (0x7C5DD001, 0x7C5DD014, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C5DD001, 0x7C5DD015, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C5DD001, 0x7C5DD016, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C5DD001, 0x7C5DD017, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C5DD001, 0x7C5DD018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD019, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7C5DD001, 0x7C5DD01A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD01B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD01C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD01D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD01E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C5DD001, 0x7C5DD01F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C5DD001, 0x7C5DD020, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C5DD001, 0x7C5DD021, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C5DD001, 0x7C5DD022, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C5DD001, 0x7C5DD023, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7C5DD001, 0x7C5DD024, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C5DD001, 0x7C5DD025, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C5DD001, 0x7C5DD026, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C5DD001, 0x7C5DD027, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C5DD001, 0x7C5DD028, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C5DD001, 0x7C5DD029, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7C5DD001, 0x7C5DD002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C5DD001, 0x7C5DD003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C5DD001, 0x7C5DD004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7C5DD001, 0x7C5DD005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7C5DD001, 0x7C5DD006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C5DD001, 0x7C5DD007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C5DD001, 0x7C5DD008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C5DD001, 0x7C5DD009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C5DD001, 0x7C5DD00A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C5DD001, 0x7C5DD00B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C5DD001, 0x7C5DD00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7C5DD001, 0x7C5DD00D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C5DD001, 0x7C5DD00E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C5DD001, 0x7C5DD00F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C5DD001, 0x7C5DD010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C5DD001, 0x7C5DD011, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C5DD001, 0x7C5DD012, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7C5DD001, 0x7C5DD013, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C5DD001, 0x7C5DD014, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C5DD001, 0x7C5DD015, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C5DD001, 0x7C5DD016, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C5DD001, 0x7C5DD017, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C5DD001, 0x7C5DD018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C5DD001, 0x7C5DD019, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7C5DD001, 0x7C5DD01A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C5DD001, 0x7C5DD01B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C5DD001, 0x7C5DD01C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C5DD001, 0x7C5DD01D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7C5DD001, 0x7C5DD01E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C5DD001, 0x7C5DD01F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C5DD001, 0x7C5DD020, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C5DD001, 0x7C5DD021, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C5DD001, 0x7C5DD022, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C5DD001, 0x7C5DD023, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7C5DD001, 0x7C5DD024, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C5DD001, 0x7C5DD025, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C5DD001, 0x7C5DD026, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C5DD001, 0x7C5DD027, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C5DD001, 0x7C5DD028, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C5DD001, 0x7C5DD029, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5DD002,  4217, 0xC5DD003D, 173.2138, 102.1835, 2.977662, 0.6049814, 0, 0, -0.7962396,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -211,9 +211,9 @@ VALUES (0x7C5DD02A,  1542, 0xC5DD000F, 42.8054, 148.4836, 1.626368, 0.9238795, 0
 /* @teleloc 0xC5DD000F [42.805400 148.483600 1.626368] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5DD02A, 0x7C5DD02B, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C5DD02A, 0x7C5DD02C, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7C5DD02A, 0x7C5DD02D, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7C5DD02A, 0x7C5DD02B, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C5DD02A, 0x7C5DD02C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7C5DD02A, 0x7C5DD02D, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5DD02B,  4180, 0xC5DD000F, 42.8054, 148.4836, 1.626368, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

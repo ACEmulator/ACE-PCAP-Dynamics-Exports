@@ -5,21 +5,21 @@ VALUES (0x7B0DE001,  1154, 0xB0DE0037, 161.3665, 165.1051, -0.9000001, -0.173648
 /* @teleloc 0xB0DE0037 [161.366500 165.105100 -0.900000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0DE001, 0x7B0DE002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B0DE001, 0x7B0DE003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B0DE001, 0x7B0DE004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B0DE001, 0x7B0DE005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B0DE001, 0x7B0DE006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B0DE001, 0x7B0DE007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B0DE001, 0x7B0DE008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B0DE001, 0x7B0DE009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7B0DE001, 0x7B0DE00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B0DE001, 0x7B0DE00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B0DE001, 0x7B0DE00C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7B0DE001, 0x7B0DE00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B0DE001, 0x7B0DE00E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B0DE001, 0x7B0DE00F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7B0DE001, 0x7B0DE010, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7B0DE001, 0x7B0DE002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B0DE001, 0x7B0DE003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B0DE001, 0x7B0DE004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B0DE001, 0x7B0DE005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B0DE001, 0x7B0DE006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B0DE001, 0x7B0DE007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B0DE001, 0x7B0DE008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B0DE001, 0x7B0DE009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7B0DE001, 0x7B0DE00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B0DE001, 0x7B0DE00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7B0DE001, 0x7B0DE00C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7B0DE001, 0x7B0DE00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B0DE001, 0x7B0DE00E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B0DE001, 0x7B0DE00F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7B0DE001, 0x7B0DE010, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0DE002,  7111, 0xB0DE0037, 161.3665, 165.1051, -0.9000001, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -86,7 +86,7 @@ VALUES (0x7B0DE011,  1542, 0xB0DE0016, 54.32082, 123.5983, 1.463265, 0.1826466, 
 /* @teleloc 0xB0DE0016 [54.320820 123.598300 1.463265] 0.182647 0.000000 0.000000 -0.983179 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0DE011, 0x7B0DE012, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x7B0DE011, 0x7B0DE012, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0DE012,  9287, 0xB0DE0016, 54.32082, 123.5983, 1.463265, 0.1826466, 0, 0, -0.9831786,  True, '2019-02-10 00:00:00'); /* Master's Holding */

@@ -9,26 +9,26 @@ VALUES (0x79E49001,  1154, 0x9E49000A, 24.05749, 24.80927, 84.00249, -0.777718, 
 /* @teleloc 0x9E49000A [24.057490 24.809270 84.002490] -0.777718 0.000000 0.000000 -0.628613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E49001, 0x79E49002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79E49001, 0x79E49003, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x79E49001, 0x79E49004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79E49001, 0x79E49005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E49001, 0x79E49006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79E49001, 0x79E49007, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79E49001, 0x79E49008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E49001, 0x79E49009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E49001, 0x79E4900A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E49001, 0x79E4900B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79E49001, 0x79E4900C, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x79E49001, 0x79E4900D, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79E49001, 0x79E4900E, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79E49001, 0x79E4900F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E49001, 0x79E49010, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79E49001, 0x79E49011, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79E49001, 0x79E49012, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79E49001, 0x79E49013, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x79E49001, 0x79E49014, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79E49001, 0x79E49015, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x79E49001, 0x79E49002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79E49001, 0x79E49003, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x79E49001, 0x79E49004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79E49001, 0x79E49005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E49001, 0x79E49006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79E49001, 0x79E49007, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79E49001, 0x79E49008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E49001, 0x79E49009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E49001, 0x79E4900A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E49001, 0x79E4900B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79E49001, 0x79E4900C, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x79E49001, 0x79E4900D, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79E49001, 0x79E4900E, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79E49001, 0x79E4900F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E49001, 0x79E49010, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79E49001, 0x79E49011, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79E49001, 0x79E49012, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79E49001, 0x79E49013, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x79E49001, 0x79E49014, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79E49001, 0x79E49015, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E49002, 38179, 0x9E49000A, 24.05749, 24.80927, 84.00249, -0.777718, 0, 0, -0.6286134,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -115,8 +115,8 @@ VALUES (0x79E49016,  1542, 0x9E490002, 16.43052, 34.90631, 84, 1, 0, 0, 0, False
 /* @teleloc 0x9E490002 [16.430520 34.906310 84.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E49016, 0x79E49017, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79E49016, 0x79E49018, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x79E49016, 0x79E49017, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x79E49016, 0x79E49018, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E49017, 22576, 0x9E490002, 16.43052, 34.90631, 84, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,18 +5,18 @@ VALUES (0x770ED001,  1154, 0x70ED000E, 30.21348, 135.7305, 42.87366, 0.9238795, 
 /* @teleloc 0x70ED000E [30.213480 135.730500 42.873660] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770ED001, 0x770ED002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x770ED001, 0x770ED003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x770ED001, 0x770ED004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x770ED001, 0x770ED005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x770ED001, 0x770ED006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x770ED001, 0x770ED007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x770ED001, 0x770ED008, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x770ED001, 0x770ED009, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x770ED001, 0x770ED00A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x770ED001, 0x770ED00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x770ED001, 0x770ED00C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x770ED001, 0x770ED00D, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x770ED001, 0x770ED002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x770ED001, 0x770ED003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x770ED001, 0x770ED004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x770ED001, 0x770ED005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x770ED001, 0x770ED006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x770ED001, 0x770ED007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x770ED001, 0x770ED008, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x770ED001, 0x770ED009, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x770ED001, 0x770ED00A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x770ED001, 0x770ED00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x770ED001, 0x770ED00C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x770ED001, 0x770ED00D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770ED002,  7184, 0x70ED000E, 30.21348, 135.7305, 42.87366, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -71,7 +71,7 @@ VALUES (0x770ED00E,  1542, 0x70ED0030, 143.9911, 181.8295, 33.18718, 1, 0, 0, 0,
 /* @teleloc 0x70ED0030 [143.991100 181.829500 33.187180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770ED00E, 0x770ED00F, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x770ED00E, 0x770ED00F, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770ED00F,  8999, 0x70ED0030, 143.9911, 181.8295, 33.18718, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

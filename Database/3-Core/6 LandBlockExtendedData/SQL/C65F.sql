@@ -25,13 +25,13 @@ VALUES (0x7C65F007,  1154, 0xC65F0009, 38.9392, 1.438287, 5.9075, 0.976296, 0, 0
 /* @teleloc 0xC65F0009 [38.939200 1.438287 5.907500] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C65F007, 0x7C65F008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C65F007, 0x7C65F009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C65F007, 0x7C65F00A, '2019-02-10 00:00:00') /* Trap Door */
-     , (0x7C65F007, 0x7C65F00B, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C65F007, 0x7C65F00C, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C65F007, 0x7C65F00D, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C65F007, 0x7C65F00E, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7C65F007, 0x7C65F008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C65F007, 0x7C65F009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C65F007, 0x7C65F00A, '2019-02-10 00:00:00') /* Trap Door (33836) */
+     , (0x7C65F007, 0x7C65F00B, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C65F007, 0x7C65F00C, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C65F007, 0x7C65F00D, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C65F007, 0x7C65F00E, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C65F008,  1630, 0xC65F0009, 38.9392, 1.438287, 5.9075, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -66,7 +66,7 @@ VALUES (0x7C65F00F,  1154, 0xC65F0100, 32.878, 158.67, 6.005, 0.7071068, 0, 0, -
 /* @teleloc 0xC65F0100 [32.878000 158.670000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C65F00F, 0x7C65F010, '2019-02-10 00:00:00') /* Unfriendly Barkeeper */;
+VALUES (0x7C65F00F, 0x7C65F010, '2019-02-10 00:00:00') /* Unfriendly Barkeeper (33837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C65F010, 33837, 0xC65F0100, 32.878, 158.67, 6.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unfriendly Barkeeper */

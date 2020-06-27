@@ -5,12 +5,12 @@ VALUES (0x72BE2001,  1154, 0x2BE20004, 11.61847, 77.60561, 33.11206, 0.05488743,
 /* @teleloc 0x2BE20004 [11.618470 77.605610 33.112060] 0.054887 0.000000 0.000000 -0.998493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BE2001, 0x72BE2002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72BE2001, 0x72BE2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72BE2001, 0x72BE2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72BE2001, 0x72BE2005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72BE2001, 0x72BE2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72BE2001, 0x72BE2007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x72BE2001, 0x72BE2002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE2001, 0x72BE2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE2001, 0x72BE2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE2001, 0x72BE2005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE2001, 0x72BE2006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */
+     , (0x72BE2001, 0x72BE2007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (30441) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BE2002, 30441, 0x2BE20004, 11.61847, 77.60561, 33.11206, 0.05488743, 0, 0, -0.9984925,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -41,9 +41,9 @@ VALUES (0x72BE2008,  1542, 0x2BE20005, 11.69186, 105.2866, 36.9318, 0.9974078, 0
 /* @teleloc 0x2BE20005 [11.691860 105.286600 36.931800] 0.997408 0.000000 0.000000 -0.071956 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BE2008, 0x72BE2009, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x72BE2008, 0x72BE200A, '2019-02-10 00:00:00') /* Academy Coat */
-     , (0x72BE2008, 0x72BE200B, '2019-02-10 00:00:00') /* Cloth Cap */;
+VALUES (0x72BE2008, 0x72BE2009, '2019-02-10 00:00:00') /* Leather Boots (115) */
+     , (0x72BE2008, 0x72BE200A, '2019-02-10 00:00:00') /* Academy Coat (13216) */
+     , (0x72BE2008, 0x72BE200B, '2019-02-10 00:00:00') /* Cloth Cap (118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BE2009,   115, 0x2BE20005, 11.69186, 105.2866, 36.9318, 0.9974078, 0, 0, -0.07195623,  True, '2019-02-10 00:00:00'); /* Leather Boots */

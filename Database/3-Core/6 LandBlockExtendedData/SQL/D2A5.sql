@@ -5,26 +5,26 @@ VALUES (0x7D2A5001,  1154, 0xD2A5001A, 84.92065, 43.04579, 2.523428, 0.7551308, 
 /* @teleloc 0xD2A5001A [84.920650 43.045790 2.523428] 0.755131 0.000000 0.000000 -0.655574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2A5001, 0x7D2A5002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D2A5001, 0x7D2A5003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D2A5001, 0x7D2A5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D2A5001, 0x7D2A5005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D2A5001, 0x7D2A5006, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2A5001, 0x7D2A5007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D2A5001, 0x7D2A5008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D2A5001, 0x7D2A5009, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D2A5001, 0x7D2A500A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2A5001, 0x7D2A500B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D2A5001, 0x7D2A500C, '2019-02-10 00:00:00') /* Idol */
-     , (0x7D2A5001, 0x7D2A500D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D2A5001, 0x7D2A500E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D2A5001, 0x7D2A500F, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D2A5001, 0x7D2A5010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D2A5001, 0x7D2A5011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D2A5001, 0x7D2A5012, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D2A5001, 0x7D2A5013, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D2A5001, 0x7D2A5014, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D2A5001, 0x7D2A5015, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7D2A5001, 0x7D2A5002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D2A5001, 0x7D2A5003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D2A5001, 0x7D2A5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D2A5001, 0x7D2A5005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D2A5001, 0x7D2A5006, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2A5001, 0x7D2A5007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D2A5001, 0x7D2A5008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D2A5001, 0x7D2A5009, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D2A5001, 0x7D2A500A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2A5001, 0x7D2A500B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D2A5001, 0x7D2A500C, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7D2A5001, 0x7D2A500D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D2A5001, 0x7D2A500E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D2A5001, 0x7D2A500F, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D2A5001, 0x7D2A5010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D2A5001, 0x7D2A5011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D2A5001, 0x7D2A5012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D2A5001, 0x7D2A5013, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D2A5001, 0x7D2A5014, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D2A5001, 0x7D2A5015, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2A5002,   217, 0xD2A5001A, 84.92065, 43.04579, 2.523428, 0.7551308, 0, 0, -0.6555741,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -111,7 +111,7 @@ VALUES (0x7D2A5016,  1542, 0xD2A50011, 65.51783, 19.34012, 2.151857, -0.8283921,
 /* @teleloc 0xD2A50011 [65.517830 19.340120 2.151857] -0.828392 0.000000 0.000000 -0.560149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2A5016, 0x7D2A5017, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7D2A5016, 0x7D2A5017, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2A5017, 34129, 0xD2A50011, 65.51783, 19.34012, 2.151857, -0.8283921, 0, 0, -0.5601487,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

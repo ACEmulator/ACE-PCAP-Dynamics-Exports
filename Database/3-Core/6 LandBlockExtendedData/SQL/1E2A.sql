@@ -5,10 +5,10 @@ VALUES (0x71E2A001,  1154, 0x1E2A0012, 53.65865, 26.53505, 63.55644, -0.4337745,
 /* @teleloc 0x1E2A0012 [53.658650 26.535050 63.556440] -0.433775 0.000000 0.000000 -0.901022 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E2A001, 0x71E2A002, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71E2A001, 0x71E2A003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E2A001, 0x71E2A004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71E2A001, 0x71E2A005, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71E2A001, 0x71E2A002, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71E2A001, 0x71E2A003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E2A001, 0x71E2A004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71E2A001, 0x71E2A005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E2A002, 24957, 0x1E2A0012, 53.65865, 26.53505, 63.55644, -0.4337745, 0, 0, -0.9010215,  True, '2019-02-10 00:00:00'); /* Lacerator */

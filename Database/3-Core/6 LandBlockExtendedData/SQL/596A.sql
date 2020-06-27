@@ -5,11 +5,11 @@ VALUES (0x7596A001,  1154, 0x596A0102, 12.0935, -20, -0.02800012, 0.696707, 0, 0
 /* @teleloc 0x596A0102 [12.093500 -20.000000 -0.028000] 0.696707 0.000000 0.000000 -0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7596A001, 0x7596A002, '2019-02-10 00:00:00') /* Thunder Turkey */
-     , (0x7596A001, 0x7596A003, '2019-02-10 00:00:00') /* Thunder Poult */
-     , (0x7596A001, 0x7596A004, '2019-02-10 00:00:00') /* Thunder Poult */
-     , (0x7596A001, 0x7596A005, '2019-02-10 00:00:00') /* Thunder Poult */
-     , (0x7596A001, 0x7596A006, '2019-02-10 00:00:00') /* Thunder Poult */;
+VALUES (0x7596A001, 0x7596A002, '2019-02-10 00:00:00') /* Thunder Turkey (53015) */
+     , (0x7596A001, 0x7596A003, '2019-02-10 00:00:00') /* Thunder Poult (53014) */
+     , (0x7596A001, 0x7596A004, '2019-02-10 00:00:00') /* Thunder Poult (53014) */
+     , (0x7596A001, 0x7596A005, '2019-02-10 00:00:00') /* Thunder Poult (53014) */
+     , (0x7596A001, 0x7596A006, '2019-02-10 00:00:00') /* Thunder Poult (53014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596A002, 53015, 0x596A0102, 12.0935, -20, -0.02800012, 0.696707, 0, 0, -0.717356,  True, '2019-02-10 00:00:00'); /* Thunder Turkey */
@@ -36,21 +36,21 @@ VALUES (0x7596A007,  1542, 0x596A0106, 20.30325, -15.15192, -0.06299996, 1, 0, 0
 /* @teleloc 0x596A0106 [20.303250 -15.151920 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7596A007, 0x7596A008, '2019-02-10 00:00:00') /* Surface */
-     , (0x7596A007, 0x7596A009, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00A, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00B, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00C, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00D, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00E, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A00F, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A010, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A011, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A012, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A013, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A014, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A015, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */
-     , (0x7596A007, 0x7596A016, '2019-02-10 00:00:00') /* Mutilated Turkey Feather */;
+VALUES (0x7596A007, 0x7596A008, '2019-02-10 00:00:00') /* Surface (53352) */
+     , (0x7596A007, 0x7596A009, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00A, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00B, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00C, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00D, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00E, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A00F, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A010, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A011, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A012, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A013, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A014, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A015, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */
+     , (0x7596A007, 0x7596A016, '2019-02-10 00:00:00') /* Mutilated Turkey Feather (53354) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596A008, 53352, 0x596A0106, 20.30325, -15.15192, -0.06299996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Surface */

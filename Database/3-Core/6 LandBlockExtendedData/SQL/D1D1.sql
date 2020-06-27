@@ -5,16 +5,16 @@ VALUES (0x7D1D1001,  1154, 0xD1D10022, 111.9794, 46.22591, 63.6162, 0.7400878, 0
 /* @teleloc 0xD1D10022 [111.979400 46.225910 63.616200] 0.740088 0.000000 0.000000 -0.672510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1D1001, 0x7D1D1002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D1D1001, 0x7D1D1003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D1001, 0x7D1D1004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D1D1001, 0x7D1D1005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D1D1001, 0x7D1D1006, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D1D1001, 0x7D1D1007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D1001, 0x7D1D1008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D1001, 0x7D1D1009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D1D1001, 0x7D1D100A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D1D1001, 0x7D1D100B, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x7D1D1001, 0x7D1D1002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D1D1001, 0x7D1D1003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D1001, 0x7D1D1004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D1D1001, 0x7D1D1005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D1D1001, 0x7D1D1006, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D1D1001, 0x7D1D1007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D1001, 0x7D1D1008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D1001, 0x7D1D1009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D1D1001, 0x7D1D100A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D1D1001, 0x7D1D100B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1D1002,   213, 0xD1D10022, 111.9794, 46.22591, 63.6162, 0.7400878, 0, 0, -0.6725102,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
@@ -61,7 +61,7 @@ VALUES (0x7D1D100C,  1542, 0xD1D10026, 104.9995, 141.9098, 53.25004, -0.8946027,
 /* @teleloc 0xD1D10026 [104.999500 141.909800 53.250040] -0.894603 0.000000 0.000000 -0.446863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1D100C, 0x7D1D100D, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7D1D100C, 0x7D1D100D, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1D100D, 11555, 0xD1D10026, 104.9995, 141.9098, 53.25004, -0.8946027, 0, 0, -0.4468625,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

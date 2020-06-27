@@ -5,9 +5,9 @@ VALUES (0x7949B001,  1154, 0x949B0038, 150.6756, 175.797, 44.23015, 0.9063078, 0
 /* @teleloc 0x949B0038 [150.675600 175.797000 44.230150] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7949B001, 0x7949B002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7949B001, 0x7949B003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7949B001, 0x7949B004, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7949B001, 0x7949B002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7949B001, 0x7949B003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7949B001, 0x7949B004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7949B002,  2576, 0x949B0038, 150.6756, 175.797, 44.23015, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -26,7 +26,7 @@ VALUES (0x7949B005,  1542, 0x949B0038, 147.9067, 175.2197, 44.74724, 0.9990482, 
 /* @teleloc 0x949B0038 [147.906700 175.219700 44.747240] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7949B005, 0x7949B006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7949B005, 0x7949B006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7949B006,  4179, 0x949B0038, 147.9067, 175.2197, 44.74724, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

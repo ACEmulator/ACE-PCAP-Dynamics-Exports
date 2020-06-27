@@ -5,19 +5,19 @@ VALUES (0x7CF92001,  1154, 0xCF92003E, 190.5352, 131.1231, 30.9238, -0.3326968, 
 /* @teleloc 0xCF92003E [190.535200 131.123100 30.923800] -0.332697 0.000000 0.000000 -0.943034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF92001, 0x7CF92002, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CF92001, 0x7CF92003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CF92001, 0x7CF92004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CF92001, 0x7CF92005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CF92001, 0x7CF92006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CF92001, 0x7CF92007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CF92001, 0x7CF92008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CF92001, 0x7CF92009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CF92001, 0x7CF9200A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CF92001, 0x7CF9200B, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7CF92001, 0x7CF9200C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CF92001, 0x7CF9200D, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CF92001, 0x7CF9200E, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7CF92001, 0x7CF92002, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CF92001, 0x7CF92003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CF92001, 0x7CF92004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CF92001, 0x7CF92005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CF92001, 0x7CF92006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CF92001, 0x7CF92007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CF92001, 0x7CF92008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CF92001, 0x7CF92009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CF92001, 0x7CF9200A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CF92001, 0x7CF9200B, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7CF92001, 0x7CF9200C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CF92001, 0x7CF9200D, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CF92001, 0x7CF9200E, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF92002, 32203, 0xCF92003E, 190.5352, 131.1231, 30.9238, -0.3326968, 0, 0, -0.9430339,  True, '2019-02-10 00:00:00'); /* Pumpkin Kin */
@@ -76,7 +76,7 @@ VALUES (0x7CF9200F,  1542, 0xCF920009, 31.83242, 21.85724, 21.30324, 1, 0, 0, 0,
 /* @teleloc 0xCF920009 [31.832420 21.857240 21.303240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF9200F, 0x7CF92010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CF9200F, 0x7CF92010, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF92010, 31443, 0xCF920009, 31.83242, 21.85724, 21.30324, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

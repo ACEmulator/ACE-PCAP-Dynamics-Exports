@@ -5,9 +5,9 @@ VALUES (0x7233C001,  1154, 0x233C0034, 148.7177, 72.71495, 35.44994, -0.7071068,
 /* @teleloc 0x233C0034 [148.717700 72.714950 35.449940] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7233C001, 0x7233C002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7233C001, 0x7233C003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7233C001, 0x7233C004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7233C001, 0x7233C002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7233C001, 0x7233C003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7233C001, 0x7233C004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7233C002,  7982, 0x233C0034, 148.7177, 72.71495, 35.44994, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

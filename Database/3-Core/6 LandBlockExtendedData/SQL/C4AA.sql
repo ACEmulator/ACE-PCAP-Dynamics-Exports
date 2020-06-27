@@ -5,70 +5,70 @@ VALUES (0x7C4AA001,  1154, 0xC4AA000A, 41.54559, 27.49762, 78.20754, -0.5038658,
 /* @teleloc 0xC4AA000A [41.545590 27.497620 78.207540] -0.503866 0.000000 0.000000 -0.863782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AA001, 0x7C4AA002, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C4AA001, 0x7C4AA003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C4AA001, 0x7C4AA009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA00A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AA001, 0x7C4AA00C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA00D, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C4AA001, 0x7C4AA00E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C4AA001, 0x7C4AA00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA012, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA014, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C4AA001, 0x7C4AA015, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C4AA001, 0x7C4AA016, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C4AA001, 0x7C4AA017, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C4AA001, 0x7C4AA018, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA019, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C4AA001, 0x7C4AA01A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C4AA001, 0x7C4AA01B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA01C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C4AA001, 0x7C4AA01D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C4AA001, 0x7C4AA01E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C4AA001, 0x7C4AA01F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C4AA001, 0x7C4AA020, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C4AA001, 0x7C4AA021, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA022, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C4AA001, 0x7C4AA023, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C4AA001, 0x7C4AA024, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C4AA001, 0x7C4AA025, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C4AA001, 0x7C4AA026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA029, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA02A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA02B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C4AA001, 0x7C4AA02C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C4AA001, 0x7C4AA02D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C4AA001, 0x7C4AA02E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA02F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C4AA001, 0x7C4AA030, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C4AA001, 0x7C4AA031, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA032, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C4AA001, 0x7C4AA033, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AA001, 0x7C4AA034, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA035, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C4AA001, 0x7C4AA036, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C4AA001, 0x7C4AA037, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA038, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C4AA001, 0x7C4AA039, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AA001, 0x7C4AA03A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C4AA001, 0x7C4AA03B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA03C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C4AA001, 0x7C4AA03D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C4AA001, 0x7C4AA03E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA03F, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C4AA001, 0x7C4AA040, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C4AA001, 0x7C4AA041, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7C4AA001, 0x7C4AA002, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C4AA001, 0x7C4AA003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C4AA001, 0x7C4AA009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA00A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AA001, 0x7C4AA00C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA00D, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C4AA001, 0x7C4AA00E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C4AA001, 0x7C4AA00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA014, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C4AA001, 0x7C4AA015, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C4AA001, 0x7C4AA016, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C4AA001, 0x7C4AA017, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C4AA001, 0x7C4AA018, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA019, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C4AA001, 0x7C4AA01A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C4AA001, 0x7C4AA01B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA01C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C4AA001, 0x7C4AA01D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C4AA001, 0x7C4AA01E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C4AA001, 0x7C4AA01F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C4AA001, 0x7C4AA020, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C4AA001, 0x7C4AA021, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA022, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C4AA001, 0x7C4AA023, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C4AA001, 0x7C4AA024, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C4AA001, 0x7C4AA025, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C4AA001, 0x7C4AA026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA028, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA029, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA02A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA02B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C4AA001, 0x7C4AA02C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C4AA001, 0x7C4AA02D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C4AA001, 0x7C4AA02E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA02F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C4AA001, 0x7C4AA030, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C4AA001, 0x7C4AA031, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA032, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C4AA001, 0x7C4AA033, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AA001, 0x7C4AA034, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA035, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C4AA001, 0x7C4AA036, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C4AA001, 0x7C4AA037, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA038, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C4AA001, 0x7C4AA039, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AA001, 0x7C4AA03A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C4AA001, 0x7C4AA03B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA03C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C4AA001, 0x7C4AA03D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C4AA001, 0x7C4AA03E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA03F, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C4AA001, 0x7C4AA040, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C4AA001, 0x7C4AA041, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AA002, 32186, 0xC4AA000A, 41.54559, 27.49762, 78.20754, -0.5038658, 0, 0, -0.8637819,  True, '2019-02-10 00:00:00'); /* Pumpkin Lord */
@@ -331,13 +331,13 @@ VALUES (0x7C4AA042,  1542, 0xC4AA000A, 45.44082, 39.52141, 79.22669, -0.5038658,
 /* @teleloc 0xC4AA000A [45.440820 39.521410 79.226690] -0.503866 0.000000 0.000000 -0.863782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AA042, 0x7C4AA043, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C4AA042, 0x7C4AA044, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C4AA042, 0x7C4AA045, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C4AA042, 0x7C4AA046, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C4AA042, 0x7C4AA047, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C4AA042, 0x7C4AA048, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C4AA042, 0x7C4AA049, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C4AA042, 0x7C4AA043, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C4AA042, 0x7C4AA044, '2019-02-10 00:00:00') /* Old Gravestone (34132) */
+     , (0x7C4AA042, 0x7C4AA045, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C4AA042, 0x7C4AA046, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x7C4AA042, 0x7C4AA047, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C4AA042, 0x7C4AA048, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C4AA042, 0x7C4AA049, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AA043,  8037, 0xC4AA000A, 45.44082, 39.52141, 79.22669, -0.5038658, 0, 0, -0.8637819,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

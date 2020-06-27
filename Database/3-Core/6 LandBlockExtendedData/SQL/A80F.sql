@@ -5,10 +5,10 @@ VALUES (0x7A80F001,  1154, 0xA80F0004, 18.96124, 73.56529, 6.722152, -0.8785762,
 /* @teleloc 0xA80F0004 [18.961240 73.565290 6.722152] -0.878576 0.000000 0.000000 -0.477602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A80F001, 0x7A80F002, '2019-02-10 00:00:00') /* Banished Olthoi */
-     , (0x7A80F001, 0x7A80F003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A80F001, 0x7A80F004, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7A80F001, 0x7A80F005, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7A80F001, 0x7A80F002, '2019-02-10 00:00:00') /* Banished Olthoi (30903) */
+     , (0x7A80F001, 0x7A80F003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A80F001, 0x7A80F004, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7A80F001, 0x7A80F005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A80F002, 30903, 0xA80F0004, 18.96124, 73.56529, 6.722152, -0.8785762, 0, 0, -0.4776022,  True, '2019-02-10 00:00:00'); /* Banished Olthoi */

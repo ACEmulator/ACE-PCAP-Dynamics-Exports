@@ -5,13 +5,13 @@ VALUES (0x7AA68001,  1154, 0xAA680014, 68.27438, 92.13782, 55.68565, 0.9659258, 
 /* @teleloc 0xAA680014 [68.274380 92.137820 55.685650] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA68001, 0x7AA68002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AA68001, 0x7AA68003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AA68001, 0x7AA68004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AA68001, 0x7AA68005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AA68001, 0x7AA68006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AA68001, 0x7AA68007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA68001, 0x7AA68008, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7AA68001, 0x7AA68002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AA68001, 0x7AA68003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AA68001, 0x7AA68004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AA68001, 0x7AA68005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AA68001, 0x7AA68006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AA68001, 0x7AA68007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA68001, 0x7AA68008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA68002,  1630, 0xAA680014, 68.27438, 92.13782, 55.68565, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -46,7 +46,7 @@ VALUES (0x7AA68009,  1542, 0xAA680040, 172.7483, 173.9358, 47.69666, 0.7660445, 
 /* @teleloc 0xAA680040 [172.748300 173.935800 47.696660] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA68009, 0x7AA6800A, '2019-02-10 00:00:00') /* Quartered Cloak */;
+VALUES (0x7AA68009, 0x7AA6800A, '2019-02-10 00:00:00') /* Quartered Cloak (44858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA6800A, 44858, 0xAA680040, 172.7483, 173.9358, 47.69666, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Quartered Cloak */

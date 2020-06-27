@@ -5,18 +5,18 @@ VALUES (0x7CA2E001,  1154, 0xCA2E0033, 148.179, 70.31481, 188.8867, 0.7071068, 0
 /* @teleloc 0xCA2E0033 [148.179000 70.314810 188.886700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA2E001, 0x7CA2E002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CA2E001, 0x7CA2E003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CA2E001, 0x7CA2E004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CA2E001, 0x7CA2E005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CA2E001, 0x7CA2E006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7CA2E001, 0x7CA2E007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CA2E001, 0x7CA2E008, '2019-02-10 00:00:00') /* Banished Banderling */
-     , (0x7CA2E001, 0x7CA2E009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CA2E001, 0x7CA2E00A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CA2E001, 0x7CA2E00B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CA2E001, 0x7CA2E00C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CA2E001, 0x7CA2E00D, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7CA2E001, 0x7CA2E002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CA2E001, 0x7CA2E003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CA2E001, 0x7CA2E004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CA2E001, 0x7CA2E005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CA2E001, 0x7CA2E006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7CA2E001, 0x7CA2E007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CA2E001, 0x7CA2E008, '2019-02-10 00:00:00') /* Banished Banderling (30898) */
+     , (0x7CA2E001, 0x7CA2E009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CA2E001, 0x7CA2E00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CA2E001, 0x7CA2E00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CA2E001, 0x7CA2E00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CA2E001, 0x7CA2E00D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2E002,  7090, 0xCA2E0033, 148.179, 70.31481, 188.8867, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -71,7 +71,7 @@ VALUES (0x7CA2E00E,  1542, 0xCA2E0023, 116.7839, 69.64907, 193.7638, 1, 0, 0, 0,
 /* @teleloc 0xCA2E0023 [116.783900 69.649070 193.763800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA2E00E, 0x7CA2E00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CA2E00E, 0x7CA2E00F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2E00F, 22571, 0xCA2E0023, 116.7839, 69.64907, 193.7638, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

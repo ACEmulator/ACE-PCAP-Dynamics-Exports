@@ -5,8 +5,8 @@ VALUES (0x7AC71001,  1154, 0xAC710025, 102.349, 98.52761, 65.60291, 0.1982187, 0
 /* @teleloc 0xAC710025 [102.349000 98.527610 65.602910] 0.198219 0.000000 0.000000 -0.980158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC71001, 0x7AC71002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AC71001, 0x7AC71003, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7AC71001, 0x7AC71002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AC71001, 0x7AC71003, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC71002, 22809, 0xAC710025, 102.349, 98.52761, 65.60291, 0.1982187, 0, 0, -0.9801578,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

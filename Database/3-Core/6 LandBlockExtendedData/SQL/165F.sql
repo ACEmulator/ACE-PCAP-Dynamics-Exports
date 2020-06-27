@@ -5,28 +5,28 @@ VALUES (0x7165F001,  1154, 0x165F0031, 151.8114, 18.33129, 48.27569, 0.9659258, 
 /* @teleloc 0x165F0031 [151.811400 18.331290 48.275690] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165F001, 0x7165F002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7165F001, 0x7165F003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7165F001, 0x7165F004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7165F001, 0x7165F005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7165F001, 0x7165F006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7165F001, 0x7165F007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7165F001, 0x7165F008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7165F001, 0x7165F009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7165F001, 0x7165F00A, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7165F001, 0x7165F00B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7165F001, 0x7165F00C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7165F001, 0x7165F00D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7165F001, 0x7165F00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7165F001, 0x7165F00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7165F001, 0x7165F010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7165F001, 0x7165F011, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7165F001, 0x7165F012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7165F001, 0x7165F013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7165F001, 0x7165F014, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7165F001, 0x7165F015, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7165F001, 0x7165F016, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7165F001, 0x7165F017, '2019-02-10 00:00:00') /* Tsuric */;
+VALUES (0x7165F001, 0x7165F002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7165F001, 0x7165F003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7165F001, 0x7165F004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7165F001, 0x7165F005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7165F001, 0x7165F006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7165F001, 0x7165F007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7165F001, 0x7165F008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7165F001, 0x7165F009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7165F001, 0x7165F00A, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7165F001, 0x7165F00B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7165F001, 0x7165F00C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7165F001, 0x7165F00D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7165F001, 0x7165F00E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7165F001, 0x7165F00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7165F001, 0x7165F010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7165F001, 0x7165F011, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7165F001, 0x7165F012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7165F001, 0x7165F013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7165F001, 0x7165F014, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7165F001, 0x7165F015, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7165F001, 0x7165F016, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7165F001, 0x7165F017, '2019-02-10 00:00:00') /* Tsuric (14877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165F002, 10814, 0x165F0031, 151.8114, 18.33129, 48.27569, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */
@@ -121,8 +121,8 @@ VALUES (0x7165F018,  1542, 0x165F0001, 7.219177, 18.58855, 21.94544, 0.9998088, 
 /* @teleloc 0x165F0001 [7.219177 18.588550 21.945440] 0.999809 0.000000 0.000000 -0.019553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165F018, 0x7165F019, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7165F018, 0x7165F01A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7165F018, 0x7165F019, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7165F018, 0x7165F01A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165F019,  9288, 0x165F0001, 7.219177, 18.58855, 21.94544, 0.9998088, 0, 0, -0.01955322,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

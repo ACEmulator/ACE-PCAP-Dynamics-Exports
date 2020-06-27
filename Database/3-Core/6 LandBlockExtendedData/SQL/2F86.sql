@@ -5,29 +5,29 @@ VALUES (0x72F86001,  1154, 0x2F860011, 71.42075, 11.56802, 73.69747, 0.8571023, 
 /* @teleloc 0x2F860011 [71.420750 11.568020 73.697470] 0.857102 0.000000 0.000000 -0.515146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F86001, 0x72F86002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F86001, 0x72F86003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F86001, 0x72F86004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72F86001, 0x72F86005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72F86001, 0x72F86006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72F86001, 0x72F86007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F86001, 0x72F86008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F86001, 0x72F86009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72F86001, 0x72F8600A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F86001, 0x72F8600B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72F86001, 0x72F8600C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F86001, 0x72F8600D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F86001, 0x72F8600E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F86001, 0x72F8600F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F86001, 0x72F86010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F86001, 0x72F86011, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F86001, 0x72F86012, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F86001, 0x72F86013, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72F86001, 0x72F86014, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F86001, 0x72F86015, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72F86001, 0x72F86016, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F86001, 0x72F86017, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F86001, 0x72F86018, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x72F86001, 0x72F86002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72F86001, 0x72F86003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F86001, 0x72F86004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72F86001, 0x72F86005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72F86001, 0x72F86006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72F86001, 0x72F86007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F86001, 0x72F86008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F86001, 0x72F86009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72F86001, 0x72F8600A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F86001, 0x72F8600B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72F86001, 0x72F8600C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F86001, 0x72F8600D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F86001, 0x72F8600E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F86001, 0x72F8600F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F86001, 0x72F86010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F86001, 0x72F86011, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F86001, 0x72F86012, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F86001, 0x72F86013, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72F86001, 0x72F86014, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F86001, 0x72F86015, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72F86001, 0x72F86016, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F86001, 0x72F86017, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F86001, 0x72F86018, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F86002, 36833, 0x2F860011, 71.42075, 11.56802, 73.69747, 0.8571023, 0, 0, -0.5151462,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

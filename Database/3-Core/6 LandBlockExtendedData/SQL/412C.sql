@@ -5,11 +5,11 @@ VALUES (0x7412C001,  1154, 0x412C0016, 58.59005, 120.7344, 13.36222, 0.8191521, 
 /* @teleloc 0x412C0016 [58.590050 120.734400 13.362220] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7412C001, 0x7412C002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7412C001, 0x7412C003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7412C001, 0x7412C004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7412C001, 0x7412C005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7412C001, 0x7412C006, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7412C001, 0x7412C002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7412C001, 0x7412C003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7412C001, 0x7412C004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7412C001, 0x7412C005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7412C001, 0x7412C006, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7412C002, 23566, 0x412C0016, 58.59005, 120.7344, 13.36222, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

@@ -5,24 +5,24 @@ VALUES (0x7316C001,  1154, 0x316C0036, 159.595, 132.7761, 260.0071, -0.3961395, 
 /* @teleloc 0x316C0036 [159.595000 132.776100 260.007100] -0.396140 0.000000 0.000000 -0.918190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7316C001, 0x7316C002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7316C001, 0x7316C003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7316C001, 0x7316C004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7316C001, 0x7316C005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7316C001, 0x7316C006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7316C001, 0x7316C007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7316C001, 0x7316C008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7316C001, 0x7316C009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7316C001, 0x7316C00A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7316C001, 0x7316C00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7316C001, 0x7316C00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7316C001, 0x7316C00D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7316C001, 0x7316C00E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7316C001, 0x7316C00F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7316C001, 0x7316C010, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7316C001, 0x7316C011, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7316C001, 0x7316C012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7316C001, 0x7316C013, '2019-02-10 00:00:00') /* Brumal */;
+VALUES (0x7316C001, 0x7316C002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7316C001, 0x7316C003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7316C001, 0x7316C004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7316C001, 0x7316C005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7316C001, 0x7316C006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7316C001, 0x7316C007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7316C001, 0x7316C008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7316C001, 0x7316C009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7316C001, 0x7316C00A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7316C001, 0x7316C00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7316C001, 0x7316C00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7316C001, 0x7316C00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7316C001, 0x7316C00E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7316C001, 0x7316C00F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7316C001, 0x7316C010, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7316C001, 0x7316C011, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7316C001, 0x7316C012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7316C001, 0x7316C013, '2019-02-10 00:00:00') /* Brumal (20189) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316C002,  7086, 0x316C0036, 159.595, 132.7761, 260.0071, -0.3961395, 0, 0, -0.9181904,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -101,8 +101,8 @@ VALUES (0x7316C014,  1542, 0x316C0001, 12.08641, 7.546834, 182.0604, 1, 0, 0, 0,
 /* @teleloc 0x316C0001 [12.086410 7.546834 182.060400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7316C014, 0x7316C015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7316C014, 0x7316C016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7316C014, 0x7316C015, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7316C014, 0x7316C016, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7316C015, 31445, 0x316C0001, 12.08641, 7.546834, 182.0604, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

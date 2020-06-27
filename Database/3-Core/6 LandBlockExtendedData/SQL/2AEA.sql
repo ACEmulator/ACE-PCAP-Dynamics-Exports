@@ -5,31 +5,31 @@ VALUES (0x72AEA001,  1154, 0x2AEA0040, 172.2537, 175.9562, 30.0025, 0.5135224, 0
 /* @teleloc 0x2AEA0040 [172.253700 175.956200 30.002500] 0.513522 0.000000 0.000000 -0.858076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEA001, 0x72AEA002, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72AEA001, 0x72AEA003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72AEA001, 0x72AEA004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72AEA001, 0x72AEA005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEA001, 0x72AEA006, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72AEA001, 0x72AEA007, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEA001, 0x72AEA008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72AEA001, 0x72AEA009, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72AEA001, 0x72AEA00A, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x72AEA001, 0x72AEA00B, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEA001, 0x72AEA00C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x72AEA001, 0x72AEA00D, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AEA001, 0x72AEA00E, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72AEA001, 0x72AEA00F, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72AEA001, 0x72AEA010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AEA001, 0x72AEA011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEA001, 0x72AEA012, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEA001, 0x72AEA013, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72AEA001, 0x72AEA014, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEA001, 0x72AEA015, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEA001, 0x72AEA016, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72AEA001, 0x72AEA017, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72AEA001, 0x72AEA018, '2019-02-10 00:00:00') /* Eater */
-     , (0x72AEA001, 0x72AEA019, '2019-02-10 00:00:00') /* Damaged Glacial Golem */
-     , (0x72AEA001, 0x72AEA01A, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x72AEA001, 0x72AEA002, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72AEA001, 0x72AEA003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72AEA001, 0x72AEA004, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72AEA001, 0x72AEA005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEA001, 0x72AEA006, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x72AEA001, 0x72AEA007, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEA001, 0x72AEA008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72AEA001, 0x72AEA009, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AEA001, 0x72AEA00A, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x72AEA001, 0x72AEA00B, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEA001, 0x72AEA00C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x72AEA001, 0x72AEA00D, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AEA001, 0x72AEA00E, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72AEA001, 0x72AEA00F, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72AEA001, 0x72AEA010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AEA001, 0x72AEA011, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEA001, 0x72AEA012, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEA001, 0x72AEA013, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72AEA001, 0x72AEA014, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEA001, 0x72AEA015, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEA001, 0x72AEA016, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72AEA001, 0x72AEA017, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72AEA001, 0x72AEA018, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72AEA001, 0x72AEA019, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x72AEA001, 0x72AEA01A, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEA002,  8595, 0x2AEA0040, 172.2537, 175.9562, 30.0025, 0.5135224, 0, 0, -0.8580762,  True, '2019-02-10 00:00:00'); /* Cursed Bones */

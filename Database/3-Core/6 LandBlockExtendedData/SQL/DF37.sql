@@ -5,19 +5,19 @@ VALUES (0x7DF37001,  1154, 0xDF37003F, 189.4172, 157.7639, 64.68164, 0.7071068, 
 /* @teleloc 0xDF37003F [189.417200 157.763900 64.681640] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF37001, 0x7DF37002, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7DF37001, 0x7DF37003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF37001, 0x7DF37004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DF37001, 0x7DF37005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7DF37001, 0x7DF37006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7DF37001, 0x7DF37007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF37001, 0x7DF37008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DF37001, 0x7DF37009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DF37001, 0x7DF3700A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7DF37001, 0x7DF3700B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DF37001, 0x7DF3700C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DF37001, 0x7DF3700D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF37001, 0x7DF3700E, '2019-02-10 00:00:00') /* Copper Golem Kingpin */;
+VALUES (0x7DF37001, 0x7DF37002, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7DF37001, 0x7DF37003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF37001, 0x7DF37004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DF37001, 0x7DF37005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7DF37001, 0x7DF37006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7DF37001, 0x7DF37007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF37001, 0x7DF37008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DF37001, 0x7DF37009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DF37001, 0x7DF3700A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7DF37001, 0x7DF3700B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DF37001, 0x7DF3700C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DF37001, 0x7DF3700D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF37001, 0x7DF3700E, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF37002, 22641, 0xDF37003F, 189.4172, 157.7639, 64.68164, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Shrine Statue */
@@ -76,7 +76,7 @@ VALUES (0x7DF3700F,  1542, 0xDF370028, 102.8115, 172.4164, 52.535, 0.8950232, 0,
 /* @teleloc 0xDF370028 [102.811500 172.416400 52.535000] 0.895023 0.000000 0.000000 -0.446020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF3700F, 0x7DF37010, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7DF3700F, 0x7DF37010, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF37010, 42528, 0xDF370028, 102.8115, 172.4164, 52.535, 0.8950232, 0, 0, -0.4460195,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,15 +5,15 @@ VALUES (0x7C8B5001,  1154, 0xC8B5001B, 88.70243, 51.94488, 444.01, 0.9796053, 0,
 /* @teleloc 0xC8B5001B [88.702430 51.944880 444.010000] 0.979605 0.000000 0.000000 -0.200931 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B5001, 0x7C8B5002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C8B5001, 0x7C8B5003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8B5001, 0x7C8B5004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8B5001, 0x7C8B5005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C8B5001, 0x7C8B5006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B5001, 0x7C8B5007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8B5001, 0x7C8B5008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C8B5001, 0x7C8B5009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B5001, 0x7C8B500A, '2019-02-10 00:00:00') /* Northern Black Claw Raider */;
+VALUES (0x7C8B5001, 0x7C8B5002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C8B5001, 0x7C8B5003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8B5001, 0x7C8B5004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8B5001, 0x7C8B5005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C8B5001, 0x7C8B5006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B5001, 0x7C8B5007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8B5001, 0x7C8B5008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C8B5001, 0x7C8B5009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B5001, 0x7C8B500A, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B5002, 14521, 0xC8B5001B, 88.70243, 51.94488, 444.01, 0.9796053, 0, 0, -0.2009314,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -56,8 +56,8 @@ VALUES (0x7C8B500B,  1542, 0xC8B50023, 108.7445, 50.44222, 444, -0.988565, 0, 0,
 /* @teleloc 0xC8B50023 [108.744500 50.442220 444.000000] -0.988565 0.000000 0.000000 -0.150795 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B500B, 0x7C8B500C, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7C8B500B, 0x7C8B500D, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7C8B500B, 0x7C8B500C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7C8B500B, 0x7C8B500D, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B500C,  8646, 0xC8B50023, 108.7445, 50.44222, 444, -0.988565, 0, 0, -0.1507952,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

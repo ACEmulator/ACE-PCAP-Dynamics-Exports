@@ -5,16 +5,16 @@ VALUES (0x7CA9F001,  1154, 0xCA9F0028, 113.5338, 180.5669, 26.40344, -0.5335135,
 /* @teleloc 0xCA9F0028 [113.533800 180.566900 26.403440] -0.533514 0.000000 0.000000 -0.845792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA9F001, 0x7CA9F002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CA9F001, 0x7CA9F003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA9F001, 0x7CA9F00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CA9F001, 0x7CA9F00B, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7CA9F001, 0x7CA9F002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CA9F001, 0x7CA9F003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA9F001, 0x7CA9F00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CA9F001, 0x7CA9F00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA9F002, 27254, 0xCA9F0028, 113.5338, 180.5669, 26.40344, -0.5335135, 0, 0, -0.8457915,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

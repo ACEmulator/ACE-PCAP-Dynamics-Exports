@@ -5,19 +5,19 @@ VALUES (0x7C6D0001,  1154, 0xC6D0000A, 44.44299, 24.55423, 106.2165, -0.5115141,
 /* @teleloc 0xC6D0000A [44.442990 24.554230 106.216500] -0.511514 0.000000 0.000000 -0.859275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6D0001, 0x7C6D0002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6D0001, 0x7C6D0003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6D0001, 0x7C6D0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6D0001, 0x7C6D0005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C6D0001, 0x7C6D0006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C6D0001, 0x7C6D0007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C6D0001, 0x7C6D0008, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7C6D0001, 0x7C6D0009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6D0001, 0x7C6D000A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6D0001, 0x7C6D000B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6D0001, 0x7C6D000C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6D0001, 0x7C6D000D, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C6D0001, 0x7C6D000E, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C6D0001, 0x7C6D0002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6D0001, 0x7C6D0003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6D0001, 0x7C6D0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6D0001, 0x7C6D0005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C6D0001, 0x7C6D0006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C6D0001, 0x7C6D0007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C6D0001, 0x7C6D0008, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7C6D0001, 0x7C6D0009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6D0001, 0x7C6D000A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6D0001, 0x7C6D000B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6D0001, 0x7C6D000C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6D0001, 0x7C6D000D, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C6D0001, 0x7C6D000E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6D0002, 11478, 0xC6D0000A, 44.44299, 24.55423, 106.2165, -0.5115141, 0, 0, -0.8592749,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -76,8 +76,8 @@ VALUES (0x7C6D000F,  1542, 0xC6D00026, 102.4263, 130.7811, 102.7692, 1, 0, 0, 0,
 /* @teleloc 0xC6D00026 [102.426300 130.781100 102.769200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6D000F, 0x7C6D0010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C6D000F, 0x7C6D0011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C6D000F, 0x7C6D0010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7C6D000F, 0x7C6D0011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6D0010, 22571, 0xC6D00026, 102.4263, 130.7811, 102.7692, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

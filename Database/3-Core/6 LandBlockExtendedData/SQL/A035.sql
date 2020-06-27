@@ -5,20 +5,20 @@ VALUES (0x7A035001,  1154, 0xA035001E, 85.30932, 127.9734, 72.45975, -0.4526533,
 /* @teleloc 0xA035001E [85.309320 127.973400 72.459750] -0.452653 0.000000 0.000000 -0.891687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A035001, 0x7A035002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A035001, 0x7A035003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A035001, 0x7A035004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A035001, 0x7A035005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A035001, 0x7A035006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A035001, 0x7A035007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A035001, 0x7A035008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A035001, 0x7A035009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A035001, 0x7A03500A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A035001, 0x7A03500B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A035001, 0x7A03500C, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A035001, 0x7A03500D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A035001, 0x7A03500E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A035001, 0x7A03500F, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A035001, 0x7A035002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A035001, 0x7A035003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A035001, 0x7A035004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A035001, 0x7A035005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A035001, 0x7A035006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A035001, 0x7A035007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A035001, 0x7A035008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A035001, 0x7A035009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A035001, 0x7A03500A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A035001, 0x7A03500B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A035001, 0x7A03500C, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A035001, 0x7A03500D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A035001, 0x7A03500E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A035001, 0x7A03500F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A035002,  7345, 0xA035001E, 85.30932, 127.9734, 72.45975, -0.4526533, 0, 0, -0.8916866,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -81,9 +81,9 @@ VALUES (0x7A035010,  1542, 0xA0350032, 157.4507, 36.87553, 65.95206, -0.9606584,
 /* @teleloc 0xA0350032 [157.450700 36.875530 65.952060] -0.960658 0.000000 0.000000 -0.277733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A035010, 0x7A035011, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A035010, 0x7A035012, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A035010, 0x7A035013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A035010, 0x7A035011, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A035010, 0x7A035012, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A035010, 0x7A035013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A035011,  8037, 0xA0350032, 157.4507, 36.87553, 65.95206, -0.9606584, 0, 0, -0.2777326,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

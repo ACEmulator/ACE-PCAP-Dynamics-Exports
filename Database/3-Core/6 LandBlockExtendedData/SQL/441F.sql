@@ -5,12 +5,12 @@ VALUES (0x7441F001,  1154, 0x441F0032, 158.5252, 25.06186, 130.0033, 0.9943097, 
 /* @teleloc 0x441F0032 [158.525200 25.061860 130.003300] 0.994310 0.000000 0.000000 -0.106528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7441F001, 0x7441F002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7441F001, 0x7441F003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7441F001, 0x7441F004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7441F001, 0x7441F005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7441F001, 0x7441F006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7441F001, 0x7441F007, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7441F001, 0x7441F002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7441F001, 0x7441F003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7441F001, 0x7441F004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7441F001, 0x7441F005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7441F001, 0x7441F006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7441F001, 0x7441F007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7441F002, 24279, 0x441F0032, 158.5252, 25.06186, 130.0033, 0.9943097, 0, 0, -0.1065284,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */

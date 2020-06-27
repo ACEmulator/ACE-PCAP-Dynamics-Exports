@@ -5,12 +5,12 @@ VALUES (0x7BED6001,  1154, 0xBED6001A, 74.01081, 26.53693, 168.425, -0.5034776, 
 /* @teleloc 0xBED6001A [74.010810 26.536930 168.425000] -0.503478 0.000000 0.000000 -0.864008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED6001, 0x7BED6002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BED6001, 0x7BED6003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BED6001, 0x7BED6004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BED6001, 0x7BED6005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BED6001, 0x7BED6006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BED6001, 0x7BED6007, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x7BED6001, 0x7BED6002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BED6001, 0x7BED6003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BED6001, 0x7BED6004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BED6001, 0x7BED6005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BED6001, 0x7BED6006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BED6001, 0x7BED6007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED6002, 14800, 0xBED6001A, 74.01081, 26.53693, 168.425, -0.5034776, 0, 0, -0.8640082,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

@@ -5,26 +5,26 @@ VALUES (0x7D88C001,  1154, 0xD88C0012, 66.97782, 26.39885, 0.006400108, 0.866025
 /* @teleloc 0xD88C0012 [66.977820 26.398850 0.006400] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D88C001, 0x7D88C002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C005, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D88C001, 0x7D88C006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88C001, 0x7D88C007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88C001, 0x7D88C008, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88C001, 0x7D88C009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D88C001, 0x7D88C00A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C00B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C00C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D88C001, 0x7D88C00D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D88C001, 0x7D88C00E, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D88C001, 0x7D88C00F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D88C001, 0x7D88C010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D88C001, 0x7D88C011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D88C001, 0x7D88C012, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D88C001, 0x7D88C013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D88C001, 0x7D88C014, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D88C001, 0x7D88C015, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7D88C001, 0x7D88C002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C005, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D88C001, 0x7D88C006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88C001, 0x7D88C007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88C001, 0x7D88C008, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88C001, 0x7D88C009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D88C001, 0x7D88C00A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C00B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C00C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D88C001, 0x7D88C00D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D88C001, 0x7D88C00E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D88C001, 0x7D88C00F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D88C001, 0x7D88C010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D88C001, 0x7D88C011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D88C001, 0x7D88C012, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D88C001, 0x7D88C013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D88C001, 0x7D88C014, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D88C001, 0x7D88C015, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D88C002,  7180, 0xD88C0012, 66.97782, 26.39885, 0.006400108, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -111,7 +111,7 @@ VALUES (0x7D88C016,  1542, 0xD88C0012, 68.81685, 32.34342, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xD88C0012 [68.816850 32.343420 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D88C016, 0x7D88C017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D88C016, 0x7D88C017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D88C017,  4179, 0xD88C0012, 68.81685, 32.34342, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

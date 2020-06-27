@@ -5,14 +5,14 @@ VALUES (0x7A8A6001,  1154, 0xA8A60039, 180.9415, 4.053703, 136.9894, -0.2382545,
 /* @teleloc 0xA8A60039 [180.941500 4.053703 136.989400] -0.238255 0.000000 0.000000 -0.971203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8A6001, 0x7A8A6002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A8A6001, 0x7A8A6003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A8A6001, 0x7A8A6004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A8A6001, 0x7A8A6005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A8A6001, 0x7A8A6006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A8A6001, 0x7A8A6007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A8A6001, 0x7A8A6008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A8A6001, 0x7A8A6009, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7A8A6001, 0x7A8A6002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A8A6001, 0x7A8A6003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A8A6001, 0x7A8A6004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A8A6001, 0x7A8A6005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A8A6001, 0x7A8A6006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A8A6001, 0x7A8A6007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A8A6001, 0x7A8A6008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A8A6001, 0x7A8A6009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8A6002, 28552, 0xA8A60039, 180.9415, 4.053703, 136.9894, -0.2382545, 0, 0, -0.9712027,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -51,7 +51,7 @@ VALUES (0x7A8A600A,  1542, 0xA8A60021, 105.8876, 21.54619, 125.6479, 1, 0, 0, 0,
 /* @teleloc 0xA8A60021 [105.887600 21.546190 125.647900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8A600A, 0x7A8A600B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A8A600A, 0x7A8A600B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8A600B, 22576, 0xA8A60021, 105.8876, 21.54619, 125.6479, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

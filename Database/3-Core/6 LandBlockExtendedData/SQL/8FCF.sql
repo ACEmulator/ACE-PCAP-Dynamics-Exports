@@ -9,9 +9,9 @@ VALUES (0x78FCF001,  1154, 0x8FCF0029, 130.6866, 18.77579, 508.8275, 0.7372774, 
 /* @teleloc 0x8FCF0029 [130.686600 18.775790 508.827500] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FCF001, 0x78FCF002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78FCF001, 0x78FCF003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78FCF001, 0x78FCF004, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x78FCF001, 0x78FCF002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78FCF001, 0x78FCF003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78FCF001, 0x78FCF004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FCF002,  7335, 0x8FCF0029, 130.6866, 18.77579, 508.8275, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

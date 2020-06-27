@@ -5,12 +5,12 @@ VALUES (0x7C194001,  1154, 0xC1940029, 122.8638, 15.07291, 1.5585, -0.06935833, 
 /* @teleloc 0xC1940029 [122.863800 15.072910 1.558500] -0.069358 0.000000 0.000000 -0.997592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C194001, 0x7C194002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C194001, 0x7C194003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C194001, 0x7C194004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C194001, 0x7C194005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C194001, 0x7C194006, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C194001, 0x7C194007, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7C194001, 0x7C194002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C194001, 0x7C194003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C194001, 0x7C194004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C194001, 0x7C194005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C194001, 0x7C194006, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C194001, 0x7C194007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C194002,   181, 0xC1940029, 122.8638, 15.07291, 1.5585, -0.06935833, 0, 0, -0.9975918,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

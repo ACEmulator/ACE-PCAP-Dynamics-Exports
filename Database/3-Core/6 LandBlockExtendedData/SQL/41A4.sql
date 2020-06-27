@@ -5,18 +5,18 @@ VALUES (0x741A4001,  1154, 0x41A40036, 156.6776, 141.2167, 48.11892, -0.5986324,
 /* @teleloc 0x41A40036 [156.677600 141.216700 48.118920] -0.598632 0.000000 0.000000 -0.801024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741A4001, 0x741A4002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x741A4001, 0x741A4003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x741A4001, 0x741A4004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x741A4001, 0x741A4005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x741A4001, 0x741A4006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x741A4001, 0x741A4007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x741A4001, 0x741A4008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x741A4001, 0x741A4009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x741A4001, 0x741A400A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x741A4001, 0x741A400B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x741A4001, 0x741A400C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x741A4001, 0x741A400D, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x741A4001, 0x741A4002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x741A4001, 0x741A4003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x741A4001, 0x741A4004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x741A4001, 0x741A4005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x741A4001, 0x741A4006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x741A4001, 0x741A4007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x741A4001, 0x741A4008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x741A4001, 0x741A4009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x741A4001, 0x741A400A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x741A4001, 0x741A400B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x741A4001, 0x741A400C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x741A4001, 0x741A400D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741A4002, 23565, 0x41A40036, 156.6776, 141.2167, 48.11892, -0.5986324, 0, 0, -0.8010239,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

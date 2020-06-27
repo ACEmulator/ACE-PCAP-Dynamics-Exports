@@ -5,17 +5,17 @@ VALUES (0x7F41C001,  1154, 0xF41C002D, 123.3375, 112.1064, 20, 0.7625456, 0, 0, 
 /* @teleloc 0xF41C002D [123.337500 112.106400 20.000000] 0.762546 0.000000 0.000000 -0.646934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41C001, 0x7F41C002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F41C001, 0x7F41C003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F41C001, 0x7F41C004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F41C001, 0x7F41C005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F41C001, 0x7F41C006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41C001, 0x7F41C007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F41C001, 0x7F41C008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41C001, 0x7F41C009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F41C001, 0x7F41C00A, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F41C001, 0x7F41C00B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F41C001, 0x7F41C00C, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F41C001, 0x7F41C002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F41C001, 0x7F41C003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F41C001, 0x7F41C004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F41C001, 0x7F41C005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F41C001, 0x7F41C006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41C001, 0x7F41C007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F41C001, 0x7F41C008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41C001, 0x7F41C009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F41C001, 0x7F41C00A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F41C001, 0x7F41C00B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F41C001, 0x7F41C00C, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41C002,  7111, 0xF41C002D, 123.3375, 112.1064, 20, 0.7625456, 0, 0, -0.6469344,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -66,8 +66,8 @@ VALUES (0x7F41C00D,  1542, 0xF41C002E, 133.8423, 130.7127, 18.84647, -0.7448344,
 /* @teleloc 0xF41C002E [133.842300 130.712700 18.846470] -0.744834 0.000000 0.000000 -0.667249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41C00D, 0x7F41C00E, '2019-02-10 00:00:00') /* Nutmeg */
-     , (0x7F41C00D, 0x7F41C00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F41C00D, 0x7F41C00E, '2019-02-10 00:00:00') /* Nutmeg (14795) */
+     , (0x7F41C00D, 0x7F41C00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41C00E, 14795, 0xF41C002E, 133.8423, 130.7127, 18.84647, -0.7448344, 0, 0, -0.6672493,  True, '2019-02-10 00:00:00'); /* Nutmeg */

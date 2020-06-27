@@ -5,25 +5,25 @@ VALUES (0x7BB6B001,  1154, 0xBB6B002F, 134.9253, 148.1981, 6.00495, -0.7565971, 
 /* @teleloc 0xBB6B002F [134.925300 148.198100 6.004950] -0.756597 0.000000 0.000000 -0.653881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB6B001, 0x7BB6B002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BB6B001, 0x7BB6B003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B00A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B00B, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BB6B001, 0x7BB6B00C, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B00D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B00E, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB6B001, 0x7BB6B00F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB6B001, 0x7BB6B010, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BB6B001, 0x7BB6B011, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BB6B001, 0x7BB6B012, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB6B001, 0x7BB6B013, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB6B001, 0x7BB6B014, '2019-02-10 00:00:00') /* Swamp Gromnie */;
+VALUES (0x7BB6B001, 0x7BB6B002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BB6B001, 0x7BB6B003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB6B001, 0x7BB6B004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB6B001, 0x7BB6B005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B009, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B00A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B00B, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BB6B001, 0x7BB6B00C, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B00D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B00E, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB6B001, 0x7BB6B00F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB6B001, 0x7BB6B010, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB6B001, 0x7BB6B011, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BB6B001, 0x7BB6B012, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB6B001, 0x7BB6B013, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB6B001, 0x7BB6B014, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB6B002,     8, 0xBB6B002F, 134.9253, 148.1981, 6.00495, -0.7565971, 0, 0, -0.6538814,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

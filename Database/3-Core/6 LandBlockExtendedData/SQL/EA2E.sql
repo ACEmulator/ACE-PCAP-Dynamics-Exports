@@ -5,12 +5,12 @@ VALUES (0x7EA2E001,  1154, 0xEA2E0016, 51.26001, 135.1448, 41.44167, 0.5974373, 
 /* @teleloc 0xEA2E0016 [51.260010 135.144800 41.441670] 0.597437 0.000000 0.000000 -0.801916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA2E001, 0x7EA2E002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7EA2E001, 0x7EA2E003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7EA2E001, 0x7EA2E004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7EA2E001, 0x7EA2E005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7EA2E001, 0x7EA2E006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7EA2E001, 0x7EA2E007, '2019-02-10 00:00:00') /* Gigas Lugian */;
+VALUES (0x7EA2E001, 0x7EA2E002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7EA2E001, 0x7EA2E003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7EA2E001, 0x7EA2E004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7EA2E001, 0x7EA2E005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7EA2E001, 0x7EA2E006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7EA2E001, 0x7EA2E007, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA2E002, 28552, 0xEA2E0016, 51.26001, 135.1448, 41.44167, 0.5974373, 0, 0, -0.8019156,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

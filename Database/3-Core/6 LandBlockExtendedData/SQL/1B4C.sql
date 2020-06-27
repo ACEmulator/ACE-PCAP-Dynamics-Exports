@@ -5,23 +5,23 @@ VALUES (0x71B4C001,  1154, 0x1B4C0037, 164.3219, 156.9603, 6.615952, -0.9122276,
 /* @teleloc 0x1B4C0037 [164.321900 156.960300 6.615952] -0.912228 0.000000 0.000000 -0.409684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B4C001, 0x71B4C002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x71B4C001, 0x71B4C003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71B4C001, 0x71B4C004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B4C001, 0x71B4C005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B4C001, 0x71B4C006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71B4C001, 0x71B4C007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71B4C001, 0x71B4C008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71B4C001, 0x71B4C009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71B4C001, 0x71B4C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B4C001, 0x71B4C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B4C001, 0x71B4C00C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71B4C001, 0x71B4C00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71B4C001, 0x71B4C00E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71B4C001, 0x71B4C00F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71B4C001, 0x71B4C010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71B4C001, 0x71B4C011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71B4C001, 0x71B4C012, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x71B4C001, 0x71B4C002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x71B4C001, 0x71B4C003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71B4C001, 0x71B4C004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B4C001, 0x71B4C005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B4C001, 0x71B4C006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71B4C001, 0x71B4C007, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71B4C001, 0x71B4C008, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71B4C001, 0x71B4C009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71B4C001, 0x71B4C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B4C001, 0x71B4C00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B4C001, 0x71B4C00C, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71B4C001, 0x71B4C00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71B4C001, 0x71B4C00E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71B4C001, 0x71B4C00F, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x71B4C001, 0x71B4C010, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x71B4C001, 0x71B4C011, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71B4C001, 0x71B4C012, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B4C002, 22053, 0x1B4C0037, 164.3219, 156.9603, 6.615952, -0.9122276, 0, 0, -0.4096838,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -96,8 +96,8 @@ VALUES (0x71B4C013,  1542, 0x1B4C0007, 20.29634, 144.1315, 20.68303, 0.9990482, 
 /* @teleloc 0x1B4C0007 [20.296340 144.131500 20.683030] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B4C013, 0x71B4C014, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x71B4C013, 0x71B4C015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71B4C013, 0x71B4C014, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x71B4C013, 0x71B4C015, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B4C014, 24476, 0x1B4C0007, 20.29634, 144.1315, 20.68303, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Sturdy Steel Chest */

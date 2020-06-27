@@ -5,20 +5,20 @@ VALUES (0x78F0D001,  1154, 0x8F0D002F, 137.1136, 149.357, 33.95868, -0.9186358, 
 /* @teleloc 0x8F0D002F [137.113600 149.357000 33.958680] -0.918636 0.000000 0.000000 -0.395106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F0D001, 0x78F0D002, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x78F0D001, 0x78F0D003, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x78F0D001, 0x78F0D004, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x78F0D001, 0x78F0D005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x78F0D001, 0x78F0D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x78F0D001, 0x78F0D007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x78F0D001, 0x78F0D008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78F0D001, 0x78F0D009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78F0D001, 0x78F0D00A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78F0D001, 0x78F0D00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78F0D001, 0x78F0D00C, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x78F0D001, 0x78F0D00D, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x78F0D001, 0x78F0D00E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x78F0D001, 0x78F0D00F, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x78F0D001, 0x78F0D002, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x78F0D001, 0x78F0D003, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x78F0D001, 0x78F0D004, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x78F0D001, 0x78F0D005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x78F0D001, 0x78F0D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x78F0D001, 0x78F0D007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78F0D001, 0x78F0D008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78F0D001, 0x78F0D009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78F0D001, 0x78F0D00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78F0D001, 0x78F0D00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78F0D001, 0x78F0D00C, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x78F0D001, 0x78F0D00D, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x78F0D001, 0x78F0D00E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x78F0D001, 0x78F0D00F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F0D002, 34297, 0x8F0D002F, 137.1136, 149.357, 33.95868, -0.9186358, 0, 0, -0.3951055,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */

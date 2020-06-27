@@ -5,17 +5,17 @@ VALUES (0x7BDA4001,  1154, 0xBDA40037, 152.44, 147.8554, 36.51234, 0.6362475, 0,
 /* @teleloc 0xBDA40037 [152.440000 147.855400 36.512340] 0.636248 0.000000 0.000000 -0.771485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDA4001, 0x7BDA4002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7BDA4001, 0x7BDA4003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BDA4001, 0x7BDA4004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BDA4001, 0x7BDA4005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BDA4001, 0x7BDA4006, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7BDA4001, 0x7BDA4007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7BDA4001, 0x7BDA4008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BDA4001, 0x7BDA4009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BDA4001, 0x7BDA400A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BDA4001, 0x7BDA400B, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7BDA4001, 0x7BDA400C, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7BDA4001, 0x7BDA4002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7BDA4001, 0x7BDA4003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BDA4001, 0x7BDA4004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BDA4001, 0x7BDA4005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BDA4001, 0x7BDA4006, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7BDA4001, 0x7BDA4007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7BDA4001, 0x7BDA4008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BDA4001, 0x7BDA4009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BDA4001, 0x7BDA400A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BDA4001, 0x7BDA400B, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7BDA4001, 0x7BDA400C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDA4002,   183, 0xBDA40037, 152.44, 147.8554, 36.51234, 0.6362475, 0, 0, -0.771485,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -66,7 +66,7 @@ VALUES (0x7BDA400D,  1542, 0xBDA4000C, 47.88265, 73.51081, 32.47662, 0.9990482, 
 /* @teleloc 0xBDA4000C [47.882650 73.510810 32.476620] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDA400D, 0x7BDA400E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BDA400D, 0x7BDA400E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDA400E,  4179, 0xBDA4000C, 47.88265, 73.51081, 32.47662, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

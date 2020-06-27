@@ -5,13 +5,13 @@ VALUES (0x7A025001,  1154, 0xA025000D, 35.05265, 105.6625, 276.007, -0.9999444, 
 /* @teleloc 0xA025000D [35.052650 105.662500 276.007000] -0.999944 0.000000 0.000000 -0.010542 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A025001, 0x7A025002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A025001, 0x7A025003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A025001, 0x7A025004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A025001, 0x7A025005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A025001, 0x7A025006, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A025001, 0x7A025007, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7A025001, 0x7A025008, '2019-02-10 00:00:00') /* Acolyte of Breath */;
+VALUES (0x7A025001, 0x7A025002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A025001, 0x7A025003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A025001, 0x7A025004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A025001, 0x7A025005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A025001, 0x7A025006, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A025001, 0x7A025007, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7A025001, 0x7A025008, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A025002, 14518, 0xA025000D, 35.05265, 105.6625, 276.007, -0.9999444, 0, 0, -0.01054163,  True, '2019-02-10 00:00:00'); /* Shivver */

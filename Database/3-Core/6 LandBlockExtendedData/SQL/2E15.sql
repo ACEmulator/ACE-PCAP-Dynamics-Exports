@@ -5,18 +5,18 @@ VALUES (0x72E15001,  1154, 0x2E15000A, 33.14894, 47.41872, 49.86118, 0.008757913
 /* @teleloc 0x2E15000A [33.148940 47.418720 49.861180] 0.008758 0.000000 0.000000 -0.999962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E15001, 0x72E15002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E15001, 0x72E15003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E15001, 0x72E15004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E15001, 0x72E15005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E15001, 0x72E15006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72E15001, 0x72E15007, '2019-02-10 00:00:00') /* Flare */
-     , (0x72E15001, 0x72E15008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E15001, 0x72E15009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E15001, 0x72E1500A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E15001, 0x72E1500B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72E15001, 0x72E1500C, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x72E15001, 0x72E1500D, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x72E15001, 0x72E15002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E15001, 0x72E15003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E15001, 0x72E15004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E15001, 0x72E15005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E15001, 0x72E15006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72E15001, 0x72E15007, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72E15001, 0x72E15008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E15001, 0x72E15009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E15001, 0x72E1500A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E15001, 0x72E1500B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72E15001, 0x72E1500C, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x72E15001, 0x72E1500D, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E15002,  7119, 0x2E15000A, 33.14894, 47.41872, 49.86118, 0.008757913, 0, 0, -0.9999617,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -71,7 +71,7 @@ VALUES (0x72E1500E,  1542, 0x2E150001, 23.31286, 7.970703, 42.88607, -0.9883009,
 /* @teleloc 0x2E150001 [23.312860 7.970703 42.886070] -0.988301 0.000000 0.000000 -0.152516 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E1500E, 0x72E1500F, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x72E1500E, 0x72E1500F, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E1500F, 11554, 0x2E150001, 23.31286, 7.970703, 42.88607, -0.9883009, 0, 0, -0.1525164,  True, '2019-02-10 00:00:00'); /* Colban Plant */

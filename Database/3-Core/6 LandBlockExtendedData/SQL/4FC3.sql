@@ -17,43 +17,43 @@ VALUES (0x74FC3003,  1154, 0x4FC30020, 89.60201, 173.457, 0.00999999, 0.7071068,
 /* @teleloc 0x4FC30020 [89.602010 173.457000 0.010000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FC3003, 0x74FC3004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74FC3003, 0x74FC3005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74FC3003, 0x74FC3006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74FC3003, 0x74FC3007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x74FC3003, 0x74FC3008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74FC3003, 0x74FC3009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74FC3003, 0x74FC300A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74FC3003, 0x74FC300B, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74FC3003, 0x74FC300C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74FC3003, 0x74FC300D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74FC3003, 0x74FC300E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74FC3003, 0x74FC300F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74FC3003, 0x74FC3010, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74FC3003, 0x74FC3011, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x74FC3003, 0x74FC3012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74FC3003, 0x74FC3013, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74FC3003, 0x74FC3014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74FC3003, 0x74FC3015, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74FC3003, 0x74FC3016, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74FC3003, 0x74FC3017, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74FC3003, 0x74FC3018, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74FC3003, 0x74FC3019, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74FC3003, 0x74FC301A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74FC3003, 0x74FC301B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x74FC3003, 0x74FC301C, '2019-02-10 00:00:00') /* Frost */
-     , (0x74FC3003, 0x74FC301D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74FC3003, 0x74FC301E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x74FC3003, 0x74FC301F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74FC3003, 0x74FC3020, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74FC3003, 0x74FC3021, '2019-02-10 00:00:00') /* Banished Mu-miyah */
-     , (0x74FC3003, 0x74FC3022, '2019-02-10 00:00:00') /* Revenant */
-     , (0x74FC3003, 0x74FC3023, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74FC3003, 0x74FC3024, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74FC3003, 0x74FC3025, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74FC3003, 0x74FC3026, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74FC3003, 0x74FC3027, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74FC3003, 0x74FC3028, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x74FC3003, 0x74FC3004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74FC3003, 0x74FC3005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74FC3003, 0x74FC3006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74FC3003, 0x74FC3007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x74FC3003, 0x74FC3008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74FC3003, 0x74FC3009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74FC3003, 0x74FC300A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74FC3003, 0x74FC300B, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x74FC3003, 0x74FC300C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74FC3003, 0x74FC300D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74FC3003, 0x74FC300E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74FC3003, 0x74FC300F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74FC3003, 0x74FC3010, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74FC3003, 0x74FC3011, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x74FC3003, 0x74FC3012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74FC3003, 0x74FC3013, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74FC3003, 0x74FC3014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74FC3003, 0x74FC3015, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74FC3003, 0x74FC3016, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74FC3003, 0x74FC3017, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74FC3003, 0x74FC3018, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74FC3003, 0x74FC3019, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74FC3003, 0x74FC301A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74FC3003, 0x74FC301B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x74FC3003, 0x74FC301C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74FC3003, 0x74FC301D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74FC3003, 0x74FC301E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x74FC3003, 0x74FC301F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74FC3003, 0x74FC3020, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74FC3003, 0x74FC3021, '2019-02-10 00:00:00') /* Banished Mu-miyah (30902) */
+     , (0x74FC3003, 0x74FC3022, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x74FC3003, 0x74FC3023, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74FC3003, 0x74FC3024, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74FC3003, 0x74FC3025, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74FC3003, 0x74FC3026, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74FC3003, 0x74FC3027, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74FC3003, 0x74FC3028, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FC3004,   199, 0x4FC30020, 89.60201, 173.457, 0.00999999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -208,8 +208,8 @@ VALUES (0x74FC3029,  1542, 0x4FC3003F, 187.7314, 148.2583, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x4FC3003F [187.731400 148.258300 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FC3029, 0x74FC302A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74FC3029, 0x74FC302B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74FC3029, 0x74FC302A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74FC3029, 0x74FC302B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FC302A, 22567, 0x4FC3003F, 187.7314, 148.2583, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

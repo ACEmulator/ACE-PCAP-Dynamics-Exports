@@ -5,12 +5,12 @@ VALUES (0x79BA7001,  1154, 0x9BA70001, 8.298056, 14.95904, 84.75797, 0.4226182, 
 /* @teleloc 0x9BA70001 [8.298056 14.959040 84.757970] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BA7001, 0x79BA7002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79BA7001, 0x79BA7003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79BA7001, 0x79BA7004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79BA7001, 0x79BA7005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79BA7001, 0x79BA7006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79BA7001, 0x79BA7007, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x79BA7001, 0x79BA7002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79BA7001, 0x79BA7003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79BA7001, 0x79BA7004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79BA7001, 0x79BA7005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79BA7001, 0x79BA7006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79BA7001, 0x79BA7007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BA7002,  1609, 0x9BA70001, 8.298056, 14.95904, 84.75797, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

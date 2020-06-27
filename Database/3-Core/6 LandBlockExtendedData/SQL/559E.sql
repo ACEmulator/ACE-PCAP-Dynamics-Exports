@@ -5,10 +5,10 @@ VALUES (0x7559E001,  1154, 0x559E0036, 144.3243, 120.7833, 27.90397, 0.9238795, 
 /* @teleloc 0x559E0036 [144.324300 120.783300 27.903970] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7559E001, 0x7559E002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7559E001, 0x7559E003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559E001, 0x7559E004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559E001, 0x7559E005, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7559E001, 0x7559E002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7559E001, 0x7559E003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559E001, 0x7559E004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559E001, 0x7559E005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7559E002,  7124, 0x559E0036, 144.3243, 120.7833, 27.90397, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -31,7 +31,7 @@ VALUES (0x7559E006,  1542, 0x559E002E, 141.988, 120.1036, 27.98273, 0.9238795, 0
 /* @teleloc 0x559E002E [141.988000 120.103600 27.982730] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7559E006, 0x7559E007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7559E006, 0x7559E007, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7559E007,  4180, 0x559E002E, 141.988, 120.1036, 27.98273, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

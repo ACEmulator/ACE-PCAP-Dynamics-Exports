@@ -5,15 +5,15 @@ VALUES (0x792CE001,  1154, 0x92CE0032, 151.3268, 27.46104, 309.7697, 0.3795101, 
 /* @teleloc 0x92CE0032 [151.326800 27.461040 309.769700] 0.379510 0.000000 0.000000 -0.925188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792CE001, 0x792CE002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x792CE001, 0x792CE003, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x792CE001, 0x792CE004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x792CE001, 0x792CE005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x792CE001, 0x792CE006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x792CE001, 0x792CE007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x792CE001, 0x792CE008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792CE001, 0x792CE009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x792CE001, 0x792CE00A, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x792CE001, 0x792CE002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x792CE001, 0x792CE003, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x792CE001, 0x792CE004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x792CE001, 0x792CE005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x792CE001, 0x792CE006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x792CE001, 0x792CE007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x792CE001, 0x792CE008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792CE001, 0x792CE009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x792CE001, 0x792CE00A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792CE002,  9252, 0x92CE0032, 151.3268, 27.46104, 309.7697, 0.3795101, 0, 0, -0.9251876,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -56,7 +56,7 @@ VALUES (0x792CE00B,  1542, 0x92CE002B, 123.6729, 64.58804, 336.4051, 0.9990482, 
 /* @teleloc 0x92CE002B [123.672900 64.588040 336.405100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792CE00B, 0x792CE00C, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x792CE00B, 0x792CE00C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792CE00C,  6117, 0x92CE002B, 123.6729, 64.58804, 336.4051, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

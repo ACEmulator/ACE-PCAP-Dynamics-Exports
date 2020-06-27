@@ -5,13 +5,13 @@ VALUES (0x72E3F001,  1154, 0x2E3F0027, 114.6757, 153.7073, 23.70952, 0.5664063, 
 /* @teleloc 0x2E3F0027 [114.675700 153.707300 23.709520] 0.566406 0.000000 0.000000 -0.824126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E3F001, 0x72E3F002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E3F001, 0x72E3F003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E3F001, 0x72E3F004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E3F001, 0x72E3F005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E3F001, 0x72E3F006, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E3F001, 0x72E3F007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E3F001, 0x72E3F008, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x72E3F001, 0x72E3F002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E3F001, 0x72E3F003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E3F001, 0x72E3F004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E3F001, 0x72E3F005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E3F001, 0x72E3F006, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E3F001, 0x72E3F007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E3F001, 0x72E3F008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E3F002,  7184, 0x2E3F0027, 114.6757, 153.7073, 23.70952, 0.5664063, 0, 0, -0.8241262,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -46,7 +46,7 @@ VALUES (0x72E3F009,  1542, 0x2E3F0011, 71.97588, 23.08966, 27.86636, -0.1736482,
 /* @teleloc 0x2E3F0011 [71.975880 23.089660 27.866360] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E3F009, 0x72E3F00A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x72E3F009, 0x72E3F00A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E3F00A,  4180, 0x2E3F0011, 71.97588, 23.08966, 27.86636, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,12 +5,12 @@ VALUES (0x7AD9E001,  1154, 0xAD9E0040, 183.5012, 180.2993, 72.71156, 0.8191521, 
 /* @teleloc 0xAD9E0040 [183.501200 180.299300 72.711560] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9E001, 0x7AD9E002, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AD9E001, 0x7AD9E003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AD9E001, 0x7AD9E004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7AD9E001, 0x7AD9E005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AD9E001, 0x7AD9E006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AD9E001, 0x7AD9E007, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AD9E001, 0x7AD9E002, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AD9E001, 0x7AD9E003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AD9E001, 0x7AD9E004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7AD9E001, 0x7AD9E005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AD9E001, 0x7AD9E006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AD9E001, 0x7AD9E007, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9E002,  1631, 0xAD9E0040, 183.5012, 180.2993, 72.71156, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Drudge Servant */
@@ -41,7 +41,7 @@ VALUES (0x7AD9E008,  1542, 0xAD9E0028, 98.13926, 187.3405, 81.64496, 0.06730551,
 /* @teleloc 0xAD9E0028 [98.139260 187.340500 81.644960] 0.067306 0.000000 0.000000 -0.997732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD9E008, 0x7AD9E009, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7AD9E008, 0x7AD9E009, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD9E009, 15715, 0xAD9E0028, 98.13926, 187.3405, 81.64496, 0.06730551, 0, 0, -0.9977324,  True, '2019-02-10 00:00:00'); /* Sunflower */

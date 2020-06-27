@@ -5,25 +5,25 @@ VALUES (0x75AEA001,  1154, 0x5AEA0035, 144.5728, 97.98019, -0.44175, 0.6963072, 
 /* @teleloc 0x5AEA0035 [144.572800 97.980190 -0.441750] 0.696307 0.000000 0.000000 -0.717744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AEA001, 0x75AEA002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x75AEA001, 0x75AEA003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75AEA001, 0x75AEA004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x75AEA001, 0x75AEA005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75AEA001, 0x75AEA006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75AEA001, 0x75AEA007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75AEA001, 0x75AEA008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x75AEA001, 0x75AEA009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75AEA001, 0x75AEA00A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x75AEA001, 0x75AEA00B, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75AEA001, 0x75AEA00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75AEA001, 0x75AEA00D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75AEA001, 0x75AEA00E, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75AEA001, 0x75AEA00F, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x75AEA001, 0x75AEA010, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x75AEA001, 0x75AEA011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75AEA001, 0x75AEA012, '2019-02-10 00:00:00') /* Caustic */
-     , (0x75AEA001, 0x75AEA013, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x75AEA001, 0x75AEA014, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x75AEA001, 0x75AEA002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x75AEA001, 0x75AEA003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75AEA001, 0x75AEA004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x75AEA001, 0x75AEA005, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x75AEA001, 0x75AEA006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x75AEA001, 0x75AEA007, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75AEA001, 0x75AEA008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x75AEA001, 0x75AEA009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75AEA001, 0x75AEA00A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x75AEA001, 0x75AEA00B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75AEA001, 0x75AEA00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75AEA001, 0x75AEA00D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75AEA001, 0x75AEA00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75AEA001, 0x75AEA00F, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x75AEA001, 0x75AEA010, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x75AEA001, 0x75AEA011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75AEA001, 0x75AEA012, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x75AEA001, 0x75AEA013, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x75AEA001, 0x75AEA014, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AEA002, 24325, 0x5AEA0035, 144.5728, 97.98019, -0.44175, 0.6963072, 0, 0, -0.7177439,  True, '2019-02-10 00:00:00'); /* Phantasm */

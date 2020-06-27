@@ -5,16 +5,16 @@ VALUES (0x7C915001,  1154, 0xC9150036, 167.7453, 120.9681, 0.04364824, 0.8191521
 /* @teleloc 0xC9150036 [167.745300 120.968100 0.043648] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C915001, 0x7C915002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C915001, 0x7C915003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C915001, 0x7C915004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C915001, 0x7C915005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C915001, 0x7C915006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C915001, 0x7C915007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C915001, 0x7C915008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C915001, 0x7C915009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C915001, 0x7C91500A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C915001, 0x7C91500B, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7C915001, 0x7C915002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C915001, 0x7C915003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C915001, 0x7C915004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C915001, 0x7C915005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C915001, 0x7C915006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C915001, 0x7C915007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C915001, 0x7C915008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C915001, 0x7C915009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C915001, 0x7C91500A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C915001, 0x7C91500B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C915002,  7109, 0xC9150036, 167.7453, 120.9681, 0.04364824, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -61,7 +61,7 @@ VALUES (0x7C91500C,  1542, 0xC9150005, 12.28373, 119.4211, -0.163, -0.8246492, 0
 /* @teleloc 0xC9150005 [12.283730 119.421100 -0.163000] -0.824649 0.000000 0.000000 -0.565645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91500C, 0x7C91500D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7C91500C, 0x7C91500D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C91500D,  1955, 0xC9150005, 12.28373, 119.4211, -0.163, -0.8246492, 0, 0, -0.5656445,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,12 +5,12 @@ VALUES (0x725BC001,  1154, 0x25BC0005, 13.5031, 97.5393, 21.5425, 0.9855214, 0, 
 /* @teleloc 0x25BC0005 [13.503100 97.539300 21.542500] 0.985521 0.000000 0.000000 0.169551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725BC001, 0x725BC002, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x725BC001, 0x725BC003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x725BC001, 0x725BC004, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x725BC001, 0x725BC005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x725BC001, 0x725BC006, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x725BC001, 0x725BC007, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x725BC001, 0x725BC002, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x725BC001, 0x725BC003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x725BC001, 0x725BC004, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x725BC001, 0x725BC005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x725BC001, 0x725BC006, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x725BC001, 0x725BC007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725BC002, 11487, 0x25BC0005, 13.5031, 97.5393, 21.5425, 0.9855214, 0, 0, 0.1695511,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */

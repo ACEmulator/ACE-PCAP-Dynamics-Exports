@@ -5,18 +5,18 @@ VALUES (0x7B038001,  1154, 0xB038002F, 136.7486, 164.5606, 91.84042, 0.8870109, 
 /* @teleloc 0xB038002F [136.748600 164.560600 91.840420] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B038001, 0x7B038002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B038001, 0x7B038003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B038001, 0x7B038004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B038001, 0x7B038005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B038001, 0x7B038006, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7B038001, 0x7B038007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B038001, 0x7B038008, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7B038001, 0x7B038009, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7B038001, 0x7B03800A, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B038001, 0x7B03800B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B038001, 0x7B03800C, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7B038001, 0x7B03800D, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7B038001, 0x7B038002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B038001, 0x7B038003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B038001, 0x7B038004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B038001, 0x7B038005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B038001, 0x7B038006, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7B038001, 0x7B038007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B038001, 0x7B038008, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7B038001, 0x7B038009, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7B038001, 0x7B03800A, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B038001, 0x7B03800B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B038001, 0x7B03800C, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7B038001, 0x7B03800D, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B038002,  2576, 0xB038002F, 136.7486, 164.5606, 91.84042, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7B03800E,  1542, 0xB038003A, 191.8338, 41.40944, 79.49792, -0.4461977,
 /* @teleloc 0xB038003A [191.833800 41.409440 79.497920] -0.446198 0.000000 0.000000 -0.894934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B03800E, 0x7B03800F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B03800E, 0x7B03800F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B03800F,  4380, 0xB038003A, 191.8338, 41.40944, 79.49792, -0.4461977, 0, 0, -0.8949344,  True, '2019-02-10 00:00:00'); /* Bones */

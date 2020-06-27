@@ -5,15 +5,15 @@ VALUES (0x781BC001,  1154, 0x81BC0004, 12.72353, 75.65929, 113.2835, -0.5498279,
 /* @teleloc 0x81BC0004 [12.723530 75.659290 113.283500] -0.549828 0.000000 0.000000 -0.835278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781BC001, 0x781BC002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x781BC001, 0x781BC003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x781BC001, 0x781BC004, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x781BC001, 0x781BC005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x781BC001, 0x781BC006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x781BC001, 0x781BC007, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x781BC001, 0x781BC008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x781BC001, 0x781BC009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x781BC001, 0x781BC00A, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x781BC001, 0x781BC002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x781BC001, 0x781BC003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x781BC001, 0x781BC004, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x781BC001, 0x781BC005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x781BC001, 0x781BC006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x781BC001, 0x781BC007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x781BC001, 0x781BC008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x781BC001, 0x781BC009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x781BC001, 0x781BC00A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781BC002,  6041, 0x81BC0004, 12.72353, 75.65929, 113.2835, -0.5498279, 0, 0, -0.8352779,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

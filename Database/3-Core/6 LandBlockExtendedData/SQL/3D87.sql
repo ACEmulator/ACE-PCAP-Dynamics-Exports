@@ -5,11 +5,11 @@ VALUES (0x73D87001,  1154, 0x3D87001C, 73.42189, 91.0379, 1.593992, 0.8376762, 0
 /* @teleloc 0x3D87001C [73.421890 91.037900 1.593992] 0.837676 0.000000 0.000000 -0.546167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D87001, 0x73D87002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73D87001, 0x73D87003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73D87001, 0x73D87004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73D87001, 0x73D87005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73D87001, 0x73D87006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x73D87001, 0x73D87002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73D87001, 0x73D87003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73D87001, 0x73D87004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73D87001, 0x73D87005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73D87001, 0x73D87006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D87002, 41535, 0x3D87001C, 73.42189, 91.0379, 1.593992, 0.8376762, 0, 0, -0.5461671,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

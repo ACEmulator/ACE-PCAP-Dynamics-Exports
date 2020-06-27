@@ -5,11 +5,11 @@ VALUES (0x7DB32001,  1154, 0xDB32003A, 191.9097, 35.42055, 171.9235, 0.6122681, 
 /* @teleloc 0xDB32003A [191.909700 35.420550 171.923500] 0.612268 0.000000 0.000000 -0.790650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB32001, 0x7DB32002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DB32001, 0x7DB32003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DB32001, 0x7DB32004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7DB32001, 0x7DB32005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7DB32001, 0x7DB32006, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7DB32001, 0x7DB32002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DB32001, 0x7DB32003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DB32001, 0x7DB32004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7DB32001, 0x7DB32005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7DB32001, 0x7DB32006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB32002, 11526, 0xDB32003A, 191.9097, 35.42055, 171.9235, 0.6122681, 0, 0, -0.7906502,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -36,7 +36,7 @@ VALUES (0x7DB32007,  1542, 0xDB32002D, 143.5738, 106.0238, 175.1925, 0.9537169, 
 /* @teleloc 0xDB32002D [143.573800 106.023800 175.192500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB32007, 0x7DB32008, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7DB32007, 0x7DB32008, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB32008,  5779, 0xDB32002D, 143.5738, 106.0238, 175.1925, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

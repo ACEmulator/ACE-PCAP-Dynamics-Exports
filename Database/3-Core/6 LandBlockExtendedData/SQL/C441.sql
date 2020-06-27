@@ -5,14 +5,14 @@ VALUES (0x7C441001,  1154, 0xC4410033, 150.7414, 50.90258, 108.1534, -0.5279721,
 /* @teleloc 0xC4410033 [150.741400 50.902580 108.153400] -0.527972 0.000000 0.000000 -0.849262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C441001, 0x7C441002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7C441001, 0x7C441003, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7C441001, 0x7C441004, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C441001, 0x7C441005, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7C441001, 0x7C441006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C441001, 0x7C441007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C441001, 0x7C441008, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7C441001, 0x7C441009, '2019-02-10 00:00:00') /* Amploth Raider */;
+VALUES (0x7C441001, 0x7C441002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7C441001, 0x7C441003, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7C441001, 0x7C441004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C441001, 0x7C441005, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7C441001, 0x7C441006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C441001, 0x7C441007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C441001, 0x7C441008, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7C441001, 0x7C441009, '2019-02-10 00:00:00') /* Amploth Raider (8143) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C441002,   206, 0xC4410033, 150.7414, 50.90258, 108.1534, -0.5279721, 0, 0, -0.8492617,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

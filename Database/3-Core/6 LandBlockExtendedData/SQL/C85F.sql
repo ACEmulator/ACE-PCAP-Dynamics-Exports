@@ -5,25 +5,25 @@ VALUES (0x7C85F001,  1154, 0xC85F000C, 33.2976, 92.05695, 5.112, -0.7120494, 0, 
 /* @teleloc 0xC85F000C [33.297600 92.056950 5.112000] -0.712049 0.000000 0.000000 -0.702129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85F001, 0x7C85F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C85F001, 0x7C85F008, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C85F001, 0x7C85F009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C85F001, 0x7C85F00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C85F001, 0x7C85F00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C85F001, 0x7C85F00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C85F001, 0x7C85F00D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C85F001, 0x7C85F00E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C85F001, 0x7C85F00F, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C85F001, 0x7C85F010, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C85F001, 0x7C85F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C85F001, 0x7C85F014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C85F001, 0x7C85F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C85F001, 0x7C85F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C85F001, 0x7C85F004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F001, 0x7C85F005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F001, 0x7C85F006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C85F001, 0x7C85F007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C85F001, 0x7C85F008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C85F001, 0x7C85F009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C85F001, 0x7C85F00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C85F001, 0x7C85F00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C85F001, 0x7C85F00C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C85F001, 0x7C85F00D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C85F001, 0x7C85F00E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C85F001, 0x7C85F00F, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C85F001, 0x7C85F010, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C85F001, 0x7C85F011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C85F001, 0x7C85F012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C85F001, 0x7C85F013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C85F001, 0x7C85F014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85F002,   215, 0xC85F000C, 33.2976, 92.05695, 5.112, -0.7120494, 0, 0, -0.7021294,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -106,22 +106,22 @@ VALUES (0x7C85F015,  1542, 0xC85F000C, 29.02355, 93.40147, 5.0975, -0.8791999, 0
 /* @teleloc 0xC85F000C [29.023550 93.401470 5.097500] -0.879200 0.000000 0.000000 0.476453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85F015, 0x7C85F016, '2019-02-10 00:00:00') /* Jerkin */
-     , (0x7C85F015, 0x7C85F017, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C85F015, 0x7C85F018, '2019-02-10 00:00:00') /* Scroll of Bludgeon Lure IV */
-     , (0x7C85F015, 0x7C85F019, '2019-02-10 00:00:00') /* Flaming War Hammer */
-     , (0x7C85F015, 0x7C85F01A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C85F015, 0x7C85F01B, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7C85F015, 0x7C85F01C, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7C85F015, 0x7C85F01D, '2019-02-10 00:00:00') /* Acid Claw */
-     , (0x7C85F015, 0x7C85F01E, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x7C85F015, 0x7C85F01F, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7C85F015, 0x7C85F020, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7C85F015, 0x7C85F021, '2019-02-10 00:00:00') /* Rapier */
-     , (0x7C85F015, 0x7C85F022, '2019-02-10 00:00:00') /* Studded Leather Cuirass */
-     , (0x7C85F015, 0x7C85F023, '2019-02-10 00:00:00') /* Tower Shield */
-     , (0x7C85F015, 0x7C85F024, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7C85F015, 0x7C85F025, '2019-02-10 00:00:00') /* Sandals */;
+VALUES (0x7C85F015, 0x7C85F016, '2019-02-10 00:00:00') /* Jerkin (124) */
+     , (0x7C85F015, 0x7C85F017, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7C85F015, 0x7C85F018, '2019-02-10 00:00:00') /* Scroll of Bludgeon Lure IV (2799) */
+     , (0x7C85F015, 0x7C85F019, '2019-02-10 00:00:00') /* Flaming War Hammer (3907) */
+     , (0x7C85F015, 0x7C85F01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C85F015, 0x7C85F01B, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7C85F015, 0x7C85F01C, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7C85F015, 0x7C85F01D, '2019-02-10 00:00:00') /* Acid Claw (31785) */
+     , (0x7C85F015, 0x7C85F01E, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x7C85F015, 0x7C85F01F, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7C85F015, 0x7C85F020, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7C85F015, 0x7C85F021, '2019-02-10 00:00:00') /* Rapier (45395) */
+     , (0x7C85F015, 0x7C85F022, '2019-02-10 00:00:00') /* Studded Leather Cuirass (53) */
+     , (0x7C85F015, 0x7C85F023, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x7C85F015, 0x7C85F024, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7C85F015, 0x7C85F025, '2019-02-10 00:00:00') /* Sandals (129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85F016,   124, 0xC85F000C, 29.02355, 93.40147, 5.0975, -0.8791999, 0, 0, 0.476453,  True, '2019-02-10 00:00:00'); /* Jerkin */

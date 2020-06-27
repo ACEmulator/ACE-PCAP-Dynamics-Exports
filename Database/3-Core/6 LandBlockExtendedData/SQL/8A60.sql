@@ -5,16 +5,16 @@ VALUES (0x78A60001,  1154, 0x8A600022, 106.162, 27.45255, 14.58383, -0.940434, 0
 /* @teleloc 0x8A600022 [106.162000 27.452550 14.583830] -0.940434 0.000000 0.000000 -0.339976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A60001, 0x78A60002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78A60001, 0x78A60003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78A60001, 0x78A60004, '2019-02-10 00:00:00') /* Flicker */
-     , (0x78A60001, 0x78A60005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78A60001, 0x78A60006, '2019-02-10 00:00:00') /* Flicker */
-     , (0x78A60001, 0x78A60007, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x78A60001, 0x78A60008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78A60001, 0x78A60009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78A60001, 0x78A6000A, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78A60001, 0x78A6000B, '2019-02-10 00:00:00') /* Shallow Rift */;
+VALUES (0x78A60001, 0x78A60002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78A60001, 0x78A60003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78A60001, 0x78A60004, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x78A60001, 0x78A60005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78A60001, 0x78A60006, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x78A60001, 0x78A60007, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x78A60001, 0x78A60008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78A60001, 0x78A60009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78A60001, 0x78A6000A, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78A60001, 0x78A6000B, '2019-02-10 00:00:00') /* Shallow Rift (10801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A60002,  1766, 0x8A600022, 106.162, 27.45255, 14.58383, -0.940434, 0, 0, -0.3399762,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */
@@ -61,7 +61,7 @@ VALUES (0x78A6000C,  1542, 0x8A60001A, 92.21717, 39.67825, 15.98257, 1, 0, 0, 0,
 /* @teleloc 0x8A60001A [92.217170 39.678250 15.982570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A6000C, 0x78A6000D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78A6000C, 0x78A6000D, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A6000D, 22568, 0x8A60001A, 92.21717, 39.67825, 15.98257, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

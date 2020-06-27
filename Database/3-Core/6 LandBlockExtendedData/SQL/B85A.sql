@@ -5,20 +5,20 @@ VALUES (0x7B85A001,  1154, 0xB85A0002, 22.32402, 38.37927, 15.2016, -0.6427876, 
 /* @teleloc 0xB85A0002 [22.324020 38.379270 15.201600] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85A001, 0x7B85A002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B85A001, 0x7B85A003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B85A001, 0x7B85A004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B85A001, 0x7B85A005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B85A001, 0x7B85A006, '2019-02-10 00:00:00') /* Static */
-     , (0x7B85A001, 0x7B85A007, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B85A001, 0x7B85A008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B85A001, 0x7B85A009, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B85A001, 0x7B85A00A, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B85A001, 0x7B85A00B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B85A001, 0x7B85A00C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B85A001, 0x7B85A00D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B85A001, 0x7B85A00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B85A001, 0x7B85A00F, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7B85A001, 0x7B85A002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B85A001, 0x7B85A003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B85A001, 0x7B85A004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B85A001, 0x7B85A005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B85A001, 0x7B85A006, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B85A001, 0x7B85A007, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B85A001, 0x7B85A008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B85A001, 0x7B85A009, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B85A001, 0x7B85A00A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B85A001, 0x7B85A00B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B85A001, 0x7B85A00C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B85A001, 0x7B85A00D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B85A001, 0x7B85A00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B85A001, 0x7B85A00F, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85A002,   193, 0xB85A0002, 22.32402, 38.37927, 15.2016, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -81,8 +81,8 @@ VALUES (0x7B85A010,  1542, 0xB85A0021, 104.5345, 10.12113, 16.88816, 0.3968159, 
 /* @teleloc 0xB85A0021 [104.534500 10.121130 16.888160] 0.396816 0.000000 0.000000 -0.917898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85A010, 0x7B85A011, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7B85A010, 0x7B85A012, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7B85A010, 0x7B85A011, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7B85A010, 0x7B85A012, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85A011, 14789, 0xB85A0021, 104.5345, 10.12113, 16.88816, 0.3968159, 0, 0, -0.9178982,  True, '2019-02-10 00:00:00'); /* Ginger */

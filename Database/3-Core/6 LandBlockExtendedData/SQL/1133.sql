@@ -9,7 +9,7 @@ VALUES (0x71133001,  1154, 0x1133003B, 185.7444, 50.02406, 16.1885, 0.9990121, 0
 /* @teleloc 0x1133003B [185.744400 50.024060 16.188500] 0.999012 0.000000 0.000000 -0.044439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71133001, 0x71133002, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x71133001, 0x71133002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71133002, 36822, 0x1133003B, 185.7444, 50.02406, 16.1885, 0.9990121, 0, 0, -0.04443927,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -20,10 +20,10 @@ VALUES (0x71133003,  1154, 0x1133001D, 90.8618, 101.34, 66.0065, 0.728529, 0, 0,
 /* @teleloc 0x1133001D [90.861800 101.340000 66.006500] 0.728529 0.000000 0.000000 0.685015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71133003, 0x71133004, '2019-02-10 00:00:00') /* Aun Javhalrea, the Game Warden */
-     , (0x71133003, 0x71133005, '2019-02-10 00:00:00') /* Aun Khekierea */
-     , (0x71133003, 0x71133006, '2019-02-10 00:00:00') /* Aludi al-Jaladh */
-     , (0x71133003, 0x71133007, '2019-02-10 00:00:00') /* Aun Aukherea */;
+VALUES (0x71133003, 0x71133004, '2019-02-10 00:00:00') /* Aun Javhalrea, the Game Warden (36866) */
+     , (0x71133003, 0x71133005, '2019-02-10 00:00:00') /* Aun Khekierea (27267) */
+     , (0x71133003, 0x71133006, '2019-02-10 00:00:00') /* Aludi al-Jaladh (30629) */
+     , (0x71133003, 0x71133007, '2019-02-10 00:00:00') /* Aun Aukherea (27262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71133004, 36866, 0x1133001D, 90.8618, 101.34, 66.0065, 0.728529, 0, 0, 0.685015,  True, '2019-02-10 00:00:00'); /* Aun Javhalrea, the Game Warden */
@@ -46,8 +46,8 @@ VALUES (0x71133008,  1542, 0x1133001D, 85.28096, 98.74724, 65.937, 0.9811112, 0,
 /* @teleloc 0x1133001D [85.280960 98.747240 65.937000] 0.981111 0.000000 0.000000 -0.193445 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71133008, 0x71133009, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71133008, 0x7113300A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71133008, 0x71133009, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71133008, 0x7113300A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71133009,  1955, 0x1133001D, 85.28096, 98.74724, 65.937, 0.9811112, 0, 0, -0.1934446,  True, '2019-02-10 00:00:00'); /* Gateway */

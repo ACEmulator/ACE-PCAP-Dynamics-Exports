@@ -5,18 +5,18 @@ VALUES (0x7C851001,  1154, 0xC8510030, 122.209, 180.8538, 24.36852, 0.9063078, 0
 /* @teleloc 0xC8510030 [122.209000 180.853800 24.368520] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C851001, 0x7C851002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C851001, 0x7C851003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C851001, 0x7C851004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C851001, 0x7C851005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C851001, 0x7C851006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C851001, 0x7C851007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C851001, 0x7C851008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C851001, 0x7C851009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C851001, 0x7C85100A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C851001, 0x7C85100B, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C851001, 0x7C85100C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C851001, 0x7C85100D, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C851001, 0x7C851002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C851001, 0x7C851003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C851001, 0x7C851004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C851001, 0x7C851005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C851001, 0x7C851006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C851001, 0x7C851007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C851001, 0x7C851008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C851001, 0x7C851009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C851001, 0x7C85100A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C851001, 0x7C85100B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C851001, 0x7C85100C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C851001, 0x7C85100D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C851002,  2575, 0xC8510030, 122.209, 180.8538, 24.36852, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7C85100E,  1542, 0xC8510024, 116.1174, 74.10607, 19.46971, 1, 0, 0, 0,
 /* @teleloc 0xC8510024 [116.117400 74.106070 19.469710] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85100E, 0x7C85100F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C85100E, 0x7C85100F, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85100F, 22576, 0xC8510024, 116.1174, 74.10607, 19.46971, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

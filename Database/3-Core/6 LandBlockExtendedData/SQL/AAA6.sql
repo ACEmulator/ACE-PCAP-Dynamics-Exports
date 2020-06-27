@@ -5,10 +5,10 @@ VALUES (0x7AAA6001,  1154, 0xAAA60026, 101.2266, 127.083, 142.2467, 0.9067231, 0
 /* @teleloc 0xAAA60026 [101.226600 127.083000 142.246700] 0.906723 0.000000 0.000000 -0.421727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA6001, 0x7AAA6002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AAA6001, 0x7AAA6003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AAA6001, 0x7AAA6004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AAA6001, 0x7AAA6005, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7AAA6001, 0x7AAA6002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AAA6001, 0x7AAA6003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AAA6001, 0x7AAA6004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AAA6001, 0x7AAA6005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAA6002,  7979, 0xAAA60026, 101.2266, 127.083, 142.2467, 0.9067231, 0, 0, -0.4217265,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

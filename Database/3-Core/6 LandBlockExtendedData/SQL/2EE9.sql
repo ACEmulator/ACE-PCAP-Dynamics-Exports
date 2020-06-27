@@ -5,14 +5,14 @@ VALUES (0x72EE9001,  1154, 0x2EE90008, 17.62667, 171.9387, 6.944279, -0.371273, 
 /* @teleloc 0x2EE90008 [17.626670 171.938700 6.944279] -0.371273 0.000000 0.000000 -0.928524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE9001, 0x72EE9002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72EE9001, 0x72EE9003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72EE9001, 0x72EE9004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72EE9001, 0x72EE9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72EE9001, 0x72EE9006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72EE9001, 0x72EE9007, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72EE9001, 0x72EE9008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x72EE9001, 0x72EE9009, '2019-02-10 00:00:00') /* Ferocious Ursuin */;
+VALUES (0x72EE9001, 0x72EE9002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72EE9001, 0x72EE9003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72EE9001, 0x72EE9004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72EE9001, 0x72EE9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72EE9001, 0x72EE9006, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72EE9001, 0x72EE9007, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72EE9001, 0x72EE9008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x72EE9001, 0x72EE9009, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE9002, 22910, 0x2EE90008, 17.62667, 171.9387, 6.944279, -0.371273, 0, 0, -0.9285238,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

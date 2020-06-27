@@ -5,27 +5,27 @@ VALUES (0x78CB5001,  1154, 0x8CB50029, 130.6395, 15.77111, 45.36398, 0.7071068, 
 /* @teleloc 0x8CB50029 [130.639500 15.771110 45.363980] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB5001, 0x78CB5002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CB5001, 0x78CB5003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CB5001, 0x78CB5004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CB5001, 0x78CB5005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CB5001, 0x78CB5006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB5001, 0x78CB5007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB5001, 0x78CB5008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CB5001, 0x78CB5009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB5001, 0x78CB500A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CB5001, 0x78CB500B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CB5001, 0x78CB500C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CB5001, 0x78CB500D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CB5001, 0x78CB500E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CB5001, 0x78CB500F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB5001, 0x78CB5010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB5001, 0x78CB5011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB5001, 0x78CB5012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB5001, 0x78CB5013, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB5001, 0x78CB5014, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78CB5001, 0x78CB5015, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB5001, 0x78CB5016, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x78CB5001, 0x78CB5002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CB5001, 0x78CB5003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CB5001, 0x78CB5004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CB5001, 0x78CB5005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CB5001, 0x78CB5006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB5001, 0x78CB5007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB5001, 0x78CB5008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CB5001, 0x78CB5009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB5001, 0x78CB500A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CB5001, 0x78CB500B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CB5001, 0x78CB500C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CB5001, 0x78CB500D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CB5001, 0x78CB500E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CB5001, 0x78CB500F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB5001, 0x78CB5010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB5001, 0x78CB5011, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB5001, 0x78CB5012, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB5001, 0x78CB5013, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB5001, 0x78CB5014, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78CB5001, 0x78CB5015, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB5001, 0x78CB5016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB5002, 24294, 0x8CB50029, 130.6395, 15.77111, 45.36398, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -116,8 +116,8 @@ VALUES (0x78CB5017,  1542, 0x8CB50036, 144.9423, 131.8645, 37.93209, -4.371139E-
 /* @teleloc 0x8CB50036 [144.942300 131.864500 37.932090] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB5017, 0x78CB5018, '2019-02-10 00:00:00') /* Bones */
-     , (0x78CB5017, 0x78CB5019, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x78CB5017, 0x78CB5018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78CB5017, 0x78CB5019, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB5018,  4380, 0x8CB50036, 144.9423, 131.8645, 37.93209, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

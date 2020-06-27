@@ -5,32 +5,32 @@ VALUES (0x7D218001,  1154, 0xD2180024, 98.79176, 85.72275, -0.09999996, -0.92716
 /* @teleloc 0xD2180024 [98.791760 85.722750 -0.100000] -0.927161 0.000000 0.000000 -0.374663 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D218001, 0x7D218002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7D218001, 0x7D218003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D218001, 0x7D218004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D218001, 0x7D218005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D218001, 0x7D218006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D218001, 0x7D218007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D218001, 0x7D218008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D218001, 0x7D218009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D218001, 0x7D21800A, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D218001, 0x7D21800B, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7D218001, 0x7D21800C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D218001, 0x7D21800D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7D218001, 0x7D21800E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D218001, 0x7D21800F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7D218001, 0x7D218010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D218001, 0x7D218011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D218001, 0x7D218012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D218001, 0x7D218013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D218001, 0x7D218014, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D218001, 0x7D218015, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D218001, 0x7D218016, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D218001, 0x7D218017, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7D218001, 0x7D218018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D218001, 0x7D218019, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D218001, 0x7D21801A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D218001, 0x7D21801B, '2019-02-10 00:00:00') /* Sata Sclavus */;
+VALUES (0x7D218001, 0x7D218002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7D218001, 0x7D218003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D218001, 0x7D218004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D218001, 0x7D218005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D218001, 0x7D218006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D218001, 0x7D218007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D218001, 0x7D218008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D218001, 0x7D218009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D218001, 0x7D21800A, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D218001, 0x7D21800B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7D218001, 0x7D21800C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D218001, 0x7D21800D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7D218001, 0x7D21800E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D218001, 0x7D21800F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7D218001, 0x7D218010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D218001, 0x7D218011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D218001, 0x7D218012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D218001, 0x7D218013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D218001, 0x7D218014, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D218001, 0x7D218015, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D218001, 0x7D218016, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D218001, 0x7D218017, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7D218001, 0x7D218018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D218001, 0x7D218019, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D218001, 0x7D21801A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D218001, 0x7D21801B, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D218002,  7111, 0xD2180024, 98.79176, 85.72275, -0.09999996, -0.9271609, 0, 0, -0.3746633,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
@@ -141,7 +141,7 @@ VALUES (0x7D21801C,  1542, 0xD218000E, 29.83811, 127.0358, 34.31413, -0.997332, 
 /* @teleloc 0xD218000E [29.838110 127.035800 34.314130] -0.997332 0.000000 0.000000 -0.072999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D21801C, 0x7D21801D, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7D21801C, 0x7D21801D, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D21801D, 31687, 0xD218000E, 29.83811, 127.0358, 34.31413, -0.997332, 0, 0, -0.07299902,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

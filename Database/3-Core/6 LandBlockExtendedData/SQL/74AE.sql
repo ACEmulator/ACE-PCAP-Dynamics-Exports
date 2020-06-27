@@ -5,11 +5,11 @@ VALUES (0x774AE001,  1154, 0x74AE0022, 105.3893, 24.47281, 77.65369, -0.988242, 
 /* @teleloc 0x74AE0022 [105.389300 24.472810 77.653690] -0.988242 0.000000 0.000000 -0.152898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774AE001, 0x774AE002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x774AE001, 0x774AE003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x774AE001, 0x774AE004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x774AE001, 0x774AE005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x774AE001, 0x774AE006, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x774AE001, 0x774AE002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x774AE001, 0x774AE003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x774AE001, 0x774AE004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x774AE001, 0x774AE005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x774AE001, 0x774AE006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774AE002, 14800, 0x74AE0022, 105.3893, 24.47281, 77.65369, -0.988242, 0, 0, -0.1528981,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

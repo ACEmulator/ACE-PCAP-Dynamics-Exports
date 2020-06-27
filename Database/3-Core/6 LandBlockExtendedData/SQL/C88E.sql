@@ -5,25 +5,25 @@ VALUES (0x7C88E001,  1154, 0xC88E0028, 119.1913, 178.8909, 3.1035, -0.5577382, 0
 /* @teleloc 0xC88E0028 [119.191300 178.890900 3.103500] -0.557738 0.000000 0.000000 -0.830017 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88E001, 0x7C88E002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88E001, 0x7C88E003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C88E001, 0x7C88E004, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C88E001, 0x7C88E005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C88E001, 0x7C88E006, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C88E001, 0x7C88E007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C88E001, 0x7C88E008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C88E001, 0x7C88E009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C88E001, 0x7C88E00A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C88E001, 0x7C88E00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C88E001, 0x7C88E00C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C88E001, 0x7C88E00D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C88E001, 0x7C88E00E, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C88E001, 0x7C88E00F, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C88E001, 0x7C88E010, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C88E001, 0x7C88E011, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C88E001, 0x7C88E012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C88E001, 0x7C88E013, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C88E001, 0x7C88E014, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7C88E001, 0x7C88E002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88E001, 0x7C88E003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C88E001, 0x7C88E004, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C88E001, 0x7C88E005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C88E001, 0x7C88E006, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C88E001, 0x7C88E007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C88E001, 0x7C88E008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C88E001, 0x7C88E009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C88E001, 0x7C88E00A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C88E001, 0x7C88E00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C88E001, 0x7C88E00C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C88E001, 0x7C88E00D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C88E001, 0x7C88E00E, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C88E001, 0x7C88E00F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C88E001, 0x7C88E010, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C88E001, 0x7C88E011, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C88E001, 0x7C88E012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C88E001, 0x7C88E013, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C88E001, 0x7C88E014, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88E002,   192, 0xC88E0028, 119.1913, 178.8909, 3.1035, -0.5577382, 0, 0, -0.8300169,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -106,7 +106,7 @@ VALUES (0x7C88E015,  1542, 0xC88E001A, 79.59197, 31.22927, 3.9, 0.9628223, 0, 0,
 /* @teleloc 0xC88E001A [79.591970 31.229270 3.900000] 0.962822 0.000000 0.000000 -0.270136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88E015, 0x7C88E016, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C88E015, 0x7C88E016, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88E016,  8644, 0xC88E001A, 79.59197, 31.22927, 3.9, 0.9628223, 0, 0, -0.2701355,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

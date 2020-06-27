@@ -5,15 +5,15 @@ VALUES (0x74AC3001,  1154, 0x4AC30012, 56.33348, 30.00873, -0.08700007, -0.33787
 /* @teleloc 0x4AC30012 [56.333480 30.008730 -0.087000] -0.337870 0.000000 0.000000 -0.941193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC3001, 0x74AC3002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74AC3001, 0x74AC3003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74AC3001, 0x74AC3004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74AC3001, 0x74AC3005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x74AC3001, 0x74AC3006, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x74AC3001, 0x74AC3007, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x74AC3001, 0x74AC3008, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x74AC3001, 0x74AC3009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x74AC3001, 0x74AC300A, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x74AC3001, 0x74AC3002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74AC3001, 0x74AC3003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74AC3001, 0x74AC3004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74AC3001, 0x74AC3005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x74AC3001, 0x74AC3006, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x74AC3001, 0x74AC3007, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x74AC3001, 0x74AC3008, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x74AC3001, 0x74AC3009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x74AC3001, 0x74AC300A, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC3002,  7183, 0x4AC30012, 56.33348, 30.00873, -0.08700007, -0.3378703, 0, 0, -0.9411927,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

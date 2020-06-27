@@ -165,35 +165,35 @@ VALUES (0x7014B04D,  1154, 0x014B01D0, 51.1598, -63.9693, -11.995, 1, 0, 0, 0, F
 /* @teleloc 0x014B01D0 [51.159800 -63.969300 -11.995000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B04D, 0x7014B04E, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7014B04D, 0x7014B04F, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7014B04D, 0x7014B050, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7014B04D, 0x7014B051, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B052, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B053, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B054, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B055, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B056, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B057, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B058, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B059, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B05A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B05B, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B05C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B05D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7014B04D, 0x7014B05E, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7014B04D, 0x7014B05F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7014B04D, 0x7014B060, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7014B04D, 0x7014B061, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B062, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7014B04D, 0x7014B063, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7014B04D, 0x7014B064, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7014B04D, 0x7014B065, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B066, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7014B04D, 0x7014B067, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7014B04D, 0x7014B068, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7014B04D, 0x7014B069, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7014B04D, 0x7014B06A, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7014B04D, 0x7014B04E, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04D, 0x7014B04F, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04D, 0x7014B050, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04D, 0x7014B051, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B052, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B053, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B054, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04D, 0x7014B055, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04D, 0x7014B056, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B057, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B058, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04D, 0x7014B059, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x7014B04D, 0x7014B05A, '2019-02-10 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x7014B04D, 0x7014B05B, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04D, 0x7014B05C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B05D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7014B04D, 0x7014B05E, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7014B04D, 0x7014B05F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7014B04D, 0x7014B060, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7014B04D, 0x7014B061, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04D, 0x7014B062, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7014B04D, 0x7014B063, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7014B04D, 0x7014B064, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7014B04D, 0x7014B065, '2019-02-10 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x7014B04D, 0x7014B066, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7014B04D, 0x7014B067, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7014B04D, 0x7014B068, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x7014B04D, 0x7014B069, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7014B04D, 0x7014B06A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B04E,   234, 0x014B01D0, 51.1598, -63.9693, -11.995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Worker */
@@ -316,9 +316,9 @@ VALUES (0x7014B06B,  1542, 0x014B01FD, 43.22524, -29.1817, 0.024, -4.37114E-08, 
 /* @teleloc 0x014B01FD [43.225240 -29.181700 0.024000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014B06B, 0x7014B06C, '2019-02-10 00:00:00') /* Apple */
-     , (0x7014B06B, 0x7014B06D, '2019-02-10 00:00:00') /* Apple */
-     , (0x7014B06B, 0x7014B06E, '2019-02-10 00:00:00') /* Apple */;
+VALUES (0x7014B06B, 0x7014B06C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7014B06B, 0x7014B06D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7014B06B, 0x7014B06E, '2019-02-10 00:00:00') /* Apple (258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014B06C,   258, 0x014B01FD, 43.22524, -29.1817, 0.024, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Apple */

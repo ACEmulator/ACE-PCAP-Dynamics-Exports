@@ -5,9 +5,9 @@ VALUES (0x7B43B001,  1154, 0xB43B000D, 34.58578, 108.1542, 46.10833, 0.6796709, 
 /* @teleloc 0xB43B000D [34.585780 108.154200 46.108330] 0.679671 0.000000 0.000000 -0.733517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B43B001, 0x7B43B002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B43B001, 0x7B43B003, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B43B001, 0x7B43B004, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7B43B001, 0x7B43B002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B43B001, 0x7B43B003, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B43B001, 0x7B43B004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B43B002,  1608, 0xB43B000D, 34.58578, 108.1542, 46.10833, 0.6796709, 0, 0, -0.7335172,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -26,7 +26,7 @@ VALUES (0x7B43B005,  1542, 0xB43B0035, 149.7242, 110.2772, 34.81023, -0.708048, 
 /* @teleloc 0xB43B0035 [149.724200 110.277200 34.810230] -0.708048 0.000000 0.000000 -0.706164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B43B005, 0x7B43B006, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B43B005, 0x7B43B006, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B43B006,  8037, 0xB43B0035, 149.7242, 110.2772, 34.81023, -0.708048, 0, 0, -0.7061642,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

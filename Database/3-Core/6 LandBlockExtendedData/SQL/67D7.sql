@@ -5,9 +5,9 @@ VALUES (0x767D7001,  1154, 0x67D70030, 122.7394, 190.7766, 197.3252, -0.4725178,
 /* @teleloc 0x67D70030 [122.739400 190.776600 197.325200] -0.472518 0.000000 0.000000 -0.881321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767D7001, 0x767D7002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x767D7001, 0x767D7003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x767D7001, 0x767D7004, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x767D7001, 0x767D7002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x767D7001, 0x767D7003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x767D7001, 0x767D7004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767D7002,  8138, 0x67D70030, 122.7394, 190.7766, 197.3252, -0.4725178, 0, 0, -0.8813211,  True, '2019-02-10 00:00:00'); /* Extas Raider */

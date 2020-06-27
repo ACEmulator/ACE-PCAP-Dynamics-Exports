@@ -5,12 +5,12 @@ VALUES (0x7B3BD001,  1154, 0xB3BD0026, 104.0773, 122.9764, 245.8533, 0.9238795, 
 /* @teleloc 0xB3BD0026 [104.077300 122.976400 245.853300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3BD001, 0x7B3BD002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B3BD001, 0x7B3BD003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B3BD001, 0x7B3BD004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B3BD001, 0x7B3BD005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B3BD001, 0x7B3BD006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B3BD001, 0x7B3BD007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7B3BD001, 0x7B3BD002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B3BD001, 0x7B3BD003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B3BD001, 0x7B3BD004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B3BD001, 0x7B3BD005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B3BD001, 0x7B3BD006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B3BD001, 0x7B3BD007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3BD002,   195, 0xB3BD0026, 104.0773, 122.9764, 245.8533, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */

@@ -9,13 +9,13 @@ VALUES (0x78D4D001,  1154, 0x8D4D0032, 153.328, 45.94705, 11.39875, 0.4808566, 0
 /* @teleloc 0x8D4D0032 [153.328000 45.947050 11.398750] 0.480857 0.000000 0.000000 -0.876799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D4D001, 0x78D4D002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78D4D001, 0x78D4D003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78D4D001, 0x78D4D004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78D4D001, 0x78D4D005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x78D4D001, 0x78D4D006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x78D4D001, 0x78D4D007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78D4D001, 0x78D4D008, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x78D4D001, 0x78D4D002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78D4D001, 0x78D4D003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78D4D001, 0x78D4D004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78D4D001, 0x78D4D005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x78D4D001, 0x78D4D006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x78D4D001, 0x78D4D007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78D4D001, 0x78D4D008, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D4D002,  1758, 0x8D4D0032, 153.328, 45.94705, 11.39875, 0.4808566, 0, 0, -0.8767992,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -50,8 +50,8 @@ VALUES (0x78D4D009,  1542, 0x8D4D0023, 99.35604, 53.69444, 12.18487, -0.9947748,
 /* @teleloc 0x8D4D0023 [99.356040 53.694440 12.184870] -0.994775 0.000000 0.000000 -0.102093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D4D009, 0x78D4D00A, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x78D4D009, 0x78D4D00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78D4D009, 0x78D4D00A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x78D4D009, 0x78D4D00B, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D4D00A,  9286, 0x8D4D0023, 99.35604, 53.69444, 12.18487, -0.9947748, 0, 0, -0.1020933,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

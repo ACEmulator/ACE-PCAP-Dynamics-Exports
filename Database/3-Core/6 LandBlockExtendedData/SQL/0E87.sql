@@ -5,15 +5,15 @@ VALUES (0x70E87001,  1154, 0x0E870020, 83.15731, 172.4962, 9.295134, 0.9238795, 
 /* @teleloc 0x0E870020 [83.157310 172.496200 9.295134] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E87001, 0x70E87002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E87001, 0x70E87003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E87001, 0x70E87004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70E87001, 0x70E87005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E87001, 0x70E87006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70E87001, 0x70E87007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70E87001, 0x70E87008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E87001, 0x70E87009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E87001, 0x70E8700A, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x70E87001, 0x70E87002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E87001, 0x70E87003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E87001, 0x70E87004, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70E87001, 0x70E87005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E87001, 0x70E87006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70E87001, 0x70E87007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70E87001, 0x70E87008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E87001, 0x70E87009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E87001, 0x70E8700A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E87002, 36821, 0x0E870020, 83.15731, 172.4962, 9.295134, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

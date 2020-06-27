@@ -5,13 +5,13 @@ VALUES (0x72675001,  1154, 0x26750031, 154.377, 7.11145, 216.01, 0.9972125, 0, 0
 /* @teleloc 0x26750031 [154.377000 7.111450 216.010000] 0.997213 0.000000 0.000000 -0.074615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72675001, 0x72675002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72675001, 0x72675003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72675001, 0x72675004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72675001, 0x72675005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72675001, 0x72675006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72675001, 0x72675007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72675001, 0x72675008, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x72675001, 0x72675002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72675001, 0x72675003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72675001, 0x72675004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72675001, 0x72675005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72675001, 0x72675006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72675001, 0x72675007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72675001, 0x72675008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72675002, 36830, 0x26750031, 154.377, 7.11145, 216.01, 0.9972125, 0, 0, -0.07461452,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

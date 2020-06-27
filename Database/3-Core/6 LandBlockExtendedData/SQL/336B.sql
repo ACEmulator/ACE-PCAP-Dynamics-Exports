@@ -5,43 +5,43 @@ VALUES (0x7336B001,  1154, 0x336B000F, 37.96847, 158.962, 294.1848, 0.8660254, 0
 /* @teleloc 0x336B000F [37.968470 158.962000 294.184800] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336B001, 0x7336B002, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7336B001, 0x7336B003, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B004, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B005, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B006, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336B001, 0x7336B007, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B008, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7336B001, 0x7336B00A, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B00B, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7336B001, 0x7336B00C, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B00D, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7336B001, 0x7336B00E, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B00F, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336B001, 0x7336B010, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7336B001, 0x7336B011, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7336B001, 0x7336B012, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B013, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B014, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp */
-     , (0x7336B001, 0x7336B015, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B016, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B017, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B018, '2019-02-10 00:00:00') /* Crystalline Wisp */
-     , (0x7336B001, 0x7336B019, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7336B001, 0x7336B01A, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336B001, 0x7336B01B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7336B001, 0x7336B01C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7336B001, 0x7336B01D, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp */
-     , (0x7336B001, 0x7336B01E, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B01F, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp */
-     , (0x7336B001, 0x7336B020, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7336B001, 0x7336B021, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7336B001, 0x7336B022, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7336B001, 0x7336B023, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7336B001, 0x7336B024, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7336B001, 0x7336B025, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp */
-     , (0x7336B001, 0x7336B026, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7336B001, 0x7336B002, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7336B001, 0x7336B003, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B004, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336B001, 0x7336B005, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B006, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336B001, 0x7336B007, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336B001, 0x7336B008, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7336B001, 0x7336B00A, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B00B, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7336B001, 0x7336B00C, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336B001, 0x7336B00D, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7336B001, 0x7336B00E, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336B001, 0x7336B00F, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336B001, 0x7336B010, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7336B001, 0x7336B011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7336B001, 0x7336B012, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7336B001, 0x7336B013, '2019-02-10 00:00:00') /* Crystalline Wisp (40130) */
+     , (0x7336B001, 0x7336B014, '2019-02-10 00:00:00') /* Corroding Crystalline Wisp (40128) */
+     , (0x7336B001, 0x7336B015, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B016, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7336B001, 0x7336B017, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B018, '2019-02-10 00:00:00') /* Crystalline Wisp (40134) */
+     , (0x7336B001, 0x7336B019, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7336B001, 0x7336B01A, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336B001, 0x7336B01B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7336B001, 0x7336B01C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7336B001, 0x7336B01D, '2019-02-10 00:00:00') /* Voltaic Crystalline Wisp (40129) */
+     , (0x7336B001, 0x7336B01E, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B01F, '2019-02-10 00:00:00') /* Shivering Crystalline Wisp (40127) */
+     , (0x7336B001, 0x7336B020, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7336B001, 0x7336B021, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7336B001, 0x7336B022, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7336B001, 0x7336B023, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7336B001, 0x7336B024, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7336B001, 0x7336B025, '2019-02-10 00:00:00') /* Incalescent Crystalline Wisp (40131) */
+     , (0x7336B001, 0x7336B026, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336B002, 40127, 0x336B000F, 37.96847, 158.962, 294.1848, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Shivering Crystalline Wisp */
@@ -196,12 +196,12 @@ VALUES (0x7336B027,  1542, 0x336B000F, 36.41724, 160.8891, 294.8261, 1, 0, 0, 0,
 /* @teleloc 0x336B000F [36.417240 160.889100 294.826100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7336B027, 0x7336B028, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7336B027, 0x7336B029, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7336B027, 0x7336B02A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7336B027, 0x7336B02B, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7336B027, 0x7336B02C, '2019-02-10 00:00:00') /* Crystal */
-     , (0x7336B027, 0x7336B02D, '2019-02-10 00:00:00') /* Crystal */;
+VALUES (0x7336B027, 0x7336B028, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7336B027, 0x7336B029, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7336B027, 0x7336B02A, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7336B027, 0x7336B02B, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7336B027, 0x7336B02C, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x7336B027, 0x7336B02D, '2019-02-10 00:00:00') /* Crystal (40124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336B028, 40124, 0x336B000F, 36.41724, 160.8891, 294.8261, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */

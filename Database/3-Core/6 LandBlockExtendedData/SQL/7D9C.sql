@@ -5,12 +5,12 @@ VALUES (0x77D9C001,  1154, 0x7D9C0008, 14.8642, 175.354, 98, -0.240217, 0, 0, -0
 /* @teleloc 0x7D9C0008 [14.864200 175.354000 98.000000] -0.240217 0.000000 0.000000 -0.970719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D9C001, 0x77D9C002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77D9C001, 0x77D9C003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x77D9C001, 0x77D9C004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77D9C001, 0x77D9C005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77D9C001, 0x77D9C006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77D9C001, 0x77D9C007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x77D9C001, 0x77D9C002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77D9C001, 0x77D9C003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x77D9C001, 0x77D9C004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77D9C001, 0x77D9C005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77D9C001, 0x77D9C006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77D9C001, 0x77D9C007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D9C002,     3, 0x7D9C0008, 14.8642, 175.354, 98, -0.240217, 0, 0, -0.9707192,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

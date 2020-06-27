@@ -5,16 +5,16 @@ VALUES (0x73890001,  1154, 0x3890002B, 120.8592, 49.24761, 1.902532, -0.9161154,
 /* @teleloc 0x3890002B [120.859200 49.247610 1.902532] -0.916115 0.000000 0.000000 -0.400915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73890001, 0x73890002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73890001, 0x73890003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73890001, 0x73890004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73890001, 0x73890005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73890001, 0x73890006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73890001, 0x73890007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73890001, 0x73890008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73890001, 0x73890009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73890001, 0x7389000A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73890001, 0x7389000B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73890001, 0x73890002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73890001, 0x73890003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73890001, 0x73890004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73890001, 0x73890005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73890001, 0x73890006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73890001, 0x73890007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73890001, 0x73890008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73890001, 0x73890009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73890001, 0x7389000A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73890001, 0x7389000B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73890002, 21551, 0x3890002B, 120.8592, 49.24761, 1.902532, -0.9161154, 0, 0, -0.4009147,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
@@ -61,7 +61,7 @@ VALUES (0x7389000C,  1542, 0x38900022, 107.5297, 42.10783, 7.678305, -4.371139E-
 /* @teleloc 0x38900022 [107.529700 42.107830 7.678305] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7389000C, 0x7389000D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7389000C, 0x7389000D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7389000D,  4380, 0x38900022, 107.5297, 42.10783, 7.678305, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

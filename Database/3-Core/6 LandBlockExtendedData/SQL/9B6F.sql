@@ -5,10 +5,10 @@ VALUES (0x79B6F001,  1154, 0x9B6F0009, 24.59388, 19.52357, 60.16047, -0.99864, 0
 /* @teleloc 0x9B6F0009 [24.593880 19.523570 60.160470] -0.998640 0.000000 0.000000 -0.052136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B6F001, 0x79B6F002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79B6F001, 0x79B6F003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79B6F001, 0x79B6F004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79B6F001, 0x79B6F005, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x79B6F001, 0x79B6F002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79B6F001, 0x79B6F003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79B6F001, 0x79B6F004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79B6F001, 0x79B6F005, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B6F002,  1623, 0x9B6F0009, 24.59388, 19.52357, 60.16047, -0.99864, 0, 0, -0.05213581,  True, '2019-02-10 00:00:00'); /* Desert Rat */

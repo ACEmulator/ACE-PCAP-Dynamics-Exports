@@ -5,36 +5,36 @@ VALUES (0x72AEC001,  1154, 0x2AEC000E, 27.74174, 126.4524, 30.01, -0.9799868, 0,
 /* @teleloc 0x2AEC000E [27.741740 126.452400 30.010000] -0.979987 0.000000 0.000000 -0.199062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEC001, 0x72AEC002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEC001, 0x72AEC003, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72AEC001, 0x72AEC004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72AEC001, 0x72AEC005, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72AEC001, 0x72AEC006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72AEC001, 0x72AEC007, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEC001, 0x72AEC008, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AEC001, 0x72AEC009, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72AEC001, 0x72AEC00A, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72AEC001, 0x72AEC00B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72AEC001, 0x72AEC00C, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72AEC001, 0x72AEC00D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72AEC001, 0x72AEC00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72AEC001, 0x72AEC00F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72AEC001, 0x72AEC010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x72AEC001, 0x72AEC011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72AEC001, 0x72AEC012, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72AEC001, 0x72AEC013, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEC001, 0x72AEC014, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AEC001, 0x72AEC015, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEC001, 0x72AEC016, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEC001, 0x72AEC017, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72AEC001, 0x72AEC018, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72AEC001, 0x72AEC019, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x72AEC001, 0x72AEC01A, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x72AEC001, 0x72AEC01B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72AEC001, 0x72AEC01C, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEC001, 0x72AEC01D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72AEC001, 0x72AEC01E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72AEC001, 0x72AEC01F, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x72AEC001, 0x72AEC002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEC001, 0x72AEC003, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x72AEC001, 0x72AEC004, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72AEC001, 0x72AEC005, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AEC001, 0x72AEC006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72AEC001, 0x72AEC007, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEC001, 0x72AEC008, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AEC001, 0x72AEC009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72AEC001, 0x72AEC00A, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72AEC001, 0x72AEC00B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72AEC001, 0x72AEC00C, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AEC001, 0x72AEC00D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72AEC001, 0x72AEC00E, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AEC001, 0x72AEC00F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72AEC001, 0x72AEC010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x72AEC001, 0x72AEC011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72AEC001, 0x72AEC012, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72AEC001, 0x72AEC013, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEC001, 0x72AEC014, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AEC001, 0x72AEC015, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEC001, 0x72AEC016, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEC001, 0x72AEC017, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72AEC001, 0x72AEC018, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72AEC001, 0x72AEC019, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x72AEC001, 0x72AEC01A, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x72AEC001, 0x72AEC01B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72AEC001, 0x72AEC01C, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEC001, 0x72AEC01D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72AEC001, 0x72AEC01E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72AEC001, 0x72AEC01F, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEC002, 23082, 0x2AEC000E, 27.74174, 126.4524, 30.01, -0.9799868, 0, 0, -0.1990623,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

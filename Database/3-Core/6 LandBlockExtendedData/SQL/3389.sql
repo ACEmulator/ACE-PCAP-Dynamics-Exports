@@ -5,22 +5,22 @@ VALUES (0x73389001,  1154, 0x3389000B, 46.06922, 65.66757, 26.00455, 0.9311973, 
 /* @teleloc 0x3389000B [46.069220 65.667570 26.004550] 0.931197 0.000000 0.000000 -0.364515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73389001, 0x73389002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x73389001, 0x73389003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73389001, 0x73389004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73389001, 0x73389005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73389001, 0x73389006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73389001, 0x73389007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73389001, 0x73389008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x73389001, 0x73389009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73389001, 0x7338900A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x73389001, 0x7338900B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73389001, 0x7338900C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73389001, 0x7338900D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73389001, 0x7338900E, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73389001, 0x7338900F, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x73389001, 0x73389010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73389001, 0x73389011, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73389001, 0x73389002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x73389001, 0x73389003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73389001, 0x73389004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73389001, 0x73389005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73389001, 0x73389006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73389001, 0x73389007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73389001, 0x73389008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x73389001, 0x73389009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73389001, 0x7338900A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x73389001, 0x7338900B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73389001, 0x7338900C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73389001, 0x7338900D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73389001, 0x7338900E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73389001, 0x7338900F, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x73389001, 0x73389010, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x73389001, 0x73389011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73389002, 24283, 0x3389000B, 46.06922, 65.66757, 26.00455, 0.9311973, 0, 0, -0.3645154,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
@@ -91,9 +91,9 @@ VALUES (0x73389012,  1542, 0x33890011, 62.95802, 8.953161, 31.00081, 1, 0, 0, 0,
 /* @teleloc 0x33890011 [62.958020 8.953161 31.000810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73389012, 0x73389013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73389012, 0x73389014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73389012, 0x73389015, '2019-02-10 00:00:00') /* Portal to Hebian-To */;
+VALUES (0x73389012, 0x73389013, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x73389012, 0x73389014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73389012, 0x73389015, '2019-02-10 00:00:00') /* Portal to Hebian-To (42846) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73389013, 22567, 0x33890011, 62.95802, 8.953161, 31.00081, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

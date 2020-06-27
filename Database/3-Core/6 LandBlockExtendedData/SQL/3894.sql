@@ -5,11 +5,11 @@ VALUES (0x73894001,  1154, 0x38940007, 2.35744, 166.5002, 23.41314, 0.1257203, 0
 /* @teleloc 0x38940007 [2.357440 166.500200 23.413140] 0.125720 0.000000 0.000000 -0.992066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73894001, 0x73894002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73894001, 0x73894003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73894001, 0x73894004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73894001, 0x73894005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73894001, 0x73894006, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x73894001, 0x73894002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73894001, 0x73894003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73894001, 0x73894004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73894001, 0x73894005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73894001, 0x73894006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73894002, 36858, 0x38940007, 2.35744, 166.5002, 23.41314, 0.1257203, 0, 0, -0.9920657,  True, '2019-02-10 00:00:00'); /* Great Skeleton */

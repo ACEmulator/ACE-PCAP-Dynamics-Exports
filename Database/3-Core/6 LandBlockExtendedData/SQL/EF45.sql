@@ -5,12 +5,12 @@ VALUES (0x7EF45001,  1154, 0xEF45000D, 37.43399, 108.3342, 29.77, -0.3585666, 0,
 /* @teleloc 0xEF45000D [37.433990 108.334200 29.770000] -0.358567 0.000000 0.000000 -0.933504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF45001, 0x7EF45002, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7EF45001, 0x7EF45003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7EF45001, 0x7EF45004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7EF45001, 0x7EF45005, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7EF45001, 0x7EF45006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7EF45001, 0x7EF45007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7EF45001, 0x7EF45002, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7EF45001, 0x7EF45003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7EF45001, 0x7EF45004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7EF45001, 0x7EF45005, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7EF45001, 0x7EF45006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7EF45001, 0x7EF45007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF45002,  2608, 0xEF45000D, 37.43399, 108.3342, 29.77, -0.3585666, 0, 0, -0.9335042,  True, '2019-02-10 00:00:00'); /* Jibrit Zefir */

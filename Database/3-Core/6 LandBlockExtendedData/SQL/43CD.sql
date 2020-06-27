@@ -5,11 +5,11 @@ VALUES (0x743CD001,  1154, 0x43CD000E, 25.13364, 135.8576, 11.81756, 0.2943707, 
 /* @teleloc 0x43CD000E [25.133640 135.857600 11.817560] 0.294371 0.000000 0.000000 -0.955691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743CD001, 0x743CD002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x743CD001, 0x743CD003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x743CD001, 0x743CD004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x743CD001, 0x743CD005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x743CD001, 0x743CD006, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x743CD001, 0x743CD002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x743CD001, 0x743CD003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x743CD001, 0x743CD004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x743CD001, 0x743CD005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x743CD001, 0x743CD006, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743CD002, 10806, 0x43CD000E, 25.13364, 135.8576, 11.81756, 0.2943707, 0, 0, -0.9556913,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

@@ -5,26 +5,26 @@ VALUES (0x7DC22001,  1154, 0xDC220021, 103.5617, 3.948949, 8.202261, 0.6158137, 
 /* @teleloc 0xDC220021 [103.561700 3.948949 8.202261] 0.615814 0.000000 0.000000 -0.787892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC22001, 0x7DC22002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DC22001, 0x7DC22003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DC22001, 0x7DC22004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DC22001, 0x7DC22005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DC22001, 0x7DC22006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DC22001, 0x7DC22007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7DC22001, 0x7DC22008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DC22001, 0x7DC22009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DC22001, 0x7DC2200A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DC22001, 0x7DC2200B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DC22001, 0x7DC2200C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DC22001, 0x7DC2200D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DC22001, 0x7DC2200E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DC22001, 0x7DC2200F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DC22001, 0x7DC22010, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DC22001, 0x7DC22011, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DC22001, 0x7DC22012, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DC22001, 0x7DC22013, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7DC22001, 0x7DC22014, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DC22001, 0x7DC22015, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7DC22001, 0x7DC22002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DC22001, 0x7DC22003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DC22001, 0x7DC22004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DC22001, 0x7DC22005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DC22001, 0x7DC22006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DC22001, 0x7DC22007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7DC22001, 0x7DC22008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DC22001, 0x7DC22009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DC22001, 0x7DC2200A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DC22001, 0x7DC2200B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DC22001, 0x7DC2200C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DC22001, 0x7DC2200D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DC22001, 0x7DC2200E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DC22001, 0x7DC2200F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DC22001, 0x7DC22010, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DC22001, 0x7DC22011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DC22001, 0x7DC22012, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DC22001, 0x7DC22013, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7DC22001, 0x7DC22014, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DC22001, 0x7DC22015, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC22002,  7121, 0xDC220021, 103.5617, 3.948949, 8.202261, 0.6158137, 0, 0, -0.7878918,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

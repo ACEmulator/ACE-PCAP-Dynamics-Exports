@@ -5,9 +5,9 @@ VALUES (0x793B0001,  1154, 0x93B00031, 165.8573, 20.70601, 35.451, 0.7712675, 0,
 /* @teleloc 0x93B00031 [165.857300 20.706010 35.451000] 0.771268 0.000000 0.000000 -0.636511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793B0001, 0x793B0002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x793B0001, 0x793B0003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x793B0001, 0x793B0004, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x793B0001, 0x793B0002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x793B0001, 0x793B0003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x793B0001, 0x793B0004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793B0002,  6041, 0x93B00031, 165.8573, 20.70601, 35.451, 0.7712675, 0, 0, -0.6365111,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

@@ -5,18 +5,18 @@ VALUES (0x7B46C001,  1154, 0xB46C002F, 142.9976, 150.9156, 39.92582, -0.1826554,
 /* @teleloc 0xB46C002F [142.997600 150.915600 39.925820] -0.182655 0.000000 0.000000 -0.983177 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46C001, 0x7B46C002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B46C001, 0x7B46C003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B46C001, 0x7B46C004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B46C001, 0x7B46C005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B46C001, 0x7B46C006, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B46C001, 0x7B46C007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B46C001, 0x7B46C008, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B46C001, 0x7B46C009, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B46C001, 0x7B46C00A, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B46C001, 0x7B46C00B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B46C001, 0x7B46C00C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B46C001, 0x7B46C00D, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7B46C001, 0x7B46C002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B46C001, 0x7B46C003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B46C001, 0x7B46C004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B46C001, 0x7B46C005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B46C001, 0x7B46C006, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B46C001, 0x7B46C007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B46C001, 0x7B46C008, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B46C001, 0x7B46C009, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B46C001, 0x7B46C00A, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B46C001, 0x7B46C00B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B46C001, 0x7B46C00C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B46C001, 0x7B46C00D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46C002,    20, 0xB46C002F, 142.9976, 150.9156, 39.92582, -0.1826554, 0, 0, -0.983177,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
@@ -71,7 +71,7 @@ VALUES (0x7B46C00E,  1542, 0xB46C002D, 127.9476, 104.6233, 41.3377, 1, 0, 0, 0, 
 /* @teleloc 0xB46C002D [127.947600 104.623300 41.337700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46C00E, 0x7B46C00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B46C00E, 0x7B46C00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46C00F,  4179, 0xB46C002D, 127.9476, 104.6233, 41.3377, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

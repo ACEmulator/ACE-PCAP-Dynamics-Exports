@@ -9,9 +9,9 @@ VALUES (0x79723005,  1154, 0x9723003A, 179.183, 42.13517, 79.06008, 0.9575579, 0
 /* @teleloc 0x9723003A [179.183000 42.135170 79.060080] 0.957558 0.000000 0.000000 -0.288241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79723005, 0x79723006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79723005, 0x79723007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79723005, 0x79723008, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x79723005, 0x79723006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79723005, 0x79723007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79723005, 0x79723008, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79723006, 24937, 0x9723003A, 179.183, 42.13517, 79.06008, 0.9575579, 0, 0, -0.288241,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -30,7 +30,7 @@ VALUES (0x79723009,  1154, 0x97230100, 58.8995, 14.1487, 101.705, -0.0755642, 0,
 /* @teleloc 0x97230100 [58.899500 14.148700 101.705000] -0.075564 0.000000 0.000000 0.997141 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79723009, 0x7972300A, '2019-02-10 00:00:00') /* Darsida al-Qawa */;
+VALUES (0x79723009, 0x7972300A, '2019-02-10 00:00:00') /* Darsida al-Qawa (9545) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972300A,  9545, 0x97230100, 58.8995, 14.1487, 101.705, -0.0755642, 0, 0, 0.997141,  True, '2019-02-10 00:00:00'); /* Darsida al-Qawa */
@@ -41,7 +41,7 @@ VALUES (0x7972300B,  1542, 0x97230100, 61.9828, 10.2519, 101.7735, -0.679557, 0,
 /* @teleloc 0x97230100 [61.982800 10.251900 101.773500] -0.679557 0.000000 0.000000 -0.733622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972300B, 0x7972300C, '2019-02-10 00:00:00') /* Skill Puzzle Base Piece */;
+VALUES (0x7972300B, 0x7972300C, '2019-02-10 00:00:00') /* Skill Puzzle Base Piece (9594) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972300C,  9594, 0x97230100, 61.9828, 10.2519, 101.7735, -0.679557, 0, 0, -0.733622,  True, '2019-02-10 00:00:00'); /* Skill Puzzle Base Piece */

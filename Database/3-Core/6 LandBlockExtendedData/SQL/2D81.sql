@@ -5,19 +5,19 @@ VALUES (0x72D81001,  1154, 0x2D81001E, 92.32384, 140.4835, 66.005, 0.6630703, 0,
 /* @teleloc 0x2D81001E [92.323840 140.483500 66.005000] 0.663070 0.000000 0.000000 -0.748557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D81001, 0x72D81002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D81001, 0x72D81003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72D81001, 0x72D81004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72D81001, 0x72D81005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72D81001, 0x72D81006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72D81001, 0x72D81007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D81001, 0x72D81008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D81001, 0x72D81009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D81001, 0x72D8100A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D81001, 0x72D8100B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D81001, 0x72D8100C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D81001, 0x72D8100D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D81001, 0x72D8100E, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x72D81001, 0x72D81002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72D81001, 0x72D81003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72D81001, 0x72D81004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72D81001, 0x72D81005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72D81001, 0x72D81006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D81001, 0x72D81007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D81001, 0x72D81008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D81001, 0x72D81009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D81001, 0x72D8100A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D81001, 0x72D8100B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D81001, 0x72D8100C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D81001, 0x72D8100D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D81001, 0x72D8100E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D81002, 23563, 0x2D81001E, 92.32384, 140.4835, 66.005, 0.6630703, 0, 0, -0.7485572,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -76,7 +76,7 @@ VALUES (0x72D8100F,  1542, 0x2D810006, 0.7352047, 131.0878, 66, -4.371139E-08, 0
 /* @teleloc 0x2D810006 [0.735205 131.087800 66.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D8100F, 0x72D81010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D8100F, 0x72D81010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D81010,  4380, 0x2D810006, 0.7352047, 131.0878, 66, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

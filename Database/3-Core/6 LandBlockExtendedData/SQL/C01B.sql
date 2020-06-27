@@ -5,9 +5,9 @@ VALUES (0x7C01B001,  1154, 0xC01B0001, 10.71344, 22.45534, 229.5281, 0.2451712, 
 /* @teleloc 0xC01B0001 [10.713440 22.455340 229.528100] 0.245171 0.000000 0.000000 -0.969480 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C01B001, 0x7C01B002, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7C01B001, 0x7C01B003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7C01B001, 0x7C01B004, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7C01B001, 0x7C01B002, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7C01B001, 0x7C01B003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7C01B001, 0x7C01B004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C01B002,  5890, 0xC01B0001, 10.71344, 22.45534, 229.5281, 0.2451712, 0, 0, -0.9694798,  True, '2019-02-10 00:00:00'); /* Hoary Mattekar */

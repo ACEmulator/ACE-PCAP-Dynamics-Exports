@@ -5,10 +5,10 @@ VALUES (0x7B1B5001,  1154, 0xB1B50006, 22.2118, 135.233, 105.4109, 0.7650616, 0,
 /* @teleloc 0xB1B50006 [22.211800 135.233000 105.410900] 0.765062 0.000000 0.000000 -0.643957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1B5001, 0x7B1B5002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1B5001, 0x7B1B5003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1B5001, 0x7B1B5004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B1B5001, 0x7B1B5005, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7B1B5001, 0x7B1B5002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1B5001, 0x7B1B5003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1B5001, 0x7B1B5004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B1B5001, 0x7B1B5005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1B5002,  2612, 0xB1B50006, 22.2118, 135.233, 105.4109, 0.7650616, 0, 0, -0.6439571,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

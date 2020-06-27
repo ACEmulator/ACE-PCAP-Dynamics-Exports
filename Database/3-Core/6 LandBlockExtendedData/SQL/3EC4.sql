@@ -5,24 +5,24 @@ VALUES (0x73EC4001,  1154, 0x3EC40025, 106.5893, 113.024, -0.106, -0.9499981, 0,
 /* @teleloc 0x3EC40025 [106.589300 113.024000 -0.106000] -0.949998 0.000000 0.000000 -0.312256 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EC4001, 0x73EC4002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x73EC4001, 0x73EC4003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73EC4001, 0x73EC4004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73EC4001, 0x73EC4005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73EC4001, 0x73EC4006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73EC4001, 0x73EC4007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73EC4001, 0x73EC4008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73EC4001, 0x73EC4009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73EC4001, 0x73EC400A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73EC4001, 0x73EC400B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73EC4001, 0x73EC400C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73EC4001, 0x73EC400D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73EC4001, 0x73EC400E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73EC4001, 0x73EC400F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73EC4001, 0x73EC4010, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73EC4001, 0x73EC4011, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73EC4001, 0x73EC4012, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73EC4001, 0x73EC4013, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73EC4001, 0x73EC4002, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x73EC4001, 0x73EC4003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73EC4001, 0x73EC4004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73EC4001, 0x73EC4005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73EC4001, 0x73EC4006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73EC4001, 0x73EC4007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73EC4001, 0x73EC4008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73EC4001, 0x73EC4009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73EC4001, 0x73EC400A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73EC4001, 0x73EC400B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73EC4001, 0x73EC400C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73EC4001, 0x73EC400D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73EC4001, 0x73EC400E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73EC4001, 0x73EC400F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73EC4001, 0x73EC4010, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73EC4001, 0x73EC4011, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73EC4001, 0x73EC4012, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73EC4001, 0x73EC4013, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EC4002, 24291, 0x3EC40025, 106.5893, 113.024, -0.106, -0.9499981, 0, 0, -0.3122555,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -101,9 +101,9 @@ VALUES (0x73EC4014,  1542, 0x3EC40027, 114.1637, 155.441, 7.16595, 0.6074369, 0,
 /* @teleloc 0x3EC40027 [114.163700 155.441000 7.165950] 0.607437 0.000000 0.000000 -0.794368 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EC4014, 0x73EC4015, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x73EC4014, 0x73EC4016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73EC4014, 0x73EC4017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73EC4014, 0x73EC4015, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x73EC4014, 0x73EC4016, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x73EC4014, 0x73EC4017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EC4015, 11555, 0x3EC40027, 114.1637, 155.441, 7.16595, 0.6074369, 0, 0, -0.7943679,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

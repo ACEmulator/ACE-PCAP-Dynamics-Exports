@@ -5,16 +5,16 @@ VALUES (0x7B05A001,  1154, 0xB05A0015, 58.7829, 97.24728, 16.01, 0.9961407, 0, 0
 /* @teleloc 0xB05A0015 [58.782900 97.247280 16.010000] 0.996141 0.000000 0.000000 -0.087771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B05A001, 0x7B05A002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B05A001, 0x7B05A003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B05A001, 0x7B05A004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B05A001, 0x7B05A005, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B05A001, 0x7B05A006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B05A001, 0x7B05A007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B05A001, 0x7B05A008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B05A001, 0x7B05A009, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B05A001, 0x7B05A00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B05A001, 0x7B05A00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7B05A001, 0x7B05A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B05A001, 0x7B05A003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B05A001, 0x7B05A004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B05A001, 0x7B05A005, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B05A001, 0x7B05A006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B05A001, 0x7B05A007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B05A001, 0x7B05A008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B05A001, 0x7B05A009, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B05A001, 0x7B05A00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B05A001, 0x7B05A00B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B05A002,   194, 0xB05A0015, 58.7829, 97.24728, 16.01, 0.9961407, 0, 0, -0.08777054,  True, '2019-02-10 00:00:00'); /* Copper Golem */

@@ -5,10 +5,10 @@ VALUES (0x75BC8001,  1154, 0x5BC80028, 117.8907, 190.6062, 65.83382, -0.7656811,
 /* @teleloc 0x5BC80028 [117.890700 190.606200 65.833820] -0.765681 0.000000 0.000000 -0.643220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BC8001, 0x75BC8002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x75BC8001, 0x75BC8003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75BC8001, 0x75BC8004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x75BC8001, 0x75BC8005, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x75BC8001, 0x75BC8002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x75BC8001, 0x75BC8003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75BC8001, 0x75BC8004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x75BC8001, 0x75BC8005, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BC8002, 20189, 0x5BC80028, 117.8907, 190.6062, 65.83382, -0.7656811, 0, 0, -0.6432204,  True, '2019-02-10 00:00:00'); /* Brumal */

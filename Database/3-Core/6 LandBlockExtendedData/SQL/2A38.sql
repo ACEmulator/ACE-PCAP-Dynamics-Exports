@@ -5,12 +5,12 @@ VALUES (0x72A38001,  1154, 0x2A38003C, 174.9031, 80.7577, 42.65215, 0.7318706, 0
 /* @teleloc 0x2A38003C [174.903100 80.757700 42.652150] 0.731871 0.000000 0.000000 -0.681444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A38001, 0x72A38002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72A38001, 0x72A38003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72A38001, 0x72A38004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A38001, 0x72A38005, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72A38001, 0x72A38006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72A38001, 0x72A38007, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x72A38001, 0x72A38002, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72A38001, 0x72A38003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72A38001, 0x72A38004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A38001, 0x72A38005, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72A38001, 0x72A38006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72A38001, 0x72A38007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A38002, 23479, 0x2A38003C, 174.9031, 80.7577, 42.65215, 0.7318706, 0, 0, -0.6814436,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

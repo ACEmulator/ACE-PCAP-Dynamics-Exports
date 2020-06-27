@@ -5,8 +5,8 @@ VALUES (0x7B63F001,  1154, 0xB63F000A, 33.33464, 24.0724, 43.22211, -0.9992151, 
 /* @teleloc 0xB63F000A [33.334640 24.072400 43.222110] -0.999215 0.000000 0.000000 -0.039613 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B63F001, 0x7B63F002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B63F001, 0x7B63F003, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7B63F001, 0x7B63F002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B63F001, 0x7B63F003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B63F002, 22009, 0xB63F000A, 33.33464, 24.0724, 43.22211, -0.9992151, 0, 0, -0.03961257,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

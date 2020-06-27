@@ -113,168 +113,168 @@ VALUES (0x7F7840FE,  1154, 0xF7840321, 51.7612, 278.627, 0.409902, 0.6932939, 0,
 /* @teleloc 0xF7840321 [51.761200 278.627000 0.409902] 0.693294 0.000000 0.000000 -0.720655 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7840FE, 0x7F7840FF, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784100, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784101, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784102, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784103, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784104, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784105, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784106, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784107, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784108, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784109, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78410A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78410B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78410C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78410D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78410E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78410F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784110, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784111, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784112, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784113, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784114, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784115, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784116, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784117, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784118, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784119, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78411A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78411B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78411C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78411D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78411E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78411F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784120, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784121, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784122, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784123, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784124, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784125, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784126, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784127, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784128, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784129, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78412A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78412B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78412C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78412D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78412E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78412F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784130, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784131, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784132, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784133, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784134, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784135, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784136, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784137, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784138, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784139, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78413A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78413B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78413C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78413D, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F78413E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78413F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784140, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784141, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784142, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784143, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784144, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784145, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784146, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784147, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784148, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784149, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78414A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78414B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78414C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78414D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78414E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78414F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784150, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784151, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784152, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784153, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784154, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784155, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784156, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784157, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784158, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784159, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78415A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78415B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78415C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78415D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78415E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78415F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784160, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784161, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784162, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784163, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784164, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784165, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784166, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784167, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784168, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784169, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78416A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78416B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78416C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78416D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78416E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78416F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784170, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784171, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784172, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784173, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784174, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784175, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784176, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784177, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784178, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784179, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F78417A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78417B, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F78417C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78417D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78417E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78417F, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784180, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784181, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784182, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784183, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784184, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784185, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784186, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784187, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784188, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784189, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78418A, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F78418B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78418C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78418D, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F78418E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78418F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784190, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784191, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784192, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F7840FE, 0x7F784193, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784194, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F784195, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784196, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784197, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784198, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F784199, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F7840FE, 0x7F78419A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78419B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78419C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78419D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78419E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F78419F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F7840FE, 0x7F7841A0, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x7F7840FE, 0x7F7840FF, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784100, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784101, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784102, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784103, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784104, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784105, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784106, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784107, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784108, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784109, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78410A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78410B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78410C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78410D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78410E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78410F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784110, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784111, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784112, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784113, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784114, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784115, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784116, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784117, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784118, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784119, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78411A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78411B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78411C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78411D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78411E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78411F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784120, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784121, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784122, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784123, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784124, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784125, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784126, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784127, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784128, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784129, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78412A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78412B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78412C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78412D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78412E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78412F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784130, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784131, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784132, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784133, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784134, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784135, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784136, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784137, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784138, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784139, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78413A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78413B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78413C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78413D, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F78413E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F78413F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784140, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784141, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784142, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784143, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784144, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784145, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784146, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784147, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784148, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784149, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78414A, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78414B, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78414C, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78414D, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78414E, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78414F, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784150, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784151, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784152, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784153, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784154, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784155, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784156, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784157, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784158, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784159, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78415A, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78415B, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78415C, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78415D, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78415E, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78415F, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784160, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784161, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784162, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784163, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784164, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784165, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784166, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784167, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784168, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784169, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78416A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78416B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78416C, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78416D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78416E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78416F, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784170, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784171, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784172, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784173, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784174, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784175, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784176, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784177, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784178, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784179, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F78417A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78417B, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F78417C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78417D, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78417E, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78417F, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784180, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784181, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784182, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F784183, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784184, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784185, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784186, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784187, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784188, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784189, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78418A, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F78418B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78418C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78418D, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F7840FE, 0x7F78418E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F78418F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784190, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784191, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F7840FE, 0x7F784192, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F7840FE, 0x7F784193, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F7840FE, 0x7F784194, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F784195, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784196, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784197, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784198, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F784199, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x7F7840FE, 0x7F78419A, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78419B, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78419C, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78419D, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78419E, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F78419F, '2019-02-10 00:00:00') /* Tusker Liberator (22594) */
+     , (0x7F7840FE, 0x7F7841A0, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7840FF, 22520, 0xF7840321, 51.7612, 278.627, 0.409902, 0.6932939, 0, 0, -0.720655,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -929,7 +929,7 @@ VALUES (0x7F7841A1,  1154, 0xF784000F, 29.4199, 145.704, 42.005, 1, 0, 0, 0, Fal
 /* @teleloc 0xF784000F [29.419900 145.704000 42.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7841A1, 0x7F7841A2, '2019-02-10 00:00:00') /* Hawker for Ketnan */;
+VALUES (0x7F7841A1, 0x7F7841A2, '2019-02-10 00:00:00') /* Hawker for Ketnan (22644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7841A2, 22644, 0xF784000F, 29.4199, 145.704, 42.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hawker for Ketnan */
@@ -940,10 +940,10 @@ VALUES (0x7F7841A3,  1542, 0xF7840016, 69.19128, 137.1837, 52.04757, -0.5857317,
 /* @teleloc 0xF7840016 [69.191280 137.183700 52.047570] -0.585732 0.000000 0.000000 -0.810505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F7841A3, 0x7F7841A4, '2019-02-10 00:00:00') /* Koujia Breastplate */
-     , (0x7F7841A3, 0x7F7841A5, '2019-02-10 00:00:00') /* Covenant Breastplate */
-     , (0x7F7841A3, 0x7F7841A6, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7F7841A3, 0x7F7841A7, '2019-02-10 00:00:00') /* Loafers */;
+VALUES (0x7F7841A3, 0x7F7841A4, '2019-02-10 00:00:00') /* Koujia Breastplate (6003) */
+     , (0x7F7841A3, 0x7F7841A5, '2019-02-10 00:00:00') /* Covenant Breastplate (21152) */
+     , (0x7F7841A3, 0x7F7841A6, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7F7841A3, 0x7F7841A7, '2019-02-10 00:00:00') /* Loafers (28610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F7841A4,  6003, 0xF7840016, 69.19128, 137.1837, 52.04757, -0.5857317, 0, 0, -0.810505,  True, '2019-02-10 00:00:00'); /* Koujia Breastplate */

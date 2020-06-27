@@ -5,9 +5,9 @@ VALUES (0x783C5001,  1154, 0x83C50002, 18.76002, 46.09321, 93.7129, 0.7071068, 0
 /* @teleloc 0x83C50002 [18.760020 46.093210 93.712900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C5001, 0x783C5002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x783C5001, 0x783C5003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x783C5001, 0x783C5004, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x783C5001, 0x783C5002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x783C5001, 0x783C5003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x783C5001, 0x783C5004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C5002,  7345, 0x83C50002, 18.76002, 46.09321, 93.7129, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,14 +5,14 @@ VALUES (0x72336001,  1154, 0x2336000F, 34.68908, 145.2043, 0.01320004, 0.912039,
 /* @teleloc 0x2336000F [34.689080 145.204300 0.013200] 0.912039 0.000000 0.000000 -0.410104 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72336001, 0x72336002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72336001, 0x72336003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72336001, 0x72336004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72336001, 0x72336005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72336001, 0x72336006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72336001, 0x72336007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72336001, 0x72336008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72336001, 0x72336009, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72336001, 0x72336002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72336001, 0x72336003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72336001, 0x72336004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72336001, 0x72336005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72336001, 0x72336006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72336001, 0x72336007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72336001, 0x72336008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72336001, 0x72336009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72336002, 10810, 0x2336000F, 34.68908, 145.2043, 0.01320004, 0.912039, 0, 0, -0.4101035,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -51,7 +51,7 @@ VALUES (0x7233600A,  1542, 0x2336001F, 94.71641, 157.6695, 0, -4.371139E-08, 0, 
 /* @teleloc 0x2336001F [94.716410 157.669500 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7233600A, 0x7233600B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7233600A, 0x7233600B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7233600B,  4380, 0x2336001F, 94.71641, 157.6695, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -25,115 +25,115 @@ VALUES (0x7AE9E01C,  1154, 0xAE9E0104, 105.6726, 158.172, 91.60001, 0.698163, 0,
 /* @teleloc 0xAE9E0104 [105.672600 158.172000 91.600010] 0.698163 0.000000 0.000000 -0.715939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9E01C, 0x7AE9E01D, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E01E, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7AE9E01C, 0x7AE9E01F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E020, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E021, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AE9E01C, 0x7AE9E022, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E023, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E024, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E025, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E026, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7AE9E01C, 0x7AE9E027, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7AE9E01C, 0x7AE9E028, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E029, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7AE9E01C, 0x7AE9E02A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E02B, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E02C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9E01C, 0x7AE9E02D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE9E01C, 0x7AE9E02E, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7AE9E01C, 0x7AE9E02F, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AE9E01C, 0x7AE9E030, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE9E01C, 0x7AE9E031, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E032, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE9E01C, 0x7AE9E033, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E034, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x7AE9E01C, 0x7AE9E035, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E036, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E037, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E038, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E039, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AE9E01C, 0x7AE9E03A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE9E01C, 0x7AE9E03B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AE9E01C, 0x7AE9E03C, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E03D, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E03E, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E03F, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E040, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AE9E01C, 0x7AE9E041, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AE9E01C, 0x7AE9E042, '2019-02-10 00:00:00') /* Gout */
-     , (0x7AE9E01C, 0x7AE9E043, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AE9E01C, 0x7AE9E044, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E045, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E046, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E047, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E048, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E049, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E04A, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AE9E01C, 0x7AE9E04B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E04C, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AE9E01C, 0x7AE9E04D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9E01C, 0x7AE9E04E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AE9E01C, 0x7AE9E04F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE9E01C, 0x7AE9E050, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9E01C, 0x7AE9E051, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9E01C, 0x7AE9E052, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E053, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE9E01C, 0x7AE9E054, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE9E01C, 0x7AE9E055, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AE9E01C, 0x7AE9E056, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AE9E01C, 0x7AE9E057, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AE9E01C, 0x7AE9E058, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E059, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E05A, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7AE9E01C, 0x7AE9E05B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE9E01C, 0x7AE9E05C, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7AE9E01C, 0x7AE9E05D, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E05E, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E05F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9E01C, 0x7AE9E060, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7AE9E01C, 0x7AE9E061, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE9E01C, 0x7AE9E062, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE9E01C, 0x7AE9E063, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E064, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7AE9E01C, 0x7AE9E065, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7AE9E01C, 0x7AE9E066, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE9E01C, 0x7AE9E067, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE9E01C, 0x7AE9E068, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE9E01C, 0x7AE9E069, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE9E01C, 0x7AE9E06A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE9E01C, 0x7AE9E06B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE9E01C, 0x7AE9E06C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AE9E01C, 0x7AE9E06D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AE9E01C, 0x7AE9E06E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE9E01C, 0x7AE9E06F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AE9E01C, 0x7AE9E070, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AE9E01C, 0x7AE9E071, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE9E01C, 0x7AE9E072, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE9E01C, 0x7AE9E073, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE9E01C, 0x7AE9E074, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7AE9E01C, 0x7AE9E075, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7AE9E01C, 0x7AE9E076, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AE9E01C, 0x7AE9E077, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AE9E01C, 0x7AE9E078, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AE9E01C, 0x7AE9E079, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AE9E01C, 0x7AE9E07A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AE9E01C, 0x7AE9E07B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE9E01C, 0x7AE9E07C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AE9E01C, 0x7AE9E07D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9E01C, 0x7AE9E07E, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E07F, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E080, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E081, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x7AE9E01C, 0x7AE9E082, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE9E01C, 0x7AE9E083, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE9E01C, 0x7AE9E084, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AE9E01C, 0x7AE9E085, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AE9E01C, 0x7AE9E086, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE9E01C, 0x7AE9E087, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE9E01C, 0x7AE9E088, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AE9E01C, 0x7AE9E089, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7AE9E01C, 0x7AE9E01D, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E01E, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7AE9E01C, 0x7AE9E01F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E020, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E021, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AE9E01C, 0x7AE9E022, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E023, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E024, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E025, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E026, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7AE9E01C, 0x7AE9E027, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7AE9E01C, 0x7AE9E028, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E029, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7AE9E01C, 0x7AE9E02A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E02B, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E02C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9E01C, 0x7AE9E02D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE9E01C, 0x7AE9E02E, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7AE9E01C, 0x7AE9E02F, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AE9E01C, 0x7AE9E030, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE9E01C, 0x7AE9E031, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E032, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE9E01C, 0x7AE9E033, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E034, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x7AE9E01C, 0x7AE9E035, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E036, '2019-02-10 00:00:00') /* Hollow Minion (14464) */
+     , (0x7AE9E01C, 0x7AE9E037, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E038, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E039, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AE9E01C, 0x7AE9E03A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE9E01C, 0x7AE9E03B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AE9E01C, 0x7AE9E03C, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E03D, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E03E, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E03F, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E040, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AE9E01C, 0x7AE9E041, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AE9E01C, 0x7AE9E042, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7AE9E01C, 0x7AE9E043, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AE9E01C, 0x7AE9E044, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E045, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E046, '2019-02-10 00:00:00') /* Hollow Minion (14464) */
+     , (0x7AE9E01C, 0x7AE9E047, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E048, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E049, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E04A, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AE9E01C, 0x7AE9E04B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E04C, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AE9E01C, 0x7AE9E04D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9E01C, 0x7AE9E04E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AE9E01C, 0x7AE9E04F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE9E01C, 0x7AE9E050, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9E01C, 0x7AE9E051, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9E01C, 0x7AE9E052, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E053, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE9E01C, 0x7AE9E054, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE9E01C, 0x7AE9E055, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AE9E01C, 0x7AE9E056, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AE9E01C, 0x7AE9E057, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AE9E01C, 0x7AE9E058, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E059, '2019-02-10 00:00:00') /* Hollow Minion (14464) */
+     , (0x7AE9E01C, 0x7AE9E05A, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7AE9E01C, 0x7AE9E05B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE9E01C, 0x7AE9E05C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7AE9E01C, 0x7AE9E05D, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E05E, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E05F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9E01C, 0x7AE9E060, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7AE9E01C, 0x7AE9E061, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE9E01C, 0x7AE9E062, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE9E01C, 0x7AE9E063, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E064, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE9E01C, 0x7AE9E065, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7AE9E01C, 0x7AE9E066, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE9E01C, 0x7AE9E067, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE9E01C, 0x7AE9E068, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE9E01C, 0x7AE9E069, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE9E01C, 0x7AE9E06A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE9E01C, 0x7AE9E06B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE9E01C, 0x7AE9E06C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AE9E01C, 0x7AE9E06D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AE9E01C, 0x7AE9E06E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE9E01C, 0x7AE9E06F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AE9E01C, 0x7AE9E070, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AE9E01C, 0x7AE9E071, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AE9E01C, 0x7AE9E072, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE9E01C, 0x7AE9E073, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE9E01C, 0x7AE9E074, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7AE9E01C, 0x7AE9E075, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7AE9E01C, 0x7AE9E076, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AE9E01C, 0x7AE9E077, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE9E01C, 0x7AE9E078, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE9E01C, 0x7AE9E079, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AE9E01C, 0x7AE9E07A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AE9E01C, 0x7AE9E07B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE9E01C, 0x7AE9E07C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AE9E01C, 0x7AE9E07D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9E01C, 0x7AE9E07E, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E07F, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E080, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x7AE9E01C, 0x7AE9E081, '2019-02-10 00:00:00') /* Hollow Minion (14464) */
+     , (0x7AE9E01C, 0x7AE9E082, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE9E01C, 0x7AE9E083, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE9E01C, 0x7AE9E084, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AE9E01C, 0x7AE9E085, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AE9E01C, 0x7AE9E086, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE9E01C, 0x7AE9E087, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE9E01C, 0x7AE9E088, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AE9E01C, 0x7AE9E089, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9E01D,   218, 0xAE9E0104, 105.6726, 158.172, 91.60001, 0.698163, 0, 0, -0.715939,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -576,24 +576,24 @@ VALUES (0x7AE9E08A,  1542, 0xAE9E003F, 176.5264, 167.6916, 90, 1, 0, 0, 0, False
 /* @teleloc 0xAE9E003F [176.526400 167.691600 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9E08A, 0x7AE9E08B, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E08C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E08D, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E08E, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E08F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E090, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7AE9E08A, 0x7AE9E091, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AE9E08A, 0x7AE9E092, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AE9E08A, 0x7AE9E093, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AE9E08A, 0x7AE9E094, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AE9E08A, 0x7AE9E095, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E096, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7AE9E08A, 0x7AE9E097, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AE9E08A, 0x7AE9E098, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7AE9E08A, 0x7AE9E099, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7AE9E08A, 0x7AE9E09A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AE9E08A, 0x7AE9E09B, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7AE9E08A, 0x7AE9E09C, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7AE9E08A, 0x7AE9E08B, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E08C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E08D, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E08E, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E08F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E090, '2019-02-10 00:00:00') /* Old Gravestone (34131) */
+     , (0x7AE9E08A, 0x7AE9E091, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AE9E08A, 0x7AE9E092, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7AE9E08A, 0x7AE9E093, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AE9E08A, 0x7AE9E094, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AE9E08A, 0x7AE9E095, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7AE9E08A, 0x7AE9E096, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7AE9E08A, 0x7AE9E097, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AE9E08A, 0x7AE9E098, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7AE9E08A, 0x7AE9E099, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7AE9E08A, 0x7AE9E09A, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7AE9E08A, 0x7AE9E09B, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x7AE9E08A, 0x7AE9E09C, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9E08B,  8232, 0xAE9E003F, 176.5264, 167.6916, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

@@ -5,9 +5,9 @@ VALUES (0x7C443001,  1154, 0xC4430035, 152.0441, 110.3501, 195.8304, -0.7166568,
 /* @teleloc 0xC4430035 [152.044100 110.350100 195.830400] -0.716657 0.000000 0.000000 -0.697426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C443001, 0x7C443002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C443001, 0x7C443003, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7C443001, 0x7C443004, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7C443001, 0x7C443002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C443001, 0x7C443003, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7C443001, 0x7C443004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C443002,  8014, 0xC4430035, 152.0441, 110.3501, 195.8304, -0.7166568, 0, 0, -0.697426,  True, '2019-02-10 00:00:00'); /* Fragment */

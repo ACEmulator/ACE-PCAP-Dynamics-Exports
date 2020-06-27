@@ -5,15 +5,15 @@ VALUES (0x79C75001,  1154, 0x9C750015, 59.07476, 108.5916, 22.00906, 0.510983, 0
 /* @teleloc 0x9C750015 [59.074760 108.591600 22.009060] 0.510983 0.000000 0.000000 -0.859591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C75001, 0x79C75002, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x79C75001, 0x79C75003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79C75001, 0x79C75004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x79C75001, 0x79C75005, '2019-02-10 00:00:00') /* Lich */
-     , (0x79C75001, 0x79C75006, '2019-02-10 00:00:00') /* Undead */
-     , (0x79C75001, 0x79C75007, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79C75001, 0x79C75008, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79C75001, 0x79C75009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x79C75001, 0x79C7500A, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x79C75001, 0x79C75002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x79C75001, 0x79C75003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79C75001, 0x79C75004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x79C75001, 0x79C75005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79C75001, 0x79C75006, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79C75001, 0x79C75007, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79C75001, 0x79C75008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79C75001, 0x79C75009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x79C75001, 0x79C7500A, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C75002,  4112, 0x9C750015, 59.07476, 108.5916, 22.00906, 0.510983, 0, 0, -0.8595908,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */
@@ -56,8 +56,8 @@ VALUES (0x79C7500B,  1542, 0x9C750012, 58.61556, 46.82858, 25.46985, 0.9238795, 
 /* @teleloc 0x9C750012 [58.615560 46.828580 25.469850] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C7500B, 0x79C7500C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79C7500B, 0x79C7500D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79C7500B, 0x79C7500C, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79C7500B, 0x79C7500D, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C7500C,  4180, 0x9C750012, 58.61556, 46.82858, 25.46985, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

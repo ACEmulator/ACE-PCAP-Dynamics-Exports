@@ -5,31 +5,31 @@ VALUES (0x72D17001,  1154, 0x2D170040, 190.1928, 175.4144, 11.8784, 0.004170481,
 /* @teleloc 0x2D170040 [190.192800 175.414400 11.878400] 0.004170 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D17001, 0x72D17002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D17001, 0x72D17003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D17001, 0x72D17004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D17001, 0x72D17005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72D17001, 0x72D17006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72D17001, 0x72D17007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72D17001, 0x72D17008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72D17001, 0x72D17009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D17001, 0x72D1700A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D17001, 0x72D1700B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D17001, 0x72D1700C, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D17001, 0x72D1700D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D17001, 0x72D1700E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D17001, 0x72D1700F, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D17001, 0x72D17010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D17001, 0x72D17011, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72D17001, 0x72D17012, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D17001, 0x72D17013, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D17001, 0x72D17014, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D17001, 0x72D17015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D17001, 0x72D17016, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D17001, 0x72D17017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72D17001, 0x72D17018, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72D17001, 0x72D17019, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D17001, 0x72D1701A, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x72D17001, 0x72D17002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D17001, 0x72D17003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D17001, 0x72D17004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D17001, 0x72D17005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72D17001, 0x72D17006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72D17001, 0x72D17007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72D17001, 0x72D17008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72D17001, 0x72D17009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D17001, 0x72D1700A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D17001, 0x72D1700B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D17001, 0x72D1700C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D17001, 0x72D1700D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D17001, 0x72D1700E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D17001, 0x72D1700F, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D17001, 0x72D17010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D17001, 0x72D17011, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72D17001, 0x72D17012, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D17001, 0x72D17013, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D17001, 0x72D17014, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D17001, 0x72D17015, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D17001, 0x72D17016, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D17001, 0x72D17017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72D17001, 0x72D17018, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72D17001, 0x72D17019, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D17001, 0x72D1701A, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D17002,  9264, 0x2D170040, 190.1928, 175.4144, 11.8784, 0.004170481, 0, 0, -0.9999913,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -136,10 +136,10 @@ VALUES (0x72D1701B,  1542, 0x2D17000E, 30.05146, 123.4578, 9.773863, -0.8964868,
 /* @teleloc 0x2D17000E [30.051460 123.457800 9.773863] -0.896487 0.000000 0.000000 -0.443070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D1701B, 0x72D1701C, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x72D1701B, 0x72D1701D, '2019-02-10 00:00:00') /* Bones */
-     , (0x72D1701B, 0x72D1701E, '2019-02-10 00:00:00') /* Bones */
-     , (0x72D1701B, 0x72D1701F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D1701B, 0x72D1701C, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x72D1701B, 0x72D1701D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72D1701B, 0x72D1701E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72D1701B, 0x72D1701F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D1701C,  9286, 0x2D17000E, 30.05146, 123.4578, 9.773863, -0.8964868, 0, 0, -0.4430704,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

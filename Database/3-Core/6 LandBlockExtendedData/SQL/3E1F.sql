@@ -5,17 +5,17 @@ VALUES (0x73E1F001,  1154, 0x3E1F001A, 87.48539, 30.86967, 43.01376, 0.5664063, 
 /* @teleloc 0x3E1F001A [87.485390 30.869670 43.013760] 0.566406 0.000000 0.000000 -0.824126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E1F001, 0x73E1F002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73E1F001, 0x73E1F003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73E1F001, 0x73E1F004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73E1F001, 0x73E1F005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73E1F001, 0x73E1F006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73E1F001, 0x73E1F007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E1F001, 0x73E1F008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E1F001, 0x73E1F009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E1F001, 0x73E1F00A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73E1F001, 0x73E1F00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E1F001, 0x73E1F00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x73E1F001, 0x73E1F002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73E1F001, 0x73E1F003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73E1F001, 0x73E1F004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73E1F001, 0x73E1F005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73E1F001, 0x73E1F006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73E1F001, 0x73E1F007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E1F001, 0x73E1F008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E1F001, 0x73E1F009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E1F001, 0x73E1F00A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73E1F001, 0x73E1F00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E1F001, 0x73E1F00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E1F002,  7184, 0x3E1F001A, 87.48539, 30.86967, 43.01376, 0.5664063, 0, 0, -0.8241262,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

@@ -5,12 +5,12 @@ VALUES (0x736F2001,  1154, 0x36F20038, 162.893, 182.2531, 10.77417, 0.9891067, 0
 /* @teleloc 0x36F20038 [162.893000 182.253100 10.774170] 0.989107 0.000000 0.000000 -0.147200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736F2001, 0x736F2002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736F2001, 0x736F2003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x736F2001, 0x736F2004, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x736F2001, 0x736F2005, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736F2001, 0x736F2006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x736F2001, 0x736F2007, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x736F2001, 0x736F2002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x736F2001, 0x736F2003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x736F2001, 0x736F2004, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x736F2001, 0x736F2005, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736F2001, 0x736F2006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736F2001, 0x736F2007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736F2002, 28051, 0x36F20038, 162.893, 182.2531, 10.77417, 0.9891067, 0, 0, -0.1472001,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

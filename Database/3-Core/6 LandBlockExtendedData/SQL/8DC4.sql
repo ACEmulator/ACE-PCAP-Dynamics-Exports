@@ -5,17 +5,17 @@ VALUES (0x78DC4001,  1154, 0x8DC4003D, 172.6938, 111.9755, 54.28211, 0.8870109, 
 /* @teleloc 0x8DC4003D [172.693800 111.975500 54.282110] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DC4001, 0x78DC4002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DC4001, 0x78DC4003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78DC4001, 0x78DC4004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78DC4001, 0x78DC4005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DC4001, 0x78DC4006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DC4001, 0x78DC4007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DC4001, 0x78DC4008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DC4001, 0x78DC4009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC4001, 0x78DC400A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78DC4001, 0x78DC400B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78DC4001, 0x78DC400C, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x78DC4001, 0x78DC4002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DC4001, 0x78DC4003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78DC4001, 0x78DC4004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78DC4001, 0x78DC4005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DC4001, 0x78DC4006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DC4001, 0x78DC4007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DC4001, 0x78DC4008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DC4001, 0x78DC4009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC4001, 0x78DC400A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78DC4001, 0x78DC400B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78DC4001, 0x78DC400C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DC4002,  1610, 0x8DC4003D, 172.6938, 111.9755, 54.28211, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -66,9 +66,9 @@ VALUES (0x78DC400D,  1542, 0x8DC4001B, 79.21036, 50.26102, 64, 1, 0, 0, 0, False
 /* @teleloc 0x8DC4001B [79.210360 50.261020 64.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DC400D, 0x78DC400E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78DC400D, 0x78DC400F, '2019-02-10 00:00:00') /* Bones */
-     , (0x78DC400D, 0x78DC4010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78DC400D, 0x78DC400E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78DC400D, 0x78DC400F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78DC400D, 0x78DC4010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DC400E, 22567, 0x8DC4001B, 79.21036, 50.26102, 64, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

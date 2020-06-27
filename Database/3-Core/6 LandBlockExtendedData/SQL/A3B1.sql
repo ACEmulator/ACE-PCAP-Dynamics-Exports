@@ -5,11 +5,11 @@ VALUES (0x7A3B1001,  1154, 0xA3B1003F, 175.168, 153.7014, 40.012, 0.7169914, 0, 
 /* @teleloc 0xA3B1003F [175.168000 153.701400 40.012000] 0.716991 0.000000 0.000000 -0.697082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3B1001, 0x7A3B1002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A3B1001, 0x7A3B1003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3B1001, 0x7A3B1004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3B1001, 0x7A3B1005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3B1001, 0x7A3B1006, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7A3B1001, 0x7A3B1002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A3B1001, 0x7A3B1003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3B1001, 0x7A3B1004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3B1001, 0x7A3B1005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3B1001, 0x7A3B1006, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3B1002,   215, 0xA3B1003F, 175.168, 153.7014, 40.012, 0.7169914, 0, 0, -0.697082,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -36,7 +36,7 @@ VALUES (0x7A3B1007,  1542, 0xA3B10035, 148.4006, 111.379, 42.56683, 0.9990482, 0
 /* @teleloc 0xA3B10035 [148.400600 111.379000 42.566830] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3B1007, 0x7A3B1008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A3B1007, 0x7A3B1008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3B1008,  4179, 0xA3B10035, 148.4006, 111.379, 42.56683, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

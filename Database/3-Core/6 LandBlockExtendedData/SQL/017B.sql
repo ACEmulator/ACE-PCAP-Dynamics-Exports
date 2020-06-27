@@ -9,77 +9,77 @@ VALUES (0x7017B041,  1154, 0x017B011A, 79.0205, -37.4494, -5.964749, 0.21773, 0,
 /* @teleloc 0x017B011A [79.020500 -37.449400 -5.964749] 0.217730 0.000000 0.000000 0.976009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017B041, 0x7017B042, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B043, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B044, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B045, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B046, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B047, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B048, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B049, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B04A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B04B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B04C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B04D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B04E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B04F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B050, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B051, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B052, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B053, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B054, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B055, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B056, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B057, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B058, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B059, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B05A, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B05B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B05C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B05D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B05E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B05F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B060, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B061, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B062, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B063, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B064, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B065, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B066, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B067, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B068, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B069, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06A, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06B, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B06F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B070, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B071, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B072, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B073, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B074, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B075, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B076, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B077, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B078, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B079, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B07A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B07B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B07C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B07D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B07E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B07F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B080, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B081, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B082, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B083, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7017B041, 0x7017B084, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B085, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B086, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B087, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */
-     , (0x7017B041, 0x7017B088, '2019-02-10 00:00:00') /* Burun Ruuk Adherent */;
+VALUES (0x7017B041, 0x7017B042, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B043, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B044, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B045, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B046, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B047, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B048, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B049, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B04A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B04B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B04C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B04D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B04E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B04F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B050, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B051, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B052, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B053, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B054, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B055, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B056, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B057, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B058, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B059, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B05A, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B05B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B05C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B05D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B05E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B05F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B060, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B061, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B062, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B063, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B064, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B065, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B066, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B067, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B068, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B069, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06A, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06B, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06C, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B06F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B070, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B071, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B072, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B073, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B074, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B075, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B076, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B077, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B078, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B079, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B07A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B07B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B07C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B07D, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B07E, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B07F, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B080, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B081, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B082, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B083, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (26016) */
+     , (0x7017B041, 0x7017B084, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B085, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B086, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B087, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */
+     , (0x7017B041, 0x7017B088, '2019-02-10 00:00:00') /* Burun Ruuk Adherent (26013) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017B042, 26016, 0x017B011A, 79.0205, -37.4494, -5.964749, 0.21773, 0, 0, 0.976009,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Ruffian */
@@ -370,7 +370,7 @@ VALUES (0x7017B089,  1542, 0x017B01DB, 53.9324, -169.033, 25.0135, -0.0323706, 0
 /* @teleloc 0x017B01DB [53.932400 -169.033000 25.013500] -0.032371 0.000000 0.000000 -0.999476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017B089, 0x7017B08A, '2019-02-10 00:00:00') /* Mosswart War Paint */;
+VALUES (0x7017B089, 0x7017B08A, '2019-02-10 00:00:00') /* Mosswart War Paint (27905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017B08A, 27905, 0x017B01DB, 53.9324, -169.033, 25.0135, -0.0323706, 0, 0, -0.999476,  True, '2019-02-10 00:00:00'); /* Mosswart War Paint */

@@ -5,17 +5,17 @@ VALUES (0x749D0001,  1154, 0x49D00012, 61.10838, 42.14964, 98.47597, -0.9266424,
 /* @teleloc 0x49D00012 [61.108380 42.149640 98.475970] -0.926642 0.000000 0.000000 -0.375944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749D0001, 0x749D0002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x749D0001, 0x749D0003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x749D0001, 0x749D0004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x749D0001, 0x749D0005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749D0001, 0x749D0006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749D0001, 0x749D0007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749D0001, 0x749D0008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x749D0001, 0x749D0009, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x749D0001, 0x749D000A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x749D0001, 0x749D000B, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x749D0001, 0x749D000C, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x749D0001, 0x749D0002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x749D0001, 0x749D0003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x749D0001, 0x749D0004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x749D0001, 0x749D0005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749D0001, 0x749D0006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749D0001, 0x749D0007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749D0001, 0x749D0008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x749D0001, 0x749D0009, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x749D0001, 0x749D000A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x749D0001, 0x749D000B, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x749D0001, 0x749D000C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749D0002, 24277, 0x49D00012, 61.10838, 42.14964, 98.47597, -0.9266424, 0, 0, -0.3759439,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -66,7 +66,7 @@ VALUES (0x749D000D,  1542, 0x49D00032, 151.1397, 35.18879, 73.0676, 1, 0, 0, 0, 
 /* @teleloc 0x49D00032 [151.139700 35.188790 73.067600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749D000D, 0x749D000E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x749D000D, 0x749D000E, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749D000E, 22566, 0x49D00032, 151.1397, 35.18879, 73.0676, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

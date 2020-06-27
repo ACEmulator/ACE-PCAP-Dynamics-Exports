@@ -5,12 +5,12 @@ VALUES (0x7B7D5001,  1154, 0xB7D50015, 57.7369, 118.1337, 58.38268, 0.9063078, 0
 /* @teleloc 0xB7D50015 [57.736900 118.133700 58.382680] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7D5001, 0x7B7D5002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B7D5001, 0x7B7D5003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B7D5001, 0x7B7D5004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B7D5001, 0x7B7D5005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B7D5001, 0x7B7D5006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B7D5001, 0x7B7D5007, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x7B7D5001, 0x7B7D5002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B7D5001, 0x7B7D5003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B7D5001, 0x7B7D5004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B7D5001, 0x7B7D5005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B7D5001, 0x7B7D5006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B7D5001, 0x7B7D5007, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7D5002,   233, 0xB7D50015, 57.7369, 118.1337, 58.38268, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */

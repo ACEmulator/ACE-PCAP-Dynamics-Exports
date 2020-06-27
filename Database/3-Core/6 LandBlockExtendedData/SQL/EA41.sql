@@ -5,12 +5,12 @@ VALUES (0x7EA41001,  1154, 0xEA410012, 49.81042, 25.589, 30.41915, 0.9582248, 0,
 /* @teleloc 0xEA410012 [49.810420 25.589000 30.419150] 0.958225 0.000000 0.000000 -0.286016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA41001, 0x7EA41002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7EA41001, 0x7EA41003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EA41001, 0x7EA41004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7EA41001, 0x7EA41005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7EA41001, 0x7EA41006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7EA41001, 0x7EA41007, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7EA41001, 0x7EA41002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7EA41001, 0x7EA41003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EA41001, 0x7EA41004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7EA41001, 0x7EA41005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7EA41001, 0x7EA41006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7EA41001, 0x7EA41007, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA41002,  4111, 0xEA410012, 49.81042, 25.589, 30.41915, 0.9582248, 0, 0, -0.286016,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

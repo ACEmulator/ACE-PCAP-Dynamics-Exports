@@ -5,30 +5,30 @@ VALUES (0x7B64C001,  1154, 0xB64C0021, 108.3777, 13.14173, 112.7842, 1, 0, 0, 0,
 /* @teleloc 0xB64C0021 [108.377700 13.141730 112.784200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64C001, 0x7B64C002, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x7B64C001, 0x7B64C003, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x7B64C001, 0x7B64C004, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64C001, 0x7B64C005, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B64C001, 0x7B64C006, '2019-02-10 00:00:00') /* Poisonous Brier Wasp */
-     , (0x7B64C001, 0x7B64C007, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x7B64C001, 0x7B64C008, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B64C001, 0x7B64C009, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x7B64C001, 0x7B64C00A, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B64C001, 0x7B64C00B, '2019-02-10 00:00:00') /* Brier Wasp Hive */
-     , (0x7B64C001, 0x7B64C00C, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B64C001, 0x7B64C00D, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x7B64C001, 0x7B64C00E, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B64C001, 0x7B64C00F, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B64C001, 0x7B64C010, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x7B64C001, 0x7B64C011, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B64C001, 0x7B64C012, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B64C001, 0x7B64C013, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64C001, 0x7B64C014, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B64C001, 0x7B64C015, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64C001, 0x7B64C016, '2019-02-10 00:00:00') /* Guardian Wisp */
-     , (0x7B64C001, 0x7B64C017, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B64C001, 0x7B64C018, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B64C001, 0x7B64C019, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */;
+VALUES (0x7B64C001, 0x7B64C002, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x7B64C001, 0x7B64C003, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x7B64C001, 0x7B64C004, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52590) */
+     , (0x7B64C001, 0x7B64C005, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B64C001, 0x7B64C006, '2019-02-10 00:00:00') /* Poisonous Brier Wasp (52620) */
+     , (0x7B64C001, 0x7B64C007, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x7B64C001, 0x7B64C008, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B64C001, 0x7B64C009, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x7B64C001, 0x7B64C00A, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B64C001, 0x7B64C00B, '2019-02-10 00:00:00') /* Brier Wasp Hive (52618) */
+     , (0x7B64C001, 0x7B64C00C, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B64C001, 0x7B64C00D, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x7B64C001, 0x7B64C00E, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B64C001, 0x7B64C00F, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B64C001, 0x7B64C010, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52634) */
+     , (0x7B64C001, 0x7B64C011, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B64C001, 0x7B64C012, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B64C001, 0x7B64C013, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52590) */
+     , (0x7B64C001, 0x7B64C014, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B64C001, 0x7B64C015, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x7B64C001, 0x7B64C016, '2019-02-10 00:00:00') /* Guardian Wisp (52627) */
+     , (0x7B64C001, 0x7B64C017, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B64C001, 0x7B64C018, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x7B64C001, 0x7B64C019, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64C002, 53347, 0xB64C0021, 108.3777, 13.14173, 112.7842, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Emerald Hunting Gromnie */
@@ -131,9 +131,9 @@ VALUES (0x7B64C01A,  1154, 0xB64C0011, 66.97098, 20.14804, 115.358, -0.7047759, 
 /* @teleloc 0xB64C0011 [66.970980 20.148040 115.358000] -0.704776 0.000000 0.000000 -0.709430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64C01A, 0x7B64C01B, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B64C01A, 0x7B64C01C, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B64C01A, 0x7B64C01D, '2019-02-10 00:00:00') /* Amber Crystal */;
+VALUES (0x7B64C01A, 0x7B64C01B, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B64C01A, 0x7B64C01C, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B64C01A, 0x7B64C01D, '2019-02-10 00:00:00') /* Amber Crystal (53011) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64C01B, 52986, 0xB64C0011, 66.97098, 20.14804, 115.358, -0.7047759, 0, 0, -0.7094299,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */

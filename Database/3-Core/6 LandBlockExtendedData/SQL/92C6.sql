@@ -5,16 +5,16 @@ VALUES (0x792C6001,  1154, 0x92C6003B, 180.5312, 65.05173, 89.36491, -0.9950992,
 /* @teleloc 0x92C6003B [180.531200 65.051730 89.364910] -0.995099 0.000000 0.000000 -0.098881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792C6001, 0x792C6002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792C6001, 0x792C6003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x792C6001, 0x792C6004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x792C6001, 0x792C6005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x792C6001, 0x792C6006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x792C6001, 0x792C6007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792C6001, 0x792C6008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x792C6001, 0x792C6009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792C6001, 0x792C600A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792C6001, 0x792C600B, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x792C6001, 0x792C6002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x792C6001, 0x792C6003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x792C6001, 0x792C6004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x792C6001, 0x792C6005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x792C6001, 0x792C6006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x792C6001, 0x792C6007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792C6001, 0x792C6008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x792C6001, 0x792C6009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792C6001, 0x792C600A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792C6001, 0x792C600B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792C6002,  7089, 0x92C6003B, 180.5312, 65.05173, 89.36491, -0.9950992, 0, 0, -0.09888096,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

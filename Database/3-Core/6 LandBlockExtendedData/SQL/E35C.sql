@@ -5,13 +5,13 @@ VALUES (0x7E35C001,  1154, 0xE35C0002, 8.206903, 27.29687, 0.001199961, 0.953716
 /* @teleloc 0xE35C0002 [8.206903 27.296870 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E35C001, 0x7E35C002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E35C001, 0x7E35C003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E35C001, 0x7E35C004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E35C001, 0x7E35C005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E35C001, 0x7E35C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E35C001, 0x7E35C007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E35C001, 0x7E35C008, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7E35C001, 0x7E35C002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E35C001, 0x7E35C003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E35C001, 0x7E35C004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E35C001, 0x7E35C005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E35C001, 0x7E35C006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E35C001, 0x7E35C007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E35C001, 0x7E35C008, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E35C002,  7108, 0xE35C0002, 8.206903, 27.29687, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

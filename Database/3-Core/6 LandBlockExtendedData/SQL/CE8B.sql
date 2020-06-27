@@ -5,20 +5,20 @@ VALUES (0x7CE8B001,  1154, 0xCE8B0021, 105.6061, 8.894994, 25.99675, -0.4144403,
 /* @teleloc 0xCE8B0021 [105.606100 8.894994 25.996750] -0.414440 0.000000 0.000000 -0.910077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE8B001, 0x7CE8B002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7CE8B001, 0x7CE8B003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE8B001, 0x7CE8B004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CE8B001, 0x7CE8B005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CE8B001, 0x7CE8B006, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CE8B001, 0x7CE8B007, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7CE8B001, 0x7CE8B008, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CE8B001, 0x7CE8B009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7CE8B001, 0x7CE8B00A, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CE8B001, 0x7CE8B00B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CE8B001, 0x7CE8B00C, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CE8B001, 0x7CE8B00D, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CE8B001, 0x7CE8B00E, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CE8B001, 0x7CE8B00F, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7CE8B001, 0x7CE8B002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7CE8B001, 0x7CE8B003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE8B001, 0x7CE8B004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CE8B001, 0x7CE8B005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CE8B001, 0x7CE8B006, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CE8B001, 0x7CE8B007, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7CE8B001, 0x7CE8B008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CE8B001, 0x7CE8B009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7CE8B001, 0x7CE8B00A, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CE8B001, 0x7CE8B00B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CE8B001, 0x7CE8B00C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CE8B001, 0x7CE8B00D, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CE8B001, 0x7CE8B00E, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CE8B001, 0x7CE8B00F, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE8B002, 24938, 0xCE8B0021, 105.6061, 8.894994, 25.99675, -0.4144403, 0, 0, -0.9100765,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
@@ -81,9 +81,9 @@ VALUES (0x7CE8B010,  1542, 0xCE8B0039, 168.51, 7.991326, 26.011, 0.9988617, 0, 0
 /* @teleloc 0xCE8B0039 [168.510000 7.991326 26.011000] 0.998862 0.000000 0.000000 -0.047701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE8B010, 0x7CE8B011, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7CE8B010, 0x7CE8B012, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7CE8B010, 0x7CE8B013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CE8B010, 0x7CE8B011, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7CE8B010, 0x7CE8B012, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7CE8B010, 0x7CE8B013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE8B011, 31686, 0xCE8B0039, 168.51, 7.991326, 26.011, 0.9988617, 0, 0, -0.04770136,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

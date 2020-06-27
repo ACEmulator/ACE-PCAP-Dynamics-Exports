@@ -25,46 +25,46 @@ VALUES (0x7DA50010,  1154, 0xDA500106, 41.27643, 35.61699, 30.80495, 0.641486, 0
 /* @teleloc 0xDA500106 [41.276430 35.616990 30.804950] 0.641486 0.000000 0.000000 0.767135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA50010, 0x7DA50011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA50010, 0x7DA50012, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA50010, 0x7DA50013, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DA50010, 0x7DA50014, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DA50010, 0x7DA50015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA50010, 0x7DA50016, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA50010, 0x7DA50017, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50018, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50019, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA5001A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA50010, 0x7DA5001B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA50010, 0x7DA5001C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA5001D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DA50010, 0x7DA5001E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA50010, 0x7DA5001F, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA50010, 0x7DA50020, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50021, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50022, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DA50010, 0x7DA50023, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA50010, 0x7DA50024, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50025, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50026, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DA50010, 0x7DA50027, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA50010, 0x7DA50028, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA50010, 0x7DA50029, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DA50010, 0x7DA5002A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DA50010, 0x7DA5002B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA5002C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DA50010, 0x7DA5002D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DA50010, 0x7DA5002E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA50010, 0x7DA5002F, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7DA50010, 0x7DA50030, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA50010, 0x7DA50031, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DA50010, 0x7DA50032, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DA50010, 0x7DA50033, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DA50010, 0x7DA50034, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DA50010, 0x7DA50035, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA50010, 0x7DA50036, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA50010, 0x7DA50037, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA50010, 0x7DA50038, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7DA50010, 0x7DA50011, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7DA50010, 0x7DA50012, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7DA50010, 0x7DA50013, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DA50010, 0x7DA50014, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DA50010, 0x7DA50015, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7DA50010, 0x7DA50016, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7DA50010, 0x7DA50017, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50018, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50019, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA5001A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7DA50010, 0x7DA5001B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA50010, 0x7DA5001C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA5001D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DA50010, 0x7DA5001E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA50010, 0x7DA5001F, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA50010, 0x7DA50020, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50021, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50022, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DA50010, 0x7DA50023, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA50010, 0x7DA50024, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50025, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50026, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DA50010, 0x7DA50027, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA50010, 0x7DA50028, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA50010, 0x7DA50029, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DA50010, 0x7DA5002A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DA50010, 0x7DA5002B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA5002C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DA50010, 0x7DA5002D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DA50010, 0x7DA5002E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA50010, 0x7DA5002F, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7DA50010, 0x7DA50030, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA50010, 0x7DA50031, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DA50010, 0x7DA50032, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DA50010, 0x7DA50033, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DA50010, 0x7DA50034, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DA50010, 0x7DA50035, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA50010, 0x7DA50036, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA50010, 0x7DA50037, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA50010, 0x7DA50038, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA50011,     8, 0xDA500106, 41.27643, 35.61699, 30.80495, 0.641486, 0, 0, 0.767135,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

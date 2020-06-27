@@ -5,19 +5,19 @@ VALUES (0x744DE001,  1154, 0x44DE001A, 79.58994, 45.33469, 20.8651, 0.9063078, 0
 /* @teleloc 0x44DE001A [79.589940 45.334690 20.865100] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744DE001, 0x744DE002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x744DE001, 0x744DE003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x744DE001, 0x744DE004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x744DE001, 0x744DE005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x744DE001, 0x744DE006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x744DE001, 0x744DE007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x744DE001, 0x744DE008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x744DE001, 0x744DE009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x744DE001, 0x744DE00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x744DE001, 0x744DE00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x744DE001, 0x744DE00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x744DE001, 0x744DE00D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x744DE001, 0x744DE00E, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x744DE001, 0x744DE002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x744DE001, 0x744DE003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x744DE001, 0x744DE004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x744DE001, 0x744DE005, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x744DE001, 0x744DE006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x744DE001, 0x744DE007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x744DE001, 0x744DE008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x744DE001, 0x744DE009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x744DE001, 0x744DE00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x744DE001, 0x744DE00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x744DE001, 0x744DE00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x744DE001, 0x744DE00D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x744DE001, 0x744DE00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744DE002,  7081, 0x44DE001A, 79.58994, 45.33469, 20.8651, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -76,9 +76,9 @@ VALUES (0x744DE00F,  1542, 0x44DE0037, 162.4705, 160.022, 41.28796, 1, 0, 0, 0, 
 /* @teleloc 0x44DE0037 [162.470500 160.022000 41.287960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744DE00F, 0x744DE010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x744DE00F, 0x744DE011, '2019-02-10 00:00:00') /* Bones */
-     , (0x744DE00F, 0x744DE012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x744DE00F, 0x744DE010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x744DE00F, 0x744DE011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x744DE00F, 0x744DE012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744DE010, 22571, 0x44DE0037, 162.4705, 160.022, 41.28796, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,21 +5,21 @@ VALUES (0x772F0001,  1154, 0x72F00006, 2.13464, 134.1377, 21.8156, -4.371139E-08
 /* @teleloc 0x72F00006 [2.134640 134.137700 21.815600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772F0001, 0x772F0002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x772F0001, 0x772F0003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x772F0001, 0x772F0004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x772F0001, 0x772F0005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x772F0001, 0x772F0006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x772F0001, 0x772F0007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x772F0001, 0x772F0008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x772F0001, 0x772F0009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x772F0001, 0x772F000A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x772F0001, 0x772F000B, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x772F0001, 0x772F000C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x772F0001, 0x772F000D, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x772F0001, 0x772F000E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x772F0001, 0x772F000F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x772F0001, 0x772F0010, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x772F0001, 0x772F0002, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x772F0001, 0x772F0003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x772F0001, 0x772F0004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x772F0001, 0x772F0005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x772F0001, 0x772F0006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x772F0001, 0x772F0007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x772F0001, 0x772F0008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x772F0001, 0x772F0009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x772F0001, 0x772F000A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x772F0001, 0x772F000B, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x772F0001, 0x772F000C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x772F0001, 0x772F000D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x772F0001, 0x772F000E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x772F0001, 0x772F000F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x772F0001, 0x772F0010, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772F0002, 24291, 0x72F00006, 2.13464, 134.1377, 21.8156, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -86,7 +86,7 @@ VALUES (0x772F0011,  1542, 0x72F00035, 154.544, 110.2857, 39.32229, -4.371139E-0
 /* @teleloc 0x72F00035 [154.544000 110.285700 39.322290] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772F0011, 0x772F0012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x772F0011, 0x772F0012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772F0012,  4380, 0x72F00035, 154.544, 110.2857, 39.32229, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

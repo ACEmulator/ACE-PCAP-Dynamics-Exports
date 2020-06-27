@@ -5,16 +5,16 @@ VALUES (0x7C9DC001,  1154, 0xC9DC003D, 183.3892, 98.94637, -0.44175, -0.9172561,
 /* @teleloc 0xC9DC003D [183.389200 98.946370 -0.441750] -0.917256 0.000000 0.000000 -0.398298 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9DC001, 0x7C9DC002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C9DC001, 0x7C9DC003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C9DC001, 0x7C9DC004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C9DC001, 0x7C9DC005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C9DC001, 0x7C9DC006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C9DC001, 0x7C9DC007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C9DC001, 0x7C9DC008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C9DC001, 0x7C9DC009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7C9DC001, 0x7C9DC00A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C9DC001, 0x7C9DC00B, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7C9DC001, 0x7C9DC002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C9DC001, 0x7C9DC003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C9DC001, 0x7C9DC004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C9DC001, 0x7C9DC005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C9DC001, 0x7C9DC006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C9DC001, 0x7C9DC007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C9DC001, 0x7C9DC008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C9DC001, 0x7C9DC009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7C9DC001, 0x7C9DC00A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C9DC001, 0x7C9DC00B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9DC002,  4217, 0xC9DC003D, 183.3892, 98.94637, -0.44175, -0.9172561, 0, 0, -0.3982979,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

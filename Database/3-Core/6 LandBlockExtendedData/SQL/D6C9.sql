@@ -5,12 +5,12 @@ VALUES (0x7D6C9001,  1154, 0xD6C9003C, 174.5934, 87.6976, 136.9636, 0.7071068, 0
 /* @teleloc 0xD6C9003C [174.593400 87.697600 136.963600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6C9001, 0x7D6C9002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D6C9001, 0x7D6C9003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D6C9001, 0x7D6C9004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D6C9001, 0x7D6C9005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D6C9001, 0x7D6C9006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D6C9001, 0x7D6C9007, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7D6C9001, 0x7D6C9002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D6C9001, 0x7D6C9003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D6C9001, 0x7D6C9004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D6C9001, 0x7D6C9005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D6C9001, 0x7D6C9006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D6C9001, 0x7D6C9007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6C9002,  7086, 0xD6C9003C, 174.5934, 87.6976, 136.9636, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -41,7 +41,7 @@ VALUES (0x7D6C9008,  1542, 0xD6C9003C, 170.8592, 89.48516, 136.1939, -4.371139E-
 /* @teleloc 0xD6C9003C [170.859200 89.485160 136.193900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6C9008, 0x7D6C9009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D6C9008, 0x7D6C9009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6C9009,  4380, 0xD6C9003C, 170.8592, 89.48516, 136.1939, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

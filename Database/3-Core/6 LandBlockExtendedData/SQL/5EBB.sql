@@ -5,12 +5,12 @@ VALUES (0x75EBB001,  1154, 0x5EBB000B, 26.09816, 66.14668, 0.008249998, 0.707106
 /* @teleloc 0x5EBB000B [26.098160 66.146680 0.008250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EBB001, 0x75EBB002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75EBB001, 0x75EBB003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75EBB001, 0x75EBB004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75EBB001, 0x75EBB005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75EBB001, 0x75EBB006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75EBB001, 0x75EBB007, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x75EBB001, 0x75EBB002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75EBB001, 0x75EBB003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75EBB001, 0x75EBB004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75EBB001, 0x75EBB005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75EBB001, 0x75EBB006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75EBB001, 0x75EBB007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EBB002, 24320, 0x5EBB000B, 26.09816, 66.14668, 0.008249998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -41,7 +41,7 @@ VALUES (0x75EBB008,  1542, 0x5EBB000B, 27.7218, 64.28555, -3.72529E-09, -4.37113
 /* @teleloc 0x5EBB000B [27.721800 64.285550 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EBB008, 0x75EBB009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75EBB008, 0x75EBB009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EBB009,  4380, 0x5EBB000B, 27.7218, 64.28555, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

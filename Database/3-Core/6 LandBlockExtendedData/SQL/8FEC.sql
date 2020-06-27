@@ -5,12 +5,12 @@ VALUES (0x78FEC001,  1154, 0x8FEC000B, 29.00756, 50.82076, 42.19723, 0.8433914, 
 /* @teleloc 0x8FEC000B [29.007560 50.820760 42.197230] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FEC001, 0x78FEC002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78FEC001, 0x78FEC003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78FEC001, 0x78FEC004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78FEC001, 0x78FEC005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FEC001, 0x78FEC006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FEC001, 0x78FEC007, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x78FEC001, 0x78FEC002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78FEC001, 0x78FEC003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78FEC001, 0x78FEC004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78FEC001, 0x78FEC005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FEC001, 0x78FEC006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FEC001, 0x78FEC007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FEC002,  7129, 0x8FEC000B, 29.00756, 50.82076, 42.19723, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -41,7 +41,7 @@ VALUES (0x78FEC008,  1542, 0x8FEC000E, 37.79366, 123.6242, 32.54545, 1, 0, 0, 0,
 /* @teleloc 0x8FEC000E [37.793660 123.624200 32.545450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FEC008, 0x78FEC009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78FEC008, 0x78FEC009, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FEC009, 22567, 0x8FEC000E, 37.79366, 123.6242, 32.54545, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x760B7001,  1154, 0x60B70017, 59.75421, 158.6194, 0.9866672, 0.1775141,
 /* @teleloc 0x60B70017 [59.754210 158.619400 0.986667] 0.177514 0.000000 0.000000 -0.984118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760B7001, 0x760B7002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x760B7001, 0x760B7003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x760B7001, 0x760B7004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x760B7001, 0x760B7005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x760B7001, 0x760B7006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x760B7001, 0x760B7007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x760B7001, 0x760B7008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x760B7001, 0x760B7009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760B7001, 0x760B700A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x760B7001, 0x760B7002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x760B7001, 0x760B7003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x760B7001, 0x760B7004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x760B7001, 0x760B7005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x760B7001, 0x760B7006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x760B7001, 0x760B7007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x760B7001, 0x760B7008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x760B7001, 0x760B7009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760B7001, 0x760B700A, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760B7002,  7088, 0x60B70017, 59.75421, 158.6194, 0.9866672, 0.1775141, 0, 0, -0.9841183,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

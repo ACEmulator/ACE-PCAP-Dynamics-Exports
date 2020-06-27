@@ -5,16 +5,16 @@ VALUES (0x72D4E001,  1154, 0x2D4E000B, 41.29131, 54.40691, 10.92614, 0.7278838, 
 /* @teleloc 0x2D4E000B [41.291310 54.406910 10.926140] 0.727884 0.000000 0.000000 -0.685701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D4E001, 0x72D4E002, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72D4E001, 0x72D4E003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72D4E001, 0x72D4E004, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72D4E001, 0x72D4E005, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72D4E001, 0x72D4E006, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72D4E001, 0x72D4E007, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72D4E001, 0x72D4E008, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72D4E001, 0x72D4E009, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72D4E001, 0x72D4E00A, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72D4E001, 0x72D4E00B, '2019-02-10 00:00:00') /* Swarthy Mattekar */;
+VALUES (0x72D4E001, 0x72D4E002, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72D4E001, 0x72D4E003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72D4E001, 0x72D4E004, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72D4E001, 0x72D4E005, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72D4E001, 0x72D4E006, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72D4E001, 0x72D4E007, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72D4E001, 0x72D4E008, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72D4E001, 0x72D4E009, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72D4E001, 0x72D4E00A, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72D4E001, 0x72D4E00B, '2019-02-10 00:00:00') /* Swarthy Mattekar (22901) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D4E002, 23570, 0x2D4E000B, 41.29131, 54.40691, 10.92614, 0.7278838, 0, 0, -0.6857005,  True, '2019-02-10 00:00:00'); /* Virindi Paradox */
@@ -61,7 +61,7 @@ VALUES (0x72D4E00C,  1542, 0x2D4E0013, 56.29683, 49.27927, 11.97756, 0.7278838, 
 /* @teleloc 0x2D4E0013 [56.296830 49.279270 11.977560] 0.727884 0.000000 0.000000 -0.685701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D4E00C, 0x72D4E00D, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72D4E00C, 0x72D4E00D, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D4E00D, 46284, 0x2D4E0013, 56.29683, 49.27927, 11.97756, 0.7278838, 0, 0, -0.6857005,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

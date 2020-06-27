@@ -5,13 +5,13 @@ VALUES (0x753A2001,  1154, 0x53A20037, 149.7098, 145.6777, 69.52074, 0.9466518, 
 /* @teleloc 0x53A20037 [149.709800 145.677700 69.520740] 0.946652 0.000000 0.000000 -0.322258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753A2001, 0x753A2002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x753A2001, 0x753A2003, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x753A2001, 0x753A2004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x753A2001, 0x753A2005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x753A2001, 0x753A2006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x753A2001, 0x753A2007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x753A2001, 0x753A2008, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x753A2001, 0x753A2002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x753A2001, 0x753A2003, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x753A2001, 0x753A2004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x753A2001, 0x753A2005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x753A2001, 0x753A2006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x753A2001, 0x753A2007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x753A2001, 0x753A2008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753A2002,  4217, 0x53A20037, 149.7098, 145.6777, 69.52074, 0.9466518, 0, 0, -0.3222584,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

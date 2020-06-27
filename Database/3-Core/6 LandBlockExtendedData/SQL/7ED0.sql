@@ -5,10 +5,10 @@ VALUES (0x77ED0001,  1154, 0x7ED00026, 110.8725, 123.5435, 209.1213, 0.01848659,
 /* @teleloc 0x7ED00026 [110.872500 123.543500 209.121300] 0.018487 0.000000 0.000000 -0.999829 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ED0001, 0x77ED0002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x77ED0001, 0x77ED0003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x77ED0001, 0x77ED0004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77ED0001, 0x77ED0005, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x77ED0001, 0x77ED0002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x77ED0001, 0x77ED0003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x77ED0001, 0x77ED0004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77ED0001, 0x77ED0005, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ED0002, 22810, 0x7ED00026, 110.8725, 123.5435, 209.1213, 0.01848659, 0, 0, -0.9998291,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
@@ -31,7 +31,7 @@ VALUES (0x77ED0006,  1542, 0x7ED00025, 112.8753, 112.874, 209.5063, 0.9990482, 0
 /* @teleloc 0x7ED00025 [112.875300 112.874000 209.506300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ED0006, 0x77ED0007, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x77ED0006, 0x77ED0007, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ED0007,  6117, 0x7ED00025, 112.8753, 112.874, 209.5063, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

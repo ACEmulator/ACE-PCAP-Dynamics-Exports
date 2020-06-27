@@ -5,12 +5,12 @@ VALUES (0x762C8001,  1154, 0x62C8003D, 186.0932, 99.66791, 188.6185, 0.6849523, 
 /* @teleloc 0x62C8003D [186.093200 99.667910 188.618500] 0.684952 0.000000 0.000000 -0.728588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762C8001, 0x762C8002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x762C8001, 0x762C8003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x762C8001, 0x762C8004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x762C8001, 0x762C8005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x762C8001, 0x762C8006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x762C8001, 0x762C8007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x762C8001, 0x762C8002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x762C8001, 0x762C8003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x762C8001, 0x762C8004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x762C8001, 0x762C8005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x762C8001, 0x762C8006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x762C8001, 0x762C8007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762C8002, 24275, 0x62C8003D, 186.0932, 99.66791, 188.6185, 0.6849523, 0, 0, -0.7285879,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

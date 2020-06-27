@@ -5,23 +5,23 @@ VALUES (0x7BC18001,  1154, 0xBC180021, 117.52, 9.395035, 208.0579, 1, 0, 0, 0, F
 /* @teleloc 0xBC180021 [117.520000 9.395035 208.057900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC18001, 0x7BC18002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC18001, 0x7BC18003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC18001, 0x7BC18004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC18001, 0x7BC18005, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BC18001, 0x7BC18006, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BC18001, 0x7BC18007, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BC18001, 0x7BC18008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC18001, 0x7BC18009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC18001, 0x7BC1800A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BC18001, 0x7BC1800B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BC18001, 0x7BC1800C, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7BC18001, 0x7BC1800D, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BC18001, 0x7BC1800E, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC18001, 0x7BC1800F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC18001, 0x7BC18010, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC18001, 0x7BC18011, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC18001, 0x7BC18012, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7BC18001, 0x7BC18002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC18001, 0x7BC18003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC18001, 0x7BC18004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC18001, 0x7BC18005, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7BC18001, 0x7BC18006, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7BC18001, 0x7BC18007, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BC18001, 0x7BC18008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC18001, 0x7BC18009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC18001, 0x7BC1800A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BC18001, 0x7BC1800B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BC18001, 0x7BC1800C, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7BC18001, 0x7BC1800D, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BC18001, 0x7BC1800E, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC18001, 0x7BC1800F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC18001, 0x7BC18010, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC18001, 0x7BC18011, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC18001, 0x7BC18012, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC18002,  7107, 0xBC180021, 117.52, 9.395035, 208.0579, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

@@ -5,20 +5,20 @@ VALUES (0x71A71001,  1154, 0x1A710038, 149.5564, 177.4301, 250.01, 0.2588191, 0,
 /* @teleloc 0x1A710038 [149.556400 177.430100 250.010000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A71001, 0x71A71002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A71001, 0x71A71003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71A71001, 0x71A71004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71A71001, 0x71A71005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71A71001, 0x71A71006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71A71001, 0x71A71007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71A71001, 0x71A71008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x71A71001, 0x71A71009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71A71001, 0x71A7100A, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71A71001, 0x71A7100B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A71001, 0x71A7100C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A71001, 0x71A7100D, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71A71001, 0x71A7100E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71A71001, 0x71A7100F, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x71A71001, 0x71A71002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A71001, 0x71A71003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71A71001, 0x71A71004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71A71001, 0x71A71005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71A71001, 0x71A71006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71A71001, 0x71A71007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71A71001, 0x71A71008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x71A71001, 0x71A71009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71A71001, 0x71A7100A, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71A71001, 0x71A7100B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A71001, 0x71A7100C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A71001, 0x71A7100D, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71A71001, 0x71A7100E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71A71001, 0x71A7100F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A71002, 24497, 0x1A710038, 149.5564, 177.4301, 250.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -81,7 +81,7 @@ VALUES (0x71A71010,  1542, 0x1A710004, 19.42595, 73.0773, 228.0941, 1, 0, 0, 0, 
 /* @teleloc 0x1A710004 [19.425950 73.077300 228.094100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A71010, 0x71A71011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71A71010, 0x71A71011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A71011, 22571, 0x1A710004, 19.42595, 73.0773, 228.0941, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

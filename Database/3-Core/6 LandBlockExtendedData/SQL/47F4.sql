@@ -9,11 +9,11 @@ VALUES (0x747F4001,  1154, 0x47F4003B, 191.4396, 68.46884, -0.8932101, 0.897381,
 /* @teleloc 0x47F4003B [191.439600 68.468840 -0.893210] 0.897381 0.000000 0.000000 -0.441257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747F4001, 0x747F4002, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x747F4001, 0x747F4003, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x747F4001, 0x747F4004, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x747F4001, 0x747F4005, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x747F4001, 0x747F4006, '2019-02-10 00:00:00') /* Insatiable Eater */;
+VALUES (0x747F4001, 0x747F4002, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x747F4001, 0x747F4003, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x747F4001, 0x747F4004, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x747F4001, 0x747F4005, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x747F4001, 0x747F4006, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747F4002, 28652, 0x47F4003B, 191.4396, 68.46884, -0.8932101, 0.897381, 0, 0, -0.4412565,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */
@@ -40,7 +40,7 @@ VALUES (0x747F4007,  1542, 0x47F4001E, 79.59505, 139.2419, -0.163, 0.9122826, 0,
 /* @teleloc 0x47F4001E [79.595050 139.241900 -0.163000] 0.912283 0.000000 0.000000 -0.409561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747F4007, 0x747F4008, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x747F4007, 0x747F4008, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747F4008,  1955, 0x47F4001E, 79.59505, 139.2419, -0.163, 0.9122826, 0, 0, -0.4095612,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,11 +5,11 @@ VALUES (0x755D9001,  1154, 0x55D90030, 128.3343, 185.3406, 131.5753, -0.05577819
 /* @teleloc 0x55D90030 [128.334300 185.340600 131.575300] -0.055778 0.000000 0.000000 -0.998443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D9001, 0x755D9002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x755D9001, 0x755D9003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x755D9001, 0x755D9004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x755D9001, 0x755D9005, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x755D9001, 0x755D9006, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x755D9001, 0x755D9002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x755D9001, 0x755D9003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x755D9001, 0x755D9004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x755D9001, 0x755D9005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x755D9001, 0x755D9006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D9002, 14520, 0x55D90030, 128.3343, 185.3406, 131.5753, -0.05577819, 0, 0, -0.9984432,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

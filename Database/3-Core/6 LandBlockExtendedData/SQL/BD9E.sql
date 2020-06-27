@@ -13,19 +13,19 @@ VALUES (0x7BD9E002,  1154, 0xBD9E002A, 124.5798, 46.03958, 1.5511, 0.01331393, 0
 /* @teleloc 0xBD9E002A [124.579800 46.039580 1.551100] 0.013314 0.000000 0.000000 -0.999911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD9E002, 0x7BD9E003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD9E002, 0x7BD9E004, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BD9E002, 0x7BD9E005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD9E002, 0x7BD9E006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD9E002, 0x7BD9E007, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BD9E002, 0x7BD9E008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD9E002, 0x7BD9E009, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BD9E002, 0x7BD9E00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD9E002, 0x7BD9E00B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD9E002, 0x7BD9E00C, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BD9E002, 0x7BD9E00D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD9E002, 0x7BD9E00E, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BD9E002, 0x7BD9E00F, '2019-02-10 00:00:00') /* Shallows Shark */;
+VALUES (0x7BD9E002, 0x7BD9E003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD9E002, 0x7BD9E004, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BD9E002, 0x7BD9E005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD9E002, 0x7BD9E006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD9E002, 0x7BD9E007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BD9E002, 0x7BD9E008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD9E002, 0x7BD9E009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BD9E002, 0x7BD9E00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD9E002, 0x7BD9E00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD9E002, 0x7BD9E00C, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BD9E002, 0x7BD9E00D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD9E002, 0x7BD9E00E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BD9E002, 0x7BD9E00F, '2019-02-10 00:00:00') /* Shallows Shark (2577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD9E003,  2577, 0xBD9E002A, 124.5798, 46.03958, 1.5511, 0.01331393, 0, 0, -0.9999114,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
@@ -84,29 +84,29 @@ VALUES (0x7BD9E010,  1542, 0xBD9E0003, 2.671764, 55.5805, 10.39301, -0.9991703, 
 /* @teleloc 0xBD9E0003 [2.671764 55.580500 10.393010] -0.999170 0.000000 0.000000 -0.040727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD9E010, 0x7BD9E011, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7BD9E010, 0x7BD9E012, '2019-02-10 00:00:00') /* Pack Burun Kukuur */
-     , (0x7BD9E010, 0x7BD9E013, '2019-02-10 00:00:00') /* Moons Flag */
-     , (0x7BD9E010, 0x7BD9E014, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7BD9E010, 0x7BD9E015, '2019-02-10 00:00:00') /* Jewel of Fire and Ice */
-     , (0x7BD9E010, 0x7BD9E016, '2019-02-10 00:00:00') /* Craftable Prism Fragment of Acid */
-     , (0x7BD9E010, 0x7BD9E017, '2019-02-10 00:00:00') /* Peerless Healing Kit */
-     , (0x7BD9E010, 0x7BD9E018, '2019-02-10 00:00:00') /* Elysa's Favor */
-     , (0x7BD9E010, 0x7BD9E019, '2019-02-10 00:00:00') /* Torn Cloth Scrap */
-     , (0x7BD9E010, 0x7BD9E01A, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7BD9E010, 0x7BD9E01B, '2019-02-10 00:00:00') /* Pack */
-     , (0x7BD9E010, 0x7BD9E01C, '2019-02-10 00:00:00') /* Moons Flag */
-     , (0x7BD9E010, 0x7BD9E01D, '2019-02-10 00:00:00') /* Torn Cloth Scrap */
-     , (0x7BD9E010, 0x7BD9E01E, '2019-02-10 00:00:00') /* Torn Cloth Scrap */
-     , (0x7BD9E010, 0x7BD9E01F, '2019-02-10 00:00:00') /* Torn Cloth Scrap */
-     , (0x7BD9E010, 0x7BD9E020, '2019-02-10 00:00:00') /* Iron Pea */
-     , (0x7BD9E010, 0x7BD9E021, '2019-02-10 00:00:00') /* First Half of a Battered Crossbow */
-     , (0x7BD9E010, 0x7BD9E022, '2019-02-10 00:00:00') /* Pack Martine */
-     , (0x7BD9E010, 0x7BD9E023, '2019-02-10 00:00:00') /* Heavy Crossbow */
-     , (0x7BD9E010, 0x7BD9E024, '2019-02-10 00:00:00') /* Yumi */
-     , (0x7BD9E010, 0x7BD9E025, '2019-02-10 00:00:00') /* Some Changes for February 2012 */
-     , (0x7BD9E010, 0x7BD9E026, '2019-02-10 00:00:00') /* Gold Scarab */
-     , (0x7BD9E010, 0x7BD9E027, '2019-02-10 00:00:00') /* Hollowed-Out Tree Trunk */;
+VALUES (0x7BD9E010, 0x7BD9E011, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7BD9E010, 0x7BD9E012, '2019-02-10 00:00:00') /* Pack Burun Kukuur (29919) */
+     , (0x7BD9E010, 0x7BD9E013, '2019-02-10 00:00:00') /* Moons Flag (16920) */
+     , (0x7BD9E010, 0x7BD9E014, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7BD9E010, 0x7BD9E015, '2019-02-10 00:00:00') /* Jewel of Fire and Ice (14528) */
+     , (0x7BD9E010, 0x7BD9E016, '2019-02-10 00:00:00') /* Craftable Prism Fragment of Acid (14530) */
+     , (0x7BD9E010, 0x7BD9E017, '2019-02-10 00:00:00') /* Peerless Healing Kit (632) */
+     , (0x7BD9E010, 0x7BD9E018, '2019-02-10 00:00:00') /* Elysa's Favor (14452) */
+     , (0x7BD9E010, 0x7BD9E019, '2019-02-10 00:00:00') /* Torn Cloth Scrap (35426) */
+     , (0x7BD9E010, 0x7BD9E01A, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7BD9E010, 0x7BD9E01B, '2019-02-10 00:00:00') /* Pack (136) */
+     , (0x7BD9E010, 0x7BD9E01C, '2019-02-10 00:00:00') /* Moons Flag (16920) */
+     , (0x7BD9E010, 0x7BD9E01D, '2019-02-10 00:00:00') /* Torn Cloth Scrap (35419) */
+     , (0x7BD9E010, 0x7BD9E01E, '2019-02-10 00:00:00') /* Torn Cloth Scrap (35420) */
+     , (0x7BD9E010, 0x7BD9E01F, '2019-02-10 00:00:00') /* Torn Cloth Scrap (35424) */
+     , (0x7BD9E010, 0x7BD9E020, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x7BD9E010, 0x7BD9E021, '2019-02-10 00:00:00') /* First Half of a Battered Crossbow (31462) */
+     , (0x7BD9E010, 0x7BD9E022, '2019-02-10 00:00:00') /* Pack Martine (29921) */
+     , (0x7BD9E010, 0x7BD9E023, '2019-02-10 00:00:00') /* Heavy Crossbow (311) */
+     , (0x7BD9E010, 0x7BD9E024, '2019-02-10 00:00:00') /* Yumi (363) */
+     , (0x7BD9E010, 0x7BD9E025, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7BD9E010, 0x7BD9E026, '2019-02-10 00:00:00') /* Gold Scarab (687) */
+     , (0x7BD9E010, 0x7BD9E027, '2019-02-10 00:00:00') /* Hollowed-Out Tree Trunk (14553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD9E011, 45488, 0xBD9E0003, 2.671764, 55.5805, 10.39301, -0.9991703, 0, 0, -0.04072675,  True, '2019-02-10 00:00:00'); /* Some Changes for February 2012 */

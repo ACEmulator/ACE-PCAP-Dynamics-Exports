@@ -5,9 +5,9 @@ VALUES (0x763A1001,  1154, 0x63A1002D, 135.5848, 102.4765, 38.98563, 0.9238795, 
 /* @teleloc 0x63A1002D [135.584800 102.476500 38.985630] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763A1001, 0x763A1002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x763A1001, 0x763A1003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x763A1001, 0x763A1004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x763A1001, 0x763A1002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x763A1001, 0x763A1003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x763A1001, 0x763A1004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763A1002,   199, 0x63A1002D, 135.5848, 102.4765, 38.98563, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */

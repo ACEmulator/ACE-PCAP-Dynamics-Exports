@@ -5,17 +5,17 @@ VALUES (0x783C3001,  1154, 0x83C30001, 18.80107, 5.449367, 121.8957, 0.1706929, 
 /* @teleloc 0x83C30001 [18.801070 5.449367 121.895700] 0.170693 0.000000 0.000000 -0.985324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C3001, 0x783C3002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x783C3001, 0x783C3003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x783C3001, 0x783C3004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x783C3001, 0x783C3005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x783C3001, 0x783C3006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x783C3001, 0x783C3007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x783C3001, 0x783C3008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x783C3001, 0x783C3009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x783C3001, 0x783C300A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x783C3001, 0x783C300B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x783C3001, 0x783C300C, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x783C3001, 0x783C3002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x783C3001, 0x783C3003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x783C3001, 0x783C3004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x783C3001, 0x783C3005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x783C3001, 0x783C3006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x783C3001, 0x783C3007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x783C3001, 0x783C3008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x783C3001, 0x783C3009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x783C3001, 0x783C300A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x783C3001, 0x783C300B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x783C3001, 0x783C300C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C3002,   212, 0x83C30001, 18.80107, 5.449367, 121.8957, 0.1706929, 0, 0, -0.9853243,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -66,8 +66,8 @@ VALUES (0x783C300D,  1542, 0x83C3001C, 94.54298, 77.84493, 105.5841, -0.9863181,
 /* @teleloc 0x83C3001C [94.542980 77.844930 105.584100] -0.986318 0.000000 0.000000 -0.164853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C300D, 0x783C300E, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x783C300D, 0x783C300F, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x783C300D, 0x783C300E, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x783C300D, 0x783C300F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C300E,  8646, 0x83C3001C, 94.54298, 77.84493, 105.5841, -0.9863181, 0, 0, -0.1648533,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,10 +5,10 @@ VALUES (0x73347001,  1154, 0x33470012, 71.18829, 32.67606, 15.41228, 0.307541, 0
 /* @teleloc 0x33470012 [71.188290 32.676060 15.412280] 0.307541 0.000000 0.000000 -0.951535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73347001, 0x73347002, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73347001, 0x73347003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73347001, 0x73347004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73347001, 0x73347005, '2019-02-10 00:00:00') /* Aste Sclavus Lord */;
+VALUES (0x73347001, 0x73347002, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73347001, 0x73347003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73347001, 0x73347004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73347001, 0x73347005, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73347002, 23483, 0x33470012, 71.18829, 32.67606, 15.41228, 0.307541, 0, 0, -0.9515348,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */

@@ -5,11 +5,11 @@ VALUES (0x77E6C001,  1154, 0x7E6C0022, 112.9045, 41.90544, 16.09181, 0.9667073, 
 /* @teleloc 0x7E6C0022 [112.904500 41.905440 16.091810] 0.966707 0.000000 0.000000 -0.255885 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E6C001, 0x77E6C002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77E6C001, 0x77E6C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x77E6C001, 0x77E6C004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x77E6C001, 0x77E6C005, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77E6C001, 0x77E6C006, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x77E6C001, 0x77E6C002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77E6C001, 0x77E6C003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x77E6C001, 0x77E6C004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x77E6C001, 0x77E6C005, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77E6C001, 0x77E6C006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6C002,  1766, 0x7E6C0022, 112.9045, 41.90544, 16.09181, 0.9667073, 0, 0, -0.2558846,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

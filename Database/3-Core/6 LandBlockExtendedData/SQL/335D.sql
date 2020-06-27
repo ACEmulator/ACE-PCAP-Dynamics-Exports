@@ -5,18 +5,18 @@ VALUES (0x7335D001,  1154, 0x335D0038, 151.9943, 176.1357, 40.004, 0.8870109, 0,
 /* @teleloc 0x335D0038 [151.994300 176.135700 40.004000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335D001, 0x7335D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7335D001, 0x7335D003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7335D001, 0x7335D004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7335D001, 0x7335D005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7335D001, 0x7335D006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7335D001, 0x7335D007, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7335D001, 0x7335D008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7335D001, 0x7335D009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7335D001, 0x7335D00A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7335D001, 0x7335D00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7335D001, 0x7335D00C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7335D001, 0x7335D00D, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x7335D001, 0x7335D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7335D001, 0x7335D003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7335D001, 0x7335D004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7335D001, 0x7335D005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7335D001, 0x7335D006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7335D001, 0x7335D007, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7335D001, 0x7335D008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7335D001, 0x7335D009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7335D001, 0x7335D00A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7335D001, 0x7335D00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7335D001, 0x7335D00C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7335D001, 0x7335D00D, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335D002,  4254, 0x335D0038, 151.9943, 176.1357, 40.004, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7335D00E,  1542, 0x335D0038, 147.1858, 174.9754, 40, 1, 0, 0, 0, False
 /* @teleloc 0x335D0038 [147.185800 174.975400 40.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335D00E, 0x7335D00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7335D00E, 0x7335D00F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335D00F, 22566, 0x335D0038, 147.1858, 174.9754, 40, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

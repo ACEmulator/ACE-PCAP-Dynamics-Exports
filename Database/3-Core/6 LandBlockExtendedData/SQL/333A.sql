@@ -5,17 +5,17 @@ VALUES (0x7333A001,  1154, 0x333A000E, 31.28178, 137.5507, 142.8689, 0.8741193, 
 /* @teleloc 0x333A000E [31.281780 137.550700 142.868900] 0.874119 0.000000 0.000000 -0.485711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7333A001, 0x7333A002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7333A001, 0x7333A003, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7333A001, 0x7333A004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7333A001, 0x7333A005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7333A001, 0x7333A006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7333A001, 0x7333A007, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7333A001, 0x7333A008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7333A001, 0x7333A009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7333A001, 0x7333A00A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7333A001, 0x7333A00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7333A001, 0x7333A00C, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x7333A001, 0x7333A002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7333A001, 0x7333A003, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7333A001, 0x7333A004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7333A001, 0x7333A005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7333A001, 0x7333A006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7333A001, 0x7333A007, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7333A001, 0x7333A008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7333A001, 0x7333A009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7333A001, 0x7333A00A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7333A001, 0x7333A00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7333A001, 0x7333A00C, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7333A002, 10810, 0x333A000E, 31.28178, 137.5507, 142.8689, 0.8741193, 0, 0, -0.4857112,  True, '2019-02-10 00:00:00'); /* Rampager */

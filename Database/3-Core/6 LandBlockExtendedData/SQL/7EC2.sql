@@ -5,17 +5,17 @@ VALUES (0x77EC2001,  1154, 0x7EC2003C, 184.0876, 80.29436, 137.9782, 0.2588191, 
 /* @teleloc 0x7EC2003C [184.087600 80.294360 137.978200] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EC2001, 0x77EC2002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77EC2001, 0x77EC2003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x77EC2001, 0x77EC2004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77EC2001, 0x77EC2005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x77EC2001, 0x77EC2006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77EC2001, 0x77EC2007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x77EC2001, 0x77EC2008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77EC2001, 0x77EC2009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77EC2001, 0x77EC200A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77EC2001, 0x77EC200B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77EC2001, 0x77EC200C, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x77EC2001, 0x77EC2002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77EC2001, 0x77EC2003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x77EC2001, 0x77EC2004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77EC2001, 0x77EC2005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x77EC2001, 0x77EC2006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77EC2001, 0x77EC2007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x77EC2001, 0x77EC2008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77EC2001, 0x77EC2009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77EC2001, 0x77EC200A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77EC2001, 0x77EC200B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77EC2001, 0x77EC200C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EC2002, 24494, 0x7EC2003C, 184.0876, 80.29436, 137.9782, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */

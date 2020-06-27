@@ -5,25 +5,25 @@ VALUES (0x7DD26001,  1154, 0xDD260016, 71.82169, 122.1893, 49.52969, 1, 0, 0, 0,
 /* @teleloc 0xDD260016 [71.821690 122.189300 49.529690] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD26001, 0x7DD26002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DD26001, 0x7DD26003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DD26001, 0x7DD26004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DD26001, 0x7DD26005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DD26001, 0x7DD26006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DD26001, 0x7DD26007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7DD26001, 0x7DD26008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DD26001, 0x7DD26009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DD26001, 0x7DD2600A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DD26001, 0x7DD2600B, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7DD26001, 0x7DD2600C, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7DD26001, 0x7DD2600D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7DD26001, 0x7DD2600E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DD26001, 0x7DD2600F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DD26001, 0x7DD26010, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DD26001, 0x7DD26011, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DD26001, 0x7DD26012, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DD26001, 0x7DD26013, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DD26001, 0x7DD26014, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7DD26001, 0x7DD26002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DD26001, 0x7DD26003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DD26001, 0x7DD26004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DD26001, 0x7DD26005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DD26001, 0x7DD26006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DD26001, 0x7DD26007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7DD26001, 0x7DD26008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DD26001, 0x7DD26009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DD26001, 0x7DD2600A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DD26001, 0x7DD2600B, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7DD26001, 0x7DD2600C, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7DD26001, 0x7DD2600D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7DD26001, 0x7DD2600E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DD26001, 0x7DD2600F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DD26001, 0x7DD26010, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DD26001, 0x7DD26011, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DD26001, 0x7DD26012, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DD26001, 0x7DD26013, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DD26001, 0x7DD26014, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD26002,  7123, 0xDD260016, 71.82169, 122.1893, 49.52969, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -106,7 +106,7 @@ VALUES (0x7DD26015,  1542, 0xDD26000E, 32.62623, 142.3562, 67.90733, 1, 0, 0, 0,
 /* @teleloc 0xDD26000E [32.626230 142.356200 67.907330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD26015, 0x7DD26016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DD26015, 0x7DD26016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD26016,  4179, 0xDD26000E, 32.62623, 142.3562, 67.90733, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

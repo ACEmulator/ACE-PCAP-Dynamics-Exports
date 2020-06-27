@@ -5,20 +5,20 @@ VALUES (0x7D28A001,  1154, 0xD28A0004, 22.12499, 94.97894, 30.01, 0.9238795, 0, 
 /* @teleloc 0xD28A0004 [22.124990 94.978940 30.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D28A001, 0x7D28A002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D28A001, 0x7D28A003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D28A001, 0x7D28A004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D28A001, 0x7D28A005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7D28A001, 0x7D28A006, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D28A001, 0x7D28A007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7D28A001, 0x7D28A008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7D28A001, 0x7D28A009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D28A001, 0x7D28A00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D28A001, 0x7D28A00B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7D28A001, 0x7D28A00C, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7D28A001, 0x7D28A00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7D28A001, 0x7D28A00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7D28A001, 0x7D28A00F, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7D28A001, 0x7D28A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D28A001, 0x7D28A003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D28A001, 0x7D28A004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D28A001, 0x7D28A005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7D28A001, 0x7D28A006, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D28A001, 0x7D28A007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7D28A001, 0x7D28A008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7D28A001, 0x7D28A009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D28A001, 0x7D28A00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D28A001, 0x7D28A00B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7D28A001, 0x7D28A00C, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7D28A001, 0x7D28A00D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7D28A001, 0x7D28A00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7D28A001, 0x7D28A00F, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D28A002,   194, 0xD28A0004, 22.12499, 94.97894, 30.01, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */

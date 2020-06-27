@@ -5,10 +5,10 @@ VALUES (0x79A50001,  1154, 0x9A500036, 149.2391, 133.1106, 17.14, 0.9238795, 0, 
 /* @teleloc 0x9A500036 [149.239100 133.110600 17.140000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A50001, 0x79A50002, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79A50001, 0x79A50003, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79A50001, 0x79A50004, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x79A50001, 0x79A50005, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x79A50001, 0x79A50002, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79A50001, 0x79A50003, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79A50001, 0x79A50004, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x79A50001, 0x79A50005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A50002,  9250, 0x9A500036, 149.2391, 133.1106, 17.14, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
@@ -31,7 +31,7 @@ VALUES (0x79A50006,  1542, 0x9A50003E, 174.1732, 138.4557, 13.46964, 0.9537169, 
 /* @teleloc 0x9A50003E [174.173200 138.455700 13.469640] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A50006, 0x79A50007, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x79A50006, 0x79A50007, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A50007,  7934, 0x9A50003E, 174.1732, 138.4557, 13.46964, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

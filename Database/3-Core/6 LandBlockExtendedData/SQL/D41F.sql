@@ -5,12 +5,12 @@ VALUES (0x7D41F001,  1542, 0xD41F003D, 178.8999, 116.5986, 155.7046, 1, 0, 0, 0,
 /* @teleloc 0xD41F003D [178.899900 116.598600 155.704600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D41F001, 0x7D41F002, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7D41F001, 0x7D41F003, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D41F001, 0x7D41F004, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7D41F001, 0x7D41F005, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7D41F001, 0x7D41F006, '2019-02-10 00:00:00') /* Hasina bint Rira */
-     , (0x7D41F001, 0x7D41F007, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */;
+VALUES (0x7D41F001, 0x7D41F002, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7D41F001, 0x7D41F003, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D41F001, 0x7D41F004, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7D41F001, 0x7D41F005, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7D41F001, 0x7D41F006, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */
+     , (0x7D41F001, 0x7D41F007, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D41F002,  9024, 0xD41F003D, 178.8999, 116.5986, 155.7046, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

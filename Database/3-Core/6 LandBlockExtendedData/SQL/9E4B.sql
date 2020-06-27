@@ -5,17 +5,17 @@ VALUES (0x79E4B001,  1154, 0x9E4B0030, 137.3111, 181.5021, 65.14631, 0.8313323, 
 /* @teleloc 0x9E4B0030 [137.311100 181.502100 65.146310] 0.831332 0.000000 0.000000 -0.555776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E4B001, 0x79E4B002, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79E4B001, 0x79E4B003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79E4B001, 0x79E4B004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79E4B001, 0x79E4B005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E4B001, 0x79E4B006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79E4B001, 0x79E4B007, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79E4B001, 0x79E4B008, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x79E4B001, 0x79E4B009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79E4B001, 0x79E4B00A, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79E4B001, 0x79E4B00B, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79E4B001, 0x79E4B00C, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x79E4B001, 0x79E4B002, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79E4B001, 0x79E4B003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79E4B001, 0x79E4B004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79E4B001, 0x79E4B005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E4B001, 0x79E4B006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79E4B001, 0x79E4B007, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79E4B001, 0x79E4B008, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x79E4B001, 0x79E4B009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79E4B001, 0x79E4B00A, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79E4B001, 0x79E4B00B, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79E4B001, 0x79E4B00C, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E4B002,  9249, 0x9E4B0030, 137.3111, 181.5021, 65.14631, 0.8313323, 0, 0, -0.5557756,  True, '2019-02-10 00:00:00'); /* Marionette */

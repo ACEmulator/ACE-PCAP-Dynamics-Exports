@@ -5,13 +5,13 @@ VALUES (0x7198A001,  1154, 0x198A0021, 116.2327, 0.5974426, 75.995, 0.400167, 0,
 /* @teleloc 0x198A0021 [116.232700 0.597443 75.995000] 0.400167 0.000000 0.000000 -0.916442 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198A001, 0x7198A002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7198A001, 0x7198A003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7198A001, 0x7198A004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7198A001, 0x7198A005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198A001, 0x7198A006, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7198A001, 0x7198A007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7198A001, 0x7198A008, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7198A001, 0x7198A002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7198A001, 0x7198A003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7198A001, 0x7198A004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7198A001, 0x7198A005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198A001, 0x7198A006, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7198A001, 0x7198A007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7198A001, 0x7198A008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198A002, 36842, 0x198A0021, 116.2327, 0.5974426, 75.995, 0.400167, 0, 0, -0.9164423,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

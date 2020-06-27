@@ -5,33 +5,33 @@ VALUES (0x722C1001,  1154, 0x22C10025, 104.2336, 103.3395, 102.8598, 1, 0, 0, 0,
 /* @teleloc 0x22C10025 [104.233600 103.339500 102.859800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C1001, 0x722C1002, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x722C1001, 0x722C1003, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x722C1001, 0x722C1004, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x722C1001, 0x722C1005, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x722C1001, 0x722C1006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x722C1001, 0x722C1007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C1001, 0x722C1008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C1001, 0x722C1009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x722C1001, 0x722C100A, '2019-02-10 00:00:00') /* Static */
-     , (0x722C1001, 0x722C100B, '2019-02-10 00:00:00') /* Cultist */
-     , (0x722C1001, 0x722C100C, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x722C1001, 0x722C100D, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722C1001, 0x722C100E, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722C1001, 0x722C100F, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x722C1001, 0x722C1010, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x722C1001, 0x722C1011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C1001, 0x722C1012, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C1001, 0x722C1013, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x722C1001, 0x722C1014, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C1001, 0x722C1015, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C1001, 0x722C1016, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C1001, 0x722C1017, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x722C1001, 0x722C1018, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x722C1001, 0x722C1019, '2019-02-10 00:00:00') /* Synnast */
-     , (0x722C1001, 0x722C101A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x722C1001, 0x722C101B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x722C1001, 0x722C101C, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x722C1001, 0x722C1002, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x722C1001, 0x722C1003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x722C1001, 0x722C1004, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x722C1001, 0x722C1005, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x722C1001, 0x722C1006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x722C1001, 0x722C1007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C1001, 0x722C1008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C1001, 0x722C1009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x722C1001, 0x722C100A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x722C1001, 0x722C100B, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x722C1001, 0x722C100C, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x722C1001, 0x722C100D, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722C1001, 0x722C100E, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722C1001, 0x722C100F, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x722C1001, 0x722C1010, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x722C1001, 0x722C1011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C1001, 0x722C1012, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C1001, 0x722C1013, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x722C1001, 0x722C1014, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C1001, 0x722C1015, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C1001, 0x722C1016, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C1001, 0x722C1017, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x722C1001, 0x722C1018, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x722C1001, 0x722C1019, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x722C1001, 0x722C101A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x722C1001, 0x722C101B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x722C1001, 0x722C101C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C1002,  7095, 0x22C10025, 104.2336, 103.3395, 102.8598, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scathisa */
@@ -146,9 +146,9 @@ VALUES (0x722C101D,  1542, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0, False
 /* @teleloc 0x22C1003B [189.444500 49.747300 108.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C101D, 0x722C101E, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x722C101D, 0x722C101F, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x722C101D, 0x722C1020, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x722C101D, 0x722C101E, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x722C101D, 0x722C101F, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x722C101D, 0x722C1020, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C101E, 11556, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

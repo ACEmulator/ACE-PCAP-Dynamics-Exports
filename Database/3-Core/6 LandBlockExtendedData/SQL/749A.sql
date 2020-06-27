@@ -5,13 +5,13 @@ VALUES (0x7749A001,  1154, 0x749A002D, 132.6701, 98.61885, 93.71259, 0.8508584, 
 /* @teleloc 0x749A002D [132.670100 98.618850 93.712590] 0.850858 0.000000 0.000000 -0.525395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7749A001, 0x7749A002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7749A001, 0x7749A003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7749A001, 0x7749A004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7749A001, 0x7749A005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7749A001, 0x7749A006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7749A001, 0x7749A007, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7749A001, 0x7749A008, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x7749A001, 0x7749A002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7749A001, 0x7749A003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7749A001, 0x7749A004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7749A001, 0x7749A005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7749A001, 0x7749A006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7749A001, 0x7749A007, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7749A001, 0x7749A008, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7749A002,  7333, 0x749A002D, 132.6701, 98.61885, 93.71259, 0.8508584, 0, 0, -0.5253952,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

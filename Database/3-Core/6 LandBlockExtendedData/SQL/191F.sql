@@ -5,20 +5,20 @@ VALUES (0x7191F001,  1154, 0x191F002A, 123.8373, 46.14362, 34.01, -0.1318374, 0,
 /* @teleloc 0x191F002A [123.837300 46.143620 34.010000] -0.131837 0.000000 0.000000 -0.991271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7191F001, 0x7191F002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F003, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F004, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F005, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F006, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F007, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x7191F001, 0x7191F00A, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F00B, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F00C, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F00D, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x7191F001, 0x7191F00E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x7191F001, 0x7191F00F, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x7191F001, 0x7191F002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F004, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F006, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F007, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x7191F001, 0x7191F00A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F00B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F00C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F00D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x7191F001, 0x7191F00E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x7191F001, 0x7191F00F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7191F002, 35833, 0x191F002A, 123.8373, 46.14362, 34.01, -0.1318374, 0, 0, -0.9912714,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
@@ -81,9 +81,9 @@ VALUES (0x7191F010,  1542, 0x191F0022, 111.1326, 33.37417, 33.99, -0.1318374, 0,
 /* @teleloc 0x191F0022 [111.132600 33.374170 33.990000] -0.131837 0.000000 0.000000 -0.991271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7191F010, 0x7191F011, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7191F010, 0x7191F012, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7191F010, 0x7191F013, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7191F010, 0x7191F011, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7191F010, 0x7191F012, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7191F010, 0x7191F013, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7191F011,  9288, 0x191F0022, 111.1326, 33.37417, 33.99, -0.1318374, 0, 0, -0.9912714,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,9 +5,9 @@ VALUES (0x71268001,  1154, 0x12680028, 115.272, 184.9905, 42.57115, -0.4642007, 
 /* @teleloc 0x12680028 [115.272000 184.990500 42.571150] -0.464201 0.000000 0.000000 -0.885730 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71268001, 0x71268002, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x71268001, 0x71268003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71268001, 0x71268004, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x71268001, 0x71268002, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x71268001, 0x71268003, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71268001, 0x71268004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71268002, 14876, 0x12680028, 115.272, 184.9905, 42.57115, -0.4642007, 0, 0, -0.88573,  True, '2019-02-10 00:00:00'); /* Maelstrom */

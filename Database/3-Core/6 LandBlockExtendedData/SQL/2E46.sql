@@ -5,27 +5,27 @@ VALUES (0x72E46001,  1154, 0x2E46002B, 141.6562, 48.97792, 22.83039, 0.3694375, 
 /* @teleloc 0x2E46002B [141.656200 48.977920 22.830390] 0.369438 0.000000 0.000000 -0.929256 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E46001, 0x72E46002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72E46001, 0x72E46003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72E46001, 0x72E46004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E46001, 0x72E46005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E46001, 0x72E46006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E46001, 0x72E46007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E46001, 0x72E46008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72E46001, 0x72E46009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72E46001, 0x72E4600A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72E46001, 0x72E4600B, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72E46001, 0x72E4600C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E46001, 0x72E4600D, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E46001, 0x72E4600E, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E46001, 0x72E4600F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E46001, 0x72E46010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E46001, 0x72E46011, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E46001, 0x72E46012, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E46001, 0x72E46013, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E46001, 0x72E46014, '2019-02-10 00:00:00') /* Flare */
-     , (0x72E46001, 0x72E46015, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72E46001, 0x72E46016, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x72E46001, 0x72E46002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72E46001, 0x72E46003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72E46001, 0x72E46004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E46001, 0x72E46005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E46001, 0x72E46006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E46001, 0x72E46007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E46001, 0x72E46008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72E46001, 0x72E46009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72E46001, 0x72E4600A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72E46001, 0x72E4600B, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72E46001, 0x72E4600C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E46001, 0x72E4600D, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E46001, 0x72E4600E, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E46001, 0x72E4600F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E46001, 0x72E46010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E46001, 0x72E46011, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E46001, 0x72E46012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E46001, 0x72E46013, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E46001, 0x72E46014, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72E46001, 0x72E46015, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72E46001, 0x72E46016, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E46002, 24134, 0x2E46002B, 141.6562, 48.97792, 22.83039, 0.3694375, 0, 0, -0.9292556,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -116,7 +116,7 @@ VALUES (0x72E46017,  1542, 0x2E46001A, 90.5347, 35.32862, 6.145064, 1, 0, 0, 0, 
 /* @teleloc 0x2E46001A [90.534700 35.328620 6.145064] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E46017, 0x72E46018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72E46017, 0x72E46018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E46018,  4380, 0x2E46001A, 90.5347, 35.32862, 6.145064, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

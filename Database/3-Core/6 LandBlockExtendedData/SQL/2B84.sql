@@ -5,22 +5,22 @@ VALUES (0x72B84001,  1154, 0x2B840023, 96.56895, 58.07045, 223.1298, 0.9238795, 
 /* @teleloc 0x2B840023 [96.568950 58.070450 223.129800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B84001, 0x72B84002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B84001, 0x72B84003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72B84001, 0x72B84004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72B84001, 0x72B84005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x72B84001, 0x72B84006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72B84001, 0x72B84007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72B84001, 0x72B84008, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72B84001, 0x72B84009, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72B84001, 0x72B8400A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72B84001, 0x72B8400B, '2019-02-10 00:00:00') /* Frost */
-     , (0x72B84001, 0x72B8400C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72B84001, 0x72B8400D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72B84001, 0x72B8400E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72B84001, 0x72B8400F, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72B84001, 0x72B84010, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72B84001, 0x72B84011, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x72B84001, 0x72B84002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B84001, 0x72B84003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72B84001, 0x72B84004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72B84001, 0x72B84005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x72B84001, 0x72B84006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72B84001, 0x72B84007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72B84001, 0x72B84008, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72B84001, 0x72B84009, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72B84001, 0x72B8400A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72B84001, 0x72B8400B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72B84001, 0x72B8400C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72B84001, 0x72B8400D, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72B84001, 0x72B8400E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72B84001, 0x72B8400F, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72B84001, 0x72B84010, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72B84001, 0x72B84011, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B84002, 24497, 0x2B840023, 96.56895, 58.07045, 223.1298, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -91,7 +91,7 @@ VALUES (0x72B84012,  1542, 0x2B840023, 113.1842, 68.82523, 220.9491, -0.9960167,
 /* @teleloc 0x2B840023 [113.184200 68.825230 220.949100] -0.996017 0.000000 0.000000 -0.089167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B84012, 0x72B84013, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x72B84012, 0x72B84013, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B84013,  8644, 0x2B840023, 113.1842, 68.82523, 220.9491, -0.9960167, 0, 0, -0.08916718,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

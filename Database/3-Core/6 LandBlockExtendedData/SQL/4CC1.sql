@@ -5,18 +5,18 @@ VALUES (0x74CC1001,  1154, 0x4CC10030, 123.1713, 188.5917, -0.02174997, 0.952611
 /* @teleloc 0x4CC10030 [123.171300 188.591700 -0.021750] 0.952611 0.000000 0.000000 -0.304190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC1001, 0x74CC1002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74CC1001, 0x74CC1003, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC1004, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC1005, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC1006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74CC1001, 0x74CC1007, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC1008, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC1009, '2019-02-10 00:00:00') /* Frost */
-     , (0x74CC1001, 0x74CC100A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74CC1001, 0x74CC100B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74CC1001, 0x74CC100C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74CC1001, 0x74CC100D, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x74CC1001, 0x74CC1002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74CC1001, 0x74CC1003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC1004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC1005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC1006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74CC1001, 0x74CC1007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC1008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC1009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74CC1001, 0x74CC100A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74CC1001, 0x74CC100B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74CC1001, 0x74CC100C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74CC1001, 0x74CC100D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC1002,  4255, 0x4CC10030, 123.1713, 188.5917, -0.02174997, 0.9526114, 0, 0, -0.3041898,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -71,7 +71,7 @@ VALUES (0x74CC100E,  1542, 0x4CC10024, 116.9079, 92.98545, 10.37431, 0.9990482, 
 /* @teleloc 0x4CC10024 [116.907900 92.985450 10.374310] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC100E, 0x74CC100F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74CC100E, 0x74CC100F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC100F,  4179, 0x4CC10024, 116.9079, 92.98545, 10.37431, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -1301,7 +1301,7 @@ VALUES (0x764E5144,  1154, 0x64E50031, 147.669, 1.593285, 40.3531, 0.8883852, 0,
 /* @teleloc 0x64E50031 [147.669000 1.593285 40.353100] 0.888385 0.000000 0.000000 -0.459099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E5144, 0x764E5145, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x764E5144, 0x764E5145, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E5145,  7086, 0x64E50031, 147.669, 1.593285, 40.3531, 0.8883852, 0, 0, -0.4590988,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */

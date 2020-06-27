@@ -5,15 +5,15 @@ VALUES (0x76CED001,  1154, 0x6CED000F, 33.87186, 154.4471, 2.829155, -0.1717633,
 /* @teleloc 0x6CED000F [33.871860 154.447100 2.829155] -0.171763 0.000000 0.000000 -0.985138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CED001, 0x76CED002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x76CED001, 0x76CED003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x76CED001, 0x76CED004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x76CED001, 0x76CED005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x76CED001, 0x76CED006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CED001, 0x76CED007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CED001, 0x76CED008, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x76CED001, 0x76CED009, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x76CED001, 0x76CED00A, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x76CED001, 0x76CED002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x76CED001, 0x76CED003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x76CED001, 0x76CED004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x76CED001, 0x76CED005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x76CED001, 0x76CED006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x76CED001, 0x76CED007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x76CED001, 0x76CED008, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x76CED001, 0x76CED009, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x76CED001, 0x76CED00A, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CED002, 21549, 0x6CED000F, 33.87186, 154.4471, 2.829155, -0.1717633, 0, 0, -0.9851382,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

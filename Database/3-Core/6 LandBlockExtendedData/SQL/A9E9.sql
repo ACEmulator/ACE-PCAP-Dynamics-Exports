@@ -5,30 +5,30 @@ VALUES (0x7A9E9001,  1154, 0xA9E90038, 148.4636, 177.1676, 1.240032, 0.1660064, 
 /* @teleloc 0xA9E90038 [148.463600 177.167600 1.240032] 0.166006 0.000000 0.000000 -0.986125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9E9001, 0x7A9E9002, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x7A9E9001, 0x7A9E9003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7A9E9001, 0x7A9E9004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7A9E9001, 0x7A9E9005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A9E9001, 0x7A9E9006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A9E9001, 0x7A9E9007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A9E9001, 0x7A9E9008, '2019-02-10 00:00:00') /* Banished Tusker */
-     , (0x7A9E9001, 0x7A9E9009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A9E9001, 0x7A9E900A, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7A9E9001, 0x7A9E900B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A9E9001, 0x7A9E900C, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7A9E9001, 0x7A9E900D, '2019-02-10 00:00:00') /* Static */
-     , (0x7A9E9001, 0x7A9E900E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A9E9001, 0x7A9E900F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A9E9001, 0x7A9E9010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A9E9001, 0x7A9E9011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A9E9001, 0x7A9E9012, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A9E9001, 0x7A9E9013, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7A9E9001, 0x7A9E9014, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7A9E9001, 0x7A9E9015, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A9E9001, 0x7A9E9016, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7A9E9001, 0x7A9E9017, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A9E9001, 0x7A9E9018, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A9E9001, 0x7A9E9019, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7A9E9001, 0x7A9E9002, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x7A9E9001, 0x7A9E9003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7A9E9001, 0x7A9E9004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7A9E9001, 0x7A9E9005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A9E9001, 0x7A9E9006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A9E9001, 0x7A9E9007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A9E9001, 0x7A9E9008, '2019-02-10 00:00:00') /* Banished Tusker (30883) */
+     , (0x7A9E9001, 0x7A9E9009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A9E9001, 0x7A9E900A, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7A9E9001, 0x7A9E900B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A9E9001, 0x7A9E900C, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7A9E9001, 0x7A9E900D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7A9E9001, 0x7A9E900E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A9E9001, 0x7A9E900F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A9E9001, 0x7A9E9010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A9E9001, 0x7A9E9011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A9E9001, 0x7A9E9012, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A9E9001, 0x7A9E9013, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7A9E9001, 0x7A9E9014, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7A9E9001, 0x7A9E9015, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A9E9001, 0x7A9E9016, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7A9E9001, 0x7A9E9017, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A9E9001, 0x7A9E9018, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A9E9001, 0x7A9E9019, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9E9002, 30882, 0xA9E90038, 148.4636, 177.1676, 1.240032, 0.1660064, 0, 0, -0.9861247,  True, '2019-02-10 00:00:00'); /* Banished Shadow */

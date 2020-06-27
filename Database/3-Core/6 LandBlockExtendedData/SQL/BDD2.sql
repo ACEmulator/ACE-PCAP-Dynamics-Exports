@@ -37,85 +37,85 @@ VALUES (0x7BDD2017,  1154, 0xBDD2001C, 95.86225, 83.97551, 179.8608, -0.9916146,
 /* @teleloc 0xBDD2001C [95.862250 83.975510 179.860800] -0.991615 0.000000 0.000000 -0.129230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD2017, 0x7BDD2018, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BDD2017, 0x7BDD2019, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BDD2017, 0x7BDD201A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BDD2017, 0x7BDD201B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BDD2017, 0x7BDD201C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD2017, 0x7BDD201D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD2017, 0x7BDD201E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BDD2017, 0x7BDD201F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD2017, 0x7BDD2020, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD2021, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD2017, 0x7BDD2022, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BDD2017, 0x7BDD2023, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD2017, 0x7BDD2024, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD2017, 0x7BDD2025, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD2017, 0x7BDD2026, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BDD2017, 0x7BDD2027, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BDD2017, 0x7BDD2028, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD2029, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD202A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD202B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD202C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD202D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD202E, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD202F, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD2030, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD2017, 0x7BDD2031, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD2017, 0x7BDD2032, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BDD2017, 0x7BDD2033, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD2034, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7BDD2017, 0x7BDD2035, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BDD2017, 0x7BDD2036, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD2037, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD2038, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD2039, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD203A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD203B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BDD2017, 0x7BDD203C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BDD2017, 0x7BDD203D, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7BDD2017, 0x7BDD203E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7BDD2017, 0x7BDD203F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD2017, 0x7BDD2040, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BDD2017, 0x7BDD2041, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BDD2017, 0x7BDD2042, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDD2017, 0x7BDD2043, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD2017, 0x7BDD2044, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD2017, 0x7BDD2045, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD2046, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BDD2017, 0x7BDD2047, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BDD2017, 0x7BDD2048, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD2017, 0x7BDD2049, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BDD2017, 0x7BDD204A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD2017, 0x7BDD204B, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BDD2017, 0x7BDD204C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BDD2017, 0x7BDD204D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BDD2017, 0x7BDD204E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BDD2017, 0x7BDD204F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BDD2017, 0x7BDD2050, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD2017, 0x7BDD2051, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BDD2017, 0x7BDD2052, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BDD2017, 0x7BDD2053, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BDD2017, 0x7BDD2054, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BDD2017, 0x7BDD2055, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD2017, 0x7BDD2056, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BDD2017, 0x7BDD2057, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD2017, 0x7BDD2058, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD2017, 0x7BDD2059, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BDD2017, 0x7BDD205A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BDD2017, 0x7BDD205B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BDD2017, 0x7BDD205C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD2017, 0x7BDD205D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD2017, 0x7BDD205E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD205F, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD2060, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD2061, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BDD2017, 0x7BDD2062, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD2017, 0x7BDD2063, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD2017, 0x7BDD2064, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD2017, 0x7BDD2065, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD2017, 0x7BDD2066, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7BDD2017, 0x7BDD2018, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BDD2017, 0x7BDD2019, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BDD2017, 0x7BDD201A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BDD2017, 0x7BDD201B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BDD2017, 0x7BDD201C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD2017, 0x7BDD201D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD2017, 0x7BDD201E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BDD2017, 0x7BDD201F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD2017, 0x7BDD2020, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD2021, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD2017, 0x7BDD2022, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BDD2017, 0x7BDD2023, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD2017, 0x7BDD2024, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD2017, 0x7BDD2025, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD2017, 0x7BDD2026, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BDD2017, 0x7BDD2027, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BDD2017, 0x7BDD2028, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD2029, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD202A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD202B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD202C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD202D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD202E, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD202F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD2030, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD2017, 0x7BDD2031, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD2017, 0x7BDD2032, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BDD2017, 0x7BDD2033, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD2034, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BDD2017, 0x7BDD2035, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BDD2017, 0x7BDD2036, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD2037, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD2038, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD2039, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD203A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD203B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BDD2017, 0x7BDD203C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BDD2017, 0x7BDD203D, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7BDD2017, 0x7BDD203E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BDD2017, 0x7BDD203F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD2017, 0x7BDD2040, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BDD2017, 0x7BDD2041, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BDD2017, 0x7BDD2042, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDD2017, 0x7BDD2043, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD2017, 0x7BDD2044, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD2017, 0x7BDD2045, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD2046, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BDD2017, 0x7BDD2047, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BDD2017, 0x7BDD2048, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD2017, 0x7BDD2049, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BDD2017, 0x7BDD204A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD2017, 0x7BDD204B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BDD2017, 0x7BDD204C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BDD2017, 0x7BDD204D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BDD2017, 0x7BDD204E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BDD2017, 0x7BDD204F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BDD2017, 0x7BDD2050, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD2017, 0x7BDD2051, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BDD2017, 0x7BDD2052, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BDD2017, 0x7BDD2053, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BDD2017, 0x7BDD2054, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BDD2017, 0x7BDD2055, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD2017, 0x7BDD2056, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BDD2017, 0x7BDD2057, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD2017, 0x7BDD2058, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD2017, 0x7BDD2059, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BDD2017, 0x7BDD205A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BDD2017, 0x7BDD205B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BDD2017, 0x7BDD205C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD2017, 0x7BDD205D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD2017, 0x7BDD205E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD205F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD2060, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD2061, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BDD2017, 0x7BDD2062, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD2017, 0x7BDD2063, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD2017, 0x7BDD2064, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD2017, 0x7BDD2065, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD2017, 0x7BDD2066, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD2018,   201, 0xBDD2001C, 95.86225, 83.97551, 179.8608, -0.9916146, 0, 0, -0.1292304,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -438,17 +438,17 @@ VALUES (0x7BDD2067,  1154, 0xBDD20101, 153.853, 117.243, 190.005, 0.384279, 0, 0
 /* @teleloc 0xBDD20101 [153.853000 117.243000 190.005000] 0.384279 0.000000 0.000000 -0.923217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD2067, 0x7BDD2068, '2019-02-10 00:00:00') /* Shanrek the Forger */
-     , (0x7BDD2067, 0x7BDD2069, '2019-02-10 00:00:00') /* Gillian the Poacher */
-     , (0x7BDD2067, 0x7BDD206A, '2019-02-10 00:00:00') /* MacDugal */
-     , (0x7BDD2067, 0x7BDD206B, '2019-02-10 00:00:00') /* Neela Nashua */
-     , (0x7BDD2067, 0x7BDD206C, '2019-02-10 00:00:00') /* Gwillim, the Apprentice */
-     , (0x7BDD2067, 0x7BDD206D, '2019-02-10 00:00:00') /* Karwin, the Lunatic */
-     , (0x7BDD2067, 0x7BDD206E, '2019-02-10 00:00:00') /* Kiriel Shadowborn */
-     , (0x7BDD2067, 0x7BDD206F, '2019-02-10 00:00:00') /* Jourgensson */
-     , (0x7BDD2067, 0x7BDD2070, '2019-02-10 00:00:00') /* Journeyman Cook */
-     , (0x7BDD2067, 0x7BDD2071, '2019-02-10 00:00:00') /* Arianna the Adept */
-     , (0x7BDD2067, 0x7BDD2072, '2019-02-10 00:00:00') /* Alison Dulane */;
+VALUES (0x7BDD2067, 0x7BDD2068, '2019-02-10 00:00:00') /* Shanrek the Forger (31328) */
+     , (0x7BDD2067, 0x7BDD2069, '2019-02-10 00:00:00') /* Gillian the Poacher (8654) */
+     , (0x7BDD2067, 0x7BDD206A, '2019-02-10 00:00:00') /* MacDugal (5839) */
+     , (0x7BDD2067, 0x7BDD206B, '2019-02-10 00:00:00') /* Neela Nashua (41516) */
+     , (0x7BDD2067, 0x7BDD206C, '2019-02-10 00:00:00') /* Gwillim, the Apprentice (5837) */
+     , (0x7BDD2067, 0x7BDD206D, '2019-02-10 00:00:00') /* Karwin, the Lunatic (5836) */
+     , (0x7BDD2067, 0x7BDD206E, '2019-02-10 00:00:00') /* Kiriel Shadowborn (33293) */
+     , (0x7BDD2067, 0x7BDD206F, '2019-02-10 00:00:00') /* Jourgensson (5838) */
+     , (0x7BDD2067, 0x7BDD2070, '2019-02-10 00:00:00') /* Journeyman Cook (28920) */
+     , (0x7BDD2067, 0x7BDD2071, '2019-02-10 00:00:00') /* Arianna the Adept (44886) */
+     , (0x7BDD2067, 0x7BDD2072, '2019-02-10 00:00:00') /* Alison Dulane (28688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD2068, 31328, 0xBDD20101, 153.853, 117.243, 190.005, 0.384279, 0, 0, -0.923217,  True, '2019-02-10 00:00:00'); /* Shanrek the Forger */
@@ -499,14 +499,14 @@ VALUES (0x7BDD2073,  1542, 0xBDD20035, 167.455, 97.47527, 185.937, 0.3511218, 0,
 /* @teleloc 0xBDD20035 [167.455000 97.475270 185.937000] 0.351122 0.000000 0.000000 -0.936330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD2073, 0x7BDD2074, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BDD2073, 0x7BDD2075, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BDD2073, 0x7BDD2076, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BDD2073, 0x7BDD2077, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BDD2073, 0x7BDD2078, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BDD2073, 0x7BDD2079, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BDD2073, 0x7BDD207A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BDD2073, 0x7BDD207B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BDD2073, 0x7BDD2074, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BDD2073, 0x7BDD2075, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD2073, 0x7BDD2076, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BDD2073, 0x7BDD2077, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD2073, 0x7BDD2078, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BDD2073, 0x7BDD2079, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BDD2073, 0x7BDD207A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BDD2073, 0x7BDD207B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD2074,  1955, 0xBDD20035, 167.455, 97.47527, 185.937, 0.3511218, 0, 0, -0.9363298,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,23 +5,23 @@ VALUES (0x77C5F001,  1154, 0x7C5F0005, 15.78814, 113.4993, -0.00849998, -0.52465
 /* @teleloc 0x7C5F0005 [15.788140 113.499300 -0.008500] -0.524658 0.000000 0.000000 -0.851313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C5F001, 0x77C5F002, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x77C5F001, 0x77C5F003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C5F001, 0x77C5F004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C5F001, 0x77C5F005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C5F001, 0x77C5F006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C5F001, 0x77C5F007, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x77C5F001, 0x77C5F008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C5F001, 0x77C5F009, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x77C5F001, 0x77C5F00A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x77C5F001, 0x77C5F00B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77C5F001, 0x77C5F00C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x77C5F001, 0x77C5F00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C5F001, 0x77C5F00E, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C5F001, 0x77C5F00F, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C5F001, 0x77C5F010, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77C5F001, 0x77C5F011, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77C5F001, 0x77C5F012, '2019-02-10 00:00:00') /* Tumerok Worker */;
+VALUES (0x77C5F001, 0x77C5F002, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x77C5F001, 0x77C5F003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C5F001, 0x77C5F004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C5F001, 0x77C5F005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C5F001, 0x77C5F006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C5F001, 0x77C5F007, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x77C5F001, 0x77C5F008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C5F001, 0x77C5F009, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x77C5F001, 0x77C5F00A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x77C5F001, 0x77C5F00B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77C5F001, 0x77C5F00C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x77C5F001, 0x77C5F00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C5F001, 0x77C5F00E, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C5F001, 0x77C5F00F, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C5F001, 0x77C5F010, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77C5F001, 0x77C5F011, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77C5F001, 0x77C5F012, '2019-02-10 00:00:00') /* Tumerok Worker (234) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C5F002, 12004, 0x7C5F0005, 15.78814, 113.4993, -0.00849998, -0.5246575, 0, 0, -0.8513134,  True, '2019-02-10 00:00:00'); /* Outcast Lord */
@@ -96,8 +96,8 @@ VALUES (0x77C5F013,  1542, 0x7C5F002A, 137.744, 31.45132, -0.9, 1, 0, 0, 0, Fals
 /* @teleloc 0x7C5F002A [137.744000 31.451320 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C5F013, 0x77C5F014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77C5F013, 0x77C5F015, '2019-02-10 00:00:00') /* Chest */;
+VALUES (0x77C5F013, 0x77C5F014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77C5F013, 0x77C5F015, '2019-02-10 00:00:00') /* Chest (1913) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C5F014,  4179, 0x7C5F002A, 137.744, 31.45132, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

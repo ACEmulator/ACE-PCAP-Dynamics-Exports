@@ -5,11 +5,11 @@ VALUES (0x73319001,  1154, 0x33190040, 180.7083, 170.525, 14.005, 0.7371882, 0, 
 /* @teleloc 0x33190040 [180.708300 170.525000 14.005000] 0.737188 0.000000 0.000000 -0.675688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73319001, 0x73319002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73319001, 0x73319003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73319001, 0x73319004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73319001, 0x73319005, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73319001, 0x73319006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73319001, 0x73319002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73319001, 0x73319003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73319001, 0x73319004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73319001, 0x73319005, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73319001, 0x73319006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73319002, 23564, 0x33190040, 180.7083, 170.525, 14.005, 0.7371882, 0, 0, -0.6756875,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

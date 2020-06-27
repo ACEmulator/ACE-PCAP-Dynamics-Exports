@@ -5,32 +5,32 @@ VALUES (0x7AABF001,  1154, 0xAABF001B, 81.85432, 66.90775, 121.6132, -0.9384372,
 /* @teleloc 0xAABF001B [81.854320 66.907750 121.613200] -0.938437 0.000000 0.000000 -0.345450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABF001, 0x7AABF002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AABF001, 0x7AABF003, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AABF001, 0x7AABF004, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7AABF001, 0x7AABF005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AABF001, 0x7AABF006, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7AABF001, 0x7AABF007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABF001, 0x7AABF008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABF001, 0x7AABF009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABF001, 0x7AABF00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AABF001, 0x7AABF00B, '2019-02-10 00:00:00') /* Chilly the Snowman */
-     , (0x7AABF001, 0x7AABF00C, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7AABF001, 0x7AABF00D, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AABF001, 0x7AABF00E, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AABF001, 0x7AABF00F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AABF001, 0x7AABF010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AABF001, 0x7AABF011, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AABF001, 0x7AABF012, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AABF001, 0x7AABF013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AABF001, 0x7AABF014, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AABF001, 0x7AABF015, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AABF001, 0x7AABF016, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AABF001, 0x7AABF017, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AABF001, 0x7AABF018, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AABF001, 0x7AABF019, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AABF001, 0x7AABF01A, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7AABF001, 0x7AABF01B, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7AABF001, 0x7AABF002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AABF001, 0x7AABF003, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AABF001, 0x7AABF004, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7AABF001, 0x7AABF005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AABF001, 0x7AABF006, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7AABF001, 0x7AABF007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABF001, 0x7AABF008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABF001, 0x7AABF009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABF001, 0x7AABF00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AABF001, 0x7AABF00B, '2019-02-10 00:00:00') /* Chilly the Snowman (5760) */
+     , (0x7AABF001, 0x7AABF00C, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7AABF001, 0x7AABF00D, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AABF001, 0x7AABF00E, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AABF001, 0x7AABF00F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AABF001, 0x7AABF010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AABF001, 0x7AABF011, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AABF001, 0x7AABF012, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AABF001, 0x7AABF013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AABF001, 0x7AABF014, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AABF001, 0x7AABF015, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AABF001, 0x7AABF016, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AABF001, 0x7AABF017, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AABF001, 0x7AABF018, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AABF001, 0x7AABF019, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AABF001, 0x7AABF01A, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7AABF001, 0x7AABF01B, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABF002, 11528, 0xAABF001B, 81.85432, 66.90775, 121.6132, -0.9384372, 0, 0, -0.34545,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -141,10 +141,10 @@ VALUES (0x7AABF01C,  1542, 0xAABF000F, 31.75823, 150.9622, 104.7128, 0.5, 0, 0, 
 /* @teleloc 0xAABF000F [31.758230 150.962200 104.712800] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AABF01C, 0x7AABF01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AABF01C, 0x7AABF01E, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x7AABF01C, 0x7AABF01F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AABF01C, 0x7AABF020, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AABF01C, 0x7AABF01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AABF01C, 0x7AABF01E, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7AABF01C, 0x7AABF01F, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7AABF01C, 0x7AABF020, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AABF01D,  4179, 0xAABF000F, 31.75823, 150.9622, 104.7128, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

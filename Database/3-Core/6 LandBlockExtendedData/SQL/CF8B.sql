@@ -13,38 +13,38 @@ VALUES (0x7CF8B00E,  1154, 0xCF8B0100, 60.09976, 9.527949, 30.00715, 0.200662, 0
 /* @teleloc 0xCF8B0100 [60.099760 9.527949 30.007150] 0.200662 0.000000 0.000000 -0.979661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF8B00E, 0x7CF8B00F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CF8B00E, 0x7CF8B010, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7CF8B00E, 0x7CF8B011, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B012, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B013, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B014, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B015, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CF8B00E, 0x7CF8B016, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CF8B00E, 0x7CF8B017, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B018, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B019, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B01A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CF8B00E, 0x7CF8B01B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CF8B00E, 0x7CF8B01C, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CF8B00E, 0x7CF8B01D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CF8B00E, 0x7CF8B01E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7CF8B00E, 0x7CF8B01F, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF8B00E, 0x7CF8B020, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CF8B00E, 0x7CF8B021, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B022, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B023, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B024, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CF8B00E, 0x7CF8B025, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8B00E, 0x7CF8B026, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8B00E, 0x7CF8B027, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF8B00E, 0x7CF8B028, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7CF8B00E, 0x7CF8B029, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7CF8B00E, 0x7CF8B02A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CF8B00E, 0x7CF8B02B, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF8B00E, 0x7CF8B02C, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF8B00E, 0x7CF8B02D, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7CF8B00E, 0x7CF8B02E, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7CF8B00E, 0x7CF8B00F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CF8B00E, 0x7CF8B010, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7CF8B00E, 0x7CF8B011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B012, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B013, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B014, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B015, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CF8B00E, 0x7CF8B016, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CF8B00E, 0x7CF8B017, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B018, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B019, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B01A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CF8B00E, 0x7CF8B01B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CF8B00E, 0x7CF8B01C, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CF8B00E, 0x7CF8B01D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CF8B00E, 0x7CF8B01E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7CF8B00E, 0x7CF8B01F, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF8B00E, 0x7CF8B020, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7CF8B00E, 0x7CF8B021, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B022, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B023, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B024, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CF8B00E, 0x7CF8B025, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8B00E, 0x7CF8B026, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8B00E, 0x7CF8B027, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF8B00E, 0x7CF8B028, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7CF8B00E, 0x7CF8B029, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7CF8B00E, 0x7CF8B02A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CF8B00E, 0x7CF8B02B, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF8B00E, 0x7CF8B02C, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF8B00E, 0x7CF8B02D, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7CF8B00E, 0x7CF8B02E, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF8B00F,   937, 0xCF8B0100, 60.09976, 9.527949, 30.00715, 0.200662, 0, 0, -0.979661,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -179,9 +179,9 @@ VALUES (0x7CF8B02F,  1542, 0xCF8B002F, 133.125, 154.5465, 37.09375, 0.9990482, 0
 /* @teleloc 0xCF8B002F [133.125000 154.546500 37.093750] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF8B02F, 0x7CF8B030, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CF8B02F, 0x7CF8B031, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7CF8B02F, 0x7CF8B032, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7CF8B02F, 0x7CF8B030, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CF8B02F, 0x7CF8B031, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7CF8B02F, 0x7CF8B032, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF8B030,  4179, 0xCF8B002F, 133.125, 154.5465, 37.09375, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

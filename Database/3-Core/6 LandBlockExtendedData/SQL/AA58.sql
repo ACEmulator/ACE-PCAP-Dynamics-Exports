@@ -5,10 +5,10 @@ VALUES (0x7AA58001,  1154, 0xAA580016, 69.84264, 125.616, 53.83022, 0.9238795, 0
 /* @teleloc 0xAA580016 [69.842640 125.616000 53.830220] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA58001, 0x7AA58002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AA58001, 0x7AA58003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AA58001, 0x7AA58004, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AA58001, 0x7AA58005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AA58001, 0x7AA58002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AA58001, 0x7AA58003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AA58001, 0x7AA58004, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AA58001, 0x7AA58005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA58002, 24941, 0xAA580016, 69.84264, 125.616, 53.83022, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */

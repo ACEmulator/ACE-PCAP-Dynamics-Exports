@@ -5,22 +5,22 @@ VALUES (0x7BDB9001,  1154, 0xBDB90002, 1.098154, 27.5789, 222.2091, 0.5, 0, 0, -
 /* @teleloc 0xBDB90002 [1.098154 27.578900 222.209100] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB9001, 0x7BDB9002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BDB9001, 0x7BDB9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDB9001, 0x7BDB9004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BDB9001, 0x7BDB9005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB9001, 0x7BDB9006, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7BDB9001, 0x7BDB9007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDB9001, 0x7BDB9008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB9001, 0x7BDB9009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB9001, 0x7BDB900A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB9001, 0x7BDB900B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7BDB9001, 0x7BDB900C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BDB9001, 0x7BDB900D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BDB9001, 0x7BDB900E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BDB9001, 0x7BDB900F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BDB9001, 0x7BDB9010, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7BDB9001, 0x7BDB9011, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7BDB9001, 0x7BDB9002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BDB9001, 0x7BDB9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDB9001, 0x7BDB9004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BDB9001, 0x7BDB9005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB9001, 0x7BDB9006, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7BDB9001, 0x7BDB9007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDB9001, 0x7BDB9008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7BDB9001, 0x7BDB9009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7BDB9001, 0x7BDB900A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BDB9001, 0x7BDB900B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7BDB9001, 0x7BDB900C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BDB9001, 0x7BDB900D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BDB9001, 0x7BDB900E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BDB9001, 0x7BDB900F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BDB9001, 0x7BDB9010, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7BDB9001, 0x7BDB9011, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB9002,   194, 0xBDB90002, 1.098154, 27.5789, 222.2091, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -91,9 +91,9 @@ VALUES (0x7BDB9012,  1542, 0xBDB9003A, 169.0607, 34.6597, 179.865, 1, 0, 0, 0, F
 /* @teleloc 0xBDB9003A [169.060700 34.659700 179.865000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB9012, 0x7BDB9013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BDB9012, 0x7BDB9014, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7BDB9012, 0x7BDB9015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BDB9012, 0x7BDB9013, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7BDB9012, 0x7BDB9014, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7BDB9012, 0x7BDB9015, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB9013, 22570, 0xBDB9003A, 169.0607, 34.6597, 179.865, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

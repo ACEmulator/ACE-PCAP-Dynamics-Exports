@@ -5,17 +5,17 @@ VALUES (0x73B45001,  1154, 0x3B450038, 153.6677, 183.5957, 55.53091, 0.7071068, 
 /* @teleloc 0x3B450038 [153.667700 183.595700 55.530910] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B45001, 0x73B45002, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73B45001, 0x73B45003, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73B45001, 0x73B45004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73B45001, 0x73B45005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73B45001, 0x73B45006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73B45001, 0x73B45007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B45001, 0x73B45008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B45001, 0x73B45009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B45001, 0x73B4500A, '2019-02-10 00:00:00') /* True Believer */
-     , (0x73B45001, 0x73B4500B, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x73B45001, 0x73B4500C, '2019-02-10 00:00:00') /* Enthralled Idolator */;
+VALUES (0x73B45001, 0x73B45002, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73B45001, 0x73B45003, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73B45001, 0x73B45004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73B45001, 0x73B45005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73B45001, 0x73B45006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73B45001, 0x73B45007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B45001, 0x73B45008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B45001, 0x73B45009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B45001, 0x73B4500A, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x73B45001, 0x73B4500B, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x73B45001, 0x73B4500C, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B45002, 23486, 0x3B450038, 153.6677, 183.5957, 55.53091, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus Lord */

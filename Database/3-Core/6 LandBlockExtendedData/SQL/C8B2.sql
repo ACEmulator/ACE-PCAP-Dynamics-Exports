@@ -5,15 +5,15 @@ VALUES (0x7C8B2001,  1154, 0xC8B20006, 7.10983, 143.6946, 335.1529, 0.7660445, 0
 /* @teleloc 0xC8B20006 [7.109830 143.694600 335.152900] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B2001, 0x7C8B2002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C8B2001, 0x7C8B2003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8B2001, 0x7C8B2004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8B2001, 0x7C8B2005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B2001, 0x7C8B2006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B2001, 0x7C8B2007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B2001, 0x7C8B2008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C8B2001, 0x7C8B2009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B2001, 0x7C8B200A, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7C8B2001, 0x7C8B2002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C8B2001, 0x7C8B2003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8B2001, 0x7C8B2004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8B2001, 0x7C8B2005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B2001, 0x7C8B2006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B2001, 0x7C8B2007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B2001, 0x7C8B2008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C8B2001, 0x7C8B2009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B2001, 0x7C8B200A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B2002,  1608, 0xC8B20006, 7.10983, 143.6946, 335.1529, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -56,8 +56,8 @@ VALUES (0x7C8B200B,  1542, 0xC8B20007, 3.841441, 144.602, 322.3894, 1, 0, 0, 0, 
 /* @teleloc 0xC8B20007 [3.841441 144.602000 322.389400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B200B, 0x7C8B200C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C8B200B, 0x7C8B200D, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7C8B200B, 0x7C8B200C, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7C8B200B, 0x7C8B200D, '2019-02-10 00:00:00') /* Snowman (9009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B200C, 22576, 0xC8B20007, 3.841441, 144.602, 322.3894, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

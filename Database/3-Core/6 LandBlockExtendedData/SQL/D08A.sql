@@ -5,11 +5,11 @@ VALUES (0x7D08A001,  1154, 0xD08A0020, 82.34657, 188.6939, 35.73384, 0.4293465, 
 /* @teleloc 0xD08A0020 [82.346570 188.693900 35.733840] 0.429347 0.000000 0.000000 -0.903140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D08A001, 0x7D08A002, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7D08A001, 0x7D08A003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D08A001, 0x7D08A004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7D08A001, 0x7D08A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7D08A001, 0x7D08A006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7D08A001, 0x7D08A002, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7D08A001, 0x7D08A003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D08A001, 0x7D08A004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7D08A001, 0x7D08A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7D08A001, 0x7D08A006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D08A002,    20, 0xD08A0020, 82.34657, 188.6939, 35.73384, 0.4293465, 0, 0, -0.9031398,  True, '2019-02-10 00:00:00'); /* Auroch Bull */

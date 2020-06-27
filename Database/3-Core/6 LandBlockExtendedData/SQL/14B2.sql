@@ -5,12 +5,12 @@ VALUES (0x714B2001,  1154, 0x14B20038, 146.3289, 182.8683, 7.826252, -0.06237239
 /* @teleloc 0x14B20038 [146.328900 182.868300 7.826252] -0.062372 0.000000 0.000000 -0.998053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B2001, 0x714B2002, '2019-02-10 00:00:00') /* Brigand */
-     , (0x714B2001, 0x714B2003, '2019-02-10 00:00:00') /* Bandit */
-     , (0x714B2001, 0x714B2004, '2019-02-10 00:00:00') /* Brigand */
-     , (0x714B2001, 0x714B2005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x714B2001, 0x714B2006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x714B2001, 0x714B2007, '2019-02-10 00:00:00') /* Hea Runner */;
+VALUES (0x714B2001, 0x714B2002, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x714B2001, 0x714B2003, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x714B2001, 0x714B2004, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x714B2001, 0x714B2005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x714B2001, 0x714B2006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x714B2001, 0x714B2007, '2019-02-10 00:00:00') /* Hea Runner (11521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B2002, 11500, 0x14B20038, 146.3289, 182.8683, 7.826252, -0.06237239, 0, 0, -0.998053,  True, '2019-02-10 00:00:00'); /* Brigand */
@@ -41,8 +41,8 @@ VALUES (0x714B2008,  1542, 0x14B20030, 143.4632, 186.335, 8.631395, 1, 0, 0, 0, 
 /* @teleloc 0x14B20030 [143.463200 186.335000 8.631395] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B2008, 0x714B2009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x714B2008, 0x714B200A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x714B2008, 0x714B2009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x714B2008, 0x714B200A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B2009,  9024, 0x14B20030, 143.4632, 186.335, 8.631395, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

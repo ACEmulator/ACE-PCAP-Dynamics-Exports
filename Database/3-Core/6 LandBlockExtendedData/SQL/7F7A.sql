@@ -5,17 +5,17 @@ VALUES (0x77F7A001,  1154, 0x7F7A0002, 1.17503, 39.05346, 39.66375, 0.7071068, 0
 /* @teleloc 0x7F7A0002 [1.175030 39.053460 39.663750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F7A001, 0x77F7A002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7A001, 0x77F7A003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77F7A001, 0x77F7A004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7A001, 0x77F7A005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x77F7A001, 0x77F7A006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7A001, 0x77F7A007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7A001, 0x77F7A008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x77F7A001, 0x77F7A009, '2019-02-10 00:00:00') /* Gout */
-     , (0x77F7A001, 0x77F7A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77F7A001, 0x77F7A00B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77F7A001, 0x77F7A00C, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x77F7A001, 0x77F7A002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7A001, 0x77F7A003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77F7A001, 0x77F7A004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7A001, 0x77F7A005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x77F7A001, 0x77F7A006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7A001, 0x77F7A007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7A001, 0x77F7A008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x77F7A001, 0x77F7A009, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x77F7A001, 0x77F7A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77F7A001, 0x77F7A00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77F7A001, 0x77F7A00C, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F7A002,  1758, 0x7F7A0002, 1.17503, 39.05346, 39.66375, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -66,8 +66,8 @@ VALUES (0x77F7A00D,  1542, 0x7F7A0003, 4.642078, 68.73151, 42.79407, 0.7660445, 
 /* @teleloc 0x7F7A0003 [4.642078 68.731510 42.794070] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F7A00D, 0x77F7A00E, '2019-02-10 00:00:00') /* Gem */
-     , (0x77F7A00D, 0x77F7A00F, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x77F7A00D, 0x77F7A00E, '2019-02-10 00:00:00') /* Gem (2394) */
+     , (0x77F7A00D, 0x77F7A00F, '2019-02-10 00:00:00') /* Gem (2426) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F7A00E,  2394, 0x7F7A0003, 4.642078, 68.73151, 42.79407, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gem */

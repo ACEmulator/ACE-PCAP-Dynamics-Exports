@@ -5,23 +5,23 @@ VALUES (0x78DB4001,  1154, 0x8DB4001F, 79.59489, 154.7373, 46.31628, 0.8870109, 
 /* @teleloc 0x8DB4001F [79.594890 154.737300 46.316280] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB4001, 0x78DB4002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78DB4001, 0x78DB4003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78DB4001, 0x78DB4004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB4001, 0x78DB4005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78DB4001, 0x78DB4006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB4001, 0x78DB4007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB4001, 0x78DB4008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DB4001, 0x78DB4009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DB4001, 0x78DB400A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB4001, 0x78DB400B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB4001, 0x78DB400C, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB4001, 0x78DB400D, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78DB4001, 0x78DB400E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB4001, 0x78DB400F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DB4001, 0x78DB4010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DB4001, 0x78DB4011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78DB4001, 0x78DB4012, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x78DB4001, 0x78DB4002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78DB4001, 0x78DB4003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78DB4001, 0x78DB4004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB4001, 0x78DB4005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78DB4001, 0x78DB4006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB4001, 0x78DB4007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB4001, 0x78DB4008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DB4001, 0x78DB4009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DB4001, 0x78DB400A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB4001, 0x78DB400B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB4001, 0x78DB400C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB4001, 0x78DB400D, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78DB4001, 0x78DB400E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB4001, 0x78DB400F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DB4001, 0x78DB4010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DB4001, 0x78DB4011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78DB4001, 0x78DB4012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB4002,  1610, 0x8DB4001F, 79.59489, 154.7373, 46.31628, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -96,7 +96,7 @@ VALUES (0x78DB4013,  1542, 0x8DB40019, 83.73529, 8.010595, 66.40963, 0.2499343, 
 /* @teleloc 0x8DB40019 [83.735290 8.010595 66.409630] 0.249934 0.000000 0.000000 -0.968263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB4013, 0x78DB4014, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x78DB4013, 0x78DB4014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB4014, 31687, 0x8DB40019, 83.73529, 8.010595, 66.40963, 0.2499343, 0, 0, -0.9682628,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

@@ -5,8 +5,8 @@ VALUES (0x79DBD001,  1154, 0x9DBD001B, 91.55695, 68.64654, 60.03093, 0.9982526, 
 /* @teleloc 0x9DBD001B [91.556950 68.646540 60.030930] 0.998253 0.000000 0.000000 -0.059091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DBD001, 0x79DBD002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79DBD001, 0x79DBD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79DBD001, 0x79DBD002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79DBD001, 0x79DBD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DBD002,  9251, 0x9DBD001B, 91.55695, 68.64654, 60.03093, 0.9982526, 0, 0, -0.05909112,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

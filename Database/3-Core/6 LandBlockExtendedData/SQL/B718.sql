@@ -5,16 +5,16 @@ VALUES (0x7B718001,  1154, 0xB7180030, 136.8722, 180.0867, 89.59131, 0.8089067, 
 /* @teleloc 0xB7180030 [136.872200 180.086700 89.591310] 0.808907 0.000000 0.000000 -0.587937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B718001, 0x7B718002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B718001, 0x7B718003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B718001, 0x7B718004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B718001, 0x7B718005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7B718001, 0x7B718006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B718001, 0x7B718007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B718001, 0x7B718008, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B718001, 0x7B718009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B718001, 0x7B71800A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7B718001, 0x7B71800B, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7B718001, 0x7B718002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B718001, 0x7B718003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B718001, 0x7B718004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B718001, 0x7B718005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7B718001, 0x7B718006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B718001, 0x7B718007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B718001, 0x7B718008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B718001, 0x7B718009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B718001, 0x7B71800A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7B718001, 0x7B71800B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B718002,  7089, 0xB7180030, 136.8722, 180.0867, 89.59131, 0.8089067, 0, 0, -0.5879371,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

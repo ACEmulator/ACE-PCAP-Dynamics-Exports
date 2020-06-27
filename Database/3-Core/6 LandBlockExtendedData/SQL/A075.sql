@@ -5,11 +5,11 @@ VALUES (0x7A075001,  1154, 0xA0750025, 97.26235, 109.2322, 31.21048, 0.09816187,
 /* @teleloc 0xA0750025 [97.262350 109.232200 31.210480] 0.098162 0.000000 0.000000 -0.995171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A075001, 0x7A075002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7A075001, 0x7A075003, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A075001, 0x7A075004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A075001, 0x7A075005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A075001, 0x7A075006, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7A075001, 0x7A075002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7A075001, 0x7A075003, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A075001, 0x7A075004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A075001, 0x7A075005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A075001, 0x7A075006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A075002, 19439, 0xA0750025, 97.26235, 109.2322, 31.21048, 0.09816187, 0, 0, -0.9951705,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

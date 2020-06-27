@@ -5,16 +5,16 @@ VALUES (0x787F2001,  1154, 0x87F2002A, 134.571, 34.14386, 69.95033, 0.9985234, 0
 /* @teleloc 0x87F2002A [134.571000 34.143860 69.950330] 0.998523 0.000000 0.000000 -0.054323 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787F2001, 0x787F2002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x787F2001, 0x787F2003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x787F2001, 0x787F2004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x787F2001, 0x787F2005, '2019-02-10 00:00:00') /* Frost */
-     , (0x787F2001, 0x787F2006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x787F2001, 0x787F2007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x787F2001, 0x787F2008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x787F2001, 0x787F2009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x787F2001, 0x787F200A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x787F2001, 0x787F200B, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x787F2001, 0x787F2002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x787F2001, 0x787F2003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x787F2001, 0x787F2004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x787F2001, 0x787F2005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x787F2001, 0x787F2006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x787F2001, 0x787F2007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x787F2001, 0x787F2008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x787F2001, 0x787F2009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x787F2001, 0x787F200A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x787F2001, 0x787F200B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787F2002, 22520, 0x87F2002A, 134.571, 34.14386, 69.95033, 0.9985234, 0, 0, -0.05432303,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

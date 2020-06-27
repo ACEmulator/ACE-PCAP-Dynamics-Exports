@@ -5,13 +5,13 @@ VALUES (0x74C23001,  1154, 0x4C230039, 191.7301, 17.09169, 44.38535, -4.371139E-
 /* @teleloc 0x4C230039 [191.730100 17.091690 44.385350] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C23001, 0x74C23002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74C23001, 0x74C23003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74C23001, 0x74C23004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74C23001, 0x74C23005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74C23001, 0x74C23006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74C23001, 0x74C23007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74C23001, 0x74C23008, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x74C23001, 0x74C23002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74C23001, 0x74C23003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74C23001, 0x74C23004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74C23001, 0x74C23005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74C23001, 0x74C23006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74C23001, 0x74C23007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74C23001, 0x74C23008, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C23002,  7184, 0x4C230039, 191.7301, 17.09169, 44.38535, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

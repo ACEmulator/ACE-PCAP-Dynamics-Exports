@@ -5,15 +5,15 @@ VALUES (0x7A574001,  1154, 0xA5740019, 85.47276, 8.44527, 34.00715, 0.0813617, 0
 /* @teleloc 0xA5740019 [85.472760 8.445270 34.007150] 0.081362 0.000000 0.000000 -0.996685 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A574001, 0x7A574002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A574001, 0x7A574003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A574001, 0x7A574004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A574001, 0x7A574005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A574001, 0x7A574006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A574001, 0x7A574007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A574001, 0x7A574008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A574001, 0x7A574009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A574001, 0x7A57400A, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7A574001, 0x7A574002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A574001, 0x7A574003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A574001, 0x7A574004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A574001, 0x7A574005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A574001, 0x7A574006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A574001, 0x7A574007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A574001, 0x7A574008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A574001, 0x7A574009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A574001, 0x7A57400A, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A574002, 22809, 0xA5740019, 85.47276, 8.44527, 34.00715, 0.0813617, 0, 0, -0.9966847,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

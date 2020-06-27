@@ -5,12 +5,12 @@ VALUES (0x7A3EB001,  1154, 0xA3EB0018, 70.81425, 182.5089, 0.7963254, -0.9735088
 /* @teleloc 0xA3EB0018 [70.814250 182.508900 0.796325] -0.973509 0.000000 0.000000 -0.228650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3EB001, 0x7A3EB002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A3EB001, 0x7A3EB003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A3EB001, 0x7A3EB004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A3EB001, 0x7A3EB005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A3EB001, 0x7A3EB006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A3EB001, 0x7A3EB007, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7A3EB001, 0x7A3EB002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A3EB001, 0x7A3EB003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A3EB001, 0x7A3EB004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A3EB001, 0x7A3EB005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A3EB001, 0x7A3EB006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A3EB001, 0x7A3EB007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3EB002,  4247, 0xA3EB0018, 70.81425, 182.5089, 0.7963254, -0.9735088, 0, 0, -0.2286495,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

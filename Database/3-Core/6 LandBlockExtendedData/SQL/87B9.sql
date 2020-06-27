@@ -5,10 +5,10 @@ VALUES (0x787B9001,  1154, 0x87B9003D, 180.4449, 99.50677, 90.95542, 0.2588191, 
 /* @teleloc 0x87B9003D [180.444900 99.506770 90.955420] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787B9001, 0x787B9002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x787B9001, 0x787B9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x787B9001, 0x787B9004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x787B9001, 0x787B9005, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x787B9001, 0x787B9002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x787B9001, 0x787B9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x787B9001, 0x787B9004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x787B9001, 0x787B9005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787B9002, 24294, 0x87B9003D, 180.4449, 99.50677, 90.95542, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -31,7 +31,7 @@ VALUES (0x787B9006,  1542, 0x87B9003C, 179.6684, 94.46723, 91.75607, 0.9990482, 
 /* @teleloc 0x87B9003C [179.668400 94.467230 91.756070] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787B9006, 0x787B9007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x787B9006, 0x787B9007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787B9007,  4179, 0x87B9003C, 179.6684, 94.46723, 91.75607, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

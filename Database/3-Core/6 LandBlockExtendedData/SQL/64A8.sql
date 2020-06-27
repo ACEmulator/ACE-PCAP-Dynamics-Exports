@@ -5,9 +5,9 @@ VALUES (0x764A8001,  1154, 0x64A80019, 74.686, 2.844023, 64.47833, 0.5586351, 0,
 /* @teleloc 0x64A80019 [74.686000 2.844023 64.478330] 0.558635 0.000000 0.000000 -0.829414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764A8001, 0x764A8002, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x764A8001, 0x764A8003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x764A8001, 0x764A8004, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x764A8001, 0x764A8002, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x764A8001, 0x764A8003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x764A8001, 0x764A8004, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764A8002, 27565, 0x64A80019, 74.686, 2.844023, 64.47833, 0.5586351, 0, 0, -0.8294135,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */

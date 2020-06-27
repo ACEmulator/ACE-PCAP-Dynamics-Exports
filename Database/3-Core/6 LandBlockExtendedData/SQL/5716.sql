@@ -5,10 +5,10 @@ VALUES (0x75716001,  1154, 0x5716003D, 172.9871, 103.8872, 74.34587, 0.236335, 0
 /* @teleloc 0x5716003D [172.987100 103.887200 74.345870] 0.236335 0.000000 0.000000 -0.971672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75716001, 0x75716002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75716001, 0x75716003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75716001, 0x75716004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75716001, 0x75716005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75716001, 0x75716002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75716001, 0x75716003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75716001, 0x75716004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75716001, 0x75716005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75716002,  4217, 0x5716003D, 172.9871, 103.8872, 74.34587, 0.236335, 0, 0, -0.9716716,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -31,7 +31,7 @@ VALUES (0x75716006,  1542, 0x57160025, 102.5746, 98.18661, 120, 0.236335, 0, 0, 
 /* @teleloc 0x57160025 [102.574600 98.186610 120.000000] 0.236335 0.000000 0.000000 -0.971672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75716006, 0x75716007, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75716006, 0x75716007, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75716007,  8039, 0x57160025, 102.5746, 98.18661, 120, 0.236335, 0, 0, -0.9716716,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

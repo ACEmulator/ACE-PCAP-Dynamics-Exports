@@ -5,10 +5,10 @@ VALUES (0x71F27001,  1154, 0x1F27003C, 191.0689, 81.2581, 47.14319, -0.07107416,
 /* @teleloc 0x1F27003C [191.068900 81.258100 47.143190] -0.071074 0.000000 0.000000 -0.997471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F27001, 0x71F27002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F27001, 0x71F27003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71F27001, 0x71F27004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71F27001, 0x71F27005, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x71F27001, 0x71F27002, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F27001, 0x71F27003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71F27001, 0x71F27004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71F27001, 0x71F27005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F27002, 23089, 0x1F27003C, 191.0689, 81.2581, 47.14319, -0.07107416, 0, 0, -0.997471,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */

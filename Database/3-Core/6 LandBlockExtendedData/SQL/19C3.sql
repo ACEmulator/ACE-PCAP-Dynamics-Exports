@@ -5,17 +5,17 @@ VALUES (0x719C3001,  1154, 0x19C3000E, 33.64734, 142.9586, 39.69467, 0.524723, 0
 /* @teleloc 0x19C3000E [33.647340 142.958600 39.694670] 0.524723 0.000000 0.000000 -0.851273 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719C3001, 0x719C3002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C3001, 0x719C3003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C3001, 0x719C3004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C3001, 0x719C3005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C3001, 0x719C3006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x719C3001, 0x719C3007, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x719C3001, 0x719C3008, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x719C3001, 0x719C3009, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x719C3001, 0x719C300A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x719C3001, 0x719C300B, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x719C3001, 0x719C300C, '2019-02-10 00:00:00') /* Zharalim */;
+VALUES (0x719C3001, 0x719C3002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C3001, 0x719C3003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C3001, 0x719C3004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C3001, 0x719C3005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C3001, 0x719C3006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x719C3001, 0x719C3007, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x719C3001, 0x719C3008, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x719C3001, 0x719C3009, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x719C3001, 0x719C300A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x719C3001, 0x719C300B, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x719C3001, 0x719C300C, '2019-02-10 00:00:00') /* Zharalim (12186) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719C3002, 22505, 0x19C3000E, 33.64734, 142.9586, 39.69467, 0.524723, 0, 0, -0.851273,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */

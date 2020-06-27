@@ -5,11 +5,11 @@ VALUES (0x7BBB0001,  1154, 0xBBB0003D, 171.9367, 111.7529, 134.9137, 0.7071068, 
 /* @teleloc 0xBBB0003D [171.936700 111.752900 134.913700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBB0001, 0x7BBB0002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BBB0001, 0x7BBB0003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BBB0001, 0x7BBB0004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BBB0001, 0x7BBB0005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BBB0001, 0x7BBB0006, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7BBB0001, 0x7BBB0002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BBB0001, 0x7BBB0003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BBB0001, 0x7BBB0004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BBB0001, 0x7BBB0005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BBB0001, 0x7BBB0006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBB0002,  1758, 0xBBB0003D, 171.9367, 111.7529, 134.9137, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -36,9 +36,9 @@ VALUES (0x7BBB0007,  1542, 0xBBB0003D, 168.4452, 115.019, 131.622, 1, 0, 0, 0, F
 /* @teleloc 0xBBB0003D [168.445200 115.019000 131.622000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBB0007, 0x7BBB0008, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BBB0007, 0x7BBB0009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BBB0007, 0x7BBB000A, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7BBB0007, 0x7BBB0008, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7BBB0007, 0x7BBB0009, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7BBB0007, 0x7BBB000A, '2019-02-10 00:00:00') /* Old Gravestone (34132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBB0008, 22570, 0xBBB0003D, 168.4452, 115.019, 131.622, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

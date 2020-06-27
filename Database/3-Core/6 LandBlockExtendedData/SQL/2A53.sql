@@ -5,27 +5,27 @@ VALUES (0x72A53001,  1154, 0x2A530035, 150.9108, 99.33814, 5.399143, 0.491478, 0
 /* @teleloc 0x2A530035 [150.910800 99.338140 5.399143] 0.491478 0.000000 0.000000 -0.870890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A53001, 0x72A53002, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72A53001, 0x72A53003, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A53001, 0x72A53004, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A53001, 0x72A53005, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A53001, 0x72A53006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72A53001, 0x72A53007, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72A53001, 0x72A53008, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72A53001, 0x72A53009, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A53001, 0x72A5300A, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72A53001, 0x72A5300B, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72A53001, 0x72A5300C, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72A53001, 0x72A5300D, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72A53001, 0x72A5300E, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72A53001, 0x72A5300F, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A53001, 0x72A53010, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72A53001, 0x72A53011, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72A53001, 0x72A53012, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72A53001, 0x72A53013, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72A53001, 0x72A53014, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72A53001, 0x72A53015, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A53001, 0x72A53016, '2019-02-10 00:00:00') /* Chimera */;
+VALUES (0x72A53001, 0x72A53002, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72A53001, 0x72A53003, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A53001, 0x72A53004, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A53001, 0x72A53005, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A53001, 0x72A53006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72A53001, 0x72A53007, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72A53001, 0x72A53008, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72A53001, 0x72A53009, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A53001, 0x72A5300A, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72A53001, 0x72A5300B, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72A53001, 0x72A5300C, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72A53001, 0x72A5300D, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72A53001, 0x72A5300E, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72A53001, 0x72A5300F, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A53001, 0x72A53010, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72A53001, 0x72A53011, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72A53001, 0x72A53012, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72A53001, 0x72A53013, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72A53001, 0x72A53014, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72A53001, 0x72A53015, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A53001, 0x72A53016, '2019-02-10 00:00:00') /* Chimera (25807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A53002, 25562, 0x2A530035, 150.9108, 99.33814, 5.399143, 0.491478, 0, 0, -0.87089,  True, '2019-02-10 00:00:00'); /* Banderling Champion */
@@ -116,8 +116,8 @@ VALUES (0x72A53017,  1542, 0x2A530035, 144.8201, 99.21847, 6.365958, 0.491478, 0
 /* @teleloc 0x2A530035 [144.820100 99.218470 6.365958] 0.491478 0.000000 0.000000 -0.870890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A53017, 0x72A53018, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer */
-     , (0x72A53017, 0x72A53019, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72A53017, 0x72A53018, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */
+     , (0x72A53017, 0x72A53019, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A53018, 34572, 0x2A530035, 144.8201, 99.21847, 6.365958, 0.491478, 0, 0, -0.87089,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */

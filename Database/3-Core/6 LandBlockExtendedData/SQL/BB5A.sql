@@ -5,15 +5,15 @@ VALUES (0x7BB5A001,  1154, 0xBB5A0031, 151.6871, 23.53729, 21.96639, 0.4595397, 
 /* @teleloc 0xBB5A0031 [151.687100 23.537290 21.966390] 0.459540 0.000000 0.000000 -0.888157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB5A001, 0x7BB5A002, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB5A001, 0x7BB5A003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB5A001, 0x7BB5A004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB5A001, 0x7BB5A005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BB5A001, 0x7BB5A006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB5A001, 0x7BB5A007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB5A001, 0x7BB5A008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB5A001, 0x7BB5A009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB5A001, 0x7BB5A00A, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7BB5A001, 0x7BB5A002, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB5A001, 0x7BB5A003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB5A001, 0x7BB5A004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB5A001, 0x7BB5A005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BB5A001, 0x7BB5A006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB5A001, 0x7BB5A007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB5A001, 0x7BB5A008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB5A001, 0x7BB5A009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB5A001, 0x7BB5A00A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB5A002,   948, 0xBB5A0031, 151.6871, 23.53729, 21.96639, 0.4595397, 0, 0, -0.8881572,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */

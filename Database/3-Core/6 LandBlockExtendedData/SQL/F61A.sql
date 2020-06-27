@@ -5,27 +5,27 @@ VALUES (0x7F61A001,  1154, 0xF61A0030, 132.1916, 184.3823, 92.63481, 0.9238795, 
 /* @teleloc 0xF61A0030 [132.191600 184.382300 92.634810] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F61A001, 0x7F61A002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F61A001, 0x7F61A003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7F61A001, 0x7F61A004, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F61A001, 0x7F61A005, '2019-02-10 00:00:00') /* Sulthis Tentacle */
-     , (0x7F61A001, 0x7F61A006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F61A001, 0x7F61A007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F61A001, 0x7F61A008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F61A001, 0x7F61A009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F61A001, 0x7F61A00A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F61A001, 0x7F61A00B, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F61A001, 0x7F61A00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F61A001, 0x7F61A00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F61A001, 0x7F61A00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F61A001, 0x7F61A00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F61A001, 0x7F61A010, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F61A001, 0x7F61A011, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F61A001, 0x7F61A012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F61A001, 0x7F61A013, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F61A001, 0x7F61A014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F61A001, 0x7F61A015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F61A001, 0x7F61A016, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7F61A001, 0x7F61A002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F61A001, 0x7F61A003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7F61A001, 0x7F61A004, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F61A001, 0x7F61A005, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */
+     , (0x7F61A001, 0x7F61A006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F61A001, 0x7F61A007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F61A001, 0x7F61A008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61A001, 0x7F61A009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61A001, 0x7F61A00A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61A001, 0x7F61A00B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F61A001, 0x7F61A00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F61A001, 0x7F61A00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F61A001, 0x7F61A00E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F61A001, 0x7F61A00F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F61A001, 0x7F61A010, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F61A001, 0x7F61A011, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F61A001, 0x7F61A012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F61A001, 0x7F61A013, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F61A001, 0x7F61A014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F61A001, 0x7F61A015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F61A001, 0x7F61A016, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F61A002,  7112, 0xF61A0030, 132.1916, 184.3823, 92.63481, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -116,10 +116,10 @@ VALUES (0x7F61A017,  1542, 0xF61A0005, 10.02943, 109.0828, 97.16421, 0.9238795, 
 /* @teleloc 0xF61A0005 [10.029430 109.082800 97.164210] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F61A017, 0x7F61A018, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F61A017, 0x7F61A019, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F61A017, 0x7F61A01A, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7F61A017, 0x7F61A01B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7F61A017, 0x7F61A018, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7F61A017, 0x7F61A019, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F61A017, 0x7F61A01A, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7F61A017, 0x7F61A01B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F61A018,  4180, 0xF61A0005, 10.02943, 109.0828, 97.16421, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

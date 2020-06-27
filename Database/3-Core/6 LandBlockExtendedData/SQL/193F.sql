@@ -21,39 +21,39 @@ VALUES (0x7193F04C,  1154, 0x193F0114, 15.4332, 177.056, 85.60455, 0.820695, 0, 
 /* @teleloc 0x193F0114 [15.433200 177.056000 85.604550] 0.820695 0.000000 0.000000 0.571366 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7193F04C, 0x7193F04D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F04E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F04F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F050, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F051, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F052, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F053, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F054, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F055, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F056, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F057, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F058, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F059, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F05A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F05B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F05C, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F05D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F05E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F05F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F060, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F061, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F062, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7193F04C, 0x7193F063, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F064, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F065, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F066, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F067, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F068, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F069, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F06A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7193F04C, 0x7193F06B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7193F04C, 0x7193F06C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7193F04C, 0x7193F06D, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x7193F04C, 0x7193F04D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F04E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F04F, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F050, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F051, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F052, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F053, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F054, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F055, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F056, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F057, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F058, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F059, '2019-02-10 00:00:00') /* Tumerok High Priest (2486) */
+     , (0x7193F04C, 0x7193F05A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F05B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F05C, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F05D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F05E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F05F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F060, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F061, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F062, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7193F04C, 0x7193F063, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F064, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F065, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F066, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F067, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F068, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F069, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F06A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7193F04C, 0x7193F06B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7193F04C, 0x7193F06C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7193F04C, 0x7193F06D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193F04D,  7090, 0x193F0114, 15.4332, 177.056, 85.60455, 0.820695, 0, 0, 0.571366,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

@@ -5,17 +5,17 @@ VALUES (0x75A12001,  1154, 0x5A120007, 17.26688, 147.5631, 126.7377, 0.9238795, 
 /* @teleloc 0x5A120007 [17.266880 147.563100 126.737700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A12001, 0x75A12002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75A12001, 0x75A12003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75A12001, 0x75A12004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75A12001, 0x75A12005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75A12001, 0x75A12006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75A12001, 0x75A12007, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75A12001, 0x75A12008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75A12001, 0x75A12009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75A12001, 0x75A1200A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75A12001, 0x75A1200B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75A12001, 0x75A1200C, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75A12001, 0x75A12002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75A12001, 0x75A12003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75A12001, 0x75A12004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75A12001, 0x75A12005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75A12001, 0x75A12006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75A12001, 0x75A12007, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75A12001, 0x75A12008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75A12001, 0x75A12009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75A12001, 0x75A1200A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75A12001, 0x75A1200B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75A12001, 0x75A1200C, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A12002,  7090, 0x5A120007, 17.26688, 147.5631, 126.7377, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -66,7 +66,7 @@ VALUES (0x75A1200D,  1542, 0x5A12000F, 35.28661, 146.2556, 120, 0.5315259, 0, 0,
 /* @teleloc 0x5A12000F [35.286610 146.255600 120.000000] 0.531526 0.000000 0.000000 -0.847042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A1200D, 0x75A1200E, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75A1200D, 0x75A1200E, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A1200E,  8039, 0x5A12000F, 35.28661, 146.2556, 120, 0.5315259, 0, 0, -0.8470421,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

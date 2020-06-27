@@ -5,13 +5,13 @@ VALUES (0x7BE1B001,  1154, 0xBE1B0027, 116.1114, 162.2277, 111.3165, 0.7465237, 
 /* @teleloc 0xBE1B0027 [116.111400 162.227700 111.316500] 0.746524 0.000000 0.000000 -0.665359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE1B001, 0x7BE1B002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BE1B001, 0x7BE1B003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BE1B001, 0x7BE1B004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BE1B001, 0x7BE1B005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BE1B001, 0x7BE1B006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE1B001, 0x7BE1B007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE1B001, 0x7BE1B008, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7BE1B001, 0x7BE1B002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BE1B001, 0x7BE1B003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BE1B001, 0x7BE1B004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BE1B001, 0x7BE1B005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BE1B001, 0x7BE1B006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE1B001, 0x7BE1B007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE1B001, 0x7BE1B008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE1B002, 32483, 0xBE1B0027, 116.1114, 162.2277, 111.3165, 0.7465237, 0, 0, -0.6653588,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

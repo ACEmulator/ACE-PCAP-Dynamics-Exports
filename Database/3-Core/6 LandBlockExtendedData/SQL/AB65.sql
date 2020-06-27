@@ -5,16 +5,16 @@ VALUES (0x7AB65001,  1154, 0xAB650011, 64.82619, 19.89295, 46.60782, -0.08715577
 /* @teleloc 0xAB650011 [64.826190 19.892950 46.607820] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB65001, 0x7AB65002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AB65001, 0x7AB65003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AB65001, 0x7AB65004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AB65001, 0x7AB65005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AB65001, 0x7AB65006, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AB65001, 0x7AB65007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AB65001, 0x7AB65008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB65001, 0x7AB65009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB65001, 0x7AB6500A, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AB65001, 0x7AB6500B, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7AB65001, 0x7AB65002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AB65001, 0x7AB65003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AB65001, 0x7AB65004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AB65001, 0x7AB65005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AB65001, 0x7AB65006, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AB65001, 0x7AB65007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AB65001, 0x7AB65008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB65001, 0x7AB65009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB65001, 0x7AB6500A, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AB65001, 0x7AB6500B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB65002, 24940, 0xAB650011, 64.82619, 19.89295, 46.60782, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

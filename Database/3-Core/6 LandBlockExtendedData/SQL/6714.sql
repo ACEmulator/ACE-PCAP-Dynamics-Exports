@@ -5,9 +5,9 @@ VALUES (0x76714001,  1154, 0x6714002A, 133.2114, 42.86479, 58.23104, -0.9095966,
 /* @teleloc 0x6714002A [133.211400 42.864790 58.231040] -0.909597 0.000000 0.000000 -0.415493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76714001, 0x76714002, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x76714001, 0x76714003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76714001, 0x76714004, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x76714001, 0x76714002, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x76714001, 0x76714003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76714001, 0x76714004, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76714002, 12135, 0x6714002A, 133.2114, 42.86479, 58.23104, -0.9095966, 0, 0, -0.4154927,  True, '2019-02-10 00:00:00'); /* Subtle Simulacrum */

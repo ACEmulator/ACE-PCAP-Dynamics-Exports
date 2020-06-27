@@ -5,24 +5,24 @@ VALUES (0x777A8001,  1154, 0x77A80001, 21.88006, 11.64195, 91.83833, 0.8870109, 
 /* @teleloc 0x77A80001 [21.880060 11.641950 91.838330] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777A8001, 0x777A8002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x777A8001, 0x777A8003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x777A8001, 0x777A8004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x777A8001, 0x777A8005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x777A8001, 0x777A8006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x777A8001, 0x777A8007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x777A8001, 0x777A8008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x777A8001, 0x777A8009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x777A8001, 0x777A800A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x777A8001, 0x777A800B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x777A8001, 0x777A800C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x777A8001, 0x777A800D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x777A8001, 0x777A800E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x777A8001, 0x777A800F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x777A8001, 0x777A8010, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x777A8001, 0x777A8011, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x777A8001, 0x777A8012, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x777A8001, 0x777A8013, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x777A8001, 0x777A8002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x777A8001, 0x777A8003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x777A8001, 0x777A8004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x777A8001, 0x777A8005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x777A8001, 0x777A8006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x777A8001, 0x777A8007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x777A8001, 0x777A8008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x777A8001, 0x777A8009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x777A8001, 0x777A800A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x777A8001, 0x777A800B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x777A8001, 0x777A800C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x777A8001, 0x777A800D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x777A8001, 0x777A800E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x777A8001, 0x777A800F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x777A8001, 0x777A8010, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x777A8001, 0x777A8011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x777A8001, 0x777A8012, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x777A8001, 0x777A8013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777A8002,  7129, 0x77A80001, 21.88006, 11.64195, 91.83833, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -101,7 +101,7 @@ VALUES (0x777A8014,  1542, 0x77A80009, 25.19304, 10.04691, 93.05679, 0.9537169, 
 /* @teleloc 0x77A80009 [25.193040 10.046910 93.056790] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777A8014, 0x777A8015, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x777A8014, 0x777A8015, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777A8015,  5779, 0x77A80009, 25.19304, 10.04691, 93.05679, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

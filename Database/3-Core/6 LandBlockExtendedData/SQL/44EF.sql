@@ -5,13 +5,13 @@ VALUES (0x744EF001,  1154, 0x44EF0039, 173.5931, 9.044586, 64.03473, -0.6601375,
 /* @teleloc 0x44EF0039 [173.593100 9.044586 64.034730] -0.660138 0.000000 0.000000 -0.751145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744EF001, 0x744EF002, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x744EF001, 0x744EF003, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x744EF001, 0x744EF004, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x744EF001, 0x744EF005, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x744EF001, 0x744EF006, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x744EF001, 0x744EF007, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x744EF001, 0x744EF008, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x744EF001, 0x744EF002, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x744EF001, 0x744EF003, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x744EF001, 0x744EF004, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x744EF001, 0x744EF005, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x744EF001, 0x744EF006, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x744EF001, 0x744EF007, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x744EF001, 0x744EF008, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744EF002, 29302, 0x44EF0039, 173.5931, 9.044586, 64.03473, -0.6601375, 0, 0, -0.7511448,  True, '2019-02-10 00:00:00'); /* Viamontian Counselor */

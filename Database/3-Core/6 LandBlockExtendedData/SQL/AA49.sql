@@ -5,10 +5,10 @@ VALUES (0x7AA49001,  1154, 0xAA490006, 1.791412, 139.9704, 34.19651, 0.9334391, 
 /* @teleloc 0xAA490006 [1.791412 139.970400 34.196510] 0.933439 0.000000 0.000000 -0.358736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA49001, 0x7AA49002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AA49001, 0x7AA49003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA49001, 0x7AA49004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AA49001, 0x7AA49005, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7AA49001, 0x7AA49002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AA49001, 0x7AA49003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA49001, 0x7AA49004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AA49001, 0x7AA49005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA49002,  8143, 0xAA490006, 1.791412, 139.9704, 34.19651, 0.9334391, 0, 0, -0.3587359,  True, '2019-02-10 00:00:00'); /* Amploth Raider */

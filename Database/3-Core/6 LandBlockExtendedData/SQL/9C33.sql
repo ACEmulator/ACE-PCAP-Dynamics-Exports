@@ -5,9 +5,9 @@ VALUES (0x79C33001,  1154, 0x9C330036, 151.8012, 129.7708, 44.45269, -0.9500651,
 /* @teleloc 0x9C330036 [151.801200 129.770800 44.452690] -0.950065 0.000000 0.000000 -0.312052 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C33001, 0x79C33002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x79C33001, 0x79C33003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79C33001, 0x79C33004, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x79C33001, 0x79C33002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x79C33001, 0x79C33003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79C33001, 0x79C33004, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C33002,  8142, 0x9C330036, 151.8012, 129.7708, 44.45269, -0.9500651, 0, 0, -0.3120519,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */
@@ -26,7 +26,7 @@ VALUES (0x79C33005,  1542, 0x9C33003D, 179.9201, 115.001, 42, 1, 0, 0, 0, False,
 /* @teleloc 0x9C33003D [179.920100 115.001000 42.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C33005, 0x79C33006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79C33005, 0x79C33006, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C33006, 22570, 0x9C33003D, 179.9201, 115.001, 42, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

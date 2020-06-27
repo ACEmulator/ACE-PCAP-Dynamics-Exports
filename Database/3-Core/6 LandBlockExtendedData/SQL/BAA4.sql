@@ -5,12 +5,12 @@ VALUES (0x7BAA4001,  1154, 0xBAA40003, 7.508034, 70.94758, 41.83459, -0.9945654,
 /* @teleloc 0xBAA40003 [7.508034 70.947580 41.834590] -0.994565 0.000000 0.000000 -0.104114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAA4001, 0x7BAA4002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7BAA4001, 0x7BAA4003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BAA4001, 0x7BAA4004, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7BAA4001, 0x7BAA4005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BAA4001, 0x7BAA4006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BAA4001, 0x7BAA4007, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7BAA4001, 0x7BAA4002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7BAA4001, 0x7BAA4003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BAA4001, 0x7BAA4004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7BAA4001, 0x7BAA4005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BAA4001, 0x7BAA4006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BAA4001, 0x7BAA4007, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAA4002,   942, 0xBAA40003, 7.508034, 70.94758, 41.83459, -0.9945654, 0, 0, -0.104114,  True, '2019-02-10 00:00:00'); /* Wood Golem */

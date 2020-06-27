@@ -5,16 +5,16 @@ VALUES (0x76114001,  1154, 0x61140022, 101.7355, 44.45221, 3.437125, -0.6427876,
 /* @teleloc 0x61140022 [101.735500 44.452210 3.437125] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76114001, 0x76114002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76114001, 0x76114003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76114001, 0x76114004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76114001, 0x76114005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76114001, 0x76114006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x76114001, 0x76114007, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x76114001, 0x76114008, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76114001, 0x76114009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x76114001, 0x7611400A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x76114001, 0x7611400B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x76114001, 0x76114002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76114001, 0x76114003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76114001, 0x76114004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76114001, 0x76114005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76114001, 0x76114006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x76114001, 0x76114007, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x76114001, 0x76114008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76114001, 0x76114009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x76114001, 0x7611400A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x76114001, 0x7611400B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76114002,  7987, 0x61140022, 101.7355, 44.45221, 3.437125, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -61,7 +61,7 @@ VALUES (0x7611400C,  1542, 0x6114001A, 82.98995, 30.60887, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x6114001A [82.989950 30.608870 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7611400C, 0x7611400D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7611400C, 0x7611400D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7611400D,  4179, 0x6114001A, 82.98995, 30.60887, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

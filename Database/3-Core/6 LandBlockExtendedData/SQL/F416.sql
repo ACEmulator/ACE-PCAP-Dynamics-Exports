@@ -5,17 +5,17 @@ VALUES (0x7F416001,  1154, 0xF4160007, 14.53, 147.2, 119.88, -0.222865, 0, 0, 0.
 /* @teleloc 0xF4160007 [14.530000 147.200000 119.880000] -0.222865 0.000000 0.000000 0.974849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F416001, 0x7F416002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F416001, 0x7F416003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F416001, 0x7F416004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F416001, 0x7F416005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F416001, 0x7F416006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F416001, 0x7F416007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F416001, 0x7F416008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F416001, 0x7F416009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F416001, 0x7F41600A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F416001, 0x7F41600B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7F416001, 0x7F41600C, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7F416001, 0x7F416002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F416001, 0x7F416003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F416001, 0x7F416004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F416001, 0x7F416005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F416001, 0x7F416006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F416001, 0x7F416007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F416001, 0x7F416008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F416001, 0x7F416009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F416001, 0x7F41600A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F416001, 0x7F41600B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7F416001, 0x7F41600C, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F416002,  7334, 0xF4160007, 14.53, 147.2, 119.88, -0.222865, 0, 0, 0.974849,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

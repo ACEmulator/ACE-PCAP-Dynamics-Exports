@@ -5,39 +5,39 @@ VALUES (0x7C314001,  1154, 0xC3140009, 31.3941, 6.31873, 0.5331608, 0.8248749, 0
 /* @teleloc 0xC3140009 [31.394100 6.318730 0.533161] 0.824875 0.000000 0.000000 -0.565315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C314001, 0x7C314002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C314001, 0x7C314003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C314001, 0x7C314004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C314001, 0x7C314005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C314001, 0x7C314006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C314001, 0x7C314007, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C314001, 0x7C314008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C314001, 0x7C314009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C314001, 0x7C31400A, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C314001, 0x7C31400B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C314001, 0x7C31400C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C314001, 0x7C31400D, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7C314001, 0x7C31400E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7C314001, 0x7C31400F, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C314001, 0x7C314010, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C314001, 0x7C314011, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7C314001, 0x7C314012, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C314001, 0x7C314013, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C314001, 0x7C314014, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C314001, 0x7C314015, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C314001, 0x7C314016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C314001, 0x7C314017, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C314001, 0x7C314018, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C314001, 0x7C314019, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C314001, 0x7C31401A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7C314001, 0x7C31401B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C314001, 0x7C31401C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C314001, 0x7C31401D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C314001, 0x7C31401E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C314001, 0x7C31401F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C314001, 0x7C314020, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C314001, 0x7C314021, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C314001, 0x7C314022, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7C314001, 0x7C314002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C314001, 0x7C314003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C314001, 0x7C314004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C314001, 0x7C314005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C314001, 0x7C314006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C314001, 0x7C314007, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C314001, 0x7C314008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C314001, 0x7C314009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C314001, 0x7C31400A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C314001, 0x7C31400B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C314001, 0x7C31400C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C314001, 0x7C31400D, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7C314001, 0x7C31400E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7C314001, 0x7C31400F, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C314001, 0x7C314010, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C314001, 0x7C314011, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7C314001, 0x7C314012, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C314001, 0x7C314013, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C314001, 0x7C314014, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C314001, 0x7C314015, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C314001, 0x7C314016, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C314001, 0x7C314017, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C314001, 0x7C314018, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C314001, 0x7C314019, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C314001, 0x7C31401A, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7C314001, 0x7C31401B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C314001, 0x7C31401C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C314001, 0x7C31401D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C314001, 0x7C31401E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C314001, 0x7C31401F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C314001, 0x7C314020, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C314001, 0x7C314021, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C314001, 0x7C314022, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C314002,  7103, 0xC3140009, 31.3941, 6.31873, 0.5331608, 0.8248749, 0, 0, -0.5653154,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -176,10 +176,10 @@ VALUES (0x7C314023,  1542, 0xC3140003, 23.3231, 67.03014, 3.122865, 1, 0, 0, 0, 
 /* @teleloc 0xC3140003 [23.323100 67.030140 3.122865] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C314023, 0x7C314024, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C314023, 0x7C314025, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7C314023, 0x7C314026, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7C314023, 0x7C314027, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C314023, 0x7C314024, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7C314023, 0x7C314025, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7C314023, 0x7C314026, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7C314023, 0x7C314027, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C314024,  4379, 0xC3140003, 23.3231, 67.03014, 3.122865, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

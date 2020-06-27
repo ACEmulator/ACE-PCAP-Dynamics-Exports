@@ -5,24 +5,24 @@ VALUES (0x72CEB001,  1154, 0x2CEB0020, 86.55552, 178.0097, 7.99835, 0.5984716, 0
 /* @teleloc 0x2CEB0020 [86.555520 178.009700 7.998350] 0.598472 0.000000 0.000000 -0.801144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CEB001, 0x72CEB002, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72CEB001, 0x72CEB003, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72CEB001, 0x72CEB004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72CEB001, 0x72CEB005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x72CEB001, 0x72CEB006, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CEB001, 0x72CEB007, '2019-02-10 00:00:00') /* Eater */
-     , (0x72CEB001, 0x72CEB008, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CEB001, 0x72CEB009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72CEB001, 0x72CEB00A, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72CEB001, 0x72CEB00B, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72CEB001, 0x72CEB00C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CEB001, 0x72CEB00D, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72CEB001, 0x72CEB00E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CEB001, 0x72CEB00F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72CEB001, 0x72CEB010, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72CEB001, 0x72CEB011, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CEB001, 0x72CEB012, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72CEB001, 0x72CEB013, '2019-02-10 00:00:00') /* High Mu-miyah */;
+VALUES (0x72CEB001, 0x72CEB002, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72CEB001, 0x72CEB003, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72CEB001, 0x72CEB004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72CEB001, 0x72CEB005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x72CEB001, 0x72CEB006, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CEB001, 0x72CEB007, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72CEB001, 0x72CEB008, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CEB001, 0x72CEB009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72CEB001, 0x72CEB00A, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72CEB001, 0x72CEB00B, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72CEB001, 0x72CEB00C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CEB001, 0x72CEB00D, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72CEB001, 0x72CEB00E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CEB001, 0x72CEB00F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72CEB001, 0x72CEB010, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72CEB001, 0x72CEB011, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CEB001, 0x72CEB012, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72CEB001, 0x72CEB013, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CEB002, 28554, 0x2CEB0020, 86.55552, 178.0097, 7.99835, 0.5984716, 0, 0, -0.801144,  True, '2019-02-10 00:00:00'); /* Spiked Grievver */

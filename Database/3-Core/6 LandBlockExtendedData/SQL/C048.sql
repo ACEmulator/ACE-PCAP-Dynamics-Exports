@@ -5,17 +5,17 @@ VALUES (0x7C048001,  1154, 0xC0480016, 71.92799, 139.1489, 16.00455, 0.692111, 0
 /* @teleloc 0xC0480016 [71.927990 139.148900 16.004550] 0.692111 0.000000 0.000000 -0.721791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C048001, 0x7C048002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C048001, 0x7C048003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C048001, 0x7C048004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C048001, 0x7C048005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C048001, 0x7C048006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C048001, 0x7C048007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C048001, 0x7C048008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C048001, 0x7C048009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C048001, 0x7C04800A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C048001, 0x7C04800B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C048001, 0x7C04800C, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7C048001, 0x7C048002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C048001, 0x7C048003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C048001, 0x7C048004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C048001, 0x7C048005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C048001, 0x7C048006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C048001, 0x7C048007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C048001, 0x7C048008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C048001, 0x7C048009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C048001, 0x7C04800A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C048001, 0x7C04800B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C048001, 0x7C04800C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C048002,  1609, 0xC0480016, 71.92799, 139.1489, 16.00455, 0.692111, 0, 0, -0.721791,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

@@ -5,11 +5,11 @@ VALUES (0x756E9001,  1154, 0x56E9001F, 90.25289, 150.1171, 7.496838, -0.8483723,
 /* @teleloc 0x56E9001F [90.252890 150.117100 7.496838] -0.848372 0.000000 0.000000 -0.529400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756E9001, 0x756E9002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x756E9001, 0x756E9003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x756E9001, 0x756E9004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x756E9001, 0x756E9005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x756E9001, 0x756E9006, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x756E9001, 0x756E9002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x756E9001, 0x756E9003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x756E9001, 0x756E9004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x756E9001, 0x756E9005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x756E9001, 0x756E9006, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756E9002,  4248, 0x56E9001F, 90.25289, 150.1171, 7.496838, -0.8483723, 0, 0, -0.5294,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

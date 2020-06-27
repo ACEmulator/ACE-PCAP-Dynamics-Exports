@@ -9,11 +9,11 @@ VALUES (0x701B0005,  1154, 0x01B00110, 17.1153, -21.5751, 0.004500031, -4.37114E
 /* @teleloc 0x01B00110 [17.115300 -21.575100 0.004500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B0005, 0x701B0006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x701B0005, 0x701B0007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x701B0005, 0x701B0008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x701B0005, 0x701B0009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x701B0005, 0x701B000A, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x701B0005, 0x701B0006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0005, 0x701B0007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0005, 0x701B0008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0005, 0x701B0009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x701B0005, 0x701B000A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B0006,  1612, 0x01B00110, 17.1153, -21.5751, 0.004500031, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -40,21 +40,21 @@ VALUES (0x701B000B,  1542, 0x01B00124, 52.74162, -27.48219, 0, -0.707107, 0, 0, 
 /* @teleloc 0x01B00124 [52.741620 -27.482190 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B000B, 0x701B000C, '2019-02-10 00:00:00') /* Lead Pea */
-     , (0x701B000B, 0x701B000D, '2019-02-10 00:00:00') /* Scroll of Recklessness Mastery Self IV */
-     , (0x701B000B, 0x701B000E, '2019-02-10 00:00:00') /* Gem */
-     , (0x701B000B, 0x701B000F, '2019-02-10 00:00:00') /* Adept Healing Kit */
-     , (0x701B000B, 0x701B0010, '2019-02-10 00:00:00') /* Studded Leather Breastplate */
-     , (0x701B000B, 0x701B0011, '2019-02-10 00:00:00') /* Iron Pea */
-     , (0x701B000B, 0x701B0012, '2019-02-10 00:00:00') /* Crown */
-     , (0x701B000B, 0x701B0013, '2019-02-10 00:00:00') /* Empty Flask */
-     , (0x701B000B, 0x701B0014, '2019-02-10 00:00:00') /* Reliable Lockpick */
-     , (0x701B000B, 0x701B0015, '2019-02-10 00:00:00') /* Electric Trident */
-     , (0x701B000B, 0x701B0016, '2019-02-10 00:00:00') /* Lesser Mana Stone */
-     , (0x701B000B, 0x701B0017, '2019-02-10 00:00:00') /* Acid Spear */
-     , (0x701B000B, 0x701B0018, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x701B000B, 0x701B0019, '2019-02-10 00:00:00') /* Gem */
-     , (0x701B000B, 0x701B001A, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x701B000B, 0x701B000C, '2019-02-10 00:00:00') /* Lead Pea (8329) */
+     , (0x701B000B, 0x701B000D, '2019-02-10 00:00:00') /* Scroll of Recklessness Mastery Self IV (45303) */
+     , (0x701B000B, 0x701B000E, '2019-02-10 00:00:00') /* Gem (2405) */
+     , (0x701B000B, 0x701B000F, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */
+     , (0x701B000B, 0x701B0010, '2019-02-10 00:00:00') /* Studded Leather Breastplate (42) */
+     , (0x701B000B, 0x701B0011, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x701B000B, 0x701B0012, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x701B000B, 0x701B0013, '2019-02-10 00:00:00') /* Empty Flask (7940) */
+     , (0x701B000B, 0x701B0014, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */
+     , (0x701B000B, 0x701B0015, '2019-02-10 00:00:00') /* Electric Trident (7794) */
+     , (0x701B000B, 0x701B0016, '2019-02-10 00:00:00') /* Lesser Mana Stone (2434) */
+     , (0x701B000B, 0x701B0017, '2019-02-10 00:00:00') /* Acid Spear (3873) */
+     , (0x701B000B, 0x701B0018, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x701B000B, 0x701B0019, '2019-02-10 00:00:00') /* Gem (2415) */
+     , (0x701B000B, 0x701B001A, '2019-02-10 00:00:00') /* Gem (2418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B000C,  8329, 0x01B00124, 52.74162, -27.48219, 0, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Lead Pea */

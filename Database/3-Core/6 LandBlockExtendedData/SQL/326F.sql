@@ -5,25 +5,25 @@ VALUES (0x7326F001,  1154, 0x326F0012, 59.14984, 26.46957, 180.691, 0.7071068, 0
 /* @teleloc 0x326F0012 [59.149840 26.469570 180.691000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326F001, 0x7326F002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326F001, 0x7326F004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326F001, 0x7326F006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7326F001, 0x7326F007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326F001, 0x7326F008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326F001, 0x7326F009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7326F001, 0x7326F00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7326F001, 0x7326F00B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F00C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F00D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F00E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7326F001, 0x7326F00F, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7326F001, 0x7326F010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326F001, 0x7326F011, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7326F001, 0x7326F012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7326F001, 0x7326F013, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7326F001, 0x7326F014, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7326F001, 0x7326F002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326F001, 0x7326F004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326F001, 0x7326F006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7326F001, 0x7326F007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326F001, 0x7326F008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326F001, 0x7326F009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7326F001, 0x7326F00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7326F001, 0x7326F00B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F00C, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F00D, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F00E, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7326F001, 0x7326F00F, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7326F001, 0x7326F010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326F001, 0x7326F011, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7326F001, 0x7326F012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7326F001, 0x7326F013, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7326F001, 0x7326F014, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326F002, 36842, 0x326F0012, 59.14984, 26.46957, 180.691, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -106,8 +106,8 @@ VALUES (0x7326F015,  1542, 0x326F0025, 102.8812, 109.227, 142.8197, -4.371139E-0
 /* @teleloc 0x326F0025 [102.881200 109.227000 142.819700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7326F015, 0x7326F016, '2019-02-10 00:00:00') /* Bones */
-     , (0x7326F015, 0x7326F017, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7326F015, 0x7326F016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7326F015, 0x7326F017, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7326F016,  4380, 0x326F0025, 102.8812, 109.227, 142.8197, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

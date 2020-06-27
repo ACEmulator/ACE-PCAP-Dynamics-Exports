@@ -21,106 +21,106 @@ VALUES (0x700A4066,  1154, 0x00A40299, 61.3846, -28.8251, 0.002499998, 0.020795,
 /* @teleloc 0x00A40299 [61.384600 -28.825100 0.002500] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A4066, 0x700A4067, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A4068, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A4069, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A406A, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A406B, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A406C, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A406D, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A406E, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A406F, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4070, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4071, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4072, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4073, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4074, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4075, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4076, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4077, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4078, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4079, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A407A, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A407B, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A407C, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A407D, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A407E, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A407F, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4080, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A4081, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A4082, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A4083, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A4084, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A4085, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4086, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4087, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4088, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4089, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408A, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408B, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408C, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408D, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408E, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A408F, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4090, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A4091, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4092, '2019-02-10 00:00:00') /* Stomper */
-     , (0x700A4066, 0x700A4093, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4094, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A4095, '2019-02-10 00:00:00') /* Lab Guardian */
-     , (0x700A4066, 0x700A4096, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A4097, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A4098, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A4099, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A409A, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A409B, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A409C, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A409D, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A409E, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A409F, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40A0, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40A1, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A2, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40A3, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A4, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A5, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A6, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A7, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40A8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40A9, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40AA, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40AB, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40AC, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40AD, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40AE, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40AF, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40B0, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40B1, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40B2, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A40B3, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A40B4, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40B5, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x700A4066, 0x700A40B6, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A40B7, '2019-02-10 00:00:00') /* Martinate Hollow Minion */
-     , (0x700A4066, 0x700A40B8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40B9, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40BA, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40BB, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40BC, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40BD, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40BE, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A40BF, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A40C0, '2019-02-10 00:00:00') /* Schism */
-     , (0x700A4066, 0x700A40C1, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40C2, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40C3, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40C4, '2019-02-10 00:00:00') /* Demerax the Sculptor */
-     , (0x700A4066, 0x700A40C5, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40C6, '2019-02-10 00:00:00') /* Blight Hollow Minion */
-     , (0x700A4066, 0x700A40C7, '2019-02-10 00:00:00') /* Paradox Simulacrum */
-     , (0x700A4066, 0x700A40C8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40C9, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage */
-     , (0x700A4066, 0x700A40CA, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x700A4066, 0x700A4067, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A4068, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A4069, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A406A, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A406B, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A406C, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A406D, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A406E, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A406F, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4070, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4071, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4072, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4073, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4074, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4075, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4076, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4077, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4078, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4079, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A407A, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A407B, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A407C, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A407D, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A407E, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A407F, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4080, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A4081, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A4082, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A4083, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A4084, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A4085, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4086, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4087, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4088, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4089, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408A, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408B, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408C, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408D, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408E, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A408F, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4090, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A4091, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4092, '2019-02-10 00:00:00') /* Stomper (31313) */
+     , (0x700A4066, 0x700A4093, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4094, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A4095, '2019-02-10 00:00:00') /* Lab Guardian (36601) */
+     , (0x700A4066, 0x700A4096, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A4097, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A4098, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A4099, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A409A, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A409B, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A409C, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A409D, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A409E, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A409F, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40A0, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40A1, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A2, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40A3, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A4, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A5, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A6, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A7, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40A8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40A9, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40AA, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40AB, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40AC, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40AD, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40AE, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40AF, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40B0, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40B1, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40B2, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A40B3, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A40B4, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40B5, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x700A4066, 0x700A40B6, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A40B7, '2019-02-10 00:00:00') /* Martinate Hollow Minion (11542) */
+     , (0x700A4066, 0x700A40B8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40B9, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40BA, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40BB, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40BC, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40BD, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40BE, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A40BF, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A40C0, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x700A4066, 0x700A40C1, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40C2, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40C3, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40C4, '2019-02-10 00:00:00') /* Demerax the Sculptor (36600) */
+     , (0x700A4066, 0x700A40C5, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40C6, '2019-02-10 00:00:00') /* Blight Hollow Minion (36597) */
+     , (0x700A4066, 0x700A40C7, '2019-02-10 00:00:00') /* Paradox Simulacrum (36598) */
+     , (0x700A4066, 0x700A40C8, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40C9, '2019-02-10 00:00:00') /* Paradox Simulacrum War Mage (36599) */
+     , (0x700A4066, 0x700A40CA, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A4067, 11542, 0x00A40299, 61.3846, -28.8251, 0.002499998, 0.020795, 0, 0, -0.999784,  True, '2019-02-10 00:00:00'); /* Martinate Hollow Minion */
@@ -527,8 +527,8 @@ VALUES (0x700A40CB,  1154, 0x00A40451, 40.00013, -40.00055, 24.012, -0.1665064, 
 /* @teleloc 0x00A40451 [40.000130 -40.000550 24.012000] -0.166506 0.000000 0.000000 0.986040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A40CB, 0x700A40CC, '2019-02-10 00:00:00') /* Dojiro Sangi */
-     , (0x700A40CB, 0x700A40CD, '2019-02-10 00:00:00') /* Dojiro Sangi */;
+VALUES (0x700A40CB, 0x700A40CC, '2019-02-10 00:00:00') /* Dojiro Sangi (36608) */
+     , (0x700A40CB, 0x700A40CD, '2019-02-10 00:00:00') /* Dojiro Sangi (36608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A40CC, 36608, 0x00A40451, 40.00013, -40.00055, 24.012, -0.1665064, 0, 0, 0.9860404,  True, '2019-02-10 00:00:00'); /* Dojiro Sangi */

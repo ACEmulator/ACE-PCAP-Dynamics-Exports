@@ -5,10 +5,10 @@ VALUES (0x74327001,  1154, 0x43270003, 1.07905, 60.88489, 8.12018, 0.9623089, 0,
 /* @teleloc 0x43270003 [1.079050 60.884890 8.120180] 0.962309 0.000000 0.000000 -0.271959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74327001, 0x74327002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74327001, 0x74327003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74327001, 0x74327004, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x74327001, 0x74327005, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x74327001, 0x74327002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74327001, 0x74327003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74327001, 0x74327004, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x74327001, 0x74327005, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74327002,  7982, 0x43270003, 1.07905, 60.88489, 8.12018, 0.9623089, 0, 0, -0.2719589,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

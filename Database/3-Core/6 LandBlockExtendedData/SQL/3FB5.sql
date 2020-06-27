@@ -5,16 +5,16 @@ VALUES (0x73FB5001,  1154, 0x3FB50040, 191.2748, 188.0914, -0.8934, -0.8820701, 
 /* @teleloc 0x3FB50040 [191.274800 188.091400 -0.893400] -0.882070 0.000000 0.000000 -0.471118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FB5001, 0x73FB5002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73FB5001, 0x73FB5003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73FB5001, 0x73FB5004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73FB5001, 0x73FB5005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73FB5001, 0x73FB5006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73FB5001, 0x73FB5007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73FB5001, 0x73FB5008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73FB5001, 0x73FB5009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73FB5001, 0x73FB500A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73FB5001, 0x73FB500B, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x73FB5001, 0x73FB5002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73FB5001, 0x73FB5003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73FB5001, 0x73FB5004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73FB5001, 0x73FB5005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73FB5001, 0x73FB5006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73FB5001, 0x73FB5007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73FB5001, 0x73FB5008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73FB5001, 0x73FB5009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73FB5001, 0x73FB500A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73FB5001, 0x73FB500B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FB5002,  7102, 0x3FB50040, 191.2748, 188.0914, -0.8934, -0.8820701, 0, 0, -0.4711182,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */

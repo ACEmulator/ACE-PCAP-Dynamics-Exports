@@ -5,10 +5,10 @@ VALUES (0x71459001,  1154, 0x14590032, 166.0787, 42.87559, 22.94104, 0.06367077,
 /* @teleloc 0x14590032 [166.078700 42.875590 22.941040] 0.063671 0.000000 0.000000 -0.997971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71459001, 0x71459002, '2019-02-10 00:00:00') /* Miasma */
-     , (0x71459001, 0x71459003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71459001, 0x71459004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71459001, 0x71459005, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71459001, 0x71459002, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x71459001, 0x71459003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71459001, 0x71459004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71459001, 0x71459005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71459002, 14514, 0x14590032, 166.0787, 42.87559, 22.94104, 0.06367077, 0, 0, -0.9979709,  True, '2019-02-10 00:00:00'); /* Miasma */

@@ -5,12 +5,12 @@ VALUES (0x7868F001,  1154, 0x868F0015, 71.32166, 118.4741, 74.30934, 0.9063078, 
 /* @teleloc 0x868F0015 [71.321660 118.474100 74.309340] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7868F001, 0x7868F002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7868F001, 0x7868F003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7868F001, 0x7868F004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7868F001, 0x7868F005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7868F001, 0x7868F006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7868F001, 0x7868F007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7868F001, 0x7868F002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7868F001, 0x7868F003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7868F001, 0x7868F004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7868F001, 0x7868F005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7868F001, 0x7868F006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7868F001, 0x7868F007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7868F002,  7978, 0x868F0015, 71.32166, 118.4741, 74.30934, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

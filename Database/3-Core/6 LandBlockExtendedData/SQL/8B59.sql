@@ -5,24 +5,24 @@ VALUES (0x78B59001,  1154, 0x8B590029, 123.5429, 4.169379, 26.006, -0.7605068, 0
 /* @teleloc 0x8B590029 [123.542900 4.169379 26.006000] -0.760507 0.000000 0.000000 -0.649330 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B59001, 0x78B59002, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x78B59001, 0x78B59003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x78B59001, 0x78B59004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78B59001, 0x78B59005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78B59001, 0x78B59006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78B59001, 0x78B59007, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B59001, 0x78B59008, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B59001, 0x78B59009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78B59001, 0x78B5900A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78B59001, 0x78B5900B, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x78B59001, 0x78B5900C, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78B59001, 0x78B5900D, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78B59001, 0x78B5900E, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78B59001, 0x78B5900F, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B59001, 0x78B59010, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78B59001, 0x78B59011, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78B59001, 0x78B59012, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78B59001, 0x78B59013, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x78B59001, 0x78B59002, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78B59001, 0x78B59003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x78B59001, 0x78B59004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78B59001, 0x78B59005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78B59001, 0x78B59006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78B59001, 0x78B59007, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B59001, 0x78B59008, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B59001, 0x78B59009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78B59001, 0x78B5900A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78B59001, 0x78B5900B, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x78B59001, 0x78B5900C, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78B59001, 0x78B5900D, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78B59001, 0x78B5900E, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78B59001, 0x78B5900F, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B59001, 0x78B59010, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78B59001, 0x78B59011, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78B59001, 0x78B59012, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78B59001, 0x78B59013, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B59002,  1764, 0x8B590029, 123.5429, 4.169379, 26.006, -0.7605068, 0, 0, -0.64933,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */
@@ -101,8 +101,8 @@ VALUES (0x78B59014,  1542, 0x8B590026, 101.8262, 133.1214, 28.42103, 1, 0, 0, 0,
 /* @teleloc 0x8B590026 [101.826200 133.121400 28.421030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B59014, 0x78B59015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78B59014, 0x78B59016, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x78B59014, 0x78B59015, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x78B59014, 0x78B59016, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B59015, 22568, 0x8B590026, 101.8262, 133.1214, 28.42103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

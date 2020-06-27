@@ -5,20 +5,20 @@ VALUES (0x7E71F001,  1154, 0xE71F003A, 170.3104, 24.16635, 3.533005, -0.9050699,
 /* @teleloc 0xE71F003A [170.310400 24.166350 3.533005] -0.905070 0.000000 0.000000 -0.425263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E71F001, 0x7E71F002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E71F001, 0x7E71F003, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71F001, 0x7E71F004, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E71F001, 0x7E71F005, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E71F001, 0x7E71F006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E71F001, 0x7E71F007, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E71F001, 0x7E71F008, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E71F001, 0x7E71F009, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E71F001, 0x7E71F00A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E71F001, 0x7E71F00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E71F001, 0x7E71F00C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E71F001, 0x7E71F00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E71F001, 0x7E71F00E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E71F001, 0x7E71F00F, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7E71F001, 0x7E71F002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E71F001, 0x7E71F003, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71F001, 0x7E71F004, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E71F001, 0x7E71F005, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E71F001, 0x7E71F006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E71F001, 0x7E71F007, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E71F001, 0x7E71F008, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E71F001, 0x7E71F009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E71F001, 0x7E71F00A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E71F001, 0x7E71F00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E71F001, 0x7E71F00C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E71F001, 0x7E71F00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E71F001, 0x7E71F00E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E71F001, 0x7E71F00F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E71F002,  8427, 0xE71F003A, 170.3104, 24.16635, 3.533005, -0.9050699, 0, 0, -0.4252628,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -81,9 +81,9 @@ VALUES (0x7E71F010,  1542, 0xE71F002B, 131.9546, 52.55009, 1.422891, -0.9050699,
 /* @teleloc 0xE71F002B [131.954600 52.550090 1.422891] -0.905070 0.000000 0.000000 -0.425263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E71F010, 0x7E71F011, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E71F010, 0x7E71F012, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E71F010, 0x7E71F013, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7E71F010, 0x7E71F011, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E71F010, 0x7E71F012, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E71F010, 0x7E71F013, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E71F011,  8588, 0xE71F002B, 131.9546, 52.55009, 1.422891, -0.9050699, 0, 0, -0.4252628,  True, '2019-02-10 00:00:00'); /* Idol */

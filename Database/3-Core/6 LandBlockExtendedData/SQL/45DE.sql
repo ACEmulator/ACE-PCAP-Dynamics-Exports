@@ -5,9 +5,9 @@ VALUES (0x745DE001,  1154, 0x45DE000F, 39.49884, 162.0846, 75.33227, 0.9914449, 
 /* @teleloc 0x45DE000F [39.498840 162.084600 75.332270] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745DE001, 0x745DE002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745DE001, 0x745DE003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745DE001, 0x745DE004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x745DE001, 0x745DE002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745DE001, 0x745DE003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745DE001, 0x745DE004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745DE002,  7334, 0x45DE000F, 39.49884, 162.0846, 75.33227, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -26,7 +26,7 @@ VALUES (0x745DE005,  1542, 0x45DE000F, 38.74812, 157.5857, 66.65125, 1, 0, 0, 0,
 /* @teleloc 0x45DE000F [38.748120 157.585700 66.651250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745DE005, 0x745DE006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x745DE005, 0x745DE006, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745DE006, 22566, 0x45DE000F, 38.74812, 157.5857, 66.65125, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

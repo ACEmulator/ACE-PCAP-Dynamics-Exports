@@ -9,31 +9,31 @@ VALUES (0x702DE0C5,  1154, 0x02DE0295, 114.426, -210.077, 0.006600022, 0.6029677
 /* @teleloc 0x02DE0295 [114.426000 -210.077000 0.006600] 0.602968 0.000000 0.000000 -0.797766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702DE0C5, 0x702DE0C6, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0C7, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0C8, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0C9, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CA, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CB, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CC, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CD, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CE, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0CF, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D0, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D1, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D2, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D3, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D4, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D5, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D6, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D7, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D8, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0D9, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0DA, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0DB, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0DC, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0DD, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x702DE0C5, 0x702DE0DE, '2019-02-10 00:00:00') /* Ruschk Warlord */;
+VALUES (0x702DE0C5, 0x702DE0C6, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0C7, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0C8, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0C9, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CA, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CB, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CC, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CD, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CE, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0CF, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D0, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D1, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D2, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D3, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D4, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D5, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D6, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D7, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D8, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0D9, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0DA, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0DB, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0DC, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0DD, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x702DE0C5, 0x702DE0DE, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702DE0C6, 28668, 0x02DE0295, 114.426, -210.077, 0.006600022, 0.6029677, 0, 0, -0.7977656,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

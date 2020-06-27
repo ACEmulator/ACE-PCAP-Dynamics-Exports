@@ -5,15 +5,15 @@ VALUES (0x72B4A001,  1154, 0x2B4A0010, 39.82404, 184.4718, 91.60337, 0.7390058, 
 /* @teleloc 0x2B4A0010 [39.824040 184.471800 91.603370] 0.739006 0.000000 0.000000 -0.673699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B4A001, 0x72B4A002, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B4A001, 0x72B4A003, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B4A001, 0x72B4A004, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72B4A001, 0x72B4A005, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72B4A001, 0x72B4A006, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B4A001, 0x72B4A007, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B4A001, 0x72B4A008, '2019-02-10 00:00:00') /* Swarthy Mattekar */
-     , (0x72B4A001, 0x72B4A009, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B4A001, 0x72B4A00A, '2019-02-10 00:00:00') /* Drudge Seraph */;
+VALUES (0x72B4A001, 0x72B4A002, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B4A001, 0x72B4A003, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B4A001, 0x72B4A004, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72B4A001, 0x72B4A005, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72B4A001, 0x72B4A006, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B4A001, 0x72B4A007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B4A001, 0x72B4A008, '2019-02-10 00:00:00') /* Swarthy Mattekar (22901) */
+     , (0x72B4A001, 0x72B4A009, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B4A001, 0x72B4A00A, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B4A002, 25341, 0x2B4A0010, 39.82404, 184.4718, 91.60337, 0.7390058, 0, 0, -0.673699,  True, '2019-02-10 00:00:00'); /* Olthoi Sentinel */

@@ -5,10 +5,10 @@ VALUES (0x7CC28001,  1154, 0xCC280021, 119.7383, 1.386005, 110.4184, -0.7291661,
 /* @teleloc 0xCC280021 [119.738300 1.386005 110.418400] -0.729166 0.000000 0.000000 -0.684337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC28001, 0x7CC28002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7CC28001, 0x7CC28003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CC28001, 0x7CC28004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CC28001, 0x7CC28005, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7CC28001, 0x7CC28002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7CC28001, 0x7CC28003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CC28001, 0x7CC28004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CC28001, 0x7CC28005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC28002, 28551, 0xCC280021, 119.7383, 1.386005, 110.4184, -0.7291661, 0, 0, -0.6843368,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

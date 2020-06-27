@@ -5,33 +5,33 @@ VALUES (0x79F37001,  1154, 0x9F37003E, 182.0565, 126.002, 54.50567, 1, 0, 0, 0, 
 /* @teleloc 0x9F37003E [182.056500 126.002000 54.505670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F37001, 0x79F37002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79F37001, 0x79F37003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79F37001, 0x79F37004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79F37001, 0x79F37005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79F37001, 0x79F37006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79F37001, 0x79F37007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F37001, 0x79F37008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F37001, 0x79F37009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79F37001, 0x79F3700A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79F37001, 0x79F3700B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79F37001, 0x79F3700C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79F37001, 0x79F3700D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79F37001, 0x79F3700E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79F37001, 0x79F3700F, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79F37001, 0x79F37010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79F37001, 0x79F37011, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79F37001, 0x79F37012, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79F37001, 0x79F37013, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79F37001, 0x79F37014, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79F37001, 0x79F37015, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79F37001, 0x79F37016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F37001, 0x79F37017, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79F37001, 0x79F37018, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79F37001, 0x79F37019, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79F37001, 0x79F3701A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79F37001, 0x79F3701B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79F37001, 0x79F3701C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79F37001, 0x79F37002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79F37001, 0x79F37003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79F37001, 0x79F37004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79F37001, 0x79F37005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79F37001, 0x79F37006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79F37001, 0x79F37007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F37001, 0x79F37008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F37001, 0x79F37009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79F37001, 0x79F3700A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79F37001, 0x79F3700B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79F37001, 0x79F3700C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79F37001, 0x79F3700D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79F37001, 0x79F3700E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79F37001, 0x79F3700F, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79F37001, 0x79F37010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79F37001, 0x79F37011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79F37001, 0x79F37012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79F37001, 0x79F37013, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79F37001, 0x79F37014, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79F37001, 0x79F37015, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79F37001, 0x79F37016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F37001, 0x79F37017, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79F37001, 0x79F37018, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79F37001, 0x79F37019, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79F37001, 0x79F3701A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79F37001, 0x79F3701B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79F37001, 0x79F3701C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F37002,   231, 0x9F37003E, 182.0565, 126.002, 54.50567, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -146,10 +146,10 @@ VALUES (0x79F3701D,  1542, 0x9F37003E, 181.129, 124.9344, 55.07878, 1, 0, 0, 0, 
 /* @teleloc 0x9F37003E [181.129000 124.934400 55.078780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F3701D, 0x79F3701E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x79F3701D, 0x79F3701F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x79F3701D, 0x79F37020, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79F3701D, 0x79F37021, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79F3701D, 0x79F3701E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x79F3701D, 0x79F3701F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x79F3701D, 0x79F37020, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x79F3701D, 0x79F37021, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F3701E, 31443, 0x9F37003E, 181.129, 124.9344, 55.07878, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

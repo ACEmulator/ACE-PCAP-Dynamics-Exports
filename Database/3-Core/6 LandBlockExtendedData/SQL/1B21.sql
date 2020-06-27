@@ -5,12 +5,12 @@ VALUES (0x71B21001,  1154, 0x1B21002E, 130.595, 124.2365, 1.430511E-06, 0.502360
 /* @teleloc 0x1B21002E [130.595000 124.236500 0.000001] 0.502360 0.000000 0.000000 -0.864659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B21001, 0x71B21002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x71B21001, 0x71B21003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B21001, 0x71B21004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B21001, 0x71B21005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71B21001, 0x71B21006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71B21001, 0x71B21007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */;
+VALUES (0x71B21001, 0x71B21002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x71B21001, 0x71B21003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71B21001, 0x71B21004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71B21001, 0x71B21005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71B21001, 0x71B21006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71B21001, 0x71B21007, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B21002, 11536, 0x1B21002E, 130.595, 124.2365, 1.430511E-06, 0.5023601, 0, 0, -0.8646585,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

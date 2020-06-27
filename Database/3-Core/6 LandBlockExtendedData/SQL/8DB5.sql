@@ -5,23 +5,23 @@ VALUES (0x78DB5001,  1154, 0x8DB50002, 15.83644, 31.74431, 42.04694, 0.960559, 0
 /* @teleloc 0x8DB50002 [15.836440 31.744310 42.046940] 0.960559 0.000000 0.000000 -0.278076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB5001, 0x78DB5002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB5001, 0x78DB5003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB5001, 0x78DB5004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78DB5001, 0x78DB5005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78DB5001, 0x78DB5006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB5001, 0x78DB5007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB5001, 0x78DB5008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DB5001, 0x78DB5009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DB5001, 0x78DB500A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78DB5001, 0x78DB500B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78DB5001, 0x78DB500C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78DB5001, 0x78DB500D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78DB5001, 0x78DB500E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB5001, 0x78DB500F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78DB5001, 0x78DB5010, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78DB5001, 0x78DB5011, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DB5001, 0x78DB5012, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x78DB5001, 0x78DB5002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB5001, 0x78DB5003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB5001, 0x78DB5004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78DB5001, 0x78DB5005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78DB5001, 0x78DB5006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB5001, 0x78DB5007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB5001, 0x78DB5008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DB5001, 0x78DB5009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DB5001, 0x78DB500A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78DB5001, 0x78DB500B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78DB5001, 0x78DB500C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78DB5001, 0x78DB500D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78DB5001, 0x78DB500E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB5001, 0x78DB500F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78DB5001, 0x78DB5010, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78DB5001, 0x78DB5011, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DB5001, 0x78DB5012, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB5002,  7105, 0x8DB50002, 15.83644, 31.74431, 42.04694, 0.960559, 0, 0, -0.2780764,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

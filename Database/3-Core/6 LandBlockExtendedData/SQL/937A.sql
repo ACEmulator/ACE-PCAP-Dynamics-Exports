@@ -9,13 +9,13 @@ VALUES (0x7937A001,  1154, 0x937A002F, 143.8848, 151.8103, 20.65586, 0.9970392, 
 /* @teleloc 0x937A002F [143.884800 151.810300 20.655860] 0.997039 0.000000 0.000000 -0.076895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7937A001, 0x7937A002, '2019-02-10 00:00:00') /* Spark */
-     , (0x7937A001, 0x7937A003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7937A001, 0x7937A004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7937A001, 0x7937A005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7937A001, 0x7937A006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7937A001, 0x7937A007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7937A001, 0x7937A008, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7937A001, 0x7937A002, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7937A001, 0x7937A003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7937A001, 0x7937A004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7937A001, 0x7937A005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7937A001, 0x7937A006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7937A001, 0x7937A007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7937A001, 0x7937A008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7937A002,  6381, 0x937A002F, 143.8848, 151.8103, 20.65586, 0.9970392, 0, 0, -0.0768951,  True, '2019-02-10 00:00:00'); /* Spark */

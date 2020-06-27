@@ -5,10 +5,10 @@ VALUES (0x775CE001,  1154, 0x75CE0012, 58.3578, 36.3591, 302.8731, 0.9991245, 0,
 /* @teleloc 0x75CE0012 [58.357800 36.359100 302.873100] 0.999125 0.000000 0.000000 0.041835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775CE001, 0x775CE002, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x775CE001, 0x775CE003, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x775CE001, 0x775CE004, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x775CE001, 0x775CE005, '2019-02-10 00:00:00') /* Ice Golem */;
+VALUES (0x775CE001, 0x775CE002, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x775CE001, 0x775CE003, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x775CE001, 0x775CE004, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x775CE001, 0x775CE005, '2019-02-10 00:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775CE002,   196, 0x75CE0012, 58.3578, 36.3591, 302.8731, 0.9991245, 0, 0, 0.04183518,  True, '2019-02-10 00:00:00'); /* Ice Golem */
@@ -31,7 +31,7 @@ VALUES (0x775CE006,  1542, 0x75CE0012, 56.7213, 38.0942, 302.7278, 0.743068, 0, 
 /* @teleloc 0x75CE0012 [56.721300 38.094200 302.727800] 0.743068 0.000000 0.000000 -0.669216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775CE006, 0x775CE007, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x775CE006, 0x775CE007, '2019-02-10 00:00:00') /* Gem (2399) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775CE007,  2399, 0x75CE0012, 56.7213, 38.0942, 302.7278, 0.743068, 0, 0, -0.669216,  True, '2019-02-10 00:00:00'); /* Gem */

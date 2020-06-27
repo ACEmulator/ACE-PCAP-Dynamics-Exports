@@ -5,15 +5,15 @@ VALUES (0x7C597001,  1154, 0xC5970028, 103.2901, 181.228, 1.11, -0.1125519, 0, 0
 /* @teleloc 0xC5970028 [103.290100 181.228000 1.110000] -0.112552 0.000000 0.000000 -0.993646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C597001, 0x7C597002, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C597001, 0x7C597003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C597001, 0x7C597004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C597001, 0x7C597005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C597001, 0x7C597006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C597001, 0x7C597007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C597001, 0x7C597008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C597001, 0x7C597009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C597001, 0x7C59700A, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7C597001, 0x7C597002, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C597001, 0x7C597003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C597001, 0x7C597004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C597001, 0x7C597005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C597001, 0x7C597006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C597001, 0x7C597007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C597001, 0x7C597008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C597001, 0x7C597009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C597001, 0x7C59700A, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C597002,  6534, 0xC5970028, 103.2901, 181.228, 1.11, -0.1125519, 0, 0, -0.9936458,  True, '2019-02-10 00:00:00'); /* Shadow Sprite */

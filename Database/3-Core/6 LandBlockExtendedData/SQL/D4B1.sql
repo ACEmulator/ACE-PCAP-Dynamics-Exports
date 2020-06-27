@@ -5,20 +5,20 @@ VALUES (0x7D4B1001,  1154, 0xD4B10035, 165.505, 114.832, -0.4489, 0.3851852, 0, 
 /* @teleloc 0xD4B10035 [165.505000 114.832000 -0.448900] 0.385185 0.000000 0.000000 -0.922839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4B1001, 0x7D4B1002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7D4B1001, 0x7D4B1003, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B1001, 0x7D4B1004, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B1001, 0x7D4B1005, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B1001, 0x7D4B1006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7D4B1001, 0x7D4B1007, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7D4B1001, 0x7D4B1008, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B1001, 0x7D4B1009, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7D4B1001, 0x7D4B100A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4B1001, 0x7D4B100B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D4B1001, 0x7D4B100C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D4B1001, 0x7D4B100D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D4B1001, 0x7D4B100E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D4B1001, 0x7D4B100F, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7D4B1001, 0x7D4B1002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7D4B1001, 0x7D4B1003, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1001, 0x7D4B1004, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1001, 0x7D4B1005, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1001, 0x7D4B1006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7D4B1001, 0x7D4B1007, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7D4B1001, 0x7D4B1008, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1001, 0x7D4B1009, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7D4B1001, 0x7D4B100A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4B1001, 0x7D4B100B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D4B1001, 0x7D4B100C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D4B1001, 0x7D4B100D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D4B1001, 0x7D4B100E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D4B1001, 0x7D4B100F, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4B1002,  2577, 0xD4B10035, 165.505, 114.832, -0.4489, 0.3851852, 0, 0, -0.9228393,  True, '2019-02-10 00:00:00'); /* Shallows Shark */

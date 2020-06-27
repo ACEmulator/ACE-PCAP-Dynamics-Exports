@@ -5,21 +5,21 @@ VALUES (0x71FC0001,  1154, 0x1FC0000B, 39.81859, 48.17048, 100.005, 1, 0, 0, 0, 
 /* @teleloc 0x1FC0000B [39.818590 48.170480 100.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC0001, 0x71FC0002, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71FC0001, 0x71FC0003, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71FC0001, 0x71FC0004, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71FC0001, 0x71FC0005, '2019-02-10 00:00:00') /* Synnast */
-     , (0x71FC0001, 0x71FC0006, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x71FC0001, 0x71FC0007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC0001, 0x71FC0008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC0001, 0x71FC0009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC0001, 0x71FC000A, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71FC0001, 0x71FC000B, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71FC0001, 0x71FC000C, '2019-02-10 00:00:00') /* Synnast */
-     , (0x71FC0001, 0x71FC000D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC0001, 0x71FC000E, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC0001, 0x71FC000F, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC0001, 0x71FC0010, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71FC0001, 0x71FC0002, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71FC0001, 0x71FC0003, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71FC0001, 0x71FC0004, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71FC0001, 0x71FC0005, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x71FC0001, 0x71FC0006, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x71FC0001, 0x71FC0007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC0001, 0x71FC0008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC0001, 0x71FC0009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC0001, 0x71FC000A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71FC0001, 0x71FC000B, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71FC0001, 0x71FC000C, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x71FC0001, 0x71FC000D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC0001, 0x71FC000E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC0001, 0x71FC000F, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC0001, 0x71FC0010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC0002, 11506, 0x1FC0000B, 39.81859, 48.17048, 100.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zharalim */
@@ -86,9 +86,9 @@ VALUES (0x71FC0011,  1542, 0x1FC0000B, 40.20866, 62.37211, 101, 1, 0, 0, 0, Fals
 /* @teleloc 0x1FC0000B [40.208660 62.372110 101.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC0011, 0x71FC0012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FC0011, 0x71FC0013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FC0011, 0x71FC0014, '2019-02-10 00:00:00') /* Tiny Hive Portal */;
+VALUES (0x71FC0011, 0x71FC0012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FC0011, 0x71FC0013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FC0011, 0x71FC0014, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC0012,  9024, 0x1FC0000B, 40.20866, 62.37211, 101, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

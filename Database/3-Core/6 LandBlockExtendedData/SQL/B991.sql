@@ -5,11 +5,11 @@ VALUES (0x7B991001,  1154, 0xB9910025, 101.8132, 104.4982, 37.49682, 0.8045932, 
 /* @teleloc 0xB9910025 [101.813200 104.498200 37.496820] 0.804593 0.000000 0.000000 -0.593826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B991001, 0x7B991002, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B991001, 0x7B991003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B991001, 0x7B991004, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B991001, 0x7B991005, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B991001, 0x7B991006, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7B991001, 0x7B991002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B991001, 0x7B991003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B991001, 0x7B991004, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B991001, 0x7B991005, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B991001, 0x7B991006, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B991002,  4112, 0xB9910025, 101.8132, 104.4982, 37.49682, 0.8045932, 0, 0, -0.5938264,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */

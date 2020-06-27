@@ -5,16 +5,16 @@ VALUES (0x7F453001,  1154, 0xF453000D, 42.34542, 98.48495, 20.0121, 0.7163076, 0
 /* @teleloc 0xF453000D [42.345420 98.484950 20.012100] 0.716308 0.000000 0.000000 -0.697785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F453001, 0x7F453002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F453001, 0x7F453003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F453001, 0x7F453004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F453001, 0x7F453005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F453001, 0x7F453006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F453001, 0x7F453007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7F453001, 0x7F453008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7F453001, 0x7F453009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7F453001, 0x7F45300A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7F453001, 0x7F45300B, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7F453001, 0x7F453002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F453001, 0x7F453003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F453001, 0x7F453004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F453001, 0x7F453005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F453001, 0x7F453006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F453001, 0x7F453007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7F453001, 0x7F453008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7F453001, 0x7F453009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7F453001, 0x7F45300A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7F453001, 0x7F45300B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F453002,   235, 0xF453000D, 42.34542, 98.48495, 20.0121, 0.7163076, 0, 0, -0.6977846,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

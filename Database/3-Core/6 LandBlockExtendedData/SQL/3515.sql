@@ -5,14 +5,14 @@ VALUES (0x73515001,  1154, 0x35150014, 69.23722, 91.71829, 74.46796, -0.9689088,
 /* @teleloc 0x35150014 [69.237220 91.718290 74.467960] -0.968909 0.000000 0.000000 -0.247418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73515001, 0x73515002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73515001, 0x73515003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73515001, 0x73515004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73515001, 0x73515005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73515001, 0x73515006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73515001, 0x73515007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73515001, 0x73515008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73515001, 0x73515009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73515001, 0x73515002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73515001, 0x73515003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73515001, 0x73515004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73515001, 0x73515005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73515001, 0x73515006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73515001, 0x73515007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73515001, 0x73515008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73515001, 0x73515009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73515002, 41533, 0x35150014, 69.23722, 91.71829, 74.46796, -0.9689088, 0, 0, -0.247418,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
@@ -51,7 +51,7 @@ VALUES (0x7351500A,  1542, 0x35150007, 14.77783, 155.2547, 80.30554, 0.9990482, 
 /* @teleloc 0x35150007 [14.777830 155.254700 80.305540] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7351500A, 0x7351500B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7351500A, 0x7351500B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7351500B,  4179, 0x35150007, 14.77783, 155.2547, 80.30554, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

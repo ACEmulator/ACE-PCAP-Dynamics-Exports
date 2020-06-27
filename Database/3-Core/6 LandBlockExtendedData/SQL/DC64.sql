@@ -5,33 +5,33 @@ VALUES (0x7DC64001,  1154, 0xDC640021, 112.1213, 4.538532, 30.03205, 0.8660254, 
 /* @teleloc 0xDC640021 [112.121300 4.538532 30.032050] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC64001, 0x7DC64002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7DC64001, 0x7DC64005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7DC64001, 0x7DC64006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DC64001, 0x7DC64007, '2019-02-10 00:00:00') /* Lord of Decay */
-     , (0x7DC64001, 0x7DC64008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7DC64001, 0x7DC64009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DC64001, 0x7DC6400A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC6400B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DC64001, 0x7DC6400C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DC64001, 0x7DC6400D, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7DC64001, 0x7DC6400E, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7DC64001, 0x7DC6400F, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DC64001, 0x7DC64010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DC64001, 0x7DC64011, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7DC64001, 0x7DC64012, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7DC64001, 0x7DC64013, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DC64001, 0x7DC64014, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DC64001, 0x7DC64015, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64016, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC64019, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC64001, 0x7DC6401A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DC64001, 0x7DC6401B, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7DC64001, 0x7DC6401C, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7DC64001, 0x7DC64002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7DC64001, 0x7DC64005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7DC64001, 0x7DC64006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DC64001, 0x7DC64007, '2019-02-10 00:00:00') /* Lord of Decay (12027) */
+     , (0x7DC64001, 0x7DC64008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7DC64001, 0x7DC64009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DC64001, 0x7DC6400A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC6400B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DC64001, 0x7DC6400C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DC64001, 0x7DC6400D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7DC64001, 0x7DC6400E, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7DC64001, 0x7DC6400F, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DC64001, 0x7DC64010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7DC64001, 0x7DC64011, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7DC64001, 0x7DC64012, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7DC64001, 0x7DC64013, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DC64001, 0x7DC64014, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DC64001, 0x7DC64015, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64016, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC64019, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC64001, 0x7DC6401A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DC64001, 0x7DC6401B, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7DC64001, 0x7DC6401C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC64002, 26018, 0xDC640021, 112.1213, 4.538532, 30.03205, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
@@ -146,7 +146,7 @@ VALUES (0x7DC6401D,  1542, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, 
 /* @teleloc 0xDC640021 [106.078600 20.775250 30.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC6401D, 0x7DC6401E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DC6401D, 0x7DC6401E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC6401E,  4179, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

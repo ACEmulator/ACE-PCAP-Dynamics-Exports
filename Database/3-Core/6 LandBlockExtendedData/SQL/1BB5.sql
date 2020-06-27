@@ -5,12 +5,12 @@ VALUES (0x71BB5001,  1154, 0x1BB50034, 150.4213, 93.44514, 79.64667, 1, 0, 0, 0,
 /* @teleloc 0x1BB50034 [150.421300 93.445140 79.646670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB5001, 0x71BB5002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71BB5001, 0x71BB5003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71BB5001, 0x71BB5004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71BB5001, 0x71BB5005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71BB5001, 0x71BB5006, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71BB5001, 0x71BB5007, '2019-02-10 00:00:00') /* Kithless Siraluun */;
+VALUES (0x71BB5001, 0x71BB5002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BB5001, 0x71BB5003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71BB5001, 0x71BB5004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71BB5001, 0x71BB5005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71BB5001, 0x71BB5006, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71BB5001, 0x71BB5007, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB5002, 11495, 0x1BB50034, 150.4213, 93.44514, 79.64667, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
@@ -41,7 +41,7 @@ VALUES (0x71BB5008,  1542, 0x1BB5001F, 82.44921, 158.8729, 87.42007, 1, 0, 0, 0,
 /* @teleloc 0x1BB5001F [82.449210 158.872900 87.420070] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB5008, 0x71BB5009, '2019-02-10 00:00:00') /* Tiny Hive Portal */;
+VALUES (0x71BB5008, 0x71BB5009, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB5009, 11219, 0x1BB5001F, 82.44921, 158.8729, 87.42007, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tiny Hive Portal */

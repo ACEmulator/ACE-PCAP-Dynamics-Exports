@@ -5,16 +5,16 @@ VALUES (0x74C19001,  1154, 0x4C19002B, 141.3218, 54.85281, 189.1526, -0.7295399,
 /* @teleloc 0x4C19002B [141.321800 54.852810 189.152600] -0.729540 0.000000 0.000000 -0.683938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C19001, 0x74C19002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74C19001, 0x74C19003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74C19001, 0x74C19004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74C19001, 0x74C19005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74C19001, 0x74C19006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74C19001, 0x74C19007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x74C19001, 0x74C19008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74C19001, 0x74C19009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74C19001, 0x74C1900A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74C19001, 0x74C1900B, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x74C19001, 0x74C19002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74C19001, 0x74C19003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74C19001, 0x74C19004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74C19001, 0x74C19005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74C19001, 0x74C19006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74C19001, 0x74C19007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x74C19001, 0x74C19008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74C19001, 0x74C19009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74C19001, 0x74C1900A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74C19001, 0x74C1900B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C19002,  7081, 0x4C19002B, 141.3218, 54.85281, 189.1526, -0.7295399, 0, 0, -0.6839382,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

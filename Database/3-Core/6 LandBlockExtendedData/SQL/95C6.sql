@@ -5,13 +5,13 @@ VALUES (0x795C6001,  1154, 0x95C60040, 175.3722, 187.2417, 44, -0.6773861, 0, 0,
 /* @teleloc 0x95C60040 [175.372200 187.241700 44.000000] -0.677386 0.000000 0.000000 -0.735628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795C6001, 0x795C6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x795C6001, 0x795C6003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x795C6001, 0x795C6004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795C6001, 0x795C6005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795C6001, 0x795C6006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795C6001, 0x795C6007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795C6001, 0x795C6008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x795C6001, 0x795C6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x795C6001, 0x795C6003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x795C6001, 0x795C6004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795C6001, 0x795C6005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795C6001, 0x795C6006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795C6001, 0x795C6007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795C6001, 0x795C6008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795C6002, 28551, 0x95C60040, 175.3722, 187.2417, 44, -0.6773861, 0, 0, -0.7356277,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

@@ -5,14 +5,14 @@ VALUES (0x7E15C001,  1154, 0xE15C0023, 101.3671, 57.77597, 8.957314, -0.9042944,
 /* @teleloc 0xE15C0023 [101.367100 57.775970 8.957314] -0.904294 0.000000 0.000000 -0.426909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E15C001, 0x7E15C002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7E15C001, 0x7E15C003, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7E15C001, 0x7E15C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E15C001, 0x7E15C005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7E15C001, 0x7E15C006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E15C001, 0x7E15C007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E15C001, 0x7E15C008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E15C001, 0x7E15C009, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7E15C001, 0x7E15C002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7E15C001, 0x7E15C003, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7E15C001, 0x7E15C004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E15C001, 0x7E15C005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7E15C001, 0x7E15C006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E15C001, 0x7E15C007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E15C001, 0x7E15C008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E15C001, 0x7E15C009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E15C002,  8673, 0xE15C0023, 101.3671, 57.77597, 8.957314, -0.9042944, 0, 0, -0.4269094,  True, '2019-02-10 00:00:00'); /* Risen Knight */

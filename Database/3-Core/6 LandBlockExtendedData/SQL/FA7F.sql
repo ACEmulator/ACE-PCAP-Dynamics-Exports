@@ -9,51 +9,51 @@ VALUES (0x7FA7F001,  1154, 0xFA7F001D, 91.80321, 119.7448, 23.75366, -0.9858657,
 /* @teleloc 0xFA7F001D [91.803210 119.744800 23.753660] -0.985866 0.000000 0.000000 -0.167538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA7F001, 0x7FA7F002, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F004, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F005, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F006, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7FA7F001, 0x7FA7F007, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7FA7F001, 0x7FA7F009, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F00A, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F00B, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F00C, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F00F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F010, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F011, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F012, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F013, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F017, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F018, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F019, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F01A, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F01B, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F01C, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FA7F001, 0x7FA7F01D, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F01E, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FA7F001, 0x7FA7F01F, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F020, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F021, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F022, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F023, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7FA7F001, 0x7FA7F024, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7FA7F001, 0x7FA7F025, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F026, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7FA7F001, 0x7FA7F027, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7F001, 0x7FA7F028, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F029, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F02A, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F02B, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F02C, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7FA7F001, 0x7FA7F02D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7FA7F001, 0x7FA7F02E, '2019-02-10 00:00:00') /* Tuskie Tosser */;
+VALUES (0x7FA7F001, 0x7FA7F002, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F004, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F005, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F006, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7FA7F001, 0x7FA7F007, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7FA7F001, 0x7FA7F009, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F00A, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F00B, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F00C, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F00F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F010, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F011, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F012, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F013, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F017, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F018, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F019, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F01A, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F01B, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F01C, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FA7F001, 0x7FA7F01D, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F01E, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FA7F001, 0x7FA7F01F, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F020, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F021, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F022, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F023, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7FA7F001, 0x7FA7F024, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7FA7F001, 0x7FA7F025, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F026, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7FA7F001, 0x7FA7F027, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7F001, 0x7FA7F028, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F029, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F02A, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F02B, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F02C, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7FA7F001, 0x7FA7F02D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7FA7F001, 0x7FA7F02E, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA7F002, 22509, 0xFA7F001D, 91.80321, 119.7448, 23.75366, -0.9858657, 0, 0, -0.1675377,  True, '2019-02-10 00:00:00'); /* Tusker Kin */

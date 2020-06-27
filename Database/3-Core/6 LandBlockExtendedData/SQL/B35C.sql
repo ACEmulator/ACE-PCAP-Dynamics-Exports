@@ -5,11 +5,11 @@ VALUES (0x7B35C001,  1154, 0xB35C000B, 35.58908, 49.69103, 20.0025, 0.3270645, 0
 /* @teleloc 0xB35C000B [35.589080 49.691030 20.002500] 0.327065 0.000000 0.000000 -0.945002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B35C001, 0x7B35C002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B35C001, 0x7B35C003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B35C001, 0x7B35C004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B35C001, 0x7B35C005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B35C001, 0x7B35C006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7B35C001, 0x7B35C002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B35C001, 0x7B35C003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B35C001, 0x7B35C004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B35C001, 0x7B35C005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B35C001, 0x7B35C006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B35C002,  1762, 0xB35C000B, 35.58908, 49.69103, 20.0025, 0.3270645, 0, 0, -0.945002,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -36,7 +36,7 @@ VALUES (0x7B35C007,  1542, 0xB35C0024, 107.2196, 94.32311, 20, 1, 0, 0, 0, False
 /* @teleloc 0xB35C0024 [107.219600 94.323110 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B35C007, 0x7B35C008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B35C007, 0x7B35C008, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B35C008, 22570, 0xB35C0024, 107.2196, 94.32311, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

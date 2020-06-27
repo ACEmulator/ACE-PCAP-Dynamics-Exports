@@ -5,13 +5,13 @@ VALUES (0x7AD84001,  1154, 0xAD84000E, 29.941, 121.1644, 39.39421, 0.9831394, 0,
 /* @teleloc 0xAD84000E [29.941000 121.164400 39.394210] 0.983139 0.000000 0.000000 -0.182858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD84001, 0x7AD84002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD84001, 0x7AD84003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AD84001, 0x7AD84004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AD84001, 0x7AD84005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AD84001, 0x7AD84006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD84001, 0x7AD84007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AD84001, 0x7AD84008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AD84001, 0x7AD84002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD84001, 0x7AD84003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AD84001, 0x7AD84004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AD84001, 0x7AD84005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AD84001, 0x7AD84006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD84001, 0x7AD84007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AD84001, 0x7AD84008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD84002,   226, 0xAD84000E, 29.941, 121.1644, 39.39421, 0.9831394, 0, 0, -0.1828577,  True, '2019-02-10 00:00:00'); /* High Tumerok */

@@ -5,13 +5,13 @@ VALUES (0x74DB1001,  1154, 0x4DB10024, 112.1583, 92.36866, 112.3882, 0.7071068, 
 /* @teleloc 0x4DB10024 [112.158300 92.368660 112.388200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DB1001, 0x74DB1002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74DB1001, 0x74DB1003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74DB1001, 0x74DB1004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x74DB1001, 0x74DB1005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x74DB1001, 0x74DB1006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x74DB1001, 0x74DB1007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74DB1001, 0x74DB1008, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x74DB1001, 0x74DB1002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74DB1001, 0x74DB1003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74DB1001, 0x74DB1004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x74DB1001, 0x74DB1005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x74DB1001, 0x74DB1006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x74DB1001, 0x74DB1007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74DB1001, 0x74DB1008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DB1002,  7345, 0x4DB10024, 112.1583, 92.36866, 112.3882, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

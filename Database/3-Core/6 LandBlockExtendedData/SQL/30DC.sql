@@ -9,10 +9,10 @@ VALUES (0x730DC003,  1154, 0x30DC0003, 7.24578, 51.17698, 14.79677, 0.5675947, 0
 /* @teleloc 0x30DC0003 [7.245780 51.176980 14.796770] 0.567595 0.000000 0.000000 -0.823308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x730DC003, 0x730DC004, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x730DC003, 0x730DC005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x730DC003, 0x730DC006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x730DC003, 0x730DC007, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x730DC003, 0x730DC004, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x730DC003, 0x730DC005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x730DC003, 0x730DC006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x730DC003, 0x730DC007, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x730DC004, 19262, 0x30DC0003, 7.24578, 51.17698, 14.79677, 0.5675947, 0, 0, -0.8233081,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

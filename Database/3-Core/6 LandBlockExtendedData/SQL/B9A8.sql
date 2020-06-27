@@ -5,12 +5,12 @@ VALUES (0x7B9A8001,  1154, 0xB9A8000C, 33.53706, 88.00404, 80.92868, 1, 0, 0, 0,
 /* @teleloc 0xB9A8000C [33.537060 88.004040 80.928680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A8001, 0x7B9A8002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B9A8001, 0x7B9A8003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B9A8001, 0x7B9A8004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B9A8001, 0x7B9A8005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B9A8001, 0x7B9A8006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B9A8001, 0x7B9A8007, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x7B9A8001, 0x7B9A8002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B9A8001, 0x7B9A8003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7B9A8001, 0x7B9A8004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B9A8001, 0x7B9A8005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B9A8001, 0x7B9A8006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B9A8001, 0x7B9A8007, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A8002,   231, 0xB9A8000C, 33.53706, 88.00404, 80.92868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -41,10 +41,10 @@ VALUES (0x7B9A8008,  1542, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.2461304, 0
 /* @teleloc 0xB9A80015 [53.212200 104.339500 84.868710] 0.246130 0.000000 0.000000 -0.969237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A8008, 0x7B9A8009, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7B9A8008, 0x7B9A800A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7B9A8008, 0x7B9A800B, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7B9A8008, 0x7B9A800C, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7B9A8008, 0x7B9A8009, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x7B9A8008, 0x7B9A800A, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7B9A8008, 0x7B9A800B, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7B9A8008, 0x7B9A800C, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A8009, 34130, 0xB9A80015, 53.2122, 104.3395, 84.86871, 0.2461304, 0, 0, -0.9692367,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

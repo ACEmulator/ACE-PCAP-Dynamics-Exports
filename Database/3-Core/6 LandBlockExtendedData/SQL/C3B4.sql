@@ -5,10 +5,10 @@ VALUES (0x7C3B4001,  1154, 0xC3B4001A, 86.12117, 24.20194, 395.8443, 0.4393686, 
 /* @teleloc 0xC3B4001A [86.121170 24.201940 395.844300] 0.439369 0.000000 0.000000 -0.898307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3B4001, 0x7C3B4002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C3B4001, 0x7C3B4003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C3B4001, 0x7C3B4004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C3B4001, 0x7C3B4005, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C3B4001, 0x7C3B4002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C3B4001, 0x7C3B4003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C3B4001, 0x7C3B4004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C3B4001, 0x7C3B4005, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3B4002,   195, 0xC3B4001A, 86.12117, 24.20194, 395.8443, 0.4393686, 0, 0, -0.8983068,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -31,7 +31,7 @@ VALUES (0x7C3B4006,  1542, 0xC3B40032, 158.1713, 37.77964, 533.1102, 0.7071068, 
 /* @teleloc 0xC3B40032 [158.171300 37.779640 533.110200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3B4006, 0x7C3B4007, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7C3B4006, 0x7C3B4007, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3B4007,  9008, 0xC3B40032, 158.1713, 37.77964, 533.1102, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

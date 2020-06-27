@@ -5,23 +5,23 @@ VALUES (0x71BBD001,  1154, 0x1BBD0031, 155.9722, 12.62113, 100.0065, 1, 0, 0, 0,
 /* @teleloc 0x1BBD0031 [155.972200 12.621130 100.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBD001, 0x71BBD002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71BBD001, 0x71BBD003, '2019-02-10 00:00:00') /* Static */
-     , (0x71BBD001, 0x71BBD004, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD005, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71BBD001, 0x71BBD006, '2019-02-10 00:00:00') /* Poacher */
-     , (0x71BBD001, 0x71BBD007, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71BBD001, 0x71BBD008, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71BBD001, 0x71BBD009, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD00A, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71BBD001, 0x71BBD00B, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71BBD001, 0x71BBD00C, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71BBD001, 0x71BBD00D, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD00E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD00F, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD010, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71BBD001, 0x71BBD011, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71BBD001, 0x71BBD012, '2019-02-10 00:00:00') /* Voltarc */;
+VALUES (0x71BBD001, 0x71BBD002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71BBD001, 0x71BBD003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x71BBD001, 0x71BBD004, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD005, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71BBD001, 0x71BBD006, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x71BBD001, 0x71BBD007, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71BBD001, 0x71BBD008, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71BBD001, 0x71BBD009, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD00A, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71BBD001, 0x71BBD00B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71BBD001, 0x71BBD00C, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BBD001, 0x71BBD00D, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD00E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD00F, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD010, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71BBD001, 0x71BBD011, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71BBD001, 0x71BBD012, '2019-02-10 00:00:00') /* Voltarc (21170) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBD002,  6380, 0x1BBD0031, 155.9722, 12.62113, 100.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -96,11 +96,11 @@ VALUES (0x71BBD013,  1542, 0x1BBD0039, 182.9748, 17.99752, 100.06, 1, 0, 0, 0, F
 /* @teleloc 0x1BBD0039 [182.974800 17.997520 100.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BBD013, 0x71BBD014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71BBD013, 0x71BBD015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71BBD013, 0x71BBD016, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71BBD013, 0x71BBD017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71BBD013, 0x71BBD018, '2019-02-10 00:00:00') /* Shallow Hive Portal */;
+VALUES (0x71BBD013, 0x71BBD014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71BBD013, 0x71BBD015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71BBD013, 0x71BBD016, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71BBD013, 0x71BBD017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71BBD013, 0x71BBD018, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BBD014,  9024, 0x1BBD0039, 182.9748, 17.99752, 100.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

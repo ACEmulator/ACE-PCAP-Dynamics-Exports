@@ -5,15 +5,15 @@ VALUES (0x78096001,  1154, 0x80960009, 41.50016, 18.58945, 134.545, -0.8289494, 
 /* @teleloc 0x80960009 [41.500160 18.589450 134.545000] -0.828949 0.000000 0.000000 -0.559324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78096001, 0x78096002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78096001, 0x78096003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78096001, 0x78096004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78096001, 0x78096005, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x78096001, 0x78096006, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x78096001, 0x78096007, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x78096001, 0x78096008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78096001, 0x78096009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78096001, 0x7809600A, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x78096001, 0x78096002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78096001, 0x78096003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78096001, 0x78096004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78096001, 0x78096005, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x78096001, 0x78096006, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x78096001, 0x78096007, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x78096001, 0x78096008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78096001, 0x78096009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78096001, 0x7809600A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78096002,  1608, 0x80960009, 41.50016, 18.58945, 134.545, -0.8289494, 0, 0, -0.5593237,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -56,8 +56,8 @@ VALUES (0x7809600B,  1542, 0x80960011, 62.3791, 13.52817, 131.6744, 0.8608869, 0
 /* @teleloc 0x80960011 [62.379100 13.528170 131.674400] 0.860887 0.000000 0.000000 -0.508796 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7809600B, 0x7809600C, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7809600B, 0x7809600D, '2019-02-10 00:00:00') /* Mandrake */;
+VALUES (0x7809600B, 0x7809600C, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x7809600B, 0x7809600D, '2019-02-10 00:00:00') /* Mandrake (775) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7809600C, 34104, 0x80960011, 62.3791, 13.52817, 131.6744, 0.8608869, 0, 0, -0.5087964,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

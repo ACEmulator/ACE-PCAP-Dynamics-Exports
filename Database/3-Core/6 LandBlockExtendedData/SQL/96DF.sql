@@ -5,27 +5,27 @@ VALUES (0x796DF001,  1154, 0x96DF0023, 111.1451, 60.41176, 148.5061, -0.8055357,
 /* @teleloc 0x96DF0023 [111.145100 60.411760 148.506100] -0.805536 0.000000 0.000000 -0.592547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DF001, 0x796DF002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x796DF001, 0x796DF003, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x796DF001, 0x796DF004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x796DF001, 0x796DF005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x796DF001, 0x796DF006, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x796DF001, 0x796DF007, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x796DF001, 0x796DF008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x796DF001, 0x796DF009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x796DF001, 0x796DF00A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x796DF001, 0x796DF00B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x796DF001, 0x796DF00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DF001, 0x796DF00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DF001, 0x796DF00E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796DF001, 0x796DF00F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796DF001, 0x796DF010, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796DF001, 0x796DF011, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796DF001, 0x796DF012, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796DF001, 0x796DF013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DF001, 0x796DF014, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DF001, 0x796DF015, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DF001, 0x796DF016, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x796DF001, 0x796DF002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x796DF001, 0x796DF003, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x796DF001, 0x796DF004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x796DF001, 0x796DF005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x796DF001, 0x796DF006, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x796DF001, 0x796DF007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x796DF001, 0x796DF008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x796DF001, 0x796DF009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x796DF001, 0x796DF00A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x796DF001, 0x796DF00B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x796DF001, 0x796DF00C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x796DF001, 0x796DF00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DF001, 0x796DF00E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DF001, 0x796DF00F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796DF001, 0x796DF010, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796DF001, 0x796DF011, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796DF001, 0x796DF012, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796DF001, 0x796DF013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DF001, 0x796DF014, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DF001, 0x796DF015, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DF001, 0x796DF016, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DF002, 23082, 0x96DF0023, 111.1451, 60.41176, 148.5061, -0.8055357, 0, 0, -0.5925473,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
@@ -116,7 +116,7 @@ VALUES (0x796DF017,  1542, 0x96DF002B, 134.7112, 66.00202, 140.0966, 0.9990482, 
 /* @teleloc 0x96DF002B [134.711200 66.002020 140.096600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DF017, 0x796DF018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x796DF017, 0x796DF018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DF018,  4179, 0x96DF002B, 134.7112, 66.00202, 140.0966, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,10 +5,10 @@ VALUES (0x7E072001,  1154, 0xE072003F, 183.2442, 153.9034, 0.007499993, -0.24332
 /* @teleloc 0xE072003F [183.244200 153.903400 0.007500] -0.243325 0.000000 0.000000 -0.969945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E072001, 0x7E072002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7E072001, 0x7E072003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E072001, 0x7E072004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7E072001, 0x7E072005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7E072001, 0x7E072002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7E072001, 0x7E072003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E072001, 0x7E072004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7E072001, 0x7E072005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E072002,  7123, 0xE072003F, 183.2442, 153.9034, 0.007499993, -0.2433254, 0, 0, -0.9699447,  True, '2019-02-10 00:00:00'); /* Dark Leech */

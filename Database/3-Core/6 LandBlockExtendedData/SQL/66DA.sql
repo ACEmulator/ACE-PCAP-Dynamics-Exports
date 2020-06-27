@@ -5,11 +5,11 @@ VALUES (0x766DA001,  1154, 0x66DA0028, 114.7577, 178.361, 260.6979, 1, 0, 0, 0, 
 /* @teleloc 0x66DA0028 [114.757700 178.361000 260.697900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766DA001, 0x766DA002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x766DA001, 0x766DA003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x766DA001, 0x766DA004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x766DA001, 0x766DA005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x766DA001, 0x766DA006, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x766DA001, 0x766DA002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x766DA001, 0x766DA003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x766DA001, 0x766DA004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x766DA001, 0x766DA005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x766DA001, 0x766DA006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DA002, 28553, 0x66DA0028, 114.7577, 178.361, 260.6979, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
@@ -36,7 +36,7 @@ VALUES (0x766DA007,  1542, 0x66DA0008, 4.306923, 180.5182, 256.7529, -4.371139E-
 /* @teleloc 0x66DA0008 [4.306923 180.518200 256.752900] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766DA007, 0x766DA008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x766DA007, 0x766DA008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DA008,  4380, 0x66DA0008, 4.306923, 180.5182, 256.7529, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

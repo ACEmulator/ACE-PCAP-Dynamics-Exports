@@ -5,14 +5,14 @@ VALUES (0x7266C001,  1154, 0x266C0035, 164.0387, 107.1681, 77.93784, -0.9482484,
 /* @teleloc 0x266C0035 [164.038700 107.168100 77.937840] -0.948248 0.000000 0.000000 -0.317529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7266C001, 0x7266C002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7266C001, 0x7266C003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7266C001, 0x7266C004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7266C001, 0x7266C005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7266C001, 0x7266C006, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7266C001, 0x7266C007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7266C001, 0x7266C008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7266C001, 0x7266C009, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7266C001, 0x7266C002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7266C001, 0x7266C003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7266C001, 0x7266C004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7266C001, 0x7266C005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7266C001, 0x7266C006, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7266C001, 0x7266C007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7266C001, 0x7266C008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7266C001, 0x7266C009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7266C002, 24497, 0x266C0035, 164.0387, 107.1681, 77.93784, -0.9482484, 0, 0, -0.3175294,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

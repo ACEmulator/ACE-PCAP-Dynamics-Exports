@@ -9,22 +9,22 @@ VALUES (0x71B55001,  1154, 0x1B550001, 18.99925, 22.88158, 0.006500006, -0.68266
 /* @teleloc 0x1B550001 [18.999250 22.881580 0.006500] -0.682662 0.000000 0.000000 -0.730734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B55001, 0x71B55002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71B55001, 0x71B55003, '2019-02-10 00:00:00') /* Inferno */
-     , (0x71B55001, 0x71B55004, '2019-02-10 00:00:00') /* Flare */
-     , (0x71B55001, 0x71B55005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71B55001, 0x71B55006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B55001, 0x71B55007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B55001, 0x71B55008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71B55001, 0x71B55009, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x71B55001, 0x71B5500A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71B55001, 0x71B5500B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71B55001, 0x71B5500C, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71B55001, 0x71B5500D, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71B55001, 0x71B5500E, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B55001, 0x71B5500F, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x71B55001, 0x71B55010, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71B55001, 0x71B55011, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x71B55001, 0x71B55002, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x71B55001, 0x71B55003, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x71B55001, 0x71B55004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x71B55001, 0x71B55005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71B55001, 0x71B55006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B55001, 0x71B55007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B55001, 0x71B55008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71B55001, 0x71B55009, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x71B55001, 0x71B5500A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71B55001, 0x71B5500B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71B55001, 0x71B5500C, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71B55001, 0x71B5500D, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71B55001, 0x71B5500E, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B55001, 0x71B5500F, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x71B55001, 0x71B55010, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71B55001, 0x71B55011, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B55002,  5711, 0x1B550001, 18.99925, 22.88158, 0.006500006, -0.6826621, 0, 0, -0.7307342,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -95,7 +95,7 @@ VALUES (0x71B55012,  1542, 0x1B55002A, 129.8329, 35.9748, -0.002161026, 1, 0, 0,
 /* @teleloc 0x1B55002A [129.832900 35.974800 -0.002161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B55012, 0x71B55013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71B55012, 0x71B55013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B55013, 31445, 0x1B55002A, 129.8329, 35.9748, -0.002161026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

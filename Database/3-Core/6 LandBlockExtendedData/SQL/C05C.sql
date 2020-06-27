@@ -5,14 +5,14 @@ VALUES (0x7C05C001,  1154, 0xC05C0019, 93.62387, 5.386504, 6.012, -0.3841242, 0,
 /* @teleloc 0xC05C0019 [93.623870 5.386504 6.012000] -0.384124 0.000000 0.000000 -0.923281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05C001, 0x7C05C002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C05C001, 0x7C05C003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05C001, 0x7C05C004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C05C001, 0x7C05C005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C05C001, 0x7C05C006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C05C001, 0x7C05C007, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C05C001, 0x7C05C008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C05C001, 0x7C05C009, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7C05C001, 0x7C05C002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C05C001, 0x7C05C003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05C001, 0x7C05C004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C05C001, 0x7C05C005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C05C001, 0x7C05C006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C05C001, 0x7C05C007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C05C001, 0x7C05C008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C05C001, 0x7C05C009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05C002,  1622, 0xC05C0019, 93.62387, 5.386504, 6.012, -0.3841242, 0, 0, -0.9232814,  True, '2019-02-10 00:00:00'); /* Mire Phyntos Wasp */

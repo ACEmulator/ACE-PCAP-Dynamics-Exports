@@ -5,13 +5,13 @@ VALUES (0x778A5001,  1154, 0x78A50019, 84.63707, 3.19648, 45.32936, -0.9318742, 
 /* @teleloc 0x78A50019 [84.637070 3.196480 45.329360] -0.931874 0.000000 0.000000 -0.362782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778A5001, 0x778A5002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x778A5001, 0x778A5003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x778A5001, 0x778A5004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x778A5001, 0x778A5005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x778A5001, 0x778A5006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x778A5001, 0x778A5007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x778A5001, 0x778A5008, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x778A5001, 0x778A5002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x778A5001, 0x778A5003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x778A5001, 0x778A5004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x778A5001, 0x778A5005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x778A5001, 0x778A5006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x778A5001, 0x778A5007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x778A5001, 0x778A5008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778A5002, 22520, 0x78A50019, 84.63707, 3.19648, 45.32936, -0.9318742, 0, 0, -0.3627815,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

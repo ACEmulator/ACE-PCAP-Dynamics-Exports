@@ -21,47 +21,47 @@ VALUES (0x733DA014,  1154, 0x33DA0029, 140.8583, 0.06916885, 52.02638, 0.5651781
 /* @teleloc 0x33DA0029 [140.858300 0.069169 52.026380] 0.565178 0.000000 0.000000 -0.824969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733DA014, 0x733DA015, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA016, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x733DA014, 0x733DA017, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x733DA014, 0x733DA018, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x733DA014, 0x733DA019, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA01A, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x733DA014, 0x733DA01B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x733DA014, 0x733DA01C, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x733DA014, 0x733DA01D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x733DA014, 0x733DA01E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA01F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x733DA014, 0x733DA020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x733DA014, 0x733DA021, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x733DA014, 0x733DA022, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA023, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x733DA014, 0x733DA024, '2019-02-10 00:00:00') /* White Rat */
-     , (0x733DA014, 0x733DA025, '2019-02-10 00:00:00') /* Korgluuk of Bur */
-     , (0x733DA014, 0x733DA026, '2019-02-10 00:00:00') /* Hea Tnakarea */
-     , (0x733DA014, 0x733DA027, '2019-02-10 00:00:00') /* Champion Bullgara */
-     , (0x733DA014, 0x733DA028, '2019-02-10 00:00:00') /* Chief Grogbash */
-     , (0x733DA014, 0x733DA029, '2019-02-10 00:00:00') /* Glormigoth */
-     , (0x733DA014, 0x733DA02A, '2019-02-10 00:00:00') /* Darcusch the Barbarian */
-     , (0x733DA014, 0x733DA02B, '2019-02-10 00:00:00') /* Warrior Corthos */
-     , (0x733DA014, 0x733DA02C, '2019-02-10 00:00:00') /* Kerthump the Ear Taker */
-     , (0x733DA014, 0x733DA02D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x733DA014, 0x733DA02E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA02F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x733DA014, 0x733DA030, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x733DA014, 0x733DA031, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x733DA014, 0x733DA032, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x733DA014, 0x733DA033, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x733DA014, 0x733DA034, '2019-02-10 00:00:00') /* Chicken */
-     , (0x733DA014, 0x733DA035, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x733DA014, 0x733DA036, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA037, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x733DA014, 0x733DA038, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA039, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x733DA014, 0x733DA03A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x733DA014, 0x733DA03B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x733DA014, 0x733DA03C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x733DA014, 0x733DA03D, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x733DA014, 0x733DA015, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x733DA014, 0x733DA016, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA017, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x733DA014, 0x733DA018, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x733DA014, 0x733DA019, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA01A, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA01B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x733DA014, 0x733DA01C, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x733DA014, 0x733DA01D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x733DA014, 0x733DA01E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA01F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x733DA014, 0x733DA021, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x733DA014, 0x733DA022, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA023, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x733DA014, 0x733DA024, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x733DA014, 0x733DA025, '2019-02-10 00:00:00') /* Korgluuk of Bur (38944) */
+     , (0x733DA014, 0x733DA026, '2019-02-10 00:00:00') /* Hea Tnakarea (38959) */
+     , (0x733DA014, 0x733DA027, '2019-02-10 00:00:00') /* Champion Bullgara (38956) */
+     , (0x733DA014, 0x733DA028, '2019-02-10 00:00:00') /* Chief Grogbash (38943) */
+     , (0x733DA014, 0x733DA029, '2019-02-10 00:00:00') /* Glormigoth (38955) */
+     , (0x733DA014, 0x733DA02A, '2019-02-10 00:00:00') /* Darcusch the Barbarian (38958) */
+     , (0x733DA014, 0x733DA02B, '2019-02-10 00:00:00') /* Warrior Corthos (38954) */
+     , (0x733DA014, 0x733DA02C, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38953) */
+     , (0x733DA014, 0x733DA02D, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x733DA014, 0x733DA02E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA02F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA030, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x733DA014, 0x733DA031, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x733DA014, 0x733DA032, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x733DA014, 0x733DA033, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA034, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x733DA014, 0x733DA035, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x733DA014, 0x733DA036, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x733DA014, 0x733DA037, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x733DA014, 0x733DA038, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA039, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA03A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x733DA014, 0x733DA03B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x733DA014, 0x733DA03C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x733DA014, 0x733DA03D, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DA015,   193, 0x33DA0029, 140.8583, 0.06916885, 52.02638, 0.5651781, 0, 0, -0.8249689,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -232,21 +232,21 @@ VALUES (0x733DA03E,  1154, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, 
 /* @teleloc 0x33DA0024 [99.898000 94.171000 60.005000] -0.480331 0.000000 0.000000 -0.877087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733DA03E, 0x733DA03F, '2019-02-10 00:00:00') /* Monster Fight Bookie */
-     , (0x733DA03E, 0x733DA040, '2019-02-10 00:00:00') /* Glormigoth */
-     , (0x733DA03E, 0x733DA041, '2019-02-10 00:00:00') /* Korgluuk of Bur */
-     , (0x733DA03E, 0x733DA042, '2019-02-10 00:00:00') /* Darcusch the Barbarian */
-     , (0x733DA03E, 0x733DA043, '2019-02-10 00:00:00') /* Warrior Corthos */
-     , (0x733DA03E, 0x733DA044, '2019-02-10 00:00:00') /* Hea Tnakarea */
-     , (0x733DA03E, 0x733DA045, '2019-02-10 00:00:00') /* Champion Bulgara */
-     , (0x733DA03E, 0x733DA046, '2019-02-10 00:00:00') /* Chief Grogbash */
-     , (0x733DA03E, 0x733DA047, '2019-02-10 00:00:00') /* Kerthump the Ear Taker */
-     , (0x733DA03E, 0x733DA048, '2019-02-10 00:00:00') /* Monster Fights Announcer */
-     , (0x733DA03E, 0x733DA049, '2019-02-10 00:00:00') /* Korgluuk of Bur */
-     , (0x733DA03E, 0x733DA04A, '2019-02-10 00:00:00') /* Champion Bulgara */
-     , (0x733DA03E, 0x733DA04B, '2019-02-10 00:00:00') /* Chief Grogbash */
-     , (0x733DA03E, 0x733DA04C, '2019-02-10 00:00:00') /* Kerthump the Ear Taker */
-     , (0x733DA03E, 0x733DA04D, '2019-02-10 00:00:00') /* Korgluuk of Bur */;
+VALUES (0x733DA03E, 0x733DA03F, '2019-02-10 00:00:00') /* Monster Fight Bookie (38995) */
+     , (0x733DA03E, 0x733DA040, '2019-02-10 00:00:00') /* Glormigoth (38988) */
+     , (0x733DA03E, 0x733DA041, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
+     , (0x733DA03E, 0x733DA042, '2019-02-10 00:00:00') /* Darcusch the Barbarian (38986) */
+     , (0x733DA03E, 0x733DA043, '2019-02-10 00:00:00') /* Warrior Corthos (38985) */
+     , (0x733DA03E, 0x733DA044, '2019-02-10 00:00:00') /* Hea Tnakarea (38984) */
+     , (0x733DA03E, 0x733DA045, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
+     , (0x733DA03E, 0x733DA046, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
+     , (0x733DA03E, 0x733DA047, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
+     , (0x733DA03E, 0x733DA048, '2019-02-10 00:00:00') /* Monster Fights Announcer (38990) */
+     , (0x733DA03E, 0x733DA049, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
+     , (0x733DA03E, 0x733DA04A, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
+     , (0x733DA03E, 0x733DA04B, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
+     , (0x733DA03E, 0x733DA04C, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
+     , (0x733DA03E, 0x733DA04D, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DA03F, 38995, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, -0.877087,  True, '2019-02-10 00:00:00'); /* Monster Fight Bookie */

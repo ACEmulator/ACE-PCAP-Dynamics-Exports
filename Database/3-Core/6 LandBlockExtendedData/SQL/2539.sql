@@ -5,19 +5,19 @@ VALUES (0x72539001,  1154, 0x25390040, 187.7701, 189.8186, -0.09500003, 0.884402
 /* @teleloc 0x25390040 [187.770100 189.818600 -0.095000] 0.884403 0.000000 0.000000 -0.466725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72539001, 0x72539002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72539001, 0x72539003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72539001, 0x72539004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72539001, 0x72539005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72539001, 0x72539006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72539001, 0x72539007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x72539001, 0x72539008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72539001, 0x72539009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72539001, 0x7253900A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72539001, 0x7253900B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72539001, 0x7253900C, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72539001, 0x7253900D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72539001, 0x7253900E, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72539001, 0x72539002, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72539001, 0x72539003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72539001, 0x72539004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72539001, 0x72539005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72539001, 0x72539006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72539001, 0x72539007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x72539001, 0x72539008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72539001, 0x72539009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72539001, 0x7253900A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72539001, 0x7253900B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72539001, 0x7253900C, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72539001, 0x7253900D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72539001, 0x7253900E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72539002, 36853, 0x25390040, 187.7701, 189.8186, -0.09500003, 0.8844026, 0, 0, -0.4667249,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -76,7 +76,7 @@ VALUES (0x7253900F,  1542, 0x25390030, 141.4236, 190.3279, 0, -4.371139E-08, 0, 
 /* @teleloc 0x25390030 [141.423600 190.327900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7253900F, 0x72539010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7253900F, 0x72539010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72539010,  4380, 0x25390030, 141.4236, 190.3279, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

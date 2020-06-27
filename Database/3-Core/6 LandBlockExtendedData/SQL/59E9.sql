@@ -5,12 +5,12 @@ VALUES (0x759E9001,  1154, 0x59E9000F, 46.78355, 149.7746, 10.6365, 0.8033938, 0
 /* @teleloc 0x59E9000F [46.783550 149.774600 10.636500] 0.803394 0.000000 0.000000 -0.595448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759E9001, 0x759E9002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x759E9001, 0x759E9003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x759E9001, 0x759E9004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x759E9001, 0x759E9005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x759E9001, 0x759E9006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x759E9001, 0x759E9007, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x759E9001, 0x759E9002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x759E9001, 0x759E9003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x759E9001, 0x759E9004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x759E9001, 0x759E9005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x759E9001, 0x759E9006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x759E9001, 0x759E9007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759E9002, 23564, 0x59E9000F, 46.78355, 149.7746, 10.6365, 0.8033938, 0, 0, -0.595448,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

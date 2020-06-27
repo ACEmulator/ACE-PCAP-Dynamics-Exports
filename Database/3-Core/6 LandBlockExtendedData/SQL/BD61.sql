@@ -5,19 +5,19 @@ VALUES (0x7BD61001,  1154, 0xBD610100, 85.8382, 142.486, -0.3394998, -0.645847, 
 /* @teleloc 0xBD610100 [85.838200 142.486000 -0.339500] -0.645847 0.000000 0.000000 -0.763467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD61001, 0x7BD61002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD61001, 0x7BD61003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BD61001, 0x7BD61004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BD61001, 0x7BD61005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD61001, 0x7BD61006, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD61001, 0x7BD61007, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BD61001, 0x7BD61008, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BD61001, 0x7BD61009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BD61001, 0x7BD6100A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD61001, 0x7BD6100B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD61001, 0x7BD6100C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BD61001, 0x7BD6100D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BD61001, 0x7BD6100E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */;
+VALUES (0x7BD61001, 0x7BD61002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61001, 0x7BD61003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD61001, 0x7BD61004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD61001, 0x7BD61005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61001, 0x7BD61006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61001, 0x7BD61007, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BD61001, 0x7BD61008, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BD61001, 0x7BD61009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BD61001, 0x7BD6100A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD61001, 0x7BD6100B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61001, 0x7BD6100C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BD61001, 0x7BD6100D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BD61001, 0x7BD6100E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD61002,   947, 0xBD610100, 85.8382, 142.486, -0.3394998, -0.645847, 0, 0, -0.763467,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -76,11 +76,11 @@ VALUES (0x7BD6100F,  1542, 0xBD610100, 82.68782, 147.9874, -0.3449997, -0.743254
 /* @teleloc 0xBD610100 [82.687820 147.987400 -0.345000] -0.743254 0.000000 0.000000 0.669009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD6100F, 0x7BD61010, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x7BD6100F, 0x7BD61011, '2019-02-10 00:00:00') /* Trousers */
-     , (0x7BD6100F, 0x7BD61012, '2019-02-10 00:00:00') /* Carved Key */
-     , (0x7BD6100F, 0x7BD61013, '2019-02-10 00:00:00') /* Acid War Axe */
-     , (0x7BD6100F, 0x7BD61014, '2019-02-10 00:00:00') /* Scroll of Piercing Bane IV */;
+VALUES (0x7BD6100F, 0x7BD61010, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x7BD6100F, 0x7BD61011, '2019-02-10 00:00:00') /* Trousers (2599) */
+     , (0x7BD6100F, 0x7BD61012, '2019-02-10 00:00:00') /* Carved Key (2190) */
+     , (0x7BD6100F, 0x7BD61013, '2019-02-10 00:00:00') /* Acid War Axe (31770) */
+     , (0x7BD6100F, 0x7BD61014, '2019-02-10 00:00:00') /* Scroll of Piercing Bane IV (2869) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD61010,    55, 0xBD610100, 82.68782, 147.9874, -0.3449997, -0.743254, 0, 0, 0.669009,  True, '2019-02-10 00:00:00'); /* Chainmail Gauntlets */

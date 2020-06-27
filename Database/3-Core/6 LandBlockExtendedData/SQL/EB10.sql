@@ -9,58 +9,58 @@ VALUES (0x7EB10001,  1154, 0xEB100107, 83.6931, 32.5829, 71.66116, 0.999707, 0, 
 /* @teleloc 0xEB100107 [83.693100 32.582900 71.661160] 0.999707 0.000000 0.000000 -0.024196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB10001, 0x7EB10002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB10001, 0x7EB10003, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB10004, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB10005, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB10006, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7EB10001, 0x7EB10007, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7EB10001, 0x7EB10008, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7EB10001, 0x7EB10009, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7EB10001, 0x7EB1000A, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1000B, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1000C, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB1000D, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1000E, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1000F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB10010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB10011, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10012, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10013, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10014, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7EB10001, 0x7EB10015, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10016, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10017, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10018, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10019, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1001A, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB1001B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1001C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1001D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1001E, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB1001F, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10020, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10021, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB10022, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10023, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10024, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB10025, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB10026, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB10027, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10028, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7EB10001, 0x7EB10029, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1002A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EB10001, 0x7EB1002B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1002C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1002D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7EB10001, 0x7EB1002E, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB1002F, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB10001, 0x7EB10030, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EB10001, 0x7EB10031, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB10032, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB10001, 0x7EB10033, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EB10001, 0x7EB10034, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB10001, 0x7EB10035, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7EB10001, 0x7EB10002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB10001, 0x7EB10003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB10004, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB10005, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB10006, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7EB10001, 0x7EB10007, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7EB10001, 0x7EB10008, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7EB10001, 0x7EB10009, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7EB10001, 0x7EB1000A, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1000B, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1000C, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB1000D, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1000E, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1000F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB10010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB10011, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10012, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10013, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10014, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7EB10001, 0x7EB10015, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10016, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10017, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10018, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10019, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1001A, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB1001B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1001C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1001D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1001E, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB1001F, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10020, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10021, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB10022, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10023, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10024, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB10025, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB10026, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB10027, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10028, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7EB10001, 0x7EB10029, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1002A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EB10001, 0x7EB1002B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1002C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1002D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7EB10001, 0x7EB1002E, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB1002F, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB10001, 0x7EB10030, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EB10001, 0x7EB10031, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB10032, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB10001, 0x7EB10033, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EB10001, 0x7EB10034, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB10001, 0x7EB10035, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB10002, 11533, 0xEB100107, 83.6931, 32.5829, 71.66116, 0.999707, 0, 0, -0.024196,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

@@ -5,27 +5,27 @@ VALUES (0x7EC6E001,  1154, 0xEC6E0008, 13.51719, 175.2839, 14.0165, 0.7636904, 0
 /* @teleloc 0xEC6E0008 [13.517190 175.283900 14.016500] 0.763690 0.000000 0.000000 -0.645583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC6E001, 0x7EC6E002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E003, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EC6E001, 0x7EC6E004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E006, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EC6E001, 0x7EC6E007, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EC6E001, 0x7EC6E008, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EC6E001, 0x7EC6E009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E00A, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EC6E001, 0x7EC6E00B, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EC6E001, 0x7EC6E00C, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EC6E001, 0x7EC6E00D, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EC6E001, 0x7EC6E00E, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EC6E001, 0x7EC6E00F, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7EC6E001, 0x7EC6E010, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EC6E001, 0x7EC6E011, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7EC6E001, 0x7EC6E012, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EC6E001, 0x7EC6E013, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E014, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EC6E001, 0x7EC6E015, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EC6E001, 0x7EC6E016, '2019-02-10 00:00:00') /* Tusker Sycophant */;
+VALUES (0x7EC6E001, 0x7EC6E002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E003, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EC6E001, 0x7EC6E004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E006, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EC6E001, 0x7EC6E007, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EC6E001, 0x7EC6E008, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EC6E001, 0x7EC6E009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E00A, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EC6E001, 0x7EC6E00B, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EC6E001, 0x7EC6E00C, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EC6E001, 0x7EC6E00D, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EC6E001, 0x7EC6E00E, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EC6E001, 0x7EC6E00F, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7EC6E001, 0x7EC6E010, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EC6E001, 0x7EC6E011, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7EC6E001, 0x7EC6E012, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EC6E001, 0x7EC6E013, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E014, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EC6E001, 0x7EC6E015, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EC6E001, 0x7EC6E016, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC6E002, 22053, 0xEC6E0008, 13.51719, 175.2839, 14.0165, 0.7636904, 0, 0, -0.6455827,  True, '2019-02-10 00:00:00'); /* Assailer */

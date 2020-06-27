@@ -5,29 +5,29 @@ VALUES (0x7221F001,  1154, 0x221F0001, 13.90335, 16.80736, 24.21184, 0.2588191, 
 /* @teleloc 0x221F0001 [13.903350 16.807360 24.211840] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7221F001, 0x7221F002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7221F001, 0x7221F003, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7221F001, 0x7221F004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7221F001, 0x7221F005, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7221F001, 0x7221F006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7221F001, 0x7221F007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7221F001, 0x7221F008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7221F001, 0x7221F009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7221F001, 0x7221F00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F00C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7221F001, 0x7221F00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7221F001, 0x7221F00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F00F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7221F001, 0x7221F010, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7221F001, 0x7221F011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7221F001, 0x7221F012, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7221F001, 0x7221F013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F014, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7221F001, 0x7221F015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7221F001, 0x7221F017, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7221F001, 0x7221F018, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x7221F001, 0x7221F002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7221F001, 0x7221F003, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7221F001, 0x7221F004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7221F001, 0x7221F005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7221F001, 0x7221F006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7221F001, 0x7221F007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7221F001, 0x7221F008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7221F001, 0x7221F009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7221F001, 0x7221F00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F00C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7221F001, 0x7221F00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7221F001, 0x7221F00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F00F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7221F001, 0x7221F010, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7221F001, 0x7221F011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7221F001, 0x7221F012, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7221F001, 0x7221F013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F014, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7221F001, 0x7221F015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7221F001, 0x7221F017, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7221F001, 0x7221F018, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7221F002, 36839, 0x221F0001, 13.90335, 16.80736, 24.21184, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

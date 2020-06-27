@@ -5,13 +5,13 @@ VALUES (0x7985F001,  1154, 0x985F0018, 52.87704, 182.7964, 18.62027, -0.9530559,
 /* @teleloc 0x985F0018 [52.877040 182.796400 18.620270] -0.953056 0.000000 0.000000 -0.302794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7985F001, 0x7985F002, '2019-02-10 00:00:00') /* Flicker */
-     , (0x7985F001, 0x7985F003, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7985F001, 0x7985F004, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7985F001, 0x7985F005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7985F001, 0x7985F006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7985F001, 0x7985F007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7985F001, 0x7985F008, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x7985F001, 0x7985F002, '2019-02-10 00:00:00') /* Flicker (5705) */
+     , (0x7985F001, 0x7985F003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7985F001, 0x7985F004, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7985F001, 0x7985F005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7985F001, 0x7985F006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7985F001, 0x7985F007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7985F001, 0x7985F008, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7985F002,  5705, 0x985F0018, 52.87704, 182.7964, 18.62027, -0.9530559, 0, 0, -0.3027944,  True, '2019-02-10 00:00:00'); /* Flicker */
@@ -46,8 +46,8 @@ VALUES (0x7985F009,  1542, 0x985F001A, 72.49518, 25.57006, 17.86916, 1, 0, 0, 0,
 /* @teleloc 0x985F001A [72.495180 25.570060 17.869160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7985F009, 0x7985F00A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7985F009, 0x7985F00B, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7985F009, 0x7985F00A, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7985F009, 0x7985F00B, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7985F00A, 22572, 0x985F001A, 72.49518, 25.57006, 17.86916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

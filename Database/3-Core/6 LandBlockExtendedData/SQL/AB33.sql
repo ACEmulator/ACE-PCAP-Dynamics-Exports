@@ -5,10 +5,10 @@ VALUES (0x7AB33001,  1154, 0xAB330029, 126.2887, 9.263153, 56.77443, 0.1054641, 
 /* @teleloc 0xAB330029 [126.288700 9.263153 56.774430] 0.105464 0.000000 0.000000 -0.994423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB33001, 0x7AB33002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AB33001, 0x7AB33003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AB33001, 0x7AB33004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AB33001, 0x7AB33005, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7AB33001, 0x7AB33002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AB33001, 0x7AB33003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AB33001, 0x7AB33004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AB33001, 0x7AB33005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB33002,  1756, 0xAB330029, 126.2887, 9.263153, 56.77443, 0.1054641, 0, 0, -0.9944231,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -31,7 +31,7 @@ VALUES (0x7AB33006,  1542, 0xAB33002A, 122.602, 44.34862, 58, 1, 0, 0, 0, False,
 /* @teleloc 0xAB33002A [122.602000 44.348620 58.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB33006, 0x7AB33007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AB33006, 0x7AB33007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB33007,  4380, 0xAB33002A, 122.602, 44.34862, 58, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

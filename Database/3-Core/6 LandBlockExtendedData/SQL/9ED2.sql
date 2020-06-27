@@ -5,15 +5,15 @@ VALUES (0x79ED2001,  1154, 0x9ED20100, 86.3845, 50.04721, 246.8, -0.562571, 0, 0
 /* @teleloc 0x9ED20100 [86.384500 50.047210 246.800000] -0.562571 0.000000 0.000000 -0.826749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ED2001, 0x79ED2002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x79ED2001, 0x79ED2003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED2004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED2005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79ED2001, 0x79ED2006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED2007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED2008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED2009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ED2001, 0x79ED200A, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x79ED2001, 0x79ED2002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x79ED2001, 0x79ED2003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED2004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED2005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79ED2001, 0x79ED2006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED2007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED2008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED2009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ED2001, 0x79ED200A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ED2002,   214, 0x9ED20100, 86.3845, 50.04721, 246.8, -0.562571, 0, 0, -0.826749,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -56,7 +56,7 @@ VALUES (0x79ED200B,  1542, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.9068685,
 /* @teleloc 0x9ED2003D [187.679900 118.524200 250.805900] -0.906869 0.000000 0.000000 -0.421414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ED200B, 0x79ED200C, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x79ED200B, 0x79ED200C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ED200C,  8648, 0x9ED2003D, 187.6799, 118.5242, 250.8059, -0.9068685, 0, 0, -0.4214137,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

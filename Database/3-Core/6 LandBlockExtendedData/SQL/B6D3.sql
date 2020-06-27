@@ -5,14 +5,14 @@ VALUES (0x7B6D3001,  1154, 0xB6D30034, 146.3067, 80.02152, 62.2915, 0.7336014, 0
 /* @teleloc 0xB6D30034 [146.306700 80.021520 62.291500] 0.733601 0.000000 0.000000 -0.679580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6D3001, 0x7B6D3002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B6D3001, 0x7B6D3003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B6D3001, 0x7B6D3004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B6D3001, 0x7B6D3005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B6D3001, 0x7B6D3006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B6D3001, 0x7B6D3007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B6D3001, 0x7B6D3008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B6D3001, 0x7B6D3009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7B6D3001, 0x7B6D3002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B6D3001, 0x7B6D3003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B6D3001, 0x7B6D3004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B6D3001, 0x7B6D3005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B6D3001, 0x7B6D3006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B6D3001, 0x7B6D3007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B6D3001, 0x7B6D3008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B6D3001, 0x7B6D3009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6D3002,  7123, 0xB6D30034, 146.3067, 80.02152, 62.2915, 0.7336014, 0, 0, -0.67958,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -51,7 +51,7 @@ VALUES (0x7B6D300A,  1542, 0xB6D3000D, 46.85223, 108.4208, 68.93942, 1, 0, 0, 0,
 /* @teleloc 0xB6D3000D [46.852230 108.420800 68.939420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6D300A, 0x7B6D300B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B6D300A, 0x7B6D300B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6D300B, 22571, 0xB6D3000D, 46.85223, 108.4208, 68.93942, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

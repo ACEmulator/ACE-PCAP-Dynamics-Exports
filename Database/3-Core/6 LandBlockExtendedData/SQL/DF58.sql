@@ -5,14 +5,14 @@ VALUES (0x7DF58001,  1154, 0xDF580024, 116.4019, 89.50224, 15.78737, -0.495787, 
 /* @teleloc 0xDF580024 [116.401900 89.502240 15.787370] -0.495787 0.000000 0.000000 -0.868444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF58001, 0x7DF58002, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DF58001, 0x7DF58003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DF58001, 0x7DF58009, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7DF58001, 0x7DF58002, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DF58001, 0x7DF58003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DF58001, 0x7DF58009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF58002, 11537, 0xDF580024, 116.4019, 89.50224, 15.78737, -0.495787, 0, 0, -0.8684441,  True, '2019-02-10 00:00:00'); /* Virtuous Doll */

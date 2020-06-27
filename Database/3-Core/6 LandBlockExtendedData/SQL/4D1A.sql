@@ -5,12 +5,12 @@ VALUES (0x74D1A001,  1154, 0x4D1A0033, 167.7838, 62.35426, 130.007, 0.9958975, 0
 /* @teleloc 0x4D1A0033 [167.783800 62.354260 130.007000] 0.995898 0.000000 0.000000 -0.090489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D1A001, 0x74D1A002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x74D1A001, 0x74D1A003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D1A001, 0x74D1A004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74D1A001, 0x74D1A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D1A001, 0x74D1A006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74D1A001, 0x74D1A007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x74D1A001, 0x74D1A002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x74D1A001, 0x74D1A003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D1A001, 0x74D1A004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74D1A001, 0x74D1A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D1A001, 0x74D1A006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74D1A001, 0x74D1A007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D1A002, 14875, 0x4D1A0033, 167.7838, 62.35426, 130.007, 0.9958975, 0, 0, -0.09048893,  True, '2019-02-10 00:00:00'); /* Hyem */

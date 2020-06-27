@@ -5,12 +5,12 @@ VALUES (0x7AA25001,  1154, 0xAA25000B, 30.65105, 50.51178, 254.9483, -0.4581535,
 /* @teleloc 0xAA25000B [30.651050 50.511780 254.948300] -0.458154 0.000000 0.000000 -0.888873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA25001, 0x7AA25002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AA25001, 0x7AA25003, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7AA25001, 0x7AA25004, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7AA25001, 0x7AA25005, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7AA25001, 0x7AA25006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA25001, 0x7AA25007, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7AA25001, 0x7AA25002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AA25001, 0x7AA25003, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7AA25001, 0x7AA25004, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7AA25001, 0x7AA25005, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7AA25001, 0x7AA25006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA25001, 0x7AA25007, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA25002, 38181, 0xAA25000B, 30.65105, 50.51178, 254.9483, -0.4581535, 0, 0, -0.888873,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

@@ -5,18 +5,18 @@ VALUES (0x7AAB9001,  1154, 0xAAB9000E, 39.39156, 133.0182, 81.44833, -0.7787431,
 /* @teleloc 0xAAB9000E [39.391560 133.018200 81.448330] -0.778743 0.000000 0.000000 -0.627343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB9001, 0x7AAB9002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7AAB9001, 0x7AAB9003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAB9001, 0x7AAB9004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AAB9001, 0x7AAB9005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AAB9001, 0x7AAB9006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAB9001, 0x7AAB9007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7AAB9001, 0x7AAB9008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AAB9001, 0x7AAB9009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAB9001, 0x7AAB900A, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7AAB9001, 0x7AAB900B, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AAB9001, 0x7AAB900C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AAB9001, 0x7AAB900D, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7AAB9001, 0x7AAB9002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7AAB9001, 0x7AAB9003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAB9001, 0x7AAB9004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AAB9001, 0x7AAB9005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AAB9001, 0x7AAB9006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAB9001, 0x7AAB9007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7AAB9001, 0x7AAB9008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AAB9001, 0x7AAB9009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAB9001, 0x7AAB900A, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7AAB9001, 0x7AAB900B, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AAB9001, 0x7AAB900C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AAB9001, 0x7AAB900D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB9002,  4109, 0xAAB9000E, 39.39156, 133.0182, 81.44833, -0.7787431, 0, 0, -0.6273429,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

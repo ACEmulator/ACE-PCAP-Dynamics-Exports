@@ -5,11 +5,11 @@ VALUES (0x7257E001,  1154, 0x257E0011, 53.93833, 11.38069, 58, 0.970104, 0, 0, -
 /* @teleloc 0x257E0011 [53.938330 11.380690 58.000000] 0.970104 0.000000 0.000000 -0.242690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257E001, 0x7257E002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7257E001, 0x7257E003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7257E001, 0x7257E004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7257E001, 0x7257E005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7257E001, 0x7257E006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7257E001, 0x7257E002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7257E001, 0x7257E003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7257E001, 0x7257E004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7257E001, 0x7257E005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7257E001, 0x7257E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257E002, 23616, 0x257E0011, 53.93833, 11.38069, 58, 0.970104, 0, 0, -0.2426896,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -36,7 +36,7 @@ VALUES (0x7257E007,  1542, 0x257E0011, 48.09734, 20.49869, 57.927, 1, 0, 0, 0, F
 /* @teleloc 0x257E0011 [48.097340 20.498690 57.927000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257E007, 0x7257E008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7257E007, 0x7257E008, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257E008, 22566, 0x257E0011, 48.09734, 20.49869, 57.927, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

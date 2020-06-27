@@ -5,11 +5,11 @@ VALUES (0x7248A001,  1154, 0x248A0003, 12.91714, 56.12746, 54.57068, 0.9238795, 
 /* @teleloc 0x248A0003 [12.917140 56.127460 54.570680] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7248A001, 0x7248A002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248A001, 0x7248A003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248A001, 0x7248A004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7248A001, 0x7248A005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7248A001, 0x7248A006, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x7248A001, 0x7248A002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248A001, 0x7248A003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248A001, 0x7248A004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7248A001, 0x7248A005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7248A001, 0x7248A006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7248A002, 24497, 0x248A0003, 12.91714, 56.12746, 54.57068, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -36,8 +36,8 @@ VALUES (0x7248A007,  1542, 0x248A0003, 19.94341, 52.17378, 54.57068, 1, 0, 0, 0,
 /* @teleloc 0x248A0003 [19.943410 52.173780 54.570680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7248A007, 0x7248A008, '2019-02-10 00:00:00') /* Bones */
-     , (0x7248A007, 0x7248A009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7248A007, 0x7248A008, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7248A007, 0x7248A009, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7248A008,  4380, 0x248A0003, 19.94341, 52.17378, 54.57068, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

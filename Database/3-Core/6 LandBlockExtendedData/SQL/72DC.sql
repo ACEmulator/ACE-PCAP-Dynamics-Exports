@@ -5,13 +5,13 @@ VALUES (0x772DC001,  1154, 0x72DC001B, 83.58554, 52.12995, 249.0327, 1, 0, 0, 0,
 /* @teleloc 0x72DC001B [83.585540 52.129950 249.032700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772DC001, 0x772DC002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x772DC001, 0x772DC003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x772DC001, 0x772DC004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x772DC001, 0x772DC005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x772DC001, 0x772DC006, '2019-02-10 00:00:00') /* Gelid */
-     , (0x772DC001, 0x772DC007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x772DC001, 0x772DC008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x772DC001, 0x772DC002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x772DC001, 0x772DC003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x772DC001, 0x772DC004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x772DC001, 0x772DC005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x772DC001, 0x772DC006, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x772DC001, 0x772DC007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x772DC001, 0x772DC008, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772DC002, 28553, 0x72DC001B, 83.58554, 52.12995, 249.0327, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

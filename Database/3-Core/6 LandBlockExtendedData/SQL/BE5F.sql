@@ -5,10 +5,10 @@ VALUES (0x7BE5F001,  1154, 0xBE5F000C, 25.59907, 72.89638, 6.0075, 0.3833039, 0,
 /* @teleloc 0xBE5F000C [25.599070 72.896380 6.007500] 0.383304 0.000000 0.000000 -0.923622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE5F001, 0x7BE5F002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BE5F001, 0x7BE5F003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BE5F001, 0x7BE5F004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BE5F001, 0x7BE5F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7BE5F001, 0x7BE5F002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BE5F001, 0x7BE5F003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BE5F001, 0x7BE5F004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BE5F001, 0x7BE5F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE5F002,   950, 0xBE5F000C, 25.59907, 72.89638, 6.0075, 0.3833039, 0, 0, -0.9236223,  True, '2019-02-10 00:00:00'); /* Zombie */

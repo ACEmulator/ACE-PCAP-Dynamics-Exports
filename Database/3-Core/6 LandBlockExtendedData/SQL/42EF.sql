@@ -5,21 +5,21 @@ VALUES (0x742EF001,  1154, 0x42EF0026, 102.0782, 123.7654, 40.00715, -0.674076, 
 /* @teleloc 0x42EF0026 [102.078200 123.765400 40.007150] -0.674076 0.000000 0.000000 -0.738662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742EF001, 0x742EF002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x742EF001, 0x742EF003, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x742EF001, 0x742EF004, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x742EF001, 0x742EF005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x742EF001, 0x742EF006, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x742EF001, 0x742EF007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x742EF001, 0x742EF008, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x742EF001, 0x742EF009, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x742EF001, 0x742EF00A, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x742EF001, 0x742EF00B, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x742EF001, 0x742EF00C, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x742EF001, 0x742EF00D, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x742EF001, 0x742EF00E, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x742EF001, 0x742EF00F, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x742EF001, 0x742EF010, '2019-02-10 00:00:00') /* Copper Gromnie */;
+VALUES (0x742EF001, 0x742EF002, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x742EF001, 0x742EF003, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x742EF001, 0x742EF004, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x742EF001, 0x742EF005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x742EF001, 0x742EF006, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x742EF001, 0x742EF007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x742EF001, 0x742EF008, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x742EF001, 0x742EF009, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x742EF001, 0x742EF00A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x742EF001, 0x742EF00B, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x742EF001, 0x742EF00C, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x742EF001, 0x742EF00D, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x742EF001, 0x742EF00E, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x742EF001, 0x742EF00F, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x742EF001, 0x742EF010, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742EF002, 24276, 0x42EF0026, 102.0782, 123.7654, 40.00715, -0.674076, 0, 0, -0.7386619,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -86,7 +86,7 @@ VALUES (0x742EF011,  1542, 0x42EF001D, 86.31526, 96.82042, 40, 0.8504045, 0, 0, 
 /* @teleloc 0x42EF001D [86.315260 96.820420 40.000000] 0.850405 0.000000 0.000000 -0.526129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742EF011, 0x742EF012, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x742EF011, 0x742EF012, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742EF012, 31032, 0x42EF001D, 86.31526, 96.82042, 40, 0.8504045, 0, 0, -0.5261294,  True, '2019-02-10 00:00:00'); /* Snow Lily */

@@ -5,10 +5,10 @@ VALUES (0x79E77001,  1154, 0x9E77000A, 38.44263, 39.60852, 20.011, 0.9659258, 0,
 /* @teleloc 0x9E77000A [38.442630 39.608520 20.011000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E77001, 0x79E77002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E77001, 0x79E77003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79E77001, 0x79E77004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E77001, 0x79E77005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x79E77001, 0x79E77002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E77001, 0x79E77003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79E77001, 0x79E77004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E77001, 0x79E77005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E77002,   195, 0x9E77000A, 38.44263, 39.60852, 20.011, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */

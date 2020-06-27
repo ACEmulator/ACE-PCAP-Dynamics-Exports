@@ -5,13 +5,13 @@ VALUES (0x75D11001,  1154, 0x5D11001F, 75.35401, 152.029, 74.88655, -0.578294, 0
 /* @teleloc 0x5D11001F [75.354010 152.029000 74.886550] -0.578294 0.000000 0.000000 -0.815828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D11001, 0x75D11002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75D11001, 0x75D11003, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75D11001, 0x75D11004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75D11001, 0x75D11005, '2019-02-10 00:00:00') /* Ethereal Rift */
-     , (0x75D11001, 0x75D11006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x75D11001, 0x75D11007, '2019-02-10 00:00:00') /* Ethereal Rift */
-     , (0x75D11001, 0x75D11008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x75D11001, 0x75D11002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75D11001, 0x75D11003, '2019-02-10 00:00:00') /* Subtle Simulacrum (12134) */
+     , (0x75D11001, 0x75D11004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75D11001, 0x75D11005, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */
+     , (0x75D11001, 0x75D11006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x75D11001, 0x75D11007, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */
+     , (0x75D11001, 0x75D11008, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D11002,  7089, 0x5D11001F, 75.35401, 152.029, 74.88655, -0.578294, 0, 0, -0.8158284,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -46,7 +46,7 @@ VALUES (0x75D11009,  1542, 0x5D11001E, 88.51197, 137.34, 73.09451, -0.578294, 0,
 /* @teleloc 0x5D11001E [88.511970 137.340000 73.094510] -0.578294 0.000000 0.000000 -0.815828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D11009, 0x75D1100A, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75D11009, 0x75D1100A, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D1100A,  8039, 0x5D11001E, 88.51197, 137.34, 73.09451, -0.578294, 0, 0, -0.8158284,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

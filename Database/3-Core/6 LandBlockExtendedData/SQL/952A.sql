@@ -5,15 +5,15 @@ VALUES (0x7952A001,  1154, 0x952A001D, 91.06675, 109.7585, 100.1323, -0.8806564,
 /* @teleloc 0x952A001D [91.066750 109.758500 100.132300] -0.880656 0.000000 0.000000 -0.473756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7952A001, 0x7952A002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7952A001, 0x7952A003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7952A001, 0x7952A004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7952A001, 0x7952A005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7952A001, 0x7952A006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7952A001, 0x7952A007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7952A001, 0x7952A008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7952A001, 0x7952A009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7952A001, 0x7952A00A, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7952A001, 0x7952A002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7952A001, 0x7952A003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7952A001, 0x7952A004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7952A001, 0x7952A005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7952A001, 0x7952A006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7952A001, 0x7952A007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7952A001, 0x7952A008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7952A001, 0x7952A009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7952A001, 0x7952A00A, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7952A002,   199, 0x952A001D, 91.06675, 109.7585, 100.1323, -0.8806564, 0, 0, -0.4737556,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -56,7 +56,7 @@ VALUES (0x7952A00B,  1542, 0x952A0029, 140.0279, 1.772188, 125.3609, 1, 0, 0, 0,
 /* @teleloc 0x952A0029 [140.027900 1.772188 125.360900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7952A00B, 0x7952A00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7952A00B, 0x7952A00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7952A00C,  4380, 0x952A0029, 140.0279, 1.772188, 125.3609, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

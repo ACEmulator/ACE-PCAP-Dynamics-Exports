@@ -5,23 +5,23 @@ VALUES (0x7C7F3001,  1154, 0xC7F30011, 63.96254, 13.33648, -0.9, -0.3965269, 0, 
 /* @teleloc 0xC7F30011 [63.962540 13.336480 -0.900000] -0.396527 0.000000 0.000000 -0.918023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7F3001, 0x7C7F3002, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C7F3001, 0x7C7F3003, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C7F3001, 0x7C7F3004, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C7F3001, 0x7C7F3005, '2019-02-10 00:00:00') /* Degenerate Mukkir */
-     , (0x7C7F3001, 0x7C7F3006, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C7F3001, 0x7C7F3007, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C7F3001, 0x7C7F3008, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C7F3001, 0x7C7F3009, '2019-02-10 00:00:00') /* Parfal Sleech */
-     , (0x7C7F3001, 0x7C7F300A, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C7F3001, 0x7C7F300B, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C7F3001, 0x7C7F300C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C7F3001, 0x7C7F300D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C7F3001, 0x7C7F300E, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C7F3001, 0x7C7F300F, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C7F3001, 0x7C7F3010, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C7F3001, 0x7C7F3011, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C7F3001, 0x7C7F3012, '2019-02-10 00:00:00') /* Black Coral Golem */;
+VALUES (0x7C7F3001, 0x7C7F3002, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C7F3001, 0x7C7F3003, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C7F3001, 0x7C7F3004, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C7F3001, 0x7C7F3005, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C7F3001, 0x7C7F3006, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C7F3001, 0x7C7F3007, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C7F3001, 0x7C7F3008, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C7F3001, 0x7C7F3009, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C7F3001, 0x7C7F300A, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C7F3001, 0x7C7F300B, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C7F3001, 0x7C7F300C, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C7F3001, 0x7C7F300D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C7F3001, 0x7C7F300E, '2019-02-10 00:00:00') /* Degenerate Shadow (33730) */
+     , (0x7C7F3001, 0x7C7F300F, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C7F3001, 0x7C7F3010, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C7F3001, 0x7C7F3011, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C7F3001, 0x7C7F3012, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7F3002, 33732, 0xC7F30011, 63.96254, 13.33648, -0.9, -0.3965269, 0, 0, -0.9180231,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */

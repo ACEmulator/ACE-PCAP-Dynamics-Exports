@@ -5,11 +5,11 @@ VALUES (0x73A41001,  1154, 0x3A410015, 63.49191, 96.58781, 17.27627, 0.9238795, 
 /* @teleloc 0x3A410015 [63.491910 96.587810 17.276270] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A41001, 0x73A41002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73A41001, 0x73A41003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73A41001, 0x73A41004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73A41001, 0x73A41005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A41001, 0x73A41006, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x73A41001, 0x73A41002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73A41001, 0x73A41003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73A41001, 0x73A41004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73A41001, 0x73A41005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A41001, 0x73A41006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A41002, 24494, 0x3A410015, 63.49191, 96.58781, 17.27627, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -36,8 +36,8 @@ VALUES (0x73A41007,  1542, 0x3A410019, 83.68475, 3.890205, 10.26164, 0.8470845, 
 /* @teleloc 0x3A410019 [83.684750 3.890205 10.261640] 0.847085 0.000000 0.000000 -0.531458 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A41007, 0x73A41008, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x73A41007, 0x73A41009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73A41007, 0x73A41008, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x73A41007, 0x73A41009, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A41008,  9288, 0x3A410019, 83.68475, 3.890205, 10.26164, 0.8470845, 0, 0, -0.5314583,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

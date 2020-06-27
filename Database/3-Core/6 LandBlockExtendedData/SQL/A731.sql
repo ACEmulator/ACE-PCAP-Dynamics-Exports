@@ -5,14 +5,14 @@ VALUES (0x7A731001,  1154, 0xA731000F, 34.89743, 149.6209, 85.93781, -0.6080269,
 /* @teleloc 0xA731000F [34.897430 149.620900 85.937810] -0.608027 0.000000 0.000000 -0.793916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A731001, 0x7A731002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A731001, 0x7A731003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A731001, 0x7A731004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A731001, 0x7A731005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A731001, 0x7A731006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A731001, 0x7A731007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A731001, 0x7A731008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A731001, 0x7A731009, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7A731001, 0x7A731002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A731001, 0x7A731003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A731001, 0x7A731004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A731001, 0x7A731005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A731001, 0x7A731006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A731001, 0x7A731007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A731001, 0x7A731008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A731001, 0x7A731009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A731002,   199, 0xA731000F, 34.89743, 149.6209, 85.93781, -0.6080269, 0, 0, -0.7939164,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -51,8 +51,8 @@ VALUES (0x7A73100A,  1542, 0xA7310013, 55.78384, 56.04742, 77.34961, 0.783261, 0
 /* @teleloc 0xA7310013 [55.783840 56.047420 77.349610] 0.783261 0.000000 0.000000 -0.621693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A73100A, 0x7A73100B, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A73100A, 0x7A73100C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A73100A, 0x7A73100B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A73100A, 0x7A73100C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A73100B, 42528, 0xA7310013, 55.78384, 56.04742, 77.34961, 0.783261, 0, 0, -0.621693,  True, '2019-02-10 00:00:00'); /* Rock */

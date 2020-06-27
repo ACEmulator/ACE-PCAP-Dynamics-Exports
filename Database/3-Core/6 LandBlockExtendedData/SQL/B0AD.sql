@@ -5,21 +5,21 @@ VALUES (0x7B0AD001,  1154, 0xB0AD0007, 8.095984, 148.4434, 87.25943, 0.2012302, 
 /* @teleloc 0xB0AD0007 [8.095984 148.443400 87.259430] 0.201230 0.000000 0.000000 -0.979544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AD001, 0x7B0AD002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7B0AD001, 0x7B0AD003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7B0AD001, 0x7B0AD004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B0AD001, 0x7B0AD005, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B0AD001, 0x7B0AD006, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7B0AD001, 0x7B0AD007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B0AD001, 0x7B0AD008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B0AD001, 0x7B0AD009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B0AD001, 0x7B0AD00A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7B0AD001, 0x7B0AD00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B0AD001, 0x7B0AD00C, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B0AD001, 0x7B0AD00D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B0AD001, 0x7B0AD00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B0AD001, 0x7B0AD00F, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7B0AD001, 0x7B0AD010, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7B0AD001, 0x7B0AD002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7B0AD001, 0x7B0AD003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7B0AD001, 0x7B0AD004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B0AD001, 0x7B0AD005, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B0AD001, 0x7B0AD006, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7B0AD001, 0x7B0AD007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B0AD001, 0x7B0AD008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B0AD001, 0x7B0AD009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B0AD001, 0x7B0AD00A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7B0AD001, 0x7B0AD00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B0AD001, 0x7B0AD00C, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B0AD001, 0x7B0AD00D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B0AD001, 0x7B0AD00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B0AD001, 0x7B0AD00F, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7B0AD001, 0x7B0AD010, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AD002,  2566, 0xB0AD0007, 8.095984, 148.4434, 87.25943, 0.2012302, 0, 0, -0.979544,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -86,8 +86,8 @@ VALUES (0x7B0AD011,  1542, 0xB0AD0035, 165.2825, 106.0983, 49.74735, 1, 0, 0, 0,
 /* @teleloc 0xB0AD0035 [165.282500 106.098300 49.747350] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AD011, 0x7B0AD012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B0AD011, 0x7B0AD013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B0AD011, 0x7B0AD012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B0AD011, 0x7B0AD013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AD012,  4179, 0xB0AD0035, 165.2825, 106.0983, 49.74735, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

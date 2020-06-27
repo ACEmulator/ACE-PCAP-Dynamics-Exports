@@ -5,21 +5,21 @@ VALUES (0x7B91D001,  1154, 0xB91D0029, 134.16, 15.03847, 260.977, 0.7372774, 0, 
 /* @teleloc 0xB91D0029 [134.160000 15.038470 260.977000] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91D001, 0x7B91D002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B91D001, 0x7B91D003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B91D001, 0x7B91D004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B91D001, 0x7B91D005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B91D001, 0x7B91D006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B91D001, 0x7B91D007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B91D001, 0x7B91D008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B91D001, 0x7B91D009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B91D001, 0x7B91D00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B91D001, 0x7B91D00B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B91D001, 0x7B91D00C, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B91D001, 0x7B91D00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B91D001, 0x7B91D00E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B91D001, 0x7B91D00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B91D001, 0x7B91D010, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7B91D001, 0x7B91D002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B91D001, 0x7B91D003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B91D001, 0x7B91D004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B91D001, 0x7B91D005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B91D001, 0x7B91D006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B91D001, 0x7B91D007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B91D001, 0x7B91D008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B91D001, 0x7B91D009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B91D001, 0x7B91D00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B91D001, 0x7B91D00B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B91D001, 0x7B91D00C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B91D001, 0x7B91D00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B91D001, 0x7B91D00E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B91D001, 0x7B91D00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B91D001, 0x7B91D010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91D002,  7335, 0xB91D0029, 134.16, 15.03847, 260.977, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -86,7 +86,7 @@ VALUES (0x7B91D011,  1542, 0xB91D0010, 31.11317, 176.3558, 292.7713, 1, 0, 0, 0,
 /* @teleloc 0xB91D0010 [31.113170 176.355800 292.771300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B91D011, 0x7B91D012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B91D011, 0x7B91D012, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B91D012, 22571, 0xB91D0010, 31.11317, 176.3558, 292.7713, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

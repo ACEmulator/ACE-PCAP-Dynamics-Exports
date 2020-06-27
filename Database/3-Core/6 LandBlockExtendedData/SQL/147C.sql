@@ -13,8 +13,8 @@ VALUES (0x7147C003,  1154, 0x147C001C, 81.60362, 80.42885, 147.523, -0.1841871, 
 /* @teleloc 0x147C001C [81.603620 80.428850 147.523000] -0.184187 0.000000 0.000000 -0.982891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7147C003, 0x7147C004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7147C003, 0x7147C005, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x7147C003, 0x7147C004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7147C003, 0x7147C005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7147C004, 24280, 0x147C001C, 81.60362, 80.42885, 147.523, -0.1841871, 0, 0, -0.9828912,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -29,8 +29,8 @@ VALUES (0x7147C006,  1542, 0x147C0024, 98.58586, 95.55887, 131.6846, -0.828045, 
 /* @teleloc 0x147C0024 [98.585860 95.558870 131.684600] -0.828045 0.000000 0.000000 -0.560662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7147C006, 0x7147C007, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7147C006, 0x7147C008, '2019-02-10 00:00:00') /* Shoes */;
+VALUES (0x7147C006, 0x7147C007, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7147C006, 0x7147C008, '2019-02-10 00:00:00') /* Shoes (132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7147C007,   117, 0x147C0024, 98.58586, 95.55887, 131.6846, -0.828045, 0, 0, -0.560662,  True, '2019-02-10 00:00:00'); /* Breeches */

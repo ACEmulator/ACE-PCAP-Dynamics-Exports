@@ -5,13 +5,13 @@ VALUES (0x72985001,  1154, 0x29850007, 16.86123, 150.8903, 237.1395, 0.4602686, 
 /* @teleloc 0x29850007 [16.861230 150.890300 237.139500] 0.460269 0.000000 0.000000 -0.887780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72985001, 0x72985002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72985001, 0x72985003, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72985001, 0x72985004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72985001, 0x72985005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72985001, 0x72985006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72985001, 0x72985007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72985001, 0x72985008, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72985001, 0x72985002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72985001, 0x72985003, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72985001, 0x72985004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72985001, 0x72985005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72985001, 0x72985006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72985001, 0x72985007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72985001, 0x72985008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72985002,  7081, 0x29850007, 16.86123, 150.8903, 237.1395, 0.4602686, 0, 0, -0.8877797,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

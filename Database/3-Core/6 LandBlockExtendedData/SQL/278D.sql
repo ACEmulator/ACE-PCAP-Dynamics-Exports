@@ -5,13 +5,13 @@ VALUES (0x7278D001,  1154, 0x278D0002, 7.910608, 36.68603, 85.80594, -0.4572677,
 /* @teleloc 0x278D0002 [7.910608 36.686030 85.805940] -0.457268 0.000000 0.000000 -0.889329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7278D001, 0x7278D002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7278D001, 0x7278D003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7278D001, 0x7278D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7278D001, 0x7278D005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7278D001, 0x7278D006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7278D001, 0x7278D007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7278D001, 0x7278D008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7278D001, 0x7278D002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7278D001, 0x7278D003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7278D001, 0x7278D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7278D001, 0x7278D005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7278D001, 0x7278D006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7278D001, 0x7278D007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7278D001, 0x7278D008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7278D002, 23482, 0x278D0002, 7.910608, 36.68603, 85.80594, -0.4572677, 0, 0, -0.8893291,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -46,7 +46,7 @@ VALUES (0x7278D009,  1542, 0x278D0001, 15.74331, 3.741121, 82, -0.4572677, 0, 0,
 /* @teleloc 0x278D0001 [15.743310 3.741121 82.000000] -0.457268 0.000000 0.000000 -0.889329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7278D009, 0x7278D00A, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7278D009, 0x7278D00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7278D00A,  8646, 0x278D0001, 15.74331, 3.741121, 82, -0.4572677, 0, 0, -0.8893291,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

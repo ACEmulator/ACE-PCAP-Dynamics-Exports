@@ -5,12 +5,12 @@ VALUES (0x78D1E001,  1154, 0x8D1E0020, 72.42025, 184.8307, 32.81417, 0.6427876, 
 /* @teleloc 0x8D1E0020 [72.420250 184.830700 32.814170] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D1E001, 0x78D1E002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78D1E001, 0x78D1E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78D1E001, 0x78D1E004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78D1E001, 0x78D1E005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78D1E001, 0x78D1E006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78D1E001, 0x78D1E007, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x78D1E001, 0x78D1E002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78D1E001, 0x78D1E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78D1E001, 0x78D1E004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78D1E001, 0x78D1E005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78D1E001, 0x78D1E006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78D1E001, 0x78D1E007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D1E002,  7103, 0x8D1E0020, 72.42025, 184.8307, 32.81417, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */

@@ -5,42 +5,42 @@ VALUES (0x7142A001,  1154, 0x142A0037, 157.4747, 152.2094, 3.561664, -0.6986431,
 /* @teleloc 0x142A0037 [157.474700 152.209400 3.561664] -0.698643 0.000000 0.000000 -0.715470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142A001, 0x7142A002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142A001, 0x7142A003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7142A001, 0x7142A004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142A001, 0x7142A005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7142A001, 0x7142A006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7142A001, 0x7142A007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7142A001, 0x7142A008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7142A001, 0x7142A009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7142A001, 0x7142A00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7142A001, 0x7142A00B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7142A001, 0x7142A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7142A001, 0x7142A00D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7142A001, 0x7142A00E, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7142A001, 0x7142A00F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7142A001, 0x7142A010, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7142A001, 0x7142A011, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7142A001, 0x7142A012, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7142A001, 0x7142A013, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7142A001, 0x7142A014, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7142A001, 0x7142A015, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7142A001, 0x7142A016, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7142A001, 0x7142A017, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7142A001, 0x7142A018, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7142A001, 0x7142A019, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7142A001, 0x7142A01A, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7142A001, 0x7142A01B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142A001, 0x7142A01C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142A001, 0x7142A01D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7142A001, 0x7142A01E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7142A001, 0x7142A01F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7142A001, 0x7142A020, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7142A001, 0x7142A021, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7142A001, 0x7142A022, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142A001, 0x7142A023, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142A001, 0x7142A024, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7142A001, 0x7142A025, '2019-02-10 00:00:00') /* Virindi Inquisitor */;
+VALUES (0x7142A001, 0x7142A002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142A001, 0x7142A003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7142A001, 0x7142A004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142A001, 0x7142A005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7142A001, 0x7142A006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7142A001, 0x7142A007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7142A001, 0x7142A008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7142A001, 0x7142A009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7142A001, 0x7142A00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7142A001, 0x7142A00B, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7142A001, 0x7142A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7142A001, 0x7142A00D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7142A001, 0x7142A00E, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7142A001, 0x7142A00F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7142A001, 0x7142A010, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7142A001, 0x7142A011, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7142A001, 0x7142A012, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7142A001, 0x7142A013, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7142A001, 0x7142A014, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7142A001, 0x7142A015, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7142A001, 0x7142A016, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7142A001, 0x7142A017, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7142A001, 0x7142A018, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7142A001, 0x7142A019, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7142A001, 0x7142A01A, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7142A001, 0x7142A01B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142A001, 0x7142A01C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142A001, 0x7142A01D, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7142A001, 0x7142A01E, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7142A001, 0x7142A01F, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7142A001, 0x7142A020, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7142A001, 0x7142A021, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7142A001, 0x7142A022, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142A001, 0x7142A023, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142A001, 0x7142A024, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7142A001, 0x7142A025, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142A002, 23481, 0x142A0037, 157.4747, 152.2094, 3.561664, -0.6986431, 0, 0, -0.7154704,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -191,8 +191,8 @@ VALUES (0x7142A026,  1542, 0x142A003D, 182.4734, 103.338, 18.57775, 0.9990482, 0
 /* @teleloc 0x142A003D [182.473400 103.338000 18.577750] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142A026, 0x7142A027, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7142A026, 0x7142A028, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7142A026, 0x7142A027, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7142A026, 0x7142A028, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142A027,  4179, 0x142A003D, 182.4734, 103.338, 18.57775, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

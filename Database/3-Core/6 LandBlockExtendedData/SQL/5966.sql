@@ -21,28 +21,28 @@ VALUES (0x75966020,  1154, 0x5966010D, 106, -248, -6.20983, -0.9659258, 0, 0, -0
 /* @teleloc 0x5966010D [106.000000 -248.000000 -6.209830] -0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75966020, 0x75966021, '2019-02-10 00:00:00') /* Portal Out to Viridian Chasm */
-     , (0x75966020, 0x75966022, '2019-02-10 00:00:00') /* Venomous Brier Wasp */
-     , (0x75966020, 0x75966023, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x75966020, 0x75966024, '2019-02-10 00:00:00') /* Poisonous Brier Wasp */
-     , (0x75966020, 0x75966025, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie */
-     , (0x75966020, 0x75966026, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x75966020, 0x75966027, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x75966020, 0x75966028, '2019-02-10 00:00:00') /* Zefir Thorn Stalker */
-     , (0x75966020, 0x75966029, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x75966020, 0x7596602A, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x75966020, 0x7596602B, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x75966020, 0x7596602C, '2019-02-10 00:00:00') /* Corrupting Thorn Gromnie */
-     , (0x75966020, 0x7596602D, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x75966020, 0x7596602E, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x75966020, 0x7596602F, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x75966020, 0x75966030, '2019-02-10 00:00:00') /* Brier Wasp Hive */
-     , (0x75966020, 0x75966031, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x75966020, 0x75966032, '2019-02-10 00:00:00') /* Corrupted Guardian Wisp */
-     , (0x75966020, 0x75966033, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x75966020, 0x75966034, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x75966020, 0x75966035, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x75966020, 0x75966036, '2019-02-10 00:00:00') /* Brier Wasp Swarm */;
+VALUES (0x75966020, 0x75966021, '2019-02-10 00:00:00') /* Portal Out to Viridian Chasm (53246) */
+     , (0x75966020, 0x75966022, '2019-02-10 00:00:00') /* Venomous Brier Wasp (52619) */
+     , (0x75966020, 0x75966023, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x75966020, 0x75966024, '2019-02-10 00:00:00') /* Poisonous Brier Wasp (52620) */
+     , (0x75966020, 0x75966025, '2019-02-10 00:00:00') /* Emerald Hunting Gromnie (53347) */
+     , (0x75966020, 0x75966026, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x75966020, 0x75966027, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x75966020, 0x75966028, '2019-02-10 00:00:00') /* Zefir Thorn Stalker (52519) */
+     , (0x75966020, 0x75966029, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x75966020, 0x7596602A, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x75966020, 0x7596602B, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x75966020, 0x7596602C, '2019-02-10 00:00:00') /* Corrupting Thorn Gromnie (53350) */
+     , (0x75966020, 0x7596602D, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52996) */
+     , (0x75966020, 0x7596602E, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x75966020, 0x7596602F, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x75966020, 0x75966030, '2019-02-10 00:00:00') /* Brier Wasp Hive (52618) */
+     , (0x75966020, 0x75966031, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x75966020, 0x75966032, '2019-02-10 00:00:00') /* Corrupted Guardian Wisp (52628) */
+     , (0x75966020, 0x75966033, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x75966020, 0x75966034, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x75966020, 0x75966035, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x75966020, 0x75966036, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75966021, 53246, 0x5966010D, 106, -248, -6.20983, -0.9659258, 0, 0, -0.2588191,  True, '2019-02-10 00:00:00'); /* Portal Out to Viridian Chasm */
@@ -137,10 +137,10 @@ VALUES (0x75966037,  1154, 0x5966017A, 35.02584, -98.07718, 0, -0.990993, 0, 0, 
 /* @teleloc 0x5966017A [35.025840 -98.077180 0.000000] -0.990993 0.000000 0.000000 -0.133915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75966037, 0x75966038, '2019-02-10 00:00:00') /* Corrupted Amber Crystal */
-     , (0x75966037, 0x75966039, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Root */
-     , (0x75966037, 0x7596603A, '2019-02-10 00:00:00') /* Corrupted Amber Crystal */
-     , (0x75966037, 0x7596603B, '2019-02-10 00:00:00') /* Corrupted Amber Crystal */;
+VALUES (0x75966037, 0x75966038, '2019-02-10 00:00:00') /* Corrupted Amber Crystal (53217) */
+     , (0x75966037, 0x75966039, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Root (53243) */
+     , (0x75966037, 0x7596603A, '2019-02-10 00:00:00') /* Corrupted Amber Crystal (53217) */
+     , (0x75966037, 0x7596603B, '2019-02-10 00:00:00') /* Corrupted Amber Crystal (53217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75966038, 53217, 0x5966017A, 35.02584, -98.07718, 0, -0.990993, 0, 0, -0.133915,  True, '2019-02-10 00:00:00'); /* Corrupted Amber Crystal */

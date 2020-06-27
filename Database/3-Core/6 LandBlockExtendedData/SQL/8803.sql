@@ -1593,254 +1593,254 @@ VALUES (0x78803308,  1154, 0x880302D1, 260, -190, -30, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0x880302D1 [260.000000 -190.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78803308, 0x78803309, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880330A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880330B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880330C, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x7880330D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880330E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880330F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803310, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803311, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803312, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803313, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803314, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803315, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803316, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803317, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803318, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803319, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880331F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803320, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803321, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803322, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803323, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803324, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803325, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803326, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803327, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803328, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803329, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880332F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803330, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803331, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803332, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803333, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803334, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803335, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803336, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803337, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803338, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803339, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880333F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803340, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803341, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803342, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803343, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803344, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803345, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803346, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803347, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803348, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803349, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880334F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803350, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803351, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803352, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803353, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803354, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803355, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803356, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803357, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803358, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803359, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880335F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803360, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803361, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803362, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803363, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803364, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803365, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803366, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803367, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803368, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803369, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880336F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803370, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803371, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803372, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803373, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803374, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803375, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803376, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803377, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp */
-     , (0x78803308, 0x78803378, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803379, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880337A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880337B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880337C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880337D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880337E, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x7880337F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803380, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803381, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803382, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803383, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803384, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803385, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803386, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803387, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803388, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803389, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp */
-     , (0x78803308, 0x7880338A, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp */
-     , (0x78803308, 0x7880338B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880338C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880338D, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x7880338E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880338F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803390, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803391, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803392, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803393, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803394, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803395, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803396, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803397, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x78803398, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803399, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880339A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880339B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880339C, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp */
-     , (0x78803308, 0x7880339D, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x7880339E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x7880339F, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x78803308, 0x788033A0, '2019-02-10 00:00:00') /* Intense Incalescent Pillar */
-     , (0x78803308, 0x788033A1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033A9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033AF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033B9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033BF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033C9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033CF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033D9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033DF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033E9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033EA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033EB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033EC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033ED, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033EE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033EF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033F9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x788033FF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */
-     , (0x78803308, 0x78803400, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp */;
+VALUES (0x78803308, 0x78803309, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880330A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880330B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880330C, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x7880330D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880330E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880330F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803310, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803311, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803312, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803313, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803314, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803315, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803316, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803317, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803318, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803319, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880331F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803320, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803321, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803322, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803323, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803324, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803325, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803326, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803327, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803328, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803329, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880332F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803330, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803331, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803332, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803333, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803334, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803335, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803336, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803337, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803338, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803339, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880333F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803340, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803341, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803342, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803343, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803344, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803345, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803346, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803347, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803348, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803349, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880334F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803350, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803351, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803352, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803353, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803354, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803355, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803356, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803357, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803358, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803359, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880335F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803360, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803361, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803362, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803363, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803364, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803365, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803366, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803367, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803368, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803369, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880336F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803370, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803371, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803372, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803373, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803374, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803375, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803376, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803377, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40484) */
+     , (0x78803308, 0x78803378, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803379, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880337A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880337B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880337C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880337D, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880337E, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x7880337F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803380, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803381, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803382, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803383, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803384, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803385, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803386, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803387, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803388, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803389, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40484) */
+     , (0x78803308, 0x7880338A, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40484) */
+     , (0x78803308, 0x7880338B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880338C, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880338D, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x7880338E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880338F, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803390, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803391, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803392, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803393, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803394, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803395, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803396, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803397, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x78803398, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803399, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880339A, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880339B, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880339C, '2019-02-10 00:00:00') /* Intense Aggregate Crystalline Wisp (40484) */
+     , (0x78803308, 0x7880339D, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x7880339E, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x7880339F, '2019-02-10 00:00:00') /* Exploration Marker (39809) */
+     , (0x78803308, 0x788033A0, '2019-02-10 00:00:00') /* Intense Incalescent Pillar (40434) */
+     , (0x78803308, 0x788033A1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033A9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033AF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033B9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033BF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033C9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033CF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033D9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033DF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033E9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033EA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033EB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033EC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033ED, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033EE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033EF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F0, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F1, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F2, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F3, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F4, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F5, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F6, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F7, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F8, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033F9, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FA, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FB, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FC, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FD, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FE, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x788033FF, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */
+     , (0x78803308, 0x78803400, '2019-02-10 00:00:00') /* Intense Incalescent Crystalline Wisp (40437) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803309, 40437, 0x880302D1, 260, -190, -30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Intense Incalescent Crystalline Wisp */
@@ -2839,9 +2839,9 @@ VALUES (0x78803401,  1154, 0x8803063A, 243.764, -159.985, -23.905, 0.680426, 0, 
 /* @teleloc 0x8803063A [243.764000 -159.985000 -23.905000] 0.680426 0.000000 0.000000 0.732817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78803401, 0x78803402, '2019-02-10 00:00:00') /* Crystal */
-     , (0x78803401, 0x78803403, '2019-02-10 00:00:00') /* Crystal */
-     , (0x78803401, 0x78803404, '2019-02-10 00:00:00') /* Crystal */;
+VALUES (0x78803401, 0x78803402, '2019-02-10 00:00:00') /* Crystal (40115) */
+     , (0x78803401, 0x78803403, '2019-02-10 00:00:00') /* Crystal (40118) */
+     , (0x78803401, 0x78803404, '2019-02-10 00:00:00') /* Crystal (40119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78803402, 40115, 0x8803063A, 243.764, -159.985, -23.905, 0.680426, 0, 0, 0.732817,  True, '2019-02-10 00:00:00'); /* Crystal */

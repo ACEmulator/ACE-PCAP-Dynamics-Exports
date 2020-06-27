@@ -5,10 +5,10 @@ VALUES (0x74211001,  1154, 0x4211003E, 174.0885, 124.0064, -0.4445, 0.7071068, 0
 /* @teleloc 0x4211003E [174.088500 124.006400 -0.444500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74211001, 0x74211002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x74211001, 0x74211003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x74211001, 0x74211004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74211001, 0x74211005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x74211001, 0x74211002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x74211001, 0x74211003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x74211001, 0x74211004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74211001, 0x74211005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74211002,   233, 0x4211003E, 174.0885, 124.0064, -0.4445, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -31,7 +31,7 @@ VALUES (0x74211006,  1542, 0x4211003E, 171.6004, 129.7169, -0.45, 0.9990482, 0, 
 /* @teleloc 0x4211003E [171.600400 129.716900 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74211006, 0x74211007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74211006, 0x74211007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74211007,  4179, 0x4211003E, 171.6004, 129.7169, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

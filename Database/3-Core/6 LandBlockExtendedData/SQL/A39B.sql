@@ -5,9 +5,9 @@ VALUES (0x7A39B001,  1154, 0xA39B0021, 111.5504, 19.46432, 75.84879, 0.1921182, 
 /* @teleloc 0xA39B0021 [111.550400 19.464320 75.848790] 0.192118 0.000000 0.000000 -0.981372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A39B001, 0x7A39B002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A39B001, 0x7A39B003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7A39B001, 0x7A39B004, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7A39B001, 0x7A39B002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A39B001, 0x7A39B003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A39B001, 0x7A39B004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A39B002,   217, 0xA39B0021, 111.5504, 19.46432, 75.84879, 0.1921182, 0, 0, -0.9813718,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

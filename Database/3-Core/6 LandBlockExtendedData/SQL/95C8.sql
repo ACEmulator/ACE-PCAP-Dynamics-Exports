@@ -5,13 +5,13 @@ VALUES (0x795C8001,  1154, 0x95C8001B, 86.01656, 59.79747, 58.92436, 0.7071068, 
 /* @teleloc 0x95C8001B [86.016560 59.797470 58.924360] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795C8001, 0x795C8002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x795C8001, 0x795C8003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x795C8001, 0x795C8004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x795C8001, 0x795C8005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795C8001, 0x795C8006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795C8001, 0x795C8007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x795C8001, 0x795C8008, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x795C8001, 0x795C8002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x795C8001, 0x795C8003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x795C8001, 0x795C8004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x795C8001, 0x795C8005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795C8001, 0x795C8006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795C8001, 0x795C8007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x795C8001, 0x795C8008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795C8002,  1629, 0x95C8001B, 86.01656, 59.79747, 58.92436, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -46,9 +46,9 @@ VALUES (0x795C8009,  1542, 0x95C8001D, 84.9989, 100.3592, 63.55161, -0.3270655, 
 /* @teleloc 0x95C8001D [84.998900 100.359200 63.551610] -0.327066 0.000000 0.000000 -0.945002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795C8009, 0x795C800A, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x795C8009, 0x795C800B, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x795C8009, 0x795C800C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x795C8009, 0x795C800A, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x795C8009, 0x795C800B, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x795C8009, 0x795C800C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795C800A, 11554, 0x95C8001D, 84.9989, 100.3592, 63.55161, -0.3270655, 0, 0, -0.9450017,  True, '2019-02-10 00:00:00'); /* Colban Plant */

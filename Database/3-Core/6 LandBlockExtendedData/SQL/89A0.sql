@@ -5,9 +5,9 @@ VALUES (0x789A0001,  1154, 0x89A00020, 74.01715, 191.0947, 87.8268, 0.8350322, 0
 /* @teleloc 0x89A00020 [74.017150 191.094700 87.826800] 0.835032 0.000000 0.000000 -0.550201 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789A0001, 0x789A0002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x789A0001, 0x789A0003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x789A0001, 0x789A0004, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x789A0001, 0x789A0002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x789A0001, 0x789A0003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x789A0001, 0x789A0004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789A0002,  1627, 0x89A00020, 74.01715, 191.0947, 87.8268, 0.8350322, 0, 0, -0.550201,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

@@ -5,13 +5,13 @@ VALUES (0x7C96D001,  1154, 0xC96D0032, 161.2694, 34.11843, 58.60191, 0.8191521, 
 /* @teleloc 0xC96D0032 [161.269400 34.118430 58.601910] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C96D001, 0x7C96D002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C96D001, 0x7C96D003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C96D001, 0x7C96D004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7C96D001, 0x7C96D005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C96D001, 0x7C96D006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C96D001, 0x7C96D007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C96D001, 0x7C96D008, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C96D001, 0x7C96D002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C96D001, 0x7C96D003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C96D001, 0x7C96D004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7C96D001, 0x7C96D005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C96D001, 0x7C96D006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C96D001, 0x7C96D007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C96D001, 0x7C96D008, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C96D002,   227, 0xC96D0032, 161.2694, 34.11843, 58.60191, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

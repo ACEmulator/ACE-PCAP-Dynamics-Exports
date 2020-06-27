@@ -5,16 +5,16 @@ VALUES (0x7B328001,  1154, 0xB3280034, 167.7224, 95.27547, 219.5819, -0.00255839
 /* @teleloc 0xB3280034 [167.722400 95.275470 219.581900] -0.002558 0.000000 0.000000 -0.999997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B328001, 0x7B328002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B328001, 0x7B328003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B328001, 0x7B328004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B328001, 0x7B328005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B328001, 0x7B328006, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7B328001, 0x7B328007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B328001, 0x7B328008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B328001, 0x7B328009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B328001, 0x7B32800A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B328001, 0x7B32800B, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7B328001, 0x7B328002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B328001, 0x7B328003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B328001, 0x7B328004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B328001, 0x7B328005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B328001, 0x7B328006, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7B328001, 0x7B328007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B328001, 0x7B328008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B328001, 0x7B328009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B328001, 0x7B32800A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B328001, 0x7B32800B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B328002,  1610, 0xB3280034, 167.7224, 95.27547, 219.5819, -0.002558392, 0, 0, -0.9999967,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

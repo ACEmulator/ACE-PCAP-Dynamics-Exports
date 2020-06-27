@@ -5,11 +5,11 @@ VALUES (0x759CA001,  1154, 0x59CA0021, 119.3816, 8.838863, 63.43161, 0.5558771, 
 /* @teleloc 0x59CA0021 [119.381600 8.838863 63.431610] 0.555877 0.000000 0.000000 -0.831265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759CA001, 0x759CA002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x759CA001, 0x759CA003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x759CA001, 0x759CA004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x759CA001, 0x759CA005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x759CA001, 0x759CA006, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x759CA001, 0x759CA002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x759CA001, 0x759CA003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x759CA001, 0x759CA004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x759CA001, 0x759CA005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x759CA001, 0x759CA006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759CA002, 36829, 0x59CA0021, 119.3816, 8.838863, 63.43161, 0.5558771, 0, 0, -0.8312645,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

@@ -5,11 +5,11 @@ VALUES (0x7097B001,  1154, 0x097B003C, 178.5049, 72.75976, 39.0466, 0.6293204, 0
 /* @teleloc 0x097B003C [178.504900 72.759760 39.046600] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097B001, 0x7097B002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7097B001, 0x7097B003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7097B001, 0x7097B004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7097B001, 0x7097B005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7097B001, 0x7097B006, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7097B001, 0x7097B002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7097B001, 0x7097B003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7097B001, 0x7097B004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7097B001, 0x7097B005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7097B001, 0x7097B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097B002,  7114, 0x097B003C, 178.5049, 72.75976, 39.0466, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

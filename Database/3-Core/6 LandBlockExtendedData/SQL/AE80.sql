@@ -5,12 +5,12 @@ VALUES (0x7AE80001,  1154, 0xAE80000F, 40.42241, 161.5421, 39.36729, -0.8374527,
 /* @teleloc 0xAE80000F [40.422410 161.542100 39.367290] -0.837453 0.000000 0.000000 -0.546510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE80001, 0x7AE80002, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7AE80001, 0x7AE80003, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AE80001, 0x7AE80004, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7AE80001, 0x7AE80005, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE80001, 0x7AE80006, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE80001, 0x7AE80007, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7AE80001, 0x7AE80002, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7AE80001, 0x7AE80003, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE80001, 0x7AE80004, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE80001, 0x7AE80005, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE80001, 0x7AE80006, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE80001, 0x7AE80007, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE80002, 11981, 0xAE80000F, 40.42241, 161.5421, 39.36729, -0.8374527, 0, 0, -0.5465099,  True, '2019-02-10 00:00:00'); /* Master of the Herd */

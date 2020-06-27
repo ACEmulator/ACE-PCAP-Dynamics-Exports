@@ -5,10 +5,10 @@ VALUES (0x7223B001,  1154, 0x223B001E, 78.36949, 120.5759, 94.00715, 0.394948, 0
 /* @teleloc 0x223B001E [78.369490 120.575900 94.007150] 0.394948 0.000000 0.000000 -0.918703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7223B001, 0x7223B002, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7223B001, 0x7223B003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7223B001, 0x7223B004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7223B001, 0x7223B005, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x7223B001, 0x7223B002, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7223B001, 0x7223B003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7223B001, 0x7223B004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7223B001, 0x7223B005, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7223B002, 36816, 0x223B001E, 78.36949, 120.5759, 94.00715, 0.394948, 0, 0, -0.9187034,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */

@@ -21,44 +21,44 @@ VALUES (0x702CA046,  1154, 0x02CA0243, 131.045, -202.987, 0.005500019, 0.020795,
 /* @teleloc 0x02CA0243 [131.045000 -202.987000 0.005500] 0.020795 0.000000 0.000000 0.999784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA046, 0x702CA047, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA048, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x702CA046, 0x702CA049, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA04A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x702CA046, 0x702CA04B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA04C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x702CA046, 0x702CA04D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x702CA046, 0x702CA04E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA04F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA050, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA051, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x702CA046, 0x702CA052, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x702CA046, 0x702CA053, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA054, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA055, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA056, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA057, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA058, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x702CA046, 0x702CA059, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x702CA046, 0x702CA05A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x702CA046, 0x702CA05B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA05C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA05D, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x702CA046, 0x702CA05E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA05F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA060, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA061, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA062, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA063, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA064, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA065, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA066, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA067, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x702CA046, 0x702CA068, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA069, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x702CA046, 0x702CA06A, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x702CA046, 0x702CA06B, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x702CA046, 0x702CA06C, '2019-02-10 00:00:00') /* Mosswart Shaman */;
+VALUES (0x702CA046, 0x702CA047, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA048, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA046, 0x702CA049, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA04A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA046, 0x702CA04B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA04C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x702CA046, 0x702CA04D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x702CA046, 0x702CA04E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA04F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA050, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA051, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA046, 0x702CA052, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA046, 0x702CA053, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA054, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA055, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA056, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA057, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA058, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x702CA046, 0x702CA059, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA046, 0x702CA05A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA046, 0x702CA05B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA05C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA05D, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA046, 0x702CA05E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA05F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA060, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA061, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA062, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA063, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA064, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA065, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA066, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA067, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x702CA046, 0x702CA068, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA069, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x702CA046, 0x702CA06A, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA046, 0x702CA06B, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x702CA046, 0x702CA06C, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA047,   947, 0x02CA0243, 131.045, -202.987, 0.005500019, 0.020795, 0, 0, 0.999784,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -217,8 +217,8 @@ VALUES (0x702CA06D,  1542, 0x02CA0102, 239.717, -1.59301, -6, 0.0223644, 0, 0, -
 /* @teleloc 0x02CA0102 [239.717000 -1.593010 -6.000000] 0.022364 0.000000 0.000000 -0.999750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702CA06D, 0x702CA06E, '2019-02-10 00:00:00') /* Banderling Mace Head */
-     , (0x702CA06D, 0x702CA06F, '2019-02-10 00:00:00') /* A Dry Withered Leather Bound Journal */;
+VALUES (0x702CA06D, 0x702CA06E, '2019-02-10 00:00:00') /* Banderling Mace Head (8364) */
+     , (0x702CA06D, 0x702CA06F, '2019-02-10 00:00:00') /* A Dry Withered Leather Bound Journal (8361) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702CA06E,  8364, 0x02CA0102, 239.717, -1.59301, -6, 0.0223644, 0, 0, -0.9997499,  True, '2019-02-10 00:00:00'); /* Banderling Mace Head */

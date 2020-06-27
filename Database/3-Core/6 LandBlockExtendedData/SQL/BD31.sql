@@ -5,9 +5,9 @@ VALUES (0x7BD31001,  1154, 0xBD310038, 162.6958, 171.1559, 155.3055, 0.7660445, 
 /* @teleloc 0xBD310038 [162.695800 171.155900 155.305500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD31001, 0x7BD31002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BD31001, 0x7BD31003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BD31001, 0x7BD31004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x7BD31001, 0x7BD31002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BD31001, 0x7BD31003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BD31001, 0x7BD31004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD31002,  7084, 0xBD310038, 162.6958, 171.1559, 155.3055, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

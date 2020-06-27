@@ -5,12 +5,12 @@ VALUES (0x7257D001,  1154, 0x257D0031, 165.679, 20.79302, 94.27724, 0.6806644, 0
 /* @teleloc 0x257D0031 [165.679000 20.793020 94.277240] 0.680664 0.000000 0.000000 -0.732595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257D001, 0x7257D002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7257D001, 0x7257D003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7257D001, 0x7257D004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7257D001, 0x7257D005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7257D001, 0x7257D006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7257D001, 0x7257D007, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x7257D001, 0x7257D002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7257D001, 0x7257D003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7257D001, 0x7257D004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7257D001, 0x7257D005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7257D001, 0x7257D006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7257D001, 0x7257D007, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257D002, 36833, 0x257D0031, 165.679, 20.79302, 94.27724, 0.6806644, 0, 0, -0.7325953,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -41,9 +41,9 @@ VALUES (0x7257D008,  1542, 0x257D002A, 120.3775, 32.5886, 74.70451, 0.6806644, 0
 /* @teleloc 0x257D002A [120.377500 32.588600 74.704510] 0.680664 0.000000 0.000000 -0.732595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257D008, 0x7257D009, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7257D008, 0x7257D00A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7257D008, 0x7257D00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7257D008, 0x7257D009, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7257D008, 0x7257D00A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7257D008, 0x7257D00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257D009,  8644, 0x257D002A, 120.3775, 32.5886, 74.70451, 0.6806644, 0, 0, -0.7325953,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

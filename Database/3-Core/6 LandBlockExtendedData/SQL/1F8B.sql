@@ -5,10 +5,10 @@ VALUES (0x71F8B001,  1154, 0x1F8B000D, 27.76307, 96.38458, 96.02934, 0.8189435, 
 /* @teleloc 0x1F8B000D [27.763070 96.384580 96.029340] 0.818944 0.000000 0.000000 -0.573874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F8B001, 0x71F8B002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71F8B001, 0x71F8B003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F8B001, 0x71F8B004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F8B001, 0x71F8B005, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x71F8B001, 0x71F8B002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71F8B001, 0x71F8B003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F8B001, 0x71F8B004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F8B001, 0x71F8B005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F8B002,  7982, 0x1F8B000D, 27.76307, 96.38458, 96.02934, 0.8189435, 0, 0, -0.5738741,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

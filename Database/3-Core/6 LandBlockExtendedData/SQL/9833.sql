@@ -5,12 +5,12 @@ VALUES (0x79833001,  1154, 0x9833001F, 75.07037, 158.6897, 51.11169, -0.4687997,
 /* @teleloc 0x9833001F [75.070370 158.689700 51.111690] -0.468800 0.000000 0.000000 -0.883305 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79833001, 0x79833002, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79833001, 0x79833003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79833001, 0x79833004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79833001, 0x79833005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79833001, 0x79833006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79833001, 0x79833007, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x79833001, 0x79833002, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79833001, 0x79833003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79833001, 0x79833004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79833001, 0x79833005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79833001, 0x79833006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79833001, 0x79833007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79833002,  8672, 0x9833001F, 75.07037, 158.6897, 51.11169, -0.4687997, 0, 0, -0.8833045,  True, '2019-02-10 00:00:00'); /* Risen Soldier */
@@ -41,7 +41,7 @@ VALUES (0x79833008,  1542, 0x98330027, 100.5401, 166.1424, 50.45439, -0.750398, 
 /* @teleloc 0x98330027 [100.540100 166.142400 50.454390] -0.750398 0.000000 0.000000 -0.660986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79833008, 0x79833009, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x79833008, 0x79833009, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79833009,  9286, 0x98330027, 100.5401, 166.1424, 50.45439, -0.750398, 0, 0, -0.6609863,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

@@ -5,19 +5,19 @@ VALUES (0x798ED001,  1154, 0x98ED003E, 172.7291, 141.8623, -0.8974999, -0.594400
 /* @teleloc 0x98ED003E [172.729100 141.862300 -0.897500] -0.594401 0.000000 0.000000 -0.804169 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798ED001, 0x798ED002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x798ED001, 0x798ED003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x798ED001, 0x798ED004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x798ED001, 0x798ED005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x798ED001, 0x798ED006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x798ED001, 0x798ED007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x798ED001, 0x798ED008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x798ED001, 0x798ED009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x798ED001, 0x798ED00A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x798ED001, 0x798ED00B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x798ED001, 0x798ED00C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x798ED001, 0x798ED00D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x798ED001, 0x798ED00E, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x798ED001, 0x798ED002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x798ED001, 0x798ED003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x798ED001, 0x798ED004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x798ED001, 0x798ED005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x798ED001, 0x798ED006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x798ED001, 0x798ED007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x798ED001, 0x798ED008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x798ED001, 0x798ED009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x798ED001, 0x798ED00A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x798ED001, 0x798ED00B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x798ED001, 0x798ED00C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x798ED001, 0x798ED00D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x798ED001, 0x798ED00E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798ED002,  7121, 0x98ED003E, 172.7291, 141.8623, -0.8974999, -0.5944008, 0, 0, -0.8041689,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

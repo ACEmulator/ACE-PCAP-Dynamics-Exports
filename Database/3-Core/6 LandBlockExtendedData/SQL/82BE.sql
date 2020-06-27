@@ -5,14 +5,14 @@ VALUES (0x782BE001,  1154, 0x82BE0031, 150.2257, 20.08641, 98.44812, 0.3495528, 
 /* @teleloc 0x82BE0031 [150.225700 20.086410 98.448120] 0.349553 0.000000 0.000000 -0.936917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782BE001, 0x782BE002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x782BE001, 0x782BE003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x782BE001, 0x782BE004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x782BE001, 0x782BE005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x782BE001, 0x782BE006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x782BE001, 0x782BE007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x782BE001, 0x782BE008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x782BE001, 0x782BE009, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x782BE001, 0x782BE002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x782BE001, 0x782BE003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x782BE001, 0x782BE004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x782BE001, 0x782BE005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x782BE001, 0x782BE006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x782BE001, 0x782BE007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x782BE001, 0x782BE008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x782BE001, 0x782BE009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782BE002,  7089, 0x82BE0031, 150.2257, 20.08641, 98.44812, 0.3495528, 0, 0, -0.9369166,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -51,8 +51,8 @@ VALUES (0x782BE00A,  1542, 0x82BE003D, 191.9545, 115.6518, 104.562, -0.4579842, 
 /* @teleloc 0x82BE003D [191.954500 115.651800 104.562000] -0.457984 0.000000 0.000000 -0.888960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782BE00A, 0x782BE00B, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x782BE00A, 0x782BE00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x782BE00A, 0x782BE00B, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x782BE00A, 0x782BE00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782BE00B,  8648, 0x82BE003D, 191.9545, 115.6518, 104.562, -0.4579842, 0, 0, -0.8889603,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

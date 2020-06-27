@@ -5,17 +5,17 @@ VALUES (0x7A235001,  1154, 0xA235000C, 37.51244, 83.96272, 83.06796, -0.890785, 
 /* @teleloc 0xA235000C [37.512440 83.962720 83.067960] -0.890785 0.000000 0.000000 0.454425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A235001, 0x7A235002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7A235001, 0x7A235003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7A235001, 0x7A235004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A235001, 0x7A235005, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7A235001, 0x7A235006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A235001, 0x7A235007, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A235001, 0x7A235008, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7A235001, 0x7A235009, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A235001, 0x7A23500A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A235001, 0x7A23500B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A235001, 0x7A23500C, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A235001, 0x7A235002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7A235001, 0x7A235003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7A235001, 0x7A235004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A235001, 0x7A235005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7A235001, 0x7A235006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A235001, 0x7A235007, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A235001, 0x7A235008, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7A235001, 0x7A235009, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A235001, 0x7A23500A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A235001, 0x7A23500B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A235001, 0x7A23500C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A235002,   218, 0xA235000C, 37.51244, 83.96272, 83.06796, -0.890785, 0, 0, 0.454425,  True, '2019-02-10 00:00:00'); /* Black Rat */

@@ -5,17 +5,17 @@ VALUES (0x7AD81001,  1154, 0xAD81003F, 179.3842, 151.5799, 22.95868, 0.9238795, 
 /* @teleloc 0xAD81003F [179.384200 151.579900 22.958680] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD81001, 0x7AD81002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AD81001, 0x7AD81003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AD81001, 0x7AD81004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AD81001, 0x7AD81005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD81001, 0x7AD81006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD81001, 0x7AD81007, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AD81001, 0x7AD81008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AD81001, 0x7AD81009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AD81001, 0x7AD8100A, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AD81001, 0x7AD8100B, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AD81001, 0x7AD8100C, '2019-02-10 00:00:00') /* Auroch Fire Yearling */;
+VALUES (0x7AD81001, 0x7AD81002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AD81001, 0x7AD81003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AD81001, 0x7AD81004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AD81001, 0x7AD81005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AD81001, 0x7AD81006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD81001, 0x7AD81007, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AD81001, 0x7AD81008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AD81001, 0x7AD81009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AD81001, 0x7AD8100A, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AD81001, 0x7AD8100B, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AD81001, 0x7AD8100C, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD81002, 24941, 0xAD81003F, 179.3842, 151.5799, 22.95868, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -66,8 +66,8 @@ VALUES (0x7AD8100D,  1542, 0xAD81003F, 175.3568, 144.5956, 24.30305, 1, 0, 0, 0,
 /* @teleloc 0xAD81003F [175.356800 144.595600 24.303050] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD8100D, 0x7AD8100E, '2019-02-10 00:00:00') /* Vat */
-     , (0x7AD8100D, 0x7AD8100F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AD8100D, 0x7AD8100E, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x7AD8100D, 0x7AD8100F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD8100E,  4383, 0xAD81003F, 175.3568, 144.5956, 24.30305, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

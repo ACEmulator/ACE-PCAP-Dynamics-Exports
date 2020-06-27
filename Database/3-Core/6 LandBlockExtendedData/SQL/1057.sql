@@ -5,10 +5,10 @@ VALUES (0x71057001,  1154, 0x10570001, 18.5841, 19.04911, 64.27708, 0.9934234, 0
 /* @teleloc 0x10570001 [18.584100 19.049110 64.277080] 0.993423 0.000000 0.000000 -0.114498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71057001, 0x71057002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71057001, 0x71057003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71057001, 0x71057004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71057001, 0x71057005, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x71057001, 0x71057002, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71057001, 0x71057003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71057001, 0x71057004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71057001, 0x71057005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71057002, 30447, 0x10570001, 18.5841, 19.04911, 64.27708, 0.9934234, 0, 0, -0.1144984,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */
@@ -31,7 +31,7 @@ VALUES (0x71057006,  1542, 0x10570002, 2.517017, 39.51625, 68.58604, 1, 0, 0, 0,
 /* @teleloc 0x10570002 [2.517017 39.516250 68.586040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71057006, 0x71057007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71057006, 0x71057007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71057007,  4179, 0x10570002, 2.517017, 39.51625, 68.58604, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

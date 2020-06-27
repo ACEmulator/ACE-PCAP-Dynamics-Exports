@@ -17,37 +17,37 @@ VALUES (0x7ADB600A,  1154, 0xADB6002E, 137.59, 134.853, 96.00333, -0.1380689, 0,
 /* @teleloc 0xADB6002E [137.590000 134.853000 96.003330] -0.138069 0.000000 0.000000 -0.990423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB600A, 0x7ADB600B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB600A, 0x7ADB600C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB600A, 0x7ADB600D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB600A, 0x7ADB600E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7ADB600A, 0x7ADB600F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB600A, 0x7ADB6010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADB600A, 0x7ADB6011, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7ADB600A, 0x7ADB6012, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB600A, 0x7ADB6013, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7ADB600A, 0x7ADB6014, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ADB600A, 0x7ADB6015, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB600A, 0x7ADB6016, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB600A, 0x7ADB6017, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB600A, 0x7ADB6018, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB600A, 0x7ADB6019, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ADB600A, 0x7ADB601A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB600A, 0x7ADB601B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ADB600A, 0x7ADB601C, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ADB600A, 0x7ADB601D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ADB600A, 0x7ADB601E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7ADB600A, 0x7ADB601F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ADB600A, 0x7ADB6020, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB600A, 0x7ADB6021, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ADB600A, 0x7ADB6022, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB600A, 0x7ADB6023, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7ADB600A, 0x7ADB6024, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB600A, 0x7ADB6025, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADB600A, 0x7ADB6026, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ADB600A, 0x7ADB6027, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADB600A, 0x7ADB6028, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB600A, 0x7ADB6029, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7ADB600A, 0x7ADB600B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB600A, 0x7ADB600C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB600A, 0x7ADB600D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB600A, 0x7ADB600E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7ADB600A, 0x7ADB600F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB600A, 0x7ADB6010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADB600A, 0x7ADB6011, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7ADB600A, 0x7ADB6012, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB600A, 0x7ADB6013, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7ADB600A, 0x7ADB6014, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ADB600A, 0x7ADB6015, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB600A, 0x7ADB6016, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB600A, 0x7ADB6017, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB600A, 0x7ADB6018, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB600A, 0x7ADB6019, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ADB600A, 0x7ADB601A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB600A, 0x7ADB601B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ADB600A, 0x7ADB601C, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ADB600A, 0x7ADB601D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ADB600A, 0x7ADB601E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7ADB600A, 0x7ADB601F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ADB600A, 0x7ADB6020, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB600A, 0x7ADB6021, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ADB600A, 0x7ADB6022, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB600A, 0x7ADB6023, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7ADB600A, 0x7ADB6024, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB600A, 0x7ADB6025, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADB600A, 0x7ADB6026, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ADB600A, 0x7ADB6027, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADB600A, 0x7ADB6028, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB600A, 0x7ADB6029, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB600B,     7, 0xADB6002E, 137.59, 134.853, 96.00333, -0.1380689, 0, 0, -0.9904226,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

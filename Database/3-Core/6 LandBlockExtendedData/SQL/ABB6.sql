@@ -5,51 +5,51 @@ VALUES (0x7ABB6001,  1154, 0xABB6000E, 29.14816, 126.4069, 60.7872, 0.1729855, 0
 /* @teleloc 0xABB6000E [29.148160 126.406900 60.787200] 0.172986 0.000000 0.000000 -0.984924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB6001, 0x7ABB6002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB6004, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB6001, 0x7ABB6005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6006, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB6001, 0x7ABB6007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB6008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB6009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB600A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABB6001, 0x7ABB600B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB600C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB600D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB600E, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB6001, 0x7ABB600F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6010, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB6001, 0x7ABB6011, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB6001, 0x7ABB6012, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABB6001, 0x7ABB6013, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6014, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB6015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB6001, 0x7ABB6016, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ABB6001, 0x7ABB6017, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB6001, 0x7ABB6018, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB6001, 0x7ABB6019, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB6001, 0x7ABB601A, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB6001, 0x7ABB601B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB601C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB601D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB601E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB601F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB6001, 0x7ABB6020, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB6001, 0x7ABB6021, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6022, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB6001, 0x7ABB6023, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB6001, 0x7ABB6024, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB6001, 0x7ABB6025, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB6026, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB6001, 0x7ABB6027, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB6001, 0x7ABB6028, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB6001, 0x7ABB6029, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB6001, 0x7ABB602A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ABB6001, 0x7ABB602B, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB6001, 0x7ABB602C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB6001, 0x7ABB602D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ABB6001, 0x7ABB602E, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7ABB6001, 0x7ABB6002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB6004, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB6001, 0x7ABB6005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6006, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB6001, 0x7ABB6007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB6008, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB6009, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB600A, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ABB6001, 0x7ABB600B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB600C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB600D, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB600E, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB6001, 0x7ABB600F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6010, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB6001, 0x7ABB6011, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB6001, 0x7ABB6012, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ABB6001, 0x7ABB6013, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6014, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB6015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB6001, 0x7ABB6016, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ABB6001, 0x7ABB6017, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB6001, 0x7ABB6018, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB6001, 0x7ABB6019, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB6001, 0x7ABB601A, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB6001, 0x7ABB601B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB601C, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB601D, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB601E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB601F, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB6001, 0x7ABB6020, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB6001, 0x7ABB6021, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6022, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB6001, 0x7ABB6023, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB6001, 0x7ABB6024, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB6001, 0x7ABB6025, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB6026, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB6001, 0x7ABB6027, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB6001, 0x7ABB6028, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB6001, 0x7ABB6029, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB6001, 0x7ABB602A, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ABB6001, 0x7ABB602B, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB6001, 0x7ABB602C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB6001, 0x7ABB602D, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ABB6001, 0x7ABB602E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB6002, 19257, 0xABB6000E, 29.14816, 126.4069, 60.7872, 0.1729855, 0, 0, -0.9849244,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

@@ -5,8 +5,8 @@ VALUES (0x78E62001,  1154, 0x8E62002F, 124.7365, 150.8912, 14.97647, 0.9238795, 
 /* @teleloc 0x8E62002F [124.736500 150.891200 14.976470] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E62001, 0x78E62002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78E62001, 0x78E62003, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x78E62001, 0x78E62002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78E62001, 0x78E62003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E62002,   950, 0x8E62002F, 124.7365, 150.8912, 14.97647, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -21,8 +21,8 @@ VALUES (0x78E62004,  1542, 0x8E620030, 129.2916, 190.6812, 15.5486, 0.9990482, 0
 /* @teleloc 0x8E620030 [129.291600 190.681200 15.548600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E62004, 0x78E62005, '2019-02-10 00:00:00') /* Chest */
-     , (0x78E62004, 0x78E62006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78E62004, 0x78E62005, '2019-02-10 00:00:00') /* Chest (1918) */
+     , (0x78E62004, 0x78E62006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E62005,  1918, 0x8E620030, 129.2916, 190.6812, 15.5486, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */

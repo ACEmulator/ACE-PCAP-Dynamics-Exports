@@ -5,15 +5,15 @@ VALUES (0x7ADE0001,  1154, 0xADE0003B, 191.174, 63.26783, 2.00825, 0.827409, 0, 
 /* @teleloc 0xADE0003B [191.174000 63.267830 2.008250] 0.827409 0.000000 0.000000 -0.561600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADE0001, 0x7ADE0002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7ADE0001, 0x7ADE0003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ADE0001, 0x7ADE0004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ADE0001, 0x7ADE0005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ADE0001, 0x7ADE0006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ADE0001, 0x7ADE0007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ADE0001, 0x7ADE0008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ADE0001, 0x7ADE0009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ADE0001, 0x7ADE000A, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7ADE0001, 0x7ADE0002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7ADE0001, 0x7ADE0003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ADE0001, 0x7ADE0004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ADE0001, 0x7ADE0005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ADE0001, 0x7ADE0006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ADE0001, 0x7ADE0007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ADE0001, 0x7ADE0008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ADE0001, 0x7ADE0009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ADE0001, 0x7ADE000A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADE0002,   619, 0xADE0003B, 191.174, 63.26783, 2.00825, 0.827409, 0, 0, -0.5615999,  True, '2019-02-10 00:00:00'); /* Revenant */

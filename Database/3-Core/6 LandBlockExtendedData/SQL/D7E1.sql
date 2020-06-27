@@ -5,33 +5,33 @@ VALUES (0x7D7E1001,  1154, 0xD7E10004, 14.3467, 80.0468, 0.0004000068, 0.9970091
 /* @teleloc 0xD7E10004 [14.346700 80.046800 0.000400] 0.997009 0.000000 0.000000 -0.077284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7E1001, 0x7D7E1002, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E1003, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E1004, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1005, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1006, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D7E1001, 0x7D7E1007, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D7E1001, 0x7D7E1008, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D7E1001, 0x7D7E1009, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D7E1001, 0x7D7E100A, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D7E1001, 0x7D7E100B, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E100C, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D7E1001, 0x7D7E100D, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E100E, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E100F, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E1010, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D7E1001, 0x7D7E1011, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D7E1001, 0x7D7E1012, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D7E1001, 0x7D7E1013, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7D7E1001, 0x7D7E1014, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1015, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D7E1001, 0x7D7E1016, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1017, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1018, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D7E1001, 0x7D7E1019, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E101A, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D7E1001, 0x7D7E101B, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D7E1001, 0x7D7E101C, '2019-02-10 00:00:00') /* Astis Niffis */;
+VALUES (0x7D7E1001, 0x7D7E1002, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E1003, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E1004, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1005, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1006, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7E1001, 0x7D7E1007, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7E1001, 0x7D7E1008, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7E1001, 0x7D7E1009, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7E1001, 0x7D7E100A, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7E1001, 0x7D7E100B, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E100C, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7E1001, 0x7D7E100D, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E100E, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E100F, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E1010, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D7E1001, 0x7D7E1011, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D7E1001, 0x7D7E1012, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D7E1001, 0x7D7E1013, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7D7E1001, 0x7D7E1014, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1015, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7E1001, 0x7D7E1016, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1017, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1018, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7E1001, 0x7D7E1019, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E101A, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7E1001, 0x7D7E101B, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7E1001, 0x7D7E101C, '2019-02-10 00:00:00') /* Astis Niffis (32035) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7E1002, 32033, 0xD7E10004, 14.3467, 80.0468, 0.0004000068, 0.9970091, 0, 0, -0.07728449,  True, '2019-02-10 00:00:00'); /* Benek Niffis */

@@ -5,26 +5,26 @@ VALUES (0x7ABAE001,  1154, 0xABAE0008, 5.86361, 174.735, 81.51356, 0.993225, 0, 
 /* @teleloc 0xABAE0008 [5.863610 174.735000 81.513560] 0.993225 0.000000 0.000000 -0.116205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAE001, 0x7ABAE002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ABAE001, 0x7ABAE006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ABAE001, 0x7ABAE007, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ABAE001, 0x7ABAE008, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABAE001, 0x7ABAE00A, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE00B, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE00C, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ABAE001, 0x7ABAE00D, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE00E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE00F, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE010, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE011, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ABAE001, 0x7ABAE012, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE013, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ABAE001, 0x7ABAE014, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ABAE001, 0x7ABAE015, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7ABAE001, 0x7ABAE002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ABAE001, 0x7ABAE006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ABAE001, 0x7ABAE007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ABAE001, 0x7ABAE008, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABAE001, 0x7ABAE00A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE00B, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE00C, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ABAE001, 0x7ABAE00D, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE00E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE00F, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE010, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE011, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ABAE001, 0x7ABAE012, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE013, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ABAE001, 0x7ABAE014, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ABAE001, 0x7ABAE015, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAE002,  7991, 0xABAE0008, 5.86361, 174.735, 81.51356, 0.993225, 0, 0, -0.116205,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

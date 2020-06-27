@@ -21,11 +21,11 @@ VALUES (0x7B46F00C,  1154, 0xB46F002F, 134, 155, 22.00332, -4.37114E-08, 0, 0, -
 /* @teleloc 0xB46F002F [134.000000 155.000000 22.003320] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46F00C, 0x7B46F00D, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x7B46F00C, 0x7B46F00E, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x7B46F00C, 0x7B46F00F, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x7B46F00C, 0x7B46F010, '2019-02-10 00:00:00') /* Straw Target Drudge */
-     , (0x7B46F00C, 0x7B46F011, '2019-02-10 00:00:00') /* Bier of Antius Blackmoor */;
+VALUES (0x7B46F00C, 0x7B46F00D, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F00C, 0x7B46F00E, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F00C, 0x7B46F00F, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x7B46F00C, 0x7B46F010, '2019-02-10 00:00:00') /* Straw Target Drudge (6075) */
+     , (0x7B46F00C, 0x7B46F011, '2019-02-10 00:00:00') /* Bier of Antius Blackmoor (32290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F00D,  6077, 0xB46F002F, 134, 155, 22.00332, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Oak Target Drudge */
@@ -52,8 +52,8 @@ VALUES (0x7B46F012,  1154, 0xB46F0018, 60, 174, 42.005, -0.00139598, 0, 0, -0.99
 /* @teleloc 0xB46F0018 [60.000000 174.000000 42.005000] -0.001396 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46F012, 0x7B46F013, '2019-02-10 00:00:00') /* Bromord Morresten */
-     , (0x7B46F012, 0x7B46F014, '2019-02-10 00:00:00') /* Antius Blackmoor Memorial */;
+VALUES (0x7B46F012, 0x7B46F013, '2019-02-10 00:00:00') /* Bromord Morresten (32561) */
+     , (0x7B46F012, 0x7B46F014, '2019-02-10 00:00:00') /* Antius Blackmoor Memorial (32397) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F013, 32561, 0xB46F0018, 60, 174, 42.005, -0.00139598, 0, 0, -0.999999,  True, '2019-02-10 00:00:00'); /* Bromord Morresten */
@@ -68,48 +68,48 @@ VALUES (0x7B46F015,  1542, 0xB46F0016, 70.40211, 130.1522, 35.58241, 0.8800524, 
 /* @teleloc 0xB46F0016 [70.402110 130.152200 35.582410] 0.880052 0.000000 0.000000 -0.474877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B46F015, 0x7B46F016, '2019-02-10 00:00:00') /* Braced Mana Forge Key */
-     , (0x7B46F015, 0x7B46F017, '2019-02-10 00:00:00') /* Chainmail Basinet */
-     , (0x7B46F015, 0x7B46F018, '2019-02-10 00:00:00') /* Copper Heart */
-     , (0x7B46F015, 0x7B46F019, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7B46F015, 0x7B46F01A, '2019-02-10 00:00:00') /* Princely Runed War Bow */
-     , (0x7B46F015, 0x7B46F01B, '2019-02-10 00:00:00') /* Harbinger's Foci */
-     , (0x7B46F015, 0x7B46F01C, '2019-02-10 00:00:00') /* Harbinger's Foci */
-     , (0x7B46F015, 0x7B46F01D, '2019-02-10 00:00:00') /* Superior Helmet */
-     , (0x7B46F015, 0x7B46F01E, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7B46F015, 0x7B46F01F, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7B46F015, 0x7B46F020, '2019-02-10 00:00:00') /* Great Mattekar Horn */
-     , (0x7B46F015, 0x7B46F021, '2019-02-10 00:00:00') /* A Lump of Coal */
-     , (0x7B46F015, 0x7B46F022, '2019-02-10 00:00:00') /* Glyph of Summoning */
-     , (0x7B46F015, 0x7B46F023, '2019-02-10 00:00:00') /* Quill of Infliction */
-     , (0x7B46F015, 0x7B46F024, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7B46F015, 0x7B46F025, '2019-02-10 00:00:00') /* Double Totem of Tanae and Volkama */
-     , (0x7B46F015, 0x7B46F026, '2019-02-10 00:00:00') /* Dryreach Key */
-     , (0x7B46F015, 0x7B46F027, '2019-02-10 00:00:00') /* Moons Stamp */
-     , (0x7B46F015, 0x7B46F028, '2019-02-10 00:00:00') /* Oswald's Crystal */
-     , (0x7B46F015, 0x7B46F029, '2019-02-10 00:00:00') /* Braced Mana Forge Key */
-     , (0x7B46F015, 0x7B46F02A, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7B46F015, 0x7B46F02B, '2019-02-10 00:00:00') /* Fortified Mana Forge Key */
-     , (0x7B46F015, 0x7B46F02C, '2019-02-10 00:00:00') /* Aetheria Desiccant */
-     , (0x7B46F015, 0x7B46F02D, '2019-02-10 00:00:00') /* Black Coral Keyring */
-     , (0x7B46F015, 0x7B46F02E, '2019-02-10 00:00:00') /* Modified Iasparailaun */
-     , (0x7B46F015, 0x7B46F02F, '2019-02-10 00:00:00') /* Aetheria Powder */
-     , (0x7B46F015, 0x7B46F030, '2019-02-10 00:00:00') /* Banished Staff */
-     , (0x7B46F015, 0x7B46F031, '2019-02-10 00:00:00') /* Flaming Nodachi */
-     , (0x7B46F015, 0x7B46F032, '2019-02-10 00:00:00') /* Quiddity Ingot */
-     , (0x7B46F015, 0x7B46F033, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7B46F015, 0x7B46F034, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7B46F015, 0x7B46F035, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7B46F015, 0x7B46F036, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7B46F015, 0x7B46F037, '2019-02-10 00:00:00') /* Massive Mana Charge */
-     , (0x7B46F015, 0x7B46F038, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x7B46F015, 0x7B46F039, '2019-02-10 00:00:00') /* Burning Sands Keyring */
-     , (0x7B46F015, 0x7B46F03A, '2019-02-10 00:00:00') /* Platemail Gauntlets */
-     , (0x7B46F015, 0x7B46F03B, '2019-02-10 00:00:00') /* Good Lockpick */
-     , (0x7B46F015, 0x7B46F03C, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7B46F015, 0x7B46F03D, '2019-02-10 00:00:00') /* Deck of Eyes */
-     , (0x7B46F015, 0x7B46F03E, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7B46F015, 0x7B46F03F, '2019-02-10 00:00:00') /* Rabbit */;
+VALUES (0x7B46F015, 0x7B46F016, '2019-02-10 00:00:00') /* Braced Mana Forge Key (38917) */
+     , (0x7B46F015, 0x7B46F017, '2019-02-10 00:00:00') /* Chainmail Basinet (35) */
+     , (0x7B46F015, 0x7B46F018, '2019-02-10 00:00:00') /* Copper Heart (3670) */
+     , (0x7B46F015, 0x7B46F019, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7B46F015, 0x7B46F01A, '2019-02-10 00:00:00') /* Princely Runed War Bow (32976) */
+     , (0x7B46F015, 0x7B46F01B, '2019-02-10 00:00:00') /* Harbinger's Foci (36174) */
+     , (0x7B46F015, 0x7B46F01C, '2019-02-10 00:00:00') /* Harbinger's Foci (36174) */
+     , (0x7B46F015, 0x7B46F01D, '2019-02-10 00:00:00') /* Superior Helmet (1518) */
+     , (0x7B46F015, 0x7B46F01E, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7B46F015, 0x7B46F01F, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7B46F015, 0x7B46F020, '2019-02-10 00:00:00') /* Great Mattekar Horn (7044) */
+     , (0x7B46F015, 0x7B46F021, '2019-02-10 00:00:00') /* A Lump of Coal (22825) */
+     , (0x7B46F015, 0x7B46F022, '2019-02-10 00:00:00') /* Glyph of Summoning (49455) */
+     , (0x7B46F015, 0x7B46F023, '2019-02-10 00:00:00') /* Quill of Infliction (37363) */
+     , (0x7B46F015, 0x7B46F024, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7B46F015, 0x7B46F025, '2019-02-10 00:00:00') /* Double Totem of Tanae and Volkama (11451) */
+     , (0x7B46F015, 0x7B46F026, '2019-02-10 00:00:00') /* Dryreach Key (2244) */
+     , (0x7B46F015, 0x7B46F027, '2019-02-10 00:00:00') /* Moons Stamp (20861) */
+     , (0x7B46F015, 0x7B46F028, '2019-02-10 00:00:00') /* Oswald's Crystal (30199) */
+     , (0x7B46F015, 0x7B46F029, '2019-02-10 00:00:00') /* Braced Mana Forge Key (38917) */
+     , (0x7B46F015, 0x7B46F02A, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7B46F015, 0x7B46F02B, '2019-02-10 00:00:00') /* Fortified Mana Forge Key (38919) */
+     , (0x7B46F015, 0x7B46F02C, '2019-02-10 00:00:00') /* Aetheria Desiccant (42646) */
+     , (0x7B46F015, 0x7B46F02D, '2019-02-10 00:00:00') /* Black Coral Keyring (42347) */
+     , (0x7B46F015, 0x7B46F02E, '2019-02-10 00:00:00') /* Modified Iasparailaun (46959) */
+     , (0x7B46F015, 0x7B46F02F, '2019-02-10 00:00:00') /* Aetheria Powder (43133) */
+     , (0x7B46F015, 0x7B46F030, '2019-02-10 00:00:00') /* Banished Staff (30880) */
+     , (0x7B46F015, 0x7B46F031, '2019-02-10 00:00:00') /* Flaming Nodachi (40763) */
+     , (0x7B46F015, 0x7B46F032, '2019-02-10 00:00:00') /* Quiddity Ingot (36943) */
+     , (0x7B46F015, 0x7B46F033, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7B46F015, 0x7B46F034, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x7B46F015, 0x7B46F035, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7B46F015, 0x7B46F036, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7B46F015, 0x7B46F037, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7B46F015, 0x7B46F038, '2019-02-10 00:00:00') /* Aetheria (42635) */
+     , (0x7B46F015, 0x7B46F039, '2019-02-10 00:00:00') /* Burning Sands Keyring (48954) */
+     , (0x7B46F015, 0x7B46F03A, '2019-02-10 00:00:00') /* Platemail Gauntlets (57) */
+     , (0x7B46F015, 0x7B46F03B, '2019-02-10 00:00:00') /* Good Lockpick (512) */
+     , (0x7B46F015, 0x7B46F03C, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7B46F015, 0x7B46F03D, '2019-02-10 00:00:00') /* Deck of Eyes (37274) */
+     , (0x7B46F015, 0x7B46F03E, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7B46F015, 0x7B46F03F, '2019-02-10 00:00:00') /* Rabbit (33040) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F016, 38917, 0xB46F0016, 70.40211, 130.1522, 35.58241, 0.8800524, 0, 0, -0.4748765,  True, '2019-02-10 00:00:00'); /* Braced Mana Forge Key */

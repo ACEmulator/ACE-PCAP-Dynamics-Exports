@@ -13,14 +13,14 @@ VALUES (0x796DC004,  1154, 0x96DC001F, 93.5313, 163.307, 302.5968, 0.478564, 0, 
 /* @teleloc 0x96DC001F [93.531300 163.307000 302.596800] 0.478564 0.000000 0.000000 0.878053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DC004, 0x796DC005, '2019-02-10 00:00:00') /* Master's Sentinel */
-     , (0x796DC004, 0x796DC006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DC004, 0x796DC007, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x796DC004, 0x796DC008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x796DC004, 0x796DC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x796DC004, 0x796DC00A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x796DC004, 0x796DC00B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x796DC004, 0x796DC00C, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x796DC004, 0x796DC005, '2019-02-10 00:00:00') /* Master's Sentinel (37169) */
+     , (0x796DC004, 0x796DC006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DC004, 0x796DC007, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x796DC004, 0x796DC008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x796DC004, 0x796DC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x796DC004, 0x796DC00A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x796DC004, 0x796DC00B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x796DC004, 0x796DC00C, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DC005, 37169, 0x96DC001F, 93.5313, 163.307, 302.5968, 0.478564, 0, 0, 0.878053,  True, '2019-02-10 00:00:00'); /* Master's Sentinel */
@@ -59,7 +59,7 @@ VALUES (0x796DC00D,  1542, 0x96DC0027, 117.4261, 160.8156, 303.6677, 0.2195121, 
 /* @teleloc 0x96DC0027 [117.426100 160.815600 303.667700] 0.219512 0.000000 0.000000 -0.975610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DC00D, 0x796DC00E, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x796DC00D, 0x796DC00E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DC00E,  1955, 0x96DC0027, 117.4261, 160.8156, 303.6677, 0.2195121, 0, 0, -0.9756098,  True, '2019-02-10 00:00:00'); /* Gateway */

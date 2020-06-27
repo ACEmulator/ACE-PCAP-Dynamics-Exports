@@ -5,13 +5,13 @@ VALUES (0x72A55001,  1154, 0x2A550008, 18.97023, 174.8889, 35.18276, -0.9976478,
 /* @teleloc 0x2A550008 [18.970230 174.888900 35.182760] -0.997648 0.000000 0.000000 -0.068549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A55001, 0x72A55002, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A55001, 0x72A55003, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A55001, 0x72A55004, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A55001, 0x72A55005, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x72A55001, 0x72A55006, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72A55001, 0x72A55007, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72A55001, 0x72A55008, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */;
+VALUES (0x72A55001, 0x72A55002, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A55001, 0x72A55003, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A55001, 0x72A55004, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A55001, 0x72A55005, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x72A55001, 0x72A55006, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72A55001, 0x72A55007, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72A55001, 0x72A55008, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A55002, 22905, 0x2A550008, 18.97023, 174.8889, 35.18276, -0.9976478, 0, 0, -0.06854892,  True, '2019-02-10 00:00:00'); /* Lich Oppressor */

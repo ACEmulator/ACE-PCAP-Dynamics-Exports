@@ -5,11 +5,11 @@ VALUES (0x79083001,  1154, 0x90830038, 149.1003, 179.6662, 40.0055, -0.6123568, 
 /* @teleloc 0x90830038 [149.100300 179.666200 40.005500] -0.612357 0.000000 0.000000 -0.790582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79083001, 0x79083002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79083001, 0x79083003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x79083001, 0x79083004, '2019-02-10 00:00:00') /* Charge */
-     , (0x79083001, 0x79083005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79083001, 0x79083006, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x79083001, 0x79083002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79083001, 0x79083003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x79083001, 0x79083004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x79083001, 0x79083005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79083001, 0x79083006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79083002,   229, 0x90830038, 149.1003, 179.6662, 40.0055, -0.6123568, 0, 0, -0.7905815,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -36,8 +36,8 @@ VALUES (0x79083007,  1542, 0x9083003E, 174.8892, 135.153, 40.8049, -0.07188842, 
 /* @teleloc 0x9083003E [174.889200 135.153000 40.804900] -0.071888 0.000000 0.000000 -0.997413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79083007, 0x79083008, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x79083007, 0x79083009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79083007, 0x79083008, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x79083007, 0x79083009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79083008, 15715, 0x9083003E, 174.8892, 135.153, 40.8049, -0.07188842, 0, 0, -0.9974127,  True, '2019-02-10 00:00:00'); /* Sunflower */

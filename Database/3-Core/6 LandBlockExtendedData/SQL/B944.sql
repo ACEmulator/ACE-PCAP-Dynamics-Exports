@@ -5,9 +5,9 @@ VALUES (0x7B944001,  1154, 0xB944001D, 85.59646, 115.0972, 23.32536, 0.04982859,
 /* @teleloc 0xB944001D [85.596460 115.097200 23.325360] 0.049829 0.000000 0.000000 -0.998758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B944001, 0x7B944002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B944001, 0x7B944003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B944001, 0x7B944004, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7B944001, 0x7B944002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B944001, 0x7B944003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B944001, 0x7B944004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B944002,     3, 0xB944001D, 85.59646, 115.0972, 23.32536, 0.04982859, 0, 0, -0.9987578,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

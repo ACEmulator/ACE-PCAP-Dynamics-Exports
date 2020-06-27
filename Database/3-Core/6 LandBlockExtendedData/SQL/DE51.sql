@@ -41,55 +41,55 @@ VALUES (0x7DE5100B,  1154, 0xDE51001A, 78.80779, 36.94936, 16.91289, 0.4664083, 
 /* @teleloc 0xDE51001A [78.807790 36.949360 16.912890] 0.466408 0.000000 0.000000 -0.884570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE5100B, 0x7DE5100C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE5100D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE5100E, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DE5100B, 0x7DE5100F, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DE5100B, 0x7DE51010, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DE5100B, 0x7DE51012, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DE5100B, 0x7DE51013, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51014, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DE5100B, 0x7DE51015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DE5100B, 0x7DE51016, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51017, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51018, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51019, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DE5100B, 0x7DE5101A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE5101B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DE5100B, 0x7DE5101C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DE5100B, 0x7DE5101D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE5101E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE5101F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DE5100B, 0x7DE51020, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51021, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DE5100B, 0x7DE51022, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51023, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DE5100B, 0x7DE51024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51025, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DE5100B, 0x7DE51026, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DE5100B, 0x7DE51027, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51028, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DE5100B, 0x7DE51029, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE5102A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE5102B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DE5100B, 0x7DE5102C, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DE5100B, 0x7DE5102D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DE5100B, 0x7DE5102E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DE5100B, 0x7DE5102F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DE5100B, 0x7DE51030, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51031, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51032, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DE5100B, 0x7DE51033, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51034, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE51035, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7DE5100B, 0x7DE51036, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51037, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51038, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE51039, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE5100B, 0x7DE5103A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE5100B, 0x7DE5103B, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DE5100B, 0x7DE5103C, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7DE5100B, 0x7DE5100C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE5100D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE5100E, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DE5100B, 0x7DE5100F, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DE5100B, 0x7DE51010, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51011, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DE5100B, 0x7DE51012, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DE5100B, 0x7DE51013, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51014, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DE5100B, 0x7DE51015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DE5100B, 0x7DE51016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51019, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DE5100B, 0x7DE5101A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE5101B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DE5100B, 0x7DE5101C, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DE5100B, 0x7DE5101D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE5101E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE5101F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DE5100B, 0x7DE51020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51021, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DE5100B, 0x7DE51022, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51023, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DE5100B, 0x7DE51024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51025, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DE5100B, 0x7DE51026, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DE5100B, 0x7DE51027, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51028, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DE5100B, 0x7DE51029, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE5102A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE5102B, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DE5100B, 0x7DE5102C, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DE5100B, 0x7DE5102D, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DE5100B, 0x7DE5102E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DE5100B, 0x7DE5102F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DE5100B, 0x7DE51030, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51031, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51032, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DE5100B, 0x7DE51033, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51034, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE51035, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7DE5100B, 0x7DE51036, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51037, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51038, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE51039, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE5100B, 0x7DE5103A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE5100B, 0x7DE5103B, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DE5100B, 0x7DE5103C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE5100C, 24937, 0xDE51001A, 78.80779, 36.94936, 16.91289, 0.4664083, 0, 0, -0.8845696,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -292,7 +292,7 @@ VALUES (0x7DE5103D,  1154, 0xDE510024, 109.504, 81.58154, 29.205, 0.8110499, 0, 
 /* @teleloc 0xDE510024 [109.504000 81.581540 29.205000] 0.811050 0.000000 0.000000 -0.584977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE5103D, 0x7DE5103E, '2019-02-10 00:00:00') /* Sentry */;
+VALUES (0x7DE5103D, 0x7DE5103E, '2019-02-10 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE5103E, 12725, 0xDE510024, 109.504, 81.58154, 29.205, 0.8110499, 0, 0, -0.5849769,  True, '2019-02-10 00:00:00'); /* Sentry */

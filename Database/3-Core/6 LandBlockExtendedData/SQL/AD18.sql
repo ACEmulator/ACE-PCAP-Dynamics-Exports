@@ -5,9 +5,9 @@ VALUES (0x7AD18001,  1154, 0xAD180031, 167.5491, 4.341446, 275.6432, 0.7071068, 
 /* @teleloc 0xAD180031 [167.549100 4.341446 275.643200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD18001, 0x7AD18002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AD18001, 0x7AD18003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD18001, 0x7AD18004, '2019-02-10 00:00:00') /* Hoary Mattekar */;
+VALUES (0x7AD18001, 0x7AD18002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AD18001, 0x7AD18003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD18001, 0x7AD18004, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD18002,  1757, 0xAD180031, 167.5491, 4.341446, 275.6432, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

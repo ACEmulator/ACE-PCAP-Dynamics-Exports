@@ -5,12 +5,12 @@ VALUES (0x7944C001,  1154, 0x944C001A, 89.68386, 30.57844, 18.38375, 0.9995529, 
 /* @teleloc 0x944C001A [89.683860 30.578440 18.383750] 0.999553 0.000000 0.000000 -0.029900 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7944C001, 0x7944C002, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7944C001, 0x7944C003, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7944C001, 0x7944C004, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7944C001, 0x7944C005, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7944C001, 0x7944C006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7944C001, 0x7944C007, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x7944C001, 0x7944C002, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7944C001, 0x7944C003, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7944C001, 0x7944C004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7944C001, 0x7944C005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7944C001, 0x7944C006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7944C001, 0x7944C007, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7944C002,  1765, 0x944C001A, 89.68386, 30.57844, 18.38375, 0.9995529, 0, 0, -0.02990014,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */

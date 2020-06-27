@@ -5,15 +5,15 @@ VALUES (0x72BEC001,  1154, 0x2BEC000E, 36.2041, 127.3334, 3.940217, 0.9262627, 0
 /* @teleloc 0x2BEC000E [36.204100 127.333400 3.940217] 0.926263 0.000000 0.000000 -0.376878 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BEC001, 0x72BEC002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72BEC001, 0x72BEC003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72BEC001, 0x72BEC004, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72BEC001, 0x72BEC005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72BEC001, 0x72BEC006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72BEC001, 0x72BEC007, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72BEC001, 0x72BEC008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72BEC001, 0x72BEC009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BEC001, 0x72BEC00A, '2019-02-10 00:00:00') /* Engorged Eater */;
+VALUES (0x72BEC001, 0x72BEC002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72BEC001, 0x72BEC003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72BEC001, 0x72BEC004, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72BEC001, 0x72BEC005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72BEC001, 0x72BEC006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72BEC001, 0x72BEC007, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72BEC001, 0x72BEC008, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72BEC001, 0x72BEC009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BEC001, 0x72BEC00A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BEC002,  4217, 0x2BEC000E, 36.2041, 127.3334, 3.940217, 0.9262627, 0, 0, -0.3768784,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

@@ -225,74 +225,74 @@ VALUES (0x7BC9F076,  1154, 0xBC9F0108, 18.9094, 111.625, 73.005, 1, 0, 0, 0, Fal
 /* @teleloc 0xBC9F0108 [18.909400 111.625000 73.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9F076, 0x7BC9F077, '2019-02-10 00:00:00') /* Glysander Cartoth */
-     , (0x7BC9F076, 0x7BC9F078, '2019-02-10 00:00:00') /* Barnar the Tinker */
-     , (0x7BC9F076, 0x7BC9F079, '2019-02-10 00:00:00') /* Wing Collector */
-     , (0x7BC9F076, 0x7BC9F07A, '2019-02-10 00:00:00') /* Guard Hamdyn */
-     , (0x7BC9F076, 0x7BC9F07B, '2019-02-10 00:00:00') /* Ivory Crafter */
-     , (0x7BC9F076, 0x7BC9F07C, '2019-02-10 00:00:00') /* Guard Lo Pan */
-     , (0x7BC9F076, 0x7BC9F07D, '2019-02-10 00:00:00') /* Guard Devon */
-     , (0x7BC9F076, 0x7BC9F07E, '2019-02-10 00:00:00') /* Guard Haigh */
-     , (0x7BC9F076, 0x7BC9F07F, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x7BC9F076, 0x7BC9F080, '2019-02-10 00:00:00') /* Alec */
-     , (0x7BC9F076, 0x7BC9F081, '2019-02-10 00:00:00') /* Felizio Calmasi */
-     , (0x7BC9F076, 0x7BC9F082, '2019-02-10 00:00:00') /* Guard Ellyon */
-     , (0x7BC9F076, 0x7BC9F083, '2019-02-10 00:00:00') /* Guard Sorchia */
-     , (0x7BC9F076, 0x7BC9F084, '2019-02-10 00:00:00') /* Guard Fassel */
-     , (0x7BC9F076, 0x7BC9F085, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F086, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F087, '2019-02-10 00:00:00') /* Royal Guard Qumasha */
-     , (0x7BC9F076, 0x7BC9F088, '2019-02-10 00:00:00') /* Lieutenant Kenneth */
-     , (0x7BC9F076, 0x7BC9F089, '2019-02-10 00:00:00') /* Shan Zhen */
-     , (0x7BC9F076, 0x7BC9F08A, '2019-02-10 00:00:00') /* Oswent the Pale */
-     , (0x7BC9F076, 0x7BC9F08B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F08C, '2019-02-10 00:00:00') /* Sign */
-     , (0x7BC9F076, 0x7BC9F08D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F08E, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F08F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F090, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F091, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F092, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F093, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F094, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F095, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F096, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F097, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F098, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F099, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F09F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A5, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0A9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AA, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AB, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AC, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AD, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AE, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0AF, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F0B0, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B1, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B2, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B3, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B4, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B5, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7BC9F076, 0x7BC9F0B6, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B7, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B8, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0B9, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7BC9F076, 0x7BC9F0BA, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7BC9F076, 0x7BC9F077, '2019-02-10 00:00:00') /* Glysander Cartoth (15810) */
+     , (0x7BC9F076, 0x7BC9F078, '2019-02-10 00:00:00') /* Barnar the Tinker (7240) */
+     , (0x7BC9F076, 0x7BC9F079, '2019-02-10 00:00:00') /* Wing Collector (3923) */
+     , (0x7BC9F076, 0x7BC9F07A, '2019-02-10 00:00:00') /* Guard Hamdyn (29766) */
+     , (0x7BC9F076, 0x7BC9F07B, '2019-02-10 00:00:00') /* Ivory Crafter (3925) */
+     , (0x7BC9F076, 0x7BC9F07C, '2019-02-10 00:00:00') /* Guard Lo Pan (29772) */
+     , (0x7BC9F076, 0x7BC9F07D, '2019-02-10 00:00:00') /* Guard Devon (29769) */
+     , (0x7BC9F076, 0x7BC9F07E, '2019-02-10 00:00:00') /* Guard Haigh (29767) */
+     , (0x7BC9F076, 0x7BC9F07F, '2019-02-10 00:00:00') /* Leather Crafter (4213) */
+     , (0x7BC9F076, 0x7BC9F080, '2019-02-10 00:00:00') /* Alec (28475) */
+     , (0x7BC9F076, 0x7BC9F081, '2019-02-10 00:00:00') /* Felizio Calmasi (41186) */
+     , (0x7BC9F076, 0x7BC9F082, '2019-02-10 00:00:00') /* Guard Ellyon (29771) */
+     , (0x7BC9F076, 0x7BC9F083, '2019-02-10 00:00:00') /* Guard Sorchia (29768) */
+     , (0x7BC9F076, 0x7BC9F084, '2019-02-10 00:00:00') /* Guard Fassel (29770) */
+     , (0x7BC9F076, 0x7BC9F085, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F086, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F087, '2019-02-10 00:00:00') /* Royal Guard Qumasha (32618) */
+     , (0x7BC9F076, 0x7BC9F088, '2019-02-10 00:00:00') /* Lieutenant Kenneth (11809) */
+     , (0x7BC9F076, 0x7BC9F089, '2019-02-10 00:00:00') /* Shan Zhen (34499) */
+     , (0x7BC9F076, 0x7BC9F08A, '2019-02-10 00:00:00') /* Oswent the Pale (35477) */
+     , (0x7BC9F076, 0x7BC9F08B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F08C, '2019-02-10 00:00:00') /* Sign (25722) */
+     , (0x7BC9F076, 0x7BC9F08D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F08E, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F08F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F090, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F091, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F092, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F093, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F094, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F095, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F096, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F097, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F098, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F099, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09C, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F09F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A0, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A1, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A2, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A3, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A4, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A5, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A6, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A7, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A8, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0A9, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AA, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AB, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AC, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AD, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AE, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0AF, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F0B0, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B1, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B2, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B3, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B4, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B5, '2019-02-10 00:00:00') /* Royal Guard (24248) */
+     , (0x7BC9F076, 0x7BC9F0B6, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B7, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B8, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0B9, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7BC9F076, 0x7BC9F0BA, '2019-02-10 00:00:00') /* Town Crier (5772) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F077, 15810, 0xBC9F0108, 18.9094, 111.625, 73.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Glysander Cartoth */
@@ -571,30 +571,30 @@ VALUES (0x7BC9F0BB,  1542, 0xBC9F0111, 180.328, 7.63871, 32.0057, -0.3604121, 0,
 /* @teleloc 0xBC9F0111 [180.328000 7.638710 32.005700] -0.360412 0.000000 0.000000 0.932793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9F0BB, 0x7BC9F0BC, '2019-02-10 00:00:00') /* Cow */
-     , (0x7BC9F0BB, 0x7BC9F0BD, '2019-02-10 00:00:00') /* Cow */
-     , (0x7BC9F0BB, 0x7BC9F0BE, '2019-02-10 00:00:00') /* Morgluuk's Head */
-     , (0x7BC9F0BB, 0x7BC9F0BF, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x7BC9F0BB, 0x7BC9F0C0, '2019-02-10 00:00:00') /* Platemail Tassets */
-     , (0x7BC9F0BB, 0x7BC9F0C1, '2019-02-10 00:00:00') /* Tremendous Monouga Pack Doll */
-     , (0x7BC9F0BB, 0x7BC9F0C2, '2019-02-10 00:00:00') /* Copy of Apostate Excavation Master's Orders */
-     , (0x7BC9F0BB, 0x7BC9F0C3, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7BC9F0BB, 0x7BC9F0C4, '2019-02-10 00:00:00') /* Apostate Orders */
-     , (0x7BC9F0BB, 0x7BC9F0C5, '2019-02-10 00:00:00') /* Mana Forge Key */
-     , (0x7BC9F0BB, 0x7BC9F0C6, '2019-02-10 00:00:00') /* Apostate Orders */
-     , (0x7BC9F0BB, 0x7BC9F0C7, '2019-02-10 00:00:00') /* Side of Beef */
-     , (0x7BC9F0BB, 0x7BC9F0C8, '2019-02-10 00:00:00') /* Gelidite Dais */
-     , (0x7BC9F0BB, 0x7BC9F0C9, '2019-02-10 00:00:00') /* Ornate Fountain */
-     , (0x7BC9F0BB, 0x7BC9F0CA, '2019-02-10 00:00:00') /* Scarecrow */
-     , (0x7BC9F0BB, 0x7BC9F0CB, '2019-02-10 00:00:00') /* Clean, Dry Towel */
-     , (0x7BC9F0BB, 0x7BC9F0CC, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7BC9F0BB, 0x7BC9F0CD, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7BC9F0BB, 0x7BC9F0CE, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7BC9F0BB, 0x7BC9F0CF, '2019-02-10 00:00:00') /* Pack Martine */
-     , (0x7BC9F0BB, 0x7BC9F0D0, '2019-02-10 00:00:00') /* Pack Gaerlan */
-     , (0x7BC9F0BB, 0x7BC9F0D1, '2019-02-10 00:00:00') /* Copy of Apostate Excavation Master's Orders */
-     , (0x7BC9F0BB, 0x7BC9F0D2, '2019-02-10 00:00:00') /* Scroll of Corrosive Flash */
-     , (0x7BC9F0BB, 0x7BC9F0D3, '2019-02-10 00:00:00') /* Potion of Healing */;
+VALUES (0x7BC9F0BB, 0x7BC9F0BC, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7BC9F0BB, 0x7BC9F0BD, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7BC9F0BB, 0x7BC9F0BE, '2019-02-10 00:00:00') /* Morgluuk's Head (28450) */
+     , (0x7BC9F0BB, 0x7BC9F0BF, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x7BC9F0BB, 0x7BC9F0C0, '2019-02-10 00:00:00') /* Platemail Tassets (110) */
+     , (0x7BC9F0BB, 0x7BC9F0C1, '2019-02-10 00:00:00') /* Tremendous Monouga Pack Doll (25534) */
+     , (0x7BC9F0BB, 0x7BC9F0C2, '2019-02-10 00:00:00') /* Copy of Apostate Excavation Master's Orders (41188) */
+     , (0x7BC9F0BB, 0x7BC9F0C3, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7BC9F0BB, 0x7BC9F0C4, '2019-02-10 00:00:00') /* Apostate Orders (40490) */
+     , (0x7BC9F0BB, 0x7BC9F0C5, '2019-02-10 00:00:00') /* Mana Forge Key (38456) */
+     , (0x7BC9F0BB, 0x7BC9F0C6, '2019-02-10 00:00:00') /* Apostate Orders (40490) */
+     , (0x7BC9F0BB, 0x7BC9F0C7, '2019-02-10 00:00:00') /* Side of Beef (4753) */
+     , (0x7BC9F0BB, 0x7BC9F0C8, '2019-02-10 00:00:00') /* Gelidite Dais (15855) */
+     , (0x7BC9F0BB, 0x7BC9F0C9, '2019-02-10 00:00:00') /* Ornate Fountain (11932) */
+     , (0x7BC9F0BB, 0x7BC9F0CA, '2019-02-10 00:00:00') /* Scarecrow (34093) */
+     , (0x7BC9F0BB, 0x7BC9F0CB, '2019-02-10 00:00:00') /* Clean, Dry Towel (10758) */
+     , (0x7BC9F0BB, 0x7BC9F0CC, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7BC9F0BB, 0x7BC9F0CD, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7BC9F0BB, 0x7BC9F0CE, '2019-02-10 00:00:00') /* Skeleton (23209) */
+     , (0x7BC9F0BB, 0x7BC9F0CF, '2019-02-10 00:00:00') /* Pack Martine (29921) */
+     , (0x7BC9F0BB, 0x7BC9F0D0, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
+     , (0x7BC9F0BB, 0x7BC9F0D1, '2019-02-10 00:00:00') /* Copy of Apostate Excavation Master's Orders (41188) */
+     , (0x7BC9F0BB, 0x7BC9F0D2, '2019-02-10 00:00:00') /* Scroll of Corrosive Flash (20431) */
+     , (0x7BC9F0BB, 0x7BC9F0D3, '2019-02-10 00:00:00') /* Potion of Healing (377) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F0BC,   618, 0xBC9F0111, 180.328, 7.63871, 32.0057, -0.3604121, 0, 0, 0.9327932,  True, '2019-02-10 00:00:00'); /* Cow */

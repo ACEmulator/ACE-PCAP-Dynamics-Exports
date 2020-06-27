@@ -5,10 +5,10 @@ VALUES (0x7E846001,  1154, 0xE8460040, 182.3893, 184.1096, 52.54158, -0.9950001,
 /* @teleloc 0xE8460040 [182.389300 184.109600 52.541580] -0.995000 0.000000 0.000000 -0.099874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E846001, 0x7E846002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E846001, 0x7E846003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E846001, 0x7E846004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E846001, 0x7E846005, '2019-02-10 00:00:00') /* Laigus Lugian */;
+VALUES (0x7E846001, 0x7E846002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E846001, 0x7E846003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E846001, 0x7E846004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E846001, 0x7E846005, '2019-02-10 00:00:00') /* Laigus Lugian (5) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E846002,  2582, 0xE8460040, 182.3893, 184.1096, 52.54158, -0.9950001, 0, 0, -0.09987403,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
@@ -31,7 +31,7 @@ VALUES (0x7E846006,  1542, 0xE8460036, 161.241, 122.5251, 51.33692, -0.000184698
 /* @teleloc 0xE8460036 [161.241000 122.525100 51.336920] -0.000185 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E846006, 0x7E846007, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7E846006, 0x7E846007, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E846007, 14789, 0xE8460036, 161.241, 122.5251, 51.33692, -0.0001846989, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Ginger */

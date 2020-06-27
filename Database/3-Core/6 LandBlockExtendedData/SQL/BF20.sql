@@ -5,14 +5,14 @@ VALUES (0x7BF20001,  1154, 0xBF200028, 113.7913, 178.6198, 201.2648, 0.999776, 0
 /* @teleloc 0xBF200028 [113.791300 178.619800 201.264800] 0.999776 0.000000 0.000000 -0.021165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF20001, 0x7BF20002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BF20001, 0x7BF20003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BF20001, 0x7BF20004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BF20001, 0x7BF20005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BF20001, 0x7BF20006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BF20001, 0x7BF20007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BF20001, 0x7BF20008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BF20001, 0x7BF20009, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7BF20001, 0x7BF20002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BF20001, 0x7BF20003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BF20001, 0x7BF20004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BF20001, 0x7BF20005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BF20001, 0x7BF20006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BF20001, 0x7BF20007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BF20001, 0x7BF20008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BF20001, 0x7BF20009, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF20002,  1989, 0xBF200028, 113.7913, 178.6198, 201.2648, 0.999776, 0, 0, -0.02116535,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

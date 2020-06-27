@@ -5,13 +5,13 @@ VALUES (0x7C72D001,  1154, 0xC72D003D, 171.8334, 118.1996, 184.752, 0.5, 0, 0, -
 /* @teleloc 0xC72D003D [171.833400 118.199600 184.752000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C72D001, 0x7C72D002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C72D001, 0x7C72D003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C72D001, 0x7C72D004, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7C72D001, 0x7C72D005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C72D001, 0x7C72D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C72D001, 0x7C72D007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C72D001, 0x7C72D008, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7C72D001, 0x7C72D002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C72D001, 0x7C72D003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C72D001, 0x7C72D004, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7C72D001, 0x7C72D005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7C72D001, 0x7C72D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C72D001, 0x7C72D007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C72D001, 0x7C72D008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72D002,   199, 0xC72D003D, 171.8334, 118.1996, 184.752, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */

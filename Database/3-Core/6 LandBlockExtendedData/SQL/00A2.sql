@@ -5,89 +5,89 @@ VALUES (0x700A2001,  1154, 0x00A201CD, 61.1982, -111.594, 0.007700086, 0.997144,
 /* @teleloc 0x00A201CD [61.198200 -111.594000 0.007700] 0.997144 0.000000 0.000000 -0.075529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A2001, 0x700A2002, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2003, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2004, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2005, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2007, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2008, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2009, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A200A, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A200B, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A200C, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A200D, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A200E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A200F, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2010, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2011, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2012, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2013, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2014, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2015, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2016, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2017, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2018, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2019, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A201A, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A201B, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A201C, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A201D, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A201E, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A201F, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2020, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2021, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2022, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2023, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2024, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2025, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2026, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2027, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2028, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2029, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A202A, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A202B, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A202C, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A202D, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A202E, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A202F, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2030, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2031, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2032, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2033, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2034, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2035, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2036, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2037, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2038, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2039, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A203A, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A203B, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A203C, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A203D, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A203E, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A203F, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2040, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x700A2001, 0x700A2041, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2042, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2043, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2044, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2045, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2046, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2047, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2048, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A2049, '2019-02-10 00:00:00') /* Mosswart Agitator */
-     , (0x700A2001, 0x700A204A, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A204B, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A204C, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A204D, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A204E, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A204F, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2050, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2051, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2052, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x700A2001, 0x700A2053, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x700A2001, 0x700A2054, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x700A2001, 0x700A2002, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2003, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2004, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2005, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2007, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2008, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2009, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A200A, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A200B, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A200C, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A200D, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A200E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A200F, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2010, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2011, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2012, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2013, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2014, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2015, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2016, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2017, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2018, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2019, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A201A, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A201B, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A201C, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A201D, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A201E, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A201F, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2020, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2021, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2022, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2023, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2024, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2025, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2026, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2027, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2028, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2029, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A202A, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A202B, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A202C, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A202D, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A202E, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A202F, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2030, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2031, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2032, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2033, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2034, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2035, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2036, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2037, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2038, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2039, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A203A, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A203B, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A203C, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A203D, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A203E, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A203F, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2040, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x700A2001, 0x700A2041, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2042, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2043, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2044, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2045, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2046, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2047, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2048, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A2049, '2019-02-10 00:00:00') /* Mosswart Agitator (31921) */
+     , (0x700A2001, 0x700A204A, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A204B, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A204C, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A204D, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A204E, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A204F, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2050, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2051, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2052, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x700A2001, 0x700A2053, '2019-02-10 00:00:00') /* Degenerate Shadow (33632) */
+     , (0x700A2001, 0x700A2054, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A2002, 31921, 0x00A201CD, 61.1982, -111.594, 0.007700086, 0.997144, 0, 0, -0.0755289,  True, '2019-02-10 00:00:00'); /* Mosswart Agitator */
@@ -426,7 +426,7 @@ VALUES (0x700A2055,  1542, 0x00A20100, 47.4669, -57.35, -24, 0.9260968, 0, 0, 0.
 /* @teleloc 0x00A20100 [47.466900 -57.350000 -24.000000] 0.926097 0.000000 0.000000 0.377286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700A2055, 0x700A2056, '2019-02-10 00:00:00') /* Monouga Experiment Log */;
+VALUES (0x700A2055, 0x700A2056, '2019-02-10 00:00:00') /* Monouga Experiment Log (35842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A2056, 35842, 0x00A20100, 47.4669, -57.35, -24, 0.9260968, 0, 0, 0.3772859,  True, '2019-02-10 00:00:00'); /* Monouga Experiment Log */

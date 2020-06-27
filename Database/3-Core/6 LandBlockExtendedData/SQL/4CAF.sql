@@ -5,8 +5,8 @@ VALUES (0x74CAF001,  1154, 0x4CAF0015, 67.06224, 111.6346, 52.11834, 0.721368, 0
 /* @teleloc 0x4CAF0015 [67.062240 111.634600 52.118340] 0.721368 0.000000 0.000000 -0.692552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CAF001, 0x74CAF002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74CAF001, 0x74CAF003, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x74CAF001, 0x74CAF002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74CAF001, 0x74CAF003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CAF002, 24294, 0x4CAF0015, 67.06224, 111.6346, 52.11834, 0.721368, 0, 0, -0.692552,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -21,12 +21,12 @@ VALUES (0x74CAF004,  1542, 0x4CAF0021, 100.0974, 20.93103, 54.35596, 1, 0, 0, 0,
 /* @teleloc 0x4CAF0021 [100.097400 20.931030 54.355960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CAF004, 0x74CAF005, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x74CAF004, 0x74CAF006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74CAF004, 0x74CAF007, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x74CAF004, 0x74CAF008, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x74CAF004, 0x74CAF009, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x74CAF004, 0x74CAF00A, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x74CAF004, 0x74CAF005, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x74CAF004, 0x74CAF006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74CAF004, 0x74CAF007, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x74CAF004, 0x74CAF008, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x74CAF004, 0x74CAF009, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x74CAF004, 0x74CAF00A, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CAF005,  9024, 0x4CAF0021, 100.0974, 20.93103, 54.35596, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

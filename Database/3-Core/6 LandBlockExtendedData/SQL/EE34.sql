@@ -5,20 +5,20 @@ VALUES (0x7EE34001,  1154, 0xEE340013, 61.56475, 53.57383, -0.437, 0.9934882, 0,
 /* @teleloc 0xEE340013 [61.564750 53.573830 -0.437000] 0.993488 0.000000 0.000000 -0.113935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE34001, 0x7EE34002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7EE34001, 0x7EE34003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7EE34001, 0x7EE34004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7EE34001, 0x7EE34005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7EE34001, 0x7EE34006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7EE34001, 0x7EE34007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7EE34001, 0x7EE34008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7EE34001, 0x7EE34009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE34001, 0x7EE3400A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE34001, 0x7EE3400B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE34001, 0x7EE3400C, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EE34001, 0x7EE3400D, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7EE34001, 0x7EE3400E, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7EE34001, 0x7EE3400F, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7EE34001, 0x7EE34002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7EE34001, 0x7EE34003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7EE34001, 0x7EE34004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7EE34001, 0x7EE34005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7EE34001, 0x7EE34006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7EE34001, 0x7EE34007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7EE34001, 0x7EE34008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7EE34001, 0x7EE34009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE34001, 0x7EE3400A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE34001, 0x7EE3400B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE34001, 0x7EE3400C, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EE34001, 0x7EE3400D, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7EE34001, 0x7EE3400E, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7EE34001, 0x7EE3400F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE34002,   217, 0xEE340013, 61.56475, 53.57383, -0.437, 0.9934882, 0, 0, -0.1139353,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -81,7 +81,7 @@ VALUES (0x7EE34010,  1542, 0xEE340003, 2.674776, 71.74438, 3.575506, 1, 0, 0, 0,
 /* @teleloc 0xEE340003 [2.674776 71.744380 3.575506] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE34010, 0x7EE34011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7EE34010, 0x7EE34011, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE34011, 22570, 0xEE340003, 2.674776, 71.74438, 3.575506, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

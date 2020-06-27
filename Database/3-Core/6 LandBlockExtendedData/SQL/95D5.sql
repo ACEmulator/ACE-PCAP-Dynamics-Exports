@@ -5,17 +5,17 @@ VALUES (0x795D5001,  1154, 0x95D5001E, 84.28027, 126.6985, 120.6356, -0.01913554
 /* @teleloc 0x95D5001E [84.280270 126.698500 120.635600] -0.019136 0.000000 0.000000 -0.999817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D5001, 0x795D5002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x795D5001, 0x795D5003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x795D5001, 0x795D5004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x795D5001, 0x795D5005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x795D5001, 0x795D5006, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x795D5001, 0x795D5007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x795D5001, 0x795D5008, '2019-02-10 00:00:00') /* Ember */
-     , (0x795D5001, 0x795D5009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x795D5001, 0x795D500A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x795D5001, 0x795D500B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x795D5001, 0x795D500C, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x795D5001, 0x795D5002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x795D5001, 0x795D5003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x795D5001, 0x795D5004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x795D5001, 0x795D5005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x795D5001, 0x795D5006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x795D5001, 0x795D5007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x795D5001, 0x795D5008, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x795D5001, 0x795D5009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x795D5001, 0x795D500A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x795D5001, 0x795D500B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795D5001, 0x795D500C, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D5002,   619, 0x95D5001E, 84.28027, 126.6985, 120.6356, -0.01913554, 0, 0, -0.9998169,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -66,8 +66,8 @@ VALUES (0x795D500D,  1542, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0
 /* @teleloc 0x95D5003F [188.006000 148.498800 91.653910] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D500D, 0x795D500E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x795D500D, 0x795D500F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x795D500D, 0x795D500E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x795D500D, 0x795D500F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D500E,  4179, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

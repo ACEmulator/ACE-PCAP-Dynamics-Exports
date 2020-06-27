@@ -5,12 +5,12 @@ VALUES (0x781DA001,  1154, 0x81DA0031, 164.139, 23.6166, 330.712, -0.4978811, 0,
 /* @teleloc 0x81DA0031 [164.139000 23.616600 330.712000] -0.497881 0.000000 0.000000 -0.867245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781DA001, 0x781DA002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x781DA001, 0x781DA003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x781DA001, 0x781DA004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x781DA001, 0x781DA005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x781DA001, 0x781DA006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x781DA001, 0x781DA007, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x781DA001, 0x781DA002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x781DA001, 0x781DA003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x781DA001, 0x781DA004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x781DA001, 0x781DA005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x781DA001, 0x781DA006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x781DA001, 0x781DA007, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781DA002, 24283, 0x81DA0031, 164.139, 23.6166, 330.712, -0.4978811, 0, 0, -0.8672453,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

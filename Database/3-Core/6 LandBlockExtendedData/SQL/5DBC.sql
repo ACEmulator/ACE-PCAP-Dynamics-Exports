@@ -5,11 +5,11 @@ VALUES (0x75DBC001,  1154, 0x5DBC0002, 21.0209, 26.645, 11.97466, 0.7071068, 0, 
 /* @teleloc 0x5DBC0002 [21.020900 26.645000 11.974660] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DBC001, 0x75DBC002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75DBC001, 0x75DBC003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75DBC001, 0x75DBC004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75DBC001, 0x75DBC005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75DBC001, 0x75DBC006, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x75DBC001, 0x75DBC002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75DBC001, 0x75DBC003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75DBC001, 0x75DBC004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75DBC001, 0x75DBC005, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75DBC001, 0x75DBC006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DBC002, 24313, 0x5DBC0002, 21.0209, 26.645, 11.97466, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

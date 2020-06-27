@@ -5,8 +5,8 @@ VALUES (0x7898D001,  1154, 0x898D0015, 57.06816, 106.1212, 98.36674, -0.8491707,
 /* @teleloc 0x898D0015 [57.068160 106.121200 98.366740] -0.849171 0.000000 0.000000 -0.528118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7898D001, 0x7898D002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7898D001, 0x7898D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7898D001, 0x7898D002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7898D001, 0x7898D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7898D002,  1630, 0x898D0015, 57.06816, 106.1212, 98.36674, -0.8491707, 0, 0, -0.5281184,  True, '2019-02-10 00:00:00'); /* Lich Lord */

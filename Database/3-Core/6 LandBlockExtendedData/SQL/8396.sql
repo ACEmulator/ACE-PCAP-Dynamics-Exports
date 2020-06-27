@@ -5,12 +5,12 @@ VALUES (0x78396001,  1154, 0x8396002E, 125.7498, 142.3853, 124.005, 0.9238795, 0
 /* @teleloc 0x8396002E [125.749800 142.385300 124.005000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78396001, 0x78396002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78396001, 0x78396003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78396001, 0x78396004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78396001, 0x78396005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78396001, 0x78396006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78396001, 0x78396007, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x78396001, 0x78396002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78396001, 0x78396003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78396001, 0x78396004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78396001, 0x78396005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78396001, 0x78396006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78396001, 0x78396007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78396002,  1758, 0x8396002E, 125.7498, 142.3853, 124.005, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -41,8 +41,8 @@ VALUES (0x78396008,  1542, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0
 /* @teleloc 0x83960014 [56.237000 87.218030 142.545700] -0.263720 0.000000 0.000000 0.964599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78396008, 0x78396009, '2019-02-10 00:00:00') /* Diforsa Sleeves */
-     , (0x78396008, 0x7839600A, '2019-02-10 00:00:00') /* Celdon Breastplate */;
+VALUES (0x78396008, 0x78396009, '2019-02-10 00:00:00') /* Diforsa Sleeves (30949) */
+     , (0x78396008, 0x7839600A, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78396009, 30949, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0, 0, 0.9645993,  True, '2019-02-10 00:00:00'); /* Diforsa Sleeves */

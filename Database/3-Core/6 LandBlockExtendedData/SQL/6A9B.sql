@@ -5,12 +5,12 @@ VALUES (0x76A9B001,  1154, 0x6A9B002D, 138.0207, 114.5514, 69.51561, 0.9994202, 
 /* @teleloc 0x6A9B002D [138.020700 114.551400 69.515610] 0.999420 0.000000 0.000000 -0.034048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A9B001, 0x76A9B002, '2019-02-10 00:00:00') /* Frost */
-     , (0x76A9B001, 0x76A9B003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x76A9B001, 0x76A9B004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76A9B001, 0x76A9B005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76A9B001, 0x76A9B006, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x76A9B001, 0x76A9B007, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x76A9B001, 0x76A9B002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76A9B001, 0x76A9B003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x76A9B001, 0x76A9B004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76A9B001, 0x76A9B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76A9B001, 0x76A9B006, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x76A9B001, 0x76A9B007, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A9B002, 14512, 0x6A9B002D, 138.0207, 114.5514, 69.51561, 0.9994202, 0, 0, -0.03404778,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -41,7 +41,7 @@ VALUES (0x76A9B008,  1542, 0x6A9B0001, 20.60997, 18.71707, 62.44024, 1, 0, 0, 0,
 /* @teleloc 0x6A9B0001 [20.609970 18.717070 62.440240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A9B008, 0x76A9B009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76A9B008, 0x76A9B009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A9B009,  4179, 0x6A9B0001, 20.60997, 18.71707, 62.44024, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

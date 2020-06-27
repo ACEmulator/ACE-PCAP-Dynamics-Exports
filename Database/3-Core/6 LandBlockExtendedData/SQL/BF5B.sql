@@ -5,9 +5,9 @@ VALUES (0x7BF5B001,  1154, 0xBF5B0009, 41.15316, 20.63396, 6.00495, -0.2744281, 
 /* @teleloc 0xBF5B0009 [41.153160 20.633960 6.004950] -0.274428 0.000000 0.000000 -0.961608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5B001, 0x7BF5B002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BF5B001, 0x7BF5B003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF5B001, 0x7BF5B004, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7BF5B001, 0x7BF5B002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BF5B001, 0x7BF5B003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF5B001, 0x7BF5B004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5B002,     8, 0xBF5B0009, 41.15316, 20.63396, 6.00495, -0.2744281, 0, 0, -0.9616076,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */

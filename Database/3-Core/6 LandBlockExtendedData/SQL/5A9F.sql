@@ -5,11 +5,11 @@ VALUES (0x75A9F001,  1154, 0x5A9F0030, 134.6517, 173.7723, 39.56404, -0.219502, 
 /* @teleloc 0x5A9F0030 [134.651700 173.772300 39.564040] -0.219502 0.000000 0.000000 -0.975612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9F001, 0x75A9F002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75A9F001, 0x75A9F003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A9F001, 0x75A9F004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75A9F001, 0x75A9F005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75A9F001, 0x75A9F006, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x75A9F001, 0x75A9F002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75A9F001, 0x75A9F003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A9F001, 0x75A9F004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75A9F001, 0x75A9F005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75A9F001, 0x75A9F006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9F002, 23565, 0x5A9F0030, 134.6517, 173.7723, 39.56404, -0.219502, 0, 0, -0.975612,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

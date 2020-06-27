@@ -5,25 +5,25 @@ VALUES (0x7A4D2001,  1154, 0xA4D20019, 93.73093, 20.21091, 239.2604, 0.2588191, 
 /* @teleloc 0xA4D20019 [93.730930 20.210910 239.260400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4D2001, 0x7A4D2002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A4D2001, 0x7A4D2003, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A4D2001, 0x7A4D2004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A4D2001, 0x7A4D2005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A4D2001, 0x7A4D2006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A4D2001, 0x7A4D2007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A4D2001, 0x7A4D2008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A4D2001, 0x7A4D2009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A4D2001, 0x7A4D200A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A4D2001, 0x7A4D200B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A4D2001, 0x7A4D200C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A4D2001, 0x7A4D200D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A4D2001, 0x7A4D200E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A4D2001, 0x7A4D200F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A4D2001, 0x7A4D2010, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A4D2001, 0x7A4D2011, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A4D2001, 0x7A4D2012, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A4D2001, 0x7A4D2013, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A4D2001, 0x7A4D2014, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7A4D2001, 0x7A4D2002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A4D2001, 0x7A4D2003, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A4D2001, 0x7A4D2004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A4D2001, 0x7A4D2005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A4D2001, 0x7A4D2006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A4D2001, 0x7A4D2007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A4D2001, 0x7A4D2008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A4D2001, 0x7A4D2009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A4D2001, 0x7A4D200A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A4D2001, 0x7A4D200B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A4D2001, 0x7A4D200C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A4D2001, 0x7A4D200D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A4D2001, 0x7A4D200E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A4D2001, 0x7A4D200F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A4D2001, 0x7A4D2010, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A4D2001, 0x7A4D2011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A4D2001, 0x7A4D2012, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A4D2001, 0x7A4D2013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A4D2001, 0x7A4D2014, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4D2002, 24294, 0xA4D20019, 93.73093, 20.21091, 239.2604, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -106,9 +106,9 @@ VALUES (0x7A4D2015,  1542, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0
 /* @teleloc 0xA4D20015 [59.645840 98.267600 255.053500] 0.874197 0.000000 0.000000 -0.485572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4D2015, 0x7A4D2016, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A4D2015, 0x7A4D2017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A4D2015, 0x7A4D2018, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x7A4D2015, 0x7A4D2016, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A4D2015, 0x7A4D2017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A4D2015, 0x7A4D2018, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4D2016, 42528, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0, 0, -0.4855724,  True, '2019-02-10 00:00:00'); /* Rock */

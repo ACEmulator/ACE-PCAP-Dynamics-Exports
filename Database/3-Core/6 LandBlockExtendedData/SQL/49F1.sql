@@ -9,22 +9,22 @@ VALUES (0x749F1001,  1154, 0x49F10018, 67.02548, 178.7174, 8, 0.9583073, 0, 0, -
 /* @teleloc 0x49F10018 [67.025480 178.717400 8.000000] 0.958307 0.000000 0.000000 -0.285740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F1001, 0x749F1002, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x749F1001, 0x749F1003, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x749F1001, 0x749F1004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x749F1001, 0x749F1005, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x749F1001, 0x749F1006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x749F1001, 0x749F1007, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x749F1001, 0x749F1008, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x749F1001, 0x749F1009, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x749F1001, 0x749F100A, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x749F1001, 0x749F100B, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x749F1001, 0x749F100C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x749F1001, 0x749F100D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x749F1001, 0x749F100E, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x749F1001, 0x749F100F, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x749F1001, 0x749F1010, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x749F1001, 0x749F1011, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x749F1001, 0x749F1002, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x749F1001, 0x749F1003, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x749F1001, 0x749F1004, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x749F1001, 0x749F1005, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x749F1001, 0x749F1006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x749F1001, 0x749F1007, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x749F1001, 0x749F1008, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x749F1001, 0x749F1009, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x749F1001, 0x749F100A, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x749F1001, 0x749F100B, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x749F1001, 0x749F100C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x749F1001, 0x749F100D, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x749F1001, 0x749F100E, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x749F1001, 0x749F100F, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x749F1001, 0x749F1010, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x749F1001, 0x749F1011, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F1002, 28639, 0x49F10018, 67.02548, 178.7174, 8, 0.9583073, 0, 0, -0.2857397,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
@@ -95,8 +95,8 @@ VALUES (0x749F1012,  1542, 0x49F1001A, 77.59761, 34.38574, 2.269044, 0.9992871, 
 /* @teleloc 0x49F1001A [77.597610 34.385740 2.269044] 0.999287 0.000000 0.000000 -0.037753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F1012, 0x749F1013, '2019-02-10 00:00:00') /* Snow Lily */
-     , (0x749F1012, 0x749F1014, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x749F1012, 0x749F1013, '2019-02-10 00:00:00') /* Snow Lily (31032) */
+     , (0x749F1012, 0x749F1014, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F1013, 31032, 0x49F1001A, 77.59761, 34.38574, 2.269044, 0.9992871, 0, 0, -0.03775265,  True, '2019-02-10 00:00:00'); /* Snow Lily */

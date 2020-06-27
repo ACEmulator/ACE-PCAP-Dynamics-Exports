@@ -5,11 +5,11 @@ VALUES (0x778E6001,  1154, 0x78E6000F, 33.27136, 160.8998, 162.8655, -0.9053922,
 /* @teleloc 0x78E6000F [33.271360 160.899800 162.865500] -0.905392 0.000000 0.000000 -0.424576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778E6001, 0x778E6002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x778E6001, 0x778E6003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778E6001, 0x778E6004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x778E6001, 0x778E6005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x778E6001, 0x778E6006, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x778E6001, 0x778E6002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x778E6001, 0x778E6003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778E6001, 0x778E6004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x778E6001, 0x778E6005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x778E6001, 0x778E6006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778E6002, 32483, 0x78E6000F, 33.27136, 160.8998, 162.8655, -0.9053922, 0, 0, -0.4245761,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

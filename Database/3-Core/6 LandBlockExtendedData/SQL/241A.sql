@@ -5,21 +5,21 @@ VALUES (0x7241A001,  1154, 0x241A003B, 169.5788, 51.45552, 18.06756, -0.5295084,
 /* @teleloc 0x241A003B [169.578800 51.455520 18.067560] -0.529508 0.000000 0.000000 -0.848305 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241A001, 0x7241A002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7241A001, 0x7241A003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7241A001, 0x7241A004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7241A001, 0x7241A005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7241A001, 0x7241A006, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7241A001, 0x7241A007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7241A001, 0x7241A008, '2019-02-10 00:00:00') /* Theral */
-     , (0x7241A001, 0x7241A009, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7241A001, 0x7241A00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7241A001, 0x7241A00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7241A001, 0x7241A00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7241A001, 0x7241A00D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7241A001, 0x7241A00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7241A001, 0x7241A00F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7241A001, 0x7241A010, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7241A001, 0x7241A002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7241A001, 0x7241A003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7241A001, 0x7241A004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7241A001, 0x7241A005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7241A001, 0x7241A006, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7241A001, 0x7241A007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7241A001, 0x7241A008, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x7241A001, 0x7241A009, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7241A001, 0x7241A00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7241A001, 0x7241A00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7241A001, 0x7241A00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7241A001, 0x7241A00D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7241A001, 0x7241A00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7241A001, 0x7241A00F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7241A001, 0x7241A010, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241A002, 11536, 0x241A003B, 169.5788, 51.45552, 18.06756, -0.5295084, 0, 0, -0.8483047,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

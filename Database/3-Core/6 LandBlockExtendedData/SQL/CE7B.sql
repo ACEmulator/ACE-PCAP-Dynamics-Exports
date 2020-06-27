@@ -5,14 +5,14 @@ VALUES (0x7CE7B001,  1154, 0xCE7B0036, 148.9185, 140.2404, 3.112, -0.003215232, 
 /* @teleloc 0xCE7B0036 [148.918500 140.240400 3.112000] -0.003215 0.000000 0.000000 -0.999995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE7B001, 0x7CE7B002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CE7B001, 0x7CE7B003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7CE7B001, 0x7CE7B004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7CE7B001, 0x7CE7B005, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7CE7B001, 0x7CE7B006, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7CE7B001, 0x7CE7B007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7CE7B001, 0x7CE7B008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7CE7B001, 0x7CE7B009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7CE7B001, 0x7CE7B002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CE7B001, 0x7CE7B003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7CE7B001, 0x7CE7B004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7CE7B001, 0x7CE7B005, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7CE7B001, 0x7CE7B006, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7CE7B001, 0x7CE7B007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7CE7B001, 0x7CE7B008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7CE7B001, 0x7CE7B009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE7B002,   215, 0xCE7B0036, 148.9185, 140.2404, 3.112, -0.003215232, 0, 0, -0.9999948,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

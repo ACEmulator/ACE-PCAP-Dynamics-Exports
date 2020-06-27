@@ -5,12 +5,12 @@ VALUES (0x7B16E001,  1154, 0xB16E003F, 177.2584, 160.4038, 29.22847, -0.2975939,
 /* @teleloc 0xB16E003F [177.258400 160.403800 29.228470] -0.297594 0.000000 0.000000 -0.954693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B16E001, 0x7B16E002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B16E001, 0x7B16E003, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B16E001, 0x7B16E004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B16E001, 0x7B16E005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B16E001, 0x7B16E006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B16E001, 0x7B16E007, '2019-02-10 00:00:00') /* Scourge */;
+VALUES (0x7B16E001, 0x7B16E002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B16E001, 0x7B16E003, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B16E001, 0x7B16E004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B16E001, 0x7B16E005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B16E001, 0x7B16E006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B16E001, 0x7B16E007, '2019-02-10 00:00:00') /* Scourge (21160) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B16E002, 22009, 0xB16E003F, 177.2584, 160.4038, 29.22847, -0.2975939, 0, 0, -0.9546925,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -41,7 +41,7 @@ VALUES (0x7B16E008,  1542, 0xB16E0007, 21.81646, 148.0388, 30, 1, 0, 0, 0, False
 /* @teleloc 0xB16E0007 [21.816460 148.038800 30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B16E008, 0x7B16E009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B16E008, 0x7B16E009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B16E009,  4380, 0xB16E0007, 21.81646, 148.0388, 30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,30 +5,30 @@ VALUES (0x7163E001,  1154, 0x163E001D, 95.91435, 107.6794, 8.000012, -4.371139E-
 /* @teleloc 0x163E001D [95.914350 107.679400 8.000012] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163E001, 0x7163E002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7163E001, 0x7163E003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7163E001, 0x7163E004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7163E001, 0x7163E005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7163E001, 0x7163E006, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7163E001, 0x7163E007, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7163E001, 0x7163E008, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7163E001, 0x7163E009, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7163E001, 0x7163E00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163E001, 0x7163E00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7163E001, 0x7163E00C, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7163E001, 0x7163E00D, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7163E001, 0x7163E00E, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7163E001, 0x7163E00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7163E001, 0x7163E010, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7163E001, 0x7163E011, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7163E001, 0x7163E012, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7163E001, 0x7163E013, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7163E001, 0x7163E014, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7163E001, 0x7163E015, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7163E001, 0x7163E016, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7163E001, 0x7163E017, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7163E001, 0x7163E018, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7163E001, 0x7163E019, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7163E001, 0x7163E002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7163E001, 0x7163E003, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7163E001, 0x7163E004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7163E001, 0x7163E005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7163E001, 0x7163E006, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7163E001, 0x7163E007, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7163E001, 0x7163E008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7163E001, 0x7163E009, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7163E001, 0x7163E00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163E001, 0x7163E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7163E001, 0x7163E00C, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7163E001, 0x7163E00D, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7163E001, 0x7163E00E, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7163E001, 0x7163E00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7163E001, 0x7163E010, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7163E001, 0x7163E011, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7163E001, 0x7163E012, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x7163E001, 0x7163E013, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7163E001, 0x7163E014, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7163E001, 0x7163E015, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7163E001, 0x7163E016, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7163E001, 0x7163E017, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7163E001, 0x7163E018, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7163E001, 0x7163E019, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163E002, 36819, 0x163E001D, 95.91435, 107.6794, 8.000012, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -131,7 +131,7 @@ VALUES (0x7163E01A,  1542, 0x163E001D, 92.18099, 107.7239, 7.936252, -4.371139E-
 /* @teleloc 0x163E001D [92.180990 107.723900 7.936252] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163E01A, 0x7163E01B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7163E01A, 0x7163E01B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163E01B,  4380, 0x163E001D, 92.18099, 107.7239, 7.936252, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

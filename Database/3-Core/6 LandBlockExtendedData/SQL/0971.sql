@@ -5,9 +5,9 @@ VALUES (0x70971001,  1154, 0x09710014, 48.90351, 87.93278, -0.4499986, -0.894384
 /* @teleloc 0x09710014 [48.903510 87.932780 -0.449999] -0.894384 0.000000 0.000000 -0.447300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70971001, 0x70971002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70971001, 0x70971003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70971001, 0x70971004, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70971001, 0x70971002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70971001, 0x70971003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70971001, 0x70971004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70971002,  7125, 0x09710014, 48.90351, 87.93278, -0.4499986, -0.8943843, 0, 0, -0.4472995,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */

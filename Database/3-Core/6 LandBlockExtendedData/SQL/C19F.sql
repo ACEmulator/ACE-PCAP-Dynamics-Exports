@@ -5,12 +5,12 @@ VALUES (0x7C19F001,  1154, 0xC19F003C, 185.3162, 77.09354, 1.101, 0.3054293, 0, 
 /* @teleloc 0xC19F003C [185.316200 77.093540 1.101000] 0.305429 0.000000 0.000000 -0.952215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C19F001, 0x7C19F002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C19F001, 0x7C19F003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C19F001, 0x7C19F004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C19F001, 0x7C19F005, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C19F001, 0x7C19F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C19F001, 0x7C19F007, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7C19F001, 0x7C19F002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C19F001, 0x7C19F003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C19F001, 0x7C19F004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C19F001, 0x7C19F005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C19F001, 0x7C19F006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C19F001, 0x7C19F007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C19F002,   223, 0xC19F003C, 185.3162, 77.09354, 1.101, 0.3054293, 0, 0, -0.9522148,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

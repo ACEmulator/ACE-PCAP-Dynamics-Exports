@@ -5,20 +5,20 @@ VALUES (0x7C29D001,  1154, 0xC29D0034, 150.421, 88.43552, 1.1011, -0.9034675, 0,
 /* @teleloc 0xC29D0034 [150.421000 88.435520 1.101100] -0.903468 0.000000 0.000000 -0.428657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29D001, 0x7C29D002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C29D001, 0x7C29D003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C29D001, 0x7C29D004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C29D001, 0x7C29D005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C29D001, 0x7C29D006, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7C29D001, 0x7C29D007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C29D001, 0x7C29D008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C29D001, 0x7C29D009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C29D001, 0x7C29D00A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C29D001, 0x7C29D00B, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C29D001, 0x7C29D00C, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C29D001, 0x7C29D00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C29D001, 0x7C29D00E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C29D001, 0x7C29D00F, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7C29D001, 0x7C29D002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C29D001, 0x7C29D003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C29D001, 0x7C29D004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C29D001, 0x7C29D005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C29D001, 0x7C29D006, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7C29D001, 0x7C29D007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C29D001, 0x7C29D008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C29D001, 0x7C29D009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C29D001, 0x7C29D00A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C29D001, 0x7C29D00B, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C29D001, 0x7C29D00C, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C29D001, 0x7C29D00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C29D001, 0x7C29D00E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C29D001, 0x7C29D00F, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29D002,  2577, 0xC29D0034, 150.421, 88.43552, 1.1011, -0.9034675, 0, 0, -0.4286565,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
@@ -81,7 +81,7 @@ VALUES (0x7C29D010,  1542, 0xC29D0035, 151.4382, 117.6108, 2, 1, 0, 0, 0, False,
 /* @teleloc 0xC29D0035 [151.438200 117.610800 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29D010, 0x7C29D011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C29D010, 0x7C29D011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29D011,  4179, 0xC29D0035, 151.4382, 117.6108, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

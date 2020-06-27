@@ -5,26 +5,26 @@ VALUES (0x71F3E001,  1154, 0x1F3E0005, 22.78055, 104.6318, 87.23946, 0.2588191, 
 /* @teleloc 0x1F3E0005 [22.780550 104.631800 87.239460] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F3E001, 0x71F3E002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71F3E001, 0x71F3E003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71F3E001, 0x71F3E004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71F3E001, 0x71F3E005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71F3E001, 0x71F3E006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71F3E001, 0x71F3E007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71F3E001, 0x71F3E008, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x71F3E001, 0x71F3E009, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71F3E001, 0x71F3E00A, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71F3E001, 0x71F3E00B, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71F3E001, 0x71F3E00C, '2019-02-10 00:00:00') /* Caustic */
-     , (0x71F3E001, 0x71F3E00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71F3E001, 0x71F3E00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71F3E001, 0x71F3E00F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71F3E001, 0x71F3E010, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71F3E001, 0x71F3E011, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71F3E001, 0x71F3E012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F3E001, 0x71F3E013, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x71F3E001, 0x71F3E014, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71F3E001, 0x71F3E015, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71F3E001, 0x71F3E002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71F3E001, 0x71F3E003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71F3E001, 0x71F3E004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71F3E001, 0x71F3E005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71F3E001, 0x71F3E006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71F3E001, 0x71F3E007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71F3E001, 0x71F3E008, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x71F3E001, 0x71F3E009, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71F3E001, 0x71F3E00A, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71F3E001, 0x71F3E00B, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71F3E001, 0x71F3E00C, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x71F3E001, 0x71F3E00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71F3E001, 0x71F3E00E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71F3E001, 0x71F3E00F, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71F3E001, 0x71F3E010, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71F3E001, 0x71F3E011, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71F3E001, 0x71F3E012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F3E001, 0x71F3E013, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x71F3E001, 0x71F3E014, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71F3E001, 0x71F3E015, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F3E002, 36818, 0x1F3E0005, 22.78055, 104.6318, 87.23946, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -111,8 +111,8 @@ VALUES (0x71F3E016,  1542, 0x1F3E000D, 28.08295, 106.1248, 89.17002, 0.9990482, 
 /* @teleloc 0x1F3E000D [28.082950 106.124800 89.170020] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F3E016, 0x71F3E017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71F3E016, 0x71F3E018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71F3E016, 0x71F3E017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71F3E016, 0x71F3E018, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F3E017,  4179, 0x1F3E000D, 28.08295, 106.1248, 89.17002, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

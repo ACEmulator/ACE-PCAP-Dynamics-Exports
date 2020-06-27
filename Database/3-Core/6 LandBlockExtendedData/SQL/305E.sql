@@ -5,15 +5,15 @@ VALUES (0x7305E001,  1154, 0x305E0037, 153.8273, 161.7713, 28.82894, -0.6067932,
 /* @teleloc 0x305E0037 [153.827300 161.771300 28.828940] -0.606793 0.000000 0.000000 -0.794860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7305E001, 0x7305E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7305E001, 0x7305E003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7305E001, 0x7305E004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7305E001, 0x7305E005, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7305E001, 0x7305E006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7305E001, 0x7305E007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7305E001, 0x7305E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7305E001, 0x7305E009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7305E001, 0x7305E00A, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x7305E001, 0x7305E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7305E001, 0x7305E003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7305E001, 0x7305E004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7305E001, 0x7305E005, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7305E001, 0x7305E006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7305E001, 0x7305E007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7305E001, 0x7305E008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7305E001, 0x7305E009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7305E001, 0x7305E00A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7305E002, 36829, 0x305E0037, 153.8273, 161.7713, 28.82894, -0.6067932, 0, 0, -0.7948598,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

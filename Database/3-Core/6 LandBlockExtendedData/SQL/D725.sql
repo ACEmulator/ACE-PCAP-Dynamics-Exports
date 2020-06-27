@@ -5,8 +5,8 @@ VALUES (0x7D725001,  1154, 0xD725002A, 136.5214, 27.73494, 209.6382, -0.05832179
 /* @teleloc 0xD725002A [136.521400 27.734940 209.638200] -0.058322 0.000000 0.000000 -0.998298 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D725001, 0x7D725002, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7D725001, 0x7D725003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7D725001, 0x7D725002, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7D725001, 0x7D725003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D725002, 26469, 0xD725002A, 136.5214, 27.73494, 209.6382, -0.05832179, 0, 0, -0.9982978,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */

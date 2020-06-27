@@ -5,11 +5,11 @@ VALUES (0x74837001,  1154, 0x4837003A, 186.4258, 36.71933, 0.9500558, 0.7660445,
 /* @teleloc 0x4837003A [186.425800 36.719330 0.950056] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74837001, 0x74837002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74837001, 0x74837003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74837001, 0x74837004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74837001, 0x74837005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74837001, 0x74837006, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x74837001, 0x74837002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74837001, 0x74837003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74837001, 0x74837004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74837001, 0x74837005, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74837001, 0x74837006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74837002, 36827, 0x4837003A, 186.4258, 36.71933, 0.9500558, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
@@ -36,7 +36,7 @@ VALUES (0x74837007,  1542, 0x4837003C, 190.6644, 78.58427, 0, 0.6092459, 0, 0, -
 /* @teleloc 0x4837003C [190.664400 78.584270 0.000000] 0.609246 0.000000 0.000000 -0.792981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74837007, 0x74837008, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x74837007, 0x74837008, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74837008, 31688, 0x4837003C, 190.6644, 78.58427, 0, 0.6092459, 0, 0, -0.7929813,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

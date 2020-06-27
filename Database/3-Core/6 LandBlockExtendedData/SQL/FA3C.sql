@@ -5,15 +5,15 @@ VALUES (0x7FA3C001,  1154, 0xFA3C0011, 50.54487, 3.368326, -0.09359992, 0.716231
 /* @teleloc 0xFA3C0011 [50.544870 3.368326 -0.093600] 0.716232 0.000000 0.000000 -0.697862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA3C001, 0x7FA3C002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3C001, 0x7FA3C003, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA3C001, 0x7FA3C004, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA3C001, 0x7FA3C005, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA3C001, 0x7FA3C006, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA3C001, 0x7FA3C007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA3C001, 0x7FA3C008, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA3C001, 0x7FA3C009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA3C001, 0x7FA3C00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */;
+VALUES (0x7FA3C001, 0x7FA3C002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3C001, 0x7FA3C003, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA3C001, 0x7FA3C004, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA3C001, 0x7FA3C005, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA3C001, 0x7FA3C006, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA3C001, 0x7FA3C007, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA3C001, 0x7FA3C008, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA3C001, 0x7FA3C009, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA3C001, 0x7FA3C00A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA3C002, 40304, 0xFA3C0011, 50.54487, 3.368326, -0.09359992, 0.7162319, 0, 0, -0.6978623,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

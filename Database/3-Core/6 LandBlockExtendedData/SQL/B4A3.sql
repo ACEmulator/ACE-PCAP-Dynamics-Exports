@@ -5,13 +5,13 @@ VALUES (0x7B4A3001,  1154, 0xB4A3000B, 37.47303, 50.07697, 84.69607, 0.05741913,
 /* @teleloc 0xB4A3000B [37.473030 50.076970 84.696070] 0.057419 0.000000 0.000000 -0.998350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4A3001, 0x7B4A3002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B4A3001, 0x7B4A3003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B4A3001, 0x7B4A3004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B4A3001, 0x7B4A3005, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B4A3001, 0x7B4A3006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B4A3001, 0x7B4A3007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B4A3001, 0x7B4A3008, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x7B4A3001, 0x7B4A3002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B4A3001, 0x7B4A3003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B4A3001, 0x7B4A3004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B4A3001, 0x7B4A3005, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B4A3001, 0x7B4A3006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B4A3001, 0x7B4A3007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B4A3001, 0x7B4A3008, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4A3002,  2575, 0xB4A3000B, 37.47303, 50.07697, 84.69607, 0.05741913, 0, 0, -0.9983501,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -46,7 +46,7 @@ VALUES (0x7B4A3009,  1542, 0xB4A3001C, 84.87085, 72.05363, 80.91849, 0.8966865, 
 /* @teleloc 0xB4A3001C [84.870850 72.053630 80.918490] 0.896687 0.000000 0.000000 -0.442666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4A3009, 0x7B4A300A, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B4A3009, 0x7B4A300A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4A300A,  8037, 0xB4A3001C, 84.87085, 72.05363, 80.91849, 0.8966865, 0, 0, -0.4426662,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

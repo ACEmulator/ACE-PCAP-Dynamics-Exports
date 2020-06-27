@@ -5,20 +5,20 @@ VALUES (0x74C0D001,  1154, 0x4C0D0014, 60.29918, 91.69143, -0.89175, 0.2834269, 
 /* @teleloc 0x4C0D0014 [60.299180 91.691430 -0.891750] 0.283427 0.000000 0.000000 -0.958994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C0D001, 0x74C0D002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74C0D001, 0x74C0D003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74C0D001, 0x74C0D004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74C0D001, 0x74C0D005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74C0D001, 0x74C0D006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74C0D001, 0x74C0D007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74C0D001, 0x74C0D008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74C0D001, 0x74C0D009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74C0D001, 0x74C0D00A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74C0D001, 0x74C0D00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74C0D001, 0x74C0D00C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74C0D001, 0x74C0D00D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74C0D001, 0x74C0D00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74C0D001, 0x74C0D00F, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x74C0D001, 0x74C0D002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74C0D001, 0x74C0D003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74C0D001, 0x74C0D004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74C0D001, 0x74C0D005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74C0D001, 0x74C0D006, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74C0D001, 0x74C0D007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74C0D001, 0x74C0D008, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74C0D001, 0x74C0D009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74C0D001, 0x74C0D00A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74C0D001, 0x74C0D00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74C0D001, 0x74C0D00C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74C0D001, 0x74C0D00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74C0D001, 0x74C0D00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74C0D001, 0x74C0D00F, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C0D002, 24325, 0x4C0D0014, 60.29918, 91.69143, -0.89175, 0.2834269, 0, 0, -0.9589939,  True, '2019-02-10 00:00:00'); /* Phantasm */

@@ -5,15 +5,15 @@ VALUES (0x76F13001,  1154, 0x6F130002, 21.60409, 30.21562, 14.19966, 0.03529407,
 /* @teleloc 0x6F130002 [21.604090 30.215620 14.199660] 0.035294 0.000000 0.000000 -0.999377 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F13001, 0x76F13002, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x76F13001, 0x76F13003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76F13001, 0x76F13004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76F13001, 0x76F13005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76F13001, 0x76F13006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76F13001, 0x76F13007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x76F13001, 0x76F13008, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x76F13001, 0x76F13009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76F13001, 0x76F1300A, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x76F13001, 0x76F13002, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x76F13001, 0x76F13003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76F13001, 0x76F13004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76F13001, 0x76F13005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76F13001, 0x76F13006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76F13001, 0x76F13007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x76F13001, 0x76F13008, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x76F13001, 0x76F13009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76F13001, 0x76F1300A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F13002, 36918, 0x6F130002, 21.60409, 30.21562, 14.19966, 0.03529407, 0, 0, -0.999377,  True, '2019-02-10 00:00:00'); /* Three Eyed Snowman */

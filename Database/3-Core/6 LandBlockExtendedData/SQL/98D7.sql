@@ -5,11 +5,11 @@ VALUES (0x798D7001,  1154, 0x98D70022, 99.4858, 35.92886, 80.29799, 1, 0, 0, 0, 
 /* @teleloc 0x98D70022 [99.485800 35.928860 80.297990] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798D7001, 0x798D7002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x798D7001, 0x798D7003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x798D7001, 0x798D7004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x798D7001, 0x798D7005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x798D7001, 0x798D7006, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x798D7001, 0x798D7002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x798D7001, 0x798D7003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x798D7001, 0x798D7004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x798D7001, 0x798D7005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x798D7001, 0x798D7006, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798D7002,  7123, 0x98D70022, 99.4858, 35.92886, 80.29799, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -36,8 +36,8 @@ VALUES (0x798D7007,  1542, 0x98D70022, 101.0159, 35.27414, 80.79176, 0.9238795, 
 /* @teleloc 0x98D70022 [101.015900 35.274140 80.791760] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798D7007, 0x798D7008, '2019-02-10 00:00:00') /* Corpse */
-     , (0x798D7007, 0x798D7009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x798D7007, 0x798D7008, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x798D7007, 0x798D7009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798D7008,  4180, 0x98D70022, 101.0159, 35.27414, 80.79176, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

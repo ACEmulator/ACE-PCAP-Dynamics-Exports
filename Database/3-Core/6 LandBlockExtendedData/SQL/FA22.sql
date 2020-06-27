@@ -5,38 +5,38 @@ VALUES (0x7FA22001,  1154, 0xFA220020, 82.71438, 189.6034, 0.01300001, 0.2376415
 /* @teleloc 0xFA220020 [82.714380 189.603400 0.013000] 0.237642 0.000000 0.000000 -0.971353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA22001, 0x7FA22002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA22001, 0x7FA22003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA22001, 0x7FA22004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA22001, 0x7FA22005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA22001, 0x7FA22006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA22001, 0x7FA22007, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7FA22001, 0x7FA22008, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22009, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2200A, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2200B, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA2200C, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA2200D, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7FA22001, 0x7FA2200E, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2200F, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22010, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22011, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA22012, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA22013, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA22014, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22015, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA22016, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7FA22001, 0x7FA22017, '2019-02-10 00:00:00') /* Sishalti Eye Stalk */
-     , (0x7FA22001, 0x7FA22018, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22019, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2201A, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2201B, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA2201C, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA2201D, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA2201E, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA2201F, '2019-02-10 00:00:00') /* Sishalti Tentacle */
-     , (0x7FA22001, 0x7FA22020, '2019-02-10 00:00:00') /* Sishalti Tendril */
-     , (0x7FA22001, 0x7FA22021, '2019-02-10 00:00:00') /* Sishalti Tendril */;
+VALUES (0x7FA22001, 0x7FA22002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA22001, 0x7FA22003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA22001, 0x7FA22004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA22001, 0x7FA22005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA22001, 0x7FA22006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA22001, 0x7FA22007, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7FA22001, 0x7FA22008, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22009, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2200A, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2200B, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA2200C, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA2200D, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7FA22001, 0x7FA2200E, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2200F, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22010, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22011, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA22012, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA22013, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA22014, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22015, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA22016, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7FA22001, 0x7FA22017, '2019-02-10 00:00:00') /* Sishalti Eye Stalk (24867) */
+     , (0x7FA22001, 0x7FA22018, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22019, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2201A, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2201B, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA2201C, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA2201D, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA2201E, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA2201F, '2019-02-10 00:00:00') /* Sishalti Tentacle (24869) */
+     , (0x7FA22001, 0x7FA22020, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */
+     , (0x7FA22001, 0x7FA22021, '2019-02-10 00:00:00') /* Sishalti Tendril (24868) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA22002,  7183, 0xFA220020, 82.71438, 189.6034, 0.01300001, 0.2376415, 0, 0, -0.9713529,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -171,7 +171,7 @@ VALUES (0x7FA22022,  1542, 0xFA220100, 59.8985, 12.005, 11.526, 0.7071068, 0, 0,
 /* @teleloc 0xFA220100 [59.898500 12.005000 11.526000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA22022, 0x7FA22023, '2019-02-10 00:00:00') /* Falatacot Vault */;
+VALUES (0x7FA22022, 0x7FA22023, '2019-02-10 00:00:00') /* Falatacot Vault (33788) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA22023, 33788, 0xFA220100, 59.8985, 12.005, 11.526, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Falatacot Vault */

@@ -301,514 +301,514 @@ VALUES (0x7F93B15B,  1154, 0xF93B0733, 52.949, 149.08, -21.995, -0.9117754, 0, 0
 /* @teleloc 0xF93B0733 [52.949000 149.080000 -21.995000] -0.911775 0.000000 0.000000 0.410689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93B15B, 0x7F93B15C, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B15D, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B15E, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B15F, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B160, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B161, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B162, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B163, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B164, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B165, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B166, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B167, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B168, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B169, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B16A, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B16B, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B16C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B16D, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B16E, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B16F, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B170, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B171, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B172, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B173, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B174, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B175, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B176, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B177, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B178, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B179, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B17A, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B17B, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B17C, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B17D, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x7F93B15B, 0x7F93B17E, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B17F, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B180, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B181, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B182, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B183, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B184, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B185, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B186, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B187, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B188, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B189, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B18A, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B18B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B18C, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B18D, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B18E, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B18F, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B190, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B191, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B192, '2019-02-10 00:00:00') /* Apostate Nexus Master */
-     , (0x7F93B15B, 0x7F93B193, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B194, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B195, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B196, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B197, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B198, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B199, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B19A, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B19B, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7F93B15B, 0x7F93B19C, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B19D, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B19E, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B19F, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1A0, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1A1, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1A2, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1A3, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1A4, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1A5, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1A6, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1A7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1A8, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1A9, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1AA, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1AB, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1AC, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1AD, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1AE, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1AF, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1B0, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1B1, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1B2, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1B3, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1B4, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1B5, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1B6, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1B7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1B8, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B1B9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1BA, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1BB, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B1BC, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1BD, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1BE, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1BF, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1C0, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1C1, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1C2, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1C3, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1C4, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1C5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1C6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1C7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1C8, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1C9, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1CA, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B1CB, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1CC, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B1CD, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1CE, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1CF, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D0, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1D1, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B1D2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D3, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D4, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1D5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1D8, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1D9, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1DA, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1DB, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1DC, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B1DD, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1DE, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1DF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1E0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1E1, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1E2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1E3, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B1E4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1E5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1E6, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1E7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1E8, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1E9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1EA, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1EB, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1EC, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1ED, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1EE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1EF, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1F0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1F1, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1F2, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B1F3, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1F4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1F5, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1F6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1F7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1F8, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1F9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1FA, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1FB, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B1FC, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B1FD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B1FE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B1FF, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B200, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B201, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B202, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B203, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B204, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B205, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B206, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B207, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B208, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B209, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B20A, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B20B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B20C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B20D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B20E, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B20F, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B210, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B211, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B212, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B213, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B214, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B215, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B216, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B217, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B218, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B219, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B21A, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B21B, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B21C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B21D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B21E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B21F, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B220, '2019-02-10 00:00:00') /* Apostate Nexus Guardian */
-     , (0x7F93B15B, 0x7F93B221, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B222, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B223, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B224, '2019-02-10 00:00:00') /* Door */
-     , (0x7F93B15B, 0x7F93B225, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B226, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B227, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B228, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B229, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B22A, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B22B, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B22C, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B22D, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B22E, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B22F, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B230, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B231, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B232, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B233, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B234, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B235, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B236, '2019-02-10 00:00:00') /* Wicked Skeleton */
-     , (0x7F93B15B, 0x7F93B237, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B238, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B239, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B23A, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B23B, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B23C, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B23D, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B23E, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B23F, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B240, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B241, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B242, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B243, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B244, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B245, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B246, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B247, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B248, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B249, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B24A, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B24B, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B24C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B24D, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B24E, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B24F, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B250, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B251, '2019-02-10 00:00:00') /* Door */
-     , (0x7F93B15B, 0x7F93B252, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B253, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B254, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B255, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B256, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B257, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x7F93B15B, 0x7F93B258, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B259, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B25A, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B25B, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B25C, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x7F93B15B, 0x7F93B25D, '2019-02-10 00:00:00') /* Wicked Skeleton */
-     , (0x7F93B15B, 0x7F93B25E, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B25F, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B260, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x7F93B15B, 0x7F93B261, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B262, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B263, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B264, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B265, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B266, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B267, '2019-02-10 00:00:00') /* Wicked Skeleton */
-     , (0x7F93B15B, 0x7F93B268, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B269, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B26A, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B26B, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B26C, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B26D, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B26E, '2019-02-10 00:00:00') /* Rock Wall */
-     , (0x7F93B15B, 0x7F93B26F, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B270, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B271, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B272, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B273, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B274, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B275, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B276, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B277, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B278, '2019-02-10 00:00:00') /* Wicked Skeleton */
-     , (0x7F93B15B, 0x7F93B279, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B27A, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B27B, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B27C, '2019-02-10 00:00:00') /* Thick Rock Wall */
-     , (0x7F93B15B, 0x7F93B27D, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B27E, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B27F, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B280, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B281, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B282, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B283, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B284, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B285, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B286, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B287, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B288, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B289, '2019-02-10 00:00:00') /* Filinuvekta Exarch */
-     , (0x7F93B15B, 0x7F93B28A, '2019-02-10 00:00:00') /* Filinuvekta Hieromancer */
-     , (0x7F93B15B, 0x7F93B28B, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B28C, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B28D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B28E, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B28F, '2019-02-10 00:00:00') /* Engorged Bloodstone */
-     , (0x7F93B15B, 0x7F93B290, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B291, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B292, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B293, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B294, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B295, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B296, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B297, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B298, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B299, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B29A, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B29B, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B29C, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B29D, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B29E, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B29F, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2A0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2A1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2A2, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2A3, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2A4, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2A5, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x7F93B15B, 0x7F93B2A6, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2A7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2A8, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2A9, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2AA, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2AB, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2AC, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2AD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B2AE, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B2AF, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2B0, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B2B1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2B2, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2B3, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2B4, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x7F93B15B, 0x7F93B2B5, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2B6, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2B7, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2B8, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2B9, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2BA, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2BB, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2BC, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B2BD, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2BE, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2BF, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2C0, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2C1, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2C2, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B2C3, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B2C4, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2C5, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2C6, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2C7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2C8, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2C9, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F93B15B, 0x7F93B2CA, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F93B15B, 0x7F93B2CB, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2CC, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2CD, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2CE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2CF, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2D0, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2D1, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2D2, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B2D3, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2D4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2D5, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B2D6, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2D7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2D8, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B2D9, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2DA, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2DB, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2DC, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2DD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B2DE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2DF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2E0, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2E1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2E2, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2E3, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2E4, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2E5, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B2E6, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2E7, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2E8, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B2E9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2EA, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2EB, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B2EC, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B2ED, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2EE, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2EF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B2F0, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2F1, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x7F93B15B, 0x7F93B2F2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2F3, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2F4, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2F5, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B2F6, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2F7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B2F8, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2F9, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2FA, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2FB, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2FC, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B2FD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B2FE, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B2FF, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B300, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B301, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B302, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B303, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B304, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B305, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B306, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B307, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B308, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B309, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B30A, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B30B, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B30C, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B30D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B30E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B30F, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B310, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B311, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B312, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B313, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B314, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B315, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B316, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B317, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B318, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B319, '2019-02-10 00:00:00') /* Gear Hunter Mage */
-     , (0x7F93B15B, 0x7F93B31A, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B31B, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x7F93B15B, 0x7F93B31C, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B31D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B31E, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B31F, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B320, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B321, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B322, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B323, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B324, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B325, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B326, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B327, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B328, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B329, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B32A, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B32B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B32C, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B32D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight */
-     , (0x7F93B15B, 0x7F93B32E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B32F, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B330, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B331, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B332, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B333, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B334, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B335, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B336, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B337, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B338, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B339, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B33A, '2019-02-10 00:00:00') /* Wicked Skeleton */
-     , (0x7F93B15B, 0x7F93B33B, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B33C, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B33D, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B33E, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B33F, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B340, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B341, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B342, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B343, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B344, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B345, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B346, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B347, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly */
-     , (0x7F93B15B, 0x7F93B348, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor */
-     , (0x7F93B15B, 0x7F93B349, '2019-02-10 00:00:00') /* Naughty Skeleton */
-     , (0x7F93B15B, 0x7F93B34A, '2019-02-10 00:00:00') /* Gear Hunter */
-     , (0x7F93B15B, 0x7F93B34B, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B34C, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight */
-     , (0x7F93B15B, 0x7F93B34D, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B34E, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B34F, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B350, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B351, '2019-02-10 00:00:00') /* Undead Commander */
-     , (0x7F93B15B, 0x7F93B352, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight */
-     , (0x7F93B15B, 0x7F93B353, '2019-02-10 00:00:00') /* Apostate Virindi Executor */
-     , (0x7F93B15B, 0x7F93B354, '2019-02-10 00:00:00') /* Armored Guardian */
-     , (0x7F93B15B, 0x7F93B355, '2019-02-10 00:00:00') /* Filinuvekta Hieromancer */
-     , (0x7F93B15B, 0x7F93B356, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight */
-     , (0x7F93B15B, 0x7F93B357, '2019-02-10 00:00:00') /* Apostate Virindi Executor */;
+VALUES (0x7F93B15B, 0x7F93B15C, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B15D, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B15E, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B15F, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B160, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B161, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B162, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B163, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B164, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B165, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B166, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B167, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B168, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B169, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B16A, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B16B, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B16C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B16D, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B16E, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B16F, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B170, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B171, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B172, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B173, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B174, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B175, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B176, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B177, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B178, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B179, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B17A, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B17B, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B17C, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B17D, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x7F93B15B, 0x7F93B17E, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B17F, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B180, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B181, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B182, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B183, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B184, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B185, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B186, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B187, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B188, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B189, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B18A, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B18B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B18C, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B18D, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B18E, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B18F, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B190, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B191, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B192, '2019-02-10 00:00:00') /* Apostate Nexus Master (43260) */
+     , (0x7F93B15B, 0x7F93B193, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B194, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B195, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B196, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B197, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B198, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B199, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B19A, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B19B, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F93B15B, 0x7F93B19C, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B19D, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B19E, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B19F, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1A0, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1A1, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1A2, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1A3, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1A4, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1A5, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1A6, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1A7, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1A8, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1A9, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1AA, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1AB, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1AC, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1AD, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1AE, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1AF, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1B0, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1B1, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1B2, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1B3, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1B4, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1B5, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1B6, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1B7, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1B8, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B1B9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1BA, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1BB, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B1BC, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1BD, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1BE, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1BF, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1C0, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1C1, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1C2, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1C3, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1C4, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1C5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1C6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1C7, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B1C8, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1C9, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1CA, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B1CB, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1CC, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B1CD, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1CE, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1CF, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D0, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1D1, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B1D2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D3, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D4, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1D5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1D8, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1D9, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1DA, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1DB, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1DC, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B1DD, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1DE, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1DF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1E0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1E1, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1E2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1E3, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B1E4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1E5, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1E6, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1E7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1E8, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1E9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1EA, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1EB, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1EC, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1ED, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1EE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1EF, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1F0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1F1, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1F2, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B1F3, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1F4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1F5, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1F6, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1F7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1F8, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1F9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1FA, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1FB, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B1FC, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B1FD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B1FE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B1FF, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B200, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B201, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B202, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B203, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B204, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B205, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B206, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B207, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B208, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B209, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B20A, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B20B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B20C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B20D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B20E, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B20F, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B210, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B211, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B212, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B213, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B214, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B215, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B216, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B217, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B218, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B219, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B21A, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B21B, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B21C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B21D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B21E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B21F, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B220, '2019-02-10 00:00:00') /* Apostate Nexus Guardian (43262) */
+     , (0x7F93B15B, 0x7F93B221, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B222, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B223, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B224, '2019-02-10 00:00:00') /* Door (21545) */
+     , (0x7F93B15B, 0x7F93B225, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B226, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B227, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B228, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B229, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B22A, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B22B, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B22C, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B22D, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B22E, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B22F, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B230, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B231, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B232, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B233, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B234, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B235, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B236, '2019-02-10 00:00:00') /* Wicked Skeleton (31013) */
+     , (0x7F93B15B, 0x7F93B237, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B238, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B239, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B23A, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B23B, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B23C, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B23D, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B23E, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B23F, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B240, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B241, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B242, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B243, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B244, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B245, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B246, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B247, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B248, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B249, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B24A, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B24B, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B24C, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B24D, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B24E, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B24F, '2019-02-10 00:00:00') /* Wailing Statue (26568) */
+     , (0x7F93B15B, 0x7F93B250, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B251, '2019-02-10 00:00:00') /* Door (21545) */
+     , (0x7F93B15B, 0x7F93B252, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
+     , (0x7F93B15B, 0x7F93B253, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B254, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B255, '2019-02-10 00:00:00') /* Wailing Statue (26568) */
+     , (0x7F93B15B, 0x7F93B256, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
+     , (0x7F93B15B, 0x7F93B257, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x7F93B15B, 0x7F93B258, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B259, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B25A, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B25B, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B25C, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B25D, '2019-02-10 00:00:00') /* Wicked Skeleton (31013) */
+     , (0x7F93B15B, 0x7F93B25E, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B25F, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B260, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B261, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B262, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B263, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B264, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B265, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B266, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B267, '2019-02-10 00:00:00') /* Wicked Skeleton (31013) */
+     , (0x7F93B15B, 0x7F93B268, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B269, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B26A, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B26B, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B26C, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B26D, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B26E, '2019-02-10 00:00:00') /* Rock Wall (37569) */
+     , (0x7F93B15B, 0x7F93B26F, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B270, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B271, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B272, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B273, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B274, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B275, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B276, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B277, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B278, '2019-02-10 00:00:00') /* Wicked Skeleton (31013) */
+     , (0x7F93B15B, 0x7F93B279, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B27A, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B27B, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B27C, '2019-02-10 00:00:00') /* Thick Rock Wall (51646) */
+     , (0x7F93B15B, 0x7F93B27D, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B27E, '2019-02-10 00:00:00') /* Undead Commander (43252) */
+     , (0x7F93B15B, 0x7F93B27F, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B280, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B281, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B282, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B283, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B284, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B285, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B286, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B287, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B288, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B289, '2019-02-10 00:00:00') /* Filinuvekta Exarch (43271) */
+     , (0x7F93B15B, 0x7F93B28A, '2019-02-10 00:00:00') /* Filinuvekta Hieromancer (43270) */
+     , (0x7F93B15B, 0x7F93B28B, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B28C, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B28D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B28E, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B28F, '2019-02-10 00:00:00') /* Engorged Bloodstone (43272) */
+     , (0x7F93B15B, 0x7F93B290, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B291, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B292, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B293, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B294, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B295, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B296, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B297, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B298, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B299, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B29A, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B29B, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B29C, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B29D, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B29E, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B29F, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43214) */
+     , (0x7F93B15B, 0x7F93B2A0, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43220) */
+     , (0x7F93B15B, 0x7F93B2A1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43220) */
+     , (0x7F93B15B, 0x7F93B2A2, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2A3, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2A4, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2A5, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x7F93B15B, 0x7F93B2A6, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2A7, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2A8, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2A9, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2AA, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2AB, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2AC, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2AD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B2AE, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B2AF, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2B0, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B2B1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2B2, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2B3, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2B4, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x7F93B15B, 0x7F93B2B5, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2B6, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2B7, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2B8, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2B9, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2BA, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2BB, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2BC, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B2BD, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2BE, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2BF, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2C0, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2C1, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2C2, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B2C3, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B2C4, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2C5, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2C6, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2C7, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2C8, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2C9, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F93B15B, 0x7F93B2CA, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F93B15B, 0x7F93B2CB, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2CC, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2CD, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2CE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2CF, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2D0, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2D1, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2D2, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B2D3, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2D4, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2D5, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B2D6, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2D7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2D8, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B2D9, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2DA, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2DB, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2DC, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2DD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B2DE, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2DF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2E0, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2E1, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2E2, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2E3, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2E4, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2E5, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B2E6, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2E7, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B2E8, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B2E9, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2EA, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2EB, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B2EC, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B2ED, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2EE, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2EF, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B2F0, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2F1, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x7F93B15B, 0x7F93B2F2, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2F3, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2F4, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2F5, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B2F6, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2F7, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B2F8, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2F9, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2FA, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2FB, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2FC, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B2FD, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B2FE, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B2FF, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B300, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B301, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B302, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B303, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B304, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B305, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B306, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B307, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B308, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B309, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B30A, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B30B, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B30C, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B30D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B30E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B30F, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B310, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B311, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B312, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B313, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B314, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B315, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B316, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B317, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B318, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B319, '2019-02-10 00:00:00') /* Gear Hunter Mage (42606) */
+     , (0x7F93B15B, 0x7F93B31A, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B31B, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43221) */
+     , (0x7F93B15B, 0x7F93B31C, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B31D, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B31E, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B31F, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B320, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B321, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B322, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B323, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B324, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B325, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B326, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B327, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B328, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B329, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B32A, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B32B, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B32C, '2019-02-10 00:00:00') /* Gear Hunter (42607) */
+     , (0x7F93B15B, 0x7F93B32D, '2019-02-10 00:00:00') /* Subverted Iron Blade Knight (43218) */
+     , (0x7F93B15B, 0x7F93B32E, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B32F, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B330, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B331, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B332, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B333, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B334, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B335, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B336, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B337, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B338, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B339, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B33A, '2019-02-10 00:00:00') /* Wicked Skeleton (31013) */
+     , (0x7F93B15B, 0x7F93B33B, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B33C, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B33D, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B33E, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B33F, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B340, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B341, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B342, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B343, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B344, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B345, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B346, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B347, '2019-02-10 00:00:00') /* Visible Portalspace Anomaly (43248) */
+     , (0x7F93B15B, 0x7F93B348, '2019-02-10 00:00:00') /* Apostate Virindi Inquisitor (43223) */
+     , (0x7F93B15B, 0x7F93B349, '2019-02-10 00:00:00') /* Naughty Skeleton (31014) */
+     , (0x7F93B15B, 0x7F93B34A, '2019-02-10 00:00:00') /* Gear Hunter (42605) */
+     , (0x7F93B15B, 0x7F93B34B, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B34C, '2019-02-10 00:00:00') /* Subverted Bronze Gauntlet Knight (43216) */
+     , (0x7F93B15B, 0x7F93B34D, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B34E, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B34F, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B350, '2019-02-10 00:00:00') /* Undead Commander (43269) */
+     , (0x7F93B15B, 0x7F93B351, '2019-02-10 00:00:00') /* Undead Commander (43252) */
+     , (0x7F93B15B, 0x7F93B352, '2019-02-10 00:00:00') /* Subverted Copper Cog Knight (43217) */
+     , (0x7F93B15B, 0x7F93B353, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */
+     , (0x7F93B15B, 0x7F93B354, '2019-02-10 00:00:00') /* Armored Guardian (43251) */
+     , (0x7F93B15B, 0x7F93B355, '2019-02-10 00:00:00') /* Filinuvekta Hieromancer (43270) */
+     , (0x7F93B15B, 0x7F93B356, '2019-02-10 00:00:00') /* Subverted Silver Scope Knight (43219) */
+     , (0x7F93B15B, 0x7F93B357, '2019-02-10 00:00:00') /* Apostate Virindi Executor (43222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B15C, 42607, 0xF93B0733, 52.949, 149.08, -21.995, -0.9117754, 0, 0, 0.4106892,  True, '2019-02-10 00:00:00'); /* Gear Hunter */
@@ -2847,15 +2847,15 @@ VALUES (0x7F93B358,  1542, 0xF93B06B5, 150.691, 101.74, -28.063, 1, 0, 0, 0, Fal
 /* @teleloc 0xF93B06B5 [150.691000 101.740000 -28.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F93B358, 0x7F93B359, '2019-02-10 00:00:00') /* Sparkling Portal */
-     , (0x7F93B358, 0x7F93B35A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F93B358, 0x7F93B35B, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7F93B358, 0x7F93B35C, '2019-02-10 00:00:00') /* Sparkling Portal */
-     , (0x7F93B358, 0x7F93B35D, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7F93B358, 0x7F93B35E, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7F93B358, 0x7F93B35F, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7F93B358, 0x7F93B360, '2019-02-10 00:00:00') /* Legendary Key */
-     , (0x7F93B358, 0x7F93B361, '2019-02-10 00:00:00') /* Sparkling Portal */;
+VALUES (0x7F93B358, 0x7F93B359, '2019-02-10 00:00:00') /* Sparkling Portal (43255) */
+     , (0x7F93B358, 0x7F93B35A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F93B358, 0x7F93B35B, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7F93B358, 0x7F93B35C, '2019-02-10 00:00:00') /* Sparkling Portal (43255) */
+     , (0x7F93B358, 0x7F93B35D, '2019-02-10 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B358, 0x7F93B35E, '2019-02-10 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B358, 0x7F93B35F, '2019-02-10 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B358, 0x7F93B360, '2019-02-10 00:00:00') /* Legendary Key (51648) */
+     , (0x7F93B358, 0x7F93B361, '2019-02-10 00:00:00') /* Sparkling Portal (43255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93B359, 43255, 0xF93B06B5, 150.691, 101.74, -28.063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sparkling Portal */

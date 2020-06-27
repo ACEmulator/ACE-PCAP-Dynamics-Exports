@@ -5,19 +5,19 @@ VALUES (0x72D5C001,  1154, 0x2D5C0009, 44.28289, 17.93918, 12.76424, -0.99995, 0
 /* @teleloc 0x2D5C0009 [44.282890 17.939180 12.764240] -0.999950 0.000000 0.000000 -0.010000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5C001, 0x72D5C002, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x72D5C001, 0x72D5C003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72D5C001, 0x72D5C004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5C001, 0x72D5C005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5C001, 0x72D5C006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D5C001, 0x72D5C007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5C001, 0x72D5C008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5C001, 0x72D5C009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D5C001, 0x72D5C00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D5C001, 0x72D5C00B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D5C001, 0x72D5C00C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72D5C001, 0x72D5C00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5C001, 0x72D5C00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x72D5C001, 0x72D5C002, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x72D5C001, 0x72D5C003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72D5C001, 0x72D5C004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72D5C001, 0x72D5C005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72D5C001, 0x72D5C006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D5C001, 0x72D5C007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5C001, 0x72D5C008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5C001, 0x72D5C009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D5C001, 0x72D5C00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D5C001, 0x72D5C00B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D5C001, 0x72D5C00C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72D5C001, 0x72D5C00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5C001, 0x72D5C00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5C002, 11991, 0x2D5C0009, 44.28289, 17.93918, 12.76424, -0.99995, 0, 0, -0.01000045,  True, '2019-02-10 00:00:00'); /* Diamond Lord */
@@ -76,7 +76,7 @@ VALUES (0x72D5C00F,  1542, 0x2D5C0009, 28.78206, 16.33071, 17.36092, 1, 0, 0, 0,
 /* @teleloc 0x2D5C0009 [28.782060 16.330710 17.360920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5C00F, 0x72D5C010, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72D5C00F, 0x72D5C010, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5C010,  8999, 0x2D5C0009, 28.78206, 16.33071, 17.36092, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

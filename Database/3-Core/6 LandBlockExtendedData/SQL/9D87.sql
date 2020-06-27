@@ -5,8 +5,8 @@ VALUES (0x79D87001,  1154, 0x9D870024, 116.357, 77.17496, 43.9919, 0.9590085, 0,
 /* @teleloc 0x9D870024 [116.357000 77.174960 43.991900] 0.959009 0.000000 0.000000 -0.283378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D87001, 0x79D87002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79D87001, 0x79D87003, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x79D87001, 0x79D87002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79D87001, 0x79D87003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D87002,  2575, 0x9D870024, 116.357, 77.17496, 43.9919, 0.9590085, 0, 0, -0.2833776,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

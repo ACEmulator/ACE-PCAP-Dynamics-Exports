@@ -5,24 +5,24 @@ VALUES (0x7DEC4001,  1154, 0xDEC4002A, 136.4849, 31.55408, 0, -0.6611704, 0, 0, 
 /* @teleloc 0xDEC4002A [136.484900 31.554080 0.000000] -0.661170 0.000000 0.000000 -0.750236 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DEC4001, 0x7DEC4002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DEC4001, 0x7DEC4003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DEC4001, 0x7DEC4004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DEC4001, 0x7DEC4005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7DEC4001, 0x7DEC4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7DEC4001, 0x7DEC4007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC4001, 0x7DEC4008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DEC4001, 0x7DEC4009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC4001, 0x7DEC400A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7DEC4001, 0x7DEC400B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC4001, 0x7DEC400C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DEC4001, 0x7DEC400D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC4001, 0x7DEC400E, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DEC4001, 0x7DEC400F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DEC4001, 0x7DEC4010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC4001, 0x7DEC4011, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DEC4001, 0x7DEC4012, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DEC4001, 0x7DEC4013, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7DEC4001, 0x7DEC4002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DEC4001, 0x7DEC4003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DEC4001, 0x7DEC4004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DEC4001, 0x7DEC4005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7DEC4001, 0x7DEC4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7DEC4001, 0x7DEC4007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC4001, 0x7DEC4008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DEC4001, 0x7DEC4009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC4001, 0x7DEC400A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7DEC4001, 0x7DEC400B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC4001, 0x7DEC400C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DEC4001, 0x7DEC400D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC4001, 0x7DEC400E, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DEC4001, 0x7DEC400F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DEC4001, 0x7DEC4010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC4001, 0x7DEC4011, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DEC4001, 0x7DEC4012, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DEC4001, 0x7DEC4013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DEC4002,   212, 0xDEC4002A, 136.4849, 31.55408, 0, -0.6611704, 0, 0, -0.7502358,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

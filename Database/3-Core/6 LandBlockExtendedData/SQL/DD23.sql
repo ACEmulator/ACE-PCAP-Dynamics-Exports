@@ -5,27 +5,27 @@ VALUES (0x7DD23001,  1154, 0xDD230005, 16.49733, 97.9902, 64.70465, 0.9238795, 0
 /* @teleloc 0xDD230005 [16.497330 97.990200 64.704650] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD23001, 0x7DD23002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DD23001, 0x7DD23003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DD23001, 0x7DD23004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DD23001, 0x7DD23005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DD23001, 0x7DD23006, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7DD23001, 0x7DD23007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DD23001, 0x7DD23008, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7DD23001, 0x7DD23009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7DD23001, 0x7DD2300A, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7DD23001, 0x7DD2300B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DD23001, 0x7DD2300C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DD23001, 0x7DD2300D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7DD23001, 0x7DD2300E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7DD23001, 0x7DD2300F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7DD23001, 0x7DD23010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7DD23001, 0x7DD23011, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7DD23001, 0x7DD23012, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7DD23001, 0x7DD23013, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7DD23001, 0x7DD23014, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7DD23001, 0x7DD23015, '2019-02-10 00:00:00') /* Flare */
-     , (0x7DD23001, 0x7DD23016, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7DD23001, 0x7DD23002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DD23001, 0x7DD23003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DD23001, 0x7DD23004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DD23001, 0x7DD23005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DD23001, 0x7DD23006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7DD23001, 0x7DD23007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DD23001, 0x7DD23008, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7DD23001, 0x7DD23009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7DD23001, 0x7DD2300A, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7DD23001, 0x7DD2300B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7DD23001, 0x7DD2300C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7DD23001, 0x7DD2300D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7DD23001, 0x7DD2300E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7DD23001, 0x7DD2300F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7DD23001, 0x7DD23010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7DD23001, 0x7DD23011, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7DD23001, 0x7DD23012, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7DD23001, 0x7DD23013, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7DD23001, 0x7DD23014, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7DD23001, 0x7DD23015, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7DD23001, 0x7DD23016, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD23002,   201, 0xDD230005, 16.49733, 97.9902, 64.70465, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -116,8 +116,8 @@ VALUES (0x7DD23017,  1542, 0xDD230036, 147.9684, 127.1595, -0.09999999, -0.04322
 /* @teleloc 0xDD230036 [147.968400 127.159500 -0.100000] -0.043227 0.000000 0.000000 -0.999065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD23017, 0x7DD23018, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7DD23017, 0x7DD23019, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7DD23017, 0x7DD23018, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7DD23017, 0x7DD23019, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD23018,  8039, 0xDD230036, 147.9684, 127.1595, -0.09999999, -0.04322652, 0, 0, -0.9990653,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

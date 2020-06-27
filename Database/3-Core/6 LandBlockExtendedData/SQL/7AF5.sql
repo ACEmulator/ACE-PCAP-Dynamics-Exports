@@ -5,22 +5,22 @@ VALUES (0x77AF5001,  1154, 0x7AF5001C, 83.73183, 74.70675, -0.0975, 0.02918421, 
 /* @teleloc 0x7AF5001C [83.731830 74.706750 -0.097500] 0.029184 0.000000 0.000000 -0.999574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AF5001, 0x77AF5002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x77AF5001, 0x77AF5003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x77AF5001, 0x77AF5004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x77AF5001, 0x77AF5005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x77AF5001, 0x77AF5006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x77AF5001, 0x77AF5007, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77AF5001, 0x77AF5008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77AF5001, 0x77AF5009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x77AF5001, 0x77AF500A, '2019-02-10 00:00:00') /* Caustic */
-     , (0x77AF5001, 0x77AF500B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77AF5001, 0x77AF500C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x77AF5001, 0x77AF500D, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x77AF5001, 0x77AF500E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x77AF5001, 0x77AF500F, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x77AF5001, 0x77AF5010, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x77AF5001, 0x77AF5011, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x77AF5001, 0x77AF5002, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x77AF5001, 0x77AF5003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x77AF5001, 0x77AF5004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x77AF5001, 0x77AF5005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x77AF5001, 0x77AF5006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x77AF5001, 0x77AF5007, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77AF5001, 0x77AF5008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77AF5001, 0x77AF5009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x77AF5001, 0x77AF500A, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x77AF5001, 0x77AF500B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77AF5001, 0x77AF500C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x77AF5001, 0x77AF500D, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x77AF5001, 0x77AF500E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x77AF5001, 0x77AF500F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x77AF5001, 0x77AF5010, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x77AF5001, 0x77AF5011, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF5002, 24314, 0x7AF5001C, 83.73183, 74.70675, -0.0975, 0.02918421, 0, 0, -0.9995741,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */
@@ -91,7 +91,7 @@ VALUES (0x77AF5012,  1542, 0x7AF50013, 65.22334, 58.58447, 6.118695, 1, 0, 0, 0,
 /* @teleloc 0x7AF50013 [65.223340 58.584470 6.118695] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AF5012, 0x77AF5013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x77AF5012, 0x77AF5013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF5013, 31445, 0x7AF50013, 65.22334, 58.58447, 6.118695, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

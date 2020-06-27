@@ -5,10 +5,10 @@ VALUES (0x79F27001,  1154, 0x9F270006, 13.57937, 124.4487, 234.644, 0.09980102, 
 /* @teleloc 0x9F270006 [13.579370 124.448700 234.644000] 0.099801 0.000000 0.000000 -0.995007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F27001, 0x79F27002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79F27001, 0x79F27003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79F27001, 0x79F27004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79F27001, 0x79F27005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x79F27001, 0x79F27002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79F27001, 0x79F27003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79F27001, 0x79F27004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79F27001, 0x79F27005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F27002,   199, 0x9F270006, 13.57937, 124.4487, 234.644, 0.09980102, 0, 0, -0.9950074,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -31,8 +31,8 @@ VALUES (0x79F27006,  1542, 0x9F270006, 19.1089, 128.9979, 235.9346, 0.09980102, 
 /* @teleloc 0x9F270006 [19.108900 128.997900 235.934600] 0.099801 0.000000 0.000000 -0.995007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F27006, 0x79F27007, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x79F27006, 0x79F27008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79F27006, 0x79F27007, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x79F27006, 0x79F27008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F27007,  8646, 0x9F270006, 19.1089, 128.9979, 235.9346, 0.09980102, 0, 0, -0.9950074,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

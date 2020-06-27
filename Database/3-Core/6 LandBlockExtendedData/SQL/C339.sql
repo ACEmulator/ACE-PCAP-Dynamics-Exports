@@ -5,22 +5,22 @@ VALUES (0x7C339001,  1154, 0xC3390040, 185.2481, 171.9705, 67.11856, 0.8539984, 
 /* @teleloc 0xC3390040 [185.248100 171.970500 67.118560] 0.853998 0.000000 0.000000 -0.520276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C339001, 0x7C339002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C339001, 0x7C339003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C339001, 0x7C339004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C339001, 0x7C339005, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C339001, 0x7C339006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C339001, 0x7C339007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C339001, 0x7C339008, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C339001, 0x7C339009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C339001, 0x7C33900A, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C339001, 0x7C33900B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C339001, 0x7C33900C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C339001, 0x7C33900D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C339001, 0x7C33900E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C339001, 0x7C33900F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C339001, 0x7C339010, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C339001, 0x7C339011, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7C339001, 0x7C339002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C339001, 0x7C339003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C339001, 0x7C339004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C339001, 0x7C339005, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C339001, 0x7C339006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C339001, 0x7C339007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C339001, 0x7C339008, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C339001, 0x7C339009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C339001, 0x7C33900A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C339001, 0x7C33900B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C339001, 0x7C33900C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C339001, 0x7C33900D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C339001, 0x7C33900E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C339001, 0x7C33900F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C339001, 0x7C339010, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C339001, 0x7C339011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C339002,  1627, 0xC3390040, 185.2481, 171.9705, 67.11856, 0.8539984, 0, 0, -0.5202757,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -91,7 +91,7 @@ VALUES (0x7C339012,  1542, 0xC3390037, 163.7587, 167.8809, 65.63448, 1, 0, 0, 0,
 /* @teleloc 0xC3390037 [163.758700 167.880900 65.634480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C339012, 0x7C339013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C339012, 0x7C339013, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C339013, 31443, 0xC3390037, 163.7587, 167.8809, 65.63448, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

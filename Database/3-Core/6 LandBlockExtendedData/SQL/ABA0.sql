@@ -5,12 +5,12 @@ VALUES (0x7ABA0001,  1154, 0xABA00002, 18.39604, 30.4657, 134.5423, 0.9659258, 0
 /* @teleloc 0xABA00002 [18.396040 30.465700 134.542300] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA0001, 0x7ABA0002, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7ABA0001, 0x7ABA0003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ABA0001, 0x7ABA0004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7ABA0001, 0x7ABA0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ABA0001, 0x7ABA0006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ABA0001, 0x7ABA0007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7ABA0001, 0x7ABA0002, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7ABA0001, 0x7ABA0003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ABA0001, 0x7ABA0004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7ABA0001, 0x7ABA0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ABA0001, 0x7ABA0006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ABA0001, 0x7ABA0007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA0002,  1632, 0xABA00002, 18.39604, 30.4657, 134.5423, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Slave */

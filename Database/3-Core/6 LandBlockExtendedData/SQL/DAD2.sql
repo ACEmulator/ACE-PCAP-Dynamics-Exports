@@ -5,16 +5,16 @@ VALUES (0x7DAD2001,  1154, 0xDAD2002B, 130.3884, 59.63542, 0, -0.3332483, 0, 0, 
 /* @teleloc 0xDAD2002B [130.388400 59.635420 0.000000] -0.333248 0.000000 0.000000 -0.942839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DAD2001, 0x7DAD2002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DAD2001, 0x7DAD2003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DAD2001, 0x7DAD2004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DAD2001, 0x7DAD2005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DAD2001, 0x7DAD2006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DAD2001, 0x7DAD2007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DAD2001, 0x7DAD2008, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DAD2001, 0x7DAD2009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DAD2001, 0x7DAD200A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DAD2001, 0x7DAD200B, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7DAD2001, 0x7DAD2002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DAD2001, 0x7DAD2003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DAD2001, 0x7DAD2004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DAD2001, 0x7DAD2005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DAD2001, 0x7DAD2006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DAD2001, 0x7DAD2007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DAD2001, 0x7DAD2008, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DAD2001, 0x7DAD2009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DAD2001, 0x7DAD200A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DAD2001, 0x7DAD200B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DAD2002,     3, 0xDAD2002B, 130.3884, 59.63542, 0, -0.3332483, 0, 0, -0.9428391,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

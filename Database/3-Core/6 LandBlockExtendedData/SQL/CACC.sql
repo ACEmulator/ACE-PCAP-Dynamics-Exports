@@ -5,15 +5,15 @@ VALUES (0x7CACC001,  1154, 0xCACC000A, 43.11004, 29.84063, 52, -0.9652005, 0, 0,
 /* @teleloc 0xCACC000A [43.110040 29.840630 52.000000] -0.965201 0.000000 0.000000 -0.261511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CACC001, 0x7CACC002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACC001, 0x7CACC003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CACC001, 0x7CACC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACC001, 0x7CACC005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACC001, 0x7CACC006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CACC001, 0x7CACC007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CACC001, 0x7CACC008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACC001, 0x7CACC009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CACC001, 0x7CACC00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CACC001, 0x7CACC002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACC001, 0x7CACC003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CACC001, 0x7CACC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACC001, 0x7CACC005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACC001, 0x7CACC006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CACC001, 0x7CACC007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CACC001, 0x7CACC008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACC001, 0x7CACC009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CACC001, 0x7CACC00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CACC002, 23482, 0xCACC000A, 43.11004, 29.84063, 52, -0.9652005, 0, 0, -0.2615107,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

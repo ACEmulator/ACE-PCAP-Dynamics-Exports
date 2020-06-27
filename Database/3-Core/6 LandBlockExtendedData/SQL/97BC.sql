@@ -5,18 +5,18 @@ VALUES (0x797BC001,  1154, 0x97BC0004, 20.72768, 84.65503, 97.93755, -0.1736482,
 /* @teleloc 0x97BC0004 [20.727680 84.655030 97.937550] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797BC001, 0x797BC002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x797BC001, 0x797BC003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x797BC001, 0x797BC004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x797BC001, 0x797BC005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x797BC001, 0x797BC006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x797BC001, 0x797BC007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x797BC001, 0x797BC008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x797BC001, 0x797BC009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x797BC001, 0x797BC00A, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x797BC001, 0x797BC00B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x797BC001, 0x797BC00C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x797BC001, 0x797BC00D, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x797BC001, 0x797BC002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x797BC001, 0x797BC003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x797BC001, 0x797BC004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x797BC001, 0x797BC005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x797BC001, 0x797BC006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x797BC001, 0x797BC007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797BC001, 0x797BC008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797BC001, 0x797BC009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x797BC001, 0x797BC00A, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x797BC001, 0x797BC00B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797BC001, 0x797BC00C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797BC001, 0x797BC00D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797BC002,  2575, 0x97BC0004, 20.72768, 84.65503, 97.93755, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -71,7 +71,7 @@ VALUES (0x797BC00E,  1542, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0,
 /* @teleloc 0x97BC000C [34.619420 89.263480 100.877300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797BC00E, 0x797BC00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x797BC00E, 0x797BC00F, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797BC00F, 22570, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

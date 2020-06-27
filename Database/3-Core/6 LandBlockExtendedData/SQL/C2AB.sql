@@ -5,27 +5,27 @@ VALUES (0x7C2AB001,  1154, 0xC2AB0029, 126.305, 6.66655, 111.0795, -0.2091107, 0
 /* @teleloc 0xC2AB0029 [126.305000 6.666550 111.079500] -0.209111 0.000000 0.000000 -0.977892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2AB001, 0x7C2AB002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C2AB001, 0x7C2AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2AB001, 0x7C2AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2AB001, 0x7C2AB005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2AB001, 0x7C2AB006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2AB001, 0x7C2AB007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C2AB001, 0x7C2AB008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C2AB001, 0x7C2AB009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C2AB001, 0x7C2AB00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C2AB001, 0x7C2AB00B, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C2AB001, 0x7C2AB00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C2AB001, 0x7C2AB00D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C2AB001, 0x7C2AB00E, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7C2AB001, 0x7C2AB00F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C2AB001, 0x7C2AB010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C2AB001, 0x7C2AB011, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C2AB001, 0x7C2AB012, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C2AB001, 0x7C2AB013, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C2AB001, 0x7C2AB014, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C2AB001, 0x7C2AB015, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C2AB001, 0x7C2AB016, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C2AB001, 0x7C2AB002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C2AB001, 0x7C2AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2AB001, 0x7C2AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2AB001, 0x7C2AB005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2AB001, 0x7C2AB006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2AB001, 0x7C2AB007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C2AB001, 0x7C2AB008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C2AB001, 0x7C2AB009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C2AB001, 0x7C2AB00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C2AB001, 0x7C2AB00B, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C2AB001, 0x7C2AB00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C2AB001, 0x7C2AB00D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C2AB001, 0x7C2AB00E, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7C2AB001, 0x7C2AB00F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C2AB001, 0x7C2AB010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C2AB001, 0x7C2AB011, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C2AB001, 0x7C2AB012, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C2AB001, 0x7C2AB013, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C2AB001, 0x7C2AB014, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C2AB001, 0x7C2AB015, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C2AB001, 0x7C2AB016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2AB002,  7978, 0xC2AB0029, 126.305, 6.66655, 111.0795, -0.2091107, 0, 0, -0.977892,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -116,10 +116,10 @@ VALUES (0x7C2AB017,  1542, 0xC2AB0006, 18.3401, 133.9245, 85.42464, 0.6851557, 0
 /* @teleloc 0xC2AB0006 [18.340100 133.924500 85.424640] 0.685156 0.000000 0.000000 -0.728397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2AB017, 0x7C2AB018, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C2AB017, 0x7C2AB019, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7C2AB017, 0x7C2AB01A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C2AB017, 0x7C2AB01B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C2AB017, 0x7C2AB018, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C2AB017, 0x7C2AB019, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7C2AB017, 0x7C2AB01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C2AB017, 0x7C2AB01B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2AB018,  8037, 0xC2AB0006, 18.3401, 133.9245, 85.42464, 0.6851557, 0, 0, -0.7283966,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,20 +5,20 @@ VALUES (0x73E35001,  1154, 0x3E350008, 23.99067, 176.4285, -0.09000004, 0.710920
 /* @teleloc 0x3E350008 [23.990670 176.428500 -0.090000] 0.710921 0.000000 0.000000 -0.703272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E35001, 0x73E35002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73E35001, 0x73E35003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73E35001, 0x73E35004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E35001, 0x73E35005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73E35001, 0x73E35006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E35001, 0x73E35007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73E35001, 0x73E35008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73E35001, 0x73E35009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E35001, 0x73E3500A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E35001, 0x73E3500B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E35001, 0x73E3500C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E35001, 0x73E3500D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E35001, 0x73E3500E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E35001, 0x73E3500F, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73E35001, 0x73E35002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73E35001, 0x73E35003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73E35001, 0x73E35004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E35001, 0x73E35005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73E35001, 0x73E35006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E35001, 0x73E35007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73E35001, 0x73E35008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73E35001, 0x73E35009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E35001, 0x73E3500A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E35001, 0x73E3500B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E35001, 0x73E3500C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E35001, 0x73E3500D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E35001, 0x73E3500E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E35001, 0x73E3500F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E35002, 36829, 0x3E350008, 23.99067, 176.4285, -0.09000004, 0.7109207, 0, 0, -0.7032722,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -81,7 +81,7 @@ VALUES (0x73E35010,  1542, 0x3E350010, 27.30665, 170.416, 13.72267, 1, 0, 0, 0, 
 /* @teleloc 0x3E350010 [27.306650 170.416000 13.722670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E35010, 0x73E35011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73E35010, 0x73E35011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E35011, 31445, 0x3E350010, 27.30665, 170.416, 13.72267, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

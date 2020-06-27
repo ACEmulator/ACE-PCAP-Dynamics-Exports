@@ -5,35 +5,35 @@ VALUES (0x70F37001,  1154, 0x0F370040, 169.5146, 184.2697, 1.304264, 0.923645, 0
 /* @teleloc 0x0F370040 [169.514600 184.269700 1.304264] 0.923645 0.000000 0.000000 -0.383249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F37001, 0x70F37002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70F37001, 0x70F37003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F37001, 0x70F37004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F37001, 0x70F37005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F37001, 0x70F37006, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70F37001, 0x70F37007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F37001, 0x70F37008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70F37001, 0x70F37009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70F37001, 0x70F3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70F37001, 0x70F3700B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70F37001, 0x70F3700C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F37001, 0x70F3700D, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70F37001, 0x70F3700E, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70F37001, 0x70F3700F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F37001, 0x70F37010, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70F37001, 0x70F37011, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70F37001, 0x70F37012, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70F37001, 0x70F37013, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x70F37001, 0x70F37014, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x70F37001, 0x70F37015, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70F37001, 0x70F37016, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F37001, 0x70F37017, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70F37001, 0x70F37018, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F37001, 0x70F37019, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70F37001, 0x70F3701A, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70F37001, 0x70F3701B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F37001, 0x70F3701C, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70F37001, 0x70F3701D, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70F37001, 0x70F3701E, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x70F37001, 0x70F37002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70F37001, 0x70F37003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F37001, 0x70F37004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F37001, 0x70F37005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F37001, 0x70F37006, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70F37001, 0x70F37007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F37001, 0x70F37008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70F37001, 0x70F37009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70F37001, 0x70F3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70F37001, 0x70F3700B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70F37001, 0x70F3700C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F37001, 0x70F3700D, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70F37001, 0x70F3700E, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70F37001, 0x70F3700F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F37001, 0x70F37010, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70F37001, 0x70F37011, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70F37001, 0x70F37012, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70F37001, 0x70F37013, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x70F37001, 0x70F37014, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x70F37001, 0x70F37015, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70F37001, 0x70F37016, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F37001, 0x70F37017, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70F37001, 0x70F37018, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F37001, 0x70F37019, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70F37001, 0x70F3701A, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70F37001, 0x70F3701B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F37001, 0x70F3701C, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70F37001, 0x70F3701D, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70F37001, 0x70F3701E, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F37002, 22914, 0x0F370040, 169.5146, 184.2697, 1.304264, 0.923645, 0, 0, -0.3832491,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -156,8 +156,8 @@ VALUES (0x70F3701F,  1542, 0x0F370006, 14.20426, 131.6324, -0.11, 0.3708581, 0, 
 /* @teleloc 0x0F370006 [14.204260 131.632400 -0.110000] 0.370858 0.000000 0.000000 -0.928690 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F3701F, 0x70F37020, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x70F3701F, 0x70F37021, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70F3701F, 0x70F37020, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x70F3701F, 0x70F37021, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F37020,  9286, 0x0F370006, 14.20426, 131.6324, -0.11, 0.3708581, 0, 0, -0.9286895,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

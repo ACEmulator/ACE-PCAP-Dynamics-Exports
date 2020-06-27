@@ -5,18 +5,18 @@ VALUES (0x799EC001,  1154, 0x99EC003A, 177.286, 42.78638, 24.91166, 0.1276471, 0
 /* @teleloc 0x99EC003A [177.286000 42.786380 24.911660] 0.127647 0.000000 0.000000 -0.991820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EC001, 0x799EC002, '2019-02-10 00:00:00') /* Frost */
-     , (0x799EC001, 0x799EC003, '2019-02-10 00:00:00') /* Frost */
-     , (0x799EC001, 0x799EC004, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x799EC001, 0x799EC005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x799EC001, 0x799EC006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x799EC001, 0x799EC007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x799EC001, 0x799EC008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x799EC001, 0x799EC009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x799EC001, 0x799EC00A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799EC001, 0x799EC00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x799EC001, 0x799EC00C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x799EC001, 0x799EC00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x799EC001, 0x799EC002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x799EC001, 0x799EC003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x799EC001, 0x799EC004, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x799EC001, 0x799EC005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x799EC001, 0x799EC006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x799EC001, 0x799EC007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x799EC001, 0x799EC008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x799EC001, 0x799EC009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x799EC001, 0x799EC00A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EC001, 0x799EC00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EC001, 0x799EC00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x799EC001, 0x799EC00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EC002, 14512, 0x99EC003A, 177.286, 42.78638, 24.91166, 0.1276471, 0, 0, -0.9918197,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -71,7 +71,7 @@ VALUES (0x799EC00E,  1542, 0x99EC001D, 84.49326, 116.3986, 20, -4.371139E-08, 0,
 /* @teleloc 0x99EC001D [84.493260 116.398600 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EC00E, 0x799EC00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x799EC00E, 0x799EC00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EC00F,  4380, 0x99EC001D, 84.49326, 116.3986, 20, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

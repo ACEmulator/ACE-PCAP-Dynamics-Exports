@@ -5,16 +5,16 @@ VALUES (0x7C0D0001,  1154, 0xC0D00013, 53.57357, 61.28863, 268.6125, 0.7071068, 
 /* @teleloc 0xC0D00013 [53.573570 61.288630 268.612500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0D0001, 0x7C0D0002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C0D0001, 0x7C0D0003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C0D0001, 0x7C0D0004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7C0D0001, 0x7C0D0005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C0D0001, 0x7C0D0006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C0D0001, 0x7C0D0007, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C0D0001, 0x7C0D0008, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C0D0001, 0x7C0D0009, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C0D0001, 0x7C0D000A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C0D0001, 0x7C0D000B, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x7C0D0001, 0x7C0D0002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C0D0001, 0x7C0D0003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C0D0001, 0x7C0D0004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7C0D0001, 0x7C0D0005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C0D0001, 0x7C0D0006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C0D0001, 0x7C0D0007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C0D0001, 0x7C0D0008, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C0D0001, 0x7C0D0009, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C0D0001, 0x7C0D000A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C0D0001, 0x7C0D000B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0D0002,  7335, 0xC0D00013, 53.57357, 61.28863, 268.6125, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -61,8 +61,8 @@ VALUES (0x7C0D000C,  1542, 0xC0D00012, 61.67249, 30.75375, 255.6228, 0.03235224,
 /* @teleloc 0xC0D00012 [61.672490 30.753750 255.622800] 0.032352 0.000000 0.000000 -0.999477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0D000C, 0x7C0D000D, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7C0D000C, 0x7C0D000E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C0D000C, 0x7C0D000D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7C0D000C, 0x7C0D000E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0D000D,  8644, 0xC0D00012, 61.67249, 30.75375, 255.6228, 0.03235224, 0, 0, -0.9994766,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

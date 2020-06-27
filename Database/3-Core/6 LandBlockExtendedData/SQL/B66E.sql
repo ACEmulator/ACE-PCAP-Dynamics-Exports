@@ -5,26 +5,26 @@ VALUES (0x7B66E001,  1154, 0xB66E0025, 106.72, 110.8824, 37.94877, -0.9831102, 0
 /* @teleloc 0xB66E0025 [106.720000 110.882400 37.948770] -0.983110 0.000000 0.000000 -0.183014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66E001, 0x7B66E002, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66E001, 0x7B66E003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66E001, 0x7B66E005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B66E001, 0x7B66E006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66E001, 0x7B66E008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E00A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66E001, 0x7B66E00B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66E001, 0x7B66E00C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B66E001, 0x7B66E00D, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66E001, 0x7B66E00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E010, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66E001, 0x7B66E011, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B66E001, 0x7B66E012, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B66E001, 0x7B66E013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66E001, 0x7B66E014, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B66E001, 0x7B66E015, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7B66E001, 0x7B66E002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66E001, 0x7B66E003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66E001, 0x7B66E005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B66E001, 0x7B66E006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66E001, 0x7B66E008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E00A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66E001, 0x7B66E00B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66E001, 0x7B66E00C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B66E001, 0x7B66E00D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66E001, 0x7B66E00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E010, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66E001, 0x7B66E011, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B66E001, 0x7B66E012, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66E001, 0x7B66E014, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B66E001, 0x7B66E015, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66E002,  6382, 0xB66E0025, 106.72, 110.8824, 37.94877, -0.9831102, 0, 0, -0.1830143,  True, '2019-02-10 00:00:00'); /* Static */
@@ -111,7 +111,7 @@ VALUES (0x7B66E016,  1542, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102,
 /* @teleloc 0xB66E001D [92.433160 111.113700 42.372760] -0.983110 0.000000 0.000000 -0.183014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66E016, 0x7B66E017, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B66E016, 0x7B66E017, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66E017,  8646, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102, 0, 0, -0.1830143,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

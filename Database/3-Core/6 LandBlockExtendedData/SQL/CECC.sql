@@ -5,19 +5,19 @@ VALUES (0x7CECC001,  1154, 0xCECC0007, 17.48614, 153.3324, 48.68281, 0.7071068, 
 /* @teleloc 0xCECC0007 [17.486140 153.332400 48.682810] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CECC001, 0x7CECC002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7CECC001, 0x7CECC003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7CECC001, 0x7CECC004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7CECC001, 0x7CECC005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7CECC001, 0x7CECC006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECC001, 0x7CECC007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECC001, 0x7CECC008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CECC001, 0x7CECC009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECC001, 0x7CECC00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECC001, 0x7CECC00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CECC001, 0x7CECC00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CECC001, 0x7CECC00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7CECC001, 0x7CECC00E, '2019-02-10 00:00:00') /* Augmented Olthoi */;
+VALUES (0x7CECC001, 0x7CECC002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7CECC001, 0x7CECC003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7CECC001, 0x7CECC004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7CECC001, 0x7CECC005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7CECC001, 0x7CECC006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECC001, 0x7CECC007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECC001, 0x7CECC008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CECC001, 0x7CECC009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECC001, 0x7CECC00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECC001, 0x7CECC00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CECC001, 0x7CECC00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CECC001, 0x7CECC00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7CECC001, 0x7CECC00E, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CECC002, 24279, 0xCECC0007, 17.48614, 153.3324, 48.68281, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
@@ -76,7 +76,7 @@ VALUES (0x7CECC00F,  1542, 0xCECC0032, 157.3861, 28.30062, 51.63946, 1, 0, 0, 0,
 /* @teleloc 0xCECC0032 [157.386100 28.300620 51.639460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CECC00F, 0x7CECC010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CECC00F, 0x7CECC010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CECC010, 31445, 0xCECC0032, 157.3861, 28.30062, 51.63946, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

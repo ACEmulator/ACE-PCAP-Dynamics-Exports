@@ -9,10 +9,10 @@ VALUES (0x724BC001,  1154, 0x24BC0034, 158.043, 94.8603, 45.9925, -0.4780628, 0,
 /* @teleloc 0x24BC0034 [158.043000 94.860300 45.992500] -0.478063 0.000000 0.000000 0.878326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BC001, 0x724BC002, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x724BC001, 0x724BC003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x724BC001, 0x724BC004, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x724BC001, 0x724BC005, '2019-02-10 00:00:00') /* Water Wisp */;
+VALUES (0x724BC001, 0x724BC002, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x724BC001, 0x724BC003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x724BC001, 0x724BC004, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x724BC001, 0x724BC005, '2019-02-10 00:00:00') /* Water Wisp (1986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BC002, 11487, 0x24BC0034, 158.043, 94.8603, 45.9925, -0.4780628, 0, 0, 0.8783256,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */
@@ -35,7 +35,7 @@ VALUES (0x724BC006,  1542, 0x24BC0034, 158.148, 84.2612, 46, 0.9456714, 0, 0, -0
 /* @teleloc 0x24BC0034 [158.148000 84.261200 46.000000] 0.945671 0.000000 0.000000 -0.325124 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BC006, 0x724BC007, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x724BC006, 0x724BC007, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BC007,   546, 0x24BC0034, 158.148, 84.2612, 46, 0.9456714, 0, 0, -0.3251241,  True, '2019-02-10 00:00:00'); /* Egg */

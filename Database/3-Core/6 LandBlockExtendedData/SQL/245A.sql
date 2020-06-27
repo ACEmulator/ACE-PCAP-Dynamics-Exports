@@ -5,13 +5,13 @@ VALUES (0x7245A001,  1154, 0x245A0028, 97.97601, 184.0787, 6.643988, 0.979727, 0
 /* @teleloc 0x245A0028 [97.976010 184.078700 6.643988] 0.979727 0.000000 0.000000 -0.200338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7245A001, 0x7245A002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7245A001, 0x7245A003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7245A001, 0x7245A004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7245A001, 0x7245A005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7245A001, 0x7245A006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7245A001, 0x7245A007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7245A001, 0x7245A008, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x7245A001, 0x7245A002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7245A001, 0x7245A003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7245A001, 0x7245A004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7245A001, 0x7245A005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7245A001, 0x7245A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7245A001, 0x7245A007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7245A001, 0x7245A008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7245A002,  4253, 0x245A0028, 97.97601, 184.0787, 6.643988, 0.979727, 0, 0, -0.2003375,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

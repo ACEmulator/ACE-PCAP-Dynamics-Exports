@@ -5,17 +5,17 @@ VALUES (0x7287F001,  1154, 0x287F0025, 103.676, 112.0241, 36.67524, -0.03197296,
 /* @teleloc 0x287F0025 [103.676000 112.024100 36.675240] -0.031973 0.000000 0.000000 -0.999489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7287F001, 0x7287F002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7287F001, 0x7287F003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7287F001, 0x7287F004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7287F001, 0x7287F005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7287F001, 0x7287F006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7287F001, 0x7287F007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287F001, 0x7287F008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287F001, 0x7287F009, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7287F001, 0x7287F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287F001, 0x7287F00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7287F001, 0x7287F00C, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7287F001, 0x7287F002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7287F001, 0x7287F003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7287F001, 0x7287F004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7287F001, 0x7287F005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7287F001, 0x7287F006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7287F001, 0x7287F007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287F001, 0x7287F008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287F001, 0x7287F009, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7287F001, 0x7287F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287F001, 0x7287F00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7287F001, 0x7287F00C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7287F002, 24281, 0x287F0025, 103.676, 112.0241, 36.67524, -0.03197296, 0, 0, -0.9994887,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

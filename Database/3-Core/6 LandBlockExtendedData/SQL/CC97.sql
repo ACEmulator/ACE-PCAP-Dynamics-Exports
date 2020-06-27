@@ -5,20 +5,20 @@ VALUES (0x7CC97001,  1154, 0xCC97002A, 124.932, 45.0232, 20, -0.712037, 0, 0, 0.
 /* @teleloc 0xCC97002A [124.932000 45.023200 20.000000] -0.712037 0.000000 0.000000 0.702142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC97001, 0x7CC97002, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7CC97001, 0x7CC97003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CC97001, 0x7CC97004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CC97001, 0x7CC97005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CC97001, 0x7CC97006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC97001, 0x7CC97007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CC97001, 0x7CC97008, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7CC97001, 0x7CC97009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CC97001, 0x7CC9700A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CC97001, 0x7CC9700B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CC97001, 0x7CC9700C, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CC97001, 0x7CC9700D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC97001, 0x7CC9700E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC97001, 0x7CC9700F, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7CC97001, 0x7CC97002, '2019-02-10 00:00:00') /* Exploration Marker (39767) */
+     , (0x7CC97001, 0x7CC97003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CC97001, 0x7CC97004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CC97001, 0x7CC97005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CC97001, 0x7CC97006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC97001, 0x7CC97007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7CC97001, 0x7CC97008, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7CC97001, 0x7CC97009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7CC97001, 0x7CC9700A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7CC97001, 0x7CC9700B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CC97001, 0x7CC9700C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CC97001, 0x7CC9700D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC97001, 0x7CC9700E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC97001, 0x7CC9700F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC97002, 39767, 0xCC97002A, 124.932, 45.0232, 20, -0.712037, 0, 0, 0.7021419,  True, '2019-02-10 00:00:00'); /* Exploration Marker */

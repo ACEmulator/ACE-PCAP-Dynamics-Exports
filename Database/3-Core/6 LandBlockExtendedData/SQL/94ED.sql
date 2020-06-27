@@ -5,33 +5,33 @@ VALUES (0x794ED001,  1154, 0x94ED0032, 147.4219, 44.23309, 9.168495, 0.7071068, 
 /* @teleloc 0x94ED0032 [147.421900 44.233090 9.168495] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794ED001, 0x794ED002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794ED001, 0x794ED003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794ED001, 0x794ED004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794ED001, 0x794ED005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794ED001, 0x794ED006, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x794ED001, 0x794ED007, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x794ED001, 0x794ED008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x794ED001, 0x794ED009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794ED001, 0x794ED00A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794ED001, 0x794ED00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794ED001, 0x794ED00C, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x794ED001, 0x794ED00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794ED001, 0x794ED00E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794ED001, 0x794ED00F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x794ED001, 0x794ED010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x794ED001, 0x794ED011, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x794ED001, 0x794ED012, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794ED001, 0x794ED013, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794ED001, 0x794ED014, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794ED001, 0x794ED015, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794ED001, 0x794ED016, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794ED001, 0x794ED017, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x794ED001, 0x794ED018, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794ED001, 0x794ED019, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x794ED001, 0x794ED01A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x794ED001, 0x794ED01B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x794ED001, 0x794ED01C, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x794ED001, 0x794ED002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794ED001, 0x794ED003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794ED001, 0x794ED004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794ED001, 0x794ED005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794ED001, 0x794ED006, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x794ED001, 0x794ED007, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x794ED001, 0x794ED008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x794ED001, 0x794ED009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794ED001, 0x794ED00A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x794ED001, 0x794ED00B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x794ED001, 0x794ED00C, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x794ED001, 0x794ED00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794ED001, 0x794ED00E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794ED001, 0x794ED00F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x794ED001, 0x794ED010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x794ED001, 0x794ED011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x794ED001, 0x794ED012, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794ED001, 0x794ED013, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794ED001, 0x794ED014, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794ED001, 0x794ED015, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794ED001, 0x794ED016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794ED001, 0x794ED017, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x794ED001, 0x794ED018, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x794ED001, 0x794ED019, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x794ED001, 0x794ED01A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x794ED001, 0x794ED01B, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x794ED001, 0x794ED01C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794ED002,  7085, 0x94ED0032, 147.4219, 44.23309, 9.168495, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -146,8 +146,8 @@ VALUES (0x794ED01D,  1542, 0x94ED0010, 36.91344, 175.2706, 3.65568, 0.9829302, 0
 /* @teleloc 0x94ED0010 [36.913440 175.270600 3.655680] 0.982930 0.000000 0.000000 -0.183979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794ED01D, 0x794ED01E, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x794ED01D, 0x794ED01F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x794ED01D, 0x794ED01E, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x794ED01D, 0x794ED01F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794ED01E, 11554, 0x94ED0010, 36.91344, 175.2706, 3.65568, 0.9829302, 0, 0, -0.183979,  True, '2019-02-10 00:00:00'); /* Colban Plant */

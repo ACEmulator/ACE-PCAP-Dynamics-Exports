@@ -5,20 +5,20 @@ VALUES (0x7247D001,  1154, 0x247D0004, 10.81388, 91.05791, 46.50658, 0.1736482, 
 /* @teleloc 0x247D0004 [10.813880 91.057910 46.506580] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7247D001, 0x7247D002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7247D001, 0x7247D003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7247D001, 0x7247D004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7247D001, 0x7247D005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7247D001, 0x7247D006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247D001, 0x7247D007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7247D001, 0x7247D008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7247D001, 0x7247D009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7247D001, 0x7247D00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7247D001, 0x7247D00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7247D001, 0x7247D00C, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7247D001, 0x7247D00D, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7247D001, 0x7247D00E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7247D001, 0x7247D00F, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7247D001, 0x7247D002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7247D001, 0x7247D003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7247D001, 0x7247D004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7247D001, 0x7247D005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7247D001, 0x7247D006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247D001, 0x7247D007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7247D001, 0x7247D008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7247D001, 0x7247D009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7247D001, 0x7247D00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7247D001, 0x7247D00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7247D001, 0x7247D00C, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7247D001, 0x7247D00D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7247D001, 0x7247D00E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7247D001, 0x7247D00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7247D002, 36832, 0x247D0004, 10.81388, 91.05791, 46.50658, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -81,9 +81,9 @@ VALUES (0x7247D010,  1542, 0x247D000D, 47.55731, 108.197, 50.13136, -0.4152445, 
 /* @teleloc 0x247D000D [47.557310 108.197000 50.131360] -0.415245 0.000000 0.000000 -0.909710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7247D010, 0x7247D011, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7247D010, 0x7247D012, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7247D010, 0x7247D013, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7247D010, 0x7247D011, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7247D010, 0x7247D012, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7247D010, 0x7247D013, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7247D011,  8648, 0x247D000D, 47.55731, 108.197, 50.13136, -0.4152445, 0, 0, -0.9097099,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

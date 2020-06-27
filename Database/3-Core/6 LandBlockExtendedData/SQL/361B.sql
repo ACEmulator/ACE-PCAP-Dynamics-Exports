@@ -5,12 +5,12 @@ VALUES (0x7361B001,  1154, 0x361B003C, 182.9888, 79.88472, 14.75843, -0.9715305,
 /* @teleloc 0x361B003C [182.988800 79.884720 14.758430] -0.971531 0.000000 0.000000 -0.236915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7361B001, 0x7361B002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7361B001, 0x7361B003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7361B001, 0x7361B004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7361B001, 0x7361B005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7361B001, 0x7361B006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7361B001, 0x7361B007, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x7361B001, 0x7361B002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7361B001, 0x7361B003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7361B001, 0x7361B004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7361B001, 0x7361B005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7361B001, 0x7361B006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7361B001, 0x7361B007, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7361B002, 10802, 0x361B003C, 182.9888, 79.88472, 14.75843, -0.9715305, 0, 0, -0.2369146,  True, '2019-02-10 00:00:00'); /* Unstable Rift */

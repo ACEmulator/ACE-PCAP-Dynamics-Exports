@@ -5,71 +5,71 @@ VALUES (0x7264B001,  1154, 0x264B0040, 189.8547, 185.6751, 4.007999, -0.6349467,
 /* @teleloc 0x264B0040 [189.854700 185.675100 4.007999] -0.634947 0.000000 0.000000 -0.772556 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7264B001, 0x7264B002, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x7264B001, 0x7264B003, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B004, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x7264B001, 0x7264B005, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7264B001, 0x7264B006, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7264B001, 0x7264B007, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x7264B001, 0x7264B008, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B009, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B00A, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B00B, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B00C, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B00D, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B00E, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B00F, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264B001, 0x7264B010, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x7264B001, 0x7264B011, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7264B001, 0x7264B012, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x7264B001, 0x7264B013, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B014, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B015, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7264B001, 0x7264B016, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7264B001, 0x7264B017, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7264B001, 0x7264B018, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7264B001, 0x7264B019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7264B001, 0x7264B01A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7264B001, 0x7264B01B, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7264B001, 0x7264B01C, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7264B001, 0x7264B01D, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7264B001, 0x7264B01E, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x7264B001, 0x7264B01F, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x7264B001, 0x7264B020, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x7264B001, 0x7264B021, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B022, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B023, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B024, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B025, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x7264B001, 0x7264B026, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7264B001, 0x7264B027, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7264B001, 0x7264B028, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7264B001, 0x7264B029, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7264B001, 0x7264B02A, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B02B, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7264B001, 0x7264B02C, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7264B001, 0x7264B02D, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B02E, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B02F, '2019-02-10 00:00:00') /* K'nath X'ela */
-     , (0x7264B001, 0x7264B030, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x7264B001, 0x7264B031, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x7264B001, 0x7264B032, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x7264B001, 0x7264B033, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x7264B001, 0x7264B034, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x7264B001, 0x7264B035, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x7264B001, 0x7264B036, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x7264B001, 0x7264B037, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B038, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7264B001, 0x7264B039, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7264B001, 0x7264B03A, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x7264B001, 0x7264B03B, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x7264B001, 0x7264B03C, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x7264B001, 0x7264B03D, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x7264B001, 0x7264B03E, '2019-02-10 00:00:00') /* Chimera */
-     , (0x7264B001, 0x7264B03F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x7264B001, 0x7264B040, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x7264B001, 0x7264B041, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x7264B001, 0x7264B042, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */;
+VALUES (0x7264B001, 0x7264B002, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x7264B001, 0x7264B003, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B004, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x7264B001, 0x7264B005, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7264B001, 0x7264B006, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7264B001, 0x7264B007, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x7264B001, 0x7264B008, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B009, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B00A, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B00B, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B00C, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B00D, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B00E, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B00F, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264B001, 0x7264B010, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x7264B001, 0x7264B011, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7264B001, 0x7264B012, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x7264B001, 0x7264B013, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B014, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B015, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7264B001, 0x7264B016, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7264B001, 0x7264B017, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7264B001, 0x7264B018, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7264B001, 0x7264B019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7264B001, 0x7264B01A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7264B001, 0x7264B01B, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7264B001, 0x7264B01C, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7264B001, 0x7264B01D, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7264B001, 0x7264B01E, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x7264B001, 0x7264B01F, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x7264B001, 0x7264B020, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x7264B001, 0x7264B021, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B022, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B023, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B024, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B025, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x7264B001, 0x7264B026, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x7264B001, 0x7264B027, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7264B001, 0x7264B028, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7264B001, 0x7264B029, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7264B001, 0x7264B02A, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B02B, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264B001, 0x7264B02C, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264B001, 0x7264B02D, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B02E, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B02F, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x7264B001, 0x7264B030, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x7264B001, 0x7264B031, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x7264B001, 0x7264B032, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x7264B001, 0x7264B033, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x7264B001, 0x7264B034, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x7264B001, 0x7264B035, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x7264B001, 0x7264B036, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x7264B001, 0x7264B037, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B038, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7264B001, 0x7264B039, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7264B001, 0x7264B03A, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x7264B001, 0x7264B03B, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x7264B001, 0x7264B03C, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x7264B001, 0x7264B03D, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x7264B001, 0x7264B03E, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x7264B001, 0x7264B03F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x7264B001, 0x7264B040, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x7264B001, 0x7264B041, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x7264B001, 0x7264B042, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264B002, 23553, 0x264B0040, 189.8547, 185.6751, 4.007999, -0.6349467, 0, 0, -0.7725559,  True, '2019-02-10 00:00:00'); /* Adolescent Ivory Gromnie */
@@ -336,8 +336,8 @@ VALUES (0x7264B043,  1542, 0x264B0022, 99.79496, 45.03205, 0, -0.6531115, 0, 0, 
 /* @teleloc 0x264B0022 [99.794960 45.032050 0.000000] -0.653112 0.000000 0.000000 -0.757262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7264B043, 0x7264B044, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x7264B043, 0x7264B045, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x7264B043, 0x7264B044, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x7264B043, 0x7264B045, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264B044, 23086, 0x264B0022, 99.79496, 45.03205, 0, -0.6531115, 0, 0, -0.7572618,  True, '2019-02-10 00:00:00'); /* Reinforced Oaken Chest */

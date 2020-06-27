@@ -5,17 +5,17 @@ VALUES (0x7C07E001,  1154, 0xC07E0007, 19.80753, 163.8565, 26, -0.9641481, 0, 0,
 /* @teleloc 0xC07E0007 [19.807530 163.856500 26.000000] -0.964148 0.000000 0.000000 -0.265365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C07E001, 0x7C07E002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C07E001, 0x7C07E003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C07E001, 0x7C07E004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C07E001, 0x7C07E005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C07E001, 0x7C07E006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C07E001, 0x7C07E007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C07E001, 0x7C07E008, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C07E001, 0x7C07E009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C07E001, 0x7C07E00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C07E001, 0x7C07E00B, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C07E001, 0x7C07E00C, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7C07E001, 0x7C07E002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C07E001, 0x7C07E003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C07E001, 0x7C07E004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C07E001, 0x7C07E005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C07E001, 0x7C07E006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C07E001, 0x7C07E007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C07E001, 0x7C07E008, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C07E001, 0x7C07E009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C07E001, 0x7C07E00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C07E001, 0x7C07E00B, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C07E001, 0x7C07E00C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C07E002,  2566, 0xC07E0007, 19.80753, 163.8565, 26, -0.9641481, 0, 0, -0.2653648,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

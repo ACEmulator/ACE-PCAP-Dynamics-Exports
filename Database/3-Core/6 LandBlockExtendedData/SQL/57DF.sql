@@ -5,10 +5,10 @@ VALUES (0x757DF001,  1154, 0x57DF001F, 82.55738, 161.1102, 32.65445, 0.3611258, 
 /* @teleloc 0x57DF001F [82.557380 161.110200 32.654450] 0.361126 0.000000 0.000000 -0.932517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757DF001, 0x757DF002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x757DF001, 0x757DF003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x757DF001, 0x757DF004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x757DF001, 0x757DF005, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x757DF001, 0x757DF002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x757DF001, 0x757DF003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x757DF001, 0x757DF004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x757DF001, 0x757DF005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757DF002, 23616, 0x57DF001F, 82.55738, 161.1102, 32.65445, 0.3611258, 0, 0, -0.9325171,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

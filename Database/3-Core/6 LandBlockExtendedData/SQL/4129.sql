@@ -5,10 +5,10 @@ VALUES (0x74129001,  1154, 0x41290039, 177.8732, 17.43648, 9.013107, -0.9999058,
 /* @teleloc 0x41290039 [177.873200 17.436480 9.013107] -0.999906 0.000000 0.000000 -0.013727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74129001, 0x74129002, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x74129001, 0x74129003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74129001, 0x74129004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74129001, 0x74129005, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x74129001, 0x74129002, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x74129001, 0x74129003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74129001, 0x74129004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74129001, 0x74129005, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74129002, 12026, 0x41290039, 177.8732, 17.43648, 9.013107, -0.9999058, 0, 0, -0.01372667,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */

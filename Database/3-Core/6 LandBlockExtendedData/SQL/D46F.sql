@@ -9,9 +9,9 @@ VALUES (0x7D46F001,  1154, 0xD46F003F, 170.944, 146.0853, 56.57788, 0.9968273, 0
 /* @teleloc 0xD46F003F [170.944000 146.085300 56.577880] 0.996827 0.000000 0.000000 -0.079595 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D46F001, 0x7D46F002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D46F001, 0x7D46F003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7D46F001, 0x7D46F004, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7D46F001, 0x7D46F002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D46F001, 0x7D46F003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7D46F001, 0x7D46F004, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D46F002,  8014, 0xD46F003F, 170.944, 146.0853, 56.57788, 0.9968273, 0, 0, -0.07959504,  True, '2019-02-10 00:00:00'); /* Fragment */

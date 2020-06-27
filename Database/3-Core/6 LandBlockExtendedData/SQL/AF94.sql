@@ -5,13 +5,13 @@ VALUES (0x7AF94001,  1154, 0xAF940027, 115.7812, 150.1353, 45.14403, -0.9661987,
 /* @teleloc 0xAF940027 [115.781200 150.135300 45.144030] -0.966199 0.000000 0.000000 -0.257798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF94001, 0x7AF94002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF94001, 0x7AF94003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF94001, 0x7AF94004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF94001, 0x7AF94005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF94001, 0x7AF94006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AF94001, 0x7AF94007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AF94001, 0x7AF94008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7AF94001, 0x7AF94002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF94001, 0x7AF94003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF94001, 0x7AF94004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF94001, 0x7AF94005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF94001, 0x7AF94006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AF94001, 0x7AF94007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AF94001, 0x7AF94008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF94002,  7345, 0xAF940027, 115.7812, 150.1353, 45.14403, -0.9661987, 0, 0, -0.2577983,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -46,7 +46,7 @@ VALUES (0x7AF94009,  1542, 0xAF940028, 116.9659, 177.6026, 42.14106, 0.7071068, 
 /* @teleloc 0xAF940028 [116.965900 177.602600 42.141060] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF94009, 0x7AF9400A, '2019-02-10 00:00:00') /* Wormwood */;
+VALUES (0x7AF94009, 0x7AF9400A, '2019-02-10 00:00:00') /* Wormwood (780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF9400A,   780, 0xAF940028, 116.9659, 177.6026, 42.14106, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wormwood */

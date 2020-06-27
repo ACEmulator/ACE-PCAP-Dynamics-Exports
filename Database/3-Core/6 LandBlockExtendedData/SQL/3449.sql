@@ -5,11 +5,11 @@ VALUES (0x73449001,  1154, 0x34490014, 70.16814, 75.18761, 14.83448, 0.1211787, 
 /* @teleloc 0x34490014 [70.168140 75.187610 14.834480] 0.121179 0.000000 0.000000 -0.992631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73449001, 0x73449002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73449001, 0x73449003, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73449001, 0x73449004, '2019-02-10 00:00:00') /* Flare */
-     , (0x73449001, 0x73449005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73449001, 0x73449006, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73449001, 0x73449002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73449001, 0x73449003, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73449001, 0x73449004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73449001, 0x73449005, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73449001, 0x73449006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73449002, 36829, 0x34490014, 70.16814, 75.18761, 14.83448, 0.1211787, 0, 0, -0.9926307,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

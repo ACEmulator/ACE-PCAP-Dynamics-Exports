@@ -5,8 +5,8 @@ VALUES (0x79DCD001,  1154, 0x9DCD003E, 191.3665, 136.4818, 129.7312, 0.7071068, 
 /* @teleloc 0x9DCD003E [191.366500 136.481800 129.731200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DCD001, 0x79DCD002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79DCD001, 0x79DCD003, '2019-02-10 00:00:00') /* Banderling Rogue */;
+VALUES (0x79DCD001, 0x79DCD002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79DCD001, 0x79DCD003, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DCD002,   199, 0x9DCD003E, 191.3665, 136.4818, 129.7312, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */

@@ -5,10 +5,10 @@ VALUES (0x760A6001,  1154, 0x60A60010, 30.69097, 191.4759, 84.06225, -0.8334546,
 /* @teleloc 0x60A60010 [30.690970 191.475900 84.062250] -0.833455 0.000000 0.000000 -0.552588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760A6001, 0x760A6002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x760A6001, 0x760A6003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x760A6001, 0x760A6004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x760A6001, 0x760A6005, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x760A6001, 0x760A6002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x760A6001, 0x760A6003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x760A6001, 0x760A6004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x760A6001, 0x760A6005, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760A6002,  1757, 0x60A60010, 30.69097, 191.4759, 84.06225, -0.8334546, 0, 0, -0.5525879,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

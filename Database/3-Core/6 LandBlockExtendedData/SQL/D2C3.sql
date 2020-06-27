@@ -5,20 +5,20 @@ VALUES (0x7D2C3001,  1154, 0xD2C3003E, 173.9256, 140.2465, 92.3128, -0.3285138, 
 /* @teleloc 0xD2C3003E [173.925600 140.246500 92.312800] -0.328514 0.000000 0.000000 -0.944499 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2C3001, 0x7D2C3002, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D2C3001, 0x7D2C3003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7D2C3001, 0x7D2C3004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7D2C3001, 0x7D2C3005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7D2C3001, 0x7D2C3006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D2C3001, 0x7D2C3007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D2C3001, 0x7D2C3008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D2C3001, 0x7D2C3009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D2C3001, 0x7D2C300A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D2C3001, 0x7D2C300B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D2C3001, 0x7D2C300C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D2C3001, 0x7D2C300D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D2C3001, 0x7D2C300E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D2C3001, 0x7D2C300F, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7D2C3001, 0x7D2C3002, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D2C3001, 0x7D2C3003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7D2C3001, 0x7D2C3004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7D2C3001, 0x7D2C3005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7D2C3001, 0x7D2C3006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D2C3001, 0x7D2C3007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D2C3001, 0x7D2C3008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D2C3001, 0x7D2C3009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D2C3001, 0x7D2C300A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D2C3001, 0x7D2C300B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D2C3001, 0x7D2C300C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D2C3001, 0x7D2C300D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D2C3001, 0x7D2C300E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D2C3001, 0x7D2C300F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2C3002, 14874, 0xD2C3003E, 173.9256, 140.2465, 92.3128, -0.3285138, 0, 0, -0.9444992,  True, '2019-02-10 00:00:00'); /* Augmented Olthoi */
@@ -81,8 +81,8 @@ VALUES (0x7D2C3010,  1542, 0xD2C30023, 113.548, 67.37918, 100.1524, 1, 0, 0, 0, 
 /* @teleloc 0xD2C30023 [113.548000 67.379180 100.152400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2C3010, 0x7D2C3011, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7D2C3010, 0x7D2C3012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D2C3010, 0x7D2C3011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7D2C3010, 0x7D2C3012, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2C3011, 31445, 0xD2C30023, 113.548, 67.37918, 100.1524, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

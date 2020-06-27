@@ -5,10 +5,10 @@ VALUES (0x73A13001,  1154, 0x3A130011, 62.13176, 6.514742, 16.07, 0.9238795, 0, 
 /* @teleloc 0x3A130011 [62.131760 6.514742 16.070000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A13001, 0x73A13002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73A13001, 0x73A13003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73A13001, 0x73A13004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73A13001, 0x73A13005, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x73A13001, 0x73A13002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73A13001, 0x73A13003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73A13001, 0x73A13004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73A13001, 0x73A13005, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A13002,  4254, 0x3A130011, 62.13176, 6.514742, 16.07, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -31,8 +31,8 @@ VALUES (0x73A13006,  1542, 0x3A130011, 59.88194, 3.406065, 11.69648, 1, 0, 0, 0,
 /* @teleloc 0x3A130011 [59.881940 3.406065 11.696480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A13006, 0x73A13007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73A13006, 0x73A13008, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73A13006, 0x73A13007, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x73A13006, 0x73A13008, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A13007, 22566, 0x3A130011, 59.88194, 3.406065, 11.69648, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,27 +5,27 @@ VALUES (0x73A3B001,  1154, 0x3A3B0011, 60.57549, 12.86571, -0.09350008, 0.258819
 /* @teleloc 0x3A3B0011 [60.575490 12.865710 -0.093500] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A3B001, 0x73A3B002, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73A3B001, 0x73A3B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73A3B001, 0x73A3B004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73A3B001, 0x73A3B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A3B001, 0x73A3B006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73A3B001, 0x73A3B007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A3B001, 0x73A3B008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A3B001, 0x73A3B009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73A3B001, 0x73A3B00A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73A3B001, 0x73A3B00B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A3B001, 0x73A3B00C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A3B001, 0x73A3B00D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73A3B001, 0x73A3B00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73A3B001, 0x73A3B00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73A3B001, 0x73A3B010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73A3B001, 0x73A3B011, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73A3B001, 0x73A3B012, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73A3B001, 0x73A3B013, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73A3B001, 0x73A3B014, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73A3B001, 0x73A3B015, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73A3B001, 0x73A3B016, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73A3B001, 0x73A3B002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73A3B001, 0x73A3B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73A3B001, 0x73A3B004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73A3B001, 0x73A3B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A3B001, 0x73A3B006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73A3B001, 0x73A3B007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A3B001, 0x73A3B008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A3B001, 0x73A3B009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73A3B001, 0x73A3B00A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73A3B001, 0x73A3B00B, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A3B001, 0x73A3B00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A3B001, 0x73A3B00D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73A3B001, 0x73A3B00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73A3B001, 0x73A3B00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73A3B001, 0x73A3B010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73A3B001, 0x73A3B011, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A3B001, 0x73A3B012, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73A3B001, 0x73A3B013, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73A3B001, 0x73A3B014, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73A3B001, 0x73A3B015, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73A3B001, 0x73A3B016, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A3B002,  7117, 0x3A3B0011, 60.57549, 12.86571, -0.09350008, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */
@@ -116,7 +116,7 @@ VALUES (0x73A3B017,  1542, 0x3A3B0002, 6.092278, 29.0975, -0.09999999, 1, 0, 0, 
 /* @teleloc 0x3A3B0002 [6.092278 29.097500 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A3B017, 0x73A3B018, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73A3B017, 0x73A3B018, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A3B018,  8999, 0x3A3B0002, 6.092278, 29.0975, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

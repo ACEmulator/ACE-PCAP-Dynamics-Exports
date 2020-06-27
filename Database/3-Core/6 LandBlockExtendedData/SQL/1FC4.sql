@@ -5,16 +5,16 @@ VALUES (0x71FC4001,  1154, 0x1FC4002D, 132.843, 102.8199, 32.35339, -0.8299535, 
 /* @teleloc 0x1FC4002D [132.843000 102.819900 32.353390] -0.829954 0.000000 0.000000 -0.557833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC4001, 0x71FC4002, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71FC4001, 0x71FC4003, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71FC4001, 0x71FC4004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71FC4001, 0x71FC4005, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71FC4001, 0x71FC4006, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71FC4001, 0x71FC4007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC4001, 0x71FC4008, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC4001, 0x71FC4009, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC4001, 0x71FC400A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x71FC4001, 0x71FC400B, '2019-02-10 00:00:00') /* Aun Herbalist */;
+VALUES (0x71FC4001, 0x71FC4002, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71FC4001, 0x71FC4003, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71FC4001, 0x71FC4004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71FC4001, 0x71FC4005, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71FC4001, 0x71FC4006, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71FC4001, 0x71FC4007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC4001, 0x71FC4008, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC4001, 0x71FC4009, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC4001, 0x71FC400A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x71FC4001, 0x71FC400B, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC4002, 11522, 0x1FC4002D, 132.843, 102.8199, 32.35339, -0.8299535, 0, 0, -0.5578326,  True, '2019-02-10 00:00:00'); /* Hea Shaman */

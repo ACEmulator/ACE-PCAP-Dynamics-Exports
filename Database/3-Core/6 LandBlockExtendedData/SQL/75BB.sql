@@ -5,17 +5,17 @@ VALUES (0x775BB001,  1154, 0x75BB000D, 31.07958, 102.977, 121.991, -0.9912598, 0
 /* @teleloc 0x75BB000D [31.079580 102.977000 121.991000] -0.991260 0.000000 0.000000 -0.131924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775BB001, 0x775BB002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x775BB001, 0x775BB003, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x775BB001, 0x775BB004, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x775BB001, 0x775BB005, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x775BB001, 0x775BB006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x775BB001, 0x775BB007, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x775BB001, 0x775BB008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x775BB001, 0x775BB009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x775BB001, 0x775BB00A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x775BB001, 0x775BB00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x775BB001, 0x775BB00C, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x775BB001, 0x775BB002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x775BB001, 0x775BB003, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x775BB001, 0x775BB004, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x775BB001, 0x775BB005, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x775BB001, 0x775BB006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x775BB001, 0x775BB007, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x775BB001, 0x775BB008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x775BB001, 0x775BB009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x775BB001, 0x775BB00A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x775BB001, 0x775BB00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x775BB001, 0x775BB00C, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775BB002,  9252, 0x75BB000D, 31.07958, 102.977, 121.991, -0.9912598, 0, 0, -0.1319241,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

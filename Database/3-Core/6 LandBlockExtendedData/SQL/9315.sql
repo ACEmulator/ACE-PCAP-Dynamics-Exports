@@ -5,10 +5,10 @@ VALUES (0x79315001,  1154, 0x93150007, 1.696014, 163.9829, 305.8106, -0.2951086,
 /* @teleloc 0x93150007 [1.696014 163.982900 305.810600] -0.295109 0.000000 0.000000 -0.955464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79315001, 0x79315002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79315001, 0x79315003, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x79315001, 0x79315004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x79315001, 0x79315005, '2019-02-10 00:00:00') /* K'nath D'Nob */;
+VALUES (0x79315001, 0x79315002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79315001, 0x79315003, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x79315001, 0x79315004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x79315001, 0x79315005, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79315002,  4254, 0x93150007, 1.696014, 163.9829, 305.8106, -0.2951086, 0, 0, -0.9554637,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

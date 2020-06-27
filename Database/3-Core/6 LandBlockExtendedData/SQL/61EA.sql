@@ -5,11 +5,11 @@ VALUES (0x761EA001,  1154, 0x61EA000E, 40.2917, 128.8451, 52.60524, -0.9595953, 
 /* @teleloc 0x61EA000E [40.291700 128.845100 52.605240] -0.959595 0.000000 0.000000 -0.281384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761EA001, 0x761EA002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x761EA001, 0x761EA003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x761EA001, 0x761EA004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x761EA001, 0x761EA005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x761EA001, 0x761EA006, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x761EA001, 0x761EA002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x761EA001, 0x761EA003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x761EA001, 0x761EA004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x761EA001, 0x761EA005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x761EA001, 0x761EA006, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761EA002, 21549, 0x61EA000E, 40.2917, 128.8451, 52.60524, -0.9595953, 0, 0, -0.2813837,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

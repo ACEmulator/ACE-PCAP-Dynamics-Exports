@@ -5,10 +5,10 @@ VALUES (0x73F9A001,  1154, 0x3F9A0010, 28.22774, 172.7194, 112.2844, -0.8066056,
 /* @teleloc 0x3F9A0010 [28.227740 172.719400 112.284400] -0.806606 0.000000 0.000000 -0.591090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F9A001, 0x73F9A002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x73F9A001, 0x73F9A003, '2019-02-10 00:00:00') /* Ember */
-     , (0x73F9A001, 0x73F9A004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73F9A001, 0x73F9A005, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x73F9A001, 0x73F9A002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x73F9A001, 0x73F9A003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x73F9A001, 0x73F9A004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73F9A001, 0x73F9A005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F9A002, 21170, 0x3F9A0010, 28.22774, 172.7194, 112.2844, -0.8066056, 0, 0, -0.59109,  True, '2019-02-10 00:00:00'); /* Voltarc */

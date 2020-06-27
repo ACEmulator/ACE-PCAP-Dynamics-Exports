@@ -5,13 +5,13 @@ VALUES (0x7A323001,  1154, 0xA3230015, 65.69624, 99.55243, 255.9037, 0.4625556, 
 /* @teleloc 0xA3230015 [65.696240 99.552430 255.903700] 0.462556 0.000000 0.000000 -0.886590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A323001, 0x7A323002, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7A323001, 0x7A323003, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A323001, 0x7A323004, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A323001, 0x7A323005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A323001, 0x7A323006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7A323001, 0x7A323007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A323001, 0x7A323008, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7A323001, 0x7A323002, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7A323001, 0x7A323003, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A323001, 0x7A323004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A323001, 0x7A323005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A323001, 0x7A323006, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x7A323001, 0x7A323007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A323001, 0x7A323008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A323002, 34297, 0xA3230015, 65.69624, 99.55243, 255.9037, 0.4625556, 0, 0, -0.8865902,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */

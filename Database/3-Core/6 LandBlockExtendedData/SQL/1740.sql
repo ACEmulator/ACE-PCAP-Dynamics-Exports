@@ -5,20 +5,20 @@ VALUES (0x71740001,  1154, 0x17400005, 21.89692, 106.5449, 4.799747, 0.9722876, 
 /* @teleloc 0x17400005 [21.896920 106.544900 4.799747] 0.972288 0.000000 0.000000 -0.233788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71740001, 0x71740002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71740001, 0x71740003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71740001, 0x71740004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71740001, 0x71740005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71740001, 0x71740006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71740001, 0x71740007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71740001, 0x71740008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71740001, 0x71740009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71740001, 0x7174000A, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71740001, 0x7174000B, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71740001, 0x7174000C, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71740001, 0x7174000D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71740001, 0x7174000E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71740001, 0x7174000F, '2019-02-10 00:00:00') /* Resonant Portal */;
+VALUES (0x71740001, 0x71740002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71740001, 0x71740003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71740001, 0x71740004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71740001, 0x71740005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71740001, 0x71740006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71740001, 0x71740007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71740001, 0x71740008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71740001, 0x71740009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71740001, 0x7174000A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71740001, 0x7174000B, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71740001, 0x7174000C, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71740001, 0x7174000D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71740001, 0x7174000E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71740001, 0x7174000F, '2019-02-10 00:00:00') /* Resonant Portal (41004) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71740002, 22914, 0x17400005, 21.89692, 106.5449, 4.799747, 0.9722876, 0, 0, -0.233788,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -81,7 +81,7 @@ VALUES (0x71740010,  1542, 0x17400017, 49.96357, 152.8015, 7.658391, 1, 0, 0, 0,
 /* @teleloc 0x17400017 [49.963570 152.801500 7.658391] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71740010, 0x71740011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71740010, 0x71740011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71740011,  4179, 0x17400017, 49.96357, 152.8015, 7.658391, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

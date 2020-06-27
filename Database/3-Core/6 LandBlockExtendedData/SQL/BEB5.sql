@@ -5,21 +5,21 @@ VALUES (0x7BEB5001,  1154, 0xBEB50002, 0.04232788, 31.7831, 279.6877, 0.9238795,
 /* @teleloc 0xBEB50002 [0.042328 31.783100 279.687700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB5001, 0x7BEB5002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB5001, 0x7BEB5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BEB5001, 0x7BEB5004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BEB5001, 0x7BEB5005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BEB5001, 0x7BEB5006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BEB5001, 0x7BEB5007, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BEB5001, 0x7BEB5008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7BEB5001, 0x7BEB5009, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEB5001, 0x7BEB500A, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7BEB5001, 0x7BEB500B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BEB5001, 0x7BEB500C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BEB5001, 0x7BEB500D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BEB5001, 0x7BEB500E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BEB5001, 0x7BEB500F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BEB5001, 0x7BEB5010, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7BEB5001, 0x7BEB5002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB5001, 0x7BEB5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BEB5001, 0x7BEB5004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BEB5001, 0x7BEB5005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BEB5001, 0x7BEB5006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BEB5001, 0x7BEB5007, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BEB5001, 0x7BEB5008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7BEB5001, 0x7BEB5009, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEB5001, 0x7BEB500A, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7BEB5001, 0x7BEB500B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BEB5001, 0x7BEB500C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BEB5001, 0x7BEB500D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BEB5001, 0x7BEB500E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BEB5001, 0x7BEB500F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BEB5001, 0x7BEB5010, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB5002,  9400, 0xBEB50002, 0.04232788, 31.7831, 279.6877, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -86,8 +86,8 @@ VALUES (0x7BEB5011,  1542, 0xBEB50020, 82.5404, 176.0985, 244.9039, 0.6236566, 0
 /* @teleloc 0xBEB50020 [82.540400 176.098500 244.903900] 0.623657 0.000000 0.000000 -0.781698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB5011, 0x7BEB5012, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BEB5011, 0x7BEB5013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BEB5011, 0x7BEB5012, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BEB5011, 0x7BEB5013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB5012, 42528, 0xBEB50020, 82.5404, 176.0985, 244.9039, 0.6236566, 0, 0, -0.7816984,  True, '2019-02-10 00:00:00'); /* Rock */

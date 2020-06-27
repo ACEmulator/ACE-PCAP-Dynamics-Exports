@@ -5,9 +5,9 @@ VALUES (0x73993001,  1154, 0x39930002, 19.91755, 29.52157, 30.27285, -0.7071068,
 /* @teleloc 0x39930002 [19.917550 29.521570 30.272850] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73993001, 0x73993002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73993001, 0x73993003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73993001, 0x73993004, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73993001, 0x73993002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73993001, 0x73993003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73993001, 0x73993004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73993002,  4248, 0x39930002, 19.91755, 29.52157, 30.27285, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

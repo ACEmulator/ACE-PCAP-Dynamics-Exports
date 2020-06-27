@@ -5,14 +5,14 @@ VALUES (0x7B864001,  1154, 0xB8640003, 17.58145, 67.11518, 6.267622, 0.8458189, 
 /* @teleloc 0xB8640003 [17.581450 67.115180 6.267622] 0.845819 0.000000 0.000000 -0.533470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B864001, 0x7B864002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B864001, 0x7B864003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B864001, 0x7B864004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B864001, 0x7B864005, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B864001, 0x7B864006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B864001, 0x7B864007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B864001, 0x7B864008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B864001, 0x7B864009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7B864001, 0x7B864002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B864001, 0x7B864003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B864001, 0x7B864004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B864001, 0x7B864005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B864001, 0x7B864006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B864001, 0x7B864007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B864001, 0x7B864008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B864001, 0x7B864009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B864002,    12, 0xB8640003, 17.58145, 67.11518, 6.267622, 0.8458189, 0, 0, -0.5334702,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */
@@ -51,7 +51,7 @@ VALUES (0x7B86400A,  1542, 0xB8640032, 153.9546, 36.69659, 6, 0.9238795, 0, 0, -
 /* @teleloc 0xB8640032 [153.954600 36.696590 6.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B86400A, 0x7B86400B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B86400A, 0x7B86400B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B86400B,  4180, 0xB8640032, 153.9546, 36.69659, 6, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

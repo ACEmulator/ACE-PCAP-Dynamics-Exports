@@ -5,10 +5,10 @@ VALUES (0x760A1001,  1154, 0x60A10032, 156.2523, 33.32203, 40.78509, -0.8495168,
 /* @teleloc 0x60A10032 [156.252300 33.322030 40.785090] -0.849517 0.000000 0.000000 -0.527562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760A1001, 0x760A1002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x760A1001, 0x760A1003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x760A1001, 0x760A1004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x760A1001, 0x760A1005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x760A1001, 0x760A1002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x760A1001, 0x760A1003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x760A1001, 0x760A1004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x760A1001, 0x760A1005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760A1002,  4217, 0x60A10032, 156.2523, 33.32203, 40.78509, -0.8495168, 0, 0, -0.5275616,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

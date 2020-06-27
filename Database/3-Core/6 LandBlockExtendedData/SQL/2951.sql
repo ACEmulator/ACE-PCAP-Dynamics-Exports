@@ -5,26 +5,26 @@ VALUES (0x72951001,  1154, 0x29510037, 153.6096, 158.1502, 2.78728, 0.0336838, 0
 /* @teleloc 0x29510037 [153.609600 158.150200 2.787280] 0.033684 0.000000 0.000000 -0.999433 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72951001, 0x72951002, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72951001, 0x72951003, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72951001, 0x72951004, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72951001, 0x72951005, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x72951001, 0x72951006, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72951001, 0x72951007, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72951001, 0x72951008, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72951001, 0x72951009, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72951001, 0x7295100A, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72951001, 0x7295100B, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72951001, 0x7295100C, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72951001, 0x7295100D, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72951001, 0x7295100E, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72951001, 0x7295100F, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72951001, 0x72951010, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72951001, 0x72951011, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72951001, 0x72951012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72951001, 0x72951013, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72951001, 0x72951014, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72951001, 0x72951015, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */;
+VALUES (0x72951001, 0x72951002, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72951001, 0x72951003, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72951001, 0x72951004, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72951001, 0x72951005, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x72951001, 0x72951006, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72951001, 0x72951007, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72951001, 0x72951008, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72951001, 0x72951009, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72951001, 0x7295100A, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72951001, 0x7295100B, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72951001, 0x7295100C, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72951001, 0x7295100D, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72951001, 0x7295100E, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72951001, 0x7295100F, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72951001, 0x72951010, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72951001, 0x72951011, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72951001, 0x72951012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72951001, 0x72951013, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72951001, 0x72951014, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72951001, 0x72951015, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72951002, 23093, 0x29510037, 153.6096, 158.1502, 2.78728, 0.0336838, 0, 0, -0.9994326,  True, '2019-02-10 00:00:00'); /* Transcendent Tumerok */
@@ -111,8 +111,8 @@ VALUES (0x72951016,  1542, 0x29510034, 166.356, 83.75472, 2.883442, 0.6607171, 0
 /* @teleloc 0x29510034 [166.356000 83.754720 2.883442] 0.660717 0.000000 0.000000 -0.750635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72951016, 0x72951017, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72951016, 0x72951018, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72951016, 0x72951017, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72951016, 0x72951018, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72951017, 46284, 0x29510034, 166.356, 83.75472, 2.883442, 0.6607171, 0, 0, -0.750635,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

@@ -5,19 +5,19 @@ VALUES (0x7962F001,  1154, 0x962F003B, 189.9846, 68.50432, 92.01895, 0.8630742, 
 /* @teleloc 0x962F003B [189.984600 68.504320 92.018950] 0.863074 0.000000 0.000000 -0.505077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962F001, 0x7962F002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7962F001, 0x7962F003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7962F001, 0x7962F004, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7962F001, 0x7962F005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7962F001, 0x7962F006, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7962F001, 0x7962F007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7962F001, 0x7962F008, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7962F001, 0x7962F009, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7962F001, 0x7962F00A, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7962F001, 0x7962F00B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7962F001, 0x7962F00C, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7962F001, 0x7962F00D, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7962F001, 0x7962F00E, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x7962F001, 0x7962F002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7962F001, 0x7962F003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7962F001, 0x7962F004, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7962F001, 0x7962F005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7962F001, 0x7962F006, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7962F001, 0x7962F007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7962F001, 0x7962F008, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7962F001, 0x7962F009, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7962F001, 0x7962F00A, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7962F001, 0x7962F00B, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7962F001, 0x7962F00C, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7962F001, 0x7962F00D, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7962F001, 0x7962F00E, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962F002,   229, 0x962F003B, 189.9846, 68.50432, 92.01895, 0.8630742, 0, 0, -0.5050771,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

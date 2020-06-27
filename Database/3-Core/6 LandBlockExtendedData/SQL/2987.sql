@@ -5,17 +5,17 @@ VALUES (0x72987001,  1154, 0x2987003C, 177.0863, 83.73077, 203.7859, 0.7735066, 
 /* @teleloc 0x2987003C [177.086300 83.730770 203.785900] 0.773507 0.000000 0.000000 -0.633788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72987001, 0x72987002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72987001, 0x72987003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72987001, 0x72987004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72987001, 0x72987005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72987001, 0x72987006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72987001, 0x72987007, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72987001, 0x72987008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72987001, 0x72987009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72987001, 0x7298700A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72987001, 0x7298700B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72987001, 0x7298700C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72987001, 0x72987002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72987001, 0x72987003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72987001, 0x72987004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72987001, 0x72987005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72987001, 0x72987006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72987001, 0x72987007, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72987001, 0x72987008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72987001, 0x72987009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72987001, 0x7298700A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72987001, 0x7298700B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72987001, 0x7298700C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72987002, 23616, 0x2987003C, 177.0863, 83.73077, 203.7859, 0.7735066, 0, 0, -0.6337883,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -66,9 +66,9 @@ VALUES (0x7298700D,  1542, 0x2987003E, 182.9311, 126.1424, 207.3646, 0.2932093, 
 /* @teleloc 0x2987003E [182.931100 126.142400 207.364600] 0.293209 0.000000 0.000000 -0.956048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298700D, 0x7298700E, '2019-02-10 00:00:00') /* Rock */
-     , (0x7298700D, 0x7298700F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7298700D, 0x72987010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7298700D, 0x7298700E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7298700D, 0x7298700F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7298700D, 0x72987010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298700E, 42528, 0x2987003E, 182.9311, 126.1424, 207.3646, 0.2932093, 0, 0, -0.9560483,  True, '2019-02-10 00:00:00'); /* Rock */

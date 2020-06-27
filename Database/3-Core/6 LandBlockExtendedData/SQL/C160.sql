@@ -13,16 +13,16 @@ VALUES (0x7C160003,  1154, 0xC1600011, 53.32794, 6.316059, 6.0075, -0.9248144, 0
 /* @teleloc 0xC1600011 [53.327940 6.316059 6.007500] -0.924814 0.000000 0.000000 -0.380419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C160003, 0x7C160004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7C160003, 0x7C160005, '2019-02-10 00:00:00') /* Sawato Bandit */
-     , (0x7C160003, 0x7C160006, '2019-02-10 00:00:00') /* Reinforced Door */
-     , (0x7C160003, 0x7C160007, '2019-02-10 00:00:00') /* Sawato Bandit */
-     , (0x7C160003, 0x7C160008, '2019-02-10 00:00:00') /* Sawato Bandit */
-     , (0x7C160003, 0x7C160009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C160003, 0x7C16000A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C160003, 0x7C16000B, '2019-02-10 00:00:00') /* Sawato Bandit */
-     , (0x7C160003, 0x7C16000C, '2019-02-10 00:00:00') /* Sawato Bandit */
-     , (0x7C160003, 0x7C16000D, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7C160003, 0x7C160004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7C160003, 0x7C160005, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C160006, '2019-02-10 00:00:00') /* Reinforced Door (33830) */
+     , (0x7C160003, 0x7C160007, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C160008, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C160009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C160003, 0x7C16000A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C160003, 0x7C16000B, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C16000C, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C16000D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C160004,   950, 0xC1600011, 53.32794, 6.316059, 6.0075, -0.9248144, 0, 0, -0.3804186,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -69,7 +69,7 @@ VALUES (0x7C16000E,  1542, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xC1600038 [156.022400 168.495600 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16000E, 0x7C16000F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C16000E, 0x7C16000F, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16000F, 22568, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,60 +5,60 @@ VALUES (0x71CC1001,  1154, 0x1CC10027, 118.3796, 149.5691, 20.003, -0.9708141, 0
 /* @teleloc 0x1CC10027 [118.379600 149.569100 20.003000] -0.970814 0.000000 0.000000 -0.239833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC1001, 0x71CC1002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x71CC1001, 0x71CC1004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1005, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1008, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1009, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100B, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100C, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100E, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC100F, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71CC1001, 0x71CC1010, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1011, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1012, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1013, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x71CC1001, 0x71CC1014, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1015, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1016, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1017, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1018, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC1019, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC101A, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC101B, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC101C, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71CC1001, 0x71CC101D, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71CC1001, 0x71CC101E, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC101F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC1020, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71CC1001, 0x71CC1021, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x71CC1001, 0x71CC1022, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC1023, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC1024, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC1025, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC1001, 0x71CC1026, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC1001, 0x71CC1027, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71CC1001, 0x71CC1028, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71CC1001, 0x71CC1029, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC102A, '2019-02-10 00:00:00') /* Assassin */
-     , (0x71CC1001, 0x71CC102B, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x71CC1001, 0x71CC102C, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71CC1001, 0x71CC102D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71CC1001, 0x71CC102E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71CC1001, 0x71CC102F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71CC1001, 0x71CC1030, '2019-02-10 00:00:00') /* Aun Herbalist */
-     , (0x71CC1001, 0x71CC1031, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1032, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC1001, 0x71CC1033, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1034, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1035, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1036, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71CC1001, 0x71CC1037, '2019-02-10 00:00:00') /* Viamontian Knight */;
+VALUES (0x71CC1001, 0x71CC1002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x71CC1001, 0x71CC1004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1005, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1008, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1009, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100B, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100C, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC100F, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71CC1001, 0x71CC1010, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC1011, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1012, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1013, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x71CC1001, 0x71CC1014, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1015, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1016, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1017, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1018, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC1019, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC101A, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC101B, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC101C, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71CC1001, 0x71CC101D, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71CC1001, 0x71CC101E, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC101F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC1020, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71CC1001, 0x71CC1021, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x71CC1001, 0x71CC1022, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC1023, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC1024, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC1025, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC1001, 0x71CC1026, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC1001, 0x71CC1027, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71CC1001, 0x71CC1028, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71CC1001, 0x71CC1029, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC102A, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x71CC1001, 0x71CC102B, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x71CC1001, 0x71CC102C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71CC1001, 0x71CC102D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71CC1001, 0x71CC102E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71CC1001, 0x71CC102F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71CC1001, 0x71CC1030, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */
+     , (0x71CC1001, 0x71CC1031, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC1032, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC1001, 0x71CC1033, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC1034, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC1035, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71CC1001, 0x71CC1036, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71CC1001, 0x71CC1037, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC1002, 27711, 0x1CC10027, 118.3796, 149.5691, 20.003, -0.9708141, 0, 0, -0.2398333,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
@@ -281,11 +281,11 @@ VALUES (0x71CC1038,  1542, 0x1CC1002E, 132.7243, 122.5107, 18.85114, -0.3390169,
 /* @teleloc 0x1CC1002E [132.724300 122.510700 18.851140] -0.339017 0.000000 0.000000 -0.940780 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC1038, 0x71CC1039, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x71CC1038, 0x71CC103A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71CC1038, 0x71CC103B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71CC1038, 0x71CC103C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71CC1038, 0x71CC103D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71CC1038, 0x71CC1039, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x71CC1038, 0x71CC103A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71CC1038, 0x71CC103B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71CC1038, 0x71CC103C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71CC1038, 0x71CC103D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC1039, 36066, 0x1CC1002E, 132.7243, 122.5107, 18.85114, -0.3390169, 0, 0, -0.9407803,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

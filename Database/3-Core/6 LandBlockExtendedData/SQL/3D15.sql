@@ -5,21 +5,21 @@ VALUES (0x73D15001,  1154, 0x3D15001E, 89.03098, 125.3521, 68.0023, -0.3933486, 
 /* @teleloc 0x3D15001E [89.030980 125.352100 68.002300] -0.393349 0.000000 0.000000 -0.919389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D15001, 0x73D15002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73D15001, 0x73D15003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D15001, 0x73D15004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D15001, 0x73D15005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D15001, 0x73D15006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D15001, 0x73D15007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73D15001, 0x73D15008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73D15001, 0x73D15009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73D15001, 0x73D1500A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73D15001, 0x73D1500B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73D15001, 0x73D1500C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D15001, 0x73D1500D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73D15001, 0x73D1500E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73D15001, 0x73D1500F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73D15001, 0x73D15010, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x73D15001, 0x73D15002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73D15001, 0x73D15003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D15001, 0x73D15004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D15001, 0x73D15005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D15001, 0x73D15006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D15001, 0x73D15007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73D15001, 0x73D15008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73D15001, 0x73D15009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73D15001, 0x73D1500A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73D15001, 0x73D1500B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73D15001, 0x73D1500C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D15001, 0x73D1500D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73D15001, 0x73D1500E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73D15001, 0x73D1500F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73D15001, 0x73D15010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D15002, 24134, 0x3D15001E, 89.03098, 125.3521, 68.0023, -0.3933486, 0, 0, -0.9193894,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -86,8 +86,8 @@ VALUES (0x73D15011,  1542, 0x3D150002, 8.371437, 36.08442, -0.45, 1, 0, 0, 0, Fa
 /* @teleloc 0x3D150002 [8.371437 36.084420 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D15011, 0x73D15012, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x73D15011, 0x73D15013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73D15011, 0x73D15012, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x73D15011, 0x73D15013, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D15012,  8999, 0x3D150002, 8.371437, 36.08442, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

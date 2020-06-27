@@ -5,23 +5,23 @@ VALUES (0x7D3D5001,  1154, 0xD3D5000A, 46.17465, 25.88249, 0.1521123, -0.8757635
 /* @teleloc 0xD3D5000A [46.174650 25.882490 0.152112] -0.875764 0.000000 0.000000 -0.482740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3D5001, 0x7D3D5002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D3D5001, 0x7D3D5004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D3D5001, 0x7D3D5005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D3D5001, 0x7D3D5006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D500A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7D3D5001, 0x7D3D500B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D3D5001, 0x7D3D500C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D3D5001, 0x7D3D500D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D3D5001, 0x7D3D500E, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D3D5001, 0x7D3D500F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7D3D5001, 0x7D3D5011, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D5001, 0x7D3D5012, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7D3D5001, 0x7D3D5002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D3D5001, 0x7D3D5004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D3D5001, 0x7D3D5005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D3D5001, 0x7D3D5006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D500A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7D3D5001, 0x7D3D500B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D3D5001, 0x7D3D500C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D3D5001, 0x7D3D500D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D3D5001, 0x7D3D500E, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D3D5001, 0x7D3D500F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7D3D5001, 0x7D3D5011, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D5001, 0x7D3D5012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3D5002,   214, 0xD3D5000A, 46.17465, 25.88249, 0.1521123, -0.8757635, 0, 0, -0.4827404,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -96,7 +96,7 @@ VALUES (0x7D3D5013,  1542, 0xD3D50024, 109.679, 93.43706, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0xD3D50024 [109.679000 93.437060 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3D5013, 0x7D3D5014, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D3D5013, 0x7D3D5014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3D5014, 31445, 0xD3D50024, 109.679, 93.43706, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

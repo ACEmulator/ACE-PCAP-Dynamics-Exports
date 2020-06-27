@@ -5,13 +5,13 @@ VALUES (0x7A9B9001,  1154, 0xA9B90027, 114.1573, 159.9327, 79.6888, 0.7146887, 0
 /* @teleloc 0xA9B90027 [114.157300 159.932700 79.688800] 0.714689 0.000000 0.000000 -0.699443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B9001, 0x7A9B9002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A9B9001, 0x7A9B9003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A9B9001, 0x7A9B9004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A9B9001, 0x7A9B9005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A9B9001, 0x7A9B9006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7A9B9001, 0x7A9B9007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A9B9001, 0x7A9B9008, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7A9B9001, 0x7A9B9002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A9B9001, 0x7A9B9003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A9B9001, 0x7A9B9004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A9B9001, 0x7A9B9005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A9B9001, 0x7A9B9006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7A9B9001, 0x7A9B9007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A9B9001, 0x7A9B9008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B9002,     6, 0xA9B90027, 114.1573, 159.9327, 79.6888, 0.7146887, 0, 0, -0.6994427,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

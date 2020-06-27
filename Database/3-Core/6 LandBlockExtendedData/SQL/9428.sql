@@ -5,8 +5,8 @@ VALUES (0x79428001,  1154, 0x94280033, 149.7522, 50.03505, 230.2273, 0.9147983, 
 /* @teleloc 0x94280033 [149.752200 50.035050 230.227300] 0.914798 0.000000 0.000000 -0.403911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79428001, 0x79428002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79428001, 0x79428003, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x79428001, 0x79428002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79428001, 0x79428003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79428002,  7089, 0x94280033, 149.7522, 50.03505, 230.2273, 0.9147983, 0, 0, -0.4039109,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

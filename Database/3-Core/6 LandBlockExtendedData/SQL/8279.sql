@@ -5,9 +5,9 @@ VALUES (0x78279001,  1154, 0x8279003C, 172.3433, 72.01223, 16.85, -0.8924563, 0,
 /* @teleloc 0x8279003C [172.343300 72.012230 16.850000] -0.892456 0.000000 0.000000 -0.451134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78279001, 0x78279002, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78279001, 0x78279003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78279001, 0x78279004, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x78279001, 0x78279002, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78279001, 0x78279003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78279001, 0x78279004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78279002,   178, 0x8279003C, 172.3433, 72.01223, 16.85, -0.8924563, 0, 0, -0.4511338,  True, '2019-02-10 00:00:00'); /* Brown Armoredillo */

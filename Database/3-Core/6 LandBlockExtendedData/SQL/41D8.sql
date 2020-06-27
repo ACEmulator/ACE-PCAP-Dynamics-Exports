@@ -5,17 +5,17 @@ VALUES (0x741D8001,  1154, 0x41D80006, 9.193186, 130.7829, 14.74, 0.7660445, 0, 
 /* @teleloc 0x41D80006 [9.193186 130.782900 14.740000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741D8001, 0x741D8002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741D8001, 0x741D8003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741D8001, 0x741D8004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741D8001, 0x741D8005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741D8001, 0x741D8006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x741D8001, 0x741D8007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741D8001, 0x741D8008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741D8001, 0x741D8009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741D8001, 0x741D800A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741D8001, 0x741D800B, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x741D8001, 0x741D800C, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x741D8001, 0x741D8002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741D8001, 0x741D8003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741D8001, 0x741D8004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741D8001, 0x741D8005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741D8001, 0x741D8006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x741D8001, 0x741D8007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741D8001, 0x741D8008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741D8001, 0x741D8009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741D8001, 0x741D800A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741D8001, 0x741D800B, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x741D8001, 0x741D800C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741D8002,  7081, 0x41D80006, 9.193186, 130.7829, 14.74, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

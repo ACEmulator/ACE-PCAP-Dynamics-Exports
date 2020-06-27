@@ -5,14 +5,14 @@ VALUES (0x72796001,  1154, 0x27960030, 126.9308, 179.0365, 72.89533, -0.8956159,
 /* @teleloc 0x27960030 [126.930800 179.036500 72.895330] -0.895616 0.000000 0.000000 -0.444828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72796001, 0x72796002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72796001, 0x72796003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72796001, 0x72796004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72796001, 0x72796005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72796001, 0x72796006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72796001, 0x72796007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72796001, 0x72796008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72796001, 0x72796009, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x72796001, 0x72796002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72796001, 0x72796003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72796001, 0x72796004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72796001, 0x72796005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72796001, 0x72796006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72796001, 0x72796007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72796001, 0x72796008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72796001, 0x72796009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72796002, 41534, 0x27960030, 126.9308, 179.0365, 72.89533, -0.8956159, 0, 0, -0.4448282,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */

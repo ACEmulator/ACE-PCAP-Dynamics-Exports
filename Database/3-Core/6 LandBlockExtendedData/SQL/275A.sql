@@ -5,30 +5,30 @@ VALUES (0x7275A001,  1154, 0x275A0038, 148.9708, 174.904, 0.00849998, 0.2707628,
 /* @teleloc 0x275A0038 [148.970800 174.904000 0.008500] 0.270763 0.000000 0.000000 -0.962646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7275A001, 0x7275A002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7275A001, 0x7275A003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7275A001, 0x7275A004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7275A001, 0x7275A005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7275A001, 0x7275A006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7275A001, 0x7275A007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7275A001, 0x7275A008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7275A001, 0x7275A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7275A001, 0x7275A00A, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7275A001, 0x7275A00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7275A001, 0x7275A00C, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7275A001, 0x7275A00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7275A001, 0x7275A00E, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7275A001, 0x7275A00F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7275A001, 0x7275A010, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7275A001, 0x7275A011, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7275A001, 0x7275A012, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7275A001, 0x7275A013, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7275A001, 0x7275A014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7275A001, 0x7275A015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7275A001, 0x7275A016, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7275A001, 0x7275A017, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7275A001, 0x7275A018, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7275A001, 0x7275A019, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7275A001, 0x7275A002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7275A001, 0x7275A003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7275A001, 0x7275A004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7275A001, 0x7275A005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7275A001, 0x7275A006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7275A001, 0x7275A007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7275A001, 0x7275A008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7275A001, 0x7275A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7275A001, 0x7275A00A, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7275A001, 0x7275A00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7275A001, 0x7275A00C, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7275A001, 0x7275A00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7275A001, 0x7275A00E, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7275A001, 0x7275A00F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7275A001, 0x7275A010, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7275A001, 0x7275A011, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7275A001, 0x7275A012, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7275A001, 0x7275A013, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7275A001, 0x7275A014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7275A001, 0x7275A015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7275A001, 0x7275A016, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7275A001, 0x7275A017, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7275A001, 0x7275A018, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7275A001, 0x7275A019, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7275A002,  7092, 0x275A0038, 148.9708, 174.904, 0.00849998, 0.2707628, 0, 0, -0.9626461,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -131,7 +131,7 @@ VALUES (0x7275A01A,  1542, 0x275A0011, 57.29499, 13.21417, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x275A0011 [57.294990 13.214170 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7275A01A, 0x7275A01B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7275A01A, 0x7275A01B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7275A01B, 22571, 0x275A0011, 57.29499, 13.21417, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

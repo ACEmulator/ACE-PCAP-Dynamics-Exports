@@ -5,23 +5,23 @@ VALUES (0x7997F001,  1154, 0x997F0030, 143.152, 172.1207, 34.005, 0.9347387, 0, 
 /* @teleloc 0x997F0030 [143.152000 172.120700 34.005000] 0.934739 0.000000 0.000000 -0.355336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997F001, 0x7997F002, '2019-02-10 00:00:00') /* Spark */
-     , (0x7997F001, 0x7997F003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7997F001, 0x7997F004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7997F001, 0x7997F005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7997F001, 0x7997F006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7997F001, 0x7997F007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7997F001, 0x7997F008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7997F001, 0x7997F009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7997F001, 0x7997F00A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7997F001, 0x7997F00B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7997F001, 0x7997F00C, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7997F001, 0x7997F00D, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7997F001, 0x7997F00E, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7997F001, 0x7997F00F, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7997F001, 0x7997F010, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7997F001, 0x7997F011, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7997F001, 0x7997F012, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7997F001, 0x7997F002, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7997F001, 0x7997F003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7997F001, 0x7997F004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7997F001, 0x7997F005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7997F001, 0x7997F006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7997F001, 0x7997F007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7997F001, 0x7997F008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7997F001, 0x7997F009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7997F001, 0x7997F00A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7997F001, 0x7997F00B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7997F001, 0x7997F00C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7997F001, 0x7997F00D, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7997F001, 0x7997F00E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7997F001, 0x7997F00F, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7997F001, 0x7997F010, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7997F001, 0x7997F011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7997F001, 0x7997F012, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7997F002,  6381, 0x997F0030, 143.152, 172.1207, 34.005, 0.9347387, 0, 0, -0.3553359,  True, '2019-02-10 00:00:00'); /* Spark */
@@ -96,7 +96,7 @@ VALUES (0x7997F013,  1542, 0x997F0027, 100.3256, 150.0728, 31.42868, -4.371139E-
 /* @teleloc 0x997F0027 [100.325600 150.072800 31.428680] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997F013, 0x7997F014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7997F013, 0x7997F014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7997F014,  4380, 0x997F0027, 100.3256, 150.0728, 31.42868, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

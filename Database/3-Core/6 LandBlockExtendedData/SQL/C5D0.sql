@@ -9,15 +9,15 @@ VALUES (0x7C5D0001,  1154, 0xC5D00031, 144.4763, 18.58405, 113.3104, -0.9732621,
 /* @teleloc 0xC5D00031 [144.476300 18.584050 113.310400] -0.973262 0.000000 0.000000 -0.229698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5D0001, 0x7C5D0002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7C5D0001, 0x7C5D0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C5D0001, 0x7C5D0004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C5D0001, 0x7C5D0005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C5D0001, 0x7C5D0006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C5D0001, 0x7C5D0007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C5D0001, 0x7C5D0008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C5D0001, 0x7C5D0009, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7C5D0001, 0x7C5D000A, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x7C5D0001, 0x7C5D0002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7C5D0001, 0x7C5D0003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C5D0001, 0x7C5D0004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C5D0001, 0x7C5D0005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C5D0001, 0x7C5D0006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C5D0001, 0x7C5D0007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C5D0001, 0x7C5D0008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C5D0001, 0x7C5D0009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7C5D0001, 0x7C5D000A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5D0002, 35734, 0xC5D00031, 144.4763, 18.58405, 113.3104, -0.9732621, 0, 0, -0.2296975,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Flyer Nymph */
@@ -60,7 +60,7 @@ VALUES (0x7C5D000B,  1542, 0xC5D00031, 155.3828, 20.60468, 111.9003, 1, 0, 0, 0,
 /* @teleloc 0xC5D00031 [155.382800 20.604680 111.900300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5D000B, 0x7C5D000C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C5D000B, 0x7C5D000C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5D000C, 22567, 0xC5D00031, 155.3828, 20.60468, 111.9003, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

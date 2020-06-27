@@ -5,43 +5,43 @@ VALUES (0x73A0A001,  1154, 0x3A0A003E, 173.3369, 138.958, 3.116115, -0.4291549, 
 /* @teleloc 0x3A0A003E [173.336900 138.958000 3.116115] -0.429155 0.000000 0.000000 -0.903231 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A0A001, 0x73A0A002, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x73A0A001, 0x73A0A003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A004, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A005, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A006, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A007, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x73A0A001, 0x73A0A008, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73A0A001, 0x73A0A009, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A00A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A00B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A00C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A0A001, 0x73A0A00D, '2019-02-10 00:00:00') /* Coral Tower */
-     , (0x73A0A001, 0x73A0A00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A00F, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A010, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A0A001, 0x73A0A011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A0A001, 0x73A0A012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A0A001, 0x73A0A013, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73A0A001, 0x73A0A014, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x73A0A001, 0x73A0A015, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A016, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A017, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A018, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A019, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A01A, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x73A0A001, 0x73A0A01B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A01C, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A01D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A01E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A01F, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73A0A001, 0x73A0A020, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73A0A001, 0x73A0A021, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x73A0A001, 0x73A0A022, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73A0A001, 0x73A0A023, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73A0A001, 0x73A0A024, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x73A0A001, 0x73A0A025, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x73A0A001, 0x73A0A026, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */;
+VALUES (0x73A0A001, 0x73A0A002, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x73A0A001, 0x73A0A003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A004, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A005, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A006, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A007, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x73A0A001, 0x73A0A008, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73A0A001, 0x73A0A009, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73A0A001, 0x73A0A00A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A00B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A00C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A001, 0x73A0A00D, '2019-02-10 00:00:00') /* Coral Tower (38295) */
+     , (0x73A0A001, 0x73A0A00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A00F, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A010, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A001, 0x73A0A011, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A001, 0x73A0A012, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A001, 0x73A0A013, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73A0A001, 0x73A0A014, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x73A0A001, 0x73A0A015, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73A0A001, 0x73A0A016, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73A0A001, 0x73A0A017, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A018, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A019, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A01A, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x73A0A001, 0x73A0A01B, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A01C, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A01D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73A0A001, 0x73A0A01E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73A0A001, 0x73A0A01F, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73A0A001, 0x73A0A020, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73A0A001, 0x73A0A021, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x73A0A001, 0x73A0A022, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73A0A001, 0x73A0A023, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73A0A001, 0x73A0A024, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73A0A001, 0x73A0A025, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73A0A001, 0x73A0A026, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A0A002, 40483, 0x3A0A003E, 173.3369, 138.958, 3.116115, -0.4291549, 0, 0, -0.9032309,  True, '2019-02-10 00:00:00'); /* Shoguth Moarsman */

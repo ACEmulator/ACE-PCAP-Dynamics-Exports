@@ -5,8 +5,8 @@ VALUES (0x7E439001,  1154, 0xE4390001, 1.775472, 7.038058, 91.71291, 0.988689, 0
 /* @teleloc 0xE4390001 [1.775472 7.038058 91.712910] 0.988689 0.000000 0.000000 -0.149978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E439001, 0x7E439002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7E439001, 0x7E439003, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7E439001, 0x7E439002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7E439001, 0x7E439003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E439002,  1464, 0xE4390001, 1.775472, 7.038058, 91.71291, 0.988689, 0, 0, -0.149978,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -21,17 +21,17 @@ VALUES (0x7E439004,  1542, 0xE4390001, 2.295052, 7.179983, 91.89418, -0.742532, 
 /* @teleloc 0xE4390001 [2.295052 7.179983 91.894180] -0.742532 0.000000 0.000000 0.669811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E439004, 0x7E439005, '2019-02-10 00:00:00') /* Royal Atlatl */
-     , (0x7E439004, 0x7E439006, '2019-02-10 00:00:00') /* Empty Flask */
-     , (0x7E439004, 0x7E439007, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E439004, 0x7E439008, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7E439004, 0x7E439009, '2019-02-10 00:00:00') /* Chainmail Tassets */
-     , (0x7E439004, 0x7E43900A, '2019-02-10 00:00:00') /* Ring */
-     , (0x7E439004, 0x7E43900B, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E439004, 0x7E43900C, '2019-02-10 00:00:00') /* Plain Lockpick */
-     , (0x7E439004, 0x7E43900D, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7E439004, 0x7E43900E, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7E439004, 0x7E43900F, '2019-02-10 00:00:00') /* Scroll of Creature Enchantment Mastery Self II */;
+VALUES (0x7E439004, 0x7E439005, '2019-02-10 00:00:00') /* Royal Atlatl (20640) */
+     , (0x7E439004, 0x7E439006, '2019-02-10 00:00:00') /* Empty Flask (7940) */
+     , (0x7E439004, 0x7E439007, '2019-02-10 00:00:00') /* Gem (2420) */
+     , (0x7E439004, 0x7E439008, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7E439004, 0x7E439009, '2019-02-10 00:00:00') /* Chainmail Tassets (108) */
+     , (0x7E439004, 0x7E43900A, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7E439004, 0x7E43900B, '2019-02-10 00:00:00') /* Gem (2417) */
+     , (0x7E439004, 0x7E43900C, '2019-02-10 00:00:00') /* Plain Lockpick (513) */
+     , (0x7E439004, 0x7E43900D, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7E439004, 0x7E43900E, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7E439004, 0x7E43900F, '2019-02-10 00:00:00') /* Scroll of Creature Enchantment Mastery Self II (3198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E439005, 20640, 0xE4390001, 2.295052, 7.179983, 91.89418, -0.742532, 0, 0, 0.669811,  True, '2019-02-10 00:00:00'); /* Royal Atlatl */

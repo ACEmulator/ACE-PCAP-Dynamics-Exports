@@ -5,20 +5,20 @@ VALUES (0x791A9001,  1154, 0x91A90012, 65.41113, 29.62596, 52.46733, 0.9732445, 
 /* @teleloc 0x91A90012 [65.411130 29.625960 52.467330] 0.973245 0.000000 0.000000 -0.229772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791A9001, 0x791A9002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x791A9001, 0x791A9003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x791A9001, 0x791A9004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791A9001, 0x791A9005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x791A9001, 0x791A9006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791A9001, 0x791A9007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x791A9001, 0x791A9008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x791A9001, 0x791A9009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x791A9001, 0x791A900A, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x791A9001, 0x791A900B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791A9001, 0x791A900C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x791A9001, 0x791A900D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x791A9001, 0x791A900E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x791A9001, 0x791A900F, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x791A9001, 0x791A9002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x791A9001, 0x791A9003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x791A9001, 0x791A9004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791A9001, 0x791A9005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x791A9001, 0x791A9006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791A9001, 0x791A9007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x791A9001, 0x791A9008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x791A9001, 0x791A9009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x791A9001, 0x791A900A, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x791A9001, 0x791A900B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791A9001, 0x791A900C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x791A9001, 0x791A900D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x791A9001, 0x791A900E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x791A9001, 0x791A900F, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791A9002,  7979, 0x91A90012, 65.41113, 29.62596, 52.46733, 0.9732445, 0, 0, -0.2297719,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -81,7 +81,7 @@ VALUES (0x791A9010,  1542, 0x91A90014, 69.4558, 76.35251, 54, 1, 0, 0, 0, False,
 /* @teleloc 0x91A90014 [69.455800 76.352510 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791A9010, 0x791A9011, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x791A9010, 0x791A9011, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791A9011,  8232, 0x91A90014, 69.4558, 76.35251, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

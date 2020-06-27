@@ -5,18 +5,18 @@ VALUES (0x7B79B001,  1154, 0xB79B001C, 92.83403, 73.98819, 40.87003, -0.1736482,
 /* @teleloc 0xB79B001C [92.834030 73.988190 40.870030] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B79B001, 0x7B79B002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B79B001, 0x7B79B003, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B79B001, 0x7B79B004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B79B001, 0x7B79B005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B79B001, 0x7B79B006, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B79B001, 0x7B79B007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B79B001, 0x7B79B008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B79B001, 0x7B79B009, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B79B001, 0x7B79B00A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B79B001, 0x7B79B00B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B79B001, 0x7B79B00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B79B001, 0x7B79B00D, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7B79B001, 0x7B79B002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B79B001, 0x7B79B003, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B79B001, 0x7B79B004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B79B001, 0x7B79B005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B79B001, 0x7B79B006, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B79B001, 0x7B79B007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B79B001, 0x7B79B008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B79B001, 0x7B79B009, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B79B001, 0x7B79B00A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B79B001, 0x7B79B00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B79B001, 0x7B79B00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B79B001, 0x7B79B00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79B002,   236, 0xB79B001C, 92.83403, 73.98819, 40.87003, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Female Tusker */
@@ -71,7 +71,7 @@ VALUES (0x7B79B00E,  1542, 0xB79B0023, 116.1712, 51.43513, 34.89159, 0.9976725, 
 /* @teleloc 0xB79B0023 [116.171200 51.435130 34.891590] 0.997673 0.000000 0.000000 -0.068188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B79B00E, 0x7B79B00F, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B79B00E, 0x7B79B00F, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79B00F,  8037, 0xB79B0023, 116.1712, 51.43513, 34.89159, 0.9976725, 0, 0, -0.06818802,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,21 +5,21 @@ VALUES (0x7C2CD001,  1154, 0xC2CD001E, 88.08282, 139.8409, 231.6609, 0.3713196, 
 /* @teleloc 0xC2CD001E [88.082820 139.840900 231.660900] 0.371320 0.000000 0.000000 -0.928505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2CD001, 0x7C2CD002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2CD001, 0x7C2CD003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2CD001, 0x7C2CD004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2CD001, 0x7C2CD005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C2CD001, 0x7C2CD006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C2CD001, 0x7C2CD007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C2CD001, 0x7C2CD008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2CD001, 0x7C2CD009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C2CD001, 0x7C2CD00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2CD001, 0x7C2CD00B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2CD001, 0x7C2CD00C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C2CD001, 0x7C2CD00D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2CD001, 0x7C2CD00E, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C2CD001, 0x7C2CD00F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7C2CD001, 0x7C2CD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7C2CD001, 0x7C2CD002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2CD001, 0x7C2CD003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2CD001, 0x7C2CD004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2CD001, 0x7C2CD005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C2CD001, 0x7C2CD006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C2CD001, 0x7C2CD007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C2CD001, 0x7C2CD008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2CD001, 0x7C2CD009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C2CD001, 0x7C2CD00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2CD001, 0x7C2CD00B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2CD001, 0x7C2CD00C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C2CD001, 0x7C2CD00D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2CD001, 0x7C2CD00E, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C2CD001, 0x7C2CD00F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7C2CD001, 0x7C2CD010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2CD002, 24958, 0xC2CD001E, 88.08282, 139.8409, 231.6609, 0.3713196, 0, 0, -0.9285051,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -86,7 +86,7 @@ VALUES (0x7C2CD011,  1542, 0xC2CD0013, 65.16909, 64.69837, 230.9184, 1, 0, 0, 0,
 /* @teleloc 0xC2CD0013 [65.169090 64.698370 230.918400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2CD011, 0x7C2CD012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C2CD011, 0x7C2CD012, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2CD012, 22576, 0xC2CD0013, 65.16909, 64.69837, 230.9184, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

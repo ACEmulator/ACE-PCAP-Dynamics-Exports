@@ -5,9 +5,9 @@ VALUES (0x7AA6E001,  1154, 0xAA6E0033, 150.9773, 52.1826, 36.01, 0.9238795, 0, 0
 /* @teleloc 0xAA6E0033 [150.977300 52.182600 36.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA6E001, 0x7AA6E002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA6E001, 0x7AA6E003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA6E001, 0x7AA6E004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7AA6E001, 0x7AA6E002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA6E001, 0x7AA6E003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA6E001, 0x7AA6E004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA6E002,   194, 0xAA6E0033, 150.9773, 52.1826, 36.01, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */

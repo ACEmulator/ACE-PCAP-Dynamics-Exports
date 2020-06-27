@@ -5,27 +5,27 @@ VALUES (0x7BC1C001,  1154, 0xBC1C001D, 87.82647, 118.5609, 0.606232, 0.9537169, 
 /* @teleloc 0xBC1C001D [87.826470 118.560900 0.606232] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1C001, 0x7BC1C002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BC1C001, 0x7BC1C003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BC1C001, 0x7BC1C004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BC1C001, 0x7BC1C005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BC1C001, 0x7BC1C006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BC1C001, 0x7BC1C007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BC1C001, 0x7BC1C008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BC1C001, 0x7BC1C009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1C001, 0x7BC1C00A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1C001, 0x7BC1C00B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BC1C001, 0x7BC1C00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BC1C001, 0x7BC1C00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BC1C001, 0x7BC1C00E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BC1C001, 0x7BC1C00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BC1C001, 0x7BC1C010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BC1C001, 0x7BC1C011, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BC1C001, 0x7BC1C012, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BC1C001, 0x7BC1C013, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BC1C001, 0x7BC1C014, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BC1C001, 0x7BC1C015, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BC1C001, 0x7BC1C016, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7BC1C001, 0x7BC1C002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BC1C001, 0x7BC1C003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BC1C001, 0x7BC1C004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BC1C001, 0x7BC1C005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BC1C001, 0x7BC1C006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BC1C001, 0x7BC1C007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BC1C001, 0x7BC1C008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BC1C001, 0x7BC1C009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1C001, 0x7BC1C00A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1C001, 0x7BC1C00B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BC1C001, 0x7BC1C00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BC1C001, 0x7BC1C00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BC1C001, 0x7BC1C00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BC1C001, 0x7BC1C00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BC1C001, 0x7BC1C010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BC1C001, 0x7BC1C011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BC1C001, 0x7BC1C012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BC1C001, 0x7BC1C013, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BC1C001, 0x7BC1C014, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BC1C001, 0x7BC1C015, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BC1C001, 0x7BC1C016, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1C002,  4248, 0xBC1C001D, 87.82647, 118.5609, 0.606232, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -116,8 +116,8 @@ VALUES (0x7BC1C017,  1542, 0xBC1C001D, 88.21938, 115.7599, 1.766716, 0.9990482, 
 /* @teleloc 0xBC1C001D [88.219380 115.759900 1.766716] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1C017, 0x7BC1C018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BC1C017, 0x7BC1C019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BC1C017, 0x7BC1C018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BC1C017, 0x7BC1C019, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1C018,  4179, 0xBC1C001D, 88.21938, 115.7599, 1.766716, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

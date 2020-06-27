@@ -5,13 +5,13 @@ VALUES (0x73A2F001,  1154, 0x3A2F0037, 151.8162, 153.7608, 115.4248, 0.8191521, 
 /* @teleloc 0x3A2F0037 [151.816200 153.760800 115.424800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A2F001, 0x73A2F002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73A2F001, 0x73A2F003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73A2F001, 0x73A2F004, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x73A2F001, 0x73A2F005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73A2F001, 0x73A2F006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73A2F001, 0x73A2F007, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x73A2F001, 0x73A2F008, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x73A2F001, 0x73A2F002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73A2F001, 0x73A2F003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73A2F001, 0x73A2F004, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73A2F001, 0x73A2F005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73A2F001, 0x73A2F006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73A2F001, 0x73A2F007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73A2F001, 0x73A2F008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A2F002, 23566, 0x3A2F0037, 151.8162, 153.7608, 115.4248, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

@@ -5,35 +5,35 @@ VALUES (0x7CFE1001,  1154, 0xCFE10022, 100.236, 42.2953, 1.524608, 0.0132704, 0,
 /* @teleloc 0xCFE10022 [100.236000 42.295300 1.524608] 0.013270 0.000000 0.000000 0.999912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFE1001, 0x7CFE1002, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1003, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1004, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1005, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1006, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CFE1001, 0x7CFE1007, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1008, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1009, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE100A, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7CFE1001, 0x7CFE100B, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFE1001, 0x7CFE100C, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE100D, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE100E, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE100F, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CFE1001, 0x7CFE1010, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CFE1001, 0x7CFE1011, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CFE1001, 0x7CFE1012, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CFE1001, 0x7CFE1013, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CFE1001, 0x7CFE1014, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CFE1001, 0x7CFE1015, '2019-02-10 00:00:00') /* Gold Moarsman */
-     , (0x7CFE1001, 0x7CFE1016, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1017, '2019-02-10 00:00:00') /* Bloodmouth Remoran */
-     , (0x7CFE1001, 0x7CFE1018, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7CFE1001, 0x7CFE1019, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CFE1001, 0x7CFE101A, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CFE1001, 0x7CFE101B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CFE1001, 0x7CFE101C, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CFE1001, 0x7CFE101D, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CFE1001, 0x7CFE101E, '2019-02-10 00:00:00') /* Scummy Moarsman */;
+VALUES (0x7CFE1001, 0x7CFE1002, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1003, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1004, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1005, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1006, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CFE1001, 0x7CFE1007, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1008, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1009, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE100A, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7CFE1001, 0x7CFE100B, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFE1001, 0x7CFE100C, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE100D, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE100E, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE100F, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CFE1001, 0x7CFE1010, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CFE1001, 0x7CFE1011, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CFE1001, 0x7CFE1012, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CFE1001, 0x7CFE1013, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CFE1001, 0x7CFE1014, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CFE1001, 0x7CFE1015, '2019-02-10 00:00:00') /* Gold Moarsman (31913) */
+     , (0x7CFE1001, 0x7CFE1016, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1017, '2019-02-10 00:00:00') /* Bloodmouth Remoran (32120) */
+     , (0x7CFE1001, 0x7CFE1018, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7CFE1001, 0x7CFE1019, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CFE1001, 0x7CFE101A, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CFE1001, 0x7CFE101B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CFE1001, 0x7CFE101C, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CFE1001, 0x7CFE101D, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CFE1001, 0x7CFE101E, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFE1002, 32120, 0xCFE10022, 100.236, 42.2953, 1.524608, 0.0132704, 0, 0, 0.999912,  True, '2019-02-10 00:00:00'); /* Bloodmouth Remoran */

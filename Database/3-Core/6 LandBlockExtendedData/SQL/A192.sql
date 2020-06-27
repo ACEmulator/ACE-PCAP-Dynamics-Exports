@@ -5,12 +5,12 @@ VALUES (0x7A192001,  1154, 0xA1920022, 102.2864, 45.23705, 45.20158, -0.5536898,
 /* @teleloc 0xA1920022 [102.286400 45.237050 45.201580] -0.553690 0.000000 0.000000 -0.832723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A192001, 0x7A192002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7A192001, 0x7A192003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A192001, 0x7A192004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A192001, 0x7A192005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A192001, 0x7A192006, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7A192001, 0x7A192007, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7A192001, 0x7A192002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7A192001, 0x7A192003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A192001, 0x7A192004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A192001, 0x7A192005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A192001, 0x7A192006, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7A192001, 0x7A192007, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A192002, 21160, 0xA1920022, 102.2864, 45.23705, 45.20158, -0.5536898, 0, 0, -0.832723,  True, '2019-02-10 00:00:00'); /* Scourge */
@@ -41,7 +41,7 @@ VALUES (0x7A192008,  1542, 0xA192000C, 28.77006, 89.16309, 30.0358, 1, 0, 0, 0, 
 /* @teleloc 0xA192000C [28.770060 89.163090 30.035800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A192008, 0x7A192009, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7A192008, 0x7A192009, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A192009,   265, 0xA192000C, 28.77006, 89.16309, 30.0358, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

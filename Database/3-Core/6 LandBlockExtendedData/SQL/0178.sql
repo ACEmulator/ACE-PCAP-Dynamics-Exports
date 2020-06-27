@@ -73,64 +73,64 @@ VALUES (0x7017804E,  1154, 0x017801B8, 59.6516, -78.6763, 0.006600022, 0.38368, 
 /* @teleloc 0x017801B8 [59.651600 -78.676300 0.006600] 0.383680 0.000000 0.000000 0.923466 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017804E, 0x7017804F, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x70178050, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178051, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178052, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x70178053, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178054, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178055, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x70178056, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178057, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178058, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178059, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017805A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017805B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017805C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017805D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017805E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017805F, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178060, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178061, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178062, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178063, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178064, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178065, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178066, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178067, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178068, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178069, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017806A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017806B, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x7017806C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017806D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017806E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017806F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178070, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x70178071, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178072, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178073, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178074, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178075, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178076, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178077, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178078, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178079, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017807A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017807B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017807C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017807D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x7017807E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x7017807F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178080, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178081, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178082, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178083, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7017804E, 0x70178084, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178085, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178086, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7017804E, 0x70178087, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7017804E, 0x70178088, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x7017804E, 0x7017804F, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x70178050, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178051, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178052, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x70178053, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178054, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178055, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x70178056, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178057, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178058, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178059, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017805A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017805B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017805C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017805D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017805E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017805F, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178060, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178061, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178062, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178063, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178064, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178065, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178066, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178067, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178068, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178069, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017806A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017806B, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x7017806C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017806D, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017806E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017806F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178070, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x70178071, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178072, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178073, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178074, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178075, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178076, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178077, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178078, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178079, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017807A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017807B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017807C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017807D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x7017807E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x7017807F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178080, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178081, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178082, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178083, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7017804E, 0x70178084, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178085, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178086, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7017804E, 0x70178087, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7017804E, 0x70178088, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017804F,  8429, 0x017801B8, 59.6516, -78.6763, 0.006600022, 0.38368, 0, 0, 0.9234661,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */
@@ -369,7 +369,7 @@ VALUES (0x70178089,  1542, 0x017801D8, 79.9933, -41.3266, 1.025, -0.9999164, 0, 
 /* @teleloc 0x017801D8 [79.993300 -41.326600 1.025000] -0.999916 0.000000 0.000000 -0.012929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70178089, 0x7017808A, '2019-02-10 00:00:00') /* Eye of Drageerg */;
+VALUES (0x70178089, 0x7017808A, '2019-02-10 00:00:00') /* Eye of Drageerg (27903) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017808A, 27903, 0x017801D8, 79.9933, -41.3266, 1.025, -0.9999164, 0, 0, -0.01292871,  True, '2019-02-10 00:00:00'); /* Eye of Drageerg */

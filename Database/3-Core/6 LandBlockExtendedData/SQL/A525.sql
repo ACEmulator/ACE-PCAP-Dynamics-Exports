@@ -5,12 +5,12 @@ VALUES (0x7A525001,  1154, 0xA5250028, 118.8774, 183.4801, 235.0391, 1, 0, 0, 0,
 /* @teleloc 0xA5250028 [118.877400 183.480100 235.039100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A525001, 0x7A525002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A525001, 0x7A525003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A525001, 0x7A525004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A525001, 0x7A525005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A525001, 0x7A525006, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7A525001, 0x7A525007, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7A525001, 0x7A525002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A525001, 0x7A525003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A525001, 0x7A525004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A525001, 0x7A525005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A525001, 0x7A525006, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7A525001, 0x7A525007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A525002,  7107, 0xA5250028, 118.8774, 183.4801, 235.0391, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -41,7 +41,7 @@ VALUES (0x7A525008,  1542, 0xA5250028, 116.8263, 187.4542, 234.0442, 1, 0, 0, 0,
 /* @teleloc 0xA5250028 [116.826300 187.454200 234.044200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A525008, 0x7A525009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A525008, 0x7A525009, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A525009,  4379, 0xA5250028, 116.8263, 187.4542, 234.0442, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

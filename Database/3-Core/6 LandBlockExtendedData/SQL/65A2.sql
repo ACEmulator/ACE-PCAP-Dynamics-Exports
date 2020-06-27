@@ -5,14 +5,14 @@ VALUES (0x765A2001,  1154, 0x65A20036, 150.8779, 123.7647, 64.57916, -0.9295081,
 /* @teleloc 0x65A20036 [150.877900 123.764700 64.579160] -0.929508 0.000000 0.000000 -0.368802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765A2001, 0x765A2002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x765A2001, 0x765A2003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x765A2001, 0x765A2004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x765A2001, 0x765A2005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x765A2001, 0x765A2006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x765A2001, 0x765A2007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x765A2001, 0x765A2008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x765A2001, 0x765A2009, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x765A2001, 0x765A2002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x765A2001, 0x765A2003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x765A2001, 0x765A2004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x765A2001, 0x765A2005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x765A2001, 0x765A2006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x765A2001, 0x765A2007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x765A2001, 0x765A2008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x765A2001, 0x765A2009, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765A2002,   227, 0x65A20036, 150.8779, 123.7647, 64.57916, -0.9295081, 0, 0, -0.3688015,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

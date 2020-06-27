@@ -5,13 +5,13 @@ VALUES (0x7F85F001,  1154, 0xF85F002B, 135.6528, 60.96169, -0.4399999, 0.3392307
 /* @teleloc 0xF85F002B [135.652800 60.961690 -0.440000] 0.339231 0.000000 0.000000 -0.940703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85F001, 0x7F85F002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F85F001, 0x7F85F003, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F85F001, 0x7F85F004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F85F001, 0x7F85F005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F85F001, 0x7F85F006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F85F001, 0x7F85F007, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F85F001, 0x7F85F008, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7F85F001, 0x7F85F002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F85F001, 0x7F85F003, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F85F001, 0x7F85F004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F85F001, 0x7F85F005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F85F001, 0x7F85F006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F85F001, 0x7F85F007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F85F001, 0x7F85F008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85F002, 11531, 0xF85F002B, 135.6528, 60.96169, -0.4399999, 0.3392307, 0, 0, -0.9407032,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -46,9 +46,9 @@ VALUES (0x7F85F009,  1542, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.55858
 /* @teleloc 0xF85F001B [79.389380 54.114640 -0.096700] -0.558585 0.000000 0.000000 -0.829447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85F009, 0x7F85F00A, '2019-02-10 00:00:00') /* Plush Tusker */
-     , (0x7F85F009, 0x7F85F00B, '2019-02-10 00:00:00') /* Pack Golem */
-     , (0x7F85F009, 0x7F85F00C, '2019-02-10 00:00:00') /* Great Elariwood Idol */;
+VALUES (0x7F85F009, 0x7F85F00A, '2019-02-10 00:00:00') /* Plush Tusker (9169) */
+     , (0x7F85F009, 0x7F85F00B, '2019-02-10 00:00:00') /* Pack Golem (9179) */
+     , (0x7F85F009, 0x7F85F00C, '2019-02-10 00:00:00') /* Great Elariwood Idol (27808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85F00A,  9169, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.558585, 0, 0, -0.8294472,  True, '2019-02-10 00:00:00'); /* Plush Tusker */

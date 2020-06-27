@@ -5,14 +5,14 @@ VALUES (0x7C1A7001,  1154, 0xC1A7002E, 137.744, 142.2225, 51.48554, 0.9065554, 0
 /* @teleloc 0xC1A7002E [137.744000 142.222500 51.485540] 0.906555 0.000000 0.000000 -0.422087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A7001, 0x7C1A7002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C1A7001, 0x7C1A7003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C1A7001, 0x7C1A7004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C1A7001, 0x7C1A7005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C1A7001, 0x7C1A7006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C1A7001, 0x7C1A7007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1A7001, 0x7C1A7008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C1A7001, 0x7C1A7009, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7C1A7001, 0x7C1A7002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C1A7001, 0x7C1A7003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C1A7001, 0x7C1A7004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C1A7001, 0x7C1A7005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C1A7001, 0x7C1A7006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C1A7001, 0x7C1A7007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1A7001, 0x7C1A7008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C1A7001, 0x7C1A7009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A7002,  7345, 0xC1A7002E, 137.744, 142.2225, 51.48554, 0.9065554, 0, 0, -0.4220869,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,32 +5,32 @@ VALUES (0x78CD2001,  1154, 0x8CD20031, 152.0607, 15.31126, 401.3506, -0.8429411,
 /* @teleloc 0x8CD20031 [152.060700 15.311260 401.350600] -0.842941 0.000000 0.000000 -0.538006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD2001, 0x78CD2002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CD2001, 0x78CD2003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD2001, 0x78CD2004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CD2001, 0x78CD2005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD2001, 0x78CD2006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78CD2001, 0x78CD2007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78CD2001, 0x78CD2008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78CD2001, 0x78CD2009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78CD2001, 0x78CD200A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CD2001, 0x78CD200B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD2001, 0x78CD200C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD2001, 0x78CD200D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD2001, 0x78CD200E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CD2001, 0x78CD200F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CD2001, 0x78CD2010, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78CD2001, 0x78CD2011, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x78CD2001, 0x78CD2012, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CD2001, 0x78CD2013, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x78CD2001, 0x78CD2014, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78CD2001, 0x78CD2015, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x78CD2001, 0x78CD2016, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x78CD2001, 0x78CD2017, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78CD2001, 0x78CD2018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78CD2001, 0x78CD2019, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x78CD2001, 0x78CD201A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78CD2001, 0x78CD201B, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x78CD2001, 0x78CD2002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CD2001, 0x78CD2003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CD2001, 0x78CD2004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CD2001, 0x78CD2005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD2001, 0x78CD2006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78CD2001, 0x78CD2007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78CD2001, 0x78CD2008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78CD2001, 0x78CD2009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78CD2001, 0x78CD200A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CD2001, 0x78CD200B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD2001, 0x78CD200C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD2001, 0x78CD200D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD2001, 0x78CD200E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CD2001, 0x78CD200F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CD2001, 0x78CD2010, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78CD2001, 0x78CD2011, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x78CD2001, 0x78CD2012, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CD2001, 0x78CD2013, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x78CD2001, 0x78CD2014, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78CD2001, 0x78CD2015, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x78CD2001, 0x78CD2016, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x78CD2001, 0x78CD2017, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78CD2001, 0x78CD2018, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78CD2001, 0x78CD2019, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x78CD2001, 0x78CD201A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78CD2001, 0x78CD201B, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD2002,  7088, 0x8CD20031, 152.0607, 15.31126, 401.3506, -0.8429411, 0, 0, -0.5380058,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -141,9 +141,9 @@ VALUES (0x78CD201C,  1542, 0x8CD2002E, 130.7073, 131.4422, 389.7846, 1, 0, 0, 0,
 /* @teleloc 0x8CD2002E [130.707300 131.442200 389.784600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD201C, 0x78CD201D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78CD201C, 0x78CD201E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78CD201C, 0x78CD201F, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x78CD201C, 0x78CD201D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78CD201C, 0x78CD201E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78CD201C, 0x78CD201F, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD201D, 22567, 0x8CD2002E, 130.7073, 131.4422, 389.7846, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

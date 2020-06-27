@@ -5,9 +5,9 @@ VALUES (0x7AD4B001,  1154, 0xAD4B0016, 48.16389, 121.6189, 24.01, 0.7103153, 0, 
 /* @teleloc 0xAD4B0016 [48.163890 121.618900 24.010000] 0.710315 0.000000 0.000000 -0.703884 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD4B001, 0x7AD4B002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD4B001, 0x7AD4B003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD4B001, 0x7AD4B004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AD4B001, 0x7AD4B002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD4B001, 0x7AD4B003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD4B001, 0x7AD4B004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD4B002,   194, 0xAD4B0016, 48.16389, 121.6189, 24.01, 0.7103153, 0, 0, -0.7038836,  True, '2019-02-10 00:00:00'); /* Copper Golem */

@@ -5,13 +5,13 @@ VALUES (0x7AFA7001,  1154, 0xAFA70039, 169.1283, 6.722324, 121.1959, 0.7071068, 
 /* @teleloc 0xAFA70039 [169.128300 6.722324 121.195900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA7001, 0x7AFA7002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFA7001, 0x7AFA7003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AFA7001, 0x7AFA7004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFA7001, 0x7AFA7005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7AFA7001, 0x7AFA7006, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7AFA7001, 0x7AFA7007, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AFA7001, 0x7AFA7008, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7AFA7001, 0x7AFA7002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFA7001, 0x7AFA7003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AFA7001, 0x7AFA7004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFA7001, 0x7AFA7005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7AFA7001, 0x7AFA7006, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7AFA7001, 0x7AFA7007, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AFA7001, 0x7AFA7008, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA7002,   943, 0xAFA70039, 169.1283, 6.722324, 121.1959, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -46,7 +46,7 @@ VALUES (0x7AFA7009,  1542, 0xAFA70001, 22.59906, 21.61304, 153.0249, 0.9990482, 
 /* @teleloc 0xAFA70001 [22.599060 21.613040 153.024900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA7009, 0x7AFA700A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7AFA7009, 0x7AFA700A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA700A,  6117, 0xAFA70001, 22.59906, 21.61304, 153.0249, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

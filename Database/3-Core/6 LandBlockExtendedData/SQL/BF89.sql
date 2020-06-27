@@ -5,21 +5,21 @@ VALUES (0x7BF89001,  1154, 0xBF890006, 9.361588, 123.1057, 55.67381, 0.7008884, 
 /* @teleloc 0xBF890006 [9.361588 123.105700 55.673810] 0.700888 0.000000 0.000000 -0.713271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF89001, 0x7BF89002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF89001, 0x7BF89003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BF89001, 0x7BF89004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BF89001, 0x7BF89005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BF89001, 0x7BF89006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF89001, 0x7BF89007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF89001, 0x7BF89008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF89001, 0x7BF89009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BF89001, 0x7BF8900A, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF89001, 0x7BF8900B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF89001, 0x7BF8900C, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF89001, 0x7BF8900D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BF89001, 0x7BF8900E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF89001, 0x7BF8900F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF89001, 0x7BF89010, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7BF89001, 0x7BF89002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF89001, 0x7BF89003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BF89001, 0x7BF89004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BF89001, 0x7BF89005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BF89001, 0x7BF89006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF89001, 0x7BF89007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF89001, 0x7BF89008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF89001, 0x7BF89009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BF89001, 0x7BF8900A, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF89001, 0x7BF8900B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF89001, 0x7BF8900C, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF89001, 0x7BF8900D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BF89001, 0x7BF8900E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF89001, 0x7BF8900F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF89001, 0x7BF89010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF89002,   180, 0xBF890006, 9.361588, 123.1057, 55.67381, 0.7008884, 0, 0, -0.713271,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */
@@ -86,8 +86,8 @@ VALUES (0x7BF89011,  1542, 0xBF89002A, 142.1628, 39.99998, 35.6948, 1, 0, 0, 0, 
 /* @teleloc 0xBF89002A [142.162800 39.999980 35.694800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF89011, 0x7BF89012, '2019-02-10 00:00:00') /* Meat */
-     , (0x7BF89011, 0x7BF89013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BF89011, 0x7BF89012, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7BF89011, 0x7BF89013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF89012,   265, 0xBF89002A, 142.1628, 39.99998, 35.6948, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

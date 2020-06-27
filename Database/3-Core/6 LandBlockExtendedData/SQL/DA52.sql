@@ -5,17 +5,17 @@ VALUES (0x7DA52001,  1154, 0xDA520030, 137.8931, 174.5026, 26.51223, 0.9364039, 
 /* @teleloc 0xDA520030 [137.893100 174.502600 26.512230] 0.936404 0.000000 0.000000 -0.350924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA52001, 0x7DA52002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DA52001, 0x7DA52003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DA52001, 0x7DA52004, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DA52001, 0x7DA52005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA52001, 0x7DA52006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DA52001, 0x7DA52007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DA52001, 0x7DA52008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DA52001, 0x7DA52009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DA52001, 0x7DA5200A, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DA52001, 0x7DA5200B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DA52001, 0x7DA5200C, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7DA52001, 0x7DA52002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DA52001, 0x7DA52003, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DA52001, 0x7DA52004, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DA52001, 0x7DA52005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA52001, 0x7DA52006, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DA52001, 0x7DA52007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DA52001, 0x7DA52008, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DA52001, 0x7DA52009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DA52001, 0x7DA5200A, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DA52001, 0x7DA5200B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DA52001, 0x7DA5200C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA52002, 19257, 0xDA520030, 137.8931, 174.5026, 26.51223, 0.9364039, 0, 0, -0.3509242,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

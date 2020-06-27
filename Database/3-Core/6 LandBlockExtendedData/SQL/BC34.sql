@@ -29,7 +29,7 @@ VALUES (0x7BC34006,  1154, 0xBC340003, 4.658463, 71.1041, 55.23927, -0.9840055, 
 /* @teleloc 0xBC340003 [4.658463 71.104100 55.239270] -0.984006 0.000000 0.000000 -0.178138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC34006, 0x7BC34007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7BC34006, 0x7BC34007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC34007,  1989, 0xBC340003, 4.658463, 71.1041, 55.23927, -0.9840055, 0, 0, -0.1781384,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -40,7 +40,7 @@ VALUES (0x7BC34008,  1542, 0xBC340029, 138.0513, 13.17841, 67.00855, -0.5292485,
 /* @teleloc 0xBC340029 [138.051300 13.178410 67.008550] -0.529249 0.000000 0.000000 -0.848467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC34008, 0x7BC34009, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BC34008, 0x7BC34009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC34009,  8646, 0xBC340029, 138.0513, 13.17841, 67.00855, -0.5292485, 0, 0, -0.8484669,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

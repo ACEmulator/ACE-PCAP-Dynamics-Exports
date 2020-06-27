@@ -5,20 +5,20 @@ VALUES (0x75E9C001,  1154, 0x5E9C003D, 181.5811, 109.9675, 4, -0.0281955, 0, 0, 
 /* @teleloc 0x5E9C003D [181.581100 109.967500 4.000000] -0.028196 0.000000 0.000000 -0.999602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9C001, 0x75E9C002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75E9C001, 0x75E9C003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75E9C001, 0x75E9C004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x75E9C001, 0x75E9C005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75E9C001, 0x75E9C006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75E9C001, 0x75E9C007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75E9C001, 0x75E9C008, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75E9C001, 0x75E9C009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75E9C001, 0x75E9C00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75E9C001, 0x75E9C00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75E9C001, 0x75E9C00C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x75E9C001, 0x75E9C00D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75E9C001, 0x75E9C00E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75E9C001, 0x75E9C00F, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x75E9C001, 0x75E9C002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75E9C001, 0x75E9C003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75E9C001, 0x75E9C004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x75E9C001, 0x75E9C005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75E9C001, 0x75E9C006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75E9C001, 0x75E9C007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75E9C001, 0x75E9C008, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75E9C001, 0x75E9C009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75E9C001, 0x75E9C00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75E9C001, 0x75E9C00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75E9C001, 0x75E9C00C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x75E9C001, 0x75E9C00D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75E9C001, 0x75E9C00E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75E9C001, 0x75E9C00F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9C002,  6041, 0x5E9C003D, 181.5811, 109.9675, 4, -0.0281955, 0, 0, -0.9996024,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

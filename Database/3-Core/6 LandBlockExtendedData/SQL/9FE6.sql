@@ -5,17 +5,17 @@ VALUES (0x79FE6001,  1154, 0x9FE6003C, 177.294, 93.73376, 105.8654, 0.7989085, 0
 /* @teleloc 0x9FE6003C [177.294000 93.733760 105.865400] 0.798909 0.000000 0.000000 -0.601453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE6001, 0x79FE6002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x79FE6001, 0x79FE6003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79FE6001, 0x79FE6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79FE6001, 0x79FE6005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79FE6001, 0x79FE6006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79FE6001, 0x79FE6007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79FE6001, 0x79FE6008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79FE6001, 0x79FE6009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79FE6001, 0x79FE600A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79FE6001, 0x79FE600B, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79FE6001, 0x79FE600C, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x79FE6001, 0x79FE6002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x79FE6001, 0x79FE6003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79FE6001, 0x79FE6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79FE6001, 0x79FE6005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79FE6001, 0x79FE6006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79FE6001, 0x79FE6007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79FE6001, 0x79FE6008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79FE6001, 0x79FE6009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79FE6001, 0x79FE600A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79FE6001, 0x79FE600B, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79FE6001, 0x79FE600C, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE6002, 11481, 0x9FE6003C, 177.294, 93.73376, 105.8654, 0.7989085, 0, 0, -0.6014525,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -66,10 +66,10 @@ VALUES (0x79FE600D,  1542, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 
 /* @teleloc 0x9FE60034 [167.505100 86.146470 113.639100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE600D, 0x79FE600E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79FE600D, 0x79FE600F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79FE600D, 0x79FE6010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79FE600D, 0x79FE6011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79FE600D, 0x79FE600E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79FE600D, 0x79FE600F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x79FE600D, 0x79FE6010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x79FE600D, 0x79FE6011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE600E,  4179, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

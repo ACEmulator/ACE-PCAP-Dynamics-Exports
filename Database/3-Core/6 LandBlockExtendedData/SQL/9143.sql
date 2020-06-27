@@ -5,18 +5,18 @@ VALUES (0x79143001,  1154, 0x9143002F, 121.8035, 160.4571, 13.38754, 0.9659258, 
 /* @teleloc 0x9143002F [121.803500 160.457100 13.387540] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79143001, 0x79143002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79143001, 0x79143003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79143001, 0x79143004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79143001, 0x79143005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79143001, 0x79143006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79143001, 0x79143007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79143001, 0x79143008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79143001, 0x79143009, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79143001, 0x7914300A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79143001, 0x7914300B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79143001, 0x7914300C, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79143001, 0x7914300D, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79143001, 0x79143002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79143001, 0x79143003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79143001, 0x79143004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79143001, 0x79143005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79143001, 0x79143006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79143001, 0x79143007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79143001, 0x79143008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79143001, 0x79143009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79143001, 0x7914300A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79143001, 0x7914300B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79143001, 0x7914300C, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79143001, 0x7914300D, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79143002,  1630, 0x9143002F, 121.8035, 160.4571, 13.38754, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -71,7 +71,7 @@ VALUES (0x7914300E,  1542, 0x91430035, 167.7152, 110.0749, 12.19928, 1, 0, 0, 0,
 /* @teleloc 0x91430035 [167.715200 110.074900 12.199280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7914300E, 0x7914300F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7914300E, 0x7914300F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7914300F, 31443, 0x91430035, 167.7152, 110.0749, 12.19928, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,19 +5,19 @@ VALUES (0x749F3001,  1154, 0x49F30031, 156.8555, 1.015442, 2.142552, 0.9959248, 
 /* @teleloc 0x49F30031 [156.855500 1.015442 2.142552] 0.995925 0.000000 0.000000 -0.090187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749F3001, 0x749F3002, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x749F3001, 0x749F3003, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x749F3001, 0x749F3004, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x749F3001, 0x749F3005, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x749F3001, 0x749F3006, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x749F3001, 0x749F3007, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x749F3001, 0x749F3008, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x749F3001, 0x749F3009, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x749F3001, 0x749F300A, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x749F3001, 0x749F300B, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x749F3001, 0x749F300C, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x749F3001, 0x749F300D, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x749F3001, 0x749F300E, '2019-02-10 00:00:00') /* Skeletal Mate */;
+VALUES (0x749F3001, 0x749F3002, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x749F3001, 0x749F3003, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x749F3001, 0x749F3004, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x749F3001, 0x749F3005, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x749F3001, 0x749F3006, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x749F3001, 0x749F3007, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x749F3001, 0x749F3008, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x749F3001, 0x749F3009, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x749F3001, 0x749F300A, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x749F3001, 0x749F300B, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x749F3001, 0x749F300C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x749F3001, 0x749F300D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x749F3001, 0x749F300E, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F3002, 28644, 0x49F30031, 156.8555, 1.015442, 2.142552, 0.9959248, 0, 0, -0.09018745,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */

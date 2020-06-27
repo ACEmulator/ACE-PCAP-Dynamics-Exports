@@ -5,37 +5,37 @@ VALUES (0x77FEE001,  1154, 0x7FEE0008, 16.231, 168.8446, 110.0836, 0.122827, 0, 
 /* @teleloc 0x7FEE0008 [16.231000 168.844600 110.083600] 0.122827 0.000000 0.000000 -0.992428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FEE001, 0x77FEE002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x77FEE001, 0x77FEE003, '2019-02-10 00:00:00') /* Guardian of the Temple of Forgetfulness */
-     , (0x77FEE001, 0x77FEE004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FEE001, 0x77FEE005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77FEE001, 0x77FEE006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FEE001, 0x77FEE007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77FEE001, 0x77FEE008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77FEE001, 0x77FEE009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77FEE001, 0x77FEE00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FEE001, 0x77FEE00B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FEE001, 0x77FEE00C, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77FEE001, 0x77FEE00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77FEE001, 0x77FEE00E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77FEE001, 0x77FEE00F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77FEE001, 0x77FEE010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77FEE001, 0x77FEE011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FEE001, 0x77FEE012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77FEE001, 0x77FEE013, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x77FEE001, 0x77FEE014, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77FEE001, 0x77FEE015, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x77FEE001, 0x77FEE016, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77FEE001, 0x77FEE017, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x77FEE001, 0x77FEE018, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEE001, 0x77FEE019, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEE001, 0x77FEE01A, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77FEE001, 0x77FEE01B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77FEE001, 0x77FEE01C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77FEE001, 0x77FEE01D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEE001, 0x77FEE01E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FEE001, 0x77FEE01F, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77FEE001, 0x77FEE020, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x77FEE001, 0x77FEE002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x77FEE001, 0x77FEE003, '2019-02-10 00:00:00') /* Guardian of the Temple of Forgetfulness (22754) */
+     , (0x77FEE001, 0x77FEE004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FEE001, 0x77FEE005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77FEE001, 0x77FEE006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FEE001, 0x77FEE007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77FEE001, 0x77FEE008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77FEE001, 0x77FEE009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77FEE001, 0x77FEE00A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FEE001, 0x77FEE00B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FEE001, 0x77FEE00C, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77FEE001, 0x77FEE00D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77FEE001, 0x77FEE00E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77FEE001, 0x77FEE00F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77FEE001, 0x77FEE010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77FEE001, 0x77FEE011, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FEE001, 0x77FEE012, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77FEE001, 0x77FEE013, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x77FEE001, 0x77FEE014, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77FEE001, 0x77FEE015, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x77FEE001, 0x77FEE016, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77FEE001, 0x77FEE017, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x77FEE001, 0x77FEE018, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEE001, 0x77FEE019, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEE001, 0x77FEE01A, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77FEE001, 0x77FEE01B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77FEE001, 0x77FEE01C, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77FEE001, 0x77FEE01D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEE001, 0x77FEE01E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FEE001, 0x77FEE01F, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77FEE001, 0x77FEE020, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FEE002, 11540, 0x7FEE0008, 16.231, 168.8446, 110.0836, 0.122827, 0, 0, -0.9924281,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -166,8 +166,8 @@ VALUES (0x77FEE021,  1542, 0x7FEE0007, 23.91732, 166.3614, 110.1409, 0.122827, 0
 /* @teleloc 0x7FEE0007 [23.917320 166.361400 110.140900] 0.122827 0.000000 0.000000 -0.992428 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FEE021, 0x77FEE022, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x77FEE021, 0x77FEE023, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77FEE021, 0x77FEE022, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x77FEE021, 0x77FEE023, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FEE022,  8644, 0x7FEE0007, 23.91732, 166.3614, 110.1409, 0.122827, 0, 0, -0.9924281,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,12 +5,12 @@ VALUES (0x7A812001,  1154, 0xA8120022, 104.409, 34.10353, 150.6402, 0.3890925, 0
 /* @teleloc 0xA8120022 [104.409000 34.103530 150.640200] 0.389093 0.000000 0.000000 -0.921199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A812001, 0x7A812002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A812001, 0x7A812003, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7A812001, 0x7A812004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A812001, 0x7A812005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A812001, 0x7A812006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7A812001, 0x7A812007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x7A812001, 0x7A812002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A812001, 0x7A812003, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7A812001, 0x7A812004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A812001, 0x7A812005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A812001, 0x7A812006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A812001, 0x7A812007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A812002,  7107, 0xA8120022, 104.409, 34.10353, 150.6402, 0.3890925, 0, 0, -0.9211987,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

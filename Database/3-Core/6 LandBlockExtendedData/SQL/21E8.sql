@@ -9,15 +9,15 @@ VALUES (0x721E8001,  1154, 0x21E80012, 62.06959, 44.97203, 19.5505, -0.8378541, 
 /* @teleloc 0x21E80012 [62.069590 44.972030 19.550500] -0.837854 0.000000 0.000000 -0.545894 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721E8001, 0x721E8002, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x721E8001, 0x721E8003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x721E8001, 0x721E8004, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x721E8001, 0x721E8005, '2019-02-10 00:00:00') /* Ehlyis Niffis */
-     , (0x721E8001, 0x721E8006, '2019-02-10 00:00:00') /* Mite Emissary */
-     , (0x721E8001, 0x721E8007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x721E8001, 0x721E8008, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x721E8001, 0x721E8009, '2019-02-10 00:00:00') /* Mite Emissary */
-     , (0x721E8001, 0x721E800A, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x721E8001, 0x721E8002, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x721E8001, 0x721E8003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x721E8001, 0x721E8004, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x721E8001, 0x721E8005, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */
+     , (0x721E8001, 0x721E8006, '2019-02-10 00:00:00') /* Mite Emissary (29354) */
+     , (0x721E8001, 0x721E8007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x721E8001, 0x721E8008, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x721E8001, 0x721E8009, '2019-02-10 00:00:00') /* Mite Emissary (29354) */
+     , (0x721E8001, 0x721E800A, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721E8002, 29350, 0x21E80012, 62.06959, 44.97203, 19.5505, -0.8378541, 0, 0, -0.5458941,  True, '2019-02-10 00:00:00'); /* Ehlyis Niffis */

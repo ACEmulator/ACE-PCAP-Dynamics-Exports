@@ -5,8 +5,8 @@ VALUES (0x78D0F001,  1154, 0x8D0F002F, 134.8328, 155.3978, 314, 0.688944, 0, 0, 
 /* @teleloc 0x8D0F002F [134.832800 155.397800 314.000000] 0.688944 0.000000 0.000000 -0.724815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D0F001, 0x78D0F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78D0F001, 0x78D0F003, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x78D0F001, 0x78D0F002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78D0F001, 0x78D0F003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D0F002, 28551, 0x8D0F002F, 134.8328, 155.3978, 314, 0.688944, 0, 0, -0.7248146,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

@@ -5,10 +5,10 @@ VALUES (0x757E5001,  1154, 0x57E5001A, 82.16282, 47.65507, 52.0065, 0.7372774, 0
 /* @teleloc 0x57E5001A [82.162820 47.655070 52.006500] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E5001, 0x757E5002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E5001, 0x757E5003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x757E5001, 0x757E5004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E5001, 0x757E5005, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x757E5001, 0x757E5002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E5001, 0x757E5003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x757E5001, 0x757E5004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E5001, 0x757E5005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E5002, 10807, 0x57E5001A, 82.16282, 47.65507, 52.0065, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -31,8 +31,8 @@ VALUES (0x757E5006,  1542, 0x57E50031, 163.8032, 15.31896, 40.9029, -0.384394, 0
 /* @teleloc 0x57E50031 [163.803200 15.318960 40.902900] -0.384394 0.000000 0.000000 -0.923169 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E5006, 0x757E5007, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x757E5006, 0x757E5008, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x757E5006, 0x757E5007, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x757E5006, 0x757E5008, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E5007, 11554, 0x57E50031, 163.8032, 15.31896, 40.9029, -0.384394, 0, 0, -0.9231691,  True, '2019-02-10 00:00:00'); /* Colban Plant */

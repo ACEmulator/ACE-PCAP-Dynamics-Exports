@@ -5,9 +5,9 @@ VALUES (0x7235B001,  1154, 0x235B0031, 154.3598, 18.16373, 1.143181, -0.9019269,
 /* @teleloc 0x235B0031 [154.359800 18.163730 1.143181] -0.901927 0.000000 0.000000 -0.431889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7235B001, 0x7235B002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7235B001, 0x7235B003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7235B001, 0x7235B004, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7235B001, 0x7235B002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7235B001, 0x7235B003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7235B001, 0x7235B004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7235B002, 23617, 0x235B0031, 154.3598, 18.16373, 1.143181, -0.9019269, 0, 0, -0.4318887,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

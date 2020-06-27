@@ -5,10 +5,10 @@ VALUES (0x7E444001,  1154, 0xE4440004, 9.843114, 89.68516, 28.01, 0.8378818, 0, 
 /* @teleloc 0xE4440004 [9.843114 89.685160 28.010000] 0.837882 0.000000 0.000000 -0.545852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E444001, 0x7E444002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E444001, 0x7E444003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7E444001, 0x7E444004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7E444001, 0x7E444005, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7E444001, 0x7E444002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E444001, 0x7E444003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7E444001, 0x7E444004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7E444001, 0x7E444005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E444002,   942, 0xE4440004, 9.843114, 89.68516, 28.01, 0.8378818, 0, 0, -0.5458517,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -31,9 +31,9 @@ VALUES (0x7E444006,  1542, 0xE4440004, 22.22525, 92.71798, 27.97381, 0.8378818, 
 /* @teleloc 0xE4440004 [22.225250 92.717980 27.973810] 0.837882 0.000000 0.000000 -0.545852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E444006, 0x7E444007, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E444006, 0x7E444008, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E444006, 0x7E444009, '2019-02-10 00:00:00') /* Lead Pea */;
+VALUES (0x7E444006, 0x7E444007, '2019-02-10 00:00:00') /* Gem (2433) */
+     , (0x7E444006, 0x7E444008, '2019-02-10 00:00:00') /* Gem (2433) */
+     , (0x7E444006, 0x7E444009, '2019-02-10 00:00:00') /* Lead Pea (8329) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E444007,  2433, 0xE4440004, 22.22525, 92.71798, 27.97381, 0.8378818, 0, 0, -0.5458517,  True, '2019-02-10 00:00:00'); /* Gem */

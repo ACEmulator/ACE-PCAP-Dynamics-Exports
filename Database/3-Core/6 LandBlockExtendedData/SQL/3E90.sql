@@ -5,14 +5,14 @@ VALUES (0x73E90001,  1154, 0x3E90001E, 82.80907, 122.029, 0.5122475, -0.3324584,
 /* @teleloc 0x3E90001E [82.809070 122.029000 0.512248] -0.332458 0.000000 0.000000 -0.943118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E90001, 0x73E90002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73E90001, 0x73E90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E90001, 0x73E90004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73E90001, 0x73E90005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73E90001, 0x73E90006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73E90001, 0x73E90007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73E90001, 0x73E90008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73E90001, 0x73E90009, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x73E90001, 0x73E90002, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73E90001, 0x73E90003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E90001, 0x73E90004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73E90001, 0x73E90005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73E90001, 0x73E90006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73E90001, 0x73E90007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73E90001, 0x73E90008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73E90001, 0x73E90009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E90002, 23562, 0x3E90001E, 82.80907, 122.029, 0.5122475, -0.3324584, 0, 0, -0.9431179,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

@@ -5,12 +5,12 @@ VALUES (0x7B39F001,  1154, 0xB39F000C, 40.13779, 75.09093, 66.00715, -0.6009188,
 /* @teleloc 0xB39F000C [40.137790 75.090930 66.007150] -0.600919 0.000000 0.000000 -0.799310 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B39F001, 0x7B39F002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B39F001, 0x7B39F003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B39F001, 0x7B39F004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B39F001, 0x7B39F005, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B39F001, 0x7B39F006, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B39F001, 0x7B39F007, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7B39F001, 0x7B39F002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B39F001, 0x7B39F003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B39F001, 0x7B39F004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B39F001, 0x7B39F005, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B39F001, 0x7B39F006, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B39F001, 0x7B39F007, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B39F002,   938, 0xB39F000C, 40.13779, 75.09093, 66.00715, -0.6009188, 0, 0, -0.79931,  True, '2019-02-10 00:00:00'); /* Banderling Raider */

@@ -5,28 +5,28 @@ VALUES (0x7BDA2001,  1154, 0xBDA20008, 22.93346, 175.8952, 15.57051, 0.9979685, 
 /* @teleloc 0xBDA20008 [22.933460 175.895200 15.570510] 0.997969 0.000000 0.000000 -0.063709 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDA2001, 0x7BDA2002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BDA2001, 0x7BDA2003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BDA2001, 0x7BDA2004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BDA2001, 0x7BDA2005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BDA2001, 0x7BDA2006, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BDA2001, 0x7BDA2007, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BDA2001, 0x7BDA2008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BDA2001, 0x7BDA2009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BDA2001, 0x7BDA200A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BDA2001, 0x7BDA200B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BDA2001, 0x7BDA200C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BDA2001, 0x7BDA200D, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BDA2001, 0x7BDA200E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BDA2001, 0x7BDA200F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BDA2001, 0x7BDA2010, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BDA2001, 0x7BDA2011, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BDA2001, 0x7BDA2012, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BDA2001, 0x7BDA2013, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BDA2001, 0x7BDA2014, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BDA2001, 0x7BDA2015, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BDA2001, 0x7BDA2016, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BDA2001, 0x7BDA2017, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7BDA2001, 0x7BDA2002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BDA2001, 0x7BDA2003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BDA2001, 0x7BDA2004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BDA2001, 0x7BDA2005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BDA2001, 0x7BDA2006, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BDA2001, 0x7BDA2007, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BDA2001, 0x7BDA2008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BDA2001, 0x7BDA2009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BDA2001, 0x7BDA200A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BDA2001, 0x7BDA200B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BDA2001, 0x7BDA200C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BDA2001, 0x7BDA200D, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BDA2001, 0x7BDA200E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BDA2001, 0x7BDA200F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BDA2001, 0x7BDA2010, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BDA2001, 0x7BDA2011, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BDA2001, 0x7BDA2012, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BDA2001, 0x7BDA2013, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BDA2001, 0x7BDA2014, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BDA2001, 0x7BDA2015, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BDA2001, 0x7BDA2016, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BDA2001, 0x7BDA2017, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDA2002,   182, 0xBDA20008, 22.93346, 175.8952, 15.57051, 0.9979685, 0, 0, -0.06370927,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -121,7 +121,7 @@ VALUES (0x7BDA2018,  1542, 0xBDA20008, 6.320888, 181.8708, 15.78505, 0.9659258, 
 /* @teleloc 0xBDA20008 [6.320888 181.870800 15.785050] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDA2018, 0x7BDA2019, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BDA2018, 0x7BDA2019, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDA2019,  4180, 0xBDA20008, 6.320888, 181.8708, 15.78505, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,15 +5,15 @@ VALUES (0x739F3001,  1154, 0x39F30037, 144.4792, 147.2117, 164.6082, -0.9773424,
 /* @teleloc 0x39F30037 [144.479200 147.211700 164.608200] -0.977342 0.000000 0.000000 -0.211664 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739F3001, 0x739F3002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x739F3001, 0x739F3003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x739F3001, 0x739F3004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x739F3001, 0x739F3005, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739F3001, 0x739F3006, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x739F3001, 0x739F3007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x739F3001, 0x739F3008, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739F3001, 0x739F3009, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x739F3001, 0x739F300A, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x739F3001, 0x739F3002, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x739F3001, 0x739F3003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x739F3001, 0x739F3004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x739F3001, 0x739F3005, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739F3001, 0x739F3006, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x739F3001, 0x739F3007, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x739F3001, 0x739F3008, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739F3001, 0x739F3009, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x739F3001, 0x739F300A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739F3002, 24292, 0x39F30037, 144.4792, 147.2117, 164.6082, -0.9773424, 0, 0, -0.2116643,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

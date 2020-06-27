@@ -5,14 +5,14 @@ VALUES (0x74B99001,  1154, 0x4B990033, 162.1187, 55.13664, 48.5334, -0.9714756, 
 /* @teleloc 0x4B990033 [162.118700 55.136640 48.533400] -0.971476 0.000000 0.000000 -0.237140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B99001, 0x74B99002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74B99001, 0x74B99003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74B99001, 0x74B99004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74B99001, 0x74B99005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74B99001, 0x74B99006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74B99001, 0x74B99007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74B99001, 0x74B99008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74B99001, 0x74B99009, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x74B99001, 0x74B99002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74B99001, 0x74B99003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74B99001, 0x74B99004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74B99001, 0x74B99005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74B99001, 0x74B99006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74B99001, 0x74B99007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74B99001, 0x74B99008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74B99001, 0x74B99009, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B99002,  4255, 0x4B990033, 162.1187, 55.13664, 48.5334, -0.9714756, 0, 0, -0.2371395,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

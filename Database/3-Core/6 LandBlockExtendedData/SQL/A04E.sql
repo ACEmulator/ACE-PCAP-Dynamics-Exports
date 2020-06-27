@@ -5,25 +5,25 @@ VALUES (0x7A04E001,  1154, 0xA04E000B, 40.51927, 60.16064, 82.0065, 0.884687, 0,
 /* @teleloc 0xA04E000B [40.519270 60.160640 82.006500] 0.884687 0.000000 0.000000 -0.466186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A04E001, 0x7A04E002, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7A04E001, 0x7A04E003, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A04E001, 0x7A04E004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A04E001, 0x7A04E005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A04E001, 0x7A04E006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A04E001, 0x7A04E007, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A04E001, 0x7A04E008, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A04E001, 0x7A04E009, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A04E001, 0x7A04E00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A04E001, 0x7A04E00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A04E001, 0x7A04E00C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A04E001, 0x7A04E00D, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A04E001, 0x7A04E00E, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A04E001, 0x7A04E00F, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A04E001, 0x7A04E010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A04E001, 0x7A04E011, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A04E001, 0x7A04E012, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A04E001, 0x7A04E013, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A04E001, 0x7A04E014, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7A04E001, 0x7A04E002, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A04E001, 0x7A04E003, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A04E001, 0x7A04E004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A04E001, 0x7A04E005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A04E001, 0x7A04E006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A04E001, 0x7A04E007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A04E001, 0x7A04E008, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A04E001, 0x7A04E009, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A04E001, 0x7A04E00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A04E001, 0x7A04E00B, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A04E001, 0x7A04E00C, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A04E001, 0x7A04E00D, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A04E001, 0x7A04E00E, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A04E001, 0x7A04E00F, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A04E001, 0x7A04E010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A04E001, 0x7A04E011, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A04E001, 0x7A04E012, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A04E001, 0x7A04E013, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A04E001, 0x7A04E014, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A04E002,  1765, 0xA04E000B, 40.51927, 60.16064, 82.0065, 0.884687, 0, 0, -0.4661855,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */
@@ -106,9 +106,9 @@ VALUES (0x7A04E015,  1542, 0xA04E0003, 9.03474, 64.52846, 82.62263, 1, 0, 0, 0, 
 /* @teleloc 0xA04E0003 [9.034740 64.528460 82.622630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A04E015, 0x7A04E016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A04E015, 0x7A04E017, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7A04E015, 0x7A04E018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7A04E015, 0x7A04E016, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7A04E015, 0x7A04E017, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7A04E015, 0x7A04E018, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A04E016, 22570, 0xA04E0003, 9.03474, 64.52846, 82.62263, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

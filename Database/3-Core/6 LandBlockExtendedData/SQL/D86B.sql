@@ -5,9 +5,9 @@ VALUES (0x7D86B001,  1154, 0xD86B0034, 161.8931, 77.02864, 38.012, 0.8440009, 0,
 /* @teleloc 0xD86B0034 [161.893100 77.028640 38.012000] 0.844001 0.000000 0.000000 -0.536342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D86B001, 0x7D86B002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D86B001, 0x7D86B003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D86B001, 0x7D86B004, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7D86B001, 0x7D86B002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D86B001, 0x7D86B003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D86B001, 0x7D86B004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D86B002,  1626, 0xD86B0034, 161.8931, 77.02864, 38.012, 0.8440009, 0, 0, -0.5363417,  True, '2019-02-10 00:00:00'); /* Silver Rat */

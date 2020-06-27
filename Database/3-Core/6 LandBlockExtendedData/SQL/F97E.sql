@@ -9,12 +9,12 @@ VALUES (0x7F97E001,  1154, 0xF97E0040, 189.6372, 177.1589, 22.18008, 0.3755516, 
 /* @teleloc 0xF97E0040 [189.637200 177.158900 22.180080] 0.375552 0.000000 0.000000 -0.926802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F97E001, 0x7F97E002, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F97E001, 0x7F97E003, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F97E001, 0x7F97E004, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F97E001, 0x7F97E005, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7F97E001, 0x7F97E006, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F97E001, 0x7F97E007, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7F97E001, 0x7F97E002, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F97E001, 0x7F97E003, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F97E001, 0x7F97E004, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F97E001, 0x7F97E005, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7F97E001, 0x7F97E006, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F97E001, 0x7F97E007, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F97E002, 22508, 0xF97E0040, 189.6372, 177.1589, 22.18008, 0.3755516, 0, 0, -0.9268015,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */

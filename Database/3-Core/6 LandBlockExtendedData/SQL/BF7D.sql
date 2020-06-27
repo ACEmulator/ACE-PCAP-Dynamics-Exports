@@ -5,23 +5,23 @@ VALUES (0x7BF7D001,  1154, 0xBF7D0009, 25.85125, 23.54228, 48.92694, -0.1927435,
 /* @teleloc 0xBF7D0009 [25.851250 23.542280 48.926940] -0.192744 0.000000 0.000000 -0.981249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7D001, 0x7BF7D002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BF7D001, 0x7BF7D003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF7D001, 0x7BF7D004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF7D001, 0x7BF7D005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7BF7D001, 0x7BF7D006, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BF7D001, 0x7BF7D007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF7D001, 0x7BF7D008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF7D001, 0x7BF7D009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7D001, 0x7BF7D00A, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BF7D001, 0x7BF7D00B, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BF7D001, 0x7BF7D00C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7D001, 0x7BF7D00D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF7D001, 0x7BF7D00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF7D001, 0x7BF7D00F, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BF7D001, 0x7BF7D010, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF7D001, 0x7BF7D011, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF7D001, 0x7BF7D012, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7BF7D001, 0x7BF7D002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BF7D001, 0x7BF7D003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF7D001, 0x7BF7D004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF7D001, 0x7BF7D005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7BF7D001, 0x7BF7D006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BF7D001, 0x7BF7D007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF7D001, 0x7BF7D008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF7D001, 0x7BF7D009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7D001, 0x7BF7D00A, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BF7D001, 0x7BF7D00B, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BF7D001, 0x7BF7D00C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7D001, 0x7BF7D00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF7D001, 0x7BF7D00E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF7D001, 0x7BF7D00F, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BF7D001, 0x7BF7D010, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF7D001, 0x7BF7D011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF7D001, 0x7BF7D012, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7D002,  2439, 0xBF7D0009, 25.85125, 23.54228, 48.92694, -0.1927435, 0, 0, -0.9812492,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -96,8 +96,8 @@ VALUES (0x7BF7D013,  1542, 0xBF7D001C, 95.30504, 83.25803, 54.11583, 1, 0, 0, 0,
 /* @teleloc 0xBF7D001C [95.305040 83.258030 54.115830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7D013, 0x7BF7D014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BF7D013, 0x7BF7D015, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BF7D013, 0x7BF7D014, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7BF7D013, 0x7BF7D015, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7D014, 22572, 0xBF7D001C, 95.30504, 83.25803, 54.11583, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

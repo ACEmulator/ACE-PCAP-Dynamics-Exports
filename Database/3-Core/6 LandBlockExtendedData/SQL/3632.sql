@@ -5,23 +5,23 @@ VALUES (0x73632001,  1154, 0x36320005, 23.46107, 106.5861, 73.95284, -0.9123816,
 /* @teleloc 0x36320005 [23.461070 106.586100 73.952840] -0.912382 0.000000 0.000000 -0.409341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73632001, 0x73632002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73632001, 0x73632003, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73632001, 0x73632004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73632001, 0x73632005, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x73632001, 0x73632006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x73632001, 0x73632007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73632001, 0x73632008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73632001, 0x73632009, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73632001, 0x7363200A, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x73632001, 0x7363200B, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73632001, 0x7363200C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x73632001, 0x7363200D, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x73632001, 0x7363200E, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73632001, 0x7363200F, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73632001, 0x73632010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73632001, 0x73632011, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73632001, 0x73632012, '2019-02-10 00:00:00') /* Tempest Wisp */;
+VALUES (0x73632001, 0x73632002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73632001, 0x73632003, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73632001, 0x73632004, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x73632001, 0x73632005, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73632001, 0x73632006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x73632001, 0x73632007, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x73632001, 0x73632008, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x73632001, 0x73632009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73632001, 0x7363200A, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73632001, 0x7363200B, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73632001, 0x7363200C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x73632001, 0x7363200D, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x73632001, 0x7363200E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73632001, 0x7363200F, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73632001, 0x73632010, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73632001, 0x73632011, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73632001, 0x73632012, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73632002, 38180, 0x36320005, 23.46107, 106.5861, 73.95284, -0.9123816, 0, 0, -0.4093407,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -96,7 +96,7 @@ VALUES (0x73632013,  1542, 0x36320018, 57.72503, 187.3446, 76.81042, 1, 0, 0, 0,
 /* @teleloc 0x36320018 [57.725030 187.344600 76.810420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73632013, 0x73632014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73632013, 0x73632014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73632014, 22566, 0x36320018, 57.72503, 187.3446, 76.81042, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

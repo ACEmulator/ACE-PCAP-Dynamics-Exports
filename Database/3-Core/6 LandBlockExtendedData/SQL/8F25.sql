@@ -5,11 +5,11 @@ VALUES (0x78F25001,  1154, 0x8F250033, 161.462, 69.97448, -0.09000003, 0.9078427
 /* @teleloc 0x8F250033 [161.462000 69.974480 -0.090000] 0.907843 0.000000 0.000000 -0.419311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F25001, 0x78F25002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x78F25001, 0x78F25003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78F25001, 0x78F25004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78F25001, 0x78F25005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78F25001, 0x78F25006, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x78F25001, 0x78F25002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78F25001, 0x78F25003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78F25001, 0x78F25004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78F25001, 0x78F25005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78F25001, 0x78F25006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F25002, 22933, 0x8F250033, 161.462, 69.97448, -0.09000003, 0.9078427, 0, 0, -0.4193109,  True, '2019-02-10 00:00:00'); /* Mist Golem */

@@ -5,9 +5,9 @@ VALUES (0x7ADE2001,  1154, 0xADE20003, 4.743838, 54.19987, 2.01, -0.9305203, 0, 
 /* @teleloc 0xADE20003 [4.743838 54.199870 2.010000] -0.930520 0.000000 0.000000 -0.366240 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADE2001, 0x7ADE2002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7ADE2001, 0x7ADE2003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ADE2001, 0x7ADE2004, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7ADE2001, 0x7ADE2002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7ADE2001, 0x7ADE2003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ADE2001, 0x7ADE2004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADE2002, 23082, 0xADE20003, 4.743838, 54.19987, 2.01, -0.9305203, 0, 0, -0.3662403,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

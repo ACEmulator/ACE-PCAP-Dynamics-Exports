@@ -5,12 +5,12 @@ VALUES (0x7414D001,  1154, 0x414D0030, 121.9623, 191.1523, 20.005, 0.9880635, 0,
 /* @teleloc 0x414D0030 [121.962300 191.152300 20.005000] 0.988064 0.000000 0.000000 -0.154047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414D001, 0x7414D002, '2019-02-10 00:00:00') /* Flare */
-     , (0x7414D001, 0x7414D003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7414D001, 0x7414D004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7414D001, 0x7414D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7414D001, 0x7414D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7414D001, 0x7414D007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7414D001, 0x7414D002, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7414D001, 0x7414D003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7414D001, 0x7414D004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7414D001, 0x7414D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7414D001, 0x7414D006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7414D001, 0x7414D007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414D002,  5710, 0x414D0030, 121.9623, 191.1523, 20.005, 0.9880635, 0, 0, -0.1540473,  True, '2019-02-10 00:00:00'); /* Flare */
@@ -41,8 +41,8 @@ VALUES (0x7414D008,  1542, 0x414D0018, 71.5881, 189.4278, 32.49741, 1, 0, 0, 0, 
 /* @teleloc 0x414D0018 [71.588100 189.427800 32.497410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414D008, 0x7414D009, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7414D008, 0x7414D00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7414D008, 0x7414D009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7414D008, 0x7414D00A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414D009, 31445, 0x414D0018, 71.5881, 189.4278, 32.49741, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

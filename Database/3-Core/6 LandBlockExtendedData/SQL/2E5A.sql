@@ -5,30 +5,30 @@ VALUES (0x72E5A001,  1154, 0x2E5A002D, 128.0442, 105.8129, 0.8309438, 0.7071068,
 /* @teleloc 0x2E5A002D [128.044200 105.812900 0.830944] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E5A001, 0x72E5A002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E5A001, 0x72E5A003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E5A001, 0x72E5A004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72E5A001, 0x72E5A005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E5A001, 0x72E5A006, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72E5A001, 0x72E5A007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E5A001, 0x72E5A008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E5A001, 0x72E5A009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E5A001, 0x72E5A00A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72E5A001, 0x72E5A00B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E5A001, 0x72E5A00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72E5A001, 0x72E5A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E5A001, 0x72E5A00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E5A001, 0x72E5A00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E5A001, 0x72E5A010, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72E5A001, 0x72E5A011, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72E5A001, 0x72E5A012, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E5A001, 0x72E5A013, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72E5A001, 0x72E5A014, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72E5A001, 0x72E5A015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E5A001, 0x72E5A016, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72E5A001, 0x72E5A017, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72E5A001, 0x72E5A018, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E5A001, 0x72E5A019, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x72E5A001, 0x72E5A002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E5A001, 0x72E5A003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E5A001, 0x72E5A004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72E5A001, 0x72E5A005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E5A001, 0x72E5A006, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72E5A001, 0x72E5A007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E5A001, 0x72E5A008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E5A001, 0x72E5A009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E5A001, 0x72E5A00A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72E5A001, 0x72E5A00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E5A001, 0x72E5A00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72E5A001, 0x72E5A00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72E5A001, 0x72E5A00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E5A001, 0x72E5A00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E5A001, 0x72E5A010, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72E5A001, 0x72E5A011, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72E5A001, 0x72E5A012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E5A001, 0x72E5A013, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72E5A001, 0x72E5A014, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72E5A001, 0x72E5A015, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E5A001, 0x72E5A016, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72E5A001, 0x72E5A017, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72E5A001, 0x72E5A018, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E5A001, 0x72E5A019, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E5A002,  7184, 0x2E5A002D, 128.0442, 105.8129, 0.8309438, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

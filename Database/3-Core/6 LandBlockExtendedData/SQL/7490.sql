@@ -5,12 +5,12 @@ VALUES (0x77490001,  1154, 0x74900030, 124.5709, 173.1662, 60.54744, 0.9063078, 
 /* @teleloc 0x74900030 [124.570900 173.166200 60.547440] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77490001, 0x77490002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77490001, 0x77490003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x77490001, 0x77490004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x77490001, 0x77490005, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x77490001, 0x77490006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x77490001, 0x77490007, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x77490001, 0x77490002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77490001, 0x77490003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x77490001, 0x77490004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x77490001, 0x77490005, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x77490001, 0x77490006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x77490001, 0x77490007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77490002,  7978, 0x74900030, 124.5709, 173.1662, 60.54744, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -41,9 +41,9 @@ VALUES (0x77490008,  1542, 0x74900001, 17.4739, 3.263905, 85.18388, 1, 0, 0, 0, 
 /* @teleloc 0x74900001 [17.473900 3.263905 85.183880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77490008, 0x77490009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77490008, 0x7749000A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x77490008, 0x7749000B, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x77490008, 0x77490009, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x77490008, 0x7749000A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x77490008, 0x7749000B, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77490009, 22576, 0x74900001, 17.4739, 3.263905, 85.18388, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

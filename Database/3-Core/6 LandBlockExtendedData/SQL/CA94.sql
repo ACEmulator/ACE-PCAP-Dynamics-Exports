@@ -5,14 +5,14 @@ VALUES (0x7CA94001,  1154, 0xCA940033, 147.7993, 69.03489, 30.0055, -4.371139E-0
 /* @teleloc 0xCA940033 [147.799300 69.034890 30.005500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA94001, 0x7CA94002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CA94001, 0x7CA94003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CA94001, 0x7CA94004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7CA94001, 0x7CA94005, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CA94001, 0x7CA94006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CA94001, 0x7CA94007, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CA94001, 0x7CA94008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7CA94001, 0x7CA94009, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7CA94001, 0x7CA94002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CA94001, 0x7CA94003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CA94001, 0x7CA94004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7CA94001, 0x7CA94005, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CA94001, 0x7CA94006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CA94001, 0x7CA94007, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CA94001, 0x7CA94008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7CA94001, 0x7CA94009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA94002,  2439, 0xCA940033, 147.7993, 69.03489, 30.0055, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -51,10 +51,10 @@ VALUES (0x7CA9400A,  1542, 0xCA94002B, 130.5751, 63.62897, 26.36735, 0.9650837, 
 /* @teleloc 0xCA94002B [130.575100 63.628970 26.367350] 0.965084 0.000000 0.000000 -0.261942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA9400A, 0x7CA9400B, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7CA9400A, 0x7CA9400C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CA9400A, 0x7CA9400D, '2019-02-10 00:00:00') /* Chest */
-     , (0x7CA9400A, 0x7CA9400E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7CA9400A, 0x7CA9400B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7CA9400A, 0x7CA9400C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CA9400A, 0x7CA9400D, '2019-02-10 00:00:00') /* Chest (1918) */
+     , (0x7CA9400A, 0x7CA9400E, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA9400B,  8646, 0xCA94002B, 130.5751, 63.62897, 26.36735, 0.9650837, 0, 0, -0.2619416,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

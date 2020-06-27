@@ -5,9 +5,9 @@ VALUES (0x725B3001,  1154, 0x25B30032, 147.2999, 39.79224, 10.35705, -0.9936677,
 /* @teleloc 0x25B30032 [147.299900 39.792240 10.357050] -0.993668 0.000000 0.000000 -0.112359 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725B3001, 0x725B3002, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x725B3001, 0x725B3003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x725B3001, 0x725B3004, '2019-02-10 00:00:00') /* Littoral Siraluun */;
+VALUES (0x725B3001, 0x725B3002, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x725B3001, 0x725B3003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x725B3001, 0x725B3004, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B3002, 11497, 0x25B30032, 147.2999, 39.79224, 10.35705, -0.9936677, 0, 0, -0.1123587,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker */

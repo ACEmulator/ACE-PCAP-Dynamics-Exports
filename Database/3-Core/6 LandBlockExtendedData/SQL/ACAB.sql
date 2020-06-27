@@ -5,16 +5,16 @@ VALUES (0x7ACAB001,  1154, 0xACAB0010, 26.37498, 189.8196, 82.17419, 0.8660254, 
 /* @teleloc 0xACAB0010 [26.374980 189.819600 82.174190] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACAB001, 0x7ACAB002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAB001, 0x7ACAB003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7ACAB001, 0x7ACAB004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAB001, 0x7ACAB005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAB001, 0x7ACAB006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAB001, 0x7ACAB007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ACAB001, 0x7ACAB008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ACAB001, 0x7ACAB009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACAB001, 0x7ACAB00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ACAB001, 0x7ACAB00B, '2019-02-10 00:00:00') /* Vorous Shreth */;
+VALUES (0x7ACAB001, 0x7ACAB002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAB001, 0x7ACAB003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7ACAB001, 0x7ACAB004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAB001, 0x7ACAB005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAB001, 0x7ACAB006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAB001, 0x7ACAB007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ACAB001, 0x7ACAB008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ACAB001, 0x7ACAB009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACAB001, 0x7ACAB00A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ACAB001, 0x7ACAB00B, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACAB002,  2612, 0xACAB0010, 26.37498, 189.8196, 82.17419, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

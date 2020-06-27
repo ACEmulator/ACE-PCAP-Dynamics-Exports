@@ -5,13 +5,13 @@ VALUES (0x7CB6E001,  1154, 0xCB6E0017, 63.91698, 157.873, 57.16608, 0.05125334, 
 /* @teleloc 0xCB6E0017 [63.916980 157.873000 57.166080] 0.051253 0.000000 0.000000 -0.998686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB6E001, 0x7CB6E002, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7CB6E001, 0x7CB6E003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB6E001, 0x7CB6E004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CB6E001, 0x7CB6E005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CB6E001, 0x7CB6E006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB6E001, 0x7CB6E007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB6E001, 0x7CB6E008, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7CB6E001, 0x7CB6E002, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7CB6E001, 0x7CB6E003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB6E001, 0x7CB6E004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CB6E001, 0x7CB6E005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CB6E001, 0x7CB6E006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB6E001, 0x7CB6E007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB6E001, 0x7CB6E008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB6E002,     5, 0xCB6E0017, 63.91698, 157.873, 57.16608, 0.05125334, 0, 0, -0.9986857,  True, '2019-02-10 00:00:00'); /* Laigus Lugian */

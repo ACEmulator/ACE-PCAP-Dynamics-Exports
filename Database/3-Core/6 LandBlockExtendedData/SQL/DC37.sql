@@ -9,14 +9,14 @@ VALUES (0x7DC37001,  1154, 0xDC370011, 64.89265, 19.62977, 33.52379, -0.9854456,
 /* @teleloc 0xDC370011 [64.892650 19.629770 33.523790] -0.985446 0.000000 0.000000 -0.169991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC37001, 0x7DC37002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC37001, 0x7DC37003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7DC37001, 0x7DC37004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7DC37001, 0x7DC37005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7DC37001, 0x7DC37006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC37001, 0x7DC37007, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7DC37001, 0x7DC37008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7DC37001, 0x7DC37009, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7DC37001, 0x7DC37002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC37001, 0x7DC37003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7DC37001, 0x7DC37004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7DC37001, 0x7DC37005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7DC37001, 0x7DC37006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC37001, 0x7DC37007, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7DC37001, 0x7DC37008, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7DC37001, 0x7DC37009, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC37002,  2567, 0xDC370011, 64.89265, 19.62977, 33.52379, -0.9854456, 0, 0, -0.1699909,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -55,7 +55,7 @@ VALUES (0x7DC3700A,  1542, 0xDC370040, 188.2307, 187.6016, 23.46671, 0.9841608, 
 /* @teleloc 0xDC370040 [188.230700 187.601600 23.466710] 0.984161 0.000000 0.000000 -0.177278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3700A, 0x7DC3700B, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7DC3700A, 0x7DC3700B, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC3700B, 22837, 0xDC370040, 188.2307, 187.6016, 23.46671, 0.9841608, 0, 0, -0.1772781,  True, '2019-02-10 00:00:00'); /* Snowflower */

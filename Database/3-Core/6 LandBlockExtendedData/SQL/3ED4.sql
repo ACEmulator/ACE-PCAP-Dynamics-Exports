@@ -5,57 +5,57 @@ VALUES (0x73ED4001,  1154, 0x3ED40038, 150.303, 173.7517, 3.527189, 0.9234458, 0
 /* @teleloc 0x3ED40038 [150.303000 173.751700 3.527189] 0.923446 0.000000 0.000000 -0.383729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED4001, 0x73ED4002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73ED4001, 0x73ED4003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED4001, 0x73ED4004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED4005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED4001, 0x73ED4006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73ED4001, 0x73ED4007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73ED4001, 0x73ED4008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED4001, 0x73ED4009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED400A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED400B, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73ED4001, 0x73ED400C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED400D, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73ED4001, 0x73ED400E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED400F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73ED4001, 0x73ED4010, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73ED4001, 0x73ED4011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73ED4001, 0x73ED4012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED4013, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED4014, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73ED4001, 0x73ED4015, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73ED4001, 0x73ED4016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED4017, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73ED4001, 0x73ED4018, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73ED4001, 0x73ED4019, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73ED4001, 0x73ED401A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73ED4001, 0x73ED401B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED401C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED401D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73ED4001, 0x73ED401E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73ED4001, 0x73ED401F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73ED4001, 0x73ED4020, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73ED4001, 0x73ED4021, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED4001, 0x73ED4022, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73ED4001, 0x73ED4023, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73ED4001, 0x73ED4024, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73ED4001, 0x73ED4025, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73ED4001, 0x73ED4026, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x73ED4001, 0x73ED4027, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73ED4001, 0x73ED4028, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73ED4001, 0x73ED4029, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73ED4001, 0x73ED402A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73ED4001, 0x73ED402B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73ED4001, 0x73ED402C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73ED4001, 0x73ED402D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73ED4001, 0x73ED402E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED4001, 0x73ED402F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73ED4001, 0x73ED4030, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x73ED4001, 0x73ED4031, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73ED4001, 0x73ED4032, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73ED4001, 0x73ED4033, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73ED4001, 0x73ED4034, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73ED4001, 0x73ED4002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73ED4001, 0x73ED4003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED4001, 0x73ED4004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED4005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED4001, 0x73ED4006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73ED4001, 0x73ED4007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73ED4001, 0x73ED4008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED4001, 0x73ED4009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED400A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED400B, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73ED4001, 0x73ED400C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED400D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73ED4001, 0x73ED400E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED400F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73ED4001, 0x73ED4010, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73ED4001, 0x73ED4011, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73ED4001, 0x73ED4012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED4013, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED4014, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x73ED4001, 0x73ED4015, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x73ED4001, 0x73ED4016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED4017, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73ED4001, 0x73ED4018, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73ED4001, 0x73ED4019, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73ED4001, 0x73ED401A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73ED4001, 0x73ED401B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED401C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED401D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73ED4001, 0x73ED401E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73ED4001, 0x73ED401F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73ED4001, 0x73ED4020, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73ED4001, 0x73ED4021, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED4001, 0x73ED4022, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73ED4001, 0x73ED4023, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73ED4001, 0x73ED4024, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73ED4001, 0x73ED4025, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73ED4001, 0x73ED4026, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x73ED4001, 0x73ED4027, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73ED4001, 0x73ED4028, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73ED4001, 0x73ED4029, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73ED4001, 0x73ED402A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73ED4001, 0x73ED402B, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73ED4001, 0x73ED402C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73ED4001, 0x73ED402D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73ED4001, 0x73ED402E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED4001, 0x73ED402F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73ED4001, 0x73ED4030, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x73ED4001, 0x73ED4031, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73ED4001, 0x73ED4032, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73ED4001, 0x73ED4033, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73ED4001, 0x73ED4034, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED4002, 10806, 0x3ED40038, 150.303, 173.7517, 3.527189, 0.9234458, 0, 0, -0.383729,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -266,12 +266,12 @@ VALUES (0x73ED4035,  1542, 0x3ED4002F, 129.0072, 165.1423, 5.417125, 1, 0, 0, 0,
 /* @teleloc 0x3ED4002F [129.007200 165.142300 5.417125] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED4035, 0x73ED4036, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73ED4035, 0x73ED4037, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73ED4035, 0x73ED4038, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73ED4035, 0x73ED4039, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73ED4035, 0x73ED403A, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x73ED4035, 0x73ED403B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73ED4035, 0x73ED4036, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73ED4035, 0x73ED4037, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73ED4035, 0x73ED4038, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x73ED4035, 0x73ED4039, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73ED4035, 0x73ED403A, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x73ED4035, 0x73ED403B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED4036,  4179, 0x3ED4002F, 129.0072, 165.1423, 5.417125, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

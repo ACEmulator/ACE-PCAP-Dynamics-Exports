@@ -17,15 +17,15 @@ VALUES (0x7759C003,  1154, 0x759C003D, 174.8315, 103.237, 240.0071, 0.7071068, 0
 /* @teleloc 0x759C003D [174.831500 103.237000 240.007100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7759C003, 0x7759C004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7759C003, 0x7759C005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7759C003, 0x7759C006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7759C003, 0x7759C007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7759C003, 0x7759C008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7759C003, 0x7759C009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7759C003, 0x7759C00A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7759C003, 0x7759C00B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7759C003, 0x7759C00C, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7759C003, 0x7759C004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7759C003, 0x7759C005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7759C003, 0x7759C006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7759C003, 0x7759C007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7759C003, 0x7759C008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7759C003, 0x7759C009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7759C003, 0x7759C00A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7759C003, 0x7759C00B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7759C003, 0x7759C00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7759C004,  7088, 0x759C003D, 174.8315, 103.237, 240.0071, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -68,8 +68,8 @@ VALUES (0x7759C00D,  1542, 0x759C0025, 110.7412, 98.25031, 240, 0.9990482, 0, 0,
 /* @teleloc 0x759C0025 [110.741200 98.250310 240.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7759C00D, 0x7759C00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7759C00D, 0x7759C00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7759C00D, 0x7759C00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7759C00D, 0x7759C00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7759C00E,  4179, 0x759C0025, 110.7412, 98.25031, 240, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

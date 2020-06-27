@@ -5,20 +5,20 @@ VALUES (0x7DEC6001,  1154, 0xDEC60039, 175.3535, 16.63404, 6.199812, -0.9800022,
 /* @teleloc 0xDEC60039 [175.353500 16.634040 6.199812] -0.980002 0.000000 0.000000 -0.198987 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DEC6001, 0x7DEC6002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DEC6001, 0x7DEC6003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DEC6001, 0x7DEC6004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DEC6001, 0x7DEC6005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DEC6001, 0x7DEC6006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DEC6001, 0x7DEC6007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DEC6001, 0x7DEC6008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DEC6001, 0x7DEC6009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DEC6001, 0x7DEC600A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DEC6001, 0x7DEC600B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DEC6001, 0x7DEC600C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DEC6001, 0x7DEC600D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DEC6001, 0x7DEC600E, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DEC6001, 0x7DEC600F, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x7DEC6001, 0x7DEC6002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DEC6001, 0x7DEC6003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DEC6001, 0x7DEC6004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DEC6001, 0x7DEC6005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DEC6001, 0x7DEC6006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DEC6001, 0x7DEC6007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DEC6001, 0x7DEC6008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DEC6001, 0x7DEC6009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DEC6001, 0x7DEC600A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DEC6001, 0x7DEC600B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DEC6001, 0x7DEC600C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DEC6001, 0x7DEC600D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DEC6001, 0x7DEC600E, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DEC6001, 0x7DEC600F, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DEC6002,   212, 0xDEC60039, 175.3535, 16.63404, 6.199812, -0.9800022, 0, 0, -0.1989868,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

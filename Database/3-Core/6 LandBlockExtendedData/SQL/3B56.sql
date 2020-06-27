@@ -5,18 +5,18 @@ VALUES (0x73B56001,  1154, 0x3B560012, 62.67745, 25.20975, 74.07268, 0.4226182, 
 /* @teleloc 0x3B560012 [62.677450 25.209750 74.072680] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B56001, 0x73B56002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B56001, 0x73B56003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B56001, 0x73B56004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73B56001, 0x73B56005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73B56001, 0x73B56006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73B56001, 0x73B56007, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73B56001, 0x73B56008, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73B56001, 0x73B56009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73B56001, 0x73B5600A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73B56001, 0x73B5600B, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73B56001, 0x73B5600C, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73B56001, 0x73B5600D, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x73B56001, 0x73B56002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B56001, 0x73B56003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B56001, 0x73B56004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73B56001, 0x73B56005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73B56001, 0x73B56006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73B56001, 0x73B56007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73B56001, 0x73B56008, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73B56001, 0x73B56009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73B56001, 0x73B5600A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73B56001, 0x73B5600B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73B56001, 0x73B5600C, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73B56001, 0x73B5600D, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B56002,  8431, 0x3B560012, 62.67745, 25.20975, 74.07268, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */

@@ -5,9 +5,9 @@ VALUES (0x79ECD001,  1154, 0x9ECD000C, 40.77872, 73.84705, 137.6986, 0.9645733, 
 /* @teleloc 0x9ECD000C [40.778720 73.847050 137.698600] 0.964573 0.000000 0.000000 -0.263815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ECD001, 0x79ECD002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79ECD001, 0x79ECD003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x79ECD001, 0x79ECD004, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x79ECD001, 0x79ECD002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79ECD001, 0x79ECD003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x79ECD001, 0x79ECD004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ECD002, 24294, 0x9ECD000C, 40.77872, 73.84705, 137.6986, 0.9645733, 0, 0, -0.2638149,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

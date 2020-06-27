@@ -5,13 +5,13 @@ VALUES (0x76E95001,  1154, 0x6E950025, 105.588, 115.9475, 88.006, -0.9444947, 0,
 /* @teleloc 0x6E950025 [105.588000 115.947500 88.006000] -0.944495 0.000000 0.000000 -0.328527 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E95001, 0x76E95002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x76E95001, 0x76E95003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76E95001, 0x76E95004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76E95001, 0x76E95005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76E95001, 0x76E95006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x76E95001, 0x76E95007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x76E95001, 0x76E95008, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x76E95001, 0x76E95002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x76E95001, 0x76E95003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76E95001, 0x76E95004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76E95001, 0x76E95005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76E95001, 0x76E95006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x76E95001, 0x76E95007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x76E95001, 0x76E95008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E95002, 23565, 0x6E950025, 105.588, 115.9475, 88.006, -0.9444947, 0, 0, -0.3285266,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

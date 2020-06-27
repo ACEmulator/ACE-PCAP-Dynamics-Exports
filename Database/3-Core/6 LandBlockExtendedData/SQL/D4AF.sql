@@ -5,17 +5,17 @@ VALUES (0x7D4AF001,  1154, 0xD4AF000E, 35.63049, 126.5543, 1.105381, 0.8090303, 
 /* @teleloc 0xD4AF000E [35.630490 126.554300 1.105381] 0.809030 0.000000 0.000000 -0.587767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4AF001, 0x7D4AF002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4AF001, 0x7D4AF003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4AF001, 0x7D4AF004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4AF001, 0x7D4AF005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D4AF001, 0x7D4AF006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D4AF001, 0x7D4AF007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D4AF001, 0x7D4AF008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D4AF001, 0x7D4AF009, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D4AF001, 0x7D4AF00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D4AF001, 0x7D4AF00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D4AF001, 0x7D4AF00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7D4AF001, 0x7D4AF002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4AF001, 0x7D4AF003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4AF001, 0x7D4AF004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4AF001, 0x7D4AF005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D4AF001, 0x7D4AF006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D4AF001, 0x7D4AF007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D4AF001, 0x7D4AF008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D4AF001, 0x7D4AF009, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D4AF001, 0x7D4AF00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D4AF001, 0x7D4AF00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D4AF001, 0x7D4AF00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4AF002,   217, 0xD4AF000E, 35.63049, 126.5543, 1.105381, 0.8090303, 0, 0, -0.5877669,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -66,7 +66,7 @@ VALUES (0x7D4AF00D,  1542, 0xD4AF000E, 38.9603, 129.0809, 1.510053, 1, 0, 0, 0, 
 /* @teleloc 0xD4AF000E [38.960300 129.080900 1.510053] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4AF00D, 0x7D4AF00E, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7D4AF00D, 0x7D4AF00E, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4AF00E,  8588, 0xD4AF000E, 38.9603, 129.0809, 1.510053, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

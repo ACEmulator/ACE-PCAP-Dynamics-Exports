@@ -5,11 +5,11 @@ VALUES (0x79075001,  1154, 0x90750034, 150.1797, 75.28256, 154.0083, -0.8235508,
 /* @teleloc 0x90750034 [150.179700 75.282560 154.008300] -0.823551 0.000000 0.000000 -0.567242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79075001, 0x79075002, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79075001, 0x79075003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79075001, 0x79075004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79075001, 0x79075005, '2019-02-10 00:00:00') /* Undead */
-     , (0x79075001, 0x79075006, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x79075001, 0x79075002, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79075001, 0x79075003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79075001, 0x79075004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79075001, 0x79075005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79075001, 0x79075006, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79075002,  8672, 0x90750034, 150.1797, 75.28256, 154.0083, -0.8235508, 0, 0, -0.5672424,  True, '2019-02-10 00:00:00'); /* Risen Soldier */

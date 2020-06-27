@@ -5,17 +5,17 @@ VALUES (0x79A75001,  1154, 0x9A750038, 145.1721, 180.4321, 27.90392, -0.8951702,
 /* @teleloc 0x9A750038 [145.172100 180.432100 27.903920] -0.895170 0.000000 0.000000 -0.445725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A75001, 0x79A75002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79A75001, 0x79A75003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x79A75001, 0x79A75004, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79A75001, 0x79A75005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A75001, 0x79A75006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A75001, 0x79A75007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79A75001, 0x79A75008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79A75001, 0x79A75009, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79A75001, 0x79A7500A, '2019-02-10 00:00:00') /* Spark */
-     , (0x79A75001, 0x79A7500B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A75001, 0x79A7500C, '2019-02-10 00:00:00') /* Rough Monouga */;
+VALUES (0x79A75001, 0x79A75002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79A75001, 0x79A75003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x79A75001, 0x79A75004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79A75001, 0x79A75005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A75001, 0x79A75006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A75001, 0x79A75007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79A75001, 0x79A75008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79A75001, 0x79A75009, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79A75001, 0x79A7500A, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x79A75001, 0x79A7500B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A75001, 0x79A7500C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A75002,  9257, 0x9A750038, 145.1721, 180.4321, 27.90392, -0.8951702, 0, 0, -0.4457246,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
@@ -66,7 +66,7 @@ VALUES (0x79A7500D,  1542, 0x9A750033, 150.7887, 50.14888, 26.011, 0.8540855, 0,
 /* @teleloc 0x9A750033 [150.788700 50.148880 26.011000] 0.854086 0.000000 0.000000 -0.520133 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7500D, 0x79A7500E, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x79A7500D, 0x79A7500E, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7500E, 31686, 0x9A750033, 150.7887, 50.14888, 26.011, 0.8540855, 0, 0, -0.5201326,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

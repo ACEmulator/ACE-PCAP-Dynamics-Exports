@@ -5,13 +5,13 @@ VALUES (0x7BC6F001,  1154, 0xBC6F0016, 67.05757, 126.9655, 6.012, 0.8618976, 0, 
 /* @teleloc 0xBC6F0016 [67.057570 126.965500 6.012000] 0.861898 0.000000 0.000000 -0.507082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC6F001, 0x7BC6F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC6F001, 0x7BC6F003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BC6F001, 0x7BC6F004, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BC6F001, 0x7BC6F005, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BC6F001, 0x7BC6F006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BC6F001, 0x7BC6F007, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BC6F001, 0x7BC6F008, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7BC6F001, 0x7BC6F002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC6F001, 0x7BC6F003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BC6F001, 0x7BC6F004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BC6F001, 0x7BC6F005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BC6F001, 0x7BC6F006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BC6F001, 0x7BC6F007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BC6F001, 0x7BC6F008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC6F002,   215, 0xBC6F0016, 67.05757, 126.9655, 6.012, 0.8618976, 0, 0, -0.5070823,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

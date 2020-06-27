@@ -5,31 +5,31 @@ VALUES (0x7A5AE001,  1154, 0xA5AE0033, 145.7163, 64.23079, 70.64743, 0.5206071, 
 /* @teleloc 0xA5AE0033 [145.716300 64.230790 70.647430] 0.520607 0.000000 0.000000 -0.853796 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5AE001, 0x7A5AE002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A5AE001, 0x7A5AE003, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A5AE001, 0x7A5AE004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A5AE001, 0x7A5AE005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A5AE001, 0x7A5AE009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A5AE001, 0x7A5AE00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE00B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE00C, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7A5AE001, 0x7A5AE00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE00E, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A5AE001, 0x7A5AE00F, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A5AE001, 0x7A5AE010, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A5AE001, 0x7A5AE011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5AE001, 0x7A5AE013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE014, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A5AE001, 0x7A5AE015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE016, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A5AE001, 0x7A5AE017, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A5AE001, 0x7A5AE018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE019, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A5AE001, 0x7A5AE01A, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7A5AE001, 0x7A5AE002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A5AE001, 0x7A5AE003, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A5AE001, 0x7A5AE004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A5AE001, 0x7A5AE005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A5AE001, 0x7A5AE009, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7A5AE001, 0x7A5AE00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE00C, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7A5AE001, 0x7A5AE00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE00E, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A5AE001, 0x7A5AE00F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A5AE001, 0x7A5AE010, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A5AE001, 0x7A5AE011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5AE001, 0x7A5AE013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE014, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A5AE001, 0x7A5AE015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE016, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A5AE001, 0x7A5AE017, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A5AE001, 0x7A5AE018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE019, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A5AE001, 0x7A5AE01A, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5AE002,  2566, 0xA5AE0033, 145.7163, 64.23079, 70.64743, 0.5206071, 0, 0, -0.8537964,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -136,7 +136,7 @@ VALUES (0x7A5AE01B,  1542, 0xA5AE001E, 84.43797, 125.9075, 67.01541, 0.9990482, 
 /* @teleloc 0xA5AE001E [84.437970 125.907500 67.015410] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5AE01B, 0x7A5AE01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A5AE01B, 0x7A5AE01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5AE01C,  4179, 0xA5AE001E, 84.43797, 125.9075, 67.01541, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

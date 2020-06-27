@@ -5,34 +5,34 @@ VALUES (0x77AE7001,  1154, 0x7AE70010, 28.72063, 179.2908, 117.8864, -0.9934431,
 /* @teleloc 0x7AE70010 [28.720630 179.290800 117.886400] -0.993443 0.000000 0.000000 -0.114328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AE7001, 0x77AE7002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77AE7001, 0x77AE7003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x77AE7001, 0x77AE7004, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x77AE7001, 0x77AE7005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x77AE7001, 0x77AE7006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x77AE7001, 0x77AE7007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x77AE7001, 0x77AE7008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77AE7001, 0x77AE7009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x77AE7001, 0x77AE700A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77AE7001, 0x77AE700B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x77AE7001, 0x77AE700C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77AE7001, 0x77AE700D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x77AE7001, 0x77AE700E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x77AE7001, 0x77AE700F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x77AE7001, 0x77AE7010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AE7001, 0x77AE7011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AE7001, 0x77AE7012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AE7001, 0x77AE7013, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77AE7001, 0x77AE7014, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77AE7001, 0x77AE7015, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77AE7001, 0x77AE7016, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x77AE7001, 0x77AE7017, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77AE7001, 0x77AE7018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x77AE7001, 0x77AE7019, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x77AE7001, 0x77AE701A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x77AE7001, 0x77AE701B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x77AE7001, 0x77AE701C, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x77AE7001, 0x77AE701D, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x77AE7001, 0x77AE7002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77AE7001, 0x77AE7003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x77AE7001, 0x77AE7004, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x77AE7001, 0x77AE7005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x77AE7001, 0x77AE7006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x77AE7001, 0x77AE7007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x77AE7001, 0x77AE7008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77AE7001, 0x77AE7009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x77AE7001, 0x77AE700A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77AE7001, 0x77AE700B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x77AE7001, 0x77AE700C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77AE7001, 0x77AE700D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x77AE7001, 0x77AE700E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x77AE7001, 0x77AE700F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x77AE7001, 0x77AE7010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77AE7001, 0x77AE7011, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x77AE7001, 0x77AE7012, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77AE7001, 0x77AE7013, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77AE7001, 0x77AE7014, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77AE7001, 0x77AE7015, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77AE7001, 0x77AE7016, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x77AE7001, 0x77AE7017, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77AE7001, 0x77AE7018, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x77AE7001, 0x77AE7019, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x77AE7001, 0x77AE701A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x77AE7001, 0x77AE701B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x77AE7001, 0x77AE701C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x77AE7001, 0x77AE701D, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AE7002,  7090, 0x7AE70010, 28.72063, 179.2908, 117.8864, -0.9934431, 0, 0, -0.1143279,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

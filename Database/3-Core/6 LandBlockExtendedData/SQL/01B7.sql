@@ -37,51 +37,51 @@ VALUES (0x701B703F,  1154, 0x01B701C9, 27.7187, -18.0811, 0.01199996, -4.37114E-
 /* @teleloc 0x01B701C9 [27.718700 -18.081100 0.012000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B703F, 0x701B7040, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7041, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7042, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7043, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7044, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7045, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7046, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7047, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7048, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7049, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B704A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B704B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B704C, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B704D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B704E, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701B703F, 0x701B704F, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7050, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7051, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7052, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x701B703F, 0x701B7053, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x701B703F, 0x701B7054, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x701B703F, 0x701B7055, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x701B703F, 0x701B7056, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x701B703F, 0x701B7057, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x701B703F, 0x701B7058, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x701B703F, 0x701B7059, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701B703F, 0x701B705A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B705B, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B705C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701B703F, 0x701B705D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B705E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B705F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x701B703F, 0x701B7060, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x701B703F, 0x701B7061, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x701B703F, 0x701B7062, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7063, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7064, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x701B703F, 0x701B7065, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x701B703F, 0x701B7066, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x701B703F, 0x701B7067, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7068, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B7069, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B706A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x701B703F, 0x701B706B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x701B703F, 0x701B706C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x701B703F, 0x701B7040, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7041, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7042, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7043, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7044, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7045, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7046, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7047, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7048, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7049, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B704A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B704B, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B704C, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B704D, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B704E, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701B703F, 0x701B704F, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7050, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7051, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7052, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B703F, 0x701B7053, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B703F, 0x701B7054, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B703F, 0x701B7055, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B703F, 0x701B7056, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x701B703F, 0x701B7057, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B703F, 0x701B7058, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B703F, 0x701B7059, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701B703F, 0x701B705A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B705B, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B705C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701B703F, 0x701B705D, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B705E, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B705F, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B703F, 0x701B7060, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B703F, 0x701B7061, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x701B703F, 0x701B7062, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7063, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7064, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x701B703F, 0x701B7065, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x701B703F, 0x701B7066, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x701B703F, 0x701B7067, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7068, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B7069, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B706A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x701B703F, 0x701B706B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x701B703F, 0x701B706C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B7040,    12, 0x01B701C9, 27.7187, -18.0811, 0.01199996, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */
@@ -268,11 +268,11 @@ VALUES (0x701B706D,  1542, 0x01B70156, 11.8922, 1.7426, -11.9, -0.267354, 0, 0, 
 /* @teleloc 0x01B70156 [11.892200 1.742600 -11.900000] -0.267354 0.000000 0.000000 -0.963598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701B706D, 0x701B706E, '2019-02-10 00:00:00') /* Lou Ka's Katar */
-     , (0x701B706D, 0x701B706F, '2019-02-10 00:00:00') /* Bai Den's Necklace */
-     , (0x701B706D, 0x701B7070, '2019-02-10 00:00:00') /* Lou Ka's Trident */
-     , (0x701B706D, 0x701B7071, '2019-02-10 00:00:00') /* Bai Den's Ring */
-     , (0x701B706D, 0x701B7072, '2019-02-10 00:00:00') /* Bai Den's Bracelet */;
+VALUES (0x701B706D, 0x701B706E, '2019-02-10 00:00:00') /* Lou Ka's Katar (30497) */
+     , (0x701B706D, 0x701B706F, '2019-02-10 00:00:00') /* Bai Den's Necklace (30495) */
+     , (0x701B706D, 0x701B7070, '2019-02-10 00:00:00') /* Lou Ka's Trident (30496) */
+     , (0x701B706D, 0x701B7071, '2019-02-10 00:00:00') /* Bai Den's Ring (30493) */
+     , (0x701B706D, 0x701B7072, '2019-02-10 00:00:00') /* Bai Den's Bracelet (30494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B706E, 30497, 0x01B70156, 11.8922, 1.7426, -11.9, -0.267354, 0, 0, -0.963598,  True, '2019-02-10 00:00:00'); /* Lou Ka's Katar */

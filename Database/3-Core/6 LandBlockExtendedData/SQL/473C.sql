@@ -5,19 +5,19 @@ VALUES (0x7473C001,  1154, 0x473C003F, 172.2788, 160.3279, 26.72951, -0.7795394,
 /* @teleloc 0x473C003F [172.278800 160.327900 26.729510] -0.779539 0.000000 0.000000 -0.626353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7473C001, 0x7473C002, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7473C001, 0x7473C003, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7473C001, 0x7473C004, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7473C001, 0x7473C005, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7473C001, 0x7473C006, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7473C001, 0x7473C007, '2019-02-10 00:00:00') /* Burun Ruuk Lout */
-     , (0x7473C001, 0x7473C008, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7473C001, 0x7473C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7473C001, 0x7473C00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7473C001, 0x7473C00B, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x7473C001, 0x7473C00C, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7473C001, 0x7473C00D, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7473C001, 0x7473C00E, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x7473C001, 0x7473C002, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7473C001, 0x7473C003, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7473C001, 0x7473C004, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7473C001, 0x7473C005, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7473C001, 0x7473C006, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7473C001, 0x7473C007, '2019-02-10 00:00:00') /* Burun Ruuk Lout (26015) */
+     , (0x7473C001, 0x7473C008, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7473C001, 0x7473C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7473C001, 0x7473C00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7473C001, 0x7473C00B, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x7473C001, 0x7473C00C, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7473C001, 0x7473C00D, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7473C001, 0x7473C00E, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7473C002, 23488, 0x473C003F, 172.2788, 160.3279, 26.72951, -0.7795394, 0, 0, -0.6263532,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus Lord */

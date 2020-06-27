@@ -9,49 +9,49 @@ VALUES (0x7328900C,  1154, 0x3289002C, 136.2973, 93.1966, 27.93021, 0.3987491, 0
 /* @teleloc 0x3289002C [136.297300 93.196600 27.930210] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7328900C, 0x7328900D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7328900C, 0x7328900E, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7328900C, 0x7328900F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289010, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289011, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289012, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289013, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289014, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289015, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289016, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289017, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7328900C, 0x73289018, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7328900C, 0x73289019, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x7328901A, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7328900C, 0x7328901B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7328900C, 0x7328901C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7328900C, 0x7328901D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7328900C, 0x7328901E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7328900C, 0x7328901F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7328900C, 0x73289020, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7328900C, 0x73289021, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289022, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289023, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7328900C, 0x73289024, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x73289025, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x73289026, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7328900C, 0x73289027, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7328900C, 0x73289028, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x73289029, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x7328902A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x7328902B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7328900C, 0x7328902C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7328900C, 0x7328902D, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7328900C, 0x7328902E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x7328902F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7328900C, 0x73289030, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7328900C, 0x73289031, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7328900C, 0x73289032, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7328900C, 0x73289033, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7328900C, 0x73289034, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7328900C, 0x73289035, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7328900C, 0x73289036, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7328900C, 0x73289037, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */;
+VALUES (0x7328900C, 0x7328900D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7328900C, 0x7328900E, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7328900C, 0x7328900F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289010, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289011, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289012, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289013, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289014, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289015, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289016, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289017, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7328900C, 0x73289018, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7328900C, 0x73289019, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x7328901A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7328900C, 0x7328901B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7328900C, 0x7328901C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7328900C, 0x7328901D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7328900C, 0x7328901E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7328900C, 0x7328901F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7328900C, 0x73289020, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7328900C, 0x73289021, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289022, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289023, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7328900C, 0x73289024, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x73289025, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x73289026, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7328900C, 0x73289027, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7328900C, 0x73289028, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x73289029, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x7328902A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x7328902B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7328900C, 0x7328902C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7328900C, 0x7328902D, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7328900C, 0x7328902E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x7328902F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7328900C, 0x73289030, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7328900C, 0x73289031, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7328900C, 0x73289032, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7328900C, 0x73289033, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7328900C, 0x73289034, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7328900C, 0x73289035, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7328900C, 0x73289036, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7328900C, 0x73289037, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7328900D, 24281, 0x3289002C, 136.2973, 93.1966, 27.93021, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
@@ -230,9 +230,9 @@ VALUES (0x73289038,  1542, 0x3289002D, 137.8674, 97.9194, 28.2364, -4.371139E-08
 /* @teleloc 0x3289002D [137.867400 97.919400 28.236400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73289038, 0x73289039, '2019-02-10 00:00:00') /* Bones */
-     , (0x73289038, 0x7328903A, '2019-02-10 00:00:00') /* Bones */
-     , (0x73289038, 0x7328903B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73289038, 0x73289039, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73289038, 0x7328903A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73289038, 0x7328903B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73289039,  4380, 0x3289002D, 137.8674, 97.9194, 28.2364, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

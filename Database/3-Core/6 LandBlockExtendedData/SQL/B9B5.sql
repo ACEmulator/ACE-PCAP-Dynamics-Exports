@@ -5,15 +5,15 @@ VALUES (0x7B9B5001,  1154, 0xB9B50009, 34.64573, 15.53803, 121.641, 0.9238795, 0
 /* @teleloc 0xB9B50009 [34.645730 15.538030 121.641000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9B5001, 0x7B9B5002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B9B5001, 0x7B9B5003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B9B5001, 0x7B9B5004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B9B5001, 0x7B9B5005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B9B5001, 0x7B9B5006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7B9B5001, 0x7B9B5007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B9B5001, 0x7B9B5008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B9B5001, 0x7B9B5009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B9B5001, 0x7B9B500A, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7B9B5001, 0x7B9B5002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B9B5001, 0x7B9B5003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B9B5001, 0x7B9B5004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B9B5001, 0x7B9B5005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B9B5001, 0x7B9B5006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7B9B5001, 0x7B9B5007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B9B5001, 0x7B9B5008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B9B5001, 0x7B9B5009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B9B5001, 0x7B9B500A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9B5002,  1758, 0xB9B50009, 34.64573, 15.53803, 121.641, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

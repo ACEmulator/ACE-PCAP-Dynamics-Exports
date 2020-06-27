@@ -5,9 +5,9 @@ VALUES (0x7B0D1001,  1154, 0xB0D10001, 20.74545, 13.48593, 48.85442, 0.7372774, 
 /* @teleloc 0xB0D10001 [20.745450 13.485930 48.854420] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D1001, 0x7B0D1002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B0D1001, 0x7B0D1003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B0D1001, 0x7B0D1004, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7B0D1001, 0x7B0D1002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B0D1001, 0x7B0D1003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B0D1001, 0x7B0D1004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D1002,  4255, 0xB0D10001, 20.74545, 13.48593, 48.85442, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -26,7 +26,7 @@ VALUES (0x7B0D1005,  1542, 0xB0D10001, 18.49011, 12.89139, 48.92572, -0.1736482,
 /* @teleloc 0xB0D10001 [18.490110 12.891390 48.925720] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D1005, 0x7B0D1006, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x7B0D1005, 0x7B0D1006, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D1006, 25957, 0xB0D10001, 18.49011, 12.89139, 48.92572, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

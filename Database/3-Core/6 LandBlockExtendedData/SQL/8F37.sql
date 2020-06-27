@@ -5,15 +5,15 @@ VALUES (0x78F37001,  1154, 0x8F370038, 148.1508, 188.8991, 9.72, -0.8825543, 0, 
 /* @teleloc 0x8F370038 [148.150800 188.899100 9.720000] -0.882554 0.000000 0.000000 -0.470211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F37001, 0x78F37002, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x78F37001, 0x78F37003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78F37001, 0x78F37004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F37001, 0x78F37005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F37001, 0x78F37006, '2019-02-10 00:00:00') /* Lord of Decay */
-     , (0x78F37001, 0x78F37007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78F37001, 0x78F37008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78F37001, 0x78F37009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78F37001, 0x78F3700A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x78F37001, 0x78F37002, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x78F37001, 0x78F37003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x78F37001, 0x78F37004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x78F37001, 0x78F37005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78F37001, 0x78F37006, '2019-02-10 00:00:00') /* Lord of Decay (12027) */
+     , (0x78F37001, 0x78F37007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78F37001, 0x78F37008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78F37001, 0x78F37009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78F37001, 0x78F3700A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F37002,  9242, 0x8F370038, 148.1508, 188.8991, 9.72, -0.8825543, 0, 0, -0.4702105,  True, '2019-02-10 00:00:00'); /* Innocent Doll */
@@ -56,7 +56,7 @@ VALUES (0x78F3700B,  1542, 0x8F37000F, 38.50508, 163.1762, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x8F37000F [38.505080 163.176200 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F3700B, 0x78F3700C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x78F3700B, 0x78F3700C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F3700C, 31443, 0x8F37000F, 38.50508, 163.1762, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

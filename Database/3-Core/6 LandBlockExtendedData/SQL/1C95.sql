@@ -5,14 +5,14 @@ VALUES (0x71C95001,  1154, 0x1C950009, 35.72167, 13.69272, -0.8974999, 0.2726146
 /* @teleloc 0x1C950009 [35.721670 13.692720 -0.897500] 0.272615 0.000000 0.000000 -0.962123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C95001, 0x71C95002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x71C95001, 0x71C95003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71C95001, 0x71C95004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71C95001, 0x71C95005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71C95001, 0x71C95006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71C95001, 0x71C95007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71C95001, 0x71C95008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x71C95001, 0x71C95009, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x71C95001, 0x71C95002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x71C95001, 0x71C95003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71C95001, 0x71C95004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71C95001, 0x71C95005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71C95001, 0x71C95006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71C95001, 0x71C95007, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71C95001, 0x71C95008, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x71C95001, 0x71C95009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C95002, 36859, 0x1C950009, 35.72167, 13.69272, -0.8974999, 0.2726146, 0, 0, -0.9621233,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

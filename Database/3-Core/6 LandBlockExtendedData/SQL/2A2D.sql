@@ -5,12 +5,12 @@ VALUES (0x72A2D001,  1154, 0x2A2D0027, 115.4995, 155.534, 65.34121, 1, 0, 0, 0, 
 /* @teleloc 0x2A2D0027 [115.499500 155.534000 65.341210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A2D001, 0x72A2D002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A2D001, 0x72A2D003, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72A2D001, 0x72A2D004, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72A2D001, 0x72A2D005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A2D001, 0x72A2D006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72A2D001, 0x72A2D007, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x72A2D001, 0x72A2D002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72A2D001, 0x72A2D003, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72A2D001, 0x72A2D004, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72A2D001, 0x72A2D005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72A2D001, 0x72A2D006, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72A2D001, 0x72A2D007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A2D002, 36845, 0x2A2D0027, 115.4995, 155.534, 65.34121, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

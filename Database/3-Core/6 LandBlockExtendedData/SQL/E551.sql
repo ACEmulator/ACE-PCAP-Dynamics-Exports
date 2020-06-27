@@ -5,8 +5,8 @@ VALUES (0x7E551001,  1154, 0xE5510008, 19.68596, 188.8229, 8.364103, 0.944511, 0
 /* @teleloc 0xE5510008 [19.685960 188.822900 8.364103] 0.944511 0.000000 0.000000 -0.328480 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E551001, 0x7E551002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E551001, 0x7E551003, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7E551001, 0x7E551002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E551001, 0x7E551003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E551002,  4246, 0xE5510008, 19.68596, 188.8229, 8.364103, 0.944511, 0, 0, -0.3284798,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

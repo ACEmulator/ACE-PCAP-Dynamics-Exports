@@ -85,67 +85,67 @@ VALUES (0x7575408C,  1154, 0x5754031E, 129.4875, -123.0688, 0.005500019, 1, 0, 0
 /* @teleloc 0x5754031E [129.487500 -123.068800 0.005500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7575408C, 0x7575408D, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x7575408E, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x7575408F, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x75754090, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x75754091, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x75754092, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x75754093, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x75754094, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x75754095, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x75754096, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x75754097, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x75754098, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x75754099, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x7575409A, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x7575409B, '2019-02-10 00:00:00') /* War Reaper */
-     , (0x7575408C, 0x7575409C, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x7575409D, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x7575409E, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x7575409F, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x757540A0, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x757540A1, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540A2, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540A3, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x757540A4, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540A5, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540A6, '2019-02-10 00:00:00') /* Virindi Dreamslayer */
-     , (0x7575408C, 0x757540A7, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540A8, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540A9, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540AA, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540AB, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540AC, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x757540AD, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540AE, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540AF, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540B0, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540B1, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540B2, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540B3, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540B4, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540B5, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540B6, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540B7, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540B8, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540B9, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540BA, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540BB, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540BC, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540BD, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540BE, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540BF, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540C0, '2019-02-10 00:00:00') /* Bak'tshay Servant */
-     , (0x7575408C, 0x757540C1, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540C2, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540C3, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540C4, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540C5, '2019-02-10 00:00:00') /* Bak'tshay Slave */
-     , (0x7575408C, 0x757540C6, '2019-02-10 00:00:00') /* Bak'tshay Guard */
-     , (0x7575408C, 0x757540C7, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540C8, '2019-02-10 00:00:00') /* Bak'tshay Soldier */
-     , (0x7575408C, 0x757540C9, '2019-02-10 00:00:00') /* Bak'tshay Slave */;
+VALUES (0x7575408C, 0x7575408D, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x7575408E, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x7575408F, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x75754090, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x75754091, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x75754092, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x75754093, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x75754094, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x75754095, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x75754096, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x75754097, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x75754098, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x75754099, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x7575409A, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x7575409B, '2019-02-10 00:00:00') /* War Reaper (44054) */
+     , (0x7575408C, 0x7575409C, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x7575409D, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x7575409E, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x7575409F, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x757540A0, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x757540A1, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540A2, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540A3, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x757540A4, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540A5, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540A6, '2019-02-10 00:00:00') /* Virindi Dreamslayer (43979) */
+     , (0x7575408C, 0x757540A7, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540A8, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540A9, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540AA, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540AB, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540AC, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x757540AD, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540AE, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540AF, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540B0, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540B1, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540B2, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540B3, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540B4, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540B5, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540B6, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540B7, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540B8, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540B9, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540BA, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540BB, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540BC, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540BD, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540BE, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540BF, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540C0, '2019-02-10 00:00:00') /* Bak'tshay Servant (44320) */
+     , (0x7575408C, 0x757540C1, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540C2, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540C3, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540C4, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540C5, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */
+     , (0x7575408C, 0x757540C6, '2019-02-10 00:00:00') /* Bak'tshay Guard (44319) */
+     , (0x7575408C, 0x757540C7, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540C8, '2019-02-10 00:00:00') /* Bak'tshay Soldier (44322) */
+     , (0x7575408C, 0x757540C9, '2019-02-10 00:00:00') /* Bak'tshay Slave (44321) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7575408D, 44322, 0x5754031E, 129.4875, -123.0688, 0.005500019, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bak'tshay Soldier */
@@ -396,7 +396,7 @@ VALUES (0x757540CA,  1154, 0x575402C0, 110, -130, 0, 0.707107, 0, 0, -0.707107, 
 /* @teleloc 0x575402C0 [110.000000 -130.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757540CA, 0x757540CB, '2019-02-10 00:00:00') /* Altar of the Black Crystal */;
+VALUES (0x757540CA, 0x757540CB, '2019-02-10 00:00:00') /* Altar of the Black Crystal (44307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757540CB, 44307, 0x575402C0, 110, -130, 0, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Altar of the Black Crystal */
@@ -407,12 +407,12 @@ VALUES (0x757540CC,  1542, 0x5754028E, 99.1954, -129.5414, 0.05, 1, 0, 0, 0, Fal
 /* @teleloc 0x5754028E [99.195400 -129.541400 0.050000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757540CC, 0x757540CD, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */
-     , (0x757540CC, 0x757540CE, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */
-     , (0x757540CC, 0x757540CF, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */
-     , (0x757540CC, 0x757540D0, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */
-     , (0x757540CC, 0x757540D1, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */
-     , (0x757540CC, 0x757540D2, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal */;
+VALUES (0x757540CC, 0x757540CD, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */
+     , (0x757540CC, 0x757540CE, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */
+     , (0x757540CC, 0x757540CF, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */
+     , (0x757540CC, 0x757540D0, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */
+     , (0x757540CC, 0x757540D1, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */
+     , (0x757540CC, 0x757540D2, '2019-02-10 00:00:00') /* Sacred A'nekshay Crystal (44303) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757540CD, 44303, 0x5754028E, 99.1954, -129.5414, 0.05, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sacred A'nekshay Crystal */

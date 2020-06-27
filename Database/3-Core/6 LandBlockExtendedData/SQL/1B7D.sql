@@ -5,31 +5,31 @@ VALUES (0x71B7D001,  1154, 0x1B7D0008, 17.71392, 179.7678, 150.0071, -0.9817283,
 /* @teleloc 0x1B7D0008 [17.713920 179.767800 150.007100] -0.981728 0.000000 0.000000 -0.190288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7D001, 0x71B7D002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71B7D001, 0x71B7D003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7D001, 0x71B7D004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71B7D001, 0x71B7D005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7D001, 0x71B7D006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7D001, 0x71B7D007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B7D001, 0x71B7D008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B7D001, 0x71B7D009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B7D001, 0x71B7D00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D00C, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x71B7D001, 0x71B7D00D, '2019-02-10 00:00:00') /* Flamma */
-     , (0x71B7D001, 0x71B7D00E, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B7D001, 0x71B7D00F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D012, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B7D001, 0x71B7D013, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71B7D001, 0x71B7D014, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71B7D001, 0x71B7D015, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71B7D001, 0x71B7D016, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B7D001, 0x71B7D017, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71B7D001, 0x71B7D018, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71B7D001, 0x71B7D019, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B7D001, 0x71B7D01A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71B7D001, 0x71B7D002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71B7D001, 0x71B7D003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7D001, 0x71B7D004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71B7D001, 0x71B7D005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7D001, 0x71B7D006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7D001, 0x71B7D007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B7D001, 0x71B7D008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71B7D001, 0x71B7D009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B7D001, 0x71B7D00A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D00C, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x71B7D001, 0x71B7D00D, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x71B7D001, 0x71B7D00E, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71B7D001, 0x71B7D00F, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D010, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D011, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D012, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B7D001, 0x71B7D013, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71B7D001, 0x71B7D014, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71B7D001, 0x71B7D015, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71B7D001, 0x71B7D016, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B7D001, 0x71B7D017, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71B7D001, 0x71B7D018, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71B7D001, 0x71B7D019, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B7D001, 0x71B7D01A, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7D002,  7346, 0x1B7D0008, 17.71392, 179.7678, 150.0071, -0.9817283, 0, 0, -0.1902882,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -136,8 +136,8 @@ VALUES (0x71B7D01B,  1542, 0x1B7D0020, 94.99917, 184.9748, 150, 0.9990482, 0, 0,
 /* @teleloc 0x1B7D0020 [94.999170 184.974800 150.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B7D01B, 0x71B7D01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71B7D01B, 0x71B7D01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B7D01B, 0x71B7D01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71B7D01B, 0x71B7D01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B7D01C,  4179, 0x1B7D0020, 94.99917, 184.9748, 150, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

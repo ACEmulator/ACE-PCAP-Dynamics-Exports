@@ -5,12 +5,12 @@ VALUES (0x74CC2001,  1154, 0x4CC20039, 185.3085, 8.567266, -0.44175, -0.6483814,
 /* @teleloc 0x4CC20039 [185.308500 8.567266 -0.441750] -0.648381 0.000000 0.000000 -0.761316 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC2001, 0x74CC2002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x74CC2001, 0x74CC2003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x74CC2001, 0x74CC2004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x74CC2001, 0x74CC2005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74CC2001, 0x74CC2006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x74CC2001, 0x74CC2007, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x74CC2001, 0x74CC2002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x74CC2001, 0x74CC2003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x74CC2001, 0x74CC2004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x74CC2001, 0x74CC2005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74CC2001, 0x74CC2006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x74CC2001, 0x74CC2007, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC2002,   619, 0x4CC20039, 185.3085, 8.567266, -0.44175, -0.6483814, 0, 0, -0.7613157,  True, '2019-02-10 00:00:00'); /* Revenant */

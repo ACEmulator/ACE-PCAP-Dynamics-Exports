@@ -5,12 +5,12 @@ VALUES (0x7A5A4001,  1154, 0xA5A40022, 116.9959, 35.1193, 134.1453, 0.03392315, 
 /* @teleloc 0xA5A40022 [116.995900 35.119300 134.145300] 0.033923 0.000000 0.000000 -0.999425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5A4001, 0x7A5A4002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A5A4001, 0x7A5A4003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A5A4001, 0x7A5A4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A5A4001, 0x7A5A4005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A5A4001, 0x7A5A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A5A4001, 0x7A5A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A5A4001, 0x7A5A4002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A5A4001, 0x7A5A4003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A5A4001, 0x7A5A4004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A5A4001, 0x7A5A4005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A5A4001, 0x7A5A4006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A5A4001, 0x7A5A4007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5A4002,  7978, 0xA5A40022, 116.9959, 35.1193, 134.1453, 0.03392315, 0, 0, -0.9994245,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

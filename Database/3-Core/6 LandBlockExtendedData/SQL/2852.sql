@@ -5,24 +5,24 @@ VALUES (0x72852001,  1154, 0x28520037, 157.3769, 152.3537, 6.704646, -0.9057769,
 /* @teleloc 0x28520037 [157.376900 152.353700 6.704646] -0.905777 0.000000 0.000000 -0.423755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72852001, 0x72852002, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72852001, 0x72852003, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72852001, 0x72852004, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72852001, 0x72852005, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72852001, 0x72852006, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72852001, 0x72852007, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72852001, 0x72852008, '2019-02-10 00:00:00') /* Obliterator */
-     , (0x72852001, 0x72852009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x7285200F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x72852010, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x72852011, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72852001, 0x72852012, '2019-02-10 00:00:00') /* Sentient Crystal Shard */
-     , (0x72852001, 0x72852013, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */;
+VALUES (0x72852001, 0x72852002, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72852001, 0x72852003, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72852001, 0x72852004, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72852001, 0x72852005, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72852001, 0x72852006, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72852001, 0x72852007, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72852001, 0x72852008, '2019-02-10 00:00:00') /* Obliterator (22903) */
+     , (0x72852001, 0x72852009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x7285200F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x72852010, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x72852011, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72852001, 0x72852012, '2019-02-10 00:00:00') /* Sentient Crystal Shard (23548) */
+     , (0x72852001, 0x72852013, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72852002, 41734, 0x28520037, 157.3769, 152.3537, 6.704646, -0.9057769, 0, 0, -0.423755,  True, '2019-02-10 00:00:00'); /* Copper Cog Heavy Scout */
@@ -101,7 +101,7 @@ VALUES (0x72852014,  1542, 0x28520029, 120.699, 2.292046, 0, 0.3321732, 0, 0, -0
 /* @teleloc 0x28520029 [120.699000 2.292046 0.000000] 0.332173 0.000000 0.000000 -0.943218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72852014, 0x72852015, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72852014, 0x72852015, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72852015, 46284, 0x28520029, 120.699, 2.292046, 0, 0.3321732, 0, 0, -0.9432184,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

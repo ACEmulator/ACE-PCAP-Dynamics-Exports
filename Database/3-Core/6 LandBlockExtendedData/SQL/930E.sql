@@ -5,16 +5,16 @@ VALUES (0x7930E001,  1154, 0x930E001F, 75.55376, 150.2793, 9.29083, -0.6804514, 
 /* @teleloc 0x930E001F [75.553760 150.279300 9.290830] -0.680451 0.000000 0.000000 -0.732793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7930E001, 0x7930E002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7930E001, 0x7930E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7930E001, 0x7930E004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7930E001, 0x7930E005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7930E001, 0x7930E006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7930E001, 0x7930E007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7930E001, 0x7930E008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7930E001, 0x7930E009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7930E001, 0x7930E00A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7930E001, 0x7930E00B, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7930E001, 0x7930E002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7930E001, 0x7930E003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7930E001, 0x7930E004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7930E001, 0x7930E005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7930E001, 0x7930E006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7930E001, 0x7930E007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7930E001, 0x7930E008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7930E001, 0x7930E009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7930E001, 0x7930E00A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7930E001, 0x7930E00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7930E002, 22933, 0x930E001F, 75.55376, 150.2793, 9.29083, -0.6804514, 0, 0, -0.7327932,  True, '2019-02-10 00:00:00'); /* Mist Golem */

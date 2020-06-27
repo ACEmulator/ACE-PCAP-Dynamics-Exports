@@ -5,23 +5,23 @@ VALUES (0x7C858001,  1154, 0xC8580034, 148.822, 95.19469, 26.26454, 0.8826917, 0
 /* @teleloc 0xC8580034 [148.822000 95.194690 26.264540] 0.882692 0.000000 0.000000 -0.469953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C858001, 0x7C858002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C858001, 0x7C858003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C858001, 0x7C858004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C858001, 0x7C858005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C858001, 0x7C858006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C858001, 0x7C858007, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C858001, 0x7C858008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C858001, 0x7C858009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C858001, 0x7C85800A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C858001, 0x7C85800B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C858001, 0x7C85800C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C858001, 0x7C85800D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C858001, 0x7C85800E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C858001, 0x7C85800F, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C858001, 0x7C858010, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C858001, 0x7C858011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C858001, 0x7C858012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C858001, 0x7C858002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C858001, 0x7C858003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C858001, 0x7C858004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C858001, 0x7C858005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C858001, 0x7C858006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C858001, 0x7C858007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C858001, 0x7C858008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C858001, 0x7C858009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C858001, 0x7C85800A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C858001, 0x7C85800B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C858001, 0x7C85800C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C858001, 0x7C85800D, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C858001, 0x7C85800E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C858001, 0x7C85800F, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C858001, 0x7C858010, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C858001, 0x7C858011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C858001, 0x7C858012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C858002, 24959, 0xC8580034, 148.822, 95.19469, 26.26454, 0.8826917, 0, 0, -0.4699526,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -96,7 +96,7 @@ VALUES (0x7C858013,  1542, 0xC8580025, 113.7032, 99.1577, 23.43885, 1, 0, 0, 0, 
 /* @teleloc 0xC8580025 [113.703200 99.157700 23.438850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C858013, 0x7C858014, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C858013, 0x7C858014, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C858014, 31443, 0xC8580025, 113.7032, 99.1577, 23.43885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

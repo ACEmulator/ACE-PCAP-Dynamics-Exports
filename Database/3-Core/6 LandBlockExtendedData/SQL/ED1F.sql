@@ -5,18 +5,18 @@ VALUES (0x7ED1F001,  1154, 0xED1F002E, 138.0539, 125.8149, -0.09460002, 0.763585
 /* @teleloc 0xED1F002E [138.053900 125.814900 -0.094600] 0.763586 0.000000 0.000000 -0.645707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED1F001, 0x7ED1F002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED1F001, 0x7ED1F003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED1F001, 0x7ED1F004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED1F001, 0x7ED1F005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED1F001, 0x7ED1F006, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7ED1F001, 0x7ED1F007, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7ED1F001, 0x7ED1F008, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7ED1F001, 0x7ED1F009, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7ED1F001, 0x7ED1F00A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED1F001, 0x7ED1F00B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1F001, 0x7ED1F00C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1F001, 0x7ED1F00D, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7ED1F001, 0x7ED1F002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED1F001, 0x7ED1F003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED1F001, 0x7ED1F004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED1F001, 0x7ED1F005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED1F001, 0x7ED1F006, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7ED1F001, 0x7ED1F007, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7ED1F001, 0x7ED1F008, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7ED1F001, 0x7ED1F009, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7ED1F001, 0x7ED1F00A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED1F001, 0x7ED1F00B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1F001, 0x7ED1F00C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1F001, 0x7ED1F00D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED1F002,  4247, 0xED1F002E, 138.0539, 125.8149, -0.09460002, 0.7635857, 0, 0, -0.6457065,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

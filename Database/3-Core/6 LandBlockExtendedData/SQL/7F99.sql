@@ -5,9 +5,9 @@ VALUES (0x77F99001,  1154, 0x7F99002F, 141.2401, 153.4004, 237.54, 0.9681116, 0,
 /* @teleloc 0x7F99002F [141.240100 153.400400 237.540000] 0.968112 0.000000 0.000000 -0.250519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F99001, 0x77F99002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x77F99001, 0x77F99003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F99001, 0x77F99004, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x77F99001, 0x77F99002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x77F99001, 0x77F99003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F99001, 0x77F99004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F99002,   213, 0x7F99002F, 141.2401, 153.4004, 237.54, 0.9681116, 0, 0, -0.2505191,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */

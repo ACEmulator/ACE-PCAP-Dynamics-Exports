@@ -5,12 +5,12 @@ VALUES (0x7C163001,  1154, 0xC163000A, 46.67983, 42.70969, 11.76162, 0.7457051, 
 /* @teleloc 0xC163000A [46.679830 42.709690 11.761620] 0.745705 0.000000 0.000000 -0.666276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C163001, 0x7C163002, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7C163001, 0x7C163003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C163001, 0x7C163004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C163001, 0x7C163005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C163001, 0x7C163006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C163001, 0x7C163007, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C163001, 0x7C163002, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7C163001, 0x7C163003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C163001, 0x7C163004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C163001, 0x7C163005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C163001, 0x7C163006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C163001, 0x7C163007, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C163002,  7106, 0xC163000A, 46.67983, 42.70969, 11.76162, 0.7457051, 0, 0, -0.6662762,  True, '2019-02-10 00:00:00'); /* Sewer Rat */

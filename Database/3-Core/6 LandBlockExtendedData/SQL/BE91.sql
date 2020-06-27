@@ -5,11 +5,11 @@ VALUES (0x7BE91001,  1154, 0xBE910021, 103.0708, 15.65934, 22.69756, 0.3522742, 
 /* @teleloc 0xBE910021 [103.070800 15.659340 22.697560] 0.352274 0.000000 0.000000 -0.935897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE91001, 0x7BE91002, '2019-02-10 00:00:00') /* Static */
-     , (0x7BE91001, 0x7BE91003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BE91001, 0x7BE91004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BE91001, 0x7BE91005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BE91001, 0x7BE91006, '2019-02-10 00:00:00') /* Russet Rat */;
+VALUES (0x7BE91001, 0x7BE91002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BE91001, 0x7BE91003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BE91001, 0x7BE91004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BE91001, 0x7BE91005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BE91001, 0x7BE91006, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE91002,  6382, 0xBE910021, 103.0708, 15.65934, 22.69756, 0.3522742, 0, 0, -0.9358968,  True, '2019-02-10 00:00:00'); /* Static */

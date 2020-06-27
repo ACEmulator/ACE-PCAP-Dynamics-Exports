@@ -5,18 +5,18 @@ VALUES (0x76D99001,  1154, 0x6D99002D, 138.5708, 119.1926, 78.39065, 0.9811493, 
 /* @teleloc 0x6D99002D [138.570800 119.192600 78.390650] 0.981149 0.000000 0.000000 -0.193251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76D99001, 0x76D99002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x76D99001, 0x76D99003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x76D99001, 0x76D99004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x76D99001, 0x76D99005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x76D99001, 0x76D99006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x76D99001, 0x76D99007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76D99001, 0x76D99008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x76D99001, 0x76D99009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76D99001, 0x76D9900A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76D99001, 0x76D9900B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x76D99001, 0x76D9900C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x76D99001, 0x76D9900D, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x76D99001, 0x76D99002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x76D99001, 0x76D99003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x76D99001, 0x76D99004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x76D99001, 0x76D99005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x76D99001, 0x76D99006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x76D99001, 0x76D99007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76D99001, 0x76D99008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x76D99001, 0x76D99009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76D99001, 0x76D9900A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76D99001, 0x76D9900B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x76D99001, 0x76D9900C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x76D99001, 0x76D9900D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76D99002,   231, 0x6D99002D, 138.5708, 119.1926, 78.39065, 0.9811493, 0, 0, -0.1932512,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -71,7 +71,7 @@ VALUES (0x76D9900E,  1542, 0x6D99002B, 140.9873, 64.47861, 74.87784, -0.9965144,
 /* @teleloc 0x6D99002B [140.987300 64.478610 74.877840] -0.996514 0.000000 0.000000 -0.083420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76D9900E, 0x76D9900F, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x76D9900E, 0x76D9900F, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76D9900F,  8039, 0x6D99002B, 140.9873, 64.47861, 74.87784, -0.9965144, 0, 0, -0.08342017,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

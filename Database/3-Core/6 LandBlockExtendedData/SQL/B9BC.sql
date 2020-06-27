@@ -5,8 +5,8 @@ VALUES (0x7B9BC001,  1154, 0xB9BC0023, 111.4466, 49.21422, 246.0314, -0.6098889,
 /* @teleloc 0xB9BC0023 [111.446600 49.214220 246.031400] -0.609889 0.000000 0.000000 -0.792487 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9BC001, 0x7B9BC002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B9BC001, 0x7B9BC003, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7B9BC001, 0x7B9BC002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B9BC001, 0x7B9BC003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9BC002,  9401, 0xB9BC0023, 111.4466, 49.21422, 246.0314, -0.6098889, 0, 0, -0.7924869,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

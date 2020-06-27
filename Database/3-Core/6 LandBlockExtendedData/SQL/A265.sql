@@ -5,17 +5,17 @@ VALUES (0x7A265001,  1154, 0xA2650030, 136.6349, 184.6039, 26.7799, 0.5, 0, 0, -
 /* @teleloc 0xA2650030 [136.634900 184.603900 26.779900] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A265001, 0x7A265002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A265001, 0x7A265003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A265001, 0x7A265004, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A265001, 0x7A265005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A265001, 0x7A265006, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A265001, 0x7A265007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A265001, 0x7A265008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A265001, 0x7A265009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A265001, 0x7A26500A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A265001, 0x7A26500B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A265001, 0x7A26500C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A265001, 0x7A265002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A265001, 0x7A265003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A265001, 0x7A265004, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A265001, 0x7A265005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A265001, 0x7A265006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A265001, 0x7A265007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A265001, 0x7A265008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A265001, 0x7A265009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A265001, 0x7A26500A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A265001, 0x7A26500B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A265001, 0x7A26500C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A265002,   194, 0xA2650030, 136.6349, 184.6039, 26.7799, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -66,7 +66,7 @@ VALUES (0x7A26500D,  1542, 0xA2650034, 164.4619, 87.04885, 25.64216, 0.8433914, 
 /* @teleloc 0xA2650034 [164.461900 87.048850 25.642160] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A26500D, 0x7A26500E, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7A26500D, 0x7A26500E, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A26500E,  8190, 0xA2650034, 164.4619, 87.04885, 25.64216, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

@@ -5,9 +5,9 @@ VALUES (0x78756001,  1154, 0x87560011, 61.12046, 2.906876, 10.85613, -0.9854804,
 /* @teleloc 0x87560011 [61.120460 2.906876 10.856130] -0.985480 0.000000 0.000000 -0.169790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78756001, 0x78756002, '2019-02-10 00:00:00') /* Flare */
-     , (0x78756001, 0x78756003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78756001, 0x78756004, '2019-02-10 00:00:00') /* Rust Gromnie */;
+VALUES (0x78756001, 0x78756002, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x78756001, 0x78756003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78756001, 0x78756004, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78756002,  5710, 0x87560011, 61.12046, 2.906876, 10.85613, -0.9854804, 0, 0, -0.1697895,  True, '2019-02-10 00:00:00'); /* Flare */
@@ -26,9 +26,9 @@ VALUES (0x78756005,  1542, 0x87560011, 58.78, 14.93448, 11.19232, 1, 0, 0, 0, Fa
 /* @teleloc 0x87560011 [58.780000 14.934480 11.192320] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78756005, 0x78756006, '2019-02-10 00:00:00') /* Fez */
-     , (0x78756005, 0x78756007, '2019-02-10 00:00:00') /* Nabut */
-     , (0x78756005, 0x78756008, '2019-02-10 00:00:00') /* Scroll of Infuse Health III */;
+VALUES (0x78756005, 0x78756006, '2019-02-10 00:00:00') /* Fez (5894) */
+     , (0x78756005, 0x78756007, '2019-02-10 00:00:00') /* Nabut (22163) */
+     , (0x78756005, 0x78756008, '2019-02-10 00:00:00') /* Scroll of Infuse Health III (3732) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78756006,  5894, 0x87560011, 58.78, 14.93448, 11.19232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fez */

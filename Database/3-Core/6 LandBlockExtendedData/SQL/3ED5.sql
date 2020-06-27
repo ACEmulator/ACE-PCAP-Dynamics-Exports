@@ -33,21 +33,21 @@ VALUES (0x73ED500D,  1154, 0x3ED50025, 109.7585, 100.9841, -0.8868001, 0.7071068
 /* @teleloc 0x3ED50025 [109.758500 100.984100 -0.886800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73ED500D, 0x73ED500E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73ED500D, 0x73ED500F, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x73ED500D, 0x73ED5010, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x73ED500D, 0x73ED5011, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x73ED500D, 0x73ED5012, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x73ED500D, 0x73ED5013, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x73ED500D, 0x73ED5014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73ED500D, 0x73ED5015, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x73ED500D, 0x73ED5016, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x73ED500D, 0x73ED5017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73ED500D, 0x73ED5018, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73ED500D, 0x73ED5019, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x73ED500D, 0x73ED501A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73ED500D, 0x73ED501B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73ED500D, 0x73ED501C, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73ED500D, 0x73ED500E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73ED500D, 0x73ED500F, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED500D, 0x73ED5010, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x73ED500D, 0x73ED5011, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED500D, 0x73ED5012, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x73ED500D, 0x73ED5013, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x73ED500D, 0x73ED5014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73ED500D, 0x73ED5015, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x73ED500D, 0x73ED5016, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x73ED500D, 0x73ED5017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73ED500D, 0x73ED5018, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73ED500D, 0x73ED5019, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x73ED500D, 0x73ED501A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73ED500D, 0x73ED501B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73ED500D, 0x73ED501C, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73ED500E,  7184, 0x3ED50025, 109.7585, 100.9841, -0.8868001, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

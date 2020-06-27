@@ -5,13 +5,13 @@ VALUES (0x7CE98001,  1154, 0xCE980008, 13.35149, 183.0203, 6.75831, -0.997812, 0
 /* @teleloc 0xCE980008 [13.351490 183.020300 6.758310] -0.997812 0.000000 0.000000 -0.066114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE98001, 0x7CE98002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CE98001, 0x7CE98003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CE98001, 0x7CE98004, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CE98001, 0x7CE98005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CE98001, 0x7CE98006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CE98001, 0x7CE98007, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CE98001, 0x7CE98008, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7CE98001, 0x7CE98002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CE98001, 0x7CE98003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CE98001, 0x7CE98004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CE98001, 0x7CE98005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CE98001, 0x7CE98006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CE98001, 0x7CE98007, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CE98001, 0x7CE98008, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE98002,   194, 0xCE980008, 13.35149, 183.0203, 6.75831, -0.997812, 0, 0, -0.06611448,  True, '2019-02-10 00:00:00'); /* Copper Golem */

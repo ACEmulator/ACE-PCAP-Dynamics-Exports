@@ -5,11 +5,11 @@ VALUES (0x7AE4A001,  1154, 0xAE4A003A, 171.4399, 25.06952, 11.73334, -0.08591554
 /* @teleloc 0xAE4A003A [171.439900 25.069520 11.733340] -0.085916 0.000000 0.000000 -0.996302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE4A001, 0x7AE4A002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AE4A001, 0x7AE4A003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AE4A001, 0x7AE4A004, '2019-02-10 00:00:00') /* Static */
-     , (0x7AE4A001, 0x7AE4A005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE4A001, 0x7AE4A006, '2019-02-10 00:00:00') /* Two Headed Snowman */;
+VALUES (0x7AE4A001, 0x7AE4A002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AE4A001, 0x7AE4A003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AE4A001, 0x7AE4A004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AE4A001, 0x7AE4A005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE4A001, 0x7AE4A006, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE4A002, 27254, 0xAE4A003A, 171.4399, 25.06952, 11.73334, -0.08591554, 0, 0, -0.9963024,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

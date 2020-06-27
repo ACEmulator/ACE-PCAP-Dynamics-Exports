@@ -5,11 +5,11 @@ VALUES (0x7AE98001,  1154, 0xAE980007, 19.54308, 150.8543, 51.80322, -0.9984383,
 /* @teleloc 0xAE980007 [19.543080 150.854300 51.803220] -0.998438 0.000000 0.000000 -0.055866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE98001, 0x7AE98002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AE98001, 0x7AE98003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE98001, 0x7AE98004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE98001, 0x7AE98005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AE98001, 0x7AE98006, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7AE98001, 0x7AE98002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AE98001, 0x7AE98003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE98001, 0x7AE98004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE98001, 0x7AE98005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AE98001, 0x7AE98006, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE98002, 21160, 0xAE980007, 19.54308, 150.8543, 51.80322, -0.9984383, 0, 0, -0.05586566,  True, '2019-02-10 00:00:00'); /* Scourge */

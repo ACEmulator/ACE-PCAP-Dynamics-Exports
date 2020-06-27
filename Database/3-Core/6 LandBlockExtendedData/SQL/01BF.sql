@@ -25,47 +25,47 @@ VALUES (0x701BF034,  1154, 0x01BF0190, 17.53426, -69.33987, 0.007149994, 0.91023
 /* @teleloc 0x01BF0190 [17.534260 -69.339870 0.007150] 0.910232 0.000000 0.000000 -0.414099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BF034, 0x701BF035, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BF034, 0x701BF036, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF037, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF038, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF039, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF03A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701BF034, 0x701BF03B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x701BF034, 0x701BF03C, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF03D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BF034, 0x701BF03E, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF03F, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF040, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF041, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF042, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x701BF034, 0x701BF043, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF044, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701BF034, 0x701BF045, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF046, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x701BF034, 0x701BF047, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BF034, 0x701BF048, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF049, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF04A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BF034, 0x701BF04B, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF04C, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF04D, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x701BF034, 0x701BF04E, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF04F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF050, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF051, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BF034, 0x701BF052, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BF034, 0x701BF053, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BF034, 0x701BF054, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x701BF034, 0x701BF055, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x701BF034, 0x701BF056, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x701BF034, 0x701BF057, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x701BF034, 0x701BF058, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x701BF034, 0x701BF059, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF05A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BF034, 0x701BF05B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF05C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x701BF034, 0x701BF05D, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x701BF034, 0x701BF035, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BF034, 0x701BF036, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF037, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF038, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF039, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF03A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701BF034, 0x701BF03B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x701BF034, 0x701BF03C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF03D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BF034, 0x701BF03E, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF03F, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF040, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF041, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF042, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x701BF034, 0x701BF043, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF044, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701BF034, 0x701BF045, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF046, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x701BF034, 0x701BF047, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BF034, 0x701BF048, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF049, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF04A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BF034, 0x701BF04B, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF04C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF04D, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x701BF034, 0x701BF04E, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF04F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF050, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF051, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BF034, 0x701BF052, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BF034, 0x701BF053, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BF034, 0x701BF054, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x701BF034, 0x701BF055, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x701BF034, 0x701BF056, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x701BF034, 0x701BF057, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x701BF034, 0x701BF058, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x701BF034, 0x701BF059, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF05A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BF034, 0x701BF05B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF05C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x701BF034, 0x701BF05D, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BF035,   937, 0x01BF0190, 17.53426, -69.33987, 0.007149994, 0.910232, 0, 0, -0.414099,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -236,7 +236,7 @@ VALUES (0x701BF05E,  1542, 0x01BF0105, 37.9514, -61.8359, -30.001, -4.37114E-08,
 /* @teleloc 0x01BF0105 [37.951400 -61.835900 -30.001000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BF05E, 0x701BF05F, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x701BF05E, 0x701BF05F, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BF05F,   265, 0x01BF0105, 37.9514, -61.8359, -30.001, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Meat */

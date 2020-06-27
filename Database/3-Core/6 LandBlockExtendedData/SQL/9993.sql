@@ -5,10 +5,10 @@ VALUES (0x79993001,  1154, 0x99930027, 96.55748, 150.5188, 30.15237, -0.04882984
 /* @teleloc 0x99930027 [96.557480 150.518800 30.152370] -0.048830 0.000000 0.000000 -0.998807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79993001, 0x79993002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79993001, 0x79993003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79993001, 0x79993004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79993001, 0x79993005, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x79993001, 0x79993002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79993001, 0x79993003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79993001, 0x79993004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79993001, 0x79993005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79993002,   217, 0x99930027, 96.55748, 150.5188, 30.15237, -0.04882984, 0, 0, -0.9988071,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

@@ -5,9 +5,9 @@ VALUES (0x7894A001,  1154, 0x894A0016, 48.09983, 126.6709, 10.56673, 0.7660445, 
 /* @teleloc 0x894A0016 [48.099830 126.670900 10.566730] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7894A001, 0x7894A002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7894A001, 0x7894A003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7894A001, 0x7894A004, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x7894A001, 0x7894A002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7894A001, 0x7894A003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7894A001, 0x7894A004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7894A002,  1761, 0x894A0016, 48.09983, 126.6709, 10.56673, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -26,7 +26,7 @@ VALUES (0x7894A005,  1542, 0x894A000E, 47.63829, 125.3632, 10.41679, 1, 0, 0, 0,
 /* @teleloc 0x894A000E [47.638290 125.363200 10.416790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7894A005, 0x7894A006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7894A005, 0x7894A006, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7894A006, 22576, 0x894A000E, 47.63829, 125.3632, 10.41679, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

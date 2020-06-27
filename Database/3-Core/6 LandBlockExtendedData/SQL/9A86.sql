@@ -5,9 +5,9 @@ VALUES (0x79A86001,  1154, 0x9A860011, 64.66971, 2.38396, 47.80849, -0.9678733, 
 /* @teleloc 0x9A860011 [64.669710 2.383960 47.808490] -0.967873 0.000000 0.000000 -0.251439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A86001, 0x79A86002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79A86001, 0x79A86003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79A86001, 0x79A86004, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x79A86001, 0x79A86002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79A86001, 0x79A86003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79A86001, 0x79A86004, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A86002, 22809, 0x9A860011, 64.66971, 2.38396, 47.80849, -0.9678733, 0, 0, -0.2514386,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -26,7 +26,7 @@ VALUES (0x79A86005,  1542, 0x9A86001B, 81.01644, 63.39761, 43.99, -0.5220463, 0,
 /* @teleloc 0x9A86001B [81.016440 63.397610 43.990000] -0.522046 0.000000 0.000000 -0.852917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A86005, 0x79A86006, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x79A86005, 0x79A86006, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A86006,  9286, 0x9A86001B, 81.01644, 63.39761, 43.99, -0.5220463, 0, 0, -0.8529171,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

@@ -5,11 +5,11 @@ VALUES (0x767E5001,  1154, 0x67E5002A, 127.6028, 24.93218, 63.37643, 0.5726995, 
 /* @teleloc 0x67E5002A [127.602800 24.932180 63.376430] 0.572700 0.000000 0.000000 -0.819765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767E5001, 0x767E5002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x767E5001, 0x767E5003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x767E5001, 0x767E5004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x767E5001, 0x767E5005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x767E5001, 0x767E5006, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x767E5001, 0x767E5002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x767E5001, 0x767E5003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x767E5001, 0x767E5004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x767E5001, 0x767E5005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x767E5001, 0x767E5006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767E5002, 14520, 0x67E5002A, 127.6028, 24.93218, 63.37643, 0.5726995, 0, 0, -0.8197654,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

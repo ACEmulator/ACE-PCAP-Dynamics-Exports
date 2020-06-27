@@ -5,12 +5,12 @@ VALUES (0x7F724001,  1154, 0xF7240029, 120.5437, 13.57419, 0.006600022, -0.70710
 /* @teleloc 0xF7240029 [120.543700 13.574190 0.006600] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F724001, 0x7F724002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F724001, 0x7F724003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F724001, 0x7F724004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F724001, 0x7F724005, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F724001, 0x7F724006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F724001, 0x7F724007, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F724001, 0x7F724002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F724001, 0x7F724003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F724001, 0x7F724004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F724001, 0x7F724005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F724001, 0x7F724006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F724001, 0x7F724007, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F724002,  4248, 0xF7240029, 120.5437, 13.57419, 0.006600022, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

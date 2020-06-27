@@ -5,15 +5,15 @@ VALUES (0x71B6C001,  1154, 0x1B6C0036, 148.382, 126.7486, 36.0105, 0.8157207, 0,
 /* @teleloc 0x1B6C0036 [148.382000 126.748600 36.010500] 0.815721 0.000000 0.000000 -0.578446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B6C001, 0x71B6C002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71B6C001, 0x71B6C003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71B6C001, 0x71B6C004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71B6C001, 0x71B6C005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B6C001, 0x71B6C006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71B6C001, 0x71B6C007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71B6C001, 0x71B6C008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71B6C001, 0x71B6C009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71B6C001, 0x71B6C00A, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x71B6C001, 0x71B6C002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71B6C001, 0x71B6C003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71B6C001, 0x71B6C004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71B6C001, 0x71B6C005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B6C001, 0x71B6C006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71B6C001, 0x71B6C007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71B6C001, 0x71B6C008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71B6C001, 0x71B6C009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71B6C001, 0x71B6C00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B6C002,  7081, 0x1B6C0036, 148.382, 126.7486, 36.0105, 0.8157207, 0, 0, -0.578446,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

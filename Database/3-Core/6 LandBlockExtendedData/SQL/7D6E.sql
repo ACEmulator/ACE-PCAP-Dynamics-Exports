@@ -5,15 +5,15 @@ VALUES (0x77D6E001,  1154, 0x7D6E001C, 80.20665, 73.1206, 11.37327, 0.7071068, 0
 /* @teleloc 0x7D6E001C [80.206650 73.120600 11.373270] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6E001, 0x77D6E002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77D6E001, 0x77D6E003, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77D6E001, 0x77D6E004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77D6E001, 0x77D6E005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x77D6E001, 0x77D6E006, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77D6E001, 0x77D6E007, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77D6E001, 0x77D6E008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77D6E001, 0x77D6E009, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x77D6E001, 0x77D6E00A, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x77D6E001, 0x77D6E002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77D6E001, 0x77D6E003, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77D6E001, 0x77D6E004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77D6E001, 0x77D6E005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x77D6E001, 0x77D6E006, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77D6E001, 0x77D6E007, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77D6E001, 0x77D6E008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77D6E001, 0x77D6E009, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x77D6E001, 0x77D6E00A, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6E002,  2439, 0x7D6E001C, 80.20665, 73.1206, 11.37327, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

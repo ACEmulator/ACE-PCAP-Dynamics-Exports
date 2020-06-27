@@ -5,14 +5,14 @@ VALUES (0x7A594001,  1154, 0xA594003B, 180.7907, 67.62611, 30.7124, 0.1736482, 0
 /* @teleloc 0xA594003B [180.790700 67.626110 30.712400] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A594001, 0x7A594002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A594001, 0x7A594003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A594001, 0x7A594004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A594001, 0x7A594005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A594001, 0x7A594006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A594001, 0x7A594007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A594001, 0x7A594008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A594001, 0x7A594009, '2019-02-10 00:00:00') /* Lithos Lugian */;
+VALUES (0x7A594001, 0x7A594002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A594001, 0x7A594003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A594001, 0x7A594004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A594001, 0x7A594005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A594001, 0x7A594006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A594001, 0x7A594007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A594001, 0x7A594008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A594001, 0x7A594009, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A594002,   195, 0xA594003B, 180.7907, 67.62611, 30.7124, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */

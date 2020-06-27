@@ -5,17 +5,17 @@ VALUES (0x7AC86001,  1154, 0xAC860017, 58.94142, 146.3561, 32.72544, -0.163716, 
 /* @teleloc 0xAC860017 [58.941420 146.356100 32.725440] -0.163716 0.000000 0.000000 -0.986508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC86001, 0x7AC86002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC86003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC86001, 0x7AC86004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC86005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC86006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC86007, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AC86001, 0x7AC86008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC86009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC8600A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC8600B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC86001, 0x7AC8600C, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AC86001, 0x7AC86002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC86003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC86001, 0x7AC86004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC86005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC86006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC86007, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AC86001, 0x7AC86008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC86009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC8600A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC8600B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC86001, 0x7AC8600C, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC86002,   194, 0xAC860017, 58.94142, 146.3561, 32.72544, -0.163716, 0, 0, -0.9865075,  True, '2019-02-10 00:00:00'); /* Copper Golem */

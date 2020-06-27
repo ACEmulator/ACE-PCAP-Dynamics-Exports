@@ -5,13 +5,13 @@ VALUES (0x7C98F001,  1154, 0xC98F0022, 105.87, 38.21086, 4.011, 0.9238795, 0, 0,
 /* @teleloc 0xC98F0022 [105.870000 38.210860 4.011000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98F001, 0x7C98F002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C98F001, 0x7C98F003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C98F001, 0x7C98F004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C98F001, 0x7C98F005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C98F001, 0x7C98F006, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C98F001, 0x7C98F007, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C98F001, 0x7C98F008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7C98F001, 0x7C98F002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C98F001, 0x7C98F003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C98F001, 0x7C98F004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C98F001, 0x7C98F005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C98F001, 0x7C98F006, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C98F001, 0x7C98F007, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C98F001, 0x7C98F008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98F002,   200, 0xC98F0022, 105.87, 38.21086, 4.011, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Mud Golem */

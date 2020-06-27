@@ -5,15 +5,15 @@ VALUES (0x7C06D001,  1154, 0xC06D0007, 20.21758, 144.4816, 52.012, -0.9896574, 0
 /* @teleloc 0xC06D0007 [20.217580 144.481600 52.012000] -0.989657 0.000000 0.000000 -0.143451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06D001, 0x7C06D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C06D001, 0x7C06D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C06D001, 0x7C06D004, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7C06D001, 0x7C06D005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C06D001, 0x7C06D006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C06D001, 0x7C06D007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C06D001, 0x7C06D008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C06D001, 0x7C06D009, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C06D001, 0x7C06D00A, '2019-02-10 00:00:00') /* Ghost Wisp */;
+VALUES (0x7C06D001, 0x7C06D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C06D001, 0x7C06D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C06D001, 0x7C06D004, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7C06D001, 0x7C06D005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C06D001, 0x7C06D006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C06D001, 0x7C06D007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C06D001, 0x7C06D008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C06D001, 0x7C06D009, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C06D001, 0x7C06D00A, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06D002,   215, 0xC06D0007, 20.21758, 144.4816, 52.012, -0.9896574, 0, 0, -0.1434511,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -56,7 +56,7 @@ VALUES (0x7C06D00B,  1542, 0xC06D0013, 68.6982, 68.86942, 57.72485, -0.8049716, 
 /* @teleloc 0xC06D0013 [68.698200 68.869420 57.724850] -0.804972 0.000000 0.000000 -0.593313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06D00B, 0x7C06D00C, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7C06D00B, 0x7C06D00C, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C06D00C,  8041, 0xC06D0013, 68.6982, 68.86942, 57.72485, -0.8049716, 0, 0, -0.5933133,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

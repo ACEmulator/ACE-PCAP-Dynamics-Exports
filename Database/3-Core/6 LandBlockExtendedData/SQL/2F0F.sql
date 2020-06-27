@@ -5,23 +5,23 @@ VALUES (0x72F0F001,  1154, 0x2F0F0020, 95.45239, 168.5472, 56.32419, -0.1839165,
 /* @teleloc 0x2F0F0020 [95.452390 168.547200 56.324190] -0.183917 0.000000 0.000000 -0.982942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F0F001, 0x72F0F002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0F001, 0x72F0F003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F0F001, 0x72F0F004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0F001, 0x72F0F005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72F0F001, 0x72F0F006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72F0F001, 0x72F0F007, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72F0F001, 0x72F0F008, '2019-02-10 00:00:00') /* Flare */
-     , (0x72F0F001, 0x72F0F009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F0F001, 0x72F0F00A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F0F001, 0x72F0F00B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72F0F001, 0x72F0F00C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F0F001, 0x72F0F00D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F0F001, 0x72F0F00E, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72F0F001, 0x72F0F00F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72F0F001, 0x72F0F010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0F001, 0x72F0F011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72F0F001, 0x72F0F012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x72F0F001, 0x72F0F002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0F001, 0x72F0F003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F0F001, 0x72F0F004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0F001, 0x72F0F005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72F0F001, 0x72F0F006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72F0F001, 0x72F0F007, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72F0F001, 0x72F0F008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72F0F001, 0x72F0F009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F0F001, 0x72F0F00A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F0F001, 0x72F0F00B, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72F0F001, 0x72F0F00C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F0F001, 0x72F0F00D, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F0F001, 0x72F0F00E, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72F0F001, 0x72F0F00F, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72F0F001, 0x72F0F010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0F001, 0x72F0F011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72F0F001, 0x72F0F012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F0F002, 23564, 0x2F0F0020, 95.45239, 168.5472, 56.32419, -0.1839165, 0, 0, -0.9829419,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -96,7 +96,7 @@ VALUES (0x72F0F013,  1542, 0x2F0F0027, 107.0662, 147.8914, 56, 1, 0, 0, 0, False
 /* @teleloc 0x2F0F0027 [107.066200 147.891400 56.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F0F013, 0x72F0F014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F0F013, 0x72F0F014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F0F014, 22566, 0x2F0F0027, 107.0662, 147.8914, 56, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

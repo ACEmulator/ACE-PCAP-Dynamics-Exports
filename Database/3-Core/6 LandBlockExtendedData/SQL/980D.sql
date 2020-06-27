@@ -5,21 +5,21 @@ VALUES (0x7980D001,  1154, 0x980D0014, 60.95522, 83.77328, 0.0004999638, -0.7581
 /* @teleloc 0x980D0014 [60.955220 83.773280 0.000500] -0.758177 0.000000 0.000000 -0.652049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7980D001, 0x7980D002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7980D001, 0x7980D003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7980D001, 0x7980D004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7980D001, 0x7980D005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7980D001, 0x7980D006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7980D001, 0x7980D007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7980D001, 0x7980D008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7980D001, 0x7980D009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7980D001, 0x7980D00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7980D001, 0x7980D00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7980D001, 0x7980D00C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7980D001, 0x7980D00D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7980D001, 0x7980D00E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7980D001, 0x7980D00F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7980D001, 0x7980D010, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7980D001, 0x7980D002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7980D001, 0x7980D003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7980D001, 0x7980D004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7980D001, 0x7980D005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7980D001, 0x7980D006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7980D001, 0x7980D007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7980D001, 0x7980D008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7980D001, 0x7980D009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7980D001, 0x7980D00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7980D001, 0x7980D00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7980D001, 0x7980D00C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7980D001, 0x7980D00D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7980D001, 0x7980D00E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7980D001, 0x7980D00F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7980D001, 0x7980D010, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7980D002,  7987, 0x980D0014, 60.95522, 83.77328, 0.0004999638, -0.7581768, 0, 0, -0.6520491,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

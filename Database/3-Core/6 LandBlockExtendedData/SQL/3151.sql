@@ -5,23 +5,23 @@ VALUES (0x73151001,  1154, 0x31510031, 158.2701, 18.64834, 7.115207, -0.2360466,
 /* @teleloc 0x31510031 [158.270100 18.648340 7.115207] -0.236047 0.000000 0.000000 -0.971742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73151001, 0x73151002, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x73151001, 0x73151003, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x73151001, 0x73151004, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x73151001, 0x73151005, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x73151001, 0x73151006, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x73151001, 0x73151007, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x73151001, 0x73151008, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73151001, 0x73151009, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73151001, 0x7315100A, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x73151001, 0x7315100B, '2019-02-10 00:00:00') /* Wretched */
-     , (0x73151001, 0x7315100C, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x73151001, 0x7315100D, '2019-02-10 00:00:00') /* Wretched */
-     , (0x73151001, 0x7315100E, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x73151001, 0x7315100F, '2019-02-10 00:00:00') /* Wretched */
-     , (0x73151001, 0x73151010, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x73151001, 0x73151011, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73151001, 0x73151012, '2019-02-10 00:00:00') /* Raider Prefect */;
+VALUES (0x73151001, 0x73151002, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x73151001, 0x73151003, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x73151001, 0x73151004, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x73151001, 0x73151005, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x73151001, 0x73151006, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x73151001, 0x73151007, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x73151001, 0x73151008, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73151001, 0x73151009, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73151001, 0x7315100A, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x73151001, 0x7315100B, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x73151001, 0x7315100C, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x73151001, 0x7315100D, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x73151001, 0x7315100E, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x73151001, 0x7315100F, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x73151001, 0x73151010, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x73151001, 0x73151011, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73151001, 0x73151012, '2019-02-10 00:00:00') /* Raider Prefect (23088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73151002, 22897, 0x31510031, 158.2701, 18.64834, 7.115207, -0.2360466, 0, 0, -0.9717417,  True, '2019-02-10 00:00:00'); /* Banderling Hierophant */
@@ -96,8 +96,8 @@ VALUES (0x73151013,  1542, 0x3151003A, 178.0984, 33.415, 11.25224, 0.9796235, 0,
 /* @teleloc 0x3151003A [178.098400 33.415000 11.252240] 0.979624 0.000000 0.000000 -0.200843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73151013, 0x73151014, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x73151013, 0x73151015, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x73151013, 0x73151014, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x73151013, 0x73151015, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73151014, 23086, 0x3151003A, 178.0984, 33.415, 11.25224, 0.9796235, 0, 0, -0.2008427,  True, '2019-02-10 00:00:00'); /* Reinforced Oaken Chest */

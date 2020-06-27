@@ -5,9 +5,9 @@ VALUES (0x7BE26001,  1154, 0xBE260037, 155.9456, 166.2313, 275.4204, -0.7660444,
 /* @teleloc 0xBE260037 [155.945600 166.231300 275.420400] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE26001, 0x7BE26002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BE26001, 0x7BE26003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BE26001, 0x7BE26004, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7BE26001, 0x7BE26002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BE26001, 0x7BE26003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BE26001, 0x7BE26004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE26002, 24494, 0xBE260037, 155.9456, 166.2313, 275.4204, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -26,8 +26,8 @@ VALUES (0x7BE26005,  1542, 0xBE260037, 155.1039, 161.5748, 273.8582, 1, 0, 0, 0,
 /* @teleloc 0xBE260037 [155.103900 161.574800 273.858200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE26005, 0x7BE26006, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BE26005, 0x7BE26007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BE26005, 0x7BE26006, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BE26005, 0x7BE26007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE26006, 22571, 0xBE260037, 155.1039, 161.5748, 273.8582, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

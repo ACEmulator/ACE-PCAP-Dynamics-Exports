@@ -5,11 +5,11 @@ VALUES (0x711BC001,  1154, 0x11BC0009, 41.86404, 11.70693, 25.95292, 0.313458, 0
 /* @teleloc 0x11BC0009 [41.864040 11.706930 25.952920] 0.313458 0.000000 0.000000 -0.949602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BC001, 0x711BC002, '2019-02-10 00:00:00') /* Eater */
-     , (0x711BC001, 0x711BC003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x711BC001, 0x711BC004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x711BC001, 0x711BC005, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x711BC001, 0x711BC006, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x711BC001, 0x711BC002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x711BC001, 0x711BC003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x711BC001, 0x711BC004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x711BC001, 0x711BC005, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x711BC001, 0x711BC006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BC002, 28640, 0x11BC0009, 41.86404, 11.70693, 25.95292, 0.313458, 0, 0, -0.9496021,  True, '2019-02-10 00:00:00'); /* Eater */

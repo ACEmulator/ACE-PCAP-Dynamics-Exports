@@ -5,10 +5,10 @@ VALUES (0x73683001,  1154, 0x36830040, 175.8223, 181.5173, 35.57985, -0.1699271,
 /* @teleloc 0x36830040 [175.822300 181.517300 35.579850] -0.169927 0.000000 0.000000 -0.985457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73683001, 0x73683002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73683001, 0x73683003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73683001, 0x73683004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73683001, 0x73683005, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x73683001, 0x73683002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73683001, 0x73683003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73683001, 0x73683004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73683001, 0x73683005, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73683002, 36830, 0x36830040, 175.8223, 181.5173, 35.57985, -0.1699271, 0, 0, -0.9854566,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

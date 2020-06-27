@@ -5,15 +5,15 @@ VALUES (0x7E94A001,  1154, 0xE94A0038, 146.2543, 190.0756, 9.985001, -0.9378029,
 /* @teleloc 0xE94A0038 [146.254300 190.075600 9.985001] -0.937803 0.000000 0.000000 -0.347168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E94A001, 0x7E94A002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E94A001, 0x7E94A003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E94A001, 0x7E94A004, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E94A001, 0x7E94A005, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E94A001, 0x7E94A006, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E94A001, 0x7E94A007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E94A001, 0x7E94A008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E94A001, 0x7E94A009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E94A001, 0x7E94A00A, '2019-02-10 00:00:00') /* White Mattekar */;
+VALUES (0x7E94A001, 0x7E94A002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E94A001, 0x7E94A003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E94A001, 0x7E94A004, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E94A001, 0x7E94A005, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E94A001, 0x7E94A006, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E94A001, 0x7E94A007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E94A001, 0x7E94A008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E94A001, 0x7E94A009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E94A001, 0x7E94A00A, '2019-02-10 00:00:00') /* White Mattekar (2580) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E94A002,  4110, 0xE94A0038, 146.2543, 190.0756, 9.985001, -0.9378029, 0, 0, -0.3471682,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -56,7 +56,7 @@ VALUES (0x7E94A00B,  1542, 0xE94A002F, 130.5882, 162.1121, 11.11765, 0.9698172, 
 /* @teleloc 0xE94A002F [130.588200 162.112100 11.117650] 0.969817 0.000000 0.000000 -0.243833 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E94A00B, 0x7E94A00C, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E94A00B, 0x7E94A00C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E94A00C,  8037, 0xE94A002F, 130.5882, 162.1121, 11.11765, 0.9698172, 0, 0, -0.2438332,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

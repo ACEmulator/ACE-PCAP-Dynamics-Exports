@@ -5,21 +5,21 @@ VALUES (0x7B74F001,  1154, 0xB74F000D, 39.1812, 112.685, 38.59459, 0.6022599, 0,
 /* @teleloc 0xB74F000D [39.181200 112.685000 38.594590] 0.602260 0.000000 0.000000 -0.798300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B74F001, 0x7B74F002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B74F001, 0x7B74F003, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B74F001, 0x7B74F004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B74F001, 0x7B74F005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B74F001, 0x7B74F006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B74F001, 0x7B74F007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B74F001, 0x7B74F008, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B74F001, 0x7B74F009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B74F001, 0x7B74F00A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B74F001, 0x7B74F00B, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B74F001, 0x7B74F00C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B74F001, 0x7B74F00D, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B74F001, 0x7B74F00E, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B74F001, 0x7B74F00F, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B74F001, 0x7B74F010, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7B74F001, 0x7B74F002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B74F001, 0x7B74F003, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B74F001, 0x7B74F004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B74F001, 0x7B74F005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B74F001, 0x7B74F006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B74F001, 0x7B74F007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B74F001, 0x7B74F008, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B74F001, 0x7B74F009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B74F001, 0x7B74F00A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B74F001, 0x7B74F00B, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B74F001, 0x7B74F00C, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B74F001, 0x7B74F00D, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B74F001, 0x7B74F00E, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B74F001, 0x7B74F00F, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B74F001, 0x7B74F010, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B74F002,  8014, 0xB74F000D, 39.1812, 112.685, 38.59459, 0.6022599, 0, 0, -0.7983001,  True, '2019-02-10 00:00:00'); /* Fragment */

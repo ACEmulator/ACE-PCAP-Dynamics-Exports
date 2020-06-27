@@ -5,12 +5,12 @@ VALUES (0x7816B001,  1154, 0x816B001C, 84.46796, 77.39622, 16.82637, 0.7071068, 
 /* @teleloc 0x816B001C [84.467960 77.396220 16.826370] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7816B001, 0x7816B002, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7816B001, 0x7816B003, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7816B001, 0x7816B004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7816B001, 0x7816B005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7816B001, 0x7816B006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7816B001, 0x7816B007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7816B001, 0x7816B002, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7816B001, 0x7816B003, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7816B001, 0x7816B004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7816B001, 0x7816B005, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7816B001, 0x7816B006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7816B001, 0x7816B007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7816B002,   234, 0x816B001C, 84.46796, 77.39622, 16.82637, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Worker */
@@ -41,7 +41,7 @@ VALUES (0x7816B008,  1542, 0x816B001C, 77.52179, 77.42163, 17.98331, 0.9990482, 
 /* @teleloc 0x816B001C [77.521790 77.421630 17.983310] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7816B008, 0x7816B009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7816B008, 0x7816B009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7816B009,  4179, 0x816B001C, 77.52179, 77.42163, 17.98331, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

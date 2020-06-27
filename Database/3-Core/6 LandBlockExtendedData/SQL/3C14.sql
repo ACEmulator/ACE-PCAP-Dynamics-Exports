@@ -5,24 +5,24 @@ VALUES (0x73C14001,  1154, 0x3C14003B, 170.3913, 54.28654, -0.09350002, 0.741081
 /* @teleloc 0x3C14003B [170.391300 54.286540 -0.093500] 0.741082 0.000000 0.000000 -0.671415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C14001, 0x73C14002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73C14001, 0x73C14003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C14001, 0x73C14004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C14001, 0x73C14005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C14001, 0x73C14006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C14001, 0x73C14007, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x73C14001, 0x73C14008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C14001, 0x73C14009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C14001, 0x73C1400A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C14001, 0x73C1400B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73C14001, 0x73C1400C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73C14001, 0x73C1400D, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73C14001, 0x73C1400E, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73C14001, 0x73C1400F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73C14001, 0x73C14010, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73C14001, 0x73C14011, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73C14001, 0x73C14012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73C14001, 0x73C14013, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73C14001, 0x73C14002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73C14001, 0x73C14003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C14001, 0x73C14004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C14001, 0x73C14005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C14001, 0x73C14006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C14001, 0x73C14007, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x73C14001, 0x73C14008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C14001, 0x73C14009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C14001, 0x73C1400A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C14001, 0x73C1400B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73C14001, 0x73C1400C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73C14001, 0x73C1400D, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73C14001, 0x73C1400E, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73C14001, 0x73C1400F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73C14001, 0x73C14010, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73C14001, 0x73C14011, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73C14001, 0x73C14012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73C14001, 0x73C14013, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C14002, 23617, 0x3C14003B, 170.3913, 54.28654, -0.09350002, 0.7410818, 0, 0, -0.6714148,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

@@ -5,9 +5,9 @@ VALUES (0x775B6001,  1154, 0x75B6000B, 31.05587, 61.90884, 119.3787, -0.1932843,
 /* @teleloc 0x75B6000B [31.055870 61.908840 119.378700] -0.193284 0.000000 0.000000 -0.981143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B6001, 0x775B6002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x775B6001, 0x775B6003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x775B6001, 0x775B6004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x775B6001, 0x775B6002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x775B6001, 0x775B6003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x775B6001, 0x775B6004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B6002,  7129, 0x75B6000B, 31.05587, 61.90884, 119.3787, -0.1932843, 0, 0, -0.9811428,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -26,8 +26,8 @@ VALUES (0x775B6005,  1542, 0x75B60005, 17.04846, 114.0847, 110.9859, 0.4642117, 
 /* @teleloc 0x75B60005 [17.048460 114.084700 110.985900] 0.464212 0.000000 0.000000 -0.885724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B6005, 0x775B6006, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x775B6005, 0x775B6007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x775B6005, 0x775B6006, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x775B6005, 0x775B6007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B6006, 11554, 0x75B60005, 17.04846, 114.0847, 110.9859, 0.4642117, 0, 0, -0.8857242,  True, '2019-02-10 00:00:00'); /* Colban Plant */

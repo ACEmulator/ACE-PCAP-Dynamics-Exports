@@ -9,33 +9,33 @@ VALUES (0x7CD3B001,  1154, 0xCD3B001E, 81.27711, 135.0965, 214.2812, -0.1220988,
 /* @teleloc 0xCD3B001E [81.277110 135.096500 214.281200] -0.122099 0.000000 0.000000 -0.992518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3B001, 0x7CD3B002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CD3B001, 0x7CD3B003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CD3B001, 0x7CD3B004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CD3B001, 0x7CD3B005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CD3B001, 0x7CD3B006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CD3B001, 0x7CD3B007, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CD3B001, 0x7CD3B008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CD3B001, 0x7CD3B009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CD3B001, 0x7CD3B00A, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CD3B001, 0x7CD3B00B, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CD3B001, 0x7CD3B00C, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CD3B001, 0x7CD3B00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3B001, 0x7CD3B00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3B001, 0x7CD3B00F, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7CD3B001, 0x7CD3B010, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7CD3B001, 0x7CD3B011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CD3B001, 0x7CD3B012, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CD3B001, 0x7CD3B013, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CD3B001, 0x7CD3B014, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CD3B001, 0x7CD3B015, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CD3B001, 0x7CD3B016, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD3B001, 0x7CD3B017, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CD3B001, 0x7CD3B018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CD3B001, 0x7CD3B019, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CD3B001, 0x7CD3B01A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD3B001, 0x7CD3B01B, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7CD3B001, 0x7CD3B01C, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CD3B001, 0x7CD3B002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CD3B001, 0x7CD3B003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CD3B001, 0x7CD3B004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CD3B001, 0x7CD3B005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CD3B001, 0x7CD3B006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CD3B001, 0x7CD3B007, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CD3B001, 0x7CD3B008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CD3B001, 0x7CD3B009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CD3B001, 0x7CD3B00A, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CD3B001, 0x7CD3B00B, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CD3B001, 0x7CD3B00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CD3B001, 0x7CD3B00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3B001, 0x7CD3B00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3B001, 0x7CD3B00F, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CD3B001, 0x7CD3B010, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CD3B001, 0x7CD3B011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CD3B001, 0x7CD3B012, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CD3B001, 0x7CD3B013, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CD3B001, 0x7CD3B014, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CD3B001, 0x7CD3B015, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CD3B001, 0x7CD3B016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD3B001, 0x7CD3B017, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CD3B001, 0x7CD3B018, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CD3B001, 0x7CD3B019, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CD3B001, 0x7CD3B01A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD3B001, 0x7CD3B01B, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7CD3B001, 0x7CD3B01C, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3B002,   235, 0xCD3B001E, 81.27711, 135.0965, 214.2812, -0.1220988, 0, 0, -0.9925179,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -150,7 +150,7 @@ VALUES (0x7CD3B01D,  1542, 0xCD3B002F, 143.338, 148.4811, 184.3077, 1, 0, 0, 0, 
 /* @teleloc 0xCD3B002F [143.338000 148.481100 184.307700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD3B01D, 0x7CD3B01E, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7CD3B01D, 0x7CD3B01E, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD3B01E,  5779, 0xCD3B002F, 143.338, 148.4811, 184.3077, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Strange Stick */

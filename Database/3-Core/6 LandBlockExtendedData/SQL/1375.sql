@@ -5,13 +5,13 @@ VALUES (0x71375001,  1154, 0x1375003F, 191.6218, 159.2243, 56.34996, 0.9238795, 
 /* @teleloc 0x1375003F [191.621800 159.224300 56.349960] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71375001, 0x71375002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x71375001, 0x71375003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71375001, 0x71375004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71375001, 0x71375005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71375001, 0x71375006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71375001, 0x71375007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71375001, 0x71375008, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71375001, 0x71375002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x71375001, 0x71375003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71375001, 0x71375004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71375001, 0x71375005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71375001, 0x71375006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71375001, 0x71375007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71375001, 0x71375008, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71375002, 10807, 0x1375003F, 191.6218, 159.2243, 56.34996, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

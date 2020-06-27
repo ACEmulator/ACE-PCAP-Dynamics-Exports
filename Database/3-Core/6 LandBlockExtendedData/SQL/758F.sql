@@ -5,15 +5,15 @@ VALUES (0x7758F001,  1154, 0x758F0018, 49.02062, 187.6835, 97.41034, 0.7999535, 
 /* @teleloc 0x758F0018 [49.020620 187.683500 97.410340] 0.799954 0.000000 0.000000 -0.600062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7758F001, 0x7758F002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7758F001, 0x7758F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7758F001, 0x7758F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7758F001, 0x7758F005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7758F001, 0x7758F006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7758F001, 0x7758F007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7758F001, 0x7758F008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7758F001, 0x7758F009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7758F001, 0x7758F00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7758F001, 0x7758F002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7758F001, 0x7758F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7758F001, 0x7758F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7758F001, 0x7758F005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7758F001, 0x7758F006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7758F001, 0x7758F007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7758F001, 0x7758F008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7758F001, 0x7758F009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7758F001, 0x7758F00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7758F002,  9251, 0x758F0018, 49.02062, 187.6835, 97.41034, 0.7999535, 0, 0, -0.600062,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7758F00B,  1542, 0x758F0025, 104.4414, 116.9716, 109.1862, 1, 0, 0, 0,
 /* @teleloc 0x758F0025 [104.441400 116.971600 109.186200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7758F00B, 0x7758F00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7758F00B, 0x7758F00C, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7758F00C, 22576, 0x758F0025, 104.4414, 116.9716, 109.1862, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

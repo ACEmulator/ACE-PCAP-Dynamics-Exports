@@ -5,19 +5,19 @@ VALUES (0x73E3E001,  1154, 0x3E3E0027, 118.0411, 163.2521, 76.09335, 0.8660254, 
 /* @teleloc 0x3E3E0027 [118.041100 163.252100 76.093350] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E3E001, 0x73E3E002, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73E3E001, 0x73E3E003, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73E3E001, 0x73E3E004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73E3E001, 0x73E3E005, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73E3E001, 0x73E3E006, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73E3E001, 0x73E3E007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73E3E001, 0x73E3E008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73E3E001, 0x73E3E009, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73E3E001, 0x73E3E00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73E3E001, 0x73E3E00B, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73E3E001, 0x73E3E00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E3E001, 0x73E3E00D, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E3E001, 0x73E3E00E, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73E3E001, 0x73E3E002, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73E3E001, 0x73E3E003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73E3E001, 0x73E3E004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73E3E001, 0x73E3E005, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73E3E001, 0x73E3E006, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73E3E001, 0x73E3E007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73E3E001, 0x73E3E008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73E3E001, 0x73E3E009, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73E3E001, 0x73E3E00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73E3E001, 0x73E3E00B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73E3E001, 0x73E3E00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E3E001, 0x73E3E00D, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E3E001, 0x73E3E00E, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3E002, 26019, 0x3E3E0027, 118.0411, 163.2521, 76.09335, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Seer */
@@ -76,8 +76,8 @@ VALUES (0x73E3E00F,  1542, 0x3E3E0027, 104.2959, 149.2678, 74.731, 0.9914449, 0,
 /* @teleloc 0x3E3E0027 [104.295900 149.267800 74.731000] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E3E00F, 0x73E3E010, '2019-02-10 00:00:00') /* Bones */
-     , (0x73E3E00F, 0x73E3E011, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x73E3E00F, 0x73E3E010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73E3E00F, 0x73E3E011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3E010,  4380, 0x3E3E0027, 104.2959, 149.2678, 74.731, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

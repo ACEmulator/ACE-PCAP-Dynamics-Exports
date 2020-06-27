@@ -5,13 +5,13 @@ VALUES (0x7B493001,  1154, 0xB4930010, 40.19001, 183.5322, 46.01731, 0.6970698, 
 /* @teleloc 0xB4930010 [40.190010 183.532200 46.017310] 0.697070 0.000000 0.000000 -0.717003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B493001, 0x7B493002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B493001, 0x7B493003, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7B493001, 0x7B493004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B493001, 0x7B493005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B493001, 0x7B493006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B493001, 0x7B493007, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B493001, 0x7B493008, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7B493001, 0x7B493002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B493001, 0x7B493003, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7B493001, 0x7B493004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B493001, 0x7B493005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B493001, 0x7B493006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B493001, 0x7B493007, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B493001, 0x7B493008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B493002, 11528, 0xB4930010, 40.19001, 183.5322, 46.01731, 0.6970698, 0, 0, -0.7170033,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -46,8 +46,8 @@ VALUES (0x7B493009,  1542, 0xB4930010, 37.09713, 191.9831, 43.09706, -0.9341991,
 /* @teleloc 0xB4930010 [37.097130 191.983100 43.097060] -0.934199 0.000000 0.000000 -0.356752 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B493009, 0x7B49300A, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B493009, 0x7B49300B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B493009, 0x7B49300A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B493009, 0x7B49300B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B49300A,  8037, 0xB4930010, 37.09713, 191.9831, 43.09706, -0.9341991, 0, 0, -0.3567521,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

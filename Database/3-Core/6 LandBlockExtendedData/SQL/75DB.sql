@@ -5,12 +5,12 @@ VALUES (0x775DB001,  1154, 0x75DB0022, 115.1923, 28.23738, 235.6574, 1, 0, 0, 0,
 /* @teleloc 0x75DB0022 [115.192300 28.237380 235.657400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775DB001, 0x775DB002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x775DB001, 0x775DB003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x775DB001, 0x775DB004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x775DB001, 0x775DB005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x775DB001, 0x775DB006, '2019-02-10 00:00:00') /* Gelid */
-     , (0x775DB001, 0x775DB007, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x775DB001, 0x775DB002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x775DB001, 0x775DB003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x775DB001, 0x775DB004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x775DB001, 0x775DB005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x775DB001, 0x775DB006, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x775DB001, 0x775DB007, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775DB002,  7081, 0x75DB0022, 115.1923, 28.23738, 235.6574, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -41,7 +41,7 @@ VALUES (0x775DB008,  1542, 0x75DB003D, 185.0117, 109.6852, 206.3537, 1, 0, 0, 0,
 /* @teleloc 0x75DB003D [185.011700 109.685200 206.353700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775DB008, 0x775DB009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x775DB008, 0x775DB009, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775DB009, 22567, 0x75DB003D, 185.0117, 109.6852, 206.3537, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

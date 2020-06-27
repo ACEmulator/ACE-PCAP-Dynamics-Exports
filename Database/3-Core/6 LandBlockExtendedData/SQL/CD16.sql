@@ -5,11 +5,11 @@ VALUES (0x7CD16001,  1154, 0xCD160038, 163.5654, 183.9988, -0.09949994, -0.64278
 /* @teleloc 0xCD160038 [163.565400 183.998800 -0.099500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD16001, 0x7CD16002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7CD16001, 0x7CD16003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7CD16001, 0x7CD16004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7CD16001, 0x7CD16005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7CD16001, 0x7CD16006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7CD16001, 0x7CD16002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7CD16001, 0x7CD16003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7CD16001, 0x7CD16004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7CD16001, 0x7CD16005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7CD16001, 0x7CD16006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD16002,  7987, 0xCD160038, 163.5654, 183.9988, -0.09949994, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

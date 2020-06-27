@@ -5,12 +5,12 @@ VALUES (0x74CBB001,  1154, 0x4CBB003C, 168.2971, 81.33402, 35.97979, 0.6505643, 
 /* @teleloc 0x4CBB003C [168.297100 81.334020 35.979790] 0.650564 0.000000 0.000000 -0.759451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CBB001, 0x74CBB002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74CBB001, 0x74CBB003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74CBB001, 0x74CBB004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74CBB001, 0x74CBB005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74CBB001, 0x74CBB006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74CBB001, 0x74CBB007, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x74CBB001, 0x74CBB002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74CBB001, 0x74CBB003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74CBB001, 0x74CBB004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74CBB001, 0x74CBB005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74CBB001, 0x74CBB006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74CBB001, 0x74CBB007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CBB002,  1610, 0x4CBB003C, 168.2971, 81.33402, 35.97979, 0.6505643, 0, 0, -0.7594512,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

@@ -5,17 +5,17 @@ VALUES (0x73047001,  1154, 0x3047003F, 169.8266, 163.9703, 4.488029, -0.07332419
 /* @teleloc 0x3047003F [169.826600 163.970300 4.488029] -0.073324 0.000000 0.000000 -0.997308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73047001, 0x73047002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x73047001, 0x73047003, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x73047001, 0x73047004, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x73047001, 0x73047005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73047001, 0x73047006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73047001, 0x73047007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73047001, 0x73047008, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73047001, 0x73047009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73047001, 0x7304700A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73047001, 0x7304700B, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73047001, 0x7304700C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */;
+VALUES (0x73047001, 0x73047002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x73047001, 0x73047003, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x73047001, 0x73047004, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x73047001, 0x73047005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73047001, 0x73047006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73047001, 0x73047007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73047001, 0x73047008, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73047001, 0x73047009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73047001, 0x7304700A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73047001, 0x7304700B, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73047001, 0x7304700C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73047002, 23484, 0x3047003F, 169.8266, 163.9703, 4.488029, -0.07332419, 0, 0, -0.9973081,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus Lord */
@@ -66,7 +66,7 @@ VALUES (0x7304700D,  1542, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0, F
 /* @teleloc 0x30470040 [185.323300 182.633000 4.224190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304700D, 0x7304700E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7304700D, 0x7304700E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304700E, 22571, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

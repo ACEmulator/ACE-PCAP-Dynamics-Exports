@@ -5,10 +5,10 @@ VALUES (0x79268001,  1154, 0x92680029, 126.5066, 10.575, 10.0075, 1, 0, 0, 0, Fa
 /* @teleloc 0x92680029 [126.506600 10.575000 10.007500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79268001, 0x79268002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79268001, 0x79268003, '2019-02-10 00:00:00') /* Undead */
-     , (0x79268001, 0x79268004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x79268001, 0x79268005, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x79268001, 0x79268002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79268001, 0x79268003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79268001, 0x79268004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x79268001, 0x79268005, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79268002,   950, 0x92680029, 126.5066, 10.575, 10.0075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zombie */

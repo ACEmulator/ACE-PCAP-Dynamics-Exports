@@ -5,15 +5,15 @@ VALUES (0x724E2001,  1154, 0x24E20028, 109.1805, 170.7054, 59.99549, -0.3433017,
 /* @teleloc 0x24E20028 [109.180500 170.705400 59.995490] -0.343302 0.000000 0.000000 -0.939225 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724E2001, 0x724E2002, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x724E2001, 0x724E2003, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x724E2001, 0x724E2004, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x724E2001, 0x724E2005, '2019-02-10 00:00:00') /* Morel Thrungus */
-     , (0x724E2001, 0x724E2006, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x724E2001, 0x724E2007, '2019-02-10 00:00:00') /* Shiitake Thrungus */
-     , (0x724E2001, 0x724E2008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x724E2001, 0x724E2009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x724E2001, 0x724E200A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x724E2001, 0x724E2002, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x724E2001, 0x724E2003, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x724E2001, 0x724E2004, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x724E2001, 0x724E2005, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */
+     , (0x724E2001, 0x724E2006, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x724E2001, 0x724E2007, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x724E2001, 0x724E2008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x724E2001, 0x724E2009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x724E2001, 0x724E200A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724E2002, 28649, 0x24E20028, 109.1805, 170.7054, 59.99549, -0.3433017, 0, 0, -0.9392251,  True, '2019-02-10 00:00:00'); /* Crazed Fiun */

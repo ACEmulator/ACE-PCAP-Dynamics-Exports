@@ -5,18 +5,18 @@ VALUES (0x72AF0001,  1154, 0x2AF0000A, 39.93583, 31.60863, 35.91266, 0.829143, 0
 /* @teleloc 0x2AF0000A [39.935830 31.608630 35.912660] 0.829143 0.000000 0.000000 -0.559037 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AF0001, 0x72AF0002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AF0001, 0x72AF0003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AF0001, 0x72AF0004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AF0001, 0x72AF0005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AF0001, 0x72AF0006, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AF0001, 0x72AF0007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AF0001, 0x72AF0008, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AF0001, 0x72AF0009, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AF0001, 0x72AF000A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AF0001, 0x72AF000B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AF0001, 0x72AF000C, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AF0001, 0x72AF000D, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x72AF0001, 0x72AF0002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AF0001, 0x72AF0003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AF0001, 0x72AF0004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AF0001, 0x72AF0005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AF0001, 0x72AF0006, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AF0001, 0x72AF0007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AF0001, 0x72AF0008, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AF0001, 0x72AF0009, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AF0001, 0x72AF000A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AF0001, 0x72AF000B, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AF0001, 0x72AF000C, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AF0001, 0x72AF000D, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AF0002, 38176, 0x2AF0000A, 39.93583, 31.60863, 35.91266, 0.829143, 0, 0, -0.5590366,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

@@ -5,27 +5,27 @@ VALUES (0x7AFA2001,  1154, 0xAFA2003C, 184.0866, 93.93232, 94.67046, 0.7444342, 
 /* @teleloc 0xAFA2003C [184.086600 93.932320 94.670460] 0.744434 0.000000 0.000000 -0.667696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA2001, 0x7AFA2002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AFA2001, 0x7AFA2003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AFA2001, 0x7AFA2004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AFA2001, 0x7AFA2005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AFA2001, 0x7AFA2006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AFA2001, 0x7AFA2007, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7AFA2001, 0x7AFA2008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AFA2001, 0x7AFA2009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AFA2001, 0x7AFA200A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFA2001, 0x7AFA200B, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AFA2001, 0x7AFA200C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AFA2001, 0x7AFA200D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA200E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA200F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA2010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA2011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AFA2001, 0x7AFA2012, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AFA2001, 0x7AFA2013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA2014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA2015, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFA2001, 0x7AFA2016, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AFA2001, 0x7AFA2002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AFA2001, 0x7AFA2003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AFA2001, 0x7AFA2004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AFA2001, 0x7AFA2005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AFA2001, 0x7AFA2006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AFA2001, 0x7AFA2007, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7AFA2001, 0x7AFA2008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AFA2001, 0x7AFA2009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AFA2001, 0x7AFA200A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFA2001, 0x7AFA200B, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AFA2001, 0x7AFA200C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AFA2001, 0x7AFA200D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA200E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA200F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA2010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA2011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AFA2001, 0x7AFA2012, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AFA2001, 0x7AFA2013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA2014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA2015, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFA2001, 0x7AFA2016, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA2002,   195, 0xAFA2003C, 184.0866, 93.93232, 94.67046, 0.7444342, 0, 0, -0.6676959,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -116,7 +116,7 @@ VALUES (0x7AFA2017,  1542, 0xAFA2000B, 46.0166, 59.50315, 128.556, 0.9990482, 0,
 /* @teleloc 0xAFA2000B [46.016600 59.503150 128.556000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA2017, 0x7AFA2018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AFA2017, 0x7AFA2018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA2018,  4179, 0xAFA2000B, 46.0166, 59.50315, 128.556, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

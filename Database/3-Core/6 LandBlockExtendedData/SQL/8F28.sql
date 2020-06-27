@@ -5,12 +5,12 @@ VALUES (0x78F28001,  1154, 0x8F280014, 62.95885, 72.11397, 126.4746, -0.08715577
 /* @teleloc 0x8F280014 [62.958850 72.113970 126.474600] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F28001, 0x78F28002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78F28001, 0x78F28003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78F28001, 0x78F28004, '2019-02-10 00:00:00') /* Shivver */
-     , (0x78F28001, 0x78F28005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78F28001, 0x78F28006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78F28001, 0x78F28007, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x78F28001, 0x78F28002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78F28001, 0x78F28003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78F28001, 0x78F28004, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x78F28001, 0x78F28005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78F28001, 0x78F28006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78F28001, 0x78F28007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F28002, 14559, 0x8F280014, 62.95885, 72.11397, 126.4746, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -41,7 +41,7 @@ VALUES (0x78F28008,  1542, 0x8F280015, 48.67144, 106.2357, 115.4733, 0.6666178, 
 /* @teleloc 0x8F280015 [48.671440 106.235700 115.473300] 0.666618 0.000000 0.000000 -0.745400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F28008, 0x78F28009, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x78F28008, 0x78F28009, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F28009, 42528, 0x8F280015, 48.67144, 106.2357, 115.4733, 0.6666178, 0, 0, -0.7453997,  True, '2019-02-10 00:00:00'); /* Rock */

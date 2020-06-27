@@ -5,9 +5,9 @@ VALUES (0x7A6C5001,  1154, 0xA6C50022, 96.47414, 42.49294, 281.0359, 0.991008, 0
 /* @teleloc 0xA6C50022 [96.474140 42.492940 281.035900] 0.991008 0.000000 0.000000 -0.133802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6C5001, 0x7A6C5002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A6C5001, 0x7A6C5003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A6C5001, 0x7A6C5004, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7A6C5001, 0x7A6C5002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A6C5001, 0x7A6C5003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A6C5001, 0x7A6C5004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6C5002,  1608, 0xA6C50022, 96.47414, 42.49294, 281.0359, 0.991008, 0, 0, -0.1338023,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -26,7 +26,7 @@ VALUES (0x7A6C5005,  1542, 0xA6C5002C, 121.0392, 76.81654, 283.5436, 0.9353945, 
 /* @teleloc 0xA6C5002C [121.039200 76.816540 283.543600] 0.935395 0.000000 0.000000 -0.353606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6C5005, 0x7A6C5006, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A6C5005, 0x7A6C5006, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6C5006,  8646, 0xA6C5002C, 121.0392, 76.81654, 283.5436, 0.9353945, 0, 0, -0.3536059,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

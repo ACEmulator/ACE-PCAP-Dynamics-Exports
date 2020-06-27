@@ -5,13 +5,13 @@ VALUES (0x70D82001,  1154, 0x0D820001, 0.8314519, 10.31195, 4.58493, 0.7071068, 
 /* @teleloc 0x0D820001 [0.831452 10.311950 4.584930] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D82001, 0x70D82002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D82001, 0x70D82003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D82001, 0x70D82004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70D82001, 0x70D82005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D82001, 0x70D82006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70D82001, 0x70D82007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70D82001, 0x70D82008, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x70D82001, 0x70D82002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D82001, 0x70D82003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D82001, 0x70D82004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70D82001, 0x70D82005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D82001, 0x70D82006, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70D82001, 0x70D82007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70D82001, 0x70D82008, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D82002, 36820, 0x0D820001, 0.8314519, 10.31195, 4.58493, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

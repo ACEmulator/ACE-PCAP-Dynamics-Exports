@@ -5,63 +5,63 @@ VALUES (0x7B34A001,  1154, 0xB34A0039, 191.2543, 0.03279114, 117.9444, 1, 0, 0, 
 /* @teleloc 0xB34A0039 [191.254300 0.032791 117.944400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B34A001, 0x7B34A002, '2019-02-10 00:00:00') /* Guardian Wisp */
-     , (0x7B34A001, 0x7B34A003, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A004, '2019-02-10 00:00:00') /* Venomous Brier Wasp */
-     , (0x7B34A001, 0x7B34A005, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x7B34A001, 0x7B34A006, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A007, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A008, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A009, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B34A001, 0x7B34A00A, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A00B, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A00C, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x7B34A001, 0x7B34A00D, '2019-02-10 00:00:00') /* Oaken Guardian */
-     , (0x7B34A001, 0x7B34A00E, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B34A001, 0x7B34A00F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7B34A001, 0x7B34A010, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B34A001, 0x7B34A011, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B34A001, 0x7B34A012, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B34A001, 0x7B34A013, '2019-02-10 00:00:00') /* Poisonous Brier Wasp */
-     , (0x7B34A001, 0x7B34A014, '2019-02-10 00:00:00') /* Brier Wasp */
-     , (0x7B34A001, 0x7B34A015, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A016, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B34A001, 0x7B34A017, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A018, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x7B34A001, 0x7B34A019, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A01A, '2019-02-10 00:00:00') /* Guardian Wisp */
-     , (0x7B34A001, 0x7B34A01B, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x7B34A001, 0x7B34A01C, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A01D, '2019-02-10 00:00:00') /* Brier Wasp Swarm */
-     , (0x7B34A001, 0x7B34A01E, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A01F, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A020, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B34A001, 0x7B34A021, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver */
-     , (0x7B34A001, 0x7B34A022, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A023, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A024, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B34A001, 0x7B34A025, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver */
-     , (0x7B34A001, 0x7B34A026, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B34A001, 0x7B34A027, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A028, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B34A001, 0x7B34A029, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B34A001, 0x7B34A02A, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A02B, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B34A001, 0x7B34A02C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B34A001, 0x7B34A02D, '2019-02-10 00:00:00') /* Viridian Portal */
-     , (0x7B34A001, 0x7B34A02E, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer */
-     , (0x7B34A001, 0x7B34A02F, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A030, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A031, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A032, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A033, '2019-02-10 00:00:00') /* A'nekshen Storm Caller */
-     , (0x7B34A001, 0x7B34A034, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A035, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A036, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B34A001, 0x7B34A037, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A038, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B34A001, 0x7B34A039, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B34A001, 0x7B34A03A, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B34A001, 0x7B34A002, '2019-02-10 00:00:00') /* Guardian Wisp (52627) */
+     , (0x7B34A001, 0x7B34A003, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A004, '2019-02-10 00:00:00') /* Venomous Brier Wasp (52619) */
+     , (0x7B34A001, 0x7B34A005, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x7B34A001, 0x7B34A006, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A007, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B34A001, 0x7B34A008, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B34A001, 0x7B34A009, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52588) */
+     , (0x7B34A001, 0x7B34A00A, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A00B, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B34A001, 0x7B34A00C, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52632) */
+     , (0x7B34A001, 0x7B34A00D, '2019-02-10 00:00:00') /* Oaken Guardian (52626) */
+     , (0x7B34A001, 0x7B34A00E, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x7B34A001, 0x7B34A00F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7B34A001, 0x7B34A010, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B34A001, 0x7B34A011, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B34A001, 0x7B34A012, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B34A001, 0x7B34A013, '2019-02-10 00:00:00') /* Poisonous Brier Wasp (52620) */
+     , (0x7B34A001, 0x7B34A014, '2019-02-10 00:00:00') /* Brier Wasp (52616) */
+     , (0x7B34A001, 0x7B34A015, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B34A001, 0x7B34A016, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52587) */
+     , (0x7B34A001, 0x7B34A017, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B34A001, 0x7B34A018, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x7B34A001, 0x7B34A019, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A01A, '2019-02-10 00:00:00') /* Guardian Wisp (52627) */
+     , (0x7B34A001, 0x7B34A01B, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x7B34A001, 0x7B34A01C, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A01D, '2019-02-10 00:00:00') /* Brier Wasp Swarm (52617) */
+     , (0x7B34A001, 0x7B34A01E, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B34A001, 0x7B34A01F, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A020, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B34A001, 0x7B34A021, '2019-02-10 00:00:00') /* A'nekshen Storm Reaver (52585) */
+     , (0x7B34A001, 0x7B34A022, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B34A001, 0x7B34A023, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A024, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52587) */
+     , (0x7B34A001, 0x7B34A025, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52590) */
+     , (0x7B34A001, 0x7B34A026, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B34A001, 0x7B34A027, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A028, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B34A001, 0x7B34A029, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B34A001, 0x7B34A02A, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A02B, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B34A001, 0x7B34A02C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B34A001, 0x7B34A02D, '2019-02-10 00:00:00') /* Viridian Portal (53061) */
+     , (0x7B34A001, 0x7B34A02E, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer (52587) */
+     , (0x7B34A001, 0x7B34A02F, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A030, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52584) */
+     , (0x7B34A001, 0x7B34A031, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A032, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A033, '2019-02-10 00:00:00') /* A'nekshen Storm Caller (52583) */
+     , (0x7B34A001, 0x7B34A034, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A035, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A036, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B34A001, 0x7B34A037, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */
+     , (0x7B34A001, 0x7B34A038, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B34A001, 0x7B34A039, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B34A001, 0x7B34A03A, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B34A002, 52627, 0xB34A0039, 191.2543, 0.03279114, 117.9444, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Guardian Wisp */
@@ -296,18 +296,18 @@ VALUES (0x7B34A03B,  1154, 0xB34A0029, 125.4, 12.8, 115.1, 0.7071068, 0, 0, -0.7
 /* @teleloc 0xB34A0029 [125.400000 12.800000 115.100000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B34A03B, 0x7B34A03C, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B34A03B, 0x7B34A03D, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B34A03B, 0x7B34A03E, '2019-02-10 00:00:00') /* Fiery Remains */
-     , (0x7B34A03B, 0x7B34A03F, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B34A03B, 0x7B34A040, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B34A03B, 0x7B34A041, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B34A03B, 0x7B34A042, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise */
-     , (0x7B34A03B, 0x7B34A043, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B34A03B, 0x7B34A044, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B34A03B, 0x7B34A045, '2019-02-10 00:00:00') /* Fiery Remains */
-     , (0x7B34A03B, 0x7B34A046, '2019-02-10 00:00:00') /* Fiery Remains */
-     , (0x7B34A03B, 0x7B34A047, '2019-02-10 00:00:00') /* Blossoming Nightbloom */;
+VALUES (0x7B34A03B, 0x7B34A03C, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53033) */
+     , (0x7B34A03B, 0x7B34A03D, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53037) */
+     , (0x7B34A03B, 0x7B34A03E, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B34A03B, 0x7B34A03F, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53034) */
+     , (0x7B34A03B, 0x7B34A040, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B34A03B, 0x7B34A041, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53035) */
+     , (0x7B34A03B, 0x7B34A042, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53036) */
+     , (0x7B34A03B, 0x7B34A043, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B34A03B, 0x7B34A044, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B34A03B, 0x7B34A045, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B34A03B, 0x7B34A046, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B34A03B, 0x7B34A047, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B34A03C, 53033, 0xB34A0029, 125.4, 12.8, 115.1, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
@@ -362,8 +362,8 @@ VALUES (0x7B34A048,  1542, 0xB34A000E, 31.88493, 140.1457, 63.62066, 1, 0, 0, 0,
 /* @teleloc 0xB34A000E [31.884930 140.145700 63.620660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B34A048, 0x7B34A049, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7B34A048, 0x7B34A04A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B34A048, 0x7B34A049, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7B34A048, 0x7B34A04A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B34A049,  8999, 0xB34A000E, 31.88493, 140.1457, 63.62066, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

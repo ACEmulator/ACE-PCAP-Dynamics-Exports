@@ -5,15 +5,15 @@ VALUES (0x7A9C6001,  1154, 0xA9C60014, 65.14846, 91.2081, 96.81165, -0.9105018, 
 /* @teleloc 0xA9C60014 [65.148460 91.208100 96.811650] -0.910502 0.000000 0.000000 -0.413505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9C6001, 0x7A9C6002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9C6001, 0x7A9C6003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A9C6001, 0x7A9C6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9C6001, 0x7A9C6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A9C6001, 0x7A9C6006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A9C6001, 0x7A9C6007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A9C6001, 0x7A9C6008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A9C6001, 0x7A9C6009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A9C6001, 0x7A9C600A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7A9C6001, 0x7A9C6002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9C6001, 0x7A9C6003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A9C6001, 0x7A9C6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9C6001, 0x7A9C6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A9C6001, 0x7A9C6006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A9C6001, 0x7A9C6007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A9C6001, 0x7A9C6008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A9C6001, 0x7A9C6009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A9C6001, 0x7A9C600A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9C6002,   217, 0xA9C60014, 65.14846, 91.2081, 96.81165, -0.9105018, 0, 0, -0.4135052,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

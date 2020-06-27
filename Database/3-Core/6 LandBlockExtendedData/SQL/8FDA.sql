@@ -5,13 +5,13 @@ VALUES (0x78FDA001,  1154, 0x8FDA0036, 145.3956, 139.9577, 78.68086, 0.2588191, 
 /* @teleloc 0x8FDA0036 [145.395600 139.957700 78.680860] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FDA001, 0x78FDA002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FDA001, 0x78FDA003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78FDA001, 0x78FDA004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FDA001, 0x78FDA005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78FDA001, 0x78FDA006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78FDA001, 0x78FDA007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78FDA001, 0x78FDA008, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x78FDA001, 0x78FDA002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FDA001, 0x78FDA003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78FDA001, 0x78FDA004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FDA001, 0x78FDA005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78FDA001, 0x78FDA006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78FDA001, 0x78FDA007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78FDA001, 0x78FDA008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FDA002,  7088, 0x8FDA0036, 145.3956, 139.9577, 78.68086, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -46,9 +46,9 @@ VALUES (0x78FDA009,  1542, 0x8FDA0037, 146.1529, 145.0002, 78.59033, 0.9990482, 
 /* @teleloc 0x8FDA0037 [146.152900 145.000200 78.590330] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FDA009, 0x78FDA00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78FDA009, 0x78FDA00B, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x78FDA009, 0x78FDA00C, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x78FDA009, 0x78FDA00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78FDA009, 0x78FDA00B, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x78FDA009, 0x78FDA00C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FDA00A,  4179, 0x8FDA0037, 146.1529, 145.0002, 78.59033, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

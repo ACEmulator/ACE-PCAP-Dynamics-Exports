@@ -5,14 +5,14 @@ VALUES (0x73658001,  1154, 0x3658002E, 135.7587, 126.8097, 40.0075, 0.5480111, 0
 /* @teleloc 0x3658002E [135.758700 126.809700 40.007500] 0.548011 0.000000 0.000000 -0.836471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73658001, 0x73658002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73658001, 0x73658003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73658001, 0x73658004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73658001, 0x73658005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73658001, 0x73658006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73658001, 0x73658007, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x73658001, 0x73658008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73658001, 0x73658009, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73658001, 0x73658002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73658001, 0x73658003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73658001, 0x73658004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73658001, 0x73658005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73658001, 0x73658006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73658001, 0x73658007, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x73658001, 0x73658008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73658001, 0x73658009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73658002, 10802, 0x3658002E, 135.7587, 126.8097, 40.0075, 0.5480111, 0, 0, -0.8364711,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
@@ -51,7 +51,7 @@ VALUES (0x7365800A,  1542, 0x3658003C, 179.181, 79.86993, 38.02731, 1, 0, 0, 0, 
 /* @teleloc 0x3658003C [179.181000 79.869930 38.027310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7365800A, 0x7365800B, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7365800A, 0x7365800B, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7365800B,  8999, 0x3658003C, 179.181, 79.86993, 38.02731, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

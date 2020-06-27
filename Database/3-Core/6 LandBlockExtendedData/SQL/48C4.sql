@@ -5,16 +5,16 @@ VALUES (0x748C4001,  1154, 0x48C40036, 155.3312, 143.39, -0.08679986, -0.1736482
 /* @teleloc 0x48C40036 [155.331200 143.390000 -0.086800] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748C4001, 0x748C4002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x748C4001, 0x748C4003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x748C4001, 0x748C4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x748C4001, 0x748C4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x748C4001, 0x748C4006, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x748C4001, 0x748C4007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x748C4001, 0x748C4008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x748C4001, 0x748C4009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x748C4001, 0x748C400A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x748C4001, 0x748C400B, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x748C4001, 0x748C4002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x748C4001, 0x748C4003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x748C4001, 0x748C4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x748C4001, 0x748C4005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x748C4001, 0x748C4006, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x748C4001, 0x748C4007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x748C4001, 0x748C4008, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x748C4001, 0x748C4009, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x748C4001, 0x748C400A, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x748C4001, 0x748C400B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748C4002, 10810, 0x48C40036, 155.3312, 143.39, -0.08679986, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -61,7 +61,7 @@ VALUES (0x748C400C,  1542, 0x48C40007, 3.400698, 156.9527, -0.09999999, 0.999048
 /* @teleloc 0x48C40007 [3.400698 156.952700 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748C400C, 0x748C400D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x748C400C, 0x748C400D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748C400D,  4179, 0x48C40007, 3.400698, 156.9527, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,52 +5,52 @@ VALUES (0x7ADB7001,  1154, 0xADB7003D, 180.9723, 101.9366, 100.0033, -0.055635, 
 /* @teleloc 0xADB7003D [180.972300 101.936600 100.003300] -0.055635 0.000000 0.000000 0.998451 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB7001, 0x7ADB7002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB7001, 0x7ADB7003, '2019-02-10 00:00:00') /* White Rat */
-     , (0x7ADB7001, 0x7ADB7004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADB7001, 0x7ADB7005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ADB7001, 0x7ADB7006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB7001, 0x7ADB7007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADB7001, 0x7ADB7008, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB7001, 0x7ADB7009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB7001, 0x7ADB700A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADB7001, 0x7ADB700B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB7001, 0x7ADB700C, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7ADB7001, 0x7ADB700D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ADB7001, 0x7ADB700E, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ADB7001, 0x7ADB700F, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADB7001, 0x7ADB7010, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADB7001, 0x7ADB7011, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB7012, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB7013, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ADB7001, 0x7ADB7014, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB7001, 0x7ADB7015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ADB7001, 0x7ADB7016, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB7017, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADB7001, 0x7ADB7018, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB7019, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ADB7001, 0x7ADB701A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADB7001, 0x7ADB701B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ADB7001, 0x7ADB701C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ADB7001, 0x7ADB701D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7ADB7001, 0x7ADB701E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB701F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADB7001, 0x7ADB7020, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADB7001, 0x7ADB7021, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB7001, 0x7ADB7022, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB7023, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB7001, 0x7ADB7024, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB7001, 0x7ADB7025, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ADB7001, 0x7ADB7026, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7ADB7001, 0x7ADB7027, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADB7001, 0x7ADB7028, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB7001, 0x7ADB7029, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB7001, 0x7ADB702A, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ADB7001, 0x7ADB702B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ADB7001, 0x7ADB702C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ADB7001, 0x7ADB702D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADB7001, 0x7ADB702E, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADB7001, 0x7ADB702F, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7ADB7001, 0x7ADB7002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB7001, 0x7ADB7003, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x7ADB7001, 0x7ADB7004, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADB7001, 0x7ADB7005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ADB7001, 0x7ADB7006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB7001, 0x7ADB7007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADB7001, 0x7ADB7008, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB7001, 0x7ADB7009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB7001, 0x7ADB700A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADB7001, 0x7ADB700B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB7001, 0x7ADB700C, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7ADB7001, 0x7ADB700D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ADB7001, 0x7ADB700E, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ADB7001, 0x7ADB700F, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADB7001, 0x7ADB7010, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADB7001, 0x7ADB7011, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB7012, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB7013, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ADB7001, 0x7ADB7014, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB7001, 0x7ADB7015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ADB7001, 0x7ADB7016, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB7017, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADB7001, 0x7ADB7018, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB7019, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ADB7001, 0x7ADB701A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADB7001, 0x7ADB701B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ADB7001, 0x7ADB701C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ADB7001, 0x7ADB701D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7ADB7001, 0x7ADB701E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB701F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADB7001, 0x7ADB7020, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADB7001, 0x7ADB7021, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB7001, 0x7ADB7022, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB7023, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB7001, 0x7ADB7024, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB7001, 0x7ADB7025, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ADB7001, 0x7ADB7026, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7ADB7001, 0x7ADB7027, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADB7001, 0x7ADB7028, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB7001, 0x7ADB7029, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB7001, 0x7ADB702A, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ADB7001, 0x7ADB702B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ADB7001, 0x7ADB702C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ADB7001, 0x7ADB702D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADB7001, 0x7ADB702E, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADB7001, 0x7ADB702F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB7002,     7, 0xADB7003D, 180.9723, 101.9366, 100.0033, -0.055635, 0, 0, 0.998451,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -241,27 +241,27 @@ VALUES (0x7ADB7030,  1542, 0xADB7003D, 172.421, 108.7167, 101.931, 0.0848487, 0,
 /* @teleloc 0xADB7003D [172.421000 108.716700 101.931000] 0.084849 0.000000 0.000000 -0.996394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADB7030, 0x7ADB7031, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7032, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7033, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7034, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7035, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7036, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7037, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7038, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7039, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB703A, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB7030, 0x7ADB703B, '2019-02-10 00:00:00') /* Cow */
-     , (0x7ADB7030, 0x7ADB703C, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB703D, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB703E, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB703F, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7040, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7041, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7042, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7043, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7044, '2019-02-10 00:00:00') /* Apple */
-     , (0x7ADB7030, 0x7ADB7045, '2019-02-10 00:00:00') /* Apple */;
+VALUES (0x7ADB7030, 0x7ADB7031, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7032, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7033, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7034, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7035, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7036, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7037, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7038, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7039, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB703A, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7ADB7030, 0x7ADB703B, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7ADB7030, 0x7ADB703C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB703D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB703E, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB703F, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7040, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7041, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7042, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7043, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7044, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7ADB7030, 0x7ADB7045, '2019-02-10 00:00:00') /* Apple (258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADB7031,   258, 0xADB7003D, 172.421, 108.7167, 101.931, 0.0848487, 0, 0, -0.996394,  True, '2019-02-10 00:00:00'); /* Apple */

@@ -5,12 +5,12 @@ VALUES (0x73250001,  1154, 0x32500004, 19.21189, 90.02071, 5.230981, 0.4020365, 
 /* @teleloc 0x32500004 [19.211890 90.020710 5.230981] 0.402037 0.000000 0.000000 -0.915624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73250001, 0x73250002, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x73250001, 0x73250003, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x73250001, 0x73250004, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x73250001, 0x73250005, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73250001, 0x73250006, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x73250001, 0x73250007, '2019-02-10 00:00:00') /* Raider Justicar */;
+VALUES (0x73250001, 0x73250002, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x73250001, 0x73250003, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x73250001, 0x73250004, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x73250001, 0x73250005, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73250001, 0x73250006, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x73250001, 0x73250007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73250002, 23571, 0x32500004, 19.21189, 90.02071, 5.230981, 0.4020365, 0, 0, -0.9156237,  True, '2019-02-10 00:00:00'); /* Virindi Quidiox */

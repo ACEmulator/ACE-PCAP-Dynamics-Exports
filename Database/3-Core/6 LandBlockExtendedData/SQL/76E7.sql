@@ -5,9 +5,9 @@ VALUES (0x776E7001,  1154, 0x76E7003F, 170.2654, 156.9369, 106.0065, 0.2547659, 
 /* @teleloc 0x76E7003F [170.265400 156.936900 106.006500] 0.254766 0.000000 0.000000 -0.967003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776E7001, 0x776E7002, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x776E7001, 0x776E7003, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x776E7001, 0x776E7004, '2019-02-10 00:00:00') /* Frozen Wight */;
+VALUES (0x776E7001, 0x776E7002, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x776E7001, 0x776E7003, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x776E7001, 0x776E7004, '2019-02-10 00:00:00') /* Frozen Wight (43822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776E7002, 43391, 0x76E7003F, 170.2654, 156.9369, 106.0065, 0.2547659, 0, 0, -0.9670027,  True, '2019-02-10 00:00:00'); /* Gurog Minion */

@@ -5,10 +5,10 @@ VALUES (0x77314001,  1154, 0x73140038, 163.3215, 184.9901, 0.3973736, 0.05042103
 /* @teleloc 0x73140038 [163.321500 184.990100 0.397374] 0.050421 0.000000 0.000000 -0.998728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77314001, 0x77314002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77314001, 0x77314003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x77314001, 0x77314004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77314001, 0x77314005, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x77314001, 0x77314002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77314001, 0x77314003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x77314001, 0x77314004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77314001, 0x77314005, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77314002,  7123, 0x73140038, 163.3215, 184.9901, 0.3973736, 0.05042103, 0, 0, -0.998728,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -31,7 +31,7 @@ VALUES (0x77314006,  1542, 0x7314003F, 168.4152, 159.865, 0, 0.9238795, 0, 0, -0
 /* @teleloc 0x7314003F [168.415200 159.865000 0.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77314006, 0x77314007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x77314006, 0x77314007, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77314007,  4180, 0x7314003F, 168.4152, 159.865, 0, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

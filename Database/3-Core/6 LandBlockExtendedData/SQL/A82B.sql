@@ -5,36 +5,36 @@ VALUES (0x7A82B001,  1154, 0xA82B0037, 162.3884, 160.0509, 112.9423, 0.9992675, 
 /* @teleloc 0xA82B0037 [162.388400 160.050900 112.942300] 0.999268 0.000000 0.000000 -0.038269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A82B001, 0x7A82B002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A82B001, 0x7A82B003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A82B001, 0x7A82B004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A82B001, 0x7A82B007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A82B001, 0x7A82B008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A82B001, 0x7A82B00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A82B001, 0x7A82B00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A82B001, 0x7A82B00C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A82B001, 0x7A82B00D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A82B001, 0x7A82B00E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A82B001, 0x7A82B00F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A82B001, 0x7A82B010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A82B001, 0x7A82B011, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A82B001, 0x7A82B012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A82B001, 0x7A82B013, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A82B001, 0x7A82B014, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A82B001, 0x7A82B015, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A82B001, 0x7A82B016, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7A82B001, 0x7A82B017, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A82B001, 0x7A82B018, '2019-02-10 00:00:00') /* Gotrok Montok */
-     , (0x7A82B001, 0x7A82B019, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7A82B001, 0x7A82B01A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B01B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B01C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A82B001, 0x7A82B01D, '2019-02-10 00:00:00') /* Banished Lugian */
-     , (0x7A82B001, 0x7A82B01E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A82B001, 0x7A82B01F, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7A82B001, 0x7A82B002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A82B001, 0x7A82B003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A82B001, 0x7A82B004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A82B001, 0x7A82B005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A82B001, 0x7A82B006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A82B001, 0x7A82B007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A82B001, 0x7A82B008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A82B001, 0x7A82B009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A82B001, 0x7A82B00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A82B001, 0x7A82B00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A82B001, 0x7A82B00C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A82B001, 0x7A82B00D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A82B001, 0x7A82B00E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A82B001, 0x7A82B00F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A82B001, 0x7A82B010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A82B001, 0x7A82B011, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A82B001, 0x7A82B012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A82B001, 0x7A82B013, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A82B001, 0x7A82B014, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A82B001, 0x7A82B015, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A82B001, 0x7A82B016, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7A82B001, 0x7A82B017, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A82B001, 0x7A82B018, '2019-02-10 00:00:00') /* Gotrok Montok (24955) */
+     , (0x7A82B001, 0x7A82B019, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7A82B001, 0x7A82B01A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A82B001, 0x7A82B01B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A82B001, 0x7A82B01C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A82B001, 0x7A82B01D, '2019-02-10 00:00:00') /* Banished Lugian (30901) */
+     , (0x7A82B001, 0x7A82B01E, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A82B001, 0x7A82B01F, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A82B002, 14517, 0xA82B0037, 162.3884, 160.0509, 112.9423, 0.9992675, 0, 0, -0.03826893,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -161,7 +161,7 @@ VALUES (0x7A82B020,  1542, 0xA82B000A, 36.42208, 36.0821, 104.9658, -0.6922052, 
 /* @teleloc 0xA82B000A [36.422080 36.082100 104.965800] -0.692205 0.000000 0.000000 -0.721701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A82B020, 0x7A82B021, '2019-02-10 00:00:00') /* Massive Mana Charge */;
+VALUES (0x7A82B020, 0x7A82B021, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A82B021, 27329, 0xA82B000A, 36.42208, 36.0821, 104.9658, -0.6922052, 0, 0, -0.7217007,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */

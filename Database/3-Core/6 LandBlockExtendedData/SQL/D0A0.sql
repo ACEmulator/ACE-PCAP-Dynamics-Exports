@@ -5,14 +5,14 @@ VALUES (0x7D0A0001,  1154, 0xD0A00006, 23.69318, 133.1636, 0.01050007, 0.9238795
 /* @teleloc 0xD0A00006 [23.693180 133.163600 0.010500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A0001, 0x7D0A0002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D0A0001, 0x7D0A0003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D0A0001, 0x7D0A0004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D0A0001, 0x7D0A0005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D0A0001, 0x7D0A0006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D0A0001, 0x7D0A0007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D0A0001, 0x7D0A0008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A0001, 0x7D0A0009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7D0A0001, 0x7D0A0002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D0A0001, 0x7D0A0003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D0A0001, 0x7D0A0004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D0A0001, 0x7D0A0005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D0A0001, 0x7D0A0006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D0A0001, 0x7D0A0007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D0A0001, 0x7D0A0008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A0001, 0x7D0A0009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A0002,  2564, 0xD0A00006, 23.69318, 133.1636, 0.01050007, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -51,7 +51,7 @@ VALUES (0x7D0A000A,  1542, 0xD0A0000F, 33.96716, 151.5208, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xD0A0000F [33.967160 151.520800 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A000A, 0x7D0A000B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D0A000A, 0x7D0A000B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A000B,  4179, 0xD0A0000F, 33.96716, 151.5208, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

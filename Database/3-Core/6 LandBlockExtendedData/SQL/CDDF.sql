@@ -5,17 +5,17 @@ VALUES (0x7CDDF001,  1154, 0xCDDF003D, 183.1324, 107.0103, -0.8988, 0.974903, 0,
 /* @teleloc 0xCDDF003D [183.132400 107.010300 -0.898800] 0.974903 0.000000 0.000000 -0.222630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDDF001, 0x7CDDF002, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDDF001, 0x7CDDF003, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CDDF001, 0x7CDDF004, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CDDF001, 0x7CDDF005, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CDDF001, 0x7CDDF006, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDDF001, 0x7CDDF007, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CDDF001, 0x7CDDF008, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDDF001, 0x7CDDF009, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CDDF001, 0x7CDDF00A, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CDDF001, 0x7CDDF00B, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CDDF001, 0x7CDDF00C, '2019-02-10 00:00:00') /* Shallows Gorger */;
+VALUES (0x7CDDF001, 0x7CDDF002, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDDF001, 0x7CDDF003, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CDDF001, 0x7CDDF004, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CDDF001, 0x7CDDF005, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CDDF001, 0x7CDDF006, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDDF001, 0x7CDDF007, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CDDF001, 0x7CDDF008, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDDF001, 0x7CDDF009, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDDF001, 0x7CDDF00A, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CDDF001, 0x7CDDF00B, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CDDF001, 0x7CDDF00C, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDDF002, 31909, 0xCDDF003D, 183.1324, 107.0103, -0.8988, 0.974903, 0, 0, -0.22263,  True, '2019-02-10 00:00:00'); /* Shallows Gorger */

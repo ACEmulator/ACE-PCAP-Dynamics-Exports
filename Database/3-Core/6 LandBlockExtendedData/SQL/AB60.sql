@@ -5,11 +5,11 @@ VALUES (0x7AB60001,  1154, 0xAB600032, 160.0335, 40.55983, 30.0055, -0.7191925, 
 /* @teleloc 0xAB600032 [160.033500 40.559830 30.005500] -0.719193 0.000000 0.000000 -0.694811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB60001, 0x7AB60002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB60001, 0x7AB60003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AB60001, 0x7AB60004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AB60001, 0x7AB60005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AB60001, 0x7AB60006, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AB60001, 0x7AB60002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB60001, 0x7AB60003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AB60001, 0x7AB60004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AB60001, 0x7AB60005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AB60001, 0x7AB60006, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB60002,   229, 0xAB600032, 160.0335, 40.55983, 30.0055, -0.7191925, 0, 0, -0.6948109,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

@@ -9,12 +9,12 @@ VALUES (0x79598001,  1154, 0x9598000B, 42.22588, 61.51701, 113.646, -0.9255719, 
 /* @teleloc 0x9598000B [42.225880 61.517010 113.646000] -0.925572 0.000000 0.000000 -0.378572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79598001, 0x79598002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79598001, 0x79598003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79598001, 0x79598004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79598001, 0x79598005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79598001, 0x79598006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79598001, 0x79598007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79598001, 0x79598002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79598001, 0x79598003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79598001, 0x79598004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79598001, 0x79598005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79598001, 0x79598006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79598001, 0x79598007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79598002,  1627, 0x9598000B, 42.22588, 61.51701, 113.646, -0.9255719, 0, 0, -0.3785719,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

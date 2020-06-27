@@ -5,13 +5,13 @@ VALUES (0x795DE001,  1154, 0x95DE000F, 43.63912, 147.8656, 158.0513, 0.9640309, 
 /* @teleloc 0x95DE000F [43.639120 147.865600 158.051300] 0.964031 0.000000 0.000000 -0.265790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DE001, 0x795DE002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x795DE001, 0x795DE003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x795DE001, 0x795DE004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x795DE001, 0x795DE005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x795DE001, 0x795DE006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x795DE001, 0x795DE007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x795DE001, 0x795DE008, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x795DE001, 0x795DE002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x795DE001, 0x795DE003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x795DE001, 0x795DE004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x795DE001, 0x795DE005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x795DE001, 0x795DE006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x795DE001, 0x795DE007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x795DE001, 0x795DE008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DE002, 23082, 0x95DE000F, 43.63912, 147.8656, 158.0513, 0.9640309, 0, 0, -0.2657904,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
@@ -46,7 +46,7 @@ VALUES (0x795DE009,  1542, 0x95DE0002, 22.61356, 26.71239, 166.0918, -0.5373457,
 /* @teleloc 0x95DE0002 [22.613560 26.712390 166.091800] -0.537346 0.000000 0.000000 -0.843362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DE009, 0x795DE00A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x795DE009, 0x795DE00A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DE00A, 42528, 0x95DE0002, 22.61356, 26.71239, 166.0918, -0.5373457, 0, 0, -0.8433621,  True, '2019-02-10 00:00:00'); /* Rock */

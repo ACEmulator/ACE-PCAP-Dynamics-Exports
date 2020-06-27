@@ -5,10 +5,10 @@ VALUES (0x71D91001,  1154, 0x1D91000E, 29.93234, 138.015, 52.48181, 0.9188501, 0
 /* @teleloc 0x1D91000E [29.932340 138.015000 52.481810] 0.918850 0.000000 0.000000 -0.394607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D91001, 0x71D91002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D91001, 0x71D91003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71D91001, 0x71D91004, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71D91001, 0x71D91005, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x71D91001, 0x71D91002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D91001, 0x71D91003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71D91001, 0x71D91004, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71D91001, 0x71D91005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D91002, 36830, 0x1D91000E, 29.93234, 138.015, 52.48181, 0.9188501, 0, 0, -0.3946069,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

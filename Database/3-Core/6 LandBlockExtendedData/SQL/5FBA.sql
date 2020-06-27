@@ -5,9 +5,9 @@ VALUES (0x75FBA001,  1154, 0x5FBA002A, 132.2062, 24.01112, 13.04619, 0.8179965, 
 /* @teleloc 0x5FBA002A [132.206200 24.011120 13.046190] 0.817997 0.000000 0.000000 -0.575223 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FBA001, 0x75FBA002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x75FBA001, 0x75FBA003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75FBA001, 0x75FBA004, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x75FBA001, 0x75FBA002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x75FBA001, 0x75FBA003, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75FBA001, 0x75FBA004, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FBA002, 22914, 0x5FBA002A, 132.2062, 24.01112, 13.04619, 0.8179965, 0, 0, -0.5752232,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

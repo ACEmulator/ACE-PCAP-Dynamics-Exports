@@ -5,11 +5,11 @@ VALUES (0x745B2001,  1154, 0x45B20021, 109.5892, 4.48436, 60.85873, 0.8191521, 0
 /* @teleloc 0x45B20021 [109.589200 4.484360 60.858730] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B2001, 0x745B2002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745B2001, 0x745B2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745B2001, 0x745B2004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x745B2001, 0x745B2005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x745B2001, 0x745B2006, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x745B2001, 0x745B2002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745B2001, 0x745B2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745B2001, 0x745B2004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x745B2001, 0x745B2005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x745B2001, 0x745B2006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B2002,  7334, 0x45B20021, 109.5892, 4.48436, 60.85873, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -36,7 +36,7 @@ VALUES (0x745B2007,  1542, 0x45B2001B, 94.0494, 67.35378, 77.32518, -0.686272, 0
 /* @teleloc 0x45B2001B [94.049400 67.353780 77.325180] -0.686272 0.000000 0.000000 -0.727345 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745B2007, 0x745B2008, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x745B2007, 0x745B2008, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745B2008,  9071, 0x45B2001B, 94.0494, 67.35378, 77.32518, -0.686272, 0, 0, -0.7273449,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

@@ -5,11 +5,11 @@ VALUES (0x74353001,  1154, 0x4353001A, 91.91463, 24.96458, 34.92025, -0.8990018,
 /* @teleloc 0x4353001A [91.914630 24.964580 34.920250] -0.899002 0.000000 0.000000 -0.437945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74353001, 0x74353002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74353001, 0x74353003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74353001, 0x74353004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74353001, 0x74353005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74353001, 0x74353006, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74353001, 0x74353002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74353001, 0x74353003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74353001, 0x74353004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74353001, 0x74353005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74353001, 0x74353006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74353002, 24325, 0x4353001A, 91.91463, 24.96458, 34.92025, -0.8990018, 0, 0, -0.4379449,  True, '2019-02-10 00:00:00'); /* Phantasm */

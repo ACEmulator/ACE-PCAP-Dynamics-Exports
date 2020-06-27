@@ -5,20 +5,20 @@ VALUES (0x72250001,  1154, 0x22500020, 80.94646, 173.0787, 0.00999999, 0.9314277
 /* @teleloc 0x22500020 [80.946460 173.078700 0.010000] 0.931428 0.000000 0.000000 -0.363926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72250001, 0x72250002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72250001, 0x72250003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72250001, 0x72250004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72250001, 0x72250005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72250001, 0x72250006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72250001, 0x72250007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72250001, 0x72250008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72250001, 0x72250009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72250001, 0x7225000A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72250001, 0x7225000B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72250001, 0x7225000C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72250001, 0x7225000D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72250001, 0x7225000E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72250001, 0x7225000F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x72250001, 0x72250002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72250001, 0x72250003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72250001, 0x72250004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72250001, 0x72250005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72250001, 0x72250006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72250001, 0x72250007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72250001, 0x72250008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72250001, 0x72250009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72250001, 0x7225000A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72250001, 0x7225000B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72250001, 0x7225000C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72250001, 0x7225000D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72250001, 0x7225000E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72250001, 0x7225000F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72250002, 36829, 0x22500020, 80.94646, 173.0787, 0.00999999, 0.9314277, 0, 0, -0.3639264,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -81,9 +81,9 @@ VALUES (0x72250010,  1542, 0x2250000D, 38.76662, 115.021, 1.536281, 1, 0, 0, 0, 
 /* @teleloc 0x2250000D [38.766620 115.021000 1.536281] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72250010, 0x72250011, '2019-02-10 00:00:00') /* Hilltop */
-     , (0x72250010, 0x72250012, '2019-02-10 00:00:00') /* Bones */
-     , (0x72250010, 0x72250013, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x72250010, 0x72250011, '2019-02-10 00:00:00') /* Hilltop (1902) */
+     , (0x72250010, 0x72250012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72250010, 0x72250013, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72250011,  1902, 0x2250000D, 38.76662, 115.021, 1.536281, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hilltop */

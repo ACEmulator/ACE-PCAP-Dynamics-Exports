@@ -5,12 +5,12 @@ VALUES (0x746B4001,  1154, 0x46B40039, 180.7147, 9.444692, 79.86162, 0.599076, 0
 /* @teleloc 0x46B40039 [180.714700 9.444692 79.861620] 0.599076 0.000000 0.000000 -0.800692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746B4001, 0x746B4002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x746B4001, 0x746B4003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x746B4001, 0x746B4004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x746B4001, 0x746B4005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x746B4001, 0x746B4006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x746B4001, 0x746B4007, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x746B4001, 0x746B4002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x746B4001, 0x746B4003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x746B4001, 0x746B4004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x746B4001, 0x746B4005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x746B4001, 0x746B4006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x746B4001, 0x746B4007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746B4002,  7129, 0x46B40039, 180.7147, 9.444692, 79.86162, 0.599076, 0, 0, -0.8006922,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -41,13 +41,13 @@ VALUES (0x746B4008,  1542, 0x46B4002D, 122.0486, 117.4639, 78.17072, 1, 0, 0, 0,
 /* @teleloc 0x46B4002D [122.048600 117.463900 78.170720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746B4008, 0x746B4009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x746B4008, 0x746B400A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x746B4008, 0x746B400B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x746B4008, 0x746B400C, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x746B4008, 0x746B400D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x746B4008, 0x746B400E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x746B4008, 0x746B400F, '2019-02-10 00:00:00') /* Ursuin Head */;
+VALUES (0x746B4008, 0x746B4009, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x746B4008, 0x746B400A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x746B4008, 0x746B400B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x746B4008, 0x746B400C, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x746B4008, 0x746B400D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x746B4008, 0x746B400E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x746B4008, 0x746B400F, '2019-02-10 00:00:00') /* Ursuin Head (9097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746B4009, 22567, 0x46B4002D, 122.0486, 117.4639, 78.17072, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

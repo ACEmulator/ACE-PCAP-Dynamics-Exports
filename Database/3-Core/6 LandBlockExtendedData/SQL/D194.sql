@@ -9,46 +9,46 @@ VALUES (0x7D194001,  1154, 0xD1940020, 78.06461, 177.7276, 7.495815, 0.9537169, 
 /* @teleloc 0xD1940020 [78.064610 177.727600 7.495815] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D194001, 0x7D194002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D194001, 0x7D194003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D194001, 0x7D194004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D194001, 0x7D194005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D194001, 0x7D194006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D194001, 0x7D194007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D194001, 0x7D194008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D194001, 0x7D194009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D194001, 0x7D19400A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D19400B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D194001, 0x7D19400C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D194001, 0x7D19400D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D194001, 0x7D19400E, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D194001, 0x7D19400F, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D194001, 0x7D194010, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D194001, 0x7D194011, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D194001, 0x7D194012, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D194001, 0x7D194013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D194001, 0x7D194014, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D194001, 0x7D194015, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D194001, 0x7D194016, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D194017, '2019-02-10 00:00:00') /* Idol */
-     , (0x7D194001, 0x7D194018, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D194001, 0x7D194019, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D194001, 0x7D19401A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D19401B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D194001, 0x7D19401C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D194001, 0x7D19401D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D194001, 0x7D19401E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D194001, 0x7D19401F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D194001, 0x7D194020, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D194021, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D194001, 0x7D194022, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D194001, 0x7D194023, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D194001, 0x7D194024, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D194001, 0x7D194025, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D194026, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D194001, 0x7D194027, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D194001, 0x7D194028, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D194001, 0x7D194029, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7D194001, 0x7D194002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D194001, 0x7D194003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D194001, 0x7D194004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D194001, 0x7D194005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D194001, 0x7D194006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D194001, 0x7D194007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D194001, 0x7D194008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D194001, 0x7D194009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D194001, 0x7D19400A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D19400B, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D194001, 0x7D19400C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D194001, 0x7D19400D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D194001, 0x7D19400E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D194001, 0x7D19400F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D194001, 0x7D194010, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D194001, 0x7D194011, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D194001, 0x7D194012, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D194001, 0x7D194013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D194001, 0x7D194014, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D194001, 0x7D194015, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D194001, 0x7D194016, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D194017, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7D194001, 0x7D194018, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D194001, 0x7D194019, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D194001, 0x7D19401A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D19401B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D194001, 0x7D19401C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D194001, 0x7D19401D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D194001, 0x7D19401E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D194001, 0x7D19401F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D194001, 0x7D194020, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D194021, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D194001, 0x7D194022, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D194001, 0x7D194023, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D194001, 0x7D194024, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D194001, 0x7D194025, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D194026, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D194001, 0x7D194027, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D194001, 0x7D194028, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D194001, 0x7D194029, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D194002,  7108, 0xD1940020, 78.06461, 177.7276, 7.495815, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -215,7 +215,7 @@ VALUES (0x7D19402A,  1542, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 
 /* @teleloc 0xD1940030 [128.362300 181.437700 3.144381] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D19402A, 0x7D19402B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D19402A, 0x7D19402B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D19402B,  4179, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

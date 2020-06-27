@@ -5,23 +5,23 @@ VALUES (0x7BEED001,  1154, 0xBEED001E, 84.99461, 122.4533, 56.07304, 1, 0, 0, 0,
 /* @teleloc 0xBEED001E [84.994610 122.453300 56.073040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEED001, 0x7BEED002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7BEED001, 0x7BEED003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BEED001, 0x7BEED004, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED005, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BEED001, 0x7BEED009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BEED001, 0x7BEED00A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BEED001, 0x7BEED00B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BEED001, 0x7BEED00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED00E, '2019-02-10 00:00:00') /* Specter */
-     , (0x7BEED001, 0x7BEED00F, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BEED001, 0x7BEED010, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BEED001, 0x7BEED011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BEED001, 0x7BEED012, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7BEED001, 0x7BEED002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BEED001, 0x7BEED003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BEED001, 0x7BEED004, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BEED001, 0x7BEED005, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BEED001, 0x7BEED006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BEED001, 0x7BEED007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BEED001, 0x7BEED008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BEED001, 0x7BEED009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BEED001, 0x7BEED00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BEED001, 0x7BEED00B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BEED001, 0x7BEED00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BEED001, 0x7BEED00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BEED001, 0x7BEED00E, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7BEED001, 0x7BEED00F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BEED001, 0x7BEED010, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BEED001, 0x7BEED011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BEED001, 0x7BEED012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEED002,  7126, 0xBEED001E, 84.99461, 122.4533, 56.07304, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -96,7 +96,7 @@ VALUES (0x7BEED013,  1542, 0xBEED0014, 67.14595, 89.15935, 63.96201, -0.1736482,
 /* @teleloc 0xBEED0014 [67.145950 89.159350 63.962010] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEED013, 0x7BEED014, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BEED013, 0x7BEED014, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEED014,  4180, 0xBEED0014, 67.14595, 89.15935, 63.96201, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

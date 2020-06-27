@@ -5,20 +5,20 @@ VALUES (0x7C0A7001,  1154, 0xC0A7003E, 187.4871, 120.2125, 52.38607, -0.7660444,
 /* @teleloc 0xC0A7003E [187.487100 120.212500 52.386070] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A7001, 0x7C0A7002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C0A7001, 0x7C0A7003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C0A7001, 0x7C0A7004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C0A7001, 0x7C0A7005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C0A7001, 0x7C0A7006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C0A7001, 0x7C0A7007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C0A7001, 0x7C0A7008, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7C0A7001, 0x7C0A7009, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7C0A7001, 0x7C0A700A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7C0A7001, 0x7C0A700B, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7C0A7001, 0x7C0A700C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C0A7001, 0x7C0A700D, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7C0A7001, 0x7C0A700E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C0A7001, 0x7C0A700F, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C0A7001, 0x7C0A7002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C0A7001, 0x7C0A7003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C0A7001, 0x7C0A7004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C0A7001, 0x7C0A7005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C0A7001, 0x7C0A7006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C0A7001, 0x7C0A7007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C0A7001, 0x7C0A7008, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7C0A7001, 0x7C0A7009, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7C0A7001, 0x7C0A700A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7C0A7001, 0x7C0A700B, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7C0A7001, 0x7C0A700C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C0A7001, 0x7C0A700D, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7C0A7001, 0x7C0A700E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C0A7001, 0x7C0A700F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A7002, 24940, 0xC0A7003E, 187.4871, 120.2125, 52.38607, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -81,8 +81,8 @@ VALUES (0x7C0A7010,  1542, 0xC0A7003D, 187.7739, 113.4082, 52.35218, 1, 0, 0, 0,
 /* @teleloc 0xC0A7003D [187.773900 113.408200 52.352180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A7010, 0x7C0A7011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C0A7010, 0x7C0A7012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C0A7010, 0x7C0A7011, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C0A7010, 0x7C0A7012, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A7011, 22570, 0xC0A7003D, 187.7739, 113.4082, 52.35218, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

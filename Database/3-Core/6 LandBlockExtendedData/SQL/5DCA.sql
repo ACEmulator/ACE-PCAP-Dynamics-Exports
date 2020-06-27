@@ -5,12 +5,12 @@ VALUES (0x75DCA001,  1154, 0x5DCA003D, 180.8756, 100.301, 162.2167, -0.3324367, 
 /* @teleloc 0x5DCA003D [180.875600 100.301000 162.216700] -0.332437 0.000000 0.000000 -0.943126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DCA001, 0x75DCA002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x75DCA001, 0x75DCA003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75DCA001, 0x75DCA004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75DCA001, 0x75DCA005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75DCA001, 0x75DCA006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75DCA001, 0x75DCA007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x75DCA001, 0x75DCA002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x75DCA001, 0x75DCA003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75DCA001, 0x75DCA004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75DCA001, 0x75DCA005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75DCA001, 0x75DCA006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75DCA001, 0x75DCA007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DCA002, 21550, 0x5DCA003D, 180.8756, 100.301, 162.2167, -0.3324367, 0, 0, -0.9431255,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */

@@ -5,14 +5,14 @@ VALUES (0x7972C001,  1154, 0x972C0030, 137.3334, 172.3132, 33.09712, 0.05894921,
 /* @teleloc 0x972C0030 [137.333400 172.313200 33.097120] 0.058949 0.000000 0.000000 -0.998261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972C001, 0x7972C002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7972C001, 0x7972C003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7972C001, 0x7972C004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7972C001, 0x7972C005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7972C001, 0x7972C006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7972C001, 0x7972C007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7972C001, 0x7972C008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7972C001, 0x7972C009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7972C001, 0x7972C002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7972C001, 0x7972C003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7972C001, 0x7972C004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7972C001, 0x7972C005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7972C001, 0x7972C006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7972C001, 0x7972C007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7972C001, 0x7972C008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7972C001, 0x7972C009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972C002,   235, 0x972C0030, 137.3334, 172.3132, 33.09712, 0.05894921, 0, 0, -0.998261,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -51,7 +51,7 @@ VALUES (0x7972C00A,  1542, 0x972C0031, 167.3743, 13.47054, 60.63237, 1, 0, 0, 0,
 /* @teleloc 0x972C0031 [167.374300 13.470540 60.632370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7972C00A, 0x7972C00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7972C00A, 0x7972C00B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7972C00B, 22576, 0x972C0031, 167.3743, 13.47054, 60.63237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

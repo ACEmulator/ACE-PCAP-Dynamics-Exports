@@ -5,13 +5,13 @@ VALUES (0x799C0001,  1154, 0x99C00001, 8.166148, 9.252673, 49.46876, 0.5882812, 
 /* @teleloc 0x99C00001 [8.166148 9.252673 49.468760] 0.588281 0.000000 0.000000 -0.808657 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799C0001, 0x799C0002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x799C0001, 0x799C0003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x799C0001, 0x799C0004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x799C0001, 0x799C0005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x799C0001, 0x799C0006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x799C0001, 0x799C0007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x799C0001, 0x799C0008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x799C0001, 0x799C0002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x799C0001, 0x799C0003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x799C0001, 0x799C0004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x799C0001, 0x799C0005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x799C0001, 0x799C0006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x799C0001, 0x799C0007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x799C0001, 0x799C0008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799C0002,  1609, 0x99C00001, 8.166148, 9.252673, 49.46876, 0.5882812, 0, 0, -0.8086565,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -46,8 +46,8 @@ VALUES (0x799C0009,  1542, 0x99C00023, 105.0387, 64.06522, 48.93722, -0.9841512,
 /* @teleloc 0x99C00023 [105.038700 64.065220 48.937220] -0.984151 0.000000 0.000000 -0.177332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799C0009, 0x799C000A, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x799C0009, 0x799C000B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x799C0009, 0x799C000A, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x799C0009, 0x799C000B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799C000A, 34129, 0x99C00023, 105.0387, 64.06522, 48.93722, -0.9841512, 0, 0, -0.1773315,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

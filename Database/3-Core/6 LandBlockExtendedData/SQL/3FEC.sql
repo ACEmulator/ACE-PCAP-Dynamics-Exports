@@ -5,16 +5,16 @@ VALUES (0x73FEC001,  1154, 0x3FEC0010, 25.36015, 180.9961, 13.99459, 0.9671692, 
 /* @teleloc 0x3FEC0010 [25.360150 180.996100 13.994590] 0.967169 0.000000 0.000000 -0.254133 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FEC001, 0x73FEC002, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FEC001, 0x73FEC003, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FEC001, 0x73FEC004, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x73FEC001, 0x73FEC005, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FEC001, 0x73FEC006, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x73FEC001, 0x73FEC007, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FEC001, 0x73FEC008, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x73FEC001, 0x73FEC009, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEC001, 0x73FEC00A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FEC001, 0x73FEC00B, '2019-02-10 00:00:00') /* Ravenous Eater */;
+VALUES (0x73FEC001, 0x73FEC002, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FEC001, 0x73FEC003, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FEC001, 0x73FEC004, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x73FEC001, 0x73FEC005, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FEC001, 0x73FEC006, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x73FEC001, 0x73FEC007, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FEC001, 0x73FEC008, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FEC001, 0x73FEC009, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEC001, 0x73FEC00A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FEC001, 0x73FEC00B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FEC002, 28644, 0x3FEC0010, 25.36015, 180.9961, 13.99459, 0.9671692, 0, 0, -0.2541332,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
@@ -61,7 +61,7 @@ VALUES (0x73FEC00C,  1542, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, 
 /* @teleloc 0x3FEC000F [24.430130 165.023500 14.000000] 0.994214 0.000000 0.000000 -0.107414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FEC00C, 0x73FEC00D, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x73FEC00C, 0x73FEC00D, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FEC00D, 31032, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, -0.1074136,  True, '2019-02-10 00:00:00'); /* Snow Lily */

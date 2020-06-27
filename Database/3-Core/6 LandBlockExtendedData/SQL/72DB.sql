@@ -5,10 +5,10 @@ VALUES (0x772DB001,  1154, 0x72DB0020, 82.16689, 174.0886, 249.1598, 1, 0, 0, 0,
 /* @teleloc 0x72DB0020 [82.166890 174.088600 249.159800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772DB001, 0x772DB002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x772DB001, 0x772DB003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x772DB001, 0x772DB004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x772DB001, 0x772DB005, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x772DB001, 0x772DB002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x772DB001, 0x772DB003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x772DB001, 0x772DB004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x772DB001, 0x772DB005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772DB002, 14875, 0x72DB0020, 82.16689, 174.0886, 249.1598, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hyem */

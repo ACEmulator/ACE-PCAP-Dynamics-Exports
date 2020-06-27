@@ -5,23 +5,23 @@ VALUES (0x7BBDA001,  1154, 0xBBDA0009, 35.99922, 3.449742, 45.71489, -0.7062515,
 /* @teleloc 0xBBDA0009 [35.999220 3.449742 45.714890] -0.706252 0.000000 0.000000 -0.707961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBDA001, 0x7BBDA002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BBDA001, 0x7BBDA003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BBDA001, 0x7BBDA004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BBDA001, 0x7BBDA005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BBDA001, 0x7BBDA006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BBDA001, 0x7BBDA007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BBDA001, 0x7BBDA008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BBDA001, 0x7BBDA009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BBDA001, 0x7BBDA00A, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BBDA001, 0x7BBDA00B, '2019-02-10 00:00:00') /* Static */
-     , (0x7BBDA001, 0x7BBDA00C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBDA001, 0x7BBDA00D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BBDA001, 0x7BBDA00E, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BBDA001, 0x7BBDA00F, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BBDA001, 0x7BBDA010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBDA001, 0x7BBDA011, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBDA001, 0x7BBDA012, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7BBDA001, 0x7BBDA002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BBDA001, 0x7BBDA003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BBDA001, 0x7BBDA004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BBDA001, 0x7BBDA005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BBDA001, 0x7BBDA006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BBDA001, 0x7BBDA007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BBDA001, 0x7BBDA008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BBDA001, 0x7BBDA009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BBDA001, 0x7BBDA00A, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BBDA001, 0x7BBDA00B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BBDA001, 0x7BBDA00C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBDA001, 0x7BBDA00D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BBDA001, 0x7BBDA00E, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BBDA001, 0x7BBDA00F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BBDA001, 0x7BBDA010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBDA001, 0x7BBDA011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBDA001, 0x7BBDA012, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBDA002,  7121, 0xBBDA0009, 35.99922, 3.449742, 45.71489, -0.7062515, 0, 0, -0.707961,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -96,9 +96,9 @@ VALUES (0x7BBDA013,  1542, 0xBBDA0001, 9.64334, 18.93019, 43.23714, 0.9990482, 0
 /* @teleloc 0xBBDA0001 [9.643340 18.930190 43.237140] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBDA013, 0x7BBDA014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BBDA013, 0x7BBDA015, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7BBDA013, 0x7BBDA016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BBDA013, 0x7BBDA014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BBDA013, 0x7BBDA015, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7BBDA013, 0x7BBDA016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBDA014,  4179, 0xBBDA0001, 9.64334, 18.93019, 43.23714, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

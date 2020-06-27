@@ -5,11 +5,11 @@ VALUES (0x72237001,  1154, 0x22370031, 146.9369, 21.32578, -0.1021, 0.939298, 0,
 /* @teleloc 0x22370031 [146.936900 21.325780 -0.102100] 0.939298 0.000000 0.000000 -0.343103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72237001, 0x72237002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72237001, 0x72237003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72237001, 0x72237004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72237001, 0x72237005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72237001, 0x72237006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72237001, 0x72237002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72237001, 0x72237003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72237001, 0x72237004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72237001, 0x72237005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72237001, 0x72237006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72237002,  7982, 0x22370031, 146.9369, 21.32578, -0.1021, 0.939298, 0, 0, -0.3431025,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

@@ -5,32 +5,32 @@ VALUES (0x7F526001,  1154, 0xF5260024, 114.1998, 92.27277, 0.006600022, 0.642787
 /* @teleloc 0xF5260024 [114.199800 92.272770 0.006600] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F526001, 0x7F526002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F526001, 0x7F526003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F526001, 0x7F526004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F526001, 0x7F526005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F526001, 0x7F526006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F526001, 0x7F526007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F526001, 0x7F526008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F526001, 0x7F526009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F526001, 0x7F52600A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F526001, 0x7F52600B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F526001, 0x7F52600C, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F526001, 0x7F52600D, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F526001, 0x7F52600E, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F526001, 0x7F52600F, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F526001, 0x7F526010, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526012, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526013, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F526001, 0x7F526014, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F526001, 0x7F526015, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526016, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526017, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F526018, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F526001, 0x7F526019, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F52601A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F526001, 0x7F52601B, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7F526001, 0x7F526002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F526001, 0x7F526003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F526001, 0x7F526004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F526001, 0x7F526005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F526001, 0x7F526006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F526001, 0x7F526007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F526001, 0x7F526008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F526001, 0x7F526009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F526001, 0x7F52600A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F526001, 0x7F52600B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F526001, 0x7F52600C, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F526001, 0x7F52600D, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F526001, 0x7F52600E, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F526001, 0x7F52600F, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F526001, 0x7F526010, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526012, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526013, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F526001, 0x7F526014, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F526001, 0x7F526015, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526016, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526017, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F526018, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F526001, 0x7F526019, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F52601A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F526001, 0x7F52601B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F526002,  7102, 0xF5260024, 114.1998, 92.27277, 0.006600022, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -141,9 +141,9 @@ VALUES (0x7F52601C,  1542, 0xF5260025, 117.6118, 98.15565, 0.06, 0.9990482, 0, 0
 /* @teleloc 0xF5260025 [117.611800 98.155650 0.060000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F52601C, 0x7F52601D, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x7F52601C, 0x7F52601E, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7F52601C, 0x7F52601F, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7F52601C, 0x7F52601D, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7F52601C, 0x7F52601E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7F52601C, 0x7F52601F, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F52601D,  6118, 0xF5260025, 117.6118, 98.15565, 0.06, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

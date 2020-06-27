@@ -5,29 +5,29 @@ VALUES (0x7ABA8001,  1154, 0xABA80003, 7.571877, 49.33601, 168.7299, -0.1736482,
 /* @teleloc 0xABA80003 [7.571877 49.336010 168.729900] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA8001, 0x7ABA8002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ABA8001, 0x7ABA8003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ABA8001, 0x7ABA8004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7ABA8001, 0x7ABA8005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7ABA8001, 0x7ABA8006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7ABA8001, 0x7ABA8007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7ABA8001, 0x7ABA8008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7ABA8001, 0x7ABA8009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7ABA8001, 0x7ABA800A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABA8001, 0x7ABA800B, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7ABA8001, 0x7ABA800C, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7ABA8001, 0x7ABA800D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABA8001, 0x7ABA800E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABA8001, 0x7ABA800F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7ABA8001, 0x7ABA8010, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7ABA8001, 0x7ABA8011, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7ABA8001, 0x7ABA8012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ABA8001, 0x7ABA8013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ABA8001, 0x7ABA8014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ABA8001, 0x7ABA8015, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7ABA8001, 0x7ABA8016, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7ABA8001, 0x7ABA8017, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7ABA8001, 0x7ABA8018, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7ABA8001, 0x7ABA8002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ABA8001, 0x7ABA8003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ABA8001, 0x7ABA8004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ABA8001, 0x7ABA8005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7ABA8001, 0x7ABA8006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7ABA8001, 0x7ABA8007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7ABA8001, 0x7ABA8008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ABA8001, 0x7ABA8009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7ABA8001, 0x7ABA800A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABA8001, 0x7ABA800B, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7ABA8001, 0x7ABA800C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7ABA8001, 0x7ABA800D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABA8001, 0x7ABA800E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABA8001, 0x7ABA800F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7ABA8001, 0x7ABA8010, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7ABA8001, 0x7ABA8011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7ABA8001, 0x7ABA8012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ABA8001, 0x7ABA8013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ABA8001, 0x7ABA8014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ABA8001, 0x7ABA8015, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7ABA8001, 0x7ABA8016, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7ABA8001, 0x7ABA8017, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7ABA8001, 0x7ABA8018, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA8002,  2575, 0xABA80003, 7.571877, 49.33601, 168.7299, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -126,8 +126,8 @@ VALUES (0x7ABA8019,  1542, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0, 
 /* @teleloc 0xABA80001 [4.557648 20.057140 170.435000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA8019, 0x7ABA801A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7ABA8019, 0x7ABA801B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7ABA8019, 0x7ABA801A, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7ABA8019, 0x7ABA801B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA801A, 22576, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

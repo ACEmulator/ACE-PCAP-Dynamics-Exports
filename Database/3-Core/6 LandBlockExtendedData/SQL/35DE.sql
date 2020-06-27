@@ -5,19 +5,19 @@ VALUES (0x735DE001,  1154, 0x35DE0010, 42.70542, 169.8744, 2.00715, 0.1236534, 0
 /* @teleloc 0x35DE0010 [42.705420 169.874400 2.007150] 0.123653 0.000000 0.000000 -0.992326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735DE001, 0x735DE002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x735DE001, 0x735DE003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x735DE001, 0x735DE004, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x735DE001, 0x735DE005, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x735DE001, 0x735DE006, '2019-02-10 00:00:00') /* Thrungus */
-     , (0x735DE001, 0x735DE007, '2019-02-10 00:00:00') /* Thrungus */
-     , (0x735DE001, 0x735DE008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x735DE001, 0x735DE009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x735DE001, 0x735DE00A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x735DE001, 0x735DE00B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x735DE001, 0x735DE00C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x735DE001, 0x735DE00D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x735DE001, 0x735DE00E, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x735DE001, 0x735DE002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x735DE001, 0x735DE003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x735DE001, 0x735DE004, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x735DE001, 0x735DE005, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x735DE001, 0x735DE006, '2019-02-10 00:00:00') /* Thrungus (28677) */
+     , (0x735DE001, 0x735DE007, '2019-02-10 00:00:00') /* Thrungus (28677) */
+     , (0x735DE001, 0x735DE008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x735DE001, 0x735DE009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x735DE001, 0x735DE00A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x735DE001, 0x735DE00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x735DE001, 0x735DE00C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x735DE001, 0x735DE00D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x735DE001, 0x735DE00E, '2019-02-10 00:00:00') /* Old Bones (19436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735DE002,     6, 0x35DE0010, 42.70542, 169.8744, 2.00715, 0.1236534, 0, 0, -0.9923255,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

@@ -5,11 +5,11 @@ VALUES (0x75BC6001,  1154, 0x5BC60027, 118.1602, 146.7924, 77.99863, 0.1333979, 
 /* @teleloc 0x5BC60027 [118.160200 146.792400 77.998630] 0.133398 0.000000 0.000000 -0.991063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BC6001, 0x75BC6002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x75BC6001, 0x75BC6003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75BC6001, 0x75BC6004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75BC6001, 0x75BC6005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75BC6001, 0x75BC6006, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x75BC6001, 0x75BC6002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x75BC6001, 0x75BC6003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75BC6001, 0x75BC6004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75BC6001, 0x75BC6005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75BC6001, 0x75BC6006, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BC6002, 28653, 0x5BC60027, 118.1602, 146.7924, 77.99863, 0.1333979, 0, 0, -0.9910626,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

@@ -5,17 +5,17 @@ VALUES (0x712BC001,  1154, 0x12BC0002, 5.171159, 42.1363, 38.96528, -0.806457, 0
 /* @teleloc 0x12BC0002 [5.171159 42.136300 38.965280] -0.806457 0.000000 0.000000 -0.591293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x712BC001, 0x712BC002, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x712BC001, 0x712BC003, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x712BC001, 0x712BC004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x712BC001, 0x712BC005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x712BC001, 0x712BC006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x712BC001, 0x712BC007, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x712BC001, 0x712BC008, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x712BC001, 0x712BC009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x712BC001, 0x712BC00A, '2019-02-10 00:00:00') /* Assassin */
-     , (0x712BC001, 0x712BC00B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x712BC001, 0x712BC00C, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x712BC001, 0x712BC002, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x712BC001, 0x712BC003, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x712BC001, 0x712BC004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x712BC001, 0x712BC005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x712BC001, 0x712BC006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x712BC001, 0x712BC007, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x712BC001, 0x712BC008, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x712BC001, 0x712BC009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x712BC001, 0x712BC00A, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x712BC001, 0x712BC00B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x712BC001, 0x712BC00C, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712BC002, 11486, 0x12BC0002, 5.171159, 42.1363, 38.96528, -0.806457, 0, 0, -0.5912927,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
@@ -66,10 +66,10 @@ VALUES (0x712BC00D,  1542, 0x12BC0038, 165.366, 169.7346, 20.06, 1, 0, 0, 0, Fal
 /* @teleloc 0x12BC0038 [165.366000 169.734600 20.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x712BC00D, 0x712BC00E, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x712BC00D, 0x712BC00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x712BC00D, 0x712BC010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x712BC00D, 0x712BC011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x712BC00D, 0x712BC00E, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x712BC00D, 0x712BC00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x712BC00D, 0x712BC010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x712BC00D, 0x712BC011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x712BC00E,  9024, 0x12BC0038, 165.366, 169.7346, 20.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

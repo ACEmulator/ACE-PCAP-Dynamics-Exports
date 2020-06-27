@@ -5,21 +5,21 @@ VALUES (0x7A3AA001,  1154, 0xA3AA002D, 127.3642, 108.8379, 65.39841, 0.8524337, 
 /* @teleloc 0xA3AA002D [127.364200 108.837900 65.398410] 0.852434 0.000000 0.000000 -0.522835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AA001, 0x7A3AA002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A3AA001, 0x7A3AA003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A3AA001, 0x7A3AA004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A3AA001, 0x7A3AA005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3AA001, 0x7A3AA006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A3AA001, 0x7A3AA007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3AA001, 0x7A3AA008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A3AA001, 0x7A3AA009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A3AA001, 0x7A3AA00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A3AA001, 0x7A3AA00B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A3AA001, 0x7A3AA00C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3AA001, 0x7A3AA00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3AA001, 0x7A3AA00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3AA001, 0x7A3AA00F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A3AA001, 0x7A3AA010, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A3AA001, 0x7A3AA002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A3AA001, 0x7A3AA003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A3AA001, 0x7A3AA004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A3AA001, 0x7A3AA005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AA001, 0x7A3AA006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A3AA001, 0x7A3AA007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3AA001, 0x7A3AA008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A3AA001, 0x7A3AA009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A3AA001, 0x7A3AA00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A3AA001, 0x7A3AA00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A3AA001, 0x7A3AA00C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3AA001, 0x7A3AA00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3AA001, 0x7A3AA00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3AA001, 0x7A3AA00F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A3AA001, 0x7A3AA010, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AA002,  1627, 0xA3AA002D, 127.3642, 108.8379, 65.39841, 0.8524337, 0, 0, -0.5228353,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -86,7 +86,7 @@ VALUES (0x7A3AA011,  1542, 0xA3AA0024, 110.7305, 79.42563, 68, 0.9990482, 0, 0, 
 /* @teleloc 0xA3AA0024 [110.730500 79.425630 68.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AA011, 0x7A3AA012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A3AA011, 0x7A3AA012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AA012,  4179, 0xA3AA0024, 110.7305, 79.42563, 68, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

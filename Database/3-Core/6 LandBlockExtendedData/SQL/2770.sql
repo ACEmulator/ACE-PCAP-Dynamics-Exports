@@ -5,16 +5,16 @@ VALUES (0x72770001,  1154, 0x2770000A, 36.03355, 45.68976, 87.18881, 0.7071068, 
 /* @teleloc 0x2770000A [36.033550 45.689760 87.188810] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72770001, 0x72770002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72770001, 0x72770003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72770001, 0x72770004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72770001, 0x72770005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72770001, 0x72770006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72770001, 0x72770007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72770001, 0x72770008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72770001, 0x72770009, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72770001, 0x7277000A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72770001, 0x7277000B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */;
+VALUES (0x72770001, 0x72770002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72770001, 0x72770003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72770001, 0x72770004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72770001, 0x72770005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72770001, 0x72770006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72770001, 0x72770007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72770001, 0x72770008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72770001, 0x72770009, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72770001, 0x7277000A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72770001, 0x7277000B, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72770002, 36840, 0x2770000A, 36.03355, 45.68976, 87.18881, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -61,7 +61,7 @@ VALUES (0x7277000C,  1542, 0x2770000B, 33.69212, 48.64909, 88.23828, 0.9990482, 
 /* @teleloc 0x2770000B [33.692120 48.649090 88.238280] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277000C, 0x7277000D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7277000C, 0x7277000D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277000D,  4179, 0x2770000B, 33.69212, 48.64909, 88.23828, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

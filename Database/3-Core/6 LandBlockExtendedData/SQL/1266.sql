@@ -5,14 +5,14 @@ VALUES (0x71266001,  1154, 0x1266003D, 185.7695, 110.481, 45.41829, -0.01844342,
 /* @teleloc 0x1266003D [185.769500 110.481000 45.418290] -0.018443 0.000000 0.000000 -0.999830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71266001, 0x71266002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71266001, 0x71266003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71266001, 0x71266004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71266001, 0x71266005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71266001, 0x71266006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71266001, 0x71266007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71266001, 0x71266008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71266001, 0x71266009, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71266001, 0x71266002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71266001, 0x71266003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71266001, 0x71266004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71266001, 0x71266005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71266001, 0x71266006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71266001, 0x71266007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71266001, 0x71266008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71266001, 0x71266009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71266002, 22054, 0x1266003D, 185.7695, 110.481, 45.41829, -0.01844342, 0, 0, -0.9998299,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */

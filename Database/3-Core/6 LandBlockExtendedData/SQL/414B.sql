@@ -5,27 +5,27 @@ VALUES (0x7414B001,  1154, 0x414B001A, 92.1742, 29.4313, 3.027231, 0.7735118, 0,
 /* @teleloc 0x414B001A [92.174200 29.431300 3.027231] 0.773512 0.000000 0.000000 -0.633782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7414B001, 0x7414B002, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B003, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B004, '2019-02-10 00:00:00') /* Thralled Ruuk Seer */
-     , (0x7414B001, 0x7414B005, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B006, '2019-02-10 00:00:00') /* Thralled Ruuk Seer */
-     , (0x7414B001, 0x7414B007, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend */
-     , (0x7414B001, 0x7414B008, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B009, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B00A, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7414B001, 0x7414B00B, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend */
-     , (0x7414B001, 0x7414B00C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7414B001, 0x7414B00D, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7414B001, 0x7414B00E, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7414B001, 0x7414B00F, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7414B001, 0x7414B010, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B011, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B012, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend */
-     , (0x7414B001, 0x7414B013, '2019-02-10 00:00:00') /* Thralled Ruuk Seer */
-     , (0x7414B001, 0x7414B014, '2019-02-10 00:00:00') /* Thralled Ruuk Seer */
-     , (0x7414B001, 0x7414B015, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */
-     , (0x7414B001, 0x7414B016, '2019-02-10 00:00:00') /* Thralled Guruk Heavy */;
+VALUES (0x7414B001, 0x7414B002, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B003, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B004, '2019-02-10 00:00:00') /* Thralled Ruuk Seer (34338) */
+     , (0x7414B001, 0x7414B005, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B006, '2019-02-10 00:00:00') /* Thralled Ruuk Seer (34338) */
+     , (0x7414B001, 0x7414B007, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend (34336) */
+     , (0x7414B001, 0x7414B008, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B009, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B00A, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7414B001, 0x7414B00B, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend (34336) */
+     , (0x7414B001, 0x7414B00C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7414B001, 0x7414B00D, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7414B001, 0x7414B00E, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7414B001, 0x7414B00F, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7414B001, 0x7414B010, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B011, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B012, '2019-02-10 00:00:00') /* Thralled Ruuk Fiend (34336) */
+     , (0x7414B001, 0x7414B013, '2019-02-10 00:00:00') /* Thralled Ruuk Seer (34338) */
+     , (0x7414B001, 0x7414B014, '2019-02-10 00:00:00') /* Thralled Ruuk Seer (34338) */
+     , (0x7414B001, 0x7414B015, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */
+     , (0x7414B001, 0x7414B016, '2019-02-10 00:00:00') /* Thralled Guruk Heavy (34332) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7414B002, 34332, 0x414B001A, 92.1742, 29.4313, 3.027231, 0.7735118, 0, 0, -0.6337819,  True, '2019-02-10 00:00:00'); /* Thralled Guruk Heavy */

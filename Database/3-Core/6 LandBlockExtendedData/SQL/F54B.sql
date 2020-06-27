@@ -5,12 +5,12 @@ VALUES (0x7F54B001,  1154, 0xF54B0013, 53.76661, 58.02955, 6.240441, 0.3855806, 
 /* @teleloc 0xF54B0013 [53.766610 58.029550 6.240441] 0.385581 0.000000 0.000000 -0.922674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F54B001, 0x7F54B002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F54B001, 0x7F54B003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F54B001, 0x7F54B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F54B001, 0x7F54B005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F54B001, 0x7F54B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F54B001, 0x7F54B007, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7F54B001, 0x7F54B002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F54B001, 0x7F54B003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F54B001, 0x7F54B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F54B001, 0x7F54B005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F54B001, 0x7F54B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F54B001, 0x7F54B007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F54B002,  2564, 0xF54B0013, 53.76661, 58.02955, 6.240441, 0.3855806, 0, 0, -0.9226741,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

@@ -5,11 +5,11 @@ VALUES (0x7ABE5001,  1154, 0xABE5003F, 189.945, 167.3097, 4.17785, -0.02734444, 
 /* @teleloc 0xABE5003F [189.945000 167.309700 4.177850] -0.027344 0.000000 0.000000 -0.999626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABE5001, 0x7ABE5002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7ABE5001, 0x7ABE5003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7ABE5001, 0x7ABE5004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7ABE5001, 0x7ABE5005, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7ABE5001, 0x7ABE5006, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7ABE5001, 0x7ABE5002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7ABE5001, 0x7ABE5003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7ABE5001, 0x7ABE5004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7ABE5001, 0x7ABE5005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7ABE5001, 0x7ABE5006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABE5002,  7103, 0xABE5003F, 189.945, 167.3097, 4.17785, -0.02734444, 0, 0, -0.9996261,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */

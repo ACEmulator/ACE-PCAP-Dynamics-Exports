@@ -5,17 +5,17 @@ VALUES (0x7B5AA001,  1154, 0xB5AA0026, 114.7022, 124.9173, 92.79884, -0.1736482,
 /* @teleloc 0xB5AA0026 [114.702200 124.917300 92.798840] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5AA001, 0x7B5AA002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B5AA001, 0x7B5AA003, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B5AA001, 0x7B5AA004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B5AA001, 0x7B5AA005, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B5AA001, 0x7B5AA006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B5AA001, 0x7B5AA007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B5AA001, 0x7B5AA008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B5AA001, 0x7B5AA009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B5AA001, 0x7B5AA00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B5AA001, 0x7B5AA00B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B5AA001, 0x7B5AA00C, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7B5AA001, 0x7B5AA002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B5AA001, 0x7B5AA003, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B5AA001, 0x7B5AA004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B5AA001, 0x7B5AA005, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B5AA001, 0x7B5AA006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B5AA001, 0x7B5AA007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B5AA001, 0x7B5AA008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B5AA001, 0x7B5AA009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B5AA001, 0x7B5AA00A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B5AA001, 0x7B5AA00B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B5AA001, 0x7B5AA00C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5AA002,   236, 0xB5AA0026, 114.7022, 124.9173, 92.79884, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Female Tusker */

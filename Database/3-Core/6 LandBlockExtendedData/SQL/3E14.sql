@@ -5,19 +5,19 @@ VALUES (0x73E14001,  1154, 0x3E140002, 5.995536, 29.11272, -0.8974999, 0.7071068
 /* @teleloc 0x3E140002 [5.995536 29.112720 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E14001, 0x73E14002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73E14001, 0x73E14003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73E14001, 0x73E14004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73E14001, 0x73E14005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73E14001, 0x73E14006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73E14001, 0x73E14007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73E14001, 0x73E14008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73E14001, 0x73E14009, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73E14001, 0x73E1400A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73E14001, 0x73E1400B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73E14001, 0x73E1400C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E14001, 0x73E1400D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E14001, 0x73E1400E, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73E14001, 0x73E14002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73E14001, 0x73E14003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73E14001, 0x73E14004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73E14001, 0x73E14005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73E14001, 0x73E14006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E14001, 0x73E14007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73E14001, 0x73E14008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73E14001, 0x73E14009, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73E14001, 0x73E1400A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73E14001, 0x73E1400B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73E14001, 0x73E1400C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E14001, 0x73E1400D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E14001, 0x73E1400E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E14002, 36855, 0x3E140002, 5.995536, 29.11272, -0.8974999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -76,7 +76,7 @@ VALUES (0x73E1400F,  1542, 0x3E140002, 3.974429, 24.33411, -0.9, 0.9990482, 0, 0
 /* @teleloc 0x3E140002 [3.974429 24.334110 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E1400F, 0x73E14010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73E1400F, 0x73E14010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E14010,  4179, 0x3E140002, 3.974429, 24.33411, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

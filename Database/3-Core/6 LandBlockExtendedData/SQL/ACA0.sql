@@ -5,22 +5,22 @@ VALUES (0x7ACA0001,  1154, 0xACA00027, 99.39332, 159.294, 109.2875, 0.3022946, 0
 /* @teleloc 0xACA00027 [99.393320 159.294000 109.287500] 0.302295 0.000000 0.000000 -0.953215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACA0001, 0x7ACA0002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ACA0001, 0x7ACA0003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7ACA0001, 0x7ACA0004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ACA0001, 0x7ACA0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ACA0001, 0x7ACA0006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7ACA0001, 0x7ACA0007, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7ACA0001, 0x7ACA0008, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7ACA0001, 0x7ACA0009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7ACA0001, 0x7ACA000A, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7ACA0001, 0x7ACA000B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7ACA0001, 0x7ACA000C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ACA0001, 0x7ACA000D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ACA0001, 0x7ACA000E, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7ACA0001, 0x7ACA000F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ACA0001, 0x7ACA0010, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ACA0001, 0x7ACA0011, '2019-02-10 00:00:00') /* Harvest Reaper */;
+VALUES (0x7ACA0001, 0x7ACA0002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ACA0001, 0x7ACA0003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7ACA0001, 0x7ACA0004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ACA0001, 0x7ACA0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ACA0001, 0x7ACA0006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7ACA0001, 0x7ACA0007, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7ACA0001, 0x7ACA0008, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7ACA0001, 0x7ACA0009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7ACA0001, 0x7ACA000A, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7ACA0001, 0x7ACA000B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7ACA0001, 0x7ACA000C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ACA0001, 0x7ACA000D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ACA0001, 0x7ACA000E, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7ACA0001, 0x7ACA000F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ACA0001, 0x7ACA0010, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ACA0001, 0x7ACA0011, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACA0002,   217, 0xACA00027, 99.39332, 159.294, 109.2875, 0.3022946, 0, 0, -0.9532145,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -91,9 +91,9 @@ VALUES (0x7ACA0012,  1542, 0xACA0001B, 73.27366, 58.38443, 116.74, 0.9238795, 0,
 /* @teleloc 0xACA0001B [73.273660 58.384430 116.740000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACA0012, 0x7ACA0013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7ACA0012, 0x7ACA0014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ACA0012, 0x7ACA0015, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7ACA0012, 0x7ACA0013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7ACA0012, 0x7ACA0014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ACA0012, 0x7ACA0015, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACA0013,  4380, 0xACA0001B, 73.27366, 58.38443, 116.74, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

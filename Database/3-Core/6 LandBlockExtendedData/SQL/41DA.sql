@@ -5,29 +5,29 @@ VALUES (0x741DA001,  1154, 0x41DA000F, 46.82847, 163.0707, 22.89876, 0.7071068, 
 /* @teleloc 0x41DA000F [46.828470 163.070700 22.898760] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DA001, 0x741DA002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DA001, 0x741DA003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741DA001, 0x741DA004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741DA001, 0x741DA005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741DA001, 0x741DA006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741DA001, 0x741DA007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x741DA001, 0x741DA008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x741DA001, 0x741DA009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x741DA001, 0x741DA00A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x741DA001, 0x741DA00B, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x741DA001, 0x741DA00C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DA001, 0x741DA00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DA001, 0x741DA00E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DA001, 0x741DA00F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x741DA001, 0x741DA010, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x741DA001, 0x741DA011, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x741DA001, 0x741DA012, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DA001, 0x741DA013, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x741DA001, 0x741DA014, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DA001, 0x741DA015, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DA001, 0x741DA016, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x741DA001, 0x741DA017, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741DA001, 0x741DA018, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x741DA001, 0x741DA002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DA001, 0x741DA003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741DA001, 0x741DA004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741DA001, 0x741DA005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741DA001, 0x741DA006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741DA001, 0x741DA007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x741DA001, 0x741DA008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x741DA001, 0x741DA009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x741DA001, 0x741DA00A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x741DA001, 0x741DA00B, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x741DA001, 0x741DA00C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DA001, 0x741DA00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DA001, 0x741DA00E, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DA001, 0x741DA00F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x741DA001, 0x741DA010, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x741DA001, 0x741DA011, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x741DA001, 0x741DA012, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DA001, 0x741DA013, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x741DA001, 0x741DA014, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DA001, 0x741DA015, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DA001, 0x741DA016, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x741DA001, 0x741DA017, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741DA001, 0x741DA018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DA002,  7184, 0x41DA000F, 46.82847, 163.0707, 22.89876, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

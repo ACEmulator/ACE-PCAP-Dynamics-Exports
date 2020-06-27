@@ -5,30 +5,30 @@ VALUES (0x7BF13001,  1154, 0xBF130006, 17.3551, 126.5891, 0.797179, 0.8660254, 0
 /* @teleloc 0xBF130006 [17.355100 126.589100 0.797179] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF13001, 0x7BF13002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BF13001, 0x7BF13003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BF13001, 0x7BF13004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BF13001, 0x7BF13005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BF13001, 0x7BF13006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BF13001, 0x7BF13007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BF13001, 0x7BF13008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BF13001, 0x7BF13009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BF13001, 0x7BF1300A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BF13001, 0x7BF1300B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BF13001, 0x7BF1300C, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BF13001, 0x7BF1300D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BF13001, 0x7BF1300E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF1300F, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BF13001, 0x7BF13010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF13011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF13012, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BF13001, 0x7BF13013, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BF13001, 0x7BF13014, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF13015, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF13016, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BF13001, 0x7BF13017, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BF13001, 0x7BF13018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BF13001, 0x7BF13019, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7BF13001, 0x7BF13002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BF13001, 0x7BF13003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BF13001, 0x7BF13004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BF13001, 0x7BF13005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BF13001, 0x7BF13006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BF13001, 0x7BF13007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BF13001, 0x7BF13008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BF13001, 0x7BF13009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BF13001, 0x7BF1300A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BF13001, 0x7BF1300B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BF13001, 0x7BF1300C, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BF13001, 0x7BF1300D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BF13001, 0x7BF1300E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF1300F, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BF13001, 0x7BF13010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF13011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF13012, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BF13001, 0x7BF13013, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BF13001, 0x7BF13014, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF13015, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF13016, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BF13001, 0x7BF13017, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BF13001, 0x7BF13018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BF13001, 0x7BF13019, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF13002,  7988, 0xBF130006, 17.3551, 126.5891, 0.797179, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -131,7 +131,7 @@ VALUES (0x7BF1301A,  1542, 0xBF130024, 117.7238, 94.1403, 94.73338, 1, 0, 0, 0, 
 /* @teleloc 0xBF130024 [117.723800 94.140300 94.733380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF1301A, 0x7BF1301B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BF1301A, 0x7BF1301B, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF1301B,  4379, 0xBF130024, 117.7238, 94.1403, 94.73338, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

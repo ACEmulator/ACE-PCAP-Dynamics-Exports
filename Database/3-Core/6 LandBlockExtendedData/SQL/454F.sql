@@ -5,12 +5,12 @@ VALUES (0x7454F001,  1154, 0x454F0031, 157.9563, 19.30932, 3.22482, 0.8660254, 0
 /* @teleloc 0x454F0031 [157.956300 19.309320 3.224820] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454F001, 0x7454F002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7454F001, 0x7454F003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7454F001, 0x7454F004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7454F001, 0x7454F005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7454F001, 0x7454F006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7454F001, 0x7454F007, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x7454F001, 0x7454F002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7454F001, 0x7454F003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7454F001, 0x7454F004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7454F001, 0x7454F005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7454F001, 0x7454F006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7454F001, 0x7454F007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454F002,  4248, 0x454F0031, 157.9563, 19.30932, 3.22482, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

@@ -5,10 +5,10 @@ VALUES (0x7C43A001,  1154, 0xC43A0020, 76.15451, 175.7525, 67.31008, -0.9753034,
 /* @teleloc 0xC43A0020 [76.154510 175.752500 67.310080] -0.975303 0.000000 0.000000 -0.220870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C43A001, 0x7C43A002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7C43A001, 0x7C43A003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C43A001, 0x7C43A004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C43A001, 0x7C43A005, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C43A001, 0x7C43A002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7C43A001, 0x7C43A003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C43A001, 0x7C43A004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C43A001, 0x7C43A005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C43A002,  8270, 0xC43A0020, 76.15451, 175.7525, 67.31008, -0.9753034, 0, 0, -0.2208696,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
@@ -31,7 +31,7 @@ VALUES (0x7C43A006,  1542, 0xC43A000B, 24.68897, 49.38517, 53.94258, 0.9918269, 
 /* @teleloc 0xC43A000B [24.688970 49.385170 53.942580] 0.991827 0.000000 0.000000 -0.127591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C43A006, 0x7C43A007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C43A006, 0x7C43A007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C43A007,  8037, 0xC43A000B, 24.68897, 49.38517, 53.94258, 0.9918269, 0, 0, -0.1275908,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

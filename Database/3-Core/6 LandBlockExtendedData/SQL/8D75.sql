@@ -5,16 +5,16 @@ VALUES (0x78D75001,  1154, 0x8D750038, 166.6497, 178.9674, 59.985, -0.7019742, 0
 /* @teleloc 0x8D750038 [166.649700 178.967400 59.985000] -0.701974 0.000000 0.000000 -0.712202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D75001, 0x78D75002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x78D75001, 0x78D75003, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78D75001, 0x78D75004, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78D75001, 0x78D75005, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x78D75001, 0x78D75006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x78D75001, 0x78D75007, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x78D75001, 0x78D75008, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78D75001, 0x78D75009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78D75001, 0x78D7500A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x78D75001, 0x78D7500B, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x78D75001, 0x78D75002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x78D75001, 0x78D75003, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78D75001, 0x78D75004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78D75001, 0x78D75005, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x78D75001, 0x78D75006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x78D75001, 0x78D75007, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x78D75001, 0x78D75008, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78D75001, 0x78D75009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78D75001, 0x78D7500A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x78D75001, 0x78D7500B, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D75002,  4110, 0x8D750038, 166.6497, 178.9674, 59.985, -0.7019742, 0, 0, -0.7122023,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

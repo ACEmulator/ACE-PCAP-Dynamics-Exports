@@ -5,10 +5,10 @@ VALUES (0x78F83001,  1154, 0x8F83003C, 171.9841, 74.12469, 47.67624, -0.9994232,
 /* @teleloc 0x8F83003C [171.984100 74.124690 47.676240] -0.999423 0.000000 0.000000 -0.033960 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F83001, 0x78F83002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x78F83001, 0x78F83003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78F83001, 0x78F83004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78F83001, 0x78F83005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x78F83001, 0x78F83002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x78F83001, 0x78F83003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78F83001, 0x78F83004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78F83001, 0x78F83005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F83002,  8673, 0x8F83003C, 171.9841, 74.12469, 47.67624, -0.9994232, 0, 0, -0.03395992,  True, '2019-02-10 00:00:00'); /* Risen Knight */

@@ -5,10 +5,10 @@ VALUES (0x7CE69001,  1154, 0xCE690034, 145.4745, 90.08268, 75.01678, 0.8320757, 
 /* @teleloc 0xCE690034 [145.474500 90.082680 75.016780] 0.832076 0.000000 0.000000 -0.554662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE69001, 0x7CE69002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CE69001, 0x7CE69003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CE69001, 0x7CE69004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CE69001, 0x7CE69005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7CE69001, 0x7CE69002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CE69001, 0x7CE69003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CE69001, 0x7CE69004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CE69001, 0x7CE69005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE69002, 21168, 0xCE690034, 145.4745, 90.08268, 75.01678, 0.8320757, 0, 0, -0.554662,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -31,7 +31,7 @@ VALUES (0x7CE69006,  1542, 0xCE690010, 44.16217, 170.7276, 77.68018, -0.8457308,
 /* @teleloc 0xCE690010 [44.162170 170.727600 77.680180] -0.845731 0.000000 0.000000 -0.533610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE69006, 0x7CE69007, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7CE69006, 0x7CE69007, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE69007,  8041, 0xCE690010, 44.16217, 170.7276, 77.68018, -0.8457308, 0, 0, -0.5336097,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

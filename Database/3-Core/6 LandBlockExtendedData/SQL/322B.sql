@@ -5,25 +5,25 @@ VALUES (0x7322B001,  1154, 0x322B0001, 15.84142, 18.02985, 104.1527, -0.8898878,
 /* @teleloc 0x322B0001 [15.841420 18.029850 104.152700] -0.889888 0.000000 0.000000 -0.456179 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7322B001, 0x7322B002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7322B001, 0x7322B003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7322B001, 0x7322B004, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7322B001, 0x7322B005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7322B001, 0x7322B006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7322B001, 0x7322B007, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7322B001, 0x7322B008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7322B001, 0x7322B009, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7322B001, 0x7322B00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322B001, 0x7322B00B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7322B001, 0x7322B00C, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7322B001, 0x7322B00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7322B001, 0x7322B00E, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7322B001, 0x7322B00F, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7322B001, 0x7322B010, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7322B001, 0x7322B011, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7322B001, 0x7322B012, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7322B001, 0x7322B013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7322B001, 0x7322B014, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7322B001, 0x7322B002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7322B001, 0x7322B003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7322B001, 0x7322B004, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7322B001, 0x7322B005, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7322B001, 0x7322B006, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7322B001, 0x7322B007, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x7322B001, 0x7322B008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7322B001, 0x7322B009, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7322B001, 0x7322B00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322B001, 0x7322B00B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7322B001, 0x7322B00C, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7322B001, 0x7322B00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7322B001, 0x7322B00E, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7322B001, 0x7322B00F, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7322B001, 0x7322B010, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7322B001, 0x7322B011, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7322B001, 0x7322B012, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7322B001, 0x7322B013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7322B001, 0x7322B014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7322B002, 11535, 0x322B0001, 15.84142, 18.02985, 104.1527, -0.8898878, 0, 0, -0.4561794,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -106,7 +106,7 @@ VALUES (0x7322B015,  1542, 0x322B003A, 173.5671, 44.96545, 83.42749, 1, 0, 0, 0,
 /* @teleloc 0x322B003A [173.567100 44.965450 83.427490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7322B015, 0x7322B016, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7322B015, 0x7322B016, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7322B016,  8999, 0x322B003A, 173.5671, 44.96545, 83.42749, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

@@ -5,9 +5,9 @@ VALUES (0x79F70001,  1154, 0x9F700030, 133.2766, 174.5526, 24.54905, 0.8755066, 
 /* @teleloc 0x9F700030 [133.276600 174.552600 24.549050] 0.875507 0.000000 0.000000 -0.483206 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F70001, 0x79F70002, '2019-02-10 00:00:00') /* Gout */
-     , (0x79F70001, 0x79F70003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79F70001, 0x79F70004, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x79F70001, 0x79F70002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79F70001, 0x79F70003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79F70001, 0x79F70004, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F70002, 21164, 0x9F700030, 133.2766, 174.5526, 24.54905, 0.8755066, 0, 0, -0.4832062,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -26,7 +26,7 @@ VALUES (0x79F70005,  1542, 0x9F700030, 139.2859, 182.0349, 25.16958, 0.9990482, 
 /* @teleloc 0x9F700030 [139.285900 182.034900 25.169580] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F70005, 0x79F70006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79F70005, 0x79F70006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F70006,  4179, 0x9F700030, 139.2859, 182.0349, 25.16958, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

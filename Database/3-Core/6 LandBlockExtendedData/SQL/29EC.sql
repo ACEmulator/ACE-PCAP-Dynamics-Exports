@@ -5,19 +5,19 @@ VALUES (0x729EC001,  1154, 0x29EC002E, 143.9714, 135.2029, 30.0065, 0.0728999, 0
 /* @teleloc 0x29EC002E [143.971400 135.202900 30.006500] 0.072900 0.000000 0.000000 -0.997339 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729EC001, 0x729EC002, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x729EC001, 0x729EC003, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EC001, 0x729EC004, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x729EC001, 0x729EC005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x729EC001, 0x729EC006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x729EC001, 0x729EC007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x729EC001, 0x729EC008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x729EC001, 0x729EC009, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x729EC001, 0x729EC00A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x729EC001, 0x729EC00B, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x729EC001, 0x729EC00C, '2019-02-10 00:00:00') /* Eater */
-     , (0x729EC001, 0x729EC00D, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x729EC001, 0x729EC00E, '2019-02-10 00:00:00') /* Raving Fiun */;
+VALUES (0x729EC001, 0x729EC002, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x729EC001, 0x729EC003, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EC001, 0x729EC004, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EC001, 0x729EC005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x729EC001, 0x729EC006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729EC001, 0x729EC007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x729EC001, 0x729EC008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729EC001, 0x729EC009, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x729EC001, 0x729EC00A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x729EC001, 0x729EC00B, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x729EC001, 0x729EC00C, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x729EC001, 0x729EC00D, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x729EC001, 0x729EC00E, '2019-02-10 00:00:00') /* Raving Fiun (28647) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729EC002,  7116, 0x29EC002E, 143.9714, 135.2029, 30.0065, 0.0728999, 0, 0, -0.9973392,  True, '2019-02-10 00:00:00'); /* High Mu-miyah */

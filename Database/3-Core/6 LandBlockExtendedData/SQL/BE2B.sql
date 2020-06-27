@@ -5,10 +5,10 @@ VALUES (0x7BE2B001,  1154, 0xBE2B003C, 168.5256, 79.3207, 211.9784, 0.728987, 0,
 /* @teleloc 0xBE2B003C [168.525600 79.320700 211.978400] 0.728987 0.000000 0.000000 -0.684528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE2B001, 0x7BE2B002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE2B001, 0x7BE2B003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BE2B001, 0x7BE2B004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BE2B001, 0x7BE2B005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7BE2B001, 0x7BE2B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE2B001, 0x7BE2B003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BE2B001, 0x7BE2B004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BE2B001, 0x7BE2B005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE2B002,  4254, 0xBE2B003C, 168.5256, 79.3207, 211.9784, 0.728987, 0, 0, -0.6845275,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -31,7 +31,7 @@ VALUES (0x7BE2B006,  1542, 0xBE2B003F, 183.2644, 161.1664, 220, 0.9537169, 0, 0,
 /* @teleloc 0xBE2B003F [183.264400 161.166400 220.000000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE2B006, 0x7BE2B007, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal */;
+VALUES (0x7BE2B006, 0x7BE2B007, '2019-02-10 00:00:00') /* Direlands Desert Northeast Portal (8383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE2B007,  8383, 0xBE2B003F, 183.2644, 161.1664, 220, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Desert Northeast Portal */

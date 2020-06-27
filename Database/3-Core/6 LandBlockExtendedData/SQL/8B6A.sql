@@ -5,11 +5,11 @@ VALUES (0x78B6A001,  1154, 0x8B6A002A, 138.6775, 24.65138, 9.562458, -0.7400698,
 /* @teleloc 0x8B6A002A [138.677500 24.651380 9.562458] -0.740070 0.000000 0.000000 -0.672530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B6A001, 0x78B6A002, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x78B6A001, 0x78B6A003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78B6A001, 0x78B6A004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78B6A001, 0x78B6A005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78B6A001, 0x78B6A006, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x78B6A001, 0x78B6A002, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78B6A001, 0x78B6A003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78B6A001, 0x78B6A004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78B6A001, 0x78B6A005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78B6A001, 0x78B6A006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B6A002,  1764, 0x8B6A002A, 138.6775, 24.65138, 9.562458, -0.7400698, 0, 0, -0.6725301,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */

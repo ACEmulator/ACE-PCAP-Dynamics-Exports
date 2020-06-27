@@ -5,14 +5,14 @@ VALUES (0x7C79F001,  1154, 0xC79F0031, 160.1905, 22.97264, 12.0026, 0.3408183, 0
 /* @teleloc 0xC79F0031 [160.190500 22.972640 12.002600] 0.340818 0.000000 0.000000 -0.940129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C79F001, 0x7C79F002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C79F001, 0x7C79F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C79F001, 0x7C79F004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C79F001, 0x7C79F005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C79F001, 0x7C79F006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7C79F001, 0x7C79F007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C79F001, 0x7C79F008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C79F001, 0x7C79F009, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7C79F001, 0x7C79F002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C79F001, 0x7C79F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C79F001, 0x7C79F004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C79F001, 0x7C79F005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C79F001, 0x7C79F006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7C79F001, 0x7C79F007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C79F001, 0x7C79F008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C79F001, 0x7C79F009, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C79F002, 19439, 0xC79F0031, 160.1905, 22.97264, 12.0026, 0.3408183, 0, 0, -0.9401292,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

@@ -5,9 +5,9 @@ VALUES (0x7CABA001,  1154, 0xCABA003C, 176.7209, 94.33755, 90.54337, -0.3935311,
 /* @teleloc 0xCABA003C [176.720900 94.337550 90.543370] -0.393531 0.000000 0.000000 -0.919311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CABA001, 0x7CABA002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CABA001, 0x7CABA003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CABA001, 0x7CABA004, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CABA001, 0x7CABA002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CABA001, 0x7CABA003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CABA001, 0x7CABA004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CABA002, 24958, 0xCABA003C, 176.7209, 94.33755, 90.54337, -0.3935311, 0, 0, -0.9193113,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

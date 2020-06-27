@@ -5,8 +5,8 @@ VALUES (0x7335C001,  1154, 0x335C0022, 99.19804, 30.04916, 40.0065, -0.951185, 0
 /* @teleloc 0x335C0022 [99.198040 30.049160 40.006500] -0.951185 0.000000 0.000000 -0.308621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335C001, 0x7335C002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7335C001, 0x7335C003, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x7335C001, 0x7335C002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7335C001, 0x7335C003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335C002, 23617, 0x335C0022, 99.19804, 30.04916, 40.0065, -0.951185, 0, 0, -0.3086211,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

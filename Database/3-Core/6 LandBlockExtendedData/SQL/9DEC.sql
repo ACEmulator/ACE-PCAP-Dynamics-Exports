@@ -5,12 +5,12 @@ VALUES (0x79DEC001,  1154, 0x9DEC001A, 89.96328, 25.17633, 32.82006, -0.1466105,
 /* @teleloc 0x9DEC001A [89.963280 25.176330 32.820060] -0.146611 0.000000 0.000000 -0.989194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DEC001, 0x79DEC002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79DEC001, 0x79DEC003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79DEC001, 0x79DEC004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x79DEC001, 0x79DEC005, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x79DEC001, 0x79DEC006, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79DEC001, 0x79DEC007, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x79DEC001, 0x79DEC002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79DEC001, 0x79DEC003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79DEC001, 0x79DEC004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x79DEC001, 0x79DEC005, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x79DEC001, 0x79DEC006, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79DEC001, 0x79DEC007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DEC002, 14800, 0x9DEC001A, 89.96328, 25.17633, 32.82006, -0.1466105, 0, 0, -0.9891943,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

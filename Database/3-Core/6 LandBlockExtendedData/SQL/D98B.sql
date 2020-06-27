@@ -5,10 +5,10 @@ VALUES (0x7D98B001,  1154, 0xD98B000F, 25.46687, 160.0702, -0.8894999, 0.8757311
 /* @teleloc 0xD98B000F [25.466870 160.070200 -0.889500] 0.875731 0.000000 0.000000 -0.482799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D98B001, 0x7D98B002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D98B001, 0x7D98B003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D98B001, 0x7D98B004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D98B001, 0x7D98B005, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7D98B001, 0x7D98B002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D98B001, 0x7D98B003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D98B001, 0x7D98B004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D98B001, 0x7D98B005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D98B002,  2564, 0xD98B000F, 25.46687, 160.0702, -0.8894999, 0.8757311, 0, 0, -0.4827993,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

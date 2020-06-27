@@ -9,20 +9,20 @@ VALUES (0x7AD30001,  1154, 0xAD30000C, 41.28617, 92.81822, 118.246, -0.7660444, 
 /* @teleloc 0xAD30000C [41.286170 92.818220 118.246000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD30001, 0x7AD30002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD30001, 0x7AD30003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD30001, 0x7AD30004, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD30005, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD30006, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD30007, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD30008, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD30009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AD30001, 0x7AD3000A, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD3000B, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD3000C, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD3000D, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD3000E, '2019-02-10 00:00:00') /* Iron Golem Guardian */
-     , (0x7AD30001, 0x7AD3000F, '2019-02-10 00:00:00') /* Iron Golem Guardian */;
+VALUES (0x7AD30001, 0x7AD30002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD30001, 0x7AD30003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD30001, 0x7AD30004, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD30005, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD30006, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD30007, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD30008, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD30009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AD30001, 0x7AD3000A, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD3000B, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD3000C, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD3000D, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD3000E, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */
+     , (0x7AD30001, 0x7AD3000F, '2019-02-10 00:00:00') /* Iron Golem Guardian (23345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD30002, 14559, 0xAD30000C, 41.28617, 92.81822, 118.246, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -85,8 +85,8 @@ VALUES (0x7AD30010,  1542, 0xAD300018, 51.29003, 170.8819, 91.56392, 1, 0, 0, 0,
 /* @teleloc 0xAD300018 [51.290030 170.881900 91.563920] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD30010, 0x7AD30011, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AD30010, 0x7AD30012, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7AD30010, 0x7AD30011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AD30010, 0x7AD30012, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD30011,  4380, 0xAD300018, 51.29003, 170.8819, 91.56392, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

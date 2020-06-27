@@ -5,14 +5,14 @@ VALUES (0x7B722001,  1154, 0xB7220037, 144.2484, 164.0333, 381.8534, 0.7541755, 
 /* @teleloc 0xB7220037 [144.248400 164.033300 381.853400] 0.754176 0.000000 0.000000 -0.656673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B722001, 0x7B722002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B722001, 0x7B722003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B722001, 0x7B722004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B722001, 0x7B722005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B722001, 0x7B722006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B722001, 0x7B722007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B722001, 0x7B722008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B722001, 0x7B722009, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7B722001, 0x7B722002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B722001, 0x7B722003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B722001, 0x7B722004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B722001, 0x7B722005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B722001, 0x7B722006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B722001, 0x7B722007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B722001, 0x7B722008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B722001, 0x7B722009, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B722002, 38181, 0xB7220037, 144.2484, 164.0333, 381.8534, 0.7541755, 0, 0, -0.656673,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

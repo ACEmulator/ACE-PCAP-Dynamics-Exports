@@ -5,11 +5,11 @@ VALUES (0x74E16001,  1154, 0x4E16002F, 141.8136, 159.5209, 225.2712, 0.9415626, 
 /* @teleloc 0x4E16002F [141.813600 159.520900 225.271200] 0.941563 0.000000 0.000000 -0.336838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E16001, 0x74E16002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74E16001, 0x74E16003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74E16001, 0x74E16004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x74E16001, 0x74E16005, '2019-02-10 00:00:00') /* Frost */
-     , (0x74E16001, 0x74E16006, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x74E16001, 0x74E16002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74E16001, 0x74E16003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74E16001, 0x74E16004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x74E16001, 0x74E16005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x74E16001, 0x74E16006, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E16002, 23616, 0x4E16002F, 141.8136, 159.5209, 225.2712, 0.9415626, 0, 0, -0.336838,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

@@ -5,18 +5,18 @@ VALUES (0x7AC9F001,  1154, 0xAC9F0028, 102.4957, 182.1314, 109.4497, 0.3452117, 
 /* @teleloc 0xAC9F0028 [102.495700 182.131400 109.449700] 0.345212 0.000000 0.000000 -0.938525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC9F001, 0x7AC9F002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AC9F001, 0x7AC9F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AC9F001, 0x7AC9F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AC9F001, 0x7AC9F005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AC9F001, 0x7AC9F006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AC9F001, 0x7AC9F007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AC9F001, 0x7AC9F008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC9F001, 0x7AC9F009, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7AC9F001, 0x7AC9F00A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AC9F001, 0x7AC9F00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AC9F001, 0x7AC9F00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AC9F001, 0x7AC9F00D, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AC9F001, 0x7AC9F002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AC9F001, 0x7AC9F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AC9F001, 0x7AC9F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AC9F001, 0x7AC9F005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AC9F001, 0x7AC9F006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AC9F001, 0x7AC9F007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AC9F001, 0x7AC9F008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC9F001, 0x7AC9F009, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7AC9F001, 0x7AC9F00A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AC9F001, 0x7AC9F00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AC9F001, 0x7AC9F00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AC9F001, 0x7AC9F00D, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC9F002,  9253, 0xAC9F0028, 102.4957, 182.1314, 109.4497, 0.3452117, 0, 0, -0.9385248,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7AC9F00E,  1542, 0xAC9F0027, 115.4412, 151.5845, 108.7598, 1, 0, 0, 0,
 /* @teleloc 0xAC9F0027 [115.441200 151.584500 108.759800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC9F00E, 0x7AC9F00F, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7AC9F00E, 0x7AC9F00F, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC9F00F,  8232, 0xAC9F0027, 115.4412, 151.5845, 108.7598, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

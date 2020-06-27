@@ -5,17 +5,17 @@ VALUES (0x7C7DC001,  1154, 0xC7DC0009, 24.563, 23.09906, 48.08149, -0.6733029, 0
 /* @teleloc 0xC7DC0009 [24.563000 23.099060 48.081490] -0.673303 0.000000 0.000000 -0.739367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7DC001, 0x7C7DC002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C7DC001, 0x7C7DC003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C7DC001, 0x7C7DC004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C7DC001, 0x7C7DC005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C7DC001, 0x7C7DC006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C7DC001, 0x7C7DC007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C7DC001, 0x7C7DC008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7C7DC001, 0x7C7DC009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7C7DC001, 0x7C7DC00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C7DC001, 0x7C7DC00B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7C7DC001, 0x7C7DC00C, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7C7DC001, 0x7C7DC002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C7DC001, 0x7C7DC003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C7DC001, 0x7C7DC004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C7DC001, 0x7C7DC005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C7DC001, 0x7C7DC006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C7DC001, 0x7C7DC007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C7DC001, 0x7C7DC008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7C7DC001, 0x7C7DC009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7C7DC001, 0x7C7DC00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C7DC001, 0x7C7DC00B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7C7DC001, 0x7C7DC00C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7DC002,  4255, 0xC7DC0009, 24.563, 23.09906, 48.08149, -0.6733029, 0, 0, -0.7393668,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -66,8 +66,8 @@ VALUES (0x7C7DC00D,  1542, 0xC7DC0036, 167.5168, 121.5907, 32.05203, -4.371139E-
 /* @teleloc 0xC7DC0036 [167.516800 121.590700 32.052030] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7DC00D, 0x7C7DC00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C7DC00D, 0x7C7DC00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C7DC00D, 0x7C7DC00E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C7DC00D, 0x7C7DC00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7DC00E,  4380, 0xC7DC0036, 167.5168, 121.5907, 32.05203, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

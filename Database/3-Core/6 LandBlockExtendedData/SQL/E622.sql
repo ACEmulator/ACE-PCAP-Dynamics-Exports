@@ -5,21 +5,21 @@ VALUES (0x7E622001,  1154, 0xE622003F, 177.241, 149.2233, 21.83569, 0.8191521, 0
 /* @teleloc 0xE622003F [177.241000 149.223300 21.835690] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E622001, 0x7E622002, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E622001, 0x7E622003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E622001, 0x7E622004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E622005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E622006, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E622001, 0x7E622007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E622008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E622009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E62200A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E622001, 0x7E62200B, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E622001, 0x7E62200C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E622001, 0x7E62200D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E622001, 0x7E62200E, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E622001, 0x7E62200F, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E622001, 0x7E622010, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7E622001, 0x7E622002, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E622001, 0x7E622003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E622001, 0x7E622004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E622005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E622006, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E622001, 0x7E622007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E622008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E622009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E62200A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E622001, 0x7E62200B, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E622001, 0x7E62200C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E622001, 0x7E62200D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E622001, 0x7E62200E, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E622001, 0x7E62200F, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E622001, 0x7E622010, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E622002,  2578, 0xE622003F, 177.241, 149.2233, 21.83569, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Lurker */
@@ -86,7 +86,7 @@ VALUES (0x7E622011,  1542, 0xE6220018, 50.34644, 177.7101, 18.50739, 0.9238795, 
 /* @teleloc 0xE6220018 [50.346440 177.710100 18.507390] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E622011, 0x7E622012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7E622011, 0x7E622012, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E622012,  4382, 0xE6220018, 50.34644, 177.7101, 18.50739, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

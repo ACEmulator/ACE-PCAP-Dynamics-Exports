@@ -5,21 +5,21 @@ VALUES (0x71FB0001,  1154, 0x1FB00028, 96.15035, 189.1854, -0.45525, -0.9245765,
 /* @teleloc 0x1FB00028 [96.150350 189.185400 -0.455250] -0.924577 0.000000 0.000000 -0.380997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB0001, 0x71FB0002, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x71FB0001, 0x71FB0003, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x71FB0001, 0x71FB0004, '2019-02-10 00:00:00') /* Brigand */
-     , (0x71FB0001, 0x71FB0005, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB0001, 0x71FB0006, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB0001, 0x71FB0007, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB0001, 0x71FB0008, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x71FB0001, 0x71FB0009, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x71FB0001, 0x71FB000A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x71FB0001, 0x71FB000B, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x71FB0001, 0x71FB000C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x71FB0001, 0x71FB000D, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x71FB0001, 0x71FB000E, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x71FB0001, 0x71FB000F, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB0001, 0x71FB0010, '2019-02-10 00:00:00') /* Brigand */;
+VALUES (0x71FB0001, 0x71FB0002, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x71FB0001, 0x71FB0003, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x71FB0001, 0x71FB0004, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x71FB0001, 0x71FB0005, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB0001, 0x71FB0006, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB0001, 0x71FB0007, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB0001, 0x71FB0008, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x71FB0001, 0x71FB0009, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x71FB0001, 0x71FB000A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x71FB0001, 0x71FB000B, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x71FB0001, 0x71FB000C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x71FB0001, 0x71FB000D, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x71FB0001, 0x71FB000E, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x71FB0001, 0x71FB000F, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB0001, 0x71FB0010, '2019-02-10 00:00:00') /* Brigand (11500) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB0002, 11488, 0x1FB00028, 96.15035, 189.1854, -0.45525, -0.9245765, 0, 0, -0.3809965,  True, '2019-02-10 00:00:00'); /* Marsh Siraluun */
@@ -86,8 +86,8 @@ VALUES (0x71FB0011,  1542, 0x1FB00036, 152.0555, 124.0771, 0.0599998, 1, 0, 0, 0
 /* @teleloc 0x1FB00036 [152.055500 124.077100 0.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB0011, 0x71FB0012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB0011, 0x71FB0013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71FB0011, 0x71FB0012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB0011, 0x71FB0013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB0012,  9024, 0x1FB00036, 152.0555, 124.0771, 0.0599998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

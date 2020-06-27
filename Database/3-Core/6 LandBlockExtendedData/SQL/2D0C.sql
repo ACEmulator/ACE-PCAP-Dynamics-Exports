@@ -5,15 +5,15 @@ VALUES (0x72D0C001,  1154, 0x2D0C0010, 42.65257, 191.2781, 0.00999999, 0.7660445
 /* @teleloc 0x2D0C0010 [42.652570 191.278100 0.010000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0C001, 0x72D0C002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72D0C001, 0x72D0C003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72D0C001, 0x72D0C004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72D0C001, 0x72D0C005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72D0C001, 0x72D0C006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D0C001, 0x72D0C007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72D0C001, 0x72D0C008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D0C001, 0x72D0C009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72D0C001, 0x72D0C00A, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x72D0C001, 0x72D0C002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72D0C001, 0x72D0C003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x72D0C001, 0x72D0C004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72D0C001, 0x72D0C005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72D0C001, 0x72D0C006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D0C001, 0x72D0C007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72D0C001, 0x72D0C008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D0C001, 0x72D0C009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72D0C001, 0x72D0C00A, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0C002, 36828, 0x2D0C0010, 42.65257, 191.2781, 0.00999999, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Coral Golem */

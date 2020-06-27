@@ -5,10 +5,10 @@ VALUES (0x735EE001,  1154, 0x35EE003D, 183.3502, 113.4013, 36.39004, -0.9914349,
 /* @teleloc 0x35EE003D [183.350200 113.401300 36.390040] -0.991435 0.000000 0.000000 -0.130602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735EE001, 0x735EE002, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x735EE001, 0x735EE003, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x735EE001, 0x735EE004, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x735EE001, 0x735EE005, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x735EE001, 0x735EE002, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x735EE001, 0x735EE003, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735EE001, 0x735EE004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x735EE001, 0x735EE005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EE002, 29346, 0x35EE003D, 183.3502, 113.4013, 36.39004, -0.9914349, 0, 0, -0.1306015,  True, '2019-02-10 00:00:00'); /* Polar Ursuin */

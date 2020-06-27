@@ -5,12 +5,12 @@ VALUES (0x73FBE001,  1154, 0x3FBE0039, 173.9629, 6.737197, -0.09250003, 0.923879
 /* @teleloc 0x3FBE0039 [173.962900 6.737197 -0.092500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FBE001, 0x73FBE002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73FBE001, 0x73FBE003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73FBE001, 0x73FBE004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73FBE001, 0x73FBE005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73FBE001, 0x73FBE006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73FBE001, 0x73FBE007, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x73FBE001, 0x73FBE002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73FBE001, 0x73FBE003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73FBE001, 0x73FBE004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73FBE001, 0x73FBE005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73FBE001, 0x73FBE006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73FBE001, 0x73FBE007, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FBE002,  7124, 0x3FBE0039, 173.9629, 6.737197, -0.09250003, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */

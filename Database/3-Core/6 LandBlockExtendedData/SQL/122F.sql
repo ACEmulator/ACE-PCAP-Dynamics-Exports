@@ -5,27 +5,27 @@ VALUES (0x7122F001,  1154, 0x122F0008, 23.77318, 175.0398, -0.443, 0.3016249, 0,
 /* @teleloc 0x122F0008 [23.773180 175.039800 -0.443000] 0.301625 0.000000 0.000000 -0.953427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7122F001, 0x7122F002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7122F001, 0x7122F003, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7122F001, 0x7122F004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7122F001, 0x7122F005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7122F001, 0x7122F006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7122F001, 0x7122F007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7122F001, 0x7122F008, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7122F001, 0x7122F009, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7122F001, 0x7122F00A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7122F001, 0x7122F00B, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7122F001, 0x7122F00C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7122F001, 0x7122F00D, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7122F001, 0x7122F00E, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7122F001, 0x7122F00F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7122F001, 0x7122F010, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7122F001, 0x7122F011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7122F001, 0x7122F012, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7122F001, 0x7122F013, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7122F001, 0x7122F014, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7122F001, 0x7122F015, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7122F001, 0x7122F016, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7122F001, 0x7122F002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7122F001, 0x7122F003, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7122F001, 0x7122F004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7122F001, 0x7122F005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7122F001, 0x7122F006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7122F001, 0x7122F007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7122F001, 0x7122F008, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7122F001, 0x7122F009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7122F001, 0x7122F00A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7122F001, 0x7122F00B, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7122F001, 0x7122F00C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7122F001, 0x7122F00D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7122F001, 0x7122F00E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7122F001, 0x7122F00F, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7122F001, 0x7122F010, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7122F001, 0x7122F011, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7122F001, 0x7122F012, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7122F001, 0x7122F013, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7122F001, 0x7122F014, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7122F001, 0x7122F015, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7122F001, 0x7122F016, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7122F002, 14877, 0x122F0008, 23.77318, 175.0398, -0.443, 0.3016249, 0, 0, -0.9534267,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -116,8 +116,8 @@ VALUES (0x7122F017,  1542, 0x122F0008, 9.915582, 180.8959, -0.11, 0.3016249, 0, 
 /* @teleloc 0x122F0008 [9.915582 180.895900 -0.110000] 0.301625 0.000000 0.000000 -0.953427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7122F017, 0x7122F018, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7122F017, 0x7122F019, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7122F017, 0x7122F018, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7122F017, 0x7122F019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7122F018,  9286, 0x122F0008, 9.915582, 180.8959, -0.11, 0.3016249, 0, 0, -0.9534267,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

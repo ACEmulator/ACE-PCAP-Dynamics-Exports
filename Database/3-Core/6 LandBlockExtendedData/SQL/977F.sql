@@ -5,20 +5,20 @@ VALUES (0x7977F001,  1154, 0x977F0028, 105.6387, 179.5365, 26.0105, -0.6731551, 
 /* @teleloc 0x977F0028 [105.638700 179.536500 26.010500] -0.673155 0.000000 0.000000 -0.739501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7977F001, 0x7977F002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7977F001, 0x7977F003, '2019-02-10 00:00:00') /* Undead */
-     , (0x7977F001, 0x7977F004, '2019-02-10 00:00:00') /* Undead */
-     , (0x7977F001, 0x7977F005, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7977F001, 0x7977F006, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7977F001, 0x7977F007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7977F001, 0x7977F008, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x7977F001, 0x7977F009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7977F001, 0x7977F00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7977F001, 0x7977F00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7977F001, 0x7977F00C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7977F001, 0x7977F00D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7977F001, 0x7977F00E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7977F001, 0x7977F00F, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7977F001, 0x7977F002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7977F001, 0x7977F003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7977F001, 0x7977F004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7977F001, 0x7977F005, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7977F001, 0x7977F006, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7977F001, 0x7977F007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7977F001, 0x7977F008, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x7977F001, 0x7977F009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7977F001, 0x7977F00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7977F001, 0x7977F00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7977F001, 0x7977F00C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7977F001, 0x7977F00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7977F001, 0x7977F00E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7977F001, 0x7977F00F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7977F002,    19, 0x977F0028, 105.6387, 179.5365, 26.0105, -0.6731551, 0, 0, -0.7395013,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */

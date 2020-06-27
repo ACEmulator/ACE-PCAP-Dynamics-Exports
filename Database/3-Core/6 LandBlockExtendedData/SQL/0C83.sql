@@ -5,20 +5,20 @@ VALUES (0x70C83001,  1154, 0x0C830037, 151.0615, 164.3065, 0.00999999, 0.9238795
 /* @teleloc 0x0C830037 [151.061500 164.306500 0.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C83001, 0x70C83002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70C83001, 0x70C83003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70C83001, 0x70C83004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C83001, 0x70C83005, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x70C83001, 0x70C83006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C83001, 0x70C83007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C83001, 0x70C83008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C83001, 0x70C83009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C83001, 0x70C8300A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70C83001, 0x70C8300B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C83001, 0x70C8300C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70C83001, 0x70C8300D, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C83001, 0x70C8300E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x70C83001, 0x70C8300F, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70C83001, 0x70C83002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70C83001, 0x70C83003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70C83001, 0x70C83004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C83001, 0x70C83005, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x70C83001, 0x70C83006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C83001, 0x70C83007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C83001, 0x70C83008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C83001, 0x70C83009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C83001, 0x70C8300A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70C83001, 0x70C8300B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C83001, 0x70C8300C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70C83001, 0x70C8300D, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C83001, 0x70C8300E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x70C83001, 0x70C8300F, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C83002, 36834, 0x0C830037, 151.0615, 164.3065, 0.00999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -81,7 +81,7 @@ VALUES (0x70C83010,  1542, 0x0C830035, 161.9017, 102.7408, -0.09999999, 1, 0, 0,
 /* @teleloc 0x0C830035 [161.901700 102.740800 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C83010, 0x70C83011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70C83010, 0x70C83011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C83011,  4179, 0x0C830035, 161.9017, 102.7408, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

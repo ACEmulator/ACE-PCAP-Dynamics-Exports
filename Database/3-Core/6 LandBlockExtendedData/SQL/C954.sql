@@ -5,16 +5,16 @@ VALUES (0x7C954001,  1154, 0xC9540030, 132.3253, 170.2075, 26.97976, -0.4158938,
 /* @teleloc 0xC9540030 [132.325300 170.207500 26.979760] -0.415894 0.000000 0.000000 -0.909413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C954001, 0x7C954002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C954001, 0x7C954003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C954001, 0x7C954004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C954001, 0x7C954005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C954001, 0x7C954006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C954001, 0x7C954007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C954001, 0x7C954008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C954001, 0x7C954009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C954001, 0x7C95400A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C954001, 0x7C95400B, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7C954001, 0x7C954002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C954001, 0x7C954003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C954001, 0x7C954004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C954001, 0x7C954005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C954001, 0x7C954006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C954001, 0x7C954007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C954001, 0x7C954008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C954001, 0x7C954009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C954001, 0x7C95400A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C954001, 0x7C95400B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C954002,  7345, 0xC9540030, 132.3253, 170.2075, 26.97976, -0.4158938, 0, 0, -0.9094132,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -61,7 +61,7 @@ VALUES (0x7C95400C,  1542, 0xC9540025, 99.16166, 115.6645, 27.99784, 1, 0, 0, 0,
 /* @teleloc 0xC9540025 [99.161660 115.664500 27.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95400C, 0x7C95400D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C95400C, 0x7C95400D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95400D, 31443, 0xC9540025, 99.16166, 115.6645, 27.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

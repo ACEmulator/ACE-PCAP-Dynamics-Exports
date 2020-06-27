@@ -5,16 +5,16 @@ VALUES (0x7164A001,  1154, 0x164A000C, 43.99862, 86.44952, 62.01, -0.9364457, 0,
 /* @teleloc 0x164A000C [43.998620 86.449520 62.010000] -0.936446 0.000000 0.000000 -0.350813 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164A001, 0x7164A002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7164A001, 0x7164A003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7164A001, 0x7164A004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7164A001, 0x7164A005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7164A001, 0x7164A006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7164A001, 0x7164A007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7164A001, 0x7164A008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7164A001, 0x7164A009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7164A001, 0x7164A00A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7164A001, 0x7164A00B, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x7164A001, 0x7164A002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7164A001, 0x7164A003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7164A001, 0x7164A004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7164A001, 0x7164A005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7164A001, 0x7164A006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7164A001, 0x7164A007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7164A001, 0x7164A008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7164A001, 0x7164A009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7164A001, 0x7164A00A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7164A001, 0x7164A00B, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164A002,  7097, 0x164A000C, 43.99862, 86.44952, 62.01, -0.9364457, 0, 0, -0.3508128,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -61,8 +61,8 @@ VALUES (0x7164A00C,  1542, 0x164A001E, 91.07976, 134.0615, 59.16179, 0.1222782, 
 /* @teleloc 0x164A001E [91.079760 134.061500 59.161790] 0.122278 0.000000 0.000000 -0.992496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164A00C, 0x7164A00D, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7164A00C, 0x7164A00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7164A00C, 0x7164A00D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7164A00C, 0x7164A00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164A00D,  9288, 0x164A001E, 91.07976, 134.0615, 59.16179, 0.1222782, 0, 0, -0.9924958,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

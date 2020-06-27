@@ -5,13 +5,13 @@ VALUES (0x777EC001,  1154, 0x77EC0028, 119.61, 185.1824, 156.9612, -0.7324549, 0
 /* @teleloc 0x77EC0028 [119.610000 185.182400 156.961200] -0.732455 0.000000 0.000000 -0.680816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777EC001, 0x777EC002, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x777EC001, 0x777EC003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x777EC001, 0x777EC004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x777EC001, 0x777EC005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x777EC001, 0x777EC006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x777EC001, 0x777EC007, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x777EC001, 0x777EC008, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x777EC001, 0x777EC002, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x777EC001, 0x777EC003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x777EC001, 0x777EC004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x777EC001, 0x777EC005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x777EC001, 0x777EC006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x777EC001, 0x777EC007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x777EC001, 0x777EC008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777EC002, 36918, 0x77EC0028, 119.61, 185.1824, 156.9612, -0.7324549, 0, 0, -0.6808156,  True, '2019-02-10 00:00:00'); /* Three Eyed Snowman */

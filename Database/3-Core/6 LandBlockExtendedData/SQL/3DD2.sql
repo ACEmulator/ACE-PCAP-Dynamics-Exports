@@ -5,11 +5,11 @@ VALUES (0x73DD2001,  1154, 0x3DD20032, 156.694, 24.19111, -0.09600002, 0.9238795
 /* @teleloc 0x3DD20032 [156.694000 24.191110 -0.096000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DD2001, 0x73DD2002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73DD2001, 0x73DD2003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73DD2001, 0x73DD2004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73DD2001, 0x73DD2005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DD2001, 0x73DD2006, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73DD2001, 0x73DD2002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73DD2001, 0x73DD2003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73DD2001, 0x73DD2004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73DD2001, 0x73DD2005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DD2001, 0x73DD2006, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DD2002,  4254, 0x3DD20032, 156.694, 24.19111, -0.09600002, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

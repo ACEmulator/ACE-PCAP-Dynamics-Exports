@@ -5,17 +5,17 @@ VALUES (0x73F39001,  1154, 0x3F390015, 66.54417, 105.6393, 15.57378, 0.6064769, 
 /* @teleloc 0x3F390015 [66.544170 105.639300 15.573780] 0.606477 0.000000 0.000000 -0.795101 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F39001, 0x73F39002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F39001, 0x73F39003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73F39001, 0x73F39004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73F39001, 0x73F39005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F39001, 0x73F39006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F39001, 0x73F39007, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F39001, 0x73F39008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73F39001, 0x73F39009, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73F39001, 0x73F3900A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73F39001, 0x73F3900B, '2019-02-10 00:00:00') /* Flare */
-     , (0x73F39001, 0x73F3900C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73F39001, 0x73F39002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F39001, 0x73F39003, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73F39001, 0x73F39004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73F39001, 0x73F39005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F39001, 0x73F39006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F39001, 0x73F39007, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F39001, 0x73F39008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73F39001, 0x73F39009, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73F39001, 0x73F3900A, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73F39001, 0x73F3900B, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73F39001, 0x73F3900C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F39002, 33309, 0x3F390015, 66.54417, 105.6393, 15.57378, 0.6064769, 0, 0, -0.7951011,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

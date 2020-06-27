@@ -5,19 +5,19 @@ VALUES (0x7097D001,  1154, 0x097D0010, 47.64664, 172.2979, -0.9, -0.8178305, 0, 
 /* @teleloc 0x097D0010 [47.646640 172.297900 -0.900000] -0.817831 0.000000 0.000000 -0.575459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097D001, 0x7097D002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7097D001, 0x7097D003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7097D001, 0x7097D004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7097D001, 0x7097D005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7097D001, 0x7097D006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7097D001, 0x7097D007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7097D001, 0x7097D008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7097D001, 0x7097D009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7097D001, 0x7097D00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7097D001, 0x7097D00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7097D001, 0x7097D00C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7097D001, 0x7097D00D, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7097D001, 0x7097D00E, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7097D001, 0x7097D002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7097D001, 0x7097D003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7097D001, 0x7097D004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7097D001, 0x7097D005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7097D001, 0x7097D006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7097D001, 0x7097D007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7097D001, 0x7097D008, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7097D001, 0x7097D009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7097D001, 0x7097D00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7097D001, 0x7097D00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7097D001, 0x7097D00C, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7097D001, 0x7097D00D, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7097D001, 0x7097D00E, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097D002, 23482, 0x097D0010, 47.64664, 172.2979, -0.9, -0.8178305, 0, 0, -0.5754592,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -76,9 +76,9 @@ VALUES (0x7097D00F,  1542, 0x097D0033, 158.015, 65.12843, 4.066381, 0.9876148, 0
 /* @teleloc 0x097D0033 [158.015000 65.128430 4.066381] 0.987615 0.000000 0.000000 -0.156898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097D00F, 0x7097D010, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7097D00F, 0x7097D011, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x7097D00F, 0x7097D012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7097D00F, 0x7097D010, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7097D00F, 0x7097D011, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x7097D00F, 0x7097D012, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097D010,  9286, 0x097D0033, 158.015, 65.12843, 4.066381, 0.9876148, 0, 0, -0.1568983,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

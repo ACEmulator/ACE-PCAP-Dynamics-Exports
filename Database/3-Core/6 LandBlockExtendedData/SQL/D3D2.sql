@@ -5,22 +5,22 @@ VALUES (0x7D3D2001,  1154, 0xD3D2000A, 25.58459, 28.64692, 30.25519, 0.5949875, 
 /* @teleloc 0xD3D2000A [25.584590 28.646920 30.255190] 0.594988 0.000000 0.000000 -0.803735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3D2001, 0x7D3D2002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D3D2001, 0x7D3D2003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D2001, 0x7D3D2004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D2001, 0x7D3D2005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D3D2001, 0x7D3D2006, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D3D2001, 0x7D3D2007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D3D2001, 0x7D3D2008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D3D2001, 0x7D3D2009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D3D2001, 0x7D3D200A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D3D2001, 0x7D3D200B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D2001, 0x7D3D200C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D2001, 0x7D3D200D, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D3D2001, 0x7D3D200E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D3D2001, 0x7D3D200F, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D3D2001, 0x7D3D2010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D3D2001, 0x7D3D2011, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7D3D2001, 0x7D3D2002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D3D2001, 0x7D3D2003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D2001, 0x7D3D2004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D2001, 0x7D3D2005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D3D2001, 0x7D3D2006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D3D2001, 0x7D3D2007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D3D2001, 0x7D3D2008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D3D2001, 0x7D3D2009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D3D2001, 0x7D3D200A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D3D2001, 0x7D3D200B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D2001, 0x7D3D200C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D2001, 0x7D3D200D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D3D2001, 0x7D3D200E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D3D2001, 0x7D3D200F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D3D2001, 0x7D3D2010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D3D2001, 0x7D3D2011, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3D2002, 11481, 0xD3D2000A, 25.58459, 28.64692, 30.25519, 0.5949875, 0, 0, -0.803735,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -91,7 +91,7 @@ VALUES (0x7D3D2012,  1542, 0xD3D20016, 64.67852, 127.176, 35.02636, 1, 0, 0, 0, 
 /* @teleloc 0xD3D20016 [64.678520 127.176000 35.026360] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3D2012, 0x7D3D2013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D3D2012, 0x7D3D2013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3D2013, 22576, 0xD3D20016, 64.67852, 127.176, 35.02636, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

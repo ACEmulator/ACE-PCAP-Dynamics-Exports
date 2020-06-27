@@ -5,19 +5,19 @@ VALUES (0x7B731001,  1154, 0xB7310035, 151.1217, 118.2383, 146.3781, 0.7071068, 
 /* @teleloc 0xB7310035 [151.121700 118.238300 146.378100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B731001, 0x7B731002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B731001, 0x7B731003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7B731001, 0x7B731004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B731001, 0x7B731005, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7B731001, 0x7B731006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B731001, 0x7B731007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B731001, 0x7B731008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B731001, 0x7B731009, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B731001, 0x7B73100A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B731001, 0x7B73100B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B731001, 0x7B73100C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B731001, 0x7B73100D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B731001, 0x7B73100E, '2019-02-10 00:00:00') /* Southern Black Claw Raider */;
+VALUES (0x7B731001, 0x7B731002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B731001, 0x7B731003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7B731001, 0x7B731004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B731001, 0x7B731005, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7B731001, 0x7B731006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B731001, 0x7B731007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B731001, 0x7B731008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B731001, 0x7B731009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B731001, 0x7B73100A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B731001, 0x7B73100B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B731001, 0x7B73100C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B731001, 0x7B73100D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B731001, 0x7B73100E, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B731002,  1608, 0xB7310035, 151.1217, 118.2383, 146.3781, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -76,7 +76,7 @@ VALUES (0x7B73100F,  1542, 0xB731001F, 82.89728, 145.3466, 145.5397, -0.9790261,
 /* @teleloc 0xB731001F [82.897280 145.346600 145.539700] -0.979026 0.000000 0.000000 -0.203735 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B73100F, 0x7B731010, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B73100F, 0x7B731010, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B731010, 42528, 0xB731001F, 82.89728, 145.3466, 145.5397, -0.9790261, 0, 0, -0.2037351,  True, '2019-02-10 00:00:00'); /* Rock */

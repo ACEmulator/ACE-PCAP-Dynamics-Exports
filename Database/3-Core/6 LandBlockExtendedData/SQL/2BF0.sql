@@ -5,27 +5,27 @@ VALUES (0x72BF0001,  1154, 0x2BF00028, 117.5826, 186.8256, 16.33963, -0.5340573,
 /* @teleloc 0x2BF00028 [117.582600 186.825600 16.339630] -0.534057 0.000000 0.000000 -0.845448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BF0001, 0x72BF0002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72BF0001, 0x72BF0003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BF0001, 0x72BF0004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BF0001, 0x72BF0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BF0001, 0x72BF0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BF0001, 0x72BF0007, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72BF0001, 0x72BF0008, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BF0001, 0x72BF0009, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BF0001, 0x72BF000A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72BF0001, 0x72BF000B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72BF0001, 0x72BF000C, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BF0001, 0x72BF000D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72BF0001, 0x72BF000E, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BF0001, 0x72BF000F, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BF0001, 0x72BF0010, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72BF0001, 0x72BF0011, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72BF0001, 0x72BF0012, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BF0001, 0x72BF0013, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72BF0001, 0x72BF0014, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72BF0001, 0x72BF0015, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72BF0001, 0x72BF0016, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */;
+VALUES (0x72BF0001, 0x72BF0002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72BF0001, 0x72BF0003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BF0001, 0x72BF0004, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BF0001, 0x72BF0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BF0001, 0x72BF0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BF0001, 0x72BF0007, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72BF0001, 0x72BF0008, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BF0001, 0x72BF0009, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BF0001, 0x72BF000A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72BF0001, 0x72BF000B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72BF0001, 0x72BF000C, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BF0001, 0x72BF000D, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72BF0001, 0x72BF000E, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BF0001, 0x72BF000F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BF0001, 0x72BF0010, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72BF0001, 0x72BF0011, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72BF0001, 0x72BF0012, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BF0001, 0x72BF0013, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72BF0001, 0x72BF0014, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72BF0001, 0x72BF0015, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72BF0001, 0x72BF0016, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BF0002, 38176, 0x2BF00028, 117.5826, 186.8256, 16.33963, -0.5340573, 0, 0, -0.8454483,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

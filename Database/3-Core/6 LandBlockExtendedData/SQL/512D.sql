@@ -5,13 +5,13 @@ VALUES (0x7512D001,  1154, 0x512D002F, 129.1576, 157.0679, -0.44175, 0.7071068, 
 /* @teleloc 0x512D002F [129.157600 157.067900 -0.441750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7512D001, 0x7512D002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7512D001, 0x7512D003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7512D001, 0x7512D004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7512D001, 0x7512D005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7512D001, 0x7512D006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7512D001, 0x7512D007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7512D001, 0x7512D008, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x7512D001, 0x7512D002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7512D001, 0x7512D003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7512D001, 0x7512D004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7512D001, 0x7512D005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7512D001, 0x7512D006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7512D001, 0x7512D007, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7512D001, 0x7512D008, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7512D002, 24325, 0x512D002F, 129.1576, 157.0679, -0.44175, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Phantasm */

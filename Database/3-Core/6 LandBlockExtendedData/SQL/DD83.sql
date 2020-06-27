@@ -5,22 +5,22 @@ VALUES (0x7DD83001,  1154, 0xDD830031, 158.161, 12.6486, 0.004500031, 0.6978758,
 /* @teleloc 0xDD830031 [158.161000 12.648600 0.004500] 0.697876 0.000000 0.000000 -0.716219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD83001, 0x7DD83002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD83009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7DD83001, 0x7DD8300A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7DD83001, 0x7DD8300B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7DD83001, 0x7DD8300C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7DD83001, 0x7DD8300D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7DD83001, 0x7DD8300E, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7DD83001, 0x7DD8300F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7DD83001, 0x7DD83010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DD83001, 0x7DD83011, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7DD83001, 0x7DD83002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD83009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7DD83001, 0x7DD8300A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7DD83001, 0x7DD8300B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7DD83001, 0x7DD8300C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7DD83001, 0x7DD8300D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7DD83001, 0x7DD8300E, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7DD83001, 0x7DD8300F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7DD83001, 0x7DD83010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DD83001, 0x7DD83011, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD83002,  1612, 0xDD830031, 158.161, 12.6486, 0.004500031, 0.6978758, 0, 0, -0.7162188,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -91,23 +91,23 @@ VALUES (0x7DD83012,  1542, 0xDD830032, 159.979, 27.18546, 0, -0.997425, 0, 0, 0.
 /* @teleloc 0xDD830032 [159.979000 27.185460 0.000000] -0.997425 0.000000 0.000000 0.071718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD83012, 0x7DD83013, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7DD83012, 0x7DD83014, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7DD83012, 0x7DD83015, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x7DD83012, 0x7DD83016, '2019-02-10 00:00:00') /* Takuba */
-     , (0x7DD83012, 0x7DD83017, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7DD83012, 0x7DD83018, '2019-02-10 00:00:00') /* Turban */
-     , (0x7DD83012, 0x7DD83019, '2019-02-10 00:00:00') /* Short Sword */
-     , (0x7DD83012, 0x7DD8301A, '2019-02-10 00:00:00') /* Large Kite Shield */
-     , (0x7DD83012, 0x7DD8301B, '2019-02-10 00:00:00') /* Shamshir */
-     , (0x7DD83012, 0x7DD8301C, '2019-02-10 00:00:00') /* Buckler */
-     , (0x7DD83012, 0x7DD8301D, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7DD83012, 0x7DD8301E, '2019-02-10 00:00:00') /* Shamshir */
-     , (0x7DD83012, 0x7DD8301F, '2019-02-10 00:00:00') /* Buckler */
-     , (0x7DD83012, 0x7DD83020, '2019-02-10 00:00:00') /* Large Kite Shield */
-     , (0x7DD83012, 0x7DD83021, '2019-02-10 00:00:00') /* Pants */
-     , (0x7DD83012, 0x7DD83022, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7DD83012, 0x7DD83023, '2019-02-10 00:00:00') /* Takuba */;
+VALUES (0x7DD83012, 0x7DD83013, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7DD83012, 0x7DD83014, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7DD83012, 0x7DD83015, '2019-02-10 00:00:00') /* Diamond Shield (94) */
+     , (0x7DD83012, 0x7DD83016, '2019-02-10 00:00:00') /* Takuba (354) */
+     , (0x7DD83012, 0x7DD83017, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7DD83012, 0x7DD83018, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7DD83012, 0x7DD83019, '2019-02-10 00:00:00') /* Short Sword (352) */
+     , (0x7DD83012, 0x7DD8301A, '2019-02-10 00:00:00') /* Large Kite Shield (92) */
+     , (0x7DD83012, 0x7DD8301B, '2019-02-10 00:00:00') /* Shamshir (340) */
+     , (0x7DD83012, 0x7DD8301C, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x7DD83012, 0x7DD8301D, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7DD83012, 0x7DD8301E, '2019-02-10 00:00:00') /* Shamshir (340) */
+     , (0x7DD83012, 0x7DD8301F, '2019-02-10 00:00:00') /* Buckler (44) */
+     , (0x7DD83012, 0x7DD83020, '2019-02-10 00:00:00') /* Large Kite Shield (92) */
+     , (0x7DD83012, 0x7DD83021, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7DD83012, 0x7DD83022, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7DD83012, 0x7DD83023, '2019-02-10 00:00:00') /* Takuba (354) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD83013,   134, 0xDD830032, 159.979, 27.18546, 0, -0.997425, 0, 0, 0.0717179,  True, '2019-02-10 00:00:00'); /* Tunic */

@@ -5,11 +5,11 @@ VALUES (0x7B417001,  1154, 0xB417003F, 170.5308, 166.0424, 108.3363, 0.9724784, 
 /* @teleloc 0xB417003F [170.530800 166.042400 108.336300] 0.972478 0.000000 0.000000 -0.232993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B417001, 0x7B417002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B417001, 0x7B417003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B417001, 0x7B417004, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7B417001, 0x7B417005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B417001, 0x7B417006, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7B417001, 0x7B417002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B417001, 0x7B417003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B417001, 0x7B417004, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7B417001, 0x7B417005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B417001, 0x7B417006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B417002,   201, 0xB417003F, 170.5308, 166.0424, 108.3363, 0.9724784, 0, 0, -0.2329929,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

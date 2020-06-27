@@ -29,9 +29,9 @@ VALUES (0x7AED9008,  1154, 0xAED90104, 176.964, 33.3636, 19.01, -0.37872, 0, 0, 
 /* @teleloc 0xAED90104 [176.964000 33.363600 19.010000] -0.378720 0.000000 0.000000 -0.925511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED9008, 0x7AED9009, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7AED9008, 0x7AED900A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AED9008, 0x7AED900B, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7AED9008, 0x7AED9009, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7AED9008, 0x7AED900A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AED9008, 0x7AED900B, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED9009,  4131, 0xAED90104, 176.964, 33.3636, 19.01, -0.37872, 0, 0, -0.925511,  True, '2019-02-10 00:00:00'); /* Tan Rat */

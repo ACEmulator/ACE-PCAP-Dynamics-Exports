@@ -5,20 +5,20 @@ VALUES (0x787F6001,  1154, 0x87F6001B, 88.53861, 69.95241, 37.58733, 0.7071068, 
 /* @teleloc 0x87F6001B [88.538610 69.952410 37.587330] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787F6001, 0x787F6002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x787F6001, 0x787F6003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x787F6001, 0x787F6004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x787F6001, 0x787F6005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x787F6001, 0x787F6006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x787F6001, 0x787F6007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x787F6001, 0x787F6008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x787F6001, 0x787F6009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x787F6001, 0x787F600A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x787F6001, 0x787F600B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x787F6001, 0x787F600C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x787F6001, 0x787F600D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x787F6001, 0x787F600E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x787F6001, 0x787F600F, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x787F6001, 0x787F6002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x787F6001, 0x787F6003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x787F6001, 0x787F6004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x787F6001, 0x787F6005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x787F6001, 0x787F6006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x787F6001, 0x787F6007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x787F6001, 0x787F6008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x787F6001, 0x787F6009, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x787F6001, 0x787F600A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x787F6001, 0x787F600B, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x787F6001, 0x787F600C, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x787F6001, 0x787F600D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x787F6001, 0x787F600E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x787F6001, 0x787F600F, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787F6002, 24313, 0x87F6001B, 88.53861, 69.95241, 37.58733, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -81,8 +81,8 @@ VALUES (0x787F6010,  1542, 0x87F6001E, 87.20877, 126.926, 28.31086, 1, 0, 0, 0, 
 /* @teleloc 0x87F6001E [87.208770 126.926000 28.310860] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787F6010, 0x787F6011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x787F6010, 0x787F6012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x787F6010, 0x787F6011, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x787F6010, 0x787F6012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787F6011, 22567, 0x87F6001E, 87.20877, 126.926, 28.31086, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

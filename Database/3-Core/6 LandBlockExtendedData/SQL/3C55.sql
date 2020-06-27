@@ -5,21 +5,21 @@ VALUES (0x73C55001,  1154, 0x3C550006, 7.326774, 140.5649, 42.86908, 0.7915984, 
 /* @teleloc 0x3C550006 [7.326774 140.564900 42.869080] 0.791598 0.000000 0.000000 -0.611042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C55001, 0x73C55002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C55001, 0x73C55003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C55001, 0x73C55004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C55001, 0x73C55005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C55001, 0x73C55006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C55001, 0x73C55007, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73C55001, 0x73C55008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73C55001, 0x73C55009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C55001, 0x73C5500A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73C55001, 0x73C5500B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C55001, 0x73C5500C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73C55001, 0x73C5500D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73C55001, 0x73C5500E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C55001, 0x73C5500F, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C55001, 0x73C55010, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x73C55001, 0x73C55002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C55001, 0x73C55003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C55001, 0x73C55004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C55001, 0x73C55005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C55001, 0x73C55006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C55001, 0x73C55007, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73C55001, 0x73C55008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73C55001, 0x73C55009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C55001, 0x73C5500A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73C55001, 0x73C5500B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C55001, 0x73C5500C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73C55001, 0x73C5500D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73C55001, 0x73C5500E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C55001, 0x73C5500F, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C55001, 0x73C55010, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C55002,  7119, 0x3C550006, 7.326774, 140.5649, 42.86908, 0.7915984, 0, 0, -0.6110417,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -86,7 +86,7 @@ VALUES (0x73C55011,  1542, 0x3C55000C, 43.44825, 86.3121, 64.85602, 1, 0, 0, 0, 
 /* @teleloc 0x3C55000C [43.448250 86.312100 64.856020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C55011, 0x73C55012, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73C55011, 0x73C55012, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C55012,  8999, 0x3C55000C, 43.44825, 86.3121, 64.85602, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

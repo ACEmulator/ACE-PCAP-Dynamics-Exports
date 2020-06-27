@@ -5,14 +5,14 @@ VALUES (0x72668001,  1154, 0x26680026, 119.9224, 142.3816, 39.97515, -0.9843381,
 /* @teleloc 0x26680026 [119.922400 142.381600 39.975150] -0.984338 0.000000 0.000000 -0.176291 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72668001, 0x72668002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72668001, 0x72668003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72668001, 0x72668004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72668001, 0x72668005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72668001, 0x72668006, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72668001, 0x72668007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72668001, 0x72668008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72668001, 0x72668009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */;
+VALUES (0x72668001, 0x72668002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72668001, 0x72668003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72668001, 0x72668004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72668001, 0x72668005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72668001, 0x72668006, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72668001, 0x72668007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72668001, 0x72668008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72668001, 0x72668009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72668002, 41534, 0x26680026, 119.9224, 142.3816, 39.97515, -0.9843381, 0, 0, -0.176291,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */

@@ -5,19 +5,19 @@ VALUES (0x7B112001,  1154, 0xB1120017, 63.66788, 160.0919, 100.1971, -0.8552533,
 /* @teleloc 0xB1120017 [63.667880 160.091900 100.197100] -0.855253 0.000000 0.000000 -0.518210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B112001, 0x7B112002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B112001, 0x7B112003, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7B112001, 0x7B112004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B112001, 0x7B112005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B112001, 0x7B112006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B112001, 0x7B112007, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7B112001, 0x7B112008, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7B112001, 0x7B112009, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7B112001, 0x7B11200A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B112001, 0x7B11200B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B112001, 0x7B11200C, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B112001, 0x7B11200D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B112001, 0x7B11200E, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7B112001, 0x7B112002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B112001, 0x7B112003, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7B112001, 0x7B112004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B112001, 0x7B112005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B112001, 0x7B112006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B112001, 0x7B112007, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7B112001, 0x7B112008, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7B112001, 0x7B112009, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7B112001, 0x7B11200A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B112001, 0x7B11200B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B112001, 0x7B11200C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B112001, 0x7B11200D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B112001, 0x7B11200E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B112002,  7089, 0xB1120017, 63.66788, 160.0919, 100.1971, -0.8552533, 0, 0, -0.5182101,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

@@ -5,15 +5,15 @@ VALUES (0x782F8001,  1154, 0x82F80032, 153.0954, 30.25664, 4.243065, 0.8401085, 
 /* @teleloc 0x82F80032 [153.095400 30.256640 4.243065] 0.840109 0.000000 0.000000 -0.542419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x782F8001, 0x782F8002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x782F8001, 0x782F8003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x782F8001, 0x782F8004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x782F8001, 0x782F8005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x782F8001, 0x782F8006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x782F8001, 0x782F8007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x782F8001, 0x782F8008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x782F8001, 0x782F8009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x782F8001, 0x782F800A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x782F8001, 0x782F8002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x782F8001, 0x782F8003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x782F8001, 0x782F8004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x782F8001, 0x782F8005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x782F8001, 0x782F8006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x782F8001, 0x782F8007, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x782F8001, 0x782F8008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x782F8001, 0x782F8009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x782F8001, 0x782F800A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x782F8002, 23617, 0x82F80032, 153.0954, 30.25664, 4.243065, 0.8401085, 0, 0, -0.5424185,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

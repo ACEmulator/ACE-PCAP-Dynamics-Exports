@@ -5,16 +5,16 @@ VALUES (0x7372E001,  1154, 0x372E0007, 20.70891, 159.6687, 41.73574, 0.6724979, 
 /* @teleloc 0x372E0007 [20.708910 159.668700 41.735740] 0.672498 0.000000 0.000000 -0.740099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7372E001, 0x7372E002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7372E001, 0x7372E003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7372E001, 0x7372E004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7372E001, 0x7372E005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7372E001, 0x7372E006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7372E001, 0x7372E007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7372E001, 0x7372E008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7372E001, 0x7372E009, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7372E001, 0x7372E00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7372E001, 0x7372E00B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7372E001, 0x7372E002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7372E001, 0x7372E003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7372E001, 0x7372E004, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7372E001, 0x7372E005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7372E001, 0x7372E006, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7372E001, 0x7372E007, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7372E001, 0x7372E008, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7372E001, 0x7372E009, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7372E001, 0x7372E00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7372E001, 0x7372E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7372E002,  7098, 0x372E0007, 20.70891, 159.6687, 41.73574, 0.6724979, 0, 0, -0.740099,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

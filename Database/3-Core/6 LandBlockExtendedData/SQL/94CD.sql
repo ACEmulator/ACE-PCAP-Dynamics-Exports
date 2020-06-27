@@ -5,20 +5,20 @@ VALUES (0x794CD001,  1154, 0x94CD001C, 82.45908, 78.16843, 147.7087, 0.9697262, 
 /* @teleloc 0x94CD001C [82.459080 78.168430 147.708700] 0.969726 0.000000 0.000000 -0.244195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794CD001, 0x794CD002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x794CD001, 0x794CD003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD004, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x794CD001, 0x794CD005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD008, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x794CD001, 0x794CD009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794CD001, 0x794CD00B, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x794CD001, 0x794CD00C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794CD001, 0x794CD00D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794CD001, 0x794CD00E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794CD001, 0x794CD00F, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x794CD001, 0x794CD002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x794CD001, 0x794CD003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD004, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x794CD001, 0x794CD005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD008, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x794CD001, 0x794CD009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794CD001, 0x794CD00B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x794CD001, 0x794CD00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794CD001, 0x794CD00D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794CD001, 0x794CD00E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794CD001, 0x794CD00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794CD002,  7084, 0x94CD001C, 82.45908, 78.16843, 147.7087, 0.9697262, 0, 0, -0.2441949,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

@@ -5,15 +5,15 @@ VALUES (0x7CD98001,  1154, 0xCD980007, 14.41678, 146.1092, 20.61533, 0.8870109, 
 /* @teleloc 0xCD980007 [14.416780 146.109200 20.615330] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD98001, 0x7CD98002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD98001, 0x7CD98003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CD98001, 0x7CD98004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD98001, 0x7CD98005, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD98001, 0x7CD98006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD98001, 0x7CD98007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD98001, 0x7CD98008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD98001, 0x7CD98009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD98001, 0x7CD9800A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CD98001, 0x7CD98002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD98001, 0x7CD98003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CD98001, 0x7CD98004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD98001, 0x7CD98005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD98001, 0x7CD98006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD98001, 0x7CD98007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD98001, 0x7CD98008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD98001, 0x7CD98009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD98001, 0x7CD9800A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD98002,  2576, 0xCD980007, 14.41678, 146.1092, 20.61533, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

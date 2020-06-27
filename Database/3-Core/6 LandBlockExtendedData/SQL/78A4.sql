@@ -5,9 +5,9 @@ VALUES (0x778A4001,  1154, 0x78A40035, 158.0794, 116.0542, 61.00875, 0.9238795, 
 /* @teleloc 0x78A40035 [158.079400 116.054200 61.008750] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778A4001, 0x778A4002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x778A4001, 0x778A4003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x778A4001, 0x778A4004, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x778A4001, 0x778A4002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x778A4001, 0x778A4003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x778A4001, 0x778A4004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778A4002,  7090, 0x78A40035, 158.0794, 116.0542, 61.00875, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -26,7 +26,7 @@ VALUES (0x778A4005,  1542, 0x78A40036, 156.4105, 120.2608, 60.00321, 1, 0, 0, 0,
 /* @teleloc 0x78A40036 [156.410500 120.260800 60.003210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778A4005, 0x778A4006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x778A4005, 0x778A4006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778A4006,  4179, 0x78A40036, 156.4105, 120.2608, 60.00321, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

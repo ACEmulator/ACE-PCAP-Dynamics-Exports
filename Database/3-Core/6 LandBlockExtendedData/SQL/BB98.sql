@@ -5,32 +5,32 @@ VALUES (0x7BB98001,  1154, 0xBB98002B, 137.8679, 48.56256, 1.108925, 0.7071068, 
 /* @teleloc 0xBB98002B [137.867900 48.562560 1.108925] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB98001, 0x7BB98002, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BB98001, 0x7BB98003, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BB98001, 0x7BB98004, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BB98001, 0x7BB98005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB98001, 0x7BB98006, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7BB98001, 0x7BB98007, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BB98001, 0x7BB98008, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BB98001, 0x7BB98009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BB98001, 0x7BB9800A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB98001, 0x7BB9800B, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BB98001, 0x7BB9800C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB98001, 0x7BB9800D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB98001, 0x7BB9800E, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BB98001, 0x7BB9800F, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB98001, 0x7BB98010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BB98001, 0x7BB98011, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB98001, 0x7BB98012, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB98001, 0x7BB98013, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB98001, 0x7BB98014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB98001, 0x7BB98015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB98001, 0x7BB98016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB98001, 0x7BB98017, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB98001, 0x7BB98018, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BB98001, 0x7BB98019, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BB98001, 0x7BB9801A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB98001, 0x7BB9801B, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7BB98001, 0x7BB98002, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BB98001, 0x7BB98003, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BB98001, 0x7BB98004, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BB98001, 0x7BB98005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB98001, 0x7BB98006, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BB98001, 0x7BB98007, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BB98001, 0x7BB98008, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BB98001, 0x7BB98009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BB98001, 0x7BB9800A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB98001, 0x7BB9800B, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB98001, 0x7BB9800C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB98001, 0x7BB9800D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB98001, 0x7BB9800E, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BB98001, 0x7BB9800F, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB98001, 0x7BB98010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BB98001, 0x7BB98011, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB98001, 0x7BB98012, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB98001, 0x7BB98013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB98001, 0x7BB98014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB98001, 0x7BB98015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB98001, 0x7BB98016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB98001, 0x7BB98017, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB98001, 0x7BB98018, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BB98001, 0x7BB98019, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BB98001, 0x7BB9801A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB98001, 0x7BB9801B, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB98002,   177, 0xBB98002B, 137.8679, 48.56256, 1.108925, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
@@ -141,7 +141,7 @@ VALUES (0x7BB9801C,  1542, 0xBB980032, 150.6379, 29.553, 2, 0.8551431, 0, 0, -0.
 /* @teleloc 0xBB980032 [150.637900 29.553000 2.000000] 0.855143 0.000000 0.000000 -0.518392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9801C, 0x7BB9801D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BB9801C, 0x7BB9801D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9801D,  8644, 0xBB980032, 150.6379, 29.553, 2, 0.8551431, 0, 0, -0.518392,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

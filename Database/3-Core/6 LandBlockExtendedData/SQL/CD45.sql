@@ -5,13 +5,13 @@ VALUES (0x7CD45001,  1154, 0xCD45002F, 128.165, 152.535, 71.88209, 0.4790809, 0,
 /* @teleloc 0xCD45002F [128.165000 152.535000 71.882090] 0.479081 0.000000 0.000000 -0.877771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD45001, 0x7CD45002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CD45001, 0x7CD45003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CD45001, 0x7CD45004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CD45001, 0x7CD45005, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CD45001, 0x7CD45006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CD45001, 0x7CD45007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CD45001, 0x7CD45008, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7CD45001, 0x7CD45002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45001, 0x7CD45003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45001, 0x7CD45004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45001, 0x7CD45005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CD45001, 0x7CD45006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CD45001, 0x7CD45007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CD45001, 0x7CD45008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD45002,  4111, 0xCD45002F, 128.165, 152.535, 71.88209, 0.4790809, 0, 0, -0.8777708,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

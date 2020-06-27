@@ -5,16 +5,16 @@ VALUES (0x7A0E9001,  1154, 0xA0E90039, 179.2883, 17.9079, 83.42448, -0.8692331, 
 /* @teleloc 0xA0E90039 [179.288300 17.907900 83.424480] -0.869233 0.000000 0.000000 -0.494402 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0E9001, 0x7A0E9002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A0E9001, 0x7A0E9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A0E9001, 0x7A0E9004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A0E9001, 0x7A0E9005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A0E9001, 0x7A0E9006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A0E9001, 0x7A0E9007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0E9001, 0x7A0E9008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A0E9001, 0x7A0E9009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0E9001, 0x7A0E900A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0E9001, 0x7A0E900B, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7A0E9001, 0x7A0E9002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A0E9001, 0x7A0E9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A0E9001, 0x7A0E9004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A0E9001, 0x7A0E9005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A0E9001, 0x7A0E9006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A0E9001, 0x7A0E9007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0E9001, 0x7A0E9008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A0E9001, 0x7A0E9009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0E9001, 0x7A0E900A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0E9001, 0x7A0E900B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0E9002, 22520, 0xA0E90039, 179.2883, 17.9079, 83.42448, -0.8692331, 0, 0, -0.4944024,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -61,8 +61,8 @@ VALUES (0x7A0E900C,  1542, 0xA0E9003C, 172.146, 85.03752, 80.39788, -0.9210134, 
 /* @teleloc 0xA0E9003C [172.146000 85.037520 80.397880] -0.921013 0.000000 0.000000 -0.389531 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0E900C, 0x7A0E900D, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A0E900C, 0x7A0E900E, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7A0E900C, 0x7A0E900D, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A0E900C, 0x7A0E900E, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0E900D, 42528, 0xA0E9003C, 172.146, 85.03752, 80.39788, -0.9210134, 0, 0, -0.389531,  True, '2019-02-10 00:00:00'); /* Rock */

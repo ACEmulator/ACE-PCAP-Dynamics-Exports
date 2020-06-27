@@ -5,73 +5,73 @@ VALUES (0x71C12001,  1154, 0x1C120006, 23.3226, 128.172, 0.6855498, -0.487729, 0
 /* @teleloc 0x1C120006 [23.322600 128.172000 0.685550] -0.487729 0.000000 0.000000 0.872995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C12001, 0x71C12002, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12003, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12004, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12005, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12006, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12007, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12008, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12009, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1200A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1200B, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1200C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1200D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1200E, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1200F, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12010, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12011, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12012, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12013, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12014, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12015, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12016, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12017, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12018, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12019, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1201A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1201B, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1201C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1201D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C12001, 0x71C1201E, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1201F, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12020, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12021, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12022, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12023, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12024, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12025, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12026, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12027, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71C12001, 0x71C12028, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71C12001, 0x71C12029, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1202A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1202B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1202C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1202D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1202E, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1202F, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12030, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12031, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12032, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12033, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12034, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12035, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12036, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12037, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12038, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12039, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1203A, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1203B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1203C, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1203D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C1203E, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C1203F, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12040, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12041, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12042, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71C12001, 0x71C12043, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic */
-     , (0x71C12001, 0x71C12044, '2019-02-10 00:00:00') /* Withered Drudge Seraph */;
+VALUES (0x71C12001, 0x71C12002, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12003, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12004, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12005, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12006, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12007, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12008, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12009, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1200A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1200B, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1200C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1200D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1200E, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1200F, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12010, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12011, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12012, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12013, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12014, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12015, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12016, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12017, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12018, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12019, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1201A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1201B, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1201C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1201D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C12001, 0x71C1201E, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1201F, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12020, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12021, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12022, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12023, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12024, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12025, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12026, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12027, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71C12001, 0x71C12028, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71C12001, 0x71C12029, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1202A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1202B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1202C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1202D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1202E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1202F, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12030, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12031, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12032, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12033, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12034, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12035, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12036, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12037, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12038, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12039, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1203A, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1203B, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1203C, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1203D, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C1203E, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C1203F, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12040, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12041, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12042, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71C12001, 0x71C12043, '2019-02-10 00:00:00') /* Withered Drudge Seraph Mystic (35831) */
+     , (0x71C12001, 0x71C12044, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C12002, 30680, 0x1C120006, 23.3226, 128.172, 0.6855498, -0.487729, 0, 0, 0.8729951,  True, '2019-02-10 00:00:00'); /* Withered Drudge Seraph */

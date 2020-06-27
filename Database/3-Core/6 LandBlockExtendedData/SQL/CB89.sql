@@ -5,12 +5,12 @@ VALUES (0x7CB89001,  1154, 0xCB89003B, 171.9489, 55.54033, 19.35664, -0.8940605,
 /* @teleloc 0xCB89003B [171.948900 55.540330 19.356640] -0.894061 0.000000 0.000000 -0.447946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB89001, 0x7CB89002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CB89001, 0x7CB89003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CB89001, 0x7CB89004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CB89001, 0x7CB89005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CB89001, 0x7CB89006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CB89001, 0x7CB89007, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7CB89001, 0x7CB89002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CB89001, 0x7CB89003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CB89001, 0x7CB89004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CB89001, 0x7CB89005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CB89001, 0x7CB89006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CB89001, 0x7CB89007, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB89002,  4110, 0xCB89003B, 171.9489, 55.54033, 19.35664, -0.8940605, 0, 0, -0.4479463,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

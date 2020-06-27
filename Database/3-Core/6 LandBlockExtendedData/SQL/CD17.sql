@@ -5,40 +5,40 @@ VALUES (0x7CD17001,  1154, 0xCD17000E, 32.62225, 132.3838, 4.22023, 0.9961947, 0
 /* @teleloc 0xCD17000E [32.622250 132.383800 4.220230] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD17001, 0x7CD17002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CD17001, 0x7CD17003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CD17001, 0x7CD17004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7CD17001, 0x7CD17005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7CD17001, 0x7CD17006, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CD17001, 0x7CD17007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CD17001, 0x7CD17008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CD17001, 0x7CD17009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CD17001, 0x7CD1700A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7CD17001, 0x7CD1700B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7CD17001, 0x7CD1700C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7CD17001, 0x7CD1700D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CD17001, 0x7CD1700E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7CD17001, 0x7CD1700F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7CD17001, 0x7CD17010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7CD17001, 0x7CD17011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7CD17001, 0x7CD17012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CD17001, 0x7CD17013, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7CD17001, 0x7CD17014, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CD17001, 0x7CD17015, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CD17001, 0x7CD17016, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CD17001, 0x7CD17017, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CD17001, 0x7CD17018, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CD17001, 0x7CD17019, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7CD17001, 0x7CD1701A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7CD17001, 0x7CD1701B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CD17001, 0x7CD1701C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CD17001, 0x7CD1701D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CD17001, 0x7CD1701E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CD17001, 0x7CD1701F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7CD17001, 0x7CD17020, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7CD17001, 0x7CD17021, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CD17001, 0x7CD17022, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CD17001, 0x7CD17023, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7CD17001, 0x7CD17002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CD17001, 0x7CD17003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CD17001, 0x7CD17004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7CD17001, 0x7CD17005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7CD17001, 0x7CD17006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CD17001, 0x7CD17007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CD17001, 0x7CD17008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CD17001, 0x7CD17009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CD17001, 0x7CD1700A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7CD17001, 0x7CD1700B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7CD17001, 0x7CD1700C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7CD17001, 0x7CD1700D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CD17001, 0x7CD1700E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7CD17001, 0x7CD1700F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7CD17001, 0x7CD17010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7CD17001, 0x7CD17011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7CD17001, 0x7CD17012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CD17001, 0x7CD17013, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7CD17001, 0x7CD17014, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CD17001, 0x7CD17015, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CD17001, 0x7CD17016, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CD17001, 0x7CD17017, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CD17001, 0x7CD17018, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CD17001, 0x7CD17019, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7CD17001, 0x7CD1701A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7CD17001, 0x7CD1701B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CD17001, 0x7CD1701C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CD17001, 0x7CD1701D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CD17001, 0x7CD1701E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CD17001, 0x7CD1701F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7CD17001, 0x7CD17020, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7CD17001, 0x7CD17021, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CD17001, 0x7CD17022, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CD17001, 0x7CD17023, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD17002,  7988, 0xCD17000E, 32.62225, 132.3838, 4.22023, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -181,14 +181,14 @@ VALUES (0x7CD17024,  1542, 0xCD170007, 22.37315, 152.4009, 7.98929, 1, 0, 0, 0, 
 /* @teleloc 0xCD170007 [22.373150 152.400900 7.989290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD17024, 0x7CD17025, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7CD17024, 0x7CD17026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CD17024, 0x7CD17027, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7CD17024, 0x7CD17028, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7CD17024, 0x7CD17029, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7CD17024, 0x7CD1702A, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7CD17024, 0x7CD1702B, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7CD17024, 0x7CD1702C, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7CD17024, 0x7CD17025, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7CD17024, 0x7CD17026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CD17024, 0x7CD17027, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7CD17024, 0x7CD17028, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7CD17024, 0x7CD17029, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7CD17024, 0x7CD1702A, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7CD17024, 0x7CD1702B, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7CD17024, 0x7CD1702C, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD17025,  9024, 0xCD170007, 22.37315, 152.4009, 7.98929, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

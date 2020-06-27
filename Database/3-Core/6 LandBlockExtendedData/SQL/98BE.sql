@@ -5,9 +5,9 @@ VALUES (0x798BE001,  1154, 0x98BE002F, 135.4467, 146.6174, 69.01318, -0.4595502,
 /* @teleloc 0x98BE002F [135.446700 146.617400 69.013180] -0.459550 0.000000 0.000000 -0.888152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798BE001, 0x798BE002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x798BE001, 0x798BE003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x798BE001, 0x798BE004, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x798BE001, 0x798BE002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x798BE001, 0x798BE003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x798BE001, 0x798BE004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798BE002,  1756, 0x98BE002F, 135.4467, 146.6174, 69.01318, -0.4595502, 0, 0, -0.8881518,  True, '2019-02-10 00:00:00'); /* Shadow Child */

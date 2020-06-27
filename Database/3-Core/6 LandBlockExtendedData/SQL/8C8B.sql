@@ -5,32 +5,32 @@ VALUES (0x78C8B001,  1154, 0x8C8B0012, 60.70184, 25.58593, 65.19815, 0.8870109, 
 /* @teleloc 0x8C8B0012 [60.701840 25.585930 65.198150] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C8B001, 0x78C8B002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78C8B001, 0x78C8B003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78C8B001, 0x78C8B004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78C8B001, 0x78C8B005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78C8B001, 0x78C8B006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x78C8B001, 0x78C8B007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78C8B001, 0x78C8B008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78C8B001, 0x78C8B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78C8B001, 0x78C8B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78C8B001, 0x78C8B00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78C8B001, 0x78C8B00C, '2019-02-10 00:00:00') /* Charge */
-     , (0x78C8B001, 0x78C8B00D, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x78C8B001, 0x78C8B00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78C8B001, 0x78C8B00F, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78C8B001, 0x78C8B010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78C8B001, 0x78C8B011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78C8B001, 0x78C8B012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78C8B001, 0x78C8B013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78C8B001, 0x78C8B014, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x78C8B001, 0x78C8B015, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78C8B001, 0x78C8B016, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78C8B001, 0x78C8B017, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x78C8B001, 0x78C8B018, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x78C8B001, 0x78C8B019, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x78C8B001, 0x78C8B01A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78C8B001, 0x78C8B01B, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x78C8B001, 0x78C8B002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78C8B001, 0x78C8B003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78C8B001, 0x78C8B004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78C8B001, 0x78C8B005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78C8B001, 0x78C8B006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x78C8B001, 0x78C8B007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78C8B001, 0x78C8B008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78C8B001, 0x78C8B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78C8B001, 0x78C8B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78C8B001, 0x78C8B00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78C8B001, 0x78C8B00C, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x78C8B001, 0x78C8B00D, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x78C8B001, 0x78C8B00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78C8B001, 0x78C8B00F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78C8B001, 0x78C8B010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78C8B001, 0x78C8B011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x78C8B001, 0x78C8B012, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x78C8B001, 0x78C8B013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78C8B001, 0x78C8B014, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x78C8B001, 0x78C8B015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78C8B001, 0x78C8B016, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78C8B001, 0x78C8B017, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x78C8B001, 0x78C8B018, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x78C8B001, 0x78C8B019, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x78C8B001, 0x78C8B01A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78C8B001, 0x78C8B01B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C8B002,  1630, 0x8C8B0012, 60.70184, 25.58593, 65.19815, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -141,7 +141,7 @@ VALUES (0x78C8B01C,  1542, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0,
 /* @teleloc 0x8C8B003E [187.150800 127.905700 57.412850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C8B01C, 0x78C8B01D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x78C8B01C, 0x78C8B01D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C8B01D, 31443, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

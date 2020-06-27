@@ -5,24 +5,24 @@ VALUES (0x7C390001,  1154, 0xC390002A, 128.2933, 44.66556, 6.005, -0.1538725, 0,
 /* @teleloc 0xC390002A [128.293300 44.665560 6.005000] -0.153873 0.000000 0.000000 -0.988091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C390001, 0x7C390002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C390001, 0x7C390003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C390001, 0x7C390004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C390001, 0x7C390005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C390001, 0x7C390006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C390001, 0x7C390007, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C390001, 0x7C390008, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C390001, 0x7C390009, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C390001, 0x7C39000A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C390001, 0x7C39000B, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C390001, 0x7C39000C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C390001, 0x7C39000D, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C390001, 0x7C39000E, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C390001, 0x7C39000F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C390001, 0x7C390010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C390001, 0x7C390011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C390001, 0x7C390012, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C390001, 0x7C390013, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7C390001, 0x7C390002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C390001, 0x7C390003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C390001, 0x7C390004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C390001, 0x7C390005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C390001, 0x7C390006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C390001, 0x7C390007, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C390001, 0x7C390008, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C390001, 0x7C390009, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C390001, 0x7C39000A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C390001, 0x7C39000B, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7C390001, 0x7C39000C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C390001, 0x7C39000D, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C390001, 0x7C39000E, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C390001, 0x7C39000F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C390001, 0x7C390010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C390001, 0x7C390011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C390001, 0x7C390012, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C390001, 0x7C390013, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C390002,   232, 0xC390002A, 128.2933, 44.66556, 6.005, -0.1538725, 0, 0, -0.9880907,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -101,7 +101,7 @@ VALUES (0x7C390014,  1542, 0xC3900039, 172.4836, 6.546567, 8, 0.9659258, 0, 0, -
 /* @teleloc 0xC3900039 [172.483600 6.546567 8.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C390014, 0x7C390015, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C390014, 0x7C390015, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C390015,  4180, 0xC3900039, 172.4836, 6.546567, 8, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

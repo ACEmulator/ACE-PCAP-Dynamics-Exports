@@ -5,12 +5,12 @@ VALUES (0x77D71001,  1154, 0x7D710022, 104.246, 43.86562, 25.32523, -0.918319, 0
 /* @teleloc 0x7D710022 [104.246000 43.865620 25.325230] -0.918319 0.000000 0.000000 -0.395841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D71001, 0x77D71002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x77D71001, 0x77D71003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77D71001, 0x77D71004, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x77D71001, 0x77D71005, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x77D71001, 0x77D71006, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x77D71001, 0x77D71007, '2019-02-10 00:00:00') /* Brown Armoredillo */;
+VALUES (0x77D71001, 0x77D71002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x77D71001, 0x77D71003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77D71001, 0x77D71004, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x77D71001, 0x77D71005, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x77D71001, 0x77D71006, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x77D71001, 0x77D71007, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D71002,    19, 0x7D710022, 104.246, 43.86562, 25.32523, -0.918319, 0, 0, -0.3958411,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */

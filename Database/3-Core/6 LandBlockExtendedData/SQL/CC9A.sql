@@ -25,34 +25,34 @@ VALUES (0x7CC9A008,  1154, 0xCC9A0030, 141.0533, 168.1056, 8.028802, -0.4765661,
 /* @teleloc 0xCC9A0030 [141.053300 168.105600 8.028802] -0.476566 0.000000 0.000000 -0.879139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9A008, 0x7CC9A009, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CC9A008, 0x7CC9A00A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9A008, 0x7CC9A00B, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC9A008, 0x7CC9A00C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC9A008, 0x7CC9A00D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CC9A008, 0x7CC9A00E, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC9A008, 0x7CC9A00F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC9A008, 0x7CC9A010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC9A008, 0x7CC9A011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC9A008, 0x7CC9A012, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC9A008, 0x7CC9A013, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC9A008, 0x7CC9A014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9A008, 0x7CC9A015, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CC9A008, 0x7CC9A016, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CC9A008, 0x7CC9A017, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9A008, 0x7CC9A018, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CC9A008, 0x7CC9A019, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CC9A008, 0x7CC9A01A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CC9A008, 0x7CC9A01B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC9A008, 0x7CC9A01C, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CC9A008, 0x7CC9A01D, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CC9A008, 0x7CC9A01E, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9A008, 0x7CC9A01F, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9A008, 0x7CC9A020, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9A008, 0x7CC9A021, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC9A008, 0x7CC9A022, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC9A008, 0x7CC9A023, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC9A008, 0x7CC9A024, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7CC9A008, 0x7CC9A009, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CC9A008, 0x7CC9A00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9A008, 0x7CC9A00B, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC9A008, 0x7CC9A00C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC9A008, 0x7CC9A00D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CC9A008, 0x7CC9A00E, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CC9A008, 0x7CC9A00F, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CC9A008, 0x7CC9A010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC9A008, 0x7CC9A011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC9A008, 0x7CC9A012, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC9A008, 0x7CC9A013, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC9A008, 0x7CC9A014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9A008, 0x7CC9A015, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CC9A008, 0x7CC9A016, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CC9A008, 0x7CC9A017, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9A008, 0x7CC9A018, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CC9A008, 0x7CC9A019, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CC9A008, 0x7CC9A01A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CC9A008, 0x7CC9A01B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC9A008, 0x7CC9A01C, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CC9A008, 0x7CC9A01D, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CC9A008, 0x7CC9A01E, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9A008, 0x7CC9A01F, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9A008, 0x7CC9A020, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9A008, 0x7CC9A021, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC9A008, 0x7CC9A022, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC9A008, 0x7CC9A023, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC9A008, 0x7CC9A024, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9A009, 27254, 0xCC9A0030, 141.0533, 168.1056, 8.028802, -0.4765661, 0, 0, -0.8791386,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */
@@ -171,10 +171,10 @@ VALUES (0x7CC9A025,  1542, 0xCC9A0025, 101.619, 106.799, 6.005699, 0.997725, 0, 
 /* @teleloc 0xCC9A0025 [101.619000 106.799000 6.005699] 0.997725 0.000000 0.000000 -0.067422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9A025, 0x7CC9A026, '2019-02-10 00:00:00') /* Cow */
-     , (0x7CC9A025, 0x7CC9A027, '2019-02-10 00:00:00') /* Cow */
-     , (0x7CC9A025, 0x7CC9A028, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CC9A025, 0x7CC9A029, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CC9A025, 0x7CC9A026, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7CC9A025, 0x7CC9A027, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7CC9A025, 0x7CC9A028, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CC9A025, 0x7CC9A029, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9A026,   618, 0xCC9A0025, 101.619, 106.799, 6.005699, 0.997725, 0, 0, -0.0674221,  True, '2019-02-10 00:00:00'); /* Cow */

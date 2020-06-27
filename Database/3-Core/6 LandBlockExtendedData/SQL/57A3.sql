@@ -5,21 +5,21 @@ VALUES (0x757A3001,  1154, 0x57A3001A, 79.44658, 44.50036, 37.38195, 0.8263337, 
 /* @teleloc 0x57A3001A [79.446580 44.500360 37.381950] 0.826334 0.000000 0.000000 -0.563181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757A3001, 0x757A3002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x757A3001, 0x757A3003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x757A3001, 0x757A3004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x757A3001, 0x757A3005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x757A3001, 0x757A3006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x757A3001, 0x757A3007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x757A3001, 0x757A3008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x757A3001, 0x757A3009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x757A3001, 0x757A300A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x757A3001, 0x757A300B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x757A3001, 0x757A300C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x757A3001, 0x757A300D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x757A3001, 0x757A300E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x757A3001, 0x757A300F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x757A3001, 0x757A3010, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x757A3001, 0x757A3002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x757A3001, 0x757A3003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x757A3001, 0x757A3004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x757A3001, 0x757A3005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x757A3001, 0x757A3006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x757A3001, 0x757A3007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x757A3001, 0x757A3008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x757A3001, 0x757A3009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x757A3001, 0x757A300A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x757A3001, 0x757A300B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x757A3001, 0x757A300C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x757A3001, 0x757A300D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x757A3001, 0x757A300E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x757A3001, 0x757A300F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x757A3001, 0x757A3010, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757A3002,  7121, 0x57A3001A, 79.44658, 44.50036, 37.38195, 0.8263337, 0, 0, -0.5631808,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

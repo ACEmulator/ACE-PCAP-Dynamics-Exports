@@ -5,22 +5,22 @@ VALUES (0x7B0B9001,  1154, 0xB0B9002C, 137.4569, 90.63541, 142.666, 0.9238795, 0
 /* @teleloc 0xB0B9002C [137.456900 90.635410 142.666000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0B9001, 0x7B0B9002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0B9001, 0x7B0B9003, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B0B9001, 0x7B0B9004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0B9001, 0x7B0B9005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0B9001, 0x7B0B9006, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B0B9001, 0x7B0B9007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B0B9001, 0x7B0B9008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0B9001, 0x7B0B9009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0B9001, 0x7B0B900A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0B9001, 0x7B0B900B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0B9001, 0x7B0B900C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B0B9001, 0x7B0B900D, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B0B9001, 0x7B0B900E, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B0B9001, 0x7B0B900F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B0B9001, 0x7B0B9010, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B0B9001, 0x7B0B9011, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7B0B9001, 0x7B0B9002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0B9001, 0x7B0B9003, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B0B9001, 0x7B0B9004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0B9001, 0x7B0B9005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0B9001, 0x7B0B9006, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B0B9001, 0x7B0B9007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B0B9001, 0x7B0B9008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0B9001, 0x7B0B9009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0B9001, 0x7B0B900A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0B9001, 0x7B0B900B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0B9001, 0x7B0B900C, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B0B9001, 0x7B0B900D, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B0B9001, 0x7B0B900E, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B0B9001, 0x7B0B900F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B0B9001, 0x7B0B9010, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B0B9001, 0x7B0B9011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0B9002,   939, 0xB0B9002C, 137.4569, 90.63541, 142.666, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -91,7 +91,7 @@ VALUES (0x7B0B9012,  1542, 0xB0B90034, 158.5055, 75.28085, 137.6114, -0.6795906,
 /* @teleloc 0xB0B90034 [158.505500 75.280850 137.611400] -0.679591 0.000000 0.000000 -0.733592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0B9012, 0x7B0B9013, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B0B9012, 0x7B0B9013, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0B9013,  8037, 0xB0B90034, 158.5055, 75.28085, 137.6114, -0.6795906, 0, 0, -0.7335916,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

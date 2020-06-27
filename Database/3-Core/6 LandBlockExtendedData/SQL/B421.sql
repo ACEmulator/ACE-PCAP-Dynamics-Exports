@@ -5,13 +5,13 @@ VALUES (0x7B421001,  1154, 0xB4210025, 96.49646, 119.7284, 270.0179, 0.2159529, 
 /* @teleloc 0xB4210025 [96.496460 119.728400 270.017900] 0.215953 0.000000 0.000000 -0.976404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B421001, 0x7B421002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7B421001, 0x7B421003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B421001, 0x7B421004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B421001, 0x7B421005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B421001, 0x7B421006, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x7B421001, 0x7B421007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B421001, 0x7B421008, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7B421001, 0x7B421002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7B421001, 0x7B421003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B421001, 0x7B421004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B421001, 0x7B421005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B421001, 0x7B421006, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x7B421001, 0x7B421007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B421001, 0x7B421008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B421002, 14517, 0xB4210025, 96.49646, 119.7284, 270.0179, 0.2159529, 0, 0, -0.9764038,  True, '2019-02-10 00:00:00'); /* Frost */

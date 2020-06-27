@@ -5,13 +5,13 @@ VALUES (0x7D24F001,  1154, 0xD24F0039, 173.8943, 16.51442, 81.07783, -0.1618803,
 /* @teleloc 0xD24F0039 [173.894300 16.514420 81.077830] -0.161880 0.000000 0.000000 -0.986810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D24F001, 0x7D24F002, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D24F001, 0x7D24F003, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D24F001, 0x7D24F004, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D24F001, 0x7D24F005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7D24F001, 0x7D24F006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D24F001, 0x7D24F007, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7D24F001, 0x7D24F008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */;
+VALUES (0x7D24F001, 0x7D24F002, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D24F001, 0x7D24F003, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D24F001, 0x7D24F004, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D24F001, 0x7D24F005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7D24F001, 0x7D24F006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D24F001, 0x7D24F007, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7D24F001, 0x7D24F008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D24F002, 11537, 0xD24F0039, 173.8943, 16.51442, 81.07783, -0.1618803, 0, 0, -0.9868104,  True, '2019-02-10 00:00:00'); /* Virtuous Doll */
@@ -46,8 +46,8 @@ VALUES (0x7D24F009,  1542, 0xD24F0029, 128.8082, 10.89253, 116.2308, 0.5, 0, 0, 
 /* @teleloc 0xD24F0029 [128.808200 10.892530 116.230800] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D24F009, 0x7D24F00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D24F009, 0x7D24F00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D24F009, 0x7D24F00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D24F009, 0x7D24F00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D24F00A,  4179, 0xD24F0029, 128.8082, 10.89253, 116.2308, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,26 +5,26 @@ VALUES (0x797E0001,  1154, 0x97E00035, 145.0721, 109.7308, 158.9551, -0.9926043,
 /* @teleloc 0x97E00035 [145.072100 109.730800 158.955100] -0.992604 0.000000 0.000000 -0.121395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E0001, 0x797E0002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x797E0001, 0x797E0003, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x797E0001, 0x797E0004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797E0001, 0x797E0005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797E0001, 0x797E0006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x797E0001, 0x797E0007, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x797E0001, 0x797E0008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x797E0001, 0x797E0009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x797E0001, 0x797E000A, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x797E0001, 0x797E000B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E0001, 0x797E000C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E0001, 0x797E000D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E0001, 0x797E000E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x797E0001, 0x797E000F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x797E0001, 0x797E0010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x797E0001, 0x797E0011, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E0001, 0x797E0012, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E0001, 0x797E0013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E0001, 0x797E0014, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E0001, 0x797E0015, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x797E0001, 0x797E0002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x797E0001, 0x797E0003, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x797E0001, 0x797E0004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797E0001, 0x797E0005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797E0001, 0x797E0006, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x797E0001, 0x797E0007, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x797E0001, 0x797E0008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x797E0001, 0x797E0009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x797E0001, 0x797E000A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x797E0001, 0x797E000B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E0001, 0x797E000C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E0001, 0x797E000D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E0001, 0x797E000E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x797E0001, 0x797E000F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x797E0001, 0x797E0010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x797E0001, 0x797E0011, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E0001, 0x797E0012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E0001, 0x797E0013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E0001, 0x797E0014, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E0001, 0x797E0015, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E0002, 26468, 0x97E00035, 145.0721, 109.7308, 158.9551, -0.9926043, 0, 0, -0.1213953,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -111,8 +111,8 @@ VALUES (0x797E0016,  1542, 0x97E0000F, 45.03861, 150.3433, 127.9948, -4.371139E-
 /* @teleloc 0x97E0000F [45.038610 150.343300 127.994800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E0016, 0x797E0017, '2019-02-10 00:00:00') /* Bones */
-     , (0x797E0016, 0x797E0018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x797E0016, 0x797E0017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x797E0016, 0x797E0018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E0017,  4380, 0x97E0000F, 45.03861, 150.3433, 127.9948, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

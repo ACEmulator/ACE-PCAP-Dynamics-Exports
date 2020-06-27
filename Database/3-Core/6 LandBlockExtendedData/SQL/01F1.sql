@@ -13,9 +13,9 @@ VALUES (0x701F1007,  1154, 0x01F1010D, 32.524, -2.08984, -0.007499933, -0.631691
 /* @teleloc 0x01F1010D [32.524000 -2.089840 -0.007500] -0.631691 0.000000 0.000000 -0.775220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F1007, 0x701F1008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x701F1007, 0x701F1009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x701F1007, 0x701F100A, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x701F1007, 0x701F1008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x701F1007, 0x701F1009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x701F1007, 0x701F100A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F1008,  2612, 0x01F1010D, 32.524, -2.08984, -0.007499933, -0.631691, 0, 0, -0.77522,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

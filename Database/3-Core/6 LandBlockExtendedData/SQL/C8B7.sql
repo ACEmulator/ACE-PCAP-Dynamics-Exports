@@ -5,16 +5,16 @@ VALUES (0x7C8B7001,  1154, 0xC8B70027, 102.8164, 148.9438, 254.8963, 0.5375398, 
 /* @teleloc 0xC8B70027 [102.816400 148.943800 254.896300] 0.537540 0.000000 0.000000 -0.843238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B7001, 0x7C8B7002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8B7001, 0x7C8B7003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C8B7001, 0x7C8B7004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8B7001, 0x7C8B7005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8B7001, 0x7C8B7006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8B7001, 0x7C8B7007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C8B7001, 0x7C8B7008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C8B7001, 0x7C8B7009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C8B7001, 0x7C8B700A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C8B7001, 0x7C8B700B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C8B7001, 0x7C8B7002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8B7001, 0x7C8B7003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C8B7001, 0x7C8B7004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8B7001, 0x7C8B7005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8B7001, 0x7C8B7006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8B7001, 0x7C8B7007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C8B7001, 0x7C8B7008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C8B7001, 0x7C8B7009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C8B7001, 0x7C8B700A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C8B7001, 0x7C8B700B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B7002, 23482, 0xC8B70027, 102.8164, 148.9438, 254.8963, 0.5375398, 0, 0, -0.8432384,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

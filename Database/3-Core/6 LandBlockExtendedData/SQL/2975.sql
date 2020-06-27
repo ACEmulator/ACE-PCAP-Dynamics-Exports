@@ -5,14 +5,14 @@ VALUES (0x72975001,  1154, 0x2975003C, 172.6395, 78.65253, 186.9495, -0.7470735,
 /* @teleloc 0x2975003C [172.639500 78.652530 186.949500] -0.747074 0.000000 0.000000 -0.664742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72975001, 0x72975002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72975001, 0x72975003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72975001, 0x72975004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72975001, 0x72975005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72975001, 0x72975006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72975001, 0x72975007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72975001, 0x72975008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72975001, 0x72975009, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72975001, 0x72975002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72975001, 0x72975003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72975001, 0x72975004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72975001, 0x72975005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72975001, 0x72975006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72975001, 0x72975007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72975001, 0x72975008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72975001, 0x72975009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72975002, 36840, 0x2975003C, 172.6395, 78.65253, 186.9495, -0.7470735, 0, 0, -0.6647415,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -51,7 +51,7 @@ VALUES (0x7297500A,  1542, 0x2975001C, 91.66676, 86.35892, 219.6298, 1, 0, 0, 0,
 /* @teleloc 0x2975001C [91.666760 86.358920 219.629800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7297500A, 0x7297500B, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7297500A, 0x7297500B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7297500B, 31445, 0x2975001C, 91.66676, 86.35892, 219.6298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -37,22 +37,22 @@ VALUES (0x77D6800A,  1154, 0x7D68001B, 79.67826, 52.8244, 15.43758, -0.4500111, 
 /* @teleloc 0x7D68001B [79.678260 52.824400 15.437580] -0.450011 0.000000 0.000000 -0.893023 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6800A, 0x77D6800B, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77D6800A, 0x77D6800C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77D6800A, 0x77D6800D, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77D6800A, 0x77D6800E, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77D6800A, 0x77D6800F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x77D6800A, 0x77D68010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77D6800A, 0x77D68011, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x77D6800A, 0x77D68012, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D68013, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D68014, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x77D6800A, 0x77D68015, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D68016, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D68017, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D68018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x77D6800A, 0x77D68019, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D6800A, 0x77D6801A, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77D6800A, 0x77D6800B, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77D6800A, 0x77D6800C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77D6800A, 0x77D6800D, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77D6800A, 0x77D6800E, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77D6800A, 0x77D6800F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x77D6800A, 0x77D68010, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77D6800A, 0x77D68011, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77D6800A, 0x77D68012, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D68013, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D68014, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x77D6800A, 0x77D68015, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D68016, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D68017, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D68018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x77D6800A, 0x77D68019, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x77D6800A, 0x77D6801A, '2019-02-10 00:00:00') /* Old Bones (19436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6800B, 19263, 0x7D68001B, 79.67826, 52.8244, 15.43758, -0.4500111, 0, 0, -0.893023,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
@@ -123,7 +123,7 @@ VALUES (0x77D6801B,  1154, 0x7D680103, 130.769, 33.2556, 9.705, 0.708318, 0, 0, 
 /* @teleloc 0x7D680103 [130.769000 33.255600 9.705000] 0.708318 0.000000 0.000000 0.705893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D6801B, 0x77D6801C, '2019-02-10 00:00:00') /* Nasun ibn Tifar */;
+VALUES (0x77D6801B, 0x77D6801C, '2019-02-10 00:00:00') /* Nasun ibn Tifar (5180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D6801C,  5180, 0x7D680103, 130.769, 33.2556, 9.705, 0.708318, 0, 0, 0.705893,  True, '2019-02-10 00:00:00'); /* Nasun ibn Tifar */

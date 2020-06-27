@@ -5,9 +5,9 @@ VALUES (0x78DDB001,  1154, 0x8DDB003F, 170.3036, 166.1687, 165.2927, 0.8771895, 
 /* @teleloc 0x8DDB003F [170.303600 166.168700 165.292700] 0.877190 0.000000 0.000000 -0.480144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DDB001, 0x78DDB002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78DDB001, 0x78DDB003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78DDB001, 0x78DDB004, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x78DDB001, 0x78DDB002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78DDB001, 0x78DDB003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78DDB001, 0x78DDB004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DDB002,  7994, 0x8DDB003F, 170.3036, 166.1687, 165.2927, 0.8771895, 0, 0, -0.4801444,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

@@ -5,13 +5,13 @@ VALUES (0x71254001,  1154, 0x12540036, 147.0057, 128.9791, -0.00210005, 0.577137
 /* @teleloc 0x12540036 [147.005700 128.979100 -0.002100] 0.577137 0.000000 0.000000 -0.816647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71254001, 0x71254002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71254001, 0x71254003, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x71254001, 0x71254004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71254001, 0x71254005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71254001, 0x71254006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71254001, 0x71254007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71254001, 0x71254008, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71254001, 0x71254002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71254001, 0x71254003, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x71254001, 0x71254004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71254001, 0x71254005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71254001, 0x71254006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71254001, 0x71254007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71254001, 0x71254008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71254002,  7982, 0x12540036, 147.0057, 128.9791, -0.00210005, 0.5771374, 0, 0, -0.8166471,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

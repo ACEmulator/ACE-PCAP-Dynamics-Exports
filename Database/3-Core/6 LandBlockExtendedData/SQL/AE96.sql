@@ -5,13 +5,13 @@ VALUES (0x7AE96001,  1154, 0xAE960027, 113.2701, 159.9272, 45.44518, 0.9813898, 
 /* @teleloc 0xAE960027 [113.270100 159.927200 45.445180] 0.981390 0.000000 0.000000 -0.192026 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE96001, 0x7AE96002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE96001, 0x7AE96003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AE96001, 0x7AE96004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AE96001, 0x7AE96005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AE96001, 0x7AE96006, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7AE96001, 0x7AE96007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AE96001, 0x7AE96008, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7AE96001, 0x7AE96002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE96001, 0x7AE96003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AE96001, 0x7AE96004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AE96001, 0x7AE96005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AE96001, 0x7AE96006, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7AE96001, 0x7AE96007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AE96001, 0x7AE96008, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE96002,   226, 0xAE960027, 113.2701, 159.9272, 45.44518, 0.9813898, 0, 0, -0.1920264,  True, '2019-02-10 00:00:00'); /* High Tumerok */

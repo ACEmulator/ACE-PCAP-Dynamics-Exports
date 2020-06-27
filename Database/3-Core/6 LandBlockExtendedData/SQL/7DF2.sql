@@ -5,37 +5,37 @@ VALUES (0x77DF2001,  1154, 0x7DF20016, 67.93842, 126.7985, 133.7434, -0.8623035,
 /* @teleloc 0x7DF20016 [67.938420 126.798500 133.743400] -0.862304 0.000000 0.000000 -0.506392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF2001, 0x77DF2002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x77DF2001, 0x77DF2003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF2004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF2005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x77DF2001, 0x77DF2006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x77DF2001, 0x77DF2007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77DF2001, 0x77DF2008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77DF2001, 0x77DF2009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF200A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x77DF2001, 0x77DF200B, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x77DF2001, 0x77DF200C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77DF2001, 0x77DF200D, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x77DF2001, 0x77DF200E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DF2001, 0x77DF200F, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77DF2001, 0x77DF2010, '2019-02-10 00:00:00') /* Horripal */
-     , (0x77DF2001, 0x77DF2011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF2012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF2013, '2019-02-10 00:00:00') /* Brumal */
-     , (0x77DF2001, 0x77DF2014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF2001, 0x77DF2015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DF2001, 0x77DF2016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DF2001, 0x77DF2017, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DF2001, 0x77DF2018, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DF2001, 0x77DF2019, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77DF2001, 0x77DF201A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77DF2001, 0x77DF201B, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x77DF2001, 0x77DF201C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77DF2001, 0x77DF201D, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DF2001, 0x77DF201E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77DF2001, 0x77DF201F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x77DF2001, 0x77DF2020, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x77DF2001, 0x77DF2002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x77DF2001, 0x77DF2003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77DF2001, 0x77DF2004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77DF2001, 0x77DF2005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x77DF2001, 0x77DF2006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x77DF2001, 0x77DF2007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77DF2001, 0x77DF2008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77DF2001, 0x77DF2009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77DF2001, 0x77DF200A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x77DF2001, 0x77DF200B, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x77DF2001, 0x77DF200C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77DF2001, 0x77DF200D, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x77DF2001, 0x77DF200E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DF2001, 0x77DF200F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77DF2001, 0x77DF2010, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x77DF2001, 0x77DF2011, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF2001, 0x77DF2012, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF2001, 0x77DF2013, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x77DF2001, 0x77DF2014, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77DF2001, 0x77DF2015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DF2001, 0x77DF2016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DF2001, 0x77DF2017, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DF2001, 0x77DF2018, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DF2001, 0x77DF2019, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77DF2001, 0x77DF201A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77DF2001, 0x77DF201B, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x77DF2001, 0x77DF201C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77DF2001, 0x77DF201D, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DF2001, 0x77DF201E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77DF2001, 0x77DF201F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x77DF2001, 0x77DF2020, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF2002, 24134, 0x7DF20016, 67.93842, 126.7985, 133.7434, -0.8623035, 0, 0, -0.5063918,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -166,13 +166,13 @@ VALUES (0x77DF2021,  1542, 0x7DF20018, 56.45981, 187.2213, 124.4895, -0.4221405,
 /* @teleloc 0x7DF20018 [56.459810 187.221300 124.489500] -0.422141 0.000000 0.000000 -0.906530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF2021, 0x77DF2022, '2019-02-10 00:00:00') /* Rock */
-     , (0x77DF2021, 0x77DF2023, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x77DF2021, 0x77DF2024, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77DF2021, 0x77DF2025, '2019-02-10 00:00:00') /* Bones */
-     , (0x77DF2021, 0x77DF2026, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x77DF2021, 0x77DF2027, '2019-02-10 00:00:00') /* Rock */
-     , (0x77DF2021, 0x77DF2028, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x77DF2021, 0x77DF2022, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x77DF2021, 0x77DF2023, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x77DF2021, 0x77DF2024, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x77DF2021, 0x77DF2025, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77DF2021, 0x77DF2026, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x77DF2021, 0x77DF2027, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x77DF2021, 0x77DF2028, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF2022, 42528, 0x7DF20018, 56.45981, 187.2213, 124.4895, -0.4221405, 0, 0, -0.9065304,  True, '2019-02-10 00:00:00'); /* Rock */

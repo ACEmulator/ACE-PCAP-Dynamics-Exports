@@ -5,28 +5,28 @@ VALUES (0x7C5B3001,  1154, 0xC5B30032, 155.6428, 37.27758, 291.1313, -0.5186691,
 /* @teleloc 0xC5B30032 [155.642800 37.277580 291.131300] -0.518669 0.000000 0.000000 -0.854975 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5B3001, 0x7C5B3002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C5B3001, 0x7C5B3003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C5B3001, 0x7C5B3004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C5B3001, 0x7C5B3005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C5B3001, 0x7C5B3006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C5B3001, 0x7C5B3007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C5B3001, 0x7C5B3008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C5B3001, 0x7C5B3009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C5B3001, 0x7C5B300A, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C5B3001, 0x7C5B300B, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C5B3001, 0x7C5B300C, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C5B3001, 0x7C5B300D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C5B3001, 0x7C5B300E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C5B3001, 0x7C5B300F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C5B3001, 0x7C5B3010, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C5B3001, 0x7C5B3011, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C5B3001, 0x7C5B3012, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C5B3001, 0x7C5B3013, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C5B3001, 0x7C5B3014, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C5B3001, 0x7C5B3015, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C5B3001, 0x7C5B3016, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C5B3001, 0x7C5B3017, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7C5B3001, 0x7C5B3002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C5B3001, 0x7C5B3003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C5B3001, 0x7C5B3004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C5B3001, 0x7C5B3005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C5B3001, 0x7C5B3006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C5B3001, 0x7C5B3007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C5B3001, 0x7C5B3008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C5B3001, 0x7C5B3009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C5B3001, 0x7C5B300A, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C5B3001, 0x7C5B300B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C5B3001, 0x7C5B300C, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C5B3001, 0x7C5B300D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C5B3001, 0x7C5B300E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C5B3001, 0x7C5B300F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C5B3001, 0x7C5B3010, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C5B3001, 0x7C5B3011, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C5B3001, 0x7C5B3012, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C5B3001, 0x7C5B3013, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C5B3001, 0x7C5B3014, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C5B3001, 0x7C5B3015, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C5B3001, 0x7C5B3016, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C5B3001, 0x7C5B3017, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5B3002,   937, 0xC5B30032, 155.6428, 37.27758, 291.1313, -0.5186691, 0, 0, -0.8549751,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -121,8 +121,8 @@ VALUES (0x7C5B3018,  1542, 0xC5B30029, 141.0905, 5.10866, 274.6135, 1, 0, 0, 0, 
 /* @teleloc 0xC5B30029 [141.090500 5.108660 274.613500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5B3018, 0x7C5B3019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C5B3018, 0x7C5B301A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C5B3018, 0x7C5B3019, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C5B3018, 0x7C5B301A, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5B3019, 22570, 0xC5B30029, 141.0905, 5.10866, 274.6135, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

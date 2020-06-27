@@ -5,14 +5,14 @@ VALUES (0x7C7A0001,  1154, 0xC7A00014, 55.0276, 89.76397, 29.11635, 0.9346355, 0
 /* @teleloc 0xC7A00014 [55.027600 89.763970 29.116350] 0.934636 0.000000 0.000000 -0.355607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A0001, 0x7C7A0002, '2019-02-10 00:00:00') /* Master of the Herd */
-     , (0x7C7A0001, 0x7C7A0003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7C7A0001, 0x7C7A0004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7C7A0001, 0x7C7A0005, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7C7A0001, 0x7C7A0006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C7A0001, 0x7C7A0007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C7A0001, 0x7C7A0008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C7A0001, 0x7C7A0009, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7C7A0001, 0x7C7A0002, '2019-02-10 00:00:00') /* Master of the Herd (11981) */
+     , (0x7C7A0001, 0x7C7A0003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7C7A0001, 0x7C7A0004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7C7A0001, 0x7C7A0005, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7C7A0001, 0x7C7A0006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C7A0001, 0x7C7A0007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C7A0001, 0x7C7A0008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C7A0001, 0x7C7A0009, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A0002, 11981, 0xC7A00014, 55.0276, 89.76397, 29.11635, 0.9346355, 0, 0, -0.3556072,  True, '2019-02-10 00:00:00'); /* Master of the Herd */

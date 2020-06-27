@@ -5,19 +5,19 @@ VALUES (0x7C0A4001,  1154, 0xC0A4002C, 128.3121, 84.07387, 10.70268, 0.6032985, 
 /* @teleloc 0xC0A4002C [128.312100 84.073870 10.702680] 0.603299 0.000000 0.000000 -0.797516 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A4001, 0x7C0A4002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7C0A4001, 0x7C0A4003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C0A4001, 0x7C0A4004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C0A4001, 0x7C0A4005, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C0A4001, 0x7C0A4006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C0A4001, 0x7C0A4007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C0A4001, 0x7C0A4008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C0A4001, 0x7C0A4009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C0A4001, 0x7C0A400A, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7C0A4001, 0x7C0A400B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C0A4001, 0x7C0A400C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C0A4001, 0x7C0A400D, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C0A4001, 0x7C0A400E, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7C0A4001, 0x7C0A4002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7C0A4001, 0x7C0A4003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C0A4001, 0x7C0A4004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C0A4001, 0x7C0A4005, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C0A4001, 0x7C0A4006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C0A4001, 0x7C0A4007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C0A4001, 0x7C0A4008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C0A4001, 0x7C0A4009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C0A4001, 0x7C0A400A, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7C0A4001, 0x7C0A400B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C0A4001, 0x7C0A400C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C0A4001, 0x7C0A400D, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C0A4001, 0x7C0A400E, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A4002,   942, 0xC0A4002C, 128.3121, 84.07387, 10.70268, 0.6032985, 0, 0, -0.7975155,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -76,8 +76,8 @@ VALUES (0x7C0A400F,  1542, 0xC0A40016, 59.48945, 127.8943, 10.65786, 0.9990482, 
 /* @teleloc 0xC0A40016 [59.489450 127.894300 10.657860] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0A400F, 0x7C0A4010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C0A400F, 0x7C0A4011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C0A400F, 0x7C0A4010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C0A400F, 0x7C0A4011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0A4010,  4179, 0xC0A40016, 59.48945, 127.8943, 10.65786, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

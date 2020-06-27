@@ -5,15 +5,15 @@ VALUES (0x7D63B001,  1154, 0xD63B0034, 165.8146, 91.7686, 153.9901, -0.6462699, 
 /* @teleloc 0xD63B0034 [165.814600 91.768600 153.990100] -0.646270 0.000000 0.000000 -0.763109 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D63B001, 0x7D63B002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7D63B001, 0x7D63B003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D63B001, 0x7D63B004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7D63B001, 0x7D63B005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D63B001, 0x7D63B006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D63B001, 0x7D63B007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D63B001, 0x7D63B008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D63B001, 0x7D63B009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D63B001, 0x7D63B00A, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7D63B001, 0x7D63B002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7D63B001, 0x7D63B003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D63B001, 0x7D63B004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7D63B001, 0x7D63B005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D63B001, 0x7D63B006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D63B001, 0x7D63B007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D63B001, 0x7D63B008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D63B001, 0x7D63B009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D63B001, 0x7D63B00A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D63B002,   206, 0xD63B0034, 165.8146, 91.7686, 153.9901, -0.6462699, 0, 0, -0.7631089,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
@@ -56,7 +56,7 @@ VALUES (0x7D63B00B,  1542, 0xD63B0023, 100.9744, 54.28494, 188.8656, 1, 0, 0, 0,
 /* @teleloc 0xD63B0023 [100.974400 54.284940 188.865600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D63B00B, 0x7D63B00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D63B00B, 0x7D63B00C, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D63B00C, 22570, 0xD63B0023, 100.9744, 54.28494, 188.8656, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,28 +5,28 @@ VALUES (0x7DDC3001,  1154, 0xDDC30034, 149.0428, 87.09184, 35.24091, 0.7742088, 
 /* @teleloc 0xDDC30034 [149.042800 87.091840 35.240910] 0.774209 0.000000 0.000000 -0.632930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DDC3001, 0x7DDC3002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC3003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC3004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC3006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DDC3001, 0x7DDC3007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC3008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC3009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DDC3001, 0x7DDC300A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DDC3001, 0x7DDC300B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC3001, 0x7DDC300C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DDC3001, 0x7DDC300D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC300E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC300F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3010, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3011, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3012, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC3001, 0x7DDC3014, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DDC3001, 0x7DDC3015, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DDC3001, 0x7DDC3016, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7DDC3001, 0x7DDC3017, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x7DDC3001, 0x7DDC3002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC3003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC3004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC3006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DDC3001, 0x7DDC3007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC3008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC3009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DDC3001, 0x7DDC300A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DDC3001, 0x7DDC300B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC3001, 0x7DDC300C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DDC3001, 0x7DDC300D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC300E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC300F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3010, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3011, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3012, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC3001, 0x7DDC3014, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DDC3001, 0x7DDC3015, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DDC3001, 0x7DDC3016, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7DDC3001, 0x7DDC3017, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DDC3002,     3, 0xDDC30034, 149.0428, 87.09184, 35.24091, 0.7742088, 0, 0, -0.6329303,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

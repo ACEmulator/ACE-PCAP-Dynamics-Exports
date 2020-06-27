@@ -5,9 +5,9 @@ VALUES (0x756DB001,  1154, 0x56DB0004, 3.700039, 72.04018, 33.09823, -0.4991737,
 /* @teleloc 0x56DB0004 [3.700039 72.040180 33.098230] -0.499174 0.000000 0.000000 -0.866502 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756DB001, 0x756DB002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x756DB001, 0x756DB003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x756DB001, 0x756DB004, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x756DB001, 0x756DB002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x756DB001, 0x756DB003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x756DB001, 0x756DB004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756DB002, 10810, 0x56DB0004, 3.700039, 72.04018, 33.09823, -0.4991737, 0, 0, -0.8665019,  True, '2019-02-10 00:00:00'); /* Rampager */

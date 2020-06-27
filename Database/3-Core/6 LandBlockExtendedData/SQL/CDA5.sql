@@ -5,14 +5,14 @@ VALUES (0x7CDA5001,  1154, 0xCDA50008, 8.417562, 172.9488, 57.11936, 0.9238795, 
 /* @teleloc 0xCDA50008 [8.417562 172.948800 57.119360] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDA5001, 0x7CDA5002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CDA5001, 0x7CDA5003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7CDA5001, 0x7CDA5004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CDA5001, 0x7CDA5005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CDA5001, 0x7CDA5006, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7CDA5001, 0x7CDA5007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CDA5001, 0x7CDA5008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CDA5001, 0x7CDA5009, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7CDA5001, 0x7CDA5002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CDA5001, 0x7CDA5003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7CDA5001, 0x7CDA5004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CDA5001, 0x7CDA5005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CDA5001, 0x7CDA5006, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7CDA5001, 0x7CDA5007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CDA5001, 0x7CDA5008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CDA5001, 0x7CDA5009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDA5002,   233, 0xCDA50008, 8.417562, 172.9488, 57.11936, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -51,7 +51,7 @@ VALUES (0x7CDA500A,  1542, 0xCDA5001E, 79.95447, 131.1916, 54.48429, 0.9238795, 
 /* @teleloc 0xCDA5001E [79.954470 131.191600 54.484290] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDA500A, 0x7CDA500B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CDA500A, 0x7CDA500B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDA500B,  4380, 0xCDA5001E, 79.95447, 131.1916, 54.48429, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -109,25 +109,25 @@ VALUES (0x701BB03B,  1154, 0x01BB017C, 70, -50, 0.007149994, 1, 0, 0, 0, False, 
 /* @teleloc 0x01BB017C [70.000000 -50.000000 0.007150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB03B, 0x701BB03C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x701BB03B, 0x701BB03D, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB03E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BB03B, 0x701BB03F, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x701BB03B, 0x701BB040, '2019-02-10 00:00:00') /* Undead */
-     , (0x701BB03B, 0x701BB041, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x701BB03B, 0x701BB042, '2019-02-10 00:00:00') /* Undead */
-     , (0x701BB03B, 0x701BB043, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x701BB03B, 0x701BB044, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x701BB03B, 0x701BB045, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x701BB03B, 0x701BB046, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB047, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB048, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB049, '2019-02-10 00:00:00') /* Undead */
-     , (0x701BB03B, 0x701BB04A, '2019-02-10 00:00:00') /* Undead */
-     , (0x701BB03B, 0x701BB04B, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB04C, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB04D, '2019-02-10 00:00:00') /* Zombie */
-     , (0x701BB03B, 0x701BB04E, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x701BB03B, 0x701BB03C, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x701BB03B, 0x701BB03D, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB03E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BB03B, 0x701BB03F, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x701BB03B, 0x701BB040, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x701BB03B, 0x701BB041, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x701BB03B, 0x701BB042, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x701BB03B, 0x701BB043, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x701BB03B, 0x701BB044, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x701BB03B, 0x701BB045, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x701BB03B, 0x701BB046, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB047, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB048, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB049, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x701BB03B, 0x701BB04A, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x701BB03B, 0x701BB04B, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB04C, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB04D, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x701BB03B, 0x701BB04E, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB03C,   939, 0x01BB017C, 70, -50, 0.007149994, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -210,11 +210,11 @@ VALUES (0x701BB04F,  1542, 0x01BB016F, 63.99119, -103.4388, -0.0006459951, 0.707
 /* @teleloc 0x01BB016F [63.991190 -103.438800 -0.000646] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701BB04F, 0x701BB050, '2019-02-10 00:00:00') /* Sandals */
-     , (0x701BB04F, 0x701BB051, '2019-02-10 00:00:00') /* Shirt */
-     , (0x701BB04F, 0x701BB052, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701BB04F, 0x701BB053, '2019-02-10 00:00:00') /* Apple */
-     , (0x701BB04F, 0x701BB054, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x701BB04F, 0x701BB050, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x701BB04F, 0x701BB051, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x701BB04F, 0x701BB052, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701BB04F, 0x701BB053, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701BB04F, 0x701BB054, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701BB050,   129, 0x01BB016F, 63.99119, -103.4388, -0.0006459951, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sandals */

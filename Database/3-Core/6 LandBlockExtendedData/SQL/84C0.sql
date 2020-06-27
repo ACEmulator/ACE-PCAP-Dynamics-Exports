@@ -5,15 +5,15 @@ VALUES (0x784C0001,  1154, 0x84C0000C, 31.30411, 80.32845, 103.999, 0.7071068, 0
 /* @teleloc 0x84C0000C [31.304110 80.328450 103.999000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784C0001, 0x784C0002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x784C0001, 0x784C0003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x784C0001, 0x784C0004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x784C0001, 0x784C0005, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x784C0001, 0x784C0006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x784C0001, 0x784C0007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x784C0001, 0x784C0008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x784C0001, 0x784C0009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x784C0001, 0x784C000A, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x784C0001, 0x784C0002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x784C0001, 0x784C0003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x784C0001, 0x784C0004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x784C0001, 0x784C0005, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x784C0001, 0x784C0006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x784C0001, 0x784C0007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x784C0001, 0x784C0008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x784C0001, 0x784C0009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x784C0001, 0x784C000A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784C0002, 24294, 0x84C0000C, 31.30411, 80.32845, 103.999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -56,7 +56,7 @@ VALUES (0x784C000B,  1542, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 
 /* @teleloc 0x84C0000B [39.166440 68.136890 105.174200] 0.861598 0.000000 0.000000 -0.507592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784C000B, 0x784C000C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x784C000B, 0x784C000C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784C000C,  8646, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 0, 0, -0.5075917,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

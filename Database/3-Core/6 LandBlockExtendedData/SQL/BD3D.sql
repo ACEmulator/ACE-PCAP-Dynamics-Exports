@@ -5,8 +5,8 @@ VALUES (0x7BD3D001,  1154, 0xBD3D0013, 49.75367, 59.95459, 221.9925, -0.8410554,
 /* @teleloc 0xBD3D0013 [49.753670 59.954590 221.992500] -0.841055 0.000000 0.000000 -0.540949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD3D001, 0x7BD3D002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BD3D001, 0x7BD3D003, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7BD3D001, 0x7BD3D002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BD3D001, 0x7BD3D003, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD3D002,  2576, 0xBD3D0013, 49.75367, 59.95459, 221.9925, -0.8410554, 0, 0, -0.540949,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

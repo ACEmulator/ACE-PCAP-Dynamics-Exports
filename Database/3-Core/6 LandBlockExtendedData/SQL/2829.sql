@@ -5,12 +5,12 @@ VALUES (0x72829001,  1154, 0x2829003A, 191.0785, 33.44701, 32.81545, -0.7017854,
 /* @teleloc 0x2829003A [191.078500 33.447010 32.815450] -0.701785 0.000000 0.000000 -0.712388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72829001, 0x72829002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72829001, 0x72829003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72829001, 0x72829004, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72829001, 0x72829005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72829001, 0x72829006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72829001, 0x72829007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72829001, 0x72829002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72829001, 0x72829003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72829001, 0x72829004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72829001, 0x72829005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72829001, 0x72829006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72829001, 0x72829007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72829002, 23566, 0x2829003A, 191.0785, 33.44701, 32.81545, -0.7017854, 0, 0, -0.7123884,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

@@ -5,11 +5,11 @@ VALUES (0x73F3B001,  1154, 0x3F3B0036, 149.0785, 128.2396, 0.9001541, 0.8371077,
 /* @teleloc 0x3F3B0036 [149.078500 128.239600 0.900154] 0.837108 0.000000 0.000000 -0.547038 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F3B001, 0x73F3B002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73F3B001, 0x73F3B003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73F3B001, 0x73F3B004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F3B001, 0x73F3B005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73F3B001, 0x73F3B006, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73F3B001, 0x73F3B002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73F3B001, 0x73F3B003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73F3B001, 0x73F3B004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F3B001, 0x73F3B005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73F3B001, 0x73F3B006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F3B002,  8138, 0x3F3B0036, 149.0785, 128.2396, 0.9001541, 0.8371077, 0, 0, -0.5470382,  True, '2019-02-10 00:00:00'); /* Extas Raider */

@@ -5,11 +5,11 @@ VALUES (0x73EB1001,  1154, 0x3EB10033, 145.5572, 58.17748, -0.9000001, 0.0082416
 /* @teleloc 0x3EB10033 [145.557200 58.177480 -0.900000] 0.008242 0.000000 0.000000 -0.999966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EB1001, 0x73EB1002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73EB1001, 0x73EB1003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73EB1001, 0x73EB1004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73EB1001, 0x73EB1005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73EB1001, 0x73EB1006, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x73EB1001, 0x73EB1002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73EB1001, 0x73EB1003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73EB1001, 0x73EB1004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73EB1001, 0x73EB1005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73EB1001, 0x73EB1006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EB1002,  7111, 0x3EB10033, 145.5572, 58.17748, -0.9000001, 0.008241636, 0, 0, -0.999966,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

@@ -5,26 +5,26 @@ VALUES (0x76E9E001,  1154, 0x6E9E000F, 32.88032, 146.2172, 240, 0.9828075, 0, 0,
 /* @teleloc 0x6E9E000F [32.880320 146.217200 240.000000] 0.982808 0.000000 0.000000 -0.184633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E9E001, 0x76E9E002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x76E9E001, 0x76E9E003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x76E9E001, 0x76E9E004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x76E9E001, 0x76E9E005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x76E9E001, 0x76E9E006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x76E9E001, 0x76E9E007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x76E9E001, 0x76E9E008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x76E9E001, 0x76E9E009, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x76E9E001, 0x76E9E00A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x76E9E001, 0x76E9E00B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x76E9E001, 0x76E9E00C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x76E9E001, 0x76E9E00D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x76E9E001, 0x76E9E00E, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x76E9E001, 0x76E9E00F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x76E9E001, 0x76E9E010, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x76E9E001, 0x76E9E011, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x76E9E001, 0x76E9E012, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x76E9E001, 0x76E9E013, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x76E9E001, 0x76E9E014, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x76E9E001, 0x76E9E015, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x76E9E001, 0x76E9E002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x76E9E001, 0x76E9E003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x76E9E001, 0x76E9E004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x76E9E001, 0x76E9E005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x76E9E001, 0x76E9E006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x76E9E001, 0x76E9E007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x76E9E001, 0x76E9E008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x76E9E001, 0x76E9E009, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x76E9E001, 0x76E9E00A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x76E9E001, 0x76E9E00B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x76E9E001, 0x76E9E00C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x76E9E001, 0x76E9E00D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x76E9E001, 0x76E9E00E, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x76E9E001, 0x76E9E00F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x76E9E001, 0x76E9E010, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x76E9E001, 0x76E9E011, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x76E9E001, 0x76E9E012, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x76E9E001, 0x76E9E013, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x76E9E001, 0x76E9E014, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x76E9E001, 0x76E9E015, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E9E002,   214, 0x6E9E000F, 32.88032, 146.2172, 240, 0.9828075, 0, 0, -0.1846333,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -111,8 +111,8 @@ VALUES (0x76E9E016,  1542, 0x6E9E0017, 60.12303, 144.4661, 240, 0.9869943, 0, 0,
 /* @teleloc 0x6E9E0017 [60.123030 144.466100 240.000000] 0.986994 0.000000 0.000000 -0.160755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E9E016, 0x76E9E017, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x76E9E016, 0x76E9E018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76E9E016, 0x76E9E017, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x76E9E016, 0x76E9E018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E9E017,  8648, 0x6E9E0017, 60.12303, 144.4661, 240, 0.9869943, 0, 0, -0.160755,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

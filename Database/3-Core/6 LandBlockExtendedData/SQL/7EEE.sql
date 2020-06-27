@@ -5,14 +5,14 @@ VALUES (0x77EEE001,  1154, 0x7EEE003B, 169.0415, 49.05997, 139.2183, -4.371139E-
 /* @teleloc 0x7EEE003B [169.041500 49.059970 139.218300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EEE001, 0x77EEE002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x77EEE001, 0x77EEE003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77EEE001, 0x77EEE004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77EEE001, 0x77EEE005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77EEE001, 0x77EEE006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77EEE001, 0x77EEE007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEE001, 0x77EEE008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x77EEE001, 0x77EEE009, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x77EEE001, 0x77EEE002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x77EEE001, 0x77EEE003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77EEE001, 0x77EEE004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77EEE001, 0x77EEE005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77EEE001, 0x77EEE006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77EEE001, 0x77EEE007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EEE001, 0x77EEE008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x77EEE001, 0x77EEE009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EEE002,  7346, 0x7EEE003B, 169.0415, 49.05997, 139.2183, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

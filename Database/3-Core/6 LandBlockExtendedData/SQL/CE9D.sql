@@ -5,15 +5,15 @@ VALUES (0x7CE9D001,  1154, 0xCE9D0032, 154.49, 43.24086, 2.011, -0.2462651, 0, 0
 /* @teleloc 0xCE9D0032 [154.490000 43.240860 2.011000] -0.246265 0.000000 0.000000 -0.969203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9D001, 0x7CE9D002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE9D001, 0x7CE9D003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CE9D001, 0x7CE9D004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CE9D001, 0x7CE9D005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE9D001, 0x7CE9D006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CE9D001, 0x7CE9D007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7CE9D001, 0x7CE9D008, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7CE9D001, 0x7CE9D009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE9D001, 0x7CE9D00A, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7CE9D001, 0x7CE9D002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE9D001, 0x7CE9D003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CE9D001, 0x7CE9D004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CE9D001, 0x7CE9D005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE9D001, 0x7CE9D006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CE9D001, 0x7CE9D007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7CE9D001, 0x7CE9D008, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7CE9D001, 0x7CE9D009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE9D001, 0x7CE9D00A, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9D002,   195, 0xCE9D0032, 154.49, 43.24086, 2.011, -0.2462651, 0, 0, -0.9692025,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -56,7 +56,7 @@ VALUES (0x7CE9D00B,  1542, 0xCE9D0033, 152.0038, 55.25492, 2, -0.2462651, 0, 0, 
 /* @teleloc 0xCE9D0033 [152.003800 55.254920 2.000000] -0.246265 0.000000 0.000000 -0.969203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9D00B, 0x7CE9D00C, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CE9D00B, 0x7CE9D00C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9D00C,  8037, 0xCE9D0033, 152.0038, 55.25492, 2, -0.2462651, 0, 0, -0.9692025,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

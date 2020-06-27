@@ -5,12 +5,12 @@ VALUES (0x7A3D0001,  1154, 0xA3D0003F, 176.7726, 149.7683, 196.5479, -0.9791038,
 /* @teleloc 0xA3D0003F [176.772600 149.768300 196.547900] -0.979104 0.000000 0.000000 -0.203361 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3D0001, 0x7A3D0002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A3D0001, 0x7A3D0003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D0001, 0x7A3D0004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D0001, 0x7A3D0005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D0001, 0x7A3D0006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A3D0001, 0x7A3D0007, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7A3D0001, 0x7A3D0002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A3D0001, 0x7A3D0003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D0001, 0x7A3D0004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D0001, 0x7A3D0005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D0001, 0x7A3D0006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A3D0001, 0x7A3D0007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3D0002, 22933, 0xA3D0003F, 176.7726, 149.7683, 196.5479, -0.9791038, 0, 0, -0.2033611,  True, '2019-02-10 00:00:00'); /* Mist Golem */

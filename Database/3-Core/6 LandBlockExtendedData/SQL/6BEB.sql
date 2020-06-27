@@ -5,17 +5,17 @@ VALUES (0x76BEB001,  1154, 0x6BEB0011, 59.0947, 1.645691, 40.0065, 0.9238795, 0,
 /* @teleloc 0x6BEB0011 [59.094700 1.645691 40.006500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BEB001, 0x76BEB002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x76BEB001, 0x76BEB003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x76BEB001, 0x76BEB004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x76BEB001, 0x76BEB005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x76BEB001, 0x76BEB006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x76BEB001, 0x76BEB007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x76BEB001, 0x76BEB008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x76BEB001, 0x76BEB009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76BEB001, 0x76BEB00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76BEB001, 0x76BEB00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76BEB001, 0x76BEB00C, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x76BEB001, 0x76BEB002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x76BEB001, 0x76BEB003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x76BEB001, 0x76BEB004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x76BEB001, 0x76BEB005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x76BEB001, 0x76BEB006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x76BEB001, 0x76BEB007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x76BEB001, 0x76BEB008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x76BEB001, 0x76BEB009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76BEB001, 0x76BEB00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76BEB001, 0x76BEB00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76BEB001, 0x76BEB00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BEB002, 10807, 0x6BEB0011, 59.0947, 1.645691, 40.0065, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

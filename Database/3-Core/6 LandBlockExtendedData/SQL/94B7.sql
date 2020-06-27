@@ -5,9 +5,9 @@ VALUES (0x794B7001,  1154, 0x94B7003E, 174.7662, 122.7474, 108.8545, 0.9238795, 
 /* @teleloc 0x94B7003E [174.766200 122.747400 108.854500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794B7001, 0x794B7002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x794B7001, 0x794B7003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x794B7001, 0x794B7004, '2019-02-10 00:00:00') /* Nasty Scarecrow */;
+VALUES (0x794B7001, 0x794B7002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x794B7001, 0x794B7003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x794B7001, 0x794B7004, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794B7002,  2575, 0x94B7003E, 174.7662, 122.7474, 108.8545, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -26,8 +26,8 @@ VALUES (0x794B7005,  1542, 0x94B70009, 46.67491, 17.93222, 118.2622, 1, 0, 0, 0,
 /* @teleloc 0x94B70009 [46.674910 17.932220 118.262200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794B7005, 0x794B7006, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x794B7005, 0x794B7007, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x794B7005, 0x794B7006, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x794B7005, 0x794B7007, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794B7006,  8232, 0x94B70009, 46.67491, 17.93222, 118.2622, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

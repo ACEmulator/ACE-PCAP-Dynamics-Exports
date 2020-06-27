@@ -5,17 +5,17 @@ VALUES (0x7BCD7001,  1154, 0xBCD70021, 101.5153, 15.70384, 101.1496, -0.04148537
 /* @teleloc 0xBCD70021 [101.515300 15.703840 101.149600] -0.041485 0.000000 0.000000 -0.999139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD7001, 0x7BCD7002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7BCD7001, 0x7BCD7003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD7001, 0x7BCD7004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD7001, 0x7BCD7005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BCD7001, 0x7BCD7006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BCD7001, 0x7BCD7007, '2019-02-10 00:00:00') /* Ember */
-     , (0x7BCD7001, 0x7BCD7008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BCD7001, 0x7BCD7009, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BCD7001, 0x7BCD700A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BCD7001, 0x7BCD700B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD7001, 0x7BCD700C, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7BCD7001, 0x7BCD7002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7BCD7001, 0x7BCD7003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD7001, 0x7BCD7004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD7001, 0x7BCD7005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BCD7001, 0x7BCD7006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BCD7001, 0x7BCD7007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7BCD7001, 0x7BCD7008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BCD7001, 0x7BCD7009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BCD7001, 0x7BCD700A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BCD7001, 0x7BCD700B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD7001, 0x7BCD700C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD7002,  8968, 0xBCD70021, 101.5153, 15.70384, 101.1496, -0.04148537, 0, 0, -0.9991391,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -66,7 +66,7 @@ VALUES (0x7BCD700D,  1542, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 
 /* @teleloc 0xBCD70017 [51.656660 167.754800 96.589010] 0.453830 0.000000 0.000000 -0.891088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD700D, 0x7BCD700E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7BCD700D, 0x7BCD700E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD700E,  8041, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 0, 0, -0.8910882,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

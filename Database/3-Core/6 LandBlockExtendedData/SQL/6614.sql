@@ -5,10 +5,10 @@ VALUES (0x76614001,  1154, 0x66140021, 99.49868, 15.04968, 123.4244, 0.9503837, 
 /* @teleloc 0x66140021 [99.498680 15.049680 123.424400] 0.950384 0.000000 0.000000 -0.311080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76614001, 0x76614002, '2019-02-10 00:00:00') /* Ethereal Rift */
-     , (0x76614001, 0x76614003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x76614001, 0x76614004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x76614001, 0x76614005, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x76614001, 0x76614002, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */
+     , (0x76614001, 0x76614003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x76614001, 0x76614004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x76614001, 0x76614005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76614002, 10798, 0x66140021, 99.49868, 15.04968, 123.4244, 0.9503837, 0, 0, -0.3110802,  True, '2019-02-10 00:00:00'); /* Ethereal Rift */

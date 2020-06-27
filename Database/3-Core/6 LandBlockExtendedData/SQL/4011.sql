@@ -5,21 +5,21 @@ VALUES (0x74011001,  1154, 0x4011000C, 36.37234, 82.77679, 6.430771, 0.7071068, 
 /* @teleloc 0x4011000C [36.372340 82.776790 6.430771] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74011001, 0x74011002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74011001, 0x74011003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74011001, 0x74011004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74011001, 0x74011005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x74011001, 0x74011006, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74011001, 0x74011007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74011001, 0x74011008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74011001, 0x74011009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74011001, 0x7401100A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74011001, 0x7401100B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74011001, 0x7401100C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74011001, 0x7401100D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74011001, 0x7401100E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74011001, 0x7401100F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74011001, 0x74011010, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x74011001, 0x74011002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74011001, 0x74011003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74011001, 0x74011004, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74011001, 0x74011005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x74011001, 0x74011006, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74011001, 0x74011007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74011001, 0x74011008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74011001, 0x74011009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74011001, 0x7401100A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74011001, 0x7401100B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74011001, 0x7401100C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74011001, 0x7401100D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74011001, 0x7401100E, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74011001, 0x7401100F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74011001, 0x74011010, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74011002, 36855, 0x4011000C, 36.37234, 82.77679, 6.430771, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -86,7 +86,7 @@ VALUES (0x74011011,  1542, 0x4011000C, 38.60208, 77.44817, 3.836392, 0.9990482, 
 /* @teleloc 0x4011000C [38.602080 77.448170 3.836392] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74011011, 0x74011012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74011011, 0x74011012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74011012,  4179, 0x4011000C, 38.60208, 77.44817, 3.836392, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

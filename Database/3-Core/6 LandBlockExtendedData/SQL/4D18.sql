@@ -5,15 +5,15 @@ VALUES (0x74D18001,  1154, 0x4D180032, 156.637, 31.12941, 68, -0.1553272, 0, 0, 
 /* @teleloc 0x4D180032 [156.637000 31.129410 68.000000] -0.155327 0.000000 0.000000 -0.987863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D18001, 0x74D18002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74D18001, 0x74D18003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74D18001, 0x74D18004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74D18001, 0x74D18005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74D18001, 0x74D18006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D18001, 0x74D18007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D18001, 0x74D18008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74D18001, 0x74D18009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74D18001, 0x74D1800A, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74D18001, 0x74D18002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74D18001, 0x74D18003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74D18001, 0x74D18004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74D18001, 0x74D18005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74D18001, 0x74D18006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D18001, 0x74D18007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D18001, 0x74D18008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74D18001, 0x74D18009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74D18001, 0x74D1800A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D18002, 23482, 0x4D180032, 156.637, 31.12941, 68, -0.1553272, 0, 0, -0.9878631,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -56,7 +56,7 @@ VALUES (0x74D1800B,  1542, 0x4D180007, 17.16274, 146.9728, 131.2898, 1, 0, 0, 0,
 /* @teleloc 0x4D180007 [17.162740 146.972800 131.289800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D1800B, 0x74D1800C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x74D1800B, 0x74D1800C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D1800C, 31445, 0x4D180007, 17.16274, 146.9728, 131.2898, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

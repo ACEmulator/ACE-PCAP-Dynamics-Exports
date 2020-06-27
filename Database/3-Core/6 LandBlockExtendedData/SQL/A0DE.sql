@@ -5,9 +5,9 @@ VALUES (0x7A0DE001,  1154, 0xA0DE0013, 57.1395, 55.56249, 108.4867, -0.7903165, 
 /* @teleloc 0xA0DE0013 [57.139500 55.562490 108.486700] -0.790317 0.000000 0.000000 -0.612699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0DE001, 0x7A0DE002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A0DE001, 0x7A0DE003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A0DE001, 0x7A0DE004, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x7A0DE001, 0x7A0DE002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A0DE001, 0x7A0DE003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A0DE001, 0x7A0DE004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0DE002, 22519, 0xA0DE0013, 57.1395, 55.56249, 108.4867, -0.7903165, 0, 0, -0.6126988,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

@@ -5,9 +5,9 @@ VALUES (0x74566001,  1154, 0x4566003D, 191.9505, 106.322, 18.88494, -4.371139E-0
 /* @teleloc 0x4566003D [191.950500 106.322000 18.884940] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74566001, 0x74566002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74566001, 0x74566003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74566001, 0x74566004, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x74566001, 0x74566002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74566001, 0x74566003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74566001, 0x74566004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74566002,  7112, 0x4566003D, 191.9505, 106.322, 18.88494, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

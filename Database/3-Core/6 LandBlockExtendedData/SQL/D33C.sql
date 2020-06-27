@@ -5,17 +5,17 @@ VALUES (0x7D33C001,  1154, 0xD33C002F, 129.2522, 166.3145, 250.9947, 0.2588191, 
 /* @teleloc 0xD33C002F [129.252200 166.314500 250.994700] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33C001, 0x7D33C002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D33C001, 0x7D33C003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D33C001, 0x7D33C004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D33C001, 0x7D33C005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D33C001, 0x7D33C006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D33C001, 0x7D33C007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D33C001, 0x7D33C008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D33C001, 0x7D33C009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D33C001, 0x7D33C00A, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7D33C001, 0x7D33C00B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D33C001, 0x7D33C00C, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7D33C001, 0x7D33C002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D33C001, 0x7D33C003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D33C001, 0x7D33C004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D33C001, 0x7D33C005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D33C001, 0x7D33C006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D33C001, 0x7D33C007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D33C001, 0x7D33C008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D33C001, 0x7D33C009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D33C001, 0x7D33C00A, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7D33C001, 0x7D33C00B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D33C001, 0x7D33C00C, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33C002, 24940, 0xD33C002F, 129.2522, 166.3145, 250.9947, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -66,7 +66,7 @@ VALUES (0x7D33C00D,  1542, 0xD33C002F, 139.991, 158.1848, 245.3979, 0.5400999, 0
 /* @teleloc 0xD33C002F [139.991000 158.184800 245.397900] 0.540100 0.000000 0.000000 -0.841601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33C00D, 0x7D33C00E, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7D33C00D, 0x7D33C00E, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33C00E, 22837, 0xD33C002F, 139.991, 158.1848, 245.3979, 0.5400999, 0, 0, -0.841601,  True, '2019-02-10 00:00:00'); /* Snowflower */

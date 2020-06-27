@@ -5,19 +5,19 @@ VALUES (0x7DD75001,  1154, 0xDD75000B, 38.10701, 53.26913, 30.83042, 0.6928853, 
 /* @teleloc 0xDD75000B [38.107010 53.269130 30.830420] 0.692885 0.000000 0.000000 -0.721048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD75001, 0x7DD75002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DD75001, 0x7DD75003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DD75001, 0x7DD75004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DD75001, 0x7DD75005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DD75001, 0x7DD75006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DD75001, 0x7DD75007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DD75001, 0x7DD75008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DD75001, 0x7DD75009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DD75001, 0x7DD7500A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DD75001, 0x7DD7500B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DD75001, 0x7DD7500C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DD75001, 0x7DD7500D, '2019-02-10 00:00:00') /* Static */
-     , (0x7DD75001, 0x7DD7500E, '2019-02-10 00:00:00') /* Scintilla */;
+VALUES (0x7DD75001, 0x7DD75002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DD75001, 0x7DD75003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DD75001, 0x7DD75004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DD75001, 0x7DD75005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DD75001, 0x7DD75006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DD75001, 0x7DD75007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DD75001, 0x7DD75008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DD75001, 0x7DD75009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DD75001, 0x7DD7500A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DD75001, 0x7DD7500B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DD75001, 0x7DD7500C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DD75001, 0x7DD7500D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7DD75001, 0x7DD7500E, '2019-02-10 00:00:00') /* Scintilla (6380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD75002, 23565, 0xDD75000B, 38.10701, 53.26913, 30.83042, 0.6928853, 0, 0, -0.7210478,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

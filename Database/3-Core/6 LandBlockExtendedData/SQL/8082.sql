@@ -5,13 +5,13 @@ VALUES (0x78082001,  1154, 0x80820003, 6.615151, 52.98869, 34.95948, 0.8695663, 
 /* @teleloc 0x80820003 [6.615151 52.988690 34.959480] 0.869566 0.000000 0.000000 -0.493816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78082001, 0x78082002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78082001, 0x78082003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78082001, 0x78082004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78082001, 0x78082005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78082001, 0x78082006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78082001, 0x78082007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78082001, 0x78082008, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x78082001, 0x78082002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78082001, 0x78082003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78082001, 0x78082004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78082001, 0x78082005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78082001, 0x78082006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78082001, 0x78082007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78082001, 0x78082008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78082002,  2576, 0x80820003, 6.615151, 52.98869, 34.95948, 0.8695663, 0, 0, -0.4938163,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -46,7 +46,7 @@ VALUES (0x78082009,  1542, 0x80820021, 116.8196, 19.48651, 36.87163, 0.9990482, 
 /* @teleloc 0x80820021 [116.819600 19.486510 36.871630] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78082009, 0x7808200A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78082009, 0x7808200A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7808200A,  4179, 0x80820021, 116.8196, 19.48651, 36.87163, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

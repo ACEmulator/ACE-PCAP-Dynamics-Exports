@@ -5,10 +5,10 @@ VALUES (0x728E4001,  1154, 0x28E40040, 174.4095, 181.5947, 4, -0.9661523, 0, 0, 
 /* @teleloc 0x28E40040 [174.409500 181.594700 4.000000] -0.966152 0.000000 0.000000 -0.257973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728E4001, 0x728E4002, '2019-02-10 00:00:00') /* Eater */
-     , (0x728E4001, 0x728E4003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x728E4001, 0x728E4004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x728E4001, 0x728E4005, '2019-02-10 00:00:00') /* Viamontian Mercenary */;
+VALUES (0x728E4001, 0x728E4002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x728E4001, 0x728E4003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x728E4001, 0x728E4004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x728E4001, 0x728E4005, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728E4002, 28640, 0x28E40040, 174.4095, 181.5947, 4, -0.9661523, 0, 0, -0.2579725,  True, '2019-02-10 00:00:00'); /* Eater */

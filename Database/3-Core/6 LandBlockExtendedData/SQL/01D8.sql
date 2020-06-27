@@ -9,10 +9,10 @@ VALUES (0x701D8006,  1154, 0x01D80110, 28.65744, -18.6144, 0.003324986, -0.93283
 /* @teleloc 0x01D80110 [28.657440 -18.614400 0.003325] -0.932836 0.000000 0.000000 -0.360302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D8006, 0x701D8007, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701D8006, 0x701D8008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701D8006, 0x701D8009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x701D8006, 0x701D800A, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x701D8006, 0x701D8007, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701D8006, 0x701D8008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701D8006, 0x701D8009, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x701D8006, 0x701D800A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D8007,     7, 0x01D80110, 28.65744, -18.6144, 0.003324986, -0.932836, 0, 0, -0.360302,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -35,10 +35,10 @@ VALUES (0x701D800B,  1542, 0x01D80100, 1.069699, -32.89501, -0.0006459951, 1, 0,
 /* @teleloc 0x01D80100 [1.069699 -32.895010 -0.000646] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D800B, 0x701D800C, '2019-02-10 00:00:00') /* Sandals */
-     , (0x701D800B, 0x701D800D, '2019-02-10 00:00:00') /* Tunic */
-     , (0x701D800B, 0x701D800E, '2019-02-10 00:00:00') /* Pants */
-     , (0x701D800B, 0x701D800F, '2019-02-10 00:00:00') /* Shoes */;
+VALUES (0x701D800B, 0x701D800C, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x701D800B, 0x701D800D, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x701D800B, 0x701D800E, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x701D800B, 0x701D800F, '2019-02-10 00:00:00') /* Shoes (132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D800C,   129, 0x01D80100, 1.069699, -32.89501, -0.0006459951, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sandals */

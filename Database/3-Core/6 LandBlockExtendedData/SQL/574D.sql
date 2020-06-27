@@ -21,17 +21,17 @@ VALUES (0x7574D013,  1154, 0x574D0165, 140.035, -27.0428, 0, 0.999928, 0, 0, 0.0
 /* @teleloc 0x574D0165 [140.035000 -27.042800 0.000000] 0.999928 0.000000 0.000000 0.011971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574D013, 0x7574D014, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7574D013, 0x7574D015, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x7574D013, 0x7574D016, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7574D013, 0x7574D017, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7574D013, 0x7574D018, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x7574D013, 0x7574D019, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x7574D013, 0x7574D01A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7574D013, 0x7574D01B, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x7574D013, 0x7574D01C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7574D013, 0x7574D01D, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x7574D013, 0x7574D01E, '2019-02-10 00:00:00') /* Exploration Marker */;
+VALUES (0x7574D013, 0x7574D014, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D013, 0x7574D015, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x7574D013, 0x7574D016, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D013, 0x7574D017, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D013, 0x7574D018, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x7574D013, 0x7574D019, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D013, 0x7574D01A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7574D013, 0x7574D01B, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D013, 0x7574D01C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7574D013, 0x7574D01D, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x7574D013, 0x7574D01E, '2019-02-10 00:00:00') /* Exploration Marker (39807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D014, 23481, 0x574D0165, 140.035, -27.0428, 0, 0.999928, 0, 0, 0.011971,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -82,10 +82,10 @@ VALUES (0x7574D01F,  1542, 0x574D0110, 27.982, -26.8646, -5.921, -0.173305, 0, 0
 /* @teleloc 0x574D0110 [27.982000 -26.864600 -5.921000] -0.173305 0.000000 0.000000 0.984868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7574D01F, 0x7574D020, '2019-02-10 00:00:00') /* Note from a Scout */
-     , (0x7574D01F, 0x7574D021, '2019-02-10 00:00:00') /* Note from a Scout */
-     , (0x7574D01F, 0x7574D022, '2019-02-10 00:00:00') /* Note from a Scout */
-     , (0x7574D01F, 0x7574D023, '2019-02-10 00:00:00') /* Note from a Scout */;
+VALUES (0x7574D01F, 0x7574D020, '2019-02-10 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D01F, 0x7574D021, '2019-02-10 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D01F, 0x7574D022, '2019-02-10 00:00:00') /* Note from a Scout (24258) */
+     , (0x7574D01F, 0x7574D023, '2019-02-10 00:00:00') /* Note from a Scout (24258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7574D020, 24258, 0x574D0110, 27.982, -26.8646, -5.921, -0.173305, 0, 0, 0.984868,  True, '2019-02-10 00:00:00'); /* Note from a Scout */

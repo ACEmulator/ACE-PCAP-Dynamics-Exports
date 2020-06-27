@@ -5,27 +5,27 @@ VALUES (0x71EAF001,  1154, 0x1EAF000B, 46.47514, 63.42958, 0.006000042, -0.00092
 /* @teleloc 0x1EAF000B [46.475140 63.429580 0.006000] -0.000924 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EAF001, 0x71EAF002, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x71EAF001, 0x71EAF003, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71EAF001, 0x71EAF004, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71EAF001, 0x71EAF005, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71EAF001, 0x71EAF006, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x71EAF001, 0x71EAF007, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x71EAF001, 0x71EAF008, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71EAF001, 0x71EAF009, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71EAF001, 0x71EAF00A, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71EAF001, 0x71EAF00B, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71EAF001, 0x71EAF00C, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71EAF001, 0x71EAF00D, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71EAF001, 0x71EAF00E, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x71EAF001, 0x71EAF00F, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x71EAF001, 0x71EAF010, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x71EAF001, 0x71EAF011, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71EAF001, 0x71EAF012, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71EAF001, 0x71EAF013, '2019-02-10 00:00:00') /* Diseased Carenzi Stalker Liver */
-     , (0x71EAF001, 0x71EAF014, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x71EAF001, 0x71EAF015, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71EAF001, 0x71EAF016, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x71EAF001, 0x71EAF002, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x71EAF001, 0x71EAF003, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71EAF001, 0x71EAF004, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71EAF001, 0x71EAF005, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71EAF001, 0x71EAF006, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x71EAF001, 0x71EAF007, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x71EAF001, 0x71EAF008, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71EAF001, 0x71EAF009, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71EAF001, 0x71EAF00A, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71EAF001, 0x71EAF00B, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71EAF001, 0x71EAF00C, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71EAF001, 0x71EAF00D, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71EAF001, 0x71EAF00E, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x71EAF001, 0x71EAF00F, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x71EAF001, 0x71EAF010, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x71EAF001, 0x71EAF011, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71EAF001, 0x71EAF012, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71EAF001, 0x71EAF013, '2019-02-10 00:00:00') /* Diseased Carenzi Stalker Liver (34251) */
+     , (0x71EAF001, 0x71EAF014, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x71EAF001, 0x71EAF015, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71EAF001, 0x71EAF016, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EAF002, 11523, 0x1EAF000B, 46.47514, 63.42958, 0.006000042, -0.000924154, 0, 0, -0.9999996,  True, '2019-02-10 00:00:00'); /* Hea Warrior */
@@ -116,12 +116,12 @@ VALUES (0x71EAF017,  1542, 0x1EAF0014, 51.42521, 95.65939, 1, 1, 0, 0, 0, False,
 /* @teleloc 0x1EAF0014 [51.425210 95.659390 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EAF017, 0x71EAF018, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71EAF017, 0x71EAF019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71EAF017, 0x71EAF01A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71EAF017, 0x71EAF01B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71EAF017, 0x71EAF01C, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */
-     , (0x71EAF017, 0x71EAF01D, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x71EAF017, 0x71EAF018, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71EAF017, 0x71EAF019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71EAF017, 0x71EAF01A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71EAF017, 0x71EAF01B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71EAF017, 0x71EAF01C, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */
+     , (0x71EAF017, 0x71EAF01D, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EAF018,  9024, 0x1EAF0014, 51.42521, 95.65939, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

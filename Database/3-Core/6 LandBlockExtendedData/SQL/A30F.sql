@@ -5,11 +5,11 @@ VALUES (0x7A30F001,  1154, 0xA30F0025, 107.8584, 111.5596, -0.8945999, 0.0266106
 /* @teleloc 0xA30F0025 [107.858400 111.559600 -0.894600] 0.026611 0.000000 0.000000 -0.999646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A30F001, 0x7A30F002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A30F001, 0x7A30F003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A30F001, 0x7A30F004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7A30F001, 0x7A30F005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7A30F001, 0x7A30F006, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7A30F001, 0x7A30F002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A30F001, 0x7A30F003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A30F001, 0x7A30F004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7A30F001, 0x7A30F005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7A30F001, 0x7A30F006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A30F002,  4247, 0xA30F0025, 107.8584, 111.5596, -0.8945999, 0.02661065, 0, 0, -0.9996459,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

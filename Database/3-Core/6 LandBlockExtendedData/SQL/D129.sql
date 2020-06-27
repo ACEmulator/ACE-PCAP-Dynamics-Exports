@@ -5,10 +5,10 @@ VALUES (0x7D129001,  1154, 0xD129002C, 129.1158, 94.77818, 136.2074, 0.7071068, 
 /* @teleloc 0xD129002C [129.115800 94.778180 136.207400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D129001, 0x7D129002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D129001, 0x7D129003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D129001, 0x7D129004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7D129001, 0x7D129005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7D129001, 0x7D129002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D129001, 0x7D129003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D129001, 0x7D129004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7D129001, 0x7D129005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D129002,  7179, 0xD129002C, 129.1158, 94.77818, 136.2074, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -31,8 +31,8 @@ VALUES (0x7D129006,  1542, 0xD1290019, 78.35098, 4.05396, 96.74765, 1, 0, 0, 0, 
 /* @teleloc 0xD1290019 [78.350980 4.053960 96.747650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D129006, 0x7D129007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7D129006, 0x7D129008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D129006, 0x7D129007, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7D129006, 0x7D129008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D129007, 22567, 0xD1290019, 78.35098, 4.05396, 96.74765, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

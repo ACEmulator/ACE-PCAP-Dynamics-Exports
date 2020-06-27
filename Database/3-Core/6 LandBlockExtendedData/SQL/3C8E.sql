@@ -5,20 +5,20 @@ VALUES (0x73C8E001,  1154, 0x3C8E0037, 144.5564, 154.992, 39.39578, 0.9659258, 0
 /* @teleloc 0x3C8E0037 [144.556400 154.992000 39.395780] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C8E001, 0x73C8E002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73C8E001, 0x73C8E003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C8E001, 0x73C8E004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73C8E001, 0x73C8E005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C8E001, 0x73C8E006, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x73C8E001, 0x73C8E007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73C8E001, 0x73C8E008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C8E001, 0x73C8E009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C8E001, 0x73C8E00A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73C8E001, 0x73C8E00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73C8E001, 0x73C8E00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73C8E001, 0x73C8E00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C8E001, 0x73C8E00E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73C8E001, 0x73C8E00F, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73C8E001, 0x73C8E002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73C8E001, 0x73C8E003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C8E001, 0x73C8E004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73C8E001, 0x73C8E005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C8E001, 0x73C8E006, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x73C8E001, 0x73C8E007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73C8E001, 0x73C8E008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C8E001, 0x73C8E009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C8E001, 0x73C8E00A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73C8E001, 0x73C8E00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73C8E001, 0x73C8E00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73C8E001, 0x73C8E00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C8E001, 0x73C8E00E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x73C8E001, 0x73C8E00F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C8E002, 36832, 0x3C8E0037, 144.5564, 154.992, 39.39578, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */

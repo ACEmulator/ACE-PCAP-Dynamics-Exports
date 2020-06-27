@@ -21,45 +21,45 @@ VALUES (0x7AD7D009,  1154, 0xAD7D0035, 157.9163, 115.4731, 24.38474, 0.7438459, 
 /* @teleloc 0xAD7D0035 [157.916300 115.473100 24.384740] 0.743846 0.000000 0.000000 -0.668351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D009, 0x7AD7D00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AD7D009, 0x7AD7D00B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AD7D009, 0x7AD7D00C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD7D009, 0x7AD7D00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD7D009, 0x7AD7D00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD7D009, 0x7AD7D00F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD7D009, 0x7AD7D010, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7AD7D009, 0x7AD7D011, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D012, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD7D009, 0x7AD7D014, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D016, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AD7D009, 0x7AD7D017, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D018, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D019, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AD7D009, 0x7AD7D01A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AD7D009, 0x7AD7D01B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AD7D009, 0x7AD7D01C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AD7D009, 0x7AD7D01D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AD7D009, 0x7AD7D01E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D01F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D020, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD7D009, 0x7AD7D021, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AD7D009, 0x7AD7D022, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AD7D009, 0x7AD7D023, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AD7D009, 0x7AD7D024, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AD7D009, 0x7AD7D025, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AD7D009, 0x7AD7D026, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AD7D009, 0x7AD7D027, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D028, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AD7D009, 0x7AD7D029, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD7D009, 0x7AD7D02A, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AD7D009, 0x7AD7D02B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AD7D009, 0x7AD7D02C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D02D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AD7D009, 0x7AD7D02E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D02F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AD7D009, 0x7AD7D030, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AD7D009, 0x7AD7D00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AD7D009, 0x7AD7D00B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AD7D009, 0x7AD7D00C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD7D009, 0x7AD7D00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD7D009, 0x7AD7D00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD7D009, 0x7AD7D00F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD7D009, 0x7AD7D010, '2019-02-10 00:00:00') /* Exploration Marker (39777) */
+     , (0x7AD7D009, 0x7AD7D011, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D012, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD7D009, 0x7AD7D014, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D015, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D016, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AD7D009, 0x7AD7D017, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D018, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D019, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AD7D009, 0x7AD7D01A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AD7D009, 0x7AD7D01B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AD7D009, 0x7AD7D01C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AD7D009, 0x7AD7D01D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AD7D009, 0x7AD7D01E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D01F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D020, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD7D009, 0x7AD7D021, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AD7D009, 0x7AD7D022, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AD7D009, 0x7AD7D023, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AD7D009, 0x7AD7D024, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AD7D009, 0x7AD7D025, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AD7D009, 0x7AD7D026, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AD7D009, 0x7AD7D027, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D028, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AD7D009, 0x7AD7D029, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD7D009, 0x7AD7D02A, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AD7D009, 0x7AD7D02B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AD7D009, 0x7AD7D02C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D02D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AD7D009, 0x7AD7D02E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D02F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AD7D009, 0x7AD7D030, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D00A,  1630, 0xAD7D0035, 157.9163, 115.4731, 24.38474, 0.7438459, 0, 0, -0.6683512,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -222,7 +222,7 @@ VALUES (0x7AD7D031,  1154, 0xAD7D011E, 34.0856, 89.6832, 55.205, 0.47347, 0, 0, 
 /* @teleloc 0xAD7D011E [34.085600 89.683200 55.205000] 0.473470 0.000000 0.000000 -0.880810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D031, 0x7AD7D032, '2019-02-10 00:00:00') /* Kayna bint Iswas */;
+VALUES (0x7AD7D031, 0x7AD7D032, '2019-02-10 00:00:00') /* Kayna bint Iswas (6770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D032,  6770, 0xAD7D011E, 34.0856, 89.6832, 55.205, 0.47347, 0, 0, -0.88081,  True, '2019-02-10 00:00:00'); /* Kayna bint Iswas */
@@ -233,8 +233,8 @@ VALUES (0x7AD7D033,  1542, 0xAD7D000E, 29.777, 129.3044, 29.22463, 1, 0, 0, 0, F
 /* @teleloc 0xAD7D000E [29.777000 129.304400 29.224630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD7D033, 0x7AD7D034, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7AD7D033, 0x7AD7D035, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7AD7D033, 0x7AD7D034, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7AD7D033, 0x7AD7D035, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD7D034,  8999, 0xAD7D000E, 29.777, 129.3044, 29.22463, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

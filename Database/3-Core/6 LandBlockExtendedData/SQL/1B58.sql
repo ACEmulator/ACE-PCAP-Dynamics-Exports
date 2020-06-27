@@ -5,9 +5,9 @@ VALUES (0x71B58001,  1154, 0x1B580030, 121.4883, 173.6458, 1.536016, 0.9885937, 
 /* @teleloc 0x1B580030 [121.488300 173.645800 1.536016] 0.988594 0.000000 0.000000 -0.150607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B58001, 0x71B58002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x71B58001, 0x71B58003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x71B58001, 0x71B58004, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x71B58001, 0x71B58002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x71B58001, 0x71B58003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x71B58001, 0x71B58004, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B58002, 21551, 0x1B580030, 121.4883, 173.6458, 1.536016, 0.9885937, 0, 0, -0.1506071,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
@@ -26,7 +26,7 @@ VALUES (0x71B58005,  1542, 0x1B580007, 22.09777, 153.6715, -0.00999999, -0.54205
 /* @teleloc 0x1B580007 [22.097770 153.671500 -0.010000] -0.542060 0.000000 0.000000 -0.840340 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B58005, 0x71B58006, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71B58005, 0x71B58006, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B58006,  9288, 0x1B580007, 22.09777, 153.6715, -0.00999999, -0.5420598, 0, 0, -0.8403399,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

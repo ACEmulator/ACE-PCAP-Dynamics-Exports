@@ -5,34 +5,34 @@ VALUES (0x7E81C001,  1154, 0xE81C0100, 104.343, 152.272, -5.1952, -0.216437, 0, 
 /* @teleloc 0xE81C0100 [104.343000 152.272000 -5.195200] -0.216437 0.000000 0.000000 -0.976297 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E81C001, 0x7E81C002, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7E81C001, 0x7E81C003, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7E81C001, 0x7E81C004, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7E81C001, 0x7E81C005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E81C001, 0x7E81C006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81C001, 0x7E81C007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81C001, 0x7E81C008, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E81C001, 0x7E81C009, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7E81C001, 0x7E81C00A, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7E81C001, 0x7E81C00B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E81C001, 0x7E81C00C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E81C001, 0x7E81C00D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E81C001, 0x7E81C00E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C00F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E81C001, 0x7E81C010, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C011, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C012, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E81C001, 0x7E81C013, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E81C001, 0x7E81C014, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E81C001, 0x7E81C015, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C016, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E81C001, 0x7E81C017, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C018, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E81C001, 0x7E81C019, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E81C001, 0x7E81C01A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81C001, 0x7E81C01B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E81C001, 0x7E81C01C, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7E81C001, 0x7E81C01D, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7E81C001, 0x7E81C002, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7E81C001, 0x7E81C003, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7E81C001, 0x7E81C004, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7E81C001, 0x7E81C005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E81C001, 0x7E81C006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81C001, 0x7E81C007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81C001, 0x7E81C008, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E81C001, 0x7E81C009, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7E81C001, 0x7E81C00A, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7E81C001, 0x7E81C00B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E81C001, 0x7E81C00C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E81C001, 0x7E81C00D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E81C001, 0x7E81C00E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C00F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E81C001, 0x7E81C010, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C011, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C012, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7E81C001, 0x7E81C013, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E81C001, 0x7E81C014, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E81C001, 0x7E81C015, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C016, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E81C001, 0x7E81C017, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C018, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E81C001, 0x7E81C019, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E81C001, 0x7E81C01A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81C001, 0x7E81C01B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E81C001, 0x7E81C01C, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7E81C001, 0x7E81C01D, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E81C002, 27858, 0xE81C0100, 104.343, 152.272, -5.1952, -0.216437, 0, 0, -0.976297,  True, '2019-02-10 00:00:00'); /* Muculent Moarsman */
@@ -151,9 +151,9 @@ VALUES (0x7E81C01E,  1542, 0xE81C0025, 103.6522, 98.07596, 0, -0.910115, 0, 0, -
 /* @teleloc 0xE81C0025 [103.652200 98.075960 0.000000] -0.910115 0.000000 0.000000 -0.414356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E81C01E, 0x7E81C01F, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E81C01E, 0x7E81C020, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E81C01E, 0x7E81C021, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7E81C01E, 0x7E81C01F, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E81C01E, 0x7E81C020, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E81C01E, 0x7E81C021, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E81C01F,  8588, 0xE81C0025, 103.6522, 98.07596, 0, -0.910115, 0, 0, -0.4143558,  True, '2019-02-10 00:00:00'); /* Idol */

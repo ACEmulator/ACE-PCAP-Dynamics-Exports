@@ -5,10 +5,10 @@ VALUES (0x76918001,  1154, 0x69180039, 170.5094, 20.5243, 0.007499993, 0.9238795
 /* @teleloc 0x69180039 [170.509400 20.524300 0.007500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76918001, 0x76918002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76918001, 0x76918003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76918001, 0x76918004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76918001, 0x76918005, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x76918001, 0x76918002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76918001, 0x76918003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76918001, 0x76918004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76918001, 0x76918005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76918002,  7124, 0x69180039, 170.5094, 20.5243, 0.007499993, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */

@@ -13,10 +13,10 @@ VALUES (0x7C434002,  1154, 0xC4340031, 145.3478, 0.1490173, 190.2706, -0.962152,
 /* @teleloc 0xC4340031 [145.347800 0.149017 190.270600] -0.962152 0.000000 0.000000 -0.272513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C434002, 0x7C434003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C434002, 0x7C434004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C434002, 0x7C434005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C434002, 0x7C434006, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7C434002, 0x7C434003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C434002, 0x7C434004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C434002, 0x7C434005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C434002, 0x7C434006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C434003, 14800, 0xC4340031, 145.3478, 0.1490173, 190.2706, -0.962152, 0, 0, -0.2725133,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

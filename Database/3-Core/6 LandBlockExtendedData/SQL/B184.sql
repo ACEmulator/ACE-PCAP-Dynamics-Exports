@@ -5,10 +5,10 @@ VALUES (0x7B184001,  1154, 0xB1840028, 106.7306, 189.8188, 33.03437, 0.6231976, 
 /* @teleloc 0xB1840028 [106.730600 189.818800 33.034370] 0.623198 0.000000 0.000000 -0.782064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B184001, 0x7B184002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B184001, 0x7B184003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B184001, 0x7B184004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B184001, 0x7B184005, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7B184001, 0x7B184002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B184001, 0x7B184003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B184001, 0x7B184004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B184001, 0x7B184005, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B184002,   229, 0xB1840028, 106.7306, 189.8188, 33.03437, 0.6231976, 0, 0, -0.7820644,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

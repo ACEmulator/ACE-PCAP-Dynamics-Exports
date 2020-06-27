@@ -5,8 +5,8 @@ VALUES (0x7BC19001,  1154, 0xBC190019, 94.49079, 23.57629, 164.4246, -0.7367638,
 /* @teleloc 0xBC190019 [94.490790 23.576290 164.424600] -0.736764 0.000000 0.000000 -0.676150 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC19001, 0x7BC19002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC19001, 0x7BC19003, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BC19001, 0x7BC19002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC19001, 0x7BC19003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC19002,  7107, 0xBC190019, 94.49079, 23.57629, 164.4246, -0.7367638, 0, 0, -0.6761502,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

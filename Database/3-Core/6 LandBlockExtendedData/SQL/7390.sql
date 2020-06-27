@@ -5,17 +5,17 @@ VALUES (0x77390001,  1154, 0x73900038, 166.3689, 181.1346, 85.50083, -0.9720655,
 /* @teleloc 0x73900038 [166.368900 181.134600 85.500830] -0.972066 0.000000 0.000000 -0.234710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77390001, 0x77390002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77390001, 0x77390003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77390001, 0x77390004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77390001, 0x77390005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77390001, 0x77390006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77390001, 0x77390007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77390001, 0x77390008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77390001, 0x77390009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77390001, 0x7739000A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77390001, 0x7739000B, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77390001, 0x7739000C, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x77390001, 0x77390002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77390001, 0x77390003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77390001, 0x77390004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77390001, 0x77390005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77390001, 0x77390006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77390001, 0x77390007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77390001, 0x77390008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77390001, 0x77390009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77390001, 0x7739000A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77390001, 0x7739000B, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77390001, 0x7739000C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77390002,  7978, 0x73900038, 166.3689, 181.1346, 85.50083, -0.9720655, 0, 0, -0.2347098,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -66,7 +66,7 @@ VALUES (0x7739000D,  1542, 0x73900023, 117.3939, 64.0407, 79.53, 1, 0, 0, 0, Fal
 /* @teleloc 0x73900023 [117.393900 64.040700 79.530000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7739000D, 0x7739000E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7739000D, 0x7739000E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7739000E,  4380, 0x73900023, 117.3939, 64.0407, 79.53, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

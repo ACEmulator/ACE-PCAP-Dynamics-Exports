@@ -5,35 +5,35 @@ VALUES (0x79DA6001,  1154, 0x9DA60032, 154.6696, 42.2223, 69.04915, 0.7071068, 0
 /* @teleloc 0x9DA60032 [154.669600 42.222300 69.049150] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DA6001, 0x79DA6002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79DA6001, 0x79DA6003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79DA6001, 0x79DA6004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79DA6001, 0x79DA6005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79DA6001, 0x79DA6006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79DA6001, 0x79DA6007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79DA6001, 0x79DA6008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79DA6001, 0x79DA6009, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79DA6001, 0x79DA600A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79DA6001, 0x79DA600B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79DA6001, 0x79DA600C, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x79DA6001, 0x79DA600D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79DA6001, 0x79DA600E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79DA6001, 0x79DA600F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79DA6001, 0x79DA6010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79DA6001, 0x79DA6011, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79DA6001, 0x79DA6012, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x79DA6001, 0x79DA6013, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6014, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6015, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6016, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6017, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6018, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79DA6001, 0x79DA6019, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79DA6001, 0x79DA601A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79DA6001, 0x79DA601B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79DA6001, 0x79DA601C, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79DA6001, 0x79DA601D, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79DA6001, 0x79DA601E, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x79DA6001, 0x79DA6002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79DA6001, 0x79DA6003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79DA6001, 0x79DA6004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79DA6001, 0x79DA6005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79DA6001, 0x79DA6006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79DA6001, 0x79DA6007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79DA6001, 0x79DA6008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79DA6001, 0x79DA6009, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79DA6001, 0x79DA600A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79DA6001, 0x79DA600B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79DA6001, 0x79DA600C, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x79DA6001, 0x79DA600D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79DA6001, 0x79DA600E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79DA6001, 0x79DA600F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79DA6001, 0x79DA6010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79DA6001, 0x79DA6011, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79DA6001, 0x79DA6012, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x79DA6001, 0x79DA6013, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6014, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6015, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6016, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6017, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6018, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79DA6001, 0x79DA6019, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79DA6001, 0x79DA601A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79DA6001, 0x79DA601B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79DA6001, 0x79DA601C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79DA6001, 0x79DA601D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79DA6001, 0x79DA601E, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DA6002,  1627, 0x9DA60032, 154.6696, 42.2223, 69.04915, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -156,10 +156,10 @@ VALUES (0x79DA601F,  1542, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 
 /* @teleloc 0x9DA60022 [110.098300 32.542350 71.074010] 0.916100 0.000000 0.000000 -0.400951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DA601F, 0x79DA6020, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x79DA601F, 0x79DA6021, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79DA601F, 0x79DA6022, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79DA601F, 0x79DA6023, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79DA601F, 0x79DA6020, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x79DA601F, 0x79DA6021, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79DA601F, 0x79DA6022, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x79DA601F, 0x79DA6023, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DA6020, 34104, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 0, 0, -0.4009509,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

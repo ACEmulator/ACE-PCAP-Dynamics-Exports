@@ -5,17 +5,17 @@ VALUES (0x79B32001,  1154, 0x9B32001C, 73.24052, 80.53687, 58.39978, 0.8817219, 
 /* @teleloc 0x9B32001C [73.240520 80.536870 58.399780] 0.881722 0.000000 0.000000 -0.471770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B32001, 0x79B32002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79B32001, 0x79B32003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79B32001, 0x79B32004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79B32001, 0x79B32005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79B32001, 0x79B32006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79B32001, 0x79B32007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79B32001, 0x79B32008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79B32001, 0x79B32009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79B32001, 0x79B3200A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79B32001, 0x79B3200B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79B32001, 0x79B3200C, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x79B32001, 0x79B32002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79B32001, 0x79B32003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79B32001, 0x79B32004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79B32001, 0x79B32005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79B32001, 0x79B32006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79B32001, 0x79B32007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79B32001, 0x79B32008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79B32001, 0x79B32009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79B32001, 0x79B3200A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79B32001, 0x79B3200B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79B32001, 0x79B3200C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B32002,  7978, 0x9B32001C, 73.24052, 80.53687, 58.39978, 0.8817219, 0, 0, -0.4717695,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -66,8 +66,8 @@ VALUES (0x79B3200D,  1542, 0x9B320027, 100.0492, 159.0413, 54.24115, 0.6477242, 
 /* @teleloc 0x9B320027 [100.049200 159.041300 54.241150] 0.647724 0.000000 0.000000 -0.761875 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B3200D, 0x79B3200E, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79B3200D, 0x79B3200F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79B3200D, 0x79B3200E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79B3200D, 0x79B3200F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B3200E,  8037, 0x9B320027, 100.0492, 159.0413, 54.24115, 0.6477242, 0, 0, -0.761875,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

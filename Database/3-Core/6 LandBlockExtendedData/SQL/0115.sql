@@ -141,7 +141,7 @@ VALUES (0x70115033,  1154, 0x01150124, 60.0765, 1.55793, 0.004999995, -0.0132441
 /* @teleloc 0x01150124 [60.076500 1.557930 0.005000] -0.013244 0.000000 0.000000 -0.999912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70115033, 0x70115034, '2019-02-10 00:00:00') /* Grand Sentinel Muroba */;
+VALUES (0x70115033, 0x70115034, '2019-02-10 00:00:00') /* Grand Sentinel Muroba (14921) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70115034, 14921, 0x01150124, 60.0765, 1.55793, 0.004999995, -0.0132441, 0, 0, -0.999912,  True, '2019-02-10 00:00:00'); /* Grand Sentinel Muroba */
@@ -152,7 +152,7 @@ VALUES (0x70115035,  1542, 0x0115017B, 69.22395, -46.42934, 5.937, 0.3608756, 0,
 /* @teleloc 0x0115017B [69.223950 -46.429340 5.937000] 0.360876 0.000000 0.000000 -0.932614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70115035, 0x70115036, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x70115035, 0x70115036, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70115036,  1955, 0x0115017B, 69.22395, -46.42934, 5.937, 0.3608756, 0, 0, -0.932614,  True, '2019-02-10 00:00:00'); /* Gateway */

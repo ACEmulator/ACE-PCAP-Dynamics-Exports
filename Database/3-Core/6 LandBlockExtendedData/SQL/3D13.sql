@@ -5,19 +5,19 @@ VALUES (0x73D13001,  1154, 0x3D130017, 58.77803, 155.4081, -0.09000003, -0.86157
 /* @teleloc 0x3D130017 [58.778030 155.408100 -0.090000] -0.861570 0.000000 0.000000 -0.507639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D13001, 0x73D13002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D13001, 0x73D13003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73D13001, 0x73D13004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73D13001, 0x73D13005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73D13001, 0x73D13006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73D13001, 0x73D13007, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73D13001, 0x73D13008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73D13001, 0x73D13009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D13001, 0x73D1300A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D13001, 0x73D1300B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73D13001, 0x73D1300C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73D13001, 0x73D1300D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D13001, 0x73D1300E, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x73D13001, 0x73D13002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D13001, 0x73D13003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73D13001, 0x73D13004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73D13001, 0x73D13005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73D13001, 0x73D13006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73D13001, 0x73D13007, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73D13001, 0x73D13008, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73D13001, 0x73D13009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D13001, 0x73D1300A, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D13001, 0x73D1300B, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73D13001, 0x73D1300C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73D13001, 0x73D1300D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D13001, 0x73D1300E, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D13002, 36829, 0x3D130017, 58.77803, 155.4081, -0.09000003, -0.86157, 0, 0, -0.5076388,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -76,7 +76,7 @@ VALUES (0x73D1300F,  1542, 0x3D130008, 13.11222, 188.2503, 0.6149476, -0.9326612
 /* @teleloc 0x3D130008 [13.112220 188.250300 0.614948] -0.932661 0.000000 0.000000 -0.360754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D1300F, 0x73D13010, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73D1300F, 0x73D13010, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D13010,  9288, 0x3D130008, 13.11222, 188.2503, 0.6149476, -0.9326612, 0, 0, -0.3607535,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

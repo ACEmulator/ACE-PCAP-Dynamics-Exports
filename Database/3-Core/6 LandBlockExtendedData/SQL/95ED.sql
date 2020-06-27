@@ -5,27 +5,27 @@ VALUES (0x795ED001,  1154, 0x95ED003B, 179.0005, 53.11029, 0.00999999, 0.7660445
 /* @teleloc 0x95ED003B [179.000500 53.110290 0.010000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795ED001, 0x795ED002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795ED001, 0x795ED003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795ED001, 0x795ED004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x795ED001, 0x795ED005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x795ED001, 0x795ED006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x795ED001, 0x795ED007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x795ED001, 0x795ED008, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x795ED001, 0x795ED009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x795ED001, 0x795ED00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x795ED001, 0x795ED00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x795ED001, 0x795ED00C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x795ED001, 0x795ED00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x795ED001, 0x795ED00E, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x795ED001, 0x795ED00F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x795ED001, 0x795ED010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x795ED001, 0x795ED011, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x795ED001, 0x795ED012, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x795ED001, 0x795ED013, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x795ED001, 0x795ED014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x795ED001, 0x795ED015, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x795ED001, 0x795ED016, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x795ED001, 0x795ED002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795ED001, 0x795ED003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795ED001, 0x795ED004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x795ED001, 0x795ED005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x795ED001, 0x795ED006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x795ED001, 0x795ED007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x795ED001, 0x795ED008, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x795ED001, 0x795ED009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x795ED001, 0x795ED00A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x795ED001, 0x795ED00B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x795ED001, 0x795ED00C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x795ED001, 0x795ED00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x795ED001, 0x795ED00E, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x795ED001, 0x795ED00F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x795ED001, 0x795ED010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x795ED001, 0x795ED011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795ED001, 0x795ED012, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x795ED001, 0x795ED013, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x795ED001, 0x795ED014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795ED001, 0x795ED015, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x795ED001, 0x795ED016, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795ED002,  7096, 0x95ED003B, 179.0005, 53.11029, 0.00999999, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -116,8 +116,8 @@ VALUES (0x795ED017,  1542, 0x95ED0008, 15.55036, 182.2993, -0.45, 0.9990482, 0, 
 /* @teleloc 0x95ED0008 [15.550360 182.299300 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795ED017, 0x795ED018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x795ED017, 0x795ED019, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x795ED017, 0x795ED018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x795ED017, 0x795ED019, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795ED018,  4179, 0x95ED0008, 15.55036, 182.2993, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

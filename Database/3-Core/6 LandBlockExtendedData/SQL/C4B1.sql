@@ -5,10 +5,10 @@ VALUES (0x7C4B1001,  1154, 0xC4B1003F, 176.1084, 146.9203, 283.7566, 0.634854, 0
 /* @teleloc 0xC4B1003F [176.108400 146.920300 283.756600] 0.634854 0.000000 0.000000 -0.772632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4B1001, 0x7C4B1002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C4B1001, 0x7C4B1003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C4B1001, 0x7C4B1004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C4B1001, 0x7C4B1005, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C4B1001, 0x7C4B1002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C4B1001, 0x7C4B1003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C4B1001, 0x7C4B1004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C4B1001, 0x7C4B1005, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4B1002,  9401, 0xC4B1003F, 176.1084, 146.9203, 283.7566, 0.634854, 0, 0, -0.7726321,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

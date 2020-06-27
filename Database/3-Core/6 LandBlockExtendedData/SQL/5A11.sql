@@ -5,22 +5,22 @@ VALUES (0x75A11001,  1154, 0x5A110040, 179.3446, 182.6245, 2.114628, 0.9985914, 
 /* @teleloc 0x5A110040 [179.344600 182.624500 2.114628] 0.998591 0.000000 0.000000 -0.053059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A11001, 0x75A11002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75A11001, 0x75A11004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75A11001, 0x75A11009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75A11001, 0x75A1100A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A11001, 0x75A1100B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x75A11001, 0x75A1100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75A11001, 0x75A1100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75A11001, 0x75A1100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75A11001, 0x75A1100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75A11001, 0x75A11010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75A11001, 0x75A11011, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x75A11001, 0x75A11002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75A11001, 0x75A11004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75A11001, 0x75A11009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75A11001, 0x75A1100A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A11001, 0x75A1100B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x75A11001, 0x75A1100C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75A11001, 0x75A1100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75A11001, 0x75A1100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75A11001, 0x75A1100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75A11001, 0x75A11010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75A11001, 0x75A11011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A11002,  4247, 0x5A110040, 179.3446, 182.6245, 2.114628, 0.9985914, 0, 0, -0.05305904,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -91,7 +91,7 @@ VALUES (0x75A11012,  1542, 0x5A110035, 161.9662, 116.962, -0.45, 1, 0, 0, 0, Fal
 /* @teleloc 0x5A110035 [161.966200 116.962000 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A11012, 0x75A11013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75A11012, 0x75A11013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A11013,  4179, 0x5A110035, 161.9662, 116.962, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

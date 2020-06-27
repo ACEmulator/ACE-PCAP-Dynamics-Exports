@@ -17,53 +17,53 @@ VALUES (0x702A400C,  1154, 0x02A40115, 62.6595, -69.523, -11.998, 0.870762, 0, 0
 /* @teleloc 0x02A40115 [62.659500 -69.523000 -11.998000] 0.870762 0.000000 0.000000 0.491704 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A400C, 0x702A400D, '2019-02-10 00:00:00') /* Reedshark Stalker */
-     , (0x702A400C, 0x702A400E, '2019-02-10 00:00:00') /* Reedshark Stalker */
-     , (0x702A400C, 0x702A400F, '2019-02-10 00:00:00') /* Reedshark Stalker */
-     , (0x702A400C, 0x702A4010, '2019-02-10 00:00:00') /* Reedshark Stalker */
-     , (0x702A400C, 0x702A4011, '2019-02-10 00:00:00') /* Reedshark Stalker */
-     , (0x702A400C, 0x702A4012, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4013, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4014, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x702A400C, 0x702A4015, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x702A400C, 0x702A4017, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4018, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4019, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A401F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4020, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4021, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4022, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4023, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4024, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4025, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4026, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4027, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4028, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4029, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A402F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4030, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4031, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x702A400C, 0x702A4032, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x702A400C, 0x702A4033, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4034, '2019-02-10 00:00:00') /* Tumerok South Vanguard Leader */
-     , (0x702A400C, 0x702A4035, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4036, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4037, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4038, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A4039, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x702A400C, 0x702A403A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x702A400C, 0x702A403B, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x702A400C, 0x702A400D, '2019-02-10 00:00:00') /* Reedshark Stalker (24312) */
+     , (0x702A400C, 0x702A400E, '2019-02-10 00:00:00') /* Reedshark Stalker (24312) */
+     , (0x702A400C, 0x702A400F, '2019-02-10 00:00:00') /* Reedshark Stalker (24312) */
+     , (0x702A400C, 0x702A4010, '2019-02-10 00:00:00') /* Reedshark Stalker (24312) */
+     , (0x702A400C, 0x702A4011, '2019-02-10 00:00:00') /* Reedshark Stalker (24312) */
+     , (0x702A400C, 0x702A4012, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4013, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4014, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x702A400C, 0x702A4015, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4016, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x702A400C, 0x702A4017, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4018, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4019, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A401A, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A401B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A401C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A401D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A401E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A401F, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4020, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4021, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4022, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A4023, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4024, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4025, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4026, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4027, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4028, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4029, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402A, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402B, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402C, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402D, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402E, '2019-02-10 00:00:00') /* Tumerok Gladiator (4102) */
+     , (0x702A400C, 0x702A402F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4030, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4031, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x702A400C, 0x702A4032, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x702A400C, 0x702A4033, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4034, '2019-02-10 00:00:00') /* Tumerok South Vanguard Leader (9146) */
+     , (0x702A400C, 0x702A4035, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4036, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4037, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4038, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A4039, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x702A400C, 0x702A403A, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x702A400C, 0x702A403B, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A400D, 24312, 0x02A40115, 62.6595, -69.523, -11.998, 0.870762, 0, 0, 0.491704,  True, '2019-02-10 00:00:00'); /* Reedshark Stalker */

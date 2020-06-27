@@ -5,10 +5,10 @@ VALUES (0x7CF89001,  1154, 0xCF890020, 85.1599, 168.2847, 28.00873, 0.8191521, 0
 /* @teleloc 0xCF890020 [85.159900 168.284700 28.008730] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF89001, 0x7CF89002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CF89001, 0x7CF89003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CF89001, 0x7CF89004, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CF89001, 0x7CF89005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7CF89001, 0x7CF89002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CF89001, 0x7CF89003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CF89001, 0x7CF89004, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CF89001, 0x7CF89005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF89002,  4110, 0xCF890020, 85.1599, 168.2847, 28.00873, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

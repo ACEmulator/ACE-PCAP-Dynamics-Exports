@@ -5,19 +5,19 @@ VALUES (0x7BF3F001,  1154, 0xBF3F0016, 68.57758, 136.6962, 69.81593, -0.9414377,
 /* @teleloc 0xBF3F0016 [68.577580 136.696200 69.815930] -0.941438 0.000000 0.000000 -0.337187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF3F001, 0x7BF3F002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BF3F001, 0x7BF3F003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7BF3F001, 0x7BF3F004, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7BF3F001, 0x7BF3F005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BF3F001, 0x7BF3F006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BF3F001, 0x7BF3F007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BF3F001, 0x7BF3F008, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7BF3F001, 0x7BF3F009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BF3F001, 0x7BF3F00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BF3F001, 0x7BF3F00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BF3F001, 0x7BF3F00C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7BF3F001, 0x7BF3F00D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BF3F001, 0x7BF3F00E, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7BF3F001, 0x7BF3F002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BF3F001, 0x7BF3F003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7BF3F001, 0x7BF3F004, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7BF3F001, 0x7BF3F005, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7BF3F001, 0x7BF3F006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BF3F001, 0x7BF3F007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BF3F001, 0x7BF3F008, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7BF3F001, 0x7BF3F009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BF3F001, 0x7BF3F00A, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7BF3F001, 0x7BF3F00B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7BF3F001, 0x7BF3F00C, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7BF3F001, 0x7BF3F00D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BF3F001, 0x7BF3F00E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF3F002,  9401, 0xBF3F0016, 68.57758, 136.6962, 69.81593, -0.9414377, 0, 0, -0.337187,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

@@ -5,9 +5,9 @@ VALUES (0x76C99001,  1154, 0x6C990034, 165.1624, 92.66904, 48.31087, -0.8931482,
 /* @teleloc 0x6C990034 [165.162400 92.669040 48.310870] -0.893148 0.000000 0.000000 -0.449762 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76C99001, 0x76C99002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76C99001, 0x76C99003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76C99001, 0x76C99004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x76C99001, 0x76C99002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76C99001, 0x76C99003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76C99001, 0x76C99004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76C99002, 24293, 0x6C990034, 165.1624, 92.66904, 48.31087, -0.8931482, 0, 0, -0.4497623,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

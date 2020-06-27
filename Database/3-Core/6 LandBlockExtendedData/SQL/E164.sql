@@ -5,13 +5,13 @@ VALUES (0x7E164001,  1154, 0xE1640025, 112.0525, 106.9814, 0.002499998, 0.793353
 /* @teleloc 0xE1640025 [112.052500 106.981400 0.002500] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E164001, 0x7E164002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E164001, 0x7E164003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E164001, 0x7E164004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E164001, 0x7E164005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E164001, 0x7E164006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E164001, 0x7E164007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E164001, 0x7E164008, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7E164001, 0x7E164002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E164001, 0x7E164003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E164001, 0x7E164004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E164001, 0x7E164005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E164001, 0x7E164006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E164001, 0x7E164007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E164001, 0x7E164008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E164002,  1761, 0xE1640025, 112.0525, 106.9814, 0.002499998, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -46,7 +46,7 @@ VALUES (0x7E164009,  1542, 0xE1640025, 99.03094, 119.765, 0, 0.9990482, 0, 0, -0
 /* @teleloc 0xE1640025 [99.030940 119.765000 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E164009, 0x7E16400A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E164009, 0x7E16400A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E16400A,  4179, 0xE1640025, 99.03094, 119.765, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

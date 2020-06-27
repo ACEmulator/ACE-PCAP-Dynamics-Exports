@@ -5,11 +5,11 @@ VALUES (0x70D6D001,  1154, 0x0D6D0001, 2.929608, 3.293503, 6.254134, -0.1638256,
 /* @teleloc 0x0D6D0001 [2.929608 3.293503 6.254134] -0.163826 0.000000 0.000000 -0.986489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D6D001, 0x70D6D002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70D6D001, 0x70D6D003, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70D6D001, 0x70D6D004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D6D001, 0x70D6D005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D6D001, 0x70D6D006, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x70D6D001, 0x70D6D002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70D6D001, 0x70D6D003, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70D6D001, 0x70D6D004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D6D001, 0x70D6D005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D6D001, 0x70D6D006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D6D002, 36839, 0x0D6D0001, 2.929608, 3.293503, 6.254134, -0.1638256, 0, 0, -0.9864893,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

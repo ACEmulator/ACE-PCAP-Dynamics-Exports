@@ -5,17 +5,17 @@ VALUES (0x7B696001,  1154, 0xB6960035, 145.3349, 115.1413, 35.89225, 0.03270897,
 /* @teleloc 0xB6960035 [145.334900 115.141300 35.892250] 0.032709 0.000000 0.000000 -0.999465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B696001, 0x7B696002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7B696001, 0x7B696003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B696004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B696005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B696006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B696001, 0x7B696007, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B696001, 0x7B696008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B696009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B69600A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B69600B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B696001, 0x7B69600C, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7B696001, 0x7B696002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7B696001, 0x7B696003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B696004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B696005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B696006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B696001, 0x7B696007, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B696001, 0x7B696008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B696009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B69600A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B69600B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B696001, 0x7B69600C, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B696002,  1464, 0xB6960035, 145.3349, 115.1413, 35.89225, 0.03270897, 0, 0, -0.9994649,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -66,7 +66,7 @@ VALUES (0x7B69600D,  1542, 0xB696000E, 28.05637, 139.1033, 51.82898, 0.4439402, 
 /* @teleloc 0xB696000E [28.056370 139.103300 51.828980] 0.443940 0.000000 0.000000 -0.896056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69600D, 0x7B69600E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B69600D, 0x7B69600E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69600E,  8037, 0xB696000E, 28.05637, 139.1033, 51.82898, 0.4439402, 0, 0, -0.8960564,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,14 +5,14 @@ VALUES (0x7926D001,  1154, 0x926D003A, 188.4724, 45.89145, 13.23885, 0.9238795, 
 /* @teleloc 0x926D003A [188.472400 45.891450 13.238850] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7926D001, 0x7926D002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7926D001, 0x7926D003, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x7926D001, 0x7926D004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x7926D001, 0x7926D005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7926D001, 0x7926D006, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7926D001, 0x7926D007, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7926D001, 0x7926D008, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7926D001, 0x7926D009, '2019-02-10 00:00:00') /* Greater Mu-miyah */;
+VALUES (0x7926D001, 0x7926D002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7926D001, 0x7926D003, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x7926D001, 0x7926D004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x7926D001, 0x7926D005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7926D001, 0x7926D006, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7926D001, 0x7926D007, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7926D001, 0x7926D008, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7926D001, 0x7926D009, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7926D002,  1759, 0x926D003A, 188.4724, 45.89145, 13.23885, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Skeleton */

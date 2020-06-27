@@ -13,78 +13,78 @@ VALUES (0x7BC9D002,  1154, 0xBC9D0030, 132.4814, 170.9296, 1.9035, 0.9659258, 0,
 /* @teleloc 0xBC9D0030 [132.481400 170.929600 1.903500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC9D002, 0x7BC9D003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BC9D002, 0x7BC9D004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BC9D002, 0x7BC9D005, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BC9D002, 0x7BC9D006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D00B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC9D002, 0x7BC9D00D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D00E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D00F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC9D002, 0x7BC9D011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D012, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC9D002, 0x7BC9D014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BC9D002, 0x7BC9D015, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D016, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D017, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BC9D002, 0x7BC9D018, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D019, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC9D002, 0x7BC9D01A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D01B, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BC9D002, 0x7BC9D01C, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BC9D002, 0x7BC9D01D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D01E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D01F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D020, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D021, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D022, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D023, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC9D002, 0x7BC9D024, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BC9D002, 0x7BC9D025, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D026, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D027, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D028, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D029, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BC9D002, 0x7BC9D02A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9D002, 0x7BC9D02B, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BC9D002, 0x7BC9D02C, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BC9D002, 0x7BC9D02D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D02E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC9D002, 0x7BC9D02F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BC9D002, 0x7BC9D030, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D031, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC9D002, 0x7BC9D032, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BC9D002, 0x7BC9D033, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D034, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D035, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC9D002, 0x7BC9D036, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9D002, 0x7BC9D037, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC9D002, 0x7BC9D038, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D039, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BC9D002, 0x7BC9D03A, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BC9D002, 0x7BC9D03B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9D002, 0x7BC9D03C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9D002, 0x7BC9D03D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC9D002, 0x7BC9D03E, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BC9D002, 0x7BC9D03F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BC9D002, 0x7BC9D040, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC9D002, 0x7BC9D041, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D042, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D043, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D044, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D045, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BC9D002, 0x7BC9D046, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BC9D002, 0x7BC9D047, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BC9D002, 0x7BC9D048, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BC9D002, 0x7BC9D049, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BC9D002, 0x7BC9D04A, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7BC9D002, 0x7BC9D003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BC9D002, 0x7BC9D004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BC9D002, 0x7BC9D005, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BC9D002, 0x7BC9D006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D007, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D008, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D009, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D00A, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D00B, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC9D002, 0x7BC9D00D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D00E, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D00F, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D010, '2019-02-10 00:00:00') /* Drudge Ravener (35436) */
+     , (0x7BC9D002, 0x7BC9D011, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D012, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC9D002, 0x7BC9D014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BC9D002, 0x7BC9D015, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D016, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D017, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BC9D002, 0x7BC9D018, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D019, '2019-02-10 00:00:00') /* Drudge Ravener (35436) */
+     , (0x7BC9D002, 0x7BC9D01A, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D01B, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BC9D002, 0x7BC9D01C, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BC9D002, 0x7BC9D01D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D01E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D01F, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D020, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D021, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D022, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D023, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC9D002, 0x7BC9D024, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BC9D002, 0x7BC9D025, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D026, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D027, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D028, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D029, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BC9D002, 0x7BC9D02A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9D002, 0x7BC9D02B, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BC9D002, 0x7BC9D02C, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BC9D002, 0x7BC9D02D, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D02E, '2019-02-10 00:00:00') /* Drudge Ravener (35436) */
+     , (0x7BC9D002, 0x7BC9D02F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BC9D002, 0x7BC9D030, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D031, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC9D002, 0x7BC9D032, '2019-02-10 00:00:00') /* Drudge Ravener (35436) */
+     , (0x7BC9D002, 0x7BC9D033, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D034, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D035, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC9D002, 0x7BC9D036, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9D002, 0x7BC9D037, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC9D002, 0x7BC9D038, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D039, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BC9D002, 0x7BC9D03A, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BC9D002, 0x7BC9D03B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9D002, 0x7BC9D03C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9D002, 0x7BC9D03D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC9D002, 0x7BC9D03E, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BC9D002, 0x7BC9D03F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BC9D002, 0x7BC9D040, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC9D002, 0x7BC9D041, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D042, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D043, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D044, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D045, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BC9D002, 0x7BC9D046, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BC9D002, 0x7BC9D047, '2019-02-10 00:00:00') /* Drudge Lurker (35427) */
+     , (0x7BC9D002, 0x7BC9D048, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BC9D002, 0x7BC9D049, '2019-02-10 00:00:00') /* Drudge Stalker (35445) */
+     , (0x7BC9D002, 0x7BC9D04A, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9D003,   192, 0xBC9D0030, 132.4814, 170.9296, 1.9035, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

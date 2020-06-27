@@ -5,14 +5,14 @@ VALUES (0x79EBF001,  1154, 0x9EBF0006, 12.49214, 122.8534, 44.48341, 0.9867133, 
 /* @teleloc 0x9EBF0006 [12.492140 122.853400 44.483410] 0.986713 0.000000 0.000000 -0.162471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EBF001, 0x79EBF002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79EBF001, 0x79EBF003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79EBF001, 0x79EBF004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x79EBF001, 0x79EBF005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x79EBF001, 0x79EBF006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79EBF001, 0x79EBF007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79EBF001, 0x79EBF008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x79EBF001, 0x79EBF009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x79EBF001, 0x79EBF002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79EBF001, 0x79EBF003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79EBF001, 0x79EBF004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x79EBF001, 0x79EBF005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x79EBF001, 0x79EBF006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79EBF001, 0x79EBF007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79EBF001, 0x79EBF008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x79EBF001, 0x79EBF009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EBF002, 22010, 0x9EBF0006, 12.49214, 122.8534, 44.48341, 0.9867133, 0, 0, -0.1624713,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -51,7 +51,7 @@ VALUES (0x79EBF00A,  1542, 0x9EBF0026, 103.3354, 141.2757, 28, 1, 0, 0, 0, False
 /* @teleloc 0x9EBF0026 [103.335400 141.275700 28.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EBF00A, 0x79EBF00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79EBF00A, 0x79EBF00B, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EBF00B,  4379, 0x9EBF0026, 103.3354, 141.2757, 28, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

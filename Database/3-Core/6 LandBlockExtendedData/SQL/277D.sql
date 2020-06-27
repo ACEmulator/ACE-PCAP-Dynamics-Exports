@@ -5,15 +5,15 @@ VALUES (0x7277D001,  1154, 0x277D002B, 134.5399, 49.24789, 178.0071, 0.7071068, 
 /* @teleloc 0x277D002B [134.539900 49.247890 178.007100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277D001, 0x7277D002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7277D001, 0x7277D003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7277D001, 0x7277D004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277D001, 0x7277D005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277D001, 0x7277D006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7277D001, 0x7277D007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7277D001, 0x7277D008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7277D001, 0x7277D009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7277D001, 0x7277D00A, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x7277D001, 0x7277D002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7277D001, 0x7277D003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7277D001, 0x7277D004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277D001, 0x7277D005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277D001, 0x7277D006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7277D001, 0x7277D007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7277D001, 0x7277D008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7277D001, 0x7277D009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7277D001, 0x7277D00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277D002,  7088, 0x277D002B, 134.5399, 49.24789, 178.0071, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -56,9 +56,9 @@ VALUES (0x7277D00B,  1542, 0x277D002A, 132.0609, 47.9211, 178, 1, 0, 0, 0, False
 /* @teleloc 0x277D002A [132.060900 47.921100 178.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277D00B, 0x7277D00C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7277D00B, 0x7277D00D, '2019-02-10 00:00:00') /* Bones */
-     , (0x7277D00B, 0x7277D00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7277D00B, 0x7277D00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7277D00B, 0x7277D00D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7277D00B, 0x7277D00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277D00C, 22571, 0x277D002A, 132.0609, 47.9211, 178, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

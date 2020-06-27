@@ -5,11 +5,11 @@ VALUES (0x75CD6001,  1154, 0x5CD6003D, 174.0644, 115.5622, 156.3763, 0.9492204, 
 /* @teleloc 0x5CD6003D [174.064400 115.562200 156.376300] 0.949220 0.000000 0.000000 -0.314612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CD6001, 0x75CD6002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x75CD6001, 0x75CD6003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75CD6001, 0x75CD6004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x75CD6001, 0x75CD6005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x75CD6001, 0x75CD6006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x75CD6001, 0x75CD6002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x75CD6001, 0x75CD6003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75CD6001, 0x75CD6004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x75CD6001, 0x75CD6005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x75CD6001, 0x75CD6006, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CD6002, 20189, 0x5CD6003D, 174.0644, 115.5622, 156.3763, 0.9492204, 0, 0, -0.3146119,  True, '2019-02-10 00:00:00'); /* Brumal */

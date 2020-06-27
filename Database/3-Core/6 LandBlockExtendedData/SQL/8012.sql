@@ -9,10 +9,10 @@ VALUES (0x78012001,  1154, 0x80120033, 163.6996, 53.09014, -0.08949995, -0.99481
 /* @teleloc 0x80120033 [163.699600 53.090140 -0.089500] -0.994819 0.000000 0.000000 -0.101667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78012001, 0x78012002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78012001, 0x78012003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78012001, 0x78012004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78012001, 0x78012005, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x78012001, 0x78012002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78012001, 0x78012003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78012001, 0x78012004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78012001, 0x78012005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78012002,   180, 0x80120033, 163.6996, 53.09014, -0.08949995, -0.9948185, 0, 0, -0.1016669,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */

@@ -5,18 +5,18 @@ VALUES (0x7C660001,  1154, 0xC6600019, 85.2601, 21.8109, 5.9045, -0.165774, 0, 0
 /* @teleloc 0xC6600019 [85.260100 21.810900 5.904500] -0.165774 0.000000 0.000000 0.986164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C660001, 0x7C660002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C660001, 0x7C660003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660001, 0x7C660004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660001, 0x7C660005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C660001, 0x7C660006, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C660001, 0x7C660007, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C660001, 0x7C660008, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7C660001, 0x7C660009, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C660001, 0x7C66000A, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C660001, 0x7C66000B, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C660001, 0x7C66000C, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C660001, 0x7C66000D, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C660001, 0x7C660002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660001, 0x7C660003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660001, 0x7C660004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660001, 0x7C660005, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C660001, 0x7C660006, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660001, 0x7C660007, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660001, 0x7C660008, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7C660001, 0x7C660009, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C660001, 0x7C66000A, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C660001, 0x7C66000B, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C660001, 0x7C66000C, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C660001, 0x7C66000D, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C660002,  1616, 0xC6600019, 85.2601, 21.8109, 5.9045, -0.165774, 0, 0, 0.9861638,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */
@@ -71,11 +71,11 @@ VALUES (0x7C66000E,  1542, 0xC6600012, 67.13437, 36.32846, 5.151, -0.8157603, 0,
 /* @teleloc 0xC6600012 [67.134370 36.328460 5.151000] -0.815760 0.000000 0.000000 0.578390 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C66000E, 0x7C66000F, '2019-02-10 00:00:00') /* Jambiya */
-     , (0x7C66000E, 0x7C660010, '2019-02-10 00:00:00') /* Frost Great Star Mace */
-     , (0x7C66000E, 0x7C660011, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C66000E, 0x7C660012, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C66000E, 0x7C660013, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */;
+VALUES (0x7C66000E, 0x7C66000F, '2019-02-10 00:00:00') /* Jambiya (319) */
+     , (0x7C66000E, 0x7C660010, '2019-02-10 00:00:00') /* Frost Great Star Mace (41061) */
+     , (0x7C66000E, 0x7C660011, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C66000E, 0x7C660012, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C66000E, 0x7C660013, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C66000F,   319, 0xC6600012, 67.13437, 36.32846, 5.151, -0.8157603, 0, 0, 0.5783902,  True, '2019-02-10 00:00:00'); /* Jambiya */

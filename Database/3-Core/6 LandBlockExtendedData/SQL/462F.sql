@@ -9,16 +9,16 @@ VALUES (0x7462F001,  1154, 0x462F0100, 108.128, 8.73461, 220.0083, 0.99963, 0, 0
 /* @teleloc 0x462F0100 [108.128000 8.734610 220.008300] 0.999630 0.000000 0.000000 0.027198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7462F001, 0x7462F002, '2019-02-10 00:00:00') /* Wight Kidnapper */
-     , (0x7462F001, 0x7462F003, '2019-02-10 00:00:00') /* Pyre Champion */
-     , (0x7462F001, 0x7462F004, '2019-02-10 00:00:00') /* Pyre Champion */
-     , (0x7462F001, 0x7462F005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7462F001, 0x7462F006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7462F001, 0x7462F007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7462F001, 0x7462F008, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7462F001, 0x7462F009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7462F001, 0x7462F00A, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7462F001, 0x7462F00B, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7462F001, 0x7462F002, '2019-02-10 00:00:00') /* Wight Kidnapper (42727) */
+     , (0x7462F001, 0x7462F003, '2019-02-10 00:00:00') /* Pyre Champion (37457) */
+     , (0x7462F001, 0x7462F004, '2019-02-10 00:00:00') /* Pyre Champion (37457) */
+     , (0x7462F001, 0x7462F005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7462F001, 0x7462F006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7462F001, 0x7462F007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7462F001, 0x7462F008, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7462F001, 0x7462F009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7462F001, 0x7462F00A, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7462F001, 0x7462F00B, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7462F002, 42727, 0x462F0100, 108.128, 8.73461, 220.0083, 0.99963, 0, 0, 0.0271981,  True, '2019-02-10 00:00:00'); /* Wight Kidnapper */
@@ -65,7 +65,7 @@ VALUES (0x7462F00C,  1154, 0x462F0101, 108.016, 12.4292, 220.005, 0.00847993, 0,
 /* @teleloc 0x462F0101 [108.016000 12.429200 220.005000] 0.008480 0.000000 0.000000 -0.999964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7462F00C, 0x7462F00D, '2019-02-10 00:00:00') /* Ayaname Chiyoko */;
+VALUES (0x7462F00C, 0x7462F00D, '2019-02-10 00:00:00') /* Ayaname Chiyoko (42731) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7462F00D, 42731, 0x462F0101, 108.016, 12.4292, 220.005, 0.00847993, 0, 0, -0.999964,  True, '2019-02-10 00:00:00'); /* Ayaname Chiyoko */

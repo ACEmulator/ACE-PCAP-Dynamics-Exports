@@ -5,11 +5,11 @@ VALUES (0x71978001,  1154, 0x1978003F, 191.9033, 155.0717, 150.01, -0.996082, 0,
 /* @teleloc 0x1978003F [191.903300 155.071700 150.010000] -0.996082 0.000000 0.000000 -0.088434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71978001, 0x71978002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71978001, 0x71978003, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71978001, 0x71978004, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71978001, 0x71978005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71978001, 0x71978006, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x71978001, 0x71978002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71978001, 0x71978003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71978001, 0x71978004, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71978001, 0x71978005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71978001, 0x71978006, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71978002, 36829, 0x1978003F, 191.9033, 155.0717, 150.01, -0.996082, 0, 0, -0.08843409,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

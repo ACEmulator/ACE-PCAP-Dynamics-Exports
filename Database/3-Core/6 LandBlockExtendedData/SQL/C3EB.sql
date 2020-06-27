@@ -5,15 +5,15 @@ VALUES (0x7C3EB001,  1154, 0xC3EB003E, 181.1613, 138.0774, -0.8945, -0.9724861, 
 /* @teleloc 0xC3EB003E [181.161300 138.077400 -0.894500] -0.972486 0.000000 0.000000 -0.232961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3EB001, 0x7C3EB002, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EB001, 0x7C3EB003, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EB001, 0x7C3EB004, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3EB001, 0x7C3EB005, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EB001, 0x7C3EB006, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EB001, 0x7C3EB007, '2019-02-10 00:00:00') /* Remoran Corsair */
-     , (0x7C3EB001, 0x7C3EB008, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EB001, 0x7C3EB009, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3EB001, 0x7C3EB00A, '2019-02-10 00:00:00') /* Black Coral Golem */;
+VALUES (0x7C3EB001, 0x7C3EB002, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C3EB001, 0x7C3EB003, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3EB001, 0x7C3EB004, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3EB001, 0x7C3EB005, '2019-02-10 00:00:00') /* Remoran Corsair (33736) */
+     , (0x7C3EB001, 0x7C3EB006, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C3EB001, 0x7C3EB007, '2019-02-10 00:00:00') /* Remoran Corsair (40283) */
+     , (0x7C3EB001, 0x7C3EB008, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3EB001, 0x7C3EB009, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3EB001, 0x7C3EB00A, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3EB002, 33735, 0xC3EB003E, 181.1613, 138.0774, -0.8945, -0.9724861, 0, 0, -0.2329608,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */

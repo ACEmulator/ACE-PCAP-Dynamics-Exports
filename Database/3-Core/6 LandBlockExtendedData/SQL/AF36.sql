@@ -5,12 +5,12 @@ VALUES (0x7AF36001,  1154, 0xAF360040, 190.1079, 186.3468, 121.5492, 0.6920304, 
 /* @teleloc 0xAF360040 [190.107900 186.346800 121.549200] 0.692030 0.000000 0.000000 -0.721868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF36001, 0x7AF36002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AF36001, 0x7AF36003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AF36001, 0x7AF36004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7AF36001, 0x7AF36005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7AF36001, 0x7AF36006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7AF36001, 0x7AF36007, '2019-02-10 00:00:00') /* Amploth Raider */;
+VALUES (0x7AF36001, 0x7AF36002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AF36001, 0x7AF36003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AF36001, 0x7AF36004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7AF36001, 0x7AF36005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7AF36001, 0x7AF36006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7AF36001, 0x7AF36007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF36002,  8143, 0xAF360040, 190.1079, 186.3468, 121.5492, 0.6920304, 0, 0, -0.7218683,  True, '2019-02-10 00:00:00'); /* Amploth Raider */

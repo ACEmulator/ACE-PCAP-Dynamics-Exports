@@ -5,10 +5,10 @@ VALUES (0x79F16001,  1154, 0x9F160020, 85.17812, 175.5058, 59.06461, 0.9238795, 
 /* @teleloc 0x9F160020 [85.178120 175.505800 59.064610] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F16001, 0x79F16002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79F16001, 0x79F16003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79F16001, 0x79F16004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79F16001, 0x79F16005, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x79F16001, 0x79F16002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79F16001, 0x79F16003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79F16001, 0x79F16004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79F16001, 0x79F16005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F16002,   199, 0x9F160020, 85.17812, 175.5058, 59.06461, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -31,7 +31,7 @@ VALUES (0x79F16006,  1542, 0x9F160037, 149.6588, 160.6572, 59.71932, 1, 0, 0, 0,
 /* @teleloc 0x9F160037 [149.658800 160.657200 59.719320] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F16006, 0x79F16007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79F16006, 0x79F16007, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F16007,  4379, 0x9F160037, 149.6588, 160.6572, 59.71932, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,41 +5,41 @@ VALUES (0x7F27A001,  1154, 0xF27A003D, 187.3278, 100.9931, 25.15075, 0.8896781, 
 /* @teleloc 0xF27A003D [187.327800 100.993100 25.150750] 0.889678 0.000000 0.000000 -0.456588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F27A001, 0x7F27A002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F27A001, 0x7F27A004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A005, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A006, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A007, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F27A001, 0x7F27A009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A00A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A00B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A00C, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F27A001, 0x7F27A00D, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F27A001, 0x7F27A00E, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F27A001, 0x7F27A00F, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A010, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A011, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A012, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F27A001, 0x7F27A013, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F27A001, 0x7F27A014, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A015, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A016, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A017, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A018, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F27A001, 0x7F27A019, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A01A, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A01B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A01C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A01D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A01E, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A01F, '2019-02-10 00:00:00') /* Horned Chittick */
-     , (0x7F27A001, 0x7F27A020, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F27A001, 0x7F27A021, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F27A001, 0x7F27A022, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A023, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F27A001, 0x7F27A024, '2019-02-10 00:00:00') /* Jungle Reaver */;
+VALUES (0x7F27A001, 0x7F27A002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F27A001, 0x7F27A004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A005, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A006, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A007, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F27A001, 0x7F27A009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A00A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A00B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A00C, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F27A001, 0x7F27A00D, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F27A001, 0x7F27A00E, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F27A001, 0x7F27A00F, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A010, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A011, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A012, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F27A001, 0x7F27A013, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F27A001, 0x7F27A014, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A015, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A016, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A017, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A018, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F27A001, 0x7F27A019, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A01A, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A01B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A01C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A01D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A01E, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A01F, '2019-02-10 00:00:00') /* Horned Chittick (4243) */
+     , (0x7F27A001, 0x7F27A020, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F27A001, 0x7F27A021, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F27A001, 0x7F27A022, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A023, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F27A001, 0x7F27A024, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F27A002, 22519, 0xF27A003D, 187.3278, 100.9931, 25.15075, 0.8896781, 0, 0, -0.4565884,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

@@ -5,12 +5,12 @@ VALUES (0x7C38E001,  1154, 0xC38E0011, 56.6455, 17.43662, 16.53195, 0.8054478, 0
 /* @teleloc 0xC38E0011 [56.645500 17.436620 16.531950] 0.805448 0.000000 0.000000 -0.592667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C38E001, 0x7C38E002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C38E001, 0x7C38E003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C38E001, 0x7C38E004, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C38E001, 0x7C38E005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C38E001, 0x7C38E006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C38E001, 0x7C38E007, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7C38E001, 0x7C38E002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C38E001, 0x7C38E003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C38E001, 0x7C38E004, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C38E001, 0x7C38E005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C38E001, 0x7C38E006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C38E001, 0x7C38E007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C38E002,  8010, 0xC38E0011, 56.6455, 17.43662, 16.53195, 0.8054478, 0, 0, -0.5926667,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

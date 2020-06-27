@@ -5,13 +5,13 @@ VALUES (0x7B5A9001,  1154, 0xB5A90018, 61.79883, 180.3211, 92.25628, -0.3274004,
 /* @teleloc 0xB5A90018 [61.798830 180.321100 92.256280] -0.327400 0.000000 0.000000 -0.944886 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A9001, 0x7B5A9002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B5A9001, 0x7B5A9003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B5A9001, 0x7B5A9004, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B5A9001, 0x7B5A9005, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B5A9001, 0x7B5A9006, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B5A9001, 0x7B5A9007, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B5A9001, 0x7B5A9008, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7B5A9001, 0x7B5A9002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B5A9001, 0x7B5A9003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B5A9001, 0x7B5A9004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B5A9001, 0x7B5A9005, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B5A9001, 0x7B5A9006, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B5A9001, 0x7B5A9007, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B5A9001, 0x7B5A9008, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A9002,   942, 0xB5A90018, 61.79883, 180.3211, 92.25628, -0.3274004, 0, 0, -0.9448857,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -46,7 +46,7 @@ VALUES (0x7B5A9009,  1542, 0xB5A90018, 49.77267, 183.9846, 90.52841, 0.7071068, 
 /* @teleloc 0xB5A90018 [49.772670 183.984600 90.528410] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A9009, 0x7B5A900A, '2019-02-10 00:00:00') /* Henbane */;
+VALUES (0x7B5A9009, 0x7B5A900A, '2019-02-10 00:00:00') /* Henbane (773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A900A,   773, 0xB5A90018, 49.77267, 183.9846, 90.52841, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Henbane */

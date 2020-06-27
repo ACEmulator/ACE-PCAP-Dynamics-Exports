@@ -5,17 +5,17 @@ VALUES (0x715B4001,  1154, 0x15B4003A, 175.9629, 42.93633, 18.66357, 0.8849086, 
 /* @teleloc 0x15B4003A [175.962900 42.936330 18.663570] 0.884909 0.000000 0.000000 -0.465765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715B4001, 0x715B4002, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x715B4001, 0x715B4003, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x715B4001, 0x715B4004, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x715B4001, 0x715B4005, '2019-02-10 00:00:00') /* Hea Hunter */
-     , (0x715B4001, 0x715B4006, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x715B4001, 0x715B4007, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x715B4001, 0x715B4008, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x715B4001, 0x715B4009, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x715B4001, 0x715B400A, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x715B4001, 0x715B400B, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x715B4001, 0x715B400C, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x715B4001, 0x715B4002, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x715B4001, 0x715B4003, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B4004, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B4005, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x715B4001, 0x715B4006, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x715B4001, 0x715B4007, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x715B4001, 0x715B4008, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B4009, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B400A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x715B4001, 0x715B400B, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x715B4001, 0x715B400C, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715B4002, 11494, 0x15B4003A, 175.9629, 42.93633, 18.66357, 0.8849086, 0, 0, -0.4657648,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling */

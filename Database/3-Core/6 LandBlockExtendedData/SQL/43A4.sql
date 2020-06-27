@@ -5,14 +5,14 @@ VALUES (0x743A4001,  1154, 0x43A40039, 171.798, 18.08072, 63.76627, 0.4307559, 0
 /* @teleloc 0x43A40039 [171.798000 18.080720 63.766270] 0.430756 0.000000 0.000000 -0.902468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743A4001, 0x743A4002, '2019-02-10 00:00:00') /* Frost */
-     , (0x743A4001, 0x743A4003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x743A4001, 0x743A4004, '2019-02-10 00:00:00') /* Frost */
-     , (0x743A4001, 0x743A4005, '2019-02-10 00:00:00') /* Frost */
-     , (0x743A4001, 0x743A4006, '2019-02-10 00:00:00') /* Frost */
-     , (0x743A4001, 0x743A4007, '2019-02-10 00:00:00') /* Frost */
-     , (0x743A4001, 0x743A4008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x743A4001, 0x743A4009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x743A4001, 0x743A4002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x743A4001, 0x743A4003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x743A4001, 0x743A4004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x743A4001, 0x743A4005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x743A4001, 0x743A4006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x743A4001, 0x743A4007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x743A4001, 0x743A4008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x743A4001, 0x743A4009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743A4002, 14512, 0x43A40039, 171.798, 18.08072, 63.76627, 0.4307559, 0, 0, -0.9024684,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -51,7 +51,7 @@ VALUES (0x743A400A,  1542, 0x43A40039, 185.7131, 19.37737, 69.38044, 0.4307559, 
 /* @teleloc 0x43A40039 [185.713100 19.377370 69.380440] 0.430756 0.000000 0.000000 -0.902468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x743A400A, 0x743A400B, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x743A400A, 0x743A400B, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x743A400B,  8039, 0x43A40039, 185.7131, 19.37737, 69.38044, 0.4307559, 0, 0, -0.9024684,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

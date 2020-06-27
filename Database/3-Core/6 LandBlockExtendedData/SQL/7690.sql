@@ -5,15 +5,15 @@ VALUES (0x77690001,  1154, 0x76900036, 157.9669, 138.8476, 81.73862, 0.2738533, 
 /* @teleloc 0x76900036 [157.966900 138.847600 81.738620] 0.273853 0.000000 0.000000 -0.961772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77690001, 0x77690002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x77690001, 0x77690003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x77690001, 0x77690004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x77690001, 0x77690005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x77690001, 0x77690006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x77690001, 0x77690007, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x77690001, 0x77690008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77690001, 0x77690009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77690001, 0x7769000A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77690001, 0x77690002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x77690001, 0x77690003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x77690001, 0x77690004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x77690001, 0x77690005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x77690001, 0x77690006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x77690001, 0x77690007, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x77690001, 0x77690008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77690001, 0x77690009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77690001, 0x7769000A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77690002,  7979, 0x76900036, 157.9669, 138.8476, 81.73862, 0.2738533, 0, 0, -0.9617715,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

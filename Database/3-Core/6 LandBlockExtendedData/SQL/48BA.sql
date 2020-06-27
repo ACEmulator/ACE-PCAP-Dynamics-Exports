@@ -5,11 +5,11 @@ VALUES (0x748BA001,  1154, 0x48BA0005, 23.40617, 104.5899, 43.80389, 0.9238795, 
 /* @teleloc 0x48BA0005 [23.406170 104.589900 43.803890] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748BA001, 0x748BA002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x748BA001, 0x748BA003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x748BA001, 0x748BA004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x748BA001, 0x748BA005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x748BA001, 0x748BA006, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x748BA001, 0x748BA002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x748BA001, 0x748BA003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x748BA001, 0x748BA004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x748BA001, 0x748BA005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x748BA001, 0x748BA006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748BA002,   201, 0x48BA0005, 23.40617, 104.5899, 43.80389, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -36,8 +36,8 @@ VALUES (0x748BA007,  1542, 0x48BA0010, 26.36029, 175.0222, 53.36217, 1, 0, 0, 0,
 /* @teleloc 0x48BA0010 [26.360290 175.022200 53.362170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748BA007, 0x748BA008, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x748BA007, 0x748BA009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x748BA007, 0x748BA008, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x748BA007, 0x748BA009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748BA008, 22571, 0x48BA0010, 26.36029, 175.0222, 53.36217, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

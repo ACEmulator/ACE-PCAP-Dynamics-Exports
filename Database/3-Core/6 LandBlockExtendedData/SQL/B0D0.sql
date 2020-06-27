@@ -5,15 +5,15 @@ VALUES (0x7B0D0001,  1154, 0xB0D0003C, 170.1495, 92.04269, 58.84868, 0.5, 0, 0, 
 /* @teleloc 0xB0D0003C [170.149500 92.042690 58.848680] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D0001, 0x7B0D0002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B0D0001, 0x7B0D0003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B0D0001, 0x7B0D0004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7B0D0001, 0x7B0D0005, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7B0D0001, 0x7B0D0006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B0D0001, 0x7B0D0007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B0D0001, 0x7B0D0008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B0D0001, 0x7B0D0009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B0D0001, 0x7B0D000A, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7B0D0001, 0x7B0D0002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B0D0001, 0x7B0D0003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B0D0001, 0x7B0D0004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7B0D0001, 0x7B0D0005, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7B0D0001, 0x7B0D0006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B0D0001, 0x7B0D0007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B0D0001, 0x7B0D0008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B0D0001, 0x7B0D0009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B0D0001, 0x7B0D000A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D0002,   199, 0xB0D0003C, 170.1495, 92.04269, 58.84868, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -56,7 +56,7 @@ VALUES (0x7B0D000B,  1542, 0xB0D0001F, 78.4403, 164.9106, 51.40961, -4.371139E-0
 /* @teleloc 0xB0D0001F [78.440300 164.910600 51.409610] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0D000B, 0x7B0D000C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B0D000B, 0x7B0D000C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0D000C,  4380, 0xB0D0001F, 78.4403, 164.9106, 51.40961, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

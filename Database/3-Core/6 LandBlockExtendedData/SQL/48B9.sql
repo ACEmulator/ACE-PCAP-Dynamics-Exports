@@ -5,20 +5,20 @@ VALUES (0x748B9001,  1154, 0x48B90004, 15.21455, 81.41968, 52.60339, 0.7071068, 
 /* @teleloc 0x48B90004 [15.214550 81.419680 52.603390] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748B9001, 0x748B9002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x748B9001, 0x748B9003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x748B9001, 0x748B9004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x748B9001, 0x748B9005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x748B9001, 0x748B9006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x748B9001, 0x748B9007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x748B9001, 0x748B9008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x748B9001, 0x748B9009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x748B9001, 0x748B900A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x748B9001, 0x748B900B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x748B9001, 0x748B900C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x748B9001, 0x748B900D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x748B9001, 0x748B900E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x748B9001, 0x748B900F, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x748B9001, 0x748B9002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x748B9001, 0x748B9003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x748B9001, 0x748B9004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x748B9001, 0x748B9005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x748B9001, 0x748B9006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x748B9001, 0x748B9007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x748B9001, 0x748B9008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x748B9001, 0x748B9009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x748B9001, 0x748B900A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x748B9001, 0x748B900B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x748B9001, 0x748B900C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x748B9001, 0x748B900D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x748B9001, 0x748B900E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x748B9001, 0x748B900F, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748B9002, 24294, 0x48B90004, 15.21455, 81.41968, 52.60339, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -81,8 +81,8 @@ VALUES (0x748B9010,  1542, 0x48B90004, 13.57289, 77.01457, 54.22654, -4.371139E-
 /* @teleloc 0x48B90004 [13.572890 77.014570 54.226540] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748B9010, 0x748B9011, '2019-02-10 00:00:00') /* Bones */
-     , (0x748B9010, 0x748B9012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x748B9010, 0x748B9011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x748B9010, 0x748B9012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748B9011,  4380, 0x48B90004, 13.57289, 77.01457, 54.22654, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

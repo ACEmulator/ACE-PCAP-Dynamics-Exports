@@ -5,10 +5,10 @@ VALUES (0x79ED3001,  1154, 0x9ED3003C, 169.3473, 93.84429, 206.9206, 0.7487853, 
 /* @teleloc 0x9ED3003C [169.347300 93.844290 206.920600] 0.748785 0.000000 0.000000 -0.662813 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ED3001, 0x79ED3002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79ED3001, 0x79ED3003, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x79ED3001, 0x79ED3004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79ED3001, 0x79ED3005, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x79ED3001, 0x79ED3002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79ED3001, 0x79ED3003, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x79ED3001, 0x79ED3004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79ED3001, 0x79ED3005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ED3002,  6041, 0x9ED3003C, 169.3473, 93.84429, 206.9206, 0.7487853, 0, 0, -0.6628126,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

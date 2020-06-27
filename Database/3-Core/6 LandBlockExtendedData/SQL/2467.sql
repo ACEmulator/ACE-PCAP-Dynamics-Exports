@@ -5,11 +5,11 @@ VALUES (0x72467001,  1154, 0x24670028, 101.5492, 187.9761, 64.59205, 0.8751636, 
 /* @teleloc 0x24670028 [101.549200 187.976100 64.592050] 0.875164 0.000000 0.000000 -0.483827 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72467001, 0x72467002, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x72467001, 0x72467003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72467001, 0x72467004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72467001, 0x72467005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72467001, 0x72467006, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x72467001, 0x72467002, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x72467001, 0x72467003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72467001, 0x72467004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72467001, 0x72467005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72467001, 0x72467006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72467002, 12026, 0x24670028, 101.5492, 187.9761, 64.59205, 0.8751636, 0, 0, -0.4838272,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */

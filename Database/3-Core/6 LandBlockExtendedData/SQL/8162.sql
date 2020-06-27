@@ -5,10 +5,10 @@ VALUES (0x78162001,  1154, 0x8162003D, 175.8192, 101.8399, 11.51585, 0.9107846, 
 /* @teleloc 0x8162003D [175.819200 101.839900 11.515850] 0.910785 0.000000 0.000000 -0.412882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78162001, 0x78162002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78162001, 0x78162003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78162001, 0x78162004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x78162001, 0x78162005, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x78162001, 0x78162002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78162001, 0x78162003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78162001, 0x78162004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x78162001, 0x78162005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78162002,  1759, 0x8162003D, 175.8192, 101.8399, 11.51585, 0.9107846, 0, 0, -0.4128819,  True, '2019-02-10 00:00:00'); /* Skeleton */

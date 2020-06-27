@@ -5,9 +5,9 @@ VALUES (0x7EF47001,  1154, 0xEF470002, 21.16693, 46.63081, 28.23376, 0.9009041, 
 /* @teleloc 0xEF470002 [21.166930 46.630810 28.233760] 0.900904 0.000000 0.000000 -0.434018 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF47001, 0x7EF47002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7EF47001, 0x7EF47003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7EF47001, 0x7EF47004, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x7EF47001, 0x7EF47002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7EF47001, 0x7EF47003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7EF47001, 0x7EF47004, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF47002,  1614, 0xEF470002, 21.16693, 46.63081, 28.23376, 0.9009041, 0, 0, -0.4340183,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

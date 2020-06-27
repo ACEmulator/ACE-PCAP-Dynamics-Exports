@@ -141,106 +141,106 @@ VALUES (0x701FB05E,  1154, 0x01FB0241, 141.626, -38.1064, 0.003499985, 0.990869,
 /* @teleloc 0x01FB0241 [141.626000 -38.106400 0.003500] 0.990869 0.000000 0.000000 0.134828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FB05E, 0x701FB05F, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB060, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB061, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB062, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB063, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB064, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB065, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB066, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB067, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB068, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB069, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB06A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB06B, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB06C, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB06D, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB06E, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB06F, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB070, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB071, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB072, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB073, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB074, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB075, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB076, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB077, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB078, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB079, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB07A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB07B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB07C, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB07D, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB07E, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB07F, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB080, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB081, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB082, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB083, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB084, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB085, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB086, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB087, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB088, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB089, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB08A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB08B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB08C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB08D, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB08E, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB08F, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB090, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB091, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB092, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB093, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB094, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB095, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB096, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB097, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB098, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB099, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB09A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB09B, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB09C, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB09D, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB09E, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB09F, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A0, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A1, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A2, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A3, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0A4, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A5, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0A6, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0A7, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0A8, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0A9, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0AA, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0AB, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0AC, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0AD, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0AE, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0AF, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0B0, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0B1, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0B2, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B3, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B4, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B5, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B6, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B7, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0B8, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701FB05E, 0x701FB0B9, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0BA, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0BB, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0BC, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0BD, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x701FB05E, 0x701FB0BE, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0BF, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x701FB05E, 0x701FB0C0, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0C1, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x701FB05E, 0x701FB0C2, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x701FB05E, 0x701FB05F, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB060, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB061, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB062, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB063, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB064, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB065, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB066, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB067, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB068, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB069, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB06A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB06B, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB06C, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB06D, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB06E, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB06F, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB070, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB071, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB072, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB073, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB074, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB075, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB076, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB077, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB078, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB079, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB07A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB07B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB07C, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB07D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB07E, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB07F, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB080, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB081, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB082, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB083, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB084, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB085, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB086, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB087, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB088, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB089, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB08A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB08B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB08C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB08D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB08E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB08F, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB090, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB091, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB092, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB093, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB094, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB095, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB096, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB097, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB098, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB099, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB09A, '2019-02-10 00:00:00') /* Drudge Slave (1410) */
+     , (0x701FB05E, 0x701FB09B, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB09C, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB09D, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB09E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB09F, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A0, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A1, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A2, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A3, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0A4, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A5, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0A6, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0A7, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0A8, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0A9, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0AA, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0AB, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0AC, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0AD, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0AE, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0AF, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0B0, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0B1, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0B2, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B3, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B4, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B5, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B6, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B7, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0B8, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701FB05E, 0x701FB0B9, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0BA, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0BB, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0BC, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0BD, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x701FB05E, 0x701FB0BE, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0BF, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x701FB05E, 0x701FB0C0, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0C1, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x701FB05E, 0x701FB0C2, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FB05F,  1632, 0x01FB0241, 141.626, -38.1064, 0.003499985, 0.990869, 0, 0, 0.134828,  True, '2019-02-10 00:00:00'); /* Drudge Slave */
@@ -647,41 +647,41 @@ VALUES (0x701FB0C3,  1542, 0x01FB0244, 146.1516, 1.482129, 0, -0.618491, 0, 0, -
 /* @teleloc 0x01FB0244 [146.151600 1.482129 0.000000] -0.618491 0.000000 0.000000 -0.785792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FB0C3, 0x701FB0C4, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FB0C3, 0x701FB0C5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FB0C3, 0x701FB0C6, '2019-02-10 00:00:00') /* Grapes */
-     , (0x701FB0C3, 0x701FB0C7, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FB0C3, 0x701FB0C8, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FB0C3, 0x701FB0C9, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0CA, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701FB0C3, 0x701FB0CB, '2019-02-10 00:00:00') /* Egg */
-     , (0x701FB0C3, 0x701FB0CC, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FB0C3, 0x701FB0CD, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0CE, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FB0C3, 0x701FB0CF, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0D0, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FB0C3, 0x701FB0D1, '2019-02-10 00:00:00') /* Grapes */
-     , (0x701FB0C3, 0x701FB0D2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FB0C3, 0x701FB0D3, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FB0C3, 0x701FB0D4, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0D5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FB0C3, 0x701FB0D6, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0D7, '2019-02-10 00:00:00') /* Bread */
-     , (0x701FB0C3, 0x701FB0D8, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701FB0C3, 0x701FB0D9, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0DA, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701FB0C3, 0x701FB0DB, '2019-02-10 00:00:00') /* Scroll of Focus Self III */
-     , (0x701FB0C3, 0x701FB0DC, '2019-02-10 00:00:00') /* Gem */
-     , (0x701FB0C3, 0x701FB0DD, '2019-02-10 00:00:00') /* Amulet */
-     , (0x701FB0C3, 0x701FB0DE, '2019-02-10 00:00:00') /* Fish */
-     , (0x701FB0C3, 0x701FB0DF, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701FB0C3, 0x701FB0E0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x701FB0C3, 0x701FB0E1, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0E2, '2019-02-10 00:00:00') /* Armet */
-     , (0x701FB0C3, 0x701FB0E3, '2019-02-10 00:00:00') /* Scroll of War Magic Mastery Other IV */
-     , (0x701FB0C3, 0x701FB0E4, '2019-02-10 00:00:00') /* Health Tincture */
-     , (0x701FB0C3, 0x701FB0E5, '2019-02-10 00:00:00') /* Apple */
-     , (0x701FB0C3, 0x701FB0E6, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x701FB0C3, 0x701FB0C4, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FB0C3, 0x701FB0C5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FB0C3, 0x701FB0C6, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701FB0C3, 0x701FB0C7, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FB0C3, 0x701FB0C8, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FB0C3, 0x701FB0C9, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0CA, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701FB0C3, 0x701FB0CB, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701FB0C3, 0x701FB0CC, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FB0C3, 0x701FB0CD, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0CE, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FB0C3, 0x701FB0CF, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0D0, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FB0C3, 0x701FB0D1, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701FB0C3, 0x701FB0D2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FB0C3, 0x701FB0D3, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FB0C3, 0x701FB0D4, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0D5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FB0C3, 0x701FB0D6, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0D7, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701FB0C3, 0x701FB0D8, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701FB0C3, 0x701FB0D9, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0DA, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701FB0C3, 0x701FB0DB, '2019-02-10 00:00:00') /* Scroll of Focus Self III (1783) */
+     , (0x701FB0C3, 0x701FB0DC, '2019-02-10 00:00:00') /* Gem (2418) */
+     , (0x701FB0C3, 0x701FB0DD, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x701FB0C3, 0x701FB0DE, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701FB0C3, 0x701FB0DF, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701FB0C3, 0x701FB0E0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x701FB0C3, 0x701FB0E1, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0E2, '2019-02-10 00:00:00') /* Armet (8488) */
+     , (0x701FB0C3, 0x701FB0E3, '2019-02-10 00:00:00') /* Scroll of War Magic Mastery Other IV (3570) */
+     , (0x701FB0C3, 0x701FB0E4, '2019-02-10 00:00:00') /* Health Tincture (27319) */
+     , (0x701FB0C3, 0x701FB0E5, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701FB0C3, 0x701FB0E6, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FB0C4,   263, 0x01FB0244, 146.1516, 1.482129, 0, -0.618491, 0, 0, -0.785792,  True, '2019-02-10 00:00:00'); /* Fish */

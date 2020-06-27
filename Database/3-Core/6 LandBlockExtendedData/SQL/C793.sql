@@ -1517,8 +1517,8 @@ VALUES (0x7C79317A,  1154, 0xC7930003, 1.683456, 57.715, 1.55765, 0.9781331, 0, 
 /* @teleloc 0xC7930003 [1.683456 57.715000 1.557650] 0.978133 0.000000 0.000000 -0.207980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C79317A, 0x7C79317B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C79317A, 0x7C79317C, '2019-02-10 00:00:00') /* Parfal Niffis */;
+VALUES (0x7C79317A, 0x7C79317B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C79317A, 0x7C79317C, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C79317B,   182, 0xC7930003, 1.683456, 57.715, 1.55765, 0.9781331, 0, 0, -0.2079797,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

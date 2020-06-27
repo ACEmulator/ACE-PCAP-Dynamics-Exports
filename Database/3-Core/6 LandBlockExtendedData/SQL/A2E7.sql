@@ -5,27 +5,27 @@ VALUES (0x7A2E7001,  1154, 0xA2E70037, 148.0121, 146.6268, 84.88155, -0.7946011,
 /* @teleloc 0xA2E70037 [148.012100 146.626800 84.881550] -0.794601 0.000000 0.000000 -0.607132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E7001, 0x7A2E7002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A2E7001, 0x7A2E7003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E7001, 0x7A2E7004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E7001, 0x7A2E7005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A2E7001, 0x7A2E7006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A2E7001, 0x7A2E7007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A2E7001, 0x7A2E7008, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7A2E7001, 0x7A2E7009, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A2E7001, 0x7A2E700A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A2E7001, 0x7A2E700B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A2E7001, 0x7A2E700C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A2E7001, 0x7A2E700D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A2E7001, 0x7A2E700E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A2E7001, 0x7A2E700F, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A2E7001, 0x7A2E7010, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A2E7001, 0x7A2E7011, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A2E7001, 0x7A2E7012, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A2E7001, 0x7A2E7013, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A2E7001, 0x7A2E7014, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A2E7001, 0x7A2E7015, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A2E7001, 0x7A2E7016, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7A2E7001, 0x7A2E7002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A2E7001, 0x7A2E7003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E7001, 0x7A2E7004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E7001, 0x7A2E7005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A2E7001, 0x7A2E7006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A2E7001, 0x7A2E7007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A2E7001, 0x7A2E7008, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7A2E7001, 0x7A2E7009, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A2E7001, 0x7A2E700A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A2E7001, 0x7A2E700B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A2E7001, 0x7A2E700C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A2E7001, 0x7A2E700D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A2E7001, 0x7A2E700E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A2E7001, 0x7A2E700F, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A2E7001, 0x7A2E7010, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A2E7001, 0x7A2E7011, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A2E7001, 0x7A2E7012, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A2E7001, 0x7A2E7013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A2E7001, 0x7A2E7014, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A2E7001, 0x7A2E7015, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A2E7001, 0x7A2E7016, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E7002, 28551, 0xA2E70037, 148.0121, 146.6268, 84.88155, -0.7946011, 0, 0, -0.6071318,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -116,7 +116,7 @@ VALUES (0x7A2E7017,  1542, 0xA2E7002F, 129.2619, 161.7708, 91.16541, -0.7946011,
 /* @teleloc 0xA2E7002F [129.261900 161.770800 91.165410] -0.794601 0.000000 0.000000 -0.607132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E7017, 0x7A2E7018, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A2E7017, 0x7A2E7018, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E7018,  8646, 0xA2E7002F, 129.2619, 161.7708, 91.16541, -0.7946011, 0, 0, -0.6071318,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

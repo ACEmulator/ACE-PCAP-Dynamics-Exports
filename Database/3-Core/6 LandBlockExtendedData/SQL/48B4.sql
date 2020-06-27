@@ -5,12 +5,12 @@ VALUES (0x748B4001,  1154, 0x48B40016, 66.52292, 132.2931, 240.0026, -0.05702802
 /* @teleloc 0x48B40016 [66.522920 132.293100 240.002600] -0.057028 0.000000 0.000000 -0.998373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748B4001, 0x748B4002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x748B4001, 0x748B4003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x748B4001, 0x748B4004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x748B4001, 0x748B4005, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x748B4001, 0x748B4006, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x748B4001, 0x748B4007, '2019-02-10 00:00:00') /* Acolyte of Wind */;
+VALUES (0x748B4001, 0x748B4002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x748B4001, 0x748B4003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x748B4001, 0x748B4004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x748B4001, 0x748B4005, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x748B4001, 0x748B4006, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x748B4001, 0x748B4007, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748B4002,  7994, 0x48B40016, 66.52292, 132.2931, 240.0026, -0.05702802, 0, 0, -0.9983726,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

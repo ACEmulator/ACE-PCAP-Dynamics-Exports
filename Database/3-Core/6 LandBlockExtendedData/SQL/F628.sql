@@ -5,23 +5,23 @@ VALUES (0x7F628001,  1154, 0xF6280008, 6.72363, 179.509, 22.0025, 0.252638, 0, 0
 /* @teleloc 0xF6280008 [6.723630 179.509000 22.002500] 0.252638 0.000000 0.000000 0.967561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F628001, 0x7F628002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F628005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7F628001, 0x7F628006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7F628001, 0x7F628009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F628001, 0x7F62800A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F62800B, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F628001, 0x7F62800C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F62800D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F62800E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F62800F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F628001, 0x7F628010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F628011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F628001, 0x7F628012, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x7F628001, 0x7F628002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F628005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7F628001, 0x7F628006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7F628001, 0x7F628009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F628001, 0x7F62800A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F62800B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F628001, 0x7F62800C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F62800D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F62800E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F62800F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F628001, 0x7F628010, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F628011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F628001, 0x7F628012, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F628002,  7334, 0xF6280008, 6.72363, 179.509, 22.0025, 0.252638, 0, 0, 0.9675609,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -96,8 +96,8 @@ VALUES (0x7F628013,  1542, 0xF628003F, 187.0584, 160.4045, 0.1, 0.9990482, 0, 0,
 /* @teleloc 0xF628003F [187.058400 160.404500 0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F628013, 0x7F628014, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7F628013, 0x7F628015, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7F628013, 0x7F628014, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7F628013, 0x7F628015, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F628014,  6117, 0xF628003F, 187.0584, 160.4045, 0.1, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

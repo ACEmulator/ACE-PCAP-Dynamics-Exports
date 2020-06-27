@@ -5,12 +5,12 @@ VALUES (0x7669B001,  1154, 0x669B003B, 179.2749, 64.02435, 61.85799, -0.9997491,
 /* @teleloc 0x669B003B [179.274900 64.024350 61.857990] -0.999749 0.000000 0.000000 -0.022397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7669B001, 0x7669B002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7669B001, 0x7669B003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7669B001, 0x7669B004, '2019-02-10 00:00:00') /* Banished Drudge */
-     , (0x7669B001, 0x7669B005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7669B001, 0x7669B006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7669B001, 0x7669B007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7669B001, 0x7669B002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7669B001, 0x7669B003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7669B001, 0x7669B004, '2019-02-10 00:00:00') /* Banished Drudge (30899) */
+     , (0x7669B001, 0x7669B005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7669B001, 0x7669B006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7669B001, 0x7669B007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7669B002,   227, 0x669B003B, 179.2749, 64.02435, 61.85799, -0.9997491, 0, 0, -0.02239723,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

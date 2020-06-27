@@ -5,15 +5,15 @@ VALUES (0x727E6001,  1154, 0x27E60029, 139.0314, 18.54095, 0.00999999, 0.4272564
 /* @teleloc 0x27E60029 [139.031400 18.540950 0.010000] 0.427256 0.000000 0.000000 -0.904131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727E6001, 0x727E6002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x727E6001, 0x727E6003, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x727E6001, 0x727E6004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x727E6001, 0x727E6005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x727E6001, 0x727E6006, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x727E6001, 0x727E6007, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x727E6001, 0x727E6008, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x727E6001, 0x727E6009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x727E6001, 0x727E600A, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x727E6001, 0x727E6002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x727E6001, 0x727E6003, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x727E6001, 0x727E6004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x727E6001, 0x727E6005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x727E6001, 0x727E6006, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x727E6001, 0x727E6007, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x727E6001, 0x727E6008, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x727E6001, 0x727E6009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x727E6001, 0x727E600A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727E6002,  7507, 0x27E60029, 139.0314, 18.54095, 0.00999999, 0.4272564, 0, 0, -0.9041305,  True, '2019-02-10 00:00:00'); /* Coral Golem */

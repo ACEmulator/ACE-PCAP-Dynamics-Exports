@@ -5,12 +5,12 @@ VALUES (0x78278001,  1154, 0x8278001C, 79.68737, 95.95628, 13.28573, 0.9804759, 
 /* @teleloc 0x8278001C [79.687370 95.956280 13.285730] 0.980476 0.000000 0.000000 -0.196639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78278001, 0x78278002, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x78278001, 0x78278003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78278001, 0x78278004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78278001, 0x78278005, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78278001, 0x78278006, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78278001, 0x78278007, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x78278001, 0x78278002, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x78278001, 0x78278003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78278001, 0x78278004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78278001, 0x78278005, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78278001, 0x78278006, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78278001, 0x78278007, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78278002,  1611, 0x8278001C, 79.68737, 95.95628, 13.28573, 0.9804759, 0, 0, -0.1966394,  True, '2019-02-10 00:00:00'); /* Rust Gromnie */
@@ -41,7 +41,7 @@ VALUES (0x78278008,  1542, 0x8278000C, 41.54728, 79.36499, 11.34, 1, 0, 0, 0, Fa
 /* @teleloc 0x8278000C [41.547280 79.364990 11.340000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78278008, 0x78278009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x78278008, 0x78278009, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78278009,  4381, 0x8278000C, 41.54728, 79.36499, 11.34, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

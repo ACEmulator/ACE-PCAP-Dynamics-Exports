@@ -5,22 +5,22 @@ VALUES (0x7295A001,  1154, 0x295A0006, 12.72262, 129.1463, 0.006500006, 0.923879
 /* @teleloc 0x295A0006 [12.722620 129.146300 0.006500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7295A001, 0x7295A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7295A001, 0x7295A003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7295A001, 0x7295A004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7295A001, 0x7295A005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7295A001, 0x7295A006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7295A001, 0x7295A007, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7295A001, 0x7295A008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7295A001, 0x7295A009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7295A001, 0x7295A00A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7295A001, 0x7295A00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7295A001, 0x7295A00C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7295A001, 0x7295A00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7295A001, 0x7295A00E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7295A001, 0x7295A00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7295A001, 0x7295A010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7295A001, 0x7295A011, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7295A001, 0x7295A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7295A001, 0x7295A003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7295A001, 0x7295A004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7295A001, 0x7295A005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7295A001, 0x7295A006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7295A001, 0x7295A007, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7295A001, 0x7295A008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7295A001, 0x7295A009, '2019-02-10 00:00:00') /* Augmented Drudge (10775) */
+     , (0x7295A001, 0x7295A00A, '2019-02-10 00:00:00') /* Augmented Tumerok (10808) */
+     , (0x7295A001, 0x7295A00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7295A001, 0x7295A00C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7295A001, 0x7295A00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7295A001, 0x7295A00E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7295A001, 0x7295A00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7295A001, 0x7295A010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7295A001, 0x7295A011, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295A002,  7119, 0x295A0006, 12.72262, 129.1463, 0.006500006, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -91,8 +91,8 @@ VALUES (0x7295A012,  1542, 0x295A000B, 33.72588, 66.6804, 10.93905, -0.1736482, 
 /* @teleloc 0x295A000B [33.725880 66.680400 10.939050] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7295A012, 0x7295A013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7295A012, 0x7295A014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7295A012, 0x7295A013, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7295A012, 0x7295A014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295A013,  4180, 0x295A000B, 33.72588, 66.6804, 10.93905, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

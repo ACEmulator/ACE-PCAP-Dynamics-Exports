@@ -5,10 +5,10 @@ VALUES (0x7961D001,  1154, 0x961D0003, 2.550123, 53.55145, 279.2249, 1, 0, 0, 0,
 /* @teleloc 0x961D0003 [2.550123 53.551450 279.224900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7961D001, 0x7961D002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7961D001, 0x7961D003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7961D001, 0x7961D004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7961D001, 0x7961D005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7961D001, 0x7961D002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7961D001, 0x7961D003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7961D001, 0x7961D004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7961D001, 0x7961D005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7961D002,  7107, 0x961D0003, 2.550123, 53.55145, 279.2249, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

@@ -5,10 +5,10 @@ VALUES (0x742DA001,  1154, 0x42DA0007, 16.04815, 145.4096, 44.35991, 0.1785335, 
 /* @teleloc 0x42DA0007 [16.048150 145.409600 44.359910] 0.178534 0.000000 0.000000 -0.983934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DA001, 0x742DA002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x742DA001, 0x742DA003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x742DA001, 0x742DA004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x742DA001, 0x742DA005, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x742DA001, 0x742DA002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x742DA001, 0x742DA003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x742DA001, 0x742DA004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x742DA001, 0x742DA005, '2019-02-10 00:00:00') /* Great Skeleton (7122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DA002, 24326, 0x42DA0007, 16.04815, 145.4096, 44.35991, 0.1785335, 0, 0, -0.9839339,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -31,7 +31,7 @@ VALUES (0x742DA006,  1542, 0x42DA002F, 132.3597, 146.9387, 32.42983, 0.6163325, 
 /* @teleloc 0x42DA002F [132.359700 146.938700 32.429830] 0.616333 0.000000 0.000000 -0.787486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DA006, 0x742DA007, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x742DA006, 0x742DA007, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DA007, 11555, 0x42DA002F, 132.3597, 146.9387, 32.42983, 0.6163325, 0, 0, -0.787486,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

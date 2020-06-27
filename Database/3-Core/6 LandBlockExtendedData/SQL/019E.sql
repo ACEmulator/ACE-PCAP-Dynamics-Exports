@@ -41,32 +41,32 @@ VALUES (0x7019E03E,  1154, 0x019E011E, 20.7618, -32.6755, 0.003499985, -0.991415
 /* @teleloc 0x019E011E [20.761800 -32.675500 0.003500] -0.991415 0.000000 0.000000 -0.130753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019E03E, 0x7019E03F, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E040, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E041, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E042, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E043, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7019E03E, 0x7019E044, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E045, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E046, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E047, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E048, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E049, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04A, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04B, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04C, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04D, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04E, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E04F, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E050, '2019-02-10 00:00:00') /* Drudge Robber Baron */
-     , (0x7019E03E, 0x7019E051, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E052, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E053, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7019E03E, 0x7019E054, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E055, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E056, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E057, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7019E03E, 0x7019E058, '2019-02-10 00:00:00') /* Drudge Robber */;
+VALUES (0x7019E03E, 0x7019E03F, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E040, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E041, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E042, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E043, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7019E03E, 0x7019E044, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E045, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E046, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E047, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E048, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E049, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04A, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04B, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04C, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04D, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04E, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E04F, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E050, '2019-02-10 00:00:00') /* Drudge Robber Baron (30490) */
+     , (0x7019E03E, 0x7019E051, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E052, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E053, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7019E03E, 0x7019E054, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E055, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E056, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E057, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7019E03E, 0x7019E058, '2019-02-10 00:00:00') /* Drudge Robber (1464) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019E03F,  1464, 0x019E011E, 20.7618, -32.6755, 0.003499985, -0.991415, 0, 0, -0.130753,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -177,12 +177,12 @@ VALUES (0x7019E059,  1542, 0x019E011E, 23.1997, -33.3185, -0.004999995, -0.21218
 /* @teleloc 0x019E011E [23.199700 -33.318500 -0.005000] -0.212183 0.000000 0.000000 0.977230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019E059, 0x7019E05A, '2019-02-10 00:00:00') /* Bag of Rye Seed */
-     , (0x7019E059, 0x7019E05B, '2019-02-10 00:00:00') /* Bag of Wheat Seed */
-     , (0x7019E059, 0x7019E05C, '2019-02-10 00:00:00') /* Bag of Corn Seed */
-     , (0x7019E059, 0x7019E05D, '2019-02-10 00:00:00') /* Round Shield */
-     , (0x7019E059, 0x7019E05E, '2019-02-10 00:00:00') /* Round Shield */
-     , (0x7019E059, 0x7019E05F, '2019-02-10 00:00:00') /* Large Kite Shield */;
+VALUES (0x7019E059, 0x7019E05A, '2019-02-10 00:00:00') /* Bag of Rye Seed (30488) */
+     , (0x7019E059, 0x7019E05B, '2019-02-10 00:00:00') /* Bag of Wheat Seed (30489) */
+     , (0x7019E059, 0x7019E05C, '2019-02-10 00:00:00') /* Bag of Corn Seed (30487) */
+     , (0x7019E059, 0x7019E05D, '2019-02-10 00:00:00') /* Round Shield (93) */
+     , (0x7019E059, 0x7019E05E, '2019-02-10 00:00:00') /* Round Shield (93) */
+     , (0x7019E059, 0x7019E05F, '2019-02-10 00:00:00') /* Large Kite Shield (92) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019E05A, 30488, 0x019E011E, 23.1997, -33.3185, -0.004999995, -0.212183, 0, 0, 0.97723,  True, '2019-02-10 00:00:00'); /* Bag of Rye Seed */

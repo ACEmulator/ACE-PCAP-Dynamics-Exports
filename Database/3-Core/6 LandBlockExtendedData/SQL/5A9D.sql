@@ -5,21 +5,21 @@ VALUES (0x75A9D001,  1154, 0x5A9D0036, 160.1446, 134.7812, 7.542974, -0.9946405,
 /* @teleloc 0x5A9D0036 [160.144600 134.781200 7.542974] -0.994641 0.000000 0.000000 -0.103394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9D001, 0x75A9D002, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75A9D001, 0x75A9D003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x75A9D001, 0x75A9D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75A9D001, 0x75A9D005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75A9D001, 0x75A9D006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75A9D001, 0x75A9D007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75A9D001, 0x75A9D008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75A9D001, 0x75A9D009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75A9D001, 0x75A9D00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75A9D001, 0x75A9D00B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75A9D001, 0x75A9D00C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75A9D001, 0x75A9D00D, '2019-02-10 00:00:00') /* Ember */
-     , (0x75A9D001, 0x75A9D00E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A9D001, 0x75A9D00F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75A9D001, 0x75A9D010, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x75A9D001, 0x75A9D002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75A9D001, 0x75A9D003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x75A9D001, 0x75A9D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75A9D001, 0x75A9D005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75A9D001, 0x75A9D006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75A9D001, 0x75A9D007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75A9D001, 0x75A9D008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75A9D001, 0x75A9D009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75A9D001, 0x75A9D00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75A9D001, 0x75A9D00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75A9D001, 0x75A9D00C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75A9D001, 0x75A9D00D, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75A9D001, 0x75A9D00E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A9D001, 0x75A9D00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75A9D001, 0x75A9D010, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9D002,   230, 0x5A9D0036, 160.1446, 134.7812, 7.542974, -0.9946405, 0, 0, -0.1033943,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
@@ -86,9 +86,9 @@ VALUES (0x75A9D011,  1542, 0x5A9D0009, 43.48271, 13.15228, 17.09602, -0.3649701,
 /* @teleloc 0x5A9D0009 [43.482710 13.152280 17.096020] -0.364970 0.000000 0.000000 -0.931019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9D011, 0x75A9D012, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x75A9D011, 0x75A9D013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x75A9D011, 0x75A9D014, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75A9D011, 0x75A9D012, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x75A9D011, 0x75A9D013, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x75A9D011, 0x75A9D014, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9D012,  8039, 0x5A9D0009, 43.48271, 13.15228, 17.09602, -0.3649701, 0, 0, -0.9310192,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

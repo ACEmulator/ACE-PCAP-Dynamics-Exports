@@ -5,16 +5,16 @@ VALUES (0x73E54001,  1154, 0x3E540008, 14.01191, 180.3379, 40.0025, 0.7071068, 0
 /* @teleloc 0x3E540008 [14.011910 180.337900 40.002500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E54001, 0x73E54002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73E54001, 0x73E54003, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73E54001, 0x73E54004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73E54001, 0x73E54005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73E54001, 0x73E54006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73E54001, 0x73E54007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73E54001, 0x73E54008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73E54001, 0x73E54009, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73E54001, 0x73E5400A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E54001, 0x73E5400B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73E54001, 0x73E54002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73E54001, 0x73E54003, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73E54001, 0x73E54004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73E54001, 0x73E54005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73E54001, 0x73E54006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73E54001, 0x73E54007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73E54001, 0x73E54008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73E54001, 0x73E54009, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x73E54001, 0x73E5400A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E54001, 0x73E5400B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E54002, 36855, 0x3E540008, 14.01191, 180.3379, 40.0025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -61,8 +61,8 @@ VALUES (0x73E5400C,  1542, 0x3E540008, 16.809, 184.1163, 40, -4.371139E-08, 0, 0
 /* @teleloc 0x3E540008 [16.809000 184.116300 40.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E5400C, 0x73E5400D, '2019-02-10 00:00:00') /* Bones */
-     , (0x73E5400C, 0x73E5400E, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73E5400C, 0x73E5400D, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73E5400C, 0x73E5400E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E5400D,  4380, 0x3E540008, 16.809, 184.1163, 40, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

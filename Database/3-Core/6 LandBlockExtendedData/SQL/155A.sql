@@ -5,20 +5,20 @@ VALUES (0x7155A001,  1154, 0x155A000D, 30.39074, 111.9042, 82.00715, 0.993587, 0
 /* @teleloc 0x155A000D [30.390740 111.904200 82.007150] 0.993587 0.000000 0.000000 -0.113070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7155A001, 0x7155A002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7155A001, 0x7155A003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A004, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A005, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x7155A001, 0x7155A006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A008, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A009, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A00A, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7155A001, 0x7155A00B, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7155A001, 0x7155A00C, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7155A001, 0x7155A00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7155A001, 0x7155A00E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7155A001, 0x7155A00F, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7155A001, 0x7155A002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7155A001, 0x7155A003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A004, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A005, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x7155A001, 0x7155A006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A008, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A009, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A00A, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7155A001, 0x7155A00B, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7155A001, 0x7155A00C, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7155A001, 0x7155A00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7155A001, 0x7155A00E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7155A001, 0x7155A00F, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7155A002, 36819, 0x155A000D, 30.39074, 111.9042, 82.00715, 0.993587, 0, 0, -0.1130698,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -81,7 +81,7 @@ VALUES (0x7155A010,  1542, 0x155A000F, 43.99698, 153.6829, 82, -4.371139E-08, 0,
 /* @teleloc 0x155A000F [43.996980 153.682900 82.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7155A010, 0x7155A011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7155A010, 0x7155A011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7155A011,  4380, 0x155A000F, 43.99698, 153.6829, 82, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

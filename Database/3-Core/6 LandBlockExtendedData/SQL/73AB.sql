@@ -5,9 +5,9 @@ VALUES (0x773AB001,  1154, 0x73AB0011, 69.50526, 13.53057, 48.21779, -0.3300765,
 /* @teleloc 0x73AB0011 [69.505260 13.530570 48.217790] -0.330077 0.000000 0.000000 -0.943954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773AB001, 0x773AB002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773AB001, 0x773AB003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773AB001, 0x773AB004, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x773AB001, 0x773AB002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773AB001, 0x773AB003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773AB001, 0x773AB004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773AB002, 22520, 0x73AB0011, 69.50526, 13.53057, 48.21779, -0.3300765, 0, 0, -0.9439542,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

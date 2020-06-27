@@ -5,12 +5,12 @@ VALUES (0x78463001,  1154, 0x84630036, 145.3662, 135.4784, 13.87509, 0.7071068, 
 /* @teleloc 0x84630036 [145.366200 135.478400 13.875090] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78463001, 0x78463002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78463001, 0x78463003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78463001, 0x78463004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x78463001, 0x78463005, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x78463001, 0x78463006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x78463001, 0x78463007, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x78463001, 0x78463002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78463001, 0x78463003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78463001, 0x78463004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x78463001, 0x78463005, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x78463001, 0x78463006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x78463001, 0x78463007, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78463002,  2439, 0x84630036, 145.3662, 135.4784, 13.87509, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -41,8 +41,8 @@ VALUES (0x78463008,  1542, 0x84630036, 153.0672, 137.4747, 14.1082, 0.9990482, 0
 /* @teleloc 0x84630036 [153.067200 137.474700 14.108200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78463008, 0x78463009, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x78463008, 0x7846300A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78463008, 0x78463009, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x78463008, 0x7846300A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78463009,  6118, 0x84630036, 153.0672, 137.4747, 14.1082, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

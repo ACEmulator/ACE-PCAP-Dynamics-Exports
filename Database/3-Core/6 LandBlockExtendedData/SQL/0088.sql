@@ -49,103 +49,103 @@ VALUES (0x70088072,  1154, 0x00880366, 50.63224, -44.32963, -6, -0.9946303, 0, 0
 /* @teleloc 0x00880366 [50.632240 -44.329630 -6.000000] -0.994630 0.000000 0.000000 -0.103492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70088072, 0x70088073, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088074, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088075, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088076, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x70088077, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x70088078, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x70088079, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x7008807A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x7008807B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x7008807C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x7008807D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x7008807E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x7008807F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088080, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088081, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x70088082, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088083, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088084, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088085, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088086, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x70088087, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x70088088, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x70088089, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x7008808A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x7008808B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x7008808C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x7008808D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x7008808E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x7008808F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088090, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088091, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088092, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088093, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088094, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x70088095, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x70088096, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088097, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088098, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x70088099, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x7008809A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x7008809B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x7008809C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x7008809D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x7008809E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x7008809F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880A9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880AA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880AB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880AC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x700880AD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x700880AE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x700880AF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x700880B0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x70088072, 0x700880B1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x700880B2, '2019-02-10 00:00:00') /* Sealed Olthoi Passage */
-     , (0x70088072, 0x700880B3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x700880B4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x70088072, 0x700880B5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Nymph */
-     , (0x70088072, 0x700880B6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Nymph */
-     , (0x70088072, 0x700880B7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880B8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880B9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880BA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880BB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880BC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880BD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880BE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880BF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880C1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880C8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880C9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880CA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880CB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880CC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880CD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880CE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880CF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x70088072, 0x700880D0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x70088072, 0x700880D1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880D2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x70088072, 0x700880D3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */;
+VALUES (0x70088072, 0x70088073, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088074, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088075, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088076, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x70088077, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x70088078, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x70088079, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x7008807A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x7008807B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x7008807C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x7008807D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x7008807E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x7008807F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088080, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088081, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x70088082, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088083, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088084, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088085, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088086, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x70088087, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x70088088, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x70088089, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x7008808A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x7008808B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x7008808C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x7008808D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x7008808E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x7008808F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088090, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088091, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088092, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088093, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088094, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x70088095, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x70088096, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088097, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088098, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x70088099, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x7008809A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x7008809B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x7008809C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x7008809D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x7008809E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x7008809F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880A9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880AA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880AB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880AC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x700880AD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x700880AE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x700880AF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x700880B0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x70088072, 0x700880B1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x700880B2, '2019-02-10 00:00:00') /* Sealed Olthoi Passage (35827) */
+     , (0x70088072, 0x700880B3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x700880B4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x70088072, 0x700880B5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Nymph (35813) */
+     , (0x70088072, 0x700880B6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Nymph (35813) */
+     , (0x70088072, 0x700880B7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880B8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880B9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880BA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880BB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880BC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880BD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880BE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880BF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880C1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C4, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C5, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880C8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880C9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880CA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880CB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880CC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880CD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880CE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880CF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x70088072, 0x700880D0, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x70088072, 0x700880D1, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880D2, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x70088072, 0x700880D3, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70088073, 35735, 0x00880366, 50.63224, -44.32963, -6, -0.9946303, 0, 0, -0.1034915,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */
@@ -540,21 +540,21 @@ VALUES (0x700880D4,  1542, 0x00880369, 49.893, -44.58605, -5.976, 0.2402567, 0, 
 /* @teleloc 0x00880369 [49.893000 -44.586050 -5.976000] 0.240257 0.000000 0.000000 -0.970709 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700880D4, 0x700880D5, '2019-02-10 00:00:00') /* Durable Legendary Key */
-     , (0x700880D4, 0x700880D6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880D7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880D8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880D9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880DF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg */
-     , (0x700880D4, 0x700880E0, '2019-02-10 00:00:00') /* Chiran Helm */
-     , (0x700880D4, 0x700880E1, '2019-02-10 00:00:00') /* Slippers */
-     , (0x700880D4, 0x700880E2, '2019-02-10 00:00:00') /* Lyceum Hood */
-     , (0x700880D4, 0x700880E3, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700880D4, 0x700880D5, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
+     , (0x700880D4, 0x700880D6, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880D7, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880D8, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880D9, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DA, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DB, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DC, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DD, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DE, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880DF, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Egg (35814) */
+     , (0x700880D4, 0x700880E0, '2019-02-10 00:00:00') /* Chiran Helm (27217) */
+     , (0x700880D4, 0x700880E1, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x700880D4, 0x700880E2, '2019-02-10 00:00:00') /* Lyceum Hood (44977) */
+     , (0x700880D4, 0x700880E3, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700880D5, 51954, 0x00880369, 49.893, -44.58605, -5.976, 0.2402567, 0, 0, -0.9707094,  True, '2019-02-10 00:00:00'); /* Durable Legendary Key */

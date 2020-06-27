@@ -5,27 +5,27 @@ VALUES (0x71452001,  1154, 0x1452003C, 190.4939, 72.07479, 38.1363, -0.6657358, 
 /* @teleloc 0x1452003C [190.493900 72.074790 38.136300] -0.665736 0.000000 0.000000 -0.746188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71452001, 0x71452002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x71452003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x71452004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71452001, 0x71452005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x71452006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71452001, 0x71452007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x71452008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x71452009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x7145200A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x7145200B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71452001, 0x7145200C, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x7145200D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71452001, 0x7145200E, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71452001, 0x7145200F, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71452001, 0x71452010, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71452001, 0x71452011, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x71452012, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71452001, 0x71452013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x71452014, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71452001, 0x71452015, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71452001, 0x71452016, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x71452001, 0x71452002, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x71452003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x71452004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71452001, 0x71452005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x71452006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71452001, 0x71452007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x71452008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x71452009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x7145200A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x7145200B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71452001, 0x7145200C, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x7145200D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71452001, 0x7145200E, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71452001, 0x7145200F, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71452001, 0x71452010, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71452001, 0x71452011, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x71452012, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71452001, 0x71452013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x71452014, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71452001, 0x71452015, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71452001, 0x71452016, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71452002, 36823, 0x1452003C, 190.4939, 72.07479, 38.1363, -0.6657358, 0, 0, -0.7461875,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
@@ -116,8 +116,8 @@ VALUES (0x71452017,  1542, 0x1452003A, 171.5696, 44.23486, 40, 0.9990482, 0, 0, 
 /* @teleloc 0x1452003A [171.569600 44.234860 40.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71452017, 0x71452018, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x71452017, 0x71452019, '2019-02-10 00:00:00') /* Sturdy Steel Chest */;
+VALUES (0x71452017, 0x71452018, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x71452017, 0x71452019, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71452018, 24476, 0x1452003A, 171.5696, 44.23486, 40, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Sturdy Steel Chest */

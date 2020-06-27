@@ -13,15 +13,15 @@ VALUES (0x7C78C002,  1154, 0xC78C0014, 48.97042, 82.38538, 22.005, 0.9560818, 0,
 /* @teleloc 0xC78C0014 [48.970420 82.385380 22.005000] 0.956082 0.000000 0.000000 -0.293100 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C78C002, 0x7C78C003, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C004, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C005, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C006, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C007, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C008, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C009, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C00A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C78C002, 0x7C78C00B, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7C78C002, 0x7C78C003, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C004, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C005, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C006, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C007, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C008, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C009, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C00A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x7C78C002, 0x7C78C00B, '2019-02-10 00:00:00') /* Town Crier (5772) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C78C003,  5772, 0xC78C0014, 48.97042, 82.38538, 22.005, 0.9560818, 0, 0, -0.2930999,  True, '2019-02-10 00:00:00'); /* Town Crier */

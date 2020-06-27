@@ -5,20 +5,20 @@ VALUES (0x72FE7001,  1154, 0x2FE70008, 22.79422, 181.2234, 28.10048, -0.5080931,
 /* @teleloc 0x2FE70008 [22.794220 181.223400 28.100480] -0.508093 0.000000 0.000000 -0.861302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72FE7001, 0x72FE7002, '2019-02-10 00:00:00') /* Eater */
-     , (0x72FE7001, 0x72FE7003, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72FE7001, 0x72FE7004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72FE7001, 0x72FE7005, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72FE7001, 0x72FE7006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72FE7001, 0x72FE7007, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72FE7001, 0x72FE7008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72FE7001, 0x72FE7009, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72FE7001, 0x72FE700A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72FE7001, 0x72FE700B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72FE7001, 0x72FE700C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72FE7001, 0x72FE700D, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72FE7001, 0x72FE700E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72FE7001, 0x72FE700F, '2019-02-10 00:00:00') /* Spiked Grievver */;
+VALUES (0x72FE7001, 0x72FE7002, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72FE7001, 0x72FE7003, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72FE7001, 0x72FE7004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72FE7001, 0x72FE7005, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72FE7001, 0x72FE7006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72FE7001, 0x72FE7007, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72FE7001, 0x72FE7008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72FE7001, 0x72FE7009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72FE7001, 0x72FE700A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72FE7001, 0x72FE700B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72FE7001, 0x72FE700C, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72FE7001, 0x72FE700D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72FE7001, 0x72FE700E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72FE7001, 0x72FE700F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72FE7002, 28640, 0x2FE70008, 22.79422, 181.2234, 28.10048, -0.5080931, 0, 0, -0.8613021,  True, '2019-02-10 00:00:00'); /* Eater */

@@ -9,79 +9,79 @@ VALUES (0x7EB1D0D7,  1154, 0xEB1D0102, 130.012, 133.584, 15.7066, -0.240582, 0, 
 /* @teleloc 0xEB1D0102 [130.012000 133.584000 15.706600] -0.240582 0.000000 0.000000 -0.970629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB1D0D7, 0x7EB1D0D8, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0D9, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DA, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DB, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DC, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DD, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DE, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0DF, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E0, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E1, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E2, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E3, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E4, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E5, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E6, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E7, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E8, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0E9, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0EA, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0EB, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0EC, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0ED, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0EE, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EB1D0D7, 0x7EB1D0EF, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F0, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F1, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F2, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F3, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F4, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F5, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F6, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D0F7, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EB1D0D7, 0x7EB1D0F8, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EB1D0D7, 0x7EB1D0F9, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EB1D0D7, 0x7EB1D0FA, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7EB1D0D7, 0x7EB1D0FB, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EB1D0D7, 0x7EB1D0FC, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EB1D0D7, 0x7EB1D0FD, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EB1D0D7, 0x7EB1D0FE, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EB1D0D7, 0x7EB1D0FF, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EB1D0D7, 0x7EB1D100, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EB1D0D7, 0x7EB1D101, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EB1D0D7, 0x7EB1D102, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EB1D0D7, 0x7EB1D103, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EB1D0D7, 0x7EB1D104, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EB1D0D7, 0x7EB1D105, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EB1D0D7, 0x7EB1D106, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EB1D0D7, 0x7EB1D107, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D108, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D109, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10A, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10B, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10C, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10D, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10E, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D10F, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D110, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D111, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D112, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D113, '2019-02-10 00:00:00') /* Enthralled Idolator */
-     , (0x7EB1D0D7, 0x7EB1D114, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7EB1D0D7, 0x7EB1D115, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D116, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D117, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D118, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D119, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D11A, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EB1D0D7, 0x7EB1D11B, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EB1D0D7, 0x7EB1D11C, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D11D, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D11E, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D11F, '2019-02-10 00:00:00') /* Mosswart Townsfolk */
-     , (0x7EB1D0D7, 0x7EB1D120, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7EB1D0D7, 0x7EB1D0D8, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0D9, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DA, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DB, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DC, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DD, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DE, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0DF, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E0, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E1, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E2, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E3, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E4, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E5, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E6, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E7, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E8, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0E9, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0EA, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0EB, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0EC, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0ED, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0EE, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EB1D0D7, 0x7EB1D0EF, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F0, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F1, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F2, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F3, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F4, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F5, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F6, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D0F7, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EB1D0D7, 0x7EB1D0F8, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EB1D0D7, 0x7EB1D0F9, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EB1D0D7, 0x7EB1D0FA, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7EB1D0D7, 0x7EB1D0FB, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EB1D0D7, 0x7EB1D0FC, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EB1D0D7, 0x7EB1D0FD, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EB1D0D7, 0x7EB1D0FE, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EB1D0D7, 0x7EB1D0FF, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EB1D0D7, 0x7EB1D100, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EB1D0D7, 0x7EB1D101, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EB1D0D7, 0x7EB1D102, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EB1D0D7, 0x7EB1D103, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EB1D0D7, 0x7EB1D104, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EB1D0D7, 0x7EB1D105, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EB1D0D7, 0x7EB1D106, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EB1D0D7, 0x7EB1D107, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D108, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D109, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10A, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10B, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10C, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10D, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10E, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D10F, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D110, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D111, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D112, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D113, '2019-02-10 00:00:00') /* Enthralled Idolator (27421) */
+     , (0x7EB1D0D7, 0x7EB1D114, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7EB1D0D7, 0x7EB1D115, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D116, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D117, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D118, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D119, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D11A, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EB1D0D7, 0x7EB1D11B, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EB1D0D7, 0x7EB1D11C, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D11D, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D11E, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D11F, '2019-02-10 00:00:00') /* Mosswart Townsfolk (35389) */
+     , (0x7EB1D0D7, 0x7EB1D120, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB1D0D8, 35389, 0xEB1D0102, 130.012, 133.584, 15.7066, -0.240582, 0, 0, -0.970629,  True, '2019-02-10 00:00:00'); /* Mosswart Townsfolk */
@@ -380,7 +380,7 @@ VALUES (0x7EB1D121,  1542, 0xEB1D002C, 126.4838, 79.96252, 12.03764, 1, 0, 0, 0,
 /* @teleloc 0xEB1D002C [126.483800 79.962520 12.037640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB1D121, 0x7EB1D122, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7EB1D121, 0x7EB1D122, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB1D122,  4379, 0xEB1D002C, 126.4838, 79.96252, 12.03764, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

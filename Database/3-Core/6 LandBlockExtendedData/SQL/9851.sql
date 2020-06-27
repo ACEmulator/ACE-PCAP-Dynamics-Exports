@@ -5,16 +5,16 @@ VALUES (0x79851001,  1154, 0x98510001, 14.90023, 14.42109, 13.96047, 0.9238795, 
 /* @teleloc 0x98510001 [14.900230 14.421090 13.960470] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79851001, 0x79851002, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79851001, 0x79851003, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79851001, 0x79851004, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79851001, 0x79851005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79851001, 0x79851006, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79851001, 0x79851007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79851001, 0x79851008, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79851001, 0x79851009, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79851001, 0x7985100A, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79851001, 0x7985100B, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79851001, 0x79851002, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79851001, 0x79851003, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79851001, 0x79851004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79851001, 0x79851005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79851001, 0x79851006, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79851001, 0x79851007, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x79851001, 0x79851008, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79851001, 0x79851009, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79851001, 0x7985100A, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79851001, 0x7985100B, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79851002,  9249, 0x98510001, 14.90023, 14.42109, 13.96047, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Marionette */
@@ -61,7 +61,7 @@ VALUES (0x7985100C,  1542, 0x98510009, 33.79045, 20.00306, 14, 1, 0, 0, 0, False
 /* @teleloc 0x98510009 [33.790450 20.003060 14.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7985100C, 0x7985100D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7985100C, 0x7985100D, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7985100D, 22570, 0x98510009, 33.79045, 20.00306, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

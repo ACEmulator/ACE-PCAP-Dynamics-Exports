@@ -5,11 +5,11 @@ VALUES (0x79458001,  1154, 0x94580009, 32.17348, 0.1956888, 14.64051, 0.8863745,
 /* @teleloc 0x94580009 [32.173480 0.195689 14.640510] 0.886375 0.000000 0.000000 -0.462969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79458001, 0x79458002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79458001, 0x79458003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79458001, 0x79458004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79458001, 0x79458005, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79458001, 0x79458006, '2019-02-10 00:00:00') /* Bronze Armoredillo */;
+VALUES (0x79458001, 0x79458002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79458001, 0x79458003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79458001, 0x79458004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79458001, 0x79458005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79458001, 0x79458006, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79458002, 24937, 0x94580009, 32.17348, 0.1956888, 14.64051, 0.8863745, 0, 0, -0.462969,  True, '2019-02-10 00:00:00'); /* Chicken */

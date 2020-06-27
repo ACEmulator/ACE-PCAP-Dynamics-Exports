@@ -5,32 +5,32 @@ VALUES (0x797D8001,  1154, 0x97D80017, 62.20179, 150.365, 115.8834, -0.942196, 0
 /* @teleloc 0x97D80017 [62.201790 150.365000 115.883400] -0.942196 0.000000 0.000000 -0.335062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797D8001, 0x797D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x797D8001, 0x797D8003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797D8001, 0x797D8004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x797D8001, 0x797D8005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x797D8001, 0x797D8006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x797D8001, 0x797D8007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x797D8001, 0x797D8008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x797D8001, 0x797D8009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x797D8001, 0x797D800A, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x797D8001, 0x797D800B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x797D8001, 0x797D800C, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x797D8001, 0x797D800D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x797D8001, 0x797D800E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x797D8001, 0x797D800F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797D8001, 0x797D8010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797D8001, 0x797D8011, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797D8001, 0x797D8012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x797D8001, 0x797D8013, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797D8001, 0x797D8014, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x797D8001, 0x797D8015, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x797D8001, 0x797D8016, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x797D8001, 0x797D8017, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x797D8001, 0x797D8018, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x797D8001, 0x797D8019, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x797D8001, 0x797D801A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x797D8001, 0x797D801B, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x797D8001, 0x797D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x797D8001, 0x797D8003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797D8001, 0x797D8004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x797D8001, 0x797D8005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x797D8001, 0x797D8006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x797D8001, 0x797D8007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x797D8001, 0x797D8008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x797D8001, 0x797D8009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x797D8001, 0x797D800A, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x797D8001, 0x797D800B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x797D8001, 0x797D800C, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x797D8001, 0x797D800D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x797D8001, 0x797D800E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x797D8001, 0x797D800F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797D8001, 0x797D8010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797D8001, 0x797D8011, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797D8001, 0x797D8012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x797D8001, 0x797D8013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797D8001, 0x797D8014, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x797D8001, 0x797D8015, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x797D8001, 0x797D8016, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x797D8001, 0x797D8017, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x797D8001, 0x797D8018, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x797D8001, 0x797D8019, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x797D8001, 0x797D801A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x797D8001, 0x797D801B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797D8002,   227, 0x97D80017, 62.20179, 150.365, 115.8834, -0.942196, 0, 0, -0.3350623,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
@@ -141,9 +141,9 @@ VALUES (0x797D801C,  1542, 0x97D80027, 115.5873, 152.5129, 113.7865, 0.9990482, 
 /* @teleloc 0x97D80027 [115.587300 152.512900 113.786500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797D801C, 0x797D801D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x797D801C, 0x797D801E, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x797D801C, 0x797D801F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x797D801C, 0x797D801D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x797D801C, 0x797D801E, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x797D801C, 0x797D801F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797D801D,  4179, 0x97D80027, 115.5873, 152.5129, 113.7865, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

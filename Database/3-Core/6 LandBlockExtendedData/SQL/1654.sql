@@ -5,15 +5,15 @@ VALUES (0x71654001,  1154, 0x1654000D, 46.26543, 106.7745, 35.40306, 0.07293259,
 /* @teleloc 0x1654000D [46.265430 106.774500 35.403060] 0.072933 0.000000 0.000000 -0.997337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71654001, 0x71654002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71654001, 0x71654003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71654001, 0x71654004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71654001, 0x71654005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71654001, 0x71654006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71654001, 0x71654007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71654001, 0x71654008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71654001, 0x71654009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71654001, 0x7165400A, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x71654001, 0x71654002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71654001, 0x71654003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71654001, 0x71654004, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71654001, 0x71654005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71654001, 0x71654006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71654001, 0x71654007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71654001, 0x71654008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71654001, 0x71654009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71654001, 0x7165400A, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71654002,  7114, 0x1654000D, 46.26543, 106.7745, 35.40306, 0.07293259, 0, 0, -0.9973369,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

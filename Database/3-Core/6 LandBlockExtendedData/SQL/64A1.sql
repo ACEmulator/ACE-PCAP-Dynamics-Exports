@@ -5,14 +5,14 @@ VALUES (0x764A1001,  1154, 0x64A10040, 179.676, 187.6672, 49.07569, 0.6852189, 0
 /* @teleloc 0x64A10040 [179.676000 187.667200 49.075690] 0.685219 0.000000 0.000000 -0.728337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764A1001, 0x764A1002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x764A1001, 0x764A1003, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x764A1001, 0x764A1004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x764A1001, 0x764A1005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x764A1001, 0x764A1006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x764A1001, 0x764A1007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x764A1001, 0x764A1008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x764A1001, 0x764A1009, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x764A1001, 0x764A1002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x764A1001, 0x764A1003, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x764A1001, 0x764A1004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x764A1001, 0x764A1005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x764A1001, 0x764A1006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x764A1001, 0x764A1007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x764A1001, 0x764A1008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x764A1001, 0x764A1009, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764A1002, 24293, 0x64A10040, 179.676, 187.6672, 49.07569, 0.6852189, 0, 0, -0.7283371,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

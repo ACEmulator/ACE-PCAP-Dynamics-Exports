@@ -5,22 +5,22 @@ VALUES (0x71666001,  1154, 0x1666003A, 178.7108, 42.91807, 47.88968, -0.8435715,
 /* @teleloc 0x1666003A [178.710800 42.918070 47.889680] -0.843572 0.000000 0.000000 -0.537017 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71666001, 0x71666002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71666001, 0x71666003, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71666001, 0x71666004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71666001, 0x71666005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71666001, 0x71666006, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71666001, 0x71666007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71666001, 0x71666008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71666001, 0x71666009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71666001, 0x7166600A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71666001, 0x7166600B, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71666001, 0x7166600C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71666001, 0x7166600D, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71666001, 0x7166600E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71666001, 0x7166600F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71666001, 0x71666010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71666001, 0x71666011, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71666001, 0x71666002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71666001, 0x71666003, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71666001, 0x71666004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71666001, 0x71666005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71666001, 0x71666006, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71666001, 0x71666007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71666001, 0x71666008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71666001, 0x71666009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71666001, 0x7166600A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71666001, 0x7166600B, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71666001, 0x7166600C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71666001, 0x7166600D, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71666001, 0x7166600E, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71666001, 0x7166600F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71666001, 0x71666010, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71666001, 0x71666011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71666002, 36819, 0x1666003A, 178.7108, 42.91807, 47.88968, -0.8435715, 0, 0, -0.5370169,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -91,7 +91,7 @@ VALUES (0x71666012,  1542, 0x16660034, 156.2592, 72.47271, 60.18696, 0.8371834, 
 /* @teleloc 0x16660034 [156.259200 72.472710 60.186960] 0.837183 0.000000 0.000000 -0.546922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71666012, 0x71666013, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71666012, 0x71666013, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71666013,  9288, 0x16660034, 156.2592, 72.47271, 60.18696, 0.8371834, 0, 0, -0.5469222,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

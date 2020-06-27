@@ -5,22 +5,22 @@ VALUES (0x7C2C8001,  1154, 0xC2C80019, 81.76368, 8.560342, 82.84052, -0.7493576,
 /* @teleloc 0xC2C80019 [81.763680 8.560342 82.840520] -0.749358 0.000000 0.000000 -0.662166 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2C8001, 0x7C2C8002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2C8001, 0x7C2C8003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C2C8001, 0x7C2C8004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2C8001, 0x7C2C8005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2C8001, 0x7C2C8006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2C8001, 0x7C2C8007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C2C8001, 0x7C2C8008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C2C8001, 0x7C2C8009, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C2C8001, 0x7C2C800A, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C2C8001, 0x7C2C800B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7C2C8001, 0x7C2C800C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7C2C8001, 0x7C2C800D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2C8001, 0x7C2C800E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2C8001, 0x7C2C800F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C2C8001, 0x7C2C8010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C2C8001, 0x7C2C8011, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */;
+VALUES (0x7C2C8001, 0x7C2C8002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2C8001, 0x7C2C8003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C2C8001, 0x7C2C8004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2C8001, 0x7C2C8005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2C8001, 0x7C2C8006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2C8001, 0x7C2C8007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C2C8001, 0x7C2C8008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C2C8001, 0x7C2C8009, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C2C8001, 0x7C2C800A, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C2C8001, 0x7C2C800B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7C2C8001, 0x7C2C800C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7C2C8001, 0x7C2C800D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2C8001, 0x7C2C800E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2C8001, 0x7C2C800F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C2C8001, 0x7C2C8010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C2C8001, 0x7C2C8011, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2C8002, 24958, 0xC2C80019, 81.76368, 8.560342, 82.84052, -0.7493576, 0, 0, -0.6621656,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

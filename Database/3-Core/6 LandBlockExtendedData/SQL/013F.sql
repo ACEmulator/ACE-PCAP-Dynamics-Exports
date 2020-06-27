@@ -17,72 +17,72 @@ VALUES (0x7013F015,  1154, 0x013F0189, 20.9275, -81.1016, -5.9934, 0.9992688, 0,
 /* @teleloc 0x013F0189 [20.927500 -81.101600 -5.993400] 0.999269 0.000000 0.000000 0.038235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013F015, 0x7013F016, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F017, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F018, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F019, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F01A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F01B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F01C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F01D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F01E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F01F, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F020, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F021, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F022, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F023, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F024, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F025, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F026, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F027, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F028, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F029, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F02A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F02B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7013F015, 0x7013F02C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F02D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F02E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F02F, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7013F015, 0x7013F030, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7013F015, 0x7013F031, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F032, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F033, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F034, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F035, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F036, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F037, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F038, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7013F015, 0x7013F039, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F03A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F03B, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F03C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F03D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F03E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F03F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F040, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F041, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F042, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F043, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F044, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F045, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F046, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F047, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F048, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F049, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F04A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7013F015, 0x7013F04B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F04C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F04D, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F04E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F04F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F050, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F051, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F052, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F053, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F054, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7013F015, 0x7013F055, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7013F015, 0x7013F056, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7013F015, 0x7013F057, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7013F015, 0x7013F016, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F017, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F018, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F019, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F01A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F01B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F01C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F01D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F01E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F01F, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F020, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F021, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F022, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F023, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F024, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F025, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F026, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F027, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F028, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F029, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F02A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F02B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7013F015, 0x7013F02C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F02D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F02E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F02F, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7013F015, 0x7013F030, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7013F015, 0x7013F031, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F032, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F033, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F034, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F035, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F036, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F037, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F038, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7013F015, 0x7013F039, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F03A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F03B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F03C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F03D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F03E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F03F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F040, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F041, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F042, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F043, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F044, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F045, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F046, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F047, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F048, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F049, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F04A, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7013F015, 0x7013F04B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F04C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F04D, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F04E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F04F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F050, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F051, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F052, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F053, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F054, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7013F015, 0x7013F055, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7013F015, 0x7013F056, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7013F015, 0x7013F057, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013F016,  8427, 0x013F0189, 20.9275, -81.1016, -5.9934, 0.9992688, 0, 0, 0.03823539,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -353,7 +353,7 @@ VALUES (0x7013F058,  1542, 0x013F019C, 48.2107, -51.1875, -6.00803, -0.7482532, 
 /* @teleloc 0x013F019C [48.210700 -51.187500 -6.008030] -0.748253 0.000000 0.000000 -0.663413 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7013F058, 0x7013F059, '2019-02-10 00:00:00') /* Alloy Implement */;
+VALUES (0x7013F058, 0x7013F059, '2019-02-10 00:00:00') /* Alloy Implement (25320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7013F059, 25320, 0x013F019C, 48.2107, -51.1875, -6.00803, -0.7482532, 0, 0, -0.6634132,  True, '2019-02-10 00:00:00'); /* Alloy Implement */

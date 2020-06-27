@@ -5,25 +5,25 @@ VALUES (0x77DF0001,  1154, 0x7DF00034, 151.6848, 72.5975, 148.1096, -0.3274694, 
 /* @teleloc 0x7DF00034 [151.684800 72.597500 148.109600] -0.327469 0.000000 0.000000 -0.944862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF0001, 0x77DF0002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF0001, 0x77DF0003, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x77DF0001, 0x77DF0004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77DF0001, 0x77DF0005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77DF0001, 0x77DF0006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77DF0001, 0x77DF0007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77DF0001, 0x77DF0008, '2019-02-10 00:00:00') /* Frost */
-     , (0x77DF0001, 0x77DF0009, '2019-02-10 00:00:00') /* Frost */
-     , (0x77DF0001, 0x77DF000A, '2019-02-10 00:00:00') /* Gelid */
-     , (0x77DF0001, 0x77DF000B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x77DF0001, 0x77DF000C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF0001, 0x77DF000D, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x77DF0001, 0x77DF000E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF0001, 0x77DF000F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF0001, 0x77DF0010, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77DF0001, 0x77DF0011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF0001, 0x77DF0012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF0001, 0x77DF0013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77DF0001, 0x77DF0014, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x77DF0001, 0x77DF0002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF0001, 0x77DF0003, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x77DF0001, 0x77DF0004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77DF0001, 0x77DF0005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77DF0001, 0x77DF0006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77DF0001, 0x77DF0007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77DF0001, 0x77DF0008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x77DF0001, 0x77DF0009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x77DF0001, 0x77DF000A, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x77DF0001, 0x77DF000B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x77DF0001, 0x77DF000C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF0001, 0x77DF000D, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x77DF0001, 0x77DF000E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77DF0001, 0x77DF000F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF0001, 0x77DF0010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77DF0001, 0x77DF0011, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF0001, 0x77DF0012, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF0001, 0x77DF0013, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77DF0001, 0x77DF0014, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF0002,  7096, 0x7DF00034, 151.6848, 72.5975, 148.1096, -0.3274694, 0, 0, -0.9448618,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -106,8 +106,8 @@ VALUES (0x77DF0015,  1542, 0x7DF00018, 51.42433, 185.4427, 181.1052, 1, 0, 0, 0,
 /* @teleloc 0x7DF00018 [51.424330 185.442700 181.105200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF0015, 0x77DF0016, '2019-02-10 00:00:00') /* Portal to Cragstone */
-     , (0x77DF0015, 0x77DF0017, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x77DF0015, 0x77DF0016, '2019-02-10 00:00:00') /* Portal to Cragstone (42818) */
+     , (0x77DF0015, 0x77DF0017, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF0016, 42818, 0x7DF00018, 51.42433, 185.4427, 181.1052, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Cragstone */

@@ -5,12 +5,12 @@ VALUES (0x7BBD4001,  1154, 0xBBD4001B, 73.98998, 70.58345, 47.94471, -0.8761921,
 /* @teleloc 0xBBD4001B [73.989980 70.583450 47.944710] -0.876192 0.000000 0.000000 -0.481962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD4001, 0x7BBD4002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBD4001, 0x7BBD4003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BBD4001, 0x7BBD4004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BBD4001, 0x7BBD4005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BBD4001, 0x7BBD4006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7BBD4001, 0x7BBD4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7BBD4001, 0x7BBD4002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBD4001, 0x7BBD4003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BBD4001, 0x7BBD4004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BBD4001, 0x7BBD4005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BBD4001, 0x7BBD4006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BBD4001, 0x7BBD4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD4002, 24293, 0xBBD4001B, 73.98998, 70.58345, 47.94471, -0.8761921, 0, 0, -0.4819621,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

@@ -5,14 +5,14 @@ VALUES (0x755BD001,  1154, 0x55BD0019, 72.37595, 18.07896, 0.4627908, 0.9961947,
 /* @teleloc 0x55BD0019 [72.375950 18.078960 0.462791] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755BD001, 0x755BD002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x755BD001, 0x755BD003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x755BD001, 0x755BD004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x755BD001, 0x755BD005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x755BD001, 0x755BD006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x755BD001, 0x755BD007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x755BD001, 0x755BD008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x755BD001, 0x755BD009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x755BD001, 0x755BD002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x755BD001, 0x755BD003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x755BD001, 0x755BD004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x755BD001, 0x755BD005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x755BD001, 0x755BD006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x755BD001, 0x755BD007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x755BD001, 0x755BD008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x755BD001, 0x755BD009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755BD002,  7988, 0x55BD0019, 72.37595, 18.07896, 0.4627908, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -51,7 +51,7 @@ VALUES (0x755BD00A,  1542, 0x55BD0005, 17.07294, 104.661, 2.422758, 0.1283242, 0
 /* @teleloc 0x55BD0005 [17.072940 104.661000 2.422758] 0.128324 0.000000 0.000000 -0.991732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755BD00A, 0x755BD00B, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x755BD00A, 0x755BD00B, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755BD00B,  9287, 0x55BD0005, 17.07294, 104.661, 2.422758, 0.1283242, 0, 0, -0.9917323,  True, '2019-02-10 00:00:00'); /* Master's Holding */

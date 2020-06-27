@@ -5,14 +5,14 @@ VALUES (0x72A56001,  1154, 0x2A560030, 143.1231, 189.5939, 25.87907, -0.5533589,
 /* @teleloc 0x2A560030 [143.123100 189.593900 25.879070] -0.553359 0.000000 0.000000 -0.832943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A56001, 0x72A56002, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A56001, 0x72A56003, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72A56001, 0x72A56004, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x72A56001, 0x72A56005, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A56001, 0x72A56006, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x72A56001, 0x72A56007, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x72A56001, 0x72A56008, '2019-02-10 00:00:00') /* Fallen Grievver */
-     , (0x72A56001, 0x72A56009, '2019-02-10 00:00:00') /* Banderling Paragon */;
+VALUES (0x72A56001, 0x72A56002, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A56001, 0x72A56003, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72A56001, 0x72A56004, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x72A56001, 0x72A56005, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A56001, 0x72A56006, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x72A56001, 0x72A56007, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72A56001, 0x72A56008, '2019-02-10 00:00:00') /* Fallen Grievver (30888) */
+     , (0x72A56001, 0x72A56009, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A56002, 23093, 0x2A560030, 143.1231, 189.5939, 25.87907, -0.5533589, 0, 0, -0.832943,  True, '2019-02-10 00:00:00'); /* Transcendent Tumerok */
@@ -51,8 +51,8 @@ VALUES (0x72A5600A,  1542, 0x2A560028, 103.2319, 175.4558, 25.24264, -0.1613277,
 /* @teleloc 0x2A560028 [103.231900 175.455800 25.242640] -0.161328 0.000000 0.000000 -0.986901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5600A, 0x72A5600B, '2019-02-10 00:00:00') /* Bloodroot Vine */
-     , (0x72A5600A, 0x72A5600C, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72A5600A, 0x72A5600B, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A5600A, 0x72A5600C, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5600B, 46284, 0x2A560028, 103.2319, 175.4558, 25.24264, -0.1613277, 0, 0, -0.9869009,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

@@ -5,15 +5,15 @@ VALUES (0x796C7001,  1154, 0x96C70035, 154.0319, 117.043, 81.75813, -0.9956534, 
 /* @teleloc 0x96C70035 [154.031900 117.043000 81.758130] -0.995653 0.000000 0.000000 -0.093136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796C7001, 0x796C7002, '2019-02-10 00:00:00') /* Banished Drudge */
-     , (0x796C7001, 0x796C7003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x796C7001, 0x796C7004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x796C7001, 0x796C7005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796C7001, 0x796C7006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x796C7001, 0x796C7007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796C7001, 0x796C7008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x796C7001, 0x796C7009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796C7001, 0x796C700A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x796C7001, 0x796C7002, '2019-02-10 00:00:00') /* Banished Drudge (30899) */
+     , (0x796C7001, 0x796C7003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x796C7001, 0x796C7004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x796C7001, 0x796C7005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796C7001, 0x796C7006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x796C7001, 0x796C7007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796C7001, 0x796C7008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x796C7001, 0x796C7009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796C7001, 0x796C700A, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796C7002, 30899, 0x96C70035, 154.0319, 117.043, 81.75813, -0.9956534, 0, 0, -0.09313623,  True, '2019-02-10 00:00:00'); /* Banished Drudge */
@@ -56,7 +56,7 @@ VALUES (0x796C700B,  1542, 0x96C70014, 69.71535, 72.95427, 67.31797, 1, 0, 0, 0,
 /* @teleloc 0x96C70014 [69.715350 72.954270 67.317970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796C700B, 0x796C700C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x796C700B, 0x796C700C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796C700C,  4179, 0x96C70014, 69.71535, 72.95427, 67.31797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

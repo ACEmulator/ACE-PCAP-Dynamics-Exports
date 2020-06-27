@@ -5,15 +5,15 @@ VALUES (0x744B0001,  1154, 0x44B00002, 6.31594, 32.3815, 60.59001, 0.08703408, 0
 /* @teleloc 0x44B00002 [6.315940 32.381500 60.590010] 0.087034 0.000000 0.000000 -0.996205 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744B0001, 0x744B0002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x744B0001, 0x744B0003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x744B0001, 0x744B0004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x744B0001, 0x744B0005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x744B0001, 0x744B0006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x744B0001, 0x744B0007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x744B0001, 0x744B0008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x744B0001, 0x744B0009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x744B0001, 0x744B000A, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x744B0001, 0x744B0002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x744B0001, 0x744B0003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x744B0001, 0x744B0004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x744B0001, 0x744B0005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x744B0001, 0x744B0006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x744B0001, 0x744B0007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x744B0001, 0x744B0008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x744B0001, 0x744B0009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x744B0001, 0x744B000A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744B0002,  4255, 0x44B00002, 6.31594, 32.3815, 60.59001, 0.08703408, 0, 0, -0.9962053,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

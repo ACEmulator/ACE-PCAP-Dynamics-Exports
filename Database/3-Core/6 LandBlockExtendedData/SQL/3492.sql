@@ -5,18 +5,18 @@ VALUES (0x73492001,  1154, 0x3492001E, 79.5884, 135.4781, 10.92222, -0.330694, 0
 /* @teleloc 0x3492001E [79.588400 135.478100 10.922220] -0.330694 0.000000 0.000000 -0.943738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73492001, 0x73492002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73492001, 0x73492003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73492001, 0x73492004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73492001, 0x73492005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73492001, 0x73492006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73492001, 0x73492007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73492001, 0x73492008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73492001, 0x73492009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73492001, 0x7349200A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73492001, 0x7349200B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73492001, 0x7349200C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73492001, 0x7349200D, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x73492001, 0x73492002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73492001, 0x73492003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73492001, 0x73492004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73492001, 0x73492005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73492001, 0x73492006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73492001, 0x73492007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73492001, 0x73492008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73492001, 0x73492009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73492001, 0x7349200A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73492001, 0x7349200B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73492001, 0x7349200C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73492001, 0x7349200D, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73492002, 24275, 0x3492001E, 79.5884, 135.4781, 10.92222, -0.330694, 0, 0, -0.943738,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

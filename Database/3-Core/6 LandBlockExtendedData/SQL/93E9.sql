@@ -5,10 +5,10 @@ VALUES (0x793E9001,  1154, 0x93E9002B, 120.0337, 65.62528, 38.54222, -0.9944726,
 /* @teleloc 0x93E9002B [120.033700 65.625280 38.542220] -0.994473 0.000000 0.000000 -0.104997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793E9001, 0x793E9002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793E9001, 0x793E9003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x793E9001, 0x793E9004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x793E9001, 0x793E9005, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x793E9001, 0x793E9002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793E9001, 0x793E9003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x793E9001, 0x793E9004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x793E9001, 0x793E9005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793E9002,  1628, 0x93E9002B, 120.0337, 65.62528, 38.54222, -0.9944726, 0, 0, -0.1049968,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

@@ -5,18 +5,18 @@ VALUES (0x72D5F001,  1154, 0x2D5F0039, 191.267, 3.134705, 0.008249998, 0.7071068
 /* @teleloc 0x2D5F0039 [191.267000 3.134705 0.008250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5F001, 0x72D5F002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D5F001, 0x72D5F003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D5F001, 0x72D5F004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D5F001, 0x72D5F005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72D5F001, 0x72D5F006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72D5F001, 0x72D5F007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D5F001, 0x72D5F008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D5F001, 0x72D5F009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D5F001, 0x72D5F00A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D5F001, 0x72D5F00B, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D5F001, 0x72D5F00C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D5F001, 0x72D5F00D, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x72D5F001, 0x72D5F002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D5F001, 0x72D5F003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D5F001, 0x72D5F004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D5F001, 0x72D5F005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72D5F001, 0x72D5F006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D5F001, 0x72D5F007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D5F001, 0x72D5F008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D5F001, 0x72D5F009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D5F001, 0x72D5F00A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D5F001, 0x72D5F00B, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D5F001, 0x72D5F00C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D5F001, 0x72D5F00D, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5F002, 24319, 0x2D5F0039, 191.267, 3.134705, 0.008249998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -71,8 +71,8 @@ VALUES (0x72D5F00E,  1542, 0x2D5F002D, 139.4073, 96.04236, 6.282248, -0.1736482,
 /* @teleloc 0x2D5F002D [139.407300 96.042360 6.282248] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5F00E, 0x72D5F00F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x72D5F00E, 0x72D5F010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D5F00E, 0x72D5F00F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x72D5F00E, 0x72D5F010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5F00F,  4180, 0x2D5F002D, 139.4073, 96.04236, 6.282248, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

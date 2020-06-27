@@ -5,15 +5,15 @@ VALUES (0x77ACB001,  1154, 0x7ACB0033, 155.7405, 59.7149, 206.542, 0.7071068, 0,
 /* @teleloc 0x7ACB0033 [155.740500 59.714900 206.542000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ACB001, 0x77ACB002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77ACB001, 0x77ACB003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77ACB001, 0x77ACB004, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77ACB001, 0x77ACB005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77ACB001, 0x77ACB006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77ACB001, 0x77ACB007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77ACB001, 0x77ACB008, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x77ACB001, 0x77ACB009, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77ACB001, 0x77ACB00A, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x77ACB001, 0x77ACB002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77ACB001, 0x77ACB003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77ACB001, 0x77ACB004, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77ACB001, 0x77ACB005, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77ACB001, 0x77ACB006, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77ACB001, 0x77ACB007, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77ACB001, 0x77ACB008, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x77ACB001, 0x77ACB009, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77ACB001, 0x77ACB00A, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ACB002, 36830, 0x7ACB0033, 155.7405, 59.7149, 206.542, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

@@ -5,30 +5,30 @@ VALUES (0x763E7001,  1154, 0x63E7003E, 173.9958, 120.081, 77.49686, -0.2255578, 
 /* @teleloc 0x63E7003E [173.995800 120.081000 77.496860] -0.225558 0.000000 0.000000 -0.974230 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E7001, 0x763E7002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x763E7001, 0x763E7003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x763E7001, 0x763E7004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x763E7001, 0x763E7005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x763E7001, 0x763E7006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E7001, 0x763E7007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E7001, 0x763E7008, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x763E7001, 0x763E7009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E7001, 0x763E700A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E7001, 0x763E700B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x763E7001, 0x763E700C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x763E7001, 0x763E700D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x763E7001, 0x763E700E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763E7001, 0x763E700F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x763E7001, 0x763E7010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x763E7001, 0x763E7011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x763E7001, 0x763E7012, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x763E7001, 0x763E7013, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x763E7001, 0x763E7014, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E7001, 0x763E7015, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E7001, 0x763E7016, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x763E7001, 0x763E7017, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x763E7001, 0x763E7018, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x763E7001, 0x763E7019, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x763E7001, 0x763E7002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x763E7001, 0x763E7003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x763E7001, 0x763E7004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x763E7001, 0x763E7005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x763E7001, 0x763E7006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E7001, 0x763E7007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E7001, 0x763E7008, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x763E7001, 0x763E7009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E7001, 0x763E700A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E7001, 0x763E700B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x763E7001, 0x763E700C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x763E7001, 0x763E700D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x763E7001, 0x763E700E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x763E7001, 0x763E700F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x763E7001, 0x763E7010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x763E7001, 0x763E7011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x763E7001, 0x763E7012, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x763E7001, 0x763E7013, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x763E7001, 0x763E7014, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E7001, 0x763E7015, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E7001, 0x763E7016, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x763E7001, 0x763E7017, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x763E7001, 0x763E7018, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x763E7001, 0x763E7019, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E7002,  7981, 0x63E7003E, 173.9958, 120.081, 77.49686, -0.2255578, 0, 0, -0.9742298,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
@@ -131,9 +131,9 @@ VALUES (0x763E701A,  1542, 0x63E7003C, 171.2685, 92.46406, 74.02229, 1, 0, 0, 0,
 /* @teleloc 0x63E7003C [171.268500 92.464060 74.022290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E701A, 0x763E701B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x763E701A, 0x763E701C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x763E701A, 0x763E701D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x763E701A, 0x763E701B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x763E701A, 0x763E701C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x763E701A, 0x763E701D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E701B, 22567, 0x63E7003C, 171.2685, 92.46406, 74.02229, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

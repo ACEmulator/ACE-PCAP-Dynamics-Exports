@@ -5,11 +5,11 @@ VALUES (0x7BFC5001,  1154, 0xBFC50013, 49.52825, 50.61894, 354.9857, -0.9432977,
 /* @teleloc 0xBFC50013 [49.528250 50.618940 354.985700] -0.943298 0.000000 0.000000 -0.331948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFC5001, 0x7BFC5002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BFC5001, 0x7BFC5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BFC5001, 0x7BFC5004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BFC5001, 0x7BFC5005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BFC5001, 0x7BFC5006, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7BFC5001, 0x7BFC5002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BFC5001, 0x7BFC5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BFC5001, 0x7BFC5004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BFC5001, 0x7BFC5005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BFC5001, 0x7BFC5006, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFC5002,  1608, 0xBFC50013, 49.52825, 50.61894, 354.9857, -0.9432977, 0, 0, -0.3319479,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -36,7 +36,7 @@ VALUES (0x7BFC5007,  1542, 0xBFC5001A, 72.00877, 42.33314, 365.5483, 1, 0, 0, 0,
 /* @teleloc 0xBFC5001A [72.008770 42.333140 365.548300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFC5007, 0x7BFC5008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BFC5007, 0x7BFC5008, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFC5008, 22576, 0xBFC5001A, 72.00877, 42.33314, 365.5483, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

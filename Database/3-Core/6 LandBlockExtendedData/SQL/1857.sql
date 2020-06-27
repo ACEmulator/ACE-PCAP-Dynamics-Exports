@@ -5,15 +5,15 @@ VALUES (0x71857001,  1154, 0x1857000E, 24.14106, 138.0573, 94.029, 0.9959888, 0,
 /* @teleloc 0x1857000E [24.141060 138.057300 94.029000] 0.995989 0.000000 0.000000 -0.089478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71857001, 0x71857002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71857001, 0x71857003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71857001, 0x71857004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71857001, 0x71857005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71857001, 0x71857006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71857001, 0x71857007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71857001, 0x71857008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71857001, 0x71857009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71857001, 0x7185700A, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x71857001, 0x71857002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71857001, 0x71857003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71857001, 0x71857004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71857001, 0x71857005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71857001, 0x71857006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71857001, 0x71857007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71857001, 0x71857008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71857001, 0x71857009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71857001, 0x7185700A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71857002,  9264, 0x1857000E, 24.14106, 138.0573, 94.029, 0.9959888, 0, 0, -0.08947818,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

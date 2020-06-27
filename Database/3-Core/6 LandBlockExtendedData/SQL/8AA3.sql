@@ -5,12 +5,12 @@ VALUES (0x78AA3001,  1154, 0x8AA3002B, 121.2649, 53.7052, 63.16663, 0.7071068, 0
 /* @teleloc 0x8AA3002B [121.264900 53.705200 63.166630] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AA3001, 0x78AA3002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78AA3001, 0x78AA3003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78AA3001, 0x78AA3004, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x78AA3001, 0x78AA3005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78AA3001, 0x78AA3006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x78AA3001, 0x78AA3007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x78AA3001, 0x78AA3002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78AA3001, 0x78AA3003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78AA3001, 0x78AA3004, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x78AA3001, 0x78AA3005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78AA3001, 0x78AA3006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x78AA3001, 0x78AA3007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AA3002,  1627, 0x8AA3002B, 121.2649, 53.7052, 63.16663, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

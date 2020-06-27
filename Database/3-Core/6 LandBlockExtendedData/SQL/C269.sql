@@ -5,16 +5,16 @@ VALUES (0x7C269001,  1154, 0xC2690001, 1.134303, 21.37934, 61.91847, -0.4376242,
 /* @teleloc 0xC2690001 [1.134303 21.379340 61.918470] -0.437624 0.000000 0.000000 -0.899158 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C269001, 0x7C269002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C269001, 0x7C269003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C269001, 0x7C269004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C269001, 0x7C269005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C269001, 0x7C269006, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C269001, 0x7C269007, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C269001, 0x7C269008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C269001, 0x7C269009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C269001, 0x7C26900A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C269001, 0x7C26900B, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7C269001, 0x7C269002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C269001, 0x7C269003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C269001, 0x7C269004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C269001, 0x7C269005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C269001, 0x7C269006, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C269001, 0x7C269007, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C269001, 0x7C269008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C269001, 0x7C269009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C269001, 0x7C26900A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C269001, 0x7C26900B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C269002,   217, 0xC2690001, 1.134303, 21.37934, 61.91847, -0.4376242, 0, 0, -0.899158,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

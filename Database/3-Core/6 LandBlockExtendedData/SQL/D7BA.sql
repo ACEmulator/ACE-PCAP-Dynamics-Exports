@@ -5,12 +5,12 @@ VALUES (0x7D7BA001,  1154, 0xD7BA0040, 179.1569, 187.0737, 33.31427, -0.3813065,
 /* @teleloc 0xD7BA0040 [179.156900 187.073700 33.314270] -0.381307 0.000000 0.000000 -0.924449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7BA001, 0x7D7BA002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D7BA001, 0x7D7BA003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7D7BA001, 0x7D7BA004, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D7BA001, 0x7D7BA005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7BA001, 0x7D7BA006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7BA001, 0x7D7BA007, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7D7BA001, 0x7D7BA002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D7BA001, 0x7D7BA003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7D7BA001, 0x7D7BA004, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D7BA001, 0x7D7BA005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7BA001, 0x7D7BA006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7BA001, 0x7D7BA007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7BA002, 24958, 0xD7BA0040, 179.1569, 187.0737, 33.31427, -0.3813065, 0, 0, -0.9244487,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

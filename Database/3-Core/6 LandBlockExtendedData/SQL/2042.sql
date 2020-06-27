@@ -5,11 +5,11 @@ VALUES (0x72042001,  1154, 0x20420021, 111.0476, 19.37031, 2.492353, 0.9065446, 
 /* @teleloc 0x20420021 [111.047600 19.370310 2.492353] 0.906545 0.000000 0.000000 -0.422110 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72042001, 0x72042002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72042001, 0x72042003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72042001, 0x72042004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72042001, 0x72042005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72042001, 0x72042006, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x72042001, 0x72042002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72042001, 0x72042003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72042001, 0x72042004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72042001, 0x72042005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72042001, 0x72042006, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72042002, 24497, 0x20420021, 111.0476, 19.37031, 2.492353, 0.9065446, 0, 0, -0.4221101,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

@@ -5,27 +5,27 @@ VALUES (0x7DECC001,  1154, 0xDECC003B, 171.8806, 50.75505, 20.725, -0.8877623, 0
 /* @teleloc 0xDECC003B [171.880600 50.755050 20.725000] -0.887762 0.000000 0.000000 -0.460302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DECC001, 0x7DECC002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DECC001, 0x7DECC003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DECC001, 0x7DECC004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DECC001, 0x7DECC005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC00A, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DECC001, 0x7DECC00B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DECC001, 0x7DECC00C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7DECC001, 0x7DECC00D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7DECC001, 0x7DECC00E, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7DECC001, 0x7DECC00F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7DECC001, 0x7DECC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DECC001, 0x7DECC011, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DECC001, 0x7DECC012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECC001, 0x7DECC013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7DECC001, 0x7DECC014, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7DECC001, 0x7DECC015, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7DECC001, 0x7DECC016, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7DECC001, 0x7DECC002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DECC001, 0x7DECC003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DECC001, 0x7DECC004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DECC001, 0x7DECC005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC00A, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DECC001, 0x7DECC00B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DECC001, 0x7DECC00C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7DECC001, 0x7DECC00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7DECC001, 0x7DECC00E, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7DECC001, 0x7DECC00F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7DECC001, 0x7DECC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DECC001, 0x7DECC011, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DECC001, 0x7DECC012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECC001, 0x7DECC013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7DECC001, 0x7DECC014, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7DECC001, 0x7DECC015, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7DECC001, 0x7DECC016, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DECC002,   212, 0xDECC003B, 171.8806, 50.75505, 20.725, -0.8877623, 0, 0, -0.4603022,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -116,7 +116,7 @@ VALUES (0x7DECC017,  1542, 0xDECC003B, 169.8201, 49.82146, 20.725, 1, 0, 0, 0, F
 /* @teleloc 0xDECC003B [169.820100 49.821460 20.725000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DECC017, 0x7DECC018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7DECC017, 0x7DECC018, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DECC018, 31445, 0xDECC003B, 169.8201, 49.82146, 20.725, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

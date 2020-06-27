@@ -5,26 +5,26 @@ VALUES (0x7EF7E001,  1154, 0xEF7E002E, 123.8671, 135.5531, -0.8889999, 0.6788992
 /* @teleloc 0xEF7E002E [123.867100 135.553100 -0.889000] 0.678899 0.000000 0.000000 -0.734232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF7E001, 0x7EF7E002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7EF7E001, 0x7EF7E003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7EF7E001, 0x7EF7E004, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7EF7E001, 0x7EF7E005, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E006, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E007, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E008, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7EF7E001, 0x7EF7E00A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7EF7E001, 0x7EF7E00B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7EF7E001, 0x7EF7E00C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7EF7E001, 0x7EF7E00D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7EF7E001, 0x7EF7E00E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7EF7E001, 0x7EF7E00F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7EF7E001, 0x7EF7E010, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7EF7E001, 0x7EF7E011, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E012, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E013, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7EF7E001, 0x7EF7E014, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7EF7E001, 0x7EF7E015, '2019-02-10 00:00:00') /* Tuskie Thrower */;
+VALUES (0x7EF7E001, 0x7EF7E002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7EF7E001, 0x7EF7E003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7EF7E001, 0x7EF7E004, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7EF7E001, 0x7EF7E005, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E006, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E007, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E008, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7EF7E001, 0x7EF7E00A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7EF7E001, 0x7EF7E00B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7EF7E001, 0x7EF7E00C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7EF7E001, 0x7EF7E00D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7EF7E001, 0x7EF7E00E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7EF7E001, 0x7EF7E00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7EF7E001, 0x7EF7E010, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF7E001, 0x7EF7E011, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E012, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E013, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF7E001, 0x7EF7E014, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7EF7E001, 0x7EF7E015, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF7E002,  1628, 0xEF7E002E, 123.8671, 135.5531, -0.8889999, 0.6788992, 0, 0, -0.7342315,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

@@ -5,17 +5,17 @@ VALUES (0x7C320001,  1154, 0xC320002C, 130.4424, 89.16771, 81.70859, 0.9396926, 
 /* @teleloc 0xC320002C [130.442400 89.167710 81.708590] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C320001, 0x7C320002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C320001, 0x7C320003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7C320001, 0x7C320004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7C320001, 0x7C320005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C320001, 0x7C320006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C320001, 0x7C320007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C320001, 0x7C320008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C320001, 0x7C320009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C320001, 0x7C32000A, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7C320001, 0x7C32000B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C320001, 0x7C32000C, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7C320001, 0x7C320002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C320001, 0x7C320003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7C320001, 0x7C320004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7C320001, 0x7C320005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C320001, 0x7C320006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C320001, 0x7C320007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C320001, 0x7C320008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C320001, 0x7C320009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C320001, 0x7C32000A, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7C320001, 0x7C32000B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C320001, 0x7C32000C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C320002, 37100, 0xC320002C, 130.4424, 89.16771, 81.70859, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
@@ -66,7 +66,7 @@ VALUES (0x7C32000D,  1542, 0xC320003C, 169.1109, 91.64416, 83.3666, 0.9979551, 0
 /* @teleloc 0xC320003C [169.110900 91.644160 83.366600] 0.997955 0.000000 0.000000 -0.063918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C32000D, 0x7C32000E, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7C32000D, 0x7C32000E, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C32000E, 14789, 0xC320003C, 169.1109, 91.64416, 83.3666, 0.9979551, 0, 0, -0.06391772,  True, '2019-02-10 00:00:00'); /* Ginger */

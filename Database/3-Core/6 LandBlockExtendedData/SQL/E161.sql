@@ -5,9 +5,9 @@ VALUES (0x7E161001,  1154, 0xE1610015, 48.37009, 99.88725, 2, 0.9540287, 0, 0, -
 /* @teleloc 0xE1610015 [48.370090 99.887250 2.000000] 0.954029 0.000000 0.000000 -0.299715 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E161001, 0x7E161002, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7E161001, 0x7E161003, '2019-02-10 00:00:00') /* Lich */
-     , (0x7E161001, 0x7E161004, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7E161001, 0x7E161002, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7E161001, 0x7E161003, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7E161001, 0x7E161004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E161002,  2585, 0xE1610015, 48.37009, 99.88725, 2, 0.9540287, 0, 0, -0.2997152,  True, '2019-02-10 00:00:00'); /* Essa Sclavus */

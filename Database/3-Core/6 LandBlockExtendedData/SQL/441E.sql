@@ -5,12 +5,12 @@ VALUES (0x7441E001,  1154, 0x441E0011, 64.14971, 4.718357, 41.94925, 0.7827285, 
 /* @teleloc 0x441E0011 [64.149710 4.718357 41.949250] 0.782729 0.000000 0.000000 -0.622363 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7441E001, 0x7441E002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7441E001, 0x7441E003, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7441E001, 0x7441E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7441E001, 0x7441E005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7441E001, 0x7441E006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7441E001, 0x7441E007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7441E001, 0x7441E002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7441E001, 0x7441E003, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7441E001, 0x7441E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7441E001, 0x7441E005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7441E001, 0x7441E006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7441E001, 0x7441E007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7441E002, 24497, 0x441E0011, 64.14971, 4.718357, 41.94925, 0.7827285, 0, 0, -0.6223633,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

@@ -5,10 +5,10 @@ VALUES (0x73DF8001,  1154, 0x3DF80011, 62.42462, 17.57206, 1.737713, -0.7936213,
 /* @teleloc 0x3DF80011 [62.424620 17.572060 1.737713] -0.793621 0.000000 0.000000 -0.608412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DF8001, 0x73DF8002, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73DF8001, 0x73DF8003, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x73DF8001, 0x73DF8004, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x73DF8001, 0x73DF8005, '2019-02-10 00:00:00') /* Maniacal Fiun */;
+VALUES (0x73DF8001, 0x73DF8002, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73DF8001, 0x73DF8003, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x73DF8001, 0x73DF8004, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73DF8001, 0x73DF8005, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DF8002, 28641, 0x3DF80011, 62.42462, 17.57206, 1.737713, -0.7936213, 0, 0, -0.608412,  True, '2019-02-10 00:00:00'); /* Abhorrent Eater */

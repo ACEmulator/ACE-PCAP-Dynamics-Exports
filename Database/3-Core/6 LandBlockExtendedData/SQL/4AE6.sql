@@ -5,15 +5,15 @@ VALUES (0x74AE6001,  1154, 0x4AE60036, 160.0144, 128.3537, 4.679067, 0.8364226, 
 /* @teleloc 0x4AE60036 [160.014400 128.353700 4.679067] 0.836423 0.000000 0.000000 -0.548085 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE6001, 0x74AE6002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74AE6001, 0x74AE6003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74AE6001, 0x74AE6004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74AE6001, 0x74AE6005, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74AE6001, 0x74AE6006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74AE6001, 0x74AE6007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74AE6001, 0x74AE6008, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74AE6001, 0x74AE6009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74AE6001, 0x74AE600A, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x74AE6001, 0x74AE6002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x74AE6001, 0x74AE6003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74AE6001, 0x74AE6004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74AE6001, 0x74AE6005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74AE6001, 0x74AE6006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74AE6001, 0x74AE6007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74AE6001, 0x74AE6008, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74AE6001, 0x74AE6009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x74AE6001, 0x74AE600A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE6002,  7099, 0x4AE60036, 160.0144, 128.3537, 4.679067, 0.8364226, 0, 0, -0.548085,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

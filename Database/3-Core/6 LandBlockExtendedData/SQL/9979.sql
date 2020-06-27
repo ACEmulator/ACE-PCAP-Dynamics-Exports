@@ -13,18 +13,18 @@ VALUES (0x79979002,  1154, 0x9979002F, 129.4869, 167.3327, 25.94599, 0.9178852, 
 /* @teleloc 0x9979002F [129.486900 167.332700 25.945990] 0.917885 0.000000 0.000000 -0.396846 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79979002, 0x79979003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79979002, 0x79979004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79979002, 0x79979005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79979002, 0x79979006, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79979002, 0x79979007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79979002, 0x79979008, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x79979002, 0x79979009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x79979002, 0x7997900A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79979002, 0x7997900B, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79979002, 0x7997900C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79979002, 0x7997900D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79979002, 0x7997900E, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x79979002, 0x79979003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79979002, 0x79979004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79979002, 0x79979005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79979002, 0x79979006, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79979002, 0x79979007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79979002, 0x79979008, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x79979002, 0x79979009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x79979002, 0x7997900A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79979002, 0x7997900B, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79979002, 0x7997900C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79979002, 0x7997900D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79979002, 0x7997900E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79979003,  9257, 0x9979002F, 129.4869, 167.3327, 25.94599, 0.9178852, 0, 0, -0.3968461,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
@@ -79,7 +79,7 @@ VALUES (0x7997900F,  1542, 0x9979002B, 134.9806, 50.09355, 25.82554, 0.06303487,
 /* @teleloc 0x9979002B [134.980600 50.093550 25.825540] 0.063035 0.000000 0.000000 -0.998011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7997900F, 0x79979010, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7997900F, 0x79979010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79979010,  8041, 0x9979002B, 134.9806, 50.09355, 25.82554, 0.06303487, 0, 0, -0.9980114,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

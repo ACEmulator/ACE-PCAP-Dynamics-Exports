@@ -5,16 +5,16 @@ VALUES (0x7AFA1001,  1154, 0xAFA1001F, 86.51381, 147.7287, 135.1302, 0.9659258, 
 /* @teleloc 0xAFA1001F [86.513810 147.728700 135.130200] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA1001, 0x7AFA1002, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7AFA1001, 0x7AFA1003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AFA1001, 0x7AFA1004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AFA1001, 0x7AFA1005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AFA1001, 0x7AFA1006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AFA1001, 0x7AFA1007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AFA1001, 0x7AFA1008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AFA1001, 0x7AFA1009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AFA1001, 0x7AFA100A, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AFA1001, 0x7AFA100B, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AFA1001, 0x7AFA1002, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7AFA1001, 0x7AFA1003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AFA1001, 0x7AFA1004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AFA1001, 0x7AFA1005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AFA1001, 0x7AFA1006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AFA1001, 0x7AFA1007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AFA1001, 0x7AFA1008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AFA1001, 0x7AFA1009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AFA1001, 0x7AFA100A, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AFA1001, 0x7AFA100B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA1002,  1632, 0xAFA1001F, 86.51381, 147.7287, 135.1302, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Slave */

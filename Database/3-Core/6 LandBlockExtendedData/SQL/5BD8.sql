@@ -5,29 +5,29 @@ VALUES (0x75BD8001,  1154, 0x5BD80002, 10.08933, 46.46296, 156.5946, -0.08715577
 /* @teleloc 0x5BD80002 [10.089330 46.462960 156.594600] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BD8001, 0x75BD8002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x75BD8001, 0x75BD8005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x75BD8001, 0x75BD8006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x75BD8001, 0x75BD8007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75BD8001, 0x75BD8008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75BD8001, 0x75BD8009, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75BD8001, 0x75BD800A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD800B, '2019-02-10 00:00:00') /* Brumal */
-     , (0x75BD8001, 0x75BD800C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD800D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD800E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75BD8001, 0x75BD800F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75BD8001, 0x75BD8010, '2019-02-10 00:00:00') /* Brumal */
-     , (0x75BD8001, 0x75BD8011, '2019-02-10 00:00:00') /* Horripal */
-     , (0x75BD8001, 0x75BD8012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75BD8001, 0x75BD8013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75BD8001, 0x75BD8014, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8017, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75BD8001, 0x75BD8018, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x75BD8001, 0x75BD8002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x75BD8001, 0x75BD8005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x75BD8001, 0x75BD8006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x75BD8001, 0x75BD8007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75BD8001, 0x75BD8008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75BD8001, 0x75BD8009, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75BD8001, 0x75BD800A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD800B, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x75BD8001, 0x75BD800C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD800D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD800E, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x75BD8001, 0x75BD800F, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x75BD8001, 0x75BD8010, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x75BD8001, 0x75BD8011, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x75BD8001, 0x75BD8012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75BD8001, 0x75BD8013, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75BD8001, 0x75BD8014, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75BD8001, 0x75BD8018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BD8002, 24497, 0x5BD80002, 10.08933, 46.46296, 156.5946, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -126,9 +126,9 @@ VALUES (0x75BD8019,  1542, 0x5BD8002E, 140.018, 125.842, 173.937, 0.6134779, 0, 
 /* @teleloc 0x5BD8002E [140.018000 125.842000 173.937000] 0.613478 0.000000 0.000000 0.789712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BD8019, 0x75BD801A, '2019-02-10 00:00:00') /* Renegade Stronghold */
-     , (0x75BD8019, 0x75BD801B, '2019-02-10 00:00:00') /* Rock */
-     , (0x75BD8019, 0x75BD801C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x75BD8019, 0x75BD801A, '2019-02-10 00:00:00') /* Renegade Stronghold (27696) */
+     , (0x75BD8019, 0x75BD801B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x75BD8019, 0x75BD801C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BD801A, 27696, 0x5BD8002E, 140.018, 125.842, 173.937, 0.6134779, 0, 0, 0.7897119,  True, '2019-02-10 00:00:00'); /* Renegade Stronghold */

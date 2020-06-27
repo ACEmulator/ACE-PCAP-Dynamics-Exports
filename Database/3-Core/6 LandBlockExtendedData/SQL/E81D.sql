@@ -5,45 +5,45 @@ VALUES (0x7E81D001,  1154, 0xE81D0018, 48.32869, 170.927, 28.012, 1, 0, 0, 0, Fa
 /* @teleloc 0xE81D0018 [48.328690 170.927000 28.012000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E81D001, 0x7E81D002, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D003, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D004, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81D001, 0x7E81D006, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E81D001, 0x7E81D007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81D001, 0x7E81D008, '2019-02-10 00:00:00') /* Shallows Slayer */
-     , (0x7E81D001, 0x7E81D009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E81D001, 0x7E81D00A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E81D001, 0x7E81D00B, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E81D001, 0x7E81D00D, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E81D001, 0x7E81D00E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E81D001, 0x7E81D00F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E81D001, 0x7E81D010, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D011, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E81D001, 0x7E81D012, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E81D001, 0x7E81D013, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81D001, 0x7E81D014, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D015, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D016, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D017, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D018, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E81D001, 0x7E81D019, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D01A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D01B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E81D001, 0x7E81D01C, '2019-02-10 00:00:00') /* Swamp Rat */
-     , (0x7E81D001, 0x7E81D01D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81D001, 0x7E81D01E, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81D001, 0x7E81D01F, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E81D001, 0x7E81D020, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E81D001, 0x7E81D021, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E81D001, 0x7E81D022, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E81D001, 0x7E81D023, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E81D001, 0x7E81D024, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D025, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D026, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E81D001, 0x7E81D027, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E81D001, 0x7E81D028, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7E81D001, 0x7E81D002, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D003, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D004, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81D001, 0x7E81D006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E81D001, 0x7E81D007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81D001, 0x7E81D008, '2019-02-10 00:00:00') /* Shallows Slayer (2579) */
+     , (0x7E81D001, 0x7E81D009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E81D001, 0x7E81D00A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E81D001, 0x7E81D00B, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E81D001, 0x7E81D00D, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E81D001, 0x7E81D00E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E81D001, 0x7E81D00F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E81D001, 0x7E81D010, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D011, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E81D001, 0x7E81D012, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E81D001, 0x7E81D013, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81D001, 0x7E81D014, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D015, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D016, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D017, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D018, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E81D001, 0x7E81D019, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D01A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D01B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E81D001, 0x7E81D01C, '2019-02-10 00:00:00') /* Swamp Rat (1624) */
+     , (0x7E81D001, 0x7E81D01D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81D001, 0x7E81D01E, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81D001, 0x7E81D01F, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E81D001, 0x7E81D020, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E81D001, 0x7E81D021, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E81D001, 0x7E81D022, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E81D001, 0x7E81D023, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E81D001, 0x7E81D024, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D025, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D026, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E81D001, 0x7E81D027, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E81D001, 0x7E81D028, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E81D002,  1624, 0xE81D0018, 48.32869, 170.927, 28.012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Swamp Rat */
@@ -206,9 +206,9 @@ VALUES (0x7E81D029,  1542, 0xE81D0009, 42.20031, 13.08817, 21.9975, 1, 0, 0, 0, 
 /* @teleloc 0xE81D0009 [42.200310 13.088170 21.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E81D029, 0x7E81D02A, '2019-02-10 00:00:00') /* Chainmail Leggings */
-     , (0x7E81D029, 0x7E81D02B, '2019-02-10 00:00:00') /* Gem */
-     , (0x7E81D029, 0x7E81D02C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E81D029, 0x7E81D02A, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
+     , (0x7E81D029, 0x7E81D02B, '2019-02-10 00:00:00') /* Gem (2418) */
+     , (0x7E81D029, 0x7E81D02C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E81D02A,    80, 0xE81D0009, 42.20031, 13.08817, 21.9975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chainmail Leggings */

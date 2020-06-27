@@ -5,20 +5,20 @@ VALUES (0x79CA6001,  1154, 0x9CA60014, 50.11064, 77.07539, 86.18688, 0.9659258, 
 /* @teleloc 0x9CA60014 [50.110640 77.075390 86.186880] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CA6001, 0x79CA6002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79CA6001, 0x79CA6003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79CA6001, 0x79CA6004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79CA6001, 0x79CA6005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79CA6001, 0x79CA6006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79CA6001, 0x79CA6007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79CA6001, 0x79CA6008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79CA6001, 0x79CA6009, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79CA6001, 0x79CA600A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79CA6001, 0x79CA600B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79CA6001, 0x79CA600C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79CA6001, 0x79CA600D, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79CA6001, 0x79CA600E, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79CA6001, 0x79CA600F, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x79CA6001, 0x79CA6002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79CA6001, 0x79CA6003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79CA6001, 0x79CA6004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79CA6001, 0x79CA6005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79CA6001, 0x79CA6006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79CA6001, 0x79CA6007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79CA6001, 0x79CA6008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79CA6001, 0x79CA6009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79CA6001, 0x79CA600A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79CA6001, 0x79CA600B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79CA6001, 0x79CA600C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79CA6001, 0x79CA600D, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79CA6001, 0x79CA600E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79CA6001, 0x79CA600F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CA6002,   195, 0x9CA60014, 50.11064, 77.07539, 86.18688, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -81,9 +81,9 @@ VALUES (0x79CA6010,  1542, 0x9CA6000C, 32.0362, 91.81556, 84.66968, 1, 0, 0, 0, 
 /* @teleloc 0x9CA6000C [32.036200 91.815560 84.669680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CA6010, 0x79CA6011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79CA6010, 0x79CA6012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79CA6010, 0x79CA6013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79CA6010, 0x79CA6011, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x79CA6010, 0x79CA6012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79CA6010, 0x79CA6013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CA6011, 22576, 0x9CA6000C, 32.0362, 91.81556, 84.66968, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

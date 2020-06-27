@@ -5,12 +5,12 @@ VALUES (0x7B5A5001,  1154, 0xB5A50012, 70.40275, 45.89944, 39.12349, 0.9238795, 
 /* @teleloc 0xB5A50012 [70.402750 45.899440 39.123490] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A5001, 0x7B5A5002, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B5A5001, 0x7B5A5003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B5A5001, 0x7B5A5004, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B5A5001, 0x7B5A5005, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B5A5001, 0x7B5A5006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B5A5001, 0x7B5A5007, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7B5A5001, 0x7B5A5002, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B5A5001, 0x7B5A5003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B5A5001, 0x7B5A5004, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B5A5001, 0x7B5A5005, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B5A5001, 0x7B5A5006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B5A5001, 0x7B5A5007, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A5002,   209, 0xB5A50012, 70.40275, 45.89944, 39.12349, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Mite Squib */

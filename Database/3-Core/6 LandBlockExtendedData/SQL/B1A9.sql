@@ -5,18 +5,18 @@ VALUES (0x7B1A9001,  1154, 0xB1A90021, 115.7219, 11.93736, 28.001, 0.4794465, 0,
 /* @teleloc 0xB1A90021 [115.721900 11.937360 28.001000] 0.479447 0.000000 0.000000 -0.877571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A9001, 0x7B1A9002, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B1A9001, 0x7B1A9003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B1A9001, 0x7B1A9004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A9001, 0x7B1A9005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A9001, 0x7B1A9006, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B1A9001, 0x7B1A9007, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B1A9001, 0x7B1A9008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1A9001, 0x7B1A9009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B1A9001, 0x7B1A900A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B1A9001, 0x7B1A900B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B1A9001, 0x7B1A900C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B1A9001, 0x7B1A900D, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B1A9001, 0x7B1A9002, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B1A9001, 0x7B1A9003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B1A9001, 0x7B1A9004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A9001, 0x7B1A9005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A9001, 0x7B1A9006, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B1A9001, 0x7B1A9007, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B1A9001, 0x7B1A9008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1A9001, 0x7B1A9009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B1A9001, 0x7B1A900A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B1A9001, 0x7B1A900B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B1A9001, 0x7B1A900C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B1A9001, 0x7B1A900D, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A9002,  2578, 0xB1A90021, 115.7219, 11.93736, 28.001, 0.4794465, 0, 0, -0.8775711,  True, '2019-02-10 00:00:00'); /* Shallows Lurker */
@@ -71,7 +71,7 @@ VALUES (0x7B1A900E,  1154, 0xB1A90008, 12.1607, 175.563, 42.22533, 0.9996875, 0,
 /* @teleloc 0xB1A90008 [12.160700 175.563000 42.225330] 0.999688 0.000000 0.000000 0.024998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1A900E, 0x7B1A900F, '2019-02-10 00:00:00') /* Hemmik the Sly */;
+VALUES (0x7B1A900E, 0x7B1A900F, '2019-02-10 00:00:00') /* Hemmik the Sly (25600) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1A900F, 25600, 0xB1A90008, 12.1607, 175.563, 42.22533, 0.9996875, 0, 0, 0.02499791,  True, '2019-02-10 00:00:00'); /* Hemmik the Sly */

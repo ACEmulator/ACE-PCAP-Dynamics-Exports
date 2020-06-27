@@ -5,16 +5,16 @@ VALUES (0x7AFB5001,  1154, 0xAFB5001F, 90.09461, 148.9988, 97.50888, 0.4182588, 
 /* @teleloc 0xAFB5001F [90.094610 148.998800 97.508880] 0.418259 0.000000 0.000000 -0.908328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB5001, 0x7AFB5002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFB5001, 0x7AFB5003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7AFB5001, 0x7AFB5004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB5001, 0x7AFB5005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFB5001, 0x7AFB5006, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB5001, 0x7AFB5007, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AFB5001, 0x7AFB5008, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7AFB5001, 0x7AFB5009, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB5001, 0x7AFB500A, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7AFB5001, 0x7AFB500B, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7AFB5001, 0x7AFB5002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFB5001, 0x7AFB5003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7AFB5001, 0x7AFB5004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB5001, 0x7AFB5005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFB5001, 0x7AFB5006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB5001, 0x7AFB5007, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AFB5001, 0x7AFB5008, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7AFB5001, 0x7AFB5009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB5001, 0x7AFB500A, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AFB5001, 0x7AFB500B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB5002,   223, 0xAFB5001F, 90.09461, 148.9988, 97.50888, 0.4182588, 0, 0, -0.9083279,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

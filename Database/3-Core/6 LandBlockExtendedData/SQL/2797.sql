@@ -5,14 +5,14 @@ VALUES (0x72797001,  1154, 0x2797000E, 28.58568, 142.075, 119.2039, 0.8191521, 0
 /* @teleloc 0x2797000E [28.585680 142.075000 119.203900] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72797001, 0x72797002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72797001, 0x72797003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72797001, 0x72797004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72797001, 0x72797005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72797001, 0x72797006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72797001, 0x72797007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72797001, 0x72797008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x72797001, 0x72797009, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x72797001, 0x72797002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72797001, 0x72797003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72797001, 0x72797004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72797001, 0x72797005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72797001, 0x72797006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72797001, 0x72797007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72797001, 0x72797008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x72797001, 0x72797009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72797002, 23566, 0x2797000E, 28.58568, 142.075, 119.2039, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */

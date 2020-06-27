@@ -5,13 +5,13 @@ VALUES (0x7D03E001,  1154, 0xD03E0033, 164.7566, 60.35169, 162.3815, -0.4529319,
 /* @teleloc 0xD03E0033 [164.756600 60.351690 162.381500] -0.452932 0.000000 0.000000 -0.891545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D03E001, 0x7D03E002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D03E001, 0x7D03E003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D03E001, 0x7D03E004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7D03E001, 0x7D03E005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D03E001, 0x7D03E006, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7D03E001, 0x7D03E007, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D03E001, 0x7D03E008, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7D03E001, 0x7D03E002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D03E001, 0x7D03E003, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7D03E001, 0x7D03E004, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7D03E001, 0x7D03E005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D03E001, 0x7D03E006, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7D03E001, 0x7D03E007, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D03E001, 0x7D03E008, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D03E002,  8141, 0xD03E0033, 164.7566, 60.35169, 162.3815, -0.4529319, 0, 0, -0.8915451,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -46,7 +46,7 @@ VALUES (0x7D03E009,  1542, 0xD03E0002, 17.0263, 35.8625, 177.3486, 1, 0, 0, 0, F
 /* @teleloc 0xD03E0002 [17.026300 35.862500 177.348600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D03E009, 0x7D03E00A, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7D03E009, 0x7D03E00A, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D03E00A,  4383, 0xD03E0002, 17.0263, 35.8625, 177.3486, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

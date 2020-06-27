@@ -5,17 +5,17 @@ VALUES (0x78117001,  1154, 0x81170038, 152.097, 184.5903, -0.9, 1, 0, 0, 0, Fals
 /* @teleloc 0x81170038 [152.097000 184.590300 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78117001, 0x78117002, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x78117001, 0x78117003, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x78117001, 0x78117004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78117001, 0x78117005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78117001, 0x78117006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78117001, 0x78117007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78117001, 0x78117008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x78117001, 0x78117009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x78117001, 0x7811700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x78117001, 0x7811700B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78117001, 0x7811700C, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x78117001, 0x78117002, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x78117001, 0x78117003, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x78117001, 0x78117004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78117001, 0x78117005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78117001, 0x78117006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78117001, 0x78117007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78117001, 0x78117008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x78117001, 0x78117009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x78117001, 0x7811700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x78117001, 0x7811700B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78117001, 0x7811700C, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78117002,  8467, 0x81170038, 152.097, 184.5903, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dread Idol */

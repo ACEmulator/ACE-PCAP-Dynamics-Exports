@@ -5,12 +5,12 @@ VALUES (0x78813001,  1154, 0x88130017, 48.97919, 164.824, 237.2319, 0.9238795, 0
 /* @teleloc 0x88130017 [48.979190 164.824000 237.231900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78813001, 0x78813002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78813001, 0x78813003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x78813001, 0x78813004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78813001, 0x78813005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78813001, 0x78813006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x78813001, 0x78813007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x78813001, 0x78813002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78813001, 0x78813003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x78813001, 0x78813004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78813001, 0x78813005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78813001, 0x78813006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x78813001, 0x78813007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78813002, 24494, 0x88130017, 48.97919, 164.824, 237.2319, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -41,8 +41,8 @@ VALUES (0x78813008,  1542, 0x8813000F, 41.48429, 167.795, 235.0507, 1, 0, 0, 0, 
 /* @teleloc 0x8813000F [41.484290 167.795000 235.050700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78813008, 0x78813009, '2019-02-10 00:00:00') /* Bones */
-     , (0x78813008, 0x7881300A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x78813008, 0x78813009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78813008, 0x7881300A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78813009,  4380, 0x8813000F, 41.48429, 167.795, 235.0507, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

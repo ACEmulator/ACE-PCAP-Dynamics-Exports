@@ -5,23 +5,23 @@ VALUES (0x7BA71001,  1154, 0xBA710019, 73.12782, 12.32432, 16, -0.1059748, 0, 0,
 /* @teleloc 0xBA710019 [73.127820 12.324320 16.000000] -0.105975 0.000000 0.000000 -0.994369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA71001, 0x7BA71002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7BA71001, 0x7BA71004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA71001, 0x7BA71007, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71009, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA7100A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA7100B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA7100C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA71001, 0x7BA7100D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA71001, 0x7BA7100E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA71001, 0x7BA7100F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA71001, 0x7BA71010, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BA71001, 0x7BA71011, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BA71001, 0x7BA71012, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7BA71001, 0x7BA71002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BA71001, 0x7BA71004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA71001, 0x7BA71007, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71009, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA7100A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA7100B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA7100C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA71001, 0x7BA7100D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA71001, 0x7BA7100E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA71001, 0x7BA7100F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA71001, 0x7BA71010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BA71001, 0x7BA71011, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BA71001, 0x7BA71012, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA71002,  2567, 0xBA710019, 73.12782, 12.32432, 16, -0.1059748, 0, 0, -0.9943688,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -96,7 +96,7 @@ VALUES (0x7BA71013,  1542, 0xBA710037, 146.5509, 146.9989, 14, -4.371139E-08, 0,
 /* @teleloc 0xBA710037 [146.550900 146.998900 14.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA71013, 0x7BA71014, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7BA71013, 0x7BA71014, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA71014,   546, 0xBA710037, 146.5509, 146.9989, 14, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Egg */

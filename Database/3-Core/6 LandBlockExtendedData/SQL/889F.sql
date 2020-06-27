@@ -5,17 +5,17 @@ VALUES (0x7889F001,  1154, 0x889F002E, 135.9998, 123.5787, 115.7073, 1, 0, 0, 0,
 /* @teleloc 0x889F002E [135.999800 123.578700 115.707300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7889F001, 0x7889F002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7889F001, 0x7889F003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7889F001, 0x7889F004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7889F001, 0x7889F005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7889F001, 0x7889F006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7889F001, 0x7889F007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7889F001, 0x7889F008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7889F001, 0x7889F009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7889F001, 0x7889F00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7889F001, 0x7889F00B, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7889F001, 0x7889F00C, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7889F001, 0x7889F002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7889F001, 0x7889F003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7889F001, 0x7889F004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7889F001, 0x7889F005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7889F001, 0x7889F006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7889F001, 0x7889F007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7889F001, 0x7889F008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7889F001, 0x7889F009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7889F001, 0x7889F00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7889F001, 0x7889F00B, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7889F001, 0x7889F00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7889F002,   231, 0x889F002E, 135.9998, 123.5787, 115.7073, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -66,8 +66,8 @@ VALUES (0x7889F00D,  1542, 0x889F002E, 138.0206, 122.2639, 115.8092, 1, 0, 0, 0,
 /* @teleloc 0x889F002E [138.020600 122.263900 115.809200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7889F00D, 0x7889F00E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7889F00D, 0x7889F00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7889F00D, 0x7889F00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7889F00D, 0x7889F00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7889F00E, 31443, 0x889F002E, 138.0206, 122.2639, 115.8092, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

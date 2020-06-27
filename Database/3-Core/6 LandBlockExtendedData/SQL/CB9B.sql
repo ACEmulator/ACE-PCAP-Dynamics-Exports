@@ -5,24 +5,24 @@ VALUES (0x7CB9B001,  1154, 0xCB9B0019, 87.66361, 15.44949, 10.02884, 0.7660445, 
 /* @teleloc 0xCB9B0019 [87.663610 15.449490 10.028840] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9B001, 0x7CB9B002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB9B001, 0x7CB9B003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CB9B001, 0x7CB9B004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CB9B001, 0x7CB9B005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CB9B001, 0x7CB9B006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CB9B001, 0x7CB9B007, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CB9B001, 0x7CB9B008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CB9B001, 0x7CB9B009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CB9B001, 0x7CB9B00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CB9B001, 0x7CB9B00B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB9B001, 0x7CB9B00C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CB9B001, 0x7CB9B00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CB9B001, 0x7CB9B00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CB9B001, 0x7CB9B00F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CB9B001, 0x7CB9B010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CB9B001, 0x7CB9B011, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CB9B001, 0x7CB9B012, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CB9B001, 0x7CB9B013, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7CB9B001, 0x7CB9B002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB9B001, 0x7CB9B003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CB9B001, 0x7CB9B004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CB9B001, 0x7CB9B005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CB9B001, 0x7CB9B006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CB9B001, 0x7CB9B007, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CB9B001, 0x7CB9B008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CB9B001, 0x7CB9B009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CB9B001, 0x7CB9B00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CB9B001, 0x7CB9B00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB9B001, 0x7CB9B00C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CB9B001, 0x7CB9B00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CB9B001, 0x7CB9B00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CB9B001, 0x7CB9B00F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CB9B001, 0x7CB9B010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CB9B001, 0x7CB9B011, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CB9B001, 0x7CB9B012, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CB9B001, 0x7CB9B013, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9B002,   195, 0xCB9B0019, 87.66361, 15.44949, 10.02884, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -101,7 +101,7 @@ VALUES (0x7CB9B014,  1542, 0xCB9B0021, 119.6461, 8.278481, 14.56277, 0.6629232, 
 /* @teleloc 0xCB9B0021 [119.646100 8.278481 14.562770] 0.662923 0.000000 0.000000 -0.748687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9B014, 0x7CB9B015, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7CB9B014, 0x7CB9B015, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9B015, 15715, 0xCB9B0021, 119.6461, 8.278481, 14.56277, 0.6629232, 0, 0, -0.7486874,  True, '2019-02-10 00:00:00'); /* Sunflower */

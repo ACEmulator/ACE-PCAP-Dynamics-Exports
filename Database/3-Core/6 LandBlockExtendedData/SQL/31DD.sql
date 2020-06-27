@@ -5,19 +5,19 @@ VALUES (0x731DD001,  1154, 0x31DD0008, 17.9509, 170.7486, 8.003325, 0.7622298, 0
 /* @teleloc 0x31DD0008 [17.950900 170.748600 8.003325] 0.762230 0.000000 0.000000 -0.647307 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x731DD001, 0x731DD002, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x731DD001, 0x731DD003, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x731DD001, 0x731DD004, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x731DD001, 0x731DD005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x731DD001, 0x731DD006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x731DD001, 0x731DD007, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x731DD001, 0x731DD008, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x731DD001, 0x731DD009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x731DD001, 0x731DD00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x731DD001, 0x731DD00B, '2019-02-10 00:00:00') /* White Rat */
-     , (0x731DD001, 0x731DD00C, '2019-02-10 00:00:00') /* Undead */
-     , (0x731DD001, 0x731DD00D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x731DD001, 0x731DD00E, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x731DD001, 0x731DD002, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x731DD001, 0x731DD003, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x731DD001, 0x731DD004, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x731DD001, 0x731DD005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x731DD001, 0x731DD006, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x731DD001, 0x731DD007, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x731DD001, 0x731DD008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x731DD001, 0x731DD009, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x731DD001, 0x731DD00A, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x731DD001, 0x731DD00B, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x731DD001, 0x731DD00C, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x731DD001, 0x731DD00D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x731DD001, 0x731DD00E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731DD002, 19257, 0x31DD0008, 17.9509, 170.7486, 8.003325, 0.7622298, 0, 0, -0.6473065,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */

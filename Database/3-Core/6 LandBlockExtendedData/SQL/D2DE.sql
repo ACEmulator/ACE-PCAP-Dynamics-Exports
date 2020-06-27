@@ -5,110 +5,110 @@ VALUES (0x7D2DE001,  1154, 0xD2DE0030, 137.5448, 175.2855, 4.0064, -0.668439, 0,
 /* @teleloc 0xD2DE0030 [137.544800 175.285500 4.006400] -0.668439 0.000000 0.000000 -0.743767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2DE001, 0x7D2DE002, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE003, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE004, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE005, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE006, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE007, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE008, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE009, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE00A, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE00B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE00C, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE00D, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE00E, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE00F, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE010, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE011, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE012, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DE001, 0x7D2DE013, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE014, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE015, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE016, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE017, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE018, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE019, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE01A, '2019-02-10 00:00:00') /* Gold Moarsman */
-     , (0x7D2DE001, 0x7D2DE01B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE01C, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE01D, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE01E, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE01F, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE020, '2019-02-10 00:00:00') /* Gold Moarsman */
-     , (0x7D2DE001, 0x7D2DE021, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE022, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE023, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE024, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DE001, 0x7D2DE025, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE026, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE027, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE028, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE029, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE02A, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE02B, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE02C, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE02D, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE02E, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DE001, 0x7D2DE02F, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DE001, 0x7D2DE030, '2019-02-10 00:00:00') /* Gold Moarsman */
-     , (0x7D2DE001, 0x7D2DE031, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE032, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE033, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE034, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE035, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE036, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE037, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE038, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE039, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE03A, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE03B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE03C, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE03D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE03E, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D2DE001, 0x7D2DE03F, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE040, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7D2DE001, 0x7D2DE041, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE042, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE043, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE044, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE045, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE046, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE047, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE048, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE049, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE04A, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE04B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE04C, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE04D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE04E, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE04F, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE050, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE051, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE052, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE053, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE054, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE055, '2019-02-10 00:00:00') /* Remoran Sea Raptor */
-     , (0x7D2DE001, 0x7D2DE056, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D2DE001, 0x7D2DE057, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE058, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE059, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE05A, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE05B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE05C, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE05D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE05E, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE05F, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE060, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D2DE001, 0x7D2DE061, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE062, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE063, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D2DE001, 0x7D2DE064, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE065, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D2DE001, 0x7D2DE066, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D2DE001, 0x7D2DE067, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D2DE001, 0x7D2DE068, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7D2DE001, 0x7D2DE069, '2019-02-10 00:00:00') /* Shallows Shredder */;
+VALUES (0x7D2DE001, 0x7D2DE002, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE003, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE004, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE005, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE006, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE007, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE008, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE009, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE00A, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE00B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE00C, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE00D, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE00E, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE00F, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE010, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE011, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE012, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DE001, 0x7D2DE013, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE014, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE015, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE016, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE017, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE018, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE019, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE01A, '2019-02-10 00:00:00') /* Gold Moarsman (31913) */
+     , (0x7D2DE001, 0x7D2DE01B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE01C, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE01D, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE01E, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE01F, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE020, '2019-02-10 00:00:00') /* Gold Moarsman (31913) */
+     , (0x7D2DE001, 0x7D2DE021, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE022, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE023, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE024, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DE001, 0x7D2DE025, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE026, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE027, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE028, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE029, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE02A, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE02B, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE02C, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE02D, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE02E, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DE001, 0x7D2DE02F, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DE001, 0x7D2DE030, '2019-02-10 00:00:00') /* Gold Moarsman (31913) */
+     , (0x7D2DE001, 0x7D2DE031, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE032, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE033, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE034, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE035, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE036, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE037, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE038, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE039, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE03A, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE03B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE03C, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE03D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE03E, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D2DE001, 0x7D2DE03F, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE040, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D2DE001, 0x7D2DE041, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE042, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE043, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE044, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE045, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE046, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE047, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE048, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE049, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE04A, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE04B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE04C, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE04D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE04E, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE04F, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE050, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE051, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE052, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE053, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE054, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE055, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D2DE001, 0x7D2DE056, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D2DE001, 0x7D2DE057, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE058, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE059, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE05A, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE05B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE05C, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE05D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE05E, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE05F, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE060, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D2DE001, 0x7D2DE061, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE062, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE063, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D2DE001, 0x7D2DE064, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE065, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D2DE001, 0x7D2DE066, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D2DE001, 0x7D2DE067, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D2DE001, 0x7D2DE068, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7D2DE001, 0x7D2DE069, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2DE002, 31915, 0xD2DE0030, 137.5448, 175.2855, 4.0064, -0.668439, 0, 0, -0.743767,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */

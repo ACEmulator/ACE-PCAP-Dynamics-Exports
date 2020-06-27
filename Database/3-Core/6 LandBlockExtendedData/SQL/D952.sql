@@ -5,12 +5,12 @@ VALUES (0x7D952001,  1154, 0xD952003B, 187.5773, 55.22087, 28.36106, -0.9996734,
 /* @teleloc 0xD952003B [187.577300 55.220870 28.361060] -0.999673 0.000000 0.000000 -0.025558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D952001, 0x7D952002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D952001, 0x7D952003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D952001, 0x7D952004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D952001, 0x7D952005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7D952001, 0x7D952006, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7D952001, 0x7D952007, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7D952001, 0x7D952002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D952001, 0x7D952003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D952001, 0x7D952004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D952001, 0x7D952005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7D952001, 0x7D952006, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D952001, 0x7D952007, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D952002,  2612, 0xD952003B, 187.5773, 55.22087, 28.36106, -0.9996734, 0, 0, -0.02555751,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

@@ -5,13 +5,13 @@ VALUES (0x7E23A001,  1154, 0xE23A0027, 115.5805, 148.5229, 104.7952, -0.6427876,
 /* @teleloc 0xE23A0027 [115.580500 148.522900 104.795200] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E23A001, 0x7E23A002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E23A001, 0x7E23A003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E23A001, 0x7E23A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E23A001, 0x7E23A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E23A001, 0x7E23A006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E23A001, 0x7E23A007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E23A001, 0x7E23A008, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7E23A001, 0x7E23A002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E23A001, 0x7E23A003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E23A001, 0x7E23A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E23A001, 0x7E23A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E23A001, 0x7E23A006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E23A001, 0x7E23A007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E23A001, 0x7E23A008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E23A002,  1608, 0xE23A0027, 115.5805, 148.5229, 104.7952, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -46,7 +46,7 @@ VALUES (0x7E23A009,  1542, 0xE23A002B, 136.1096, 71.90778, 104.7047, 1, 0, 0, 0,
 /* @teleloc 0xE23A002B [136.109600 71.907780 104.704700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E23A009, 0x7E23A00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7E23A009, 0x7E23A00A, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E23A00A, 22570, 0xE23A002B, 136.1096, 71.90778, 104.7047, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

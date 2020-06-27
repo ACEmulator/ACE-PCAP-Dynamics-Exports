@@ -5,16 +5,16 @@ VALUES (0x7D83B001,  1154, 0xD83B0035, 145.6481, 113.6549, 94.95249, 0.6217654, 
 /* @teleloc 0xD83B0035 [145.648100 113.654900 94.952490] 0.621765 0.000000 0.000000 -0.783204 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D83B001, 0x7D83B002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D83B001, 0x7D83B003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7D83B001, 0x7D83B004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D83B001, 0x7D83B005, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7D83B001, 0x7D83B006, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D83B001, 0x7D83B007, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7D83B001, 0x7D83B008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D83B001, 0x7D83B009, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D83B001, 0x7D83B00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D83B001, 0x7D83B00B, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7D83B001, 0x7D83B002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D83B001, 0x7D83B003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7D83B001, 0x7D83B004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D83B001, 0x7D83B005, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7D83B001, 0x7D83B006, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D83B001, 0x7D83B007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7D83B001, 0x7D83B008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D83B001, 0x7D83B009, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D83B001, 0x7D83B00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D83B001, 0x7D83B00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D83B002, 14521, 0xD83B0035, 145.6481, 113.6549, 94.95249, 0.6217654, 0, 0, -0.7832035,  True, '2019-02-10 00:00:00'); /* Glacial Golem */

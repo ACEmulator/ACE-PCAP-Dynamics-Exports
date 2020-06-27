@@ -9,10 +9,10 @@ VALUES (0x740F4001,  1154, 0x40F40008, 12.73657, 182.6956, 120.7399, 0.9842423, 
 /* @teleloc 0x40F40008 [12.736570 182.695600 120.739900] 0.984242 0.000000 0.000000 -0.176825 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740F4001, 0x740F4002, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x740F4001, 0x740F4003, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x740F4001, 0x740F4004, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x740F4001, 0x740F4005, '2019-02-10 00:00:00') /* Insatiable Eater */;
+VALUES (0x740F4001, 0x740F4002, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x740F4001, 0x740F4003, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x740F4001, 0x740F4004, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x740F4001, 0x740F4005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740F4002, 29303, 0x40F40008, 12.73657, 182.6956, 120.7399, 0.9842423, 0, 0, -0.1768253,  True, '2019-02-10 00:00:00'); /* Royal Thaumaturge */

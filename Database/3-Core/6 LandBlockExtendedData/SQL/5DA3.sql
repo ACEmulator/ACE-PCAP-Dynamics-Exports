@@ -5,14 +5,14 @@ VALUES (0x75DA3001,  1154, 0x5DA30023, 106.7461, 53.45438, 82.8709, 0.02269033, 
 /* @teleloc 0x5DA30023 [106.746100 53.454380 82.870900] 0.022690 0.000000 0.000000 -0.999743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA3001, 0x75DA3002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75DA3001, 0x75DA3003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75DA3001, 0x75DA3004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75DA3001, 0x75DA3005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75DA3001, 0x75DA3006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75DA3001, 0x75DA3007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75DA3001, 0x75DA3008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75DA3001, 0x75DA3009, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x75DA3001, 0x75DA3002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75DA3001, 0x75DA3003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75DA3001, 0x75DA3004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75DA3001, 0x75DA3005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75DA3001, 0x75DA3006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75DA3001, 0x75DA3007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75DA3001, 0x75DA3008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75DA3001, 0x75DA3009, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA3002,  7179, 0x5DA30023, 106.7461, 53.45438, 82.8709, 0.02269033, 0, 0, -0.9997426,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -51,7 +51,7 @@ VALUES (0x75DA300A,  1542, 0x5DA30017, 70.11339, 152.3159, 64.69299, 1, 0, 0, 0,
 /* @teleloc 0x5DA30017 [70.113390 152.315900 64.692990] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA300A, 0x75DA300B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75DA300A, 0x75DA300B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA300B, 22567, 0x5DA30017, 70.11339, 152.3159, 64.69299, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

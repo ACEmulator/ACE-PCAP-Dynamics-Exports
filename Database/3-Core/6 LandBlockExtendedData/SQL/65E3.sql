@@ -5,9 +5,9 @@ VALUES (0x765E3001,  1154, 0x65E30019, 85.63422, 7.885637, 77.56274, -0.8922044,
 /* @teleloc 0x65E30019 [85.634220 7.885637 77.562740] -0.892204 0.000000 0.000000 -0.451632 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765E3001, 0x765E3002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x765E3001, 0x765E3003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x765E3001, 0x765E3004, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x765E3001, 0x765E3002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x765E3001, 0x765E3003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x765E3001, 0x765E3004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765E3002, 11541, 0x65E30019, 85.63422, 7.885637, 77.56274, -0.8922044, 0, 0, -0.4516318,  True, '2019-02-10 00:00:00'); /* Plated Tusker */

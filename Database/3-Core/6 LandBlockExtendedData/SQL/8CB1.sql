@@ -5,23 +5,23 @@ VALUES (0x78CB1001,  1154, 0x8CB10002, 10.45884, 30.99924, 80.20672, -0.4714151,
 /* @teleloc 0x8CB10002 [10.458840 30.999240 80.206720] -0.471415 0.000000 0.000000 -0.881912 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB1001, 0x78CB1002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CB1001, 0x78CB1003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78CB1001, 0x78CB1004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78CB1001, 0x78CB1005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB1001, 0x78CB1006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB1001, 0x78CB1007, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB1001, 0x78CB1008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CB1001, 0x78CB1009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CB1001, 0x78CB100A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CB1001, 0x78CB100B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CB1001, 0x78CB100C, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CB1001, 0x78CB100D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78CB1001, 0x78CB100E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78CB1001, 0x78CB100F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB1001, 0x78CB1010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB1001, 0x78CB1011, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CB1001, 0x78CB1012, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x78CB1001, 0x78CB1002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CB1001, 0x78CB1003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78CB1001, 0x78CB1004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78CB1001, 0x78CB1005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB1001, 0x78CB1006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB1001, 0x78CB1007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB1001, 0x78CB1008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CB1001, 0x78CB1009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CB1001, 0x78CB100A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CB1001, 0x78CB100B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CB1001, 0x78CB100C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CB1001, 0x78CB100D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78CB1001, 0x78CB100E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78CB1001, 0x78CB100F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB1001, 0x78CB1010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB1001, 0x78CB1011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CB1001, 0x78CB1012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB1002, 28551, 0x8CB10002, 10.45884, 30.99924, 80.20672, -0.4714151, 0, 0, -0.8819115,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -96,8 +96,8 @@ VALUES (0x78CB1013,  1542, 0x8CB1000C, 29.86258, 74.61701, 87.14937, 1, 0, 0, 0,
 /* @teleloc 0x8CB1000C [29.862580 74.617010 87.149370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB1013, 0x78CB1014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78CB1013, 0x78CB1015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78CB1013, 0x78CB1014, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78CB1013, 0x78CB1015, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB1014, 22567, 0x8CB1000C, 29.86258, 74.61701, 87.14937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

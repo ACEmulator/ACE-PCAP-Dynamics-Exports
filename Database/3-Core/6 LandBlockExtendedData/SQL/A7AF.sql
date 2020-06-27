@@ -5,17 +5,17 @@ VALUES (0x7A7AF001,  1154, 0xA7AF0020, 79.22926, 172.671, 102.2011, 0.6685044, 0
 /* @teleloc 0xA7AF0020 [79.229260 172.671000 102.201100] 0.668504 0.000000 0.000000 -0.743708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7AF001, 0x7A7AF002, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A7AF001, 0x7A7AF003, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A7AF001, 0x7A7AF004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7AF001, 0x7A7AF005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A7AF001, 0x7A7AF006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7AF001, 0x7A7AF007, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A7AF001, 0x7A7AF008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A7AF001, 0x7A7AF009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A7AF001, 0x7A7AF00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A7AF001, 0x7A7AF00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A7AF001, 0x7A7AF00C, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x7A7AF001, 0x7A7AF002, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A7AF001, 0x7A7AF003, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A7AF001, 0x7A7AF004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7AF001, 0x7A7AF005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A7AF001, 0x7A7AF006, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7AF001, 0x7A7AF007, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A7AF001, 0x7A7AF008, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A7AF001, 0x7A7AF009, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A7AF001, 0x7A7AF00A, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A7AF001, 0x7A7AF00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A7AF001, 0x7A7AF00C, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7AF002, 19260, 0xA7AF0020, 79.22926, 172.671, 102.2011, 0.6685044, 0, 0, -0.7437083,  True, '2019-02-10 00:00:00'); /* Mite Snippet */

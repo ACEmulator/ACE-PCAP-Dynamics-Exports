@@ -5,14 +5,14 @@ VALUES (0x7B7B9001,  1154, 0xB7B90009, 40.15797, 14.85851, 107.2427, -0.0743194,
 /* @teleloc 0xB7B90009 [40.157970 14.858510 107.242700] -0.074319 0.000000 0.000000 -0.997234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7B9001, 0x7B7B9002, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7B7B9001, 0x7B7B9003, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B7B9001, 0x7B7B9004, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B7B9001, 0x7B7B9005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B7B9001, 0x7B7B9006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B7B9001, 0x7B7B9007, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B7B9001, 0x7B7B9008, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B7B9001, 0x7B7B9009, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7B7B9001, 0x7B7B9002, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x7B7B9001, 0x7B7B9003, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B7B9001, 0x7B7B9004, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B7B9001, 0x7B7B9005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B7B9001, 0x7B7B9006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B7B9001, 0x7B7B9007, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B7B9001, 0x7B7B9008, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B7B9001, 0x7B7B9009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7B9002,  4245, 0xB7B90009, 40.15797, 14.85851, 107.2427, -0.0743194, 0, 0, -0.997234,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
@@ -51,7 +51,7 @@ VALUES (0x7B7B900A,  1542, 0xB7B9002F, 130.366, 158.846, 137.3397, 0.6205207, 0,
 /* @teleloc 0xB7B9002F [130.366000 158.846000 137.339700] 0.620521 0.000000 0.000000 -0.784190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7B900A, 0x7B7B900B, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7B7B900A, 0x7B7B900B, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7B900B, 22837, 0xB7B9002F, 130.366, 158.846, 137.3397, 0.6205207, 0, 0, -0.7841901,  True, '2019-02-10 00:00:00'); /* Snowflower */

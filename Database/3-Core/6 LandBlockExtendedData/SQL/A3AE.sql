@@ -9,28 +9,28 @@ VALUES (0x7A3AE005,  1154, 0xA3AE002D, 132.265, 96.2974, 43.9985, -0.984992, 0, 
 /* @teleloc 0xA3AE002D [132.265000 96.297400 43.998500] -0.984992 0.000000 0.000000 -0.172600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AE005, 0x7A3AE006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3AE005, 0x7A3AE007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3AE005, 0x7A3AE008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3AE005, 0x7A3AE009, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A3AE005, 0x7A3AE00A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A3AE005, 0x7A3AE00B, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7A3AE005, 0x7A3AE00C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A3AE005, 0x7A3AE00D, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A3AE005, 0x7A3AE00E, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A3AE005, 0x7A3AE00F, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A3AE005, 0x7A3AE010, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A3AE005, 0x7A3AE011, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A3AE005, 0x7A3AE012, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A3AE005, 0x7A3AE013, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A3AE005, 0x7A3AE014, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3AE005, 0x7A3AE015, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A3AE005, 0x7A3AE016, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A3AE005, 0x7A3AE017, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A3AE005, 0x7A3AE018, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7A3AE005, 0x7A3AE019, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A3AE005, 0x7A3AE01A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A3AE005, 0x7A3AE01B, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7A3AE005, 0x7A3AE006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE005, 0x7A3AE007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE005, 0x7A3AE008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE005, 0x7A3AE009, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A3AE005, 0x7A3AE00A, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A3AE005, 0x7A3AE00B, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7A3AE005, 0x7A3AE00C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A3AE005, 0x7A3AE00D, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A3AE005, 0x7A3AE00E, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A3AE005, 0x7A3AE00F, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A3AE005, 0x7A3AE010, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A3AE005, 0x7A3AE011, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A3AE005, 0x7A3AE012, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A3AE005, 0x7A3AE013, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A3AE005, 0x7A3AE014, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3AE005, 0x7A3AE015, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A3AE005, 0x7A3AE016, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A3AE005, 0x7A3AE017, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A3AE005, 0x7A3AE018, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7A3AE005, 0x7A3AE019, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A3AE005, 0x7A3AE01A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A3AE005, 0x7A3AE01B, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AE006,  7978, 0xA3AE002D, 132.265, 96.2974, 43.9985, -0.984992, 0, 0, -0.1726,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

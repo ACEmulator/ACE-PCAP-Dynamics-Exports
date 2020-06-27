@@ -5,17 +5,17 @@ VALUES (0x7AF1B001,  1154, 0xAF1B002B, 129.9232, 69.15796, 219.7702, -0.1368082,
 /* @teleloc 0xAF1B002B [129.923200 69.157960 219.770200] -0.136808 0.000000 0.000000 -0.990598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF1B001, 0x7AF1B002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7AF1B001, 0x7AF1B005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B006, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AF1B001, 0x7AF1B009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AF1B001, 0x7AF1B00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AF1B001, 0x7AF1B00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AF1B001, 0x7AF1B00C, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7AF1B001, 0x7AF1B002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7AF1B001, 0x7AF1B005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7AF1B001, 0x7AF1B009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AF1B001, 0x7AF1B00A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AF1B001, 0x7AF1B00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AF1B001, 0x7AF1B00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF1B002, 14512, 0xAF1B002B, 129.9232, 69.15796, 219.7702, -0.1368082, 0, 0, -0.9905975,  True, '2019-02-10 00:00:00'); /* Frost */

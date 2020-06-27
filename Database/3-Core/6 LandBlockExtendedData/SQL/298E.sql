@@ -5,17 +5,17 @@ VALUES (0x7298E001,  1154, 0x298E0003, 23.26708, 69.59212, 76.73508, 0.9108856, 
 /* @teleloc 0x298E0003 [23.267080 69.592120 76.735080] 0.910886 0.000000 0.000000 -0.412659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298E001, 0x7298E002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7298E001, 0x7298E003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7298E001, 0x7298E004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7298E001, 0x7298E005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298E001, 0x7298E006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298E001, 0x7298E007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7298E001, 0x7298E008, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298E001, 0x7298E009, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7298E001, 0x7298E00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7298E001, 0x7298E00B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7298E001, 0x7298E00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7298E001, 0x7298E002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7298E001, 0x7298E003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7298E001, 0x7298E004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7298E001, 0x7298E005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298E001, 0x7298E006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298E001, 0x7298E007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7298E001, 0x7298E008, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298E001, 0x7298E009, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7298E001, 0x7298E00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7298E001, 0x7298E00B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7298E001, 0x7298E00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298E002, 24279, 0x298E0003, 23.26708, 69.59212, 76.73508, 0.9108856, 0, 0, -0.4126591,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
@@ -66,10 +66,10 @@ VALUES (0x7298E00D,  1542, 0x298E0023, 109.3219, 57.72742, 83.48891, 1, 0, 0, 0,
 /* @teleloc 0x298E0023 [109.321900 57.727420 83.488910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298E00D, 0x7298E00E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7298E00D, 0x7298E00F, '2019-02-10 00:00:00') /* Bones */
-     , (0x7298E00D, 0x7298E010, '2019-02-10 00:00:00') /* Bones */
-     , (0x7298E00D, 0x7298E011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7298E00D, 0x7298E00E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7298E00D, 0x7298E00F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7298E00D, 0x7298E010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7298E00D, 0x7298E011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298E00E, 22567, 0x298E0023, 109.3219, 57.72742, 83.48891, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

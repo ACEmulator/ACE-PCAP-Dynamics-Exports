@@ -9,37 +9,37 @@ VALUES (0x7E54C001,  1154, 0xE54C002F, 126.0512, 166.1002, 24.51627, -0.580957, 
 /* @teleloc 0xE54C002F [126.051200 166.100200 24.516270] -0.580957 0.000000 0.000000 -0.813934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E54C001, 0x7E54C002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E54C001, 0x7E54C003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E54C001, 0x7E54C004, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E54C001, 0x7E54C005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54C001, 0x7E54C006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54C001, 0x7E54C007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54C001, 0x7E54C008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E54C001, 0x7E54C009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E54C001, 0x7E54C00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E54C001, 0x7E54C00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E54C001, 0x7E54C00C, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7E54C001, 0x7E54C00D, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E54C001, 0x7E54C00E, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E54C001, 0x7E54C00F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E54C001, 0x7E54C010, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E54C001, 0x7E54C011, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E54C001, 0x7E54C012, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E54C001, 0x7E54C013, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E54C001, 0x7E54C014, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E54C001, 0x7E54C015, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E54C001, 0x7E54C016, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7E54C001, 0x7E54C017, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E54C001, 0x7E54C018, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E54C001, 0x7E54C019, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E54C001, 0x7E54C01A, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E54C001, 0x7E54C01B, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E54C001, 0x7E54C01C, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7E54C001, 0x7E54C01D, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E54C001, 0x7E54C01E, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7E54C001, 0x7E54C01F, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E54C001, 0x7E54C020, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7E54C001, 0x7E54C002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E54C001, 0x7E54C003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E54C001, 0x7E54C004, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E54C001, 0x7E54C005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54C001, 0x7E54C006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54C001, 0x7E54C007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54C001, 0x7E54C008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E54C001, 0x7E54C009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E54C001, 0x7E54C00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E54C001, 0x7E54C00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E54C001, 0x7E54C00C, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7E54C001, 0x7E54C00D, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E54C001, 0x7E54C00E, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E54C001, 0x7E54C00F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E54C001, 0x7E54C010, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E54C001, 0x7E54C011, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E54C001, 0x7E54C012, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E54C001, 0x7E54C013, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E54C001, 0x7E54C014, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E54C001, 0x7E54C015, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E54C001, 0x7E54C016, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7E54C001, 0x7E54C017, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E54C001, 0x7E54C018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E54C001, 0x7E54C019, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E54C001, 0x7E54C01A, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E54C001, 0x7E54C01B, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E54C001, 0x7E54C01C, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7E54C001, 0x7E54C01D, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E54C001, 0x7E54C01E, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7E54C001, 0x7E54C01F, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E54C001, 0x7E54C020, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E54C002,    12, 0xE54C002F, 126.0512, 166.1002, 24.51627, -0.580957, 0, 0, -0.8139343,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */

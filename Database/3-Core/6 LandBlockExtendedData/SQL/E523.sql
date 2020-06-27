@@ -5,23 +5,23 @@ VALUES (0x7E523001,  1154, 0xE523001F, 82.08955, 160.7219, 13.94041, 0.9063078, 
 /* @teleloc 0xE523001F [82.089550 160.721900 13.940410] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E523001, 0x7E523002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E523001, 0x7E523003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E523001, 0x7E523004, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E523001, 0x7E523005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E523001, 0x7E523006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E523001, 0x7E523007, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E523001, 0x7E523008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E523009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E523001, 0x7E52300A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E523001, 0x7E52300B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E52300C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E523001, 0x7E52300D, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E52300E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E52300F, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E523001, 0x7E523010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E523011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E523001, 0x7E523012, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E523001, 0x7E523002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E523001, 0x7E523003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E523001, 0x7E523004, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E523001, 0x7E523005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E523001, 0x7E523006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E523001, 0x7E523007, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E523001, 0x7E523008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E523009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E523001, 0x7E52300A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E523001, 0x7E52300B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E52300C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E523001, 0x7E52300D, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E52300E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E52300F, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E523001, 0x7E523010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E523011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E523001, 0x7E523012, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E523002,   211, 0xE523001F, 82.08955, 160.7219, 13.94041, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -96,9 +96,9 @@ VALUES (0x7E523013,  1542, 0xE5230020, 91.3531, 184.2339, 20, 0.9952024, 0, 0, -
 /* @teleloc 0xE5230020 [91.353100 184.233900 20.000000] 0.995202 0.000000 0.000000 -0.097838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E523013, 0x7E523014, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E523013, 0x7E523015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E523013, 0x7E523016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E523013, 0x7E523014, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E523013, 0x7E523015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E523013, 0x7E523016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E523014,  8588, 0xE5230020, 91.3531, 184.2339, 20, 0.9952024, 0, 0, -0.09783798,  True, '2019-02-10 00:00:00'); /* Idol */

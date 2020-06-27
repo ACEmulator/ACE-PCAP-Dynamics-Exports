@@ -9,15 +9,15 @@ VALUES (0x7B961001,  1154, 0xB961002E, 133.9515, 140.8878, 5.9045, -0.9145263, 0
 /* @teleloc 0xB961002E [133.951500 140.887800 5.904500] -0.914526 0.000000 0.000000 -0.404526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B961001, 0x7B961002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B961001, 0x7B961003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B961001, 0x7B961004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B961001, 0x7B961005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B961001, 0x7B961006, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B961001, 0x7B961007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B961001, 0x7B961008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B961001, 0x7B961009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B961001, 0x7B96100A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7B961001, 0x7B961002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B961001, 0x7B961003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B961001, 0x7B961004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B961001, 0x7B961005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B961001, 0x7B961006, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B961001, 0x7B961007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B961001, 0x7B961008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B961001, 0x7B961009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B961001, 0x7B96100A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B961002,  1614, 0xB961002E, 133.9515, 140.8878, 5.9045, -0.9145263, 0, 0, -0.4045264,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

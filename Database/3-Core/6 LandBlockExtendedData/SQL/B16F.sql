@@ -5,16 +5,16 @@ VALUES (0x7B16F001,  1154, 0xB16F0027, 104.2082, 154.3569, 28.20807, 0.9238795, 
 /* @teleloc 0xB16F0027 [104.208200 154.356900 28.208070] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B16F001, 0x7B16F002, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7B16F001, 0x7B16F003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7B16F001, 0x7B16F004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B16F001, 0x7B16F005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B16F001, 0x7B16F006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B16F001, 0x7B16F007, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B16F001, 0x7B16F008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B16F001, 0x7B16F009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B16F001, 0x7B16F00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B16F001, 0x7B16F00B, '2019-02-10 00:00:00') /* Narrow Rift */;
+VALUES (0x7B16F001, 0x7B16F002, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7B16F001, 0x7B16F003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7B16F001, 0x7B16F004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B16F001, 0x7B16F005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B16F001, 0x7B16F006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B16F001, 0x7B16F007, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B16F001, 0x7B16F008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B16F001, 0x7B16F009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B16F001, 0x7B16F00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B16F001, 0x7B16F00B, '2019-02-10 00:00:00') /* Narrow Rift (10799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B16F002,  9243, 0xB16F0027, 104.2082, 154.3569, 28.20807, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Innocuous Doll */
@@ -61,8 +61,8 @@ VALUES (0x7B16F00C,  1542, 0xB16F002A, 132.8439, 31.68163, 29.07032, 1, 0, 0, 0,
 /* @teleloc 0xB16F002A [132.843900 31.681630 29.070320] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B16F00C, 0x7B16F00D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B16F00C, 0x7B16F00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B16F00C, 0x7B16F00D, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7B16F00C, 0x7B16F00E, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B16F00D, 22570, 0xB16F002A, 132.8439, 31.68163, 29.07032, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

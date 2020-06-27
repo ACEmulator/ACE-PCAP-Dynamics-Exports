@@ -5,28 +5,28 @@ VALUES (0x7C95E001,  1154, 0xC95E0009, 44.09336, 4.115222, 5.132046, 0.7071068, 
 /* @teleloc 0xC95E0009 [44.093360 4.115222 5.132046] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95E001, 0x7C95E002, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E00F, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E010, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C95E001, 0x7C95E011, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E014, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C95E001, 0x7C95E015, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C95E001, 0x7C95E016, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C95E001, 0x7C95E017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7C95E001, 0x7C95E002, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E00A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E00B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E00D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E00E, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E00F, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E010, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C95E001, 0x7C95E011, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E012, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E013, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E014, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C95E001, 0x7C95E015, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C95E001, 0x7C95E016, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C95E001, 0x7C95E017, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95E002, 26012, 0xC95E0009, 44.09336, 4.115222, 5.132046, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Adept */

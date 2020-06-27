@@ -5,20 +5,20 @@ VALUES (0x7E34F001,  1154, 0xE34F0016, 61.37873, 141.443, 5.788628, -0.8425307, 
 /* @teleloc 0xE34F0016 [61.378730 141.443000 5.788628] -0.842531 0.000000 0.000000 -0.538648 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34F001, 0x7E34F002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E34F001, 0x7E34F003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E34F001, 0x7E34F004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E34F001, 0x7E34F005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E34F001, 0x7E34F006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E34F001, 0x7E34F007, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E34F001, 0x7E34F008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E34F001, 0x7E34F009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E34F001, 0x7E34F00A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E34F001, 0x7E34F00B, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7E34F001, 0x7E34F00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E34F001, 0x7E34F00D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7E34F001, 0x7E34F00E, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E34F001, 0x7E34F00F, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7E34F001, 0x7E34F002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E34F001, 0x7E34F003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E34F001, 0x7E34F004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E34F001, 0x7E34F005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E34F001, 0x7E34F006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E34F001, 0x7E34F007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E34F001, 0x7E34F008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E34F001, 0x7E34F009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E34F001, 0x7E34F00A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E34F001, 0x7E34F00B, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7E34F001, 0x7E34F00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E34F001, 0x7E34F00D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7E34F001, 0x7E34F00E, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E34F001, 0x7E34F00F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34F002,  8010, 0xE34F0016, 61.37873, 141.443, 5.788628, -0.8425307, 0, 0, -0.5386484,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -81,8 +81,8 @@ VALUES (0x7E34F010,  1542, 0xE34F0021, 114.0578, 5.273365, 2.83394, 0.9238795, 0
 /* @teleloc 0xE34F0021 [114.057800 5.273365 2.833940] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34F010, 0x7E34F011, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E34F010, 0x7E34F012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7E34F010, 0x7E34F011, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7E34F010, 0x7E34F012, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34F011,  4381, 0xE34F0021, 114.0578, 5.273365, 2.83394, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

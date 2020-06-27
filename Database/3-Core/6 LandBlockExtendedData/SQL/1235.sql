@@ -5,18 +5,18 @@ VALUES (0x71235001,  1154, 0x1235000D, 43.11499, 98.48661, 9.592916, 0.8191521, 
 /* @teleloc 0x1235000D [43.114990 98.486610 9.592916] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71235001, 0x71235002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71235001, 0x71235003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71235001, 0x71235004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71235001, 0x71235005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71235001, 0x71235006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71235001, 0x71235007, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71235001, 0x71235008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71235001, 0x71235009, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71235001, 0x7123500A, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71235001, 0x7123500B, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x71235001, 0x7123500C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x71235001, 0x7123500D, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71235001, 0x71235002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71235001, 0x71235003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71235001, 0x71235004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71235001, 0x71235005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71235001, 0x71235006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71235001, 0x71235007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71235001, 0x71235008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71235001, 0x71235009, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71235001, 0x7123500A, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71235001, 0x7123500B, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x71235001, 0x7123500C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x71235001, 0x7123500D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71235002, 23482, 0x1235000D, 43.11499, 98.48661, 9.592916, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -71,7 +71,7 @@ VALUES (0x7123500E,  1542, 0x1235000D, 44.15293, 100.5186, 9.679412, 1, 0, 0, 0,
 /* @teleloc 0x1235000D [44.152930 100.518600 9.679412] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123500E, 0x7123500F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7123500E, 0x7123500F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123500F, 22566, 0x1235000D, 44.15293, 100.5186, 9.679412, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

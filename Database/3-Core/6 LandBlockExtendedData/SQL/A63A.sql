@@ -5,12 +5,12 @@ VALUES (0x7A63A001,  1154, 0xA63A0014, 63.93793, 79.94384, 34.67034, -0.7598357,
 /* @teleloc 0xA63A0014 [63.937930 79.943840 34.670340] -0.759836 0.000000 0.000000 -0.650115 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A63A001, 0x7A63A002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A63A001, 0x7A63A003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A63A001, 0x7A63A004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A63A001, 0x7A63A005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A63A001, 0x7A63A006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A63A001, 0x7A63A007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7A63A001, 0x7A63A002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A63A001, 0x7A63A003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A63A001, 0x7A63A004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A63A001, 0x7A63A005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A63A001, 0x7A63A006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A63A001, 0x7A63A007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A63A002,  7978, 0xA63A0014, 63.93793, 79.94384, 34.67034, -0.7598357, 0, 0, -0.6501151,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

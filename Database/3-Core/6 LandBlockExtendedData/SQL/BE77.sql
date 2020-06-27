@@ -5,18 +5,18 @@ VALUES (0x7BE77001,  1154, 0xBE77001E, 91.51662, 133.0697, 35.64354, 0.7451102, 
 /* @teleloc 0xBE77001E [91.516620 133.069700 35.643540] 0.745110 0.000000 0.000000 -0.666941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE77001, 0x7BE77002, '2019-02-10 00:00:00') /* Static */
-     , (0x7BE77001, 0x7BE77003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BE77001, 0x7BE77004, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BE77001, 0x7BE77005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BE77001, 0x7BE77006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7BE77001, 0x7BE77007, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7BE77001, 0x7BE77008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BE77001, 0x7BE77009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE77001, 0x7BE7700A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE77001, 0x7BE7700B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BE77001, 0x7BE7700C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BE77001, 0x7BE7700D, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7BE77001, 0x7BE77002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BE77001, 0x7BE77003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BE77001, 0x7BE77004, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BE77001, 0x7BE77005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BE77001, 0x7BE77006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7BE77001, 0x7BE77007, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BE77001, 0x7BE77008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BE77001, 0x7BE77009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE77001, 0x7BE7700A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE77001, 0x7BE7700B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE77001, 0x7BE7700C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BE77001, 0x7BE7700D, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE77002,  6382, 0xBE77001E, 91.51662, 133.0697, 35.64354, 0.7451102, 0, 0, -0.6669414,  True, '2019-02-10 00:00:00'); /* Static */

@@ -5,28 +5,28 @@ VALUES (0x7B2BB001,  1154, 0xB2BB0019, 86.84174, 21.24467, 157.7492, -0.08715577
 /* @teleloc 0xB2BB0019 [86.841740 21.244670 157.749200] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2BB001, 0x7B2BB002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B2BB001, 0x7B2BB003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B2BB001, 0x7B2BB004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B2BB001, 0x7B2BB005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B2BB001, 0x7B2BB006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B2BB001, 0x7B2BB007, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B2BB001, 0x7B2BB008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B2BB001, 0x7B2BB009, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B2BB001, 0x7B2BB00A, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B2BB001, 0x7B2BB00B, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7B2BB001, 0x7B2BB00C, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B2BB001, 0x7B2BB00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B2BB001, 0x7B2BB00E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B2BB001, 0x7B2BB00F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB010, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB011, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB012, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB013, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B2BB001, 0x7B2BB014, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B2BB001, 0x7B2BB015, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB016, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2BB001, 0x7B2BB017, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7B2BB001, 0x7B2BB002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B2BB001, 0x7B2BB003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B2BB001, 0x7B2BB004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B2BB001, 0x7B2BB005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B2BB001, 0x7B2BB006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B2BB001, 0x7B2BB007, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B2BB001, 0x7B2BB008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B2BB001, 0x7B2BB009, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B2BB001, 0x7B2BB00A, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B2BB001, 0x7B2BB00B, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7B2BB001, 0x7B2BB00C, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B2BB001, 0x7B2BB00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B2BB001, 0x7B2BB00E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B2BB001, 0x7B2BB00F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB010, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB011, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB012, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B2BB001, 0x7B2BB014, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B2BB001, 0x7B2BB015, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB016, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2BB001, 0x7B2BB017, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2BB002,  9400, 0xB2BB0019, 86.84174, 21.24467, 157.7492, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -121,7 +121,7 @@ VALUES (0x7B2BB018,  1542, 0xB2BB001E, 90.32208, 121.1421, 158.3665, 0.01622482,
 /* @teleloc 0xB2BB001E [90.322080 121.142100 158.366500] 0.016225 0.000000 0.000000 -0.999868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2BB018, 0x7B2BB019, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B2BB018, 0x7B2BB019, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2BB019, 42528, 0xB2BB001E, 90.32208, 121.1421, 158.3665, 0.01622482, 0, 0, -0.9998684,  True, '2019-02-10 00:00:00'); /* Rock */

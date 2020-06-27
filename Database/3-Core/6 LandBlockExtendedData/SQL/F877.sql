@@ -5,27 +5,27 @@ VALUES (0x7F877001,  1154, 0xF8770018, 58.92741, 183.0933, 12.35916, 0.4970395, 
 /* @teleloc 0xF8770018 [58.927410 183.093300 12.359160] 0.497040 0.000000 0.000000 -0.867728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F877001, 0x7F877002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F877001, 0x7F877003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F877001, 0x7F877004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F877001, 0x7F877005, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877006, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877007, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F877001, 0x7F877009, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F877001, 0x7F87700A, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F87700B, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F87700C, '2019-02-10 00:00:00') /* Tusker Kin */
-     , (0x7F877001, 0x7F87700D, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7F877001, 0x7F87700E, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F877001, 0x7F87700F, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877010, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877011, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877012, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F877001, 0x7F877013, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F877001, 0x7F877014, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F877001, 0x7F877015, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F877001, 0x7F877016, '2019-02-10 00:00:00') /* Tusker Kin */;
+VALUES (0x7F877001, 0x7F877002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F877001, 0x7F877003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F877001, 0x7F877004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F877001, 0x7F877005, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877006, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877007, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F877001, 0x7F877009, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F877001, 0x7F87700A, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F87700B, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F87700C, '2019-02-10 00:00:00') /* Tusker Kin (22509) */
+     , (0x7F877001, 0x7F87700D, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7F877001, 0x7F87700E, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F877001, 0x7F87700F, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877010, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877011, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877012, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F877001, 0x7F877013, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F877001, 0x7F877014, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F877001, 0x7F877015, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F877001, 0x7F877016, '2019-02-10 00:00:00') /* Tusker Kin (22509) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F877002,   215, 0xF8770018, 58.92741, 183.0933, 12.35916, 0.4970395, 0, 0, -0.8677279,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

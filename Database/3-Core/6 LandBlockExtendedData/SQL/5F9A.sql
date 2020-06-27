@@ -5,22 +5,22 @@ VALUES (0x75F9A001,  1154, 0x5F9A0026, 109.2954, 126.3592, 22.51483, 0.9238795, 
 /* @teleloc 0x5F9A0026 [109.295400 126.359200 22.514830] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F9A001, 0x75F9A002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x75F9A001, 0x75F9A003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75F9A001, 0x75F9A004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75F9A001, 0x75F9A005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75F9A001, 0x75F9A006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75F9A001, 0x75F9A007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75F9A001, 0x75F9A008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75F9A001, 0x75F9A009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75F9A001, 0x75F9A00A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75F9A001, 0x75F9A00B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75F9A001, 0x75F9A00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75F9A001, 0x75F9A00D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75F9A001, 0x75F9A00E, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x75F9A001, 0x75F9A00F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75F9A001, 0x75F9A010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75F9A001, 0x75F9A011, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x75F9A001, 0x75F9A002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x75F9A001, 0x75F9A003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75F9A001, 0x75F9A004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75F9A001, 0x75F9A005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75F9A001, 0x75F9A006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75F9A001, 0x75F9A007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75F9A001, 0x75F9A008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75F9A001, 0x75F9A009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75F9A001, 0x75F9A00A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75F9A001, 0x75F9A00B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75F9A001, 0x75F9A00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75F9A001, 0x75F9A00D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75F9A001, 0x75F9A00E, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x75F9A001, 0x75F9A00F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75F9A001, 0x75F9A010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75F9A001, 0x75F9A011, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F9A002, 24494, 0x5F9A0026, 109.2954, 126.3592, 22.51483, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -91,11 +91,11 @@ VALUES (0x75F9A012,  1542, 0x5F9A0026, 101.4077, 124.6276, 16.12318, 1, 0, 0, 0,
 /* @teleloc 0x5F9A0026 [101.407700 124.627600 16.123180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F9A012, 0x75F9A013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75F9A012, 0x75F9A014, '2019-02-10 00:00:00') /* Bones */
-     , (0x75F9A012, 0x75F9A015, '2019-02-10 00:00:00') /* Corpse */
-     , (0x75F9A012, 0x75F9A016, '2019-02-10 00:00:00') /* Master's Holding */
-     , (0x75F9A012, 0x75F9A017, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x75F9A012, 0x75F9A013, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75F9A012, 0x75F9A014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75F9A012, 0x75F9A015, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x75F9A012, 0x75F9A016, '2019-02-10 00:00:00') /* Master's Holding (9287) */
+     , (0x75F9A012, 0x75F9A017, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F9A013, 22567, 0x5F9A0026, 101.4077, 124.6276, 16.12318, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

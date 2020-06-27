@@ -5,20 +5,20 @@ VALUES (0x74132001,  1154, 0x41320004, 17.65064, 72.13409, 34.02885, 0.5793423, 
 /* @teleloc 0x41320004 [17.650640 72.134090 34.028850] 0.579342 0.000000 0.000000 -0.815084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74132001, 0x74132002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74132001, 0x74132003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74132001, 0x74132004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74132001, 0x74132005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74132001, 0x74132006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74132001, 0x74132007, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74132001, 0x74132008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74132001, 0x74132009, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74132001, 0x7413200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74132001, 0x7413200B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74132001, 0x7413200C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74132001, 0x7413200D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74132001, 0x7413200E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74132001, 0x7413200F, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x74132001, 0x74132002, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x74132001, 0x74132003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x74132001, 0x74132004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74132001, 0x74132005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74132001, 0x74132006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74132001, 0x74132007, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74132001, 0x74132008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74132001, 0x74132009, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74132001, 0x7413200A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74132001, 0x7413200B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74132001, 0x7413200C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74132001, 0x7413200D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74132001, 0x7413200E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74132001, 0x7413200F, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74132002,  8405, 0x41320004, 17.65064, 72.13409, 34.02885, 0.5793423, 0, 0, -0.8150843,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -81,7 +81,7 @@ VALUES (0x74132010,  1542, 0x4132003A, 187.4465, 35.09699, 27.51434, 0.479182, 0
 /* @teleloc 0x4132003A [187.446500 35.096990 27.514340] 0.479182 0.000000 0.000000 -0.877716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74132010, 0x74132011, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x74132010, 0x74132011, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74132011,  9288, 0x4132003A, 187.4465, 35.09699, 27.51434, 0.479182, 0, 0, -0.8777155,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

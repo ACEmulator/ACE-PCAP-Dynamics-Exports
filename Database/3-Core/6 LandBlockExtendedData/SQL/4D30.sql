@@ -5,29 +5,29 @@ VALUES (0x74D30001,  1154, 0x4D30002F, 125.5413, 165.4053, 4.068314, 0.7287623, 
 /* @teleloc 0x4D30002F [125.541300 165.405300 4.068314] 0.728762 0.000000 0.000000 -0.684767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D30001, 0x74D30002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74D30001, 0x74D30003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74D30001, 0x74D30004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D30001, 0x74D30005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74D30001, 0x74D30006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74D30001, 0x74D30007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74D30001, 0x74D30008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74D30001, 0x74D30009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74D30001, 0x74D3000A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74D30001, 0x74D3000B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74D30001, 0x74D3000C, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74D30001, 0x74D3000D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74D30001, 0x74D3000E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74D30001, 0x74D3000F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74D30001, 0x74D30010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x74D30001, 0x74D30011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74D30001, 0x74D30012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74D30001, 0x74D30013, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74D30001, 0x74D30014, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74D30001, 0x74D30015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74D30001, 0x74D30016, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74D30001, 0x74D30017, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74D30001, 0x74D30018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x74D30001, 0x74D30002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74D30001, 0x74D30003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74D30001, 0x74D30004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D30001, 0x74D30005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74D30001, 0x74D30006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74D30001, 0x74D30007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74D30001, 0x74D30008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74D30001, 0x74D30009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74D30001, 0x74D3000A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74D30001, 0x74D3000B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74D30001, 0x74D3000C, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74D30001, 0x74D3000D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74D30001, 0x74D3000E, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74D30001, 0x74D3000F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74D30001, 0x74D30010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x74D30001, 0x74D30011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74D30001, 0x74D30012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74D30001, 0x74D30013, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74D30001, 0x74D30014, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74D30001, 0x74D30015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74D30001, 0x74D30016, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74D30001, 0x74D30017, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74D30001, 0x74D30018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D30002, 23564, 0x4D30002F, 125.5413, 165.4053, 4.068314, 0.7287623, 0, 0, -0.6847667,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -126,10 +126,10 @@ VALUES (0x74D30019,  1542, 0x4D30001C, 76.05978, 82.99632, -0.45, 0.9990482, 0, 
 /* @teleloc 0x4D30001C [76.059780 82.996320 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D30019, 0x74D3001A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74D30019, 0x74D3001B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74D30019, 0x74D3001C, '2019-02-10 00:00:00') /* Bones */
-     , (0x74D30019, 0x74D3001D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74D30019, 0x74D3001A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74D30019, 0x74D3001B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x74D30019, 0x74D3001C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74D30019, 0x74D3001D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D3001A,  4179, 0x4D30001C, 76.05978, 82.99632, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x79FBB001,  1154, 0x9FBB001A, 80.8751, 39.34271, 27.991, 0.1732712, 0, 
 /* @teleloc 0x9FBB001A [80.875100 39.342710 27.991000] 0.173271 0.000000 0.000000 -0.984874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FBB001, 0x79FBB002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79FBB001, 0x79FBB003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FBB001, 0x79FBB004, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x79FBB001, 0x79FBB005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FBB001, 0x79FBB006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FBB001, 0x79FBB007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x79FBB001, 0x79FBB008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79FBB001, 0x79FBB009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79FBB001, 0x79FBB00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79FBB001, 0x79FBB002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79FBB001, 0x79FBB003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FBB001, 0x79FBB004, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x79FBB001, 0x79FBB005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FBB001, 0x79FBB006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FBB001, 0x79FBB007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x79FBB001, 0x79FBB008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79FBB001, 0x79FBB009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79FBB001, 0x79FBB00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FBB002,  9253, 0x9FBB001A, 80.8751, 39.34271, 27.991, 0.1732712, 0, 0, -0.9848741,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

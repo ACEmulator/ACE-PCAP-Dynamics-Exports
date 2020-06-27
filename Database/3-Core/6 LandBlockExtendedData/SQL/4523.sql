@@ -5,10 +5,10 @@ VALUES (0x74523001,  1154, 0x4523000C, 30.69918, 72.55348, 127.1727, -0.9816923,
 /* @teleloc 0x4523000C [30.699180 72.553480 127.172700] -0.981692 0.000000 0.000000 -0.190474 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74523001, 0x74523002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74523001, 0x74523003, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x74523001, 0x74523004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74523001, 0x74523005, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x74523001, 0x74523002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74523001, 0x74523003, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x74523001, 0x74523004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74523001, 0x74523005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74523002,  4216, 0x4523000C, 30.69918, 72.55348, 127.1727, -0.9816923, 0, 0, -0.1904739,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

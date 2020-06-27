@@ -5,11 +5,11 @@ VALUES (0x7A5C7001,  1154, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.4308687,
 /* @teleloc 0xA5C70002 [16.037280 28.054860 87.677280] -0.430869 0.000000 0.000000 -0.902415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5C7001, 0x7A5C7002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A5C7001, 0x7A5C7003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A5C7001, 0x7A5C7004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A5C7001, 0x7A5C7005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A5C7001, 0x7A5C7006, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7A5C7001, 0x7A5C7002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A5C7001, 0x7A5C7003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A5C7001, 0x7A5C7004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A5C7001, 0x7A5C7005, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A5C7001, 0x7A5C7006, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5C7002,   213, 0xA5C70002, 16.03728, 28.05486, 87.67728, -0.4308687, 0, 0, -0.9024146,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
@@ -36,7 +36,7 @@ VALUES (0x7A5C7007,  1542, 0xA5C70031, 154.1099, 3.76469, 109.5224, 1, 0, 0, 0, 
 /* @teleloc 0xA5C70031 [154.109900 3.764690 109.522400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5C7007, 0x7A5C7008, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7A5C7007, 0x7A5C7008, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5C7008, 31443, 0xA5C70031, 154.1099, 3.76469, 109.5224, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

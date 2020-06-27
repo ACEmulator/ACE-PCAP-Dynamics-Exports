@@ -5,16 +5,16 @@ VALUES (0x7B0B4001,  1154, 0xB0B4003E, 188.4411, 134.1134, 79.17961, -0.04259172
 /* @teleloc 0xB0B4003E [188.441100 134.113400 79.179610] -0.042592 0.000000 0.000000 -0.999093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0B4001, 0x7B0B4002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B0B4001, 0x7B0B4003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B0B4001, 0x7B0B4004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B0B4001, 0x7B0B4005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B0B4001, 0x7B0B4006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B0B4001, 0x7B0B4007, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B0B4001, 0x7B0B4008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0B4001, 0x7B0B4009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B0B4001, 0x7B0B400A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B0B4001, 0x7B0B400B, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7B0B4001, 0x7B0B4002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B0B4001, 0x7B0B4003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B0B4001, 0x7B0B4004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0B4001, 0x7B0B4005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B0B4001, 0x7B0B4006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0B4001, 0x7B0B4007, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B0B4001, 0x7B0B4008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0B4001, 0x7B0B4009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B0B4001, 0x7B0B400A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B0B4001, 0x7B0B400B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0B4002,   192, 0xB0B4003E, 188.4411, 134.1134, 79.17961, -0.04259172, 0, 0, -0.9990926,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

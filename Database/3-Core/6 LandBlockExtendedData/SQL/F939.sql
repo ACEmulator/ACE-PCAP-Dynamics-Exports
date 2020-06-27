@@ -5,9 +5,9 @@ VALUES (0x7F939001,  1154, 0xF939000F, 40.82883, 148.9793, 118.44, 0.9102789, 0,
 /* @teleloc 0xF939000F [40.828830 148.979300 118.440000] 0.910279 0.000000 0.000000 -0.413996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F939001, 0x7F939002, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F939001, 0x7F939003, '2019-02-10 00:00:00') /* Statue of Transport */
-     , (0x7F939001, 0x7F939004, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */;
+VALUES (0x7F939001, 0x7F939002, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F939001, 0x7F939003, '2019-02-10 00:00:00') /* Statue of Transport (38370) */
+     , (0x7F939001, 0x7F939004, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F939002, 40307, 0xF939000F, 40.82883, 148.9793, 118.44, 0.9102789, 0, 0, -0.4139956,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */

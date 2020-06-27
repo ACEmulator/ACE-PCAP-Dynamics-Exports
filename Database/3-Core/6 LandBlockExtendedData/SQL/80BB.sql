@@ -5,11 +5,11 @@ VALUES (0x780BB001,  1154, 0x80BB002D, 140.0487, 99.88469, 113.5381, 0.2250609, 
 /* @teleloc 0x80BB002D [140.048700 99.884690 113.538100] 0.225061 0.000000 0.000000 -0.974345 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780BB001, 0x780BB002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x780BB001, 0x780BB003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x780BB001, 0x780BB004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x780BB001, 0x780BB005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x780BB001, 0x780BB006, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x780BB001, 0x780BB002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x780BB001, 0x780BB003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x780BB001, 0x780BB004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x780BB001, 0x780BB005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x780BB001, 0x780BB006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780BB002,  9253, 0x80BB002D, 140.0487, 99.88469, 113.5381, 0.2250609, 0, 0, -0.9743447,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

@@ -5,22 +5,22 @@ VALUES (0x7FB30001,  1154, 0xFB300005, 13.70782, 98.56204, -0.4435999, -0.952539
 /* @teleloc 0xFB300005 [13.707820 98.562040 -0.443600] -0.952540 0.000000 0.000000 -0.304414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FB30001, 0x7FB30002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB30001, 0x7FB30003, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB30001, 0x7FB30004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FB30001, 0x7FB30005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FB30001, 0x7FB30006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FB30001, 0x7FB30007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FB30001, 0x7FB30008, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7FB30001, 0x7FB30009, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FB30001, 0x7FB3000A, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7FB30001, 0x7FB3000B, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7FB30001, 0x7FB3000C, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7FB30001, 0x7FB3000D, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7FB30001, 0x7FB3000E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7FB30001, 0x7FB3000F, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7FB30001, 0x7FB30010, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7FB30001, 0x7FB30011, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7FB30001, 0x7FB30002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB30001, 0x7FB30003, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB30001, 0x7FB30004, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FB30001, 0x7FB30005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FB30001, 0x7FB30006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FB30001, 0x7FB30007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FB30001, 0x7FB30008, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7FB30001, 0x7FB30009, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FB30001, 0x7FB3000A, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38823) */
+     , (0x7FB30001, 0x7FB3000B, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7FB30001, 0x7FB3000C, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7FB30001, 0x7FB3000D, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38825) */
+     , (0x7FB30001, 0x7FB3000E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7FB30001, 0x7FB3000F, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7FB30001, 0x7FB30010, '2019-02-10 00:00:00') /* Tendril of T'thuun (38824) */
+     , (0x7FB30001, 0x7FB30011, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FB30002, 40304, 0xFB300005, 13.70782, 98.56204, -0.4435999, -0.9525397, 0, 0, -0.3044143,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

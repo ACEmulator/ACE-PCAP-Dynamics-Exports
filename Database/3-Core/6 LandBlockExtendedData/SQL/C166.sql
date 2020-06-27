@@ -5,12 +5,12 @@ VALUES (0x7C166001,  1154, 0xC166000D, 33.79663, 119.4576, 58.0116, 0.7602867, 0
 /* @teleloc 0xC166000D [33.796630 119.457600 58.011600] 0.760287 0.000000 0.000000 -0.649588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C166001, 0x7C166002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C166001, 0x7C166003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C166001, 0x7C166004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C166001, 0x7C166005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C166001, 0x7C166006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C166001, 0x7C166007, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7C166001, 0x7C166002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C166001, 0x7C166003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C166001, 0x7C166004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C166001, 0x7C166005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C166001, 0x7C166006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C166001, 0x7C166007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C166002,  7979, 0xC166000D, 33.79663, 119.4576, 58.0116, 0.7602867, 0, 0, -0.6495876,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

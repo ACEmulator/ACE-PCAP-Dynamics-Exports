@@ -5,17 +5,17 @@ VALUES (0x74265001,  1154, 0x42650015, 65.95142, 118.7566, 18.39423, -0.7693459,
 /* @teleloc 0x42650015 [65.951420 118.756600 18.394230] -0.769346 0.000000 0.000000 -0.638832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74265001, 0x74265002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74265001, 0x74265003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74265001, 0x74265004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74265001, 0x74265005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74265001, 0x74265006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74265001, 0x74265007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x74265001, 0x74265008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74265001, 0x74265009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x74265001, 0x7426500A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74265001, 0x7426500B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74265001, 0x7426500C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x74265001, 0x74265002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74265001, 0x74265003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74265001, 0x74265004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74265001, 0x74265005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74265001, 0x74265006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74265001, 0x74265007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x74265001, 0x74265008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74265001, 0x74265009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x74265001, 0x7426500A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74265001, 0x7426500B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74265001, 0x7426500C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74265002,  8138, 0x42650015, 65.95142, 118.7566, 18.39423, -0.7693459, 0, 0, -0.6388324,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -66,8 +66,8 @@ VALUES (0x7426500D,  1542, 0x42650017, 64.00063, 157.1447, 20, 0.7071068, 0, 0, 
 /* @teleloc 0x42650017 [64.000630 157.144700 20.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7426500D, 0x7426500E, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7426500D, 0x7426500F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7426500D, 0x7426500E, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7426500D, 0x7426500F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7426500E,   691, 0x42650017, 64.00063, 157.1447, 20, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Lead Scarab */

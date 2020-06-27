@@ -5,22 +5,22 @@ VALUES (0x73150001,  1154, 0x31500031, 161.0782, 13.12648, 0.008249998, -0.04875
 /* @teleloc 0x31500031 [161.078200 13.126480 0.008250] -0.048752 0.000000 0.000000 -0.998811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73150001, 0x73150002, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x73150001, 0x73150003, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x73150001, 0x73150004, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x73150001, 0x73150005, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x73150001, 0x73150006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x73150001, 0x73150007, '2019-02-10 00:00:00') /* Banderling Hierophant */
-     , (0x73150001, 0x73150008, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x73150001, 0x73150009, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x73150001, 0x7315000A, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x73150001, 0x7315000B, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x73150001, 0x7315000C, '2019-02-10 00:00:00') /* Banderling Champion */
-     , (0x73150001, 0x7315000D, '2019-02-10 00:00:00') /* Wretched */
-     , (0x73150001, 0x7315000E, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x73150001, 0x7315000F, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x73150001, 0x73150010, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x73150001, 0x73150011, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x73150001, 0x73150002, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x73150001, 0x73150003, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x73150001, 0x73150004, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x73150001, 0x73150005, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x73150001, 0x73150006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (46777) */
+     , (0x73150001, 0x73150007, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x73150001, 0x73150008, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x73150001, 0x73150009, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (46777) */
+     , (0x73150001, 0x7315000A, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (46777) */
+     , (0x73150001, 0x7315000B, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x73150001, 0x7315000C, '2019-02-10 00:00:00') /* Banderling Champion (25562) */
+     , (0x73150001, 0x7315000D, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x73150001, 0x7315000E, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x73150001, 0x7315000F, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x73150001, 0x73150010, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x73150001, 0x73150011, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73150002, 25562, 0x31500031, 161.0782, 13.12648, 0.008249998, -0.04875245, 0, 0, -0.9988109,  True, '2019-02-10 00:00:00'); /* Banderling Champion */
@@ -91,7 +91,7 @@ VALUES (0x73150012,  1154, 0x31500480, 94.1194, 95.981, -35.595, 0.328346, 0, 0,
 /* @teleloc 0x31500480 [94.119400 95.981000 -35.595000] 0.328346 0.000000 0.000000 -0.944557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73150012, 0x73150013, '2019-02-10 00:00:00') /* Adrenkus */;
+VALUES (0x73150012, 0x73150013, '2019-02-10 00:00:00') /* Adrenkus (47172) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73150013, 47172, 0x31500480, 94.1194, 95.981, -35.595, 0.328346, 0, 0, -0.944557,  True, '2019-02-10 00:00:00'); /* Adrenkus */

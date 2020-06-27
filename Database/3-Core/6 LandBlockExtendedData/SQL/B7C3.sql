@@ -5,12 +5,12 @@ VALUES (0x7B7C3001,  1154, 0xB7C30027, 106.7627, 150.9763, 291.0495, -0.8092621,
 /* @teleloc 0xB7C30027 [106.762700 150.976300 291.049500] -0.809262 0.000000 0.000000 -0.587448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7C3001, 0x7B7C3002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B7C3001, 0x7B7C3003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B7C3001, 0x7B7C3004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B7C3001, 0x7B7C3005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B7C3001, 0x7B7C3006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B7C3001, 0x7B7C3007, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7B7C3001, 0x7B7C3002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B7C3001, 0x7B7C3003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B7C3001, 0x7B7C3004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B7C3001, 0x7B7C3005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B7C3001, 0x7B7C3006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B7C3001, 0x7B7C3007, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7C3002, 24959, 0xB7C30027, 106.7627, 150.9763, 291.0495, -0.8092621, 0, 0, -0.5874478,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

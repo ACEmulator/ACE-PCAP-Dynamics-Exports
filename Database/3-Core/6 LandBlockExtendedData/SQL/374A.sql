@@ -5,20 +5,20 @@ VALUES (0x7374A001,  1154, 0x374A002A, 132.6325, 41.17059, 0.04165971, 0.9537169
 /* @teleloc 0x374A002A [132.632500 41.170590 0.041660] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7374A001, 0x7374A002, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x7374A001, 0x7374A003, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7374A001, 0x7374A004, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7374A001, 0x7374A005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7374A001, 0x7374A006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7374A001, 0x7374A007, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7374A001, 0x7374A008, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7374A001, 0x7374A009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7374A001, 0x7374A00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7374A001, 0x7374A00B, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7374A001, 0x7374A00C, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7374A001, 0x7374A00D, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x7374A001, 0x7374A00E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7374A001, 0x7374A00F, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x7374A001, 0x7374A002, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x7374A001, 0x7374A003, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7374A001, 0x7374A004, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7374A001, 0x7374A005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7374A001, 0x7374A006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7374A001, 0x7374A007, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7374A001, 0x7374A008, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7374A001, 0x7374A009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7374A001, 0x7374A00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7374A001, 0x7374A00B, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7374A001, 0x7374A00C, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7374A001, 0x7374A00D, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x7374A001, 0x7374A00E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7374A001, 0x7374A00F, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7374A002, 26014, 0x374A002A, 132.6325, 41.17059, 0.04165971, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Fiend */
@@ -81,7 +81,7 @@ VALUES (0x7374A010,  1542, 0x374A0004, 10.4166, 75.86932, -0.002161026, 1, 0, 0,
 /* @teleloc 0x374A0004 [10.416600 75.869320 -0.002161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7374A010, 0x7374A011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7374A010, 0x7374A011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7374A011, 31445, 0x374A0004, 10.4166, 75.86932, -0.002161026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

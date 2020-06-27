@@ -5,9 +5,9 @@ VALUES (0x740C4001,  1154, 0x40C40015, 66.9905, 114.0034, 11.94674, -0.8930324, 
 /* @teleloc 0x40C40015 [66.990500 114.003400 11.946740] -0.893032 0.000000 0.000000 -0.449992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740C4001, 0x740C4002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740C4001, 0x740C4003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x740C4001, 0x740C4004, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x740C4001, 0x740C4002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740C4001, 0x740C4003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x740C4001, 0x740C4004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740C4002,  9264, 0x40C40015, 66.9905, 114.0034, 11.94674, -0.8930324, 0, 0, -0.4499923,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

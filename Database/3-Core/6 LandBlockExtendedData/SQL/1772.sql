@@ -5,12 +5,12 @@ VALUES (0x71772001,  1154, 0x17720027, 110.7025, 162.3653, 97.35298, 1, 0, 0, 0,
 /* @teleloc 0x17720027 [110.702500 162.365300 97.352980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71772001, 0x71772002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71772001, 0x71772003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71772001, 0x71772004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71772001, 0x71772005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71772001, 0x71772006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71772001, 0x71772007, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71772001, 0x71772002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71772001, 0x71772003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71772001, 0x71772004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71772001, 0x71772005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71772001, 0x71772006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71772001, 0x71772007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71772002,   228, 0x17720027, 110.7025, 162.3653, 97.35298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

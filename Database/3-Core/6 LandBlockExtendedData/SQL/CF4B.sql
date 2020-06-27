@@ -5,17 +5,17 @@ VALUES (0x7CF4B001,  1154, 0xCF4B003C, 180.0948, 81.44557, 88.20947, 0.7071068, 
 /* @teleloc 0xCF4B003C [180.094800 81.445570 88.209470] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF4B001, 0x7CF4B002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CF4B001, 0x7CF4B003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CF4B001, 0x7CF4B004, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CF4B001, 0x7CF4B005, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CF4B001, 0x7CF4B006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7CF4B001, 0x7CF4B007, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7CF4B001, 0x7CF4B008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF4B001, 0x7CF4B009, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF4B001, 0x7CF4B00A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF4B001, 0x7CF4B00B, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF4B001, 0x7CF4B00C, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7CF4B001, 0x7CF4B002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CF4B001, 0x7CF4B003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CF4B001, 0x7CF4B004, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CF4B001, 0x7CF4B005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CF4B001, 0x7CF4B006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CF4B001, 0x7CF4B007, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7CF4B001, 0x7CF4B008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF4B001, 0x7CF4B009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF4B001, 0x7CF4B00A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF4B001, 0x7CF4B00B, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF4B001, 0x7CF4B00C, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF4B002,  1627, 0xCF4B003C, 180.0948, 81.44557, 88.20947, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

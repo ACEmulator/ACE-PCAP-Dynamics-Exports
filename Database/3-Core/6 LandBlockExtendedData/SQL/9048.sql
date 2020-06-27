@@ -5,9 +5,9 @@ VALUES (0x79048001,  1154, 0x90480030, 139.4841, 172.3529, 13.49422, 0.6525607, 
 /* @teleloc 0x90480030 [139.484100 172.352900 13.494220] 0.652561 0.000000 0.000000 -0.757737 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79048001, 0x79048002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79048001, 0x79048003, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79048001, 0x79048004, '2019-02-10 00:00:00') /* Ancient Mu-miyah */;
+VALUES (0x79048001, 0x79048002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79048001, 0x79048003, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79048001, 0x79048004, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79048002, 38179, 0x90480030, 139.4841, 172.3529, 13.49422, 0.6525607, 0, 0, -0.7577365,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

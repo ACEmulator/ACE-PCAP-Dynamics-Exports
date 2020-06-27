@@ -269,7 +269,7 @@ VALUES (0x70200042,  1542, 0x02000146, 51.01931, -31.29731, -6.0025, -0.9536375,
 /* @teleloc 0x02000146 [51.019310 -31.297310 -6.002500] -0.953638 0.000000 0.000000 -0.300958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70200042, 0x70200043, '2019-02-10 00:00:00') /* Salvage (87) */;
+VALUES (0x70200042, 0x70200043, '2019-02-10 00:00:00') /* Salvage (87) (21046) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70200043, 21046, 0x02000146, 51.01931, -31.29731, -6.0025, -0.9536375, 0, 0, -0.3009578,  True, '2019-02-10 00:00:00'); /* Salvage (87) */

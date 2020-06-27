@@ -5,29 +5,29 @@ VALUES (0x7A6B7001,  1154, 0xA6B70032, 149.8481, 42.52094, 48.08578, 0.4957591, 
 /* @teleloc 0xA6B70032 [149.848100 42.520940 48.085780] 0.495759 0.000000 0.000000 -0.868460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6B7001, 0x7A6B7002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A6B7001, 0x7A6B7003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A6B7001, 0x7A6B7004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A6B7001, 0x7A6B7005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A6B7001, 0x7A6B7006, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A6B7001, 0x7A6B7007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A6B7001, 0x7A6B7008, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A6B7001, 0x7A6B7009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A6B7001, 0x7A6B700A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A6B7001, 0x7A6B700B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A6B7001, 0x7A6B700C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A6B7001, 0x7A6B700D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A6B7001, 0x7A6B700E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A6B7001, 0x7A6B700F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A6B7001, 0x7A6B7010, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A6B7001, 0x7A6B7011, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A6B7001, 0x7A6B7012, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A6B7001, 0x7A6B7013, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A6B7001, 0x7A6B7014, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A6B7001, 0x7A6B7015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A6B7001, 0x7A6B7016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A6B7001, 0x7A6B7017, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A6B7001, 0x7A6B7018, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7A6B7001, 0x7A6B7002, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A6B7001, 0x7A6B7003, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A6B7001, 0x7A6B7004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A6B7001, 0x7A6B7005, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A6B7001, 0x7A6B7006, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A6B7001, 0x7A6B7007, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A6B7001, 0x7A6B7008, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A6B7001, 0x7A6B7009, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A6B7001, 0x7A6B700A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A6B7001, 0x7A6B700B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A6B7001, 0x7A6B700C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A6B7001, 0x7A6B700D, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A6B7001, 0x7A6B700E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A6B7001, 0x7A6B700F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A6B7001, 0x7A6B7010, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A6B7001, 0x7A6B7011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A6B7001, 0x7A6B7012, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A6B7001, 0x7A6B7013, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A6B7001, 0x7A6B7014, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A6B7001, 0x7A6B7015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A6B7001, 0x7A6B7016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A6B7001, 0x7A6B7017, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A6B7001, 0x7A6B7018, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6B7002, 19262, 0xA6B70032, 149.8481, 42.52094, 48.08578, 0.4957591, 0, 0, -0.8684601,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

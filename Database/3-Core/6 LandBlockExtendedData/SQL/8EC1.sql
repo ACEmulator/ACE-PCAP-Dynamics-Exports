@@ -5,19 +5,19 @@ VALUES (0x78EC1001,  1154, 0x8EC1003B, 170.634, 52.22995, 82.41531, 0.9190575, 0
 /* @teleloc 0x8EC1003B [170.634000 52.229950 82.415310] 0.919058 0.000000 0.000000 -0.394123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC1001, 0x78EC1002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78EC1001, 0x78EC1003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC1001, 0x78EC1004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78EC1001, 0x78EC1005, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78EC1001, 0x78EC1006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78EC1001, 0x78EC1007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78EC1001, 0x78EC1008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78EC1001, 0x78EC1009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78EC1001, 0x78EC100A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC1001, 0x78EC100B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC1001, 0x78EC100C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC1001, 0x78EC100D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC1001, 0x78EC100E, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x78EC1001, 0x78EC1002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78EC1001, 0x78EC1003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC1001, 0x78EC1004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78EC1001, 0x78EC1005, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78EC1001, 0x78EC1006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78EC1001, 0x78EC1007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78EC1001, 0x78EC1008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78EC1001, 0x78EC1009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78EC1001, 0x78EC100A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC1001, 0x78EC100B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC1001, 0x78EC100C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC1001, 0x78EC100D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC1001, 0x78EC100E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC1002,     3, 0x8EC1003B, 170.634, 52.22995, 82.41531, 0.9190575, 0, 0, -0.3941234,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

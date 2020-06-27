@@ -5,10 +5,10 @@ VALUES (0x7CAAA001,  1154, 0xCAAA0011, 63.64148, 11.93005, 56.99417, 0.8341529, 
 /* @teleloc 0xCAAA0011 [63.641480 11.930050 56.994170] 0.834153 0.000000 0.000000 -0.551533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAAA001, 0x7CAAA002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CAAA001, 0x7CAAA003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CAAA001, 0x7CAAA004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CAAA001, 0x7CAAA005, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7CAAA001, 0x7CAAA002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CAAA001, 0x7CAAA003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CAAA001, 0x7CAAA004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CAAA001, 0x7CAAA005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAAA002, 22009, 0xCAAA0011, 63.64148, 11.93005, 56.99417, 0.8341529, 0, 0, -0.5515332,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

@@ -5,15 +5,15 @@ VALUES (0x73561001,  1154, 0x35610040, 181.6034, 187.3287, 38.52132, 0.9238795, 
 /* @teleloc 0x35610040 [181.603400 187.328700 38.521320] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73561001, 0x73561002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73561001, 0x73561003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73561001, 0x73561004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73561001, 0x73561005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73561001, 0x73561006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73561001, 0x73561007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73561001, 0x73561008, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73561001, 0x73561009, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73561001, 0x7356100A, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x73561001, 0x73561002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73561001, 0x73561003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73561001, 0x73561004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73561001, 0x73561005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73561001, 0x73561006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73561001, 0x73561007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73561001, 0x73561008, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73561001, 0x73561009, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73561001, 0x7356100A, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73561002, 24497, 0x35610040, 181.6034, 187.3287, 38.52132, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -56,7 +56,7 @@ VALUES (0x7356100B,  1542, 0x35610035, 153.2588, 113.2782, 32.0671, 1, 0, 0, 0, 
 /* @teleloc 0x35610035 [153.258800 113.278200 32.067100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7356100B, 0x7356100C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7356100B, 0x7356100C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7356100C, 31445, 0x35610035, 153.2588, 113.2782, 32.0671, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

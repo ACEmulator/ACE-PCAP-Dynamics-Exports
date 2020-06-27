@@ -5,29 +5,29 @@ VALUES (0x741DB001,  1154, 0x41DB001F, 78.80948, 167.1496, 34.78328, 0.7939835, 
 /* @teleloc 0x41DB001F [78.809480 167.149600 34.783280] 0.793984 0.000000 0.000000 -0.607939 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DB001, 0x741DB002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741DB001, 0x741DB003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741DB001, 0x741DB004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x741DB001, 0x741DB005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x741DB001, 0x741DB006, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x741DB001, 0x741DB007, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x741DB001, 0x741DB008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DB001, 0x741DB009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DB001, 0x741DB00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DB001, 0x741DB00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741DB001, 0x741DB00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741DB001, 0x741DB00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x741DB001, 0x741DB00E, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x741DB001, 0x741DB00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x741DB001, 0x741DB010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x741DB001, 0x741DB011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DB001, 0x741DB012, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741DB001, 0x741DB013, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x741DB001, 0x741DB014, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x741DB001, 0x741DB015, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x741DB001, 0x741DB016, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x741DB001, 0x741DB017, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x741DB001, 0x741DB018, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x741DB001, 0x741DB002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741DB001, 0x741DB003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741DB001, 0x741DB004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x741DB001, 0x741DB005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x741DB001, 0x741DB006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x741DB001, 0x741DB007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x741DB001, 0x741DB008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DB001, 0x741DB009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DB001, 0x741DB00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DB001, 0x741DB00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741DB001, 0x741DB00C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741DB001, 0x741DB00D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x741DB001, 0x741DB00E, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x741DB001, 0x741DB00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x741DB001, 0x741DB010, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x741DB001, 0x741DB011, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DB001, 0x741DB012, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741DB001, 0x741DB013, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x741DB001, 0x741DB014, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x741DB001, 0x741DB015, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x741DB001, 0x741DB016, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x741DB001, 0x741DB017, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x741DB001, 0x741DB018, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DB002, 10807, 0x41DB001F, 78.80948, 167.1496, 34.78328, 0.7939835, 0, 0, -0.6079394,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -126,7 +126,7 @@ VALUES (0x741DB019,  1542, 0x41DB001B, 72.26311, 69.31361, 45.76, 0.9990482, 0, 
 /* @teleloc 0x41DB001B [72.263110 69.313610 45.760000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741DB019, 0x741DB01A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x741DB019, 0x741DB01A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741DB01A,  4179, 0x41DB001B, 72.26311, 69.31361, 45.76, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

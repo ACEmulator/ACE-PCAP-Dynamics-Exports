@@ -5,19 +5,19 @@ VALUES (0x72850001,  1154, 0x28500020, 76.10473, 170.9467, 9.223929, 0.05260109,
 /* @teleloc 0x28500020 [76.104730 170.946700 9.223929] 0.052601 0.000000 0.000000 -0.998616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72850001, 0x72850002, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72850001, 0x72850003, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72850001, 0x72850004, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72850001, 0x72850005, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72850001, 0x72850006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72850001, 0x72850007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72850001, 0x72850008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72850001, 0x72850009, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72850001, 0x7285000A, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72850001, 0x7285000B, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72850001, 0x7285000C, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72850001, 0x7285000D, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72850001, 0x7285000E, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */;
+VALUES (0x72850001, 0x72850002, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72850001, 0x72850003, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72850001, 0x72850004, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72850001, 0x72850005, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72850001, 0x72850006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72850001, 0x72850007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72850001, 0x72850008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72850001, 0x72850009, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72850001, 0x7285000A, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72850001, 0x7285000B, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72850001, 0x7285000C, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72850001, 0x7285000D, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72850001, 0x7285000E, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72850002, 25563, 0x28500020, 76.10473, 170.9467, 9.223929, 0.05260109, 0, 0, -0.9986156,  True, '2019-02-10 00:00:00'); /* Drudge Seraph Mystic */
@@ -76,7 +76,7 @@ VALUES (0x7285000F,  1542, 0x28500025, 112.1775, 101.3749, 5.985046, -0.2862073,
 /* @teleloc 0x28500025 [112.177500 101.374900 5.985046] -0.286207 0.000000 0.000000 -0.958168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7285000F, 0x72850010, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x7285000F, 0x72850010, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72850010, 46284, 0x28500025, 112.1775, 101.3749, 5.985046, -0.2862073, 0, 0, -0.9581677,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

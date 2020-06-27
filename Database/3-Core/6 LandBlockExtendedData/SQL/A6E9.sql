@@ -5,19 +5,19 @@ VALUES (0x7A6E9001,  1154, 0xA6E90027, 104.7248, 167.8114, 15.29464, -0.1460743,
 /* @teleloc 0xA6E90027 [104.724800 167.811400 15.294640] -0.146074 0.000000 0.000000 -0.989274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6E9001, 0x7A6E9002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A6E9001, 0x7A6E9003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A6E9001, 0x7A6E9004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A6E9001, 0x7A6E9005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A6E9001, 0x7A6E9006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A6E9001, 0x7A6E9007, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A6E9001, 0x7A6E9008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6E9001, 0x7A6E9009, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7A6E9001, 0x7A6E900A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A6E9001, 0x7A6E900B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A6E9001, 0x7A6E900C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A6E9001, 0x7A6E900D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A6E9001, 0x7A6E900E, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A6E9001, 0x7A6E9002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A6E9001, 0x7A6E9003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A6E9001, 0x7A6E9004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A6E9001, 0x7A6E9005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A6E9001, 0x7A6E9006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A6E9001, 0x7A6E9007, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A6E9001, 0x7A6E9008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6E9001, 0x7A6E9009, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7A6E9001, 0x7A6E900A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A6E9001, 0x7A6E900B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A6E9001, 0x7A6E900C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A6E9001, 0x7A6E900D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A6E9001, 0x7A6E900E, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6E9002, 23565, 0xA6E90027, 104.7248, 167.8114, 15.29464, -0.1460743, 0, 0, -0.9892736,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -76,9 +76,9 @@ VALUES (0x7A6E900F,  1542, 0xA6E90007, 10.46283, 159.0883, 17.48528, 1, 0, 0, 0,
 /* @teleloc 0xA6E90007 [10.462830 159.088300 17.485280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6E900F, 0x7A6E9010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A6E900F, 0x7A6E9011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A6E900F, 0x7A6E9012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A6E900F, 0x7A6E9010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7A6E900F, 0x7A6E9011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A6E900F, 0x7A6E9012, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6E9010, 22571, 0xA6E90007, 10.46283, 159.0883, 17.48528, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

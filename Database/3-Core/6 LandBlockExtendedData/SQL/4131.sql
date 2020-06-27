@@ -5,10 +5,10 @@ VALUES (0x74131001,  1154, 0x41310029, 141.1711, 2.263835, 11.41725, 0.7071068, 
 /* @teleloc 0x41310029 [141.171100 2.263835 11.417250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74131001, 0x74131002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74131001, 0x74131003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74131001, 0x74131004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74131001, 0x74131005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74131001, 0x74131002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74131001, 0x74131003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74131001, 0x74131004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74131001, 0x74131005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74131002, 36859, 0x41310029, 141.1711, 2.263835, 11.41725, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

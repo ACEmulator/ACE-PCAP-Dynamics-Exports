@@ -5,12 +5,12 @@ VALUES (0x73B9B001,  1154, 0x3B9B0009, 34.66144, 21.9442, 7.75516, 1, 0, 0, 0, F
 /* @teleloc 0x3B9B0009 [34.661440 21.944200 7.755160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B9B001, 0x73B9B002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x73B9B001, 0x73B9B003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73B9B001, 0x73B9B004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73B9B001, 0x73B9B005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73B9B001, 0x73B9B006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73B9B001, 0x73B9B007, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x73B9B001, 0x73B9B002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x73B9B001, 0x73B9B003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73B9B001, 0x73B9B004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73B9B001, 0x73B9B005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73B9B001, 0x73B9B006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73B9B001, 0x73B9B007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B9B002,  8429, 0x3B9B0009, 34.66144, 21.9442, 7.75516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

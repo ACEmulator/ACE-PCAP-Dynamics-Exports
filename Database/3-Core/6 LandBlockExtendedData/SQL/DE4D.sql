@@ -5,12 +5,12 @@ VALUES (0x7DE4D001,  1154, 0xDE4D001F, 89.37667, 165.3301, 21.78651, 0.7318711, 
 /* @teleloc 0xDE4D001F [89.376670 165.330100 21.786510] 0.731871 0.000000 0.000000 -0.681443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE4D001, 0x7DE4D002, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7DE4D001, 0x7DE4D003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7DE4D001, 0x7DE4D004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7DE4D001, 0x7DE4D005, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7DE4D001, 0x7DE4D006, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7DE4D001, 0x7DE4D007, '2019-02-10 00:00:00') /* Dark Wisp */;
+VALUES (0x7DE4D001, 0x7DE4D002, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7DE4D001, 0x7DE4D003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7DE4D001, 0x7DE4D004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7DE4D001, 0x7DE4D005, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7DE4D001, 0x7DE4D006, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7DE4D001, 0x7DE4D007, '2019-02-10 00:00:00') /* Dark Wisp (1988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE4D002,  2608, 0xDE4D001F, 89.37667, 165.3301, 21.78651, 0.7318711, 0, 0, -0.6814432,  True, '2019-02-10 00:00:00'); /* Jibrit Zefir */

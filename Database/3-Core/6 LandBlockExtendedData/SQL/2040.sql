@@ -5,9 +5,9 @@ VALUES (0x72040001,  1154, 0x20400038, 157.5119, 183.2828, -0.002250075, -0.3293
 /* @teleloc 0x20400038 [157.511900 183.282800 -0.002250] -0.329394 0.000000 0.000000 -0.944193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72040001, 0x72040002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x72040001, 0x72040003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72040001, 0x72040004, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x72040001, 0x72040002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x72040001, 0x72040003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x72040001, 0x72040004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72040002,  7983, 0x20400038, 157.5119, 183.2828, -0.002250075, -0.3293941, 0, 0, -0.9441925,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
@@ -26,7 +26,7 @@ VALUES (0x72040005,  1542, 0x20400010, 36.6054, 180.3674, -0.00999999, 0.3810002
 /* @teleloc 0x20400010 [36.605400 180.367400 -0.010000] 0.381000 0.000000 0.000000 -0.924575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72040005, 0x72040006, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72040005, 0x72040006, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72040006,  9288, 0x20400010, 36.6054, 180.3674, -0.00999999, 0.3810002, 0, 0, -0.924575,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

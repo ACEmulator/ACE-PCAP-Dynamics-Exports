@@ -9,16 +9,16 @@ VALUES (0x7AEB7001,  1154, 0xAEB70008, 19.76201, 187.6959, 98.35457, 1, 0, 0, 0,
 /* @teleloc 0xAEB70008 [19.762010 187.695900 98.354570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB7001, 0x7AEB7002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AEB7001, 0x7AEB7003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AEB7001, 0x7AEB7004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AEB7001, 0x7AEB7005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AEB7001, 0x7AEB7006, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AEB7001, 0x7AEB7007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AEB7001, 0x7AEB7008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEB7001, 0x7AEB7009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AEB7001, 0x7AEB700A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AEB7001, 0x7AEB700B, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7AEB7001, 0x7AEB7002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AEB7001, 0x7AEB7003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AEB7001, 0x7AEB7004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AEB7001, 0x7AEB7005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AEB7001, 0x7AEB7006, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AEB7001, 0x7AEB7007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AEB7001, 0x7AEB7008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEB7001, 0x7AEB7009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AEB7001, 0x7AEB700A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AEB7001, 0x7AEB700B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB7002,   222, 0xAEB70008, 19.76201, 187.6959, 98.35457, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -65,16 +65,16 @@ VALUES (0x7AEB700C,  1542, 0xAEB70016, 53.65125, 134.4787, 97.9975, 0.669492, 0,
 /* @teleloc 0xAEB70016 [53.651250 134.478700 97.997500] 0.669492 0.000000 0.000000 -0.742819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB700C, 0x7AEB700D, '2019-02-10 00:00:00') /* Pants */
-     , (0x7AEB700C, 0x7AEB700E, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7AEB700C, 0x7AEB700F, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AEB700C, 0x7AEB7010, '2019-02-10 00:00:00') /* Turban */
-     , (0x7AEB700C, 0x7AEB7011, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7AEB700C, 0x7AEB7012, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7AEB700C, 0x7AEB7013, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7AEB700C, 0x7AEB7014, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7AEB700C, 0x7AEB7015, '2019-02-10 00:00:00') /* Breeches */
-     , (0x7AEB700C, 0x7AEB7016, '2019-02-10 00:00:00') /* Shoes */;
+VALUES (0x7AEB700C, 0x7AEB700D, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7AEB700C, 0x7AEB700E, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7AEB700C, 0x7AEB700F, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AEB700C, 0x7AEB7010, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7AEB700C, 0x7AEB7011, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7AEB700C, 0x7AEB7012, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7AEB700C, 0x7AEB7013, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7AEB700C, 0x7AEB7014, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7AEB700C, 0x7AEB7015, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x7AEB700C, 0x7AEB7016, '2019-02-10 00:00:00') /* Shoes (132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB700D,   127, 0xAEB70016, 53.65125, 134.4787, 97.9975, 0.669492, 0, 0, -0.742819,  True, '2019-02-10 00:00:00'); /* Pants */

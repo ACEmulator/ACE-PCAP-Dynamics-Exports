@@ -5,19 +5,19 @@ VALUES (0x759D8001,  1154, 0x59D8002B, 134.0018, 48.37495, 97.97876, -0.5513099,
 /* @teleloc 0x59D8002B [134.001800 48.374950 97.978760] -0.551310 0.000000 0.000000 -0.834301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759D8001, 0x759D8002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x759D8001, 0x759D8003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x759D8001, 0x759D8004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x759D8001, 0x759D8005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x759D8001, 0x759D8006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x759D8001, 0x759D8007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x759D8001, 0x759D8008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x759D8001, 0x759D8009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x759D8001, 0x759D800A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x759D8001, 0x759D800B, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x759D8001, 0x759D800C, '2019-02-10 00:00:00') /* Flamma */
-     , (0x759D8001, 0x759D800D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x759D8001, 0x759D800E, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x759D8001, 0x759D8002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x759D8001, 0x759D8003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x759D8001, 0x759D8004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x759D8001, 0x759D8005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x759D8001, 0x759D8006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x759D8001, 0x759D8007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x759D8001, 0x759D8008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x759D8001, 0x759D8009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x759D8001, 0x759D800A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x759D8001, 0x759D800B, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x759D8001, 0x759D800C, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x759D8001, 0x759D800D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x759D8001, 0x759D800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759D8002,  8138, 0x59D8002B, 134.0018, 48.37495, 97.97876, -0.5513099, 0, 0, -0.8343005,  True, '2019-02-10 00:00:00'); /* Extas Raider */

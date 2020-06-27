@@ -5,17 +5,17 @@ VALUES (0x7825D001,  1154, 0x825D003D, 169.456, 115.9053, 18.44228, 0.8870109, 0
 /* @teleloc 0x825D003D [169.456000 115.905300 18.442280] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7825D001, 0x7825D002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7825D001, 0x7825D003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7825D001, 0x7825D004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7825D001, 0x7825D005, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7825D001, 0x7825D006, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7825D001, 0x7825D007, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7825D001, 0x7825D008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7825D001, 0x7825D009, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7825D001, 0x7825D00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7825D001, 0x7825D00B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7825D001, 0x7825D00C, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7825D001, 0x7825D002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7825D001, 0x7825D003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7825D001, 0x7825D004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7825D001, 0x7825D005, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7825D001, 0x7825D006, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7825D001, 0x7825D007, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7825D001, 0x7825D008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7825D001, 0x7825D009, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7825D001, 0x7825D00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7825D001, 0x7825D00B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7825D001, 0x7825D00C, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7825D002,  1759, 0x825D003D, 169.456, 115.9053, 18.44228, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Skeleton */

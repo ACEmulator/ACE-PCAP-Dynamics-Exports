@@ -5,26 +5,26 @@ VALUES (0x77CF2001,  1154, 0x7CF20034, 161.6136, 88.74234, 81.34499, 0.9961947, 
 /* @teleloc 0x7CF20034 [161.613600 88.742340 81.344990] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF2001, 0x77CF2002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x77CF2001, 0x77CF2003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77CF2001, 0x77CF2004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77CF2001, 0x77CF2005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77CF2001, 0x77CF2006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77CF2001, 0x77CF2007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77CF2001, 0x77CF2008, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77CF2001, 0x77CF2009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x77CF2001, 0x77CF200A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77CF2001, 0x77CF200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77CF2001, 0x77CF200C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77CF2001, 0x77CF200D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77CF2001, 0x77CF200E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x77CF2001, 0x77CF200F, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x77CF2001, 0x77CF2010, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x77CF2001, 0x77CF2011, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77CF2001, 0x77CF2012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77CF2001, 0x77CF2013, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x77CF2001, 0x77CF2014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x77CF2001, 0x77CF2015, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x77CF2001, 0x77CF2002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x77CF2001, 0x77CF2003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77CF2001, 0x77CF2004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77CF2001, 0x77CF2005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77CF2001, 0x77CF2006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77CF2001, 0x77CF2007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77CF2001, 0x77CF2008, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77CF2001, 0x77CF2009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x77CF2001, 0x77CF200A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77CF2001, 0x77CF200B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77CF2001, 0x77CF200C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77CF2001, 0x77CF200D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77CF2001, 0x77CF200E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x77CF2001, 0x77CF200F, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x77CF2001, 0x77CF2010, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x77CF2001, 0x77CF2011, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x77CF2001, 0x77CF2012, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77CF2001, 0x77CF2013, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x77CF2001, 0x77CF2014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x77CF2001, 0x77CF2015, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF2002,   228, 0x7CF20034, 161.6136, 88.74234, 81.34499, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -111,11 +111,11 @@ VALUES (0x77CF2016,  1542, 0x7CF20034, 167.4695, 75.83625, 83.77896, 0.04101099,
 /* @teleloc 0x7CF20034 [167.469500 75.836250 83.778960] 0.041011 0.000000 0.000000 -0.999159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF2016, 0x77CF2017, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x77CF2016, 0x77CF2018, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x77CF2016, 0x77CF2019, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x77CF2016, 0x77CF201A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77CF2016, 0x77CF201B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77CF2016, 0x77CF2017, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x77CF2016, 0x77CF2018, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x77CF2016, 0x77CF2019, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x77CF2016, 0x77CF201A, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x77CF2016, 0x77CF201B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF2017, 11555, 0x7CF20034, 167.4695, 75.83625, 83.77896, 0.04101099, 0, 0, -0.9991587,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

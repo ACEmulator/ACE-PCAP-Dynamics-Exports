@@ -5,17 +5,17 @@ VALUES (0x7355D001,  1154, 0x355D003E, 174.9961, 122.9592, 40.029, -0.999862, 0,
 /* @teleloc 0x355D003E [174.996100 122.959200 40.029000] -0.999862 0.000000 0.000000 -0.016616 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7355D001, 0x7355D002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7355D001, 0x7355D003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7355D001, 0x7355D004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7355D001, 0x7355D005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7355D001, 0x7355D006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7355D001, 0x7355D007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7355D001, 0x7355D008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7355D001, 0x7355D009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7355D001, 0x7355D00A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7355D001, 0x7355D00B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7355D001, 0x7355D00C, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7355D001, 0x7355D002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7355D001, 0x7355D003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7355D001, 0x7355D004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7355D001, 0x7355D005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7355D001, 0x7355D006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7355D001, 0x7355D007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7355D001, 0x7355D008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7355D001, 0x7355D009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7355D001, 0x7355D00A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7355D001, 0x7355D00B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7355D001, 0x7355D00C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7355D002,  9264, 0x355D003E, 174.9961, 122.9592, 40.029, -0.999862, 0, 0, -0.01661597,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -66,7 +66,7 @@ VALUES (0x7355D00D,  1542, 0x355D0016, 52.36507, 125.1638, 39.99, 0.3703246, 0, 
 /* @teleloc 0x355D0016 [52.365070 125.163800 39.990000] 0.370325 0.000000 0.000000 -0.928902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7355D00D, 0x7355D00E, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7355D00D, 0x7355D00E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7355D00E,  9288, 0x355D0016, 52.36507, 125.1638, 39.99, 0.3703246, 0, 0, -0.9289024,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

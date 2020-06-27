@@ -5,9 +5,9 @@ VALUES (0x7887D001,  1154, 0x887D0001, 5.791325, 21.64692, 60.59827, -0.3937682,
 /* @teleloc 0x887D0001 [5.791325 21.646920 60.598270] -0.393768 0.000000 0.000000 -0.919210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7887D001, 0x7887D002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7887D001, 0x7887D003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7887D001, 0x7887D004, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7887D001, 0x7887D002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7887D001, 0x7887D003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7887D001, 0x7887D004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7887D002,   202, 0x887D0001, 5.791325, 21.64692, 60.59827, -0.3937682, 0, 0, -0.9192098,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

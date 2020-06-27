@@ -5,15 +5,15 @@ VALUES (0x7A98D001,  1154, 0xA98D002F, 123.7107, 151.571, 29.68164, 0.638729, 0,
 /* @teleloc 0xA98D002F [123.710700 151.571000 29.681640] 0.638729 0.000000 0.000000 -0.769432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98D001, 0x7A98D002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A98D001, 0x7A98D003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A98D001, 0x7A98D004, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A98D001, 0x7A98D005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7A98D001, 0x7A98D006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A98D001, 0x7A98D007, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A98D001, 0x7A98D008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A98D001, 0x7A98D009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A98D001, 0x7A98D00A, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7A98D001, 0x7A98D002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A98D001, 0x7A98D003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A98D001, 0x7A98D004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A98D001, 0x7A98D005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A98D001, 0x7A98D006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A98D001, 0x7A98D007, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A98D001, 0x7A98D008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A98D001, 0x7A98D009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A98D001, 0x7A98D00A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98D002,  1608, 0xA98D002F, 123.7107, 151.571, 29.68164, 0.638729, 0, 0, -0.7694318,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

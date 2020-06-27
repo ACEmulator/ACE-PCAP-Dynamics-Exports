@@ -5,16 +5,16 @@ VALUES (0x7D8BB001,  1154, 0xD8BB0013, 66.00567, 61.90292, 33.67895, -0.7305856,
 /* @teleloc 0xD8BB0013 [66.005670 61.902920 33.678950] -0.730586 0.000000 0.000000 -0.682821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8BB001, 0x7D8BB002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BB001, 0x7D8BB003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BB001, 0x7D8BB004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8BB001, 0x7D8BB005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BB001, 0x7D8BB006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D8BB001, 0x7D8BB007, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BB001, 0x7D8BB008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8BB001, 0x7D8BB009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8BB001, 0x7D8BB00A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7D8BB001, 0x7D8BB00B, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7D8BB001, 0x7D8BB002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BB001, 0x7D8BB003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BB001, 0x7D8BB004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8BB001, 0x7D8BB005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BB001, 0x7D8BB006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D8BB001, 0x7D8BB007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BB001, 0x7D8BB008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8BB001, 0x7D8BB009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8BB001, 0x7D8BB00A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7D8BB001, 0x7D8BB00B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8BB002, 24959, 0xD8BB0013, 66.00567, 61.90292, 33.67895, -0.7305856, 0, 0, -0.6828211,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

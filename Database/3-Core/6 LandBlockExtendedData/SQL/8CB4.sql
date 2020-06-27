@@ -5,24 +5,24 @@ VALUES (0x78CB4001,  1154, 0x8CB40013, 59.94417, 51.82769, 53.67887, -0.751062, 
 /* @teleloc 0x8CB40013 [59.944170 51.827690 53.678870] -0.751062 0.000000 0.000000 -0.660232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB4001, 0x78CB4002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CB4001, 0x78CB4003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB4001, 0x78CB4004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB4001, 0x78CB4005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB4001, 0x78CB4006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB4001, 0x78CB4007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB4001, 0x78CB4008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB4001, 0x78CB4009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB4001, 0x78CB400A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78CB4001, 0x78CB400B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CB4001, 0x78CB400C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CB4001, 0x78CB400D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB4001, 0x78CB400E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB4001, 0x78CB400F, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78CB4001, 0x78CB4010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CB4001, 0x78CB4011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CB4001, 0x78CB4012, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB4001, 0x78CB4013, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x78CB4001, 0x78CB4002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CB4001, 0x78CB4003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB4001, 0x78CB4004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB4001, 0x78CB4005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB4001, 0x78CB4006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB4001, 0x78CB4007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB4001, 0x78CB4008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB4001, 0x78CB4009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB4001, 0x78CB400A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78CB4001, 0x78CB400B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CB4001, 0x78CB400C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CB4001, 0x78CB400D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB4001, 0x78CB400E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB4001, 0x78CB400F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78CB4001, 0x78CB4010, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CB4001, 0x78CB4011, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CB4001, 0x78CB4012, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB4001, 0x78CB4013, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB4002,  7333, 0x8CB40013, 59.94417, 51.82769, 53.67887, -0.751062, 0, 0, -0.6602316,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -101,11 +101,11 @@ VALUES (0x78CB4014,  1542, 0x8CB4003B, 180.8361, 64.74545, 95.61123, 0.7917581, 
 /* @teleloc 0x8CB4003B [180.836100 64.745450 95.611230] 0.791758 0.000000 0.000000 -0.610835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB4014, 0x78CB4015, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x78CB4014, 0x78CB4016, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x78CB4014, 0x78CB4017, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x78CB4014, 0x78CB4018, '2019-02-10 00:00:00') /* Bones */
-     , (0x78CB4014, 0x78CB4019, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x78CB4014, 0x78CB4015, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x78CB4014, 0x78CB4016, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x78CB4014, 0x78CB4017, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x78CB4014, 0x78CB4018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78CB4014, 0x78CB4019, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB4015,  9071, 0x8CB4003B, 180.8361, 64.74545, 95.61123, 0.7917581, 0, 0, -0.6108347,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

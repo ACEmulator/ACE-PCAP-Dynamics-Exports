@@ -5,15 +5,15 @@ VALUES (0x7313B001,  1154, 0x313B0022, 105.6745, 39.82305, 148.1293, -0.7931443,
 /* @teleloc 0x313B0022 [105.674500 39.823050 148.129300] -0.793144 0.000000 0.000000 -0.609034 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7313B001, 0x7313B002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7313B001, 0x7313B003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7313B001, 0x7313B004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7313B001, 0x7313B005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7313B001, 0x7313B006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7313B001, 0x7313B007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7313B001, 0x7313B008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7313B001, 0x7313B009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7313B001, 0x7313B00A, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x7313B001, 0x7313B002, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7313B001, 0x7313B003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7313B001, 0x7313B004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7313B001, 0x7313B005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7313B001, 0x7313B006, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7313B001, 0x7313B007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7313B001, 0x7313B008, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7313B001, 0x7313B009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7313B001, 0x7313B00A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7313B002, 24278, 0x313B0022, 105.6745, 39.82305, 148.1293, -0.7931443, 0, 0, -0.6090338,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */

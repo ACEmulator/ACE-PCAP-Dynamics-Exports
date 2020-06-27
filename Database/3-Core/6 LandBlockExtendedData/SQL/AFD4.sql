@@ -5,16 +5,16 @@ VALUES (0x7AFD4001,  1154, 0xAFD4002A, 139.0318, 42.99847, 38.83081, -0.777418, 
 /* @teleloc 0xAFD4002A [139.031800 42.998470 38.830810] -0.777418 0.000000 0.000000 -0.628984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFD4001, 0x7AFD4002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7AFD4001, 0x7AFD4003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AFD4001, 0x7AFD4004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AFD4001, 0x7AFD4005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AFD4001, 0x7AFD4006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AFD4001, 0x7AFD4007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AFD4001, 0x7AFD4008, '2019-02-10 00:00:00') /* Static */
-     , (0x7AFD4001, 0x7AFD4009, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7AFD4001, 0x7AFD400A, '2019-02-10 00:00:00') /* Banished Tumerok */
-     , (0x7AFD4001, 0x7AFD400B, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x7AFD4001, 0x7AFD4002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7AFD4001, 0x7AFD4003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AFD4001, 0x7AFD4004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AFD4001, 0x7AFD4005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AFD4001, 0x7AFD4006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AFD4001, 0x7AFD4007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AFD4001, 0x7AFD4008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AFD4001, 0x7AFD4009, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7AFD4001, 0x7AFD400A, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x7AFD4001, 0x7AFD400B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFD4002,  5748, 0xAFD4002A, 139.0318, 42.99847, 38.83081, -0.777418, 0, 0, -0.6289843,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

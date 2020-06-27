@@ -5,17 +5,17 @@ VALUES (0x7918E001,  1154, 0x918E002D, 129.1875, 118.555, 29.11895, 0.9992029, 0
 /* @teleloc 0x918E002D [129.187500 118.555000 29.118950] 0.999203 0.000000 0.000000 -0.039919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7918E001, 0x7918E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7918E001, 0x7918E003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7918E001, 0x7918E004, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7918E001, 0x7918E005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7918E001, 0x7918E006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7918E001, 0x7918E007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7918E001, 0x7918E008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7918E001, 0x7918E009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7918E001, 0x7918E00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7918E001, 0x7918E00B, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7918E001, 0x7918E00C, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7918E001, 0x7918E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7918E001, 0x7918E003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7918E001, 0x7918E004, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7918E001, 0x7918E005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7918E001, 0x7918E006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7918E001, 0x7918E007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7918E001, 0x7918E008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7918E001, 0x7918E009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7918E001, 0x7918E00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7918E001, 0x7918E00B, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7918E001, 0x7918E00C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7918E002,  1758, 0x918E002D, 129.1875, 118.555, 29.11895, 0.9992029, 0, 0, -0.03991918,  True, '2019-02-10 00:00:00'); /* Shadow */

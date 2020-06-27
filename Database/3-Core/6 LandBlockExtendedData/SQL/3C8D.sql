@@ -5,14 +5,14 @@ VALUES (0x73C8D001,  1154, 0x3C8D001F, 85.61716, 157.4022, 32.16967, 0.7933533, 
 /* @teleloc 0x3C8D001F [85.617160 157.402200 32.169670] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C8D001, 0x73C8D002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73C8D001, 0x73C8D003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73C8D001, 0x73C8D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73C8D001, 0x73C8D005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x73C8D001, 0x73C8D006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C8D001, 0x73C8D007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73C8D001, 0x73C8D008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73C8D001, 0x73C8D009, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x73C8D001, 0x73C8D002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73C8D001, 0x73C8D003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73C8D001, 0x73C8D004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73C8D001, 0x73C8D005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x73C8D001, 0x73C8D006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C8D001, 0x73C8D007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73C8D001, 0x73C8D008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73C8D001, 0x73C8D009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C8D002, 36858, 0x3C8D001F, 85.61716, 157.4022, 32.16967, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -51,8 +51,8 @@ VALUES (0x73C8D00A,  1542, 0x3C8D0007, 5.815413, 145.3493, 51.80836, 0.9990482, 
 /* @teleloc 0x3C8D0007 [5.815413 145.349300 51.808360] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C8D00A, 0x73C8D00B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C8D00A, 0x73C8D00C, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x73C8D00A, 0x73C8D00B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C8D00A, 0x73C8D00C, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C8D00B,  4179, 0x3C8D0007, 5.815413, 145.3493, 51.80836, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

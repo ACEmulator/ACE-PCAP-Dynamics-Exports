@@ -65,95 +65,95 @@ VALUES (0x7A3A4012,  1154, 0xA3A40015, 49.98974, 114.9362, 68.01051, -0.7560948,
 /* @teleloc 0xA3A40015 [49.989740 114.936200 68.010510] -0.756095 0.000000 0.000000 -0.654462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A4012, 0x7A3A4013, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A3A4012, 0x7A3A4014, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7A3A4012, 0x7A3A4015, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A3A4012, 0x7A3A4016, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A3A4012, 0x7A3A4017, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4018, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A4019, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A401A, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A401B, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A401C, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A401D, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A401E, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A401F, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A4020, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A3A4012, 0x7A3A4021, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A4012, 0x7A3A4022, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A4012, 0x7A3A4023, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A4012, 0x7A3A4024, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A4012, 0x7A3A4025, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A3A4012, 0x7A3A4026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3A4012, 0x7A3A4027, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7A3A4012, 0x7A3A4028, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A4029, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A402A, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7A3A4012, 0x7A3A402B, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A402C, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A402D, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7A3A4012, 0x7A3A402E, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A402F, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4030, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7A3A4012, 0x7A3A4031, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A3A4012, 0x7A3A4032, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A3A4012, 0x7A3A4033, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A4034, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A4035, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7A3A4012, 0x7A3A4036, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4037, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4038, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A4039, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A3A4012, 0x7A3A403A, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A3A4012, 0x7A3A403B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A403C, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A3A4012, 0x7A3A403D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A403E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A403F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A4040, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A4041, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A4042, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A4043, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3A4012, 0x7A3A4044, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A3A4012, 0x7A3A4045, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A4046, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4047, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7A3A4012, 0x7A3A4048, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A3A4012, 0x7A3A4049, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A3A4012, 0x7A3A404A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A3A4012, 0x7A3A404B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A3A4012, 0x7A3A404C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A3A4012, 0x7A3A404D, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A404E, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A404F, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A4050, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4051, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7A3A4012, 0x7A3A4052, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A3A4012, 0x7A3A4053, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A3A4012, 0x7A3A4054, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A3A4012, 0x7A3A4055, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A3A4012, 0x7A3A4056, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7A3A4012, 0x7A3A4057, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7A3A4012, 0x7A3A4058, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4059, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A3A4012, 0x7A3A405A, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7A3A4012, 0x7A3A405B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7A3A4012, 0x7A3A405C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7A3A4012, 0x7A3A405D, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7A3A4012, 0x7A3A405E, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A405F, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4060, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A4061, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A4062, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A3A4012, 0x7A3A4063, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7A3A4012, 0x7A3A4064, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A3A4012, 0x7A3A4065, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4066, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A3A4012, 0x7A3A4067, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A3A4012, 0x7A3A4068, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A3A4012, 0x7A3A4069, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A3A4012, 0x7A3A406A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A3A4012, 0x7A3A406B, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7A3A4012, 0x7A3A4013, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A3A4012, 0x7A3A4014, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7A3A4012, 0x7A3A4015, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A3A4012, 0x7A3A4016, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A3A4012, 0x7A3A4017, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4018, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A4019, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A401A, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A401B, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A401C, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A401D, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A401E, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A401F, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A4020, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A3A4012, 0x7A3A4021, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A4012, 0x7A3A4022, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A4012, 0x7A3A4023, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A4012, 0x7A3A4024, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A4012, 0x7A3A4025, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A3A4012, 0x7A3A4026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3A4012, 0x7A3A4027, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7A3A4012, 0x7A3A4028, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A4029, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A402A, '2019-02-10 00:00:00') /* Viamontian Mage (32324) */
+     , (0x7A3A4012, 0x7A3A402B, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A402C, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A402D, '2019-02-10 00:00:00') /* Viamontian Mage (32324) */
+     , (0x7A3A4012, 0x7A3A402E, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A402F, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4030, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7A3A4012, 0x7A3A4031, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A3A4012, 0x7A3A4032, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A3A4012, 0x7A3A4033, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A4034, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A4035, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7A3A4012, 0x7A3A4036, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4037, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4038, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A4039, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A3A4012, 0x7A3A403A, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A3A4012, 0x7A3A403B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A403C, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A3A4012, 0x7A3A403D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A403E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A403F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A4040, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A4041, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A4042, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A4043, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3A4012, 0x7A3A4044, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A3A4012, 0x7A3A4045, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A4046, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4047, '2019-02-10 00:00:00') /* Engorged Eater (32314) */
+     , (0x7A3A4012, 0x7A3A4048, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A3A4012, 0x7A3A4049, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A3A4012, 0x7A3A404A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A3A4012, 0x7A3A404B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A3A4012, 0x7A3A404C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A3A4012, 0x7A3A404D, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A404E, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A404F, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A4050, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4051, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7A3A4012, 0x7A3A4052, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A3A4012, 0x7A3A4053, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A3A4012, 0x7A3A4054, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A3A4012, 0x7A3A4055, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A3A4012, 0x7A3A4056, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7A3A4012, 0x7A3A4057, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7A3A4012, 0x7A3A4058, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4059, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A3A4012, 0x7A3A405A, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7A3A4012, 0x7A3A405B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7A3A4012, 0x7A3A405C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7A3A4012, 0x7A3A405D, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7A3A4012, 0x7A3A405E, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A405F, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4060, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A4061, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A4062, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A3A4012, 0x7A3A4063, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7A3A4012, 0x7A3A4064, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A3A4012, 0x7A3A4065, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4066, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A3A4012, 0x7A3A4067, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A3A4012, 0x7A3A4068, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A3A4012, 0x7A3A4069, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A3A4012, 0x7A3A406A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A3A4012, 0x7A3A406B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A4013,  7082, 0xA3A40015, 49.98974, 114.9362, 68.01051, -0.7560948, 0, 0, -0.6544622,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -516,7 +516,7 @@ VALUES (0x7A3A406C,  1154, 0xA3A40104, 60.2912, 84.0818, 71.005, -0.6243142, 0, 
 /* @teleloc 0xA3A40104 [60.291200 84.081800 71.005000] -0.624314 0.000000 0.000000 0.781173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A406C, 0x7A3A406D, '2019-02-10 00:00:00') /* Collector */;
+VALUES (0x7A3A406C, 0x7A3A406D, '2019-02-10 00:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A406D,  3917, 0xA3A40104, 60.2912, 84.0818, 71.005, -0.6243142, 0, 0, 0.7811733,  True, '2019-02-10 00:00:00'); /* Collector */
@@ -527,7 +527,7 @@ VALUES (0x7A3A406E,  1542, 0xA3A4001C, 89.82499, 72.3008, 84.70627, 0.9990482, 0
 /* @teleloc 0xA3A4001C [89.824990 72.300800 84.706270] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A406E, 0x7A3A406F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A3A406E, 0x7A3A406F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A406F,  4179, 0xA3A4001C, 89.82499, 72.3008, 84.70627, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

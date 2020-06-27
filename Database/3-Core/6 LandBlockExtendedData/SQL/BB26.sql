@@ -5,16 +5,16 @@ VALUES (0x7BB26001,  1154, 0xBB260014, 62.85234, 76.18377, 243.2477, -0.418613, 
 /* @teleloc 0xBB260014 [62.852340 76.183770 243.247700] -0.418613 0.000000 0.000000 -0.908165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB26001, 0x7BB26002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BB26001, 0x7BB26003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB26001, 0x7BB26004, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BB26001, 0x7BB26005, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BB26001, 0x7BB26006, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BB26001, 0x7BB26007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BB26001, 0x7BB26008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB26001, 0x7BB26009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB26001, 0x7BB2600A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BB26001, 0x7BB2600B, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BB26001, 0x7BB26002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BB26001, 0x7BB26003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB26001, 0x7BB26004, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7BB26001, 0x7BB26005, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BB26001, 0x7BB26006, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7BB26001, 0x7BB26007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BB26001, 0x7BB26008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB26001, 0x7BB26009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB26001, 0x7BB2600A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BB26001, 0x7BB2600B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB26002,  8139, 0xBB260014, 62.85234, 76.18377, 243.2477, -0.418613, 0, 0, -0.9081647,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -61,7 +61,7 @@ VALUES (0x7BB2600C,  1542, 0xBB260030, 128.5594, 180.5634, 231.5967, -0.6521527,
 /* @teleloc 0xBB260030 [128.559400 180.563400 231.596700] -0.652153 0.000000 0.000000 -0.758088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB2600C, 0x7BB2600D, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BB2600C, 0x7BB2600D, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB2600D, 42528, 0xBB260030, 128.5594, 180.5634, 231.5967, -0.6521527, 0, 0, -0.7580877,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,14 +5,14 @@ VALUES (0x77C6A001,  1154, 0x7C6A0032, 148.4599, 27.76077, 15.91907, 0.9431208, 
 /* @teleloc 0x7C6A0032 [148.459900 27.760770 15.919070] 0.943121 0.000000 0.000000 -0.332450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C6A001, 0x77C6A002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6A001, 0x77C6A003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6A001, 0x77C6A004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x77C6A001, 0x77C6A005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x77C6A001, 0x77C6A006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6A001, 0x77C6A007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77C6A001, 0x77C6A008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77C6A001, 0x77C6A009, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x77C6A001, 0x77C6A002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6A001, 0x77C6A003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6A001, 0x77C6A004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x77C6A001, 0x77C6A005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x77C6A001, 0x77C6A006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6A001, 0x77C6A007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77C6A001, 0x77C6A008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77C6A001, 0x77C6A009, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6A002,  1759, 0x7C6A0032, 148.4599, 27.76077, 15.91907, 0.9431208, 0, 0, -0.3324503,  True, '2019-02-10 00:00:00'); /* Skeleton */

@@ -5,16 +5,16 @@ VALUES (0x7CB8E001,  1154, 0xCB8E000C, 31.34424, 73.5024, 14.49182, 0.9994628, 0
 /* @teleloc 0xCB8E000C [31.344240 73.502400 14.491820] 0.999463 0.000000 0.000000 -0.032773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB8E001, 0x7CB8E002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CB8E001, 0x7CB8E003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CB8E001, 0x7CB8E004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CB8E001, 0x7CB8E005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7CB8E001, 0x7CB8E006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7CB8E001, 0x7CB8E007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CB8E001, 0x7CB8E008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CB8E001, 0x7CB8E009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB8E001, 0x7CB8E00A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CB8E001, 0x7CB8E00B, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7CB8E001, 0x7CB8E002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CB8E001, 0x7CB8E003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CB8E001, 0x7CB8E004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CB8E001, 0x7CB8E005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7CB8E001, 0x7CB8E006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7CB8E001, 0x7CB8E007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CB8E001, 0x7CB8E008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CB8E001, 0x7CB8E009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB8E001, 0x7CB8E00A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CB8E001, 0x7CB8E00B, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB8E002,   232, 0xCB8E000C, 31.34424, 73.5024, 14.49182, 0.9994628, 0, 0, -0.03277272,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

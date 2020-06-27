@@ -5,15 +5,15 @@ VALUES (0x7BF5A001,  1154, 0xBF5A0008, 13.66261, 177.4784, 6.0055, -0.2744281, 0
 /* @teleloc 0xBF5A0008 [13.662610 177.478400 6.005500] -0.274428 0.000000 0.000000 -0.961608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5A001, 0x7BF5A002, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BF5A001, 0x7BF5A003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BF5A001, 0x7BF5A004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BF5A001, 0x7BF5A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5A001, 0x7BF5A006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5A001, 0x7BF5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5A001, 0x7BF5A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5A001, 0x7BF5A009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF5A001, 0x7BF5A00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7BF5A001, 0x7BF5A002, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BF5A001, 0x7BF5A003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BF5A001, 0x7BF5A004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BF5A001, 0x7BF5A005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5A001, 0x7BF5A006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5A001, 0x7BF5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5A001, 0x7BF5A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5A001, 0x7BF5A009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF5A001, 0x7BF5A00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5A002,  1619, 0xBF5A0008, 13.66261, 177.4784, 6.0055, -0.2744281, 0, 0, -0.9616076,  True, '2019-02-10 00:00:00'); /* Mosswart Shaman */

@@ -5,13 +5,13 @@ VALUES (0x77D15001,  1154, 0x7D150014, 70.00658, 72.14302, 103.9544, 0.2473779, 
 /* @teleloc 0x7D150014 [70.006580 72.143020 103.954400] 0.247378 0.000000 0.000000 -0.968919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D15001, 0x77D15002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77D15001, 0x77D15003, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x77D15001, 0x77D15004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77D15001, 0x77D15005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77D15001, 0x77D15006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77D15001, 0x77D15007, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x77D15001, 0x77D15008, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x77D15001, 0x77D15002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77D15001, 0x77D15003, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x77D15001, 0x77D15004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77D15001, 0x77D15005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77D15001, 0x77D15006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77D15001, 0x77D15007, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x77D15001, 0x77D15008, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D15002,  4255, 0x7D150014, 70.00658, 72.14302, 103.9544, 0.2473779, 0, 0, -0.968919,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

@@ -5,21 +5,21 @@ VALUES (0x73B9D001,  1154, 0x3B9D0035, 144.2391, 102.4299, 80.43239, 0.8986469, 
 /* @teleloc 0x3B9D0035 [144.239100 102.429900 80.432390] 0.898647 0.000000 0.000000 -0.438673 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B9D001, 0x73B9D002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x73B9D001, 0x73B9D003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73B9D001, 0x73B9D004, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73B9D001, 0x73B9D005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73B9D001, 0x73B9D006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73B9D001, 0x73B9D007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73B9D001, 0x73B9D008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B9D001, 0x73B9D009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73B9D001, 0x73B9D00A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B9D001, 0x73B9D00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73B9D001, 0x73B9D00C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73B9D001, 0x73B9D00D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73B9D001, 0x73B9D00E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73B9D001, 0x73B9D00F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73B9D001, 0x73B9D010, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x73B9D001, 0x73B9D002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x73B9D001, 0x73B9D003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73B9D001, 0x73B9D004, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73B9D001, 0x73B9D005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73B9D001, 0x73B9D006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73B9D001, 0x73B9D007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73B9D001, 0x73B9D008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B9D001, 0x73B9D009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73B9D001, 0x73B9D00A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B9D001, 0x73B9D00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73B9D001, 0x73B9D00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73B9D001, 0x73B9D00D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73B9D001, 0x73B9D00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73B9D001, 0x73B9D00F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73B9D001, 0x73B9D010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B9D002,  5748, 0x3B9D0035, 144.2391, 102.4299, 80.43239, 0.8986469, 0, 0, -0.4386727,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -86,8 +86,8 @@ VALUES (0x73B9D011,  1542, 0x3B9D0005, 0.7712402, 116.4301, 50.02386, -0.9611593
 /* @teleloc 0x3B9D0005 [0.771240 116.430100 50.023860] -0.961159 0.000000 0.000000 -0.275994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B9D011, 0x73B9D012, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x73B9D011, 0x73B9D013, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x73B9D011, 0x73B9D012, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x73B9D011, 0x73B9D013, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B9D012,  8039, 0x3B9D0005, 0.7712402, 116.4301, 50.02386, -0.9611593, 0, 0, -0.2759939,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

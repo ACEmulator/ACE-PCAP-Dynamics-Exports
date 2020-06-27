@@ -5,25 +5,25 @@ VALUES (0x7B0A7001,  1154, 0xB0A70014, 50.09492, 78.17925, 100.9773, 0.05587202,
 /* @teleloc 0xB0A70014 [50.094920 78.179250 100.977300] 0.055872 0.000000 0.000000 -0.998438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A7001, 0x7B0A7002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A7001, 0x7B0A7003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B0A7001, 0x7B0A7004, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B0A7001, 0x7B0A7005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A7001, 0x7B0A7006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A7001, 0x7B0A7007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B0A7001, 0x7B0A7008, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B0A7001, 0x7B0A7009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B0A7001, 0x7B0A700A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B0A7001, 0x7B0A700B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A700C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A700D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A700E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A700F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A7010, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B0A7001, 0x7B0A7011, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A7012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B0A7001, 0x7B0A7013, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B0A7001, 0x7B0A7014, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7B0A7001, 0x7B0A7002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A7001, 0x7B0A7003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B0A7001, 0x7B0A7004, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B0A7001, 0x7B0A7005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A7001, 0x7B0A7006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A7001, 0x7B0A7007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B0A7001, 0x7B0A7008, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B0A7001, 0x7B0A7009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B0A7001, 0x7B0A700A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B0A7001, 0x7B0A700B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A700C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A700D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A700E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A700F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A7010, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B0A7001, 0x7B0A7011, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A7012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B0A7001, 0x7B0A7013, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B0A7001, 0x7B0A7014, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A7002,   939, 0xB0A70014, 50.09492, 78.17925, 100.9773, 0.05587202, 0, 0, -0.9984379,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -106,8 +106,8 @@ VALUES (0x7B0A7015,  1542, 0xB0A70029, 139.8001, 15.20115, 103.0832, 1, 0, 0, 0,
 /* @teleloc 0xB0A70029 [139.800100 15.201150 103.083200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0A7015, 0x7B0A7016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B0A7015, 0x7B0A7017, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B0A7015, 0x7B0A7016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B0A7015, 0x7B0A7017, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0A7016,  4179, 0xB0A70029, 139.8001, 15.20115, 103.0832, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

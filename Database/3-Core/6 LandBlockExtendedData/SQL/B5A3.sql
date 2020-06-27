@@ -5,26 +5,26 @@ VALUES (0x7B5A3001,  1154, 0xB5A3003F, 171.507, 154.005, 27.55, -0.652853, 0, 0,
 /* @teleloc 0xB5A3003F [171.507000 154.005000 27.550000] -0.652853 0.000000 0.000000 -0.757485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A3001, 0x7B5A3002, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3003, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3004, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3005, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3006, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3007, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3008, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A3009, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B5A3001, 0x7B5A300A, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A3001, 0x7B5A300B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B5A3001, 0x7B5A300C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B5A3001, 0x7B5A300D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B5A3001, 0x7B5A300E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B5A3001, 0x7B5A300F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B5A3001, 0x7B5A3010, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B5A3001, 0x7B5A3011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B5A3001, 0x7B5A3012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B5A3001, 0x7B5A3013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B5A3001, 0x7B5A3014, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B5A3001, 0x7B5A3015, '2019-02-10 00:00:00') /* Spiny Armoredillo */;
+VALUES (0x7B5A3001, 0x7B5A3002, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3003, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3004, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3005, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3006, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3007, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3008, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A3009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B5A3001, 0x7B5A300A, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A3001, 0x7B5A300B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B5A3001, 0x7B5A300C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B5A3001, 0x7B5A300D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3001, 0x7B5A300E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3001, 0x7B5A300F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B5A3001, 0x7B5A3010, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B5A3001, 0x7B5A3011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B5A3001, 0x7B5A3012, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B5A3001, 0x7B5A3013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B5A3001, 0x7B5A3014, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B5A3001, 0x7B5A3015, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A3002, 22257, 0xB5A3003F, 171.507, 154.005, 27.55, -0.652853, 0, 0, -0.757485,  True, '2019-02-10 00:00:00'); /* Fishing Hole */

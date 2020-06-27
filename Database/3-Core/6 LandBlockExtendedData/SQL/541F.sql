@@ -5,15 +5,15 @@ VALUES (0x7541F001,  1154, 0x541F0022, 102.0897, 33.75266, -0.09500003, -0.72537
 /* @teleloc 0x541F0022 [102.089700 33.752660 -0.095000] -0.725375 0.000000 0.000000 -0.688355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7541F001, 0x7541F002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7541F001, 0x7541F003, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7541F001, 0x7541F004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7541F001, 0x7541F005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7541F001, 0x7541F006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7541F001, 0x7541F007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7541F001, 0x7541F008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7541F001, 0x7541F009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7541F001, 0x7541F00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x7541F001, 0x7541F002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7541F001, 0x7541F003, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7541F001, 0x7541F004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7541F001, 0x7541F005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7541F001, 0x7541F006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7541F001, 0x7541F007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7541F001, 0x7541F008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7541F001, 0x7541F009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7541F001, 0x7541F00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7541F002,  1758, 0x541F0022, 102.0897, 33.75266, -0.09500003, -0.7253745, 0, 0, -0.6883545,  True, '2019-02-10 00:00:00'); /* Shadow */

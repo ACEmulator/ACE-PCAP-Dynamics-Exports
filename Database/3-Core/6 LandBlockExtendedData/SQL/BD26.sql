@@ -5,8 +5,8 @@ VALUES (0x7BD26001,  1154, 0xBD260017, 54.50742, 152.5674, 319.0582, -0.334626, 
 /* @teleloc 0xBD260017 [54.507420 152.567400 319.058200] -0.334626 0.000000 0.000000 -0.942351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD26001, 0x7BD26002, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x7BD26001, 0x7BD26003, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7BD26001, 0x7BD26002, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x7BD26001, 0x7BD26003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD26002, 30882, 0xBD260017, 54.50742, 152.5674, 319.0582, -0.334626, 0, 0, -0.942351,  True, '2019-02-10 00:00:00'); /* Banished Shadow */
@@ -21,7 +21,7 @@ VALUES (0x7BD26004,  1542, 0xBD26000D, 31.69796, 101.7122, 319.5444, 1, 0, 0, 0,
 /* @teleloc 0xBD26000D [31.697960 101.712200 319.544400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD26004, 0x7BD26005, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD26004, 0x7BD26005, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD26005,  4179, 0xBD26000D, 31.69796, 101.7122, 319.5444, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

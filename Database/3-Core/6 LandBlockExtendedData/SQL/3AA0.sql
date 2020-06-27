@@ -5,20 +5,20 @@ VALUES (0x73AA0001,  1154, 0x3AA00018, 56.73576, 182.0565, 0.828626, 0.5760289, 
 /* @teleloc 0x3AA00018 [56.735760 182.056500 0.828626] 0.576029 0.000000 0.000000 -0.817429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AA0001, 0x73AA0002, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x73AA0001, 0x73AA0003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73AA0001, 0x73AA0004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x73AA0001, 0x73AA0005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73AA0001, 0x73AA0006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73AA0001, 0x73AA0007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73AA0001, 0x73AA0008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73AA0001, 0x73AA0009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x73AA0001, 0x73AA000A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73AA0001, 0x73AA000B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73AA0001, 0x73AA000C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73AA0001, 0x73AA000D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73AA0001, 0x73AA000E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x73AA0001, 0x73AA000F, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x73AA0001, 0x73AA0002, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x73AA0001, 0x73AA0003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73AA0001, 0x73AA0004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x73AA0001, 0x73AA0005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73AA0001, 0x73AA0006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73AA0001, 0x73AA0007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73AA0001, 0x73AA0008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73AA0001, 0x73AA0009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x73AA0001, 0x73AA000A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73AA0001, 0x73AA000B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73AA0001, 0x73AA000C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73AA0001, 0x73AA000D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73AA0001, 0x73AA000E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x73AA0001, 0x73AA000F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AA0002,  2586, 0x3AA00018, 56.73576, 182.0565, 0.828626, 0.5760289, 0, 0, -0.8174293,  True, '2019-02-10 00:00:00'); /* Sata Sclavus */

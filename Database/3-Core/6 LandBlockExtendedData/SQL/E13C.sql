@@ -5,27 +5,27 @@ VALUES (0x7E13C001,  1154, 0xE13C0030, 124.925, 177.7521, 156.8152, 0.9914449, 0
 /* @teleloc 0xE13C0030 [124.925000 177.752100 156.815200] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13C001, 0x7E13C002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7E13C001, 0x7E13C003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E13C001, 0x7E13C004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E13C001, 0x7E13C005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E13C001, 0x7E13C006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E13C001, 0x7E13C007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E13C001, 0x7E13C008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E13C001, 0x7E13C009, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7E13C001, 0x7E13C00A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E13C001, 0x7E13C00B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E13C001, 0x7E13C00C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E13C001, 0x7E13C00D, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7E13C001, 0x7E13C00E, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E13C001, 0x7E13C00F, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7E13C001, 0x7E13C010, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E13C001, 0x7E13C011, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7E13C001, 0x7E13C012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E13C001, 0x7E13C013, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7E13C001, 0x7E13C014, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7E13C001, 0x7E13C015, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7E13C001, 0x7E13C016, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7E13C001, 0x7E13C002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7E13C001, 0x7E13C003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E13C001, 0x7E13C004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E13C001, 0x7E13C005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E13C001, 0x7E13C006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E13C001, 0x7E13C007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E13C001, 0x7E13C008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E13C001, 0x7E13C009, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7E13C001, 0x7E13C00A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E13C001, 0x7E13C00B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E13C001, 0x7E13C00C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E13C001, 0x7E13C00D, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7E13C001, 0x7E13C00E, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E13C001, 0x7E13C00F, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7E13C001, 0x7E13C010, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E13C001, 0x7E13C011, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7E13C001, 0x7E13C012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E13C001, 0x7E13C013, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7E13C001, 0x7E13C014, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7E13C001, 0x7E13C015, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7E13C001, 0x7E13C016, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13C002,  1760, 0xE13C0030, 124.925, 177.7521, 156.8152, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -116,8 +116,8 @@ VALUES (0x7E13C017,  1542, 0xE13C0030, 123.7703, 174.3463, 156.5289, 1, 0, 0, 0,
 /* @teleloc 0xE13C0030 [123.770300 174.346300 156.528900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13C017, 0x7E13C018, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E13C017, 0x7E13C019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E13C017, 0x7E13C018, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7E13C017, 0x7E13C019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13C018, 22570, 0xE13C0030, 123.7703, 174.3463, 156.5289, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

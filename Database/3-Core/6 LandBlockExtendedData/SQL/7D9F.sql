@@ -5,14 +5,14 @@ VALUES (0x77D9F001,  1154, 0x7D9F000E, 37.16935, 136.3643, 93.16131, -0.5204458,
 /* @teleloc 0x7D9F000E [37.169350 136.364300 93.161310] -0.520446 0.000000 0.000000 -0.853895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D9F001, 0x77D9F002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77D9F001, 0x77D9F003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77D9F001, 0x77D9F004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77D9F001, 0x77D9F005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77D9F001, 0x77D9F006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77D9F001, 0x77D9F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x77D9F001, 0x77D9F008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x77D9F001, 0x77D9F009, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x77D9F001, 0x77D9F002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77D9F001, 0x77D9F003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77D9F001, 0x77D9F004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77D9F001, 0x77D9F005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77D9F001, 0x77D9F006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77D9F001, 0x77D9F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x77D9F001, 0x77D9F008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x77D9F001, 0x77D9F009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D9F002,  2576, 0x7D9F000E, 37.16935, 136.3643, 93.16131, -0.5204458, 0, 0, -0.8538947,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -51,8 +51,8 @@ VALUES (0x77D9F00A,  1542, 0x7D9F0026, 119.9478, 125.322, 84.887, 1, 0, 0, 0, Fa
 /* @teleloc 0x7D9F0026 [119.947800 125.322000 84.887000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D9F00A, 0x77D9F00B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x77D9F00A, 0x77D9F00C, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x77D9F00A, 0x77D9F00B, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x77D9F00A, 0x77D9F00C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D9F00B, 22570, 0x7D9F0026, 119.9478, 125.322, 84.887, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

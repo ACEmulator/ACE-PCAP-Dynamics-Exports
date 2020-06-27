@@ -9,15 +9,15 @@ VALUES (0x74EF6001,  1154, 0x4EF6000B, 34.68131, 48.04666, 40.42773, -0.3252776,
 /* @teleloc 0x4EF6000B [34.681310 48.046660 40.427730] -0.325278 0.000000 0.000000 -0.945619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EF6001, 0x74EF6002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x74EF6001, 0x74EF6003, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74EF6001, 0x74EF6004, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x74EF6001, 0x74EF6005, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x74EF6001, 0x74EF6006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74EF6001, 0x74EF6007, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74EF6001, 0x74EF6008, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74EF6001, 0x74EF6009, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x74EF6001, 0x74EF600A, '2019-02-10 00:00:00') /* Viamontian War Wizard */;
+VALUES (0x74EF6001, 0x74EF6002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x74EF6001, 0x74EF6003, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74EF6001, 0x74EF6004, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x74EF6001, 0x74EF6005, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x74EF6001, 0x74EF6006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74EF6001, 0x74EF6007, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74EF6001, 0x74EF6008, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74EF6001, 0x74EF6009, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x74EF6001, 0x74EF600A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EF6002,  7114, 0x4EF6000B, 34.68131, 48.04666, 40.42773, -0.3252776, 0, 0, -0.9456186,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */

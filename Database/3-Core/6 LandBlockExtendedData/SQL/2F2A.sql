@@ -5,23 +5,23 @@ VALUES (0x72F2A001,  1154, 0x2F2A0020, 74.93394, 190.5011, 75.75474, 0.7071068, 
 /* @teleloc 0x2F2A0020 [74.933940 190.501100 75.754740] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2A001, 0x72F2A002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F2A001, 0x72F2A003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F2A001, 0x72F2A004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F2A001, 0x72F2A005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2A001, 0x72F2A006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72F2A001, 0x72F2A007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2A001, 0x72F2A008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2A001, 0x72F2A009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F2A001, 0x72F2A00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F2A001, 0x72F2A00B, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72F2A001, 0x72F2A00C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F2A001, 0x72F2A00D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F2A001, 0x72F2A00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F2A001, 0x72F2A00F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72F2A001, 0x72F2A010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2A001, 0x72F2A011, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72F2A001, 0x72F2A012, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x72F2A001, 0x72F2A002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F2A001, 0x72F2A003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F2A001, 0x72F2A004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F2A001, 0x72F2A005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2A001, 0x72F2A006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x72F2A001, 0x72F2A007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72F2A001, 0x72F2A008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72F2A001, 0x72F2A009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72F2A001, 0x72F2A00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F2A001, 0x72F2A00B, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72F2A001, 0x72F2A00C, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F2A001, 0x72F2A00D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F2A001, 0x72F2A00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F2A001, 0x72F2A00F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72F2A001, 0x72F2A010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2A001, 0x72F2A011, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72F2A001, 0x72F2A012, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2A002, 36822, 0x2F2A0020, 74.93394, 190.5011, 75.75474, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -96,7 +96,7 @@ VALUES (0x72F2A013,  1542, 0x2F2A0034, 149.2477, 77.1027, 67.56269, 1, 0, 0, 0, 
 /* @teleloc 0x2F2A0034 [149.247700 77.102700 67.562690] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2A013, 0x72F2A014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72F2A013, 0x72F2A014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2A014,  4179, 0x2F2A0034, 149.2477, 77.1027, 67.56269, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,8 +5,8 @@ VALUES (0x7A8D7001,  1154, 0xA8D70010, 30.45624, 171.516, 81.424, 0.9881697, 0, 
 /* @teleloc 0xA8D70010 [30.456240 171.516000 81.424000] 0.988170 0.000000 0.000000 -0.153364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8D7001, 0x7A8D7002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A8D7001, 0x7A8D7003, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7A8D7001, 0x7A8D7002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A8D7001, 0x7A8D7003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8D7002, 14800, 0xA8D70010, 30.45624, 171.516, 81.424, 0.9881697, 0, 0, -0.1533641,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

@@ -5,15 +5,15 @@ VALUES (0x75713001,  1154, 0x57130020, 82.85781, 176.1034, 131.1381, 0.1188413, 
 /* @teleloc 0x57130020 [82.857810 176.103400 131.138100] 0.118841 0.000000 0.000000 -0.992913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75713001, 0x75713002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75713001, 0x75713003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75713001, 0x75713004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75713001, 0x75713005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75713001, 0x75713006, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75713001, 0x75713007, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75713001, 0x75713008, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x75713001, 0x75713009, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75713001, 0x7571300A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x75713001, 0x75713002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75713001, 0x75713003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75713001, 0x75713004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75713001, 0x75713005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75713001, 0x75713006, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75713001, 0x75713007, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75713001, 0x75713008, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x75713001, 0x75713009, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75713001, 0x7571300A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75713002,  1610, 0x57130020, 82.85781, 176.1034, 131.1381, 0.1188413, 0, 0, -0.9929132,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -56,8 +56,8 @@ VALUES (0x7571300B,  1542, 0x57130015, 70.2799, 96.00847, 120.43, 1, 0, 0, 0, Fa
 /* @teleloc 0x57130015 [70.279900 96.008470 120.430000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7571300B, 0x7571300C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7571300B, 0x7571300D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7571300B, 0x7571300C, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7571300B, 0x7571300D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7571300C, 22567, 0x57130015, 70.2799, 96.00847, 120.43, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,14 +5,14 @@ VALUES (0x73639001,  1154, 0x36390031, 155.6232, 18.49196, 45.43756, -0.5367661,
 /* @teleloc 0x36390031 [155.623200 18.491960 45.437560] -0.536766 0.000000 0.000000 -0.843731 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73639001, 0x73639002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73639001, 0x73639003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x73639001, 0x73639004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73639001, 0x73639005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73639001, 0x73639006, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x73639001, 0x73639007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x73639001, 0x73639008, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x73639001, 0x73639009, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x73639001, 0x73639002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73639001, 0x73639003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x73639001, 0x73639004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73639001, 0x73639005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73639001, 0x73639006, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x73639001, 0x73639007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x73639001, 0x73639008, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x73639001, 0x73639009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73639002, 38180, 0x36390031, 155.6232, 18.49196, 45.43756, -0.5367661, 0, 0, -0.8437311,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */

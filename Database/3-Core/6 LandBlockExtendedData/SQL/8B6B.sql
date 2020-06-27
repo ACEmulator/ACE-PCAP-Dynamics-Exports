@@ -5,8 +5,8 @@ VALUES (0x78B6B001,  1154, 0x8B6B0006, 23.03063, 129.1728, 13.86744, 0.4463027, 
 /* @teleloc 0x8B6B0006 [23.030630 129.172800 13.867440] 0.446303 0.000000 0.000000 -0.894882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B6B001, 0x78B6B002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x78B6B001, 0x78B6B003, '2019-02-10 00:00:00') /* Flicker */;
+VALUES (0x78B6B001, 0x78B6B002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x78B6B001, 0x78B6B003, '2019-02-10 00:00:00') /* Flicker (5705) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B6B002, 10770, 0x8B6B0006, 23.03063, 129.1728, 13.86744, 0.4463027, 0, 0, -0.894882,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

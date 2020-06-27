@@ -81,140 +81,140 @@ VALUES (0x7634B0CA,  1154, 0x634B03DF, 67.2914, -97.7772, -5.996, 0.338946, 0, 0
 /* @teleloc 0x634B03DF [67.291400 -97.777200 -5.996000] 0.338946 0.000000 0.000000 -0.940806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B0CA, 0x7634B0CB, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B0CC, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B0CD, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B0CE, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B0CF, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0D0, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0D1, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0D2, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B0D3, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7634B0CA, 0x7634B0D4, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B0D5, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B0D6, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B0D7, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B0D8, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0D9, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B0DA, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0DB, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0DC, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B0DD, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B0DE, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B0DF, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0E0, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B0E1, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B0E2, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B0E3, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0E4, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B0E5, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0E6, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0E7, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0E8, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0E9, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0EA, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B0EB, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B0EC, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B0ED, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B0EE, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B0EF, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0F0, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B0F1, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B0F2, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B0F3, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B0F4, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B0F5, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B0F6, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0F7, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B0F8, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B0F9, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B0FA, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B0FB, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B0FC, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B0FD, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B0FE, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B0FF, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7634B0CA, 0x7634B100, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B101, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B102, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B103, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B104, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B105, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B106, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B107, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B108, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B109, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B10A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B10B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B10C, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B10D, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B10E, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B10F, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B110, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B111, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B112, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B113, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B114, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B115, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B116, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7634B0CA, 0x7634B117, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B118, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B119, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B11A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B11B, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B11C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7634B0CA, 0x7634B11D, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B11E, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B11F, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B120, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B121, '2019-02-10 00:00:00') /* Sallow Moarsman */
-     , (0x7634B0CA, 0x7634B122, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B123, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B124, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B125, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B126, '2019-02-10 00:00:00') /* Pallid Moarsman */
-     , (0x7634B0CA, 0x7634B127, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B128, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B129, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B12A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7634B0CA, 0x7634B12B, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B12C, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B12D, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B12E, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B12F, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B130, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7634B0CA, 0x7634B131, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B132, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B133, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B134, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B135, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B136, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B137, '2019-02-10 00:00:00') /* Miry Moarsman */
-     , (0x7634B0CA, 0x7634B138, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B139, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B13A, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B13B, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B13C, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7634B0CA, 0x7634B13D, '2019-02-10 00:00:00') /* Filth Dweller */
-     , (0x7634B0CA, 0x7634B13E, '2019-02-10 00:00:00') /* Squallid Moarsman */
-     , (0x7634B0CA, 0x7634B13F, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B140, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B141, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B142, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B143, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x7634B0CA, 0x7634B144, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B145, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7634B0CA, 0x7634B146, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B147, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B148, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B149, '2019-02-10 00:00:00') /* Fetid Moarsman */
-     , (0x7634B0CA, 0x7634B14A, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B14B, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B14C, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B14D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B14E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7634B0CA, 0x7634B14F, '2019-02-10 00:00:00') /* Muculent Moarsman */
-     , (0x7634B0CA, 0x7634B150, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7634B0CA, 0x7634B0CB, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B0CC, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B0CD, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B0CE, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B0CF, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0D0, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0D1, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0D2, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B0D3, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0CA, 0x7634B0D4, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B0D5, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B0D6, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B0D7, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B0D8, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0D9, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B0DA, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0DB, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0DC, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B0DD, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B0DE, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B0DF, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0E0, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B0E1, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B0E2, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B0E3, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0E4, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B0E5, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0E6, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0E7, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0E8, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0E9, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0EA, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B0EB, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B0EC, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B0ED, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B0EE, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B0EF, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0F0, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B0F1, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B0F2, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B0F3, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B0F4, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B0F5, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B0F6, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0F7, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B0F8, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B0F9, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B0FA, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B0FB, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B0FC, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B0FD, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B0FE, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B0FF, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0CA, 0x7634B100, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B101, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B102, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B103, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B104, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B105, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B106, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B107, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B108, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B109, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B10A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B10B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B10C, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B10D, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B10E, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B10F, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B110, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B111, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B112, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B113, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B114, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B115, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B116, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7634B0CA, 0x7634B117, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B118, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B119, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B11A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B11B, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B11C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7634B0CA, 0x7634B11D, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B11E, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B11F, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B120, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B121, '2019-02-10 00:00:00') /* Sallow Moarsman (27860) */
+     , (0x7634B0CA, 0x7634B122, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B123, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B124, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B125, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B126, '2019-02-10 00:00:00') /* Pallid Moarsman (27859) */
+     , (0x7634B0CA, 0x7634B127, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B128, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B129, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B12A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7634B0CA, 0x7634B12B, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B12C, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B12D, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B12E, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B12F, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B130, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7634B0CA, 0x7634B131, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B132, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B133, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B134, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B135, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B136, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B137, '2019-02-10 00:00:00') /* Miry Moarsman (27856) */
+     , (0x7634B0CA, 0x7634B138, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B139, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B13A, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B13B, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B13C, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7634B0CA, 0x7634B13D, '2019-02-10 00:00:00') /* Filth Dweller (27855) */
+     , (0x7634B0CA, 0x7634B13E, '2019-02-10 00:00:00') /* Squallid Moarsman (27861) */
+     , (0x7634B0CA, 0x7634B13F, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B140, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B141, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B142, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B143, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x7634B0CA, 0x7634B144, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B145, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7634B0CA, 0x7634B146, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B147, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B148, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B149, '2019-02-10 00:00:00') /* Fetid Moarsman (27854) */
+     , (0x7634B0CA, 0x7634B14A, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B14B, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B14C, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B14D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B14E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7634B0CA, 0x7634B14F, '2019-02-10 00:00:00') /* Muculent Moarsman (27858) */
+     , (0x7634B0CA, 0x7634B150, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B0CB, 27859, 0x634B03DF, 67.2914, -97.7772, -5.996, 0.338946, 0, 0, -0.940806,  True, '2019-02-10 00:00:00'); /* Pallid Moarsman */
@@ -757,13 +757,13 @@ VALUES (0x7634B151,  1542, 0x634B026F, 52.645, -68.3211, -23.943, -0.154562, 0, 
 /* @teleloc 0x634B026F [52.645000 -68.321100 -23.943000] -0.154562 0.000000 0.000000 0.987983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7634B151, 0x7634B152, '2019-02-10 00:00:00') /* Muddy Tome */
-     , (0x7634B151, 0x7634B153, '2019-02-10 00:00:00') /* Decaying Tome */
-     , (0x7634B151, 0x7634B154, '2019-02-10 00:00:00') /* Rotting Tome */
-     , (0x7634B151, 0x7634B155, '2019-02-10 00:00:00') /* Filthy Tome */
-     , (0x7634B151, 0x7634B156, '2019-02-10 00:00:00') /* Blackened Tome */
-     , (0x7634B151, 0x7634B157, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7634B151, 0x7634B158, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7634B151, 0x7634B152, '2019-02-10 00:00:00') /* Muddy Tome (27791) */
+     , (0x7634B151, 0x7634B153, '2019-02-10 00:00:00') /* Decaying Tome (27787) */
+     , (0x7634B151, 0x7634B154, '2019-02-10 00:00:00') /* Rotting Tome (27785) */
+     , (0x7634B151, 0x7634B155, '2019-02-10 00:00:00') /* Filthy Tome (27789) */
+     , (0x7634B151, 0x7634B156, '2019-02-10 00:00:00') /* Blackened Tome (27783) */
+     , (0x7634B151, 0x7634B157, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7634B151, 0x7634B158, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7634B152, 27791, 0x634B026F, 52.645, -68.3211, -23.943, -0.154562, 0, 0, 0.9879831,  True, '2019-02-10 00:00:00'); /* Muddy Tome */

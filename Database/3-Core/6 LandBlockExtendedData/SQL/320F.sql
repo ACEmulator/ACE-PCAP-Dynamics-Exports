@@ -5,30 +5,30 @@ VALUES (0x7320F001,  1154, 0x320F0012, 67.67854, 46.9837, 9.98125, -0.1736482, 0
 /* @teleloc 0x320F0012 [67.678540 46.983700 9.981250] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7320F001, 0x7320F002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7320F001, 0x7320F003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7320F001, 0x7320F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7320F001, 0x7320F005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7320F001, 0x7320F006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7320F001, 0x7320F007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7320F001, 0x7320F008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7320F001, 0x7320F009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7320F001, 0x7320F00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7320F001, 0x7320F00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7320F001, 0x7320F00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7320F001, 0x7320F00D, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7320F001, 0x7320F00E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7320F001, 0x7320F00F, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7320F001, 0x7320F010, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7320F001, 0x7320F011, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7320F001, 0x7320F012, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7320F001, 0x7320F013, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7320F001, 0x7320F014, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7320F001, 0x7320F015, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7320F001, 0x7320F016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7320F001, 0x7320F017, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7320F001, 0x7320F018, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7320F001, 0x7320F019, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x7320F001, 0x7320F002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7320F001, 0x7320F003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7320F001, 0x7320F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7320F001, 0x7320F005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7320F001, 0x7320F006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7320F001, 0x7320F007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7320F001, 0x7320F008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7320F001, 0x7320F009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7320F001, 0x7320F00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7320F001, 0x7320F00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7320F001, 0x7320F00C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7320F001, 0x7320F00D, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7320F001, 0x7320F00E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7320F001, 0x7320F00F, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7320F001, 0x7320F010, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7320F001, 0x7320F011, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7320F001, 0x7320F012, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7320F001, 0x7320F013, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7320F001, 0x7320F014, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7320F001, 0x7320F015, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7320F001, 0x7320F016, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7320F001, 0x7320F017, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7320F001, 0x7320F018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7320F001, 0x7320F019, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7320F002,  7113, 0x320F0012, 67.67854, 46.9837, 9.98125, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -131,8 +131,8 @@ VALUES (0x7320F01A,  1542, 0x320F0029, 137.4322, 14.09985, 12.27554, 1, 0, 0, 0,
 /* @teleloc 0x320F0029 [137.432200 14.099850 12.275540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7320F01A, 0x7320F01B, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7320F01A, 0x7320F01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7320F01A, 0x7320F01B, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7320F01A, 0x7320F01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7320F01B, 31445, 0x320F0029, 137.4322, 14.09985, 12.27554, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

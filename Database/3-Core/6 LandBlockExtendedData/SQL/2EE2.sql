@@ -5,14 +5,14 @@ VALUES (0x72EE2001,  1154, 0x2EE20018, 69.28169, 185.5187, 20.0075, -0.9618121, 
 /* @teleloc 0x2EE20018 [69.281690 185.518700 20.007500] -0.961812 0.000000 0.000000 -0.273711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE2001, 0x72EE2002, '2019-02-10 00:00:00') /* Lich */
-     , (0x72EE2001, 0x72EE2003, '2019-02-10 00:00:00') /* Lich */
-     , (0x72EE2001, 0x72EE2004, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72EE2001, 0x72EE2005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x72EE2001, 0x72EE2006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72EE2001, 0x72EE2007, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x72EE2001, 0x72EE2008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x72EE2001, 0x72EE2009, '2019-02-10 00:00:00') /* Vorous Shreth */;
+VALUES (0x72EE2001, 0x72EE2002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x72EE2001, 0x72EE2003, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x72EE2001, 0x72EE2004, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72EE2001, 0x72EE2005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x72EE2001, 0x72EE2006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72EE2001, 0x72EE2007, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x72EE2001, 0x72EE2008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x72EE2001, 0x72EE2009, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE2002,   204, 0x2EE20018, 69.28169, 185.5187, 20.0075, -0.9618121, 0, 0, -0.2737108,  True, '2019-02-10 00:00:00'); /* Lich */

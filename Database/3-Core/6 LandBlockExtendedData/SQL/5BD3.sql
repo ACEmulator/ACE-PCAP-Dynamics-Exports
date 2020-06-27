@@ -5,9 +5,9 @@ VALUES (0x75BD3001,  1154, 0x5BD3002E, 128.6895, 132.1734, 47.03635, -0.422088, 
 /* @teleloc 0x5BD3002E [128.689500 132.173400 47.036350] -0.422088 0.000000 0.000000 -0.906555 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BD3001, 0x75BD3002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75BD3001, 0x75BD3003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x75BD3001, 0x75BD3004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x75BD3001, 0x75BD3002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x75BD3001, 0x75BD3003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x75BD3001, 0x75BD3004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BD3002, 36844, 0x5BD3002E, 128.6895, 132.1734, 47.03635, -0.422088, 0, 0, -0.9065549,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

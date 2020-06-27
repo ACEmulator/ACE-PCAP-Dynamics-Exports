@@ -5,11 +5,11 @@ VALUES (0x7B060001,  1154, 0xB0600010, 28.51046, 187.9584, 25.63163, 0.9829291, 
 /* @teleloc 0xB0600010 [28.510460 187.958400 25.631630] 0.982929 0.000000 0.000000 -0.183985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B060001, 0x7B060002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B060001, 0x7B060003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B060001, 0x7B060004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B060001, 0x7B060005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B060001, 0x7B060006, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7B060001, 0x7B060002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B060001, 0x7B060003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B060001, 0x7B060004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B060001, 0x7B060005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B060001, 0x7B060006, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B060002,  1630, 0xB0600010, 28.51046, 187.9584, 25.63163, 0.9829291, 0, 0, -0.1839846,  True, '2019-02-10 00:00:00'); /* Lich Lord */

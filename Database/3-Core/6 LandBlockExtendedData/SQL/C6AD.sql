@@ -5,11 +5,11 @@ VALUES (0x7C6AD001,  1154, 0xC6AD0027, 98.61678, 158.1659, 132.4339, -0.7097808,
 /* @teleloc 0xC6AD0027 [98.616780 158.165900 132.433900] -0.709781 0.000000 0.000000 -0.704423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6AD001, 0x7C6AD002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C6AD001, 0x7C6AD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C6AD001, 0x7C6AD004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C6AD001, 0x7C6AD005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C6AD001, 0x7C6AD006, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7C6AD001, 0x7C6AD002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C6AD001, 0x7C6AD003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C6AD001, 0x7C6AD004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C6AD001, 0x7C6AD005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C6AD001, 0x7C6AD006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6AD002,   217, 0xC6AD0027, 98.61678, 158.1659, 132.4339, -0.7097808, 0, 0, -0.7044227,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

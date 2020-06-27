@@ -5,21 +5,21 @@ VALUES (0x7B83F001,  1154, 0xB83F003B, 170.704, 70.19949, 43.86206, -0.4851288, 
 /* @teleloc 0xB83F003B [170.704000 70.199490 43.862060] -0.485129 0.000000 0.000000 -0.874443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B83F001, 0x7B83F002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B83F001, 0x7B83F003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B83F001, 0x7B83F004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B83F001, 0x7B83F005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B83F001, 0x7B83F006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B83F001, 0x7B83F007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B83F001, 0x7B83F008, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7B83F001, 0x7B83F009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B83F001, 0x7B83F00A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B83F001, 0x7B83F00B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B83F001, 0x7B83F00C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B83F001, 0x7B83F00D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B83F001, 0x7B83F00E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B83F001, 0x7B83F00F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B83F001, 0x7B83F010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7B83F001, 0x7B83F002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B83F001, 0x7B83F003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B83F001, 0x7B83F004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B83F001, 0x7B83F005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B83F001, 0x7B83F006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B83F001, 0x7B83F007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B83F001, 0x7B83F008, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7B83F001, 0x7B83F009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B83F001, 0x7B83F00A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B83F001, 0x7B83F00B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B83F001, 0x7B83F00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B83F001, 0x7B83F00D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B83F001, 0x7B83F00E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B83F001, 0x7B83F00F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B83F001, 0x7B83F010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B83F002,  1627, 0xB83F003B, 170.704, 70.19949, 43.86206, -0.4851288, 0, 0, -0.8744427,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -86,8 +86,8 @@ VALUES (0x7B83F011,  1542, 0xB83F002D, 131.8715, 107.2939, 43.05567, 0.7071068, 
 /* @teleloc 0xB83F002D [131.871500 107.293900 43.055670] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B83F011, 0x7B83F012, '2019-02-10 00:00:00') /* Bistort */
-     , (0x7B83F011, 0x7B83F013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B83F011, 0x7B83F012, '2019-02-10 00:00:00') /* Bistort (766) */
+     , (0x7B83F011, 0x7B83F013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B83F012,   766, 0xB83F002D, 131.8715, 107.2939, 43.05567, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bistort */

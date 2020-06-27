@@ -5,15 +5,15 @@ VALUES (0x7211A001,  1154, 0x211A0008, 13.44329, 173.0446, 73.98125, 0.7372774, 
 /* @teleloc 0x211A0008 [13.443290 173.044600 73.981250] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7211A001, 0x7211A002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7211A001, 0x7211A003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7211A001, 0x7211A004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7211A001, 0x7211A005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7211A001, 0x7211A006, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7211A001, 0x7211A007, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7211A001, 0x7211A008, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7211A001, 0x7211A009, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7211A001, 0x7211A00A, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7211A001, 0x7211A002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7211A001, 0x7211A003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7211A001, 0x7211A004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7211A001, 0x7211A005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7211A001, 0x7211A006, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7211A001, 0x7211A007, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7211A001, 0x7211A008, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7211A001, 0x7211A009, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7211A001, 0x7211A00A, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7211A002,  7114, 0x211A0008, 13.44329, 173.0446, 73.98125, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -56,7 +56,7 @@ VALUES (0x7211A00B,  1542, 0x211A001E, 74.75258, 128.5485, 71.16421, -4.371139E-
 /* @teleloc 0x211A001E [74.752580 128.548500 71.164210] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7211A00B, 0x7211A00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7211A00B, 0x7211A00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7211A00C,  4380, 0x211A001E, 74.75258, 128.5485, 71.16421, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,12 +5,12 @@ VALUES (0x7BEAF001,  1154, 0xBEAF001C, 87.95354, 89.77425, 102.4319, 0.5673088, 
 /* @teleloc 0xBEAF001C [87.953540 89.774250 102.431900] 0.567309 0.000000 0.000000 -0.823505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEAF001, 0x7BEAF002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BEAF001, 0x7BEAF003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEAF001, 0x7BEAF004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BEAF001, 0x7BEAF005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BEAF001, 0x7BEAF006, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7BEAF001, 0x7BEAF007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7BEAF001, 0x7BEAF002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BEAF001, 0x7BEAF003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEAF001, 0x7BEAF004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BEAF001, 0x7BEAF005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BEAF001, 0x7BEAF006, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7BEAF001, 0x7BEAF007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEAF002, 22010, 0xBEAF001C, 87.95354, 89.77425, 102.4319, 0.5673088, 0, 0, -0.8235052,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

@@ -5,9 +5,9 @@ VALUES (0x74C25001,  1154, 0x4C250039, 178.384, 23.70621, 36.005, -0.3293118, 0,
 /* @teleloc 0x4C250039 [178.384000 23.706210 36.005000] -0.329312 0.000000 0.000000 -0.944221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C25001, 0x74C25002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74C25001, 0x74C25003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74C25001, 0x74C25004, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x74C25001, 0x74C25002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74C25001, 0x74C25003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74C25001, 0x74C25004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C25002, 23564, 0x4C250039, 178.384, 23.70621, 36.005, -0.3293118, 0, 0, -0.9442212,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

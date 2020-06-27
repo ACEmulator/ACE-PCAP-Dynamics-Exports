@@ -5,22 +5,22 @@ VALUES (0x7BFA0001,  1154, 0xBFA0002D, 139.9439, 104.0978, 1.112, -0.9812728, 0,
 /* @teleloc 0xBFA0002D [139.943900 104.097800 1.112000] -0.981273 0.000000 0.000000 -0.192623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA0001, 0x7BFA0002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BFA0001, 0x7BFA0003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BFA0001, 0x7BFA0004, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BFA0001, 0x7BFA0005, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BFA0001, 0x7BFA0006, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BFA0001, 0x7BFA0007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA0008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA0009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA000A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA000B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA000C, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BFA0001, 0x7BFA000D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA000E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA000F, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BFA0001, 0x7BFA0010, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BFA0001, 0x7BFA0011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7BFA0001, 0x7BFA0002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BFA0001, 0x7BFA0003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BFA0001, 0x7BFA0004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BFA0001, 0x7BFA0005, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BFA0001, 0x7BFA0006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BFA0001, 0x7BFA0007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA0008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA0009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA000A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA000B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA000C, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BFA0001, 0x7BFA000D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA000E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA000F, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BFA0001, 0x7BFA0010, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BFA0001, 0x7BFA0011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA0002,   216, 0xBFA0002D, 139.9439, 104.0978, 1.112, -0.9812728, 0, 0, -0.1926232,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

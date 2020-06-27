@@ -5,12 +5,12 @@ VALUES (0x757E4001,  1154, 0x57E40037, 147.9169, 167.1173, 37.28013, 0.9282847, 
 /* @teleloc 0x57E40037 [147.916900 167.117300 37.280130] 0.928285 0.000000 0.000000 -0.371870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E4001, 0x757E4002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E4001, 0x757E4003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757E4001, 0x757E4004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E4001, 0x757E4005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x757E4001, 0x757E4006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757E4001, 0x757E4007, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x757E4001, 0x757E4002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E4001, 0x757E4003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757E4001, 0x757E4004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E4001, 0x757E4005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x757E4001, 0x757E4006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757E4001, 0x757E4007, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E4002, 10807, 0x57E40037, 147.9169, 167.1173, 37.28013, 0.9282847, 0, 0, -0.3718703,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -41,8 +41,8 @@ VALUES (0x757E4008,  1542, 0x57E4002C, 133.3396, 80.64924, 37.06697, 0.67712, 0,
 /* @teleloc 0x57E4002C [133.339600 80.649240 37.066970] 0.677120 0.000000 0.000000 -0.735873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E4008, 0x757E4009, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x757E4008, 0x757E400A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x757E4008, 0x757E4009, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x757E4008, 0x757E400A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E4009, 31687, 0x57E4002C, 133.3396, 80.64924, 37.06697, 0.67712, 0, 0, -0.7358726,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

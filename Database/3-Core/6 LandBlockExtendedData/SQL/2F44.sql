@@ -5,28 +5,28 @@ VALUES (0x72F44001,  1154, 0x2F440009, 47.49345, 19.54934, 28.90731, 0.2766542, 
 /* @teleloc 0x2F440009 [47.493450 19.549340 28.907310] 0.276654 0.000000 0.000000 -0.960970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F44001, 0x72F44002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72F44001, 0x72F44003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F44001, 0x72F44004, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72F44001, 0x72F44005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F44001, 0x72F44006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72F44001, 0x72F44007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F44001, 0x72F44008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72F44001, 0x72F44009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72F44001, 0x72F4400A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72F44001, 0x72F4400B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F44001, 0x72F4400C, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F44001, 0x72F4400D, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F44001, 0x72F4400E, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F44001, 0x72F4400F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F44001, 0x72F44010, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72F44001, 0x72F44011, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F44001, 0x72F44012, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72F44001, 0x72F44013, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72F44001, 0x72F44014, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72F44001, 0x72F44015, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F44001, 0x72F44016, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F44001, 0x72F44017, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x72F44001, 0x72F44002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72F44001, 0x72F44003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F44001, 0x72F44004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72F44001, 0x72F44005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F44001, 0x72F44006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72F44001, 0x72F44007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F44001, 0x72F44008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72F44001, 0x72F44009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72F44001, 0x72F4400A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72F44001, 0x72F4400B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F44001, 0x72F4400C, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F44001, 0x72F4400D, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F44001, 0x72F4400E, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F44001, 0x72F4400F, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72F44001, 0x72F44010, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72F44001, 0x72F44011, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F44001, 0x72F44012, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72F44001, 0x72F44013, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72F44001, 0x72F44014, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72F44001, 0x72F44015, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F44001, 0x72F44016, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F44001, 0x72F44017, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F44002,  7340, 0x2F440009, 47.49345, 19.54934, 28.90731, 0.2766542, 0, 0, -0.9609695,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -121,8 +121,8 @@ VALUES (0x72F44018,  1542, 0x2F440039, 186.4906, 4.975596, 6.711621, 1, 0, 0, 0,
 /* @teleloc 0x2F440039 [186.490600 4.975596 6.711621] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F44018, 0x72F44019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F44018, 0x72F4401A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72F44018, 0x72F44019, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72F44018, 0x72F4401A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F44019, 22571, 0x2F440039, 186.4906, 4.975596, 6.711621, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

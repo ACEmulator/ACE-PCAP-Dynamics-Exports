@@ -5,15 +5,15 @@ VALUES (0x77BC7001,  1154, 0x7BC70029, 137.4052, 15.22799, 114.0149, 0.3614845, 
 /* @teleloc 0x7BC70029 [137.405200 15.227990 114.014900] 0.361485 0.000000 0.000000 -0.932378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BC7001, 0x77BC7002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77BC7001, 0x77BC7003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x77BC7001, 0x77BC7004, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77BC7001, 0x77BC7005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77BC7001, 0x77BC7006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77BC7001, 0x77BC7007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77BC7001, 0x77BC7008, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x77BC7001, 0x77BC7009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77BC7001, 0x77BC700A, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x77BC7001, 0x77BC7002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77BC7001, 0x77BC7003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x77BC7001, 0x77BC7004, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77BC7001, 0x77BC7005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77BC7001, 0x77BC7006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77BC7001, 0x77BC7007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77BC7001, 0x77BC7008, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x77BC7001, 0x77BC7009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77BC7001, 0x77BC700A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BC7002, 24279, 0x7BC70029, 137.4052, 15.22799, 114.0149, 0.3614845, 0, 0, -0.9323781,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */

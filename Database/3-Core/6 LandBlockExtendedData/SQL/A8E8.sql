@@ -5,9 +5,9 @@ VALUES (0x7A8E8001,  1154, 0xA8E8003B, 170.5589, 55.23731, 11.18965, 0.1270306, 
 /* @teleloc 0xA8E8003B [170.558900 55.237310 11.189650] 0.127031 0.000000 0.000000 -0.991899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8E8001, 0x7A8E8002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A8E8001, 0x7A8E8003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A8E8001, 0x7A8E8004, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7A8E8001, 0x7A8E8002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A8E8001, 0x7A8E8003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A8E8001, 0x7A8E8004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8E8002, 23565, 0xA8E8003B, 170.5589, 55.23731, 11.18965, 0.1270306, 0, 0, -0.9918988,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

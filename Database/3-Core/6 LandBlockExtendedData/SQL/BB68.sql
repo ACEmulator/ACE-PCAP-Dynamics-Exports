@@ -5,50 +5,50 @@ VALUES (0x7BB68001,  1154, 0xBB68000B, 38.00945, 70.59696, 6.012, -0.1497599, 0,
 /* @teleloc 0xBB68000B [38.009450 70.596960 6.012000] -0.149760 0.000000 0.000000 -0.988722 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB68001, 0x7BB68002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB68003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB68004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB68005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68007, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68008, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BB68001, 0x7BB68009, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB68001, 0x7BB6800A, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BB68001, 0x7BB6800B, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB68001, 0x7BB6800C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BB68001, 0x7BB6800D, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BB68001, 0x7BB6800E, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB68001, 0x7BB6800F, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68010, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB68001, 0x7BB68011, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB68001, 0x7BB68012, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB68001, 0x7BB68013, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB68014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB68015, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BB68001, 0x7BB68016, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BB68001, 0x7BB68017, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68018, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BB68001, 0x7BB68019, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB68001, 0x7BB6801A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB68001, 0x7BB6801B, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB6801C, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB68001, 0x7BB6801D, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB68001, 0x7BB6801E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB68001, 0x7BB6801F, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68020, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68021, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68022, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB68001, 0x7BB68023, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB68001, 0x7BB68024, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB68001, 0x7BB68025, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB68001, 0x7BB68026, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BB68001, 0x7BB68027, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7BB68001, 0x7BB68028, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB68001, 0x7BB68029, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB68001, 0x7BB6802A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BB68001, 0x7BB6802B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BB68001, 0x7BB6802C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BB68001, 0x7BB6802D, '2019-02-10 00:00:00') /* Ethereal Wisp */;
+VALUES (0x7BB68001, 0x7BB68002, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB68003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB68004, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB68005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68008, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB68001, 0x7BB68009, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB68001, 0x7BB6800A, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BB68001, 0x7BB6800B, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB68001, 0x7BB6800C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BB68001, 0x7BB6800D, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BB68001, 0x7BB6800E, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB68001, 0x7BB6800F, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68010, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB68001, 0x7BB68011, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB68001, 0x7BB68012, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB68001, 0x7BB68013, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB68014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB68015, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BB68001, 0x7BB68016, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BB68001, 0x7BB68017, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68018, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BB68001, 0x7BB68019, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB68001, 0x7BB6801A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB68001, 0x7BB6801B, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB6801C, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB68001, 0x7BB6801D, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB68001, 0x7BB6801E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB68001, 0x7BB6801F, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68020, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68021, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68022, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB68001, 0x7BB68023, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB68001, 0x7BB68024, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB68001, 0x7BB68025, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB68001, 0x7BB68026, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BB68001, 0x7BB68027, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7BB68001, 0x7BB68028, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB68001, 0x7BB68029, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB68001, 0x7BB6802A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BB68001, 0x7BB6802B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BB68001, 0x7BB6802C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BB68001, 0x7BB6802D, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB68002,  1622, 0xBB68000B, 38.00945, 70.59696, 6.012, -0.1497599, 0, 0, -0.9887224,  True, '2019-02-10 00:00:00'); /* Mire Phyntos Wasp */
@@ -231,7 +231,7 @@ VALUES (0x7BB6802E,  1542, 0xBB680021, 108.1903, 6.329417, 6, -4.371139E-08, 0, 
 /* @teleloc 0xBB680021 [108.190300 6.329417 6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB6802E, 0x7BB6802F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BB6802E, 0x7BB6802F, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB6802F,  4381, 0xBB680021, 108.1903, 6.329417, 6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Corpse */

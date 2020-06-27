@@ -5,13 +5,13 @@ VALUES (0x755BE001,  1154, 0x55BE0027, 115.0813, 167.5112, -0.09500003, 0.923879
 /* @teleloc 0x55BE0027 [115.081300 167.511200 -0.095000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755BE001, 0x755BE002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x755BE001, 0x755BE003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x755BE001, 0x755BE004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x755BE001, 0x755BE005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x755BE001, 0x755BE006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x755BE001, 0x755BE007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x755BE001, 0x755BE008, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x755BE001, 0x755BE002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x755BE001, 0x755BE003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x755BE001, 0x755BE004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x755BE001, 0x755BE005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x755BE001, 0x755BE006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x755BE001, 0x755BE007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x755BE001, 0x755BE008, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755BE002,  1758, 0x55BE0027, 115.0813, 167.5112, -0.09500003, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

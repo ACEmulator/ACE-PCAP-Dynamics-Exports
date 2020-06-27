@@ -5,15 +5,15 @@ VALUES (0x74C98001,  1154, 0x4C980033, 159.5118, 58.41352, -0.8870001, -0.838132
 /* @teleloc 0x4C980033 [159.511800 58.413520 -0.887000] -0.838132 0.000000 0.000000 -0.545467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C98001, 0x74C98002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74C98001, 0x74C98003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74C98001, 0x74C98004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74C98001, 0x74C98005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74C98001, 0x74C98006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74C98001, 0x74C98007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74C98001, 0x74C98008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74C98001, 0x74C98009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74C98001, 0x74C9800A, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x74C98001, 0x74C98002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74C98001, 0x74C98003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74C98001, 0x74C98004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74C98001, 0x74C98005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74C98001, 0x74C98006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74C98001, 0x74C98007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74C98001, 0x74C98008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74C98001, 0x74C98009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74C98001, 0x74C9800A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C98002,  7183, 0x4C980033, 159.5118, 58.41352, -0.8870001, -0.8381321, 0, 0, -0.5454674,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

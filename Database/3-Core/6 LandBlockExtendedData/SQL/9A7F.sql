@@ -5,10 +5,10 @@ VALUES (0x79A7F001,  1154, 0x9A7F0004, 10.24404, 76.68147, 29.24539, -0.2609307,
 /* @teleloc 0x9A7F0004 [10.244040 76.681470 29.245390] -0.260931 0.000000 0.000000 -0.965358 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7F001, 0x79A7F002, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79A7F001, 0x79A7F003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79A7F001, 0x79A7F004, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79A7F001, 0x79A7F005, '2019-02-10 00:00:00') /* Banderling Guard */;
+VALUES (0x79A7F001, 0x79A7F002, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79A7F001, 0x79A7F003, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x79A7F001, 0x79A7F004, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79A7F001, 0x79A7F005, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7F002,  9257, 0x9A7F0004, 10.24404, 76.68147, 29.24539, -0.2609307, 0, 0, -0.9653575,  True, '2019-02-10 00:00:00'); /* Silt Lurker */

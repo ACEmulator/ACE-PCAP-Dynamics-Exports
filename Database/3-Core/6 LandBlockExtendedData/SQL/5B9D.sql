@@ -5,38 +5,38 @@ VALUES (0x75B9D001,  1154, 0x5B9D0018, 63.04525, 182.8427, 12.51504, 1, 0, 0, 0,
 /* @teleloc 0x5B9D0018 [63.045250 182.842700 12.515040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9D001, 0x75B9D002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75B9D001, 0x75B9D003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75B9D001, 0x75B9D004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75B9D001, 0x75B9D005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75B9D001, 0x75B9D006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75B9D001, 0x75B9D007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75B9D001, 0x75B9D008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75B9D001, 0x75B9D009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9D001, 0x75B9D00A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75B9D001, 0x75B9D00B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B9D001, 0x75B9D00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B9D001, 0x75B9D00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B9D001, 0x75B9D00E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75B9D001, 0x75B9D00F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75B9D001, 0x75B9D010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x75B9D001, 0x75B9D011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75B9D001, 0x75B9D012, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75B9D001, 0x75B9D013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75B9D001, 0x75B9D014, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x75B9D001, 0x75B9D015, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75B9D001, 0x75B9D016, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75B9D001, 0x75B9D017, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75B9D001, 0x75B9D018, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75B9D001, 0x75B9D019, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75B9D001, 0x75B9D01A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9D001, 0x75B9D01B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75B9D001, 0x75B9D01C, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75B9D001, 0x75B9D01D, '2019-02-10 00:00:00') /* Frost */
-     , (0x75B9D001, 0x75B9D01E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75B9D001, 0x75B9D01F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75B9D001, 0x75B9D020, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9D001, 0x75B9D021, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75B9D001, 0x75B9D002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75B9D001, 0x75B9D003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75B9D001, 0x75B9D004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75B9D001, 0x75B9D005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75B9D001, 0x75B9D006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75B9D001, 0x75B9D007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75B9D001, 0x75B9D008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75B9D001, 0x75B9D009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9D001, 0x75B9D00A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75B9D001, 0x75B9D00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B9D001, 0x75B9D00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B9D001, 0x75B9D00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B9D001, 0x75B9D00E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75B9D001, 0x75B9D00F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75B9D001, 0x75B9D010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x75B9D001, 0x75B9D011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75B9D001, 0x75B9D012, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75B9D001, 0x75B9D013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75B9D001, 0x75B9D014, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x75B9D001, 0x75B9D015, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75B9D001, 0x75B9D016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75B9D001, 0x75B9D017, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75B9D001, 0x75B9D018, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75B9D001, 0x75B9D019, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75B9D001, 0x75B9D01A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9D001, 0x75B9D01B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75B9D001, 0x75B9D01C, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75B9D001, 0x75B9D01D, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75B9D001, 0x75B9D01E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75B9D001, 0x75B9D01F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75B9D001, 0x75B9D020, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9D001, 0x75B9D021, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9D002,  7123, 0x5B9D0018, 63.04525, 182.8427, 12.51504, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -171,10 +171,10 @@ VALUES (0x75B9D022,  1542, 0x5B9D0018, 61.32479, 184.0156, 12.2208, 0.9238795, 0
 /* @teleloc 0x5B9D0018 [61.324790 184.015600 12.220800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9D022, 0x75B9D023, '2019-02-10 00:00:00') /* Corpse */
-     , (0x75B9D022, 0x75B9D024, '2019-02-10 00:00:00') /* Bones */
-     , (0x75B9D022, 0x75B9D025, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75B9D022, 0x75B9D026, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x75B9D022, 0x75B9D023, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x75B9D022, 0x75B9D024, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75B9D022, 0x75B9D025, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x75B9D022, 0x75B9D026, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9D023,  4180, 0x5B9D0018, 61.32479, 184.0156, 12.2208, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

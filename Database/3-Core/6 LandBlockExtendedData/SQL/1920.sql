@@ -5,14 +5,14 @@ VALUES (0x71920001,  1154, 0x19200001, 23.74464, 16.22248, 52.84401, -0.05406548
 /* @teleloc 0x19200001 [23.744640 16.222480 52.844010] -0.054065 0.000000 0.000000 -0.998537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71920001, 0x71920002, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71920001, 0x71920003, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71920001, 0x71920004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71920001, 0x71920005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71920001, 0x71920006, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71920001, 0x71920007, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71920001, 0x71920008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71920001, 0x71920009, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x71920001, 0x71920002, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71920001, 0x71920003, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71920001, 0x71920004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71920001, 0x71920005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71920001, 0x71920006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71920001, 0x71920007, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71920001, 0x71920008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71920001, 0x71920009, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71920002, 35830, 0x19200001, 23.74464, 16.22248, 52.84401, -0.05406548, 0, 0, -0.9985374,  True, '2019-02-10 00:00:00'); /* Withered Banderling Paragon */

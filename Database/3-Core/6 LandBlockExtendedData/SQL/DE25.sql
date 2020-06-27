@@ -5,17 +5,17 @@ VALUES (0x7DE25001,  1154, 0xDE250004, 8.957283, 87.30792, -0.0934, -0.9984741, 
 /* @teleloc 0xDE250004 [8.957283 87.307920 -0.093400] -0.998474 0.000000 0.000000 -0.055221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE25001, 0x7DE25002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7DE25001, 0x7DE25003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE25001, 0x7DE25004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE25001, 0x7DE25005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE25001, 0x7DE25006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE25001, 0x7DE25007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7DE25001, 0x7DE25008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DE25001, 0x7DE25009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7DE25001, 0x7DE2500A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE25001, 0x7DE2500B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE25001, 0x7DE2500C, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7DE25001, 0x7DE25002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7DE25001, 0x7DE25003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE25001, 0x7DE25004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE25001, 0x7DE25005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE25001, 0x7DE25006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE25001, 0x7DE25007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7DE25001, 0x7DE25008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DE25001, 0x7DE25009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7DE25001, 0x7DE2500A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE25001, 0x7DE2500B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE25001, 0x7DE2500C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE25002,  7103, 0xDE250004, 8.957283, 87.30792, -0.0934, -0.9984741, 0, 0, -0.05522126,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */
@@ -66,7 +66,7 @@ VALUES (0x7DE2500D,  1542, 0xDE250004, 1.364502, 93.72754, -0.09999999, -0.99847
 /* @teleloc 0xDE250004 [1.364502 93.727540 -0.100000] -0.998474 0.000000 0.000000 -0.055221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE2500D, 0x7DE2500E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7DE2500D, 0x7DE2500E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE2500E,  8644, 0xDE250004, 1.364502, 93.72754, -0.09999999, -0.9984741, 0, 0, -0.05522126,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

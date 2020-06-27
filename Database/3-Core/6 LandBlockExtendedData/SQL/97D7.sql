@@ -5,21 +5,21 @@ VALUES (0x797D7001,  1154, 0x97D70031, 154.5024, 15.76947, 77.17588, 0.9961947, 
 /* @teleloc 0x97D70031 [154.502400 15.769470 77.175880] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797D7001, 0x797D7002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x797D7001, 0x797D7003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x797D7001, 0x797D7004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x797D7001, 0x797D7005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797D7001, 0x797D7006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x797D7001, 0x797D7007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x797D7001, 0x797D7008, '2019-02-10 00:00:00') /* Frost */
-     , (0x797D7001, 0x797D7009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797D7001, 0x797D700A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x797D7001, 0x797D700B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x797D7001, 0x797D700C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x797D7001, 0x797D700D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x797D7001, 0x797D700E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x797D7001, 0x797D700F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x797D7001, 0x797D7010, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x797D7001, 0x797D7002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x797D7001, 0x797D7003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x797D7001, 0x797D7004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x797D7001, 0x797D7005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797D7001, 0x797D7006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x797D7001, 0x797D7007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x797D7001, 0x797D7008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x797D7001, 0x797D7009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797D7001, 0x797D700A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x797D7001, 0x797D700B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x797D7001, 0x797D700C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x797D7001, 0x797D700D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x797D7001, 0x797D700E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x797D7001, 0x797D700F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x797D7001, 0x797D7010, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797D7002,   231, 0x97D70031, 154.5024, 15.76947, 77.17588, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -86,7 +86,7 @@ VALUES (0x797D7011,  1542, 0x97D70004, 7.240772, 78.79497, 107.0953, 1, 0, 0, 0,
 /* @teleloc 0x97D70004 [7.240772 78.794970 107.095300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797D7011, 0x797D7012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x797D7011, 0x797D7012, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797D7012, 22567, 0x97D70004, 7.240772, 78.79497, 107.0953, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

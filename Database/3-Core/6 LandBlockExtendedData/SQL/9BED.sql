@@ -5,38 +5,38 @@ VALUES (0x79BED001,  1154, 0x9BED003D, 191.9114, 96.01251, 2.003507, -0.6784934,
 /* @teleloc 0x9BED003D [191.911400 96.012510 2.003507] -0.678493 0.000000 0.000000 -0.734607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BED001, 0x79BED002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79BED001, 0x79BED003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79BED001, 0x79BED004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79BED001, 0x79BED005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79BED001, 0x79BED006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79BED001, 0x79BED007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79BED001, 0x79BED008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED00A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79BED001, 0x79BED00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79BED001, 0x79BED00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79BED001, 0x79BED00E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BED001, 0x79BED00F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79BED001, 0x79BED010, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79BED001, 0x79BED011, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED012, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED013, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BED001, 0x79BED014, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79BED001, 0x79BED015, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79BED001, 0x79BED016, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79BED001, 0x79BED017, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79BED001, 0x79BED018, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79BED001, 0x79BED019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79BED001, 0x79BED01A, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x79BED001, 0x79BED01B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79BED001, 0x79BED01C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79BED001, 0x79BED01D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79BED001, 0x79BED01E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79BED001, 0x79BED01F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79BED001, 0x79BED020, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BED001, 0x79BED021, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x79BED001, 0x79BED002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79BED001, 0x79BED003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79BED001, 0x79BED004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79BED001, 0x79BED005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79BED001, 0x79BED006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79BED001, 0x79BED007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79BED001, 0x79BED008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED00A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79BED001, 0x79BED00C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79BED001, 0x79BED00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79BED001, 0x79BED00E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BED001, 0x79BED00F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79BED001, 0x79BED010, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79BED001, 0x79BED011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED013, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BED001, 0x79BED014, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79BED001, 0x79BED015, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79BED001, 0x79BED016, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79BED001, 0x79BED017, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x79BED001, 0x79BED018, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79BED001, 0x79BED019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79BED001, 0x79BED01A, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x79BED001, 0x79BED01B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79BED001, 0x79BED01C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79BED001, 0x79BED01D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79BED001, 0x79BED01E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79BED001, 0x79BED01F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79BED001, 0x79BED020, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BED001, 0x79BED021, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BED002,  7089, 0x9BED003D, 191.9114, 96.01251, 2.003507, -0.6784934, 0, 0, -0.7346065,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -171,10 +171,10 @@ VALUES (0x79BED022,  1542, 0x9BED0014, 54.32069, 91.69444, 5.172261, 0.9990482, 
 /* @teleloc 0x9BED0014 [54.320690 91.694440 5.172261] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BED022, 0x79BED023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79BED022, 0x79BED024, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x79BED022, 0x79BED025, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x79BED022, 0x79BED026, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79BED022, 0x79BED023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79BED022, 0x79BED024, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x79BED022, 0x79BED025, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x79BED022, 0x79BED026, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BED023,  4179, 0x9BED0014, 54.32069, 91.69444, 5.172261, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

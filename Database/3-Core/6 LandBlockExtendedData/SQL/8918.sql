@@ -509,8 +509,8 @@ VALUES (0x7891807F,  1542, 0x8918001C, 92.89758, 83.06864, 296.004, 0.9798714, 0
 /* @teleloc 0x8918001C [92.897580 83.068640 296.004000] 0.979871 0.000000 0.000000 -0.199630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7891807F, 0x78918080, '2019-02-10 00:00:00') /* Water of Lethe */
-     , (0x7891807F, 0x78918081, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7891807F, 0x78918080, '2019-02-10 00:00:00') /* Water of Lethe (5498) */
+     , (0x7891807F, 0x78918081, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78918080,  5498, 0x8918001C, 92.89758, 83.06864, 296.004, 0.9798714, 0, 0, -0.1996298,  True, '2019-02-10 00:00:00'); /* Water of Lethe */

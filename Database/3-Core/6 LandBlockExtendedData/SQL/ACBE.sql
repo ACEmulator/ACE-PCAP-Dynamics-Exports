@@ -5,13 +5,13 @@ VALUES (0x7ACBE001,  1154, 0xACBE0035, 152.904, 114.9437, 104.3216, -0.1719514, 
 /* @teleloc 0xACBE0035 [152.904000 114.943700 104.321600] -0.171951 0.000000 0.000000 -0.985106 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACBE001, 0x7ACBE002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ACBE001, 0x7ACBE003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7ACBE001, 0x7ACBE004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7ACBE001, 0x7ACBE005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7ACBE001, 0x7ACBE006, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ACBE001, 0x7ACBE007, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ACBE001, 0x7ACBE008, '2019-02-10 00:00:00') /* Mite Scamp */;
+VALUES (0x7ACBE001, 0x7ACBE002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ACBE001, 0x7ACBE003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7ACBE001, 0x7ACBE004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7ACBE001, 0x7ACBE005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7ACBE001, 0x7ACBE006, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ACBE001, 0x7ACBE007, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ACBE001, 0x7ACBE008, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACBE002,   223, 0xACBE0035, 152.904, 114.9437, 104.3216, -0.1719514, 0, 0, -0.9851055,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -46,7 +46,7 @@ VALUES (0x7ACBE009,  1542, 0xACBE0019, 81.17554, 16.70907, 98.60757, 0.8660254, 
 /* @teleloc 0xACBE0019 [81.175540 16.709070 98.607570] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACBE009, 0x7ACBE00A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7ACBE009, 0x7ACBE00A, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACBE00A,  4382, 0xACBE0019, 81.17554, 16.70907, 98.60757, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

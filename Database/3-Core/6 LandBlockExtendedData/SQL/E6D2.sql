@@ -9,39 +9,39 @@ VALUES (0x7E6D2001,  1154, 0xE6D2002A, 126.6662, 33.01201, 42.7554, 1, 0, 0, 0, 
 /* @teleloc 0xE6D2002A [126.666200 33.012010 42.755400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E6D2001, 0x7E6D2002, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D2003, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D2004, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D2005, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D2006, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D2001, 0x7E6D2007, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D2008, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D2001, 0x7E6D2009, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D200A, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D200B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D200C, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D200D, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D200E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D200F, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D2001, 0x7E6D2010, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D2011, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E6D2001, 0x7E6D2012, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D2001, 0x7E6D2013, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D2014, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D2015, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D2016, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D2001, 0x7E6D2017, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D2018, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D2019, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D201A, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E6D2001, 0x7E6D201B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D201C, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E6D2001, 0x7E6D201D, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D2001, 0x7E6D201E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D2001, 0x7E6D201F, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D2020, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D2001, 0x7E6D2021, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E6D2001, 0x7E6D2022, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */;
+VALUES (0x7E6D2001, 0x7E6D2002, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D2003, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D2004, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D2005, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D2006, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D2001, 0x7E6D2007, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D2008, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D2001, 0x7E6D2009, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D200A, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D200B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D200C, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D200D, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D200E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D200F, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D2001, 0x7E6D2010, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D2011, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E6D2001, 0x7E6D2012, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D2001, 0x7E6D2013, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D2014, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D2015, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D2016, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D2001, 0x7E6D2017, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D2018, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D2019, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D201A, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E6D2001, 0x7E6D201B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D201C, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E6D2001, 0x7E6D201D, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D2001, 0x7E6D201E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D2001, 0x7E6D201F, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D2020, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D2001, 0x7E6D2021, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E6D2001, 0x7E6D2022, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E6D2002, 43699, 0xE6D2002A, 126.6662, 33.01201, 42.7554, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier Grub */

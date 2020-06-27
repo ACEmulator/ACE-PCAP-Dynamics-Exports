@@ -9,18 +9,18 @@ VALUES (0x7B96D001,  1154, 0xB96D0011, 66.68023, 3.105319, 6.68, -4.371139E-08, 
 /* @teleloc 0xB96D0011 [66.680230 3.105319 6.680000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96D001, 0x7B96D002, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7B96D001, 0x7B96D003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B96D001, 0x7B96D004, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B96D001, 0x7B96D005, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B96D001, 0x7B96D006, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B96D001, 0x7B96D007, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B96D001, 0x7B96D008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B96D001, 0x7B96D009, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B96D001, 0x7B96D00A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B96D001, 0x7B96D00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B96D001, 0x7B96D00C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B96D001, 0x7B96D00D, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7B96D001, 0x7B96D002, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7B96D001, 0x7B96D003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B96D001, 0x7B96D004, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B96D001, 0x7B96D005, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B96D001, 0x7B96D006, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B96D001, 0x7B96D007, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B96D001, 0x7B96D008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B96D001, 0x7B96D009, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B96D001, 0x7B96D00A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B96D001, 0x7B96D00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B96D001, 0x7B96D00C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B96D001, 0x7B96D00D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96D002,  2583, 0xB96D0011, 66.68023, 3.105319, 6.68, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Se Sclavus */
@@ -75,11 +75,11 @@ VALUES (0x7B96D00E,  1542, 0xB96D0012, 48.99627, 37.87643, 9.156369, -4.371139E-
 /* @teleloc 0xB96D0012 [48.996270 37.876430 9.156369] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96D00E, 0x7B96D00F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B96D00E, 0x7B96D010, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B96D00E, 0x7B96D011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B96D00E, 0x7B96D012, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B96D00E, 0x7B96D013, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7B96D00E, 0x7B96D00F, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7B96D00E, 0x7B96D010, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B96D00E, 0x7B96D011, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B96D00E, 0x7B96D012, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7B96D00E, 0x7B96D013, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96D00F,  4381, 0xB96D0012, 48.99627, 37.87643, 9.156369, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Corpse */

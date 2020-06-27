@@ -5,9 +5,9 @@ VALUES (0x77985001,  1154, 0x7985001E, 93.5119, 142.3967, 3.059513, 0.7917663, 0
 /* @teleloc 0x7985001E [93.511900 142.396700 3.059513] 0.791766 0.000000 0.000000 -0.610824 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77985001, 0x77985002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x77985001, 0x77985003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x77985001, 0x77985004, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x77985001, 0x77985002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x77985001, 0x77985003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x77985001, 0x77985004, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77985002,  7108, 0x7985001E, 93.5119, 142.3967, 3.059513, 0.7917663, 0, 0, -0.6108242,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

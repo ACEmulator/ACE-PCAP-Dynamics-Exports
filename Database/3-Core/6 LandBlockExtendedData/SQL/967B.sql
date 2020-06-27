@@ -9,7 +9,7 @@ VALUES (0x7967B001,  1154, 0x967B0028, 118.3135, 170.6298, 21.40542, -0.1813963,
 /* @teleloc 0x967B0028 [118.313500 170.629800 21.405420] -0.181396 0.000000 0.000000 -0.983410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7967B001, 0x7967B002, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7967B001, 0x7967B002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7967B002,  5429, 0x967B0028, 118.3135, 170.6298, 21.40542, -0.1813963, 0, 0, -0.9834101,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

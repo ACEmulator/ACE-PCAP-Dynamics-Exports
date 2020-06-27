@@ -9,10 +9,10 @@ VALUES (0x7454A001,  1154, 0x454A003D, 189.9998, 103.455, 9.659355, 0.8660254, 0
 /* @teleloc 0x454A003D [189.999800 103.455000 9.659355] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454A001, 0x7454A002, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7454A001, 0x7454A003, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7454A001, 0x7454A004, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7454A001, 0x7454A005, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x7454A001, 0x7454A002, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7454A001, 0x7454A003, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7454A001, 0x7454A004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7454A001, 0x7454A005, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454A002, 26019, 0x454A003D, 189.9998, 103.455, 9.659355, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Seer */
@@ -35,7 +35,7 @@ VALUES (0x7454A006,  1154, 0x454A0108, 45.271, 1.06282, 5.2, 0.911454, 0, 0, -0.
 /* @teleloc 0x454A0108 [45.271000 1.062820 5.200000] 0.911454 0.000000 0.000000 -0.411401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454A006, 0x7454A007, '2019-02-10 00:00:00') /* Ssavashka the Devoted */;
+VALUES (0x7454A006, 0x7454A007, '2019-02-10 00:00:00') /* Ssavashka the Devoted (31663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454A007, 31663, 0x454A0108, 45.271, 1.06282, 5.2, 0.911454, 0, 0, -0.411401,  True, '2019-02-10 00:00:00'); /* Ssavashka the Devoted */

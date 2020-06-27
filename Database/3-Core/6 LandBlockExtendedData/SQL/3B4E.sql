@@ -5,40 +5,40 @@ VALUES (0x73B4E001,  1154, 0x3B4E0021, 113.397, 7.15858, 15.50205, -0.988665, 0,
 /* @teleloc 0x3B4E0021 [113.397000 7.158580 15.502050] -0.988665 0.000000 0.000000 0.150136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4E001, 0x73B4E002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4E001, 0x73B4E003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4E001, 0x73B4E005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x73B4E001, 0x73B4E006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73B4E001, 0x73B4E007, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73B4E001, 0x73B4E008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4E001, 0x73B4E009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4E001, 0x73B4E00A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E00B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E00C, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73B4E001, 0x73B4E00D, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73B4E001, 0x73B4E00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73B4E001, 0x73B4E00F, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73B4E001, 0x73B4E010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4E001, 0x73B4E011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B4E001, 0x73B4E012, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4E001, 0x73B4E013, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73B4E001, 0x73B4E014, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73B4E001, 0x73B4E015, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73B4E001, 0x73B4E016, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73B4E001, 0x73B4E017, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73B4E001, 0x73B4E018, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73B4E001, 0x73B4E019, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E01A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E01B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E01C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73B4E001, 0x73B4E01D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73B4E001, 0x73B4E01E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73B4E001, 0x73B4E01F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73B4E001, 0x73B4E020, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73B4E001, 0x73B4E021, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73B4E001, 0x73B4E022, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73B4E001, 0x73B4E023, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x73B4E001, 0x73B4E002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4E001, 0x73B4E003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4E001, 0x73B4E005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x73B4E001, 0x73B4E006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73B4E001, 0x73B4E007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73B4E001, 0x73B4E008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4E001, 0x73B4E009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4E001, 0x73B4E00A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E00B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E00C, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73B4E001, 0x73B4E00D, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73B4E001, 0x73B4E00E, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B4E001, 0x73B4E00F, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73B4E001, 0x73B4E010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4E001, 0x73B4E011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B4E001, 0x73B4E012, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4E001, 0x73B4E013, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73B4E001, 0x73B4E014, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73B4E001, 0x73B4E015, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73B4E001, 0x73B4E016, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73B4E001, 0x73B4E017, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73B4E001, 0x73B4E018, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73B4E001, 0x73B4E019, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E01A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E01B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E01C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73B4E001, 0x73B4E01D, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73B4E001, 0x73B4E01E, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73B4E001, 0x73B4E01F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73B4E001, 0x73B4E020, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73B4E001, 0x73B4E021, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73B4E001, 0x73B4E022, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73B4E001, 0x73B4E023, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4E002, 23565, 0x3B4E0021, 113.397, 7.15858, 15.50205, -0.988665, 0, 0, 0.150136,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -181,9 +181,9 @@ VALUES (0x73B4E024,  1542, 0x3B4E0031, 153.5861, 3.636218, 32.39994, 0.9990482, 
 /* @teleloc 0x3B4E0031 [153.586100 3.636218 32.399940] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4E024, 0x73B4E025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73B4E024, 0x73B4E026, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x73B4E024, 0x73B4E027, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B4E024, 0x73B4E025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73B4E024, 0x73B4E026, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x73B4E024, 0x73B4E027, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4E025,  4179, 0x3B4E0031, 153.5861, 3.636218, 32.39994, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

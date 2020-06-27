@@ -5,13 +5,13 @@ VALUES (0x73E6E001,  1154, 0x3E6E0039, 170.2365, 9.620488, 27.45086, -0.9802629,
 /* @teleloc 0x3E6E0039 [170.236500 9.620488 27.450860] -0.980263 0.000000 0.000000 -0.197699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E6E001, 0x73E6E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73E6E001, 0x73E6E003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73E6E001, 0x73E6E004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73E6E001, 0x73E6E005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73E6E001, 0x73E6E006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E6E001, 0x73E6E007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73E6E001, 0x73E6E008, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x73E6E001, 0x73E6E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73E6E001, 0x73E6E003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73E6E001, 0x73E6E004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73E6E001, 0x73E6E005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73E6E001, 0x73E6E006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E6E001, 0x73E6E007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73E6E001, 0x73E6E008, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E6E002, 36829, 0x3E6E0039, 170.2365, 9.620488, 27.45086, -0.9802629, 0, 0, -0.1976985,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -46,7 +46,7 @@ VALUES (0x73E6E009,  1542, 0x3E6E003E, 176.7539, 128.0718, 23.67989, -4.371139E-
 /* @teleloc 0x3E6E003E [176.753900 128.071800 23.679890] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E6E009, 0x73E6E00A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73E6E009, 0x73E6E00A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E6E00A,  4380, 0x3E6E003E, 176.7539, 128.0718, 23.67989, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

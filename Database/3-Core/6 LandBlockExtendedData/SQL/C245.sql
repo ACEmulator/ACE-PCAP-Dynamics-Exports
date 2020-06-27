@@ -5,18 +5,18 @@ VALUES (0x7C245001,  1154, 0xC2450001, 15.56479, 23.33827, 55.4725, -0.732699, 0
 /* @teleloc 0xC2450001 [15.564790 23.338270 55.472500] -0.732699 0.000000 0.000000 -0.680553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C245001, 0x7C245002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7C245001, 0x7C245003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C245001, 0x7C245004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7C245001, 0x7C245005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C245001, 0x7C245006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C245001, 0x7C245007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C245001, 0x7C245008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C245001, 0x7C245009, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C245001, 0x7C24500A, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C245001, 0x7C24500B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C245001, 0x7C24500C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C245001, 0x7C24500D, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C245001, 0x7C245002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7C245001, 0x7C245003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C245001, 0x7C245004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7C245001, 0x7C245005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C245001, 0x7C245006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C245001, 0x7C245007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C245001, 0x7C245008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C245001, 0x7C245009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C245001, 0x7C24500A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C245001, 0x7C24500B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C245001, 0x7C24500C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C245001, 0x7C24500D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C245002,  8142, 0xC2450001, 15.56479, 23.33827, 55.4725, -0.732699, 0, 0, -0.6805529,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */
@@ -71,8 +71,8 @@ VALUES (0x7C24500E,  1542, 0xC2450034, 159.6658, 88.23831, 110.3976, 0.9464138, 
 /* @teleloc 0xC2450034 [159.665800 88.238310 110.397600] 0.946414 0.000000 0.000000 -0.322957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C24500E, 0x7C24500F, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7C24500E, 0x7C245010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C24500E, 0x7C24500F, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7C24500E, 0x7C245010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C24500F, 22837, 0xC2450034, 159.6658, 88.23831, 110.3976, 0.9464138, 0, 0, -0.3229566,  True, '2019-02-10 00:00:00'); /* Snowflower */

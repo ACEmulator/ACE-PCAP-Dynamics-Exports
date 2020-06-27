@@ -5,11 +5,11 @@ VALUES (0x73FA1001,  1154, 0x3FA10037, 163.1007, 158.3116, 52.033, 0.2551699, 0,
 /* @teleloc 0x3FA10037 [163.100700 158.311600 52.033000] 0.255170 0.000000 0.000000 -0.966896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FA1001, 0x73FA1002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x73FA1001, 0x73FA1003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73FA1001, 0x73FA1004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73FA1001, 0x73FA1005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73FA1001, 0x73FA1006, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x73FA1001, 0x73FA1002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x73FA1001, 0x73FA1003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73FA1001, 0x73FA1004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73FA1001, 0x73FA1005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73FA1001, 0x73FA1006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FA1002, 14800, 0x3FA10037, 163.1007, 158.3116, 52.033, 0.2551699, 0, 0, -0.9668962,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -36,7 +36,7 @@ VALUES (0x73FA1007,  1542, 0x3FA1003E, 175.634, 138.8787, 54.008, -0.9775839, 0,
 /* @teleloc 0x3FA1003E [175.634000 138.878700 54.008000] -0.977584 0.000000 0.000000 -0.210546 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FA1007, 0x73FA1008, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x73FA1007, 0x73FA1008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FA1008,  8041, 0x3FA1003E, 175.634, 138.8787, 54.008, -0.9775839, 0, 0, -0.2105461,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

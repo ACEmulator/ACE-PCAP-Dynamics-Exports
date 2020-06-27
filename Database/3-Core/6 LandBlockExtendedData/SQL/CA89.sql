@@ -5,14 +5,14 @@ VALUES (0x7CA89001,  1154, 0xCA89001D, 94.96872, 97.25466, 3.1011, -0.9875661, 0
 /* @teleloc 0xCA89001D [94.968720 97.254660 3.101100] -0.987566 0.000000 0.000000 -0.157204 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA89001, 0x7CA89002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7CA89001, 0x7CA89003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CA89001, 0x7CA89004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CA89001, 0x7CA89005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7CA89001, 0x7CA89006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7CA89001, 0x7CA89007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CA89001, 0x7CA89008, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7CA89001, 0x7CA89009, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x7CA89001, 0x7CA89002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7CA89001, 0x7CA89003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CA89001, 0x7CA89004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CA89001, 0x7CA89005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7CA89001, 0x7CA89006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7CA89001, 0x7CA89007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CA89001, 0x7CA89008, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7CA89001, 0x7CA89009, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA89002,  2577, 0xCA89001D, 94.96872, 97.25466, 3.1011, -0.9875661, 0, 0, -0.1572044,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
@@ -51,11 +51,11 @@ VALUES (0x7CA8900A,  1542, 0xCA890013, 61.79283, 50.27445, 3.55, 0.4969672, 0, 0
 /* @teleloc 0xCA890013 [61.792830 50.274450 3.550000] 0.496967 0.000000 0.000000 -0.867769 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA8900A, 0x7CA8900B, '2019-02-10 00:00:00') /* Fish */
-     , (0x7CA8900A, 0x7CA8900C, '2019-02-10 00:00:00') /* Fish */
-     , (0x7CA8900A, 0x7CA8900D, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7CA8900A, 0x7CA8900E, '2019-02-10 00:00:00') /* Fish */
-     , (0x7CA8900A, 0x7CA8900F, '2019-02-10 00:00:00') /* An odd note  */;
+VALUES (0x7CA8900A, 0x7CA8900B, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7CA8900A, 0x7CA8900C, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7CA8900A, 0x7CA8900D, '2019-02-10 00:00:00') /* An old note  (1420) */
+     , (0x7CA8900A, 0x7CA8900E, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7CA8900A, 0x7CA8900F, '2019-02-10 00:00:00') /* An odd note  (1419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA8900B,   263, 0xCA890013, 61.79283, 50.27445, 3.55, 0.4969672, 0, 0, -0.8677694,  True, '2019-02-10 00:00:00'); /* Fish */

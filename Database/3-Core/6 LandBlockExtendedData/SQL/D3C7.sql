@@ -9,10 +9,10 @@ VALUES (0x7D3C7001,  1154, 0xD3C7000A, 26.797, 44.53736, 57.39751, 0.006679203, 
 /* @teleloc 0xD3C7000A [26.797000 44.537360 57.397510] 0.006679 0.000000 0.000000 -0.999978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3C7001, 0x7D3C7002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D3C7001, 0x7D3C7003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D3C7001, 0x7D3C7004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7D3C7001, 0x7D3C7005, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7D3C7001, 0x7D3C7002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D3C7001, 0x7D3C7003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D3C7001, 0x7D3C7004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7D3C7001, 0x7D3C7005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3C7002, 23482, 0xD3C7000A, 26.797, 44.53736, 57.39751, 0.006679203, 0, 0, -0.9999777,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

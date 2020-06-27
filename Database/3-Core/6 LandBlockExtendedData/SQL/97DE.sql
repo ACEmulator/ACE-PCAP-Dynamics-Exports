@@ -5,13 +5,13 @@ VALUES (0x797DE001,  1154, 0x97DE001E, 86.08338, 132.7771, 117.7716, 0.749504, 0
 /* @teleloc 0x97DE001E [86.083380 132.777100 117.771600] 0.749504 0.000000 0.000000 -0.662000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797DE001, 0x797DE002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x797DE001, 0x797DE003, '2019-02-10 00:00:00') /* Banished Monouga */
-     , (0x797DE001, 0x797DE004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x797DE001, 0x797DE005, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x797DE001, 0x797DE006, '2019-02-10 00:00:00') /* Frost */
-     , (0x797DE001, 0x797DE007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x797DE001, 0x797DE008, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x797DE001, 0x797DE002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x797DE001, 0x797DE003, '2019-02-10 00:00:00') /* Banished Monouga (30884) */
+     , (0x797DE001, 0x797DE004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x797DE001, 0x797DE005, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x797DE001, 0x797DE006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x797DE001, 0x797DE007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x797DE001, 0x797DE008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797DE002, 23082, 0x97DE001E, 86.08338, 132.7771, 117.7716, 0.749504, 0, 0, -0.6619998,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

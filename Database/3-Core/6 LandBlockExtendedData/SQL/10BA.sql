@@ -9,14 +9,14 @@ VALUES (0x710BA001,  1154, 0x10BA0035, 153.6012, 118.6461, 11.49738, 0.9845401, 
 /* @teleloc 0x10BA0035 [153.601200 118.646100 11.497380] 0.984540 0.000000 0.000000 -0.175159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x710BA001, 0x710BA002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x710BA001, 0x710BA003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x710BA001, 0x710BA004, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x710BA001, 0x710BA005, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x710BA001, 0x710BA006, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x710BA001, 0x710BA007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x710BA001, 0x710BA008, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x710BA001, 0x710BA009, '2019-02-10 00:00:00') /* Hea Nualuan */;
+VALUES (0x710BA001, 0x710BA002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x710BA001, 0x710BA003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x710BA001, 0x710BA004, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x710BA001, 0x710BA005, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x710BA001, 0x710BA006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x710BA001, 0x710BA007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x710BA001, 0x710BA008, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x710BA001, 0x710BA009, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x710BA002, 23082, 0x10BA0035, 153.6012, 118.6461, 11.49738, 0.9845401, 0, 0, -0.1751593,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

@@ -5,9 +5,9 @@ VALUES (0x72978001,  1154, 0x29780036, 156.7884, 129.4453, 260.1955, 0.2039155, 
 /* @teleloc 0x29780036 [156.788400 129.445300 260.195500] 0.203916 0.000000 0.000000 -0.978989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72978001, 0x72978002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72978001, 0x72978003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72978001, 0x72978004, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x72978001, 0x72978002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72978001, 0x72978003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72978001, 0x72978004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72978002, 36830, 0x29780036, 156.7884, 129.4453, 260.1955, 0.2039155, 0, 0, -0.9789885,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -26,7 +26,7 @@ VALUES (0x72978005,  1542, 0x2978000F, 43.21943, 145.7507, 260.7295, 1, 0, 0, 0,
 /* @teleloc 0x2978000F [43.219430 145.750700 260.729500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72978005, 0x72978006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72978005, 0x72978006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72978006, 22571, 0x2978000F, 43.21943, 145.7507, 260.7295, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

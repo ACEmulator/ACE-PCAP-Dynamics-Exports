@@ -5,28 +5,28 @@ VALUES (0x7B94B001,  1154, 0xB94B0020, 82.98088, 170.8124, 30.01, -0.9238611, 0,
 /* @teleloc 0xB94B0020 [82.980880 170.812400 30.010000] -0.923861 0.000000 0.000000 -0.382728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B94B001, 0x7B94B002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7B94B001, 0x7B94B003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B94B001, 0x7B94B004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7B94B001, 0x7B94B005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B94B001, 0x7B94B006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B94B001, 0x7B94B007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B94B001, 0x7B94B008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B94B001, 0x7B94B009, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B94B001, 0x7B94B00A, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B94B001, 0x7B94B00B, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7B94B001, 0x7B94B00C, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7B94B001, 0x7B94B00D, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B94B001, 0x7B94B00E, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B94B001, 0x7B94B00F, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B94B001, 0x7B94B010, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B94B001, 0x7B94B011, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B94B001, 0x7B94B012, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B94B001, 0x7B94B013, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B94B001, 0x7B94B014, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B94B001, 0x7B94B015, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B94B001, 0x7B94B016, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B94B001, 0x7B94B017, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7B94B001, 0x7B94B002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7B94B001, 0x7B94B003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B94B001, 0x7B94B004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7B94B001, 0x7B94B005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B94B001, 0x7B94B006, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B94B001, 0x7B94B007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B94B001, 0x7B94B008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B94B001, 0x7B94B009, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B94B001, 0x7B94B00A, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B94B001, 0x7B94B00B, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7B94B001, 0x7B94B00C, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B94B001, 0x7B94B00D, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B94B001, 0x7B94B00E, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B94B001, 0x7B94B00F, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B94B001, 0x7B94B010, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B94B001, 0x7B94B011, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B94B001, 0x7B94B012, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B94B001, 0x7B94B013, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B94B001, 0x7B94B014, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B94B001, 0x7B94B015, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B94B001, 0x7B94B016, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B94B001, 0x7B94B017, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B94B002,   206, 0xB94B0020, 82.98088, 170.8124, 30.01, -0.9238611, 0, 0, -0.382728,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

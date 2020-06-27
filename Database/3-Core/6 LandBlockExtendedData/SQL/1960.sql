@@ -5,14 +5,14 @@ VALUES (0x71960001,  1154, 0x19600018, 60.90969, 190.8401, 42, 0.9968401, 0, 0, 
 /* @teleloc 0x19600018 [60.909690 190.840100 42.000000] 0.996840 0.000000 0.000000 -0.079434 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71960001, 0x71960002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71960001, 0x71960003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x71960001, 0x71960004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71960001, 0x71960005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71960001, 0x71960006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x71960001, 0x71960007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71960001, 0x71960008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x71960001, 0x71960009, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x71960001, 0x71960002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71960001, 0x71960003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x71960001, 0x71960004, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x71960001, 0x71960005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71960001, 0x71960006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x71960001, 0x71960007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71960001, 0x71960008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x71960001, 0x71960009, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71960002, 33309, 0x19600018, 60.90969, 190.8401, 42, 0.9968401, 0, 0, -0.07943406,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
@@ -51,7 +51,7 @@ VALUES (0x7196000A,  1542, 0x1960001D, 74.14671, 116.0648, 44.80512, -0.1736482,
 /* @teleloc 0x1960001D [74.146710 116.064800 44.805120] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7196000A, 0x7196000B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7196000A, 0x7196000B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7196000B,  4180, 0x1960001D, 74.14671, 116.0648, 44.80512, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

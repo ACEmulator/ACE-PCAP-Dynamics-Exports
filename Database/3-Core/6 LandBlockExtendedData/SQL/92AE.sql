@@ -5,20 +5,20 @@ VALUES (0x792AE001,  1154, 0x92AE003C, 174.3701, 78.59518, 38.02459, 0.9238795, 
 /* @teleloc 0x92AE003C [174.370100 78.595180 38.024590] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792AE001, 0x792AE002, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x792AE001, 0x792AE003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x792AE001, 0x792AE004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x792AE001, 0x792AE005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x792AE001, 0x792AE006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x792AE001, 0x792AE007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x792AE001, 0x792AE008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x792AE001, 0x792AE009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x792AE001, 0x792AE00A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x792AE001, 0x792AE00B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x792AE001, 0x792AE00C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x792AE001, 0x792AE00D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x792AE001, 0x792AE00E, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x792AE001, 0x792AE00F, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x792AE001, 0x792AE002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x792AE001, 0x792AE003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x792AE001, 0x792AE004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x792AE001, 0x792AE005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x792AE001, 0x792AE006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x792AE001, 0x792AE007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x792AE001, 0x792AE008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x792AE001, 0x792AE009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x792AE001, 0x792AE00A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x792AE001, 0x792AE00B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x792AE001, 0x792AE00C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x792AE001, 0x792AE00D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x792AE001, 0x792AE00E, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x792AE001, 0x792AE00F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792AE002, 24942, 0x92AE003C, 174.3701, 78.59518, 38.02459, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */
@@ -81,7 +81,7 @@ VALUES (0x792AE010,  1542, 0x92AE0004, 21.04998, 82.93276, 38.011, 0.9478419, 0,
 /* @teleloc 0x92AE0004 [21.049980 82.932760 38.011000] 0.947842 0.000000 0.000000 -0.318741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792AE010, 0x792AE011, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x792AE010, 0x792AE011, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792AE011, 31686, 0x92AE0004, 21.04998, 82.93276, 38.011, 0.9478419, 0, 0, -0.3187409,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

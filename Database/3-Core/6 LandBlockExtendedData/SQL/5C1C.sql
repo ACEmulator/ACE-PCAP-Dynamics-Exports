@@ -5,9 +5,9 @@ VALUES (0x75C1C001,  1154, 0x5C1C002D, 134.7465, 113.0125, 67.43848, 0.836928, 0
 /* @teleloc 0x5C1C002D [134.746500 113.012500 67.438480] 0.836928 0.000000 0.000000 -0.547313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C1C001, 0x75C1C002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75C1C001, 0x75C1C003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75C1C001, 0x75C1C004, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x75C1C001, 0x75C1C002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75C1C001, 0x75C1C003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75C1C001, 0x75C1C004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C1C002, 11526, 0x5C1C002D, 134.7465, 113.0125, 67.43848, 0.836928, 0, 0, -0.547313,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

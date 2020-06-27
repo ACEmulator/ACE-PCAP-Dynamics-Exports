@@ -5,13 +5,13 @@ VALUES (0x75DA0001,  1154, 0x5DA00032, 157.667, 37.60225, 83.41926, -0.6247935, 
 /* @teleloc 0x5DA00032 [157.667000 37.602250 83.419260] -0.624794 0.000000 0.000000 -0.780790 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA0001, 0x75DA0002, '2019-02-10 00:00:00') /* Ember */
-     , (0x75DA0001, 0x75DA0003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75DA0001, 0x75DA0004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75DA0001, 0x75DA0005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75DA0001, 0x75DA0006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75DA0001, 0x75DA0007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75DA0001, 0x75DA0008, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x75DA0001, 0x75DA0002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75DA0001, 0x75DA0003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75DA0001, 0x75DA0004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75DA0001, 0x75DA0005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75DA0001, 0x75DA0006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75DA0001, 0x75DA0007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75DA0001, 0x75DA0008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA0002,  7607, 0x5DA00032, 157.667, 37.60225, 83.41926, -0.6247935, 0, 0, -0.78079,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -46,7 +46,7 @@ VALUES (0x75DA0009,  1542, 0x5DA00032, 157.3116, 31.96309, 83.492, 0.9537169, 0,
 /* @teleloc 0x5DA00032 [157.311600 31.963090 83.492000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA0009, 0x75DA000A, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal */;
+VALUES (0x75DA0009, 0x75DA000A, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA000A,  8389, 0x5DA00032, 157.3116, 31.96309, 83.492, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */

@@ -5,12 +5,12 @@ VALUES (0x7C25E001,  1154, 0xC25E0033, 166.3564, 71.89366, 6, -0.9326415, 0, 0, 
 /* @teleloc 0xC25E0033 [166.356400 71.893660 6.000000] -0.932642 0.000000 0.000000 -0.360804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C25E001, 0x7C25E002, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C25E001, 0x7C25E003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C25E001, 0x7C25E004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C25E001, 0x7C25E005, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C25E001, 0x7C25E006, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C25E001, 0x7C25E007, '2019-02-10 00:00:00') /* Sewer Rat */;
+VALUES (0x7C25E001, 0x7C25E002, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C25E001, 0x7C25E003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C25E001, 0x7C25E004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C25E001, 0x7C25E005, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C25E001, 0x7C25E006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C25E001, 0x7C25E007, '2019-02-10 00:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C25E002,  2585, 0xC25E0033, 166.3564, 71.89366, 6, -0.9326415, 0, 0, -0.3608044,  True, '2019-02-10 00:00:00'); /* Essa Sclavus */

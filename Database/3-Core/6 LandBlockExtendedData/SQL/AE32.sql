@@ -5,16 +5,16 @@ VALUES (0x7AE32001,  1154, 0xAE32000F, 31.05688, 159.0228, 48, 0.8191521, 0, 0, 
 /* @teleloc 0xAE32000F [31.056880 159.022800 48.000000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE32001, 0x7AE32002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AE32001, 0x7AE32003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AE32001, 0x7AE32004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AE32001, 0x7AE32005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE32001, 0x7AE32006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE32001, 0x7AE32007, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7AE32001, 0x7AE32008, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AE32001, 0x7AE32009, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AE32001, 0x7AE3200A, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AE32001, 0x7AE3200B, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7AE32001, 0x7AE32002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AE32001, 0x7AE32003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AE32001, 0x7AE32004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AE32001, 0x7AE32005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE32001, 0x7AE32006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE32001, 0x7AE32007, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7AE32001, 0x7AE32008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AE32001, 0x7AE32009, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AE32001, 0x7AE3200A, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AE32001, 0x7AE3200B, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE32002,  7979, 0xAE32000F, 31.05688, 159.0228, 48, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7AE3200C,  1542, 0xAE320033, 161.5642, 62.31486, 43.19291, 1, 0, 0, 0,
 /* @teleloc 0xAE320033 [161.564200 62.314860 43.192910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE3200C, 0x7AE3200D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AE3200C, 0x7AE3200D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE3200D, 22576, 0xAE320033, 161.5642, 62.31486, 43.19291, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

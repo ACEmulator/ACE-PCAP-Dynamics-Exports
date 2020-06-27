@@ -5,13 +5,13 @@ VALUES (0x73E37001,  1154, 0x3E370013, 65.17917, 71.41781, 1.436597, -0.2881993,
 /* @teleloc 0x3E370013 [65.179170 71.417810 1.436597] -0.288199 0.000000 0.000000 -0.957570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E37001, 0x73E37002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73E37001, 0x73E37003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73E37001, 0x73E37004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73E37001, 0x73E37005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E37001, 0x73E37006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73E37001, 0x73E37007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73E37001, 0x73E37008, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73E37001, 0x73E37002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73E37001, 0x73E37003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73E37001, 0x73E37004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73E37001, 0x73E37005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E37001, 0x73E37006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73E37001, 0x73E37007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73E37001, 0x73E37008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E37002, 23563, 0x3E370013, 65.17917, 71.41781, 1.436597, -0.2881993, 0, 0, -0.9575704,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -46,9 +46,9 @@ VALUES (0x73E37009,  1542, 0x3E37001D, 86.29704, 97.60388, 7.831572, -0.2881993,
 /* @teleloc 0x3E37001D [86.297040 97.603880 7.831572] -0.288199 0.000000 0.000000 -0.957570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E37009, 0x73E3700A, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x73E37009, 0x73E3700B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x73E37009, 0x73E3700C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73E37009, 0x73E3700A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x73E37009, 0x73E3700B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x73E37009, 0x73E3700C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E3700A,  9288, 0x3E37001D, 86.29704, 97.60388, 7.831572, -0.2881993, 0, 0, -0.9575704,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

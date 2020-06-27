@@ -5,16 +5,16 @@ VALUES (0x7F383001,  1154, 0xF3830031, 147.4545, 14.76116, 7.090613, -0.9931556,
 /* @teleloc 0xF3830031 [147.454500 14.761160 7.090613] -0.993156 0.000000 0.000000 -0.116799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F383001, 0x7F383002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F383001, 0x7F383003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F383001, 0x7F383004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F383001, 0x7F383005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F383001, 0x7F383006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F383001, 0x7F383007, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F383001, 0x7F383008, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F383001, 0x7F383009, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F383001, 0x7F38300A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F383001, 0x7F38300B, '2019-02-10 00:00:00') /* Reedshark Ravager */;
+VALUES (0x7F383001, 0x7F383002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F383001, 0x7F383003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F383001, 0x7F383004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F383001, 0x7F383005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F383001, 0x7F383006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F383001, 0x7F383007, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F383001, 0x7F383008, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F383001, 0x7F383009, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F383001, 0x7F38300A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F383001, 0x7F38300B, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F383002,  1629, 0xF3830031, 147.4545, 14.76116, 7.090613, -0.9931556, 0, 0, -0.1167986,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

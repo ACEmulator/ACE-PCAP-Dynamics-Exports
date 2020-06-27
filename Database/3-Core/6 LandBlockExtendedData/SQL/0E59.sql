@@ -5,39 +5,39 @@ VALUES (0x70E59001,  1154, 0x0E59001E, 87.01733, 140.7505, -0.09999871, -0.77316
 /* @teleloc 0x0E59001E [87.017330 140.750500 -0.099999] -0.773161 0.000000 0.000000 -0.634210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E59001, 0x70E59002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70E59001, 0x70E59003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70E59001, 0x70E59004, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70E59001, 0x70E59005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70E59001, 0x70E59006, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70E59001, 0x70E59007, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70E59001, 0x70E59008, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70E59001, 0x70E59009, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70E59001, 0x70E5900A, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70E59001, 0x70E5900B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E5900C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E5900D, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70E59001, 0x70E5900E, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E5900F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E59010, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70E59001, 0x70E59011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E59001, 0x70E59012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E59001, 0x70E59013, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x70E59001, 0x70E59014, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70E59001, 0x70E59015, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70E59001, 0x70E59016, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70E59001, 0x70E59017, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70E59001, 0x70E59018, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E59001, 0x70E59019, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E59001, 0x70E5901A, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70E59001, 0x70E5901B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E59001, 0x70E5901C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E5901D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70E59001, 0x70E5901E, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E59001, 0x70E5901F, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70E59001, 0x70E59020, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70E59001, 0x70E59021, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E59001, 0x70E59022, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x70E59001, 0x70E59002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70E59001, 0x70E59003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70E59001, 0x70E59004, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70E59001, 0x70E59005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70E59001, 0x70E59006, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70E59001, 0x70E59007, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70E59001, 0x70E59008, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70E59001, 0x70E59009, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70E59001, 0x70E5900A, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70E59001, 0x70E5900B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E5900C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E5900D, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70E59001, 0x70E5900E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E5900F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E59010, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70E59001, 0x70E59011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E59001, 0x70E59012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E59001, 0x70E59013, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x70E59001, 0x70E59014, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70E59001, 0x70E59015, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70E59001, 0x70E59016, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70E59001, 0x70E59017, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70E59001, 0x70E59018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E59001, 0x70E59019, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E59001, 0x70E5901A, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70E59001, 0x70E5901B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E59001, 0x70E5901C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E5901D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70E59001, 0x70E5901E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E59001, 0x70E5901F, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70E59001, 0x70E59020, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70E59001, 0x70E59021, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E59001, 0x70E59022, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E59002,  7125, 0x0E59001E, 87.01733, 140.7505, -0.09999871, -0.7731605, 0, 0, -0.6342104,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -176,7 +176,7 @@ VALUES (0x70E59023,  1542, 0x0E590023, 118.5349, 57.09561, 0, -0.1736482, 0, 0, 
 /* @teleloc 0x0E590023 [118.534900 57.095610 0.000000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E59023, 0x70E59024, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x70E59023, 0x70E59024, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E59024,  4381, 0x0E590023, 118.5349, 57.09561, 0, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

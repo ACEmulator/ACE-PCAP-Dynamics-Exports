@@ -5,17 +5,17 @@ VALUES (0x7A076001,  1154, 0xA0760021, 103.1818, 18.31161, 24.14754, 0.7933533, 
 /* @teleloc 0xA0760021 [103.181800 18.311610 24.147540] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A076001, 0x7A076002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A076001, 0x7A076003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A076001, 0x7A076004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A076001, 0x7A076005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A076001, 0x7A076006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A076001, 0x7A076007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A076001, 0x7A076008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A076001, 0x7A076009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A076001, 0x7A07600A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A076001, 0x7A07600B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A076001, 0x7A07600C, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A076001, 0x7A076002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A076001, 0x7A076003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A076001, 0x7A076004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A076001, 0x7A076005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A076001, 0x7A076006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A076001, 0x7A076007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A076001, 0x7A076008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A076001, 0x7A076009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A076001, 0x7A07600A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A076001, 0x7A07600B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A076001, 0x7A07600C, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A076002,  1762, 0xA0760021, 103.1818, 18.31161, 24.14754, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -66,11 +66,11 @@ VALUES (0x7A07600D,  1542, 0xA076002C, 122.0041, 75.73267, 23.68895, 0.02436667,
 /* @teleloc 0xA076002C [122.004100 75.732670 23.688950] 0.024367 0.000000 0.000000 -0.999703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A07600D, 0x7A07600E, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A07600D, 0x7A07600F, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7A07600D, 0x7A076010, '2019-02-10 00:00:00') /* Flared Pants */
-     , (0x7A07600D, 0x7A076011, '2019-02-10 00:00:00') /* Gem */
-     , (0x7A07600D, 0x7A076012, '2019-02-10 00:00:00') /* Empty Flask */;
+VALUES (0x7A07600D, 0x7A07600E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A07600D, 0x7A07600F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7A07600D, 0x7A076010, '2019-02-10 00:00:00') /* Flared Pants (2597) */
+     , (0x7A07600D, 0x7A076011, '2019-02-10 00:00:00') /* Gem (2398) */
+     , (0x7A07600D, 0x7A076012, '2019-02-10 00:00:00') /* Empty Flask (7940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A07600E,  8037, 0xA076002C, 122.0041, 75.73267, 23.68895, 0.02436667, 0, 0, -0.9997031,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

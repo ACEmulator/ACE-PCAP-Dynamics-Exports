@@ -5,17 +5,17 @@ VALUES (0x79CBC001,  1154, 0x9CBC0006, 3.68958, 131.5469, 43.01209, 0.9152788, 0
 /* @teleloc 0x9CBC0006 [3.689580 131.546900 43.012090] 0.915279 0.000000 0.000000 -0.402821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CBC001, 0x79CBC002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79CBC001, 0x79CBC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBC001, 0x79CBC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBC001, 0x79CBC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79CBC001, 0x79CBC006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79CBC001, 0x79CBC007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79CBC001, 0x79CBC008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79CBC001, 0x79CBC009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79CBC001, 0x79CBC00A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79CBC001, 0x79CBC00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79CBC001, 0x79CBC00C, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79CBC001, 0x79CBC002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79CBC001, 0x79CBC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBC001, 0x79CBC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBC001, 0x79CBC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79CBC001, 0x79CBC006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79CBC001, 0x79CBC007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79CBC001, 0x79CBC008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79CBC001, 0x79CBC009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79CBC001, 0x79CBC00A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79CBC001, 0x79CBC00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79CBC001, 0x79CBC00C, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CBC002, 11528, 0x9CBC0006, 3.68958, 131.5469, 43.01209, 0.9152788, 0, 0, -0.4028209,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -66,8 +66,8 @@ VALUES (0x79CBC00D,  1542, 0x9CBC000E, 30.08675, 125.8906, 36.97474, 0.7071068, 
 /* @teleloc 0x9CBC000E [30.086750 125.890600 36.974740] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CBC00D, 0x79CBC00E, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x79CBC00D, 0x79CBC00F, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x79CBC00D, 0x79CBC00E, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x79CBC00D, 0x79CBC00F, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CBC00E,  5779, 0x9CBC000E, 30.08675, 125.8906, 36.97474, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

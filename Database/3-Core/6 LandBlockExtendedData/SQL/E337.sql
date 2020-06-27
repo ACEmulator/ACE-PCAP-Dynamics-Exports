@@ -33,8 +33,8 @@ VALUES (0x7E337007,  1154, 0xE3370039, 183.6196, 8.752814, 117.1134, -0.8456522,
 /* @teleloc 0xE3370039 [183.619600 8.752814 117.113400] -0.845652 0.000000 0.000000 -0.533734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E337007, 0x7E337008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7E337007, 0x7E337009, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7E337007, 0x7E337008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E337007, 0x7E337009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E337008,  9400, 0xE3370039, 183.6196, 8.752814, 117.1134, -0.8456522, 0, 0, -0.5337343,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

@@ -5,19 +5,19 @@ VALUES (0x7CFDE001,  1154, 0xCFDE0006, 1.740583, 143.1308, 0.001199961, 0.103965
 /* @teleloc 0xCFDE0006 [1.740583 143.130800 0.001200] 0.103966 0.000000 0.000000 -0.994581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFDE001, 0x7CFDE002, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CFDE001, 0x7CFDE003, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CFDE001, 0x7CFDE004, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CFDE001, 0x7CFDE005, '2019-02-10 00:00:00') /* Remoran Sand Stalker */
-     , (0x7CFDE001, 0x7CFDE006, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFDE001, 0x7CFDE007, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CFDE001, 0x7CFDE008, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFDE001, 0x7CFDE009, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CFDE001, 0x7CFDE00A, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFDE001, 0x7CFDE00B, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFDE001, 0x7CFDE00C, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CFDE001, 0x7CFDE00D, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CFDE001, 0x7CFDE00E, '2019-02-10 00:00:00') /* Remoran Raker */;
+VALUES (0x7CFDE001, 0x7CFDE002, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CFDE001, 0x7CFDE003, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CFDE001, 0x7CFDE004, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CFDE001, 0x7CFDE005, '2019-02-10 00:00:00') /* Remoran Sand Stalker (31837) */
+     , (0x7CFDE001, 0x7CFDE006, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFDE001, 0x7CFDE007, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CFDE001, 0x7CFDE008, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFDE001, 0x7CFDE009, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CFDE001, 0x7CFDE00A, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFDE001, 0x7CFDE00B, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFDE001, 0x7CFDE00C, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CFDE001, 0x7CFDE00D, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CFDE001, 0x7CFDE00E, '2019-02-10 00:00:00') /* Remoran Raker (31908) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFDE002, 31910, 0xCFDE0006, 1.740583, 143.1308, 0.001199961, 0.1039659, 0, 0, -0.9945809,  True, '2019-02-10 00:00:00'); /* Shallows Shredder */

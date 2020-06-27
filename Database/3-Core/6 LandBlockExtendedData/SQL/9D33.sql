@@ -5,26 +5,26 @@ VALUES (0x79D33001,  1154, 0x9D33002C, 133.8694, 79.11433, 48.015, 0.7203264, 0,
 /* @teleloc 0x9D33002C [133.869400 79.114330 48.015000] 0.720326 0.000000 0.000000 -0.693635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D33001, 0x79D33002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79D33001, 0x79D33003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79D33001, 0x79D33004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79D33001, 0x79D33005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79D33001, 0x79D33006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D33001, 0x79D33007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79D33001, 0x79D33008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79D33001, 0x79D33009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79D33001, 0x79D3300A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79D33001, 0x79D3300B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79D33001, 0x79D3300C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79D33001, 0x79D3300D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79D33001, 0x79D3300E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79D33001, 0x79D3300F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79D33001, 0x79D33010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79D33001, 0x79D33011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79D33001, 0x79D33012, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79D33001, 0x79D33013, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D33001, 0x79D33014, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79D33001, 0x79D33015, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79D33001, 0x79D33002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79D33001, 0x79D33003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79D33001, 0x79D33004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79D33001, 0x79D33005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79D33001, 0x79D33006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D33001, 0x79D33007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79D33001, 0x79D33008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79D33001, 0x79D33009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79D33001, 0x79D3300A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79D33001, 0x79D3300B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79D33001, 0x79D3300C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79D33001, 0x79D3300D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79D33001, 0x79D3300E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79D33001, 0x79D3300F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79D33001, 0x79D33010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79D33001, 0x79D33011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79D33001, 0x79D33012, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79D33001, 0x79D33013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D33001, 0x79D33014, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79D33001, 0x79D33015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D33002,  7128, 0x9D33002C, 133.8694, 79.11433, 48.015, 0.7203264, 0, 0, -0.6936353,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -111,10 +111,10 @@ VALUES (0x79D33016,  1542, 0x9D330019, 74.14717, 11.59498, 53.03375, 0.3499717, 
 /* @teleloc 0x9D330019 [74.147170 11.594980 53.033750] 0.349972 0.000000 0.000000 -0.936760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D33016, 0x79D33017, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79D33016, 0x79D33018, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79D33016, 0x79D33019, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79D33016, 0x79D3301A, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79D33016, 0x79D33017, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79D33016, 0x79D33018, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79D33016, 0x79D33019, '2019-02-10 00:00:00') /* Snowman (9009) */
+     , (0x79D33016, 0x79D3301A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D33017,  8037, 0x9D330019, 74.14717, 11.59498, 53.03375, 0.3499717, 0, 0, -0.9367602,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

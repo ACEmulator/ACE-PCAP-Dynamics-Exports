@@ -5,12 +5,12 @@ VALUES (0x7BC8E001,  1154, 0xBC8E0021, 119.8829, 15.14032, 31.28145, 0.3693904, 
 /* @teleloc 0xBC8E0021 [119.882900 15.140320 31.281450] 0.369390 0.000000 0.000000 -0.929274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC8E001, 0x7BC8E002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BC8E001, 0x7BC8E003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7BC8E001, 0x7BC8E004, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7BC8E001, 0x7BC8E005, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7BC8E001, 0x7BC8E006, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7BC8E001, 0x7BC8E007, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7BC8E001, 0x7BC8E002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BC8E001, 0x7BC8E003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7BC8E001, 0x7BC8E004, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7BC8E001, 0x7BC8E005, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7BC8E001, 0x7BC8E006, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7BC8E001, 0x7BC8E007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC8E002, 11528, 0xBC8E0021, 119.8829, 15.14032, 31.28145, 0.3693904, 0, 0, -0.9292743,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

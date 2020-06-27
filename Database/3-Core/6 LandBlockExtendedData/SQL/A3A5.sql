@@ -5,14 +5,14 @@ VALUES (0x7A3A5001,  1154, 0xA3A50007, 8.899916, 158.0918, 116.6057, -0.2917306,
 /* @teleloc 0xA3A50007 [8.899916 158.091800 116.605700] -0.291731 0.000000 0.000000 -0.956501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A5001, 0x7A3A5002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3A5001, 0x7A3A5003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A3A5001, 0x7A3A5004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3A5001, 0x7A3A5005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A3A5001, 0x7A3A5006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A3A5001, 0x7A3A5007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A3A5001, 0x7A3A5008, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7A3A5001, 0x7A3A5009, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7A3A5001, 0x7A3A5002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3A5001, 0x7A3A5003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A3A5001, 0x7A3A5004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3A5001, 0x7A3A5005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A3A5001, 0x7A3A5006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A3A5001, 0x7A3A5007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A3A5001, 0x7A3A5008, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7A3A5001, 0x7A3A5009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A5002,  1758, 0xA3A50007, 8.899916, 158.0918, 116.6057, -0.2917306, 0, 0, -0.9565005,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -51,9 +51,9 @@ VALUES (0x7A3A500A,  1542, 0xA3A50008, 9.616494, 171.4576, 115.3077, 0.003610679
 /* @teleloc 0xA3A50008 [9.616494 171.457600 115.307700] 0.003611 0.000000 0.000000 -0.999994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3A500A, 0x7A3A500B, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7A3A500A, 0x7A3A500C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7A3A500A, 0x7A3A500D, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7A3A500A, 0x7A3A500B, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x7A3A500A, 0x7A3A500C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7A3A500A, 0x7A3A500D, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3A500B, 34104, 0xA3A50008, 9.616494, 171.4576, 115.3077, 0.003610679, 0, 0, -0.9999935,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

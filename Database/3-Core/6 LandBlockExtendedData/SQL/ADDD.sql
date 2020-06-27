@@ -5,17 +5,17 @@ VALUES (0x7ADDD001,  1154, 0xADDD003F, 185.2732, 152.0808, 26.57057, 0.9238795, 
 /* @teleloc 0xADDD003F [185.273200 152.080800 26.570570] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDD001, 0x7ADDD002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7ADDD001, 0x7ADDD003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7ADDD001, 0x7ADDD004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7ADDD001, 0x7ADDD005, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7ADDD001, 0x7ADDD006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ADDD001, 0x7ADDD007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ADDD001, 0x7ADDD008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ADDD001, 0x7ADDD009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7ADDD001, 0x7ADDD00A, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7ADDD001, 0x7ADDD00B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ADDD001, 0x7ADDD00C, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7ADDD001, 0x7ADDD002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7ADDD001, 0x7ADDD003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7ADDD001, 0x7ADDD004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7ADDD001, 0x7ADDD005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7ADDD001, 0x7ADDD006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ADDD001, 0x7ADDD007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ADDD001, 0x7ADDD008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ADDD001, 0x7ADDD009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7ADDD001, 0x7ADDD00A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7ADDD001, 0x7ADDD00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ADDD001, 0x7ADDD00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDD002, 24494, 0xADDD003F, 185.2732, 152.0808, 26.57057, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -66,8 +66,8 @@ VALUES (0x7ADDD00D,  1542, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0,
 /* @teleloc 0xADDD003B [182.455000 54.283880 17.842730] -0.722180 0.000000 0.000000 -0.691705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDD00D, 0x7ADDD00E, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7ADDD00D, 0x7ADDD00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7ADDD00D, 0x7ADDD00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7ADDD00D, 0x7ADDD00F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDD00E,  8041, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0, 0, -0.6917052,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

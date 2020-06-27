@@ -5,12 +5,12 @@ VALUES (0x718C4001,  1154, 0x18C40040, 168.2743, 174.8842, 19.988, 0.1590473, 0,
 /* @teleloc 0x18C40040 [168.274300 174.884200 19.988000] 0.159047 0.000000 0.000000 -0.987271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718C4001, 0x718C4002, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x718C4001, 0x718C4003, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x718C4001, 0x718C4004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x718C4001, 0x718C4005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x718C4001, 0x718C4006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x718C4001, 0x718C4007, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x718C4001, 0x718C4002, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x718C4001, 0x718C4003, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x718C4001, 0x718C4004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x718C4001, 0x718C4005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x718C4001, 0x718C4006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x718C4001, 0x718C4007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718C4002, 27712, 0x18C40040, 168.2743, 174.8842, 19.988, 0.1590473, 0, 0, -0.987271,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */
@@ -41,7 +41,7 @@ VALUES (0x718C4008,  1542, 0x18C40040, 175.7739, 186.7134, 20, 0.1590473, 0, 0, 
 /* @teleloc 0x18C40040 [175.773900 186.713400 20.000000] 0.159047 0.000000 0.000000 -0.987271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718C4008, 0x718C4009, '2019-02-10 00:00:00') /* Atuakeh Plant */;
+VALUES (0x718C4008, 0x718C4009, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718C4009, 36066, 0x18C40040, 175.7739, 186.7134, 20, 0.1590473, 0, 0, -0.987271,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

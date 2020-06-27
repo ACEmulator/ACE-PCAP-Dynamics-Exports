@@ -5,19 +5,19 @@ VALUES (0x72B0E001,  1154, 0x2B0E003F, 184.3295, 150.2074, 9.485018, 0.06732561,
 /* @teleloc 0x2B0E003F [184.329500 150.207400 9.485018] 0.067326 0.000000 0.000000 -0.997731 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0E001, 0x72B0E002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72B0E001, 0x72B0E003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0E001, 0x72B0E004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72B0E001, 0x72B0E005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0E001, 0x72B0E006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B0E001, 0x72B0E007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B0E001, 0x72B0E008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72B0E001, 0x72B0E009, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72B0E001, 0x72B0E00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B0E001, 0x72B0E00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B0E001, 0x72B0E00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72B0E001, 0x72B0E00D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72B0E001, 0x72B0E00E, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x72B0E001, 0x72B0E002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72B0E001, 0x72B0E003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0E001, 0x72B0E004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72B0E001, 0x72B0E005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0E001, 0x72B0E006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B0E001, 0x72B0E007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B0E001, 0x72B0E008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72B0E001, 0x72B0E009, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72B0E001, 0x72B0E00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B0E001, 0x72B0E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B0E001, 0x72B0E00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72B0E001, 0x72B0E00D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72B0E001, 0x72B0E00E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0E002, 24134, 0x2B0E003F, 184.3295, 150.2074, 9.485018, 0.06732561, 0, 0, -0.997731,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -76,8 +76,8 @@ VALUES (0x72B0E00F,  1542, 0x2B0E0032, 150.823, 27.33169, 12.84, 1, 0, 0, 0, Fal
 /* @teleloc 0x2B0E0032 [150.823000 27.331690 12.840000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0E00F, 0x72B0E010, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72B0E00F, 0x72B0E011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72B0E00F, 0x72B0E010, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72B0E00F, 0x72B0E011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0E010,  8999, 0x2B0E0032, 150.823, 27.33169, 12.84, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

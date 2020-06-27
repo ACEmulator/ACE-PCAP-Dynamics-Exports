@@ -5,16 +5,16 @@ VALUES (0x7A941001,  1154, 0xA9410025, 114.9152, 98.68167, 21.77503, 0.9896402, 
 /* @teleloc 0xA9410025 [114.915200 98.681670 21.775030] 0.989640 0.000000 0.000000 -0.143570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A941001, 0x7A941002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A941001, 0x7A941003, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7A941001, 0x7A941004, '2019-02-10 00:00:00') /* Static */
-     , (0x7A941001, 0x7A941005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A941001, 0x7A941006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A941001, 0x7A941007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A941001, 0x7A941008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A941001, 0x7A941009, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A941001, 0x7A94100A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A941001, 0x7A94100B, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7A941001, 0x7A941002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A941001, 0x7A941003, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7A941001, 0x7A941004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7A941001, 0x7A941005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A941001, 0x7A941006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A941001, 0x7A941007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A941001, 0x7A941008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A941001, 0x7A941009, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A941001, 0x7A94100A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A941001, 0x7A94100B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A941002,  7978, 0xA9410025, 114.9152, 98.68167, 21.77503, 0.9896402, 0, 0, -0.1435698,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

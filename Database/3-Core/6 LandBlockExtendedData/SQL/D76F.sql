@@ -5,10 +5,10 @@ VALUES (0x7D76F001,  1154, 0xD76F0031, 162.8306, 20.7737, 36.43628, -0.4577523, 
 /* @teleloc 0xD76F0031 [162.830600 20.773700 36.436280] -0.457752 0.000000 0.000000 -0.889080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D76F001, 0x7D76F002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D76F001, 0x7D76F003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D76F001, 0x7D76F004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D76F001, 0x7D76F005, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7D76F001, 0x7D76F002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D76F001, 0x7D76F003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D76F001, 0x7D76F004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D76F001, 0x7D76F005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D76F002,   231, 0xD76F0031, 162.8306, 20.7737, 36.43628, -0.4577523, 0, 0, -0.8890797,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -31,7 +31,7 @@ VALUES (0x7D76F006,  1542, 0xD76F003A, 191.26, 46.60015, 38, 0.9990482, 0, 0, -0
 /* @teleloc 0xD76F003A [191.260000 46.600150 38.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D76F006, 0x7D76F007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D76F006, 0x7D76F007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D76F007,  4179, 0xD76F003A, 191.26, 46.60015, 38, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

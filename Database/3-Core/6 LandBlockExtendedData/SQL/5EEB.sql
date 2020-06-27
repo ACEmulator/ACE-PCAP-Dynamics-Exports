@@ -5,17 +5,17 @@ VALUES (0x75EEB001,  1154, 0x5EEB0022, 109.733, 41.42717, -0.8935001, 0.2482937,
 /* @teleloc 0x5EEB0022 [109.733000 41.427170 -0.893500] 0.248294 0.000000 0.000000 -0.968685 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EEB001, 0x75EEB002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75EEB001, 0x75EEB003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x75EEB001, 0x75EEB004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75EEB001, 0x75EEB005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75EEB001, 0x75EEB006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75EEB001, 0x75EEB007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75EEB001, 0x75EEB008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75EEB001, 0x75EEB009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75EEB001, 0x75EEB00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75EEB001, 0x75EEB00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75EEB001, 0x75EEB00C, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x75EEB001, 0x75EEB002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75EEB001, 0x75EEB003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x75EEB001, 0x75EEB004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x75EEB001, 0x75EEB005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x75EEB001, 0x75EEB006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x75EEB001, 0x75EEB007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x75EEB001, 0x75EEB008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75EEB001, 0x75EEB009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75EEB001, 0x75EEB00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75EEB001, 0x75EEB00B, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75EEB001, 0x75EEB00C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EEB002, 21549, 0x5EEB0022, 109.733, 41.42717, -0.8935001, 0.2482937, 0, 0, -0.9686848,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

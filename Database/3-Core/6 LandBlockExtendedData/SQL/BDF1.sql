@@ -21,38 +21,38 @@ VALUES (0x7BDF109C,  1154, 0xBDF10100, 106.486, 104.5, 42.0625, 0.824334, 0, 0, 
 /* @teleloc 0xBDF10100 [106.486000 104.500000 42.062500] 0.824334 0.000000 0.000000 0.566103 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDF109C, 0x7BDF109D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BDF109C, 0x7BDF109E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BDF109C, 0x7BDF109F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BDF109C, 0x7BDF10A0, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x7BDF109C, 0x7BDF10A1, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10A2, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10A3, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BDF109C, 0x7BDF10A4, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BDF109C, 0x7BDF10A5, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10A6, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7BDF109C, 0x7BDF10A7, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7BDF109C, 0x7BDF10A8, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7BDF109C, 0x7BDF10A9, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BDF109C, 0x7BDF10AA, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x7BDF109C, 0x7BDF10AB, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7BDF109C, 0x7BDF10AC, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10AD, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7BDF109C, 0x7BDF10AE, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10AF, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x7BDF109C, 0x7BDF10B0, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BDF109C, 0x7BDF10B1, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10B2, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7BDF109C, 0x7BDF10B3, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7BDF109C, 0x7BDF10B4, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7BDF109C, 0x7BDF10B5, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7BDF109C, 0x7BDF10B6, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7BDF109C, 0x7BDF10B7, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7BDF109C, 0x7BDF10B8, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7BDF109C, 0x7BDF10B9, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x7BDF109C, 0x7BDF10BA, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7BDF109C, 0x7BDF10BB, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x7BDF109C, 0x7BDF10BC, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x7BDF109C, 0x7BDF109D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BDF109C, 0x7BDF109E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BDF109C, 0x7BDF109F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BDF109C, 0x7BDF10A0, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF109C, 0x7BDF10A1, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF109C, 0x7BDF10A2, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x7BDF109C, 0x7BDF10A3, '2019-02-10 00:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF109C, 0x7BDF10A4, '2019-02-10 00:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF109C, 0x7BDF10A5, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x7BDF109C, 0x7BDF10A6, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7BDF109C, 0x7BDF10A7, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7BDF109C, 0x7BDF10A8, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7BDF109C, 0x7BDF10A9, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7BDF109C, 0x7BDF10AA, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF109C, 0x7BDF10AB, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x7BDF109C, 0x7BDF10AC, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */
+     , (0x7BDF109C, 0x7BDF10AD, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7BDF109C, 0x7BDF10AE, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x7BDF109C, 0x7BDF10AF, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF109C, 0x7BDF10B0, '2019-02-10 00:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF109C, 0x7BDF10B1, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF109C, 0x7BDF10B2, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x7BDF109C, 0x7BDF10B3, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x7BDF109C, 0x7BDF10B4, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7BDF109C, 0x7BDF10B5, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7BDF109C, 0x7BDF10B6, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7BDF109C, 0x7BDF10B7, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7BDF109C, 0x7BDF10B8, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7BDF109C, 0x7BDF10B9, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x7BDF109C, 0x7BDF10BA, '2019-02-10 00:00:00') /* Diamond Golem (7421) */
+     , (0x7BDF109C, 0x7BDF10BB, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x7BDF109C, 0x7BDF10BC, '2019-02-10 00:00:00') /* Ancient Coral Golem (28049) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDF109D,  7179, 0xBDF10100, 106.486, 104.5, 42.0625, 0.824334, 0, 0, 0.566103,  True, '2019-02-10 00:00:00'); /* Relic Bones */

@@ -5,11 +5,11 @@ VALUES (0x7974F001,  1154, 0x974F0021, 115.5913, 23.46245, 16.0075, 0.9117854, 0
 /* @teleloc 0x974F0021 [115.591300 23.462450 16.007500] 0.911785 0.000000 0.000000 -0.410667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7974F001, 0x7974F002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7974F001, 0x7974F003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7974F001, 0x7974F004, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7974F001, 0x7974F005, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7974F001, 0x7974F006, '2019-02-10 00:00:00') /* Broken Doll */;
+VALUES (0x7974F001, 0x7974F002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7974F001, 0x7974F003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7974F001, 0x7974F004, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7974F001, 0x7974F005, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7974F001, 0x7974F006, '2019-02-10 00:00:00') /* Broken Doll (10773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7974F002, 10799, 0x974F0021, 115.5913, 23.46245, 16.0075, 0.9117854, 0, 0, -0.4106671,  True, '2019-02-10 00:00:00'); /* Narrow Rift */

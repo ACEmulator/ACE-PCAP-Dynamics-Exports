@@ -509,15 +509,15 @@ VALUES (0x7B15D07F,  1154, 0xB15D0004, 2.303223, 76.80302, 29.59825, 0.3665089, 
 /* @teleloc 0xB15D0004 [2.303223 76.803020 29.598250] 0.366509 0.000000 0.000000 -0.930415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B15D07F, 0x7B15D080, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B15D07F, 0x7B15D081, '2019-02-10 00:00:00') /* Charge */
-     , (0x7B15D07F, 0x7B15D082, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B15D07F, 0x7B15D083, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B15D07F, 0x7B15D084, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B15D07F, 0x7B15D085, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B15D07F, 0x7B15D086, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B15D07F, 0x7B15D087, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B15D07F, 0x7B15D088, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7B15D07F, 0x7B15D080, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B15D07F, 0x7B15D081, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7B15D07F, 0x7B15D082, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B15D07F, 0x7B15D083, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B15D07F, 0x7B15D084, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B15D07F, 0x7B15D085, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B15D07F, 0x7B15D086, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B15D07F, 0x7B15D087, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B15D07F, 0x7B15D088, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15D080,  7978, 0xB15D0004, 2.303223, 76.80302, 29.59825, 0.3665089, 0, 0, -0.9304146,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -560,23 +560,23 @@ VALUES (0x7B15D089,  1542, 0xB15D0024, 99.71482, 82.16821, 35.999, -0.8433377, 0
 /* @teleloc 0xB15D0024 [99.714820 82.168210 35.999000] -0.843338 0.000000 0.000000 -0.537384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B15D089, 0x7B15D08A, '2019-02-10 00:00:00') /* Glyph of War Magic */
-     , (0x7B15D089, 0x7B15D08B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7B15D089, 0x7B15D08C, '2019-02-10 00:00:00') /* Black Spear of Mukkir Strength */
-     , (0x7B15D089, 0x7B15D08D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7B15D089, 0x7B15D08E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7B15D089, 0x7B15D08F, '2019-02-10 00:00:00') /* Glyph of Weapon Tinkering */
-     , (0x7B15D089, 0x7B15D090, '2019-02-10 00:00:00') /* Ink of Objectification */
-     , (0x7B15D089, 0x7B15D091, '2019-02-10 00:00:00') /* Quill of Infliction */
-     , (0x7B15D089, 0x7B15D092, '2019-02-10 00:00:00') /* Ink of Formation */
-     , (0x7B15D089, 0x7B15D093, '2019-02-10 00:00:00') /* Glyph of Loyalty */
-     , (0x7B15D089, 0x7B15D094, '2019-02-10 00:00:00') /* Dark Monolith */
-     , (0x7B15D089, 0x7B15D095, '2019-02-10 00:00:00') /* Duke Raoul's Distillation */
-     , (0x7B15D089, 0x7B15D096, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7B15D089, 0x7B15D097, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7B15D089, 0x7B15D098, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7B15D089, 0x7B15D099, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7B15D089, 0x7B15D09A, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7B15D089, 0x7B15D08A, '2019-02-10 00:00:00') /* Glyph of War Magic (37340) */
+     , (0x7B15D089, 0x7B15D08B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D08C, '2019-02-10 00:00:00') /* Black Spear of Mukkir Strength (33718) */
+     , (0x7B15D089, 0x7B15D08D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D08E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D08F, '2019-02-10 00:00:00') /* Glyph of Weapon Tinkering (37341) */
+     , (0x7B15D089, 0x7B15D090, '2019-02-10 00:00:00') /* Ink of Objectification (37355) */
+     , (0x7B15D089, 0x7B15D091, '2019-02-10 00:00:00') /* Quill of Infliction (37363) */
+     , (0x7B15D089, 0x7B15D092, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
+     , (0x7B15D089, 0x7B15D093, '2019-02-10 00:00:00') /* Glyph of Loyalty (37316) */
+     , (0x7B15D089, 0x7B15D094, '2019-02-10 00:00:00') /* Dark Monolith (27437) */
+     , (0x7B15D089, 0x7B15D095, '2019-02-10 00:00:00') /* Duke Raoul's Distillation (32271) */
+     , (0x7B15D089, 0x7B15D096, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7B15D089, 0x7B15D097, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7B15D089, 0x7B15D098, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7B15D089, 0x7B15D099, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7B15D089, 0x7B15D09A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15D08A, 37340, 0xB15D0024, 99.71482, 82.16821, 35.999, -0.8433377, 0, 0, -0.537384,  True, '2019-02-10 00:00:00'); /* Glyph of War Magic */

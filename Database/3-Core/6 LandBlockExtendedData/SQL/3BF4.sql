@@ -5,10 +5,10 @@ VALUES (0x73BF4001,  1154, 0x3BF4000E, 32.94903, 129.4742, 36.55476, 0.201775, 0
 /* @teleloc 0x3BF4000E [32.949030 129.474200 36.554760] 0.201775 0.000000 0.000000 -0.979432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BF4001, 0x73BF4002, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73BF4001, 0x73BF4003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73BF4001, 0x73BF4004, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73BF4001, 0x73BF4005, '2019-02-10 00:00:00') /* Small Coral Golem */;
+VALUES (0x73BF4001, 0x73BF4002, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73BF4001, 0x73BF4003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73BF4001, 0x73BF4004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73BF4001, 0x73BF4005, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BF4002, 24478, 0x3BF4000E, 32.94903, 129.4742, 36.55476, 0.201775, 0, 0, -0.9794319,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */

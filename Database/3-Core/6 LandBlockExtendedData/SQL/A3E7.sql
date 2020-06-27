@@ -1737,10 +1737,10 @@ VALUES (0x7A3E71B2,  1542, 0xA3E70035, 147.426, 116.0878, 55.937, -0.9752592, 0,
 /* @teleloc 0xA3E70035 [147.426000 116.087800 55.937000] -0.975259 0.000000 0.000000 -0.221064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3E71B2, 0x7A3E71B3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A3E71B2, 0x7A3E71B4, '2019-02-10 00:00:00') /* Small Belt Pouch */
-     , (0x7A3E71B2, 0x7A3E71B5, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A3E71B2, 0x7A3E71B6, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7A3E71B2, 0x7A3E71B3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A3E71B2, 0x7A3E71B4, '2019-02-10 00:00:00') /* Small Belt Pouch (139) */
+     , (0x7A3E71B2, 0x7A3E71B5, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A3E71B2, 0x7A3E71B6, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3E71B3,  1955, 0xA3E70035, 147.426, 116.0878, 55.937, -0.9752592, 0, 0, -0.2210644,  True, '2019-02-10 00:00:00'); /* Gateway */

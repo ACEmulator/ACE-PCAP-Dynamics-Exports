@@ -5,38 +5,38 @@ VALUES (0x78951001,  1154, 0x89510005, 21.46791, 117.1225, -0.09399994, 0.728502
 /* @teleloc 0x89510005 [21.467910 117.122500 -0.094000] 0.728502 0.000000 0.000000 -0.685043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78951001, 0x78951002, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x78951003, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78951001, 0x78951004, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x78951005, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x78951006, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x78951007, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x78951008, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x78951009, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x7895100A, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x7895100B, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x7895100C, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x7895100D, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x7895100E, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78951001, 0x7895100F, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x78951010, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78951001, 0x78951011, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78951001, 0x78951012, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x78951013, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x78951014, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x78951015, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78951001, 0x78951016, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x78951017, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x78951018, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x78951019, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x7895101A, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x7895101B, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78951001, 0x7895101C, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78951001, 0x7895101D, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78951001, 0x7895101E, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78951001, 0x7895101F, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78951001, 0x78951020, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78951001, 0x78951021, '2019-02-10 00:00:00') /* Copper Cog Trooper */;
+VALUES (0x78951001, 0x78951002, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x78951003, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78951001, 0x78951004, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x78951005, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x78951006, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x78951007, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x78951008, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x78951009, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x7895100A, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x7895100B, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x7895100C, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x7895100D, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x7895100E, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78951001, 0x7895100F, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x78951010, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78951001, 0x78951011, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78951001, 0x78951012, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x78951013, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x78951014, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x78951015, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78951001, 0x78951016, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x78951017, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x78951018, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x78951019, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x7895101A, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x7895101B, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78951001, 0x7895101C, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78951001, 0x7895101D, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78951001, 0x7895101E, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78951001, 0x7895101F, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78951001, 0x78951020, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78951001, 0x78951021, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78951002, 41573, 0x89510005, 21.46791, 117.1225, -0.09399994, 0.7285023, 0, 0, -0.6850433,  True, '2019-02-10 00:00:00'); /* Copper Cog Trooper */
@@ -171,8 +171,8 @@ VALUES (0x78951022,  1542, 0x8951000B, 37.7674, 54.05147, 0.058, 0.7161058, 0, 0
 /* @teleloc 0x8951000B [37.767400 54.051470 0.058000] 0.716106 0.000000 0.000000 -0.697992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78951022, 0x78951023, '2019-02-10 00:00:00') /* Depleted Aetherium Ore */
-     , (0x78951022, 0x78951024, '2019-02-10 00:00:00') /* Depleted Aetherium Ore */;
+VALUES (0x78951022, 0x78951023, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */
+     , (0x78951022, 0x78951024, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78951023, 41566, 0x8951000B, 37.7674, 54.05147, 0.058, 0.7161058, 0, 0, -0.6979918,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */

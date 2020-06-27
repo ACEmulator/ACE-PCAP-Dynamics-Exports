@@ -13,8 +13,8 @@ VALUES (0x7B970002,  1154, 0xB9700019, 92.03493, 7.697362, 12.65245, -0.8653724,
 /* @teleloc 0xB9700019 [92.034930 7.697362 12.652450] -0.865372 0.000000 0.000000 -0.501129 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B970002, 0x7B970003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B970002, 0x7B970004, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7B970002, 0x7B970003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B970002, 0x7B970004, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B970003,   200, 0xB9700019, 92.03493, 7.697362, 12.65245, -0.8653724, 0, 0, -0.5011294,  True, '2019-02-10 00:00:00'); /* Mud Golem */
@@ -29,16 +29,16 @@ VALUES (0x7B970005,  1154, 0xB9700023, 112.9422, 63.58959, 16.005, -4.37114E-08,
 /* @teleloc 0xB9700023 [112.942200 63.589590 16.005000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B970005, 0x7B970006, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B970007, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B970008, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B970009, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7B970005, 0x7B97000F, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7B970005, 0x7B970006, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B970007, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B970008, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B970009, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000A, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000C, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000D, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000E, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7B970005, 0x7B97000F, '2019-02-10 00:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B970006,  5777, 0xB9700023, 112.9422, 63.58959, 16.005, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Town Crier */

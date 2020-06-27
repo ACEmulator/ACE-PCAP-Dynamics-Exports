@@ -5,11 +5,11 @@ VALUES (0x7BF8E001,  1154, 0xBF8E0035, 167.4543, 96.99535, 22.04897, 0.1446033, 
 /* @teleloc 0xBF8E0035 [167.454300 96.995350 22.048970] 0.144603 0.000000 0.000000 -0.989490 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF8E001, 0x7BF8E002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF8E001, 0x7BF8E003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF8E001, 0x7BF8E004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF8E001, 0x7BF8E005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF8E001, 0x7BF8E006, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7BF8E001, 0x7BF8E002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF8E001, 0x7BF8E003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF8E001, 0x7BF8E004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF8E001, 0x7BF8E005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF8E001, 0x7BF8E006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF8E002,   192, 0xBF8E0035, 167.4543, 96.99535, 22.04897, 0.1446033, 0, 0, -0.9894897,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

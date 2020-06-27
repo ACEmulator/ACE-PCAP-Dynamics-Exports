@@ -5,14 +5,14 @@ VALUES (0x7C7DA001,  1154, 0xC7DA0009, 27.34243, 12.60727, 71.33739, -0.281615, 
 /* @teleloc 0xC7DA0009 [27.342430 12.607270 71.337390] -0.281615 0.000000 0.000000 -0.959528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7DA001, 0x7C7DA002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C7DA001, 0x7C7DA003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C7DA001, 0x7C7DA004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C7DA001, 0x7C7DA005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C7DA001, 0x7C7DA006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7C7DA001, 0x7C7DA007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C7DA001, 0x7C7DA008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7C7DA001, 0x7C7DA009, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7C7DA001, 0x7C7DA002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C7DA001, 0x7C7DA003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C7DA001, 0x7C7DA004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C7DA001, 0x7C7DA005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C7DA001, 0x7C7DA006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7C7DA001, 0x7C7DA007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7C7DA001, 0x7C7DA008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7C7DA001, 0x7C7DA009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7DA002,  4217, 0xC7DA0009, 27.34243, 12.60727, 71.33739, -0.281615, 0, 0, -0.9595275,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

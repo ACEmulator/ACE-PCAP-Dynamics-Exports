@@ -5,13 +5,13 @@ VALUES (0x7C49C001,  1154, 0xC49C003A, 191.8864, 45.44776, 1.91, 0.9238795, 0, 0
 /* @teleloc 0xC49C003A [191.886400 45.447760 1.910000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C49C001, 0x7C49C002, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C49C001, 0x7C49C003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C49C001, 0x7C49C004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C49C001, 0x7C49C005, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7C49C001, 0x7C49C006, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C49C001, 0x7C49C007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C49C001, 0x7C49C008, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7C49C001, 0x7C49C002, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C49C001, 0x7C49C003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C49C001, 0x7C49C004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C49C001, 0x7C49C005, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7C49C001, 0x7C49C006, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C49C001, 0x7C49C007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C49C001, 0x7C49C008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C49C002,   941, 0xC49C003A, 191.8864, 45.44776, 1.91, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Water Golem */

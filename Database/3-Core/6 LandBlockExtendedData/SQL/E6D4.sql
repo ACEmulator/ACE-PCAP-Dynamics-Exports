@@ -5,28 +5,28 @@ VALUES (0x7E6D4001,  1154, 0xE6D40034, 150.7181, 79.29763, 171.8305, 1, 0, 0, 0,
 /* @teleloc 0xE6D40034 [150.718100 79.297630 171.830500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E6D4001, 0x7E6D4002, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D4001, 0x7E6D4003, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E6D4001, 0x7E6D4004, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E6D4001, 0x7E6D4005, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E6D4001, 0x7E6D4006, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E6D4001, 0x7E6D4007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E6D4001, 0x7E6D4008, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E6D4001, 0x7E6D4009, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D4001, 0x7E6D400A, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E6D4001, 0x7E6D400B, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E6D4001, 0x7E6D400C, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E6D4001, 0x7E6D400D, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E6D4001, 0x7E6D400E, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E6D4001, 0x7E6D400F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D4001, 0x7E6D4010, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E6D4001, 0x7E6D4011, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E6D4001, 0x7E6D4012, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E6D4001, 0x7E6D4013, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D4001, 0x7E6D4014, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E6D4001, 0x7E6D4015, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E6D4001, 0x7E6D4016, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E6D4001, 0x7E6D4017, '2019-02-10 00:00:00') /* Aggressive Swarm */;
+VALUES (0x7E6D4001, 0x7E6D4002, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D4001, 0x7E6D4003, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E6D4001, 0x7E6D4004, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E6D4001, 0x7E6D4005, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E6D4001, 0x7E6D4006, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E6D4001, 0x7E6D4007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E6D4001, 0x7E6D4008, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E6D4001, 0x7E6D4009, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D4001, 0x7E6D400A, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E6D4001, 0x7E6D400B, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E6D4001, 0x7E6D400C, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E6D4001, 0x7E6D400D, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E6D4001, 0x7E6D400E, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E6D4001, 0x7E6D400F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D4001, 0x7E6D4010, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E6D4001, 0x7E6D4011, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E6D4001, 0x7E6D4012, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E6D4001, 0x7E6D4013, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D4001, 0x7E6D4014, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E6D4001, 0x7E6D4015, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E6D4001, 0x7E6D4016, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E6D4001, 0x7E6D4017, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E6D4002, 43700, 0xE6D40034, 150.7181, 79.29763, 171.8305, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator Grub */

@@ -5,10 +5,10 @@ VALUES (0x79BB3001,  1154, 0x9BB30003, 4.997868, 57.24636, 167.222, 0.8870109, 0
 /* @teleloc 0x9BB30003 [4.997868 57.246360 167.222000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BB3001, 0x79BB3002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79BB3001, 0x79BB3003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79BB3001, 0x79BB3004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79BB3001, 0x79BB3005, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x79BB3001, 0x79BB3002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79BB3001, 0x79BB3003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79BB3001, 0x79BB3004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79BB3001, 0x79BB3005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BB3002,  2576, 0x9BB30003, 4.997868, 57.24636, 167.222, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

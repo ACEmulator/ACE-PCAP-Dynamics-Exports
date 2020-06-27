@@ -5,12 +5,12 @@ VALUES (0x73738001,  1154, 0x37380011, 57.20448, 16.36788, 121.6551, -0.6596325,
 /* @teleloc 0x37380011 [57.204480 16.367880 121.655100] -0.659633 0.000000 0.000000 -0.751588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73738001, 0x73738002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x73738001, 0x73738003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73738001, 0x73738004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x73738001, 0x73738005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73738001, 0x73738006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73738001, 0x73738007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73738001, 0x73738002, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x73738001, 0x73738003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73738001, 0x73738004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x73738001, 0x73738005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73738001, 0x73738006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73738001, 0x73738007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73738002, 36865, 0x37380011, 57.20448, 16.36788, 121.6551, -0.6596325, 0, 0, -0.7515883,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */

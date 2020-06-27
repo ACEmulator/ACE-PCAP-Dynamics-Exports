@@ -5,16 +5,16 @@ VALUES (0x7BB31001,  1154, 0xBB310021, 109.8443, 11.51651, 155.2448, -0.641477, 
 /* @teleloc 0xBB310021 [109.844300 11.516510 155.244800] -0.641477 0.000000 0.000000 -0.767142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB31001, 0x7BB31002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BB31001, 0x7BB31003, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BB31001, 0x7BB31004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BB31001, 0x7BB31005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BB31001, 0x7BB31006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BB31001, 0x7BB31007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BB31001, 0x7BB31008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BB31001, 0x7BB31009, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7BB31001, 0x7BB3100A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BB31001, 0x7BB3100B, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7BB31001, 0x7BB31002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BB31001, 0x7BB31003, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BB31001, 0x7BB31004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BB31001, 0x7BB31005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BB31001, 0x7BB31006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BB31001, 0x7BB31007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BB31001, 0x7BB31008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BB31001, 0x7BB31009, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7BB31001, 0x7BB3100A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BB31001, 0x7BB3100B, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB31002,  7084, 0xBB310021, 109.8443, 11.51651, 155.2448, -0.641477, 0, 0, -0.7671423,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -61,7 +61,7 @@ VALUES (0x7BB3100C,  1542, 0xBB31003B, 184.7302, 53.91339, 158.9265, 1, 0, 0, 0,
 /* @teleloc 0xBB31003B [184.730200 53.913390 158.926500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB3100C, 0x7BB3100D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BB3100C, 0x7BB3100D, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB3100D,  4379, 0xBB31003B, 184.7302, 53.91339, 158.9265, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -9,27 +9,27 @@ VALUES (0x71DB1004,  1154, 0x1DB10100, 131.845, 184.111, -5.194, -0.213774, 0, 0
 /* @teleloc 0x1DB10100 [131.845000 184.111000 -5.194000] -0.213774 0.000000 0.000000 -0.976883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB1004, 0x71DB1005, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71DB1004, 0x71DB1006, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71DB1004, 0x71DB1007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x71DB1004, 0x71DB1008, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x71DB1004, 0x71DB1009, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71DB1004, 0x71DB100A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71DB1004, 0x71DB100B, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71DB1004, 0x71DB100C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71DB1004, 0x71DB100D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71DB1004, 0x71DB100E, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x71DB1004, 0x71DB100F, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71DB1004, 0x71DB1010, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71DB1004, 0x71DB1011, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71DB1004, 0x71DB1012, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x71DB1004, 0x71DB1013, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71DB1004, 0x71DB1014, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71DB1004, 0x71DB1015, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71DB1004, 0x71DB1016, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71DB1004, 0x71DB1017, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71DB1004, 0x71DB1018, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71DB1004, 0x71DB1019, '2019-02-10 00:00:00') /* Strand Siraluun */;
+VALUES (0x71DB1004, 0x71DB1005, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB1004, 0x71DB1006, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71DB1004, 0x71DB1007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x71DB1004, 0x71DB1008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x71DB1004, 0x71DB1009, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71DB1004, 0x71DB100A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB1004, 0x71DB100B, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB1004, 0x71DB100C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB1004, 0x71DB100D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71DB1004, 0x71DB100E, '2019-02-10 00:00:00') /* Exploration Marker (39769) */
+     , (0x71DB1004, 0x71DB100F, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71DB1004, 0x71DB1010, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71DB1004, 0x71DB1011, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71DB1004, 0x71DB1012, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x71DB1004, 0x71DB1013, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71DB1004, 0x71DB1014, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71DB1004, 0x71DB1015, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71DB1004, 0x71DB1016, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71DB1004, 0x71DB1017, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71DB1004, 0x71DB1018, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71DB1004, 0x71DB1019, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB1005, 11519, 0x1DB10100, 131.845, 184.111, -5.194, -0.213774, 0, 0, -0.9768831,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
@@ -120,8 +120,8 @@ VALUES (0x71DB101A,  1542, 0x1DB1002C, 124.4598, 94.52137, 1, 1, 0, 0, 0, False,
 /* @teleloc 0x1DB1002C [124.459800 94.521370 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DB101A, 0x71DB101B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DB101A, 0x71DB101C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71DB101A, 0x71DB101B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DB101A, 0x71DB101C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DB101B,  9024, 0x1DB1002C, 124.4598, 94.52137, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

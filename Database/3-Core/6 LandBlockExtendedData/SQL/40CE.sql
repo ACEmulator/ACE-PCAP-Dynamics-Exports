@@ -5,10 +5,10 @@ VALUES (0x740CE001,  1154, 0x40CE0013, 49.81514, 57.84923, 6.029, 0.9114448, 0, 
 /* @teleloc 0x40CE0013 [49.815140 57.849230 6.029000] 0.911445 0.000000 0.000000 -0.411422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740CE001, 0x740CE002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x740CE001, 0x740CE003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740CE001, 0x740CE004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x740CE001, 0x740CE005, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x740CE001, 0x740CE002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x740CE001, 0x740CE003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740CE001, 0x740CE004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x740CE001, 0x740CE005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740CE002, 10814, 0x40CE0013, 49.81514, 57.84923, 6.029, 0.9114448, 0, 0, -0.4114224,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */
@@ -31,7 +31,7 @@ VALUES (0x740CE006,  1542, 0x40CE0008, 5.059969, 186.8634, 9.578336, 1, 0, 0, 0,
 /* @teleloc 0x40CE0008 [5.059969 186.863400 9.578336] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740CE006, 0x740CE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x740CE006, 0x740CE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740CE007,  4179, 0x40CE0008, 5.059969, 186.8634, 9.578336, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

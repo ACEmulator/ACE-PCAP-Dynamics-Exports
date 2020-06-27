@@ -5,10 +5,10 @@ VALUES (0x7CF64001,  1154, 0xCF64003D, 176.6496, 112.467, 8.162391, -0.5298233, 
 /* @teleloc 0xCF64003D [176.649600 112.467000 8.162391] -0.529823 0.000000 0.000000 -0.848108 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF64001, 0x7CF64002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CF64001, 0x7CF64003, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CF64001, 0x7CF64004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CF64001, 0x7CF64005, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7CF64001, 0x7CF64002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CF64001, 0x7CF64003, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CF64001, 0x7CF64004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CF64001, 0x7CF64005, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF64002,  2584, 0xCF64003D, 176.6496, 112.467, 8.162391, -0.5298233, 0, 0, -0.8481081,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */

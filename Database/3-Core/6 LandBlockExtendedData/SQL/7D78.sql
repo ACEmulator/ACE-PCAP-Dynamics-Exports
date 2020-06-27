@@ -5,13 +5,13 @@ VALUES (0x77D78001,  1154, 0x7D78001D, 74.37331, 117.0481, 11.76241, 0.8390755, 
 /* @teleloc 0x7D78001D [74.373310 117.048100 11.762410] 0.839076 0.000000 0.000000 -0.544015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77D78001, 0x77D78002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77D78001, 0x77D78003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77D78001, 0x77D78004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x77D78001, 0x77D78005, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x77D78001, 0x77D78006, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D78001, 0x77D78007, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x77D78001, 0x77D78008, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x77D78001, 0x77D78002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77D78001, 0x77D78003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77D78001, 0x77D78004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x77D78001, 0x77D78005, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x77D78001, 0x77D78006, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x77D78001, 0x77D78007, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x77D78001, 0x77D78008, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77D78002,  1766, 0x7D78001D, 74.37331, 117.0481, 11.76241, 0.8390755, 0, 0, -0.5440149,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

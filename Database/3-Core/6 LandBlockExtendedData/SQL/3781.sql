@@ -5,10 +5,10 @@ VALUES (0x73781001,  1154, 0x37810015, 61.12364, 104.5681, 149.296, -0.600121, 0
 /* @teleloc 0x37810015 [61.123640 104.568100 149.296000] -0.600121 0.000000 0.000000 -0.799909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73781001, 0x73781002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73781001, 0x73781003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73781001, 0x73781004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73781001, 0x73781005, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x73781001, 0x73781002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73781001, 0x73781003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73781001, 0x73781004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73781001, 0x73781005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73781002,  8138, 0x37810015, 61.12364, 104.5681, 149.296, -0.600121, 0, 0, -0.7999092,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -31,7 +31,7 @@ VALUES (0x73781006,  1542, 0x37810023, 108.511, 59.99127, 165.0036, 1, 0, 0, 0, 
 /* @teleloc 0x37810023 [108.511000 59.991270 165.003600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73781006, 0x73781007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73781006, 0x73781007, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73781007, 22566, 0x37810023, 108.511, 59.99127, 165.0036, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

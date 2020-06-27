@@ -5,9 +5,9 @@ VALUES (0x70A7A001,  1154, 0x0A7A000C, 30.06177, 78.44664, 0.00850001, -0.903048
 /* @teleloc 0x0A7A000C [30.061770 78.446640 0.008500] -0.903048 0.000000 0.000000 -0.429540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A7A001, 0x70A7A002, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70A7A001, 0x70A7A003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70A7A001, 0x70A7A004, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x70A7A001, 0x70A7A002, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70A7A001, 0x70A7A003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70A7A001, 0x70A7A004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A7A002, 14514, 0x0A7A000C, 30.06177, 78.44664, 0.00850001, -0.903048, 0, 0, -0.4295397,  True, '2019-02-10 00:00:00'); /* Miasma */

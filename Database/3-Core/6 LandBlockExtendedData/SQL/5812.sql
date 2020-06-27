@@ -5,16 +5,16 @@ VALUES (0x75812001,  1154, 0x58120015, 54.66786, 111.6365, -0.438, 0.391241, 0, 
 /* @teleloc 0x58120015 [54.667860 111.636500 -0.438000] 0.391241 0.000000 0.000000 -0.920288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75812001, 0x75812002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x75812001, 0x75812003, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75812001, 0x75812004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75812001, 0x75812005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75812001, 0x75812006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75812001, 0x75812007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75812001, 0x75812008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75812001, 0x75812009, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x75812001, 0x7581200A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75812001, 0x7581200B, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x75812001, 0x75812002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x75812001, 0x75812003, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75812001, 0x75812004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75812001, 0x75812005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75812001, 0x75812006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75812001, 0x75812007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75812001, 0x75812008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75812001, 0x75812009, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x75812001, 0x7581200A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75812001, 0x7581200B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75812002,  7105, 0x58120015, 54.66786, 111.6365, -0.438, 0.391241, 0, 0, -0.9202883,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -61,7 +61,7 @@ VALUES (0x7581200C,  1542, 0x58120005, 8.51767, 97.92632, -0.09999999, -0.090424
 /* @teleloc 0x58120005 [8.517670 97.926320 -0.100000] -0.090424 0.000000 0.000000 -0.995903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7581200C, 0x7581200D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7581200C, 0x7581200D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7581200D,  8644, 0x58120005, 8.51767, 97.92632, -0.09999999, -0.09042405, 0, 0, -0.9959034,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

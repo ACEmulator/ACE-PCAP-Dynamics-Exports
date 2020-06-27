@@ -5,17 +5,17 @@ VALUES (0x7B2A0001,  1154, 0xB2A00033, 152.8819, 71.15675, 81.1043, -0.2780225, 
 /* @teleloc 0xB2A00033 [152.881900 71.156750 81.104300] -0.278023 0.000000 0.000000 -0.960575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2A0001, 0x7B2A0002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B2A0001, 0x7B2A0003, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B2A0001, 0x7B2A0004, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B2A0001, 0x7B2A0005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B2A0001, 0x7B2A0006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B2A0001, 0x7B2A0007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B2A0001, 0x7B2A0008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A0001, 0x7B2A0009, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B2A0001, 0x7B2A000A, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B2A0001, 0x7B2A000B, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B2A0001, 0x7B2A000C, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7B2A0001, 0x7B2A0002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B2A0001, 0x7B2A0003, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B2A0001, 0x7B2A0004, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B2A0001, 0x7B2A0005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B2A0001, 0x7B2A0006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B2A0001, 0x7B2A0007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B2A0001, 0x7B2A0008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A0001, 0x7B2A0009, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B2A0001, 0x7B2A000A, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B2A0001, 0x7B2A000B, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B2A0001, 0x7B2A000C, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2A0002,  4111, 0xB2A00033, 152.8819, 71.15675, 81.1043, -0.2780225, 0, 0, -0.9605746,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

@@ -5,9 +5,9 @@ VALUES (0x7A2D8001,  1154, 0xA2D8000B, 38.01511, 66.97813, 88.92072, 0.5537775, 
 /* @teleloc 0xA2D8000B [38.015110 66.978130 88.920720] 0.553778 0.000000 0.000000 -0.832665 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2D8001, 0x7A2D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A2D8001, 0x7A2D8003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A2D8001, 0x7A2D8004, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7A2D8001, 0x7A2D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A2D8001, 0x7A2D8003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A2D8001, 0x7A2D8004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2D8002,   227, 0xA2D8000B, 38.01511, 66.97813, 88.92072, 0.5537775, 0, 0, -0.8326647,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

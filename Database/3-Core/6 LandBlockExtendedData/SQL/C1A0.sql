@@ -5,15 +5,15 @@ VALUES (0x7C1A0001,  1154, 0xC1A00032, 151.4084, 46.38266, 1.1045, 0.9537169, 0,
 /* @teleloc 0xC1A00032 [151.408400 46.382660 1.104500] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A0001, 0x7C1A0002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C1A0001, 0x7C1A0003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C1A0001, 0x7C1A0004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C1A0001, 0x7C1A0005, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C1A0001, 0x7C1A0006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C1A0001, 0x7C1A0007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C1A0001, 0x7C1A0008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C1A0001, 0x7C1A0009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C1A0001, 0x7C1A000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C1A0001, 0x7C1A0002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C1A0001, 0x7C1A0003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C1A0001, 0x7C1A0004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C1A0001, 0x7C1A0005, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C1A0001, 0x7C1A0006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C1A0001, 0x7C1A0007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C1A0001, 0x7C1A0008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C1A0001, 0x7C1A0009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C1A0001, 0x7C1A000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A0002,  1612, 0xC1A00032, 151.4084, 46.38266, 1.1045, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
@@ -56,8 +56,8 @@ VALUES (0x7C1A000B,  1542, 0xC1A0003D, 178.5916, 97.86298, 2, 0.9659258, 0, 0, -
 /* @teleloc 0xC1A0003D [178.591600 97.862980 2.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A000B, 0x7C1A000C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C1A000B, 0x7C1A000D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C1A000B, 0x7C1A000C, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C1A000B, 0x7C1A000D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A000C,  4180, 0xC1A0003D, 178.5916, 97.86298, 2, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

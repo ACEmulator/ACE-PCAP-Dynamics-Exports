@@ -5,12 +5,12 @@ VALUES (0x7368F001,  1154, 0x368F0007, 17.27784, 165.1738, 11.2043, -0.4765916, 
 /* @teleloc 0x368F0007 [17.277840 165.173800 11.204300] -0.476592 0.000000 0.000000 -0.879125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7368F001, 0x7368F002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7368F001, 0x7368F003, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7368F001, 0x7368F004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7368F001, 0x7368F005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7368F001, 0x7368F006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7368F001, 0x7368F007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7368F001, 0x7368F002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7368F001, 0x7368F003, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7368F001, 0x7368F004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7368F001, 0x7368F005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7368F001, 0x7368F006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7368F001, 0x7368F007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7368F002, 24958, 0x368F0007, 17.27784, 165.1738, 11.2043, -0.4765916, 0, 0, -0.8791248,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

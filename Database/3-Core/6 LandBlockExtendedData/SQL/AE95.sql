@@ -5,11 +5,11 @@ VALUES (0x7AE95001,  1154, 0xAE95002E, 133.0736, 123.9826, 54.33644, -0.5105872,
 /* @teleloc 0xAE95002E [133.073600 123.982600 54.336440] -0.510587 0.000000 0.000000 -0.859826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE95001, 0x7AE95002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AE95001, 0x7AE95003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7AE95001, 0x7AE95004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE95001, 0x7AE95005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AE95001, 0x7AE95006, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7AE95001, 0x7AE95002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AE95001, 0x7AE95003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7AE95001, 0x7AE95004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE95001, 0x7AE95005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AE95001, 0x7AE95006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE95002,  1609, 0xAE95002E, 133.0736, 123.9826, 54.33644, -0.5105872, 0, 0, -0.859826,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

@@ -5,15 +5,15 @@ VALUES (0x79E3F001,  1154, 0x9E3F0009, 39.77087, 12.10161, 107.3372, -0.4599701,
 /* @teleloc 0x9E3F0009 [39.770870 12.101610 107.337200] -0.459970 0.000000 0.000000 -0.887934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E3F001, 0x79E3F002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79E3F001, 0x79E3F003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79E3F001, 0x79E3F004, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79E3F001, 0x79E3F005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E3F001, 0x79E3F006, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79E3F001, 0x79E3F007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79E3F001, 0x79E3F008, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79E3F001, 0x79E3F009, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79E3F001, 0x79E3F00A, '2019-02-10 00:00:00') /* Battered Doll */;
+VALUES (0x79E3F001, 0x79E3F002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79E3F001, 0x79E3F003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79E3F001, 0x79E3F004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79E3F001, 0x79E3F005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E3F001, 0x79E3F006, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79E3F001, 0x79E3F007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79E3F001, 0x79E3F008, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79E3F001, 0x79E3F009, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79E3F001, 0x79E3F00A, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E3F002,  9254, 0x9E3F0009, 39.77087, 12.10161, 107.3372, -0.4599701, 0, 0, -0.8879344,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */

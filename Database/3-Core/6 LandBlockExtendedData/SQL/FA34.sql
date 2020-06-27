@@ -5,40 +5,40 @@ VALUES (0x7FA34001,  1154, 0xFA340002, 20.41206, 34.09417, 0.006400108, 0.180451
 /* @teleloc 0xFA340002 [20.412060 34.094170 0.006400] 0.180451 0.000000 0.000000 -0.983584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA34001, 0x7FA34002, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA34001, 0x7FA34003, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34004, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34005, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA34001, 0x7FA34006, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7FA34001, 0x7FA34007, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34008, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34009, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400E, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA3400F, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34010, '2019-02-10 00:00:00') /* An Empyrean device */
-     , (0x7FA34001, 0x7FA34011, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7FA34001, 0x7FA34012, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34013, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34014, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34015, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34016, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34017, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x7FA34001, 0x7FA34018, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA34001, 0x7FA34019, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA34001, 0x7FA3401A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA34001, 0x7FA3401B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA34001, 0x7FA3401C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA34001, 0x7FA3401D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7FA34001, 0x7FA3401E, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA34001, 0x7FA3401F, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA34001, 0x7FA34020, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA34001, 0x7FA34021, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FA34001, 0x7FA34022, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FA34001, 0x7FA34023, '2019-02-10 00:00:00') /* Blessed Moar */;
+VALUES (0x7FA34001, 0x7FA34002, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA34001, 0x7FA34003, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34004, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34005, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA34001, 0x7FA34006, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7FA34001, 0x7FA34007, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34008, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34009, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400E, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA3400F, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34010, '2019-02-10 00:00:00') /* An Empyrean device (43075) */
+     , (0x7FA34001, 0x7FA34011, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7FA34001, 0x7FA34012, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34013, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34014, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34015, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34016, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34017, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43081) */
+     , (0x7FA34001, 0x7FA34018, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA34001, 0x7FA34019, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA34001, 0x7FA3401A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA34001, 0x7FA3401B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA34001, 0x7FA3401C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA34001, 0x7FA3401D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7FA34001, 0x7FA3401E, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA34001, 0x7FA3401F, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA34001, 0x7FA34020, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA34001, 0x7FA34021, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA34001, 0x7FA34022, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FA34001, 0x7FA34023, '2019-02-10 00:00:00') /* Blessed Moar (40300) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA34002, 40303, 0xFA340002, 20.41206, 34.09417, 0.006400108, 0.1804513, 0, 0, -0.9835839,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */

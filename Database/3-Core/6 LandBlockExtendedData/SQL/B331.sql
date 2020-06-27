@@ -5,14 +5,14 @@ VALUES (0x7B331001,  1154, 0xB331002D, 141.2345, 117.0433, 73.47803, 0.5, 0, 0, 
 /* @teleloc 0xB331002D [141.234500 117.043300 73.478030] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B331001, 0x7B331002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B331001, 0x7B331003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B331001, 0x7B331004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B331001, 0x7B331005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B331001, 0x7B331006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B331001, 0x7B331007, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B331001, 0x7B331008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B331001, 0x7B331009, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7B331001, 0x7B331002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B331001, 0x7B331003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B331001, 0x7B331004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B331001, 0x7B331005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B331001, 0x7B331006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B331001, 0x7B331007, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B331001, 0x7B331008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B331001, 0x7B331009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B331002,   194, 0xB331002D, 141.2345, 117.0433, 73.47803, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -51,8 +51,8 @@ VALUES (0x7B33100A,  1542, 0xB3310008, 15.51518, 182.2059, 56.12413, 0.7071068, 
 /* @teleloc 0xB3310008 [15.515180 182.205900 56.124130] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B33100A, 0x7B33100B, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7B33100A, 0x7B33100C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7B33100A, 0x7B33100B, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7B33100A, 0x7B33100C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B33100B,  5779, 0xB3310008, 15.51518, 182.2059, 56.12413, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

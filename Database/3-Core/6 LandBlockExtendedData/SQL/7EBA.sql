@@ -5,10 +5,10 @@ VALUES (0x77EBA001,  1154, 0x7EBA002F, 131.9101, 147.5835, 89.6291, 0.7071068, 0
 /* @teleloc 0x7EBA002F [131.910100 147.583500 89.629100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EBA001, 0x77EBA002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77EBA001, 0x77EBA003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77EBA001, 0x77EBA004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77EBA001, 0x77EBA005, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x77EBA001, 0x77EBA002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77EBA001, 0x77EBA003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77EBA001, 0x77EBA004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77EBA001, 0x77EBA005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EBA002,  7345, 0x7EBA002F, 131.9101, 147.5835, 89.6291, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

@@ -5,10 +5,10 @@ VALUES (0x7CD55001,  1154, 0xCD550018, 70.0322, 190.0613, 29.9985, 0.9063078, 0,
 /* @teleloc 0xCD550018 [70.032200 190.061300 29.998500] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD55001, 0x7CD55002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CD55001, 0x7CD55003, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CD55001, 0x7CD55004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CD55001, 0x7CD55005, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7CD55001, 0x7CD55002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CD55001, 0x7CD55003, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CD55001, 0x7CD55004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CD55001, 0x7CD55005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD55002,  7978, 0xCD550018, 70.0322, 190.0613, 29.9985, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -31,8 +31,8 @@ VALUES (0x7CD55006,  1542, 0xCD55002F, 131.0808, 144.3855, 26.465, -0.9781924, 0
 /* @teleloc 0xCD55002F [131.080800 144.385500 26.465000] -0.978192 0.000000 0.000000 -0.207701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD55006, 0x7CD55007, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7CD55006, 0x7CD55008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7CD55006, 0x7CD55007, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7CD55006, 0x7CD55008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD55007, 22837, 0xCD55002F, 131.0808, 144.3855, 26.465, -0.9781924, 0, 0, -0.2077008,  True, '2019-02-10 00:00:00'); /* Snowflower */

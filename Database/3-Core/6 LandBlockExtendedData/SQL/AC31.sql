@@ -5,8 +5,8 @@ VALUES (0x7AC31001,  1154, 0xAC31003A, 190.7659, 46.33381, 68.76367, -0.8888252,
 /* @teleloc 0xAC31003A [190.765900 46.333810 68.763670] -0.888825 0.000000 0.000000 -0.458246 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC31001, 0x7AC31002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AC31001, 0x7AC31003, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7AC31001, 0x7AC31002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AC31001, 0x7AC31003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC31002, 38181, 0xAC31003A, 190.7659, 46.33381, 68.76367, -0.8888252, 0, 0, -0.4582464,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

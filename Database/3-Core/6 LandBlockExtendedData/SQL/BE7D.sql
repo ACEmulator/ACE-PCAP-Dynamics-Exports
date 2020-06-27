@@ -5,21 +5,21 @@ VALUES (0x7BE7D001,  1154, 0xBE7D002A, 131.1785, 45.89655, 45.07026, -0.05735947
 /* @teleloc 0xBE7D002A [131.178500 45.896550 45.070260] -0.057359 0.000000 0.000000 -0.998354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7D001, 0x7BE7D002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BE7D001, 0x7BE7D003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BE7D001, 0x7BE7D004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BE7D001, 0x7BE7D005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE7D001, 0x7BE7D006, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BE7D001, 0x7BE7D007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BE7D001, 0x7BE7D008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE7D001, 0x7BE7D009, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BE7D001, 0x7BE7D00A, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BE7D001, 0x7BE7D00B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BE7D001, 0x7BE7D00C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BE7D001, 0x7BE7D00D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BE7D001, 0x7BE7D00E, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BE7D001, 0x7BE7D00F, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BE7D001, 0x7BE7D010, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7BE7D001, 0x7BE7D002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BE7D001, 0x7BE7D003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BE7D001, 0x7BE7D004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BE7D001, 0x7BE7D005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE7D001, 0x7BE7D006, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BE7D001, 0x7BE7D007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BE7D001, 0x7BE7D008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE7D001, 0x7BE7D009, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BE7D001, 0x7BE7D00A, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BE7D001, 0x7BE7D00B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE7D001, 0x7BE7D00C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BE7D001, 0x7BE7D00D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BE7D001, 0x7BE7D00E, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BE7D001, 0x7BE7D00F, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BE7D001, 0x7BE7D010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7D002,  7989, 0xBE7D002A, 131.1785, 45.89655, 45.07026, -0.05735947, 0, 0, -0.9983536,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */

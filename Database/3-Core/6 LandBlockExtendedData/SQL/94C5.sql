@@ -5,15 +5,15 @@ VALUES (0x794C5001,  1154, 0x94C50028, 106.0078, 173.245, 102.6887, -0.999267, 0
 /* @teleloc 0x94C50028 [106.007800 173.245000 102.688700] -0.999267 0.000000 0.000000 -0.038281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C5001, 0x794C5002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x794C5001, 0x794C5003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x794C5001, 0x794C5004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x794C5001, 0x794C5005, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x794C5001, 0x794C5006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x794C5001, 0x794C5007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x794C5001, 0x794C5008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x794C5001, 0x794C5009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x794C5001, 0x794C500A, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x794C5001, 0x794C5002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x794C5001, 0x794C5003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x794C5001, 0x794C5004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x794C5001, 0x794C5005, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x794C5001, 0x794C5006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x794C5001, 0x794C5007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x794C5001, 0x794C5008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x794C5001, 0x794C5009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x794C5001, 0x794C500A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C5002, 22009, 0x94C50028, 106.0078, 173.245, 102.6887, -0.999267, 0, 0, -0.03828082,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -56,8 +56,8 @@ VALUES (0x794C500B,  1542, 0x94C50013, 70.61748, 68.40237, 100.5704, 1, 0, 0, 0,
 /* @teleloc 0x94C50013 [70.617480 68.402370 100.570400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C500B, 0x794C500C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x794C500B, 0x794C500D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x794C500B, 0x794C500C, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x794C500B, 0x794C500D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C500C, 22570, 0x94C50013, 70.61748, 68.40237, 100.5704, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

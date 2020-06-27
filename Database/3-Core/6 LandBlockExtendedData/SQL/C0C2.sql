@@ -5,20 +5,20 @@ VALUES (0x7C0C2001,  1154, 0xC0C2001F, 80.6257, 161.7184, 153.9824, 0.9747222, 0
 /* @teleloc 0xC0C2001F [80.625700 161.718400 153.982400] 0.974722 0.000000 0.000000 -0.223420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0C2001, 0x7C0C2002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C2001, 0x7C0C2003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C0C2001, 0x7C0C2004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C0C2001, 0x7C0C2005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C0C2001, 0x7C0C2006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C0C2001, 0x7C0C2007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C0C2001, 0x7C0C2008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C0C2001, 0x7C0C2009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C0C2001, 0x7C0C200A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7C0C2001, 0x7C0C200B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C0C2001, 0x7C0C200C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C2001, 0x7C0C200D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C0C2001, 0x7C0C200E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C0C2001, 0x7C0C200F, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7C0C2001, 0x7C0C2002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C2001, 0x7C0C2003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C0C2001, 0x7C0C2004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C0C2001, 0x7C0C2005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C0C2001, 0x7C0C2006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C0C2001, 0x7C0C2007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C0C2001, 0x7C0C2008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C0C2001, 0x7C0C2009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C0C2001, 0x7C0C200A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7C0C2001, 0x7C0C200B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C0C2001, 0x7C0C200C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C2001, 0x7C0C200D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C0C2001, 0x7C0C200E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C0C2001, 0x7C0C200F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0C2002, 11478, 0xC0C2001F, 80.6257, 161.7184, 153.9824, 0.9747222, 0, 0, -0.2234202,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -81,8 +81,8 @@ VALUES (0x7C0C2010,  1542, 0xC0C2003F, 188.9061, 162.0409, 152.2769, 1, 0, 0, 0,
 /* @teleloc 0xC0C2003F [188.906100 162.040900 152.276900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0C2010, 0x7C0C2011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C0C2010, 0x7C0C2012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C0C2010, 0x7C0C2011, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7C0C2010, 0x7C0C2012, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0C2011, 22567, 0xC0C2003F, 188.9061, 162.0409, 152.2769, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

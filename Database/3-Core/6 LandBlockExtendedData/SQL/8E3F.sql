@@ -5,17 +5,17 @@ VALUES (0x78E3F001,  1154, 0x8E3F0013, 68.40709, 69.29325, 15.48703, 0.7155138, 
 /* @teleloc 0x8E3F0013 [68.407090 69.293250 15.487030] 0.715514 0.000000 0.000000 -0.698599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E3F001, 0x78E3F002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x78E3F001, 0x78E3F003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78E3F001, 0x78E3F004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78E3F001, 0x78E3F005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E3F001, 0x78E3F006, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x78E3F001, 0x78E3F007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78E3F001, 0x78E3F008, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x78E3F001, 0x78E3F009, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x78E3F001, 0x78E3F00A, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78E3F001, 0x78E3F00B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E3F001, 0x78E3F00C, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x78E3F001, 0x78E3F002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x78E3F001, 0x78E3F003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78E3F001, 0x78E3F004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78E3F001, 0x78E3F005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E3F001, 0x78E3F006, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x78E3F001, 0x78E3F007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78E3F001, 0x78E3F008, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x78E3F001, 0x78E3F009, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x78E3F001, 0x78E3F00A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78E3F001, 0x78E3F00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E3F001, 0x78E3F00C, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E3F002,  1626, 0x8E3F0013, 68.40709, 69.29325, 15.48703, 0.7155138, 0, 0, -0.6985986,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -66,7 +66,7 @@ VALUES (0x78E3F00D,  1542, 0x8E3F0016, 64.84509, 121.6298, 16.59624, -0.9470063,
 /* @teleloc 0x8E3F0016 [64.845090 121.629800 16.596240] -0.947006 0.000000 0.000000 -0.321215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E3F00D, 0x78E3F00E, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x78E3F00D, 0x78E3F00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E3F00E,  8041, 0x8E3F0016, 64.84509, 121.6298, 16.59624, -0.9470063, 0, 0, -0.3212148,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

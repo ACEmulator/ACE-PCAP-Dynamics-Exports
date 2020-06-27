@@ -5,21 +5,21 @@ VALUES (0x7E050001,  1154, 0xE0500009, 30.27471, 17.5853, 12.04067, 1, 0, 0, 0, 
 /* @teleloc 0xE0500009 [30.274710 17.585300 12.040670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E050001, 0x7E050002, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E050001, 0x7E050003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E050001, 0x7E050004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E050001, 0x7E050005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E050001, 0x7E050006, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E050001, 0x7E050007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E050001, 0x7E050008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E050001, 0x7E050009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E050001, 0x7E05000A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E050001, 0x7E05000B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E050001, 0x7E05000C, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E050001, 0x7E05000D, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E050001, 0x7E05000E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7E050001, 0x7E05000F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E050001, 0x7E050010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7E050001, 0x7E050002, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E050001, 0x7E050003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E050001, 0x7E050004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E050001, 0x7E050005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E050001, 0x7E050006, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E050001, 0x7E050007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E050001, 0x7E050008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E050001, 0x7E050009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E050001, 0x7E05000A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E050001, 0x7E05000B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E050001, 0x7E05000C, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E050001, 0x7E05000D, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E050001, 0x7E05000E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7E050001, 0x7E05000F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E050001, 0x7E050010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E050002, 11537, 0xE0500009, 30.27471, 17.5853, 12.04067, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virtuous Doll */
@@ -86,10 +86,10 @@ VALUES (0x7E050011,  1542, 0xE0500009, 40.00603, 21.31394, 12.1, 0.9990482, 0, 0
 /* @teleloc 0xE0500009 [40.006030 21.313940 12.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E050011, 0x7E050012, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E050011, 0x7E050013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E050011, 0x7E050014, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E050011, 0x7E050015, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7E050011, 0x7E050012, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E050011, 0x7E050013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E050011, 0x7E050014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E050011, 0x7E050015, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E050012,  6117, 0xE0500009, 40.00603, 21.31394, 12.1, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

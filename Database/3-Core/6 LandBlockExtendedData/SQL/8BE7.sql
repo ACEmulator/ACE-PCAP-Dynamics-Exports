@@ -5,18 +5,18 @@ VALUES (0x78BE7001,  1154, 0x8BE70017, 64.58659, 148.1531, 28.011, 0.9238795, 0,
 /* @teleloc 0x8BE70017 [64.586590 148.153100 28.011000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE7001, 0x78BE7002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78BE7001, 0x78BE7003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78BE7001, 0x78BE7004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78BE7001, 0x78BE7005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78BE7001, 0x78BE7006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78BE7001, 0x78BE7007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78BE7001, 0x78BE7008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78BE7001, 0x78BE7009, '2019-02-10 00:00:00') /* Frost */
-     , (0x78BE7001, 0x78BE700A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78BE7001, 0x78BE700B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78BE7001, 0x78BE700C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BE7001, 0x78BE700D, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78BE7001, 0x78BE7002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78BE7001, 0x78BE7003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78BE7001, 0x78BE7004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78BE7001, 0x78BE7005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78BE7001, 0x78BE7006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78BE7001, 0x78BE7007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78BE7001, 0x78BE7008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78BE7001, 0x78BE7009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78BE7001, 0x78BE700A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78BE7001, 0x78BE700B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78BE7001, 0x78BE700C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BE7001, 0x78BE700D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE7002,  1629, 0x8BE70017, 64.58659, 148.1531, 28.011, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -71,7 +71,7 @@ VALUES (0x78BE700E,  1542, 0x8BE70016, 57.00056, 143.3094, 28.1, 0.9990482, 0, 0
 /* @teleloc 0x8BE70016 [57.000560 143.309400 28.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE700E, 0x78BE700F, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x78BE700E, 0x78BE700F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE700F,  6117, 0x8BE70016, 57.00056, 143.3094, 28.1, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

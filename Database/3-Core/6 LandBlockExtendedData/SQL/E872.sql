@@ -9,9 +9,9 @@ VALUES (0x7E872001,  1154, 0xE872003D, 184.0217, 115.0943, 2.686774, -0.7835429,
 /* @teleloc 0xE872003D [184.021700 115.094300 2.686774] -0.783543 0.000000 0.000000 -0.621338 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E872001, 0x7E872002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E872001, 0x7E872003, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7E872001, 0x7E872004, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7E872001, 0x7E872002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E872001, 0x7E872003, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7E872001, 0x7E872004, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E872002, 22053, 0xE872003D, 184.0217, 115.0943, 2.686774, -0.7835429, 0, 0, -0.6213376,  True, '2019-02-10 00:00:00'); /* Assailer */

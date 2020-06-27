@@ -5,12 +5,12 @@ VALUES (0x7D08E001,  1154, 0xD08E0008, 17.54013, 177.2106, 30.003, 0.7667486, 0,
 /* @teleloc 0xD08E0008 [17.540130 177.210600 30.003000] 0.766749 0.000000 0.000000 -0.641948 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D08E001, 0x7D08E002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7D08E001, 0x7D08E003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7D08E001, 0x7D08E004, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D08E001, 0x7D08E005, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7D08E001, 0x7D08E006, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D08E001, 0x7D08E007, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7D08E001, 0x7D08E002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7D08E001, 0x7D08E003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7D08E001, 0x7D08E004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D08E001, 0x7D08E005, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7D08E001, 0x7D08E006, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D08E001, 0x7D08E007, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D08E002, 21160, 0xD08E0008, 17.54013, 177.2106, 30.003, 0.7667486, 0, 0, -0.6419475,  True, '2019-02-10 00:00:00'); /* Scourge */

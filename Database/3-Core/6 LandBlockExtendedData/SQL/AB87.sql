@@ -5,14 +5,14 @@ VALUES (0x7AB87001,  1154, 0xAB870032, 158.4716, 25.11444, 29.40271, 0.9659258, 
 /* @teleloc 0xAB870032 [158.471600 25.114440 29.402710] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB87001, 0x7AB87002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AB87001, 0x7AB87003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AB87001, 0x7AB87004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AB87001, 0x7AB87005, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AB87001, 0x7AB87006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AB87001, 0x7AB87007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AB87001, 0x7AB87008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AB87001, 0x7AB87009, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7AB87001, 0x7AB87002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AB87001, 0x7AB87003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AB87001, 0x7AB87004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AB87001, 0x7AB87005, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AB87001, 0x7AB87006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AB87001, 0x7AB87007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AB87001, 0x7AB87008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AB87001, 0x7AB87009, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB87002,   195, 0xAB870032, 158.4716, 25.11444, 29.40271, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -51,9 +51,9 @@ VALUES (0x7AB8700A,  1542, 0xAB870032, 156.5649, 30.80342, 30.17719, 0.7660445, 
 /* @teleloc 0xAB870032 [156.564900 30.803420 30.177190] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB8700A, 0x7AB8700B, '2019-02-10 00:00:00') /* Chevron Cloak */
-     , (0x7AB8700A, 0x7AB8700C, '2019-02-10 00:00:00') /* Gem */
-     , (0x7AB8700A, 0x7AB8700D, '2019-02-10 00:00:00') /* Pocket Watch */;
+VALUES (0x7AB8700A, 0x7AB8700B, '2019-02-10 00:00:00') /* Chevron Cloak (44850) */
+     , (0x7AB8700A, 0x7AB8700C, '2019-02-10 00:00:00') /* Gem (2427) */
+     , (0x7AB8700A, 0x7AB8700D, '2019-02-10 00:00:00') /* Pocket Watch (41485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB8700B, 44850, 0xAB870032, 156.5649, 30.80342, 30.17719, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Chevron Cloak */

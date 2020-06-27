@@ -25,16 +25,16 @@ VALUES (0x7A0B5005,  1154, 0xA0B50102, 132.006, 108.498, 76.00849, 0.694014, 0, 
 /* @teleloc 0xA0B50102 [132.006000 108.498000 76.008490] 0.694014 0.000000 0.000000 -0.719962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B5005, 0x7A0B5006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A0B5005, 0x7A0B5007, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7A0B5005, 0x7A0B5008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A0B5005, 0x7A0B5009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A0B5005, 0x7A0B500A, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7A0B5005, 0x7A0B500B, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7A0B5005, 0x7A0B500C, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7A0B5005, 0x7A0B500D, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x7A0B5005, 0x7A0B500E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A0B5005, 0x7A0B500F, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7A0B5005, 0x7A0B5006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A0B5005, 0x7A0B5007, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B5005, 0x7A0B5008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A0B5005, 0x7A0B5009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A0B5005, 0x7A0B500A, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7A0B5005, 0x7A0B500B, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7A0B5005, 0x7A0B500C, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B5005, 0x7A0B500D, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x7A0B5005, 0x7A0B500E, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A0B5005, 0x7A0B500F, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B5006,  1632, 0xA0B50102, 132.006, 108.498, 76.00849, 0.694014, 0, 0, -0.719962,  True, '2019-02-10 00:00:00'); /* Drudge Slave */
@@ -81,7 +81,7 @@ VALUES (0x7A0B5010,  1542, 0xA0B50027, 115.4462, 149.5324, 76.84052, 0.7071068, 
 /* @teleloc 0xA0B50027 [115.446200 149.532400 76.840520] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B5010, 0x7A0B5011, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7A0B5010, 0x7A0B5011, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B5011,  9008, 0xA0B50027, 115.4462, 149.5324, 76.84052, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

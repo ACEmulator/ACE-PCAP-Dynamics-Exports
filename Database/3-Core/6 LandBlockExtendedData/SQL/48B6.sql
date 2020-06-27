@@ -5,14 +5,14 @@ VALUES (0x748B6001,  1154, 0x48B6000A, 36.43188, 24.55326, 239.0009, -0.2241193,
 /* @teleloc 0x48B6000A [36.431880 24.553260 239.000900] -0.224119 0.000000 0.000000 -0.974562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748B6001, 0x748B6002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x748B6001, 0x748B6003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x748B6001, 0x748B6004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x748B6001, 0x748B6005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x748B6001, 0x748B6006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x748B6001, 0x748B6007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x748B6001, 0x748B6008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x748B6001, 0x748B6009, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x748B6001, 0x748B6002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x748B6001, 0x748B6003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x748B6001, 0x748B6004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x748B6001, 0x748B6005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x748B6001, 0x748B6006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x748B6001, 0x748B6007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x748B6001, 0x748B6008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x748B6001, 0x748B6009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748B6002,  1629, 0x48B6000A, 36.43188, 24.55326, 239.0009, -0.2241193, 0, 0, -0.9745618,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -51,7 +51,7 @@ VALUES (0x748B600A,  1542, 0x48B60001, 21.64592, 10.07716, 239.9792, -0.2241193,
 /* @teleloc 0x48B60001 [21.645920 10.077160 239.979200] -0.224119 0.000000 0.000000 -0.974562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748B600A, 0x748B600B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x748B600A, 0x748B600B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748B600B, 42528, 0x48B60001, 21.64592, 10.07716, 239.9792, -0.2241193, 0, 0, -0.9745618,  True, '2019-02-10 00:00:00'); /* Rock */

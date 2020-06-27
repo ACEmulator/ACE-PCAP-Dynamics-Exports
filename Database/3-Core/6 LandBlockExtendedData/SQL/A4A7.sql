@@ -5,21 +5,21 @@ VALUES (0x7A4A7001,  1154, 0xA4A70016, 57.46303, 129.9986, 85.40942, 1, 0, 0, 0,
 /* @teleloc 0xA4A70016 [57.463030 129.998600 85.409420] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4A7001, 0x7A4A7002, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A4A7001, 0x7A4A7003, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A4A7001, 0x7A4A7004, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x7A4A7001, 0x7A4A7005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7A4A7001, 0x7A4A7006, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7A4A7001, 0x7A4A7007, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7A4A7001, 0x7A4A7008, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x7A4A7001, 0x7A4A7009, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x7A4A7001, 0x7A4A700A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A4A7001, 0x7A4A700B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A4A7001, 0x7A4A700C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A4A7001, 0x7A4A700D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A7001, 0x7A4A700E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A4A7001, 0x7A4A700F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A4A7001, 0x7A4A7010, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7A4A7001, 0x7A4A7002, '2019-02-10 00:00:00') /* Portal Pillar (32522) */
+     , (0x7A4A7001, 0x7A4A7003, '2019-02-10 00:00:00') /* Portal Pillar (32522) */
+     , (0x7A4A7001, 0x7A4A7004, '2019-02-10 00:00:00') /* Portal Pillar (32522) */
+     , (0x7A4A7001, 0x7A4A7005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7A4A7001, 0x7A4A7006, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7A4A7001, 0x7A4A7007, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7A4A7001, 0x7A4A7008, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7A4A7001, 0x7A4A7009, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7A4A7001, 0x7A4A700A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A4A7001, 0x7A4A700B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A4A7001, 0x7A4A700C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A4A7001, 0x7A4A700D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A7001, 0x7A4A700E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A4A7001, 0x7A4A700F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A4A7001, 0x7A4A7010, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4A7002, 32522, 0xA4A70016, 57.46303, 129.9986, 85.40942, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal Pillar */
@@ -86,9 +86,9 @@ VALUES (0x7A4A7011,  1542, 0xA4A70016, 58.4468, 131.385, 84.45, 0.3036878, 0, 0,
 /* @teleloc 0xA4A70016 [58.446800 131.385000 84.450000] 0.303688 0.000000 0.000000 0.952772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4A7011, 0x7A4A7012, '2019-02-10 00:00:00') /* Viamont Staging Area Portal */
-     , (0x7A4A7011, 0x7A4A7013, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7A4A7011, 0x7A4A7014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A4A7011, 0x7A4A7012, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32544) */
+     , (0x7A4A7011, 0x7A4A7013, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x7A4A7011, 0x7A4A7014, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4A7012, 32544, 0xA4A70016, 58.4468, 131.385, 84.45, 0.3036878, 0, 0, 0.9527716,  True, '2019-02-10 00:00:00'); /* Viamont Staging Area Portal */

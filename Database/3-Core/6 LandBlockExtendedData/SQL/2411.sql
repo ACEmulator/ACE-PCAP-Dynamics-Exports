@@ -5,14 +5,14 @@ VALUES (0x72411001,  1154, 0x24110037, 155.6688, 159.8019, 58.86147, 0.7105604, 
 /* @teleloc 0x24110037 [155.668800 159.801900 58.861470] 0.710560 0.000000 0.000000 -0.703636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72411001, 0x72411002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72411001, 0x72411003, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72411001, 0x72411004, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72411001, 0x72411005, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72411001, 0x72411006, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72411001, 0x72411007, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x72411001, 0x72411008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x72411001, 0x72411009, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x72411001, 0x72411002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72411001, 0x72411003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72411001, 0x72411004, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72411001, 0x72411005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72411001, 0x72411006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72411001, 0x72411007, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x72411001, 0x72411008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72411001, 0x72411009, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72411002, 35833, 0x24110037, 155.6688, 159.8019, 58.86147, 0.7105604, 0, 0, -0.7036362,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */

@@ -9,16 +9,16 @@ VALUES (0x78391001,  1154, 0x8391000D, 37.50197, 105.8134, 164.7314, -0.2612604,
 /* @teleloc 0x8391000D [37.501970 105.813400 164.731400] -0.261260 0.000000 0.000000 -0.965268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78391001, 0x78391002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x78391001, 0x78391003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78391001, 0x78391004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x78391001, 0x78391005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78391001, 0x78391006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78391001, 0x78391007, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78391001, 0x78391008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78391001, 0x78391009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78391001, 0x7839100A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78391001, 0x7839100B, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x78391001, 0x78391002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x78391001, 0x78391003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78391001, 0x78391004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78391001, 0x78391005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78391001, 0x78391006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78391001, 0x78391007, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78391001, 0x78391008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78391001, 0x78391009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78391001, 0x7839100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78391001, 0x7839100B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78391002, 28878, 0x8391000D, 37.50197, 105.8134, 164.7314, -0.2612604, 0, 0, -0.9652684,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -65,7 +65,7 @@ VALUES (0x7839100C,  1542, 0x8391000D, 35.58697, 105.0757, 164.9748, 1, 0, 0, 0,
 /* @teleloc 0x8391000D [35.586970 105.075700 164.974800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7839100C, 0x7839100D, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7839100C, 0x7839100D, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7839100D,  8232, 0x8391000D, 35.58697, 105.0757, 164.9748, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

@@ -5,20 +5,20 @@ VALUES (0x7B7D9001,  1154, 0xB7D9003D, 178.9319, 116.1978, 52.32685, 0.5, 0, 0, 
 /* @teleloc 0xB7D9003D [178.931900 116.197800 52.326850] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7D9001, 0x7B7D9002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B7D9001, 0x7B7D9003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7B7D9001, 0x7B7D9004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7B7D9001, 0x7B7D9005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B7D9001, 0x7B7D9006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B7D9001, 0x7B7D9007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B7D9001, 0x7B7D9008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B7D9001, 0x7B7D9009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B7D9001, 0x7B7D900A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B7D9001, 0x7B7D900B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B7D9001, 0x7B7D900C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B7D9001, 0x7B7D900D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B7D9001, 0x7B7D900E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B7D9001, 0x7B7D900F, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7B7D9001, 0x7B7D9002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B7D9001, 0x7B7D9003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7B7D9001, 0x7B7D9004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7B7D9001, 0x7B7D9005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B7D9001, 0x7B7D9006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B7D9001, 0x7B7D9007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B7D9001, 0x7B7D9008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B7D9001, 0x7B7D9009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B7D9001, 0x7B7D900A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B7D9001, 0x7B7D900B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B7D9001, 0x7B7D900C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B7D9001, 0x7B7D900D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B7D9001, 0x7B7D900E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B7D9001, 0x7B7D900F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7D9002,   199, 0xB7D9003D, 178.9319, 116.1978, 52.32685, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -81,7 +81,7 @@ VALUES (0x7B7D9010,  1542, 0xB7D90028, 102.3858, 171.3532, 52.60064, 0.8796114, 
 /* @teleloc 0xB7D90028 [102.385800 171.353200 52.600640] 0.879611 0.000000 0.000000 -0.475693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7D9010, 0x7B7D9011, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7B7D9010, 0x7B7D9011, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7D9011,  8039, 0xB7D90028, 102.3858, 171.3532, 52.60064, 0.8796114, 0, 0, -0.4756928,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

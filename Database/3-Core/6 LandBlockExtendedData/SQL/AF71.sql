@@ -5,48 +5,48 @@ VALUES (0x7AF71001,  1154, 0xAF710040, 177.3224, 184.2074, 48, 1, 0, 0, 0, False
 /* @teleloc 0xAF710040 [177.322400 184.207400 48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF71001, 0x7AF71002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF71001, 0x7AF71003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AF71001, 0x7AF71004, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AF71001, 0x7AF71005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF71001, 0x7AF71006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AF71001, 0x7AF71007, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AF71001, 0x7AF71008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AF71001, 0x7AF71009, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AF71001, 0x7AF7100A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF71001, 0x7AF7100B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AF71001, 0x7AF7100C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AF71001, 0x7AF7100D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AF71001, 0x7AF7100E, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7AF71001, 0x7AF7100F, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7AF71001, 0x7AF71010, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AF71001, 0x7AF71011, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AF71001, 0x7AF71012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AF71001, 0x7AF71013, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AF71001, 0x7AF71014, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7AF71001, 0x7AF71015, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF71001, 0x7AF71016, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AF71001, 0x7AF71017, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF71001, 0x7AF71018, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF71001, 0x7AF71019, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF71001, 0x7AF7101A, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AF71001, 0x7AF7101B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AF71001, 0x7AF7101C, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF71001, 0x7AF7101D, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AF71001, 0x7AF7101E, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AF71001, 0x7AF7101F, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AF71001, 0x7AF71020, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AF71001, 0x7AF71021, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AF71001, 0x7AF71022, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AF71001, 0x7AF71023, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF71001, 0x7AF71024, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AF71001, 0x7AF71025, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AF71001, 0x7AF71026, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AF71001, 0x7AF71027, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AF71001, 0x7AF71028, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AF71001, 0x7AF71029, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AF71001, 0x7AF7102A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AF71001, 0x7AF7102B, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AF71001, 0x7AF71002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF71001, 0x7AF71003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AF71001, 0x7AF71004, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AF71001, 0x7AF71005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF71001, 0x7AF71006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AF71001, 0x7AF71007, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AF71001, 0x7AF71008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AF71001, 0x7AF71009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AF71001, 0x7AF7100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF71001, 0x7AF7100B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AF71001, 0x7AF7100C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AF71001, 0x7AF7100D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AF71001, 0x7AF7100E, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7AF71001, 0x7AF7100F, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7AF71001, 0x7AF71010, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AF71001, 0x7AF71011, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AF71001, 0x7AF71012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AF71001, 0x7AF71013, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AF71001, 0x7AF71014, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7AF71001, 0x7AF71015, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF71001, 0x7AF71016, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AF71001, 0x7AF71017, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF71001, 0x7AF71018, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF71001, 0x7AF71019, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF71001, 0x7AF7101A, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AF71001, 0x7AF7101B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AF71001, 0x7AF7101C, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF71001, 0x7AF7101D, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AF71001, 0x7AF7101E, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AF71001, 0x7AF7101F, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AF71001, 0x7AF71020, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AF71001, 0x7AF71021, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AF71001, 0x7AF71022, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AF71001, 0x7AF71023, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF71001, 0x7AF71024, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AF71001, 0x7AF71025, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AF71001, 0x7AF71026, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AF71001, 0x7AF71027, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AF71001, 0x7AF71028, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AF71001, 0x7AF71029, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AF71001, 0x7AF7102A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AF71001, 0x7AF7102B, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF71002,   222, 0xAF710040, 177.3224, 184.2074, 48, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -221,9 +221,9 @@ VALUES (0x7AF7102C,  1542, 0xAF710040, 178.0435, 186.8907, 48, 1, 0, 0, 0, False
 /* @teleloc 0xAF710040 [178.043500 186.890700 48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF7102C, 0x7AF7102D, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AF7102C, 0x7AF7102E, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7AF7102C, 0x7AF7102F, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7AF7102C, 0x7AF7102D, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AF7102C, 0x7AF7102E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7AF7102C, 0x7AF7102F, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF7102D,   265, 0xAF710040, 178.0435, 186.8907, 48, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

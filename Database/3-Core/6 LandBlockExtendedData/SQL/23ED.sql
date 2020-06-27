@@ -5,20 +5,20 @@ VALUES (0x723ED001,  1154, 0x23ED003F, 189.0304, 162.7073, 4.01, -0.9357793, 0, 
 /* @teleloc 0x23ED003F [189.030400 162.707300 4.010000] -0.935779 0.000000 0.000000 -0.352586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723ED001, 0x723ED002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x723ED001, 0x723ED003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x723ED001, 0x723ED004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x723ED001, 0x723ED005, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x723ED001, 0x723ED006, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x723ED001, 0x723ED007, '2019-02-10 00:00:00') /* Eater */
-     , (0x723ED001, 0x723ED008, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x723ED001, 0x723ED009, '2019-02-10 00:00:00') /* Eater */
-     , (0x723ED001, 0x723ED00A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x723ED001, 0x723ED00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x723ED001, 0x723ED00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x723ED001, 0x723ED00D, '2019-02-10 00:00:00') /* Eater */
-     , (0x723ED001, 0x723ED00E, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x723ED001, 0x723ED00F, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x723ED001, 0x723ED002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x723ED001, 0x723ED003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x723ED001, 0x723ED004, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x723ED001, 0x723ED005, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x723ED001, 0x723ED006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x723ED001, 0x723ED007, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x723ED001, 0x723ED008, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x723ED001, 0x723ED009, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x723ED001, 0x723ED00A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x723ED001, 0x723ED00B, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x723ED001, 0x723ED00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x723ED001, 0x723ED00D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x723ED001, 0x723ED00E, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x723ED001, 0x723ED00F, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723ED002, 26468, 0x23ED003F, 189.0304, 162.7073, 4.01, -0.9357793, 0, 0, -0.3525862,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */

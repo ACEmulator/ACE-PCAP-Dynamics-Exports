@@ -5,14 +5,14 @@ VALUES (0x71ABB001,  1154, 0x1ABB0029, 131.8825, 11.40695, 129.9067, 1, 0, 0, 0,
 /* @teleloc 0x1ABB0029 [131.882500 11.406950 129.906700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABB001, 0x71ABB002, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABB001, 0x71ABB003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABB001, 0x71ABB004, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71ABB001, 0x71ABB005, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71ABB001, 0x71ABB006, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABB001, 0x71ABB007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71ABB001, 0x71ABB008, '2019-02-10 00:00:00') /* Static */
-     , (0x71ABB001, 0x71ABB009, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x71ABB001, 0x71ABB002, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABB001, 0x71ABB003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABB001, 0x71ABB004, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71ABB001, 0x71ABB005, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71ABB001, 0x71ABB006, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABB001, 0x71ABB007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71ABB001, 0x71ABB008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x71ABB001, 0x71ABB009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABB002, 11520, 0x1ABB0029, 131.8825, 11.40695, 129.9067, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Nualuan */
@@ -51,7 +51,7 @@ VALUES (0x71ABB00A,  1542, 0x1ABB002B, 132.1579, 48.26062, 99.85013, 1, 0, 0, 0,
 /* @teleloc 0x1ABB002B [132.157900 48.260620 99.850130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABB00A, 0x71ABB00B, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x71ABB00A, 0x71ABB00B, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABB00B, 11227, 0x1ABB002B, 132.1579, 48.26062, 99.85013, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */

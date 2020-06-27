@@ -5,22 +5,22 @@ VALUES (0x7A8DF001,  1154, 0xA8DF001E, 77.56339, 129.0431, 23.51718, -0.844897, 
 /* @teleloc 0xA8DF001E [77.563390 129.043100 23.517180] -0.844897 0.000000 0.000000 -0.534929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8DF001, 0x7A8DF002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A8DF001, 0x7A8DF003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A8DF001, 0x7A8DF004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A8DF001, 0x7A8DF005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A8DF001, 0x7A8DF006, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7A8DF001, 0x7A8DF007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A8DF001, 0x7A8DF008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A8DF001, 0x7A8DF009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A8DF001, 0x7A8DF00A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A8DF001, 0x7A8DF00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A8DF001, 0x7A8DF00C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A8DF001, 0x7A8DF00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A8DF001, 0x7A8DF00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A8DF001, 0x7A8DF00F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A8DF001, 0x7A8DF010, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A8DF001, 0x7A8DF011, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A8DF001, 0x7A8DF002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A8DF001, 0x7A8DF003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A8DF001, 0x7A8DF004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A8DF001, 0x7A8DF005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A8DF001, 0x7A8DF006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7A8DF001, 0x7A8DF007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A8DF001, 0x7A8DF008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A8DF001, 0x7A8DF009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A8DF001, 0x7A8DF00A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A8DF001, 0x7A8DF00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A8DF001, 0x7A8DF00C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A8DF001, 0x7A8DF00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A8DF001, 0x7A8DF00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A8DF001, 0x7A8DF00F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A8DF001, 0x7A8DF010, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A8DF001, 0x7A8DF011, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8DF002, 14800, 0xA8DF001E, 77.56339, 129.0431, 23.51718, -0.844897, 0, 0, -0.534929,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

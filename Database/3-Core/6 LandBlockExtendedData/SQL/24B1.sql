@@ -5,14 +5,14 @@ VALUES (0x724B1001,  1154, 0x24B10028, 99.9585, 172.1718, 0, 0.2821324, 0, 0, -0
 /* @teleloc 0x24B10028 [99.958500 172.171800 0.000000] 0.282132 0.000000 0.000000 -0.959376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B1001, 0x724B1002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x724B1001, 0x724B1003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x724B1001, 0x724B1004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x724B1001, 0x724B1005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x724B1001, 0x724B1006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x724B1001, 0x724B1007, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x724B1001, 0x724B1008, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x724B1001, 0x724B1009, '2019-02-10 00:00:00') /* Carenzi Burrower */;
+VALUES (0x724B1001, 0x724B1002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x724B1001, 0x724B1003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x724B1001, 0x724B1004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x724B1001, 0x724B1005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x724B1001, 0x724B1006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x724B1001, 0x724B1007, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x724B1001, 0x724B1008, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x724B1001, 0x724B1009, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B1002, 22010, 0x24B10028, 99.9585, 172.1718, 0, 0.2821324, 0, 0, -0.9593755,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -51,7 +51,7 @@ VALUES (0x724B100A,  1542, 0x24B1003E, 191.7475, 121.2545, 0.15, -0.807056, 0, 0
 /* @teleloc 0x24B1003E [191.747500 121.254500 0.150000] -0.807056 0.000000 0.000000 -0.590475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B100A, 0x724B100B, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator */;
+VALUES (0x724B100A, 0x724B100B, '2019-02-10 00:00:00') /* Carenzi Burrower Camp Generator (11563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B100B, 11563, 0x24B1003E, 191.7475, 121.2545, 0.15, -0.807056, 0, 0, -0.590475,  True, '2019-02-10 00:00:00'); /* Carenzi Burrower Camp Generator */

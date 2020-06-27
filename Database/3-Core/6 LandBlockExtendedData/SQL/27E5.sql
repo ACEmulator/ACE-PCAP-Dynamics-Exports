@@ -5,13 +5,13 @@ VALUES (0x727E5001,  1154, 0x27E5003E, 172.5844, 125.4509, -0.447, 0.6176273, 0,
 /* @teleloc 0x27E5003E [172.584400 125.450900 -0.447000] 0.617627 0.000000 0.000000 -0.786471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x727E5001, 0x727E5002, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x727E5001, 0x727E5003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x727E5001, 0x727E5004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x727E5001, 0x727E5005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x727E5001, 0x727E5006, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x727E5001, 0x727E5007, '2019-02-10 00:00:00') /* Maddened Fiun */
-     , (0x727E5001, 0x727E5008, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x727E5001, 0x727E5002, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x727E5001, 0x727E5003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x727E5001, 0x727E5004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x727E5001, 0x727E5005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x727E5001, 0x727E5006, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x727E5001, 0x727E5007, '2019-02-10 00:00:00') /* Maddened Fiun (28646) */
+     , (0x727E5001, 0x727E5008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727E5002, 12038, 0x27E5003E, 172.5844, 125.4509, -0.447, 0.6176273, 0, 0, -0.7864709,  True, '2019-02-10 00:00:00'); /* Dread Ursuin */

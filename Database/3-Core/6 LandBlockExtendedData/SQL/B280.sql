@@ -5,25 +5,25 @@ VALUES (0x7B280001,  1154, 0xB2800021, 116.4459, 18.75937, 44.20871, 0.1652755, 
 /* @teleloc 0xB2800021 [116.445900 18.759370 44.208710] 0.165276 0.000000 0.000000 -0.986247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B280001, 0x7B280002, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7B280001, 0x7B280003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7B280001, 0x7B280004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7B280001, 0x7B280005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B280001, 0x7B280006, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B280001, 0x7B280007, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B280001, 0x7B280008, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B280001, 0x7B280009, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7B280001, 0x7B28000A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7B280001, 0x7B28000B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B280001, 0x7B28000C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B280001, 0x7B28000D, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B280001, 0x7B28000E, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B280001, 0x7B28000F, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B280001, 0x7B280010, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B280001, 0x7B280011, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7B280001, 0x7B280012, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7B280001, 0x7B280013, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B280001, 0x7B280014, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7B280001, 0x7B280002, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7B280001, 0x7B280003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B280001, 0x7B280004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7B280001, 0x7B280005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B280001, 0x7B280006, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B280001, 0x7B280007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B280001, 0x7B280008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B280001, 0x7B280009, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7B280001, 0x7B28000A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7B280001, 0x7B28000B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B280001, 0x7B28000C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B280001, 0x7B28000D, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B280001, 0x7B28000E, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B280001, 0x7B28000F, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B280001, 0x7B280010, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B280001, 0x7B280011, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7B280001, 0x7B280012, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B280001, 0x7B280013, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B280001, 0x7B280014, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B280002, 21160, 0xB2800021, 116.4459, 18.75937, 44.20871, 0.1652755, 0, 0, -0.9862474,  True, '2019-02-10 00:00:00'); /* Scourge */
@@ -106,7 +106,7 @@ VALUES (0x7B280015,  1542, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0,
 /* @teleloc 0xB280003A [182.769400 42.093620 42.713650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B280015, 0x7B280016, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7B280015, 0x7B280016, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B280016,   265, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

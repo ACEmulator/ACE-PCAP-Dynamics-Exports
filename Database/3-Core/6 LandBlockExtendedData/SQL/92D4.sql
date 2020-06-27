@@ -5,13 +5,13 @@ VALUES (0x792D4001,  1154, 0x92D40017, 48.87859, 157.4645, 250.3815, 0.7071068, 
 /* @teleloc 0x92D40017 [48.878590 157.464500 250.381500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D4001, 0x792D4002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D4001, 0x792D4003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792D4001, 0x792D4004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D4001, 0x792D4005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D4001, 0x792D4006, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792D4001, 0x792D4007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x792D4001, 0x792D4008, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x792D4001, 0x792D4002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D4001, 0x792D4003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792D4001, 0x792D4004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D4001, 0x792D4005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D4001, 0x792D4006, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792D4001, 0x792D4007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x792D4001, 0x792D4008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D4002, 24294, 0x92D40017, 48.87859, 157.4645, 250.3815, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

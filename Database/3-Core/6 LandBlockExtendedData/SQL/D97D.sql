@@ -13,15 +13,15 @@ VALUES (0x7D97D002,  1154, 0xD97D0033, 159.9105, 68.65173, 18.005, -0.9350706, 0
 /* @teleloc 0xD97D0033 [159.910500 68.651730 18.005000] -0.935071 0.000000 0.000000 -0.354462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D97D002, 0x7D97D003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D97D002, 0x7D97D004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D97D002, 0x7D97D005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D97D002, 0x7D97D006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D97D002, 0x7D97D007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D97D002, 0x7D97D008, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7D97D002, 0x7D97D009, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7D97D002, 0x7D97D00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D97D002, 0x7D97D00B, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x7D97D002, 0x7D97D003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D97D002, 0x7D97D004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D97D002, 0x7D97D005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D97D002, 0x7D97D006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D97D002, 0x7D97D007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D97D002, 0x7D97D008, '2019-02-10 00:00:00') /* Exploration Marker (39792) */
+     , (0x7D97D002, 0x7D97D009, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7D97D002, 0x7D97D00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D97D002, 0x7D97D00B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D97D003,  1757, 0xD97D0033, 159.9105, 68.65173, 18.005, -0.9350706, 0, 0, -0.3544616,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

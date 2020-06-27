@@ -5,8 +5,8 @@ VALUES (0x7C37E001,  1154, 0xC37E0005, 21.05764, 106.4633, 31.13656, 0.5285587, 
 /* @teleloc 0xC37E0005 [21.057640 106.463300 31.136560] 0.528559 0.000000 0.000000 -0.848897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C37E001, 0x7C37E002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C37E001, 0x7C37E003, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7C37E001, 0x7C37E002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C37E001, 0x7C37E003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C37E002,   181, 0xC37E0005, 21.05764, 106.4633, 31.13656, 0.5285587, 0, 0, -0.8488968,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

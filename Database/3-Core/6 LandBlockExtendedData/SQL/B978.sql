@@ -5,28 +5,28 @@ VALUES (0x7B978001,  1154, 0xB9780011, 58.47859, 21.69311, 57.81491, -0.138195, 
 /* @teleloc 0xB9780011 [58.478590 21.693110 57.814910] -0.138195 0.000000 0.000000 0.990405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B978001, 0x7B978002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B978001, 0x7B978003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B978001, 0x7B978004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B978001, 0x7B978005, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B978001, 0x7B978006, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B978007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B978001, 0x7B978008, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B978009, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B97800A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B97800B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B97800C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B978001, 0x7B97800D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B978001, 0x7B97800E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B978001, 0x7B97800F, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B978001, 0x7B978010, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B978001, 0x7B978011, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B978001, 0x7B978012, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B978001, 0x7B978013, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B978014, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B978001, 0x7B978015, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B978001, 0x7B978016, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B978001, 0x7B978017, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7B978001, 0x7B978002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B978001, 0x7B978003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B978001, 0x7B978004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B978001, 0x7B978005, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B978001, 0x7B978006, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B978007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B978001, 0x7B978008, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B978009, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B97800A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B97800B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B97800C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B978001, 0x7B97800D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B978001, 0x7B97800E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B978001, 0x7B97800F, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B978001, 0x7B978010, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B978001, 0x7B978011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B978001, 0x7B978012, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B978001, 0x7B978013, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B978014, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B978001, 0x7B978015, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B978001, 0x7B978016, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B978001, 0x7B978017, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B978002,   937, 0xB9780011, 58.47859, 21.69311, 57.81491, -0.138195, 0, 0, 0.990405,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -121,9 +121,9 @@ VALUES (0x7B978018,  1542, 0xB9780005, 9.434062, 103.5437, 39.68641, 1, 0, 0, 0,
 /* @teleloc 0xB9780005 [9.434062 103.543700 39.686410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B978018, 0x7B978019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B978018, 0x7B97801A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B978018, 0x7B97801B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B978018, 0x7B978019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B978018, 0x7B97801A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B978018, 0x7B97801B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B978019,  4179, 0xB9780005, 9.434062, 103.5437, 39.68641, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -21,20 +21,20 @@ VALUES (0x7DA7402D,  1154, 0xDA740102, 176.563, 64.3449, 18.0055, 0.999975, 0, 0
 /* @teleloc 0xDA740102 [176.563000 64.344900 18.005500] 0.999975 0.000000 0.000000 0.007093 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA7402D, 0x7DA7402E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DA7402D, 0x7DA7402F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74030, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74031, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74032, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DA7402D, 0x7DA74033, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DA7402D, 0x7DA74034, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74035, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DA7402D, 0x7DA74036, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74037, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA74038, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DA7402D, 0x7DA74039, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA7403A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DA7402D, 0x7DA7403B, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DA7402D, 0x7DA7402E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7402D, 0x7DA7402F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74030, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74031, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74032, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7402D, 0x7DA74033, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7402D, 0x7DA74034, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74035, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DA7402D, 0x7DA74036, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74037, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA74038, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DA7402D, 0x7DA74039, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA7403A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DA7402D, 0x7DA7403B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA7402E,   231, 0xDA740102, 176.563, 64.3449, 18.0055, 0.999975, 0, 0, 0.00709261,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

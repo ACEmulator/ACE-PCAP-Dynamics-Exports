@@ -5,10 +5,10 @@ VALUES (0x77890001,  1154, 0x78900037, 156.6837, 145.3076, 225.3211, 0.8660254, 
 /* @teleloc 0x78900037 [156.683700 145.307600 225.321100] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77890001, 0x77890002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77890001, 0x77890003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77890001, 0x77890004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77890001, 0x77890005, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x77890001, 0x77890002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77890001, 0x77890003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77890001, 0x77890004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77890001, 0x77890005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77890002,  7978, 0x78900037, 156.6837, 145.3076, 225.3211, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -31,7 +31,7 @@ VALUES (0x77890006,  1542, 0x78900005, 0.2711029, 102.26, 137.5156, 0.6776092, 0
 /* @teleloc 0x78900005 [0.271103 102.260000 137.515600] 0.677609 0.000000 0.000000 -0.735422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77890006, 0x77890007, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x77890006, 0x77890007, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77890007, 31686, 0x78900005, 0.2711029, 102.26, 137.5156, 0.6776092, 0, 0, -0.7354221,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

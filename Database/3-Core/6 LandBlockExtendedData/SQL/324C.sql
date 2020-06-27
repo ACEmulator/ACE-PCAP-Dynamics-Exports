@@ -5,13 +5,13 @@ VALUES (0x7324C001,  1154, 0x324C003B, 171.8883, 58.19213, 16.40383, 0.7071068, 
 /* @teleloc 0x324C003B [171.888300 58.192130 16.403830] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7324C001, 0x7324C002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7324C001, 0x7324C003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7324C001, 0x7324C004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7324C001, 0x7324C005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7324C001, 0x7324C006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7324C001, 0x7324C007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7324C001, 0x7324C008, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x7324C001, 0x7324C002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7324C001, 0x7324C003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7324C001, 0x7324C004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7324C001, 0x7324C005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7324C001, 0x7324C006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7324C001, 0x7324C007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7324C001, 0x7324C008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324C002, 36858, 0x324C003B, 171.8883, 58.19213, 16.40383, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -46,7 +46,7 @@ VALUES (0x7324C009,  1542, 0x324C001E, 86.89844, 143.3672, 35.39223, 0.9990482, 
 /* @teleloc 0x324C001E [86.898440 143.367200 35.392230] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7324C009, 0x7324C00A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7324C009, 0x7324C00A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324C00A,  4179, 0x324C001E, 86.89844, 143.3672, 35.39223, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

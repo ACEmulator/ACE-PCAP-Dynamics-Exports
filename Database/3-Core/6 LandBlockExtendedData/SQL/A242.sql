@@ -5,17 +5,17 @@ VALUES (0x7A242001,  1154, 0xA2420028, 101.1794, 187.7284, 55.61499, 0.9238795, 
 /* @teleloc 0xA2420028 [101.179400 187.728400 55.614990] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A242001, 0x7A242002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7A242001, 0x7A242003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A242001, 0x7A242004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7A242001, 0x7A242005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A242001, 0x7A242006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A242001, 0x7A242007, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7A242001, 0x7A242008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A242001, 0x7A242009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A242001, 0x7A24200A, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7A242001, 0x7A24200B, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7A242001, 0x7A24200C, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7A242001, 0x7A242002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7A242001, 0x7A242003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A242001, 0x7A242004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7A242001, 0x7A242005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A242001, 0x7A242006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A242001, 0x7A242007, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7A242001, 0x7A242008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A242001, 0x7A242009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A242001, 0x7A24200A, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A242001, 0x7A24200B, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7A242001, 0x7A24200C, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A242002,   228, 0xA2420028, 101.1794, 187.7284, 55.61499, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

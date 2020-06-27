@@ -5,14 +5,14 @@ VALUES (0x7BB71001,  1154, 0xBB710002, 14.08239, 41.24648, 12.84647, 0.9511219, 
 /* @teleloc 0xBB710002 [14.082390 41.246480 12.846470] 0.951122 0.000000 0.000000 -0.308816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB71001, 0x7BB71002, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BB71001, 0x7BB71003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB71001, 0x7BB71004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BB71001, 0x7BB71005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BB71001, 0x7BB71006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BB71001, 0x7BB71007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BB71001, 0x7BB71008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BB71001, 0x7BB71009, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7BB71001, 0x7BB71002, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BB71001, 0x7BB71003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB71001, 0x7BB71004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BB71001, 0x7BB71005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BB71001, 0x7BB71006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BB71001, 0x7BB71007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BB71001, 0x7BB71008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BB71001, 0x7BB71009, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB71002, 27255, 0xBB710002, 14.08239, 41.24648, 12.84647, 0.9511219, 0, 0, -0.3088156,  True, '2019-02-10 00:00:00'); /* Mud Golem Sludge Lord */
@@ -51,7 +51,7 @@ VALUES (0x7BB7100A,  1542, 0xBB71002E, 131.8178, 128.3375, 9.937, 0.7960837, 0, 
 /* @teleloc 0xBB71002E [131.817800 128.337500 9.937000] 0.796084 0.000000 0.000000 -0.605187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB7100A, 0x7BB7100B, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7BB7100A, 0x7BB7100B, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB7100B,  1955, 0xBB71002E, 131.8178, 128.3375, 9.937, 0.7960837, 0, 0, -0.6051865,  True, '2019-02-10 00:00:00'); /* Gateway */

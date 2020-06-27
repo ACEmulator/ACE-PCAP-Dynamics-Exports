@@ -5,16 +5,16 @@ VALUES (0x7AFD5001,  1154, 0xAFD50013, 64.25323, 49.63711, 33.992, 0.9134683, 0,
 /* @teleloc 0xAFD50013 [64.253230 49.637110 33.992000] 0.913468 0.000000 0.000000 -0.406910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFD5001, 0x7AFD5002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7AFD5001, 0x7AFD5003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AFD5001, 0x7AFD5004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AFD5001, 0x7AFD5005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AFD5001, 0x7AFD5006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AFD5001, 0x7AFD5007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7AFD5001, 0x7AFD5008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7AFD5001, 0x7AFD5009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AFD5001, 0x7AFD500A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AFD5001, 0x7AFD500B, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7AFD5001, 0x7AFD5002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7AFD5001, 0x7AFD5003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AFD5001, 0x7AFD5004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AFD5001, 0x7AFD5005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AFD5001, 0x7AFD5006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AFD5001, 0x7AFD5007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7AFD5001, 0x7AFD5008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7AFD5001, 0x7AFD5009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AFD5001, 0x7AFD500A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AFD5001, 0x7AFD500B, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFD5002, 24289, 0xAFD50013, 64.25323, 49.63711, 33.992, 0.9134683, 0, 0, -0.4069099,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -61,7 +61,7 @@ VALUES (0x7AFD500C,  1542, 0xAFD50026, 108.4153, 125.6409, 29.54137, -4.371139E-
 /* @teleloc 0xAFD50026 [108.415300 125.640900 29.541370] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFD500C, 0x7AFD500D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AFD500C, 0x7AFD500D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFD500D,  4380, 0xAFD50026, 108.4153, 125.6409, 29.54137, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

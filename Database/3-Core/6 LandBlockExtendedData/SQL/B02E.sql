@@ -5,10 +5,10 @@ VALUES (0x7B02E001,  1154, 0xB02E0027, 104.6266, 166.5703, 59.29111, -0.8803201,
 /* @teleloc 0xB02E0027 [104.626600 166.570300 59.291110] -0.880320 0.000000 0.000000 -0.474380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B02E001, 0x7B02E002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B02E001, 0x7B02E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B02E001, 0x7B02E004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B02E001, 0x7B02E005, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7B02E001, 0x7B02E002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B02E001, 0x7B02E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B02E001, 0x7B02E004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B02E001, 0x7B02E005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B02E002, 14559, 0xB02E0027, 104.6266, 166.5703, 59.29111, -0.8803201, 0, 0, -0.4743801,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -31,7 +31,7 @@ VALUES (0x7B02E006,  1542, 0xB02E0036, 163.9956, 124.7785, 71.58059, 1, 0, 0, 0,
 /* @teleloc 0xB02E0036 [163.995600 124.778500 71.580590] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B02E006, 0x7B02E007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B02E006, 0x7B02E007, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B02E007,  4379, 0xB02E0036, 163.9956, 124.7785, 71.58059, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

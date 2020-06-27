@@ -5,19 +5,19 @@ VALUES (0x7BED0001,  1154, 0xBED00006, 8.450775, 127.721, 128.7142, -0.6487494, 
 /* @teleloc 0xBED00006 [8.450775 127.721000 128.714200] -0.648749 0.000000 0.000000 -0.761002 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED0001, 0x7BED0002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BED0001, 0x7BED0003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BED0001, 0x7BED0004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BED0001, 0x7BED0005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BED0001, 0x7BED0006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED0001, 0x7BED0007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BED0001, 0x7BED0008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BED0001, 0x7BED0009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BED0001, 0x7BED000A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BED0001, 0x7BED000B, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BED0001, 0x7BED000C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BED0001, 0x7BED000D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED0001, 0x7BED000E, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7BED0001, 0x7BED0002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BED0001, 0x7BED0003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BED0001, 0x7BED0004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BED0001, 0x7BED0005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BED0001, 0x7BED0006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED0001, 0x7BED0007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BED0001, 0x7BED0008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BED0001, 0x7BED0009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BED0001, 0x7BED000A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BED0001, 0x7BED000B, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BED0001, 0x7BED000C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BED0001, 0x7BED000D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED0001, 0x7BED000E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED0002, 14800, 0xBED00006, 8.450775, 127.721, 128.7142, -0.6487494, 0, 0, -0.7610021,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -76,8 +76,8 @@ VALUES (0x7BED000F,  1542, 0xBED00006, 20.30734, 127.9385, 129.6923, 1, 0, 0, 0,
 /* @teleloc 0xBED00006 [20.307340 127.938500 129.692300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED000F, 0x7BED0010, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BED000F, 0x7BED0011, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BED000F, 0x7BED0010, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BED000F, 0x7BED0011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED0010, 22567, 0xBED00006, 20.30734, 127.9385, 129.6923, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

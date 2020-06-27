@@ -5,14 +5,14 @@ VALUES (0x73BF5001,  1154, 0x3BF50005, 21.60889, 104.335, 2, 0.5961903, 0, 0, -0
 /* @teleloc 0x3BF50005 [21.608890 104.335000 2.000000] 0.596190 0.000000 0.000000 -0.802843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BF5001, 0x73BF5002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73BF5001, 0x73BF5003, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73BF5001, 0x73BF5004, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73BF5001, 0x73BF5005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73BF5001, 0x73BF5006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73BF5001, 0x73BF5007, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x73BF5001, 0x73BF5008, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73BF5001, 0x73BF5009, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x73BF5001, 0x73BF5002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73BF5001, 0x73BF5003, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73BF5001, 0x73BF5004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x73BF5001, 0x73BF5005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73BF5001, 0x73BF5006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73BF5001, 0x73BF5007, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x73BF5001, 0x73BF5008, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73BF5001, 0x73BF5009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BF5002, 23616, 0x3BF50005, 21.60889, 104.335, 2, 0.5961903, 0, 0, -0.8028432,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

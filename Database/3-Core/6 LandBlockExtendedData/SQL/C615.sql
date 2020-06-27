@@ -5,12 +5,12 @@ VALUES (0x7C615001,  1154, 0xC6150020, 86.15359, 191.8665, -0.09930003, 0.707106
 /* @teleloc 0xC6150020 [86.153590 191.866500 -0.099300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C615001, 0x7C615002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C615001, 0x7C615003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C615001, 0x7C615004, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7C615001, 0x7C615005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7C615001, 0x7C615006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7C615001, 0x7C615007, '2019-02-10 00:00:00') /* Dread Idol */;
+VALUES (0x7C615001, 0x7C615002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C615001, 0x7C615003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C615001, 0x7C615004, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7C615001, 0x7C615005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7C615001, 0x7C615006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7C615001, 0x7C615007, '2019-02-10 00:00:00') /* Dread Idol (8467) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C615002,  7988, 0xC6150020, 86.15359, 191.8665, -0.09930003, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

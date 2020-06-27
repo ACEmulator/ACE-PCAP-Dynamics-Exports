@@ -5,12 +5,12 @@ VALUES (0x7CEE1001,  1154, 0xCEE10013, 56.31335, 62.3116, -0.8988001, 0.4762428,
 /* @teleloc 0xCEE10013 [56.313350 62.311600 -0.898800] 0.476243 0.000000 0.000000 -0.879314 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEE1001, 0x7CEE1002, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CEE1001, 0x7CEE1003, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CEE1001, 0x7CEE1004, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CEE1001, 0x7CEE1005, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CEE1001, 0x7CEE1006, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CEE1001, 0x7CEE1007, '2019-02-10 00:00:00') /* Aqueous Golem */;
+VALUES (0x7CEE1001, 0x7CEE1002, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CEE1001, 0x7CEE1003, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CEE1001, 0x7CEE1004, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CEE1001, 0x7CEE1005, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CEE1001, 0x7CEE1006, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CEE1001, 0x7CEE1007, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEE1002, 31910, 0xCEE10013, 56.31335, 62.3116, -0.8988001, 0.4762428, 0, 0, -0.8793138,  True, '2019-02-10 00:00:00'); /* Shallows Shredder */

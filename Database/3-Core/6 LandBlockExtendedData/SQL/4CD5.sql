@@ -5,17 +5,17 @@ VALUES (0x74CD5001,  1154, 0x4CD50033, 150.7922, 58.67411, 56.4635, -0.9179376, 
 /* @teleloc 0x4CD50033 [150.792200 58.674110 56.463500] -0.917938 0.000000 0.000000 -0.396725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CD5001, 0x74CD5002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74CD5001, 0x74CD5003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CD5001, 0x74CD5004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CD5001, 0x74CD5005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CD5001, 0x74CD5006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74CD5001, 0x74CD5007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74CD5001, 0x74CD5008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74CD5001, 0x74CD5009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74CD5001, 0x74CD500A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74CD5001, 0x74CD500B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x74CD5001, 0x74CD500C, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x74CD5001, 0x74CD5002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74CD5001, 0x74CD5003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CD5001, 0x74CD5004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CD5001, 0x74CD5005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CD5001, 0x74CD5006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74CD5001, 0x74CD5007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74CD5001, 0x74CD5008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74CD5001, 0x74CD5009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74CD5001, 0x74CD500A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74CD5001, 0x74CD500B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x74CD5001, 0x74CD500C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CD5002, 23616, 0x4CD50033, 150.7922, 58.67411, 56.4635, -0.9179376, 0, 0, -0.3967247,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -66,9 +66,9 @@ VALUES (0x74CD500D,  1542, 0x4CD50024, 98.61478, 80.4161, 47.79239, -4.371139E-0
 /* @teleloc 0x4CD50024 [98.614780 80.416100 47.792390] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CD500D, 0x74CD500E, '2019-02-10 00:00:00') /* Bones */
-     , (0x74CD500D, 0x74CD500F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74CD500D, 0x74CD5010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74CD500D, 0x74CD500E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74CD500D, 0x74CD500F, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74CD500D, 0x74CD5010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CD500E,  4380, 0x4CD50024, 98.61478, 80.4161, 47.79239, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

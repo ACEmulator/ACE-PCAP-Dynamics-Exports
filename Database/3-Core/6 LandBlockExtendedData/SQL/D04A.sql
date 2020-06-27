@@ -5,17 +5,17 @@ VALUES (0x7D04A001,  1154, 0xD04A0024, 108.4559, 88.65599, 63.19449, 0.2717117, 
 /* @teleloc 0xD04A0024 [108.455900 88.655990 63.194490] 0.271712 0.000000 0.000000 -0.962379 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D04A001, 0x7D04A002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D04A001, 0x7D04A003, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7D04A001, 0x7D04A004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7D04A001, 0x7D04A005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D04A001, 0x7D04A006, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7D04A001, 0x7D04A007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D04A001, 0x7D04A008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D04A001, 0x7D04A009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7D04A001, 0x7D04A00A, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7D04A001, 0x7D04A00B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D04A001, 0x7D04A00C, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7D04A001, 0x7D04A002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D04A001, 0x7D04A003, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7D04A001, 0x7D04A004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7D04A001, 0x7D04A005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D04A001, 0x7D04A006, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7D04A001, 0x7D04A007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D04A001, 0x7D04A008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D04A001, 0x7D04A009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7D04A001, 0x7D04A00A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7D04A001, 0x7D04A00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D04A001, 0x7D04A00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D04A002,  2576, 0xD04A0024, 108.4559, 88.65599, 63.19449, 0.2717117, 0, 0, -0.9623787,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

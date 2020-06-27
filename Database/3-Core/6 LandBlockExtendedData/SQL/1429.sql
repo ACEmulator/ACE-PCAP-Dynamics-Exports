@@ -5,16 +5,16 @@ VALUES (0x71429001,  1154, 0x14290040, 186.8956, 189.1667, 17.24129, 0.2588191, 
 /* @teleloc 0x14290040 [186.895600 189.166700 17.241290] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71429001, 0x71429002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71429001, 0x71429003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71429001, 0x71429004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71429001, 0x71429005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71429001, 0x71429006, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x71429001, 0x71429007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71429001, 0x71429008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71429001, 0x71429009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x71429001, 0x7142900A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71429001, 0x7142900B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71429001, 0x71429002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71429001, 0x71429003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71429001, 0x71429004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71429001, 0x71429005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71429001, 0x71429006, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x71429001, 0x71429007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71429001, 0x71429008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71429001, 0x71429009, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x71429001, 0x7142900A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71429001, 0x7142900B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71429002, 36822, 0x14290040, 186.8956, 189.1667, 17.24129, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -61,7 +61,7 @@ VALUES (0x7142900C,  1542, 0x14290038, 167.7553, 172.9786, 8.064408, -0.8946214,
 /* @teleloc 0x14290038 [167.755300 172.978600 8.064408] -0.894621 0.000000 0.000000 -0.446825 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142900C, 0x7142900D, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7142900C, 0x7142900D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142900D,  9288, 0x14290038, 167.7553, 172.9786, 8.064408, -0.8946214, 0, 0, -0.4468249,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

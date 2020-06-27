@@ -5,10 +5,10 @@ VALUES (0x78C64001,  1154, 0x8C640028, 119.4345, 190.3017, 9.961272, -0.1982983,
 /* @teleloc 0x8C640028 [119.434500 190.301700 9.961272] -0.198298 0.000000 0.000000 -0.980142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C64001, 0x78C64002, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78C64001, 0x78C64003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78C64001, 0x78C64004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78C64001, 0x78C64005, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x78C64001, 0x78C64002, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78C64001, 0x78C64003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78C64001, 0x78C64004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78C64001, 0x78C64005, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C64002,  1766, 0x8C640028, 119.4345, 190.3017, 9.961272, -0.1982983, 0, 0, -0.9801417,  True, '2019-02-10 00:00:00'); /* Stony Armoredillo */

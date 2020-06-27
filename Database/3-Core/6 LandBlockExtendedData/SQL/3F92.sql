@@ -5,17 +5,17 @@ VALUES (0x73F92001,  1154, 0x3F920032, 160.9648, 31.62268, -0.4500003, 0.6882519
 /* @teleloc 0x3F920032 [160.964800 31.622680 -0.450000] 0.688252 0.000000 0.000000 -0.725472 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F92001, 0x73F92002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F92001, 0x73F92003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73F92001, 0x73F92004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73F92001, 0x73F92005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73F92001, 0x73F92006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73F92001, 0x73F92007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73F92001, 0x73F92008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73F92001, 0x73F92009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F92001, 0x73F9200A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73F92001, 0x73F9200B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73F92001, 0x73F9200C, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73F92001, 0x73F92002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F92001, 0x73F92003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73F92001, 0x73F92004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73F92001, 0x73F92005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73F92001, 0x73F92006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73F92001, 0x73F92007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73F92001, 0x73F92008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73F92001, 0x73F92009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F92001, 0x73F9200A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73F92001, 0x73F9200B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73F92001, 0x73F9200C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F92002, 33309, 0x3F920032, 160.9648, 31.62268, -0.4500003, 0.6882519, 0, 0, -0.7254719,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
@@ -66,7 +66,7 @@ VALUES (0x73F9200D,  1542, 0x3F920032, 164.8036, 24.69186, -0.45, 0.9990482, 0, 
 /* @teleloc 0x3F920032 [164.803600 24.691860 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F9200D, 0x73F9200E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73F9200D, 0x73F9200E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F9200E,  4179, 0x3F920032, 164.8036, 24.69186, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

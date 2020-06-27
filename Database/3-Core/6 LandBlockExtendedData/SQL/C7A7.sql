@@ -5,46 +5,46 @@ VALUES (0x7C7A7001,  1154, 0xC7A70033, 145.7872, 70.00668, 54.17161, -0.9973741,
 /* @teleloc 0xC7A70033 [145.787200 70.006680 54.171610] -0.997374 0.000000 0.000000 -0.072423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A7001, 0x7C7A7002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C7A7001, 0x7C7A7003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C7A7001, 0x7C7A7004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C7A7001, 0x7C7A7005, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7C7A7001, 0x7C7A7006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A7007, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C7A7001, 0x7C7A7008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A7009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A700A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A700B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A700C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C7A7001, 0x7C7A700D, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C7A7001, 0x7C7A700E, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C7A7001, 0x7C7A700F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C7A7001, 0x7C7A7010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C7A7001, 0x7C7A7011, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7C7A7001, 0x7C7A7012, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C7A7001, 0x7C7A7013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C7A7001, 0x7C7A7014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C7A7001, 0x7C7A7015, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C7A7001, 0x7C7A7016, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C7A7001, 0x7C7A7017, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C7A7001, 0x7C7A7018, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7C7A7001, 0x7C7A7019, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A7001, 0x7C7A701A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A7001, 0x7C7A701B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C7A7001, 0x7C7A701C, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C7A7001, 0x7C7A701D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C7A7001, 0x7C7A701E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A7001, 0x7C7A701F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A7001, 0x7C7A7020, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A7001, 0x7C7A7021, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C7A7001, 0x7C7A7022, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C7A7001, 0x7C7A7023, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C7A7001, 0x7C7A7024, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7C7A7001, 0x7C7A7025, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C7A7001, 0x7C7A7026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A7001, 0x7C7A7027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C7A7001, 0x7C7A7028, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C7A7001, 0x7C7A7029, '2019-02-10 00:00:00') /* Gout */;
+VALUES (0x7C7A7001, 0x7C7A7002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C7A7001, 0x7C7A7003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C7A7001, 0x7C7A7004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C7A7001, 0x7C7A7005, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7C7A7001, 0x7C7A7006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A7007, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C7A7001, 0x7C7A7008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A7009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A700A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A700B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A700C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C7A7001, 0x7C7A700D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C7A7001, 0x7C7A700E, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C7A7001, 0x7C7A700F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C7A7001, 0x7C7A7010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C7A7001, 0x7C7A7011, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7C7A7001, 0x7C7A7012, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C7A7001, 0x7C7A7013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C7A7001, 0x7C7A7014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C7A7001, 0x7C7A7015, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C7A7001, 0x7C7A7016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C7A7001, 0x7C7A7017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C7A7001, 0x7C7A7018, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7C7A7001, 0x7C7A7019, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A7001, 0x7C7A701A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A7001, 0x7C7A701B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C7A7001, 0x7C7A701C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C7A7001, 0x7C7A701D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C7A7001, 0x7C7A701E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A7001, 0x7C7A701F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A7001, 0x7C7A7020, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A7001, 0x7C7A7021, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C7A7001, 0x7C7A7022, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C7A7001, 0x7C7A7023, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C7A7001, 0x7C7A7024, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7C7A7001, 0x7C7A7025, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C7A7001, 0x7C7A7026, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A7001, 0x7C7A7027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C7A7001, 0x7C7A7028, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C7A7001, 0x7C7A7029, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A7002,   229, 0xC7A70033, 145.7872, 70.00668, 54.17161, -0.9973741, 0, 0, -0.07242262,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -211,9 +211,9 @@ VALUES (0x7C7A702A,  1542, 0xC7A7002C, 141.22, 87.44234, 52.48147, 0.1573133, 0,
 /* @teleloc 0xC7A7002C [141.220000 87.442340 52.481470] 0.157313 0.000000 0.000000 -0.987549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A702A, 0x7C7A702B, '2019-02-10 00:00:00') /* Seeds of Anger */
-     , (0x7C7A702A, 0x7C7A702C, '2019-02-10 00:00:00') /* Candy Corn */
-     , (0x7C7A702A, 0x7C7A702D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C7A702A, 0x7C7A702B, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */
+     , (0x7C7A702A, 0x7C7A702C, '2019-02-10 00:00:00') /* Candy Corn (32207) */
+     , (0x7C7A702A, 0x7C7A702D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A702B, 32204, 0xC7A7002C, 141.22, 87.44234, 52.48147, 0.1573133, 0, 0, -0.9875488,  True, '2019-02-10 00:00:00'); /* Seeds of Anger */

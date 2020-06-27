@@ -5,34 +5,34 @@ VALUES (0x7C892001,  1154, 0xC8920027, 113.9563, 152.3734, 7.370894, 0.7660445, 
 /* @teleloc 0xC8920027 [113.956300 152.373400 7.370894] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C892001, 0x7C892002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7C892001, 0x7C892003, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7C892001, 0x7C892004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C892001, 0x7C892005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C892001, 0x7C892006, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C892001, 0x7C892007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C892001, 0x7C892008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C892001, 0x7C892009, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7C892001, 0x7C89200A, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C892001, 0x7C89200B, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7C892001, 0x7C89200C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7C892001, 0x7C89200D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C892001, 0x7C89200E, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C892001, 0x7C89200F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C892001, 0x7C892010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C892001, 0x7C892011, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7C892001, 0x7C892012, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C892001, 0x7C892013, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C892001, 0x7C892014, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C892001, 0x7C892015, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C892001, 0x7C892016, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C892001, 0x7C892017, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C892001, 0x7C892018, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C892001, 0x7C892019, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C892001, 0x7C89201A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C892001, 0x7C89201B, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C892001, 0x7C89201C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C892001, 0x7C89201D, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7C892001, 0x7C892002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7C892001, 0x7C892003, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7C892001, 0x7C892004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C892001, 0x7C892005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C892001, 0x7C892006, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C892001, 0x7C892007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C892001, 0x7C892008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C892001, 0x7C892009, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7C892001, 0x7C89200A, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C892001, 0x7C89200B, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7C892001, 0x7C89200C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7C892001, 0x7C89200D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C892001, 0x7C89200E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C892001, 0x7C89200F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C892001, 0x7C892010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C892001, 0x7C892011, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7C892001, 0x7C892012, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C892001, 0x7C892013, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C892001, 0x7C892014, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C892001, 0x7C892015, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C892001, 0x7C892016, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C892001, 0x7C892017, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C892001, 0x7C892018, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C892001, 0x7C892019, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C892001, 0x7C89201A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C892001, 0x7C89201B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C892001, 0x7C89201C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C892001, 0x7C89201D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C892002,   183, 0xC8920027, 113.9563, 152.3734, 7.370894, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -151,8 +151,8 @@ VALUES (0x7C89201E,  1542, 0xC892003E, 179.8633, 133.496, 9.863937, -0.9576489, 
 /* @teleloc 0xC892003E [179.863300 133.496000 9.863937] -0.957649 0.000000 0.000000 -0.287938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C89201E, 0x7C89201F, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7C89201E, 0x7C892020, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C89201E, 0x7C89201F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7C89201E, 0x7C892020, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C89201F,  8646, 0xC892003E, 179.8633, 133.496, 9.863937, -0.9576489, 0, 0, -0.2879384,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

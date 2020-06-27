@@ -5,12 +5,12 @@ VALUES (0x7A8B9001,  1154, 0xA8B90018, 57.01677, 186.7383, 27.105, -0.8880066, 0
 /* @teleloc 0xA8B90018 [57.016770 186.738300 27.105000] -0.888007 0.000000 0.000000 -0.459831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B9001, 0x7A8B9002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7A8B9001, 0x7A8B9003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8B9001, 0x7A8B9004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A8B9001, 0x7A8B9005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A8B9001, 0x7A8B9006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A8B9001, 0x7A8B9007, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7A8B9001, 0x7A8B9002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7A8B9001, 0x7A8B9003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8B9001, 0x7A8B9004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A8B9001, 0x7A8B9005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A8B9001, 0x7A8B9006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A8B9001, 0x7A8B9007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B9002,    10, 0xA8B90018, 57.01677, 186.7383, 27.105, -0.8880066, 0, 0, -0.4598307,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

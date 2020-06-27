@@ -5,13 +5,13 @@ VALUES (0x7938E001,  1154, 0x938E000D, 47.53308, 108.0198, 27.9925, 0.9238795, 0
 /* @teleloc 0x938E000D [47.533080 108.019800 27.992500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7938E001, 0x7938E002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7938E001, 0x7938E003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7938E001, 0x7938E004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7938E001, 0x7938E005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7938E001, 0x7938E006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7938E001, 0x7938E007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7938E001, 0x7938E008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7938E001, 0x7938E002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7938E001, 0x7938E003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7938E001, 0x7938E004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7938E001, 0x7938E005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7938E001, 0x7938E006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7938E001, 0x7938E007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7938E001, 0x7938E008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7938E002,  2612, 0x938E000D, 47.53308, 108.0198, 27.9925, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -46,8 +46,8 @@ VALUES (0x7938E009,  1542, 0x938E000D, 47.06788, 99.44765, 28, 1, 0, 0, 0, False
 /* @teleloc 0x938E000D [47.067880 99.447650 28.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7938E009, 0x7938E00A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7938E009, 0x7938E00B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7938E009, 0x7938E00A, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7938E009, 0x7938E00B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7938E00A, 22576, 0x938E000D, 47.06788, 99.44765, 28, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

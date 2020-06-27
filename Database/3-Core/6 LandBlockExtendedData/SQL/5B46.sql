@@ -9,146 +9,146 @@ VALUES (0x75B46038,  1154, 0x5B460111, 72.8673, -97.8717, -29.9879, -0.054313, 0
 /* @teleloc 0x5B460111 [72.867300 -97.871700 -29.987900] -0.054313 0.000000 0.000000 -0.998524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B46038, 0x75B46039, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4603F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46040, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46041, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46042, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46043, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46044, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46045, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46046, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46047, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46048, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46049, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4604F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46050, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46051, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46052, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46053, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46054, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46055, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46056, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46057, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46058, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46059, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4605F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46060, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46061, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46062, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46063, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46064, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46065, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46066, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46067, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46068, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46069, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4606F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46070, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46071, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46072, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46073, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46074, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46075, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46076, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46077, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46078, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46079, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4607F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46080, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46081, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46082, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46083, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46084, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46085, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46086, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46087, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46088, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46089, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4608F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46090, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46091, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46092, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46093, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46094, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46095, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46096, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46097, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46098, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B46099, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B4609F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A0, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A1, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A2, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A3, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A4, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A5, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A6, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A7, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A8, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460A9, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AA, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AB, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AC, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AD, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AE, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460AF, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B0, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B1, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B2, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B3, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B4, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B5, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B6, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B7, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B8, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460B9, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BA, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BB, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BC, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BD, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BE, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460BF, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460C0, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460C1, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460C2, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460C3, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x75B46038, 0x75B460C4, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x75B46038, 0x75B46039, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4603F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46040, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46041, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46042, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46043, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46044, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46045, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46046, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46047, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46048, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46049, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4604F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46050, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46051, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46052, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46053, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46054, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46055, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46056, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46057, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46058, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46059, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4605F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46060, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46061, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46062, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46063, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46064, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46065, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46066, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46067, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46068, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46069, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4606F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46070, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46071, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46072, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46073, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46074, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46075, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46076, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46077, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46078, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46079, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4607A, '2019-02-10 00:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B46038, 0x75B4607B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4607C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4607D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4607E, '2019-02-10 00:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B46038, 0x75B4607F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46080, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46081, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46082, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46083, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46084, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46085, '2019-02-10 00:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B46038, 0x75B46086, '2019-02-10 00:00:00') /* Tusker Crimsonback (22585) */
+     , (0x75B46038, 0x75B46087, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46088, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46089, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4608F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46090, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46091, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46092, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46093, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46094, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46095, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46096, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46097, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46098, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B46099, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B4609F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A0, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A1, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A2, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A3, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A4, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A5, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A6, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A7, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A8, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460A9, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AA, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AB, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AC, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AD, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AE, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460AF, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B0, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B1, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B2, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B3, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B4, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B5, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B6, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B7, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B8, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460B9, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BA, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BB, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BC, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BD, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BE, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460BF, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460C0, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460C1, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460C2, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460C3, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x75B46038, 0x75B460C4, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B46039,  1627, 0x5B460111, 72.8673, -97.8717, -29.9879, -0.054313, 0, 0, -0.998524,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

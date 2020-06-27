@@ -9,23 +9,23 @@ VALUES (0x7E33D002,  1154, 0xE33D002D, 124.8017, 114.199, 131.5999, 0.285487, 0,
 /* @teleloc 0xE33D002D [124.801700 114.199000 131.599900] 0.285487 0.000000 0.000000 -0.958383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E33D002, 0x7E33D003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E33D002, 0x7E33D004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E33D002, 0x7E33D005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E33D002, 0x7E33D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E33D002, 0x7E33D007, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E33D002, 0x7E33D008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E33D002, 0x7E33D009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E33D002, 0x7E33D00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E33D002, 0x7E33D00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E33D002, 0x7E33D00C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E33D002, 0x7E33D00D, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E33D002, 0x7E33D00E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7E33D002, 0x7E33D00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E33D002, 0x7E33D010, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E33D002, 0x7E33D011, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E33D002, 0x7E33D012, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E33D002, 0x7E33D013, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7E33D002, 0x7E33D003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33D002, 0x7E33D004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33D002, 0x7E33D005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33D002, 0x7E33D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E33D002, 0x7E33D007, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E33D002, 0x7E33D008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E33D002, 0x7E33D009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E33D002, 0x7E33D00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E33D002, 0x7E33D00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E33D002, 0x7E33D00C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33D002, 0x7E33D00D, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E33D002, 0x7E33D00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7E33D002, 0x7E33D00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E33D002, 0x7E33D010, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E33D002, 0x7E33D011, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E33D002, 0x7E33D012, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33D002, 0x7E33D013, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33D003,  2567, 0xE33D002D, 124.8017, 114.199, 131.5999, 0.285487, 0, 0, -0.9583826,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -100,7 +100,7 @@ VALUES (0x7E33D014,  1542, 0xE33D000C, 43.70877, 95.01646, 123.5902, 0.7071068, 
 /* @teleloc 0xE33D000C [43.708770 95.016460 123.590200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E33D014, 0x7E33D015, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7E33D014, 0x7E33D015, '2019-02-10 00:00:00') /* Snowman (9009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33D015,  9009, 0xE33D000C, 43.70877, 95.01646, 123.5902, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

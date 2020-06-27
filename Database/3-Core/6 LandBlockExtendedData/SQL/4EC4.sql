@@ -5,40 +5,40 @@ VALUES (0x74EC4001,  1154, 0x4EC40012, 61.07864, 30.66479, 0.00999999, 0.2588191
 /* @teleloc 0x4EC40012 [61.078640 30.664790 0.010000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC4001, 0x74EC4002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74EC4001, 0x74EC4003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC4004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x74EC4001, 0x74EC4005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC4006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74EC4001, 0x74EC4007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x74EC4001, 0x74EC4008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74EC4001, 0x74EC4009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74EC4001, 0x74EC400A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC400B, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74EC4001, 0x74EC400C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74EC4001, 0x74EC400D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC400E, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74EC4001, 0x74EC400F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74EC4001, 0x74EC4010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74EC4001, 0x74EC4011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC4012, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74EC4001, 0x74EC4013, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74EC4001, 0x74EC4014, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74EC4001, 0x74EC4015, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x74EC4001, 0x74EC4016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74EC4001, 0x74EC4017, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74EC4001, 0x74EC4018, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74EC4001, 0x74EC4019, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74EC4001, 0x74EC401A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74EC4001, 0x74EC401B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74EC4001, 0x74EC401C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74EC4001, 0x74EC401D, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74EC4001, 0x74EC401E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74EC4001, 0x74EC401F, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74EC4001, 0x74EC4020, '2019-02-10 00:00:00') /* Ember */
-     , (0x74EC4001, 0x74EC4021, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74EC4001, 0x74EC4022, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74EC4001, 0x74EC4023, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x74EC4001, 0x74EC4002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74EC4001, 0x74EC4003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC4004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x74EC4001, 0x74EC4005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC4006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74EC4001, 0x74EC4007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x74EC4001, 0x74EC4008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74EC4001, 0x74EC4009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74EC4001, 0x74EC400A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC400B, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74EC4001, 0x74EC400C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74EC4001, 0x74EC400D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC400E, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74EC4001, 0x74EC400F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74EC4001, 0x74EC4010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74EC4001, 0x74EC4011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC4012, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74EC4001, 0x74EC4013, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x74EC4001, 0x74EC4014, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74EC4001, 0x74EC4015, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x74EC4001, 0x74EC4016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74EC4001, 0x74EC4017, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74EC4001, 0x74EC4018, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74EC4001, 0x74EC4019, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74EC4001, 0x74EC401A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74EC4001, 0x74EC401B, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x74EC4001, 0x74EC401C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74EC4001, 0x74EC401D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74EC4001, 0x74EC401E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74EC4001, 0x74EC401F, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74EC4001, 0x74EC4020, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x74EC4001, 0x74EC4021, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74EC4001, 0x74EC4022, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74EC4001, 0x74EC4023, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC4002, 24494, 0x4EC40012, 61.07864, 30.66479, 0.00999999, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -181,8 +181,8 @@ VALUES (0x74EC4024,  1542, 0x4EC40012, 68.66114, 30.31361, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x4EC40012 [68.661140 30.313610 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74EC4024, 0x74EC4025, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74EC4024, 0x74EC4026, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74EC4024, 0x74EC4025, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x74EC4024, 0x74EC4026, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74EC4025, 22567, 0x4EC40012, 68.66114, 30.31361, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

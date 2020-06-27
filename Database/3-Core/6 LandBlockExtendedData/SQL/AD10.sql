@@ -5,26 +5,26 @@ VALUES (0x7AD10001,  1154, 0xAD10003C, 180.5396, 80.05415, 150.429, -0.8058015, 
 /* @teleloc 0xAD10003C [180.539600 80.054150 150.429000] -0.805802 0.000000 0.000000 -0.592186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD10001, 0x7AD10002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AD10001, 0x7AD10003, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7AD10001, 0x7AD10004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AD10001, 0x7AD10005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD10001, 0x7AD10006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7AD10001, 0x7AD10007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AD10001, 0x7AD10008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7AD10001, 0x7AD10009, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x7AD10001, 0x7AD1000A, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7AD10001, 0x7AD1000B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AD10001, 0x7AD1000C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AD10001, 0x7AD1000D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD10001, 0x7AD1000E, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AD10001, 0x7AD1000F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AD10001, 0x7AD10010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AD10001, 0x7AD10011, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AD10001, 0x7AD10012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AD10001, 0x7AD10013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7AD10001, 0x7AD10014, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7AD10001, 0x7AD10015, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x7AD10001, 0x7AD10002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AD10001, 0x7AD10003, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7AD10001, 0x7AD10004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AD10001, 0x7AD10005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD10001, 0x7AD10006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7AD10001, 0x7AD10007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AD10001, 0x7AD10008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7AD10001, 0x7AD10009, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x7AD10001, 0x7AD1000A, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7AD10001, 0x7AD1000B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7AD10001, 0x7AD1000C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AD10001, 0x7AD1000D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD10001, 0x7AD1000E, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AD10001, 0x7AD1000F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AD10001, 0x7AD10010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AD10001, 0x7AD10011, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AD10001, 0x7AD10012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AD10001, 0x7AD10013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7AD10001, 0x7AD10014, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7AD10001, 0x7AD10015, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD10002,  9400, 0xAD10003C, 180.5396, 80.05415, 150.429, -0.8058015, 0, 0, -0.5921858,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
@@ -111,8 +111,8 @@ VALUES (0x7AD10016,  1542, 0xAD100038, 156.5642, 188.1496, 184.0455, 0.7691534, 
 /* @teleloc 0xAD100038 [156.564200 188.149600 184.045500] 0.769153 0.000000 0.000000 -0.639064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD10016, 0x7AD10017, '2019-02-10 00:00:00') /* Rock */
-     , (0x7AD10016, 0x7AD10018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AD10016, 0x7AD10017, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7AD10016, 0x7AD10018, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD10017, 42528, 0xAD100038, 156.5642, 188.1496, 184.0455, 0.7691534, 0, 0, -0.6390642,  True, '2019-02-10 00:00:00'); /* Rock */

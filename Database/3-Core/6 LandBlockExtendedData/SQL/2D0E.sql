@@ -5,27 +5,27 @@ VALUES (0x72D0E001,  1154, 0x2D0E003A, 183.9185, 28.27955, 13.41709, 0.9238795, 
 /* @teleloc 0x2D0E003A [183.918500 28.279550 13.417090] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0E001, 0x72D0E002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D0E001, 0x72D0E003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D0E001, 0x72D0E004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72D0E001, 0x72D0E005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D0E001, 0x72D0E006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72D0E001, 0x72D0E007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D0E001, 0x72D0E008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D0E001, 0x72D0E009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D0E001, 0x72D0E00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D0E001, 0x72D0E00B, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x72D0E001, 0x72D0E00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72D0E001, 0x72D0E00D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x72D0E001, 0x72D0E00E, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D0E001, 0x72D0E00F, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D0E001, 0x72D0E010, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72D0E001, 0x72D0E011, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D0E001, 0x72D0E012, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D0E001, 0x72D0E013, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72D0E001, 0x72D0E014, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72D0E001, 0x72D0E015, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72D0E001, 0x72D0E016, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x72D0E001, 0x72D0E002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D0E001, 0x72D0E003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D0E001, 0x72D0E004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72D0E001, 0x72D0E005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D0E001, 0x72D0E006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72D0E001, 0x72D0E007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D0E001, 0x72D0E008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72D0E001, 0x72D0E009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D0E001, 0x72D0E00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D0E001, 0x72D0E00B, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x72D0E001, 0x72D0E00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72D0E001, 0x72D0E00D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72D0E001, 0x72D0E00E, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D0E001, 0x72D0E00F, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D0E001, 0x72D0E010, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72D0E001, 0x72D0E011, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D0E001, 0x72D0E012, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D0E001, 0x72D0E013, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72D0E001, 0x72D0E014, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D0E001, 0x72D0E015, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D0E001, 0x72D0E016, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0E002, 24497, 0x2D0E003A, 183.9185, 28.27955, 13.41709, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -116,9 +116,9 @@ VALUES (0x72D0E017,  1542, 0x2D0E0038, 157.5914, 185.2496, 9.695149, 1, 0, 0, 0,
 /* @teleloc 0x2D0E0038 [157.591400 185.249600 9.695149] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D0E017, 0x72D0E018, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72D0E017, 0x72D0E019, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72D0E017, 0x72D0E01A, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D0E017, 0x72D0E018, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72D0E017, 0x72D0E019, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72D0E017, 0x72D0E01A, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D0E018,  8999, 0x2D0E0038, 157.5914, 185.2496, 9.695149, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

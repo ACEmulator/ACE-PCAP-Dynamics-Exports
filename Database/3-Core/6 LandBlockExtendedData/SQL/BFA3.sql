@@ -5,13 +5,13 @@ VALUES (0x7BFA3001,  1154, 0xBFA3000C, 41.95868, 94.80579, 10.51344, 0.9995553, 
 /* @teleloc 0xBFA3000C [41.958680 94.805790 10.513440] 0.999555 0.000000 0.000000 -0.029820 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA3001, 0x7BFA3002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BFA3001, 0x7BFA3003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BFA3001, 0x7BFA3004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BFA3001, 0x7BFA3005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7BFA3001, 0x7BFA3006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7BFA3001, 0x7BFA3007, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BFA3001, 0x7BFA3008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7BFA3001, 0x7BFA3002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BFA3001, 0x7BFA3003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BFA3001, 0x7BFA3004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BFA3001, 0x7BFA3005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7BFA3001, 0x7BFA3006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BFA3001, 0x7BFA3007, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BFA3001, 0x7BFA3008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA3002,   202, 0xBFA3000C, 41.95868, 94.80579, 10.51344, 0.9995553, 0, 0, -0.02981994,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

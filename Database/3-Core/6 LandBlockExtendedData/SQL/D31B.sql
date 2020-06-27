@@ -5,21 +5,21 @@ VALUES (0x7D31B001,  1154, 0xD31B0002, 11.55829, 37.17448, -0.09460002, 0.953716
 /* @teleloc 0xD31B0002 [11.558290 37.174480 -0.094600] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D31B001, 0x7D31B002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D31B001, 0x7D31B003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D31B001, 0x7D31B004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D31B001, 0x7D31B005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D31B001, 0x7D31B006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D31B001, 0x7D31B007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D31B001, 0x7D31B008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D31B001, 0x7D31B009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D31B001, 0x7D31B00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D31B001, 0x7D31B00B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D31B001, 0x7D31B00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D31B001, 0x7D31B00D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D31B001, 0x7D31B00E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D31B001, 0x7D31B00F, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D31B001, 0x7D31B010, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7D31B001, 0x7D31B002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D31B001, 0x7D31B003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D31B001, 0x7D31B004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D31B001, 0x7D31B005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D31B001, 0x7D31B006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D31B001, 0x7D31B007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D31B001, 0x7D31B008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D31B001, 0x7D31B009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D31B001, 0x7D31B00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D31B001, 0x7D31B00B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D31B001, 0x7D31B00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D31B001, 0x7D31B00D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D31B001, 0x7D31B00E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D31B001, 0x7D31B00F, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D31B001, 0x7D31B010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D31B002,  4247, 0xD31B0002, 11.55829, 37.17448, -0.09460002, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -86,7 +86,7 @@ VALUES (0x7D31B011,  1542, 0xD31B0002, 4.589489, 33.3573, -0.09999999, 0.9238795
 /* @teleloc 0xD31B0002 [4.589489 33.357300 -0.100000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D31B011, 0x7D31B012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7D31B011, 0x7D31B012, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D31B012,  4180, 0xD31B0002, 4.589489, 33.3573, -0.09999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

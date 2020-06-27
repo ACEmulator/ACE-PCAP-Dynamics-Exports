@@ -5,26 +5,26 @@ VALUES (0x7225A001,  1154, 0x225A0008, 7.86457, 184.9939, 5.352119, 0.06671139, 
 /* @teleloc 0x225A0008 [7.864570 184.993900 5.352119] 0.066711 0.000000 0.000000 -0.997772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7225A001, 0x7225A002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7225A001, 0x7225A003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7225A001, 0x7225A004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7225A001, 0x7225A005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7225A001, 0x7225A006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7225A001, 0x7225A007, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7225A001, 0x7225A008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7225A001, 0x7225A009, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x7225A001, 0x7225A00A, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7225A001, 0x7225A00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7225A001, 0x7225A00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7225A001, 0x7225A00D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7225A001, 0x7225A00E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7225A001, 0x7225A00F, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7225A001, 0x7225A010, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7225A001, 0x7225A011, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7225A001, 0x7225A012, '2019-02-10 00:00:00') /* Flare */
-     , (0x7225A001, 0x7225A013, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7225A001, 0x7225A014, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7225A001, 0x7225A015, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x7225A001, 0x7225A002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7225A001, 0x7225A003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7225A001, 0x7225A004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7225A001, 0x7225A005, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7225A001, 0x7225A006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7225A001, 0x7225A007, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7225A001, 0x7225A008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7225A001, 0x7225A009, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x7225A001, 0x7225A00A, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7225A001, 0x7225A00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7225A001, 0x7225A00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7225A001, 0x7225A00D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7225A001, 0x7225A00E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7225A001, 0x7225A00F, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7225A001, 0x7225A010, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7225A001, 0x7225A011, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7225A001, 0x7225A012, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7225A001, 0x7225A013, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7225A001, 0x7225A014, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7225A001, 0x7225A015, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7225A002, 41535, 0x225A0008, 7.86457, 184.9939, 5.352119, 0.06671139, 0, 0, -0.9977723,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -111,8 +111,8 @@ VALUES (0x7225A016,  1542, 0x225A0007, 2.674908, 163.2068, 6.575954, 1, 0, 0, 0,
 /* @teleloc 0x225A0007 [2.674908 163.206800 6.575954] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7225A016, 0x7225A017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7225A016, 0x7225A018, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7225A016, 0x7225A017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7225A016, 0x7225A018, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7225A017,  4380, 0x225A0007, 2.674908, 163.2068, 6.575954, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

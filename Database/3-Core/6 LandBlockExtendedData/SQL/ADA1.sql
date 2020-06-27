@@ -5,16 +5,16 @@ VALUES (0x7ADA1001,  1154, 0xADA10008, 7.648471, 183.1616, 140.5379, 0.9659258, 
 /* @teleloc 0xADA10008 [7.648471 183.161600 140.537900] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADA1001, 0x7ADA1002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ADA1001, 0x7ADA1003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ADA1001, 0x7ADA1004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ADA1001, 0x7ADA1005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ADA1001, 0x7ADA1006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ADA1001, 0x7ADA1007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ADA1001, 0x7ADA1008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7ADA1001, 0x7ADA1009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7ADA1001, 0x7ADA100A, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7ADA1001, 0x7ADA100B, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7ADA1001, 0x7ADA1002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ADA1001, 0x7ADA1003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ADA1001, 0x7ADA1004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ADA1001, 0x7ADA1005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ADA1001, 0x7ADA1006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ADA1001, 0x7ADA1007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ADA1001, 0x7ADA1008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7ADA1001, 0x7ADA1009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7ADA1001, 0x7ADA100A, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7ADA1001, 0x7ADA100B, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADA1002,   195, 0xADA10008, 7.648471, 183.1616, 140.5379, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -61,8 +61,8 @@ VALUES (0x7ADA100C,  1542, 0xADA10010, 35.0642, 178.9796, 140.1105, 1, 0, 0, 0, 
 /* @teleloc 0xADA10010 [35.064200 178.979600 140.110500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADA100C, 0x7ADA100D, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7ADA100C, 0x7ADA100E, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7ADA100C, 0x7ADA100D, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7ADA100C, 0x7ADA100E, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADA100D,  8232, 0xADA10010, 35.0642, 178.9796, 140.1105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

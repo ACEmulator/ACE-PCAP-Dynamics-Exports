@@ -5,8 +5,8 @@ VALUES (0x7956A001,  1154, 0x956A0001, 20.66622, 1.685644, 12.12153, 0.9946006, 
 /* @teleloc 0x956A0001 [20.666220 1.685644 12.121530] 0.994601 0.000000 0.000000 -0.103777 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7956A001, 0x7956A002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x7956A001, 0x7956A003, '2019-02-10 00:00:00') /* Flicker */;
+VALUES (0x7956A001, 0x7956A002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x7956A001, 0x7956A003, '2019-02-10 00:00:00') /* Flicker (5705) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7956A002,  4266, 0x956A0001, 20.66622, 1.685644, 12.12153, 0.9946006, 0, 0, -0.1037771,  True, '2019-02-10 00:00:00'); /* Old Bones */

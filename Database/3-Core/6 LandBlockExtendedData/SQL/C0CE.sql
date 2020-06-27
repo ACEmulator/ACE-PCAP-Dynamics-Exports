@@ -5,10 +5,10 @@ VALUES (0x7C0CE001,  1154, 0xC0CE0024, 117.2281, 74.49153, 373.5189, -0.7223266,
 /* @teleloc 0xC0CE0024 [117.228100 74.491530 373.518900] -0.722327 0.000000 0.000000 -0.691552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0CE001, 0x7C0CE002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C0CE001, 0x7C0CE003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C0CE001, 0x7C0CE004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C0CE001, 0x7C0CE005, '2019-02-10 00:00:00') /* Banderling Rogue */;
+VALUES (0x7C0CE001, 0x7C0CE002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C0CE001, 0x7C0CE003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C0CE001, 0x7C0CE004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C0CE001, 0x7C0CE005, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0CE002,   199, 0xC0CE0024, 117.2281, 74.49153, 373.5189, -0.7223266, 0, 0, -0.691552,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -31,7 +31,7 @@ VALUES (0x7C0CE006,  1542, 0xC0CE0028, 104.5974, 190.6325, 387.8097, 1, 0, 0, 0,
 /* @teleloc 0xC0CE0028 [104.597400 190.632500 387.809700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0CE006, 0x7C0CE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C0CE006, 0x7C0CE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0CE007,  4179, 0xC0CE0028, 104.5974, 190.6325, 387.8097, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,13 +5,13 @@ VALUES (0x7EA38001,  1154, 0xEA38002B, 139.6272, 71.2337, 7.018822, 0.7660445, 0
 /* @teleloc 0xEA38002B [139.627200 71.233700 7.018822] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA38001, 0x7EA38002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EA38001, 0x7EA38003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EA38001, 0x7EA38004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7EA38001, 0x7EA38005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7EA38001, 0x7EA38006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7EA38001, 0x7EA38007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7EA38001, 0x7EA38008, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7EA38001, 0x7EA38002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EA38001, 0x7EA38003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EA38001, 0x7EA38004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7EA38001, 0x7EA38005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7EA38001, 0x7EA38006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7EA38001, 0x7EA38007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7EA38001, 0x7EA38008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA38002,  7082, 0xEA38002B, 139.6272, 71.2337, 7.018822, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

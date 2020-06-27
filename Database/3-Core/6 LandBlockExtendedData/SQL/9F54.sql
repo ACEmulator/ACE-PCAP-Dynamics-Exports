@@ -5,14 +5,14 @@ VALUES (0x79F54001,  1154, 0x9F540035, 162.1745, 107.9846, 120.0082, -0.05368409
 /* @teleloc 0x9F540035 [162.174500 107.984600 120.008200] -0.053684 0.000000 0.000000 -0.998558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F54001, 0x79F54002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79F54001, 0x79F54003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79F54001, 0x79F54004, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79F54001, 0x79F54005, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79F54001, 0x79F54006, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79F54001, 0x79F54007, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79F54001, 0x79F54008, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79F54001, 0x79F54009, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x79F54001, 0x79F54002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79F54001, 0x79F54003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79F54001, 0x79F54004, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79F54001, 0x79F54005, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79F54001, 0x79F54006, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79F54001, 0x79F54007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79F54001, 0x79F54008, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79F54001, 0x79F54009, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F54002,  8673, 0x9F540035, 162.1745, 107.9846, 120.0082, -0.05368409, 0, 0, -0.998558,  True, '2019-02-10 00:00:00'); /* Risen Knight */

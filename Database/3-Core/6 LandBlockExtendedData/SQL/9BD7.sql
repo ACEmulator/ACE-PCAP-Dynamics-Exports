@@ -5,17 +5,17 @@ VALUES (0x79BD7001,  1154, 0x9BD70003, 17.06235, 49.87226, 84.97851, -0.9613432,
 /* @teleloc 0x9BD70003 [17.062350 49.872260 84.978510] -0.961343 0.000000 0.000000 -0.275353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD7001, 0x79BD7002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x79BD7001, 0x79BD7003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79BD7001, 0x79BD7004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79BD7001, 0x79BD7005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x79BD7001, 0x79BD7006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79BD7001, 0x79BD7007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x79BD7001, 0x79BD7008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x79BD7001, 0x79BD7009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79BD7001, 0x79BD700A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79BD7001, 0x79BD700B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79BD7001, 0x79BD700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x79BD7001, 0x79BD7002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x79BD7001, 0x79BD7003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79BD7001, 0x79BD7004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79BD7001, 0x79BD7005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x79BD7001, 0x79BD7006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79BD7001, 0x79BD7007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x79BD7001, 0x79BD7008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x79BD7001, 0x79BD7009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79BD7001, 0x79BD700A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79BD7001, 0x79BD700B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79BD7001, 0x79BD700C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD7002, 26470, 0x9BD70003, 17.06235, 49.87226, 84.97851, -0.9613432, 0, 0, -0.2753532,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
@@ -66,7 +66,7 @@ VALUES (0x79BD700D,  1542, 0x9BD70015, 65.54665, 104.1298, 75.86028, 1, 0, 0, 0,
 /* @teleloc 0x9BD70015 [65.546650 104.129800 75.860280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD700D, 0x79BD700E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79BD700D, 0x79BD700E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD700E,  4179, 0x9BD70015, 65.54665, 104.1298, 75.86028, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

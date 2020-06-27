@@ -5,8 +5,8 @@ VALUES (0x7A411001,  1154, 0xA4110009, 45.73634, 3.410812, 147.6951, -0.943291, 
 /* @teleloc 0xA4110009 [45.736340 3.410812 147.695100] -0.943291 0.000000 0.000000 -0.331967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A411001, 0x7A411002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7A411001, 0x7A411003, '2019-02-10 00:00:00') /* K'nath S'tath */;
+VALUES (0x7A411001, 0x7A411002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7A411001, 0x7A411003, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A411002,  9400, 0xA4110009, 45.73634, 3.410812, 147.6951, -0.943291, 0, 0, -0.3319671,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

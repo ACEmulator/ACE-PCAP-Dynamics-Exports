@@ -5,10 +5,10 @@ VALUES (0x76511001,  1154, 0x65110040, 177.2761, 177.3781, 0.004550023, -0.15661
 /* @teleloc 0x65110040 [177.276100 177.378100 0.004550] -0.156610 0.000000 0.000000 -0.987661 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76511001, 0x76511002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76511001, 0x76511003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x76511001, 0x76511004, '2019-02-10 00:00:00') /* Flare */
-     , (0x76511001, 0x76511005, '2019-02-10 00:00:00') /* Virindi Councillor */;
+VALUES (0x76511001, 0x76511002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76511001, 0x76511003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x76511001, 0x76511004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x76511001, 0x76511005, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76511002,  7090, 0x65110040, 177.2761, 177.3781, 0.004550023, -0.1566104, 0, 0, -0.9876605,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

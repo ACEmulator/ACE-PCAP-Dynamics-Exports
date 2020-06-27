@@ -5,25 +5,25 @@ VALUES (0x7B3A3001,  1154, 0xB3A30019, 81.91982, 19.58786, 86.8338, 0.6571801, 0
 /* @teleloc 0xB3A30019 [81.919820 19.587860 86.833800] 0.657180 0.000000 0.000000 -0.753734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3A3001, 0x7B3A3002, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B3A3001, 0x7B3A3003, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B3A3001, 0x7B3A3004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B3A3001, 0x7B3A3005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B3A3001, 0x7B3A3006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A3007, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7B3A3001, 0x7B3A3008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A3009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A300A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A300B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A300C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A300D, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B3A3001, 0x7B3A300E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B3A3001, 0x7B3A300F, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B3A3001, 0x7B3A3010, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B3A3001, 0x7B3A3011, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B3A3001, 0x7B3A3012, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B3A3001, 0x7B3A3013, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B3A3001, 0x7B3A3014, '2019-02-10 00:00:00') /* Mite Squib */;
+VALUES (0x7B3A3001, 0x7B3A3002, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B3A3001, 0x7B3A3003, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B3A3001, 0x7B3A3004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B3A3001, 0x7B3A3005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B3A3001, 0x7B3A3006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A3007, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7B3A3001, 0x7B3A3008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A3009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A300A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A300B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A300C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A300D, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B3A3001, 0x7B3A300E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B3A3001, 0x7B3A300F, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B3A3001, 0x7B3A3010, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B3A3001, 0x7B3A3011, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B3A3001, 0x7B3A3012, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B3A3001, 0x7B3A3013, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B3A3001, 0x7B3A3014, '2019-02-10 00:00:00') /* Mite Squib (209) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3A3002,  1668, 0xB3A30019, 81.91982, 19.58786, 86.8338, 0.6571801, 0, 0, -0.7537336,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */

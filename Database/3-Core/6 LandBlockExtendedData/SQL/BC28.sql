@@ -5,14 +5,14 @@ VALUES (0x7BC28001,  1154, 0xBC280019, 91.53377, 1.541816, 216.2542, -0.2756999,
 /* @teleloc 0xBC280019 [91.533770 1.541816 216.254200] -0.275700 0.000000 0.000000 -0.961244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC28001, 0x7BC28002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BC28001, 0x7BC28003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BC28001, 0x7BC28004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BC28001, 0x7BC28005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BC28001, 0x7BC28006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC28001, 0x7BC28007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BC28001, 0x7BC28008, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7BC28001, 0x7BC28009, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7BC28001, 0x7BC28002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BC28001, 0x7BC28003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BC28001, 0x7BC28004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BC28001, 0x7BC28005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BC28001, 0x7BC28006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC28001, 0x7BC28007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BC28001, 0x7BC28008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7BC28001, 0x7BC28009, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC28002,  7084, 0xBC280019, 91.53377, 1.541816, 216.2542, -0.2756999, 0, 0, -0.9612437,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

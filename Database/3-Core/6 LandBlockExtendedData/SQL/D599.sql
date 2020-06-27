@@ -29,38 +29,38 @@ VALUES (0x7D59903A,  1154, 0xD599003F, 180, 155, 374.015, 1, 0, 0, 0, False, '20
 /* @teleloc 0xD599003F [180.000000 155.000000 374.015000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59903A, 0x7D59903B, '2019-02-10 00:00:00') /* Tower Guardian */
-     , (0x7D59903A, 0x7D59903C, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59903D, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59903E, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59903F, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599040, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599041, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599042, '2019-02-10 00:00:00') /* Run Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599043, '2019-02-10 00:00:00') /* Recklessness Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599044, '2019-02-10 00:00:00') /* Missile Weapons Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599045, '2019-02-10 00:00:00') /* Magic Item Tinkering Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599046, '2019-02-10 00:00:00') /* Magic Defense Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599047, '2019-02-10 00:00:00') /* Missile Defense Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599048, '2019-02-10 00:00:00') /* Melee Defense Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599049, '2019-02-10 00:00:00') /* Mana Conversion Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904A, '2019-02-10 00:00:00') /* Loyalty Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904B, '2019-02-10 00:00:00') /* Lockpick Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904C, '2019-02-10 00:00:00') /* Light Weapons Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904D, '2019-02-10 00:00:00') /* Life Magic Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904E, '2019-02-10 00:00:00') /* Leadership Warden of Enlightenment */
-     , (0x7D59903A, 0x7D59904F, '2019-02-10 00:00:00') /* Arcane Lore Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599050, '2019-02-10 00:00:00') /* Alchemy Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599051, '2019-02-10 00:00:00') /* Warden of Raising Self */
-     , (0x7D59903A, 0x7D599052, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment */
-     , (0x7D59903A, 0x7D599053, '2019-02-10 00:00:00') /* Warden of Raising Focus */
-     , (0x7D59903A, 0x7D599054, '2019-02-10 00:00:00') /* Warden of Raising Quickness */
-     , (0x7D59903A, 0x7D599055, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7D59903A, 0x7D599056, '2019-02-10 00:00:00') /* Strange Device */
-     , (0x7D59903A, 0x7D599057, '2019-02-10 00:00:00') /* Tower Guardian */
-     , (0x7D59903A, 0x7D599058, '2019-02-10 00:00:00') /* Tower Guardian */
-     , (0x7D59903A, 0x7D599059, '2019-02-10 00:00:00') /* Tower Guardian */
-     , (0x7D59903A, 0x7D59905A, '2019-02-10 00:00:00') /* Tower Guardian */;
+VALUES (0x7D59903A, 0x7D59903B, '2019-02-10 00:00:00') /* Tower Guardian (35273) */
+     , (0x7D59903A, 0x7D59903C, '2019-02-10 00:00:00') /* Weapon Tinkering Warden of Enlightenment (32450) */
+     , (0x7D59903A, 0x7D59903D, '2019-02-10 00:00:00') /* War Magic Warden of Enlightenment (32449) */
+     , (0x7D59903A, 0x7D59903E, '2019-02-10 00:00:00') /* Void Magic Warden of Enlightenment (43399) */
+     , (0x7D59903A, 0x7D59903F, '2019-02-10 00:00:00') /* Two Handed Combat Warden of Enlightenment (41741) */
+     , (0x7D59903A, 0x7D599040, '2019-02-10 00:00:00') /* Summoning Warden of Enlightenment (49483) */
+     , (0x7D59903A, 0x7D599041, '2019-02-10 00:00:00') /* Shield Warden of Enlightenment (45393) */
+     , (0x7D59903A, 0x7D599042, '2019-02-10 00:00:00') /* Run Warden of Enlightenment (32443) */
+     , (0x7D59903A, 0x7D599043, '2019-02-10 00:00:00') /* Recklessness Warden of Enlightenment (45392) */
+     , (0x7D59903A, 0x7D599044, '2019-02-10 00:00:00') /* Missile Weapons Warden of Enlightenment (32455) */
+     , (0x7D59903A, 0x7D599045, '2019-02-10 00:00:00') /* Magic Item Tinkering Warden of Enlightenment (32438) */
+     , (0x7D59903A, 0x7D599046, '2019-02-10 00:00:00') /* Magic Defense Warden of Enlightenment (32437) */
+     , (0x7D59903A, 0x7D599047, '2019-02-10 00:00:00') /* Missile Defense Warden of Enlightenment (32441) */
+     , (0x7D59903A, 0x7D599048, '2019-02-10 00:00:00') /* Melee Defense Warden of Enlightenment (32440) */
+     , (0x7D59903A, 0x7D599049, '2019-02-10 00:00:00') /* Mana Conversion Warden of Enlightenment (32439) */
+     , (0x7D59903A, 0x7D59904A, '2019-02-10 00:00:00') /* Loyalty Warden of Enlightenment (32470) */
+     , (0x7D59903A, 0x7D59904B, '2019-02-10 00:00:00') /* Lockpick Warden of Enlightenment (32469) */
+     , (0x7D59903A, 0x7D59904C, '2019-02-10 00:00:00') /* Light Weapons Warden of Enlightenment (32454) */
+     , (0x7D59903A, 0x7D59904D, '2019-02-10 00:00:00') /* Life Magic Warden of Enlightenment (32468) */
+     , (0x7D59903A, 0x7D59904E, '2019-02-10 00:00:00') /* Leadership Warden of Enlightenment (32467) */
+     , (0x7D59903A, 0x7D59904F, '2019-02-10 00:00:00') /* Arcane Lore Warden of Enlightenment (32452) */
+     , (0x7D59903A, 0x7D599050, '2019-02-10 00:00:00') /* Alchemy Warden of Enlightenment (32451) */
+     , (0x7D59903A, 0x7D599051, '2019-02-10 00:00:00') /* Warden of Raising Self (44916) */
+     , (0x7D59903A, 0x7D599052, '2019-02-10 00:00:00') /* Sneak Attack Warden of Enlightenment (45394) */
+     , (0x7D59903A, 0x7D599053, '2019-02-10 00:00:00') /* Warden of Raising Focus (44914) */
+     , (0x7D59903A, 0x7D599054, '2019-02-10 00:00:00') /* Warden of Raising Quickness (44915) */
+     , (0x7D59903A, 0x7D599055, '2019-02-10 00:00:00') /* Exploration Marker (39801) */
+     , (0x7D59903A, 0x7D599056, '2019-02-10 00:00:00') /* Strange Device (36779) */
+     , (0x7D59903A, 0x7D599057, '2019-02-10 00:00:00') /* Tower Guardian (35273) */
+     , (0x7D59903A, 0x7D599058, '2019-02-10 00:00:00') /* Tower Guardian (35273) */
+     , (0x7D59903A, 0x7D599059, '2019-02-10 00:00:00') /* Tower Guardian (35273) */
+     , (0x7D59903A, 0x7D59905A, '2019-02-10 00:00:00') /* Tower Guardian (35273) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59903B, 35273, 0xD599003F, 180, 155, 374.015, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tower Guardian */
@@ -195,13 +195,13 @@ VALUES (0x7D59905B,  1154, 0xD599003F, 185.32, 166.015, 374.005, 0.188336, 0, 0,
 /* @teleloc 0xD599003F [185.320000 166.015000 374.005000] 0.188336 0.000000 0.000000 0.982105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D59905B, 0x7D59905C, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7D59905B, 0x7D59905D, '2019-02-10 00:00:00') /* Asheron */
-     , (0x7D59905B, 0x7D59905E, '2019-02-10 00:00:00') /* Fianhe */
-     , (0x7D59905B, 0x7D59905F, '2019-02-10 00:00:00') /* Ayaname Kina */
-     , (0x7D59905B, 0x7D599060, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7D59905B, 0x7D599061, '2019-02-10 00:00:00') /* Asheron's Servant */
-     , (0x7D59905B, 0x7D599062, '2019-02-10 00:00:00') /* Elysa Strathelar */;
+VALUES (0x7D59905B, 0x7D59905C, '2019-02-10 00:00:00') /* Emissary of Asheron (45770) */
+     , (0x7D59905B, 0x7D59905D, '2019-02-10 00:00:00') /* Asheron (43183) */
+     , (0x7D59905B, 0x7D59905E, '2019-02-10 00:00:00') /* Fianhe (43941) */
+     , (0x7D59905B, 0x7D59905F, '2019-02-10 00:00:00') /* Ayaname Kina (37074) */
+     , (0x7D59905B, 0x7D599060, '2019-02-10 00:00:00') /* Emissary of Asheron (37065) */
+     , (0x7D59905B, 0x7D599061, '2019-02-10 00:00:00') /* Asheron's Servant (33546) */
+     , (0x7D59905B, 0x7D599062, '2019-02-10 00:00:00') /* Elysa Strathelar (36791) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59905C, 45770, 0xD599003F, 185.32, 166.015, 374.005, 0.188336, 0, 0, 0.982105,  True, '2019-02-10 00:00:00'); /* Emissary of Asheron */
@@ -236,175 +236,175 @@ VALUES (0x7D599063,  1542, 0xD5990148, 161.21, 174.295, 385.35, 0.201905, 0, 0, 
 /* @teleloc 0xD5990148 [161.210000 174.295000 385.350000] 0.201905 0.000000 0.000000 0.979405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D599063, 0x7D599064, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction */
-     , (0x7D599063, 0x7D599065, '2019-02-10 00:00:00') /* Heaume */
-     , (0x7D599063, 0x7D599066, '2019-02-10 00:00:00') /* Niffis Shell Helm */
-     , (0x7D599063, 0x7D599067, '2019-02-10 00:00:00') /* Thorsten's Crystal */
-     , (0x7D599063, 0x7D599068, '2019-02-10 00:00:00') /* Enhanced Dark Sorcerer's Phylactery */
-     , (0x7D599063, 0x7D599069, '2019-02-10 00:00:00') /* Thief's Crystal */
-     , (0x7D599063, 0x7D59906A, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7D599063, 0x7D59906B, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D59906C, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D59906D, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D59906E, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D59906F, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599070, '2019-02-10 00:00:00') /* Holiday Lights */
-     , (0x7D599063, 0x7D599071, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D599072, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7D599063, 0x7D599073, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7D599063, 0x7D599074, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7D599063, 0x7D599075, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7D599063, 0x7D599076, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D599077, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7D599063, 0x7D599078, '2019-02-10 00:00:00') /* Sturdy Steel Key */
-     , (0x7D599063, 0x7D599079, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7D599063, 0x7D59907A, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7D599063, 0x7D59907B, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7D599063, 0x7D59907C, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7D599063, 0x7D59907D, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D59907E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D59907F, '2019-02-10 00:00:00') /* +Moosier */
-     , (0x7D599063, 0x7D599080, '2019-02-10 00:00:00') /* Lightning Cloud */
-     , (0x7D599063, 0x7D599081, '2019-02-10 00:00:00') /* Lightning Cloud */
-     , (0x7D599063, 0x7D599082, '2019-02-10 00:00:00') /* Lightning Cloud */
-     , (0x7D599063, 0x7D599083, '2019-02-10 00:00:00') /* Exarch Plate Leggings */
-     , (0x7D599063, 0x7D599084, '2019-02-10 00:00:00') /* Exarch Plate Coat */
-     , (0x7D599063, 0x7D599085, '2019-02-10 00:00:00') /* Exarch Plate Girth */
-     , (0x7D599063, 0x7D599086, '2019-02-10 00:00:00') /* Relic Alduressa Sollerets */
-     , (0x7D599063, 0x7D599087, '2019-02-10 00:00:00') /* Relic Alduressa Gauntlets */
-     , (0x7D599063, 0x7D599088, '2019-02-10 00:00:00') /* Relic Alduressa Leggings */
-     , (0x7D599063, 0x7D599089, '2019-02-10 00:00:00') /* Relic Alduressa Helm */
-     , (0x7D599063, 0x7D59908A, '2019-02-10 00:00:00') /* Dusky Winged Coat */
-     , (0x7D599063, 0x7D59908B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D59908C, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Vestment and Bracers */
-     , (0x7D599063, 0x7D59908D, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Helm */
-     , (0x7D599063, 0x7D59908E, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Gauntlets */
-     , (0x7D599063, 0x7D59908F, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Sollerets */
-     , (0x7D599063, 0x7D599090, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Leggings */
-     , (0x7D599063, 0x7D599091, '2019-02-10 00:00:00') /* Small Beer */
-     , (0x7D599063, 0x7D599092, '2019-02-10 00:00:00') /* Corrupted Essence */
-     , (0x7D599063, 0x7D599093, '2019-02-10 00:00:00') /* Corrupted Essence */
-     , (0x7D599063, 0x7D599094, '2019-02-10 00:00:00') /* Leather Jerkin */
-     , (0x7D599063, 0x7D599095, '2019-02-10 00:00:00') /* Flaming Claw */
-     , (0x7D599063, 0x7D599096, '2019-02-10 00:00:00') /* Haebrean Pauldrons */
-     , (0x7D599063, 0x7D599097, '2019-02-10 00:00:00') /* Chainmail Pauldrons */
-     , (0x7D599063, 0x7D599098, '2019-02-10 00:00:00') /* Frost Nekode */
-     , (0x7D599063, 0x7D599099, '2019-02-10 00:00:00') /* Flaming Cestus */
-     , (0x7D599063, 0x7D59909A, '2019-02-10 00:00:00') /* Acid Spine Glaive */
-     , (0x7D599063, 0x7D59909B, '2019-02-10 00:00:00') /* Electric Spine Glaive */
-     , (0x7D599063, 0x7D59909C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D59909D, '2019-02-10 00:00:00') /* Acid Scimitar */
-     , (0x7D599063, 0x7D59909E, '2019-02-10 00:00:00') /* Dolabra */
-     , (0x7D599063, 0x7D59909F, '2019-02-10 00:00:00') /* Chocolate Gromnie */
-     , (0x7D599063, 0x7D5990A0, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7D599063, 0x7D5990A1, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7D599063, 0x7D5990A2, '2019-02-10 00:00:00') /* Pack Scarecrow */
-     , (0x7D599063, 0x7D5990A3, '2019-02-10 00:00:00') /* Pack Drudge */
-     , (0x7D599063, 0x7D5990A4, '2019-02-10 00:00:00') /* Plush Tusker */
-     , (0x7D599063, 0x7D5990A5, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7D599063, 0x7D5990A6, '2019-02-10 00:00:00') /* Piercing Crossbow */
-     , (0x7D599063, 0x7D5990A7, '2019-02-10 00:00:00') /* Golden Gromnie */
-     , (0x7D599063, 0x7D5990A8, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7D599063, 0x7D5990A9, '2019-02-10 00:00:00') /* Chocolate Gromnie */
-     , (0x7D599063, 0x7D5990AA, '2019-02-10 00:00:00') /* Mosswart Wand */
-     , (0x7D599063, 0x7D5990AB, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7D599063, 0x7D5990AC, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990AD, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990AE, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990AF, '2019-02-10 00:00:00') /* Agent of Arcanum List */
-     , (0x7D599063, 0x7D5990B0, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990B1, '2019-02-10 00:00:00') /* Trade Note (150,000) */
-     , (0x7D599063, 0x7D5990B2, '2019-02-10 00:00:00') /* Black Coral Heart */
-     , (0x7D599063, 0x7D5990B3, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x7D599063, 0x7D5990B4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990B5, '2019-02-10 00:00:00') /* Tipped Pack Cow */
-     , (0x7D599063, 0x7D5990B6, '2019-02-10 00:00:00') /* Flaming Khanjar */
-     , (0x7D599063, 0x7D5990B7, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990B8, '2019-02-10 00:00:00') /* Axe Head Helm */
-     , (0x7D599063, 0x7D5990B9, '2019-02-10 00:00:00') /* Bunch of Nanners */
-     , (0x7D599063, 0x7D5990BA, '2019-02-10 00:00:00') /* Quarter Staff of Fire */
-     , (0x7D599063, 0x7D5990BB, '2019-02-10 00:00:00') /* Skeleton's Skull */
-     , (0x7D599063, 0x7D5990BC, '2019-02-10 00:00:00') /* Skeleton's Skull */
-     , (0x7D599063, 0x7D5990BD, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990BE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990BF, '2019-02-10 00:00:00') /* Turban */
-     , (0x7D599063, 0x7D5990C0, '2019-02-10 00:00:00') /* Slashing Crossbow */
-     , (0x7D599063, 0x7D5990C1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990C2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990C3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D5990C4, '2019-02-10 00:00:00') /* Chef's Crystal */
-     , (0x7D599063, 0x7D5990C5, '2019-02-10 00:00:00') /* T'ing's Crystal */
-     , (0x7D599063, 0x7D5990C6, '2019-02-10 00:00:00') /* Promissory Note */
-     , (0x7D599063, 0x7D5990C7, '2019-02-10 00:00:00') /* Ursuin Hide Helmet */
-     , (0x7D599063, 0x7D5990C8, '2019-02-10 00:00:00') /* Holiday Sweater */
-     , (0x7D599063, 0x7D5990C9, '2019-02-10 00:00:00') /* Hood */
-     , (0x7D599063, 0x7D5990CA, '2019-02-10 00:00:00') /* Holiday Present */
-     , (0x7D599063, 0x7D5990CB, '2019-02-10 00:00:00') /* Licorice Rat */
-     , (0x7D599063, 0x7D5990CC, '2019-02-10 00:00:00') /* Aerbax's Defeat */
-     , (0x7D599063, 0x7D5990CD, '2019-02-10 00:00:00') /* Stout */
-     , (0x7D599063, 0x7D5990CE, '2019-02-10 00:00:00') /* Rynthid Sorcerer of Torment's Mask */
-     , (0x7D599063, 0x7D5990CF, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean */
-     , (0x7D599063, 0x7D5990D0, '2019-02-10 00:00:00') /* Aun Shimauri's Instructions */
-     , (0x7D599063, 0x7D5990D1, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean */
-     , (0x7D599063, 0x7D5990D2, '2019-02-10 00:00:00') /* Gem of Knowledge */
-     , (0x7D599063, 0x7D5990D3, '2019-02-10 00:00:00') /* Amuli Coat */
-     , (0x7D599063, 0x7D5990D4, '2019-02-10 00:00:00') /* Dragonsblood */
-     , (0x7D599063, 0x7D5990D5, '2019-02-10 00:00:00') /* Leather Pauldrons */
-     , (0x7D599063, 0x7D5990D6, '2019-02-10 00:00:00') /* Weapon Tailoring Kit */
-     , (0x7D599063, 0x7D5990D7, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7D599063, 0x7D5990D8, '2019-02-10 00:00:00') /* Pyreal Mote */
-     , (0x7D599063, 0x7D5990D9, '2019-02-10 00:00:00') /* Uninscription Stone */
-     , (0x7D599063, 0x7D5990DA, '2019-02-10 00:00:00') /* Salvage (39) */
-     , (0x7D599063, 0x7D5990DB, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990DC, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990DD, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990DE, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990DF, '2019-02-10 00:00:00') /* Top */
-     , (0x7D599063, 0x7D5990E0, '2019-02-10 00:00:00') /* Olthoi Koujia Sleeves */
-     , (0x7D599063, 0x7D5990E1, '2019-02-10 00:00:00') /* Chiran Helm */
-     , (0x7D599063, 0x7D5990E2, '2019-02-10 00:00:00') /* Chainmail Sleeves */
-     , (0x7D599063, 0x7D5990E3, '2019-02-10 00:00:00') /* Yoroi Cuirass */
-     , (0x7D599063, 0x7D5990E4, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x7D599063, 0x7D5990E5, '2019-02-10 00:00:00') /* Refreshing Umbrella Drink */
-     , (0x7D599063, 0x7D5990E6, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990E7, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990E8, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7D599063, 0x7D5990E9, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990EA, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7D599063, 0x7D5990EB, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990EC, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990ED, '2019-02-10 00:00:00') /* Quill of Infliction */
-     , (0x7D599063, 0x7D5990EE, '2019-02-10 00:00:00') /* Titan Mana Charge */
-     , (0x7D599063, 0x7D5990EF, '2019-02-10 00:00:00') /* Ring */
-     , (0x7D599063, 0x7D5990F0, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7D599063, 0x7D5990F1, '2019-02-10 00:00:00') /* Evil Couch */
-     , (0x7D599063, 0x7D5990F2, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7D599063, 0x7D5990F3, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x7D599063, 0x7D5990F4, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D5990F5, '2019-02-10 00:00:00') /* Imbue Swap Coin */
-     , (0x7D599063, 0x7D5990F6, '2019-02-10 00:00:00') /* Quiddity Ingot */
-     , (0x7D599063, 0x7D5990F7, '2019-02-10 00:00:00') /* Swamp Stone */
-     , (0x7D599063, 0x7D5990F8, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x7D599063, 0x7D5990F9, '2019-02-10 00:00:00') /* Lightning Tetsubo */
-     , (0x7D599063, 0x7D5990FA, '2019-02-10 00:00:00') /* Knuckles */
-     , (0x7D599063, 0x7D5990FB, '2019-02-10 00:00:00') /* Club */
-     , (0x7D599063, 0x7D5990FC, '2019-02-10 00:00:00') /* Spiked Club */
-     , (0x7D599063, 0x7D5990FD, '2019-02-10 00:00:00') /* Ring */
-     , (0x7D599063, 0x7D5990FE, '2019-02-10 00:00:00') /* Studded Leather Cuirass */
-     , (0x7D599063, 0x7D5990FF, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D599100, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D599101, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean */
-     , (0x7D599063, 0x7D599102, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599103, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599104, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599105, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599106, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x7D599063, 0x7D599107, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7D599063, 0x7D599108, '2019-02-10 00:00:00') /* Small Pine Tree */
-     , (0x7D599063, 0x7D599109, '2019-02-10 00:00:00') /* Shrubbery */
-     , (0x7D599063, 0x7D59910A, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7D599063, 0x7D59910B, '2019-02-10 00:00:00') /* Through the Portal Years */
-     , (0x7D599063, 0x7D59910C, '2019-02-10 00:00:00') /* Apple Pie */;
+VALUES (0x7D599063, 0x7D599064, '2019-02-10 00:00:00') /* Mote and Crystals needed for the Golem Construction (35294) */
+     , (0x7D599063, 0x7D599065, '2019-02-10 00:00:00') /* Heaume (8489) */
+     , (0x7D599063, 0x7D599066, '2019-02-10 00:00:00') /* Niffis Shell Helm (10701) */
+     , (0x7D599063, 0x7D599067, '2019-02-10 00:00:00') /* Thorsten's Crystal (30189) */
+     , (0x7D599063, 0x7D599068, '2019-02-10 00:00:00') /* Enhanced Dark Sorcerer's Phylactery (33953) */
+     , (0x7D599063, 0x7D599069, '2019-02-10 00:00:00') /* Thief's Crystal (30221) */
+     , (0x7D599063, 0x7D59906A, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7D599063, 0x7D59906B, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D59906C, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D59906D, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D59906E, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D59906F, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599070, '2019-02-10 00:00:00') /* Holiday Lights (22873) */
+     , (0x7D599063, 0x7D599071, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D599072, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7D599063, 0x7D599073, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7D599063, 0x7D599074, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7D599063, 0x7D599075, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7D599063, 0x7D599076, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D599077, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7D599063, 0x7D599078, '2019-02-10 00:00:00') /* Sturdy Steel Key (24477) */
+     , (0x7D599063, 0x7D599079, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7D599063, 0x7D59907A, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7D599063, 0x7D59907B, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7D599063, 0x7D59907C, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7D599063, 0x7D59907D, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D59907E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D59907F, '2019-02-10 00:00:00') /* +Moosier (4) */
+     , (0x7D599063, 0x7D599080, '2019-02-10 00:00:00') /* Lightning Cloud (51593) */
+     , (0x7D599063, 0x7D599081, '2019-02-10 00:00:00') /* Lightning Cloud (51593) */
+     , (0x7D599063, 0x7D599082, '2019-02-10 00:00:00') /* Lightning Cloud (51593) */
+     , (0x7D599063, 0x7D599083, '2019-02-10 00:00:00') /* Exarch Plate Leggings (9038) */
+     , (0x7D599063, 0x7D599084, '2019-02-10 00:00:00') /* Exarch Plate Coat (9032) */
+     , (0x7D599063, 0x7D599085, '2019-02-10 00:00:00') /* Exarch Plate Girth (9035) */
+     , (0x7D599063, 0x7D599086, '2019-02-10 00:00:00') /* Relic Alduressa Sollerets (33578) */
+     , (0x7D599063, 0x7D599087, '2019-02-10 00:00:00') /* Relic Alduressa Gauntlets (33575) */
+     , (0x7D599063, 0x7D599088, '2019-02-10 00:00:00') /* Relic Alduressa Leggings (33577) */
+     , (0x7D599063, 0x7D599089, '2019-02-10 00:00:00') /* Relic Alduressa Helm (33576) */
+     , (0x7D599063, 0x7D59908A, '2019-02-10 00:00:00') /* Dusky Winged Coat (28147) */
+     , (0x7D599063, 0x7D59908B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D59908C, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Vestment and Bracers (43926) */
+     , (0x7D599063, 0x7D59908D, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Helm (43932) */
+     , (0x7D599063, 0x7D59908E, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Gauntlets (43929) */
+     , (0x7D599063, 0x7D59908F, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Sollerets (43938) */
+     , (0x7D599063, 0x7D599090, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Leggings (43935) */
+     , (0x7D599063, 0x7D599091, '2019-02-10 00:00:00') /* Small Beer (2469) */
+     , (0x7D599063, 0x7D599092, '2019-02-10 00:00:00') /* Corrupted Essence (44470) */
+     , (0x7D599063, 0x7D599093, '2019-02-10 00:00:00') /* Corrupted Essence (44470) */
+     , (0x7D599063, 0x7D599094, '2019-02-10 00:00:00') /* Leather Jerkin (25639) */
+     , (0x7D599063, 0x7D599095, '2019-02-10 00:00:00') /* Flaming Claw (31787) */
+     , (0x7D599063, 0x7D599096, '2019-02-10 00:00:00') /* Haebrean Pauldrons (42754) */
+     , (0x7D599063, 0x7D599097, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */
+     , (0x7D599063, 0x7D599098, '2019-02-10 00:00:00') /* Frost Nekode (4198) */
+     , (0x7D599063, 0x7D599099, '2019-02-10 00:00:00') /* Flaming Cestus (4191) */
+     , (0x7D599063, 0x7D59909A, '2019-02-10 00:00:00') /* Acid Spine Glaive (31780) */
+     , (0x7D599063, 0x7D59909B, '2019-02-10 00:00:00') /* Electric Spine Glaive (31781) */
+     , (0x7D599063, 0x7D59909C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D59909D, '2019-02-10 00:00:00') /* Acid Scimitar (3849) */
+     , (0x7D599063, 0x7D59909E, '2019-02-10 00:00:00') /* Dolabra (30561) */
+     , (0x7D599063, 0x7D59909F, '2019-02-10 00:00:00') /* Chocolate Gromnie (36445) */
+     , (0x7D599063, 0x7D5990A0, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7D599063, 0x7D5990A1, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7D599063, 0x7D5990A2, '2019-02-10 00:00:00') /* Pack Scarecrow (9177) */
+     , (0x7D599063, 0x7D5990A3, '2019-02-10 00:00:00') /* Pack Drudge (9172) */
+     , (0x7D599063, 0x7D5990A4, '2019-02-10 00:00:00') /* Plush Tusker (9169) */
+     , (0x7D599063, 0x7D5990A5, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7D599063, 0x7D5990A6, '2019-02-10 00:00:00') /* Piercing Crossbow (29250) */
+     , (0x7D599063, 0x7D5990A7, '2019-02-10 00:00:00') /* Golden Gromnie (9511) */
+     , (0x7D599063, 0x7D5990A8, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7D599063, 0x7D5990A9, '2019-02-10 00:00:00') /* Chocolate Gromnie (36445) */
+     , (0x7D599063, 0x7D5990AA, '2019-02-10 00:00:00') /* Mosswart Wand (12222) */
+     , (0x7D599063, 0x7D5990AB, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7D599063, 0x7D5990AC, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990AD, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990AE, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990AF, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7D599063, 0x7D5990B0, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990B1, '2019-02-10 00:00:00') /* Trade Note (150,000) (20628) */
+     , (0x7D599063, 0x7D5990B2, '2019-02-10 00:00:00') /* Black Coral Heart (42348) */
+     , (0x7D599063, 0x7D5990B3, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x7D599063, 0x7D5990B4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990B5, '2019-02-10 00:00:00') /* Tipped Pack Cow (33965) */
+     , (0x7D599063, 0x7D5990B6, '2019-02-10 00:00:00') /* Flaming Khanjar (45434) */
+     , (0x7D599063, 0x7D5990B7, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990B8, '2019-02-10 00:00:00') /* Axe Head Helm (31363) */
+     , (0x7D599063, 0x7D5990B9, '2019-02-10 00:00:00') /* Bunch of Nanners (22578) */
+     , (0x7D599063, 0x7D5990BA, '2019-02-10 00:00:00') /* Quarter Staff of Fire (1481) */
+     , (0x7D599063, 0x7D5990BB, '2019-02-10 00:00:00') /* Skeleton's Skull (3687) */
+     , (0x7D599063, 0x7D5990BC, '2019-02-10 00:00:00') /* Skeleton's Skull (3687) */
+     , (0x7D599063, 0x7D5990BD, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990BE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990BF, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7D599063, 0x7D5990C0, '2019-02-10 00:00:00') /* Slashing Crossbow (29251) */
+     , (0x7D599063, 0x7D5990C1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990C2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990C3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D5990C4, '2019-02-10 00:00:00') /* Chef's Crystal (30195) */
+     , (0x7D599063, 0x7D5990C5, '2019-02-10 00:00:00') /* T'ing's Crystal (41257) */
+     , (0x7D599063, 0x7D5990C6, '2019-02-10 00:00:00') /* Promissory Note (43901) */
+     , (0x7D599063, 0x7D5990C7, '2019-02-10 00:00:00') /* Ursuin Hide Helmet (8663) */
+     , (0x7D599063, 0x7D5990C8, '2019-02-10 00:00:00') /* Holiday Sweater (52580) */
+     , (0x7D599063, 0x7D5990C9, '2019-02-10 00:00:00') /* Hood (44976) */
+     , (0x7D599063, 0x7D5990CA, '2019-02-10 00:00:00') /* Holiday Present (52444) */
+     , (0x7D599063, 0x7D5990CB, '2019-02-10 00:00:00') /* Licorice Rat (36447) */
+     , (0x7D599063, 0x7D5990CC, '2019-02-10 00:00:00') /* Aerbax's Defeat (36949) */
+     , (0x7D599063, 0x7D5990CD, '2019-02-10 00:00:00') /* Stout (2471) */
+     , (0x7D599063, 0x7D5990CE, '2019-02-10 00:00:00') /* Rynthid Sorcerer of Torment's Mask (51858) */
+     , (0x7D599063, 0x7D5990CF, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean (43534) */
+     , (0x7D599063, 0x7D5990D0, '2019-02-10 00:00:00') /* Aun Shimauri's Instructions (11974) */
+     , (0x7D599063, 0x7D5990D1, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean (43534) */
+     , (0x7D599063, 0x7D5990D2, '2019-02-10 00:00:00') /* Gem of Knowledge (36510) */
+     , (0x7D599063, 0x7D5990D3, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7D599063, 0x7D5990D4, '2019-02-10 00:00:00') /* Dragonsblood (769) */
+     , (0x7D599063, 0x7D5990D5, '2019-02-10 00:00:00') /* Leather Pauldrons (25648) */
+     , (0x7D599063, 0x7D5990D6, '2019-02-10 00:00:00') /* Weapon Tailoring Kit (51445) */
+     , (0x7D599063, 0x7D5990D7, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7D599063, 0x7D5990D8, '2019-02-10 00:00:00') /* Pyreal Mote (6353) */
+     , (0x7D599063, 0x7D5990D9, '2019-02-10 00:00:00') /* Uninscription Stone (33960) */
+     , (0x7D599063, 0x7D5990DA, '2019-02-10 00:00:00') /* Salvage (39) (20993) */
+     , (0x7D599063, 0x7D5990DB, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990DC, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990DD, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990DE, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990DF, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7D599063, 0x7D5990E0, '2019-02-10 00:00:00') /* Olthoi Koujia Sleeves (37206) */
+     , (0x7D599063, 0x7D5990E1, '2019-02-10 00:00:00') /* Chiran Helm (27217) */
+     , (0x7D599063, 0x7D5990E2, '2019-02-10 00:00:00') /* Chainmail Sleeves (101) */
+     , (0x7D599063, 0x7D5990E3, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
+     , (0x7D599063, 0x7D5990E4, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x7D599063, 0x7D5990E5, '2019-02-10 00:00:00') /* Refreshing Umbrella Drink (22637) */
+     , (0x7D599063, 0x7D5990E6, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990E7, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990E8, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7D599063, 0x7D5990E9, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990EA, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7D599063, 0x7D5990EB, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990EC, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990ED, '2019-02-10 00:00:00') /* Quill of Infliction (37363) */
+     , (0x7D599063, 0x7D5990EE, '2019-02-10 00:00:00') /* Titan Mana Charge (9060) */
+     , (0x7D599063, 0x7D5990EF, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7D599063, 0x7D5990F0, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7D599063, 0x7D5990F1, '2019-02-10 00:00:00') /* Evil Couch (22117) */
+     , (0x7D599063, 0x7D5990F2, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7D599063, 0x7D5990F3, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x7D599063, 0x7D5990F4, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D5990F5, '2019-02-10 00:00:00') /* Imbue Swap Coin (45494) */
+     , (0x7D599063, 0x7D5990F6, '2019-02-10 00:00:00') /* Quiddity Ingot (36944) */
+     , (0x7D599063, 0x7D5990F7, '2019-02-10 00:00:00') /* Swamp Stone (3694) */
+     , (0x7D599063, 0x7D5990F8, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7D599063, 0x7D5990F9, '2019-02-10 00:00:00') /* Lightning Tetsubo (40637) */
+     , (0x7D599063, 0x7D5990FA, '2019-02-10 00:00:00') /* Knuckles (30611) */
+     , (0x7D599063, 0x7D5990FB, '2019-02-10 00:00:00') /* Club (309) */
+     , (0x7D599063, 0x7D5990FC, '2019-02-10 00:00:00') /* Spiked Club (7768) */
+     , (0x7D599063, 0x7D5990FD, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7D599063, 0x7D5990FE, '2019-02-10 00:00:00') /* Studded Leather Cuirass (53) */
+     , (0x7D599063, 0x7D5990FF, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D599100, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D599101, '2019-02-10 00:00:00') /* Luminance, and the Paths of the Empyrean (43534) */
+     , (0x7D599063, 0x7D599102, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599103, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599104, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599105, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599106, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7D599063, 0x7D599107, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D599063, 0x7D599108, '2019-02-10 00:00:00') /* Small Pine Tree (15403) */
+     , (0x7D599063, 0x7D599109, '2019-02-10 00:00:00') /* Shrubbery (25759) */
+     , (0x7D599063, 0x7D59910A, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7D599063, 0x7D59910B, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
+     , (0x7D599063, 0x7D59910C, '2019-02-10 00:00:00') /* Apple Pie (4709) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599064, 35294, 0xD5990148, 161.21, 174.295, 385.35, 0.201905, 0, 0, 0.979405,  True, '2019-02-10 00:00:00'); /* Mote and Crystals needed for the Golem Construction */

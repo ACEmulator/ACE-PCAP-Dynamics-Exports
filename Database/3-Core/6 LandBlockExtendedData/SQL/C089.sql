@@ -5,9 +5,9 @@ VALUES (0x7C089001,  1154, 0xC0890005, 22.91285, 102.7489, 30.011, -0.9261867, 0
 /* @teleloc 0xC0890005 [22.912850 102.748900 30.011000] -0.926187 0.000000 0.000000 -0.377065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C089001, 0x7C089002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C089001, 0x7C089003, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C089001, 0x7C089004, '2019-02-10 00:00:00') /* Scavenger Ursuin */;
+VALUES (0x7C089001, 0x7C089002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C089001, 0x7C089003, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C089001, 0x7C089004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C089002,   200, 0xC0890005, 22.91285, 102.7489, 30.011, -0.9261867, 0, 0, -0.3770651,  True, '2019-02-10 00:00:00'); /* Mud Golem */

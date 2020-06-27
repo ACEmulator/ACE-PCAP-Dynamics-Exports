@@ -5,40 +5,40 @@ VALUES (0x72A4A001,  1154, 0x2A4A0009, 44.9237, 11.11764, 32.45309, -0.9152955, 
 /* @teleloc 0x2A4A0009 [44.923700 11.117640 32.453090] -0.915296 0.000000 0.000000 -0.402783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4A001, 0x72A4A002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72A4A001, 0x72A4A003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72A4A001, 0x72A4A004, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72A4A001, 0x72A4A005, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72A4A001, 0x72A4A006, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72A4A001, 0x72A4A007, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x72A4A001, 0x72A4A008, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72A4A001, 0x72A4A009, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72A4A001, 0x72A4A00A, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72A4A001, 0x72A4A00B, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72A4A001, 0x72A4A00C, '2019-02-10 00:00:00') /* K'nath X'ela */
-     , (0x72A4A001, 0x72A4A00D, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x72A4A001, 0x72A4A00E, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72A4A001, 0x72A4A00F, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72A4A001, 0x72A4A010, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72A4A001, 0x72A4A011, '2019-02-10 00:00:00') /* Swarthy Mattekar */
-     , (0x72A4A001, 0x72A4A012, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72A4A001, 0x72A4A013, '2019-02-10 00:00:00') /* K'nath N'aes */
-     , (0x72A4A001, 0x72A4A014, '2019-02-10 00:00:00') /* K'nath An'dras */
-     , (0x72A4A001, 0x72A4A015, '2019-02-10 00:00:00') /* K'nath Thea'reh */
-     , (0x72A4A001, 0x72A4A016, '2019-02-10 00:00:00') /* K'nath T'amt */
-     , (0x72A4A001, 0x72A4A017, '2019-02-10 00:00:00') /* K'nath La'nal */
-     , (0x72A4A001, 0x72A4A018, '2019-02-10 00:00:00') /* K'nath I'km */
-     , (0x72A4A001, 0x72A4A019, '2019-02-10 00:00:00') /* K'nath X'ela */
-     , (0x72A4A001, 0x72A4A01A, '2019-02-10 00:00:00') /* K'nath S'hirc */
-     , (0x72A4A001, 0x72A4A01B, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A4A001, 0x72A4A01C, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A4A001, 0x72A4A01D, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72A4A001, 0x72A4A01E, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72A4A001, 0x72A4A01F, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72A4A001, 0x72A4A020, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72A4A001, 0x72A4A021, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72A4A001, 0x72A4A022, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72A4A001, 0x72A4A023, '2019-02-10 00:00:00') /* Chimera */;
+VALUES (0x72A4A001, 0x72A4A002, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72A4A001, 0x72A4A003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72A4A001, 0x72A4A004, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72A4A001, 0x72A4A005, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72A4A001, 0x72A4A006, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72A4A001, 0x72A4A007, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x72A4A001, 0x72A4A008, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72A4A001, 0x72A4A009, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72A4A001, 0x72A4A00A, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72A4A001, 0x72A4A00B, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72A4A001, 0x72A4A00C, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72A4A001, 0x72A4A00D, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x72A4A001, 0x72A4A00E, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72A4A001, 0x72A4A00F, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72A4A001, 0x72A4A010, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72A4A001, 0x72A4A011, '2019-02-10 00:00:00') /* Swarthy Mattekar (22901) */
+     , (0x72A4A001, 0x72A4A012, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72A4A001, 0x72A4A013, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
+     , (0x72A4A001, 0x72A4A014, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
+     , (0x72A4A001, 0x72A4A015, '2019-02-10 00:00:00') /* K'nath Thea'reh (25292) */
+     , (0x72A4A001, 0x72A4A016, '2019-02-10 00:00:00') /* K'nath T'amt (25291) */
+     , (0x72A4A001, 0x72A4A017, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72A4A001, 0x72A4A018, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
+     , (0x72A4A001, 0x72A4A019, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72A4A001, 0x72A4A01A, '2019-02-10 00:00:00') /* K'nath S'hirc (23561) */
+     , (0x72A4A001, 0x72A4A01B, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A4A001, 0x72A4A01C, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A4A001, 0x72A4A01D, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72A4A001, 0x72A4A01E, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72A4A001, 0x72A4A01F, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72A4A001, 0x72A4A020, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A4A001, 0x72A4A021, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72A4A001, 0x72A4A022, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72A4A001, 0x72A4A023, '2019-02-10 00:00:00') /* Chimera (25807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4A002, 36553, 0x2A4A0009, 44.9237, 11.11764, 32.45309, -0.9152955, 0, 0, -0.4027829,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Paradox */
@@ -181,7 +181,7 @@ VALUES (0x72A4A024,  1542, 0x2A4A0009, 33.89047, 16.39625, 29.58644, -0.9152955,
 /* @teleloc 0x2A4A0009 [33.890470 16.396250 29.586440] -0.915296 0.000000 0.000000 -0.402783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A4A024, 0x72A4A025, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72A4A024, 0x72A4A025, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A4A025, 46284, 0x2A4A0009, 33.89047, 16.39625, 29.58644, -0.9152955, 0, 0, -0.4027829,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

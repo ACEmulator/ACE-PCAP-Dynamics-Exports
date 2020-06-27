@@ -5,12 +5,12 @@ VALUES (0x7186F001,  1154, 0x186F003B, 170.8889, 65.87731, 208.6508, 0.9063078, 
 /* @teleloc 0x186F003B [170.888900 65.877310 208.650800] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7186F001, 0x7186F002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7186F001, 0x7186F003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7186F001, 0x7186F004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7186F001, 0x7186F005, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7186F001, 0x7186F006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7186F001, 0x7186F007, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7186F001, 0x7186F002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7186F001, 0x7186F003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7186F001, 0x7186F004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7186F001, 0x7186F005, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7186F001, 0x7186F006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7186F001, 0x7186F007, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7186F002,  7980, 0x186F003B, 170.8889, 65.87731, 208.6508, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -41,8 +41,8 @@ VALUES (0x7186F008,  1542, 0x186F0011, 61.46301, 10.84691, 165.6096, 1, 0, 0, 0,
 /* @teleloc 0x186F0011 [61.463010 10.846910 165.609600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7186F008, 0x7186F009, '2019-02-10 00:00:00') /* Bones */
-     , (0x7186F008, 0x7186F00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7186F008, 0x7186F009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7186F008, 0x7186F00A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7186F009,  4380, 0x186F0011, 61.46301, 10.84691, 165.6096, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

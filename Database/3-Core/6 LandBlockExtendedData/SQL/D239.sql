@@ -5,14 +5,14 @@ VALUES (0x7D239001,  1154, 0xD2390021, 103.1053, 10.48136, 201.9217, -0.288493, 
 /* @teleloc 0xD2390021 [103.105300 10.481360 201.921700] -0.288493 0.000000 0.000000 -0.957482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D239001, 0x7D239002, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7D239001, 0x7D239003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D239001, 0x7D239004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D239001, 0x7D239005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D239001, 0x7D239006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D239001, 0x7D239007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D239001, 0x7D239008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D239001, 0x7D239009, '2019-02-10 00:00:00') /* Obeloth Lugian */;
+VALUES (0x7D239001, 0x7D239002, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7D239001, 0x7D239003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D239001, 0x7D239004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D239001, 0x7D239005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D239001, 0x7D239006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D239001, 0x7D239007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D239001, 0x7D239008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D239001, 0x7D239009, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D239002,   205, 0xD2390021, 103.1053, 10.48136, 201.9217, -0.288493, 0, 0, -0.957482,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */

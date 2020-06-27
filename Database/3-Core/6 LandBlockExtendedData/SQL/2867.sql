@@ -5,11 +5,11 @@ VALUES (0x72867001,  1154, 0x2867000A, 40.15679, 42.79255, 86.761, 0.8191521, 0,
 /* @teleloc 0x2867000A [40.156790 42.792550 86.761000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72867001, 0x72867002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72867001, 0x72867003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72867001, 0x72867004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72867001, 0x72867005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72867001, 0x72867006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72867001, 0x72867002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72867001, 0x72867003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72867001, 0x72867004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72867001, 0x72867005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72867001, 0x72867006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72867002,  7340, 0x2867000A, 40.15679, 42.79255, 86.761, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -36,8 +36,8 @@ VALUES (0x72867007,  1542, 0x28670037, 148.9227, 162.5258, 119.9978, 1, 0, 0, 0,
 /* @teleloc 0x28670037 [148.922700 162.525800 119.997800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72867007, 0x72867008, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72867007, 0x72867009, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x72867007, 0x72867008, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72867007, 0x72867009, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72867008, 31445, 0x28670037, 148.9227, 162.5258, 119.9978, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

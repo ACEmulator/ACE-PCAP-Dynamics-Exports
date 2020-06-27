@@ -5,17 +5,17 @@ VALUES (0x7E9D2001,  1154, 0xE9D2000F, 40.24756, 148.1678, -0.8890001, -0.934394
 /* @teleloc 0xE9D2000F [40.247560 148.167800 -0.889000] -0.934395 0.000000 0.000000 -0.356240 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E9D2001, 0x7E9D2002, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E9D2001, 0x7E9D2003, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E9D2001, 0x7E9D2004, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E9D2001, 0x7E9D2005, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E9D2001, 0x7E9D2006, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E9D2001, 0x7E9D2007, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E9D2001, 0x7E9D2008, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E9D2001, 0x7E9D2009, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E9D2001, 0x7E9D200A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E9D2001, 0x7E9D200B, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E9D2001, 0x7E9D200C, '2019-02-10 00:00:00') /* Black Coral Golem */;
+VALUES (0x7E9D2001, 0x7E9D2002, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E9D2001, 0x7E9D2003, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E9D2001, 0x7E9D2004, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E9D2001, 0x7E9D2005, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E9D2001, 0x7E9D2006, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E9D2001, 0x7E9D2007, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E9D2001, 0x7E9D2008, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E9D2001, 0x7E9D2009, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E9D2001, 0x7E9D200A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E9D2001, 0x7E9D200B, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E9D2001, 0x7E9D200C, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E9D2002, 40289, 0xE9D2000F, 40.24756, 148.1678, -0.8890001, -0.9343946, 0, 0, -0.3562398,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */

@@ -5,13 +5,13 @@ VALUES (0x71A31001,  1154, 0x1A310002, 13.376, 27.60368, 23.19898, 0.9037594, 0,
 /* @teleloc 0x1A310002 [13.376000 27.603680 23.198980] 0.903759 0.000000 0.000000 -0.428041 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A31001, 0x71A31002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71A31001, 0x71A31003, '2019-02-10 00:00:00') /* Conflagration */
-     , (0x71A31001, 0x71A31004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71A31001, 0x71A31005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71A31001, 0x71A31006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71A31001, 0x71A31007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71A31001, 0x71A31008, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71A31001, 0x71A31002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71A31001, 0x71A31003, '2019-02-10 00:00:00') /* Conflagration (19539) */
+     , (0x71A31001, 0x71A31004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71A31001, 0x71A31005, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x71A31001, 0x71A31006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71A31001, 0x71A31007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71A31001, 0x71A31008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A31002,  7983, 0x1A310002, 13.376, 27.60368, 23.19898, 0.9037594, 0, 0, -0.4280408,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
@@ -46,7 +46,7 @@ VALUES (0x71A31009,  1542, 0x1A31000F, 31.42144, 158.9444, 45.99, -0.9366814, 0,
 /* @teleloc 0x1A31000F [31.421440 158.944400 45.990000] -0.936681 0.000000 0.000000 -0.350183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A31009, 0x71A3100A, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71A31009, 0x71A3100A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A3100A,  9288, 0x1A31000F, 31.42144, 158.9444, 45.99, -0.9366814, 0, 0, -0.3501828,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

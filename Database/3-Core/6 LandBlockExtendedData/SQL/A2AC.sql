@@ -5,11 +5,11 @@ VALUES (0x7A2AC001,  1154, 0xA2AC0016, 64.46923, 125.4206, 46.00455, -0.882393, 
 /* @teleloc 0xA2AC0016 [64.469230 125.420600 46.004550] -0.882393 0.000000 0.000000 -0.470513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2AC001, 0x7A2AC002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A2AC001, 0x7A2AC003, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A2AC001, 0x7A2AC004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A2AC001, 0x7A2AC005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A2AC001, 0x7A2AC006, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A2AC001, 0x7A2AC002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A2AC001, 0x7A2AC003, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A2AC001, 0x7A2AC004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A2AC001, 0x7A2AC005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A2AC001, 0x7A2AC006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2AC002,  1609, 0xA2AC0016, 64.46923, 125.4206, 46.00455, -0.882393, 0, 0, -0.470513,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -36,7 +36,7 @@ VALUES (0x7A2AC007,  1542, 0xA2AC0017, 50.81506, 153.2182, 46.53359, -0.9841316,
 /* @teleloc 0xA2AC0017 [50.815060 153.218200 46.533590] -0.984132 0.000000 0.000000 -0.177440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2AC007, 0x7A2AC008, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7A2AC007, 0x7A2AC008, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2AC008, 34129, 0xA2AC0017, 50.81506, 153.2182, 46.53359, -0.9841316, 0, 0, -0.1774404,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

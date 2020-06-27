@@ -5,41 +5,41 @@ VALUES (0x74CC4001,  1154, 0x4CC40013, 49.42826, 70.28907, 1.867923, -0.9436588,
 /* @teleloc 0x4CC40013 [49.428260 70.289070 1.867923] -0.943659 0.000000 0.000000 -0.330920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC4001, 0x74CC4002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74CC4001, 0x74CC4003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74CC4001, 0x74CC4004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74CC4001, 0x74CC4005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74CC4001, 0x74CC4006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74CC4001, 0x74CC4007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x74CC4001, 0x74CC4008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74CC4001, 0x74CC4009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74CC4001, 0x74CC400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74CC4001, 0x74CC400B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74CC4001, 0x74CC400C, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x74CC4001, 0x74CC400D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74CC4001, 0x74CC400E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CC4001, 0x74CC400F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CC4001, 0x74CC4010, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74CC4001, 0x74CC4011, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74CC4001, 0x74CC4012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74CC4001, 0x74CC4013, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74CC4001, 0x74CC4014, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74CC4001, 0x74CC4015, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74CC4001, 0x74CC4016, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74CC4001, 0x74CC4017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74CC4001, 0x74CC4018, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74CC4001, 0x74CC4019, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74CC4001, 0x74CC401A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74CC4001, 0x74CC401B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74CC4001, 0x74CC401C, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74CC4001, 0x74CC401D, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x74CC4001, 0x74CC401E, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74CC4001, 0x74CC401F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74CC4001, 0x74CC4020, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74CC4001, 0x74CC4021, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74CC4001, 0x74CC4022, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x74CC4001, 0x74CC4023, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74CC4001, 0x74CC4024, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74CC4001, 0x74CC4002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74CC4001, 0x74CC4003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74CC4001, 0x74CC4004, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x74CC4001, 0x74CC4005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74CC4001, 0x74CC4006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74CC4001, 0x74CC4007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x74CC4001, 0x74CC4008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74CC4001, 0x74CC4009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74CC4001, 0x74CC400A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74CC4001, 0x74CC400B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74CC4001, 0x74CC400C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x74CC4001, 0x74CC400D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74CC4001, 0x74CC400E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CC4001, 0x74CC400F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CC4001, 0x74CC4010, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74CC4001, 0x74CC4011, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74CC4001, 0x74CC4012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74CC4001, 0x74CC4013, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74CC4001, 0x74CC4014, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74CC4001, 0x74CC4015, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x74CC4001, 0x74CC4016, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74CC4001, 0x74CC4017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74CC4001, 0x74CC4018, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74CC4001, 0x74CC4019, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x74CC4001, 0x74CC401A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74CC4001, 0x74CC401B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74CC4001, 0x74CC401C, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74CC4001, 0x74CC401D, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x74CC4001, 0x74CC401E, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74CC4001, 0x74CC401F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74CC4001, 0x74CC4020, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74CC4001, 0x74CC4021, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74CC4001, 0x74CC4022, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x74CC4001, 0x74CC4023, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74CC4001, 0x74CC4024, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC4002,  7081, 0x4CC40013, 49.42826, 70.28907, 1.867923, -0.9436588, 0, 0, -0.3309202,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -186,9 +186,9 @@ VALUES (0x74CC4025,  1542, 0x4CC4002D, 143.8536, 109.6041, 13.00071, -4.371139E-
 /* @teleloc 0x4CC4002D [143.853600 109.604100 13.000710] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CC4025, 0x74CC4026, '2019-02-10 00:00:00') /* Bones */
-     , (0x74CC4025, 0x74CC4027, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74CC4025, 0x74CC4028, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74CC4025, 0x74CC4026, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74CC4025, 0x74CC4027, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74CC4025, 0x74CC4028, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CC4026,  4380, 0x4CC4002D, 143.8536, 109.6041, 13.00071, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,12 +5,12 @@ VALUES (0x79E2B001,  1154, 0x9E2B0038, 146.9983, 171.594, 198.5019, 0.8634315, 0
 /* @teleloc 0x9E2B0038 [146.998300 171.594000 198.501900] 0.863432 0.000000 0.000000 -0.504466 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E2B001, 0x79E2B002, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x79E2B001, 0x79E2B003, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x79E2B001, 0x79E2B004, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x79E2B001, 0x79E2B005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79E2B001, 0x79E2B006, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x79E2B001, 0x79E2B007, '2019-02-10 00:00:00') /* K'nath N'gell */;
+VALUES (0x79E2B001, 0x79E2B002, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x79E2B001, 0x79E2B003, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x79E2B001, 0x79E2B004, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x79E2B001, 0x79E2B005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79E2B001, 0x79E2B006, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x79E2B001, 0x79E2B007, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E2B002, 34297, 0x9E2B0038, 146.9983, 171.594, 198.5019, 0.8634315, 0, 0, -0.5044662,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */

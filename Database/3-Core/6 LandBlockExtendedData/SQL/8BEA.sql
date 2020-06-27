@@ -5,13 +5,13 @@ VALUES (0x78BEA001,  1154, 0x8BEA0027, 99.52107, 154.2814, 64.25394, -0.5559127,
 /* @teleloc 0x8BEA0027 [99.521070 154.281400 64.253940] -0.555913 0.000000 0.000000 -0.831241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BEA001, 0x78BEA002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78BEA001, 0x78BEA003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x78BEA001, 0x78BEA004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BEA001, 0x78BEA005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BEA001, 0x78BEA006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BEA001, 0x78BEA007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x78BEA001, 0x78BEA008, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x78BEA001, 0x78BEA002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78BEA001, 0x78BEA003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x78BEA001, 0x78BEA004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BEA001, 0x78BEA005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BEA001, 0x78BEA006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BEA001, 0x78BEA007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78BEA001, 0x78BEA008, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BEA002,  9252, 0x8BEA0027, 99.52107, 154.2814, 64.25394, -0.5559127, 0, 0, -0.8312407,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

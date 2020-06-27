@@ -5,14 +5,14 @@ VALUES (0x7A2D1001,  1154, 0xA2D1003A, 182.7316, 37.88859, 142.1315, 0.4867181, 
 /* @teleloc 0xA2D1003A [182.731600 37.888590 142.131500] 0.486718 0.000000 0.000000 -0.873559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2D1001, 0x7A2D1002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A2D1001, 0x7A2D1003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A2D1001, 0x7A2D1004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A2D1001, 0x7A2D1005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A2D1001, 0x7A2D1006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A2D1001, 0x7A2D1007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A2D1001, 0x7A2D1008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A2D1001, 0x7A2D1009, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x7A2D1001, 0x7A2D1002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A2D1001, 0x7A2D1003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A2D1001, 0x7A2D1004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A2D1001, 0x7A2D1005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A2D1001, 0x7A2D1006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A2D1001, 0x7A2D1007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A2D1001, 0x7A2D1008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A2D1001, 0x7A2D1009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2D1002,  9252, 0xA2D1003A, 182.7316, 37.88859, 142.1315, 0.4867181, 0, 0, -0.8735591,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

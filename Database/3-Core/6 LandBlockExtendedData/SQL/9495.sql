@@ -5,11 +5,11 @@ VALUES (0x79495001,  1154, 0x94950007, 15.59004, 161.2549, 224.006, 0.9977244, 0
 /* @teleloc 0x94950007 [15.590040 161.254900 224.006000] 0.997724 0.000000 0.000000 -0.067424 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79495001, 0x79495002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79495001, 0x79495003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79495001, 0x79495004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79495001, 0x79495005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79495001, 0x79495006, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x79495001, 0x79495002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79495001, 0x79495003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79495001, 0x79495004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79495001, 0x79495005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79495001, 0x79495006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79495002,   226, 0x94950007, 15.59004, 161.2549, 224.006, 0.9977244, 0, 0, -0.06742355,  True, '2019-02-10 00:00:00'); /* High Tumerok */

@@ -5,13 +5,13 @@ VALUES (0x7B7CB001,  1154, 0xB7CB000A, 40.8091, 28.07619, 254.7331, 0.7007388, 0
 /* @teleloc 0xB7CB000A [40.809100 28.076190 254.733100] 0.700739 0.000000 0.000000 -0.713418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7CB001, 0x7B7CB002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B7CB001, 0x7B7CB003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B7CB001, 0x7B7CB004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B7CB001, 0x7B7CB005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B7CB001, 0x7B7CB006, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7B7CB001, 0x7B7CB007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B7CB001, 0x7B7CB008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B7CB001, 0x7B7CB002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B7CB001, 0x7B7CB003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B7CB001, 0x7B7CB004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B7CB001, 0x7B7CB005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B7CB001, 0x7B7CB006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7B7CB001, 0x7B7CB007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B7CB001, 0x7B7CB008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7CB002,     3, 0xB7CB000A, 40.8091, 28.07619, 254.7331, 0.7007388, 0, 0, -0.7134178,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -46,8 +46,8 @@ VALUES (0x7B7CB009,  1542, 0xB7CB003C, 170.4526, 94.25507, 277.6548, 0.7660445, 
 /* @teleloc 0xB7CB003C [170.452600 94.255070 277.654800] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7CB009, 0x7B7CB00A, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B7CB009, 0x7B7CB00B, '2019-02-10 00:00:00') /* Gorget */;
+VALUES (0x7B7CB009, 0x7B7CB00A, '2019-02-10 00:00:00') /* Gem (2400) */
+     , (0x7B7CB009, 0x7B7CB00B, '2019-02-10 00:00:00') /* Gorget (2367) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7CB00A,  2400, 0xB7CB003C, 170.4526, 94.25507, 277.6548, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gem */

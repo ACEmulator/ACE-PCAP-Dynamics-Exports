@@ -5,20 +5,20 @@ VALUES (0x7BFA8001,  1154, 0xBFA80012, 53.80985, 35.99053, 66.03778, -0.9220526,
 /* @teleloc 0xBFA80012 [53.809850 35.990530 66.037780] -0.922053 0.000000 0.000000 -0.387065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA8001, 0x7BFA8002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BFA8001, 0x7BFA8003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BFA8001, 0x7BFA8004, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7BFA8001, 0x7BFA8005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA8006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA8007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA8008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA8009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA800A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7BFA8001, 0x7BFA800B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BFA8001, 0x7BFA800C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BFA8001, 0x7BFA800D, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7BFA8001, 0x7BFA800E, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7BFA8001, 0x7BFA800F, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7BFA8001, 0x7BFA8002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BFA8001, 0x7BFA8003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BFA8001, 0x7BFA8004, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7BFA8001, 0x7BFA8005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA8006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA8007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA8008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA8009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA800A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7BFA8001, 0x7BFA800B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BFA8001, 0x7BFA800C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BFA8001, 0x7BFA800D, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7BFA8001, 0x7BFA800E, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7BFA8001, 0x7BFA800F, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA8002,  7345, 0xBFA80012, 53.80985, 35.99053, 66.03778, -0.9220526, 0, 0, -0.3870648,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -81,9 +81,9 @@ VALUES (0x7BFA8010,  1542, 0xBFA80012, 49.27876, 37.26414, 68.07077, 0.7660445, 
 /* @teleloc 0xBFA80012 [49.278760 37.264140 68.070770] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFA8010, 0x7BFA8011, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7BFA8010, 0x7BFA8012, '2019-02-10 00:00:00') /* Amulet */
-     , (0x7BFA8010, 0x7BFA8013, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7BFA8010, 0x7BFA8011, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x7BFA8010, 0x7BFA8012, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x7BFA8010, 0x7BFA8013, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFA8011, 41486, 0xBFA80012, 49.27876, 37.26414, 68.07077, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Puzzle Box */

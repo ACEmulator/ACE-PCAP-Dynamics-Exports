@@ -5,34 +5,34 @@ VALUES (0x723BE001,  1154, 0x23BE0028, 118.4401, 171.2933, 111.7196, 1, 0, 0, 0,
 /* @teleloc 0x23BE0028 [118.440100 171.293300 111.719600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723BE001, 0x723BE002, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x723BE001, 0x723BE003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723BE001, 0x723BE004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723BE001, 0x723BE005, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x723BE001, 0x723BE006, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x723BE001, 0x723BE007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723BE001, 0x723BE008, '2019-02-10 00:00:00') /* Synnast */
-     , (0x723BE001, 0x723BE009, '2019-02-10 00:00:00') /* Synnast */
-     , (0x723BE001, 0x723BE00A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x723BE001, 0x723BE00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723BE001, 0x723BE00C, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x723BE001, 0x723BE00D, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x723BE001, 0x723BE00E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x723BE001, 0x723BE00F, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x723BE001, 0x723BE010, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x723BE001, 0x723BE011, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x723BE001, 0x723BE012, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x723BE001, 0x723BE013, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x723BE001, 0x723BE014, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x723BE001, 0x723BE015, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x723BE001, 0x723BE016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723BE001, 0x723BE017, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723BE001, 0x723BE018, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x723BE001, 0x723BE019, '2019-02-10 00:00:00') /* Synnast */
-     , (0x723BE001, 0x723BE01A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x723BE001, 0x723BE01B, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x723BE001, 0x723BE01C, '2019-02-10 00:00:00') /* Synnast */
-     , (0x723BE001, 0x723BE01D, '2019-02-10 00:00:00') /* Copper Gromnie */;
+VALUES (0x723BE001, 0x723BE002, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x723BE001, 0x723BE003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723BE001, 0x723BE004, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x723BE001, 0x723BE005, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x723BE001, 0x723BE006, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x723BE001, 0x723BE007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x723BE001, 0x723BE008, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x723BE001, 0x723BE009, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x723BE001, 0x723BE00A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x723BE001, 0x723BE00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x723BE001, 0x723BE00C, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x723BE001, 0x723BE00D, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x723BE001, 0x723BE00E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x723BE001, 0x723BE00F, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x723BE001, 0x723BE010, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x723BE001, 0x723BE011, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x723BE001, 0x723BE012, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x723BE001, 0x723BE013, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x723BE001, 0x723BE014, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x723BE001, 0x723BE015, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x723BE001, 0x723BE016, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x723BE001, 0x723BE017, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723BE001, 0x723BE018, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x723BE001, 0x723BE019, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x723BE001, 0x723BE01A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x723BE001, 0x723BE01B, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x723BE001, 0x723BE01C, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x723BE001, 0x723BE01D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723BE002,  7095, 0x23BE0028, 118.4401, 171.2933, 111.7196, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scathisa */
@@ -151,10 +151,10 @@ VALUES (0x723BE01E,  1542, 0x23BE0039, 175.5, 9.25691, 180.6875, 1, 0, 0, 0, Fal
 /* @teleloc 0x23BE0039 [175.500000 9.256910 180.687500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723BE01E, 0x723BE01F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x723BE01E, 0x723BE020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x723BE01E, 0x723BE021, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x723BE01E, 0x723BE022, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x723BE01E, 0x723BE01F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x723BE01E, 0x723BE020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x723BE01E, 0x723BE021, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x723BE01E, 0x723BE022, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723BE01F,  9024, 0x23BE0039, 175.5, 9.25691, 180.6875, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

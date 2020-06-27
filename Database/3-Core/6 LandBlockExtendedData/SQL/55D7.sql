@@ -5,17 +5,17 @@ VALUES (0x755D7001,  1154, 0x55D70027, 106.0191, 161.7133, 45.05054, 0.9949906, 
 /* @teleloc 0x55D70027 [106.019100 161.713300 45.050540] 0.994991 0.000000 0.000000 -0.099968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D7001, 0x755D7002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x755D7001, 0x755D7003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x755D7001, 0x755D7004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x755D7001, 0x755D7005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755D7001, 0x755D7006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x755D7001, 0x755D7007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x755D7001, 0x755D7008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x755D7001, 0x755D7009, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x755D7001, 0x755D700A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x755D7001, 0x755D700B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x755D7001, 0x755D700C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x755D7001, 0x755D7002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x755D7001, 0x755D7003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x755D7001, 0x755D7004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x755D7001, 0x755D7005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755D7001, 0x755D7006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x755D7001, 0x755D7007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x755D7001, 0x755D7008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x755D7001, 0x755D7009, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x755D7001, 0x755D700A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x755D7001, 0x755D700B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x755D7001, 0x755D700C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D7002, 10810, 0x55D70027, 106.0191, 161.7133, 45.05054, 0.9949906, 0, 0, -0.09996795,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -66,7 +66,7 @@ VALUES (0x755D700D,  1542, 0x55D7003F, 187.0379, 161.5792, 35.34338, 1, 0, 0, 0,
 /* @teleloc 0x55D7003F [187.037900 161.579200 35.343380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D700D, 0x755D700E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x755D700D, 0x755D700E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D700E, 22567, 0x55D7003F, 187.0379, 161.5792, 35.34338, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

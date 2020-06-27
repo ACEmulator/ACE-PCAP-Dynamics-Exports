@@ -5,13 +5,13 @@ VALUES (0x79C37001,  1154, 0x9C370024, 96.12978, 74.72334, 92.02291, 0.7071068, 
 /* @teleloc 0x9C370024 [96.129780 74.723340 92.022910] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C37001, 0x79C37002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79C37001, 0x79C37003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79C37001, 0x79C37004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79C37001, 0x79C37005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79C37001, 0x79C37006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79C37001, 0x79C37007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79C37001, 0x79C37008, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x79C37001, 0x79C37002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79C37001, 0x79C37003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79C37001, 0x79C37004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79C37001, 0x79C37005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79C37001, 0x79C37006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79C37001, 0x79C37007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79C37001, 0x79C37008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C37002,  1627, 0x9C370024, 96.12978, 74.72334, 92.02291, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -46,7 +46,7 @@ VALUES (0x79C37009,  1542, 0x9C370023, 98.20269, 69.0893, 91.82574, 0.7071068, 0
 /* @teleloc 0x9C370023 [98.202690 69.089300 91.825740] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C37009, 0x79C3700A, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x79C37009, 0x79C3700A, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C3700A,  5779, 0x9C370023, 98.20269, 69.0893, 91.82574, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

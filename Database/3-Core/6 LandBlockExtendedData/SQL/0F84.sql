@@ -5,26 +5,26 @@ VALUES (0x70F84001,  1154, 0x0F84001F, 91.0063, 159.8514, 27.88837, -0.8634466, 
 /* @teleloc 0x0F84001F [91.006300 159.851400 27.888370] -0.863447 0.000000 0.000000 -0.504440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F84001, 0x70F84002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F84001, 0x70F84003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70F84001, 0x70F84004, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70F84001, 0x70F84005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70F84001, 0x70F84006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70F84001, 0x70F84007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70F84001, 0x70F84008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F84001, 0x70F84009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70F84001, 0x70F8400A, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70F84001, 0x70F8400B, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70F84001, 0x70F8400C, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F84001, 0x70F8400D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x70F84001, 0x70F8400E, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x70F84001, 0x70F8400F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70F84001, 0x70F84010, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70F84001, 0x70F84011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x70F84001, 0x70F84012, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x70F84001, 0x70F84013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70F84001, 0x70F84014, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70F84001, 0x70F84015, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x70F84001, 0x70F84002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F84001, 0x70F84003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70F84001, 0x70F84004, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70F84001, 0x70F84005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70F84001, 0x70F84006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70F84001, 0x70F84007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70F84001, 0x70F84008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F84001, 0x70F84009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70F84001, 0x70F8400A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70F84001, 0x70F8400B, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70F84001, 0x70F8400C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x70F84001, 0x70F8400D, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x70F84001, 0x70F8400E, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x70F84001, 0x70F8400F, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70F84001, 0x70F84010, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70F84001, 0x70F84011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x70F84001, 0x70F84012, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x70F84001, 0x70F84013, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x70F84001, 0x70F84014, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70F84001, 0x70F84015, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F84002, 23481, 0x0F84001F, 91.0063, 159.8514, 27.88837, -0.8634466, 0, 0, -0.5044403,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -111,8 +111,8 @@ VALUES (0x70F84016,  1542, 0x0F84003C, 191.8133, 79.54865, 90, 0.9990482, 0, 0, 
 /* @teleloc 0x0F84003C [191.813300 79.548650 90.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F84016, 0x70F84017, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x70F84016, 0x70F84018, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70F84016, 0x70F84017, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x70F84016, 0x70F84018, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F84017, 24476, 0x0F84003C, 191.8133, 79.54865, 90, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Sturdy Steel Chest */

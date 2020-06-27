@@ -5,9 +5,9 @@ VALUES (0x79733001,  1154, 0x9733001B, 91.26388, 54.98448, 58.30244, 0.3767545, 
 /* @teleloc 0x9733001B [91.263880 54.984480 58.302440] 0.376755 0.000000 0.000000 -0.926313 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79733001, 0x79733002, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79733001, 0x79733003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79733001, 0x79733004, '2019-02-10 00:00:00') /* Ancient Mu-miyah */;
+VALUES (0x79733001, 0x79733002, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79733001, 0x79733003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79733001, 0x79733004, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79733002,  9256, 0x9733001B, 91.26388, 54.98448, 58.30244, 0.3767545, 0, 0, -0.9263132,  True, '2019-02-10 00:00:00'); /* Dune Reaver */

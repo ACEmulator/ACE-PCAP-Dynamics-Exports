@@ -5,24 +5,24 @@ VALUES (0x70B7F001,  1154, 0x0B7F0013, 50.11118, 70.67073, 56.93472, 0.9659258, 
 /* @teleloc 0x0B7F0013 [50.111180 70.670730 56.934720] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B7F001, 0x70B7F002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B7F001, 0x70B7F003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70B7F001, 0x70B7F004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70B7F001, 0x70B7F005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B7F001, 0x70B7F006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B7F001, 0x70B7F007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70B7F001, 0x70B7F008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B7F001, 0x70B7F009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B7F001, 0x70B7F00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70B7F001, 0x70B7F00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70B7F001, 0x70B7F00C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70B7F001, 0x70B7F00D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B7F001, 0x70B7F00E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70B7F001, 0x70B7F00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B7F001, 0x70B7F010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70B7F001, 0x70B7F011, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70B7F001, 0x70B7F012, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70B7F001, 0x70B7F013, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x70B7F001, 0x70B7F002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B7F001, 0x70B7F003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70B7F001, 0x70B7F004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70B7F001, 0x70B7F005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B7F001, 0x70B7F006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B7F001, 0x70B7F007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70B7F001, 0x70B7F008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B7F001, 0x70B7F009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B7F001, 0x70B7F00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70B7F001, 0x70B7F00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70B7F001, 0x70B7F00C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70B7F001, 0x70B7F00D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B7F001, 0x70B7F00E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70B7F001, 0x70B7F00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B7F001, 0x70B7F010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70B7F001, 0x70B7F011, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70B7F001, 0x70B7F012, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70B7F001, 0x70B7F013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B7F002,  9264, 0x0B7F0013, 50.11118, 70.67073, 56.93472, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

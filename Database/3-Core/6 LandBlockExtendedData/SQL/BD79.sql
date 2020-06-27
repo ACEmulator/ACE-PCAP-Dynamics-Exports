@@ -5,13 +5,13 @@ VALUES (0x7BD79001,  1154, 0xBD79000E, 40.31546, 133.3251, 57.88955, 0.5549956, 
 /* @teleloc 0xBD79000E [40.315460 133.325100 57.889550] 0.554996 0.000000 0.000000 -0.831853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD79001, 0x7BD79002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BD79001, 0x7BD79003, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BD79001, 0x7BD79004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BD79001, 0x7BD79005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BD79001, 0x7BD79006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD79001, 0x7BD79007, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD79001, 0x7BD79008, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7BD79001, 0x7BD79002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BD79001, 0x7BD79003, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BD79001, 0x7BD79004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BD79001, 0x7BD79005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BD79001, 0x7BD79006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD79001, 0x7BD79007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD79001, 0x7BD79008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD79002, 24938, 0xBD79000E, 40.31546, 133.3251, 57.88955, 0.5549956, 0, 0, -0.8318533,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
@@ -46,7 +46,7 @@ VALUES (0x7BD79009,  1542, 0xBD79003B, 191.9789, 60.69931, 25.05476, 0.2993163, 
 /* @teleloc 0xBD79003B [191.978900 60.699310 25.054760] 0.299316 0.000000 0.000000 -0.954154 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD79009, 0x7BD7900A, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7BD79009, 0x7BD7900A, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD7900A, 14789, 0xBD79003B, 191.9789, 60.69931, 25.05476, 0.2993163, 0, 0, -0.954154,  True, '2019-02-10 00:00:00'); /* Ginger */

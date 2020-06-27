@@ -5,13 +5,13 @@ VALUES (0x7875A001,  1154, 0x875A003F, 183.9786, 146.9967, 10.0025, 0.8406304, 0
 /* @teleloc 0x875A003F [183.978600 146.996700 10.002500] 0.840630 0.000000 0.000000 -0.541609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7875A001, 0x7875A002, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x7875A001, 0x7875A003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7875A001, 0x7875A004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x7875A001, 0x7875A005, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7875A001, 0x7875A006, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7875A001, 0x7875A007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7875A001, 0x7875A008, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x7875A001, 0x7875A002, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x7875A001, 0x7875A003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7875A001, 0x7875A004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x7875A001, 0x7875A005, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7875A001, 0x7875A006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7875A001, 0x7875A007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7875A001, 0x7875A008, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7875A002,  5682, 0x875A003F, 183.9786, 146.9967, 10.0025, 0.8406304, 0, 0, -0.5416093,  True, '2019-02-10 00:00:00'); /* Charred Skeleton */

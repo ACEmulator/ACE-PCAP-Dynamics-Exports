@@ -225,50 +225,50 @@ VALUES (0x7C95B06C,  1154, 0xC95B013E, 184.629, 178.381, 16.805, 1, 0, 0, 0, Fal
 /* @teleloc 0xC95B013E [184.629000 178.381000 16.805000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95B06C, 0x7C95B06D, '2019-02-10 00:00:00') /* Jewel Collector */
-     , (0x7C95B06C, 0x7C95B06E, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x7C95B06C, 0x7C95B06F, '2019-02-10 00:00:00') /* Apprentice Fletcher */
-     , (0x7C95B06C, 0x7C95B070, '2019-02-10 00:00:00') /* Ro Bi-Jor, Apprentice Tailor */
-     , (0x7C95B06C, 0x7C95B071, '2019-02-10 00:00:00') /* Sergeant Huang */
-     , (0x7C95B06C, 0x7C95B072, '2019-02-10 00:00:00') /* Tsua Kagemata */
-     , (0x7C95B06C, 0x7C95B073, '2019-02-10 00:00:00') /* Trophy Smith */
-     , (0x7C95B06C, 0x7C95B074, '2019-02-10 00:00:00') /* Tsua's Apprentice */
-     , (0x7C95B06C, 0x7C95B075, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x7C95B06C, 0x7C95B076, '2019-02-10 00:00:00') /* Hasin Lin */
-     , (0x7C95B06C, 0x7C95B077, '2019-02-10 00:00:00') /* Jojii Shrine */
-     , (0x7C95B06C, 0x7C95B078, '2019-02-10 00:00:00') /* Pau Yajin */
-     , (0x7C95B06C, 0x7C95B079, '2019-02-10 00:00:00') /* Nomendar al-Rakh */
-     , (0x7C95B06C, 0x7C95B07A, '2019-02-10 00:00:00') /* Wing Collector */
-     , (0x7C95B06C, 0x7C95B07B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B07C, '2019-02-10 00:00:00') /* Sign */
-     , (0x7C95B06C, 0x7C95B07D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B07E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B07F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B080, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B081, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B082, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B083, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B084, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B085, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B086, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B087, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B088, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B089, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B08F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B090, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B091, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B092, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B093, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B094, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B095, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B096, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B097, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7C95B06C, 0x7C95B098, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7C95B06C, 0x7C95B06D, '2019-02-10 00:00:00') /* Jewel Collector (3919) */
+     , (0x7C95B06C, 0x7C95B06E, '2019-02-10 00:00:00') /* Leather Crafter (4214) */
+     , (0x7C95B06C, 0x7C95B06F, '2019-02-10 00:00:00') /* Apprentice Fletcher (28190) */
+     , (0x7C95B06C, 0x7C95B070, '2019-02-10 00:00:00') /* Ro Bi-Jor, Apprentice Tailor (24160) */
+     , (0x7C95B06C, 0x7C95B071, '2019-02-10 00:00:00') /* Sergeant Huang (33839) */
+     , (0x7C95B06C, 0x7C95B072, '2019-02-10 00:00:00') /* Tsua Kagemata (8402) */
+     , (0x7C95B06C, 0x7C95B073, '2019-02-10 00:00:00') /* Trophy Smith (3932) */
+     , (0x7C95B06C, 0x7C95B074, '2019-02-10 00:00:00') /* Tsua's Apprentice (12205) */
+     , (0x7C95B06C, 0x7C95B075, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x7C95B06C, 0x7C95B076, '2019-02-10 00:00:00') /* Hasin Lin (34305) */
+     , (0x7C95B06C, 0x7C95B077, '2019-02-10 00:00:00') /* Jojii Shrine (25830) */
+     , (0x7C95B06C, 0x7C95B078, '2019-02-10 00:00:00') /* Pau Yajin (35853) */
+     , (0x7C95B06C, 0x7C95B079, '2019-02-10 00:00:00') /* Nomendar al-Rakh (37089) */
+     , (0x7C95B06C, 0x7C95B07A, '2019-02-10 00:00:00') /* Wing Collector (3924) */
+     , (0x7C95B06C, 0x7C95B07B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B07C, '2019-02-10 00:00:00') /* Sign (40528) */
+     , (0x7C95B06C, 0x7C95B07D, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B07E, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B07F, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B080, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B081, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B082, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B083, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B084, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B085, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B086, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B087, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B088, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B089, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08A, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08C, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08D, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08E, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B08F, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B090, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B091, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B092, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B093, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B094, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B095, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B096, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B097, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7C95B06C, 0x7C95B098, '2019-02-10 00:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B06D,  3919, 0xC95B013E, 184.629, 178.381, 16.805, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Jewel Collector */
@@ -451,7 +451,7 @@ VALUES (0x7C95B099,  1542, 0xC95B0113, 80.1424, 151.075, 13.59935, -0.699803, 0,
 /* @teleloc 0xC95B0113 [80.142400 151.075000 13.599350] -0.699803 0.000000 0.000000 0.714336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C95B099, 0x7C95B09A, '2019-02-10 00:00:00') /* Dusty Sollerets */;
+VALUES (0x7C95B099, 0x7C95B09A, '2019-02-10 00:00:00') /* Dusty Sollerets (24137) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C95B09A, 24137, 0xC95B0113, 80.1424, 151.075, 13.59935, -0.699803, 0, 0, 0.714336,  True, '2019-02-10 00:00:00'); /* Dusty Sollerets */

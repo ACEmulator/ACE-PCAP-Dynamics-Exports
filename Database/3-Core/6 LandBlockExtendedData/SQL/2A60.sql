@@ -5,11 +5,11 @@ VALUES (0x72A60001,  1154, 0x2A60000C, 27.37952, 91.29627, 102.6232, 0.7071068, 
 /* @teleloc 0x2A60000C [27.379520 91.296270 102.623200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A60001, 0x72A60002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72A60001, 0x72A60003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A60001, 0x72A60004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72A60001, 0x72A60005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A60001, 0x72A60006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x72A60001, 0x72A60002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72A60001, 0x72A60003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A60001, 0x72A60004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72A60001, 0x72A60005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A60001, 0x72A60006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A60002,  7340, 0x2A60000C, 27.37952, 91.29627, 102.6232, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

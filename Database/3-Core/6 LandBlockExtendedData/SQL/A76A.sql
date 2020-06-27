@@ -5,12 +5,12 @@ VALUES (0x7A76A001,  1154, 0xA76A001E, 84.85403, 125.5862, 23.9919, -0.1575264, 
 /* @teleloc 0xA76A001E [84.854030 125.586200 23.991900] -0.157526 0.000000 0.000000 -0.987515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A76A001, 0x7A76A002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A76A001, 0x7A76A003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A76A001, 0x7A76A004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A76A001, 0x7A76A005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A76A001, 0x7A76A006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A76A001, 0x7A76A007, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7A76A001, 0x7A76A002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A76A001, 0x7A76A003, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7A76A001, 0x7A76A004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A76A001, 0x7A76A005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A76A001, 0x7A76A006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A76A001, 0x7A76A007, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A76A002,  2575, 0xA76A001E, 84.85403, 125.5862, 23.9919, -0.1575264, 0, 0, -0.9875148,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -41,7 +41,7 @@ VALUES (0x7A76A008,  1542, 0xA76A0023, 97.38612, 52.0495, 24, 0.9990482, 0, 0, -
 /* @teleloc 0xA76A0023 [97.386120 52.049500 24.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A76A008, 0x7A76A009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A76A008, 0x7A76A009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A76A009,  4179, 0xA76A0023, 97.38612, 52.0495, 24, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,8 +5,8 @@ VALUES (0x71368001,  1154, 0x13680006, 17.17226, 143.1888, 18.77519, 0.9459354, 
 /* @teleloc 0x13680006 [17.172260 143.188800 18.775190] 0.945935 0.000000 0.000000 -0.324355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71368001, 0x71368002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71368001, 0x71368003, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x71368001, 0x71368002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71368001, 0x71368003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71368002,  7982, 0x13680006, 17.17226, 143.1888, 18.77519, 0.9459354, 0, 0, -0.3243552,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

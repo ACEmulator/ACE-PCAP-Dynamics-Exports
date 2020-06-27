@@ -5,15 +5,15 @@ VALUES (0x79D2E001,  1154, 0x9D2E003C, 191.1119, 73.50851, 75.31192, -0.1977133,
 /* @teleloc 0x9D2E003C [191.111900 73.508510 75.311920] -0.197713 0.000000 0.000000 -0.980260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D2E001, 0x79D2E002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79D2E001, 0x79D2E003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79D2E001, 0x79D2E004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79D2E001, 0x79D2E005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79D2E001, 0x79D2E006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79D2E001, 0x79D2E007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79D2E001, 0x79D2E008, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x79D2E001, 0x79D2E009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79D2E001, 0x79D2E00A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79D2E001, 0x79D2E002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79D2E001, 0x79D2E003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79D2E001, 0x79D2E004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79D2E001, 0x79D2E005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79D2E001, 0x79D2E006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79D2E001, 0x79D2E007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79D2E001, 0x79D2E008, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79D2E001, 0x79D2E009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79D2E001, 0x79D2E00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D2E002, 24959, 0x9D2E003C, 191.1119, 73.50851, 75.31192, -0.1977133, 0, 0, -0.9802599,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -56,8 +56,8 @@ VALUES (0x79D2E00B,  1542, 0x9D2E0029, 127.5693, 3.590591, 81.71178, 0.3642862, 
 /* @teleloc 0x9D2E0029 [127.569300 3.590591 81.711780] 0.364286 0.000000 0.000000 -0.931287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D2E00B, 0x79D2E00C, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x79D2E00B, 0x79D2E00D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79D2E00B, 0x79D2E00C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x79D2E00B, 0x79D2E00D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D2E00C, 31686, 0x9D2E0029, 127.5693, 3.590591, 81.71178, 0.3642862, 0, 0, -0.9312871,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

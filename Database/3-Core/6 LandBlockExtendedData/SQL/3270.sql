@@ -5,26 +5,26 @@ VALUES (0x73270001,  1154, 0x32700009, 26.85197, 21.29194, 129.964, 0.4018375, 0
 /* @teleloc 0x32700009 [26.851970 21.291940 129.964000] 0.401838 0.000000 0.000000 -0.915711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73270001, 0x73270002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73270001, 0x73270003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73270001, 0x73270004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73270001, 0x73270005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73270001, 0x73270006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73270001, 0x73270007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73270001, 0x73270008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73270001, 0x73270009, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x73270001, 0x7327000A, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x73270001, 0x7327000B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73270001, 0x7327000C, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73270001, 0x7327000D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73270001, 0x7327000E, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73270001, 0x7327000F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73270001, 0x73270010, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73270001, 0x73270011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73270001, 0x73270012, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x73270001, 0x73270013, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73270001, 0x73270014, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73270001, 0x73270015, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x73270001, 0x73270002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73270001, 0x73270003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73270001, 0x73270004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x73270001, 0x73270005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73270001, 0x73270006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73270001, 0x73270007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73270001, 0x73270008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73270001, 0x73270009, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x73270001, 0x7327000A, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x73270001, 0x7327000B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73270001, 0x7327000C, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73270001, 0x7327000D, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73270001, 0x7327000E, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73270001, 0x7327000F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73270001, 0x73270010, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73270001, 0x73270011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73270001, 0x73270012, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x73270001, 0x73270013, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x73270001, 0x73270014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73270001, 0x73270015, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73270002, 23482, 0x32700009, 26.85197, 21.29194, 129.964, 0.4018375, 0, 0, -0.915711,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -111,8 +111,8 @@ VALUES (0x73270016,  1542, 0x32700018, 70.83623, 178.001, 61.35219, -0.2447898, 
 /* @teleloc 0x32700018 [70.836230 178.001000 61.352190] -0.244790 0.000000 0.000000 -0.969576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73270016, 0x73270017, '2019-02-10 00:00:00') /* Rock */
-     , (0x73270016, 0x73270018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73270016, 0x73270017, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x73270016, 0x73270018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73270017, 42528, 0x32700018, 70.83623, 178.001, 61.35219, -0.2447898, 0, 0, -0.9695762,  True, '2019-02-10 00:00:00'); /* Rock */

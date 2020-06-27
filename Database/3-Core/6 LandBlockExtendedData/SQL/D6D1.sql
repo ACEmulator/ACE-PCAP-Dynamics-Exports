@@ -5,27 +5,27 @@ VALUES (0x7D6D1001,  1154, 0xD6D10015, 70.74091, 100.7741, 56, -0.5702438, 0, 0,
 /* @teleloc 0xD6D10015 [70.740910 100.774100 56.000000] -0.570244 0.000000 0.000000 -0.821476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6D1001, 0x7D6D1002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D1001, 0x7D6D1003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D6D1001, 0x7D6D1004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D6D1001, 0x7D6D1005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D1001, 0x7D6D1006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D1001, 0x7D6D1007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7D6D1001, 0x7D6D1008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D6D1001, 0x7D6D1009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D6D1001, 0x7D6D100A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D1001, 0x7D6D100B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D6D1001, 0x7D6D100C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D1001, 0x7D6D100D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D1001, 0x7D6D100E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D1001, 0x7D6D100F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D6D1001, 0x7D6D1010, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D6D1001, 0x7D6D1011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D1001, 0x7D6D1012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D6D1001, 0x7D6D1013, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D6D1001, 0x7D6D1014, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D6D1001, 0x7D6D1015, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D6D1001, 0x7D6D1016, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x7D6D1001, 0x7D6D1002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D1001, 0x7D6D1003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D6D1001, 0x7D6D1004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D6D1001, 0x7D6D1005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D1001, 0x7D6D1006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D1001, 0x7D6D1007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7D6D1001, 0x7D6D1008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D6D1001, 0x7D6D1009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D6D1001, 0x7D6D100A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D1001, 0x7D6D100B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D6D1001, 0x7D6D100C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D1001, 0x7D6D100D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D1001, 0x7D6D100E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D1001, 0x7D6D100F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D6D1001, 0x7D6D1010, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D6D1001, 0x7D6D1011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D1001, 0x7D6D1012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D6D1001, 0x7D6D1013, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D6D1001, 0x7D6D1014, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D6D1001, 0x7D6D1015, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D6D1001, 0x7D6D1016, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6D1002,     3, 0xD6D10015, 70.74091, 100.7741, 56, -0.5702438, 0, 0, -0.8214755,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -116,8 +116,8 @@ VALUES (0x7D6D1017,  1542, 0xD6D10040, 173.7721, 188.0795, 35.519, 1, 0, 0, 0, F
 /* @teleloc 0xD6D10040 [173.772100 188.079500 35.519000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6D1017, 0x7D6D1018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7D6D1017, 0x7D6D1019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D6D1017, 0x7D6D1018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D6D1017, 0x7D6D1019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6D1018,  4179, 0xD6D10040, 173.7721, 188.0795, 35.519, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

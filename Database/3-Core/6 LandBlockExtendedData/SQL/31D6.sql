@@ -65,14 +65,14 @@ VALUES (0x731D6016,  1154, 0x31D60109, 111.964, 123.356, 90.003, 0.989022, 0, 0,
 /* @teleloc 0x31D60109 [111.964000 123.356000 90.003000] 0.989022 0.000000 0.000000 -0.147769 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x731D6016, 0x731D6017, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x731D6016, 0x731D6018, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x731D6016, 0x731D6019, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x731D6016, 0x731D601A, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x731D6016, 0x731D601B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x731D6016, 0x731D601C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x731D6016, 0x731D601D, '2019-02-10 00:00:00') /* Morel Thrungus */
-     , (0x731D6016, 0x731D601E, '2019-02-10 00:00:00') /* Thrungus */;
+VALUES (0x731D6016, 0x731D6017, '2019-02-10 00:00:00') /* Skeleton (40529) */
+     , (0x731D6016, 0x731D6018, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x731D6016, 0x731D6019, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x731D6016, 0x731D601A, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x731D6016, 0x731D601B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x731D6016, 0x731D601C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x731D6016, 0x731D601D, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */
+     , (0x731D6016, 0x731D601E, '2019-02-10 00:00:00') /* Thrungus (28677) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731D6017, 40529, 0x31D60109, 111.964, 123.356, 90.003, 0.989022, 0, 0, -0.147769,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -111,12 +111,12 @@ VALUES (0x731D601F,  1154, 0x31D60102, 113.411, 137.521, 80.105, 0.433486, 0, 0,
 /* @teleloc 0x31D60102 [113.411000 137.521000 80.105000] 0.433486 0.000000 0.000000 0.901160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x731D601F, 0x731D6020, '2019-02-10 00:00:00') /* Piersanti Linante */
-     , (0x731D601F, 0x731D6021, '2019-02-10 00:00:00') /* Lieutenant Dialossa */
-     , (0x731D601F, 0x731D6022, '2019-02-10 00:00:00') /* Melaverre */
-     , (0x731D601F, 0x731D6023, '2019-02-10 00:00:00') /* Garmasi */
-     , (0x731D601F, 0x731D6024, '2019-02-10 00:00:00') /* Gallatria du Ressetta */
-     , (0x731D601F, 0x731D6025, '2019-02-10 00:00:00') /* Grand Knight */;
+VALUES (0x731D601F, 0x731D6020, '2019-02-10 00:00:00') /* Piersanti Linante (28679) */
+     , (0x731D601F, 0x731D6021, '2019-02-10 00:00:00') /* Lieutenant Dialossa (32843) */
+     , (0x731D601F, 0x731D6022, '2019-02-10 00:00:00') /* Melaverre (33013) */
+     , (0x731D601F, 0x731D6023, '2019-02-10 00:00:00') /* Garmasi (32693) */
+     , (0x731D601F, 0x731D6024, '2019-02-10 00:00:00') /* Gallatria du Ressetta (31431) */
+     , (0x731D601F, 0x731D6025, '2019-02-10 00:00:00') /* Grand Knight (28700) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x731D6020, 28679, 0x31D60102, 113.411, 137.521, 80.105, 0.433486, 0, 0, 0.90116,  True, '2019-02-10 00:00:00'); /* Piersanti Linante */

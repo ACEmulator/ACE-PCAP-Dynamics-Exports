@@ -5,13 +5,13 @@ VALUES (0x71630001,  1154, 0x16300037, 147.7837, 145.4324, 40.00455, 0.9238795, 
 /* @teleloc 0x16300037 [147.783700 145.432400 40.004550] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71630001, 0x71630002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71630001, 0x71630003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71630001, 0x71630004, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x71630001, 0x71630005, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71630001, 0x71630006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71630001, 0x71630007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71630001, 0x71630008, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x71630001, 0x71630002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71630001, 0x71630003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71630001, 0x71630004, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x71630001, 0x71630005, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71630001, 0x71630006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71630001, 0x71630007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71630001, 0x71630008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71630002, 36821, 0x16300037, 147.7837, 145.4324, 40.00455, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

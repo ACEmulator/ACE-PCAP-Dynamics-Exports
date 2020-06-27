@@ -5,33 +5,33 @@ VALUES (0x7A0EB001,  1154, 0xA0EB0027, 103.1092, 145.5763, 5.081103, 0.4160606, 
 /* @teleloc 0xA0EB0027 [103.109200 145.576300 5.081103] 0.416061 0.000000 0.000000 -0.909337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0EB001, 0x7A0EB002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A0EB001, 0x7A0EB003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A0EB001, 0x7A0EB004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A0EB001, 0x7A0EB005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A0EB001, 0x7A0EB006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A0EB001, 0x7A0EB007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A0EB001, 0x7A0EB008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A0EB001, 0x7A0EB009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A0EB001, 0x7A0EB00A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A0EB001, 0x7A0EB00B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A0EB001, 0x7A0EB00C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A0EB001, 0x7A0EB00D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A0EB001, 0x7A0EB00E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0EB001, 0x7A0EB00F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A0EB001, 0x7A0EB010, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A0EB001, 0x7A0EB011, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A0EB001, 0x7A0EB012, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A0EB001, 0x7A0EB013, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A0EB001, 0x7A0EB014, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7A0EB001, 0x7A0EB015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A0EB001, 0x7A0EB016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A0EB001, 0x7A0EB017, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A0EB001, 0x7A0EB018, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A0EB001, 0x7A0EB019, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A0EB001, 0x7A0EB01A, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A0EB001, 0x7A0EB01B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A0EB001, 0x7A0EB01C, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7A0EB001, 0x7A0EB002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A0EB001, 0x7A0EB003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A0EB001, 0x7A0EB004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A0EB001, 0x7A0EB005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A0EB001, 0x7A0EB006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A0EB001, 0x7A0EB007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A0EB001, 0x7A0EB008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A0EB001, 0x7A0EB009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A0EB001, 0x7A0EB00A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A0EB001, 0x7A0EB00B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A0EB001, 0x7A0EB00C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A0EB001, 0x7A0EB00D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A0EB001, 0x7A0EB00E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0EB001, 0x7A0EB00F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A0EB001, 0x7A0EB010, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A0EB001, 0x7A0EB011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A0EB001, 0x7A0EB012, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A0EB001, 0x7A0EB013, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A0EB001, 0x7A0EB014, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7A0EB001, 0x7A0EB015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A0EB001, 0x7A0EB016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A0EB001, 0x7A0EB017, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A0EB001, 0x7A0EB018, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A0EB001, 0x7A0EB019, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A0EB001, 0x7A0EB01A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A0EB001, 0x7A0EB01B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A0EB001, 0x7A0EB01C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0EB002,  7121, 0xA0EB0027, 103.1092, 145.5763, 5.081103, 0.4160606, 0, 0, -0.9093369,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -146,9 +146,9 @@ VALUES (0x7A0EB01D,  1542, 0xA0EB001E, 77.21404, 129.0916, 6.807861, 1, 0, 0, 0,
 /* @teleloc 0xA0EB001E [77.214040 129.091600 6.807861] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0EB01D, 0x7A0EB01E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A0EB01D, 0x7A0EB01F, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A0EB01D, 0x7A0EB020, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A0EB01D, 0x7A0EB01E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A0EB01D, 0x7A0EB01F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A0EB01D, 0x7A0EB020, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0EB01E, 22567, 0xA0EB001E, 77.21404, 129.0916, 6.807861, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

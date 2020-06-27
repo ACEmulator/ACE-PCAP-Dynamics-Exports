@@ -5,16 +5,16 @@ VALUES (0x74AC7001,  1154, 0x4AC70029, 142.1998, 11.05339, 7.998749, 0.9238795, 
 /* @teleloc 0x4AC70029 [142.199800 11.053390 7.998749] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC7001, 0x74AC7002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AC7001, 0x74AC7003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AC7001, 0x74AC7004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74AC7001, 0x74AC7005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AC7001, 0x74AC7006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74AC7001, 0x74AC7007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74AC7001, 0x74AC7008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74AC7001, 0x74AC7009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74AC7001, 0x74AC700A, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74AC7001, 0x74AC700B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x74AC7001, 0x74AC7002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AC7001, 0x74AC7003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AC7001, 0x74AC7004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74AC7001, 0x74AC7005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AC7001, 0x74AC7006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74AC7001, 0x74AC7007, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x74AC7001, 0x74AC7008, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x74AC7001, 0x74AC7009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74AC7001, 0x74AC700A, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74AC7001, 0x74AC700B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC7002, 10807, 0x4AC70029, 142.1998, 11.05339, 7.998749, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

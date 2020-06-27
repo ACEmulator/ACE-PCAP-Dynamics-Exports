@@ -5,40 +5,40 @@ VALUES (0x70C63001,  1154, 0x0C63002B, 123.3344, 62.97007, 42.01, 0.02549153, 0,
 /* @teleloc 0x0C63002B [123.334400 62.970070 42.010000] 0.025492 0.000000 0.000000 -0.999675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C63001, 0x70C63002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C63001, 0x70C63003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C63001, 0x70C63004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C63001, 0x70C63005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C63001, 0x70C63006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C63001, 0x70C63007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C63001, 0x70C63008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C63001, 0x70C63009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C63001, 0x70C6300A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C63001, 0x70C6300B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C6300C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C63001, 0x70C6300D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C6300E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C63001, 0x70C6300F, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C63001, 0x70C63010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C63011, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C63001, 0x70C63012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C63013, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C63001, 0x70C63014, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C63001, 0x70C63015, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C63001, 0x70C63016, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70C63001, 0x70C63017, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70C63001, 0x70C63018, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C63019, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C63001, 0x70C6301A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C6301B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C63001, 0x70C6301C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70C63001, 0x70C6301D, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70C63001, 0x70C6301E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C63001, 0x70C6301F, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C63001, 0x70C63020, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C63001, 0x70C63021, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C63001, 0x70C63022, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C63001, 0x70C63023, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x70C63001, 0x70C63002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C63001, 0x70C63003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C63001, 0x70C63004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C63001, 0x70C63005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C63001, 0x70C63006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C63001, 0x70C63007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C63001, 0x70C63008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C63001, 0x70C63009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C63001, 0x70C6300A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C63001, 0x70C6300B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C6300C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C63001, 0x70C6300D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C6300E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C63001, 0x70C6300F, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C63001, 0x70C63010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C63011, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C63001, 0x70C63012, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C63013, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C63001, 0x70C63014, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C63001, 0x70C63015, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C63001, 0x70C63016, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70C63001, 0x70C63017, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70C63001, 0x70C63018, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C63019, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C63001, 0x70C6301A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C6301B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C63001, 0x70C6301C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70C63001, 0x70C6301D, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70C63001, 0x70C6301E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C63001, 0x70C6301F, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C63001, 0x70C63020, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C63001, 0x70C63021, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C63001, 0x70C63022, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C63001, 0x70C63023, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C63002,  7097, 0x0C63002B, 123.3344, 62.97007, 42.01, 0.02549153, 0, 0, -0.999675,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -181,14 +181,14 @@ VALUES (0x70C63024,  1542, 0x0C630022, 118.7744, 35.73563, 42, -4.371139E-08, 0,
 /* @teleloc 0x0C630022 [118.774400 35.735630 42.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C63024, 0x70C63025, '2019-02-10 00:00:00') /* Bones */
-     , (0x70C63024, 0x70C63026, '2019-02-10 00:00:00') /* Bones */
-     , (0x70C63024, 0x70C63027, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x70C63024, 0x70C63028, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x70C63024, 0x70C63029, '2019-02-10 00:00:00') /* Sturdy Steel Chest */
-     , (0x70C63024, 0x70C6302A, '2019-02-10 00:00:00') /* Bones */
-     , (0x70C63024, 0x70C6302B, '2019-02-10 00:00:00') /* Loafers */
-     , (0x70C63024, 0x70C6302C, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70C63024, 0x70C63025, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70C63024, 0x70C63026, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70C63024, 0x70C63027, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x70C63024, 0x70C63028, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x70C63024, 0x70C63029, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */
+     , (0x70C63024, 0x70C6302A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70C63024, 0x70C6302B, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x70C63024, 0x70C6302C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C63025,  4380, 0x0C630022, 118.7744, 35.73563, 42, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,10 +5,10 @@ VALUES (0x77A61001,  1154, 0x7A61003B, 176.289, 52.85096, 22.10274, -0.7310295, 
 /* @teleloc 0x7A61003B [176.289000 52.850960 22.102740] -0.731030 0.000000 0.000000 -0.682346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A61001, 0x77A61002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x77A61001, 0x77A61003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77A61001, 0x77A61004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x77A61001, 0x77A61005, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x77A61001, 0x77A61002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x77A61001, 0x77A61003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77A61001, 0x77A61004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x77A61001, 0x77A61005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A61002,  4110, 0x7A61003B, 176.289, 52.85096, 22.10274, -0.7310295, 0, 0, -0.6823459,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

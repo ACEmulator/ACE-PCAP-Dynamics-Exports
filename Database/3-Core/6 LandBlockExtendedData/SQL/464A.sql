@@ -5,15 +5,15 @@ VALUES (0x7464A001,  1154, 0x464A0005, 1.30809, 103.2963, 10.50462, 0.6427876, 0
 /* @teleloc 0x464A0005 [1.308090 103.296300 10.504620] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7464A001, 0x7464A002, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7464A001, 0x7464A003, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7464A001, 0x7464A004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7464A001, 0x7464A005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7464A001, 0x7464A006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7464A001, 0x7464A007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7464A001, 0x7464A008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7464A001, 0x7464A009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7464A001, 0x7464A00A, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x7464A001, 0x7464A002, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7464A001, 0x7464A003, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7464A001, 0x7464A004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7464A001, 0x7464A005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7464A001, 0x7464A006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7464A001, 0x7464A007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7464A001, 0x7464A008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7464A001, 0x7464A009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7464A001, 0x7464A00A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7464A002, 27984, 0x464A0005, 1.30809, 103.2963, 10.50462, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Guruk Crusher */
@@ -56,7 +56,7 @@ VALUES (0x7464A00B,  1542, 0x464A001B, 80.27442, 63.78201, 7.942394, -0.1003522,
 /* @teleloc 0x464A001B [80.274420 63.782010 7.942394] -0.100352 0.000000 0.000000 -0.994952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7464A00B, 0x7464A00C, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7464A00B, 0x7464A00C, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7464A00C, 31688, 0x464A001B, 80.27442, 63.78201, 7.942394, -0.1003522, 0, 0, -0.994952,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

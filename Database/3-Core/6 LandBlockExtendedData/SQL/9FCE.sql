@@ -5,17 +5,17 @@ VALUES (0x79FCE001,  1154, 0x9FCE003E, 176.6385, 139.6539, 176.1475, 0.5876948, 
 /* @teleloc 0x9FCE003E [176.638500 139.653900 176.147500] 0.587695 0.000000 0.000000 -0.809083 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FCE001, 0x79FCE002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79FCE001, 0x79FCE003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79FCE001, 0x79FCE004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79FCE001, 0x79FCE005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79FCE001, 0x79FCE006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79FCE001, 0x79FCE007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79FCE001, 0x79FCE008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79FCE001, 0x79FCE009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79FCE001, 0x79FCE00A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79FCE001, 0x79FCE00B, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79FCE001, 0x79FCE00C, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x79FCE001, 0x79FCE002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79FCE001, 0x79FCE003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79FCE001, 0x79FCE004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79FCE001, 0x79FCE005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79FCE001, 0x79FCE006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79FCE001, 0x79FCE007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79FCE001, 0x79FCE008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79FCE001, 0x79FCE009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79FCE001, 0x79FCE00A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79FCE001, 0x79FCE00B, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79FCE001, 0x79FCE00C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FCE002, 24294, 0x9FCE003E, 176.6385, 139.6539, 176.1475, 0.5876948, 0, 0, -0.8090827,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

@@ -5,21 +5,21 @@ VALUES (0x7B4AA001,  1154, 0xB4AA0036, 152.3261, 121.0562, 86.63029, -0.6427876,
 /* @teleloc 0xB4AA0036 [152.326100 121.056200 86.630290] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4AA001, 0x7B4AA002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B4AA001, 0x7B4AA003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B4AA001, 0x7B4AA004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B4AA001, 0x7B4AA005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B4AA001, 0x7B4AA006, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B4AA001, 0x7B4AA007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B4AA001, 0x7B4AA008, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B4AA001, 0x7B4AA009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B4AA001, 0x7B4AA00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4AA001, 0x7B4AA00B, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B4AA001, 0x7B4AA00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4AA001, 0x7B4AA00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4AA001, 0x7B4AA00E, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B4AA001, 0x7B4AA00F, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B4AA001, 0x7B4AA010, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7B4AA001, 0x7B4AA002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B4AA001, 0x7B4AA003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B4AA001, 0x7B4AA004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B4AA001, 0x7B4AA005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B4AA001, 0x7B4AA006, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B4AA001, 0x7B4AA007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B4AA001, 0x7B4AA008, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B4AA001, 0x7B4AA009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B4AA001, 0x7B4AA00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4AA001, 0x7B4AA00B, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B4AA001, 0x7B4AA00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4AA001, 0x7B4AA00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4AA001, 0x7B4AA00E, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B4AA001, 0x7B4AA00F, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B4AA001, 0x7B4AA010, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4AA002,   942, 0xB4AA0036, 152.3261, 121.0562, 86.63029, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -86,8 +86,8 @@ VALUES (0x7B4AA011,  1542, 0xB4AA0005, 0.8000005, 112.6, 50.77034, -0.7071068, 0
 /* @teleloc 0xB4AA0005 [0.800001 112.600000 50.770340] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4AA011, 0x7B4AA012, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7B4AA011, 0x7B4AA013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B4AA011, 0x7B4AA012, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B4AA011, 0x7B4AA013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4AA012,  1955, 0xB4AA0005, 0.8000005, 112.6, 50.77034, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gateway */

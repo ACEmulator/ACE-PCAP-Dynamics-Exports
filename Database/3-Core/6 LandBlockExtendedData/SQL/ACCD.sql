@@ -5,10 +5,10 @@ VALUES (0x7ACCD001,  1154, 0xACCD0025, 108.4534, 108.9297, 83.27829, -0.993633, 
 /* @teleloc 0xACCD0025 [108.453400 108.929700 83.278290] -0.993633 0.000000 0.000000 -0.112666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACCD001, 0x7ACCD002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7ACCD001, 0x7ACCD003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7ACCD001, 0x7ACCD004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7ACCD001, 0x7ACCD005, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x7ACCD001, 0x7ACCD002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7ACCD001, 0x7ACCD003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7ACCD001, 0x7ACCD004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7ACCD001, 0x7ACCD005, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACCD002, 11528, 0xACCD0025, 108.4534, 108.9297, 83.27829, -0.993633, 0, 0, -0.1126657,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -31,8 +31,8 @@ VALUES (0x7ACCD006,  1542, 0xACCD002E, 129.1337, 130.8793, 92.46823, 1, 0, 0, 0,
 /* @teleloc 0xACCD002E [129.133700 130.879300 92.468230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACCD006, 0x7ACCD007, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7ACCD006, 0x7ACCD008, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7ACCD006, 0x7ACCD007, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7ACCD006, 0x7ACCD008, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACCD007,  8232, 0xACCD002E, 129.1337, 130.8793, 92.46823, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

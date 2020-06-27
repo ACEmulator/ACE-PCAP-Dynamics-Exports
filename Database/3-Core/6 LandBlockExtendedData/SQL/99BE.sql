@@ -5,11 +5,11 @@ VALUES (0x799BE001,  1154, 0x99BE0033, 153.1447, 59.24799, 51.19033, -0.4915164,
 /* @teleloc 0x99BE0033 [153.144700 59.247990 51.190330] -0.491516 0.000000 0.000000 -0.870868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799BE001, 0x799BE002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x799BE001, 0x799BE003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x799BE001, 0x799BE004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x799BE001, 0x799BE005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x799BE001, 0x799BE006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x799BE001, 0x799BE002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x799BE001, 0x799BE003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x799BE001, 0x799BE004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x799BE001, 0x799BE005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x799BE001, 0x799BE006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799BE002,     3, 0x99BE0033, 153.1447, 59.24799, 51.19033, -0.4915164, 0, 0, -0.8708683,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

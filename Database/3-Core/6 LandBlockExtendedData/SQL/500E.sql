@@ -5,25 +5,25 @@ VALUES (0x7500E001,  1154, 0x500E002D, 120.3532, 108.6677, -0.09750003, -0.13361
 /* @teleloc 0x500E002D [120.353200 108.667700 -0.097500] -0.133615 0.000000 0.000000 -0.991033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7500E001, 0x7500E002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7500E001, 0x7500E003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E005, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7500E001, 0x7500E006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7500E001, 0x7500E007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7500E001, 0x7500E008, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7500E001, 0x7500E009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7500E001, 0x7500E00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7500E001, 0x7500E00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7500E001, 0x7500E00C, '2019-02-10 00:00:00') /* Dire Champion Skeleton */
-     , (0x7500E001, 0x7500E00D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E00E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E00F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E010, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E011, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E012, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7500E001, 0x7500E013, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7500E001, 0x7500E014, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x7500E001, 0x7500E002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7500E001, 0x7500E003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E005, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7500E001, 0x7500E006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7500E001, 0x7500E007, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7500E001, 0x7500E008, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7500E001, 0x7500E009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7500E001, 0x7500E00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7500E001, 0x7500E00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7500E001, 0x7500E00C, '2019-02-10 00:00:00') /* Dire Champion Skeleton (36857) */
+     , (0x7500E001, 0x7500E00D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E00E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E00F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E011, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E012, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7500E001, 0x7500E013, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7500E001, 0x7500E014, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7500E002, 36859, 0x500E002D, 120.3532, 108.6677, -0.09750003, -0.133615, 0, 0, -0.9910333,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -106,7 +106,7 @@ VALUES (0x7500E015,  1542, 0x500E002B, 130.3908, 63.95791, 0, 0.9990482, 0, 0, -
 /* @teleloc 0x500E002B [130.390800 63.957910 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7500E015, 0x7500E016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7500E015, 0x7500E016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7500E016,  4179, 0x500E002B, 130.3908, 63.95791, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

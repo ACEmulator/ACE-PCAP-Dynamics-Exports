@@ -5,15 +5,15 @@ VALUES (0x7B79A001,  1154, 0xB79A000A, 42.25082, 27.04111, 22.26443, -0.3621352,
 /* @teleloc 0xB79A000A [42.250820 27.041110 22.264430] -0.362135 0.000000 0.000000 -0.932126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B79A001, 0x7B79A002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B79A001, 0x7B79A003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B79A001, 0x7B79A004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B79A001, 0x7B79A005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B79A001, 0x7B79A006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B79A001, 0x7B79A007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B79A001, 0x7B79A008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B79A001, 0x7B79A009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B79A001, 0x7B79A00A, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7B79A001, 0x7B79A002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B79A001, 0x7B79A003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B79A001, 0x7B79A004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B79A001, 0x7B79A005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B79A001, 0x7B79A006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B79A001, 0x7B79A007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B79A001, 0x7B79A008, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B79A001, 0x7B79A009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B79A001, 0x7B79A00A, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79A002,   200, 0xB79A000A, 42.25082, 27.04111, 22.26443, -0.3621352, 0, 0, -0.9321256,  True, '2019-02-10 00:00:00'); /* Mud Golem */

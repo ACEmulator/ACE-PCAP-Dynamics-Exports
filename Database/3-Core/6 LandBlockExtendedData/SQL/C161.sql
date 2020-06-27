@@ -5,16 +5,16 @@ VALUES (0x7C161001,  1154, 0xC161001C, 87.20623, 78.68759, 5.562, 0.4262617, 0, 
 /* @teleloc 0xC161001C [87.206230 78.687590 5.562000] 0.426262 0.000000 0.000000 -0.904600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C161001, 0x7C161002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C161001, 0x7C161003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C161001, 0x7C161004, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C161001, 0x7C161005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C161001, 0x7C161006, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C161001, 0x7C161007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C161001, 0x7C161008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C161001, 0x7C161009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7C161001, 0x7C16100A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C161001, 0x7C16100B, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C161001, 0x7C161002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C161001, 0x7C161003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C161001, 0x7C161004, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C161001, 0x7C161005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C161001, 0x7C161006, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C161001, 0x7C161007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C161001, 0x7C161008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C161001, 0x7C161009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7C161001, 0x7C16100A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C161001, 0x7C16100B, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C161002,   215, 0xC161001C, 87.20623, 78.68759, 5.562, 0.4262617, 0, 0, -0.9045999,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

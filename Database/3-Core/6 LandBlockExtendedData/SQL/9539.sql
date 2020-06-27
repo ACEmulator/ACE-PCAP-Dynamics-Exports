@@ -5,12 +5,12 @@ VALUES (0x79539001,  1154, 0x95390010, 27.31916, 179.6219, 38.1392, 0.9238795, 0
 /* @teleloc 0x95390010 [27.319160 179.621900 38.139200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79539001, 0x79539002, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79539001, 0x79539003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79539001, 0x79539004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79539001, 0x79539005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79539001, 0x79539006, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79539001, 0x79539007, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x79539001, 0x79539002, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79539001, 0x79539003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79539001, 0x79539004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79539001, 0x79539005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79539001, 0x79539006, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79539001, 0x79539007, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79539002,  9250, 0x95390010, 27.31916, 179.6219, 38.1392, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
@@ -41,7 +41,7 @@ VALUES (0x79539008,  1542, 0x9539001A, 73.05729, 43.80716, 28.3494, 0.9659258, 0
 /* @teleloc 0x9539001A [73.057290 43.807160 28.349400] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79539008, 0x79539009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79539008, 0x79539009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79539009,  4180, 0x9539001A, 73.05729, 43.80716, 28.3494, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

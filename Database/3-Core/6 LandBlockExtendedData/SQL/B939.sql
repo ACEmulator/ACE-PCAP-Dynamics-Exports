@@ -5,16 +5,16 @@ VALUES (0x7B939001,  1154, 0xB9390030, 138.0495, 171.7153, 222, 0.9238795, 0, 0,
 /* @teleloc 0xB9390030 [138.049500 171.715300 222.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B939001, 0x7B939002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B939001, 0x7B939003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B939001, 0x7B939004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B939001, 0x7B939005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B939001, 0x7B939006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B939001, 0x7B939007, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7B939001, 0x7B939008, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7B939001, 0x7B939009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7B939001, 0x7B93900A, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B939001, 0x7B93900B, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7B939001, 0x7B939002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B939001, 0x7B939003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B939001, 0x7B939004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B939001, 0x7B939005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B939001, 0x7B939006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B939001, 0x7B939007, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7B939001, 0x7B939008, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7B939001, 0x7B939009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7B939001, 0x7B93900A, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B939001, 0x7B93900B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B939002,  9401, 0xB9390030, 138.0495, 171.7153, 222, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

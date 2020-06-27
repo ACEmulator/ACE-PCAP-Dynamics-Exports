@@ -5,14 +5,14 @@ VALUES (0x7BB0E001,  1154, 0xBB0E000E, 45.08472, 134.4835, 80.0425, -0.6362028, 
 /* @teleloc 0xBB0E000E [45.084720 134.483500 80.042500] -0.636203 0.000000 0.000000 -0.771522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB0E001, 0x7BB0E002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BB0E001, 0x7BB0E003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BB0E001, 0x7BB0E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BB0E001, 0x7BB0E005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BB0E001, 0x7BB0E006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BB0E001, 0x7BB0E007, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x7BB0E001, 0x7BB0E008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BB0E001, 0x7BB0E009, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x7BB0E001, 0x7BB0E002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BB0E001, 0x7BB0E003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BB0E001, 0x7BB0E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BB0E001, 0x7BB0E005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BB0E001, 0x7BB0E006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BB0E001, 0x7BB0E007, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x7BB0E001, 0x7BB0E008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BB0E001, 0x7BB0E009, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB0E002,  1610, 0xBB0E000E, 45.08472, 134.4835, 80.0425, -0.6362028, 0, 0, -0.7715219,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

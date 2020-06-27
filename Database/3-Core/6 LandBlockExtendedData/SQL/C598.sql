@@ -5,13 +5,13 @@ VALUES (0x7C598001,  1154, 0xC5980020, 81.31564, 180.4039, 1.1035, -0.9999332, 0
 /* @teleloc 0xC5980020 [81.315640 180.403900 1.103500] -0.999933 0.000000 0.000000 -0.011559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C598001, 0x7C598002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C598001, 0x7C598003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C598001, 0x7C598004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C598001, 0x7C598005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C598001, 0x7C598006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C598001, 0x7C598007, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C598001, 0x7C598008, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7C598001, 0x7C598002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C598001, 0x7C598003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C598001, 0x7C598004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C598001, 0x7C598005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C598001, 0x7C598006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C598001, 0x7C598007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C598001, 0x7C598008, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C598002,   192, 0xC5980020, 81.31564, 180.4039, 1.1035, -0.9999332, 0, 0, -0.0115589,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

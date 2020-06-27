@@ -9,14 +9,14 @@ VALUES (0x71EB3001,  1154, 0x1EB30001, 12.96211, 20.26364, 1.9925, 0.06246891, 0
 /* @teleloc 0x1EB30001 [12.962110 20.263640 1.992500] 0.062469 0.000000 0.000000 -0.998047 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EB3001, 0x71EB3002, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x71EB3001, 0x71EB3003, '2019-02-10 00:00:00') /* Littoral Siraluun */
-     , (0x71EB3001, 0x71EB3004, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71EB3001, 0x71EB3005, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71EB3001, 0x71EB3006, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71EB3001, 0x71EB3007, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x71EB3001, 0x71EB3008, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x71EB3001, 0x71EB3009, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x71EB3001, 0x71EB3002, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x71EB3001, 0x71EB3003, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */
+     , (0x71EB3001, 0x71EB3004, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71EB3001, 0x71EB3005, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71EB3001, 0x71EB3006, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71EB3001, 0x71EB3007, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x71EB3001, 0x71EB3008, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x71EB3001, 0x71EB3009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EB3002, 11487, 0x1EB30001, 12.96211, 20.26364, 1.9925, 0.06246891, 0, 0, -0.9980469,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */

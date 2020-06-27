@@ -5,13 +5,13 @@ VALUES (0x759EA001,  1154, 0x59EA002F, 136.4619, 155.5364, -0.8939999, 1, 0, 0, 
 /* @teleloc 0x59EA002F [136.461900 155.536400 -0.894000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759EA001, 0x759EA002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x759EA001, 0x759EA003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x759EA001, 0x759EA004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x759EA001, 0x759EA005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x759EA001, 0x759EA006, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x759EA001, 0x759EA007, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x759EA001, 0x759EA008, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x759EA001, 0x759EA002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x759EA001, 0x759EA003, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x759EA001, 0x759EA004, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x759EA001, 0x759EA005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x759EA001, 0x759EA006, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x759EA001, 0x759EA007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x759EA001, 0x759EA008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759EA002, 23566, 0x59EA002F, 136.4619, 155.5364, -0.8939999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -46,7 +46,7 @@ VALUES (0x759EA009,  1542, 0x59EA002F, 135.5379, 154.9658, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x59EA002F [135.537900 154.965800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759EA009, 0x759EA00A, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x759EA009, 0x759EA00A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759EA00A, 31445, 0x59EA002F, 135.5379, 154.9658, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

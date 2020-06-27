@@ -5,9 +5,9 @@ VALUES (0x72592001,  1154, 0x25920035, 157.0716, 106.1118, 212.4888, 0.9987252, 
 /* @teleloc 0x25920035 [157.071600 106.111800 212.488800] 0.998725 0.000000 0.000000 -0.050478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72592001, 0x72592002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72592001, 0x72592003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72592001, 0x72592004, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x72592001, 0x72592002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72592001, 0x72592003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72592001, 0x72592004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72592002,   228, 0x25920035, 157.0716, 106.1118, 212.4888, 0.9987252, 0, 0, -0.05047787,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

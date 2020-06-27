@@ -5,14 +5,14 @@ VALUES (0x79A0D001,  1154, 0x9A0D0039, 175.2311, 14.83463, -0.09949994, 0.819152
 /* @teleloc 0x9A0D0039 [175.231100 14.834630 -0.099500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A0D001, 0x79A0D002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x79A0D001, 0x79A0D003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x79A0D001, 0x79A0D004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x79A0D001, 0x79A0D005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x79A0D001, 0x79A0D006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79A0D001, 0x79A0D007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79A0D001, 0x79A0D008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A0D001, 0x79A0D009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x79A0D001, 0x79A0D002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x79A0D001, 0x79A0D003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x79A0D001, 0x79A0D004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x79A0D001, 0x79A0D005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x79A0D001, 0x79A0D006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79A0D001, 0x79A0D007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79A0D001, 0x79A0D008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A0D001, 0x79A0D009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A0D002,  7987, 0x9A0D0039, 175.2311, 14.83463, -0.09949994, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

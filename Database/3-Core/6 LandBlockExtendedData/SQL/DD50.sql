@@ -21,10 +21,10 @@ VALUES (0x7DD50012,  1154, 0xDD50000B, 29.35915, 53.4707, 22.0035, 0.09634958, 0
 /* @teleloc 0xDD50000B [29.359150 53.470700 22.003500] 0.096350 0.000000 0.000000 -0.995348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD50012, 0x7DD50013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DD50012, 0x7DD50014, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD50012, 0x7DD50015, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DD50012, 0x7DD50016, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7DD50012, 0x7DD50013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DD50012, 0x7DD50014, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD50012, 0x7DD50015, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DD50012, 0x7DD50016, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD50013,   192, 0xDD50000B, 29.35915, 53.4707, 22.0035, 0.09634958, 0, 0, -0.9953476,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -47,15 +47,15 @@ VALUES (0x7DD50017,  1542, 0xDD500105, 152.0321, 126.2442, 27.679, -0.834151, 0,
 /* @teleloc 0xDD500105 [152.032100 126.244200 27.679000] -0.834151 0.000000 0.000000 0.551536 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD50017, 0x7DD50018, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7DD50017, 0x7DD50019, '2019-02-10 00:00:00') /* Crumpled Note */
-     , (0x7DD50017, 0x7DD5001A, '2019-02-10 00:00:00') /* A torn note  */
-     , (0x7DD50017, 0x7DD5001B, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7DD50017, 0x7DD5001C, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7DD50017, 0x7DD5001D, '2019-02-10 00:00:00') /* Crumpled Note */
-     , (0x7DD50017, 0x7DD5001E, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7DD50017, 0x7DD5001F, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7DD50017, 0x7DD50020, '2019-02-10 00:00:00') /* An old note  */;
+VALUES (0x7DD50017, 0x7DD50018, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7DD50017, 0x7DD50019, '2019-02-10 00:00:00') /* Crumpled Note (3606) */
+     , (0x7DD50017, 0x7DD5001A, '2019-02-10 00:00:00') /* A torn note  (1417) */
+     , (0x7DD50017, 0x7DD5001B, '2019-02-10 00:00:00') /* An old note  (1420) */
+     , (0x7DD50017, 0x7DD5001C, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7DD50017, 0x7DD5001D, '2019-02-10 00:00:00') /* Crumpled Note (3606) */
+     , (0x7DD50017, 0x7DD5001E, '2019-02-10 00:00:00') /* Rumor (1514) */
+     , (0x7DD50017, 0x7DD5001F, '2019-02-10 00:00:00') /* An old note  (1420) */
+     , (0x7DD50017, 0x7DD50020, '2019-02-10 00:00:00') /* An old note  (1418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD50018,  1418, 0xDD500105, 152.0321, 126.2442, 27.679, -0.834151, 0, 0, 0.551536,  True, '2019-02-10 00:00:00'); /* An old note  */

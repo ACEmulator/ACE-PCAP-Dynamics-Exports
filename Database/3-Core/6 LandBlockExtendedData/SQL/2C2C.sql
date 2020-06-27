@@ -5,19 +5,19 @@ VALUES (0x72C2C001,  1154, 0x2C2C0028, 100.4814, 172.4736, 115.6819, -0.9954872,
 /* @teleloc 0x2C2C0028 [100.481400 172.473600 115.681900] -0.995487 0.000000 0.000000 -0.094896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C2C001, 0x72C2C002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72C2C001, 0x72C2C003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C2C001, 0x72C2C004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72C2C001, 0x72C2C005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72C2C001, 0x72C2C006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C2C001, 0x72C2C007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72C2C001, 0x72C2C008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C2C001, 0x72C2C009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C2C001, 0x72C2C00A, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72C2C001, 0x72C2C00B, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72C2C001, 0x72C2C00C, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C2C001, 0x72C2C00D, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72C2C001, 0x72C2C00E, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x72C2C001, 0x72C2C002, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72C2C001, 0x72C2C003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C2C001, 0x72C2C004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72C2C001, 0x72C2C005, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72C2C001, 0x72C2C006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C2C001, 0x72C2C007, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72C2C001, 0x72C2C008, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72C2C001, 0x72C2C009, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C2C001, 0x72C2C00A, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72C2C001, 0x72C2C00B, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72C2C001, 0x72C2C00C, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C2C001, 0x72C2C00D, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72C2C001, 0x72C2C00E, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C2C002, 36862, 0x2C2C0028, 100.4814, 172.4736, 115.6819, -0.9954872, 0, 0, -0.09489556,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */
@@ -76,7 +76,7 @@ VALUES (0x72C2C00F,  1542, 0x2C2C0028, 110.1302, 178.227, 115.9965, 1, 0, 0, 0, 
 /* @teleloc 0x2C2C0028 [110.130200 178.227000 115.996500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C2C00F, 0x72C2C010, '2019-02-10 00:00:00') /* North Desert Edge */;
+VALUES (0x72C2C00F, 0x72C2C010, '2019-02-10 00:00:00') /* North Desert Edge (1905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C2C010,  1905, 0x2C2C0028, 110.1302, 178.227, 115.9965, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */

@@ -5,12 +5,12 @@ VALUES (0x723E6001,  1154, 0x23E60009, 45.96195, 12.09522, 150.8623, -0.998479, 
 /* @teleloc 0x23E60009 [45.961950 12.095220 150.862300] -0.998479 0.000000 0.000000 -0.055134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723E6001, 0x723E6002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x723E6001, 0x723E6003, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x723E6001, 0x723E6004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x723E6001, 0x723E6005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x723E6001, 0x723E6006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x723E6001, 0x723E6007, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x723E6001, 0x723E6002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x723E6001, 0x723E6003, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x723E6001, 0x723E6004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x723E6001, 0x723E6005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x723E6001, 0x723E6006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x723E6001, 0x723E6007, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E6002,  2576, 0x23E60009, 45.96195, 12.09522, 150.8623, -0.998479, 0, 0, -0.05513366,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

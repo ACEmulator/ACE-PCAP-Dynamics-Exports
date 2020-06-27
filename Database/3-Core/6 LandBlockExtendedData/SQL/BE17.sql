@@ -5,28 +5,28 @@ VALUES (0x7BE17001,  1154, 0xBE17001A, 93.22916, 41.90785, -0.4575, -0.3559327, 
 /* @teleloc 0xBE17001A [93.229160 41.907850 -0.457500] -0.355933 0.000000 0.000000 -0.934512 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE17001, 0x7BE17002, '2019-02-10 00:00:00') /* Banished Monouga */
-     , (0x7BE17001, 0x7BE17003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BE17001, 0x7BE17004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE17001, 0x7BE17005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE17001, 0x7BE17006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE17001, 0x7BE17007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BE17001, 0x7BE17008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BE17001, 0x7BE17009, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BE17001, 0x7BE1700A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BE17001, 0x7BE1700B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BE17001, 0x7BE1700C, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7BE17001, 0x7BE1700D, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BE17001, 0x7BE1700E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BE17001, 0x7BE1700F, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7BE17001, 0x7BE17010, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BE17001, 0x7BE17011, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BE17001, 0x7BE17012, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BE17001, 0x7BE17013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE17001, 0x7BE17014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE17001, 0x7BE17015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE17001, 0x7BE17016, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BE17001, 0x7BE17017, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7BE17001, 0x7BE17002, '2019-02-10 00:00:00') /* Banished Monouga (30884) */
+     , (0x7BE17001, 0x7BE17003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BE17001, 0x7BE17004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE17001, 0x7BE17005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE17001, 0x7BE17006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE17001, 0x7BE17007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BE17001, 0x7BE17008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BE17001, 0x7BE17009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BE17001, 0x7BE1700A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BE17001, 0x7BE1700B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BE17001, 0x7BE1700C, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7BE17001, 0x7BE1700D, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BE17001, 0x7BE1700E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BE17001, 0x7BE1700F, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7BE17001, 0x7BE17010, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BE17001, 0x7BE17011, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7BE17001, 0x7BE17012, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7BE17001, 0x7BE17013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE17001, 0x7BE17014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE17001, 0x7BE17015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE17001, 0x7BE17016, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BE17001, 0x7BE17017, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE17002, 30884, 0xBE17001A, 93.22916, 41.90785, -0.4575, -0.3559327, 0, 0, -0.9345116,  True, '2019-02-10 00:00:00'); /* Banished Monouga */
@@ -121,9 +121,9 @@ VALUES (0x7BE17018,  1542, 0xBE17000F, 24.29695, 163.1234, 3.285001, 0.9990482, 
 /* @teleloc 0xBE17000F [24.296950 163.123400 3.285001] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE17018, 0x7BE17019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BE17018, 0x7BE1701A, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BE17018, 0x7BE1701B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BE17018, 0x7BE17019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BE17018, 0x7BE1701A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BE17018, 0x7BE1701B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE17019,  4179, 0xBE17000F, 24.29695, 163.1234, 3.285001, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

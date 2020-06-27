@@ -9,29 +9,29 @@ VALUES (0x7CAC0001,  1154, 0xCAC00017, 69.07626, 166.4857, 2.00715, 0.8770582, 0
 /* @teleloc 0xCAC00017 [69.076260 166.485700 2.007150] 0.877058 0.000000 0.000000 -0.480384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAC0001, 0x7CAC0002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7CAC0001, 0x7CAC0003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CAC0001, 0x7CAC0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7CAC0001, 0x7CAC0006, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7CAC0001, 0x7CAC0007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC0001, 0x7CAC0009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC0001, 0x7CAC000A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC0001, 0x7CAC000B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC000C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC000D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC0001, 0x7CAC000E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CAC0001, 0x7CAC000F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC0001, 0x7CAC0011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC0001, 0x7CAC0012, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0013, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0014, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0015, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CAC0001, 0x7CAC0016, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CAC0001, 0x7CAC0017, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CAC0001, 0x7CAC0018, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CAC0001, 0x7CAC0002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7CAC0001, 0x7CAC0003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CAC0001, 0x7CAC0004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7CAC0001, 0x7CAC0006, '2019-02-10 00:00:00') /* Exploration Marker (39756) */
+     , (0x7CAC0001, 0x7CAC0007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC0001, 0x7CAC0009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC0001, 0x7CAC000A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC0001, 0x7CAC000B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC000C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC000D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC0001, 0x7CAC000E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CAC0001, 0x7CAC000F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC0001, 0x7CAC0011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC0001, 0x7CAC0012, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0013, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0014, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0015, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CAC0001, 0x7CAC0016, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CAC0001, 0x7CAC0017, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CAC0001, 0x7CAC0018, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAC0002,  7346, 0xCAC00017, 69.07626, 166.4857, 2.00715, 0.8770582, 0, 0, -0.4803842,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */

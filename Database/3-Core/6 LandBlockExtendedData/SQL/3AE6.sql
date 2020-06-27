@@ -5,12 +5,12 @@ VALUES (0x73AE6001,  1154, 0x3AE60009, 35.52343, 0.9946747, 2, 0.9536275, 0, 0, 
 /* @teleloc 0x3AE60009 [35.523430 0.994675 2.000000] 0.953628 0.000000 0.000000 -0.300990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AE6001, 0x73AE6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73AE6001, 0x73AE6003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AE6001, 0x73AE6004, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73AE6001, 0x73AE6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73AE6001, 0x73AE6006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73AE6001, 0x73AE6007, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x73AE6001, 0x73AE6002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73AE6001, 0x73AE6003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AE6001, 0x73AE6004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AE6001, 0x73AE6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73AE6001, 0x73AE6006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73AE6001, 0x73AE6007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AE6002, 28551, 0x3AE60009, 35.52343, 0.9946747, 2, 0.9536275, 0, 0, -0.3009895,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

@@ -5,20 +5,20 @@ VALUES (0x7D9C2001,  1154, 0xD9C2000A, 33.4473, 29.20097, 105.2127, -0.9834973, 
 /* @teleloc 0xD9C2000A [33.447300 29.200970 105.212700] -0.983497 0.000000 0.000000 -0.180923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9C2001, 0x7D9C2002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C2003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C2004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C2005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C2001, 0x7D9C2006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C2007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C2008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C2001, 0x7D9C2009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D9C2001, 0x7D9C200A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D9C2001, 0x7D9C200B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D9C2001, 0x7D9C200C, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D9C2001, 0x7D9C200D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C200E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C2001, 0x7D9C200F, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x7D9C2001, 0x7D9C2002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C2003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C2004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C2005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C2001, 0x7D9C2006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C2007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C2008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C2001, 0x7D9C2009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D9C2001, 0x7D9C200A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D9C2001, 0x7D9C200B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D9C2001, 0x7D9C200C, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D9C2001, 0x7D9C200D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C200E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C2001, 0x7D9C200F, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9C2002, 23482, 0xD9C2000A, 33.4473, 29.20097, 105.2127, -0.9834973, 0, 0, -0.1809229,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -81,7 +81,7 @@ VALUES (0x7D9C2010,  1542, 0xD9C2001B, 94.26559, 68.68015, 104, 1, 0, 0, 0, Fals
 /* @teleloc 0xD9C2001B [94.265590 68.680150 104.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9C2010, 0x7D9C2011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D9C2010, 0x7D9C2011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9C2011, 22571, 0xD9C2001B, 94.26559, 68.68015, 104, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

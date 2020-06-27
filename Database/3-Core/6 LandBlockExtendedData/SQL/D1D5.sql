@@ -5,29 +5,29 @@ VALUES (0x7D1D5001,  1154, 0xD1D50009, 34.78825, 22.60072, 2, 0.237886, 0, 0, -0
 /* @teleloc 0xD1D50009 [34.788250 22.600720 2.000000] 0.237886 0.000000 0.000000 -0.971293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1D5001, 0x7D1D5002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D1D5001, 0x7D1D5003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D1D5001, 0x7D1D5004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D1D5001, 0x7D1D5005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D1D5001, 0x7D1D5006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D5001, 0x7D1D5007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D1D5001, 0x7D1D5008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D1D5001, 0x7D1D5009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D5001, 0x7D1D500A, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D1D5001, 0x7D1D500B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D1D5001, 0x7D1D500C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D5001, 0x7D1D500D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D1D5001, 0x7D1D500E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D5001, 0x7D1D500F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D1D5001, 0x7D1D5010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D1D5001, 0x7D1D5011, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D1D5001, 0x7D1D5012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D1D5001, 0x7D1D5013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D1D5001, 0x7D1D5014, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D1D5001, 0x7D1D5015, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D1D5001, 0x7D1D5016, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D1D5001, 0x7D1D5017, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D1D5001, 0x7D1D5018, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x7D1D5001, 0x7D1D5002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D1D5001, 0x7D1D5003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D1D5001, 0x7D1D5004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D1D5001, 0x7D1D5005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D1D5001, 0x7D1D5006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D5001, 0x7D1D5007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D1D5001, 0x7D1D5008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D1D5001, 0x7D1D5009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D5001, 0x7D1D500A, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D1D5001, 0x7D1D500B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D1D5001, 0x7D1D500C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D5001, 0x7D1D500D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D1D5001, 0x7D1D500E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D5001, 0x7D1D500F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D1D5001, 0x7D1D5010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D1D5001, 0x7D1D5011, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D1D5001, 0x7D1D5012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D1D5001, 0x7D1D5013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D1D5001, 0x7D1D5014, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D1D5001, 0x7D1D5015, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D1D5001, 0x7D1D5016, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D1D5001, 0x7D1D5017, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D1D5001, 0x7D1D5018, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1D5002,   212, 0xD1D50009, 34.78825, 22.60072, 2, 0.237886, 0, 0, -0.9712931,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

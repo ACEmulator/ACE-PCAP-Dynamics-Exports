@@ -5,9 +5,9 @@ VALUES (0x7A144001,  1154, 0xA1440039, 175.2948, 12.20149, 56.48606, 0.8096682, 
 /* @teleloc 0xA1440039 [175.294800 12.201490 56.486060] 0.809668 0.000000 0.000000 -0.586888 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A144001, 0x7A144002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7A144001, 0x7A144003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A144001, 0x7A144004, '2019-02-10 00:00:00') /* Narrow Rift */;
+VALUES (0x7A144001, 0x7A144002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7A144001, 0x7A144003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A144001, 0x7A144004, '2019-02-10 00:00:00') /* Narrow Rift (10799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A144002,   206, 0xA1440039, 175.2948, 12.20149, 56.48606, 0.8096682, 0, 0, -0.5868879,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

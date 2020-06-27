@@ -5,11 +5,11 @@ VALUES (0x7AE99001,  1154, 0xAE990040, 185.7975, 173.7995, 87.00199, 0.7071068, 
 /* @teleloc 0xAE990040 [185.797500 173.799500 87.001990] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE99001, 0x7AE99002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE99001, 0x7AE99003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE99001, 0x7AE99004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AE99001, 0x7AE99005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AE99001, 0x7AE99006, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7AE99001, 0x7AE99002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE99001, 0x7AE99003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE99001, 0x7AE99004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AE99001, 0x7AE99005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AE99001, 0x7AE99006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE99002,  1762, 0xAE990040, 185.7975, 173.7995, 87.00199, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

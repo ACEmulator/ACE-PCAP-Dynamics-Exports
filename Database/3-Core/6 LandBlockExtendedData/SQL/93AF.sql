@@ -5,12 +5,12 @@ VALUES (0x793AF001,  1154, 0x93AF000A, 26.847, 24.83828, 43.68539, 0.9495323, 0,
 /* @teleloc 0x93AF000A [26.847000 24.838280 43.685390] 0.949532 0.000000 0.000000 -0.313669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793AF001, 0x793AF002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x793AF001, 0x793AF003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x793AF001, 0x793AF004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x793AF001, 0x793AF005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AF001, 0x793AF006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x793AF001, 0x793AF007, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x793AF001, 0x793AF002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x793AF001, 0x793AF003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x793AF001, 0x793AF004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x793AF001, 0x793AF005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AF001, 0x793AF006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x793AF001, 0x793AF007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793AF002,  2576, 0x93AF000A, 26.847, 24.83828, 43.68539, 0.9495323, 0, 0, -0.3136694,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -41,7 +41,7 @@ VALUES (0x793AF008,  1542, 0x93AF0009, 41.46832, 22.49393, 42.54431, 1, 0, 0, 0,
 /* @teleloc 0x93AF0009 [41.468320 22.493930 42.544310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793AF008, 0x793AF009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x793AF008, 0x793AF009, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793AF009, 22576, 0x93AF0009, 41.46832, 22.49393, 42.54431, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -9,46 +9,46 @@ VALUES (0x7DC74016,  1154, 0xDC740010, 45.1645, 186.839, 47.76921, -0.762497, 0,
 /* @teleloc 0xDC740010 [45.164500 186.839000 47.769210] -0.762497 0.000000 0.000000 -0.646991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC74016, 0x7DC74017, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74018, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74019, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7DC74016, 0x7DC7401A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7401B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC7401C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7401D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7401E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7401F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DC74016, 0x7DC74020, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74021, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74022, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74023, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74024, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74025, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74026, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74027, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74028, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74029, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DC74016, 0x7DC7402A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7DC74016, 0x7DC7402B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7DC74016, 0x7DC7402C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DC74016, 0x7DC7402D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7402E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC7402F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74030, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74031, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74032, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74033, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7DC74016, 0x7DC74034, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7DC74016, 0x7DC74035, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DC74016, 0x7DC74036, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DC74016, 0x7DC74037, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC74016, 0x7DC74038, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DC74016, 0x7DC74039, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DC74016, 0x7DC7403A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DC74016, 0x7DC7403B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DC74016, 0x7DC7403C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DC74016, 0x7DC7403D, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DC74016, 0x7DC7403E, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7DC74016, 0x7DC74017, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74018, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74019, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7DC74016, 0x7DC7401A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7401B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC7401C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7401D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7401E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7401F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DC74016, 0x7DC74020, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74021, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74022, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74023, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74024, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74025, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74026, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74027, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74028, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74029, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DC74016, 0x7DC7402A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7DC74016, 0x7DC7402B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7DC74016, 0x7DC7402C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DC74016, 0x7DC7402D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7402E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC7402F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74030, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74031, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74032, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74033, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DC74016, 0x7DC74034, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7DC74016, 0x7DC74035, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DC74016, 0x7DC74036, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DC74016, 0x7DC74037, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC74016, 0x7DC74038, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DC74016, 0x7DC74039, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DC74016, 0x7DC7403A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DC74016, 0x7DC7403B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DC74016, 0x7DC7403C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DC74016, 0x7DC7403D, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DC74016, 0x7DC7403E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC74017,   231, 0xDC740010, 45.1645, 186.839, 47.76921, -0.762497, 0, 0, -0.646991,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -215,9 +215,9 @@ VALUES (0x7DC7403F,  1542, 0xDC740010, 29.08099, 174.7387, 46.42342, 0.9990482, 
 /* @teleloc 0xDC740010 [29.080990 174.738700 46.423420] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC7403F, 0x7DC74040, '2019-02-10 00:00:00') /* Chest */
-     , (0x7DC7403F, 0x7DC74041, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7DC7403F, 0x7DC74042, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DC7403F, 0x7DC74040, '2019-02-10 00:00:00') /* Chest (1931) */
+     , (0x7DC7403F, 0x7DC74041, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7DC7403F, 0x7DC74042, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC74040,  1931, 0xDC740010, 29.08099, 174.7387, 46.42342, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */

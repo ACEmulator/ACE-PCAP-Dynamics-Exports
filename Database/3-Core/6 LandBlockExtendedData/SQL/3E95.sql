@@ -5,15 +5,15 @@ VALUES (0x73E95001,  1154, 0x3E950019, 88.86349, 13.0971, 15.1564, -0.1333895, 0
 /* @teleloc 0x3E950019 [88.863490 13.097100 15.156400] -0.133390 0.000000 0.000000 -0.991064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E95001, 0x73E95002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73E95001, 0x73E95003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73E95001, 0x73E95004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E95001, 0x73E95005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73E95001, 0x73E95006, '2019-02-10 00:00:00') /* Brumal */
-     , (0x73E95001, 0x73E95007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x73E95001, 0x73E95008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73E95001, 0x73E95009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E95001, 0x73E9500A, '2019-02-10 00:00:00') /* Hyem */;
+VALUES (0x73E95001, 0x73E95002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73E95001, 0x73E95003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73E95001, 0x73E95004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E95001, 0x73E95005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73E95001, 0x73E95006, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x73E95001, 0x73E95007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x73E95001, 0x73E95008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73E95001, 0x73E95009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E95001, 0x73E9500A, '2019-02-10 00:00:00') /* Hyem (14875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E95002,  7112, 0x3E950019, 88.86349, 13.0971, 15.1564, -0.1333895, 0, 0, -0.9910637,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

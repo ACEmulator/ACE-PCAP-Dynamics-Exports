@@ -5,10 +5,10 @@ VALUES (0x793EE001,  1154, 0x93EE0011, 68.49272, 10.00901, 5.464189, -0.1104906,
 /* @teleloc 0x93EE0011 [68.492720 10.009010 5.464189] -0.110491 0.000000 0.000000 -0.993877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793EE001, 0x793EE002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x793EE001, 0x793EE003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x793EE001, 0x793EE004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x793EE001, 0x793EE005, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x793EE001, 0x793EE002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x793EE001, 0x793EE003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x793EE001, 0x793EE004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x793EE001, 0x793EE005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793EE002,   227, 0x93EE0011, 68.49272, 10.00901, 5.464189, -0.1104906, 0, 0, -0.9938772,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

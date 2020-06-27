@@ -5,23 +5,23 @@ VALUES (0x71AC5001,  1154, 0x1AC5001D, 92.52766, 99.16816, 2.314709, -0.13232, 0
 /* @teleloc 0x1AC5001D [92.527660 99.168160 2.314709] -0.132320 0.000000 0.000000 -0.991207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71AC5001, 0x71AC5002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71AC5001, 0x71AC5003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC5004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71AC5001, 0x71AC5005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71AC5001, 0x71AC5006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71AC5001, 0x71AC5007, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71AC5001, 0x71AC5008, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71AC5001, 0x71AC5009, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71AC5001, 0x71AC500A, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71AC5001, 0x71AC500B, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71AC5001, 0x71AC500C, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC500D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC500E, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC500F, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC5010, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71AC5001, 0x71AC5011, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71AC5001, 0x71AC5012, '2019-02-10 00:00:00') /* Brass Gromnie */;
+VALUES (0x71AC5001, 0x71AC5002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71AC5001, 0x71AC5003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC5004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71AC5001, 0x71AC5005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71AC5001, 0x71AC5006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71AC5001, 0x71AC5007, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71AC5001, 0x71AC5008, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71AC5001, 0x71AC5009, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71AC5001, 0x71AC500A, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71AC5001, 0x71AC500B, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71AC5001, 0x71AC500C, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC500D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC500E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC500F, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC5010, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71AC5001, 0x71AC5011, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71AC5001, 0x71AC5012, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71AC5002, 22505, 0x1AC5001D, 92.52766, 99.16816, 2.314709, -0.13232, 0, 0, -0.9912071,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */

@@ -5,11 +5,11 @@ VALUES (0x741B8001,  1154, 0x41B8003F, 172.3627, 148.3539, 21.27289, -0.8967539,
 /* @teleloc 0x41B8003F [172.362700 148.353900 21.272890] -0.896754 0.000000 0.000000 -0.442530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741B8001, 0x741B8002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x741B8001, 0x741B8003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x741B8001, 0x741B8004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x741B8001, 0x741B8005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x741B8001, 0x741B8006, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x741B8001, 0x741B8002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x741B8001, 0x741B8003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x741B8001, 0x741B8004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x741B8001, 0x741B8005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x741B8001, 0x741B8006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741B8002, 28551, 0x41B8003F, 172.3627, 148.3539, 21.27289, -0.8967539, 0, 0, -0.4425296,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -36,7 +36,7 @@ VALUES (0x741B8007,  1542, 0x41B80020, 95.19861, 187.9802, 28.40468, 0.7071068, 
 /* @teleloc 0x41B80020 [95.198610 187.980200 28.404680] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741B8007, 0x741B8008, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x741B8007, 0x741B8008, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741B8008,   689, 0x41B80020, 95.19861, 187.9802, 28.40468, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Iron Scarab */

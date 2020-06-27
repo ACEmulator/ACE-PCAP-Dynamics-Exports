@@ -5,14 +5,14 @@ VALUES (0x7EE3F001,  1154, 0xEE3F0018, 62.46535, 180.179, 0.7948544, -0.9953933,
 /* @teleloc 0xEE3F0018 [62.465350 180.179000 0.794854] -0.995393 0.000000 0.000000 -0.095876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE3F001, 0x7EE3F002, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7EE3F001, 0x7EE3F003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7EE3F001, 0x7EE3F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7EE3F001, 0x7EE3F005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7EE3F001, 0x7EE3F006, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7EE3F001, 0x7EE3F007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EE3F001, 0x7EE3F008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7EE3F001, 0x7EE3F009, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7EE3F001, 0x7EE3F002, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7EE3F001, 0x7EE3F003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7EE3F001, 0x7EE3F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7EE3F001, 0x7EE3F005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7EE3F001, 0x7EE3F006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7EE3F001, 0x7EE3F007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EE3F001, 0x7EE3F008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7EE3F001, 0x7EE3F009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE3F002,  7985, 0xEE3F0018, 62.46535, 180.179, 0.7948544, -0.9953933, 0, 0, -0.09587598,  True, '2019-02-10 00:00:00'); /* Listris Niffis */

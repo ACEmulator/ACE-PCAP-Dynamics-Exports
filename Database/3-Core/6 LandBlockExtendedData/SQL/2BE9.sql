@@ -5,15 +5,15 @@ VALUES (0x72BE9001,  1154, 0x2BE9000A, 46.02944, 29.50537, -0.1045493, -0.296995
 /* @teleloc 0x2BE9000A [46.029440 29.505370 -0.104549] -0.296996 0.000000 0.000000 -0.954879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72BE9001, 0x72BE9002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72BE9001, 0x72BE9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72BE9001, 0x72BE9004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x72BE9001, 0x72BE9005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72BE9001, 0x72BE9006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x72BE9001, 0x72BE9007, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72BE9001, 0x72BE9008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BE9001, 0x72BE9009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72BE9001, 0x72BE900A, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x72BE9001, 0x72BE9002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72BE9001, 0x72BE9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72BE9001, 0x72BE9004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x72BE9001, 0x72BE9005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72BE9001, 0x72BE9006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x72BE9001, 0x72BE9007, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72BE9001, 0x72BE9008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BE9001, 0x72BE9009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72BE9001, 0x72BE900A, '2019-02-10 00:00:00') /* Dual Fragment (8012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72BE9002, 24960, 0x2BE9000A, 46.02944, 29.50537, -0.1045493, -0.2969957, 0, 0, -0.9548788,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

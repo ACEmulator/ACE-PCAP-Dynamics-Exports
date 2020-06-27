@@ -9,34 +9,34 @@ VALUES (0x78CB600B,  1154, 0x8CB60024, 99.38249, 72.76801, 45.70913, 0.9995735, 
 /* @teleloc 0x8CB60024 [99.382490 72.768010 45.709130] 0.999574 0.000000 0.000000 -0.029202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB600B, 0x78CB600C, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CB600B, 0x78CB600D, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78CB600B, 0x78CB600E, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78CB600B, 0x78CB600F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78CB600B, 0x78CB6010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78CB600B, 0x78CB6011, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78CB600B, 0x78CB6012, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78CB600B, 0x78CB6013, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78CB600B, 0x78CB6014, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78CB600B, 0x78CB6015, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x78CB600B, 0x78CB6016, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x78CB600B, 0x78CB6017, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78CB600B, 0x78CB6018, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CB600B, 0x78CB6019, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CB600B, 0x78CB601A, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CB600B, 0x78CB601B, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CB600B, 0x78CB601C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB600B, 0x78CB601D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB600B, 0x78CB601E, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78CB600B, 0x78CB601F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB600B, 0x78CB6020, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78CB600B, 0x78CB6021, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CB600B, 0x78CB6022, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB600B, 0x78CB6023, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB600B, 0x78CB6024, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CB600B, 0x78CB6025, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CB600B, 0x78CB6026, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CB600B, 0x78CB6027, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x78CB600B, 0x78CB600C, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CB600B, 0x78CB600D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CB600B, 0x78CB600E, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x78CB600B, 0x78CB600F, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB600B, 0x78CB6010, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB600B, 0x78CB6011, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB600B, 0x78CB6012, '2019-02-10 00:00:00') /* Tumerok Scout (4099) */
+     , (0x78CB600B, 0x78CB6013, '2019-02-10 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x78CB600B, 0x78CB6014, '2019-02-10 00:00:00') /* Tumerok Fighter (4101) */
+     , (0x78CB600B, 0x78CB6015, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x78CB600B, 0x78CB6016, '2019-02-10 00:00:00') /* Tumerok Warrior (4100) */
+     , (0x78CB600B, 0x78CB6017, '2019-02-10 00:00:00') /* Tumerok Priest (4105) */
+     , (0x78CB600B, 0x78CB6018, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CB600B, 0x78CB6019, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CB600B, 0x78CB601A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CB600B, 0x78CB601B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CB600B, 0x78CB601C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB600B, 0x78CB601D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB600B, 0x78CB601E, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78CB600B, 0x78CB601F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB600B, 0x78CB6020, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78CB600B, 0x78CB6021, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CB600B, 0x78CB6022, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB600B, 0x78CB6023, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB600B, 0x78CB6024, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CB600B, 0x78CB6025, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CB600B, 0x78CB6026, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CB600B, 0x78CB6027, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB600C,  9252, 0x8CB60024, 99.38249, 72.76801, 45.70913, 0.9995735, 0, 0, -0.02920164,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

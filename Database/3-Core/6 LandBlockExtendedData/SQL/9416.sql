@@ -5,20 +5,20 @@ VALUES (0x79416001,  1154, 0x9416000F, 37.00702, 155.0637, 318.9069, 0.164437, 0
 /* @teleloc 0x9416000F [37.007020 155.063700 318.906900] 0.164437 0.000000 0.000000 -0.986388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79416001, 0x79416002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x79416001, 0x79416003, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x79416001, 0x79416004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79416001, 0x79416005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79416001, 0x79416006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79416001, 0x79416007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79416001, 0x79416008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79416001, 0x79416009, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79416001, 0x7941600A, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79416001, 0x7941600B, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79416001, 0x7941600C, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79416001, 0x7941600D, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x79416001, 0x7941600E, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x79416001, 0x7941600F, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x79416001, 0x79416002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x79416001, 0x79416003, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x79416001, 0x79416004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79416001, 0x79416005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79416001, 0x79416006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79416001, 0x79416007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79416001, 0x79416008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79416001, 0x79416009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79416001, 0x7941600A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79416001, 0x7941600B, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79416001, 0x7941600C, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79416001, 0x7941600D, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x79416001, 0x7941600E, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x79416001, 0x7941600F, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79416002, 38181, 0x9416000F, 37.00702, 155.0637, 318.9069, 0.164437, 0, 0, -0.9863876,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -81,7 +81,7 @@ VALUES (0x79416010,  1542, 0x94160010, 46.93146, 181.0702, 314.2434, 0.164437, 0
 /* @teleloc 0x94160010 [46.931460 181.070200 314.243400] 0.164437 0.000000 0.000000 -0.986388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79416010, 0x79416011, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x79416010, 0x79416011, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79416011, 42528, 0x94160010, 46.93146, 181.0702, 314.2434, 0.164437, 0, 0, -0.9863876,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,31 +5,31 @@ VALUES (0x7AFC5001,  1154, 0xAFC50025, 119.294, 107.058, 126.1082, -0.8086855, 0
 /* @teleloc 0xAFC50025 [119.294000 107.058000 126.108200] -0.808686 0.000000 0.000000 -0.588241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC5001, 0x7AFC5002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AFC5001, 0x7AFC5005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC5009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC500A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AFC5001, 0x7AFC500B, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7AFC5001, 0x7AFC500C, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7AFC5001, 0x7AFC500D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AFC5001, 0x7AFC500E, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AFC5001, 0x7AFC500F, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7AFC5001, 0x7AFC5010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AFC5001, 0x7AFC5011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AFC5001, 0x7AFC5012, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AFC5001, 0x7AFC5013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AFC5001, 0x7AFC5014, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7AFC5001, 0x7AFC5015, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AFC5001, 0x7AFC5016, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AFC5001, 0x7AFC5017, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7AFC5001, 0x7AFC5018, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AFC5001, 0x7AFC5019, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7AFC5001, 0x7AFC501A, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7AFC5001, 0x7AFC5002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AFC5001, 0x7AFC5005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC5009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC500A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AFC5001, 0x7AFC500B, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7AFC5001, 0x7AFC500C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7AFC5001, 0x7AFC500D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AFC5001, 0x7AFC500E, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AFC5001, 0x7AFC500F, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7AFC5001, 0x7AFC5010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AFC5001, 0x7AFC5011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AFC5001, 0x7AFC5012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AFC5001, 0x7AFC5013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AFC5001, 0x7AFC5014, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7AFC5001, 0x7AFC5015, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AFC5001, 0x7AFC5016, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AFC5001, 0x7AFC5017, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7AFC5001, 0x7AFC5018, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AFC5001, 0x7AFC5019, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7AFC5001, 0x7AFC501A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC5002,   194, 0xAFC50025, 119.294, 107.058, 126.1082, -0.8086855, 0, 0, -0.5882413,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -136,9 +136,9 @@ VALUES (0x7AFC501B,  1542, 0xAFC5001C, 93.0052, 88.12158, 128.2207, 0.3808396, 0
 /* @teleloc 0xAFC5001C [93.005200 88.121580 128.220700] 0.380840 0.000000 0.000000 -0.924641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFC501B, 0x7AFC501C, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7AFC501B, 0x7AFC501D, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7AFC501B, 0x7AFC501E, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7AFC501B, 0x7AFC501C, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7AFC501B, 0x7AFC501D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7AFC501B, 0x7AFC501E, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFC501C, 22837, 0xAFC5001C, 93.0052, 88.12158, 128.2207, 0.3808396, 0, 0, -0.9246411,  True, '2019-02-10 00:00:00'); /* Snowflower */

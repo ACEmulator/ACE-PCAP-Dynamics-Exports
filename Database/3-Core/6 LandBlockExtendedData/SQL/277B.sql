@@ -5,12 +5,12 @@ VALUES (0x7277B001,  1154, 0x277B003B, 170.6773, 68.36144, 351.511, -0.9952497, 
 /* @teleloc 0x277B003B [170.677300 68.361440 351.511000] -0.995250 0.000000 0.000000 -0.097355 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277B001, 0x7277B002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7277B001, 0x7277B003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7277B001, 0x7277B004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7277B001, 0x7277B005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277B001, 0x7277B006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277B001, 0x7277B007, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7277B001, 0x7277B002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277B001, 0x7277B003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7277B001, 0x7277B004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7277B001, 0x7277B005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277B001, 0x7277B006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277B001, 0x7277B007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277B002, 36842, 0x277B003B, 170.6773, 68.36144, 351.511, -0.9952497, 0, 0, -0.09735461,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

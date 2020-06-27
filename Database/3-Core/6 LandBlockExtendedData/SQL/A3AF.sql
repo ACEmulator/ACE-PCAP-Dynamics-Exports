@@ -5,18 +5,18 @@ VALUES (0x7A3AF001,  1154, 0xA3AF0038, 160.7801, 190.0316, 49.21097, -0.6427876,
 /* @teleloc 0xA3AF0038 [160.780100 190.031600 49.210970] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AF001, 0x7A3AF002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3AF001, 0x7A3AF003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3AF001, 0x7A3AF004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A3AF001, 0x7A3AF005, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A3AF001, 0x7A3AF006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A3AF001, 0x7A3AF007, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7A3AF001, 0x7A3AF008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A3AF001, 0x7A3AF009, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A3AF001, 0x7A3AF00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A3AF001, 0x7A3AF00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A3AF001, 0x7A3AF00C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A3AF001, 0x7A3AF00D, '2019-02-10 00:00:00') /* Drudge Servant */;
+VALUES (0x7A3AF001, 0x7A3AF002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3AF001, 0x7A3AF003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3AF001, 0x7A3AF004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A3AF001, 0x7A3AF005, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A3AF001, 0x7A3AF006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A3AF001, 0x7A3AF007, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7A3AF001, 0x7A3AF008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A3AF001, 0x7A3AF009, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A3AF001, 0x7A3AF00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A3AF001, 0x7A3AF00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A3AF001, 0x7A3AF00C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A3AF001, 0x7A3AF00D, '2019-02-10 00:00:00') /* Drudge Servant (1631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AF002,   182, 0xA3AF0038, 160.7801, 190.0316, 49.21097, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -71,8 +71,8 @@ VALUES (0x7A3AF00E,  1542, 0xA3AF0025, 110.8113, 117.3793, 54.97051, 0.9990482, 
 /* @teleloc 0xA3AF0025 [110.811300 117.379300 54.970510] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AF00E, 0x7A3AF00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A3AF00E, 0x7A3AF010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A3AF00E, 0x7A3AF00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A3AF00E, 0x7A3AF010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AF00F,  4179, 0xA3AF0025, 110.8113, 117.3793, 54.97051, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

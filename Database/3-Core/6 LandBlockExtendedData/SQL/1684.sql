@@ -5,9 +5,9 @@ VALUES (0x71684001,  1154, 0x16840032, 163.9601, 36.52273, 35.05356, 0.7701118, 
 /* @teleloc 0x16840032 [163.960100 36.522730 35.053560] 0.770112 0.000000 0.000000 -0.637909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71684001, 0x71684002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71684001, 0x71684003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x71684001, 0x71684004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x71684001, 0x71684002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71684001, 0x71684003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x71684001, 0x71684004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71684002, 36833, 0x16840032, 163.9601, 36.52273, 35.05356, 0.7701118, 0, 0, -0.637909,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -26,7 +26,7 @@ VALUES (0x71684005,  1542, 0x16840001, 8.940269, 22.53248, 30, 1, 0, 0, 0, False
 /* @teleloc 0x16840001 [8.940269 22.532480 30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71684005, 0x71684006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71684005, 0x71684006, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71684006, 22566, 0x16840001, 8.940269, 22.53248, 30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,25 +5,25 @@ VALUES (0x7BC5A001,  1154, 0xBC5A0023, 96.78101, 56.40984, 18.0044, -0.9709769, 
 /* @teleloc 0xBC5A0023 [96.781010 56.409840 18.004400] -0.970977 0.000000 0.000000 -0.239173 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC5A001, 0x7BC5A002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BC5A001, 0x7BC5A003, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BC5A001, 0x7BC5A004, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BC5A001, 0x7BC5A005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC5A001, 0x7BC5A006, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BC5A001, 0x7BC5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC5A001, 0x7BC5A008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC5A001, 0x7BC5A009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC5A001, 0x7BC5A00A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC5A001, 0x7BC5A00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC5A001, 0x7BC5A00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BC5A001, 0x7BC5A00D, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BC5A001, 0x7BC5A00E, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BC5A001, 0x7BC5A00F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC5A001, 0x7BC5A010, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BC5A001, 0x7BC5A011, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BC5A001, 0x7BC5A012, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BC5A001, 0x7BC5A013, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BC5A001, 0x7BC5A014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */;
+VALUES (0x7BC5A001, 0x7BC5A002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BC5A001, 0x7BC5A003, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BC5A001, 0x7BC5A004, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BC5A001, 0x7BC5A005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC5A001, 0x7BC5A006, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BC5A001, 0x7BC5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC5A001, 0x7BC5A008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC5A001, 0x7BC5A009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC5A001, 0x7BC5A00A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC5A001, 0x7BC5A00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC5A001, 0x7BC5A00C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BC5A001, 0x7BC5A00D, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BC5A001, 0x7BC5A00E, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BC5A001, 0x7BC5A00F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC5A001, 0x7BC5A010, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BC5A001, 0x7BC5A011, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BC5A001, 0x7BC5A012, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BC5A001, 0x7BC5A013, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BC5A001, 0x7BC5A014, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC5A002,  4249, 0xBC5A0023, 96.78101, 56.40984, 18.0044, -0.9709769, 0, 0, -0.2391733,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

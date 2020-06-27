@@ -5,20 +5,20 @@ VALUES (0x75EA1001,  1154, 0x5EA10001, 11.12184, 3.549046, 80.34132, 0.9371858, 
 /* @teleloc 0x5EA10001 [11.121840 3.549046 80.341320] 0.937186 0.000000 0.000000 -0.348831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EA1001, 0x75EA1002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75EA1001, 0x75EA1003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75EA1001, 0x75EA1004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75EA1001, 0x75EA1005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75EA1001, 0x75EA1006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75EA1001, 0x75EA1007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75EA1001, 0x75EA1008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75EA1001, 0x75EA1009, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EA1001, 0x75EA100A, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EA1001, 0x75EA100B, '2019-02-10 00:00:00') /* Frost */
-     , (0x75EA1001, 0x75EA100C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75EA1001, 0x75EA100D, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x75EA1001, 0x75EA100E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75EA1001, 0x75EA100F, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x75EA1001, 0x75EA1002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75EA1001, 0x75EA1003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75EA1001, 0x75EA1004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75EA1001, 0x75EA1005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75EA1001, 0x75EA1006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75EA1001, 0x75EA1007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75EA1001, 0x75EA1008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75EA1001, 0x75EA1009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EA1001, 0x75EA100A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EA1001, 0x75EA100B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75EA1001, 0x75EA100C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75EA1001, 0x75EA100D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x75EA1001, 0x75EA100E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75EA1001, 0x75EA100F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EA1002, 23565, 0x5EA10001, 11.12184, 3.549046, 80.34132, 0.9371858, 0, 0, -0.3488305,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

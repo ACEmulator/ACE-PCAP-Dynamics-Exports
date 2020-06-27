@@ -5,11 +5,11 @@ VALUES (0x778CA001,  1154, 0x78CA001D, 88.83096, 114.6494, 273.1949, 1, 0, 0, 0,
 /* @teleloc 0x78CA001D [88.830960 114.649400 273.194900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x778CA001, 0x778CA002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x778CA001, 0x778CA003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x778CA001, 0x778CA004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x778CA001, 0x778CA005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x778CA001, 0x778CA006, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x778CA001, 0x778CA002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x778CA001, 0x778CA003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x778CA001, 0x778CA004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x778CA001, 0x778CA005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x778CA001, 0x778CA006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x778CA002, 23616, 0x78CA001D, 88.83096, 114.6494, 273.1949, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

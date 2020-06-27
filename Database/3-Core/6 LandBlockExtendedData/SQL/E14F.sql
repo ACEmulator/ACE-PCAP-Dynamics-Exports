@@ -5,40 +5,40 @@ VALUES (0x7E14F001,  1154, 0xE14F0007, 20.4734, 166.8482, 6.08098, 0.9537169, 0,
 /* @teleloc 0xE14F0007 [20.473400 166.848200 6.080980] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14F001, 0x7E14F002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14F001, 0x7E14F003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14F001, 0x7E14F004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E14F001, 0x7E14F005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F006, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14F001, 0x7E14F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F009, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7E14F001, 0x7E14F00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14F001, 0x7E14F00B, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E14F001, 0x7E14F00C, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E14F001, 0x7E14F00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E14F001, 0x7E14F00E, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E14F001, 0x7E14F00F, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E14F001, 0x7E14F010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F011, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14F001, 0x7E14F012, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F013, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14F001, 0x7E14F014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F015, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F016, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F017, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F018, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F019, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14F001, 0x7E14F01A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14F001, 0x7E14F01B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14F001, 0x7E14F01C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14F001, 0x7E14F01D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14F001, 0x7E14F01E, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E14F001, 0x7E14F01F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14F001, 0x7E14F020, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14F001, 0x7E14F021, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7E14F001, 0x7E14F022, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7E14F001, 0x7E14F023, '2019-02-10 00:00:00') /* Small Shadow Child */;
+VALUES (0x7E14F001, 0x7E14F002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14F001, 0x7E14F003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14F001, 0x7E14F004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E14F001, 0x7E14F005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F006, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14F001, 0x7E14F007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F009, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7E14F001, 0x7E14F00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14F001, 0x7E14F00B, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E14F001, 0x7E14F00C, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E14F001, 0x7E14F00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E14F001, 0x7E14F00E, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E14F001, 0x7E14F00F, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E14F001, 0x7E14F010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F011, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14F001, 0x7E14F012, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F013, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14F001, 0x7E14F014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F015, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F016, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F017, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F018, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F019, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14F001, 0x7E14F01A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14F001, 0x7E14F01B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14F001, 0x7E14F01C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14F001, 0x7E14F01D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14F001, 0x7E14F01E, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E14F001, 0x7E14F01F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14F001, 0x7E14F020, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14F001, 0x7E14F021, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7E14F001, 0x7E14F022, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7E14F001, 0x7E14F023, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14F002,  4111, 0xE14F0007, 20.4734, 166.8482, 6.08098, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -181,11 +181,11 @@ VALUES (0x7E14F024,  1542, 0xE14F000C, 29.34183, 78.39273, 9.567272, 0.9990482, 
 /* @teleloc 0xE14F000C [29.341830 78.392730 9.567272] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14F024, 0x7E14F025, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E14F024, 0x7E14F026, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E14F024, 0x7E14F027, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E14F024, 0x7E14F028, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E14F024, 0x7E14F029, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E14F024, 0x7E14F025, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E14F024, 0x7E14F026, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E14F024, 0x7E14F027, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E14F024, 0x7E14F028, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E14F024, 0x7E14F029, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14F025,  6117, 0xE14F000C, 29.34183, 78.39273, 9.567272, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

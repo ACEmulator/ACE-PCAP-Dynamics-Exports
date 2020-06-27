@@ -5,11 +5,11 @@ VALUES (0x7F686001,  1154, 0xF6860006, 0.2083845, 135.8852, 12.011, -0.9050813, 
 /* @teleloc 0xF6860006 [0.208385 135.885200 12.011000] -0.905081 0.000000 0.000000 -0.425239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F686001, 0x7F686002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F686001, 0x7F686003, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F686001, 0x7F686004, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F686001, 0x7F686005, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F686001, 0x7F686006, '2019-02-10 00:00:00') /* Reedshark Stripling */;
+VALUES (0x7F686001, 0x7F686002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F686001, 0x7F686003, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F686001, 0x7F686004, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F686001, 0x7F686005, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F686001, 0x7F686006, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F686002,  1629, 0xF6860006, 0.2083845, 135.8852, 12.011, -0.9050813, 0, 0, -0.4252385,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

@@ -5,20 +5,20 @@ VALUES (0x7CCA6001,  1154, 0xCCA60016, 68.0917, 140.0085, 61.66621, 0.9238795, 0
 /* @teleloc 0xCCA60016 [68.091700 140.008500 61.666210] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCA6001, 0x7CCA6002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CCA6001, 0x7CCA6003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CCA6001, 0x7CCA6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CCA6001, 0x7CCA6005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CCA6001, 0x7CCA6006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CCA6001, 0x7CCA6007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CCA6001, 0x7CCA6008, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CCA6001, 0x7CCA6009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CCA6001, 0x7CCA600A, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CCA6001, 0x7CCA600B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CCA6001, 0x7CCA600C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CCA6001, 0x7CCA600D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CCA6001, 0x7CCA600E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CCA6001, 0x7CCA600F, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7CCA6001, 0x7CCA6002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CCA6001, 0x7CCA6003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CCA6001, 0x7CCA6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CCA6001, 0x7CCA6005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CCA6001, 0x7CCA6006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CCA6001, 0x7CCA6007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CCA6001, 0x7CCA6008, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CCA6001, 0x7CCA6009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CCA6001, 0x7CCA600A, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CCA6001, 0x7CCA600B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CCA6001, 0x7CCA600C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CCA6001, 0x7CCA600D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CCA6001, 0x7CCA600E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CCA6001, 0x7CCA600F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCA6002,  2575, 0xCCA60016, 68.0917, 140.0085, 61.66621, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

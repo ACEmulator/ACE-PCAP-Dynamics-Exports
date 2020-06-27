@@ -5,13 +5,13 @@ VALUES (0x79ABC001,  1154, 0x9ABC000D, 36.77336, 99.18392, 92.01068, -0.702834, 
 /* @teleloc 0x9ABC000D [36.773360 99.183920 92.010680] -0.702834 0.000000 0.000000 -0.711354 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ABC001, 0x79ABC002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79ABC001, 0x79ABC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79ABC001, 0x79ABC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79ABC001, 0x79ABC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79ABC001, 0x79ABC006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79ABC001, 0x79ABC007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79ABC001, 0x79ABC008, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x79ABC001, 0x79ABC002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79ABC001, 0x79ABC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79ABC001, 0x79ABC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79ABC001, 0x79ABC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79ABC001, 0x79ABC006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79ABC001, 0x79ABC007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79ABC001, 0x79ABC008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ABC002,  1989, 0x9ABC000D, 36.77336, 99.18392, 92.01068, -0.702834, 0, 0, -0.711354,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

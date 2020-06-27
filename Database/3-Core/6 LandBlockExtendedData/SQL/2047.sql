@@ -5,17 +5,17 @@ VALUES (0x72047001,  1154, 0x2047002A, 139.7997, 28.91832, 0.00849998, 0.9907235
 /* @teleloc 0x2047002A [139.799700 28.918320 0.008500] 0.990724 0.000000 0.000000 -0.135893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72047001, 0x72047002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72047001, 0x72047003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72047001, 0x72047004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72047001, 0x72047005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72047001, 0x72047006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72047001, 0x72047007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72047001, 0x72047008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72047001, 0x72047009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72047001, 0x7204700A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72047001, 0x7204700B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72047001, 0x7204700C, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x72047001, 0x72047002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72047001, 0x72047003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72047001, 0x72047004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72047001, 0x72047005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72047001, 0x72047006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72047001, 0x72047007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72047001, 0x72047008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72047001, 0x72047009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72047001, 0x7204700A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72047001, 0x7204700B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72047001, 0x7204700C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72047002,  7092, 0x2047002A, 139.7997, 28.91832, 0.00849998, 0.9907235, 0, 0, -0.1358933,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -66,7 +66,7 @@ VALUES (0x7204700D,  1542, 0x20470034, 149.4235, 87.58383, -2.980232E-08, 0.9990
 /* @teleloc 0x20470034 [149.423500 87.583830 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7204700D, 0x7204700E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7204700D, 0x7204700E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7204700E,  4179, 0x20470034, 149.4235, 87.58383, -2.980232E-08, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

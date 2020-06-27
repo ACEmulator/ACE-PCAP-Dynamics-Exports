@@ -5,10 +5,10 @@ VALUES (0x760B9001,  1154, 0x60B90027, 111.2042, 162.1972, 9.765854, 0.1936561, 
 /* @teleloc 0x60B90027 [111.204200 162.197200 9.765854] 0.193656 0.000000 0.000000 -0.981069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760B9001, 0x760B9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x760B9001, 0x760B9003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x760B9001, 0x760B9004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760B9001, 0x760B9005, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x760B9001, 0x760B9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x760B9001, 0x760B9003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x760B9001, 0x760B9004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760B9001, 0x760B9005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760B9002, 28551, 0x60B90027, 111.2042, 162.1972, 9.765854, 0.1936561, 0, 0, -0.9810694,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

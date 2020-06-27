@@ -5,22 +5,22 @@ VALUES (0x7C072001,  1154, 0xC0720018, 64.92849, 169.2969, 23.51878, -0.9772151,
 /* @teleloc 0xC0720018 [64.928490 169.296900 23.518780] -0.977215 0.000000 0.000000 -0.212252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C072001, 0x7C072002, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C072001, 0x7C072003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C072001, 0x7C072004, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7C072001, 0x7C072005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C072001, 0x7C072006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C072001, 0x7C072007, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C072001, 0x7C072008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C072001, 0x7C072009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C072001, 0x7C07200A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C072001, 0x7C07200B, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C072001, 0x7C07200C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C072001, 0x7C07200D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C072001, 0x7C07200E, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C072001, 0x7C07200F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C072001, 0x7C072010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C072001, 0x7C072011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C072001, 0x7C072002, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C072001, 0x7C072003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C072001, 0x7C072004, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7C072001, 0x7C072005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C072001, 0x7C072006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C072001, 0x7C072007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C072001, 0x7C072008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C072001, 0x7C072009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C072001, 0x7C07200A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C072001, 0x7C07200B, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C072001, 0x7C07200C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C072001, 0x7C07200D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C072001, 0x7C07200E, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C072001, 0x7C07200F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C072001, 0x7C072010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C072001, 0x7C072011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C072002,  2583, 0xC0720018, 64.92849, 169.2969, 23.51878, -0.9772151, 0, 0, -0.2122517,  True, '2019-02-10 00:00:00'); /* Se Sclavus */
@@ -91,7 +91,7 @@ VALUES (0x7C072012,  1542, 0xC0720010, 30.32112, 168.659, 23.11446, 0.9238795, 0
 /* @teleloc 0xC0720010 [30.321120 168.659000 23.114460] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C072012, 0x7C072013, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C072012, 0x7C072013, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C072013,  4382, 0xC0720010, 30.32112, 168.659, 23.11446, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

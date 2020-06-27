@@ -5,15 +5,15 @@ VALUES (0x72B41001,  1154, 0x2B410033, 157.7474, 61.26686, 22.00825, -0.9283539,
 /* @teleloc 0x2B410033 [157.747400 61.266860 22.008250] -0.928354 0.000000 0.000000 -0.371698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B41001, 0x72B41002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B41001, 0x72B41003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72B41001, 0x72B41004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72B41001, 0x72B41005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72B41001, 0x72B41006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B41001, 0x72B41007, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72B41001, 0x72B41008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72B41001, 0x72B41009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72B41001, 0x72B4100A, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x72B41001, 0x72B41002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B41001, 0x72B41003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72B41001, 0x72B41004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72B41001, 0x72B41005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72B41001, 0x72B41006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B41001, 0x72B41007, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72B41001, 0x72B41008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72B41001, 0x72B41009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72B41001, 0x72B4100A, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B41002, 24325, 0x2B410033, 157.7474, 61.26686, 22.00825, -0.9283539, 0, 0, -0.3716975,  True, '2019-02-10 00:00:00'); /* Phantasm */

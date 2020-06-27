@@ -5,13 +5,13 @@ VALUES (0x77817001,  1154, 0x78170026, 96.26175, 134.2066, 29.43829, -0.03482369
 /* @teleloc 0x78170026 [96.261750 134.206600 29.438290] -0.034824 0.000000 0.000000 -0.999394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77817001, 0x77817002, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x77817001, 0x77817003, '2019-02-10 00:00:00') /* Frost */
-     , (0x77817001, 0x77817004, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x77817001, 0x77817005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77817001, 0x77817006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x77817001, 0x77817007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77817001, 0x77817008, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x77817001, 0x77817002, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x77817001, 0x77817003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x77817001, 0x77817004, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x77817001, 0x77817005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77817001, 0x77817006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x77817001, 0x77817007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77817001, 0x77817008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77817002, 27565, 0x78170026, 96.26175, 134.2066, 29.43829, -0.03482369, 0, 0, -0.9993935,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */
@@ -46,12 +46,12 @@ VALUES (0x77817009,  1542, 0x78170034, 150.5712, 89.75051, 8.77111, 1, 0, 0, 0, 
 /* @teleloc 0x78170034 [150.571200 89.750510 8.771110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77817009, 0x7781700A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x77817009, 0x7781700B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77817009, 0x7781700C, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x77817009, 0x7781700D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x77817009, 0x7781700E, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x77817009, 0x7781700F, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x77817009, 0x7781700A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x77817009, 0x7781700B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77817009, 0x7781700C, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x77817009, 0x7781700D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x77817009, 0x7781700E, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x77817009, 0x7781700F, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7781700A,  9024, 0x78170034, 150.5712, 89.75051, 8.77111, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

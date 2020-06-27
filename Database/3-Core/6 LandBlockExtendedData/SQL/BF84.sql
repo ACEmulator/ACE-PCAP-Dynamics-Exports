@@ -5,15 +5,15 @@ VALUES (0x7BF84001,  1154, 0xBF84003A, 183.5515, 36.99328, 28.91862, 1, 0, 0, 0,
 /* @teleloc 0xBF84003A [183.551500 36.993280 28.918620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF84001, 0x7BF84002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF84001, 0x7BF84003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BF84001, 0x7BF84004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF84001, 0x7BF84005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF84001, 0x7BF84006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF84001, 0x7BF84007, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF84001, 0x7BF84008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF84001, 0x7BF84009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF84001, 0x7BF8400A, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7BF84001, 0x7BF84002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF84001, 0x7BF84003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BF84001, 0x7BF84004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF84001, 0x7BF84005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF84001, 0x7BF84006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF84001, 0x7BF84007, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF84001, 0x7BF84008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF84001, 0x7BF84009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF84001, 0x7BF8400A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF84002,    18, 0xBF84003A, 183.5515, 36.99328, 28.91862, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -56,7 +56,7 @@ VALUES (0x7BF8400B,  1542, 0xBF84003A, 185.1837, 35.76366, 29.01911, 1, 0, 0, 0,
 /* @teleloc 0xBF84003A [185.183700 35.763660 29.019110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF8400B, 0x7BF8400C, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7BF8400B, 0x7BF8400C, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF8400C,   265, 0xBF84003A, 185.1837, 35.76366, 29.01911, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

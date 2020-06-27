@@ -5,14 +5,14 @@ VALUES (0x72257001,  1154, 0x22570013, 50.78955, 53.07644, 70.81257, 0.1024146, 
 /* @teleloc 0x22570013 [50.789550 53.076440 70.812570] 0.102415 0.000000 0.000000 -0.994742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72257001, 0x72257002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72257001, 0x72257003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72257001, 0x72257004, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72257001, 0x72257005, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72257001, 0x72257006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72257001, 0x72257007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72257001, 0x72257008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72257001, 0x72257009, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72257001, 0x72257002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72257001, 0x72257003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72257001, 0x72257004, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72257001, 0x72257005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72257001, 0x72257006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72257001, 0x72257007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72257001, 0x72257008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72257001, 0x72257009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72257002, 23616, 0x22570013, 50.78955, 53.07644, 70.81257, 0.1024146, 0, 0, -0.9947418,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

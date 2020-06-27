@@ -5,23 +5,23 @@ VALUES (0x774CC001,  1154, 0x74CC0036, 163.3851, 134.2758, 251.1982, 0.2588191, 
 /* @teleloc 0x74CC0036 [163.385100 134.275800 251.198200] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CC001, 0x774CC002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774CC001, 0x774CC003, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774CC001, 0x774CC004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x774CC001, 0x774CC005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774CC001, 0x774CC006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x774CC001, 0x774CC007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x774CC001, 0x774CC008, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x774CC001, 0x774CC009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774CC001, 0x774CC00A, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774CC001, 0x774CC00B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x774CC001, 0x774CC00C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x774CC001, 0x774CC00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x774CC001, 0x774CC00E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774CC001, 0x774CC00F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774CC001, 0x774CC010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774CC001, 0x774CC011, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x774CC001, 0x774CC012, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x774CC001, 0x774CC002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774CC001, 0x774CC003, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774CC001, 0x774CC004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x774CC001, 0x774CC005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774CC001, 0x774CC006, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x774CC001, 0x774CC007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x774CC001, 0x774CC008, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x774CC001, 0x774CC009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774CC001, 0x774CC00A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774CC001, 0x774CC00B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x774CC001, 0x774CC00C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x774CC001, 0x774CC00D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x774CC001, 0x774CC00E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774CC001, 0x774CC00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774CC001, 0x774CC010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774CC001, 0x774CC011, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x774CC001, 0x774CC012, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CC002, 24279, 0x74CC0036, 163.3851, 134.2758, 251.1982, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
@@ -96,8 +96,8 @@ VALUES (0x774CC013,  1542, 0x74CC003E, 171.249, 143.162, 250.8684, 1, 0, 0, 0, F
 /* @teleloc 0x74CC003E [171.249000 143.162000 250.868400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CC013, 0x774CC014, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x774CC013, 0x774CC015, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x774CC013, 0x774CC014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x774CC013, 0x774CC015, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CC014, 31445, 0x74CC003E, 171.249, 143.162, 250.8684, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

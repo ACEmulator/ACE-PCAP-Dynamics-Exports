@@ -5,16 +5,16 @@ VALUES (0x7AB62001,  1154, 0xAB62003C, 182.8911, 88.50381, 49.25937, -0.4181215,
 /* @teleloc 0xAB62003C [182.891100 88.503810 49.259370] -0.418122 0.000000 0.000000 -0.908391 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB62001, 0x7AB62002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AB62001, 0x7AB62003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AB62001, 0x7AB62004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB62001, 0x7AB62005, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7AB62001, 0x7AB62006, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7AB62001, 0x7AB62007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB62001, 0x7AB62008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AB62001, 0x7AB62009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB62001, 0x7AB6200A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AB62001, 0x7AB6200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7AB62001, 0x7AB62002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AB62001, 0x7AB62003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AB62001, 0x7AB62004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AB62001, 0x7AB62005, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7AB62001, 0x7AB62006, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7AB62001, 0x7AB62007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB62001, 0x7AB62008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AB62001, 0x7AB62009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AB62001, 0x7AB6200A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AB62001, 0x7AB6200B, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB62002,  8141, 0xAB62003C, 182.8911, 88.50381, 49.25937, -0.4181215, 0, 0, -0.9083911,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -61,7 +61,7 @@ VALUES (0x7AB6200C,  1542, 0xAB62002D, 124.4434, 104.4537, 53.75328, 1, 0, 0, 0,
 /* @teleloc 0xAB62002D [124.443400 104.453700 53.753280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB6200C, 0x7AB6200D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7AB6200C, 0x7AB6200D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB6200D, 31443, 0xAB62002D, 124.4434, 104.4537, 53.75328, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

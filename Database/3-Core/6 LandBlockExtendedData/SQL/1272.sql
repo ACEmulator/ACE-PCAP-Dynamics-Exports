@@ -5,9 +5,9 @@ VALUES (0x71272001,  1154, 0x1272002D, 143.3306, 102.654, 79.66528, -0.527914, 0
 /* @teleloc 0x1272002D [143.330600 102.654000 79.665280] -0.527914 0.000000 0.000000 -0.849298 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71272001, 0x71272002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71272001, 0x71272003, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71272001, 0x71272004, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x71272001, 0x71272002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71272001, 0x71272003, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71272001, 0x71272004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71272002, 23616, 0x1272002D, 143.3306, 102.654, 79.66528, -0.527914, 0, 0, -0.8492979,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

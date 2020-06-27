@@ -5,25 +5,25 @@ VALUES (0x7C886001,  1154, 0xC8860008, 14.68135, 181.7706, 24.86245, -0.1406943,
 /* @teleloc 0xC8860008 [14.681350 181.770600 24.862450] -0.140694 0.000000 0.000000 -0.990053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C886001, 0x7C886002, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C886001, 0x7C886003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C886001, 0x7C886004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C886001, 0x7C886005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C886001, 0x7C886006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C886001, 0x7C886007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C886001, 0x7C886008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C886001, 0x7C886009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C886001, 0x7C88600A, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C886001, 0x7C88600B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C886001, 0x7C88600C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C886001, 0x7C88600D, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C886001, 0x7C88600E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C886001, 0x7C88600F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C886001, 0x7C886010, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C886001, 0x7C886011, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C886001, 0x7C886012, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C886001, 0x7C886013, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C886001, 0x7C886014, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7C886001, 0x7C886002, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C886001, 0x7C886003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C886001, 0x7C886004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C886001, 0x7C886005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C886001, 0x7C886006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C886001, 0x7C886007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C886001, 0x7C886008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C886001, 0x7C886009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C886001, 0x7C88600A, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C886001, 0x7C88600B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C886001, 0x7C88600C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C886001, 0x7C88600D, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C886001, 0x7C88600E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C886001, 0x7C88600F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C886001, 0x7C886010, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C886001, 0x7C886011, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C886001, 0x7C886012, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C886001, 0x7C886013, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C886001, 0x7C886014, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C886002,  4131, 0xC8860008, 14.68135, 181.7706, 24.86245, -0.1406943, 0, 0, -0.9900531,  True, '2019-02-10 00:00:00'); /* Tan Rat */
@@ -106,8 +106,8 @@ VALUES (0x7C886015,  1542, 0xC8860008, 23.57204, 191.4377, 24.91123, 1, 0, 0, 0,
 /* @teleloc 0xC8860008 [23.572040 191.437700 24.911230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C886015, 0x7C886016, '2019-02-10 00:00:00') /* Meat */
-     , (0x7C886015, 0x7C886017, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C886015, 0x7C886016, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7C886015, 0x7C886017, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C886016,   265, 0xC8860008, 23.57204, 191.4377, 24.91123, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

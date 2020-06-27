@@ -5,13 +5,13 @@ VALUES (0x7DE36001,  1154, 0xDE360027, 103.1301, 155.0162, 80.22272, 0.5, 0, 0, 
 /* @teleloc 0xDE360027 [103.130100 155.016200 80.222720] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE36001, 0x7DE36002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DE36001, 0x7DE36003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7DE36001, 0x7DE36004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7DE36001, 0x7DE36005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7DE36001, 0x7DE36006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7DE36001, 0x7DE36007, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7DE36001, 0x7DE36008, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7DE36001, 0x7DE36002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DE36001, 0x7DE36003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7DE36001, 0x7DE36004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7DE36001, 0x7DE36005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7DE36001, 0x7DE36006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7DE36001, 0x7DE36007, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7DE36001, 0x7DE36008, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE36002,   194, 0xDE360027, 103.1301, 155.0162, 80.22272, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */

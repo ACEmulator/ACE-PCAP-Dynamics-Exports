@@ -5,20 +5,20 @@ VALUES (0x72785001,  1154, 0x27850039, 188.6409, 15.51317, 271.4802, 0.7071068, 
 /* @teleloc 0x27850039 [188.640900 15.513170 271.480200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72785001, 0x72785002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72785001, 0x72785003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72785001, 0x72785004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72785001, 0x72785005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72785001, 0x72785006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72785001, 0x72785007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72785001, 0x72785008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72785001, 0x72785009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72785001, 0x7278500A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72785001, 0x7278500B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72785001, 0x7278500C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72785001, 0x7278500D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72785001, 0x7278500E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72785001, 0x7278500F, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x72785001, 0x72785002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72785001, 0x72785003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72785001, 0x72785004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72785001, 0x72785005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72785001, 0x72785006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72785001, 0x72785007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72785001, 0x72785008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72785001, 0x72785009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72785001, 0x7278500A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72785001, 0x7278500B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72785001, 0x7278500C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72785001, 0x7278500D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72785001, 0x7278500E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72785001, 0x7278500F, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72785002, 36840, 0x27850039, 188.6409, 15.51317, 271.4802, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -81,10 +81,10 @@ VALUES (0x72785010,  1542, 0x27850003, 9.073578, 52.03306, 259.2476, -0.8298011,
 /* @teleloc 0x27850003 [9.073578 52.033060 259.247600] -0.829801 0.000000 0.000000 -0.558059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72785010, 0x72785011, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x72785010, 0x72785012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72785010, 0x72785013, '2019-02-10 00:00:00') /* Bones */
-     , (0x72785010, 0x72785014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72785010, 0x72785011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x72785010, 0x72785012, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72785010, 0x72785013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72785010, 0x72785014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72785011,  8644, 0x27850003, 9.073578, 52.03306, 259.2476, -0.8298011, 0, 0, -0.5580593,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

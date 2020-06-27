@@ -5,33 +5,33 @@ VALUES (0x7B36E001,  1154, 0xB36E0037, 155.791, 157.5363, 27.96696, -0.9673533, 
 /* @teleloc 0xB36E0037 [155.791000 157.536300 27.966960] -0.967353 0.000000 0.000000 -0.253432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36E001, 0x7B36E002, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B36E001, 0x7B36E003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B36E001, 0x7B36E004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B36E001, 0x7B36E005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B36E001, 0x7B36E006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7B36E001, 0x7B36E007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B36E001, 0x7B36E008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B36E001, 0x7B36E009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B36E001, 0x7B36E00A, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B36E001, 0x7B36E00B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B36E001, 0x7B36E00C, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B36E001, 0x7B36E00D, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B36E001, 0x7B36E00E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B36E001, 0x7B36E00F, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B36E001, 0x7B36E010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B36E001, 0x7B36E011, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B36E001, 0x7B36E012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B36E001, 0x7B36E013, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B36E001, 0x7B36E014, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B36E001, 0x7B36E015, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B36E001, 0x7B36E016, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B36E001, 0x7B36E017, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B36E001, 0x7B36E018, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B36E001, 0x7B36E019, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B36E001, 0x7B36E01A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B36E001, 0x7B36E01B, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B36E001, 0x7B36E01C, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B36E001, 0x7B36E002, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B36E001, 0x7B36E003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B36E001, 0x7B36E004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B36E001, 0x7B36E005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B36E001, 0x7B36E006, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7B36E001, 0x7B36E007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B36E001, 0x7B36E008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B36E001, 0x7B36E009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B36E001, 0x7B36E00A, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B36E001, 0x7B36E00B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B36E001, 0x7B36E00C, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B36E001, 0x7B36E00D, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B36E001, 0x7B36E00E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B36E001, 0x7B36E00F, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B36E001, 0x7B36E010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B36E001, 0x7B36E011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B36E001, 0x7B36E012, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B36E001, 0x7B36E013, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B36E001, 0x7B36E014, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B36E001, 0x7B36E015, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B36E001, 0x7B36E016, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B36E001, 0x7B36E017, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B36E001, 0x7B36E018, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B36E001, 0x7B36E019, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B36E001, 0x7B36E01A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B36E001, 0x7B36E01B, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B36E001, 0x7B36E01C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36E002,  7989, 0xB36E0037, 155.791, 157.5363, 27.96696, -0.9673533, 0, 0, -0.2534318,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
@@ -146,11 +146,11 @@ VALUES (0x7B36E01D,  1542, 0xB36E0031, 162.5024, 11.95126, 25.46219, 1, 0, 0, 0,
 /* @teleloc 0xB36E0031 [162.502400 11.951260 25.462190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36E01D, 0x7B36E01E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B36E01D, 0x7B36E01F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B36E01D, 0x7B36E020, '2019-02-10 00:00:00') /* Scroll of Item Tinkering Ignorance V */
-     , (0x7B36E01D, 0x7B36E021, '2019-02-10 00:00:00') /* Chainmail Greaves */
-     , (0x7B36E01D, 0x7B36E022, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7B36E01D, 0x7B36E01E, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B36E01D, 0x7B36E01F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B36E01D, 0x7B36E020, '2019-02-10 00:00:00') /* Scroll of Item Tinkering Ignorance V (3331) */
+     , (0x7B36E01D, 0x7B36E021, '2019-02-10 00:00:00') /* Chainmail Greaves (2605) */
+     , (0x7B36E01D, 0x7B36E022, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36E01E, 22568, 0xB36E0031, 162.5024, 11.95126, 25.46219, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

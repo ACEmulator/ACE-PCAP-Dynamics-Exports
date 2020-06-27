@@ -5,10 +5,10 @@ VALUES (0x758BD001,  1154, 0x58BD0019, 85.80793, 9.246015, 5.16386, -0.5481313, 
 /* @teleloc 0x58BD0019 [85.807930 9.246015 5.163860] -0.548131 0.000000 0.000000 -0.836392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758BD001, 0x758BD002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x758BD001, 0x758BD003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x758BD001, 0x758BD004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x758BD001, 0x758BD005, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x758BD001, 0x758BD002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x758BD001, 0x758BD003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x758BD001, 0x758BD004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x758BD001, 0x758BD005, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758BD002, 11540, 0x58BD0019, 85.80793, 9.246015, 5.16386, -0.5481313, 0, 0, -0.8363923,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

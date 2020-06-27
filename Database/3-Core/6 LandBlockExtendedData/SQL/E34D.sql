@@ -5,26 +5,26 @@ VALUES (0x7E34D001,  1154, 0xE34D0040, 183.2086, 173.382, 22.01, -0.9999481, 0, 
 /* @teleloc 0xE34D0040 [183.208600 173.382000 22.010000] -0.999948 0.000000 0.000000 -0.010181 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34D001, 0x7E34D002, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E34D001, 0x7E34D003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E34D001, 0x7E34D004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E34D001, 0x7E34D005, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E34D001, 0x7E34D006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E34D001, 0x7E34D007, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E34D001, 0x7E34D008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E34D001, 0x7E34D009, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E34D001, 0x7E34D00A, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E34D001, 0x7E34D00B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E34D001, 0x7E34D00C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E34D001, 0x7E34D00D, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E34D001, 0x7E34D00E, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7E34D001, 0x7E34D00F, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E34D001, 0x7E34D010, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7E34D001, 0x7E34D011, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E34D001, 0x7E34D012, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E34D001, 0x7E34D013, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E34D001, 0x7E34D014, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E34D001, 0x7E34D015, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7E34D001, 0x7E34D002, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E34D001, 0x7E34D003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E34D001, 0x7E34D004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E34D001, 0x7E34D005, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E34D001, 0x7E34D006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E34D001, 0x7E34D007, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E34D001, 0x7E34D008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E34D001, 0x7E34D009, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E34D001, 0x7E34D00A, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E34D001, 0x7E34D00B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E34D001, 0x7E34D00C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E34D001, 0x7E34D00D, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E34D001, 0x7E34D00E, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7E34D001, 0x7E34D00F, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E34D001, 0x7E34D010, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7E34D001, 0x7E34D011, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E34D001, 0x7E34D012, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E34D001, 0x7E34D013, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E34D001, 0x7E34D014, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E34D001, 0x7E34D015, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34D002,  1617, 0xE34D0040, 183.2086, 173.382, 22.01, -0.9999481, 0, 0, -0.01018116,  True, '2019-02-10 00:00:00'); /* Amploth Lugian */
@@ -111,8 +111,8 @@ VALUES (0x7E34D016,  1542, 0xE34D0003, 12.69939, 62.93998, 24, 1, 0, 0, 0, False
 /* @teleloc 0xE34D0003 [12.699390 62.939980 24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34D016, 0x7E34D017, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E34D016, 0x7E34D018, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7E34D016, 0x7E34D017, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7E34D016, 0x7E34D018, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34D017, 22572, 0xE34D0003, 12.69939, 62.93998, 24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,11 +5,11 @@ VALUES (0x748BD001,  1154, 0x48BD0013, 71.21884, 67.77525, 35.62619, 0.6293204, 
 /* @teleloc 0x48BD0013 [71.218840 67.775250 35.626190] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748BD001, 0x748BD002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x748BD001, 0x748BD003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x748BD001, 0x748BD004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x748BD001, 0x748BD005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x748BD001, 0x748BD006, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x748BD001, 0x748BD002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x748BD001, 0x748BD003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x748BD001, 0x748BD004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x748BD001, 0x748BD005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x748BD001, 0x748BD006, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748BD002,  4255, 0x48BD0013, 71.21884, 67.77525, 35.62619, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

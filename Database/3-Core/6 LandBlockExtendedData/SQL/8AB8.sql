@@ -5,18 +5,18 @@ VALUES (0x78AB8001,  1154, 0x8AB8002D, 123.1164, 118.8794, 91.08357, 0.4862213, 
 /* @teleloc 0x8AB8002D [123.116400 118.879400 91.083570] 0.486221 0.000000 0.000000 0.873836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AB8001, 0x78AB8002, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78AB8001, 0x78AB8003, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x78AB8001, 0x78AB8004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78AB8001, 0x78AB8005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78AB8001, 0x78AB8006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78AB8001, 0x78AB8007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78AB8001, 0x78AB8008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78AB8001, 0x78AB8009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x78AB8001, 0x78AB800A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78AB8001, 0x78AB800B, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78AB8001, 0x78AB800C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78AB8001, 0x78AB800D, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x78AB8001, 0x78AB8002, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78AB8001, 0x78AB8003, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x78AB8001, 0x78AB8004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78AB8001, 0x78AB8005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78AB8001, 0x78AB8006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78AB8001, 0x78AB8007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78AB8001, 0x78AB8008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78AB8001, 0x78AB8009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x78AB8001, 0x78AB800A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78AB8001, 0x78AB800B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78AB8001, 0x78AB800C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78AB8001, 0x78AB800D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AB8002,   238, 0x8AB8002D, 123.1164, 118.8794, 91.08357, 0.4862213, 0, 0, 0.8738357,  True, '2019-02-10 00:00:00'); /* Virindi Puppet */
@@ -71,7 +71,7 @@ VALUES (0x78AB800E,  1542, 0x8AB80004, 4.810875, 79.05978, 87.17663, 1, 0, 0, 0,
 /* @teleloc 0x8AB80004 [4.810875 79.059780 87.176630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AB800E, 0x78AB800F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78AB800E, 0x78AB800F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AB800F, 22567, 0x8AB80004, 4.810875, 79.05978, 87.17663, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

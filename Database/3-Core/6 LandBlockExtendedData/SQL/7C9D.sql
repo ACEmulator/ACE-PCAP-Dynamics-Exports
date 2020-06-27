@@ -5,12 +5,12 @@ VALUES (0x77C9D001,  1154, 0x7C9D0040, 172.784, 177.296, 104.048, 0.2527578, 0, 
 /* @teleloc 0x7C9D0040 [172.784000 177.296000 104.048000] 0.252758 0.000000 0.000000 -0.967530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C9D001, 0x77C9D002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77C9D001, 0x77C9D003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77C9D001, 0x77C9D004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C9D001, 0x77C9D005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C9D001, 0x77C9D006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x77C9D001, 0x77C9D007, '2019-02-10 00:00:00') /* Harvest Reaper */;
+VALUES (0x77C9D001, 0x77C9D002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77C9D001, 0x77C9D003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77C9D001, 0x77C9D004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C9D001, 0x77C9D005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C9D001, 0x77C9D006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x77C9D001, 0x77C9D007, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C9D002, 11528, 0x7C9D0040, 172.784, 177.296, 104.048, 0.2527578, 0, 0, -0.9675296,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

@@ -5,13 +5,13 @@ VALUES (0x72A7E001,  1154, 0x2A7E0040, 185.8457, 170.9592, 146.2813, 0.2044358, 
 /* @teleloc 0x2A7E0040 [185.845700 170.959200 146.281300] 0.204436 0.000000 0.000000 -0.978880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A7E001, 0x72A7E002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A7E001, 0x72A7E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A7E001, 0x72A7E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A7E001, 0x72A7E005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72A7E001, 0x72A7E006, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72A7E001, 0x72A7E007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72A7E001, 0x72A7E008, '2019-02-10 00:00:00') /* Brumal */;
+VALUES (0x72A7E001, 0x72A7E002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A7E001, 0x72A7E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A7E001, 0x72A7E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A7E001, 0x72A7E005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72A7E001, 0x72A7E006, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72A7E001, 0x72A7E007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72A7E001, 0x72A7E008, '2019-02-10 00:00:00') /* Brumal (20189) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A7E002, 23482, 0x2A7E0040, 185.8457, 170.9592, 146.2813, 0.2044358, 0, 0, -0.97888,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

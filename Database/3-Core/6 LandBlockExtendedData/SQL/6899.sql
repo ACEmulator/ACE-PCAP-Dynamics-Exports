@@ -5,10 +5,10 @@ VALUES (0x76899001,  1154, 0x6899003C, 170.979, 83.25245, 40.36484, 0.2588191, 0
 /* @teleloc 0x6899003C [170.979000 83.252450 40.364840] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76899001, 0x76899002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76899001, 0x76899003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76899001, 0x76899004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76899001, 0x76899005, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x76899001, 0x76899002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76899001, 0x76899003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76899001, 0x76899004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76899001, 0x76899005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76899002, 24289, 0x6899003C, 170.979, 83.25245, 40.36484, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

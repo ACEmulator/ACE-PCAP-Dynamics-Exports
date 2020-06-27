@@ -5,11 +5,11 @@ VALUES (0x73F1A001,  1154, 0x3F1A0029, 127.3127, 4.430307, 94.56332, 0.9768466, 
 /* @teleloc 0x3F1A0029 [127.312700 4.430307 94.563320] 0.976847 0.000000 0.000000 -0.213941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F1A001, 0x73F1A002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73F1A001, 0x73F1A003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73F1A001, 0x73F1A004, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73F1A001, 0x73F1A005, '2019-02-10 00:00:00') /* Flare */
-     , (0x73F1A001, 0x73F1A006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73F1A001, 0x73F1A002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73F1A001, 0x73F1A003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73F1A001, 0x73F1A004, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73F1A001, 0x73F1A005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73F1A001, 0x73F1A006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F1A002, 21550, 0x3F1A0029, 127.3127, 4.430307, 94.56332, 0.9768466, 0, 0, -0.2139411,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */

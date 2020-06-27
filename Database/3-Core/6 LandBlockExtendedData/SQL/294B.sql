@@ -5,12 +5,12 @@ VALUES (0x7294B001,  1154, 0x294B003B, 183.1616, 53.50095, 7.510633, -0.9927506,
 /* @teleloc 0x294B003B [183.161600 53.500950 7.510633] -0.992751 0.000000 0.000000 -0.120193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7294B001, 0x7294B002, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x7294B001, 0x7294B003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7294B001, 0x7294B004, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7294B001, 0x7294B005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7294B001, 0x7294B006, '2019-02-10 00:00:00') /* Wretched */
-     , (0x7294B001, 0x7294B007, '2019-02-10 00:00:00') /* Dark Guardian */;
+VALUES (0x7294B001, 0x7294B002, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x7294B001, 0x7294B003, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7294B001, 0x7294B004, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7294B001, 0x7294B005, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7294B001, 0x7294B006, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x7294B001, 0x7294B007, '2019-02-10 00:00:00') /* Dark Guardian (22904) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294B002, 22898, 0x294B003B, 183.1616, 53.50095, 7.510633, -0.9927506, 0, 0, -0.1201925,  True, '2019-02-10 00:00:00'); /* Banderling Paragon */

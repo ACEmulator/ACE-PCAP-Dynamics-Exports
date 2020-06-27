@@ -5,11 +5,11 @@ VALUES (0x7B0AE001,  1154, 0xB0AE0036, 156.4416, 121.8605, 27.912, 0.5662882, 0,
 /* @teleloc 0xB0AE0036 [156.441600 121.860500 27.912000] 0.566288 0.000000 0.000000 -0.824207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AE001, 0x7B0AE002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B0AE001, 0x7B0AE003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B0AE001, 0x7B0AE004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B0AE001, 0x7B0AE005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B0AE001, 0x7B0AE006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7B0AE001, 0x7B0AE002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0AE001, 0x7B0AE003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B0AE001, 0x7B0AE004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0AE001, 0x7B0AE005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B0AE001, 0x7B0AE006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AE002,   215, 0xB0AE0036, 156.4416, 121.8605, 27.912, 0.5662882, 0, 0, -0.8242073,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

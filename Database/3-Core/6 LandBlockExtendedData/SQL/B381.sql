@@ -17,21 +17,21 @@ VALUES (0x7B381007,  1154, 0xB381000B, 32.47478, 57.9832, 30.80397, 0.8191521, 0
 /* @teleloc 0xB381000B [32.474780 57.983200 30.803970] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B381007, 0x7B381008, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B381007, 0x7B381009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B381007, 0x7B38100A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B381007, 0x7B38100B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B381007, 0x7B38100C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B381007, 0x7B38100D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B381007, 0x7B38100E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B381007, 0x7B38100F, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B381007, 0x7B381010, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B381007, 0x7B381011, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B381007, 0x7B381012, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B381007, 0x7B381013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B381007, 0x7B381014, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B381007, 0x7B381015, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B381007, 0x7B381016, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7B381007, 0x7B381008, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B381007, 0x7B381009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B381007, 0x7B38100A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B381007, 0x7B38100B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B381007, 0x7B38100C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B381007, 0x7B38100D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B381007, 0x7B38100E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B381007, 0x7B38100F, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B381007, 0x7B381010, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B381007, 0x7B381011, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B381007, 0x7B381012, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B381007, 0x7B381013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B381007, 0x7B381014, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B381007, 0x7B381015, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B381007, 0x7B381016, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B381008,   227, 0xB381000B, 32.47478, 57.9832, 30.80397, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
@@ -98,7 +98,7 @@ VALUES (0x7B381017,  1154, 0xB3810109, 81.57, 154.859, 23.205, 0.8413229, 0, 0, 
 /* @teleloc 0xB3810109 [81.570000 154.859000 23.205000] 0.841323 0.000000 0.000000 -0.540533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B381017, 0x7B381018, '2019-02-10 00:00:00') /* Larry the Rabbit Master */;
+VALUES (0x7B381017, 0x7B381018, '2019-02-10 00:00:00') /* Larry the Rabbit Master (9527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B381018,  9527, 0xB3810109, 81.57, 154.859, 23.205, 0.8413229, 0, 0, -0.5405329,  True, '2019-02-10 00:00:00'); /* Larry the Rabbit Master */
@@ -109,10 +109,10 @@ VALUES (0x7B381019,  1542, 0xB381010B, 85.1392, 158.282, 23.279, -0.9580449, 0, 
 /* @teleloc 0xB381010B [85.139200 158.282000 23.279000] -0.958045 0.000000 0.000000 0.286618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B381019, 0x7B38101A, '2019-02-10 00:00:00') /* Purchasing Order */
-     , (0x7B381019, 0x7B38101B, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7B381019, 0x7B38101C, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7B381019, 0x7B38101D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B381019, 0x7B38101A, '2019-02-10 00:00:00') /* Purchasing Order (9614) */
+     , (0x7B381019, 0x7B38101B, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7B381019, 0x7B38101C, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7B381019, 0x7B38101D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B38101A,  9614, 0xB381010B, 85.1392, 158.282, 23.279, -0.9580449, 0, 0, 0.286618,  True, '2019-02-10 00:00:00'); /* Purchasing Order */

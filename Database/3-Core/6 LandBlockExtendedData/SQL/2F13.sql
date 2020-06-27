@@ -9,18 +9,18 @@ VALUES (0x72F13014,  1154, 0x2F130100, 131.86, 88.1949, 56.0065, -0.9919402, 0, 
 /* @teleloc 0x2F130100 [131.860000 88.194900 56.006500] -0.991940 0.000000 0.000000 0.126707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F13014, 0x72F13015, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F13016, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F13014, 0x72F13017, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F13014, 0x72F13018, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F13019, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F1301A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F1301B, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F1301C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F13014, 0x72F1301D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72F13014, 0x72F1301E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F13014, 0x72F1301F, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72F13014, 0x72F13020, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x72F13014, 0x72F13015, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F13016, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F13014, 0x72F13017, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F13014, 0x72F13018, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F13019, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F1301A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F1301B, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F1301C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F13014, 0x72F1301D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72F13014, 0x72F1301E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F13014, 0x72F1301F, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72F13014, 0x72F13020, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F13015, 22910, 0x2F130100, 131.86, 88.1949, 56.0065, -0.9919402, 0, 0, 0.126707,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

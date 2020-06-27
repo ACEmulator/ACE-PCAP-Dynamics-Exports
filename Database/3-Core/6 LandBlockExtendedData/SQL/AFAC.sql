@@ -5,28 +5,28 @@ VALUES (0x7AFAC001,  1154, 0xAFAC000C, 25.25464, 92.03017, 127.1378, 0.9659258, 
 /* @teleloc 0xAFAC000C [25.254640 92.030170 127.137800] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFAC001, 0x7AFAC002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7AFAC001, 0x7AFAC003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFAC001, 0x7AFAC004, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AFAC001, 0x7AFAC005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFAC001, 0x7AFAC006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AFAC001, 0x7AFAC007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFAC001, 0x7AFAC008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFAC001, 0x7AFAC009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFAC001, 0x7AFAC00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AFAC001, 0x7AFAC00B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AFAC001, 0x7AFAC00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AFAC001, 0x7AFAC00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AFAC001, 0x7AFAC00E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AFAC001, 0x7AFAC00F, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AFAC001, 0x7AFAC010, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7AFAC001, 0x7AFAC011, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AFAC001, 0x7AFAC012, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7AFAC001, 0x7AFAC013, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AFAC001, 0x7AFAC014, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AFAC001, 0x7AFAC015, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7AFAC001, 0x7AFAC016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AFAC001, 0x7AFAC017, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7AFAC001, 0x7AFAC002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7AFAC001, 0x7AFAC003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFAC001, 0x7AFAC004, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AFAC001, 0x7AFAC005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFAC001, 0x7AFAC006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AFAC001, 0x7AFAC007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFAC001, 0x7AFAC008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFAC001, 0x7AFAC009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFAC001, 0x7AFAC00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AFAC001, 0x7AFAC00B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AFAC001, 0x7AFAC00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AFAC001, 0x7AFAC00D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AFAC001, 0x7AFAC00E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AFAC001, 0x7AFAC00F, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AFAC001, 0x7AFAC010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AFAC001, 0x7AFAC011, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AFAC001, 0x7AFAC012, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7AFAC001, 0x7AFAC013, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AFAC001, 0x7AFAC014, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AFAC001, 0x7AFAC015, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7AFAC001, 0x7AFAC016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AFAC001, 0x7AFAC017, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFAC002,   181, 0xAFAC000C, 25.25464, 92.03017, 127.1378, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Auroch Cow */
@@ -121,7 +121,7 @@ VALUES (0x7AFAC018,  1542, 0xAFAC0028, 114.1913, 183.2919, 116.0008, 0.9990482, 
 /* @teleloc 0xAFAC0028 [114.191300 183.291900 116.000800] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFAC018, 0x7AFAC019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AFAC018, 0x7AFAC019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFAC019,  4179, 0xAFAC0028, 114.1913, 183.2919, 116.0008, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -9,15 +9,15 @@ VALUES (0x7848A003,  1154, 0x848A0119, 153.079, 131.401, 299.991, 0.73967, 0, 0,
 /* @teleloc 0x848A0119 [153.079000 131.401000 299.991000] 0.739670 0.000000 0.000000 -0.672970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7848A003, 0x7848A004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7848A003, 0x7848A005, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7848A003, 0x7848A006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7848A003, 0x7848A007, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7848A003, 0x7848A008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7848A003, 0x7848A009, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7848A003, 0x7848A00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7848A003, 0x7848A00B, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7848A003, 0x7848A00C, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7848A003, 0x7848A004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7848A003, 0x7848A005, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7848A003, 0x7848A006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7848A003, 0x7848A007, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7848A003, 0x7848A008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7848A003, 0x7848A009, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7848A003, 0x7848A00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7848A003, 0x7848A00B, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7848A003, 0x7848A00C, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848A004,  9251, 0x848A0119, 153.079, 131.401, 299.991, 0.73967, 0, 0, -0.67297,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

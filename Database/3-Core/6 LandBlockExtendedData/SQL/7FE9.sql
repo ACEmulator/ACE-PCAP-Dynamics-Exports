@@ -5,10 +5,10 @@ VALUES (0x77FE9001,  1154, 0x7FE9001A, 78.05904, 29.93023, 65.9821, -0.2903399, 
 /* @teleloc 0x7FE9001A [78.059040 29.930230 65.982100] -0.290340 0.000000 0.000000 -0.956924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE9001, 0x77FE9002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77FE9001, 0x77FE9003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77FE9001, 0x77FE9004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x77FE9001, 0x77FE9005, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x77FE9001, 0x77FE9002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77FE9001, 0x77FE9003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77FE9001, 0x77FE9004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x77FE9001, 0x77FE9005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE9002,  7088, 0x7FE9001A, 78.05904, 29.93023, 65.9821, -0.2903399, 0, 0, -0.9569235,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

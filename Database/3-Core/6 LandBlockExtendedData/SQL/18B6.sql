@@ -5,9 +5,9 @@ VALUES (0x718B6001,  1154, 0x18B60008, 21.49989, 174.6505, 81.58831, 1, 0, 0, 0,
 /* @teleloc 0x18B60008 [21.499890 174.650500 81.588310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718B6001, 0x718B6002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x718B6001, 0x718B6003, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x718B6001, 0x718B6004, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x718B6001, 0x718B6002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x718B6001, 0x718B6003, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x718B6001, 0x718B6004, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718B6002, 11526, 0x18B60008, 21.49989, 174.6505, 81.58831, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -26,8 +26,8 @@ VALUES (0x718B6005,  1542, 0x18B6003B, 180.7965, 59.27973, 74.93362, 1, 0, 0, 0,
 /* @teleloc 0x18B6003B [180.796500 59.279730 74.933620] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x718B6005, 0x718B6006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x718B6005, 0x718B6007, '2019-02-10 00:00:00') /* Cooking Gear */;
+VALUES (0x718B6005, 0x718B6006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x718B6005, 0x718B6007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x718B6006,  4179, 0x18B6003B, 180.7965, 59.27973, 74.93362, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

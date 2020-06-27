@@ -5,14 +5,14 @@ VALUES (0x713BC001,  1154, 0x13BC000E, 44.87486, 135.2758, 20.005, 0.6810716, 0,
 /* @teleloc 0x13BC000E [44.874860 135.275800 20.005000] 0.681072 0.000000 0.000000 -0.732217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713BC001, 0x713BC002, '2019-02-10 00:00:00') /* Poacher */
-     , (0x713BC001, 0x713BC003, '2019-02-10 00:00:00') /* Poacher */
-     , (0x713BC001, 0x713BC004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x713BC001, 0x713BC005, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x713BC001, 0x713BC006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x713BC001, 0x713BC007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x713BC001, 0x713BC008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x713BC001, 0x713BC009, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x713BC001, 0x713BC002, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x713BC001, 0x713BC003, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x713BC001, 0x713BC004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x713BC001, 0x713BC005, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x713BC001, 0x713BC006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x713BC001, 0x713BC007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x713BC001, 0x713BC008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x713BC001, 0x713BC009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713BC002, 11505, 0x13BC000E, 44.87486, 135.2758, 20.005, 0.6810716, 0, 0, -0.7322168,  True, '2019-02-10 00:00:00'); /* Poacher */
@@ -51,8 +51,8 @@ VALUES (0x713BC00A,  1542, 0x13BC0017, 61.13681, 144.8886, 21, 1, 0, 0, 0, False
 /* @teleloc 0x13BC0017 [61.136810 144.888600 21.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713BC00A, 0x713BC00B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x713BC00A, 0x713BC00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x713BC00A, 0x713BC00B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x713BC00A, 0x713BC00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713BC00B,  9024, 0x13BC0017, 61.13681, 144.8886, 21, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

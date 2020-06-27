@@ -5,8 +5,8 @@ VALUES (0x7B664001,  1154, 0xB6640028, 97.27238, 175.0675, 19.41554, 0.9849509, 
 /* @teleloc 0xB6640028 [97.272380 175.067500 19.415540] 0.984951 0.000000 0.000000 -0.172834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B664001, 0x7B664002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B664001, 0x7B664003, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7B664001, 0x7B664002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B664001, 0x7B664003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B664002,  1614, 0xB6640028, 97.27238, 175.0675, 19.41554, 0.9849509, 0, 0, -0.1728342,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

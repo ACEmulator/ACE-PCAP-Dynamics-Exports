@@ -13,19 +13,19 @@ VALUES (0x73868002,  1154, 0x3868001C, 79.62223, 89.26077, 31.54098, 0.7372774, 
 /* @teleloc 0x3868001C [79.622230 89.260770 31.540980] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73868002, 0x73868003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73868002, 0x73868004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73868002, 0x73868005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73868002, 0x73868006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73868002, 0x73868007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73868002, 0x73868008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73868002, 0x73868009, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73868002, 0x7386800A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73868002, 0x7386800B, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73868002, 0x7386800C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73868002, 0x7386800D, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73868002, 0x7386800E, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73868002, 0x7386800F, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x73868002, 0x73868003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73868002, 0x73868004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73868002, 0x73868005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73868002, 0x73868006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73868002, 0x73868007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73868002, 0x73868008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73868002, 0x73868009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73868002, 0x7386800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73868002, 0x7386800B, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73868002, 0x7386800C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73868002, 0x7386800D, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73868002, 0x7386800E, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73868002, 0x7386800F, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73868003,  7113, 0x3868001C, 79.62223, 89.26077, 31.54098, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -84,8 +84,8 @@ VALUES (0x73868010,  1542, 0x38680015, 48.91325, 96.10274, 39.54977, 1, 0, 0, 0,
 /* @teleloc 0x38680015 [48.913250 96.102740 39.549770] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73868010, 0x73868011, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73868010, 0x73868012, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x73868010, 0x73868011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73868010, 0x73868012, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73868011, 31445, 0x38680015, 48.91325, 96.10274, 39.54977, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

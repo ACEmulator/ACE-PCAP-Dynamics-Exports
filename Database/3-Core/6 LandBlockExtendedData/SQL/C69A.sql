@@ -5,11 +5,11 @@ VALUES (0x7C69A001,  1154, 0xC69A0002, 13.79731, 29.70755, 6.005, -0.08924746, 0
 /* @teleloc 0xC69A0002 [13.797310 29.707550 6.005000] -0.089247 0.000000 0.000000 -0.996010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C69A001, 0x7C69A002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7C69A001, 0x7C69A003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C69A001, 0x7C69A004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C69A001, 0x7C69A005, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7C69A001, 0x7C69A006, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7C69A001, 0x7C69A002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7C69A001, 0x7C69A003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C69A001, 0x7C69A004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C69A001, 0x7C69A005, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7C69A001, 0x7C69A006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C69A002,   944, 0xC69A0002, 13.79731, 29.70755, 6.005, -0.08924746, 0, 0, -0.9960095,  True, '2019-02-10 00:00:00'); /* Mite Digger */

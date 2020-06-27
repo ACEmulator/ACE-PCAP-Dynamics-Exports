@@ -5,17 +5,17 @@ VALUES (0x7442F001,  1154, 0x442F0019, 91.84677, 14.43499, 35.08378, 0.9964443, 
 /* @teleloc 0x442F0019 [91.846770 14.434990 35.083780] 0.996444 0.000000 0.000000 -0.084254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7442F001, 0x7442F002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7442F001, 0x7442F003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7442F001, 0x7442F004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7442F001, 0x7442F005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7442F001, 0x7442F006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7442F001, 0x7442F007, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7442F001, 0x7442F008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7442F001, 0x7442F009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7442F001, 0x7442F00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7442F001, 0x7442F00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7442F001, 0x7442F00C, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x7442F001, 0x7442F002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7442F001, 0x7442F003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7442F001, 0x7442F004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7442F001, 0x7442F005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7442F001, 0x7442F006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7442F001, 0x7442F007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7442F001, 0x7442F008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7442F001, 0x7442F009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7442F001, 0x7442F00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7442F001, 0x7442F00B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7442F001, 0x7442F00C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7442F002, 23616, 0x442F0019, 91.84677, 14.43499, 35.08378, 0.9964443, 0, 0, -0.08425374,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -66,7 +66,7 @@ VALUES (0x7442F00D,  1542, 0x442F0021, 100.7399, 17.56712, 35.04068, 1, 0, 0, 0,
 /* @teleloc 0x442F0021 [100.739900 17.567120 35.040680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7442F00D, 0x7442F00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7442F00D, 0x7442F00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7442F00E, 22571, 0x442F0021, 100.7399, 17.56712, 35.04068, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

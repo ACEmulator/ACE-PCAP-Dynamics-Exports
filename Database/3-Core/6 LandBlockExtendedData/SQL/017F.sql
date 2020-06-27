@@ -9,32 +9,32 @@ VALUES (0x7017F006,  1154, 0x017F011C, 35.8065, -259.953, 0.006500006, -0.707373
 /* @teleloc 0x017F011C [35.806500 -259.953000 0.006500] -0.707373 0.000000 0.000000 -0.706840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F006, 0x7017F007, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F008, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7017F006, 0x7017F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7017F006, 0x7017F00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F00D, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F00F, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F010, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F011, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F012, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F013, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F014, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F015, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F016, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F017, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F018, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F019, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F01A, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F01B, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F01C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F01D, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7017F006, 0x7017F01E, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7017F006, 0x7017F01F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7017F006, 0x7017F020, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x7017F006, 0x7017F007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7017F006, 0x7017F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7017F006, 0x7017F00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F00D, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F00E, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F00F, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F010, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F011, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F012, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F013, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F014, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F015, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F016, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F017, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F018, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F019, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F01A, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F01B, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F01C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F01D, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x7017F006, 0x7017F01E, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7017F006, 0x7017F01F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7017F006, 0x7017F020, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F007, 23567, 0x017F011C, 35.8065, -259.953, 0.006500006, -0.707373, 0, 0, -0.70684,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
@@ -145,8 +145,8 @@ VALUES (0x7017F021,  1542, 0x017F0141, 122.004, -251.873, 0.06344, 0.9681122, 0,
 /* @teleloc 0x017F0141 [122.004000 -251.873000 0.063440] 0.968112 0.000000 0.000000 -0.250517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7017F021, 0x7017F022, '2019-02-10 00:00:00') /* Report to Niarltah */
-     , (0x7017F021, 0x7017F023, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7017F021, 0x7017F022, '2019-02-10 00:00:00') /* Report to Niarltah (28127) */
+     , (0x7017F021, 0x7017F023, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7017F022, 28127, 0x017F0141, 122.004, -251.873, 0.06344, 0.9681122, 0, 0, -0.2505171,  True, '2019-02-10 00:00:00'); /* Report to Niarltah */

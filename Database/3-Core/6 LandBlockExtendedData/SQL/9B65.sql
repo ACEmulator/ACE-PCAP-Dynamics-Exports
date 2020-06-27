@@ -9,23 +9,23 @@ VALUES (0x79B65001,  1154, 0x9B650109, 115.156, 87.9843, 28.4022, 0.647058, 0, 0
 /* @teleloc 0x9B650109 [115.156000 87.984300 28.402200] 0.647058 0.000000 0.000000 -0.762441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B65001, 0x79B65002, '2019-02-10 00:00:00') /* Open Journal */
-     , (0x79B65001, 0x79B65003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79B65001, 0x79B65004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79B65001, 0x79B65005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79B65001, 0x79B65006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x79B65001, 0x79B65007, '2019-02-10 00:00:00') /* Lich */
-     , (0x79B65001, 0x79B65008, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79B65001, 0x79B65009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B65001, 0x79B6500A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79B65001, 0x79B6500B, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79B65001, 0x79B6500C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x79B65001, 0x79B6500D, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x79B65001, 0x79B6500E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x79B65001, 0x79B6500F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x79B65001, 0x79B65010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x79B65001, 0x79B65011, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79B65001, 0x79B65012, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x79B65001, 0x79B65002, '2019-02-10 00:00:00') /* Open Journal (29957) */
+     , (0x79B65001, 0x79B65003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79B65001, 0x79B65004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79B65001, 0x79B65005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79B65001, 0x79B65006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x79B65001, 0x79B65007, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79B65001, 0x79B65008, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79B65001, 0x79B65009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B65001, 0x79B6500A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79B65001, 0x79B6500B, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79B65001, 0x79B6500C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79B65001, 0x79B6500D, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x79B65001, 0x79B6500E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x79B65001, 0x79B6500F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x79B65001, 0x79B65010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x79B65001, 0x79B65011, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79B65001, 0x79B65012, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B65002, 29957, 0x9B650109, 115.156, 87.9843, 28.4022, 0.647058, 0, 0, -0.762441,  True, '2019-02-10 00:00:00'); /* Open Journal */
@@ -100,7 +100,7 @@ VALUES (0x79B65013,  1542, 0x9B65003F, 189.8463, 164.9901, 16.35895, 1, 0, 0, 0,
 /* @teleloc 0x9B65003F [189.846300 164.990100 16.358950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B65013, 0x79B65014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79B65013, 0x79B65014, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B65014, 22568, 0x9B65003F, 189.8463, 164.9901, 16.35895, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

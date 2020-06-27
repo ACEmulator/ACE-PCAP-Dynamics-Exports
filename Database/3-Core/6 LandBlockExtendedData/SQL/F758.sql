@@ -5,11 +5,11 @@ VALUES (0x7F758001,  1154, 0xF7580023, 113.6197, 67.17176, 63.3514, 0.1446874, 0
 /* @teleloc 0xF7580023 [113.619700 67.171760 63.351400] 0.144687 0.000000 0.000000 -0.989477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F758001, 0x7F758002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F758001, 0x7F758003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7F758001, 0x7F758004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7F758001, 0x7F758005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F758001, 0x7F758006, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7F758001, 0x7F758002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F758001, 0x7F758003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7F758001, 0x7F758004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7F758001, 0x7F758005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F758001, 0x7F758006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F758002,  7128, 0xF7580023, 113.6197, 67.17176, 63.3514, 0.1446874, 0, 0, -0.9894774,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -36,7 +36,7 @@ VALUES (0x7F758007,  1542, 0xF7580001, 6.391052, 13.14145, 62.41043, 0.9990482, 
 /* @teleloc 0xF7580001 [6.391052 13.141450 62.410430] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F758007, 0x7F758008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F758007, 0x7F758008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F758008,  4179, 0xF7580001, 6.391052, 13.14145, 62.41043, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,17 +5,17 @@ VALUES (0x74142001,  1154, 0x41420037, 160.9511, 149.7496, 34.15936, 0.7071068, 
 /* @teleloc 0x41420037 [160.951100 149.749600 34.159360] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74142001, 0x74142002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74142001, 0x74142003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x74142001, 0x74142004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74142001, 0x74142005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x74142001, 0x74142006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74142001, 0x74142007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74142001, 0x74142008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74142001, 0x74142009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74142001, 0x7414200A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74142001, 0x7414200B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x74142001, 0x7414200C, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x74142001, 0x74142002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74142001, 0x74142003, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x74142001, 0x74142004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74142001, 0x74142005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x74142001, 0x74142006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74142001, 0x74142007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74142001, 0x74142008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74142001, 0x74142009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74142001, 0x7414200A, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74142001, 0x7414200B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x74142001, 0x7414200C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74142002,  7111, 0x41420037, 160.9511, 149.7496, 34.15936, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

@@ -5,11 +5,11 @@ VALUES (0x78ADA001,  1154, 0x8ADA0008, 20.0638, 181.369, 222.2399, -0.9443602, 0
 /* @teleloc 0x8ADA0008 [20.063800 181.369000 222.239900] -0.944360 0.000000 0.000000 -0.328913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ADA001, 0x78ADA002, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x78ADA001, 0x78ADA003, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x78ADA001, 0x78ADA004, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x78ADA001, 0x78ADA005, '2019-02-10 00:00:00') /* Ice Golem */
-     , (0x78ADA001, 0x78ADA006, '2019-02-10 00:00:00') /* Ice Golem */;
+VALUES (0x78ADA001, 0x78ADA002, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x78ADA001, 0x78ADA003, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x78ADA001, 0x78ADA004, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x78ADA001, 0x78ADA005, '2019-02-10 00:00:00') /* Ice Golem (196) */
+     , (0x78ADA001, 0x78ADA006, '2019-02-10 00:00:00') /* Ice Golem (196) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ADA002,   196, 0x8ADA0008, 20.0638, 181.369, 222.2399, -0.9443602, 0, 0, -0.3289131,  True, '2019-02-10 00:00:00'); /* Ice Golem */

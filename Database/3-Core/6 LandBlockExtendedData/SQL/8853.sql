@@ -5,34 +5,34 @@ VALUES (0x78853001,  1154, 0x88530009, 46.35071, 20.12949, 9.086033, 0.9665493, 
 /* @teleloc 0x88530009 [46.350710 20.129490 9.086033] 0.966549 0.000000 0.000000 0.256481 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78853001, 0x78853002, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x78853003, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x78853004, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78853001, 0x78853005, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78853001, 0x78853006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x78853007, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x78853008, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x78853009, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x7885300A, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x7885300B, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78853001, 0x7885300C, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x7885300D, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78853001, 0x7885300E, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x7885300F, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x78853010, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x78853011, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x78853012, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78853001, 0x78853013, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x78853014, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x78853015, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78853001, 0x78853016, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x78853017, '2019-02-10 00:00:00') /* Copper Cog Trooper */
-     , (0x78853001, 0x78853018, '2019-02-10 00:00:00') /* Iron Blade Trooper */
-     , (0x78853001, 0x78853019, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x7885301A, '2019-02-10 00:00:00') /* Gold Gear Trooper */
-     , (0x78853001, 0x7885301B, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper */
-     , (0x78853001, 0x7885301C, '2019-02-10 00:00:00') /* Silver Scope Trooper */
-     , (0x78853001, 0x7885301D, '2019-02-10 00:00:00') /* Copper Cog Trooper */;
+VALUES (0x78853001, 0x78853002, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x78853003, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x78853004, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78853001, 0x78853005, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78853001, 0x78853006, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x78853007, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x78853008, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x78853009, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x7885300A, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x7885300B, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78853001, 0x7885300C, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x7885300D, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78853001, 0x7885300E, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x7885300F, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x78853010, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x78853011, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x78853012, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78853001, 0x78853013, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x78853014, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x78853015, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78853001, 0x78853016, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x78853017, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78853001, 0x78853018, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
+     , (0x78853001, 0x78853019, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x7885301A, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78853001, 0x7885301B, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78853001, 0x7885301C, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78853001, 0x7885301D, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78853002, 41574, 0x88530009, 46.35071, 20.12949, 9.086033, 0.9665493, 0, 0, 0.2564811,  True, '2019-02-10 00:00:00'); /* Gold Gear Trooper */
@@ -151,7 +151,7 @@ VALUES (0x7885301E,  1542, 0x8853002B, 139.0408, 61.27335, 16.058, 0.991244, 0, 
 /* @teleloc 0x8853002B [139.040800 61.273350 16.058000] 0.991244 0.000000 0.000000 -0.132042 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7885301E, 0x7885301F, '2019-02-10 00:00:00') /* Depleted Aetherium Ore */;
+VALUES (0x7885301E, 0x7885301F, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7885301F, 41566, 0x8853002B, 139.0408, 61.27335, 16.058, 0.991244, 0, 0, -0.132042,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */

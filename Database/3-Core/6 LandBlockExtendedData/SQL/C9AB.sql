@@ -5,13 +5,13 @@ VALUES (0x7C9AB001,  1154, 0xC9AB0002, 17.02678, 27.22096, 113.1672, 0.9238795, 
 /* @teleloc 0xC9AB0002 [17.026780 27.220960 113.167200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9AB001, 0x7C9AB002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C9AB001, 0x7C9AB003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C9AB001, 0x7C9AB004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C9AB001, 0x7C9AB005, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7C9AB001, 0x7C9AB006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C9AB001, 0x7C9AB007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C9AB001, 0x7C9AB008, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7C9AB001, 0x7C9AB002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C9AB001, 0x7C9AB003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C9AB001, 0x7C9AB004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C9AB001, 0x7C9AB005, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7C9AB001, 0x7C9AB006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C9AB001, 0x7C9AB007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C9AB001, 0x7C9AB008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9AB002,  1758, 0xC9AB0002, 17.02678, 27.22096, 113.1672, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

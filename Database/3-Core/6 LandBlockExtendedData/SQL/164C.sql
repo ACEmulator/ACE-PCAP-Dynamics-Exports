@@ -5,12 +5,12 @@ VALUES (0x7164C001,  1154, 0x164C0009, 32.53123, 15.68041, 2.69785, -0.999943, 0
 /* @teleloc 0x164C0009 [32.531230 15.680410 2.697850] -0.999943 0.000000 0.000000 -0.010680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164C001, 0x7164C002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164C001, 0x7164C003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7164C001, 0x7164C004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7164C001, 0x7164C005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7164C001, 0x7164C006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7164C001, 0x7164C007, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7164C001, 0x7164C002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164C001, 0x7164C003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7164C001, 0x7164C004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7164C001, 0x7164C005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7164C001, 0x7164C006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7164C001, 0x7164C007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164C002, 36825, 0x164C0009, 32.53123, 15.68041, 2.69785, -0.999943, 0, 0, -0.01067991,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -41,7 +41,7 @@ VALUES (0x7164C008,  1542, 0x164C0010, 41.35855, 176.1963, 20.1677, -4.371139E-0
 /* @teleloc 0x164C0010 [41.358550 176.196300 20.167700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164C008, 0x7164C009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7164C008, 0x7164C009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7164C009,  4380, 0x164C0010, 41.35855, 176.1963, 20.1677, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

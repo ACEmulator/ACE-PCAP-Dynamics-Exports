@@ -5,19 +5,19 @@ VALUES (0x7B180001,  1154, 0xB1800039, 176.3403, 14.78548, 26.79688, 0.9238795, 
 /* @teleloc 0xB1800039 [176.340300 14.785480 26.796880] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B180001, 0x7B180002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B180001, 0x7B180003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B180001, 0x7B180004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B180001, 0x7B180005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B180001, 0x7B180006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B180001, 0x7B180007, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B180001, 0x7B180008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B180001, 0x7B180009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B180001, 0x7B18000A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B180001, 0x7B18000B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B180001, 0x7B18000C, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B180001, 0x7B18000D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B180001, 0x7B18000E, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7B180001, 0x7B180002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B180001, 0x7B180003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B180001, 0x7B180004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B180001, 0x7B180005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B180001, 0x7B180006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B180001, 0x7B180007, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B180001, 0x7B180008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B180001, 0x7B180009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B180001, 0x7B18000A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B180001, 0x7B18000B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B180001, 0x7B18000C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B180001, 0x7B18000D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B180001, 0x7B18000E, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B180002, 10770, 0xB1800039, 176.3403, 14.78548, 26.79688, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Beaten Doll */
@@ -76,7 +76,7 @@ VALUES (0x7B18000F,  1542, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0,
 /* @teleloc 0xB1800003 [21.910180 66.305240 40.876720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B18000F, 0x7B180010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B18000F, 0x7B180010, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B180010,  4180, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

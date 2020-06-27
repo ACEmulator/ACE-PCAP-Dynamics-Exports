@@ -13,10 +13,10 @@ VALUES (0x78F76005,  1154, 0x8F760039, 177.4803, 9.099554, 60.00893, 0.09360712,
 /* @teleloc 0x8F760039 [177.480300 9.099554 60.008930] 0.093607 0.000000 0.000000 -0.995609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F76005, 0x78F76006, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x78F76005, 0x78F76007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x78F76005, 0x78F76008, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x78F76005, 0x78F76009, '2019-02-10 00:00:00') /* Spiny Armoredillo */;
+VALUES (0x78F76005, 0x78F76006, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x78F76005, 0x78F76007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x78F76005, 0x78F76008, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x78F76005, 0x78F76009, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F76006,   177, 0x8F760039, 177.4803, 9.099554, 60.00893, 0.09360712, 0, 0, -0.9956092,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */

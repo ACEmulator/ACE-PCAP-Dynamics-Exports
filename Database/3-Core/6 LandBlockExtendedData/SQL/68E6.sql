@@ -5,15 +5,15 @@ VALUES (0x768E6001,  1154, 0x68E60011, 68.55152, 23.07105, 74.005, -0.019544, 0,
 /* @teleloc 0x68E60011 [68.551520 23.071050 74.005000] -0.019544 0.000000 0.000000 -0.999809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768E6001, 0x768E6002, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x768E6001, 0x768E6003, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x768E6001, 0x768E6004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x768E6001, 0x768E6005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x768E6001, 0x768E6006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x768E6001, 0x768E6007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x768E6001, 0x768E6008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x768E6001, 0x768E6009, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x768E6001, 0x768E600A, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x768E6001, 0x768E6002, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x768E6001, 0x768E6003, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x768E6001, 0x768E6004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x768E6001, 0x768E6005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x768E6001, 0x768E6006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x768E6001, 0x768E6007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x768E6001, 0x768E6008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x768E6001, 0x768E6009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x768E6001, 0x768E600A, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768E6002, 29300, 0x68E60011, 68.55152, 23.07105, 74.005, -0.019544, 0, 0, -0.999809,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */
@@ -56,7 +56,7 @@ VALUES (0x768E600B,  1542, 0x68E6000A, 24.95447, 33.17357, 74, -4.371139E-08, 0,
 /* @teleloc 0x68E6000A [24.954470 33.173570 74.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768E600B, 0x768E600C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x768E600B, 0x768E600C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768E600C,  4380, 0x68E6000A, 24.95447, 33.17357, 74, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

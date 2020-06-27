@@ -5,12 +5,12 @@ VALUES (0x73117001,  1154, 0x31170028, 119.3554, 171.8627, 40.64879, -0.09680897
 /* @teleloc 0x31170028 [119.355400 171.862700 40.648790] -0.096809 0.000000 0.000000 -0.995303 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73117001, 0x73117002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73117001, 0x73117003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73117001, 0x73117004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73117001, 0x73117005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73117001, 0x73117006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73117001, 0x73117007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73117001, 0x73117002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73117001, 0x73117003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73117001, 0x73117004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73117001, 0x73117005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73117001, 0x73117006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73117001, 0x73117007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73117002, 23564, 0x31170028, 119.3554, 171.8627, 40.64879, -0.09680897, 0, 0, -0.995303,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

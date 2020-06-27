@@ -5,9 +5,9 @@ VALUES (0x7DB31001,  1154, 0xDB310022, 103.6037, 42.56227, 138.2709, -0.653133, 
 /* @teleloc 0xDB310022 [103.603700 42.562270 138.270900] -0.653133 0.000000 0.000000 -0.757243 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB31001, 0x7DB31002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DB31001, 0x7DB31003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DB31001, 0x7DB31004, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7DB31001, 0x7DB31002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DB31001, 0x7DB31003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DB31001, 0x7DB31004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB31002,  7980, 0xDB310022, 103.6037, 42.56227, 138.2709, -0.653133, 0, 0, -0.7572432,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -26,7 +26,7 @@ VALUES (0x7DB31005,  1542, 0xDB31003D, 181.7975, 104.5563, 139.083, -0.9992132, 
 /* @teleloc 0xDB31003D [181.797500 104.556300 139.083000] -0.999213 0.000000 0.000000 -0.039660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB31005, 0x7DB31006, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7DB31005, 0x7DB31006, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB31006, 14789, 0xDB31003D, 181.7975, 104.5563, 139.083, -0.9992132, 0, 0, -0.03966022,  True, '2019-02-10 00:00:00'); /* Ginger */

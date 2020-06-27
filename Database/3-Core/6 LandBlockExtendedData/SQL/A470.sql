@@ -5,16 +5,16 @@ VALUES (0x7A470001,  1154, 0xA470001A, 91.4638, 33.18282, 25.62448, -0.7877854, 
 /* @teleloc 0xA470001A [91.463800 33.182820 25.624480] -0.787785 0.000000 0.000000 -0.615950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A470001, 0x7A470002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A470001, 0x7A470003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A470001, 0x7A470004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A470001, 0x7A470005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A470001, 0x7A470006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A470001, 0x7A470007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A470001, 0x7A470008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A470001, 0x7A470009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A470001, 0x7A47000A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A470001, 0x7A47000B, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7A470001, 0x7A470002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A470001, 0x7A470003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A470001, 0x7A470004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A470001, 0x7A470005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A470001, 0x7A470006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A470001, 0x7A470007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A470001, 0x7A470008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A470001, 0x7A470009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A470001, 0x7A47000A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A470001, 0x7A47000B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A470002,  1762, 0xA470001A, 91.4638, 33.18282, 25.62448, -0.7877854, 0, 0, -0.6159498,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

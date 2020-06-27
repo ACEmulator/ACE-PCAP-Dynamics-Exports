@@ -5,26 +5,26 @@ VALUES (0x7D6DB001,  1154, 0xD6DB0019, 90.17754, 21.35597, 33.99349, -0.8335803,
 /* @teleloc 0xD6DB0019 [90.177540 21.355970 33.993490] -0.833580 0.000000 0.000000 -0.552398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6DB001, 0x7D6DB002, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D6DB001, 0x7D6DB003, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D6DB001, 0x7D6DB004, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D6DB001, 0x7D6DB005, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D6DB001, 0x7D6DB006, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D6DB001, 0x7D6DB007, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D6DB001, 0x7D6DB008, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D6DB001, 0x7D6DB009, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D6DB001, 0x7D6DB00A, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D6DB001, 0x7D6DB00B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D6DB001, 0x7D6DB00C, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D6DB001, 0x7D6DB00D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D6DB001, 0x7D6DB00E, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D6DB001, 0x7D6DB00F, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D6DB001, 0x7D6DB010, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D6DB001, 0x7D6DB011, '2019-02-10 00:00:00') /* Astis Niffis */
-     , (0x7D6DB001, 0x7D6DB012, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D6DB001, 0x7D6DB013, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D6DB001, 0x7D6DB014, '2019-02-10 00:00:00') /* Benek Niffis */
-     , (0x7D6DB001, 0x7D6DB015, '2019-02-10 00:00:00') /* Shallows Shredder */;
+VALUES (0x7D6DB001, 0x7D6DB002, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D6DB001, 0x7D6DB003, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D6DB001, 0x7D6DB004, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D6DB001, 0x7D6DB005, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D6DB001, 0x7D6DB006, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D6DB001, 0x7D6DB007, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D6DB001, 0x7D6DB008, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D6DB001, 0x7D6DB009, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D6DB001, 0x7D6DB00A, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D6DB001, 0x7D6DB00B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D6DB001, 0x7D6DB00C, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D6DB001, 0x7D6DB00D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D6DB001, 0x7D6DB00E, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D6DB001, 0x7D6DB00F, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D6DB001, 0x7D6DB010, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D6DB001, 0x7D6DB011, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D6DB001, 0x7D6DB012, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D6DB001, 0x7D6DB013, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D6DB001, 0x7D6DB014, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D6DB001, 0x7D6DB015, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6DB002, 31914, 0xD6DB0019, 90.17754, 21.35597, 33.99349, -0.8335803, 0, 0, -0.5523983,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */

@@ -5,11 +5,11 @@ VALUES (0x7CFA4001,  1154, 0xCFA40022, 104.8647, 46.40405, 19.8745, 0.9659258, 0
 /* @teleloc 0xCFA40022 [104.864700 46.404050 19.874500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA4001, 0x7CFA4002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA4001, 0x7CFA4003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA4001, 0x7CFA4004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CFA4001, 0x7CFA4005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CFA4001, 0x7CFA4006, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7CFA4001, 0x7CFA4002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA4001, 0x7CFA4003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA4001, 0x7CFA4004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CFA4001, 0x7CFA4005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CFA4001, 0x7CFA4006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA4002,  1630, 0xCFA40022, 104.8647, 46.40405, 19.8745, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -36,7 +36,7 @@ VALUES (0x7CFA4007,  1542, 0xCFA40022, 99.61463, 47.04604, 19.9205, 1, 0, 0, 0, 
 /* @teleloc 0xCFA40022 [99.614630 47.046040 19.920500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA4007, 0x7CFA4008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CFA4007, 0x7CFA4008, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA4008, 22576, 0xCFA40022, 99.61463, 47.04604, 19.9205, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

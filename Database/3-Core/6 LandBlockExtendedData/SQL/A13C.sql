@@ -5,14 +5,14 @@ VALUES (0x7A13C001,  1154, 0xA13C001D, 92.04989, 118.4453, 61.55336, -0.6641334,
 /* @teleloc 0xA13C001D [92.049890 118.445300 61.553360] -0.664133 0.000000 0.000000 -0.747614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A13C001, 0x7A13C002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A13C001, 0x7A13C003, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7A13C001, 0x7A13C004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A13C001, 0x7A13C005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A13C001, 0x7A13C006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A13C001, 0x7A13C007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A13C001, 0x7A13C008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A13C001, 0x7A13C009, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7A13C001, 0x7A13C002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A13C001, 0x7A13C003, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7A13C001, 0x7A13C004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A13C001, 0x7A13C005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A13C001, 0x7A13C006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A13C001, 0x7A13C007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A13C001, 0x7A13C008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A13C001, 0x7A13C009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A13C002,   235, 0xA13C001D, 92.04989, 118.4453, 61.55336, -0.6641334, 0, 0, -0.7476141,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

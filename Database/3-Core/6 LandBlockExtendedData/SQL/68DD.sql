@@ -5,9 +5,9 @@ VALUES (0x768DD001,  1154, 0x68DD0027, 98.88664, 144.2617, 189.4824, -0.9986038,
 /* @teleloc 0x68DD0027 [98.886640 144.261700 189.482400] -0.998604 0.000000 0.000000 -0.052826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768DD001, 0x768DD002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x768DD001, 0x768DD003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x768DD001, 0x768DD004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x768DD001, 0x768DD002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x768DD001, 0x768DD003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x768DD001, 0x768DD004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768DD002, 24277, 0x68DD0027, 98.88664, 144.2617, 189.4824, -0.9986038, 0, 0, -0.05282556,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -26,7 +26,7 @@ VALUES (0x768DD005,  1542, 0x68DD0033, 147.0203, 56.43651, 204.9361, -0.3065928,
 /* @teleloc 0x68DD0033 [147.020300 56.436510 204.936100] -0.306593 0.000000 0.000000 -0.951841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768DD005, 0x768DD006, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x768DD005, 0x768DD006, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768DD006,  8646, 0x68DD0033, 147.0203, 56.43651, 204.9361, -0.3065928, 0, 0, -0.9518408,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

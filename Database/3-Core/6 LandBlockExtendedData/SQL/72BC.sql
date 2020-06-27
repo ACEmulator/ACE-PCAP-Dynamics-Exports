@@ -5,10 +5,10 @@ VALUES (0x772BC001,  1154, 0x72BC0033, 156.8397, 51.68045, 81.7053, -0.8765016, 
 /* @teleloc 0x72BC0033 [156.839700 51.680450 81.705300] -0.876502 0.000000 0.000000 -0.481399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772BC001, 0x772BC002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x772BC001, 0x772BC003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x772BC001, 0x772BC004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x772BC001, 0x772BC005, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x772BC001, 0x772BC002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x772BC001, 0x772BC003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x772BC001, 0x772BC004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x772BC001, 0x772BC005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772BC002,  7105, 0x72BC0033, 156.8397, 51.68045, 81.7053, -0.8765016, 0, 0, -0.481399,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

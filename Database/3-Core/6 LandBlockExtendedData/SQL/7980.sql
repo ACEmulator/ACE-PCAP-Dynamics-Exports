@@ -5,9 +5,9 @@ VALUES (0x77980001,  1154, 0x79800019, 92.93217, 21.23315, 21.66916, -0.9353719,
 /* @teleloc 0x79800019 [92.932170 21.233150 21.669160] -0.935372 0.000000 0.000000 -0.353666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77980001, 0x77980002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77980001, 0x77980003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x77980001, 0x77980004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77980001, 0x77980002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77980001, 0x77980003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x77980001, 0x77980004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77980002,  1758, 0x79800019, 92.93217, 21.23315, 21.66916, -0.9353719, 0, 0, -0.3536656,  True, '2019-02-10 00:00:00'); /* Shadow */

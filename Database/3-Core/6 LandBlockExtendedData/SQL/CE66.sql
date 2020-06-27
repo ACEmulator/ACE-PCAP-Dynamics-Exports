@@ -5,13 +5,13 @@ VALUES (0x7CE66001,  1154, 0xCE660029, 139.6245, 12.91251, 28.34963, 0.8124292, 
 /* @teleloc 0xCE660029 [139.624500 12.912510 28.349630] 0.812429 0.000000 0.000000 -0.583060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE66001, 0x7CE66002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CE66001, 0x7CE66003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CE66001, 0x7CE66004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CE66001, 0x7CE66005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CE66001, 0x7CE66006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CE66001, 0x7CE66007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CE66001, 0x7CE66008, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x7CE66001, 0x7CE66002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CE66001, 0x7CE66003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CE66001, 0x7CE66004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CE66001, 0x7CE66005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CE66001, 0x7CE66006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CE66001, 0x7CE66007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CE66001, 0x7CE66008, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE66002, 28552, 0xCE660029, 139.6245, 12.91251, 28.34963, 0.8124292, 0, 0, -0.5830598,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

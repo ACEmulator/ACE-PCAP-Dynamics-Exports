@@ -5,13 +5,13 @@ VALUES (0x726C4001,  1154, 0x26C40021, 97.89582, 13.13585, 26.74996, 0.962805, 0
 /* @teleloc 0x26C40021 [97.895820 13.135850 26.749960] 0.962805 0.000000 0.000000 -0.270197 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726C4001, 0x726C4002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x726C4001, 0x726C4003, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x726C4001, 0x726C4004, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x726C4001, 0x726C4005, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x726C4001, 0x726C4006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x726C4001, 0x726C4007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x726C4001, 0x726C4008, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x726C4001, 0x726C4002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x726C4001, 0x726C4003, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x726C4001, 0x726C4004, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x726C4001, 0x726C4005, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x726C4001, 0x726C4006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x726C4001, 0x726C4007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x726C4001, 0x726C4008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726C4002, 27717, 0x26C40021, 97.89582, 13.13585, 26.74996, 0.962805, 0, 0, -0.2701971,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

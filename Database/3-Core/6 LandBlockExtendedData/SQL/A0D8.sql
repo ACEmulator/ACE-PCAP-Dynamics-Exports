@@ -5,10 +5,10 @@ VALUES (0x7A0D8001,  1154, 0xA0D80038, 153.2091, 181.1561, 74.55299, 0.6293204, 
 /* @teleloc 0xA0D80038 [153.209100 181.156100 74.552990] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D8001, 0x7A0D8002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D8001, 0x7A0D8003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D8001, 0x7A0D8004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D8001, 0x7A0D8005, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7A0D8001, 0x7A0D8002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D8001, 0x7A0D8003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D8001, 0x7A0D8004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D8001, 0x7A0D8005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D8002,  4255, 0xA0D80038, 153.2091, 181.1561, 74.55299, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

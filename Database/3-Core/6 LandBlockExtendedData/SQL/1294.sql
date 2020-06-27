@@ -5,13 +5,13 @@ VALUES (0x71294001,  1154, 0x1294002E, 137.6101, 136.6627, 1.430511E-06, -0.8981
 /* @teleloc 0x1294002E [137.610100 136.662700 0.000001] -0.898176 0.000000 0.000000 -0.439635 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71294001, 0x71294002, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x71294001, 0x71294003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71294001, 0x71294004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71294001, 0x71294005, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71294001, 0x71294006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71294001, 0x71294007, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71294001, 0x71294008, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x71294001, 0x71294002, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x71294001, 0x71294003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71294001, 0x71294004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71294001, 0x71294005, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71294001, 0x71294006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71294001, 0x71294007, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71294001, 0x71294008, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71294002, 11535, 0x1294002E, 137.6101, 136.6627, 1.430511E-06, -0.8981763, 0, 0, -0.4396354,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */

@@ -5,15 +5,15 @@ VALUES (0x78EC9001,  1154, 0x8EC9003F, 183.8217, 162.0007, 101.1915, -0.4189499,
 /* @teleloc 0x8EC9003F [183.821700 162.000700 101.191500] -0.418950 0.000000 0.000000 -0.908009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC9001, 0x78EC9002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78EC9001, 0x78EC9003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EC9001, 0x78EC9004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78EC9001, 0x78EC9005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78EC9001, 0x78EC9006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78EC9001, 0x78EC9007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EC9001, 0x78EC9008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78EC9001, 0x78EC9009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78EC9001, 0x78EC900A, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x78EC9001, 0x78EC9002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78EC9001, 0x78EC9003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EC9001, 0x78EC9004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EC9001, 0x78EC9005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78EC9001, 0x78EC9006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78EC9001, 0x78EC9007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EC9001, 0x78EC9008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78EC9001, 0x78EC9009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78EC9001, 0x78EC900A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC9002, 38177, 0x8EC9003F, 183.8217, 162.0007, 101.1915, -0.4189499, 0, 0, -0.9080094,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -56,8 +56,8 @@ VALUES (0x78EC900B,  1542, 0x8EC9001D, 83.42623, 114.2887, 87.84137, -0.9724097,
 /* @teleloc 0x8EC9001D [83.426230 114.288700 87.841370] -0.972410 0.000000 0.000000 -0.233280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC900B, 0x78EC900C, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x78EC900B, 0x78EC900D, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x78EC900B, 0x78EC900C, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x78EC900B, 0x78EC900D, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC900C,  9071, 0x8EC9001D, 83.42623, 114.2887, 87.84137, -0.9724097, 0, 0, -0.2332796,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

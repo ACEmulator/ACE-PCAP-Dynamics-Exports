@@ -5,17 +5,17 @@ VALUES (0x7272F001,  1154, 0x272F000C, 33.99035, 73.97227, 50.52655, 0.9852363, 
 /* @teleloc 0x272F000C [33.990350 73.972270 50.526550] 0.985236 0.000000 0.000000 -0.171200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7272F001, 0x7272F002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7272F001, 0x7272F003, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7272F001, 0x7272F004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7272F001, 0x7272F005, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7272F001, 0x7272F006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7272F001, 0x7272F007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7272F001, 0x7272F008, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7272F001, 0x7272F009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7272F001, 0x7272F00A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7272F001, 0x7272F00B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7272F001, 0x7272F00C, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7272F001, 0x7272F002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7272F001, 0x7272F003, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7272F001, 0x7272F004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7272F001, 0x7272F005, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7272F001, 0x7272F006, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7272F001, 0x7272F007, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7272F001, 0x7272F008, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x7272F001, 0x7272F009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7272F001, 0x7272F00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7272F001, 0x7272F00B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7272F001, 0x7272F00C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7272F002, 22053, 0x272F000C, 33.99035, 73.97227, 50.52655, 0.9852363, 0, 0, -0.1711998,  True, '2019-02-10 00:00:00'); /* Assailer */

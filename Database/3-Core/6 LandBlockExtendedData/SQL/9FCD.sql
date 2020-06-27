@@ -5,20 +5,20 @@ VALUES (0x79FCD001,  1154, 0x9FCD0008, 9.962026, 177.3038, 106.8359, 0.2588191, 
 /* @teleloc 0x9FCD0008 [9.962026 177.303800 106.835900] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FCD001, 0x79FCD002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79FCD001, 0x79FCD003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79FCD001, 0x79FCD004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79FCD001, 0x79FCD005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79FCD001, 0x79FCD006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79FCD001, 0x79FCD007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79FCD001, 0x79FCD008, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x79FCD001, 0x79FCD009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79FCD001, 0x79FCD00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79FCD001, 0x79FCD00B, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x79FCD001, 0x79FCD00C, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79FCD001, 0x79FCD00D, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x79FCD001, 0x79FCD00E, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x79FCD001, 0x79FCD00F, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x79FCD001, 0x79FCD002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79FCD001, 0x79FCD003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79FCD001, 0x79FCD004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79FCD001, 0x79FCD005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79FCD001, 0x79FCD006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79FCD001, 0x79FCD007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79FCD001, 0x79FCD008, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x79FCD001, 0x79FCD009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79FCD001, 0x79FCD00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79FCD001, 0x79FCD00B, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x79FCD001, 0x79FCD00C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79FCD001, 0x79FCD00D, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x79FCD001, 0x79FCD00E, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x79FCD001, 0x79FCD00F, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FCD002, 24289, 0x9FCD0008, 9.962026, 177.3038, 106.8359, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -81,10 +81,10 @@ VALUES (0x79FCD010,  1542, 0x9FCD0008, 6.707019, 172.8883, 112.6693, -4.371139E-
 /* @teleloc 0x9FCD0008 [6.707019 172.888300 112.669300] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FCD010, 0x79FCD011, '2019-02-10 00:00:00') /* Bones */
-     , (0x79FCD010, 0x79FCD012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79FCD010, 0x79FCD013, '2019-02-10 00:00:00') /* Bones */
-     , (0x79FCD010, 0x79FCD014, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x79FCD010, 0x79FCD011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79FCD010, 0x79FCD012, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x79FCD010, 0x79FCD013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79FCD010, 0x79FCD014, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FCD011,  4380, 0x9FCD0008, 6.707019, 172.8883, 112.6693, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

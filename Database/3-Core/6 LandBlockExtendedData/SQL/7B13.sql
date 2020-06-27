@@ -5,11 +5,11 @@ VALUES (0x77B13001,  1154, 0x7B13002E, 125.1008, 133.5253, 18.20185, 0.779304, 0
 /* @teleloc 0x7B13002E [125.100800 133.525300 18.201850] 0.779304 0.000000 0.000000 -0.626646 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B13001, 0x77B13002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77B13001, 0x77B13003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77B13001, 0x77B13004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x77B13001, 0x77B13005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x77B13001, 0x77B13006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x77B13001, 0x77B13002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77B13001, 0x77B13003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77B13001, 0x77B13004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x77B13001, 0x77B13005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x77B13001, 0x77B13006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B13002,  4217, 0x7B13002E, 125.1008, 133.5253, 18.20185, 0.779304, 0, 0, -0.626646,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

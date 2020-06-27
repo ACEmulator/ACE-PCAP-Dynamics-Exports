@@ -5,21 +5,21 @@ VALUES (0x78CD5001,  1154, 0x8CD5001E, 72.96854, 132.0782, 287.4307, -0.888642, 
 /* @teleloc 0x8CD5001E [72.968540 132.078200 287.430700] -0.888642 0.000000 0.000000 -0.458602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CD5001, 0x78CD5002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78CD5001, 0x78CD5003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78CD5001, 0x78CD5004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78CD5001, 0x78CD5005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78CD5001, 0x78CD5006, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78CD5001, 0x78CD5007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD5001, 0x78CD5008, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78CD5001, 0x78CD5009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78CD5001, 0x78CD500A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CD5001, 0x78CD500B, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CD5001, 0x78CD500C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD5001, 0x78CD500D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78CD5001, 0x78CD500E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD5001, 0x78CD500F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78CD5001, 0x78CD5010, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x78CD5001, 0x78CD5002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78CD5001, 0x78CD5003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78CD5001, 0x78CD5004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78CD5001, 0x78CD5005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78CD5001, 0x78CD5006, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78CD5001, 0x78CD5007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CD5001, 0x78CD5008, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78CD5001, 0x78CD5009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78CD5001, 0x78CD500A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CD5001, 0x78CD500B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x78CD5001, 0x78CD500C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x78CD5001, 0x78CD500D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78CD5001, 0x78CD500E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CD5001, 0x78CD500F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78CD5001, 0x78CD5010, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CD5002, 24294, 0x8CD5001E, 72.96854, 132.0782, 287.4307, -0.888642, 0, 0, -0.4586015,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

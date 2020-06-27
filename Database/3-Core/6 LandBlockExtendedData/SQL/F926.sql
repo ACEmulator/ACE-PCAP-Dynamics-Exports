@@ -5,28 +5,28 @@ VALUES (0x7F926001,  1154, 0xF926000F, 45.74527, 146.6644, 38.22863, -0.9844841,
 /* @teleloc 0xF926000F [45.745270 146.664400 38.228630] -0.984484 0.000000 0.000000 -0.175474 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F926001, 0x7F926002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F926001, 0x7F926003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F926001, 0x7F926004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F926001, 0x7F926005, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F926001, 0x7F926006, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F926001, 0x7F926007, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F926001, 0x7F926008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F926001, 0x7F926009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F926001, 0x7F92600A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F926001, 0x7F92600B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F926001, 0x7F92600C, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F926001, 0x7F92600D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F926001, 0x7F92600E, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F926001, 0x7F92600F, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F926001, 0x7F926010, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F926001, 0x7F926011, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F926001, 0x7F926012, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F926001, 0x7F926013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F926001, 0x7F926014, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F926001, 0x7F926015, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F926001, 0x7F926016, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F926001, 0x7F926017, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x7F926001, 0x7F926002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F926001, 0x7F926003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F926001, 0x7F926004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F926001, 0x7F926005, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F926001, 0x7F926006, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F926001, 0x7F926007, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F926001, 0x7F926008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F926001, 0x7F926009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F926001, 0x7F92600A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F926001, 0x7F92600B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F926001, 0x7F92600C, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F926001, 0x7F92600D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F926001, 0x7F92600E, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F926001, 0x7F92600F, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F926001, 0x7F926010, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F926001, 0x7F926011, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F926001, 0x7F926012, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F926001, 0x7F926013, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F926001, 0x7F926014, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F926001, 0x7F926015, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F926001, 0x7F926016, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F926001, 0x7F926017, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F926002,  4248, 0xF926000F, 45.74527, 146.6644, 38.22863, -0.9844841, 0, 0, -0.1754738,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -121,8 +121,8 @@ VALUES (0x7F926018,  1542, 0xF9260019, 76.10957, 8.169779, 19.36163, 0.9990482, 
 /* @teleloc 0xF9260019 [76.109570 8.169779 19.361630] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F926018, 0x7F926019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F926018, 0x7F92601A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7F926018, 0x7F926019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F926018, 0x7F92601A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F926019,  4179, 0xF9260019, 76.10957, 8.169779, 19.36163, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

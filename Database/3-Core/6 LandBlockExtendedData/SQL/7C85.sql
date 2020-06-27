@@ -5,11 +5,11 @@ VALUES (0x77C85001,  1154, 0x7C850029, 129.9512, 18.40205, 80.16011, -0.7071068,
 /* @teleloc 0x7C850029 [129.951200 18.402050 80.160110] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C85001, 0x77C85002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C85001, 0x77C85003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C85001, 0x77C85004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x77C85001, 0x77C85005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77C85001, 0x77C85006, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x77C85001, 0x77C85002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C85001, 0x77C85003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C85001, 0x77C85004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x77C85001, 0x77C85005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77C85001, 0x77C85006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C85002,  2576, 0x7C850029, 129.9512, 18.40205, 80.16011, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -36,8 +36,8 @@ VALUES (0x77C85007,  1542, 0x7C85002A, 130.7202, 24.57689, 81.14677, 0.9990482, 
 /* @teleloc 0x7C85002A [130.720200 24.576890 81.146770] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C85007, 0x77C85008, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77C85007, 0x77C85009, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x77C85007, 0x77C85008, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77C85007, 0x77C85009, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C85008,  4179, 0x7C85002A, 130.7202, 24.57689, 81.14677, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

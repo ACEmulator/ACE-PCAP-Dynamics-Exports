@@ -5,13 +5,13 @@ VALUES (0x74BB4001,  1154, 0x4BB40013, 64.97398, 71.92328, 117.1662, 0.9238795, 
 /* @teleloc 0x4BB40013 [64.973980 71.923280 117.166200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BB4001, 0x74BB4002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74BB4001, 0x74BB4003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74BB4001, 0x74BB4004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74BB4001, 0x74BB4005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74BB4001, 0x74BB4006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74BB4001, 0x74BB4007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x74BB4001, 0x74BB4008, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x74BB4001, 0x74BB4002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74BB4001, 0x74BB4003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74BB4001, 0x74BB4004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74BB4001, 0x74BB4005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74BB4001, 0x74BB4006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74BB4001, 0x74BB4007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x74BB4001, 0x74BB4008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB4002,  7096, 0x4BB40013, 64.97398, 71.92328, 117.1662, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -46,7 +46,7 @@ VALUES (0x74BB4009,  1542, 0x4BB40014, 61.63653, 82.78988, 114.1875, 0.9990436, 
 /* @teleloc 0x4BB40014 [61.636530 82.789880 114.187500] 0.999044 0.000000 0.000000 -0.043724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BB4009, 0x74BB400A, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x74BB4009, 0x74BB400A, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB400A, 11554, 0x4BB40014, 61.63653, 82.78988, 114.1875, 0.9990436, 0, 0, -0.04372418,  True, '2019-02-10 00:00:00'); /* Colban Plant */

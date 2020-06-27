@@ -5,20 +5,20 @@ VALUES (0x722B7001,  1154, 0x22B70039, 188.2948, 8.976046, 92.15051, 1, 0, 0, 0,
 /* @teleloc 0x22B70039 [188.294800 8.976046 92.150510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B7001, 0x722B7002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B7003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B7004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B7005, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722B7001, 0x722B7006, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x722B7001, 0x722B7007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B7008, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722B7001, 0x722B7009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B700A, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x722B7001, 0x722B700B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722B7001, 0x722B700C, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722B7001, 0x722B700D, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x722B7001, 0x722B700E, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B7001, 0x722B700F, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x722B7001, 0x722B7002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B7003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B7004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B7005, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722B7001, 0x722B7006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x722B7001, 0x722B7007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B7008, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722B7001, 0x722B7009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B700A, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x722B7001, 0x722B700B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722B7001, 0x722B700C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722B7001, 0x722B700D, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x722B7001, 0x722B700E, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B7001, 0x722B700F, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B7002, 11493, 0x22B70039, 188.2948, 8.976046, 92.15051, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
@@ -81,8 +81,8 @@ VALUES (0x722B7010,  1542, 0x22B7001F, 87.26175, 150.5907, 100.06, 1, 0, 0, 0, F
 /* @teleloc 0x22B7001F [87.261750 150.590700 100.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B7010, 0x722B7011, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722B7010, 0x722B7012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x722B7010, 0x722B7011, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722B7010, 0x722B7012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B7011,  9024, 0x22B7001F, 87.26175, 150.5907, 100.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

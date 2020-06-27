@@ -5,31 +5,31 @@ VALUES (0x7D31A001,  1154, 0xD31A0014, 54.45101, 94.59634, 47.47242, 0.9456221, 
 /* @teleloc 0xD31A0014 [54.451010 94.596340 47.472420] 0.945622 0.000000 0.000000 -0.325267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D31A001, 0x7D31A002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D31A001, 0x7D31A003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D31A001, 0x7D31A004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D31A001, 0x7D31A005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D31A001, 0x7D31A006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D31A001, 0x7D31A007, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7D31A001, 0x7D31A008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D31A001, 0x7D31A009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D31A001, 0x7D31A00A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D31A001, 0x7D31A00B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D31A001, 0x7D31A00C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D31A001, 0x7D31A00D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D31A001, 0x7D31A00E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D31A001, 0x7D31A00F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D31A001, 0x7D31A010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D31A001, 0x7D31A011, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D31A001, 0x7D31A012, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D31A001, 0x7D31A013, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D31A001, 0x7D31A014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D31A001, 0x7D31A015, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7D31A001, 0x7D31A016, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D31A001, 0x7D31A017, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D31A001, 0x7D31A018, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7D31A001, 0x7D31A019, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D31A001, 0x7D31A01A, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7D31A001, 0x7D31A002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D31A001, 0x7D31A003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D31A001, 0x7D31A004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D31A001, 0x7D31A005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D31A001, 0x7D31A006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D31A001, 0x7D31A007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7D31A001, 0x7D31A008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D31A001, 0x7D31A009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D31A001, 0x7D31A00A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D31A001, 0x7D31A00B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D31A001, 0x7D31A00C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D31A001, 0x7D31A00D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D31A001, 0x7D31A00E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D31A001, 0x7D31A00F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D31A001, 0x7D31A010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D31A001, 0x7D31A011, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D31A001, 0x7D31A012, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D31A001, 0x7D31A013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D31A001, 0x7D31A014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D31A001, 0x7D31A015, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7D31A001, 0x7D31A016, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D31A001, 0x7D31A017, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D31A001, 0x7D31A018, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7D31A001, 0x7D31A019, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D31A001, 0x7D31A01A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D31A002,  8141, 0xD31A0014, 54.45101, 94.59634, 47.47242, 0.9456221, 0, 0, -0.3252674,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -136,7 +136,7 @@ VALUES (0x7D31A01B,  1542, 0xD31A0014, 70.28942, 94.65683, 46.14255, 0.9456221, 
 /* @teleloc 0xD31A0014 [70.289420 94.656830 46.142550] 0.945622 0.000000 0.000000 -0.325267 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D31A01B, 0x7D31A01C, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7D31A01B, 0x7D31A01C, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D31A01C, 14789, 0xD31A0014, 70.28942, 94.65683, 46.14255, 0.9456221, 0, 0, -0.3252674,  True, '2019-02-10 00:00:00'); /* Ginger */

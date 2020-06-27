@@ -5,14 +5,14 @@ VALUES (0x78BDB001,  1154, 0x8BDB0037, 144.8367, 161.7571, 110.8924, 0.9816731, 
 /* @teleloc 0x8BDB0037 [144.836700 161.757100 110.892400] 0.981673 0.000000 0.000000 -0.190573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BDB001, 0x78BDB002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78BDB001, 0x78BDB003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78BDB001, 0x78BDB004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78BDB001, 0x78BDB005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BDB001, 0x78BDB006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BDB001, 0x78BDB007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BDB001, 0x78BDB008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x78BDB001, 0x78BDB009, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78BDB001, 0x78BDB002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78BDB001, 0x78BDB003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78BDB001, 0x78BDB004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78BDB001, 0x78BDB005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BDB001, 0x78BDB006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BDB001, 0x78BDB007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BDB001, 0x78BDB008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78BDB001, 0x78BDB009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BDB002,  7994, 0x8BDB0037, 144.8367, 161.7571, 110.8924, 0.9816731, 0, 0, -0.1905728,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

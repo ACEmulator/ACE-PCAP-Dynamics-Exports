@@ -9,22 +9,22 @@ VALUES (0x7C896001,  1154, 0xC8960002, 18.23001, 42.28487, 8.02, 0.794019, 0, 0,
 /* @teleloc 0xC8960002 [18.230010 42.284870 8.020000] 0.794019 0.000000 0.000000 -0.607893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C896001, 0x7C896002, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7C896001, 0x7C896003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C896001, 0x7C896004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C896005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C896006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C896007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C896008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C896009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C896001, 0x7C89600A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C89600B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C89600C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C896001, 0x7C89600D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C896001, 0x7C89600E, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C896001, 0x7C89600F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C896001, 0x7C896010, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C896001, 0x7C896011, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7C896001, 0x7C896002, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7C896001, 0x7C896003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C896001, 0x7C896004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C896005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C896006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C896007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C896008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C896009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C896001, 0x7C89600A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C89600B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C89600C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C896001, 0x7C89600D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C896001, 0x7C89600E, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C896001, 0x7C89600F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C896001, 0x7C896010, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C896001, 0x7C896011, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C896002, 27255, 0xC8960002, 18.23001, 42.28487, 8.02, 0.794019, 0, 0, -0.607893,  True, '2019-02-10 00:00:00'); /* Mud Golem Sludge Lord */
@@ -95,7 +95,7 @@ VALUES (0x7C896012,  1542, 0xC8960021, 109.2924, 22.14752, 9.999001, 1, 0, 0, 0,
 /* @teleloc 0xC8960021 [109.292400 22.147520 9.999001] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C896012, 0x7C896013, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C896012, 0x7C896013, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C896013,   265, 0xC8960021, 109.2924, 22.14752, 9.999001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

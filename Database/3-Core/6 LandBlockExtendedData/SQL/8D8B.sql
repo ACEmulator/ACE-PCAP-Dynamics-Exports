@@ -5,17 +5,17 @@ VALUES (0x78D8B001,  1154, 0x8D8B000A, 42.75469, 42.56911, 46.0025, 0.7071068, 0
 /* @teleloc 0x8D8B000A [42.754690 42.569110 46.002500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D8B001, 0x78D8B002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78D8B001, 0x78D8B003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78D8B001, 0x78D8B004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78D8B001, 0x78D8B005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78D8B001, 0x78D8B006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78D8B001, 0x78D8B007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78D8B001, 0x78D8B008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78D8B001, 0x78D8B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D8B001, 0x78D8B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78D8B001, 0x78D8B00B, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78D8B001, 0x78D8B00C, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x78D8B001, 0x78D8B002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78D8B001, 0x78D8B003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78D8B001, 0x78D8B004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78D8B001, 0x78D8B005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78D8B001, 0x78D8B006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78D8B001, 0x78D8B007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78D8B001, 0x78D8B008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78D8B001, 0x78D8B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D8B001, 0x78D8B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78D8B001, 0x78D8B00B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78D8B001, 0x78D8B00C, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8B002,  1762, 0x8D8B000A, 42.75469, 42.56911, 46.0025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

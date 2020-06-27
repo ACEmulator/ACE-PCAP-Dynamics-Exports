@@ -5,11 +5,11 @@ VALUES (0x7B6B7001,  1154, 0xB6B70019, 83.60422, 19.35868, 134.2407, -0.8502997,
 /* @teleloc 0xB6B70019 [83.604220 19.358680 134.240700] -0.850300 0.000000 0.000000 -0.526299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6B7001, 0x7B6B7002, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B6B7001, 0x7B6B7003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B6B7001, 0x7B6B7004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B6B7001, 0x7B6B7005, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B6B7001, 0x7B6B7006, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7B6B7001, 0x7B6B7002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B6B7001, 0x7B6B7003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B6B7001, 0x7B6B7004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B6B7001, 0x7B6B7005, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B6B7001, 0x7B6B7006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6B7002,  4112, 0xB6B70019, 83.60422, 19.35868, 134.2407, -0.8502997, 0, 0, -0.5262988,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */

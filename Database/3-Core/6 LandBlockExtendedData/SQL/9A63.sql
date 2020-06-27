@@ -5,13 +5,13 @@ VALUES (0x79A63001,  1154, 0x9A630026, 99.35599, 142.836, 12.8415, -0.9464089, 0
 /* @teleloc 0x9A630026 [99.355990 142.836000 12.841500] -0.946409 0.000000 0.000000 -0.322971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A63001, 0x79A63002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79A63001, 0x79A63003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A63001, 0x79A63004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x79A63001, 0x79A63005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A63001, 0x79A63006, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x79A63001, 0x79A63007, '2019-02-10 00:00:00') /* Undead */
-     , (0x79A63001, 0x79A63008, '2019-02-10 00:00:00') /* Shallow Rift */;
+VALUES (0x79A63001, 0x79A63002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79A63001, 0x79A63003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A63001, 0x79A63004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x79A63001, 0x79A63005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A63001, 0x79A63006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x79A63001, 0x79A63007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79A63001, 0x79A63008, '2019-02-10 00:00:00') /* Shallow Rift (10801) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A63002,  4266, 0x9A630026, 99.35599, 142.836, 12.8415, -0.9464089, 0, 0, -0.3229708,  True, '2019-02-10 00:00:00'); /* Old Bones */

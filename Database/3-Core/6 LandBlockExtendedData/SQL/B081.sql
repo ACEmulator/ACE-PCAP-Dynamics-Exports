@@ -5,12 +5,12 @@ VALUES (0x7B081001,  1154, 0xB0810023, 105.6902, 68.10737, 42.23806, 0.4939604, 
 /* @teleloc 0xB0810023 [105.690200 68.107370 42.238060] 0.493960 0.000000 0.000000 -0.869484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B081001, 0x7B081002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B081001, 0x7B081003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B081001, 0x7B081004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B081001, 0x7B081005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B081001, 0x7B081006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B081001, 0x7B081007, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7B081001, 0x7B081002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B081001, 0x7B081003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B081001, 0x7B081004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B081001, 0x7B081005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B081001, 0x7B081006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B081001, 0x7B081007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B081002,  8270, 0xB0810023, 105.6902, 68.10737, 42.23806, 0.4939604, 0, 0, -0.8694844,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

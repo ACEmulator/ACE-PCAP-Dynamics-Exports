@@ -5,53 +5,53 @@ VALUES (0x72EE7001,  1154, 0x2EE70040, 188.8597, 183.8726, 30.012, 0.9960161, 0,
 /* @teleloc 0x2EE70040 [188.859700 183.872600 30.012000] 0.996016 0.000000 0.000000 -0.089174 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE7001, 0x72EE7002, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x72EE7001, 0x72EE7003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x72EE7001, 0x72EE7004, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72EE7001, 0x72EE7005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72EE7001, 0x72EE7006, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72EE7001, 0x72EE7007, '2019-02-10 00:00:00') /* Eater */
-     , (0x72EE7001, 0x72EE7008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72EE7001, 0x72EE7009, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72EE7001, 0x72EE700A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72EE7001, 0x72EE700B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72EE7001, 0x72EE700C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72EE7001, 0x72EE700D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x72EE7001, 0x72EE700E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72EE7001, 0x72EE700F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72EE7001, 0x72EE7010, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72EE7001, 0x72EE7011, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72EE7001, 0x72EE7012, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72EE7001, 0x72EE7013, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72EE7001, 0x72EE7014, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x72EE7001, 0x72EE7015, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x72EE7001, 0x72EE7016, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72EE7001, 0x72EE7017, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72EE7001, 0x72EE7018, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72EE7001, 0x72EE7019, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72EE7001, 0x72EE701A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72EE7001, 0x72EE701B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72EE7001, 0x72EE701C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72EE7001, 0x72EE701D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72EE7001, 0x72EE701E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x72EE7001, 0x72EE701F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x72EE7001, 0x72EE7020, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72EE7001, 0x72EE7021, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72EE7001, 0x72EE7022, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72EE7001, 0x72EE7023, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72EE7001, 0x72EE7024, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72EE7001, 0x72EE7025, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72EE7001, 0x72EE7026, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72EE7001, 0x72EE7027, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72EE7001, 0x72EE7028, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72EE7001, 0x72EE7029, '2019-02-10 00:00:00') /* Eater */
-     , (0x72EE7001, 0x72EE702A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72EE7001, 0x72EE702B, '2019-02-10 00:00:00') /* Eater */
-     , (0x72EE7001, 0x72EE702C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72EE7001, 0x72EE702D, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x72EE7001, 0x72EE702E, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72EE7001, 0x72EE702F, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72EE7001, 0x72EE7030, '2019-02-10 00:00:00') /* Demented Fiun */;
+VALUES (0x72EE7001, 0x72EE7002, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x72EE7001, 0x72EE7003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x72EE7001, 0x72EE7004, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72EE7001, 0x72EE7005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72EE7001, 0x72EE7006, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72EE7001, 0x72EE7007, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72EE7001, 0x72EE7008, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72EE7001, 0x72EE7009, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72EE7001, 0x72EE700A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72EE7001, 0x72EE700B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72EE7001, 0x72EE700C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72EE7001, 0x72EE700D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x72EE7001, 0x72EE700E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72EE7001, 0x72EE700F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72EE7001, 0x72EE7010, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72EE7001, 0x72EE7011, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72EE7001, 0x72EE7012, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72EE7001, 0x72EE7013, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72EE7001, 0x72EE7014, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x72EE7001, 0x72EE7015, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x72EE7001, 0x72EE7016, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72EE7001, 0x72EE7017, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72EE7001, 0x72EE7018, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72EE7001, 0x72EE7019, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72EE7001, 0x72EE701A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72EE7001, 0x72EE701B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72EE7001, 0x72EE701C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72EE7001, 0x72EE701D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72EE7001, 0x72EE701E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x72EE7001, 0x72EE701F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x72EE7001, 0x72EE7020, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72EE7001, 0x72EE7021, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72EE7001, 0x72EE7022, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72EE7001, 0x72EE7023, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72EE7001, 0x72EE7024, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72EE7001, 0x72EE7025, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72EE7001, 0x72EE7026, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72EE7001, 0x72EE7027, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72EE7001, 0x72EE7028, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72EE7001, 0x72EE7029, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72EE7001, 0x72EE702A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72EE7001, 0x72EE702B, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72EE7001, 0x72EE702C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72EE7001, 0x72EE702D, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x72EE7001, 0x72EE702E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72EE7001, 0x72EE702F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72EE7001, 0x72EE7030, '2019-02-10 00:00:00') /* Demented Fiun (28650) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE7002, 28248, 0x2EE70040, 188.8597, 183.8726, 30.012, 0.9960161, 0, 0, -0.08917389,  True, '2019-02-10 00:00:00'); /* Black Phyntos Wasp */

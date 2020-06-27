@@ -5,19 +5,19 @@ VALUES (0x7C516001,  1154, 0xC5160021, 115.8276, 2.751503, -0.8870001, 0.654295,
 /* @teleloc 0xC5160021 [115.827600 2.751503 -0.887000] 0.654295 0.000000 0.000000 -0.756239 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C516001, 0x7C516002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C516001, 0x7C516003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C516001, 0x7C516004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7C516001, 0x7C516005, '2019-02-10 00:00:00') /* Flare */
-     , (0x7C516001, 0x7C516006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7C516001, 0x7C516007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C516001, 0x7C516008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C516001, 0x7C516009, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7C516001, 0x7C51600A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C516001, 0x7C51600B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C516001, 0x7C51600C, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C516001, 0x7C51600D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C516001, 0x7C51600E, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7C516001, 0x7C516002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C516001, 0x7C516003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C516001, 0x7C516004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7C516001, 0x7C516005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7C516001, 0x7C516006, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7C516001, 0x7C516007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C516001, 0x7C516008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C516001, 0x7C516009, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7C516001, 0x7C51600A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C516001, 0x7C51600B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C516001, 0x7C51600C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C516001, 0x7C51600D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C516001, 0x7C51600E, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C516002,  7183, 0xC5160021, 115.8276, 2.751503, -0.8870001, 0.654295, 0, 0, -0.7562394,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -76,12 +76,12 @@ VALUES (0x7C51600F,  1542, 0xC516000B, 24.52577, 67.27964, 1.431067, 0.4226182, 
 /* @teleloc 0xC516000B [24.525770 67.279640 1.431067] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C51600F, 0x7C516010, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7C51600F, 0x7C516011, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7C51600F, 0x7C516012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C51600F, 0x7C516013, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7C51600F, 0x7C516014, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7C51600F, 0x7C516015, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7C51600F, 0x7C516010, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7C51600F, 0x7C516011, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7C51600F, 0x7C516012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C51600F, 0x7C516013, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7C51600F, 0x7C516014, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7C51600F, 0x7C516015, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C516010,  9041, 0xC516000B, 24.52577, 67.27964, 1.431067, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Zairente's Frying Pan */

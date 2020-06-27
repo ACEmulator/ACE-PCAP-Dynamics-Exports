@@ -5,9 +5,9 @@ VALUES (0x7A3C9001,  1154, 0xA3C9000D, 25.74876, 96.68114, 91.80032, 0.6027775, 
 /* @teleloc 0xA3C9000D [25.748760 96.681140 91.800320] 0.602778 0.000000 0.000000 -0.797909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3C9001, 0x7A3C9002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7A3C9001, 0x7A3C9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3C9001, 0x7A3C9004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A3C9001, 0x7A3C9002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7A3C9001, 0x7A3C9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3C9001, 0x7A3C9004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3C9002, 28878, 0xA3C9000D, 25.74876, 96.68114, 91.80032, 0.6027775, 0, 0, -0.7979093,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -26,8 +26,8 @@ VALUES (0x7A3C9005,  1542, 0xA3C9000C, 25.32056, 93.28436, 82.54456, 1, 0, 0, 0,
 /* @teleloc 0xA3C9000C [25.320560 93.284360 82.544560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3C9005, 0x7A3C9006, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x7A3C9005, 0x7A3C9007, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A3C9005, 0x7A3C9006, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x7A3C9005, 0x7A3C9007, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3C9006, 22247, 0xA3C9000C, 25.32056, 93.28436, 82.54456, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Great Pumpkin */

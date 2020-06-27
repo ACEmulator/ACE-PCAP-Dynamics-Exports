@@ -5,10 +5,10 @@ VALUES (0x7C98A001,  1154, 0xC98A003F, 183.8288, 148.312, 4, -0.1620004, 0, 0, -
 /* @teleloc 0xC98A003F [183.828800 148.312000 4.000000] -0.162000 0.000000 0.000000 -0.986791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98A001, 0x7C98A002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C98A001, 0x7C98A003, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C98A001, 0x7C98A004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C98A001, 0x7C98A005, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C98A001, 0x7C98A002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C98A001, 0x7C98A003, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C98A001, 0x7C98A004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C98A001, 0x7C98A005, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98A002, 24937, 0xC98A003F, 183.8288, 148.312, 4, -0.1620004, 0, 0, -0.9867907,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -31,12 +31,12 @@ VALUES (0x7C98A006,  1542, 0xC98A002F, 132.4523, 165.9384, 4, 0.997008, 0, 0, 0.
 /* @teleloc 0xC98A002F [132.452300 165.938400 4.000000] 0.997008 0.000000 0.000000 0.077301 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C98A006, 0x7C98A007, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C98A006, 0x7C98A008, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C98A006, 0x7C98A009, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C98A006, 0x7C98A00A, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C98A006, 0x7C98A00B, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C98A006, 0x7C98A00C, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x7C98A006, 0x7C98A007, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C98A006, 0x7C98A008, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C98A006, 0x7C98A009, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C98A006, 0x7C98A00A, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C98A006, 0x7C98A00B, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C98A006, 0x7C98A00C, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C98A007,   263, 0xC98A002F, 132.4523, 165.9384, 4, 0.997008, 0, 0, 0.0773007,  True, '2019-02-10 00:00:00'); /* Fish */

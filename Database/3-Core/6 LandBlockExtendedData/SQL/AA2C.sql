@@ -5,15 +5,15 @@ VALUES (0x7AA2C001,  1154, 0xAA2C0028, 100.0631, 169.3486, 97.67426, 0.5715982, 
 /* @teleloc 0xAA2C0028 [100.063100 169.348600 97.674260] 0.571598 0.000000 0.000000 -0.820534 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA2C001, 0x7AA2C002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AA2C001, 0x7AA2C003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7AA2C001, 0x7AA2C004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7AA2C001, 0x7AA2C005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7AA2C001, 0x7AA2C006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AA2C001, 0x7AA2C007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AA2C001, 0x7AA2C008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AA2C001, 0x7AA2C009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7AA2C001, 0x7AA2C00A, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7AA2C001, 0x7AA2C002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AA2C001, 0x7AA2C003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7AA2C001, 0x7AA2C004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7AA2C001, 0x7AA2C005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7AA2C001, 0x7AA2C006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AA2C001, 0x7AA2C007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AA2C001, 0x7AA2C008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AA2C001, 0x7AA2C009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7AA2C001, 0x7AA2C00A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA2C002,   201, 0xAA2C0028, 100.0631, 169.3486, 97.67426, 0.5715982, 0, 0, -0.8205337,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

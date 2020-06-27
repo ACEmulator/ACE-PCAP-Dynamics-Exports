@@ -5,13 +5,13 @@ VALUES (0x7BAC6001,  1154, 0xBAC60003, 13.86417, 52.44675, 294.9715, 0.7071068, 
 /* @teleloc 0xBAC60003 [13.864170 52.446750 294.971500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAC6001, 0x7BAC6002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BAC6001, 0x7BAC6003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BAC6001, 0x7BAC6004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BAC6001, 0x7BAC6005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7BAC6001, 0x7BAC6006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BAC6001, 0x7BAC6007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BAC6001, 0x7BAC6008, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7BAC6001, 0x7BAC6002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BAC6001, 0x7BAC6003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BAC6001, 0x7BAC6004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BAC6001, 0x7BAC6005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7BAC6001, 0x7BAC6006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BAC6001, 0x7BAC6007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BAC6001, 0x7BAC6008, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAC6002,   937, 0xBAC60003, 13.86417, 52.44675, 294.9715, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -46,9 +46,9 @@ VALUES (0x7BAC6009,  1542, 0xBAC60015, 60.4578, 106.854, 382.7099, 0.440387, 0, 
 /* @teleloc 0xBAC60015 [60.457800 106.854000 382.709900] 0.440387 0.000000 0.000000 0.897808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAC6009, 0x7BAC600A, '2019-02-10 00:00:00') /* Martine's Robe */
-     , (0x7BAC6009, 0x7BAC600B, '2019-02-10 00:00:00') /* Martine's Mask */
-     , (0x7BAC6009, 0x7BAC600C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BAC6009, 0x7BAC600A, '2019-02-10 00:00:00') /* Martine's Robe (21376) */
+     , (0x7BAC6009, 0x7BAC600B, '2019-02-10 00:00:00') /* Martine's Mask (21373) */
+     , (0x7BAC6009, 0x7BAC600C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAC600A, 21376, 0xBAC60015, 60.4578, 106.854, 382.7099, 0.440387, 0, 0, 0.897808,  True, '2019-02-10 00:00:00'); /* Martine's Robe */

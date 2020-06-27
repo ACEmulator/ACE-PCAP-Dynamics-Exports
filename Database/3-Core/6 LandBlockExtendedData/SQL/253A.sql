@@ -5,18 +5,18 @@ VALUES (0x7253A001,  1154, 0x253A0039, 171.529, 6.681436, -0.4475, 0.9961947, 0,
 /* @teleloc 0x253A0039 [171.529000 6.681436 -0.447500] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7253A001, 0x7253A002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7253A001, 0x7253A003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7253A001, 0x7253A004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7253A001, 0x7253A005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7253A001, 0x7253A006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7253A001, 0x7253A007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7253A001, 0x7253A008, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7253A001, 0x7253A009, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7253A001, 0x7253A00A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7253A001, 0x7253A00B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7253A001, 0x7253A00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7253A001, 0x7253A00D, '2019-02-10 00:00:00') /* Gotrok Titan */;
+VALUES (0x7253A001, 0x7253A002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7253A001, 0x7253A003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7253A001, 0x7253A004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7253A001, 0x7253A005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7253A001, 0x7253A006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7253A001, 0x7253A007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7253A001, 0x7253A008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7253A001, 0x7253A009, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7253A001, 0x7253A00A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7253A001, 0x7253A00B, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7253A001, 0x7253A00C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7253A001, 0x7253A00D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7253A002, 23555, 0x253A0039, 171.529, 6.681436, -0.4475, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */
@@ -71,7 +71,7 @@ VALUES (0x7253A00E,  1542, 0x253A0039, 191.093, 2.100342, -0.09999999, 1, 0, 0, 
 /* @teleloc 0x253A0039 [191.093000 2.100342 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7253A00E, 0x7253A00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7253A00E, 0x7253A00F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7253A00F, 22566, 0x253A0039, 191.093, 2.100342, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

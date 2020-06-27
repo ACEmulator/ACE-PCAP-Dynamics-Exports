@@ -5,11 +5,11 @@ VALUES (0x76AAC001,  1154, 0x6AAC001D, 84.84262, 110.1911, 97.75434, 0.4625186, 
 /* @teleloc 0x6AAC001D [84.842620 110.191100 97.754340] 0.462519 0.000000 0.000000 -0.886610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76AAC001, 0x76AAC002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x76AAC001, 0x76AAC003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76AAC001, 0x76AAC004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76AAC001, 0x76AAC005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76AAC001, 0x76AAC006, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x76AAC001, 0x76AAC002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x76AAC001, 0x76AAC003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76AAC001, 0x76AAC004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76AAC001, 0x76AAC005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76AAC001, 0x76AAC006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76AAC002,  7085, 0x6AAC001D, 84.84262, 110.1911, 97.75434, 0.4625186, 0, 0, -0.8866096,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -36,8 +36,8 @@ VALUES (0x76AAC007,  1542, 0x6AAC0010, 25.74958, 182.0708, 119.4254, 1, 0, 0, 0,
 /* @teleloc 0x6AAC0010 [25.749580 182.070800 119.425400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76AAC007, 0x76AAC008, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x76AAC007, 0x76AAC009, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x76AAC007, 0x76AAC008, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x76AAC007, 0x76AAC009, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76AAC008, 22567, 0x6AAC0010, 25.74958, 182.0708, 119.4254, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x79025001,  1154, 0x90250024, 101.3239, 75.36686, 48.91478, 0.8682167, 
 /* @teleloc 0x90250024 [101.323900 75.366860 48.914780] 0.868217 0.000000 0.000000 -0.496185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79025001, 0x79025002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79025001, 0x79025003, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79025001, 0x79025004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79025001, 0x79025005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79025001, 0x79025006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x79025001, 0x79025007, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x79025001, 0x79025002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79025001, 0x79025003, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79025001, 0x79025004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79025001, 0x79025005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79025001, 0x79025006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x79025001, 0x79025007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79025002,  4217, 0x90250024, 101.3239, 75.36686, 48.91478, 0.8682167, 0, 0, -0.4961852,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -41,7 +41,7 @@ VALUES (0x79025008,  1542, 0x90250024, 96.88156, 90.72684, 55.43824, 0.9990482, 
 /* @teleloc 0x90250024 [96.881560 90.726840 55.438240] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79025008, 0x79025009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79025008, 0x79025009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79025009,  4179, 0x90250024, 96.88156, 90.72684, 55.43824, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,10 +5,10 @@ VALUES (0x7A2E6001,  1154, 0xA2E60020, 90.0092, 169.7733, 82.99847, 0.7665473, 0
 /* @teleloc 0xA2E60020 [90.009200 169.773300 82.998470] 0.766547 0.000000 0.000000 -0.642188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E6001, 0x7A2E6002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A2E6001, 0x7A2E6003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A2E6001, 0x7A2E6004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A2E6001, 0x7A2E6005, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7A2E6001, 0x7A2E6002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A2E6001, 0x7A2E6003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A2E6001, 0x7A2E6004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A2E6001, 0x7A2E6005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E6002,   212, 0xA2E60020, 90.0092, 169.7733, 82.99847, 0.7665473, 0, 0, -0.642188,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */

@@ -5,36 +5,36 @@ VALUES (0x7F55E001,  1154, 0xF55E0027, 112.4446, 152.4126, 1.301448, 0.382631, 0
 /* @teleloc 0xF55E0027 [112.444600 152.412600 1.301448] 0.382631 0.000000 0.000000 -0.923901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F55E001, 0x7F55E002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F55E001, 0x7F55E003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F55E001, 0x7F55E004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F55E001, 0x7F55E005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F55E001, 0x7F55E006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F55E001, 0x7F55E007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7F55E001, 0x7F55E008, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F55E001, 0x7F55E009, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F55E001, 0x7F55E00A, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F55E001, 0x7F55E00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F55E001, 0x7F55E00C, '2019-02-10 00:00:00') /* Idol */
-     , (0x7F55E001, 0x7F55E00D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F55E001, 0x7F55E00E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F55E001, 0x7F55E00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F55E001, 0x7F55E010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F55E001, 0x7F55E011, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F55E001, 0x7F55E012, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F55E001, 0x7F55E013, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7F55E001, 0x7F55E014, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F55E001, 0x7F55E015, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F55E001, 0x7F55E016, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F55E001, 0x7F55E017, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F55E001, 0x7F55E018, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F55E001, 0x7F55E019, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F55E001, 0x7F55E01A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F55E001, 0x7F55E01B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F55E001, 0x7F55E01C, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F55E001, 0x7F55E01D, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F55E001, 0x7F55E01E, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F55E001, 0x7F55E01F, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7F55E001, 0x7F55E002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F55E001, 0x7F55E003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F55E001, 0x7F55E004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F55E001, 0x7F55E005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F55E001, 0x7F55E006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F55E001, 0x7F55E007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7F55E001, 0x7F55E008, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F55E001, 0x7F55E009, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F55E001, 0x7F55E00A, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F55E001, 0x7F55E00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F55E001, 0x7F55E00C, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7F55E001, 0x7F55E00D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F55E001, 0x7F55E00E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F55E001, 0x7F55E00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F55E001, 0x7F55E010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F55E001, 0x7F55E011, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F55E001, 0x7F55E012, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F55E001, 0x7F55E013, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7F55E001, 0x7F55E014, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F55E001, 0x7F55E015, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F55E001, 0x7F55E016, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F55E001, 0x7F55E017, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F55E001, 0x7F55E018, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F55E001, 0x7F55E019, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F55E001, 0x7F55E01A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F55E001, 0x7F55E01B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F55E001, 0x7F55E01C, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F55E001, 0x7F55E01D, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F55E001, 0x7F55E01E, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F55E001, 0x7F55E01F, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F55E002,  1762, 0xF55E0027, 112.4446, 152.4126, 1.301448, 0.382631, 0, 0, -0.9239013,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -161,8 +161,8 @@ VALUES (0x7F55E020,  1542, 0xF55E0006, 23.11321, 130.3759, -0.1, 1, 0, 0, 0, Fal
 /* @teleloc 0xF55E0006 [23.113210 130.375900 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F55E020, 0x7F55E021, '2019-02-10 00:00:00') /* Idol */
-     , (0x7F55E020, 0x7F55E022, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F55E020, 0x7F55E021, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7F55E020, 0x7F55E022, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F55E021,  8588, 0xF55E0006, 23.11321, 130.3759, -0.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

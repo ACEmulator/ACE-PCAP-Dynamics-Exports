@@ -5,10 +5,10 @@ VALUES (0x79DD0001,  1154, 0x9DD00039, 168.9781, 23.14033, 246.5499, 0.7071068, 
 /* @teleloc 0x9DD00039 [168.978100 23.140330 246.549900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DD0001, 0x79DD0002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79DD0001, 0x79DD0003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79DD0001, 0x79DD0004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79DD0001, 0x79DD0005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x79DD0001, 0x79DD0002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79DD0001, 0x79DD0003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79DD0001, 0x79DD0004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79DD0001, 0x79DD0005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DD0002,    23, 0x9DD00039, 168.9781, 23.14033, 246.5499, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

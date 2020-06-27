@@ -5,28 +5,28 @@ VALUES (0x70E5C001,  1154, 0x0E5C0001, 4.75528, 8.168078, 4.66659, 0.7372774, 0,
 /* @teleloc 0x0E5C0001 [4.755280 8.168078 4.666590] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5C001, 0x70E5C002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E5C001, 0x70E5C003, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70E5C001, 0x70E5C004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70E5C001, 0x70E5C005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E5C001, 0x70E5C006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70E5C001, 0x70E5C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70E5C001, 0x70E5C008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70E5C001, 0x70E5C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70E5C001, 0x70E5C00A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70E5C001, 0x70E5C00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70E5C001, 0x70E5C00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70E5C001, 0x70E5C00D, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70E5C001, 0x70E5C00E, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70E5C001, 0x70E5C00F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70E5C001, 0x70E5C010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5C001, 0x70E5C011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70E5C001, 0x70E5C012, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E5C001, 0x70E5C013, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70E5C001, 0x70E5C014, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E5C001, 0x70E5C015, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70E5C001, 0x70E5C016, '2019-02-10 00:00:00') /* Miasma */
-     , (0x70E5C001, 0x70E5C017, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x70E5C001, 0x70E5C002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E5C001, 0x70E5C003, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70E5C001, 0x70E5C004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70E5C001, 0x70E5C005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E5C001, 0x70E5C006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70E5C001, 0x70E5C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70E5C001, 0x70E5C008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70E5C001, 0x70E5C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70E5C001, 0x70E5C00A, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70E5C001, 0x70E5C00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70E5C001, 0x70E5C00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70E5C001, 0x70E5C00D, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70E5C001, 0x70E5C00E, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70E5C001, 0x70E5C00F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70E5C001, 0x70E5C010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5C001, 0x70E5C011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70E5C001, 0x70E5C012, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E5C001, 0x70E5C013, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70E5C001, 0x70E5C014, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E5C001, 0x70E5C015, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70E5C001, 0x70E5C016, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x70E5C001, 0x70E5C017, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5C002, 36821, 0x0E5C0001, 4.75528, 8.168078, 4.66659, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -121,10 +121,10 @@ VALUES (0x70E5C018,  1542, 0x0E5C0003, 19.31914, 50.46612, 18.55751, -4.371139E-
 /* @teleloc 0x0E5C0003 [19.319140 50.466120 18.557510] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E5C018, 0x70E5C019, '2019-02-10 00:00:00') /* Bones */
-     , (0x70E5C018, 0x70E5C01A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x70E5C018, 0x70E5C01B, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x70E5C018, 0x70E5C01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70E5C018, 0x70E5C019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70E5C018, 0x70E5C01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x70E5C018, 0x70E5C01B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x70E5C018, 0x70E5C01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E5C019,  4380, 0x0E5C0003, 19.31914, 50.46612, 18.55751, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

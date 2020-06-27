@@ -5,18 +5,18 @@ VALUES (0x73C13001,  1154, 0x3C130038, 144.4223, 191.9988, 23.6502, -0.5354952, 
 /* @teleloc 0x3C130038 [144.422300 191.998800 23.650200] -0.535495 0.000000 0.000000 -0.844538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C13001, 0x73C13002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73C13001, 0x73C13003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73C13001, 0x73C13004, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73C13001, 0x73C13005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73C13001, 0x73C13006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73C13001, 0x73C13007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C13001, 0x73C13008, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C13001, 0x73C13009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73C13001, 0x73C1300A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C13001, 0x73C1300B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C13001, 0x73C1300C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C13001, 0x73C1300D, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x73C13001, 0x73C13002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73C13001, 0x73C13003, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73C13001, 0x73C13004, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73C13001, 0x73C13005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73C13001, 0x73C13006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73C13001, 0x73C13007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C13001, 0x73C13008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C13001, 0x73C13009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73C13001, 0x73C1300A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C13001, 0x73C1300B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C13001, 0x73C1300C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C13001, 0x73C1300D, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C13002, 33309, 0x3C130038, 144.4223, 191.9988, 23.6502, -0.5354952, 0, 0, -0.8445383,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

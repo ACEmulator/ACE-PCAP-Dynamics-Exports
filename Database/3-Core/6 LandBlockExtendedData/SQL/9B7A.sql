@@ -5,13 +5,13 @@ VALUES (0x79B7A001,  1154, 0x9B7A0003, 9.159782, 64.77328, 20.01, 0.9322374, 0, 
 /* @teleloc 0x9B7A0003 [9.159782 64.773280 20.010000] 0.932237 0.000000 0.000000 -0.361847 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B7A001, 0x79B7A002, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79B7A001, 0x79B7A003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x79B7A001, 0x79B7A004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7A001, 0x79B7A005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7A001, 0x79B7A006, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79B7A001, 0x79B7A007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79B7A001, 0x79B7A008, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x79B7A001, 0x79B7A002, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79B7A001, 0x79B7A003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x79B7A001, 0x79B7A004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7A001, 0x79B7A005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7A001, 0x79B7A006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79B7A001, 0x79B7A007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79B7A001, 0x79B7A008, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B7A002,   198, 0x9B7A0003, 9.159782, 64.77328, 20.01, 0.9322374, 0, 0, -0.3618471,  True, '2019-02-10 00:00:00'); /* Limestone Golem */

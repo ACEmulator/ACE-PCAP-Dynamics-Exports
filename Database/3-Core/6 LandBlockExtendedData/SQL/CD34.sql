@@ -5,17 +5,17 @@ VALUES (0x7CD34001,  1154, 0xCD34003C, 170.8494, 79.245, 252.8429, 0.7071068, 0,
 /* @teleloc 0xCD34003C [170.849400 79.245000 252.842900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD34001, 0x7CD34002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CD34001, 0x7CD34003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD34001, 0x7CD34004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CD34001, 0x7CD34005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7CD34001, 0x7CD34006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CD34001, 0x7CD34007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CD34001, 0x7CD34008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CD34001, 0x7CD34009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CD34001, 0x7CD3400A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CD34001, 0x7CD3400B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CD34001, 0x7CD3400C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */;
+VALUES (0x7CD34001, 0x7CD34002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CD34001, 0x7CD34003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD34001, 0x7CD34004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7CD34001, 0x7CD34005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7CD34001, 0x7CD34006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CD34001, 0x7CD34007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CD34001, 0x7CD34008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CD34001, 0x7CD34009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CD34001, 0x7CD3400A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CD34001, 0x7CD3400B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CD34001, 0x7CD3400C, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD34002,  4253, 0xCD34003C, 170.8494, 79.245, 252.8429, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

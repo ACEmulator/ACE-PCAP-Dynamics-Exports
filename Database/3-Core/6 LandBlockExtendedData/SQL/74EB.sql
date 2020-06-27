@@ -5,24 +5,24 @@ VALUES (0x774EB001,  1154, 0x74EB0004, 0.3748752, 86.05647, 150.2309, -0.9199844
 /* @teleloc 0x74EB0004 [0.374875 86.056470 150.230900] -0.919984 0.000000 0.000000 -0.391955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774EB001, 0x774EB002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x774EB001, 0x774EB003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x774EB001, 0x774EB004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774EB001, 0x774EB005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x774EB001, 0x774EB006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774EB001, 0x774EB007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x774EB001, 0x774EB008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x774EB001, 0x774EB009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x774EB001, 0x774EB00A, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x774EB001, 0x774EB00B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x774EB001, 0x774EB00C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774EB001, 0x774EB00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774EB001, 0x774EB00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x774EB001, 0x774EB00F, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x774EB001, 0x774EB010, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x774EB001, 0x774EB011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x774EB001, 0x774EB012, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x774EB001, 0x774EB013, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x774EB001, 0x774EB002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x774EB001, 0x774EB003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x774EB001, 0x774EB004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774EB001, 0x774EB005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x774EB001, 0x774EB006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774EB001, 0x774EB007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x774EB001, 0x774EB008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x774EB001, 0x774EB009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x774EB001, 0x774EB00A, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x774EB001, 0x774EB00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x774EB001, 0x774EB00C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774EB001, 0x774EB00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774EB001, 0x774EB00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x774EB001, 0x774EB00F, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x774EB001, 0x774EB010, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x774EB001, 0x774EB011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x774EB001, 0x774EB012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x774EB001, 0x774EB013, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774EB002, 23616, 0x74EB0004, 0.3748752, 86.05647, 150.2309, -0.9199844, 0, 0, -0.391955,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

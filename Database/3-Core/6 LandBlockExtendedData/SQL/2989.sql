@@ -5,17 +5,17 @@ VALUES (0x72989001,  1154, 0x29890019, 77.2325, 7.13428, 114.0075, -0.548654, 0,
 /* @teleloc 0x29890019 [77.232500 7.134280 114.007500] -0.548654 0.000000 0.000000 -0.836050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72989001, 0x72989002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72989001, 0x72989003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72989001, 0x72989004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72989001, 0x72989005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72989001, 0x72989006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x72989001, 0x72989007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72989001, 0x72989008, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72989001, 0x72989009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72989001, 0x7298900A, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72989001, 0x7298900B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x72989001, 0x7298900C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x72989001, 0x72989002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72989001, 0x72989003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72989001, 0x72989004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72989001, 0x72989005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72989001, 0x72989006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x72989001, 0x72989007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72989001, 0x72989008, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72989001, 0x72989009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72989001, 0x7298900A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72989001, 0x7298900B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x72989001, 0x7298900C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72989002, 41533, 0x29890019, 77.2325, 7.13428, 114.0075, -0.548654, 0, 0, -0.8360495,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
@@ -66,7 +66,7 @@ VALUES (0x7298900D,  1542, 0x29890034, 162.7655, 74.14745, 103.7381, -0.08646186
 /* @teleloc 0x29890034 [162.765500 74.147450 103.738100] -0.086462 0.000000 0.000000 -0.996255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298900D, 0x7298900E, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7298900D, 0x7298900E, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298900E, 11554, 0x29890034, 162.7655, 74.14745, 103.7381, -0.08646186, 0, 0, -0.9962552,  True, '2019-02-10 00:00:00'); /* Colban Plant */

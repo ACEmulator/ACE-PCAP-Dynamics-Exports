@@ -5,23 +5,23 @@ VALUES (0x7BC1B001,  1154, 0xBC1B0023, 106.486, 59.76475, 134.3667, 0.9846571, 0
 /* @teleloc 0xBC1B0023 [106.486000 59.764750 134.366700] 0.984657 0.000000 0.000000 -0.174500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1B001, 0x7BC1B002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BC1B001, 0x7BC1B003, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BC1B001, 0x7BC1B004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1B001, 0x7BC1B005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BC1B001, 0x7BC1B006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BC1B001, 0x7BC1B007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BC1B001, 0x7BC1B008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BC1B001, 0x7BC1B009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BC1B001, 0x7BC1B00A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BC1B001, 0x7BC1B00B, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BC1B001, 0x7BC1B00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC1B001, 0x7BC1B00D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BC1B001, 0x7BC1B00E, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BC1B001, 0x7BC1B00F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BC1B001, 0x7BC1B010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BC1B001, 0x7BC1B011, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BC1B001, 0x7BC1B012, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7BC1B001, 0x7BC1B002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BC1B001, 0x7BC1B003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BC1B001, 0x7BC1B004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1B001, 0x7BC1B005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BC1B001, 0x7BC1B006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BC1B001, 0x7BC1B007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BC1B001, 0x7BC1B008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BC1B001, 0x7BC1B009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BC1B001, 0x7BC1B00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BC1B001, 0x7BC1B00B, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BC1B001, 0x7BC1B00C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC1B001, 0x7BC1B00D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BC1B001, 0x7BC1B00E, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BC1B001, 0x7BC1B00F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BC1B001, 0x7BC1B010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BC1B001, 0x7BC1B011, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BC1B001, 0x7BC1B012, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1B002, 14518, 0xBC1B0023, 106.486, 59.76475, 134.3667, 0.9846571, 0, 0, -0.1745004,  True, '2019-02-10 00:00:00'); /* Shivver */
@@ -96,8 +96,8 @@ VALUES (0x7BC1B013,  1542, 0xBC1B0037, 159.2043, 164.7259, 16.71785, 1, 0, 0, 0,
 /* @teleloc 0xBC1B0037 [159.204300 164.725900 16.717850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC1B013, 0x7BC1B014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BC1B013, 0x7BC1B015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BC1B013, 0x7BC1B014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BC1B013, 0x7BC1B015, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC1B014,  4179, 0xBC1B0037, 159.2043, 164.7259, 16.71785, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,41 +5,41 @@ VALUES (0x7A4A4001,  1154, 0xA4A4000B, 33.97828, 49.17743, 98.83779, 0.170916, 0
 /* @teleloc 0xA4A4000B [33.978280 49.177430 98.837790] 0.170916 0.000000 0.000000 0.985286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4A4001, 0x7A4A4002, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4003, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A4004, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4005, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4006, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7A4A4001, 0x7A4A4007, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A4008, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A400A, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A400B, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A400C, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A400D, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A400E, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A400F, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4010, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A4011, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4012, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A4013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7A4A4001, 0x7A4A4014, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A4015, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A4016, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A4A4001, 0x7A4A4017, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A4A4001, 0x7A4A4018, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A4019, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A401A, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A401B, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A401C, '2019-02-10 00:00:00') /* Eater */
-     , (0x7A4A4001, 0x7A4A401D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A4001, 0x7A4A401E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A4A4001, 0x7A4A401F, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7A4A4001, 0x7A4A4020, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A4021, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A4A4001, 0x7A4A4022, '2019-02-10 00:00:00') /* Famished Eater */
-     , (0x7A4A4001, 0x7A4A4023, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7A4A4001, 0x7A4A4024, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x7A4A4001, 0x7A4A4002, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4003, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A4004, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4005, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4006, '2019-02-10 00:00:00') /* Engorged Eater (32314) */
+     , (0x7A4A4001, 0x7A4A4007, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A4008, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4009, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A400A, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A400B, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A400C, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A400D, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A400E, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A400F, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4010, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A4011, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4012, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A4013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7A4A4001, 0x7A4A4014, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A4015, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A4016, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A4A4001, 0x7A4A4017, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A4A4001, 0x7A4A4018, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A4019, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A401A, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A401B, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A401C, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A4A4001, 0x7A4A401D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A4001, 0x7A4A401E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A4A4001, 0x7A4A401F, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7A4A4001, 0x7A4A4020, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A4021, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A4A4001, 0x7A4A4022, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A4A4001, 0x7A4A4023, '2019-02-10 00:00:00') /* Viamontian Mercenary (32329) */
+     , (0x7A4A4001, 0x7A4A4024, '2019-02-10 00:00:00') /* Viamontian Mage (32324) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4A4002, 32329, 0xA4A4000B, 33.97828, 49.17743, 98.83779, 0.170916, 0, 0, 0.985286,  True, '2019-02-10 00:00:00'); /* Viamontian Mercenary */

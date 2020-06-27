@@ -5,25 +5,25 @@ VALUES (0x756BB001,  1154, 0x56BB0020, 78.62047, 176.3793, 2.552206, -0.1838167,
 /* @teleloc 0x56BB0020 [78.620470 176.379300 2.552206] -0.183817 0.000000 0.000000 -0.982961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756BB001, 0x756BB002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x756BB001, 0x756BB003, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x756BB001, 0x756BB004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x756BB001, 0x756BB005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x756BB001, 0x756BB006, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x756BB001, 0x756BB007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x756BB001, 0x756BB008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x756BB001, 0x756BB009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x756BB001, 0x756BB00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x756BB001, 0x756BB00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x756BB001, 0x756BB00C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x756BB001, 0x756BB00D, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x756BB001, 0x756BB00E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x756BB001, 0x756BB00F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x756BB001, 0x756BB010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x756BB001, 0x756BB011, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x756BB001, 0x756BB012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x756BB001, 0x756BB013, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x756BB001, 0x756BB014, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x756BB001, 0x756BB002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x756BB001, 0x756BB003, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x756BB001, 0x756BB004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x756BB001, 0x756BB005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x756BB001, 0x756BB006, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x756BB001, 0x756BB007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x756BB001, 0x756BB008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x756BB001, 0x756BB009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x756BB001, 0x756BB00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x756BB001, 0x756BB00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x756BB001, 0x756BB00C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x756BB001, 0x756BB00D, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x756BB001, 0x756BB00E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x756BB001, 0x756BB00F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x756BB001, 0x756BB010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x756BB001, 0x756BB011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x756BB001, 0x756BB012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x756BB001, 0x756BB013, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x756BB001, 0x756BB014, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756BB002,  7987, 0x56BB0020, 78.62047, 176.3793, 2.552206, -0.1838167, 0, 0, -0.9829605,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -106,7 +106,7 @@ VALUES (0x756BB015,  1542, 0x56BB000D, 39.96671, 109.278, 2, 0.9990482, 0, 0, -0
 /* @teleloc 0x56BB000D [39.966710 109.278000 2.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756BB015, 0x756BB016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x756BB015, 0x756BB016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756BB016,  4179, 0x56BB000D, 39.96671, 109.278, 2, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

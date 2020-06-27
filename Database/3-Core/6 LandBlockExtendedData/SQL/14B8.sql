@@ -5,11 +5,11 @@ VALUES (0x714B8001,  1154, 0x14B80011, 52.88177, 18.406, 18.65653, 0.7210388, 0,
 /* @teleloc 0x14B80011 [52.881770 18.406000 18.656530] 0.721039 0.000000 0.000000 -0.692895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B8001, 0x714B8002, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x714B8001, 0x714B8003, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x714B8001, 0x714B8004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x714B8001, 0x714B8005, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x714B8001, 0x714B8006, '2019-02-10 00:00:00') /* Kithless Siraluun */;
+VALUES (0x714B8001, 0x714B8002, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x714B8001, 0x714B8003, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x714B8001, 0x714B8004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x714B8001, 0x714B8005, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x714B8001, 0x714B8006, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B8002, 11503, 0x14B80011, 52.88177, 18.406, 18.65653, 0.7210388, 0, 0, -0.6928947,  True, '2019-02-10 00:00:00'); /* Highwayman */
@@ -36,8 +36,8 @@ VALUES (0x714B8007,  1542, 0x14B80009, 46.98603, 23.17582, 18.65653, 1, 0, 0, 0,
 /* @teleloc 0x14B80009 [46.986030 23.175820 18.656530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B8007, 0x714B8008, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x714B8007, 0x714B8009, '2019-02-10 00:00:00') /* Cooking Gear */;
+VALUES (0x714B8007, 0x714B8008, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x714B8007, 0x714B8009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B8008,  4179, 0x14B80009, 46.98603, 23.17582, 18.65653, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

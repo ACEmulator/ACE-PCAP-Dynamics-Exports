@@ -5,19 +5,19 @@ VALUES (0x7C27D001,  1154, 0xC27D0016, 55.36806, 136.6038, 45.84536, 0.5927969, 
 /* @teleloc 0xC27D0016 [55.368060 136.603800 45.845360] 0.592797 0.000000 0.000000 -0.805352 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C27D001, 0x7C27D002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C27D001, 0x7C27D003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C27D001, 0x7C27D004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C27D001, 0x7C27D005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C27D001, 0x7C27D006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C27D001, 0x7C27D007, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C27D001, 0x7C27D008, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C27D001, 0x7C27D009, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C27D001, 0x7C27D00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C27D001, 0x7C27D00B, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C27D001, 0x7C27D00C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7C27D001, 0x7C27D00D, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C27D001, 0x7C27D00E, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C27D001, 0x7C27D002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C27D001, 0x7C27D003, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C27D001, 0x7C27D004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C27D001, 0x7C27D005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C27D001, 0x7C27D006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C27D001, 0x7C27D007, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C27D001, 0x7C27D008, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C27D001, 0x7C27D009, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C27D001, 0x7C27D00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C27D001, 0x7C27D00B, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C27D001, 0x7C27D00C, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7C27D001, 0x7C27D00D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C27D001, 0x7C27D00E, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C27D002,   223, 0xC27D0016, 55.36806, 136.6038, 45.84536, 0.5927969, 0, 0, -0.805352,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -76,8 +76,8 @@ VALUES (0x7C27D00F,  1542, 0xC27D0035, 157.8749, 108.1468, 44.86823, -0.2662884,
 /* @teleloc 0xC27D0035 [157.874900 108.146800 44.868230] -0.266288 0.000000 0.000000 -0.963893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C27D00F, 0x7C27D010, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7C27D00F, 0x7C27D011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C27D00F, 0x7C27D010, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7C27D00F, 0x7C27D011, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C27D010,  8646, 0xC27D0035, 157.8749, 108.1468, 44.86823, -0.2662884, 0, 0, -0.9638934,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

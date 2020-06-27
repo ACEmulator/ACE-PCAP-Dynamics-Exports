@@ -5,17 +5,17 @@ VALUES (0x7C84F001,  1154, 0xC84F0003, 1.016668, 50.67704, 25.78991, -0.7603136,
 /* @teleloc 0xC84F0003 [1.016668 50.677040 25.789910] -0.760314 0.000000 0.000000 -0.649556 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C84F001, 0x7C84F002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C84F001, 0x7C84F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C84F001, 0x7C84F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C84F001, 0x7C84F005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C84F001, 0x7C84F006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C84F001, 0x7C84F007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C84F001, 0x7C84F008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7C84F001, 0x7C84F009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C84F001, 0x7C84F00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C84F001, 0x7C84F00B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C84F001, 0x7C84F00C, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C84F001, 0x7C84F002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C84F001, 0x7C84F003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C84F001, 0x7C84F004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C84F001, 0x7C84F005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C84F001, 0x7C84F006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C84F001, 0x7C84F007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C84F001, 0x7C84F008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7C84F001, 0x7C84F009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C84F001, 0x7C84F00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C84F001, 0x7C84F00B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C84F001, 0x7C84F00C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C84F002,   217, 0xC84F0003, 1.016668, 50.67704, 25.78991, -0.7603136, 0, 0, -0.6495562,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -66,7 +66,7 @@ VALUES (0x7C84F00D,  1542, 0xC84F0017, 54.95648, 167.471, 27.27777, -0.6194498, 
 /* @teleloc 0xC84F0017 [54.956480 167.471000 27.277770] -0.619450 0.000000 0.000000 -0.785036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C84F00D, 0x7C84F00E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C84F00D, 0x7C84F00E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C84F00E,  8037, 0xC84F0017, 54.95648, 167.471, 27.27777, -0.6194498, 0, 0, -0.7850363,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

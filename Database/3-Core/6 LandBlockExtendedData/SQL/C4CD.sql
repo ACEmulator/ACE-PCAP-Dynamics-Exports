@@ -5,25 +5,25 @@ VALUES (0x7C4CD001,  1154, 0xC4CD000B, 34.65258, 65.71063, 169.4798, 0.7853293, 
 /* @teleloc 0xC4CD000B [34.652580 65.710630 169.479800] 0.785329 0.000000 0.000000 -0.619078 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4CD001, 0x7C4CD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C4CD001, 0x7C4CD003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C4CD001, 0x7C4CD004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7C4CD001, 0x7C4CD006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7C4CD001, 0x7C4CD007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD008, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7C4CD001, 0x7C4CD009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C4CD001, 0x7C4CD00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C4CD001, 0x7C4CD00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C4CD001, 0x7C4CD00C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD00D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C4CD001, 0x7C4CD00E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7C4CD001, 0x7C4CD00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C4CD001, 0x7C4CD012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C4CD001, 0x7C4CD013, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C4CD001, 0x7C4CD014, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7C4CD001, 0x7C4CD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C4CD001, 0x7C4CD003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C4CD001, 0x7C4CD004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7C4CD001, 0x7C4CD006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7C4CD001, 0x7C4CD007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD008, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7C4CD001, 0x7C4CD009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C4CD001, 0x7C4CD00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C4CD001, 0x7C4CD00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C4CD001, 0x7C4CD00C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C4CD001, 0x7C4CD00E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7C4CD001, 0x7C4CD00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C4CD001, 0x7C4CD012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C4CD001, 0x7C4CD013, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C4CD001, 0x7C4CD014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4CD002, 11478, 0xC4CD000B, 34.65258, 65.71063, 169.4798, 0.7853293, 0, 0, -0.6190783,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -106,7 +106,7 @@ VALUES (0x7C4CD015,  1542, 0xC4CD0025, 115.1007, 99.12384, 130.8499, 1, 0, 0, 0,
 /* @teleloc 0xC4CD0025 [115.100700 99.123840 130.849900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4CD015, 0x7C4CD016, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C4CD015, 0x7C4CD016, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4CD016, 31445, 0xC4CD0025, 115.1007, 99.12384, 130.8499, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

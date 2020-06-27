@@ -5,15 +5,15 @@ VALUES (0x72EE1001,  1154, 0x2EE10020, 94.19585, 187.0048, 20.0025, -0.7010351, 
 /* @teleloc 0x2EE10020 [94.195850 187.004800 20.002500] -0.701035 0.000000 0.000000 -0.713127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE1001, 0x72EE1002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72EE1001, 0x72EE1003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72EE1001, 0x72EE1004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x72EE1001, 0x72EE1005, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x72EE1001, 0x72EE1006, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72EE1001, 0x72EE1007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x72EE1001, 0x72EE1008, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x72EE1001, 0x72EE1009, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x72EE1001, 0x72EE100A, '2019-02-10 00:00:00') /* Mite Squire */;
+VALUES (0x72EE1001, 0x72EE1002, '2019-02-10 00:00:00') /* Skeleton Captain (7821) */
+     , (0x72EE1001, 0x72EE1003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x72EE1001, 0x72EE1004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x72EE1001, 0x72EE1005, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x72EE1001, 0x72EE1006, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72EE1001, 0x72EE1007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x72EE1001, 0x72EE1008, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x72EE1001, 0x72EE1009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x72EE1001, 0x72EE100A, '2019-02-10 00:00:00') /* Mite Squire (946) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE1002,  7821, 0x2EE10020, 94.19585, 187.0048, 20.0025, -0.7010351, 0, 0, -0.7131267,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

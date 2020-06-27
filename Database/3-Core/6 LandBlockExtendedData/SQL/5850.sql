@@ -5,22 +5,22 @@ VALUES (0x75850001,  1154, 0x5850014A, 49.67328, -3.407445, 6.00325, -0.8517215,
 /* @teleloc 0x5850014A [49.673280 -3.407445 6.003250] -0.851722 0.000000 0.000000 -0.523995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75850001, 0x75850002, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x75850001, 0x75850003, '2019-02-10 00:00:00') /* Ancient Water Golem */
-     , (0x75850001, 0x75850004, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x75850001, 0x75850005, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x75850001, 0x75850006, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x75850001, 0x75850007, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x75850001, 0x75850008, '2019-02-10 00:00:00') /* Ancient Luminary Knight */
-     , (0x75850001, 0x75850009, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x75850001, 0x7585000A, '2019-02-10 00:00:00') /* Ancient Water Golem */
-     , (0x75850001, 0x7585000B, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x75850001, 0x7585000C, '2019-02-10 00:00:00') /* Ancient Sandstone Golem */
-     , (0x75850001, 0x7585000D, '2019-02-10 00:00:00') /* Ancient Aqueous Knight */
-     , (0x75850001, 0x7585000E, '2019-02-10 00:00:00') /* Ancient Water Golem */
-     , (0x75850001, 0x7585000F, '2019-02-10 00:00:00') /* Obsidian Golem Noble */
-     , (0x75850001, 0x75850010, '2019-02-10 00:00:00') /* Obsidian Golem Noble */
-     , (0x75850001, 0x75850011, '2019-02-10 00:00:00') /* Ancient Luminary Knight */;
+VALUES (0x75850001, 0x75850002, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x75850001, 0x75850003, '2019-02-10 00:00:00') /* Ancient Water Golem (46936) */
+     , (0x75850001, 0x75850004, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x75850001, 0x75850005, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x75850001, 0x75850006, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x75850001, 0x75850007, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x75850001, 0x75850008, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */
+     , (0x75850001, 0x75850009, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x75850001, 0x7585000A, '2019-02-10 00:00:00') /* Ancient Water Golem (46936) */
+     , (0x75850001, 0x7585000B, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x75850001, 0x7585000C, '2019-02-10 00:00:00') /* Ancient Sandstone Golem (46935) */
+     , (0x75850001, 0x7585000D, '2019-02-10 00:00:00') /* Ancient Aqueous Knight (46931) */
+     , (0x75850001, 0x7585000E, '2019-02-10 00:00:00') /* Ancient Water Golem (46936) */
+     , (0x75850001, 0x7585000F, '2019-02-10 00:00:00') /* Obsidian Golem Noble (46928) */
+     , (0x75850001, 0x75850010, '2019-02-10 00:00:00') /* Obsidian Golem Noble (46928) */
+     , (0x75850001, 0x75850011, '2019-02-10 00:00:00') /* Ancient Luminary Knight (46932) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75850002, 46932, 0x5850014A, 49.67328, -3.407445, 6.00325, -0.8517215, 0, 0, -0.5239947,  True, '2019-02-10 00:00:00'); /* Ancient Luminary Knight */
@@ -91,10 +91,10 @@ VALUES (0x75850012,  1542, 0x5850014A, 48.07228, -2.781606, 7.228333, 0.07195468
 /* @teleloc 0x5850014A [48.072280 -2.781606 7.228333] 0.071955 0.000000 0.000000 -0.997408 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75850012, 0x75850013, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x75850012, 0x75850014, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x75850012, 0x75850015, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x75850012, 0x75850016, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x75850012, 0x75850013, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x75850012, 0x75850014, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x75850012, 0x75850015, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x75850012, 0x75850016, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75850013, 33040, 0x5850014A, 48.07228, -2.781606, 7.228333, 0.07195468, 0, 0, -0.9974079,  True, '2019-02-10 00:00:00'); /* Rabbit */

@@ -5,14 +5,14 @@ VALUES (0x7AA53001,  1154, 0xAA530005, 8.238909, 114.1742, 39.23779, -0.4286957,
 /* @teleloc 0xAA530005 [8.238909 114.174200 39.237790] -0.428696 0.000000 0.000000 -0.903449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA53001, 0x7AA53002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA53001, 0x7AA53003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AA53001, 0x7AA53004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA53001, 0x7AA53005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AA53001, 0x7AA53006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AA53001, 0x7AA53007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AA53001, 0x7AA53008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AA53001, 0x7AA53009, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7AA53001, 0x7AA53002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA53001, 0x7AA53003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AA53001, 0x7AA53004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA53001, 0x7AA53005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AA53001, 0x7AA53006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AA53001, 0x7AA53007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AA53001, 0x7AA53008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AA53001, 0x7AA53009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA53002,   226, 0xAA530005, 8.238909, 114.1742, 39.23779, -0.4286957, 0, 0, -0.9034489,  True, '2019-02-10 00:00:00'); /* High Tumerok */

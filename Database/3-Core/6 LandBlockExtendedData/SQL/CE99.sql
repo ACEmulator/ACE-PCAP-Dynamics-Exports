@@ -5,20 +5,20 @@ VALUES (0x7CE99001,  1154, 0xCE99001A, 87.81567, 43.15874, 2.689527, -0.9890684,
 /* @teleloc 0xCE99001A [87.815670 43.158740 2.689527] -0.989068 0.000000 0.000000 -0.147457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE99001, 0x7CE99002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE99001, 0x7CE99003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CE99001, 0x7CE99004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE99001, 0x7CE99005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE99001, 0x7CE99006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CE99001, 0x7CE99007, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7CE99001, 0x7CE99008, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CE99001, 0x7CE99009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CE99001, 0x7CE9900A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CE99001, 0x7CE9900B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CE99001, 0x7CE9900C, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CE99001, 0x7CE9900D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE99001, 0x7CE9900E, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CE99001, 0x7CE9900F, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7CE99001, 0x7CE99002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE99001, 0x7CE99003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CE99001, 0x7CE99004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE99001, 0x7CE99005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE99001, 0x7CE99006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CE99001, 0x7CE99007, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7CE99001, 0x7CE99008, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CE99001, 0x7CE99009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CE99001, 0x7CE9900A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CE99001, 0x7CE9900B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CE99001, 0x7CE9900C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CE99001, 0x7CE9900D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE99001, 0x7CE9900E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CE99001, 0x7CE9900F, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE99002,  1630, 0xCE99001A, 87.81567, 43.15874, 2.689527, -0.9890684, 0, 0, -0.1474571,  True, '2019-02-10 00:00:00'); /* Lich Lord */

@@ -5,10 +5,10 @@ VALUES (0x786D9001,  1154, 0x86D90040, 176.2166, 177.2988, 98.13599, 0.7660445, 
 /* @teleloc 0x86D90040 [176.216600 177.298800 98.135990] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786D9001, 0x786D9002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x786D9001, 0x786D9003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x786D9001, 0x786D9004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x786D9001, 0x786D9005, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x786D9001, 0x786D9002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x786D9001, 0x786D9003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x786D9001, 0x786D9004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x786D9001, 0x786D9005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786D9002,  7084, 0x86D90040, 176.2166, 177.2988, 98.13599, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -31,8 +31,8 @@ VALUES (0x786D9006,  1542, 0x86D90040, 173.6723, 175.7999, 98.75005, 1, 0, 0, 0,
 /* @teleloc 0x86D90040 [173.672300 175.799900 98.750050] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786D9006, 0x786D9007, '2019-02-10 00:00:00') /* Bones */
-     , (0x786D9006, 0x786D9008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x786D9006, 0x786D9007, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x786D9006, 0x786D9008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786D9007,  4379, 0x86D90040, 173.6723, 175.7999, 98.75005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

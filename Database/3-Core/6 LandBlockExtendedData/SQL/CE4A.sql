@@ -5,9 +5,9 @@ VALUES (0x7CE4A001,  1154, 0xCE4A000D, 42.46093, 110.0504, 76.71188, -0.8826345,
 /* @teleloc 0xCE4A000D [42.460930 110.050400 76.711880] -0.882635 0.000000 0.000000 -0.470060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE4A001, 0x7CE4A002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CE4A001, 0x7CE4A003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CE4A001, 0x7CE4A004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7CE4A001, 0x7CE4A002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CE4A001, 0x7CE4A003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CE4A001, 0x7CE4A004, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE4A002, 19439, 0xCE4A000D, 42.46093, 110.0504, 76.71188, -0.8826345, 0, 0, -0.4700601,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */

@@ -5,22 +5,22 @@ VALUES (0x78CB8001,  1154, 0x8CB80021, 110.718, 6.205978, 75.75017, -0.9988183, 
 /* @teleloc 0x8CB80021 [110.718000 6.205978 75.750170] -0.998818 0.000000 0.000000 -0.048600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB8001, 0x78CB8002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB8001, 0x78CB8003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB8001, 0x78CB8004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CB8001, 0x78CB8005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CB8001, 0x78CB8006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CB8001, 0x78CB8007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CB8001, 0x78CB8008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CB8001, 0x78CB8009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB8001, 0x78CB800A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB8001, 0x78CB800B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB8001, 0x78CB800C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78CB8001, 0x78CB800D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78CB8001, 0x78CB800E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78CB8001, 0x78CB800F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB8001, 0x78CB8010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB8001, 0x78CB8011, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x78CB8001, 0x78CB8002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB8001, 0x78CB8003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB8001, 0x78CB8004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CB8001, 0x78CB8005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CB8001, 0x78CB8006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CB8001, 0x78CB8007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CB8001, 0x78CB8008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CB8001, 0x78CB8009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB8001, 0x78CB800A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB8001, 0x78CB800B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB8001, 0x78CB800C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78CB8001, 0x78CB800D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78CB8001, 0x78CB800E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78CB8001, 0x78CB800F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB8001, 0x78CB8010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB8001, 0x78CB8011, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB8002,  1628, 0x8CB80021, 110.718, 6.205978, 75.75017, -0.9988183, 0, 0, -0.04860027,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

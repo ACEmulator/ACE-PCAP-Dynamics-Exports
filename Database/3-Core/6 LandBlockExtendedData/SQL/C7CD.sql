@@ -5,9 +5,9 @@ VALUES (0x7C7CD001,  1154, 0xC7CD003F, 168.1586, 147.3371, 55.98678, -0.7433168,
 /* @teleloc 0xC7CD003F [168.158600 147.337100 55.986780] -0.743317 0.000000 0.000000 -0.668940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7CD001, 0x7C7CD002, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7C7CD001, 0x7C7CD003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C7CD001, 0x7C7CD004, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x7C7CD001, 0x7C7CD002, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7C7CD001, 0x7C7CD003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C7CD001, 0x7C7CD004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7CD002, 14872, 0xC7CD003F, 168.1586, 147.3371, 55.98678, -0.7433168, 0, 0, -0.6689397,  True, '2019-02-10 00:00:00'); /* Altered Olthoi */
@@ -26,7 +26,7 @@ VALUES (0x7C7CD005,  1542, 0xC7CD0036, 155.3456, 123.9511, 56, 0.9990482, 0, 0, 
 /* @teleloc 0xC7CD0036 [155.345600 123.951100 56.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7CD005, 0x7C7CD006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C7CD005, 0x7C7CD006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7CD006,  4179, 0xC7CD0036, 155.3456, 123.9511, 56, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

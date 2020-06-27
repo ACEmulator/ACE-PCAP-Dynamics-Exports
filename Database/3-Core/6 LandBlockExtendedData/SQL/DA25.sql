@@ -5,24 +5,24 @@ VALUES (0x7DA25001,  1154, 0xDA250005, 3.905729, 113.2919, 290.4796, 0.5, 0, 0, 
 /* @teleloc 0xDA250005 [3.905729 113.291900 290.479600] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA25001, 0x7DA25002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DA25001, 0x7DA25003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7DA25001, 0x7DA25004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7DA25001, 0x7DA25005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7DA25001, 0x7DA25006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DA25001, 0x7DA25007, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7DA25001, 0x7DA25008, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7DA25001, 0x7DA25009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7DA25001, 0x7DA2500A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7DA25001, 0x7DA2500B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7DA25001, 0x7DA2500C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7DA25001, 0x7DA2500D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DA25001, 0x7DA2500E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DA25001, 0x7DA2500F, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7DA25001, 0x7DA25010, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7DA25001, 0x7DA25011, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7DA25001, 0x7DA25012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DA25001, 0x7DA25013, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7DA25001, 0x7DA25002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DA25001, 0x7DA25003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7DA25001, 0x7DA25004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7DA25001, 0x7DA25005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7DA25001, 0x7DA25006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DA25001, 0x7DA25007, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7DA25001, 0x7DA25008, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7DA25001, 0x7DA25009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7DA25001, 0x7DA2500A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7DA25001, 0x7DA2500B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7DA25001, 0x7DA2500C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7DA25001, 0x7DA2500D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DA25001, 0x7DA2500E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DA25001, 0x7DA2500F, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7DA25001, 0x7DA25010, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7DA25001, 0x7DA25011, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7DA25001, 0x7DA25012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DA25001, 0x7DA25013, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA25002,   201, 0xDA250005, 3.905729, 113.2919, 290.4796, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -101,9 +101,9 @@ VALUES (0x7DA25014,  1542, 0xDA250005, 11.91602, 100.071, 294.657, 1, 0, 0, 0, F
 /* @teleloc 0xDA250005 [11.916020 100.071000 294.657000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA25014, 0x7DA25015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7DA25014, 0x7DA25016, '2019-02-10 00:00:00') /* Bones */
-     , (0x7DA25014, 0x7DA25017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DA25014, 0x7DA25015, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7DA25014, 0x7DA25016, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7DA25014, 0x7DA25017, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA25015, 22567, 0xDA250005, 11.91602, 100.071, 294.657, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

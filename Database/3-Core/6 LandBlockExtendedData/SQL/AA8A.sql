@@ -5,15 +5,15 @@ VALUES (0x7AA8A001,  1154, 0xAA8A000E, 36.9252, 128.7402, 41.4622, 0.9914449, 0,
 /* @teleloc 0xAA8A000E [36.925200 128.740200 41.462200] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA8A001, 0x7AA8A002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AA8A001, 0x7AA8A003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AA8A001, 0x7AA8A004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AA8A001, 0x7AA8A005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AA8A001, 0x7AA8A006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AA8A001, 0x7AA8A007, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA8A001, 0x7AA8A008, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AA8A001, 0x7AA8A009, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AA8A001, 0x7AA8A00A, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7AA8A001, 0x7AA8A002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AA8A001, 0x7AA8A003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AA8A001, 0x7AA8A004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AA8A001, 0x7AA8A005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AA8A001, 0x7AA8A006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AA8A001, 0x7AA8A007, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA8A001, 0x7AA8A008, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AA8A001, 0x7AA8A009, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AA8A001, 0x7AA8A00A, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA8A002,   229, 0xAA8A000E, 36.9252, 128.7402, 41.4622, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

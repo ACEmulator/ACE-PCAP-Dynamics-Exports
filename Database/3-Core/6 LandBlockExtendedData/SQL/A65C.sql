@@ -5,11 +5,11 @@ VALUES (0x7A65C001,  1154, 0xA65C0003, 6.732584, 56.66432, 35.84502, 0.8250056, 
 /* @teleloc 0xA65C0003 [6.732584 56.664320 35.845020] 0.825006 0.000000 0.000000 -0.565125 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A65C001, 0x7A65C002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A65C001, 0x7A65C003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A65C001, 0x7A65C004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A65C001, 0x7A65C005, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7A65C001, 0x7A65C006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A65C001, 0x7A65C002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A65C001, 0x7A65C003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A65C001, 0x7A65C004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A65C001, 0x7A65C005, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A65C001, 0x7A65C006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A65C002,  9254, 0xA65C0003, 6.732584, 56.66432, 35.84502, 0.8250056, 0, 0, -0.5651246,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */
@@ -36,7 +36,7 @@ VALUES (0x7A65C007,  1542, 0xA65C000B, 28.17551, 67.64156, 37.04912, -0.1361084,
 /* @teleloc 0xA65C000B [28.175510 67.641560 37.049120] -0.136108 0.000000 0.000000 -0.990694 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A65C007, 0x7A65C008, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7A65C007, 0x7A65C008, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A65C008,  9286, 0xA65C000B, 28.17551, 67.64156, 37.04912, -0.1361084, 0, 0, -0.9906939,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

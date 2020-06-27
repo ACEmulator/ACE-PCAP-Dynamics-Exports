@@ -5,16 +5,16 @@ VALUES (0x77DF5001,  1154, 0x7DF50019, 92.36694, 0.01324463, 61.38839, 0.7071068
 /* @teleloc 0x7DF50019 [92.366940 0.013245 61.388390] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF5001, 0x77DF5002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77DF5001, 0x77DF5003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77DF5001, 0x77DF5004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x77DF5001, 0x77DF5005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77DF5001, 0x77DF5006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x77DF5001, 0x77DF5007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x77DF5001, 0x77DF5008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77DF5001, 0x77DF5009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77DF5001, 0x77DF500A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x77DF5001, 0x77DF500B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x77DF5001, 0x77DF5002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x77DF5001, 0x77DF5003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x77DF5001, 0x77DF5004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x77DF5001, 0x77DF5005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77DF5001, 0x77DF5006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x77DF5001, 0x77DF5007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x77DF5001, 0x77DF5008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77DF5001, 0x77DF5009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77DF5001, 0x77DF500A, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x77DF5001, 0x77DF500B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF5002, 24290, 0x7DF50019, 92.36694, 0.01324463, 61.38839, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

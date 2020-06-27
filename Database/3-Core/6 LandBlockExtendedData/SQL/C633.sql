@@ -5,13 +5,13 @@ VALUES (0x7C633001,  1154, 0xC6330033, 159.8179, 66.40771, 194.0651, 1, 0, 0, 0,
 /* @teleloc 0xC6330033 [159.817900 66.407710 194.065100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C633001, 0x7C633002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C633001, 0x7C633003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C633001, 0x7C633004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C633001, 0x7C633005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C633001, 0x7C633006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C633001, 0x7C633007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C633001, 0x7C633008, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x7C633001, 0x7C633002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C633001, 0x7C633003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C633001, 0x7C633004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C633001, 0x7C633005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C633001, 0x7C633006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C633001, 0x7C633007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C633001, 0x7C633008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C633002,  7107, 0xC6330033, 159.8179, 66.40771, 194.0651, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

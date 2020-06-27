@@ -5,30 +5,30 @@ VALUES (0x79FA6001,  1154, 0x9FA60015, 61.6162, 115.7405, 64.87532, -0.1324568, 
 /* @teleloc 0x9FA60015 [61.616200 115.740500 64.875320] -0.132457 0.000000 0.000000 -0.991189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA6001, 0x79FA6002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FA6001, 0x79FA6003, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x79FA6001, 0x79FA6004, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x79FA6001, 0x79FA6005, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x79FA6001, 0x79FA6006, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x79FA6001, 0x79FA6007, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x79FA6001, 0x79FA6008, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x79FA6001, 0x79FA6009, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x79FA6001, 0x79FA600A, '2019-02-10 00:00:00') /* Portal Pillar */
-     , (0x79FA6001, 0x79FA600B, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x79FA6001, 0x79FA600C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79FA6001, 0x79FA600D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79FA6001, 0x79FA600E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79FA6001, 0x79FA600F, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79FA6001, 0x79FA6010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FA6001, 0x79FA6011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FA6001, 0x79FA6012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FA6001, 0x79FA6013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79FA6001, 0x79FA6014, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79FA6001, 0x79FA6015, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79FA6001, 0x79FA6016, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79FA6001, 0x79FA6017, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79FA6001, 0x79FA6018, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79FA6001, 0x79FA6019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79FA6001, 0x79FA6002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FA6001, 0x79FA6003, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x79FA6001, 0x79FA6004, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x79FA6001, 0x79FA6005, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x79FA6001, 0x79FA6006, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x79FA6001, 0x79FA6007, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x79FA6001, 0x79FA6008, '2019-02-10 00:00:00') /* Portal Pillar (32525) */
+     , (0x79FA6001, 0x79FA6009, '2019-02-10 00:00:00') /* Portal Pillar (32525) */
+     , (0x79FA6001, 0x79FA600A, '2019-02-10 00:00:00') /* Portal Pillar (32525) */
+     , (0x79FA6001, 0x79FA600B, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x79FA6001, 0x79FA600C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79FA6001, 0x79FA600D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79FA6001, 0x79FA600E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79FA6001, 0x79FA600F, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79FA6001, 0x79FA6010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FA6001, 0x79FA6011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FA6001, 0x79FA6012, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79FA6001, 0x79FA6013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79FA6001, 0x79FA6014, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79FA6001, 0x79FA6015, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79FA6001, 0x79FA6016, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79FA6001, 0x79FA6017, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79FA6001, 0x79FA6018, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79FA6001, 0x79FA6019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA6002, 11528, 0x9FA60015, 61.6162, 115.7405, 64.87532, -0.1324568, 0, 0, -0.9911888,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -131,8 +131,8 @@ VALUES (0x79FA601A,  1542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.96592
 /* @teleloc 0x9FA6002E [132.000000 132.000000 64.450000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA601A, 0x79FA601B, '2019-02-10 00:00:00') /* Viamont Staging Area Portal */
-     , (0x79FA601A, 0x79FA601C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x79FA601A, 0x79FA601B, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32542) */
+     , (0x79FA601A, 0x79FA601C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA601B, 32542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Viamont Staging Area Portal */

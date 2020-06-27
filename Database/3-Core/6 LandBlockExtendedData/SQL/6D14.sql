@@ -5,14 +5,14 @@ VALUES (0x76D14001,  1154, 0x6D140031, 158.5292, 17.32013, 78.5629, -0.8689269, 
 /* @teleloc 0x6D140031 [158.529200 17.320130 78.562900] -0.868927 0.000000 0.000000 -0.494940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76D14001, 0x76D14002, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x76D14001, 0x76D14003, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x76D14001, 0x76D14004, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x76D14001, 0x76D14005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x76D14001, 0x76D14006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x76D14001, 0x76D14007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x76D14001, 0x76D14008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x76D14001, 0x76D14009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x76D14001, 0x76D14002, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x76D14001, 0x76D14003, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x76D14001, 0x76D14004, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x76D14001, 0x76D14005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x76D14001, 0x76D14006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x76D14001, 0x76D14007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x76D14001, 0x76D14008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x76D14001, 0x76D14009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76D14002,  9255, 0x6D140031, 158.5292, 17.32013, 78.5629, -0.8689269, 0, 0, -0.4949403,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */

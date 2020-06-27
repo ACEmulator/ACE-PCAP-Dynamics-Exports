@@ -5,19 +5,19 @@ VALUES (0x7629B001,  1154, 0x629B002C, 138.6631, 82.90624, 46.6489, -0.9442984, 
 /* @teleloc 0x629B002C [138.663100 82.906240 46.648900] -0.944298 0.000000 0.000000 -0.329090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7629B001, 0x7629B002, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7629B001, 0x7629B003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7629B001, 0x7629B004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7629B001, 0x7629B005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7629B001, 0x7629B006, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7629B001, 0x7629B007, '2019-02-10 00:00:00') /* Ember */
-     , (0x7629B001, 0x7629B008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7629B001, 0x7629B009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7629B001, 0x7629B00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7629B001, 0x7629B00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7629B001, 0x7629B00C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7629B001, 0x7629B00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7629B001, 0x7629B00E, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7629B001, 0x7629B002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7629B001, 0x7629B003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7629B001, 0x7629B004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7629B001, 0x7629B005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7629B001, 0x7629B006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7629B001, 0x7629B007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7629B001, 0x7629B008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7629B001, 0x7629B009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7629B001, 0x7629B00A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7629B001, 0x7629B00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7629B001, 0x7629B00C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7629B001, 0x7629B00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7629B001, 0x7629B00E, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7629B002,  7780, 0x629B002C, 138.6631, 82.90624, 46.6489, -0.9442984, 0, 0, -0.3290904,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -76,7 +76,7 @@ VALUES (0x7629B00F,  1542, 0x629B0005, 11.23371, 109.9107, 28.71306, 1, 0, 0, 0,
 /* @teleloc 0x629B0005 [11.233710 109.910700 28.713060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7629B00F, 0x7629B010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7629B00F, 0x7629B010, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7629B010, 22567, 0x629B0005, 11.23371, 109.9107, 28.71306, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

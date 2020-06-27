@@ -5,11 +5,11 @@ VALUES (0x7B5EE001,  1154, 0xB5EE0035, 163.7901, 110.5146, 177.9402, -0.697662, 
 /* @teleloc 0xB5EE0035 [163.790100 110.514600 177.940200] -0.697662 0.000000 0.000000 0.716427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5EE001, 0x7B5EE002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B5EE001, 0x7B5EE003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B5EE001, 0x7B5EE004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B5EE001, 0x7B5EE005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B5EE001, 0x7B5EE006, '2019-02-10 00:00:00') /* Amethyst Gromnie */;
+VALUES (0x7B5EE001, 0x7B5EE002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B5EE001, 0x7B5EE003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B5EE001, 0x7B5EE004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B5EE001, 0x7B5EE005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B5EE001, 0x7B5EE006, '2019-02-10 00:00:00') /* Amethyst Gromnie (25596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5EE002,  7092, 0xB5EE0035, 163.7901, 110.5146, 177.9402, -0.697662, 0, 0, 0.716427,  True, '2019-02-10 00:00:00'); /* Firestorm */

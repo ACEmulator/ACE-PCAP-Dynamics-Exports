@@ -5,14 +5,14 @@ VALUES (0x7CB79001,  1154, 0xCB790007, 15.868, 149.0693, 20.0045, -0.1369254, 0,
 /* @teleloc 0xCB790007 [15.868000 149.069300 20.004500] -0.136925 0.000000 0.000000 -0.990581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB79001, 0x7CB79002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CB79001, 0x7CB79003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB79001, 0x7CB79004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB79001, 0x7CB79005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CB79001, 0x7CB79006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7CB79001, 0x7CB79007, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7CB79001, 0x7CB79008, '2019-02-10 00:00:00') /* Static */
-     , (0x7CB79001, 0x7CB79009, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7CB79001, 0x7CB79002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CB79001, 0x7CB79003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB79001, 0x7CB79004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB79001, 0x7CB79005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CB79001, 0x7CB79006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7CB79001, 0x7CB79007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7CB79001, 0x7CB79008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7CB79001, 0x7CB79009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB79002,  1612, 0xCB790007, 15.868, 149.0693, 20.0045, -0.1369254, 0, 0, -0.9905813,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

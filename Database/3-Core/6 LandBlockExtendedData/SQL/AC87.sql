@@ -5,16 +5,16 @@ VALUES (0x7AC87001,  1154, 0xAC87003D, 182.9785, 107.5452, 24.26536, -0.8071293,
 /* @teleloc 0xAC87003D [182.978500 107.545200 24.265360] -0.807129 0.000000 0.000000 -0.590375 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC87001, 0x7AC87002, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AC87001, 0x7AC87003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7AC87001, 0x7AC87004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC87001, 0x7AC87005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC87001, 0x7AC87006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AC87001, 0x7AC87007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AC87001, 0x7AC87008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC87001, 0x7AC87009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AC87001, 0x7AC8700A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AC87001, 0x7AC8700B, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AC87001, 0x7AC87002, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AC87001, 0x7AC87003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7AC87001, 0x7AC87004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC87001, 0x7AC87005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC87001, 0x7AC87006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AC87001, 0x7AC87007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AC87001, 0x7AC87008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC87001, 0x7AC87009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AC87001, 0x7AC8700A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AC87001, 0x7AC8700B, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC87002,  8142, 0xAC87003D, 182.9785, 107.5452, 24.26536, -0.8071293, 0, 0, -0.5903747,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */
@@ -61,8 +61,8 @@ VALUES (0x7AC8700C,  1542, 0xAC87001B, 85.91359, 53.09298, 32.5299, 1, 0, 0, 0, 
 /* @teleloc 0xAC87001B [85.913590 53.092980 32.529900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC8700C, 0x7AC8700D, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x7AC8700C, 0x7AC8700E, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7AC8700C, 0x7AC8700D, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x7AC8700C, 0x7AC8700E, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC8700D,  8999, 0xAC87001B, 85.91359, 53.09298, 32.5299, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

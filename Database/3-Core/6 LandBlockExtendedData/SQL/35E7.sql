@@ -5,16 +5,16 @@ VALUES (0x735E7001,  1154, 0x35E7003F, 170.9183, 156.2935, 7.311646, 0.163184, 0
 /* @teleloc 0x35E7003F [170.918300 156.293500 7.311646] 0.163184 0.000000 0.000000 -0.986596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735E7001, 0x735E7002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735E7001, 0x735E7003, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x735E7001, 0x735E7004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735E7001, 0x735E7005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x735E7001, 0x735E7006, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x735E7001, 0x735E7007, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x735E7001, 0x735E7008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x735E7001, 0x735E7009, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x735E7001, 0x735E700A, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x735E7001, 0x735E700B, '2019-02-10 00:00:00') /* Undead Lieutenant */;
+VALUES (0x735E7001, 0x735E7002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735E7001, 0x735E7003, '2019-02-10 00:00:00') /* Undead Sailor (24324) */
+     , (0x735E7001, 0x735E7004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735E7001, 0x735E7005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x735E7001, 0x735E7006, '2019-02-10 00:00:00') /* Undead Sailor (24324) */
+     , (0x735E7001, 0x735E7007, '2019-02-10 00:00:00') /* Undead Sailor (24324) */
+     , (0x735E7001, 0x735E7008, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x735E7001, 0x735E7009, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x735E7001, 0x735E700A, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735E7001, 0x735E700B, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735E7002, 28653, 0x35E7003F, 170.9183, 156.2935, 7.311646, 0.163184, 0, 0, -0.9865956,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

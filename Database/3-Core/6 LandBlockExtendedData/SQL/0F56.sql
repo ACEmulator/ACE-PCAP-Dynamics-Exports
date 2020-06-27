@@ -5,35 +5,35 @@ VALUES (0x70F56001,  1154, 0x0F56000D, 36.76082, 113.4795, -0.8999987, -0.270426
 /* @teleloc 0x0F56000D [36.760820 113.479500 -0.899999] -0.270427 0.000000 0.000000 -0.962741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F56001, 0x70F56002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70F56001, 0x70F56003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70F56001, 0x70F56004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70F56001, 0x70F56005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F56001, 0x70F56006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F56001, 0x70F56007, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70F56001, 0x70F56008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70F56001, 0x70F56009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70F56001, 0x70F5600A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70F56001, 0x70F5600B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70F56001, 0x70F5600C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70F56001, 0x70F5600D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F5600E, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F5600F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F56001, 0x70F56010, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70F56001, 0x70F56011, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F56012, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F56013, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70F56001, 0x70F56014, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70F56001, 0x70F56015, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70F56001, 0x70F56016, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F56017, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F56018, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70F56001, 0x70F56019, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x70F56001, 0x70F5601A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70F56001, 0x70F5601B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F56001, 0x70F5601C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70F56001, 0x70F5601D, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70F56001, 0x70F5601E, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x70F56001, 0x70F56002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70F56001, 0x70F56003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70F56001, 0x70F56004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70F56001, 0x70F56005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F56001, 0x70F56006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F56001, 0x70F56007, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70F56001, 0x70F56008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70F56001, 0x70F56009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70F56001, 0x70F5600A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70F56001, 0x70F5600B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70F56001, 0x70F5600C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70F56001, 0x70F5600D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F5600E, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F5600F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F56001, 0x70F56010, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70F56001, 0x70F56011, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F56012, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F56013, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70F56001, 0x70F56014, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70F56001, 0x70F56015, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70F56001, 0x70F56016, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F56017, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F56018, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70F56001, 0x70F56019, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x70F56001, 0x70F5601A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70F56001, 0x70F5601B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F56001, 0x70F5601C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70F56001, 0x70F5601D, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70F56001, 0x70F5601E, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F56002,  7125, 0x0F56000D, 36.76082, 113.4795, -0.8999987, -0.2704267, 0, 0, -0.9627406,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -156,7 +156,7 @@ VALUES (0x70F5601F,  1542, 0x0F560015, 64.99389, 117.7783, -0.09999999, 0.999048
 /* @teleloc 0x0F560015 [64.993890 117.778300 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F5601F, 0x70F56020, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70F5601F, 0x70F56020, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F56020,  4179, 0x0F560015, 64.99389, 117.7783, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

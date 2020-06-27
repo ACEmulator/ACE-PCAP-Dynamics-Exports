@@ -5,17 +5,17 @@ VALUES (0x781D3001,  1154, 0x81D30039, 189.8168, 5.195777, 194.7603, -0.08715577
 /* @teleloc 0x81D30039 [189.816800 5.195777 194.760300] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781D3001, 0x781D3002, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x781D3001, 0x781D3003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x781D3001, 0x781D3004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x781D3001, 0x781D3005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x781D3001, 0x781D3006, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x781D3001, 0x781D3007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x781D3001, 0x781D3008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x781D3001, 0x781D3009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x781D3001, 0x781D300A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x781D3001, 0x781D300B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x781D3001, 0x781D300C, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x781D3001, 0x781D3002, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x781D3001, 0x781D3003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x781D3001, 0x781D3004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x781D3001, 0x781D3005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x781D3001, 0x781D3006, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x781D3001, 0x781D3007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x781D3001, 0x781D3008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x781D3001, 0x781D3009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x781D3001, 0x781D300A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x781D3001, 0x781D300B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x781D3001, 0x781D300C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781D3002,  7346, 0x81D30039, 189.8168, 5.195777, 194.7603, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Banderling Enforcer */
@@ -66,7 +66,7 @@ VALUES (0x781D300D,  1542, 0x81D3002A, 133.2627, 26.00975, 193.7751, -4.371139E-
 /* @teleloc 0x81D3002A [133.262700 26.009750 193.775100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781D300D, 0x781D300E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x781D300D, 0x781D300E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781D300E,  4380, 0x81D3002A, 133.2627, 26.00975, 193.7751, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

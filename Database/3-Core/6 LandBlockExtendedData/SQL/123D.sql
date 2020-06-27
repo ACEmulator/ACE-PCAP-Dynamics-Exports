@@ -5,28 +5,28 @@ VALUES (0x7123D001,  1154, 0x123D0011, 62.51824, 2.846424, 15.6559, 0.9961947, 0
 /* @teleloc 0x123D0011 [62.518240 2.846424 15.655900] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123D001, 0x7123D002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7123D001, 0x7123D003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7123D001, 0x7123D004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7123D001, 0x7123D005, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7123D001, 0x7123D006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7123D001, 0x7123D007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7123D001, 0x7123D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7123D001, 0x7123D009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7123D001, 0x7123D00A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7123D001, 0x7123D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7123D001, 0x7123D00C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7123D001, 0x7123D00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7123D001, 0x7123D00E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7123D001, 0x7123D00F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7123D001, 0x7123D010, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7123D001, 0x7123D011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7123D001, 0x7123D012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7123D001, 0x7123D013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7123D001, 0x7123D014, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7123D001, 0x7123D015, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7123D001, 0x7123D016, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7123D001, 0x7123D017, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7123D001, 0x7123D002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7123D001, 0x7123D003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7123D001, 0x7123D004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7123D001, 0x7123D005, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7123D001, 0x7123D006, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7123D001, 0x7123D007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7123D001, 0x7123D008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7123D001, 0x7123D009, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7123D001, 0x7123D00A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7123D001, 0x7123D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7123D001, 0x7123D00C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7123D001, 0x7123D00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7123D001, 0x7123D00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7123D001, 0x7123D00F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7123D001, 0x7123D010, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7123D001, 0x7123D011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7123D001, 0x7123D012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123D001, 0x7123D013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7123D001, 0x7123D014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7123D001, 0x7123D015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123D001, 0x7123D016, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7123D001, 0x7123D017, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123D002, 23555, 0x123D0011, 62.51824, 2.846424, 15.6559, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */

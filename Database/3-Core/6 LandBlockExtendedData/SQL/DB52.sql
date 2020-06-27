@@ -5,29 +5,29 @@ VALUES (0x7DB52001,  1154, 0xDB520033, 150.9214, 54.16831, 23.42572, 0.9999846, 
 /* @teleloc 0xDB520033 [150.921400 54.168310 23.425720] 0.999985 0.000000 0.000000 -0.005553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB52001, 0x7DB52002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB52003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DB52001, 0x7DB52004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB52005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DB52001, 0x7DB52006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB52007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DB52001, 0x7DB52008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB52009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB5200A, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB52001, 0x7DB5200B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB52001, 0x7DB5200C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DB52001, 0x7DB5200D, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB5200E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB52001, 0x7DB5200F, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DB52001, 0x7DB52010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DB52001, 0x7DB52011, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DB52001, 0x7DB52012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DB52001, 0x7DB52013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DB52001, 0x7DB52014, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DB52001, 0x7DB52015, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DB52001, 0x7DB52016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DB52001, 0x7DB52017, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7DB52001, 0x7DB52018, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7DB52001, 0x7DB52002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB52003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DB52001, 0x7DB52004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB52005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DB52001, 0x7DB52006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB52007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DB52001, 0x7DB52008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB52009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB5200A, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB52001, 0x7DB5200B, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB52001, 0x7DB5200C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DB52001, 0x7DB5200D, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB5200E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB52001, 0x7DB5200F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DB52001, 0x7DB52010, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DB52001, 0x7DB52011, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DB52001, 0x7DB52012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DB52001, 0x7DB52013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DB52001, 0x7DB52014, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DB52001, 0x7DB52015, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DB52001, 0x7DB52016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DB52001, 0x7DB52017, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DB52001, 0x7DB52018, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB52002,  1759, 0xDB520033, 150.9214, 54.16831, 23.42572, 0.9999846, 0, 0, -0.00555324,  True, '2019-02-10 00:00:00'); /* Skeleton */

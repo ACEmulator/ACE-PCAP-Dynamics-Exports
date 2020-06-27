@@ -5,15 +5,15 @@ VALUES (0x7BB76001,  1154, 0xBB76003B, 189.5035, 67.65327, 40.43822, 0.6137646, 
 /* @teleloc 0xBB76003B [189.503500 67.653270 40.438220] 0.613765 0.000000 0.000000 -0.789489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB76001, 0x7BB76002, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB76001, 0x7BB76003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BB76001, 0x7BB76004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7BB76001, 0x7BB76005, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BB76001, 0x7BB76006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BB76001, 0x7BB76007, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7BB76001, 0x7BB76008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BB76001, 0x7BB76009, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BB76001, 0x7BB7600A, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7BB76001, 0x7BB76002, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB76001, 0x7BB76003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BB76001, 0x7BB76004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BB76001, 0x7BB76005, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BB76001, 0x7BB76006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BB76001, 0x7BB76007, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7BB76001, 0x7BB76008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BB76001, 0x7BB76009, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BB76001, 0x7BB7600A, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB76002,   948, 0xBB76003B, 189.5035, 67.65327, 40.43822, 0.6137646, 0, 0, -0.7894891,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */

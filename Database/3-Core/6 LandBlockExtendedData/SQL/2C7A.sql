@@ -5,20 +5,20 @@ VALUES (0x72C7A001,  1154, 0x2C7A0030, 143.429, 184.8395, 290.2451, 0.7071068, 0
 /* @teleloc 0x2C7A0030 [143.429000 184.839500 290.245100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C7A001, 0x72C7A002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72C7A001, 0x72C7A003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72C7A001, 0x72C7A004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72C7A001, 0x72C7A005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72C7A001, 0x72C7A006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72C7A001, 0x72C7A007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72C7A001, 0x72C7A008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72C7A001, 0x72C7A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72C7A001, 0x72C7A00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72C7A001, 0x72C7A00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C7A001, 0x72C7A00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72C7A001, 0x72C7A00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72C7A001, 0x72C7A00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C7A001, 0x72C7A00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x72C7A001, 0x72C7A002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72C7A001, 0x72C7A003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72C7A001, 0x72C7A004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72C7A001, 0x72C7A005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72C7A001, 0x72C7A006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72C7A001, 0x72C7A007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72C7A001, 0x72C7A008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72C7A001, 0x72C7A009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72C7A001, 0x72C7A00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72C7A001, 0x72C7A00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C7A001, 0x72C7A00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C7A001, 0x72C7A00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72C7A001, 0x72C7A00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C7A001, 0x72C7A00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C7A002, 24275, 0x2C7A0030, 143.429, 184.8395, 290.2451, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -81,10 +81,10 @@ VALUES (0x72C7A010,  1542, 0x2C7A0038, 146.8918, 183.3401, 288.7951, 0.9990482, 
 /* @teleloc 0x2C7A0038 [146.891800 183.340100 288.795100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C7A010, 0x72C7A011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72C7A010, 0x72C7A012, '2019-02-10 00:00:00') /* Rock */
-     , (0x72C7A010, 0x72C7A013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72C7A010, 0x72C7A014, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x72C7A010, 0x72C7A011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72C7A010, 0x72C7A012, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x72C7A010, 0x72C7A013, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72C7A010, 0x72C7A014, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C7A011,  4179, 0x2C7A0038, 146.8918, 183.3401, 288.7951, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

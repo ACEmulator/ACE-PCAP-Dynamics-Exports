@@ -5,13 +5,13 @@ VALUES (0x78CDC001,  1154, 0x8CDC0012, 63.44397, 42.36058, 80.55215, 0.2588191, 
 /* @teleloc 0x8CDC0012 [63.443970 42.360580 80.552150] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CDC001, 0x78CDC002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CDC001, 0x78CDC003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CDC001, 0x78CDC004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78CDC001, 0x78CDC005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CDC001, 0x78CDC006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CDC001, 0x78CDC007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78CDC001, 0x78CDC008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78CDC001, 0x78CDC002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CDC001, 0x78CDC003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CDC001, 0x78CDC004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78CDC001, 0x78CDC005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CDC001, 0x78CDC006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CDC001, 0x78CDC007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78CDC001, 0x78CDC008, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CDC002,  7085, 0x8CDC0012, 63.44397, 42.36058, 80.55215, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

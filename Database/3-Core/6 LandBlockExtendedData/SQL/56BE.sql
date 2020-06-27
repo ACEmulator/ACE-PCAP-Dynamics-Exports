@@ -5,35 +5,35 @@ VALUES (0x756BE001,  1154, 0x56BE0032, 157.1344, 47.30408, -0.006500006, -0.9891
 /* @teleloc 0x56BE0032 [157.134400 47.304080 -0.006500] -0.989189 0.000000 0.000000 -0.146644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756BE001, 0x756BE002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x756BE001, 0x756BE003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x756BE001, 0x756BE004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x756BE001, 0x756BE005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x756BE001, 0x756BE006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x756BE001, 0x756BE007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x756BE001, 0x756BE008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x756BE001, 0x756BE009, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x756BE001, 0x756BE00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x756BE001, 0x756BE00B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x756BE001, 0x756BE00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x756BE001, 0x756BE00D, '2019-02-10 00:00:00') /* Rampager */
-     , (0x756BE001, 0x756BE00E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x756BE001, 0x756BE00F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x756BE001, 0x756BE010, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x756BE001, 0x756BE011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x756BE001, 0x756BE012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x756BE001, 0x756BE013, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x756BE001, 0x756BE014, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x756BE001, 0x756BE015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x756BE001, 0x756BE016, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x756BE001, 0x756BE017, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x756BE001, 0x756BE018, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x756BE001, 0x756BE019, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x756BE001, 0x756BE01A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x756BE001, 0x756BE01B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x756BE001, 0x756BE01C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x756BE001, 0x756BE01D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x756BE001, 0x756BE01E, '2019-02-10 00:00:00') /* Insidious Monouga */;
+VALUES (0x756BE001, 0x756BE002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x756BE001, 0x756BE003, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x756BE001, 0x756BE004, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x756BE001, 0x756BE005, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x756BE001, 0x756BE006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x756BE001, 0x756BE007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x756BE001, 0x756BE008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x756BE001, 0x756BE009, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x756BE001, 0x756BE00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x756BE001, 0x756BE00B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x756BE001, 0x756BE00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x756BE001, 0x756BE00D, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x756BE001, 0x756BE00E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x756BE001, 0x756BE00F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x756BE001, 0x756BE010, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x756BE001, 0x756BE011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x756BE001, 0x756BE012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x756BE001, 0x756BE013, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x756BE001, 0x756BE014, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x756BE001, 0x756BE015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x756BE001, 0x756BE016, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x756BE001, 0x756BE017, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x756BE001, 0x756BE018, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x756BE001, 0x756BE019, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x756BE001, 0x756BE01A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x756BE001, 0x756BE01B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x756BE001, 0x756BE01C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x756BE001, 0x756BE01D, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x756BE001, 0x756BE01E, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756BE002, 24287, 0x56BE0032, 157.1344, 47.30408, -0.006500006, -0.9891893, 0, 0, -0.1466442,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -156,7 +156,7 @@ VALUES (0x756BE01F,  1542, 0x56BE0022, 113.499, 29.82327, -3.72529E-09, -4.37113
 /* @teleloc 0x56BE0022 [113.499000 29.823270 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756BE01F, 0x756BE020, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x756BE01F, 0x756BE020, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756BE020,  4380, 0x56BE0022, 113.499, 29.82327, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

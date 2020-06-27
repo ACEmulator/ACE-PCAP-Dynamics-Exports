@@ -5,21 +5,21 @@ VALUES (0x79F7A001,  1154, 0x9F7A000A, 27.78758, 34.38549, 24.006, 0.6950434, 0,
 /* @teleloc 0x9F7A000A [27.787580 34.385490 24.006000] 0.695043 0.000000 0.000000 -0.718968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F7A001, 0x79F7A002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79F7A001, 0x79F7A003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79F7A001, 0x79F7A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79F7A001, 0x79F7A005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79F7A001, 0x79F7A006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79F7A001, 0x79F7A007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79F7A001, 0x79F7A008, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79F7A001, 0x79F7A009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79F7A001, 0x79F7A00A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79F7A001, 0x79F7A00B, '2019-02-10 00:00:00') /* Chilly the Snowman */
-     , (0x79F7A001, 0x79F7A00C, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79F7A001, 0x79F7A00D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79F7A001, 0x79F7A00E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79F7A001, 0x79F7A00F, '2019-02-10 00:00:00') /* Gout */
-     , (0x79F7A001, 0x79F7A010, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x79F7A001, 0x79F7A002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79F7A001, 0x79F7A003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79F7A001, 0x79F7A004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79F7A001, 0x79F7A005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79F7A001, 0x79F7A006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79F7A001, 0x79F7A007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79F7A001, 0x79F7A008, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79F7A001, 0x79F7A009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79F7A001, 0x79F7A00A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79F7A001, 0x79F7A00B, '2019-02-10 00:00:00') /* Chilly the Snowman (5760) */
+     , (0x79F7A001, 0x79F7A00C, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79F7A001, 0x79F7A00D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79F7A001, 0x79F7A00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79F7A001, 0x79F7A00F, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79F7A001, 0x79F7A010, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F7A002,   226, 0x9F7A000A, 27.78758, 34.38549, 24.006, 0.6950434, 0, 0, -0.7189678,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -86,8 +86,8 @@ VALUES (0x79F7A011,  1542, 0x9F7A0009, 42.73355, 22.46033, 23.937, 0.9537169, 0,
 /* @teleloc 0x9F7A0009 [42.733550 22.460330 23.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F7A011, 0x79F7A012, '2019-02-10 00:00:00') /* Portal to Zaikhal */
-     , (0x79F7A011, 0x79F7A013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79F7A011, 0x79F7A012, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */
+     , (0x79F7A011, 0x79F7A013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F7A012, 42831, 0x9F7A0009, 42.73355, 22.46033, 23.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Portal to Zaikhal */

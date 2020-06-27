@@ -5,9 +5,9 @@ VALUES (0x7D057001,  1154, 0xD057001C, 80.23834, 86.55254, 147.3145, 0.1451685, 
 /* @teleloc 0xD057001C [80.238340 86.552540 147.314500] 0.145169 0.000000 0.000000 -0.989407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D057001, 0x7D057002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7D057001, 0x7D057003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D057001, 0x7D057004, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7D057001, 0x7D057002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7D057001, 0x7D057003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D057001, 0x7D057004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D057002,  1613, 0xD057001C, 80.23834, 86.55254, 147.3145, 0.1451685, 0, 0, -0.9894069,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */

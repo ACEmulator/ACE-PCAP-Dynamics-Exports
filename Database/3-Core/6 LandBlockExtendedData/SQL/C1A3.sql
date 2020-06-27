@@ -437,14 +437,14 @@ VALUES (0x7C1A306D,  1542, 0xC1A30105, 43.1729, 154.608, 8.000999, 0.199113, 0, 
 /* @teleloc 0xC1A30105 [43.172900 154.608000 8.000999] 0.199113 0.000000 0.000000 -0.979977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1A306D, 0x7C1A306E, '2019-02-10 00:00:00') /* Gharu'ndim Rug */
-     , (0x7C1A306D, 0x7C1A306F, '2019-02-10 00:00:00') /* Smelting Pot */
-     , (0x7C1A306D, 0x7C1A3070, '2019-02-10 00:00:00') /* Academy Coat */
-     , (0x7C1A306D, 0x7C1A3071, '2019-02-10 00:00:00') /* Academy Shortbow */
-     , (0x7C1A306D, 0x7C1A3072, '2019-02-10 00:00:00') /* Leather Boots */
-     , (0x7C1A306D, 0x7C1A3073, '2019-02-10 00:00:00') /* Amuli Leggings */
-     , (0x7C1A306D, 0x7C1A3074, '2019-02-10 00:00:00') /* Brine */
-     , (0x7C1A306D, 0x7C1A3075, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7C1A306D, 0x7C1A306E, '2019-02-10 00:00:00') /* Gharu'ndim Rug (22254) */
+     , (0x7C1A306D, 0x7C1A306F, '2019-02-10 00:00:00') /* Smelting Pot (5940) */
+     , (0x7C1A306D, 0x7C1A3070, '2019-02-10 00:00:00') /* Academy Coat (13218) */
+     , (0x7C1A306D, 0x7C1A3071, '2019-02-10 00:00:00') /* Academy Shortbow (12754) */
+     , (0x7C1A306D, 0x7C1A3072, '2019-02-10 00:00:00') /* Leather Boots (115) */
+     , (0x7C1A306D, 0x7C1A3073, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
+     , (0x7C1A306D, 0x7C1A3074, '2019-02-10 00:00:00') /* Brine (4755) */
+     , (0x7C1A306D, 0x7C1A3075, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1A306E, 22254, 0xC1A30105, 43.1729, 154.608, 8.000999, 0.199113, 0, 0, -0.9799765,  True, '2019-02-10 00:00:00'); /* Gharu'ndim Rug */

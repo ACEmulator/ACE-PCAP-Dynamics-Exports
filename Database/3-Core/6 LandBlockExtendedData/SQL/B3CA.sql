@@ -5,23 +5,23 @@ VALUES (0x7B3CA001,  1154, 0xB3CA000C, 32.67355, 89.08401, 158.5763, -0.711042, 
 /* @teleloc 0xB3CA000C [32.673550 89.084010 158.576300] -0.711042 0.000000 0.000000 -0.703150 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3CA001, 0x7B3CA002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B3CA001, 0x7B3CA003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B3CA001, 0x7B3CA004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7B3CA001, 0x7B3CA005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B3CA001, 0x7B3CA006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B3CA001, 0x7B3CA007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B3CA001, 0x7B3CA008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B3CA001, 0x7B3CA009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B3CA001, 0x7B3CA00A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B3CA001, 0x7B3CA00B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B3CA001, 0x7B3CA00C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B3CA001, 0x7B3CA00D, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B3CA001, 0x7B3CA00E, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B3CA001, 0x7B3CA00F, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B3CA001, 0x7B3CA010, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B3CA001, 0x7B3CA011, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7B3CA001, 0x7B3CA012, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7B3CA001, 0x7B3CA002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B3CA001, 0x7B3CA003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B3CA001, 0x7B3CA004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B3CA001, 0x7B3CA005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B3CA001, 0x7B3CA006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B3CA001, 0x7B3CA007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B3CA001, 0x7B3CA008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B3CA001, 0x7B3CA009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B3CA001, 0x7B3CA00A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B3CA001, 0x7B3CA00B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B3CA001, 0x7B3CA00C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B3CA001, 0x7B3CA00D, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B3CA001, 0x7B3CA00E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B3CA001, 0x7B3CA00F, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B3CA001, 0x7B3CA010, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B3CA001, 0x7B3CA011, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7B3CA001, 0x7B3CA012, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3CA002, 22009, 0xB3CA000C, 32.67355, 89.08401, 158.5763, -0.711042, 0, 0, -0.7031495,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -96,10 +96,10 @@ VALUES (0x7B3CA013,  1542, 0xB3CA002D, 139.6797, 110.5113, 148.657, 0.7071068, 0
 /* @teleloc 0xB3CA002D [139.679700 110.511300 148.657000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3CA013, 0x7B3CA014, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x7B3CA013, 0x7B3CA015, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B3CA013, 0x7B3CA016, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B3CA013, 0x7B3CA017, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x7B3CA013, 0x7B3CA014, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x7B3CA013, 0x7B3CA015, '2019-02-10 00:00:00') /* Gem (2406) */
+     , (0x7B3CA013, 0x7B3CA016, '2019-02-10 00:00:00') /* Gem (2419) */
+     , (0x7B3CA013, 0x7B3CA017, '2019-02-10 00:00:00') /* Gem (2420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3CA014,  8190, 0xB3CA002D, 139.6797, 110.5113, 148.657, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* The Floating City */

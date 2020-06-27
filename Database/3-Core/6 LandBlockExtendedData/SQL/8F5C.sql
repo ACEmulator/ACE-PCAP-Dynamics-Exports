@@ -5,20 +5,20 @@ VALUES (0x78F5C001,  1154, 0x8F5C0034, 144.0736, 76.13879, 30.0025, -0.9987864, 
 /* @teleloc 0x8F5C0034 [144.073600 76.138790 30.002500] -0.998786 0.000000 0.000000 -0.049250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F5C001, 0x78F5C002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F5C001, 0x78F5C003, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x78F5C001, 0x78F5C004, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x78F5C001, 0x78F5C005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x78F5C001, 0x78F5C006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78F5C001, 0x78F5C007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78F5C001, 0x78F5C008, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78F5C001, 0x78F5C009, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78F5C001, 0x78F5C00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x78F5C001, 0x78F5C00B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78F5C001, 0x78F5C00C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x78F5C001, 0x78F5C00D, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78F5C001, 0x78F5C00E, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78F5C001, 0x78F5C00F, '2019-02-10 00:00:00') /* Brown Armoredillo */;
+VALUES (0x78F5C001, 0x78F5C002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F5C001, 0x78F5C003, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x78F5C001, 0x78F5C004, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x78F5C001, 0x78F5C005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x78F5C001, 0x78F5C006, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78F5C001, 0x78F5C007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78F5C001, 0x78F5C008, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78F5C001, 0x78F5C009, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78F5C001, 0x78F5C00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x78F5C001, 0x78F5C00B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78F5C001, 0x78F5C00C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x78F5C001, 0x78F5C00D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78F5C001, 0x78F5C00E, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78F5C001, 0x78F5C00F, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F5C002,  1761, 0x8F5C0034, 144.0736, 76.13879, 30.0025, -0.9987864, 0, 0, -0.04925013,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -81,8 +81,8 @@ VALUES (0x78F5C010,  1542, 0x8F5C0034, 156.5847, 73.60395, 30.91506, 1, 0, 0, 0,
 /* @teleloc 0x8F5C0034 [156.584700 73.603950 30.915060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F5C010, 0x78F5C011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78F5C010, 0x78F5C012, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x78F5C010, 0x78F5C011, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x78F5C010, 0x78F5C012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F5C011, 22568, 0x8F5C0034, 156.5847, 73.60395, 30.91506, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

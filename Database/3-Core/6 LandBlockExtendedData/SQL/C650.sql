@@ -5,9 +5,9 @@ VALUES (0x7C650001,  1154, 0xC650000B, 28.19013, 50.54195, 22.90118, -0.6134765,
 /* @teleloc 0xC650000B [28.190130 50.541950 22.901180] -0.613477 0.000000 0.000000 -0.789713 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C650001, 0x7C650002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C650001, 0x7C650003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C650001, 0x7C650004, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7C650001, 0x7C650002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C650001, 0x7C650003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C650001, 0x7C650004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C650002,  9251, 0xC650000B, 28.19013, 50.54195, 22.90118, -0.6134765, 0, 0, -0.789713,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

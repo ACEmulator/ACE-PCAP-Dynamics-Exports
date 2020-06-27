@@ -5,10 +5,10 @@ VALUES (0x7E62D001,  1154, 0xE62D0035, 148.4059, 96.44483, 110.2408, 0.7933533, 
 /* @teleloc 0xE62D0035 [148.405900 96.444830 110.240800] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62D001, 0x7E62D002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E62D001, 0x7E62D003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E62D001, 0x7E62D004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7E62D001, 0x7E62D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7E62D001, 0x7E62D002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E62D001, 0x7E62D003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E62D001, 0x7E62D004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7E62D001, 0x7E62D005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62D002,  7179, 0xE62D0035, 148.4059, 96.44483, 110.2408, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */

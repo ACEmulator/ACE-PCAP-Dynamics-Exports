@@ -5,12 +5,12 @@ VALUES (0x77781001,  1154, 0x77810035, 163.8736, 102.0888, 29.51492, 0.9659258, 
 /* @teleloc 0x77810035 [163.873600 102.088800 29.514920] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77781001, 0x77781002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77781001, 0x77781003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x77781001, 0x77781004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x77781001, 0x77781005, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77781001, 0x77781006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77781001, 0x77781007, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x77781001, 0x77781002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77781001, 0x77781003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x77781001, 0x77781004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x77781001, 0x77781005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77781001, 0x77781006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77781001, 0x77781007, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77781002,  2439, 0x77810035, 163.8736, 102.0888, 29.51492, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

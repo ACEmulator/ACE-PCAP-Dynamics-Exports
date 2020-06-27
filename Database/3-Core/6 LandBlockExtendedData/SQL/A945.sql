@@ -5,11 +5,11 @@ VALUES (0x7A945001,  1154, 0xA9450030, 136.7749, 175.1022, 21.81479, 0.1007643, 
 /* @teleloc 0xA9450030 [136.774900 175.102200 21.814790] 0.100764 0.000000 0.000000 -0.994910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A945001, 0x7A945002, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A945001, 0x7A945003, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A945001, 0x7A945004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A945001, 0x7A945005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A945001, 0x7A945006, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A945001, 0x7A945002, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A945001, 0x7A945003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A945001, 0x7A945004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A945001, 0x7A945005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A945001, 0x7A945006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A945002,  9242, 0xA9450030, 136.7749, 175.1022, 21.81479, 0.1007643, 0, 0, -0.9949103,  True, '2019-02-10 00:00:00'); /* Innocent Doll */

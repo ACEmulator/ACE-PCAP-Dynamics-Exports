@@ -5,23 +5,23 @@ VALUES (0x7BDD4001,  1154, 0xBDD40011, 51.89642, 19.96841, 82.98161, 0.5596781, 
 /* @teleloc 0xBDD40011 [51.896420 19.968410 82.981610] 0.559678 0.000000 0.000000 -0.828710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD4001, 0x7BDD4002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD4001, 0x7BDD4003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD4001, 0x7BDD4004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD4001, 0x7BDD4005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD4001, 0x7BDD4006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BDD4001, 0x7BDD4007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD4001, 0x7BDD4008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BDD4001, 0x7BDD4009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BDD4001, 0x7BDD400A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BDD4001, 0x7BDD400B, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BDD4001, 0x7BDD400C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD4001, 0x7BDD400D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD4001, 0x7BDD400E, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD4001, 0x7BDD400F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BDD4001, 0x7BDD4010, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BDD4001, 0x7BDD4011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD4001, 0x7BDD4012, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7BDD4001, 0x7BDD4002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD4001, 0x7BDD4003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD4001, 0x7BDD4004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD4001, 0x7BDD4005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD4001, 0x7BDD4006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BDD4001, 0x7BDD4007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD4001, 0x7BDD4008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BDD4001, 0x7BDD4009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BDD4001, 0x7BDD400A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BDD4001, 0x7BDD400B, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BDD4001, 0x7BDD400C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD4001, 0x7BDD400D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD4001, 0x7BDD400E, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD4001, 0x7BDD400F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BDD4001, 0x7BDD4010, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BDD4001, 0x7BDD4011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD4001, 0x7BDD4012, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD4002,  7123, 0xBDD40011, 51.89642, 19.96841, 82.98161, 0.5596781, 0, 0, -0.8287101,  True, '2019-02-10 00:00:00'); /* Dark Leech */

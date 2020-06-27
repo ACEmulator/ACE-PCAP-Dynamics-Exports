@@ -5,20 +5,20 @@ VALUES (0x7AED4001,  1154, 0xAED4002B, 128.6215, 55.96954, 41.9925, 0.8778542, 0
 /* @teleloc 0xAED4002B [128.621500 55.969540 41.992500] 0.877854 0.000000 0.000000 -0.478928 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AED4001, 0x7AED4002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AED4001, 0x7AED4003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7AED4001, 0x7AED4004, '2019-02-10 00:00:00') /* Ember */
-     , (0x7AED4001, 0x7AED4005, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7AED4001, 0x7AED4006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7AED4001, 0x7AED4007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7AED4001, 0x7AED4008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AED4001, 0x7AED4009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AED4001, 0x7AED400A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7AED4001, 0x7AED400B, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AED4001, 0x7AED400C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7AED4001, 0x7AED400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AED4001, 0x7AED400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7AED4001, 0x7AED400F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7AED4001, 0x7AED4002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AED4001, 0x7AED4003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7AED4001, 0x7AED4004, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7AED4001, 0x7AED4005, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7AED4001, 0x7AED4006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7AED4001, 0x7AED4007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7AED4001, 0x7AED4008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AED4001, 0x7AED4009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AED4001, 0x7AED400A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7AED4001, 0x7AED400B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AED4001, 0x7AED400C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7AED4001, 0x7AED400D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AED4001, 0x7AED400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7AED4001, 0x7AED400F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AED4002, 24294, 0xAED4002B, 128.6215, 55.96954, 41.9925, 0.8778542, 0, 0, -0.4789279,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

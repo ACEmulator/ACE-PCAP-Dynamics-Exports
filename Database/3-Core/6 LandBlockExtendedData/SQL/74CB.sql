@@ -5,11 +5,11 @@ VALUES (0x774CB001,  1154, 0x74CB002E, 127.0365, 122.3161, 243.3584, 1, 0, 0, 0,
 /* @teleloc 0x74CB002E [127.036500 122.316100 243.358400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CB001, 0x774CB002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x774CB001, 0x774CB003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774CB001, 0x774CB004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x774CB001, 0x774CB005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x774CB001, 0x774CB006, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x774CB001, 0x774CB002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x774CB001, 0x774CB003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774CB001, 0x774CB004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x774CB001, 0x774CB005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x774CB001, 0x774CB006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CB002, 32483, 0x74CB002E, 127.0365, 122.3161, 243.3584, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

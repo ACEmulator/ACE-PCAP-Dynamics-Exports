@@ -5,16 +5,16 @@ VALUES (0x74F9C001,  1154, 0x4F9C003D, 188.1676, 100.3758, 18.09807, -0.3294291,
 /* @teleloc 0x4F9C003D [188.167600 100.375800 18.098070] -0.329429 0.000000 0.000000 -0.944180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F9C001, 0x74F9C002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74F9C001, 0x74F9C003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74F9C001, 0x74F9C004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74F9C001, 0x74F9C005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74F9C001, 0x74F9C006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74F9C001, 0x74F9C007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74F9C001, 0x74F9C008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74F9C001, 0x74F9C009, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74F9C001, 0x74F9C00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74F9C001, 0x74F9C00B, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x74F9C001, 0x74F9C002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74F9C001, 0x74F9C003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74F9C001, 0x74F9C004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74F9C001, 0x74F9C005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74F9C001, 0x74F9C006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74F9C001, 0x74F9C007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74F9C001, 0x74F9C008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74F9C001, 0x74F9C009, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74F9C001, 0x74F9C00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74F9C001, 0x74F9C00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F9C002,  7123, 0x4F9C003D, 188.1676, 100.3758, 18.09807, -0.3294291, 0, 0, -0.9441803,  True, '2019-02-10 00:00:00'); /* Dark Leech */

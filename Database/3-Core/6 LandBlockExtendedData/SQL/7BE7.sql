@@ -5,22 +5,22 @@ VALUES (0x77BE7001,  1154, 0x7BE7002F, 131.1116, 152.0037, 125.2729, 0.1306932, 
 /* @teleloc 0x7BE7002F [131.111600 152.003700 125.272900] 0.130693 0.000000 0.000000 -0.991423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BE7001, 0x77BE7002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77BE7001, 0x77BE7003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x77BE7001, 0x77BE7004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x77BE7001, 0x77BE7005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77BE7001, 0x77BE7006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x77BE7001, 0x77BE7007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77BE7001, 0x77BE7008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x77BE7001, 0x77BE7009, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x77BE7001, 0x77BE700A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x77BE7001, 0x77BE700B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x77BE7001, 0x77BE700C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x77BE7001, 0x77BE700D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77BE7001, 0x77BE700E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77BE7001, 0x77BE700F, '2019-02-10 00:00:00') /* Shivver */
-     , (0x77BE7001, 0x77BE7010, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x77BE7001, 0x77BE7011, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x77BE7001, 0x77BE7002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77BE7001, 0x77BE7003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x77BE7001, 0x77BE7004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x77BE7001, 0x77BE7005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77BE7001, 0x77BE7006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x77BE7001, 0x77BE7007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77BE7001, 0x77BE7008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x77BE7001, 0x77BE7009, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x77BE7001, 0x77BE700A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x77BE7001, 0x77BE700B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x77BE7001, 0x77BE700C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x77BE7001, 0x77BE700D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77BE7001, 0x77BE700E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77BE7001, 0x77BE700F, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x77BE7001, 0x77BE7010, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x77BE7001, 0x77BE7011, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BE7002,   214, 0x7BE7002F, 131.1116, 152.0037, 125.2729, 0.1306932, 0, 0, -0.9914228,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -91,8 +91,8 @@ VALUES (0x77BE7012,  1542, 0x7BE70010, 38.06957, 169.1066, 134.2766, 0.8612792, 
 /* @teleloc 0x7BE70010 [38.069570 169.106600 134.276600] 0.861279 0.000000 0.000000 -0.508132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BE7012, 0x77BE7013, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x77BE7012, 0x77BE7014, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x77BE7012, 0x77BE7013, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x77BE7012, 0x77BE7014, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BE7013,  8039, 0x7BE70010, 38.06957, 169.1066, 134.2766, 0.8612792, 0, 0, -0.508132,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

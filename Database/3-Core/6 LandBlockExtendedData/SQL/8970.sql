@@ -5,8 +5,8 @@ VALUES (0x78970001,  1542, 0x8970003A, 190.7437, 37.38218, 21.27, 1, 0, 0, 0, Fa
 /* @teleloc 0x8970003A [190.743700 37.382180 21.270000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78970001, 0x78970002, '2019-02-10 00:00:00') /* Gem */
-     , (0x78970001, 0x78970003, '2019-02-10 00:00:00') /* Scroll of Void Magic Mastery Self */;
+VALUES (0x78970001, 0x78970002, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x78970001, 0x78970003, '2019-02-10 00:00:00') /* Scroll of Void Magic Mastery Self (43357) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78970002,  2414, 0x8970003A, 190.7437, 37.38218, 21.27, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gem */

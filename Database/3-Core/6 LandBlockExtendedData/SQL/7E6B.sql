@@ -5,20 +5,20 @@ VALUES (0x77E6B001,  1154, 0x7E6B002C, 135.445, 79.22939, 17.89286, 0.9238795, 0
 /* @teleloc 0x7E6B002C [135.445000 79.229390 17.892860] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E6B001, 0x77E6B002, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x77E6B001, 0x77E6B003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77E6B001, 0x77E6B004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77E6B001, 0x77E6B005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x77E6B001, 0x77E6B006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x77E6B001, 0x77E6B007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77E6B001, 0x77E6B008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x77E6B001, 0x77E6B009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77E6B001, 0x77E6B00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77E6B001, 0x77E6B00B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77E6B001, 0x77E6B00C, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77E6B001, 0x77E6B00D, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x77E6B001, 0x77E6B00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77E6B001, 0x77E6B00F, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x77E6B001, 0x77E6B002, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x77E6B001, 0x77E6B003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77E6B001, 0x77E6B004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77E6B001, 0x77E6B005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x77E6B001, 0x77E6B006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x77E6B001, 0x77E6B007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77E6B001, 0x77E6B008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x77E6B001, 0x77E6B009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77E6B001, 0x77E6B00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77E6B001, 0x77E6B00B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77E6B001, 0x77E6B00C, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77E6B001, 0x77E6B00D, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x77E6B001, 0x77E6B00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77E6B001, 0x77E6B00F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6B002,  1631, 0x7E6B002C, 135.445, 79.22939, 17.89286, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Servant */
@@ -81,8 +81,8 @@ VALUES (0x77E6B010,  1542, 0x7E6B002C, 136.7873, 79.67467, 18.0385, 1, 0, 0, 0, 
 /* @teleloc 0x7E6B002C [136.787300 79.674670 18.038500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E6B010, 0x77E6B011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77E6B010, 0x77E6B012, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x77E6B010, 0x77E6B011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77E6B010, 0x77E6B012, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E6B011,  4179, 0x7E6B002C, 136.7873, 79.67467, 18.0385, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

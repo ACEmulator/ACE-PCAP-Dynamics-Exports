@@ -5,11 +5,11 @@ VALUES (0x7EC30001,  1154, 0xEC30002A, 132.3762, 42.38037, -0.8894999, 0.9238795
 /* @teleloc 0xEC30002A [132.376200 42.380370 -0.889500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC30001, 0x7EC30002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EC30001, 0x7EC30003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EC30001, 0x7EC30004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EC30001, 0x7EC30005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EC30001, 0x7EC30006, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7EC30001, 0x7EC30002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EC30001, 0x7EC30003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EC30001, 0x7EC30004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EC30001, 0x7EC30005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EC30001, 0x7EC30006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC30002,  2564, 0xEC30002A, 132.3762, 42.38037, -0.8894999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

@@ -5,30 +5,30 @@ VALUES (0x7A6EA001,  1154, 0xA6EA003C, 171.3659, 94.95879, 4.165535, 0.2125619, 
 /* @teleloc 0xA6EA003C [171.365900 94.958790 4.165535] 0.212562 0.000000 0.000000 -0.977148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6EA001, 0x7A6EA002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A6EA001, 0x7A6EA003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A6EA001, 0x7A6EA004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A6EA001, 0x7A6EA005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A6EA001, 0x7A6EA006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A6EA001, 0x7A6EA007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A6EA001, 0x7A6EA008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A6EA001, 0x7A6EA009, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7A6EA001, 0x7A6EA00A, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7A6EA001, 0x7A6EA00B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6EA001, 0x7A6EA00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6EA001, 0x7A6EA00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A6EA001, 0x7A6EA00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A6EA001, 0x7A6EA00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A6EA001, 0x7A6EA010, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x7A6EA001, 0x7A6EA011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A6EA001, 0x7A6EA012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A6EA001, 0x7A6EA013, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A6EA001, 0x7A6EA014, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A6EA001, 0x7A6EA015, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A6EA001, 0x7A6EA016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A6EA001, 0x7A6EA017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A6EA001, 0x7A6EA018, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A6EA001, 0x7A6EA019, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7A6EA001, 0x7A6EA002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A6EA001, 0x7A6EA003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A6EA001, 0x7A6EA004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A6EA001, 0x7A6EA005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A6EA001, 0x7A6EA006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A6EA001, 0x7A6EA007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A6EA001, 0x7A6EA008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A6EA001, 0x7A6EA009, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7A6EA001, 0x7A6EA00A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7A6EA001, 0x7A6EA00B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6EA001, 0x7A6EA00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6EA001, 0x7A6EA00D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A6EA001, 0x7A6EA00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A6EA001, 0x7A6EA00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A6EA001, 0x7A6EA010, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x7A6EA001, 0x7A6EA011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A6EA001, 0x7A6EA012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A6EA001, 0x7A6EA013, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A6EA001, 0x7A6EA014, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A6EA001, 0x7A6EA015, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A6EA001, 0x7A6EA016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A6EA001, 0x7A6EA017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A6EA001, 0x7A6EA018, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A6EA001, 0x7A6EA019, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6EA002, 24288, 0xA6EA003C, 171.3659, 94.95879, 4.165535, 0.2125619, 0, 0, -0.9771476,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -131,8 +131,8 @@ VALUES (0x7A6EA01A,  1542, 0xA6EA0011, 57.22005, 8.702224, 16, 0.9238795, 0, 0, 
 /* @teleloc 0xA6EA0011 [57.220050 8.702224 16.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6EA01A, 0x7A6EA01B, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7A6EA01A, 0x7A6EA01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A6EA01A, 0x7A6EA01B, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7A6EA01A, 0x7A6EA01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6EA01B,  4180, 0xA6EA0011, 57.22005, 8.702224, 16, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,17 +5,17 @@ VALUES (0x79D34001,  1154, 0x9D340038, 156.932, 179.1042, 120.78, 0.6244111, 0, 
 /* @teleloc 0x9D340038 [156.932000 179.104200 120.780000] 0.624411 0.000000 0.000000 -0.781096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D34001, 0x79D34002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79D34001, 0x79D34003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79D34001, 0x79D34004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79D34001, 0x79D34005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79D34001, 0x79D34006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79D34001, 0x79D34007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79D34001, 0x79D34008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79D34001, 0x79D34009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79D34001, 0x79D3400A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79D34001, 0x79D3400B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79D34001, 0x79D3400C, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x79D34001, 0x79D34002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79D34001, 0x79D34003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79D34001, 0x79D34004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x79D34001, 0x79D34005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79D34001, 0x79D34006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79D34001, 0x79D34007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79D34001, 0x79D34008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79D34001, 0x79D34009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79D34001, 0x79D3400A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79D34001, 0x79D3400B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79D34001, 0x79D3400C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D34002, 11528, 0x9D340038, 156.932, 179.1042, 120.78, 0.6244111, 0, 0, -0.7810959,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -66,7 +66,7 @@ VALUES (0x79D3400D,  1542, 0x9D34003E, 188.4955, 136.8853, 120.4432, 1, 0, 0, 0,
 /* @teleloc 0x9D34003E [188.495500 136.885300 120.443200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D3400D, 0x79D3400E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79D3400D, 0x79D3400E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D3400E,  4380, 0x9D34003E, 188.4955, 136.8853, 120.4432, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

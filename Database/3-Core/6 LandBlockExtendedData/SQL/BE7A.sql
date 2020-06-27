@@ -5,13 +5,13 @@ VALUES (0x7BE7A001,  1154, 0xBE7A001B, 87.89355, 53.22082, 36.02691, -0.9852675,
 /* @teleloc 0xBE7A001B [87.893550 53.220820 36.026910] -0.985268 0.000000 0.000000 -0.171020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7A001, 0x7BE7A002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BE7A001, 0x7BE7A003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BE7A001, 0x7BE7A004, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BE7A001, 0x7BE7A005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BE7A001, 0x7BE7A006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BE7A001, 0x7BE7A007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BE7A001, 0x7BE7A008, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7BE7A001, 0x7BE7A002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BE7A001, 0x7BE7A003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BE7A001, 0x7BE7A004, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BE7A001, 0x7BE7A005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BE7A001, 0x7BE7A006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BE7A001, 0x7BE7A007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BE7A001, 0x7BE7A008, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7A002,   182, 0xBE7A001B, 87.89355, 53.22082, 36.02691, -0.9852675, 0, 0, -0.1710201,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

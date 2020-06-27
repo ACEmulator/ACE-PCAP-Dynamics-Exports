@@ -5,8 +5,8 @@ VALUES (0x7C350001,  1154, 0xC350001A, 85.24275, 45.07694, 29.86007, -0.1355727,
 /* @teleloc 0xC350001A [85.242750 45.076940 29.860070] -0.135573 0.000000 0.000000 -0.990767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C350001, 0x7C350002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C350001, 0x7C350003, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7C350001, 0x7C350002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C350001, 0x7C350003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C350002,  7345, 0xC350001A, 85.24275, 45.07694, 29.86007, -0.1355727, 0, 0, -0.9907674,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

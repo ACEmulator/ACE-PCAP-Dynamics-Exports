@@ -5,15 +5,15 @@ VALUES (0x78C62001,  1154, 0x8C620012, 51.63041, 24.36117, 11.69997, 0.9238795, 
 /* @teleloc 0x8C620012 [51.630410 24.361170 11.699970] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C62001, 0x78C62002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78C62001, 0x78C62003, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78C62001, 0x78C62004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78C62001, 0x78C62005, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78C62001, 0x78C62006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78C62001, 0x78C62007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78C62001, 0x78C62008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78C62001, 0x78C62009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x78C62001, 0x78C6200A, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x78C62001, 0x78C62002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78C62001, 0x78C62003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78C62001, 0x78C62004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78C62001, 0x78C62005, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78C62001, 0x78C62006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78C62001, 0x78C62007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78C62001, 0x78C62008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78C62001, 0x78C62009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x78C62001, 0x78C6200A, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C62002,  4266, 0x8C620012, 51.63041, 24.36117, 11.69997, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -56,7 +56,7 @@ VALUES (0x78C6200B,  1542, 0x8C620012, 48.51035, 26.86421, 11.95747, 0.9914449, 
 /* @teleloc 0x8C620012 [48.510350 26.864210 11.957470] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C6200B, 0x78C6200C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78C6200B, 0x78C6200C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C6200C,  4380, 0x8C620012, 48.51035, 26.86421, 11.95747, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,20 +5,20 @@ VALUES (0x71C33001,  1154, 0x1C33000A, 36.7124, 39.0611, 66, 0.8191521, 0, 0, -0
 /* @teleloc 0x1C33000A [36.712400 39.061100 66.000000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C33001, 0x71C33002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71C33001, 0x71C33003, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71C33001, 0x71C33004, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71C33001, 0x71C33005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71C33001, 0x71C33006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71C33001, 0x71C33007, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71C33001, 0x71C33008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71C33001, 0x71C33009, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x71C33001, 0x71C3300A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71C33001, 0x71C3300B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71C33001, 0x71C3300C, '2019-02-10 00:00:00') /* Theral */
-     , (0x71C33001, 0x71C3300D, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71C33001, 0x71C3300E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71C33001, 0x71C3300F, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71C33001, 0x71C33002, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71C33001, 0x71C33003, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71C33001, 0x71C33004, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71C33001, 0x71C33005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71C33001, 0x71C33006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71C33001, 0x71C33007, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71C33001, 0x71C33008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71C33001, 0x71C33009, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x71C33001, 0x71C3300A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71C33001, 0x71C3300B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71C33001, 0x71C3300C, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x71C33001, 0x71C3300D, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71C33001, 0x71C3300E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71C33001, 0x71C3300F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C33002, 36852, 0x1C33000A, 36.7124, 39.0611, 66, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */

@@ -9,10 +9,10 @@ VALUES (0x799E6010,  1154, 0x99E6002F, 129.837, 160.089, 78.006, -0.645633, 0, 0
 /* @teleloc 0x99E6002F [129.837000 160.089000 78.006000] -0.645633 0.000000 0.000000 0.763648 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799E6010, 0x799E6011, '2019-02-10 00:00:00') /* Aun Tikakhe */
-     , (0x799E6010, 0x799E6012, '2019-02-10 00:00:00') /* Aun Saritea */
-     , (0x799E6010, 0x799E6013, '2019-02-10 00:00:00') /* Aun Aulakhe */
-     , (0x799E6010, 0x799E6014, '2019-02-10 00:00:00') /* Aun Saritea */;
+VALUES (0x799E6010, 0x799E6011, '2019-02-10 00:00:00') /* Aun Tikakhe (14577) */
+     , (0x799E6010, 0x799E6012, '2019-02-10 00:00:00') /* Aun Saritea (14578) */
+     , (0x799E6010, 0x799E6013, '2019-02-10 00:00:00') /* Aun Aulakhe (14571) */
+     , (0x799E6010, 0x799E6014, '2019-02-10 00:00:00') /* Aun Saritea (14578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799E6011, 14577, 0x99E6002F, 129.837, 160.089, 78.006, -0.645633, 0, 0, 0.763648,  True, '2019-02-10 00:00:00'); /* Aun Tikakhe */
@@ -35,7 +35,7 @@ VALUES (0x799E6015,  1542, 0x99E6003F, 180.325, 156.886, 77.9, 0.725186, 0, 0, -
 /* @teleloc 0x99E6003F [180.325000 156.886000 77.900000] 0.725186 0.000000 0.000000 -0.688553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799E6015, 0x799E6016, '2019-02-10 00:00:00') /* Akiekie Ember */;
+VALUES (0x799E6015, 0x799E6016, '2019-02-10 00:00:00') /* Akiekie Ember (14566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799E6016, 14566, 0x99E6003F, 180.325, 156.886, 77.9, 0.725186, 0, 0, -0.688553,  True, '2019-02-10 00:00:00'); /* Akiekie Ember */

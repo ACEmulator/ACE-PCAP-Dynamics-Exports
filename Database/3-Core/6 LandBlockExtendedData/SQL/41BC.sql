@@ -5,10 +5,10 @@ VALUES (0x741BC001,  1154, 0x41BC0022, 107.9606, 45.10218, 12.76274, 0.0569814, 
 /* @teleloc 0x41BC0022 [107.960600 45.102180 12.762740] 0.056981 0.000000 0.000000 -0.998375 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741BC001, 0x741BC002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x741BC001, 0x741BC003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x741BC001, 0x741BC004, '2019-02-10 00:00:00') /* Frost */
-     , (0x741BC001, 0x741BC005, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x741BC001, 0x741BC002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x741BC001, 0x741BC003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x741BC001, 0x741BC004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x741BC001, 0x741BC005, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741BC002,  7123, 0x41BC0022, 107.9606, 45.10218, 12.76274, 0.0569814, 0, 0, -0.9983752,  True, '2019-02-10 00:00:00'); /* Dark Leech */

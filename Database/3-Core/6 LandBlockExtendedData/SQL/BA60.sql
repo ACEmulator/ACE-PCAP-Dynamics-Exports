@@ -5,20 +5,20 @@ VALUES (0x7BA60001,  1154, 0xBA600100, 129.361, 170.194, -0.3329999, 0.1903501, 
 /* @teleloc 0xBA600100 [129.361000 170.194000 -0.333000] 0.190350 0.000000 0.000000 -0.981716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA60001, 0x7BA60002, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60003, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60004, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BA60001, 0x7BA60005, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60006, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60007, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60008, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA60009, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BA60001, 0x7BA6000A, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA6000B, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BA60001, 0x7BA6000C, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7BA60001, 0x7BA6000D, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BA60001, 0x7BA6000E, '2019-02-10 00:00:00') /* Apozim */
-     , (0x7BA60001, 0x7BA6000F, '2019-02-10 00:00:00') /* Apozim */;
+VALUES (0x7BA60001, 0x7BA60002, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60003, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60004, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BA60001, 0x7BA60005, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60006, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60007, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60008, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA60009, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BA60001, 0x7BA6000A, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA6000B, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BA60001, 0x7BA6000C, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7BA60001, 0x7BA6000D, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BA60001, 0x7BA6000E, '2019-02-10 00:00:00') /* Apozim (20186) */
+     , (0x7BA60001, 0x7BA6000F, '2019-02-10 00:00:00') /* Apozim (20186) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA60002,  7106, 0xBA600100, 129.361, 170.194, -0.3329999, 0.1903501, 0, 0, -0.9817163,  True, '2019-02-10 00:00:00'); /* Sewer Rat */
@@ -81,9 +81,9 @@ VALUES (0x7BA60010,  1542, 0xBA600100, 136.806, 177.281, -0.2754593, 0.1857039, 
 /* @teleloc 0xBA600100 [136.806000 177.281000 -0.275459] 0.185704 0.000000 0.000000 0.982606 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA60010, 0x7BA60011, '2019-02-10 00:00:00') /* Textbook */
-     , (0x7BA60010, 0x7BA60012, '2019-02-10 00:00:00') /* Soiled Parchment */
-     , (0x7BA60010, 0x7BA60013, '2019-02-10 00:00:00') /* Minor Stinging Stone */;
+VALUES (0x7BA60010, 0x7BA60011, '2019-02-10 00:00:00') /* Textbook (6407) */
+     , (0x7BA60010, 0x7BA60012, '2019-02-10 00:00:00') /* Soiled Parchment (6415) */
+     , (0x7BA60010, 0x7BA60013, '2019-02-10 00:00:00') /* Minor Stinging Stone (6319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA60011,  6407, 0xBA600100, 136.806, 177.281, -0.2754593, 0.1857039, 0, 0, 0.9826058,  True, '2019-02-10 00:00:00'); /* Textbook */

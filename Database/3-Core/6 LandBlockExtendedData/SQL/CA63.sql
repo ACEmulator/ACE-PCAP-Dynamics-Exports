@@ -5,21 +5,21 @@ VALUES (0x7CA63001,  1154, 0xCA630037, 152.3906, 144.6418, 6.0075, -0.9516894, 0
 /* @teleloc 0xCA630037 [152.390600 144.641800 6.007500] -0.951689 0.000000 0.000000 -0.307063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA63001, 0x7CA63002, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CA63001, 0x7CA63003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CA63001, 0x7CA63004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CA63001, 0x7CA63005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CA63001, 0x7CA63006, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CA63001, 0x7CA63007, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7CA63001, 0x7CA63008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA63001, 0x7CA63009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA63001, 0x7CA6300A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CA63001, 0x7CA6300B, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CA63001, 0x7CA6300C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7CA63001, 0x7CA6300D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CA63001, 0x7CA6300E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CA63001, 0x7CA6300F, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7CA63001, 0x7CA63010, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7CA63001, 0x7CA63002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CA63001, 0x7CA63003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CA63001, 0x7CA63004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CA63001, 0x7CA63005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CA63001, 0x7CA63006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CA63001, 0x7CA63007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7CA63001, 0x7CA63008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA63001, 0x7CA63009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA63001, 0x7CA6300A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CA63001, 0x7CA6300B, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CA63001, 0x7CA6300C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7CA63001, 0x7CA6300D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CA63001, 0x7CA6300E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CA63001, 0x7CA6300F, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7CA63001, 0x7CA63010, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA63002,   204, 0xCA630037, 152.3906, 144.6418, 6.0075, -0.9516894, 0, 0, -0.3070625,  True, '2019-02-10 00:00:00'); /* Lich */

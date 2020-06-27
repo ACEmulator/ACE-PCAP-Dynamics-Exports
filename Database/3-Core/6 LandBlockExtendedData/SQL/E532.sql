@@ -121,9 +121,9 @@ VALUES (0x7E53202E,  1154, 0xE5320100, 181.889, 39.9224, 32.405, -0.993403, 0, 0
 /* @teleloc 0xE5320100 [181.889000 39.922400 32.405000] -0.993403 0.000000 0.000000 0.114678 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E53202E, 0x7E53202F, '2019-02-10 00:00:00') /* Nawamara Ujio */
-     , (0x7E53202E, 0x7E532030, '2019-02-10 00:00:00') /* Apprentice Cook */
-     , (0x7E53202E, 0x7E532031, '2019-02-10 00:00:00') /* Agent of the Arcanum */;
+VALUES (0x7E53202E, 0x7E53202F, '2019-02-10 00:00:00') /* Nawamara Ujio (28682) */
+     , (0x7E53202E, 0x7E532030, '2019-02-10 00:00:00') /* Apprentice Cook (28187) */
+     , (0x7E53202E, 0x7E532031, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E53202F, 28682, 0xE5320100, 181.889, 39.9224, 32.405, -0.993403, 0, 0, 0.114678,  True, '2019-02-10 00:00:00'); /* Nawamara Ujio */

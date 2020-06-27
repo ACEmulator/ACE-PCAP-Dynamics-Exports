@@ -5,20 +5,20 @@ VALUES (0x7A971001,  1154, 0xA9710039, 168.3741, 1.824071, 44.00715, -0.7431223,
 /* @teleloc 0xA9710039 [168.374100 1.824071 44.007150] -0.743122 0.000000 0.000000 -0.669156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A971001, 0x7A971002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A971001, 0x7A971003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A971001, 0x7A971004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A971001, 0x7A971005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A971001, 0x7A971006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A971001, 0x7A971007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A971001, 0x7A971008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A971001, 0x7A971009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A971001, 0x7A97100A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A971001, 0x7A97100B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A971001, 0x7A97100C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A971001, 0x7A97100D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A971001, 0x7A97100E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A971001, 0x7A97100F, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7A971001, 0x7A971002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A971001, 0x7A971003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A971001, 0x7A971004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A971001, 0x7A971005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A971001, 0x7A971006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A971001, 0x7A971007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A971001, 0x7A971008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A971001, 0x7A971009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A971001, 0x7A97100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A971001, 0x7A97100B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A971001, 0x7A97100C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A971001, 0x7A97100D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A971001, 0x7A97100E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A971001, 0x7A97100F, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A971002, 22809, 0xA9710039, 168.3741, 1.824071, 44.00715, -0.7431223, 0, 0, -0.6691556,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -81,7 +81,7 @@ VALUES (0x7A971010,  1542, 0xA971001C, 75.17139, 84.53308, 38.44122, 0.2141959, 
 /* @teleloc 0xA971001C [75.171390 84.533080 38.441220] 0.214196 0.000000 0.000000 -0.976791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A971010, 0x7A971011, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7A971010, 0x7A971011, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A971011, 15715, 0xA971001C, 75.17139, 84.53308, 38.44122, 0.2141959, 0, 0, -0.9767907,  True, '2019-02-10 00:00:00'); /* Sunflower */

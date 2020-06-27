@@ -5,12 +5,12 @@ VALUES (0x7CF4F001,  1154, 0xCF4F0018, 71.12762, 175.9853, 248.6074, 0.9238795, 
 /* @teleloc 0xCF4F0018 [71.127620 175.985300 248.607400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF4F001, 0x7CF4F002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CF4F001, 0x7CF4F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CF4F001, 0x7CF4F004, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CF4F001, 0x7CF4F005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CF4F001, 0x7CF4F006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CF4F001, 0x7CF4F007, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7CF4F001, 0x7CF4F002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CF4F001, 0x7CF4F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CF4F001, 0x7CF4F004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CF4F001, 0x7CF4F005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CF4F001, 0x7CF4F006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CF4F001, 0x7CF4F007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF4F002,   195, 0xCF4F0018, 71.12762, 175.9853, 248.6074, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */

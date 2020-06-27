@@ -5,11 +5,11 @@ VALUES (0x74635001,  1154, 0x4635002F, 120.5815, 159.3661, 68.005, 0.7071068, 0,
 /* @teleloc 0x4635002F [120.581500 159.366100 68.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74635001, 0x74635002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74635001, 0x74635003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74635001, 0x74635004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74635001, 0x74635005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74635001, 0x74635006, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x74635001, 0x74635002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74635001, 0x74635003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74635001, 0x74635004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74635001, 0x74635005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74635001, 0x74635006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74635002,  1758, 0x4635002F, 120.5815, 159.3661, 68.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -36,8 +36,8 @@ VALUES (0x74635007,  1542, 0x46350037, 166.2363, 148.7032, 67.937, -0.4730582, 0
 /* @teleloc 0x46350037 [166.236300 148.703200 67.937000] -0.473058 0.000000 0.000000 -0.881031 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74635007, 0x74635008, '2019-02-10 00:00:00') /* Gateway */
-     , (0x74635007, 0x74635009, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x74635007, 0x74635008, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x74635007, 0x74635009, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74635008,  1955, 0x46350037, 166.2363, 148.7032, 67.937, -0.4730582, 0, 0, -0.8810312,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,22 +5,22 @@ VALUES (0x75CD3001,  1154, 0x5CD30006, 16.56631, 123.2968, 48.55597, -0.396479, 
 /* @teleloc 0x5CD30006 [16.566310 123.296800 48.555970] -0.396479 0.000000 0.000000 -0.918044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CD3001, 0x75CD3002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x75CD3001, 0x75CD3003, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x75CD3001, 0x75CD3004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x75CD3001, 0x75CD3005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x75CD3001, 0x75CD3006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75CD3001, 0x75CD3007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75CD3001, 0x75CD3008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75CD3001, 0x75CD3009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75CD3001, 0x75CD300A, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x75CD3001, 0x75CD300B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75CD3001, 0x75CD300C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75CD3001, 0x75CD300D, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75CD3001, 0x75CD300E, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x75CD3001, 0x75CD300F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x75CD3001, 0x75CD3010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75CD3001, 0x75CD3011, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x75CD3001, 0x75CD3002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x75CD3001, 0x75CD3003, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x75CD3001, 0x75CD3004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x75CD3001, 0x75CD3005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x75CD3001, 0x75CD3006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75CD3001, 0x75CD3007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x75CD3001, 0x75CD3008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x75CD3001, 0x75CD3009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75CD3001, 0x75CD300A, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x75CD3001, 0x75CD300B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75CD3001, 0x75CD300C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75CD3001, 0x75CD300D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75CD3001, 0x75CD300E, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x75CD3001, 0x75CD300F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x75CD3001, 0x75CD3010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75CD3001, 0x75CD3011, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CD3002, 23617, 0x5CD30006, 16.56631, 123.2968, 48.55597, -0.396479, 0, 0, -0.9180438,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

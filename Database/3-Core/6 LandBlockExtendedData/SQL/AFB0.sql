@@ -5,13 +5,13 @@ VALUES (0x7AFB0001,  1154, 0xAFB00015, 64.43438, 107.3496, 35.26443, 0.1073061, 
 /* @teleloc 0xAFB00015 [64.434380 107.349600 35.264430] 0.107306 0.000000 0.000000 -0.994226 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFB0001, 0x7AFB0002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AFB0001, 0x7AFB0003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFB0001, 0x7AFB0004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AFB0001, 0x7AFB0005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AFB0001, 0x7AFB0006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AFB0001, 0x7AFB0007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFB0001, 0x7AFB0008, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7AFB0001, 0x7AFB0002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AFB0001, 0x7AFB0003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFB0001, 0x7AFB0004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AFB0001, 0x7AFB0005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AFB0001, 0x7AFB0006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AFB0001, 0x7AFB0007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFB0001, 0x7AFB0008, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB0002,   192, 0xAFB00015, 64.43438, 107.3496, 35.26443, 0.1073061, 0, 0, -0.994226,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

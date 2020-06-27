@@ -5,11 +5,11 @@ VALUES (0x7194D001,  1154, 0x194D002C, 137.5583, 92.48336, 0.00454998, 0.7256836
 /* @teleloc 0x194D002C [137.558300 92.483360 0.004550] 0.725684 0.000000 0.000000 -0.688029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7194D001, 0x7194D002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7194D001, 0x7194D003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7194D001, 0x7194D004, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7194D001, 0x7194D005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7194D001, 0x7194D006, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x7194D001, 0x7194D002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7194D001, 0x7194D003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7194D001, 0x7194D004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7194D001, 0x7194D005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7194D001, 0x7194D006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7194D002, 36821, 0x194D002C, 137.5583, 92.48336, 0.00454998, 0.7256836, 0, 0, -0.6880286,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -36,7 +36,7 @@ VALUES (0x7194D007,  1542, 0x194D003E, 190.8792, 126.4702, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x194D003E [190.879200 126.470200 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7194D007, 0x7194D008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7194D007, 0x7194D008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7194D008,  4179, 0x194D003E, 190.8792, 126.4702, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

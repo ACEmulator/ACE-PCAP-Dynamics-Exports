@@ -5,10 +5,10 @@ VALUES (0x749AE001,  1154, 0x49AE0008, 1.297165, 180.0451, 61.11188, -0.4330345,
 /* @teleloc 0x49AE0008 [1.297165 180.045100 61.111880] -0.433035 0.000000 0.000000 -0.901377 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749AE001, 0x749AE002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x749AE001, 0x749AE003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x749AE001, 0x749AE004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x749AE001, 0x749AE005, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x749AE001, 0x749AE002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x749AE001, 0x749AE003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x749AE001, 0x749AE004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x749AE001, 0x749AE005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749AE002, 24294, 0x49AE0008, 1.297165, 180.0451, 61.11188, -0.4330345, 0, 0, -0.9013773,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -31,7 +31,7 @@ VALUES (0x749AE006,  1542, 0x49AE001F, 79.74191, 153.5733, 75.94648, -0.7722029,
 /* @teleloc 0x49AE001F [79.741910 153.573300 75.946480] -0.772203 0.000000 0.000000 -0.635376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749AE006, 0x749AE007, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x749AE006, 0x749AE007, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749AE007, 31687, 0x49AE001F, 79.74191, 153.5733, 75.94648, -0.7722029, 0, 0, -0.635376,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

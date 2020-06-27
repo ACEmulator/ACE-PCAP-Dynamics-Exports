@@ -5,15 +5,15 @@ VALUES (0x740F3001,  1154, 0x40F30019, 93.43308, 14.72208, 0.006600022, 0.840766
 /* @teleloc 0x40F30019 [93.433080 14.722080 0.006600] 0.840767 0.000000 0.000000 -0.541398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740F3001, 0x740F3002, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x740F3001, 0x740F3003, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740F3001, 0x740F3004, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x740F3001, 0x740F3005, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x740F3001, 0x740F3006, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x740F3001, 0x740F3007, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x740F3001, 0x740F3008, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x740F3001, 0x740F3009, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x740F3001, 0x740F300A, '2019-02-10 00:00:00') /* Ruschk Laktar */;
+VALUES (0x740F3001, 0x740F3002, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x740F3001, 0x740F3003, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740F3001, 0x740F3004, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x740F3001, 0x740F3005, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x740F3001, 0x740F3006, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x740F3001, 0x740F3007, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x740F3001, 0x740F3008, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x740F3001, 0x740F3009, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x740F3001, 0x740F300A, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740F3002, 29342, 0x40F30019, 93.43308, 14.72208, 0.006600022, 0.8407668, 0, 0, -0.5413975,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */

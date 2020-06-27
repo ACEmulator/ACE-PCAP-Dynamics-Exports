@@ -5,10 +5,10 @@ VALUES (0x79077001,  1154, 0x90770013, 61.23877, 58.04805, 64.48635, -0.9980509,
 /* @teleloc 0x90770013 [61.238770 58.048050 64.486350] -0.998051 0.000000 0.000000 -0.062406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79077001, 0x79077002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79077001, 0x79077003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x79077001, 0x79077004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x79077001, 0x79077005, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x79077001, 0x79077002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79077001, 0x79077003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x79077001, 0x79077004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x79077001, 0x79077005, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79077002,  1760, 0x90770013, 61.23877, 58.04805, 64.48635, -0.9980509, 0, 0, -0.06240569,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -31,7 +31,7 @@ VALUES (0x79077006,  1542, 0x90770013, 62.90469, 61.21898, 64.61242, 0.6427876, 
 /* @teleloc 0x90770013 [62.904690 61.218980 64.612420] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79077006, 0x79077007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79077006, 0x79077007, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79077007,  4381, 0x90770013, 62.90469, 61.21898, 64.61242, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,30 +5,30 @@ VALUES (0x773EC001,  1154, 0x73EC0032, 159.163, 32.28038, 177.4808, -4.371139E-0
 /* @teleloc 0x73EC0032 [159.163000 32.280380 177.480800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773EC001, 0x773EC002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x773EC001, 0x773EC003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x773EC001, 0x773EC004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773EC001, 0x773EC005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773EC001, 0x773EC006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x773EC001, 0x773EC007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x773EC001, 0x773EC008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x773EC001, 0x773EC009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x773EC001, 0x773EC00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x773EC001, 0x773EC00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x773EC001, 0x773EC00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x773EC001, 0x773EC00D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x773EC001, 0x773EC00E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x773EC001, 0x773EC00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x773EC001, 0x773EC010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x773EC001, 0x773EC011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x773EC001, 0x773EC012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x773EC001, 0x773EC013, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x773EC001, 0x773EC014, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x773EC001, 0x773EC015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x773EC001, 0x773EC016, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x773EC001, 0x773EC017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x773EC001, 0x773EC018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x773EC001, 0x773EC019, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x773EC001, 0x773EC002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x773EC001, 0x773EC003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x773EC001, 0x773EC004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773EC001, 0x773EC005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773EC001, 0x773EC006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x773EC001, 0x773EC007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x773EC001, 0x773EC008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x773EC001, 0x773EC009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x773EC001, 0x773EC00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x773EC001, 0x773EC00B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x773EC001, 0x773EC00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x773EC001, 0x773EC00D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x773EC001, 0x773EC00E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x773EC001, 0x773EC00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x773EC001, 0x773EC010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x773EC001, 0x773EC011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x773EC001, 0x773EC012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x773EC001, 0x773EC013, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x773EC001, 0x773EC014, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x773EC001, 0x773EC015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x773EC001, 0x773EC016, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x773EC001, 0x773EC017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x773EC001, 0x773EC018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x773EC001, 0x773EC019, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773EC002,  7982, 0x73EC0032, 159.163, 32.28038, 177.4808, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -131,13 +131,13 @@ VALUES (0x773EC01A,  1542, 0x73EC002E, 132.5449, 143.5675, 119.274, 0.942524, 0,
 /* @teleloc 0x73EC002E [132.544900 143.567500 119.274000] 0.942524 0.000000 0.000000 -0.334139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773EC01A, 0x773EC01B, '2019-02-10 00:00:00') /* Rock */
-     , (0x773EC01A, 0x773EC01C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x773EC01A, 0x773EC01D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x773EC01A, 0x773EC01E, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x773EC01A, 0x773EC01F, '2019-02-10 00:00:00') /* Rock */
-     , (0x773EC01A, 0x773EC020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x773EC01A, 0x773EC021, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x773EC01A, 0x773EC01B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x773EC01A, 0x773EC01C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x773EC01A, 0x773EC01D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x773EC01A, 0x773EC01E, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x773EC01A, 0x773EC01F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x773EC01A, 0x773EC020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x773EC01A, 0x773EC021, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773EC01B, 42528, 0x73EC002E, 132.5449, 143.5675, 119.274, 0.942524, 0, 0, -0.3341387,  True, '2019-02-10 00:00:00'); /* Rock */

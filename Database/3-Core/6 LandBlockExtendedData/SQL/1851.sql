@@ -5,16 +5,16 @@ VALUES (0x71851001,  1154, 0x1851002F, 132.4215, 165.3326, 41.44442, 0.01548784,
 /* @teleloc 0x1851002F [132.421500 165.332600 41.444420] 0.015488 0.000000 0.000000 -0.999880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71851001, 0x71851002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71851001, 0x71851003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71851001, 0x71851004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71851001, 0x71851005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x71851001, 0x71851006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x71851001, 0x71851007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71851001, 0x71851008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71851001, 0x71851009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71851001, 0x7185100A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71851001, 0x7185100B, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x71851001, 0x71851002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71851001, 0x71851003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71851001, 0x71851004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71851001, 0x71851005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x71851001, 0x71851006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x71851001, 0x71851007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71851001, 0x71851008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71851001, 0x71851009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71851001, 0x7185100A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71851001, 0x7185100B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71851002,  7982, 0x1851002F, 132.4215, 165.3326, 41.44442, 0.01548784, 0, 0, -0.9998801,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

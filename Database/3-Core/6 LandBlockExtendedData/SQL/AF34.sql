@@ -5,16 +5,16 @@ VALUES (0x7AF34001,  1154, 0xAF340027, 106.4687, 166.5021, 37.87785, 0.6427335, 
 /* @teleloc 0xAF340027 [106.468700 166.502100 37.877850] 0.642734 0.000000 0.000000 -0.766090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF34001, 0x7AF34002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AF34001, 0x7AF34003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AF34001, 0x7AF34004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AF34001, 0x7AF34005, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7AF34001, 0x7AF34006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AF34001, 0x7AF34007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AF34001, 0x7AF34008, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AF34001, 0x7AF34009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AF34001, 0x7AF3400A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AF34001, 0x7AF3400B, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7AF34001, 0x7AF34002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AF34001, 0x7AF34003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AF34001, 0x7AF34004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AF34001, 0x7AF34005, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7AF34001, 0x7AF34006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AF34001, 0x7AF34007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AF34001, 0x7AF34008, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AF34001, 0x7AF34009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AF34001, 0x7AF3400A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AF34001, 0x7AF3400B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF34002,  8673, 0xAF340027, 106.4687, 166.5021, 37.87785, 0.6427335, 0, 0, -0.7660898,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -61,7 +61,7 @@ VALUES (0x7AF3400C,  1542, 0xAF340019, 90.06815, 22.13867, 45.68978, 0.08285201,
 /* @teleloc 0xAF340019 [90.068150 22.138670 45.689780] 0.082852 0.000000 0.000000 -0.996562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF3400C, 0x7AF3400D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7AF3400C, 0x7AF3400D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF3400D,  8037, 0xAF340019, 90.06815, 22.13867, 45.68978, 0.08285201, 0, 0, -0.9965619,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

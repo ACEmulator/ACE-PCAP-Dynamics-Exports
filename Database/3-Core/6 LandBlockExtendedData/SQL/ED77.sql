@@ -5,12 +5,12 @@ VALUES (0x7ED77001,  1154, 0xED77000F, 28.67747, 149.426, -0.8835001, 0.7944568,
 /* @teleloc 0xED77000F [28.677470 149.426000 -0.883500] 0.794457 0.000000 0.000000 -0.607321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED77001, 0x7ED77002, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED77001, 0x7ED77003, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED77001, 0x7ED77004, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED77001, 0x7ED77005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7ED77001, 0x7ED77006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ED77001, 0x7ED77007, '2019-02-10 00:00:00') /* Reaper */;
+VALUES (0x7ED77001, 0x7ED77002, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED77001, 0x7ED77003, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED77001, 0x7ED77004, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED77001, 0x7ED77005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7ED77001, 0x7ED77006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ED77001, 0x7ED77007, '2019-02-10 00:00:00') /* Reaper (22747) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED77002, 27800, 0xED77000F, 28.67747, 149.426, -0.8835001, 0.7944568, 0, 0, -0.6073206,  True, '2019-02-10 00:00:00'); /* Infected Assailer */
@@ -41,7 +41,7 @@ VALUES (0x7ED77008,  1542, 0xED77000F, 27.14504, 149.5741, -0.8975, 0.7944568, 0
 /* @teleloc 0xED77000F [27.145040 149.574100 -0.897500] 0.794457 0.000000 0.000000 -0.607321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED77008, 0x7ED77009, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */;
+VALUES (0x7ED77008, 0x7ED77009, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED77009, 27803, 0xED77000F, 27.14504, 149.5741, -0.8975, 0.7944568, 0, 0, -0.6073206,  True, '2019-02-10 00:00:00'); /* Infected Assailer Camp Generator */

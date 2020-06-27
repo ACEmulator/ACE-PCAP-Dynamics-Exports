@@ -5,12 +5,12 @@ VALUES (0x79DAC001,  1154, 0x9DAC000A, 47.10849, 45.13364, 116.99, 0.8169895, 0,
 /* @teleloc 0x9DAC000A [47.108490 45.133640 116.990000] 0.816990 0.000000 0.000000 -0.576653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DAC001, 0x79DAC002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DAC001, 0x79DAC003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79DAC001, 0x79DAC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DAC001, 0x79DAC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DAC001, 0x79DAC006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79DAC001, 0x79DAC007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79DAC001, 0x79DAC002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DAC001, 0x79DAC003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79DAC001, 0x79DAC004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DAC001, 0x79DAC005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DAC001, 0x79DAC006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79DAC001, 0x79DAC007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DAC002,   217, 0x9DAC000A, 47.10849, 45.13364, 116.99, 0.8169895, 0, 0, -0.5766525,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

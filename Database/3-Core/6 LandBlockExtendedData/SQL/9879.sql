@@ -5,12 +5,12 @@ VALUES (0x79879001,  1154, 0x98790013, 63.03688, 53.83933, 26.006, -0.08715577, 
 /* @teleloc 0x98790013 [63.036880 53.839330 26.006000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79879001, 0x79879002, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x79879001, 0x79879003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79879001, 0x79879004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x79879001, 0x79879005, '2019-02-10 00:00:00') /* Undead */
-     , (0x79879001, 0x79879006, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79879001, 0x79879007, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x79879001, 0x79879002, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x79879001, 0x79879003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79879001, 0x79879004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x79879001, 0x79879005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79879001, 0x79879006, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79879001, 0x79879007, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79879002,  1764, 0x98790013, 63.03688, 53.83933, 26.006, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */
@@ -41,9 +41,9 @@ VALUES (0x79879008,  1542, 0x9879001B, 88.90219, 59.00015, 26, 1, 0, 0, 0, False
 /* @teleloc 0x9879001B [88.902190 59.000150 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79879008, 0x79879009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79879008, 0x7987900A, '2019-02-10 00:00:00') /* Vat */
-     , (0x79879008, 0x7987900B, '2019-02-10 00:00:00') /* Round Shield */;
+VALUES (0x79879008, 0x79879009, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x79879008, 0x7987900A, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x79879008, 0x7987900B, '2019-02-10 00:00:00') /* Round Shield (93) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79879009, 22568, 0x9879001B, 88.90219, 59.00015, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,11 +5,11 @@ VALUES (0x7B2D9001,  1154, 0xB2D90040, 171.3497, 183.9124, 12.39482, -0.00551082
 /* @teleloc 0xB2D90040 [171.349700 183.912400 12.394820] -0.005511 0.000000 0.000000 -0.999985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2D9001, 0x7B2D9002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7B2D9001, 0x7B2D9003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B2D9001, 0x7B2D9004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B2D9001, 0x7B2D9005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7B2D9001, 0x7B2D9006, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7B2D9001, 0x7B2D9002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7B2D9001, 0x7B2D9003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B2D9001, 0x7B2D9004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B2D9001, 0x7B2D9005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7B2D9001, 0x7B2D9006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2D9002,  5748, 0xB2D90040, 171.3497, 183.9124, 12.39482, -0.005510823, 0, 0, -0.9999848,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -36,7 +36,7 @@ VALUES (0x7B2D9007,  1542, 0xB2D90024, 112.8692, 84.49892, 31.25961, -0.4514093,
 /* @teleloc 0xB2D90024 [112.869200 84.498920 31.259610] -0.451409 0.000000 0.000000 -0.892317 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2D9007, 0x7B2D9008, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x7B2D9007, 0x7B2D9008, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2D9008,  9071, 0xB2D90024, 112.8692, 84.49892, 31.25961, -0.4514093, 0, 0, -0.892317,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

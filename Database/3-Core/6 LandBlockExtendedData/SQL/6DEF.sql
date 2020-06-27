@@ -5,16 +5,16 @@ VALUES (0x76DEF001,  1154, 0x6DEF002E, 127.2074, 125.9621, 7.404384, 0.9396926, 
 /* @teleloc 0x6DEF002E [127.207400 125.962100 7.404384] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76DEF001, 0x76DEF002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76DEF001, 0x76DEF003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x76DEF001, 0x76DEF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x76DEF001, 0x76DEF005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x76DEF001, 0x76DEF006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x76DEF001, 0x76DEF007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76DEF001, 0x76DEF008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76DEF001, 0x76DEF009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76DEF001, 0x76DEF00A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x76DEF001, 0x76DEF00B, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x76DEF001, 0x76DEF002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76DEF001, 0x76DEF003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x76DEF001, 0x76DEF004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x76DEF001, 0x76DEF005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x76DEF001, 0x76DEF006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x76DEF001, 0x76DEF007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76DEF001, 0x76DEF008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76DEF001, 0x76DEF009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76DEF001, 0x76DEF00A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76DEF001, 0x76DEF00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76DEF002, 37098, 0x6DEF002E, 127.2074, 125.9621, 7.404384, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

@@ -5,18 +5,18 @@ VALUES (0x7D153001,  1154, 0xD1530038, 147.9339, 171.9497, 140.0035, 1, 0, 0, 0,
 /* @teleloc 0xD1530038 [147.933900 171.949700 140.003500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D153001, 0x7D153002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D153001, 0x7D153003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D153001, 0x7D153004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D153001, 0x7D153005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D153001, 0x7D153006, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7D153001, 0x7D153007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7D153001, 0x7D153008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D153001, 0x7D153009, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D153001, 0x7D15300A, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7D153001, 0x7D15300B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D153001, 0x7D15300C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D153001, 0x7D15300D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */;
+VALUES (0x7D153001, 0x7D153002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D153001, 0x7D153003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7D153001, 0x7D153004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D153001, 0x7D153005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D153001, 0x7D153006, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7D153001, 0x7D153007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7D153001, 0x7D153008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D153001, 0x7D153009, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D153001, 0x7D15300A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7D153001, 0x7D15300B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D153001, 0x7D15300C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D153001, 0x7D15300D, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D153002,   192, 0xD1530038, 147.9339, 171.9497, 140.0035, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -71,7 +71,7 @@ VALUES (0x7D15300E,  1542, 0xD1530038, 149.4419, 173.2634, 140, 1, 0, 0, 0, Fals
 /* @teleloc 0xD1530038 [149.441900 173.263400 140.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D15300E, 0x7D15300F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D15300E, 0x7D15300F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D15300F,  4179, 0xD1530038, 149.4419, 173.2634, 140, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

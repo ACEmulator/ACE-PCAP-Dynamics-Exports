@@ -5,17 +5,17 @@ VALUES (0x75115001,  1154, 0x51150032, 158.4579, 24.70391, 119.9935, -0.4197571,
 /* @teleloc 0x51150032 [158.457900 24.703910 119.993500] -0.419757 0.000000 0.000000 -0.907637 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75115001, 0x75115002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75115001, 0x75115003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x75115001, 0x75115004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75115001, 0x75115005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75115001, 0x75115006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75115001, 0x75115007, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x75115001, 0x75115008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75115001, 0x75115009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75115001, 0x7511500A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x75115001, 0x7511500B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x75115001, 0x7511500C, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x75115001, 0x75115002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75115001, 0x75115003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x75115001, 0x75115004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75115001, 0x75115005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75115001, 0x75115006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75115001, 0x75115007, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x75115001, 0x75115008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75115001, 0x75115009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75115001, 0x7511500A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x75115001, 0x7511500B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x75115001, 0x7511500C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75115002, 36840, 0x51150032, 158.4579, 24.70391, 119.9935, -0.4197571, 0, 0, -0.9076365,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */

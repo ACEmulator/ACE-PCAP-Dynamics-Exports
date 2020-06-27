@@ -5,13 +5,13 @@ VALUES (0x76B9E001,  1154, 0x6B9E003A, 186.2618, 24.38843, 58.6402, 0.9238795, 0
 /* @teleloc 0x6B9E003A [186.261800 24.388430 58.640200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B9E001, 0x76B9E002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x76B9E001, 0x76B9E003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x76B9E001, 0x76B9E004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x76B9E001, 0x76B9E005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76B9E001, 0x76B9E006, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x76B9E001, 0x76B9E007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x76B9E001, 0x76B9E008, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x76B9E001, 0x76B9E002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x76B9E001, 0x76B9E003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x76B9E001, 0x76B9E004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x76B9E001, 0x76B9E005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76B9E001, 0x76B9E006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x76B9E001, 0x76B9E007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x76B9E001, 0x76B9E008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B9E002, 14559, 0x6B9E003A, 186.2618, 24.38843, 58.6402, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Oak Golem */

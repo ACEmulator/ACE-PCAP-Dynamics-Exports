@@ -5,18 +5,18 @@ VALUES (0x78CB7001,  1154, 0x8CB7002B, 132.7977, 48.35047, 86.76622, 0.9238795, 
 /* @teleloc 0x8CB7002B [132.797700 48.350470 86.766220] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB7001, 0x78CB7002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78CB7001, 0x78CB7003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB7001, 0x78CB7004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x78CB7001, 0x78CB7005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB7001, 0x78CB7006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB7001, 0x78CB7007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78CB7001, 0x78CB7008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CB7001, 0x78CB7009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x78CB7001, 0x78CB700A, '2019-02-10 00:00:00') /* Static */
-     , (0x78CB7001, 0x78CB700B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB7001, 0x78CB700C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB7001, 0x78CB700D, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x78CB7001, 0x78CB7002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78CB7001, 0x78CB7003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB7001, 0x78CB7004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x78CB7001, 0x78CB7005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB7001, 0x78CB7006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB7001, 0x78CB7007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78CB7001, 0x78CB7008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CB7001, 0x78CB7009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x78CB7001, 0x78CB700A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x78CB7001, 0x78CB700B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB7001, 0x78CB700C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB7001, 0x78CB700D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB7002,  1628, 0x8CB7002B, 132.7977, 48.35047, 86.76622, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

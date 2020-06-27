@@ -5,21 +5,21 @@ VALUES (0x74E9B001,  1154, 0x4E9B002E, 141.3755, 141.1279, 11.98936, 0.7071068, 
 /* @teleloc 0x4E9B002E [141.375500 141.127900 11.989360] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E9B001, 0x74E9B002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74E9B001, 0x74E9B003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74E9B001, 0x74E9B004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x74E9B001, 0x74E9B005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74E9B001, 0x74E9B006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74E9B001, 0x74E9B007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74E9B001, 0x74E9B008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74E9B001, 0x74E9B009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74E9B001, 0x74E9B00A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74E9B001, 0x74E9B00B, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74E9B001, 0x74E9B00C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74E9B001, 0x74E9B00D, '2019-02-10 00:00:00') /* Banished Drudge */
-     , (0x74E9B001, 0x74E9B00E, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74E9B001, 0x74E9B00F, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74E9B001, 0x74E9B010, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x74E9B001, 0x74E9B002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74E9B001, 0x74E9B003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74E9B001, 0x74E9B004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x74E9B001, 0x74E9B005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74E9B001, 0x74E9B006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74E9B001, 0x74E9B007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74E9B001, 0x74E9B008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74E9B001, 0x74E9B009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74E9B001, 0x74E9B00A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74E9B001, 0x74E9B00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74E9B001, 0x74E9B00C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74E9B001, 0x74E9B00D, '2019-02-10 00:00:00') /* Banished Drudge (30899) */
+     , (0x74E9B001, 0x74E9B00E, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74E9B001, 0x74E9B00F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74E9B001, 0x74E9B010, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E9B002,   199, 0x4E9B002E, 141.3755, 141.1279, 11.98936, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */

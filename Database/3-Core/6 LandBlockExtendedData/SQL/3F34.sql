@@ -5,9 +5,9 @@ VALUES (0x73F34001,  1154, 0x3F340032, 167.7186, 25.45695, 148.0175, 0.7224662, 
 /* @teleloc 0x3F340032 [167.718600 25.456950 148.017500] 0.722466 0.000000 0.000000 -0.691406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F34001, 0x73F34002, '2019-02-10 00:00:00') /* Magma Golem Exarch */
-     , (0x73F34001, 0x73F34003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73F34001, 0x73F34004, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x73F34001, 0x73F34002, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
+     , (0x73F34001, 0x73F34003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73F34001, 0x73F34004, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F34002, 27566, 0x3F340032, 167.7186, 25.45695, 148.0175, 0.7224662, 0, 0, -0.6914063,  True, '2019-02-10 00:00:00'); /* Magma Golem Exarch */

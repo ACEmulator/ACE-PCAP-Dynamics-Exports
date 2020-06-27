@@ -5,21 +5,21 @@ VALUES (0x7F531001,  1154, 0xF5310010, 41.3131, 185.2455, -0.8935999, -0.9849486
 /* @teleloc 0xF5310010 [41.313100 185.245500 -0.893600] -0.984949 0.000000 0.000000 -0.172848 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F531001, 0x7F531002, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F531001, 0x7F531003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531008, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x7F531001, 0x7F531009, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F531001, 0x7F53100A, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F531001, 0x7F53100B, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7F531001, 0x7F53100C, '2019-02-10 00:00:00') /* Verdant Moarsman */
-     , (0x7F531001, 0x7F53100D, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F531001, 0x7F53100E, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7F531001, 0x7F53100F, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7F531001, 0x7F531010, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7F531001, 0x7F531002, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F531001, 0x7F531003, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F531001, 0x7F531004, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F531001, 0x7F531005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F531001, 0x7F531006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F531001, 0x7F531007, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F531001, 0x7F531008, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F531001, 0x7F531009, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F531001, 0x7F53100A, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F531001, 0x7F53100B, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7F531001, 0x7F53100C, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F531001, 0x7F53100D, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F531001, 0x7F53100E, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F531001, 0x7F53100F, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F531001, 0x7F531010, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F531002, 40303, 0xF5310010, 41.3131, 185.2455, -0.8935999, -0.9849486, 0, 0, -0.1728476,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */

@@ -5,19 +5,19 @@ VALUES (0x70C6E001,  1154, 0x0C6E0018, 48.8526, 177.2888, 90.007, -0.811222, 0, 
 /* @teleloc 0x0C6E0018 [48.852600 177.288800 90.007000] -0.811222 0.000000 0.000000 -0.584738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6E001, 0x70C6E002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70C6E001, 0x70C6E003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70C6E001, 0x70C6E004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C6E001, 0x70C6E005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C6E001, 0x70C6E006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C6E001, 0x70C6E007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C6E001, 0x70C6E008, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C6E001, 0x70C6E009, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70C6E001, 0x70C6E00A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C6E001, 0x70C6E00B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70C6E001, 0x70C6E00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70C6E001, 0x70C6E00D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C6E001, 0x70C6E00E, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x70C6E001, 0x70C6E002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70C6E001, 0x70C6E003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70C6E001, 0x70C6E004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C6E001, 0x70C6E005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C6E001, 0x70C6E006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C6E001, 0x70C6E007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C6E001, 0x70C6E008, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C6E001, 0x70C6E009, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70C6E001, 0x70C6E00A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C6E001, 0x70C6E00B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70C6E001, 0x70C6E00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70C6E001, 0x70C6E00D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C6E001, 0x70C6E00E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6E002, 14877, 0x0C6E0018, 48.8526, 177.2888, 90.007, -0.811222, 0, 0, -0.5847383,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -76,7 +76,7 @@ VALUES (0x70C6E00F,  1542, 0x0C6E002D, 121.9539, 113.3133, 79.97263, -4.371139E-
 /* @teleloc 0x0C6E002D [121.953900 113.313300 79.972630] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6E00F, 0x70C6E010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70C6E00F, 0x70C6E010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6E010,  4380, 0x0C6E002D, 121.9539, 113.3133, 79.97263, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,29 +5,29 @@ VALUES (0x74CF5001,  1154, 0x4CF5000C, 46.85976, 73.9444, 0.007149994, -0.907696
 /* @teleloc 0x4CF5000C [46.859760 73.944400 0.007150] -0.907696 0.000000 0.000000 -0.419628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CF5001, 0x74CF5002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x74CF5001, 0x74CF5003, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x74CF5001, 0x74CF5004, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74CF5001, 0x74CF5005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x74CF5001, 0x74CF5006, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x74CF5001, 0x74CF5007, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x74CF5001, 0x74CF5008, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x74CF5001, 0x74CF5009, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74CF5001, 0x74CF500A, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74CF5001, 0x74CF500B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74CF5001, 0x74CF500C, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74CF5001, 0x74CF500D, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74CF5001, 0x74CF500E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74CF5001, 0x74CF500F, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74CF5001, 0x74CF5010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x74CF5001, 0x74CF5011, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74CF5001, 0x74CF5012, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x74CF5001, 0x74CF5013, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74CF5001, 0x74CF5014, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x74CF5001, 0x74CF5015, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74CF5001, 0x74CF5016, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x74CF5001, 0x74CF5017, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x74CF5001, 0x74CF5018, '2019-02-10 00:00:00') /* Viamontian Commander */;
+VALUES (0x74CF5001, 0x74CF5002, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x74CF5001, 0x74CF5003, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x74CF5001, 0x74CF5004, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74CF5001, 0x74CF5005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x74CF5001, 0x74CF5006, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x74CF5001, 0x74CF5007, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x74CF5001, 0x74CF5008, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x74CF5001, 0x74CF5009, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74CF5001, 0x74CF500A, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74CF5001, 0x74CF500B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74CF5001, 0x74CF500C, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74CF5001, 0x74CF500D, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74CF5001, 0x74CF500E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74CF5001, 0x74CF500F, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74CF5001, 0x74CF5010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x74CF5001, 0x74CF5011, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74CF5001, 0x74CF5012, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x74CF5001, 0x74CF5013, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74CF5001, 0x74CF5014, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x74CF5001, 0x74CF5015, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74CF5001, 0x74CF5016, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x74CF5001, 0x74CF5017, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x74CF5001, 0x74CF5018, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CF5002, 24276, 0x4CF5000C, 46.85976, 73.9444, 0.007149994, -0.9076961, 0, 0, -0.4196283,  True, '2019-02-10 00:00:00'); /* Banderling Savage */

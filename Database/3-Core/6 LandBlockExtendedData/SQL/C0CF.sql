@@ -5,11 +5,11 @@ VALUES (0x7C0CF001,  1154, 0xC0CF003D, 186.4612, 99.79825, 333.3505, 0.7071068, 
 /* @teleloc 0xC0CF003D [186.461200 99.798250 333.350500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0CF001, 0x7C0CF002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C0CF001, 0x7C0CF003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C0CF001, 0x7C0CF004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7C0CF001, 0x7C0CF005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7C0CF001, 0x7C0CF006, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x7C0CF001, 0x7C0CF002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C0CF001, 0x7C0CF003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C0CF001, 0x7C0CF004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7C0CF001, 0x7C0CF005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7C0CF001, 0x7C0CF006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0CF002,   199, 0xC0CF003D, 186.4612, 99.79825, 333.3505, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Magma Golem */

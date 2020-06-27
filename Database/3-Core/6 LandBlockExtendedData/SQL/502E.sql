@@ -5,10 +5,10 @@ VALUES (0x7502E001,  1154, 0x502E001C, 95.51767, 84.1954, -0.09350008, 0.8959796
 /* @teleloc 0x502E001C [95.517670 84.195400 -0.093500] 0.895980 0.000000 0.000000 -0.444095 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7502E001, 0x7502E002, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7502E001, 0x7502E003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7502E001, 0x7502E004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7502E001, 0x7502E005, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7502E001, 0x7502E002, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7502E001, 0x7502E003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7502E001, 0x7502E004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7502E001, 0x7502E005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7502E002, 21551, 0x502E001C, 95.51767, 84.1954, -0.09350008, 0.8959796, 0, 0, -0.4440951,  True, '2019-02-10 00:00:00'); /* Strife Wisp */

@@ -5,14 +5,14 @@ VALUES (0x74AD3001,  1154, 0x4AD3003B, 191.1705, 59.01398, 22.85521, 0.9238795, 
 /* @teleloc 0x4AD3003B [191.170500 59.013980 22.855210] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AD3001, 0x74AD3002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AD3001, 0x74AD3003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AD3001, 0x74AD3004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74AD3001, 0x74AD3005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x74AD3001, 0x74AD3006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x74AD3001, 0x74AD3007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74AD3001, 0x74AD3008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74AD3001, 0x74AD3009, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74AD3001, 0x74AD3002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AD3001, 0x74AD3003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AD3001, 0x74AD3004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74AD3001, 0x74AD3005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x74AD3001, 0x74AD3006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x74AD3001, 0x74AD3007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74AD3001, 0x74AD3008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74AD3001, 0x74AD3009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AD3002, 10807, 0x4AD3003B, 191.1705, 59.01398, 22.85521, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

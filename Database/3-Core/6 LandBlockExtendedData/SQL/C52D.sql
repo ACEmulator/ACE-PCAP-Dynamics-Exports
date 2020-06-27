@@ -5,10 +5,10 @@ VALUES (0x7C52D001,  1154, 0xC52D0034, 144.059, 80.77496, 347.7961, 0.7771459, 0
 /* @teleloc 0xC52D0034 [144.059000 80.774960 347.796100] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C52D001, 0x7C52D002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C52D001, 0x7C52D003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C52D001, 0x7C52D004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C52D001, 0x7C52D005, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7C52D001, 0x7C52D002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C52D001, 0x7C52D003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C52D001, 0x7C52D004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C52D001, 0x7C52D005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52D002,  1610, 0xC52D0034, 144.059, 80.77496, 347.7961, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

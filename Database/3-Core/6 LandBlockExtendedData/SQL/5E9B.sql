@@ -5,28 +5,28 @@ VALUES (0x75E9B001,  1154, 0x5E9B002F, 129.2319, 154.2773, 15.15106, 0.02418588,
 /* @teleloc 0x5E9B002F [129.231900 154.277300 15.151060] 0.024186 0.000000 0.000000 -0.999708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9B001, 0x75E9B002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75E9B001, 0x75E9B003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75E9B001, 0x75E9B004, '2019-02-10 00:00:00') /* Ember */
-     , (0x75E9B001, 0x75E9B005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75E9B001, 0x75E9B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75E9B001, 0x75E9B007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75E9B001, 0x75E9B008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75E9B001, 0x75E9B009, '2019-02-10 00:00:00') /* Ember */
-     , (0x75E9B001, 0x75E9B00A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x75E9B001, 0x75E9B00B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x75E9B001, 0x75E9B00C, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x75E9B001, 0x75E9B00D, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x75E9B001, 0x75E9B00E, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E9B001, 0x75E9B00F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E9B001, 0x75E9B010, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75E9B001, 0x75E9B011, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75E9B001, 0x75E9B012, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75E9B001, 0x75E9B013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75E9B001, 0x75E9B014, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75E9B001, 0x75E9B015, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75E9B001, 0x75E9B016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75E9B001, 0x75E9B017, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x75E9B001, 0x75E9B002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75E9B001, 0x75E9B003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75E9B001, 0x75E9B004, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75E9B001, 0x75E9B005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75E9B001, 0x75E9B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75E9B001, 0x75E9B007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75E9B001, 0x75E9B008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75E9B001, 0x75E9B009, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75E9B001, 0x75E9B00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x75E9B001, 0x75E9B00B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x75E9B001, 0x75E9B00C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x75E9B001, 0x75E9B00D, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x75E9B001, 0x75E9B00E, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E9B001, 0x75E9B00F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E9B001, 0x75E9B010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75E9B001, 0x75E9B011, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75E9B001, 0x75E9B012, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75E9B001, 0x75E9B013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75E9B001, 0x75E9B014, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75E9B001, 0x75E9B015, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75E9B001, 0x75E9B016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75E9B001, 0x75E9B017, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9B002,  7123, 0x5E9B002F, 129.2319, 154.2773, 15.15106, 0.02418588, 0, 0, -0.9997075,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -121,7 +121,7 @@ VALUES (0x75E9B018,  1542, 0x5E9B002D, 123.8229, 114.483, 18.31857, 1, 0, 0, 0, 
 /* @teleloc 0x5E9B002D [123.822900 114.483000 18.318570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E9B018, 0x75E9B019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75E9B018, 0x75E9B019, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E9B019, 22567, 0x5E9B002D, 123.8229, 114.483, 18.31857, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

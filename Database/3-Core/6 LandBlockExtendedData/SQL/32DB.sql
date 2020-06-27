@@ -21,10 +21,10 @@ VALUES (0x732DB004,  1154, 0x32DB002F, 126.4269, 165.0942, 41.0783, -0.9805467, 
 /* @teleloc 0x32DB002F [126.426900 165.094200 41.078300] -0.980547 0.000000 0.000000 -0.196286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x732DB004, 0x732DB005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x732DB004, 0x732DB006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x732DB004, 0x732DB007, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x732DB004, 0x732DB008, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x732DB004, 0x732DB005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x732DB004, 0x732DB006, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x732DB004, 0x732DB007, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x732DB004, 0x732DB008, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732DB005, 19256, 0x32DB002F, 126.4269, 165.0942, 41.0783, -0.9805467, 0, 0, -0.1962862,  True, '2019-02-10 00:00:00'); /* Young Banderling */

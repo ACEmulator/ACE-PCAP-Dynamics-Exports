@@ -5,19 +5,19 @@ VALUES (0x7F927001,  1154, 0xF9270004, 14.09465, 75.44096, 38.87681, -0.7482236,
 /* @teleloc 0xF9270004 [14.094650 75.440960 38.876810] -0.748224 0.000000 0.000000 -0.663447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F927001, 0x7F927002, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F927001, 0x7F927003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F927001, 0x7F927004, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F927001, 0x7F927005, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F927001, 0x7F927006, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F927001, 0x7F927007, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F927001, 0x7F927008, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F927001, 0x7F927009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F927001, 0x7F92700A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F927001, 0x7F92700B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F927001, 0x7F92700C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F927001, 0x7F92700D, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F927001, 0x7F92700E, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F927001, 0x7F927002, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F927001, 0x7F927003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F927001, 0x7F927004, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F927001, 0x7F927005, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F927001, 0x7F927006, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F927001, 0x7F927007, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F927001, 0x7F927008, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F927001, 0x7F927009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F927001, 0x7F92700A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F927001, 0x7F92700B, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F927001, 0x7F92700C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F927001, 0x7F92700D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F927001, 0x7F92700E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F927002,  4260, 0xF9270004, 14.09465, 75.44096, 38.87681, -0.7482236, 0, 0, -0.6634467,  True, '2019-02-10 00:00:00'); /* Slithayr Tentacle */

@@ -5,9 +5,9 @@ VALUES (0x75DD5001,  1154, 0x5DD5001A, 86.36348, 46.87687, 71.80759, 0.9659258, 
 /* @teleloc 0x5DD5001A [86.363480 46.876870 71.807590] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DD5001, 0x75DD5002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75DD5001, 0x75DD5003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x75DD5001, 0x75DD5004, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x75DD5001, 0x75DD5002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75DD5001, 0x75DD5003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x75DD5001, 0x75DD5004, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DD5002, 36832, 0x5DD5001A, 86.36348, 46.87687, 71.80759, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */

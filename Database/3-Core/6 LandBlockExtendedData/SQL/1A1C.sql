@@ -5,13 +5,13 @@ VALUES (0x71A1C001,  1154, 0x1A1C003A, 180.2479, 24.14838, 11.15679, 0.2576062, 
 /* @teleloc 0x1A1C003A [180.247900 24.148380 11.156790] 0.257606 0.000000 0.000000 -0.966250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A1C001, 0x71A1C002, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71A1C001, 0x71A1C003, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71A1C001, 0x71A1C004, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71A1C001, 0x71A1C005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71A1C001, 0x71A1C006, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71A1C001, 0x71A1C007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71A1C001, 0x71A1C008, '2019-02-10 00:00:00') /* Withered Banderling Paragon */;
+VALUES (0x71A1C001, 0x71A1C002, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71A1C001, 0x71A1C003, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71A1C001, 0x71A1C004, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71A1C001, 0x71A1C005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71A1C001, 0x71A1C006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71A1C001, 0x71A1C007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71A1C001, 0x71A1C008, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A1C002, 35830, 0x1A1C003A, 180.2479, 24.14838, 11.15679, 0.2576062, 0, 0, -0.96625,  True, '2019-02-10 00:00:00'); /* Withered Banderling Paragon */

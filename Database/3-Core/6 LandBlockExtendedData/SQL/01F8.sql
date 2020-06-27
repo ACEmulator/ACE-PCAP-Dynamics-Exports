@@ -29,126 +29,126 @@ VALUES (0x701F805C,  1154, 0x01F80200, 33.5444, -99.9866, 0.01300001, 1, 0, 0, 0
 /* @teleloc 0x01F80200 [33.544400 -99.986600 0.013000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F805C, 0x701F805D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F805E, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F805F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8060, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8061, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8062, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8063, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8064, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8065, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8066, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8067, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8068, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8069, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F806A, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F806B, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F806C, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F806D, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F806E, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F806F, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8070, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8071, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8072, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8073, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8074, '2019-02-10 00:00:00') /* Alfrega the Reedshark */
-     , (0x701F805C, 0x701F8075, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8076, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8077, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8078, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8079, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F807A, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F807B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x701F805C, 0x701F807C, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F807D, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F807E, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F807F, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8080, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F8081, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8082, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F8083, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F8084, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8085, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F8086, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F8087, '2019-02-10 00:00:00') /* Mite Warrior Queen */
-     , (0x701F805C, 0x701F8088, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8089, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F808A, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F808B, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F808C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F808D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F808E, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F808F, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8090, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8091, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F8092, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F8093, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8094, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8095, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8096, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8097, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8098, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F8099, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F809A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F809B, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F809C, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F809D, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F809E, '2019-02-10 00:00:00') /* Royal Mite Matron */
-     , (0x701F805C, 0x701F809F, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A0, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A1, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A2, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80A3, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80A4, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80A5, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A6, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A7, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80A8, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80A9, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80AA, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80AB, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80AC, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80AD, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80AE, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80AF, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80B0, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80B1, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80B2, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80B3, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80B4, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80B5, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80B6, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80B7, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x701F805C, 0x701F80B8, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80B9, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80BA, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80BB, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80BC, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80BD, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80BE, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80BF, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80C0, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C1, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C2, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80C3, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C4, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C5, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C6, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80C7, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80C8, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80C9, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80CA, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80CB, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x701F805C, 0x701F80CC, '2019-02-10 00:00:00') /* Royal Mite Sentry */
-     , (0x701F805C, 0x701F80CD, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80CE, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80CF, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80D0, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80D1, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80D2, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80D3, '2019-02-10 00:00:00') /* Royal Mite Squire */
-     , (0x701F805C, 0x701F80D4, '2019-02-10 00:00:00') /* Royal Mite Sentry */;
+VALUES (0x701F805C, 0x701F805D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F805E, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F805F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8060, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8061, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8062, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8063, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8064, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8065, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8066, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8067, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8068, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8069, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F806A, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F806B, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F806C, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F806D, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F806E, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F806F, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8070, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8071, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8072, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8073, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8074, '2019-02-10 00:00:00') /* Alfrega the Reedshark (5687) */
+     , (0x701F805C, 0x701F8075, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8076, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8077, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8078, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8079, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F807A, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F807B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x701F805C, 0x701F807C, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F807D, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F807E, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F807F, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8080, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F8081, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8082, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F8083, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F8084, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8085, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F8086, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F8087, '2019-02-10 00:00:00') /* Mite Warrior Queen (24029) */
+     , (0x701F805C, 0x701F8088, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8089, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F808A, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F808B, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F808C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F808D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F808E, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F808F, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8090, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8091, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F8092, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F8093, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8094, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8095, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8096, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8097, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8098, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F8099, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F809A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F809B, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F809C, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F809D, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F809E, '2019-02-10 00:00:00') /* Royal Mite Matron (24030) */
+     , (0x701F805C, 0x701F809F, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A0, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A1, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A2, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80A3, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80A4, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80A5, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A6, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A7, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80A8, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80A9, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80AA, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80AB, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80AC, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80AD, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80AE, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80AF, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80B0, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80B1, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80B2, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80B3, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80B4, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80B5, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80B6, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80B7, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x701F805C, 0x701F80B8, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80B9, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80BA, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80BB, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80BC, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80BD, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80BE, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80BF, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80C0, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C1, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C2, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80C3, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C4, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C5, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C6, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80C7, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80C8, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80C9, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80CA, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80CB, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x701F805C, 0x701F80CC, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */
+     , (0x701F805C, 0x701F80CD, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80CE, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80CF, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80D0, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80D1, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80D2, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80D3, '2019-02-10 00:00:00') /* Royal Mite Squire (24032) */
+     , (0x701F805C, 0x701F80D4, '2019-02-10 00:00:00') /* Royal Mite Sentry (24031) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F805D,   217, 0x01F80200, 33.5444, -99.9866, 0.01300001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -635,7 +635,7 @@ VALUES (0x701F80D5,  1154, 0x01F80374, 93, -12, 6.005, 0.7071068, 0, 0, -0.70710
 /* @teleloc 0x01F80374 [93.000000 -12.000000 6.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F80D5, 0x701F80D6, '2019-02-10 00:00:00') /* Roderick */;
+VALUES (0x701F80D5, 0x701F80D6, '2019-02-10 00:00:00') /* Roderick (38034) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F80D6, 38034, 0x01F80374, 93, -12, 6.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Roderick */
@@ -646,27 +646,27 @@ VALUES (0x701F80D7,  1542, 0x01F803C0, 116.6, -9.32981, 6.0057, 0.1578349, 0, 0,
 /* @teleloc 0x01F803C0 [116.600000 -9.329810 6.005700] 0.157835 0.000000 0.000000 -0.987466 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F80D7, 0x701F80D8, '2019-02-10 00:00:00') /* Cow */
-     , (0x701F80D7, 0x701F80D9, '2019-02-10 00:00:00') /* Branith's Staff */
-     , (0x701F80D7, 0x701F80DA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x701F80D7, 0x701F80DB, '2019-02-10 00:00:00') /* Tunic */
-     , (0x701F80D7, 0x701F80DC, '2019-02-10 00:00:00') /* Circlet */
-     , (0x701F80D7, 0x701F80DD, '2019-02-10 00:00:00') /* Jaleh's Chain Shirt */
-     , (0x701F80D7, 0x701F80DE, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80DF, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80E0, '2019-02-10 00:00:00') /* Loose Breeches */
-     , (0x701F80D7, 0x701F80E1, '2019-02-10 00:00:00') /* Ring */
-     , (0x701F80D7, 0x701F80E2, '2019-02-10 00:00:00') /* Superior Helmet */
-     , (0x701F80D7, 0x701F80E3, '2019-02-10 00:00:00') /* Loafers */
-     , (0x701F80D7, 0x701F80E4, '2019-02-10 00:00:00') /* Crown */
-     , (0x701F80D7, 0x701F80E5, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80E6, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80E7, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80E8, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80E9, '2019-02-10 00:00:00') /* Coalesced Mana */
-     , (0x701F80D7, 0x701F80EA, '2019-02-10 00:00:00') /* Gem */
-     , (0x701F80D7, 0x701F80EB, '2019-02-10 00:00:00') /* Compass */
-     , (0x701F80D7, 0x701F80EC, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x701F80D7, 0x701F80D8, '2019-02-10 00:00:00') /* Cow (5755) */
+     , (0x701F80D7, 0x701F80D9, '2019-02-10 00:00:00') /* Branith's Staff (2031) */
+     , (0x701F80D7, 0x701F80DA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x701F80D7, 0x701F80DB, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x701F80D7, 0x701F80DC, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x701F80D7, 0x701F80DD, '2019-02-10 00:00:00') /* Jaleh's Chain Shirt (2032) */
+     , (0x701F80D7, 0x701F80DE, '2019-02-10 00:00:00') /* Gem (2430) */
+     , (0x701F80D7, 0x701F80DF, '2019-02-10 00:00:00') /* Gem (2426) */
+     , (0x701F80D7, 0x701F80E0, '2019-02-10 00:00:00') /* Loose Breeches (2602) */
+     , (0x701F80D7, 0x701F80E1, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x701F80D7, 0x701F80E2, '2019-02-10 00:00:00') /* Superior Helmet (1518) */
+     , (0x701F80D7, 0x701F80E3, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x701F80D7, 0x701F80E4, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x701F80D7, 0x701F80E5, '2019-02-10 00:00:00') /* Gem (2430) */
+     , (0x701F80D7, 0x701F80E6, '2019-02-10 00:00:00') /* Gem (2393) */
+     , (0x701F80D7, 0x701F80E7, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x701F80D7, 0x701F80E8, '2019-02-10 00:00:00') /* Gem (2405) */
+     , (0x701F80D7, 0x701F80E9, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
+     , (0x701F80D7, 0x701F80EA, '2019-02-10 00:00:00') /* Gem (2427) */
+     , (0x701F80D7, 0x701F80EB, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x701F80D7, 0x701F80EC, '2019-02-10 00:00:00') /* Gem (2422) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F80D8,  5755, 0x01F803C0, 116.6, -9.32981, 6.0057, 0.1578349, 0, 0, -0.9874655,  True, '2019-02-10 00:00:00'); /* Cow */

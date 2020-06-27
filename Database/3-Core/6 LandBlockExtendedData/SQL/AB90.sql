@@ -5,19 +5,19 @@ VALUES (0x7AB90001,  1154, 0xAB900040, 180.6704, 172.9512, 29.47846, 0.9841378, 
 /* @teleloc 0xAB900040 [180.670400 172.951200 29.478460] 0.984138 0.000000 0.000000 -0.177405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB90001, 0x7AB90002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90003, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AB90001, 0x7AB90004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB90009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB9000A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AB90001, 0x7AB9000B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AB90001, 0x7AB9000C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AB90001, 0x7AB9000D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB90001, 0x7AB9000E, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7AB90001, 0x7AB90002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90003, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AB90001, 0x7AB90004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB90009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB9000A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AB90001, 0x7AB9000B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AB90001, 0x7AB9000C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AB90001, 0x7AB9000D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB90001, 0x7AB9000E, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB90002,   194, 0xAB900040, 180.6704, 172.9512, 29.47846, 0.9841378, 0, 0, -0.1774054,  True, '2019-02-10 00:00:00'); /* Copper Golem */

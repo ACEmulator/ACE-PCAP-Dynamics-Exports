@@ -5,12 +5,12 @@ VALUES (0x78393001,  1154, 0x83930009, 44.05552, 5.193285, 77.88843, -0.9082543,
 /* @teleloc 0x83930009 [44.055520 5.193285 77.888430] -0.908254 0.000000 0.000000 -0.418419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78393001, 0x78393002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78393001, 0x78393003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78393001, 0x78393004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78393001, 0x78393005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78393001, 0x78393006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78393001, 0x78393007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x78393001, 0x78393002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78393001, 0x78393003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78393001, 0x78393004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78393001, 0x78393005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78393001, 0x78393006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78393001, 0x78393007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78393002,  2576, 0x83930009, 44.05552, 5.193285, 77.88843, -0.9082543, 0, 0, -0.4184186,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -41,8 +41,8 @@ VALUES (0x78393008,  1542, 0x8393003D, 171.7083, 96.86608, 123.937, 0.9537169, 0
 /* @teleloc 0x8393003D [171.708300 96.866080 123.937000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78393008, 0x78393009, '2019-02-10 00:00:00') /* Golem Sanctum Portal */
-     , (0x78393008, 0x7839300A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78393008, 0x78393009, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */
+     , (0x78393008, 0x7839300A, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78393009,  7934, 0x8393003D, 171.7083, 96.86608, 123.937, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

@@ -5,17 +5,17 @@ VALUES (0x77F7B001,  1154, 0x7F7B0034, 162.9224, 84.08603, 68.18524, 0.5, 0, 0, 
 /* @teleloc 0x7F7B0034 [162.922400 84.086030 68.185240] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F7B001, 0x77F7B002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77F7B001, 0x77F7B003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77F7B001, 0x77F7B004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77F7B001, 0x77F7B005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x77F7B001, 0x77F7B006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77F7B001, 0x77F7B007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x77F7B001, 0x77F7B008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x77F7B001, 0x77F7B009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x77F7B001, 0x77F7B00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77F7B001, 0x77F7B00B, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x77F7B001, 0x77F7B00C, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x77F7B001, 0x77F7B002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77F7B001, 0x77F7B003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77F7B001, 0x77F7B004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77F7B001, 0x77F7B005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x77F7B001, 0x77F7B006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77F7B001, 0x77F7B007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x77F7B001, 0x77F7B008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x77F7B001, 0x77F7B009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x77F7B001, 0x77F7B00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77F7B001, 0x77F7B00B, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x77F7B001, 0x77F7B00C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F7B002,   194, 0x7F7B0034, 162.9224, 84.08603, 68.18524, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */

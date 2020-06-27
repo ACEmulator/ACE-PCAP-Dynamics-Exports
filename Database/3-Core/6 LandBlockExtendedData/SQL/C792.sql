@@ -5,13 +5,13 @@ VALUES (0x7C792001,  1154, 0xC792003D, 186.7429, 106.7725, 5.102292, 0.1095912, 
 /* @teleloc 0xC792003D [186.742900 106.772500 5.102292] 0.109591 0.000000 0.000000 -0.993977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C792001, 0x7C792002, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C792001, 0x7C792003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C792001, 0x7C792004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C792001, 0x7C792005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C792001, 0x7C792006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C792001, 0x7C792007, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7C792001, 0x7C792008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C792001, 0x7C792002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C792001, 0x7C792003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C792001, 0x7C792004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C792001, 0x7C792005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C792001, 0x7C792006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C792001, 0x7C792007, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7C792001, 0x7C792008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C792002,  1986, 0xC792003D, 186.7429, 106.7725, 5.102292, 0.1095912, 0, 0, -0.9939768,  True, '2019-02-10 00:00:00'); /* Water Wisp */

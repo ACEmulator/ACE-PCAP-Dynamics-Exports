@@ -5,11 +5,11 @@ VALUES (0x789AB001,  1154, 0x89AB001B, 89.28433, 58.47693, 79.43122, -0.9873936,
 /* @teleloc 0x89AB001B [89.284330 58.476930 79.431220] -0.987394 0.000000 0.000000 -0.158284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789AB001, 0x789AB002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x789AB001, 0x789AB003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x789AB001, 0x789AB004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x789AB001, 0x789AB005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x789AB001, 0x789AB006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x789AB001, 0x789AB002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x789AB001, 0x789AB003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x789AB001, 0x789AB004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x789AB001, 0x789AB005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x789AB001, 0x789AB006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789AB002,  7978, 0x89AB001B, 89.28433, 58.47693, 79.43122, -0.9873936, 0, 0, -0.1582841,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -36,9 +36,9 @@ VALUES (0x789AB007,  1542, 0x89AB003C, 190.6501, 89.41741, 99.79192, -0.9620368,
 /* @teleloc 0x89AB003C [190.650100 89.417410 99.791920] -0.962037 0.000000 0.000000 -0.272920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789AB007, 0x789AB008, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x789AB007, 0x789AB009, '2019-02-10 00:00:00') /* Bones */
-     , (0x789AB007, 0x789AB00A, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x789AB007, 0x789AB008, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x789AB007, 0x789AB009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x789AB007, 0x789AB00A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789AB008, 34130, 0x89AB003C, 190.6501, 89.41741, 99.79192, -0.9620368, 0, 0, -0.2729195,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

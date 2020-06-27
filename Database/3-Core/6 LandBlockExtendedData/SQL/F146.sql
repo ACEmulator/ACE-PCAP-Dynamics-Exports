@@ -5,24 +5,24 @@ VALUES (0x7F146001,  1154, 0xF1460029, 123.4379, 2.988409, 0.004949987, -0.47381
 /* @teleloc 0xF1460029 [123.437900 2.988409 0.004950] -0.473818 0.000000 0.000000 -0.880623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F146001, 0x7F146002, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7F146001, 0x7F146003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F146001, 0x7F146004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7F146001, 0x7F146005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7F146001, 0x7F146006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7F146001, 0x7F146007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7F146001, 0x7F146008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F146001, 0x7F146009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F146001, 0x7F14600A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7F146001, 0x7F14600B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7F146001, 0x7F14600C, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7F146001, 0x7F14600D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7F146001, 0x7F14600E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7F146001, 0x7F14600F, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7F146001, 0x7F146010, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7F146001, 0x7F146011, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7F146001, 0x7F146012, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7F146001, 0x7F146013, '2019-02-10 00:00:00') /* Jibrit Zefir */;
+VALUES (0x7F146001, 0x7F146002, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7F146001, 0x7F146003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F146001, 0x7F146004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7F146001, 0x7F146005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7F146001, 0x7F146006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7F146001, 0x7F146007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7F146001, 0x7F146008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F146001, 0x7F146009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F146001, 0x7F14600A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7F146001, 0x7F14600B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7F146001, 0x7F14600C, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7F146001, 0x7F14600D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7F146001, 0x7F14600E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7F146001, 0x7F14600F, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7F146001, 0x7F146010, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7F146001, 0x7F146011, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7F146001, 0x7F146012, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7F146001, 0x7F146013, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F146002,   948, 0xF1460029, 123.4379, 2.988409, 0.004949987, -0.473818, 0, 0, -0.8806228,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */
@@ -101,8 +101,8 @@ VALUES (0x7F146014,  1542, 0xF1460015, 63.60983, 97.2565, 7.714949, 1, 0, 0, 0, 
 /* @teleloc 0xF1460015 [63.609830 97.256500 7.714949] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F146014, 0x7F146015, '2019-02-10 00:00:00') /* Vat */
-     , (0x7F146014, 0x7F146016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7F146014, 0x7F146015, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x7F146014, 0x7F146016, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F146015,  4383, 0xF1460015, 63.60983, 97.2565, 7.714949, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

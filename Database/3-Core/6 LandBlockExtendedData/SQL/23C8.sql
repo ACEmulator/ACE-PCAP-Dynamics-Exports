@@ -5,15 +5,15 @@ VALUES (0x723C8001,  1154, 0x23C80002, 21.33732, 31.92602, 0.6656702, 0.3209233,
 /* @teleloc 0x23C80002 [21.337320 31.926020 0.665670] 0.320923 0.000000 0.000000 -0.947105 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723C8001, 0x723C8002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C8001, 0x723C8003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C8001, 0x723C8004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C8001, 0x723C8005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C8001, 0x723C8006, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C8001, 0x723C8007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723C8001, 0x723C8008, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x723C8001, 0x723C8009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x723C8001, 0x723C800A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x723C8001, 0x723C8002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C8001, 0x723C8003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C8001, 0x723C8004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C8001, 0x723C8005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C8001, 0x723C8006, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C8001, 0x723C8007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x723C8001, 0x723C8008, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x723C8001, 0x723C8009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x723C8001, 0x723C800A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723C8002, 22505, 0x23C80002, 21.33732, 31.92602, 0.6656702, 0.3209233, 0, 0, -0.9471052,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */

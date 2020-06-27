@@ -9,23 +9,23 @@ VALUES (0x7835F00E,  1154, 0x835F0103, 110.769, 109.663, 13.7025, 0.879216, 0, 0
 /* @teleloc 0x835F0103 [110.769000 109.663000 13.702500] 0.879216 0.000000 0.000000 -0.476423 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7835F00E, 0x7835F00F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7835F00E, 0x7835F010, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7835F00E, 0x7835F011, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7835F00E, 0x7835F012, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7835F00E, 0x7835F013, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7835F00E, 0x7835F014, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7835F00E, 0x7835F015, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7835F00E, 0x7835F016, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7835F00E, 0x7835F017, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7835F00E, 0x7835F018, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7835F00E, 0x7835F019, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7835F00E, 0x7835F01A, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7835F00E, 0x7835F01B, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7835F00E, 0x7835F01C, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7835F00E, 0x7835F01D, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7835F00E, 0x7835F01E, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7835F00E, 0x7835F01F, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7835F00E, 0x7835F00F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7835F00E, 0x7835F010, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7835F00E, 0x7835F011, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7835F00E, 0x7835F012, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7835F00E, 0x7835F013, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7835F00E, 0x7835F014, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7835F00E, 0x7835F015, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7835F00E, 0x7835F016, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7835F00E, 0x7835F017, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7835F00E, 0x7835F018, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7835F00E, 0x7835F019, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7835F00E, 0x7835F01A, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7835F00E, 0x7835F01B, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7835F00E, 0x7835F01C, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7835F00E, 0x7835F01D, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7835F00E, 0x7835F01E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7835F00E, 0x7835F01F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835F00F,  1762, 0x835F0103, 110.769, 109.663, 13.7025, 0.879216, 0, 0, -0.476423,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -100,7 +100,7 @@ VALUES (0x7835F020,  1542, 0x835F001C, 89.03999, 79.28857, 11.21476, 0.9990482, 
 /* @teleloc 0x835F001C [89.039990 79.288570 11.214760] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7835F020, 0x7835F021, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7835F020, 0x7835F021, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835F021,  4179, 0x835F001C, 89.03999, 79.28857, 11.21476, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

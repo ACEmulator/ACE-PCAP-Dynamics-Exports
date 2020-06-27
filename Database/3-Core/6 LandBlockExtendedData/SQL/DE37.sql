@@ -5,11 +5,11 @@ VALUES (0x7DE37001,  1154, 0xDE37003D, 169.1509, 97.03529, 85.09922, -0.8695759,
 /* @teleloc 0xDE37003D [169.150900 97.035290 85.099220] -0.869576 0.000000 0.000000 -0.493799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE37001, 0x7DE37002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DE37001, 0x7DE37003, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7DE37001, 0x7DE37004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DE37001, 0x7DE37005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7DE37001, 0x7DE37006, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7DE37001, 0x7DE37002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DE37001, 0x7DE37003, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7DE37001, 0x7DE37004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DE37001, 0x7DE37005, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7DE37001, 0x7DE37006, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE37002,  1627, 0xDE37003D, 169.1509, 97.03529, 85.09922, -0.8695759, 0, 0, -0.4937992,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

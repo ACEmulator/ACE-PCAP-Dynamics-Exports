@@ -5,27 +5,27 @@ VALUES (0x793AA001,  1154, 0x93AA002A, 129.3089, 34.69767, 54.35263, -0.8587383,
 /* @teleloc 0x93AA002A [129.308900 34.697670 54.352630] -0.858738 0.000000 0.000000 -0.512415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793AA001, 0x793AA002, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x793AA001, 0x793AA003, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x793AA001, 0x793AA004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x793AA001, 0x793AA005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x793AA001, 0x793AA006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x793AA001, 0x793AA007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x793AA001, 0x793AA008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AA001, 0x793AA009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AA001, 0x793AA00A, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x793AA001, 0x793AA00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AA001, 0x793AA00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AA001, 0x793AA00D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AA001, 0x793AA00E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AA001, 0x793AA00F, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x793AA001, 0x793AA010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x793AA001, 0x793AA011, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x793AA001, 0x793AA012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x793AA001, 0x793AA013, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x793AA001, 0x793AA014, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x793AA001, 0x793AA015, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x793AA001, 0x793AA016, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x793AA001, 0x793AA002, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x793AA001, 0x793AA003, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x793AA001, 0x793AA004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x793AA001, 0x793AA005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x793AA001, 0x793AA006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x793AA001, 0x793AA007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x793AA001, 0x793AA008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AA001, 0x793AA009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AA001, 0x793AA00A, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x793AA001, 0x793AA00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AA001, 0x793AA00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AA001, 0x793AA00D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AA001, 0x793AA00E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AA001, 0x793AA00F, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x793AA001, 0x793AA010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x793AA001, 0x793AA011, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x793AA001, 0x793AA012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x793AA001, 0x793AA013, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x793AA001, 0x793AA014, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x793AA001, 0x793AA015, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x793AA001, 0x793AA016, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793AA002, 32186, 0x93AA002A, 129.3089, 34.69767, 54.35263, -0.8587383, 0, 0, -0.5124145,  True, '2019-02-10 00:00:00'); /* Pumpkin Lord */
@@ -116,9 +116,9 @@ VALUES (0x793AA017,  1542, 0x93AA002A, 129.4119, 36.26194, 54.87164, -0.8587383,
 /* @teleloc 0x93AA002A [129.411900 36.261940 54.871640] -0.858738 0.000000 0.000000 -0.512415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793AA017, 0x793AA018, '2019-02-10 00:00:00') /* Pumpkin Follower */
-     , (0x793AA017, 0x793AA019, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x793AA017, 0x793AA01A, '2019-02-10 00:00:00') /* Seeds of Anger */;
+VALUES (0x793AA017, 0x793AA018, '2019-02-10 00:00:00') /* Pumpkin Follower (32199) */
+     , (0x793AA017, 0x793AA019, '2019-02-10 00:00:00') /* Old Gravestone (34132) */
+     , (0x793AA017, 0x793AA01A, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793AA018, 32199, 0x93AA002A, 129.4119, 36.26194, 54.87164, -0.8587383, 0, 0, -0.5124145,  True, '2019-02-10 00:00:00'); /* Pumpkin Follower */

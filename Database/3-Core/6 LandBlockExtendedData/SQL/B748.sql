@@ -5,15 +5,15 @@ VALUES (0x7B748001,  1154, 0xB7480006, 7.67673, 136.445, 73.75249, 0.7660445, 0,
 /* @teleloc 0xB7480006 [7.676730 136.445000 73.752490] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B748001, 0x7B748002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B748001, 0x7B748003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B748001, 0x7B748004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B748001, 0x7B748005, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7B748001, 0x7B748006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B748001, 0x7B748007, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B748001, 0x7B748008, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7B748001, 0x7B748009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7B748001, 0x7B74800A, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7B748001, 0x7B748002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B748001, 0x7B748003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B748001, 0x7B748004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B748001, 0x7B748005, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7B748001, 0x7B748006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B748001, 0x7B748007, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B748001, 0x7B748008, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7B748001, 0x7B748009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7B748001, 0x7B74800A, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B748002,  1608, 0xB7480006, 7.67673, 136.445, 73.75249, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

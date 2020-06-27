@@ -5,13 +5,13 @@ VALUES (0x7905B001,  1154, 0x905B0007, 14.89608, 158.7747, 26.47256, 0.3783505, 
 /* @teleloc 0x905B0007 [14.896080 158.774700 26.472560] 0.378351 0.000000 0.000000 -0.925662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7905B001, 0x7905B002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905B001, 0x7905B003, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7905B001, 0x7905B004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7905B001, 0x7905B005, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7905B001, 0x7905B006, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7905B001, 0x7905B007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7905B001, 0x7905B008, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7905B001, 0x7905B002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905B001, 0x7905B003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7905B001, 0x7905B004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7905B001, 0x7905B005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7905B001, 0x7905B006, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7905B001, 0x7905B007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7905B001, 0x7905B008, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7905B002,  5429, 0x905B0007, 14.89608, 158.7747, 26.47256, 0.3783505, 0, 0, -0.9256624,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

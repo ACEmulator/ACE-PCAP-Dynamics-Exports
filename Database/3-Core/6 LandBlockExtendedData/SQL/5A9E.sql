@@ -5,24 +5,24 @@ VALUES (0x75A9E001,  1154, 0x5A9E0014, 49.36844, 72.7972, 13.91229, 1, 0, 0, 0, 
 /* @teleloc 0x5A9E0014 [49.368440 72.797200 13.912290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9E001, 0x75A9E002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75A9E001, 0x75A9E003, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75A9E001, 0x75A9E004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9E001, 0x75A9E005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75A9E001, 0x75A9E006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75A9E001, 0x75A9E007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75A9E001, 0x75A9E008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75A9E001, 0x75A9E009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75A9E001, 0x75A9E00A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75A9E001, 0x75A9E00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x75A9E001, 0x75A9E00C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75A9E001, 0x75A9E00D, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75A9E001, 0x75A9E00E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9E001, 0x75A9E00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75A9E001, 0x75A9E010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75A9E001, 0x75A9E011, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75A9E001, 0x75A9E012, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75A9E001, 0x75A9E013, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x75A9E001, 0x75A9E002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75A9E001, 0x75A9E003, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75A9E001, 0x75A9E004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9E001, 0x75A9E005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75A9E001, 0x75A9E006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75A9E001, 0x75A9E007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75A9E001, 0x75A9E008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75A9E001, 0x75A9E009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75A9E001, 0x75A9E00A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75A9E001, 0x75A9E00B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75A9E001, 0x75A9E00C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75A9E001, 0x75A9E00D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75A9E001, 0x75A9E00E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9E001, 0x75A9E00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75A9E001, 0x75A9E010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75A9E001, 0x75A9E011, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75A9E001, 0x75A9E012, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75A9E001, 0x75A9E013, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9E002,  7123, 0x5A9E0014, 49.36844, 72.7972, 13.91229, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -101,7 +101,7 @@ VALUES (0x75A9E014,  1542, 0x5A9E003B, 173.2515, 54.00098, 5.009891, 0.4556004, 
 /* @teleloc 0x5A9E003B [173.251500 54.000980 5.009891] 0.455600 0.000000 0.000000 -0.890185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A9E014, 0x75A9E015, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75A9E014, 0x75A9E015, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A9E015,  8039, 0x5A9E003B, 173.2515, 54.00098, 5.009891, 0.4556004, 0, 0, -0.8901845,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

@@ -5,9 +5,9 @@ VALUES (0x72416001,  1154, 0x2416001A, 83.12757, 32.30626, 62.42809, -0.3998331,
 /* @teleloc 0x2416001A [83.127570 32.306260 62.428090] -0.399833 0.000000 0.000000 -0.916588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72416001, 0x72416002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x72416001, 0x72416003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72416001, 0x72416004, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x72416001, 0x72416002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x72416001, 0x72416003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72416001, 0x72416004, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72416002, 41004, 0x2416001A, 83.12757, 32.30626, 62.42809, -0.3998331, 0, 0, -0.9165879,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

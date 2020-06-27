@@ -5,16 +5,16 @@ VALUES (0x72B5B001,  1154, 0x2B5B003C, 187.5631, 79.3375, 2.379745, 0.2588191, 0
 /* @teleloc 0x2B5B003C [187.563100 79.337500 2.379745] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B5B001, 0x72B5B002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72B5B001, 0x72B5B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72B5B001, 0x72B5B004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72B5B001, 0x72B5B005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72B5B001, 0x72B5B006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72B5B001, 0x72B5B007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72B5B001, 0x72B5B008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72B5B001, 0x72B5B009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72B5B001, 0x72B5B00A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72B5B001, 0x72B5B00B, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x72B5B001, 0x72B5B002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72B5B001, 0x72B5B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B5B001, 0x72B5B004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72B5B001, 0x72B5B005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72B5B001, 0x72B5B006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72B5B001, 0x72B5B007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72B5B001, 0x72B5B008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72B5B001, 0x72B5B009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72B5B001, 0x72B5B00A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72B5B001, 0x72B5B00B, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B5B002, 24494, 0x2B5B003C, 187.5631, 79.3375, 2.379745, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -61,7 +61,7 @@ VALUES (0x72B5B00C,  1542, 0x2B5B000A, 28.16375, 44.79308, 2.878081, 1, 0, 0, 0,
 /* @teleloc 0x2B5B000A [28.163750 44.793080 2.878081] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B5B00C, 0x72B5B00D, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72B5B00C, 0x72B5B00D, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B5B00D,  8999, 0x2B5B000A, 28.16375, 44.79308, 2.878081, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

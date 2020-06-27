@@ -5,17 +5,17 @@ VALUES (0x7290E001,  1154, 0x290E0008, 5.515858, 173.1926, 52.64098, -0.5982863,
 /* @teleloc 0x290E0008 [5.515858 173.192600 52.640980] -0.598286 0.000000 0.000000 -0.801282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7290E001, 0x7290E002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7290E001, 0x7290E003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x7290E001, 0x7290E004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7290E001, 0x7290E005, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7290E001, 0x7290E006, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7290E001, 0x7290E007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7290E001, 0x7290E008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7290E001, 0x7290E009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7290E001, 0x7290E00A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7290E001, 0x7290E00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7290E001, 0x7290E00C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x7290E001, 0x7290E002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7290E001, 0x7290E003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x7290E001, 0x7290E004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7290E001, 0x7290E005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7290E001, 0x7290E006, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7290E001, 0x7290E007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7290E001, 0x7290E008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7290E001, 0x7290E009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7290E001, 0x7290E00A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7290E001, 0x7290E00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7290E001, 0x7290E00C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7290E002, 24497, 0x290E0008, 5.515858, 173.1926, 52.64098, -0.5982863, 0, 0, -0.8012824,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -66,8 +66,8 @@ VALUES (0x7290E00D,  1542, 0x290E0014, 62.90513, 94.91196, 64.68465, -0.4590925,
 /* @teleloc 0x290E0014 [62.905130 94.911960 64.684650] -0.459093 0.000000 0.000000 -0.888389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7290E00D, 0x7290E00E, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7290E00D, 0x7290E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7290E00D, 0x7290E00E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7290E00D, 0x7290E00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7290E00E,  9288, 0x290E0014, 62.90513, 94.91196, 64.68465, -0.4590925, 0, 0, -0.8883885,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

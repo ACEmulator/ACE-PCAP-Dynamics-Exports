@@ -5,9 +5,9 @@ VALUES (0x734F1001,  1154, 0x34F1002F, 130.0123, 152.749, -0.8925, 0.9566814, 0,
 /* @teleloc 0x34F1002F [130.012300 152.749000 -0.892500] 0.956681 0.000000 0.000000 -0.291137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x734F1001, 0x734F1002, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x734F1001, 0x734F1003, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x734F1001, 0x734F1004, '2019-02-10 00:00:00') /* Undead Lieutenant */;
+VALUES (0x734F1001, 0x734F1002, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x734F1001, 0x734F1003, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x734F1001, 0x734F1004, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x734F1002, 24322, 0x34F1002F, 130.0123, 152.749, -0.8925, 0.9566814, 0, 0, -0.2911368,  True, '2019-02-10 00:00:00'); /* Undead Lieutenant */

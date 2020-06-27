@@ -5,44 +5,44 @@ VALUES (0x726ED001,  1154, 0x26ED0040, 190.3338, 182.5273, 8.0105, 0.5960548, 0,
 /* @teleloc 0x26ED0040 [190.333800 182.527300 8.010500] 0.596055 0.000000 0.000000 -0.802944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726ED001, 0x726ED002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x726ED001, 0x726ED003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x726ED001, 0x726ED004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x726ED001, 0x726ED005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x726ED001, 0x726ED006, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x726ED001, 0x726ED007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x726ED001, 0x726ED008, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x726ED001, 0x726ED009, '2019-02-10 00:00:00') /* Eater */
-     , (0x726ED001, 0x726ED00A, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x726ED001, 0x726ED00B, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x726ED001, 0x726ED00C, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x726ED001, 0x726ED00D, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x726ED001, 0x726ED00E, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x726ED001, 0x726ED00F, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x726ED001, 0x726ED010, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x726ED001, 0x726ED011, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x726ED001, 0x726ED012, '2019-02-10 00:00:00') /* Eater */
-     , (0x726ED001, 0x726ED013, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x726ED001, 0x726ED014, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x726ED001, 0x726ED015, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x726ED001, 0x726ED016, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x726ED001, 0x726ED017, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x726ED001, 0x726ED018, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x726ED001, 0x726ED019, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x726ED001, 0x726ED01A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x726ED001, 0x726ED01B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x726ED001, 0x726ED01C, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x726ED001, 0x726ED01D, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x726ED001, 0x726ED01E, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x726ED001, 0x726ED01F, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x726ED001, 0x726ED020, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x726ED001, 0x726ED021, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x726ED001, 0x726ED022, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x726ED001, 0x726ED023, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x726ED001, 0x726ED024, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x726ED001, 0x726ED025, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x726ED001, 0x726ED026, '2019-02-10 00:00:00') /* Eater */
-     , (0x726ED001, 0x726ED027, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x726ED001, 0x726ED002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x726ED001, 0x726ED003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x726ED001, 0x726ED004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x726ED001, 0x726ED005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x726ED001, 0x726ED006, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x726ED001, 0x726ED007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x726ED001, 0x726ED008, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x726ED001, 0x726ED009, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x726ED001, 0x726ED00A, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x726ED001, 0x726ED00B, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x726ED001, 0x726ED00C, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x726ED001, 0x726ED00D, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x726ED001, 0x726ED00E, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x726ED001, 0x726ED00F, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x726ED001, 0x726ED010, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x726ED001, 0x726ED011, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x726ED001, 0x726ED012, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x726ED001, 0x726ED013, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x726ED001, 0x726ED014, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x726ED001, 0x726ED015, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x726ED001, 0x726ED016, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x726ED001, 0x726ED017, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x726ED001, 0x726ED018, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x726ED001, 0x726ED019, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x726ED001, 0x726ED01A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x726ED001, 0x726ED01B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x726ED001, 0x726ED01C, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x726ED001, 0x726ED01D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x726ED001, 0x726ED01E, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x726ED001, 0x726ED01F, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x726ED001, 0x726ED020, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x726ED001, 0x726ED021, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x726ED001, 0x726ED022, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x726ED001, 0x726ED023, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x726ED001, 0x726ED024, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x726ED001, 0x726ED025, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x726ED001, 0x726ED026, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x726ED001, 0x726ED027, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726ED002, 38176, 0x26ED0040, 190.3338, 182.5273, 8.0105, 0.5960548, 0, 0, -0.8029438,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

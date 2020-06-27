@@ -5,16 +5,16 @@ VALUES (0x75BA4001,  1154, 0x5BA40033, 166.9914, 66.59818, 79.80311, -0.9470567,
 /* @teleloc 0x5BA40033 [166.991400 66.598180 79.803110] -0.947057 0.000000 0.000000 -0.321066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BA4001, 0x75BA4002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x75BA4001, 0x75BA4003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75BA4001, 0x75BA4004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75BA4001, 0x75BA4005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75BA4001, 0x75BA4006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75BA4001, 0x75BA4007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75BA4001, 0x75BA4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75BA4001, 0x75BA4009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75BA4001, 0x75BA400A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75BA4001, 0x75BA400B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x75BA4001, 0x75BA4002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x75BA4001, 0x75BA4003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75BA4001, 0x75BA4004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75BA4001, 0x75BA4005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75BA4001, 0x75BA4006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75BA4001, 0x75BA4007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75BA4001, 0x75BA4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75BA4001, 0x75BA4009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75BA4001, 0x75BA400A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75BA4001, 0x75BA400B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BA4002,  8968, 0x5BA40033, 166.9914, 66.59818, 79.80311, -0.9470567, 0, 0, -0.3210664,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */

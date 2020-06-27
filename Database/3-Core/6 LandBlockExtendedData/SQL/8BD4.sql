@@ -5,11 +5,11 @@ VALUES (0x78BD4001,  1154, 0x8BD4001A, 94.46886, 36.91301, 303.1896, 0.7660445, 
 /* @teleloc 0x8BD4001A [94.468860 36.913010 303.189600] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BD4001, 0x78BD4002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78BD4001, 0x78BD4003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78BD4001, 0x78BD4004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78BD4001, 0x78BD4005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x78BD4001, 0x78BD4006, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x78BD4001, 0x78BD4002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78BD4001, 0x78BD4003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78BD4001, 0x78BD4004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78BD4001, 0x78BD4005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x78BD4001, 0x78BD4006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BD4002,  7084, 0x8BD4001A, 94.46886, 36.91301, 303.1896, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

@@ -5,8 +5,8 @@ VALUES (0x79D71001,  1154, 0x9D710015, 61.28556, 109.2054, 23.10388, -0.5638916,
 /* @teleloc 0x9D710015 [61.285560 109.205400 23.103880] -0.563892 0.000000 0.000000 -0.825849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D71001, 0x79D71002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x79D71001, 0x79D71003, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x79D71001, 0x79D71002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x79D71001, 0x79D71003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D71002, 24938, 0x9D710015, 61.28556, 109.2054, 23.10388, -0.5638916, 0, 0, -0.8258488,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

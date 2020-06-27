@@ -5,14 +5,14 @@ VALUES (0x7BEDA001,  1154, 0xBEDA0019, 84.58561, 9.662806, 93.07542, 0.9395775, 
 /* @teleloc 0xBEDA0019 [84.585610 9.662806 93.075420] 0.939578 0.000000 0.000000 -0.342336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEDA001, 0x7BEDA002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BEDA001, 0x7BEDA003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BEDA001, 0x7BEDA004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BEDA001, 0x7BEDA005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BEDA001, 0x7BEDA006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BEDA001, 0x7BEDA007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BEDA001, 0x7BEDA008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BEDA001, 0x7BEDA009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7BEDA001, 0x7BEDA002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BEDA001, 0x7BEDA003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BEDA001, 0x7BEDA004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BEDA001, 0x7BEDA005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BEDA001, 0x7BEDA006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BEDA001, 0x7BEDA007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BEDA001, 0x7BEDA008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BEDA001, 0x7BEDA009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEDA002, 26470, 0xBEDA0019, 84.58561, 9.662806, 93.07542, 0.9395775, 0, 0, -0.3423362,  True, '2019-02-10 00:00:00'); /* Fire Shreth */

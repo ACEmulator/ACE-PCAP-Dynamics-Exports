@@ -5,9 +5,9 @@ VALUES (0x7A4C6001,  1154, 0xA4C6003E, 173.8729, 131.5168, 92.05446, -0.9923009,
 /* @teleloc 0xA4C6003E [173.872900 131.516800 92.054460] -0.992301 0.000000 0.000000 -0.123850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4C6001, 0x7A4C6002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A4C6001, 0x7A4C6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A4C6001, 0x7A4C6004, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A4C6001, 0x7A4C6002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A4C6001, 0x7A4C6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A4C6001, 0x7A4C6004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4C6002,  1627, 0xA4C6003E, 173.8729, 131.5168, 92.05446, -0.9923009, 0, 0, -0.1238504,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

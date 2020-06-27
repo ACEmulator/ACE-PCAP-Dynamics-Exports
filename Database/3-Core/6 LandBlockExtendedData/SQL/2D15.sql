@@ -13,36 +13,36 @@ VALUES (0x72D15026,  1154, 0x2D150103, 129.637, 85.8565, 56.04502, 0.0604625, 0,
 /* @teleloc 0x2D150103 [129.637000 85.856500 56.045020] 0.060463 0.000000 0.000000 0.998170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D15026, 0x72D15027, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72D15026, 0x72D15028, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72D15026, 0x72D15029, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D15026, 0x72D1502A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D15026, 0x72D1502B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D15026, 0x72D1502C, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x72D15026, 0x72D1502D, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72D15026, 0x72D1502E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72D15026, 0x72D1502F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72D15026, 0x72D15030, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x72D15026, 0x72D15031, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D15026, 0x72D15032, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D15026, 0x72D15033, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72D15026, 0x72D15034, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D15026, 0x72D15035, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D15026, 0x72D15036, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72D15026, 0x72D15037, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72D15026, 0x72D15038, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x72D15026, 0x72D15039, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72D15026, 0x72D1503A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72D15026, 0x72D1503B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72D15026, 0x72D1503C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D15026, 0x72D1503D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D15026, 0x72D1503E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D15026, 0x72D1503F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72D15026, 0x72D15040, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D15026, 0x72D15041, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D15026, 0x72D15042, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D15026, 0x72D15043, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D15026, 0x72D15044, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72D15026, 0x72D15027, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15026, 0x72D15028, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15026, 0x72D15029, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15026, 0x72D1502A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15026, 0x72D1502B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15026, 0x72D1502C, '2019-02-10 00:00:00') /* Gotrok Juggernaut (24495) */
+     , (0x72D15026, 0x72D1502D, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15026, 0x72D1502E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D15026, 0x72D1502F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72D15026, 0x72D15030, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x72D15026, 0x72D15031, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D15026, 0x72D15032, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15026, 0x72D15033, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15026, 0x72D15034, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D15026, 0x72D15035, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15026, 0x72D15036, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D15026, 0x72D15037, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72D15026, 0x72D15038, '2019-02-10 00:00:00') /* Exploration Marker (39833) */
+     , (0x72D15026, 0x72D15039, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72D15026, 0x72D1503A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72D15026, 0x72D1503B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D15026, 0x72D1503C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D15026, 0x72D1503D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D15026, 0x72D1503E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D15026, 0x72D1503F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72D15026, 0x72D15040, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D15026, 0x72D15041, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D15026, 0x72D15042, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D15026, 0x72D15043, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D15026, 0x72D15044, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D15027, 23617, 0x2D150103, 129.637, 85.8565, 56.04502, 0.0604625, 0, 0, 0.99817,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -169,8 +169,8 @@ VALUES (0x72D15045,  1542, 0x2D150021, 105.0875, 11.81276, 41.96879, 1, 0, 0, 0,
 /* @teleloc 0x2D150021 [105.087500 11.812760 41.968790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D15045, 0x72D15046, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72D15045, 0x72D15047, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72D15045, 0x72D15046, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72D15045, 0x72D15047, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D15046, 22571, 0x2D150021, 105.0875, 11.81276, 41.96879, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

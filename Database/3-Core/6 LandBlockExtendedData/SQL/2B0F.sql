@@ -5,20 +5,20 @@ VALUES (0x72B0F001,  1154, 0x2B0F003D, 171.9455, 111.6388, 51.10892, 0.1128297, 
 /* @teleloc 0x2B0F003D [171.945500 111.638800 51.108920] 0.112830 0.000000 0.000000 -0.993614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0F001, 0x72B0F002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B0F001, 0x72B0F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0F001, 0x72B0F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0F001, 0x72B0F005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72B0F001, 0x72B0F006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72B0F001, 0x72B0F007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72B0F001, 0x72B0F008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0F001, 0x72B0F009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0F001, 0x72B0F00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B0F001, 0x72B0F00B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72B0F001, 0x72B0F00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72B0F001, 0x72B0F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B0F001, 0x72B0F00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72B0F001, 0x72B0F00F, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x72B0F001, 0x72B0F002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B0F001, 0x72B0F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0F001, 0x72B0F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0F001, 0x72B0F005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72B0F001, 0x72B0F006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72B0F001, 0x72B0F007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72B0F001, 0x72B0F008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0F001, 0x72B0F009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0F001, 0x72B0F00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B0F001, 0x72B0F00B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72B0F001, 0x72B0F00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72B0F001, 0x72B0F00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B0F001, 0x72B0F00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72B0F001, 0x72B0F00F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0F002, 23564, 0x2B0F003D, 171.9455, 111.6388, 51.10892, 0.1128297, 0, 0, -0.9936143,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -81,7 +81,7 @@ VALUES (0x72B0F010,  1542, 0x2B0F0036, 167.3053, 139.6446, 50.16367, 0.1128297, 
 /* @teleloc 0x2B0F0036 [167.305300 139.644600 50.163670] 0.112830 0.000000 0.000000 -0.993614 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B0F010, 0x72B0F011, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x72B0F010, 0x72B0F011, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B0F011,  9286, 0x2B0F0036, 167.3053, 139.6446, 50.16367, 0.1128297, 0, 0, -0.9936143,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

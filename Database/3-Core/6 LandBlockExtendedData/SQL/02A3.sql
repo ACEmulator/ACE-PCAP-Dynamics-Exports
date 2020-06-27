@@ -13,20 +13,20 @@ VALUES (0x702A3004,  1154, 0x02A30108, 23.4697, -0.141697, 0.02899998, -0.71854,
 /* @teleloc 0x02A30108 [23.469700 -0.141697 0.029000] -0.718540 0.000000 0.000000 -0.695486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A3004, 0x702A3005, '2019-02-10 00:00:00') /* Yoked Virindi */
-     , (0x702A3004, 0x702A3006, '2019-02-10 00:00:00') /* Conquered Virindi */
-     , (0x702A3004, 0x702A3007, '2019-02-10 00:00:00') /* Leashed Virindi */
-     , (0x702A3004, 0x702A3008, '2019-02-10 00:00:00') /* Tamed Virindi */
-     , (0x702A3004, 0x702A3009, '2019-02-10 00:00:00') /* Beaten Virindi */
-     , (0x702A3004, 0x702A300A, '2019-02-10 00:00:00') /* Atlatl Minion */
-     , (0x702A3004, 0x702A300B, '2019-02-10 00:00:00') /* Crossbow Minion */
-     , (0x702A3004, 0x702A300C, '2019-02-10 00:00:00') /* Broken Virindi */
-     , (0x702A3004, 0x702A300D, '2019-02-10 00:00:00') /* War Magic Minion */
-     , (0x702A3004, 0x702A300E, '2019-02-10 00:00:00') /* Life Magic Minion */
-     , (0x702A3004, 0x702A300F, '2019-02-10 00:00:00') /* Bow Minion */
-     , (0x702A3004, 0x702A3010, '2019-02-10 00:00:00') /* Staff Minion */
-     , (0x702A3004, 0x702A3011, '2019-02-10 00:00:00') /* Dagger Minion */
-     , (0x702A3004, 0x702A3012, '2019-02-10 00:00:00') /* Unarmed Minion */;
+VALUES (0x702A3004, 0x702A3005, '2019-02-10 00:00:00') /* Yoked Virindi (41852) */
+     , (0x702A3004, 0x702A3006, '2019-02-10 00:00:00') /* Conquered Virindi (9133) */
+     , (0x702A3004, 0x702A3007, '2019-02-10 00:00:00') /* Leashed Virindi (9134) */
+     , (0x702A3004, 0x702A3008, '2019-02-10 00:00:00') /* Tamed Virindi (9135) */
+     , (0x702A3004, 0x702A3009, '2019-02-10 00:00:00') /* Beaten Virindi (9131) */
+     , (0x702A3004, 0x702A300A, '2019-02-10 00:00:00') /* Atlatl Minion (23524) */
+     , (0x702A3004, 0x702A300B, '2019-02-10 00:00:00') /* Crossbow Minion (14470) */
+     , (0x702A3004, 0x702A300C, '2019-02-10 00:00:00') /* Broken Virindi (9132) */
+     , (0x702A3004, 0x702A300D, '2019-02-10 00:00:00') /* War Magic Minion (27813) */
+     , (0x702A3004, 0x702A300E, '2019-02-10 00:00:00') /* Life Magic Minion (27812) */
+     , (0x702A3004, 0x702A300F, '2019-02-10 00:00:00') /* Bow Minion (14469) */
+     , (0x702A3004, 0x702A3010, '2019-02-10 00:00:00') /* Staff Minion (14472) */
+     , (0x702A3004, 0x702A3011, '2019-02-10 00:00:00') /* Dagger Minion (14471) */
+     , (0x702A3004, 0x702A3012, '2019-02-10 00:00:00') /* Unarmed Minion (14473) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A3005, 41852, 0x02A30108, 23.4697, -0.141697, 0.02899998, -0.71854, 0, 0, -0.695486,  True, '2019-02-10 00:00:00'); /* Yoked Virindi */

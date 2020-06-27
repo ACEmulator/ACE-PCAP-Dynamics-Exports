@@ -5,14 +5,14 @@ VALUES (0x70E6F001,  1154, 0x0E6F0038, 166.7183, 181.8715, 57.06466, 0.330874, 0
 /* @teleloc 0x0E6F0038 [166.718300 181.871500 57.064660] 0.330874 0.000000 0.000000 -0.943675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E6F001, 0x70E6F002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70E6F001, 0x70E6F003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70E6F001, 0x70E6F004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70E6F001, 0x70E6F005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x70E6F001, 0x70E6F006, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70E6F001, 0x70E6F007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70E6F001, 0x70E6F008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E6F001, 0x70E6F009, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x70E6F001, 0x70E6F002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70E6F001, 0x70E6F003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70E6F001, 0x70E6F004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70E6F001, 0x70E6F005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x70E6F001, 0x70E6F006, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70E6F001, 0x70E6F007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70E6F001, 0x70E6F008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E6F001, 0x70E6F009, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E6F002, 14877, 0x0E6F0038, 166.7183, 181.8715, 57.06466, 0.330874, 0, 0, -0.9436749,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -51,7 +51,7 @@ VALUES (0x70E6F00A,  1542, 0x0E6F0003, 4.775305, 50.00565, 69.99, -0.9787123, 0,
 /* @teleloc 0x0E6F0003 [4.775305 50.005650 69.990000] -0.978712 0.000000 0.000000 -0.205237 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E6F00A, 0x70E6F00B, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x70E6F00A, 0x70E6F00B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E6F00B,  9288, 0x0E6F0003, 4.775305, 50.00565, 69.99, -0.9787123, 0, 0, -0.2052373,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

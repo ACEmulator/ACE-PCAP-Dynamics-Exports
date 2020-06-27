@@ -5,26 +5,26 @@ VALUES (0x75DB6001,  1154, 0x5DB6003C, 187.5861, 83.23965, 17.2426, -0.7759157, 
 /* @teleloc 0x5DB6003C [187.586100 83.239650 17.242600] -0.775916 0.000000 0.000000 -0.630837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DB6001, 0x75DB6002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75DB6001, 0x75DB6003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75DB6001, 0x75DB6004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75DB6001, 0x75DB6005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75DB6001, 0x75DB6006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75DB6001, 0x75DB6007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75DB6001, 0x75DB6008, '2019-02-10 00:00:00') /* Ember */
-     , (0x75DB6001, 0x75DB6009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75DB6001, 0x75DB600A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75DB6001, 0x75DB600B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75DB6001, 0x75DB600C, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75DB6001, 0x75DB600D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75DB6001, 0x75DB600E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75DB6001, 0x75DB600F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75DB6001, 0x75DB6010, '2019-02-10 00:00:00') /* Static */
-     , (0x75DB6001, 0x75DB6011, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75DB6001, 0x75DB6012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75DB6001, 0x75DB6013, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75DB6001, 0x75DB6014, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75DB6001, 0x75DB6015, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x75DB6001, 0x75DB6002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75DB6001, 0x75DB6003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75DB6001, 0x75DB6004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75DB6001, 0x75DB6005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75DB6001, 0x75DB6006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75DB6001, 0x75DB6007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75DB6001, 0x75DB6008, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75DB6001, 0x75DB6009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75DB6001, 0x75DB600A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75DB6001, 0x75DB600B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75DB6001, 0x75DB600C, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75DB6001, 0x75DB600D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75DB6001, 0x75DB600E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75DB6001, 0x75DB600F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75DB6001, 0x75DB6010, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75DB6001, 0x75DB6011, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75DB6001, 0x75DB6012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75DB6001, 0x75DB6013, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75DB6001, 0x75DB6014, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75DB6001, 0x75DB6015, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DB6002,  4255, 0x5DB6003C, 187.5861, 83.23965, 17.2426, -0.7759157, 0, 0, -0.6308366,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -111,8 +111,8 @@ VALUES (0x75DB6016,  1542, 0x5DB6003E, 175.7254, 125.5569, 14.64379, 1, 0, 0, 0,
 /* @teleloc 0x5DB6003E [175.725400 125.556900 14.643790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DB6016, 0x75DB6017, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75DB6016, 0x75DB6018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75DB6016, 0x75DB6017, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x75DB6016, 0x75DB6018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DB6017, 22567, 0x5DB6003E, 175.7254, 125.5569, 14.64379, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

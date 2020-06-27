@@ -33,14 +33,14 @@ VALUES (0x7856E007,  1154, 0x856E0038, 149.5568, 180.1889, 10.0025, 0.8870109, 0
 /* @teleloc 0x856E0038 [149.556800 180.188900 10.002500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7856E007, 0x7856E008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7856E007, 0x7856E009, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7856E007, 0x7856E00A, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7856E007, 0x7856E00B, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7856E007, 0x7856E00C, '2019-02-10 00:00:00') /* Undead */
-     , (0x7856E007, 0x7856E00D, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x7856E007, 0x7856E00E, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7856E007, 0x7856E00F, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7856E007, 0x7856E008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7856E007, 0x7856E009, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7856E007, 0x7856E00A, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7856E007, 0x7856E00B, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7856E007, 0x7856E00C, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7856E007, 0x7856E00D, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x7856E007, 0x7856E00E, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7856E007, 0x7856E00F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7856E008,  1759, 0x856E0038, 149.5568, 180.1889, 10.0025, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -79,9 +79,9 @@ VALUES (0x7856E010,  1154, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0
 /* @teleloc 0x856E010E [153.789000 157.015000 9.705000] -0.058020 0.000000 0.000000 -0.998315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7856E010, 0x7856E011, '2019-02-10 00:00:00') /* Ya-Bint-Al-Hawa */
-     , (0x7856E010, 0x7856E012, '2019-02-10 00:00:00') /* Gabal Feteh */
-     , (0x7856E010, 0x7856E013, '2019-02-10 00:00:00') /* Anid Al-Fadee */;
+VALUES (0x7856E010, 0x7856E011, '2019-02-10 00:00:00') /* Ya-Bint-Al-Hawa (9228) */
+     , (0x7856E010, 0x7856E012, '2019-02-10 00:00:00') /* Gabal Feteh (9226) */
+     , (0x7856E010, 0x7856E013, '2019-02-10 00:00:00') /* Anid Al-Fadee (9227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7856E011,  9228, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315,  True, '2019-02-10 00:00:00'); /* Ya-Bint-Al-Hawa */

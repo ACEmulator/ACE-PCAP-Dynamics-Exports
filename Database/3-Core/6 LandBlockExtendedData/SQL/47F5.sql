@@ -5,18 +5,18 @@ VALUES (0x747F5001,  1154, 0x47F50007, 17.1675, 147.7154, 106.2167, -0.3522801, 
 /* @teleloc 0x47F50007 [17.167500 147.715400 106.216700] -0.352280 0.000000 0.000000 -0.935895 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747F5001, 0x747F5002, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747F5001, 0x747F5003, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x747F5001, 0x747F5004, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x747F5001, 0x747F5005, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747F5001, 0x747F5006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747F5001, 0x747F5007, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747F5001, 0x747F5008, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x747F5001, 0x747F5009, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x747F5001, 0x747F500A, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x747F5001, 0x747F500B, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747F5001, 0x747F500C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x747F5001, 0x747F500D, '2019-02-10 00:00:00') /* Ravenous Eater */;
+VALUES (0x747F5001, 0x747F5002, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F5001, 0x747F5003, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x747F5001, 0x747F5004, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x747F5001, 0x747F5005, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F5001, 0x747F5006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F5001, 0x747F5007, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F5001, 0x747F5008, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x747F5001, 0x747F5009, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x747F5001, 0x747F500A, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x747F5001, 0x747F500B, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F5001, 0x747F500C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x747F5001, 0x747F500D, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747F5002, 28655, 0x47F50007, 17.1675, 147.7154, 106.2167, -0.3522801, 0, 0, -0.9358946,  True, '2019-02-10 00:00:00'); /* Viamontian Hand */

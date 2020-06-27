@@ -5,97 +5,97 @@ VALUES (0x7E4D0001,  1154, 0xE4D0000B, 42.81736, 65.59122, 6.00715, 0.05200193, 
 /* @teleloc 0xE4D0000B [42.817360 65.591220 6.007150] 0.052002 0.000000 0.000000 -0.998647 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D0001, 0x7E4D0002, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0003, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0004, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0005, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0006, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0007, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0008, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0009, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D000A, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D000B, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D000C, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D000D, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D000E, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D000F, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0010, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0011, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0012, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0013, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0014, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0015, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0016, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0017, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0018, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0019, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D001A, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D001B, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D001C, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D0001, 0x7E4D001D, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E4D0001, 0x7E4D001E, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D001F, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0020, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0021, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0022, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0023, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0024, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0025, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0026, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D0001, 0x7E4D0027, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0028, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0029, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D002A, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D002B, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D002C, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D002D, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D002E, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D002F, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0030, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0031, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E4D0001, 0x7E4D0032, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0033, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0034, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E4D0001, 0x7E4D0035, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E4D0001, 0x7E4D0036, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E4D0001, 0x7E4D0037, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0038, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0039, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D003A, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D003B, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D003C, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D003D, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D003E, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D003F, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0040, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D0001, 0x7E4D0041, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0042, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0043, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0044, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0045, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0046, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0047, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0048, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0049, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D004A, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D004B, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D004C, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D004D, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D004E, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D004F, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0050, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0051, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0052, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0053, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0054, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0055, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D0001, 0x7E4D0056, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D0001, 0x7E4D0057, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D0058, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D0059, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D0001, 0x7E4D005A, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D0001, 0x7E4D005B, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E4D0001, 0x7E4D005C, '2019-02-10 00:00:00') /* Big Red Olthoi */;
+VALUES (0x7E4D0001, 0x7E4D0002, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0003, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0004, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0005, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0006, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0007, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0008, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0009, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D000A, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D000B, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D000C, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D000D, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D000E, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D000F, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0010, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0011, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0012, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0013, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0014, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0015, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0016, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0017, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0018, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0019, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D001A, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D001B, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D001C, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D0001, 0x7E4D001D, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D0001, 0x7E4D001E, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D001F, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0020, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0021, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0022, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0023, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0024, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0025, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0026, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D0001, 0x7E4D0027, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0028, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0029, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D002A, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D002B, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D002C, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D002D, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D002E, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D002F, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0030, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0031, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E4D0001, 0x7E4D0032, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0033, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0034, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E4D0001, 0x7E4D0035, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E4D0001, 0x7E4D0036, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E4D0001, 0x7E4D0037, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0038, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0039, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D003A, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D003B, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D003C, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D003D, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D003E, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D003F, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0040, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D0001, 0x7E4D0041, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0042, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0043, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0044, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0045, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0046, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0047, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0048, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0049, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D004A, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D004B, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D004C, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D004D, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D004E, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D004F, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0050, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0051, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0052, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0053, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0054, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0055, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D0001, 0x7E4D0056, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D0001, 0x7E4D0057, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D0058, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D0059, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D0001, 0x7E4D005A, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D0001, 0x7E4D005B, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E4D0001, 0x7E4D005C, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D0002, 43488, 0xE4D0000B, 42.81736, 65.59122, 6.00715, 0.05200193, 0, 0, -0.998647,  True, '2019-02-10 00:00:00'); /* Banderling Smasher */
@@ -466,7 +466,7 @@ VALUES (0x7E4D005D,  1542, 0xE4D00018, 63.0665, 176.698, 5.937, 1, 0, 0, 0, Fals
 /* @teleloc 0xE4D00018 [63.066500 176.698000 5.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D005D, 0x7E4D005E, '2019-02-10 00:00:00') /* Olthoi Tunnel */;
+VALUES (0x7E4D005D, 0x7E4D005E, '2019-02-10 00:00:00') /* Olthoi Tunnel (43546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D005E, 43546, 0xE4D00018, 63.0665, 176.698, 5.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

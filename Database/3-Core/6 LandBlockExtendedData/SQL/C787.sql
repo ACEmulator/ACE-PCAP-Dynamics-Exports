@@ -5,21 +5,21 @@ VALUES (0x7C787001,  1154, 0xC787000B, 44.44768, 53.13586, 24.73401, 0.9238795, 
 /* @teleloc 0xC787000B [44.447680 53.135860 24.734010] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C787001, 0x7C787002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C787001, 0x7C787003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C787001, 0x7C787004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C787001, 0x7C787005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C787001, 0x7C787006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C787001, 0x7C787007, '2019-02-10 00:00:00') /* Static */
-     , (0x7C787001, 0x7C787008, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C787001, 0x7C787009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C787001, 0x7C78700A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C787001, 0x7C78700B, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7C787001, 0x7C78700C, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C787001, 0x7C78700D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C787001, 0x7C78700E, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C787001, 0x7C78700F, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C787001, 0x7C787010, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7C787001, 0x7C787002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C787001, 0x7C787003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C787001, 0x7C787004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C787001, 0x7C787005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C787001, 0x7C787006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C787001, 0x7C787007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C787001, 0x7C787008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C787001, 0x7C787009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C787001, 0x7C78700A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C787001, 0x7C78700B, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7C787001, 0x7C78700C, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C787001, 0x7C78700D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C787001, 0x7C78700E, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C787001, 0x7C78700F, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C787001, 0x7C787010, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C787002, 24941, 0xC787000B, 44.44768, 53.13586, 24.73401, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -86,10 +86,10 @@ VALUES (0x7C787011,  1542, 0xC787000B, 36.45254, 50.72166, 25.18909, 1, 0, 0, 0,
 /* @teleloc 0xC787000B [36.452540 50.721660 25.189090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C787011, 0x7C787012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C787011, 0x7C787013, '2019-02-10 00:00:00') /* Scroll of Weapon Tinkering Expertise Self II */
-     , (0x7C787011, 0x7C787014, '2019-02-10 00:00:00') /* Ring */
-     , (0x7C787011, 0x7C787015, '2019-02-10 00:00:00') /* Chainmail Leggings */;
+VALUES (0x7C787011, 0x7C787012, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7C787011, 0x7C787013, '2019-02-10 00:00:00') /* Scroll of Weapon Tinkering Expertise Self II (3583) */
+     , (0x7C787011, 0x7C787014, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7C787011, 0x7C787015, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C787012, 22568, 0xC787000B, 36.45254, 50.72166, 25.18909, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

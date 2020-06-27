@@ -5,24 +5,24 @@ VALUES (0x7C6B0001,  1154, 0xC6B00021, 118.0505, 23.62826, 133.969, 0.5238239, 0
 /* @teleloc 0xC6B00021 [118.050500 23.628260 133.969000] 0.523824 0.000000 0.000000 -0.851827 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6B0001, 0x7C6B0002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C6B0001, 0x7C6B0003, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C6B0001, 0x7C6B0004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C6B0001, 0x7C6B0005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C6B0001, 0x7C6B0006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C6B0001, 0x7C6B0007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C6B0001, 0x7C6B0008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C6B0001, 0x7C6B0009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C6B0001, 0x7C6B000A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C6B0001, 0x7C6B000B, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C6B0001, 0x7C6B000C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C6B0001, 0x7C6B000D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C6B0001, 0x7C6B000E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C6B0001, 0x7C6B000F, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C6B0001, 0x7C6B0010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C6B0001, 0x7C6B0011, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C6B0001, 0x7C6B0012, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B0001, 0x7C6B0013, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7C6B0001, 0x7C6B0002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C6B0001, 0x7C6B0003, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C6B0001, 0x7C6B0004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C6B0001, 0x7C6B0005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C6B0001, 0x7C6B0006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C6B0001, 0x7C6B0007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C6B0001, 0x7C6B0008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C6B0001, 0x7C6B0009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C6B0001, 0x7C6B000A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C6B0001, 0x7C6B000B, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C6B0001, 0x7C6B000C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C6B0001, 0x7C6B000D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C6B0001, 0x7C6B000E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C6B0001, 0x7C6B000F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C6B0001, 0x7C6B0010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C6B0001, 0x7C6B0011, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C6B0001, 0x7C6B0012, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B0001, 0x7C6B0013, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6B0002,  9401, 0xC6B00021, 118.0505, 23.62826, 133.969, 0.5238239, 0, 0, -0.8518265,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -101,8 +101,8 @@ VALUES (0x7C6B0014,  1542, 0xC6B0002D, 140.0399, 107.4855, 152.2458, -0.6358283,
 /* @teleloc 0xC6B0002D [140.039900 107.485500 152.245800] -0.635828 0.000000 0.000000 -0.771831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6B0014, 0x7C6B0015, '2019-02-10 00:00:00') /* Snowflower */
-     , (0x7C6B0014, 0x7C6B0016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C6B0014, 0x7C6B0015, '2019-02-10 00:00:00') /* Snowflower (22837) */
+     , (0x7C6B0014, 0x7C6B0016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6B0015, 22837, 0xC6B0002D, 140.0399, 107.4855, 152.2458, -0.6358283, 0, 0, -0.7718306,  True, '2019-02-10 00:00:00'); /* Snowflower */

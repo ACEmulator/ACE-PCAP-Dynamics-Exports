@@ -5,17 +5,17 @@ VALUES (0x7B9D7001,  1154, 0xB9D70007, 5.282699, 159.1701, 43.6964, 0.9178787, 0
 /* @teleloc 0xB9D70007 [5.282699 159.170100 43.696400] 0.917879 0.000000 0.000000 -0.396861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9D7001, 0x7B9D7002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B9D7001, 0x7B9D7003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B9D7001, 0x7B9D7004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B9D7001, 0x7B9D7005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B9D7001, 0x7B9D7006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B9D7001, 0x7B9D7007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B9D7001, 0x7B9D7008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7B9D7001, 0x7B9D7009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7B9D7001, 0x7B9D700A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B9D7001, 0x7B9D700B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B9D7001, 0x7B9D700C, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7B9D7001, 0x7B9D7002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B9D7001, 0x7B9D7003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B9D7001, 0x7B9D7004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B9D7001, 0x7B9D7005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B9D7001, 0x7B9D7006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B9D7001, 0x7B9D7007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B9D7001, 0x7B9D7008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7B9D7001, 0x7B9D7009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7B9D7001, 0x7B9D700A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B9D7001, 0x7B9D700B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B9D7001, 0x7B9D700C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9D7002, 24288, 0xB9D70007, 5.282699, 159.1701, 43.6964, 0.9178787, 0, 0, -0.3968611,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

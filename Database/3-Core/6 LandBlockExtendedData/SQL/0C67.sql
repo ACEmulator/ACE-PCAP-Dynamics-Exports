@@ -5,20 +5,20 @@ VALUES (0x70C67001,  1154, 0x0C670008, 7.130981, 177.6908, 5.192432, -0.6967309,
 /* @teleloc 0x0C670008 [7.130981 177.690800 5.192432] -0.696731 0.000000 0.000000 -0.717333 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C67001, 0x70C67002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C67001, 0x70C67003, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70C67001, 0x70C67004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C67001, 0x70C67005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70C67001, 0x70C67006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C67001, 0x70C67007, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C67001, 0x70C67008, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C67001, 0x70C67009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70C67001, 0x70C6700A, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C67001, 0x70C6700B, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70C67001, 0x70C6700C, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70C67001, 0x70C6700D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70C67001, 0x70C6700E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70C67001, 0x70C6700F, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x70C67001, 0x70C67002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C67001, 0x70C67003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70C67001, 0x70C67004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C67001, 0x70C67005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70C67001, 0x70C67006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C67001, 0x70C67007, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C67001, 0x70C67008, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C67001, 0x70C67009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70C67001, 0x70C6700A, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C67001, 0x70C6700B, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70C67001, 0x70C6700C, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70C67001, 0x70C6700D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70C67001, 0x70C6700E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70C67001, 0x70C6700F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C67002, 23481, 0x0C670008, 7.130981, 177.6908, 5.192432, -0.6967309, 0, 0, -0.7173326,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -81,7 +81,7 @@ VALUES (0x70C67010,  1542, 0x0C670008, 7.178617, 174.6153, 5.448724, 0.9990482, 
 /* @teleloc 0x0C670008 [7.178617 174.615300 5.448724] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C67010, 0x70C67011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70C67010, 0x70C67011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C67011,  4179, 0x0C670008, 7.178617, 174.6153, 5.448724, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

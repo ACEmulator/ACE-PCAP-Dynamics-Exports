@@ -25,53 +25,53 @@ VALUES (0x703A003F,  1154, 0x03A001FB, 22.6562, -480.128, -5.99, 0.674704, 0, 0,
 /* @teleloc 0x03A001FB [22.656200 -480.128000 -5.990000] 0.674704 0.000000 0.000000 -0.738088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703A003F, 0x703A0040, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0041, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0042, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0043, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0044, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0045, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0046, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0047, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0048, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0049, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A004A, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A004B, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A004C, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A004D, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A004E, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A004F, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A0050, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0051, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0052, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0053, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0054, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0055, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A0056, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A0057, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A0058, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A0059, '2019-02-10 00:00:00') /* Singular Virindi Servant */
-     , (0x703A003F, 0x703A005A, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A005B, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A005C, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A005D, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A005E, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A005F, '2019-02-10 00:00:00') /* Singular Lugian Warlord */
-     , (0x703A003F, 0x703A0060, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A0061, '2019-02-10 00:00:00') /* Singular Extas Raider */
-     , (0x703A003F, 0x703A0062, '2019-02-10 00:00:00') /* Singular Virindi Master */
-     , (0x703A003F, 0x703A0063, '2019-02-10 00:00:00') /* Singular Tiatus Raider */
-     , (0x703A003F, 0x703A0064, '2019-02-10 00:00:00') /* Singular Tiatus Raider */
-     , (0x703A003F, 0x703A0065, '2019-02-10 00:00:00') /* Singular Virindi Master */
-     , (0x703A003F, 0x703A0066, '2019-02-10 00:00:00') /* Singular Tiatus Raider */
-     , (0x703A003F, 0x703A0067, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0068, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A0069, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A006A, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A006B, '2019-02-10 00:00:00') /* Singular Virindi Master */
-     , (0x703A003F, 0x703A006C, '2019-02-10 00:00:00') /* Singular Virindi Master */
-     , (0x703A003F, 0x703A006D, '2019-02-10 00:00:00') /* Singular Gigas Raider */
-     , (0x703A003F, 0x703A006E, '2019-02-10 00:00:00') /* Singular Gigas Raider */;
+VALUES (0x703A003F, 0x703A0040, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0041, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0042, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0043, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0044, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0045, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0046, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0047, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0048, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0049, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A004A, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A004B, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A004C, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A004D, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A004E, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A004F, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A0050, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0051, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0052, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0053, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0054, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0055, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A0056, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A0057, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A0058, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A0059, '2019-02-10 00:00:00') /* Singular Virindi Servant (12300) */
+     , (0x703A003F, 0x703A005A, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A005B, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A005C, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A005D, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A005E, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A005F, '2019-02-10 00:00:00') /* Singular Lugian Warlord (12249) */
+     , (0x703A003F, 0x703A0060, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A0061, '2019-02-10 00:00:00') /* Singular Extas Raider (12272) */
+     , (0x703A003F, 0x703A0062, '2019-02-10 00:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A003F, 0x703A0063, '2019-02-10 00:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A003F, 0x703A0064, '2019-02-10 00:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A003F, 0x703A0065, '2019-02-10 00:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A003F, 0x703A0066, '2019-02-10 00:00:00') /* Singular Tiatus Raider (12274) */
+     , (0x703A003F, 0x703A0067, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0068, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A0069, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A006A, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A006B, '2019-02-10 00:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A003F, 0x703A006C, '2019-02-10 00:00:00') /* Singular Virindi Master (12299) */
+     , (0x703A003F, 0x703A006D, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */
+     , (0x703A003F, 0x703A006E, '2019-02-10 00:00:00') /* Singular Gigas Raider (12273) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703A0040, 12273, 0x03A001FB, 22.6562, -480.128, -5.99, 0.674704, 0, 0, -0.738088,  True, '2019-02-10 00:00:00'); /* Singular Gigas Raider */

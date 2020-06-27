@@ -9,23 +9,23 @@ VALUES (0x72A8E001,  1154, 0x2A8E000F, 32.68877, 159.0947, 53.70457, 0.9417675, 
 /* @teleloc 0x2A8E000F [32.688770 159.094700 53.704570] 0.941768 0.000000 0.000000 -0.336265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8E001, 0x72A8E002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A8E001, 0x72A8E003, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x72A8E001, 0x72A8E004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72A8E001, 0x72A8E005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72A8E001, 0x72A8E006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72A8E001, 0x72A8E007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x72A8E001, 0x72A8E008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72A8E001, 0x72A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72A8E001, 0x72A8E00A, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x72A8E001, 0x72A8E00B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A8E001, 0x72A8E00C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72A8E001, 0x72A8E00D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72A8E001, 0x72A8E00E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72A8E001, 0x72A8E00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A8E001, 0x72A8E010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72A8E001, 0x72A8E011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A8E001, 0x72A8E012, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x72A8E001, 0x72A8E002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A8E001, 0x72A8E003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x72A8E001, 0x72A8E004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72A8E001, 0x72A8E005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72A8E001, 0x72A8E006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72A8E001, 0x72A8E007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72A8E001, 0x72A8E008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72A8E001, 0x72A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72A8E001, 0x72A8E00A, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x72A8E001, 0x72A8E00B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A8E001, 0x72A8E00C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72A8E001, 0x72A8E00D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72A8E001, 0x72A8E00E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72A8E001, 0x72A8E00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A8E001, 0x72A8E010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72A8E001, 0x72A8E011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A8E001, 0x72A8E012, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A8E002, 36843, 0x2A8E000F, 32.68877, 159.0947, 53.70457, 0.9417675, 0, 0, -0.3362649,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */

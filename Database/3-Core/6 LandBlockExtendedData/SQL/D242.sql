@@ -5,12 +5,12 @@ VALUES (0x7D242001,  1154, 0xD2420030, 134.801, 189.4061, 160.0636, -0.3108316, 
 /* @teleloc 0xD2420030 [134.801000 189.406100 160.063600] -0.310832 0.000000 0.000000 -0.950465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D242001, 0x7D242002, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7D242001, 0x7D242003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D242001, 0x7D242004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D242001, 0x7D242005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D242001, 0x7D242006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D242001, 0x7D242007, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7D242001, 0x7D242002, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7D242001, 0x7D242003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D242001, 0x7D242004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D242001, 0x7D242005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D242001, 0x7D242006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D242001, 0x7D242007, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D242002,   205, 0xD2420030, 134.801, 189.4061, 160.0636, -0.3108316, 0, 0, -0.950465,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */
@@ -41,8 +41,8 @@ VALUES (0x7D242008,  1542, 0xD2420038, 147.0766, 189.1333, 158.0906, 1, 0, 0, 0,
 /* @teleloc 0xD2420038 [147.076600 189.133300 158.090600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D242008, 0x7D242009, '2019-02-10 00:00:00') /* Vat */
-     , (0x7D242008, 0x7D24200A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D242008, 0x7D242009, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x7D242008, 0x7D24200A, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D242009,  4383, 0xD2420038, 147.0766, 189.1333, 158.0906, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

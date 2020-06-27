@@ -5,16 +5,16 @@ VALUES (0x750E9001,  1154, 0x50E90008, 3.586339, 187.5499, 3.493209, 0.8660254, 
 /* @teleloc 0x50E90008 [3.586339 187.549900 3.493209] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750E9001, 0x750E9002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x750E9001, 0x750E9003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x750E9001, 0x750E9004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x750E9001, 0x750E9005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x750E9001, 0x750E9006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x750E9001, 0x750E9007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x750E9001, 0x750E9008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x750E9001, 0x750E9009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x750E9001, 0x750E900A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x750E9001, 0x750E900B, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x750E9001, 0x750E9002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x750E9001, 0x750E9003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x750E9001, 0x750E9004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x750E9001, 0x750E9005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x750E9001, 0x750E9006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x750E9001, 0x750E9007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x750E9001, 0x750E9008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x750E9001, 0x750E9009, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x750E9001, 0x750E900A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x750E9001, 0x750E900B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750E9002,  4248, 0x50E90008, 3.586339, 187.5499, 3.493209, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

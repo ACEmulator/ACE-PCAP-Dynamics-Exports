@@ -5,15 +5,15 @@ VALUES (0x7ADC6001,  1154, 0xADC6003E, 168.3978, 143.4999, 135.9418, 0.2100705, 
 /* @teleloc 0xADC6003E [168.397800 143.499900 135.941800] 0.210071 0.000000 0.000000 -0.977686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADC6001, 0x7ADC6002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7ADC6001, 0x7ADC6003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7ADC6001, 0x7ADC6004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ADC6001, 0x7ADC6005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ADC6001, 0x7ADC6006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7ADC6001, 0x7ADC6007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7ADC6001, 0x7ADC6008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7ADC6001, 0x7ADC6009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7ADC6001, 0x7ADC600A, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7ADC6001, 0x7ADC6002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7ADC6001, 0x7ADC6003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7ADC6001, 0x7ADC6004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ADC6001, 0x7ADC6005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ADC6001, 0x7ADC6006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7ADC6001, 0x7ADC6007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7ADC6001, 0x7ADC6008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7ADC6001, 0x7ADC6009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7ADC6001, 0x7ADC600A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADC6002,  9251, 0xADC6003E, 168.3978, 143.4999, 135.9418, 0.2100705, 0, 0, -0.9776862,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -56,8 +56,8 @@ VALUES (0x7ADC600B,  1542, 0xADC60015, 58.9081, 113.274, 142.697, 1, 0, 0, 0, Fa
 /* @teleloc 0xADC60015 [58.908100 113.274000 142.697000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADC600B, 0x7ADC600C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7ADC600B, 0x7ADC600D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7ADC600B, 0x7ADC600C, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7ADC600B, 0x7ADC600D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADC600C, 22576, 0xADC60015, 58.9081, 113.274, 142.697, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

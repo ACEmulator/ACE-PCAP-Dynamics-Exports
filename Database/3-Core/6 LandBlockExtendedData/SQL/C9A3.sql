@@ -5,12 +5,12 @@ VALUES (0x7C9A3001,  1154, 0xC9A30036, 152.4019, 142.3815, 41.30672, -0.9643114,
 /* @teleloc 0xC9A30036 [152.401900 142.381500 41.306720] -0.964311 0.000000 0.000000 -0.264771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9A3001, 0x7C9A3002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C9A3001, 0x7C9A3003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C9A3001, 0x7C9A3004, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C9A3001, 0x7C9A3005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C9A3001, 0x7C9A3006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C9A3001, 0x7C9A3007, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7C9A3001, 0x7C9A3002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C9A3001, 0x7C9A3003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C9A3001, 0x7C9A3004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C9A3001, 0x7C9A3005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C9A3001, 0x7C9A3006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C9A3001, 0x7C9A3007, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9A3002,  7345, 0xC9A30036, 152.4019, 142.3815, 41.30672, -0.9643114, 0, 0, -0.2647705,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

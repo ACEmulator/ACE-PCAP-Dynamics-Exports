@@ -5,17 +5,17 @@ VALUES (0x7509B001,  1154, 0x509B0038, 150.3038, 191.4127, -0.4488, 0.9537169, 0
 /* @teleloc 0x509B0038 [150.303800 191.412700 -0.448800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7509B001, 0x7509B002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7509B001, 0x7509B003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7509B001, 0x7509B004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7509B001, 0x7509B005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7509B001, 0x7509B006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7509B001, 0x7509B007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7509B001, 0x7509B008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7509B001, 0x7509B009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7509B001, 0x7509B00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7509B001, 0x7509B00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7509B001, 0x7509B00C, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x7509B001, 0x7509B002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7509B001, 0x7509B003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7509B001, 0x7509B004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7509B001, 0x7509B005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7509B001, 0x7509B006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7509B001, 0x7509B007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7509B001, 0x7509B008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7509B001, 0x7509B009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7509B001, 0x7509B00A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7509B001, 0x7509B00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7509B001, 0x7509B00C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7509B002,  7109, 0x509B0038, 150.3038, 191.4127, -0.4488, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -66,7 +66,7 @@ VALUES (0x7509B00D,  1542, 0x509B0030, 137.3797, 181.6183, -0.45, -0.7356285, 0,
 /* @teleloc 0x509B0030 [137.379700 181.618300 -0.450000] -0.735629 0.000000 0.000000 -0.677385 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7509B00D, 0x7509B00E, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7509B00D, 0x7509B00E, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7509B00E, 11554, 0x509B0030, 137.3797, 181.6183, -0.45, -0.7356285, 0, 0, -0.6773852,  True, '2019-02-10 00:00:00'); /* Colban Plant */

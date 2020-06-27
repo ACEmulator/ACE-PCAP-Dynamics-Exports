@@ -5,24 +5,24 @@ VALUES (0x7F882001,  1154, 0xF882002A, 138.8931, 28.42958, 12.001, -0.4584966, 0
 /* @teleloc 0xF882002A [138.893100 28.429580 12.001000] -0.458497 0.000000 0.000000 -0.888696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F882001, 0x7F882002, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F882001, 0x7F882004, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F882001, 0x7F882005, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882006, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882007, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882008, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882009, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F88200A, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7F882001, 0x7F88200B, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F88200C, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F882001, 0x7F88200D, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F882001, 0x7F88200E, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F882001, 0x7F88200F, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7F882001, 0x7F882010, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F882001, 0x7F882011, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F882001, 0x7F882012, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F882001, 0x7F882013, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7F882001, 0x7F882002, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F882001, 0x7F882004, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F882001, 0x7F882005, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882006, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882007, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882008, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882009, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F88200A, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7F882001, 0x7F88200B, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F88200C, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F882001, 0x7F88200D, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F882001, 0x7F88200E, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F882001, 0x7F88200F, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F882001, 0x7F882010, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F882001, 0x7F882011, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F882001, 0x7F882012, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F882001, 0x7F882013, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F882002, 22748, 0xF882002A, 138.8931, 28.42958, 12.001, -0.4584966, 0, 0, -0.8886961,  True, '2019-02-10 00:00:00'); /* Reedshark Stripling */

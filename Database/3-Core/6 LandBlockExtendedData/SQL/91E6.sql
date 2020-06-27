@@ -5,10 +5,10 @@ VALUES (0x791E6001,  1154, 0x91E60033, 166.8523, 67.03082, 31.9075, -0.1073206, 
 /* @teleloc 0x91E60033 [166.852300 67.030820 31.907500] -0.107321 0.000000 0.000000 -0.994225 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791E6001, 0x791E6002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x791E6001, 0x791E6003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x791E6001, 0x791E6004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x791E6001, 0x791E6005, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x791E6001, 0x791E6002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x791E6001, 0x791E6003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x791E6001, 0x791E6004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x791E6001, 0x791E6005, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791E6002,  7124, 0x91E60033, 166.8523, 67.03082, 31.9075, -0.1073206, 0, 0, -0.9942245,  True, '2019-02-10 00:00:00'); /* Dark Magus */

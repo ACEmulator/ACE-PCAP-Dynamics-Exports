@@ -5,20 +5,20 @@ VALUES (0x796E9001,  1154, 0x96E9000B, 32.22029, 48.86704, 55.38723, 0.1063482, 
 /* @teleloc 0x96E9000B [32.220290 48.867040 55.387230] 0.106348 0.000000 0.000000 -0.994329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796E9001, 0x796E9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x796E9001, 0x796E9003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x796E9001, 0x796E9004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x796E9001, 0x796E9005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x796E9001, 0x796E9006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x796E9001, 0x796E9007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796E9001, 0x796E9008, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x796E9001, 0x796E9009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x796E9001, 0x796E900A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x796E9001, 0x796E900B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E9001, 0x796E900C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x796E9001, 0x796E900D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x796E9001, 0x796E900E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x796E9001, 0x796E900F, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x796E9001, 0x796E9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x796E9001, 0x796E9003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x796E9001, 0x796E9004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x796E9001, 0x796E9005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x796E9001, 0x796E9006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x796E9001, 0x796E9007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796E9001, 0x796E9008, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x796E9001, 0x796E9009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x796E9001, 0x796E900A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x796E9001, 0x796E900B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E9001, 0x796E900C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796E9001, 0x796E900D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x796E9001, 0x796E900E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x796E9001, 0x796E900F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796E9002, 28551, 0x96E9000B, 32.22029, 48.86704, 55.38723, 0.1063482, 0, 0, -0.994329,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -81,7 +81,7 @@ VALUES (0x796E9010,  1542, 0x96E90015, 61.85357, 104.626, 56, 0.9990482, 0, 0, -
 /* @teleloc 0x96E90015 [61.853570 104.626000 56.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796E9010, 0x796E9011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x796E9010, 0x796E9011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796E9011,  4179, 0x96E90015, 61.85357, 104.626, 56, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

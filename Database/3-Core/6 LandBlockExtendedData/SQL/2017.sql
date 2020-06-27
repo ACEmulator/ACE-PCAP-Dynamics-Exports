@@ -5,18 +5,18 @@ VALUES (0x72017001,  1154, 0x20170036, 153.8323, 121.388, 53.20317, -0.8058925, 
 /* @teleloc 0x20170036 [153.832300 121.388000 53.203170] -0.805893 0.000000 0.000000 -0.592062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72017001, 0x72017002, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72017001, 0x72017003, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72017001, 0x72017004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72017001, 0x72017005, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72017001, 0x72017006, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72017001, 0x72017007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72017001, 0x72017008, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x72017001, 0x72017009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72017001, 0x7201700A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x72017001, 0x7201700B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72017001, 0x7201700C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x72017001, 0x7201700D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */;
+VALUES (0x72017001, 0x72017002, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72017001, 0x72017003, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72017001, 0x72017004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72017001, 0x72017005, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72017001, 0x72017006, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72017001, 0x72017007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72017001, 0x72017008, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x72017001, 0x72017009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72017001, 0x7201700A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72017001, 0x7201700B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72017001, 0x7201700C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72017001, 0x7201700D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72017002, 35830, 0x20170036, 153.8323, 121.388, 53.20317, -0.8058925, 0, 0, -0.5920619,  True, '2019-02-10 00:00:00'); /* Withered Banderling Paragon */

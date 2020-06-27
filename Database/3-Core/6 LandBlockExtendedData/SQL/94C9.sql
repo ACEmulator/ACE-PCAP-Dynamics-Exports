@@ -5,18 +5,18 @@ VALUES (0x794C9001,  1154, 0x94C90006, 15.91392, 132.494, 130.4783, 0.7071068, 0
 /* @teleloc 0x94C90006 [15.913920 132.494000 130.478300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C9001, 0x794C9002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794C9001, 0x794C9003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794C9001, 0x794C9004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x794C9001, 0x794C9005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794C9001, 0x794C9006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794C9001, 0x794C9007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794C9001, 0x794C9008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x794C9001, 0x794C9009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x794C9001, 0x794C900A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x794C9001, 0x794C900B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794C9001, 0x794C900C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x794C9001, 0x794C900D, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x794C9001, 0x794C9002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794C9001, 0x794C9003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794C9001, 0x794C9004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794C9001, 0x794C9005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794C9001, 0x794C9006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794C9001, 0x794C9007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794C9001, 0x794C9008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x794C9001, 0x794C9009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x794C9001, 0x794C900A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x794C9001, 0x794C900B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794C9001, 0x794C900C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x794C9001, 0x794C900D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C9002,  7085, 0x94C90006, 15.91392, 132.494, 130.4783, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -71,7 +71,7 @@ VALUES (0x794C900E,  1542, 0x94C90006, 12.03314, 133.936, 131.1728, -4.371139E-0
 /* @teleloc 0x94C90006 [12.033140 133.936000 131.172800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C900E, 0x794C900F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x794C900E, 0x794C900F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C900F,  4380, 0x94C90006, 12.03314, 133.936, 131.1728, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

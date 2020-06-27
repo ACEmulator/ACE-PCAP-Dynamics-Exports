@@ -5,35 +5,35 @@ VALUES (0x70A70001,  1154, 0x0A70003B, 177.0014, 51.6776, 73.75513, 0.9888963, 0
 /* @teleloc 0x0A70003B [177.001400 51.677600 73.755130] 0.988896 0.000000 0.000000 -0.148608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A70001, 0x70A70002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70A70001, 0x70A70003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70A70001, 0x70A70004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70A70001, 0x70A70005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70A70001, 0x70A70006, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70A70001, 0x70A70007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70A70001, 0x70A70008, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70A70001, 0x70A70009, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70A70001, 0x70A7000A, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70A70001, 0x70A7000B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70A70001, 0x70A7000C, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x70A70001, 0x70A7000D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70A70001, 0x70A7000E, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70A70001, 0x70A7000F, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70A70001, 0x70A70010, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70A70001, 0x70A70011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70A70001, 0x70A70012, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70A70001, 0x70A70013, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70A70001, 0x70A70014, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70A70001, 0x70A70015, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70A70001, 0x70A70016, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70A70001, 0x70A70017, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70A70001, 0x70A70018, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70A70001, 0x70A70019, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70A70001, 0x70A7001A, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70A70001, 0x70A7001B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70A70001, 0x70A7001C, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70A70001, 0x70A7001D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70A70001, 0x70A7001E, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x70A70001, 0x70A70002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70A70001, 0x70A70003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70A70001, 0x70A70004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70A70001, 0x70A70005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70A70001, 0x70A70006, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70A70001, 0x70A70007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70A70001, 0x70A70008, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70A70001, 0x70A70009, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70A70001, 0x70A7000A, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x70A70001, 0x70A7000B, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x70A70001, 0x70A7000C, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x70A70001, 0x70A7000D, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x70A70001, 0x70A7000E, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70A70001, 0x70A7000F, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70A70001, 0x70A70010, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x70A70001, 0x70A70011, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70A70001, 0x70A70012, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70A70001, 0x70A70013, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70A70001, 0x70A70014, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70A70001, 0x70A70015, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70A70001, 0x70A70016, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70A70001, 0x70A70017, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70A70001, 0x70A70018, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70A70001, 0x70A70019, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70A70001, 0x70A7001A, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70A70001, 0x70A7001B, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70A70001, 0x70A7001C, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70A70001, 0x70A7001D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70A70001, 0x70A7001E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A70002, 36822, 0x0A70003B, 177.0014, 51.6776, 73.75513, 0.9888963, 0, 0, -0.1486076,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -156,9 +156,9 @@ VALUES (0x70A7001F,  1542, 0x0A70002E, 129.2297, 137.0414, 70.011, -0.1281777, 0
 /* @teleloc 0x0A70002E [129.229700 137.041400 70.011000] -0.128178 0.000000 0.000000 -0.991751 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70A7001F, 0x70A70020, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x70A7001F, 0x70A70021, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x70A7001F, 0x70A70022, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x70A7001F, 0x70A70020, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x70A7001F, 0x70A70021, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x70A7001F, 0x70A70022, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70A70020, 31688, 0x0A70002E, 129.2297, 137.0414, 70.011, -0.1281777, 0, 0, -0.9917512,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

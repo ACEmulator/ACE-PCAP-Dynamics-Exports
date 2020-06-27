@@ -5,10 +5,10 @@ VALUES (0x78416001,  1154, 0x8416002C, 127.4698, 95.36114, 296.1597, -0.7746521,
 /* @teleloc 0x8416002C [127.469800 95.361140 296.159700] -0.774652 0.000000 0.000000 -0.632388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78416001, 0x78416002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x78416001, 0x78416003, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x78416001, 0x78416004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x78416001, 0x78416005, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x78416001, 0x78416002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x78416001, 0x78416003, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x78416001, 0x78416004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x78416001, 0x78416005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78416002,  9401, 0x8416002C, 127.4698, 95.36114, 296.1597, -0.7746521, 0, 0, -0.6323876,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */

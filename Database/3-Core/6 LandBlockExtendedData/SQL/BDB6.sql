@@ -5,17 +5,17 @@ VALUES (0x7BDB6001,  1154, 0xBDB6001A, 76.89851, 31.49122, 217.935, -0.7636718, 
 /* @teleloc 0xBDB6001A [76.898510 31.491220 217.935000] -0.763672 0.000000 0.000000 -0.645605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB6001, 0x7BDB6002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BDB6001, 0x7BDB6003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB6001, 0x7BDB6004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BDB6001, 0x7BDB6005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB6001, 0x7BDB6006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB6001, 0x7BDB6007, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7BDB6001, 0x7BDB6008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BDB6001, 0x7BDB6009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB6001, 0x7BDB600A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BDB6001, 0x7BDB600B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7BDB6001, 0x7BDB600C, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7BDB6001, 0x7BDB6002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BDB6001, 0x7BDB6003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB6001, 0x7BDB6004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BDB6001, 0x7BDB6005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB6001, 0x7BDB6006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB6001, 0x7BDB6007, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7BDB6001, 0x7BDB6008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BDB6001, 0x7BDB6009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB6001, 0x7BDB600A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BDB6001, 0x7BDB600B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7BDB6001, 0x7BDB600C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB6002,  9400, 0xBDB6001A, 76.89851, 31.49122, 217.935, -0.7636718, 0, 0, -0.6456047,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

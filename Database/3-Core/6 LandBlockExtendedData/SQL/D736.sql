@@ -5,12 +5,12 @@ VALUES (0x7D736001,  1154, 0xD736003A, 183.8995, 42.24724, 49.27706, 0.3589741, 
 /* @teleloc 0xD736003A [183.899500 42.247240 49.277060] 0.358974 0.000000 0.000000 -0.933348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D736001, 0x7D736002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D736001, 0x7D736003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D736001, 0x7D736004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7D736001, 0x7D736005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D736001, 0x7D736006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D736001, 0x7D736007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7D736001, 0x7D736002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D736001, 0x7D736003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D736001, 0x7D736004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7D736001, 0x7D736005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D736001, 0x7D736006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D736001, 0x7D736007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D736002, 24959, 0xD736003A, 183.8995, 42.24724, 49.27706, 0.3589741, 0, 0, -0.9333475,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -41,7 +41,7 @@ VALUES (0x7D736008,  1542, 0xD736001A, 75.32573, 24.15234, 48.40473, 0.7071068, 
 /* @teleloc 0xD736001A [75.325730 24.152340 48.404730] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D736008, 0x7D736009, '2019-02-10 00:00:00') /* Dragonsblood */;
+VALUES (0x7D736008, 0x7D736009, '2019-02-10 00:00:00') /* Dragonsblood (769) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D736009,   769, 0xD736001A, 75.32573, 24.15234, 48.40473, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dragonsblood */

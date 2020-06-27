@@ -5,25 +5,25 @@ VALUES (0x7A0A6001,  1154, 0xA0A60036, 145.8571, 127.313, 67.54144, 0.9902593, 0
 /* @teleloc 0xA0A60036 [145.857100 127.313000 67.541440] 0.990259 0.000000 0.000000 -0.139235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A6001, 0x7A0A6002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0A6001, 0x7A0A6003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0A6001, 0x7A0A6004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0A6001, 0x7A0A6005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0A6001, 0x7A0A6006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A0A6001, 0x7A0A6007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A0A6001, 0x7A0A6008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A0A6001, 0x7A0A6009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A0A6001, 0x7A0A600A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A0A6001, 0x7A0A600B, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A0A6001, 0x7A0A600C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A0A6001, 0x7A0A600D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A0A6001, 0x7A0A600E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A0A6001, 0x7A0A600F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A0A6001, 0x7A0A6010, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A0A6001, 0x7A0A6011, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A0A6001, 0x7A0A6012, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A0A6001, 0x7A0A6013, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A0A6001, 0x7A0A6014, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7A0A6001, 0x7A0A6002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0A6001, 0x7A0A6003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0A6001, 0x7A0A6004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0A6001, 0x7A0A6005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0A6001, 0x7A0A6006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A0A6001, 0x7A0A6007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A0A6001, 0x7A0A6008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A0A6001, 0x7A0A6009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A0A6001, 0x7A0A600A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A0A6001, 0x7A0A600B, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A0A6001, 0x7A0A600C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A0A6001, 0x7A0A600D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A0A6001, 0x7A0A600E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A0A6001, 0x7A0A600F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A0A6001, 0x7A0A6010, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A0A6001, 0x7A0A6011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A0A6001, 0x7A0A6012, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A0A6001, 0x7A0A6013, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A0A6001, 0x7A0A6014, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A6002, 24959, 0xA0A60036, 145.8571, 127.313, 67.54144, 0.9902593, 0, 0, -0.139235,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -106,10 +106,10 @@ VALUES (0x7A0A6015,  1542, 0xA0A60026, 106.1654, 136.2779, 66.65452, 0.5650786, 
 /* @teleloc 0xA0A60026 [106.165400 136.277900 66.654520] 0.565079 0.000000 0.000000 -0.825037 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A6015, 0x7A0A6016, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7A0A6015, 0x7A0A6017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A0A6015, 0x7A0A6018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A0A6015, 0x7A0A6019, '2019-02-10 00:00:00') /* Wormwood */;
+VALUES (0x7A0A6015, 0x7A0A6016, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7A0A6015, 0x7A0A6017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A0A6015, 0x7A0A6018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A0A6015, 0x7A0A6019, '2019-02-10 00:00:00') /* Wormwood (780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A6016, 31686, 0xA0A60026, 106.1654, 136.2779, 66.65452, 0.5650786, 0, 0, -0.8250371,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

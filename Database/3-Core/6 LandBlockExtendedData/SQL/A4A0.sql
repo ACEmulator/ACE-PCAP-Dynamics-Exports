@@ -5,19 +5,19 @@ VALUES (0x7A4A0001,  1154, 0xA4A0001B, 94.96205, 56.71033, 132.8234, 0.8541201, 
 /* @teleloc 0xA4A0001B [94.962050 56.710330 132.823400] 0.854120 0.000000 0.000000 -0.520076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4A0001, 0x7A4A0002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A4A0001, 0x7A4A0003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A4A0001, 0x7A4A0004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A4A0001, 0x7A4A0005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A4A0001, 0x7A4A0006, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7A4A0001, 0x7A4A0007, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7A4A0001, 0x7A4A0008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A4A0001, 0x7A4A0009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A4A0001, 0x7A4A000A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4A0001, 0x7A4A000B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A0001, 0x7A4A000C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A0001, 0x7A4A000D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A0001, 0x7A4A000E, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7A4A0001, 0x7A4A0002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A4A0001, 0x7A4A0003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A4A0001, 0x7A4A0004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A4A0001, 0x7A4A0005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A4A0001, 0x7A4A0006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7A4A0001, 0x7A4A0007, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A4A0001, 0x7A4A0008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A4A0001, 0x7A4A0009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A4A0001, 0x7A4A000A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4A0001, 0x7A4A000B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A0001, 0x7A4A000C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A0001, 0x7A4A000D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A0001, 0x7A4A000E, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4A0002,   195, 0xA4A0001B, 94.96205, 56.71033, 132.8234, 0.8541201, 0, 0, -0.5200759,  True, '2019-02-10 00:00:00'); /* Granite Golem */

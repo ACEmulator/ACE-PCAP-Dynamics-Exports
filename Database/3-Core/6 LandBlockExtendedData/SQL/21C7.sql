@@ -5,10 +5,10 @@ VALUES (0x721C7001,  1154, 0x21C7000C, 30.50241, 77.0126, 43.70903, 0.9961947, 0
 /* @teleloc 0x21C7000C [30.502410 77.012600 43.709030] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C7001, 0x721C7002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x721C7001, 0x721C7003, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x721C7001, 0x721C7004, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x721C7001, 0x721C7005, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x721C7001, 0x721C7002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x721C7001, 0x721C7003, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x721C7001, 0x721C7004, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x721C7001, 0x721C7005, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C7002, 27717, 0x21C7000C, 30.50241, 77.0126, 43.70903, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

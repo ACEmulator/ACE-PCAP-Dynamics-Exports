@@ -5,15 +5,15 @@ VALUES (0x7AB58001,  1154, 0xAB58002D, 138.1189, 99.99049, 48.4926, 0.3753546, 0
 /* @teleloc 0xAB58002D [138.118900 99.990490 48.492600] 0.375355 0.000000 0.000000 -0.926881 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB58001, 0x7AB58002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AB58001, 0x7AB58003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7AB58001, 0x7AB58004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AB58001, 0x7AB58005, '2019-02-10 00:00:00') /* Static */
-     , (0x7AB58001, 0x7AB58006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB58001, 0x7AB58007, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AB58001, 0x7AB58008, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AB58001, 0x7AB58009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB58001, 0x7AB5800A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AB58001, 0x7AB58002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AB58001, 0x7AB58003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7AB58001, 0x7AB58004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AB58001, 0x7AB58005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AB58001, 0x7AB58006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB58001, 0x7AB58007, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AB58001, 0x7AB58008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AB58001, 0x7AB58009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB58001, 0x7AB5800A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB58002,  8270, 0xAB58002D, 138.1189, 99.99049, 48.4926, 0.3753546, 0, 0, -0.9268813,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

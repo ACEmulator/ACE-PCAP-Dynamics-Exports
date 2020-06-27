@@ -5,18 +5,18 @@ VALUES (0x7C14B001,  1154, 0xC14B0017, 51.04637, 166.7965, 20.0121, 0.9639419, 0
 /* @teleloc 0xC14B0017 [51.046370 166.796500 20.012100] 0.963942 0.000000 0.000000 -0.266113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B001, 0x7C14B002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C14B001, 0x7C14B003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C14B001, 0x7C14B004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C14B001, 0x7C14B005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C14B001, 0x7C14B006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C14B001, 0x7C14B007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C14B001, 0x7C14B008, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C14B001, 0x7C14B009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C14B001, 0x7C14B00A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C14B001, 0x7C14B00B, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7C14B001, 0x7C14B00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C14B001, 0x7C14B00D, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7C14B001, 0x7C14B002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C14B001, 0x7C14B003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C14B001, 0x7C14B004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C14B001, 0x7C14B005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C14B001, 0x7C14B006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C14B001, 0x7C14B007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C14B001, 0x7C14B008, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C14B001, 0x7C14B009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C14B001, 0x7C14B00A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C14B001, 0x7C14B00B, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7C14B001, 0x7C14B00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C14B001, 0x7C14B00D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B002,  1627, 0xC14B0017, 51.04637, 166.7965, 20.0121, 0.9639419, 0, 0, -0.2661129,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -71,10 +71,10 @@ VALUES (0x7C14B00E,  1542, 0xC14B000F, 44.64098, 149.9852, 19.937, 0.980382, 0, 
 /* @teleloc 0xC14B000F [44.640980 149.985200 19.937000] 0.980382 0.000000 0.000000 -0.197107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C14B00E, 0x7C14B00F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C14B00E, 0x7C14B010, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7C14B00E, 0x7C14B011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C14B00E, 0x7C14B012, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7C14B00E, 0x7C14B00F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C14B00E, 0x7C14B010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7C14B00E, 0x7C14B011, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C14B00E, 0x7C14B012, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C14B00F,  1955, 0xC14B000F, 44.64098, 149.9852, 19.937, 0.980382, 0, 0, -0.197107,  True, '2019-02-10 00:00:00'); /* Gateway */

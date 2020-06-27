@@ -5,9 +5,9 @@ VALUES (0x74594001,  1154, 0x45940039, 176.1247, 3.734648, 53.8187, 0.8786476, 0
 /* @teleloc 0x45940039 [176.124700 3.734648 53.818700] 0.878648 0.000000 0.000000 -0.477471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74594001, 0x74594002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74594001, 0x74594003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x74594001, 0x74594004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x74594001, 0x74594002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74594001, 0x74594003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x74594001, 0x74594004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74594002, 23565, 0x45940039, 176.1247, 3.734648, 53.8187, 0.8786476, 0, 0, -0.4774709,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

@@ -5,17 +5,17 @@ VALUES (0x791C3001,  1154, 0x91C3002D, 127.9176, 100.8348, 118.9957, -0.8917026,
 /* @teleloc 0x91C3002D [127.917600 100.834800 118.995700] -0.891703 0.000000 0.000000 -0.452622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791C3001, 0x791C3002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x791C3001, 0x791C3003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x791C3001, 0x791C3004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x791C3001, 0x791C3005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x791C3001, 0x791C3006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x791C3001, 0x791C3007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x791C3001, 0x791C3008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x791C3001, 0x791C3009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x791C3001, 0x791C300A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x791C3001, 0x791C300B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x791C3001, 0x791C300C, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x791C3001, 0x791C3002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x791C3001, 0x791C3003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x791C3001, 0x791C3004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x791C3001, 0x791C3005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x791C3001, 0x791C3006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x791C3001, 0x791C3007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x791C3001, 0x791C3008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x791C3001, 0x791C3009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x791C3001, 0x791C300A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x791C3001, 0x791C300B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x791C3001, 0x791C300C, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791C3002,   217, 0x91C3002D, 127.9176, 100.8348, 118.9957, -0.8917026, 0, 0, -0.4526218,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

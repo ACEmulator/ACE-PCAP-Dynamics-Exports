@@ -5,19 +5,19 @@ VALUES (0x73C72001,  1154, 0x3C720031, 148.3701, 10.17147, 24.90906, -0.9734171,
 /* @teleloc 0x3C720031 [148.370100 10.171470 24.909060] -0.973417 0.000000 0.000000 -0.229040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C72001, 0x73C72002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73C72001, 0x73C72003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73C72001, 0x73C72004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73C72001, 0x73C72005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73C72001, 0x73C72006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C72001, 0x73C72007, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73C72001, 0x73C72008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73C72001, 0x73C72009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73C72001, 0x73C7200A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C72001, 0x73C7200B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73C72001, 0x73C7200C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73C72001, 0x73C7200D, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73C72001, 0x73C7200E, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x73C72001, 0x73C72002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73C72001, 0x73C72003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73C72001, 0x73C72004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73C72001, 0x73C72005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73C72001, 0x73C72006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C72001, 0x73C72007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73C72001, 0x73C72008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73C72001, 0x73C72009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73C72001, 0x73C7200A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C72001, 0x73C7200B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73C72001, 0x73C7200C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73C72001, 0x73C7200D, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73C72001, 0x73C7200E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C72002, 24958, 0x3C720031, 148.3701, 10.17147, 24.90906, -0.9734171, 0, 0, -0.2290396,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

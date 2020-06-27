@@ -5,21 +5,21 @@ VALUES (0x7097A001,  1154, 0x097A0015, 68.32136, 112.2243, 2.629225, 0.0927155, 
 /* @teleloc 0x097A0015 [68.321360 112.224300 2.629225] 0.092716 0.000000 0.000000 -0.995693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097A001, 0x7097A002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7097A001, 0x7097A003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7097A001, 0x7097A004, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7097A001, 0x7097A005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7097A001, 0x7097A006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7097A001, 0x7097A007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7097A001, 0x7097A008, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7097A001, 0x7097A009, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097A001, 0x7097A00A, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7097A001, 0x7097A00B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7097A001, 0x7097A00C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7097A001, 0x7097A00D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7097A001, 0x7097A00E, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7097A001, 0x7097A00F, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7097A001, 0x7097A010, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7097A001, 0x7097A002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7097A001, 0x7097A003, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7097A001, 0x7097A004, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7097A001, 0x7097A005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7097A001, 0x7097A006, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7097A001, 0x7097A007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7097A001, 0x7097A008, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7097A001, 0x7097A009, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097A001, 0x7097A00A, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7097A001, 0x7097A00B, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7097A001, 0x7097A00C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7097A001, 0x7097A00D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7097A001, 0x7097A00E, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7097A001, 0x7097A00F, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7097A001, 0x7097A010, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097A002,  7114, 0x097A0015, 68.32136, 112.2243, 2.629225, 0.0927155, 0, 0, -0.9956927,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -86,8 +86,8 @@ VALUES (0x7097A011,  1542, 0x097A0012, 54.60059, 35.91885, 3.579452, 0.9990482, 
 /* @teleloc 0x097A0012 [54.600590 35.918850 3.579452] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097A011, 0x7097A012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7097A011, 0x7097A013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7097A011, 0x7097A012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7097A011, 0x7097A013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097A012,  4179, 0x097A0012, 54.60059, 35.91885, 3.579452, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

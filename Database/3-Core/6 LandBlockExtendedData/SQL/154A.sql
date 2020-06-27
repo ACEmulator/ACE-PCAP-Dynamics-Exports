@@ -5,20 +5,20 @@ VALUES (0x7154A001,  1154, 0x154A003D, 178.6663, 98.74506, 62.007, -0.8381768, 0
 /* @teleloc 0x154A003D [178.666300 98.745060 62.007000] -0.838177 0.000000 0.000000 -0.545399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154A001, 0x7154A002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7154A001, 0x7154A003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7154A001, 0x7154A004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7154A001, 0x7154A005, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7154A001, 0x7154A006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7154A001, 0x7154A007, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7154A001, 0x7154A008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7154A001, 0x7154A009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7154A001, 0x7154A00A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7154A001, 0x7154A00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7154A001, 0x7154A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7154A001, 0x7154A00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7154A001, 0x7154A00E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154A001, 0x7154A00F, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x7154A001, 0x7154A002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7154A001, 0x7154A003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7154A001, 0x7154A004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7154A001, 0x7154A005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7154A001, 0x7154A006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7154A001, 0x7154A007, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7154A001, 0x7154A008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7154A001, 0x7154A009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7154A001, 0x7154A00A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7154A001, 0x7154A00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7154A001, 0x7154A00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7154A001, 0x7154A00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7154A001, 0x7154A00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154A001, 0x7154A00F, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154A002, 14877, 0x154A003D, 178.6663, 98.74506, 62.007, -0.8381768, 0, 0, -0.5453987,  True, '2019-02-10 00:00:00'); /* Tsuric */

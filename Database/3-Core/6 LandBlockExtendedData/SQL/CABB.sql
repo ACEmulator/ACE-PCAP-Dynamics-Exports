@@ -5,16 +5,16 @@ VALUES (0x7CABB001,  1154, 0xCABB0002, 1.06749, 27.30838, 80.35383, 0.7071068, 0
 /* @teleloc 0xCABB0002 [1.067490 27.308380 80.353830] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CABB001, 0x7CABB002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CABB001, 0x7CABB003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CABB001, 0x7CABB004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7CABB001, 0x7CABB005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7CABB001, 0x7CABB006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7CABB001, 0x7CABB007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7CABB001, 0x7CABB008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CABB001, 0x7CABB009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CABB001, 0x7CABB00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CABB001, 0x7CABB00B, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CABB001, 0x7CABB002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CABB001, 0x7CABB003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CABB001, 0x7CABB004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7CABB001, 0x7CABB005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7CABB001, 0x7CABB006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7CABB001, 0x7CABB007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7CABB001, 0x7CABB008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CABB001, 0x7CABB009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CABB001, 0x7CABB00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CABB001, 0x7CABB00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CABB002,  7090, 0xCABB0002, 1.06749, 27.30838, 80.35383, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

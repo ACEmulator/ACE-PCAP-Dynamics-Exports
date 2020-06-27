@@ -5,20 +5,20 @@ VALUES (0x7A0E8001,  1154, 0xA0E8003F, 180.223, 161.4449, 82.01424, 0.7071068, 0
 /* @teleloc 0xA0E8003F [180.223000 161.444900 82.014240] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0E8001, 0x7A0E8002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A0E8001, 0x7A0E8003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A0E8001, 0x7A0E8004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A0E8001, 0x7A0E8005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A0E8001, 0x7A0E8006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0E8001, 0x7A0E8007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A0E8001, 0x7A0E8008, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A0E8001, 0x7A0E8009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A0E8001, 0x7A0E800A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A0E8001, 0x7A0E800B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A0E8001, 0x7A0E800C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0E8001, 0x7A0E800D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0E8001, 0x7A0E800E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A0E8001, 0x7A0E800F, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7A0E8001, 0x7A0E8002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7A0E8001, 0x7A0E8003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A0E8001, 0x7A0E8004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A0E8001, 0x7A0E8005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A0E8001, 0x7A0E8006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0E8001, 0x7A0E8007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A0E8001, 0x7A0E8008, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A0E8001, 0x7A0E8009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A0E8001, 0x7A0E800A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A0E8001, 0x7A0E800B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A0E8001, 0x7A0E800C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0E8001, 0x7A0E800D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0E8001, 0x7A0E800E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A0E8001, 0x7A0E800F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0E8002,  7335, 0xA0E8003F, 180.223, 161.4449, 82.01424, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

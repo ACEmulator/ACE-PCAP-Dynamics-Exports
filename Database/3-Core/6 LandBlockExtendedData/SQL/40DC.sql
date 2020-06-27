@@ -5,19 +5,19 @@ VALUES (0x740DC001,  1154, 0x40DC0039, 176.5159, 2.237202, -0.4435, -0.404021, 0
 /* @teleloc 0x40DC0039 [176.515900 2.237202 -0.443500] -0.404021 0.000000 0.000000 -0.914750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740DC001, 0x740DC002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x740DC001, 0x740DC003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x740DC001, 0x740DC004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x740DC001, 0x740DC005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x740DC001, 0x740DC006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x740DC001, 0x740DC007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740DC001, 0x740DC008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740DC001, 0x740DC009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740DC001, 0x740DC00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x740DC001, 0x740DC00B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x740DC001, 0x740DC00C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x740DC001, 0x740DC00D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740DC001, 0x740DC00E, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x740DC001, 0x740DC002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x740DC001, 0x740DC003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x740DC001, 0x740DC004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x740DC001, 0x740DC005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x740DC001, 0x740DC006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x740DC001, 0x740DC007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740DC001, 0x740DC008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740DC001, 0x740DC009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740DC001, 0x740DC00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x740DC001, 0x740DC00B, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x740DC001, 0x740DC00C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x740DC001, 0x740DC00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740DC001, 0x740DC00E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740DC002, 21549, 0x40DC0039, 176.5159, 2.237202, -0.4435, -0.404021, 0, 0, -0.9147497,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -76,7 +76,7 @@ VALUES (0x740DC00F,  1542, 0x40DC002A, 120.7158, 36.6121, 0, -4.371139E-08, 0, 0
 /* @teleloc 0x40DC002A [120.715800 36.612100 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740DC00F, 0x740DC010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x740DC00F, 0x740DC010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740DC010,  4380, 0x40DC002A, 120.7158, 36.6121, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

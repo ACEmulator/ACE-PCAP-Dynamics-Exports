@@ -5,13 +5,13 @@ VALUES (0x73D9E001,  1154, 0x3D9E0040, 177.9092, 186.5314, 63.52572, -4.371139E-
 /* @teleloc 0x3D9E0040 [177.909200 186.531400 63.525720] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D9E001, 0x73D9E002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73D9E001, 0x73D9E003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73D9E001, 0x73D9E004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x73D9E001, 0x73D9E005, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x73D9E001, 0x73D9E006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D9E001, 0x73D9E007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73D9E001, 0x73D9E008, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x73D9E001, 0x73D9E002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73D9E001, 0x73D9E003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73D9E001, 0x73D9E004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x73D9E001, 0x73D9E005, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x73D9E001, 0x73D9E006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D9E001, 0x73D9E007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73D9E001, 0x73D9E008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D9E002,   231, 0x3D9E0040, 177.9092, 186.5314, 63.52572, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -46,7 +46,7 @@ VALUES (0x73D9E009,  1542, 0x3D9E0040, 181.0976, 187.8156, 63.52572, 0.7071068, 
 /* @teleloc 0x3D9E0040 [181.097600 187.815600 63.525720] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D9E009, 0x73D9E00A, '2019-02-10 00:00:00') /* Bistort */;
+VALUES (0x73D9E009, 0x73D9E00A, '2019-02-10 00:00:00') /* Bistort (766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D9E00A,   766, 0x3D9E0040, 181.0976, 187.8156, 63.52572, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bistort */

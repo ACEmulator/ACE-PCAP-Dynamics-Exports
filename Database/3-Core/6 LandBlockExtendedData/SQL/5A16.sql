@@ -5,21 +5,21 @@ VALUES (0x75A16001,  1154, 0x5A16002D, 122.6449, 115.1018, 73.9038, -0.7077613, 
 /* @teleloc 0x5A16002D [122.644900 115.101800 73.903800] -0.707761 0.000000 0.000000 -0.706452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A16001, 0x75A16002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75A16001, 0x75A16003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75A16001, 0x75A16004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75A16001, 0x75A16005, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75A16001, 0x75A16006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75A16001, 0x75A16007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75A16001, 0x75A16008, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75A16001, 0x75A16009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x75A16001, 0x75A1600A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75A16001, 0x75A1600B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75A16001, 0x75A1600C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75A16001, 0x75A1600D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75A16001, 0x75A1600E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75A16001, 0x75A1600F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75A16001, 0x75A16010, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x75A16001, 0x75A16002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75A16001, 0x75A16003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75A16001, 0x75A16004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75A16001, 0x75A16005, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75A16001, 0x75A16006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75A16001, 0x75A16007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75A16001, 0x75A16008, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75A16001, 0x75A16009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x75A16001, 0x75A1600A, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x75A16001, 0x75A1600B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75A16001, 0x75A1600C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75A16001, 0x75A1600D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75A16001, 0x75A1600E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75A16001, 0x75A1600F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75A16001, 0x75A16010, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A16002,   199, 0x5A16002D, 122.6449, 115.1018, 73.9038, -0.7077613, 0, 0, -0.7064517,  True, '2019-02-10 00:00:00'); /* Magma Golem */

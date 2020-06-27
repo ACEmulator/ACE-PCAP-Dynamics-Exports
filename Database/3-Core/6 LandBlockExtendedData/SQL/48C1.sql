@@ -5,15 +5,15 @@ VALUES (0x748C1001,  1154, 0x48C10010, 28.40729, 188.2836, 2.315698, -0.6063951,
 /* @teleloc 0x48C10010 [28.407290 188.283600 2.315698] -0.606395 0.000000 0.000000 -0.795164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748C1001, 0x748C1002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x748C1001, 0x748C1003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x748C1001, 0x748C1004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x748C1001, 0x748C1005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x748C1001, 0x748C1006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x748C1001, 0x748C1007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x748C1001, 0x748C1008, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x748C1001, 0x748C1009, '2019-02-10 00:00:00') /* Static */
-     , (0x748C1001, 0x748C100A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x748C1001, 0x748C1002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x748C1001, 0x748C1003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x748C1001, 0x748C1004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x748C1001, 0x748C1005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x748C1001, 0x748C1006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x748C1001, 0x748C1007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x748C1001, 0x748C1008, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x748C1001, 0x748C1009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x748C1001, 0x748C100A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748C1002,   227, 0x48C10010, 28.40729, 188.2836, 2.315698, -0.6063951, 0, 0, -0.7951635,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

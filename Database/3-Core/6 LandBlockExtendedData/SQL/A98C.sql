@@ -5,13 +5,13 @@ VALUES (0x7A98C001,  1154, 0xA98C002F, 139.3047, 147.7461, 64.73244, 0.9603424, 
 /* @teleloc 0xA98C002F [139.304700 147.746100 64.732440] 0.960342 0.000000 0.000000 -0.278823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98C001, 0x7A98C002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A98C001, 0x7A98C003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A98C001, 0x7A98C004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A98C001, 0x7A98C005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7A98C001, 0x7A98C006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A98C001, 0x7A98C007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A98C001, 0x7A98C008, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7A98C001, 0x7A98C002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A98C001, 0x7A98C003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A98C001, 0x7A98C004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A98C001, 0x7A98C005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7A98C001, 0x7A98C006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A98C001, 0x7A98C007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A98C001, 0x7A98C008, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98C002,  5497, 0xA98C002F, 139.3047, 147.7461, 64.73244, 0.9603424, 0, 0, -0.2788233,  True, '2019-02-10 00:00:00'); /* Virindi Director */

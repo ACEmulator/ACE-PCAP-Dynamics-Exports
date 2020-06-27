@@ -13,33 +13,33 @@ VALUES (0x73BE7003,  1154, 0x3BE70003, 16.5047, 64.7514, 0.008249998, 0.5867779,
 /* @teleloc 0x3BE70003 [16.504700 64.751400 0.008250] 0.586778 0.000000 0.000000 0.809748 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BE7003, 0x73BE7004, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x73BE7003, 0x73BE7005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7006, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE7007, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7008, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE7009, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE700A, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE700B, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE700C, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE700D, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE700E, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE700F, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7010, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x73BE7003, 0x73BE7011, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7012, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7013, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE7014, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7015, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x73BE7003, 0x73BE7016, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73BE7003, 0x73BE7017, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE7018, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE7019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73BE7003, 0x73BE701A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73BE7003, 0x73BE701B, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE701C, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73BE7003, 0x73BE701D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73BE7003, 0x73BE701E, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x73BE7003, 0x73BE7004, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x73BE7003, 0x73BE7005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7006, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE7007, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7008, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE7009, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE700A, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE700B, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE700C, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE700D, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE700E, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE700F, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7010, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x73BE7003, 0x73BE7011, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7012, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7013, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE7014, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7015, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
+     , (0x73BE7003, 0x73BE7016, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x73BE7003, 0x73BE7017, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE7018, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE7019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73BE7003, 0x73BE701A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73BE7003, 0x73BE701B, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE701C, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73BE7003, 0x73BE701D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73BE7003, 0x73BE701E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BE7004, 24323, 0x3BE70003, 16.5047, 64.7514, 0.008249998, 0.5867779, 0, 0, 0.8097479,  True, '2019-02-10 00:00:00'); /* Undead Sailor */
@@ -154,8 +154,8 @@ VALUES (0x73BE701F,  1154, 0x3BE70101, 40.2, 55.7957, -0.2950001, -0.128606, 0, 
 /* @teleloc 0x3BE70101 [40.200000 55.795700 -0.295000] -0.128606 0.000000 0.000000 -0.991696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73BE701F, 0x73BE7020, '2019-02-10 00:00:00') /* Camp Blacksmith */
-     , (0x73BE701F, 0x73BE7021, '2019-02-10 00:00:00') /* Ruschk Camp Leader */;
+VALUES (0x73BE701F, 0x73BE7020, '2019-02-10 00:00:00') /* Camp Blacksmith (31702) */
+     , (0x73BE701F, 0x73BE7021, '2019-02-10 00:00:00') /* Ruschk Camp Leader (32596) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73BE7020, 31702, 0x3BE70101, 40.2, 55.7957, -0.2950001, -0.128606, 0, 0, -0.991696,  True, '2019-02-10 00:00:00'); /* Camp Blacksmith */

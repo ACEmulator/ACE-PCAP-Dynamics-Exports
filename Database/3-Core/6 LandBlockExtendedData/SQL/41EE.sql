@@ -5,16 +5,16 @@ VALUES (0x741EE001,  1154, 0x41EE0001, 7.630506, 6.296285, 44.11779, 0.9998205, 
 /* @teleloc 0x41EE0001 [7.630506 6.296285 44.117790] 0.999821 0.000000 0.000000 -0.018947 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741EE001, 0x741EE002, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741EE001, 0x741EE003, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x741EE001, 0x741EE004, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x741EE001, 0x741EE005, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x741EE001, 0x741EE006, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x741EE001, 0x741EE007, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x741EE001, 0x741EE008, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x741EE001, 0x741EE009, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741EE001, 0x741EE00A, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x741EE001, 0x741EE00B, '2019-02-10 00:00:00') /* Ruschk Sadist */;
+VALUES (0x741EE001, 0x741EE002, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741EE001, 0x741EE003, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x741EE001, 0x741EE004, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x741EE001, 0x741EE005, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x741EE001, 0x741EE006, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x741EE001, 0x741EE007, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x741EE001, 0x741EE008, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x741EE001, 0x741EE009, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741EE001, 0x741EE00A, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x741EE001, 0x741EE00B, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741EE002, 29342, 0x41EE0001, 7.630506, 6.296285, 44.11779, 0.9998205, 0, 0, -0.018947,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */

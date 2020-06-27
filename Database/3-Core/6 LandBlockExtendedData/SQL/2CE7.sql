@@ -5,30 +5,30 @@ VALUES (0x72CE7001,  1154, 0x2CE70032, 166.8699, 45.57309, 35.57376, 0.6809624, 
 /* @teleloc 0x2CE70032 [166.869900 45.573090 35.573760] 0.680962 0.000000 0.000000 -0.732318 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CE7001, 0x72CE7002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72CE7001, 0x72CE7003, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72CE7001, 0x72CE7004, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE7001, 0x72CE7005, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CE7001, 0x72CE7006, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE7001, 0x72CE7007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72CE7001, 0x72CE7008, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72CE7001, 0x72CE7009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72CE7001, 0x72CE700A, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE7001, 0x72CE700B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x72CE7001, 0x72CE700C, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72CE7001, 0x72CE700D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72CE7001, 0x72CE700E, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72CE7001, 0x72CE700F, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72CE7001, 0x72CE7010, '2019-02-10 00:00:00') /* Grave Spirit */
-     , (0x72CE7001, 0x72CE7011, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72CE7001, 0x72CE7012, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72CE7001, 0x72CE7013, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72CE7001, 0x72CE7014, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72CE7001, 0x72CE7015, '2019-02-10 00:00:00') /* Eater */
-     , (0x72CE7001, 0x72CE7016, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x72CE7001, 0x72CE7017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72CE7001, 0x72CE7018, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72CE7001, 0x72CE7019, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x72CE7001, 0x72CE7002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72CE7001, 0x72CE7003, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72CE7001, 0x72CE7004, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE7001, 0x72CE7005, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CE7001, 0x72CE7006, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE7001, 0x72CE7007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72CE7001, 0x72CE7008, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72CE7001, 0x72CE7009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72CE7001, 0x72CE700A, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE7001, 0x72CE700B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x72CE7001, 0x72CE700C, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72CE7001, 0x72CE700D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72CE7001, 0x72CE700E, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72CE7001, 0x72CE700F, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72CE7001, 0x72CE7010, '2019-02-10 00:00:00') /* Grave Spirit (26521) */
+     , (0x72CE7001, 0x72CE7011, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72CE7001, 0x72CE7012, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72CE7001, 0x72CE7013, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72CE7001, 0x72CE7014, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72CE7001, 0x72CE7015, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72CE7001, 0x72CE7016, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x72CE7001, 0x72CE7017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72CE7001, 0x72CE7018, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72CE7001, 0x72CE7019, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CE7002,  4255, 0x2CE70032, 166.8699, 45.57309, 35.57376, 0.6809624, 0, 0, -0.7323184,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

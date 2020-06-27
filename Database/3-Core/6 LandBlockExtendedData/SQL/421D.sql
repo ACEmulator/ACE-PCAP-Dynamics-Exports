@@ -13,26 +13,26 @@ VALUES (0x7421D002,  1154, 0x421D0036, 151.8114, 128.5506, 32.01, 0.2588191, 0, 
 /* @teleloc 0x421D0036 [151.811400 128.550600 32.010000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7421D002, 0x7421D003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7421D002, 0x7421D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7421D002, 0x7421D005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7421D002, 0x7421D006, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7421D002, 0x7421D007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7421D002, 0x7421D009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7421D002, 0x7421D00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7421D002, 0x7421D00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7421D002, 0x7421D00C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7421D002, 0x7421D00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D00F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7421D002, 0x7421D010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7421D002, 0x7421D011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7421D002, 0x7421D014, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D015, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7421D002, 0x7421D016, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7421D002, 0x7421D003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7421D002, 0x7421D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7421D002, 0x7421D005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7421D002, 0x7421D006, '2019-02-10 00:00:00') /* Exploration Marker (39759) */
+     , (0x7421D002, 0x7421D007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7421D002, 0x7421D009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7421D002, 0x7421D00A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7421D002, 0x7421D00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7421D002, 0x7421D00C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7421D002, 0x7421D00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D00F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7421D002, 0x7421D010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7421D002, 0x7421D011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D012, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7421D002, 0x7421D014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D015, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7421D003, 24497, 0x421D0036, 151.8114, 128.5506, 32.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -119,7 +119,7 @@ VALUES (0x7421D017,  1542, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0, False
 /* @teleloc 0x421D0036 [160.551400 130.755700 32.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7421D017, 0x7421D018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7421D017, 0x7421D018, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7421D018, 22571, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

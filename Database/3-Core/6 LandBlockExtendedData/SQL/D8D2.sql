@@ -5,27 +5,27 @@ VALUES (0x7D8D2001,  1154, 0xD8D20003, 18.03296, 50.49471, 25.9961, -0.4758722, 
 /* @teleloc 0xD8D20003 [18.032960 50.494710 25.996100] -0.475872 0.000000 0.000000 -0.879515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8D2001, 0x7D8D2002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8D2001, 0x7D8D2003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D8D2001, 0x7D8D2004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D8D2001, 0x7D8D2005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8D2001, 0x7D8D2006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D8D2001, 0x7D8D2007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D8D2001, 0x7D8D2008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8D2001, 0x7D8D2009, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8D2001, 0x7D8D200A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D8D2001, 0x7D8D200B, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D8D2001, 0x7D8D200C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D8D2001, 0x7D8D200D, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D8D2001, 0x7D8D200E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D8D2001, 0x7D8D200F, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7D8D2001, 0x7D8D2010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8D2001, 0x7D8D2011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8D2001, 0x7D8D2012, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8D2001, 0x7D8D2013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8D2001, 0x7D8D2014, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D8D2001, 0x7D8D2015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D8D2001, 0x7D8D2016, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7D8D2001, 0x7D8D2002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8D2001, 0x7D8D2003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D8D2001, 0x7D8D2004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D8D2001, 0x7D8D2005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8D2001, 0x7D8D2006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D8D2001, 0x7D8D2007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D8D2001, 0x7D8D2008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8D2001, 0x7D8D2009, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8D2001, 0x7D8D200A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D8D2001, 0x7D8D200B, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D8D2001, 0x7D8D200C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D8D2001, 0x7D8D200D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D8D2001, 0x7D8D200E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D8D2001, 0x7D8D200F, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7D8D2001, 0x7D8D2010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8D2001, 0x7D8D2011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8D2001, 0x7D8D2012, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8D2001, 0x7D8D2013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8D2001, 0x7D8D2014, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D8D2001, 0x7D8D2015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D8D2001, 0x7D8D2016, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8D2002, 24959, 0xD8D20003, 18.03296, 50.49471, 25.9961, -0.4758722, 0, 0, -0.8795145,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

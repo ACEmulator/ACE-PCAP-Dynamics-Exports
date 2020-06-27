@@ -5,12 +5,12 @@ VALUES (0x7A1BC001,  1154, 0xA1BC0039, 185.9795, 8.749582, 88.30681, 0.9063078, 
 /* @teleloc 0xA1BC0039 [185.979500 8.749582 88.306810] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1BC001, 0x7A1BC002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A1BC001, 0x7A1BC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A1BC001, 0x7A1BC004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A1BC001, 0x7A1BC005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A1BC001, 0x7A1BC006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A1BC001, 0x7A1BC007, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7A1BC001, 0x7A1BC002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A1BC001, 0x7A1BC003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A1BC001, 0x7A1BC004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A1BC001, 0x7A1BC005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A1BC001, 0x7A1BC006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A1BC001, 0x7A1BC007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1BC002,  2576, 0xA1BC0039, 185.9795, 8.749582, 88.30681, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

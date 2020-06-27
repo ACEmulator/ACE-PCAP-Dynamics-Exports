@@ -5,16 +5,16 @@ VALUES (0x7DC7C001,  1154, 0xDC7C000C, 31.108, 78.52901, 14.55058, 0.9648514, 0,
 /* @teleloc 0xDC7C000C [31.108000 78.529010 14.550580] 0.964851 0.000000 0.000000 -0.262796 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC7C001, 0x7DC7C002, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DC7C001, 0x7DC7C003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7DC7C001, 0x7DC7C004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7DC7C001, 0x7DC7C005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DC7C001, 0x7DC7C006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DC7C001, 0x7DC7C007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC7C001, 0x7DC7C008, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7DC7C001, 0x7DC7C009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7DC7C001, 0x7DC7C00A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DC7C001, 0x7DC7C00B, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7DC7C001, 0x7DC7C002, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DC7C001, 0x7DC7C003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7DC7C001, 0x7DC7C004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7DC7C001, 0x7DC7C005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DC7C001, 0x7DC7C006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DC7C001, 0x7DC7C007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC7C001, 0x7DC7C008, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DC7C001, 0x7DC7C009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7DC7C001, 0x7DC7C00A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DC7C001, 0x7DC7C00B, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC7C002,   230, 0xDC7C000C, 31.108, 78.52901, 14.55058, 0.9648514, 0, 0, -0.2627959,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */

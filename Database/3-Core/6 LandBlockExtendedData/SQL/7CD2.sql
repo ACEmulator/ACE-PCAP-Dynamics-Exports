@@ -25,94 +25,94 @@ VALUES (0x77CD203C,  1154, 0x7CD2010D, 130.6429, 15.14705, 175.4081, 0.492919, 0
 /* @teleloc 0x7CD2010D [130.642900 15.147050 175.408100] 0.492919 0.000000 0.000000 -0.870075 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CD203C, 0x77CD203D, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD203E, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x77CD203C, 0x77CD203F, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x77CD203C, 0x77CD2040, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77CD203C, 0x77CD2041, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77CD203C, 0x77CD2042, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x77CD203C, 0x77CD2043, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2044, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2045, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2046, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2047, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77CD203C, 0x77CD2048, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x77CD203C, 0x77CD2049, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x77CD203C, 0x77CD204A, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77CD203C, 0x77CD204B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD204C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD204D, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD204E, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD204F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2050, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2051, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2052, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2053, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2054, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2055, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2056, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2057, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2058, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2059, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD205A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD205B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD205C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD205D, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x77CD203C, 0x77CD205E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD205F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2060, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77CD203C, 0x77CD2061, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2062, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2063, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2064, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2065, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2066, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2067, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2068, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2069, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD206A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD206B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77CD203C, 0x77CD206C, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77CD203C, 0x77CD206D, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77CD203C, 0x77CD206E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD206F, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2070, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77CD203C, 0x77CD2071, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77CD203C, 0x77CD2072, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2073, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2074, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2075, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2076, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2077, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2078, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2079, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD207A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD207B, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD207C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD207D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD207E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD207F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2080, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2081, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2082, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x77CD203C, 0x77CD2083, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2084, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2085, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2086, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2087, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2088, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2089, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD208A, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD208B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD208C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD208D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77CD203C, 0x77CD208E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x77CD203C, 0x77CD208F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2090, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2091, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2092, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x77CD203C, 0x77CD2093, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x77CD203C, 0x77CD2094, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x77CD203C, 0x77CD203D, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD203E, '2019-02-10 00:00:00') /* Exploration Marker (39772) */
+     , (0x77CD203C, 0x77CD203F, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD203C, 0x77CD2040, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77CD203C, 0x77CD2041, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77CD203C, 0x77CD2042, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x77CD203C, 0x77CD2043, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2044, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2045, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2046, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2047, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77CD203C, 0x77CD2048, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD203C, 0x77CD2049, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x77CD203C, 0x77CD204A, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77CD203C, 0x77CD204B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD204C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD204D, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD204E, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD204F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2050, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2051, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2052, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2053, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2054, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2055, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2056, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2057, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2058, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2059, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD205A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD205B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD205C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD205D, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x77CD203C, 0x77CD205E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD205F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2060, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77CD203C, 0x77CD2061, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2062, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2063, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2064, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2065, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2066, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2067, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2068, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2069, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD206A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD206B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77CD203C, 0x77CD206C, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77CD203C, 0x77CD206D, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x77CD203C, 0x77CD206E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD206F, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2070, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77CD203C, 0x77CD2071, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77CD203C, 0x77CD2072, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2073, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2074, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2075, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2076, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2077, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2078, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2079, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD207A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD207B, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD207C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD207D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD207E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD207F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2080, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2081, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2082, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x77CD203C, 0x77CD2083, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2084, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2085, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2086, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2087, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2088, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2089, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD208A, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD208B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD208C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD208D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77CD203C, 0x77CD208E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x77CD203C, 0x77CD208F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2090, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2091, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2092, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x77CD203C, 0x77CD2093, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD203C, 0x77CD2094, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD203D,   938, 0x7CD2010D, 130.6429, 15.14705, 175.4081, 0.492919, 0, 0, -0.870075,  True, '2019-02-10 00:00:00'); /* Banderling Raider */
@@ -471,11 +471,11 @@ VALUES (0x77CD2095,  1542, 0x7CD20108, 116.036, 21.4484, 164.8, 0.676689, 0, 0, 
 /* @teleloc 0x7CD20108 [116.036000 21.448400 164.800000] 0.676689 0.000000 0.000000 0.736269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CD2095, 0x77CD2096, '2019-02-10 00:00:00') /* Powdered Hematite */
-     , (0x77CD2095, 0x77CD2097, '2019-02-10 00:00:00') /* Powdered Quartz */
-     , (0x77CD2095, 0x77CD2098, '2019-02-10 00:00:00') /* Gypsum */
-     , (0x77CD2095, 0x77CD2099, '2019-02-10 00:00:00') /* Cinnabar */
-     , (0x77CD2095, 0x77CD209A, '2019-02-10 00:00:00') /* Gypsum */;
+VALUES (0x77CD2095, 0x77CD2096, '2019-02-10 00:00:00') /* Powdered Hematite (626) */
+     , (0x77CD2095, 0x77CD2097, '2019-02-10 00:00:00') /* Powdered Quartz (791) */
+     , (0x77CD2095, 0x77CD2098, '2019-02-10 00:00:00') /* Gypsum (758) */
+     , (0x77CD2095, 0x77CD2099, '2019-02-10 00:00:00') /* Cinnabar (755) */
+     , (0x77CD2095, 0x77CD209A, '2019-02-10 00:00:00') /* Gypsum (758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD2096,   626, 0x7CD20108, 116.036, 21.4484, 164.8, 0.676689, 0, 0, 0.736269,  True, '2019-02-10 00:00:00'); /* Powdered Hematite */

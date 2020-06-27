@@ -45,73 +45,73 @@ VALUES (0x700DA04F,  1154, 0x00DA019E, 110, -50, 0.02899998, 1, 0, 0, 0, False, 
 /* @teleloc 0x00DA019E [110.000000 -50.000000 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DA04F, 0x700DA050, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA051, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x700DA04F, 0x700DA052, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA053, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x700DA04F, 0x700DA054, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x700DA04F, 0x700DA055, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA056, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA057, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA058, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA059, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA05A, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x700DA04F, 0x700DA05B, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA05C, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA05D, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA05E, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA05F, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA060, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x700DA04F, 0x700DA061, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA062, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA063, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA064, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA065, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA066, '2019-02-10 00:00:00') /* Illu Sclavus */
-     , (0x700DA04F, 0x700DA067, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA068, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA069, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA06A, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA06B, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA06C, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA06D, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA06E, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA06F, '2019-02-10 00:00:00') /* Imperial Archivist */
-     , (0x700DA04F, 0x700DA070, '2019-02-10 00:00:00') /* Imperial Guard */
-     , (0x700DA04F, 0x700DA071, '2019-02-10 00:00:00') /* Falatacot Warden Statue */
-     , (0x700DA04F, 0x700DA072, '2019-02-10 00:00:00') /* Imperial Guard */
-     , (0x700DA04F, 0x700DA073, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA074, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x700DA04F, 0x700DA075, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA076, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA077, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA078, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA079, '2019-02-10 00:00:00') /* Tormented Imperial Consort */
-     , (0x700DA04F, 0x700DA07A, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA07B, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA07C, '2019-02-10 00:00:00') /* Infused Blood Golem */
-     , (0x700DA04F, 0x700DA07D, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x700DA04F, 0x700DA07E, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA07F, '2019-02-10 00:00:00') /* Enraged Ancient Soul */
-     , (0x700DA04F, 0x700DA080, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA081, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x700DA04F, 0x700DA082, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker */
-     , (0x700DA04F, 0x700DA083, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x700DA04F, 0x700DA084, '2019-02-10 00:00:00') /* Elite Zharalim Agent */
-     , (0x700DA04F, 0x700DA085, '2019-02-10 00:00:00') /* Blood Priestess */
-     , (0x700DA04F, 0x700DA086, '2019-02-10 00:00:00') /* Blood Priestess */
-     , (0x700DA04F, 0x700DA087, '2019-02-10 00:00:00') /* Blood Priestess */
-     , (0x700DA04F, 0x700DA088, '2019-02-10 00:00:00') /* Blood Priestess */
-     , (0x700DA04F, 0x700DA089, '2019-02-10 00:00:00') /* Blood Priestess */
-     , (0x700DA04F, 0x700DA08A, '2019-02-10 00:00:00') /* Falatacot Warden Statue */
-     , (0x700DA04F, 0x700DA08B, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x700DA04F, 0x700DA08C, '2019-02-10 00:00:00') /* Tortured Spirit */
-     , (0x700DA04F, 0x700DA08D, '2019-02-10 00:00:00') /* Falatacot Consort */
-     , (0x700DA04F, 0x700DA08E, '2019-02-10 00:00:00') /* Ancient Counselor */
-     , (0x700DA04F, 0x700DA08F, '2019-02-10 00:00:00') /* Laisu Sclavus */
-     , (0x700DA04F, 0x700DA090, '2019-02-10 00:00:00') /* Thralled Guruk Reaper */
-     , (0x700DA04F, 0x700DA091, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x700DA04F, 0x700DA092, '2019-02-10 00:00:00') /* Infused Blood Golem */;
+VALUES (0x700DA04F, 0x700DA050, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA051, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700DA04F, 0x700DA052, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA053, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x700DA04F, 0x700DA054, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x700DA04F, 0x700DA055, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA056, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA057, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA058, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA059, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA05A, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x700DA04F, 0x700DA05B, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA05C, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA05D, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA05E, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA05F, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA060, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700DA04F, 0x700DA061, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA062, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA063, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA064, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA065, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA066, '2019-02-10 00:00:00') /* Illu Sclavus (34044) */
+     , (0x700DA04F, 0x700DA067, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA068, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA069, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA06A, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA06B, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA06C, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA06D, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA06E, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA06F, '2019-02-10 00:00:00') /* Imperial Archivist (37180) */
+     , (0x700DA04F, 0x700DA070, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
+     , (0x700DA04F, 0x700DA071, '2019-02-10 00:00:00') /* Falatacot Warden Statue (38036) */
+     , (0x700DA04F, 0x700DA072, '2019-02-10 00:00:00') /* Imperial Guard (37179) */
+     , (0x700DA04F, 0x700DA073, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA074, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x700DA04F, 0x700DA075, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA076, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA077, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA078, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA079, '2019-02-10 00:00:00') /* Tormented Imperial Consort (33286) */
+     , (0x700DA04F, 0x700DA07A, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA07B, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA07C, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */
+     , (0x700DA04F, 0x700DA07D, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x700DA04F, 0x700DA07E, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA07F, '2019-02-10 00:00:00') /* Enraged Ancient Soul (33285) */
+     , (0x700DA04F, 0x700DA080, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA081, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x700DA04F, 0x700DA082, '2019-02-10 00:00:00') /* Thralled Guruk Spore Seeker (34980) */
+     , (0x700DA04F, 0x700DA083, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x700DA04F, 0x700DA084, '2019-02-10 00:00:00') /* Elite Zharalim Agent (38029) */
+     , (0x700DA04F, 0x700DA085, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
+     , (0x700DA04F, 0x700DA086, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
+     , (0x700DA04F, 0x700DA087, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
+     , (0x700DA04F, 0x700DA088, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
+     , (0x700DA04F, 0x700DA089, '2019-02-10 00:00:00') /* Blood Priestess (37177) */
+     , (0x700DA04F, 0x700DA08A, '2019-02-10 00:00:00') /* Falatacot Warden Statue (38037) */
+     , (0x700DA04F, 0x700DA08B, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (38030) */
+     , (0x700DA04F, 0x700DA08C, '2019-02-10 00:00:00') /* Tortured Spirit (34978) */
+     , (0x700DA04F, 0x700DA08D, '2019-02-10 00:00:00') /* Falatacot Consort (34973) */
+     , (0x700DA04F, 0x700DA08E, '2019-02-10 00:00:00') /* Ancient Counselor (34974) */
+     , (0x700DA04F, 0x700DA08F, '2019-02-10 00:00:00') /* Laisu Sclavus (34975) */
+     , (0x700DA04F, 0x700DA090, '2019-02-10 00:00:00') /* Thralled Guruk Reaper (34979) */
+     , (0x700DA04F, 0x700DA091, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x700DA04F, 0x700DA092, '2019-02-10 00:00:00') /* Infused Blood Golem (34977) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DA050, 31948, 0x00DA019E, 110, -50, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Doomed Spirit */
@@ -386,8 +386,8 @@ VALUES (0x700DA093,  1154, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.5720666, 
 /* @teleloc 0x00DA0114 [2.854480 -200.158900 -17.995000] -0.572067 0.000000 0.000000 -0.820207 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DA093, 0x700DA094, '2019-02-10 00:00:00') /* Corpse of Elite Zharalim Agent */
-     , (0x700DA093, 0x700DA095, '2019-02-10 00:00:00') /* Falatacot Herald */;
+VALUES (0x700DA093, 0x700DA094, '2019-02-10 00:00:00') /* Corpse of Elite Zharalim Agent (38038) */
+     , (0x700DA093, 0x700DA095, '2019-02-10 00:00:00') /* Falatacot Herald (38035) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DA094, 38038, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.5720666, 0, 0, -0.8202072,  True, '2019-02-10 00:00:00'); /* Corpse of Elite Zharalim Agent */

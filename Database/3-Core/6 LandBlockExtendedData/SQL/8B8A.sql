@@ -5,17 +5,17 @@ VALUES (0x78B8A001,  1154, 0x8B8A001C, 74.6293, 88.8608, 42.0105, -0.5326921, 0,
 /* @teleloc 0x8B8A001C [74.629300 88.860800 42.010500] -0.532692 0.000000 0.000000 -0.846309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B8A001, 0x78B8A002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78B8A001, 0x78B8A003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78B8A001, 0x78B8A004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78B8A001, 0x78B8A005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78B8A001, 0x78B8A006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78B8A001, 0x78B8A007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78B8A001, 0x78B8A008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78B8A001, 0x78B8A009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78B8A001, 0x78B8A00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78B8A001, 0x78B8A00B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x78B8A001, 0x78B8A00C, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x78B8A001, 0x78B8A002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78B8A001, 0x78B8A003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78B8A001, 0x78B8A004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78B8A001, 0x78B8A005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78B8A001, 0x78B8A006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78B8A001, 0x78B8A007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78B8A001, 0x78B8A008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78B8A001, 0x78B8A009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78B8A001, 0x78B8A00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78B8A001, 0x78B8A00B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x78B8A001, 0x78B8A00C, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B8A002,   180, 0x8B8A001C, 74.6293, 88.8608, 42.0105, -0.5326921, 0, 0, -0.8463091,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */
@@ -66,7 +66,7 @@ VALUES (0x78B8A00D,  1542, 0x8B8A0037, 165.6353, 167.3301, 49.52046, 1, 0, 0, 0,
 /* @teleloc 0x8B8A0037 [165.635300 167.330100 49.520460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B8A00D, 0x78B8A00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78B8A00D, 0x78B8A00E, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B8A00E, 22576, 0x8B8A0037, 165.6353, 167.3301, 49.52046, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

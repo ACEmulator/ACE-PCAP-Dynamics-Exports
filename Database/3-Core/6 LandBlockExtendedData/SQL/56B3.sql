@@ -5,10 +5,10 @@ VALUES (0x756B3001,  1154, 0x56B3000D, 31.02516, 115.8153, 69.55617, -0.9437928,
 /* @teleloc 0x56B3000D [31.025160 115.815300 69.556170] -0.943793 0.000000 0.000000 -0.330538 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756B3001, 0x756B3002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x756B3001, 0x756B3003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x756B3001, 0x756B3004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x756B3001, 0x756B3005, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x756B3001, 0x756B3002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x756B3001, 0x756B3003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x756B3001, 0x756B3004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x756B3001, 0x756B3005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756B3002, 22519, 0x56B3000D, 31.02516, 115.8153, 69.55617, -0.9437928, 0, 0, -0.3305377,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
@@ -31,7 +31,7 @@ VALUES (0x756B3006,  1542, 0x56B30011, 48.23689, 13.1957, 66.71208, 0.4248127, 0
 /* @teleloc 0x56B30011 [48.236890 13.195700 66.712080] 0.424813 0.000000 0.000000 -0.905281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756B3006, 0x756B3007, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x756B3006, 0x756B3007, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756B3007, 31687, 0x56B30011, 48.23689, 13.1957, 66.71208, 0.4248127, 0, 0, -0.9052812,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

@@ -5,9 +5,9 @@ VALUES (0x7E14A001,  1154, 0xE14A0017, 54.10263, 160.3485, 24.0022, 0.5238103, 0
 /* @teleloc 0xE14A0017 [54.102630 160.348500 24.002200] 0.523810 0.000000 0.000000 -0.851835 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14A001, 0x7E14A002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E14A001, 0x7E14A003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E14A001, 0x7E14A004, '2019-02-10 00:00:00') /* Kilif Zefir */;
+VALUES (0x7E14A001, 0x7E14A002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E14A001, 0x7E14A003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E14A001, 0x7E14A004, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14A002,  7991, 0xE14A0017, 54.10263, 160.3485, 24.0022, 0.5238103, 0, 0, -0.851835,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

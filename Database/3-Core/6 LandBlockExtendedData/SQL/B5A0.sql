@@ -5,15 +5,15 @@ VALUES (0x7B5A0001,  1154, 0xB5A00031, 162.7274, 12.92278, 58.0045, 0.5831811, 0
 /* @teleloc 0xB5A00031 [162.727400 12.922780 58.004500] 0.583181 0.000000 0.000000 -0.812342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A0001, 0x7B5A0002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B5A0001, 0x7B5A0003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B5A0001, 0x7B5A0004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B5A0001, 0x7B5A0005, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B5A0001, 0x7B5A0006, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B5A0001, 0x7B5A0007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7B5A0001, 0x7B5A0008, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B5A0001, 0x7B5A0009, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7B5A0001, 0x7B5A000A, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7B5A0001, 0x7B5A0002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B5A0001, 0x7B5A0003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B5A0001, 0x7B5A0004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B5A0001, 0x7B5A0005, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B5A0001, 0x7B5A0006, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B5A0001, 0x7B5A0007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7B5A0001, 0x7B5A0008, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B5A0001, 0x7B5A0009, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7B5A0001, 0x7B5A000A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A0002,  1612, 0xB5A00031, 162.7274, 12.92278, 58.0045, 0.5831811, 0, 0, -0.8123422,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

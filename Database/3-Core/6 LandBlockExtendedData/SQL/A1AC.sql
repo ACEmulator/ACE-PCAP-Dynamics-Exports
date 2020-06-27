@@ -5,9 +5,9 @@ VALUES (0x7A1AC001,  1154, 0xA1AC003A, 182.4298, 39.58677, 49.51072, -0.2566104,
 /* @teleloc 0xA1AC003A [182.429800 39.586770 49.510720] -0.256610 0.000000 0.000000 -0.966515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1AC001, 0x7A1AC002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A1AC001, 0x7A1AC003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A1AC001, 0x7A1AC004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7A1AC001, 0x7A1AC002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A1AC001, 0x7A1AC003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A1AC001, 0x7A1AC004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1AC002,   235, 0xA1AC003A, 182.4298, 39.58677, 49.51072, -0.2566104, 0, 0, -0.9665149,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

@@ -197,77 +197,77 @@ VALUES (0x7003B09D,  1154, 0x003B02FC, 99.7355, -61.6593, -12, 0.865638, 0, 0, 0
 /* @teleloc 0x003B02FC [99.735500 -61.659300 -12.000000] 0.865638 0.000000 0.000000 0.500670 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003B09D, 0x7003B09E, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B09F, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0A0, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0A1, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A2, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A3, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A4, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A5, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A6, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A7, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A8, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0A9, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AA, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AB, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AC, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AD, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AE, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0AF, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0B0, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0B1, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0B2, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0B3, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0B4, '2019-02-10 00:00:00') /* Radiant Crystal */
-     , (0x7003B09D, 0x7003B0B5, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0B6, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0B7, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0B8, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0B9, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0BA, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0BB, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0BC, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7003B09D, 0x7003B0BD, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0BE, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0BF, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0C0, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0C1, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0C2, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0C3, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0C4, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0C5, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0C6, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0C7, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0C8, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0C9, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0CA, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0CB, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0CC, '2019-02-10 00:00:00') /* Dazzling Crystal */
-     , (0x7003B09D, 0x7003B0CD, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp */
-     , (0x7003B09D, 0x7003B0CE, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0CF, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D0, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D1, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D2, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D3, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D4, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D5, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D6, '2019-02-10 00:00:00') /* Bone Scourge */
-     , (0x7003B09D, 0x7003B0D7, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0D8, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0D9, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0DA, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0DB, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0DC, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0DD, '2019-02-10 00:00:00') /* Virulence */
-     , (0x7003B09D, 0x7003B0DE, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0DF, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0E0, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0E1, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0E2, '2019-02-10 00:00:00') /* Brilliant Crystal */
-     , (0x7003B09D, 0x7003B0E3, '2019-02-10 00:00:00') /* Doomed Spirit */
-     , (0x7003B09D, 0x7003B0E4, '2019-02-10 00:00:00') /* Doomed Spirit */;
+VALUES (0x7003B09D, 0x7003B09E, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B09F, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0A0, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0A1, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A2, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A3, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A4, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A5, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A6, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A7, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A8, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0A9, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AA, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AB, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AC, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AD, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AE, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0AF, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0B0, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0B1, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0B2, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0B3, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0B4, '2019-02-10 00:00:00') /* Radiant Crystal (32032) */
+     , (0x7003B09D, 0x7003B0B5, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0B6, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0B7, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0B8, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0B9, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0BA, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0BB, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0BC, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7003B09D, 0x7003B0BD, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0BE, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0BF, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0C0, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0C1, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0C2, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0C3, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0C4, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0C5, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0C6, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0C7, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0C8, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0C9, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0CA, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0CB, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0CC, '2019-02-10 00:00:00') /* Dazzling Crystal (32031) */
+     , (0x7003B09D, 0x7003B0CD, '2019-02-10 00:00:00') /* Diseased Phyntos Wasp (30757) */
+     , (0x7003B09D, 0x7003B0CE, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0CF, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D0, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D1, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D2, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D3, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D4, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D5, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D6, '2019-02-10 00:00:00') /* Bone Scourge (31279) */
+     , (0x7003B09D, 0x7003B0D7, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0D8, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0D9, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0DA, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0DB, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0DC, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0DD, '2019-02-10 00:00:00') /* Virulence (30755) */
+     , (0x7003B09D, 0x7003B0DE, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0DF, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0E0, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0E1, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0E2, '2019-02-10 00:00:00') /* Brilliant Crystal (32030) */
+     , (0x7003B09D, 0x7003B0E3, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */
+     , (0x7003B09D, 0x7003B0E4, '2019-02-10 00:00:00') /* Doomed Spirit (31948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003B09E, 11536, 0x003B02FC, 99.7355, -61.6593, -12, 0.865638, 0, 0, 0.50067,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */
@@ -558,9 +558,9 @@ VALUES (0x7003B0E5,  1542, 0x003B01BF, 70, -169.3375, -36.001, 1, 0, 0, 0, False
 /* @teleloc 0x003B01BF [70.000000 -169.337500 -36.001000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7003B0E5, 0x7003B0E6, '2019-02-10 00:00:00') /* Radiant Shard */
-     , (0x7003B0E5, 0x7003B0E7, '2019-02-10 00:00:00') /* Dazzling Shard */
-     , (0x7003B0E5, 0x7003B0E8, '2019-02-10 00:00:00') /* Brilliant Shard */;
+VALUES (0x7003B0E5, 0x7003B0E6, '2019-02-10 00:00:00') /* Radiant Shard (31879) */
+     , (0x7003B0E5, 0x7003B0E7, '2019-02-10 00:00:00') /* Dazzling Shard (31880) */
+     , (0x7003B0E5, 0x7003B0E8, '2019-02-10 00:00:00') /* Brilliant Shard (31881) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7003B0E6, 31879, 0x003B01BF, 70, -169.3375, -36.001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Radiant Shard */

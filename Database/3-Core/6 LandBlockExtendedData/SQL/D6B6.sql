@@ -5,20 +5,20 @@ VALUES (0x7D6B6001,  1154, 0xD6B60015, 58.54954, 116.0872, 5.355359, 0.9370191, 
 /* @teleloc 0xD6B60015 [58.549540 116.087200 5.355359] 0.937019 0.000000 0.000000 -0.349278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6B6001, 0x7D6B6002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D6B6001, 0x7D6B6003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D6B6001, 0x7D6B6004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D6B6001, 0x7D6B6005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D6B6001, 0x7D6B6006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D6B6001, 0x7D6B6007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D6B6001, 0x7D6B6008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D6B6001, 0x7D6B6009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D6B6001, 0x7D6B600A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D6B6001, 0x7D6B600B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D6B6001, 0x7D6B600C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D6B6001, 0x7D6B600D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D6B6001, 0x7D6B600E, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D6B6001, 0x7D6B600F, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7D6B6001, 0x7D6B6002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D6B6001, 0x7D6B6003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D6B6001, 0x7D6B6004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D6B6001, 0x7D6B6005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D6B6001, 0x7D6B6006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D6B6001, 0x7D6B6007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D6B6001, 0x7D6B6008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D6B6001, 0x7D6B6009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D6B6001, 0x7D6B600A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D6B6001, 0x7D6B600B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D6B6001, 0x7D6B600C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D6B6001, 0x7D6B600D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D6B6001, 0x7D6B600E, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D6B6001, 0x7D6B600F, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6B6002,  1630, 0xD6B60015, 58.54954, 116.0872, 5.355359, 0.9370191, 0, 0, -0.3492783,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -81,7 +81,7 @@ VALUES (0x7D6B6010,  1542, 0xD6B6003D, 175.1782, 114.6062, 5.101032, 0.9990482, 
 /* @teleloc 0xD6B6003D [175.178200 114.606200 5.101032] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6B6010, 0x7D6B6011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D6B6010, 0x7D6B6011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6B6011,  4179, 0xD6B6003D, 175.1782, 114.6062, 5.101032, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

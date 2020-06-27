@@ -5,21 +5,21 @@ VALUES (0x7E33B001,  1154, 0xE33B0026, 113.6607, 129.3566, 106.2614, 0.4342929, 
 /* @teleloc 0xE33B0026 [113.660700 129.356600 106.261400] 0.434293 0.000000 0.000000 -0.900772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E33B001, 0x7E33B002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E33B001, 0x7E33B003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7E33B001, 0x7E33B004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7E33B001, 0x7E33B005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E33B001, 0x7E33B006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E33B001, 0x7E33B007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7E33B001, 0x7E33B008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E33B001, 0x7E33B009, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7E33B001, 0x7E33B00A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E33B001, 0x7E33B00B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7E33B001, 0x7E33B00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E33B001, 0x7E33B00D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7E33B001, 0x7E33B00E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E33B001, 0x7E33B00F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7E33B001, 0x7E33B010, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7E33B001, 0x7E33B002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E33B001, 0x7E33B003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7E33B001, 0x7E33B004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7E33B001, 0x7E33B005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E33B001, 0x7E33B006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E33B001, 0x7E33B007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E33B001, 0x7E33B008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E33B001, 0x7E33B009, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7E33B001, 0x7E33B00A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E33B001, 0x7E33B00B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7E33B001, 0x7E33B00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E33B001, 0x7E33B00D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7E33B001, 0x7E33B00E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E33B001, 0x7E33B00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7E33B001, 0x7E33B010, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33B002, 11528, 0xE33B0026, 113.6607, 129.3566, 106.2614, 0.4342929, 0, 0, -0.9007717,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

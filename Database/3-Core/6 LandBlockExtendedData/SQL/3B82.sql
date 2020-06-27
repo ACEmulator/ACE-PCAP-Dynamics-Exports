@@ -5,16 +5,16 @@ VALUES (0x73B82001,  1154, 0x3B82002A, 143.8028, 39.58146, 11.44245, 0.7559402, 
 /* @teleloc 0x3B82002A [143.802800 39.581460 11.442450] 0.755940 0.000000 0.000000 -0.654641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B82001, 0x73B82002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73B82001, 0x73B82003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73B82001, 0x73B82004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73B82001, 0x73B82005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73B82001, 0x73B82006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73B82001, 0x73B82007, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73B82001, 0x73B82008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73B82001, 0x73B82009, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73B82001, 0x73B8200A, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73B82001, 0x73B8200B, '2019-02-10 00:00:00') /* Lesser Void Knight */;
+VALUES (0x73B82001, 0x73B82002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73B82001, 0x73B82003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73B82001, 0x73B82004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73B82001, 0x73B82005, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73B82001, 0x73B82006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73B82001, 0x73B82007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73B82001, 0x73B82008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73B82001, 0x73B82009, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73B82001, 0x73B8200A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73B82001, 0x73B8200B, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B82002, 21549, 0x3B82002A, 143.8028, 39.58146, 11.44245, 0.7559402, 0, 0, -0.6546407,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -61,7 +61,7 @@ VALUES (0x73B8200C,  1542, 0x3B82003F, 172.4536, 147.9407, 1.639867, 0.009504012
 /* @teleloc 0x3B82003F [172.453600 147.940700 1.639867] 0.009504 0.000000 0.000000 -0.999955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B8200C, 0x73B8200D, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x73B8200C, 0x73B8200D, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B8200D, 31688, 0x3B82003F, 172.4536, 147.9407, 1.639867, 0.009504012, 0, 0, -0.9999548,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

@@ -5,18 +5,18 @@ VALUES (0x71E6C001,  1154, 0x1E6C000B, 33.24979, 49.97107, 64.92511, 0.2887315, 
 /* @teleloc 0x1E6C000B [33.249790 49.971070 64.925110] 0.288732 0.000000 0.000000 -0.957410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E6C001, 0x71E6C002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E6C001, 0x71E6C003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71E6C001, 0x71E6C004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71E6C001, 0x71E6C005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E6C001, 0x71E6C006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71E6C001, 0x71E6C007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71E6C001, 0x71E6C008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71E6C001, 0x71E6C009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E6C001, 0x71E6C00A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71E6C001, 0x71E6C00B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71E6C001, 0x71E6C00C, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71E6C001, 0x71E6C00D, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x71E6C001, 0x71E6C002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E6C001, 0x71E6C003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71E6C001, 0x71E6C004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71E6C001, 0x71E6C005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E6C001, 0x71E6C006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71E6C001, 0x71E6C007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71E6C001, 0x71E6C008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71E6C001, 0x71E6C009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E6C001, 0x71E6C00A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71E6C001, 0x71E6C00B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71E6C001, 0x71E6C00C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71E6C001, 0x71E6C00D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E6C002, 23482, 0x1E6C000B, 33.24979, 49.97107, 64.92511, 0.2887315, 0, 0, -0.9574101,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -71,7 +71,7 @@ VALUES (0x71E6C00E,  1542, 0x1E6C0016, 62.00228, 136.4174, 83.15941, -0.00910536
 /* @teleloc 0x1E6C0016 [62.002280 136.417400 83.159410] -0.009105 0.000000 0.000000 -0.999959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E6C00E, 0x71E6C00F, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x71E6C00E, 0x71E6C00F, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E6C00F,  8648, 0x1E6C0016, 62.00228, 136.4174, 83.15941, -0.009105362, 0, 0, -0.9999586,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

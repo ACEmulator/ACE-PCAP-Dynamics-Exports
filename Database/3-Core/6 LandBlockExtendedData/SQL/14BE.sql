@@ -5,9 +5,9 @@ VALUES (0x714BE001,  1154, 0x14BE0004, 23.86071, 90.32776, 20.47769, 0.9881344, 
 /* @teleloc 0x14BE0004 [23.860710 90.327760 20.477690] 0.988134 0.000000 0.000000 -0.153591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714BE001, 0x714BE002, '2019-02-10 00:00:00') /* Poacher */
-     , (0x714BE001, 0x714BE003, '2019-02-10 00:00:00') /* Poacher */
-     , (0x714BE001, 0x714BE004, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x714BE001, 0x714BE002, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x714BE001, 0x714BE003, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x714BE001, 0x714BE004, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714BE002, 11505, 0x14BE0004, 23.86071, 90.32776, 20.47769, 0.9881344, 0, 0, -0.1535913,  True, '2019-02-10 00:00:00'); /* Poacher */
@@ -26,8 +26,8 @@ VALUES (0x714BE005,  1542, 0x14BE000C, 32.1523, 89.51781, 22.05208, 1, 0, 0, 0, 
 /* @teleloc 0x14BE000C [32.152300 89.517810 22.052080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714BE005, 0x714BE006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x714BE005, 0x714BE007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x714BE005, 0x714BE006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x714BE005, 0x714BE007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714BE006,  9024, 0x14BE000C, 32.1523, 89.51781, 22.05208, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

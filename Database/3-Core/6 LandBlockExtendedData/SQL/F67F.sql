@@ -9,32 +9,32 @@ VALUES (0x7F67F001,  1154, 0xF67F0039, 190.9083, 19.52444, 12.09297, -0.4161729,
 /* @teleloc 0xF67F0039 [190.908300 19.524440 12.092970] -0.416173 0.000000 0.000000 -0.909286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F67F001, 0x7F67F002, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F003, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F004, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67F001, 0x7F67F005, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F007, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67F001, 0x7F67F008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F67F001, 0x7F67F009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F00A, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67F001, 0x7F67F00B, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67F001, 0x7F67F00C, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F67F001, 0x7F67F00D, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67F001, 0x7F67F00E, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67F001, 0x7F67F00F, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F67F001, 0x7F67F010, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F67F001, 0x7F67F011, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F012, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F013, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F014, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F015, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F016, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F017, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F67F001, 0x7F67F018, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F67F001, 0x7F67F019, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F67F001, 0x7F67F01A, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F67F001, 0x7F67F01B, '2019-02-10 00:00:00') /* Reedshark Stripling */;
+VALUES (0x7F67F001, 0x7F67F002, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F003, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F004, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67F001, 0x7F67F005, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F007, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67F001, 0x7F67F008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F67F001, 0x7F67F009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F00A, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67F001, 0x7F67F00B, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67F001, 0x7F67F00C, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F67F001, 0x7F67F00D, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67F001, 0x7F67F00E, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67F001, 0x7F67F00F, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F67F001, 0x7F67F010, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F67F001, 0x7F67F011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F013, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F014, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F015, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F016, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F017, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F67F001, 0x7F67F018, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67F001, 0x7F67F019, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F67F001, 0x7F67F01A, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F67F001, 0x7F67F01B, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F67F002, 22745, 0xF67F0039, 190.9083, 19.52444, 12.09297, -0.4161729, 0, 0, -0.9092855,  True, '2019-02-10 00:00:00'); /* Jungle Reaver */

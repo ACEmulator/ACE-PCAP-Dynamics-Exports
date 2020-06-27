@@ -5,12 +5,12 @@ VALUES (0x75712001,  1154, 0x5712003E, 190.1402, 127.3616, 3.522187, -0.09042405
 /* @teleloc 0x5712003E [190.140200 127.361600 3.522187] -0.090424 0.000000 0.000000 -0.995903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75712001, 0x75712002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75712001, 0x75712003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75712001, 0x75712004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75712001, 0x75712005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75712001, 0x75712006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x75712001, 0x75712007, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75712001, 0x75712002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75712001, 0x75712003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75712001, 0x75712004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75712001, 0x75712005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75712001, 0x75712006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x75712001, 0x75712007, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75712002,  7121, 0x5712003E, 190.1402, 127.3616, 3.522187, -0.09042405, 0, 0, -0.9959034,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

@@ -5,9 +5,9 @@ VALUES (0x79632001,  1154, 0x9632002A, 142.6667, 35.22438, 104.0835, 0.1406736, 
 /* @teleloc 0x9632002A [142.666700 35.224380 104.083500] 0.140674 0.000000 0.000000 -0.990056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79632001, 0x79632002, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79632001, 0x79632003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79632001, 0x79632004, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x79632001, 0x79632002, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79632001, 0x79632003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79632001, 0x79632004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79632002,  9243, 0x9632002A, 142.6667, 35.22438, 104.0835, 0.1406736, 0, 0, -0.990056,  True, '2019-02-10 00:00:00'); /* Innocuous Doll */
@@ -26,8 +26,8 @@ VALUES (0x79632005,  1542, 0x9632002A, 142.4734, 29.58948, 112.5243, 0.1406736, 
 /* @teleloc 0x9632002A [142.473400 29.589480 112.524300] 0.140674 0.000000 0.000000 -0.990056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79632005, 0x79632006, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x79632005, 0x79632007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79632005, 0x79632006, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x79632005, 0x79632007, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79632006,  8041, 0x9632002A, 142.4734, 29.58948, 112.5243, 0.1406736, 0, 0, -0.990056,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

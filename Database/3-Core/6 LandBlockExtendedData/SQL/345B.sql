@@ -5,26 +5,26 @@ VALUES (0x7345B001,  1154, 0x345B001E, 73.47107, 137.6795, 20.89677, 0.9992872, 
 /* @teleloc 0x345B001E [73.471070 137.679500 20.896770] 0.999287 0.000000 0.000000 -0.037751 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7345B001, 0x7345B002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7345B001, 0x7345B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7345B001, 0x7345B004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7345B001, 0x7345B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7345B001, 0x7345B006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7345B001, 0x7345B007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7345B001, 0x7345B008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7345B001, 0x7345B009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7345B001, 0x7345B00A, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x7345B001, 0x7345B00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7345B001, 0x7345B00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7345B001, 0x7345B00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7345B001, 0x7345B00E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7345B001, 0x7345B00F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7345B001, 0x7345B010, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7345B001, 0x7345B011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7345B001, 0x7345B012, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7345B001, 0x7345B013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7345B001, 0x7345B014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7345B001, 0x7345B015, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7345B001, 0x7345B002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7345B001, 0x7345B003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7345B001, 0x7345B004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7345B001, 0x7345B005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7345B001, 0x7345B006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7345B001, 0x7345B007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7345B001, 0x7345B008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7345B001, 0x7345B009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7345B001, 0x7345B00A, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x7345B001, 0x7345B00B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7345B001, 0x7345B00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7345B001, 0x7345B00D, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7345B001, 0x7345B00E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7345B001, 0x7345B00F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7345B001, 0x7345B010, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7345B001, 0x7345B011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7345B001, 0x7345B012, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7345B001, 0x7345B013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7345B001, 0x7345B014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7345B001, 0x7345B015, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7345B002, 24134, 0x345B001E, 73.47107, 137.6795, 20.89677, 0.9992872, 0, 0, -0.0377513,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -111,7 +111,7 @@ VALUES (0x7345B016,  1542, 0x345B000E, 45.13241, 131.7412, 20.47793, 1, 0, 0, 0,
 /* @teleloc 0x345B000E [45.132410 131.741200 20.477930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7345B016, 0x7345B017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7345B016, 0x7345B017, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7345B017, 22571, 0x345B000E, 45.13241, 131.7412, 20.47793, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

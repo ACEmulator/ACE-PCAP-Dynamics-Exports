@@ -5,17 +5,17 @@ VALUES (0x79BD2001,  1154, 0x9BD20025, 116.2542, 117.2002, 245.3835, 0.9238795, 
 /* @teleloc 0x9BD20025 [116.254200 117.200200 245.383500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD2001, 0x79BD2002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BD2001, 0x79BD2003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BD2001, 0x79BD2004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD2005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79BD2001, 0x79BD2006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BD2001, 0x79BD2007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD2008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD2009, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD200A, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD200B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79BD2001, 0x79BD200C, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x79BD2001, 0x79BD2002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BD2001, 0x79BD2003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BD2001, 0x79BD2004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD2005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79BD2001, 0x79BD2006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BD2001, 0x79BD2007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD2008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD2009, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD200A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD200B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79BD2001, 0x79BD200C, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD2002,  1629, 0x9BD20025, 116.2542, 117.2002, 245.3835, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -66,7 +66,7 @@ VALUES (0x79BD200D,  1542, 0x9BD20016, 68.93812, 120.2695, 229.334, 0.7348382, 0
 /* @teleloc 0x9BD20016 [68.938120 120.269500 229.334000] 0.734838 0.000000 0.000000 -0.678242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BD200D, 0x79BD200E, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x79BD200D, 0x79BD200E, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BD200E, 22837, 0x9BD20016, 68.93812, 120.2695, 229.334, 0.7348382, 0, 0, -0.6782424,  True, '2019-02-10 00:00:00'); /* Snowflower */

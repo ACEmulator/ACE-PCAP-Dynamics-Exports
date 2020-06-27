@@ -9,11 +9,11 @@ VALUES (0x77C13001,  1154, 0x7C130027, 118.6257, 156.1474, 3.987431, -0.1902213,
 /* @teleloc 0x7C130027 [118.625700 156.147400 3.987431] -0.190221 0.000000 0.000000 -0.981741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C13001, 0x77C13002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77C13001, 0x77C13003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x77C13001, 0x77C13004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77C13001, 0x77C13005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77C13001, 0x77C13006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x77C13001, 0x77C13002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77C13001, 0x77C13003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x77C13001, 0x77C13004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77C13001, 0x77C13005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77C13001, 0x77C13006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C13002,  7107, 0x7C130027, 118.6257, 156.1474, 3.987431, -0.1902213, 0, 0, -0.9817412,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

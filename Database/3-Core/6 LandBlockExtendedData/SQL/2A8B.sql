@@ -5,13 +5,13 @@ VALUES (0x72A8B001,  1154, 0x2A8B003E, 188.3725, 138.9158, 170.0045, 0.7071068, 
 /* @teleloc 0x2A8B003E [188.372500 138.915800 170.004500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A8B001, 0x72A8B002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72A8B001, 0x72A8B003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72A8B001, 0x72A8B004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x72A8B001, 0x72A8B005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72A8B001, 0x72A8B006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x72A8B001, 0x72A8B007, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x72A8B001, 0x72A8B008, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x72A8B001, 0x72A8B002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72A8B001, 0x72A8B003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72A8B001, 0x72A8B004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x72A8B001, 0x72A8B005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72A8B001, 0x72A8B006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x72A8B001, 0x72A8B007, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x72A8B001, 0x72A8B008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A8B002, 24280, 0x2A8B003E, 188.3725, 138.9158, 170.0045, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Murk Drudge */

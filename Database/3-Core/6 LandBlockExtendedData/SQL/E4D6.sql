@@ -29,33 +29,33 @@ VALUES (0x7E4D6011,  1154, 0xE4D60107, 76.1942, 54.6066, 7.205, 0.215785, 0, 0, 
 /* @teleloc 0xE4D60107 [76.194200 54.606600 7.205000] 0.215785 0.000000 0.000000 -0.976441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D6011, 0x7E4D6012, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6013, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6014, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6015, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6016, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6017, '2019-02-10 00:00:00') /* Banderling Smasher */
-     , (0x7E4D6011, 0x7E4D6018, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D6011, 0x7E4D6019, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D6011, 0x7E4D601A, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D6011, 0x7E4D601B, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D601C, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D601D, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D601E, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D601F, '2019-02-10 00:00:00') /* Townsperson */
-     , (0x7E4D6011, 0x7E4D6020, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D6011, 0x7E4D6021, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D6011, 0x7E4D6022, '2019-02-10 00:00:00') /* Burrowing Grievver */
-     , (0x7E4D6011, 0x7E4D6023, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D6011, 0x7E4D6024, '2019-02-10 00:00:00') /* Banderling Crusher */
-     , (0x7E4D6011, 0x7E4D6025, '2019-02-10 00:00:00') /* Grievver Violator */
-     , (0x7E4D6011, 0x7E4D6026, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E4D6011, 0x7E4D6027, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D6011, 0x7E4D6028, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E4D6011, 0x7E4D6029, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D6011, 0x7E4D602A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E4D6011, 0x7E4D602B, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E4D6011, 0x7E4D602C, '2019-02-10 00:00:00') /* Aggressive Swarm */;
+VALUES (0x7E4D6011, 0x7E4D6012, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6013, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6014, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6015, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6016, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6017, '2019-02-10 00:00:00') /* Banderling Smasher (43488) */
+     , (0x7E4D6011, 0x7E4D6018, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6011, 0x7E4D6019, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6011, 0x7E4D601A, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6011, 0x7E4D601B, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D601C, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D601D, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D601E, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D601F, '2019-02-10 00:00:00') /* Townsperson (43688) */
+     , (0x7E4D6011, 0x7E4D6020, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6011, 0x7E4D6021, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6011, 0x7E4D6022, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E4D6011, 0x7E4D6023, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6011, 0x7E4D6024, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */
+     , (0x7E4D6011, 0x7E4D6025, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
+     , (0x7E4D6011, 0x7E4D6026, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D6011, 0x7E4D6027, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6011, 0x7E4D6028, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D6011, 0x7E4D6029, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6011, 0x7E4D602A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D6011, 0x7E4D602B, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D6011, 0x7E4D602C, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D6012, 43688, 0xE4D60107, 76.1942, 54.6066, 7.205, 0.215785, 0, 0, -0.976441,  True, '2019-02-10 00:00:00'); /* Townsperson */
@@ -170,7 +170,7 @@ VALUES (0x7E4D602D,  1154, 0xE4D6010F, 36.398, 64.6731, 8.005, 0.839653, 0, 0, -
 /* @teleloc 0xE4D6010F [36.398000 64.673100 8.005000] 0.839653 0.000000 0.000000 -0.543123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E4D602D, 0x7E4D602E, '2019-02-10 00:00:00') /* Mayor Trenlach */;
+VALUES (0x7E4D602D, 0x7E4D602E, '2019-02-10 00:00:00') /* Mayor Trenlach (43753) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D602E, 43753, 0xE4D6010F, 36.398, 64.6731, 8.005, 0.839653, 0, 0, -0.543123,  True, '2019-02-10 00:00:00'); /* Mayor Trenlach */

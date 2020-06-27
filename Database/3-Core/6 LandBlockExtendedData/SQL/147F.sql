@@ -5,22 +5,22 @@ VALUES (0x7147F001,  1154, 0x147F0019, 89.42896, 21.18389, 143.8536, -0.8147632,
 /* @teleloc 0x147F0019 [89.428960 21.183890 143.853600] -0.814763 0.000000 0.000000 -0.579794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7147F001, 0x7147F002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7147F001, 0x7147F003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7147F001, 0x7147F004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7147F001, 0x7147F005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7147F001, 0x7147F006, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7147F001, 0x7147F007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7147F001, 0x7147F008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7147F001, 0x7147F009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7147F001, 0x7147F00A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7147F001, 0x7147F00B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7147F001, 0x7147F00C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7147F001, 0x7147F00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7147F001, 0x7147F00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7147F001, 0x7147F00F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7147F001, 0x7147F010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7147F001, 0x7147F011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7147F001, 0x7147F002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7147F001, 0x7147F003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7147F001, 0x7147F004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7147F001, 0x7147F005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7147F001, 0x7147F006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7147F001, 0x7147F007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7147F001, 0x7147F008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7147F001, 0x7147F009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7147F001, 0x7147F00A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7147F001, 0x7147F00B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7147F001, 0x7147F00C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7147F001, 0x7147F00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7147F001, 0x7147F00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7147F001, 0x7147F00F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7147F001, 0x7147F010, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7147F001, 0x7147F011, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7147F002,  8138, 0x147F0019, 89.42896, 21.18389, 143.8536, -0.8147632, 0, 0, -0.5797938,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -91,9 +91,9 @@ VALUES (0x7147F012,  1542, 0x147F0040, 189.0844, 176.8269, 136.3221, 1, 0, 0, 0,
 /* @teleloc 0x147F0040 [189.084400 176.826900 136.322100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7147F012, 0x7147F013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7147F012, 0x7147F014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7147F012, 0x7147F015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7147F012, 0x7147F013, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7147F012, 0x7147F014, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7147F012, 0x7147F015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7147F013, 22566, 0x147F0040, 189.0844, 176.8269, 136.3221, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

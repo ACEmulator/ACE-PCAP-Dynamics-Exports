@@ -13,118 +13,118 @@ VALUES (0x700290AE,  1154, 0x002902CD, 246.381, -128.602, -6, 0.937891, 0, 0, -0
 /* @teleloc 0x002902CD [246.381000 -128.602000 -6.000000] 0.937891 0.000000 0.000000 -0.346929 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700290AE, 0x700290AF, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B0, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B1, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B2, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B3, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B4, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B5, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B6, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B7, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290B8, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290B9, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x700290BA, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290BB, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290BC, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290BD, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290BE, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290BF, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C0, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290C1, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290C2, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x700290C3, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C4, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C5, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C6, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290C7, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C8, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290C9, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CA, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CB, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CC, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CD, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CE, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x700290CF, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x700290D0, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290D1, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290D2, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D3, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D4, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D5, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D6, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D7, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D8, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290D9, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DA, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DB, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DC, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DD, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DE, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290DF, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E0, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E1, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E2, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E3, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E4, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E5, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E6, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E7, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E8, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290E9, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290EA, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290EB, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x700290EC, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290ED, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290EE, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290EF, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x700290F0, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x700290F1, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F2, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F3, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F4, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F5, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F6, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F7, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F8, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290F9, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FA, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FB, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FC, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FD, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FE, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x700290FF, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x70029100, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029101, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029102, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x70029103, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x70029104, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029105, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029106, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029107, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029108, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029109, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002910A, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x7002910B, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x7002910C, '2019-02-10 00:00:00') /* Puffball Thrungus */
-     , (0x700290AE, 0x7002910D, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002910E, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002910F, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029110, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029111, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x70029112, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029113, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029114, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029115, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x70029116, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x70029117, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x70029118, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x70029119, '2019-02-10 00:00:00') /* Jelly Thrungus */
-     , (0x700290AE, 0x7002911A, '2019-02-10 00:00:00') /* Fire Morel Thrungus */
-     , (0x700290AE, 0x7002911B, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002911C, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002911D, '2019-02-10 00:00:00') /* Black Morel Thrungus */
-     , (0x700290AE, 0x7002911E, '2019-02-10 00:00:00') /* Fire Morel Thrungus */;
+VALUES (0x700290AE, 0x700290AF, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B0, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B1, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B2, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B3, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B4, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B5, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B6, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B7, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290B8, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290B9, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x700290BA, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290BB, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290BC, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290BD, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290BE, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290BF, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C0, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290C1, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290C2, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x700290C3, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C4, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C5, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C6, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290C7, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C8, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290C9, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CA, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CB, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CC, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CD, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CE, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x700290CF, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x700290D0, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290D1, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290D2, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D3, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D4, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D5, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D6, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D7, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D8, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290D9, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DA, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DB, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DC, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DD, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DE, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290DF, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E0, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E1, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E2, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E3, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E4, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E5, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E6, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E7, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E8, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290E9, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290EA, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290EB, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x700290EC, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290ED, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290EE, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290EF, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x700290F0, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x700290F1, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F2, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F3, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F4, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F5, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F6, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F7, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F8, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290F9, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FA, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FB, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FC, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FD, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FE, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x700290FF, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x70029100, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029101, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029102, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x70029103, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x70029104, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029105, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029106, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029107, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029108, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029109, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002910A, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x7002910B, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x7002910C, '2019-02-10 00:00:00') /* Puffball Thrungus (31021) */
+     , (0x700290AE, 0x7002910D, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002910E, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002910F, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029110, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029111, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x70029112, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029113, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029114, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029115, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x70029116, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x70029117, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x70029118, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x70029119, '2019-02-10 00:00:00') /* Jelly Thrungus (31022) */
+     , (0x700290AE, 0x7002911A, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */
+     , (0x700290AE, 0x7002911B, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002911C, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002911D, '2019-02-10 00:00:00') /* Black Morel Thrungus (31023) */
+     , (0x700290AE, 0x7002911E, '2019-02-10 00:00:00') /* Fire Morel Thrungus (31025) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700290AF, 31021, 0x002902CD, 246.381, -128.602, -6, 0.937891, 0, 0, -0.346929,  True, '2019-02-10 00:00:00'); /* Puffball Thrungus */
@@ -579,13 +579,13 @@ VALUES (0x7002911F,  1154, 0x0029028A, 190.883, -138.135, -6, -0.388831, 0, 0, -
 /* @teleloc 0x0029028A [190.883000 -138.135000 -6.000000] -0.388831 0.000000 0.000000 -0.921309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7002911F, 0x70029120, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029121, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029122, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029123, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029124, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029125, '2019-02-10 00:00:00') /* Baby Thrungus */
-     , (0x7002911F, 0x70029126, '2019-02-10 00:00:00') /* Baby Thrungus */;
+VALUES (0x7002911F, 0x70029120, '2019-02-10 00:00:00') /* Baby Thrungus (30980) */
+     , (0x7002911F, 0x70029121, '2019-02-10 00:00:00') /* Baby Thrungus (30974) */
+     , (0x7002911F, 0x70029122, '2019-02-10 00:00:00') /* Baby Thrungus (30975) */
+     , (0x7002911F, 0x70029123, '2019-02-10 00:00:00') /* Baby Thrungus (30976) */
+     , (0x7002911F, 0x70029124, '2019-02-10 00:00:00') /* Baby Thrungus (30977) */
+     , (0x7002911F, 0x70029125, '2019-02-10 00:00:00') /* Baby Thrungus (30978) */
+     , (0x7002911F, 0x70029126, '2019-02-10 00:00:00') /* Baby Thrungus (30976) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70029120, 30980, 0x0029028A, 190.883, -138.135, -6, -0.388831, 0, 0, -0.9213091,  True, '2019-02-10 00:00:00'); /* Baby Thrungus */

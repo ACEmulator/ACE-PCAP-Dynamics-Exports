@@ -5,21 +5,21 @@ VALUES (0x758E5001,  1154, 0x58E5001D, 89.59383, 115.08, 27.07769, 0.9396926, 0,
 /* @teleloc 0x58E5001D [89.593830 115.080000 27.077690] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758E5001, 0x758E5002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x758E5001, 0x758E5003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758E5001, 0x758E5004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758E5001, 0x758E5005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x758E5001, 0x758E5006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x758E5001, 0x758E5007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x758E5001, 0x758E5008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x758E5001, 0x758E5009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x758E5001, 0x758E500A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x758E5001, 0x758E500B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758E5001, 0x758E500C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758E5001, 0x758E500D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x758E5001, 0x758E500E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x758E5001, 0x758E500F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x758E5001, 0x758E5010, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x758E5001, 0x758E5002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x758E5001, 0x758E5003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758E5001, 0x758E5004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758E5001, 0x758E5005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x758E5001, 0x758E5006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x758E5001, 0x758E5007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x758E5001, 0x758E5008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x758E5001, 0x758E5009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x758E5001, 0x758E500A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x758E5001, 0x758E500B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758E5001, 0x758E500C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758E5001, 0x758E500D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x758E5001, 0x758E500E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x758E5001, 0x758E500F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x758E5001, 0x758E5010, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758E5002, 24497, 0x58E5001D, 89.59383, 115.08, 27.07769, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -86,9 +86,9 @@ VALUES (0x758E5011,  1542, 0x58E50018, 63.05373, 180.7212, 29.25448, 0.1817656, 
 /* @teleloc 0x58E50018 [63.053730 180.721200 29.254480] 0.181766 0.000000 0.000000 -0.983342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758E5011, 0x758E5012, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x758E5011, 0x758E5013, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x758E5011, 0x758E5014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x758E5011, 0x758E5012, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x758E5011, 0x758E5013, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x758E5011, 0x758E5014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758E5012, 11555, 0x58E50018, 63.05373, 180.7212, 29.25448, 0.1817656, 0, 0, -0.9833419,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

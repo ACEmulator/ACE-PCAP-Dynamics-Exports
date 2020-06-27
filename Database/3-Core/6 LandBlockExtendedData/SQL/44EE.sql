@@ -5,17 +5,17 @@ VALUES (0x744EE001,  1154, 0x44EE0034, 164.19, 80.17611, 40, 0.7523627, 0, 0, -0
 /* @teleloc 0x44EE0034 [164.190000 80.176110 40.000000] 0.752363 0.000000 0.000000 -0.658749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744EE001, 0x744EE002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x744EE001, 0x744EE003, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x744EE001, 0x744EE004, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x744EE001, 0x744EE005, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x744EE001, 0x744EE006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x744EE001, 0x744EE007, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x744EE001, 0x744EE008, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x744EE001, 0x744EE009, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x744EE001, 0x744EE00A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x744EE001, 0x744EE00B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x744EE001, 0x744EE00C, '2019-02-10 00:00:00') /* Frenzied Fiun */;
+VALUES (0x744EE001, 0x744EE002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x744EE001, 0x744EE003, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x744EE001, 0x744EE004, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x744EE001, 0x744EE005, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x744EE001, 0x744EE006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x744EE001, 0x744EE007, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x744EE001, 0x744EE008, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x744EE001, 0x744EE009, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x744EE001, 0x744EE00A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x744EE001, 0x744EE00B, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x744EE001, 0x744EE00C, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744EE002,  7125, 0x44EE0034, 164.19, 80.17611, 40, 0.7523627, 0, 0, -0.6587491,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -66,7 +66,7 @@ VALUES (0x744EE00D,  1542, 0x44EE001E, 95.51122, 139.5215, 63.97847, 0.8985054, 
 /* @teleloc 0x44EE001E [95.511220 139.521500 63.978470] 0.898505 0.000000 0.000000 -0.438963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744EE00D, 0x744EE00E, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x744EE00D, 0x744EE00E, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744EE00E, 31032, 0x44EE001E, 95.51122, 139.5215, 63.97847, 0.8985054, 0, 0, -0.4389625,  True, '2019-02-10 00:00:00'); /* Snow Lily */

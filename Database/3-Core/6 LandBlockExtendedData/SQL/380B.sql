@@ -13,21 +13,21 @@ VALUES (0x7380B002,  1154, 0x380B003C, 173.3547, 89.1783, -0.47, 0.9850374, 0, 0
 /* @teleloc 0x380B003C [173.354700 89.178300 -0.470000] 0.985037 0.000000 0.000000 -0.172341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7380B002, 0x7380B003, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x7380B002, 0x7380B004, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7380B002, 0x7380B005, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380B002, 0x7380B006, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380B002, 0x7380B007, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7380B002, 0x7380B008, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7380B002, 0x7380B009, '2019-02-10 00:00:00') /* Deep-sea Lava Golem */
-     , (0x7380B002, 0x7380B00A, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7380B002, 0x7380B00B, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x7380B002, 0x7380B00C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7380B002, 0x7380B00D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7380B002, 0x7380B00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7380B002, 0x7380B00F, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7380B002, 0x7380B010, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7380B002, 0x7380B011, '2019-02-10 00:00:00') /* Maguth Moarsman */;
+VALUES (0x7380B002, 0x7380B003, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38829) */
+     , (0x7380B002, 0x7380B004, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7380B002, 0x7380B005, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380B002, 0x7380B006, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380B002, 0x7380B007, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7380B002, 0x7380B008, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7380B002, 0x7380B009, '2019-02-10 00:00:00') /* Deep-sea Lava Golem (40468) */
+     , (0x7380B002, 0x7380B00A, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7380B002, 0x7380B00B, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x7380B002, 0x7380B00C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7380B002, 0x7380B00D, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7380B002, 0x7380B00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7380B002, 0x7380B00F, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40466) */
+     , (0x7380B002, 0x7380B010, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7380B002, 0x7380B011, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7380B003, 38829, 0x380B003C, 173.3547, 89.1783, -0.47, 0.9850374, 0, 0, -0.1723405,  True, '2019-02-10 00:00:00'); /* Eyestalk of T'thuun */

@@ -5,13 +5,13 @@ VALUES (0x7F41F001,  1154, 0xF41F0032, 145.652, 45.1853, -0.09450001, 0.2674981,
 /* @teleloc 0xF41F0032 [145.652000 45.185300 -0.094500] 0.267498 0.000000 0.000000 -0.963558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41F001, 0x7F41F002, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7F41F001, 0x7F41F003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7F41F001, 0x7F41F004, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7F41F001, 0x7F41F005, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7F41F001, 0x7F41F006, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7F41F001, 0x7F41F007, '2019-02-10 00:00:00') /* Ruschk Haktar */
-     , (0x7F41F001, 0x7F41F008, '2019-02-10 00:00:00') /* Ruschk Haktar */;
+VALUES (0x7F41F001, 0x7F41F002, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7F41F001, 0x7F41F003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7F41F001, 0x7F41F004, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7F41F001, 0x7F41F005, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7F41F001, 0x7F41F006, '2019-02-10 00:00:00') /* Exploration Marker (39783) */
+     , (0x7F41F001, 0x7F41F007, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */
+     , (0x7F41F001, 0x7F41F008, '2019-02-10 00:00:00') /* Ruschk Haktar (33799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41F002, 25662, 0xF41F0032, 145.652, 45.1853, -0.09450001, 0.2674981, 0, 0, -0.9635584,  True, '2019-02-10 00:00:00'); /* Lesser Void Knight */
@@ -46,7 +46,7 @@ VALUES (0x7F41F009,  1542, 0xF41F002C, 130.482, 77.251, -0.163, 1, 0, 0, 0, Fals
 /* @teleloc 0xF41F002C [130.482000 77.251000 -0.163000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F41F009, 0x7F41F00A, '2019-02-10 00:00:00') /* Shadow-Infested Black Spear Temple */;
+VALUES (0x7F41F009, 0x7F41F00A, '2019-02-10 00:00:00') /* Shadow-Infested Black Spear Temple (33786) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41F00A, 33786, 0xF41F002C, 130.482, 77.251, -0.163, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shadow-Infested Black Spear Temple */

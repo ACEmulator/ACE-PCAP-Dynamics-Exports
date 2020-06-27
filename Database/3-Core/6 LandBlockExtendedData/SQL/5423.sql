@@ -5,9 +5,9 @@ VALUES (0x75423001,  1154, 0x5423000A, 42.15046, 30.62309, 0.981523, 0.3891087, 
 /* @teleloc 0x5423000A [42.150460 30.623090 0.981523] 0.389109 0.000000 0.000000 -0.921192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75423001, 0x75423002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x75423001, 0x75423003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75423001, 0x75423004, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x75423001, 0x75423002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x75423001, 0x75423003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75423001, 0x75423004, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75423002,  4248, 0x5423000A, 42.15046, 30.62309, 0.981523, 0.3891087, 0, 0, -0.9211918,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

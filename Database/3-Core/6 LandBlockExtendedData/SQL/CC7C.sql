@@ -5,8 +5,8 @@ VALUES (0x7CC7C001,  1154, 0xCC7C0005, 13.42035, 98.50713, 33.13294, 0.4226182, 
 /* @teleloc 0xCC7C0005 [13.420350 98.507130 33.132940] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC7C001, 0x7CC7C002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7CC7C001, 0x7CC7C003, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7CC7C001, 0x7CC7C002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7CC7C001, 0x7CC7C003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC7C002,   192, 0xCC7C0005, 13.42035, 98.50713, 33.13294, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

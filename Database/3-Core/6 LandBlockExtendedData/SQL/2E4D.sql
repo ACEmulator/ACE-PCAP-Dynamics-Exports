@@ -5,11 +5,11 @@ VALUES (0x72E4D001,  1154, 0x2E4D0037, 155.66, 146.8317, 4.859037, -0.9241836, 0
 /* @teleloc 0x2E4D0037 [155.660000 146.831700 4.859037] -0.924184 0.000000 0.000000 -0.381949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E4D001, 0x72E4D002, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72E4D001, 0x72E4D003, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72E4D001, 0x72E4D004, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72E4D001, 0x72E4D005, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72E4D001, 0x72E4D006, '2019-02-10 00:00:00') /* Titanium Armoredillo */;
+VALUES (0x72E4D001, 0x72E4D002, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72E4D001, 0x72E4D003, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72E4D001, 0x72E4D004, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72E4D001, 0x72E4D005, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72E4D001, 0x72E4D006, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E4D002, 23088, 0x2E4D0037, 155.66, 146.8317, 4.859037, -0.9241836, 0, 0, -0.3819486,  True, '2019-02-10 00:00:00'); /* Raider Prefect */
@@ -36,7 +36,7 @@ VALUES (0x72E4D007,  1542, 0x2E4D0037, 161.3952, 144.853, 4.378821, -0.9241836, 
 /* @teleloc 0x2E4D0037 [161.395200 144.853000 4.378821] -0.924184 0.000000 0.000000 -0.381949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E4D007, 0x72E4D008, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72E4D007, 0x72E4D008, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E4D008, 46284, 0x2E4D0037, 161.3952, 144.853, 4.378821, -0.9241836, 0, 0, -0.3819486,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */

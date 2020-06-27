@@ -5,10 +5,10 @@ VALUES (0x794E8001,  1154, 0x94E8003B, 173.5833, 56.32143, 36.08086, 0.3887184, 
 /* @teleloc 0x94E8003B [173.583300 56.321430 36.080860] 0.388718 0.000000 0.000000 -0.921357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E8001, 0x794E8002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x794E8001, 0x794E8003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x794E8001, 0x794E8004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794E8001, 0x794E8005, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x794E8001, 0x794E8002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x794E8001, 0x794E8003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x794E8001, 0x794E8004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794E8001, 0x794E8005, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E8002,  7987, 0x94E8003B, 173.5833, 56.32143, 36.08086, 0.3887184, 0, 0, -0.9213566,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

@@ -5,11 +5,11 @@ VALUES (0x73D71001,  1154, 0x3D710023, 101.651, 62.84283, 16.88655, -0.864621, 0
 /* @teleloc 0x3D710023 [101.651000 62.842830 16.886550] -0.864621 0.000000 0.000000 -0.502425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D71001, 0x73D71002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73D71001, 0x73D71003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D71001, 0x73D71004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73D71001, 0x73D71005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73D71001, 0x73D71006, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x73D71001, 0x73D71002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73D71001, 0x73D71003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73D71001, 0x73D71004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73D71001, 0x73D71005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73D71001, 0x73D71006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D71002, 36834, 0x3D710023, 101.651, 62.84283, 16.88655, -0.864621, 0, 0, -0.5024246,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

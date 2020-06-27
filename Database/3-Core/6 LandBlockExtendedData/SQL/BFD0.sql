@@ -5,9 +5,9 @@ VALUES (0x7BFD0001,  1154, 0xBFD00039, 168.1776, 17.86177, 225.0535, 0.7772765, 
 /* @teleloc 0xBFD00039 [168.177600 17.861770 225.053500] 0.777277 0.000000 0.000000 -0.629159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD0001, 0x7BFD0002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BFD0001, 0x7BFD0003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BFD0001, 0x7BFD0004, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x7BFD0001, 0x7BFD0002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BFD0001, 0x7BFD0003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BFD0001, 0x7BFD0004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD0002,  7334, 0xBFD00039, 168.1776, 17.86177, 225.0535, 0.7772765, 0, 0, -0.6291592,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

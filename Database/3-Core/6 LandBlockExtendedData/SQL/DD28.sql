@@ -5,9 +5,9 @@ VALUES (0x7DD28001,  1154, 0xDD280029, 139.9958, 8.44084, 87.5341, 0.4856397, 0,
 /* @teleloc 0xDD280029 [139.995800 8.440840 87.534100] 0.485640 0.000000 0.000000 -0.874159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD28001, 0x7DD28002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7DD28001, 0x7DD28003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7DD28001, 0x7DD28004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7DD28001, 0x7DD28002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7DD28001, 0x7DD28003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7DD28001, 0x7DD28004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD28002, 11533, 0xDD280029, 139.9958, 8.44084, 87.5341, 0.4856397, 0, 0, -0.874159,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

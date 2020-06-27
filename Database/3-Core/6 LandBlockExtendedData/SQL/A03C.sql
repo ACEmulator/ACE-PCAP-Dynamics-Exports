@@ -5,12 +5,12 @@ VALUES (0x7A03C001,  1154, 0xA03C002A, 127.033, 32.95972, 66.25384, 0.7071068, 0
 /* @teleloc 0xA03C002A [127.033000 32.959720 66.253840] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A03C001, 0x7A03C002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A03C001, 0x7A03C003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A03C001, 0x7A03C004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A03C001, 0x7A03C005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A03C001, 0x7A03C006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A03C001, 0x7A03C007, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7A03C001, 0x7A03C002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A03C001, 0x7A03C003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A03C001, 0x7A03C004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A03C001, 0x7A03C005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A03C001, 0x7A03C006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A03C001, 0x7A03C007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A03C002,  1627, 0xA03C002A, 127.033, 32.95972, 66.25384, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -41,7 +41,7 @@ VALUES (0x7A03C008,  1542, 0xA03C002A, 128.7427, 26.88898, 73.68587, 0.7071068, 
 /* @teleloc 0xA03C002A [128.742700 26.888980 73.685870] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A03C008, 0x7A03C009, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7A03C008, 0x7A03C009, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A03C009,  5779, 0xA03C002A, 128.7427, 26.88898, 73.68587, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */

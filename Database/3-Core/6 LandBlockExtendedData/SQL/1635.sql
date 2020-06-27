@@ -9,20 +9,20 @@ VALUES (0x71635001,  1154, 0x16350014, 70.47617, 92.50694, 65.49921, 0.7071068, 
 /* @teleloc 0x16350014 [70.476170 92.506940 65.499210] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71635001, 0x71635002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71635001, 0x71635003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71635001, 0x71635004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71635001, 0x71635005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71635001, 0x71635006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71635001, 0x71635007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71635001, 0x71635008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71635001, 0x71635009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71635001, 0x7163500A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71635001, 0x7163500B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71635001, 0x7163500C, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71635001, 0x7163500D, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x71635001, 0x7163500E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71635001, 0x7163500F, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x71635001, 0x71635002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71635001, 0x71635003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71635001, 0x71635004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71635001, 0x71635005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71635001, 0x71635006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71635001, 0x71635007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71635001, 0x71635008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71635001, 0x71635009, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71635001, 0x7163500A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71635001, 0x7163500B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71635001, 0x7163500C, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71635001, 0x7163500D, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71635001, 0x7163500E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71635001, 0x7163500F, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71635002, 36820, 0x16350014, 70.47617, 92.50694, 65.49921, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -85,7 +85,7 @@ VALUES (0x71635010,  1542, 0x1635003B, 186.4308, 66.89674, 26.26581, -4.371139E-
 /* @teleloc 0x1635003B [186.430800 66.896740 26.265810] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71635010, 0x71635011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71635010, 0x71635011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71635011,  4380, 0x1635003B, 186.4308, 66.89674, 26.26581, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

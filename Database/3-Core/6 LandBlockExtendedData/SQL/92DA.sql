@@ -5,11 +5,11 @@ VALUES (0x792DA001,  1154, 0x92DA0037, 159.8905, 162.0806, 191.7558, 0.9968337, 
 /* @teleloc 0x92DA0037 [159.890500 162.080600 191.755800] 0.996834 0.000000 0.000000 -0.079515 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792DA001, 0x792DA002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792DA001, 0x792DA003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x792DA001, 0x792DA004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792DA001, 0x792DA005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x792DA001, 0x792DA006, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x792DA001, 0x792DA002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792DA001, 0x792DA003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x792DA001, 0x792DA004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792DA001, 0x792DA005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x792DA001, 0x792DA006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792DA002, 24293, 0x92DA0037, 159.8905, 162.0806, 191.7558, 0.9968337, 0, 0, -0.07951455,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

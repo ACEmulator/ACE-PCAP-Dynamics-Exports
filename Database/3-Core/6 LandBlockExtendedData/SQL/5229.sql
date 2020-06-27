@@ -5,12 +5,12 @@ VALUES (0x75229001,  1154, 0x52290040, 174.7051, 173.9763, -0.9021, 0.9063078, 0
 /* @teleloc 0x52290040 [174.705100 173.976300 -0.902100] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75229001, 0x75229002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75229001, 0x75229003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75229001, 0x75229004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75229001, 0x75229005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x75229001, 0x75229006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x75229001, 0x75229007, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x75229001, 0x75229002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75229001, 0x75229003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75229001, 0x75229004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75229001, 0x75229005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x75229001, 0x75229006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x75229001, 0x75229007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75229002,  7982, 0x52290040, 174.7051, 173.9763, -0.9021, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

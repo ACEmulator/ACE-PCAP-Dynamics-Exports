@@ -5,14 +5,14 @@ VALUES (0x7C38D001,  1154, 0xC38D003F, 181.3647, 146.9192, 16.012, -0.8096121, 0
 /* @teleloc 0xC38D003F [181.364700 146.919200 16.012000] -0.809612 0.000000 0.000000 -0.586965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C38D001, 0x7C38D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C38D001, 0x7C38D003, '2019-02-10 00:00:00') /* Static */
-     , (0x7C38D001, 0x7C38D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C38D001, 0x7C38D005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C38D001, 0x7C38D006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C38D001, 0x7C38D007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C38D001, 0x7C38D008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C38D001, 0x7C38D009, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7C38D001, 0x7C38D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C38D001, 0x7C38D003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C38D001, 0x7C38D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C38D001, 0x7C38D005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C38D001, 0x7C38D006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C38D001, 0x7C38D007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C38D001, 0x7C38D008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C38D001, 0x7C38D009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C38D002,   215, 0xC38D003F, 181.3647, 146.9192, 16.012, -0.8096121, 0, 0, -0.5869653,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

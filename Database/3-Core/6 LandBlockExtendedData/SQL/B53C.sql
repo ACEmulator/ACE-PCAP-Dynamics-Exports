@@ -5,11 +5,11 @@ VALUES (0x7B53C001,  1154, 0xB53C000B, 38.48787, 55.61133, 53.21942, 0.8813723, 
 /* @teleloc 0xB53C000B [38.487870 55.611330 53.219420] 0.881372 0.000000 0.000000 -0.472422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B53C001, 0x7B53C002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B53C001, 0x7B53C003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B53C001, 0x7B53C004, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7B53C001, 0x7B53C005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B53C001, 0x7B53C006, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7B53C001, 0x7B53C002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B53C001, 0x7B53C003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B53C001, 0x7B53C004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7B53C001, 0x7B53C005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B53C001, 0x7B53C006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B53C002,  1627, 0xB53C000B, 38.48787, 55.61133, 53.21942, 0.8813723, 0, 0, -0.4724223,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

@@ -9,9 +9,9 @@ VALUES (0x722DC001,  1154, 0x22DC0021, 115.8783, 23.61154, 8.039521, 0.9548984, 
 /* @teleloc 0x22DC0021 [115.878300 23.611540 8.039521] 0.954898 0.000000 0.000000 -0.296933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722DC001, 0x722DC002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x722DC001, 0x722DC003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x722DC001, 0x722DC004, '2019-02-10 00:00:00') /* Damaged Glacial Golem */;
+VALUES (0x722DC001, 0x722DC002, '2019-02-10 00:00:00') /* Banderling Rogue (1462) */
+     , (0x722DC001, 0x722DC003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x722DC001, 0x722DC004, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722DC002,  1462, 0x22DC0021, 115.8783, 23.61154, 8.039521, 0.9548984, 0, 0, -0.296933,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */

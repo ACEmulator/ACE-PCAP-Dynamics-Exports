@@ -5,19 +5,19 @@ VALUES (0x71838001,  1154, 0x18380033, 163.3831, 56.24546, 0.00999999, 0.9827359
 /* @teleloc 0x18380033 [163.383100 56.245460 0.010000] 0.982736 0.000000 0.000000 -0.185014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71838001, 0x71838002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71838001, 0x71838003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71838001, 0x71838004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71838001, 0x71838005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71838001, 0x71838006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71838001, 0x71838007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71838001, 0x71838008, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71838001, 0x71838009, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71838001, 0x7183800A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71838001, 0x7183800B, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71838001, 0x7183800C, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71838001, 0x7183800D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71838001, 0x7183800E, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x71838001, 0x71838002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71838001, 0x71838003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71838001, 0x71838004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71838001, 0x71838005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71838001, 0x71838006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71838001, 0x71838007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71838001, 0x71838008, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71838001, 0x71838009, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71838001, 0x7183800A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71838001, 0x7183800B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71838001, 0x7183800C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71838001, 0x7183800D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71838001, 0x7183800E, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71838002, 14520, 0x18380033, 163.3831, 56.24546, 0.00999999, 0.9827359, 0, 0, -0.1850139,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -76,8 +76,8 @@ VALUES (0x7183800F,  1542, 0x1838003F, 170.9545, 151.7578, -0.00999999, -0.94060
 /* @teleloc 0x1838003F [170.954500 151.757800 -0.010000] -0.940603 0.000000 0.000000 -0.339510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183800F, 0x71838010, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7183800F, 0x71838011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7183800F, 0x71838010, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7183800F, 0x71838011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71838010,  9288, 0x1838003F, 170.9545, 151.7578, -0.00999999, -0.9406025, 0, 0, -0.33951,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

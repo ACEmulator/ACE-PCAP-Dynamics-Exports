@@ -5,66 +5,66 @@ VALUES (0x7E54F001,  1154, 0xE54F002C, 138.1615, 77.3571, 0.6559554, -0.8846682,
 /* @teleloc 0xE54F002C [138.161500 77.357100 0.655955] -0.884668 0.000000 0.000000 -0.466221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E54F001, 0x7E54F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E54F001, 0x7E54F003, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7E54F001, 0x7E54F004, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E54F001, 0x7E54F005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E54F001, 0x7E54F006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E54F001, 0x7E54F007, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E54F001, 0x7E54F008, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E54F001, 0x7E54F009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E54F001, 0x7E54F00A, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E54F001, 0x7E54F00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E54F001, 0x7E54F00C, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E54F001, 0x7E54F00D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F00E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F00F, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F010, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7E54F001, 0x7E54F011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E54F001, 0x7E54F012, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F013, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F014, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F015, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F016, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F017, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F018, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F019, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F01A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E54F001, 0x7E54F01B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E54F001, 0x7E54F01C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E54F001, 0x7E54F01D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E54F001, 0x7E54F01E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E54F001, 0x7E54F01F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E54F001, 0x7E54F020, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E54F001, 0x7E54F021, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E54F001, 0x7E54F022, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F023, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F024, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E54F001, 0x7E54F025, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E54F001, 0x7E54F026, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E54F001, 0x7E54F027, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E54F001, 0x7E54F028, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E54F001, 0x7E54F029, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E54F001, 0x7E54F02A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F02B, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E54F001, 0x7E54F02C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E54F001, 0x7E54F02D, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7E54F001, 0x7E54F02E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E54F001, 0x7E54F02F, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7E54F001, 0x7E54F030, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E54F001, 0x7E54F031, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7E54F001, 0x7E54F032, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E54F001, 0x7E54F033, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E54F001, 0x7E54F034, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F035, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E54F001, 0x7E54F036, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E54F001, 0x7E54F037, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F038, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E54F001, 0x7E54F039, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E54F001, 0x7E54F03A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E54F001, 0x7E54F03B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E54F001, 0x7E54F03C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E54F001, 0x7E54F03D, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7E54F001, 0x7E54F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E54F001, 0x7E54F003, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7E54F001, 0x7E54F004, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E54F001, 0x7E54F005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E54F001, 0x7E54F006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E54F001, 0x7E54F007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E54F001, 0x7E54F008, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E54F001, 0x7E54F009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E54F001, 0x7E54F00A, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E54F001, 0x7E54F00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E54F001, 0x7E54F00C, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E54F001, 0x7E54F00D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E54F001, 0x7E54F00E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E54F001, 0x7E54F00F, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7E54F001, 0x7E54F010, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7E54F001, 0x7E54F011, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E54F001, 0x7E54F012, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F013, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F014, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F015, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F016, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F017, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F018, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F019, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F01A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E54F001, 0x7E54F01B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E54F001, 0x7E54F01C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E54F001, 0x7E54F01D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E54F001, 0x7E54F01E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E54F001, 0x7E54F01F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E54F001, 0x7E54F020, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E54F001, 0x7E54F021, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E54F001, 0x7E54F022, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F023, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E54F001, 0x7E54F024, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E54F001, 0x7E54F025, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E54F001, 0x7E54F026, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E54F001, 0x7E54F027, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E54F001, 0x7E54F028, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E54F001, 0x7E54F029, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E54F001, 0x7E54F02A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E54F001, 0x7E54F02B, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E54F001, 0x7E54F02C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E54F001, 0x7E54F02D, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7E54F001, 0x7E54F02E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E54F001, 0x7E54F02F, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7E54F001, 0x7E54F030, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E54F001, 0x7E54F031, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7E54F001, 0x7E54F032, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E54F001, 0x7E54F033, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E54F001, 0x7E54F034, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F035, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E54F001, 0x7E54F036, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E54F001, 0x7E54F037, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F038, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E54F001, 0x7E54F039, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E54F001, 0x7E54F03A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E54F001, 0x7E54F03B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E54F001, 0x7E54F03C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E54F001, 0x7E54F03D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E54F002,   211, 0xE54F002C, 138.1615, 77.3571, 0.6559554, -0.8846682, 0, 0, -0.4662211,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -311,9 +311,9 @@ VALUES (0x7E54F03E,  1542, 0xE54F0006, 1.23827, 138.592, 31.20186, 0.8870109, 0,
 /* @teleloc 0xE54F0006 [1.238270 138.592000 31.201860] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E54F03E, 0x7E54F03F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E54F03E, 0x7E54F040, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E54F03E, 0x7E54F041, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7E54F03E, 0x7E54F03F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7E54F03E, 0x7E54F040, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E54F03E, 0x7E54F041, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E54F03F,  4180, 0xE54F0006, 1.23827, 138.592, 31.20186, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Corpse */

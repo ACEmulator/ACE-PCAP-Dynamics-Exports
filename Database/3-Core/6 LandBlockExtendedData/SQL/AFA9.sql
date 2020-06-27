@@ -5,10 +5,10 @@ VALUES (0x7AFA9001,  1154, 0xAFA90032, 155.6932, 26.05813, 100.3867, -0.5431679,
 /* @teleloc 0xAFA90032 [155.693200 26.058130 100.386700] -0.543168 0.000000 0.000000 -0.839624 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA9001, 0x7AFA9002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFA9001, 0x7AFA9003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AFA9001, 0x7AFA9004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AFA9001, 0x7AFA9005, '2019-02-10 00:00:00') /* Female Tusker */;
+VALUES (0x7AFA9001, 0x7AFA9002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFA9001, 0x7AFA9003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AFA9001, 0x7AFA9004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AFA9001, 0x7AFA9005, '2019-02-10 00:00:00') /* Female Tusker (236) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA9002,  2612, 0xAFA90032, 155.6932, 26.05813, 100.3867, -0.5431679, 0, 0, -0.8396241,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -31,11 +31,11 @@ VALUES (0x7AFA9006,  1542, 0xAFA9003F, 173.4174, 147.6755, 107.1322, 0.0466763, 
 /* @teleloc 0xAFA9003F [173.417400 147.675500 107.132200] 0.046676 0.000000 0.000000 0.998910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFA9006, 0x7AFA9007, '2019-02-10 00:00:00') /* Heart of Innocence */
-     , (0x7AFA9006, 0x7AFA9008, '2019-02-10 00:00:00') /* Heart of Innocence */
-     , (0x7AFA9006, 0x7AFA9009, '2019-02-10 00:00:00') /* Heart of Innocence */
-     , (0x7AFA9006, 0x7AFA900A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AFA9006, 0x7AFA900B, '2019-02-10 00:00:00') /* Heart of Innocence */;
+VALUES (0x7AFA9006, 0x7AFA9007, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7AFA9006, 0x7AFA9008, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7AFA9006, 0x7AFA9009, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7AFA9006, 0x7AFA900A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AFA9006, 0x7AFA900B, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA9007, 24185, 0xAFA9003F, 173.4174, 147.6755, 107.1322, 0.0466763, 0, 0, 0.99891,  True, '2019-02-10 00:00:00'); /* Heart of Innocence */

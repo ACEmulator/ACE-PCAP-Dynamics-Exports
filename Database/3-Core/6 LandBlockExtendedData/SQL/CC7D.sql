@@ -5,10 +5,10 @@ VALUES (0x7CC7D001,  1154, 0xCC7D0008, 0.4546309, 186.874, 39.9035, -0.9658191, 
 /* @teleloc 0xCC7D0008 [0.454631 186.874000 39.903500] -0.965819 0.000000 0.000000 -0.259217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC7D001, 0x7CC7D002, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7CC7D001, 0x7CC7D003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7CC7D001, 0x7CC7D004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CC7D001, 0x7CC7D005, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7CC7D001, 0x7CC7D002, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7CC7D001, 0x7CC7D003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7CC7D001, 0x7CC7D004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CC7D001, 0x7CC7D005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC7D002,   180, 0xCC7D0008, 0.4546309, 186.874, 39.9035, -0.9658191, 0, 0, -0.2592171,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */

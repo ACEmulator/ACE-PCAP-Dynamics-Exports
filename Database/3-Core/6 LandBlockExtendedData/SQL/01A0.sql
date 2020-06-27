@@ -373,73 +373,73 @@ VALUES (0x701A00DF,  1154, 0x01A00187, 80, -90, 0.006500006, -0.707107, 0, 0, -0
 /* @teleloc 0x01A00187 [80.000000 -90.000000 0.006500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701A00DF, 0x701A00E0, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00E1, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A00E2, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A00E3, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A00E4, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x701A00DF, 0x701A00E5, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00E6, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00E7, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00E8, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00E9, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00EA, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00EB, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00EC, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00ED, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x701A00DF, 0x701A00EE, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00EF, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00F0, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A00F1, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x701A00DF, 0x701A00F2, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00F3, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701A00DF, 0x701A00F4, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x701A00DF, 0x701A00F5, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00F6, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00F7, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00F8, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00F9, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A00FA, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A00FB, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x701A00DF, 0x701A00FC, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x701A00DF, 0x701A00FD, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701A00DF, 0x701A00FE, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701A00DF, 0x701A00FF, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A0100, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0101, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x701A00DF, 0x701A0102, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x701A00DF, 0x701A0103, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A0104, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A0105, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0106, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0107, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0108, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A0109, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A010A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A010B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A010C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A010D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x701A00DF, 0x701A010E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x701A00DF, 0x701A010F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0110, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0111, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A0112, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A0113, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A0114, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701A00DF, 0x701A0115, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701A00DF, 0x701A0116, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x701A00DF, 0x701A0117, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x701A00DF, 0x701A0118, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0119, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A011A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A011B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A011C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x701A00DF, 0x701A011D, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x701A00DF, 0x701A011E, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x701A00DF, 0x701A011F, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x701A00DF, 0x701A0120, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x701A00DF, 0x701A0121, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x701A00DF, 0x701A0122, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x701A00DF, 0x701A00E0, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00E1, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A00E2, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A00E3, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A00E4, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x701A00DF, 0x701A00E5, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00E6, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00E7, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00E8, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00E9, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00EA, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00EB, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00EC, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00ED, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00DF, 0x701A00EE, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00EF, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00F0, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A00F1, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x701A00DF, 0x701A00F2, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00F3, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00DF, 0x701A00F4, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x701A00DF, 0x701A00F5, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00F6, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00F7, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00F8, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00F9, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A00FA, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A00FB, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00DF, 0x701A00FC, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00DF, 0x701A00FD, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00DF, 0x701A00FE, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00DF, 0x701A00FF, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A0100, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0101, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00DF, 0x701A0102, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x701A00DF, 0x701A0103, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A0104, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A0105, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0106, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0107, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0108, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A0109, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A010A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A010B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A010C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A010D, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x701A00DF, 0x701A010E, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x701A00DF, 0x701A010F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0110, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0111, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A0112, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A0113, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A0114, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00DF, 0x701A0115, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701A00DF, 0x701A0116, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x701A00DF, 0x701A0117, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x701A00DF, 0x701A0118, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0119, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A011A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A011B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A011C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x701A00DF, 0x701A011D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x701A00DF, 0x701A011E, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x701A00DF, 0x701A011F, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x701A00DF, 0x701A0120, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x701A00DF, 0x701A0121, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x701A00DF, 0x701A0122, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A00E0, 10806, 0x01A00187, 80, -90, 0.006500006, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

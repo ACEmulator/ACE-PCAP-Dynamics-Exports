@@ -5,15 +5,15 @@ VALUES (0x7CDBD001,  1154, 0xCDBD003F, 176.0892, 156.2847, 26.95867, -0.8659952,
 /* @teleloc 0xCDBD003F [176.089200 156.284700 26.958670] -0.865995 0.000000 0.000000 -0.500052 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDBD001, 0x7CDBD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDBD001, 0x7CDBD003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDBD001, 0x7CDBD004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDBD001, 0x7CDBD005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDBD001, 0x7CDBD006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CDBD001, 0x7CDBD007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDBD001, 0x7CDBD008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CDBD001, 0x7CDBD009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDBD001, 0x7CDBD00A, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CDBD001, 0x7CDBD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDBD001, 0x7CDBD003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDBD001, 0x7CDBD004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDBD001, 0x7CDBD005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDBD001, 0x7CDBD006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CDBD001, 0x7CDBD007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDBD001, 0x7CDBD008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CDBD001, 0x7CDBD009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDBD001, 0x7CDBD00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDBD002, 11478, 0xCDBD003F, 176.0892, 156.2847, 26.95867, -0.8659952, 0, 0, -0.5000523,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

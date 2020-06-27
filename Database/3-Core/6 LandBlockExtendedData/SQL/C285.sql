@@ -5,16 +5,16 @@ VALUES (0x7C285001,  1154, 0xC2850029, 126.6549, 16.43294, 37.26035, 0.9880153, 
 /* @teleloc 0xC2850029 [126.654900 16.432940 37.260350] 0.988015 0.000000 0.000000 -0.154356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C285001, 0x7C285002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C285001, 0x7C285003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C285001, 0x7C285004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C285001, 0x7C285005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C285001, 0x7C285006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C285001, 0x7C285007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C285001, 0x7C285008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C285001, 0x7C285009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C285001, 0x7C28500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C285001, 0x7C28500B, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7C285001, 0x7C285002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C285001, 0x7C285003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C285001, 0x7C285004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C285001, 0x7C285005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C285001, 0x7C285006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C285001, 0x7C285007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C285001, 0x7C285008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C285001, 0x7C285009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C285001, 0x7C28500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C285001, 0x7C28500B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C285002,   223, 0xC2850029, 126.6549, 16.43294, 37.26035, 0.9880153, 0, 0, -0.154356,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -61,8 +61,8 @@ VALUES (0x7C28500C,  1542, 0xC2850030, 135.5558, 189.4655, 39.9845, -0.08205481,
 /* @teleloc 0xC2850030 [135.555800 189.465500 39.984500] -0.082055 0.000000 0.000000 -0.996628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C28500C, 0x7C28500D, '2019-02-10 00:00:00') /* Arbalest */
-     , (0x7C28500C, 0x7C28500E, '2019-02-10 00:00:00') /* Adept Healing Kit */;
+VALUES (0x7C28500C, 0x7C28500D, '2019-02-10 00:00:00') /* Arbalest (30616) */
+     , (0x7C28500C, 0x7C28500E, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C28500D, 30616, 0xC2850030, 135.5558, 189.4655, 39.9845, -0.08205481, 0, 0, -0.9966278,  True, '2019-02-10 00:00:00'); /* Arbalest */

@@ -5,14 +5,14 @@ VALUES (0x71071001,  1154, 0x1071001D, 73.26292, 119.0468, 60.10524, 0.2856826, 
 /* @teleloc 0x1071001D [73.262920 119.046800 60.105240] 0.285683 0.000000 0.000000 -0.958324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71071001, 0x71071002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71071001, 0x71071003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71071001, 0x71071004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71071001, 0x71071005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71071001, 0x71071006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71071001, 0x71071007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71071001, 0x71071008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71071001, 0x71071009, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x71071001, 0x71071002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71071001, 0x71071003, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x71071001, 0x71071004, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x71071001, 0x71071005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71071001, 0x71071006, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x71071001, 0x71071007, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x71071001, 0x71071008, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x71071001, 0x71071009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71071002,  7125, 0x1071001D, 73.26292, 119.0468, 60.10524, 0.2856826, 0, 0, -0.9583243,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -51,7 +51,7 @@ VALUES (0x7107100A,  1542, 0x1071001A, 73.88837, 39.97198, 64.007, 1, 0, 0, 0, F
 /* @teleloc 0x1071001A [73.888370 39.971980 64.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7107100A, 0x7107100B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7107100A, 0x7107100B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7107100B, 22566, 0x1071001A, 73.88837, 39.97198, 64.007, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,8 +5,8 @@ VALUES (0x7CA97001,  1154, 0xCA970016, 71.05136, 143.2044, 41.68154, -0.4805491,
 /* @teleloc 0xCA970016 [71.051360 143.204400 41.681540] -0.480549 0.000000 0.000000 -0.876968 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA97001, 0x7CA97002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CA97001, 0x7CA97003, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7CA97001, 0x7CA97002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CA97001, 0x7CA97003, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA97002, 28552, 0xCA970016, 71.05136, 143.2044, 41.68154, -0.4805491, 0, 0, -0.8769678,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

@@ -13,199 +13,199 @@ VALUES (0x7576505B,  1154, 0x5765031B, 20, 0, -6, 1, 0, 0, 0, False, '2019-02-10
 /* @teleloc 0x5765031B [20.000000 0.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576505B, 0x7576505C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576505D, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576505E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576505F, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765060, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765061, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x75765062, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765063, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x75765064, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765065, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x75765066, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765067, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765068, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765069, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576506A, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576506B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576506C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576506D, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x7576506E, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x7576506F, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7576505B, 0x75765070, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765071, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765072, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x75765073, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765074, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765075, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x75765076, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765077, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765078, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765079, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576507A, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x7576507B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576507C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576507D, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x7576507E, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x7576507F, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765080, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765081, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x75765082, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765083, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765084, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765085, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765086, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765087, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765088, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x75765089, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576508A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576508B, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x7576508C, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x7576508D, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x7576505B, 0x7576508E, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x7576508F, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765090, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765091, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765092, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765093, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x75765094, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765095, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765096, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765097, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765098, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765099, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x7576509A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576509B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x7576509C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576509D, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576509E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576509F, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650A0, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650A1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650A2, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x757650A3, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650A4, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650A5, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650A6, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650A7, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650A8, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650A9, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650AA, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650AB, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650AC, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650AD, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650AE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650AF, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650B0, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650B1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650B2, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650B3, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650B4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650B5, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650B6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650B7, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x757650B8, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650B9, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650BA, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650BB, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650BC, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650BD, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650BE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650BF, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C0, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650C1, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C2, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C3, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C5, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650C6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C7, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650C8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650C9, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x757650CA, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650CB, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650CC, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650CD, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650CE, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650CF, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650D0, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650D1, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650D2, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650D3, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650D4, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650D5, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650D6, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650D7, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650D8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650D9, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7576505B, 0x757650DA, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x757650DB, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650DC, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650DD, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650DE, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650DF, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E0, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650E1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E2, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650E3, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650E4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E5, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650E6, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E7, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650E9, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650EA, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x757650EB, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650EC, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650ED, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650EE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650EF, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F0, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650F1, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F2, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x757650F3, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7576505B, 0x757650F4, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F5, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F7, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x7576505B, 0x757650F8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650F9, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650FA, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650FB, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x757650FC, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650FD, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x757650FE, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x757650FF, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765100, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765101, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765102, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765103, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7576505B, 0x75765104, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x75765105, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765106, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x75765107, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765108, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x75765109, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x7576510A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576510B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran */
-     , (0x7576505B, 0x7576510C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576510D, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576510E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576510F, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess */
-     , (0x7576505B, 0x75765110, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765111, '2019-02-10 00:00:00') /* Falatacot Blood Elder */
-     , (0x7576505B, 0x75765112, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7576505B, 0x75765113, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765114, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765115, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765116, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765117, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x75765118, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7576505B, 0x75765119, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576511A, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7576505B, 0x7576511B, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */
-     , (0x7576505B, 0x7576511C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran */;
+VALUES (0x7576505B, 0x7576505C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576505D, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576505E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576505F, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765060, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765061, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x75765062, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765063, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x75765064, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765065, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x75765066, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765067, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765068, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765069, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x7576506A, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576506B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576506C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x7576506D, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x7576506E, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x7576506F, '2019-02-10 00:00:00') /* Mogshuth Moarsman (38287) */
+     , (0x7576505B, 0x75765070, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765071, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765072, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x75765073, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765074, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765075, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x75765076, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765077, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765078, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765079, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576507A, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x7576507B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576507C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576507D, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x7576507E, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x7576507F, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765080, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765081, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x75765082, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765083, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765084, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765085, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765086, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765087, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765088, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x75765089, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576508A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576508B, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x7576508C, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x7576508D, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x7576505B, 0x7576508E, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x7576508F, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765090, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765091, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765092, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765093, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x75765094, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765095, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765096, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765097, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765098, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765099, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x7576509A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576509B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x7576509C, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576509D, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576509E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576509F, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650A0, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650A1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650A2, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x757650A3, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650A4, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650A5, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650A6, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650A7, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650A8, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650A9, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (46354) */
+     , (0x7576505B, 0x757650AA, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650AB, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650AC, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650AD, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650AE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650AF, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650B0, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650B1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650B2, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650B3, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650B4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650B5, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650B6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650B7, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x757650B8, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650B9, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650BA, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650BB, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650BC, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650BD, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650BE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650BF, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650C0, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650C1, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650C2, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650C3, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650C4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650C5, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650C6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650C7, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650C8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650C9, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x757650CA, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650CB, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650CC, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650CD, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650CE, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650CF, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650D0, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650D1, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650D2, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650D3, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650D4, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650D5, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650D6, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650D7, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650D8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650D9, '2019-02-10 00:00:00') /* Maguth Moarsman (38286) */
+     , (0x7576505B, 0x757650DA, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x757650DB, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650DC, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650DD, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650DE, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650DF, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650E0, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650E1, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650E2, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650E3, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650E4, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650E5, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650E6, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650E7, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650E8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650E9, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650EA, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x757650EB, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650EC, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650ED, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650EE, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650EF, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650F0, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650F1, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650F2, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x757650F3, '2019-02-10 00:00:00') /* Shoguth Moarsman (38291) */
+     , (0x7576505B, 0x757650F4, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650F5, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650F6, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650F7, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x7576505B, 0x757650F8, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650F9, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x757650FA, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650FB, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x757650FC, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650FD, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x757650FE, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x757650FF, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765100, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765101, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765102, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765103, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7576505B, 0x75765104, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x75765105, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765106, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x75765107, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765108, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x75765109, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x7576510A, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576510B, '2019-02-10 00:00:00') /* Armored Siessa Sclavus Veteran (46351) */
+     , (0x7576505B, 0x7576510C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x7576510D, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576510E, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x7576510F, '2019-02-10 00:00:00') /* Falatacot Blood Prophetess (34971) */
+     , (0x7576505B, 0x75765110, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765111, '2019-02-10 00:00:00') /* Falatacot Blood Elder (34972) */
+     , (0x7576505B, 0x75765112, '2019-02-10 00:00:00') /* Mogshuth Moarsman (38287) */
+     , (0x7576505B, 0x75765113, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765114, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x75765115, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765116, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765117, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */
+     , (0x7576505B, 0x75765118, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7576505B, 0x75765119, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576511A, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7576505B, 0x7576511B, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46352) */
+     , (0x7576505B, 0x7576511C, '2019-02-10 00:00:00') /* Armored Afessa Sclavus Veteran (46353) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576505C, 46351, 0x5765031B, 20, 0, -6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Armored Siessa Sclavus Veteran */
@@ -984,10 +984,10 @@ VALUES (0x7576511D,  1542, 0x57650357, 44.5009, -112.468, -5.921, 0.9998697, 0, 
 /* @teleloc 0x57650357 [44.500900 -112.468000 -5.921000] 0.999870 0.000000 0.000000 0.016143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576511D, 0x7576511E, '2019-02-10 00:00:00') /* Torn Strip of Parchment */
-     , (0x7576511D, 0x7576511F, '2019-02-10 00:00:00') /* Torn Strip of Parchment */
-     , (0x7576511D, 0x75765120, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7576511D, 0x75765121, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7576511D, 0x7576511E, '2019-02-10 00:00:00') /* Torn Strip of Parchment (46348) */
+     , (0x7576511D, 0x7576511F, '2019-02-10 00:00:00') /* Torn Strip of Parchment (46349) */
+     , (0x7576511D, 0x75765120, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7576511D, 0x75765121, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576511E, 46348, 0x57650357, 44.5009, -112.468, -5.921, 0.9998697, 0, 0, 0.01614299,  True, '2019-02-10 00:00:00'); /* Torn Strip of Parchment */

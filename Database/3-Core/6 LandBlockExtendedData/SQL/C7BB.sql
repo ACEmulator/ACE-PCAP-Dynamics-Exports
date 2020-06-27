@@ -9,23 +9,23 @@ VALUES (0x7C7BB001,  1154, 0xC7BB002E, 132.9509, 137.2129, 99.90061, -0.5844187,
 /* @teleloc 0xC7BB002E [132.950900 137.212900 99.900610] -0.584419 0.000000 0.000000 -0.811452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7BB001, 0x7C7BB002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C7BB001, 0x7C7BB003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C7BB001, 0x7C7BB004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7C7BB001, 0x7C7BB005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C7BB001, 0x7C7BB006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C7BB001, 0x7C7BB007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C7BB001, 0x7C7BB008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C7BB001, 0x7C7BB009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C7BB001, 0x7C7BB00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C7BB001, 0x7C7BB00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C7BB001, 0x7C7BB00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C7BB001, 0x7C7BB00D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C7BB001, 0x7C7BB00E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C7BB001, 0x7C7BB00F, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C7BB001, 0x7C7BB010, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C7BB001, 0x7C7BB011, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7C7BB001, 0x7C7BB012, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x7C7BB001, 0x7C7BB002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C7BB001, 0x7C7BB003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C7BB001, 0x7C7BB004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7C7BB001, 0x7C7BB005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C7BB001, 0x7C7BB006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C7BB001, 0x7C7BB007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C7BB001, 0x7C7BB008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7BB001, 0x7C7BB009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C7BB001, 0x7C7BB00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C7BB001, 0x7C7BB00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C7BB001, 0x7C7BB00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C7BB001, 0x7C7BB00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7BB001, 0x7C7BB00E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7BB001, 0x7C7BB00F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7BB001, 0x7C7BB010, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C7BB001, 0x7C7BB011, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7C7BB001, 0x7C7BB012, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7BB002, 24275, 0xC7BB002E, 132.9509, 137.2129, 99.90061, -0.5844187, 0, 0, -0.8114523,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -100,9 +100,9 @@ VALUES (0x7C7BB013,  1542, 0xC7BB0022, 99.13516, 39.90948, 116.9549, 1, 0, 0, 0,
 /* @teleloc 0xC7BB0022 [99.135160 39.909480 116.954900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7BB013, 0x7C7BB014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C7BB013, 0x7C7BB015, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C7BB013, 0x7C7BB016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C7BB013, 0x7C7BB014, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7C7BB013, 0x7C7BB015, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C7BB013, 0x7C7BB016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7BB014, 22571, 0xC7BB0022, 99.13516, 39.90948, 116.9549, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

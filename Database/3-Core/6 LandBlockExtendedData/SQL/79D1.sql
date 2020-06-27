@@ -5,16 +5,16 @@ VALUES (0x779D1001,  1154, 0x79D1003B, 170.0237, 66.39, 162.0496, 0.9238795, 0, 
 /* @teleloc 0x79D1003B [170.023700 66.390000 162.049600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779D1001, 0x779D1002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x779D1001, 0x779D1003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x779D1001, 0x779D1004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x779D1001, 0x779D1005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x779D1001, 0x779D1006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x779D1001, 0x779D1007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x779D1001, 0x779D1008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D1001, 0x779D1009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D1001, 0x779D100A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D1001, 0x779D100B, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x779D1001, 0x779D1002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x779D1001, 0x779D1003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x779D1001, 0x779D1004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x779D1001, 0x779D1005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x779D1001, 0x779D1006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x779D1001, 0x779D1007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x779D1001, 0x779D1008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D1001, 0x779D1009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D1001, 0x779D100A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D1001, 0x779D100B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779D1002,  4254, 0x79D1003B, 170.0237, 66.39, 162.0496, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -61,8 +61,8 @@ VALUES (0x779D100C,  1542, 0x79D1003B, 169.3465, 63.66674, 160.47, 1, 0, 0, 0, F
 /* @teleloc 0x79D1003B [169.346500 63.666740 160.470000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779D100C, 0x779D100D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x779D100C, 0x779D100E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x779D100C, 0x779D100D, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x779D100C, 0x779D100E, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779D100D, 22566, 0x79D1003B, 169.3465, 63.66674, 160.47, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

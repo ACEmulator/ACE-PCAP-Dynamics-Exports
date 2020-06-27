@@ -5,18 +5,18 @@ VALUES (0x72CC3001,  1154, 0x2CC30033, 165.6098, 62.73594, 2, 0.1991303, 0, 0, -
 /* @teleloc 0x2CC30033 [165.609800 62.735940 2.000000] 0.199130 0.000000 0.000000 -0.979973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CC3001, 0x72CC3002, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72CC3001, 0x72CC3003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CC3001, 0x72CC3004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72CC3001, 0x72CC3005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72CC3001, 0x72CC3006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CC3001, 0x72CC3007, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x72CC3001, 0x72CC3008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72CC3001, 0x72CC3009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72CC3001, 0x72CC300A, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72CC3001, 0x72CC300B, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x72CC3001, 0x72CC300C, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x72CC3001, 0x72CC300D, '2019-02-10 00:00:00') /* Ferocious Ursuin */;
+VALUES (0x72CC3001, 0x72CC3002, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72CC3001, 0x72CC3003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CC3001, 0x72CC3004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72CC3001, 0x72CC3005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72CC3001, 0x72CC3006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CC3001, 0x72CC3007, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x72CC3001, 0x72CC3008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72CC3001, 0x72CC3009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72CC3001, 0x72CC300A, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72CC3001, 0x72CC300B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x72CC3001, 0x72CC300C, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x72CC3001, 0x72CC300D, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CC3002, 28642, 0x2CC30033, 165.6098, 62.73594, 2, 0.1991303, 0, 0, -0.979973,  True, '2019-02-10 00:00:00'); /* Engorged Eater */

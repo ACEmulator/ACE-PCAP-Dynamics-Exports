@@ -5,11 +5,11 @@ VALUES (0x78F62001,  1154, 0x8F62001A, 73.80873, 44.73872, 18.25207, 0.9238795, 
 /* @teleloc 0x8F62001A [73.808730 44.738720 18.252070] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F62001, 0x78F62002, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78F62001, 0x78F62003, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78F62001, 0x78F62004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78F62001, 0x78F62005, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78F62001, 0x78F62006, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x78F62001, 0x78F62002, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78F62001, 0x78F62003, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78F62001, 0x78F62004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78F62001, 0x78F62005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78F62001, 0x78F62006, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F62002,   178, 0x8F62001A, 73.80873, 44.73872, 18.25207, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Brown Armoredillo */

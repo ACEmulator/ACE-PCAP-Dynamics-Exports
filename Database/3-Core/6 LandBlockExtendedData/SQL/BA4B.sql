@@ -5,16 +5,16 @@ VALUES (0x7BA4B001,  1154, 0xBA4B0036, 148.8552, 140.1377, 30.75546, 0.7873571, 
 /* @teleloc 0xBA4B0036 [148.855200 140.137700 30.755460] 0.787357 0.000000 0.000000 -0.616497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA4B001, 0x7BA4B002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7BA4B001, 0x7BA4B003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BA4B001, 0x7BA4B004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BA4B001, 0x7BA4B005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7BA4B001, 0x7BA4B006, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7BA4B001, 0x7BA4B007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7BA4B001, 0x7BA4B008, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7BA4B001, 0x7BA4B009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BA4B001, 0x7BA4B00A, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BA4B001, 0x7BA4B00B, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7BA4B001, 0x7BA4B002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7BA4B001, 0x7BA4B003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BA4B001, 0x7BA4B004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BA4B001, 0x7BA4B005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7BA4B001, 0x7BA4B006, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7BA4B001, 0x7BA4B007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7BA4B001, 0x7BA4B008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7BA4B001, 0x7BA4B009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BA4B001, 0x7BA4B00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BA4B001, 0x7BA4B00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA4B002,    23, 0xBA4B0036, 148.8552, 140.1377, 30.75546, 0.7873571, 0, 0, -0.6164972,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -61,7 +61,7 @@ VALUES (0x7BA4B00C,  1542, 0xBA4B0015, 57.3029, 116.4902, 28.71224, 0.8433914, 0
 /* @teleloc 0xBA4B0015 [57.302900 116.490200 28.712240] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA4B00C, 0x7BA4B00D, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7BA4B00C, 0x7BA4B00D, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA4B00D,  8190, 0xBA4B0015, 57.3029, 116.4902, 28.71224, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

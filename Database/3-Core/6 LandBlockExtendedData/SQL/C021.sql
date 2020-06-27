@@ -5,13 +5,13 @@ VALUES (0x7C021001,  1154, 0xC021002D, 121.4543, 112.2289, 163.4613, 0.1570973, 
 /* @teleloc 0xC021002D [121.454300 112.228900 163.461300] 0.157097 0.000000 0.000000 -0.987583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C021001, 0x7C021002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C021001, 0x7C021003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C021001, 0x7C021004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C021001, 0x7C021005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C021001, 0x7C021006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C021001, 0x7C021007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7C021001, 0x7C021008, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7C021001, 0x7C021002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C021001, 0x7C021003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C021001, 0x7C021004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C021001, 0x7C021005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C021001, 0x7C021006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C021001, 0x7C021007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7C021001, 0x7C021008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C021002, 14559, 0xC021002D, 121.4543, 112.2289, 163.4613, 0.1570973, 0, 0, -0.9875831,  True, '2019-02-10 00:00:00'); /* Oak Golem */

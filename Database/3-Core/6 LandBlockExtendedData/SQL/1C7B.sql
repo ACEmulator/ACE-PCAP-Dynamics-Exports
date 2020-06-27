@@ -5,18 +5,18 @@ VALUES (0x71C7B001,  1154, 0x1C7B0021, 105.8563, 19.93306, 234.1168, 0.3145264, 
 /* @teleloc 0x1C7B0021 [105.856300 19.933060 234.116800] 0.314526 0.000000 0.000000 -0.949249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7B001, 0x71C7B002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7B001, 0x71C7B003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71C7B001, 0x71C7B007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7B001, 0x71C7B009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7B001, 0x71C7B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C7B001, 0x71C7B00D, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71C7B001, 0x71C7B002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7B001, 0x71C7B003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71C7B001, 0x71C7B007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7B001, 0x71C7B009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B00A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7B001, 0x71C7B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C7B001, 0x71C7B00D, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7B002, 36830, 0x1C7B0021, 105.8563, 19.93306, 234.1168, 0.3145264, 0, 0, -0.9492487,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -71,7 +71,7 @@ VALUES (0x71C7B00E,  1542, 0x1C7B0016, 60.15154, 142.1439, 225.0631, 0.9394219, 
 /* @teleloc 0x1C7B0016 [60.151540 142.143900 225.063100] 0.939422 0.000000 0.000000 -0.342763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7B00E, 0x71C7B00F, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x71C7B00E, 0x71C7B00F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7B00F,  8644, 0x1C7B0016, 60.15154, 142.1439, 225.0631, 0.9394219, 0, 0, -0.3427631,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

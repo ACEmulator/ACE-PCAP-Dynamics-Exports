@@ -5,8 +5,8 @@ VALUES (0x78EB3001,  1154, 0x8EB3000F, 27.53935, 150.5159, 40.00715, 0.7071068, 
 /* @teleloc 0x8EB3000F [27.539350 150.515900 40.007150] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EB3001, 0x78EB3002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EB3001, 0x78EB3003, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78EB3001, 0x78EB3002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EB3001, 0x78EB3003, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EB3002,  7333, 0x8EB3000F, 27.53935, 150.5159, 40.00715, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -21,7 +21,7 @@ VALUES (0x78EB3004,  1542, 0x8EB3000F, 26.40153, 154.4901, 40, 0.9990482, 0, 0, 
 /* @teleloc 0x8EB3000F [26.401530 154.490100 40.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EB3004, 0x78EB3005, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78EB3004, 0x78EB3005, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EB3005,  4179, 0x8EB3000F, 26.40153, 154.4901, 40, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

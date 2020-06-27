@@ -5,30 +5,30 @@ VALUES (0x73FC3001,  1154, 0x3FC30008, 6.486694, 183.2644, 1.820843, 0.549659, 0
 /* @teleloc 0x3FC30008 [6.486694 183.264400 1.820843] 0.549659 0.000000 0.000000 -0.835389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FC3001, 0x73FC3002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73FC3001, 0x73FC3003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73FC3001, 0x73FC3004, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73FC3001, 0x73FC3005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73FC3001, 0x73FC3006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73FC3001, 0x73FC3007, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x73FC3001, 0x73FC3008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73FC3001, 0x73FC3009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x73FC3001, 0x73FC300A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73FC3001, 0x73FC300B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73FC3001, 0x73FC300C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73FC3001, 0x73FC300D, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73FC3001, 0x73FC300E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73FC3001, 0x73FC300F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73FC3001, 0x73FC3010, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73FC3001, 0x73FC3011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73FC3001, 0x73FC3012, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73FC3001, 0x73FC3013, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73FC3001, 0x73FC3014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73FC3001, 0x73FC3015, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73FC3001, 0x73FC3016, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73FC3001, 0x73FC3017, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73FC3001, 0x73FC3018, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73FC3001, 0x73FC3019, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x73FC3001, 0x73FC3002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73FC3001, 0x73FC3003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73FC3001, 0x73FC3004, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73FC3001, 0x73FC3005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73FC3001, 0x73FC3006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73FC3001, 0x73FC3007, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x73FC3001, 0x73FC3008, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x73FC3001, 0x73FC3009, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x73FC3001, 0x73FC300A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73FC3001, 0x73FC300B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73FC3001, 0x73FC300C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73FC3001, 0x73FC300D, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x73FC3001, 0x73FC300E, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73FC3001, 0x73FC300F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73FC3001, 0x73FC3010, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73FC3001, 0x73FC3011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73FC3001, 0x73FC3012, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73FC3001, 0x73FC3013, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73FC3001, 0x73FC3014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73FC3001, 0x73FC3015, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73FC3001, 0x73FC3016, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73FC3001, 0x73FC3017, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73FC3001, 0x73FC3018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73FC3001, 0x73FC3019, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FC3002, 24320, 0x3FC30008, 6.486694, 183.2644, 1.820843, 0.549659, 0, 0, -0.8353891,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -131,8 +131,8 @@ VALUES (0x73FC301A,  1542, 0x3FC3002E, 137.3233, 133.1617, 11.94965, 0.9990482, 
 /* @teleloc 0x3FC3002E [137.323300 133.161700 11.949650] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FC301A, 0x73FC301B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73FC301A, 0x73FC301C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73FC301A, 0x73FC301B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73FC301A, 0x73FC301C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FC301B,  4179, 0x3FC3002E, 137.3233, 133.1617, 11.94965, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

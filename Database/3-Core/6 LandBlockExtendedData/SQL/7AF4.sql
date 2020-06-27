@@ -5,13 +5,13 @@ VALUES (0x77AF4001,  1154, 0x7AF40020, 82.29207, 178.1148, 14.01477, 0.7071068, 
 /* @teleloc 0x7AF40020 [82.292070 178.114800 14.014770] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AF4001, 0x77AF4002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x77AF4001, 0x77AF4003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x77AF4001, 0x77AF4004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x77AF4001, 0x77AF4005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x77AF4001, 0x77AF4006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77AF4001, 0x77AF4007, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77AF4001, 0x77AF4008, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x77AF4001, 0x77AF4002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x77AF4001, 0x77AF4003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x77AF4001, 0x77AF4004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x77AF4001, 0x77AF4005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x77AF4001, 0x77AF4006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77AF4001, 0x77AF4007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77AF4001, 0x77AF4008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF4002,  7112, 0x7AF40020, 82.29207, 178.1148, 14.01477, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

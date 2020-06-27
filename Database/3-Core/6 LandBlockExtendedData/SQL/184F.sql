@@ -5,13 +5,13 @@ VALUES (0x7184F001,  1154, 0x184F0009, 25.85703, 6.081197, 15.35465, 0.7372774, 
 /* @teleloc 0x184F0009 [25.857030 6.081197 15.354650] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7184F001, 0x7184F002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7184F001, 0x7184F003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7184F001, 0x7184F004, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7184F001, 0x7184F005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7184F001, 0x7184F006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7184F001, 0x7184F007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7184F001, 0x7184F008, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x7184F001, 0x7184F002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7184F001, 0x7184F003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7184F001, 0x7184F004, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7184F001, 0x7184F005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7184F001, 0x7184F006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7184F001, 0x7184F007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7184F001, 0x7184F008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7184F002, 36822, 0x184F0009, 25.85703, 6.081197, 15.35465, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -46,7 +46,7 @@ VALUES (0x7184F009,  1542, 0x184F0009, 28.20825, 5.557149, 15.47995, 1, 0, 0, 0,
 /* @teleloc 0x184F0009 [28.208250 5.557149 15.479950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7184F009, 0x7184F00A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7184F009, 0x7184F00A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7184F00A,  4179, 0x184F0009, 28.20825, 5.557149, 15.47995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

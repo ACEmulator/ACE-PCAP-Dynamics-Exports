@@ -5,14 +5,14 @@ VALUES (0x7CFCB001,  1154, 0xCFCB0018, 52.98872, 186.3981, 52, -0.3881049, 0, 0,
 /* @teleloc 0xCFCB0018 [52.988720 186.398100 52.000000] -0.388105 0.000000 0.000000 -0.921615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFCB001, 0x7CFCB002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCB001, 0x7CFCB003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCB001, 0x7CFCB004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCB001, 0x7CFCB005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCB001, 0x7CFCB006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7CFCB001, 0x7CFCB007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7CFCB001, 0x7CFCB008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CFCB001, 0x7CFCB009, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7CFCB001, 0x7CFCB002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCB001, 0x7CFCB003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCB001, 0x7CFCB004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCB001, 0x7CFCB005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCB001, 0x7CFCB006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7CFCB001, 0x7CFCB007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7CFCB001, 0x7CFCB008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CFCB001, 0x7CFCB009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFCB002, 35731, 0xCFCB0018, 52.98872, 186.3981, 52, -0.3881049, 0, 0, -0.9216152,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator Grub */

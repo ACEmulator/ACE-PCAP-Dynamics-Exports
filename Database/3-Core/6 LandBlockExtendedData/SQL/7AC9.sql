@@ -5,19 +5,19 @@ VALUES (0x77AC9001,  1154, 0x7AC9001E, 78.0455, 131.7333, 190.9379, 0.3315977, 0
 /* @teleloc 0x7AC9001E [78.045500 131.733300 190.937900] 0.331598 0.000000 0.000000 -0.943421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC9001, 0x77AC9002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AC9001, 0x77AC9003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x77AC9001, 0x77AC9004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AC9001, 0x77AC9005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AC9001, 0x77AC9006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77AC9001, 0x77AC9007, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x77AC9001, 0x77AC9008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77AC9001, 0x77AC9009, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x77AC9001, 0x77AC900A, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77AC9001, 0x77AC900B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77AC9001, 0x77AC900C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77AC9001, 0x77AC900D, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x77AC9001, 0x77AC900E, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x77AC9001, 0x77AC9002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77AC9001, 0x77AC9003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x77AC9001, 0x77AC9004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x77AC9001, 0x77AC9005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77AC9001, 0x77AC9006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77AC9001, 0x77AC9007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x77AC9001, 0x77AC9008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77AC9001, 0x77AC9009, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x77AC9001, 0x77AC900A, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77AC9001, 0x77AC900B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77AC9001, 0x77AC900C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77AC9001, 0x77AC900D, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x77AC9001, 0x77AC900E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC9002,  7089, 0x7AC9001E, 78.0455, 131.7333, 190.9379, 0.3315977, 0, 0, -0.9434209,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -76,7 +76,7 @@ VALUES (0x77AC900F,  1542, 0x7AC90015, 49.70422, 104.4133, 185.2824, -4.371139E-
 /* @teleloc 0x7AC90015 [49.704220 104.413300 185.282400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77AC900F, 0x77AC9010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77AC900F, 0x77AC9010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AC9010,  4380, 0x7AC90015, 49.70422, 104.4133, 185.2824, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

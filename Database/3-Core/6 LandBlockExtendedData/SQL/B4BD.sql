@@ -5,14 +5,14 @@ VALUES (0x7B4BD001,  1154, 0xB4BD001A, 79.0069, 45.90577, 182.7225, 0.9396926, 0
 /* @teleloc 0xB4BD001A [79.006900 45.905770 182.722500] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4BD001, 0x7B4BD002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4BD001, 0x7B4BD003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B4BD001, 0x7B4BD004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B4BD001, 0x7B4BD005, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7B4BD001, 0x7B4BD006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B4BD001, 0x7B4BD007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B4BD001, 0x7B4BD008, '2019-02-10 00:00:00') /* Northern Black Claw Raider */
-     , (0x7B4BD001, 0x7B4BD009, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7B4BD001, 0x7B4BD002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4BD001, 0x7B4BD003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B4BD001, 0x7B4BD004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B4BD001, 0x7B4BD005, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7B4BD001, 0x7B4BD006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B4BD001, 0x7B4BD007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B4BD001, 0x7B4BD008, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */
+     , (0x7B4BD001, 0x7B4BD009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4BD002,  1609, 0xB4BD001A, 79.0069, 45.90577, 182.7225, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

@@ -5,22 +5,22 @@ VALUES (0x73EEB001,  1154, 0x3EEB0001, 10.95623, 1.479798, 14.0066, -0.9117051, 
 /* @teleloc 0x3EEB0001 [10.956230 1.479798 14.006600] -0.911705 0.000000 0.000000 -0.410845 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEB001, 0x73EEB002, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73EEB001, 0x73EEB003, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73EEB001, 0x73EEB004, '2019-02-10 00:00:00') /* Fractured Glacial Golem */
-     , (0x73EEB001, 0x73EEB005, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x73EEB001, 0x73EEB006, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x73EEB001, 0x73EEB007, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EEB001, 0x73EEB008, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EEB001, 0x73EEB009, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73EEB001, 0x73EEB00A, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EEB001, 0x73EEB00B, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73EEB001, 0x73EEB00C, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x73EEB001, 0x73EEB00D, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x73EEB001, 0x73EEB00E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73EEB001, 0x73EEB00F, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73EEB001, 0x73EEB010, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EEB001, 0x73EEB011, '2019-02-10 00:00:00') /* Ruschk Kartak */;
+VALUES (0x73EEB001, 0x73EEB002, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73EEB001, 0x73EEB003, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73EEB001, 0x73EEB004, '2019-02-10 00:00:00') /* Fractured Glacial Golem (29357) */
+     , (0x73EEB001, 0x73EEB005, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x73EEB001, 0x73EEB006, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x73EEB001, 0x73EEB007, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EEB001, 0x73EEB008, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EEB001, 0x73EEB009, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73EEB001, 0x73EEB00A, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EEB001, 0x73EEB00B, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EEB001, 0x73EEB00C, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x73EEB001, 0x73EEB00D, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x73EEB001, 0x73EEB00E, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73EEB001, 0x73EEB00F, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EEB001, 0x73EEB010, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EEB001, 0x73EEB011, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEB002, 29342, 0x3EEB0001, 10.95623, 1.479798, 14.0066, -0.9117051, 0, 0, -0.4108453,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */
@@ -91,7 +91,7 @@ VALUES (0x73EEB012,  1542, 0x3EEB0102, 12.0599, 44.9172, 8.337, 1, 0, 0, 0, Fals
 /* @teleloc 0x3EEB0102 [12.059900 44.917200 8.337000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEB012, 0x73EEB013, '2019-02-10 00:00:00') /* Olthoi Tunnel */;
+VALUES (0x73EEB012, 0x73EEB013, '2019-02-10 00:00:00') /* Olthoi Tunnel (43565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEB013, 43565, 0x3EEB0102, 12.0599, 44.9172, 8.337, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

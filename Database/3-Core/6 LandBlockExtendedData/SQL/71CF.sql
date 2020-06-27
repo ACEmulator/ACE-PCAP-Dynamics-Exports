@@ -5,9 +5,9 @@ VALUES (0x771CF001,  1154, 0x71CF0003, 11.11649, 49.63881, 230.6578, 1, 0, 0, 0,
 /* @teleloc 0x71CF0003 [11.116490 49.638810 230.657800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771CF001, 0x771CF002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x771CF001, 0x771CF003, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x771CF001, 0x771CF004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x771CF001, 0x771CF002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x771CF001, 0x771CF003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x771CF001, 0x771CF004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771CF002, 24283, 0x71CF0003, 11.11649, 49.63881, 230.6578, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

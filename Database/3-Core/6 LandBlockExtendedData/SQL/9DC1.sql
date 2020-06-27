@@ -5,13 +5,13 @@ VALUES (0x79DC1001,  1154, 0x9DC10039, 189.9357, 10.43714, 37.32014, -0.9592015,
 /* @teleloc 0x9DC10039 [189.935700 10.437140 37.320140] -0.959202 0.000000 0.000000 -0.282724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DC1001, 0x79DC1002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DC1001, 0x79DC1003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DC1001, 0x79DC1004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DC1001, 0x79DC1005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x79DC1001, 0x79DC1006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x79DC1001, 0x79DC1007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x79DC1001, 0x79DC1008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x79DC1001, 0x79DC1002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DC1001, 0x79DC1003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DC1001, 0x79DC1004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DC1001, 0x79DC1005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x79DC1001, 0x79DC1006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x79DC1001, 0x79DC1007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x79DC1001, 0x79DC1008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DC1002,   217, 0x9DC10039, 189.9357, 10.43714, 37.32014, -0.9592015, 0, 0, -0.2827235,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

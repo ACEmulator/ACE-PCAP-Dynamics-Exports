@@ -5,18 +5,18 @@ VALUES (0x75F14001,  1154, 0x5F140020, 85.71798, 172.4479, 69.7365, 0.7771459, 0
 /* @teleloc 0x5F140020 [85.717980 172.447900 69.736500] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75F14001, 0x75F14002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75F14001, 0x75F14003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75F14001, 0x75F14004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75F14001, 0x75F14005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75F14001, 0x75F14006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x75F14001, 0x75F14007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75F14001, 0x75F14008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75F14001, 0x75F14009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75F14001, 0x75F1400A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75F14001, 0x75F1400B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75F14001, 0x75F1400C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75F14001, 0x75F1400D, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x75F14001, 0x75F14002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75F14001, 0x75F14003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75F14001, 0x75F14004, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75F14001, 0x75F14005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75F14001, 0x75F14006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x75F14001, 0x75F14007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75F14001, 0x75F14008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75F14001, 0x75F14009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75F14001, 0x75F1400A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75F14001, 0x75F1400B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75F14001, 0x75F1400C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75F14001, 0x75F1400D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75F14002,  1610, 0x5F140020, 85.71798, 172.4479, 69.7365, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

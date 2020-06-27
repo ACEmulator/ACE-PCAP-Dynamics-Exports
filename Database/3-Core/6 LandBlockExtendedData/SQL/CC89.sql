@@ -5,9 +5,9 @@ VALUES (0x7CC89001,  1154, 0xCC89000F, 24.66067, 144.9216, 16.001, 0.4119399, 0,
 /* @teleloc 0xCC89000F [24.660670 144.921600 16.001000] 0.411940 0.000000 0.000000 -0.911211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC89001, 0x7CC89002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7CC89001, 0x7CC89003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC89001, 0x7CC89004, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7CC89001, 0x7CC89002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7CC89001, 0x7CC89003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC89001, 0x7CC89004, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC89002,   223, 0xCC89000F, 24.66067, 144.9216, 16.001, 0.4119399, 0, 0, -0.911211,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

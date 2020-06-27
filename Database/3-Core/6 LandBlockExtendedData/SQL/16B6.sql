@@ -5,20 +5,20 @@ VALUES (0x716B6001,  1154, 0x16B60002, 4.492131, 46.8223, 20, -0.5690224, 0, 0, 
 /* @teleloc 0x16B60002 [4.492131 46.822300 20.000000] -0.569022 0.000000 0.000000 -0.822322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B6001, 0x716B6002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x716B6001, 0x716B6003, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x716B6001, 0x716B6004, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x716B6001, 0x716B6005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x716B6001, 0x716B6006, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B6001, 0x716B6007, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x716B6001, 0x716B6008, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B6001, 0x716B6009, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B6001, 0x716B600A, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x716B6001, 0x716B600B, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x716B6001, 0x716B600C, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x716B6001, 0x716B600D, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x716B6001, 0x716B600E, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x716B6001, 0x716B600F, '2019-02-10 00:00:00') /* Carenzi Stalker */;
+VALUES (0x716B6001, 0x716B6002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x716B6001, 0x716B6003, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x716B6001, 0x716B6004, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x716B6001, 0x716B6005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x716B6001, 0x716B6006, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B6001, 0x716B6007, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x716B6001, 0x716B6008, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B6001, 0x716B6009, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B6001, 0x716B600A, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x716B6001, 0x716B600B, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x716B6001, 0x716B600C, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x716B6001, 0x716B600D, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x716B6001, 0x716B600E, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x716B6001, 0x716B600F, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B6002, 22010, 0x16B60002, 4.492131, 46.8223, 20, -0.5690224, 0, 0, -0.822322,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -81,11 +81,11 @@ VALUES (0x716B6010,  1542, 0x16B60032, 144.0841, 31.85731, 20.06, 1, 0, 0, 0, Fa
 /* @teleloc 0x16B60032 [144.084100 31.857310 20.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B6010, 0x716B6011, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716B6010, 0x716B6012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x716B6010, 0x716B6013, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x716B6010, 0x716B6014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x716B6010, 0x716B6015, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x716B6010, 0x716B6011, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716B6010, 0x716B6012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x716B6010, 0x716B6013, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x716B6010, 0x716B6014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x716B6010, 0x716B6015, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B6011,  9024, 0x16B60032, 144.0841, 31.85731, 20.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

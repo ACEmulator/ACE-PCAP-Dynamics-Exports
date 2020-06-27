@@ -5,11 +5,11 @@ VALUES (0x76E17001,  1154, 0x6E170006, 0.6573668, 139.423, 0.9013965, -0.8118356
 /* @teleloc 0x6E170006 [0.657367 139.423000 0.901397] -0.811836 0.000000 0.000000 -0.583886 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E17001, 0x76E17002, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x76E17001, 0x76E17003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76E17001, 0x76E17004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76E17001, 0x76E17005, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x76E17001, 0x76E17006, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x76E17001, 0x76E17002, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x76E17001, 0x76E17003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76E17001, 0x76E17004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76E17001, 0x76E17005, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x76E17001, 0x76E17006, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E17002, 23490, 0x6E170006, 0.6573668, 139.423, 0.9013965, -0.8118356, 0, 0, -0.583886,  True, '2019-02-10 00:00:00'); /* Virindi Councillor */
@@ -36,7 +36,7 @@ VALUES (0x76E17007,  1542, 0x6E170005, 19.97808, 114.3982, 8.526631, 0.9238795, 
 /* @teleloc 0x6E170005 [19.978080 114.398200 8.526631] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E17007, 0x76E17008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x76E17007, 0x76E17008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E17008,  4180, 0x6E170005, 19.97808, 114.3982, 8.526631, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

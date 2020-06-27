@@ -5,17 +5,17 @@ VALUES (0x7D722001,  1154, 0xD7220008, 13.68679, 174.1345, 118.6394, -0.7519968,
 /* @teleloc 0xD7220008 [13.686790 174.134500 118.639400] -0.751997 0.000000 0.000000 -0.659167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D722001, 0x7D722002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7D722001, 0x7D722003, '2019-02-10 00:00:00') /* Ember */
-     , (0x7D722001, 0x7D722004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D722001, 0x7D722005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D722001, 0x7D722006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7D722001, 0x7D722007, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D722001, 0x7D722008, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D722001, 0x7D722009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D722001, 0x7D72200A, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7D722001, 0x7D72200B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7D722001, 0x7D72200C, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7D722001, 0x7D722002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7D722001, 0x7D722003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7D722001, 0x7D722004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D722001, 0x7D722005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D722001, 0x7D722006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7D722001, 0x7D722007, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D722001, 0x7D722008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D722001, 0x7D722009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D722001, 0x7D72200A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7D722001, 0x7D72200B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7D722001, 0x7D72200C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D722002, 14559, 0xD7220008, 13.68679, 174.1345, 118.6394, -0.7519968, 0, 0, -0.6591668,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -66,7 +66,7 @@ VALUES (0x7D72200D,  1542, 0xD7220034, 154.8766, 77.57477, 156.1872, 0.5034128, 
 /* @teleloc 0xD7220034 [154.876600 77.574770 156.187200] 0.503413 0.000000 0.000000 -0.864046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D72200D, 0x7D72200E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D72200D, 0x7D72200E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D72200E,  8037, 0xD7220034, 154.8766, 77.57477, 156.1872, 0.5034128, 0, 0, -0.864046,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

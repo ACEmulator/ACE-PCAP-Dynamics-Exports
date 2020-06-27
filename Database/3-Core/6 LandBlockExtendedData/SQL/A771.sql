@@ -5,13 +5,13 @@ VALUES (0x7A771001,  1154, 0xA7710039, 174.2921, 10.22227, 30.95682, 0.9659258, 
 /* @teleloc 0xA7710039 [174.292100 10.222270 30.956820] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A771001, 0x7A771002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7A771001, 0x7A771003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A771001, 0x7A771004, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A771001, 0x7A771005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A771001, 0x7A771006, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A771001, 0x7A771007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A771001, 0x7A771008, '2019-02-10 00:00:00') /* Tumerok Priest */;
+VALUES (0x7A771001, 0x7A771002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7A771001, 0x7A771003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A771001, 0x7A771004, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A771001, 0x7A771005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A771001, 0x7A771006, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A771001, 0x7A771007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A771001, 0x7A771008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A771002,  2439, 0xA7710039, 174.2921, 10.22227, 30.95682, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

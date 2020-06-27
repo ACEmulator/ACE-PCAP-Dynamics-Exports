@@ -5,12 +5,12 @@ VALUES (0x7A048001,  1154, 0xA048003F, 170.918, 145.4386, 58.61002, 0.8184835, 0
 /* @teleloc 0xA048003F [170.918000 145.438600 58.610020] 0.818484 0.000000 0.000000 -0.574530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A048001, 0x7A048002, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A048001, 0x7A048003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A048001, 0x7A048004, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x7A048001, 0x7A048005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A048001, 0x7A048006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A048001, 0x7A048007, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7A048001, 0x7A048002, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A048001, 0x7A048003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A048001, 0x7A048004, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A048001, 0x7A048005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A048001, 0x7A048006, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A048001, 0x7A048007, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A048002,  9249, 0xA048003F, 170.918, 145.4386, 58.61002, 0.8184835, 0, 0, -0.5745301,  True, '2019-02-10 00:00:00'); /* Marionette */
@@ -41,7 +41,7 @@ VALUES (0x7A048008,  1542, 0xA048002E, 140.689, 128.0693, 55.31756, 0.678842, 0,
 /* @teleloc 0xA048002E [140.689000 128.069300 55.317560] 0.678842 0.000000 0.000000 -0.734284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A048008, 0x7A048009, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x7A048008, 0x7A048009, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A048009,  9287, 0xA048002E, 140.689, 128.0693, 55.31756, 0.678842, 0, 0, -0.7342844,  True, '2019-02-10 00:00:00'); /* Master's Holding */

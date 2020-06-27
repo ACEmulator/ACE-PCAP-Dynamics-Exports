@@ -5,12 +5,12 @@ VALUES (0x7974E001,  1154, 0x974E0003, 2.528214, 48.44765, 15.47155, -0.3185003,
 /* @teleloc 0x974E0003 [2.528214 48.447650 15.471550] -0.318500 0.000000 0.000000 -0.947923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7974E001, 0x7974E002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7974E001, 0x7974E003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7974E001, 0x7974E004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7974E001, 0x7974E005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7974E001, 0x7974E006, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7974E001, 0x7974E007, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x7974E001, 0x7974E002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7974E001, 0x7974E003, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7974E001, 0x7974E004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7974E001, 0x7974E005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7974E001, 0x7974E006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7974E001, 0x7974E007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7974E002,  5497, 0x974E0003, 2.528214, 48.44765, 15.47155, -0.3185003, 0, 0, -0.9479228,  True, '2019-02-10 00:00:00'); /* Virindi Director */

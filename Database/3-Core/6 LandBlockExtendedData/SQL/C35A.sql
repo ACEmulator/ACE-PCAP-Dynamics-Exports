@@ -5,11 +5,11 @@ VALUES (0x7C35A001,  1154, 0xC35A001C, 94.54346, 88.89458, 6, 0.1627506, 0, 0, -
 /* @teleloc 0xC35A001C [94.543460 88.894580 6.000000] 0.162751 0.000000 0.000000 -0.986667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C35A001, 0x7C35A002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C35A001, 0x7C35A003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C35A001, 0x7C35A004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C35A001, 0x7C35A005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C35A001, 0x7C35A006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7C35A001, 0x7C35A002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C35A001, 0x7C35A003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C35A001, 0x7C35A004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C35A001, 0x7C35A005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C35A001, 0x7C35A006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C35A002, 22009, 0xC35A001C, 94.54346, 88.89458, 6, 0.1627506, 0, 0, -0.9866673,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

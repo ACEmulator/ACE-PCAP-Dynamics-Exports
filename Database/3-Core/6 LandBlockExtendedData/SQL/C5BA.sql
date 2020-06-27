@@ -5,12 +5,12 @@ VALUES (0x7C5BA001,  1154, 0xC5BA0040, 181.0719, 173.7882, 162.0658, -0.8116149,
 /* @teleloc 0xC5BA0040 [181.071900 173.788200 162.065800] -0.811615 0.000000 0.000000 -0.584193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5BA001, 0x7C5BA002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C5BA001, 0x7C5BA003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C5BA001, 0x7C5BA004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7C5BA001, 0x7C5BA005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C5BA001, 0x7C5BA006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C5BA001, 0x7C5BA007, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7C5BA001, 0x7C5BA002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C5BA001, 0x7C5BA003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C5BA001, 0x7C5BA004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7C5BA001, 0x7C5BA005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C5BA001, 0x7C5BA006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C5BA001, 0x7C5BA007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5BA002, 24958, 0xC5BA0040, 181.0719, 173.7882, 162.0658, -0.8116149, 0, 0, -0.5841928,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -41,7 +41,7 @@ VALUES (0x7C5BA008,  1542, 0xC5BA0031, 155.902, 17.16671, 137.1691, 1, 0, 0, 0, 
 /* @teleloc 0xC5BA0031 [155.902000 17.166710 137.169100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5BA008, 0x7C5BA009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C5BA008, 0x7C5BA009, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5BA009, 22571, 0xC5BA0031, 155.902, 17.16671, 137.1691, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

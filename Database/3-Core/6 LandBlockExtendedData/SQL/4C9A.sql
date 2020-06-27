@@ -5,10 +5,10 @@ VALUES (0x74C9A001,  1154, 0x4C9A0035, 159.7386, 110.5188, 40.5778, 0.7234772, 0
 /* @teleloc 0x4C9A0035 [159.738600 110.518800 40.577800] 0.723477 0.000000 0.000000 -0.690348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C9A001, 0x74C9A002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74C9A001, 0x74C9A003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74C9A001, 0x74C9A004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x74C9A001, 0x74C9A005, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x74C9A001, 0x74C9A002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74C9A001, 0x74C9A003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74C9A001, 0x74C9A004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x74C9A001, 0x74C9A005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C9A002,  9253, 0x4C9A0035, 159.7386, 110.5188, 40.5778, 0.7234772, 0, 0, -0.6903483,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

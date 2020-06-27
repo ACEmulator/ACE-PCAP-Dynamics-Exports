@@ -5,19 +5,19 @@ VALUES (0x73AE7001,  1154, 0x3AE7002B, 125.9113, 52.09354, 9.517387, -0.1686542,
 /* @teleloc 0x3AE7002B [125.911300 52.093540 9.517387] -0.168654 0.000000 0.000000 -0.985675 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AE7001, 0x73AE7002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AE7001, 0x73AE7003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73AE7001, 0x73AE7004, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73AE7001, 0x73AE7005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73AE7001, 0x73AE7006, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73AE7001, 0x73AE7007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73AE7001, 0x73AE7008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73AE7001, 0x73AE7009, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x73AE7001, 0x73AE700A, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x73AE7001, 0x73AE700B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73AE7001, 0x73AE700C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73AE7001, 0x73AE700D, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73AE7001, 0x73AE700E, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x73AE7001, 0x73AE7002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AE7001, 0x73AE7003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73AE7001, 0x73AE7004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73AE7001, 0x73AE7005, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73AE7001, 0x73AE7006, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x73AE7001, 0x73AE7007, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x73AE7001, 0x73AE7008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73AE7001, 0x73AE7009, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x73AE7001, 0x73AE700A, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x73AE7001, 0x73AE700B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73AE7001, 0x73AE700C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73AE7001, 0x73AE700D, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73AE7001, 0x73AE700E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AE7002,  7099, 0x3AE7002B, 125.9113, 52.09354, 9.517387, -0.1686542, 0, 0, -0.9856753,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

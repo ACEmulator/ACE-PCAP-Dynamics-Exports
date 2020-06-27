@@ -5,18 +5,18 @@ VALUES (0x79EB6001,  1154, 0x9EB60033, 162.159, 70.0959, 100.3245, -0.7492581, 0
 /* @teleloc 0x9EB60033 [162.159000 70.095900 100.324500] -0.749258 0.000000 0.000000 -0.662278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EB6001, 0x79EB6002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79EB6001, 0x79EB6003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79EB6001, 0x79EB6004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79EB6001, 0x79EB6005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79EB6001, 0x79EB6006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB6001, 0x79EB6007, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x79EB6001, 0x79EB6008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79EB6001, 0x79EB6009, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79EB6001, 0x79EB600A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EB6001, 0x79EB600B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EB6001, 0x79EB600C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB6001, 0x79EB600D, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x79EB6001, 0x79EB6002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB6001, 0x79EB6003, '2019-02-10 00:00:00') /* Banderling Bandit (1484) */
+     , (0x79EB6001, 0x79EB6004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB6001, 0x79EB6005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79EB6001, 0x79EB6006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB6001, 0x79EB6007, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x79EB6001, 0x79EB6008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79EB6001, 0x79EB6009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79EB6001, 0x79EB600A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EB6001, 0x79EB600B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EB6001, 0x79EB600C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB6001, 0x79EB600D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EB6002, 22809, 0x9EB60033, 162.159, 70.0959, 100.3245, -0.7492581, 0, 0, -0.6622781,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -71,8 +71,8 @@ VALUES (0x79EB600E,  1542, 0x9EB60032, 164.0871, 43.73001, 105.5026, 1, 0, 0, 0,
 /* @teleloc 0x9EB60032 [164.087100 43.730010 105.502600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EB600E, 0x79EB600F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79EB600E, 0x79EB6010, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79EB600E, 0x79EB600F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79EB600E, 0x79EB6010, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EB600F,  8232, 0x9EB60032, 164.0871, 43.73001, 105.5026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

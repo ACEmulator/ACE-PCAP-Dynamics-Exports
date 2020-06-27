@@ -5,12 +5,12 @@ VALUES (0x7A384001,  1154, 0xA384003A, 175.0001, 37.29652, 19.41916, -0.7009947,
 /* @teleloc 0xA384003A [175.000100 37.296520 19.419160] -0.700995 0.000000 0.000000 -0.713167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A384001, 0x7A384002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A384001, 0x7A384003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A384001, 0x7A384004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A384001, 0x7A384005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A384001, 0x7A384006, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7A384001, 0x7A384007, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7A384001, 0x7A384002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A384001, 0x7A384003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A384001, 0x7A384004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A384001, 0x7A384005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A384001, 0x7A384006, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7A384001, 0x7A384007, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A384002,  1756, 0xA384003A, 175.0001, 37.29652, 19.41916, -0.7009947, 0, 0, -0.7131665,  True, '2019-02-10 00:00:00'); /* Shadow Child */

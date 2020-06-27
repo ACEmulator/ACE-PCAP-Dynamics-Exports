@@ -5,16 +5,16 @@ VALUES (0x7343A001,  1154, 0x343A0029, 131.2154, 17.33835, 134.0071, 0.9208835, 
 /* @teleloc 0x343A0029 [131.215400 17.338350 134.007100] 0.920884 0.000000 0.000000 -0.389838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7343A001, 0x7343A002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7343A001, 0x7343A003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7343A001, 0x7343A004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7343A001, 0x7343A005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7343A001, 0x7343A006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343A001, 0x7343A007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7343A001, 0x7343A008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7343A001, 0x7343A009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343A001, 0x7343A00A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7343A001, 0x7343A00B, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x7343A001, 0x7343A002, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7343A001, 0x7343A003, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7343A001, 0x7343A004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7343A001, 0x7343A005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7343A001, 0x7343A006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343A001, 0x7343A007, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7343A001, 0x7343A008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7343A001, 0x7343A009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343A001, 0x7343A00A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7343A001, 0x7343A00B, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343A002, 23478, 0x343A0029, 131.2154, 17.33835, 134.0071, 0.9208835, 0, 0, -0.3898379,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

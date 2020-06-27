@@ -5,9 +5,9 @@ VALUES (0x7B09E001,  1154, 0xB09E0021, 104.3965, 6.938662, 64.15135, -0.4690012,
 /* @teleloc 0xB09E0021 [104.396500 6.938662 64.151350] -0.469001 0.000000 0.000000 -0.883198 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B09E001, 0x7B09E002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B09E001, 0x7B09E003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7B09E001, 0x7B09E004, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7B09E001, 0x7B09E002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B09E001, 0x7B09E003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7B09E001, 0x7B09E004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B09E002,  1630, 0xB09E0021, 104.3965, 6.938662, 64.15135, -0.4690012, 0, 0, -0.8831975,  True, '2019-02-10 00:00:00'); /* Lich Lord */

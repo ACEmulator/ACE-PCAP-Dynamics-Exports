@@ -13,17 +13,17 @@ VALUES (0x7EF57009,  1154, 0xEF570011, 54.55205, 9.281122, 8.843369, 0.9607895, 
 /* @teleloc 0xEF570011 [54.552050 9.281122 8.843369] 0.960790 0.000000 0.000000 -0.277279 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF57009, 0x7EF5700A, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF5700B, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF5700C, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF5700D, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF5700E, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF5700F, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF57010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7EF57009, 0x7EF57011, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF57012, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EF57009, 0x7EF57013, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7EF57009, 0x7EF57014, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7EF57009, 0x7EF5700A, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF5700B, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF5700C, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF5700D, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF5700E, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF5700F, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF57010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7EF57009, 0x7EF57011, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF57012, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EF57009, 0x7EF57013, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7EF57009, 0x7EF57014, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF5700A,  1763, 0xEF570011, 54.55205, 9.281122, 8.843369, 0.9607895, 0, 0, -0.2772788,  True, '2019-02-10 00:00:00'); /* Lesser Mu-miyah */

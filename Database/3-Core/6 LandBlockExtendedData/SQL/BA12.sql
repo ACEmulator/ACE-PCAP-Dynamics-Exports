@@ -5,17 +5,17 @@ VALUES (0x7BA12001,  1154, 0xBA120021, 104.5702, 1.960309, 98.21235, -0.7890243,
 /* @teleloc 0xBA120021 [104.570200 1.960309 98.212350] -0.789024 0.000000 0.000000 -0.614362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA12001, 0x7BA12002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA12001, 0x7BA12003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA12001, 0x7BA12004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA12001, 0x7BA12005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA12001, 0x7BA12006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BA12001, 0x7BA12007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA12001, 0x7BA12008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA12001, 0x7BA12009, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA12001, 0x7BA1200A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA12001, 0x7BA1200B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA12001, 0x7BA1200C, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7BA12001, 0x7BA12002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA12001, 0x7BA12003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA12001, 0x7BA12004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA12001, 0x7BA12005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA12001, 0x7BA12006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BA12001, 0x7BA12007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA12001, 0x7BA12008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA12001, 0x7BA12009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA12001, 0x7BA1200A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA12001, 0x7BA1200B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA12001, 0x7BA1200C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA12002, 14559, 0xBA120021, 104.5702, 1.960309, 98.21235, -0.7890243, 0, 0, -0.614362,  True, '2019-02-10 00:00:00'); /* Oak Golem */

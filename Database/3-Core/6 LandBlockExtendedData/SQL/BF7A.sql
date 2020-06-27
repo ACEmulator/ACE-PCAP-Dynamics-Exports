@@ -5,26 +5,26 @@ VALUES (0x7BF7A001,  1154, 0xBF7A0006, 8.159358, 141.963, 28.5124, -0.6759521, 0
 /* @teleloc 0xBF7A0006 [8.159358 141.963000 28.512400] -0.675952 0.000000 0.000000 -0.736946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7A001, 0x7BF7A002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF7A001, 0x7BF7A003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BF7A001, 0x7BF7A004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BF7A001, 0x7BF7A005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BF7A001, 0x7BF7A006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF7A001, 0x7BF7A007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7A001, 0x7BF7A008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BF7A001, 0x7BF7A009, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BF7A001, 0x7BF7A00A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BF7A001, 0x7BF7A00B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7A001, 0x7BF7A00C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF7A001, 0x7BF7A00D, '2019-02-10 00:00:00') /* Static */
-     , (0x7BF7A001, 0x7BF7A00E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7A001, 0x7BF7A00F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF7A001, 0x7BF7A010, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF7A001, 0x7BF7A011, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BF7A001, 0x7BF7A012, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BF7A001, 0x7BF7A013, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7BF7A001, 0x7BF7A014, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BF7A001, 0x7BF7A015, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7BF7A001, 0x7BF7A002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF7A001, 0x7BF7A003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BF7A001, 0x7BF7A004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BF7A001, 0x7BF7A005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BF7A001, 0x7BF7A006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF7A001, 0x7BF7A007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7A001, 0x7BF7A008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BF7A001, 0x7BF7A009, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BF7A001, 0x7BF7A00A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BF7A001, 0x7BF7A00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7A001, 0x7BF7A00C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF7A001, 0x7BF7A00D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BF7A001, 0x7BF7A00E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7A001, 0x7BF7A00F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF7A001, 0x7BF7A010, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF7A001, 0x7BF7A011, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BF7A001, 0x7BF7A012, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BF7A001, 0x7BF7A013, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7BF7A001, 0x7BF7A014, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BF7A001, 0x7BF7A015, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7A002,  7991, 0xBF7A0006, 8.159358, 141.963, 28.5124, -0.6759521, 0, 0, -0.7369456,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */
@@ -111,8 +111,8 @@ VALUES (0x7BF7A016,  1542, 0xBF7A002E, 130.8865, 125.9755, 38.50219, 1, 0, 0, 0,
 /* @teleloc 0xBF7A002E [130.886500 125.975500 38.502190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF7A016, 0x7BF7A017, '2019-02-10 00:00:00') /* Meat */
-     , (0x7BF7A016, 0x7BF7A018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BF7A016, 0x7BF7A017, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7BF7A016, 0x7BF7A018, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF7A017,   265, 0xBF7A002E, 130.8865, 125.9755, 38.50219, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

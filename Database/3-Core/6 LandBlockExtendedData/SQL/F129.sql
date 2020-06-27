@@ -5,12 +5,12 @@ VALUES (0x7F129001,  1154, 0xF129003A, 183.9864, 41.66649, -0.4446, 0.3593763, 0
 /* @teleloc 0xF129003A [183.986400 41.666490 -0.444600] 0.359376 0.000000 0.000000 -0.933193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F129001, 0x7F129002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F129001, 0x7F129003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F129001, 0x7F129004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F129001, 0x7F129005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F129001, 0x7F129006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F129001, 0x7F129007, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F129001, 0x7F129002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F129001, 0x7F129003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F129001, 0x7F129004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F129001, 0x7F129005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F129001, 0x7F129006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F129001, 0x7F129007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F129002,  4247, 0xF129003A, 183.9864, 41.66649, -0.4446, 0.3593763, 0, 0, -0.9331927,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

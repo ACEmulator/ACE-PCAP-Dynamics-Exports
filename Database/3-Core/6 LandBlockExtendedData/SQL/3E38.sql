@@ -5,12 +5,12 @@ VALUES (0x73E38001,  1154, 0x3E380019, 92.56093, 1.779144, 13.95232, 0.5, 0, 0, 
 /* @teleloc 0x3E380019 [92.560930 1.779144 13.952320] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E38001, 0x73E38002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E38001, 0x73E38003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73E38001, 0x73E38004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73E38001, 0x73E38005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73E38001, 0x73E38006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73E38001, 0x73E38007, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x73E38001, 0x73E38002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E38001, 0x73E38003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73E38001, 0x73E38004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73E38001, 0x73E38005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73E38001, 0x73E38006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73E38001, 0x73E38007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E38002, 36830, 0x3E380019, 92.56093, 1.779144, 13.95232, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -41,9 +41,9 @@ VALUES (0x73E38008,  1542, 0x3E380024, 114.7528, 91.29105, 22.57181, 1, 0, 0, 0,
 /* @teleloc 0x3E380024 [114.752800 91.291050 22.571810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E38008, 0x73E38009, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x73E38008, 0x73E3800A, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x73E38008, 0x73E3800B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x73E38008, 0x73E38009, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x73E38008, 0x73E3800A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x73E38008, 0x73E3800B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E38009,  8999, 0x3E380024, 114.7528, 91.29105, 22.57181, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

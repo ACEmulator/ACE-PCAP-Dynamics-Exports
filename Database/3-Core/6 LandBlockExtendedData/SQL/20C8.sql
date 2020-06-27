@@ -5,46 +5,46 @@ VALUES (0x720C8001,  1154, 0x20C8001C, 89.5787, 93.8026, 17.83113, 0.9956954, 0,
 /* @teleloc 0x20C8001C [89.578700 93.802600 17.831130] 0.995695 0.000000 0.000000 -0.092686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C8001, 0x720C8002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x720C8001, 0x720C8003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x720C8001, 0x720C8004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x720C8001, 0x720C8005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x720C8001, 0x720C8006, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x720C8001, 0x720C8007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C8001, 0x720C8008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C8001, 0x720C8009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C8001, 0x720C800A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x720C8001, 0x720C800B, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x720C8001, 0x720C800C, '2019-02-10 00:00:00') /* Aun Herbalist */
-     , (0x720C8001, 0x720C800D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x720C8001, 0x720C800E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x720C8001, 0x720C800F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x720C8001, 0x720C8010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x720C8001, 0x720C8011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C8001, 0x720C8012, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8013, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8014, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8015, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C8001, 0x720C8016, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C8001, 0x720C8017, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8018, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8019, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C801A, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C801B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C8001, 0x720C801C, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C8001, 0x720C801D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x720C8001, 0x720C801E, '2019-02-10 00:00:00') /* Aun Herbalist */
-     , (0x720C8001, 0x720C801F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8020, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8021, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C8001, 0x720C8022, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x720C8001, 0x720C8023, '2019-02-10 00:00:00') /* Aun Herbalist */
-     , (0x720C8001, 0x720C8024, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720C8001, 0x720C8025, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720C8001, 0x720C8026, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C8001, 0x720C8027, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C8001, 0x720C8028, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720C8001, 0x720C8029, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x720C8001, 0x720C8002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x720C8001, 0x720C8003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x720C8001, 0x720C8004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x720C8001, 0x720C8005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x720C8001, 0x720C8006, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x720C8001, 0x720C8007, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C8001, 0x720C8008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C8001, 0x720C8009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C8001, 0x720C800A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x720C8001, 0x720C800B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x720C8001, 0x720C800C, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */
+     , (0x720C8001, 0x720C800D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x720C8001, 0x720C800E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x720C8001, 0x720C800F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x720C8001, 0x720C8010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x720C8001, 0x720C8011, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C8001, 0x720C8012, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8013, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8014, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8015, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C8001, 0x720C8016, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C8001, 0x720C8017, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8018, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8019, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C801A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C801B, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C8001, 0x720C801C, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C8001, 0x720C801D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x720C8001, 0x720C801E, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */
+     , (0x720C8001, 0x720C801F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8020, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8021, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C8001, 0x720C8022, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x720C8001, 0x720C8023, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */
+     , (0x720C8001, 0x720C8024, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720C8001, 0x720C8025, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720C8001, 0x720C8026, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C8001, 0x720C8027, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C8001, 0x720C8028, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720C8001, 0x720C8029, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C8002, 23482, 0x20C8001C, 89.5787, 93.8026, 17.83113, 0.9956954, 0, 0, -0.09268649,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -211,7 +211,7 @@ VALUES (0x720C802A,  1542, 0x20C80035, 153.376, 106.2946, 19.00788, 0.9291645, 0
 /* @teleloc 0x20C80035 [153.376000 106.294600 19.007880] 0.929165 0.000000 0.000000 -0.369666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C802A, 0x720C802B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x720C802A, 0x720C802B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C802B, 27719, 0x20C80035, 153.376, 106.2946, 19.00788, 0.9291645, 0, 0, -0.3696664,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

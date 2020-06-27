@@ -5,16 +5,16 @@ VALUES (0x7CFCF001,  1154, 0xCFCF0018, 67.33783, 171.6948, 44.08517, 0.9238795, 
 /* @teleloc 0xCFCF0018 [67.337830 171.694800 44.085170] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFCF001, 0x7CFCF002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CFCF001, 0x7CFCF003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CFCF001, 0x7CFCF004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CFCF001, 0x7CFCF005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCF001, 0x7CFCF006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCF001, 0x7CFCF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCF001, 0x7CFCF008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CFCF001, 0x7CFCF009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7CFCF001, 0x7CFCF00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7CFCF001, 0x7CFCF00B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */;
+VALUES (0x7CFCF001, 0x7CFCF002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CFCF001, 0x7CFCF003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7CFCF001, 0x7CFCF004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CFCF001, 0x7CFCF005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCF001, 0x7CFCF006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCF001, 0x7CFCF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCF001, 0x7CFCF008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CFCF001, 0x7CFCF009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7CFCF001, 0x7CFCF00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7CFCF001, 0x7CFCF00B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFCF002,  7089, 0xCFCF0018, 67.33783, 171.6948, 44.08517, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

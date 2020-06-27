@@ -5,15 +5,15 @@ VALUES (0x74B9B001,  1154, 0x4B9B0015, 66.69654, 118.0831, 50.83388, -0.1855857,
 /* @teleloc 0x4B9B0015 [66.696540 118.083100 50.833880] -0.185586 0.000000 0.000000 -0.982628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74B9B001, 0x74B9B002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x74B9B001, 0x74B9B003, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x74B9B001, 0x74B9B004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74B9B001, 0x74B9B005, '2019-02-10 00:00:00') /* Ember */
-     , (0x74B9B001, 0x74B9B006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74B9B001, 0x74B9B007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74B9B001, 0x74B9B008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74B9B001, 0x74B9B009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x74B9B001, 0x74B9B00A, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x74B9B001, 0x74B9B002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x74B9B001, 0x74B9B003, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x74B9B001, 0x74B9B004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74B9B001, 0x74B9B005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x74B9B001, 0x74B9B006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74B9B001, 0x74B9B007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74B9B001, 0x74B9B008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74B9B001, 0x74B9B009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x74B9B001, 0x74B9B00A, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74B9B002,  6041, 0x4B9B0015, 66.69654, 118.0831, 50.83388, -0.1855857, 0, 0, -0.9826281,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

@@ -5,26 +5,26 @@ VALUES (0x72532001,  1154, 0x25320008, 15.20679, 169.4589, 42.93107, 0.4830815, 
 /* @teleloc 0x25320008 [15.206790 169.458900 42.931070] 0.483082 0.000000 0.000000 -0.875575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72532001, 0x72532002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72532001, 0x72532003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72532001, 0x72532004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72532001, 0x72532005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72532001, 0x72532006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72532001, 0x72532007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72532001, 0x72532008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72532001, 0x72532009, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72532001, 0x7253200A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72532001, 0x7253200B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72532001, 0x7253200C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72532001, 0x7253200D, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72532001, 0x7253200E, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72532001, 0x7253200F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72532001, 0x72532010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72532001, 0x72532011, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72532001, 0x72532012, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72532001, 0x72532013, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72532001, 0x72532014, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72532001, 0x72532015, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x72532001, 0x72532002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72532001, 0x72532003, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72532001, 0x72532004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72532001, 0x72532005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72532001, 0x72532006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72532001, 0x72532007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x72532001, 0x72532008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72532001, 0x72532009, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72532001, 0x7253200A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72532001, 0x7253200B, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72532001, 0x7253200C, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72532001, 0x7253200D, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72532001, 0x7253200E, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72532001, 0x7253200F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72532001, 0x72532010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72532001, 0x72532011, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72532001, 0x72532012, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72532001, 0x72532013, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72532001, 0x72532014, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72532001, 0x72532015, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72532002, 23481, 0x25320008, 15.20679, 169.4589, 42.93107, 0.4830815, 0, 0, -0.8755754,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -111,7 +111,7 @@ VALUES (0x72532016,  1542, 0x25320008, 10.86246, 169.5488, 44.37918, -4.371139E-
 /* @teleloc 0x25320008 [10.862460 169.548800 44.379180] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72532016, 0x72532017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72532016, 0x72532017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72532017,  4380, 0x25320008, 10.86246, 169.5488, 44.37918, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

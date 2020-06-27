@@ -5,13 +5,13 @@ VALUES (0x7173E001,  1154, 0x173E001A, 74.17651, 35.10651, 0.5512767, 0.3987491,
 /* @teleloc 0x173E001A [74.176510 35.106510 0.551277] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7173E001, 0x7173E002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7173E001, 0x7173E003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7173E001, 0x7173E004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7173E001, 0x7173E005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7173E001, 0x7173E006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7173E001, 0x7173E007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7173E001, 0x7173E008, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7173E001, 0x7173E002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7173E001, 0x7173E003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7173E001, 0x7173E004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7173E001, 0x7173E005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7173E001, 0x7173E006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7173E001, 0x7173E007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7173E001, 0x7173E008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173E002, 36818, 0x173E001A, 74.17651, 35.10651, 0.5512767, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

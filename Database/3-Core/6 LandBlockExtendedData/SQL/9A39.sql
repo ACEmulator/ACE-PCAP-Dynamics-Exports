@@ -5,10 +5,10 @@ VALUES (0x79A39001,  1154, 0x9A39003C, 171.5647, 93.31127, 91.55788, -0.5449094,
 /* @teleloc 0x9A39003C [171.564700 93.311270 91.557880] -0.544909 0.000000 0.000000 -0.838495 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A39001, 0x79A39002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79A39001, 0x79A39003, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79A39001, 0x79A39004, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79A39001, 0x79A39005, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79A39001, 0x79A39002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79A39001, 0x79A39003, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79A39001, 0x79A39004, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79A39001, 0x79A39005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A39002,  9254, 0x9A39003C, 171.5647, 93.31127, 91.55788, -0.5449094, 0, 0, -0.838495,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */

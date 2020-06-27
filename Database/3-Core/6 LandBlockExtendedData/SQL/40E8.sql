@@ -9,19 +9,19 @@ VALUES (0x740E8011,  1154, 0x40E80021, 99.511, 20.4846, 200.0068, -0.998518, 0, 
 /* @teleloc 0x40E80021 [99.511000 20.484600 200.006800] -0.998518 0.000000 0.000000 0.054422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E8011, 0x740E8012, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8013, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8014, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8015, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8016, '2019-02-10 00:00:00') /* Platinum Legion Castellan */
-     , (0x740E8011, 0x740E8017, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8018, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E8019, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E801A, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E801B, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E801C, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E801D, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */
-     , (0x740E8011, 0x740E801E, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard */;
+VALUES (0x740E8011, 0x740E8012, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8013, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8014, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8015, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8016, '2019-02-10 00:00:00') /* Platinum Legion Castellan (30553) */
+     , (0x740E8011, 0x740E8017, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8018, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E8019, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E801A, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E801B, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E801C, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E801D, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */
+     , (0x740E8011, 0x740E801E, '2019-02-10 00:00:00') /* Platinum Legion Castle Guard (29410) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E8012, 29410, 0x40E80021, 99.511, 20.4846, 200.0068, -0.998518, 0, 0, 0.0544218,  True, '2019-02-10 00:00:00'); /* Platinum Legion Castle Guard */
@@ -80,7 +80,7 @@ VALUES (0x740E801F,  1542, 0x40E8001C, 93.90985, 93.33317, 201.2286, -0.09577038
 /* @teleloc 0x40E8001C [93.909850 93.333170 201.228600] -0.095770 0.000000 0.000000 -0.995404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E801F, 0x740E8020, '2019-02-10 00:00:00') /* Rabbit */;
+VALUES (0x740E801F, 0x740E8020, '2019-02-10 00:00:00') /* Rabbit (33040) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E8020, 33040, 0x40E8001C, 93.90985, 93.33317, 201.2286, -0.09577038, 0, 0, -0.9954035,  True, '2019-02-10 00:00:00'); /* Rabbit */

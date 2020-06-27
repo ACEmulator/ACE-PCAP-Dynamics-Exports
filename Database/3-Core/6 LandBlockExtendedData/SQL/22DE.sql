@@ -5,12 +5,12 @@ VALUES (0x722DE001,  1154, 0x22DE003D, 170.158, 105.7597, 39.99549, 0.600109, 0,
 /* @teleloc 0x22DE003D [170.158000 105.759700 39.995490] 0.600109 0.000000 0.000000 -0.799918 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722DE001, 0x722DE002, '2019-02-10 00:00:00') /* Crazed Fiun */
-     , (0x722DE001, 0x722DE003, '2019-02-10 00:00:00') /* Frost */
-     , (0x722DE001, 0x722DE004, '2019-02-10 00:00:00') /* Beefsteak Thrungus */
-     , (0x722DE001, 0x722DE005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x722DE001, 0x722DE006, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722DE001, 0x722DE007, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x722DE001, 0x722DE002, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
+     , (0x722DE001, 0x722DE003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x722DE001, 0x722DE004, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x722DE001, 0x722DE005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x722DE001, 0x722DE006, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722DE001, 0x722DE007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722DE002, 28649, 0x22DE003D, 170.158, 105.7597, 39.99549, 0.600109, 0, 0, -0.7999183,  True, '2019-02-10 00:00:00'); /* Crazed Fiun */

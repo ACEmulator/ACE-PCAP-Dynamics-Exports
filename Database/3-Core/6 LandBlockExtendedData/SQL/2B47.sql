@@ -5,13 +5,13 @@ VALUES (0x72B47001,  1154, 0x2B47000E, 38.20958, 126.9475, 10.50004, 0.5443736, 
 /* @teleloc 0x2B47000E [38.209580 126.947500 10.500040] 0.544374 0.000000 0.000000 -0.838843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B47001, 0x72B47002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72B47001, 0x72B47003, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72B47001, 0x72B47004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B47001, 0x72B47005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72B47001, 0x72B47006, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72B47001, 0x72B47007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B47001, 0x72B47008, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72B47001, 0x72B47002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72B47001, 0x72B47003, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x72B47001, 0x72B47004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B47001, 0x72B47005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72B47001, 0x72B47006, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72B47001, 0x72B47007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72B47001, 0x72B47008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B47002, 33309, 0x2B47000E, 38.20958, 126.9475, 10.50004, 0.5443736, 0, 0, -0.8388429,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

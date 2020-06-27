@@ -5,11 +5,11 @@ VALUES (0x73810001,  1154, 0x38100031, 153.7393, 0.08589302, 5.176798, -0.173648
 /* @teleloc 0x38100031 [153.739300 0.085893 5.176798] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73810001, 0x73810002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73810001, 0x73810003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73810001, 0x73810004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73810001, 0x73810005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73810001, 0x73810006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73810001, 0x73810002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73810001, 0x73810003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73810001, 0x73810004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73810001, 0x73810005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73810001, 0x73810006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73810002,  7113, 0x38100031, 153.7393, 0.08589302, 5.176798, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */

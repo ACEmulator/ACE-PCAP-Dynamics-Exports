@@ -5,10 +5,10 @@ VALUES (0x7A969001,  1154, 0xA9690039, 168.019, 19.6052, 44.36623, 0.927936, 0, 
 /* @teleloc 0xA9690039 [168.019000 19.605200 44.366230] 0.927936 0.000000 0.000000 -0.372740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A969001, 0x7A969002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7A969001, 0x7A969003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A969001, 0x7A969004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A969001, 0x7A969005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A969001, 0x7A969002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A969001, 0x7A969003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A969001, 0x7A969004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A969001, 0x7A969005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A969002,  1989, 0xA9690039, 168.019, 19.6052, 44.36623, 0.927936, 0, 0, -0.3727397,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

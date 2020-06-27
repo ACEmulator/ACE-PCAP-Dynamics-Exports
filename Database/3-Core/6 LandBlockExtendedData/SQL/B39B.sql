@@ -5,9 +5,9 @@ VALUES (0x7B39B001,  1154, 0xB39B0016, 69.42748, 126.8232, 69.07967, 0.007928841
 /* @teleloc 0xB39B0016 [69.427480 126.823200 69.079670] 0.007929 0.000000 0.000000 -0.999969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B39B001, 0x7B39B002, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7B39B001, 0x7B39B003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B39B001, 0x7B39B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7B39B001, 0x7B39B002, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7B39B001, 0x7B39B003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B39B001, 0x7B39B004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B39B002, 28879, 0xB39B0016, 69.42748, 126.8232, 69.07967, 0.007928841, 0, 0, -0.9999686,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
@@ -26,8 +26,8 @@ VALUES (0x7B39B005,  1542, 0xB39B0016, 69.4592, 124.8235, 69.40783, 1, 0, 0, 0, 
 /* @teleloc 0xB39B0016 [69.459200 124.823500 69.407830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B39B005, 0x7B39B006, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7B39B005, 0x7B39B007, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7B39B005, 0x7B39B006, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7B39B005, 0x7B39B007, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B39B006,  8232, 0xB39B0016, 69.4592, 124.8235, 69.40783, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

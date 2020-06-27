@@ -5,14 +5,14 @@ VALUES (0x78797001,  1154, 0x87970003, 23.15604, 62.27645, 63.64944, 0.4368521, 
 /* @teleloc 0x87970003 [23.156040 62.276450 63.649440] 0.436852 0.000000 0.000000 -0.899533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78797001, 0x78797002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78797001, 0x78797003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78797001, 0x78797004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78797001, 0x78797005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x78797001, 0x78797006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78797001, 0x78797007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78797001, 0x78797008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78797001, 0x78797009, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x78797001, 0x78797002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78797001, 0x78797003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78797001, 0x78797004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78797001, 0x78797005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x78797001, 0x78797006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78797001, 0x78797007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78797001, 0x78797008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78797001, 0x78797009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78797002, 11528, 0x87970003, 23.15604, 62.27645, 63.64944, 0.4368521, 0, 0, -0.8995333,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -51,7 +51,7 @@ VALUES (0x7879700A,  1542, 0x87970004, 11.64616, 90.76645, 76.38899, 0.9537169, 
 /* @teleloc 0x87970004 [11.646160 90.766450 76.388990] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7879700A, 0x7879700B, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7879700A, 0x7879700B, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7879700B,  7934, 0x87970004, 11.64616, 90.76645, 76.38899, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

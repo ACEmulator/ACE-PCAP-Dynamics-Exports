@@ -5,13 +5,13 @@ VALUES (0x7B532001,  1154, 0xB532002B, 126.4586, 68.60751, 48.21726, 0.9784492, 
 /* @teleloc 0xB532002B [126.458600 68.607510 48.217260] 0.978449 0.000000 0.000000 -0.206488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B532001, 0x7B532002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B532001, 0x7B532003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B532001, 0x7B532004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B532001, 0x7B532005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B532001, 0x7B532006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B532001, 0x7B532007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B532001, 0x7B532008, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7B532001, 0x7B532002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B532001, 0x7B532003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B532001, 0x7B532004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B532001, 0x7B532005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B532001, 0x7B532006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B532001, 0x7B532007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B532001, 0x7B532008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B532002,  8143, 0xB532002B, 126.4586, 68.60751, 48.21726, 0.9784492, 0, 0, -0.2064875,  True, '2019-02-10 00:00:00'); /* Amploth Raider */
@@ -46,7 +46,7 @@ VALUES (0x7B532009,  1542, 0xB532000C, 40.5492, 85.82602, 64.74055, 0.7071068, 0
 /* @teleloc 0xB532000C [40.549200 85.826020 64.740550] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B532009, 0x7B53200A, '2019-02-10 00:00:00') /* Saffron */;
+VALUES (0x7B532009, 0x7B53200A, '2019-02-10 00:00:00') /* Saffron (778) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B53200A,   778, 0xB532000C, 40.5492, 85.82602, 64.74055, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Saffron */

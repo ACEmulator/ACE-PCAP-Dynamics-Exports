@@ -5,15 +5,15 @@ VALUES (0x7C94F001,  1154, 0xC94F001D, 86.73234, 107.8197, 111.7553, -0.5000091,
 /* @teleloc 0xC94F001D [86.732340 107.819700 111.755300] -0.500009 0.000000 0.000000 -0.866020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C94F001, 0x7C94F002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C94F001, 0x7C94F003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C94F001, 0x7C94F004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C94F001, 0x7C94F005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C94F001, 0x7C94F006, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C94F001, 0x7C94F007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C94F001, 0x7C94F008, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7C94F001, 0x7C94F009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C94F001, 0x7C94F00A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7C94F001, 0x7C94F002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C94F001, 0x7C94F003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C94F001, 0x7C94F004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C94F001, 0x7C94F005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C94F001, 0x7C94F006, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C94F001, 0x7C94F007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C94F001, 0x7C94F008, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7C94F001, 0x7C94F009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C94F001, 0x7C94F00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C94F002,   235, 0xC94F001D, 86.73234, 107.8197, 111.7553, -0.5000091, 0, 0, -0.8660201,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

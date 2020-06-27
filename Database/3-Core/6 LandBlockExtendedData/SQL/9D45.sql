@@ -5,12 +5,12 @@ VALUES (0x79D45001,  1154, 0x9D450019, 73.50702, 11.51006, 84.07365, 1, 0, 0, 0,
 /* @teleloc 0x9D450019 [73.507020 11.510060 84.073650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D45001, 0x79D45002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79D45001, 0x79D45003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79D45001, 0x79D45004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79D45001, 0x79D45005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79D45001, 0x79D45006, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79D45001, 0x79D45007, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x79D45001, 0x79D45002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79D45001, 0x79D45003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79D45001, 0x79D45004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79D45001, 0x79D45005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79D45001, 0x79D45006, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79D45001, 0x79D45007, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D45002, 24937, 0x9D450019, 73.50702, 11.51006, 84.07365, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */

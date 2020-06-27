@@ -5,18 +5,18 @@ VALUES (0x7C244001,  1154, 0xC2440010, 28.0737, 170.5305, 68.5135, 0.9238795, 0,
 /* @teleloc 0xC2440010 [28.073700 170.530500 68.513500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C244001, 0x7C244002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C244001, 0x7C244003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C244001, 0x7C244004, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7C244001, 0x7C244005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C244001, 0x7C244006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C244001, 0x7C244007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C244001, 0x7C244008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C244001, 0x7C244009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C244001, 0x7C24400A, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C244001, 0x7C24400B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C244001, 0x7C24400C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C244001, 0x7C24400D, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7C244001, 0x7C244002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C244001, 0x7C244003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C244001, 0x7C244004, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7C244001, 0x7C244005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C244001, 0x7C244006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C244001, 0x7C244007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C244001, 0x7C244008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C244001, 0x7C244009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C244001, 0x7C24400A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C244001, 0x7C24400B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C244001, 0x7C24400C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C244001, 0x7C24400D, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C244002,  9401, 0xC2440010, 28.0737, 170.5305, 68.5135, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -71,9 +71,9 @@ VALUES (0x7C24400E,  1542, 0xC2440018, 70.18654, 171.7244, 62.44592, 0.9169235, 
 /* @teleloc 0xC2440018 [70.186540 171.724400 62.445920] 0.916924 0.000000 0.000000 -0.399063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C24400E, 0x7C24400F, '2019-02-10 00:00:00') /* Rock */
-     , (0x7C24400E, 0x7C244010, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7C24400E, 0x7C244011, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7C24400E, 0x7C24400F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7C24400E, 0x7C244010, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7C24400E, 0x7C244011, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C24400F, 42528, 0xC2440018, 70.18654, 171.7244, 62.44592, 0.9169235, 0, 0, -0.3990631,  True, '2019-02-10 00:00:00'); /* Rock */

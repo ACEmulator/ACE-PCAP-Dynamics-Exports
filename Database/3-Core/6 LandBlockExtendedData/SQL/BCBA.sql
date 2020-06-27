@@ -5,15 +5,15 @@ VALUES (0x7BCBA001,  1154, 0xBCBA002A, 139.702, 40.32307, 459.7211, 0.5088421, 0
 /* @teleloc 0xBCBA002A [139.702000 40.323070 459.721100] 0.508842 0.000000 0.000000 -0.860860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCBA001, 0x7BCBA002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BCBA001, 0x7BCBA003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7BCBA001, 0x7BCBA004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BCBA001, 0x7BCBA005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BCBA001, 0x7BCBA006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BCBA001, 0x7BCBA007, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BCBA001, 0x7BCBA008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BCBA001, 0x7BCBA009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BCBA001, 0x7BCBA00A, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7BCBA001, 0x7BCBA002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BCBA001, 0x7BCBA003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BCBA001, 0x7BCBA004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BCBA001, 0x7BCBA005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BCBA001, 0x7BCBA006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BCBA001, 0x7BCBA007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BCBA001, 0x7BCBA008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BCBA001, 0x7BCBA009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BCBA001, 0x7BCBA00A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCBA002,  9400, 0xBCBA002A, 139.702, 40.32307, 459.7211, 0.5088421, 0, 0, -0.8608599,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

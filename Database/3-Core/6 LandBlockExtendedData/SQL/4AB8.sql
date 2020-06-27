@@ -97,44 +97,44 @@ VALUES (0x74AB8018,  1154, 0x4AB8000B, 46.33772, 51.46845, 240.007, -0.6497466, 
 /* @teleloc 0x4AB8000B [46.337720 51.468450 240.007000] -0.649747 0.000000 0.000000 -0.760151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB8018, 0x74AB8019, '2019-02-10 00:00:00') /* Frost */
-     , (0x74AB8018, 0x74AB801A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AB8018, 0x74AB801B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AB8018, 0x74AB801C, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74AB8018, 0x74AB801D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74AB8018, 0x74AB801E, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74AB8018, 0x74AB801F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74AB8018, 0x74AB8020, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x74AB8018, 0x74AB8021, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74AB8018, 0x74AB8022, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74AB8018, 0x74AB8023, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74AB8018, 0x74AB8024, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74AB8018, 0x74AB8025, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74AB8018, 0x74AB8026, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74AB8018, 0x74AB8027, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74AB8018, 0x74AB8028, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74AB8018, 0x74AB8029, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74AB8018, 0x74AB802A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74AB8018, 0x74AB802B, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x74AB8018, 0x74AB802C, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x74AB8018, 0x74AB802D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74AB8018, 0x74AB802E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74AB8018, 0x74AB802F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74AB8018, 0x74AB8030, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74AB8018, 0x74AB8031, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74AB8018, 0x74AB8032, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74AB8018, 0x74AB8033, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x74AB8018, 0x74AB8034, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74AB8018, 0x74AB8035, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x74AB8018, 0x74AB8036, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74AB8018, 0x74AB8037, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x74AB8018, 0x74AB8038, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB8018, 0x74AB8039, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74AB8018, 0x74AB803A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x74AB8018, 0x74AB803B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB8018, 0x74AB803C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB8018, 0x74AB803D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74AB8018, 0x74AB803E, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x74AB8018, 0x74AB8019, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x74AB8018, 0x74AB801A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AB8018, 0x74AB801B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AB8018, 0x74AB801C, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74AB8018, 0x74AB801D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74AB8018, 0x74AB801E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74AB8018, 0x74AB801F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74AB8018, 0x74AB8020, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x74AB8018, 0x74AB8021, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74AB8018, 0x74AB8022, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74AB8018, 0x74AB8023, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74AB8018, 0x74AB8024, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74AB8018, 0x74AB8025, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74AB8018, 0x74AB8026, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74AB8018, 0x74AB8027, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74AB8018, 0x74AB8028, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74AB8018, 0x74AB8029, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74AB8018, 0x74AB802A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74AB8018, 0x74AB802B, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x74AB8018, 0x74AB802C, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x74AB8018, 0x74AB802D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74AB8018, 0x74AB802E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74AB8018, 0x74AB802F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74AB8018, 0x74AB8030, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74AB8018, 0x74AB8031, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74AB8018, 0x74AB8032, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74AB8018, 0x74AB8033, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x74AB8018, 0x74AB8034, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74AB8018, 0x74AB8035, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x74AB8018, 0x74AB8036, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74AB8018, 0x74AB8037, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x74AB8018, 0x74AB8038, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB8018, 0x74AB8039, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74AB8018, 0x74AB803A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x74AB8018, 0x74AB803B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB8018, 0x74AB803C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB8018, 0x74AB803D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74AB8018, 0x74AB803E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB8019, 14512, 0x4AB8000B, 46.33772, 51.46845, 240.007, -0.6497466, 0, 0, -0.7601509,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -293,8 +293,8 @@ VALUES (0x74AB803F,  1542, 0x4AB80022, 100.5979, 42.30542, 240, 0.9990482, 0, 0,
 /* @teleloc 0x4AB80022 [100.597900 42.305420 240.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AB803F, 0x74AB8040, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74AB803F, 0x74AB8041, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74AB803F, 0x74AB8040, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74AB803F, 0x74AB8041, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AB8040,  4179, 0x4AB80022, 100.5979, 42.30542, 240, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

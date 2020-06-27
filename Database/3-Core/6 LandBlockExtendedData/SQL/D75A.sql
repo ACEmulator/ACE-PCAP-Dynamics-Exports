@@ -5,12 +5,12 @@ VALUES (0x7D75A001,  1154, 0xD75A0035, 163.5087, 115.4968, 16.0025, -0.4116987, 
 /* @teleloc 0xD75A0035 [163.508700 115.496800 16.002500] -0.411699 0.000000 0.000000 -0.911320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D75A001, 0x7D75A002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75A001, 0x7D75A003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D75A001, 0x7D75A004, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D75A001, 0x7D75A005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D75A001, 0x7D75A006, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D75A001, 0x7D75A007, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7D75A001, 0x7D75A002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75A001, 0x7D75A003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75A001, 0x7D75A004, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D75A001, 0x7D75A005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D75A001, 0x7D75A006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D75A001, 0x7D75A007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75A002,  1759, 0xD75A0035, 163.5087, 115.4968, 16.0025, -0.4116987, 0, 0, -0.91132,  True, '2019-02-10 00:00:00'); /* Skeleton */

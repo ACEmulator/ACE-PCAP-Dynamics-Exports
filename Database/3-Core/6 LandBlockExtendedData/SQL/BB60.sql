@@ -5,13 +5,13 @@ VALUES (0x7BB60001,  1154, 0xBB600031, 151.9473, 22.02744, 5.912, -0.6184009, 0,
 /* @teleloc 0xBB600031 [151.947300 22.027440 5.912000] -0.618401 0.000000 0.000000 -0.785863 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB60001, 0x7BB60002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB60001, 0x7BB60003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB60001, 0x7BB60004, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BB60001, 0x7BB60005, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB60001, 0x7BB60006, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7BB60001, 0x7BB60007, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB60001, 0x7BB60008, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7BB60001, 0x7BB60002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB60001, 0x7BB60003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB60001, 0x7BB60004, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB60001, 0x7BB60005, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB60001, 0x7BB60006, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7BB60001, 0x7BB60007, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB60001, 0x7BB60008, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB60002,   215, 0xBB600031, 151.9473, 22.02744, 5.912, -0.6184009, 0, 0, -0.7858628,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

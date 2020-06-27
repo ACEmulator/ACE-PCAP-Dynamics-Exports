@@ -5,27 +5,27 @@ VALUES (0x767EC001,  1154, 0x67EC0034, 152.5126, 83.33281, 0.007499933, -0.18494
 /* @teleloc 0x67EC0034 [152.512600 83.332810 0.007500] -0.184944 0.000000 0.000000 -0.982749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767EC001, 0x767EC002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x767EC001, 0x767EC003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x767EC001, 0x767EC004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x767EC001, 0x767EC005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x767EC001, 0x767EC006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x767EC001, 0x767EC007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x767EC001, 0x767EC008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x767EC001, 0x767EC009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x767EC001, 0x767EC00A, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x767EC001, 0x767EC00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x767EC001, 0x767EC00C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x767EC001, 0x767EC00D, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x767EC001, 0x767EC00E, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x767EC001, 0x767EC00F, '2019-02-10 00:00:00') /* Caustic */
-     , (0x767EC001, 0x767EC010, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x767EC001, 0x767EC011, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x767EC001, 0x767EC012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x767EC001, 0x767EC013, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x767EC001, 0x767EC014, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x767EC001, 0x767EC015, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x767EC001, 0x767EC016, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x767EC001, 0x767EC002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x767EC001, 0x767EC003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x767EC001, 0x767EC004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x767EC001, 0x767EC005, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x767EC001, 0x767EC006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x767EC001, 0x767EC007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x767EC001, 0x767EC008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x767EC001, 0x767EC009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x767EC001, 0x767EC00A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x767EC001, 0x767EC00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x767EC001, 0x767EC00C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x767EC001, 0x767EC00D, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x767EC001, 0x767EC00E, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x767EC001, 0x767EC00F, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x767EC001, 0x767EC010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x767EC001, 0x767EC011, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x767EC001, 0x767EC012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x767EC001, 0x767EC013, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x767EC001, 0x767EC014, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x767EC001, 0x767EC015, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x767EC001, 0x767EC016, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767EC002, 14516, 0x67EC0034, 152.5126, 83.33281, 0.007499933, -0.1849437, 0, 0, -0.9827491,  True, '2019-02-10 00:00:00'); /* Caustic */
@@ -116,7 +116,7 @@ VALUES (0x767EC017,  1542, 0x67EC002D, 120.2307, 104.1308, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x67EC002D [120.230700 104.130800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767EC017, 0x767EC018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x767EC017, 0x767EC018, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767EC018, 31445, 0x67EC002D, 120.2307, 104.1308, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

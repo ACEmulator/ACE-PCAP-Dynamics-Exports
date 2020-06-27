@@ -5,9 +5,9 @@ VALUES (0x7C169001,  1154, 0xC1690003, 18.23767, 68.58633, 63.81728, -0.4592518,
 /* @teleloc 0xC1690003 [18.237670 68.586330 63.817280] -0.459252 0.000000 0.000000 -0.888306 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C169001, 0x7C169002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C169001, 0x7C169003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C169001, 0x7C169004, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7C169001, 0x7C169002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C169001, 0x7C169003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C169001, 0x7C169004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C169002,   217, 0xC1690003, 18.23767, 68.58633, 63.81728, -0.4592518, 0, 0, -0.8883061,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

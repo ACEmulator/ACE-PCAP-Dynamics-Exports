@@ -5,17 +5,17 @@ VALUES (0x7F148001,  1154, 0xF148002D, 129.5615, 115.5908, 62.19312, -0.6641359,
 /* @teleloc 0xF148002D [129.561500 115.590800 62.193120] -0.664136 0.000000 0.000000 -0.747612 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F148001, 0x7F148002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7F148001, 0x7F148003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7F148001, 0x7F148004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7F148001, 0x7F148005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7F148001, 0x7F148006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F148001, 0x7F148007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F148001, 0x7F148008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F148001, 0x7F148009, '2019-02-10 00:00:00') /* Banderling Leader */
-     , (0x7F148001, 0x7F14800A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7F148001, 0x7F14800B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7F148001, 0x7F14800C, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7F148001, 0x7F148002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7F148001, 0x7F148003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7F148001, 0x7F148004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7F148001, 0x7F148005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7F148001, 0x7F148006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F148001, 0x7F148007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F148001, 0x7F148008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F148001, 0x7F148009, '2019-02-10 00:00:00') /* Banderling Leader (11983) */
+     , (0x7F148001, 0x7F14800A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7F148001, 0x7F14800B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7F148001, 0x7F14800C, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F148002,  1609, 0xF148002D, 129.5615, 115.5908, 62.19312, -0.6641359, 0, 0, -0.7476119,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -66,7 +66,7 @@ VALUES (0x7F14800D,  1542, 0xF1480028, 106.6541, 169.345, 52.31542, 0.7587239, 0
 /* @teleloc 0xF1480028 [106.654100 169.345000 52.315420] 0.758724 0.000000 0.000000 -0.651412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F14800D, 0x7F14800E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7F14800D, 0x7F14800E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F14800E,  8037, 0xF1480028, 106.6541, 169.345, 52.31542, 0.7587239, 0, 0, -0.6514124,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

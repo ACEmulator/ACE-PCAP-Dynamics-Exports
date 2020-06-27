@@ -9,12 +9,12 @@ VALUES (0x77C66001,  1154, 0x7C660031, 166.6949, 1.590995, 10, 0.05385589, 0, 0,
 /* @teleloc 0x7C660031 [166.694900 1.590995 10.000000] 0.053856 0.000000 0.000000 -0.998549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C66001, 0x77C66002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x77C66001, 0x77C66003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x77C66001, 0x77C66004, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x77C66001, 0x77C66005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x77C66001, 0x77C66006, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x77C66001, 0x77C66007, '2019-02-10 00:00:00') /* Old Bones */;
+VALUES (0x77C66001, 0x77C66002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x77C66001, 0x77C66003, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x77C66001, 0x77C66004, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x77C66001, 0x77C66005, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x77C66001, 0x77C66006, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x77C66001, 0x77C66007, '2019-02-10 00:00:00') /* Old Bones (19436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C66002,  5429, 0x7C660031, 166.6949, 1.590995, 10, 0.05385589, 0, 0, -0.9985487,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -45,18 +45,18 @@ VALUES (0x77C66008,  1542, 0x7C660021, 104.5, 8.5, 12.34682, 1, 0, 0, 0, False, 
 /* @teleloc 0x7C660021 [104.500000 8.500000 12.346820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C66008, 0x77C66009, '2019-02-10 00:00:00') /* Drudge Rook */
-     , (0x77C66008, 0x77C6600A, '2019-02-10 00:00:00') /* Drudge Knight */
-     , (0x77C66008, 0x77C6600B, '2019-02-10 00:00:00') /* Drudge Bishop */
-     , (0x77C66008, 0x77C6600C, '2019-02-10 00:00:00') /* Drudge Queen */
-     , (0x77C66008, 0x77C6600D, '2019-02-10 00:00:00') /* Drudge King */
-     , (0x77C66008, 0x77C6600E, '2019-02-10 00:00:00') /* Drudge Bishop */
-     , (0x77C66008, 0x77C6600F, '2019-02-10 00:00:00') /* Drudge Knight */
-     , (0x77C66008, 0x77C66010, '2019-02-10 00:00:00') /* Drudge Rook */
-     , (0x77C66008, 0x77C66011, '2019-02-10 00:00:00') /* Drudge Pawn */
-     , (0x77C66008, 0x77C66012, '2019-02-10 00:00:00') /* Drudge Pawn */
-     , (0x77C66008, 0x77C66013, '2019-02-10 00:00:00') /* Drudge Pawn */
-     , (0x77C66008, 0x77C66014, '2019-02-10 00:00:00') /* Drudge Pawn */;
+VALUES (0x77C66008, 0x77C66009, '2019-02-10 00:00:00') /* Drudge Rook (14343) */
+     , (0x77C66008, 0x77C6600A, '2019-02-10 00:00:00') /* Drudge Knight (14344) */
+     , (0x77C66008, 0x77C6600B, '2019-02-10 00:00:00') /* Drudge Bishop (14345) */
+     , (0x77C66008, 0x77C6600C, '2019-02-10 00:00:00') /* Drudge Queen (14346) */
+     , (0x77C66008, 0x77C6600D, '2019-02-10 00:00:00') /* Drudge King (14347) */
+     , (0x77C66008, 0x77C6600E, '2019-02-10 00:00:00') /* Drudge Bishop (14345) */
+     , (0x77C66008, 0x77C6600F, '2019-02-10 00:00:00') /* Drudge Knight (14344) */
+     , (0x77C66008, 0x77C66010, '2019-02-10 00:00:00') /* Drudge Rook (14343) */
+     , (0x77C66008, 0x77C66011, '2019-02-10 00:00:00') /* Drudge Pawn (14342) */
+     , (0x77C66008, 0x77C66012, '2019-02-10 00:00:00') /* Drudge Pawn (14342) */
+     , (0x77C66008, 0x77C66013, '2019-02-10 00:00:00') /* Drudge Pawn (14342) */
+     , (0x77C66008, 0x77C66014, '2019-02-10 00:00:00') /* Drudge Pawn (14342) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C66009, 14343, 0x7C660021, 104.5, 8.5, 12.34682, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Rook */

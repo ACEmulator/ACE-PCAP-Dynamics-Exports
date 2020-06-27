@@ -5,16 +5,16 @@ VALUES (0x792E9001,  1154, 0x92E9002C, 124.4861, 90.51277, 50.17141, -0.5246074,
 /* @teleloc 0x92E9002C [124.486100 90.512770 50.171410] -0.524607 0.000000 0.000000 -0.851344 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E9001, 0x792E9002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x792E9001, 0x792E9003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x792E9001, 0x792E9004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x792E9001, 0x792E9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x792E9001, 0x792E9006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792E9001, 0x792E9007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x792E9001, 0x792E9008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x792E9001, 0x792E9009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x792E9001, 0x792E900A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792E9001, 0x792E900B, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x792E9001, 0x792E9002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x792E9001, 0x792E9003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x792E9001, 0x792E9004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x792E9001, 0x792E9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x792E9001, 0x792E9006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792E9001, 0x792E9007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x792E9001, 0x792E9008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x792E9001, 0x792E9009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x792E9001, 0x792E900A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792E9001, 0x792E900B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E9002,  1610, 0x92E9002C, 124.4861, 90.51277, 50.17141, -0.5246074, 0, 0, -0.8513443,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -61,8 +61,8 @@ VALUES (0x792E900C,  1542, 0x92E9002E, 120.3755, 123.8893, 45.32049, 1, 0, 0, 0,
 /* @teleloc 0x92E9002E [120.375500 123.889300 45.320490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E900C, 0x792E900D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x792E900C, 0x792E900E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x792E900C, 0x792E900D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x792E900C, 0x792E900E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E900D, 22567, 0x92E9002E, 120.3755, 123.8893, 45.32049, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

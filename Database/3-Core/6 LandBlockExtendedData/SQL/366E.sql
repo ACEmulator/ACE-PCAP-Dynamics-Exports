@@ -5,18 +5,18 @@ VALUES (0x7366E001,  1154, 0x366E003D, 180.0738, 102.8168, 37.01615, 0.9238795, 
 /* @teleloc 0x366E003D [180.073800 102.816800 37.016150] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7366E001, 0x7366E002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7366E001, 0x7366E003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7366E001, 0x7366E004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7366E001, 0x7366E005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7366E001, 0x7366E006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7366E001, 0x7366E007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7366E001, 0x7366E008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7366E001, 0x7366E009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7366E001, 0x7366E00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7366E001, 0x7366E00B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7366E001, 0x7366E00C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7366E001, 0x7366E00D, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x7366E001, 0x7366E002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7366E001, 0x7366E003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7366E001, 0x7366E004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7366E001, 0x7366E005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7366E001, 0x7366E006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7366E001, 0x7366E007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7366E001, 0x7366E008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7366E001, 0x7366E009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7366E001, 0x7366E00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7366E001, 0x7366E00B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7366E001, 0x7366E00C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7366E001, 0x7366E00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7366E002, 36830, 0x366E003D, 180.0738, 102.8168, 37.01615, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -71,7 +71,7 @@ VALUES (0x7366E00E,  1542, 0x366E003B, 187.4416, 58.58152, 41.46266, -4.371139E-
 /* @teleloc 0x366E003B [187.441600 58.581520 41.462660] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7366E00E, 0x7366E00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7366E00E, 0x7366E00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7366E00F,  4380, 0x366E003B, 187.4416, 58.58152, 41.46266, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

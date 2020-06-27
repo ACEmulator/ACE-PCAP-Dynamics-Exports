@@ -5,14 +5,14 @@ VALUES (0x79BE7001,  1154, 0x9BE70021, 103.5344, 21.2361, 110.9141, 0.6755902, 0
 /* @teleloc 0x9BE70021 [103.534400 21.236100 110.914100] 0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BE7001, 0x79BE7002, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79BE7001, 0x79BE7003, '2019-02-10 00:00:00') /* Shivver */
-     , (0x79BE7001, 0x79BE7004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BE7001, 0x79BE7005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79BE7001, 0x79BE7006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79BE7001, 0x79BE7007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79BE7001, 0x79BE7008, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79BE7001, 0x79BE7009, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x79BE7001, 0x79BE7002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79BE7001, 0x79BE7003, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x79BE7001, 0x79BE7004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BE7001, 0x79BE7005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79BE7001, 0x79BE7006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79BE7001, 0x79BE7007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79BE7001, 0x79BE7008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79BE7001, 0x79BE7009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BE7002,  7994, 0x9BE70021, 103.5344, 21.2361, 110.9141, 0.6755902, 0, 0, -0.7372773,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */

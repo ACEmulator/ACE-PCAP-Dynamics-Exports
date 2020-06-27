@@ -5,24 +5,24 @@ VALUES (0x7C6BC001,  1154, 0xC6BC0036, 152.853, 134.422, 93.73348, 0.5165763, 0,
 /* @teleloc 0xC6BC0036 [152.853000 134.422000 93.733480] 0.516576 0.000000 0.000000 -0.856241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6BC001, 0x7C6BC002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C6BC001, 0x7C6BC003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6BC001, 0x7C6BC004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7C6BC001, 0x7C6BC005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7C6BC001, 0x7C6BC008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7C6BC001, 0x7C6BC009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6BC001, 0x7C6BC00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C6BC001, 0x7C6BC00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C6BC001, 0x7C6BC00E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7C6BC001, 0x7C6BC00F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7C6BC001, 0x7C6BC010, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7C6BC001, 0x7C6BC011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C6BC001, 0x7C6BC013, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7C6BC001, 0x7C6BC002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C6BC001, 0x7C6BC003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6BC001, 0x7C6BC004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7C6BC001, 0x7C6BC005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7C6BC001, 0x7C6BC008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7C6BC001, 0x7C6BC009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6BC001, 0x7C6BC00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C6BC001, 0x7C6BC00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC00D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C6BC001, 0x7C6BC00E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7C6BC001, 0x7C6BC00F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7C6BC001, 0x7C6BC010, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7C6BC001, 0x7C6BC011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C6BC001, 0x7C6BC013, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6BC002, 24275, 0xC6BC0036, 152.853, 134.422, 93.73348, 0.5165763, 0, 0, -0.8562412,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

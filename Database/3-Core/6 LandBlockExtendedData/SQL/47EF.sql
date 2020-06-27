@@ -5,20 +5,20 @@ VALUES (0x747EF001,  1154, 0x47EF0006, 1.146576, 133.7121, 48.57749, 0.9575507, 
 /* @teleloc 0x47EF0006 [1.146576 133.712100 48.577490] 0.957551 0.000000 0.000000 -0.288265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747EF001, 0x747EF002, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x747EF001, 0x747EF003, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x747EF001, 0x747EF004, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x747EF001, 0x747EF005, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x747EF001, 0x747EF006, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x747EF001, 0x747EF007, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x747EF001, 0x747EF008, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x747EF001, 0x747EF009, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x747EF001, 0x747EF00A, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x747EF001, 0x747EF00B, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x747EF001, 0x747EF00C, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x747EF001, 0x747EF00D, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x747EF001, 0x747EF00E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x747EF001, 0x747EF00F, '2019-02-10 00:00:00') /* Skeletal Mate */;
+VALUES (0x747EF001, 0x747EF002, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747EF001, 0x747EF003, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x747EF001, 0x747EF004, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x747EF001, 0x747EF005, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x747EF001, 0x747EF006, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x747EF001, 0x747EF007, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x747EF001, 0x747EF008, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x747EF001, 0x747EF009, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x747EF001, 0x747EF00A, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x747EF001, 0x747EF00B, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x747EF001, 0x747EF00C, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x747EF001, 0x747EF00D, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x747EF001, 0x747EF00E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x747EF001, 0x747EF00F, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747EF002, 28655, 0x47EF0006, 1.146576, 133.7121, 48.57749, 0.9575507, 0, 0, -0.2882649,  True, '2019-02-10 00:00:00'); /* Viamontian Hand */

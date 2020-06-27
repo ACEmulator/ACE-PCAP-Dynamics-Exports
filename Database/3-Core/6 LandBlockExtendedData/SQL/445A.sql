@@ -5,10 +5,10 @@ VALUES (0x7445A001,  1154, 0x445A000F, 44.6936, 156.0774, 23.17748, 0.9238795, 0
 /* @teleloc 0x445A000F [44.693600 156.077400 23.177480] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445A001, 0x7445A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7445A001, 0x7445A003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7445A001, 0x7445A004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7445A001, 0x7445A005, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7445A001, 0x7445A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7445A001, 0x7445A003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7445A001, 0x7445A004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7445A001, 0x7445A005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445A002,  7119, 0x445A000F, 44.6936, 156.0774, 23.17748, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -31,7 +31,7 @@ VALUES (0x7445A006,  1542, 0x445A0036, 146.149, 140.4744, 37.05423, 1, 0, 0, 0, 
 /* @teleloc 0x445A0036 [146.149000 140.474400 37.054230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7445A006, 0x7445A007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7445A006, 0x7445A007, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7445A007, 22571, 0x445A0036, 146.149, 140.4744, 37.05423, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

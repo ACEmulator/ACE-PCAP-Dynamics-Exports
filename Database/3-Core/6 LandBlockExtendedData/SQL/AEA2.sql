@@ -5,11 +5,11 @@ VALUES (0x7AEA2001,  1154, 0xAEA20016, 49.50859, 121.1885, 147.5615, 0.9960304, 
 /* @teleloc 0xAEA20016 [49.508590 121.188500 147.561500] 0.996030 0.000000 0.000000 -0.089014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA2001, 0x7AEA2002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AEA2001, 0x7AEA2003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA2001, 0x7AEA2004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AEA2001, 0x7AEA2005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AEA2001, 0x7AEA2006, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AEA2001, 0x7AEA2002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AEA2001, 0x7AEA2003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA2001, 0x7AEA2004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AEA2001, 0x7AEA2005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AEA2001, 0x7AEA2006, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA2002,   195, 0xAEA20016, 49.50859, 121.1885, 147.5615, 0.9960304, 0, 0, -0.08901365,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -36,8 +36,8 @@ VALUES (0x7AEA2007,  1542, 0xAEA20011, 70.78506, 6.028717, 158.0382, 0.9537169, 
 /* @teleloc 0xAEA20011 [70.785060 6.028717 158.038200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEA2007, 0x7AEA2008, '2019-02-10 00:00:00') /* Golem Sanctum Portal */
-     , (0x7AEA2007, 0x7AEA2009, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7AEA2007, 0x7AEA2008, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */
+     , (0x7AEA2007, 0x7AEA2009, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA2008,  7934, 0xAEA20011, 70.78506, 6.028717, 158.0382, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Golem Sanctum Portal */

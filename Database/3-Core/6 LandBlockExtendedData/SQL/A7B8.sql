@@ -5,29 +5,29 @@ VALUES (0x7A7B8001,  1154, 0xA7B8000F, 29.49164, 156.8809, 67.6855, -0.9415905, 
 /* @teleloc 0xA7B8000F [29.491640 156.880900 67.685500] -0.941591 0.000000 0.000000 -0.336760 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7B8001, 0x7A7B8002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A7B8001, 0x7A7B8003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7B8001, 0x7A7B8004, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7A7B8001, 0x7A7B8005, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A7B8001, 0x7A7B8006, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A7B8001, 0x7A7B8007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7B8001, 0x7A7B8008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A7B8001, 0x7A7B8009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7B8001, 0x7A7B800A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A7B8001, 0x7A7B800B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A7B8001, 0x7A7B800C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A7B8001, 0x7A7B800D, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7A7B8001, 0x7A7B800E, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7A7B8001, 0x7A7B800F, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A7B8001, 0x7A7B8010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A7B8001, 0x7A7B8011, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A7B8001, 0x7A7B8012, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A7B8001, 0x7A7B8013, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A7B8001, 0x7A7B8014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A7B8001, 0x7A7B8015, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A7B8001, 0x7A7B8016, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7A7B8001, 0x7A7B8017, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A7B8001, 0x7A7B8018, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7A7B8001, 0x7A7B8002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A7B8001, 0x7A7B8003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7B8001, 0x7A7B8004, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7A7B8001, 0x7A7B8005, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A7B8001, 0x7A7B8006, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A7B8001, 0x7A7B8007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7B8001, 0x7A7B8008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A7B8001, 0x7A7B8009, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7B8001, 0x7A7B800A, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A7B8001, 0x7A7B800B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A7B8001, 0x7A7B800C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A7B8001, 0x7A7B800D, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A7B8001, 0x7A7B800E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A7B8001, 0x7A7B800F, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A7B8001, 0x7A7B8010, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A7B8001, 0x7A7B8011, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A7B8001, 0x7A7B8012, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7A7B8001, 0x7A7B8013, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A7B8001, 0x7A7B8014, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A7B8001, 0x7A7B8015, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A7B8001, 0x7A7B8016, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A7B8001, 0x7A7B8017, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A7B8001, 0x7A7B8018, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7B8002,  4110, 0xA7B8000F, 29.49164, 156.8809, 67.6855, -0.9415905, 0, 0, -0.33676,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

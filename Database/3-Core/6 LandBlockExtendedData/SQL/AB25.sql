@@ -5,18 +5,18 @@ VALUES (0x7AB25001,  1154, 0xAB25000D, 39.23245, 96.83124, 278.7645, -0.419695, 
 /* @teleloc 0xAB25000D [39.232450 96.831240 278.764500] -0.419695 0.000000 0.000000 -0.907665 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB25001, 0x7AB25002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7AB25001, 0x7AB25003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AB25001, 0x7AB25004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7AB25001, 0x7AB25005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AB25001, 0x7AB25006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7AB25001, 0x7AB25007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AB25001, 0x7AB25008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AB25001, 0x7AB25009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7AB25001, 0x7AB2500A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AB25001, 0x7AB2500B, '2019-02-10 00:00:00') /* Banished Phyntos Wasp */
-     , (0x7AB25001, 0x7AB2500C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AB25001, 0x7AB2500D, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7AB25001, 0x7AB25002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7AB25001, 0x7AB25003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AB25001, 0x7AB25004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7AB25001, 0x7AB25005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AB25001, 0x7AB25006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7AB25001, 0x7AB25007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AB25001, 0x7AB25008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AB25001, 0x7AB25009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7AB25001, 0x7AB2500A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AB25001, 0x7AB2500B, '2019-02-10 00:00:00') /* Banished Phyntos Wasp (30904) */
+     , (0x7AB25001, 0x7AB2500C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AB25001, 0x7AB2500D, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB25002,  8139, 0xAB25000D, 39.23245, 96.83124, 278.7645, -0.419695, 0, 0, -0.9076652,  True, '2019-02-10 00:00:00'); /* Gigas Raider */

@@ -5,16 +5,16 @@ VALUES (0x7A932001,  1154, 0xA932001C, 90.93241, 73.59552, 71.44724, 0.982017, 0
 /* @teleloc 0xA932001C [90.932410 73.595520 71.447240] 0.982017 0.000000 0.000000 -0.188793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A932001, 0x7A932002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A932001, 0x7A932003, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7A932001, 0x7A932004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A932001, 0x7A932005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A932001, 0x7A932006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A932001, 0x7A932007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A932001, 0x7A932008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A932001, 0x7A932009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A932001, 0x7A93200A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A932001, 0x7A93200B, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7A932001, 0x7A932002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A932001, 0x7A932003, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7A932001, 0x7A932004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A932001, 0x7A932005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A932001, 0x7A932006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A932001, 0x7A932007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A932001, 0x7A932008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A932001, 0x7A932009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A932001, 0x7A93200A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A932001, 0x7A93200B, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A932002,  7121, 0xA932001C, 90.93241, 73.59552, 71.44724, 0.982017, 0, 0, -0.1887925,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -61,7 +61,7 @@ VALUES (0x7A93200C,  1542, 0xA932001C, 92.07063, 77.91579, 71.17957, 1, 0, 0, 0,
 /* @teleloc 0xA932001C [92.070630 77.915790 71.179570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A93200C, 0x7A93200D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A93200C, 0x7A93200D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A93200D, 22567, 0xA932001C, 92.07063, 77.91579, 71.17957, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

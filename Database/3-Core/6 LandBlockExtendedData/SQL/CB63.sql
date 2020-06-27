@@ -5,23 +5,23 @@ VALUES (0x7CB63001,  1154, 0xCB63000A, 45.80618, 47.93615, 6, -0.1736482, 0, 0, 
 /* @teleloc 0xCB63000A [45.806180 47.936150 6.000000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB63001, 0x7CB63002, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB63001, 0x7CB63003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB63001, 0x7CB63004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CB63001, 0x7CB63005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB63001, 0x7CB63006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CB63001, 0x7CB63007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB63001, 0x7CB63008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB63001, 0x7CB63009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB63001, 0x7CB6300A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CB63001, 0x7CB6300B, '2019-02-10 00:00:00') /* Lich */
-     , (0x7CB63001, 0x7CB6300C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CB63001, 0x7CB6300D, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CB63001, 0x7CB6300E, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CB63001, 0x7CB6300F, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB63001, 0x7CB63010, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB63001, 0x7CB63011, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CB63001, 0x7CB63012, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7CB63001, 0x7CB63002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB63001, 0x7CB63003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB63001, 0x7CB63004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CB63001, 0x7CB63005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB63001, 0x7CB63006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CB63001, 0x7CB63007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB63001, 0x7CB63008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB63001, 0x7CB63009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB63001, 0x7CB6300A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CB63001, 0x7CB6300B, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7CB63001, 0x7CB6300C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CB63001, 0x7CB6300D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CB63001, 0x7CB6300E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CB63001, 0x7CB6300F, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB63001, 0x7CB63010, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB63001, 0x7CB63011, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CB63001, 0x7CB63012, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB63002,  2584, 0xCB63000A, 45.80618, 47.93615, 6, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */

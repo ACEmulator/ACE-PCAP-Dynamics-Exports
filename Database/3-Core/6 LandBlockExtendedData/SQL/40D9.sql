@@ -5,25 +5,25 @@ VALUES (0x740D9001,  1154, 0x40D9000D, 34.17408, 119.0879, 9.700681, 0.6870667, 
 /* @teleloc 0x40D9000D [34.174080 119.087900 9.700681] 0.687067 0.000000 0.000000 -0.726594 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740D9001, 0x740D9002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x740D9001, 0x740D9003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x740D9001, 0x740D9004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740D9001, 0x740D9005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x740D9001, 0x740D9006, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x740D9001, 0x740D9007, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x740D9001, 0x740D9008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x740D9001, 0x740D9009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x740D9001, 0x740D900A, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x740D9001, 0x740D900B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x740D9001, 0x740D900C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x740D9001, 0x740D900D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x740D9001, 0x740D900E, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x740D9001, 0x740D900F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740D9001, 0x740D9010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740D9001, 0x740D9011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740D9001, 0x740D9012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x740D9001, 0x740D9013, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x740D9001, 0x740D9014, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x740D9001, 0x740D9002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x740D9001, 0x740D9003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x740D9001, 0x740D9004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740D9001, 0x740D9005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x740D9001, 0x740D9006, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x740D9001, 0x740D9007, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x740D9001, 0x740D9008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x740D9001, 0x740D9009, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x740D9001, 0x740D900A, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x740D9001, 0x740D900B, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x740D9001, 0x740D900C, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x740D9001, 0x740D900D, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x740D9001, 0x740D900E, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x740D9001, 0x740D900F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740D9001, 0x740D9010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740D9001, 0x740D9011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740D9001, 0x740D9012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x740D9001, 0x740D9013, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x740D9001, 0x740D9014, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D9002, 23563, 0x40D9000D, 34.17408, 119.0879, 9.700681, 0.6870667, 0, 0, -0.7265943,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -106,7 +106,7 @@ VALUES (0x740D9015,  1542, 0x40D9001E, 90.13068, 138.8769, 19.02178, -4.371139E-
 /* @teleloc 0x40D9001E [90.130680 138.876900 19.021780] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740D9015, 0x740D9016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x740D9015, 0x740D9016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740D9016,  4380, 0x40D9001E, 90.13068, 138.8769, 19.02178, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

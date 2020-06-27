@@ -5,18 +5,18 @@ VALUES (0x7B1B4001,  1154, 0xB1B40018, 67.35246, 179.8179, 83.62036, 0.9238795, 
 /* @teleloc 0xB1B40018 [67.352460 179.817900 83.620360] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1B4001, 0x7B1B4002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B1B4001, 0x7B1B4003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B1B4001, 0x7B1B4004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B1B4001, 0x7B1B4005, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B1B4001, 0x7B1B4006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B1B4001, 0x7B1B4007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B1B4001, 0x7B1B4008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1B4001, 0x7B1B4009, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B1B4001, 0x7B1B400A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B1B4001, 0x7B1B400B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B1B4001, 0x7B1B400C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B1B4001, 0x7B1B400D, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7B1B4001, 0x7B1B4002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B1B4001, 0x7B1B4003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B1B4001, 0x7B1B4004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B1B4001, 0x7B1B4005, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B1B4001, 0x7B1B4006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B1B4001, 0x7B1B4007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B1B4001, 0x7B1B4008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1B4001, 0x7B1B4009, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B1B4001, 0x7B1B400A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B1B4001, 0x7B1B400B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B1B4001, 0x7B1B400C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B1B4001, 0x7B1B400D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1B4002,   182, 0xB1B40018, 67.35246, 179.8179, 83.62036, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

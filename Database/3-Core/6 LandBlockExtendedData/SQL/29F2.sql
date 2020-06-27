@@ -5,17 +5,17 @@ VALUES (0x729F2001,  1154, 0x29F20021, 112.1753, 22.2408, 4.879601, -0.4925824, 
 /* @teleloc 0x29F20021 [112.175300 22.240800 4.879601] -0.492582 0.000000 0.000000 -0.870266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729F2001, 0x729F2002, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x729F2001, 0x729F2003, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x729F2001, 0x729F2004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729F2001, 0x729F2005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x729F2001, 0x729F2006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x729F2001, 0x729F2007, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729F2001, 0x729F2008, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x729F2001, 0x729F2009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x729F2001, 0x729F200A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729F2001, 0x729F200B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x729F2001, 0x729F200C, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */;
+VALUES (0x729F2001, 0x729F2002, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x729F2001, 0x729F2003, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729F2001, 0x729F2004, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729F2001, 0x729F2005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x729F2001, 0x729F2006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x729F2001, 0x729F2007, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729F2001, 0x729F2008, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x729F2001, 0x729F2009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x729F2001, 0x729F200A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729F2001, 0x729F200B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x729F2001, 0x729F200C, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729F2002, 29353, 0x29F20021, 112.1753, 22.2408, 4.879601, -0.4925824, 0, 0, -0.8702658,  True, '2019-02-10 00:00:00'); /* Arctic Mattekar */

@@ -21,113 +21,113 @@ VALUES (0x742DE004,  1154, 0x42DE003C, 178.6487, 75.61236, 0.01050007, 0.8660254
 /* @teleloc 0x42DE003C [178.648700 75.612360 0.010500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DE004, 0x742DE005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x742DE004, 0x742DE006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x742DE004, 0x742DE007, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x742DE004, 0x742DE008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x742DE004, 0x742DE009, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x742DE004, 0x742DE00A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742DE004, 0x742DE00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x742DE004, 0x742DE00C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE00D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x742DE004, 0x742DE00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x742DE004, 0x742DE010, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x742DE004, 0x742DE011, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x742DE004, 0x742DE012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE013, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE014, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x742DE004, 0x742DE015, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x742DE004, 0x742DE016, '2019-02-10 00:00:00') /* Shadow */
-     , (0x742DE004, 0x742DE017, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x742DE004, 0x742DE018, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x742DE004, 0x742DE019, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742DE004, 0x742DE01A, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x742DE004, 0x742DE01B, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x742DE004, 0x742DE01C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x742DE004, 0x742DE01D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x742DE004, 0x742DE01E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x742DE004, 0x742DE01F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x742DE004, 0x742DE020, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x742DE004, 0x742DE021, '2019-02-10 00:00:00') /* Caustic */
-     , (0x742DE004, 0x742DE022, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x742DE004, 0x742DE023, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x742DE004, 0x742DE024, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x742DE004, 0x742DE025, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x742DE004, 0x742DE026, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x742DE004, 0x742DE027, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x742DE004, 0x742DE028, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x742DE004, 0x742DE029, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742DE004, 0x742DE02A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x742DE004, 0x742DE02B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x742DE004, 0x742DE02C, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x742DE004, 0x742DE02D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x742DE004, 0x742DE02E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x742DE004, 0x742DE02F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x742DE004, 0x742DE030, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x742DE004, 0x742DE031, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE032, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE033, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x742DE004, 0x742DE034, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x742DE004, 0x742DE035, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x742DE004, 0x742DE036, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x742DE004, 0x742DE037, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x742DE004, 0x742DE038, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x742DE004, 0x742DE039, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742DE004, 0x742DE03A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE03B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE03C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE03D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE03E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742DE004, 0x742DE03F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x742DE004, 0x742DE040, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x742DE004, 0x742DE041, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x742DE004, 0x742DE042, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x742DE004, 0x742DE043, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE044, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE045, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE046, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742DE004, 0x742DE047, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x742DE004, 0x742DE048, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742DE004, 0x742DE049, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x742DE004, 0x742DE04A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x742DE004, 0x742DE04B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742DE004, 0x742DE04C, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x742DE004, 0x742DE04D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x742DE004, 0x742DE04E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x742DE004, 0x742DE04F, '2019-02-10 00:00:00') /* Caustic */
-     , (0x742DE004, 0x742DE050, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x742DE004, 0x742DE051, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x742DE004, 0x742DE052, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x742DE004, 0x742DE053, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x742DE004, 0x742DE054, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x742DE004, 0x742DE055, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x742DE004, 0x742DE056, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x742DE004, 0x742DE057, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x742DE004, 0x742DE058, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x742DE004, 0x742DE059, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x742DE004, 0x742DE05A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x742DE004, 0x742DE05B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x742DE004, 0x742DE05C, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x742DE004, 0x742DE05D, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x742DE004, 0x742DE05E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x742DE004, 0x742DE05F, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x742DE004, 0x742DE060, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742DE004, 0x742DE061, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742DE004, 0x742DE062, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x742DE004, 0x742DE063, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742DE004, 0x742DE064, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x742DE004, 0x742DE065, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x742DE004, 0x742DE066, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x742DE004, 0x742DE067, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x742DE004, 0x742DE068, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x742DE004, 0x742DE069, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x742DE004, 0x742DE06A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x742DE004, 0x742DE06B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x742DE004, 0x742DE06C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x742DE004, 0x742DE06D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x742DE004, 0x742DE06E, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x742DE004, 0x742DE06F, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x742DE004, 0x742DE005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x742DE004, 0x742DE006, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x742DE004, 0x742DE007, '2019-02-10 00:00:00') /* Exploration Marker (39791) */
+     , (0x742DE004, 0x742DE008, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x742DE004, 0x742DE009, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x742DE004, 0x742DE00A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742DE004, 0x742DE00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x742DE004, 0x742DE00C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE00D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x742DE004, 0x742DE00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x742DE004, 0x742DE010, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x742DE004, 0x742DE011, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x742DE004, 0x742DE012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE014, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x742DE004, 0x742DE015, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x742DE004, 0x742DE016, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x742DE004, 0x742DE017, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x742DE004, 0x742DE018, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x742DE004, 0x742DE019, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742DE004, 0x742DE01A, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x742DE004, 0x742DE01B, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x742DE004, 0x742DE01C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x742DE004, 0x742DE01D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x742DE004, 0x742DE01E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x742DE004, 0x742DE01F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x742DE004, 0x742DE020, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x742DE004, 0x742DE021, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x742DE004, 0x742DE022, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x742DE004, 0x742DE023, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x742DE004, 0x742DE024, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x742DE004, 0x742DE025, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x742DE004, 0x742DE026, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x742DE004, 0x742DE027, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x742DE004, 0x742DE028, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x742DE004, 0x742DE029, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742DE004, 0x742DE02A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x742DE004, 0x742DE02B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x742DE004, 0x742DE02C, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x742DE004, 0x742DE02D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x742DE004, 0x742DE02E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x742DE004, 0x742DE02F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x742DE004, 0x742DE030, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x742DE004, 0x742DE031, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE032, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE033, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x742DE004, 0x742DE034, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x742DE004, 0x742DE035, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x742DE004, 0x742DE036, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x742DE004, 0x742DE037, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x742DE004, 0x742DE038, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x742DE004, 0x742DE039, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742DE004, 0x742DE03A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE03B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE03C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE03D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE03E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742DE004, 0x742DE03F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x742DE004, 0x742DE040, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x742DE004, 0x742DE041, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x742DE004, 0x742DE042, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x742DE004, 0x742DE043, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE044, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE045, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE046, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742DE004, 0x742DE047, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x742DE004, 0x742DE048, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742DE004, 0x742DE049, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x742DE004, 0x742DE04A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x742DE004, 0x742DE04B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742DE004, 0x742DE04C, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x742DE004, 0x742DE04D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x742DE004, 0x742DE04E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x742DE004, 0x742DE04F, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x742DE004, 0x742DE050, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x742DE004, 0x742DE051, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x742DE004, 0x742DE052, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x742DE004, 0x742DE053, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x742DE004, 0x742DE054, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x742DE004, 0x742DE055, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x742DE004, 0x742DE056, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x742DE004, 0x742DE057, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x742DE004, 0x742DE058, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x742DE004, 0x742DE059, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x742DE004, 0x742DE05A, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x742DE004, 0x742DE05B, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x742DE004, 0x742DE05C, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x742DE004, 0x742DE05D, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x742DE004, 0x742DE05E, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x742DE004, 0x742DE05F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x742DE004, 0x742DE060, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742DE004, 0x742DE061, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742DE004, 0x742DE062, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x742DE004, 0x742DE063, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742DE004, 0x742DE064, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x742DE004, 0x742DE065, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x742DE004, 0x742DE066, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x742DE004, 0x742DE067, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x742DE004, 0x742DE068, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x742DE004, 0x742DE069, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x742DE004, 0x742DE06A, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x742DE004, 0x742DE06B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x742DE004, 0x742DE06C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x742DE004, 0x742DE06D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x742DE004, 0x742DE06E, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x742DE004, 0x742DE06F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DE005,  7081, 0x42DE003C, 178.6487, 75.61236, 0.01050007, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -562,9 +562,9 @@ VALUES (0x742DE070,  1154, 0x42DE0004, 12.8004, 74.3821, 4.005, -0.957745, 0, 0,
 /* @teleloc 0x42DE0004 [12.800400 74.382100 4.005000] -0.957745 0.000000 0.000000 -0.287620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DE070, 0x742DE071, '2019-02-10 00:00:00') /* Suzuhara Sheshumi */
-     , (0x742DE070, 0x742DE072, '2019-02-10 00:00:00') /* Feruza ibn Salaq */
-     , (0x742DE070, 0x742DE073, '2019-02-10 00:00:00') /* Guard Al'Zira */;
+VALUES (0x742DE070, 0x742DE071, '2019-02-10 00:00:00') /* Suzuhara Sheshumi (30386) */
+     , (0x742DE070, 0x742DE072, '2019-02-10 00:00:00') /* Feruza ibn Salaq (7560) */
+     , (0x742DE070, 0x742DE073, '2019-02-10 00:00:00') /* Guard Al'Zira (37444) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DE071, 30386, 0x42DE0004, 12.8004, 74.3821, 4.005, -0.957745, 0, 0, -0.28762,  True, '2019-02-10 00:00:00'); /* Suzuhara Sheshumi */
@@ -583,25 +583,25 @@ VALUES (0x742DE074,  1542, 0x42DE003C, 177.7834, 73.29476, -3.72529E-09, 1, 0, 0
 /* @teleloc 0x42DE003C [177.783400 73.294760 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DE074, 0x742DE075, '2019-02-10 00:00:00') /* Bones */
-     , (0x742DE074, 0x742DE076, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x742DE074, 0x742DE077, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x742DE074, 0x742DE078, '2019-02-10 00:00:00') /* Bones */
-     , (0x742DE074, 0x742DE079, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x742DE074, 0x742DE07A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x742DE074, 0x742DE07B, '2019-02-10 00:00:00') /* Bones */
-     , (0x742DE074, 0x742DE07C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x742DE074, 0x742DE07D, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x742DE074, 0x742DE07E, '2019-02-10 00:00:00') /* Bones */
-     , (0x742DE074, 0x742DE07F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x742DE074, 0x742DE080, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x742DE074, 0x742DE081, '2019-02-10 00:00:00') /* Gateway */
-     , (0x742DE074, 0x742DE082, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x742DE074, 0x742DE083, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x742DE074, 0x742DE084, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x742DE074, 0x742DE085, '2019-02-10 00:00:00') /* Gateway */
-     , (0x742DE074, 0x742DE086, '2019-02-10 00:00:00') /* Gateway */
-     , (0x742DE074, 0x742DE087, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x742DE074, 0x742DE075, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x742DE074, 0x742DE076, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x742DE074, 0x742DE077, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x742DE074, 0x742DE078, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x742DE074, 0x742DE079, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x742DE074, 0x742DE07A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x742DE074, 0x742DE07B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x742DE074, 0x742DE07C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x742DE074, 0x742DE07D, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x742DE074, 0x742DE07E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x742DE074, 0x742DE07F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x742DE074, 0x742DE080, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x742DE074, 0x742DE081, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x742DE074, 0x742DE082, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x742DE074, 0x742DE083, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x742DE074, 0x742DE084, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x742DE074, 0x742DE085, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x742DE074, 0x742DE086, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x742DE074, 0x742DE087, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DE075,  4379, 0x42DE003C, 177.7834, 73.29476, -3.72529E-09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

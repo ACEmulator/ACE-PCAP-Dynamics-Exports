@@ -137,43 +137,43 @@ VALUES (0x7DA3B03A,  1154, 0xDA3B0116, 111.219, 80.5742, 6.803325, -0.361821, 0,
 /* @teleloc 0xDA3B0116 [111.219000 80.574200 6.803325] -0.361821 0.000000 0.000000 -0.932248 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3B03A, 0x7DA3B03B, '2019-02-10 00:00:00') /* Straw Target Drudge */
-     , (0x7DA3B03A, 0x7DA3B03C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B03D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B03E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B03F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B040, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B041, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B042, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B043, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B044, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B045, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B046, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B047, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B048, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B049, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B04A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B04B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B04C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B04D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B04E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B04F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B050, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B051, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B052, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B053, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B054, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B055, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B056, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B057, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B058, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B059, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B05A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B05B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B05C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DA3B03A, 0x7DA3B05D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B05E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DA3B03A, 0x7DA3B05F, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7DA3B03A, 0x7DA3B03B, '2019-02-10 00:00:00') /* Straw Target Drudge (6075) */
+     , (0x7DA3B03A, 0x7DA3B03C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B03D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B03E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B03F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B040, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B041, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B042, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B043, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B044, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B045, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B046, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B047, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B048, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B049, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B04A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B04B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B04C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B04D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B04E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B04F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B050, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B051, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B052, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B053, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B054, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B055, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B056, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B057, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B058, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B059, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B05A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B05B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B05C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DA3B03A, 0x7DA3B05D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B05E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DA3B03A, 0x7DA3B05F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B03B,  6075, 0xDA3B0116, 111.219, 80.5742, 6.803325, -0.361821, 0, 0, -0.932248,  True, '2019-02-10 00:00:00'); /* Straw Target Drudge */
@@ -328,40 +328,40 @@ VALUES (0x7DA3B060,  1154, 0xDA3B010F, 104.606, 88.639, 6.805, 0.61995, 0, 0, -0
 /* @teleloc 0xDA3B010F [104.606000 88.639000 6.805000] 0.619950 0.000000 0.000000 -0.784641 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3B060, 0x7DA3B061, '2019-02-10 00:00:00') /* Wing Collector */
-     , (0x7DA3B060, 0x7DA3B062, '2019-02-10 00:00:00') /* Shoichi */
-     , (0x7DA3B060, 0x7DA3B063, '2019-02-10 00:00:00') /* Collector */
-     , (0x7DA3B060, 0x7DA3B064, '2019-02-10 00:00:00') /* Do Za-I the Weaponsmith */
-     , (0x7DA3B060, 0x7DA3B065, '2019-02-10 00:00:00') /* Tian Li Quan */
-     , (0x7DA3B060, 0x7DA3B066, '2019-02-10 00:00:00') /* Jojii Shrine */
-     , (0x7DA3B060, 0x7DA3B067, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B068, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B069, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B06F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B070, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B071, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B072, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B073, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B074, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B075, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B076, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B077, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B078, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B079, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B07F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B080, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B081, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7DA3B060, 0x7DA3B082, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7DA3B060, 0x7DA3B061, '2019-02-10 00:00:00') /* Wing Collector (3924) */
+     , (0x7DA3B060, 0x7DA3B062, '2019-02-10 00:00:00') /* Shoichi (33968) */
+     , (0x7DA3B060, 0x7DA3B063, '2019-02-10 00:00:00') /* Collector (3918) */
+     , (0x7DA3B060, 0x7DA3B064, '2019-02-10 00:00:00') /* Do Za-I the Weaponsmith (41075) */
+     , (0x7DA3B060, 0x7DA3B065, '2019-02-10 00:00:00') /* Tian Li Quan (23350) */
+     , (0x7DA3B060, 0x7DA3B066, '2019-02-10 00:00:00') /* Jojii Shrine (25829) */
+     , (0x7DA3B060, 0x7DA3B067, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B068, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B069, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06A, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06C, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06D, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06E, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B06F, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B070, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B071, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B072, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B073, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B074, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B075, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B076, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B077, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B078, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B079, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07A, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07B, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07C, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07D, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07E, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B07F, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B080, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B081, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7DA3B060, 0x7DA3B082, '2019-02-10 00:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B061,  3924, 0xDA3B010F, 104.606, 88.639, 6.805, 0.61995, 0, 0, -0.784641,  True, '2019-02-10 00:00:00'); /* Wing Collector */
@@ -504,11 +504,11 @@ VALUES (0x7DA3B083,  1542, 0xDA3B011B, 158.203, 92.7836, 2.152, -0.999887, 0, 0,
 /* @teleloc 0xDA3B011B [158.203000 92.783600 2.152000] -0.999887 0.000000 0.000000 -0.015000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA3B083, 0x7DA3B084, '2019-02-10 00:00:00') /* Journal of Ries Woron */
-     , (0x7DA3B083, 0x7DA3B085, '2019-02-10 00:00:00') /* Wah Chon's Winter Lager */
-     , (0x7DA3B083, 0x7DA3B086, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7DA3B083, 0x7DA3B087, '2019-02-10 00:00:00') /* Ale */
-     , (0x7DA3B083, 0x7DA3B088, '2019-02-10 00:00:00') /* Heavy Necklace */;
+VALUES (0x7DA3B083, 0x7DA3B084, '2019-02-10 00:00:00') /* Journal of Ries Woron (41074) */
+     , (0x7DA3B083, 0x7DA3B085, '2019-02-10 00:00:00') /* Wah Chon's Winter Lager (23126) */
+     , (0x7DA3B083, 0x7DA3B086, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7DA3B083, 0x7DA3B087, '2019-02-10 00:00:00') /* Ale (2451) */
+     , (0x7DA3B083, 0x7DA3B088, '2019-02-10 00:00:00') /* Heavy Necklace (623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA3B084, 41074, 0xDA3B011B, 158.203, 92.7836, 2.152, -0.999887, 0, 0, -0.0150004,  True, '2019-02-10 00:00:00'); /* Journal of Ries Woron */

@@ -5,12 +5,12 @@ VALUES (0x72726001,  1154, 0x27260027, 117.2782, 150.6213, 32.46014, 0.9659258, 
 /* @teleloc 0x27260027 [117.278200 150.621300 32.460140] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72726001, 0x72726002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72726001, 0x72726003, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72726001, 0x72726004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72726001, 0x72726005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72726001, 0x72726006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72726001, 0x72726007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x72726001, 0x72726002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72726001, 0x72726003, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72726001, 0x72726004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72726001, 0x72726005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72726001, 0x72726006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72726001, 0x72726007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72726002, 23567, 0x27260027, 117.2782, 150.6213, 32.46014, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */

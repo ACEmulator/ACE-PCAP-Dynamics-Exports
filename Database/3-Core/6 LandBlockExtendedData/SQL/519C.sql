@@ -9,20 +9,20 @@ VALUES (0x7519C001,  1154, 0x519C0035, 160.4765, 113.4075, 19.53822, 0.549825, 0
 /* @teleloc 0x519C0035 [160.476500 113.407500 19.538220] 0.549825 0.000000 0.000000 -0.835280 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7519C001, 0x7519C002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7519C001, 0x7519C003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7519C001, 0x7519C004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7519C001, 0x7519C005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7519C001, 0x7519C006, '2019-02-10 00:00:00') /* Static */
-     , (0x7519C001, 0x7519C007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7519C001, 0x7519C008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7519C001, 0x7519C009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7519C001, 0x7519C00A, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7519C001, 0x7519C00B, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7519C001, 0x7519C00C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7519C001, 0x7519C00D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7519C001, 0x7519C00E, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7519C001, 0x7519C00F, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7519C001, 0x7519C002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7519C001, 0x7519C003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7519C001, 0x7519C004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7519C001, 0x7519C005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7519C001, 0x7519C006, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7519C001, 0x7519C007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7519C001, 0x7519C008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7519C001, 0x7519C009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7519C001, 0x7519C00A, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7519C001, 0x7519C00B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7519C001, 0x7519C00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7519C001, 0x7519C00D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7519C001, 0x7519C00E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7519C001, 0x7519C00F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7519C002,   201, 0x519C0035, 160.4765, 113.4075, 19.53822, 0.549825, 0, 0, -0.8352799,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -85,8 +85,8 @@ VALUES (0x7519C010,  1542, 0x519C0021, 96.94209, 2.83342, 4.629848, 0.9990482, 0
 /* @teleloc 0x519C0021 [96.942090 2.833420 4.629848] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7519C010, 0x7519C011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7519C010, 0x7519C012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7519C010, 0x7519C011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7519C010, 0x7519C012, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7519C011,  4179, 0x519C0021, 96.94209, 2.83342, 4.629848, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

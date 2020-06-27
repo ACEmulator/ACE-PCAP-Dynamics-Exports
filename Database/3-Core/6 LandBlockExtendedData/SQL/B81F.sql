@@ -5,12 +5,12 @@ VALUES (0x7B81F001,  1154, 0xB81F0018, 53.75463, 175.2555, 216.423, -0.3376366, 
 /* @teleloc 0xB81F0018 [53.754630 175.255500 216.423000] -0.337637 0.000000 0.000000 -0.941277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B81F001, 0x7B81F002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B81F001, 0x7B81F003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B81F001, 0x7B81F004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B81F001, 0x7B81F005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7B81F001, 0x7B81F006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B81F001, 0x7B81F007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7B81F001, 0x7B81F002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B81F001, 0x7B81F003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B81F001, 0x7B81F004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B81F001, 0x7B81F005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7B81F001, 0x7B81F006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B81F001, 0x7B81F007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B81F002,  1610, 0xB81F0018, 53.75463, 175.2555, 216.423, -0.3376366, 0, 0, -0.9412766,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -41,7 +41,7 @@ VALUES (0x7B81F008,  1542, 0xB81F000E, 30.93274, 122.6072, 199.527, 0.9537169, 0
 /* @teleloc 0xB81F000E [30.932740 122.607200 199.527000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B81F008, 0x7B81F009, '2019-02-10 00:00:00') /* Direlands Valleys Portal */;
+VALUES (0x7B81F008, 0x7B81F009, '2019-02-10 00:00:00') /* Direlands Valleys Portal (8386) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B81F009,  8386, 0xB81F000E, 30.93274, 122.6072, 199.527, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Valleys Portal */

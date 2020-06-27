@@ -5,16 +5,16 @@ VALUES (0x7589C001,  1154, 0x589C002E, 122.4757, 125.2636, 4.469644, -4.371139E-
 /* @teleloc 0x589C002E [122.475700 125.263600 4.469644] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7589C001, 0x7589C002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7589C001, 0x7589C003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7589C001, 0x7589C004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7589C001, 0x7589C005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7589C001, 0x7589C006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7589C001, 0x7589C007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7589C001, 0x7589C008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7589C001, 0x7589C009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7589C001, 0x7589C00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7589C001, 0x7589C00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7589C001, 0x7589C002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7589C001, 0x7589C003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7589C001, 0x7589C004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7589C001, 0x7589C005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7589C001, 0x7589C006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7589C001, 0x7589C007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7589C001, 0x7589C008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7589C001, 0x7589C009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7589C001, 0x7589C00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7589C001, 0x7589C00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7589C002,  1757, 0x589C002E, 122.4757, 125.2636, 4.469644, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -61,7 +61,7 @@ VALUES (0x7589C00C,  1542, 0x589C002D, 143.3456, 119.2961, 3.387208, 0.9990482, 
 /* @teleloc 0x589C002D [143.345600 119.296100 3.387208] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7589C00C, 0x7589C00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7589C00C, 0x7589C00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7589C00D,  4179, 0x589C002D, 143.3456, 119.2961, 3.387208, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

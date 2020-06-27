@@ -5,12 +5,12 @@ VALUES (0x7E358001,  1154, 0xE358003D, 177.7719, 106.313, 2.0046, 0.9996595, 0, 
 /* @teleloc 0xE358003D [177.771900 106.313000 2.004600] 0.999660 0.000000 0.000000 -0.026095 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E358001, 0x7E358002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E358001, 0x7E358003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E358001, 0x7E358004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7E358001, 0x7E358005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7E358001, 0x7E358006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7E358001, 0x7E358007, '2019-02-10 00:00:00') /* Se Sclavus */;
+VALUES (0x7E358001, 0x7E358002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E358001, 0x7E358003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E358001, 0x7E358004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7E358001, 0x7E358005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7E358001, 0x7E358006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7E358001, 0x7E358007, '2019-02-10 00:00:00') /* Se Sclavus (2583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E358002,  4246, 0xE358003D, 177.7719, 106.313, 2.0046, 0.9996595, 0, 0, -0.02609507,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

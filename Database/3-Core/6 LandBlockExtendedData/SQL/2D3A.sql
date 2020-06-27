@@ -5,21 +5,21 @@ VALUES (0x72D3A001,  1154, 0x2D3A003A, 186.8846, 28.52694, 134.9454, 0.9694883, 
 /* @teleloc 0x2D3A003A [186.884600 28.526940 134.945400] 0.969488 0.000000 0.000000 -0.245138 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3A001, 0x72D3A002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D3A001, 0x72D3A003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D3A001, 0x72D3A004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D3A001, 0x72D3A005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D3A001, 0x72D3A006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D3A001, 0x72D3A007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D3A001, 0x72D3A008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72D3A001, 0x72D3A009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D3A001, 0x72D3A00A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D3A001, 0x72D3A00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D3A001, 0x72D3A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72D3A001, 0x72D3A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D3A001, 0x72D3A00E, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72D3A001, 0x72D3A00F, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D3A001, 0x72D3A010, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x72D3A001, 0x72D3A002, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72D3A001, 0x72D3A003, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72D3A001, 0x72D3A004, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72D3A001, 0x72D3A005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72D3A001, 0x72D3A006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D3A001, 0x72D3A007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D3A001, 0x72D3A008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72D3A001, 0x72D3A009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D3A001, 0x72D3A00A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D3A001, 0x72D3A00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D3A001, 0x72D3A00C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72D3A001, 0x72D3A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D3A001, 0x72D3A00E, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72D3A001, 0x72D3A00F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D3A001, 0x72D3A010, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3A002, 24276, 0x2D3A003A, 186.8846, 28.52694, 134.9454, 0.9694883, 0, 0, -0.2451378,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -86,7 +86,7 @@ VALUES (0x72D3A011,  1542, 0x2D3A003A, 178.1929, 43.9843, 135.6654, 1, 0, 0, 0, 
 /* @teleloc 0x2D3A003A [178.192900 43.984300 135.665400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3A011, 0x72D3A012, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72D3A011, 0x72D3A012, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3A012,  8999, 0x2D3A003A, 178.1929, 43.9843, 135.6654, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

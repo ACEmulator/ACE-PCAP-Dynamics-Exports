@@ -5,14 +5,14 @@ VALUES (0x7739C001,  1154, 0x739C003D, 181.3314, 100.6782, 240.01, -0.8957271, 0
 /* @teleloc 0x739C003D [181.331400 100.678200 240.010000] -0.895727 0.000000 0.000000 -0.444604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7739C001, 0x7739C002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7739C001, 0x7739C003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7739C001, 0x7739C004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7739C001, 0x7739C005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7739C001, 0x7739C006, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7739C001, 0x7739C007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7739C001, 0x7739C008, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7739C001, 0x7739C009, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x7739C001, 0x7739C002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7739C001, 0x7739C003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7739C001, 0x7739C004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7739C001, 0x7739C005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7739C001, 0x7739C006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7739C001, 0x7739C007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7739C001, 0x7739C008, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7739C001, 0x7739C009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7739C002, 23082, 0x739C003D, 181.3314, 100.6782, 240.01, -0.8957271, 0, 0, -0.4446042,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
@@ -51,8 +51,8 @@ VALUES (0x7739C00A,  1542, 0x739C002A, 139.2311, 42.57021, 239.9763, -0.6383804,
 /* @teleloc 0x739C002A [139.231100 42.570210 239.976300] -0.638380 0.000000 0.000000 -0.769721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7739C00A, 0x7739C00B, '2019-02-10 00:00:00') /* Rock */
-     , (0x7739C00A, 0x7739C00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7739C00A, 0x7739C00B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7739C00A, 0x7739C00C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7739C00B, 42528, 0x739C002A, 139.2311, 42.57021, 239.9763, -0.6383804, 0, 0, -0.769721,  True, '2019-02-10 00:00:00'); /* Rock */

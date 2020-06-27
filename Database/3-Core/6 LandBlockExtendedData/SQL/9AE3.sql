@@ -5,10 +5,10 @@ VALUES (0x79AE3001,  1154, 0x9AE30015, 63.09451, 103.4801, 202.5551, 0.7071068, 
 /* @teleloc 0x9AE30015 [63.094510 103.480100 202.555100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AE3001, 0x79AE3002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AE3001, 0x79AE3003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AE3001, 0x79AE3004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79AE3001, 0x79AE3005, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x79AE3001, 0x79AE3002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AE3001, 0x79AE3003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AE3001, 0x79AE3004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79AE3001, 0x79AE3005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AE3002,  1629, 0x9AE30015, 63.09451, 103.4801, 202.5551, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -31,7 +31,7 @@ VALUES (0x79AE3006,  1542, 0x9AE3000A, 28.05492, 30.34568, 211.3792, 1, 0, 0, 0,
 /* @teleloc 0x9AE3000A [28.054920 30.345680 211.379200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AE3006, 0x79AE3007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79AE3006, 0x79AE3007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AE3007,  4179, 0x9AE3000A, 28.05492, 30.34568, 211.3792, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

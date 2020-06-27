@@ -5,9 +5,9 @@ VALUES (0x7797B001,  1154, 0x797B0028, 101.9654, 173.7635, 1.45138, 0.9238795, 0
 /* @teleloc 0x797B0028 [101.965400 173.763500 1.451380] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7797B001, 0x7797B002, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7797B001, 0x7797B003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7797B001, 0x7797B004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x7797B001, 0x7797B002, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7797B001, 0x7797B003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7797B001, 0x7797B004, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7797B002,  2565, 0x797B0028, 101.9654, 173.7635, 1.45138, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */

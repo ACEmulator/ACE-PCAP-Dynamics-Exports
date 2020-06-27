@@ -5,28 +5,28 @@ VALUES (0x77DF4001,  1154, 0x7DF4002D, 130.6521, 97.06506, 72.79192, 0.3987491, 
 /* @teleloc 0x7DF4002D [130.652100 97.065060 72.791920] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF4001, 0x77DF4002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77DF4001, 0x77DF4003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x77DF4001, 0x77DF4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x77DF4001, 0x77DF4005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77DF4001, 0x77DF4006, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x77DF4001, 0x77DF4007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77DF4001, 0x77DF4008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77DF4001, 0x77DF4009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77DF4001, 0x77DF400A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x77DF4001, 0x77DF400B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x77DF4001, 0x77DF400C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x77DF4001, 0x77DF400D, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x77DF4001, 0x77DF400E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x77DF4001, 0x77DF400F, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77DF4001, 0x77DF4010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77DF4001, 0x77DF4011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x77DF4001, 0x77DF4012, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x77DF4001, 0x77DF4013, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77DF4001, 0x77DF4014, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x77DF4001, 0x77DF4015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77DF4001, 0x77DF4016, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x77DF4001, 0x77DF4017, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x77DF4001, 0x77DF4002, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77DF4001, 0x77DF4003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x77DF4001, 0x77DF4004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x77DF4001, 0x77DF4005, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77DF4001, 0x77DF4006, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x77DF4001, 0x77DF4007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x77DF4001, 0x77DF4008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77DF4001, 0x77DF4009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77DF4001, 0x77DF400A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x77DF4001, 0x77DF400B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x77DF4001, 0x77DF400C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x77DF4001, 0x77DF400D, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x77DF4001, 0x77DF400E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x77DF4001, 0x77DF400F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77DF4001, 0x77DF4010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77DF4001, 0x77DF4011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x77DF4001, 0x77DF4012, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x77DF4001, 0x77DF4013, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77DF4001, 0x77DF4014, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x77DF4001, 0x77DF4015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77DF4001, 0x77DF4016, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x77DF4001, 0x77DF4017, '2019-02-10 00:00:00') /* Great Skeleton (7122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF4002, 24292, 0x7DF4002D, 130.6521, 97.06506, 72.79192, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -121,11 +121,11 @@ VALUES (0x77DF4018,  1542, 0x7DF4002D, 130.6152, 102.0419, 72.38111, -4.371139E-
 /* @teleloc 0x7DF4002D [130.615200 102.041900 72.381110] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DF4018, 0x77DF4019, '2019-02-10 00:00:00') /* Bones */
-     , (0x77DF4018, 0x77DF401A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77DF4018, 0x77DF401B, '2019-02-10 00:00:00') /* Bones */
-     , (0x77DF4018, 0x77DF401C, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x77DF4018, 0x77DF401D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77DF4018, 0x77DF4019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77DF4018, 0x77DF401A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77DF4018, 0x77DF401B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77DF4018, 0x77DF401C, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x77DF4018, 0x77DF401D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DF4019,  4380, 0x7DF4002D, 130.6152, 102.0419, 72.38111, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

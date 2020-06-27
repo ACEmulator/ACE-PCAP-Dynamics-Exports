@@ -5,12 +5,12 @@ VALUES (0x76A13001,  1154, 0x6A130013, 66.77482, 66.34411, 1.422223, 0.8622112, 
 /* @teleloc 0x6A130013 [66.774820 66.344110 1.422223] 0.862211 0.000000 0.000000 -0.506549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A13001, 0x76A13002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76A13001, 0x76A13003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x76A13001, 0x76A13004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76A13001, 0x76A13005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76A13001, 0x76A13006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x76A13001, 0x76A13007, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x76A13001, 0x76A13002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76A13001, 0x76A13003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x76A13001, 0x76A13004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76A13001, 0x76A13005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76A13001, 0x76A13006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x76A13001, 0x76A13007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A13002,  4217, 0x6A130013, 66.77482, 66.34411, 1.422223, 0.8622112, 0, 0, -0.5065489,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

@@ -5,14 +5,14 @@ VALUES (0x71938001,  1154, 0x19380003, 19.5084, 61.54045, 0.00999999, 0.2755888,
 /* @teleloc 0x19380003 [19.508400 61.540450 0.010000] 0.275589 0.000000 0.000000 -0.961276 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71938001, 0x71938002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71938001, 0x71938003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71938001, 0x71938004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71938001, 0x71938005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71938001, 0x71938006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71938001, 0x71938007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71938001, 0x71938008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71938001, 0x71938009, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x71938001, 0x71938002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71938001, 0x71938003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71938001, 0x71938004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71938001, 0x71938005, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71938001, 0x71938006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71938001, 0x71938007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71938001, 0x71938008, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71938001, 0x71938009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71938002, 14520, 0x19380003, 19.5084, 61.54045, 0.00999999, 0.2755888, 0, 0, -0.9612756,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -51,7 +51,7 @@ VALUES (0x7193800A,  1542, 0x19380007, 13.82255, 147.8692, -3.72529E-09, -4.3711
 /* @teleloc 0x19380007 [13.822550 147.869200 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7193800A, 0x7193800B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7193800A, 0x7193800B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7193800B,  4380, 0x19380007, 13.82255, 147.8692, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

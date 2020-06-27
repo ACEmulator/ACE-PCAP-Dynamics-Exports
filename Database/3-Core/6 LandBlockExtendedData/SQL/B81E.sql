@@ -5,14 +5,14 @@ VALUES (0x7B81E001,  1154, 0xB81E0005, 8.844305, 117.6778, 173.6956, 0.612501, 0
 /* @teleloc 0xB81E0005 [8.844305 117.677800 173.695600] 0.612501 0.000000 0.000000 -0.790470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B81E001, 0x7B81E002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B81E001, 0x7B81E003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B81E001, 0x7B81E004, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7B81E001, 0x7B81E005, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B81E001, 0x7B81E006, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B81E001, 0x7B81E007, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B81E001, 0x7B81E008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B81E001, 0x7B81E009, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7B81E001, 0x7B81E002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B81E001, 0x7B81E003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B81E001, 0x7B81E004, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7B81E001, 0x7B81E005, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B81E001, 0x7B81E006, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B81E001, 0x7B81E007, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B81E001, 0x7B81E008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B81E001, 0x7B81E009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B81E002,  7084, 0xB81E0005, 8.844305, 117.6778, 173.6956, 0.612501, 0, 0, -0.7904699,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */

@@ -5,19 +5,19 @@ VALUES (0x7223C001,  1154, 0x223C0022, 108.5366, 36.20681, 3.021784, -0.3522208,
 /* @teleloc 0x223C0022 [108.536600 36.206810 3.021784] -0.352221 0.000000 0.000000 -0.935917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7223C001, 0x7223C002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7223C001, 0x7223C003, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7223C001, 0x7223C004, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7223C001, 0x7223C005, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7223C001, 0x7223C006, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7223C001, 0x7223C007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7223C001, 0x7223C008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7223C001, 0x7223C009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7223C001, 0x7223C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7223C001, 0x7223C00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7223C001, 0x7223C00C, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7223C001, 0x7223C00D, '2019-02-10 00:00:00') /* Dire Champion Drudge */
-     , (0x7223C001, 0x7223C00E, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x7223C001, 0x7223C002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7223C001, 0x7223C003, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x7223C001, 0x7223C004, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7223C001, 0x7223C005, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7223C001, 0x7223C006, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7223C001, 0x7223C007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7223C001, 0x7223C008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7223C001, 0x7223C009, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7223C001, 0x7223C00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7223C001, 0x7223C00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7223C001, 0x7223C00C, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7223C001, 0x7223C00D, '2019-02-10 00:00:00') /* Dire Champion Drudge (36824) */
+     , (0x7223C001, 0x7223C00E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7223C002, 36821, 0x223C0022, 108.5366, 36.20681, 3.021784, -0.3522208, 0, 0, -0.9359169,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -76,8 +76,8 @@ VALUES (0x7223C00F,  1542, 0x223C0026, 104.248, 140.9882, 94, -4.371139E-08, 0, 
 /* @teleloc 0x223C0026 [104.248000 140.988200 94.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7223C00F, 0x7223C010, '2019-02-10 00:00:00') /* Bones */
-     , (0x7223C00F, 0x7223C011, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7223C00F, 0x7223C010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7223C00F, 0x7223C011, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7223C010,  4380, 0x223C0026, 104.248, 140.9882, 94, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

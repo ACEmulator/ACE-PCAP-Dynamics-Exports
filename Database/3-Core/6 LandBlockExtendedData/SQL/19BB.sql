@@ -5,16 +5,16 @@ VALUES (0x719BB001,  1154, 0x19BB0033, 150.8953, 48.87114, 170.5127, 1, 0, 0, 0,
 /* @teleloc 0x19BB0033 [150.895300 48.871140 170.512700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719BB001, 0x719BB002, '2019-02-10 00:00:00') /* Cultist */
-     , (0x719BB001, 0x719BB003, '2019-02-10 00:00:00') /* Summoned Pulsar Wisp */
-     , (0x719BB001, 0x719BB004, '2019-02-10 00:00:00') /* Hea Karenua */
-     , (0x719BB001, 0x719BB005, '2019-02-10 00:00:00') /* Hea Temenua */
-     , (0x719BB001, 0x719BB006, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x719BB001, 0x719BB007, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x719BB001, 0x719BB008, '2019-02-10 00:00:00') /* Hea Kanokeh */
-     , (0x719BB001, 0x719BB009, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x719BB001, 0x719BB00A, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x719BB001, 0x719BB00B, '2019-02-10 00:00:00') /* Hea Elder Shaman */;
+VALUES (0x719BB001, 0x719BB002, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x719BB001, 0x719BB003, '2019-02-10 00:00:00') /* Summoned Pulsar Wisp (9099) */
+     , (0x719BB001, 0x719BB004, '2019-02-10 00:00:00') /* Hea Karenua (10949) */
+     , (0x719BB001, 0x719BB005, '2019-02-10 00:00:00') /* Hea Temenua (10951) */
+     , (0x719BB001, 0x719BB006, '2019-02-10 00:00:00') /* Hea Nualuan (10937) */
+     , (0x719BB001, 0x719BB007, '2019-02-10 00:00:00') /* Hea Nualuan (10937) */
+     , (0x719BB001, 0x719BB008, '2019-02-10 00:00:00') /* Hea Kanokeh (10948) */
+     , (0x719BB001, 0x719BB009, '2019-02-10 00:00:00') /* Hea Nualuan (10937) */
+     , (0x719BB001, 0x719BB00A, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x719BB001, 0x719BB00B, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719BB002, 11501, 0x19BB0033, 150.8953, 48.87114, 170.5127, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist */
@@ -61,8 +61,8 @@ VALUES (0x719BB00C,  1542, 0x19BB002A, 141.3902, 45.63269, 170.5127, 1, 0, 0, 0,
 /* @teleloc 0x19BB002A [141.390200 45.632690 170.512700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719BB00C, 0x719BB00D, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x719BB00C, 0x719BB00E, '2019-02-10 00:00:00') /* Cultist Altar */;
+VALUES (0x719BB00C, 0x719BB00D, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x719BB00C, 0x719BB00E, '2019-02-10 00:00:00') /* Cultist Altar (11556) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719BB00D, 11225, 0x19BB002A, 141.3902, 45.63269, 170.5127, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

@@ -5,11 +5,11 @@ VALUES (0x7241C001,  1154, 0x241C0037, 150.5812, 144.0051, 10.0065, 0.9998483, 0
 /* @teleloc 0x241C0037 [150.581200 144.005100 10.006500] 0.999848 0.000000 0.000000 -0.017418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7241C001, 0x7241C002, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7241C001, 0x7241C003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7241C001, 0x7241C004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7241C001, 0x7241C005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7241C001, 0x7241C006, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x7241C001, 0x7241C002, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7241C001, 0x7241C003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7241C001, 0x7241C004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7241C001, 0x7241C005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7241C001, 0x7241C006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7241C002, 22911, 0x241C0037, 150.5812, 144.0051, 10.0065, 0.9998483, 0, 0, -0.01741758,  True, '2019-02-10 00:00:00'); /* Paroxysm Shadow */

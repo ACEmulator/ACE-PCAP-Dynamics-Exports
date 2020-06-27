@@ -61,32 +61,32 @@ VALUES (0x700DE02E,  1154, 0x00DE0200, 132.694, -97.986, 6.0066, -4.37114E-08, 0
 /* @teleloc 0x00DE0200 [132.694000 -97.986000 6.006600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DE02E, 0x700DE02F, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE030, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x700DE02E, 0x700DE031, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE032, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE033, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE034, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE035, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE036, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x700DE02E, 0x700DE037, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE038, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE039, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x700DE02E, 0x700DE03A, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE03B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE03C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE03D, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE03E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x700DE02E, 0x700DE03F, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE040, '2019-02-10 00:00:00') /* Muck Glutton */
-     , (0x700DE02E, 0x700DE041, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE042, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE043, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE044, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x700DE02E, 0x700DE045, '2019-02-10 00:00:00') /* Blind Keeper */
-     , (0x700DE02E, 0x700DE046, '2019-02-10 00:00:00') /* Listris Sleech */
-     , (0x700DE02E, 0x700DE047, '2019-02-10 00:00:00') /* Listris Sleech */
-     , (0x700DE02E, 0x700DE048, '2019-02-10 00:00:00') /* Gate Watcher */;
+VALUES (0x700DE02E, 0x700DE02F, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE030, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE031, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE032, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE033, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE034, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE035, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE036, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE037, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE038, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE039, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE03A, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE03B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03D, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE03E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x700DE02E, 0x700DE03F, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE040, '2019-02-10 00:00:00') /* Muck Glutton (27857) */
+     , (0x700DE02E, 0x700DE041, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE042, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE043, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE044, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x700DE02E, 0x700DE045, '2019-02-10 00:00:00') /* Blind Keeper (38349) */
+     , (0x700DE02E, 0x700DE046, '2019-02-10 00:00:00') /* Listris Sleech (38355) */
+     , (0x700DE02E, 0x700DE047, '2019-02-10 00:00:00') /* Listris Sleech (38355) */
+     , (0x700DE02E, 0x700DE048, '2019-02-10 00:00:00') /* Gate Watcher (38351) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE02F,  4248, 0x00DE0200, 132.694, -97.986, 6.0066, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -197,10 +197,10 @@ VALUES (0x700DE049,  1542, 0x00DE0115, 129.741, -99.8594, -34.9718, 1, 0, 0, 0, 
 /* @teleloc 0x00DE0115 [129.741000 -99.859400 -34.971800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700DE049, 0x700DE04A, '2019-02-10 00:00:00') /* Blood of T'thuun */
-     , (0x700DE049, 0x700DE04B, '2019-02-10 00:00:00') /* Dagger of T'thuun */
-     , (0x700DE049, 0x700DE04C, '2019-02-10 00:00:00') /* Amulet of T'thuun */
-     , (0x700DE049, 0x700DE04D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700DE049, 0x700DE04A, '2019-02-10 00:00:00') /* Blood of T'thuun (38328) */
+     , (0x700DE049, 0x700DE04B, '2019-02-10 00:00:00') /* Dagger of T'thuun (38329) */
+     , (0x700DE049, 0x700DE04C, '2019-02-10 00:00:00') /* Amulet of T'thuun (38327) */
+     , (0x700DE049, 0x700DE04D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700DE04A, 38328, 0x00DE0115, 129.741, -99.8594, -34.9718, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Blood of T'thuun */

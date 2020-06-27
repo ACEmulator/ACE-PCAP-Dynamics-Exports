@@ -5,9 +5,9 @@ VALUES (0x74F16001,  1154, 0x4F16003F, 176.3731, 156.8791, 251.9568, 0.6942983, 
 /* @teleloc 0x4F16003F [176.373100 156.879100 251.956800] 0.694298 0.000000 0.000000 -0.719687 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74F16001, 0x74F16002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74F16001, 0x74F16003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74F16001, 0x74F16004, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x74F16001, 0x74F16002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x74F16001, 0x74F16003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74F16001, 0x74F16004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74F16002, 36832, 0x4F16003F, 176.3731, 156.8791, 251.9568, 0.6942983, 0, 0, -0.7196874,  True, '2019-02-10 00:00:00'); /* Gold Golem */

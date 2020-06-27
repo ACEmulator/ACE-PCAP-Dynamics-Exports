@@ -5,26 +5,26 @@ VALUES (0x7E87C001,  1154, 0xE87C0021, 99.56851, 14.55358, 2.174155, -0.3141752,
 /* @teleloc 0xE87C0021 [99.568510 14.553580 2.174155] -0.314175 0.000000 0.000000 -0.949365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E87C001, 0x7E87C002, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C003, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C004, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E87C001, 0x7E87C006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E87C001, 0x7E87C007, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C008, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C009, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C00A, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7E87C001, 0x7E87C00B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E87C001, 0x7E87C00C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7E87C001, 0x7E87C00D, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7E87C001, 0x7E87C00E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7E87C001, 0x7E87C00F, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E87C001, 0x7E87C010, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E87C001, 0x7E87C011, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E87C001, 0x7E87C012, '2019-02-10 00:00:00') /* Iron Spined Chittick */
-     , (0x7E87C001, 0x7E87C013, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7E87C001, 0x7E87C014, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7E87C001, 0x7E87C015, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x7E87C001, 0x7E87C002, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C003, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C004, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E87C001, 0x7E87C006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E87C001, 0x7E87C007, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C008, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C009, '2019-02-10 00:00:00') /* Tusker Sycophant (22514) */
+     , (0x7E87C001, 0x7E87C00A, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7E87C001, 0x7E87C00B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E87C001, 0x7E87C00C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7E87C001, 0x7E87C00D, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7E87C001, 0x7E87C00E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7E87C001, 0x7E87C00F, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E87C001, 0x7E87C010, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E87C001, 0x7E87C011, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E87C001, 0x7E87C012, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
+     , (0x7E87C001, 0x7E87C013, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7E87C001, 0x7E87C014, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7E87C001, 0x7E87C015, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E87C002, 22513, 0xE87C0021, 99.56851, 14.55358, 2.174155, -0.3141752, 0, 0, -0.949365,  True, '2019-02-10 00:00:00'); /* Tusker Sycophant */

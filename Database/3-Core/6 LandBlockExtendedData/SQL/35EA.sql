@@ -9,89 +9,89 @@ VALUES (0x735EA001,  1154, 0x35EA0016, 69.11555, 132.5515, 23.44478, 0.9774461, 
 /* @teleloc 0x35EA0016 [69.115550 132.551500 23.444780] 0.977446 0.000000 0.000000 -0.211185 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735EA001, 0x735EA002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x735EA001, 0x735EA003, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735EA001, 0x735EA004, '2019-02-10 00:00:00') /* Bokrok Lugian */
-     , (0x735EA001, 0x735EA005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x735EA001, 0x735EA006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x735EA001, 0x735EA007, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA008, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x735EA001, 0x735EA009, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA00A, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA00B, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x735EA001, 0x735EA00C, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EA001, 0x735EA00D, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x735EA001, 0x735EA00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x735EA001, 0x735EA00F, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA010, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x735EA001, 0x735EA011, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735EA001, 0x735EA012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x735EA001, 0x735EA013, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x735EA001, 0x735EA014, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x735EA001, 0x735EA015, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x735EA001, 0x735EA016, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x735EA001, 0x735EA017, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x735EA001, 0x735EA018, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA019, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x735EA001, 0x735EA01A, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA01B, '2019-02-10 00:00:00') /* Bokrok Lugian */
-     , (0x735EA001, 0x735EA01C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x735EA001, 0x735EA01D, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EA001, 0x735EA01E, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x735EA001, 0x735EA01F, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x735EA001, 0x735EA020, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EA001, 0x735EA021, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA022, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735EA001, 0x735EA023, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735EA001, 0x735EA024, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x735EA001, 0x735EA025, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA026, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x735EA001, 0x735EA027, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x735EA001, 0x735EA028, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x735EA001, 0x735EA029, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x735EA001, 0x735EA02A, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x735EA001, 0x735EA02B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EA001, 0x735EA02C, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA02D, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x735EA001, 0x735EA02E, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x735EA001, 0x735EA02F, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x735EA001, 0x735EA030, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EA001, 0x735EA031, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x735EA001, 0x735EA032, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735EA001, 0x735EA033, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x735EA001, 0x735EA034, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x735EA001, 0x735EA035, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x735EA001, 0x735EA036, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA037, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x735EA001, 0x735EA038, '2019-02-10 00:00:00') /* Undead Sailor */
-     , (0x735EA001, 0x735EA039, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x735EA001, 0x735EA03A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x735EA001, 0x735EA03B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EA001, 0x735EA03C, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA03D, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EA001, 0x735EA03E, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735EA001, 0x735EA03F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x735EA001, 0x735EA040, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA041, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x735EA001, 0x735EA042, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x735EA001, 0x735EA043, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x735EA001, 0x735EA044, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735EA001, 0x735EA045, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735EA001, 0x735EA046, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x735EA001, 0x735EA047, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x735EA001, 0x735EA048, '2019-02-10 00:00:00') /* Deranged Fiun */
-     , (0x735EA001, 0x735EA049, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA04A, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA04B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735EA001, 0x735EA04C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x735EA001, 0x735EA04D, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x735EA001, 0x735EA04E, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x735EA001, 0x735EA04F, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA050, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x735EA001, 0x735EA051, '2019-02-10 00:00:00') /* Enoki Thrungus */
-     , (0x735EA001, 0x735EA052, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x735EA001, 0x735EA053, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x735EA001, 0x735EA054, '2019-02-10 00:00:00') /* Enoki Thrungus */;
+VALUES (0x735EA001, 0x735EA002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x735EA001, 0x735EA003, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735EA001, 0x735EA004, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */
+     , (0x735EA001, 0x735EA005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x735EA001, 0x735EA006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x735EA001, 0x735EA007, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA008, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x735EA001, 0x735EA009, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA00A, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA00B, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x735EA001, 0x735EA00C, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EA001, 0x735EA00D, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x735EA001, 0x735EA00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x735EA001, 0x735EA00F, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA010, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x735EA001, 0x735EA011, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735EA001, 0x735EA012, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x735EA001, 0x735EA013, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x735EA001, 0x735EA014, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x735EA001, 0x735EA015, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x735EA001, 0x735EA016, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735EA001, 0x735EA017, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x735EA001, 0x735EA018, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA019, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x735EA001, 0x735EA01A, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA01B, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */
+     , (0x735EA001, 0x735EA01C, '2019-02-10 00:00:00') /* Banderling Enforcer (7331) */
+     , (0x735EA001, 0x735EA01D, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EA001, 0x735EA01E, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x735EA001, 0x735EA01F, '2019-02-10 00:00:00') /* Undead Sailor (24324) */
+     , (0x735EA001, 0x735EA020, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EA001, 0x735EA021, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA022, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735EA001, 0x735EA023, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735EA001, 0x735EA024, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x735EA001, 0x735EA025, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA026, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x735EA001, 0x735EA027, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x735EA001, 0x735EA028, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x735EA001, 0x735EA029, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x735EA001, 0x735EA02A, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x735EA001, 0x735EA02B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EA001, 0x735EA02C, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA02D, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x735EA001, 0x735EA02E, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x735EA001, 0x735EA02F, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x735EA001, 0x735EA030, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EA001, 0x735EA031, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x735EA001, 0x735EA032, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735EA001, 0x735EA033, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x735EA001, 0x735EA034, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x735EA001, 0x735EA035, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x735EA001, 0x735EA036, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA037, '2019-02-10 00:00:00') /* Banderling Enforcer (7331) */
+     , (0x735EA001, 0x735EA038, '2019-02-10 00:00:00') /* Undead Sailor (24324) */
+     , (0x735EA001, 0x735EA039, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x735EA001, 0x735EA03A, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x735EA001, 0x735EA03B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EA001, 0x735EA03C, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA03D, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EA001, 0x735EA03E, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735EA001, 0x735EA03F, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x735EA001, 0x735EA040, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA041, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x735EA001, 0x735EA042, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x735EA001, 0x735EA043, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x735EA001, 0x735EA044, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735EA001, 0x735EA045, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735EA001, 0x735EA046, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x735EA001, 0x735EA047, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x735EA001, 0x735EA048, '2019-02-10 00:00:00') /* Deranged Fiun (28643) */
+     , (0x735EA001, 0x735EA049, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA04A, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA04B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735EA001, 0x735EA04C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x735EA001, 0x735EA04D, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x735EA001, 0x735EA04E, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x735EA001, 0x735EA04F, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA050, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x735EA001, 0x735EA051, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA052, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x735EA001, 0x735EA053, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x735EA001, 0x735EA054, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EA002, 26468, 0x35EA0016, 69.11555, 132.5515, 23.44478, 0.9774461, 0, 0, -0.2111851,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */

@@ -5,37 +5,37 @@ VALUES (0x7372D001,  1154, 0x372D0018, 65.05417, 190.0957, 42.00455, -0.8219571,
 /* @teleloc 0x372D0018 [65.054170 190.095700 42.004550] -0.821957 0.000000 0.000000 -0.569550 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7372D001, 0x7372D002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7372D001, 0x7372D003, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7372D001, 0x7372D004, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7372D001, 0x7372D005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7372D001, 0x7372D006, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7372D001, 0x7372D007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7372D001, 0x7372D008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7372D001, 0x7372D009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7372D001, 0x7372D00A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7372D001, 0x7372D00B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7372D001, 0x7372D00C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7372D001, 0x7372D00D, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7372D001, 0x7372D00E, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7372D001, 0x7372D00F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7372D001, 0x7372D010, '2019-02-10 00:00:00') /* Dire Champion Shadow */
-     , (0x7372D001, 0x7372D011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7372D001, 0x7372D012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7372D001, 0x7372D013, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7372D001, 0x7372D014, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7372D001, 0x7372D015, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7372D001, 0x7372D016, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7372D001, 0x7372D017, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7372D001, 0x7372D018, '2019-02-10 00:00:00') /* Dire Champion Virindi */
-     , (0x7372D001, 0x7372D019, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7372D001, 0x7372D01A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7372D001, 0x7372D01B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7372D001, 0x7372D01C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7372D001, 0x7372D01D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7372D001, 0x7372D01E, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7372D001, 0x7372D01F, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7372D001, 0x7372D020, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x7372D001, 0x7372D002, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7372D001, 0x7372D003, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7372D001, 0x7372D004, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7372D001, 0x7372D005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7372D001, 0x7372D006, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7372D001, 0x7372D007, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x7372D001, 0x7372D008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7372D001, 0x7372D009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7372D001, 0x7372D00A, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7372D001, 0x7372D00B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7372D001, 0x7372D00C, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x7372D001, 0x7372D00D, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7372D001, 0x7372D00E, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x7372D001, 0x7372D00F, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x7372D001, 0x7372D010, '2019-02-10 00:00:00') /* Dire Champion Shadow (36846) */
+     , (0x7372D001, 0x7372D011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7372D001, 0x7372D012, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7372D001, 0x7372D013, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7372D001, 0x7372D014, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7372D001, 0x7372D015, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7372D001, 0x7372D016, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7372D001, 0x7372D017, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7372D001, 0x7372D018, '2019-02-10 00:00:00') /* Dire Champion Virindi (36863) */
+     , (0x7372D001, 0x7372D019, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7372D001, 0x7372D01A, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7372D001, 0x7372D01B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7372D001, 0x7372D01C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7372D001, 0x7372D01D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7372D001, 0x7372D01E, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7372D001, 0x7372D01F, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7372D001, 0x7372D020, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7372D002, 24278, 0x372D0018, 65.05417, 190.0957, 42.00455, -0.8219571, 0, 0, -0.5695495,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
@@ -166,7 +166,7 @@ VALUES (0x7372D021,  1542, 0x372D0034, 166.2051, 80.30309, 76.94593, -0.7711926,
 /* @teleloc 0x372D0034 [166.205100 80.303090 76.945930] -0.771193 0.000000 0.000000 -0.636602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7372D021, 0x7372D022, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7372D021, 0x7372D022, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7372D022,  1955, 0x372D0034, 166.2051, 80.30309, 76.94593, -0.7711926, 0, 0, -0.6366019,  True, '2019-02-10 00:00:00'); /* Gateway */

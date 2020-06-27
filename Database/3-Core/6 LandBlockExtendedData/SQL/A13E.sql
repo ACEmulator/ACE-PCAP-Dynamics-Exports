@@ -5,18 +5,18 @@ VALUES (0x7A13E001,  1154, 0xA13E0020, 86.5765, 179.182, 51.06193, -0.02116944, 
 /* @teleloc 0xA13E0020 [86.576500 179.182000 51.061930] -0.021169 0.000000 0.000000 -0.999776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A13E001, 0x7A13E002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A13E001, 0x7A13E003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A13E001, 0x7A13E004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A13E001, 0x7A13E005, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7A13E001, 0x7A13E006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A13E001, 0x7A13E007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A13E001, 0x7A13E008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A13E001, 0x7A13E009, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7A13E001, 0x7A13E00A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A13E001, 0x7A13E00B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A13E001, 0x7A13E00C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7A13E001, 0x7A13E00D, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7A13E001, 0x7A13E002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A13E001, 0x7A13E003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A13E001, 0x7A13E004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A13E001, 0x7A13E005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7A13E001, 0x7A13E006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A13E001, 0x7A13E007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A13E001, 0x7A13E008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A13E001, 0x7A13E009, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7A13E001, 0x7A13E00A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A13E001, 0x7A13E00B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A13E001, 0x7A13E00C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7A13E001, 0x7A13E00D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A13E002,  1626, 0xA13E0020, 86.5765, 179.182, 51.06193, -0.02116944, 0, 0, -0.9997759,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -71,7 +71,7 @@ VALUES (0x7A13E00E,  1542, 0xA13E000D, 31.99869, 114.6022, 56.88363, 1, 0, 0, 0,
 /* @teleloc 0xA13E000D [31.998690 114.602200 56.883630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A13E00E, 0x7A13E00F, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7A13E00E, 0x7A13E00F, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A13E00F,  8999, 0xA13E000D, 31.99869, 114.6022, 56.88363, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

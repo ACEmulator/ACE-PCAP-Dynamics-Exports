@@ -5,14 +5,14 @@ VALUES (0x7C1D1001,  1154, 0xC1D10008, 6.484281, 176.5251, 424.01, 0.5, 0, 0, -0
 /* @teleloc 0xC1D10008 [6.484281 176.525100 424.010000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1D1001, 0x7C1D1002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1D1001, 0x7C1D1003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1D1001, 0x7C1D1004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C1D1001, 0x7C1D1005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7C1D1001, 0x7C1D1006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7C1D1001, 0x7C1D1007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7C1D1001, 0x7C1D1008, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7C1D1001, 0x7C1D1009, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7C1D1001, 0x7C1D1002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1D1001, 0x7C1D1003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1D1001, 0x7C1D1004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C1D1001, 0x7C1D1005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7C1D1001, 0x7C1D1006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7C1D1001, 0x7C1D1007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7C1D1001, 0x7C1D1008, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7C1D1001, 0x7C1D1009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1D1002,   199, 0xC1D10008, 6.484281, 176.5251, 424.01, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */

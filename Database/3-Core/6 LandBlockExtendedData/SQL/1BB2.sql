@@ -5,18 +5,18 @@ VALUES (0x71BB2001,  1154, 0x1BB2001F, 80.41122, 153.6653, 20.006, 0.6051351, 0,
 /* @teleloc 0x1BB2001F [80.411220 153.665300 20.006000] 0.605135 0.000000 0.000000 -0.796123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB2001, 0x71BB2002, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x71BB2001, 0x71BB2003, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x71BB2001, 0x71BB2004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x71BB2001, 0x71BB2005, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x71BB2001, 0x71BB2006, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x71BB2001, 0x71BB2007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x71BB2001, 0x71BB2008, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71BB2001, 0x71BB2009, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71BB2001, 0x71BB200A, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71BB2001, 0x71BB200B, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71BB2001, 0x71BB200C, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x71BB2001, 0x71BB200D, '2019-02-10 00:00:00') /* Carenzi Stalker */;
+VALUES (0x71BB2001, 0x71BB2002, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x71BB2001, 0x71BB2003, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x71BB2001, 0x71BB2004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x71BB2001, 0x71BB2005, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x71BB2001, 0x71BB2006, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x71BB2001, 0x71BB2007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x71BB2001, 0x71BB2008, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71BB2001, 0x71BB2009, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71BB2001, 0x71BB200A, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71BB2001, 0x71BB200B, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71BB2001, 0x71BB200C, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71BB2001, 0x71BB200D, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB2002, 11523, 0x1BB2001F, 80.41122, 153.6653, 20.006, 0.6051351, 0, 0, -0.7961228,  True, '2019-02-10 00:00:00'); /* Hea Warrior */
@@ -71,10 +71,10 @@ VALUES (0x71BB200E,  1542, 0x1BB20025, 117.741, 115.5867, 21, 1, 0, 0, 0, False,
 /* @teleloc 0x1BB20025 [117.741000 115.586700 21.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB200E, 0x71BB200F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71BB200E, 0x71BB2010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71BB200E, 0x71BB2011, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */
-     , (0x71BB200E, 0x71BB2012, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x71BB200E, 0x71BB200F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71BB200E, 0x71BB2010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71BB200E, 0x71BB2011, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */
+     , (0x71BB200E, 0x71BB2012, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB200F,  9024, 0x1BB20025, 117.741, 115.5867, 21, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

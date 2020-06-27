@@ -5,14 +5,14 @@ VALUES (0x7CAAC001,  1154, 0xCAAC0100, 10.50134, 76.00298, 78.805, 0.808942, 0, 
 /* @teleloc 0xCAAC0100 [10.501340 76.002980 78.805000] 0.808942 0.000000 0.000000 -0.587889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAAC001, 0x7CAAC002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CAAC001, 0x7CAAC003, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7CAAC001, 0x7CAAC004, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CAAC001, 0x7CAAC005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CAAC001, 0x7CAAC006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CAAC001, 0x7CAAC007, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7CAAC001, 0x7CAAC008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7CAAC001, 0x7CAAC009, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7CAAC001, 0x7CAAC002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CAAC001, 0x7CAAC003, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x7CAAC001, 0x7CAAC004, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CAAC001, 0x7CAAC005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CAAC001, 0x7CAAC006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CAAC001, 0x7CAAC007, '2019-02-10 00:00:00') /* Exploration Marker (39847) */
+     , (0x7CAAC001, 0x7CAAC008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7CAAC001, 0x7CAAC009, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAAC002,   944, 0xCAAC0100, 10.50134, 76.00298, 78.805, 0.808942, 0, 0, -0.587889,  True, '2019-02-10 00:00:00'); /* Mite Digger */
@@ -51,11 +51,11 @@ VALUES (0x7CAAC00A,  1542, 0xCAAC0100, 18.44602, 71.41132, 78.8, -0.244775, 0, 0
 /* @teleloc 0xCAAC0100 [18.446020 71.411320 78.800000] -0.244775 0.000000 0.000000 0.969580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAAC00A, 0x7CAAC00B, '2019-02-10 00:00:00') /* Bread */
-     , (0x7CAAC00A, 0x7CAAC00C, '2019-02-10 00:00:00') /* Fish */
-     , (0x7CAAC00A, 0x7CAAC00D, '2019-02-10 00:00:00') /* Steak */
-     , (0x7CAAC00A, 0x7CAAC00E, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7CAAC00A, 0x7CAAC00F, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7CAAC00A, 0x7CAAC00B, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7CAAC00A, 0x7CAAC00C, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7CAAC00A, 0x7CAAC00D, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7CAAC00A, 0x7CAAC00E, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7CAAC00A, 0x7CAAC00F, '2019-02-10 00:00:00') /* Old Gravestone (34130) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAAC00B,   259, 0xCAAC0100, 18.44602, 71.41132, 78.8, -0.244775, 0, 0, 0.96958,  True, '2019-02-10 00:00:00'); /* Bread */

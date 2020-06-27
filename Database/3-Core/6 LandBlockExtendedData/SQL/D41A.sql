@@ -5,17 +5,17 @@ VALUES (0x7D41A001,  1154, 0xD41A002F, 129.4205, 159.014, 1.223212, 0.5255639, 0
 /* @teleloc 0xD41A002F [129.420500 159.014000 1.223212] 0.525564 0.000000 0.000000 -0.850754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D41A001, 0x7D41A002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D41A001, 0x7D41A003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D41A001, 0x7D41A004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D41A001, 0x7D41A005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D41A001, 0x7D41A006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D41A001, 0x7D41A007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D41A001, 0x7D41A008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7D41A001, 0x7D41A009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D41A001, 0x7D41A00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D41A001, 0x7D41A00B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7D41A001, 0x7D41A00C, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7D41A001, 0x7D41A002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D41A001, 0x7D41A003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D41A001, 0x7D41A004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D41A001, 0x7D41A005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D41A001, 0x7D41A006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D41A001, 0x7D41A007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D41A001, 0x7D41A008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7D41A001, 0x7D41A009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D41A001, 0x7D41A00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D41A001, 0x7D41A00B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7D41A001, 0x7D41A00C, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D41A002,   619, 0xD41A002F, 129.4205, 159.014, 1.223212, 0.5255639, 0, 0, -0.8507541,  True, '2019-02-10 00:00:00'); /* Revenant */

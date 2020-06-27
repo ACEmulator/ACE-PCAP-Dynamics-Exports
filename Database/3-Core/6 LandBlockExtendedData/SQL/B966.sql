@@ -5,11 +5,11 @@ VALUES (0x7B966001,  1154, 0xB9660040, 186.1875, 174.8297, 5.5544, 0.7071068, 0,
 /* @teleloc 0xB9660040 [186.187500 174.829700 5.554400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B966001, 0x7B966002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B966001, 0x7B966003, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B966001, 0x7B966004, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7B966001, 0x7B966005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B966001, 0x7B966006, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7B966001, 0x7B966002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B966001, 0x7B966003, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B966001, 0x7B966004, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7B966001, 0x7B966005, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B966001, 0x7B966006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B966002,  4249, 0xB9660040, 186.1875, 174.8297, 5.5544, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -36,7 +36,7 @@ VALUES (0x7B966007,  1542, 0xB9660040, 186.8725, 173.9985, 6, 0.8870109, 0, 0, -
 /* @teleloc 0xB9660040 [186.872500 173.998500 6.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B966007, 0x7B966008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B966007, 0x7B966008, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B966008,  4379, 0xB9660040, 186.8725, 173.9985, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Bones */

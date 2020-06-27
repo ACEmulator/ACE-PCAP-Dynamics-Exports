@@ -5,11 +5,11 @@ VALUES (0x7C05B001,  1154, 0xC05B000B, 30.43909, 51.15753, 5.9066, 0.7734503, 0,
 /* @teleloc 0xC05B000B [30.439090 51.157530 5.906600] 0.773450 0.000000 0.000000 -0.633857 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C05B001, 0x7C05B002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C05B001, 0x7C05B003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C05B001, 0x7C05B004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C05B001, 0x7C05B005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7C05B001, 0x7C05B006, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7C05B001, 0x7C05B002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C05B001, 0x7C05B003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C05B001, 0x7C05B004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C05B001, 0x7C05B005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7C05B001, 0x7C05B006, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C05B002,  8427, 0xC05B000B, 30.43909, 51.15753, 5.9066, 0.7734503, 0, 0, -0.633857,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */

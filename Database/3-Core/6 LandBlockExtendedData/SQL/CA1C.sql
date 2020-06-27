@@ -5,9 +5,9 @@ VALUES (0x7CA1C001,  1154, 0xCA1C0023, 102.2691, 71.86069, 99.6287, 0.9537169, 0
 /* @teleloc 0xCA1C0023 [102.269100 71.860690 99.628700] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA1C001, 0x7CA1C002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CA1C001, 0x7CA1C003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CA1C001, 0x7CA1C004, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7CA1C001, 0x7CA1C002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CA1C001, 0x7CA1C003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CA1C001, 0x7CA1C004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA1C002,  7129, 0xCA1C0023, 102.2691, 71.86069, 99.6287, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
@@ -26,7 +26,7 @@ VALUES (0x7CA1C005,  1542, 0xCA1C0024, 100.2561, 74.2995, 98.49844, 0.9537169, 0
 /* @teleloc 0xCA1C0024 [100.256100 74.299500 98.498440] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA1C005, 0x7CA1C006, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7CA1C005, 0x7CA1C006, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA1C006,  5779, 0xCA1C0024, 100.2561, 74.2995, 98.49844, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

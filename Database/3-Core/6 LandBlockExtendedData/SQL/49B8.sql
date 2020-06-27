@@ -5,10 +5,10 @@ VALUES (0x749B8001,  1154, 0x49B80038, 163.6519, 174.4053, 239.2714, 0.3196785, 
 /* @teleloc 0x49B80038 [163.651900 174.405300 239.271400] 0.319679 0.000000 0.000000 -0.947526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B8001, 0x749B8002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x749B8001, 0x749B8003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x749B8001, 0x749B8004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x749B8001, 0x749B8005, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x749B8001, 0x749B8002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x749B8001, 0x749B8003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x749B8001, 0x749B8004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x749B8001, 0x749B8005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B8002, 24959, 0x49B80038, 163.6519, 174.4053, 239.2714, 0.3196785, 0, 0, -0.9475261,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -31,7 +31,7 @@ VALUES (0x749B8006,  1154, 0x49B80015, 55.5021, 96.0124, 240.005, 0.72867, 0, 0,
 /* @teleloc 0x49B80015 [55.502100 96.012400 240.005000] 0.728670 0.000000 0.000000 -0.684865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B8006, 0x749B8007, '2019-02-10 00:00:00') /* Grand Sentinel Tretia */;
+VALUES (0x749B8006, 0x749B8007, '2019-02-10 00:00:00') /* Grand Sentinel Tretia (14922) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B8007, 14922, 0x49B80015, 55.5021, 96.0124, 240.005, 0.72867, 0, 0, -0.684865,  True, '2019-02-10 00:00:00'); /* Grand Sentinel Tretia */
@@ -42,9 +42,9 @@ VALUES (0x749B8008,  1542, 0x49B80025, 100.0272, 108.5796, 239.937, -0.3511183, 
 /* @teleloc 0x49B80025 [100.027200 108.579600 239.937000] -0.351118 0.000000 0.000000 -0.936331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749B8008, 0x749B8009, '2019-02-10 00:00:00') /* Gateway */
-     , (0x749B8008, 0x749B800A, '2019-02-10 00:00:00') /* Rock */
-     , (0x749B8008, 0x749B800B, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x749B8008, 0x749B8009, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x749B8008, 0x749B800A, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x749B8008, 0x749B800B, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749B8009,  1955, 0x49B80025, 100.0272, 108.5796, 239.937, -0.3511183, 0, 0, -0.9363311,  True, '2019-02-10 00:00:00'); /* Gateway */

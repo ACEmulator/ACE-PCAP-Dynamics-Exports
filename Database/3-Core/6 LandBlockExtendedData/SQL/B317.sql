@@ -5,10 +5,10 @@ VALUES (0x7B317001,  1154, 0xB317000F, 46.10004, 151.952, 210.9743, -0.09223249,
 /* @teleloc 0xB317000F [46.100040 151.952000 210.974300] -0.092232 0.000000 0.000000 -0.995738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B317001, 0x7B317002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7B317001, 0x7B317003, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7B317001, 0x7B317004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B317001, 0x7B317005, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7B317001, 0x7B317002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7B317001, 0x7B317003, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7B317001, 0x7B317004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B317001, 0x7B317005, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B317002, 14517, 0xB317000F, 46.10004, 151.952, 210.9743, -0.09223249, 0, 0, -0.9957375,  True, '2019-02-10 00:00:00'); /* Frost */

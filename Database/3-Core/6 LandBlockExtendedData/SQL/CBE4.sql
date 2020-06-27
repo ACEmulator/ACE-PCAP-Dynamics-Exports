@@ -5,27 +5,27 @@ VALUES (0x7CBE4001,  1154, 0xCBE40014, 60.95911, 80.17171, -0.09359992, -0.05685
 /* @teleloc 0xCBE40014 [60.959110 80.171710 -0.093600] -0.056858 0.000000 0.000000 -0.998382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBE4001, 0x7CBE4002, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CBE4001, 0x7CBE4003, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7CBE4001, 0x7CBE4004, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CBE4001, 0x7CBE4005, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4006, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4007, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CBE4001, 0x7CBE4008, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CBE4001, 0x7CBE4009, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CBE4001, 0x7CBE400A, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CBE4001, 0x7CBE400B, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CBE4001, 0x7CBE400C, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7CBE4001, 0x7CBE400D, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CBE4001, 0x7CBE400E, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE400F, '2019-02-10 00:00:00') /* Gold Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4010, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CBE4001, 0x7CBE4011, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4012, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7CBE4001, 0x7CBE4013, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4014, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CBE4001, 0x7CBE4015, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CBE4001, 0x7CBE4016, '2019-02-10 00:00:00') /* Gold Shallows Shredder */;
+VALUES (0x7CBE4001, 0x7CBE4002, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CBE4001, 0x7CBE4003, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7CBE4001, 0x7CBE4004, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CBE4001, 0x7CBE4005, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CBE4001, 0x7CBE4006, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CBE4001, 0x7CBE4007, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CBE4001, 0x7CBE4008, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CBE4001, 0x7CBE4009, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CBE4001, 0x7CBE400A, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CBE4001, 0x7CBE400B, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CBE4001, 0x7CBE400C, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7CBE4001, 0x7CBE400D, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CBE4001, 0x7CBE400E, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CBE4001, 0x7CBE400F, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
+     , (0x7CBE4001, 0x7CBE4010, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CBE4001, 0x7CBE4011, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CBE4001, 0x7CBE4012, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7CBE4001, 0x7CBE4013, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CBE4001, 0x7CBE4014, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CBE4001, 0x7CBE4015, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CBE4001, 0x7CBE4016, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBE4002, 31914, 0xCBE40014, 60.95911, 80.17171, -0.09359992, -0.05685759, 0, 0, -0.9983823,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */

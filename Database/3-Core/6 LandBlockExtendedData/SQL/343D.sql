@@ -5,39 +5,39 @@ VALUES (0x7343D001,  1154, 0x343D002C, 128.8457, 77.6134, -0.8999987, 0.3497085,
 /* @teleloc 0x343D002C [128.845700 77.613400 -0.899999] 0.349709 0.000000 0.000000 -0.936859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7343D001, 0x7343D002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7343D001, 0x7343D003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7343D001, 0x7343D004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7343D001, 0x7343D005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7343D001, 0x7343D006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7343D001, 0x7343D007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7343D001, 0x7343D008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7343D001, 0x7343D009, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7343D001, 0x7343D00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7343D001, 0x7343D00B, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7343D001, 0x7343D00C, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7343D001, 0x7343D00D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x7343D001, 0x7343D00E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7343D001, 0x7343D00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343D001, 0x7343D010, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7343D001, 0x7343D011, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7343D001, 0x7343D012, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343D001, 0x7343D013, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7343D001, 0x7343D014, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7343D001, 0x7343D015, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7343D001, 0x7343D016, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7343D001, 0x7343D017, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343D001, 0x7343D018, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7343D001, 0x7343D019, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343D001, 0x7343D01A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7343D001, 0x7343D01B, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7343D001, 0x7343D01C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7343D001, 0x7343D01D, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7343D001, 0x7343D01E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7343D001, 0x7343D01F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7343D001, 0x7343D020, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343D001, 0x7343D021, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7343D001, 0x7343D022, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7343D001, 0x7343D002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7343D001, 0x7343D003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7343D001, 0x7343D004, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7343D001, 0x7343D005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7343D001, 0x7343D006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7343D001, 0x7343D007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7343D001, 0x7343D008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7343D001, 0x7343D009, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7343D001, 0x7343D00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7343D001, 0x7343D00B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7343D001, 0x7343D00C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7343D001, 0x7343D00D, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x7343D001, 0x7343D00E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7343D001, 0x7343D00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343D001, 0x7343D010, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7343D001, 0x7343D011, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7343D001, 0x7343D012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343D001, 0x7343D013, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7343D001, 0x7343D014, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7343D001, 0x7343D015, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7343D001, 0x7343D016, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7343D001, 0x7343D017, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343D001, 0x7343D018, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7343D001, 0x7343D019, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343D001, 0x7343D01A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7343D001, 0x7343D01B, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7343D001, 0x7343D01C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7343D001, 0x7343D01D, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7343D001, 0x7343D01E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7343D001, 0x7343D01F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7343D001, 0x7343D020, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343D001, 0x7343D021, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7343D001, 0x7343D022, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343D002,  7125, 0x343D002C, 128.8457, 77.6134, -0.8999987, 0.3497085, 0, 0, -0.9368585,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */

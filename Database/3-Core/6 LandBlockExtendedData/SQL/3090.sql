@@ -5,13 +5,13 @@ VALUES (0x73090001,  1154, 0x30900034, 151.6663, 74.67976, 22.81569, -0.938827, 
 /* @teleloc 0x30900034 [151.666300 74.679760 22.815690] -0.938827 0.000000 0.000000 -0.344389 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73090001, 0x73090002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73090001, 0x73090003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73090001, 0x73090004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73090001, 0x73090005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73090001, 0x73090006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73090001, 0x73090007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x73090001, 0x73090008, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x73090001, 0x73090002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73090001, 0x73090003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73090001, 0x73090004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73090001, 0x73090005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73090001, 0x73090006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73090001, 0x73090007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x73090001, 0x73090008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73090002, 24497, 0x30900034, 151.6663, 74.67976, 22.81569, -0.938827, 0, 0, -0.344389,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -46,8 +46,8 @@ VALUES (0x73090009,  1542, 0x30900040, 175.4114, 170.4262, 7.768766, -4.371139E-
 /* @teleloc 0x30900040 [175.411400 170.426200 7.768766] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73090009, 0x7309000A, '2019-02-10 00:00:00') /* Bones */
-     , (0x73090009, 0x7309000B, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x73090009, 0x7309000A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73090009, 0x7309000B, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7309000A,  4380, 0x30900040, 175.4114, 170.4262, 7.768766, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

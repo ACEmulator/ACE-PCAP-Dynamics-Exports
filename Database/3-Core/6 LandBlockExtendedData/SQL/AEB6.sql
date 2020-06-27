@@ -5,21 +5,21 @@ VALUES (0x7AEB6001,  1154, 0xAEB60014, 54.68091, 72.25187, 108.5478, 0.5039122, 
 /* @teleloc 0xAEB60014 [54.680910 72.251870 108.547800] 0.503912 0.000000 0.000000 -0.863755 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB6001, 0x7AEB6002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7AEB6001, 0x7AEB6003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEB6001, 0x7AEB6004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEB6001, 0x7AEB6005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AEB6001, 0x7AEB6006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7AEB6001, 0x7AEB6007, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AEB6001, 0x7AEB6008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB6001, 0x7AEB6009, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7AEB6001, 0x7AEB600A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AEB6001, 0x7AEB600B, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7AEB6001, 0x7AEB600C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AEB6001, 0x7AEB600D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7AEB6001, 0x7AEB600E, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7AEB6001, 0x7AEB600F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7AEB6001, 0x7AEB6010, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7AEB6001, 0x7AEB6002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7AEB6001, 0x7AEB6003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEB6001, 0x7AEB6004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEB6001, 0x7AEB6005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AEB6001, 0x7AEB6006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7AEB6001, 0x7AEB6007, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AEB6001, 0x7AEB6008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB6001, 0x7AEB6009, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7AEB6001, 0x7AEB600A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AEB6001, 0x7AEB600B, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7AEB6001, 0x7AEB600C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AEB6001, 0x7AEB600D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7AEB6001, 0x7AEB600E, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7AEB6001, 0x7AEB600F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7AEB6001, 0x7AEB6010, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB6002,   216, 0xAEB60014, 54.68091, 72.25187, 108.5478, 0.5039122, 0, 0, -0.8637549,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

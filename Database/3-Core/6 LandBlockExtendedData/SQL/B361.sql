@@ -5,8 +5,8 @@ VALUES (0x7B361001,  1154, 0xB3610036, 152.4974, 137.8961, 23.22027, 0.4768394, 
 /* @teleloc 0xB3610036 [152.497400 137.896100 23.220270] 0.476839 0.000000 0.000000 -0.878990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B361001, 0x7B361002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B361001, 0x7B361003, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B361001, 0x7B361002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B361001, 0x7B361003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B361002,   192, 0xB3610036, 152.4974, 137.8961, 23.22027, 0.4768394, 0, 0, -0.8789904,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

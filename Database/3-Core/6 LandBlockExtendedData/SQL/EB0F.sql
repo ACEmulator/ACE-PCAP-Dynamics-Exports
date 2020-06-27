@@ -9,14 +9,14 @@ VALUES (0x7EB0F001,  1154, 0xEB0F010A, 157.42, 155.774, 236.015, -0.750894, 0, 0
 /* @teleloc 0xEB0F010A [157.420000 155.774000 236.015000] -0.750894 0.000000 0.000000 -0.660422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB0F001, 0x7EB0F002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB0F001, 0x7EB0F003, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB0F001, 0x7EB0F004, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x7EB0F001, 0x7EB0F005, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB0F001, 0x7EB0F006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB0F001, 0x7EB0F007, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7EB0F001, 0x7EB0F008, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7EB0F001, 0x7EB0F009, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x7EB0F001, 0x7EB0F002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F001, 0x7EB0F003, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB0F001, 0x7EB0F004, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x7EB0F001, 0x7EB0F005, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F001, 0x7EB0F006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F001, 0x7EB0F007, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7EB0F001, 0x7EB0F008, '2019-02-10 00:00:00') /* Exploration Marker (39830) */
+     , (0x7EB0F001, 0x7EB0F009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB0F002, 11533, 0xEB0F010A, 157.42, 155.774, 236.015, -0.750894, 0, 0, -0.660422,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

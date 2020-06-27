@@ -61,102 +61,102 @@ VALUES (0x701C107C,  1154, 0x01C10227, 36.5369, -123.132, 6.006, -0.548202, 0, 0
 /* @teleloc 0x01C10227 [36.536900 -123.132000 6.006000] -0.548202 0.000000 0.000000 -0.836346 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C107C, 0x701C107D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C107E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C107F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1080, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1081, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1082, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1083, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1084, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1085, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1086, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1087, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1088, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C1089, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C108A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C108B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C108C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x701C107C, 0x701C108D, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C108E, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C108F, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1090, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1091, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1092, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1093, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C1094, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1095, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1096, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1097, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1098, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C1099, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C109A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C109B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C109C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C109D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C109E, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C109F, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10A0, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10A1, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10A2, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10A3, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10A4, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10A5, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10A6, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10A7, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10A8, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10A9, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AA, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AB, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AC, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AD, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AE, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10AF, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10B0, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10B1, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10B2, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10B3, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10B4, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10B5, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10B6, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10B7, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10B8, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10B9, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10BA, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10BB, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10BC, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10BD, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10BE, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10BF, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10C0, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10C1, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10C2, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10C3, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10C4, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10C5, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10C6, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10C7, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10C8, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10C9, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10CA, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10CB, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10CC, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10CD, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10CE, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10CF, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D0, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D1, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D2, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D3, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D4, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D5, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x701C107C, 0x701C10D6, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x701C107C, 0x701C10D7, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x701C107C, 0x701C10D8, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10D9, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x701C107C, 0x701C10DA, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x701C107C, 0x701C10DB, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x701C107C, 0x701C10DC, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x701C107C, 0x701C107D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C107E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C107F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1080, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1081, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1082, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1083, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1084, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1085, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1086, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1087, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1088, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C1089, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C108A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C108B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C108C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x701C107C, 0x701C108D, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C108E, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C108F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1090, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1091, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1092, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1093, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C1094, '2019-02-10 00:00:00') /* Tumerok Taskmaster (2484) */
+     , (0x701C107C, 0x701C1095, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1096, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1097, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1098, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C1099, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C109A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C109B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C109C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C109D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C109E, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C109F, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10A0, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10A1, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10A2, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10A3, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10A4, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10A5, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10A6, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10A7, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10A8, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10A9, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AA, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AB, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AC, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AD, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AE, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10AF, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10B0, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10B1, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10B2, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10B3, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10B4, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10B5, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10B6, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10B7, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10B8, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10B9, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10BA, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10BB, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10BC, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10BD, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10BE, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10BF, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10C0, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10C1, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10C2, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10C3, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10C4, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10C5, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10C6, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10C7, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10C8, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10C9, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10CA, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10CB, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10CC, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10CD, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10CE, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10CF, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D0, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D1, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D2, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D3, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D4, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D5, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x701C107C, 0x701C10D6, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x701C107C, 0x701C10D7, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x701C107C, 0x701C10D8, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10D9, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x701C107C, 0x701C10DA, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x701C107C, 0x701C10DB, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x701C107C, 0x701C10DC, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C107D,   227, 0x01C10227, 36.5369, -123.132, 6.006, -0.548202, 0, 0, -0.836346,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
@@ -547,23 +547,23 @@ VALUES (0x701C10DD,  1542, 0x01C101A6, 113.7048, -13.50541, 0, -0.7071068, 0, 0,
 /* @teleloc 0x01C101A6 [113.704800 -13.505410 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C10DD, 0x701C10DE, '2019-02-10 00:00:00') /* Fish */
-     , (0x701C10DD, 0x701C10DF, '2019-02-10 00:00:00') /* Apple */
-     , (0x701C10DD, 0x701C10E0, '2019-02-10 00:00:00') /* Bread */
-     , (0x701C10DD, 0x701C10E1, '2019-02-10 00:00:00') /* Simi */
-     , (0x701C10DD, 0x701C10E2, '2019-02-10 00:00:00') /* Simi */
-     , (0x701C10DD, 0x701C10E3, '2019-02-10 00:00:00') /* Apple */
-     , (0x701C10DD, 0x701C10E4, '2019-02-10 00:00:00') /* Bread */
-     , (0x701C10DD, 0x701C10E5, '2019-02-10 00:00:00') /* Gem */
-     , (0x701C10DD, 0x701C10E6, '2019-02-10 00:00:00') /* Simi */
-     , (0x701C10DD, 0x701C10E7, '2019-02-10 00:00:00') /* Apple */
-     , (0x701C10DD, 0x701C10E8, '2019-02-10 00:00:00') /* Bread */
-     , (0x701C10DD, 0x701C10E9, '2019-02-10 00:00:00') /* Fish */
-     , (0x701C10DD, 0x701C10EA, '2019-02-10 00:00:00') /* Jambiya */
-     , (0x701C10DD, 0x701C10EB, '2019-02-10 00:00:00') /* Egg */
-     , (0x701C10DD, 0x701C10EC, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701C10DD, 0x701C10ED, '2019-02-10 00:00:00') /* Apple */
-     , (0x701C10DD, 0x701C10EE, '2019-02-10 00:00:00') /* Yaoji */;
+VALUES (0x701C10DD, 0x701C10DE, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701C10DD, 0x701C10DF, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701C10DD, 0x701C10E0, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701C10DD, 0x701C10E1, '2019-02-10 00:00:00') /* Simi (345) */
+     , (0x701C10DD, 0x701C10E2, '2019-02-10 00:00:00') /* Simi (345) */
+     , (0x701C10DD, 0x701C10E3, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701C10DD, 0x701C10E4, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701C10DD, 0x701C10E5, '2019-02-10 00:00:00') /* Gem (280) */
+     , (0x701C10DD, 0x701C10E6, '2019-02-10 00:00:00') /* Simi (345) */
+     , (0x701C10DD, 0x701C10E7, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701C10DD, 0x701C10E8, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701C10DD, 0x701C10E9, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701C10DD, 0x701C10EA, '2019-02-10 00:00:00') /* Jambiya (319) */
+     , (0x701C10DD, 0x701C10EB, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701C10DD, 0x701C10EC, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701C10DD, 0x701C10ED, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701C10DD, 0x701C10EE, '2019-02-10 00:00:00') /* Yaoji (361) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C10DE,   263, 0x01C101A6, 113.7048, -13.50541, 0, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Fish */

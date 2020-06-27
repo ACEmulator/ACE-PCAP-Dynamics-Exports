@@ -5,18 +5,18 @@ VALUES (0x74CCC001,  1154, 0x4CCC0023, 116.4346, 57.42371, 65.41262, -4.371139E-
 /* @teleloc 0x4CCC0023 [116.434600 57.423710 65.412620] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CCC001, 0x74CCC002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74CCC001, 0x74CCC003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74CCC001, 0x74CCC004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74CCC001, 0x74CCC005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74CCC001, 0x74CCC006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74CCC001, 0x74CCC007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x74CCC001, 0x74CCC008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CCC001, 0x74CCC009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CCC001, 0x74CCC00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74CCC001, 0x74CCC00B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74CCC001, 0x74CCC00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74CCC001, 0x74CCC00D, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74CCC001, 0x74CCC002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74CCC001, 0x74CCC003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74CCC001, 0x74CCC004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74CCC001, 0x74CCC005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74CCC001, 0x74CCC006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74CCC001, 0x74CCC007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x74CCC001, 0x74CCC008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CCC001, 0x74CCC009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CCC001, 0x74CCC00A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x74CCC001, 0x74CCC00B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74CCC001, 0x74CCC00C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74CCC001, 0x74CCC00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CCC002,  7184, 0x4CCC0023, 116.4346, 57.42371, 65.41262, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

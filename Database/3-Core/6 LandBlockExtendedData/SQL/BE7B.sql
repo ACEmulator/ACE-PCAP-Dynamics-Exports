@@ -5,21 +5,21 @@ VALUES (0x7BE7B001,  1154, 0xBE7B001B, 76.14851, 57.79308, 49.01602, -0.6964302,
 /* @teleloc 0xBE7B001B [76.148510 57.793080 49.016020] -0.696430 0.000000 0.000000 -0.717625 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE7B001, 0x7BE7B002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BE7B001, 0x7BE7B003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BE7B001, 0x7BE7B004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BE7B001, 0x7BE7B005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BE7B001, 0x7BE7B006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BE7B001, 0x7BE7B007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BE7B001, 0x7BE7B008, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BE7B001, 0x7BE7B009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BE7B001, 0x7BE7B00A, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BE7B001, 0x7BE7B00B, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BE7B001, 0x7BE7B00C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BE7B001, 0x7BE7B00D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BE7B001, 0x7BE7B00E, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BE7B001, 0x7BE7B00F, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7BE7B001, 0x7BE7B010, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7BE7B001, 0x7BE7B002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BE7B001, 0x7BE7B003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BE7B001, 0x7BE7B004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BE7B001, 0x7BE7B005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE7B001, 0x7BE7B006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BE7B001, 0x7BE7B007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BE7B001, 0x7BE7B008, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BE7B001, 0x7BE7B009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BE7B001, 0x7BE7B00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BE7B001, 0x7BE7B00B, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BE7B001, 0x7BE7B00C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BE7B001, 0x7BE7B00D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BE7B001, 0x7BE7B00E, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BE7B001, 0x7BE7B00F, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BE7B001, 0x7BE7B010, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7B002,   223, 0xBE7B001B, 76.14851, 57.79308, 49.01602, -0.6964302, 0, 0, -0.7176245,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */

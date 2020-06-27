@@ -5,16 +5,16 @@ VALUES (0x72C68001,  1154, 0x2C68002D, 137.5889, 111.774, 48.74041, 0.882786, 0,
 /* @teleloc 0x2C68002D [137.588900 111.774000 48.740410] 0.882786 0.000000 0.000000 -0.469775 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C68001, 0x72C68002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72C68001, 0x72C68003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72C68001, 0x72C68004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72C68001, 0x72C68005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72C68001, 0x72C68006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72C68001, 0x72C68007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C68001, 0x72C68008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72C68001, 0x72C68009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72C68001, 0x72C6800A, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72C68001, 0x72C6800B, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x72C68001, 0x72C68002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72C68001, 0x72C68003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72C68001, 0x72C68004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72C68001, 0x72C68005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72C68001, 0x72C68006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72C68001, 0x72C68007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C68001, 0x72C68008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72C68001, 0x72C68009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72C68001, 0x72C6800A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72C68001, 0x72C6800B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C68002, 24319, 0x2C68002D, 137.5889, 111.774, 48.74041, 0.882786, 0, 0, -0.4697752,  True, '2019-02-10 00:00:00'); /* Dark Master */

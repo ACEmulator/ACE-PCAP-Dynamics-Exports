@@ -5,23 +5,23 @@ VALUES (0x79D26001,  1154, 0x9D26003F, 184.7274, 149.1938, 162.5308, 0.9762409, 
 /* @teleloc 0x9D26003F [184.727400 149.193800 162.530800] 0.976241 0.000000 0.000000 -0.216688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D26001, 0x79D26002, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79D26001, 0x79D26003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79D26001, 0x79D26004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79D26001, 0x79D26005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79D26001, 0x79D26006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79D26001, 0x79D26007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79D26001, 0x79D26008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79D26001, 0x79D26009, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x79D26001, 0x79D2600A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79D26001, 0x79D2600B, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79D26001, 0x79D2600C, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79D26001, 0x79D2600D, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79D26001, 0x79D2600E, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79D26001, 0x79D2600F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x79D26001, 0x79D26010, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79D26001, 0x79D26011, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79D26001, 0x79D26012, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x79D26001, 0x79D26002, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79D26001, 0x79D26003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79D26001, 0x79D26004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79D26001, 0x79D26005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79D26001, 0x79D26006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79D26001, 0x79D26007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79D26001, 0x79D26008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79D26001, 0x79D26009, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x79D26001, 0x79D2600A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79D26001, 0x79D2600B, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D26001, 0x79D2600C, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D26001, 0x79D2600D, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79D26001, 0x79D2600E, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79D26001, 0x79D2600F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x79D26001, 0x79D26010, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79D26001, 0x79D26011, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79D26001, 0x79D26012, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D26002,  8968, 0x9D26003F, 184.7274, 149.1938, 162.5308, 0.9762409, 0, 0, -0.2166882,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -96,8 +96,8 @@ VALUES (0x79D26013,  1542, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 
 /* @teleloc 0x9D260025 [104.125400 100.815400 161.448300] 0.489424 0.000000 0.000000 -0.872046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D26013, 0x79D26014, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79D26013, 0x79D26015, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x79D26013, 0x79D26014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79D26013, 0x79D26015, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D26014,  8037, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 0, 0, -0.8720461,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

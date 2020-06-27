@@ -13,12 +13,12 @@ VALUES (0x769D7002,  1154, 0x69D7001B, 72.9975, 67.51281, 227.2868, 1, 0, 0, 0, 
 /* @teleloc 0x69D7001B [72.997500 67.512810 227.286800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769D7002, 0x769D7003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x769D7002, 0x769D7004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x769D7002, 0x769D7005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x769D7002, 0x769D7006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x769D7002, 0x769D7007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x769D7002, 0x769D7008, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x769D7002, 0x769D7003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x769D7002, 0x769D7004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x769D7002, 0x769D7005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x769D7002, 0x769D7006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x769D7002, 0x769D7007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x769D7002, 0x769D7008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769D7003, 36844, 0x69D7001B, 72.9975, 67.51281, 227.2868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

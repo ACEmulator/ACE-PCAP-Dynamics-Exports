@@ -5,23 +5,23 @@ VALUES (0x7E073001,  1154, 0xE0730034, 149.2953, 87.6002, 0.0004999638, 0.819152
 /* @teleloc 0xE0730034 [149.295300 87.600200 0.000500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E073001, 0x7E073002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E073001, 0x7E073003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E073001, 0x7E073004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7E073001, 0x7E073005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E073001, 0x7E073006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E073001, 0x7E073007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E073001, 0x7E073008, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7E073001, 0x7E073009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E073001, 0x7E07300A, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E073001, 0x7E07300B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E073001, 0x7E07300C, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7E073001, 0x7E07300D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E073001, 0x7E07300E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E073001, 0x7E07300F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E073001, 0x7E073010, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E073001, 0x7E073011, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7E073001, 0x7E073012, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7E073001, 0x7E073002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E073001, 0x7E073003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E073001, 0x7E073004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7E073001, 0x7E073005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E073001, 0x7E073006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E073001, 0x7E073007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E073001, 0x7E073008, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7E073001, 0x7E073009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E073001, 0x7E07300A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E073001, 0x7E07300B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E073001, 0x7E07300C, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7E073001, 0x7E07300D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E073001, 0x7E07300E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E073001, 0x7E07300F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E073001, 0x7E073010, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E073001, 0x7E073011, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7E073001, 0x7E073012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E073002,  7987, 0xE0730034, 149.2953, 87.6002, 0.0004999638, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

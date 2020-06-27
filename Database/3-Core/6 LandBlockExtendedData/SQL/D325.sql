@@ -5,10 +5,10 @@ VALUES (0x7D325001,  1154, 0xD3250013, 48.49742, 58.92025, 90.91003, -0.6402443,
 /* @teleloc 0xD3250013 [48.497420 58.920250 90.910030] -0.640244 0.000000 0.000000 -0.768171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D325001, 0x7D325002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7D325001, 0x7D325003, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7D325001, 0x7D325004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D325001, 0x7D325005, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7D325001, 0x7D325002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7D325001, 0x7D325003, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7D325001, 0x7D325004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D325001, 0x7D325005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D325002,  6041, 0xD3250013, 48.49742, 58.92025, 90.91003, -0.6402443, 0, 0, -0.7681714,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

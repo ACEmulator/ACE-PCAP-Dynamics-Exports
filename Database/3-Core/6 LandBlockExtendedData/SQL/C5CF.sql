@@ -5,23 +5,23 @@ VALUES (0x7C5CF001,  1154, 0xC5CF0021, 107.4382, 20.50593, 144.662, 0.7327029, 0
 /* @teleloc 0xC5CF0021 [107.438200 20.505930 144.662000] 0.732703 0.000000 0.000000 -0.680549 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5CF001, 0x7C5CF002, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C5CF001, 0x7C5CF003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C5CF001, 0x7C5CF004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C5CF001, 0x7C5CF005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7C5CF001, 0x7C5CF006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5CF001, 0x7C5CF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5CF001, 0x7C5CF008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5CF001, 0x7C5CF009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5CF001, 0x7C5CF00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5CF001, 0x7C5CF00B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C5CF001, 0x7C5CF00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C5CF001, 0x7C5CF00D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C5CF001, 0x7C5CF00E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C5CF001, 0x7C5CF00F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C5CF001, 0x7C5CF010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C5CF001, 0x7C5CF011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C5CF001, 0x7C5CF012, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7C5CF001, 0x7C5CF002, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C5CF001, 0x7C5CF003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C5CF001, 0x7C5CF004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C5CF001, 0x7C5CF005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7C5CF001, 0x7C5CF006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5CF001, 0x7C5CF007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5CF001, 0x7C5CF008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5CF001, 0x7C5CF009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5CF001, 0x7C5CF00A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5CF001, 0x7C5CF00B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C5CF001, 0x7C5CF00C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C5CF001, 0x7C5CF00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C5CF001, 0x7C5CF00E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C5CF001, 0x7C5CF00F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C5CF001, 0x7C5CF010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C5CF001, 0x7C5CF011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C5CF001, 0x7C5CF012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5CF002, 14874, 0xC5CF0021, 107.4382, 20.50593, 144.662, 0.7327029, 0, 0, -0.6805487,  True, '2019-02-10 00:00:00'); /* Augmented Olthoi */

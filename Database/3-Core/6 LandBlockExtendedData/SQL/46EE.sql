@@ -5,12 +5,12 @@ VALUES (0x746EE001,  1154, 0x46EE0007, 8.738785, 165.2005, 26.64885, 0.9392349, 
 /* @teleloc 0x46EE0007 [8.738785 165.200500 26.648850] 0.939235 0.000000 0.000000 -0.343275 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746EE001, 0x746EE002, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746EE001, 0x746EE003, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746EE001, 0x746EE004, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x746EE001, 0x746EE005, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x746EE001, 0x746EE006, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x746EE001, 0x746EE007, '2019-02-10 00:00:00') /* Viamontian Tribune */;
+VALUES (0x746EE001, 0x746EE002, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746EE001, 0x746EE003, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746EE001, 0x746EE004, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x746EE001, 0x746EE005, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x746EE001, 0x746EE006, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x746EE001, 0x746EE007, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746EE002, 28638, 0x46EE0007, 8.738785, 165.2005, 26.64885, 0.9392349, 0, 0, -0.343275,  True, '2019-02-10 00:00:00'); /* Repugnant Eater */

@@ -1709,7 +1709,7 @@ VALUES (0x789C91B2,  1542, 0x89C90022, 105.6386, 33.81963, 100.9244, -0.956918, 
 /* @teleloc 0x89C90022 [105.638600 33.819630 100.924400] -0.956918 0.000000 0.000000 -0.290358 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789C91B2, 0x789C91B3, '2019-02-10 00:00:00') /* Peerless Lockpick */;
+VALUES (0x789C91B2, 0x789C91B3, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789C91B3,   516, 0x89C90022, 105.6386, 33.81963, 100.9244, -0.956918, 0, 0, -0.2903583,  True, '2019-02-10 00:00:00'); /* Peerless Lockpick */

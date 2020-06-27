@@ -5,14 +5,14 @@ VALUES (0x7C6D9001,  1154, 0xC6D9003E, 189.097, 127.9289, 61.8153, 0.4386302, 0,
 /* @teleloc 0xC6D9003E [189.097000 127.928900 61.815300] 0.438630 0.000000 0.000000 -0.898668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6D9001, 0x7C6D9002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C6D9001, 0x7C6D9003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7C6D9001, 0x7C6D9004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7C6D9001, 0x7C6D9005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C6D9001, 0x7C6D9006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C6D9001, 0x7C6D9007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C6D9001, 0x7C6D9008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7C6D9001, 0x7C6D9009, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7C6D9001, 0x7C6D9002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C6D9001, 0x7C6D9003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7C6D9001, 0x7C6D9004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7C6D9001, 0x7C6D9005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C6D9001, 0x7C6D9006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C6D9001, 0x7C6D9007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C6D9001, 0x7C6D9008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7C6D9001, 0x7C6D9009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6D9002, 14800, 0xC6D9003E, 189.097, 127.9289, 61.8153, 0.4386302, 0, 0, -0.8986676,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -51,7 +51,7 @@ VALUES (0x7C6D900A,  1542, 0xC6D9001C, 86.91025, 86.15498, 73.21873, 0.2929633, 
 /* @teleloc 0xC6D9001C [86.910250 86.154980 73.218730] 0.292963 0.000000 0.000000 -0.956124 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6D900A, 0x7C6D900B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7C6D900A, 0x7C6D900B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6D900B,  8041, 0xC6D9001C, 86.91025, 86.15498, 73.21873, 0.2929633, 0, 0, -0.9561237,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

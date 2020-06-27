@@ -13,47 +13,47 @@ VALUES (0x75778069,  1154, 0x577802D9, 67.7261, -28.6583, -5.995, 0.460091, 0, 0
 /* @teleloc 0x577802D9 [67.726100 -28.658300 -5.995000] 0.460091 0.000000 0.000000 0.887872 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75778069, 0x7577806A, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577806B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577806C, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577806D, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577806E, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577806F, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778070, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778071, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778072, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778073, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778074, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778075, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778076, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778077, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778078, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778079, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577807A, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577807B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577807C, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x7577807D, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x7577807E, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x7577807F, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778080, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778081, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778082, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778083, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778084, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778085, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778086, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778087, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778088, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x75778089, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75778069, 0x7577808A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75778069, 0x7577808B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577808C, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577808D, '2019-02-10 00:00:00') /* Tumerok Standard Bearer */
-     , (0x75778069, 0x7577808E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75778069, 0x7577808F, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75778069, 0x75778090, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75778069, 0x75778091, '2019-02-10 00:00:00') /* Tumerok Lieutenant */
-     , (0x75778069, 0x75778092, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x75778069, 0x7577806A, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577806B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577806C, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577806D, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577806E, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577806F, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778070, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778071, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778072, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778073, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778074, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778075, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778076, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778077, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778078, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778079, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577807A, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577807B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577807C, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x7577807D, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x7577807E, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x7577807F, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778080, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778081, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778082, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778083, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778084, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778085, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778086, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778087, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778088, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x75778089, '2019-02-10 00:00:00') /* Tumerok Major (11900) */
+     , (0x75778069, 0x7577808A, '2019-02-10 00:00:00') /* Tumerok Major (11900) */
+     , (0x75778069, 0x7577808B, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577808C, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577808D, '2019-02-10 00:00:00') /* Tumerok Standard Bearer (11879) */
+     , (0x75778069, 0x7577808E, '2019-02-10 00:00:00') /* Tumerok Major (11900) */
+     , (0x75778069, 0x7577808F, '2019-02-10 00:00:00') /* Tumerok Major (11900) */
+     , (0x75778069, 0x75778090, '2019-02-10 00:00:00') /* Tumerok Major (11900) */
+     , (0x75778069, 0x75778091, '2019-02-10 00:00:00') /* Tumerok Lieutenant (11897) */
+     , (0x75778069, 0x75778092, '2019-02-10 00:00:00') /* Tumerok Major (11900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7577806A, 11879, 0x577802D9, 67.7261, -28.6583, -5.995, 0.460091, 0, 0, 0.887872,  True, '2019-02-10 00:00:00'); /* Tumerok Standard Bearer */

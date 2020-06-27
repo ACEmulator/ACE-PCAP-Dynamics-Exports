@@ -5,9 +5,9 @@ VALUES (0x7B492001,  1154, 0xB4920012, 58.89044, 36.22459, 45.93925, 0.2019377, 
 /* @teleloc 0xB4920012 [58.890440 36.224590 45.939250] 0.201938 0.000000 0.000000 -0.979398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B492001, 0x7B492002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B492001, 0x7B492003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7B492001, 0x7B492004, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7B492001, 0x7B492002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B492001, 0x7B492003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7B492001, 0x7B492004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B492002,   217, 0xB4920012, 58.89044, 36.22459, 45.93925, 0.2019377, 0, 0, -0.9793984,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

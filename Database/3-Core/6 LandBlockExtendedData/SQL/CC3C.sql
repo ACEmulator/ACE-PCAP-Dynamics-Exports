@@ -5,27 +5,27 @@ VALUES (0x7CC3C001,  1154, 0xCC3C0007, 1.498459, 149.1231, 201.6156, -0.3287879,
 /* @teleloc 0xCC3C0007 [1.498459 149.123100 201.615600] -0.328788 0.000000 0.000000 -0.944404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC3C001, 0x7CC3C002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC3C001, 0x7CC3C003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC3C001, 0x7CC3C004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC3C001, 0x7CC3C005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CC3C001, 0x7CC3C006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC3C001, 0x7CC3C007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC3C001, 0x7CC3C008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC3C001, 0x7CC3C009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC3C001, 0x7CC3C00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CC3C001, 0x7CC3C00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC3C001, 0x7CC3C00C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC3C001, 0x7CC3C00D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CC3C001, 0x7CC3C00E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CC3C001, 0x7CC3C00F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7CC3C001, 0x7CC3C010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3C001, 0x7CC3C011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3C001, 0x7CC3C012, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC3C001, 0x7CC3C013, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC3C001, 0x7CC3C014, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7CC3C001, 0x7CC3C015, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC3C001, 0x7CC3C016, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7CC3C001, 0x7CC3C002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC3C001, 0x7CC3C003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC3C001, 0x7CC3C004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC3C001, 0x7CC3C005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CC3C001, 0x7CC3C006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CC3C001, 0x7CC3C007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CC3C001, 0x7CC3C008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CC3C001, 0x7CC3C009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CC3C001, 0x7CC3C00A, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CC3C001, 0x7CC3C00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC3C001, 0x7CC3C00C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC3C001, 0x7CC3C00D, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CC3C001, 0x7CC3C00E, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CC3C001, 0x7CC3C00F, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7CC3C001, 0x7CC3C010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3C001, 0x7CC3C011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3C001, 0x7CC3C012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC3C001, 0x7CC3C013, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC3C001, 0x7CC3C014, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7CC3C001, 0x7CC3C015, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC3C001, 0x7CC3C016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC3C002,  2567, 0xCC3C0007, 1.498459, 149.1231, 201.6156, -0.3287879, 0, 0, -0.9444038,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -116,7 +116,7 @@ VALUES (0x7CC3C017,  1542, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0, F
 /* @teleloc 0xCC3C0024 [96.514330 81.300060 181.630000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC3C017, 0x7CC3C018, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7CC3C017, 0x7CC3C018, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC3C018, 31443, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

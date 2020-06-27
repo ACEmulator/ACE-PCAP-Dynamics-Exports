@@ -5,9 +5,9 @@ VALUES (0x772D5001,  1154, 0x72D50022, 103.1477, 46.98861, 282.9484, -0.8622064,
 /* @teleloc 0x72D50022 [103.147700 46.988610 282.948400] -0.862206 0.000000 0.000000 -0.506557 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772D5001, 0x772D5002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x772D5001, 0x772D5003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x772D5001, 0x772D5004, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x772D5001, 0x772D5002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x772D5001, 0x772D5003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x772D5001, 0x772D5004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772D5002, 36829, 0x72D50022, 103.1477, 46.98861, 282.9484, -0.8622064, 0, 0, -0.5065571,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

@@ -5,22 +5,22 @@ VALUES (0x7333D001,  1154, 0x333D002D, 134.8956, 118.298, -0.4454499, 0.9238795,
 /* @teleloc 0x333D002D [134.895600 118.298000 -0.445450] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7333D001, 0x7333D002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7333D001, 0x7333D003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7333D001, 0x7333D004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7333D001, 0x7333D005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7333D001, 0x7333D006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7333D001, 0x7333D007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7333D001, 0x7333D008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7333D001, 0x7333D009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7333D001, 0x7333D00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7333D001, 0x7333D00B, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7333D001, 0x7333D00C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7333D001, 0x7333D00D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7333D001, 0x7333D00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7333D001, 0x7333D00F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7333D001, 0x7333D010, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7333D001, 0x7333D011, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x7333D001, 0x7333D002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7333D001, 0x7333D003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7333D001, 0x7333D004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7333D001, 0x7333D005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7333D001, 0x7333D006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7333D001, 0x7333D007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7333D001, 0x7333D008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7333D001, 0x7333D009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7333D001, 0x7333D00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7333D001, 0x7333D00B, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7333D001, 0x7333D00C, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x7333D001, 0x7333D00D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7333D001, 0x7333D00E, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7333D001, 0x7333D00F, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7333D001, 0x7333D010, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7333D001, 0x7333D011, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7333D002, 36821, 0x333D002D, 134.8956, 118.298, -0.4454499, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

@@ -5,14 +5,14 @@ VALUES (0x75C9E001,  1154, 0x5C9E002A, 129.1709, 37.83892, 13.15724, -0.9828149,
 /* @teleloc 0x5C9E002A [129.170900 37.838920 13.157240] -0.982815 0.000000 0.000000 -0.184594 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C9E001, 0x75C9E002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75C9E001, 0x75C9E003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75C9E001, 0x75C9E004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75C9E001, 0x75C9E005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75C9E001, 0x75C9E006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75C9E001, 0x75C9E007, '2019-02-10 00:00:00') /* Ember */
-     , (0x75C9E001, 0x75C9E008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x75C9E001, 0x75C9E009, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x75C9E001, 0x75C9E002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75C9E001, 0x75C9E003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75C9E001, 0x75C9E004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75C9E001, 0x75C9E005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75C9E001, 0x75C9E006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75C9E001, 0x75C9E007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x75C9E001, 0x75C9E008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x75C9E001, 0x75C9E009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C9E002,  4254, 0x5C9E002A, 129.1709, 37.83892, 13.15724, -0.9828149, 0, 0, -0.1845939,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

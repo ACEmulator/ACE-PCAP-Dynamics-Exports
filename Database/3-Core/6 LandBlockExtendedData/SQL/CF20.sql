@@ -5,10 +5,10 @@ VALUES (0x7CF20001,  1154, 0xCF20000F, 35.55988, 147.2965, 118.6265, -0.6185732,
 /* @teleloc 0xCF20000F [35.559880 147.296500 118.626500] -0.618573 0.000000 0.000000 -0.785727 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF20001, 0x7CF20002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7CF20001, 0x7CF20003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CF20001, 0x7CF20004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CF20001, 0x7CF20005, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x7CF20001, 0x7CF20002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7CF20001, 0x7CF20003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7CF20001, 0x7CF20004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CF20001, 0x7CF20005, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF20002,  5748, 0xCF20000F, 35.55988, 147.2965, 118.6265, -0.6185732, 0, 0, -0.7857271,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -31,7 +31,7 @@ VALUES (0x7CF20006,  1542, 0xCF20001E, 89.50474, 136.7693, 124, 1, 0, 0, 0, Fals
 /* @teleloc 0xCF20001E [89.504740 136.769300 124.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF20006, 0x7CF20007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CF20006, 0x7CF20007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF20007,  4179, 0xCF20001E, 89.50474, 136.7693, 124, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

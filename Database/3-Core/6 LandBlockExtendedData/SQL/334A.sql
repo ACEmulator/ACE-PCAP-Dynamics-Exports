@@ -5,9 +5,9 @@ VALUES (0x7334A001,  1154, 0x334A0013, 61.16368, 54.72657, 36.83254, -0.2689627,
 /* @teleloc 0x334A0013 [61.163680 54.726570 36.832540] -0.268963 0.000000 0.000000 -0.963151 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334A001, 0x7334A002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7334A001, 0x7334A003, '2019-02-10 00:00:00') /* Flare */
-     , (0x7334A001, 0x7334A004, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x7334A001, 0x7334A002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7334A001, 0x7334A003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7334A001, 0x7334A004, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334A002,  5712, 0x334A0013, 61.16368, 54.72657, 36.83254, -0.2689627, 0, 0, -0.9631506,  True, '2019-02-10 00:00:00'); /* Inferno */

@@ -5,13 +5,13 @@ VALUES (0x7C1C2001,  1154, 0xC1C20007, 5.463669, 164.265, 153.6087, 0.9238795, 0
 /* @teleloc 0xC1C20007 [5.463669 164.265000 153.608700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1C2001, 0x7C1C2002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C1C2001, 0x7C1C2003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C2001, 0x7C1C2004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1C2001, 0x7C1C2005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7C1C2001, 0x7C1C2006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7C1C2001, 0x7C1C2007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7C1C2001, 0x7C1C2008, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7C1C2001, 0x7C1C2002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C1C2001, 0x7C1C2003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C2001, 0x7C1C2004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1C2001, 0x7C1C2005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7C1C2001, 0x7C1C2006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7C1C2001, 0x7C1C2007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7C1C2001, 0x7C1C2008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1C2002, 24497, 0xC1C20007, 5.463669, 164.265, 153.6087, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

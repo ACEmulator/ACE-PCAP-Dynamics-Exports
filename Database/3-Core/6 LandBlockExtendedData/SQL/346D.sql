@@ -5,10 +5,10 @@ VALUES (0x7346D001,  1154, 0x346D0021, 116.345, 9.64193, 115.6213, 0.1623349, 0,
 /* @teleloc 0x346D0021 [116.345000 9.641930 115.621300] 0.162335 0.000000 0.000000 -0.986736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346D001, 0x7346D002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7346D001, 0x7346D003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7346D001, 0x7346D004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7346D001, 0x7346D005, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x7346D001, 0x7346D002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7346D001, 0x7346D003, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7346D001, 0x7346D004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7346D001, 0x7346D005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346D002,  8138, 0x346D0021, 116.345, 9.64193, 115.6213, 0.1623349, 0, 0, -0.9867357,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -31,7 +31,7 @@ VALUES (0x7346D006,  1542, 0x346D0028, 117.3216, 188.1549, 81.63963, 0.9153666, 
 /* @teleloc 0x346D0028 [117.321600 188.154900 81.639630] 0.915367 0.000000 0.000000 -0.402622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346D006, 0x7346D007, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7346D006, 0x7346D007, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346D007,  8648, 0x346D0028, 117.3216, 188.1549, 81.63963, 0.9153666, 0, 0, -0.4026215,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

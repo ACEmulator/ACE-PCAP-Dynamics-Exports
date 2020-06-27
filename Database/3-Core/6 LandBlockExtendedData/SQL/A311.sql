@@ -5,10 +5,10 @@ VALUES (0x7A311001,  1154, 0xA3110009, 26.5054, 4.421425, 171.6361, -0.2649569, 
 /* @teleloc 0xA3110009 [26.505400 4.421425 171.636100] -0.264957 0.000000 0.000000 -0.964260 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A311001, 0x7A311002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A311001, 0x7A311003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A311001, 0x7A311004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A311001, 0x7A311005, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7A311001, 0x7A311002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A311001, 0x7A311003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A311001, 0x7A311004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A311001, 0x7A311005, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A311002,  7089, 0xA3110009, 26.5054, 4.421425, 171.6361, -0.2649569, 0, 0, -0.9642603,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

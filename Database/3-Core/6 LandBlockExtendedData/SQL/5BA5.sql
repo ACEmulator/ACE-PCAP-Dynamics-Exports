@@ -5,17 +5,17 @@ VALUES (0x75BA5001,  1154, 0x5BA50037, 149.501, 164.0222, 42.75768, -0.2145214, 
 /* @teleloc 0x5BA50037 [149.501000 164.022200 42.757680] -0.214521 0.000000 0.000000 -0.976719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BA5001, 0x75BA5002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75BA5001, 0x75BA5003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75BA5001, 0x75BA5004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75BA5001, 0x75BA5005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75BA5001, 0x75BA5006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75BA5001, 0x75BA5007, '2019-02-10 00:00:00') /* Frost */
-     , (0x75BA5001, 0x75BA5008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75BA5001, 0x75BA5009, '2019-02-10 00:00:00') /* Frost */
-     , (0x75BA5001, 0x75BA500A, '2019-02-10 00:00:00') /* Frost */
-     , (0x75BA5001, 0x75BA500B, '2019-02-10 00:00:00') /* Frost */
-     , (0x75BA5001, 0x75BA500C, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x75BA5001, 0x75BA5002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75BA5001, 0x75BA5003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75BA5001, 0x75BA5004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75BA5001, 0x75BA5005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75BA5001, 0x75BA5006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75BA5001, 0x75BA5007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75BA5001, 0x75BA5008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75BA5001, 0x75BA5009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75BA5001, 0x75BA500A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75BA5001, 0x75BA500B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75BA5001, 0x75BA500C, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BA5002,   227, 0x5BA50037, 149.501, 164.0222, 42.75768, -0.2145214, 0, 0, -0.9767193,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

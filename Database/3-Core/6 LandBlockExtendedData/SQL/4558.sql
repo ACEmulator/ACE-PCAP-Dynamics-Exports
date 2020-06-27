@@ -5,15 +5,15 @@ VALUES (0x74558001,  1154, 0x4558002F, 127.9505, 160.5823, -0.8925, -4.371139E-0
 /* @teleloc 0x4558002F [127.950500 160.582300 -0.892500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74558001, 0x74558002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74558001, 0x74558003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74558001, 0x74558004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74558001, 0x74558005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74558001, 0x74558006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74558001, 0x74558007, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74558001, 0x74558008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x74558001, 0x74558009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74558001, 0x7455800A, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x74558001, 0x74558002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74558001, 0x74558003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74558001, 0x74558004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74558001, 0x74558005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74558001, 0x74558006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74558001, 0x74558007, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74558001, 0x74558008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x74558001, 0x74558009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74558001, 0x7455800A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74558002, 24326, 0x4558002F, 127.9505, 160.5823, -0.8925, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -56,7 +56,7 @@ VALUES (0x7455800B,  1542, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 
 /* @teleloc 0x45580030 [128.151200 171.612800 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455800B, 0x7455800C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7455800B, 0x7455800C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455800C,  4380, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,14 +5,14 @@ VALUES (0x7D5BF001,  1154, 0xD5BF002B, 131.429, 48.49656, 123.9824, -0.9626069, 
 /* @teleloc 0xD5BF002B [131.429000 48.496560 123.982400] -0.962607 0.000000 0.000000 -0.270902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5BF001, 0x7D5BF002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D5BF001, 0x7D5BF003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D5BF001, 0x7D5BF004, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D5BF001, 0x7D5BF005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D5BF001, 0x7D5BF006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D5BF001, 0x7D5BF007, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7D5BF001, 0x7D5BF008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D5BF001, 0x7D5BF009, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7D5BF001, 0x7D5BF002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D5BF001, 0x7D5BF003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D5BF001, 0x7D5BF004, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D5BF001, 0x7D5BF005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D5BF001, 0x7D5BF006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D5BF001, 0x7D5BF007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7D5BF001, 0x7D5BF008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D5BF001, 0x7D5BF009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5BF002, 11478, 0xD5BF002B, 131.429, 48.49656, 123.9824, -0.9626069, 0, 0, -0.2709021,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

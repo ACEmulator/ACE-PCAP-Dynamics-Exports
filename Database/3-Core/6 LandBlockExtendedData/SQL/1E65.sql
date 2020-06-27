@@ -5,8 +5,8 @@ VALUES (0x71E65001,  1154, 0x1E650031, 145.0573, 16.56528, 65.38869, -0.9564154,
 /* @teleloc 0x1E650031 [145.057300 16.565280 65.388690] -0.956415 0.000000 0.000000 -0.292010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E65001, 0x71E65002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x71E65001, 0x71E65003, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x71E65001, 0x71E65002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x71E65001, 0x71E65003, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E65002, 24325, 0x1E650031, 145.0573, 16.56528, 65.38869, -0.9564154, 0, 0, -0.2920095,  True, '2019-02-10 00:00:00'); /* Phantasm */

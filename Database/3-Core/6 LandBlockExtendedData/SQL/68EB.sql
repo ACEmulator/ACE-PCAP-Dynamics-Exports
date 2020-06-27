@@ -5,12 +5,12 @@ VALUES (0x768EB001,  1154, 0x68EB0004, 7.428429, 85.11446, 20.86469, 0.9238795, 
 /* @teleloc 0x68EB0004 [7.428429 85.114460 20.864690] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768EB001, 0x768EB002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x768EB001, 0x768EB003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x768EB001, 0x768EB004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x768EB001, 0x768EB005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x768EB001, 0x768EB006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x768EB001, 0x768EB007, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x768EB001, 0x768EB002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x768EB001, 0x768EB003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x768EB001, 0x768EB004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x768EB001, 0x768EB005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x768EB001, 0x768EB006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x768EB001, 0x768EB007, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768EB002, 10807, 0x68EB0004, 7.428429, 85.11446, 20.86469, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

@@ -5,12 +5,12 @@ VALUES (0x76A17001,  1154, 0x6A170037, 146.6694, 150.8814, -0.89175, -0.6460193,
 /* @teleloc 0x6A170037 [146.669400 150.881400 -0.891750] -0.646019 0.000000 0.000000 -0.763321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76A17001, 0x76A17002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76A17001, 0x76A17003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76A17001, 0x76A17004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x76A17001, 0x76A17005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76A17001, 0x76A17006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x76A17001, 0x76A17007, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x76A17001, 0x76A17002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76A17001, 0x76A17003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76A17001, 0x76A17004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x76A17001, 0x76A17005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76A17001, 0x76A17006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x76A17001, 0x76A17007, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76A17002,  4217, 0x6A170037, 146.6694, 150.8814, -0.89175, -0.6460193, 0, 0, -0.763321,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

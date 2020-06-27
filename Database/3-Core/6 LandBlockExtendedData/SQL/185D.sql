@@ -5,12 +5,12 @@ VALUES (0x7185D001,  1154, 0x185D0010, 27.00974, 172.1514, 48.005, 0.5351947, 0,
 /* @teleloc 0x185D0010 [27.009740 172.151400 48.005000] 0.535195 0.000000 0.000000 -0.844729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7185D001, 0x7185D002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7185D001, 0x7185D003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7185D001, 0x7185D004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7185D001, 0x7185D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7185D001, 0x7185D006, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7185D001, 0x7185D007, '2019-02-10 00:00:00') /* Lesser Void Knight */;
+VALUES (0x7185D001, 0x7185D002, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x7185D001, 0x7185D003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7185D001, 0x7185D004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7185D001, 0x7185D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7185D001, 0x7185D006, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7185D001, 0x7185D007, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7185D002, 23089, 0x185D0010, 27.00974, 172.1514, 48.005, 0.5351947, 0, 0, -0.8447287,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */

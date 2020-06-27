@@ -5,22 +5,22 @@ VALUES (0x7B4B2001,  1154, 0xB4B2000C, 26.86266, 94.70529, 117.985, 0.9537169, 0
 /* @teleloc 0xB4B2000C [26.862660 94.705290 117.985000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B2001, 0x7B4B2002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4B2001, 0x7B4B2003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4B2001, 0x7B4B2004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B4B2001, 0x7B4B2005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B2001, 0x7B4B2006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B4B2001, 0x7B4B2007, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B4B2001, 0x7B4B2008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B4B2001, 0x7B4B2009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B4B2001, 0x7B4B200A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B4B2001, 0x7B4B200B, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B4B2001, 0x7B4B200C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B4B2001, 0x7B4B200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B4B2001, 0x7B4B200E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B4B2001, 0x7B4B200F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B4B2001, 0x7B4B2010, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B4B2001, 0x7B4B2011, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7B4B2001, 0x7B4B2002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4B2001, 0x7B4B2003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4B2001, 0x7B4B2004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B4B2001, 0x7B4B2005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B2001, 0x7B4B2006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B4B2001, 0x7B4B2007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B4B2001, 0x7B4B2008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B4B2001, 0x7B4B2009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B4B2001, 0x7B4B200A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B4B2001, 0x7B4B200B, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B4B2001, 0x7B4B200C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B4B2001, 0x7B4B200D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B4B2001, 0x7B4B200E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B4B2001, 0x7B4B200F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B4B2001, 0x7B4B2010, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B4B2001, 0x7B4B2011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B2002,  4111, 0xB4B2000C, 26.86266, 94.70529, 117.985, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -91,7 +91,7 @@ VALUES (0x7B4B2012,  1542, 0xB4B20008, 0.1382923, 177.4944, 119.7723, 0.9990482,
 /* @teleloc 0xB4B20008 [0.138292 177.494400 119.772300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4B2012, 0x7B4B2013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B4B2012, 0x7B4B2013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4B2013,  4179, 0xB4B20008, 0.1382923, 177.4944, 119.7723, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

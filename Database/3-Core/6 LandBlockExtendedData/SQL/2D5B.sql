@@ -5,103 +5,103 @@ VALUES (0x72D5B001,  1154, 0x2D5B0023, 108, 52.5, 32, -4.37114E-08, 0, 0, -1, Fa
 /* @teleloc 0x2D5B0023 [108.000000 52.500000 32.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5B001, 0x72D5B002, '2019-02-10 00:00:00') /* Door */
-     , (0x72D5B001, 0x72D5B003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B006, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B009, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72D5B001, 0x72D5B00A, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72D5B001, 0x72D5B00B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72D5B001, 0x72D5B00C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B00F, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B010, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B011, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B012, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B013, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B014, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B015, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B016, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B017, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B018, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B019, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B01A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B01B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B01C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B01D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D5B001, 0x72D5B01E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B01F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B020, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B021, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B022, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B023, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D5B001, 0x72D5B024, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B025, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B026, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B027, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B028, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B029, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B02A, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72D5B001, 0x72D5B02B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B02C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B02D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B02E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B02F, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B030, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D5B001, 0x72D5B031, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B032, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B033, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B034, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B035, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x72D5B001, 0x72D5B036, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D5B001, 0x72D5B037, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B038, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72D5B001, 0x72D5B039, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72D5B001, 0x72D5B03A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72D5B001, 0x72D5B03B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72D5B001, 0x72D5B03C, '2019-02-10 00:00:00') /* Flare */
-     , (0x72D5B001, 0x72D5B03D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72D5B001, 0x72D5B03E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D5B001, 0x72D5B03F, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D5B001, 0x72D5B040, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72D5B001, 0x72D5B041, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5B001, 0x72D5B042, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B043, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5B001, 0x72D5B044, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72D5B001, 0x72D5B045, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72D5B001, 0x72D5B046, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B047, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B048, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B049, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72D5B001, 0x72D5B04A, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72D5B001, 0x72D5B04B, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72D5B001, 0x72D5B04C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5B001, 0x72D5B04D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5B001, 0x72D5B04E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72D5B001, 0x72D5B04F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72D5B001, 0x72D5B050, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D5B001, 0x72D5B051, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72D5B001, 0x72D5B052, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D5B001, 0x72D5B053, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D5B001, 0x72D5B054, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72D5B001, 0x72D5B055, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5B001, 0x72D5B056, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72D5B001, 0x72D5B057, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B058, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B059, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D5B001, 0x72D5B05A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D5B001, 0x72D5B05B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D5B001, 0x72D5B05C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72D5B001, 0x72D5B05D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72D5B001, 0x72D5B05E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D5B001, 0x72D5B05F, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x72D5B001, 0x72D5B060, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x72D5B001, 0x72D5B061, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x72D5B001, 0x72D5B062, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x72D5B001, 0x72D5B002, '2019-02-10 00:00:00') /* Door (27463) */
+     , (0x72D5B001, 0x72D5B003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B005, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B001, 0x72D5B006, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B007, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B001, 0x72D5B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D5B001, 0x72D5B009, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72D5B001, 0x72D5B00A, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72D5B001, 0x72D5B00B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72D5B001, 0x72D5B00C, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B00D, '2019-02-10 00:00:00') /* Tumerok High Priest (4106) */
+     , (0x72D5B001, 0x72D5B00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B010, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B011, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B012, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B013, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B014, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B015, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B016, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B017, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B018, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B019, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B01A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B01B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B01C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B01D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D5B001, 0x72D5B01E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B01F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B020, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B021, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B022, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B023, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D5B001, 0x72D5B024, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B025, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B026, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B027, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B028, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B029, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5B001, 0x72D5B02A, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72D5B001, 0x72D5B02B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B02C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B02D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B02E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B02F, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B030, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D5B001, 0x72D5B031, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72D5B001, 0x72D5B032, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D5B001, 0x72D5B033, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D5B001, 0x72D5B034, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D5B001, 0x72D5B035, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x72D5B001, 0x72D5B036, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x72D5B001, 0x72D5B037, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B038, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72D5B001, 0x72D5B039, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72D5B001, 0x72D5B03A, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72D5B001, 0x72D5B03B, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72D5B001, 0x72D5B03C, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72D5B001, 0x72D5B03D, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72D5B001, 0x72D5B03E, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D5B001, 0x72D5B03F, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D5B001, 0x72D5B040, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72D5B001, 0x72D5B041, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72D5B001, 0x72D5B042, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B043, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5B001, 0x72D5B044, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72D5B001, 0x72D5B045, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72D5B001, 0x72D5B046, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B047, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B048, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B049, '2019-02-10 00:00:00') /* Augmented Tumerok (10808) */
+     , (0x72D5B001, 0x72D5B04A, '2019-02-10 00:00:00') /* Unconquered Drudge (10778) */
+     , (0x72D5B001, 0x72D5B04B, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72D5B001, 0x72D5B04C, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5B001, 0x72D5B04D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5B001, 0x72D5B04E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72D5B001, 0x72D5B04F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72D5B001, 0x72D5B050, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D5B001, 0x72D5B051, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72D5B001, 0x72D5B052, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D5B001, 0x72D5B053, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D5B001, 0x72D5B054, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72D5B001, 0x72D5B055, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5B001, 0x72D5B056, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72D5B001, 0x72D5B057, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B058, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B059, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D5B001, 0x72D5B05A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D5B001, 0x72D5B05B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D5B001, 0x72D5B05C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72D5B001, 0x72D5B05D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72D5B001, 0x72D5B05E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D5B001, 0x72D5B05F, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x72D5B001, 0x72D5B060, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x72D5B001, 0x72D5B061, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x72D5B001, 0x72D5B062, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5B002, 27463, 0x2D5B0023, 108, 52.5, 32, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Door */
@@ -496,8 +496,8 @@ VALUES (0x72D5B063,  1542, 0x2D5B0036, 167.2146, 120.1458, 39.97571, 0.9990482, 
 /* @teleloc 0x2D5B0036 [167.214600 120.145800 39.975710] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5B063, 0x72D5B064, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72D5B063, 0x72D5B065, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D5B063, 0x72D5B064, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72D5B063, 0x72D5B065, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5B064,  4179, 0x2D5B0036, 167.2146, 120.1458, 39.97571, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

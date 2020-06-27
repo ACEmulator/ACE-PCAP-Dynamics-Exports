@@ -5,10 +5,10 @@ VALUES (0x77F7E001,  1154, 0x7F7E0008, 0.3329352, 180.921, 56.18675, -0.4865235,
 /* @teleloc 0x7F7E0008 [0.332935 180.921000 56.186750] -0.486524 0.000000 0.000000 -0.873668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F7E001, 0x77F7E002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x77F7E001, 0x77F7E003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7E001, 0x77F7E004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77F7E001, 0x77F7E005, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x77F7E001, 0x77F7E002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x77F7E001, 0x77F7E003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7E001, 0x77F7E004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77F7E001, 0x77F7E005, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F7E002,   229, 0x7F7E0008, 0.3329352, 180.921, 56.18675, -0.4865235, 0, 0, -0.8736675,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

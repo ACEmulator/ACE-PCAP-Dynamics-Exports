@@ -5,33 +5,33 @@ VALUES (0x79E2E001,  1154, 0x9E2E002E, 122.9126, 136.9529, 68.2433, 0.1027957, 0
 /* @teleloc 0x9E2E002E [122.912600 136.952900 68.243300] 0.102796 0.000000 0.000000 -0.994703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E2E001, 0x79E2E002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79E2E001, 0x79E2E003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79E2E001, 0x79E2E007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79E2E001, 0x79E2E008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79E2E001, 0x79E2E009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79E2E001, 0x79E2E00A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79E2E001, 0x79E2E00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E2E001, 0x79E2E00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E2E001, 0x79E2E00D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79E2E001, 0x79E2E00E, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x79E2E001, 0x79E2E00F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79E2E001, 0x79E2E010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E2E001, 0x79E2E011, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79E2E001, 0x79E2E012, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79E2E001, 0x79E2E013, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79E2E001, 0x79E2E014, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79E2E001, 0x79E2E015, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E2E001, 0x79E2E016, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E2E001, 0x79E2E017, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79E2E001, 0x79E2E018, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E019, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79E2E001, 0x79E2E01A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E01B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79E2E001, 0x79E2E01C, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x79E2E001, 0x79E2E002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79E2E001, 0x79E2E003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79E2E001, 0x79E2E007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79E2E001, 0x79E2E008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79E2E001, 0x79E2E009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79E2E001, 0x79E2E00A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79E2E001, 0x79E2E00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E2E001, 0x79E2E00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E2E001, 0x79E2E00D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79E2E001, 0x79E2E00E, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x79E2E001, 0x79E2E00F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79E2E001, 0x79E2E010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E2E001, 0x79E2E011, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79E2E001, 0x79E2E012, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79E2E001, 0x79E2E013, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79E2E001, 0x79E2E014, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79E2E001, 0x79E2E015, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E2E001, 0x79E2E016, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E2E001, 0x79E2E017, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79E2E001, 0x79E2E018, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E019, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79E2E001, 0x79E2E01A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E01B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79E2E001, 0x79E2E01C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E2E002, 24959, 0x9E2E002E, 122.9126, 136.9529, 68.2433, 0.1027957, 0, 0, -0.9947025,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -146,8 +146,8 @@ VALUES (0x79E2E01D,  1542, 0x9E2E0027, 99.82293, 165.2201, 59.39213, 0.7071068, 
 /* @teleloc 0x9E2E0027 [99.822930 165.220100 59.392130] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E2E01D, 0x79E2E01E, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x79E2E01D, 0x79E2E01F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79E2E01D, 0x79E2E01E, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x79E2E01D, 0x79E2E01F, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E2E01E,  6118, 0x9E2E0027, 99.82293, 165.2201, 59.39213, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

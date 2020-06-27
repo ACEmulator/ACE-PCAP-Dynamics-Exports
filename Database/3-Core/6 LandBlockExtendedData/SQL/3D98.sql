@@ -5,20 +5,20 @@ VALUES (0x73D98001,  1154, 0x3D980020, 89.70488, 176.5768, 2.907369, 0.8191521, 
 /* @teleloc 0x3D980020 [89.704880 176.576800 2.907369] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D98001, 0x73D98002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73D98001, 0x73D98003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x73D98001, 0x73D98004, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73D98001, 0x73D98005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x73D98001, 0x73D98006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73D98001, 0x73D98007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73D98001, 0x73D98008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73D98001, 0x73D98009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x73D98001, 0x73D9800A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73D98001, 0x73D9800B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73D98001, 0x73D9800C, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x73D98001, 0x73D9800D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x73D98001, 0x73D9800E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73D98001, 0x73D9800F, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x73D98001, 0x73D98002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73D98001, 0x73D98003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x73D98001, 0x73D98004, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73D98001, 0x73D98005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x73D98001, 0x73D98006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73D98001, 0x73D98007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73D98001, 0x73D98008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73D98001, 0x73D98009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x73D98001, 0x73D9800A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73D98001, 0x73D9800B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73D98001, 0x73D9800C, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x73D98001, 0x73D9800D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x73D98001, 0x73D9800E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73D98001, 0x73D9800F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D98002,  7334, 0x3D980020, 89.70488, 176.5768, 2.907369, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

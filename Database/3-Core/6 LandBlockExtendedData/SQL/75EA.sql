@@ -5,23 +5,23 @@ VALUES (0x775EA001,  1154, 0x75EA0013, 69.98154, 64.19765, 177.3866, 0.9238795, 
 /* @teleloc 0x75EA0013 [69.981540 64.197650 177.386600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775EA001, 0x775EA002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x775EA001, 0x775EA003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x775EA001, 0x775EA004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x775EA001, 0x775EA005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775EA001, 0x775EA006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775EA001, 0x775EA007, '2019-02-10 00:00:00') /* Hyem */
-     , (0x775EA001, 0x775EA008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x775EA001, 0x775EA009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x775EA001, 0x775EA00A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x775EA001, 0x775EA00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x775EA001, 0x775EA00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x775EA001, 0x775EA00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x775EA001, 0x775EA00E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x775EA001, 0x775EA00F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x775EA001, 0x775EA010, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x775EA001, 0x775EA011, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x775EA001, 0x775EA012, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x775EA001, 0x775EA002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x775EA001, 0x775EA003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x775EA001, 0x775EA004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x775EA001, 0x775EA005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x775EA001, 0x775EA006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x775EA001, 0x775EA007, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x775EA001, 0x775EA008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x775EA001, 0x775EA009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x775EA001, 0x775EA00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x775EA001, 0x775EA00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x775EA001, 0x775EA00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x775EA001, 0x775EA00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x775EA001, 0x775EA00E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x775EA001, 0x775EA00F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x775EA001, 0x775EA010, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x775EA001, 0x775EA011, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x775EA001, 0x775EA012, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775EA002, 24494, 0x75EA0013, 69.98154, 64.19765, 177.3866, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -96,10 +96,10 @@ VALUES (0x775EA013,  1542, 0x75EA0013, 62.57434, 63.38701, 174.7049, 1, 0, 0, 0,
 /* @teleloc 0x75EA0013 [62.574340 63.387010 174.704900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775EA013, 0x775EA014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x775EA013, 0x775EA015, '2019-02-10 00:00:00') /* Bones */
-     , (0x775EA013, 0x775EA016, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x775EA013, 0x775EA017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x775EA013, 0x775EA014, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x775EA013, 0x775EA015, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x775EA013, 0x775EA016, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x775EA013, 0x775EA017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775EA014, 22571, 0x75EA0013, 62.57434, 63.38701, 174.7049, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

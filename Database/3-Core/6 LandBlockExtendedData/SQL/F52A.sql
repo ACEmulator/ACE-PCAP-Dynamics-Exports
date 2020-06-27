@@ -5,20 +5,20 @@ VALUES (0x7F52A001,  1154, 0xF52A001A, 89.14896, 35.6211, 18.48066, 0.8660254, 0
 /* @teleloc 0xF52A001A [89.148960 35.621100 18.480660] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F52A001, 0x7F52A002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F52A001, 0x7F52A003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F52A001, 0x7F52A004, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7F52A001, 0x7F52A005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7F52A001, 0x7F52A006, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7F52A001, 0x7F52A007, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7F52A001, 0x7F52A008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F52A001, 0x7F52A009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F52A001, 0x7F52A00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F52A001, 0x7F52A00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F52A001, 0x7F52A00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F52A001, 0x7F52A00D, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F52A001, 0x7F52A00E, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F52A001, 0x7F52A00F, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7F52A001, 0x7F52A002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F52A001, 0x7F52A003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F52A001, 0x7F52A004, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F52A001, 0x7F52A005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7F52A001, 0x7F52A006, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F52A001, 0x7F52A007, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F52A001, 0x7F52A008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F52A001, 0x7F52A009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F52A001, 0x7F52A00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F52A001, 0x7F52A00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F52A001, 0x7F52A00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F52A001, 0x7F52A00D, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F52A001, 0x7F52A00E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F52A001, 0x7F52A00F, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F52A002,  7102, 0xF52A001A, 89.14896, 35.6211, 18.48066, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -81,8 +81,8 @@ VALUES (0x7F52A010,  1542, 0xF52A0024, 103.3231, 87.20551, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xF52A0024 [103.323100 87.205510 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F52A010, 0x7F52A011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F52A010, 0x7F52A012, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7F52A010, 0x7F52A011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F52A010, 0x7F52A012, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F52A011,  4179, 0xF52A0024, 103.3231, 87.20551, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

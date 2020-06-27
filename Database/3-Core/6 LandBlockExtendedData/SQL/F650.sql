@@ -5,10 +5,10 @@ VALUES (0x7F650001,  1154, 0xF6500039, 172.2163, 5.48421, 0.00999999, 0.285521, 
 /* @teleloc 0xF6500039 [172.216300 5.484210 0.010000] 0.285521 0.000000 0.000000 -0.958373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F650001, 0x7F650002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F650001, 0x7F650003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7F650001, 0x7F650004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F650001, 0x7F650005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7F650001, 0x7F650002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F650001, 0x7F650003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7F650001, 0x7F650004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F650001, 0x7F650005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F650002, 11531, 0xF6500039, 172.2163, 5.48421, 0.00999999, 0.285521, 0, 0, -0.9583725,  True, '2019-02-10 00:00:00'); /* Sand Golem */

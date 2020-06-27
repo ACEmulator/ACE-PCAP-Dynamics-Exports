@@ -5,13 +5,13 @@ VALUES (0x72275001,  1154, 0x22750009, 26.19704, 0.7655792, 98.01581, 0.7126648,
 /* @teleloc 0x22750009 [26.197040 0.765579 98.015810] 0.712665 0.000000 0.000000 -0.701505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72275001, 0x72275002, '2019-02-10 00:00:00') /* Invading Iron Blade Squire */
-     , (0x72275001, 0x72275003, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72275001, 0x72275004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire */
-     , (0x72275001, 0x72275005, '2019-02-10 00:00:00') /* Invading Silver Scope Knight */
-     , (0x72275001, 0x72275006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72275001, 0x72275007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight */
-     , (0x72275001, 0x72275008, '2019-02-10 00:00:00') /* Invading Iron Blade Knight */;
+VALUES (0x72275001, 0x72275002, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72275001, 0x72275003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72275001, 0x72275004, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72275001, 0x72275005, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72275001, 0x72275006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72275001, 0x72275007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72275001, 0x72275008, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72275002, 41538, 0x22750009, 26.19704, 0.7655792, 98.01581, 0.7126648, 0, 0, -0.7015048,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */

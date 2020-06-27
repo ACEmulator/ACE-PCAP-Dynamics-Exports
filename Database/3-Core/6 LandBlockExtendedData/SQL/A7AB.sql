@@ -5,9 +5,9 @@ VALUES (0x7A7AB001,  1154, 0xA7AB0010, 39.85382, 180.8524, 86.68434, -0.7990895,
 /* @teleloc 0xA7AB0010 [39.853820 180.852400 86.684340] -0.799090 0.000000 0.000000 -0.601212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7AB001, 0x7A7AB002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A7AB001, 0x7A7AB003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A7AB001, 0x7A7AB004, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7A7AB001, 0x7A7AB002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A7AB001, 0x7A7AB003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A7AB001, 0x7A7AB004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7AB002,   211, 0xA7AB0010, 39.85382, 180.8524, 86.68434, -0.7990895, 0, 0, -0.6012121,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

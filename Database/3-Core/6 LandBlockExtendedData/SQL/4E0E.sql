@@ -5,11 +5,11 @@ VALUES (0x74E0E001,  1154, 0x4E0E001A, 82.35522, 42.0282, -0.8934, 0.8660254, 0,
 /* @teleloc 0x4E0E001A [82.355220 42.028200 -0.893400] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E0E001, 0x74E0E002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74E0E001, 0x74E0E003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74E0E001, 0x74E0E004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74E0E001, 0x74E0E005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x74E0E001, 0x74E0E006, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x74E0E001, 0x74E0E002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74E0E001, 0x74E0E003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74E0E001, 0x74E0E004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74E0E001, 0x74E0E005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74E0E001, 0x74E0E006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E0E002,  4248, 0x4E0E001A, 82.35522, 42.0282, -0.8934, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

@@ -5,11 +5,11 @@ VALUES (0x77DC6001,  1154, 0x7DC60012, 60.58758, 34.62446, 121.4338, 0.6848026, 
 /* @teleloc 0x7DC60012 [60.587580 34.624460 121.433800] 0.684803 0.000000 0.000000 -0.728729 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC6001, 0x77DC6002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x77DC6001, 0x77DC6003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DC6001, 0x77DC6004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DC6001, 0x77DC6005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77DC6001, 0x77DC6006, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x77DC6001, 0x77DC6002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x77DC6001, 0x77DC6003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DC6001, 0x77DC6004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DC6001, 0x77DC6005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77DC6001, 0x77DC6006, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC6002, 24288, 0x7DC60012, 60.58758, 34.62446, 121.4338, 0.6848026, 0, 0, -0.7287286,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
@@ -36,7 +36,7 @@ VALUES (0x77DC6007,  1542, 0x7DC60009, 31.16765, 14.37866, 126.6113, -0.8005459,
 /* @teleloc 0x7DC60009 [31.167650 14.378660 126.611300] -0.800546 0.000000 0.000000 -0.599271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77DC6007, 0x77DC6008, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x77DC6007, 0x77DC6008, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DC6008, 22837, 0x7DC60009, 31.16765, 14.37866, 126.6113, -0.8005459, 0, 0, -0.5992714,  True, '2019-02-10 00:00:00'); /* Snowflower */

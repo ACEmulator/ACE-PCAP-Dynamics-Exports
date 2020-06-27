@@ -5,12 +5,12 @@ VALUES (0x7166F001,  1154, 0x166F0001, 2.674301, 13.12625, 91.49841, 0.4497359, 
 /* @teleloc 0x166F0001 [2.674301 13.126250 91.498410] 0.449736 0.000000 0.000000 -0.893162 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7166F001, 0x7166F002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7166F001, 0x7166F003, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7166F001, 0x7166F004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7166F001, 0x7166F005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7166F001, 0x7166F006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7166F001, 0x7166F007, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x7166F001, 0x7166F002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7166F001, 0x7166F003, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7166F001, 0x7166F004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7166F001, 0x7166F005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7166F001, 0x7166F006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7166F001, 0x7166F007, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7166F002, 23617, 0x166F0001, 2.674301, 13.12625, 91.49841, 0.4497359, 0, 0, -0.8931616,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

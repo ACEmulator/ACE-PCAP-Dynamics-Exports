@@ -5,23 +5,23 @@ VALUES (0x72D36001,  1154, 0x2D36003C, 180.7387, 74.53329, 82.21111, 0.3557602, 
 /* @teleloc 0x2D36003C [180.738700 74.533290 82.211110] 0.355760 0.000000 0.000000 -0.934577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D36001, 0x72D36002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72D36001, 0x72D36003, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72D36001, 0x72D36004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72D36001, 0x72D36005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D36001, 0x72D36006, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72D36001, 0x72D36007, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D36001, 0x72D36008, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72D36001, 0x72D36009, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72D36001, 0x72D3600A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72D36001, 0x72D3600B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72D36001, 0x72D3600C, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72D36001, 0x72D3600D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72D36001, 0x72D3600E, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D36001, 0x72D3600F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D36001, 0x72D36010, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D36001, 0x72D36011, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72D36001, 0x72D36012, '2019-02-10 00:00:00') /* Shadow Spectre */;
+VALUES (0x72D36001, 0x72D36002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72D36001, 0x72D36003, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72D36001, 0x72D36004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72D36001, 0x72D36005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D36001, 0x72D36006, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72D36001, 0x72D36007, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D36001, 0x72D36008, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72D36001, 0x72D36009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72D36001, 0x72D3600A, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72D36001, 0x72D3600B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72D36001, 0x72D3600C, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72D36001, 0x72D3600D, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72D36001, 0x72D3600E, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D36001, 0x72D3600F, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72D36001, 0x72D36010, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D36001, 0x72D36011, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72D36001, 0x72D36012, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D36002, 24133, 0x2D36003C, 180.7387, 74.53329, 82.21111, 0.3557602, 0, 0, -0.9345772,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

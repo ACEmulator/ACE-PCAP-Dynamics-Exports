@@ -5,22 +5,22 @@ VALUES (0x792C3001,  1154, 0x92C30028, 118.6908, 169.9255, 92.06136, -0.8367901,
 /* @teleloc 0x92C30028 [118.690800 169.925500 92.061360] -0.836790 0.000000 0.000000 -0.547524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792C3001, 0x792C3002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3007, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x792C3001, 0x792C3008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C3009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x792C3001, 0x792C300A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x792C3001, 0x792C300B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C300C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x792C3001, 0x792C300D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x792C3001, 0x792C300E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x792C3001, 0x792C300F, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x792C3001, 0x792C3010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x792C3001, 0x792C3011, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x792C3001, 0x792C3002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3007, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x792C3001, 0x792C3008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C3009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x792C3001, 0x792C300A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x792C3001, 0x792C300B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C300C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x792C3001, 0x792C300D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x792C3001, 0x792C300E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x792C3001, 0x792C300F, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x792C3001, 0x792C3010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x792C3001, 0x792C3011, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792C3002,   194, 0x92C30028, 118.6908, 169.9255, 92.06136, -0.8367901, 0, 0, -0.5475237,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -91,7 +91,7 @@ VALUES (0x792C3012,  1542, 0x92C3002F, 134.9606, 145.3, 86.97361, 0.7071068, 0, 
 /* @teleloc 0x92C3002F [134.960600 145.300000 86.973610] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792C3012, 0x792C3013, '2019-02-10 00:00:00') /* Yarrow */;
+VALUES (0x792C3012, 0x792C3013, '2019-02-10 00:00:00') /* Yarrow (781) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792C3013,   781, 0x92C3002F, 134.9606, 145.3, 86.97361, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Yarrow */

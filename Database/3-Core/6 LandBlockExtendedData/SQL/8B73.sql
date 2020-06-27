@@ -5,10 +5,10 @@ VALUES (0x78B73001,  1154, 0x8B730019, 89.41005, 1.740402, 9.605071, 0.9839568, 
 /* @teleloc 0x8B730019 [89.410050 1.740402 9.605071] 0.983957 0.000000 0.000000 -0.178407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B73001, 0x78B73002, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B73001, 0x78B73003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78B73001, 0x78B73004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x78B73001, 0x78B73005, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x78B73001, 0x78B73002, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B73001, 0x78B73003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78B73001, 0x78B73004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x78B73001, 0x78B73005, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B73002,   949, 0x8B730019, 89.41005, 1.740402, 9.605071, 0.9839568, 0, 0, -0.178407,  True, '2019-02-10 00:00:00'); /* Red Rat */
@@ -31,7 +31,7 @@ VALUES (0x78B73006,  1542, 0x8B730037, 145.2878, 147.9216, 23.56589, 1, 0, 0, 0,
 /* @teleloc 0x8B730037 [145.287800 147.921600 23.565890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B73006, 0x78B73007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78B73006, 0x78B73007, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B73007, 22572, 0x8B730037, 145.2878, 147.9216, 23.56589, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

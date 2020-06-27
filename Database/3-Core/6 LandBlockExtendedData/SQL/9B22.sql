@@ -5,14 +5,14 @@ VALUES (0x79B22001,  1154, 0x9B220002, 15, 25, 108.0033, 1, 0, 0, 0, False, '201
 /* @teleloc 0x9B220002 [15.000000 25.000000 108.003300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B22001, 0x79B22002, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x79B22001, 0x79B22003, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x79B22001, 0x79B22004, '2019-02-10 00:00:00') /* Oak Target Drudge */
-     , (0x79B22001, 0x79B22005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B22001, 0x79B22006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79B22001, 0x79B22007, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79B22001, 0x79B22008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79B22001, 0x79B22009, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x79B22001, 0x79B22002, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x79B22001, 0x79B22003, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x79B22001, 0x79B22004, '2019-02-10 00:00:00') /* Oak Target Drudge (6077) */
+     , (0x79B22001, 0x79B22005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B22001, 0x79B22006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79B22001, 0x79B22007, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79B22001, 0x79B22008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79B22001, 0x79B22009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B22002,  6077, 0x9B220002, 15, 25, 108.0033, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Oak Target Drudge */
@@ -51,7 +51,7 @@ VALUES (0x79B2200A,  1542, 0x9B22003B, 171.9428, 48.67022, 188.7065, 0.7096934, 
 /* @teleloc 0x9B22003B [171.942800 48.670220 188.706500] 0.709693 0.000000 0.000000 -0.704511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B2200A, 0x79B2200B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79B2200A, 0x79B2200B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B2200B,  8041, 0x9B22003B, 171.9428, 48.67022, 188.7065, 0.7096934, 0, 0, -0.7045107,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

@@ -5,11 +5,11 @@ VALUES (0x7E062001,  1154, 0xE0620039, 178.6729, 5.872056, 9.71073, -0.7049522, 
 /* @teleloc 0xE0620039 [178.672900 5.872056 9.710730] -0.704952 0.000000 0.000000 -0.709255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E062001, 0x7E062002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7E062001, 0x7E062003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E062001, 0x7E062004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E062001, 0x7E062005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E062001, 0x7E062006, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7E062001, 0x7E062002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7E062001, 0x7E062003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E062001, 0x7E062004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E062001, 0x7E062005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E062001, 0x7E062006, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E062002, 22009, 0xE0620039, 178.6729, 5.872056, 9.71073, -0.7049522, 0, 0, -0.7092549,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

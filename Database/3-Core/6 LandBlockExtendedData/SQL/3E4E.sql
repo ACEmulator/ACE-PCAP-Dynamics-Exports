@@ -5,14 +5,14 @@ VALUES (0x73E4E001,  1154, 0x3E4E0040, 190.1204, 180.4441, 38.15663, 0.8546952, 
 /* @teleloc 0x3E4E0040 [190.120400 180.444100 38.156630] 0.854695 0.000000 0.000000 -0.519130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E4E001, 0x73E4E002, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73E4E001, 0x73E4E003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73E4E001, 0x73E4E004, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73E4E001, 0x73E4E005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73E4E001, 0x73E4E006, '2019-02-10 00:00:00') /* Flare */
-     , (0x73E4E001, 0x73E4E007, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73E4E001, 0x73E4E008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x73E4E001, 0x73E4E009, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x73E4E001, 0x73E4E002, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73E4E001, 0x73E4E003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73E4E001, 0x73E4E004, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73E4E001, 0x73E4E005, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73E4E001, 0x73E4E006, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73E4E001, 0x73E4E007, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73E4E001, 0x73E4E008, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x73E4E001, 0x73E4E009, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E4E002, 23487, 0x3E4E0040, 190.1204, 180.4441, 38.15663, 0.8546952, 0, 0, -0.5191301,  True, '2019-02-10 00:00:00'); /* Sata Sclavus Lord */

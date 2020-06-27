@@ -5,13 +5,13 @@ VALUES (0x75413001,  1154, 0x54130027, 99.23398, 144.9606, 68.0065, 0.2027339, 0
 /* @teleloc 0x54130027 [99.233980 144.960600 68.006500] 0.202734 0.000000 0.000000 -0.979234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75413001, 0x75413002, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x75413001, 0x75413003, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x75413001, 0x75413004, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75413001, 0x75413005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x75413001, 0x75413006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75413001, 0x75413007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x75413001, 0x75413008, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x75413001, 0x75413002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x75413001, 0x75413003, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x75413001, 0x75413004, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75413001, 0x75413005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x75413001, 0x75413006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75413001, 0x75413007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x75413001, 0x75413008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75413002,  7117, 0x54130027, 99.23398, 144.9606, 68.0065, 0.2027339, 0, 0, -0.9792339,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */
@@ -46,7 +46,7 @@ VALUES (0x75413009,  1542, 0x5413001F, 93.57639, 153.4431, 68, 1, 0, 0, 0, False
 /* @teleloc 0x5413001F [93.576390 153.443100 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75413009, 0x7541300A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x75413009, 0x7541300A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7541300A,  8999, 0x5413001F, 93.57639, 153.4431, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

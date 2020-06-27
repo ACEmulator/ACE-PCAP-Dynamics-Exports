@@ -21,28 +21,28 @@ VALUES (0x7019D015,  1154, 0x019D0152, 41.90276, -1.839952, 12.0055, -0.707107, 
 /* @teleloc 0x019D0152 [41.902760 -1.839952 12.005500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019D015, 0x7019D016, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D017, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D018, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D019, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7019D015, 0x7019D01A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D01B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7019D015, 0x7019D01C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7019D015, 0x7019D01D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D01E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D01F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7019D015, 0x7019D020, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D021, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7019D015, 0x7019D022, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7019D015, 0x7019D023, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D024, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7019D015, 0x7019D025, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7019D015, 0x7019D026, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D027, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D028, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7019D015, 0x7019D029, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D02A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7019D015, 0x7019D02B, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7019D015, 0x7019D016, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D017, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D018, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D019, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7019D015, 0x7019D01A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D01B, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x7019D015, 0x7019D01C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7019D015, 0x7019D01D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D01E, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D01F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7019D015, 0x7019D020, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D021, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7019D015, 0x7019D022, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7019D015, 0x7019D023, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D024, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7019D015, 0x7019D025, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x7019D015, 0x7019D026, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D027, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D028, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7019D015, 0x7019D029, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D02A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7019D015, 0x7019D02B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019D016,   947, 0x019D0152, 41.90276, -1.839952, 12.0055, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -137,16 +137,16 @@ VALUES (0x7019D02C,  1542, 0x019D015A, 17.50698, -19.61701, 18, 1, 0, 0, 0, Fals
 /* @teleloc 0x019D015A [17.506980 -19.617010 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019D02C, 0x7019D02D, '2019-02-10 00:00:00') /* Birch Talisman */
-     , (0x7019D02C, 0x7019D02E, '2019-02-10 00:00:00') /* Iron Scarab */
-     , (0x7019D02C, 0x7019D02F, '2019-02-10 00:00:00') /* Pyreal Scarab */
-     , (0x7019D02C, 0x7019D030, '2019-02-10 00:00:00') /* Alder Talisman */
-     , (0x7019D02C, 0x7019D031, '2019-02-10 00:00:00') /* Copper Scarab */
-     , (0x7019D02C, 0x7019D032, '2019-02-10 00:00:00') /* Oak Talisman */
-     , (0x7019D02C, 0x7019D033, '2019-02-10 00:00:00') /* Gold Scarab */
-     , (0x7019D02C, 0x7019D034, '2019-02-10 00:00:00') /* Ebony Talisman */
-     , (0x7019D02C, 0x7019D035, '2019-02-10 00:00:00') /* Lead Scarab */
-     , (0x7019D02C, 0x7019D036, '2019-02-10 00:00:00') /* Cedar Talisman */;
+VALUES (0x7019D02C, 0x7019D02D, '2019-02-10 00:00:00') /* Birch Talisman (741) */
+     , (0x7019D02C, 0x7019D02E, '2019-02-10 00:00:00') /* Iron Scarab (689) */
+     , (0x7019D02C, 0x7019D02F, '2019-02-10 00:00:00') /* Pyreal Scarab (690) */
+     , (0x7019D02C, 0x7019D030, '2019-02-10 00:00:00') /* Alder Talisman (627) */
+     , (0x7019D02C, 0x7019D031, '2019-02-10 00:00:00') /* Copper Scarab (686) */
+     , (0x7019D02C, 0x7019D032, '2019-02-10 00:00:00') /* Oak Talisman (748) */
+     , (0x7019D02C, 0x7019D033, '2019-02-10 00:00:00') /* Gold Scarab (687) */
+     , (0x7019D02C, 0x7019D034, '2019-02-10 00:00:00') /* Ebony Talisman (744) */
+     , (0x7019D02C, 0x7019D035, '2019-02-10 00:00:00') /* Lead Scarab (691) */
+     , (0x7019D02C, 0x7019D036, '2019-02-10 00:00:00') /* Cedar Talisman (743) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019D02D,   741, 0x019D015A, 17.50698, -19.61701, 18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Birch Talisman */

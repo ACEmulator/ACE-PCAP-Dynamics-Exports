@@ -5,14 +5,14 @@ VALUES (0x73A80001,  1154, 0x3A80002D, 134.4071, 113.0119, 48.22707, 0.9238795, 
 /* @teleloc 0x3A80002D [134.407100 113.011900 48.227070] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A80001, 0x73A80002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A80001, 0x73A80003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A80001, 0x73A80004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A80001, 0x73A80005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73A80001, 0x73A80006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73A80001, 0x73A80007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73A80001, 0x73A80008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73A80001, 0x73A80009, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73A80001, 0x73A80002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A80001, 0x73A80003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A80001, 0x73A80004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A80001, 0x73A80005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73A80001, 0x73A80006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73A80001, 0x73A80007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73A80001, 0x73A80008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73A80001, 0x73A80009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A80002, 24497, 0x3A80002D, 134.4071, 113.0119, 48.22707, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -51,8 +51,8 @@ VALUES (0x73A8000A,  1542, 0x3A80001D, 92.14909, 102.7681, 52.22321, 0.8912055, 
 /* @teleloc 0x3A80001D [92.149090 102.768100 52.223210] 0.891206 0.000000 0.000000 -0.453600 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A8000A, 0x73A8000B, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x73A8000A, 0x73A8000C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x73A8000A, 0x73A8000B, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x73A8000A, 0x73A8000C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A8000B,  8648, 0x3A80001D, 92.14909, 102.7681, 52.22321, 0.8912055, 0, 0, -0.4535998,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

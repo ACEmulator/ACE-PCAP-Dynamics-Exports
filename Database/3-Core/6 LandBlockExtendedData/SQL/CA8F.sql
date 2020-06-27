@@ -5,12 +5,12 @@ VALUES (0x7CA8F001,  1154, 0xCA8F001E, 94.50843, 129.2088, 15.8757, 0.7071068, 0
 /* @teleloc 0xCA8F001E [94.508430 129.208800 15.875700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA8F001, 0x7CA8F002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CA8F001, 0x7CA8F003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7CA8F001, 0x7CA8F004, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7CA8F001, 0x7CA8F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CA8F001, 0x7CA8F006, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CA8F001, 0x7CA8F007, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7CA8F001, 0x7CA8F002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7CA8F001, 0x7CA8F003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7CA8F001, 0x7CA8F004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7CA8F001, 0x7CA8F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CA8F001, 0x7CA8F006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CA8F001, 0x7CA8F007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA8F002,  5766, 0xCA8F001E, 94.50843, 129.2088, 15.8757, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

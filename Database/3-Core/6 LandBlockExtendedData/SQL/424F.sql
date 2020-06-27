@@ -5,11 +5,11 @@ VALUES (0x7424F001,  1154, 0x424F0033, 156.2483, 49.47917, 5.003004, 0.6427876, 
 /* @teleloc 0x424F0033 [156.248300 49.479170 5.003004] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7424F001, 0x7424F002, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7424F001, 0x7424F003, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7424F001, 0x7424F004, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7424F001, 0x7424F005, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7424F001, 0x7424F006, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x7424F001, 0x7424F002, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7424F001, 0x7424F003, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7424F001, 0x7424F004, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7424F001, 0x7424F005, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7424F001, 0x7424F006, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7424F002, 27984, 0x424F0033, 156.2483, 49.47917, 5.003004, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Guruk Crusher */

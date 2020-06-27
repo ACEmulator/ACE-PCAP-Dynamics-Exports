@@ -5,10 +5,10 @@ VALUES (0x79117001,  1154, 0x91170019, 72.01483, 1.228183, 296.3079, 0.9396926, 
 /* @teleloc 0x91170019 [72.014830 1.228183 296.307900] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79117001, 0x79117002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79117001, 0x79117003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79117001, 0x79117004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x79117001, 0x79117005, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x79117001, 0x79117002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79117001, 0x79117003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79117001, 0x79117004, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x79117001, 0x79117005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79117002,  1609, 0x91170019, 72.01483, 1.228183, 296.3079, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -31,7 +31,7 @@ VALUES (0x79117006,  1542, 0x91170011, 52.87854, 20.84534, 304.3983, 0.7533683, 
 /* @teleloc 0x91170011 [52.878540 20.845340 304.398300] 0.753368 0.000000 0.000000 -0.657599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79117006, 0x79117007, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x79117006, 0x79117007, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79117007,  8646, 0x91170011, 52.87854, 20.84534, 304.3983, 0.7533683, 0, 0, -0.6575988,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

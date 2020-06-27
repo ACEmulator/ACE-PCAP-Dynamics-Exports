@@ -5,13 +5,13 @@ VALUES (0x794D3001,  1154, 0x94D30013, 54.61344, 52.79602, 287.7622, 1, 0, 0, 0,
 /* @teleloc 0x94D30013 [54.613440 52.796020 287.762200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D3001, 0x794D3002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794D3001, 0x794D3003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x794D3001, 0x794D3004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x794D3001, 0x794D3005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x794D3001, 0x794D3006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x794D3001, 0x794D3007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x794D3001, 0x794D3008, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x794D3001, 0x794D3002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794D3001, 0x794D3003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x794D3001, 0x794D3004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x794D3001, 0x794D3005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x794D3001, 0x794D3006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x794D3001, 0x794D3007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x794D3001, 0x794D3008, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D3002,  7085, 0x94D30013, 54.61344, 52.79602, 287.7622, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

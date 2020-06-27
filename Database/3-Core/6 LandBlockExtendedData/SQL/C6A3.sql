@@ -9,10 +9,10 @@ VALUES (0x7C6A3001,  1154, 0xC6A3001F, 94.84456, 153.3067, 30.09929, 0.5106609, 
 /* @teleloc 0xC6A3001F [94.844560 153.306700 30.099290] 0.510661 0.000000 0.000000 -0.859782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6A3001, 0x7C6A3002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C6A3001, 0x7C6A3003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C6A3001, 0x7C6A3004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C6A3001, 0x7C6A3005, '2019-02-10 00:00:00') /* Drudge Slave */;
+VALUES (0x7C6A3001, 0x7C6A3002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C6A3001, 0x7C6A3003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C6A3001, 0x7C6A3004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C6A3001, 0x7C6A3005, '2019-02-10 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6A3002, 21168, 0xC6A3001F, 94.84456, 153.3067, 30.09929, 0.5106609, 0, 0, -0.8597822,  True, '2019-02-10 00:00:00'); /* Charge */

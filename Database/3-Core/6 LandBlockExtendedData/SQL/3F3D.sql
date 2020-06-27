@@ -5,16 +5,16 @@ VALUES (0x73F3D001,  1154, 0x3F3D0004, 21.27683, 73.51534, 9.78057, 0.3768091, 0
 /* @teleloc 0x3F3D0004 [21.276830 73.515340 9.780570] 0.376809 0.000000 0.000000 -0.926291 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F3D001, 0x73F3D002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73F3D001, 0x73F3D003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73F3D001, 0x73F3D004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F3D001, 0x73F3D005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73F3D001, 0x73F3D006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73F3D001, 0x73F3D007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73F3D001, 0x73F3D008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F3D001, 0x73F3D009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F3D001, 0x73F3D00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73F3D001, 0x73F3D00B, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x73F3D001, 0x73F3D002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73F3D001, 0x73F3D003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73F3D001, 0x73F3D004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F3D001, 0x73F3D005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73F3D001, 0x73F3D006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73F3D001, 0x73F3D007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73F3D001, 0x73F3D008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F3D001, 0x73F3D009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F3D001, 0x73F3D00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73F3D001, 0x73F3D00B, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F3D002, 10802, 0x3F3D0004, 21.27683, 73.51534, 9.78057, 0.3768091, 0, 0, -0.9262909,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
@@ -61,7 +61,7 @@ VALUES (0x73F3D00C,  1542, 0x3F3D0011, 50.35928, 7.982677, 7.527053, 1, 0, 0, 0,
 /* @teleloc 0x3F3D0011 [50.359280 7.982677 7.527053] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F3D00C, 0x73F3D00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73F3D00C, 0x73F3D00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F3D00D,  4380, 0x3F3D0011, 50.35928, 7.982677, 7.527053, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

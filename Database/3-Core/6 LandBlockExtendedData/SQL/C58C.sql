@@ -5,16 +5,16 @@ VALUES (0x7C58C001,  1154, 0xC58C001A, 77.49564, 29.41064, 28.20645, 0.9998102, 
 /* @teleloc 0xC58C001A [77.495640 29.410640 28.206450] 0.999810 0.000000 0.000000 -0.019480 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C58C001, 0x7C58C002, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C58C001, 0x7C58C003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C58C001, 0x7C58C004, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C58C001, 0x7C58C005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C58C001, 0x7C58C006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C58C001, 0x7C58C007, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C58C001, 0x7C58C008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C58C001, 0x7C58C009, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C58C001, 0x7C58C00A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C58C001, 0x7C58C00B, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7C58C001, 0x7C58C002, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C58C001, 0x7C58C003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C58C001, 0x7C58C004, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C58C001, 0x7C58C005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C58C001, 0x7C58C006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C58C001, 0x7C58C007, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C58C001, 0x7C58C008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C58C001, 0x7C58C009, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C58C001, 0x7C58C00A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C58C001, 0x7C58C00B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C58C002,  4131, 0xC58C001A, 77.49564, 29.41064, 28.20645, 0.9998102, 0, 0, -0.01948021,  True, '2019-02-10 00:00:00'); /* Tan Rat */
@@ -61,7 +61,7 @@ VALUES (0x7C58C00C,  1542, 0xC58C0019, 81.38312, 3.703172, 30, 0.9998102, 0, 0, 
 /* @teleloc 0xC58C0019 [81.383120 3.703172 30.000000] 0.999810 0.000000 0.000000 -0.019480 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C58C00C, 0x7C58C00D, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C58C00C, 0x7C58C00D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C58C00D,  8646, 0xC58C0019, 81.38312, 3.703172, 30, 0.9998102, 0, 0, -0.01948021,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

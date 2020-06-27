@@ -5,16 +5,16 @@ VALUES (0x7AA92001,  1154, 0xAA920008, 22.5895, 169.4672, 41.88096, -0.9776158, 
 /* @teleloc 0xAA920008 [22.589500 169.467200 41.880960] -0.977616 0.000000 0.000000 -0.210398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA92001, 0x7AA92002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AA92001, 0x7AA92003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AA92001, 0x7AA92004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AA92001, 0x7AA92005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AA92001, 0x7AA92006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AA92001, 0x7AA92007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AA92001, 0x7AA92008, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AA92001, 0x7AA92009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AA92001, 0x7AA9200A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AA92001, 0x7AA9200B, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7AA92001, 0x7AA92002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AA92001, 0x7AA92003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AA92001, 0x7AA92004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AA92001, 0x7AA92005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AA92001, 0x7AA92006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AA92001, 0x7AA92007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AA92001, 0x7AA92008, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AA92001, 0x7AA92009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AA92001, 0x7AA9200A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AA92001, 0x7AA9200B, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA92002,  7978, 0xAA920008, 22.5895, 169.4672, 41.88096, -0.9776158, 0, 0, -0.2103979,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7AA9200C,  1542, 0xAA920014, 66.10577, 79.62978, 42.14463, -0.4087565,
 /* @teleloc 0xAA920014 [66.105770 79.629780 42.144630] -0.408757 0.000000 0.000000 -0.912644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA9200C, 0x7AA9200D, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7AA9200C, 0x7AA9200D, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA9200D,  8041, 0xAA920014, 66.10577, 79.62978, 42.14463, -0.4087565, 0, 0, -0.9126435,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

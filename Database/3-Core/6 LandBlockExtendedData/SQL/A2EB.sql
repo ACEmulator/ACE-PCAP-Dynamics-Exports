@@ -5,9 +5,9 @@ VALUES (0x7A2EB001,  1154, 0xA2EB0020, 79.89757, 190.5819, -0.45, -0.9167067, 0,
 /* @teleloc 0xA2EB0020 [79.897570 190.581900 -0.450000] -0.916707 0.000000 0.000000 -0.399561 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2EB001, 0x7A2EB002, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7A2EB001, 0x7A2EB003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A2EB001, 0x7A2EB004, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7A2EB001, 0x7A2EB002, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7A2EB001, 0x7A2EB003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A2EB001, 0x7A2EB004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2EB002,  2586, 0xA2EB0020, 79.89757, 190.5819, -0.45, -0.9167067, 0, 0, -0.3995607,  True, '2019-02-10 00:00:00'); /* Sata Sclavus */

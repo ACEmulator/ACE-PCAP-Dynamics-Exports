@@ -5,12 +5,12 @@ VALUES (0x77FDD001,  1154, 0x7FDD0038, 145.3281, 175.3097, 148.3285, 1, 0, 0, 0,
 /* @teleloc 0x7FDD0038 [145.328100 175.309700 148.328500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDD001, 0x77FDD002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x77FDD001, 0x77FDD003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77FDD001, 0x77FDD004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77FDD001, 0x77FDD005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x77FDD001, 0x77FDD006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77FDD001, 0x77FDD007, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x77FDD001, 0x77FDD002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x77FDD001, 0x77FDD003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77FDD001, 0x77FDD004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77FDD001, 0x77FDD005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x77FDD001, 0x77FDD006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77FDD001, 0x77FDD007, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDD002, 11541, 0x7FDD0038, 145.3281, 175.3097, 148.3285, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -41,7 +41,7 @@ VALUES (0x77FDD008,  1542, 0x7FDD0019, 95.38021, 14.02112, 216.2095, 0.9064584, 
 /* @teleloc 0x7FDD0019 [95.380210 14.021120 216.209500] 0.906458 0.000000 0.000000 -0.422295 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDD008, 0x77FDD009, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x77FDD008, 0x77FDD009, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDD009, 11555, 0x7FDD0019, 95.38021, 14.02112, 216.2095, 0.9064584, 0, 0, -0.422295,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

@@ -5,11 +5,11 @@ VALUES (0x7B35A001,  1154, 0xB35A001A, 83.01563, 47.79525, 18.0075, -0.4627297, 
 /* @teleloc 0xB35A001A [83.015630 47.795250 18.007500] -0.462730 0.000000 0.000000 -0.886500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B35A001, 0x7B35A002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7B35A001, 0x7B35A003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B35A001, 0x7B35A004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B35A001, 0x7B35A005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B35A001, 0x7B35A006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7B35A001, 0x7B35A002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7B35A001, 0x7B35A003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B35A001, 0x7B35A004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B35A001, 0x7B35A005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B35A001, 0x7B35A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B35A002, 10799, 0xB35A001A, 83.01563, 47.79525, 18.0075, -0.4627297, 0, 0, -0.8864995,  True, '2019-02-10 00:00:00'); /* Narrow Rift */

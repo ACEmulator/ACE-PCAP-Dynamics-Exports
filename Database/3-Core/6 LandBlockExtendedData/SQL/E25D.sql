@@ -5,18 +5,18 @@ VALUES (0x7E25D001,  1154, 0xE25D0034, 157.0701, 76.07856, 0.006600022, 0.681366
 /* @teleloc 0xE25D0034 [157.070100 76.078560 0.006600] 0.681366 0.000000 0.000000 -0.731943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E25D001, 0x7E25D002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E25D001, 0x7E25D003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E25D001, 0x7E25D004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E25D001, 0x7E25D005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E25D001, 0x7E25D006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E25D001, 0x7E25D007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E25D001, 0x7E25D008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7E25D001, 0x7E25D009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E25D001, 0x7E25D00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E25D001, 0x7E25D00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7E25D001, 0x7E25D00C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E25D001, 0x7E25D00D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7E25D001, 0x7E25D002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E25D001, 0x7E25D003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E25D001, 0x7E25D004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E25D001, 0x7E25D005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E25D001, 0x7E25D006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E25D001, 0x7E25D007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E25D001, 0x7E25D008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7E25D001, 0x7E25D009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E25D001, 0x7E25D00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E25D001, 0x7E25D00B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7E25D001, 0x7E25D00C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E25D001, 0x7E25D00D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E25D002,  8429, 0xE25D0034, 157.0701, 76.07856, 0.006600022, 0.6813664, 0, 0, -0.7319425,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */
@@ -71,7 +71,7 @@ VALUES (0x7E25D00E,  1542, 0xE25D003C, 179.4855, 76.42093, -0.002161026, 1, 0, 0
 /* @teleloc 0xE25D003C [179.485500 76.420930 -0.002161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E25D00E, 0x7E25D00F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7E25D00E, 0x7E25D00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E25D00F, 31443, 0xE25D003C, 179.4855, 76.42093, -0.002161026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

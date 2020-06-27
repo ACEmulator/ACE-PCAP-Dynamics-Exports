@@ -5,12 +5,12 @@ VALUES (0x72862001,  1154, 0x2862002F, 138.2727, 148.8317, 20.0065, 0.7593027, 0
 /* @teleloc 0x2862002F [138.272700 148.831700 20.006500] 0.759303 0.000000 0.000000 -0.650738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72862001, 0x72862002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72862001, 0x72862003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72862001, 0x72862004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72862001, 0x72862005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72862001, 0x72862006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72862001, 0x72862007, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72862001, 0x72862002, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x72862001, 0x72862003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72862001, 0x72862004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72862001, 0x72862005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72862001, 0x72862006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72862001, 0x72862007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72862002,  8405, 0x2862002F, 138.2727, 148.8317, 20.0065, 0.7593027, 0, 0, -0.6507376,  True, '2019-02-10 00:00:00'); /* Flamma */

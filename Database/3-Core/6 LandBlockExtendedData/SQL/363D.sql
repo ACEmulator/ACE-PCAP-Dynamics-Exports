@@ -5,13 +5,13 @@ VALUES (0x7363D001,  1154, 0x363D003A, 173.6544, 34.23139, 200.0025, 0.4121588, 
 /* @teleloc 0x363D003A [173.654400 34.231390 200.002500] 0.412159 0.000000 0.000000 -0.911112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7363D001, 0x7363D002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7363D001, 0x7363D003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7363D001, 0x7363D004, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7363D001, 0x7363D005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7363D001, 0x7363D006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7363D001, 0x7363D007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7363D001, 0x7363D008, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x7363D001, 0x7363D002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7363D001, 0x7363D003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7363D001, 0x7363D004, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7363D001, 0x7363D005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7363D001, 0x7363D006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7363D001, 0x7363D007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7363D001, 0x7363D008, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7363D002, 36858, 0x363D003A, 173.6544, 34.23139, 200.0025, 0.4121588, 0, 0, -0.9111121,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -46,7 +46,7 @@ VALUES (0x7363D009,  1542, 0x363D0039, 174.9665, 14.0422, 200, -0.1736482, 0, 0,
 /* @teleloc 0x363D0039 [174.966500 14.042200 200.000000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7363D009, 0x7363D00A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7363D009, 0x7363D00A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7363D00A,  4180, 0x363D0039, 174.9665, 14.0422, 200, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,13 +5,13 @@ VALUES (0x711BE001,  1154, 0x11BE0015, 59.39971, 110.0171, 22.01, 0.9086561, 0, 
 /* @teleloc 0x11BE0015 [59.399710 110.017100 22.010000] 0.908656 0.000000 0.000000 -0.417545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BE001, 0x711BE002, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x711BE001, 0x711BE003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BE001, 0x711BE004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BE001, 0x711BE005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BE001, 0x711BE006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BE001, 0x711BE007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BE001, 0x711BE008, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x711BE001, 0x711BE002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x711BE001, 0x711BE003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BE001, 0x711BE004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BE001, 0x711BE005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BE001, 0x711BE006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BE001, 0x711BE007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BE001, 0x711BE008, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BE002, 22933, 0x11BE0015, 59.39971, 110.0171, 22.01, 0.9086561, 0, 0, -0.4175453,  True, '2019-02-10 00:00:00'); /* Mist Golem */

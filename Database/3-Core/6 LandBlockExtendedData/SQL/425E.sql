@@ -5,12 +5,12 @@ VALUES (0x7425E001,  1154, 0x425E0031, 152.7158, 22.98211, 11.39293, 0.6443785, 
 /* @teleloc 0x425E0031 [152.715800 22.982110 11.392930] 0.644379 0.000000 0.000000 -0.764707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7425E001, 0x7425E002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7425E001, 0x7425E003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7425E001, 0x7425E004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7425E001, 0x7425E005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7425E001, 0x7425E006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7425E001, 0x7425E007, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x7425E001, 0x7425E002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7425E001, 0x7425E003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7425E001, 0x7425E004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7425E001, 0x7425E005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7425E001, 0x7425E006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7425E001, 0x7425E007, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7425E002, 36855, 0x425E0031, 152.7158, 22.98211, 11.39293, 0.6443785, 0, 0, -0.7647067,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -41,7 +41,7 @@ VALUES (0x7425E008,  1542, 0x425E0012, 62.74261, 39.62341, 21.46916, 1, 0, 0, 0,
 /* @teleloc 0x425E0012 [62.742610 39.623410 21.469160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7425E008, 0x7425E009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7425E008, 0x7425E009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7425E009, 31445, 0x425E0012, 62.74261, 39.62341, 21.46916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

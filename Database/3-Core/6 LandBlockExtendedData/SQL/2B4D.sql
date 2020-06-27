@@ -5,30 +5,30 @@ VALUES (0x72B4D001,  1154, 0x2B4D002A, 141.9576, 39.06793, 2.580639, 0.99369, 0,
 /* @teleloc 0x2B4D002A [141.957600 39.067930 2.580639] 0.993690 0.000000 0.000000 -0.112161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B4D001, 0x72B4D002, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B4D001, 0x72B4D003, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B4D001, 0x72B4D004, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B4D001, 0x72B4D005, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B4D001, 0x72B4D006, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B4D001, 0x72B4D007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B4D001, 0x72B4D008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B4D001, 0x72B4D009, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72B4D001, 0x72B4D00A, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72B4D001, 0x72B4D00B, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72B4D001, 0x72B4D00C, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72B4D001, 0x72B4D00D, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72B4D001, 0x72B4D00E, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72B4D001, 0x72B4D00F, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72B4D001, 0x72B4D010, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B4D001, 0x72B4D011, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B4D001, 0x72B4D012, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B4D001, 0x72B4D013, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B4D001, 0x72B4D014, '2019-02-10 00:00:00') /* Wretched */
-     , (0x72B4D001, 0x72B4D015, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B4D001, 0x72B4D016, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72B4D001, 0x72B4D017, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B4D001, 0x72B4D018, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B4D001, 0x72B4D019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */;
+VALUES (0x72B4D001, 0x72B4D002, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B4D001, 0x72B4D003, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B4D001, 0x72B4D004, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B4D001, 0x72B4D005, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B4D001, 0x72B4D006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B4D001, 0x72B4D007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B4D001, 0x72B4D008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B4D001, 0x72B4D009, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72B4D001, 0x72B4D00A, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72B4D001, 0x72B4D00B, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B4D001, 0x72B4D00C, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72B4D001, 0x72B4D00D, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B4D001, 0x72B4D00E, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72B4D001, 0x72B4D00F, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72B4D001, 0x72B4D010, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B4D001, 0x72B4D011, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B4D001, 0x72B4D012, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B4D001, 0x72B4D013, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B4D001, 0x72B4D014, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x72B4D001, 0x72B4D015, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B4D001, 0x72B4D016, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B4D001, 0x72B4D017, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B4D001, 0x72B4D018, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B4D001, 0x72B4D019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B4D002, 25665, 0x2B4D002A, 141.9576, 39.06793, 2.580639, 0.99369, 0, 0, -0.1121611,  True, '2019-02-10 00:00:00'); /* Wretched */
@@ -131,8 +131,8 @@ VALUES (0x72B4D01A,  1542, 0x2B4D0029, 140.0079, 18.74006, 4.543982, -0.9682373,
 /* @teleloc 0x2B4D0029 [140.007900 18.740060 4.543982] -0.968237 0.000000 0.000000 -0.250033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B4D01A, 0x72B4D01B, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest */
-     , (0x72B4D01A, 0x72B4D01C, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72B4D01A, 0x72B4D01B, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest (23085) */
+     , (0x72B4D01A, 0x72B4D01C, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B4D01B, 23085, 0x2B4D0029, 140.0079, 18.74006, 4.543982, -0.9682373, 0, 0, -0.2500332,  True, '2019-02-10 00:00:00'); /* Reinforced Mahogany Chest */

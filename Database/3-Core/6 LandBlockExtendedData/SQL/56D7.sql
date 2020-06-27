@@ -5,10 +5,10 @@ VALUES (0x756D7001,  1154, 0x56D7001D, 77.02634, 104.6706, 32.84272, 0.1384076, 
 /* @teleloc 0x56D7001D [77.026340 104.670600 32.842720] 0.138408 0.000000 0.000000 -0.990375 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756D7001, 0x756D7002, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x756D7001, 0x756D7003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x756D7001, 0x756D7004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x756D7001, 0x756D7005, '2019-02-10 00:00:00') /* Corrosion Wisp */;
+VALUES (0x756D7001, 0x756D7002, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x756D7001, 0x756D7003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x756D7001, 0x756D7004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x756D7001, 0x756D7005, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756D7002, 29300, 0x56D7001D, 77.02634, 104.6706, 32.84272, 0.1384076, 0, 0, -0.9903753,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */
@@ -31,7 +31,7 @@ VALUES (0x756D7006,  1542, 0x56D70004, 0.9565735, 95.00104, 31.66387, -0.7897184
 /* @teleloc 0x56D70004 [0.956574 95.001040 31.663870] -0.789718 0.000000 0.000000 -0.613470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756D7006, 0x756D7007, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x756D7006, 0x756D7007, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756D7007, 31687, 0x56D70004, 0.9565735, 95.00104, 31.66387, -0.7897184, 0, 0, -0.6134695,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

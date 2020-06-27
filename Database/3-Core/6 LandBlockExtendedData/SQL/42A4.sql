@@ -5,10 +5,10 @@ VALUES (0x742A4001,  1154, 0x42A40028, 116.7889, 179.554, 71.16009, 0.9766871, 0
 /* @teleloc 0x42A40028 [116.788900 179.554000 71.160090] 0.976687 0.000000 0.000000 -0.214668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742A4001, 0x742A4002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x742A4001, 0x742A4003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x742A4001, 0x742A4004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x742A4001, 0x742A4005, '2019-02-10 00:00:00') /* Fleshless Warrior */;
+VALUES (0x742A4001, 0x742A4002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x742A4001, 0x742A4003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x742A4001, 0x742A4004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x742A4001, 0x742A4005, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742A4002,  4254, 0x42A40028, 116.7889, 179.554, 71.16009, 0.9766871, 0, 0, -0.2146678,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

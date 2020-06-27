@@ -5,10 +5,10 @@ VALUES (0x7145A001,  1154, 0x145A003E, 172.442, 141.1829, 83.16747, 0.4014305, 0
 /* @teleloc 0x145A003E [172.442000 141.182900 83.167470] 0.401431 0.000000 0.000000 -0.915890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7145A001, 0x7145A002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7145A001, 0x7145A003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7145A001, 0x7145A004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7145A001, 0x7145A005, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x7145A001, 0x7145A002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7145A001, 0x7145A003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7145A001, 0x7145A004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7145A001, 0x7145A005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7145A002, 36820, 0x145A003E, 172.442, 141.1829, 83.16747, 0.4014305, 0, 0, -0.9158895,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -31,7 +31,7 @@ VALUES (0x7145A006,  1542, 0x145A002B, 127.1672, 58.45204, 61.7818, 0.8486714, 0
 /* @teleloc 0x145A002B [127.167200 58.452040 61.781800] 0.848671 0.000000 0.000000 -0.528920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7145A006, 0x7145A007, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7145A006, 0x7145A007, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7145A007,  9288, 0x145A002B, 127.1672, 58.45204, 61.7818, 0.8486714, 0, 0, -0.5289204,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

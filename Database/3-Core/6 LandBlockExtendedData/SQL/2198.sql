@@ -5,17 +5,17 @@ VALUES (0x72198001,  1154, 0x21980015, 48.52986, 97.16526, 30, 0.2588191, 0, 0, 
 /* @teleloc 0x21980015 [48.529860 97.165260 30.000000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72198001, 0x72198002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72198001, 0x72198003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x72198001, 0x72198004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72198001, 0x72198005, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72198001, 0x72198006, '2019-02-10 00:00:00') /* Frost */
-     , (0x72198001, 0x72198007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72198001, 0x72198008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72198001, 0x72198009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72198001, 0x7219800A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72198001, 0x7219800B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72198001, 0x7219800C, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72198001, 0x72198002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72198001, 0x72198003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x72198001, 0x72198004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72198001, 0x72198005, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72198001, 0x72198006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72198001, 0x72198007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72198001, 0x72198008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72198001, 0x72198009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72198001, 0x7219800A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72198001, 0x7219800B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72198001, 0x7219800C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72198002, 24494, 0x21980015, 48.52986, 97.16526, 30, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -66,7 +66,7 @@ VALUES (0x7219800D,  1542, 0x21980015, 56.38853, 99.02455, 22.23499, 1, 0, 0, 0,
 /* @teleloc 0x21980015 [56.388530 99.024550 22.234990] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7219800D, 0x7219800E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7219800D, 0x7219800E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7219800E, 22567, 0x21980015, 56.38853, 99.02455, 22.23499, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

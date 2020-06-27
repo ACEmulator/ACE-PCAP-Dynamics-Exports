@@ -5,13 +5,13 @@ VALUES (0x7B6F0001,  1154, 0xB6F0001A, 87.35756, 32.92073, 25.8292, 0.7071068, 0
 /* @teleloc 0xB6F0001A [87.357560 32.920730 25.829200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6F0001, 0x7B6F0002, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6F0001, 0x7B6F0003, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6F0001, 0x7B6F0004, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7B6F0001, 0x7B6F0005, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B6F0001, 0x7B6F0006, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7B6F0001, 0x7B6F0007, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7B6F0001, 0x7B6F0008, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */;
+VALUES (0x7B6F0001, 0x7B6F0002, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6F0001, 0x7B6F0003, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6F0001, 0x7B6F0004, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7B6F0001, 0x7B6F0005, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B6F0001, 0x7B6F0006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7B6F0001, 0x7B6F0007, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7B6F0001, 0x7B6F0008, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6F0002, 27798, 0xB6F0001A, 87.35756, 32.92073, 25.8292, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ancient Diamond Golem */
@@ -46,7 +46,7 @@ VALUES (0x7B6F0009,  1542, 0xB6F0000B, 25.66986, 69.94226, 20.17148, 1, 0, 0, 0,
 /* @teleloc 0xB6F0000B [25.669860 69.942260 20.171480] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6F0009, 0x7B6F000A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B6F0009, 0x7B6F000A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6F000A,  4179, 0xB6F0000B, 25.66986, 69.94226, 20.17148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,31 +5,31 @@ VALUES (0x7670F001,  1154, 0x670F0005, 12.88687, 101.5424, -0.888, 0.6629835, 0,
 /* @teleloc 0x670F0005 [12.886870 101.542400 -0.888000] 0.662984 0.000000 0.000000 -0.748634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7670F001, 0x7670F002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7670F001, 0x7670F003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7670F001, 0x7670F004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7670F001, 0x7670F005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7670F001, 0x7670F006, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7670F001, 0x7670F007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7670F001, 0x7670F008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7670F001, 0x7670F009, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7670F001, 0x7670F00A, '2019-02-10 00:00:00') /* Subtle Simulacrum */
-     , (0x7670F001, 0x7670F00B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7670F001, 0x7670F00C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7670F001, 0x7670F00D, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x7670F001, 0x7670F00E, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7670F001, 0x7670F00F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7670F001, 0x7670F010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7670F001, 0x7670F011, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7670F001, 0x7670F012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7670F001, 0x7670F013, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7670F001, 0x7670F014, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7670F001, 0x7670F015, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7670F001, 0x7670F016, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7670F001, 0x7670F017, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7670F001, 0x7670F018, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7670F001, 0x7670F019, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x7670F001, 0x7670F01A, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7670F001, 0x7670F002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7670F001, 0x7670F003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7670F001, 0x7670F004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7670F001, 0x7670F005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7670F001, 0x7670F006, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7670F001, 0x7670F007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7670F001, 0x7670F008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7670F001, 0x7670F009, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7670F001, 0x7670F00A, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */
+     , (0x7670F001, 0x7670F00B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7670F001, 0x7670F00C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7670F001, 0x7670F00D, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x7670F001, 0x7670F00E, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7670F001, 0x7670F00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7670F001, 0x7670F010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7670F001, 0x7670F011, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7670F001, 0x7670F012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7670F001, 0x7670F013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7670F001, 0x7670F014, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7670F001, 0x7670F015, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7670F001, 0x7670F016, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7670F001, 0x7670F017, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7670F001, 0x7670F018, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7670F001, 0x7670F019, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x7670F001, 0x7670F01A, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7670F002,  7105, 0x670F0005, 12.88687, 101.5424, -0.888, 0.6629835, 0, 0, -0.748634,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -136,8 +136,8 @@ VALUES (0x7670F01B,  1542, 0x670F002E, 137.3614, 134.869, 0, 0.9990482, 0, 0, -0
 /* @teleloc 0x670F002E [137.361400 134.869000 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7670F01B, 0x7670F01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7670F01B, 0x7670F01D, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7670F01B, 0x7670F01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7670F01B, 0x7670F01D, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7670F01C,  4179, 0x670F002E, 137.3614, 134.869, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

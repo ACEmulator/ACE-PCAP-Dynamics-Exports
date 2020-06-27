@@ -5,11 +5,11 @@ VALUES (0x72E5E001,  1154, 0x2E5E000F, 47.16981, 158.5859, 0.00454998, 0.9659258
 /* @teleloc 0x2E5E000F [47.169810 158.585900 0.004550] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E5E001, 0x72E5E002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72E5E001, 0x72E5E003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E5E001, 0x72E5E004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72E5E001, 0x72E5E005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E5E001, 0x72E5E006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x72E5E001, 0x72E5E002, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72E5E001, 0x72E5E003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E5E001, 0x72E5E004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72E5E001, 0x72E5E005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E5E001, 0x72E5E006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E5E002, 10776, 0x2E5E000F, 47.16981, 158.5859, 0.00454998, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

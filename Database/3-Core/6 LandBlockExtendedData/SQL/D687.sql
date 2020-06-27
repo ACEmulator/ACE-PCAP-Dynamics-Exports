@@ -5,8 +5,8 @@ VALUES (0x7D687001,  1154, 0xD6870035, 165.3666, 118.2015, 17.63818, -0.9225424,
 /* @teleloc 0xD6870035 [165.366600 118.201500 17.638180] -0.922542 0.000000 0.000000 -0.385896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D687001, 0x7D687002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D687001, 0x7D687003, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7D687001, 0x7D687002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D687001, 0x7D687003, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D687002,  1630, 0xD6870035, 165.3666, 118.2015, 17.63818, -0.9225424, 0, 0, -0.3858958,  True, '2019-02-10 00:00:00'); /* Lich Lord */

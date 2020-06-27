@@ -5,14 +5,14 @@ VALUES (0x72DEE001,  1154, 0x2DEE0028, 100.6218, 175.5336, 23.2622, 0.4688371, 0
 /* @teleloc 0x2DEE0028 [100.621800 175.533600 23.262200] 0.468837 0.000000 0.000000 -0.883285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DEE001, 0x72DEE002, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72DEE001, 0x72DEE003, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72DEE001, 0x72DEE004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72DEE001, 0x72DEE005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72DEE001, 0x72DEE006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DEE001, 0x72DEE007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72DEE001, 0x72DEE008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72DEE001, 0x72DEE009, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x72DEE001, 0x72DEE002, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72DEE001, 0x72DEE003, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72DEE001, 0x72DEE004, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72DEE001, 0x72DEE005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72DEE001, 0x72DEE006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DEE001, 0x72DEE007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72DEE001, 0x72DEE008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72DEE001, 0x72DEE009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DEE002, 28667, 0x2DEE0028, 100.6218, 175.5336, 23.2622, 0.4688371, 0, 0, -0.8832846,  True, '2019-02-10 00:00:00'); /* Vile Ruschk */

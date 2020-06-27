@@ -5,35 +5,35 @@ VALUES (0x7AFAB001,  1154, 0xAFAB003E, 190.5617, 129.9445, 80.00044, -0.1749503,
 /* @teleloc 0xAFAB003E [190.561700 129.944500 80.000440] -0.174950 0.000000 0.000000 -0.984577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFAB001, 0x7AFAB002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AFAB001, 0x7AFAB003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AFAB001, 0x7AFAB004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7AFAB001, 0x7AFAB005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFAB001, 0x7AFAB006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFAB001, 0x7AFAB007, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AFAB001, 0x7AFAB008, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AFAB001, 0x7AFAB009, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7AFAB001, 0x7AFAB00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7AFAB001, 0x7AFAB00B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7AFAB001, 0x7AFAB00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AFAB001, 0x7AFAB00D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AFAB001, 0x7AFAB00E, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7AFAB001, 0x7AFAB00F, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7AFAB001, 0x7AFAB010, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AFAB001, 0x7AFAB011, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7AFAB001, 0x7AFAB012, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7AFAB001, 0x7AFAB013, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB014, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7AFAB001, 0x7AFAB015, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB016, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB017, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB018, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB019, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB01A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB01B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7AFAB001, 0x7AFAB01C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AFAB001, 0x7AFAB01D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7AFAB001, 0x7AFAB01E, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7AFAB001, 0x7AFAB002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AFAB001, 0x7AFAB003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AFAB001, 0x7AFAB004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7AFAB001, 0x7AFAB005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFAB001, 0x7AFAB006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFAB001, 0x7AFAB007, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AFAB001, 0x7AFAB008, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AFAB001, 0x7AFAB009, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7AFAB001, 0x7AFAB00A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7AFAB001, 0x7AFAB00B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7AFAB001, 0x7AFAB00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AFAB001, 0x7AFAB00D, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AFAB001, 0x7AFAB00E, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7AFAB001, 0x7AFAB00F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7AFAB001, 0x7AFAB010, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AFAB001, 0x7AFAB011, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7AFAB001, 0x7AFAB012, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7AFAB001, 0x7AFAB013, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB014, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7AFAB001, 0x7AFAB015, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB016, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB017, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB018, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB019, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB01A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB01B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AFAB001, 0x7AFAB01C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AFAB001, 0x7AFAB01D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7AFAB001, 0x7AFAB01E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFAB002,   939, 0xAFAB003E, 190.5617, 129.9445, 80.00044, -0.1749503, 0, 0, -0.9845772,  True, '2019-02-10 00:00:00'); /* Young Banderling */

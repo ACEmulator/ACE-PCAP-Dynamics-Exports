@@ -5,12 +5,12 @@ VALUES (0x73DCD001,  1154, 0x3DCD001F, 79.53342, 160.6216, -0.4499986, -0.835838
 /* @teleloc 0x3DCD001F [79.533420 160.621600 -0.449999] -0.835838 0.000000 0.000000 -0.548976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCD001, 0x73DCD002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73DCD001, 0x73DCD003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73DCD001, 0x73DCD004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCD001, 0x73DCD005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCD001, 0x73DCD006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCD001, 0x73DCD007, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x73DCD001, 0x73DCD002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73DCD001, 0x73DCD003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73DCD001, 0x73DCD004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCD001, 0x73DCD005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCD001, 0x73DCD006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCD001, 0x73DCD007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCD002,  7126, 0x3DCD001F, 79.53342, 160.6216, -0.4499986, -0.8358384, 0, 0, -0.5489755,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

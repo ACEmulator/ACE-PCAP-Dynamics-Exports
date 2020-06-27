@@ -5,11 +5,11 @@ VALUES (0x79B67001,  1154, 0x9B670015, 53.07446, 103.1839, 63.04786, 0.8922375, 
 /* @teleloc 0x9B670015 [53.074460 103.183900 63.047860] 0.892238 0.000000 0.000000 -0.451566 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B67001, 0x79B67002, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x79B67001, 0x79B67003, '2019-02-10 00:00:00') /* Undead */
-     , (0x79B67001, 0x79B67004, '2019-02-10 00:00:00') /* Undead */
-     , (0x79B67001, 0x79B67005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79B67001, 0x79B67006, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x79B67001, 0x79B67002, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x79B67001, 0x79B67003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79B67001, 0x79B67004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79B67001, 0x79B67005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79B67001, 0x79B67006, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B67002,  1535, 0x9B670015, 53.07446, 103.1839, 63.04786, 0.8922375, 0, 0, -0.4515664,  True, '2019-02-10 00:00:00'); /* Ethereal Wisp */

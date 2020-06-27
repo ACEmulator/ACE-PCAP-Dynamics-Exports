@@ -5,33 +5,33 @@ VALUES (0x7323B001,  1154, 0x323B0009, 28.6113, 10.46566, 145.2614, 0.9961947, 0
 /* @teleloc 0x323B0009 [28.611300 10.465660 145.261400] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7323B001, 0x7323B002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7323B001, 0x7323B003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7323B001, 0x7323B004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7323B001, 0x7323B005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7323B001, 0x7323B006, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7323B001, 0x7323B007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7323B001, 0x7323B008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7323B001, 0x7323B009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7323B001, 0x7323B00A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7323B001, 0x7323B00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7323B001, 0x7323B00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7323B001, 0x7323B00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7323B001, 0x7323B00E, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7323B001, 0x7323B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323B001, 0x7323B010, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7323B001, 0x7323B011, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7323B001, 0x7323B012, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7323B001, 0x7323B013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7323B001, 0x7323B014, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7323B001, 0x7323B015, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323B001, 0x7323B016, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7323B001, 0x7323B017, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7323B001, 0x7323B018, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7323B001, 0x7323B019, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7323B001, 0x7323B01A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7323B001, 0x7323B01B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7323B001, 0x7323B01C, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x7323B001, 0x7323B002, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7323B001, 0x7323B003, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7323B001, 0x7323B004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7323B001, 0x7323B005, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7323B001, 0x7323B006, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x7323B001, 0x7323B007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7323B001, 0x7323B008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7323B001, 0x7323B009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7323B001, 0x7323B00A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7323B001, 0x7323B00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7323B001, 0x7323B00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7323B001, 0x7323B00D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7323B001, 0x7323B00E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7323B001, 0x7323B00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7323B001, 0x7323B010, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7323B001, 0x7323B011, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7323B001, 0x7323B012, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7323B001, 0x7323B013, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7323B001, 0x7323B014, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7323B001, 0x7323B015, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7323B001, 0x7323B016, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7323B001, 0x7323B017, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7323B001, 0x7323B018, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7323B001, 0x7323B019, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7323B001, 0x7323B01A, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7323B001, 0x7323B01B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7323B001, 0x7323B01C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323B002, 36853, 0x323B0009, 28.6113, 10.46566, 145.2614, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -146,7 +146,7 @@ VALUES (0x7323B01D,  1542, 0x323B0009, 29.27452, 12.92721, 145.5168, 1, 0, 0, 0,
 /* @teleloc 0x323B0009 [29.274520 12.927210 145.516800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7323B01D, 0x7323B01E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7323B01D, 0x7323B01E, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323B01E, 22566, 0x323B0009, 29.27452, 12.92721, 145.5168, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

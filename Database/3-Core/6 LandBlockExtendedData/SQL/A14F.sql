@@ -5,9 +5,9 @@ VALUES (0x7A14F001,  1154, 0xA14F0037, 160.7139, 148.7833, 113.0348, 0.1247504, 
 /* @teleloc 0xA14F0037 [160.713900 148.783300 113.034800] 0.124750 0.000000 0.000000 -0.992188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A14F001, 0x7A14F002, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A14F001, 0x7A14F003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A14F001, 0x7A14F004, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x7A14F001, 0x7A14F002, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A14F001, 0x7A14F003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A14F001, 0x7A14F004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A14F002,  9244, 0xA14F0037, 160.7139, 148.7833, 113.0348, 0.1247504, 0, 0, -0.9921882,  True, '2019-02-10 00:00:00'); /* Pristine Doll */

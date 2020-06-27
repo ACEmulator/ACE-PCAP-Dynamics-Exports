@@ -5,9 +5,9 @@ VALUES (0x7AE2B001,  1154, 0xAE2B0009, 38.09629, 8.892675, 208.0883, 0.9238795, 
 /* @teleloc 0xAE2B0009 [38.096290 8.892675 208.088300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE2B001, 0x7AE2B002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AE2B001, 0x7AE2B003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AE2B001, 0x7AE2B004, '2019-02-10 00:00:00') /* Gigas Raider */;
+VALUES (0x7AE2B001, 0x7AE2B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AE2B001, 0x7AE2B003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AE2B001, 0x7AE2B004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE2B002,  4254, 0xAE2B0009, 38.09629, 8.892675, 208.0883, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -26,7 +26,7 @@ VALUES (0x7AE2B005,  1542, 0xAE2B0038, 157.8057, 188.1577, 194.734, 0.1795679, 0
 /* @teleloc 0xAE2B0038 [157.805700 188.157700 194.734000] 0.179568 0.000000 0.000000 -0.983746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE2B005, 0x7AE2B006, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7AE2B005, 0x7AE2B006, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE2B006, 42528, 0xAE2B0038, 157.8057, 188.1577, 194.734, 0.1795679, 0, 0, -0.9837456,  True, '2019-02-10 00:00:00'); /* Rock */

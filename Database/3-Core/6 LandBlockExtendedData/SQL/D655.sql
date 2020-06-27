@@ -57,20 +57,20 @@ VALUES (0x7D655012,  1154, 0xD655000D, 28.86996, 102.0293, 39.00227, -0.4403507,
 /* @teleloc 0xD655000D [28.869960 102.029300 39.002270] -0.440351 0.000000 0.000000 -0.897826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D655012, 0x7D655013, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7D655012, 0x7D655014, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7D655012, 0x7D655015, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7D655012, 0x7D655016, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D655012, 0x7D655017, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7D655012, 0x7D655018, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7D655012, 0x7D655019, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7D655012, 0x7D65501A, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7D655012, 0x7D65501B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7D655012, 0x7D65501C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7D655012, 0x7D65501D, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7D655012, 0x7D65501E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7D655012, 0x7D65501F, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7D655012, 0x7D655020, '2019-02-10 00:00:00') /* Mite Snippet */;
+VALUES (0x7D655012, 0x7D655013, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7D655012, 0x7D655014, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D655012, 0x7D655015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D655012, 0x7D655016, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7D655012, 0x7D655017, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7D655012, 0x7D655018, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7D655012, 0x7D655019, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7D655012, 0x7D65501A, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7D655012, 0x7D65501B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7D655012, 0x7D65501C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D655012, 0x7D65501D, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7D655012, 0x7D65501E, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7D655012, 0x7D65501F, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7D655012, 0x7D655020, '2019-02-10 00:00:00') /* Mite Snippet (19260) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655013, 19256, 0xD655000D, 28.86996, 102.0293, 39.00227, -0.4403507, 0, 0, -0.8978258,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -133,7 +133,7 @@ VALUES (0x7D655021,  1154, 0xD6550116, 61.3864, 33.9821, 52.005, -0.3764778, 0, 
 /* @teleloc 0xD6550116 [61.386400 33.982100 52.005000] -0.376478 0.000000 0.000000 -0.926426 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D655021, 0x7D655022, '2019-02-10 00:00:00') /* Sentry */;
+VALUES (0x7D655021, 0x7D655022, '2019-02-10 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655022, 12725, 0xD6550116, 61.3864, 33.9821, 52.005, -0.3764778, 0, 0, -0.9264256,  True, '2019-02-10 00:00:00'); /* Sentry */
@@ -144,7 +144,7 @@ VALUES (0x7D655023,  1542, 0xD6550034, 156.4969, 95.35236, 44.079, 0.9863094, 0,
 /* @teleloc 0xD6550034 [156.496900 95.352360 44.079000] 0.986309 0.000000 0.000000 -0.164905 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D655023, 0x7D655024, '2019-02-10 00:00:00') /* An odd note  */;
+VALUES (0x7D655023, 0x7D655024, '2019-02-10 00:00:00') /* An odd note  (1419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D655024,  1419, 0xD6550034, 156.4969, 95.35236, 44.079, 0.9863094, 0, 0, -0.1649054,  True, '2019-02-10 00:00:00'); /* An odd note  */

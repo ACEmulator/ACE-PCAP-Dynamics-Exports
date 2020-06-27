@@ -5,22 +5,22 @@ VALUES (0x7C1B4001,  1154, 0xC1B4000A, 42.48915, 26.8278, 233.6134, 0.9959337, 0
 /* @teleloc 0xC1B4000A [42.489150 26.827800 233.613400] 0.995934 0.000000 0.000000 0.090089 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1B4001, 0x7C1B4002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C1B4001, 0x7C1B4008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C1B4001, 0x7C1B4009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B400A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B400B, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C1B4001, 0x7C1B400C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1B4001, 0x7C1B400D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C1B4001, 0x7C1B400E, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C1B4001, 0x7C1B400F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C1B4001, 0x7C1B4011, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7C1B4001, 0x7C1B4002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C1B4001, 0x7C1B4008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C1B4001, 0x7C1B4009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B400A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B400B, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C1B4001, 0x7C1B400C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1B4001, 0x7C1B400D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C1B4001, 0x7C1B400E, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C1B4001, 0x7C1B400F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C1B4001, 0x7C1B4011, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1B4002,     3, 0xC1B4000A, 42.48915, 26.8278, 233.6134, 0.9959337, 0, 0, 0.09008927,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

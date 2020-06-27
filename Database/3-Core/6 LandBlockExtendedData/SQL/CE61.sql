@@ -5,12 +5,12 @@ VALUES (0x7CE61001,  1154, 0xCE610100, 177.759, 176.221, 6.0025, 0.99286, 0, 0, 
 /* @teleloc 0xCE610100 [177.759000 176.221000 6.002500] 0.992860 0.000000 0.000000 -0.119283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE61001, 0x7CE61002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CE61001, 0x7CE61003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CE61001, 0x7CE61004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CE61001, 0x7CE61005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CE61001, 0x7CE61006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CE61001, 0x7CE61007, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7CE61001, 0x7CE61002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CE61001, 0x7CE61003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CE61001, 0x7CE61004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CE61001, 0x7CE61005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CE61001, 0x7CE61006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CE61001, 0x7CE61007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE61002,  1760, 0xCE610100, 177.759, 176.221, 6.0025, 0.99286, 0, 0, -0.119283,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */

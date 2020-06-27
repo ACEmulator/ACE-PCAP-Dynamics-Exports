@@ -21,24 +21,24 @@ VALUES (0x7B69A005,  1154, 0xB69A0100, 158.2984, 177.7824, 48.0035, -0.982738, 0
 /* @teleloc 0xB69A0100 [158.298400 177.782400 48.003500] -0.982738 0.000000 0.000000 -0.185001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69A005, 0x7B69A006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B69A005, 0x7B69A007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B69A005, 0x7B69A008, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B69A005, 0x7B69A009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B69A005, 0x7B69A00A, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B69A005, 0x7B69A00B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B69A005, 0x7B69A00C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B69A005, 0x7B69A00D, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B69A005, 0x7B69A00E, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7B69A005, 0x7B69A00F, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B69A005, 0x7B69A010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B69A005, 0x7B69A011, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B69A005, 0x7B69A012, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B69A005, 0x7B69A013, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B69A005, 0x7B69A014, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B69A005, 0x7B69A015, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B69A005, 0x7B69A016, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B69A005, 0x7B69A017, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7B69A005, 0x7B69A006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B69A005, 0x7B69A007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B69A005, 0x7B69A008, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B69A005, 0x7B69A009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B69A005, 0x7B69A00A, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B69A005, 0x7B69A00B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B69A005, 0x7B69A00C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B69A005, 0x7B69A00D, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B69A005, 0x7B69A00E, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7B69A005, 0x7B69A00F, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B69A005, 0x7B69A010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B69A005, 0x7B69A011, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B69A005, 0x7B69A012, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B69A005, 0x7B69A013, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B69A005, 0x7B69A014, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B69A005, 0x7B69A015, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B69A005, 0x7B69A016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B69A005, 0x7B69A017, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69A006,   192, 0xB69A0100, 158.2984, 177.7824, 48.0035, -0.982738, 0, 0, -0.185001,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -117,9 +117,9 @@ VALUES (0x7B69A018,  1542, 0xB69A001A, 78.42843, 32.21646, 33.6133, 1, 0, 0, 0, 
 /* @teleloc 0xB69A001A [78.428430 32.216460 33.613300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69A018, 0x7B69A019, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B69A018, 0x7B69A01A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B69A018, 0x7B69A01B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B69A018, 0x7B69A019, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B69A018, 0x7B69A01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B69A018, 0x7B69A01B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69A019, 22568, 0xB69A001A, 78.42843, 32.21646, 33.6133, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

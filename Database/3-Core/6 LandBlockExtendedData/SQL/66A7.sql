@@ -5,10 +5,10 @@ VALUES (0x766A7001,  1154, 0x66A70013, 52.67833, 52.72759, 116.0867, 0.06957147,
 /* @teleloc 0x66A70013 [52.678330 52.727590 116.086700] 0.069571 0.000000 0.000000 -0.997577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766A7001, 0x766A7002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x766A7001, 0x766A7003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x766A7001, 0x766A7004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x766A7001, 0x766A7005, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x766A7001, 0x766A7002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x766A7001, 0x766A7003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x766A7001, 0x766A7004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x766A7001, 0x766A7005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766A7002, 22519, 0x66A70013, 52.67833, 52.72759, 116.0867, 0.06957147, 0, 0, -0.997577,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

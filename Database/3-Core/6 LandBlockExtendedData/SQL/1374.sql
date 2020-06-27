@@ -5,10 +5,10 @@ VALUES (0x71374001,  1154, 0x13740035, 147.6159, 105.2217, 132.2756, 0.7071068, 
 /* @teleloc 0x13740035 [147.615900 105.221700 132.275600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71374001, 0x71374002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71374001, 0x71374003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71374001, 0x71374004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71374001, 0x71374005, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x71374001, 0x71374002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71374001, 0x71374003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71374001, 0x71374004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71374001, 0x71374005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71374002, 24280, 0x13740035, 147.6159, 105.2217, 132.2756, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -31,7 +31,7 @@ VALUES (0x71374006,  1542, 0x13740035, 144.4312, 103.1974, 131.016, 0.9990482, 0
 /* @teleloc 0x13740035 [144.431200 103.197400 131.016000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71374006, 0x71374007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71374006, 0x71374007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71374007,  4179, 0x13740035, 144.4312, 103.1974, 131.016, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

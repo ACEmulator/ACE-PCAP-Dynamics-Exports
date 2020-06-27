@@ -5,17 +5,17 @@ VALUES (0x73490001,  1154, 0x34900010, 45.22635, 170.8959, 73.87534, 0.4056392, 
 /* @teleloc 0x34900010 [45.226350 170.895900 73.875340] 0.405639 0.000000 0.000000 -0.914033 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73490001, 0x73490002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x73490001, 0x73490003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x73490001, 0x73490004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73490001, 0x73490005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73490001, 0x73490006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73490001, 0x73490007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x73490001, 0x73490008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73490001, 0x73490009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73490001, 0x7349000A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x73490001, 0x7349000B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73490001, 0x7349000C, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x73490001, 0x73490002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x73490001, 0x73490003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x73490001, 0x73490004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73490001, 0x73490005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73490001, 0x73490006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73490001, 0x73490007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x73490001, 0x73490008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73490001, 0x73490009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73490001, 0x7349000A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x73490001, 0x7349000B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73490001, 0x7349000C, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73490002, 20189, 0x34900010, 45.22635, 170.8959, 73.87534, 0.4056392, 0, 0, -0.9140333,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -66,7 +66,7 @@ VALUES (0x7349000D,  1542, 0x3490003C, 179.7667, 95.35793, 89.42983, 1, 0, 0, 0,
 /* @teleloc 0x3490003C [179.766700 95.357930 89.429830] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7349000D, 0x7349000E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7349000D, 0x7349000E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7349000E,  4179, 0x3490003C, 179.7667, 95.35793, 89.42983, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

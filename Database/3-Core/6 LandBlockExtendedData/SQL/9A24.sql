@@ -5,19 +5,19 @@ VALUES (0x79A24001,  1154, 0x9A240040, 182.9981, 184.6182, 89.89826, 0.7933533, 
 /* @teleloc 0x9A240040 [182.998100 184.618200 89.898260] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A24001, 0x79A24002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A24001, 0x79A24003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79A24001, 0x79A24004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79A24001, 0x79A24005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A24001, 0x79A24006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79A24001, 0x79A24007, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x79A24001, 0x79A24008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79A24001, 0x79A24009, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x79A24001, 0x79A2400A, '2019-02-10 00:00:00') /* Static */
-     , (0x79A24001, 0x79A2400B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79A24001, 0x79A2400C, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79A24001, 0x79A2400D, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79A24001, 0x79A2400E, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x79A24001, 0x79A24002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A24001, 0x79A24003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79A24001, 0x79A24004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79A24001, 0x79A24005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A24001, 0x79A24006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79A24001, 0x79A24007, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x79A24001, 0x79A24008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79A24001, 0x79A24009, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x79A24001, 0x79A2400A, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x79A24001, 0x79A2400B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79A24001, 0x79A2400C, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79A24001, 0x79A2400D, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79A24001, 0x79A2400E, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A24002,  7179, 0x9A240040, 182.9981, 184.6182, 89.89826, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -76,7 +76,7 @@ VALUES (0x79A2400F,  1542, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 
 /* @teleloc 0x9A24000C [25.746890 74.518090 90.405490] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A2400F, 0x79A24010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79A2400F, 0x79A24010, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A24010,  4180, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,22 +5,22 @@ VALUES (0x72D72001,  1154, 0x2D720030, 139.3903, 168.3069, 76.10207, 0.2307467, 
 /* @teleloc 0x2D720030 [139.390300 168.306900 76.102070] 0.230747 0.000000 0.000000 -0.973014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D72001, 0x72D72002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72D72001, 0x72D72003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D72001, 0x72D72004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72D72001, 0x72D72005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D72001, 0x72D72006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D72001, 0x72D72007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72D72001, 0x72D72008, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x72D72001, 0x72D72009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72D72001, 0x72D7200A, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72D72001, 0x72D7200B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D72001, 0x72D7200C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D72001, 0x72D7200D, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D72001, 0x72D7200E, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72D72001, 0x72D7200F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72D72001, 0x72D72010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D72001, 0x72D72011, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72D72001, 0x72D72002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72D72001, 0x72D72003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D72001, 0x72D72004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72D72001, 0x72D72005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D72001, 0x72D72006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D72001, 0x72D72007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72D72001, 0x72D72008, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x72D72001, 0x72D72009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72D72001, 0x72D7200A, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72D72001, 0x72D7200B, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D72001, 0x72D7200C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D72001, 0x72D7200D, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D72001, 0x72D7200E, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72D72001, 0x72D7200F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72D72001, 0x72D72010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D72001, 0x72D72011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D72002, 24134, 0x2D720030, 139.3903, 168.3069, 76.10207, 0.2307467, 0, 0, -0.9730139,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -91,7 +91,7 @@ VALUES (0x72D72012,  1542, 0x2D720026, 108.8897, 128.2301, 71.13262, 0.614961, 0
 /* @teleloc 0x2D720026 [108.889700 128.230100 71.132620] 0.614961 0.000000 0.000000 -0.788558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D72012, 0x72D72013, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x72D72012, 0x72D72013, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D72013,  8648, 0x2D720026, 108.8897, 128.2301, 71.13262, 0.614961, 0, 0, -0.7885575,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

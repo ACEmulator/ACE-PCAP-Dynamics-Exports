@@ -5,12 +5,12 @@ VALUES (0x7EA49001,  1154, 0xEA49001E, 78.82558, 120.8506, 6.000001, -0.9988136,
 /* @teleloc 0xEA49001E [78.825580 120.850600 6.000001] -0.998814 0.000000 0.000000 -0.048697 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA49001, 0x7EA49002, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7EA49001, 0x7EA49003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7EA49001, 0x7EA49004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EA49001, 0x7EA49005, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7EA49001, 0x7EA49006, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7EA49001, 0x7EA49007, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x7EA49001, 0x7EA49002, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7EA49001, 0x7EA49003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7EA49001, 0x7EA49004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EA49001, 0x7EA49005, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7EA49001, 0x7EA49006, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7EA49001, 0x7EA49007, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA49002,  1988, 0xEA49001E, 78.82558, 120.8506, 6.000001, -0.9988136, 0, 0, -0.04869695,  True, '2019-02-10 00:00:00'); /* Dark Wisp */
@@ -41,8 +41,8 @@ VALUES (0x7EA49008,  1542, 0xEA490025, 110.8823, 106.2016, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xEA490025 [110.882300 106.201600 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA49008, 0x7EA49009, '2019-02-10 00:00:00') /* Leather Cap */
-     , (0x7EA49008, 0x7EA4900A, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x7EA49008, 0x7EA49009, '2019-02-10 00:00:00') /* Leather Cap (45) */
+     , (0x7EA49008, 0x7EA4900A, '2019-02-10 00:00:00') /* Gem (2419) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA49009,    45, 0xEA490025, 110.8823, 106.2016, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Leather Cap */

@@ -5,15 +5,15 @@ VALUES (0x715BE001,  1154, 0x15BE002B, 132.0011, 57.09155, 42.00537, -0.205116, 
 /* @teleloc 0x15BE002B [132.001100 57.091550 42.005370] -0.205116 0.000000 0.000000 -0.978738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715BE001, 0x715BE002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x715BE001, 0x715BE003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x715BE001, 0x715BE004, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x715BE001, 0x715BE005, '2019-02-10 00:00:00') /* Assassin */
-     , (0x715BE001, 0x715BE006, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x715BE001, 0x715BE007, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x715BE001, 0x715BE008, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x715BE001, 0x715BE009, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x715BE001, 0x715BE00A, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x715BE001, 0x715BE002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x715BE001, 0x715BE003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x715BE001, 0x715BE004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x715BE001, 0x715BE005, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x715BE001, 0x715BE006, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x715BE001, 0x715BE007, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x715BE001, 0x715BE008, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x715BE001, 0x715BE009, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x715BE001, 0x715BE00A, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715BE002, 11526, 0x15BE002B, 132.0011, 57.09155, 42.00537, -0.205116, 0, 0, -0.9787377,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -56,8 +56,8 @@ VALUES (0x715BE00B,  1542, 0x15BE0030, 129.0214, 168.8808, 57.17086, 1, 0, 0, 0,
 /* @teleloc 0x15BE0030 [129.021400 168.880800 57.170860] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715BE00B, 0x715BE00C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x715BE00B, 0x715BE00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x715BE00B, 0x715BE00C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x715BE00B, 0x715BE00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715BE00C,  9024, 0x15BE0030, 129.0214, 168.8808, 57.17086, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,9 +5,9 @@ VALUES (0x787F4001,  1154, 0x87F4001B, 89.5136, 63.69634, 57.6286, 0.951398, 0, 
 /* @teleloc 0x87F4001B [89.513600 63.696340 57.628600] 0.951398 0.000000 0.000000 -0.307964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787F4001, 0x787F4002, '2019-02-10 00:00:00') /* Frost */
-     , (0x787F4001, 0x787F4003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x787F4001, 0x787F4004, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x787F4001, 0x787F4002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x787F4001, 0x787F4003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x787F4001, 0x787F4004, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787F4002, 14512, 0x87F4001B, 89.5136, 63.69634, 57.6286, 0.951398, 0, 0, -0.3079639,  True, '2019-02-10 00:00:00'); /* Frost */

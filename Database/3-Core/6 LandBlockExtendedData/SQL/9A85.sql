@@ -5,16 +5,16 @@ VALUES (0x79A85001,  1154, 0x9A85000F, 46.18869, 157.1859, 48.013, -0.9998525, 0
 /* @teleloc 0x9A85000F [46.188690 157.185900 48.013000] -0.999853 0.000000 0.000000 -0.017175 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A85001, 0x79A85002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A85001, 0x79A85003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79A85001, 0x79A85004, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x79A85001, 0x79A85005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79A85001, 0x79A85006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A85001, 0x79A85007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A85001, 0x79A85008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79A85001, 0x79A85009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79A85001, 0x79A8500A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79A85001, 0x79A8500B, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x79A85001, 0x79A85002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A85001, 0x79A85003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79A85001, 0x79A85004, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x79A85001, 0x79A85005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79A85001, 0x79A85006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A85001, 0x79A85007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A85001, 0x79A85008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79A85001, 0x79A85009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79A85001, 0x79A8500A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79A85001, 0x79A8500B, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A85002,   217, 0x9A85000F, 46.18869, 157.1859, 48.013, -0.9998525, 0, 0, -0.01717546,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -61,7 +61,7 @@ VALUES (0x79A8500C,  1542, 0x9A850010, 46.36524, 172.6273, 48, 1, 0, 0, 0, False
 /* @teleloc 0x9A850010 [46.365240 172.627300 48.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A8500C, 0x79A8500D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79A8500C, 0x79A8500D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A8500D, 22576, 0x9A850010, 46.36524, 172.6273, 48, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

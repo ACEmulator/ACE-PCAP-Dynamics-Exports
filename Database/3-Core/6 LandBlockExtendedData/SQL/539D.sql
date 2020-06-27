@@ -5,13 +5,13 @@ VALUES (0x7539D001,  1154, 0x539D0014, 64.32068, 94.28447, 0.00999999, -0.087155
 /* @teleloc 0x539D0014 [64.320680 94.284470 0.010000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7539D001, 0x7539D002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7539D001, 0x7539D003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7539D001, 0x7539D004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7539D001, 0x7539D005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7539D001, 0x7539D006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7539D001, 0x7539D007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7539D001, 0x7539D008, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7539D001, 0x7539D002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7539D001, 0x7539D003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7539D001, 0x7539D004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7539D001, 0x7539D005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7539D001, 0x7539D006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7539D001, 0x7539D007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7539D001, 0x7539D008, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7539D002, 14559, 0x539D0014, 64.32068, 94.28447, 0.00999999, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */

@@ -5,11 +5,11 @@ VALUES (0x7DE56001,  1154, 0xDE560022, 100.1259, 31.11879, 10.94125, 0.3510921, 
 /* @teleloc 0xDE560022 [100.125900 31.118790 10.941250] 0.351092 0.000000 0.000000 -0.936341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE56001, 0x7DE56002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DE56001, 0x7DE56003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DE56001, 0x7DE56004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DE56001, 0x7DE56005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DE56001, 0x7DE56006, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7DE56001, 0x7DE56002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DE56001, 0x7DE56003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DE56001, 0x7DE56004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DE56001, 0x7DE56005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DE56001, 0x7DE56006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE56002,   940, 0xDE560022, 100.1259, 31.11879, 10.94125, 0.3510921, 0, 0, -0.9363409,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -36,7 +36,7 @@ VALUES (0x7DE56007,  1542, 0xDE56002E, 123.0118, 140.3188, 18.29055, 0.8191521, 
 /* @teleloc 0xDE56002E [123.011800 140.318800 18.290550] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE56007, 0x7DE56008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7DE56007, 0x7DE56008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE56008,  4380, 0xDE56002E, 123.0118, 140.3188, 18.29055, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

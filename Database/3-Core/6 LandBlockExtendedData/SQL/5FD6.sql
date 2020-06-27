@@ -5,20 +5,20 @@ VALUES (0x75FD6001,  1154, 0x5FD60033, 147.273, 59.44524, 172.2663, 0.7071068, 0
 /* @teleloc 0x5FD60033 [147.273000 59.445240 172.266300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD6001, 0x75FD6002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75FD6001, 0x75FD6003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD6001, 0x75FD6004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75FD6001, 0x75FD6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75FD6001, 0x75FD6006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75FD6001, 0x75FD6007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75FD6001, 0x75FD6008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD6001, 0x75FD6009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x75FD6001, 0x75FD600A, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75FD6001, 0x75FD600B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x75FD6001, 0x75FD600C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD6001, 0x75FD600D, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x75FD6001, 0x75FD600E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x75FD6001, 0x75FD600F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x75FD6001, 0x75FD6002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75FD6001, 0x75FD6003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75FD6001, 0x75FD6004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75FD6001, 0x75FD6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75FD6001, 0x75FD6006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x75FD6001, 0x75FD6007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x75FD6001, 0x75FD6008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x75FD6001, 0x75FD6009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x75FD6001, 0x75FD600A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x75FD6001, 0x75FD600B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x75FD6001, 0x75FD600C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75FD6001, 0x75FD600D, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x75FD6001, 0x75FD600E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x75FD6001, 0x75FD600F, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD6002, 36840, 0x5FD60033, 147.273, 59.44524, 172.2663, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -81,8 +81,8 @@ VALUES (0x75FD6010,  1542, 0x5FD60033, 146.0157, 70.74419, 173.0361, -4.371139E-
 /* @teleloc 0x5FD60033 [146.015700 70.744190 173.036100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD6010, 0x75FD6011, '2019-02-10 00:00:00') /* Bones */
-     , (0x75FD6010, 0x75FD6012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75FD6010, 0x75FD6011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75FD6010, 0x75FD6012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD6011,  4380, 0x5FD60033, 146.0157, 70.74419, 173.0361, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

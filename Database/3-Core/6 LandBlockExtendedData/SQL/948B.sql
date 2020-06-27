@@ -5,18 +5,18 @@ VALUES (0x7948B001,  1154, 0x948B0005, 0.6221008, 105.1737, 54.98643, 0.9766979,
 /* @teleloc 0x948B0005 [0.622101 105.173700 54.986430] 0.976698 0.000000 0.000000 -0.214619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7948B001, 0x7948B002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7948B001, 0x7948B003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7948B001, 0x7948B004, '2019-02-10 00:00:00') /* Gout */
-     , (0x7948B001, 0x7948B005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7948B001, 0x7948B006, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7948B001, 0x7948B007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7948B001, 0x7948B008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7948B001, 0x7948B009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7948B001, 0x7948B00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7948B001, 0x7948B00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7948B001, 0x7948B00C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7948B001, 0x7948B00D, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7948B001, 0x7948B002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7948B001, 0x7948B003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7948B001, 0x7948B004, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7948B001, 0x7948B005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7948B001, 0x7948B006, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7948B001, 0x7948B007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7948B001, 0x7948B008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7948B001, 0x7948B009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7948B001, 0x7948B00A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7948B001, 0x7948B00B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7948B001, 0x7948B00C, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7948B001, 0x7948B00D, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7948B002,  2576, 0x948B0005, 0.6221008, 105.1737, 54.98643, 0.9766979, 0, 0, -0.2146189,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7948B00E,  1542, 0x948B002A, 143.1455, 28.58004, 108.8499, 1, 0, 0, 0,
 /* @teleloc 0x948B002A [143.145500 28.580040 108.849900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7948B00E, 0x7948B00F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7948B00E, 0x7948B00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7948B00F, 31443, 0x948B002A, 143.1455, 28.58004, 108.8499, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

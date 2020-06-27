@@ -5,10 +5,10 @@ VALUES (0x7D633001,  1154, 0xD6330021, 112.2802, 7.966208, 89.04507, 0.8932073, 
 /* @teleloc 0xD6330021 [112.280200 7.966208 89.045070] 0.893207 0.000000 0.000000 -0.449645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D633001, 0x7D633002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7D633001, 0x7D633003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D633001, 0x7D633004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7D633001, 0x7D633005, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7D633001, 0x7D633002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7D633001, 0x7D633003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D633001, 0x7D633004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7D633001, 0x7D633005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D633002,  7105, 0xD6330021, 112.2802, 7.966208, 89.04507, 0.8932073, 0, 0, -0.4496451,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

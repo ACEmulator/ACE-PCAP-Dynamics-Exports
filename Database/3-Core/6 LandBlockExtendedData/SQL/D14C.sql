@@ -5,10 +5,10 @@ VALUES (0x7D14C001,  1154, 0xD14C002A, 124.1185, 39.96431, 74.98038, -0.7660444,
 /* @teleloc 0xD14C002A [124.118500 39.964310 74.980380] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D14C001, 0x7D14C002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D14C001, 0x7D14C003, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D14C001, 0x7D14C004, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7D14C001, 0x7D14C005, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x7D14C001, 0x7D14C002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D14C001, 0x7D14C003, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D14C001, 0x7D14C004, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D14C001, 0x7D14C005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D14C002, 24940, 0xD14C002A, 124.1185, 39.96431, 74.98038, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */

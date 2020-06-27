@@ -5,26 +5,26 @@ VALUES (0x74BB0001,  1154, 0x4BB00010, 31.27262, 188.9944, 50.22023, -0.7660444,
 /* @teleloc 0x4BB00010 [31.272620 188.994400 50.220230] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BB0001, 0x74BB0002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BB0001, 0x74BB0003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BB0001, 0x74BB0004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74BB0001, 0x74BB0005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74BB0001, 0x74BB0006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x74BB0001, 0x74BB0007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74BB0001, 0x74BB0008, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x74BB0001, 0x74BB0009, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x74BB0001, 0x74BB000A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74BB0001, 0x74BB000B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74BB0001, 0x74BB000C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74BB0001, 0x74BB000D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74BB0001, 0x74BB000E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x74BB0001, 0x74BB000F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x74BB0001, 0x74BB0010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74BB0001, 0x74BB0011, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74BB0001, 0x74BB0012, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x74BB0001, 0x74BB0013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x74BB0001, 0x74BB0014, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x74BB0001, 0x74BB0015, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x74BB0001, 0x74BB0002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BB0001, 0x74BB0003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BB0001, 0x74BB0004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74BB0001, 0x74BB0005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74BB0001, 0x74BB0006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x74BB0001, 0x74BB0007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74BB0001, 0x74BB0008, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x74BB0001, 0x74BB0009, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x74BB0001, 0x74BB000A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74BB0001, 0x74BB000B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74BB0001, 0x74BB000C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74BB0001, 0x74BB000D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74BB0001, 0x74BB000E, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x74BB0001, 0x74BB000F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x74BB0001, 0x74BB0010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74BB0001, 0x74BB0011, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74BB0001, 0x74BB0012, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x74BB0001, 0x74BB0013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x74BB0001, 0x74BB0014, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x74BB0001, 0x74BB0015, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB0002, 24497, 0x4BB00010, 31.27262, 188.9944, 50.22023, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -111,8 +111,8 @@ VALUES (0x74BB0016,  1542, 0x4BB00010, 29.76956, 181.7589, 48.29315, 1, 0, 0, 0,
 /* @teleloc 0x4BB00010 [29.769560 181.758900 48.293150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BB0016, 0x74BB0017, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74BB0016, 0x74BB0018, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x74BB0016, 0x74BB0017, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x74BB0016, 0x74BB0018, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB0017, 22571, 0x4BB00010, 29.76956, 181.7589, 48.29315, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,18 +5,18 @@ VALUES (0x78F68001,  1154, 0x8F680100, 59.0088, 86.1029, 13.4075, -0.187901, 0, 
 /* @teleloc 0x8F680100 [59.008800 86.102900 13.407500] -0.187901 0.000000 0.000000 -0.982188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F68001, 0x78F68002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F68001, 0x78F68003, '2019-02-10 00:00:00') /* Undead */
-     , (0x78F68001, 0x78F68004, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x78F68001, 0x78F68005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F68001, 0x78F68006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F68001, 0x78F68007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F68001, 0x78F68008, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78F68001, 0x78F68009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F68001, 0x78F6800A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F68001, 0x78F6800B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78F68001, 0x78F6800C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78F68001, 0x78F6800D, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x78F68001, 0x78F68002, '2019-02-10 00:00:00') /* Skeleton Lord (6775) */
+     , (0x78F68001, 0x78F68003, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x78F68001, 0x78F68004, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x78F68001, 0x78F68005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68001, 0x78F68006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68001, 0x78F68007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68001, 0x78F68008, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78F68001, 0x78F68009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68001, 0x78F6800A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F68001, 0x78F6800B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78F68001, 0x78F6800C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78F68001, 0x78F6800D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F68002,  6775, 0x8F680100, 59.0088, 86.1029, 13.4075, -0.187901, 0, 0, -0.982188,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

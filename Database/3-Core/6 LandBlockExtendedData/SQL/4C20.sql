@@ -5,17 +5,17 @@ VALUES (0x74C20001,  1154, 0x4C200009, 24.92363, 15.87171, 67.98125, 0.7372774, 
 /* @teleloc 0x4C200009 [24.923630 15.871710 67.981250] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C20001, 0x74C20002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74C20001, 0x74C20003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74C20001, 0x74C20004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74C20001, 0x74C20005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74C20001, 0x74C20006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74C20001, 0x74C20007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74C20001, 0x74C20008, '2019-02-10 00:00:00') /* Flare */
-     , (0x74C20001, 0x74C20009, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x74C20001, 0x74C2000A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74C20001, 0x74C2000B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74C20001, 0x74C2000C, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x74C20001, 0x74C20002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74C20001, 0x74C20003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74C20001, 0x74C20004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74C20001, 0x74C20005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74C20001, 0x74C20006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74C20001, 0x74C20007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74C20001, 0x74C20008, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x74C20001, 0x74C20009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74C20001, 0x74C2000A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74C20001, 0x74C2000B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74C20001, 0x74C2000C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C20002,  7113, 0x4C200009, 24.92363, 15.87171, 67.98125, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -66,7 +66,7 @@ VALUES (0x74C2000D,  1542, 0x4C200038, 148.2497, 178.3451, 70.47897, 0.3407774, 
 /* @teleloc 0x4C200038 [148.249700 178.345100 70.478970] 0.340777 0.000000 0.000000 -0.940144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C2000D, 0x74C2000E, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x74C2000D, 0x74C2000E, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C2000E,  8648, 0x4C200038, 148.2497, 178.3451, 70.47897, 0.3407774, 0, 0, -0.940144,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

@@ -5,24 +5,24 @@ VALUES (0x770EF001,  1154, 0x70EF0040, 168.1766, 183.2419, 0.7652757, 1, 0, 0, 0
 /* @teleloc 0x70EF0040 [168.176600 183.241900 0.765276] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770EF001, 0x770EF002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x770EF001, 0x770EF003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x770EF001, 0x770EF004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x770EF001, 0x770EF005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x770EF001, 0x770EF006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x770EF001, 0x770EF007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x770EF001, 0x770EF008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x770EF001, 0x770EF009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x770EF001, 0x770EF00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x770EF001, 0x770EF00B, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x770EF001, 0x770EF00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x770EF001, 0x770EF00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x770EF001, 0x770EF00E, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x770EF001, 0x770EF00F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x770EF001, 0x770EF010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x770EF001, 0x770EF011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x770EF001, 0x770EF012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x770EF001, 0x770EF013, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x770EF001, 0x770EF002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x770EF001, 0x770EF003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x770EF001, 0x770EF004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x770EF001, 0x770EF005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x770EF001, 0x770EF006, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x770EF001, 0x770EF007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x770EF001, 0x770EF008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x770EF001, 0x770EF009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x770EF001, 0x770EF00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x770EF001, 0x770EF00B, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x770EF001, 0x770EF00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x770EF001, 0x770EF00D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x770EF001, 0x770EF00E, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x770EF001, 0x770EF00F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x770EF001, 0x770EF010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x770EF001, 0x770EF011, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x770EF001, 0x770EF012, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x770EF001, 0x770EF013, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770EF002, 23566, 0x70EF0040, 168.1766, 183.2419, 0.7652757, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -101,7 +101,7 @@ VALUES (0x770EF014,  1542, 0x70EF0040, 169.0242, 185.4952, 0.710616, 1, 0, 0, 0,
 /* @teleloc 0x70EF0040 [169.024200 185.495200 0.710616] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x770EF014, 0x770EF015, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x770EF014, 0x770EF015, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x770EF015, 31445, 0x70EF0040, 169.0242, 185.4952, 0.710616, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

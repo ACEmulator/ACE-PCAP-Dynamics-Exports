@@ -5,18 +5,18 @@ VALUES (0x7959D001,  1154, 0x959D003F, 177.6504, 149.4067, 26.45056, 0.8529635, 
 /* @teleloc 0x959D003F [177.650400 149.406700 26.450560] 0.852964 0.000000 0.000000 -0.521971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7959D001, 0x7959D002, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7959D001, 0x7959D003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7959D001, 0x7959D004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7959D001, 0x7959D005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7959D001, 0x7959D006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7959D001, 0x7959D007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7959D001, 0x7959D008, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7959D001, 0x7959D009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7959D001, 0x7959D00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7959D001, 0x7959D00B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7959D001, 0x7959D00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7959D001, 0x7959D00D, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7959D001, 0x7959D002, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7959D001, 0x7959D003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7959D001, 0x7959D004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7959D001, 0x7959D005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7959D001, 0x7959D006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7959D001, 0x7959D007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7959D001, 0x7959D008, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7959D001, 0x7959D009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7959D001, 0x7959D00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7959D001, 0x7959D00B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7959D001, 0x7959D00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7959D001, 0x7959D00D, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7959D002,   213, 0x959D003F, 177.6504, 149.4067, 26.45056, 0.8529635, 0, 0, -0.5219706,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */

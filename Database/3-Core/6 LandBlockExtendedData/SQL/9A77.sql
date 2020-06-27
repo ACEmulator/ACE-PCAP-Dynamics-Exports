@@ -5,14 +5,14 @@ VALUES (0x79A77001,  1154, 0x9A77003F, 189.2509, 163.2159, 28.23909, 0.5826127, 
 /* @teleloc 0x9A77003F [189.250900 163.215900 28.239090] 0.582613 0.000000 0.000000 -0.812750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A77001, 0x79A77002, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A77001, 0x79A77003, '2019-02-10 00:00:00') /* Spark */
-     , (0x79A77001, 0x79A77004, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79A77001, 0x79A77005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79A77001, 0x79A77006, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x79A77001, 0x79A77007, '2019-02-10 00:00:00') /* Spark */
-     , (0x79A77001, 0x79A77008, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79A77001, 0x79A77009, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79A77001, 0x79A77002, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A77001, 0x79A77003, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x79A77001, 0x79A77004, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79A77001, 0x79A77005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79A77001, 0x79A77006, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x79A77001, 0x79A77007, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x79A77001, 0x79A77008, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79A77001, 0x79A77009, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A77002,   202, 0x9A77003F, 189.2509, 163.2159, 28.23909, 0.5826127, 0, 0, -0.8127499,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */

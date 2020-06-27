@@ -5,37 +5,37 @@ VALUES (0x7B95E001,  1154, 0xB95E001A, 86.13514, 29.41614, 9.828842, 0.9339117, 
 /* @teleloc 0xB95E001A [86.135140 29.416140 9.828842] 0.933912 0.000000 0.000000 -0.357504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95E001, 0x7B95E002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B95E001, 0x7B95E003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E004, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B95E001, 0x7B95E005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B95E001, 0x7B95E006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B95E001, 0x7B95E007, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B95E001, 0x7B95E008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E009, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B95E001, 0x7B95E00A, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B95E001, 0x7B95E00B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B95E001, 0x7B95E00C, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B95E001, 0x7B95E00D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B95E001, 0x7B95E00E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B95E001, 0x7B95E00F, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7B95E001, 0x7B95E010, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7B95E001, 0x7B95E011, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B95E001, 0x7B95E012, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B95E001, 0x7B95E013, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B95E001, 0x7B95E014, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E015, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B95E001, 0x7B95E016, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B95E001, 0x7B95E017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E019, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B95E001, 0x7B95E01A, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B95E001, 0x7B95E01B, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7B95E001, 0x7B95E01C, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7B95E001, 0x7B95E01D, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7B95E001, 0x7B95E01E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B95E001, 0x7B95E01F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B95E001, 0x7B95E020, '2019-02-10 00:00:00') /* Ghost Wisp */;
+VALUES (0x7B95E001, 0x7B95E002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B95E001, 0x7B95E003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7B95E001, 0x7B95E004, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B95E001, 0x7B95E005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B95E001, 0x7B95E006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B95E001, 0x7B95E007, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B95E001, 0x7B95E008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B95E001, 0x7B95E009, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B95E001, 0x7B95E00A, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B95E001, 0x7B95E00B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B95E001, 0x7B95E00C, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B95E001, 0x7B95E00D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B95E001, 0x7B95E00E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B95E001, 0x7B95E00F, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7B95E001, 0x7B95E010, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7B95E001, 0x7B95E011, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B95E001, 0x7B95E012, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B95E001, 0x7B95E013, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B95E001, 0x7B95E014, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B95E001, 0x7B95E015, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B95E001, 0x7B95E016, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B95E001, 0x7B95E017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B95E001, 0x7B95E018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B95E001, 0x7B95E019, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B95E001, 0x7B95E01A, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B95E001, 0x7B95E01B, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B95E001, 0x7B95E01C, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7B95E001, 0x7B95E01D, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7B95E001, 0x7B95E01E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B95E001, 0x7B95E01F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B95E001, 0x7B95E020, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95E002,     8, 0xB95E001A, 86.13514, 29.41614, 9.828842, 0.9339117, 0, 0, -0.3575036,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -166,11 +166,11 @@ VALUES (0x7B95E021,  1542, 0xB95E0020, 93.16324, 176.2668, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xB95E0020 [93.163240 176.266800 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B95E021, 0x7B95E022, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B95E021, 0x7B95E023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B95E021, 0x7B95E024, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B95E021, 0x7B95E025, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B95E021, 0x7B95E026, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B95E021, 0x7B95E022, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7B95E021, 0x7B95E023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B95E021, 0x7B95E024, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B95E021, 0x7B95E025, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B95E021, 0x7B95E026, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B95E022, 22572, 0xB95E0020, 93.16324, 176.2668, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

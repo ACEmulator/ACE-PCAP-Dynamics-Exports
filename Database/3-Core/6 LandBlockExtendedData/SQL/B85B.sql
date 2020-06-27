@@ -5,9 +5,9 @@ VALUES (0x7B85B001,  1154, 0xB85B001B, 72.75294, 49.70642, 17.985, -0.800651, 0,
 /* @teleloc 0xB85B001B [72.752940 49.706420 17.985000] -0.800651 0.000000 0.000000 -0.599131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85B001, 0x7B85B002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B85B001, 0x7B85B003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B85B001, 0x7B85B004, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7B85B001, 0x7B85B002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B85B001, 0x7B85B003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B85B001, 0x7B85B004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85B002,  8010, 0xB85B001B, 72.75294, 49.70642, 17.985, -0.800651, 0, 0, -0.5991311,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

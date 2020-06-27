@@ -5,10 +5,10 @@ VALUES (0x745AD001,  1154, 0x45AD003D, 169.6933, 113.0511, 86.58157, 0.7933533, 
 /* @teleloc 0x45AD003D [169.693300 113.051100 86.581570] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745AD001, 0x745AD002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x745AD001, 0x745AD003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x745AD001, 0x745AD004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x745AD001, 0x745AD005, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x745AD001, 0x745AD002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x745AD001, 0x745AD003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x745AD001, 0x745AD004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x745AD001, 0x745AD005, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745AD002,  7121, 0x45AD003D, 169.6933, 113.0511, 86.58157, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

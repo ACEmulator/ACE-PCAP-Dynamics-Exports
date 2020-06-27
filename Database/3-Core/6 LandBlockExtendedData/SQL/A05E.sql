@@ -5,36 +5,36 @@ VALUES (0x7A05E001,  1154, 0xA05E001F, 81.9116, 158.8155, 79.5271, 0.9631479, 0,
 /* @teleloc 0xA05E001F [81.911600 158.815500 79.527100] 0.963148 0.000000 0.000000 -0.268972 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A05E001, 0x7A05E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A05E001, 0x7A05E003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A05E001, 0x7A05E004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A05E001, 0x7A05E005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05E001, 0x7A05E006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7A05E001, 0x7A05E007, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7A05E001, 0x7A05E008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A05E001, 0x7A05E009, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A05E001, 0x7A05E00A, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A05E001, 0x7A05E00B, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7A05E001, 0x7A05E00C, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A05E001, 0x7A05E00D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05E001, 0x7A05E00E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A05E001, 0x7A05E00F, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A05E001, 0x7A05E010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A05E001, 0x7A05E011, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A05E001, 0x7A05E012, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7A05E001, 0x7A05E013, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A05E001, 0x7A05E014, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A05E001, 0x7A05E015, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A05E001, 0x7A05E016, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7A05E001, 0x7A05E017, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A05E001, 0x7A05E018, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7A05E001, 0x7A05E019, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A05E001, 0x7A05E01A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05E001, 0x7A05E01B, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A05E001, 0x7A05E01C, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7A05E001, 0x7A05E01D, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A05E001, 0x7A05E01E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A05E001, 0x7A05E01F, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7A05E001, 0x7A05E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A05E001, 0x7A05E003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A05E001, 0x7A05E004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A05E001, 0x7A05E005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05E001, 0x7A05E006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7A05E001, 0x7A05E007, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7A05E001, 0x7A05E008, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A05E001, 0x7A05E009, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A05E001, 0x7A05E00A, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A05E001, 0x7A05E00B, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7A05E001, 0x7A05E00C, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A05E001, 0x7A05E00D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05E001, 0x7A05E00E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A05E001, 0x7A05E00F, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A05E001, 0x7A05E010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A05E001, 0x7A05E011, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A05E001, 0x7A05E012, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7A05E001, 0x7A05E013, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A05E001, 0x7A05E014, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A05E001, 0x7A05E015, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A05E001, 0x7A05E016, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7A05E001, 0x7A05E017, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A05E001, 0x7A05E018, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7A05E001, 0x7A05E019, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A05E001, 0x7A05E01A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05E001, 0x7A05E01B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A05E001, 0x7A05E01C, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7A05E001, 0x7A05E01D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A05E001, 0x7A05E01E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A05E001, 0x7A05E01F, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05E002,  1758, 0xA05E001F, 81.9116, 158.8155, 79.5271, 0.9631479, 0, 0, -0.2689721,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -161,7 +161,7 @@ VALUES (0x7A05E020,  1542, 0xA05E0020, 75.23615, 181.9785, 83.90792, 0.9659258, 
 /* @teleloc 0xA05E0020 [75.236150 181.978500 83.907920] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A05E020, 0x7A05E021, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A05E020, 0x7A05E021, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05E021,  4180, 0xA05E0020, 75.23615, 181.9785, 83.90792, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

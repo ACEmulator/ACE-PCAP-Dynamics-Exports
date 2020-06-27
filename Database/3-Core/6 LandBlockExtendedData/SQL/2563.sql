@@ -5,9 +5,9 @@ VALUES (0x72563001,  1154, 0x2563003B, 189.1461, 49.25755, 20.0065, -0.9546028, 
 /* @teleloc 0x2563003B [189.146100 49.257550 20.006500] -0.954603 0.000000 0.000000 -0.297882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72563001, 0x72563002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72563001, 0x72563003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72563001, 0x72563004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x72563001, 0x72563002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72563001, 0x72563003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72563001, 0x72563004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72563002,  7119, 0x2563003B, 189.1461, 49.25755, 20.0065, -0.9546028, 0, 0, -0.2978818,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

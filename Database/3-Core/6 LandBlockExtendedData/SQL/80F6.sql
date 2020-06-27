@@ -5,14 +5,14 @@ VALUES (0x780F6001,  1154, 0x80F60018, 57.0965, 174.0226, 22.32727, 0.9238795, 0
 /* @teleloc 0x80F60018 [57.096500 174.022600 22.327270] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780F6001, 0x780F6002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x780F6001, 0x780F6003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x780F6001, 0x780F6004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x780F6001, 0x780F6005, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x780F6001, 0x780F6006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x780F6001, 0x780F6007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x780F6001, 0x780F6008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x780F6001, 0x780F6009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x780F6001, 0x780F6002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x780F6001, 0x780F6003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x780F6001, 0x780F6004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x780F6001, 0x780F6005, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x780F6001, 0x780F6006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x780F6001, 0x780F6007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x780F6001, 0x780F6008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x780F6001, 0x780F6009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780F6002, 10807, 0x80F60018, 57.0965, 174.0226, 22.32727, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

@@ -5,19 +5,19 @@ VALUES (0x7BED4001,  1154, 0xBED4001C, 83.79991, 93.29008, 193.4116, -0.1680961,
 /* @teleloc 0xBED4001C [83.799910 93.290080 193.411600] -0.168096 0.000000 0.000000 -0.985771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED4001, 0x7BED4002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED4001, 0x7BED4003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BED4001, 0x7BED4004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BED4001, 0x7BED4005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BED4001, 0x7BED4006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED4001, 0x7BED4007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED4001, 0x7BED4008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BED4001, 0x7BED4009, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED4001, 0x7BED400A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BED4001, 0x7BED400B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BED4001, 0x7BED400C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BED4001, 0x7BED400D, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BED4001, 0x7BED400E, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x7BED4001, 0x7BED4002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED4001, 0x7BED4003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BED4001, 0x7BED4004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BED4001, 0x7BED4005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BED4001, 0x7BED4006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED4001, 0x7BED4007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED4001, 0x7BED4008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BED4001, 0x7BED4009, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED4001, 0x7BED400A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BED4001, 0x7BED400B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BED4001, 0x7BED400C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BED4001, 0x7BED400D, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BED4001, 0x7BED400E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED4002, 38177, 0xBED4001C, 83.79991, 93.29008, 193.4116, -0.1680961, 0, 0, -0.9857706,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -76,7 +76,7 @@ VALUES (0x7BED400F,  1542, 0xBED4003C, 170.179, 83.93103, 222.9079, 0.9990482, 0
 /* @teleloc 0xBED4003C [170.179000 83.931030 222.907900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED400F, 0x7BED4010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BED400F, 0x7BED4010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED4010,  4179, 0xBED4003C, 170.179, 83.93103, 222.9079, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,9 +5,9 @@ VALUES (0x7FA7D001,  1154, 0xFA7D0038, 164.6093, 176.0726, -0.888, -0.9087395, 0
 /* @teleloc 0xFA7D0038 [164.609300 176.072600 -0.888000] -0.908740 0.000000 0.000000 -0.417364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA7D001, 0x7FA7D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7FA7D001, 0x7FA7D003, '2019-02-10 00:00:00') /* Tuskie Tosser */
-     , (0x7FA7D001, 0x7FA7D004, '2019-02-10 00:00:00') /* Spiny Chittick */;
+VALUES (0x7FA7D001, 0x7FA7D002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7FA7D001, 0x7FA7D003, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7FA7D001, 0x7FA7D004, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA7D002,   215, 0xFA7D0038, 164.6093, 176.0726, -0.888, -0.9087395, 0, 0, -0.4173637,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

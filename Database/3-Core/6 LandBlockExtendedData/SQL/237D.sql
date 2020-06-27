@@ -5,28 +5,28 @@ VALUES (0x7237D001,  1154, 0x237D002B, 134.9558, 65.41026, 46.30605, 0.4919647, 
 /* @teleloc 0x237D002B [134.955800 65.410260 46.306050] 0.491965 0.000000 0.000000 -0.870615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7237D001, 0x7237D002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7237D001, 0x7237D003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7237D001, 0x7237D004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7237D001, 0x7237D005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7237D001, 0x7237D006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7237D001, 0x7237D007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7237D001, 0x7237D008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7237D001, 0x7237D009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7237D001, 0x7237D00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7237D001, 0x7237D00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7237D001, 0x7237D00C, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7237D001, 0x7237D00D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7237D001, 0x7237D00E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7237D001, 0x7237D00F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7237D001, 0x7237D010, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7237D001, 0x7237D011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7237D001, 0x7237D012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7237D001, 0x7237D013, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7237D001, 0x7237D014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7237D001, 0x7237D015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7237D001, 0x7237D016, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7237D001, 0x7237D017, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7237D001, 0x7237D002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7237D001, 0x7237D003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7237D001, 0x7237D004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7237D001, 0x7237D005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7237D001, 0x7237D006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7237D001, 0x7237D007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7237D001, 0x7237D008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7237D001, 0x7237D009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7237D001, 0x7237D00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7237D001, 0x7237D00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7237D001, 0x7237D00C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7237D001, 0x7237D00D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7237D001, 0x7237D00E, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7237D001, 0x7237D00F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7237D001, 0x7237D010, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7237D001, 0x7237D011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7237D001, 0x7237D012, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7237D001, 0x7237D013, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7237D001, 0x7237D014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7237D001, 0x7237D015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7237D001, 0x7237D016, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7237D001, 0x7237D017, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7237D002, 36830, 0x237D002B, 134.9558, 65.41026, 46.30605, 0.4919647, 0, 0, -0.8706151,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -121,10 +121,10 @@ VALUES (0x7237D018,  1542, 0x237D0026, 100.4371, 131.6232, 80, 0.8842238, 0, 0, 
 /* @teleloc 0x237D0026 [100.437100 131.623200 80.000000] 0.884224 0.000000 0.000000 -0.467063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7237D018, 0x7237D019, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7237D018, 0x7237D01A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7237D018, 0x7237D01B, '2019-02-10 00:00:00') /* Bones */
-     , (0x7237D018, 0x7237D01C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7237D018, 0x7237D019, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7237D018, 0x7237D01A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7237D018, 0x7237D01B, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7237D018, 0x7237D01C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7237D019,  8646, 0x237D0026, 100.4371, 131.6232, 80, 0.8842238, 0, 0, -0.4670634,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

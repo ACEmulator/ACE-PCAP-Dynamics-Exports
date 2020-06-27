@@ -5,18 +5,18 @@ VALUES (0x716B3001,  1154, 0x16B3000F, 30.47121, 149.4304, 22.53289, -0.8053736,
 /* @teleloc 0x16B3000F [30.471210 149.430400 22.532890] -0.805374 0.000000 0.000000 -0.592768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B3001, 0x716B3002, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x716B3001, 0x716B3003, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x716B3001, 0x716B3004, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x716B3001, 0x716B3005, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x716B3001, 0x716B3006, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x716B3001, 0x716B3007, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x716B3001, 0x716B3008, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x716B3001, 0x716B3009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x716B3001, 0x716B300A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x716B3001, 0x716B300B, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x716B3001, 0x716B300C, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x716B3001, 0x716B300D, '2019-02-10 00:00:00') /* Carenzi Sentry */;
+VALUES (0x716B3001, 0x716B3002, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x716B3001, 0x716B3003, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x716B3001, 0x716B3004, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x716B3001, 0x716B3005, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x716B3001, 0x716B3006, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x716B3001, 0x716B3007, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x716B3001, 0x716B3008, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x716B3001, 0x716B3009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x716B3001, 0x716B300A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x716B3001, 0x716B300B, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x716B3001, 0x716B300C, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x716B3001, 0x716B300D, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B3002, 11490, 0x16B3000F, 30.47121, 149.4304, 22.53289, -0.8053736, 0, 0, -0.5927675,  True, '2019-02-10 00:00:00'); /* Tidal Siraluun */
@@ -71,7 +71,7 @@ VALUES (0x716B300E,  1542, 0x16B30007, 14.01831, 155.8574, 21.16188, -0.8053736,
 /* @teleloc 0x16B30007 [14.018310 155.857400 21.161880] -0.805374 0.000000 0.000000 -0.592768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x716B300E, 0x716B300F, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator */;
+VALUES (0x716B300E, 0x716B300F, '2019-02-10 00:00:00') /* Carenzi Sentry Camp Generator (11567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x716B300F, 11567, 0x16B30007, 14.01831, 155.8574, 21.16188, -0.8053736, 0, 0, -0.5927675,  True, '2019-02-10 00:00:00'); /* Carenzi Sentry Camp Generator */

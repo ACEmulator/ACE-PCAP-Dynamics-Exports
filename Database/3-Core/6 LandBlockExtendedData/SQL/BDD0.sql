@@ -9,91 +9,91 @@ VALUES (0x7BDD0001,  1154, 0xBDD0002D, 128.4555, 98.34673, 122.7146, -0.7523817,
 /* @teleloc 0xBDD0002D [128.455500 98.346730 122.714600] -0.752382 0.000000 0.000000 -0.658728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD0001, 0x7BDD0002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD0003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD0004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7BDD0001, 0x7BDD0007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDD0001, 0x7BDD0008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDD0001, 0x7BDD0009, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7BDD0001, 0x7BDD000A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD000B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDD0001, 0x7BDD000C, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7BDD0001, 0x7BDD000D, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7BDD0001, 0x7BDD000E, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD000F, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BDD0001, 0x7BDD0010, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0011, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BDD0001, 0x7BDD0013, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDD0001, 0x7BDD0014, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDD0001, 0x7BDD0015, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDD0001, 0x7BDD0016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD0001, 0x7BDD0017, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BDD0001, 0x7BDD0018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0019, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BDD0001, 0x7BDD001A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDD0001, 0x7BDD001B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD001C, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD001D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD001E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD001F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD0020, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0021, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0022, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD0023, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7BDD0001, 0x7BDD0024, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BDD0001, 0x7BDD0025, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BDD0001, 0x7BDD0026, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0027, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BDD0001, 0x7BDD0028, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BDD0001, 0x7BDD0029, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BDD0001, 0x7BDD002A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDD0001, 0x7BDD002B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD002C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDD0001, 0x7BDD002D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BDD0001, 0x7BDD002E, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BDD0001, 0x7BDD002F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7BDD0001, 0x7BDD0030, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BDD0001, 0x7BDD0031, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD0032, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BDD0001, 0x7BDD0033, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7BDD0001, 0x7BDD0034, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7BDD0001, 0x7BDD0035, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0036, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0037, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0038, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD0039, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x7BDD0001, 0x7BDD003A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BDD0001, 0x7BDD003B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BDD0001, 0x7BDD003C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDD0001, 0x7BDD003D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BDD0001, 0x7BDD003E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7BDD0001, 0x7BDD003F, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BDD0001, 0x7BDD0040, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0041, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD0042, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDD0001, 0x7BDD0043, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD0001, 0x7BDD0044, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD0001, 0x7BDD0045, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD0001, 0x7BDD0046, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDD0001, 0x7BDD0047, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BDD0001, 0x7BDD0048, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BDD0001, 0x7BDD0049, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BDD0001, 0x7BDD004A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7BDD0001, 0x7BDD004B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7BDD0001, 0x7BDD004C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BDD0001, 0x7BDD004D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BDD0001, 0x7BDD004E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BDD0001, 0x7BDD004F, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BDD0001, 0x7BDD0050, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BDD0001, 0x7BDD0051, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7BDD0001, 0x7BDD0052, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDD0001, 0x7BDD0053, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDD0001, 0x7BDD0054, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BDD0001, 0x7BDD0055, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BDD0001, 0x7BDD0056, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x7BDD0001, 0x7BDD0002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD0003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD0004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7BDD0001, 0x7BDD0007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDD0001, 0x7BDD0008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDD0001, 0x7BDD0009, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7BDD0001, 0x7BDD000A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD000B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDD0001, 0x7BDD000C, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7BDD0001, 0x7BDD000D, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7BDD0001, 0x7BDD000E, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD000F, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BDD0001, 0x7BDD0010, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0011, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD0001, 0x7BDD0013, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDD0001, 0x7BDD0014, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDD0001, 0x7BDD0015, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BDD0001, 0x7BDD0016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD0001, 0x7BDD0017, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BDD0001, 0x7BDD0018, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0019, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BDD0001, 0x7BDD001A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDD0001, 0x7BDD001B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD001C, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD001D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD001E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD001F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD0020, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0021, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0022, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD0023, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7BDD0001, 0x7BDD0024, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BDD0001, 0x7BDD0025, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BDD0001, 0x7BDD0026, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0027, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BDD0001, 0x7BDD0028, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BDD0001, 0x7BDD0029, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BDD0001, 0x7BDD002A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDD0001, 0x7BDD002B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD002C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDD0001, 0x7BDD002D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BDD0001, 0x7BDD002E, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BDD0001, 0x7BDD002F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7BDD0001, 0x7BDD0030, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BDD0001, 0x7BDD0031, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD0032, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BDD0001, 0x7BDD0033, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7BDD0001, 0x7BDD0034, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7BDD0001, 0x7BDD0035, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0036, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0037, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0038, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD0039, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x7BDD0001, 0x7BDD003A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BDD0001, 0x7BDD003B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BDD0001, 0x7BDD003C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDD0001, 0x7BDD003D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BDD0001, 0x7BDD003E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7BDD0001, 0x7BDD003F, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BDD0001, 0x7BDD0040, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0041, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD0042, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDD0001, 0x7BDD0043, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD0001, 0x7BDD0044, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD0001, 0x7BDD0045, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD0001, 0x7BDD0046, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDD0001, 0x7BDD0047, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BDD0001, 0x7BDD0048, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BDD0001, 0x7BDD0049, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BDD0001, 0x7BDD004A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7BDD0001, 0x7BDD004B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7BDD0001, 0x7BDD004C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BDD0001, 0x7BDD004D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BDD0001, 0x7BDD004E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BDD0001, 0x7BDD004F, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BDD0001, 0x7BDD0050, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BDD0001, 0x7BDD0051, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7BDD0001, 0x7BDD0052, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDD0001, 0x7BDD0053, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDD0001, 0x7BDD0054, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BDD0001, 0x7BDD0055, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BDD0001, 0x7BDD0056, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD0002, 38177, 0xBDD0002D, 128.4555, 98.34673, 122.7146, -0.7523817, 0, 0, -0.6587275,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -440,15 +440,15 @@ VALUES (0x7BDD0057,  1542, 0xBDD00035, 161.7569, 117.309, 125.4797, -0.3004993, 
 /* @teleloc 0xBDD00035 [161.756900 117.309000 125.479700] -0.300499 0.000000 0.000000 -0.953782 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD0057, 0x7BDD0058, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BDD0057, 0x7BDD0059, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7BDD0057, 0x7BDD005A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BDD0057, 0x7BDD005B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BDD0057, 0x7BDD005C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BDD0057, 0x7BDD005D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BDD0057, 0x7BDD005E, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BDD0057, 0x7BDD005F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BDD0057, 0x7BDD0060, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BDD0057, 0x7BDD0058, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BDD0057, 0x7BDD0059, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7BDD0057, 0x7BDD005A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD0057, 0x7BDD005B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BDD0057, 0x7BDD005C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BDD0057, 0x7BDD005D, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7BDD0057, 0x7BDD005E, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BDD0057, 0x7BDD005F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BDD0057, 0x7BDD0060, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD0058,  8648, 0xBDD00035, 161.7569, 117.309, 125.4797, -0.3004993, 0, 0, -0.953782,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

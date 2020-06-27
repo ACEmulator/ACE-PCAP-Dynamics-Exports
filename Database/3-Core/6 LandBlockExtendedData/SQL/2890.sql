@@ -5,12 +5,12 @@ VALUES (0x72890001,  1154, 0x2890003B, 169.2504, 63.14685, 30.01, 0.9238795, 0, 
 /* @teleloc 0x2890003B [169.250400 63.146850 30.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72890001, 0x72890002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72890001, 0x72890003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72890001, 0x72890004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72890001, 0x72890005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72890001, 0x72890006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72890001, 0x72890007, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x72890001, 0x72890002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72890001, 0x72890003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72890001, 0x72890004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72890001, 0x72890005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72890001, 0x72890006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72890001, 0x72890007, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72890002, 24497, 0x2890003B, 169.2504, 63.14685, 30.01, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -41,8 +41,8 @@ VALUES (0x72890008,  1542, 0x28900014, 52.45886, 76.4099, 30, 1, 0, 0, 0, False,
 /* @teleloc 0x28900014 [52.458860 76.409900 30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72890008, 0x72890009, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72890008, 0x7289000A, '2019-02-10 00:00:00') /* Uziz Portal */;
+VALUES (0x72890008, 0x72890009, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x72890008, 0x7289000A, '2019-02-10 00:00:00') /* Uziz Portal (42821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72890009, 22567, 0x28900014, 52.45886, 76.4099, 30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

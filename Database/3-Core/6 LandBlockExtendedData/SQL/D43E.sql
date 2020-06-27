@@ -5,20 +5,20 @@ VALUES (0x7D43E001,  1154, 0xD43E0001, 20.0738, 7.26928, 520.0026, -0.5196328, 0
 /* @teleloc 0xD43E0001 [20.073800 7.269280 520.002600] -0.519633 0.000000 0.000000 0.854390 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D43E001, 0x7D43E002, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E003, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E004, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7D43E001, 0x7D43E005, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E006, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E007, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E008, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7D43E001, 0x7D43E009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D43E001, 0x7D43E00A, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D43E001, 0x7D43E00B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D43E001, 0x7D43E00C, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D43E001, 0x7D43E00D, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D43E001, 0x7D43E00E, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D43E001, 0x7D43E00F, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7D43E001, 0x7D43E002, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E003, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E004, '2019-02-10 00:00:00') /* Exploration Marker (39782) */
+     , (0x7D43E001, 0x7D43E005, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E006, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E007, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E008, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D43E001, 0x7D43E009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D43E001, 0x7D43E00A, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D43E001, 0x7D43E00B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D43E001, 0x7D43E00C, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D43E001, 0x7D43E00D, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D43E001, 0x7D43E00E, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D43E001, 0x7D43E00F, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D43E002,  7992, 0xD43E0001, 20.0738, 7.26928, 520.0026, -0.5196328, 0, 0, 0.8543897,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */

@@ -5,13 +5,13 @@ VALUES (0x758CA001,  1154, 0x58CA0032, 166.393, 40.80763, 83.54105, 0.9238795, 0
 /* @teleloc 0x58CA0032 [166.393000 40.807630 83.541050] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758CA001, 0x758CA002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758CA001, 0x758CA003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x758CA001, 0x758CA004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758CA001, 0x758CA005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758CA001, 0x758CA006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x758CA001, 0x758CA007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x758CA001, 0x758CA008, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x758CA001, 0x758CA002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758CA001, 0x758CA003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x758CA001, 0x758CA004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758CA001, 0x758CA005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758CA001, 0x758CA006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x758CA001, 0x758CA007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x758CA001, 0x758CA008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758CA002, 10807, 0x58CA0032, 166.393, 40.80763, 83.54105, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -46,7 +46,7 @@ VALUES (0x758CA009,  1542, 0x58CA001C, 73.22391, 75.43597, 66.03065, -0.9772373,
 /* @teleloc 0x58CA001C [73.223910 75.435970 66.030650] -0.977237 0.000000 0.000000 -0.212149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758CA009, 0x758CA00A, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x758CA009, 0x758CA00A, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758CA00A, 31687, 0x58CA001C, 73.22391, 75.43597, 66.03065, -0.9772373, 0, 0, -0.2121491,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

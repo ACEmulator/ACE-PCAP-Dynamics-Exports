@@ -5,15 +5,15 @@ VALUES (0x7AB50001,  1154, 0xAB500040, 171.8687, 191.5446, 42.0014, 1, 0, 0, 0, 
 /* @teleloc 0xAB500040 [171.868700 191.544600 42.001400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB50001, 0x7AB50002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AB50001, 0x7AB50003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB50001, 0x7AB50004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB50001, 0x7AB50005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AB50001, 0x7AB50006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AB50001, 0x7AB50007, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AB50001, 0x7AB50008, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AB50001, 0x7AB50009, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AB50001, 0x7AB5000A, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x7AB50001, 0x7AB50002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AB50001, 0x7AB50003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB50001, 0x7AB50004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB50001, 0x7AB50005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AB50001, 0x7AB50006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AB50001, 0x7AB50007, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AB50001, 0x7AB50008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AB50001, 0x7AB50009, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AB50001, 0x7AB5000A, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB50002,    18, 0xAB500040, 171.8687, 191.5446, 42.0014, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */

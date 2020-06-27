@@ -5,10 +5,10 @@ VALUES (0x747BA001,  1154, 0x47BA003C, 189.0572, 91.05968, 38.80697, -0.5017382,
 /* @teleloc 0x47BA003C [189.057200 91.059680 38.806970] -0.501738 0.000000 0.000000 -0.865020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747BA001, 0x747BA002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x747BA001, 0x747BA003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x747BA001, 0x747BA004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x747BA001, 0x747BA005, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x747BA001, 0x747BA002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x747BA001, 0x747BA003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x747BA001, 0x747BA004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x747BA001, 0x747BA005, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747BA002, 24293, 0x47BA003C, 189.0572, 91.05968, 38.80697, -0.5017382, 0, 0, -0.8650195,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -31,7 +31,7 @@ VALUES (0x747BA006,  1542, 0x47BA0035, 156.3106, 111.0373, 56.54171, 0.9238795, 
 /* @teleloc 0x47BA0035 [156.310600 111.037300 56.541710] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747BA006, 0x747BA007, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x747BA006, 0x747BA007, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747BA007,  4180, 0x47BA0035, 156.3106, 111.0373, 56.54171, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

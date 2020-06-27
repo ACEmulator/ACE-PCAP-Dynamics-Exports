@@ -5,11 +5,11 @@ VALUES (0x7927D001,  1154, 0x927D0031, 163.2129, 17.61969, 34.00715, 0.1877715, 
 /* @teleloc 0x927D0031 [163.212900 17.619690 34.007150] 0.187772 0.000000 0.000000 -0.982213 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7927D001, 0x7927D002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7927D001, 0x7927D003, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7927D001, 0x7927D004, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7927D001, 0x7927D005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7927D001, 0x7927D006, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7927D001, 0x7927D002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7927D001, 0x7927D003, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7927D001, 0x7927D004, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7927D001, 0x7927D005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7927D001, 0x7927D006, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7927D002,   938, 0x927D0031, 163.2129, 17.61969, 34.00715, 0.1877715, 0, 0, -0.9822127,  True, '2019-02-10 00:00:00'); /* Banderling Raider */

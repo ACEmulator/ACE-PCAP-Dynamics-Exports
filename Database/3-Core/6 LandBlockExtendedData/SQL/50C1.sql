@@ -5,14 +5,14 @@ VALUES (0x750C1001,  1154, 0x50C10025, 98.36403, 100.7593, 5.407587, 0.9537169, 
 /* @teleloc 0x50C10025 [98.364030 100.759300 5.407587] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750C1001, 0x750C1002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x750C1001, 0x750C1003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x750C1001, 0x750C1004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x750C1001, 0x750C1005, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x750C1001, 0x750C1006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x750C1001, 0x750C1007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x750C1001, 0x750C1008, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x750C1001, 0x750C1009, '2019-02-10 00:00:00') /* Mosswart Clinger */;
+VALUES (0x750C1001, 0x750C1002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x750C1001, 0x750C1003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x750C1001, 0x750C1004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x750C1001, 0x750C1005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x750C1001, 0x750C1006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x750C1001, 0x750C1007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x750C1001, 0x750C1008, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x750C1001, 0x750C1009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750C1002,  7109, 0x50C10025, 98.36403, 100.7593, 5.407587, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -51,7 +51,7 @@ VALUES (0x750C100A,  1542, 0x50C1001F, 75.40907, 151.9905, -0.089, 0.04620976, 0
 /* @teleloc 0x50C1001F [75.409070 151.990500 -0.089000] 0.046210 0.000000 0.000000 -0.998932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750C100A, 0x750C100B, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x750C100A, 0x750C100B, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750C100B, 31687, 0x50C1001F, 75.40907, 151.9905, -0.089, 0.04620976, 0, 0, -0.9989318,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

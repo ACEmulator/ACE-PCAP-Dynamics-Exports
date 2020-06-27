@@ -1737,10 +1737,10 @@ VALUES (0x784961B2,  1542, 0x84960135, 79.74263, 153.4295, 120.001, -0.3935604, 
 /* @teleloc 0x84960135 [79.742630 153.429500 120.001000] -0.393560 0.000000 0.000000 -0.919299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784961B2, 0x784961B3, '2019-02-10 00:00:00') /* Chainmail Gauntlets */
-     , (0x784961B2, 0x784961B4, '2019-02-10 00:00:00') /* Wedding Raiment */
-     , (0x784961B2, 0x784961B5, '2019-02-10 00:00:00') /* Aphus Sun Guard */
-     , (0x784961B2, 0x784961B6, '2019-02-10 00:00:00') /* Parchment */;
+VALUES (0x784961B2, 0x784961B3, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
+     , (0x784961B2, 0x784961B4, '2019-02-10 00:00:00') /* Wedding Raiment (15714) */
+     , (0x784961B2, 0x784961B5, '2019-02-10 00:00:00') /* Aphus Sun Guard (28069) */
+     , (0x784961B2, 0x784961B6, '2019-02-10 00:00:00') /* Parchment (365) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784961B3,    55, 0x84960135, 79.74263, 153.4295, 120.001, -0.3935604, 0, 0, -0.9192988,  True, '2019-02-10 00:00:00'); /* Chainmail Gauntlets */

@@ -5,14 +5,14 @@ VALUES (0x798C0001,  1154, 0x98C00019, 94.47449, 7.605272, 70.19736, -0.2154428,
 /* @teleloc 0x98C00019 [94.474490 7.605272 70.197360] -0.215443 0.000000 0.000000 -0.976517 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798C0001, 0x798C0002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x798C0001, 0x798C0003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x798C0001, 0x798C0004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x798C0001, 0x798C0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x798C0001, 0x798C0006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x798C0001, 0x798C0007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x798C0001, 0x798C0008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x798C0001, 0x798C0009, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x798C0001, 0x798C0002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x798C0001, 0x798C0003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x798C0001, 0x798C0004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x798C0001, 0x798C0005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x798C0001, 0x798C0006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x798C0001, 0x798C0007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x798C0001, 0x798C0008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x798C0001, 0x798C0009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798C0002, 22010, 0x98C00019, 94.47449, 7.605272, 70.19736, -0.2154428, 0, 0, -0.9765165,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

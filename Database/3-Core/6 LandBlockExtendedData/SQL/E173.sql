@@ -5,17 +5,17 @@ VALUES (0x7E173001,  1154, 0xE1730013, 54.46804, 62.7934, -0.8925, 0.9238795, 0,
 /* @teleloc 0xE1730013 [54.468040 62.793400 -0.892500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E173001, 0x7E173002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E173001, 0x7E173003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E173001, 0x7E173004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7E173001, 0x7E173005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7E173001, 0x7E173006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E173001, 0x7E173007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E173001, 0x7E173008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E173001, 0x7E173009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E173001, 0x7E17300A, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7E173001, 0x7E17300B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7E173001, 0x7E17300C, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x7E173001, 0x7E173002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E173001, 0x7E173003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E173001, 0x7E173004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7E173001, 0x7E173005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7E173001, 0x7E173006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E173001, 0x7E173007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E173001, 0x7E173008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7E173001, 0x7E173009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E173001, 0x7E17300A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7E173001, 0x7E17300B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7E173001, 0x7E17300C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E173002,  7124, 0xE1730013, 54.46804, 62.7934, -0.8925, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */

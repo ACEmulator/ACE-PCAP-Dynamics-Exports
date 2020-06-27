@@ -101,71 +101,71 @@ VALUES (0x701ED07C,  1154, 0x01ED030D, 108.262, -58.9045, 12.01, 0.197543, 0, 0,
 /* @teleloc 0x01ED030D [108.262000 -58.904500 12.010000] 0.197543 0.000000 0.000000 -0.980294 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED07C, 0x701ED07D, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED07E, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED07F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED080, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701ED07C, 0x701ED081, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701ED07C, 0x701ED082, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701ED07C, 0x701ED083, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x701ED07C, 0x701ED084, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED085, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED086, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701ED07C, 0x701ED087, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED088, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED089, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED08A, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED08B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED08C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701ED07C, 0x701ED08D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED08E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED08F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED090, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x701ED07C, 0x701ED091, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701ED07C, 0x701ED092, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED093, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED094, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED095, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED096, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED097, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED098, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED099, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED09A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701ED07C, 0x701ED09B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED09C, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x701ED07C, 0x701ED09D, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x701ED07C, 0x701ED09E, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED09F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0A0, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0A1, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED0A2, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED0A3, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0A4, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED0A5, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0A6, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED0A7, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x701ED07C, 0x701ED0A8, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0A9, '2019-02-10 00:00:00') /* Mosswart Chief */
-     , (0x701ED07C, 0x701ED0AA, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED0AB, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED0AC, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED0AD, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED0AE, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED0AF, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701ED07C, 0x701ED0B0, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x701ED07C, 0x701ED0B1, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED0B2, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x701ED07C, 0x701ED0B3, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x701ED07C, 0x701ED0B4, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x701ED07C, 0x701ED0B5, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x701ED07C, 0x701ED0B6, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0B7, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0B8, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x701ED07C, 0x701ED0B9, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x701ED07C, 0x701ED0BA, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x701ED07C, 0x701ED0BB, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x701ED07C, 0x701ED0BC, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x701ED07C, 0x701ED0BD, '2019-02-10 00:00:00') /* Brown Rat */;
+VALUES (0x701ED07C, 0x701ED07D, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED07E, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED07F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED080, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED07C, 0x701ED081, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED07C, 0x701ED082, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED07C, 0x701ED083, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x701ED07C, 0x701ED084, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED085, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED086, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701ED07C, 0x701ED087, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED088, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED089, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED08A, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED08B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED08C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701ED07C, 0x701ED08D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED08E, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED08F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED090, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x701ED07C, 0x701ED091, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701ED07C, 0x701ED092, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED093, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED094, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED095, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED096, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED097, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED098, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED099, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED09A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701ED07C, 0x701ED09B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED09C, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x701ED07C, 0x701ED09D, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x701ED07C, 0x701ED09E, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED09F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0A0, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0A1, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED0A2, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED0A3, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0A4, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED0A5, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0A6, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED0A7, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x701ED07C, 0x701ED0A8, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0A9, '2019-02-10 00:00:00') /* Mosswart Chief (210) */
+     , (0x701ED07C, 0x701ED0AA, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED0AB, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED0AC, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED0AD, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED0AE, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED0AF, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701ED07C, 0x701ED0B0, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x701ED07C, 0x701ED0B1, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED0B2, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x701ED07C, 0x701ED0B3, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x701ED07C, 0x701ED0B4, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x701ED07C, 0x701ED0B5, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x701ED07C, 0x701ED0B6, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0B7, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0B8, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x701ED07C, 0x701ED0B9, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x701ED07C, 0x701ED0BA, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x701ED07C, 0x701ED0BB, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x701ED07C, 0x701ED0BC, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x701ED07C, 0x701ED0BD, '2019-02-10 00:00:00') /* Brown Rat (220) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED07D,   219, 0x01ED030D, 108.262, -58.9045, 12.01, 0.197543, 0, 0, -0.980294,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -432,76 +432,76 @@ VALUES (0x701ED0BE,  1542, 0x01ED02AE, 101.8864, -52.54446, 0, -4.37114E-08, 0, 
 /* @teleloc 0x01ED02AE [101.886400 -52.544460 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701ED0BE, 0x701ED0BF, '2019-02-10 00:00:00') /* Egg */
-     , (0x701ED0BE, 0x701ED0C0, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701ED0BE, 0x701ED0C1, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0C2, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0C3, '2019-02-10 00:00:00') /* Assagai */
-     , (0x701ED0BE, 0x701ED0C4, '2019-02-10 00:00:00') /* Chainmail Hauberk */
-     , (0x701ED0BE, 0x701ED0C5, '2019-02-10 00:00:00') /* Flaming Quarter Staff */
-     , (0x701ED0BE, 0x701ED0C6, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0C7, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0C8, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0C9, '2019-02-10 00:00:00') /* Egg */
-     , (0x701ED0BE, 0x701ED0CA, '2019-02-10 00:00:00') /* Fish */
-     , (0x701ED0BE, 0x701ED0CB, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0CC, '2019-02-10 00:00:00') /* Scroll of Endurance Other II */
-     , (0x701ED0BE, 0x701ED0CD, '2019-02-10 00:00:00') /* Parchment */
-     , (0x701ED0BE, 0x701ED0CE, '2019-02-10 00:00:00') /* Flaming Corsesca */
-     , (0x701ED0BE, 0x701ED0CF, '2019-02-10 00:00:00') /* Scroll of Strengthen Lock IV */
-     , (0x701ED0BE, 0x701ED0D0, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0D1, '2019-02-10 00:00:00') /* Fish */
-     , (0x701ED0BE, 0x701ED0D2, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0D3, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x701ED0BE, 0x701ED0D4, '2019-02-10 00:00:00') /* Gem */
-     , (0x701ED0BE, 0x701ED0D5, '2019-02-10 00:00:00') /* Gem */
-     , (0x701ED0BE, 0x701ED0D6, '2019-02-10 00:00:00') /* Fish */
-     , (0x701ED0BE, 0x701ED0D7, '2019-02-10 00:00:00') /* Steak */
-     , (0x701ED0BE, 0x701ED0D8, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0D9, '2019-02-10 00:00:00') /* Chainmail Sleeves */
-     , (0x701ED0BE, 0x701ED0DA, '2019-02-10 00:00:00') /* Scroll of Purge Life Magic Self */
-     , (0x701ED0BE, 0x701ED0DB, '2019-02-10 00:00:00') /* Scroll of Feeblemind Other III */
-     , (0x701ED0BE, 0x701ED0DC, '2019-02-10 00:00:00') /* Studded Leather Greaves */
-     , (0x701ED0BE, 0x701ED0DD, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0DE, '2019-02-10 00:00:00') /* Egg */
-     , (0x701ED0BE, 0x701ED0DF, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0E0, '2019-02-10 00:00:00') /* Egg */
-     , (0x701ED0BE, 0x701ED0E1, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0E2, '2019-02-10 00:00:00') /* Scroll of Armor Self IV */
-     , (0x701ED0BE, 0x701ED0E3, '2019-02-10 00:00:00') /* Flaming Dericost Blade */
-     , (0x701ED0BE, 0x701ED0E4, '2019-02-10 00:00:00') /* Steak */
-     , (0x701ED0BE, 0x701ED0E5, '2019-02-10 00:00:00') /* Gem */
-     , (0x701ED0BE, 0x701ED0E6, '2019-02-10 00:00:00') /* Gloves */
-     , (0x701ED0BE, 0x701ED0E7, '2019-02-10 00:00:00') /* Ring */
-     , (0x701ED0BE, 0x701ED0E8, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0E9, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0EA, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0EB, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0EC, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x701ED0BE, 0x701ED0ED, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0EE, '2019-02-10 00:00:00') /* Lightning Lugian Hammer */
-     , (0x701ED0BE, 0x701ED0EF, '2019-02-10 00:00:00') /* Khanjar */
-     , (0x701ED0BE, 0x701ED0F0, '2019-02-10 00:00:00') /* Leather Greaves */
-     , (0x701ED0BE, 0x701ED0F1, '2019-02-10 00:00:00') /* Gem */
-     , (0x701ED0BE, 0x701ED0F2, '2019-02-10 00:00:00') /* Apple */
-     , (0x701ED0BE, 0x701ED0F3, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0F4, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0F5, '2019-02-10 00:00:00') /* Scroll of Endurance Self IV */
-     , (0x701ED0BE, 0x701ED0F6, '2019-02-10 00:00:00') /* Staff */
-     , (0x701ED0BE, 0x701ED0F7, '2019-02-10 00:00:00') /* Armet */
-     , (0x701ED0BE, 0x701ED0F8, '2019-02-10 00:00:00') /* Circlet */
-     , (0x701ED0BE, 0x701ED0F9, '2019-02-10 00:00:00') /* Cheese */
-     , (0x701ED0BE, 0x701ED0FA, '2019-02-10 00:00:00') /* Grapes */
-     , (0x701ED0BE, 0x701ED0FB, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0FC, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x701ED0BE, 0x701ED0FD, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED0FE, '2019-02-10 00:00:00') /* Scroll of Leadership Mastery Self V */
-     , (0x701ED0BE, 0x701ED0FF, '2019-02-10 00:00:00') /* Ring */
-     , (0x701ED0BE, 0x701ED100, '2019-02-10 00:00:00') /* Leather Bracers */
-     , (0x701ED0BE, 0x701ED101, '2019-02-10 00:00:00') /* Tower Shield */
-     , (0x701ED0BE, 0x701ED102, '2019-02-10 00:00:00') /* Bread */
-     , (0x701ED0BE, 0x701ED103, '2019-02-10 00:00:00') /* Egg */
-     , (0x701ED0BE, 0x701ED104, '2019-02-10 00:00:00') /* Cheese */;
+VALUES (0x701ED0BE, 0x701ED0BF, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701ED0BE, 0x701ED0C0, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701ED0BE, 0x701ED0C1, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0C2, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0C3, '2019-02-10 00:00:00') /* Assagai (41036) */
+     , (0x701ED0BE, 0x701ED0C4, '2019-02-10 00:00:00') /* Chainmail Hauberk (71) */
+     , (0x701ED0BE, 0x701ED0C5, '2019-02-10 00:00:00') /* Flaming Quarter Staff (22166) */
+     , (0x701ED0BE, 0x701ED0C6, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0C7, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0C8, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0C9, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701ED0BE, 0x701ED0CA, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701ED0BE, 0x701ED0CB, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0CC, '2019-02-10 00:00:00') /* Scroll of Endurance Other II (2654) */
+     , (0x701ED0BE, 0x701ED0CD, '2019-02-10 00:00:00') /* Parchment (365) */
+     , (0x701ED0BE, 0x701ED0CE, '2019-02-10 00:00:00') /* Flaming Corsesca (40821) */
+     , (0x701ED0BE, 0x701ED0CF, '2019-02-10 00:00:00') /* Scroll of Strengthen Lock IV (2879) */
+     , (0x701ED0BE, 0x701ED0D0, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0D1, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701ED0BE, 0x701ED0D2, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0D3, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x701ED0BE, 0x701ED0D4, '2019-02-10 00:00:00') /* Gem (2401) */
+     , (0x701ED0BE, 0x701ED0D5, '2019-02-10 00:00:00') /* Gem (2397) */
+     , (0x701ED0BE, 0x701ED0D6, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x701ED0BE, 0x701ED0D7, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x701ED0BE, 0x701ED0D8, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0D9, '2019-02-10 00:00:00') /* Chainmail Sleeves (101) */
+     , (0x701ED0BE, 0x701ED0DA, '2019-02-10 00:00:00') /* Scroll of Purge Life Magic Self (20400) */
+     , (0x701ED0BE, 0x701ED0DB, '2019-02-10 00:00:00') /* Scroll of Feeblemind Other III (2670) */
+     , (0x701ED0BE, 0x701ED0DC, '2019-02-10 00:00:00') /* Studded Leather Greaves (68) */
+     , (0x701ED0BE, 0x701ED0DD, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0DE, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701ED0BE, 0x701ED0DF, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0E0, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701ED0BE, 0x701ED0E1, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0E2, '2019-02-10 00:00:00') /* Scroll of Armor Self IV (4392) */
+     , (0x701ED0BE, 0x701ED0E3, '2019-02-10 00:00:00') /* Flaming Dericost Blade (31762) */
+     , (0x701ED0BE, 0x701ED0E4, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x701ED0BE, 0x701ED0E5, '2019-02-10 00:00:00') /* Gem (2425) */
+     , (0x701ED0BE, 0x701ED0E6, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x701ED0BE, 0x701ED0E7, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x701ED0BE, 0x701ED0E8, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0E9, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0EA, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0EB, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0EC, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x701ED0BE, 0x701ED0ED, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0EE, '2019-02-10 00:00:00') /* Lightning Lugian Hammer (31766) */
+     , (0x701ED0BE, 0x701ED0EF, '2019-02-10 00:00:00') /* Khanjar (45431) */
+     , (0x701ED0BE, 0x701ED0F0, '2019-02-10 00:00:00') /* Leather Greaves (25644) */
+     , (0x701ED0BE, 0x701ED0F1, '2019-02-10 00:00:00') /* Gem (2420) */
+     , (0x701ED0BE, 0x701ED0F2, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x701ED0BE, 0x701ED0F3, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0F4, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0F5, '2019-02-10 00:00:00') /* Scroll of Endurance Self IV (2661) */
+     , (0x701ED0BE, 0x701ED0F6, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x701ED0BE, 0x701ED0F7, '2019-02-10 00:00:00') /* Armet (8488) */
+     , (0x701ED0BE, 0x701ED0F8, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x701ED0BE, 0x701ED0F9, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701ED0BE, 0x701ED0FA, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701ED0BE, 0x701ED0FB, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0FC, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x701ED0BE, 0x701ED0FD, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED0FE, '2019-02-10 00:00:00') /* Scroll of Leadership Mastery Self V (3361) */
+     , (0x701ED0BE, 0x701ED0FF, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x701ED0BE, 0x701ED100, '2019-02-10 00:00:00') /* Leather Bracers (25637) */
+     , (0x701ED0BE, 0x701ED101, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x701ED0BE, 0x701ED102, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701ED0BE, 0x701ED103, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x701ED0BE, 0x701ED104, '2019-02-10 00:00:00') /* Cheese (261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701ED0BF,   546, 0x01ED02AE, 101.8864, -52.54446, 0, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Egg */

@@ -5,10 +5,10 @@ VALUES (0x7A2BA001,  1154, 0xA2BA0035, 158.0805, 98.66473, 47.33715, -0.8054, 0,
 /* @teleloc 0xA2BA0035 [158.080500 98.664730 47.337150] -0.805400 0.000000 0.000000 -0.592732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2BA001, 0x7A2BA002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A2BA001, 0x7A2BA003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A2BA001, 0x7A2BA004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A2BA001, 0x7A2BA005, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7A2BA001, 0x7A2BA002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A2BA001, 0x7A2BA003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A2BA001, 0x7A2BA004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A2BA001, 0x7A2BA005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2BA002,   193, 0xA2BA0035, 158.0805, 98.66473, 47.33715, -0.8054, 0, 0, -0.5927317,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

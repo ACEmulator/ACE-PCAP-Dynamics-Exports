@@ -5,10 +5,10 @@ VALUES (0x7EA39001,  1154, 0xEA39003D, 187.3707, 104.4495, 69.09444, 0.9396926, 
 /* @teleloc 0xEA39003D [187.370700 104.449500 69.094440] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA39001, 0x7EA39002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7EA39001, 0x7EA39003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7EA39001, 0x7EA39004, '2019-02-10 00:00:00') /* Southern Black Claw Raider */
-     , (0x7EA39001, 0x7EA39005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7EA39001, 0x7EA39002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7EA39001, 0x7EA39003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7EA39001, 0x7EA39004, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
+     , (0x7EA39001, 0x7EA39005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA39002,  1609, 0xEA39003D, 187.3707, 104.4495, 69.09444, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -31,7 +31,7 @@ VALUES (0x7EA39006,  1542, 0xEA390005, 20.0673, 118.8416, 84.04912, -0.3034434, 
 /* @teleloc 0xEA390005 [20.067300 118.841600 84.049120] -0.303443 0.000000 0.000000 -0.952849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA39006, 0x7EA39007, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7EA39006, 0x7EA39007, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA39007, 31686, 0xEA390005, 20.0673, 118.8416, 84.04912, -0.3034434, 0, 0, -0.9528494,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

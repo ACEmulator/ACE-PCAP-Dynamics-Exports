@@ -5,11 +5,11 @@ VALUES (0x71052001,  1154, 0x10520013, 59.43351, 67.64653, -0.871, 0.8853261, 0,
 /* @teleloc 0x10520013 [59.433510 67.646530 -0.871000] 0.885326 0.000000 0.000000 -0.464971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71052001, 0x71052002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71052001, 0x71052003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71052001, 0x71052004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71052001, 0x71052005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71052001, 0x71052006, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x71052001, 0x71052002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71052001, 0x71052003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71052001, 0x71052004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71052001, 0x71052005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71052001, 0x71052006, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71052002, 22914, 0x10520013, 59.43351, 67.64653, -0.871, 0.8853261, 0, 0, -0.4649706,  True, '2019-02-10 00:00:00'); /* Virindi Profane */

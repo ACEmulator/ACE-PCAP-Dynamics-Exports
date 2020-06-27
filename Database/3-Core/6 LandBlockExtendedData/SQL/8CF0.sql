@@ -5,14 +5,14 @@ VALUES (0x78CF0001,  1154, 0x8CF00020, 93.09844, 177.8237, 40.94956, -0.8797388,
 /* @teleloc 0x8CF00020 [93.098440 177.823700 40.949560] -0.879739 0.000000 0.000000 -0.475457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CF0001, 0x78CF0002, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CF0001, 0x78CF0003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CF0001, 0x78CF0004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x78CF0001, 0x78CF0005, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x78CF0001, 0x78CF0006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CF0001, 0x78CF0007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CF0001, 0x78CF0008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x78CF0001, 0x78CF0009, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x78CF0001, 0x78CF0002, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CF0001, 0x78CF0003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CF0001, 0x78CF0004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x78CF0001, 0x78CF0005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x78CF0001, 0x78CF0006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CF0001, 0x78CF0007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CF0001, 0x78CF0008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x78CF0001, 0x78CF0009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CF0002, 14800, 0x8CF00020, 93.09844, 177.8237, 40.94956, -0.8797388, 0, 0, -0.4754573,  True, '2019-02-10 00:00:00'); /* Crystal Golem */

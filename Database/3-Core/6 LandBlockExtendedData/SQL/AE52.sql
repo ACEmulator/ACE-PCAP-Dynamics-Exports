@@ -5,17 +5,17 @@ VALUES (0x7AE52001,  1154, 0xAE520037, 161.4438, 165.2869, 4.326255, 0.9238795, 
 /* @teleloc 0xAE520037 [161.443800 165.286900 4.326255] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE52001, 0x7AE52002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE52001, 0x7AE52003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AE52001, 0x7AE52004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE52001, 0x7AE52005, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7AE52001, 0x7AE52006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AE52001, 0x7AE52007, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AE52001, 0x7AE52008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AE52001, 0x7AE52009, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE52001, 0x7AE5200A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AE52001, 0x7AE5200B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE52001, 0x7AE5200C, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AE52001, 0x7AE52002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE52001, 0x7AE52003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AE52001, 0x7AE52004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE52001, 0x7AE52005, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7AE52001, 0x7AE52006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AE52001, 0x7AE52007, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AE52001, 0x7AE52008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AE52001, 0x7AE52009, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE52001, 0x7AE5200A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AE52001, 0x7AE5200B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE52001, 0x7AE5200C, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE52002,   226, 0xAE520037, 161.4438, 165.2869, 4.326255, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* High Tumerok */

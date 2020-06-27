@@ -5,8 +5,8 @@ VALUES (0x7B799001,  1154, 0xB799003D, 169.8706, 114.9307, 14.0035, -0.9490266, 
 /* @teleloc 0xB799003D [169.870600 114.930700 14.003500] -0.949027 0.000000 0.000000 -0.315196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B799001, 0x7B799002, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7B799001, 0x7B799003, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7B799001, 0x7B799002, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7B799001, 0x7B799003, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B799002,  1464, 0xB799003D, 169.8706, 114.9307, 14.0035, -0.9490266, 0, 0, -0.3151959,  True, '2019-02-10 00:00:00'); /* Drudge Robber */

@@ -5,11 +5,11 @@ VALUES (0x79782001,  1154, 0x97820036, 164.4112, 137.5946, 26.30907, -0.9905788,
 /* @teleloc 0x97820036 [164.411200 137.594600 26.309070] -0.990579 0.000000 0.000000 -0.136944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79782001, 0x79782002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79782001, 0x79782003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79782001, 0x79782004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79782001, 0x79782005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79782001, 0x79782006, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x79782001, 0x79782002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79782001, 0x79782003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79782001, 0x79782004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79782001, 0x79782005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79782001, 0x79782006, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79782002,   194, 0x97820036, 164.4112, 137.5946, 26.30907, -0.9905788, 0, 0, -0.1369438,  True, '2019-02-10 00:00:00'); /* Copper Golem */

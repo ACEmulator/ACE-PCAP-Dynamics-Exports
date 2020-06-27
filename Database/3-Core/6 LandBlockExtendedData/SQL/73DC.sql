@@ -5,8 +5,8 @@ VALUES (0x773DC001,  1154, 0x73DC001B, 83.34946, 59.01355, 256.007, 1, 0, 0, 0, 
 /* @teleloc 0x73DC001B [83.349460 59.013550 256.007000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773DC001, 0x773DC002, '2019-02-10 00:00:00') /* Hyem */
-     , (0x773DC001, 0x773DC003, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x773DC001, 0x773DC002, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x773DC001, 0x773DC003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773DC002, 14875, 0x73DC001B, 83.34946, 59.01355, 256.007, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hyem */

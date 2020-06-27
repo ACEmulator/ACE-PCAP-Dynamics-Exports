@@ -5,9 +5,9 @@ VALUES (0x78BA7001,  1154, 0x8BA70039, 190.8111, 15.70921, 79.22211, 0.7071068, 
 /* @teleloc 0x8BA70039 [190.811100 15.709210 79.222110] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BA7001, 0x78BA7002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78BA7001, 0x78BA7003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x78BA7001, 0x78BA7004, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x78BA7001, 0x78BA7002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78BA7001, 0x78BA7003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x78BA7001, 0x78BA7004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BA7002,  1627, 0x8BA70039, 190.8111, 15.70921, 79.22211, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -26,8 +26,8 @@ VALUES (0x78BA7005,  1542, 0x8BA7003A, 184.8896, 26.87096, 79.88596, 0.9990482, 
 /* @teleloc 0x8BA7003A [184.889600 26.870960 79.885960] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BA7005, 0x78BA7006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78BA7005, 0x78BA7007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78BA7005, 0x78BA7006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78BA7005, 0x78BA7007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BA7006,  4179, 0x8BA7003A, 184.8896, 26.87096, 79.88596, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

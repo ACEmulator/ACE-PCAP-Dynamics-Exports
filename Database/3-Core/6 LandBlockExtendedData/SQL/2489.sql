@@ -5,10 +5,10 @@ VALUES (0x72489001,  1154, 0x24890039, 191.2564, 12.92448, 248.6896, 0.1350192, 
 /* @teleloc 0x24890039 [191.256400 12.924480 248.689600] 0.135019 0.000000 0.000000 -0.990843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72489001, 0x72489002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72489001, 0x72489003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72489001, 0x72489004, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72489001, 0x72489005, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x72489001, 0x72489002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72489001, 0x72489003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72489001, 0x72489004, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72489001, 0x72489005, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72489002,  7982, 0x24890039, 191.2564, 12.92448, 248.6896, 0.1350192, 0, 0, -0.990843,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

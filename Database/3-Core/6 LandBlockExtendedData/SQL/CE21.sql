@@ -5,14 +5,14 @@ VALUES (0x7CE21001,  1154, 0xCE210006, 8.622988, 140.4783, 99.85925, -0.8102186,
 /* @teleloc 0xCE210006 [8.622988 140.478300 99.859250] -0.810219 0.000000 0.000000 -0.586128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE21001, 0x7CE21002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CE21001, 0x7CE21003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CE21001, 0x7CE21004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CE21001, 0x7CE21005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CE21001, 0x7CE21006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CE21001, 0x7CE21007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CE21001, 0x7CE21008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CE21001, 0x7CE21009, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7CE21001, 0x7CE21002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CE21001, 0x7CE21003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CE21001, 0x7CE21004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CE21001, 0x7CE21005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CE21001, 0x7CE21006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CE21001, 0x7CE21007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CE21001, 0x7CE21008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CE21001, 0x7CE21009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE21002, 11533, 0xCE210006, 8.622988, 140.4783, 99.85925, -0.8102186, 0, 0, -0.5861279,  True, '2019-02-10 00:00:00'); /* Azael Zefir */

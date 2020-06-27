@@ -5,8 +5,8 @@ VALUES (0x742DF001,  1154, 0x42DF0031, 145.1619, 3.841187, -0.004999995, 0.59240
 /* @teleloc 0x42DF0031 [145.161900 3.841187 -0.005000] 0.592403 0.000000 0.000000 -0.805642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742DF001, 0x742DF002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x742DF001, 0x742DF003, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x742DF001, 0x742DF002, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x742DF001, 0x742DF003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742DF002, 24290, 0x42DF0031, 145.1619, 3.841187, -0.004999995, 0.5924032, 0, 0, -0.8056416,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

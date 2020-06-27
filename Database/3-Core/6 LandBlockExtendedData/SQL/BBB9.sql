@@ -5,13 +5,13 @@ VALUES (0x7BBB9001,  1154, 0xBBB90032, 152.9172, 35.05723, 245.0361, -0.4985427,
 /* @teleloc 0xBBB90032 [152.917200 35.057230 245.036100] -0.498543 0.000000 0.000000 -0.866865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBB9001, 0x7BBB9002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BBB9001, 0x7BBB9003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BBB9001, 0x7BBB9004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BBB9001, 0x7BBB9005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BBB9001, 0x7BBB9006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BBB9001, 0x7BBB9007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7BBB9001, 0x7BBB9008, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7BBB9001, 0x7BBB9002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BBB9001, 0x7BBB9003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BBB9001, 0x7BBB9004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BBB9001, 0x7BBB9005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BBB9001, 0x7BBB9006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BBB9001, 0x7BBB9007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BBB9001, 0x7BBB9008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBB9002,  2582, 0xBBB90032, 152.9172, 35.05723, 245.0361, -0.4985427, 0, 0, -0.8668652,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

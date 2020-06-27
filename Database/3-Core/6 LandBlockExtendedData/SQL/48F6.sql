@@ -5,15 +5,15 @@ VALUES (0x748F6001,  1154, 0x48F60005, 22.72647, 118.568, 133.8191, -0.197362, 0
 /* @teleloc 0x48F60005 [22.726470 118.568000 133.819100] -0.197362 0.000000 0.000000 -0.980331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748F6001, 0x748F6002, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x748F6001, 0x748F6003, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x748F6001, 0x748F6004, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x748F6001, 0x748F6005, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x748F6001, 0x748F6006, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x748F6001, 0x748F6007, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x748F6001, 0x748F6008, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x748F6001, 0x748F6009, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x748F6001, 0x748F600A, '2019-02-10 00:00:00') /* Maniacal Fiun */;
+VALUES (0x748F6001, 0x748F6002, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x748F6001, 0x748F6003, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x748F6001, 0x748F6004, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x748F6001, 0x748F6005, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x748F6001, 0x748F6006, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x748F6001, 0x748F6007, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x748F6001, 0x748F6008, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x748F6001, 0x748F6009, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x748F6001, 0x748F600A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748F6002, 29303, 0x48F60005, 22.72647, 118.568, 133.8191, -0.197362, 0, 0, -0.9803307,  True, '2019-02-10 00:00:00'); /* Royal Thaumaturge */

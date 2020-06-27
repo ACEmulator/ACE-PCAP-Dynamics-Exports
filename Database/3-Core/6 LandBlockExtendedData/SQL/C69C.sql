@@ -5,8 +5,8 @@ VALUES (0x7C69C001,  1154, 0xC69C0026, 109.9473, 133.5918, 6.872348, -0.9999973,
 /* @teleloc 0xC69C0026 [109.947300 133.591800 6.872348] -0.999997 0.000000 0.000000 -0.002342 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C69C001, 0x7C69C002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7C69C001, 0x7C69C003, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7C69C001, 0x7C69C002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7C69C001, 0x7C69C003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C69C002,    10, 0xC69C0026, 109.9473, 133.5918, 6.872348, -0.9999973, 0, 0, -0.002341896,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

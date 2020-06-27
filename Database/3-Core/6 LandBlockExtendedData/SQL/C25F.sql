@@ -5,14 +5,14 @@ VALUES (0x7C25F001,  1154, 0xC25F003F, 186.2514, 153.5961, 6.0046, 0.3733187, 0,
 /* @teleloc 0xC25F003F [186.251400 153.596100 6.004600] 0.373319 0.000000 0.000000 -0.927703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C25F001, 0x7C25F002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C25F001, 0x7C25F003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C25F001, 0x7C25F004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C25F001, 0x7C25F005, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C25F001, 0x7C25F006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C25F001, 0x7C25F007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C25F001, 0x7C25F008, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C25F001, 0x7C25F009, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C25F001, 0x7C25F002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C25F001, 0x7C25F003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C25F001, 0x7C25F004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C25F001, 0x7C25F005, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C25F001, 0x7C25F006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C25F001, 0x7C25F007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C25F001, 0x7C25F008, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C25F001, 0x7C25F009, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C25F002,  4246, 0xC25F003F, 186.2514, 153.5961, 6.0046, 0.3733187, 0, 0, -0.9277031,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

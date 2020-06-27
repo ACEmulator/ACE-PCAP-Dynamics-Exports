@@ -5,17 +5,17 @@ VALUES (0x71CC6001,  1154, 0x1CC6000D, 29.28735, 102.6143, 0.02899998, 0.0646211
 /* @teleloc 0x1CC6000D [29.287350 102.614300 0.029000] 0.064621 0.000000 0.000000 -0.997910 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC6001, 0x71CC6002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71CC6001, 0x71CC6003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71CC6001, 0x71CC6004, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71CC6001, 0x71CC6005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x71CC6001, 0x71CC6006, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x71CC6001, 0x71CC6007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71CC6001, 0x71CC6008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71CC6001, 0x71CC6009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71CC6001, 0x71CC600A, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x71CC6001, 0x71CC600B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71CC6001, 0x71CC600C, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x71CC6001, 0x71CC6002, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71CC6001, 0x71CC6003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71CC6001, 0x71CC6004, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71CC6001, 0x71CC6005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x71CC6001, 0x71CC6006, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x71CC6001, 0x71CC6007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x71CC6001, 0x71CC6008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x71CC6001, 0x71CC6009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71CC6001, 0x71CC600A, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x71CC6001, 0x71CC600B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71CC6001, 0x71CC600C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC6002, 10954, 0x1CC6000D, 29.28735, 102.6143, 0.02899998, 0.06462117, 0, 0, -0.9979098,  True, '2019-02-10 00:00:00'); /* Virindi Executor */

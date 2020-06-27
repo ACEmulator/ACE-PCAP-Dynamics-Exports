@@ -5,35 +5,35 @@ VALUES (0x7CF50001,  1154, 0xCF500037, 148.937, 167.3107, 246.5363, 0.77269, 0, 
 /* @teleloc 0xCF500037 [148.937000 167.310700 246.536300] 0.772690 0.000000 0.000000 -0.634784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF50001, 0x7CF50002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7CF50001, 0x7CF50003, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50006, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF50009, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF50001, 0x7CF5000A, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x7CF50001, 0x7CF5000B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF50001, 0x7CF5000C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CF50001, 0x7CF5000D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CF50001, 0x7CF5000E, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7CF50001, 0x7CF5000F, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7CF50001, 0x7CF50010, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7CF50001, 0x7CF50011, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF50001, 0x7CF50012, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7CF50001, 0x7CF50013, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CF50001, 0x7CF50014, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF50001, 0x7CF50015, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF50001, 0x7CF50016, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7CF50001, 0x7CF50017, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CF50001, 0x7CF50018, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7CF50001, 0x7CF50019, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CF50001, 0x7CF5001A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CF50001, 0x7CF5001B, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF50001, 0x7CF5001C, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF50001, 0x7CF5001D, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CF50001, 0x7CF5001E, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7CF50001, 0x7CF50002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7CF50001, 0x7CF50003, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50006, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF50009, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF50001, 0x7CF5000A, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7CF50001, 0x7CF5000B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF50001, 0x7CF5000C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CF50001, 0x7CF5000D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CF50001, 0x7CF5000E, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CF50001, 0x7CF5000F, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7CF50001, 0x7CF50010, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7CF50001, 0x7CF50011, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF50001, 0x7CF50012, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7CF50001, 0x7CF50013, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CF50001, 0x7CF50014, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF50001, 0x7CF50015, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF50001, 0x7CF50016, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7CF50001, 0x7CF50017, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CF50001, 0x7CF50018, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7CF50001, 0x7CF50019, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CF50001, 0x7CF5001A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CF50001, 0x7CF5001B, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF50001, 0x7CF5001C, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF50001, 0x7CF5001D, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CF50001, 0x7CF5001E, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF50002,  8143, 0xCF500037, 148.937, 167.3107, 246.5363, 0.77269, 0, 0, -0.6347836,  True, '2019-02-10 00:00:00'); /* Amploth Raider */
@@ -156,7 +156,7 @@ VALUES (0x7CF5001F,  1542, 0xCF50002D, 125.0574, 101.638, 247.9032, 0.7071068, 0
 /* @teleloc 0xCF50002D [125.057400 101.638000 247.903200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF5001F, 0x7CF50020, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7CF5001F, 0x7CF50020, '2019-02-10 00:00:00') /* Snowman (9009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF50020,  9009, 0xCF50002D, 125.0574, 101.638, 247.9032, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

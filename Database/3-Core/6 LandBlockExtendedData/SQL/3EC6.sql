@@ -5,10 +5,10 @@ VALUES (0x73EC6001,  1154, 0x3EC60013, 68.55438, 71.70704, 13.73978, -0.8526117,
 /* @teleloc 0x3EC60013 [68.554380 71.707040 13.739780] -0.852612 0.000000 0.000000 -0.522545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EC6001, 0x73EC6002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73EC6001, 0x73EC6003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x73EC6001, 0x73EC6004, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73EC6001, 0x73EC6005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x73EC6001, 0x73EC6002, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73EC6001, 0x73EC6003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x73EC6001, 0x73EC6004, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x73EC6001, 0x73EC6005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EC6002, 24315, 0x3EC60013, 68.55438, 71.70704, 13.73978, -0.8526117, 0, 0, -0.522545,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

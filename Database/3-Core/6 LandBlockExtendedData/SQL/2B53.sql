@@ -5,38 +5,38 @@ VALUES (0x72B53001,  1154, 0x2B530012, 62.77089, 37.3059, 0.7790926, -0.02391508
 /* @teleloc 0x2B530012 [62.770890 37.305900 0.779093] -0.023915 0.000000 0.000000 -0.999714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B53001, 0x72B53002, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B53001, 0x72B53003, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x72B53001, 0x72B53004, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x72B53001, 0x72B53005, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72B53001, 0x72B53006, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B53007, '2019-02-10 00:00:00') /* Fallen Crystal Shard */
-     , (0x72B53001, 0x72B53008, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B53009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B5300F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B53010, '2019-02-10 00:00:00') /* Crystal Shard Sentinel */
-     , (0x72B53001, 0x72B53011, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B53001, 0x72B53012, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B53001, 0x72B53013, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x72B53001, 0x72B53014, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72B53001, 0x72B53015, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x72B53001, 0x72B53016, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x72B53001, 0x72B53017, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72B53001, 0x72B53018, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72B53001, 0x72B53019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72B53001, 0x72B5301A, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72B53001, 0x72B5301B, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72B53001, 0x72B5301C, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72B53001, 0x72B5301D, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72B53001, 0x72B5301E, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72B53001, 0x72B5301F, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72B53001, 0x72B53020, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x72B53001, 0x72B53021, '2019-02-10 00:00:00') /* Titanium Armoredillo */;
+VALUES (0x72B53001, 0x72B53002, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B53001, 0x72B53003, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x72B53001, 0x72B53004, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x72B53001, 0x72B53005, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72B53001, 0x72B53006, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B53007, '2019-02-10 00:00:00') /* Fallen Crystal Shard (30889) */
+     , (0x72B53001, 0x72B53008, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B53009, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300A, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300B, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300C, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B5300F, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B53010, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x72B53001, 0x72B53011, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B53001, 0x72B53012, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B53001, 0x72B53013, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72B53001, 0x72B53014, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B53001, 0x72B53015, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72B53001, 0x72B53016, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x72B53001, 0x72B53017, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72B53001, 0x72B53018, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72B53001, 0x72B53019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72B53001, 0x72B5301A, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72B53001, 0x72B5301B, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72B53001, 0x72B5301C, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72B53001, 0x72B5301D, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72B53001, 0x72B5301E, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72B53001, 0x72B5301F, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72B53001, 0x72B53020, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x72B53001, 0x72B53021, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B53002, 23088, 0x2B530012, 62.77089, 37.3059, 0.7790926, -0.02391508, 0, 0, -0.999714,  True, '2019-02-10 00:00:00'); /* Raider Prefect */
@@ -171,8 +171,8 @@ VALUES (0x72B53022,  1542, 0x2B53000A, 25.98707, 24.07816, 0.006513437, -0.57978
 /* @teleloc 0x2B53000A [25.987070 24.078160 0.006513] -0.579788 0.000000 0.000000 -0.814768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B53022, 0x72B53023, '2019-02-10 00:00:00') /* Reinforced Oaken Chest */
-     , (0x72B53022, 0x72B53024, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x72B53022, 0x72B53023, '2019-02-10 00:00:00') /* Reinforced Oaken Chest (23086) */
+     , (0x72B53022, 0x72B53024, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B53023, 23086, 0x2B53000A, 25.98707, 24.07816, 0.006513437, -0.5797876, 0, 0, -0.8147677,  True, '2019-02-10 00:00:00'); /* Reinforced Oaken Chest */

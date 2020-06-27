@@ -5,9 +5,9 @@ VALUES (0x7EB3E001,  1154, 0xEB3E0001, 11.67727, 13.24197, 109.0552, -0.5677197,
 /* @teleloc 0xEB3E0001 [11.677270 13.241970 109.055200] -0.567720 0.000000 0.000000 -0.823222 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB3E001, 0x7EB3E002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7EB3E001, 0x7EB3E003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7EB3E001, 0x7EB3E004, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7EB3E001, 0x7EB3E002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7EB3E001, 0x7EB3E003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7EB3E001, 0x7EB3E004, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB3E002,   947, 0xEB3E0001, 11.67727, 13.24197, 109.0552, -0.5677197, 0, 0, -0.8232219,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

@@ -5,14 +5,14 @@ VALUES (0x749D1001,  1154, 0x49D1003A, 172.3595, 42.37246, 28.60893, 0.7071068, 
 /* @teleloc 0x49D1003A [172.359500 42.372460 28.608930] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749D1001, 0x749D1002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x749D1001, 0x749D1003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x749D1001, 0x749D1004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x749D1001, 0x749D1005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749D1001, 0x749D1006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x749D1001, 0x749D1007, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x749D1001, 0x749D1008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x749D1001, 0x749D1009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x749D1001, 0x749D1002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x749D1001, 0x749D1003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x749D1001, 0x749D1004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x749D1001, 0x749D1005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749D1001, 0x749D1006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x749D1001, 0x749D1007, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x749D1001, 0x749D1008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x749D1001, 0x749D1009, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749D1002, 10807, 0x49D1003A, 172.3595, 42.37246, 28.60893, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

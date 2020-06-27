@@ -5,15 +5,15 @@ VALUES (0x74AD1001,  1154, 0x4AD10004, 9.062973, 75.75045, 23.81553, 0.9813529, 
 /* @teleloc 0x4AD10004 [9.062973 75.750450 23.815530] 0.981353 0.000000 0.000000 -0.192215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AD1001, 0x74AD1002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x74AD1001, 0x74AD1003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AD1001, 0x74AD1004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AD1001, 0x74AD1005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74AD1001, 0x74AD1006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74AD1001, 0x74AD1007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74AD1001, 0x74AD1008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74AD1001, 0x74AD1009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74AD1001, 0x74AD100A, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x74AD1001, 0x74AD1002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x74AD1001, 0x74AD1003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AD1001, 0x74AD1004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AD1001, 0x74AD1005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74AD1001, 0x74AD1006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74AD1001, 0x74AD1007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74AD1001, 0x74AD1008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74AD1001, 0x74AD1009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74AD1001, 0x74AD100A, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AD1002,  7981, 0x4AD10004, 9.062973, 75.75045, 23.81553, 0.9813529, 0, 0, -0.1922149,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */

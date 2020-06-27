@@ -5,26 +5,26 @@ VALUES (0x72E50001,  1154, 0x2E500003, 3.97716, 68.64884, 0.0497669, 0.808261, 0
 /* @teleloc 0x2E500003 [3.977160 68.648840 0.049767] 0.808261 0.000000 0.000000 -0.588824 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E50001, 0x72E50002, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72E50001, 0x72E50003, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout */
-     , (0x72E50001, 0x72E50004, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72E50001, 0x72E50005, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout */
-     , (0x72E50001, 0x72E50006, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72E50001, 0x72E50007, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout */
-     , (0x72E50001, 0x72E50008, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout */
-     , (0x72E50001, 0x72E50009, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout */
-     , (0x72E50001, 0x72E5000A, '2019-02-10 00:00:00') /* Tormenter */
-     , (0x72E50001, 0x72E5000B, '2019-02-10 00:00:00') /* Archfiend */
-     , (0x72E50001, 0x72E5000C, '2019-02-10 00:00:00') /* Dark Guardian */
-     , (0x72E50001, 0x72E5000D, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72E50001, 0x72E5000E, '2019-02-10 00:00:00') /* Chimera */
-     , (0x72E50001, 0x72E5000F, '2019-02-10 00:00:00') /* Lich Oppressor */
-     , (0x72E50001, 0x72E50010, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E50001, 0x72E50011, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72E50001, 0x72E50012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x72E50001, 0x72E50013, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x72E50001, 0x72E50014, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x72E50001, 0x72E50015, '2019-02-10 00:00:00') /* Drudge Seraph */;
+VALUES (0x72E50001, 0x72E50002, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72E50001, 0x72E50003, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72E50001, 0x72E50004, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72E50001, 0x72E50005, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout (41735) */
+     , (0x72E50001, 0x72E50006, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72E50001, 0x72E50007, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72E50001, 0x72E50008, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
+     , (0x72E50001, 0x72E50009, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72E50001, 0x72E5000A, '2019-02-10 00:00:00') /* Tormenter (25806) */
+     , (0x72E50001, 0x72E5000B, '2019-02-10 00:00:00') /* Archfiend (25803) */
+     , (0x72E50001, 0x72E5000C, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72E50001, 0x72E5000D, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72E50001, 0x72E5000E, '2019-02-10 00:00:00') /* Chimera (25807) */
+     , (0x72E50001, 0x72E5000F, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72E50001, 0x72E50010, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72E50001, 0x72E50011, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72E50001, 0x72E50012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x72E50001, 0x72E50013, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x72E50001, 0x72E50014, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72E50001, 0x72E50015, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E50002, 22900, 0x2E500003, 3.97716, 68.64884, 0.0497669, 0.808261, 0, 0, -0.5888244,  True, '2019-02-10 00:00:00'); /* Bile Grievver */

@@ -41,9 +41,9 @@ VALUES (0x75B9C012,  1154, 0x5B9C0007, 3.879211, 156.825, 18.46327, -0.1530876, 
 /* @teleloc 0x5B9C0007 [3.879211 156.825000 18.463270] -0.153088 0.000000 0.000000 -0.988213 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9C012, 0x75B9C013, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75B9C012, 0x75B9C014, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75B9C012, 0x75B9C015, '2019-02-10 00:00:00') /* Tumerok Taskmaster */;
+VALUES (0x75B9C012, 0x75B9C013, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75B9C012, 0x75B9C014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75B9C012, 0x75B9C015, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C013,  7121, 0x5B9C0007, 3.879211, 156.825, 18.46327, -0.1530876, 0, 0, -0.9882126,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -62,38 +62,38 @@ VALUES (0x75B9C016,  1154, 0x5B9C001F, 87.4115, 149.268, 14.005, 0.01552561, 0, 
 /* @teleloc 0x5B9C001F [87.411500 149.268000 14.005000] 0.015526 0.000000 0.000000 -0.999880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9C016, 0x75B9C017, '2019-02-10 00:00:00') /* Colton Reeyan */
-     , (0x75B9C016, 0x75B9C018, '2019-02-10 00:00:00') /* Marcus Danby */
-     , (0x75B9C016, 0x75B9C019, '2019-02-10 00:00:00') /* Journeyman Fletcher */
-     , (0x75B9C016, 0x75B9C01A, '2019-02-10 00:00:00') /* Gunther Danby */
-     , (0x75B9C016, 0x75B9C01B, '2019-02-10 00:00:00') /* Agent of the Arcanum */
-     , (0x75B9C016, 0x75B9C01C, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x75B9C016, 0x75B9C01D, '2019-02-10 00:00:00') /* Jin Ghao */
-     , (0x75B9C016, 0x75B9C01E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C01F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C020, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C021, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C022, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C023, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C024, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C025, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C026, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C027, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C028, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C029, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02A, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02B, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02C, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02D, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02E, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C02F, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C030, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C031, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C032, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C033, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C034, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C035, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x75B9C016, 0x75B9C036, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x75B9C016, 0x75B9C017, '2019-02-10 00:00:00') /* Colton Reeyan (47799) */
+     , (0x75B9C016, 0x75B9C018, '2019-02-10 00:00:00') /* Marcus Danby (37443) */
+     , (0x75B9C016, 0x75B9C019, '2019-02-10 00:00:00') /* Journeyman Fletcher (28924) */
+     , (0x75B9C016, 0x75B9C01A, '2019-02-10 00:00:00') /* Gunther Danby (9676) */
+     , (0x75B9C016, 0x75B9C01B, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */
+     , (0x75B9C016, 0x75B9C01C, '2019-02-10 00:00:00') /* Leather Crafter (4213) */
+     , (0x75B9C016, 0x75B9C01D, '2019-02-10 00:00:00') /* Jin Ghao (31284) */
+     , (0x75B9C016, 0x75B9C01E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C01F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C020, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C021, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C022, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C023, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C024, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C025, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C026, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C027, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C028, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C029, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02A, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02B, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02C, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02D, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02E, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C02F, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C030, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C031, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C032, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C033, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C034, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C035, '2019-02-10 00:00:00') /* Town Crier (5772) */
+     , (0x75B9C016, 0x75B9C036, '2019-02-10 00:00:00') /* Town Crier (5772) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C017, 47799, 0x5B9C001F, 87.4115, 149.268, 14.005, 0.01552561, 0, 0, -0.9998795,  True, '2019-02-10 00:00:00'); /* Colton Reeyan */
@@ -228,7 +228,7 @@ VALUES (0x75B9C037,  1542, 0x5B9C0007, 5.474258, 157.9324, 19.60415, 0.9914449, 
 /* @teleloc 0x5B9C0007 [5.474258 157.932400 19.604150] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75B9C037, 0x75B9C038, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75B9C037, 0x75B9C038, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B9C038,  4380, 0x5B9C0007, 5.474258, 157.9324, 19.60415, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

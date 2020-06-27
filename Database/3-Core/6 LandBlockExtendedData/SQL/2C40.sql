@@ -5,18 +5,18 @@ VALUES (0x72C40001,  1154, 0x2C400002, 1.143826, 41.34739, 32.39275, 0.8191521, 
 /* @teleloc 0x2C400002 [1.143826 41.347390 32.392750] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C40001, 0x72C40002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72C40001, 0x72C40003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72C40001, 0x72C40004, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72C40001, 0x72C40005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x72C40001, 0x72C40006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72C40001, 0x72C40007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72C40001, 0x72C40008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72C40001, 0x72C40009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C40001, 0x72C4000A, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72C40001, 0x72C4000B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72C40001, 0x72C4000C, '2019-02-10 00:00:00') /* Flare */
-     , (0x72C40001, 0x72C4000D, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72C40001, 0x72C40002, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72C40001, 0x72C40003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72C40001, 0x72C40004, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72C40001, 0x72C40005, '2019-02-10 00:00:00') /* Augmented Drudge (10775) */
+     , (0x72C40001, 0x72C40006, '2019-02-10 00:00:00') /* Augmented Tumerok (10808) */
+     , (0x72C40001, 0x72C40007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72C40001, 0x72C40008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72C40001, 0x72C40009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C40001, 0x72C4000A, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72C40001, 0x72C4000B, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72C40001, 0x72C4000C, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x72C40001, 0x72C4000D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C40002,  9264, 0x2C400002, 1.143826, 41.34739, 32.39275, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -71,7 +71,7 @@ VALUES (0x72C4000E,  1542, 0x2C400019, 95.31511, 8.724927, 26.36246, 1, 0, 0, 0,
 /* @teleloc 0x2C400019 [95.315110 8.724927 26.362460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C4000E, 0x72C4000F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x72C4000E, 0x72C4000F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C4000F,  4179, 0x2C400019, 95.31511, 8.724927, 26.36246, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,22 +5,22 @@ VALUES (0x7D9D3001,  1154, 0xD9D30029, 133.0639, 6.129004, -0.45, 0.7846208, 0, 
 /* @teleloc 0xD9D30029 [133.063900 6.129004 -0.450000] 0.784621 0.000000 0.000000 -0.619976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9D3001, 0x7D9D3002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9D3001, 0x7D9D3003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D9D3001, 0x7D9D3004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D9D3001, 0x7D9D3005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D9D3001, 0x7D9D3006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9D3001, 0x7D9D3007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9D3001, 0x7D9D3008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D9D3001, 0x7D9D3009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9D3001, 0x7D9D300A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9D3001, 0x7D9D300B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D9D3001, 0x7D9D300C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D9D3001, 0x7D9D300D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D9D3001, 0x7D9D300E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D9D3001, 0x7D9D300F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D9D3001, 0x7D9D3010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D9D3001, 0x7D9D3011, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7D9D3001, 0x7D9D3002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9D3001, 0x7D9D3003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D9D3001, 0x7D9D3004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D9D3001, 0x7D9D3005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D9D3001, 0x7D9D3006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9D3001, 0x7D9D3007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9D3001, 0x7D9D3008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D9D3001, 0x7D9D3009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9D3001, 0x7D9D300A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9D3001, 0x7D9D300B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D9D3001, 0x7D9D300C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D9D3001, 0x7D9D300D, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D9D3001, 0x7D9D300E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D9D3001, 0x7D9D300F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D9D3001, 0x7D9D3010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D9D3001, 0x7D9D3011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9D3002,   214, 0xD9D30029, 133.0639, 6.129004, -0.45, 0.7846208, 0, 0, -0.619976,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */
@@ -91,7 +91,7 @@ VALUES (0x7D9D3012,  1542, 0xD9D30031, 157.2089, 9.897182, 0, 1, 0, 0, 0, False,
 /* @teleloc 0xD9D30031 [157.208900 9.897182 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9D3012, 0x7D9D3013, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D9D3012, 0x7D9D3013, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9D3013, 31445, 0xD9D30031, 157.2089, 9.897182, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

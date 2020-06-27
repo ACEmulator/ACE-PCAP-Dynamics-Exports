@@ -5,12 +5,12 @@ VALUES (0x7AA59001,  1154, 0xAA590002, 3.831584, 47.85294, 48.6496, 0.9238795, 0
 /* @teleloc 0xAA590002 [3.831584 47.852940 48.649600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA59001, 0x7AA59002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AA59001, 0x7AA59003, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7AA59001, 0x7AA59004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AA59001, 0x7AA59005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AA59001, 0x7AA59006, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AA59001, 0x7AA59007, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7AA59001, 0x7AA59002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AA59001, 0x7AA59003, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7AA59001, 0x7AA59004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AA59001, 0x7AA59005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AA59001, 0x7AA59006, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AA59001, 0x7AA59007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA59002,   195, 0xAA590002, 3.831584, 47.85294, 48.6496, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -41,7 +41,7 @@ VALUES (0x7AA59008,  1542, 0xAA59003A, 191.9614, 40.84065, 57.99678, 1, 0, 0, 0,
 /* @teleloc 0xAA59003A [191.961400 40.840650 57.996780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA59008, 0x7AA59009, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7AA59008, 0x7AA59009, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA59009,  4383, 0xAA59003A, 191.9614, 40.84065, 57.99678, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

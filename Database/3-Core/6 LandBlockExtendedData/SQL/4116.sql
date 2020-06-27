@@ -5,9 +5,9 @@ VALUES (0x74116001,  1154, 0x41160008, 5.903027, 172.2772, 226.2106, 0.8005453, 
 /* @teleloc 0x41160008 [5.903027 172.277200 226.210600] 0.800545 0.000000 0.000000 -0.599272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74116001, 0x74116002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x74116001, 0x74116003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74116001, 0x74116004, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74116001, 0x74116002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x74116001, 0x74116003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74116001, 0x74116004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74116002, 36844, 0x41160008, 5.903027, 172.2772, 226.2106, 0.8005453, 0, 0, -0.5992722,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

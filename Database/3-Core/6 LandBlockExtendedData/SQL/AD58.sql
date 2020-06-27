@@ -21,10 +21,10 @@ VALUES (0x7AD58004,  1154, 0xAD580002, 18.23689, 39.77618, 43.9985, 0.6271404, 0
 /* @teleloc 0xAD580002 [18.236890 39.776180 43.998500] 0.627140 0.000000 0.000000 -0.778906 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD58004, 0x7AD58005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AD58004, 0x7AD58006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AD58004, 0x7AD58007, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7AD58004, 0x7AD58008, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7AD58004, 0x7AD58005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AD58004, 0x7AD58006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AD58004, 0x7AD58007, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7AD58004, 0x7AD58008, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD58005,  7978, 0xAD580002, 18.23689, 39.77618, 43.9985, 0.6271404, 0, 0, -0.7789062,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

@@ -5,11 +5,11 @@ VALUES (0x72A54001,  1154, 0x2A540018, 65.30304, 170.7314, 22.008, -0.9482636, 0
 /* @teleloc 0x2A540018 [65.303040 170.731400 22.008000] -0.948264 0.000000 0.000000 -0.317484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A54001, 0x72A54002, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x72A54001, 0x72A54003, '2019-02-10 00:00:00') /* Revered Tumerok Shaman */
-     , (0x72A54001, 0x72A54004, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x72A54001, 0x72A54005, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x72A54001, 0x72A54006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */;
+VALUES (0x72A54001, 0x72A54002, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x72A54001, 0x72A54003, '2019-02-10 00:00:00') /* Revered Tumerok Shaman (23092) */
+     , (0x72A54001, 0x72A54004, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x72A54001, 0x72A54005, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x72A54001, 0x72A54006, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A54002, 23554, 0x2A540018, 65.30304, 170.7314, 22.008, -0.9482636, 0, 0, -0.3174839,  True, '2019-02-10 00:00:00'); /* Adolescent Rust Gromnie */

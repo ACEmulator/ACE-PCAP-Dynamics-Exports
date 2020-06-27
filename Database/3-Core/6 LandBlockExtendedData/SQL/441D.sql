@@ -5,14 +5,14 @@ VALUES (0x7441D001,  1154, 0x441D0014, 52.03764, 84.12338, 38.05959, 0.9987406, 
 /* @teleloc 0x441D0014 [52.037640 84.123380 38.059590] 0.998741 0.000000 0.000000 -0.050172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7441D001, 0x7441D002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7441D001, 0x7441D003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7441D001, 0x7441D004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7441D001, 0x7441D005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7441D001, 0x7441D006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7441D001, 0x7441D007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7441D001, 0x7441D008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7441D001, 0x7441D009, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x7441D001, 0x7441D002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7441D001, 0x7441D003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7441D001, 0x7441D004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7441D001, 0x7441D005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7441D001, 0x7441D006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7441D001, 0x7441D007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7441D001, 0x7441D008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7441D001, 0x7441D009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7441D002,  7982, 0x441D0014, 52.03764, 84.12338, 38.05959, 0.9987406, 0, 0, -0.05017174,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

@@ -5,18 +5,18 @@ VALUES (0x777EB001,  1154, 0x77EB0001, 14.89935, 6.161437, 214.3059, 0.4706044, 
 /* @teleloc 0x77EB0001 [14.899350 6.161437 214.305900] 0.470604 0.000000 0.000000 -0.882344 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777EB001, 0x777EB002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x777EB001, 0x777EB003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EB001, 0x777EB004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EB001, 0x777EB005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EB001, 0x777EB006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777EB001, 0x777EB007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x777EB001, 0x777EB008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x777EB001, 0x777EB009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777EB001, 0x777EB00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777EB001, 0x777EB00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x777EB001, 0x777EB00C, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x777EB001, 0x777EB00D, '2019-02-10 00:00:00') /* Hyem */;
+VALUES (0x777EB001, 0x777EB002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x777EB001, 0x777EB003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EB001, 0x777EB004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EB001, 0x777EB005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EB001, 0x777EB006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777EB001, 0x777EB007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x777EB001, 0x777EB008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x777EB001, 0x777EB009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777EB001, 0x777EB00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777EB001, 0x777EB00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x777EB001, 0x777EB00C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x777EB001, 0x777EB00D, '2019-02-10 00:00:00') /* Hyem (14875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777EB002, 24275, 0x77EB0001, 14.89935, 6.161437, 214.3059, 0.4706044, 0, 0, -0.8823443,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

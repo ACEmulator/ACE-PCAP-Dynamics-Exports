@@ -5,36 +5,36 @@ VALUES (0x7B841001,  1154, 0xB8410112, 86.8494, 159.112, 30.00935, 0.040636, 0, 
 /* @teleloc 0xB8410112 [86.849400 159.112000 30.009350] 0.040636 0.000000 0.000000 -0.999174 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B841001, 0x7B841002, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7B841001, 0x7B841003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B841001, 0x7B841008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B841001, 0x7B841009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100C, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100D, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B84100F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B841001, 0x7B841011, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B841001, 0x7B841012, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B841001, 0x7B841013, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B841001, 0x7B841014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B841001, 0x7B841015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B841001, 0x7B841016, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B841001, 0x7B841017, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B841001, 0x7B841018, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B841001, 0x7B841019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B841001, 0x7B84101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B841001, 0x7B84101B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B841001, 0x7B84101C, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7B841001, 0x7B84101D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B841001, 0x7B84101E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B841001, 0x7B84101F, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7B841001, 0x7B841002, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7B841001, 0x7B841003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B841001, 0x7B841008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B841001, 0x7B841009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100C, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100D, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B84100F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B841001, 0x7B841011, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B841001, 0x7B841012, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B841001, 0x7B841013, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B841001, 0x7B841014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B841001, 0x7B841015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B841001, 0x7B841016, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B841001, 0x7B841017, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B841001, 0x7B841018, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B841001, 0x7B841019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B841001, 0x7B84101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B841001, 0x7B84101B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B841001, 0x7B84101C, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7B841001, 0x7B84101D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B841001, 0x7B84101E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B841001, 0x7B84101F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B841002,   184, 0xB8410112, 86.8494, 159.112, 30.00935, 0.040636, 0, 0, -0.999174,  True, '2019-02-10 00:00:00'); /* Banderling Captain */
@@ -161,14 +161,14 @@ VALUES (0x7B841020,  1542, 0xB8410112, 85.44541, 155.1248, 30.0855, -0.999011, 0
 /* @teleloc 0xB8410112 [85.445410 155.124800 30.085500] -0.999011 0.000000 0.000000 0.044455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B841020, 0x7B841021, '2019-02-10 00:00:00') /* Scroll of Purge Creature Magic Other */
-     , (0x7B841020, 0x7B841022, '2019-02-10 00:00:00') /* Scroll of Monster Attunement Self VI */
-     , (0x7B841020, 0x7B841023, '2019-02-10 00:00:00') /* Fresh Fish */
-     , (0x7B841020, 0x7B841024, '2019-02-10 00:00:00') /* Tart Apple */
-     , (0x7B841020, 0x7B841025, '2019-02-10 00:00:00') /* Covenant Breastplate */
-     , (0x7B841020, 0x7B841026, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x7B841020, 0x7B841027, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7B841020, 0x7B841028, '2019-02-10 00:00:00') /* Yarrow */;
+VALUES (0x7B841020, 0x7B841021, '2019-02-10 00:00:00') /* Scroll of Purge Creature Magic Other (20322) */
+     , (0x7B841020, 0x7B841022, '2019-02-10 00:00:00') /* Scroll of Monster Attunement Self VI (5547) */
+     , (0x7B841020, 0x7B841023, '2019-02-10 00:00:00') /* Fresh Fish (1445) */
+     , (0x7B841020, 0x7B841024, '2019-02-10 00:00:00') /* Tart Apple (1447) */
+     , (0x7B841020, 0x7B841025, '2019-02-10 00:00:00') /* Covenant Breastplate (40707) */
+     , (0x7B841020, 0x7B841026, '2019-02-10 00:00:00') /* Diamond Shield (94) */
+     , (0x7B841020, 0x7B841027, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7B841020, 0x7B841028, '2019-02-10 00:00:00') /* Yarrow (781) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B841021, 20322, 0xB8410112, 85.44541, 155.1248, 30.0855, -0.999011, 0, 0, 0.0444551,  True, '2019-02-10 00:00:00'); /* Scroll of Purge Creature Magic Other */

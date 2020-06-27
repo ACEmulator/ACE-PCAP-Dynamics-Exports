@@ -5,8 +5,8 @@ VALUES (0x744A5001,  1154, 0x44A50014, 67.81165, 72.01945, 69.65259, -0.2576253,
 /* @teleloc 0x44A50014 [67.811650 72.019450 69.652590] -0.257625 0.000000 0.000000 -0.966245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744A5001, 0x744A5002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x744A5001, 0x744A5003, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x744A5001, 0x744A5002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x744A5001, 0x744A5003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744A5002, 28551, 0x44A50014, 67.81165, 72.01945, 69.65259, -0.2576253, 0, 0, -0.9662449,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

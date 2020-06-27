@@ -57,137 +57,137 @@ VALUES (0x702DB04C,  1154, 0x02DB02F1, 150.254, -60.2276, 6.0025, 0.119882, 0, 0
 /* @teleloc 0x02DB02F1 [150.254000 -60.227600 6.002500] 0.119882 0.000000 0.000000 0.992788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702DB04C, 0x702DB04D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB04E, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB04F, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB050, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB051, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB052, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB053, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB054, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB055, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB056, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB057, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB058, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB059, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB05A, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB05B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB05C, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB05D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB05E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB05F, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB060, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB061, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB062, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB063, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB064, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB065, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB066, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB067, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB068, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB069, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06A, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06C, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB06F, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB070, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB071, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB072, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB073, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB074, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB075, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB076, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB077, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB078, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB079, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB07A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB07B, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB07C, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB07D, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB07E, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB07F, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB080, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB081, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB082, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB083, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB084, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB085, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB086, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB087, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB088, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB089, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB08A, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB08B, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB08C, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB08D, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB08E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB08F, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB090, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB091, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB092, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB093, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB094, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB095, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB096, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB097, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB098, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB099, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09A, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09B, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09C, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09D, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09E, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB09F, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A0, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB0A1, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A2, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A3, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A4, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A5, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A6, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0A7, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB0A8, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB0A9, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AA, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AB, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AC, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AD, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AE, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0AF, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B0, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B1, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B2, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B3, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B4, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B5, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B6, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B7, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B8, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0B9, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0BA, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0BB, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0BC, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0BD, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0BE, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0BF, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C0, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C1, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C2, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C3, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C4, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C5, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C6, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C7, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C8, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0C9, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x702DB04C, 0x702DB0CA, '2019-02-10 00:00:00') /* Devious Shadow */
-     , (0x702DB04C, 0x702DB0CB, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB0CC, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x702DB04C, 0x702DB0CD, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB0CE, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x702DB04C, 0x702DB0CF, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x702DB04C, 0x702DB04D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB04E, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB04F, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB050, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB051, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB052, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB053, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB054, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB055, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB056, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB057, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB058, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB059, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB05A, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB05B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB05C, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB05D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB05E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB05F, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB060, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB061, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB062, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB063, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB064, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB065, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB066, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB067, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB068, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB069, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06A, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06C, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB06F, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB070, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB071, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB072, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB073, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB074, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB075, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB076, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB077, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB078, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB079, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB07A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB07B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB07C, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB07D, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB07E, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB07F, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB080, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB081, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB082, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB083, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB084, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB085, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB086, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB087, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB088, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB089, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB08A, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB08B, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB08C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB08D, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB08E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB08F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB090, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB091, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB092, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB093, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB094, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB095, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB096, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB097, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB098, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB099, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09A, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09B, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09C, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09D, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09E, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB09F, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A0, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB0A1, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A2, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A3, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A4, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A5, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A6, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0A7, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB0A8, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB0A9, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AA, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AB, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AC, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AD, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AE, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0AF, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B0, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B1, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B2, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B3, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B4, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B5, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B6, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B7, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B8, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0B9, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0BA, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0BB, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0BC, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0BD, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0BE, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0BF, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C0, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C1, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C2, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C3, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C4, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C5, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C6, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C7, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C8, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0C9, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x702DB04C, 0x702DB0CA, '2019-02-10 00:00:00') /* Devious Shadow (28556) */
+     , (0x702DB04C, 0x702DB0CB, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB0CC, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x702DB04C, 0x702DB0CD, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB0CE, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x702DB04C, 0x702DB0CF, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702DB04D,  1762, 0x02DB02F1, 150.254, -60.2276, 6.0025, 0.119882, 0, 0, 0.9927881,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

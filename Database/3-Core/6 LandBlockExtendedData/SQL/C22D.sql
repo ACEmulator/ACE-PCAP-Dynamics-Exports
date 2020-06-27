@@ -5,11 +5,11 @@ VALUES (0x7C22D001,  1154, 0xC22D003B, 182.1713, 56.59851, 218.1203, 0.9063078, 
 /* @teleloc 0xC22D003B [182.171300 56.598510 218.120300] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C22D001, 0x7C22D002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C22D001, 0x7C22D003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C22D001, 0x7C22D004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C22D001, 0x7C22D005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7C22D001, 0x7C22D006, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x7C22D001, 0x7C22D002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C22D001, 0x7C22D003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C22D001, 0x7C22D004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C22D001, 0x7C22D005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7C22D001, 0x7C22D006, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C22D002,  7084, 0xC22D003B, 182.1713, 56.59851, 218.1203, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -36,7 +36,7 @@ VALUES (0x7C22D007,  1542, 0xC22D0033, 158.1511, 66.6142, 206.3317, 0.6477164, 0
 /* @teleloc 0xC22D0033 [158.151100 66.614200 206.331700] 0.647716 0.000000 0.000000 -0.761882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C22D007, 0x7C22D008, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7C22D007, 0x7C22D008, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C22D008,  8648, 0xC22D0033, 158.1511, 66.6142, 206.3317, 0.6477164, 0, 0, -0.7618815,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

@@ -5,15 +5,15 @@ VALUES (0x788F5001,  1154, 0x88F50035, 148.7838, 112.3876, 14.97413, 0.7071068, 
 /* @teleloc 0x88F50035 [148.783800 112.387600 14.974130] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788F5001, 0x788F5002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x788F5001, 0x788F5003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x788F5001, 0x788F5004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x788F5001, 0x788F5005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x788F5001, 0x788F5006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x788F5001, 0x788F5007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x788F5001, 0x788F5008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x788F5001, 0x788F5009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788F5001, 0x788F500A, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x788F5001, 0x788F5002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x788F5001, 0x788F5003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x788F5001, 0x788F5004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x788F5001, 0x788F5005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x788F5001, 0x788F5006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x788F5001, 0x788F5007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x788F5001, 0x788F5008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x788F5001, 0x788F5009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788F5001, 0x788F500A, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788F5002,  7333, 0x88F50035, 148.7838, 112.3876, 14.97413, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

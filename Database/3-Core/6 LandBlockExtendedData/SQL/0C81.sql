@@ -5,15 +5,15 @@ VALUES (0x70C81001,  1154, 0x0C810011, 49.63685, 15.79381, 61.63583, 0.7672023, 
 /* @teleloc 0x0C810011 [49.636850 15.793810 61.635830] 0.767202 0.000000 0.000000 -0.641405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C81001, 0x70C81002, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C81001, 0x70C81003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C81001, 0x70C81004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C81001, 0x70C81005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C81001, 0x70C81006, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70C81001, 0x70C81007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C81001, 0x70C81008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C81001, 0x70C81009, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70C81001, 0x70C8100A, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x70C81001, 0x70C81002, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C81001, 0x70C81003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C81001, 0x70C81004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C81001, 0x70C81005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C81001, 0x70C81006, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70C81001, 0x70C81007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C81001, 0x70C81008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C81001, 0x70C81009, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70C81001, 0x70C8100A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C81002, 24957, 0x0C810011, 49.63685, 15.79381, 61.63583, 0.7672023, 0, 0, -0.6414052,  True, '2019-02-10 00:00:00'); /* Lacerator */

@@ -5,12 +5,12 @@ VALUES (0x7D4CB001,  1154, 0xD4CB0019, 81.38466, 3.771667, 60.50183, -0.9332449,
 /* @teleloc 0xD4CB0019 [81.384660 3.771667 60.501830] -0.933245 0.000000 0.000000 -0.359241 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4CB001, 0x7D4CB002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D4CB001, 0x7D4CB003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D4CB001, 0x7D4CB004, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7D4CB001, 0x7D4CB005, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D4CB001, 0x7D4CB006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7D4CB001, 0x7D4CB007, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x7D4CB001, 0x7D4CB002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D4CB001, 0x7D4CB003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D4CB001, 0x7D4CB004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7D4CB001, 0x7D4CB005, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D4CB001, 0x7D4CB006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7D4CB001, 0x7D4CB007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4CB002, 24958, 0xD4CB0019, 81.38466, 3.771667, 60.50183, -0.9332449, 0, 0, -0.3592407,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -41,7 +41,7 @@ VALUES (0x7D4CB008,  1542, 0xD4CB0032, 166.4049, 38.21183, 86.77, -4.371139E-08,
 /* @teleloc 0xD4CB0032 [166.404900 38.211830 86.770000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D4CB008, 0x7D4CB009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7D4CB008, 0x7D4CB009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4CB009,  4380, 0xD4CB0032, 166.4049, 38.21183, 86.77, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

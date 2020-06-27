@@ -5,26 +5,26 @@ VALUES (0x72A29001,  1154, 0x2A290002, 0.8438902, 42.38626, 76.54529, -0.4214364
 /* @teleloc 0x2A290002 [0.843890 42.386260 76.545290] -0.421436 0.000000 0.000000 -0.906858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A29001, 0x72A29002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72A29001, 0x72A29003, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72A29001, 0x72A29004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A29001, 0x72A29005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A29001, 0x72A29006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72A29001, 0x72A29007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72A29001, 0x72A29008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A29001, 0x72A29009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72A29001, 0x72A2900A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A29001, 0x72A2900B, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x72A29001, 0x72A2900C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72A29001, 0x72A2900D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72A29001, 0x72A2900E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72A29001, 0x72A2900F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72A29001, 0x72A29010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72A29001, 0x72A29011, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72A29001, 0x72A29012, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72A29001, 0x72A29013, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72A29001, 0x72A29014, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72A29001, 0x72A29015, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x72A29001, 0x72A29002, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72A29001, 0x72A29003, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72A29001, 0x72A29004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A29001, 0x72A29005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A29001, 0x72A29006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72A29001, 0x72A29007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72A29001, 0x72A29008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A29001, 0x72A29009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72A29001, 0x72A2900A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A29001, 0x72A2900B, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x72A29001, 0x72A2900C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72A29001, 0x72A2900D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72A29001, 0x72A2900E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72A29001, 0x72A2900F, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72A29001, 0x72A29010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72A29001, 0x72A29011, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72A29001, 0x72A29012, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72A29001, 0x72A29013, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72A29001, 0x72A29014, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72A29001, 0x72A29015, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A29002, 23478, 0x2A290002, 0.8438902, 42.38626, 76.54529, -0.4214364, 0, 0, -0.906858,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -111,7 +111,7 @@ VALUES (0x72A29016,  1542, 0x2A290030, 123.5025, 179.4427, 78, 1, 0, 0, 0, False
 /* @teleloc 0x2A290030 [123.502500 179.442700 78.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A29016, 0x72A29017, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x72A29016, 0x72A29017, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A29017,  8999, 0x2A290030, 123.5025, 179.4427, 78, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

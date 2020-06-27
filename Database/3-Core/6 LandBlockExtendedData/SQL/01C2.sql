@@ -221,47 +221,47 @@ VALUES (0x701C20A1,  1154, 0x01C2010B, 60, -30, -23.9975, 0.707107, 0, 0, -0.707
 /* @teleloc 0x01C2010B [60.000000 -30.000000 -23.997500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C20A1, 0x701C20A2, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A3, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A4, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A5, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A6, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A7, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A8, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20A9, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20AA, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20AB, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20AC, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20AD, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20AE, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20AF, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20B0, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20B1, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20B2, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20B3, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20B4, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20B5, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20B6, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20B7, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20B8, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20B9, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20BA, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x701C20A1, 0x701C20BB, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20BC, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20BD, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20BE, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20BF, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20C0, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20C1, '2019-02-10 00:00:00') /* Hollow Minion */
-     , (0x701C20A1, 0x701C20C2, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20C3, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20C4, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20C5, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x701C20A1, 0x701C20C6, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20C7, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20C8, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x701C20A1, 0x701C20C9, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x701C20A1, 0x701C20CA, '2019-02-10 00:00:00') /* Mountain Rat */;
+VALUES (0x701C20A1, 0x701C20A2, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A3, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A4, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A5, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A6, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A7, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A8, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20A9, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20AA, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20AB, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20AC, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20AD, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20AE, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20AF, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20B0, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20B1, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20B2, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20B3, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20B4, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20B5, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20B6, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20B7, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20B8, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20B9, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20BA, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x701C20A1, 0x701C20BB, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20BC, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20BD, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20BE, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20BF, '2019-02-10 00:00:00') /* Hollow Minion (14431) */
+     , (0x701C20A1, 0x701C20C0, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20C1, '2019-02-10 00:00:00') /* Hollow Minion (14427) */
+     , (0x701C20A1, 0x701C20C2, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20C3, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20C4, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20C5, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x701C20A1, 0x701C20C6, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20C7, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20C8, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x701C20A1, 0x701C20C9, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x701C20A1, 0x701C20CA, '2019-02-10 00:00:00') /* Mountain Rat (1625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C20A2,  1760, 0x01C2010B, 60, -30, -23.9975, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -432,9 +432,9 @@ VALUES (0x701C20CB,  1542, 0x01C201A2, 18.786, -72.7281, 0.109375, -4.37114E-08,
 /* @teleloc 0x01C201A2 [18.786000 -72.728100 0.109375] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701C20CB, 0x701C20CC, '2019-02-10 00:00:00') /* Club */
-     , (0x701C20CB, 0x701C20CD, '2019-02-10 00:00:00') /* Good Lockpick */
-     , (0x701C20CB, 0x701C20CE, '2019-02-10 00:00:00') /* Mana Stone */;
+VALUES (0x701C20CB, 0x701C20CC, '2019-02-10 00:00:00') /* Club (309) */
+     , (0x701C20CB, 0x701C20CD, '2019-02-10 00:00:00') /* Good Lockpick (512) */
+     , (0x701C20CB, 0x701C20CE, '2019-02-10 00:00:00') /* Mana Stone (2435) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701C20CC,   309, 0x01C201A2, 18.786, -72.7281, 0.109375, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Club */

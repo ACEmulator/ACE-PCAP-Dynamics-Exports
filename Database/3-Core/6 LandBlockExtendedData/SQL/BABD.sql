@@ -5,11 +5,11 @@ VALUES (0x7BABD001,  1154, 0xBABD001A, 91.81244, 45.99409, 214.5895, 0.3635516, 
 /* @teleloc 0xBABD001A [91.812440 45.994090 214.589500] 0.363552 0.000000 0.000000 -0.931574 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BABD001, 0x7BABD002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BABD001, 0x7BABD003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BABD001, 0x7BABD004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7BABD001, 0x7BABD005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BABD001, 0x7BABD006, '2019-02-10 00:00:00') /* Dire Mattekar */;
+VALUES (0x7BABD001, 0x7BABD002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BABD001, 0x7BABD003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BABD001, 0x7BABD004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7BABD001, 0x7BABD005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BABD001, 0x7BABD006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BABD002,  2582, 0xBABD001A, 91.81244, 45.99409, 214.5895, 0.3635516, 0, 0, -0.931574,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

@@ -5,14 +5,14 @@ VALUES (0x756A5001,  1154, 0x56A5001B, 85.4136, 66.52951, 60.8922, 0.9238795, 0,
 /* @teleloc 0x56A5001B [85.413600 66.529510 60.892200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756A5001, 0x756A5002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x756A5001, 0x756A5003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x756A5001, 0x756A5004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x756A5001, 0x756A5005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x756A5001, 0x756A5006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x756A5001, 0x756A5007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x756A5001, 0x756A5008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x756A5001, 0x756A5009, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x756A5001, 0x756A5002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x756A5001, 0x756A5003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x756A5001, 0x756A5004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x756A5001, 0x756A5005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x756A5001, 0x756A5006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x756A5001, 0x756A5007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x756A5001, 0x756A5008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x756A5001, 0x756A5009, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756A5002,   201, 0x56A5001B, 85.4136, 66.52951, 60.8922, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -51,7 +51,7 @@ VALUES (0x756A500A,  1542, 0x56A5001E, 81.45784, 122.9354, 62.91292, 0.6224048, 
 /* @teleloc 0x56A5001E [81.457840 122.935400 62.912920] 0.622405 0.000000 0.000000 -0.782696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x756A500A, 0x756A500B, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x756A500A, 0x756A500B, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x756A500B,  8039, 0x56A5001E, 81.45784, 122.9354, 62.91292, 0.6224048, 0, 0, -0.7826955,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

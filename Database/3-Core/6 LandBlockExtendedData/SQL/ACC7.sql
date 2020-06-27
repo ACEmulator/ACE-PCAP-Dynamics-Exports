@@ -5,12 +5,12 @@ VALUES (0x7ACC7001,  1154, 0xACC7001B, 80.72398, 61.22068, 102.694, 0.5724633, 0
 /* @teleloc 0xACC7001B [80.723980 61.220680 102.694000] 0.572463 0.000000 0.000000 -0.819930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACC7001, 0x7ACC7002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7ACC7001, 0x7ACC7003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ACC7001, 0x7ACC7004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACC7001, 0x7ACC7005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ACC7001, 0x7ACC7006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ACC7001, 0x7ACC7007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7ACC7001, 0x7ACC7002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7ACC7001, 0x7ACC7003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ACC7001, 0x7ACC7004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACC7001, 0x7ACC7005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ACC7001, 0x7ACC7006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ACC7001, 0x7ACC7007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACC7002, 22009, 0xACC7001B, 80.72398, 61.22068, 102.694, 0.5724633, 0, 0, -0.8199304,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

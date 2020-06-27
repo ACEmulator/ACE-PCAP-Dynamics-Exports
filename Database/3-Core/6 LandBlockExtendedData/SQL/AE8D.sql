@@ -5,17 +5,17 @@ VALUES (0x7AE8D001,  1154, 0xAE8D002C, 122.724, 92.41291, 38, -0.6427876, 0, 0, 
 /* @teleloc 0xAE8D002C [122.724000 92.412910 38.000000] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE8D001, 0x7AE8D002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE8D001, 0x7AE8D003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D001, 0x7AE8D004, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D001, 0x7AE8D005, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AE8D001, 0x7AE8D006, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D001, 0x7AE8D007, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D001, 0x7AE8D008, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D001, 0x7AE8D009, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AE8D001, 0x7AE8D00A, '2019-02-10 00:00:00') /* Auroch Fire Bull */
-     , (0x7AE8D001, 0x7AE8D00B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE8D001, 0x7AE8D00C, '2019-02-10 00:00:00') /* Exploration Marker */;
+VALUES (0x7AE8D001, 0x7AE8D002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE8D001, 0x7AE8D003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D001, 0x7AE8D004, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D001, 0x7AE8D005, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AE8D001, 0x7AE8D006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D001, 0x7AE8D007, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D001, 0x7AE8D008, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D001, 0x7AE8D009, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AE8D001, 0x7AE8D00A, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
+     , (0x7AE8D001, 0x7AE8D00B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE8D001, 0x7AE8D00C, '2019-02-10 00:00:00') /* Exploration Marker (39751) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE8D002,  1608, 0xAE8D002C, 122.724, 92.41291, 38, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -66,7 +66,7 @@ VALUES (0x7AE8D00D,  1542, 0xAE8D002C, 121.6716, 94.56988, 38, 1, 0, 0, 0, False
 /* @teleloc 0xAE8D002C [121.671600 94.569880 38.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE8D00D, 0x7AE8D00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AE8D00D, 0x7AE8D00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE8D00E,  4380, 0xAE8D002C, 121.6716, 94.56988, 38, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

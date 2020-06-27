@@ -9,11 +9,11 @@ VALUES (0x7F629001,  1154, 0xF6290011, 66.79429, 8.00883, 15.89766, 0.5858859, 0
 /* @teleloc 0xF6290011 [66.794290 8.008830 15.897660] 0.585886 0.000000 0.000000 -0.810394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F629001, 0x7F629002, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F629001, 0x7F629003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F629001, 0x7F629004, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F629001, 0x7F629005, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F629001, 0x7F629006, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F629001, 0x7F629002, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F629001, 0x7F629003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F629001, 0x7F629004, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F629001, 0x7F629005, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F629001, 0x7F629006, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F629002,  7111, 0xF6290011, 66.79429, 8.00883, 15.89766, 0.5858859, 0, 0, -0.8103935,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */

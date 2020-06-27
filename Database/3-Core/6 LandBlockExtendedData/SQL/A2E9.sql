@@ -5,16 +5,16 @@ VALUES (0x7A2E9001,  1154, 0xA2E90030, 120.4522, 183.5059, 34.0055, -4.371139E-0
 /* @teleloc 0xA2E90030 [120.452200 183.505900 34.005500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2E9001, 0x7A2E9002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A2E9001, 0x7A2E9003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A2E9001, 0x7A2E9004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A2E9001, 0x7A2E9005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A2E9001, 0x7A2E9006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7A2E9001, 0x7A2E9007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A2E9001, 0x7A2E9008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2E9001, 0x7A2E9009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2E9001, 0x7A2E900A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A2E9001, 0x7A2E900B, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7A2E9001, 0x7A2E9002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A2E9001, 0x7A2E9003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A2E9001, 0x7A2E9004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A2E9001, 0x7A2E9005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A2E9001, 0x7A2E9006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7A2E9001, 0x7A2E9007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A2E9001, 0x7A2E9008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2E9001, 0x7A2E9009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2E9001, 0x7A2E900A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A2E9001, 0x7A2E900B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2E9002,   231, 0xA2E90030, 120.4522, 183.5059, 34.0055, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

@@ -5,11 +5,11 @@ VALUES (0x7DF5B001,  1154, 0xDF5B0023, 104.249, 61.97294, 15.31508, 0.6488177, 0
 /* @teleloc 0xDF5B0023 [104.249000 61.972940 15.315080] 0.648818 0.000000 0.000000 -0.760944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF5B001, 0x7DF5B002, '2019-02-10 00:00:00') /* Static */
-     , (0x7DF5B001, 0x7DF5B003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DF5B001, 0x7DF5B004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7DF5B001, 0x7DF5B005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DF5B001, 0x7DF5B006, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7DF5B001, 0x7DF5B002, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7DF5B001, 0x7DF5B003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DF5B001, 0x7DF5B004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7DF5B001, 0x7DF5B005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DF5B001, 0x7DF5B006, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF5B002,  6382, 0xDF5B0023, 104.249, 61.97294, 15.31508, 0.6488177, 0, 0, -0.7609439,  True, '2019-02-10 00:00:00'); /* Static */
@@ -36,7 +36,7 @@ VALUES (0x7DF5B007,  1542, 0xDF5B0024, 117.2906, 76.78503, 14.05281, 0.8660254, 
 /* @teleloc 0xDF5B0024 [117.290600 76.785030 14.052810] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF5B007, 0x7DF5B008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7DF5B007, 0x7DF5B008, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF5B008,  4382, 0xDF5B0024, 117.2906, 76.78503, 14.05281, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

@@ -5,23 +5,23 @@ VALUES (0x7A4A1001,  1154, 0xA4A1000C, 33.79781, 85.03671, 130.372, 0.9238795, 0
 /* @teleloc 0xA4A1000C [33.797810 85.036710 130.372000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4A1001, 0x7A4A1002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A1001, 0x7A4A1003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A1001, 0x7A4A1004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7A4A1001, 0x7A4A1005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A4A1001, 0x7A4A1006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A1001, 0x7A4A1007, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7A4A1001, 0x7A4A1008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A1001, 0x7A4A1009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4A1001, 0x7A4A100A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A4A1001, 0x7A4A100B, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A4A1001, 0x7A4A100C, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A1001, 0x7A4A100D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A4A1001, 0x7A4A100E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A4A1001, 0x7A4A100F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A4A1001, 0x7A4A1010, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A4A1001, 0x7A4A1011, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A4A1001, 0x7A4A1012, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7A4A1001, 0x7A4A1002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A1001, 0x7A4A1003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A1001, 0x7A4A1004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7A4A1001, 0x7A4A1005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A4A1001, 0x7A4A1006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A1001, 0x7A4A1007, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A4A1001, 0x7A4A1008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A1001, 0x7A4A1009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4A1001, 0x7A4A100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A4A1001, 0x7A4A100B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A4A1001, 0x7A4A100C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A1001, 0x7A4A100D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A4A1001, 0x7A4A100E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A4A1001, 0x7A4A100F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A4A1001, 0x7A4A1010, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A4A1001, 0x7A4A1011, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A4A1001, 0x7A4A1012, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4A1002,  1758, 0xA4A1000C, 33.79781, 85.03671, 130.372, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */

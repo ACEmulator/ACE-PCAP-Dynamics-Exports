@@ -5,16 +5,16 @@ VALUES (0x764E8001,  1154, 0x64E80001, 16.16419, 2.706647, 78.42326, -0.8681759,
 /* @teleloc 0x64E80001 [16.164190 2.706647 78.423260] -0.868176 0.000000 0.000000 -0.496257 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E8001, 0x764E8002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x764E8001, 0x764E8003, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x764E8001, 0x764E8004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E8001, 0x764E8005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E8001, 0x764E8006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x764E8001, 0x764E8007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E8001, 0x764E8008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x764E8001, 0x764E8009, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x764E8001, 0x764E800A, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764E8001, 0x764E800B, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x764E8001, 0x764E8002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x764E8001, 0x764E8003, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x764E8001, 0x764E8004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E8001, 0x764E8005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E8001, 0x764E8006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x764E8001, 0x764E8007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E8001, 0x764E8008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x764E8001, 0x764E8009, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x764E8001, 0x764E800A, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764E8001, 0x764E800B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E8002,  7184, 0x64E80001, 16.16419, 2.706647, 78.42326, -0.8681759, 0, 0, -0.4962566,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -61,7 +61,7 @@ VALUES (0x764E800C,  1542, 0x64E8001D, 79.57734, 113.4317, 54.18976, 0.9990482, 
 /* @teleloc 0x64E8001D [79.577340 113.431700 54.189760] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764E800C, 0x764E800D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x764E800C, 0x764E800D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764E800D,  4179, 0x64E8001D, 79.57734, 113.4317, 54.18976, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

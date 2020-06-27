@@ -5,13 +5,13 @@ VALUES (0x72085001,  1154, 0x20850001, 17.67653, 1.869354, 128.0075, 0.6740651, 
 /* @teleloc 0x20850001 [17.676530 1.869354 128.007500] 0.674065 0.000000 0.000000 -0.738672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72085001, 0x72085002, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72085001, 0x72085003, '2019-02-10 00:00:00') /* Frost */
-     , (0x72085001, 0x72085004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72085001, 0x72085005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x72085001, 0x72085006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72085001, 0x72085007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72085001, 0x72085008, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72085001, 0x72085002, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72085001, 0x72085003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72085001, 0x72085004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72085001, 0x72085005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x72085001, 0x72085006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72085001, 0x72085007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72085001, 0x72085008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72085002, 20190, 0x20850001, 17.67653, 1.869354, 128.0075, 0.6740651, 0, 0, -0.7386719,  True, '2019-02-10 00:00:00'); /* Gelid */
@@ -46,7 +46,7 @@ VALUES (0x72085009,  1542, 0x20850004, 14.78784, 79.58456, 127.8089, 0.507322, 0
 /* @teleloc 0x20850004 [14.787840 79.584560 127.808900] 0.507322 0.000000 0.000000 -0.861757 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72085009, 0x7208500A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x72085009, 0x7208500A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7208500A, 42528, 0x20850004, 14.78784, 79.58456, 127.8089, 0.507322, 0, 0, -0.8617566,  True, '2019-02-10 00:00:00'); /* Rock */

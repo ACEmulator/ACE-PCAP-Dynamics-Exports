@@ -5,13 +5,13 @@ VALUES (0x7D787001,  1154, 0xD7870014, 57.68666, 83.923, 21.82981, 0.9238795, 0,
 /* @teleloc 0xD7870014 [57.686660 83.923000 21.829810] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D787001, 0x7D787002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D787001, 0x7D787003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7D787001, 0x7D787004, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7D787001, 0x7D787005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D787001, 0x7D787006, '2019-02-10 00:00:00') /* Charge */
-     , (0x7D787001, 0x7D787007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7D787001, 0x7D787008, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7D787001, 0x7D787002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D787001, 0x7D787003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7D787001, 0x7D787004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7D787001, 0x7D787005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D787001, 0x7D787006, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7D787001, 0x7D787007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7D787001, 0x7D787008, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D787002, 10770, 0xD7870014, 57.68666, 83.923, 21.82981, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

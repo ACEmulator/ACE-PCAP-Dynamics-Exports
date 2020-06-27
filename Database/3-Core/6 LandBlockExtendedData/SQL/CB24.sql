@@ -5,14 +5,14 @@ VALUES (0x7CB24001,  1154, 0xCB24002D, 126.6749, 119.3435, 110.6209, 0.5844299, 
 /* @teleloc 0xCB24002D [126.674900 119.343500 110.620900] 0.584430 0.000000 0.000000 -0.811444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB24001, 0x7CB24002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7CB24001, 0x7CB24003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CB24001, 0x7CB24004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CB24001, 0x7CB24005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7CB24001, 0x7CB24006, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7CB24001, 0x7CB24007, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CB24001, 0x7CB24008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CB24001, 0x7CB24009, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7CB24001, 0x7CB24002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7CB24001, 0x7CB24003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CB24001, 0x7CB24004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CB24001, 0x7CB24005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7CB24001, 0x7CB24006, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7CB24001, 0x7CB24007, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CB24001, 0x7CB24008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CB24001, 0x7CB24009, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB24002,  8139, 0xCB24002D, 126.6749, 119.3435, 110.6209, 0.5844299, 0, 0, -0.8114442,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -51,7 +51,7 @@ VALUES (0x7CB2400A,  1542, 0xCB240029, 127.6572, 16.11421, 120.0191, 0.9511674, 
 /* @teleloc 0xCB240029 [127.657200 16.114210 120.019100] 0.951167 0.000000 0.000000 -0.308676 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB2400A, 0x7CB2400B, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CB2400A, 0x7CB2400B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB2400B,  8037, 0xCB240029, 127.6572, 16.11421, 120.0191, 0.9511674, 0, 0, -0.3086755,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

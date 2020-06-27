@@ -17,177 +17,177 @@ VALUES (0x79AEB003,  1154, 0x9AEB001C, 83.60776, 85.52239, 35.55184, 0.7163914, 
 /* @teleloc 0x9AEB001C [83.607760 85.522390 35.551840] 0.716391 0.000000 0.000000 -0.697699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AEB003, 0x79AEB004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x79AEB003, 0x79AEB005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79AEB003, 0x79AEB006, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x79AEB003, 0x79AEB007, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79AEB003, 0x79AEB008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB00A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB00B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79AEB003, 0x79AEB00D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB00E, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79AEB003, 0x79AEB00F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB010, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB012, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB013, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB015, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB017, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB018, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB019, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB01A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB01B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB01C, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB01D, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB01E, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB01F, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB020, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB021, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79AEB003, 0x79AEB022, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB023, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB024, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB025, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB026, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB027, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79AEB003, 0x79AEB028, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79AEB003, 0x79AEB029, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB02A, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB02B, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB02C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AEB003, 0x79AEB02D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79AEB003, 0x79AEB02E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB02F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79AEB003, 0x79AEB030, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79AEB003, 0x79AEB031, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB032, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB033, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB034, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB035, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AEB003, 0x79AEB036, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AEB003, 0x79AEB037, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AEB003, 0x79AEB038, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AEB003, 0x79AEB039, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AEB003, 0x79AEB03A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB03B, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AEB003, 0x79AEB03C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB03D, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79AEB003, 0x79AEB03E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB03F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB040, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB041, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79AEB003, 0x79AEB042, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB043, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x79AEB003, 0x79AEB044, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79AEB003, 0x79AEB045, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x79AEB003, 0x79AEB046, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AEB003, 0x79AEB047, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AEB003, 0x79AEB048, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AEB003, 0x79AEB049, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79AEB003, 0x79AEB04A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB04B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79AEB003, 0x79AEB04C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79AEB003, 0x79AEB04D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x79AEB003, 0x79AEB04E, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB04F, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79AEB003, 0x79AEB050, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB051, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB052, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB053, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79AEB003, 0x79AEB054, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB055, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB056, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB057, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79AEB003, 0x79AEB058, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB059, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB05A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79AEB003, 0x79AEB05B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB05C, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x79AEB003, 0x79AEB05D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x79AEB003, 0x79AEB05E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79AEB003, 0x79AEB05F, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79AEB003, 0x79AEB060, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB061, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AEB003, 0x79AEB062, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79AEB003, 0x79AEB063, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB064, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB065, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB066, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x79AEB003, 0x79AEB067, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB068, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79AEB003, 0x79AEB069, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79AEB003, 0x79AEB06A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79AEB003, 0x79AEB06B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB06C, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB06D, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x79AEB003, 0x79AEB06E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB06F, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AEB003, 0x79AEB070, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB071, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB072, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB073, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AEB003, 0x79AEB074, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB075, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79AEB003, 0x79AEB076, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB077, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB078, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB079, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AEB003, 0x79AEB07A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB07B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB07C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB07D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB07E, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AEB003, 0x79AEB07F, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79AEB003, 0x79AEB080, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB081, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB082, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB083, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB084, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AEB003, 0x79AEB085, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79AEB003, 0x79AEB086, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB087, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AEB003, 0x79AEB088, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AEB003, 0x79AEB089, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB08A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB08B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB08C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x79AEB003, 0x79AEB08D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB08E, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79AEB003, 0x79AEB08F, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB090, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB091, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79AEB003, 0x79AEB092, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AEB003, 0x79AEB093, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79AEB003, 0x79AEB094, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79AEB003, 0x79AEB095, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79AEB003, 0x79AEB096, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x79AEB003, 0x79AEB097, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x79AEB003, 0x79AEB098, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x79AEB003, 0x79AEB099, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79AEB003, 0x79AEB09A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79AEB003, 0x79AEB09B, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AEB003, 0x79AEB09C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB09D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79AEB003, 0x79AEB09E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB09F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB0A0, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79AEB003, 0x79AEB0A1, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79AEB003, 0x79AEB0A2, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x79AEB003, 0x79AEB0A3, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AEB003, 0x79AEB0A4, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79AEB003, 0x79AEB0A5, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AEB003, 0x79AEB0A6, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79AEB003, 0x79AEB0A7, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB0A8, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79AEB003, 0x79AEB0A9, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB0AA, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB0AB, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79AEB003, 0x79AEB0AC, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79AEB003, 0x79AEB0AD, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AEB003, 0x79AEB0AE, '2019-02-10 00:00:00') /* Banished Grievver */;
+VALUES (0x79AEB003, 0x79AEB004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x79AEB003, 0x79AEB005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79AEB003, 0x79AEB006, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x79AEB003, 0x79AEB007, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79AEB003, 0x79AEB008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB00A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB00B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79AEB003, 0x79AEB00D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB00E, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79AEB003, 0x79AEB00F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB011, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB012, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB013, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB015, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB016, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x79AEB003, 0x79AEB017, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79AEB003, 0x79AEB018, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79AEB003, 0x79AEB019, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB01A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB01B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB01C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB01D, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB01E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB01F, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB020, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB021, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79AEB003, 0x79AEB022, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB023, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB024, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB025, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB026, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB027, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79AEB003, 0x79AEB028, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79AEB003, 0x79AEB029, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB02A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB02B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB02C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AEB003, 0x79AEB02D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79AEB003, 0x79AEB02E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB02F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79AEB003, 0x79AEB030, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79AEB003, 0x79AEB031, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB032, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB033, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB034, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB035, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AEB003, 0x79AEB036, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AEB003, 0x79AEB037, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AEB003, 0x79AEB038, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AEB003, 0x79AEB039, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AEB003, 0x79AEB03A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB03B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AEB003, 0x79AEB03C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB03D, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79AEB003, 0x79AEB03E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB03F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB040, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB041, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79AEB003, 0x79AEB042, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB043, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x79AEB003, 0x79AEB044, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79AEB003, 0x79AEB045, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x79AEB003, 0x79AEB046, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AEB003, 0x79AEB047, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AEB003, 0x79AEB048, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AEB003, 0x79AEB049, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79AEB003, 0x79AEB04A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB04B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79AEB003, 0x79AEB04C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79AEB003, 0x79AEB04D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x79AEB003, 0x79AEB04E, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB04F, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79AEB003, 0x79AEB050, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB051, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB052, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB053, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79AEB003, 0x79AEB054, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB055, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB056, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB057, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79AEB003, 0x79AEB058, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB059, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB05A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79AEB003, 0x79AEB05B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB05C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x79AEB003, 0x79AEB05D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x79AEB003, 0x79AEB05E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79AEB003, 0x79AEB05F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79AEB003, 0x79AEB060, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB061, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AEB003, 0x79AEB062, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79AEB003, 0x79AEB063, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB064, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB065, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB066, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x79AEB003, 0x79AEB067, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB068, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79AEB003, 0x79AEB069, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79AEB003, 0x79AEB06A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79AEB003, 0x79AEB06B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB06C, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB06D, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x79AEB003, 0x79AEB06E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB06F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AEB003, 0x79AEB070, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB071, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x79AEB003, 0x79AEB072, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79AEB003, 0x79AEB073, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79AEB003, 0x79AEB074, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB075, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79AEB003, 0x79AEB076, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB077, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB078, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB079, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AEB003, 0x79AEB07A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB07B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB07C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB07D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB07E, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AEB003, 0x79AEB07F, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79AEB003, 0x79AEB080, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB081, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB082, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB083, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB084, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79AEB003, 0x79AEB085, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79AEB003, 0x79AEB086, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB087, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AEB003, 0x79AEB088, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AEB003, 0x79AEB089, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB08A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB08B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB08C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x79AEB003, 0x79AEB08D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB08E, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79AEB003, 0x79AEB08F, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB090, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB091, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79AEB003, 0x79AEB092, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AEB003, 0x79AEB093, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79AEB003, 0x79AEB094, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79AEB003, 0x79AEB095, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79AEB003, 0x79AEB096, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x79AEB003, 0x79AEB097, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x79AEB003, 0x79AEB098, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x79AEB003, 0x79AEB099, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79AEB003, 0x79AEB09A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79AEB003, 0x79AEB09B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AEB003, 0x79AEB09C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB09D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79AEB003, 0x79AEB09E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB09F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB0A0, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79AEB003, 0x79AEB0A1, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79AEB003, 0x79AEB0A2, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x79AEB003, 0x79AEB0A3, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AEB003, 0x79AEB0A4, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79AEB003, 0x79AEB0A5, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AEB003, 0x79AEB0A6, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79AEB003, 0x79AEB0A7, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB0A8, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79AEB003, 0x79AEB0A9, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB0AA, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB0AB, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79AEB003, 0x79AEB0AC, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79AEB003, 0x79AEB0AD, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AEB003, 0x79AEB0AE, '2019-02-10 00:00:00') /* Banished Grievver (30900) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AEB004,  7980, 0x9AEB001C, 83.60776, 85.52239, 35.55184, 0.7163914, 0, 0, -0.6976986,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -878,32 +878,32 @@ VALUES (0x79AEB0AF,  1542, 0x9AEB0016, 71.58207, 140.2113, 19.937, -0.7722029, 0
 /* @teleloc 0x9AEB0016 [71.582070 140.211300 19.937000] -0.772203 0.000000 0.000000 -0.635376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AEB0AF, 0x79AEB0B0, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0B1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0B2, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0B3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0B4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0B5, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79AEB0AF, 0x79AEB0B6, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79AEB0AF, 0x79AEB0B7, '2019-02-10 00:00:00') /* Bones */
-     , (0x79AEB0AF, 0x79AEB0B8, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79AEB0AF, 0x79AEB0B9, '2019-02-10 00:00:00') /* Blood Fang Jewel */
-     , (0x79AEB0AF, 0x79AEB0BA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0BB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0BC, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79AEB0AF, 0x79AEB0BD, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0BE, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0BF, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0C0, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79AEB0AF, 0x79AEB0C1, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x79AEB0AF, 0x79AEB0C2, '2019-02-10 00:00:00') /* Amulet */
-     , (0x79AEB0AF, 0x79AEB0C3, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0C4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x79AEB0AF, 0x79AEB0C5, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x79AEB0AF, 0x79AEB0C6, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79AEB0AF, 0x79AEB0C7, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79AEB0AF, 0x79AEB0C8, '2019-02-10 00:00:00') /* Bones */
-     , (0x79AEB0AF, 0x79AEB0C9, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x79AEB0AF, 0x79AEB0B0, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0B1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0B2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0B3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0B4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0B5, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x79AEB0AF, 0x79AEB0B6, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79AEB0AF, 0x79AEB0B7, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79AEB0AF, 0x79AEB0B8, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79AEB0AF, 0x79AEB0B9, '2019-02-10 00:00:00') /* Blood Fang Jewel (30801) */
+     , (0x79AEB0AF, 0x79AEB0BA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0BB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0BC, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x79AEB0AF, 0x79AEB0BD, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0BE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0BF, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0C0, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79AEB0AF, 0x79AEB0C1, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x79AEB0AF, 0x79AEB0C2, '2019-02-10 00:00:00') /* Amulet (294) */
+     , (0x79AEB0AF, 0x79AEB0C3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0C4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79AEB0AF, 0x79AEB0C5, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x79AEB0AF, 0x79AEB0C6, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x79AEB0AF, 0x79AEB0C7, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79AEB0AF, 0x79AEB0C8, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79AEB0AF, 0x79AEB0C9, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AEB0B0,  1955, 0x9AEB0016, 71.58207, 140.2113, 19.937, -0.7722029, 0, 0, -0.635376,  True, '2019-02-10 00:00:00'); /* Gateway */

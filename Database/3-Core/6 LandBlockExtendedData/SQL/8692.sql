@@ -5,10 +5,10 @@ VALUES (0x78692001,  1154, 0x86920040, 189.054, 168.8855, 73.9287, 0.2964479, 0,
 /* @teleloc 0x86920040 [189.054000 168.885500 73.928700] 0.296448 0.000000 0.000000 -0.955049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78692001, 0x78692002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78692001, 0x78692003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78692001, 0x78692004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78692001, 0x78692005, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x78692001, 0x78692002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78692001, 0x78692003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78692001, 0x78692004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78692001, 0x78692005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78692002,  1756, 0x86920040, 189.054, 168.8855, 73.9287, 0.2964479, 0, 0, -0.955049,  True, '2019-02-10 00:00:00'); /* Shadow Child */

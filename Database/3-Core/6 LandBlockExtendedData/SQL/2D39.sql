@@ -5,42 +5,42 @@ VALUES (0x72D39001,  1154, 0x2D390036, 165.3587, 121.2965, 122.3382, 0.4559512, 
 /* @teleloc 0x2D390036 [165.358700 121.296500 122.338200] 0.455951 0.000000 0.000000 -0.890005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D39001, 0x72D39002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D39001, 0x72D39003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D39001, 0x72D39004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D39001, 0x72D39005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D39001, 0x72D39006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72D39001, 0x72D39007, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72D39001, 0x72D39008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72D39001, 0x72D39009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D39001, 0x72D3900A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D39001, 0x72D3900B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D39001, 0x72D3900C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D39001, 0x72D3900D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D39001, 0x72D3900E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D39001, 0x72D3900F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D39001, 0x72D39010, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72D39001, 0x72D39011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D39001, 0x72D39012, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D39001, 0x72D39013, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72D39001, 0x72D39014, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D39001, 0x72D39015, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72D39001, 0x72D39016, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D39001, 0x72D39017, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72D39001, 0x72D39018, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D39001, 0x72D39019, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D39001, 0x72D3901A, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72D39001, 0x72D3901B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D39001, 0x72D3901C, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72D39001, 0x72D3901D, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D39001, 0x72D3901E, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D39001, 0x72D3901F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D39001, 0x72D39020, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72D39001, 0x72D39021, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72D39001, 0x72D39022, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72D39001, 0x72D39023, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D39001, 0x72D39024, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72D39001, 0x72D39025, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x72D39001, 0x72D39002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72D39001, 0x72D39003, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72D39001, 0x72D39004, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72D39001, 0x72D39005, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72D39001, 0x72D39006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72D39001, 0x72D39007, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72D39001, 0x72D39008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72D39001, 0x72D39009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D39001, 0x72D3900A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D39001, 0x72D3900B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D39001, 0x72D3900C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D39001, 0x72D3900D, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72D39001, 0x72D3900E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72D39001, 0x72D3900F, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72D39001, 0x72D39010, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72D39001, 0x72D39011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D39001, 0x72D39012, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72D39001, 0x72D39013, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72D39001, 0x72D39014, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72D39001, 0x72D39015, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72D39001, 0x72D39016, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D39001, 0x72D39017, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72D39001, 0x72D39018, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D39001, 0x72D39019, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D39001, 0x72D3901A, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72D39001, 0x72D3901B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D39001, 0x72D3901C, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72D39001, 0x72D3901D, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72D39001, 0x72D3901E, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72D39001, 0x72D3901F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D39001, 0x72D39020, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72D39001, 0x72D39021, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72D39001, 0x72D39022, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72D39001, 0x72D39023, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D39001, 0x72D39024, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72D39001, 0x72D39025, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D39002, 14520, 0x2D390036, 165.3587, 121.2965, 122.3382, 0.4559512, 0, 0, -0.8900048,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

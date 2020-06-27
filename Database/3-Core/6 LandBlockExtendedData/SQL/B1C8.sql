@@ -5,16 +5,16 @@ VALUES (0x7B1C8001,  1154, 0xB1C80016, 70.00016, 141.2629, 93.9728, -0.7862043, 
 /* @teleloc 0xB1C80016 [70.000160 141.262900 93.972800] -0.786204 0.000000 0.000000 -0.617967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1C8001, 0x7B1C8002, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8003, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7B1C8001, 0x7B1C8004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C8001, 0x7B1C8009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B1C8001, 0x7B1C800A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B1C8001, 0x7B1C800B, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7B1C8001, 0x7B1C8002, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8003, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7B1C8001, 0x7B1C8004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C8001, 0x7B1C8009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B1C8001, 0x7B1C800A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B1C8001, 0x7B1C800B, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1C8002, 32203, 0xB1C80016, 70.00016, 141.2629, 93.9728, -0.7862043, 0, 0, -0.6179667,  True, '2019-02-10 00:00:00'); /* Pumpkin Kin */

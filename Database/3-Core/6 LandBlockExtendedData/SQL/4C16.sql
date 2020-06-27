@@ -5,15 +5,15 @@ VALUES (0x74C16001,  1154, 0x4C160030, 121.7384, 168.4519, 68.0065, -0.5600348, 
 /* @teleloc 0x4C160030 [121.738400 168.451900 68.006500] -0.560035 0.000000 0.000000 -0.828469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C16001, 0x74C16002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74C16001, 0x74C16003, '2019-02-10 00:00:00') /* Flare */
-     , (0x74C16001, 0x74C16004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74C16001, 0x74C16005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74C16001, 0x74C16006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74C16001, 0x74C16007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74C16001, 0x74C16008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x74C16001, 0x74C16009, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x74C16001, 0x74C1600A, '2019-02-10 00:00:00') /* Inferno */;
+VALUES (0x74C16001, 0x74C16002, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74C16001, 0x74C16003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x74C16001, 0x74C16004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74C16001, 0x74C16005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74C16001, 0x74C16006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74C16001, 0x74C16007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74C16001, 0x74C16008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x74C16001, 0x74C16009, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x74C16001, 0x74C1600A, '2019-02-10 00:00:00') /* Inferno (5712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C16002,  5711, 0x4C160030, 121.7384, 168.4519, 68.0065, -0.5600348, 0, 0, -0.8284691,  True, '2019-02-10 00:00:00'); /* Flamma */

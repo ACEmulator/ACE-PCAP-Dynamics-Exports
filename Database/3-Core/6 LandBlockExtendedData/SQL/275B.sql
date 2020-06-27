@@ -5,10 +5,10 @@ VALUES (0x7275B001,  1154, 0x275B0029, 139.9185, 5.0938, -0.01874995, -0.1736482
 /* @teleloc 0x275B0029 [139.918500 5.093800 -0.018750] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7275B001, 0x7275B002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7275B001, 0x7275B003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7275B001, 0x7275B004, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7275B001, 0x7275B005, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x7275B001, 0x7275B002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7275B001, 0x7275B003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7275B001, 0x7275B004, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7275B001, 0x7275B005, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7275B002,  7113, 0x275B0029, 139.9185, 5.0938, -0.01874995, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */

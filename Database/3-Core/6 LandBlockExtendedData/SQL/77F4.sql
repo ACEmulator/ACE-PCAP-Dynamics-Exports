@@ -5,12 +5,12 @@ VALUES (0x777F4001,  1154, 0x77F4002C, 135.8307, 79.98992, 26.04696, -4.371139E-
 /* @teleloc 0x77F4002C [135.830700 79.989920 26.046960] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777F4001, 0x777F4002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x777F4001, 0x777F4003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x777F4001, 0x777F4004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x777F4001, 0x777F4005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x777F4001, 0x777F4006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x777F4001, 0x777F4007, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x777F4001, 0x777F4002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x777F4001, 0x777F4003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x777F4001, 0x777F4004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x777F4001, 0x777F4005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x777F4001, 0x777F4006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x777F4001, 0x777F4007, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777F4002, 24325, 0x77F4002C, 135.8307, 79.98992, 26.04696, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -41,8 +41,8 @@ VALUES (0x777F4008,  1542, 0x77F4002C, 133.3498, 82.78009, 26.04696, -4.371139E-
 /* @teleloc 0x77F4002C [133.349800 82.780090 26.046960] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777F4008, 0x777F4009, '2019-02-10 00:00:00') /* Bones */
-     , (0x777F4008, 0x777F400A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x777F4008, 0x777F4009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x777F4008, 0x777F400A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777F4009,  4380, 0x77F4002C, 133.3498, 82.78009, 26.04696, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

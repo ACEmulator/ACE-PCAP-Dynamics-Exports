@@ -5,31 +5,31 @@ VALUES (0x7EE25001,  1154, 0xEE250007, 20.55403, 167.6442, 0.001199961, 0.953716
 /* @teleloc 0xEE250007 [20.554030 167.644200 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE25001, 0x7EE25002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE25001, 0x7EE25003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE25001, 0x7EE25006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE25001, 0x7EE25007, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EE25001, 0x7EE25008, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EE25001, 0x7EE25009, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE25001, 0x7EE2500A, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE25001, 0x7EE2500B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE25001, 0x7EE2500C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7EE25001, 0x7EE2500D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE25001, 0x7EE2500E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE25001, 0x7EE2500F, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25011, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7EE25001, 0x7EE25012, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EE25001, 0x7EE25013, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7EE25001, 0x7EE25014, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25015, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7EE25001, 0x7EE25016, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE25001, 0x7EE25017, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE25001, 0x7EE25018, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE25001, 0x7EE25019, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7EE25001, 0x7EE2501A, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7EE25001, 0x7EE25002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE25001, 0x7EE25003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE25001, 0x7EE25006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE25001, 0x7EE25007, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EE25001, 0x7EE25008, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EE25001, 0x7EE25009, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE25001, 0x7EE2500A, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE25001, 0x7EE2500B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE25001, 0x7EE2500C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7EE25001, 0x7EE2500D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE25001, 0x7EE2500E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE25001, 0x7EE2500F, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25011, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7EE25001, 0x7EE25012, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EE25001, 0x7EE25013, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7EE25001, 0x7EE25014, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25015, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7EE25001, 0x7EE25016, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE25001, 0x7EE25017, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE25001, 0x7EE25018, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE25001, 0x7EE25019, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7EE25001, 0x7EE2501A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE25002,  7109, 0xEE250007, 20.55403, 167.6442, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -136,10 +136,10 @@ VALUES (0x7EE2501B,  1542, 0xEE250008, 18.91327, 186.5475, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xEE250008 [18.913270 186.547500 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE2501B, 0x7EE2501C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7EE2501B, 0x7EE2501D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7EE2501B, 0x7EE2501E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7EE2501B, 0x7EE2501F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7EE2501B, 0x7EE2501C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7EE2501B, 0x7EE2501D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7EE2501B, 0x7EE2501E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7EE2501B, 0x7EE2501F, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE2501C,  4179, 0xEE250008, 18.91327, 186.5475, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

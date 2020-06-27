@@ -5,16 +5,16 @@ VALUES (0x722E0001,  1154, 0x22E00033, 161.2014, 48.06283, 21.66959, 0.3360227, 
 /* @teleloc 0x22E00033 [161.201400 48.062830 21.669590] 0.336023 0.000000 0.000000 -0.941854 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E0001, 0x722E0002, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E0001, 0x722E0003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x722E0001, 0x722E0004, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x722E0001, 0x722E0005, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E0001, 0x722E0006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x722E0001, 0x722E0007, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x722E0001, 0x722E0008, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E0001, 0x722E0009, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x722E0001, 0x722E000A, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x722E0001, 0x722E000B, '2019-02-10 00:00:00') /* Damaged Glacial Golem */;
+VALUES (0x722E0001, 0x722E0002, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E0001, 0x722E0003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x722E0001, 0x722E0004, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x722E0001, 0x722E0005, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E0001, 0x722E0006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x722E0001, 0x722E0007, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x722E0001, 0x722E0008, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E0001, 0x722E0009, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x722E0001, 0x722E000A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x722E0001, 0x722E000B, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E0002, 28671, 0x22E00033, 161.2014, 48.06283, 21.66959, 0.3360227, 0, 0, -0.9418539,  True, '2019-02-10 00:00:00'); /* Ruschk Shatterer */

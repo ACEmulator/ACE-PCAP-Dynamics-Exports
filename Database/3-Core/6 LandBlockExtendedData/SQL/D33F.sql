@@ -9,23 +9,23 @@ VALUES (0x7D33F001,  1154, 0xD33F0006, 13.76811, 124.5003, 204.6832, -0.9893287,
 /* @teleloc 0xD33F0006 [13.768110 124.500300 204.683200] -0.989329 0.000000 0.000000 -0.145700 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33F001, 0x7D33F002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D33F001, 0x7D33F003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7D33F001, 0x7D33F004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F006, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D33F001, 0x7D33F007, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D33F001, 0x7D33F008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D33F001, 0x7D33F009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F00A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F00B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F00C, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D33F001, 0x7D33F00D, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D33F001, 0x7D33F00E, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7D33F001, 0x7D33F00F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D33F001, 0x7D33F010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D33F001, 0x7D33F011, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7D33F001, 0x7D33F012, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7D33F001, 0x7D33F002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D33F001, 0x7D33F003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7D33F001, 0x7D33F004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F006, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D33F001, 0x7D33F007, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D33F001, 0x7D33F008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D33F001, 0x7D33F009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F00A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F00B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F00C, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D33F001, 0x7D33F00D, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D33F001, 0x7D33F00E, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7D33F001, 0x7D33F00F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D33F001, 0x7D33F010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D33F001, 0x7D33F011, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7D33F001, 0x7D33F012, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33F002,  8141, 0xD33F0006, 13.76811, 124.5003, 204.6832, -0.9893287, 0, 0, -0.1457004,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -100,8 +100,8 @@ VALUES (0x7D33F013,  1542, 0xD33F0016, 52.10747, 122.1695, 201.9377, 0.7082983, 
 /* @teleloc 0xD33F0016 [52.107470 122.169500 201.937700] 0.708298 0.000000 0.000000 -0.705913 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D33F013, 0x7D33F014, '2019-02-10 00:00:00') /* Rock */
-     , (0x7D33F013, 0x7D33F015, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7D33F013, 0x7D33F014, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7D33F013, 0x7D33F015, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D33F014, 42528, 0xD33F0016, 52.10747, 122.1695, 201.9377, 0.7082983, 0, 0, -0.7059132,  True, '2019-02-10 00:00:00'); /* Rock */

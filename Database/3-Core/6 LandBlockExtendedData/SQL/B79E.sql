@@ -5,21 +5,21 @@ VALUES (0x7B79E001,  1154, 0xB79E0019, 82.96146, 23.8617, 56.85235, -0.3381331, 
 /* @teleloc 0xB79E0019 [82.961460 23.861700 56.852350] -0.338133 0.000000 0.000000 -0.941098 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B79E001, 0x7B79E002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B79E001, 0x7B79E003, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B79E001, 0x7B79E004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B79E001, 0x7B79E005, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B79E001, 0x7B79E006, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7B79E001, 0x7B79E007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B79E001, 0x7B79E008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B79E001, 0x7B79E009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B79E001, 0x7B79E00A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B79E001, 0x7B79E00B, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B79E001, 0x7B79E00C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B79E001, 0x7B79E00D, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B79E001, 0x7B79E00E, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B79E001, 0x7B79E00F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B79E001, 0x7B79E010, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7B79E001, 0x7B79E002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B79E001, 0x7B79E003, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B79E001, 0x7B79E004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B79E001, 0x7B79E005, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B79E001, 0x7B79E006, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B79E001, 0x7B79E007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B79E001, 0x7B79E008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B79E001, 0x7B79E009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B79E001, 0x7B79E00A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B79E001, 0x7B79E00B, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B79E001, 0x7B79E00C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B79E001, 0x7B79E00D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B79E001, 0x7B79E00E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B79E001, 0x7B79E00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B79E001, 0x7B79E010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79E002,  4110, 0xB79E0019, 82.96146, 23.8617, 56.85235, -0.3381331, 0, 0, -0.9410983,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

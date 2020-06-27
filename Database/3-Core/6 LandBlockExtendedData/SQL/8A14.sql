@@ -5,19 +5,19 @@ VALUES (0x78A14001,  1154, 0x8A14002C, 130.273, 78.79559, 320.2203, 0.9238795, 0
 /* @teleloc 0x8A14002C [130.273000 78.795590 320.220300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A14001, 0x78A14002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78A14001, 0x78A14003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78A14001, 0x78A14004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78A14001, 0x78A14005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78A14001, 0x78A14006, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x78A14001, 0x78A14007, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x78A14001, 0x78A14008, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x78A14001, 0x78A14009, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x78A14001, 0x78A1400A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78A14001, 0x78A1400B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x78A14001, 0x78A1400C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78A14001, 0x78A1400D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x78A14001, 0x78A1400E, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x78A14001, 0x78A14002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78A14001, 0x78A14003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78A14001, 0x78A14004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78A14001, 0x78A14005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78A14001, 0x78A14006, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x78A14001, 0x78A14007, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x78A14001, 0x78A14008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x78A14001, 0x78A14009, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x78A14001, 0x78A1400A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78A14001, 0x78A1400B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x78A14001, 0x78A1400C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78A14001, 0x78A1400D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x78A14001, 0x78A1400E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A14002,  7090, 0x8A14002C, 130.273, 78.79559, 320.2203, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -76,7 +76,7 @@ VALUES (0x78A1400F,  1542, 0x8A140034, 148.8647, 83.82977, 320.2203, 1, 0, 0, 0,
 /* @teleloc 0x8A140034 [148.864700 83.829770 320.220300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A1400F, 0x78A14010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78A1400F, 0x78A14010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A14010,  4179, 0x8A140034, 148.8647, 83.82977, 320.2203, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

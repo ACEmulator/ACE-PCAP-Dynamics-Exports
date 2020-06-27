@@ -5,21 +5,21 @@ VALUES (0x73169001,  1154, 0x31690038, 154.5004, 185.6699, 223.8305, 0.4442381, 
 /* @teleloc 0x31690038 [154.500400 185.669900 223.830500] 0.444238 0.000000 0.000000 -0.895909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73169001, 0x73169002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73169001, 0x73169003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73169001, 0x73169004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x73169001, 0x73169005, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73169001, 0x73169006, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73169001, 0x73169007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73169001, 0x73169008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73169001, 0x73169009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73169001, 0x7316900A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73169001, 0x7316900B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73169001, 0x7316900C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x73169001, 0x7316900D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73169001, 0x7316900E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x73169001, 0x7316900F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x73169001, 0x73169010, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x73169001, 0x73169002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73169001, 0x73169003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73169001, 0x73169004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73169001, 0x73169005, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x73169001, 0x73169006, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x73169001, 0x73169007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73169001, 0x73169008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73169001, 0x73169009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73169001, 0x7316900A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73169001, 0x7316900B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73169001, 0x7316900C, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x73169001, 0x7316900D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73169001, 0x7316900E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73169001, 0x7316900F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x73169001, 0x73169010, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73169002,  7081, 0x31690038, 154.5004, 185.6699, 223.8305, 0.4442381, 0, 0, -0.8959088,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -86,7 +86,7 @@ VALUES (0x73169011,  1542, 0x3169002D, 137.3905, 114.7656, 191.7283, 1, 0, 0, 0,
 /* @teleloc 0x3169002D [137.390500 114.765600 191.728300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73169011, 0x73169012, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73169011, 0x73169012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73169012, 31445, 0x3169002D, 137.3905, 114.7656, 191.7283, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

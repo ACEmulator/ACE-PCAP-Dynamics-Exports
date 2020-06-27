@@ -9,7 +9,7 @@ VALUES (0x7C8E9003,  1154, 0xC8E90033, 161.1956, 70.05827, 0, -0.98998, 0, 0, -0
 /* @teleloc 0xC8E90033 [161.195600 70.058270 0.000000] -0.989980 0.000000 0.000000 -0.141208 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8E9003, 0x7C8E9004, '2019-02-10 00:00:00') /* Big Red Olthoi */;
+VALUES (0x7C8E9003, 0x7C8E9004, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8E9004, 43480, 0xC8E90033, 161.1956, 70.05827, 0, -0.98998, 0, 0, -0.1412078,  True, '2019-02-10 00:00:00'); /* Big Red Olthoi */
@@ -20,7 +20,7 @@ VALUES (0x7C8E9005,  1154, 0xC8E90100, 154.798, 61.3465, -0.2950001, -0.550599, 
 /* @teleloc 0xC8E90100 [154.798000 61.346500 -0.295000] -0.550599 0.000000 0.000000 -0.834770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8E9005, 0x7C8E9006, '2019-02-10 00:00:00') /* Tyrina of Arwic */;
+VALUES (0x7C8E9005, 0x7C8E9006, '2019-02-10 00:00:00') /* Tyrina of Arwic (33673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8E9006, 33673, 0xC8E90100, 154.798, 61.3465, -0.2950001, -0.550599, 0, 0, -0.83477,  True, '2019-02-10 00:00:00'); /* Tyrina of Arwic */
@@ -31,52 +31,52 @@ VALUES (0x7C8E9007,  1542, 0xC8E9002B, 120.5834, 51.31593, 0.0315, 0.9968535, 0,
 /* @teleloc 0xC8E9002B [120.583400 51.315930 0.031500] 0.996854 0.000000 0.000000 -0.079265 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8E9007, 0x7C8E9008, '2019-02-10 00:00:00') /* Plentiful Healing Kit */
-     , (0x7C8E9007, 0x7C8E9009, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E900A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E900B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E900C, '2019-02-10 00:00:00') /* Noble Relic Leggings of Health */
-     , (0x7C8E9007, 0x7C8E900D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E900E, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E900F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9010, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9011, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9012, '2019-02-10 00:00:00') /* Prismatic Taper */
-     , (0x7C8E9007, 0x7C8E9013, '2019-02-10 00:00:00') /* Pearl of Blood Drinking */
-     , (0x7C8E9007, 0x7C8E9014, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Helm */
-     , (0x7C8E9007, 0x7C8E9015, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E9016, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E9017, '2019-02-10 00:00:00') /* Thorsten's Armor */
-     , (0x7C8E9007, 0x7C8E9018, '2019-02-10 00:00:00') /* Zombie Butler */
-     , (0x7C8E9007, 0x7C8E9019, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x7C8E9007, 0x7C8E901A, '2019-02-10 00:00:00') /* Carved Tusker Statue */
-     , (0x7C8E9007, 0x7C8E901B, '2019-02-10 00:00:00') /* Pack Pumpkin Lord */
-     , (0x7C8E9007, 0x7C8E901C, '2019-02-10 00:00:00') /* Head of the Olthoi Queen */
-     , (0x7C8E9007, 0x7C8E901D, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E901E, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E901F, '2019-02-10 00:00:00') /* Chorizite Staff */
-     , (0x7C8E9007, 0x7C8E9020, '2019-02-10 00:00:00') /* Lesser Corrupted Essence */
-     , (0x7C8E9007, 0x7C8E9021, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7C8E9007, 0x7C8E9022, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9023, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9024, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9025, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9026, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9027, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9028, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9029, '2019-02-10 00:00:00') /* Haebrean Pauldrons */
-     , (0x7C8E9007, 0x7C8E902A, '2019-02-10 00:00:00') /* Haebrean Vambraces */
-     , (0x7C8E9007, 0x7C8E902B, '2019-02-10 00:00:00') /* Major Mana Stone */
-     , (0x7C8E9007, 0x7C8E902C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E902D, '2019-02-10 00:00:00') /* Yoroi Cuirass */
-     , (0x7C8E9007, 0x7C8E902E, '2019-02-10 00:00:00') /* Fire Bow */
-     , (0x7C8E9007, 0x7C8E902F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9030, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9031, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E9032, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E9033, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C8E9007, 0x7C8E9034, '2019-02-10 00:00:00') /* Spectral Flame */
-     , (0x7C8E9007, 0x7C8E9035, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7C8E9007, 0x7C8E9008, '2019-02-10 00:00:00') /* Plentiful Healing Kit (22449) */
+     , (0x7C8E9007, 0x7C8E9009, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E900A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E900B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E900C, '2019-02-10 00:00:00') /* Noble Relic Leggings of Health (33587) */
+     , (0x7C8E9007, 0x7C8E900D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E900E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E900F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9010, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9011, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9012, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7C8E9007, 0x7C8E9013, '2019-02-10 00:00:00') /* Pearl of Blood Drinking (30191) */
+     , (0x7C8E9007, 0x7C8E9014, '2019-02-10 00:00:00') /* Upgraded Ancient Relic Helm (43932) */
+     , (0x7C8E9007, 0x7C8E9015, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E9016, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E9017, '2019-02-10 00:00:00') /* Thorsten's Armor (11936) */
+     , (0x7C8E9007, 0x7C8E9018, '2019-02-10 00:00:00') /* Zombie Butler (34085) */
+     , (0x7C8E9007, 0x7C8E9019, '2019-02-10 00:00:00') /* Puzzle Box (9066) */
+     , (0x7C8E9007, 0x7C8E901A, '2019-02-10 00:00:00') /* Carved Tusker Statue (22620) */
+     , (0x7C8E9007, 0x7C8E901B, '2019-02-10 00:00:00') /* Pack Pumpkin Lord (32206) */
+     , (0x7C8E9007, 0x7C8E901C, '2019-02-10 00:00:00') /* Head of the Olthoi Queen (11149) */
+     , (0x7C8E9007, 0x7C8E901D, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E901E, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E901F, '2019-02-10 00:00:00') /* Chorizite Staff (35550) */
+     , (0x7C8E9007, 0x7C8E9020, '2019-02-10 00:00:00') /* Lesser Corrupted Essence (44469) */
+     , (0x7C8E9007, 0x7C8E9021, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7C8E9007, 0x7C8E9022, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9023, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9024, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9025, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9026, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9027, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9028, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9029, '2019-02-10 00:00:00') /* Haebrean Pauldrons (42754) */
+     , (0x7C8E9007, 0x7C8E902A, '2019-02-10 00:00:00') /* Haebrean Vambraces (42757) */
+     , (0x7C8E9007, 0x7C8E902B, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
+     , (0x7C8E9007, 0x7C8E902C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E902D, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
+     , (0x7C8E9007, 0x7C8E902E, '2019-02-10 00:00:00') /* Fire Bow (29241) */
+     , (0x7C8E9007, 0x7C8E902F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9030, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9031, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E9032, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E9033, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9034, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
+     , (0x7C8E9007, 0x7C8E9035, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8E9008, 22449, 0xC8E9002B, 120.5834, 51.31593, 0.0315, 0.9968535, 0, 0, -0.07926548,  True, '2019-02-10 00:00:00'); /* Plentiful Healing Kit */

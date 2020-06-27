@@ -5,8 +5,8 @@ VALUES (0x787DB001,  1154, 0x87DB001F, 74.98969, 148.5811, 116.6127, -0.3537883,
 /* @teleloc 0x87DB001F [74.989690 148.581100 116.612700] -0.353788 0.000000 0.000000 -0.935326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787DB001, 0x787DB002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x787DB001, 0x787DB003, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x787DB001, 0x787DB002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x787DB001, 0x787DB003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787DB002,  7088, 0x87DB001F, 74.98969, 148.5811, 116.6127, -0.3537883, 0, 0, -0.9353256,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

@@ -5,15 +5,15 @@ VALUES (0x7ED78001,  1154, 0xED780005, 1.450838, 118.8208, -0.09500003, 0.799671
 /* @teleloc 0xED780005 [1.450838 118.820800 -0.095000] 0.799672 0.000000 0.000000 -0.600438 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED78001, 0x7ED78002, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7ED78001, 0x7ED78003, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED78001, 0x7ED78004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED78001, 0x7ED78005, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7ED78001, 0x7ED78006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7ED78001, 0x7ED78007, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7ED78001, 0x7ED78008, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED78001, 0x7ED78009, '2019-02-10 00:00:00') /* Tusker Sycophant */
-     , (0x7ED78001, 0x7ED7800A, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x7ED78001, 0x7ED78002, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7ED78001, 0x7ED78003, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED78001, 0x7ED78004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED78001, 0x7ED78005, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED78001, 0x7ED78006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED78001, 0x7ED78007, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7ED78001, 0x7ED78008, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED78001, 0x7ED78009, '2019-02-10 00:00:00') /* Tusker Sycophant (22513) */
+     , (0x7ED78001, 0x7ED7800A, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED78002, 22513, 0xED780005, 1.450838, 118.8208, -0.09500003, 0.7996717, 0, 0, -0.6004375,  True, '2019-02-10 00:00:00'); /* Tusker Sycophant */

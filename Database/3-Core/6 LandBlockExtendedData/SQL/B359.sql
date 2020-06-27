@@ -5,11 +5,11 @@ VALUES (0x7B359001,  1154, 0xB3590016, 59.89743, 139.5633, 16.029, 0.6173207, 0,
 /* @teleloc 0xB3590016 [59.897430 139.563300 16.029000] 0.617321 0.000000 0.000000 -0.786712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B359001, 0x7B359002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7B359001, 0x7B359003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B359001, 0x7B359004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7B359001, 0x7B359005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7B359001, 0x7B359006, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7B359001, 0x7B359002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7B359001, 0x7B359003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B359001, 0x7B359004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7B359001, 0x7B359005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7B359001, 0x7B359006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B359002,    23, 0xB3590016, 59.89743, 139.5633, 16.029, 0.6173207, 0, 0, -0.7867116,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

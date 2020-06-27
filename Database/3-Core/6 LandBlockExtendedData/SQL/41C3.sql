@@ -5,20 +5,20 @@ VALUES (0x741C3001,  1154, 0x41C30005, 21.13213, 103.8543, 5.554533, -0.3944158,
 /* @teleloc 0x41C30005 [21.132130 103.854300 5.554533] -0.394416 0.000000 0.000000 -0.918932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741C3001, 0x741C3002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x741C3001, 0x741C3003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x741C3001, 0x741C3004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741C3001, 0x741C3005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x741C3001, 0x741C3006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x741C3001, 0x741C3007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x741C3001, 0x741C3008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x741C3001, 0x741C3009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x741C3001, 0x741C300A, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x741C3001, 0x741C300B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x741C3001, 0x741C300C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x741C3001, 0x741C300D, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x741C3001, 0x741C300E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x741C3001, 0x741C300F, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x741C3001, 0x741C3002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x741C3001, 0x741C3003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x741C3001, 0x741C3004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741C3001, 0x741C3005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x741C3001, 0x741C3006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x741C3001, 0x741C3007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x741C3001, 0x741C3008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x741C3001, 0x741C3009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x741C3001, 0x741C300A, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x741C3001, 0x741C300B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x741C3001, 0x741C300C, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x741C3001, 0x741C300D, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x741C3001, 0x741C300E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x741C3001, 0x741C300F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741C3002, 10806, 0x41C30005, 21.13213, 103.8543, 5.554533, -0.3944158, 0, 0, -0.9189321,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -81,10 +81,10 @@ VALUES (0x741C3010,  1542, 0x41C30035, 156.0563, 119.1894, 7.941828, 1, 0, 0, 0,
 /* @teleloc 0x41C30035 [156.056300 119.189400 7.941828] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741C3010, 0x741C3011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x741C3010, 0x741C3012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x741C3010, 0x741C3013, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x741C3010, 0x741C3014, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x741C3010, 0x741C3011, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x741C3010, 0x741C3012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x741C3010, 0x741C3013, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x741C3010, 0x741C3014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741C3011, 22567, 0x41C30035, 156.0563, 119.1894, 7.941828, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

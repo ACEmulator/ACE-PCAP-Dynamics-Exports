@@ -5,13 +5,13 @@ VALUES (0x742B8001,  1154, 0x42B80021, 115.9242, 2.855783, 47.01269, -0.5446422,
 /* @teleloc 0x42B80021 [115.924200 2.855783 47.012690] -0.544642 0.000000 0.000000 -0.838669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742B8001, 0x742B8002, '2019-02-10 00:00:00') /* Ember */
-     , (0x742B8001, 0x742B8003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x742B8001, 0x742B8004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x742B8001, 0x742B8005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x742B8001, 0x742B8006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x742B8001, 0x742B8007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x742B8001, 0x742B8008, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x742B8001, 0x742B8002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x742B8001, 0x742B8003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x742B8001, 0x742B8004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x742B8001, 0x742B8005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x742B8001, 0x742B8006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x742B8001, 0x742B8007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x742B8001, 0x742B8008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742B8002,  7607, 0x42B80021, 115.9242, 2.855783, 47.01269, -0.5446422, 0, 0, -0.8386685,  True, '2019-02-10 00:00:00'); /* Ember */

@@ -5,12 +5,12 @@ VALUES (0x72C7D001,  1154, 0x2C7D0006, 16.84913, 129.6237, 249.208, -0.9752578, 
 /* @teleloc 0x2C7D0006 [16.849130 129.623700 249.208000] -0.975258 0.000000 0.000000 -0.221071 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C7D001, 0x72C7D002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72C7D001, 0x72C7D003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C7D001, 0x72C7D004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72C7D001, 0x72C7D005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72C7D001, 0x72C7D006, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x72C7D001, 0x72C7D007, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x72C7D001, 0x72C7D002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C7D001, 0x72C7D003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C7D001, 0x72C7D004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72C7D001, 0x72C7D005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72C7D001, 0x72C7D006, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x72C7D001, 0x72C7D007, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C7D002, 36830, 0x2C7D0006, 16.84913, 129.6237, 249.208, -0.9752578, 0, 0, -0.221071,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -41,8 +41,8 @@ VALUES (0x72C7D008,  1542, 0x2C7D002D, 126.0139, 114.023, 248.328, 0.9980263, 0,
 /* @teleloc 0x2C7D002D [126.013900 114.023000 248.328000] 0.998026 0.000000 0.000000 -0.062798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C7D008, 0x72C7D009, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x72C7D008, 0x72C7D00A, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x72C7D008, 0x72C7D009, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x72C7D008, 0x72C7D00A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C7D009,  8644, 0x2C7D002D, 126.0139, 114.023, 248.328, 0.9980263, 0, 0, -0.06279807,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

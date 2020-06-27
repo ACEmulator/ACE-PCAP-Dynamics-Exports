@@ -5,12 +5,12 @@ VALUES (0x73D49001,  1154, 0x3D49000F, 40.84187, 158.4581, 20.0064, -0.9360054, 
 /* @teleloc 0x3D49000F [40.841870 158.458100 20.006400] -0.936005 0.000000 0.000000 -0.351986 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D49001, 0x73D49002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73D49001, 0x73D49003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73D49001, 0x73D49004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73D49001, 0x73D49005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D49001, 0x73D49006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73D49001, 0x73D49007, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x73D49001, 0x73D49002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73D49001, 0x73D49003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73D49001, 0x73D49004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73D49001, 0x73D49005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D49001, 0x73D49006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73D49001, 0x73D49007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D49002,  7181, 0x3D49000F, 40.84187, 158.4581, 20.0064, -0.9360054, 0, 0, -0.3519858,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -41,8 +41,8 @@ VALUES (0x73D49008,  1542, 0x3D49000F, 28.99928, 151.7764, 19.99784, 1, 0, 0, 0,
 /* @teleloc 0x3D49000F [28.999280 151.776400 19.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D49008, 0x73D49009, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x73D49008, 0x73D4900A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73D49008, 0x73D49009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x73D49008, 0x73D4900A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D49009, 31445, 0x3D49000F, 28.99928, 151.7764, 19.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

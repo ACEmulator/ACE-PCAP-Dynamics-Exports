@@ -33,15 +33,15 @@ VALUES (0x701F4027,  1154, 0x01F401A2, 57.3237, -157.375, -11.99, -0.4590812, 0,
 /* @teleloc 0x01F401A2 [57.323700 -157.375000 -11.990000] -0.459081 0.000000 0.000000 0.888394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701F4027, 0x701F4028, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4027, 0x701F4029, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4027, 0x701F402A, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4027, 0x701F402B, '2019-02-10 00:00:00') /* Tenuous Nephol Golem */
-     , (0x701F4027, 0x701F402C, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4027, 0x701F402D, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4027, 0x701F402E, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4027, 0x701F402F, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */
-     , (0x701F4027, 0x701F4030, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem */;
+VALUES (0x701F4027, 0x701F4028, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4027, 0x701F4029, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4027, 0x701F402A, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9052) */
+     , (0x701F4027, 0x701F402B, '2019-02-10 00:00:00') /* Tenuous Nephol Golem (9053) */
+     , (0x701F4027, 0x701F402C, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4027, 0x701F402D, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9054) */
+     , (0x701F4027, 0x701F402E, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4027, 0x701F402F, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */
+     , (0x701F4027, 0x701F4030, '2019-02-10 00:00:00') /* Diaphanous Nephol Golem (9055) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F4028,  9053, 0x01F401A2, 57.3237, -157.375, -11.99, -0.4590812, 0, 0, 0.8883944,  True, '2019-02-10 00:00:00'); /* Tenuous Nephol Golem */

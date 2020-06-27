@@ -5,43 +5,43 @@ VALUES (0x70E89001,  1154, 0x0E890030, 139.5755, 188.3831, 0.00454998, 0.6782004
 /* @teleloc 0x0E890030 [139.575500 188.383100 0.004550] 0.678200 0.000000 0.000000 -0.734877 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E89001, 0x70E89002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70E89001, 0x70E89003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70E89001, 0x70E89004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70E89001, 0x70E89005, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70E89001, 0x70E89006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70E89001, 0x70E89007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E89001, 0x70E89008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70E89001, 0x70E89009, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70E89001, 0x70E8900A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E89001, 0x70E8900B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70E89001, 0x70E8900C, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70E89001, 0x70E8900D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E89001, 0x70E8900E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70E89001, 0x70E8900F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E89001, 0x70E89010, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70E89001, 0x70E89011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70E89001, 0x70E89012, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E89013, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70E89001, 0x70E89014, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E89001, 0x70E89015, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70E89001, 0x70E89016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E89017, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70E89001, 0x70E89018, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70E89001, 0x70E89019, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70E89001, 0x70E8901A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E8901B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E8901C, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70E89001, 0x70E8901D, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70E89001, 0x70E8901E, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70E89001, 0x70E8901F, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70E89001, 0x70E89020, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E89021, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E89001, 0x70E89022, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E89001, 0x70E89023, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70E89001, 0x70E89024, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E89001, 0x70E89025, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70E89001, 0x70E89026, '2019-02-10 00:00:00') /* Entropy Wisp */;
+VALUES (0x70E89001, 0x70E89002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70E89001, 0x70E89003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70E89001, 0x70E89004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x70E89001, 0x70E89005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70E89001, 0x70E89006, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70E89001, 0x70E89007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E89001, 0x70E89008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x70E89001, 0x70E89009, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70E89001, 0x70E8900A, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E89001, 0x70E8900B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70E89001, 0x70E8900C, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70E89001, 0x70E8900D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E89001, 0x70E8900E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70E89001, 0x70E8900F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E89001, 0x70E89010, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70E89001, 0x70E89011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70E89001, 0x70E89012, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E89013, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70E89001, 0x70E89014, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E89001, 0x70E89015, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70E89001, 0x70E89016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E89017, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70E89001, 0x70E89018, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70E89001, 0x70E89019, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70E89001, 0x70E8901A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E8901B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E8901C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70E89001, 0x70E8901D, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70E89001, 0x70E8901E, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70E89001, 0x70E8901F, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70E89001, 0x70E89020, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E89021, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E89001, 0x70E89022, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E89001, 0x70E89023, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70E89001, 0x70E89024, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E89001, 0x70E89025, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70E89001, 0x70E89026, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E89002, 36825, 0x0E890030, 139.5755, 188.3831, 0.00454998, 0.6782004, 0, 0, -0.734877,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -196,8 +196,8 @@ VALUES (0x70E89027,  1542, 0x0E890011, 69.96107, 17.04607, -0.00999999, 0.881310
 /* @teleloc 0x0E890011 [69.961070 17.046070 -0.010000] 0.881311 0.000000 0.000000 -0.472537 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E89027, 0x70E89028, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x70E89027, 0x70E89029, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70E89027, 0x70E89028, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x70E89027, 0x70E89029, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E89028,  9286, 0x0E890011, 69.96107, 17.04607, -0.00999999, 0.8813108, 0, 0, -0.4725372,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

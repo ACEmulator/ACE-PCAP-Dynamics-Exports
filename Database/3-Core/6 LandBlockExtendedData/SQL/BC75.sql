@@ -5,10 +5,10 @@ VALUES (0x7BC75001,  1154, 0xBC750008, 7.007015, 179.2529, 22.0042, 0.9961947, 0
 /* @teleloc 0xBC750008 [7.007015 179.252900 22.004200] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC75001, 0x7BC75002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BC75001, 0x7BC75003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC75001, 0x7BC75004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BC75001, 0x7BC75005, '2019-02-10 00:00:00') /* Ethereal Wisp */;
+VALUES (0x7BC75001, 0x7BC75002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BC75001, 0x7BC75003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC75001, 0x7BC75004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BC75001, 0x7BC75005, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC75002,   940, 0xBC750008, 7.007015, 179.2529, 22.0042, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

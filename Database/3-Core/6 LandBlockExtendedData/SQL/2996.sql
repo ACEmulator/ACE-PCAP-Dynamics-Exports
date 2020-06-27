@@ -5,11 +5,11 @@ VALUES (0x72996001,  1154, 0x2996002D, 127.9017, 111.2773, 6.375523, 0.1736482, 
 /* @teleloc 0x2996002D [127.901700 111.277300 6.375523] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72996001, 0x72996002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72996001, 0x72996003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72996001, 0x72996004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72996001, 0x72996005, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72996001, 0x72996006, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x72996001, 0x72996002, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x72996001, 0x72996003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x72996001, 0x72996004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72996001, 0x72996005, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72996001, 0x72996006, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72996002,  7626, 0x2996002D, 127.9017, 111.2773, 6.375523, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Coral Golem */

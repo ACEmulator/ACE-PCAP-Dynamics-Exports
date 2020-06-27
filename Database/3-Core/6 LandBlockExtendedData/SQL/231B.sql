@@ -5,14 +5,14 @@ VALUES (0x7231B001,  1154, 0x231B0023, 106.3808, 69.75645, 12.49614, 0.9659258, 
 /* @teleloc 0x231B0023 [106.380800 69.756450 12.496140] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7231B001, 0x7231B002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7231B001, 0x7231B003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7231B001, 0x7231B004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7231B001, 0x7231B005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7231B001, 0x7231B006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7231B001, 0x7231B007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7231B001, 0x7231B008, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7231B001, 0x7231B009, '2019-02-10 00:00:00') /* Gotrok Titan */;
+VALUES (0x7231B001, 0x7231B002, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7231B001, 0x7231B003, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7231B001, 0x7231B004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7231B001, 0x7231B005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7231B001, 0x7231B006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7231B001, 0x7231B007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7231B001, 0x7231B008, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7231B001, 0x7231B009, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7231B002, 36850, 0x231B0023, 106.3808, 69.75645, 12.49614, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
@@ -51,7 +51,7 @@ VALUES (0x7231B00A,  1542, 0x231B0023, 104.629, 67.61336, 11.98798, 1, 0, 0, 0, 
 /* @teleloc 0x231B0023 [104.629000 67.613360 11.987980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7231B00A, 0x7231B00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7231B00A, 0x7231B00B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7231B00B, 22566, 0x231B0023, 104.629, 67.61336, 11.98798, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

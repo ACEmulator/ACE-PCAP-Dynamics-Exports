@@ -21,30 +21,30 @@ VALUES (0x7C75F006,  1154, 0xC75F0102, 83.69166, 84.82467, 5.2088, -0.22359, 0, 
 /* @teleloc 0xC75F0102 [83.691660 84.824670 5.208800] -0.223590 0.000000 0.000000 -0.974683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75F006, 0x7C75F007, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x7C75F006, 0x7C75F008, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7C75F006, 0x7C75F009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C75F006, 0x7C75F00A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C75F006, 0x7C75F00B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C75F006, 0x7C75F00C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C75F006, 0x7C75F00D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C75F006, 0x7C75F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C75F006, 0x7C75F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C75F006, 0x7C75F010, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C75F006, 0x7C75F011, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C75F006, 0x7C75F012, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C75F006, 0x7C75F013, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C75F006, 0x7C75F015, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C75F006, 0x7C75F016, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F017, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C75F006, 0x7C75F019, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F01A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C75F006, 0x7C75F01B, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7C75F006, 0x7C75F01C, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F01D, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C75F006, 0x7C75F01E, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7C75F006, 0x7C75F007, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x7C75F006, 0x7C75F008, '2019-02-10 00:00:00') /* Exploration Marker (39820) */
+     , (0x7C75F006, 0x7C75F009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C75F006, 0x7C75F00A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C75F006, 0x7C75F00B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C75F006, 0x7C75F00C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C75F006, 0x7C75F00D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C75F006, 0x7C75F00E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C75F006, 0x7C75F00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C75F006, 0x7C75F010, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C75F006, 0x7C75F011, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C75F006, 0x7C75F012, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C75F006, 0x7C75F013, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C75F006, 0x7C75F015, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C75F006, 0x7C75F016, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F017, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F018, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C75F006, 0x7C75F019, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F01A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C75F006, 0x7C75F01B, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7C75F006, 0x7C75F01C, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F01D, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C75F006, 0x7C75F01E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75F007,   220, 0xC75F0102, 83.69166, 84.82467, 5.2088, -0.22359, 0, 0, -0.974683,  True, '2019-02-10 00:00:00'); /* Brown Rat */
@@ -147,8 +147,8 @@ VALUES (0x7C75F01F,  1542, 0xC75F0036, 161.4514, 125.1535, 5.55, 0.9990482, 0, 0
 /* @teleloc 0xC75F0036 [161.451400 125.153500 5.550000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75F01F, 0x7C75F020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C75F01F, 0x7C75F021, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7C75F01F, 0x7C75F020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C75F01F, 0x7C75F021, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75F020,  4179, 0xC75F0036, 161.4514, 125.1535, 5.55, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

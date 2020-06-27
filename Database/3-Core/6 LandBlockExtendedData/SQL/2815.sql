@@ -5,11 +5,11 @@ VALUES (0x72815001,  1154, 0x2815003A, 175.3537, 45.39265, 17.21544, -0.9463676,
 /* @teleloc 0x2815003A [175.353700 45.392650 17.215440] -0.946368 0.000000 0.000000 -0.323092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72815001, 0x72815002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72815001, 0x72815003, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x72815001, 0x72815004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72815001, 0x72815005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72815001, 0x72815006, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x72815001, 0x72815002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72815001, 0x72815003, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x72815001, 0x72815004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72815001, 0x72815005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72815001, 0x72815006, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72815002,  7119, 0x2815003A, 175.3537, 45.39265, 17.21544, -0.9463676, 0, 0, -0.323092,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

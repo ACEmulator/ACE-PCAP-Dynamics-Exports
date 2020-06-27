@@ -9,31 +9,31 @@ VALUES (0x7C8B3001,  1154, 0xC8B30006, 23.27254, 123.951, 250.9616, -0.3303723, 
 /* @teleloc 0xC8B30006 [23.272540 123.951000 250.961600] -0.330372 0.000000 0.000000 -0.943851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B3001, 0x7C8B3002, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7C8B3001, 0x7C8B3003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C8B3001, 0x7C8B3004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C8B3001, 0x7C8B3005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8B3001, 0x7C8B3006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C8B3001, 0x7C8B3007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C8B3001, 0x7C8B3008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8B3001, 0x7C8B3009, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C8B3001, 0x7C8B300A, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C8B3001, 0x7C8B300B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C8B3001, 0x7C8B300C, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C8B3001, 0x7C8B300D, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C8B3001, 0x7C8B300E, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C8B3001, 0x7C8B300F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C8B3001, 0x7C8B3010, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C8B3001, 0x7C8B3011, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8B3001, 0x7C8B3012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8B3001, 0x7C8B3013, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8B3001, 0x7C8B3014, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C8B3001, 0x7C8B3015, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7C8B3001, 0x7C8B3016, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C8B3001, 0x7C8B3017, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C8B3001, 0x7C8B3018, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8B3001, 0x7C8B3019, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C8B3001, 0x7C8B301A, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7C8B3001, 0x7C8B3002, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7C8B3001, 0x7C8B3003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C8B3001, 0x7C8B3004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C8B3001, 0x7C8B3005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8B3001, 0x7C8B3006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C8B3001, 0x7C8B3007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C8B3001, 0x7C8B3008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8B3001, 0x7C8B3009, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C8B3001, 0x7C8B300A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C8B3001, 0x7C8B300B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C8B3001, 0x7C8B300C, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C8B3001, 0x7C8B300D, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C8B3001, 0x7C8B300E, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C8B3001, 0x7C8B300F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C8B3001, 0x7C8B3010, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C8B3001, 0x7C8B3011, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8B3001, 0x7C8B3012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8B3001, 0x7C8B3013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8B3001, 0x7C8B3014, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C8B3001, 0x7C8B3015, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7C8B3001, 0x7C8B3016, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C8B3001, 0x7C8B3017, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C8B3001, 0x7C8B3018, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8B3001, 0x7C8B3019, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C8B3001, 0x7C8B301A, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B3002, 14521, 0xC8B30006, 23.27254, 123.951, 250.9616, -0.3303723, 0, 0, -0.9438507,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
@@ -140,9 +140,9 @@ VALUES (0x7C8B301B,  1542, 0xC8B30005, 23.21156, 113.4331, 258.5458, 0.9238795, 
 /* @teleloc 0xC8B30005 [23.211560 113.433100 258.545800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8B301B, 0x7C8B301C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C8B301B, 0x7C8B301D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C8B301B, 0x7C8B301E, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7C8B301B, 0x7C8B301C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C8B301B, 0x7C8B301D, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C8B301B, 0x7C8B301E, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8B301C,  4380, 0xC8B30005, 23.21156, 113.4331, 258.5458, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

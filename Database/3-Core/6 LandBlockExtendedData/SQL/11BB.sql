@@ -5,11 +5,11 @@ VALUES (0x711BB001,  1154, 0x11BB0003, 5.937514, 69.46816, 22, 0.3344943, 0, 0, 
 /* @teleloc 0x11BB0003 [5.937514 69.468160 22.000000] 0.334494 0.000000 0.000000 -0.942398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x711BB001, 0x711BB002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BB001, 0x711BB003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BB001, 0x711BB004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x711BB001, 0x711BB005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x711BB001, 0x711BB006, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x711BB001, 0x711BB002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BB001, 0x711BB003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BB001, 0x711BB004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x711BB001, 0x711BB005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x711BB001, 0x711BB006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x711BB002, 11493, 0x11BB0003, 5.937514, 69.46816, 22, 0.3344943, 0, 0, -0.9423978,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */

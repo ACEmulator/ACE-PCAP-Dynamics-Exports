@@ -5,34 +5,34 @@ VALUES (0x78DD2001,  1154, 0x8DD20004, 10.7503, 79.9462, 411.5884, 0.7071068, 0,
 /* @teleloc 0x8DD20004 [10.750300 79.946200 411.588400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DD2001, 0x78DD2002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78DD2001, 0x78DD2003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x78DD2001, 0x78DD2004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x78DD2001, 0x78DD2005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DD2001, 0x78DD2006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78DD2001, 0x78DD2007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DD2001, 0x78DD2008, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x78DD2001, 0x78DD2009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78DD2001, 0x78DD200A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x78DD2001, 0x78DD200B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x78DD2001, 0x78DD200C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78DD2001, 0x78DD200D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78DD2001, 0x78DD200E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78DD2001, 0x78DD200F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DD2001, 0x78DD2010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78DD2001, 0x78DD2011, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78DD2001, 0x78DD2012, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78DD2001, 0x78DD2013, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DD2001, 0x78DD2014, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x78DD2001, 0x78DD2015, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DD2001, 0x78DD2016, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x78DD2001, 0x78DD2017, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x78DD2001, 0x78DD2018, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78DD2001, 0x78DD2019, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78DD2001, 0x78DD201A, '2019-02-10 00:00:00') /* Ember */
-     , (0x78DD2001, 0x78DD201B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78DD2001, 0x78DD201C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78DD2001, 0x78DD201D, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x78DD2001, 0x78DD2002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78DD2001, 0x78DD2003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x78DD2001, 0x78DD2004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x78DD2001, 0x78DD2005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DD2001, 0x78DD2006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78DD2001, 0x78DD2007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DD2001, 0x78DD2008, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x78DD2001, 0x78DD2009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78DD2001, 0x78DD200A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x78DD2001, 0x78DD200B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78DD2001, 0x78DD200C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78DD2001, 0x78DD200D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78DD2001, 0x78DD200E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78DD2001, 0x78DD200F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DD2001, 0x78DD2010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78DD2001, 0x78DD2011, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78DD2001, 0x78DD2012, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78DD2001, 0x78DD2013, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DD2001, 0x78DD2014, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78DD2001, 0x78DD2015, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DD2001, 0x78DD2016, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x78DD2001, 0x78DD2017, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x78DD2001, 0x78DD2018, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78DD2001, 0x78DD2019, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78DD2001, 0x78DD201A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x78DD2001, 0x78DD201B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78DD2001, 0x78DD201C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78DD2001, 0x78DD201D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DD2002,  1758, 0x8DD20004, 10.7503, 79.9462, 411.5884, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -151,8 +151,8 @@ VALUES (0x78DD201E,  1542, 0x8DD20004, 12.30786, 83.3462, 412.1026, 1, 0, 0, 0, 
 /* @teleloc 0x8DD20004 [12.307860 83.346200 412.102600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DD201E, 0x78DD201F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78DD201E, 0x78DD2020, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78DD201E, 0x78DD201F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x78DD201E, 0x78DD2020, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DD201F, 22571, 0x8DD20004, 12.30786, 83.3462, 412.1026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -29,163 +29,163 @@ VALUES (0x702DF041,  1154, 0x02DF0394, 60, -90, 0.004999995, 1, 0, 0, 0, False, 
 /* @teleloc 0x02DF0394 [60.000000 -90.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702DF041, 0x702DF042, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF043, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF044, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF045, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF046, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF047, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF048, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF049, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF04A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF04B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF04C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF04D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF04E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF04F, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF050, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF051, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF052, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF053, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF054, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF055, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF056, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF057, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF058, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF059, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF05A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF05B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF05C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF05D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF05E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF05F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF060, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF061, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF062, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF063, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF064, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF065, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF066, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF067, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF068, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF069, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF06A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF06B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF06C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF06D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF06E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF06F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF070, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF071, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF072, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF073, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF074, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF075, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF076, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF077, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF078, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF079, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF07A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF07B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF07C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF07D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF07E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF07F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF080, '2019-02-10 00:00:00') /* Caulnalain Shadow Leader */
-     , (0x702DF041, 0x702DF081, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF082, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF083, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF084, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF085, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF086, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF087, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF088, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF089, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF08A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF08B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF08C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF08D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF08E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF08F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF090, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF091, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF092, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF093, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DF041, 0x702DF094, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF095, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF096, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF097, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF098, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF099, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF09A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF09B, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment */
-     , (0x702DF041, 0x702DF09C, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment */
-     , (0x702DF041, 0x702DF09D, '2019-02-10 00:00:00') /* Caulnalain Crystal */
-     , (0x702DF041, 0x702DF09E, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment */
-     , (0x702DF041, 0x702DF09F, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment */
-     , (0x702DF041, 0x702DF0A0, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0A1, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A2, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A3, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A5, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A6, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0A7, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0A8, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0A9, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0AA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0AB, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0AC, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0AD, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0AE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0AF, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B0, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0B1, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B2, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0B3, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B5, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B6, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0B7, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0B8, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0B9, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DF041, 0x702DF0BA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DF041, 0x702DF0BB, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0BC, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0BD, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0BE, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0BF, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C0, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C1, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C2, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C3, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C4, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C5, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C6, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C7, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C8, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0C9, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CA, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CB, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CC, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CD, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CE, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0CF, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D0, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D1, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D2, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D3, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D4, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D5, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D6, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D7, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D8, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0D9, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0DA, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0DB, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0DC, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0DD, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x702DF041, 0x702DF0DE, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x702DF041, 0x702DF042, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF043, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF044, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF045, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF046, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF047, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF048, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF049, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF04A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF04B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF04C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF04D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF04E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF04F, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF050, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF051, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF052, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF053, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF054, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF055, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF056, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF057, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF058, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF059, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF05A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF05B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF05C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF05D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF05E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF05F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF060, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF061, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF062, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF063, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF064, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF065, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF066, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF067, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF068, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF069, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF06A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF06B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF06C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF06D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF06E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF06F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF070, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF071, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF072, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF073, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF074, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF075, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF076, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF077, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF078, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF079, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF07A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF07B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF07C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF07D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF07E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF07F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF080, '2019-02-10 00:00:00') /* Caulnalain Shadow Leader (8120) */
+     , (0x702DF041, 0x702DF081, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF082, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF083, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF084, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF085, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF086, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF087, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF088, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF089, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF08A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF08B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF08C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF08D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF08E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF08F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF090, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF091, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF092, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF093, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DF041, 0x702DF094, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF095, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF096, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF097, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF098, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF099, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF09A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF09B, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment (8108) */
+     , (0x702DF041, 0x702DF09C, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment (8108) */
+     , (0x702DF041, 0x702DF09D, '2019-02-10 00:00:00') /* Caulnalain Crystal (8011) */
+     , (0x702DF041, 0x702DF09E, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment (8108) */
+     , (0x702DF041, 0x702DF09F, '2019-02-10 00:00:00') /* Caulnalain Satellite Fragment (8108) */
+     , (0x702DF041, 0x702DF0A0, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0A1, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A2, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A3, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A4, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A5, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A6, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0A7, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0A8, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0A9, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0AA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0AB, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0AC, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0AD, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0AE, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0AF, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B0, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0B1, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B2, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0B3, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B4, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B5, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B6, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0B7, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0B8, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0B9, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x702DF041, 0x702DF0BA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DF041, 0x702DF0BB, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0BC, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0BD, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0BE, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0BF, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C0, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C1, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C2, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C3, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C4, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C5, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C6, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C7, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C8, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0C9, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CA, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CB, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CC, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CD, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CE, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0CF, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D0, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D1, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D2, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D3, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D4, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D5, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D6, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D7, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D8, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0D9, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0DA, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0DB, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0DC, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0DD, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x702DF041, 0x702DF0DE, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702DF042,  4253, 0x02DF0394, 60, -90, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

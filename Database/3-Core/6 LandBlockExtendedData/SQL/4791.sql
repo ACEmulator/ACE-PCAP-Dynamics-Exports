@@ -5,13 +5,13 @@ VALUES (0x74791001,  1154, 0x47910026, 107.9286, 134.569, 6.442981, 0.9813416, 0
 /* @teleloc 0x47910026 [107.928600 134.569000 6.442981] 0.981342 0.000000 0.000000 -0.192272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74791001, 0x74791002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74791001, 0x74791003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x74791001, 0x74791004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74791001, 0x74791005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74791001, 0x74791006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74791001, 0x74791007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74791001, 0x74791008, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x74791001, 0x74791002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74791001, 0x74791003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x74791001, 0x74791004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74791001, 0x74791005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74791001, 0x74791006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74791001, 0x74791007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74791001, 0x74791008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74791002,  9252, 0x47910026, 107.9286, 134.569, 6.442981, 0.9813416, 0, 0, -0.1922723,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

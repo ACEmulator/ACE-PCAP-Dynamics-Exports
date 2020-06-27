@@ -9,34 +9,34 @@ VALUES (0x7BA6F001,  1154, 0xBA6F0008, 12.34791, 189.2439, 11.77033, -0.6536118,
 /* @teleloc 0xBA6F0008 [12.347910 189.243900 11.770330] -0.653612 0.000000 0.000000 -0.756830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6F001, 0x7BA6F002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA6F001, 0x7BA6F005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA6F001, 0x7BA6F006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA6F001, 0x7BA6F008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F009, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F00A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA6F001, 0x7BA6F00B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F00C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA6F001, 0x7BA6F00D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA6F001, 0x7BA6F00E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA6F001, 0x7BA6F00F, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BA6F001, 0x7BA6F010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BA6F001, 0x7BA6F011, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BA6F001, 0x7BA6F012, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BA6F001, 0x7BA6F013, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BA6F001, 0x7BA6F014, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BA6F001, 0x7BA6F015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA6F001, 0x7BA6F016, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BA6F001, 0x7BA6F017, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F018, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA6F001, 0x7BA6F019, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BA6F001, 0x7BA6F01A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F01B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F01C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA6F001, 0x7BA6F01D, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7BA6F001, 0x7BA6F002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA6F001, 0x7BA6F005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA6F001, 0x7BA6F006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA6F001, 0x7BA6F008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F009, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F00A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA6F001, 0x7BA6F00B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA6F001, 0x7BA6F00D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA6F001, 0x7BA6F00E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA6F001, 0x7BA6F00F, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BA6F001, 0x7BA6F010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BA6F001, 0x7BA6F011, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BA6F001, 0x7BA6F012, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BA6F001, 0x7BA6F013, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BA6F001, 0x7BA6F014, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BA6F001, 0x7BA6F015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA6F001, 0x7BA6F016, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BA6F001, 0x7BA6F017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F018, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA6F001, 0x7BA6F019, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BA6F001, 0x7BA6F01A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F01B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F01C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA6F001, 0x7BA6F01D, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA6F002,  2567, 0xBA6F0008, 12.34791, 189.2439, 11.77033, -0.6536118, 0, 0, -0.75683,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -155,7 +155,7 @@ VALUES (0x7BA6F01E,  1542, 0xBA6F0021, 99.43643, 1.708639, 8.559999, 0.8191521, 
 /* @teleloc 0xBA6F0021 [99.436430 1.708639 8.559999] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA6F01E, 0x7BA6F01F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BA6F01E, 0x7BA6F01F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA6F01F,  4380, 0xBA6F0021, 99.43643, 1.708639, 8.559999, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

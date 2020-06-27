@@ -5,13 +5,13 @@ VALUES (0x7AA2D001,  1154, 0xAA2D0040, 169.0045, 182.4354, 83.30386, 0.7771459, 
 /* @teleloc 0xAA2D0040 [169.004500 182.435400 83.303860] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA2D001, 0x7AA2D002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AA2D001, 0x7AA2D003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA2D001, 0x7AA2D004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7AA2D001, 0x7AA2D005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7AA2D001, 0x7AA2D006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AA2D001, 0x7AA2D007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AA2D001, 0x7AA2D008, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7AA2D001, 0x7AA2D002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AA2D001, 0x7AA2D003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA2D001, 0x7AA2D004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7AA2D001, 0x7AA2D005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7AA2D001, 0x7AA2D006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AA2D001, 0x7AA2D007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AA2D001, 0x7AA2D008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA2D002,  1610, 0xAA2D0040, 169.0045, 182.4354, 83.30386, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

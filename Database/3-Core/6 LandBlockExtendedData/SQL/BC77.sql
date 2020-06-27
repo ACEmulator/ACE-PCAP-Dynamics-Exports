@@ -5,17 +5,17 @@ VALUES (0x7BC77001,  1154, 0xBC770011, 49.41443, 3.938471, 39.2024, 0.8540426, 0
 /* @teleloc 0xBC770011 [49.414430 3.938471 39.202400] 0.854043 0.000000 0.000000 -0.520203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC77001, 0x7BC77002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BC77001, 0x7BC77003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7BC77001, 0x7BC77004, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BC77001, 0x7BC77005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BC77001, 0x7BC77006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BC77001, 0x7BC77007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BC77001, 0x7BC77008, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BC77001, 0x7BC77009, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BC77001, 0x7BC7700A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BC77001, 0x7BC7700B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BC77001, 0x7BC7700C, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7BC77001, 0x7BC77002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BC77001, 0x7BC77003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7BC77001, 0x7BC77004, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BC77001, 0x7BC77005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BC77001, 0x7BC77006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BC77001, 0x7BC77007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BC77001, 0x7BC77008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BC77001, 0x7BC77009, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BC77001, 0x7BC7700A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BC77001, 0x7BC7700B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BC77001, 0x7BC7700C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC77002,    18, 0xBC770011, 49.41443, 3.938471, 39.2024, 0.8540426, 0, 0, -0.520203,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */

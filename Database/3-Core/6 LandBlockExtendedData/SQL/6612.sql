@@ -5,10 +5,10 @@ VALUES (0x76612001,  1154, 0x6612002B, 124.0183, 60.86267, 121.344, -0.99923, 0,
 /* @teleloc 0x6612002B [124.018300 60.862670 121.344000] -0.999230 0.000000 0.000000 -0.039234 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76612001, 0x76612002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x76612001, 0x76612003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76612001, 0x76612004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x76612001, 0x76612005, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x76612001, 0x76612002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x76612001, 0x76612003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76612001, 0x76612004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x76612001, 0x76612005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76612002,  7090, 0x6612002B, 124.0183, 60.86267, 121.344, -0.99923, 0, 0, -0.03923449,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -31,8 +31,8 @@ VALUES (0x76612006,  1542, 0x6612002C, 133.8093, 89.97643, 127.1984, -0.0247959,
 /* @teleloc 0x6612002C [133.809300 89.976430 127.198400] -0.024796 0.000000 0.000000 -0.999693 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76612006, 0x76612007, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x76612006, 0x76612008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x76612006, 0x76612007, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x76612006, 0x76612008, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76612007,  8039, 0x6612002C, 133.8093, 89.97643, 127.1984, -0.0247959, 0, 0, -0.9996926,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

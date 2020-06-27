@@ -5,16 +5,16 @@ VALUES (0x7B8B4001,  1154, 0xB8B40026, 97.12, 128.7704, 153.9067, 0.2588191, 0, 
 /* @teleloc 0xB8B40026 [97.120000 128.770400 153.906700] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8B4001, 0x7B8B4002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B8B4001, 0x7B8B4003, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B8B4001, 0x7B8B4004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B8B4001, 0x7B8B4005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B8B4001, 0x7B8B4006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B8B4001, 0x7B8B4007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B8B4001, 0x7B8B4008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B8B4001, 0x7B8B4009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B8B4001, 0x7B8B400A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B8B4001, 0x7B8B400B, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7B8B4001, 0x7B8B4002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B8B4001, 0x7B8B4003, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B8B4001, 0x7B8B4004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B8B4001, 0x7B8B4005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B8B4001, 0x7B8B4006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B8B4001, 0x7B8B4007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B8B4001, 0x7B8B4008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B8B4001, 0x7B8B4009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B8B4001, 0x7B8B400A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B8B4001, 0x7B8B400B, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8B4002,  2582, 0xB8B40026, 97.12, 128.7704, 153.9067, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

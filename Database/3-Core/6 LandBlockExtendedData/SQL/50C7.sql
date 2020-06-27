@@ -5,13 +5,13 @@ VALUES (0x750C7001,  1154, 0x50C7002E, 126.6128, 134.7979, 54.56107, 0.9238795, 
 /* @teleloc 0x50C7002E [126.612800 134.797900 54.561070] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750C7001, 0x750C7002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x750C7001, 0x750C7003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x750C7001, 0x750C7004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x750C7001, 0x750C7005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x750C7001, 0x750C7006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x750C7001, 0x750C7007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x750C7001, 0x750C7008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x750C7001, 0x750C7002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x750C7001, 0x750C7003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x750C7001, 0x750C7004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x750C7001, 0x750C7005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x750C7001, 0x750C7006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x750C7001, 0x750C7007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x750C7001, 0x750C7008, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750C7002,  4216, 0x50C7002E, 126.6128, 134.7979, 54.56107, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

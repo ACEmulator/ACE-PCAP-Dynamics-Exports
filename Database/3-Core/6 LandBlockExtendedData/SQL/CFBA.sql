@@ -5,8 +5,8 @@ VALUES (0x7CFBA001,  1154, 0xCFBA002F, 122.7402, 149.7887, 63.62171, 0.9896567, 
 /* @teleloc 0xCFBA002F [122.740200 149.788700 63.621710] 0.989657 0.000000 0.000000 -0.143456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFBA001, 0x7CFBA002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CFBA001, 0x7CFBA003, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CFBA001, 0x7CFBA002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CFBA001, 0x7CFBA003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFBA002,  7089, 0xCFBA002F, 122.7402, 149.7887, 63.62171, 0.9896567, 0, 0, -0.1434558,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

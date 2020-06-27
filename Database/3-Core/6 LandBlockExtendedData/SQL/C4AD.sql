@@ -5,24 +5,24 @@ VALUES (0x7C4AD001,  1154, 0xC4AD0031, 150.8148, 11.83522, 80.22, 0.8191521, 0, 
 /* @teleloc 0xC4AD0031 [150.814800 11.835220 80.220000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AD001, 0x7C4AD002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C4AD001, 0x7C4AD003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AD001, 0x7C4AD004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C4AD001, 0x7C4AD005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C4AD001, 0x7C4AD006, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C4AD001, 0x7C4AD007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C4AD001, 0x7C4AD008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C4AD001, 0x7C4AD009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD00A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD00C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C4AD001, 0x7C4AD00D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD00E, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C4AD001, 0x7C4AD00F, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD010, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD011, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C4AD001, 0x7C4AD012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C4AD001, 0x7C4AD013, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7C4AD001, 0x7C4AD002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C4AD001, 0x7C4AD003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AD001, 0x7C4AD004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C4AD001, 0x7C4AD005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C4AD001, 0x7C4AD006, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C4AD001, 0x7C4AD007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C4AD001, 0x7C4AD008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C4AD001, 0x7C4AD009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD00A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD00C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C4AD001, 0x7C4AD00D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD00E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C4AD001, 0x7C4AD00F, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD010, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C4AD001, 0x7C4AD012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C4AD001, 0x7C4AD013, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AD002,  7979, 0xC4AD0031, 150.8148, 11.83522, 80.22, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

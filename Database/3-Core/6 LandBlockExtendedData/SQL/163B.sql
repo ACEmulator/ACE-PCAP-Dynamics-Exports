@@ -5,10 +5,10 @@ VALUES (0x7163B001,  1154, 0x163B0006, 17.02113, 134.8581, 78.00455, 0.9238795, 
 /* @teleloc 0x163B0006 [17.021130 134.858100 78.004550] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163B001, 0x7163B002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7163B001, 0x7163B003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7163B001, 0x7163B004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7163B001, 0x7163B005, '2019-02-10 00:00:00') /* Banderling Savage */;
+VALUES (0x7163B001, 0x7163B002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7163B001, 0x7163B003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7163B001, 0x7163B004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7163B001, 0x7163B005, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163B002,  7090, 0x163B0006, 17.02113, 134.8581, 78.00455, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -31,7 +31,7 @@ VALUES (0x7163B006,  1542, 0x163B000B, 25.14046, 71.2713, 77.86855, -0.3313923, 
 /* @teleloc 0x163B000B [25.140460 71.271300 77.868550] -0.331392 0.000000 0.000000 -0.943493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7163B006, 0x7163B007, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7163B006, 0x7163B007, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7163B007,  9288, 0x163B000B, 25.14046, 71.2713, 77.86855, -0.3313923, 0, 0, -0.9434931,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

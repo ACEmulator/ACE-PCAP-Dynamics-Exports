@@ -5,31 +5,31 @@ VALUES (0x7330F001,  1154, 0x330F0011, 56.46463, 13.69878, 56.0065, 0.4226182, 0
 /* @teleloc 0x330F0011 [56.464630 13.698780 56.006500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7330F001, 0x7330F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7330F001, 0x7330F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7330F001, 0x7330F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7330F001, 0x7330F005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7330F001, 0x7330F006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7330F001, 0x7330F007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7330F001, 0x7330F008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7330F001, 0x7330F009, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7330F001, 0x7330F00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7330F001, 0x7330F00B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7330F001, 0x7330F00C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7330F001, 0x7330F00D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7330F001, 0x7330F00E, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7330F001, 0x7330F00F, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7330F001, 0x7330F010, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7330F001, 0x7330F011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7330F001, 0x7330F012, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7330F001, 0x7330F013, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7330F001, 0x7330F014, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7330F001, 0x7330F015, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7330F001, 0x7330F016, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7330F001, 0x7330F017, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7330F001, 0x7330F018, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7330F001, 0x7330F019, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7330F001, 0x7330F01A, '2019-02-10 00:00:00') /* Armored Skeleton */;
+VALUES (0x7330F001, 0x7330F002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7330F001, 0x7330F003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7330F001, 0x7330F004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7330F001, 0x7330F005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7330F001, 0x7330F006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7330F001, 0x7330F007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7330F001, 0x7330F008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7330F001, 0x7330F009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7330F001, 0x7330F00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7330F001, 0x7330F00B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7330F001, 0x7330F00C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7330F001, 0x7330F00D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7330F001, 0x7330F00E, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7330F001, 0x7330F00F, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7330F001, 0x7330F010, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7330F001, 0x7330F011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7330F001, 0x7330F012, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7330F001, 0x7330F013, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7330F001, 0x7330F014, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7330F001, 0x7330F015, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7330F001, 0x7330F016, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7330F001, 0x7330F017, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7330F001, 0x7330F018, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7330F001, 0x7330F019, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7330F001, 0x7330F01A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7330F002,  8431, 0x330F0011, 56.46463, 13.69878, 56.0065, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -136,7 +136,7 @@ VALUES (0x7330F01B,  1542, 0x330F0017, 57.92394, 147.6888, 56, 1, 0, 0, 0, False
 /* @teleloc 0x330F0017 [57.923940 147.688800 56.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7330F01B, 0x7330F01C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7330F01B, 0x7330F01C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7330F01C, 22566, 0x330F0017, 57.92394, 147.6888, 56, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

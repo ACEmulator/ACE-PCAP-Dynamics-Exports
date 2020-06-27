@@ -5,16 +5,16 @@ VALUES (0x77599001,  1154, 0x7599003F, 171.1214, 147.1665, 60.99296, 0.9238795, 
 /* @teleloc 0x7599003F [171.121400 147.166500 60.992960] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77599001, 0x77599002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x77599001, 0x77599003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x77599001, 0x77599004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x77599001, 0x77599005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77599001, 0x77599006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77599001, 0x77599007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x77599001, 0x77599008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x77599001, 0x77599009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x77599001, 0x7759900A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77599001, 0x7759900B, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x77599001, 0x77599002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x77599001, 0x77599003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x77599001, 0x77599004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x77599001, 0x77599005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77599001, 0x77599006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77599001, 0x77599007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x77599001, 0x77599008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x77599001, 0x77599009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x77599001, 0x7759900A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77599001, 0x7759900B, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77599002,   201, 0x7599003F, 171.1214, 147.1665, 60.99296, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -61,7 +61,7 @@ VALUES (0x7759900C,  1542, 0x7599001D, 72.70202, 102.7594, 79.82449, -0.1736482,
 /* @teleloc 0x7599001D [72.702020 102.759400 79.824490] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7759900C, 0x7759900D, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x7759900C, 0x7759900D, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7759900D, 25957, 0x7599001D, 72.70202, 102.7594, 79.82449, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Shreth-Gnawed Corpse */

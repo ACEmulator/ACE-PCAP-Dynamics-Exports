@@ -5,10 +5,10 @@ VALUES (0x744E0001,  1154, 0x44E0003A, 180.2611, 25.18163, 16.07972, 0.7372774, 
 /* @teleloc 0x44E0003A [180.261100 25.181630 16.079720] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744E0001, 0x744E0002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744E0001, 0x744E0003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744E0001, 0x744E0004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x744E0001, 0x744E0005, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x744E0001, 0x744E0002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744E0001, 0x744E0003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744E0001, 0x744E0004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x744E0001, 0x744E0005, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744E0002,  7113, 0x44E0003A, 180.2611, 25.18163, 16.07972, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -31,7 +31,7 @@ VALUES (0x744E0006,  1542, 0x44E0003A, 184.555, 40.19303, 20.35992, 0.9990482, 0
 /* @teleloc 0x44E0003A [184.555000 40.193030 20.359920] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744E0006, 0x744E0007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x744E0006, 0x744E0007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744E0007,  4179, 0x44E0003A, 184.555, 40.19303, 20.35992, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

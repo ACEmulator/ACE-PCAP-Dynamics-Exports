@@ -5,22 +5,22 @@ VALUES (0x7ADE1001,  1154, 0xADE1003A, 178.3929, 26.32577, -0.8870001, 0.8034171
 /* @teleloc 0xADE1003A [178.392900 26.325770 -0.887000] 0.803417 0.000000 0.000000 -0.595417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADE1001, 0x7ADE1002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE1003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7ADE1001, 0x7ADE1004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7ADE1001, 0x7ADE1005, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7ADE1001, 0x7ADE1006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ADE1001, 0x7ADE1007, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7ADE1001, 0x7ADE1008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE1009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ADE1001, 0x7ADE100A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ADE1001, 0x7ADE100B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ADE1001, 0x7ADE100C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ADE1001, 0x7ADE100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE1010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ADE1001, 0x7ADE1011, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7ADE1001, 0x7ADE1002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE1001, 0x7ADE1003, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7ADE1001, 0x7ADE1004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7ADE1001, 0x7ADE1005, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7ADE1001, 0x7ADE1006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ADE1001, 0x7ADE1007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7ADE1001, 0x7ADE1008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7ADE1001, 0x7ADE1009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ADE1001, 0x7ADE100A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ADE1001, 0x7ADE100B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ADE1001, 0x7ADE100C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ADE1001, 0x7ADE100D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE1001, 0x7ADE100E, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE1001, 0x7ADE100F, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE1001, 0x7ADE1010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ADE1001, 0x7ADE1011, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADE1002,  7183, 0xADE1003A, 178.3929, 26.32577, -0.8870001, 0.8034171, 0, 0, -0.5954167,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -91,7 +91,7 @@ VALUES (0x7ADE1012,  1542, 0xADE1000A, 25.86359, 40.08254, 3.844701, -0.3768773,
 /* @teleloc 0xADE1000A [25.863590 40.082540 3.844701] -0.376877 0.000000 0.000000 -0.926263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADE1012, 0x7ADE1013, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x7ADE1012, 0x7ADE1013, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADE1013,  8039, 0xADE1000A, 25.86359, 40.08254, 3.844701, -0.3768773, 0, 0, -0.9262632,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

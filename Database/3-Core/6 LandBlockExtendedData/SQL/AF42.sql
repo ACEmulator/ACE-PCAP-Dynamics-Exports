@@ -5,13 +5,13 @@ VALUES (0x7AF42001,  1154, 0xAF42003C, 171.1939, 95.71021, 9.739346, 0.7071068, 
 /* @teleloc 0xAF42003C [171.193900 95.710210 9.739346] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF42001, 0x7AF42002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AF42001, 0x7AF42003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AF42001, 0x7AF42004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AF42001, 0x7AF42005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AF42001, 0x7AF42006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AF42001, 0x7AF42007, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AF42001, 0x7AF42008, '2019-02-10 00:00:00') /* Narrow Rift */;
+VALUES (0x7AF42001, 0x7AF42002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AF42001, 0x7AF42003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AF42001, 0x7AF42004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AF42001, 0x7AF42005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AF42001, 0x7AF42006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AF42001, 0x7AF42007, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AF42001, 0x7AF42008, '2019-02-10 00:00:00') /* Narrow Rift (10799) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF42002,   231, 0xAF42003C, 171.1939, 95.71021, 9.739346, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

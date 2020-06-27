@@ -5,13 +5,13 @@ VALUES (0x7B221001,  1154, 0xB2210017, 56.76125, 150.2506, 117.6505, -0.3402079,
 /* @teleloc 0xB2210017 [56.761250 150.250600 117.650500] -0.340208 0.000000 0.000000 -0.940350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B221001, 0x7B221002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7B221001, 0x7B221003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B221001, 0x7B221004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B221001, 0x7B221005, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B221001, 0x7B221006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B221001, 0x7B221007, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7B221001, 0x7B221008, '2019-02-10 00:00:00') /* K'nath N'osaj */;
+VALUES (0x7B221001, 0x7B221002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7B221001, 0x7B221003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B221001, 0x7B221004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B221001, 0x7B221005, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B221001, 0x7B221006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B221001, 0x7B221007, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7B221001, 0x7B221008, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B221002, 28551, 0xB2210017, 56.76125, 150.2506, 117.6505, -0.3402079, 0, 0, -0.9403502,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

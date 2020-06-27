@@ -9,18 +9,18 @@ VALUES (0x7A361002,  1154, 0xA3610036, 164.9166, 133.0542, 20.95937, -0.749645, 
 /* @teleloc 0xA3610036 [164.916600 133.054200 20.959370] -0.749645 0.000000 0.000000 -0.661840 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A361002, 0x7A361003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A361002, 0x7A361004, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7A361002, 0x7A361005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A361002, 0x7A361006, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A361002, 0x7A361007, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A361002, 0x7A361008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A361002, 0x7A361009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A361002, 0x7A36100A, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A361002, 0x7A36100B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A361002, 0x7A36100C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A361002, 0x7A36100D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7A361002, 0x7A36100E, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7A361002, 0x7A361003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A361002, 0x7A361004, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7A361002, 0x7A361005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A361002, 0x7A361006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A361002, 0x7A361007, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A361002, 0x7A361008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A361002, 0x7A361009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A361002, 0x7A36100A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A361002, 0x7A36100B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A361002, 0x7A36100C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A361002, 0x7A36100D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7A361002, 0x7A36100E, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A361003,  5429, 0xA3610036, 164.9166, 133.0542, 20.95937, -0.749645, 0, 0, -0.6618401,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -75,10 +75,10 @@ VALUES (0x7A36100F,  1154, 0xA3610019, 95.67522, 4.324752, 16.39246, 0.382217, 0
 /* @teleloc 0xA3610019 [95.675220 4.324752 16.392460] 0.382217 0.000000 0.000000 0.924073 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A36100F, 0x7A361010, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A36100F, 0x7A361011, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A36100F, 0x7A361012, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7A36100F, 0x7A361013, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7A36100F, 0x7A361010, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A36100F, 0x7A361011, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A36100F, 0x7A361012, '2019-02-10 00:00:00') /* Town Crier (49605) */
+     , (0x7A36100F, 0x7A361013, '2019-02-10 00:00:00') /* Town Crier (49605) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A361010, 49605, 0xA3610019, 95.67522, 4.324752, 16.39246, 0.382217, 0, 0, 0.924073,  True, '2019-02-10 00:00:00'); /* Town Crier */

@@ -5,9 +5,9 @@ VALUES (0x74CAE001,  1154, 0x4CAE0024, 100.1186, 87.24654, 49.61377, 0.6747239, 
 /* @teleloc 0x4CAE0024 [100.118600 87.246540 49.613770] 0.674724 0.000000 0.000000 -0.738070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CAE001, 0x74CAE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74CAE001, 0x74CAE003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74CAE001, 0x74CAE004, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x74CAE001, 0x74CAE002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74CAE001, 0x74CAE003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74CAE001, 0x74CAE004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CAE002, 28551, 0x4CAE0024, 100.1186, 87.24654, 49.61377, 0.6747239, 0, 0, -0.7380702,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

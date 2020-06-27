@@ -5,9 +5,9 @@ VALUES (0x72DBF001,  1154, 0x2DBF0012, 66.84357, 38.46673, 17.64526, -0.949442, 
 /* @teleloc 0x2DBF0012 [66.843570 38.466730 17.645260] -0.949442 0.000000 0.000000 -0.313943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DBF001, 0x72DBF002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72DBF001, 0x72DBF003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x72DBF001, 0x72DBF004, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x72DBF001, 0x72DBF002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72DBF001, 0x72DBF003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x72DBF001, 0x72DBF004, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DBF002, 23082, 0x2DBF0012, 66.84357, 38.46673, 17.64526, -0.949442, 0, 0, -0.3139426,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

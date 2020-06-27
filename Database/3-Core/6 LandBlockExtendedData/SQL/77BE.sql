@@ -5,13 +5,13 @@ VALUES (0x777BE001,  1154, 0x77BE001D, 89.89965, 97.96962, 123.2986, 0.7071068, 
 /* @teleloc 0x77BE001D [89.899650 97.969620 123.298600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777BE001, 0x777BE002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x777BE001, 0x777BE003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x777BE001, 0x777BE004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x777BE001, 0x777BE005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777BE001, 0x777BE006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777BE001, 0x777BE007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x777BE001, 0x777BE008, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x777BE001, 0x777BE002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x777BE001, 0x777BE003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x777BE001, 0x777BE004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x777BE001, 0x777BE005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777BE001, 0x777BE006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777BE001, 0x777BE007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x777BE001, 0x777BE008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777BE002,  7090, 0x77BE001D, 89.89965, 97.96962, 123.2986, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

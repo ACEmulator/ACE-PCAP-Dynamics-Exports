@@ -21,21 +21,21 @@ VALUES (0x7A6AF004,  1154, 0xA6AF0100, 156.016, 58.4527, 48.00333, -0.914079, 0,
 /* @teleloc 0xA6AF0100 [156.016000 58.452700 48.003330] -0.914079 0.000000 0.000000 -0.405535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6AF004, 0x7A6AF005, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A6AF004, 0x7A6AF006, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7A6AF004, 0x7A6AF007, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A6AF004, 0x7A6AF008, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A6AF004, 0x7A6AF009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6AF004, 0x7A6AF00A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A6AF004, 0x7A6AF00B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6AF004, 0x7A6AF00C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6AF004, 0x7A6AF00D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6AF004, 0x7A6AF00E, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A6AF004, 0x7A6AF00F, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A6AF004, 0x7A6AF010, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A6AF004, 0x7A6AF011, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A6AF004, 0x7A6AF012, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A6AF004, 0x7A6AF013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7A6AF004, 0x7A6AF005, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A6AF004, 0x7A6AF006, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7A6AF004, 0x7A6AF007, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A6AF004, 0x7A6AF008, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A6AF004, 0x7A6AF009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6AF004, 0x7A6AF00A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A6AF004, 0x7A6AF00B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6AF004, 0x7A6AF00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6AF004, 0x7A6AF00D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6AF004, 0x7A6AF00E, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A6AF004, 0x7A6AF00F, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A6AF004, 0x7A6AF010, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A6AF004, 0x7A6AF011, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A6AF004, 0x7A6AF012, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A6AF004, 0x7A6AF013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6AF005,  1631, 0xA6AF0100, 156.016, 58.4527, 48.00333, -0.914079, 0, 0, -0.405535,  True, '2019-02-10 00:00:00'); /* Drudge Servant */
@@ -102,7 +102,7 @@ VALUES (0x7A6AF014,  1542, 0xA6AF000C, 35.01182, 86.35582, 43.50796, 0.9990482, 
 /* @teleloc 0xA6AF000C [35.011820 86.355820 43.507960] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A6AF014, 0x7A6AF015, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7A6AF014, 0x7A6AF015, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A6AF015,  6117, 0xA6AF000C, 35.01182, 86.35582, 43.50796, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

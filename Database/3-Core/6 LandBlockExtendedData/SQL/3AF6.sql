@@ -5,28 +5,28 @@ VALUES (0x73AF6001,  1154, 0x3AF6000C, 39.57875, 85.6108, 1.567537, -0.04659507,
 /* @teleloc 0x3AF6000C [39.578750 85.610800 1.567537] -0.046595 0.000000 0.000000 -0.998914 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AF6001, 0x73AF6002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73AF6001, 0x73AF6003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73AF6001, 0x73AF6004, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x73AF6001, 0x73AF6005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73AF6001, 0x73AF6006, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73AF6001, 0x73AF6007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73AF6001, 0x73AF6008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73AF6001, 0x73AF6009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x73AF6001, 0x73AF600A, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73AF6001, 0x73AF600B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73AF6001, 0x73AF600C, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x73AF6001, 0x73AF600D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x73AF6001, 0x73AF600E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AF6001, 0x73AF600F, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73AF6001, 0x73AF6010, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73AF6001, 0x73AF6011, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73AF6001, 0x73AF6012, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x73AF6001, 0x73AF6013, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AF6001, 0x73AF6014, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AF6001, 0x73AF6015, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x73AF6001, 0x73AF6016, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73AF6001, 0x73AF6017, '2019-02-10 00:00:00') /* Ruschk Warlord */;
+VALUES (0x73AF6001, 0x73AF6002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73AF6001, 0x73AF6003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73AF6001, 0x73AF6004, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AF6001, 0x73AF6005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73AF6001, 0x73AF6006, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73AF6001, 0x73AF6007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73AF6001, 0x73AF6008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73AF6001, 0x73AF6009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73AF6001, 0x73AF600A, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73AF6001, 0x73AF600B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73AF6001, 0x73AF600C, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x73AF6001, 0x73AF600D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x73AF6001, 0x73AF600E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AF6001, 0x73AF600F, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73AF6001, 0x73AF6010, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73AF6001, 0x73AF6011, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73AF6001, 0x73AF6012, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x73AF6001, 0x73AF6013, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AF6001, 0x73AF6014, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AF6001, 0x73AF6015, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x73AF6001, 0x73AF6016, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73AF6001, 0x73AF6017, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF6002, 23616, 0x3AF6000C, 39.57875, 85.6108, 1.567537, -0.04659507, 0, 0, -0.9989139,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

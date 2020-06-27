@@ -5,23 +5,23 @@ VALUES (0x72F37001,  1154, 0x2F370021, 99.97414, 23.04344, 85.91804, 0.96861, 0,
 /* @teleloc 0x2F370021 [99.974140 23.043440 85.918040] 0.968610 0.000000 0.000000 -0.248585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F37001, 0x72F37002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F37001, 0x72F37003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72F37001, 0x72F37004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F37001, 0x72F37005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F37001, 0x72F37006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F37001, 0x72F37007, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72F37001, 0x72F37008, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72F37001, 0x72F37009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F37001, 0x72F3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F37001, 0x72F3700B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72F37001, 0x72F3700C, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F37001, 0x72F3700D, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72F37001, 0x72F3700E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72F37001, 0x72F3700F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F37001, 0x72F37010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F37001, 0x72F37011, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F37001, 0x72F37012, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x72F37001, 0x72F37002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F37001, 0x72F37003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72F37001, 0x72F37004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F37001, 0x72F37005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F37001, 0x72F37006, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F37001, 0x72F37007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72F37001, 0x72F37008, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72F37001, 0x72F37009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F37001, 0x72F3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F37001, 0x72F3700B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72F37001, 0x72F3700C, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F37001, 0x72F3700D, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F37001, 0x72F3700E, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72F37001, 0x72F3700F, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F37001, 0x72F37010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F37001, 0x72F37011, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72F37001, 0x72F37012, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F37002, 38180, 0x2F370021, 99.97414, 23.04344, 85.91804, 0.96861, 0, 0, -0.2485853,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -96,9 +96,9 @@ VALUES (0x72F37013,  1542, 0x2F370028, 117.9635, 184.3478, 94, 1, 0, 0, 0, False
 /* @teleloc 0x2F370028 [117.963500 184.347800 94.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F37013, 0x72F37014, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F37013, 0x72F37015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F37013, 0x72F37016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F37013, 0x72F37014, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F37013, 0x72F37015, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72F37013, 0x72F37016, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F37014,  8999, 0x2F370028, 117.9635, 184.3478, 94, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

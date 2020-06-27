@@ -33,8 +33,8 @@ VALUES (0x7C9E300B,  1154, 0xC9E30015, 66.1132, 97.4886, 24.0055, -0.0153975, 0,
 /* @teleloc 0xC9E30015 [66.113200 97.488600 24.005500] -0.015398 0.000000 0.000000 0.999882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9E300B, 0x7C9E300C, '2019-02-10 00:00:00') /* Merwart Gurglurg */
-     , (0x7C9E300B, 0x7C9E300D, '2019-02-10 00:00:00') /* Merwart Urglurg */;
+VALUES (0x7C9E300B, 0x7C9E300C, '2019-02-10 00:00:00') /* Merwart Gurglurg (32052) */
+     , (0x7C9E300B, 0x7C9E300D, '2019-02-10 00:00:00') /* Merwart Urglurg (32051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9E300C, 32052, 0xC9E30015, 66.1132, 97.4886, 24.0055, -0.0153975, 0, 0, 0.999882,  True, '2019-02-10 00:00:00'); /* Merwart Gurglurg */
@@ -49,8 +49,8 @@ VALUES (0x7C9E300E,  1542, 0xC9E3002E, 123.7713, 128.3597, 25.937, -0.4910403, 0
 /* @teleloc 0xC9E3002E [123.771300 128.359700 25.937000] -0.491040 0.000000 0.000000 -0.871137 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9E300E, 0x7C9E300F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C9E300E, 0x7C9E3010, '2019-02-10 00:00:00') /* Prismatic Taper */;
+VALUES (0x7C9E300E, 0x7C9E300F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C9E300E, 0x7C9E3010, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9E300F,  1955, 0xC9E3002E, 123.7713, 128.3597, 25.937, -0.4910403, 0, 0, -0.8711368,  True, '2019-02-10 00:00:00'); /* Gateway */

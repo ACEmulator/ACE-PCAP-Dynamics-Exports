@@ -5,17 +5,17 @@ VALUES (0x79FD9001,  1154, 0x9FD90009, 43.6986, 3.682999, 56.02864, 0.8845205, 0
 /* @teleloc 0x9FD90009 [43.698600 3.682999 56.028640] 0.884521 0.000000 0.000000 -0.466501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FD9001, 0x79FD9002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79FD9001, 0x79FD9003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x79FD9001, 0x79FD9004, '2019-02-10 00:00:00') /* Frost */
-     , (0x79FD9001, 0x79FD9005, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79FD9001, 0x79FD9006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79FD9001, 0x79FD9007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FD9001, 0x79FD9008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FD9001, 0x79FD9009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79FD9001, 0x79FD900A, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79FD9001, 0x79FD900B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79FD9001, 0x79FD900C, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x79FD9001, 0x79FD9002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79FD9001, 0x79FD9003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x79FD9001, 0x79FD9004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79FD9001, 0x79FD9005, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79FD9001, 0x79FD9006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79FD9001, 0x79FD9007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FD9001, 0x79FD9008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FD9001, 0x79FD9009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79FD9001, 0x79FD900A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79FD9001, 0x79FD900B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79FD9001, 0x79FD900C, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FD9002,  4253, 0x9FD90009, 43.6986, 3.682999, 56.02864, 0.8845205, 0, 0, -0.4665014,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -66,7 +66,7 @@ VALUES (0x79FD900D,  1542, 0x9FD90006, 22.18615, 125.0121, 70.39257, 0.7071068, 
 /* @teleloc 0x9FD90006 [22.186150 125.012100 70.392570] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FD900D, 0x79FD900E, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x79FD900D, 0x79FD900E, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FD900E,   689, 0x9FD90006, 22.18615, 125.0121, 70.39257, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Iron Scarab */

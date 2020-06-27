@@ -5,19 +5,19 @@ VALUES (0x77A69001,  1154, 0x7A690032, 152.8844, 27.31559, 0.001399994, 1, 0, 0,
 /* @teleloc 0x7A690032 [152.884400 27.315590 0.001400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A69001, 0x77A69002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x77A69001, 0x77A69003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x77A69001, 0x77A69004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x77A69001, 0x77A69005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A69001, 0x77A69006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A69001, 0x77A69007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A69001, 0x77A69008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x77A69001, 0x77A69009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x77A69001, 0x77A6900A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x77A69001, 0x77A6900B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A69001, 0x77A6900C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77A69001, 0x77A6900D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77A69001, 0x77A6900E, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x77A69001, 0x77A69002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x77A69001, 0x77A69003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x77A69001, 0x77A69004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x77A69001, 0x77A69005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A69001, 0x77A69006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A69001, 0x77A69007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A69001, 0x77A69008, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x77A69001, 0x77A69009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x77A69001, 0x77A6900A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x77A69001, 0x77A6900B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A69001, 0x77A6900C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77A69001, 0x77A6900D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77A69001, 0x77A6900E, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A69002,   222, 0x7A690032, 152.8844, 27.31559, 0.001399994, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -76,7 +76,7 @@ VALUES (0x77A6900F,  1542, 0x7A690021, 111.2237, 16.05503, -0.09999999, 0.999048
 /* @teleloc 0x7A690021 [111.223700 16.055030 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A6900F, 0x77A69010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77A6900F, 0x77A69010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A69010,  4179, 0x7A690021, 111.2237, 16.05503, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

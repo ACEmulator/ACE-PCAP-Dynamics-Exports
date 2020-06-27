@@ -5,72 +5,72 @@ VALUES (0x73C0C001,  1154, 0x3C0C0030, 137.0882, 185.6988, 0.005599976, -0.53872
 /* @teleloc 0x3C0C0030 [137.088200 185.698800 0.005600] -0.538724 0.000000 0.000000 -0.842482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C0C001, 0x73C0C002, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x73C0C001, 0x73C0C003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C004, '2019-02-10 00:00:00') /* Coral Tower */
-     , (0x73C0C001, 0x73C0C005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C009, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C00A, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C00B, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x73C0C001, 0x73C0C00C, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C00D, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C00E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C00F, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C010, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x73C0C001, 0x73C0C011, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C012, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x73C0C001, 0x73C0C013, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C014, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C015, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C016, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C017, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C018, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C019, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C01A, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C01B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C01C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C01D, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x73C0C001, 0x73C0C01E, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x73C0C001, 0x73C0C01F, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x73C0C001, 0x73C0C020, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C021, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C022, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C023, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C024, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C025, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C026, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C027, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x73C0C001, 0x73C0C028, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x73C0C001, 0x73C0C029, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C02A, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C02B, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x73C0C001, 0x73C0C02C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C02D, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C02E, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C02F, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C030, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C031, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C032, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x73C0C001, 0x73C0C033, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C034, '2019-02-10 00:00:00') /* Eyestalk of T'thuun */
-     , (0x73C0C001, 0x73C0C035, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C036, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C037, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C038, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C039, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x73C0C001, 0x73C0C03A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C03B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C03C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C03D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C03E, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73C0C001, 0x73C0C03F, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x73C0C001, 0x73C0C040, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x73C0C001, 0x73C0C041, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C042, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x73C0C001, 0x73C0C043, '2019-02-10 00:00:00') /* Tendril of T'thuun */;
+VALUES (0x73C0C001, 0x73C0C002, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73C0C001, 0x73C0C003, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73C0C001, 0x73C0C004, '2019-02-10 00:00:00') /* Coral Tower (38296) */
+     , (0x73C0C001, 0x73C0C005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C006, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C009, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73C0C001, 0x73C0C00A, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C00B, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x73C0C001, 0x73C0C00C, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73C0C001, 0x73C0C00D, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73C0C001, 0x73C0C00E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73C0C001, 0x73C0C00F, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73C0C001, 0x73C0C010, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x73C0C001, 0x73C0C011, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73C0C001, 0x73C0C012, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38829) */
+     , (0x73C0C001, 0x73C0C013, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C014, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C015, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C016, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C017, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C018, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C019, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73C0C001, 0x73C0C01A, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C01B, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C01C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C01D, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73C0C001, 0x73C0C01E, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73C0C001, 0x73C0C01F, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x73C0C001, 0x73C0C020, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C021, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C022, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x73C0C001, 0x73C0C023, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73C0C001, 0x73C0C024, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73C0C001, 0x73C0C025, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73C0C001, 0x73C0C026, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73C0C001, 0x73C0C027, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x73C0C001, 0x73C0C028, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73C0C001, 0x73C0C029, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C02A, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C02B, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73C0C001, 0x73C0C02C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C02D, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x73C0C001, 0x73C0C02E, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C02F, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C030, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C031, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C032, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73C0C001, 0x73C0C033, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C034, '2019-02-10 00:00:00') /* Eyestalk of T'thuun (38829) */
+     , (0x73C0C001, 0x73C0C035, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C036, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C037, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C038, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C039, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x73C0C001, 0x73C0C03A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C03B, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C03C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C03D, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C03E, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73C0C001, 0x73C0C03F, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73C0C001, 0x73C0C040, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73C0C001, 0x73C0C041, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C042, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73C0C001, 0x73C0C043, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C0C002, 40479, 0x3C0C0030, 137.0882, 185.6988, 0.005599976, -0.5387244, 0, 0, -0.8424821,  True, '2019-02-10 00:00:00'); /* Maguth Moarsman */

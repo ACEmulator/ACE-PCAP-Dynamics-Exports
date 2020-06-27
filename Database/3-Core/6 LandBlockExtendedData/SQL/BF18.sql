@@ -5,19 +5,19 @@ VALUES (0x7BF18001,  1154, 0xBF18000B, 31.51912, 59.36614, 0.01199992, 0.9310482
 /* @teleloc 0xBF18000B [31.519120 59.366140 0.012000] 0.931048 0.000000 0.000000 -0.364896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF18001, 0x7BF18002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BF18001, 0x7BF18003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BF18001, 0x7BF18004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BF18001, 0x7BF18005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BF18001, 0x7BF18006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BF18001, 0x7BF18007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BF18001, 0x7BF18008, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BF18001, 0x7BF18009, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BF18001, 0x7BF1800A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BF18001, 0x7BF1800B, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BF18001, 0x7BF1800C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BF18001, 0x7BF1800D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BF18001, 0x7BF1800E, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7BF18001, 0x7BF18002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BF18001, 0x7BF18003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BF18001, 0x7BF18004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BF18001, 0x7BF18005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BF18001, 0x7BF18006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BF18001, 0x7BF18007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BF18001, 0x7BF18008, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BF18001, 0x7BF18009, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BF18001, 0x7BF1800A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BF18001, 0x7BF1800B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BF18001, 0x7BF1800C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BF18001, 0x7BF1800D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BF18001, 0x7BF1800E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF18002,  7105, 0xBF18000B, 31.51912, 59.36614, 0.01199992, 0.9310482, 0, 0, -0.3648963,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

@@ -5,8 +5,8 @@ VALUES (0x7B130001,  1154, 0xB1300018, 61.29981, 180.2832, 50, -0.2328865, 0, 0,
 /* @teleloc 0xB1300018 [61.299810 180.283200 50.000000] -0.232887 0.000000 0.000000 -0.972504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B130001, 0x7B130002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7B130001, 0x7B130003, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7B130001, 0x7B130002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7B130001, 0x7B130003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B130002,  1989, 0xB1300018, 61.29981, 180.2832, 50, -0.2328865, 0, 0, -0.9725039,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

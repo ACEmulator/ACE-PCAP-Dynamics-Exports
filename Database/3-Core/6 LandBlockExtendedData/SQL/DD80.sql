@@ -5,10 +5,10 @@ VALUES (0x7DD80001,  1154, 0xDD800026, 119.7451, 130.8584, 6.910363, 0.9063078, 
 /* @teleloc 0xDD800026 [119.745100 130.858400 6.910363] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD80001, 0x7DD80002, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7DD80001, 0x7DD80003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7DD80001, 0x7DD80004, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DD80001, 0x7DD80005, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7DD80001, 0x7DD80002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7DD80001, 0x7DD80003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7DD80001, 0x7DD80004, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DD80001, 0x7DD80005, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD80002,   233, 0xDD800026, 119.7451, 130.8584, 6.910363, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -31,7 +31,7 @@ VALUES (0x7DD80006,  1542, 0xDD80002E, 127.8754, 138.6298, 8, 0.7071068, 0, 0, -
 /* @teleloc 0xDD80002E [127.875400 138.629800 8.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD80006, 0x7DD80007, '2019-02-10 00:00:00') /* Hyssop */;
+VALUES (0x7DD80006, 0x7DD80007, '2019-02-10 00:00:00') /* Hyssop (774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD80007,   774, 0xDD80002E, 127.8754, 138.6298, 8, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hyssop */

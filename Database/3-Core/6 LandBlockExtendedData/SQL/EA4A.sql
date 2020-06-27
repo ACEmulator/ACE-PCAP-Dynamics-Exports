@@ -5,14 +5,14 @@ VALUES (0x7EA4A001,  1154, 0xEA4A0036, 147.1624, 140.682, 23.97407, 0.4572693, 0
 /* @teleloc 0xEA4A0036 [147.162400 140.682000 23.974070] 0.457269 0.000000 0.000000 -0.889328 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA4A001, 0x7EA4A002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7EA4A001, 0x7EA4A003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7EA4A001, 0x7EA4A004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7EA4A001, 0x7EA4A005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7EA4A001, 0x7EA4A006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7EA4A001, 0x7EA4A007, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7EA4A001, 0x7EA4A008, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7EA4A001, 0x7EA4A009, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x7EA4A001, 0x7EA4A002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7EA4A001, 0x7EA4A003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7EA4A001, 0x7EA4A004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7EA4A001, 0x7EA4A005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7EA4A001, 0x7EA4A006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7EA4A001, 0x7EA4A007, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7EA4A001, 0x7EA4A008, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7EA4A001, 0x7EA4A009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA4A002,  2582, 0xEA4A0036, 147.1624, 140.682, 23.97407, 0.4572693, 0, 0, -0.8893283,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

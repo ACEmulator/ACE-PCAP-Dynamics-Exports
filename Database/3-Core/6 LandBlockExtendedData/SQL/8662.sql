@@ -9,17 +9,17 @@ VALUES (0x78662001,  1154, 0x86620029, 133.4262, 13.22979, 23.09326, -0.839597, 
 /* @teleloc 0x86620029 [133.426200 13.229790 23.093260] -0.839597 0.000000 0.000000 -0.543210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78662001, 0x78662002, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x78662001, 0x78662003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x78662001, 0x78662004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x78662001, 0x78662005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x78662001, 0x78662006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78662001, 0x78662007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x78662001, 0x78662008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78662001, 0x78662009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78662001, 0x7866200A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78662001, 0x7866200B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x78662001, 0x7866200C, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x78662001, 0x78662002, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x78662001, 0x78662003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x78662001, 0x78662004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x78662001, 0x78662005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x78662001, 0x78662006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78662001, 0x78662007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x78662001, 0x78662008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78662001, 0x78662009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78662001, 0x7866200A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78662001, 0x7866200B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x78662001, 0x7866200C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78662002,   938, 0x86620029, 133.4262, 13.22979, 23.09326, -0.839597, 0, 0, -0.5432097,  True, '2019-02-10 00:00:00'); /* Banderling Raider */
@@ -70,7 +70,7 @@ VALUES (0x7866200D,  1542, 0x8662002E, 136.8381, 138.0375, 13.30323, 0.9990482, 
 /* @teleloc 0x8662002E [136.838100 138.037500 13.303230] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7866200D, 0x7866200E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7866200D, 0x7866200E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7866200E,  4179, 0x8662002E, 136.8381, 138.0375, 13.30323, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

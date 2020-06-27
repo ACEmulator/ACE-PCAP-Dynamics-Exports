@@ -5,31 +5,31 @@ VALUES (0x72B32001,  1154, 0x2B320039, 181.7705, 16.90526, 67.7053, 0.8505981, 0
 /* @teleloc 0x2B320039 [181.770500 16.905260 67.705300] 0.850598 0.000000 0.000000 -0.525816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B32001, 0x72B32002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72B32001, 0x72B32003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72B32001, 0x72B32004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72B32001, 0x72B32005, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72B32001, 0x72B32006, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72B32001, 0x72B32007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72B32001, 0x72B32008, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72B32001, 0x72B32009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72B32001, 0x72B3200A, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72B32001, 0x72B3200B, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72B32001, 0x72B3200C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B32001, 0x72B3200D, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72B32001, 0x72B3200E, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72B32001, 0x72B3200F, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72B32001, 0x72B32010, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B32001, 0x72B32011, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72B32001, 0x72B32012, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72B32001, 0x72B32013, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B32001, 0x72B32014, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72B32001, 0x72B32015, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72B32001, 0x72B32016, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72B32001, 0x72B32017, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72B32001, 0x72B32018, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72B32001, 0x72B32019, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72B32001, 0x72B3201A, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x72B32001, 0x72B32002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72B32001, 0x72B32003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72B32001, 0x72B32004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72B32001, 0x72B32005, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72B32001, 0x72B32006, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72B32001, 0x72B32007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72B32001, 0x72B32008, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72B32001, 0x72B32009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72B32001, 0x72B3200A, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72B32001, 0x72B3200B, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72B32001, 0x72B3200C, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72B32001, 0x72B3200D, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72B32001, 0x72B3200E, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72B32001, 0x72B3200F, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72B32001, 0x72B32010, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72B32001, 0x72B32011, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72B32001, 0x72B32012, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72B32001, 0x72B32013, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72B32001, 0x72B32014, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72B32001, 0x72B32015, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72B32001, 0x72B32016, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72B32001, 0x72B32017, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72B32001, 0x72B32018, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72B32001, 0x72B32019, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72B32001, 0x72B3201A, '2019-02-10 00:00:00') /* Virindi Profane (36864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B32002, 23555, 0x2B320039, 181.7705, 16.90526, 67.7053, 0.8505981, 0, 0, -0.5258164,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */
@@ -136,7 +136,7 @@ VALUES (0x72B3201B,  1542, 0x2B320026, 115.6031, 126.2451, 68.15401, 1, 0, 0, 0,
 /* @teleloc 0x2B320026 [115.603100 126.245100 68.154010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B3201B, 0x72B3201C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72B3201B, 0x72B3201C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B3201C, 22566, 0x2B320026, 115.6031, 126.2451, 68.15401, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

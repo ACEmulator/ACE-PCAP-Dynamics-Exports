@@ -5,14 +5,14 @@ VALUES (0x71E16001,  1154, 0x1E160034, 149.5394, 80.68123, 14.86834, 0.5468016, 
 /* @teleloc 0x1E160034 [149.539400 80.681230 14.868340] 0.546802 0.000000 0.000000 -0.837262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E16001, 0x71E16002, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71E16001, 0x71E16003, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71E16001, 0x71E16004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E16001, 0x71E16005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E16001, 0x71E16006, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E16001, 0x71E16007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E16001, 0x71E16008, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71E16001, 0x71E16009, '2019-02-10 00:00:00') /* Withered Banderling Paragon */;
+VALUES (0x71E16001, 0x71E16002, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E16001, 0x71E16003, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E16001, 0x71E16004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E16001, 0x71E16005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E16001, 0x71E16006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E16001, 0x71E16007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E16001, 0x71E16008, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71E16001, 0x71E16009, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E16002, 30683, 0x1E160034, 149.5394, 80.68123, 14.86834, 0.5468016, 0, 0, -0.8372622,  True, '2019-02-10 00:00:00'); /* Withered Banderling Hierophant */

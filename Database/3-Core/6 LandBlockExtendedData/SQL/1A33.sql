@@ -5,12 +5,12 @@ VALUES (0x71A33001,  1154, 0x1A33000B, 28.37595, 67.79758, 7.60137, 0.7071068, 0
 /* @teleloc 0x1A33000B [28.375950 67.797580 7.601370] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A33001, 0x71A33002, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x71A33001, 0x71A33003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A33001, 0x71A33004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71A33001, 0x71A33005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71A33001, 0x71A33006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x71A33001, 0x71A33007, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x71A33001, 0x71A33002, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71A33001, 0x71A33003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A33001, 0x71A33004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71A33001, 0x71A33005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71A33001, 0x71A33006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71A33001, 0x71A33007, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A33002, 36837, 0x1A33000B, 28.37595, 67.79758, 7.60137, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */

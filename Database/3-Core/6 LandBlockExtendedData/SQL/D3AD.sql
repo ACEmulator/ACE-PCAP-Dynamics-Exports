@@ -5,16 +5,16 @@ VALUES (0x7D3AD001,  1154, 0xD3AD0018, 51.40937, 176.6772, 0.01050007, 0.8660254
 /* @teleloc 0xD3AD0018 [51.409370 176.677200 0.010500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3AD001, 0x7D3AD002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D3AD001, 0x7D3AD003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D3AD001, 0x7D3AD004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D3AD001, 0x7D3AD005, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D3AD001, 0x7D3AD006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D3AD001, 0x7D3AD007, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D3AD001, 0x7D3AD008, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D3AD001, 0x7D3AD009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D3AD001, 0x7D3AD00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D3AD001, 0x7D3AD00B, '2019-02-10 00:00:00') /* Rank Moarsman */;
+VALUES (0x7D3AD001, 0x7D3AD002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D3AD001, 0x7D3AD003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D3AD001, 0x7D3AD004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D3AD001, 0x7D3AD005, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D3AD001, 0x7D3AD006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D3AD001, 0x7D3AD007, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D3AD001, 0x7D3AD008, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D3AD001, 0x7D3AD009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D3AD001, 0x7D3AD00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D3AD001, 0x7D3AD00B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3AD002,  7082, 0xD3AD0018, 51.40937, 176.6772, 0.01050007, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -61,9 +61,9 @@ VALUES (0x7D3AD00C,  1542, 0xD3AD0018, 57.70388, 190.1881, 0.011, 0.8359457, 0, 
 /* @teleloc 0xD3AD0018 [57.703880 190.188100 0.011000] 0.835946 0.000000 0.000000 -0.548812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3AD00C, 0x7D3AD00D, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7D3AD00C, 0x7D3AD00E, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x7D3AD00C, 0x7D3AD00F, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7D3AD00C, 0x7D3AD00D, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7D3AD00C, 0x7D3AD00E, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x7D3AD00C, 0x7D3AD00F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3AD00D, 31686, 0xD3AD0018, 57.70388, 190.1881, 0.011, 0.8359457, 0, 0, -0.5488122,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

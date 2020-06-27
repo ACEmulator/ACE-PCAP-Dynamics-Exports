@@ -5,24 +5,24 @@ VALUES (0x742C3001,  1154, 0x42C30022, 116.2919, 42.73365, 12.69341, 0.9775096, 
 /* @teleloc 0x42C30022 [116.291900 42.733650 12.693410] 0.977510 0.000000 0.000000 -0.210891 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742C3001, 0x742C3002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x742C3001, 0x742C3003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742C3001, 0x742C3004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742C3001, 0x742C3005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x742C3001, 0x742C3006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x742C3001, 0x742C3007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742C3001, 0x742C3008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x742C3001, 0x742C3009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x742C3001, 0x742C300A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x742C3001, 0x742C300B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x742C3001, 0x742C300C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x742C3001, 0x742C300D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x742C3001, 0x742C300E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x742C3001, 0x742C300F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x742C3001, 0x742C3010, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x742C3001, 0x742C3011, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x742C3001, 0x742C3012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x742C3001, 0x742C3013, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x742C3001, 0x742C3002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x742C3001, 0x742C3003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742C3001, 0x742C3004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742C3001, 0x742C3005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x742C3001, 0x742C3006, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x742C3001, 0x742C3007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742C3001, 0x742C3008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x742C3001, 0x742C3009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x742C3001, 0x742C300A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x742C3001, 0x742C300B, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x742C3001, 0x742C300C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x742C3001, 0x742C300D, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x742C3001, 0x742C300E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x742C3001, 0x742C300F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x742C3001, 0x742C3010, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x742C3001, 0x742C3011, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x742C3001, 0x742C3012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x742C3001, 0x742C3013, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742C3002, 14520, 0x42C30022, 116.2919, 42.73365, 12.69341, 0.9775096, 0, 0, -0.2108909,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -101,8 +101,8 @@ VALUES (0x742C3014,  1542, 0x42C3002B, 124.4355, 53.94825, 17.68552, 1, 0, 0, 0,
 /* @teleloc 0x42C3002B [124.435500 53.948250 17.685520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742C3014, 0x742C3015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x742C3014, 0x742C3016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x742C3014, 0x742C3015, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x742C3014, 0x742C3016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742C3015, 31445, 0x42C3002B, 124.4355, 53.94825, 17.68552, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

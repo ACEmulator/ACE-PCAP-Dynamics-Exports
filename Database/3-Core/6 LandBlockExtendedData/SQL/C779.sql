@@ -5,9 +5,9 @@ VALUES (0x7C779001,  1154, 0xC7790020, 83.27047, 172.3849, 46.87285, 0.6293204, 
 /* @teleloc 0xC7790020 [83.270470 172.384900 46.872850] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C779001, 0x7C779002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C779001, 0x7C779003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C779001, 0x7C779004, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7C779001, 0x7C779002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C779001, 0x7C779003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C779001, 0x7C779004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C779002,  4111, 0xC7790020, 83.27047, 172.3849, 46.87285, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

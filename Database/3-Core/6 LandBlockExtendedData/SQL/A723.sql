@@ -5,11 +5,11 @@ VALUES (0x7A723001,  1154, 0xA723002A, 143.1229, 39.00854, 254.0458, 0.9112591, 
 /* @teleloc 0xA723002A [143.122900 39.008540 254.045800] 0.911259 0.000000 0.000000 -0.411834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A723001, 0x7A723002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A723001, 0x7A723003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A723001, 0x7A723004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A723001, 0x7A723005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A723001, 0x7A723006, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7A723001, 0x7A723002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A723001, 0x7A723003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A723001, 0x7A723004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A723001, 0x7A723005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A723001, 0x7A723006, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A723002, 14517, 0xA723002A, 143.1229, 39.00854, 254.0458, 0.9112591, 0, 0, -0.4118336,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -36,7 +36,7 @@ VALUES (0x7A723007,  1542, 0xA7230023, 106.2452, 58.1722, 270.032, 1, 0, 0, 0, F
 /* @teleloc 0xA7230023 [106.245200 58.172200 270.032000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A723007, 0x7A723008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7A723007, 0x7A723008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A723008,  4380, 0xA7230023, 106.2452, 58.1722, 270.032, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

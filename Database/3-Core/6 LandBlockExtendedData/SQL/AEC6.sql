@@ -17,30 +17,30 @@ VALUES (0x7AEC6003,  1154, 0xAEC60100, 184.62, 10.3308, 118.0046, -0.773861, 0, 
 /* @teleloc 0xAEC60100 [184.620000 10.330800 118.004600] -0.773861 0.000000 0.000000 -0.633356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC6003, 0x7AEC6004, '2019-02-10 00:00:00') /* Heavy Drudge Prowler */
-     , (0x7AEC6003, 0x7AEC6005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AEC6003, 0x7AEC6006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AEC6003, 0x7AEC6007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7AEC6003, 0x7AEC6008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7AEC6003, 0x7AEC6009, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7AEC6003, 0x7AEC600A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AEC6003, 0x7AEC600B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AEC6003, 0x7AEC600C, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AEC6003, 0x7AEC600D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AEC6003, 0x7AEC600E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7AEC6003, 0x7AEC600F, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AEC6003, 0x7AEC6010, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AEC6003, 0x7AEC6011, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7AEC6003, 0x7AEC6012, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AEC6003, 0x7AEC6013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AEC6003, 0x7AEC6014, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AEC6003, 0x7AEC6015, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AEC6003, 0x7AEC6016, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7AEC6003, 0x7AEC6017, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AEC6003, 0x7AEC6018, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AEC6003, 0x7AEC6019, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AEC6003, 0x7AEC601A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AEC6003, 0x7AEC601B, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7AEC6003, 0x7AEC6004, '2019-02-10 00:00:00') /* Heavy Drudge Prowler (1521) */
+     , (0x7AEC6003, 0x7AEC6005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AEC6003, 0x7AEC6006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AEC6003, 0x7AEC6007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7AEC6003, 0x7AEC6008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7AEC6003, 0x7AEC6009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7AEC6003, 0x7AEC600A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AEC6003, 0x7AEC600B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AEC6003, 0x7AEC600C, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AEC6003, 0x7AEC600D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AEC6003, 0x7AEC600E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7AEC6003, 0x7AEC600F, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AEC6003, 0x7AEC6010, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AEC6003, 0x7AEC6011, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7AEC6003, 0x7AEC6012, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AEC6003, 0x7AEC6013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AEC6003, 0x7AEC6014, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AEC6003, 0x7AEC6015, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AEC6003, 0x7AEC6016, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7AEC6003, 0x7AEC6017, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AEC6003, 0x7AEC6018, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AEC6003, 0x7AEC6019, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AEC6003, 0x7AEC601A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AEC6003, 0x7AEC601B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC6004,  1521, 0xAEC60100, 184.62, 10.3308, 118.0046, -0.773861, 0, 0, -0.633356,  True, '2019-02-10 00:00:00'); /* Heavy Drudge Prowler */
@@ -143,8 +143,8 @@ VALUES (0x7AEC601C,  1542, 0xAEC60013, 62.20355, 57.66191, 125.9267, 0.9990482, 
 /* @teleloc 0xAEC60013 [62.203550 57.661910 125.926700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEC601C, 0x7AEC601D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AEC601C, 0x7AEC601E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7AEC601C, 0x7AEC601D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AEC601C, 0x7AEC601E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEC601D,  4179, 0xAEC60013, 62.20355, 57.66191, 125.9267, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

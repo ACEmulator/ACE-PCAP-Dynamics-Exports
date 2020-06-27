@@ -5,12 +5,12 @@ VALUES (0x728E6001,  1154, 0x28E6001A, 94.61432, 43.34303, 4.0065, -0.7633379, 0
 /* @teleloc 0x28E6001A [94.614320 43.343030 4.006500] -0.763338 0.000000 0.000000 -0.646000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728E6001, 0x728E6002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x728E6001, 0x728E6003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x728E6001, 0x728E6004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x728E6001, 0x728E6005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x728E6001, 0x728E6006, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x728E6001, 0x728E6007, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x728E6001, 0x728E6002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x728E6001, 0x728E6003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x728E6001, 0x728E6004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x728E6001, 0x728E6005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x728E6001, 0x728E6006, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x728E6001, 0x728E6007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728E6002, 22910, 0x28E6001A, 94.61432, 43.34303, 4.0065, -0.7633379, 0, 0, -0.6459995,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

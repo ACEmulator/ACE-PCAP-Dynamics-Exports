@@ -5,25 +5,25 @@ VALUES (0x72A5C001,  1154, 0x2A5C0003, 4.03363, 71.29232, 0.006500006, 0.7071068
 /* @teleloc 0x2A5C0003 [4.033630 71.292320 0.006500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5C001, 0x72A5C002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72A5C001, 0x72A5C003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72A5C001, 0x72A5C004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A5C001, 0x72A5C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A5C001, 0x72A5C006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A5C001, 0x72A5C007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A5C001, 0x72A5C008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A5C001, 0x72A5C009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72A5C001, 0x72A5C00A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72A5C001, 0x72A5C00B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A5C001, 0x72A5C00C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72A5C001, 0x72A5C00D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72A5C001, 0x72A5C00E, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72A5C001, 0x72A5C00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A5C001, 0x72A5C010, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72A5C001, 0x72A5C011, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A5C001, 0x72A5C012, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A5C001, 0x72A5C013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72A5C001, 0x72A5C014, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x72A5C001, 0x72A5C002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72A5C001, 0x72A5C003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72A5C001, 0x72A5C004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A5C001, 0x72A5C005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A5C001, 0x72A5C006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A5C001, 0x72A5C007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A5C001, 0x72A5C008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A5C001, 0x72A5C009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72A5C001, 0x72A5C00A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72A5C001, 0x72A5C00B, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72A5C001, 0x72A5C00C, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72A5C001, 0x72A5C00D, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72A5C001, 0x72A5C00E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72A5C001, 0x72A5C00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A5C001, 0x72A5C010, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72A5C001, 0x72A5C011, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A5C001, 0x72A5C012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A5C001, 0x72A5C013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72A5C001, 0x72A5C014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5C002, 10807, 0x2A5C0003, 4.03363, 71.29232, 0.006500006, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -106,8 +106,8 @@ VALUES (0x72A5C015,  1542, 0x2A5C0004, 5.240078, 73.36704, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x2A5C0004 [5.240078 73.367040 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5C015, 0x72A5C016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72A5C015, 0x72A5C017, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72A5C015, 0x72A5C016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72A5C015, 0x72A5C017, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5C016,  4179, 0x2A5C0004, 5.240078, 73.36704, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

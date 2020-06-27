@@ -5,14 +5,14 @@ VALUES (0x7B931001,  1154, 0xB931001E, 85.38251, 138.1227, 75.87434, -0.7050744,
 /* @teleloc 0xB931001E [85.382510 138.122700 75.874340] -0.705074 0.000000 0.000000 -0.709133 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B931001, 0x7B931002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7B931001, 0x7B931003, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B931001, 0x7B931004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7B931001, 0x7B931005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B931001, 0x7B931006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7B931001, 0x7B931007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B931001, 0x7B931008, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B931001, 0x7B931009, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7B931001, 0x7B931002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7B931001, 0x7B931003, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B931001, 0x7B931004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7B931001, 0x7B931005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B931001, 0x7B931006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7B931001, 0x7B931007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B931001, 0x7B931008, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B931001, 0x7B931009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B931002,  8143, 0xB931001E, 85.38251, 138.1227, 75.87434, -0.7050744, 0, 0, -0.7091333,  True, '2019-02-10 00:00:00'); /* Amploth Raider */
@@ -51,7 +51,7 @@ VALUES (0x7B93100A,  1542, 0xB931000C, 41.87067, 77.60031, 88.08817, 1, 0, 0, 0,
 /* @teleloc 0xB931000C [41.870670 77.600310 88.088170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B93100A, 0x7B93100B, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7B93100A, 0x7B93100B, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B93100B,  4383, 0xB931000C, 41.87067, 77.60031, 88.08817, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

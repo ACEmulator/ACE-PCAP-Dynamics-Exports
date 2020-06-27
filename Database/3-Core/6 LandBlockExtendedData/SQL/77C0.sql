@@ -5,22 +5,22 @@ VALUES (0x777C0001,  1154, 0x77C00038, 157.7917, 191.4407, 149.6999, 0.1855261, 
 /* @teleloc 0x77C00038 [157.791700 191.440700 149.699900] 0.185526 0.000000 0.000000 -0.982639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C0001, 0x777C0002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C0001, 0x777C0003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x777C0001, 0x777C0004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x777C0001, 0x777C0005, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x777C0001, 0x777C0006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777C0001, 0x777C0007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x777C0001, 0x777C0008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777C0001, 0x777C0009, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x777C0001, 0x777C000A, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x777C0001, 0x777C000B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x777C0001, 0x777C000C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x777C0001, 0x777C000D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x777C0001, 0x777C000E, '2019-02-10 00:00:00') /* Frost */
-     , (0x777C0001, 0x777C000F, '2019-02-10 00:00:00') /* Horripal */
-     , (0x777C0001, 0x777C0010, '2019-02-10 00:00:00') /* Gelid */
-     , (0x777C0001, 0x777C0011, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x777C0001, 0x777C0002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C0001, 0x777C0003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x777C0001, 0x777C0004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x777C0001, 0x777C0005, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x777C0001, 0x777C0006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777C0001, 0x777C0007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x777C0001, 0x777C0008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777C0001, 0x777C0009, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x777C0001, 0x777C000A, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x777C0001, 0x777C000B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x777C0001, 0x777C000C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x777C0001, 0x777C000D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x777C0001, 0x777C000E, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x777C0001, 0x777C000F, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x777C0001, 0x777C0010, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x777C0001, 0x777C0011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C0002, 23482, 0x77C00038, 157.7917, 191.4407, 149.6999, 0.1855261, 0, 0, -0.9826394,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -91,7 +91,7 @@ VALUES (0x777C0012,  1542, 0x77C00011, 57.13965, 23.60076, 135.8238, -4.371139E-
 /* @teleloc 0x77C00011 [57.139650 23.600760 135.823800] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C0012, 0x777C0013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x777C0012, 0x777C0013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C0013,  4380, 0x77C00011, 57.13965, 23.60076, 135.8238, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

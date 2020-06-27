@@ -5,12 +5,12 @@ VALUES (0x724B6001,  1154, 0x24B60018, 49.10006, 172.6723, 88.87688, 1, 0, 0, 0,
 /* @teleloc 0x24B60018 [49.100060 172.672300 88.876880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B6001, 0x724B6002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x724B6001, 0x724B6003, '2019-02-10 00:00:00') /* Poacher */
-     , (0x724B6001, 0x724B6004, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x724B6001, 0x724B6005, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x724B6001, 0x724B6006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x724B6001, 0x724B6007, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x724B6001, 0x724B6002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x724B6001, 0x724B6003, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x724B6001, 0x724B6004, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x724B6001, 0x724B6005, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x724B6001, 0x724B6006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x724B6001, 0x724B6007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B6002, 21170, 0x24B60018, 49.10006, 172.6723, 88.87688, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Voltarc */
@@ -41,10 +41,10 @@ VALUES (0x724B6008,  1542, 0x24B60017, 55.19704, 160.0644, 90.05896, 1, 0, 0, 0,
 /* @teleloc 0x24B60017 [55.197040 160.064400 90.058960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B6008, 0x724B6009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x724B6008, 0x724B600A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x724B6008, 0x724B600B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x724B6008, 0x724B600C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x724B6008, 0x724B6009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x724B6008, 0x724B600A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x724B6008, 0x724B600B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x724B6008, 0x724B600C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B6009,  9024, 0x24B60017, 55.19704, 160.0644, 90.05896, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,14 +5,14 @@ VALUES (0x7EF49001,  1154, 0xEF49001B, 91.44305, 59.2379, 19.99675, 0.9804544, 0
 /* @teleloc 0xEF49001B [91.443050 59.237900 19.996750] 0.980454 0.000000 0.000000 -0.196746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF49001, 0x7EF49002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7EF49001, 0x7EF49003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EF49001, 0x7EF49004, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EF49001, 0x7EF49005, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7EF49001, 0x7EF49006, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7EF49001, 0x7EF49007, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7EF49001, 0x7EF49008, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7EF49001, 0x7EF49009, '2019-02-10 00:00:00') /* Veteran Reedshark */;
+VALUES (0x7EF49001, 0x7EF49002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7EF49001, 0x7EF49003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EF49001, 0x7EF49004, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EF49001, 0x7EF49005, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7EF49001, 0x7EF49006, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7EF49001, 0x7EF49007, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7EF49001, 0x7EF49008, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7EF49001, 0x7EF49009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF49002, 24938, 0xEF49001B, 91.44305, 59.2379, 19.99675, 0.9804544, 0, 0, -0.1967462,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

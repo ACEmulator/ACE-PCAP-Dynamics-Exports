@@ -5,36 +5,36 @@ VALUES (0x7E14E001,  1154, 0xE14E0039, 173.0178, 5.28915, 19.56639, -0.9915676, 
 /* @teleloc 0xE14E0039 [173.017800 5.289150 19.566390] -0.991568 0.000000 0.000000 -0.129591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14E001, 0x7E14E002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E14E001, 0x7E14E003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7E14E001, 0x7E14E004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E14E001, 0x7E14E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14E001, 0x7E14E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E14E001, 0x7E14E007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E14E001, 0x7E14E008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7E14E001, 0x7E14E009, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7E14E001, 0x7E14E00A, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7E14E001, 0x7E14E00B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14E001, 0x7E14E00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14E001, 0x7E14E00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E14E001, 0x7E14E00E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14E001, 0x7E14E00F, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E14E001, 0x7E14E010, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E14E001, 0x7E14E011, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E14E001, 0x7E14E012, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E14E001, 0x7E14E013, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E14E001, 0x7E14E014, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E14E001, 0x7E14E015, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7E14E001, 0x7E14E016, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14E001, 0x7E14E017, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7E14E001, 0x7E14E018, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E14E001, 0x7E14E019, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E14E001, 0x7E14E01A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7E14E001, 0x7E14E01B, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7E14E001, 0x7E14E01C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E14E001, 0x7E14E01D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E14E001, 0x7E14E01E, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E14E001, 0x7E14E01F, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7E14E001, 0x7E14E002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E14E001, 0x7E14E003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7E14E001, 0x7E14E004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E14E001, 0x7E14E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14E001, 0x7E14E006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E14E001, 0x7E14E007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E14E001, 0x7E14E008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7E14E001, 0x7E14E009, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7E14E001, 0x7E14E00A, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7E14E001, 0x7E14E00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14E001, 0x7E14E00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14E001, 0x7E14E00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E14E001, 0x7E14E00E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14E001, 0x7E14E00F, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E14E001, 0x7E14E010, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E14E001, 0x7E14E011, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E14E001, 0x7E14E012, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E14E001, 0x7E14E013, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E14E001, 0x7E14E014, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E14E001, 0x7E14E015, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7E14E001, 0x7E14E016, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14E001, 0x7E14E017, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7E14E001, 0x7E14E018, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E14E001, 0x7E14E019, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E14E001, 0x7E14E01A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7E14E001, 0x7E14E01B, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7E14E001, 0x7E14E01C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E14E001, 0x7E14E01D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E14E001, 0x7E14E01E, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E14E001, 0x7E14E01F, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14E002,     6, 0xE14E0039, 173.0178, 5.28915, 19.56639, -0.9915676, 0, 0, -0.1295909,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -161,11 +161,11 @@ VALUES (0x7E14E020,  1542, 0xE14E0039, 173.7852, 6.205289, 19.48289, 0.9238795, 
 /* @teleloc 0xE14E0039 [173.785200 6.205289 19.482890] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E14E020, 0x7E14E021, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E14E020, 0x7E14E022, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E14E020, 0x7E14E023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E14E020, 0x7E14E024, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7E14E020, 0x7E14E025, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E14E020, 0x7E14E021, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E14E020, 0x7E14E022, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E14E020, 0x7E14E023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E14E020, 0x7E14E024, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E14E020, 0x7E14E025, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E14E021,  4382, 0xE14E0039, 173.7852, 6.205289, 19.48289, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

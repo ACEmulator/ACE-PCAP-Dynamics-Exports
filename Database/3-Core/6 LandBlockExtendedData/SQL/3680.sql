@@ -5,10 +5,10 @@ VALUES (0x73680001,  1154, 0x36800031, 155.4724, 18.99124, 84.01, 0.5122268, 0, 
 /* @teleloc 0x36800031 [155.472400 18.991240 84.010000] 0.512227 0.000000 0.000000 -0.858850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73680001, 0x73680002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73680001, 0x73680003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73680001, 0x73680004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73680001, 0x73680005, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x73680001, 0x73680002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x73680001, 0x73680003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73680001, 0x73680004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73680001, 0x73680005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73680002, 36833, 0x36800031, 155.4724, 18.99124, 84.01, 0.5122268, 0, 0, -0.8588502,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -31,7 +31,7 @@ VALUES (0x73680006,  1542, 0x36800002, 9.662933, 38.39263, 35.55675, 1, 0, 0, 0,
 /* @teleloc 0x36800002 [9.662933 38.392630 35.556750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73680006, 0x73680007, '2019-02-10 00:00:00') /* Glenden Wood Portal */;
+VALUES (0x73680006, 0x73680007, '2019-02-10 00:00:00') /* Glenden Wood Portal (42814) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73680007, 42814, 0x36800002, 9.662933, 38.39263, 35.55675, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Glenden Wood Portal */

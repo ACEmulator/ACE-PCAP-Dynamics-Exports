@@ -5,19 +5,19 @@ VALUES (0x715B3001,  1154, 0x15B3002F, 132.9035, 146.5725, 20.002, 0.8191521, 0,
 /* @teleloc 0x15B3002F [132.903500 146.572500 20.002000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715B3001, 0x715B3002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x715B3001, 0x715B3003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x715B3001, 0x715B3004, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x715B3001, 0x715B3005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x715B3001, 0x715B3006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x715B3001, 0x715B3007, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x715B3001, 0x715B3008, '2019-02-10 00:00:00') /* Hea Runner */
-     , (0x715B3001, 0x715B3009, '2019-02-10 00:00:00') /* Brigand */
-     , (0x715B3001, 0x715B300A, '2019-02-10 00:00:00') /* Bandit */
-     , (0x715B3001, 0x715B300B, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x715B3001, 0x715B300C, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x715B3001, 0x715B300D, '2019-02-10 00:00:00') /* Brigand */
-     , (0x715B3001, 0x715B300E, '2019-02-10 00:00:00') /* Carenzi Sentry */;
+VALUES (0x715B3001, 0x715B3002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x715B3001, 0x715B3003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x715B3001, 0x715B3004, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x715B3001, 0x715B3005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x715B3001, 0x715B3006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x715B3001, 0x715B3007, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x715B3001, 0x715B3008, '2019-02-10 00:00:00') /* Hea Runner (11521) */
+     , (0x715B3001, 0x715B3009, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x715B3001, 0x715B300A, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x715B3001, 0x715B300B, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x715B3001, 0x715B300C, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B3001, 0x715B300D, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x715B3001, 0x715B300E, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715B3002,  7990, 0x15B3002F, 132.9035, 146.5725, 20.002, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -76,8 +76,8 @@ VALUES (0x715B300F,  1542, 0x15B30036, 151.0045, 139.9445, 22.31872, 1, 0, 0, 0,
 /* @teleloc 0x15B30036 [151.004500 139.944500 22.318720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x715B300F, 0x715B3010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x715B300F, 0x715B3011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x715B300F, 0x715B3010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x715B300F, 0x715B3011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715B3010,  9024, 0x15B30036, 151.0045, 139.9445, 22.31872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

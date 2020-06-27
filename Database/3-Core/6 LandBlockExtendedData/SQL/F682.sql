@@ -57,7 +57,7 @@ VALUES (0x7F682019,  1154, 0xF682001E, 77.2806, 140.553, 54.13445, 0.5045889, 0,
 /* @teleloc 0xF682001E [77.280600 140.553000 54.134450] 0.504589 0.000000 0.000000 -0.863360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F682019, 0x7F68201A, '2019-02-10 00:00:00') /* Exploration Marker */;
+VALUES (0x7F682019, 0x7F68201A, '2019-02-10 00:00:00') /* Exploration Marker (39779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F68201A, 39779, 0xF682001E, 77.2806, 140.553, 54.13445, 0.5045889, 0, 0, -0.8633597,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -68,9 +68,9 @@ VALUES (0x7F68201B,  1154, 0xF682011C, 175.994, 30.9674, 63.605, 0.662733, 0, 0,
 /* @teleloc 0xF682011C [175.994000 30.967400 63.605000] 0.662733 0.000000 0.000000 -0.748856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68201B, 0x7F68201C, '2019-02-10 00:00:00') /* Brighteyes, the Tailor */
-     , (0x7F68201B, 0x7F68201D, '2019-02-10 00:00:00') /* Lug */
-     , (0x7F68201B, 0x7F68201E, '2019-02-10 00:00:00') /* Mayor Ko Ko */;
+VALUES (0x7F68201B, 0x7F68201C, '2019-02-10 00:00:00') /* Brighteyes, the Tailor (22642) */
+     , (0x7F68201B, 0x7F68201D, '2019-02-10 00:00:00') /* Lug (28681) */
+     , (0x7F68201B, 0x7F68201E, '2019-02-10 00:00:00') /* Mayor Ko Ko (22640) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F68201C, 22642, 0xF682011C, 175.994, 30.9674, 63.605, 0.662733, 0, 0, -0.748856,  True, '2019-02-10 00:00:00'); /* Brighteyes, the Tailor */
@@ -89,23 +89,23 @@ VALUES (0x7F68201F,  1542, 0xF682003C, 172.948, 74.3958, 58.079, 0.634377, 0, 0,
 /* @teleloc 0xF682003C [172.948000 74.395800 58.079000] 0.634377 0.000000 0.000000 -0.773024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F68201F, 0x7F682020, '2019-02-10 00:00:00') /* Note */
-     , (0x7F68201F, 0x7F682021, '2019-02-10 00:00:00') /* Aphus Lassel Portal Gem */
-     , (0x7F68201F, 0x7F682022, '2019-02-10 00:00:00') /* Frost Corsesca */
-     , (0x7F68201F, 0x7F682023, '2019-02-10 00:00:00') /* Koujia Leggings */
-     , (0x7F68201F, 0x7F682024, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing */
-     , (0x7F68201F, 0x7F682025, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other VII */
-     , (0x7F68201F, 0x7F682026, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7F68201F, 0x7F682027, '2019-02-10 00:00:00') /* Spirit of Aun Tanua */
-     , (0x7F68201F, 0x7F682028, '2019-02-10 00:00:00') /* Spirit of Aun Tanua */
-     , (0x7F68201F, 0x7F682029, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F68201F, 0x7F68202A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F68201F, 0x7F68202B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F68201F, 0x7F68202C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7F68201F, 0x7F68202D, '2019-02-10 00:00:00') /* Medicated Health Kit */
-     , (0x7F68201F, 0x7F68202E, '2019-02-10 00:00:00') /* Twisted Dark Key */
-     , (0x7F68201F, 0x7F68202F, '2019-02-10 00:00:00') /* Mangled Dark Key */
-     , (0x7F68201F, 0x7F682030, '2019-02-10 00:00:00') /* Aphus Lassel Portal Gem */;
+VALUES (0x7F68201F, 0x7F682020, '2019-02-10 00:00:00') /* Note (25681) */
+     , (0x7F68201F, 0x7F682021, '2019-02-10 00:00:00') /* Aphus Lassel Portal Gem (22729) */
+     , (0x7F68201F, 0x7F682022, '2019-02-10 00:00:00') /* Frost Corsesca (40822) */
+     , (0x7F68201F, 0x7F682023, '2019-02-10 00:00:00') /* Koujia Leggings (6004) */
+     , (0x7F68201F, 0x7F682024, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing (20427) */
+     , (0x7F68201F, 0x7F682025, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other VII (46882) */
+     , (0x7F68201F, 0x7F682026, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x7F68201F, 0x7F682027, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x7F68201F, 0x7F682028, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x7F68201F, 0x7F682029, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F68201F, 0x7F68202A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F68201F, 0x7F68202B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F68201F, 0x7F68202C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F68201F, 0x7F68202D, '2019-02-10 00:00:00') /* Medicated Health Kit (30250) */
+     , (0x7F68201F, 0x7F68202E, '2019-02-10 00:00:00') /* Twisted Dark Key (23108) */
+     , (0x7F68201F, 0x7F68202F, '2019-02-10 00:00:00') /* Mangled Dark Key (23107) */
+     , (0x7F68201F, 0x7F682030, '2019-02-10 00:00:00') /* Aphus Lassel Portal Gem (22729) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F682020, 25681, 0xF682003C, 172.948, 74.3958, 58.079, 0.634377, 0, 0, -0.773024,  True, '2019-02-10 00:00:00'); /* Note */

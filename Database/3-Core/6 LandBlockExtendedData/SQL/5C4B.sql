@@ -45,91 +45,91 @@ VALUES (0x75C4B06C,  1154, 0x5C4B025D, 70.2712, -255.239, -11.971, -0.089208, 0,
 /* @teleloc 0x5C4B025D [70.271200 -255.239000 -11.971000] -0.089208 0.000000 0.000000 -0.996013 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B06C, 0x75C4B06D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B06E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75C4B06C, 0x75C4B06F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75C4B06C, 0x75C4B070, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B071, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B072, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75C4B06C, 0x75C4B073, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B074, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B075, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B076, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B077, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B078, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x75C4B06C, 0x75C4B079, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x75C4B06C, 0x75C4B07A, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x75C4B06C, 0x75C4B07B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B07C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75C4B06C, 0x75C4B07D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x75C4B06C, 0x75C4B07E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75C4B06C, 0x75C4B07F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75C4B06C, 0x75C4B080, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x75C4B06C, 0x75C4B081, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x75C4B06C, 0x75C4B082, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B083, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B084, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B085, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75C4B06C, 0x75C4B086, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B087, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B088, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B089, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B08F, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B090, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B091, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B092, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B093, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B094, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B095, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B096, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B097, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B098, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B099, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B09A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B09B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B09C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B09D, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B09E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75C4B06C, 0x75C4B09F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75C4B06C, 0x75C4B0A0, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0A1, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B0A2, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0A3, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75C4B06C, 0x75C4B0A4, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75C4B06C, 0x75C4B0A5, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0A6, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B0A7, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0A8, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0A9, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B0AA, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75C4B06C, 0x75C4B0AB, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75C4B06C, 0x75C4B0AC, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75C4B06C, 0x75C4B0AD, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0AE, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0AF, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x75C4B06C, 0x75C4B0B0, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0B1, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0B2, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0B3, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0B4, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0B5, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0B6, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0B7, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0B8, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75C4B06C, 0x75C4B0B9, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0BA, '2019-02-10 00:00:00') /* Virindi Interrogator */
-     , (0x75C4B06C, 0x75C4B0BB, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75C4B06C, 0x75C4B0BC, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75C4B06C, 0x75C4B0BD, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0BE, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0BF, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0C0, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C4B06C, 0x75C4B0C1, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x75C4B06C, 0x75C4B06D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B06E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06C, 0x75C4B06F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06C, 0x75C4B070, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B071, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B072, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06C, 0x75C4B073, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B074, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B075, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B076, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B077, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B078, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06C, 0x75C4B079, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06C, 0x75C4B07A, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06C, 0x75C4B07B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B07C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06C, 0x75C4B07D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x75C4B06C, 0x75C4B07E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06C, 0x75C4B07F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75C4B06C, 0x75C4B080, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06C, 0x75C4B081, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x75C4B06C, 0x75C4B082, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B083, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B084, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B085, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75C4B06C, 0x75C4B086, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B087, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B088, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B089, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B08A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B08B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B08C, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B08D, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B08E, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B08F, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B090, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B091, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B092, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B093, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B094, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B095, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B096, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B097, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B098, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B099, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B09A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B09B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B09C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75C4B06C, 0x75C4B09D, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B09E, '2019-02-10 00:00:00') /* Virindi Executor (10955) */
+     , (0x75C4B06C, 0x75C4B09F, '2019-02-10 00:00:00') /* Virindi Executor (10955) */
+     , (0x75C4B06C, 0x75C4B0A0, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0A1, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B0A2, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0A3, '2019-02-10 00:00:00') /* Tusker Guard (22592) */
+     , (0x75C4B06C, 0x75C4B0A4, '2019-02-10 00:00:00') /* Tusker Guard (22592) */
+     , (0x75C4B06C, 0x75C4B0A5, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0A6, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B0A7, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0A8, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0A9, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B0AA, '2019-02-10 00:00:00') /* Virindi Observer (10957) */
+     , (0x75C4B06C, 0x75C4B0AB, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06C, 0x75C4B0AC, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06C, 0x75C4B0AD, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0AE, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0AF, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x75C4B06C, 0x75C4B0B0, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0B1, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0B2, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0B3, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0B4, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0B5, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0B6, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0B7, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0B8, '2019-02-10 00:00:00') /* Virindi Executor (10955) */
+     , (0x75C4B06C, 0x75C4B0B9, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0BA, '2019-02-10 00:00:00') /* Virindi Interrogator (24036) */
+     , (0x75C4B06C, 0x75C4B0BB, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06C, 0x75C4B0BC, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75C4B06C, 0x75C4B0BD, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0BE, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0BF, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0C0, '2019-02-10 00:00:00') /* Tusker Slave (22604) */
+     , (0x75C4B06C, 0x75C4B0C1, '2019-02-10 00:00:00') /* Tusker Slave (22604) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B06D,  7340, 0x5C4B025D, 70.2712, -255.239, -11.971, -0.089208, 0, 0, -0.996013,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -476,11 +476,11 @@ VALUES (0x75C4B0C2,  1542, 0x5C4B0270, 86.244, -58.9581, -11.981, 0.922302, 0, 0
 /* @teleloc 0x5C4B0270 [86.244000 -58.958100 -11.981000] 0.922302 0.000000 0.000000 -0.386470 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4B0C2, 0x75C4B0C3, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax */
-     , (0x75C4B0C2, 0x75C4B0C4, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax */
-     , (0x75C4B0C2, 0x75C4B0C5, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax */
-     , (0x75C4B0C2, 0x75C4B0C6, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax */
-     , (0x75C4B0C2, 0x75C4B0C7, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax */;
+VALUES (0x75C4B0C2, 0x75C4B0C3, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax (24136) */
+     , (0x75C4B0C2, 0x75C4B0C4, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax (24136) */
+     , (0x75C4B0C2, 0x75C4B0C5, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax (24136) */
+     , (0x75C4B0C2, 0x75C4B0C6, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax (24136) */
+     , (0x75C4B0C2, 0x75C4B0C7, '2019-02-10 00:00:00') /* Obsidian Shard from Aerbax (24136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4B0C3, 24136, 0x5C4B0270, 86.244, -58.9581, -11.981, 0.922302, 0, 0, -0.38647,  True, '2019-02-10 00:00:00'); /* Obsidian Shard from Aerbax */

@@ -5,11 +5,11 @@ VALUES (0x721C1001,  1154, 0x21C10028, 107.3204, 177.0492, 86.69003, 1, 0, 0, 0,
 /* @teleloc 0x21C10028 [107.320400 177.049200 86.690030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C1001, 0x721C1002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x721C1001, 0x721C1003, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x721C1001, 0x721C1004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x721C1001, 0x721C1005, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x721C1001, 0x721C1006, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x721C1001, 0x721C1002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x721C1001, 0x721C1003, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x721C1001, 0x721C1004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x721C1001, 0x721C1005, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x721C1001, 0x721C1006, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C1002, 11519, 0x21C10028, 107.3204, 177.0492, 86.69003, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
@@ -36,9 +36,9 @@ VALUES (0x721C1007,  1542, 0x21C10028, 106.7965, 185.0139, 83.68353, 1, 0, 0, 0,
 /* @teleloc 0x21C10028 [106.796500 185.013900 83.683530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C1007, 0x721C1008, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x721C1007, 0x721C1009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x721C1007, 0x721C100A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x721C1007, 0x721C1008, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x721C1007, 0x721C1009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x721C1007, 0x721C100A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C1008, 11225, 0x21C10028, 106.7965, 185.0139, 83.68353, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

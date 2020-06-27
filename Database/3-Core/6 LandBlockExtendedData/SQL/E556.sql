@@ -5,16 +5,16 @@ VALUES (0x7E556001,  1154, 0xE5560034, 154.2891, 93.43851, 0.2146571, 0.9537169,
 /* @teleloc 0xE5560034 [154.289100 93.438510 0.214657] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E556001, 0x7E556002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E556001, 0x7E556003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E556001, 0x7E556004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E556001, 0x7E556005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7E556001, 0x7E556006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E556001, 0x7E556007, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E556001, 0x7E556008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E556001, 0x7E556009, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E556001, 0x7E55600A, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E556001, 0x7E55600B, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x7E556001, 0x7E556002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E556001, 0x7E556003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E556001, 0x7E556004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E556001, 0x7E556005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7E556001, 0x7E556006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E556001, 0x7E556007, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E556001, 0x7E556008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E556001, 0x7E556009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E556001, 0x7E55600A, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E556001, 0x7E55600B, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E556002,  7108, 0xE5560034, 154.2891, 93.43851, 0.2146571, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */

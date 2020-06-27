@@ -5,12 +5,12 @@ VALUES (0x73F6B001,  1154, 0x3F6B0001, 7.576248, 12.11111, 40, -0.9774876, 0, 0,
 /* @teleloc 0x3F6B0001 [7.576248 12.111110 40.000000] -0.977488 0.000000 0.000000 -0.210993 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F6B001, 0x73F6B002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73F6B001, 0x73F6B003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73F6B001, 0x73F6B004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F6B001, 0x73F6B005, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F6B001, 0x73F6B006, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x73F6B001, 0x73F6B007, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x73F6B001, 0x73F6B002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73F6B001, 0x73F6B003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73F6B001, 0x73F6B004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F6B001, 0x73F6B005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F6B001, 0x73F6B006, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x73F6B001, 0x73F6B007, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F6B002, 23616, 0x3F6B0001, 7.576248, 12.11111, 40, -0.9774876, 0, 0, -0.2109927,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

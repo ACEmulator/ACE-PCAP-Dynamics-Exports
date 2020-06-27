@@ -5,12 +5,12 @@ VALUES (0x7B3D8001,  1154, 0xB3D80014, 69.3945, 74.97684, 38.006, -0.6478754, 0,
 /* @teleloc 0xB3D80014 [69.394500 74.976840 38.006000] -0.647875 0.000000 0.000000 -0.761746 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3D8001, 0x7B3D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7B3D8001, 0x7B3D8003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B3D8001, 0x7B3D8004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B3D8001, 0x7B3D8005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B3D8001, 0x7B3D8006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B3D8001, 0x7B3D8007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7B3D8001, 0x7B3D8002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7B3D8001, 0x7B3D8003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B3D8001, 0x7B3D8004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B3D8001, 0x7B3D8005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B3D8001, 0x7B3D8006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B3D8001, 0x7B3D8007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3D8002,   227, 0xB3D80014, 69.3945, 74.97684, 38.006, -0.6478754, 0, 0, -0.7617463,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

@@ -5,14 +5,14 @@ VALUES (0x72F28001,  1154, 0x2F280018, 50.43317, 178.6209, 46.45746, 1, 0, 0, 0,
 /* @teleloc 0x2F280018 [50.433170 178.620900 46.457460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F28001, 0x72F28002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F28001, 0x72F28003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F28001, 0x72F28004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F28001, 0x72F28005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F28001, 0x72F28006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72F28001, 0x72F28007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F28001, 0x72F28008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F28001, 0x72F28009, '2019-02-10 00:00:00') /* Peerless Drudge */;
+VALUES (0x72F28001, 0x72F28002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72F28001, 0x72F28003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72F28001, 0x72F28004, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72F28001, 0x72F28005, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72F28001, 0x72F28006, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72F28001, 0x72F28007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72F28001, 0x72F28008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72F28001, 0x72F28009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F28002, 36845, 0x2F280018, 50.43317, 178.6209, 46.45746, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -51,7 +51,7 @@ VALUES (0x72F2800A,  1542, 0x2F280016, 52.26094, 130.3798, 45.441, -4.371139E-08
 /* @teleloc 0x2F280016 [52.260940 130.379800 45.441000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F2800A, 0x72F2800B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72F2800A, 0x72F2800B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F2800B,  4380, 0x2F280016, 52.26094, 130.3798, 45.441, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,13 +5,13 @@ VALUES (0x73A1A001,  1154, 0x3A1A002A, 143.6112, 45.64686, 14.17194, 0.6368158, 
 /* @teleloc 0x3A1A002A [143.611200 45.646860 14.171940] 0.636816 0.000000 0.000000 -0.771016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A1A001, 0x73A1A002, '2019-02-10 00:00:00') /* Dark Sorcerer */
-     , (0x73A1A001, 0x73A1A003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73A1A001, 0x73A1A004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73A1A001, 0x73A1A005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73A1A001, 0x73A1A006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73A1A001, 0x73A1A007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73A1A001, 0x73A1A008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x73A1A001, 0x73A1A002, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x73A1A001, 0x73A1A003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73A1A001, 0x73A1A004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73A1A001, 0x73A1A005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73A1A001, 0x73A1A006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73A1A001, 0x73A1A007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73A1A001, 0x73A1A008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A1A002, 12037, 0x3A1A002A, 143.6112, 45.64686, 14.17194, 0.6368158, 0, 0, -0.7710159,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */
@@ -46,7 +46,7 @@ VALUES (0x73A1A009,  1542, 0x3A1A003B, 189.652, 57.63862, 9.392448, 1, 0, 0, 0, 
 /* @teleloc 0x3A1A003B [189.652000 57.638620 9.392448] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A1A009, 0x73A1A00A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73A1A009, 0x73A1A00A, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A1A00A, 22566, 0x3A1A003B, 189.652, 57.63862, 9.392448, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

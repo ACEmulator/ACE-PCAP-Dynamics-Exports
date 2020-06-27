@@ -5,11 +5,11 @@ VALUES (0x7C4AC001,  1154, 0xC4AC0022, 118.8282, 37.79258, 69.92976, 0.9063078, 
 /* @teleloc 0xC4AC0022 [118.828200 37.792580 69.929760] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AC001, 0x7C4AC002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AC001, 0x7C4AC003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AC001, 0x7C4AC004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C4AC001, 0x7C4AC005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C4AC001, 0x7C4AC006, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x7C4AC001, 0x7C4AC002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AC001, 0x7C4AC003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AC001, 0x7C4AC004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C4AC001, 0x7C4AC005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C4AC001, 0x7C4AC006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AC002,  7978, 0xC4AC0022, 118.8282, 37.79258, 69.92976, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -36,8 +36,8 @@ VALUES (0x7C4AC007,  1542, 0xC4AC0033, 164.2912, 70.40473, 63.99999, -0.9921798,
 /* @teleloc 0xC4AC0033 [164.291200 70.404730 63.999990] -0.992180 0.000000 0.000000 -0.124817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AC007, 0x7C4AC008, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C4AC007, 0x7C4AC009, '2019-02-10 00:00:00') /* Pumpkin Follower */;
+VALUES (0x7C4AC007, 0x7C4AC008, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x7C4AC007, 0x7C4AC009, '2019-02-10 00:00:00') /* Pumpkin Follower (32199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AC008, 34129, 0xC4AC0033, 164.2912, 70.40473, 63.99999, -0.9921798, 0, 0, -0.1248166,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

@@ -5,11 +5,11 @@ VALUES (0x79E28001,  1154, 0x9E280003, 18.86932, 48.33065, 189.61, 0.837532, 0, 
 /* @teleloc 0x9E280003 [18.869320 48.330650 189.610000] 0.837532 0.000000 0.000000 -0.546388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E28001, 0x79E28002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x79E28001, 0x79E28003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E28001, 0x79E28004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79E28001, 0x79E28005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79E28001, 0x79E28006, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x79E28001, 0x79E28002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x79E28001, 0x79E28003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E28001, 0x79E28004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79E28001, 0x79E28005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79E28001, 0x79E28006, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E28002,  8139, 0x9E280003, 18.86932, 48.33065, 189.61, 0.837532, 0, 0, -0.5463883,  True, '2019-02-10 00:00:00'); /* Gigas Raider */

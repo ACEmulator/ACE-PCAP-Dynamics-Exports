@@ -9,10 +9,10 @@ VALUES (0x77FE7003,  1154, 0x7FE7002D, 126.787, 107.026, 32.56558, 0.9088069, 0,
 /* @teleloc 0x7FE7002D [126.787000 107.026000 32.565580] 0.908807 0.000000 0.000000 0.417217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FE7003, 0x77FE7004, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x77FE7003, 0x77FE7005, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x77FE7003, 0x77FE7006, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x77FE7003, 0x77FE7007, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x77FE7003, 0x77FE7004, '2019-02-10 00:00:00') /* Exploration Marker (39750) */
+     , (0x77FE7003, 0x77FE7005, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x77FE7003, 0x77FE7006, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x77FE7003, 0x77FE7007, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FE7004, 39750, 0x7FE7002D, 126.787, 107.026, 32.56558, 0.9088069, 0, 0, 0.417217,  True, '2019-02-10 00:00:00'); /* Exploration Marker */

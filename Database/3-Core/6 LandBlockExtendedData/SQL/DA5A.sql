@@ -5,14 +5,14 @@ VALUES (0x7DA5A001,  1154, 0xDA5A0010, 30.76997, 186.7938, 5.562, 0.7382392, 0, 
 /* @teleloc 0xDA5A0010 [30.769970 186.793800 5.562000] 0.738239 0.000000 0.000000 -0.674539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA5A001, 0x7DA5A002, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7DA5A001, 0x7DA5A003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DA5A001, 0x7DA5A004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA5A001, 0x7DA5A005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA5A001, 0x7DA5A006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7DA5A001, 0x7DA5A007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA5A001, 0x7DA5A008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA5A001, 0x7DA5A009, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7DA5A001, 0x7DA5A002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7DA5A001, 0x7DA5A003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DA5A001, 0x7DA5A004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA5A001, 0x7DA5A005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA5A001, 0x7DA5A006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DA5A001, 0x7DA5A007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA5A001, 0x7DA5A008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA5A001, 0x7DA5A009, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA5A002,    12, 0xDA5A0010, 30.76997, 186.7938, 5.562, 0.7382392, 0, 0, -0.674539,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */

@@ -5,21 +5,21 @@ VALUES (0x7B96C001,  1154, 0xB96C0018, 64.86682, 189.8946, 6.68, 0.9238795, 0, 0
 /* @teleloc 0xB96C0018 [64.866820 189.894600 6.680000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B96C001, 0x7B96C002, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7B96C001, 0x7B96C003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B96C001, 0x7B96C004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B96C001, 0x7B96C005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B96C001, 0x7B96C006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B96C001, 0x7B96C007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B96C001, 0x7B96C008, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B96C001, 0x7B96C009, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B96C001, 0x7B96C00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B96C001, 0x7B96C00B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B96C001, 0x7B96C00C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B96C001, 0x7B96C00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B96C001, 0x7B96C00E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B96C001, 0x7B96C00F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B96C001, 0x7B96C010, '2019-02-10 00:00:00') /* Ethereal Wisp */;
+VALUES (0x7B96C001, 0x7B96C002, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7B96C001, 0x7B96C003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B96C001, 0x7B96C004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B96C001, 0x7B96C005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B96C001, 0x7B96C006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B96C001, 0x7B96C007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B96C001, 0x7B96C008, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B96C001, 0x7B96C009, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B96C001, 0x7B96C00A, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B96C001, 0x7B96C00B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B96C001, 0x7B96C00C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B96C001, 0x7B96C00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B96C001, 0x7B96C00E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B96C001, 0x7B96C00F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B96C001, 0x7B96C010, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96C002,  2583, 0xB96C0018, 64.86682, 189.8946, 6.68, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Se Sclavus */

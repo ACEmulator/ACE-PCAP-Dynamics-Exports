@@ -5,14 +5,14 @@ VALUES (0x748D3001,  1154, 0x48D30014, 60.46412, 84.21407, 51.96572, 0.9238795, 
 /* @teleloc 0x48D30014 [60.464120 84.214070 51.965720] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748D3001, 0x748D3002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x748D3001, 0x748D3003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x748D3001, 0x748D3004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x748D3001, 0x748D3005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x748D3001, 0x748D3006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x748D3001, 0x748D3007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x748D3001, 0x748D3008, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x748D3001, 0x748D3009, '2019-02-10 00:00:00') /* Harrower Grievver */;
+VALUES (0x748D3001, 0x748D3002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x748D3001, 0x748D3003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x748D3001, 0x748D3004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x748D3001, 0x748D3005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x748D3001, 0x748D3006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x748D3001, 0x748D3007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x748D3001, 0x748D3008, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x748D3001, 0x748D3009, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748D3002, 24494, 0x48D30014, 60.46412, 84.21407, 51.96572, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -51,8 +51,8 @@ VALUES (0x748D300A,  1542, 0x48D30014, 51.73695, 83.13543, 50.61654, 1, 0, 0, 0,
 /* @teleloc 0x48D30014 [51.736950 83.135430 50.616540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x748D300A, 0x748D300B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x748D300A, 0x748D300C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x748D300A, 0x748D300B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x748D300A, 0x748D300C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x748D300B, 22566, 0x48D30014, 51.73695, 83.13543, 50.61654, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

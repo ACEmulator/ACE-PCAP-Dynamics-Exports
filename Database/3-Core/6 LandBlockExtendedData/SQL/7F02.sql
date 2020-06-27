@@ -101,63 +101,63 @@ VALUES (0x77F020B4,  1154, 0x7F02027A, 71.5341, -449.532, 12.0075, -0.371292, 0,
 /* @teleloc 0x7F02027A [71.534100 -449.532000 12.007500] -0.371292 0.000000 0.000000 -0.928516 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F020B4, 0x77F020B5, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020B6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020B7, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020B8, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020B9, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BA, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BB, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BC, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BD, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BE, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020BF, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C0, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C1, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C2, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C3, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C4, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C5, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020C6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C7, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020C8, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020C9, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020CA, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020CB, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020CC, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020CD, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020CE, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020CF, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020D0, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020D1, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020D2, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020D3, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020D4, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020D5, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020D6, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020D7, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020D8, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020D9, '2019-02-10 00:00:00') /* Apostate Nexus Master */
-     , (0x77F020B4, 0x77F020DA, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020DB, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020DC, '2019-02-10 00:00:00') /* Apostate Aetherium Deposit */
-     , (0x77F020B4, 0x77F020DD, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020DE, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020DF, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020E0, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020E1, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020E2, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020E3, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020E4, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020E5, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020E6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x77F020B4, 0x77F020E7, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020E8, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020E9, '2019-02-10 00:00:00') /* Apostate Nexus Master */
-     , (0x77F020B4, 0x77F020EA, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020EB, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */
-     , (0x77F020B4, 0x77F020EC, '2019-02-10 00:00:00') /* Apostate Servant */
-     , (0x77F020B4, 0x77F020ED, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion */;
+VALUES (0x77F020B4, 0x77F020B5, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020B6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020B7, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020B8, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020B9, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BA, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BB, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BC, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BD, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BE, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020BF, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C0, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C1, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C2, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C3, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C4, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C5, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020C6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C7, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020C8, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020C9, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020CA, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020CB, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020CC, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020CD, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020CE, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020CF, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020D0, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020D1, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020D2, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020D3, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020D4, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020D5, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020D6, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020D7, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020D8, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020D9, '2019-02-10 00:00:00') /* Apostate Nexus Master (40803) */
+     , (0x77F020B4, 0x77F020DA, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020DB, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020DC, '2019-02-10 00:00:00') /* Apostate Aetherium Deposit (40809) */
+     , (0x77F020B4, 0x77F020DD, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020DE, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020DF, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020E0, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020E1, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020E2, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020E3, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020E4, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020E5, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020E6, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x77F020B4, 0x77F020E7, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020E8, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020E9, '2019-02-10 00:00:00') /* Apostate Nexus Master (40803) */
+     , (0x77F020B4, 0x77F020EA, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020EB, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */
+     , (0x77F020B4, 0x77F020EC, '2019-02-10 00:00:00') /* Apostate Servant (40499) */
+     , (0x77F020B4, 0x77F020ED, '2019-02-10 00:00:00') /* Apostate Nexus Hollow Minion (40802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F020B5, 40495, 0x7F02027A, 71.5341, -449.532, 12.0075, -0.371292, 0, 0, -0.928516,  True, '2019-02-10 00:00:00'); /* Hea Apostate Shock Trooper */
@@ -392,8 +392,8 @@ VALUES (0x77F020EE,  1542, 0x7F020111, 45.73814, -19.07492, -0.06299996, 0.51237
 /* @teleloc 0x7F020111 [45.738140 -19.074920 -0.063000] 0.512373 0.000000 0.000000 -0.858763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F020EE, 0x77F020EF, '2019-02-10 00:00:00') /* Gateway */
-     , (0x77F020EE, 0x77F020F0, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x77F020EE, 0x77F020EF, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x77F020EE, 0x77F020F0, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F020EF,  1955, 0x7F020111, 45.73814, -19.07492, -0.06299996, 0.5123728, 0, 0, -0.8587631,  True, '2019-02-10 00:00:00'); /* Gateway */

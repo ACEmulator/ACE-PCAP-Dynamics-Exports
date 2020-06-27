@@ -5,12 +5,12 @@ VALUES (0x741F3001,  1154, 0x41F30022, 104.1697, 25.16608, 0.006600022, 0.967203
 /* @teleloc 0x41F30022 [104.169700 25.166080 0.006600] 0.967203 0.000000 0.000000 -0.254003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741F3001, 0x741F3002, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F3001, 0x741F3003, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x741F3001, 0x741F3004, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F3001, 0x741F3005, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F3001, 0x741F3006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F3001, 0x741F3007, '2019-02-10 00:00:00') /* Ruschk Sadist */;
+VALUES (0x741F3001, 0x741F3002, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F3001, 0x741F3003, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x741F3001, 0x741F3004, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F3001, 0x741F3005, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F3001, 0x741F3006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F3001, 0x741F3007, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741F3002, 29343, 0x41F30022, 104.1697, 25.16608, 0.006600022, 0.9672033, 0, 0, -0.2540034,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */

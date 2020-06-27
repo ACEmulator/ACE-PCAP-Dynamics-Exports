@@ -5,14 +5,14 @@ VALUES (0x74BD3001,  1154, 0x4BD30011, 62.0415, 6.647522, 26.24994, 0.4719896, 0
 /* @teleloc 0x4BD30011 [62.041500 6.647522 26.249940] 0.471990 0.000000 0.000000 -0.881604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BD3001, 0x74BD3002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74BD3001, 0x74BD3003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74BD3001, 0x74BD3004, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x74BD3001, 0x74BD3005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BD3001, 0x74BD3006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74BD3001, 0x74BD3007, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x74BD3001, 0x74BD3008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74BD3001, 0x74BD3009, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74BD3001, 0x74BD3002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74BD3001, 0x74BD3003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74BD3001, 0x74BD3004, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x74BD3001, 0x74BD3005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BD3001, 0x74BD3006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74BD3001, 0x74BD3007, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x74BD3001, 0x74BD3008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74BD3001, 0x74BD3009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BD3002, 23616, 0x4BD30011, 62.0415, 6.647522, 26.24994, 0.4719896, 0, 0, -0.8816041,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -51,7 +51,7 @@ VALUES (0x74BD300A,  1542, 0x4BD3002D, 140.4369, 113.1588, 28.27317, 1, 0, 0, 0,
 /* @teleloc 0x4BD3002D [140.436900 113.158800 28.273170] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BD300A, 0x74BD300B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74BD300A, 0x74BD300B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BD300B, 22571, 0x4BD3002D, 140.4369, 113.1588, 28.27317, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

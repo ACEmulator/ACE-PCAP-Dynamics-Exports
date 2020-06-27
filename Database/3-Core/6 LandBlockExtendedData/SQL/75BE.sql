@@ -5,14 +5,14 @@ VALUES (0x775BE001,  1154, 0x75BE0003, 1.489866, 50.66326, 96.4933, 0.9238795, 0
 /* @teleloc 0x75BE0003 [1.489866 50.663260 96.493300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775BE001, 0x775BE002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x775BE001, 0x775BE003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x775BE001, 0x775BE004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x775BE001, 0x775BE005, '2019-02-10 00:00:00') /* Flare */
-     , (0x775BE001, 0x775BE006, '2019-02-10 00:00:00') /* Inferno */
-     , (0x775BE001, 0x775BE007, '2019-02-10 00:00:00') /* Flamma */
-     , (0x775BE001, 0x775BE008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x775BE001, 0x775BE009, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x775BE001, 0x775BE002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x775BE001, 0x775BE003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x775BE001, 0x775BE004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x775BE001, 0x775BE005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x775BE001, 0x775BE006, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x775BE001, 0x775BE007, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x775BE001, 0x775BE008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x775BE001, 0x775BE009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775BE002,  7089, 0x75BE0003, 1.489866, 50.66326, 96.4933, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

@@ -13,12 +13,12 @@ VALUES (0x77E82004,  1154, 0x7E820009, 32.75021, 17.46636, 147.4697, 0.4098993, 
 /* @teleloc 0x7E820009 [32.750210 17.466360 147.469700] 0.409899 0.000000 0.000000 -0.912131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E82004, 0x77E82005, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x77E82004, 0x77E82006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x77E82004, 0x77E82007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x77E82004, 0x77E82008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x77E82004, 0x77E82009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x77E82004, 0x77E8200A, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x77E82004, 0x77E82005, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x77E82004, 0x77E82006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x77E82004, 0x77E82007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x77E82004, 0x77E82008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x77E82004, 0x77E82009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x77E82004, 0x77E8200A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E82005,  1765, 0x7E820009, 32.75021, 17.46636, 147.4697, 0.4098993, 0, 0, -0.9121308,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */

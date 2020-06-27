@@ -5,15 +5,15 @@ VALUES (0x71B92001,  1154, 0x1B92000F, 44.27485, 146.6413, 8.931929, 0.3987491, 
 /* @teleloc 0x1B92000F [44.274850 146.641300 8.931929] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B92001, 0x71B92002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B92001, 0x71B92003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71B92001, 0x71B92004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71B92001, 0x71B92005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B92001, 0x71B92006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71B92001, 0x71B92007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71B92001, 0x71B92008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71B92001, 0x71B92009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71B92001, 0x71B9200A, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x71B92001, 0x71B92002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B92001, 0x71B92003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71B92001, 0x71B92004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71B92001, 0x71B92005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B92001, 0x71B92006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71B92001, 0x71B92007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71B92001, 0x71B92008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71B92001, 0x71B92009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71B92001, 0x71B9200A, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B92002, 36844, 0x1B92000F, 44.27485, 146.6413, 8.931929, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -56,7 +56,7 @@ VALUES (0x71B9200B,  1542, 0x1B92000F, 45.93895, 145.3997, 9.42321, 1, 0, 0, 0, 
 /* @teleloc 0x1B92000F [45.938950 145.399700 9.423210] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B9200B, 0x71B9200C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71B9200B, 0x71B9200C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B9200C, 22566, 0x1B92000F, 45.93895, 145.3997, 9.42321, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

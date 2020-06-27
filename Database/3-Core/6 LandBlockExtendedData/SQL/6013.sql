@@ -5,9 +5,9 @@ VALUES (0x76013001,  1154, 0x6013003D, 170.3794, 99.48193, 65.42687, -0.1293701,
 /* @teleloc 0x6013003D [170.379400 99.481930 65.426870] -0.129370 0.000000 0.000000 -0.991596 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76013001, 0x76013002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x76013001, 0x76013003, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x76013001, 0x76013004, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x76013001, 0x76013002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x76013001, 0x76013003, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x76013001, 0x76013004, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76013002,  1610, 0x6013003D, 170.3794, 99.48193, 65.42687, -0.1293701, 0, 0, -0.9915964,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

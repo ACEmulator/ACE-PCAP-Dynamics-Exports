@@ -5,14 +5,14 @@ VALUES (0x76B96001,  1154, 0x6B960029, 127.2451, 18.5511, 55.73716, 0.9957537, 0
 /* @teleloc 0x6B960029 [127.245100 18.551100 55.737160] 0.995754 0.000000 0.000000 -0.092057 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B96001, 0x76B96002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x76B96001, 0x76B96003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76B96001, 0x76B96004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x76B96001, 0x76B96005, '2019-02-10 00:00:00') /* Static */
-     , (0x76B96001, 0x76B96006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76B96001, 0x76B96007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76B96001, 0x76B96008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76B96001, 0x76B96009, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x76B96001, 0x76B96002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x76B96001, 0x76B96003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76B96001, 0x76B96004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x76B96001, 0x76B96005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x76B96001, 0x76B96006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76B96001, 0x76B96007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76B96001, 0x76B96008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76B96001, 0x76B96009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B96002,  7121, 0x6B960029, 127.2451, 18.5511, 55.73716, 0.9957537, 0, 0, -0.09205742,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

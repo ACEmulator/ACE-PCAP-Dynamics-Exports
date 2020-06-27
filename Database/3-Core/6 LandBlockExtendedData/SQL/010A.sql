@@ -29,85 +29,85 @@ VALUES (0x7010A02D,  1154, 0x010A01DF, 130.094, -39.5287, -54, -0.010133, 0, 0, 
 /* @teleloc 0x010A01DF [130.094000 -39.528700 -54.000000] -0.010133 0.000000 0.000000 -0.999949 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010A02D, 0x7010A02E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7010A02D, 0x7010A02F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A030, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A031, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A032, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A033, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A034, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A035, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A036, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A037, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A038, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A039, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A03A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A03B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A03C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A03D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A03E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A03F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7010A02D, 0x7010A040, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A041, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A042, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A043, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A044, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A045, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A046, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A047, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A048, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A049, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A04A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A04B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A04C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A04D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A04E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A04F, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A050, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A051, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A052, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A053, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A054, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A055, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A056, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A057, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A058, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A059, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A05A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A05B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A05C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A05D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A05E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A05F, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A060, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A061, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A062, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A063, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7010A02D, 0x7010A064, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A065, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A066, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A067, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A068, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A069, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A06A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A06B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A06C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A06D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A06E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7010A02D, 0x7010A06F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7010A02D, 0x7010A070, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A071, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7010A02D, 0x7010A072, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7010A02D, 0x7010A073, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7010A02D, 0x7010A074, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7010A02D, 0x7010A075, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7010A02D, 0x7010A076, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7010A02D, 0x7010A077, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A078, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A079, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7010A02D, 0x7010A07A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A07B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7010A02D, 0x7010A07C, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x7010A02D, 0x7010A02E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7010A02D, 0x7010A02F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A030, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A031, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A032, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A033, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A034, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A035, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A036, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A037, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A038, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A039, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A03A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A03B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A03C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A03D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A03E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A03F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7010A02D, 0x7010A040, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A041, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A042, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A043, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A044, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A045, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A046, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A047, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A048, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A049, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A04A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A04B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A04C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A04D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A04E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A04F, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A050, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A051, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A052, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A053, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A054, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A055, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A056, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A057, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A058, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A059, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A05A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A05B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A05C, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A05D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A05E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A05F, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A060, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A061, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A062, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A063, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7010A02D, 0x7010A064, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A065, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A066, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A067, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A068, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A069, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A06A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A06B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A06C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A06D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A06E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7010A02D, 0x7010A06F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7010A02D, 0x7010A070, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A071, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7010A02D, 0x7010A072, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7010A02D, 0x7010A073, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7010A02D, 0x7010A074, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7010A02D, 0x7010A075, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7010A02D, 0x7010A076, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7010A02D, 0x7010A077, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A078, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A079, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7010A02D, 0x7010A07A, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A07B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7010A02D, 0x7010A07C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010A02E,  7126, 0x010A01DF, 130.094, -39.5287, -54, -0.010133, 0, 0, -0.999949,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -430,7 +430,7 @@ VALUES (0x7010A07D,  1154, 0x010A0108, 247.568, -11.182, -119.971, -0.3978181, 0
 /* @teleloc 0x010A0108 [247.568000 -11.182000 -119.971000] -0.397818 0.000000 0.000000 -0.917464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7010A07D, 0x7010A07E, '2019-02-10 00:00:00') /* Virindi Castaway */;
+VALUES (0x7010A07D, 0x7010A07E, '2019-02-10 00:00:00') /* Virindi Castaway (27814) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7010A07E, 27814, 0x010A0108, 247.568, -11.182, -119.971, -0.3978181, 0, 0, -0.9174643,  True, '2019-02-10 00:00:00'); /* Virindi Castaway */

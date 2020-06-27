@@ -5,17 +5,17 @@ VALUES (0x7E552001,  1154, 0xE5520009, 32.75396, 23.38993, 7.387229, 0.9961947, 
 /* @teleloc 0xE5520009 [32.753960 23.389930 7.387229] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E552001, 0x7E552002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E552001, 0x7E552003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E552001, 0x7E552004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E552001, 0x7E552005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E552001, 0x7E552006, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E552001, 0x7E552007, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E552001, 0x7E552008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E552001, 0x7E552009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E552001, 0x7E55200A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E552001, 0x7E55200B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E552001, 0x7E55200C, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x7E552001, 0x7E552002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E552001, 0x7E552003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E552001, 0x7E552004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E552001, 0x7E552005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E552001, 0x7E552006, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E552001, 0x7E552007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E552001, 0x7E552008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E552001, 0x7E552009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E552001, 0x7E55200A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E552001, 0x7E55200B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E552001, 0x7E55200C, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E552002,  4246, 0xE5520009, 32.75396, 23.38993, 7.387229, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -66,7 +66,7 @@ VALUES (0x7E55200D,  1542, 0xE552000A, 31.74058, 25.97703, 7.387229, 0.9990482, 
 /* @teleloc 0xE552000A [31.740580 25.977030 7.387229] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E55200D, 0x7E55200E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E55200D, 0x7E55200E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E55200E,  4179, 0xE552000A, 31.74058, 25.97703, 7.387229, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

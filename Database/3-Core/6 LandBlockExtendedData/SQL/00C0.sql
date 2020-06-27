@@ -37,7 +37,7 @@ VALUES (0x700C0029,  1154, 0x00C0019D, 80, -100, 0, 1, 0, 0, 0, False, '2019-02-
 /* @teleloc 0x00C0019D [80.000000 -100.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C0029, 0x700C002A, '2019-02-10 00:00:00') /* Harmonic Transference Field */;
+VALUES (0x700C0029, 0x700C002A, '2019-02-10 00:00:00') /* Harmonic Transference Field (37050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C002A, 37050, 0x00C0019D, 80, -100, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Harmonic Transference Field */
@@ -48,11 +48,11 @@ VALUES (0x700C002B,  1154, 0x00C0019B, 76.582, -82.7347, 0.00999999, -0.9855527,
 /* @teleloc 0x00C0019B [76.582000 -82.734700 0.010000] -0.985553 0.000000 0.000000 0.169369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C002B, 0x700C002C, '2019-02-10 00:00:00') /* Guardian */
-     , (0x700C002B, 0x700C002D, '2019-02-10 00:00:00') /* Guardian */
-     , (0x700C002B, 0x700C002E, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x700C002B, 0x700C002F, '2019-02-10 00:00:00') /* Guardian */
-     , (0x700C002B, 0x700C0030, '2019-02-10 00:00:00') /* Guardian */;
+VALUES (0x700C002B, 0x700C002C, '2019-02-10 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C002D, '2019-02-10 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C002E, '2019-02-10 00:00:00') /* Emissary of Asheron (37042) */
+     , (0x700C002B, 0x700C002F, '2019-02-10 00:00:00') /* Guardian (37043) */
+     , (0x700C002B, 0x700C0030, '2019-02-10 00:00:00') /* Guardian (37043) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C002C, 37043, 0x00C0019B, 76.582, -82.7347, 0.00999999, -0.9855527, 0, 0, 0.1693689,  True, '2019-02-10 00:00:00'); /* Guardian */
@@ -79,8 +79,8 @@ VALUES (0x700C0031,  1542, 0x00C0019C, 79.08083, -90.8748, -0.001000002, -0.0081
 /* @teleloc 0x00C0019C [79.080830 -90.874800 -0.001000] -0.008197 0.000000 0.000000 0.999966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700C0031, 0x700C0032, '2019-02-10 00:00:00') /* Rage of Grael Gem */
-     , (0x700C0031, 0x700C0033, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700C0031, 0x700C0032, '2019-02-10 00:00:00') /* Rage of Grael Gem (31425) */
+     , (0x700C0031, 0x700C0033, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C0032, 31425, 0x00C0019C, 79.08083, -90.8748, -0.001000002, -0.008196928, 0, 0, 0.9999664,  True, '2019-02-10 00:00:00'); /* Rage of Grael Gem */

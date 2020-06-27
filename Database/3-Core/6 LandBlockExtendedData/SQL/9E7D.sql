@@ -5,12 +5,12 @@ VALUES (0x79E7D001,  1154, 0x9E7D0009, 31.91235, 1.085588, 24.0075, 0.8309477, 0
 /* @teleloc 0x9E7D0009 [31.912350 1.085588 24.007500] 0.830948 0.000000 0.000000 -0.556351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7D001, 0x79E7D002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E7D001, 0x79E7D003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79E7D001, 0x79E7D004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E7D001, 0x79E7D005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E7D001, 0x79E7D006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79E7D001, 0x79E7D007, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x79E7D001, 0x79E7D002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E7D001, 0x79E7D003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79E7D001, 0x79E7D004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E7D001, 0x79E7D005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E7D001, 0x79E7D006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79E7D001, 0x79E7D007, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7D002,  1630, 0x9E7D0009, 31.91235, 1.085588, 24.0075, 0.8309477, 0, 0, -0.5563505,  True, '2019-02-10 00:00:00'); /* Lich Lord */

@@ -5,14 +5,14 @@ VALUES (0x7835A001,  1154, 0x835A0034, 163.7956, 87.46516, 5.306912, 0.9238795, 
 /* @teleloc 0x835A0034 [163.795600 87.465160 5.306912] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7835A001, 0x7835A002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7835A001, 0x7835A003, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7835A001, 0x7835A004, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7835A001, 0x7835A005, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7835A001, 0x7835A006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7835A001, 0x7835A007, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7835A001, 0x7835A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7835A001, 0x7835A009, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7835A001, 0x7835A002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7835A001, 0x7835A003, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7835A001, 0x7835A004, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7835A001, 0x7835A005, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7835A001, 0x7835A006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7835A001, 0x7835A007, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7835A001, 0x7835A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7835A001, 0x7835A009, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7835A002,   182, 0x835A0034, 163.7956, 87.46516, 5.306912, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

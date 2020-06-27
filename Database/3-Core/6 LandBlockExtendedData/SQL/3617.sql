@@ -5,10 +5,10 @@ VALUES (0x73617001,  1154, 0x3617001B, 73.78487, 48.09003, 11.999, -0.1241678, 0
 /* @teleloc 0x3617001B [73.784870 48.090030 11.999000] -0.124168 0.000000 0.000000 -0.992261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73617001, 0x73617002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73617001, 0x73617003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73617001, 0x73617004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73617001, 0x73617005, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x73617001, 0x73617002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73617001, 0x73617003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73617001, 0x73617004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73617001, 0x73617005, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73617002,  7119, 0x3617001B, 73.78487, 48.09003, 11.999, -0.1241678, 0, 0, -0.9922612,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -31,8 +31,8 @@ VALUES (0x73617006,  1542, 0x36170009, 25.2754, 9.061324, 14, 0.9990482, 0, 0, -
 /* @teleloc 0x36170009 [25.275400 9.061324 14.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73617006, 0x73617007, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73617006, 0x73617008, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x73617006, 0x73617007, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73617006, 0x73617008, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73617007,  4179, 0x36170009, 25.2754, 9.061324, 14, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

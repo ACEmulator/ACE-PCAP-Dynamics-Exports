@@ -5,24 +5,24 @@ VALUES (0x7A9E8001,  1154, 0xA9E8002A, 126.5398, 28.26289, 15.29202, 0.7071068, 
 /* @teleloc 0xA9E8002A [126.539800 28.262890 15.292020] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9E8001, 0x7A9E8002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A9E8001, 0x7A9E8003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A9E8001, 0x7A9E8004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A9E8001, 0x7A9E8005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7A9E8001, 0x7A9E8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A9E8001, 0x7A9E8007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A9E8001, 0x7A9E8008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7A9E8001, 0x7A9E8009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7A9E8001, 0x7A9E800A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A9E8001, 0x7A9E800B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A9E8001, 0x7A9E800C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A9E8001, 0x7A9E800D, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A9E8001, 0x7A9E800E, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7A9E8001, 0x7A9E800F, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7A9E8001, 0x7A9E8010, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7A9E8001, 0x7A9E8011, '2019-02-10 00:00:00') /* Static */
-     , (0x7A9E8001, 0x7A9E8012, '2019-02-10 00:00:00') /* Static */
-     , (0x7A9E8001, 0x7A9E8013, '2019-02-10 00:00:00') /* Scintilla */;
+VALUES (0x7A9E8001, 0x7A9E8002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A9E8001, 0x7A9E8003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A9E8001, 0x7A9E8004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A9E8001, 0x7A9E8005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7A9E8001, 0x7A9E8006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A9E8001, 0x7A9E8007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A9E8001, 0x7A9E8008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7A9E8001, 0x7A9E8009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7A9E8001, 0x7A9E800A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A9E8001, 0x7A9E800B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A9E8001, 0x7A9E800C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A9E8001, 0x7A9E800D, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A9E8001, 0x7A9E800E, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7A9E8001, 0x7A9E800F, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7A9E8001, 0x7A9E8010, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7A9E8001, 0x7A9E8011, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7A9E8001, 0x7A9E8012, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7A9E8001, 0x7A9E8013, '2019-02-10 00:00:00') /* Scintilla (6380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9E8002,  7179, 0xA9E8002A, 126.5398, 28.26289, 15.29202, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -101,8 +101,8 @@ VALUES (0x7A9E8014,  1542, 0xA9E80015, 69.91405, 114.4087, 9.82617, -0.9396654, 
 /* @teleloc 0xA9E80015 [69.914050 114.408700 9.826170] -0.939665 0.000000 0.000000 -0.342095 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9E8014, 0x7A9E8015, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7A9E8014, 0x7A9E8016, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A9E8014, 0x7A9E8015, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7A9E8014, 0x7A9E8016, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9E8015,  8041, 0xA9E80015, 69.91405, 114.4087, 9.82617, -0.9396654, 0, 0, -0.342095,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

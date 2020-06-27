@@ -5,13 +5,13 @@ VALUES (0x7338D001,  1154, 0x338D0016, 71.48547, 138.4311, 35.24986, 0.7071068, 
 /* @teleloc 0x338D0016 [71.485470 138.431100 35.249860] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7338D001, 0x7338D002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7338D001, 0x7338D003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7338D001, 0x7338D004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7338D001, 0x7338D005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7338D001, 0x7338D006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7338D001, 0x7338D007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7338D001, 0x7338D008, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x7338D001, 0x7338D002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7338D001, 0x7338D003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7338D001, 0x7338D004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7338D001, 0x7338D005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7338D001, 0x7338D006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7338D001, 0x7338D007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7338D001, 0x7338D008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7338D002, 10806, 0x338D0016, 71.48547, 138.4311, 35.24986, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

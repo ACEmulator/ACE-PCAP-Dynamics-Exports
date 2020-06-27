@@ -5,12 +5,12 @@ VALUES (0x7D23D001,  1154, 0xD23D0034, 154.7794, 75.89291, 246.6523, 0.9238795, 
 /* @teleloc 0xD23D0034 [154.779400 75.892910 246.652300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D23D001, 0x7D23D002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D23D001, 0x7D23D003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D23D001, 0x7D23D004, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7D23D001, 0x7D23D005, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x7D23D001, 0x7D23D006, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D23D001, 0x7D23D007, '2019-02-10 00:00:00') /* Laigus Raider */;
+VALUES (0x7D23D001, 0x7D23D002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D23D001, 0x7D23D003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D23D001, 0x7D23D004, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7D23D001, 0x7D23D005, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x7D23D001, 0x7D23D006, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D23D001, 0x7D23D007, '2019-02-10 00:00:00') /* Laigus Raider (8140) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D23D002,   195, 0xD23D0034, 154.7794, 75.89291, 246.6523, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */

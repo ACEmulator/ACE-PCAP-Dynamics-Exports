@@ -5,15 +5,15 @@ VALUES (0x7288D001,  1154, 0x288D0024, 101.5799, 81.15179, 120.1328, 0.8191521, 
 /* @teleloc 0x288D0024 [101.579900 81.151790 120.132800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288D001, 0x7288D002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7288D001, 0x7288D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7288D001, 0x7288D004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288D001, 0x7288D005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7288D001, 0x7288D006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288D001, 0x7288D007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7288D001, 0x7288D008, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7288D001, 0x7288D009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7288D001, 0x7288D00A, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x7288D001, 0x7288D002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7288D001, 0x7288D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7288D001, 0x7288D004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288D001, 0x7288D005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7288D001, 0x7288D006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288D001, 0x7288D007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7288D001, 0x7288D008, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7288D001, 0x7288D009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7288D001, 0x7288D00A, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288D002,  7334, 0x288D0024, 101.5799, 81.15179, 120.1328, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -56,9 +56,9 @@ VALUES (0x7288D00B,  1542, 0x288D0025, 113.4911, 97.03824, 121.5651, 0.8697705, 
 /* @teleloc 0x288D0025 [113.491100 97.038240 121.565100] 0.869771 0.000000 0.000000 -0.493457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288D00B, 0x7288D00C, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7288D00B, 0x7288D00D, '2019-02-10 00:00:00') /* Sho Roadside */
-     , (0x7288D00B, 0x7288D00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7288D00B, 0x7288D00C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7288D00B, 0x7288D00D, '2019-02-10 00:00:00') /* Sho Roadside (1907) */
+     , (0x7288D00B, 0x7288D00E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288D00C,  8644, 0x288D0025, 113.4911, 97.03824, 121.5651, 0.8697705, 0, 0, -0.4934565,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

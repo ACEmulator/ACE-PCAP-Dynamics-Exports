@@ -5,9 +5,9 @@ VALUES (0x76395001,  1154, 0x63950005, 4.54674, 98.98512, -0.8994999, -0.6427876
 /* @teleloc 0x63950005 [4.546740 98.985120 -0.899500] -0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76395001, 0x76395002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76395001, 0x76395003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x76395001, 0x76395004, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x76395001, 0x76395002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76395001, 0x76395003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x76395001, 0x76395004, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76395002,  7987, 0x63950005, 4.54674, 98.98512, -0.8994999, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

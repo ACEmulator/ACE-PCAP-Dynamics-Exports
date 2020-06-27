@@ -5,11 +5,11 @@ VALUES (0x7C725001,  1154, 0xC7250020, 75.50418, 185.2328, 277.9663, -0.7549325,
 /* @teleloc 0xC7250020 [75.504180 185.232800 277.966300] -0.754933 0.000000 0.000000 -0.655803 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C725001, 0x7C725002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C725001, 0x7C725003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C725001, 0x7C725004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C725001, 0x7C725005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C725001, 0x7C725006, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7C725001, 0x7C725002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C725001, 0x7C725003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C725001, 0x7C725004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C725001, 0x7C725005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C725001, 0x7C725006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C725002, 38181, 0xC7250020, 75.50418, 185.2328, 277.9663, -0.7549325, 0, 0, -0.6558025,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

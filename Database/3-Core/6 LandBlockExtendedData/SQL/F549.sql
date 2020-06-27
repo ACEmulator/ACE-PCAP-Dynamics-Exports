@@ -5,22 +5,22 @@ VALUES (0x7F549001,  1154, 0xF5490004, 1.017005, 89.86801, 0.008249998, 0.984004
 /* @teleloc 0xF5490004 [1.017005 89.868010 0.008250] 0.984004 0.000000 0.000000 -0.178146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F549001, 0x7F549002, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F549001, 0x7F549003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F549001, 0x7F549004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F549001, 0x7F549005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7F549001, 0x7F549006, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F549001, 0x7F549007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F549001, 0x7F549008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F549001, 0x7F549009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F549001, 0x7F54900A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F549001, 0x7F54900B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F549001, 0x7F54900C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F549001, 0x7F54900D, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F549001, 0x7F54900E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F549001, 0x7F54900F, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F549001, 0x7F549010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F549001, 0x7F549011, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7F549001, 0x7F549002, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F549001, 0x7F549003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F549001, 0x7F549004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F549001, 0x7F549005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7F549001, 0x7F549006, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F549001, 0x7F549007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F549001, 0x7F549008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F549001, 0x7F549009, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F549001, 0x7F54900A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F549001, 0x7F54900B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F549001, 0x7F54900C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F549001, 0x7F54900D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F549001, 0x7F54900E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F549001, 0x7F54900F, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F549001, 0x7F549010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F549001, 0x7F549011, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F549002,  8672, 0xF5490004, 1.017005, 89.86801, 0.008249998, 0.9840041, 0, 0, -0.1781457,  True, '2019-02-10 00:00:00'); /* Risen Soldier */
@@ -91,7 +91,7 @@ VALUES (0x7F549012,  1542, 0xF5490004, 1.731315, 79.40692, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xF5490004 [1.731315 79.406920 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F549012, 0x7F549013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F549012, 0x7F549013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F549013,  4179, 0xF5490004, 1.731315, 79.40692, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,12 +5,12 @@ VALUES (0x7B712001,  1154, 0xB712003B, 168.3111, 62.81892, 116.4, -0.08715577, 0
 /* @teleloc 0xB712003B [168.311100 62.818920 116.400000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B712001, 0x7B712002, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7B712001, 0x7B712003, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B712001, 0x7B712004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B712001, 0x7B712005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B712001, 0x7B712006, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7B712001, 0x7B712007, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7B712001, 0x7B712002, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7B712001, 0x7B712003, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B712001, 0x7B712004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B712001, 0x7B712005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B712001, 0x7B712006, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7B712001, 0x7B712007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B712002,  2571, 0xB712003B, 168.3111, 62.81892, 116.4, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* K'nath N'osaj */
@@ -41,7 +41,7 @@ VALUES (0x7B712008,  1542, 0xB7120019, 81.78638, 11.19596, 124.145, -0.1725368, 
 /* @teleloc 0xB7120019 [81.786380 11.195960 124.145000] -0.172537 0.000000 0.000000 -0.985003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B712008, 0x7B712009, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7B712008, 0x7B712009, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B712009,  8648, 0xB7120019, 81.78638, 11.19596, 124.145, -0.1725368, 0, 0, -0.9850031,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

@@ -5,15 +5,15 @@ VALUES (0x7C861001,  1154, 0xC861002E, 130.9968, 138.5029, 5.5566, 0.5698249, 0,
 /* @teleloc 0xC861002E [130.996800 138.502900 5.556600] 0.569825 0.000000 0.000000 -0.821766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C861001, 0x7C861002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7C861001, 0x7C861003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C861001, 0x7C861004, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C861001, 0x7C861005, '2019-02-10 00:00:00') /* Master of the Swamp */
-     , (0x7C861001, 0x7C861006, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C861001, 0x7C861007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C861001, 0x7C861008, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C861001, 0x7C861009, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C861001, 0x7C86100A, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7C861001, 0x7C861002, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7C861001, 0x7C861003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C861001, 0x7C861004, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C861001, 0x7C861005, '2019-02-10 00:00:00') /* Master of the Swamp (12007) */
+     , (0x7C861001, 0x7C861006, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C861001, 0x7C861007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C861001, 0x7C861008, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C861001, 0x7C861009, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C861001, 0x7C86100A, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C861002,  8430, 0xC861002E, 130.9968, 138.5029, 5.5566, 0.5698249, 0, 0, -0.8217661,  True, '2019-02-10 00:00:00'); /* Mosswart Soul Trapper */

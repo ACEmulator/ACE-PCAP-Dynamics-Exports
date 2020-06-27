@@ -5,14 +5,14 @@ VALUES (0x72B8E001,  1154, 0x2B8E0013, 57.03204, 61.14202, 74.91084, 0.9659258, 
 /* @teleloc 0x2B8E0013 [57.032040 61.142020 74.910840] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B8E001, 0x72B8E002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72B8E001, 0x72B8E003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72B8E001, 0x72B8E004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72B8E001, 0x72B8E005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72B8E001, 0x72B8E006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72B8E001, 0x72B8E007, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x72B8E001, 0x72B8E008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72B8E001, 0x72B8E009, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x72B8E001, 0x72B8E002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72B8E001, 0x72B8E003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72B8E001, 0x72B8E004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72B8E001, 0x72B8E005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72B8E001, 0x72B8E006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72B8E001, 0x72B8E007, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72B8E001, 0x72B8E008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72B8E001, 0x72B8E009, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B8E002, 23566, 0x2B8E0013, 57.03204, 61.14202, 74.91084, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -51,8 +51,8 @@ VALUES (0x72B8E00A,  1542, 0x2B8E0026, 101.6559, 128.9842, 70.96, 1, 0, 0, 0, Fa
 /* @teleloc 0x2B8E0026 [101.655900 128.984200 70.960000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B8E00A, 0x72B8E00B, '2019-02-10 00:00:00') /* Portal to Arwic */
-     , (0x72B8E00A, 0x72B8E00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72B8E00A, 0x72B8E00B, '2019-02-10 00:00:00') /* Portal to Arwic (42819) */
+     , (0x72B8E00A, 0x72B8E00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B8E00B, 42819, 0x2B8E0026, 101.6559, 128.9842, 70.96, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Arwic */

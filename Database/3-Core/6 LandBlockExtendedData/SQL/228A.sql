@@ -5,16 +5,16 @@ VALUES (0x7228A001,  1154, 0x228A0011, 59.58194, 4.046007, 68.0065, -0.418916, 0
 /* @teleloc 0x228A0011 [59.581940 4.046007 68.006500] -0.418916 0.000000 0.000000 -0.908025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7228A001, 0x7228A002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7228A001, 0x7228A003, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7228A001, 0x7228A004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7228A001, 0x7228A005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7228A001, 0x7228A006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7228A001, 0x7228A007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7228A001, 0x7228A008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7228A001, 0x7228A009, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7228A001, 0x7228A00A, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7228A001, 0x7228A00B, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x7228A001, 0x7228A002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7228A001, 0x7228A003, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7228A001, 0x7228A004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7228A001, 0x7228A005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7228A001, 0x7228A006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7228A001, 0x7228A007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7228A001, 0x7228A008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7228A001, 0x7228A009, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7228A001, 0x7228A00A, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7228A001, 0x7228A00B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7228A002, 10806, 0x228A0011, 59.58194, 4.046007, 68.0065, -0.418916, 0, 0, -0.908025,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

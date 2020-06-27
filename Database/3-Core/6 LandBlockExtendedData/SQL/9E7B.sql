@@ -5,17 +5,17 @@ VALUES (0x79E7B001,  1154, 0x9E7B0016, 65.39951, 122.9089, 27.9919, -0.1736482, 
 /* @teleloc 0x9E7B0016 [65.399510 122.908900 27.991900] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7B001, 0x79E7B002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79E7B001, 0x79E7B003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x79E7B001, 0x79E7B004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79E7B001, 0x79E7B005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E7B001, 0x79E7B006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E7B001, 0x79E7B007, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79E7B001, 0x79E7B008, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79E7B001, 0x79E7B009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79E7B001, 0x79E7B00A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79E7B001, 0x79E7B00B, '2019-02-10 00:00:00') /* Gout */
-     , (0x79E7B001, 0x79E7B00C, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x79E7B001, 0x79E7B002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79E7B001, 0x79E7B003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79E7B001, 0x79E7B004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79E7B001, 0x79E7B005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E7B001, 0x79E7B006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E7B001, 0x79E7B007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79E7B001, 0x79E7B008, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79E7B001, 0x79E7B009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79E7B001, 0x79E7B00A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79E7B001, 0x79E7B00B, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79E7B001, 0x79E7B00C, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7B002,  2575, 0x9E7B0016, 65.39951, 122.9089, 27.9919, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

@@ -5,16 +5,16 @@ VALUES (0x7455F001,  1154, 0x455F0011, 49.15388, 4.64473, 19.9982, -0.4780437, 0
 /* @teleloc 0x455F0011 [49.153880 4.644730 19.998200] -0.478044 0.000000 0.000000 -0.878336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455F001, 0x7455F002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7455F001, 0x7455F003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7455F001, 0x7455F004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7455F001, 0x7455F005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7455F001, 0x7455F006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7455F001, 0x7455F007, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7455F001, 0x7455F008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7455F001, 0x7455F009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7455F001, 0x7455F00A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x7455F001, 0x7455F00B, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7455F001, 0x7455F002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7455F001, 0x7455F003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7455F001, 0x7455F004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7455F001, 0x7455F005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7455F001, 0x7455F006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7455F001, 0x7455F007, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7455F001, 0x7455F008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7455F001, 0x7455F009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7455F001, 0x7455F00A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x7455F001, 0x7455F00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455F002, 28553, 0x455F0011, 49.15388, 4.64473, 19.9982, -0.4780437, 0, 0, -0.878336,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7455F00C,  1542, 0x455F0009, 39.72643, 20.79856, 24.82409, 1, 0, 0, 0,
 /* @teleloc 0x455F0009 [39.726430 20.798560 24.824090] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455F00C, 0x7455F00D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7455F00C, 0x7455F00D, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455F00D, 31445, 0x455F0009, 39.72643, 20.79856, 24.82409, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

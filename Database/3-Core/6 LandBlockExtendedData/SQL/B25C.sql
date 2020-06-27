@@ -5,14 +5,14 @@ VALUES (0x7B25C001,  1154, 0xB25C0028, 118.7361, 170.4245, 31.79646, 0.8660254, 
 /* @teleloc 0xB25C0028 [118.736100 170.424500 31.796460] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B25C001, 0x7B25C002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B25C001, 0x7B25C003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B25C001, 0x7B25C004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B25C001, 0x7B25C005, '2019-02-10 00:00:00') /* Scourge */
-     , (0x7B25C001, 0x7B25C006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B25C001, 0x7B25C007, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7B25C001, 0x7B25C008, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B25C001, 0x7B25C009, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7B25C001, 0x7B25C002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B25C001, 0x7B25C003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B25C001, 0x7B25C004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B25C001, 0x7B25C005, '2019-02-10 00:00:00') /* Scourge (21160) */
+     , (0x7B25C001, 0x7B25C006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B25C001, 0x7B25C007, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7B25C001, 0x7B25C008, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B25C001, 0x7B25C009, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B25C002,  7978, 0xB25C0028, 118.7361, 170.4245, 31.79646, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -51,7 +51,7 @@ VALUES (0x7B25C00A,  1542, 0xB25C002E, 140.7093, 126.6372, 28.27422, 1, 0, 0, 0,
 /* @teleloc 0xB25C002E [140.709300 126.637200 28.274220] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B25C00A, 0x7B25C00B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B25C00A, 0x7B25C00B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B25C00B,  4180, 0xB25C002E, 140.7093, 126.6372, 28.27422, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

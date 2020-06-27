@@ -5,17 +5,17 @@ VALUES (0x7B647001,  1154, 0xB6470010, 33.99817, 173.2106, 66.76926, 0.8660254, 
 /* @teleloc 0xB6470010 [33.998170 173.210600 66.769260] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B647001, 0x7B647002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B647001, 0x7B647003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B647001, 0x7B647004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B647001, 0x7B647005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7B647001, 0x7B647006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B647001, 0x7B647007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B647001, 0x7B647008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B647001, 0x7B647009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B647001, 0x7B64700A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B647001, 0x7B64700B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B647001, 0x7B64700C, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7B647001, 0x7B647002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B647001, 0x7B647003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B647001, 0x7B647004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B647001, 0x7B647005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7B647001, 0x7B647006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B647001, 0x7B647007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B647001, 0x7B647008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B647001, 0x7B647009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B647001, 0x7B64700A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B647001, 0x7B64700B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B647001, 0x7B64700C, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B647002,    18, 0xB6470010, 33.99817, 173.2106, 66.76926, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -66,7 +66,7 @@ VALUES (0x7B64700D,  1542, 0xB6470010, 36.61078, 171.8855, 66.20225, 1, 0, 0, 0,
 /* @teleloc 0xB6470010 [36.610780 171.885500 66.202250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64700D, 0x7B64700E, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7B64700D, 0x7B64700E, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B64700E,   265, 0xB6470010, 36.61078, 171.8855, 66.20225, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

@@ -5,11 +5,11 @@ VALUES (0x768A9001,  1154, 0x68A90030, 125.5814, 183.8445, 237.9319, 0.7071068, 
 /* @teleloc 0x68A90030 [125.581400 183.844500 237.931900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768A9001, 0x768A9002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x768A9001, 0x768A9003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x768A9001, 0x768A9004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x768A9001, 0x768A9005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x768A9001, 0x768A9006, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x768A9001, 0x768A9002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x768A9001, 0x768A9003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x768A9001, 0x768A9004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x768A9001, 0x768A9005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x768A9001, 0x768A9006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768A9002,  7345, 0x68A90030, 125.5814, 183.8445, 237.9319, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
@@ -36,7 +36,7 @@ VALUES (0x768A9007,  1542, 0x68A90036, 166.0948, 124.7806, 216.4807, 0.6921952, 
 /* @teleloc 0x68A90036 [166.094800 124.780600 216.480700] 0.692195 0.000000 0.000000 -0.721710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768A9007, 0x768A9008, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x768A9007, 0x768A9008, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768A9008, 22837, 0x68A90036, 166.0948, 124.7806, 216.4807, 0.6921952, 0, 0, -0.7217103,  True, '2019-02-10 00:00:00'); /* Snowflower */

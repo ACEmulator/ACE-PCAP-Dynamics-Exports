@@ -5,19 +5,19 @@ VALUES (0x79A7A001,  1154, 0x9A7A0018, 64.73786, 173.6493, 24, -0.06385751, 0, 0
 /* @teleloc 0x9A7A0018 [64.737860 173.649300 24.000000] -0.063858 0.000000 0.000000 -0.997959 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7A001, 0x79A7A002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79A7A001, 0x79A7A003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79A7A001, 0x79A7A004, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79A7A001, 0x79A7A005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79A7A001, 0x79A7A006, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79A7A001, 0x79A7A007, '2019-02-10 00:00:00') /* Undead */
-     , (0x79A7A001, 0x79A7A008, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79A7A001, 0x79A7A009, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79A7A001, 0x79A7A00A, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79A7A001, 0x79A7A00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x79A7A001, 0x79A7A00C, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x79A7A001, 0x79A7A00D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79A7A001, 0x79A7A00E, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x79A7A001, 0x79A7A002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79A7A001, 0x79A7A003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79A7A001, 0x79A7A004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79A7A001, 0x79A7A005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79A7A001, 0x79A7A006, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79A7A001, 0x79A7A007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79A7A001, 0x79A7A008, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79A7A001, 0x79A7A009, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79A7A001, 0x79A7A00A, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79A7A001, 0x79A7A00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79A7A001, 0x79A7A00C, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x79A7A001, 0x79A7A00D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79A7A001, 0x79A7A00E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7A002,  5429, 0x9A7A0018, 64.73786, 173.6493, 24, -0.06385751, 0, 0, -0.997959,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -76,8 +76,8 @@ VALUES (0x79A7A00F,  1542, 0x9A7A001A, 77.19597, 43.76085, 22.4176, -4.371139E-0
 /* @teleloc 0x9A7A001A [77.195970 43.760850 22.417600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A7A00F, 0x79A7A010, '2019-02-10 00:00:00') /* Bones */
-     , (0x79A7A00F, 0x79A7A011, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x79A7A00F, 0x79A7A010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79A7A00F, 0x79A7A011, '2019-02-10 00:00:00') /* Snowman (9009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A7A010,  4380, 0x9A7A001A, 77.19597, 43.76085, 22.4176, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

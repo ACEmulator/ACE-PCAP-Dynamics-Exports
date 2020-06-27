@@ -13,8 +13,8 @@ VALUES (0x7899E002,  1154, 0x899E0034, 164.0968, 88.85725, 234.7062, 0.06195933,
 /* @teleloc 0x899E0034 [164.096800 88.857250 234.706200] 0.061959 0.000000 0.000000 -0.998079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7899E002, 0x7899E003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7899E002, 0x7899E004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7899E002, 0x7899E003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7899E002, 0x7899E004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7899E003, 22009, 0x899E0034, 164.0968, 88.85725, 234.7062, 0.06195933, 0, 0, -0.9980787,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */

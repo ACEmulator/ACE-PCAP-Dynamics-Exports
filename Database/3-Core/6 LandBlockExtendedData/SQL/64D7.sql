@@ -5,15 +5,15 @@ VALUES (0x764D7001,  1154, 0x64D70005, 21.05868, 103.4328, 185.3526, -0.4531889,
 /* @teleloc 0x64D70005 [21.058680 103.432800 185.352600] -0.453189 0.000000 0.000000 -0.891415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764D7001, 0x764D7002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x764D7001, 0x764D7003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x764D7001, 0x764D7004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x764D7001, 0x764D7005, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x764D7001, 0x764D7006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x764D7001, 0x764D7007, '2019-02-10 00:00:00') /* Hyem */
-     , (0x764D7001, 0x764D7008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x764D7001, 0x764D7009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x764D7001, 0x764D700A, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x764D7001, 0x764D7002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x764D7001, 0x764D7003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x764D7001, 0x764D7004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x764D7001, 0x764D7005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x764D7001, 0x764D7006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x764D7001, 0x764D7007, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x764D7001, 0x764D7008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x764D7001, 0x764D7009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x764D7001, 0x764D700A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764D7002,  7982, 0x64D70005, 21.05868, 103.4328, 185.3526, -0.4531889, 0, 0, -0.8914145,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

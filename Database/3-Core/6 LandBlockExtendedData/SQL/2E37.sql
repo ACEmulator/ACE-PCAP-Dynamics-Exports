@@ -5,23 +5,23 @@ VALUES (0x72E37001,  1154, 0x2E37003E, 185.6125, 142.6559, 33.46546, 0.9397112, 
 /* @teleloc 0x2E37003E [185.612500 142.655900 33.465460] 0.939711 0.000000 0.000000 -0.341969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E37001, 0x72E37002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72E37001, 0x72E37003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72E37001, 0x72E37004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72E37001, 0x72E37005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72E37001, 0x72E37006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E37001, 0x72E37007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72E37001, 0x72E37008, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72E37001, 0x72E37009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E37001, 0x72E3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E37001, 0x72E3700B, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x72E37001, 0x72E3700C, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72E37001, 0x72E3700D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E37001, 0x72E3700E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E37001, 0x72E3700F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E37001, 0x72E37010, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72E37001, 0x72E37011, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72E37001, 0x72E37012, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x72E37001, 0x72E37002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72E37001, 0x72E37003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72E37001, 0x72E37004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72E37001, 0x72E37005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x72E37001, 0x72E37006, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72E37001, 0x72E37007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x72E37001, 0x72E37008, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72E37001, 0x72E37009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E37001, 0x72E3700A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E37001, 0x72E3700B, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x72E37001, 0x72E3700C, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72E37001, 0x72E3700D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E37001, 0x72E3700E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E37001, 0x72E3700F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E37001, 0x72E37010, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72E37001, 0x72E37011, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72E37001, 0x72E37012, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E37002, 38180, 0x2E37003E, 185.6125, 142.6559, 33.46546, 0.9397112, 0, 0, -0.3419692,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -96,8 +96,8 @@ VALUES (0x72E37013,  1542, 0x2E37003E, 182.4377, 127.8625, 33.06149, 0.9990482, 
 /* @teleloc 0x2E37003E [182.437700 127.862500 33.061490] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E37013, 0x72E37014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72E37013, 0x72E37015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72E37013, 0x72E37014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72E37013, 0x72E37015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E37014,  4179, 0x2E37003E, 182.4377, 127.8625, 33.06149, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

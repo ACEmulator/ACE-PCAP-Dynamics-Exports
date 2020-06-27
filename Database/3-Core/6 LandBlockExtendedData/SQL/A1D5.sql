@@ -5,22 +5,22 @@ VALUES (0x7A1D5001,  1154, 0xA1D5000A, 29.14358, 28.49568, 175.9037, 0.9238795, 
 /* @teleloc 0xA1D5000A [29.143580 28.495680 175.903700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D5001, 0x7A1D5002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A1D5001, 0x7A1D5003, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A1D5001, 0x7A1D5004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A1D5001, 0x7A1D5005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D5001, 0x7A1D5006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D5001, 0x7A1D5007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A1D5001, 0x7A1D5008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A1D5001, 0x7A1D5009, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7A1D5001, 0x7A1D500A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7A1D5001, 0x7A1D500B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A1D5001, 0x7A1D500C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7A1D5001, 0x7A1D500D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D5001, 0x7A1D500E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D5001, 0x7A1D500F, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7A1D5001, 0x7A1D5010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A1D5001, 0x7A1D5011, '2019-02-10 00:00:00') /* Banderling Rogue */;
+VALUES (0x7A1D5001, 0x7A1D5002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1D5001, 0x7A1D5003, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A1D5001, 0x7A1D5004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A1D5001, 0x7A1D5005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D5001, 0x7A1D5006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D5001, 0x7A1D5007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A1D5001, 0x7A1D5008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A1D5001, 0x7A1D5009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7A1D5001, 0x7A1D500A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7A1D5001, 0x7A1D500B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A1D5001, 0x7A1D500C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7A1D5001, 0x7A1D500D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D5001, 0x7A1D500E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D5001, 0x7A1D500F, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A1D5001, 0x7A1D5010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A1D5001, 0x7A1D5011, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D5002,  1628, 0xA1D5000A, 29.14358, 28.49568, 175.9037, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -91,9 +91,9 @@ VALUES (0x7A1D5012,  1542, 0xA1D5000C, 43.10044, 87.95625, 162, 0.9990482, 0, 0,
 /* @teleloc 0xA1D5000C [43.100440 87.956250 162.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D5012, 0x7A1D5013, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7A1D5012, 0x7A1D5014, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7A1D5012, 0x7A1D5015, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7A1D5012, 0x7A1D5013, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7A1D5012, 0x7A1D5014, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7A1D5012, 0x7A1D5015, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D5013,  6117, 0xA1D5000C, 43.10044, 87.95625, 162, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -5,18 +5,18 @@ VALUES (0x7B6A4001,  1154, 0xB6A4003A, 178.6918, 38.50017, 55.54903, 0.7071068, 
 /* @teleloc 0xB6A4003A [178.691800 38.500170 55.549030] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A4001, 0x7B6A4002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A4001, 0x7B6A4003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A4001, 0x7B6A4004, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A4005, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A4006, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A4007, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A4008, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A4009, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A400A, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A400B, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B6A4001, 0x7B6A400C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B6A4001, 0x7B6A400D, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7B6A4001, 0x7B6A4002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A4001, 0x7B6A4003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A4001, 0x7B6A4004, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A4005, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A4006, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A4007, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A4008, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A4009, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A400A, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A400B, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B6A4001, 0x7B6A400C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B6A4001, 0x7B6A400D, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A4002,  1612, 0xB6A4003A, 178.6918, 38.50017, 55.54903, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

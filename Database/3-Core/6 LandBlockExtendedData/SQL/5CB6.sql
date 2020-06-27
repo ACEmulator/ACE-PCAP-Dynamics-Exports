@@ -5,19 +5,19 @@ VALUES (0x75CB6001,  1154, 0x5CB60016, 54.49273, 133.0667, 1.467189, 0.6426097, 
 /* @teleloc 0x5CB60016 [54.492730 133.066700 1.467189] 0.642610 0.000000 0.000000 -0.766194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CB6001, 0x75CB6002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75CB6001, 0x75CB6003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75CB6001, 0x75CB6004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75CB6001, 0x75CB6005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75CB6001, 0x75CB6006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75CB6001, 0x75CB6007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x75CB6001, 0x75CB6008, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75CB6001, 0x75CB6009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x75CB6001, 0x75CB600A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75CB6001, 0x75CB600B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x75CB6001, 0x75CB600C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x75CB6001, 0x75CB600D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75CB6001, 0x75CB600E, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x75CB6001, 0x75CB6002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75CB6001, 0x75CB6003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75CB6001, 0x75CB6004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75CB6001, 0x75CB6005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75CB6001, 0x75CB6006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75CB6001, 0x75CB6007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x75CB6001, 0x75CB6008, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75CB6001, 0x75CB6009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x75CB6001, 0x75CB600A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75CB6001, 0x75CB600B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x75CB6001, 0x75CB600C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x75CB6001, 0x75CB600D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75CB6001, 0x75CB600E, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CB6002,  4217, 0x5CB60016, 54.49273, 133.0667, 1.467189, 0.6426097, 0, 0, -0.7661937,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -76,7 +76,7 @@ VALUES (0x75CB600F,  1542, 0x5CB60017, 52.84122, 157.905, 1.586565, 0.6426097, 0
 /* @teleloc 0x5CB60017 [52.841220 157.905000 1.586565] 0.642610 0.000000 0.000000 -0.766194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CB600F, 0x75CB6010, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x75CB600F, 0x75CB6010, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CB6010,  9287, 0x5CB60017, 52.84122, 157.905, 1.586565, 0.6426097, 0, 0, -0.7661937,  True, '2019-02-10 00:00:00'); /* Master's Holding */

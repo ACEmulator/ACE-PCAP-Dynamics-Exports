@@ -253,89 +253,89 @@ VALUES (0x78A020C8,  1154, 0x8A0201C8, 60.8518, -67.3038, 0.004999995, -0.087155
 /* @teleloc 0x8A0201C8 [60.851800 -67.303800 0.005000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A020C8, 0x78A020C9, '2019-02-10 00:00:00') /* Steward */
-     , (0x78A020C8, 0x78A020CA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020CB, '2019-02-10 00:00:00') /* Aun Warden */
-     , (0x78A020C8, 0x78A020CC, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020CD, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020CE, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020CF, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D0, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D1, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D2, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D3, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D4, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D5, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D6, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D7, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D8, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020D9, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DA, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DB, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DC, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DD, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DE, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020DF, '2019-02-10 00:00:00') /* Mosswart Warden */
-     , (0x78A020C8, 0x78A020E0, '2019-02-10 00:00:00') /* Warden */
-     , (0x78A020C8, 0x78A020E1, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E2, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E3, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E4, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E5, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E6, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E7, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E8, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020E9, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020EA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020EB, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020EC, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020ED, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020EE, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020EF, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F0, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F1, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F2, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F3, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F4, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F5, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F6, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F7, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F8, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020F9, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FB, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FC, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FD, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FE, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A020FF, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02100, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02101, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02102, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02103, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02104, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02105, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02106, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02107, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02108, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02109, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210A, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210B, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210C, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210D, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210E, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0210F, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02110, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02111, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02112, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02113, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02114, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02115, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02116, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02117, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02118, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A02119, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0211A, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */
-     , (0x78A020C8, 0x78A0211B, '2019-02-10 00:00:00') /* Curmudgeon the Drudge */;
+VALUES (0x78A020C8, 0x78A020C9, '2019-02-10 00:00:00') /* Steward (42134) */
+     , (0x78A020C8, 0x78A020CA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020CB, '2019-02-10 00:00:00') /* Aun Warden (42136) */
+     , (0x78A020C8, 0x78A020CC, '2019-02-10 00:00:00') /* Warden (42143) */
+     , (0x78A020C8, 0x78A020CD, '2019-02-10 00:00:00') /* Warden (42133) */
+     , (0x78A020C8, 0x78A020CE, '2019-02-10 00:00:00') /* Warden (42125) */
+     , (0x78A020C8, 0x78A020CF, '2019-02-10 00:00:00') /* Warden (42130) */
+     , (0x78A020C8, 0x78A020D0, '2019-02-10 00:00:00') /* Warden (42132) */
+     , (0x78A020C8, 0x78A020D1, '2019-02-10 00:00:00') /* Warden (42137) */
+     , (0x78A020C8, 0x78A020D2, '2019-02-10 00:00:00') /* Warden (42124) */
+     , (0x78A020C8, 0x78A020D3, '2019-02-10 00:00:00') /* Warden (42123) */
+     , (0x78A020C8, 0x78A020D4, '2019-02-10 00:00:00') /* Warden (42138) */
+     , (0x78A020C8, 0x78A020D5, '2019-02-10 00:00:00') /* Warden (42142) */
+     , (0x78A020C8, 0x78A020D6, '2019-02-10 00:00:00') /* Warden (42127) */
+     , (0x78A020C8, 0x78A020D7, '2019-02-10 00:00:00') /* Warden (42140) */
+     , (0x78A020C8, 0x78A020D8, '2019-02-10 00:00:00') /* Warden (42141) */
+     , (0x78A020C8, 0x78A020D9, '2019-02-10 00:00:00') /* Warden (42129) */
+     , (0x78A020C8, 0x78A020DA, '2019-02-10 00:00:00') /* Warden (42110) */
+     , (0x78A020C8, 0x78A020DB, '2019-02-10 00:00:00') /* Warden (42128) */
+     , (0x78A020C8, 0x78A020DC, '2019-02-10 00:00:00') /* Warden (42135) */
+     , (0x78A020C8, 0x78A020DD, '2019-02-10 00:00:00') /* Warden (42126) */
+     , (0x78A020C8, 0x78A020DE, '2019-02-10 00:00:00') /* Warden (42145) */
+     , (0x78A020C8, 0x78A020DF, '2019-02-10 00:00:00') /* Mosswart Warden (42144) */
+     , (0x78A020C8, 0x78A020E0, '2019-02-10 00:00:00') /* Warden (42139) */
+     , (0x78A020C8, 0x78A020E1, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E2, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E3, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E4, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E5, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E6, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E7, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E8, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020E9, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020EA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020EB, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020EC, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020ED, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020EE, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020EF, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F0, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F1, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F2, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F3, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F4, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F5, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F6, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F7, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F8, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020F9, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FA, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FB, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FC, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FD, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FE, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A020FF, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02100, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02101, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02102, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02103, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02104, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02105, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02106, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02107, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02108, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02109, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210A, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210B, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210C, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210D, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210E, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0210F, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02110, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02111, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02112, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02113, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02114, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02115, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02116, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02117, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02118, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A02119, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0211A, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */
+     , (0x78A020C8, 0x78A0211B, '2019-02-10 00:00:00') /* Curmudgeon the Drudge (42131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A020C9, 42134, 0x8A0201C8, 60.8518, -67.3038, 0.004999995, -0.08715597, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Steward */
@@ -674,51 +674,51 @@ VALUES (0x78A0211C,  1542, 0x8A0201C2, 56.72916, -56.69519, 0.004999995, 0.38268
 /* @teleloc 0x8A0201C2 [56.729160 -56.695190 0.005000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A0211C, 0x78A0211D, '2019-02-10 00:00:00') /* Master Enchanter */
-     , (0x78A0211C, 0x78A0211E, '2019-02-10 00:00:00') /* Torch */
-     , (0x78A0211C, 0x78A0211F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A02120, '2019-02-10 00:00:00') /* Tibri's Fire Spear */
-     , (0x78A0211C, 0x78A02121, '2019-02-10 00:00:00') /* Ruschk Hunter Leggings */
-     , (0x78A0211C, 0x78A02122, '2019-02-10 00:00:00') /* Sharp Tusker Slave Tusk */
-     , (0x78A0211C, 0x78A02123, '2019-02-10 00:00:00') /* Pack T'thuun */
-     , (0x78A0211C, 0x78A02124, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A02125, '2019-02-10 00:00:00') /* Sturdy Iron Key */
-     , (0x78A0211C, 0x78A02126, '2019-02-10 00:00:00') /* Ice Tachi */
-     , (0x78A0211C, 0x78A02127, '2019-02-10 00:00:00') /* Leather Sleeves */
-     , (0x78A0211C, 0x78A02128, '2019-02-10 00:00:00') /* Chiran Sandals */
-     , (0x78A0211C, 0x78A02129, '2019-02-10 00:00:00') /* Steel Toed Boots */
-     , (0x78A0211C, 0x78A0212A, '2019-02-10 00:00:00') /* Haebrean Breastplate */
-     , (0x78A0211C, 0x78A0212B, '2019-02-10 00:00:00') /* Lorica Gauntlets */
-     , (0x78A0211C, 0x78A0212C, '2019-02-10 00:00:00') /* Nariyid Helm */
-     , (0x78A0211C, 0x78A0212D, '2019-02-10 00:00:00') /* Gloves */
-     , (0x78A0211C, 0x78A0212E, '2019-02-10 00:00:00') /* Lyceum Hood */
-     , (0x78A0211C, 0x78A0212F, '2019-02-10 00:00:00') /* Studded Leather Cuirass */
-     , (0x78A0211C, 0x78A02130, '2019-02-10 00:00:00') /* Covenant Helm */
-     , (0x78A0211C, 0x78A02131, '2019-02-10 00:00:00') /* Leather Cuirass */
-     , (0x78A0211C, 0x78A02132, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A02133, '2019-02-10 00:00:00') /* Trade Note (250,000) */
-     , (0x78A0211C, 0x78A02134, '2019-02-10 00:00:00') /* Kilif Zefir Sites */
-     , (0x78A0211C, 0x78A02135, '2019-02-10 00:00:00') /* Letter to Bretself the Translator */
-     , (0x78A0211C, 0x78A02136, '2019-02-10 00:00:00') /* Acid Axe */
-     , (0x78A0211C, 0x78A02137, '2019-02-10 00:00:00') /* Quarter Staff of Fire */
-     , (0x78A0211C, 0x78A02138, '2019-02-10 00:00:00') /* Bachus Flufen's Journal */
-     , (0x78A0211C, 0x78A02139, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A0213A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A0213B, '2019-02-10 00:00:00') /* Tipped Pack Cow */
-     , (0x78A0211C, 0x78A0213C, '2019-02-10 00:00:00') /* Longbow */
-     , (0x78A0211C, 0x78A0213D, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x78A0211C, 0x78A0213E, '2019-02-10 00:00:00') /* Light Crossbow */
-     , (0x78A0211C, 0x78A0213F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A02140, '2019-02-10 00:00:00') /* Gateway */
-     , (0x78A0211C, 0x78A02141, '2019-02-10 00:00:00') /* Fire Sceptre */
-     , (0x78A0211C, 0x78A02142, '2019-02-10 00:00:00') /* War Bow */
-     , (0x78A0211C, 0x78A02143, '2019-02-10 00:00:00') /* Shouyumi */
-     , (0x78A0211C, 0x78A02144, '2019-02-10 00:00:00') /* Yumi */
-     , (0x78A0211C, 0x78A02145, '2019-02-10 00:00:00') /* Nayin */
-     , (0x78A0211C, 0x78A02146, '2019-02-10 00:00:00') /* A Book of Quests for Young Explorers */
-     , (0x78A0211C, 0x78A02147, '2019-02-10 00:00:00') /* Trothyr's War Hammer */
-     , (0x78A0211C, 0x78A02148, '2019-02-10 00:00:00') /* Undead Thighbone */
-     , (0x78A0211C, 0x78A02149, '2019-02-10 00:00:00') /* Hammer of Lightning  */;
+VALUES (0x78A0211C, 0x78A0211D, '2019-02-10 00:00:00') /* Master Enchanter (42220) */
+     , (0x78A0211C, 0x78A0211E, '2019-02-10 00:00:00') /* Torch (293) */
+     , (0x78A0211C, 0x78A0211F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A02120, '2019-02-10 00:00:00') /* Tibri's Fire Spear (3645) */
+     , (0x78A0211C, 0x78A02121, '2019-02-10 00:00:00') /* Ruschk Hunter Leggings (29050) */
+     , (0x78A0211C, 0x78A02122, '2019-02-10 00:00:00') /* Sharp Tusker Slave Tusk (19478) */
+     , (0x78A0211C, 0x78A02123, '2019-02-10 00:00:00') /* Pack T'thuun (39369) */
+     , (0x78A0211C, 0x78A02124, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A02125, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
+     , (0x78A0211C, 0x78A02126, '2019-02-10 00:00:00') /* Ice Tachi (1435) */
+     , (0x78A0211C, 0x78A02127, '2019-02-10 00:00:00') /* Leather Sleeves (25651) */
+     , (0x78A0211C, 0x78A02128, '2019-02-10 00:00:00') /* Chiran Sandals (27219) */
+     , (0x78A0211C, 0x78A02129, '2019-02-10 00:00:00') /* Steel Toed Boots (7897) */
+     , (0x78A0211C, 0x78A0212A, '2019-02-10 00:00:00') /* Haebrean Breastplate (42749) */
+     , (0x78A0211C, 0x78A0212B, '2019-02-10 00:00:00') /* Lorica Gauntlets (27222) */
+     , (0x78A0211C, 0x78A0212C, '2019-02-10 00:00:00') /* Nariyid Helm (27230) */
+     , (0x78A0211C, 0x78A0212D, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x78A0211C, 0x78A0212E, '2019-02-10 00:00:00') /* Lyceum Hood (44977) */
+     , (0x78A0211C, 0x78A0212F, '2019-02-10 00:00:00') /* Studded Leather Cuirass (53) */
+     , (0x78A0211C, 0x78A02130, '2019-02-10 00:00:00') /* Covenant Helm (40711) */
+     , (0x78A0211C, 0x78A02131, '2019-02-10 00:00:00') /* Leather Cuirass (25641) */
+     , (0x78A0211C, 0x78A02132, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A02133, '2019-02-10 00:00:00') /* Trade Note (250,000) (20630) */
+     , (0x78A0211C, 0x78A02134, '2019-02-10 00:00:00') /* Kilif Zefir Sites (33954) */
+     , (0x78A0211C, 0x78A02135, '2019-02-10 00:00:00') /* Letter to Bretself the Translator (34349) */
+     , (0x78A0211C, 0x78A02136, '2019-02-10 00:00:00') /* Acid Axe (1439) */
+     , (0x78A0211C, 0x78A02137, '2019-02-10 00:00:00') /* Quarter Staff of Fire (1481) */
+     , (0x78A0211C, 0x78A02138, '2019-02-10 00:00:00') /* Bachus Flufen's Journal (11975) */
+     , (0x78A0211C, 0x78A02139, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A0213A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A0213B, '2019-02-10 00:00:00') /* Tipped Pack Cow (33965) */
+     , (0x78A0211C, 0x78A0213C, '2019-02-10 00:00:00') /* Longbow (306) */
+     , (0x78A0211C, 0x78A0213D, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x78A0211C, 0x78A0213E, '2019-02-10 00:00:00') /* Light Crossbow (312) */
+     , (0x78A0211C, 0x78A0213F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A02140, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x78A0211C, 0x78A02141, '2019-02-10 00:00:00') /* Fire Sceptre (29262) */
+     , (0x78A0211C, 0x78A02142, '2019-02-10 00:00:00') /* War Bow (30625) */
+     , (0x78A0211C, 0x78A02143, '2019-02-10 00:00:00') /* Shouyumi (341) */
+     , (0x78A0211C, 0x78A02144, '2019-02-10 00:00:00') /* Yumi (363) */
+     , (0x78A0211C, 0x78A02145, '2019-02-10 00:00:00') /* Nayin (334) */
+     , (0x78A0211C, 0x78A02146, '2019-02-10 00:00:00') /* A Book of Quests for Young Explorers (8676) */
+     , (0x78A0211C, 0x78A02147, '2019-02-10 00:00:00') /* Trothyr's War Hammer (2018) */
+     , (0x78A0211C, 0x78A02148, '2019-02-10 00:00:00') /* Undead Thighbone (7041) */
+     , (0x78A0211C, 0x78A02149, '2019-02-10 00:00:00') /* Hammer of Lightning  (1436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A0211D, 42220, 0x8A0201C2, 56.72916, -56.69519, 0.004999995, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Master Enchanter */

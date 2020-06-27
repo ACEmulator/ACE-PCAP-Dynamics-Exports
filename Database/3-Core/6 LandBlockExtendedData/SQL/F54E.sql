@@ -5,9 +5,9 @@ VALUES (0x7F54E001,  1154, 0xF54E0023, 112.1085, 56.87446, 44.37327, -0.7628039,
 /* @teleloc 0xF54E0023 [112.108500 56.874460 44.373270] -0.762804 0.000000 0.000000 -0.646630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F54E001, 0x7F54E002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7F54E001, 0x7F54E003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7F54E001, 0x7F54E004, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7F54E001, 0x7F54E002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7F54E001, 0x7F54E003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7F54E001, 0x7F54E004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F54E002, 11528, 0xF54E0023, 112.1085, 56.87446, 44.37327, -0.7628039, 0, 0, -0.6466299,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

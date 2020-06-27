@@ -5,11 +5,11 @@ VALUES (0x755D6001,  1154, 0x55D6000F, 37.71506, 144.0199, 54.83193, -0.5737134,
 /* @teleloc 0x55D6000F [37.715060 144.019900 54.831930] -0.573713 0.000000 0.000000 -0.819056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D6001, 0x755D6002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x755D6001, 0x755D6003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x755D6001, 0x755D6004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x755D6001, 0x755D6005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x755D6001, 0x755D6006, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x755D6001, 0x755D6002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x755D6001, 0x755D6003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x755D6001, 0x755D6004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x755D6001, 0x755D6005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x755D6001, 0x755D6006, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D6002,  7981, 0x55D6000F, 37.71506, 144.0199, 54.83193, -0.5737134, 0, 0, -0.8190562,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
@@ -36,7 +36,7 @@ VALUES (0x755D6007,  1542, 0x55D6000C, 27.15607, 77.27779, 34.70282, 1, 0, 0, 0,
 /* @teleloc 0x55D6000C [27.156070 77.277790 34.702820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755D6007, 0x755D6008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x755D6007, 0x755D6008, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755D6008, 22566, 0x55D6000C, 27.15607, 77.27779, 34.70282, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

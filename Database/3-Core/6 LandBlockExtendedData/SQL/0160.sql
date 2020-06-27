@@ -9,10 +9,10 @@ VALUES (0x70160074,  1154, 0x016002AC, 90, -30, 0, -0.707107, 0, 0, -0.707107, F
 /* @teleloc 0x016002AC [90.000000 -30.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70160074, 0x70160075, '2019-02-10 00:00:00') /* Instructions */
-     , (0x70160074, 0x70160076, '2019-02-10 00:00:00') /* Bag labeled "Mixed" */
-     , (0x70160074, 0x70160077, '2019-02-10 00:00:00') /* Bag labeled "White" */
-     , (0x70160074, 0x70160078, '2019-02-10 00:00:00') /* Bag labeled "Black" */;
+VALUES (0x70160074, 0x70160075, '2019-02-10 00:00:00') /* Instructions (29775) */
+     , (0x70160074, 0x70160076, '2019-02-10 00:00:00') /* Bag labeled "Mixed" (29776) */
+     , (0x70160074, 0x70160077, '2019-02-10 00:00:00') /* Bag labeled "White" (29777) */
+     , (0x70160074, 0x70160078, '2019-02-10 00:00:00') /* Bag labeled "Black" (29774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70160075, 29775, 0x016002AC, 90, -30, 0, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Instructions */

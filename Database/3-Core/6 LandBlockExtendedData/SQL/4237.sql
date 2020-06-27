@@ -5,12 +5,12 @@ VALUES (0x74237001,  1154, 0x42370016, 70.1645, 126.3661, 15.76571, -0.9645053, 
 /* @teleloc 0x42370016 [70.164500 126.366100 15.765710] -0.964505 0.000000 0.000000 -0.264064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74237001, 0x74237002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x74237001, 0x74237003, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x74237001, 0x74237004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74237001, 0x74237005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x74237001, 0x74237006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74237001, 0x74237007, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x74237001, 0x74237002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74237001, 0x74237003, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74237001, 0x74237004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74237001, 0x74237005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x74237001, 0x74237006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74237001, 0x74237007, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74237002, 33309, 0x42370016, 70.1645, 126.3661, 15.76571, -0.9645053, 0, 0, -0.2640637,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

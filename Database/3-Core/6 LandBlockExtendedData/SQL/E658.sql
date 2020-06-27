@@ -5,16 +5,16 @@ VALUES (0x7E658001,  1154, 0xE6580019, 77.46899, 0.05935815, -0.08949995, -0.781
 /* @teleloc 0xE6580019 [77.468990 0.059358 -0.089500] -0.781061 0.000000 0.000000 -0.624455 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E658001, 0x7E658002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E658001, 0x7E658003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E658001, 0x7E658004, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E658001, 0x7E658005, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E658001, 0x7E658006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E658001, 0x7E658007, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E658001, 0x7E658008, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E658001, 0x7E658009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E658001, 0x7E65800A, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E658001, 0x7E65800B, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7E658001, 0x7E658002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E658001, 0x7E658003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E658001, 0x7E658004, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E658001, 0x7E658005, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E658001, 0x7E658006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E658001, 0x7E658007, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E658001, 0x7E658008, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E658001, 0x7E658009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E658001, 0x7E65800A, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E658001, 0x7E65800B, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E658002,  2564, 0xE6580019, 77.46899, 0.05935815, -0.08949995, -0.7810608, 0, 0, -0.624455,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */

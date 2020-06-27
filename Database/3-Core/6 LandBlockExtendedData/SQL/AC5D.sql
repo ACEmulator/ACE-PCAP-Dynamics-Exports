@@ -5,14 +5,14 @@ VALUES (0x7AC5D001,  1154, 0xAC5D0001, 14.05325, 1.969749, 51.83585, 0.7071068, 
 /* @teleloc 0xAC5D0001 [14.053250 1.969749 51.835850] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5D001, 0x7AC5D002, '2019-02-10 00:00:00') /* Chilly the Snowman */
-     , (0x7AC5D001, 0x7AC5D003, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AC5D001, 0x7AC5D004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC5D001, 0x7AC5D005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AC5D001, 0x7AC5D006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AC5D001, 0x7AC5D007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC5D001, 0x7AC5D008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AC5D001, 0x7AC5D009, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AC5D001, 0x7AC5D002, '2019-02-10 00:00:00') /* Chilly the Snowman (5760) */
+     , (0x7AC5D001, 0x7AC5D003, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AC5D001, 0x7AC5D004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC5D001, 0x7AC5D005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AC5D001, 0x7AC5D006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AC5D001, 0x7AC5D007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC5D001, 0x7AC5D008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AC5D001, 0x7AC5D009, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5D002,  5760, 0xAC5D0001, 14.05325, 1.969749, 51.83585, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chilly the Snowman */

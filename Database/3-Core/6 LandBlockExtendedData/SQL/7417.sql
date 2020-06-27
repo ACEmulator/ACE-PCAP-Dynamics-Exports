@@ -5,9 +5,9 @@ VALUES (0x77417001,  1154, 0x7417002A, 121.9742, 39.04939, 6.355711, -0.7968215,
 /* @teleloc 0x7417002A [121.974200 39.049390 6.355711] -0.796822 0.000000 0.000000 -0.604215 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77417001, 0x77417002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77417001, 0x77417003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x77417001, 0x77417004, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x77417001, 0x77417002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77417001, 0x77417003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x77417001, 0x77417004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77417002,  7107, 0x7417002A, 121.9742, 39.04939, 6.355711, -0.7968215, 0, 0, -0.6042147,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -26,7 +26,7 @@ VALUES (0x77417005,  1542, 0x7417000A, 40.72843, 32.90369, 14.9679, -0.9839263, 
 /* @teleloc 0x7417000A [40.728430 32.903690 14.967900] -0.983926 0.000000 0.000000 -0.178575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77417005, 0x77417006, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x77417005, 0x77417006, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77417006,  8039, 0x7417000A, 40.72843, 32.90369, 14.9679, -0.9839263, 0, 0, -0.1785749,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

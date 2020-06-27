@@ -5,15 +5,15 @@ VALUES (0x7C1CA001,  1154, 0xC1CA0012, 61.18093, 39.48613, 103.7229, -0.650349, 
 /* @teleloc 0xC1CA0012 [61.180930 39.486130 103.722900] -0.650349 0.000000 0.000000 -0.759636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1CA001, 0x7C1CA002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1CA001, 0x7C1CA003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1CA001, 0x7C1CA004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C1CA001, 0x7C1CA005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7C1CA001, 0x7C1CA006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C1CA001, 0x7C1CA007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C1CA001, 0x7C1CA008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C1CA001, 0x7C1CA009, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C1CA001, 0x7C1CA00A, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7C1CA001, 0x7C1CA002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1CA001, 0x7C1CA003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1CA001, 0x7C1CA004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C1CA001, 0x7C1CA005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C1CA001, 0x7C1CA006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C1CA001, 0x7C1CA007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C1CA001, 0x7C1CA008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C1CA001, 0x7C1CA009, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C1CA001, 0x7C1CA00A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1CA002, 23482, 0xC1CA0012, 61.18093, 39.48613, 103.7229, -0.650349, 0, 0, -0.7596356,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

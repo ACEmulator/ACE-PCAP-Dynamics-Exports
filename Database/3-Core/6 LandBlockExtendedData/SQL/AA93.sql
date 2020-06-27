@@ -5,13 +5,13 @@ VALUES (0x7AA93001,  1154, 0xAA930036, 166.0496, 139.689, 40.0055, -0.8525481, 0
 /* @teleloc 0xAA930036 [166.049600 139.689000 40.005500] -0.852548 0.000000 0.000000 -0.522649 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA93001, 0x7AA93002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AA93001, 0x7AA93003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AA93001, 0x7AA93004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AA93001, 0x7AA93005, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AA93001, 0x7AA93006, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7AA93001, 0x7AA93007, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AA93001, 0x7AA93008, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x7AA93001, 0x7AA93002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AA93001, 0x7AA93003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AA93001, 0x7AA93004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AA93001, 0x7AA93005, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AA93001, 0x7AA93006, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7AA93001, 0x7AA93007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AA93001, 0x7AA93008, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA93002,   229, 0xAA930036, 166.0496, 139.689, 40.0055, -0.8525481, 0, 0, -0.5226487,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -46,7 +46,7 @@ VALUES (0x7AA93009,  1542, 0xAA930013, 53.66742, 71.26253, 44.06145, 1, 0, 0, 0,
 /* @teleloc 0xAA930013 [53.667420 71.262530 44.061450] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA93009, 0x7AA9300A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7AA93009, 0x7AA9300A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA9300A,  8999, 0xAA930013, 53.66742, 71.26253, 44.06145, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

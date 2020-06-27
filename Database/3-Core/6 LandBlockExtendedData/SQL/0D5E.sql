@@ -5,21 +5,21 @@ VALUES (0x70D5E001,  1154, 0x0D5E0005, 6.602619, 117.5293, -0.45, -0.4443326, 0,
 /* @teleloc 0x0D5E0005 [6.602619 117.529300 -0.450000] -0.444333 0.000000 0.000000 -0.895862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D5E001, 0x70D5E002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D5E001, 0x70D5E003, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70D5E001, 0x70D5E004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D5E001, 0x70D5E005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70D5E001, 0x70D5E006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x70D5E001, 0x70D5E007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70D5E001, 0x70D5E008, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70D5E001, 0x70D5E009, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70D5E001, 0x70D5E00A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70D5E001, 0x70D5E00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D5E001, 0x70D5E00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D5E001, 0x70D5E00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D5E001, 0x70D5E00E, '2019-02-10 00:00:00') /* Dire Champion Drudge */
-     , (0x70D5E001, 0x70D5E00F, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D5E001, 0x70D5E010, '2019-02-10 00:00:00') /* Entropy Wisp */;
+VALUES (0x70D5E001, 0x70D5E002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D5E001, 0x70D5E003, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70D5E001, 0x70D5E004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D5E001, 0x70D5E005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70D5E001, 0x70D5E006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x70D5E001, 0x70D5E007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70D5E001, 0x70D5E008, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70D5E001, 0x70D5E009, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70D5E001, 0x70D5E00A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70D5E001, 0x70D5E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D5E001, 0x70D5E00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D5E001, 0x70D5E00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D5E001, 0x70D5E00E, '2019-02-10 00:00:00') /* Dire Champion Drudge (36824) */
+     , (0x70D5E001, 0x70D5E00F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D5E001, 0x70D5E010, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D5E002, 23481, 0x0D5E0005, 6.602619, 117.5293, -0.45, -0.4443326, 0, 0, -0.8958619,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

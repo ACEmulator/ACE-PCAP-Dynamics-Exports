@@ -5,10 +5,10 @@ VALUES (0x7D55E001,  1154, 0xD55E0014, 55.97367, 90.5568, 5.562, 0.6763249, 0, 0
 /* @teleloc 0xD55E0014 [55.973670 90.556800 5.562000] 0.676325 0.000000 0.000000 -0.736603 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D55E001, 0x7D55E002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D55E001, 0x7D55E003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7D55E001, 0x7D55E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D55E001, 0x7D55E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7D55E001, 0x7D55E002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D55E001, 0x7D55E003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7D55E001, 0x7D55E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D55E001, 0x7D55E005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D55E002,   215, 0xD55E0014, 55.97367, 90.5568, 5.562, 0.6763249, 0, 0, -0.7366034,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -31,7 +31,7 @@ VALUES (0x7D55E006,  1542, 0xD55E0014, 53.74349, 86.56619, 6, 0.9990482, 0, 0, -
 /* @teleloc 0xD55E0014 [53.743490 86.566190 6.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D55E006, 0x7D55E007, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7D55E006, 0x7D55E007, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D55E007,  6117, 0xD55E0014, 53.74349, 86.56619, 6, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

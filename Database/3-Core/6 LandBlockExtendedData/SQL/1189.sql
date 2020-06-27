@@ -5,11 +5,11 @@ VALUES (0x71189001,  1154, 0x11890033, 145.2399, 52.14132, 69.48837, 0.9659258, 
 /* @teleloc 0x11890033 [145.239900 52.141320 69.488370] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71189001, 0x71189002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71189001, 0x71189003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71189001, 0x71189004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71189001, 0x71189005, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71189001, 0x71189006, '2019-02-10 00:00:00') /* Resonant Portal */;
+VALUES (0x71189001, 0x71189002, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71189001, 0x71189003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71189001, 0x71189004, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71189001, 0x71189005, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71189001, 0x71189006, '2019-02-10 00:00:00') /* Resonant Portal (41004) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71189002, 36850, 0x11890033, 145.2399, 52.14132, 69.48837, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */

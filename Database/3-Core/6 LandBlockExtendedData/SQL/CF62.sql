@@ -13,15 +13,15 @@ VALUES (0x7CF62008,  1154, 0xCF620100, 152.971, 101.784, -0.3449999, 0.437709, 0
 /* @teleloc 0xCF620100 [152.971000 101.784000 -0.345000] 0.437709 0.000000 0.000000 -0.899117 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF62008, 0x7CF62009, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CF62008, 0x7CF6200A, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CF62008, 0x7CF6200B, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CF62008, 0x7CF6200C, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7CF62008, 0x7CF6200D, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CF62008, 0x7CF6200E, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CF62008, 0x7CF6200F, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CF62008, 0x7CF62010, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CF62008, 0x7CF62011, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7CF62008, 0x7CF62009, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62008, 0x7CF6200A, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62008, 0x7CF6200B, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62008, 0x7CF6200C, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7CF62008, 0x7CF6200D, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CF62008, 0x7CF6200E, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CF62008, 0x7CF6200F, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CF62008, 0x7CF62010, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CF62008, 0x7CF62011, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF62009,  2583, 0xCF620100, 152.971, 101.784, -0.3449999, 0.437709, 0, 0, -0.899117,  True, '2019-02-10 00:00:00'); /* Se Sclavus */
@@ -64,7 +64,7 @@ VALUES (0x7CF62012,  1542, 0xCF620100, 159.401, 104.743, -0.3459997, 1, 0, 0, -0
 /* @teleloc 0xCF620100 [159.401000 104.743000 -0.346000] 1.000000 0.000000 0.000000 -0.000532 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF62012, 0x7CF62013, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x7CF62012, 0x7CF62013, '2019-02-10 00:00:00') /* Gem (2409) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF62013,  2409, 0xCF620100, 159.401, 104.743, -0.3459997, 1, 0, 0, -0.000532261,  True, '2019-02-10 00:00:00'); /* Gem */

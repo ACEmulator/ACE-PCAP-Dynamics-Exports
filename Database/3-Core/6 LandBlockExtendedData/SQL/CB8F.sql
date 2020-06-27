@@ -5,13 +5,13 @@ VALUES (0x7CB8F001,  1154, 0xCB8F003A, 176.3545, 27.72274, 14.0055, -0.9999945, 
 /* @teleloc 0xCB8F003A [176.354500 27.722740 14.005500] -0.999995 0.000000 0.000000 -0.003315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB8F001, 0x7CB8F002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CB8F001, 0x7CB8F003, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CB8F001, 0x7CB8F004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CB8F001, 0x7CB8F005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CB8F001, 0x7CB8F006, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7CB8F001, 0x7CB8F007, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7CB8F001, 0x7CB8F008, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x7CB8F001, 0x7CB8F002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CB8F001, 0x7CB8F003, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CB8F001, 0x7CB8F004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CB8F001, 0x7CB8F005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CB8F001, 0x7CB8F006, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7CB8F001, 0x7CB8F007, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7CB8F001, 0x7CB8F008, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB8F002,  2439, 0xCB8F003A, 176.3545, 27.72274, 14.0055, -0.9999945, 0, 0, -0.003314878,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

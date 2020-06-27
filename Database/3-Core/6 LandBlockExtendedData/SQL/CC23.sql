@@ -5,11 +5,11 @@ VALUES (0x7CC23001,  1154, 0xCC23000F, 40.33105, 159.2619, 139.6382, -0.05576879
 /* @teleloc 0xCC23000F [40.331050 159.261900 139.638200] -0.055769 0.000000 0.000000 -0.998444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC23001, 0x7CC23002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CC23001, 0x7CC23003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CC23001, 0x7CC23004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7CC23001, 0x7CC23005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CC23001, 0x7CC23006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7CC23001, 0x7CC23002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CC23001, 0x7CC23003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CC23001, 0x7CC23004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7CC23001, 0x7CC23005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CC23001, 0x7CC23006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC23002,   201, 0xCC23000F, 40.33105, 159.2619, 139.6382, -0.05576879, 0, 0, -0.9984437,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

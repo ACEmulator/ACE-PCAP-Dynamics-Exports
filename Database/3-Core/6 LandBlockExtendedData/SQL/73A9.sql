@@ -5,9 +5,9 @@ VALUES (0x773A9001,  1154, 0x73A9000A, 47.64859, 38.66126, 56.69493, 0.7071068, 
 /* @teleloc 0x73A9000A [47.648590 38.661260 56.694930] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773A9001, 0x773A9002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x773A9001, 0x773A9003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x773A9001, 0x773A9004, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x773A9001, 0x773A9002, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x773A9001, 0x773A9003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x773A9001, 0x773A9004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773A9002,  7335, 0x73A9000A, 47.64859, 38.66126, 56.69493, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

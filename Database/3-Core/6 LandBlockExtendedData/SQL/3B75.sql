@@ -5,18 +5,18 @@ VALUES (0x73B75001,  1154, 0x3B75003A, 173.5229, 24.02453, 7.542264, 0.9750503, 
 /* @teleloc 0x3B75003A [173.522900 24.024530 7.542264] 0.975050 0.000000 0.000000 -0.221984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B75001, 0x73B75002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x73B75001, 0x73B75003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73B75001, 0x73B75004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73B75001, 0x73B75005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73B75001, 0x73B75006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73B75001, 0x73B75007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B75001, 0x73B75008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x73B75001, 0x73B75009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B75001, 0x73B7500A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73B75001, 0x73B7500B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73B75001, 0x73B7500C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73B75001, 0x73B7500D, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x73B75001, 0x73B75002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x73B75001, 0x73B75003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73B75001, 0x73B75004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73B75001, 0x73B75005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73B75001, 0x73B75006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x73B75001, 0x73B75007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B75001, 0x73B75008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x73B75001, 0x73B75009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B75001, 0x73B7500A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73B75001, 0x73B7500B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73B75001, 0x73B7500C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73B75001, 0x73B7500D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B75002, 24280, 0x3B75003A, 173.5229, 24.02453, 7.542264, 0.9750503, 0, 0, -0.2219841,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -71,7 +71,7 @@ VALUES (0x73B7500E,  1542, 0x3B750007, 21.8683, 162.411, 15.28678, 0.9990482, 0,
 /* @teleloc 0x3B750007 [21.868300 162.411000 15.286780] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B7500E, 0x73B7500F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B7500E, 0x73B7500F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B7500F,  4179, 0x3B750007, 21.8683, 162.411, 15.28678, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

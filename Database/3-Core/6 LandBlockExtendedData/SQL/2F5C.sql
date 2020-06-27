@@ -5,24 +5,24 @@ VALUES (0x72F5C001,  1154, 0x2F5C0039, 181.5783, 22.43809, 0.006500006, 0.422618
 /* @teleloc 0x2F5C0039 [181.578300 22.438090 0.006500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F5C001, 0x72F5C002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F5C001, 0x72F5C003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F5C001, 0x72F5C004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F5C001, 0x72F5C005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F5C001, 0x72F5C006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F5C001, 0x72F5C007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F5C001, 0x72F5C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F5C001, 0x72F5C009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F5C001, 0x72F5C00A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F5C001, 0x72F5C00B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F5C001, 0x72F5C00C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72F5C001, 0x72F5C00D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F5C001, 0x72F5C00E, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72F5C001, 0x72F5C00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F5C001, 0x72F5C010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F5C001, 0x72F5C011, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F5C001, 0x72F5C012, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F5C001, 0x72F5C013, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x72F5C001, 0x72F5C002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F5C001, 0x72F5C003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F5C001, 0x72F5C004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F5C001, 0x72F5C005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F5C001, 0x72F5C006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F5C001, 0x72F5C007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F5C001, 0x72F5C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F5C001, 0x72F5C009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F5C001, 0x72F5C00A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F5C001, 0x72F5C00B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F5C001, 0x72F5C00C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72F5C001, 0x72F5C00D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F5C001, 0x72F5C00E, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72F5C001, 0x72F5C00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F5C001, 0x72F5C010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F5C001, 0x72F5C011, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F5C001, 0x72F5C012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F5C001, 0x72F5C013, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F5C002,  8431, 0x2F5C0039, 181.5783, 22.43809, 0.006500006, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -101,7 +101,7 @@ VALUES (0x72F5C014,  1542, 0x2F5C002B, 139.2655, 62.07372, 1.616266, 1, 0, 0, 0,
 /* @teleloc 0x2F5C002B [139.265500 62.073720 1.616266] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F5C014, 0x72F5C015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72F5C014, 0x72F5C015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F5C015,  4380, 0x2F5C002B, 139.2655, 62.07372, 1.616266, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

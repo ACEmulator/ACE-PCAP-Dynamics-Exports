@@ -5,21 +5,21 @@ VALUES (0x73C9E001,  1154, 0x3C9E000E, 28.35524, 143.3566, 16.08778, -0.0151487,
 /* @teleloc 0x3C9E000E [28.355240 143.356600 16.087780] -0.015149 0.000000 0.000000 -0.999885 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C9E001, 0x73C9E002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73C9E001, 0x73C9E003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73C9E001, 0x73C9E004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x73C9E001, 0x73C9E005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x73C9E001, 0x73C9E006, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x73C9E001, 0x73C9E007, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x73C9E001, 0x73C9E008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73C9E001, 0x73C9E009, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73C9E001, 0x73C9E00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73C9E001, 0x73C9E00B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73C9E001, 0x73C9E00C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x73C9E001, 0x73C9E00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73C9E001, 0x73C9E00E, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73C9E001, 0x73C9E00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73C9E001, 0x73C9E010, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x73C9E001, 0x73C9E002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73C9E001, 0x73C9E003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73C9E001, 0x73C9E004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x73C9E001, 0x73C9E005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x73C9E001, 0x73C9E006, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x73C9E001, 0x73C9E007, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x73C9E001, 0x73C9E008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73C9E001, 0x73C9E009, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73C9E001, 0x73C9E00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73C9E001, 0x73C9E00B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73C9E001, 0x73C9E00C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x73C9E001, 0x73C9E00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73C9E001, 0x73C9E00E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73C9E001, 0x73C9E00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73C9E001, 0x73C9E010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C9E002, 11526, 0x3C9E000E, 28.35524, 143.3566, 16.08778, -0.0151487, 0, 0, -0.9998853,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

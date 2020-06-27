@@ -5,35 +5,35 @@ VALUES (0x7C04B001,  1154, 0xC04B003F, 169.229, 161.455, 31.04742, -0.876732, 0,
 /* @teleloc 0xC04B003F [169.229000 161.455000 31.047420] -0.876732 0.000000 0.000000 0.480980 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C04B001, 0x7C04B002, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C04B001, 0x7C04B005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B00B, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C04B001, 0x7C04B00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B00D, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B00E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B00F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C04B001, 0x7C04B011, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B012, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C04B001, 0x7C04B013, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B014, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C04B001, 0x7C04B015, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C04B001, 0x7C04B016, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C04B001, 0x7C04B017, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C04B001, 0x7C04B018, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C04B001, 0x7C04B019, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C04B001, 0x7C04B01A, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C04B001, 0x7C04B01B, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7C04B001, 0x7C04B01C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C04B001, 0x7C04B01D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C04B001, 0x7C04B01E, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7C04B001, 0x7C04B002, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C04B001, 0x7C04B005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B00B, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C04B001, 0x7C04B00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B00D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B00E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B00F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C04B001, 0x7C04B011, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B012, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C04B001, 0x7C04B013, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B014, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C04B001, 0x7C04B015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C04B001, 0x7C04B016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C04B001, 0x7C04B017, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C04B001, 0x7C04B018, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C04B001, 0x7C04B019, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C04B001, 0x7C04B01A, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C04B001, 0x7C04B01B, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7C04B001, 0x7C04B01C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C04B001, 0x7C04B01D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C04B001, 0x7C04B01E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C04B002,  1760, 0xC04B003F, 169.229, 161.455, 31.04742, -0.876732, 0, 0, 0.48098,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
@@ -156,9 +156,9 @@ VALUES (0x7C04B01F,  1542, 0xC04B0037, 153.6855, 159.462, 40.67865, 0.7303806, 0
 /* @teleloc 0xC04B0037 [153.685500 159.462000 40.678650] 0.730381 0.000000 0.000000 -0.683040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C04B01F, 0x7C04B020, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C04B01F, 0x7C04B021, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C04B01F, 0x7C04B022, '2019-02-10 00:00:00') /* Comfrey */;
+VALUES (0x7C04B01F, 0x7C04B020, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C04B01F, 0x7C04B021, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C04B01F, 0x7C04B022, '2019-02-10 00:00:00') /* Comfrey (767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C04B020,  1955, 0xC04B0037, 153.6855, 159.462, 40.67865, 0.7303806, 0, 0, -0.6830404,  True, '2019-02-10 00:00:00'); /* Gateway */

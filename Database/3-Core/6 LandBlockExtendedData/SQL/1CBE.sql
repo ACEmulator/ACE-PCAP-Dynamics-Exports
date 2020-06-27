@@ -9,17 +9,17 @@ VALUES (0x71CBE001,  1154, 0x1CBE0036, 149.39, 120.9488, 103.1872, 1, 0, 0, 0, F
 /* @teleloc 0x1CBE0036 [149.390000 120.948800 103.187200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CBE001, 0x71CBE002, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71CBE001, 0x71CBE003, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71CBE001, 0x71CBE004, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71CBE001, 0x71CBE005, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x71CBE001, 0x71CBE006, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71CBE001, 0x71CBE007, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71CBE001, 0x71CBE008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71CBE001, 0x71CBE009, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71CBE001, 0x71CBE00A, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71CBE001, 0x71CBE00B, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71CBE001, 0x71CBE00C, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x71CBE001, 0x71CBE002, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71CBE001, 0x71CBE003, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71CBE001, 0x71CBE004, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71CBE001, 0x71CBE005, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71CBE001, 0x71CBE006, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71CBE001, 0x71CBE007, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71CBE001, 0x71CBE008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71CBE001, 0x71CBE009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71CBE001, 0x71CBE00A, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71CBE001, 0x71CBE00B, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71CBE001, 0x71CBE00C, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CBE002, 21170, 0x1CBE0036, 149.39, 120.9488, 103.1872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Voltarc */
@@ -70,9 +70,9 @@ VALUES (0x71CBE00D,  1542, 0x1CBE002E, 134.0253, 135.4113, 101.4839, 1, 0, 0, 0,
 /* @teleloc 0x1CBE002E [134.025300 135.411300 101.483900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CBE00D, 0x71CBE00E, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x71CBE00D, 0x71CBE00F, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71CBE00D, 0x71CBE010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71CBE00D, 0x71CBE00E, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x71CBE00D, 0x71CBE00F, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71CBE00D, 0x71CBE010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CBE00E, 11221, 0x1CBE002E, 134.0253, 135.4113, 101.4839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

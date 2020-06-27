@@ -5,10 +5,10 @@ VALUES (0x72F87001,  1154, 0x2F870002, 23.76593, 32.04882, 96.01, 0.9396926, 0, 
 /* @teleloc 0x2F870002 [23.765930 32.048820 96.010000] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F87001, 0x72F87002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F87001, 0x72F87003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F87001, 0x72F87004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F87001, 0x72F87005, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x72F87001, 0x72F87002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F87001, 0x72F87003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F87001, 0x72F87004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F87001, 0x72F87005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F87002, 24497, 0x2F870002, 23.76593, 32.04882, 96.01, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -31,8 +31,8 @@ VALUES (0x72F87006,  1542, 0x2F87000A, 29.46874, 24.61211, 96, 1, 0, 0, 0, False
 /* @teleloc 0x2F87000A [29.468740 24.612110 96.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F87006, 0x72F87007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F87006, 0x72F87008, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x72F87006, 0x72F87007, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72F87006, 0x72F87008, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F87007, 22571, 0x2F87000A, 29.46874, 24.61211, 96, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x79834001,  1154, 0x98340026, 107.3243, 142.1561, 62.06877, -0.8850647,
 /* @teleloc 0x98340026 [107.324300 142.156100 62.068770] -0.885065 0.000000 0.000000 -0.465468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79834001, 0x79834002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79834001, 0x79834003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79834001, 0x79834004, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x79834001, 0x79834005, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79834001, 0x79834006, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79834001, 0x79834007, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x79834001, 0x79834002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79834001, 0x79834003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79834001, 0x79834004, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x79834001, 0x79834005, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79834001, 0x79834006, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79834001, 0x79834007, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79834002,   226, 0x98340026, 107.3243, 142.1561, 62.06877, -0.8850647, 0, 0, -0.4654681,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -41,7 +41,7 @@ VALUES (0x79834008,  1542, 0x98340010, 33.39846, 190.2926, 72.12685, -0.06020246
 /* @teleloc 0x98340010 [33.398460 190.292600 72.126850] -0.060202 0.000000 0.000000 -0.998186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79834008, 0x79834009, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x79834008, 0x79834009, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79834009,  9287, 0x98340010, 33.39846, 190.2926, 72.12685, -0.06020246, 0, 0, -0.9981862,  True, '2019-02-10 00:00:00'); /* Master's Holding */

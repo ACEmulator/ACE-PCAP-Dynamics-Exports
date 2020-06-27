@@ -5,19 +5,19 @@ VALUES (0x7962E001,  1154, 0x962E0024, 97.20147, 93.90633, 49.55548, 0.7594966, 
 /* @teleloc 0x962E0024 [97.201470 93.906330 49.555480] 0.759497 0.000000 0.000000 -0.650511 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962E001, 0x7962E002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7962E001, 0x7962E003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7962E001, 0x7962E004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7962E001, 0x7962E005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7962E001, 0x7962E006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7962E001, 0x7962E007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7962E001, 0x7962E008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7962E001, 0x7962E009, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7962E001, 0x7962E00A, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7962E001, 0x7962E00B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7962E001, 0x7962E00C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7962E001, 0x7962E00D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7962E001, 0x7962E00E, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7962E001, 0x7962E002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7962E001, 0x7962E003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7962E001, 0x7962E004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7962E001, 0x7962E005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7962E001, 0x7962E006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7962E001, 0x7962E007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7962E001, 0x7962E008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7962E001, 0x7962E009, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7962E001, 0x7962E00A, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7962E001, 0x7962E00B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7962E001, 0x7962E00C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7962E001, 0x7962E00D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7962E001, 0x7962E00E, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962E002,  1609, 0x962E0024, 97.20147, 93.90633, 49.55548, 0.7594966, 0, 0, -0.6505113,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -76,7 +76,7 @@ VALUES (0x7962E00F,  1542, 0x962E001D, 92.09796, 97.52611, 52.37275, 0.7071068, 
 /* @teleloc 0x962E001D [92.097960 97.526110 52.372750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962E00F, 0x7962E010, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7962E00F, 0x7962E010, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962E010,  6118, 0x962E001D, 92.09796, 97.52611, 52.37275, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

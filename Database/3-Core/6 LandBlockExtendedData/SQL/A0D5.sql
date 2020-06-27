@@ -5,21 +5,21 @@ VALUES (0x7A0D5001,  1154, 0xA0D50023, 119.4018, 48.06873, 151.8785, 0.7372774, 
 /* @teleloc 0xA0D50023 [119.401800 48.068730 151.878500] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0D5001, 0x7A0D5002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D5001, 0x7A0D5003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A0D5001, 0x7A0D5004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A0D5001, 0x7A0D5005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A0D5001, 0x7A0D5006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D5001, 0x7A0D5007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A0D5001, 0x7A0D5008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D5001, 0x7A0D5009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A0D5001, 0x7A0D500A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A0D5001, 0x7A0D500B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A0D5001, 0x7A0D500C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A0D5001, 0x7A0D500D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D5001, 0x7A0D500E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0D5001, 0x7A0D500F, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A0D5001, 0x7A0D5010, '2019-02-10 00:00:00') /* Acolyte of Wind */;
+VALUES (0x7A0D5001, 0x7A0D5002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D5001, 0x7A0D5003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A0D5001, 0x7A0D5004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A0D5001, 0x7A0D5005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A0D5001, 0x7A0D5006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D5001, 0x7A0D5007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A0D5001, 0x7A0D5008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D5001, 0x7A0D5009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A0D5001, 0x7A0D500A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A0D5001, 0x7A0D500B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A0D5001, 0x7A0D500C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A0D5001, 0x7A0D500D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D5001, 0x7A0D500E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0D5001, 0x7A0D500F, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A0D5001, 0x7A0D5010, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0D5002,  4255, 0xA0D50023, 119.4018, 48.06873, 151.8785, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

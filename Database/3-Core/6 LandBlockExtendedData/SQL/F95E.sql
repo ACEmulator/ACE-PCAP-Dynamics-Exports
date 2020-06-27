@@ -5,25 +5,25 @@ VALUES (0x7F95E001,  1154, 0xF95E0014, 67.57787, 93.06877, 0.002499998, 0.707106
 /* @teleloc 0xF95E0014 [67.577870 93.068770 0.002500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F95E001, 0x7F95E002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7F95E001, 0x7F95E003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7F95E001, 0x7F95E004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F95E001, 0x7F95E005, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F95E001, 0x7F95E006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F95E001, 0x7F95E007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7F95E001, 0x7F95E008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F95E001, 0x7F95E009, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F95E001, 0x7F95E00A, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F95E001, 0x7F95E00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F95E001, 0x7F95E00C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F95E001, 0x7F95E00D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F95E001, 0x7F95E00E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F95E001, 0x7F95E00F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F95E001, 0x7F95E010, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7F95E001, 0x7F95E011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F95E001, 0x7F95E012, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F95E001, 0x7F95E013, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F95E001, 0x7F95E014, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7F95E001, 0x7F95E002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7F95E001, 0x7F95E003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7F95E001, 0x7F95E004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F95E001, 0x7F95E005, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F95E001, 0x7F95E006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F95E001, 0x7F95E007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7F95E001, 0x7F95E008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F95E001, 0x7F95E009, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F95E001, 0x7F95E00A, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F95E001, 0x7F95E00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F95E001, 0x7F95E00C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F95E001, 0x7F95E00D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F95E001, 0x7F95E00E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F95E001, 0x7F95E00F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F95E001, 0x7F95E010, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7F95E001, 0x7F95E011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F95E001, 0x7F95E012, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F95E001, 0x7F95E013, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F95E001, 0x7F95E014, '2019-02-10 00:00:00') /* Panumbris Shadow (44808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F95E002,  1762, 0xF95E0014, 67.57787, 93.06877, 0.002499998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

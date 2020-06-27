@@ -5,14 +5,14 @@ VALUES (0x7ACDA001,  1154, 0xACDA0012, 58.55035, 39.75134, 60.25161, 0.9720651, 
 /* @teleloc 0xACDA0012 [58.550350 39.751340 60.251610] 0.972065 0.000000 0.000000 -0.234711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACDA001, 0x7ACDA002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7ACDA001, 0x7ACDA003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7ACDA001, 0x7ACDA004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7ACDA001, 0x7ACDA005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ACDA001, 0x7ACDA006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ACDA001, 0x7ACDA007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ACDA001, 0x7ACDA008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7ACDA001, 0x7ACDA009, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x7ACDA001, 0x7ACDA002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7ACDA001, 0x7ACDA003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7ACDA001, 0x7ACDA004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7ACDA001, 0x7ACDA005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ACDA001, 0x7ACDA006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ACDA001, 0x7ACDA007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ACDA001, 0x7ACDA008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7ACDA001, 0x7ACDA009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACDA002,   201, 0xACDA0012, 58.55035, 39.75134, 60.25161, 0.9720651, 0, 0, -0.2347113,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

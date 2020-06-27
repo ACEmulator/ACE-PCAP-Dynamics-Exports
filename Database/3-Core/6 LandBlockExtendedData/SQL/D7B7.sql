@@ -5,15 +5,15 @@ VALUES (0x7D7B7001,  1154, 0xD7B70032, 159.5042, 38.04893, 3.435976, -0.4078685,
 /* @teleloc 0xD7B70032 [159.504200 38.048930 3.435976] -0.407869 0.000000 0.000000 -0.913041 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7B7001, 0x7D7B7002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7D7B7001, 0x7D7B7003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D7B7001, 0x7D7B7004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D7B7001, 0x7D7B7005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D7B7001, 0x7D7B7006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D7B7001, 0x7D7B7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D7B7001, 0x7D7B7008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D7B7001, 0x7D7B7009, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7D7B7001, 0x7D7B700A, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7D7B7001, 0x7D7B7002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D7B7001, 0x7D7B7003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D7B7001, 0x7D7B7004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D7B7001, 0x7D7B7005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D7B7001, 0x7D7B7006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D7B7001, 0x7D7B7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D7B7001, 0x7D7B7008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D7B7001, 0x7D7B7009, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D7B7001, 0x7D7B700A, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7B7002, 27254, 0xD7B70032, 159.5042, 38.04893, 3.435976, -0.4078685, 0, 0, -0.9130406,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

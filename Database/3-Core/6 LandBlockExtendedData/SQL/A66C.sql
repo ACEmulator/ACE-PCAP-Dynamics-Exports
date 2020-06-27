@@ -5,12 +5,12 @@ VALUES (0x7A66C001,  1154, 0xA66C0100, 86.21, 148.708, 16.7889, -0.247756, 0, 0,
 /* @teleloc 0xA66C0100 [86.210000 148.708000 16.788900] -0.247756 0.000000 0.000000 -0.968822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A66C001, 0x7A66C002, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A66C001, 0x7A66C003, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A66C001, 0x7A66C004, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A66C001, 0x7A66C005, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A66C001, 0x7A66C006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7A66C001, 0x7A66C007, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7A66C001, 0x7A66C002, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A66C001, 0x7A66C003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A66C001, 0x7A66C004, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A66C001, 0x7A66C005, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A66C001, 0x7A66C006, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7A66C001, 0x7A66C007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A66C002,  7607, 0xA66C0100, 86.21, 148.708, 16.7889, -0.247756, 0, 0, -0.968822,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -41,8 +41,8 @@ VALUES (0x7A66C008,  1542, 0xA66C0100, 86.0686, 145.183, 16.85594, 0.33447, 0, 0
 /* @teleloc 0xA66C0100 [86.068600 145.183000 16.855940] 0.334470 0.000000 0.000000 -0.942406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A66C008, 0x7A66C009, '2019-02-10 00:00:00') /* Textbook */
-     , (0x7A66C008, 0x7A66C00A, '2019-02-10 00:00:00') /* Minor Smoldering Stone */;
+VALUES (0x7A66C008, 0x7A66C009, '2019-02-10 00:00:00') /* Textbook (6407) */
+     , (0x7A66C008, 0x7A66C00A, '2019-02-10 00:00:00') /* Minor Smoldering Stone (6320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A66C009,  6407, 0xA66C0100, 86.0686, 145.183, 16.85594, 0.33447, 0, 0, -0.942406,  True, '2019-02-10 00:00:00'); /* Textbook */

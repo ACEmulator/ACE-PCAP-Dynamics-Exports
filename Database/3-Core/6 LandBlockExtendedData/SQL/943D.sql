@@ -5,10 +5,10 @@ VALUES (0x7943D001,  1154, 0x943D0010, 43.66513, 170.9737, 101.6678, 0.2607789, 
 /* @teleloc 0x943D0010 [43.665130 170.973700 101.667800] 0.260779 0.000000 0.000000 -0.965399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7943D001, 0x7943D002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7943D001, 0x7943D003, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7943D001, 0x7943D004, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7943D001, 0x7943D005, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7943D001, 0x7943D002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7943D001, 0x7943D003, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7943D001, 0x7943D004, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7943D001, 0x7943D005, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7943D002, 10770, 0x943D0010, 43.66513, 170.9737, 101.6678, 0.2607789, 0, 0, -0.9653986,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

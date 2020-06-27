@@ -5,13 +5,13 @@ VALUES (0x74E19001,  1154, 0x4E190022, 103.7671, 28.84274, 44.25019, -0.6727213,
 /* @teleloc 0x4E190022 [103.767100 28.842740 44.250190] -0.672721 0.000000 0.000000 -0.739896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E19001, 0x74E19002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x74E19001, 0x74E19003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74E19001, 0x74E19004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74E19001, 0x74E19005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74E19001, 0x74E19006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74E19001, 0x74E19007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74E19001, 0x74E19008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x74E19001, 0x74E19002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x74E19001, 0x74E19003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74E19001, 0x74E19004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74E19001, 0x74E19005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74E19001, 0x74E19006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74E19001, 0x74E19007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74E19001, 0x74E19008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E19002, 22909, 0x4E190022, 103.7671, 28.84274, 44.25019, -0.6727213, 0, 0, -0.7398959,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */

@@ -5,32 +5,32 @@ VALUES (0x7C5AC001,  1154, 0xC5AC0019, 79.73658, 12.36588, 76.20953, -0.998202, 
 /* @teleloc 0xC5AC0019 [79.736580 12.365880 76.209530] -0.998202 0.000000 0.000000 -0.059941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5AC001, 0x7C5AC002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C5AC001, 0x7C5AC003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C5AC001, 0x7C5AC004, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C5AC001, 0x7C5AC005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C5AC001, 0x7C5AC006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C5AC001, 0x7C5AC007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C5AC001, 0x7C5AC008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C5AC001, 0x7C5AC009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C5AC001, 0x7C5AC00A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C5AC001, 0x7C5AC00B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C5AC001, 0x7C5AC00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7C5AC001, 0x7C5AC00D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C5AC001, 0x7C5AC00E, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C5AC001, 0x7C5AC00F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C5AC001, 0x7C5AC010, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C5AC001, 0x7C5AC011, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7C5AC001, 0x7C5AC012, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7C5AC001, 0x7C5AC013, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC014, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC015, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC016, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC017, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC018, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7C5AC001, 0x7C5AC019, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C5AC001, 0x7C5AC01A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C5AC001, 0x7C5AC01B, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C5AC001, 0x7C5AC002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C5AC001, 0x7C5AC003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C5AC001, 0x7C5AC004, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C5AC001, 0x7C5AC005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C5AC001, 0x7C5AC006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C5AC001, 0x7C5AC007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C5AC001, 0x7C5AC008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C5AC001, 0x7C5AC009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C5AC001, 0x7C5AC00A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C5AC001, 0x7C5AC00B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C5AC001, 0x7C5AC00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7C5AC001, 0x7C5AC00D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C5AC001, 0x7C5AC00E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C5AC001, 0x7C5AC00F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C5AC001, 0x7C5AC010, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C5AC001, 0x7C5AC011, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7C5AC001, 0x7C5AC012, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7C5AC001, 0x7C5AC013, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC014, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC015, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC016, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC017, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC018, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7C5AC001, 0x7C5AC019, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C5AC001, 0x7C5AC01A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C5AC001, 0x7C5AC01B, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5AC002, 11528, 0xC5AC0019, 79.73658, 12.36588, 76.20953, -0.998202, 0, 0, -0.05994054,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -141,11 +141,11 @@ VALUES (0x7C5AC01C,  1542, 0xC5AC0031, 162.2823, 9.220268, 85.8, 1, 0, 0, 0, Fal
 /* @teleloc 0xC5AC0031 [162.282300 9.220268 85.800000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5AC01C, 0x7C5AC01D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C5AC01C, 0x7C5AC01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C5AC01C, 0x7C5AC01F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C5AC01C, 0x7C5AC020, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7C5AC01C, 0x7C5AC021, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C5AC01C, 0x7C5AC01D, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7C5AC01C, 0x7C5AC01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C5AC01C, 0x7C5AC01F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C5AC01C, 0x7C5AC020, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7C5AC01C, 0x7C5AC021, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5AC01D, 22576, 0xC5AC0031, 162.2823, 9.220268, 85.8, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,12 +5,12 @@ VALUES (0x71FB1001,  1154, 0x1FB10030, 124.8252, 181.5862, 0.402099, 0.6512929, 
 /* @teleloc 0x1FB10030 [124.825200 181.586200 0.402099] 0.651293 0.000000 0.000000 -0.758827 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB1001, 0x71FB1002, '2019-02-10 00:00:00') /* Carenzi Pouchling */
-     , (0x71FB1001, 0x71FB1003, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB1001, 0x71FB1004, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB1001, 0x71FB1005, '2019-02-10 00:00:00') /* Bandit */
-     , (0x71FB1001, 0x71FB1006, '2019-02-10 00:00:00') /* Brigand */
-     , (0x71FB1001, 0x71FB1007, '2019-02-10 00:00:00') /* Bandit */;
+VALUES (0x71FB1001, 0x71FB1002, '2019-02-10 00:00:00') /* Carenzi Pouchling (11494) */
+     , (0x71FB1001, 0x71FB1003, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB1001, 0x71FB1004, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB1001, 0x71FB1005, '2019-02-10 00:00:00') /* Bandit (11499) */
+     , (0x71FB1001, 0x71FB1006, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x71FB1001, 0x71FB1007, '2019-02-10 00:00:00') /* Bandit (11499) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB1002, 11494, 0x1FB10030, 124.8252, 181.5862, 0.402099, 0.6512929, 0, 0, -0.7588265,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling */
@@ -41,7 +41,7 @@ VALUES (0x71FB1008,  1154, 0x1FB1003A, 180.286, 36.0777, 0.005500019, 0.815547, 
 /* @teleloc 0x1FB1003A [180.286000 36.077700 0.005500] 0.815547 0.000000 0.000000 -0.578691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB1008, 0x71FB1009, '2019-02-10 00:00:00') /* Aun Papileona */;
+VALUES (0x71FB1008, 0x71FB1009, '2019-02-10 00:00:00') /* Aun Papileona (11330) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB1009, 11330, 0x1FB1003A, 180.286, 36.0777, 0.005500019, 0.815547, 0, 0, -0.578691,  True, '2019-02-10 00:00:00'); /* Aun Papileona */
@@ -52,10 +52,10 @@ VALUES (0x71FB100A,  1542, 0x1FB10004, 4.015724, 85.72713, -0.45, 1, 0, 0, 0, Fa
 /* @teleloc 0x1FB10004 [4.015724 85.727130 -0.450000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB100A, 0x71FB100B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FB100A, 0x71FB100C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB100A, 0x71FB100D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB100A, 0x71FB100E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71FB100A, 0x71FB100B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FB100A, 0x71FB100C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB100A, 0x71FB100D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB100A, 0x71FB100E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB100B,  4179, 0x1FB10004, 4.015724, 85.72713, -0.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

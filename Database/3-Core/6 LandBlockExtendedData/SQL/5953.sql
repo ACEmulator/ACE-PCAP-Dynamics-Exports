@@ -89,19 +89,19 @@ VALUES (0x75953040,  1154, 0x59530153, 171.104, -139.0543, 0.02879995, -0.707106
 /* @teleloc 0x59530153 [171.104000 -139.054300 0.028800] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75953040, 0x75953041, '2019-02-10 00:00:00') /* Raging Moar */
-     , (0x75953040, 0x75953042, '2019-02-10 00:00:00') /* Raging Moar */
-     , (0x75953040, 0x75953043, '2019-02-10 00:00:00') /* Raging Moar */
-     , (0x75953040, 0x75953044, '2019-02-10 00:00:00') /* Raging Moar */
-     , (0x75953040, 0x75953045, '2019-02-10 00:00:00') /* Enraged Moar */
-     , (0x75953040, 0x75953046, '2019-02-10 00:00:00') /* Enraged Moar */
-     , (0x75953040, 0x75953047, '2019-02-10 00:00:00') /* Enraged Moar */
-     , (0x75953040, 0x75953048, '2019-02-10 00:00:00') /* White Lever */
-     , (0x75953040, 0x75953049, '2019-02-10 00:00:00') /* Green Lever */
-     , (0x75953040, 0x7595304A, '2019-02-10 00:00:00') /* Red Lever */
-     , (0x75953040, 0x7595304B, '2019-02-10 00:00:00') /* Orange Lever */
-     , (0x75953040, 0x7595304C, '2019-02-10 00:00:00') /* Blue Lever */
-     , (0x75953040, 0x7595304D, '2019-02-10 00:00:00') /* Yellow Lever */;
+VALUES (0x75953040, 0x75953041, '2019-02-10 00:00:00') /* Raging Moar (46696) */
+     , (0x75953040, 0x75953042, '2019-02-10 00:00:00') /* Raging Moar (46696) */
+     , (0x75953040, 0x75953043, '2019-02-10 00:00:00') /* Raging Moar (46696) */
+     , (0x75953040, 0x75953044, '2019-02-10 00:00:00') /* Raging Moar (46696) */
+     , (0x75953040, 0x75953045, '2019-02-10 00:00:00') /* Enraged Moar (52131) */
+     , (0x75953040, 0x75953046, '2019-02-10 00:00:00') /* Enraged Moar (52131) */
+     , (0x75953040, 0x75953047, '2019-02-10 00:00:00') /* Enraged Moar (52131) */
+     , (0x75953040, 0x75953048, '2019-02-10 00:00:00') /* White Lever (52075) */
+     , (0x75953040, 0x75953049, '2019-02-10 00:00:00') /* Green Lever (52072) */
+     , (0x75953040, 0x7595304A, '2019-02-10 00:00:00') /* Red Lever (52088) */
+     , (0x75953040, 0x7595304B, '2019-02-10 00:00:00') /* Orange Lever (52074) */
+     , (0x75953040, 0x7595304C, '2019-02-10 00:00:00') /* Blue Lever (52071) */
+     , (0x75953040, 0x7595304D, '2019-02-10 00:00:00') /* Yellow Lever (52076) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75953041, 46696, 0x59530153, 171.104, -139.0543, 0.02879995, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raging Moar */
@@ -160,7 +160,7 @@ VALUES (0x7595304E,  1154, 0x5953017E, 301.785, -121.483, 2.59475, 1, 0, 0, 0, F
 /* @teleloc 0x5953017E [301.785000 -121.483000 2.594750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7595304E, 0x7595304F, '2019-02-10 00:00:00') /* Rynthid Assessment Crystal */;
+VALUES (0x7595304E, 0x7595304F, '2019-02-10 00:00:00') /* Rynthid Assessment Crystal (52078) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7595304F, 52078, 0x5953017E, 301.785, -121.483, 2.59475, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rynthid Assessment Crystal */
@@ -171,7 +171,7 @@ VALUES (0x75953050,  1542, 0x59530335, 260, -40, 29.937, 0.7071068, 0, 0, -0.707
 /* @teleloc 0x59530335 [260.000000 -40.000000 29.937000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75953050, 0x75953051, '2019-02-10 00:00:00') /* Red Portal */;
+VALUES (0x75953050, 0x75953051, '2019-02-10 00:00:00') /* Red Portal (52070) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75953051, 52070, 0x59530335, 260, -40, 29.937, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Red Portal */

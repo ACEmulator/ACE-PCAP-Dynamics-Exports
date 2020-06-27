@@ -5,23 +5,23 @@ VALUES (0x7D0A3001,  1154, 0xD0A3001F, 81.5804, 162.8097, 9.382691, 0.9863898, 0
 /* @teleloc 0xD0A3001F [81.580400 162.809700 9.382691] 0.986390 0.000000 0.000000 -0.164424 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A3001, 0x7D0A3002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D0A3001, 0x7D0A3003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D0A3001, 0x7D0A3004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D0A3001, 0x7D0A3005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7D0A3001, 0x7D0A3006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D0A3001, 0x7D0A3007, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7D0A3001, 0x7D0A3008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D0A3001, 0x7D0A3009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D0A3001, 0x7D0A300A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D0A3001, 0x7D0A300B, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D0A3001, 0x7D0A300C, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D0A3001, 0x7D0A300D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D0A3001, 0x7D0A300E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D0A3001, 0x7D0A300F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D0A3001, 0x7D0A3010, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D0A3001, 0x7D0A3011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D0A3001, 0x7D0A3012, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7D0A3001, 0x7D0A3002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D0A3001, 0x7D0A3003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D0A3001, 0x7D0A3004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D0A3001, 0x7D0A3005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7D0A3001, 0x7D0A3006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D0A3001, 0x7D0A3007, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7D0A3001, 0x7D0A3008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D0A3001, 0x7D0A3009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D0A3001, 0x7D0A300A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D0A3001, 0x7D0A300B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D0A3001, 0x7D0A300C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D0A3001, 0x7D0A300D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D0A3001, 0x7D0A300E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D0A3001, 0x7D0A300F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D0A3001, 0x7D0A3010, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D0A3001, 0x7D0A3011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D0A3001, 0x7D0A3012, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A3002, 22208, 0xD0A3001F, 81.5804, 162.8097, 9.382691, 0.9863898, 0, 0, -0.1644236,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
@@ -96,7 +96,7 @@ VALUES (0x7D0A3013,  1542, 0xD0A3002A, 125.8627, 29.46477, 3.511441, 0.9990482, 
 /* @teleloc 0xD0A3002A [125.862700 29.464770 3.511441] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A3013, 0x7D0A3014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D0A3013, 0x7D0A3014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A3014,  4179, 0xD0A3002A, 125.8627, 29.46477, 3.511441, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

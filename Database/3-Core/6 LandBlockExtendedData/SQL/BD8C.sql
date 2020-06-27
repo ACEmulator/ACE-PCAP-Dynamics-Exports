@@ -5,14 +5,14 @@ VALUES (0x7BD8C001,  1154, 0xBD8C0034, 147.7311, 88.36881, 35.06314, 0.1894105, 
 /* @teleloc 0xBD8C0034 [147.731100 88.368810 35.063140] 0.189411 0.000000 0.000000 -0.981898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD8C001, 0x7BD8C002, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BD8C001, 0x7BD8C003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD8C001, 0x7BD8C004, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD8C001, 0x7BD8C005, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BD8C001, 0x7BD8C006, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BD8C001, 0x7BD8C007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD8C001, 0x7BD8C008, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BD8C001, 0x7BD8C009, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7BD8C001, 0x7BD8C002, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BD8C001, 0x7BD8C003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD8C001, 0x7BD8C004, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD8C001, 0x7BD8C005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BD8C001, 0x7BD8C006, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BD8C001, 0x7BD8C007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD8C001, 0x7BD8C008, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BD8C001, 0x7BD8C009, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD8C002,  4132, 0xBD8C0034, 147.7311, 88.36881, 35.06314, 0.1894105, 0, 0, -0.981898,  True, '2019-02-10 00:00:00'); /* Russet Rat */

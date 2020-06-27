@@ -5,11 +5,11 @@ VALUES (0x74650001,  1154, 0x4650001B, 86.93219, 51.12474, 9.5525, 0.7071068, 0,
 /* @teleloc 0x4650001B [86.932190 51.124740 9.552500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74650001, 0x74650002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74650001, 0x74650003, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x74650001, 0x74650004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74650001, 0x74650005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74650001, 0x74650006, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x74650001, 0x74650002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74650001, 0x74650003, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74650001, 0x74650004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74650001, 0x74650005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74650001, 0x74650006, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74650002, 36855, 0x4650001B, 86.93219, 51.12474, 9.5525, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -36,8 +36,8 @@ VALUES (0x74650007,  1542, 0x46500013, 71.91364, 56.96175, 10.011, -0.7761103, 0
 /* @teleloc 0x46500013 [71.913640 56.961750 10.011000] -0.776110 0.000000 0.000000 -0.630597 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74650007, 0x74650008, '2019-02-10 00:00:00') /* Red Monster Seed */
-     , (0x74650007, 0x74650009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74650007, 0x74650008, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */
+     , (0x74650007, 0x74650009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74650008, 31688, 0x46500013, 71.91364, 56.96175, 10.011, -0.7761103, 0, 0, -0.6305972,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

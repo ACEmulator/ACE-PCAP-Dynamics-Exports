@@ -5,11 +5,11 @@ VALUES (0x72D8D001,  1154, 0x2D8D0032, 155.1241, 29.98168, 58.01, 0.8418196, 0, 
 /* @teleloc 0x2D8D0032 [155.124100 29.981680 58.010000] 0.841820 0.000000 0.000000 -0.539759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D8D001, 0x72D8D002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D8D001, 0x72D8D003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D8D001, 0x72D8D004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D8D001, 0x72D8D005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D8D001, 0x72D8D006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x72D8D001, 0x72D8D002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D8D001, 0x72D8D003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D8D001, 0x72D8D004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D8D001, 0x72D8D005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D8D001, 0x72D8D006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D8D002,  8138, 0x2D8D0032, 155.1241, 29.98168, 58.01, 0.8418196, 0, 0, -0.539759,  True, '2019-02-10 00:00:00'); /* Extas Raider */

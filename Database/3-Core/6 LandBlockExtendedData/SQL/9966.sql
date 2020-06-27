@@ -5,11 +5,11 @@ VALUES (0x79966001,  1154, 0x99660015, 51.84487, 104.964, 34.84003, -0.5046806, 
 /* @teleloc 0x99660015 [51.844870 104.964000 34.840030] -0.504681 0.000000 0.000000 -0.863306 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79966001, 0x79966002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x79966001, 0x79966003, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x79966001, 0x79966004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79966001, 0x79966005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79966001, 0x79966006, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x79966001, 0x79966002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x79966001, 0x79966003, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x79966001, 0x79966004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79966001, 0x79966005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79966001, 0x79966006, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79966002,  8010, 0x99660015, 51.84487, 104.964, 34.84003, -0.5046806, 0, 0, -0.8633062,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

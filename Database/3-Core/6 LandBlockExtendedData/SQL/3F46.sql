@@ -5,9 +5,9 @@ VALUES (0x73F46001,  1154, 0x3F460031, 144.2768, 12.97585, 34.49617, 0.2294228, 
 /* @teleloc 0x3F460031 [144.276800 12.975850 34.496170] 0.229423 0.000000 0.000000 -0.973327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F46001, 0x73F46002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F46001, 0x73F46003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73F46001, 0x73F46004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x73F46001, 0x73F46002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F46001, 0x73F46003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73F46001, 0x73F46004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F46002, 24320, 0x3F460031, 144.2768, 12.97585, 34.49617, 0.2294228, 0, 0, -0.9733269,  True, '2019-02-10 00:00:00'); /* Great Revenant */

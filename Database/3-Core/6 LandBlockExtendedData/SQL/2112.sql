@@ -5,18 +5,18 @@ VALUES (0x72112001,  1154, 0x2112000F, 33.81259, 165.1493, 13.06352, 0.963661, 0
 /* @teleloc 0x2112000F [33.812590 165.149300 13.063520] 0.963661 0.000000 0.000000 -0.267128 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72112001, 0x72112002, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112003, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112004, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112005, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112006, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x72112008, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72112001, 0x72112009, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x72112001, 0x7211200A, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x7211200B, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x7211200C, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x72112001, 0x7211200D, '2019-02-10 00:00:00') /* Withered Banderling Paragon */;
+VALUES (0x72112001, 0x72112002, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112003, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112004, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112005, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x72112008, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72112001, 0x72112009, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x72112001, 0x7211200A, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x7211200B, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x7211200C, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x72112001, 0x7211200D, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72112002, 35830, 0x2112000F, 33.81259, 165.1493, 13.06352, 0.963661, 0, 0, -0.2671283,  True, '2019-02-10 00:00:00'); /* Withered Banderling Paragon */

@@ -5,12 +5,12 @@ VALUES (0x7E330001,  1154, 0xE3300028, 114.5671, 184.7934, 92.26385, -0.8339564,
 /* @teleloc 0xE3300028 [114.567100 184.793400 92.263850] -0.833956 0.000000 0.000000 -0.551830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E330001, 0x7E330002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E330001, 0x7E330003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E330001, 0x7E330004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E330001, 0x7E330005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7E330001, 0x7E330006, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7E330001, 0x7E330007, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7E330001, 0x7E330002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E330001, 0x7E330003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E330001, 0x7E330004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E330001, 0x7E330005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7E330001, 0x7E330006, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7E330001, 0x7E330007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E330002, 24937, 0xE3300028, 114.5671, 184.7934, 92.26385, -0.8339564, 0, 0, -0.5518304,  True, '2019-02-10 00:00:00'); /* Chicken */

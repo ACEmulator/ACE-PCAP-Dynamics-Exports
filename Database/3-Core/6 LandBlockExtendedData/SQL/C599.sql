@@ -5,11 +5,11 @@ VALUES (0x7C599001,  1154, 0xC5990021, 116.5795, 17.30502, 1.911, -4.371139E-08,
 /* @teleloc 0xC5990021 [116.579500 17.305020 1.911000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C599001, 0x7C599002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C599001, 0x7C599003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C599001, 0x7C599004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C599001, 0x7C599005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C599001, 0x7C599006, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7C599001, 0x7C599002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C599001, 0x7C599003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C599001, 0x7C599004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C599001, 0x7C599005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C599001, 0x7C599006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C599002,   200, 0xC5990021, 116.5795, 17.30502, 1.911, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Mud Golem */

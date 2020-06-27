@@ -5,15 +5,15 @@ VALUES (0x73074001,  1154, 0x30740002, 1.080682, 34.26117, 49.73983, 0.1184778, 
 /* @teleloc 0x30740002 [1.080682 34.261170 49.739830] 0.118478 0.000000 0.000000 -0.992957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73074001, 0x73074002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73074001, 0x73074003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73074001, 0x73074004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73074001, 0x73074005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73074001, 0x73074006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73074001, 0x73074007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73074001, 0x73074008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73074001, 0x73074009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73074001, 0x7307400A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73074001, 0x73074002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73074001, 0x73074003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73074001, 0x73074004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73074001, 0x73074005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73074001, 0x73074006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73074001, 0x73074007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73074001, 0x73074008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73074001, 0x73074009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73074001, 0x7307400A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73074002, 36829, 0x30740002, 1.080682, 34.26117, 49.73983, 0.1184778, 0, 0, -0.9929567,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -56,7 +56,7 @@ VALUES (0x7307400B,  1542, 0x30740027, 103.5098, 146.3708, 38.94594, 0.9828082, 
 /* @teleloc 0x30740027 [103.509800 146.370800 38.945940] 0.982808 0.000000 0.000000 -0.184629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7307400B, 0x7307400C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7307400B, 0x7307400C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7307400C,  8646, 0x30740027, 103.5098, 146.3708, 38.94594, 0.9828082, 0, 0, -0.1846294,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

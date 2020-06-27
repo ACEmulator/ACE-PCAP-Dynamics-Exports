@@ -5,12 +5,12 @@ VALUES (0x7B165001,  1154, 0xB1650026, 116.7057, 122.7011, 17.95306, -0.1814234,
 /* @teleloc 0xB1650026 [116.705700 122.701100 17.953060] -0.181423 0.000000 0.000000 -0.983405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B165001, 0x7B165002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B165001, 0x7B165003, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B165001, 0x7B165004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B165001, 0x7B165005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7B165001, 0x7B165006, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B165001, 0x7B165007, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7B165001, 0x7B165002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B165001, 0x7B165003, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B165001, 0x7B165004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B165001, 0x7B165005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7B165001, 0x7B165006, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B165001, 0x7B165007, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B165002,  1756, 0xB1650026, 116.7057, 122.7011, 17.95306, -0.1814234, 0, 0, -0.9834051,  True, '2019-02-10 00:00:00'); /* Shadow Child */

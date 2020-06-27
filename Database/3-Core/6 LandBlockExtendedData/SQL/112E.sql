@@ -9,20 +9,20 @@ VALUES (0x7112E001,  1154, 0x112E000F, 25.53035, 149.1139, -0.4399999, -0.183456
 /* @teleloc 0x112E000F [25.530350 149.113900 -0.440000] -0.183457 0.000000 0.000000 -0.983028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7112E001, 0x7112E002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7112E001, 0x7112E003, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E004, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E005, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E006, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7112E001, 0x7112E007, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7112E001, 0x7112E008, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7112E001, 0x7112E009, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E00A, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E00B, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x7112E001, 0x7112E00C, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x7112E001, 0x7112E00D, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x7112E001, 0x7112E00E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7112E001, 0x7112E00F, '2019-02-10 00:00:00') /* Chaos Wisp */;
+VALUES (0x7112E001, 0x7112E002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7112E001, 0x7112E003, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E004, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E005, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E006, '2019-02-10 00:00:00') /* Viamontian Commander (30289) */
+     , (0x7112E001, 0x7112E007, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7112E001, 0x7112E008, '2019-02-10 00:00:00') /* Viamontian War Wizard (30295) */
+     , (0x7112E001, 0x7112E009, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E00A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E00B, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x7112E001, 0x7112E00C, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x7112E001, 0x7112E00D, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x7112E001, 0x7112E00E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7112E001, 0x7112E00F, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7112E002,  7097, 0x112E000F, 25.53035, 149.1139, -0.4399999, -0.1834565, 0, 0, -0.9830278,  True, '2019-02-10 00:00:00'); /* Platinum Golem */

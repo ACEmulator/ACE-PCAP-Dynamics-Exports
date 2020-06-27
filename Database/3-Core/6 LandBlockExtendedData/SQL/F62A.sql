@@ -5,8 +5,8 @@ VALUES (0x7F62A001,  1154, 0xF62A0011, 64.89427, 11.08551, 0.001199961, 0.953716
 /* @teleloc 0xF62A0011 [64.894270 11.085510 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F62A001, 0x7F62A002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F62A001, 0x7F62A003, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F62A001, 0x7F62A002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F62A001, 0x7F62A003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F62A002,  7109, 0xF62A0011, 64.89427, 11.08551, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

@@ -9,7 +9,7 @@ VALUES (0x7A161001,  1154, 0xA1610011, 60.0345, 12.20963, 131.0094, 0.9996277, 0
 /* @teleloc 0xA1610011 [60.034500 12.209630 131.009400] 0.999628 0.000000 0.000000 -0.027285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A161001, 0x7A161002, '2019-02-10 00:00:00') /* Horrible Mu-miyah */;
+VALUES (0x7A161001, 0x7A161002, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A161002,  1765, 0xA1610011, 60.0345, 12.20963, 131.0094, 0.9996277, 0, 0, -0.02728486,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */

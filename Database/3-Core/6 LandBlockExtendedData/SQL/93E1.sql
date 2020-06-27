@@ -5,10 +5,10 @@ VALUES (0x793E1001,  1154, 0x93E1003D, 179.6529, 111.5084, 90.89339, -0.2998979,
 /* @teleloc 0x93E1003D [179.652900 111.508400 90.893390] -0.299898 0.000000 0.000000 -0.953971 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793E1001, 0x793E1002, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x793E1001, 0x793E1003, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x793E1001, 0x793E1004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x793E1001, 0x793E1005, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x793E1001, 0x793E1002, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x793E1001, 0x793E1003, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x793E1001, 0x793E1004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x793E1001, 0x793E1005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793E1002, 34296, 0x93E1003D, 179.6529, 111.5084, 90.89339, -0.2998979, 0, 0, -0.9539713,  True, '2019-02-10 00:00:00'); /* Acolyte of Storms */

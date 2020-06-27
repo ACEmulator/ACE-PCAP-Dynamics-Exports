@@ -5,16 +5,16 @@ VALUES (0x78BED001,  1154, 0x8BED0002, 17.18023, 28.8828, 16.62476, 0.7071068, 0
 /* @teleloc 0x8BED0002 [17.180230 28.882800 16.624760] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BED001, 0x78BED002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78BED001, 0x78BED003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78BED001, 0x78BED004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78BED001, 0x78BED005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78BED001, 0x78BED006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78BED001, 0x78BED007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BED001, 0x78BED008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BED001, 0x78BED009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BED001, 0x78BED00A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78BED001, 0x78BED00B, '2019-02-10 00:00:00') /* Cunning Monouga */;
+VALUES (0x78BED001, 0x78BED002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78BED001, 0x78BED003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78BED001, 0x78BED004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78BED001, 0x78BED005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78BED001, 0x78BED006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78BED001, 0x78BED007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BED001, 0x78BED008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BED001, 0x78BED009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BED001, 0x78BED00A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78BED001, 0x78BED00B, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BED002,  7345, 0x8BED0002, 17.18023, 28.8828, 16.62476, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

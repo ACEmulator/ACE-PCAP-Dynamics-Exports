@@ -5,12 +5,12 @@ VALUES (0x7D52D001,  1154, 0xD52D0016, 62.34339, 127.5261, 141.5313, 0.9396926, 
 /* @teleloc 0xD52D0016 [62.343390 127.526100 141.531300] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D52D001, 0x7D52D002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D52D001, 0x7D52D003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D52D001, 0x7D52D004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D52D001, 0x7D52D005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D52D001, 0x7D52D006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D52D001, 0x7D52D007, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7D52D001, 0x7D52D002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D52D001, 0x7D52D003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D52D001, 0x7D52D004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D52D001, 0x7D52D005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D52D001, 0x7D52D006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D52D001, 0x7D52D007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D52D002,  1609, 0xD52D0016, 62.34339, 127.5261, 141.5313, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -41,7 +41,7 @@ VALUES (0x7D52D008,  1542, 0xD52D001C, 77.72524, 91.5318, 153.2931, -0.2358197, 
 /* @teleloc 0xD52D001C [77.725240 91.531800 153.293100] -0.235820 0.000000 0.000000 -0.971797 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D52D008, 0x7D52D009, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7D52D008, 0x7D52D009, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D52D009, 14789, 0xD52D001C, 77.72524, 91.5318, 153.2931, -0.2358197, 0, 0, -0.9717968,  True, '2019-02-10 00:00:00'); /* Ginger */

@@ -5,16 +5,16 @@ VALUES (0x71C7D001,  1154, 0x1C7D0037, 155.8399, 165.2938, 264.9404, -4.371139E-
 /* @teleloc 0x1C7D0037 [155.839900 165.293800 264.940400] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7D001, 0x71C7D002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x71C7D001, 0x71C7D003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71C7D001, 0x71C7D004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7D001, 0x71C7D005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x71C7D001, 0x71C7D006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C7D001, 0x71C7D007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71C7D001, 0x71C7D008, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71C7D001, 0x71C7D009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7D001, 0x71C7D00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71C7D001, 0x71C7D00B, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71C7D001, 0x71C7D002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x71C7D001, 0x71C7D003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71C7D001, 0x71C7D004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7D001, 0x71C7D005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x71C7D001, 0x71C7D006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C7D001, 0x71C7D007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71C7D001, 0x71C7D008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71C7D001, 0x71C7D009, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7D001, 0x71C7D00A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71C7D001, 0x71C7D00B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7D002, 24277, 0x1C7D0037, 155.8399, 165.2938, 264.9404, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -61,7 +61,7 @@ VALUES (0x71C7D00C,  1542, 0x1C7D002D, 127.8342, 100.9454, 253.2643, -0.9493241,
 /* @teleloc 0x1C7D002D [127.834200 100.945400 253.264300] -0.949324 0.000000 0.000000 -0.314299 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C7D00C, 0x71C7D00D, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x71C7D00C, 0x71C7D00D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C7D00D,  8648, 0x1C7D002D, 127.8342, 100.9454, 253.2643, -0.9493241, 0, 0, -0.3142989,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

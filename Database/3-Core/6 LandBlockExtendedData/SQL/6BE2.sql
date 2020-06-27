@@ -29,24 +29,24 @@ VALUES (0x76BE2006,  1154, 0x6BE20019, 91.02925, 23.08672, 98.6396, 0.3099817, 0
 /* @teleloc 0x6BE20019 [91.029250 23.086720 98.639600] 0.309982 0.000000 0.000000 -0.950743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BE2006, 0x76BE2007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x76BE2006, 0x76BE2008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x76BE2006, 0x76BE2009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x76BE2006, 0x76BE200A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x76BE2006, 0x76BE200B, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x76BE2006, 0x76BE200C, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x76BE2006, 0x76BE200D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x76BE2006, 0x76BE200E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x76BE2006, 0x76BE200F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x76BE2006, 0x76BE2010, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x76BE2006, 0x76BE2011, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x76BE2006, 0x76BE2012, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x76BE2006, 0x76BE2013, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x76BE2006, 0x76BE2014, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x76BE2006, 0x76BE2015, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x76BE2006, 0x76BE2016, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x76BE2006, 0x76BE2017, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76BE2006, 0x76BE2018, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x76BE2006, 0x76BE2007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x76BE2006, 0x76BE2008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x76BE2006, 0x76BE2009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x76BE2006, 0x76BE200A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x76BE2006, 0x76BE200B, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x76BE2006, 0x76BE200C, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x76BE2006, 0x76BE200D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x76BE2006, 0x76BE200E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x76BE2006, 0x76BE200F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x76BE2006, 0x76BE2010, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x76BE2006, 0x76BE2011, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x76BE2006, 0x76BE2012, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x76BE2006, 0x76BE2013, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x76BE2006, 0x76BE2014, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x76BE2006, 0x76BE2015, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x76BE2006, 0x76BE2016, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x76BE2006, 0x76BE2017, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76BE2006, 0x76BE2018, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BE2007, 24275, 0x6BE20019, 91.02925, 23.08672, 98.6396, 0.3099817, 0, 0, -0.9507425,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -125,10 +125,10 @@ VALUES (0x76BE2019,  1542, 0x6BE20032, 149.1315, 32.63192, 159.8125, -0.653899, 
 /* @teleloc 0x6BE20032 [149.131500 32.631920 159.812500] -0.653899 0.000000 0.000000 -0.756582 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BE2019, 0x76BE201A, '2019-02-10 00:00:00') /* Rock */
-     , (0x76BE2019, 0x76BE201B, '2019-02-10 00:00:00') /* Bones */
-     , (0x76BE2019, 0x76BE201C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x76BE2019, 0x76BE201D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76BE2019, 0x76BE201A, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x76BE2019, 0x76BE201B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x76BE2019, 0x76BE201C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x76BE2019, 0x76BE201D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BE201A, 42528, 0x6BE20032, 149.1315, 32.63192, 159.8125, -0.653899, 0, 0, -0.7565818,  True, '2019-02-10 00:00:00'); /* Rock */

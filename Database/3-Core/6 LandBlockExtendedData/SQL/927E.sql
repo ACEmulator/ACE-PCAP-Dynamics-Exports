@@ -5,11 +5,11 @@ VALUES (0x7927E001,  1154, 0x927E001A, 92.17252, 27.48733, 35.69375, 0.1706376, 
 /* @teleloc 0x927E001A [92.172520 27.487330 35.693750] 0.170638 0.000000 0.000000 -0.985334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7927E001, 0x7927E002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7927E001, 0x7927E003, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7927E001, 0x7927E004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7927E001, 0x7927E005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7927E001, 0x7927E006, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x7927E001, 0x7927E002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7927E001, 0x7927E003, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7927E001, 0x7927E004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7927E001, 0x7927E005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7927E001, 0x7927E006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7927E002,  7991, 0x927E001A, 92.17252, 27.48733, 35.69375, 0.1706376, 0, 0, -0.9853339,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

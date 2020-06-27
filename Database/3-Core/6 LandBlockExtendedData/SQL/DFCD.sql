@@ -5,13 +5,13 @@ VALUES (0x7DFCD001,  1154, 0xDFCD0008, 6.728577, 184.499, -0.1000001, 0.7589719,
 /* @teleloc 0xDFCD0008 [6.728577 184.499000 -0.100000] 0.758972 0.000000 0.000000 -0.651123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DFCD001, 0x7DFCD002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DFCD001, 0x7DFCD003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DFCD001, 0x7DFCD004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DFCD001, 0x7DFCD005, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DFCD001, 0x7DFCD006, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DFCD001, 0x7DFCD007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7DFCD001, 0x7DFCD008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x7DFCD001, 0x7DFCD002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DFCD001, 0x7DFCD003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DFCD001, 0x7DFCD004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DFCD001, 0x7DFCD005, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DFCD001, 0x7DFCD006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DFCD001, 0x7DFCD007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7DFCD001, 0x7DFCD008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DFCD002, 11481, 0xDFCD0008, 6.728577, 184.499, -0.1000001, 0.7589719, 0, 0, -0.6511233,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

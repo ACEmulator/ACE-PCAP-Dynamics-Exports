@@ -5,12 +5,12 @@ VALUES (0x758B8001,  1154, 0x58B80040, 190.94, 178.2478, 11.52889, 0.7655177, 0,
 /* @teleloc 0x58B80040 [190.940000 178.247800 11.528890] 0.765518 0.000000 0.000000 -0.643415 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758B8001, 0x758B8002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x758B8001, 0x758B8003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x758B8001, 0x758B8004, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x758B8001, 0x758B8005, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x758B8001, 0x758B8006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x758B8001, 0x758B8007, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x758B8001, 0x758B8002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x758B8001, 0x758B8003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x758B8001, 0x758B8004, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x758B8001, 0x758B8005, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x758B8001, 0x758B8006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x758B8001, 0x758B8007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758B8002,  7179, 0x58B80040, 190.94, 178.2478, 11.52889, 0.7655177, 0, 0, -0.6434149,  True, '2019-02-10 00:00:00'); /* Relic Bones */

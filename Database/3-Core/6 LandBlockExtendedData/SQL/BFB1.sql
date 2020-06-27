@@ -5,9 +5,9 @@ VALUES (0x7BFB1001,  1154, 0xBFB10035, 163.9676, 115.8983, 301.9838, 0.9238795, 
 /* @teleloc 0xBFB10035 [163.967600 115.898300 301.983800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFB1001, 0x7BFB1002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BFB1001, 0x7BFB1003, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BFB1001, 0x7BFB1004, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7BFB1001, 0x7BFB1002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BFB1001, 0x7BFB1003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BFB1001, 0x7BFB1004, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFB1002,  9401, 0xBFB10035, 163.9676, 115.8983, 301.9838, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -26,7 +26,7 @@ VALUES (0x7BFB1005,  1542, 0xBFB10035, 147.3558, 101.0803, 300.9721, -0.798449, 
 /* @teleloc 0xBFB10035 [147.355800 101.080300 300.972100] -0.798449 0.000000 0.000000 -0.602062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFB1005, 0x7BFB1006, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7BFB1005, 0x7BFB1006, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFB1006, 22837, 0xBFB10035, 147.3558, 101.0803, 300.9721, -0.798449, 0, 0, -0.6020624,  True, '2019-02-10 00:00:00'); /* Snowflower */

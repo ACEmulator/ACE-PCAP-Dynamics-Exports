@@ -5,11 +5,11 @@ VALUES (0x7A0DD001,  1154, 0xA0DD002A, 121.2531, 41.10544, 103.1222, 0.9976484, 
 /* @teleloc 0xA0DD002A [121.253100 41.105440 103.122200] 0.997648 0.000000 0.000000 -0.068540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0DD001, 0x7A0DD002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x7A0DD001, 0x7A0DD003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7A0DD001, 0x7A0DD004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A0DD001, 0x7A0DD005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7A0DD001, 0x7A0DD006, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x7A0DD001, 0x7A0DD002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x7A0DD001, 0x7A0DD003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7A0DD001, 0x7A0DD004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A0DD001, 0x7A0DD005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7A0DD001, 0x7A0DD006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0DD002, 26468, 0xA0DD002A, 121.2531, 41.10544, 103.1222, 0.9976484, 0, 0, -0.06853962,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */

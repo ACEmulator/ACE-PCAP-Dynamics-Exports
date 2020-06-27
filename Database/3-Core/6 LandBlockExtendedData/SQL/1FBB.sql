@@ -5,19 +5,19 @@ VALUES (0x71FBB001,  1154, 0x1FBB0025, 107.3055, 110.4647, 85.74853, 1, 0, 0, 0,
 /* @teleloc 0x1FBB0025 [107.305500 110.464700 85.748530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FBB001, 0x71FBB002, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FBB001, 0x71FBB003, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FBB001, 0x71FBB004, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71FBB001, 0x71FBB005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FBB001, 0x71FBB006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FBB001, 0x71FBB007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FBB001, 0x71FBB008, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71FBB001, 0x71FBB009, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x71FBB001, 0x71FBB00A, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71FBB001, 0x71FBB00B, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71FBB001, 0x71FBB00C, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FBB001, 0x71FBB00D, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71FBB001, 0x71FBB00E, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x71FBB001, 0x71FBB002, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FBB001, 0x71FBB003, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FBB001, 0x71FBB004, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71FBB001, 0x71FBB005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FBB001, 0x71FBB006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FBB001, 0x71FBB007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FBB001, 0x71FBB008, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71FBB001, 0x71FBB009, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71FBB001, 0x71FBB00A, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71FBB001, 0x71FBB00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71FBB001, 0x71FBB00C, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FBB001, 0x71FBB00D, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71FBB001, 0x71FBB00E, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FBB002, 11510, 0x1FBB0025, 107.3055, 110.4647, 85.74853, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Itealuan */
@@ -76,12 +76,12 @@ VALUES (0x71FBB00F,  1542, 0x1FBB0037, 148.5572, 155.4134, 85.08366, 1, 0, 0, 0,
 /* @teleloc 0x1FBB0037 [148.557200 155.413400 85.083660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FBB00F, 0x71FBB010, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x71FBB00F, 0x71FBB011, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x71FBB00F, 0x71FBB012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FBB00F, 0x71FBB013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FBB00F, 0x71FBB014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FBB00F, 0x71FBB015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71FBB00F, 0x71FBB010, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x71FBB00F, 0x71FBB011, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x71FBB00F, 0x71FBB012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FBB00F, 0x71FBB013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FBB00F, 0x71FBB014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FBB00F, 0x71FBB015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FBB010, 11221, 0x1FBB0037, 148.5572, 155.4134, 85.08366, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

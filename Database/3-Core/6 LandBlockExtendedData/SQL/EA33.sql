@@ -5,22 +5,22 @@ VALUES (0x7EA33001,  1154, 0xEA330037, 160.8717, 150.7067, 0.007499993, -0.51403
 /* @teleloc 0xEA330037 [160.871700 150.706700 0.007500] -0.514033 0.000000 0.000000 -0.857770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA33001, 0x7EA33002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EA33001, 0x7EA33003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7EA33001, 0x7EA33004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EA33001, 0x7EA33005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EA33001, 0x7EA33006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7EA33001, 0x7EA33007, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EA33001, 0x7EA33008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7EA33001, 0x7EA33009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EA33001, 0x7EA3300A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7EA33001, 0x7EA3300B, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7EA33001, 0x7EA3300C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EA33001, 0x7EA3300D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EA33001, 0x7EA3300E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EA33001, 0x7EA3300F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EA33001, 0x7EA33010, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7EA33001, 0x7EA33011, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7EA33001, 0x7EA33002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EA33001, 0x7EA33003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7EA33001, 0x7EA33004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EA33001, 0x7EA33005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EA33001, 0x7EA33006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7EA33001, 0x7EA33007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EA33001, 0x7EA33008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7EA33001, 0x7EA33009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EA33001, 0x7EA3300A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7EA33001, 0x7EA3300B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7EA33001, 0x7EA3300C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EA33001, 0x7EA3300D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EA33001, 0x7EA3300E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EA33001, 0x7EA3300F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EA33001, 0x7EA33010, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7EA33001, 0x7EA33011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA33002,  1630, 0xEA330037, 160.8717, 150.7067, 0.007499993, -0.514033, 0, 0, -0.8577704,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -91,7 +91,7 @@ VALUES (0x7EA33012,  1542, 0xEA330026, 99.98056, 139.4023, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xEA330026 [99.980560 139.402300 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA33012, 0x7EA33013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7EA33012, 0x7EA33013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA33013,  4179, 0xEA330026, 99.98056, 139.4023, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

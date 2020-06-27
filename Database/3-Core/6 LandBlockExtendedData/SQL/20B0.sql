@@ -5,11 +5,11 @@ VALUES (0x720B0001,  1154, 0x20B0000B, 38.00355, 51.5004, -0.45, 0.7383788, 0, 0
 /* @teleloc 0x20B0000B [38.003550 51.500400 -0.450000] 0.738379 0.000000 0.000000 -0.674386 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720B0001, 0x720B0002, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x720B0001, 0x720B0003, '2019-02-10 00:00:00') /* Carenzi Sentry */
-     , (0x720B0001, 0x720B0004, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x720B0001, 0x720B0005, '2019-02-10 00:00:00') /* Marsh Siraluun */
-     , (0x720B0001, 0x720B0006, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x720B0001, 0x720B0002, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x720B0001, 0x720B0003, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x720B0001, 0x720B0004, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x720B0001, 0x720B0005, '2019-02-10 00:00:00') /* Marsh Siraluun (11488) */
+     , (0x720B0001, 0x720B0006, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720B0002, 11496, 0x20B0000B, 38.00355, 51.5004, -0.45, 0.7383788, 0, 0, -0.6743863,  True, '2019-02-10 00:00:00'); /* Carenzi Sentry */

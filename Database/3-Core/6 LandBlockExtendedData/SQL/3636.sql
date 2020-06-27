@@ -5,16 +5,16 @@ VALUES (0x73636001,  1154, 0x36360024, 114.2057, 73.22205, 99.52713, 0.03167762,
 /* @teleloc 0x36360024 [114.205700 73.222050 99.527130] 0.031678 0.000000 0.000000 -0.999498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73636001, 0x73636002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73636001, 0x73636003, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73636001, 0x73636004, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73636001, 0x73636005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73636001, 0x73636006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73636001, 0x73636007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73636001, 0x73636008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73636001, 0x73636009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73636001, 0x7363600A, '2019-02-10 00:00:00') /* Dire Champion Shadow */
-     , (0x73636001, 0x7363600B, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x73636001, 0x73636002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73636001, 0x73636003, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73636001, 0x73636004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73636001, 0x73636005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73636001, 0x73636006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73636001, 0x73636007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73636001, 0x73636008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73636001, 0x73636009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73636001, 0x7363600A, '2019-02-10 00:00:00') /* Dire Champion Shadow (36846) */
+     , (0x73636001, 0x7363600B, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73636002,  7099, 0x36360024, 114.2057, 73.22205, 99.52713, 0.03167762, 0, 0, -0.9994981,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

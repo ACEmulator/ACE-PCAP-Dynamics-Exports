@@ -5,16 +5,16 @@ VALUES (0x7A452001,  1154, 0xA4520018, 65.26719, 176.6168, 57.28243, 0.9238795, 
 /* @teleloc 0xA4520018 [65.267190 176.616800 57.282430] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A452001, 0x7A452002, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A452001, 0x7A452003, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A452001, 0x7A452004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A452001, 0x7A452005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A452001, 0x7A452006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A452001, 0x7A452007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A452001, 0x7A452008, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A452001, 0x7A452009, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A452001, 0x7A45200A, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A452001, 0x7A45200B, '2019-02-10 00:00:00') /* Marionette */;
+VALUES (0x7A452001, 0x7A452002, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A452001, 0x7A452003, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A452001, 0x7A452004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A452001, 0x7A452005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A452001, 0x7A452006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A452001, 0x7A452007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A452001, 0x7A452008, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A452001, 0x7A452009, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A452001, 0x7A45200A, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A452001, 0x7A45200B, '2019-02-10 00:00:00') /* Marionette (9249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A452002,  9250, 0xA4520018, 65.26719, 176.6168, 57.28243, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
@@ -61,7 +61,7 @@ VALUES (0x7A45200C,  1542, 0xA452000C, 37.23661, 72.94305, 58.12751, 1, 0, 0, 0,
 /* @teleloc 0xA452000C [37.236610 72.943050 58.127510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A45200C, 0x7A45200D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A45200C, 0x7A45200D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A45200D, 22576, 0xA452000C, 37.23661, 72.94305, 58.12751, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

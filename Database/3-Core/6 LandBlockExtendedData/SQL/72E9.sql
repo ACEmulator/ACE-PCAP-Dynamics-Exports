@@ -5,11 +5,11 @@ VALUES (0x772E9001,  1154, 0x72E9003C, 180.2691, 84.80457, 201.9339, 0.9391647, 
 /* @teleloc 0x72E9003C [180.269100 84.804570 201.933900] 0.939165 0.000000 0.000000 -0.343467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x772E9001, 0x772E9002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x772E9001, 0x772E9003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x772E9001, 0x772E9004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x772E9001, 0x772E9005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x772E9001, 0x772E9006, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x772E9001, 0x772E9002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x772E9001, 0x772E9003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x772E9001, 0x772E9004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x772E9001, 0x772E9005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x772E9001, 0x772E9006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x772E9002,  7096, 0x72E9003C, 180.2691, 84.80457, 201.9339, 0.9391647, 0, 0, -0.3434671,  True, '2019-02-10 00:00:00'); /* Gold Golem */

@@ -101,39 +101,39 @@ VALUES (0x70017037,  1154, 0x001701D4, 39.3607, -45.8953, 12.01, 0.406537, 0, 0,
 /* @teleloc 0x001701D4 [39.360700 -45.895300 12.010000] 0.406537 0.000000 0.000000 -0.913634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017037, 0x70017038, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017039, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703A, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703B, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703C, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703D, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001703F, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017040, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017041, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017042, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017043, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017044, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017045, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017046, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x70017047, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017048, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017049, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001704A, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001704B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x70017037, 0x7001704C, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001704D, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001704E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x7001704F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017050, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017052, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017053, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017054, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017055, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017056, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x70017037, 0x70017057, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x70017037, 0x70017058, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x70017037, 0x70017038, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017039, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001703F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x70017040, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x70017041, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017042, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017043, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x70017044, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017045, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x70017046, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x70017047, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017048, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017049, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001704A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001704B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x70017037, 0x7001704C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001704D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001704E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x7001704F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017050, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017051, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017052, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017053, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017054, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x70017037, 0x70017055, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017056, '2019-02-10 00:00:00') /* Withered Raider Prefect (35834) */
+     , (0x70017037, 0x70017057, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x70017037, 0x70017058, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70017038, 35833, 0x001701D4, 39.3607, -45.8953, 12.01, 0.406537, 0, 0, -0.913634,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
@@ -272,12 +272,12 @@ VALUES (0x70017059,  1542, 0x0017014D, 20.62283, -9.981177, -12.001, -0.66466, 0
 /* @teleloc 0x0017014D [20.622830 -9.981177 -12.001000] -0.664660 0.000000 0.000000 -0.747146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70017059, 0x7001705A, '2019-02-10 00:00:00') /* Fire Auroch Meat */
-     , (0x70017059, 0x7001705B, '2019-02-10 00:00:00') /* Apple */
-     , (0x70017059, 0x7001705C, '2019-02-10 00:00:00') /* Apple */
-     , (0x70017059, 0x7001705D, '2019-02-10 00:00:00') /* Apple */
-     , (0x70017059, 0x7001705E, '2019-02-10 00:00:00') /* Salmon */
-     , (0x70017059, 0x7001705F, '2019-02-10 00:00:00') /* Royal Cabbage */;
+VALUES (0x70017059, 0x7001705A, '2019-02-10 00:00:00') /* Fire Auroch Meat (1446) */
+     , (0x70017059, 0x7001705B, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x70017059, 0x7001705C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x70017059, 0x7001705D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x70017059, 0x7001705E, '2019-02-10 00:00:00') /* Salmon (1450) */
+     , (0x70017059, 0x7001705F, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001705A,  1446, 0x0017014D, 20.62283, -9.981177, -12.001, -0.66466, 0, 0, -0.747146,  True, '2019-02-10 00:00:00'); /* Fire Auroch Meat */

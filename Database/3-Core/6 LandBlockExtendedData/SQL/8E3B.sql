@@ -5,13 +5,13 @@ VALUES (0x78E3B001,  1154, 0x8E3B0035, 144.3614, 110.6945, 0.004999876, -0.28702
 /* @teleloc 0x8E3B0035 [144.361400 110.694500 0.005000] -0.287029 0.000000 0.000000 -0.957922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E3B001, 0x78E3B002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78E3B001, 0x78E3B003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78E3B001, 0x78E3B004, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x78E3B001, 0x78E3B005, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x78E3B001, 0x78E3B006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78E3B001, 0x78E3B007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78E3B001, 0x78E3B008, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x78E3B001, 0x78E3B002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78E3B001, 0x78E3B003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78E3B001, 0x78E3B004, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x78E3B001, 0x78E3B005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x78E3B001, 0x78E3B006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78E3B001, 0x78E3B007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78E3B001, 0x78E3B008, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E3B002,  1615, 0x8E3B0035, 144.3614, 110.6945, 0.004999876, -0.2870288, 0, 0, -0.957922,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */

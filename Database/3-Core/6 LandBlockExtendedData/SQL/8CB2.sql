@@ -5,16 +5,16 @@ VALUES (0x78CB2001,  1154, 0x8CB2003B, 178.6911, 58.51974, 53.33178, 0.9238795, 
 /* @teleloc 0x8CB2003B [178.691100 58.519740 53.331780] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB2001, 0x78CB2002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CB2001, 0x78CB2003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78CB2001, 0x78CB2004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78CB2001, 0x78CB2005, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB2001, 0x78CB2006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78CB2001, 0x78CB2007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CB2001, 0x78CB2008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CB2001, 0x78CB2009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78CB2001, 0x78CB200A, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78CB2001, 0x78CB200B, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78CB2001, 0x78CB2002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CB2001, 0x78CB2003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78CB2001, 0x78CB2004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78CB2001, 0x78CB2005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB2001, 0x78CB2006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CB2001, 0x78CB2007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CB2001, 0x78CB2008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CB2001, 0x78CB2009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78CB2001, 0x78CB200A, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78CB2001, 0x78CB200B, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB2002,  7090, 0x8CB2003B, 178.6911, 58.51974, 53.33178, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

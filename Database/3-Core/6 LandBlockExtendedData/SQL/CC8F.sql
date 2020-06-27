@@ -5,14 +5,14 @@ VALUES (0x7CC8F001,  1154, 0xCC8F0001, 0.08323669, 7.558807, 14.0045, 0.9512502,
 /* @teleloc 0xCC8F0001 [0.083237 7.558807 14.004500] 0.951250 0.000000 0.000000 -0.308420 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC8F001, 0x7CC8F002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CC8F001, 0x7CC8F003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CC8F001, 0x7CC8F004, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CC8F001, 0x7CC8F005, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CC8F001, 0x7CC8F006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC8F001, 0x7CC8F007, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CC8F001, 0x7CC8F008, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CC8F001, 0x7CC8F009, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7CC8F001, 0x7CC8F002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CC8F001, 0x7CC8F003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CC8F001, 0x7CC8F004, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CC8F001, 0x7CC8F005, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CC8F001, 0x7CC8F006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC8F001, 0x7CC8F007, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CC8F001, 0x7CC8F008, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CC8F001, 0x7CC8F009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8F002,  1613, 0xCC8F0001, 0.08323669, 7.558807, 14.0045, 0.9512502, 0, 0, -0.3084202,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */
@@ -51,7 +51,7 @@ VALUES (0x7CC8F00A,  1542, 0xCC8F0009, 31.84265, 20.88512, 16.66149, -4.371139E-
 /* @teleloc 0xCC8F0009 [31.842650 20.885120 16.661490] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC8F00A, 0x7CC8F00B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CC8F00A, 0x7CC8F00B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC8F00B,  4380, 0xCC8F0009, 31.84265, 20.88512, 16.66149, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

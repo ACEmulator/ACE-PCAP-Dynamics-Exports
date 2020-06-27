@@ -5,9 +5,9 @@ VALUES (0x7ABBD001,  1154, 0xABBD003D, 188.74, 118.4116, 115.0568, -0.1494079, 0
 /* @teleloc 0xABBD003D [188.740000 118.411600 115.056800] -0.149408 0.000000 0.000000 -0.988776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABBD001, 0x7ABBD002, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ABBD001, 0x7ABBD003, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7ABBD001, 0x7ABBD004, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7ABBD001, 0x7ABBD002, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ABBD001, 0x7ABBD003, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7ABBD001, 0x7ABBD004, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABBD002,   945, 0xABBD003D, 188.74, 118.4116, 115.0568, -0.1494079, 0, 0, -0.9887757,  True, '2019-02-10 00:00:00'); /* Mite Sentry */

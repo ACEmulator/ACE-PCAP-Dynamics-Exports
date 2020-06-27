@@ -9,28 +9,28 @@ VALUES (0x7BE89002,  1154, 0xBE890031, 167.8915, 21.71556, 65.40526, 0.05796741,
 /* @teleloc 0xBE890031 [167.891500 21.715560 65.405260] 0.057967 0.000000 0.000000 -0.998319 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE89002, 0x7BE89003, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BE89002, 0x7BE89004, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7BE89002, 0x7BE89005, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BE89002, 0x7BE89006, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7BE89002, 0x7BE89007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BE89002, 0x7BE89008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BE89002, 0x7BE89009, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7BE89002, 0x7BE8900A, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BE89002, 0x7BE8900B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BE89002, 0x7BE8900C, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7BE89002, 0x7BE8900D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BE89002, 0x7BE8900E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BE89002, 0x7BE8900F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BE89002, 0x7BE89010, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BE89002, 0x7BE89011, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BE89002, 0x7BE89012, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BE89002, 0x7BE89013, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7BE89002, 0x7BE89014, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BE89002, 0x7BE89015, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7BE89002, 0x7BE89016, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7BE89002, 0x7BE89017, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BE89002, 0x7BE89018, '2019-02-10 00:00:00') /* Adult Reedshark */;
+VALUES (0x7BE89002, 0x7BE89003, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BE89002, 0x7BE89004, '2019-02-10 00:00:00') /* Exploration Marker (39761) */
+     , (0x7BE89002, 0x7BE89005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BE89002, 0x7BE89006, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7BE89002, 0x7BE89007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BE89002, 0x7BE89008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BE89002, 0x7BE89009, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7BE89002, 0x7BE8900A, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BE89002, 0x7BE8900B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BE89002, 0x7BE8900C, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7BE89002, 0x7BE8900D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BE89002, 0x7BE8900E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BE89002, 0x7BE8900F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BE89002, 0x7BE89010, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BE89002, 0x7BE89011, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BE89002, 0x7BE89012, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BE89002, 0x7BE89013, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7BE89002, 0x7BE89014, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BE89002, 0x7BE89015, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7BE89002, 0x7BE89016, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7BE89002, 0x7BE89017, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BE89002, 0x7BE89018, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE89003,  1464, 0xBE890031, 167.8915, 21.71556, 65.40526, 0.05796741, 0, 0, -0.9983185,  True, '2019-02-10 00:00:00'); /* Drudge Robber */

@@ -9,28 +9,28 @@ VALUES (0x70C6F001,  1154, 0x0C6F003B, 178.7116, 67.06142, 90.00715, -0.9026999,
 /* @teleloc 0x0C6F003B [178.711600 67.061420 90.007150] -0.902700 0.000000 0.000000 -0.430271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C6F001, 0x70C6F002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70C6F001, 0x70C6F003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C6F001, 0x70C6F004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C6F001, 0x70C6F005, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70C6F001, 0x70C6F006, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70C6F001, 0x70C6F007, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C6F001, 0x70C6F008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C6F001, 0x70C6F009, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70C6F001, 0x70C6F00A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6F001, 0x70C6F00B, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C6F001, 0x70C6F00C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70C6F001, 0x70C6F00D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70C6F001, 0x70C6F00E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C6F001, 0x70C6F00F, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70C6F001, 0x70C6F010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70C6F001, 0x70C6F011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70C6F001, 0x70C6F012, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70C6F001, 0x70C6F013, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C6F001, 0x70C6F014, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70C6F001, 0x70C6F015, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70C6F001, 0x70C6F016, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70C6F001, 0x70C6F017, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x70C6F001, 0x70C6F002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70C6F001, 0x70C6F003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C6F001, 0x70C6F004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C6F001, 0x70C6F005, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70C6F001, 0x70C6F006, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70C6F001, 0x70C6F007, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C6F001, 0x70C6F008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C6F001, 0x70C6F009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70C6F001, 0x70C6F00A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6F001, 0x70C6F00B, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C6F001, 0x70C6F00C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70C6F001, 0x70C6F00D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70C6F001, 0x70C6F00E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C6F001, 0x70C6F00F, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70C6F001, 0x70C6F010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70C6F001, 0x70C6F011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70C6F001, 0x70C6F012, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70C6F001, 0x70C6F013, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C6F001, 0x70C6F014, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70C6F001, 0x70C6F015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70C6F001, 0x70C6F016, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70C6F001, 0x70C6F017, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6F002, 36820, 0x0C6F003B, 178.7116, 67.06142, 90.00715, -0.9026999, 0, 0, -0.4302707,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

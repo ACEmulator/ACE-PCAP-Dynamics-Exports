@@ -5,10 +5,10 @@ VALUES (0x7D18D001,  1154, 0xD18D0005, 17.08457, 97.27587, 29.90368, -0.9771888,
 /* @teleloc 0xD18D0005 [17.084570 97.275870 29.903680] -0.977189 0.000000 0.000000 -0.212372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D18D001, 0x7D18D002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7D18D001, 0x7D18D003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7D18D001, 0x7D18D004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7D18D001, 0x7D18D005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7D18D001, 0x7D18D002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7D18D001, 0x7D18D003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7D18D001, 0x7D18D004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7D18D001, 0x7D18D005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D18D002,  8141, 0xD18D0005, 17.08457, 97.27587, 29.90368, -0.9771888, 0, 0, -0.2123723,  True, '2019-02-10 00:00:00'); /* Lithos Raider */

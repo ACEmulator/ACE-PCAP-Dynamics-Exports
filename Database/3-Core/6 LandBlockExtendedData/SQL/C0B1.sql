@@ -5,12 +5,12 @@ VALUES (0x7C0B1001,  1154, 0xC0B1002E, 128.2703, 136.3438, 306.4185, 0.9133222, 
 /* @teleloc 0xC0B1002E [128.270300 136.343800 306.418500] 0.913322 0.000000 0.000000 -0.407238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0B1001, 0x7C0B1002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C0B1001, 0x7C0B1003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C0B1001, 0x7C0B1004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C0B1001, 0x7C0B1005, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C0B1001, 0x7C0B1006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C0B1001, 0x7C0B1007, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C0B1001, 0x7C0B1002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C0B1001, 0x7C0B1003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C0B1001, 0x7C0B1004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C0B1001, 0x7C0B1005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C0B1001, 0x7C0B1006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C0B1001, 0x7C0B1007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0B1002, 22809, 0xC0B1002E, 128.2703, 136.3438, 306.4185, 0.9133222, 0, 0, -0.4072376,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

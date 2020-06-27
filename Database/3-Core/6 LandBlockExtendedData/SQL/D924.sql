@@ -5,23 +5,23 @@ VALUES (0x7D924001,  1154, 0xD9240020, 89.7369, 171.7741, 330.1393, -0.3932756, 
 /* @teleloc 0xD9240020 [89.736900 171.774100 330.139300] -0.393276 0.000000 0.000000 -0.919421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D924001, 0x7D924002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7D924001, 0x7D924003, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7D924001, 0x7D924004, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7D924001, 0x7D924005, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D924001, 0x7D924006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D924001, 0x7D924007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D924001, 0x7D924008, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7D924001, 0x7D924009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D924001, 0x7D92400A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D924001, 0x7D92400B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D924001, 0x7D92400C, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D924001, 0x7D92400D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D924001, 0x7D92400E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D924001, 0x7D92400F, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7D924001, 0x7D924010, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7D924001, 0x7D924011, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7D924001, 0x7D924012, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7D924001, 0x7D924002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7D924001, 0x7D924003, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7D924001, 0x7D924004, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7D924001, 0x7D924005, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D924001, 0x7D924006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D924001, 0x7D924007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D924001, 0x7D924008, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7D924001, 0x7D924009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7D924001, 0x7D92400A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D924001, 0x7D92400B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D924001, 0x7D92400C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D924001, 0x7D92400D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D924001, 0x7D92400E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D924001, 0x7D92400F, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7D924001, 0x7D924010, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7D924001, 0x7D924011, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7D924001, 0x7D924012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D924002, 14518, 0xD9240020, 89.7369, 171.7741, 330.1393, -0.3932756, 0, 0, -0.9194207,  True, '2019-02-10 00:00:00'); /* Shivver */
@@ -96,8 +96,8 @@ VALUES (0x7D924013,  1542, 0xD9240008, 17.87145, 183.9889, 304.6038, -0.451577, 
 /* @teleloc 0xD9240008 [17.871450 183.988900 304.603800] -0.451577 0.000000 0.000000 -0.892232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D924013, 0x7D924014, '2019-02-10 00:00:00') /* Rock */
-     , (0x7D924013, 0x7D924015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D924013, 0x7D924014, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7D924013, 0x7D924015, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D924014, 42528, 0xD9240008, 17.87145, 183.9889, 304.6038, -0.451577, 0, 0, -0.8922322,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,13 +5,13 @@ VALUES (0x7817A001,  1154, 0x817A002E, 128.1521, 124.1216, 61.00781, 0.1738567, 
 /* @teleloc 0x817A002E [128.152100 124.121600 61.007810] 0.173857 0.000000 0.000000 -0.984771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7817A001, 0x7817A002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7817A001, 0x7817A003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7817A001, 0x7817A004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7817A001, 0x7817A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7817A001, 0x7817A006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7817A001, 0x7817A007, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7817A001, 0x7817A008, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7817A001, 0x7817A002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7817A001, 0x7817A003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7817A001, 0x7817A004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7817A001, 0x7817A005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7817A001, 0x7817A006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7817A001, 0x7817A007, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7817A001, 0x7817A008, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7817A002,  8014, 0x817A002E, 128.1521, 124.1216, 61.00781, 0.1738567, 0, 0, -0.984771,  True, '2019-02-10 00:00:00'); /* Fragment */

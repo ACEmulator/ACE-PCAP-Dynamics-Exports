@@ -5,10 +5,10 @@ VALUES (0x7AF1C001,  1154, 0xAF1C0021, 106.609, 1.185974, 239.9486, -0.08715577,
 /* @teleloc 0xAF1C0021 [106.609000 1.185974 239.948600] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF1C001, 0x7AF1C002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7AF1C001, 0x7AF1C003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF1C001, 0x7AF1C004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AF1C001, 0x7AF1C005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7AF1C001, 0x7AF1C002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7AF1C001, 0x7AF1C003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF1C001, 0x7AF1C004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AF1C001, 0x7AF1C005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF1C002, 14559, 0xAF1C0021, 106.609, 1.185974, 239.9486, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */

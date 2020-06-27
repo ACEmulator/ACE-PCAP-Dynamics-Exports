@@ -5,10 +5,10 @@ VALUES (0x74740001,  1154, 0x47400002, 20.21363, 31.78751, 2.931193, 0.2912085, 
 /* @teleloc 0x47400002 [20.213630 31.787510 2.931193] 0.291209 0.000000 0.000000 -0.956660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74740001, 0x74740002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x74740001, 0x74740003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74740001, 0x74740004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74740001, 0x74740005, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x74740001, 0x74740002, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74740001, 0x74740003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74740001, 0x74740004, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x74740001, 0x74740005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74740002, 36855, 0x47400002, 20.21363, 31.78751, 2.931193, 0.2912085, 0, 0, -0.9566596,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */

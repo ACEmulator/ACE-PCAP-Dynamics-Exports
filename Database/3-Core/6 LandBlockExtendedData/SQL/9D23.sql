@@ -5,18 +5,18 @@ VALUES (0x79D23001,  1154, 0x9D23000E, 27.91796, 127.3096, 184.8109, 0.9914955, 
 /* @teleloc 0x9D23000E [27.917960 127.309600 184.810900] 0.991496 0.000000 0.000000 -0.130141 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D23001, 0x79D23002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79D23001, 0x79D23003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79D23001, 0x79D23004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79D23001, 0x79D23005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79D23001, 0x79D23006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79D23001, 0x79D23007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79D23001, 0x79D23008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79D23001, 0x79D23009, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79D23001, 0x79D2300A, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x79D23001, 0x79D2300B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x79D23001, 0x79D2300C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79D23001, 0x79D2300D, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x79D23001, 0x79D23002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79D23001, 0x79D23003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79D23001, 0x79D23004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79D23001, 0x79D23005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79D23001, 0x79D23006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79D23001, 0x79D23007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79D23001, 0x79D23008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79D23001, 0x79D23009, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D23001, 0x79D2300A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D23001, 0x79D2300B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79D23001, 0x79D2300C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79D23001, 0x79D2300D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D23002,  4254, 0x9D23000E, 27.91796, 127.3096, 184.8109, 0.9914955, 0, 0, -0.1301412,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x79D2300E,  1542, 0x9D230008, 3.699448, 169.9395, 196.8367, 0.4840887, 
 /* @teleloc 0x9D230008 [3.699448 169.939500 196.836700] 0.484089 0.000000 0.000000 -0.875019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D2300E, 0x79D2300F, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79D2300E, 0x79D2300F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D2300F,  8041, 0x9D230008, 3.699448, 169.9395, 196.8367, 0.4840887, 0, 0, -0.8750189,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

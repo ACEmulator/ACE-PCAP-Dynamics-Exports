@@ -5,22 +5,22 @@ VALUES (0x73DCA001,  1154, 0x3DCA0007, 19.80771, 144.1409, -0.8974999, 0.7071068
 /* @teleloc 0x3DCA0007 [19.807710 144.140900 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCA001, 0x73DCA002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73DCA001, 0x73DCA003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73DCA001, 0x73DCA004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73DCA001, 0x73DCA005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCA001, 0x73DCA006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCA001, 0x73DCA007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCA001, 0x73DCA008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCA001, 0x73DCA009, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73DCA001, 0x73DCA00A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCA001, 0x73DCA00B, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCA001, 0x73DCA00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73DCA001, 0x73DCA00D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73DCA001, 0x73DCA00E, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73DCA001, 0x73DCA00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73DCA001, 0x73DCA010, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x73DCA001, 0x73DCA011, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */;
+VALUES (0x73DCA001, 0x73DCA002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73DCA001, 0x73DCA003, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73DCA001, 0x73DCA004, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x73DCA001, 0x73DCA005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73DCA001, 0x73DCA006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73DCA001, 0x73DCA007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DCA001, 0x73DCA008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73DCA001, 0x73DCA009, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73DCA001, 0x73DCA00A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCA001, 0x73DCA00B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCA001, 0x73DCA00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x73DCA001, 0x73DCA00D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73DCA001, 0x73DCA00E, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73DCA001, 0x73DCA00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73DCA001, 0x73DCA010, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x73DCA001, 0x73DCA011, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCA002, 24313, 0x3DCA0007, 19.80771, 144.1409, -0.8974999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -91,7 +91,7 @@ VALUES (0x73DCA012,  1542, 0x3DCA003B, 181.7023, 62.82119, 13.14186, 0.6370454, 
 /* @teleloc 0x3DCA003B [181.702300 62.821190 13.141860] 0.637045 0.000000 0.000000 -0.770826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCA012, 0x73DCA013, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x73DCA012, 0x73DCA013, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCA013, 11554, 0x3DCA003B, 181.7023, 62.82119, 13.14186, 0.6370454, 0, 0, -0.7708263,  True, '2019-02-10 00:00:00'); /* Colban Plant */

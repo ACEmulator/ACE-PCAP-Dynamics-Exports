@@ -5,11 +5,11 @@ VALUES (0x7B336001,  1154, 0xB3360013, 66.959, 61.95081, 122.1792, 1, 0, 0, 0, F
 /* @teleloc 0xB3360013 [66.959000 61.950810 122.179200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B336001, 0x7B336002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B336001, 0x7B336003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B336001, 0x7B336004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B336001, 0x7B336005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B336001, 0x7B336006, '2019-02-10 00:00:00') /* Southern Black Claw Raider */;
+VALUES (0x7B336001, 0x7B336002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B336001, 0x7B336003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B336001, 0x7B336004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B336001, 0x7B336005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B336001, 0x7B336006, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B336002, 24937, 0xB3360013, 66.959, 61.95081, 122.1792, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */

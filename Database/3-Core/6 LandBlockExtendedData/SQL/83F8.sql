@@ -5,12 +5,12 @@ VALUES (0x783F8001,  1154, 0x83F80012, 59.84673, 27.48252, 11.66549, -0.1736482,
 /* @teleloc 0x83F80012 [59.846730 27.482520 11.665490] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783F8001, 0x783F8002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x783F8001, 0x783F8003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x783F8001, 0x783F8004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x783F8001, 0x783F8005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x783F8001, 0x783F8006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x783F8001, 0x783F8007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x783F8001, 0x783F8002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x783F8001, 0x783F8003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x783F8001, 0x783F8004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x783F8001, 0x783F8005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x783F8001, 0x783F8006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x783F8001, 0x783F8007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783F8002,  7113, 0x83F80012, 59.84673, 27.48252, 11.66549, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */
@@ -41,8 +41,8 @@ VALUES (0x783F8008,  1542, 0x83F80012, 58.78709, 25.31062, 11.68863, -0.1736482,
 /* @teleloc 0x83F80012 [58.787090 25.310620 11.688630] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783F8008, 0x783F8009, '2019-02-10 00:00:00') /* Corpse */
-     , (0x783F8008, 0x783F800A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x783F8008, 0x783F8009, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x783F8008, 0x783F800A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783F8009,  4180, 0x83F80012, 58.78709, 25.31062, 11.68863, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

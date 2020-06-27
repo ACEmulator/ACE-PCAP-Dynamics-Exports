@@ -5,16 +5,16 @@ VALUES (0x7DC5A001,  1154, 0xDC5A0015, 54.54989, 102.1103, 18.029, 0.5620662, 0,
 /* @teleloc 0xDC5A0015 [54.549890 102.110300 18.029000] 0.562066 0.000000 0.000000 -0.827092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC5A001, 0x7DC5A002, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7DC5A001, 0x7DC5A003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DC5A001, 0x7DC5A004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DC5A001, 0x7DC5A005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DC5A001, 0x7DC5A006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7DC5A001, 0x7DC5A007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DC5A001, 0x7DC5A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DC5A001, 0x7DC5A009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7DC5A001, 0x7DC5A00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DC5A001, 0x7DC5A00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7DC5A001, 0x7DC5A002, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7DC5A001, 0x7DC5A003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DC5A001, 0x7DC5A004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC5A001, 0x7DC5A005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DC5A001, 0x7DC5A006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7DC5A001, 0x7DC5A007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DC5A001, 0x7DC5A008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DC5A001, 0x7DC5A009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7DC5A001, 0x7DC5A00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DC5A001, 0x7DC5A00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC5A002, 11537, 0xDC5A0015, 54.54989, 102.1103, 18.029, 0.5620662, 0, 0, -0.8270922,  True, '2019-02-10 00:00:00'); /* Virtuous Doll */

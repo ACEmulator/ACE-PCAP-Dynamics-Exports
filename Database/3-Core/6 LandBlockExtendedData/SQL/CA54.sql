@@ -21,15 +21,15 @@ VALUES (0x7CA54004,  1154, 0xCA54010B, 18.8874, 32.64623, 38.5088, -0.983143, 0,
 /* @teleloc 0xCA54010B [18.887400 32.646230 38.508800] -0.983143 0.000000 0.000000 -0.182836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA54004, 0x7CA54005, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x7CA54004, 0x7CA54006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CA54004, 0x7CA54007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7CA54004, 0x7CA54008, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CA54004, 0x7CA54009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CA54004, 0x7CA5400A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CA54004, 0x7CA5400B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CA54004, 0x7CA5400C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CA54004, 0x7CA5400D, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7CA54004, 0x7CA54005, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x7CA54004, 0x7CA54006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CA54004, 0x7CA54007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7CA54004, 0x7CA54008, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CA54004, 0x7CA54009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CA54004, 0x7CA5400A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CA54004, 0x7CA5400B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CA54004, 0x7CA5400C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CA54004, 0x7CA5400D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA54005,   220, 0xCA54010B, 18.8874, 32.64623, 38.5088, -0.983143, 0, 0, -0.182836,  True, '2019-02-10 00:00:00'); /* Brown Rat */
@@ -72,7 +72,7 @@ VALUES (0x7CA5400E,  1542, 0xCA540020, 92.77422, 168.1531, 29.73118, 1, 0, 0, 0,
 /* @teleloc 0xCA540020 [92.774220 168.153100 29.731180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA5400E, 0x7CA5400F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CA5400E, 0x7CA5400F, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA5400F, 22570, 0xCA540020, 92.77422, 168.1531, 29.73118, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

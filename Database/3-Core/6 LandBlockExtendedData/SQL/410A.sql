@@ -5,27 +5,27 @@ VALUES (0x7410A001,  1154, 0x410A0020, 87.29089, 185.117, 0.06248379, -0.3470559
 /* @teleloc 0x410A0020 [87.290890 185.117000 0.062484] -0.347056 0.000000 0.000000 -0.937845 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7410A001, 0x7410A002, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7410A001, 0x7410A003, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7410A001, 0x7410A004, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7410A001, 0x7410A005, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7410A001, 0x7410A006, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7410A001, 0x7410A007, '2019-02-10 00:00:00') /* Tentacle of T'thuun */
-     , (0x7410A001, 0x7410A008, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7410A001, 0x7410A009, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7410A001, 0x7410A00A, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x7410A001, 0x7410A00B, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7410A001, 0x7410A00C, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7410A001, 0x7410A00D, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7410A001, 0x7410A00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7410A001, 0x7410A00F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7410A001, 0x7410A010, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7410A001, 0x7410A011, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7410A001, 0x7410A012, '2019-02-10 00:00:00') /* Deep-sea Lava Golem */
-     , (0x7410A001, 0x7410A013, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7410A001, 0x7410A014, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7410A001, 0x7410A015, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7410A001, 0x7410A016, '2019-02-10 00:00:00') /* Sand Lurker */;
+VALUES (0x7410A001, 0x7410A002, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40466) */
+     , (0x7410A001, 0x7410A003, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7410A001, 0x7410A004, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7410A001, 0x7410A005, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7410A001, 0x7410A006, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7410A001, 0x7410A007, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x7410A001, 0x7410A008, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40465) */
+     , (0x7410A001, 0x7410A009, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7410A001, 0x7410A00A, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x7410A001, 0x7410A00B, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7410A001, 0x7410A00C, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7410A001, 0x7410A00D, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7410A001, 0x7410A00E, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7410A001, 0x7410A00F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7410A001, 0x7410A010, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7410A001, 0x7410A011, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7410A001, 0x7410A012, '2019-02-10 00:00:00') /* Deep-sea Lava Golem (40468) */
+     , (0x7410A001, 0x7410A013, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A001, 0x7410A014, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A001, 0x7410A015, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x7410A001, 0x7410A016, '2019-02-10 00:00:00') /* Sand Lurker (40471) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7410A002, 40466, 0x410A0020, 87.29089, 185.117, 0.06248379, -0.3470559, 0, 0, -0.9378445,  True, '2019-02-10 00:00:00'); /* Corrupted Coral Golem */

@@ -5,11 +5,11 @@ VALUES (0x76E9A001,  1154, 0x6E9A0028, 98.77387, 191.7867, 84.30078, -0.9041879,
 /* @teleloc 0x6E9A0028 [98.773870 191.786700 84.300780] -0.904188 0.000000 0.000000 -0.427135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E9A001, 0x76E9A002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x76E9A001, 0x76E9A003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76E9A001, 0x76E9A004, '2019-02-10 00:00:00') /* Static */
-     , (0x76E9A001, 0x76E9A005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x76E9A001, 0x76E9A006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x76E9A001, 0x76E9A002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x76E9A001, 0x76E9A003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76E9A001, 0x76E9A004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x76E9A001, 0x76E9A005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x76E9A001, 0x76E9A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E9A002,  6041, 0x6E9A0028, 98.77387, 191.7867, 84.30078, -0.9041879, 0, 0, -0.427135,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

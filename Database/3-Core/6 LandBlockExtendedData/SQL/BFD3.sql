@@ -5,12 +5,12 @@ VALUES (0x7BFD3001,  1154, 0xBFD30006, 1.587265, 141.7178, 166.7761, 0.2858208, 
 /* @teleloc 0xBFD30006 [1.587265 141.717800 166.776100] 0.285821 0.000000 0.000000 -0.958283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFD3001, 0x7BFD3002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7BFD3001, 0x7BFD3003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BFD3001, 0x7BFD3004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BFD3001, 0x7BFD3005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BFD3001, 0x7BFD3006, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BFD3001, 0x7BFD3007, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x7BFD3001, 0x7BFD3002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7BFD3001, 0x7BFD3003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BFD3001, 0x7BFD3004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BFD3001, 0x7BFD3005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BFD3001, 0x7BFD3006, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BFD3001, 0x7BFD3007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFD3002, 11481, 0xBFD30006, 1.587265, 141.7178, 166.7761, 0.2858208, 0, 0, -0.9582831,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

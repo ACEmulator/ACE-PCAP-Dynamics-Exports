@@ -5,10 +5,10 @@ VALUES (0x785E6001,  1154, 0x85E60019, 73.55386, 7.28334, 42.34005, -0.378519, 0
 /* @teleloc 0x85E60019 [73.553860 7.283340 42.340050] -0.378519 0.000000 0.000000 -0.925594 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785E6001, 0x785E6002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x785E6001, 0x785E6003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x785E6001, 0x785E6004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x785E6001, 0x785E6005, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x785E6001, 0x785E6002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x785E6001, 0x785E6003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x785E6001, 0x785E6004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x785E6001, 0x785E6005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785E6002,  7090, 0x85E60019, 73.55386, 7.28334, 42.34005, -0.378519, 0, 0, -0.9255936,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -31,7 +31,7 @@ VALUES (0x785E6006,  1542, 0x85E6000F, 40.33681, 164.5359, 60.49534, 1, 0, 0, 0,
 /* @teleloc 0x85E6000F [40.336810 164.535900 60.495340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x785E6006, 0x785E6007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x785E6006, 0x785E6007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x785E6007,  4179, 0x85E6000F, 40.33681, 164.5359, 60.49534, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

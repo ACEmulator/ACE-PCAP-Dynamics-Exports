@@ -5,18 +5,18 @@ VALUES (0x71B2B001,  1154, 0x1B2B0032, 164.7485, 34.41349, 20.029, 0.9595052, 0,
 /* @teleloc 0x1B2B0032 [164.748500 34.413490 20.029000] 0.959505 0.000000 0.000000 -0.281691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B2B001, 0x71B2B002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x71B2B001, 0x71B2B003, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x71B2B001, 0x71B2B004, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71B2B001, 0x71B2B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71B2B001, 0x71B2B006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71B2B001, 0x71B2B007, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71B2B001, 0x71B2B008, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71B2B001, 0x71B2B009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71B2B001, 0x71B2B00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x71B2B001, 0x71B2B00B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x71B2B001, 0x71B2B00C, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x71B2B001, 0x71B2B00D, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x71B2B001, 0x71B2B002, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x71B2B001, 0x71B2B003, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71B2B001, 0x71B2B004, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71B2B001, 0x71B2B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71B2B001, 0x71B2B006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71B2B001, 0x71B2B007, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71B2B001, 0x71B2B008, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71B2B001, 0x71B2B009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71B2B001, 0x71B2B00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x71B2B001, 0x71B2B00B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71B2B001, 0x71B2B00C, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x71B2B001, 0x71B2B00D, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B2B002, 22054, 0x1B2B0032, 164.7485, 34.41349, 20.029, 0.9595052, 0, 0, -0.281691,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -71,7 +71,7 @@ VALUES (0x71B2B00E,  1542, 0x1B2B0016, 59.55209, 130.7072, 20, -4.371139E-08, 0,
 /* @teleloc 0x1B2B0016 [59.552090 130.707200 20.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B2B00E, 0x71B2B00F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71B2B00E, 0x71B2B00F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B2B00F,  4380, 0x1B2B0016, 59.55209, 130.7072, 20, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

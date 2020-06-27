@@ -5,13 +5,13 @@ VALUES (0x7C268001,  1154, 0xC268001A, 74.90142, 28.01623, 58.0954, 0.9443149, 0
 /* @teleloc 0xC268001A [74.901420 28.016230 58.095400] 0.944315 0.000000 0.000000 -0.329043 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C268001, 0x7C268002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C268001, 0x7C268003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C268001, 0x7C268004, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7C268001, 0x7C268005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C268001, 0x7C268006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7C268001, 0x7C268007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C268001, 0x7C268008, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7C268001, 0x7C268002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C268001, 0x7C268003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C268001, 0x7C268004, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7C268001, 0x7C268005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C268001, 0x7C268006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7C268001, 0x7C268007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C268001, 0x7C268008, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C268002, 22208, 0xC268001A, 74.90142, 28.01623, 58.0954, 0.9443149, 0, 0, -0.3290432,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

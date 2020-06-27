@@ -13,65 +13,65 @@ VALUES (0x7E5D3002,  1154, 0xE5D3003D, 174.9326, 101.5155, 228.2702, 1, 0, 0, 0,
 /* @teleloc 0xE5D3003D [174.932600 101.515500 228.270200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E5D3002, 0x7E5D3003, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D3004, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D3005, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E5D3002, 0x7E5D3006, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E5D3002, 0x7E5D3008, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E5D3002, 0x7E5D3009, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E5D3002, 0x7E5D300A, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D300B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D300C, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E5D3002, 0x7E5D300D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E5D3002, 0x7E5D300E, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D300F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D3010, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E5D3002, 0x7E5D3011, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D3012, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D3013, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D3014, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3015, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D3016, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E5D3002, 0x7E5D3017, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3018, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D3019, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E5D3002, 0x7E5D301A, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D301B, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D301C, '2019-02-10 00:00:00') /* Olthoi Grub */
-     , (0x7E5D3002, 0x7E5D301D, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E5D3002, 0x7E5D301E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D301F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D3020, '2019-02-10 00:00:00') /* Olthoi Nymph Grub */
-     , (0x7E5D3002, 0x7E5D3021, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E5D3002, 0x7E5D3022, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E5D3002, 0x7E5D3023, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D3024, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E5D3002, 0x7E5D3025, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3026, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D3027, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E5D3002, 0x7E5D3028, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3029, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D302A, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E5D3002, 0x7E5D302B, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D302C, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D302D, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D302E, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D302F, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E5D3002, 0x7E5D3030, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E5D3002, 0x7E5D3031, '2019-02-10 00:00:00') /* Olthoi Soldier Grub */
-     , (0x7E5D3002, 0x7E5D3032, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D3033, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E5D3002, 0x7E5D3034, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E5D3002, 0x7E5D3035, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub */
-     , (0x7E5D3002, 0x7E5D3036, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E5D3002, 0x7E5D3037, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E5D3002, 0x7E5D3038, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E5D3002, 0x7E5D3039, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E5D3002, 0x7E5D303A, '2019-02-10 00:00:00') /* Warner Brother */
-     , (0x7E5D3002, 0x7E5D303B, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D303C, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7E5D3002, 0x7E5D303D, '2019-02-10 00:00:00') /* Black Coral Golem */;
+VALUES (0x7E5D3002, 0x7E5D3003, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D3004, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D3005, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E5D3002, 0x7E5D3006, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E5D3002, 0x7E5D3008, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E5D3002, 0x7E5D3009, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E5D3002, 0x7E5D300A, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D300B, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D300C, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E5D3002, 0x7E5D300D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E5D3002, 0x7E5D300E, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D300F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D3010, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E5D3002, 0x7E5D3011, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D3012, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D3013, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D3014, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3015, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D3016, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E5D3002, 0x7E5D3017, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3018, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D3019, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E5D3002, 0x7E5D301A, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D301B, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D301C, '2019-02-10 00:00:00') /* Olthoi Grub (43697) */
+     , (0x7E5D3002, 0x7E5D301D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E5D3002, 0x7E5D301E, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D301F, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D3020, '2019-02-10 00:00:00') /* Olthoi Nymph Grub (43698) */
+     , (0x7E5D3002, 0x7E5D3021, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E5D3002, 0x7E5D3022, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E5D3002, 0x7E5D3023, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D3024, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E5D3002, 0x7E5D3025, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3026, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D3027, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E5D3002, 0x7E5D3028, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3029, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D302A, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E5D3002, 0x7E5D302B, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D302C, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D302D, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D302E, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D302F, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E5D3002, 0x7E5D3030, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E5D3002, 0x7E5D3031, '2019-02-10 00:00:00') /* Olthoi Soldier Grub (43699) */
+     , (0x7E5D3002, 0x7E5D3032, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D3033, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E5D3002, 0x7E5D3034, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E5D3002, 0x7E5D3035, '2019-02-10 00:00:00') /* Olthoi Eviscerator Grub (43700) */
+     , (0x7E5D3002, 0x7E5D3036, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E5D3002, 0x7E5D3037, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E5D3002, 0x7E5D3038, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E5D3002, 0x7E5D3039, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E5D3002, 0x7E5D303A, '2019-02-10 00:00:00') /* Warner Brother (43481) */
+     , (0x7E5D3002, 0x7E5D303B, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D303C, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7E5D3002, 0x7E5D303D, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E5D3003, 43698, 0xE5D3003D, 174.9326, 101.5155, 228.2702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph Grub */

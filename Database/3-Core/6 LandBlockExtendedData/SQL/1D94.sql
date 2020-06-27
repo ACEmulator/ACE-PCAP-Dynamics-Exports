@@ -5,16 +5,16 @@ VALUES (0x71D94001,  1154, 0x1D940006, 2.718902, 125.2984, 25.13854, -0.9922625,
 /* @teleloc 0x1D940006 [2.718902 125.298400 25.138540] -0.992263 0.000000 0.000000 -0.124157 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D94001, 0x71D94002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71D94001, 0x71D94003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x71D94001, 0x71D94004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71D94001, 0x71D94005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x71D94001, 0x71D94006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x71D94001, 0x71D94007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71D94001, 0x71D94008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71D94001, 0x71D94009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x71D94001, 0x71D9400A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D94001, 0x71D9400B, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x71D94001, 0x71D94002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71D94001, 0x71D94003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x71D94001, 0x71D94004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71D94001, 0x71D94005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x71D94001, 0x71D94006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x71D94001, 0x71D94007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71D94001, 0x71D94008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71D94001, 0x71D94009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x71D94001, 0x71D9400A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D94001, 0x71D9400B, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D94002, 36834, 0x1D940006, 2.718902, 125.2984, 25.13854, -0.9922625, 0, 0, -0.1241573,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -61,7 +61,7 @@ VALUES (0x71D9400C,  1542, 0x1D94000F, 28.82947, 148.0409, 25.22054, 1, 0, 0, 0,
 /* @teleloc 0x1D94000F [28.829470 148.040900 25.220540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D9400C, 0x71D9400D, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71D9400C, 0x71D9400D, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D9400D, 31445, 0x1D94000F, 28.82947, 148.0409, 25.22054, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

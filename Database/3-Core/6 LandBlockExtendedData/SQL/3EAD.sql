@@ -5,23 +5,23 @@ VALUES (0x73EAD001,  1154, 0x3EAD0027, 116.0805, 166.9268, -0.09950006, -0.65518
 /* @teleloc 0x3EAD0027 [116.080500 166.926800 -0.099500] -0.655182 0.000000 0.000000 -0.755471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EAD001, 0x73EAD002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x73EAD001, 0x73EAD003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EAD001, 0x73EAD004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73EAD001, 0x73EAD005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73EAD001, 0x73EAD006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73EAD001, 0x73EAD007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x73EAD001, 0x73EAD008, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x73EAD001, 0x73EAD009, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x73EAD001, 0x73EAD00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EAD001, 0x73EAD00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EAD001, 0x73EAD00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EAD001, 0x73EAD00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EAD001, 0x73EAD00E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x73EAD001, 0x73EAD00F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x73EAD001, 0x73EAD010, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EAD001, 0x73EAD011, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EAD001, 0x73EAD012, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x73EAD001, 0x73EAD002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x73EAD001, 0x73EAD003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EAD001, 0x73EAD004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73EAD001, 0x73EAD005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73EAD001, 0x73EAD006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73EAD001, 0x73EAD007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x73EAD001, 0x73EAD008, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x73EAD001, 0x73EAD009, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x73EAD001, 0x73EAD00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EAD001, 0x73EAD00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EAD001, 0x73EAD00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EAD001, 0x73EAD00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EAD001, 0x73EAD00E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x73EAD001, 0x73EAD00F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x73EAD001, 0x73EAD010, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EAD001, 0x73EAD011, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EAD001, 0x73EAD012, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EAD002,  7987, 0x3EAD0027, 116.0805, 166.9268, -0.09950006, -0.6551817, 0, 0, -0.7554713,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -96,7 +96,7 @@ VALUES (0x73EAD013,  1542, 0x3EAD001D, 77.52914, 100.3723, -0.45, 0.9990482, 0, 
 /* @teleloc 0x3EAD001D [77.529140 100.372300 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EAD013, 0x73EAD014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73EAD013, 0x73EAD014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EAD014,  4179, 0x3EAD001D, 77.52914, 100.3723, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

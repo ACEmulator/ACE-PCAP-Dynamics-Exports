@@ -5,10 +5,10 @@ VALUES (0x78075001,  1154, 0x80750020, 80.42148, 177.1941, 13.996, -0.2931166, 0
 /* @teleloc 0x80750020 [80.421480 177.194100 13.996000] -0.293117 0.000000 0.000000 -0.956077 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78075001, 0x78075002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x78075001, 0x78075003, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78075001, 0x78075004, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78075001, 0x78075005, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x78075001, 0x78075002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x78075001, 0x78075003, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78075001, 0x78075004, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78075001, 0x78075005, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78075002,  4109, 0x80750020, 80.42148, 177.1941, 13.996, -0.2931166, 0, 0, -0.9560767,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

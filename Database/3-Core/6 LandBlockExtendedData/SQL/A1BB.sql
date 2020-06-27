@@ -5,23 +5,23 @@ VALUES (0x7A1BB001,  1154, 0xA1BB002A, 142.3267, 27.49321, 90.33374, 0.2393198, 
 /* @teleloc 0xA1BB002A [142.326700 27.493210 90.333740] 0.239320 0.000000 0.000000 -0.970941 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1BB001, 0x7A1BB002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A1BB001, 0x7A1BB003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A1BB001, 0x7A1BB004, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7A1BB001, 0x7A1BB005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A1BB001, 0x7A1BB008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB009, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7A1BB001, 0x7A1BB00A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB00B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB00C, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A1BB001, 0x7A1BB00D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A1BB001, 0x7A1BB00E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB00F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB010, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7A1BB001, 0x7A1BB011, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7A1BB001, 0x7A1BB012, '2019-02-10 00:00:00') /* Small Shadow Child */;
+VALUES (0x7A1BB001, 0x7A1BB002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A1BB001, 0x7A1BB003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A1BB001, 0x7A1BB004, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7A1BB001, 0x7A1BB005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A1BB001, 0x7A1BB008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB009, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7A1BB001, 0x7A1BB00A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB00B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A1BB001, 0x7A1BB00D, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A1BB001, 0x7A1BB00E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB00F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB010, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7A1BB001, 0x7A1BB011, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7A1BB001, 0x7A1BB012, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1BB002, 11528, 0xA1BB002A, 142.3267, 27.49321, 90.33374, 0.2393198, 0, 0, -0.9709408,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -96,7 +96,7 @@ VALUES (0x7A1BB013,  1542, 0xA1BB001C, 89.2093, 82.56528, 95.22153, 1, 0, 0, 0, 
 /* @teleloc 0xA1BB001C [89.209300 82.565280 95.221530] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1BB013, 0x7A1BB014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A1BB013, 0x7A1BB014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1BB014,  4179, 0xA1BB001C, 89.2093, 82.56528, 95.22153, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

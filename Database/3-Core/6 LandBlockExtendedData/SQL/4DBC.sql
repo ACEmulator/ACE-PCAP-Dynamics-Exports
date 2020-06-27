@@ -5,18 +5,18 @@ VALUES (0x74DBC001,  1154, 0x4DBC003C, 187.9645, 83.58376, 69.61209, -0.9999814,
 /* @teleloc 0x4DBC003C [187.964500 83.583760 69.612090] -0.999981 0.000000 0.000000 -0.006096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DBC001, 0x74DBC002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x74DBC001, 0x74DBC003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74DBC001, 0x74DBC004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74DBC001, 0x74DBC005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74DBC001, 0x74DBC006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x74DBC001, 0x74DBC007, '2019-02-10 00:00:00') /* Banished Phyntos Wasp */
-     , (0x74DBC001, 0x74DBC008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74DBC001, 0x74DBC009, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x74DBC001, 0x74DBC00A, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x74DBC001, 0x74DBC00B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74DBC001, 0x74DBC00C, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x74DBC001, 0x74DBC00D, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x74DBC001, 0x74DBC002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x74DBC001, 0x74DBC003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74DBC001, 0x74DBC004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74DBC001, 0x74DBC005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74DBC001, 0x74DBC006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x74DBC001, 0x74DBC007, '2019-02-10 00:00:00') /* Banished Phyntos Wasp (30904) */
+     , (0x74DBC001, 0x74DBC008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74DBC001, 0x74DBC009, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x74DBC001, 0x74DBC00A, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x74DBC001, 0x74DBC00B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74DBC001, 0x74DBC00C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x74DBC001, 0x74DBC00D, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DBC002,  6041, 0x4DBC003C, 187.9645, 83.58376, 69.61209, -0.9999814, 0, 0, -0.006095523,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
@@ -71,8 +71,8 @@ VALUES (0x74DBC00E,  1542, 0x4DBC0033, 164.4884, 49.27039, 81.82487, 0.9990482, 
 /* @teleloc 0x4DBC0033 [164.488400 49.270390 81.824870] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DBC00E, 0x74DBC00F, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x74DBC00E, 0x74DBC010, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x74DBC00E, 0x74DBC00F, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x74DBC00E, 0x74DBC010, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DBC00F,  6117, 0x4DBC0033, 164.4884, 49.27039, 81.82487, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

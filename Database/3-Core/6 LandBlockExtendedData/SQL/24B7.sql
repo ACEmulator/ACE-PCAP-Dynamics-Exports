@@ -5,12 +5,12 @@ VALUES (0x724B7001,  1154, 0x24B70002, 23.733, 40.93736, 104.9483, 1, 0, 0, 0, F
 /* @teleloc 0x24B70002 [23.733000 40.937360 104.948300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B7001, 0x724B7002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x724B7001, 0x724B7003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x724B7001, 0x724B7004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x724B7001, 0x724B7005, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x724B7001, 0x724B7006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x724B7001, 0x724B7007, '2019-02-10 00:00:00') /* Feral Carenzi */;
+VALUES (0x724B7001, 0x724B7002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x724B7001, 0x724B7003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x724B7001, 0x724B7004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x724B7001, 0x724B7005, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x724B7001, 0x724B7006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x724B7001, 0x724B7007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B7002, 11526, 0x24B70002, 23.733, 40.93736, 104.9483, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -41,9 +41,9 @@ VALUES (0x724B7008,  1542, 0x24B7002E, 132.8374, 136.9133, 107.3464, 1, 0, 0, 0,
 /* @teleloc 0x24B7002E [132.837400 136.913300 107.346400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724B7008, 0x724B7009, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x724B7008, 0x724B700A, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x724B7008, 0x724B700B, '2019-02-10 00:00:00') /* Shallow Hive Portal */;
+VALUES (0x724B7008, 0x724B7009, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x724B7008, 0x724B700A, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x724B7008, 0x724B700B, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724B7009, 11221, 0x24B7002E, 132.8374, 136.9133, 107.3464, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

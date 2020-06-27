@@ -9,23 +9,23 @@ VALUES (0x71F2A04A,  1154, 0x1F2A0100, 189.841, 141.943, 193.6605, -0.382683, 0,
 /* @teleloc 0x1F2A0100 [189.841000 141.943000 193.660500] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F2A04A, 0x71F2A04B, '2019-02-10 00:00:00') /* Consumed Wraith */
-     , (0x71F2A04A, 0x71F2A04C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F2A04A, 0x71F2A04D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F2A04A, 0x71F2A04E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F2A04A, 0x71F2A04F, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A050, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A051, '2019-02-10 00:00:00') /* Shadow Nightmare Leader */
-     , (0x71F2A04A, 0x71F2A052, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A053, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x71F2A04A, 0x71F2A054, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F2A04A, 0x71F2A055, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71F2A04A, 0x71F2A056, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A057, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A058, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71F2A04A, 0x71F2A059, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x71F2A04A, 0x71F2A05A, '2019-02-10 00:00:00') /* Shadow Nightmare */
-     , (0x71F2A04A, 0x71F2A05B, '2019-02-10 00:00:00') /* Shadow Nightmare */;
+VALUES (0x71F2A04A, 0x71F2A04B, '2019-02-10 00:00:00') /* Consumed Wraith (27429) */
+     , (0x71F2A04A, 0x71F2A04C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F2A04A, 0x71F2A04D, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F2A04A, 0x71F2A04E, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F2A04A, 0x71F2A04F, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A050, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A051, '2019-02-10 00:00:00') /* Shadow Nightmare Leader (27427) */
+     , (0x71F2A04A, 0x71F2A052, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A053, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x71F2A04A, 0x71F2A054, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F2A04A, 0x71F2A055, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x71F2A04A, 0x71F2A056, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A057, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A058, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x71F2A04A, 0x71F2A059, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x71F2A04A, 0x71F2A05A, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x71F2A04A, 0x71F2A05B, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F2A04B, 27429, 0x1F2A0100, 189.841, 141.943, 193.6605, -0.382683, 0, 0, -0.92388,  True, '2019-02-10 00:00:00'); /* Consumed Wraith */
@@ -100,7 +100,7 @@ VALUES (0x71F2A05C,  1542, 0x1F2A0009, 38.86862, 15.66074, 147.937, -0.4242929, 
 /* @teleloc 0x1F2A0009 [38.868620 15.660740 147.937000] -0.424293 0.000000 0.000000 -0.905525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F2A05C, 0x71F2A05D, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71F2A05C, 0x71F2A05D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F2A05D,  1955, 0x1F2A0009, 38.86862, 15.66074, 147.937, -0.4242929, 0, 0, -0.905525,  True, '2019-02-10 00:00:00'); /* Gateway */

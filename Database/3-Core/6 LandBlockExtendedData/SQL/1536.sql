@@ -5,14 +5,14 @@ VALUES (0x71536001,  1154, 0x15360003, 22.9321, 49.51035, 15.22608, 0.6293204, 0
 /* @teleloc 0x15360003 [22.932100 49.510350 15.226080] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71536001, 0x71536002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71536001, 0x71536003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71536001, 0x71536004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71536001, 0x71536005, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x71536001, 0x71536006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71536001, 0x71536007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71536001, 0x71536008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71536001, 0x71536009, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x71536001, 0x71536002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71536001, 0x71536003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71536001, 0x71536004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71536001, 0x71536005, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x71536001, 0x71536006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71536001, 0x71536007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71536001, 0x71536008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71536001, 0x71536009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71536002,  7114, 0x15360003, 22.9321, 49.51035, 15.22608, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -51,7 +51,7 @@ VALUES (0x7153600A,  1542, 0x1536000B, 24.72382, 51.26242, 14.36879, -0.1736482,
 /* @teleloc 0x1536000B [24.723820 51.262420 14.368790] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7153600A, 0x7153600B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7153600A, 0x7153600B, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7153600B,  4381, 0x1536000B, 24.72382, 51.26242, 14.36879, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

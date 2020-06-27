@@ -5,13 +5,13 @@ VALUES (0x7CAA5001,  1154, 0xCAA50027, 111.0148, 161.648, 69.91779, 0.06442143, 
 /* @teleloc 0xCAA50027 [111.014800 161.648000 69.917790] 0.064421 0.000000 0.000000 -0.997923 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAA5001, 0x7CAA5002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CAA5001, 0x7CAA5003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CAA5001, 0x7CAA5004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CAA5001, 0x7CAA5005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CAA5001, 0x7CAA5006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CAA5001, 0x7CAA5007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CAA5001, 0x7CAA5008, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7CAA5001, 0x7CAA5002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CAA5001, 0x7CAA5003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CAA5001, 0x7CAA5004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CAA5001, 0x7CAA5005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CAA5001, 0x7CAA5006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CAA5001, 0x7CAA5007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CAA5001, 0x7CAA5008, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAA5002,  8673, 0xCAA50027, 111.0148, 161.648, 69.91779, 0.06442143, 0, 0, -0.9979228,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -46,7 +46,7 @@ VALUES (0x7CAA5009,  1542, 0xCAA50025, 97.07944, 101.7789, 56.96314, 1, 0, 0, 0,
 /* @teleloc 0xCAA50025 [97.079440 101.778900 56.963140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAA5009, 0x7CAA500A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CAA5009, 0x7CAA500A, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAA500A, 22570, 0xCAA50025, 97.07944, 101.7789, 56.96314, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,31 +5,31 @@ VALUES (0x7CEA0001,  1154, 0xCEA00031, 157.5363, 17.27319, 9.746945, 0.1371056, 
 /* @teleloc 0xCEA00031 [157.536300 17.273190 9.746945] 0.137106 0.000000 0.000000 -0.990556 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA0001, 0x7CEA0002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CEA0001, 0x7CEA0003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CEA0001, 0x7CEA0004, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CEA0001, 0x7CEA0005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CEA0001, 0x7CEA0006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CEA0001, 0x7CEA0007, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CEA0001, 0x7CEA0008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CEA0001, 0x7CEA0009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CEA0001, 0x7CEA000A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CEA0001, 0x7CEA000B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CEA0001, 0x7CEA000C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CEA0001, 0x7CEA000D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CEA0001, 0x7CEA000E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CEA0001, 0x7CEA000F, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CEA0001, 0x7CEA0010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CEA0001, 0x7CEA0011, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7CEA0001, 0x7CEA0012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CEA0001, 0x7CEA0013, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CEA0001, 0x7CEA0014, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CEA0001, 0x7CEA0015, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CEA0001, 0x7CEA0016, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CEA0001, 0x7CEA0017, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CEA0001, 0x7CEA0018, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CEA0001, 0x7CEA0019, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CEA0001, 0x7CEA001A, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x7CEA0001, 0x7CEA0002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CEA0001, 0x7CEA0003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CEA0001, 0x7CEA0004, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CEA0001, 0x7CEA0005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CEA0001, 0x7CEA0006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CEA0001, 0x7CEA0007, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CEA0001, 0x7CEA0008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CEA0001, 0x7CEA0009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CEA0001, 0x7CEA000A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CEA0001, 0x7CEA000B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CEA0001, 0x7CEA000C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CEA0001, 0x7CEA000D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CEA0001, 0x7CEA000E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CEA0001, 0x7CEA000F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CEA0001, 0x7CEA0010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CEA0001, 0x7CEA0011, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7CEA0001, 0x7CEA0012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CEA0001, 0x7CEA0013, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CEA0001, 0x7CEA0014, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CEA0001, 0x7CEA0015, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CEA0001, 0x7CEA0016, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CEA0001, 0x7CEA0017, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CEA0001, 0x7CEA0018, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CEA0001, 0x7CEA0019, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CEA0001, 0x7CEA001A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA0002, 21168, 0xCEA00031, 157.5363, 17.27319, 9.746945, 0.1371056, 0, 0, -0.9905564,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -136,8 +136,8 @@ VALUES (0x7CEA001B,  1542, 0xCEA00023, 106.7909, 56.53117, 10.89708, 1, 0, 0, 0,
 /* @teleloc 0xCEA00023 [106.790900 56.531170 10.897080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA001B, 0x7CEA001C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7CEA001B, 0x7CEA001D, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CEA001B, 0x7CEA001C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7CEA001B, 0x7CEA001D, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA001C, 31443, 0xCEA00023, 106.7909, 56.53117, 10.89708, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

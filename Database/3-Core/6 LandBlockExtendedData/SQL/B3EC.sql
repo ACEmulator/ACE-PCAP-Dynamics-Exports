@@ -5,44 +5,44 @@ VALUES (0x7B3EC001,  1154, 0xB3EC0037, 147.6822, 159.3015, 19.0065, 1, 0, 0, 0, 
 /* @teleloc 0xB3EC0037 [147.682200 159.301500 19.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EC001, 0x7B3EC002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC004, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B3EC001, 0x7B3EC005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B3EC001, 0x7B3EC006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B3EC001, 0x7B3EC007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B3EC001, 0x7B3EC008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B3EC001, 0x7B3EC009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B3EC001, 0x7B3EC00A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B3EC001, 0x7B3EC00B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EC001, 0x7B3EC00C, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B3EC001, 0x7B3EC00D, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B3EC001, 0x7B3EC00E, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B3EC001, 0x7B3EC00F, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B3EC001, 0x7B3EC010, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B3EC001, 0x7B3EC011, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B3EC001, 0x7B3EC012, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B3EC001, 0x7B3EC013, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EC001, 0x7B3EC014, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EC001, 0x7B3EC015, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B3EC001, 0x7B3EC016, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B3EC001, 0x7B3EC017, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EC001, 0x7B3EC018, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B3EC001, 0x7B3EC019, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC01A, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B3EC001, 0x7B3EC01B, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B3EC001, 0x7B3EC01C, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B3EC001, 0x7B3EC01D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC01E, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B3EC001, 0x7B3EC01F, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B3EC001, 0x7B3EC020, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B3EC001, 0x7B3EC021, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B3EC001, 0x7B3EC022, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC023, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B3EC001, 0x7B3EC024, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC025, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B3EC001, 0x7B3EC026, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B3EC001, 0x7B3EC027, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x7B3EC001, 0x7B3EC002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC004, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B3EC001, 0x7B3EC005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B3EC001, 0x7B3EC006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B3EC001, 0x7B3EC007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B3EC001, 0x7B3EC008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B3EC001, 0x7B3EC009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B3EC001, 0x7B3EC00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B3EC001, 0x7B3EC00B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EC001, 0x7B3EC00C, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B3EC001, 0x7B3EC00D, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B3EC001, 0x7B3EC00E, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B3EC001, 0x7B3EC00F, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B3EC001, 0x7B3EC010, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B3EC001, 0x7B3EC011, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B3EC001, 0x7B3EC012, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B3EC001, 0x7B3EC013, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EC001, 0x7B3EC014, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EC001, 0x7B3EC015, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B3EC001, 0x7B3EC016, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B3EC001, 0x7B3EC017, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EC001, 0x7B3EC018, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B3EC001, 0x7B3EC019, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC01A, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B3EC001, 0x7B3EC01B, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B3EC001, 0x7B3EC01C, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B3EC001, 0x7B3EC01D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC01E, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B3EC001, 0x7B3EC01F, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EC001, 0x7B3EC020, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B3EC001, 0x7B3EC021, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B3EC001, 0x7B3EC022, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC023, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B3EC001, 0x7B3EC024, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC025, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B3EC001, 0x7B3EC026, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B3EC001, 0x7B3EC027, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EC002,  7105, 0xB3EC0037, 147.6822, 159.3015, 19.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -201,9 +201,9 @@ VALUES (0x7B3EC028,  1542, 0xB3EC002F, 140.0556, 146.3345, 19.0065, -4.371139E-0
 /* @teleloc 0xB3EC002F [140.055600 146.334500 19.006500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EC028, 0x7B3EC029, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B3EC028, 0x7B3EC02A, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B3EC028, 0x7B3EC02B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7B3EC028, 0x7B3EC029, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B3EC028, 0x7B3EC02A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B3EC028, 0x7B3EC02B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EC029,  4380, 0xB3EC002F, 140.0556, 146.3345, 19.0065, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

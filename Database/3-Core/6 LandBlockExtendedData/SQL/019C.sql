@@ -21,11 +21,11 @@ VALUES (0x7019C080,  1154, 0x019C02B5, 130, -50, 0, 1, 0, 0, 0, False, '2019-02-
 /* @teleloc 0x019C02B5 [130.000000 -50.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7019C080, 0x7019C081, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7019C080, 0x7019C082, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7019C080, 0x7019C083, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7019C080, 0x7019C084, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7019C080, 0x7019C085, '2019-02-10 00:00:00') /* Se Sclavus */;
+VALUES (0x7019C080, 0x7019C081, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7019C080, 0x7019C082, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7019C080, 0x7019C083, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7019C080, 0x7019C084, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7019C080, 0x7019C085, '2019-02-10 00:00:00') /* Se Sclavus (2583) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019C081,  2583, 0x019C02B5, 130, -50, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Se Sclavus */

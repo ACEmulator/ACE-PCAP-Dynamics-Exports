@@ -5,17 +5,17 @@ VALUES (0x7CFD9001,  1154, 0xCFD9000A, 33.77245, 35.14759, 0.8104718, -0.8758703
 /* @teleloc 0xCFD9000A [33.772450 35.147590 0.810472] -0.875870 0.000000 0.000000 -0.482547 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFD9001, 0x7CFD9002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CFD9001, 0x7CFD9003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CFD9001, 0x7CFD9004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CFD9001, 0x7CFD9005, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7CFD9001, 0x7CFD9006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CFD9001, 0x7CFD9007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD9001, 0x7CFD9008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD9001, 0x7CFD9009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7CFD9001, 0x7CFD900A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CFD9001, 0x7CFD900B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CFD9001, 0x7CFD900C, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7CFD9001, 0x7CFD9002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CFD9001, 0x7CFD9003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CFD9001, 0x7CFD9004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CFD9001, 0x7CFD9005, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7CFD9001, 0x7CFD9006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CFD9001, 0x7CFD9007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD9001, 0x7CFD9008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD9001, 0x7CFD9009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7CFD9001, 0x7CFD900A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CFD9001, 0x7CFD900B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CFD9001, 0x7CFD900C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFD9002, 24959, 0xCFD9000A, 33.77245, 35.14759, 0.8104718, -0.8758703, 0, 0, -0.4825467,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -66,7 +66,7 @@ VALUES (0x7CFD900D,  1542, 0xCFD90011, 52.14652, 16.28349, 0, -0.9446939, 0, 0, 
 /* @teleloc 0xCFD90011 [52.146520 16.283490 0.000000] -0.944694 0.000000 0.000000 -0.327954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFD900D, 0x7CFD900E, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7CFD900D, 0x7CFD900E, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFD900E, 11555, 0xCFD90011, 52.14652, 16.28349, 0, -0.9446939, 0, 0, -0.3279535,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

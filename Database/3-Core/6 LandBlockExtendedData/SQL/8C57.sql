@@ -5,20 +5,20 @@ VALUES (0x78C57001,  1154, 0x8C570038, 145.1628, 175.145, 29.92563, -0.4628979, 
 /* @teleloc 0x8C570038 [145.162800 175.145000 29.925630] -0.462898 0.000000 0.000000 -0.886412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C57001, 0x78C57002, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x78C57001, 0x78C57003, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78C57001, 0x78C57004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78C57001, 0x78C57005, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x78C57001, 0x78C57006, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x78C57001, 0x78C57007, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78C57001, 0x78C57008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x78C57001, 0x78C57009, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78C57001, 0x78C5700A, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78C57001, 0x78C5700B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x78C57001, 0x78C5700C, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78C57001, 0x78C5700D, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78C57001, 0x78C5700E, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x78C57001, 0x78C5700F, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x78C57001, 0x78C57002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78C57001, 0x78C57003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78C57001, 0x78C57004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78C57001, 0x78C57005, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x78C57001, 0x78C57006, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78C57001, 0x78C57007, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78C57001, 0x78C57008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x78C57001, 0x78C57009, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78C57001, 0x78C5700A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78C57001, 0x78C5700B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x78C57001, 0x78C5700C, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78C57001, 0x78C5700D, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78C57001, 0x78C5700E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78C57001, 0x78C5700F, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C57002,  5429, 0x8C570038, 145.1628, 175.145, 29.92563, -0.4628979, 0, 0, -0.8864116,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */

@@ -5,20 +5,20 @@ VALUES (0x72A5B001,  1154, 0x2A5B0023, 107.1422, 60.26822, 0.05737954, 0.7272249
 /* @teleloc 0x2A5B0023 [107.142200 60.268220 0.057380] 0.727225 0.000000 0.000000 -0.686399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5B001, 0x72A5B002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72A5B001, 0x72A5B003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A5B001, 0x72A5B004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A5B001, 0x72A5B005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72A5B001, 0x72A5B006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72A5B001, 0x72A5B007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A5B001, 0x72A5B008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A5B001, 0x72A5B009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x72A5B001, 0x72A5B00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72A5B001, 0x72A5B00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72A5B001, 0x72A5B00C, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72A5B001, 0x72A5B00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72A5B001, 0x72A5B00E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72A5B001, 0x72A5B00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x72A5B001, 0x72A5B002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72A5B001, 0x72A5B003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A5B001, 0x72A5B004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A5B001, 0x72A5B005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72A5B001, 0x72A5B006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72A5B001, 0x72A5B007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A5B001, 0x72A5B008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A5B001, 0x72A5B009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x72A5B001, 0x72A5B00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72A5B001, 0x72A5B00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72A5B001, 0x72A5B00C, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72A5B001, 0x72A5B00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72A5B001, 0x72A5B00E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72A5B001, 0x72A5B00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5B002, 24319, 0x2A5B0023, 107.1422, 60.26822, 0.05737954, 0.7272249, 0, 0, -0.6863992,  True, '2019-02-10 00:00:00'); /* Dark Master */
@@ -81,9 +81,9 @@ VALUES (0x72A5B010,  1542, 0x2A5B0008, 23.07116, 177.9267, 0, 0.9964417, 0, 0, -
 /* @teleloc 0x2A5B0008 [23.071160 177.926700 0.000000] 0.996442 0.000000 0.000000 -0.084285 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A5B010, 0x72A5B011, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x72A5B010, 0x72A5B012, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72A5B010, 0x72A5B013, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72A5B010, 0x72A5B011, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x72A5B010, 0x72A5B012, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72A5B010, 0x72A5B013, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A5B011, 11554, 0x2A5B0008, 23.07116, 177.9267, 0, 0.9964417, 0, 0, -0.08428451,  True, '2019-02-10 00:00:00'); /* Colban Plant */

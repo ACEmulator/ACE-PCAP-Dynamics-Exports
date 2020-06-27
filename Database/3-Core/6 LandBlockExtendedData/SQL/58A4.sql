@@ -5,14 +5,14 @@ VALUES (0x758A4001,  1154, 0x58A40001, 15.40392, 2.201895, 68.15765, 0.3489203, 
 /* @teleloc 0x58A40001 [15.403920 2.201895 68.157650] 0.348920 0.000000 0.000000 -0.937152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758A4001, 0x758A4002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x758A4001, 0x758A4003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x758A4001, 0x758A4004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x758A4001, 0x758A4005, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x758A4001, 0x758A4006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x758A4001, 0x758A4007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x758A4001, 0x758A4008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x758A4001, 0x758A4009, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x758A4001, 0x758A4002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x758A4001, 0x758A4003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x758A4001, 0x758A4004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x758A4001, 0x758A4005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x758A4001, 0x758A4006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x758A4001, 0x758A4007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x758A4001, 0x758A4008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x758A4001, 0x758A4009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758A4002,  9252, 0x58A40001, 15.40392, 2.201895, 68.15765, 0.3489203, 0, 0, -0.9371524,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -51,8 +51,8 @@ VALUES (0x758A400A,  1542, 0x58A4000A, 33.96085, 32.35308, 72.0089, 0.9537169, 0
 /* @teleloc 0x58A4000A [33.960850 32.353080 72.008900] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758A400A, 0x758A400B, '2019-02-10 00:00:00') /* Direlands Southeast Shore */
-     , (0x758A400A, 0x758A400C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x758A400A, 0x758A400B, '2019-02-10 00:00:00') /* Direlands Southeast Shore (8385) */
+     , (0x758A400A, 0x758A400C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758A400B,  8385, 0x58A4000A, 33.96085, 32.35308, 72.0089, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southeast Shore */

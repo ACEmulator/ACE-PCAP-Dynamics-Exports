@@ -9,11 +9,11 @@ VALUES (0x786D5002,  1154, 0x86D5002A, 143.1845, 30.50602, 283.0601, 0.8355708, 
 /* @teleloc 0x86D5002A [143.184500 30.506020 283.060100] 0.835571 0.000000 0.000000 -0.549383 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786D5002, 0x786D5003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x786D5002, 0x786D5004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x786D5002, 0x786D5005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x786D5002, 0x786D5006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x786D5002, 0x786D5007, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x786D5002, 0x786D5003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x786D5002, 0x786D5004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x786D5002, 0x786D5005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x786D5002, 0x786D5006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x786D5002, 0x786D5007, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786D5003,  7092, 0x86D5002A, 143.1845, 30.50602, 283.0601, 0.8355708, 0, 0, -0.5493829,  True, '2019-02-10 00:00:00'); /* Firestorm */

@@ -5,14 +5,14 @@ VALUES (0x79C6F001,  1154, 0x9C6F001E, 79.76853, 133.5221, 30.00715, -0.9999828,
 /* @teleloc 0x9C6F001E [79.768530 133.522100 30.007150] -0.999983 0.000000 0.000000 -0.005856 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C6F001, 0x79C6F002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79C6F001, 0x79C6F003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79C6F001, 0x79C6F004, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x79C6F001, 0x79C6F005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x79C6F001, 0x79C6F006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x79C6F001, 0x79C6F007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79C6F001, 0x79C6F008, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x79C6F001, 0x79C6F009, '2019-02-10 00:00:00') /* Limestone Golem */;
+VALUES (0x79C6F001, 0x79C6F002, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x79C6F001, 0x79C6F003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79C6F001, 0x79C6F004, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x79C6F001, 0x79C6F005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x79C6F001, 0x79C6F006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x79C6F001, 0x79C6F007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79C6F001, 0x79C6F008, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x79C6F001, 0x79C6F009, '2019-02-10 00:00:00') /* Limestone Golem (198) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C6F002,   939, 0x9C6F001E, 79.76853, 133.5221, 30.00715, -0.9999828, 0, 0, -0.005856154,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -51,7 +51,7 @@ VALUES (0x79C6F00A,  1542, 0x9C6F002C, 133.6464, 81.6888, 30.011, 0.5806928, 0, 
 /* @teleloc 0x9C6F002C [133.646400 81.688800 30.011000] 0.580693 0.000000 0.000000 -0.814123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C6F00A, 0x79C6F00B, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x79C6F00A, 0x79C6F00B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C6F00B, 31686, 0x9C6F002C, 133.6464, 81.6888, 30.011, 0.5806928, 0, 0, -0.8141227,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

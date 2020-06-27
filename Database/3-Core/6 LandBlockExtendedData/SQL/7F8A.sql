@@ -5,13 +5,13 @@ VALUES (0x77F8A001,  1154, 0x7F8A0020, 93.32992, 172.1951, 151.0883, 0.8390267, 
 /* @teleloc 0x7F8A0020 [93.329920 172.195100 151.088300] 0.839027 0.000000 0.000000 -0.544090 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F8A001, 0x77F8A002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77F8A001, 0x77F8A003, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x77F8A001, 0x77F8A004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77F8A001, 0x77F8A005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77F8A001, 0x77F8A006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77F8A001, 0x77F8A007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77F8A001, 0x77F8A008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x77F8A001, 0x77F8A002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77F8A001, 0x77F8A003, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x77F8A001, 0x77F8A004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77F8A001, 0x77F8A005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77F8A001, 0x77F8A006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77F8A001, 0x77F8A007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77F8A001, 0x77F8A008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F8A002, 11528, 0x7F8A0020, 93.32992, 172.1951, 151.0883, 0.8390267, 0, 0, -0.5440902,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -46,8 +46,8 @@ VALUES (0x77F8A009,  1542, 0x7F8A0018, 49.63694, 172.8081, 148.3973, 1, 0, 0, 0,
 /* @teleloc 0x7F8A0018 [49.636940 172.808100 148.397300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F8A009, 0x77F8A00A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x77F8A009, 0x77F8A00B, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x77F8A009, 0x77F8A00A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x77F8A009, 0x77F8A00B, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F8A00A,  8232, 0x7F8A0018, 49.63694, 172.8081, 148.3973, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

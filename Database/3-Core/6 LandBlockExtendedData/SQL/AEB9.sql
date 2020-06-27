@@ -5,29 +5,29 @@ VALUES (0x7AEB9001,  1154, 0xAEB90039, 185.708, 8.415074, 113.4682, -0.5828242, 
 /* @teleloc 0xAEB90039 [185.708000 8.415074 113.468200] -0.582824 0.000000 0.000000 -0.812598 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEB9001, 0x7AEB9002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AEB9001, 0x7AEB9003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEB9001, 0x7AEB9004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB9005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7AEB9001, 0x7AEB9006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEB9001, 0x7AEB9007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7AEB9001, 0x7AEB9008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEB9001, 0x7AEB9009, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7AEB9001, 0x7AEB900A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB900B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB900C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AEB9001, 0x7AEB900D, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AEB9001, 0x7AEB900E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AEB9001, 0x7AEB900F, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7AEB9001, 0x7AEB9010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7AEB9001, 0x7AEB9011, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7AEB9001, 0x7AEB9012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7AEB9001, 0x7AEB9013, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7AEB9001, 0x7AEB9014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB9015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB9016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7AEB9001, 0x7AEB9017, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7AEB9001, 0x7AEB9018, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7AEB9001, 0x7AEB9002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AEB9001, 0x7AEB9003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEB9001, 0x7AEB9004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB9005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7AEB9001, 0x7AEB9006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEB9001, 0x7AEB9007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7AEB9001, 0x7AEB9008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEB9001, 0x7AEB9009, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7AEB9001, 0x7AEB900A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB900B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB900C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AEB9001, 0x7AEB900D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AEB9001, 0x7AEB900E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AEB9001, 0x7AEB900F, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7AEB9001, 0x7AEB9010, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7AEB9001, 0x7AEB9011, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7AEB9001, 0x7AEB9012, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7AEB9001, 0x7AEB9013, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7AEB9001, 0x7AEB9014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB9015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB9016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7AEB9001, 0x7AEB9017, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7AEB9001, 0x7AEB9018, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEB9002,  2612, 0xAEB90039, 185.708, 8.415074, 113.4682, -0.5828242, 0, 0, -0.8125982,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

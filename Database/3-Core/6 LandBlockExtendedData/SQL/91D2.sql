@@ -101,21 +101,21 @@ VALUES (0x791D2018,  1154, 0x91D20003, 17.15791, 61.16693, 314.2033, 0.3808304, 
 /* @teleloc 0x91D20003 [17.157910 61.166930 314.203300] 0.380830 0.000000 0.000000 -0.924645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D2018, 0x791D2019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x791D2018, 0x791D201A, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x791D2018, 0x791D201B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x791D2018, 0x791D201C, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x791D2018, 0x791D201D, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x791D2018, 0x791D201E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x791D2018, 0x791D201F, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x791D2018, 0x791D2020, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x791D2018, 0x791D2021, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x791D2018, 0x791D2022, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x791D2018, 0x791D2023, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x791D2018, 0x791D2024, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x791D2018, 0x791D2025, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x791D2018, 0x791D2026, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x791D2018, 0x791D2027, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x791D2018, 0x791D2019, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x791D2018, 0x791D201A, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x791D2018, 0x791D201B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x791D2018, 0x791D201C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x791D2018, 0x791D201D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x791D2018, 0x791D201E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x791D2018, 0x791D201F, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x791D2018, 0x791D2020, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x791D2018, 0x791D2021, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x791D2018, 0x791D2022, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x791D2018, 0x791D2023, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x791D2018, 0x791D2024, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x791D2018, 0x791D2025, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x791D2018, 0x791D2026, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x791D2018, 0x791D2027, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D2019, 28551, 0x91D20003, 17.15791, 61.16693, 314.2033, 0.3808304, 0, 0, -0.9246449,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -182,10 +182,10 @@ VALUES (0x791D2028,  1542, 0x91D2000A, 32.16055, 39.20353, 320.3489, 0.9990482, 
 /* @teleloc 0x91D2000A [32.160550 39.203530 320.348900] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D2028, 0x791D2029, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x791D2028, 0x791D202A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x791D2028, 0x791D202B, '2019-02-10 00:00:00') /* Bones */
-     , (0x791D2028, 0x791D202C, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x791D2028, 0x791D2029, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x791D2028, 0x791D202A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x791D2028, 0x791D202B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x791D2028, 0x791D202C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D2029,  4179, 0x91D2000A, 32.16055, 39.20353, 320.3489, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

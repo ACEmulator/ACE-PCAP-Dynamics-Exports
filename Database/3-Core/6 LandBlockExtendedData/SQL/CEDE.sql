@@ -5,13 +5,13 @@ VALUES (0x7CEDE001,  1154, 0xCEDE003F, 178.6688, 161.7691, 2.962719, -0.7265227,
 /* @teleloc 0xCEDE003F [178.668800 161.769100 2.962719] -0.726523 0.000000 0.000000 -0.687142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEDE001, 0x7CEDE002, '2019-02-10 00:00:00') /* Shallows Gorger */
-     , (0x7CEDE001, 0x7CEDE003, '2019-02-10 00:00:00') /* Aqueous Golem */
-     , (0x7CEDE001, 0x7CEDE004, '2019-02-10 00:00:00') /* Shallows Shredder */
-     , (0x7CEDE001, 0x7CEDE005, '2019-02-10 00:00:00') /* Remoran Raker */
-     , (0x7CEDE001, 0x7CEDE006, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CEDE001, 0x7CEDE007, '2019-02-10 00:00:00') /* Wave Golem */
-     , (0x7CEDE001, 0x7CEDE008, '2019-02-10 00:00:00') /* Grimy Moarsman */;
+VALUES (0x7CEDE001, 0x7CEDE002, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CEDE001, 0x7CEDE003, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
+     , (0x7CEDE001, 0x7CEDE004, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
+     , (0x7CEDE001, 0x7CEDE005, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7CEDE001, 0x7CEDE006, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CEDE001, 0x7CEDE007, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CEDE001, 0x7CEDE008, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEDE002, 31909, 0xCEDE003F, 178.6688, 161.7691, 2.962719, -0.7265227, 0, 0, -0.6871424,  True, '2019-02-10 00:00:00'); /* Shallows Gorger */

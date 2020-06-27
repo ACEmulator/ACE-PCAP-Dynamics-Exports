@@ -5,15 +5,15 @@ VALUES (0x7ED4E001,  1154, 0xED4E0003, 14.27112, 63.78814, 0.01300007, -0.120071
 /* @teleloc 0xED4E0003 [14.271120 63.788140 0.013000] -0.120071 0.000000 0.000000 -0.992765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED4E001, 0x7ED4E002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7ED4E001, 0x7ED4E003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7ED4E001, 0x7ED4E004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7ED4E001, 0x7ED4E005, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7ED4E001, 0x7ED4E006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7ED4E001, 0x7ED4E007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7ED4E001, 0x7ED4E008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7ED4E001, 0x7ED4E009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7ED4E001, 0x7ED4E00A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7ED4E001, 0x7ED4E002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7ED4E001, 0x7ED4E003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7ED4E001, 0x7ED4E004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7ED4E001, 0x7ED4E005, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7ED4E001, 0x7ED4E006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7ED4E001, 0x7ED4E007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7ED4E001, 0x7ED4E008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ED4E001, 0x7ED4E009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7ED4E001, 0x7ED4E00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED4E002,   217, 0xED4E0003, 14.27112, 63.78814, 0.01300007, -0.120071, 0, 0, -0.9927653,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

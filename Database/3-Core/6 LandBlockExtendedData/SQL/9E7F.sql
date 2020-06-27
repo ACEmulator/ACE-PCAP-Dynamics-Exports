@@ -5,10 +5,10 @@ VALUES (0x79E7F001,  1154, 0x9E7F002D, 132.9499, 111.6804, 27.76436, 0.2388117, 
 /* @teleloc 0x9E7F002D [132.949900 111.680400 27.764360] 0.238812 0.000000 0.000000 -0.971066 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7F001, 0x79E7F002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79E7F001, 0x79E7F003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x79E7F001, 0x79E7F004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79E7F001, 0x79E7F005, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x79E7F001, 0x79E7F002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79E7F001, 0x79E7F003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x79E7F001, 0x79E7F004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79E7F001, 0x79E7F005, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7F002,  2575, 0x9E7F002D, 132.9499, 111.6804, 27.76436, 0.2388117, 0, 0, -0.9710659,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

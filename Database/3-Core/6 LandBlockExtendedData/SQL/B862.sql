@@ -5,13 +5,13 @@ VALUES (0x7B862001,  1154, 0xB862001D, 95.98972, 107.165, 6.003325, 0.4226182, 0
 /* @teleloc 0xB862001D [95.989720 107.165000 6.003325] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B862001, 0x7B862002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B862001, 0x7B862003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B862001, 0x7B862004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B862001, 0x7B862005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B862001, 0x7B862006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B862001, 0x7B862007, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B862001, 0x7B862008, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7B862001, 0x7B862002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B862001, 0x7B862003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B862001, 0x7B862004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B862001, 0x7B862005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B862001, 0x7B862006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B862001, 0x7B862007, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B862001, 0x7B862008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B862002,   193, 0xB862001D, 95.98972, 107.165, 6.003325, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -46,7 +46,7 @@ VALUES (0x7B862009,  1542, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xB862001D [92.217830 105.108400 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B862009, 0x7B86200A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B862009, 0x7B86200A, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B86200A, 22572, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

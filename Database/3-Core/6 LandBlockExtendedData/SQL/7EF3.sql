@@ -5,15 +5,15 @@ VALUES (0x77EF3001,  1154, 0x7EF30026, 113.1565, 131.5733, 146.5547, 0.8952054, 
 /* @teleloc 0x7EF30026 [113.156500 131.573300 146.554700] 0.895205 0.000000 0.000000 -0.445654 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF3001, 0x77EF3002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EF3001, 0x77EF3003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77EF3001, 0x77EF3004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x77EF3001, 0x77EF3005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77EF3001, 0x77EF3006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77EF3001, 0x77EF3007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x77EF3001, 0x77EF3008, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x77EF3001, 0x77EF3009, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x77EF3001, 0x77EF300A, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x77EF3001, 0x77EF3002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EF3001, 0x77EF3003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77EF3001, 0x77EF3004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77EF3001, 0x77EF3005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77EF3001, 0x77EF3006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77EF3001, 0x77EF3007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x77EF3001, 0x77EF3008, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x77EF3001, 0x77EF3009, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x77EF3001, 0x77EF300A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF3002,  7096, 0x7EF30026, 113.1565, 131.5733, 146.5547, 0.8952054, 0, 0, -0.4456537,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -56,7 +56,7 @@ VALUES (0x77EF300B,  1542, 0x7EF30009, 27.85861, 3.909934, 157.9592, 0.777405, 0
 /* @teleloc 0x7EF30009 [27.858610 3.909934 157.959200] 0.777405 0.000000 0.000000 -0.629000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF300B, 0x77EF300C, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x77EF300B, 0x77EF300C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF300C, 42528, 0x7EF30009, 27.85861, 3.909934, 157.9592, 0.777405, 0, 0, -0.6290004,  True, '2019-02-10 00:00:00'); /* Rock */

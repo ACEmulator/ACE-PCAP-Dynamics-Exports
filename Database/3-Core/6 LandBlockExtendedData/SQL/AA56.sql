@@ -5,13 +5,13 @@ VALUES (0x7AA56001,  1154, 0xAA56000A, 47.78687, 34.89487, 23.10836, 0.2139614, 
 /* @teleloc 0xAA56000A [47.786870 34.894870 23.108360] 0.213961 0.000000 0.000000 -0.976842 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA56001, 0x7AA56002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AA56001, 0x7AA56003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA56001, 0x7AA56004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7AA56001, 0x7AA56005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA56001, 0x7AA56006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AA56001, 0x7AA56007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7AA56001, 0x7AA56008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7AA56001, 0x7AA56002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AA56001, 0x7AA56003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA56001, 0x7AA56004, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7AA56001, 0x7AA56005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA56001, 0x7AA56006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AA56001, 0x7AA56007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7AA56001, 0x7AA56008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA56002,  7978, 0xAA56000A, 47.78687, 34.89487, 23.10836, 0.2139614, 0, 0, -0.9768421,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -46,8 +46,8 @@ VALUES (0x7AA56009,  1542, 0xAA560022, 101.4357, 32.97944, 21.25321, 0.9469026, 
 /* @teleloc 0xAA560022 [101.435700 32.979440 21.253210] 0.946903 0.000000 0.000000 -0.321521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA56009, 0x7AA5600A, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7AA56009, 0x7AA5600B, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7AA56009, 0x7AA5600A, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7AA56009, 0x7AA5600B, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA5600A, 15715, 0xAA560022, 101.4357, 32.97944, 21.25321, 0.9469026, 0, 0, -0.3215205,  True, '2019-02-10 00:00:00'); /* Sunflower */

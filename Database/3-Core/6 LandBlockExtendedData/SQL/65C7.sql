@@ -9,7 +9,7 @@ VALUES (0x765C7001,  1154, 0x65C7001D, 78.63329, 108.8397, 208.7883, 0.9116956, 
 /* @teleloc 0x65C7001D [78.633290 108.839700 208.788300] 0.911696 0.000000 0.000000 -0.410866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765C7001, 0x765C7002, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x765C7001, 0x765C7002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765C7002, 28553, 0x65C7001D, 78.63329, 108.8397, 208.7883, 0.9116956, 0, 0, -0.4108663,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

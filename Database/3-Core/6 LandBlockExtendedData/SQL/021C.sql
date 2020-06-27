@@ -269,9 +269,9 @@ VALUES (0x7021C042,  1542, 0x021C0113, 17.57897, -29.14539, -6.0025, 0.4982423, 
 /* @teleloc 0x021C0113 [17.578970 -29.145390 -6.002500] 0.498242 0.000000 0.000000 -0.867038 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7021C042, 0x7021C043, '2019-02-10 00:00:00') /* Pants */
-     , (0x7021C042, 0x7021C044, '2019-02-10 00:00:00') /* Tunic */
-     , (0x7021C042, 0x7021C045, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7021C042, 0x7021C043, '2019-02-10 00:00:00') /* Pants (127) */
+     , (0x7021C042, 0x7021C044, '2019-02-10 00:00:00') /* Tunic (134) */
+     , (0x7021C042, 0x7021C045, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7021C043,   127, 0x021C0113, 17.57897, -29.14539, -6.0025, 0.4982423, 0, 0, -0.8670379,  True, '2019-02-10 00:00:00'); /* Pants */

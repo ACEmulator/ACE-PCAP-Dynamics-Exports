@@ -5,11 +5,11 @@ VALUES (0x790C1001,  1154, 0x90C10008, 10.31947, 182.368, 84.78934, 0.8234509, 0
 /* @teleloc 0x90C10008 [10.319470 182.368000 84.789340] 0.823451 0.000000 0.000000 -0.567388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790C1001, 0x790C1002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x790C1001, 0x790C1003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x790C1001, 0x790C1004, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x790C1001, 0x790C1005, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x790C1001, 0x790C1006, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x790C1001, 0x790C1002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x790C1001, 0x790C1003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x790C1001, 0x790C1004, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x790C1001, 0x790C1005, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x790C1001, 0x790C1006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790C1002, 22010, 0x90C10008, 10.31947, 182.368, 84.78934, 0.8234509, 0, 0, -0.5673876,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -36,7 +36,7 @@ VALUES (0x790C1007,  1542, 0x90C10015, 48.75072, 111.0147, 77.38734, -0.5221071,
 /* @teleloc 0x90C10015 [48.750720 111.014700 77.387340] -0.522107 0.000000 0.000000 -0.852880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790C1007, 0x790C1008, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x790C1007, 0x790C1008, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790C1008, 31686, 0x90C10015, 48.75072, 111.0147, 77.38734, -0.5221071, 0, 0, -0.8528799,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

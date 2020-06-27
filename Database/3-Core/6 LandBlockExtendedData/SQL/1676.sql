@@ -5,12 +5,12 @@ VALUES (0x71676001,  1154, 0x16760032, 147.9617, 29.96064, 92.4968, 0.9075416, 0
 /* @teleloc 0x16760032 [147.961700 29.960640 92.496800] 0.907542 0.000000 0.000000 -0.419962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71676001, 0x71676002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71676001, 0x71676003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71676001, 0x71676004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71676001, 0x71676005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71676001, 0x71676006, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71676001, 0x71676007, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x71676001, 0x71676002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71676001, 0x71676003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71676001, 0x71676004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71676001, 0x71676005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71676001, 0x71676006, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71676001, 0x71676007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71676002,  7184, 0x16760032, 147.9617, 29.96064, 92.4968, 0.9075416, 0, 0, -0.4199623,  True, '2019-02-10 00:00:00'); /* Silver Tusker */

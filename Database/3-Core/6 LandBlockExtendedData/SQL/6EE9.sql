@@ -5,13 +5,13 @@ VALUES (0x76EE9001,  1154, 0x6EE90026, 100.4514, 125.8837, 214.4342, -0.06378982
 /* @teleloc 0x6EE90026 [100.451400 125.883700 214.434200] -0.063790 0.000000 0.000000 -0.997963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EE9001, 0x76EE9002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x76EE9001, 0x76EE9003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x76EE9001, 0x76EE9004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x76EE9001, 0x76EE9005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x76EE9001, 0x76EE9006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x76EE9001, 0x76EE9007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x76EE9001, 0x76EE9008, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x76EE9001, 0x76EE9002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x76EE9001, 0x76EE9003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x76EE9001, 0x76EE9004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x76EE9001, 0x76EE9005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x76EE9001, 0x76EE9006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x76EE9001, 0x76EE9007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x76EE9001, 0x76EE9008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EE9002, 36833, 0x6EE90026, 100.4514, 125.8837, 214.4342, -0.06378982, 0, 0, -0.9979634,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

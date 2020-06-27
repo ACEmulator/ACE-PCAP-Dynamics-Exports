@@ -5,10 +5,10 @@ VALUES (0x7CD62001,  1154, 0xCD620028, 97.96318, 191.772, 5.92, 0.9973444, 0, 0,
 /* @teleloc 0xCD620028 [97.963180 191.772000 5.920000] 0.997344 0.000000 0.000000 -0.072830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD62001, 0x7CD62002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CD62001, 0x7CD62003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CD62001, 0x7CD62004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD62001, 0x7CD62005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */;
+VALUES (0x7CD62001, 0x7CD62002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CD62001, 0x7CD62003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CD62001, 0x7CD62004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD62001, 0x7CD62005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD62002, 27254, 0xCD620028, 97.96318, 191.772, 5.92, 0.9973444, 0, 0, -0.07283003,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

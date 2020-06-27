@@ -5,16 +5,16 @@ VALUES (0x7183F001,  1154, 0x183F003E, 188.3317, 143.2218, 80.00455, 0.9828281, 
 /* @teleloc 0x183F003E [188.331700 143.221800 80.004550] 0.982828 0.000000 0.000000 -0.184524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183F001, 0x7183F002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7183F001, 0x7183F003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7183F001, 0x7183F004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7183F001, 0x7183F005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7183F001, 0x7183F006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7183F001, 0x7183F007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7183F001, 0x7183F008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7183F001, 0x7183F009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7183F001, 0x7183F00A, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7183F001, 0x7183F00B, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x7183F001, 0x7183F002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7183F001, 0x7183F003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7183F001, 0x7183F004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7183F001, 0x7183F005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7183F001, 0x7183F006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7183F001, 0x7183F007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7183F001, 0x7183F008, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x7183F001, 0x7183F009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7183F001, 0x7183F00A, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x7183F001, 0x7183F00B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183F002, 36821, 0x183F003E, 188.3317, 143.2218, 80.00455, 0.9828281, 0, 0, -0.1845237,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -61,7 +61,7 @@ VALUES (0x7183F00C,  1542, 0x183F0039, 170.6586, 1.118734, 76.18646, 1, 0, 0, 0,
 /* @teleloc 0x183F0039 [170.658600 1.118734 76.186460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183F00C, 0x7183F00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7183F00C, 0x7183F00D, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183F00D, 22566, 0x183F0039, 170.6586, 1.118734, 76.18646, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

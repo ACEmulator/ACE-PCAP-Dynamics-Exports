@@ -5,22 +5,22 @@ VALUES (0x7962B001,  1154, 0x962B001A, 87.13825, 27.03042, 62.50422, 0.8191521, 
 /* @teleloc 0x962B001A [87.138250 27.030420 62.504220] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962B001, 0x7962B002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7962B001, 0x7962B003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7962B001, 0x7962B004, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7962B001, 0x7962B005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7962B001, 0x7962B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7962B001, 0x7962B00C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7962B001, 0x7962B00D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7962B001, 0x7962B00E, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7962B001, 0x7962B00F, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7962B001, 0x7962B010, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7962B001, 0x7962B011, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7962B001, 0x7962B002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7962B001, 0x7962B003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7962B001, 0x7962B004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7962B001, 0x7962B005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7962B001, 0x7962B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7962B001, 0x7962B00C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7962B001, 0x7962B00D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7962B001, 0x7962B00E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7962B001, 0x7962B00F, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7962B001, 0x7962B010, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7962B001, 0x7962B011, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962B002,  7979, 0x962B001A, 87.13825, 27.03042, 62.50422, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -91,7 +91,7 @@ VALUES (0x7962B012,  1542, 0x962B0036, 167.6854, 134.0016, 43.65447, -0.9689017,
 /* @teleloc 0x962B0036 [167.685400 134.001600 43.654470] -0.968902 0.000000 0.000000 -0.247446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962B012, 0x7962B013, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7962B012, 0x7962B013, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962B013,  8037, 0x962B0036, 167.6854, 134.0016, 43.65447, -0.9689017, 0, 0, -0.2474459,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

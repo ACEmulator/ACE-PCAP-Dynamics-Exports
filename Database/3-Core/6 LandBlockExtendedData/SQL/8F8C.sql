@@ -5,18 +5,18 @@ VALUES (0x78F8C001,  1154, 0x8F8C0021, 102.179, 7.470626, 31.991, -0.9890471, 0,
 /* @teleloc 0x8F8C0021 [102.179000 7.470626 31.991000] -0.989047 0.000000 0.000000 -0.147601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F8C001, 0x78F8C002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78F8C001, 0x78F8C003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x78F8C001, 0x78F8C004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F8C001, 0x78F8C005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F8C001, 0x78F8C006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78F8C001, 0x78F8C007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78F8C001, 0x78F8C008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78F8C001, 0x78F8C009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78F8C001, 0x78F8C00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78F8C001, 0x78F8C00B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78F8C001, 0x78F8C00C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78F8C001, 0x78F8C00D, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x78F8C001, 0x78F8C002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78F8C001, 0x78F8C003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x78F8C001, 0x78F8C004, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x78F8C001, 0x78F8C005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78F8C001, 0x78F8C006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78F8C001, 0x78F8C007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78F8C001, 0x78F8C008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78F8C001, 0x78F8C009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78F8C001, 0x78F8C00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78F8C001, 0x78F8C00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78F8C001, 0x78F8C00C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78F8C001, 0x78F8C00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F8C002,  9253, 0x8F8C0021, 102.179, 7.470626, 31.991, -0.9890471, 0, 0, -0.1476005,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -71,7 +71,7 @@ VALUES (0x78F8C00E,  1542, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0,
 /* @teleloc 0x8F8C0034 [148.967500 89.323870 31.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F8C00E, 0x78F8C00F, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x78F8C00E, 0x78F8C00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F8C00F, 31443, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

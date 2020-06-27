@@ -5,16 +5,16 @@ VALUES (0x735DF001,  1154, 0x35DF000C, 35.04801, 95.212, 1.085932, 0.7707554, 0,
 /* @teleloc 0x35DF000C [35.048010 95.212000 1.085932] 0.770755 0.000000 0.000000 -0.637131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735DF001, 0x735DF002, '2019-02-10 00:00:00') /* Barbaric Ruschk */
-     , (0x735DF001, 0x735DF003, '2019-02-10 00:00:00') /* Penguin */
-     , (0x735DF001, 0x735DF004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x735DF001, 0x735DF005, '2019-02-10 00:00:00') /* Rebellious Penguin */
-     , (0x735DF001, 0x735DF006, '2019-02-10 00:00:00') /* Penguin */
-     , (0x735DF001, 0x735DF007, '2019-02-10 00:00:00') /* Barbaric Ruschk */
-     , (0x735DF001, 0x735DF008, '2019-02-10 00:00:00') /* Polar Carenzi */
-     , (0x735DF001, 0x735DF009, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x735DF001, 0x735DF00A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x735DF001, 0x735DF00B, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x735DF001, 0x735DF002, '2019-02-10 00:00:00') /* Barbaric Ruschk (28669) */
+     , (0x735DF001, 0x735DF003, '2019-02-10 00:00:00') /* Penguin (28662) */
+     , (0x735DF001, 0x735DF004, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x735DF001, 0x735DF005, '2019-02-10 00:00:00') /* Rebellious Penguin (28665) */
+     , (0x735DF001, 0x735DF006, '2019-02-10 00:00:00') /* Penguin (28662) */
+     , (0x735DF001, 0x735DF007, '2019-02-10 00:00:00') /* Barbaric Ruschk (28669) */
+     , (0x735DF001, 0x735DF008, '2019-02-10 00:00:00') /* Polar Carenzi (29347) */
+     , (0x735DF001, 0x735DF009, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x735DF001, 0x735DF00A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x735DF001, 0x735DF00B, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735DF002, 28669, 0x35DF000C, 35.04801, 95.212, 1.085932, 0.7707554, 0, 0, -0.6371312,  True, '2019-02-10 00:00:00'); /* Barbaric Ruschk */

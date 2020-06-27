@@ -5,17 +5,17 @@ VALUES (0x749C8001,  1154, 0x49C80039, 178.0281, 6.103948, 37.86015, -4.371139E-
 /* @teleloc 0x49C80039 [178.028100 6.103948 37.860150] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749C8001, 0x749C8002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x749C8001, 0x749C8003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x749C8001, 0x749C8004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x749C8001, 0x749C8005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x749C8001, 0x749C8006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749C8001, 0x749C8007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749C8001, 0x749C8008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x749C8001, 0x749C8009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x749C8001, 0x749C800A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749C8001, 0x749C800B, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x749C8001, 0x749C800C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x749C8001, 0x749C8002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x749C8001, 0x749C8003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x749C8001, 0x749C8004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x749C8001, 0x749C8005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x749C8001, 0x749C8006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749C8001, 0x749C8007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749C8001, 0x749C8008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x749C8001, 0x749C8009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x749C8001, 0x749C800A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749C8001, 0x749C800B, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x749C8001, 0x749C800C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749C8002,  7333, 0x49C80039, 178.0281, 6.103948, 37.86015, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -66,7 +66,7 @@ VALUES (0x749C800D,  1542, 0x49C80039, 179.1115, 8.169584, 38.28756, 1, 0, 0, 0,
 /* @teleloc 0x49C80039 [179.111500 8.169584 38.287560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749C800D, 0x749C800E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x749C800D, 0x749C800E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749C800E, 22567, 0x49C80039, 179.1115, 8.169584, 38.28756, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,21 +5,21 @@ VALUES (0x738F1001,  1154, 0x38F10030, 122.508, 186.5492, 84.012, 0.8145236, 0, 
 /* @teleloc 0x38F10030 [122.508000 186.549200 84.012000] 0.814524 0.000000 0.000000 -0.580130 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738F1001, 0x738F1002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738F1001, 0x738F1003, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x738F1001, 0x738F1004, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738F1001, 0x738F1005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x738F1001, 0x738F1006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738F1001, 0x738F1007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x738F1001, 0x738F1008, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738F1001, 0x738F1009, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x738F1001, 0x738F100A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738F1001, 0x738F100B, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x738F1001, 0x738F100C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x738F1001, 0x738F100D, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738F1001, 0x738F100E, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x738F1001, 0x738F100F, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x738F1001, 0x738F1010, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x738F1001, 0x738F1002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x738F1001, 0x738F1003, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x738F1001, 0x738F1004, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738F1001, 0x738F1005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x738F1001, 0x738F1006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738F1001, 0x738F1007, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x738F1001, 0x738F1008, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738F1001, 0x738F1009, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x738F1001, 0x738F100A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738F1001, 0x738F100B, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x738F1001, 0x738F100C, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x738F1001, 0x738F100D, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738F1001, 0x738F100E, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x738F1001, 0x738F100F, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x738F1001, 0x738F1010, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F1002, 28051, 0x38F10030, 122.508, 186.5492, 84.012, 0.8145236, 0, 0, -0.5801304,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

@@ -13,14 +13,14 @@ VALUES (0x7A0B3004,  1154, 0xA0B30102, 62.2363, 32.4963, 75.2075, -0.761412, 0, 
 /* @teleloc 0xA0B30102 [62.236300 32.496300 75.207500] -0.761412 0.000000 0.000000 0.648268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0B3004, 0x7A0B3005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A0B3004, 0x7A0B3006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7A0B3004, 0x7A0B3007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A0B3004, 0x7A0B3008, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B3004, 0x7A0B3009, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0B3004, 0x7A0B300A, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A0B3004, 0x7A0B300B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7A0B3004, 0x7A0B300C, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7A0B3004, 0x7A0B3005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A0B3004, 0x7A0B3006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7A0B3004, 0x7A0B3007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A0B3004, 0x7A0B3008, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B3004, 0x7A0B3009, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0B3004, 0x7A0B300A, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A0B3004, 0x7A0B300B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7A0B3004, 0x7A0B300C, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0B3005,  1630, 0xA0B30102, 62.2363, 32.4963, 75.2075, -0.761412, 0, 0, 0.648268,  True, '2019-02-10 00:00:00'); /* Lich Lord */

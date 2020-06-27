@@ -5,13 +5,13 @@ VALUES (0x791E9001,  1154, 0x91E9003F, 188.3701, 167.3569, 39.81185, -4.371139E-
 /* @teleloc 0x91E9003F [188.370100 167.356900 39.811850] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791E9001, 0x791E9002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x791E9001, 0x791E9003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x791E9001, 0x791E9004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x791E9001, 0x791E9005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x791E9001, 0x791E9006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x791E9001, 0x791E9007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x791E9001, 0x791E9008, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x791E9001, 0x791E9002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x791E9001, 0x791E9003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x791E9001, 0x791E9004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x791E9001, 0x791E9005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x791E9001, 0x791E9006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x791E9001, 0x791E9007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x791E9001, 0x791E9008, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791E9002,  7333, 0x91E9003F, 188.3701, 167.3569, 39.81185, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -46,9 +46,9 @@ VALUES (0x791E9009,  1542, 0x91E90040, 188.4276, 171.7903, 39.07058, 1, 0, 0, 0,
 /* @teleloc 0x91E90040 [188.427600 171.790300 39.070580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791E9009, 0x791E900A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x791E9009, 0x791E900B, '2019-02-10 00:00:00') /* Bones */
-     , (0x791E9009, 0x791E900C, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x791E9009, 0x791E900A, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x791E9009, 0x791E900B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x791E9009, 0x791E900C, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791E900A, 22567, 0x91E90040, 188.4276, 171.7903, 39.07058, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

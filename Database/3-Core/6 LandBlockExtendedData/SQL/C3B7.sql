@@ -5,10 +5,10 @@ VALUES (0x7C3B7001,  1154, 0xC3B70019, 86.29798, 11.42522, 208.1491, -0.04180219
 /* @teleloc 0xC3B70019 [86.297980 11.425220 208.149100] -0.041802 0.000000 0.000000 -0.999126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3B7001, 0x7C3B7002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C3B7001, 0x7C3B7003, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7C3B7001, 0x7C3B7004, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7C3B7001, 0x7C3B7005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */;
+VALUES (0x7C3B7001, 0x7C3B7002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C3B7001, 0x7C3B7003, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7C3B7001, 0x7C3B7004, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7C3B7001, 0x7C3B7005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3B7002, 35735, 0xC3B70019, 86.29798, 11.42522, 208.1491, -0.04180219, 0, 0, -0.9991259,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Warrior Nymph */

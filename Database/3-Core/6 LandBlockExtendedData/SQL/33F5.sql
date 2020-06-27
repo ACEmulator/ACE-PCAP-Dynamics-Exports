@@ -5,16 +5,16 @@ VALUES (0x733F5001,  1154, 0x33F50040, 172.5737, 172.6158, 71.54871, 0.2187661, 
 /* @teleloc 0x33F50040 [172.573700 172.615800 71.548710] 0.218766 0.000000 0.000000 -0.975777 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733F5001, 0x733F5002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x733F5001, 0x733F5003, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x733F5001, 0x733F5004, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x733F5001, 0x733F5005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x733F5001, 0x733F5006, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x733F5001, 0x733F5007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x733F5001, 0x733F5008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x733F5001, 0x733F5009, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x733F5001, 0x733F500A, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x733F5001, 0x733F500B, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x733F5001, 0x733F5002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x733F5001, 0x733F5003, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x733F5001, 0x733F5004, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x733F5001, 0x733F5005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x733F5001, 0x733F5006, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x733F5001, 0x733F5007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x733F5001, 0x733F5008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x733F5001, 0x733F5009, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x733F5001, 0x733F500A, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x733F5001, 0x733F500B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733F5002, 28668, 0x33F50040, 172.5737, 172.6158, 71.54871, 0.2187661, 0, 0, -0.9757773,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

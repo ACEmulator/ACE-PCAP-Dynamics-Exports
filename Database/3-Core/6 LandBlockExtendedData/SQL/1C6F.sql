@@ -5,35 +5,35 @@ VALUES (0x71C6F001,  1154, 0x1C6F000E, 35.335, 133.2959, 70.59563, 0.9238795, 0,
 /* @teleloc 0x1C6F000E [35.335000 133.295900 70.595630] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C6F001, 0x71C6F002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C6F001, 0x71C6F003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71C6F001, 0x71C6F004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71C6F001, 0x71C6F005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71C6F001, 0x71C6F006, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F007, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F008, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F009, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F00A, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F00B, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F00C, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F00D, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F00E, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71C6F001, 0x71C6F00F, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x71C6F001, 0x71C6F010, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F011, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F012, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x71C6F001, 0x71C6F013, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71C6F001, 0x71C6F014, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x71C6F001, 0x71C6F015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71C6F001, 0x71C6F016, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71C6F001, 0x71C6F017, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71C6F001, 0x71C6F018, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71C6F001, 0x71C6F019, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71C6F001, 0x71C6F01A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71C6F001, 0x71C6F01B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71C6F001, 0x71C6F01C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71C6F001, 0x71C6F01D, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71C6F001, 0x71C6F01E, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71C6F001, 0x71C6F002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C6F001, 0x71C6F003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71C6F001, 0x71C6F004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71C6F001, 0x71C6F005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71C6F001, 0x71C6F006, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F007, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F008, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F009, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F00A, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F00B, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F00C, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F00D, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F00E, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71C6F001, 0x71C6F00F, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x71C6F001, 0x71C6F010, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F011, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F012, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x71C6F001, 0x71C6F013, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71C6F001, 0x71C6F014, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x71C6F001, 0x71C6F015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71C6F001, 0x71C6F016, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71C6F001, 0x71C6F017, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71C6F001, 0x71C6F018, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71C6F001, 0x71C6F019, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71C6F001, 0x71C6F01A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71C6F001, 0x71C6F01B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71C6F001, 0x71C6F01C, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71C6F001, 0x71C6F01D, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71C6F001, 0x71C6F01E, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C6F002, 36830, 0x1C6F000E, 35.335, 133.2959, 70.59563, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -156,8 +156,8 @@ VALUES (0x71C6F01F,  1542, 0x1C6F003F, 171.4184, 148.0117, 49.43027, 1, 0, 0, 0,
 /* @teleloc 0x1C6F003F [171.418400 148.011700 49.430270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C6F01F, 0x71C6F020, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71C6F01F, 0x71C6F021, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x71C6F01F, 0x71C6F020, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x71C6F01F, 0x71C6F021, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C6F020, 22567, 0x1C6F003F, 171.4184, 148.0117, 49.43027, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,20 +5,20 @@ VALUES (0x792AF001,  1154, 0x92AF0028, 97.12186, 179.5338, 23.13234, 0.8498669, 
 /* @teleloc 0x92AF0028 [97.121860 179.533800 23.132340] 0.849867 0.000000 0.000000 -0.526997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792AF001, 0x792AF002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x792AF001, 0x792AF003, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x792AF001, 0x792AF004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792AF001, 0x792AF005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x792AF001, 0x792AF006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x792AF001, 0x792AF007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792AF001, 0x792AF008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792AF001, 0x792AF009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792AF001, 0x792AF00A, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x792AF001, 0x792AF00B, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x792AF001, 0x792AF00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792AF001, 0x792AF00D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x792AF001, 0x792AF00E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x792AF001, 0x792AF00F, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x792AF001, 0x792AF002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x792AF001, 0x792AF003, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x792AF001, 0x792AF004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792AF001, 0x792AF005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x792AF001, 0x792AF006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x792AF001, 0x792AF007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792AF001, 0x792AF008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792AF001, 0x792AF009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792AF001, 0x792AF00A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x792AF001, 0x792AF00B, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x792AF001, 0x792AF00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792AF001, 0x792AF00D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x792AF001, 0x792AF00E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x792AF001, 0x792AF00F, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792AF002, 28551, 0x92AF0028, 97.12186, 179.5338, 23.13234, 0.8498669, 0, 0, -0.5269974,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -81,9 +81,9 @@ VALUES (0x792AF010,  1542, 0x92AF001E, 94.41671, 131.1558, 32.01055, -4.371139E-
 /* @teleloc 0x92AF001E [94.416710 131.155800 32.010550] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792AF010, 0x792AF011, '2019-02-10 00:00:00') /* Bones */
-     , (0x792AF010, 0x792AF012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x792AF010, 0x792AF013, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x792AF010, 0x792AF011, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x792AF010, 0x792AF012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x792AF010, 0x792AF013, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792AF011,  4380, 0x92AF001E, 94.41671, 131.1558, 32.01055, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

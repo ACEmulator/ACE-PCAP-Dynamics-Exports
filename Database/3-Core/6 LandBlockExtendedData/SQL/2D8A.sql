@@ -9,31 +9,31 @@ VALUES (0x72D8A00D,  1154, 0x2D8A0100, 59.1393, 106.378, 128.0055, 0.969432, 0, 
 /* @teleloc 0x2D8A0100 [59.139300 106.378000 128.005500] 0.969432 0.000000 0.000000 0.245362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D8A00D, 0x72D8A00E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A00F, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x72D8A00D, 0x72D8A010, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x72D8A00D, 0x72D8A012, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x72D8A00D, 0x72D8A013, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x72D8A00D, 0x72D8A014, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x72D8A00D, 0x72D8A015, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A016, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A017, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A018, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A019, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A01A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A01B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A01C, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A01D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72D8A00D, 0x72D8A01E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72D8A00D, 0x72D8A01F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72D8A00D, 0x72D8A020, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D8A00D, 0x72D8A021, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D8A00D, 0x72D8A022, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D8A00D, 0x72D8A023, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A024, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A025, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72D8A00D, 0x72D8A026, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x72D8A00D, 0x72D8A00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A00F, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x72D8A00D, 0x72D8A010, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x72D8A00D, 0x72D8A012, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x72D8A00D, 0x72D8A013, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x72D8A00D, 0x72D8A014, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x72D8A00D, 0x72D8A015, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A016, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A017, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A018, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A019, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A01A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A01B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A01C, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A01D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72D8A00D, 0x72D8A01E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D8A00D, 0x72D8A01F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72D8A00D, 0x72D8A020, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D8A00D, 0x72D8A021, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D8A00D, 0x72D8A022, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D8A00D, 0x72D8A023, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A024, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A025, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A026, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D8A00E,   233, 0x2D8A0100, 59.1393, 106.378, 128.0055, 0.969432, 0, 0, 0.245362,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */

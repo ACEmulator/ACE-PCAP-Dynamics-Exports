@@ -5,16 +5,16 @@ VALUES (0x7A9D4001,  1154, 0xA9D4001F, 76.05694, 159.2758, 135.6718, 0.934627, 0
 /* @teleloc 0xA9D4001F [76.056940 159.275800 135.671800] 0.934627 0.000000 0.000000 -0.355630 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9D4001, 0x7A9D4002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D4001, 0x7A9D4003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D4001, 0x7A9D4004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D4001, 0x7A9D4005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D4001, 0x7A9D4006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A9D4001, 0x7A9D4007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A9D4001, 0x7A9D4008, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A9D4001, 0x7A9D4009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A9D4001, 0x7A9D400A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A9D4001, 0x7A9D400B, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7A9D4001, 0x7A9D4002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D4001, 0x7A9D4003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D4001, 0x7A9D4004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D4001, 0x7A9D4005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D4001, 0x7A9D4006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A9D4001, 0x7A9D4007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A9D4001, 0x7A9D4008, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A9D4001, 0x7A9D4009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A9D4001, 0x7A9D400A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A9D4001, 0x7A9D400B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9D4002, 22519, 0xA9D4001F, 76.05694, 159.2758, 135.6718, 0.934627, 0, 0, -0.3556295,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

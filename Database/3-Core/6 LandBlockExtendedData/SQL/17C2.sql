@@ -5,19 +5,19 @@ VALUES (0x717C2001,  1154, 0x17C20021, 97.5766, 19.29889, 66.39175, -0.7726263, 
 /* @teleloc 0x17C20021 [97.576600 19.298890 66.391750] -0.772626 0.000000 0.000000 -0.634861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717C2001, 0x717C2002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x717C2001, 0x717C2003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x717C2001, 0x717C2004, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x717C2001, 0x717C2005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x717C2001, 0x717C2006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x717C2001, 0x717C2007, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x717C2001, 0x717C2008, '2019-02-10 00:00:00') /* Hea Shaman */
-     , (0x717C2001, 0x717C2009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x717C2001, 0x717C200A, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x717C2001, 0x717C200B, '2019-02-10 00:00:00') /* Timber Siraluun */
-     , (0x717C2001, 0x717C200C, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x717C2001, 0x717C200D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x717C2001, 0x717C200E, '2019-02-10 00:00:00') /* Badlands Siraluun */;
+VALUES (0x717C2001, 0x717C2002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x717C2001, 0x717C2003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x717C2001, 0x717C2004, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x717C2001, 0x717C2005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x717C2001, 0x717C2006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x717C2001, 0x717C2007, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x717C2001, 0x717C2008, '2019-02-10 00:00:00') /* Hea Shaman (11522) */
+     , (0x717C2001, 0x717C2009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x717C2001, 0x717C200A, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x717C2001, 0x717C200B, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x717C2001, 0x717C200C, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x717C2001, 0x717C200D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x717C2001, 0x717C200E, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717C2002, 11493, 0x17C20021, 97.5766, 19.29889, 66.39175, -0.7726263, 0, 0, -0.6348611,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */

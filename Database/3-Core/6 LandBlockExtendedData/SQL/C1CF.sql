@@ -9,18 +9,18 @@ VALUES (0x7C1CF001,  1154, 0xC1CF0010, 47.19524, 183.666, 298.8306, 0.9238795, 0
 /* @teleloc 0xC1CF0010 [47.195240 183.666000 298.830600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1CF001, 0x7C1CF002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7C1CF001, 0x7C1CF003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7C1CF001, 0x7C1CF004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1CF001, 0x7C1CF005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C1CF001, 0x7C1CF006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7C1CF001, 0x7C1CF007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7C1CF001, 0x7C1CF008, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C1CF001, 0x7C1CF009, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x7C1CF001, 0x7C1CF00A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7C1CF001, 0x7C1CF00B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C1CF001, 0x7C1CF00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7C1CF001, 0x7C1CF00D, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x7C1CF001, 0x7C1CF002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7C1CF001, 0x7C1CF003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7C1CF001, 0x7C1CF004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1CF001, 0x7C1CF005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C1CF001, 0x7C1CF006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7C1CF001, 0x7C1CF007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7C1CF001, 0x7C1CF008, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C1CF001, 0x7C1CF009, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x7C1CF001, 0x7C1CF00A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7C1CF001, 0x7C1CF00B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C1CF001, 0x7C1CF00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7C1CF001, 0x7C1CF00D, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1CF002, 24497, 0xC1CF0010, 47.19524, 183.666, 298.8306, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

@@ -9,15 +9,15 @@ VALUES (0x7E74C001,  1154, 0xE74C0020, 79.79498, 176.5795, 32, -0.04864434, 0, 0
 /* @teleloc 0xE74C0020 [79.794980 176.579500 32.000000] -0.048644 0.000000 0.000000 -0.998816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74C001, 0x7E74C002, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74C001, 0x7E74C003, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74C001, 0x7E74C004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74C001, 0x7E74C005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74C001, 0x7E74C006, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74C001, 0x7E74C007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E74C001, 0x7E74C008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7E74C001, 0x7E74C009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7E74C001, 0x7E74C00A, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7E74C001, 0x7E74C002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74C001, 0x7E74C003, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74C001, 0x7E74C004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74C001, 0x7E74C005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74C001, 0x7E74C006, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74C001, 0x7E74C007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E74C001, 0x7E74C008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7E74C001, 0x7E74C009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7E74C001, 0x7E74C00A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74C002,  2567, 0xE74C0020, 79.79498, 176.5795, 32, -0.04864434, 0, 0, -0.9988162,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */

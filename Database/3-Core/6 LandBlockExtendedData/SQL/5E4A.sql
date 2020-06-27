@@ -29,224 +29,224 @@ VALUES (0x75E4A0E9,  1154, 0x5E4A03F4, 37.7222, -50.9487, -12, 0.811152, 0, 0, 0
 /* @teleloc 0x5E4A03F4 [37.722200 -50.948700 -12.000000] 0.811152 0.000000 0.000000 0.584836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E4A0E9, 0x75E4A0EA, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0EB, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0EC, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0ED, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0EE, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0EF, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F0, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F1, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F2, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F3, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F4, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F5, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F6, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F7, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F8, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A0F9, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FA, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FB, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FC, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FD, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FE, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A0FF, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A100, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A101, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A102, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A103, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A104, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A105, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A106, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A107, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A108, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A109, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10D, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A10F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A110, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A111, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A112, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A113, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A114, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A115, '2019-02-10 00:00:00') /* Olthoi Guard */
-     , (0x75E4A0E9, 0x75E4A116, '2019-02-10 00:00:00') /* Olthoi Guard */
-     , (0x75E4A0E9, 0x75E4A117, '2019-02-10 00:00:00') /* Olthoi Guard */
-     , (0x75E4A0E9, 0x75E4A118, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A119, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A11A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A11B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A11C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A11D, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x75E4A0E9, 0x75E4A11E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A11F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A120, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A121, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A122, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A123, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A124, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A125, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A126, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A127, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A128, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A129, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12D, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A12F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A130, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A131, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A132, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A133, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A134, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A135, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A136, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A137, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A138, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A139, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A13A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A13B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A13C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A13D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A13E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A13F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A140, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A141, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A142, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A143, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A144, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A145, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A146, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A147, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A148, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A149, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A14A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A14B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A14C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A14D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A14E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A14F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A150, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A151, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A152, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier */
-     , (0x75E4A0E9, 0x75E4A153, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A154, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A155, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A156, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A157, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A158, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A159, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A15F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A160, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A161, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A162, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A163, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A164, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A165, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A166, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A167, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A168, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A169, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A16A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A16B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A16C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A16D, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Matron */
-     , (0x75E4A0E9, 0x75E4A16E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A16F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A170, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A171, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A172, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A173, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A174, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A175, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A176, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A177, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A178, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A179, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A17F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A180, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A181, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Matron */
-     , (0x75E4A0E9, 0x75E4A182, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A183, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A184, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A185, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A186, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A187, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A188, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A189, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A18A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A18B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A18C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A18D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A18E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A18F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A190, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A191, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A192, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A193, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A194, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A195, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A196, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A197, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A198, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A199, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A19F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1A0, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1A1, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1A2, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1A3, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1A4, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1A5, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1A6, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1A7, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1A8, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1A9, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AA, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AB, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AC, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AD, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AE, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1AF, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Queen */
-     , (0x75E4A0E9, 0x75E4A1B0, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1B1, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1B2, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1B3, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1B4, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1B5, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1B6, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1B7, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1B8, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Queen */
-     , (0x75E4A0E9, 0x75E4A1B9, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1BA, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1BB, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1BC, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1BD, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1BE, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1BF, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A1C0, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */
-     , (0x75E4A0E9, 0x75E4A1C1, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x75E4A0E9, 0x75E4A1C2, '2019-02-10 00:00:00') /* Olthoi Egg */
-     , (0x75E4A0E9, 0x75E4A1C3, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator */;
+VALUES (0x75E4A0E9, 0x75E4A0EA, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0EB, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0EC, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0ED, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0EE, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0EF, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F0, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F1, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F2, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F3, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F5, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F6, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F7, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F8, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A0F9, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FA, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FB, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FC, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FD, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FE, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A0FF, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A100, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A101, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A102, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A103, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A104, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A105, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A106, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A107, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A108, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A109, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10D, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A10F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A110, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A111, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A112, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A113, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A114, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A115, '2019-02-10 00:00:00') /* Olthoi Guard (24297) */
+     , (0x75E4A0E9, 0x75E4A116, '2019-02-10 00:00:00') /* Olthoi Guard (24297) */
+     , (0x75E4A0E9, 0x75E4A117, '2019-02-10 00:00:00') /* Olthoi Guard (24297) */
+     , (0x75E4A0E9, 0x75E4A118, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A119, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A11A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A11B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A11C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A11D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x75E4A0E9, 0x75E4A11E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A11F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A120, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A121, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A122, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A123, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A124, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A125, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A126, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A127, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A128, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A129, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12D, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12E, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A12F, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A130, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A131, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A132, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A133, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A134, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A135, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A136, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A137, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A138, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A139, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A13A, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A13B, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A13C, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A13D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A13E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A13F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A140, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A141, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A142, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A143, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A144, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A145, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A146, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A147, '2019-02-10 00:00:00') /* Olthoi Warrior (24308) */
+     , (0x75E4A0E9, 0x75E4A148, '2019-02-10 00:00:00') /* Olthoi Warrior (24308) */
+     , (0x75E4A0E9, 0x75E4A149, '2019-02-10 00:00:00') /* Olthoi Warrior (24308) */
+     , (0x75E4A0E9, 0x75E4A14A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A14B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A14C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A14D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A14E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A14F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A150, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A151, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A152, '2019-02-10 00:00:00') /* Olthoi Swarm Soldier (23989) */
+     , (0x75E4A0E9, 0x75E4A153, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A154, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A155, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A156, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A157, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A158, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A159, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A15F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A160, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A161, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A162, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A163, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A164, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A165, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A166, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A167, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A168, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A169, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A16A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A16B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A16C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A16D, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Matron (24637) */
+     , (0x75E4A0E9, 0x75E4A16E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A16F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A170, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A171, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A172, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A173, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A174, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A175, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A176, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A177, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A178, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A179, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A17F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A180, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A181, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Matron (24637) */
+     , (0x75E4A0E9, 0x75E4A182, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A183, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A184, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A185, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A186, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A187, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A188, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A189, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A18A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A18B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A18C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A18D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A18E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A18F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A190, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A191, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A192, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A193, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A194, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A195, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A196, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A197, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A198, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A199, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19A, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19B, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19C, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19D, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19E, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A19F, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1A0, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1A1, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1A2, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1A3, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1A4, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1A5, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1A6, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1A7, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1A8, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1A9, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AA, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AB, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AC, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AD, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AE, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1AF, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Queen (24639) */
+     , (0x75E4A0E9, 0x75E4A1B0, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1B1, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1B2, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1B3, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1B4, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1B5, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1B6, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1B7, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1B8, '2019-02-10 00:00:00') /* Adolescent Olthoi Brood Queen (24639) */
+     , (0x75E4A0E9, 0x75E4A1B9, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1BA, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1BB, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1BC, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1BD, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1BE, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1BF, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A1C0, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */
+     , (0x75E4A0E9, 0x75E4A1C1, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x75E4A0E9, 0x75E4A1C2, '2019-02-10 00:00:00') /* Olthoi Egg (24641) */
+     , (0x75E4A0E9, 0x75E4A1C3, '2019-02-10 00:00:00') /* Olthoi Swarm Eviscerator (23990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E4A0EA, 23989, 0x5E4A03F4, 37.7222, -50.9487, -12, 0.811152, 0, 0, 0.584836,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Soldier */
@@ -1125,7 +1125,7 @@ VALUES (0x75E4A1C4,  1542, 0x5E4A0167, 486.5669, -349.865, -119.9984, 0.3221939,
 /* @teleloc 0x5E4A0167 [486.566900 -349.865000 -119.998400] 0.322194 0.000000 0.000000 0.946674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E4A1C4, 0x75E4A1C5, '2019-02-10 00:00:00') /* Small Olthoi Grub */;
+VALUES (0x75E4A1C4, 0x75E4A1C5, '2019-02-10 00:00:00') /* Small Olthoi Grub (24269) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E4A1C5, 24269, 0x5E4A0167, 486.5669, -349.865, -119.9984, 0.3221939, 0, 0, 0.9466737,  True, '2019-02-10 00:00:00'); /* Small Olthoi Grub */

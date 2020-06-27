@@ -5,18 +5,18 @@ VALUES (0x7A29D001,  1154, 0xA29D002B, 124.9195, 52.93832, 64.80805, 0.8297105, 
 /* @teleloc 0xA29D002B [124.919500 52.938320 64.808050] 0.829711 0.000000 0.000000 -0.558194 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A29D001, 0x7A29D002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7A29D001, 0x7A29D003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A29D001, 0x7A29D004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A29D001, 0x7A29D005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A29D001, 0x7A29D006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A29D001, 0x7A29D007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A29D001, 0x7A29D008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A29D001, 0x7A29D009, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x7A29D001, 0x7A29D00A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A29D001, 0x7A29D00B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A29D001, 0x7A29D00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A29D001, 0x7A29D00D, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7A29D001, 0x7A29D002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7A29D001, 0x7A29D003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A29D001, 0x7A29D004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A29D001, 0x7A29D005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A29D001, 0x7A29D006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A29D001, 0x7A29D007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A29D001, 0x7A29D008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A29D001, 0x7A29D009, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x7A29D001, 0x7A29D00A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A29D001, 0x7A29D00B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A29D001, 0x7A29D00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A29D001, 0x7A29D00D, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A29D002, 28552, 0xA29D002B, 124.9195, 52.93832, 64.80805, 0.8297105, 0, 0, -0.558194,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -71,8 +71,8 @@ VALUES (0x7A29D00E,  1542, 0xA29D002E, 132.2797, 135.7871, 71.26898, 1, 0, 0, 0,
 /* @teleloc 0xA29D002E [132.279700 135.787100 71.268980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A29D00E, 0x7A29D00F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7A29D00E, 0x7A29D010, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A29D00E, 0x7A29D00F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7A29D00E, 0x7A29D010, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A29D00F,  8232, 0xA29D002E, 132.2797, 135.7871, 71.26898, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

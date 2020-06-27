@@ -5,11 +5,11 @@ VALUES (0x7C31C001,  1154, 0xC31C001A, 93.5955, 26.15482, 37.39706, -0.9938666, 
 /* @teleloc 0xC31C001A [93.595500 26.154820 37.397060] -0.993867 0.000000 0.000000 -0.110586 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C31C001, 0x7C31C002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C31C001, 0x7C31C003, '2019-02-10 00:00:00') /* Ember */
-     , (0x7C31C001, 0x7C31C004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C31C001, 0x7C31C005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C31C001, 0x7C31C006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x7C31C001, 0x7C31C002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C31C001, 0x7C31C003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7C31C001, 0x7C31C004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C31C001, 0x7C31C005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C31C001, 0x7C31C006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C31C002,  7988, 0xC31C001A, 93.5955, 26.15482, 37.39706, -0.9938666, 0, 0, -0.1105862,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

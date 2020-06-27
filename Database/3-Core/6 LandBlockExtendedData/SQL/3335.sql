@@ -5,15 +5,15 @@ VALUES (0x73335001,  1154, 0x33350007, 4.308716, 154.8036, 62.7299, 0.8606135, 0
 /* @teleloc 0x33350007 [4.308716 154.803600 62.729900] 0.860614 0.000000 0.000000 -0.509259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73335001, 0x73335002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x73335001, 0x73335003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73335001, 0x73335004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73335001, 0x73335005, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x73335001, 0x73335006, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73335001, 0x73335007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73335001, 0x73335008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73335001, 0x73335009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73335001, 0x7333500A, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x73335001, 0x73335002, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x73335001, 0x73335003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73335001, 0x73335004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73335001, 0x73335005, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x73335001, 0x73335006, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73335001, 0x73335007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73335001, 0x73335008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73335001, 0x73335009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73335001, 0x7333500A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73335002, 36862, 0x33350007, 4.308716, 154.8036, 62.7299, 0.8606135, 0, 0, -0.5092586,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */

@@ -5,12 +5,12 @@ VALUES (0x7DD85001,  1154, 0xDD850010, 43.54543, 188.171, -0.8899999, -0.936404,
 /* @teleloc 0xDD850010 [43.545430 188.171000 -0.890000] -0.936404 0.000000 0.000000 -0.350924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD85001, 0x7DD85002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7DD85001, 0x7DD85003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7DD85001, 0x7DD85004, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DD85001, 0x7DD85005, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7DD85001, 0x7DD85006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7DD85001, 0x7DD85007, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7DD85001, 0x7DD85002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7DD85001, 0x7DD85003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7DD85001, 0x7DD85004, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DD85001, 0x7DD85005, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DD85001, 0x7DD85006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7DD85001, 0x7DD85007, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD85002, 11531, 0xDD850010, 43.54543, 188.171, -0.8899999, -0.936404, 0, 0, -0.3509237,  True, '2019-02-10 00:00:00'); /* Sand Golem */

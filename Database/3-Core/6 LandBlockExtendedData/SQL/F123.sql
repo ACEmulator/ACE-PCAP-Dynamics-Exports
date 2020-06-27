@@ -5,20 +5,20 @@ VALUES (0x7F123001,  1154, 0xF1230030, 129.1662, 186.5256, -0.08949995, 0.866025
 /* @teleloc 0xF1230030 [129.166200 186.525600 -0.089500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F123001, 0x7F123002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F123001, 0x7F123003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F123001, 0x7F123004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F123001, 0x7F123005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F123001, 0x7F123006, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F123001, 0x7F123007, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F123001, 0x7F123008, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7F123001, 0x7F123009, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7F123001, 0x7F12300A, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F123001, 0x7F12300B, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F123001, 0x7F12300C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F123001, 0x7F12300D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F123001, 0x7F12300E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F123001, 0x7F12300F, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7F123001, 0x7F123002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F123003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F123001, 0x7F123004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F123001, 0x7F123005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F123001, 0x7F123006, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F123001, 0x7F123007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F123001, 0x7F123008, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F123001, 0x7F123009, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7F123001, 0x7F12300A, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F123001, 0x7F12300B, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F123001, 0x7F12300C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F12300D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F12300E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F12300F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F123002,  7082, 0xF1230030, 129.1662, 186.5256, -0.08949995, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -81,7 +81,7 @@ VALUES (0x7F123010,  1542, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0xF1230030 [127.339800 184.857000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F123010, 0x7F123011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7F123010, 0x7F123011, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F123011,  4379, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

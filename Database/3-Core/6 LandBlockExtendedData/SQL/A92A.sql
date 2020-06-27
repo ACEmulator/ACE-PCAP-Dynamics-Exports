@@ -5,15 +5,15 @@ VALUES (0x7A92A001,  1154, 0xA92A0015, 49.51927, 111.234, 120.3219, -0.7660444, 
 /* @teleloc 0xA92A0015 [49.519270 111.234000 120.321900] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A92A001, 0x7A92A002, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7A92A001, 0x7A92A003, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7A92A001, 0x7A92A004, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A92A001, 0x7A92A005, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7A92A001, 0x7A92A006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92A001, 0x7A92A007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92A001, 0x7A92A008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A92A001, 0x7A92A009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A92A001, 0x7A92A00A, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7A92A001, 0x7A92A002, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7A92A001, 0x7A92A003, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7A92A001, 0x7A92A004, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A92A001, 0x7A92A005, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x7A92A001, 0x7A92A006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92A001, 0x7A92A007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92A001, 0x7A92A008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A92A001, 0x7A92A009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A92A001, 0x7A92A00A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A92A002,  2570, 0xA92A0015, 49.51927, 111.234, 120.3219, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* K'nath S'tath */

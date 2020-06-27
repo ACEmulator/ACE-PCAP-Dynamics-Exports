@@ -5,14 +5,14 @@ VALUES (0x791D8001,  1154, 0x91D8003C, 189.7019, 88.21455, 196.1585, 0.9385956, 
 /* @teleloc 0x91D8003C [189.701900 88.214550 196.158500] 0.938596 0.000000 0.000000 -0.345019 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D8001, 0x791D8002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x791D8001, 0x791D8003, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x791D8001, 0x791D8004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x791D8001, 0x791D8005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x791D8001, 0x791D8006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x791D8001, 0x791D8007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x791D8001, 0x791D8008, '2019-02-10 00:00:00') /* Shivver */
-     , (0x791D8001, 0x791D8009, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x791D8001, 0x791D8002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791D8001, 0x791D8003, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x791D8001, 0x791D8004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x791D8001, 0x791D8005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x791D8001, 0x791D8006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x791D8001, 0x791D8007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x791D8001, 0x791D8008, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x791D8001, 0x791D8009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D8002, 38177, 0x91D8003C, 189.7019, 88.21455, 196.1585, 0.9385956, 0, 0, -0.3450193,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

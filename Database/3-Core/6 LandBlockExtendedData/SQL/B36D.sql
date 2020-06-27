@@ -5,13 +5,13 @@ VALUES (0x7B36D001,  1154, 0xB36D000D, 27.78639, 106.1295, 24.53624, 0.6777617, 
 /* @teleloc 0xB36D000D [27.786390 106.129500 24.536240] 0.677762 0.000000 0.000000 -0.735282 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B36D001, 0x7B36D002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B36D001, 0x7B36D003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B36D001, 0x7B36D004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B36D001, 0x7B36D005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B36D001, 0x7B36D006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B36D001, 0x7B36D007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B36D001, 0x7B36D008, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7B36D001, 0x7B36D002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B36D001, 0x7B36D003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B36D001, 0x7B36D004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B36D001, 0x7B36D005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B36D001, 0x7B36D006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B36D001, 0x7B36D007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B36D001, 0x7B36D008, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B36D002,   182, 0xB36D000D, 27.78639, 106.1295, 24.53624, 0.6777617, 0, 0, -0.7352816,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

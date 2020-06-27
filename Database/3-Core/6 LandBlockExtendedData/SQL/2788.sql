@@ -5,13 +5,13 @@ VALUES (0x72788001,  1154, 0x27880029, 123.1655, 15.87617, 112.4273, -0.7660444,
 /* @teleloc 0x27880029 [123.165500 15.876170 112.427300] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72788001, 0x72788002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72788001, 0x72788003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72788001, 0x72788004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72788001, 0x72788005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72788001, 0x72788006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72788001, 0x72788007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72788001, 0x72788008, '2019-02-10 00:00:00') /* Drudge Mystic */;
+VALUES (0x72788001, 0x72788002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72788001, 0x72788003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72788001, 0x72788004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72788001, 0x72788005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72788001, 0x72788006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72788001, 0x72788007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72788001, 0x72788008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72788002, 24497, 0x27880029, 123.1655, 15.87617, 112.4273, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -46,7 +46,7 @@ VALUES (0x72788009,  1542, 0x2788003E, 175.173, 132.6968, 104.8045, 0.9378912, 0
 /* @teleloc 0x2788003E [175.173000 132.696800 104.804500] 0.937891 0.000000 0.000000 -0.346930 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72788009, 0x7278800A, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x72788009, 0x7278800A, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7278800A, 11554, 0x2788003E, 175.173, 132.6968, 104.8045, 0.9378912, 0, 0, -0.3469295,  True, '2019-02-10 00:00:00'); /* Colban Plant */

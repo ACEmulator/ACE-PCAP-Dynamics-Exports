@@ -5,21 +5,21 @@ VALUES (0x71934001,  1154, 0x19340011, 59.49323, 0.3601374, 1.022219, 0.8159526,
 /* @teleloc 0x19340011 [59.493230 0.360137 1.022219] 0.815953 0.000000 0.000000 -0.578119 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71934001, 0x71934002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71934001, 0x71934003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71934001, 0x71934004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71934001, 0x71934005, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71934001, 0x71934006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71934001, 0x71934007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71934001, 0x71934008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71934001, 0x71934009, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x71934001, 0x7193400A, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x71934001, 0x7193400B, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71934001, 0x7193400C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71934001, 0x7193400D, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71934001, 0x7193400E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71934001, 0x7193400F, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x71934001, 0x71934010, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x71934001, 0x71934002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71934001, 0x71934003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71934001, 0x71934004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71934001, 0x71934005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71934001, 0x71934006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x71934001, 0x71934007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71934001, 0x71934008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71934001, 0x71934009, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71934001, 0x7193400A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71934001, 0x7193400B, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71934001, 0x7193400C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71934001, 0x7193400D, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71934001, 0x7193400E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71934001, 0x7193400F, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x71934001, 0x71934010, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71934002,  7097, 0x19340011, 59.49323, 0.3601374, 1.022219, 0.8159526, 0, 0, -0.5781188,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -86,9 +86,9 @@ VALUES (0x71934011,  1154, 0x19340002, 2.96324, 41.4414, 0.008249998, 0.439671, 
 /* @teleloc 0x19340002 [2.963240 41.441400 0.008250] 0.439671 0.000000 0.000000 -0.898159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71934011, 0x71934012, '2019-02-10 00:00:00') /* Banderling Guard Champion */
-     , (0x71934011, 0x71934013, '2019-02-10 00:00:00') /* Banderling Guard Champion */
-     , (0x71934011, 0x71934014, '2019-02-10 00:00:00') /* Chief Taraash */;
+VALUES (0x71934011, 0x71934012, '2019-02-10 00:00:00') /* Banderling Guard Champion (35338) */
+     , (0x71934011, 0x71934013, '2019-02-10 00:00:00') /* Banderling Guard Champion (35338) */
+     , (0x71934011, 0x71934014, '2019-02-10 00:00:00') /* Chief Taraash (35343) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71934012, 35338, 0x19340002, 2.96324, 41.4414, 0.008249998, 0.439671, 0, 0, -0.8981589,  True, '2019-02-10 00:00:00'); /* Banderling Guard Champion */
@@ -107,8 +107,8 @@ VALUES (0x71934015,  1542, 0x19340002, 8.71607, 40.7937, 0.06, 0.9957536, 0, 0, 
 /* @teleloc 0x19340002 [8.716070 40.793700 0.060000] 0.995754 0.000000 0.000000 -0.092059 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71934015, 0x71934016, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x71934015, 0x71934017, '2019-02-10 00:00:00') /* Campfire */;
+VALUES (0x71934015, 0x71934016, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x71934015, 0x71934017, '2019-02-10 00:00:00') /* Campfire (4128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71934016,  6118, 0x19340002, 8.71607, 40.7937, 0.06, 0.9957536, 0, 0, -0.09205896,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

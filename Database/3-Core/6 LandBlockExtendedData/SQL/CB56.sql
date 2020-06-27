@@ -5,9 +5,9 @@ VALUES (0x7CB56001,  1154, 0xCB560007, 23.35845, 165.4542, 30.20315, 0.7207848, 
 /* @teleloc 0xCB560007 [23.358450 165.454200 30.203150] 0.720785 0.000000 0.000000 -0.693159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB56001, 0x7CB56002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CB56001, 0x7CB56003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CB56001, 0x7CB56004, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7CB56001, 0x7CB56002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CB56001, 0x7CB56003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CB56001, 0x7CB56004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB56002,  9251, 0xCB560007, 23.35845, 165.4542, 30.20315, 0.7207848, 0, 0, -0.6931589,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -26,7 +26,7 @@ VALUES (0x7CB56005,  1542, 0xCB56002B, 121.2253, 64.43945, 17.65194, -0.8859702,
 /* @teleloc 0xCB56002B [121.225300 64.439450 17.651940] -0.885970 0.000000 0.000000 -0.463742 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB56005, 0x7CB56006, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CB56005, 0x7CB56006, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB56006,  8037, 0xCB56002B, 121.2253, 64.43945, 17.65194, -0.8859702, 0, 0, -0.4637422,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

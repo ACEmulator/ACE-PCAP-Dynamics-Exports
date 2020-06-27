@@ -5,29 +5,29 @@ VALUES (0x70F0A001,  1154, 0x0F0A0009, 32.03951, 2.50499, 28.26514, -0.0754646, 
 /* @teleloc 0x0F0A0009 [32.039510 2.504990 28.265140] -0.075465 0.000000 0.000000 -0.997149 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F0A001, 0x70F0A002, '2019-02-10 00:00:00') /* Stalking Margul */
-     , (0x70F0A001, 0x70F0A003, '2019-02-10 00:00:00') /* Malignant Marionette */
-     , (0x70F0A001, 0x70F0A004, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70F0A001, 0x70F0A005, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70F0A001, 0x70F0A006, '2019-02-10 00:00:00') /* Contagion Rat */
-     , (0x70F0A001, 0x70F0A007, '2019-02-10 00:00:00') /* Desecrated Doll */
-     , (0x70F0A001, 0x70F0A008, '2019-02-10 00:00:00') /* Malevolent Zefir */
-     , (0x70F0A001, 0x70F0A009, '2019-02-10 00:00:00') /* Sephal Nefane */
-     , (0x70F0A001, 0x70F0A00A, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70F0A001, 0x70F0A00B, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x70F0A001, 0x70F0A00C, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70F0A001, 0x70F0A00D, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70F0A001, 0x70F0A00E, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70F0A001, 0x70F0A00F, '2019-02-10 00:00:00') /* Listris Nefane */
-     , (0x70F0A001, 0x70F0A010, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x70F0A001, 0x70F0A011, '2019-02-10 00:00:00') /* Raven Hunter */
-     , (0x70F0A001, 0x70F0A012, '2019-02-10 00:00:00') /* Raven Conscript */
-     , (0x70F0A001, 0x70F0A013, '2019-02-10 00:00:00') /* Raven Augur */
-     , (0x70F0A001, 0x70F0A014, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70F0A001, 0x70F0A015, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70F0A001, 0x70F0A016, '2019-02-10 00:00:00') /* Befouled Doll */
-     , (0x70F0A001, 0x70F0A017, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70F0A001, 0x70F0A018, '2019-02-10 00:00:00') /* Mottled Carenzi */;
+VALUES (0x70F0A001, 0x70F0A002, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70F0A001, 0x70F0A003, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70F0A001, 0x70F0A004, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70F0A001, 0x70F0A005, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70F0A001, 0x70F0A006, '2019-02-10 00:00:00') /* Contagion Rat (25877) */
+     , (0x70F0A001, 0x70F0A007, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70F0A001, 0x70F0A008, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70F0A001, 0x70F0A009, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70F0A001, 0x70F0A00A, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70F0A001, 0x70F0A00B, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70F0A001, 0x70F0A00C, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70F0A001, 0x70F0A00D, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70F0A001, 0x70F0A00E, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70F0A001, 0x70F0A00F, '2019-02-10 00:00:00') /* Listris Nefane (25874) */
+     , (0x70F0A001, 0x70F0A010, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70F0A001, 0x70F0A011, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70F0A001, 0x70F0A012, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70F0A001, 0x70F0A013, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70F0A001, 0x70F0A014, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70F0A001, 0x70F0A015, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70F0A001, 0x70F0A016, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x70F0A001, 0x70F0A017, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70F0A001, 0x70F0A018, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F0A002, 25864, 0x0F0A0009, 32.03951, 2.50499, 28.26514, -0.0754646, 0, 0, -0.9971485,  True, '2019-02-10 00:00:00'); /* Stalking Margul */

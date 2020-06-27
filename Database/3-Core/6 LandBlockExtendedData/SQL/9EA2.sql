@@ -13,14 +13,14 @@ VALUES (0x79EA2002,  1154, 0x9EA20038, 146.9046, 185.8418, 106.5182, 0.7071068, 
 /* @teleloc 0x9EA20038 [146.904600 185.841800 106.518200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA2002, 0x79EA2003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA2002, 0x79EA2004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA2002, 0x79EA2005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA2002, 0x79EA2006, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x79EA2002, 0x79EA2007, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79EA2002, 0x79EA2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA2002, 0x79EA2009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EA2002, 0x79EA200A, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79EA2002, 0x79EA2003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA2002, 0x79EA2004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA2002, 0x79EA2005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA2002, 0x79EA2006, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x79EA2002, 0x79EA2007, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79EA2002, 0x79EA2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA2002, 0x79EA2009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EA2002, 0x79EA200A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA2003,  1758, 0x9EA20038, 146.9046, 185.8418, 106.5182, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -59,7 +59,7 @@ VALUES (0x79EA200B,  1154, 0x9EA20100, 61.5054, 31.1707, 136.005, -0.9981, 0, 0,
 /* @teleloc 0x9EA20100 [61.505400 31.170700 136.005000] -0.998100 0.000000 0.000000 -0.061615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA200B, 0x79EA200C, '2019-02-10 00:00:00') /* Mage Syltyn Rillon */;
+VALUES (0x79EA200B, 0x79EA200C, '2019-02-10 00:00:00') /* Mage Syltyn Rillon (24068) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA200C, 24068, 0x9EA20100, 61.5054, 31.1707, 136.005, -0.9981, 0, 0, -0.0616149,  True, '2019-02-10 00:00:00'); /* Mage Syltyn Rillon */
@@ -70,7 +70,7 @@ VALUES (0x79EA200D,  1542, 0x9EA20027, 110.8958, 158.4359, 106, 1, 0, 0, 0, Fals
 /* @teleloc 0x9EA20027 [110.895800 158.435900 106.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA200D, 0x79EA200E, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x79EA200D, 0x79EA200E, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA200E,  8232, 0x9EA20027, 110.8958, 158.4359, 106, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

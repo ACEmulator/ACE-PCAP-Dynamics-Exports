@@ -5,12 +5,12 @@ VALUES (0x76CEA001,  1154, 0x6CEA003D, 178.5069, 118.2096, 47.91035, -0.5795034,
 /* @teleloc 0x6CEA003D [178.506900 118.209600 47.910350] -0.579503 0.000000 0.000000 -0.814970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CEA001, 0x76CEA002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x76CEA001, 0x76CEA003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x76CEA001, 0x76CEA004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76CEA001, 0x76CEA005, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x76CEA001, 0x76CEA006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x76CEA001, 0x76CEA007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x76CEA001, 0x76CEA002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x76CEA001, 0x76CEA003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x76CEA001, 0x76CEA004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76CEA001, 0x76CEA005, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x76CEA001, 0x76CEA006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x76CEA001, 0x76CEA007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CEA002,  4216, 0x6CEA003D, 178.5069, 118.2096, 47.91035, -0.5795034, 0, 0, -0.8149698,  True, '2019-02-10 00:00:00'); /* Diamond Golem */

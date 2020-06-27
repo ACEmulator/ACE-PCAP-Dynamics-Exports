@@ -9,54 +9,54 @@ VALUES (0x7AAA8012,  1154, 0xAAA80101, 158.984, 55.6206, 180.8046, -0.0609442, 0
 /* @teleloc 0xAAA80101 [158.984000 55.620600 180.804600] -0.060944 0.000000 0.000000 -0.998141 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA8012, 0x7AAA8013, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8014, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8015, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8016, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8017, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AAA8012, 0x7AAA8018, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8019, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA801F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8020, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8021, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8022, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8023, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7AAA8012, 0x7AAA8024, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7AAA8012, 0x7AAA8025, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AAA8012, 0x7AAA8026, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7AAA8012, 0x7AAA8027, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7AAA8012, 0x7AAA8028, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7AAA8012, 0x7AAA8029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA802A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA802B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA802C, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AAA8012, 0x7AAA802D, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AAA8012, 0x7AAA802E, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAA8012, 0x7AAA802F, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAA8012, 0x7AAA8030, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AAA8012, 0x7AAA8031, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA8032, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AAA8012, 0x7AAA8033, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AAA8012, 0x7AAA8034, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AAA8012, 0x7AAA8035, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AAA8012, 0x7AAA8036, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAA8012, 0x7AAA8037, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAA8012, 0x7AAA8038, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAA8012, 0x7AAA8039, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AAA8012, 0x7AAA803A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAA8012, 0x7AAA803B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AAA8012, 0x7AAA803C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA803D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA803E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AAA8012, 0x7AAA803F, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AAA8012, 0x7AAA8040, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7AAA8012, 0x7AAA8041, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AAA8012, 0x7AAA8042, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7AAA8012, 0x7AAA8013, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8014, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8015, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8016, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8017, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AAA8012, 0x7AAA8018, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8019, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA801F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8020, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8021, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8022, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8023, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7AAA8012, 0x7AAA8024, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7AAA8012, 0x7AAA8025, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AAA8012, 0x7AAA8026, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7AAA8012, 0x7AAA8027, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7AAA8012, 0x7AAA8028, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7AAA8012, 0x7AAA8029, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA802A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA802B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA802C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AAA8012, 0x7AAA802D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AAA8012, 0x7AAA802E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAA8012, 0x7AAA802F, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAA8012, 0x7AAA8030, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AAA8012, 0x7AAA8031, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA8032, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AAA8012, 0x7AAA8033, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AAA8012, 0x7AAA8034, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AAA8012, 0x7AAA8035, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AAA8012, 0x7AAA8036, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAA8012, 0x7AAA8037, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAA8012, 0x7AAA8038, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAA8012, 0x7AAA8039, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AAA8012, 0x7AAA803A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAA8012, 0x7AAA803B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AAA8012, 0x7AAA803C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA803D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA803E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AAA8012, 0x7AAA803F, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AAA8012, 0x7AAA8040, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7AAA8012, 0x7AAA8041, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AAA8012, 0x7AAA8042, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAA8013,  1610, 0xAAA80101, 158.984, 55.6206, 180.8046, -0.0609442, 0, 0, -0.998141,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -255,12 +255,12 @@ VALUES (0x7AAA8043,  1542, 0xAAA8001A, 84.54111, 37.31325, 166.9, -0.2633494, 0,
 /* @teleloc 0xAAA8001A [84.541110 37.313250 166.900000] -0.263349 0.000000 0.000000 -0.964701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAA8043, 0x7AAA8044, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7AAA8043, 0x7AAA8045, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AAA8043, 0x7AAA8046, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAA8043, 0x7AAA8047, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AAA8043, 0x7AAA8048, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7AAA8043, 0x7AAA8049, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7AAA8043, 0x7AAA8044, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7AAA8043, 0x7AAA8045, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7AAA8043, 0x7AAA8046, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAA8043, 0x7AAA8047, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AAA8043, 0x7AAA8048, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x7AAA8043, 0x7AAA8049, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAA8044,  8037, 0xAAA8001A, 84.54111, 37.31325, 166.9, -0.2633494, 0, 0, -0.9647005,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

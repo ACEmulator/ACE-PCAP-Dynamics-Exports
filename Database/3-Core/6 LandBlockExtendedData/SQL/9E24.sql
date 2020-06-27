@@ -5,16 +5,16 @@ VALUES (0x79E24001,  1154, 0x9E240015, 65.26773, 104.9397, 241.0719, 0.7071068, 
 /* @teleloc 0x9E240015 [65.267730 104.939700 241.071900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E24001, 0x79E24002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79E24001, 0x79E24003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x79E24001, 0x79E24004, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x79E24001, 0x79E24005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x79E24001, 0x79E24006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79E24001, 0x79E24007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79E24001, 0x79E24008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79E24001, 0x79E24009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79E24001, 0x79E2400A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x79E24001, 0x79E2400B, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x79E24001, 0x79E24002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79E24001, 0x79E24003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x79E24001, 0x79E24004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x79E24001, 0x79E24005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x79E24001, 0x79E24006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79E24001, 0x79E24007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79E24001, 0x79E24008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79E24001, 0x79E24009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79E24001, 0x79E2400A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x79E24001, 0x79E2400B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E24002,   201, 0x9E240015, 65.26773, 104.9397, 241.0719, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

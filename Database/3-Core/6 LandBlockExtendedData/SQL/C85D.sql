@@ -5,18 +5,18 @@ VALUES (0x7C85D001,  1154, 0xC85D0010, 43.63132, 178.0655, 5.9046, 0.9537169, 0,
 /* @teleloc 0xC85D0010 [43.631320 178.065500 5.904600] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85D001, 0x7C85D002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C85D001, 0x7C85D003, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C85D001, 0x7C85D004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C85D001, 0x7C85D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C85D001, 0x7C85D00B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7C85D001, 0x7C85D00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C85D001, 0x7C85D00D, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7C85D001, 0x7C85D002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C85D001, 0x7C85D003, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C85D001, 0x7C85D004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C85D001, 0x7C85D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C85D001, 0x7C85D00B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7C85D001, 0x7C85D00C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C85D001, 0x7C85D00D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85D002,  4246, 0xC85D0010, 43.63132, 178.0655, 5.9046, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -71,8 +71,8 @@ VALUES (0x7C85D00E,  1542, 0xC85D0010, 42.0371, 175.7291, 5.9, 0.9990482, 0, 0, 
 /* @teleloc 0xC85D0010 [42.037100 175.729100 5.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C85D00E, 0x7C85D00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C85D00E, 0x7C85D010, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7C85D00E, 0x7C85D00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C85D00E, 0x7C85D010, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C85D00F,  4179, 0xC85D0010, 42.0371, 175.7291, 5.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

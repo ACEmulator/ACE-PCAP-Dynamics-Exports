@@ -5,9 +5,9 @@ VALUES (0x7C69D001,  1154, 0xC69D001B, 84.4845, 65.23524, 13.985, 0.7372774, 0, 
 /* @teleloc 0xC69D001B [84.484500 65.235240 13.985000] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C69D001, 0x7C69D002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C69D001, 0x7C69D003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C69D001, 0x7C69D004, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7C69D001, 0x7C69D002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C69D001, 0x7C69D003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C69D001, 0x7C69D004, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C69D002,  4110, 0xC69D001B, 84.4845, 65.23524, 13.985, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -26,7 +26,7 @@ VALUES (0x7C69D005,  1542, 0xC69D0009, 38.17123, 15.50318, 10.48609, -4.371139E-
 /* @teleloc 0xC69D0009 [38.171230 15.503180 10.486090] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C69D005, 0x7C69D006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C69D005, 0x7C69D006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C69D006,  4380, 0xC69D0009, 38.17123, 15.50318, 10.48609, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

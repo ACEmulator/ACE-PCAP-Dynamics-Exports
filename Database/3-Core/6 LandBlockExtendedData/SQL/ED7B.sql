@@ -5,20 +5,20 @@ VALUES (0x7ED7B001,  1154, 0xED7B000F, 35.09198, 148.5882, 9.08388, -0.9711691, 
 /* @teleloc 0xED7B000F [35.091980 148.588200 9.083880] -0.971169 0.000000 0.000000 -0.238392 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED7B001, 0x7ED7B002, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED7B001, 0x7ED7B003, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED7B001, 0x7ED7B004, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED7B001, 0x7ED7B005, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED7B001, 0x7ED7B006, '2019-02-10 00:00:00') /* Infected Assailer */
-     , (0x7ED7B001, 0x7ED7B007, '2019-02-10 00:00:00') /* Tuskie Gunner */
-     , (0x7ED7B001, 0x7ED7B008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7ED7B001, 0x7ED7B009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED7B001, 0x7ED7B00A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED7B001, 0x7ED7B00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7ED7B001, 0x7ED7B00C, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7ED7B001, 0x7ED7B00D, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7ED7B001, 0x7ED7B00E, '2019-02-10 00:00:00') /* Reaper */
-     , (0x7ED7B001, 0x7ED7B00F, '2019-02-10 00:00:00') /* Reaper */;
+VALUES (0x7ED7B001, 0x7ED7B002, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED7B001, 0x7ED7B003, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED7B001, 0x7ED7B004, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED7B001, 0x7ED7B005, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED7B001, 0x7ED7B006, '2019-02-10 00:00:00') /* Infected Assailer (27800) */
+     , (0x7ED7B001, 0x7ED7B007, '2019-02-10 00:00:00') /* Tuskie Gunner (22521) */
+     , (0x7ED7B001, 0x7ED7B008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7ED7B001, 0x7ED7B009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED7B001, 0x7ED7B00A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED7B001, 0x7ED7B00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7ED7B001, 0x7ED7B00C, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7ED7B001, 0x7ED7B00D, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7ED7B001, 0x7ED7B00E, '2019-02-10 00:00:00') /* Reaper (22747) */
+     , (0x7ED7B001, 0x7ED7B00F, '2019-02-10 00:00:00') /* Reaper (22747) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED7B002, 27800, 0xED7B000F, 35.09198, 148.5882, 9.08388, -0.9711691, 0, 0, -0.2383917,  True, '2019-02-10 00:00:00'); /* Infected Assailer */
@@ -81,8 +81,8 @@ VALUES (0x7ED7B010,  1542, 0xED7B0006, 18.45408, 122.2273, 10.15238, -0.846964, 
 /* @teleloc 0xED7B0006 [18.454080 122.227300 10.152380] -0.846964 0.000000 0.000000 -0.531650 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED7B010, 0x7ED7B011, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */
-     , (0x7ED7B010, 0x7ED7B012, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator */;
+VALUES (0x7ED7B010, 0x7ED7B011, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */
+     , (0x7ED7B010, 0x7ED7B012, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED7B011, 27803, 0xED7B0006, 18.45408, 122.2273, 10.15238, -0.846964, 0, 0, -0.5316502,  True, '2019-02-10 00:00:00'); /* Infected Assailer Camp Generator */

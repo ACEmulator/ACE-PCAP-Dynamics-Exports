@@ -5,19 +5,19 @@ VALUES (0x7A04A001,  1154, 0xA04A003E, 173.3447, 132.5267, 40.15561, 0.7660445, 
 /* @teleloc 0xA04A003E [173.344700 132.526700 40.155610] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A04A001, 0x7A04A002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A04A001, 0x7A04A003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A04A001, 0x7A04A004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A04A001, 0x7A04A005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A04A001, 0x7A04A006, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A04A001, 0x7A04A007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A04A001, 0x7A04A008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A04A001, 0x7A04A009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A04A001, 0x7A04A00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7A04A001, 0x7A04A00B, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A04A001, 0x7A04A00C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A04A001, 0x7A04A00D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A04A001, 0x7A04A00E, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7A04A001, 0x7A04A002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A04A001, 0x7A04A003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A04A001, 0x7A04A004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A04A001, 0x7A04A005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A04A001, 0x7A04A006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A04A001, 0x7A04A007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A04A001, 0x7A04A008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A04A001, 0x7A04A009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A04A001, 0x7A04A00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7A04A001, 0x7A04A00B, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A04A001, 0x7A04A00C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A04A001, 0x7A04A00D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A04A001, 0x7A04A00E, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A04A002,  1761, 0xA04A003E, 173.3447, 132.5267, 40.15561, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

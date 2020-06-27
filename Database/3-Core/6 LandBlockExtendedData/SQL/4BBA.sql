@@ -5,13 +5,13 @@ VALUES (0x74BBA001,  1154, 0x4BBA0036, 150.1685, 136.6316, 79.84384, -0.7275265,
 /* @teleloc 0x4BBA0036 [150.168500 136.631600 79.843840] -0.727527 0.000000 0.000000 -0.686080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BBA001, 0x74BBA002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x74BBA001, 0x74BBA003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74BBA001, 0x74BBA004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x74BBA001, 0x74BBA005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74BBA001, 0x74BBA006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74BBA001, 0x74BBA007, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x74BBA001, 0x74BBA008, '2019-02-10 00:00:00') /* Virindi Puppet */;
+VALUES (0x74BBA001, 0x74BBA002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x74BBA001, 0x74BBA003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74BBA001, 0x74BBA004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x74BBA001, 0x74BBA005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74BBA001, 0x74BBA006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74BBA001, 0x74BBA007, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x74BBA001, 0x74BBA008, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BBA002, 28551, 0x4BBA0036, 150.1685, 136.6316, 79.84384, -0.7275265, 0, 0, -0.6860795,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

@@ -5,14 +5,14 @@ VALUES (0x79EEA001,  1154, 0x9EEA0024, 107.2407, 91.72676, 150.2653, 1, 0, 0, 0,
 /* @teleloc 0x9EEA0024 [107.240700 91.726760 150.265300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EEA001, 0x79EEA002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79EEA001, 0x79EEA003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79EEA001, 0x79EEA004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79EEA001, 0x79EEA005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79EEA001, 0x79EEA006, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79EEA001, 0x79EEA007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x79EEA001, 0x79EEA008, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79EEA001, 0x79EEA009, '2019-02-10 00:00:00') /* Ferocious Monouga */;
+VALUES (0x79EEA001, 0x79EEA002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79EEA001, 0x79EEA003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79EEA001, 0x79EEA004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79EEA001, 0x79EEA005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79EEA001, 0x79EEA006, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79EEA001, 0x79EEA007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x79EEA001, 0x79EEA008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79EEA001, 0x79EEA009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EEA002,  7085, 0x9EEA0024, 107.2407, 91.72676, 150.2653, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
@@ -51,8 +51,8 @@ VALUES (0x79EEA00A,  1542, 0x9EEA0017, 49.92509, 154.724, 141.4529, 1, 0, 0, 0, 
 /* @teleloc 0x9EEA0017 [49.925090 154.724000 141.452900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EEA00A, 0x79EEA00B, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x79EEA00A, 0x79EEA00C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79EEA00A, 0x79EEA00B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x79EEA00A, 0x79EEA00C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EEA00B,  8646, 0x9EEA0017, 49.92509, 154.724, 141.4529, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,12 +5,12 @@ VALUES (0x75C17001,  1154, 0x5C17003F, 173.9092, 149.499, 120.0075, -0.9851848, 
 /* @teleloc 0x5C17003F [173.909200 149.499000 120.007500] -0.985185 0.000000 0.000000 -0.171496 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C17001, 0x75C17002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75C17001, 0x75C17003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75C17001, 0x75C17004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C17001, 0x75C17005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x75C17001, 0x75C17006, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75C17001, 0x75C17007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x75C17001, 0x75C17002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75C17001, 0x75C17003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75C17001, 0x75C17004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75C17001, 0x75C17005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x75C17001, 0x75C17006, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75C17001, 0x75C17007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C17002,  7123, 0x5C17003F, 173.9092, 149.499, 120.0075, -0.9851848, 0, 0, -0.1714962,  True, '2019-02-10 00:00:00'); /* Dark Leech */

@@ -5,11 +5,11 @@ VALUES (0x79967001,  1154, 0x9967000E, 24.11769, 130.3356, 30.005, 0.9537169, 0,
 /* @teleloc 0x9967000E [24.117690 130.335600 30.005000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79967001, 0x79967002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79967001, 0x79967003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79967001, 0x79967004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79967001, 0x79967005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x79967001, 0x79967006, '2019-02-10 00:00:00') /* Blood Shreth */;
+VALUES (0x79967001, 0x79967002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79967001, 0x79967003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79967001, 0x79967004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79967001, 0x79967005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x79967001, 0x79967006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79967002,  1615, 0x9967000E, 24.11769, 130.3356, 30.005, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */

@@ -5,18 +5,18 @@ VALUES (0x7BEB8001,  1154, 0xBEB80002, 16.93011, 24.06754, 216.3806, -0.9606292,
 /* @teleloc 0xBEB80002 [16.930110 24.067540 216.380600] -0.960629 0.000000 0.000000 -0.277834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB8001, 0x7BEB8002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEB8001, 0x7BEB8003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BEB8001, 0x7BEB8004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BEB8001, 0x7BEB8005, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB8001, 0x7BEB8006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BEB8001, 0x7BEB8007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB8001, 0x7BEB8008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB8001, 0x7BEB8009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BEB8001, 0x7BEB800A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7BEB8001, 0x7BEB800B, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB8001, 0x7BEB800C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BEB8001, 0x7BEB800D, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7BEB8001, 0x7BEB8002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEB8001, 0x7BEB8003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BEB8001, 0x7BEB8004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BEB8001, 0x7BEB8005, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB8001, 0x7BEB8006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BEB8001, 0x7BEB8007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB8001, 0x7BEB8008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB8001, 0x7BEB8009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BEB8001, 0x7BEB800A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7BEB8001, 0x7BEB800B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB8001, 0x7BEB800C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BEB8001, 0x7BEB800D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB8002,  2582, 0xBEB80002, 16.93011, 24.06754, 216.3806, -0.9606292, 0, 0, -0.2778336,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
@@ -71,7 +71,7 @@ VALUES (0x7BEB800E,  1542, 0xBEB80002, 23.78383, 28.66216, 209.5214, 0.9990482, 
 /* @teleloc 0xBEB80002 [23.783830 28.662160 209.521400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEB800E, 0x7BEB800F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BEB800E, 0x7BEB800F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEB800F,  4179, 0xBEB80002, 23.78383, 28.66216, 209.5214, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

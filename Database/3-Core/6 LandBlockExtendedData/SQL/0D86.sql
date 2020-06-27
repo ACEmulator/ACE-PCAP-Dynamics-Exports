@@ -5,21 +5,21 @@ VALUES (0x70D86001,  1154, 0x0D86002E, 137.3617, 124.8412, 12.28455, -0.9206762,
 /* @teleloc 0x0D86002E [137.361700 124.841200 12.284550] -0.920676 0.000000 0.000000 -0.390327 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D86001, 0x70D86002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70D86001, 0x70D86003, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x70D86001, 0x70D86004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x70D86001, 0x70D86005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x70D86001, 0x70D86006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70D86001, 0x70D86007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70D86001, 0x70D86008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x70D86001, 0x70D86009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x70D86001, 0x70D8600A, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70D86001, 0x70D8600B, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70D86001, 0x70D8600C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70D86001, 0x70D8600D, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70D86001, 0x70D8600E, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x70D86001, 0x70D8600F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D86001, 0x70D86010, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70D86001, 0x70D86002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70D86001, 0x70D86003, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x70D86001, 0x70D86004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x70D86001, 0x70D86005, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x70D86001, 0x70D86006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x70D86001, 0x70D86007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70D86001, 0x70D86008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x70D86001, 0x70D86009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x70D86001, 0x70D8600A, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70D86001, 0x70D8600B, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70D86001, 0x70D8600C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70D86001, 0x70D8600D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70D86001, 0x70D8600E, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x70D86001, 0x70D8600F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D86001, 0x70D86010, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D86002, 36818, 0x0D86002E, 137.3617, 124.8412, 12.28455, -0.9206762, 0, 0, -0.3903271,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

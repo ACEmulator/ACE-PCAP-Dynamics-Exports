@@ -5,17 +5,17 @@ VALUES (0x71E13001,  1154, 0x1E13000D, 35.4614, 103.1, -0.09350002, -0.991476, 0
 /* @teleloc 0x1E13000D [35.461400 103.100000 -0.093500] -0.991476 0.000000 0.000000 -0.130287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E13001, 0x71E13002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71E13001, 0x71E13003, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71E13001, 0x71E13004, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71E13001, 0x71E13005, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71E13001, 0x71E13006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71E13001, 0x71E13007, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71E13001, 0x71E13008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71E13001, 0x71E13009, '2019-02-10 00:00:00') /* Withered Drudge Seraph */
-     , (0x71E13001, 0x71E1300A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71E13001, 0x71E1300B, '2019-02-10 00:00:00') /* Withered Banderling Hierophant */
-     , (0x71E13001, 0x71E1300C, '2019-02-10 00:00:00') /* Withered Drudge Seraph */;
+VALUES (0x71E13001, 0x71E13002, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71E13001, 0x71E13003, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E13001, 0x71E13004, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E13001, 0x71E13005, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71E13001, 0x71E13006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71E13001, 0x71E13007, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E13001, 0x71E13008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71E13001, 0x71E13009, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */
+     , (0x71E13001, 0x71E1300A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71E13001, 0x71E1300B, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
+     , (0x71E13001, 0x71E1300C, '2019-02-10 00:00:00') /* Withered Drudge Seraph (30680) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E13002, 30687, 0x1E13000D, 35.4614, 103.1, -0.09350002, -0.991476, 0, 0, -0.130287,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */

@@ -5,21 +5,21 @@ VALUES (0x795D2001,  1154, 0x95D20032, 149.645, 35.22478, 242.3664, -0.9981058, 
 /* @teleloc 0x95D20032 [149.645000 35.224780 242.366400] -0.998106 0.000000 0.000000 -0.061521 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D2001, 0x795D2002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x795D2001, 0x795D2003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x795D2001, 0x795D2004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795D2001, 0x795D2005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795D2001, 0x795D2006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795D2001, 0x795D2007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x795D2001, 0x795D2008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795D2001, 0x795D2009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795D2001, 0x795D200A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x795D2001, 0x795D200B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x795D2001, 0x795D200C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x795D2001, 0x795D200D, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x795D2001, 0x795D200E, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x795D2001, 0x795D200F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x795D2001, 0x795D2010, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x795D2001, 0x795D2002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x795D2001, 0x795D2003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x795D2001, 0x795D2004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795D2001, 0x795D2005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795D2001, 0x795D2006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795D2001, 0x795D2007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x795D2001, 0x795D2008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795D2001, 0x795D2009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795D2001, 0x795D200A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x795D2001, 0x795D200B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x795D2001, 0x795D200C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x795D2001, 0x795D200D, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x795D2001, 0x795D200E, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x795D2001, 0x795D200F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x795D2001, 0x795D2010, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D2002, 11481, 0x95D20032, 149.645, 35.22478, 242.3664, -0.9981058, 0, 0, -0.06152143,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

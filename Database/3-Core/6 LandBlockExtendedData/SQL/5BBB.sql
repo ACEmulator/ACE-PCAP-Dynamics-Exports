@@ -5,12 +5,12 @@ VALUES (0x75BBB001,  1154, 0x5BBB0028, 98.51527, 185.2205, 0.006000042, 0.165946
 /* @teleloc 0x5BBB0028 [98.515270 185.220500 0.006000] 0.165946 0.000000 0.000000 -0.986135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BBB001, 0x75BBB002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75BBB001, 0x75BBB003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x75BBB001, 0x75BBB004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75BBB001, 0x75BBB005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75BBB001, 0x75BBB006, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75BBB001, 0x75BBB007, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x75BBB001, 0x75BBB002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75BBB001, 0x75BBB003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x75BBB001, 0x75BBB004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75BBB001, 0x75BBB005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75BBB001, 0x75BBB006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75BBB001, 0x75BBB007, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BBB002,   228, 0x5BBB0028, 98.51527, 185.2205, 0.006000042, 0.1659461, 0, 0, -0.9861348,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -41,7 +41,7 @@ VALUES (0x75BBB008,  1542, 0x5BBB0010, 45.19282, 187.7672, -0.002161026, 1, 0, 0
 /* @teleloc 0x5BBB0010 [45.192820 187.767200 -0.002161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75BBB008, 0x75BBB009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x75BBB008, 0x75BBB009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75BBB009, 31445, 0x5BBB0010, 45.19282, 187.7672, -0.002161026, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

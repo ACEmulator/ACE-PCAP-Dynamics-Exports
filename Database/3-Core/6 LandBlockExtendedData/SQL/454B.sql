@@ -5,9 +5,9 @@ VALUES (0x7454B001,  1154, 0x454B0029, 141.0032, 2.255936, 0.006500006, 0.552484
 /* @teleloc 0x454B0029 [141.003200 2.255936 0.006500] 0.552485 0.000000 0.000000 -0.833523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454B001, 0x7454B002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7454B001, 0x7454B003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7454B001, 0x7454B004, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7454B001, 0x7454B002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7454B001, 0x7454B003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7454B001, 0x7454B004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454B002, 21549, 0x454B0029, 141.0032, 2.255936, 0.006500006, 0.5524846, 0, 0, -0.8335231,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -26,7 +26,7 @@ VALUES (0x7454B005,  1542, 0x454B0029, 130.6525, 1.209976, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x454B0029 [130.652500 1.209976 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454B005, 0x7454B006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7454B005, 0x7454B006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454B006, 22571, 0x454B0029, 130.6525, 1.209976, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

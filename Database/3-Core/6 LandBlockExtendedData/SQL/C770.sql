@@ -9,29 +9,29 @@ VALUES (0x7C770017,  1154, 0xC7700105, 181.7823, 168.4786, 39.2055, -0.1605761, 
 /* @teleloc 0xC7700105 [181.782300 168.478600 39.205500] -0.160576 0.000000 0.000000 -0.987024 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C770017, 0x7C770018, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C770019, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C770017, 0x7C77001A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C770017, 0x7C77001B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C770017, 0x7C77001C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C770017, 0x7C77001D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C770017, 0x7C77001E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C77001F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C770017, 0x7C770020, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C770017, 0x7C770021, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7C770017, 0x7C770022, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C770017, 0x7C770023, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C770017, 0x7C770024, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C770025, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C770026, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C770017, 0x7C770027, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C770017, 0x7C770028, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7C770017, 0x7C770029, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C770017, 0x7C77002A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C770017, 0x7C77002B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C77002C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C770017, 0x7C77002D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C770017, 0x7C77002E, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x7C770017, 0x7C770018, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C770019, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C770017, 0x7C77001A, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C770017, 0x7C77001B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C770017, 0x7C77001C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C770017, 0x7C77001D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C770017, 0x7C77001E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C77001F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C770017, 0x7C770020, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C770017, 0x7C770021, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7C770017, 0x7C770022, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C770017, 0x7C770023, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C770017, 0x7C770024, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C770025, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C770026, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C770017, 0x7C770027, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C770017, 0x7C770028, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7C770017, 0x7C770029, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C770017, 0x7C77002A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C770017, 0x7C77002B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C77002C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C770017, 0x7C77002D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C770017, 0x7C77002E, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C770018,   947, 0xC7700105, 181.7823, 168.4786, 39.2055, -0.1605761, 0, 0, -0.9870235,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -130,16 +130,16 @@ VALUES (0x7C77002F,  1542, 0xC770011B, 95.2919, 151.403, 30.0855, -0.733214, 0, 
 /* @teleloc 0xC770011B [95.291900 151.403000 30.085500] -0.733214 0.000000 0.000000 -0.679998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C77002F, 0x7C770030, '2019-02-10 00:00:00') /* Scroll of Endurance Other II */
-     , (0x7C77002F, 0x7C770031, '2019-02-10 00:00:00') /* Scroll of Light Weapon Mastery Other */
-     , (0x7C77002F, 0x7C770032, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7C77002F, 0x7C770033, '2019-02-10 00:00:00') /* Lesser Mana Stone */
-     , (0x7C77002F, 0x7C770034, '2019-02-10 00:00:00') /* Chainmail Bracers */
-     , (0x7C77002F, 0x7C770035, '2019-02-10 00:00:00') /* Iron Pea */
-     , (0x7C77002F, 0x7C770036, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7C77002F, 0x7C770037, '2019-02-10 00:00:00') /* Lead Pea */
-     , (0x7C77002F, 0x7C770038, '2019-02-10 00:00:00') /* Minor Mana Stone */
-     , (0x7C77002F, 0x7C770039, '2019-02-10 00:00:00') /* Sollerets */;
+VALUES (0x7C77002F, 0x7C770030, '2019-02-10 00:00:00') /* Scroll of Endurance Other II (2654) */
+     , (0x7C77002F, 0x7C770031, '2019-02-10 00:00:00') /* Scroll of Light Weapon Mastery Other (1670) */
+     , (0x7C77002F, 0x7C770032, '2019-02-10 00:00:00') /* Leather Gauntlets (25642) */
+     , (0x7C77002F, 0x7C770033, '2019-02-10 00:00:00') /* Lesser Mana Stone (2434) */
+     , (0x7C77002F, 0x7C770034, '2019-02-10 00:00:00') /* Chainmail Bracers (413) */
+     , (0x7C77002F, 0x7C770035, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x7C77002F, 0x7C770036, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7C77002F, 0x7C770037, '2019-02-10 00:00:00') /* Lead Pea (8329) */
+     , (0x7C77002F, 0x7C770038, '2019-02-10 00:00:00') /* Minor Mana Stone (27331) */
+     , (0x7C77002F, 0x7C770039, '2019-02-10 00:00:00') /* Sollerets (107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C770030,  2654, 0xC770011B, 95.2919, 151.403, 30.0855, -0.733214, 0, 0, -0.679998,  True, '2019-02-10 00:00:00'); /* Scroll of Endurance Other II */

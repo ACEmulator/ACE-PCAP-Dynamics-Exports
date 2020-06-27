@@ -5,11 +5,11 @@ VALUES (0x78EC3001,  1154, 0x8EC30001, 21.10871, 9.410771, 67.93443, -0.5360365,
 /* @teleloc 0x8EC30001 [21.108710 9.410771 67.934430] -0.536037 0.000000 0.000000 -0.844195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC3001, 0x78EC3002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78EC3001, 0x78EC3003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78EC3001, 0x78EC3004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EC3001, 0x78EC3005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EC3001, 0x78EC3006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x78EC3001, 0x78EC3002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78EC3001, 0x78EC3003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78EC3001, 0x78EC3004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EC3001, 0x78EC3005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EC3001, 0x78EC3006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC3002, 28551, 0x8EC30001, 21.10871, 9.410771, 67.93443, -0.5360365, 0, 0, -0.8441948,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -36,7 +36,7 @@ VALUES (0x78EC3007,  1542, 0x8EC30008, 21.01534, 172.6684, 30.49237, 0.001764968
 /* @teleloc 0x8EC30008 [21.015340 172.668400 30.492370] 0.001765 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC3007, 0x78EC3008, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x78EC3007, 0x78EC3008, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC3008, 31687, 0x8EC30008, 21.01534, 172.6684, 30.49237, 0.001764968, 0, 0, -0.9999985,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

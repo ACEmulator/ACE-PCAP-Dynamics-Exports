@@ -5,10 +5,10 @@ VALUES (0x7BC30001,  1154, 0xBC300026, 106.2609, 141.1557, 235.5969, -0.4901597,
 /* @teleloc 0xBC300026 [106.260900 141.155700 235.596900] -0.490160 0.000000 0.000000 -0.871633 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC30001, 0x7BC30002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BC30001, 0x7BC30003, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7BC30001, 0x7BC30004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BC30001, 0x7BC30005, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7BC30001, 0x7BC30002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BC30001, 0x7BC30003, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7BC30001, 0x7BC30004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BC30001, 0x7BC30005, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC30002,  1757, 0xBC300026, 106.2609, 141.1557, 235.5969, -0.4901597, 0, 0, -0.8716326,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

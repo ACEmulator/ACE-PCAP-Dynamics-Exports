@@ -5,13 +5,13 @@ VALUES (0x7B616001,  1154, 0xB6160007, 11.98325, 161.1373, 58.14972, 0.9396926, 
 /* @teleloc 0xB6160007 [11.983250 161.137300 58.149720] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B616001, 0x7B616002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B616001, 0x7B616003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B616001, 0x7B616004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7B616001, 0x7B616005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B616001, 0x7B616006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B616001, 0x7B616007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B616001, 0x7B616008, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7B616001, 0x7B616002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B616001, 0x7B616003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B616001, 0x7B616004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7B616001, 0x7B616005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B616001, 0x7B616006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B616001, 0x7B616007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B616001, 0x7B616008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B616002, 37100, 0xB6160007, 11.98325, 161.1373, 58.14972, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */

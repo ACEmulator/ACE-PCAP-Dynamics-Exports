@@ -9,12 +9,12 @@ VALUES (0x762CF001,  1154, 0x62CF000F, 35.28779, 152.2572, 10.51294, 0.4016609, 
 /* @teleloc 0x62CF000F [35.287790 152.257200 10.512940] 0.401661 0.000000 0.000000 -0.915789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762CF001, 0x762CF002, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x762CF001, 0x762CF003, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x762CF001, 0x762CF004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x762CF001, 0x762CF005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x762CF001, 0x762CF006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x762CF001, 0x762CF007, '2019-02-10 00:00:00') /* Viamontian Mage */;
+VALUES (0x762CF001, 0x762CF002, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x762CF001, 0x762CF003, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x762CF001, 0x762CF004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x762CF001, 0x762CF005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x762CF001, 0x762CF006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x762CF001, 0x762CF007, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762CF002, 36918, 0x62CF000F, 35.28779, 152.2572, 10.51294, 0.4016609, 0, 0, -0.9157885,  True, '2019-02-10 00:00:00'); /* Three Eyed Snowman */
@@ -45,7 +45,7 @@ VALUES (0x762CF008,  1542, 0x62CF0006, 20.38999, 131.3302, 10.60167, 1, 0, 0, 0,
 /* @teleloc 0x62CF0006 [20.389990 131.330200 10.601670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762CF008, 0x762CF009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x762CF008, 0x762CF009, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762CF009, 22571, 0x62CF0006, 20.38999, 131.3302, 10.60167, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

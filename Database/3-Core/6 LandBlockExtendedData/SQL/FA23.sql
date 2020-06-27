@@ -5,18 +5,18 @@ VALUES (0x7FA23001,  1154, 0xFA23001F, 93.91325, 160.9827, 0.006600022, 0.866025
 /* @teleloc 0xFA23001F [93.913250 160.982700 0.006600] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA23001, 0x7FA23002, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7FA23001, 0x7FA23003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7FA23001, 0x7FA23004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7FA23001, 0x7FA23005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7FA23001, 0x7FA23006, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7FA23001, 0x7FA23007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA23001, 0x7FA23008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7FA23001, 0x7FA23009, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x7FA23001, 0x7FA2300A, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7FA23001, 0x7FA2300B, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x7FA23001, 0x7FA2300C, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x7FA23001, 0x7FA2300D, '2019-02-10 00:00:00') /* Slithayr Tendril */;
+VALUES (0x7FA23001, 0x7FA23002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7FA23001, 0x7FA23003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7FA23001, 0x7FA23004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7FA23001, 0x7FA23005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7FA23001, 0x7FA23006, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7FA23001, 0x7FA23007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA23001, 0x7FA23008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7FA23001, 0x7FA23009, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7FA23001, 0x7FA2300A, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7FA23001, 0x7FA2300B, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7FA23001, 0x7FA2300C, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7FA23001, 0x7FA2300D, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA23002,  4248, 0xFA23001F, 93.91325, 160.9827, 0.006600022, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */

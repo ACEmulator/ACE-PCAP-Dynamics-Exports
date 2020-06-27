@@ -5,15 +5,15 @@ VALUES (0x7C8AA001,  1154, 0xC8AA0005, 20.67568, 109.5664, 108.569, 0.8870109, 0
 /* @teleloc 0xC8AA0005 [20.675680 109.566400 108.569000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8AA001, 0x7C8AA002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C8AA001, 0x7C8AA003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C8AA001, 0x7C8AA004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C8AA001, 0x7C8AA005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8AA001, 0x7C8AA006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C8AA001, 0x7C8AA007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C8AA001, 0x7C8AA008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C8AA001, 0x7C8AA009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C8AA001, 0x7C8AA00A, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7C8AA001, 0x7C8AA002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C8AA001, 0x7C8AA003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C8AA001, 0x7C8AA004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C8AA001, 0x7C8AA005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8AA001, 0x7C8AA006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C8AA001, 0x7C8AA007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C8AA001, 0x7C8AA008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C8AA001, 0x7C8AA009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C8AA001, 0x7C8AA00A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8AA002,  2576, 0xC8AA0005, 20.67568, 109.5664, 108.569, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -56,9 +56,9 @@ VALUES (0x7C8AA00B,  1542, 0xC8AA0005, 19.54499, 106.1427, 108.5667, 0.9990482, 
 /* @teleloc 0xC8AA0005 [19.544990 106.142700 108.566700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8AA00B, 0x7C8AA00C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C8AA00B, 0x7C8AA00D, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x7C8AA00B, 0x7C8AA00E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C8AA00B, 0x7C8AA00C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C8AA00B, 0x7C8AA00D, '2019-02-10 00:00:00') /* Old Gravestone (34129) */
+     , (0x7C8AA00B, 0x7C8AA00E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8AA00C,  4179, 0xC8AA0005, 19.54499, 106.1427, 108.5667, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

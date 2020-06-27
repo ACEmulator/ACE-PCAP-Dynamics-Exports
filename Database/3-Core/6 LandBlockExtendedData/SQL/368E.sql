@@ -5,10 +5,10 @@ VALUES (0x7368E001,  1154, 0x368E000B, 24.74894, 49.73413, 9.865489, -0.7444589,
 /* @teleloc 0x368E000B [24.748940 49.734130 9.865489] -0.744459 0.000000 0.000000 -0.667668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7368E001, 0x7368E002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7368E001, 0x7368E003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7368E001, 0x7368E004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7368E001, 0x7368E005, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7368E001, 0x7368E002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7368E001, 0x7368E003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7368E001, 0x7368E004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7368E001, 0x7368E005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7368E002, 36833, 0x368E000B, 24.74894, 49.73413, 9.865489, -0.7444589, 0, 0, -0.6676683,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

@@ -5,10 +5,10 @@ VALUES (0x7F657001,  1154, 0xF6570020, 95.15332, 178.2614, 64.6459, 0.4009135, 0
 /* @teleloc 0xF6570020 [95.153320 178.261400 64.645900] 0.400914 0.000000 0.000000 -0.916116 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F657001, 0x7F657002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7F657001, 0x7F657003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F657001, 0x7F657004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7F657001, 0x7F657005, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7F657001, 0x7F657002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7F657001, 0x7F657003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F657001, 0x7F657004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7F657001, 0x7F657005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F657002,  8141, 0xF6570020, 95.15332, 178.2614, 64.6459, 0.4009135, 0, 0, -0.9161159,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -31,8 +31,8 @@ VALUES (0x7F657006,  1542, 0xF6570009, 29.24441, 20.67281, 75.5207, 0.9238795, 0
 /* @teleloc 0xF6570009 [29.244410 20.672810 75.520700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F657006, 0x7F657007, '2019-02-10 00:00:00') /* Bones */
-     , (0x7F657006, 0x7F657008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7F657006, 0x7F657007, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7F657006, 0x7F657008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F657007,  4380, 0xF6570009, 29.24441, 20.67281, 75.5207, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

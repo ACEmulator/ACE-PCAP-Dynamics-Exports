@@ -5,19 +5,19 @@ VALUES (0x7D2B3001,  1154, 0xD2B30006, 9.398409, 120.0924, 172.7477, 0.2028813, 
 /* @teleloc 0xD2B30006 [9.398409 120.092400 172.747700] 0.202881 0.000000 0.000000 -0.979203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2B3001, 0x7D2B3002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7D2B3001, 0x7D2B3003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2B3001, 0x7D2B3004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2B3001, 0x7D2B3005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D2B3001, 0x7D2B3006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7D2B3001, 0x7D2B3007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D2B3001, 0x7D2B3008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7D2B3001, 0x7D2B3009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D2B3001, 0x7D2B300A, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7D2B3001, 0x7D2B300B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D2B3001, 0x7D2B300C, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D2B3001, 0x7D2B300D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7D2B3001, 0x7D2B300E, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7D2B3001, 0x7D2B3002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7D2B3001, 0x7D2B3003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2B3001, 0x7D2B3004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2B3001, 0x7D2B3005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D2B3001, 0x7D2B3006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7D2B3001, 0x7D2B3007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D2B3001, 0x7D2B3008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7D2B3001, 0x7D2B3009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D2B3001, 0x7D2B300A, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7D2B3001, 0x7D2B300B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D2B3001, 0x7D2B300C, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7D2B3001, 0x7D2B300D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7D2B3001, 0x7D2B300E, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2B3002,   937, 0xD2B30006, 9.398409, 120.0924, 172.7477, 0.2028813, 0, 0, -0.9792033,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -76,7 +76,7 @@ VALUES (0x7D2B300F,  1542, 0xD2B3003D, 173.802, 105.9865, 217.0177, 1, 0, 0, 0, 
 /* @teleloc 0xD2B3003D [173.802000 105.986500 217.017700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2B300F, 0x7D2B3010, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D2B300F, 0x7D2B3010, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2B3010, 31443, 0xD2B3003D, 173.802, 105.9865, 217.0177, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,9 +5,9 @@ VALUES (0x73489001,  1154, 0x34890025, 108.3247, 103.5372, 50.17697, -0.1991882,
 /* @teleloc 0x34890025 [108.324700 103.537200 50.176970] -0.199188 0.000000 0.000000 -0.979961 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73489001, 0x73489002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73489001, 0x73489003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73489001, 0x73489004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x73489001, 0x73489002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73489001, 0x73489003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73489001, 0x73489004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73489002, 24277, 0x34890025, 108.3247, 103.5372, 50.17697, -0.1991882, 0, 0, -0.9799612,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

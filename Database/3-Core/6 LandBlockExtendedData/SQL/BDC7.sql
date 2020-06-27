@@ -5,11 +5,11 @@ VALUES (0x7BDC7001,  1154, 0xBDC7003C, 173.5324, 92.94896, 175.7503, -0.08715577
 /* @teleloc 0xBDC7003C [173.532400 92.948960 175.750300] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDC7001, 0x7BDC7002, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BDC7001, 0x7BDC7003, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BDC7001, 0x7BDC7004, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BDC7001, 0x7BDC7005, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BDC7001, 0x7BDC7006, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7BDC7001, 0x7BDC7002, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BDC7001, 0x7BDC7003, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BDC7001, 0x7BDC7004, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BDC7001, 0x7BDC7005, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BDC7001, 0x7BDC7006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDC7002,  2571, 0xBDC7003C, 173.5324, 92.94896, 175.7503, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* K'nath N'osaj */

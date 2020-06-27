@@ -5,17 +5,17 @@ VALUES (0x7D978001,  1154, 0xD9780022, 107.639, 47.9362, 16.01132, 0.7071068, 0,
 /* @teleloc 0xD9780022 [107.639000 47.936200 16.011320] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D978001, 0x7D978002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D978001, 0x7D978003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D978001, 0x7D978004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D978001, 0x7D978005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7D978001, 0x7D978006, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D978001, 0x7D978007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D978001, 0x7D978008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7D978001, 0x7D978009, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x7D978001, 0x7D97800A, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7D978001, 0x7D97800B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7D978001, 0x7D97800C, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x7D978001, 0x7D978002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D978001, 0x7D978003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D978001, 0x7D978004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D978001, 0x7D978005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7D978001, 0x7D978006, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D978001, 0x7D978007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D978001, 0x7D978008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D978001, 0x7D978009, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7D978001, 0x7D97800A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7D978001, 0x7D97800B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7D978001, 0x7D97800C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D978002,   227, 0xD9780022, 107.639, 47.9362, 16.01132, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

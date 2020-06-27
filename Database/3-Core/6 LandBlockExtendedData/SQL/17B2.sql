@@ -53,11 +53,11 @@ VALUES (0x717B201C,  1154, 0x17B20040, 185.3723, 189.6831, 32.94845, 0.9659258, 
 /* @teleloc 0x17B20040 [185.372300 189.683100 32.948450] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B201C, 0x717B201D, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x717B201C, 0x717B201E, '2019-02-10 00:00:00') /* Brigand */
-     , (0x717B201C, 0x717B201F, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x717B201C, 0x717B2020, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x717B201C, 0x717B2021, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x717B201C, 0x717B201D, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x717B201C, 0x717B201E, '2019-02-10 00:00:00') /* Brigand (11500) */
+     , (0x717B201C, 0x717B201F, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x717B201C, 0x717B2020, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x717B201C, 0x717B2021, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B201D,   941, 0x17B20040, 185.3723, 189.6831, 32.94845, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Water Golem */
@@ -84,17 +84,17 @@ VALUES (0x717B2022,  1154, 0x17B2002B, 137.554, 48.9581, 44.005, 0.526587, 0, 0,
 /* @teleloc 0x17B2002B [137.554000 48.958100 44.005000] 0.526587 0.000000 0.000000 -0.850121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B2022, 0x717B2023, '2019-02-10 00:00:00') /* Lucio Murrio */
-     , (0x717B2022, 0x717B2024, '2019-02-10 00:00:00') /* Guard Liaza */
-     , (0x717B2022, 0x717B2025, '2019-02-10 00:00:00') /* Piero Cenizzi */
-     , (0x717B2022, 0x717B2026, '2019-02-10 00:00:00') /* Susana du Loc */
-     , (0x717B2022, 0x717B2027, '2019-02-10 00:00:00') /* Andrea Dilazo */
-     , (0x717B2022, 0x717B2028, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x717B2022, 0x717B2029, '2019-02-10 00:00:00') /* Ling Xiao the Collector */
-     , (0x717B2022, 0x717B202A, '2019-02-10 00:00:00') /* Afra bint Abbas */
-     , (0x717B2022, 0x717B202B, '2019-02-10 00:00:00') /* Bachus Flufens */
-     , (0x717B2022, 0x717B202C, '2019-02-10 00:00:00') /* Behdo Yii */
-     , (0x717B2022, 0x717B202D, '2019-02-10 00:00:00') /* Niccolo Brasi */;
+VALUES (0x717B2022, 0x717B2023, '2019-02-10 00:00:00') /* Lucio Murrio (32074) */
+     , (0x717B2022, 0x717B2024, '2019-02-10 00:00:00') /* Guard Liaza (37440) */
+     , (0x717B2022, 0x717B2025, '2019-02-10 00:00:00') /* Piero Cenizzi (32069) */
+     , (0x717B2022, 0x717B2026, '2019-02-10 00:00:00') /* Susana du Loc (32109) */
+     , (0x717B2022, 0x717B2027, '2019-02-10 00:00:00') /* Andrea Dilazo (32073) */
+     , (0x717B2022, 0x717B2028, '2019-02-10 00:00:00') /* Town Crier (30063) */
+     , (0x717B2022, 0x717B2029, '2019-02-10 00:00:00') /* Ling Xiao the Collector (11347) */
+     , (0x717B2022, 0x717B202A, '2019-02-10 00:00:00') /* Afra bint Abbas (31648) */
+     , (0x717B2022, 0x717B202B, '2019-02-10 00:00:00') /* Bachus Flufens (11322) */
+     , (0x717B2022, 0x717B202C, '2019-02-10 00:00:00') /* Behdo Yii (10842) */
+     , (0x717B2022, 0x717B202D, '2019-02-10 00:00:00') /* Niccolo Brasi (32072) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B2023, 32074, 0x17B2002B, 137.554, 48.9581, 44.005, 0.526587, 0, 0, -0.850121,  True, '2019-02-10 00:00:00'); /* Lucio Murrio */
@@ -145,8 +145,8 @@ VALUES (0x717B202E,  1542, 0x17B2002A, 131.3492, 31.15622, 44.024, 0.3497246, 0,
 /* @teleloc 0x17B2002A [131.349200 31.156220 44.024000] 0.349725 0.000000 0.000000 -0.936853 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B202E, 0x717B202F, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key */
-     , (0x717B202E, 0x717B2030, '2019-02-10 00:00:00') /* Adept Healing Kit */;
+VALUES (0x717B202E, 0x717B202F, '2019-02-10 00:00:00') /* Strengthened Mana Forge Key (38918) */
+     , (0x717B202E, 0x717B2030, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B202F, 38918, 0x17B2002A, 131.3492, 31.15622, 44.024, 0.3497246, 0, 0, -0.9368526,  True, '2019-02-10 00:00:00'); /* Strengthened Mana Forge Key */

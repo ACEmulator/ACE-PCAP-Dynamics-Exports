@@ -5,11 +5,11 @@ VALUES (0x788D4001,  1154, 0x88D40039, 179.3513, 13.69011, 214.9317, -0.9033092,
 /* @teleloc 0x88D40039 [179.351300 13.690110 214.931700] -0.903309 0.000000 0.000000 -0.428990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D4001, 0x788D4002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x788D4001, 0x788D4003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x788D4001, 0x788D4004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x788D4001, 0x788D4005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x788D4001, 0x788D4006, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x788D4001, 0x788D4002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x788D4001, 0x788D4003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x788D4001, 0x788D4004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x788D4001, 0x788D4005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x788D4001, 0x788D4006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D4002, 22810, 0x88D40039, 179.3513, 13.69011, 214.9317, -0.9033092, 0, 0, -0.4289902,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */

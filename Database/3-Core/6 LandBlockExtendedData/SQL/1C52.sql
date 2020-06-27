@@ -5,14 +5,14 @@ VALUES (0x71C52001,  1154, 0x1C520023, 118.3819, 65.90564, 46.00455, 0.3956323, 
 /* @teleloc 0x1C520023 [118.381900 65.905640 46.004550] 0.395632 0.000000 0.000000 -0.918409 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C52001, 0x71C52002, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C52001, 0x71C52003, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71C52001, 0x71C52004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C52001, 0x71C52005, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71C52001, 0x71C52006, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x71C52001, 0x71C52007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71C52001, 0x71C52008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71C52001, 0x71C52009, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x71C52001, 0x71C52002, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C52001, 0x71C52003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71C52001, 0x71C52004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C52001, 0x71C52005, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71C52001, 0x71C52006, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71C52001, 0x71C52007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71C52001, 0x71C52008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71C52001, 0x71C52009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C52002, 36823, 0x1C520023, 118.3819, 65.90564, 46.00455, 0.3956323, 0, 0, -0.918409,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */

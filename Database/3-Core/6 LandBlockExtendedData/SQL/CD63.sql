@@ -5,13 +5,13 @@ VALUES (0x7CD63001,  1154, 0xCD630029, 131.368, 6.073657, 6, 0.1089705, 0, 0, -0
 /* @teleloc 0xCD630029 [131.368000 6.073657 6.000000] 0.108971 0.000000 0.000000 -0.994045 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD63001, 0x7CD63002, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CD63001, 0x7CD63003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CD63001, 0x7CD63004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CD63001, 0x7CD63005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7CD63001, 0x7CD63006, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CD63001, 0x7CD63007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CD63001, 0x7CD63008, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7CD63001, 0x7CD63002, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CD63001, 0x7CD63003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CD63001, 0x7CD63004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CD63001, 0x7CD63005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7CD63001, 0x7CD63006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CD63001, 0x7CD63007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CD63001, 0x7CD63008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD63002,  2585, 0xCD630029, 131.368, 6.073657, 6, 0.1089705, 0, 0, -0.994045,  True, '2019-02-10 00:00:00'); /* Essa Sclavus */

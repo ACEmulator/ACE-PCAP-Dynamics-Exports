@@ -5,12 +5,12 @@ VALUES (0x72798001,  1154, 0x27980037, 161.0728, 156.7967, 75.5971, -0.3412495, 
 /* @teleloc 0x27980037 [161.072800 156.796700 75.597100] -0.341250 0.000000 0.000000 -0.939973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72798001, 0x72798002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72798001, 0x72798003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72798001, 0x72798004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72798001, 0x72798005, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x72798001, 0x72798006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72798001, 0x72798007, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72798001, 0x72798002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72798001, 0x72798003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72798001, 0x72798004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72798001, 0x72798005, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72798001, 0x72798006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72798001, 0x72798007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72798002,   228, 0x27980037, 161.0728, 156.7967, 75.5971, -0.3412495, 0, 0, -0.9399728,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

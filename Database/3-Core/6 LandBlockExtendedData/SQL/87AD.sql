@@ -5,11 +5,11 @@ VALUES (0x787AD001,  1154, 0x87AD0032, 147.1094, 43.79037, 71.58337, -0.2624549,
 /* @teleloc 0x87AD0032 [147.109400 43.790370 71.583370] -0.262455 0.000000 0.000000 -0.964944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x787AD001, 0x787AD002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x787AD001, 0x787AD003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x787AD001, 0x787AD004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x787AD001, 0x787AD005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x787AD001, 0x787AD006, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x787AD001, 0x787AD002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x787AD001, 0x787AD003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x787AD001, 0x787AD004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x787AD001, 0x787AD005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x787AD001, 0x787AD006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787AD002, 22520, 0x87AD0032, 147.1094, 43.79037, 71.58337, -0.2624549, 0, 0, -0.9649442,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

@@ -5,11 +5,11 @@ VALUES (0x750AD001,  1154, 0x50AD0003, 7.653377, 67.30024, 92.66679, 0.5664063, 
 /* @teleloc 0x50AD0003 [7.653377 67.300240 92.666790] 0.566406 0.000000 0.000000 -0.824126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750AD001, 0x750AD002, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x750AD001, 0x750AD003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x750AD001, 0x750AD004, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x750AD001, 0x750AD005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x750AD001, 0x750AD006, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x750AD001, 0x750AD002, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x750AD001, 0x750AD003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x750AD001, 0x750AD004, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x750AD001, 0x750AD005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x750AD001, 0x750AD006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750AD002,   237, 0x50AD0003, 7.653377, 67.30024, 92.66679, 0.5664063, 0, 0, -0.8241262,  True, '2019-02-10 00:00:00'); /* Virindi Master */

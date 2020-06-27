@@ -9,12 +9,12 @@ VALUES (0x7B5A4003,  1154, 0xB5A40039, 173.485, 12.8792, 27.55, -0.892547, 0, 0,
 /* @teleloc 0xB5A40039 [173.485000 12.879200 27.550000] -0.892547 0.000000 0.000000 -0.450955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5A4003, 0x7B5A4004, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A4003, 0x7B5A4005, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A4003, 0x7B5A4006, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A4003, 0x7B5A4007, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A4003, 0x7B5A4008, '2019-02-10 00:00:00') /* Fishing Hole */
-     , (0x7B5A4003, 0x7B5A4009, '2019-02-10 00:00:00') /* Fishing Hole */;
+VALUES (0x7B5A4003, 0x7B5A4004, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A4003, 0x7B5A4005, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A4003, 0x7B5A4006, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A4003, 0x7B5A4007, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A4003, 0x7B5A4008, '2019-02-10 00:00:00') /* Fishing Hole (22257) */
+     , (0x7B5A4003, 0x7B5A4009, '2019-02-10 00:00:00') /* Fishing Hole (22257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5A4004, 22257, 0xB5A40039, 173.485, 12.8792, 27.55, -0.892547, 0, 0, -0.450955,  True, '2019-02-10 00:00:00'); /* Fishing Hole */

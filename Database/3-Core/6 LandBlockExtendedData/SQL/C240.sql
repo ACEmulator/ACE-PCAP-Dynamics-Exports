@@ -5,10 +5,10 @@ VALUES (0x7C240001,  1154, 0xC2400036, 160.1604, 132.0072, 140.0513, 0.1971178, 
 /* @teleloc 0xC2400036 [160.160400 132.007200 140.051300] 0.197118 0.000000 0.000000 -0.980380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C240001, 0x7C240002, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7C240001, 0x7C240003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C240001, 0x7C240004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C240001, 0x7C240005, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7C240001, 0x7C240002, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7C240001, 0x7C240003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C240001, 0x7C240004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C240001, 0x7C240005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C240002,   205, 0xC2400036, 160.1604, 132.0072, 140.0513, 0.1971178, 0, 0, -0.9803798,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */

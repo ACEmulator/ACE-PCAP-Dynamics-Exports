@@ -5,15 +5,15 @@ VALUES (0x77CF4001,  1154, 0x7CF4003B, 176.1723, 54.38823, 58.8322, 0.7071068, 0
 /* @teleloc 0x7CF4003B [176.172300 54.388230 58.832200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF4001, 0x77CF4002, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x77CF4001, 0x77CF4003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x77CF4001, 0x77CF4004, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x77CF4001, 0x77CF4005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x77CF4001, 0x77CF4006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x77CF4001, 0x77CF4007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x77CF4001, 0x77CF4008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x77CF4001, 0x77CF4009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x77CF4001, 0x77CF400A, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x77CF4001, 0x77CF4002, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x77CF4001, 0x77CF4003, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x77CF4001, 0x77CF4004, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x77CF4001, 0x77CF4005, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x77CF4001, 0x77CF4006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x77CF4001, 0x77CF4007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x77CF4001, 0x77CF4008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x77CF4001, 0x77CF4009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x77CF4001, 0x77CF400A, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF4002, 24313, 0x7CF4003B, 176.1723, 54.38823, 58.8322, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -56,8 +56,8 @@ VALUES (0x77CF400B,  1542, 0x7CF4003B, 172.866, 57.73019, 60.23396, -4.371139E-0
 /* @teleloc 0x7CF4003B [172.866000 57.730190 60.233960] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF400B, 0x77CF400C, '2019-02-10 00:00:00') /* Bones */
-     , (0x77CF400B, 0x77CF400D, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x77CF400B, 0x77CF400C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77CF400B, 0x77CF400D, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF400C,  4380, 0x7CF4003B, 172.866, 57.73019, 60.23396, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

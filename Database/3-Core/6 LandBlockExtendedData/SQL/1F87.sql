@@ -5,16 +5,16 @@ VALUES (0x71F87001,  1154, 0x1F870001, 4.736044, 0.9521637, 51.49843, 0.2661441,
 /* @teleloc 0x1F870001 [4.736044 0.952164 51.498430] 0.266144 0.000000 0.000000 -0.963933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F87001, 0x71F87002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71F87001, 0x71F87003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F87001, 0x71F87004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71F87001, 0x71F87005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71F87001, 0x71F87006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71F87001, 0x71F87007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x71F87001, 0x71F87008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71F87001, 0x71F87009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71F87001, 0x71F8700A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71F87001, 0x71F8700B, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x71F87001, 0x71F87002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71F87001, 0x71F87003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F87001, 0x71F87004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71F87001, 0x71F87005, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71F87001, 0x71F87006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71F87001, 0x71F87007, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x71F87001, 0x71F87008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71F87001, 0x71F87009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71F87001, 0x71F8700A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71F87001, 0x71F8700B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F87002, 11541, 0x1F870001, 4.736044, 0.9521637, 51.49843, 0.2661441, 0, 0, -0.9639332,  True, '2019-02-10 00:00:00'); /* Plated Tusker */

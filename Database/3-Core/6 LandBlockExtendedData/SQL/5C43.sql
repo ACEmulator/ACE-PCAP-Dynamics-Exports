@@ -13,96 +13,96 @@ VALUES (0x75C4300A,  1154, 0x5C4301AE, 89.9326, -80.303, -5.9879, 0.001153, 0, 0
 /* @teleloc 0x5C4301AE [89.932600 -80.303000 -5.987900] 0.001153 0.000000 0.000000 -0.999999 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75C4300A, 0x75C4300B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4300C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4300D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4300E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4300F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43010, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43011, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43012, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43013, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43014, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43015, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43016, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43017, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43018, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43019, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4301F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43020, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43021, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43022, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43023, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43024, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43025, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43026, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43027, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43028, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43029, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4302F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43030, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43031, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43032, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43033, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43034, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43035, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43036, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43037, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43038, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43039, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4303F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43040, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43041, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43042, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43043, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43044, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43045, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43046, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43047, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43048, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43049, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4304F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43050, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43051, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43052, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43053, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43054, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43055, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43056, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43057, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43058, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43059, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305A, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305B, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305E, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C4305F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43060, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43061, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43062, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43063, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x75C4300A, 0x75C43064, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x75C4300A, 0x75C4300B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4300C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4300D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4300E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4300F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43010, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43011, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43012, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43013, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43014, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43015, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43016, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43017, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43018, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43019, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4301F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43020, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43021, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43022, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43023, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43024, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43025, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43026, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43027, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43028, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43029, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4302F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43030, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43031, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43032, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43033, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43034, '2019-02-10 00:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4300A, 0x75C43035, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43036, '2019-02-10 00:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4300A, 0x75C43037, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43038, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43039, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4303F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43040, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43041, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43042, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43043, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43044, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43045, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43046, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43047, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43048, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43049, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4304F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43050, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43051, '2019-02-10 00:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4300A, 0x75C43052, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43053, '2019-02-10 00:00:00') /* Goldenback Tusker (22591) */
+     , (0x75C4300A, 0x75C43054, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43055, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43056, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43057, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43058, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43059, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305A, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305B, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305E, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C4305F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43060, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43061, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43062, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43063, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x75C4300A, 0x75C43064, '2019-02-10 00:00:00') /* Goldenback Tusker (22591) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C4300B,   235, 0x5C4301AE, 89.9326, -80.303, -5.9879, 0.001153, 0, 0, -0.999999,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

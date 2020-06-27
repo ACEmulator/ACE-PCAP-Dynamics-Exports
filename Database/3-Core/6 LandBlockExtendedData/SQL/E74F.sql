@@ -5,17 +5,17 @@ VALUES (0x7E74F001,  1154, 0xE74F0006, 9.729263, 143.2035, -0.4499991, -0.674507
 /* @teleloc 0xE74F0006 [9.729263 143.203500 -0.449999] -0.674507 0.000000 0.000000 -0.738268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74F001, 0x7E74F002, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7E74F001, 0x7E74F003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E74F001, 0x7E74F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7E74F001, 0x7E74F005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E74F001, 0x7E74F006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E74F001, 0x7E74F007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7E74F001, 0x7E74F008, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E74F001, 0x7E74F009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E74F001, 0x7E74F00A, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E74F001, 0x7E74F00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E74F001, 0x7E74F00C, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7E74F001, 0x7E74F002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7E74F001, 0x7E74F003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E74F001, 0x7E74F004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E74F001, 0x7E74F005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E74F001, 0x7E74F006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E74F001, 0x7E74F007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7E74F001, 0x7E74F008, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E74F001, 0x7E74F009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E74F001, 0x7E74F00A, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E74F001, 0x7E74F00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E74F001, 0x7E74F00C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74F002,  1986, 0xE74F0006, 9.729263, 143.2035, -0.4499991, -0.6745072, 0, 0, -0.7382683,  True, '2019-02-10 00:00:00'); /* Water Wisp */
@@ -66,9 +66,9 @@ VALUES (0x7E74F00D,  1542, 0xE74F0006, 21.03723, 139.823, -0.35, 0.9990482, 0, 0
 /* @teleloc 0xE74F0006 [21.037230 139.823000 -0.350000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74F00D, 0x7E74F00E, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7E74F00D, 0x7E74F00F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E74F00D, 0x7E74F010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E74F00D, 0x7E74F00E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7E74F00D, 0x7E74F00F, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E74F00D, 0x7E74F010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74F00E,  6117, 0xE74F0006, 21.03723, 139.823, -0.35, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -25,18 +25,18 @@ VALUES (0x775B8005,  1154, 0x75B80001, 9.656834, 0.5465309, 108.8316, -0.4367695
 /* @teleloc 0x75B80001 [9.656834 0.546531 108.831600] -0.436770 0.000000 0.000000 -0.899573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B8005, 0x775B8006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x775B8005, 0x775B8007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x775B8005, 0x775B8008, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x775B8005, 0x775B8009, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x775B8005, 0x775B800A, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B8005, 0x775B800B, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B8005, 0x775B800C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x775B8005, 0x775B800D, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x775B8005, 0x775B800E, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x775B8005, 0x775B800F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x775B8005, 0x775B8010, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x775B8005, 0x775B8011, '2019-02-10 00:00:00') /* Virindi Servant */;
+VALUES (0x775B8005, 0x775B8006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x775B8005, 0x775B8007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x775B8005, 0x775B8008, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x775B8005, 0x775B8009, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x775B8005, 0x775B800A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B8005, 0x775B800B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B8005, 0x775B800C, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x775B8005, 0x775B800D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x775B8005, 0x775B800E, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x775B8005, 0x775B800F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x775B8005, 0x775B8010, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x775B8005, 0x775B8011, '2019-02-10 00:00:00') /* Virindi Servant (23) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B8006,  1757, 0x75B80001, 9.656834, 0.5465309, 108.8316, -0.4367695, 0, 0, -0.8995734,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -91,7 +91,7 @@ VALUES (0x775B8012,  1542, 0x75B8002D, 135.8488, 103.1176, 102.3242, 1, 0, 0, 0,
 /* @teleloc 0x75B8002D [135.848800 103.117600 102.324200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775B8012, 0x775B8013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x775B8012, 0x775B8013, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775B8013, 22567, 0x75B8002D, 135.8488, 103.1176, 102.3242, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,14 +5,14 @@ VALUES (0x7F24D001,  1154, 0xF24D001F, 75.58827, 157.0598, 20.013, -0.5709401, 0
 /* @teleloc 0xF24D001F [75.588270 157.059800 20.013000] -0.570940 0.000000 0.000000 -0.820992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F24D001, 0x7F24D002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F24D001, 0x7F24D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F24D001, 0x7F24D004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F24D001, 0x7F24D005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7F24D001, 0x7F24D006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F24D001, 0x7F24D007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7F24D001, 0x7F24D008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7F24D001, 0x7F24D009, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7F24D001, 0x7F24D002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F24D001, 0x7F24D003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F24D001, 0x7F24D004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F24D001, 0x7F24D005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7F24D001, 0x7F24D006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F24D001, 0x7F24D007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7F24D001, 0x7F24D008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7F24D001, 0x7F24D009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F24D002,   217, 0xF24D001F, 75.58827, 157.0598, 20.013, -0.5709401, 0, 0, -0.8209918,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

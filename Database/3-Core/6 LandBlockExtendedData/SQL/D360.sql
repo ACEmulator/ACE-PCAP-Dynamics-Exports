@@ -5,14 +5,14 @@ VALUES (0x7D360001,  1154, 0xD3600031, 162.7764, 5.256019, 5.55765, 0.9238795, 0
 /* @teleloc 0xD3600031 [162.776400 5.256019 5.557650] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D360001, 0x7D360002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7D360001, 0x7D360003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7D360001, 0x7D360004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D360001, 0x7D360005, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D360001, 0x7D360006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7D360001, 0x7D360007, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7D360001, 0x7D360008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D360001, 0x7D360009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7D360001, 0x7D360002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7D360001, 0x7D360003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7D360001, 0x7D360004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D360001, 0x7D360005, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D360001, 0x7D360006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7D360001, 0x7D360007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7D360001, 0x7D360008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D360001, 0x7D360009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D360002,   182, 0xD3600031, 162.7764, 5.256019, 5.55765, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

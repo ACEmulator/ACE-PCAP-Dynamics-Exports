@@ -5,18 +5,18 @@ VALUES (0x735F3001,  1154, 0x35F30018, 53.79906, 177.3501, 68.012, 0.4155171, 0,
 /* @teleloc 0x35F30018 [53.799060 177.350100 68.012000] 0.415517 0.000000 0.000000 -0.909585 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735F3001, 0x735F3002, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735F3001, 0x735F3003, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x735F3001, 0x735F3004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735F3001, 0x735F3005, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735F3001, 0x735F3006, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x735F3001, 0x735F3007, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x735F3001, 0x735F3008, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x735F3001, 0x735F3009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735F3001, 0x735F300A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x735F3001, 0x735F300B, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x735F3001, 0x735F300C, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x735F3001, 0x735F300D, '2019-02-10 00:00:00') /* Ancient Coral Golem */;
+VALUES (0x735F3001, 0x735F3002, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x735F3001, 0x735F3003, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x735F3001, 0x735F3004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735F3001, 0x735F3005, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x735F3001, 0x735F3006, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x735F3001, 0x735F3007, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x735F3001, 0x735F3008, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x735F3001, 0x735F3009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735F3001, 0x735F300A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x735F3001, 0x735F300B, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x735F3001, 0x735F300C, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x735F3001, 0x735F300D, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735F3002, 28051, 0x35F30018, 53.79906, 177.3501, 68.012, 0.4155171, 0, 0, -0.9095854,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */

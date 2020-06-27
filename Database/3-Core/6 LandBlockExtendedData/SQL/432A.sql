@@ -5,15 +5,15 @@ VALUES (0x7432A001,  1154, 0x432A002E, 143.0007, 136.8642, 3.315071, 0.9203838, 
 /* @teleloc 0x432A002E [143.000700 136.864200 3.315071] 0.920384 0.000000 0.000000 -0.391016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432A001, 0x7432A002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7432A001, 0x7432A003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7432A001, 0x7432A004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7432A001, 0x7432A005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7432A001, 0x7432A006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7432A001, 0x7432A007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7432A001, 0x7432A008, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7432A001, 0x7432A009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7432A001, 0x7432A00A, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7432A001, 0x7432A002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7432A001, 0x7432A003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7432A001, 0x7432A004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7432A001, 0x7432A005, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7432A001, 0x7432A006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7432A001, 0x7432A007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7432A001, 0x7432A008, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7432A001, 0x7432A009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7432A001, 0x7432A00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432A002, 36844, 0x432A002E, 143.0007, 136.8642, 3.315071, 0.9203838, 0, 0, -0.3910163,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7432A00B,  1542, 0x432A000C, 41.92622, 85.37003, 7.830393, -4.371139E-
 /* @teleloc 0x432A000C [41.926220 85.370030 7.830393] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432A00B, 0x7432A00C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7432A00B, 0x7432A00C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432A00C,  4380, 0x432A000C, 41.92622, 85.37003, 7.830393, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

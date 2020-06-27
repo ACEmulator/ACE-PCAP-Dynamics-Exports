@@ -5,9 +5,9 @@ VALUES (0x7A732001,  1154, 0xA7320026, 109.4803, 130.5688, 91.74842, 0.9238795, 
 /* @teleloc 0xA7320026 [109.480300 130.568800 91.748420] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A732001, 0x7A732002, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A732001, 0x7A732003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A732001, 0x7A732004, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7A732001, 0x7A732002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A732001, 0x7A732003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A732001, 0x7A732004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A732002, 14559, 0xA7320026, 109.4803, 130.5688, 91.74842, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Oak Golem */

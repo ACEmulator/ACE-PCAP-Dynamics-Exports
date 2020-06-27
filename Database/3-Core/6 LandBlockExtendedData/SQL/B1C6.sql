@@ -5,16 +5,16 @@ VALUES (0x7B1C6001,  1154, 0xB1C60006, 20.6581, 126.0251, 123.9451, 0.9238795, 0
 /* @teleloc 0xB1C60006 [20.658100 126.025100 123.945100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1C6001, 0x7B1C6002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7B1C6001, 0x7B1C6003, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7B1C6001, 0x7B1C6004, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C6005, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C6006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C6007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C6008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7B1C6001, 0x7B1C6009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C600A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7B1C6001, 0x7B1C600B, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7B1C6001, 0x7B1C6002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7B1C6001, 0x7B1C6003, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7B1C6001, 0x7B1C6004, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C6005, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C6006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C6007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C6008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7B1C6001, 0x7B1C6009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C600A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7B1C6001, 0x7B1C600B, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1C6002,  2582, 0xB1C60006, 20.6581, 126.0251, 123.9451, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
@@ -61,8 +61,8 @@ VALUES (0x7B1C600C,  1542, 0xB1C60004, 17.52163, 79.97564, 125.8625, 0.2506863, 
 /* @teleloc 0xB1C60004 [17.521630 79.975640 125.862500] 0.250686 0.000000 0.000000 -0.968068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1C600C, 0x7B1C600D, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B1C600C, 0x7B1C600E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B1C600C, 0x7B1C600D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B1C600C, 0x7B1C600E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1C600D,  8037, 0xB1C60004, 17.52163, 79.97564, 125.8625, 0.2506863, 0, 0, -0.9680684,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,10 +5,10 @@ VALUES (0x74C34001,  1154, 0x4C340019, 85.27732, 1.701772, 4.41, 0.5501751, 0, 0
 /* @teleloc 0x4C340019 [85.277320 1.701772 4.410000] 0.550175 0.000000 0.000000 -0.835049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C34001, 0x74C34002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x74C34001, 0x74C34003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x74C34001, 0x74C34004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74C34001, 0x74C34005, '2019-02-10 00:00:00') /* Chomu Sclavus */;
+VALUES (0x74C34001, 0x74C34002, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x74C34001, 0x74C34003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74C34001, 0x74C34004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74C34001, 0x74C34005, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C34002, 41533, 0x4C340019, 85.27732, 1.701772, 4.41, 0.5501751, 0, 0, -0.8350493,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */

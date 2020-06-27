@@ -5,12 +5,12 @@ VALUES (0x7A07B001,  1154, 0xA07B0033, 160.6241, 64.24299, 29.35858, -0.589218, 
 /* @teleloc 0xA07B0033 [160.624100 64.242990 29.358580] -0.589218 0.000000 0.000000 -0.807974 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A07B001, 0x7A07B002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A07B001, 0x7A07B003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A07B001, 0x7A07B004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A07B001, 0x7A07B005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A07B001, 0x7A07B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A07B001, 0x7A07B007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A07B001, 0x7A07B002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A07B001, 0x7A07B003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A07B001, 0x7A07B004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A07B001, 0x7A07B005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A07B001, 0x7A07B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A07B001, 0x7A07B007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A07B002,  1758, 0xA07B0033, 160.6241, 64.24299, 29.35858, -0.589218, 0, 0, -0.8079741,  True, '2019-02-10 00:00:00'); /* Shadow */

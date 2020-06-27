@@ -5,22 +5,22 @@ VALUES (0x70B66001,  1154, 0x0B660017, 63.51134, 148.3827, 1.292611, 0.8138821, 
 /* @teleloc 0x0B660017 [63.511340 148.382700 1.292611] 0.813882 0.000000 0.000000 -0.581030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B66001, 0x70B66002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B66001, 0x70B66003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70B66001, 0x70B66004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B66001, 0x70B66005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70B66001, 0x70B66006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B66001, 0x70B66007, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B66001, 0x70B66008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70B66001, 0x70B66009, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70B66001, 0x70B6600A, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70B66001, 0x70B6600B, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70B66001, 0x70B6600C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B66001, 0x70B6600D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B66001, 0x70B6600E, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70B66001, 0x70B6600F, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x70B66001, 0x70B66010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B66001, 0x70B66011, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x70B66001, 0x70B66002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B66001, 0x70B66003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70B66001, 0x70B66004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B66001, 0x70B66005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70B66001, 0x70B66006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B66001, 0x70B66007, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B66001, 0x70B66008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70B66001, 0x70B66009, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70B66001, 0x70B6600A, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70B66001, 0x70B6600B, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70B66001, 0x70B6600C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B66001, 0x70B6600D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B66001, 0x70B6600E, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70B66001, 0x70B6600F, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x70B66001, 0x70B66010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B66001, 0x70B66011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B66002, 24133, 0x0B660017, 63.51134, 148.3827, 1.292611, 0.8138821, 0, 0, -0.58103,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
@@ -91,7 +91,7 @@ VALUES (0x70B66012,  1542, 0x0B66001A, 83.16673, 28.99233, 2.791681, 1, 0, 0, 0,
 /* @teleloc 0x0B66001A [83.166730 28.992330 2.791681] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B66012, 0x70B66013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x70B66012, 0x70B66013, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B66013, 22566, 0x0B66001A, 83.16673, 28.99233, 2.791681, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -13,7 +13,7 @@ VALUES (0x72484004,  1154, 0x2484003C, 190.3973, 79.85294, 331.2779, 0.1700748, 
 /* @teleloc 0x2484003C [190.397300 79.852940 331.277900] 0.170075 0.000000 0.000000 -0.985431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72484004, 0x72484005, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x72484004, 0x72484005, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72484005, 24134, 0x2484003C, 190.3973, 79.85294, 331.2779, 0.1700748, 0, 0, -0.9854311,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -24,8 +24,8 @@ VALUES (0x72484006,  1542, 0x24840102, 160.722, 79.9802, 339.288, 0.973412, 0, 0
 /* @teleloc 0x24840102 [160.722000 79.980200 339.288000] 0.973412 0.000000 0.000000 -0.229063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72484006, 0x72484007, '2019-02-10 00:00:00') /* Reliable Lockpick */
-     , (0x72484006, 0x72484008, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x72484006, 0x72484007, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */
+     , (0x72484006, 0x72484008, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72484007,   545, 0x24840102, 160.722, 79.9802, 339.288, 0.973412, 0, 0, -0.229063,  True, '2019-02-10 00:00:00'); /* Reliable Lockpick */

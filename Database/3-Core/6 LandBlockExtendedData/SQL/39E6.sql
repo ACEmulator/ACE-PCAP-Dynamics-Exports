@@ -5,10 +5,10 @@ VALUES (0x739E6001,  1154, 0x39E60034, 152.4365, 89.44562, 20.9176, -0.9174438, 
 /* @teleloc 0x39E60034 [152.436500 89.445620 20.917600] -0.917444 0.000000 0.000000 -0.397865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739E6001, 0x739E6002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x739E6001, 0x739E6003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x739E6001, 0x739E6004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x739E6001, 0x739E6005, '2019-02-10 00:00:00') /* Polar Ursuin */;
+VALUES (0x739E6001, 0x739E6002, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x739E6001, 0x739E6003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x739E6001, 0x739E6004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x739E6001, 0x739E6005, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739E6002, 15266, 0x39E60034, 152.4365, 89.44562, 20.9176, -0.9174438, 0, 0, -0.3978653,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */

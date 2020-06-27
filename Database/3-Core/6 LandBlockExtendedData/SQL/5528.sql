@@ -5,10 +5,10 @@ VALUES (0x75528001,  1154, 0x55280014, 53.94646, 73.58635, 68.0065, 0.5500768, 0
 /* @teleloc 0x55280014 [53.946460 73.586350 68.006500] 0.550077 0.000000 0.000000 -0.835114 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75528001, 0x75528002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x75528001, 0x75528003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75528001, 0x75528004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x75528001, 0x75528005, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x75528001, 0x75528002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x75528001, 0x75528003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x75528001, 0x75528004, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x75528001, 0x75528005, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75528002, 21549, 0x55280014, 53.94646, 73.58635, 68.0065, 0.5500768, 0, 0, -0.8351141,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

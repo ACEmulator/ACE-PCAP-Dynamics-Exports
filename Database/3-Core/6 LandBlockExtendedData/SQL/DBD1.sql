@@ -5,14 +5,14 @@ VALUES (0x7DBD1001,  1154, 0xDBD1000A, 42.79433, 26.60925, 41.77694, -0.8769764,
 /* @teleloc 0xDBD1000A [42.794330 26.609250 41.776940] -0.876976 0.000000 0.000000 -0.480533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DBD1001, 0x7DBD1002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DBD1001, 0x7DBD1003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DBD1001, 0x7DBD1004, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7DBD1001, 0x7DBD1005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBD1001, 0x7DBD1006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7DBD1001, 0x7DBD1007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DBD1001, 0x7DBD1008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DBD1001, 0x7DBD1009, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x7DBD1001, 0x7DBD1002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DBD1001, 0x7DBD1003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DBD1001, 0x7DBD1004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7DBD1001, 0x7DBD1005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBD1001, 0x7DBD1006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7DBD1001, 0x7DBD1007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DBD1001, 0x7DBD1008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DBD1001, 0x7DBD1009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DBD1002, 24960, 0xDBD1000A, 42.79433, 26.60925, 41.77694, -0.8769764, 0, 0, -0.4805334,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

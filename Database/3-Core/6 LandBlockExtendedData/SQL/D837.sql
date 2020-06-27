@@ -5,11 +5,11 @@ VALUES (0x7D837001,  1154, 0xD837002E, 137.5468, 141.3059, 63.07554, 0.908661, 0
 /* @teleloc 0xD837002E [137.546800 141.305900 63.075540] 0.908661 0.000000 0.000000 -0.417535 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D837001, 0x7D837002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7D837001, 0x7D837003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7D837001, 0x7D837004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D837001, 0x7D837005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7D837001, 0x7D837006, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x7D837001, 0x7D837002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7D837001, 0x7D837003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7D837001, 0x7D837004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D837001, 0x7D837005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7D837001, 0x7D837006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D837002, 22010, 0xD837002E, 137.5468, 141.3059, 63.07554, 0.908661, 0, 0, -0.4175346,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

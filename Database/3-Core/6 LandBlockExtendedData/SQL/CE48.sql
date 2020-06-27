@@ -5,10 +5,10 @@ VALUES (0x7CE48001,  1154, 0xCE480025, 105.1608, 118.3521, 63.86211, 0.813563, 0
 /* @teleloc 0xCE480025 [105.160800 118.352100 63.862110] 0.813563 0.000000 0.000000 -0.581477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE48001, 0x7CE48002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7CE48001, 0x7CE48003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CE48001, 0x7CE48004, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7CE48001, 0x7CE48005, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7CE48001, 0x7CE48002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7CE48001, 0x7CE48003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CE48001, 0x7CE48004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7CE48001, 0x7CE48005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE48002,  7128, 0xCE480025, 105.1608, 118.3521, 63.86211, 0.813563, 0, 0, -0.5814768,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

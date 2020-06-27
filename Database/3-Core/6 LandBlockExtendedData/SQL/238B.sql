@@ -5,12 +5,12 @@ VALUES (0x7238B001,  1154, 0x238B0039, 186.7823, 16.01211, 52.89578, -0.5271577,
 /* @teleloc 0x238B0039 [186.782300 16.012110 52.895780] -0.527158 0.000000 0.000000 -0.849768 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7238B001, 0x7238B002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7238B001, 0x7238B003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7238B001, 0x7238B004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7238B001, 0x7238B005, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7238B001, 0x7238B006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7238B001, 0x7238B007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7238B001, 0x7238B002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7238B001, 0x7238B003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7238B001, 0x7238B004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7238B001, 0x7238B005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7238B001, 0x7238B006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7238B001, 0x7238B007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7238B002, 24134, 0x238B0039, 186.7823, 16.01211, 52.89578, -0.5271577, 0, 0, -0.8497675,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */

@@ -5,17 +5,17 @@ VALUES (0x76CE4001,  1154, 0x6CE40030, 128.4581, 187.8477, 204.3355, 0.9833195, 
 /* @teleloc 0x6CE40030 [128.458100 187.847700 204.335500] 0.983320 0.000000 0.000000 -0.181887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CE4001, 0x76CE4002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x76CE4001, 0x76CE4003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x76CE4001, 0x76CE4004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x76CE4001, 0x76CE4005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x76CE4001, 0x76CE4006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x76CE4001, 0x76CE4007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76CE4001, 0x76CE4008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x76CE4001, 0x76CE4009, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x76CE4001, 0x76CE400A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x76CE4001, 0x76CE400B, '2019-02-10 00:00:00') /* Frost */
-     , (0x76CE4001, 0x76CE400C, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x76CE4001, 0x76CE4002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x76CE4001, 0x76CE4003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x76CE4001, 0x76CE4004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x76CE4001, 0x76CE4005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x76CE4001, 0x76CE4006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x76CE4001, 0x76CE4007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76CE4001, 0x76CE4008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x76CE4001, 0x76CE4009, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x76CE4001, 0x76CE400A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x76CE4001, 0x76CE400B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x76CE4001, 0x76CE400C, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CE4002, 24134, 0x6CE40030, 128.4581, 187.8477, 204.3355, 0.9833195, 0, 0, -0.181887,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */

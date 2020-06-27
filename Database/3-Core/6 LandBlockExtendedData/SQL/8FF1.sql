@@ -5,19 +5,19 @@ VALUES (0x78FF1001,  1154, 0x8FF1002A, 122.1774, 37.50911, -0.44175, -0.7579303,
 /* @teleloc 0x8FF1002A [122.177400 37.509110 -0.441750] -0.757930 0.000000 0.000000 -0.652336 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FF1001, 0x78FF1002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x78FF1001, 0x78FF1003, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78FF1001, 0x78FF1004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78FF1001, 0x78FF1005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78FF1001, 0x78FF1006, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x78FF1001, 0x78FF1007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78FF1001, 0x78FF1008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78FF1001, 0x78FF1009, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78FF1001, 0x78FF100A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78FF1001, 0x78FF100B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x78FF1001, 0x78FF100C, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78FF1001, 0x78FF100D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x78FF1001, 0x78FF100E, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x78FF1001, 0x78FF1002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78FF1001, 0x78FF1003, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78FF1001, 0x78FF1004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78FF1001, 0x78FF1005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78FF1001, 0x78FF1006, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x78FF1001, 0x78FF1007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78FF1001, 0x78FF1008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78FF1001, 0x78FF1009, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78FF1001, 0x78FF100A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78FF1001, 0x78FF100B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x78FF1001, 0x78FF100C, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78FF1001, 0x78FF100D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x78FF1001, 0x78FF100E, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FF1002,  4217, 0x8FF1002A, 122.1774, 37.50911, -0.44175, -0.7579303, 0, 0, -0.6523355,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

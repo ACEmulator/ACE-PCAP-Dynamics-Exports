@@ -5,12 +5,12 @@ VALUES (0x73A6A001,  1154, 0x3A6A0019, 94.67674, 17.84713, 62.98167, 0.9197291, 
 /* @teleloc 0x3A6A0019 [94.676740 17.847130 62.981670] 0.919729 0.000000 0.000000 -0.392554 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A6A001, 0x73A6A002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73A6A001, 0x73A6A003, '2019-02-10 00:00:00') /* Gelid */
-     , (0x73A6A001, 0x73A6A004, '2019-02-10 00:00:00') /* Frost */
-     , (0x73A6A001, 0x73A6A005, '2019-02-10 00:00:00') /* Frost */
-     , (0x73A6A001, 0x73A6A006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73A6A001, 0x73A6A007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x73A6A001, 0x73A6A002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73A6A001, 0x73A6A003, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x73A6A001, 0x73A6A004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73A6A001, 0x73A6A005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73A6A001, 0x73A6A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73A6A001, 0x73A6A007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A6A002, 24277, 0x3A6A0019, 94.67674, 17.84713, 62.98167, 0.9197291, 0, 0, -0.3925538,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -41,7 +41,7 @@ VALUES (0x73A6A008,  1542, 0x3A6A002E, 142.6252, 136.6574, 61.28671, -0.9931652,
 /* @teleloc 0x3A6A002E [142.625200 136.657400 61.286710] -0.993165 0.000000 0.000000 -0.116717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A6A008, 0x73A6A009, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x73A6A008, 0x73A6A009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A6A009,  8646, 0x3A6A002E, 142.6252, 136.6574, 61.28671, -0.9931652, 0, 0, -0.1167172,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,17 +5,17 @@ VALUES (0x73E40001,  1154, 0x3E400037, 149.3678, 147.4299, 77.03779, 0.9231001, 
 /* @teleloc 0x3E400037 [149.367800 147.429900 77.037790] 0.923100 0.000000 0.000000 -0.384560 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E40001, 0x73E40002, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40004, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x73E40001, 0x73E40005, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40006, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40008, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E40009, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E4000A, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73E40001, 0x73E4000B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73E40001, 0x73E4000C, '2019-02-10 00:00:00') /* Essa Sclavus Lord */;
+VALUES (0x73E40001, 0x73E40002, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40004, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x73E40001, 0x73E40005, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40006, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40008, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E40009, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E4000A, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73E40001, 0x73E4000B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73E40001, 0x73E4000C, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E40002, 14516, 0x3E400037, 149.3678, 147.4299, 77.03779, 0.9231001, 0, 0, -0.3845597,  True, '2019-02-10 00:00:00'); /* Caustic */
@@ -66,7 +66,7 @@ VALUES (0x73E4000D,  1542, 0x3E400023, 114.2842, 64.83768, 103.0194, 1, 0, 0, 0,
 /* @teleloc 0x3E400023 [114.284200 64.837680 103.019400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E4000D, 0x73E4000E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73E4000D, 0x73E4000E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E4000E, 31445, 0x3E400023, 114.2842, 64.83768, 103.0194, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

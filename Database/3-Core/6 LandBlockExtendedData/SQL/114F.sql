@@ -5,10 +5,10 @@ VALUES (0x7114F001,  1154, 0x114F0013, 53.35625, 55.00795, -0.8929999, -0.840016
 /* @teleloc 0x114F0013 [53.356250 55.007950 -0.893000] -0.840016 0.000000 0.000000 -0.542562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7114F001, 0x7114F002, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7114F001, 0x7114F003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7114F001, 0x7114F004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7114F001, 0x7114F005, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x7114F001, 0x7114F002, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7114F001, 0x7114F003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7114F001, 0x7114F004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7114F001, 0x7114F005, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7114F002, 14876, 0x114F0013, 53.35625, 55.00795, -0.8929999, -0.840016, 0, 0, -0.5425617,  True, '2019-02-10 00:00:00'); /* Maelstrom */

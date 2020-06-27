@@ -5,22 +5,22 @@ VALUES (0x7C0AD001,  1154, 0xC0AD0100, 156.4531, 123.6283, 98.805, 0.1558309, 0,
 /* @teleloc 0xC0AD0100 [156.453100 123.628300 98.805000] 0.155831 0.000000 0.000000 0.987784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0AD001, 0x7C0AD002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7C0AD001, 0x7C0AD003, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7C0AD001, 0x7C0AD004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7C0AD001, 0x7C0AD005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7C0AD001, 0x7C0AD006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7C0AD001, 0x7C0AD007, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C0AD001, 0x7C0AD008, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7C0AD001, 0x7C0AD009, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7C0AD001, 0x7C0AD00A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C0AD001, 0x7C0AD00B, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C0AD001, 0x7C0AD00C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C0AD001, 0x7C0AD00D, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C0AD001, 0x7C0AD00E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C0AD001, 0x7C0AD00F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C0AD001, 0x7C0AD010, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7C0AD001, 0x7C0AD011, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7C0AD001, 0x7C0AD002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7C0AD001, 0x7C0AD003, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7C0AD001, 0x7C0AD004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7C0AD001, 0x7C0AD005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7C0AD001, 0x7C0AD006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7C0AD001, 0x7C0AD007, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C0AD001, 0x7C0AD008, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x7C0AD001, 0x7C0AD009, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
+     , (0x7C0AD001, 0x7C0AD00A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C0AD001, 0x7C0AD00B, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C0AD001, 0x7C0AD00C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C0AD001, 0x7C0AD00D, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C0AD001, 0x7C0AD00E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C0AD001, 0x7C0AD00F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C0AD001, 0x7C0AD010, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7C0AD001, 0x7C0AD011, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0AD002,   944, 0xC0AD0100, 156.4531, 123.6283, 98.805, 0.1558309, 0, 0, 0.9877837,  True, '2019-02-10 00:00:00'); /* Mite Digger */
@@ -91,29 +91,29 @@ VALUES (0x7C0AD012,  1542, 0xC0AD0100, 152.1097, 122.9461, 98.799, 0.823212, 0, 
 /* @teleloc 0xC0AD0100 [152.109700 122.946100 98.799000] 0.823212 0.000000 0.000000 0.567734 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0AD012, 0x7C0AD013, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C0AD012, 0x7C0AD014, '2019-02-10 00:00:00') /* Grapes */
-     , (0x7C0AD012, 0x7C0AD015, '2019-02-10 00:00:00') /* Bread */
-     , (0x7C0AD012, 0x7C0AD016, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C0AD012, 0x7C0AD017, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C0AD012, 0x7C0AD018, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7C0AD012, 0x7C0AD019, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C0AD012, 0x7C0AD01A, '2019-02-10 00:00:00') /* Apple */
-     , (0x7C0AD012, 0x7C0AD01B, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7C0AD012, 0x7C0AD01C, '2019-02-10 00:00:00') /* Bread */
-     , (0x7C0AD012, 0x7C0AD01D, '2019-02-10 00:00:00') /* Cabbage */
-     , (0x7C0AD012, 0x7C0AD01E, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C0AD012, 0x7C0AD01F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C0AD012, 0x7C0AD020, '2019-02-10 00:00:00') /* Apple */
-     , (0x7C0AD012, 0x7C0AD021, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C0AD012, 0x7C0AD022, '2019-02-10 00:00:00') /* Steak */
-     , (0x7C0AD012, 0x7C0AD023, '2019-02-10 00:00:00') /* Apple */
-     , (0x7C0AD012, 0x7C0AD024, '2019-02-10 00:00:00') /* Apple */
-     , (0x7C0AD012, 0x7C0AD025, '2019-02-10 00:00:00') /* Fish */
-     , (0x7C0AD012, 0x7C0AD026, '2019-02-10 00:00:00') /* Bowl of Rice */
-     , (0x7C0AD012, 0x7C0AD027, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7C0AD012, 0x7C0AD028, '2019-02-10 00:00:00') /* Egg */
-     , (0x7C0AD012, 0x7C0AD029, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */;
+VALUES (0x7C0AD012, 0x7C0AD013, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C0AD012, 0x7C0AD014, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x7C0AD012, 0x7C0AD015, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7C0AD012, 0x7C0AD016, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C0AD012, 0x7C0AD017, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C0AD012, 0x7C0AD018, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7C0AD012, 0x7C0AD019, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C0AD012, 0x7C0AD01A, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7C0AD012, 0x7C0AD01B, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7C0AD012, 0x7C0AD01C, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7C0AD012, 0x7C0AD01D, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7C0AD012, 0x7C0AD01E, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C0AD012, 0x7C0AD01F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C0AD012, 0x7C0AD020, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7C0AD012, 0x7C0AD021, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C0AD012, 0x7C0AD022, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7C0AD012, 0x7C0AD023, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7C0AD012, 0x7C0AD024, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7C0AD012, 0x7C0AD025, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7C0AD012, 0x7C0AD026, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
+     , (0x7C0AD012, 0x7C0AD027, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7C0AD012, 0x7C0AD028, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7C0AD012, 0x7C0AD029, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0AD013,  4742, 0xC0AD0100, 152.1097, 122.9461, 98.799, 0.823212, 0, 0, 0.567734,  True, '2019-02-10 00:00:00'); /* Steak */

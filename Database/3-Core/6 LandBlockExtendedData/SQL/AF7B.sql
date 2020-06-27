@@ -5,13 +5,13 @@ VALUES (0x7AF7B001,  1154, 0xAF7B0028, 106.5213, 185.3477, 19.15222, -0.9853464,
 /* @teleloc 0xAF7B0028 [106.521300 185.347700 19.152220] -0.985346 0.000000 0.000000 -0.170565 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF7B001, 0x7AF7B002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AF7B001, 0x7AF7B003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AF7B001, 0x7AF7B004, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7AF7B001, 0x7AF7B005, '2019-02-10 00:00:00') /* Static */
-     , (0x7AF7B001, 0x7AF7B006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AF7B001, 0x7AF7B007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AF7B001, 0x7AF7B008, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7AF7B001, 0x7AF7B002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AF7B001, 0x7AF7B003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AF7B001, 0x7AF7B004, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7AF7B001, 0x7AF7B005, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AF7B001, 0x7AF7B006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AF7B001, 0x7AF7B007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AF7B001, 0x7AF7B008, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF7B002,  5497, 0xAF7B0028, 106.5213, 185.3477, 19.15222, -0.9853464, 0, 0, -0.170565,  True, '2019-02-10 00:00:00'); /* Virindi Director */

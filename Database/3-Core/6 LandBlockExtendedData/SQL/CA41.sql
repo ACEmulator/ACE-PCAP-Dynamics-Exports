@@ -5,18 +5,18 @@ VALUES (0x7CA41001,  1154, 0xCA41003C, 171.2013, 89.45639, 66.43746, -0.9469458,
 /* @teleloc 0xCA41003C [171.201300 89.456390 66.437460] -0.946946 0.000000 0.000000 -0.321393 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA41001, 0x7CA41002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CA41001, 0x7CA41003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7CA41001, 0x7CA41004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CA41001, 0x7CA41005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CA41001, 0x7CA41006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CA41001, 0x7CA41007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CA41001, 0x7CA41008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CA41001, 0x7CA41009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CA41001, 0x7CA4100A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CA41001, 0x7CA4100B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CA41001, 0x7CA4100C, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7CA41001, 0x7CA4100D, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7CA41001, 0x7CA41002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CA41001, 0x7CA41003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7CA41001, 0x7CA41004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CA41001, 0x7CA41005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CA41001, 0x7CA41006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CA41001, 0x7CA41007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CA41001, 0x7CA41008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CA41001, 0x7CA41009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CA41001, 0x7CA4100A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CA41001, 0x7CA4100B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CA41001, 0x7CA4100C, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7CA41001, 0x7CA4100D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA41002,   217, 0xCA41003C, 171.2013, 89.45639, 66.43746, -0.9469458, 0, 0, -0.3213932,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -71,8 +71,8 @@ VALUES (0x7CA4100E,  1542, 0xCA410023, 115.6659, 59.0602, 61.75276, 1, 0, 0, 0, 
 /* @teleloc 0xCA410023 [115.665900 59.060200 61.752760] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA4100E, 0x7CA4100F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CA4100E, 0x7CA41010, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7CA4100E, 0x7CA4100F, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7CA4100E, 0x7CA41010, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA4100F, 22576, 0xCA410023, 115.6659, 59.0602, 61.75276, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x7332F001,  1154, 0x332F0022, 111.4035, 43.94101, 89.02474, 0.8191521, 
 /* @teleloc 0x332F0022 [111.403500 43.941010 89.024740] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7332F001, 0x7332F002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7332F001, 0x7332F003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7332F001, 0x7332F004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7332F001, 0x7332F005, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7332F001, 0x7332F006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7332F001, 0x7332F007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7332F001, 0x7332F008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7332F001, 0x7332F009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7332F001, 0x7332F00A, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x7332F001, 0x7332F002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7332F001, 0x7332F003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7332F001, 0x7332F004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7332F001, 0x7332F005, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7332F001, 0x7332F006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7332F001, 0x7332F007, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7332F001, 0x7332F008, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7332F001, 0x7332F009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7332F001, 0x7332F00A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7332F002,  7097, 0x332F0022, 111.4035, 43.94101, 89.02474, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Platinum Golem */

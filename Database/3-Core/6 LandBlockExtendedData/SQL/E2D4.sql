@@ -5,10 +5,10 @@ VALUES (0x7E2D4001,  1154, 0xE2D4002A, 131.2411, 30.83208, -0.4449999, 0.2225707
 /* @teleloc 0xE2D4002A [131.241100 30.832080 -0.445000] 0.222571 0.000000 0.000000 -0.974917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E2D4001, 0x7E2D4002, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E2D4001, 0x7E2D4003, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E2D4001, 0x7E2D4004, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E2D4001, 0x7E2D4005, '2019-02-10 00:00:00') /* Maguth Moarsman */;
+VALUES (0x7E2D4001, 0x7E2D4002, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E2D4001, 0x7E2D4003, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E2D4001, 0x7E2D4004, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E2D4001, 0x7E2D4005, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E2D4002, 31849, 0xE2D4002A, 131.2411, 30.83208, -0.4449999, 0.2225707, 0, 0, -0.9749165,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */

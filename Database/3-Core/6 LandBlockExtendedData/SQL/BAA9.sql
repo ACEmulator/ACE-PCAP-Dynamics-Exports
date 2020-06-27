@@ -5,15 +5,15 @@ VALUES (0x7BAA9001,  1154, 0xBAA9000E, 30.52255, 122.7336, 84.96001, 0.9063078, 
 /* @teleloc 0xBAA9000E [30.522550 122.733600 84.960010] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAA9001, 0x7BAA9002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BAA9001, 0x7BAA9003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BAA9001, 0x7BAA9004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BAA9001, 0x7BAA9005, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7BAA9001, 0x7BAA9006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7BAA9001, 0x7BAA9007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BAA9001, 0x7BAA9008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7BAA9001, 0x7BAA9009, '2019-02-10 00:00:00') /* Charge */
-     , (0x7BAA9001, 0x7BAA900A, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7BAA9001, 0x7BAA9002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BAA9001, 0x7BAA9003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BAA9001, 0x7BAA9004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BAA9001, 0x7BAA9005, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7BAA9001, 0x7BAA9006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7BAA9001, 0x7BAA9007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BAA9001, 0x7BAA9008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7BAA9001, 0x7BAA9009, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7BAA9001, 0x7BAA900A, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAA9002,  2576, 0xBAA9000E, 30.52255, 122.7336, 84.96001, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7BAA900B,  1542, 0xBAA9000E, 27.83482, 121.8526, 84.96001, 0.9990482, 
 /* @teleloc 0xBAA9000E [27.834820 121.852600 84.960010] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAA900B, 0x7BAA900C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BAA900B, 0x7BAA900C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAA900C,  4179, 0xBAA9000E, 27.83482, 121.8526, 84.96001, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

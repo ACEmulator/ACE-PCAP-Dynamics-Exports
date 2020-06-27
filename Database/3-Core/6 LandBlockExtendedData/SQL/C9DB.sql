@@ -5,13 +5,13 @@ VALUES (0x7C9DB001,  1154, 0xC9DB0037, 158.542, 164.3619, 5.217834, 0.06352134, 
 /* @teleloc 0xC9DB0037 [158.542000 164.361900 5.217834] 0.063521 0.000000 0.000000 -0.997981 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9DB001, 0x7C9DB002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7C9DB001, 0x7C9DB003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7C9DB001, 0x7C9DB004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7C9DB001, 0x7C9DB005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7C9DB001, 0x7C9DB006, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7C9DB001, 0x7C9DB007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C9DB001, 0x7C9DB008, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7C9DB001, 0x7C9DB002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7C9DB001, 0x7C9DB003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7C9DB001, 0x7C9DB004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7C9DB001, 0x7C9DB005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7C9DB001, 0x7C9DB006, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7C9DB001, 0x7C9DB007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C9DB001, 0x7C9DB008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9DB002, 23565, 0xC9DB0037, 158.542, 164.3619, 5.217834, 0.06352134, 0, 0, -0.9979805,  True, '2019-02-10 00:00:00'); /* Tumerok Major */

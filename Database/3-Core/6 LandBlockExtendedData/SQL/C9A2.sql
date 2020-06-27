@@ -5,19 +5,19 @@ VALUES (0x7C9A2001,  1154, 0xC9A2001C, 83.97623, 93.5458, 30.58545, -0.6245571, 
 /* @teleloc 0xC9A2001C [83.976230 93.545800 30.585450] -0.624557 0.000000 0.000000 -0.780979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9A2001, 0x7C9A2002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C9A2001, 0x7C9A2003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C9A2001, 0x7C9A2004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C9A2001, 0x7C9A2005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C9A2001, 0x7C9A2006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C9A2001, 0x7C9A2007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C9A2001, 0x7C9A2008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C9A2001, 0x7C9A2009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C9A2001, 0x7C9A200A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C9A2001, 0x7C9A200B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C9A2001, 0x7C9A200C, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7C9A2001, 0x7C9A200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C9A2001, 0x7C9A200E, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7C9A2001, 0x7C9A2002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C9A2001, 0x7C9A2003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C9A2001, 0x7C9A2004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C9A2001, 0x7C9A2005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C9A2001, 0x7C9A2006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C9A2001, 0x7C9A2007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C9A2001, 0x7C9A2008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C9A2001, 0x7C9A2009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C9A2001, 0x7C9A200A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C9A2001, 0x7C9A200B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C9A2001, 0x7C9A200C, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7C9A2001, 0x7C9A200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C9A2001, 0x7C9A200E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9A2002,  2576, 0xC9A2001C, 83.97623, 93.5458, 30.58545, -0.6245571, 0, 0, -0.7809792,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -76,7 +76,7 @@ VALUES (0x7C9A200F,  1542, 0xC9A20021, 108.7061, 1.051858, 20.08765, 1, 0, 0, 0,
 /* @teleloc 0xC9A20021 [108.706100 1.051858 20.087650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9A200F, 0x7C9A2010, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7C9A200F, 0x7C9A2010, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9A2010,  8232, 0xC9A20021, 108.7061, 1.051858, 20.08765, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

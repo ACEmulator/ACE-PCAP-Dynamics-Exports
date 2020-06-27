@@ -5,16 +5,16 @@ VALUES (0x7876E001,  1154, 0x876E0017, 52.25821, 166.7421, 8.012, -0.9997549, 0,
 /* @teleloc 0x876E0017 [52.258210 166.742100 8.012000] -0.999755 0.000000 0.000000 -0.022140 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7876E001, 0x7876E002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7876E001, 0x7876E003, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7876E001, 0x7876E004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7876E001, 0x7876E005, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x7876E001, 0x7876E006, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7876E001, 0x7876E007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7876E001, 0x7876E008, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7876E001, 0x7876E009, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7876E001, 0x7876E00A, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x7876E001, 0x7876E00B, '2019-02-10 00:00:00') /* Brown Armoredillo */;
+VALUES (0x7876E001, 0x7876E002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7876E001, 0x7876E003, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7876E001, 0x7876E004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7876E001, 0x7876E005, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x7876E001, 0x7876E006, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7876E001, 0x7876E007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7876E001, 0x7876E008, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7876E001, 0x7876E009, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7876E001, 0x7876E00A, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x7876E001, 0x7876E00B, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7876E002,  1623, 0x876E0017, 52.25821, 166.7421, 8.012, -0.9997549, 0, 0, -0.02213956,  True, '2019-02-10 00:00:00'); /* Desert Rat */

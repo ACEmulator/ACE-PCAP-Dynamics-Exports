@@ -5,15 +5,15 @@ VALUES (0x7BC67001,  1154, 0xBC670006, 7.517218, 137.595, 5.5575, -0.4443552, 0,
 /* @teleloc 0xBC670006 [7.517218 137.595000 5.557500] -0.444355 0.000000 0.000000 -0.895851 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC67001, 0x7BC67002, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BC67001, 0x7BC67003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC67001, 0x7BC67004, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7BC67001, 0x7BC67005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC67001, 0x7BC67006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BC67001, 0x7BC67007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BC67001, 0x7BC67008, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BC67001, 0x7BC67009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BC67001, 0x7BC6700A, '2019-02-10 00:00:00') /* Stringent */;
+VALUES (0x7BC67001, 0x7BC67002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BC67001, 0x7BC67003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC67001, 0x7BC67004, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7BC67001, 0x7BC67005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC67001, 0x7BC67006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BC67001, 0x7BC67007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BC67001, 0x7BC67008, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BC67001, 0x7BC67009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BC67001, 0x7BC6700A, '2019-02-10 00:00:00') /* Stringent (21162) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC67002,    16, 0xBC670006, 7.517218, 137.595, 5.5575, -0.4443552, 0, 0, -0.8958507,  True, '2019-02-10 00:00:00'); /* Undead */

@@ -5,15 +5,15 @@ VALUES (0x7EC33001,  1154, 0xEC33000A, 26.02116, 44.55105, 88.46659, 0.9238795, 
 /* @teleloc 0xEC33000A [26.021160 44.551050 88.466590] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC33001, 0x7EC33002, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7EC33001, 0x7EC33003, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7EC33001, 0x7EC33004, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7EC33001, 0x7EC33005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7EC33001, 0x7EC33006, '2019-02-10 00:00:00') /* Laigus Raider */
-     , (0x7EC33001, 0x7EC33007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7EC33001, 0x7EC33008, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7EC33001, 0x7EC33009, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7EC33001, 0x7EC3300A, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7EC33001, 0x7EC33002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7EC33001, 0x7EC33003, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7EC33001, 0x7EC33004, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7EC33001, 0x7EC33005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7EC33001, 0x7EC33006, '2019-02-10 00:00:00') /* Laigus Raider (8140) */
+     , (0x7EC33001, 0x7EC33007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7EC33001, 0x7EC33008, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7EC33001, 0x7EC33009, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7EC33001, 0x7EC3300A, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC33002, 24942, 0xEC33000A, 26.02116, 44.55105, 88.46659, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */

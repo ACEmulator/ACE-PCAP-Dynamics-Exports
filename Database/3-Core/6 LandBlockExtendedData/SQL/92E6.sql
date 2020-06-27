@@ -5,14 +5,14 @@ VALUES (0x792E6001,  1154, 0x92E6001A, 85.94652, 42.65704, 52.40515, 0.4228778, 
 /* @teleloc 0x92E6001A [85.946520 42.657040 52.405150] 0.422878 0.000000 0.000000 -0.906187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E6001, 0x792E6002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x792E6001, 0x792E6003, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x792E6001, 0x792E6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792E6001, 0x792E6005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792E6001, 0x792E6006, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x792E6001, 0x792E6007, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x792E6001, 0x792E6008, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x792E6001, 0x792E6009, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x792E6001, 0x792E6002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x792E6001, 0x792E6003, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x792E6001, 0x792E6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792E6001, 0x792E6005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792E6001, 0x792E6006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x792E6001, 0x792E6007, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x792E6001, 0x792E6008, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x792E6001, 0x792E6009, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E6002,  7088, 0x92E6001A, 85.94652, 42.65704, 52.40515, 0.4228778, 0, 0, -0.9061868,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -51,7 +51,7 @@ VALUES (0x792E600A,  1542, 0x92E60029, 133.0107, 3.905632, 58.75875, 0.9990482, 
 /* @teleloc 0x92E60029 [133.010700 3.905632 58.758750] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E600A, 0x792E600B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x792E600A, 0x792E600B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E600B,  4179, 0x92E60029, 133.0107, 3.905632, 58.75875, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

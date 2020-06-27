@@ -5,17 +5,17 @@ VALUES (0x71D86001,  1154, 0x1D860035, 145.9212, 102.6109, 60.32671, -0.9982844,
 /* @teleloc 0x1D860035 [145.921200 102.610900 60.326710] -0.998284 0.000000 0.000000 -0.058552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D86001, 0x71D86002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71D86001, 0x71D86003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71D86001, 0x71D86004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71D86001, 0x71D86005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71D86001, 0x71D86006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71D86001, 0x71D86007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71D86001, 0x71D86008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71D86001, 0x71D86009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71D86001, 0x71D8600A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D86001, 0x71D8600B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71D86001, 0x71D8600C, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x71D86001, 0x71D86002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71D86001, 0x71D86003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71D86001, 0x71D86004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71D86001, 0x71D86005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71D86001, 0x71D86006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71D86001, 0x71D86007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71D86001, 0x71D86008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71D86001, 0x71D86009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71D86001, 0x71D8600A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D86001, 0x71D8600B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71D86001, 0x71D8600C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D86002, 10806, 0x1D860035, 145.9212, 102.6109, 60.32671, -0.9982844, 0, 0, -0.05855181,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

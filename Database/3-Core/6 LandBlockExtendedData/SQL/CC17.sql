@@ -5,30 +5,30 @@ VALUES (0x7CC17001,  1154, 0xCC170015, 65.63798, 112.4209, -0.4493001, 0.8660254
 /* @teleloc 0xCC170015 [65.637980 112.420900 -0.449300] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC17001, 0x7CC17002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CC17001, 0x7CC17003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CC17001, 0x7CC17004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7CC17001, 0x7CC17005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7CC17001, 0x7CC17006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CC17001, 0x7CC17007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7CC17001, 0x7CC17008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CC17001, 0x7CC17009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CC17001, 0x7CC1700A, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CC17001, 0x7CC1700B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7CC17001, 0x7CC1700C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7CC17001, 0x7CC1700D, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7CC17001, 0x7CC1700E, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7CC17001, 0x7CC1700F, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7CC17001, 0x7CC17010, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7CC17001, 0x7CC17011, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CC17001, 0x7CC17012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CC17001, 0x7CC17013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7CC17001, 0x7CC17014, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7CC17001, 0x7CC17015, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CC17001, 0x7CC17016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7CC17001, 0x7CC17017, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7CC17001, 0x7CC17018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CC17001, 0x7CC17019, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x7CC17001, 0x7CC17002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CC17001, 0x7CC17003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CC17001, 0x7CC17004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7CC17001, 0x7CC17005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7CC17001, 0x7CC17006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CC17001, 0x7CC17007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7CC17001, 0x7CC17008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CC17001, 0x7CC17009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CC17001, 0x7CC1700A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CC17001, 0x7CC1700B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7CC17001, 0x7CC1700C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7CC17001, 0x7CC1700D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7CC17001, 0x7CC1700E, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7CC17001, 0x7CC1700F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7CC17001, 0x7CC17010, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7CC17001, 0x7CC17011, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CC17001, 0x7CC17012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CC17001, 0x7CC17013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7CC17001, 0x7CC17014, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7CC17001, 0x7CC17015, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CC17001, 0x7CC17016, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7CC17001, 0x7CC17017, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7CC17001, 0x7CC17018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CC17001, 0x7CC17019, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC17002,  7988, 0xCC170015, 65.63798, 112.4209, -0.4493001, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
@@ -131,7 +131,7 @@ VALUES (0x7CC1701A,  1542, 0xCC17003C, 174.0641, 91.71249, 0, -0.9920667, 0, 0, 
 /* @teleloc 0xCC17003C [174.064100 91.712490 0.000000] -0.992067 0.000000 0.000000 -0.125712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC1701A, 0x7CC1701B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7CC1701A, 0x7CC1701B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC1701B,  8644, 0xCC17003C, 174.0641, 91.71249, 0, -0.9920667, 0, 0, -0.1257121,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,13 +5,13 @@ VALUES (0x7A4AA001,  1154, 0xA4AA0025, 109.4156, 117.0373, 61.9925, 0.5226786, 0
 /* @teleloc 0xA4AA0025 [109.415600 117.037300 61.992500] 0.522679 0.000000 0.000000 -0.852530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4AA001, 0x7A4AA002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A4AA001, 0x7A4AA003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A4AA001, 0x7A4AA004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A4AA001, 0x7A4AA005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A4AA001, 0x7A4AA006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7A4AA001, 0x7A4AA007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7A4AA001, 0x7A4AA008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7A4AA001, 0x7A4AA002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A4AA001, 0x7A4AA003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A4AA001, 0x7A4AA004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A4AA001, 0x7A4AA005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A4AA001, 0x7A4AA006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7A4AA001, 0x7A4AA007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7A4AA001, 0x7A4AA008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4AA002,  2576, 0xA4AA0025, 109.4156, 117.0373, 61.9925, 0.5226786, 0, 0, -0.8525298,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

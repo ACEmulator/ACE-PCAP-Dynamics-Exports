@@ -5,17 +5,17 @@ VALUES (0x74167001,  1154, 0x41670027, 112.6376, 151.9583, 20, 0.9376538, 0, 0, 
 /* @teleloc 0x41670027 [112.637600 151.958300 20.000000] 0.937654 0.000000 0.000000 -0.347571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74167001, 0x74167002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x74167001, 0x74167003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74167001, 0x74167004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x74167001, 0x74167005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74167001, 0x74167006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74167001, 0x74167007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x74167001, 0x74167008, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74167001, 0x74167009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74167001, 0x7416700A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74167001, 0x7416700B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74167001, 0x7416700C, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x74167001, 0x74167002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x74167001, 0x74167003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74167001, 0x74167004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x74167001, 0x74167005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74167001, 0x74167006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74167001, 0x74167007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x74167001, 0x74167008, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74167001, 0x74167009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74167001, 0x7416700A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74167001, 0x7416700B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74167001, 0x7416700C, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74167002,  7126, 0x41670027, 112.6376, 151.9583, 20, 0.9376538, 0, 0, -0.3475706,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -66,7 +66,7 @@ VALUES (0x7416700D,  1542, 0x41670025, 105.1655, 106.2608, 18.09278, 1, 0, 0, 0,
 /* @teleloc 0x41670025 [105.165500 106.260800 18.092780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7416700D, 0x7416700E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7416700D, 0x7416700E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7416700E, 22567, 0x41670025, 105.1655, 106.2608, 18.09278, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

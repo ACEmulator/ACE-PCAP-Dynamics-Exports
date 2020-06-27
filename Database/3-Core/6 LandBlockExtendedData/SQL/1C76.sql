@@ -5,10 +5,10 @@ VALUES (0x71C76001,  1154, 0x1C76003F, 168.7518, 151.9082, 136.4017, -0.728096, 
 /* @teleloc 0x1C76003F [168.751800 151.908200 136.401700] -0.728096 0.000000 0.000000 -0.685475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C76001, 0x71C76002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71C76001, 0x71C76003, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71C76001, 0x71C76004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71C76001, 0x71C76005, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x71C76001, 0x71C76002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71C76001, 0x71C76003, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71C76001, 0x71C76004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71C76001, 0x71C76005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C76002, 24497, 0x1C76003F, 168.7518, 151.9082, 136.4017, -0.728096, 0, 0, -0.6854752,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

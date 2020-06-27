@@ -5,22 +5,22 @@ VALUES (0x7DA51001,  1154, 0xDA510039, 186.8256, 16.99921, 28.0025, 0.9994058, 0
 /* @teleloc 0xDA510039 [186.825600 16.999210 28.002500] 0.999406 0.000000 0.000000 -0.034467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA51001, 0x7DA51002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA51001, 0x7DA51003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA51001, 0x7DA51004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA51001, 0x7DA51005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DA51001, 0x7DA51006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DA51001, 0x7DA51007, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DA51001, 0x7DA51008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DA51001, 0x7DA51009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DA51001, 0x7DA5100A, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DA51001, 0x7DA5100B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA51001, 0x7DA5100C, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DA51001, 0x7DA5100D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DA51001, 0x7DA5100E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DA51001, 0x7DA5100F, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7DA51001, 0x7DA51010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DA51001, 0x7DA51011, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7DA51001, 0x7DA51002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA51001, 0x7DA51003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA51001, 0x7DA51004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA51001, 0x7DA51005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DA51001, 0x7DA51006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DA51001, 0x7DA51007, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DA51001, 0x7DA51008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DA51001, 0x7DA51009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DA51001, 0x7DA5100A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DA51001, 0x7DA5100B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA51001, 0x7DA5100C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DA51001, 0x7DA5100D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DA51001, 0x7DA5100E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DA51001, 0x7DA5100F, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7DA51001, 0x7DA51010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DA51001, 0x7DA51011, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA51002,  1759, 0xDA510039, 186.8256, 16.99921, 28.0025, 0.9994058, 0, 0, -0.03446744,  True, '2019-02-10 00:00:00'); /* Skeleton */

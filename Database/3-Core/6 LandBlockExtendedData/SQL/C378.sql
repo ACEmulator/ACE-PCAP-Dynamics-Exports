@@ -5,11 +5,11 @@ VALUES (0x7C378001,  1154, 0xC378003D, 177.9494, 116.6523, 22.0014, -0.9996085, 
 /* @teleloc 0xC378003D [177.949400 116.652300 22.001400] -0.999609 0.000000 0.000000 -0.027982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C378001, 0x7C378002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C378001, 0x7C378003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C378001, 0x7C378004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C378001, 0x7C378005, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C378001, 0x7C378006, '2019-02-10 00:00:00') /* Tan Rat */;
+VALUES (0x7C378001, 0x7C378002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C378001, 0x7C378003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C378001, 0x7C378004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C378001, 0x7C378005, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C378001, 0x7C378006, '2019-02-10 00:00:00') /* Tan Rat (4131) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C378002,   221, 0xC378003D, 177.9494, 116.6523, 22.0014, -0.9996085, 0, 0, -0.02798159,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */

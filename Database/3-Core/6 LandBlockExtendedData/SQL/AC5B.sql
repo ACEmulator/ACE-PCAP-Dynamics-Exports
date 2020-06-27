@@ -5,25 +5,25 @@ VALUES (0x7AC5B001,  1154, 0xAC5B0023, 100.6255, 70.72304, 42.13541, 0.4471176, 
 /* @teleloc 0xAC5B0023 [100.625500 70.723040 42.135410] 0.447118 0.000000 0.000000 -0.894475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5B001, 0x7AC5B002, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC5B001, 0x7AC5B003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7AC5B001, 0x7AC5B004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC5B001, 0x7AC5B005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AC5B001, 0x7AC5B006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AC5B001, 0x7AC5B007, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC5B001, 0x7AC5B008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC5B001, 0x7AC5B009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC5B001, 0x7AC5B00A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC5B001, 0x7AC5B00B, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AC5B001, 0x7AC5B00C, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AC5B001, 0x7AC5B00D, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AC5B001, 0x7AC5B00E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AC5B001, 0x7AC5B00F, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AC5B001, 0x7AC5B010, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AC5B001, 0x7AC5B011, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7AC5B001, 0x7AC5B012, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7AC5B001, 0x7AC5B013, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AC5B001, 0x7AC5B014, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x7AC5B001, 0x7AC5B002, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC5B001, 0x7AC5B003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7AC5B001, 0x7AC5B004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC5B001, 0x7AC5B005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AC5B001, 0x7AC5B006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AC5B001, 0x7AC5B007, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC5B001, 0x7AC5B008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC5B001, 0x7AC5B009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC5B001, 0x7AC5B00A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC5B001, 0x7AC5B00B, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AC5B001, 0x7AC5B00C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AC5B001, 0x7AC5B00D, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AC5B001, 0x7AC5B00E, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AC5B001, 0x7AC5B00F, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AC5B001, 0x7AC5B010, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AC5B001, 0x7AC5B011, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7AC5B001, 0x7AC5B012, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7AC5B001, 0x7AC5B013, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AC5B001, 0x7AC5B014, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5B002,   237, 0xAC5B0023, 100.6255, 70.72304, 42.13541, 0.4471176, 0, 0, -0.8944752,  True, '2019-02-10 00:00:00'); /* Virindi Master */
@@ -106,8 +106,8 @@ VALUES (0x7AC5B015,  1542, 0xAC5B001F, 81.76291, 148.9057, 44, 1, 0, 0, 0, False
 /* @teleloc 0xAC5B001F [81.762910 148.905700 44.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC5B015, 0x7AC5B016, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AC5B015, 0x7AC5B017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AC5B015, 0x7AC5B016, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AC5B015, 0x7AC5B017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC5B016,   265, 0xAC5B001F, 81.76291, 148.9057, 44, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

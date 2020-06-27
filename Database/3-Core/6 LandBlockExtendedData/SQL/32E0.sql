@@ -5,10 +5,10 @@ VALUES (0x732E0001,  1154, 0x32E0003C, 189.7484, 74.13712, 46.20118, -0.5814104,
 /* @teleloc 0x32E0003C [189.748400 74.137120 46.201180] -0.581410 0.000000 0.000000 -0.813610 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x732E0001, 0x732E0002, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x732E0001, 0x732E0003, '2019-02-10 00:00:00') /* Rebellious Penguin */
-     , (0x732E0001, 0x732E0004, '2019-02-10 00:00:00') /* Arrogant Penguin */
-     , (0x732E0001, 0x732E0005, '2019-02-10 00:00:00') /* Penguin */;
+VALUES (0x732E0001, 0x732E0002, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x732E0001, 0x732E0003, '2019-02-10 00:00:00') /* Rebellious Penguin (28665) */
+     , (0x732E0001, 0x732E0004, '2019-02-10 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x732E0001, 0x732E0005, '2019-02-10 00:00:00') /* Penguin (28662) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x732E0002, 28658, 0x32E0003C, 189.7484, 74.13712, 46.20118, -0.5814104, 0, 0, -0.8136104,  True, '2019-02-10 00:00:00'); /* Sycophantic Penguin */

@@ -5,8 +5,8 @@ VALUES (0x7DC24001,  1154, 0xDC240033, 162.3876, 60.01017, 115.8774, 0.1263784, 
 /* @teleloc 0xDC240033 [162.387600 60.010170 115.877400] 0.126378 0.000000 0.000000 -0.991982 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC24001, 0x7DC24002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DC24001, 0x7DC24003, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7DC24001, 0x7DC24002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DC24001, 0x7DC24003, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC24002,   201, 0xDC240033, 162.3876, 60.01017, 115.8774, 0.1263784, 0, 0, -0.9919821,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

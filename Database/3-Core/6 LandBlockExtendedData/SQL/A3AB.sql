@@ -5,20 +5,20 @@ VALUES (0x7A3AB001,  1154, 0xA3AB0031, 153.4869, 23.76293, 54.79557, 0.7071068, 
 /* @teleloc 0xA3AB0031 [153.486900 23.762930 54.795570] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3AB001, 0x7A3AB002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3AB001, 0x7A3AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3AB001, 0x7A3AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3AB001, 0x7A3AB005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7A3AB001, 0x7A3AB006, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7A3AB001, 0x7A3AB007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A3AB001, 0x7A3AB008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3AB001, 0x7A3AB009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3AB001, 0x7A3AB00A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3AB001, 0x7A3AB00B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3AB001, 0x7A3AB00C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7A3AB001, 0x7A3AB00D, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7A3AB001, 0x7A3AB00E, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A3AB001, 0x7A3AB00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A3AB001, 0x7A3AB002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3AB001, 0x7A3AB003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3AB001, 0x7A3AB004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3AB001, 0x7A3AB005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7A3AB001, 0x7A3AB006, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7A3AB001, 0x7A3AB007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A3AB001, 0x7A3AB008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3AB001, 0x7A3AB009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3AB001, 0x7A3AB00A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3AB001, 0x7A3AB00B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3AB001, 0x7A3AB00C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7A3AB001, 0x7A3AB00D, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7A3AB001, 0x7A3AB00E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A3AB001, 0x7A3AB00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3AB002,  1758, 0xA3AB0031, 153.4869, 23.76293, 54.79557, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

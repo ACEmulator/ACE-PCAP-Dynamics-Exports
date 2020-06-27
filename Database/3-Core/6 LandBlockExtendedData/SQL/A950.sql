@@ -5,11 +5,11 @@ VALUES (0x7A950001,  1154, 0xA9500030, 135.0945, 190.5366, 32.01, -0.6019849, 0,
 /* @teleloc 0xA9500030 [135.094500 190.536600 32.010000] -0.601985 0.000000 0.000000 -0.798508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A950001, 0x7A950002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A950001, 0x7A950003, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A950001, 0x7A950004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A950001, 0x7A950005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A950001, 0x7A950006, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x7A950001, 0x7A950002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A950001, 0x7A950003, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A950001, 0x7A950004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A950001, 0x7A950005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A950001, 0x7A950006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A950002,   194, 0xA9500030, 135.0945, 190.5366, 32.01, -0.6019849, 0, 0, -0.7985075,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -36,7 +36,7 @@ VALUES (0x7A950007,  1542, 0xA950001D, 95.20738, 105.9261, 29.999, 1, 0, 0, 0, F
 /* @teleloc 0xA950001D [95.207380 105.926100 29.999000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A950007, 0x7A950008, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7A950007, 0x7A950008, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A950008,   265, 0xA950001D, 95.20738, 105.9261, 29.999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

@@ -5,9 +5,9 @@ VALUES (0x799B8001,  1154, 0x99B80031, 149.5621, 21.18601, 139.8771, -0.6162259,
 /* @teleloc 0x99B80031 [149.562100 21.186010 139.877100] -0.616226 0.000000 0.000000 -0.787570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799B8001, 0x799B8002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x799B8001, 0x799B8003, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x799B8001, 0x799B8004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x799B8001, 0x799B8002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x799B8001, 0x799B8003, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x799B8001, 0x799B8004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799B8002,  1627, 0x99B80031, 149.5621, 21.18601, 139.8771, -0.6162259, 0, 0, -0.7875695,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */

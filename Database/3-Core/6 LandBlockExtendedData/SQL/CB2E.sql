@@ -5,15 +5,15 @@ VALUES (0x7CB2E001,  1154, 0xCB2E002E, 129.4467, 127.194, 207.9875, -0.9951363, 
 /* @teleloc 0xCB2E002E [129.446700 127.194000 207.987500] -0.995136 0.000000 0.000000 -0.098508 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB2E001, 0x7CB2E002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7CB2E001, 0x7CB2E003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CB2E001, 0x7CB2E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7CB2E001, 0x7CB2E005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7CB2E001, 0x7CB2E006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB2E001, 0x7CB2E007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB2E001, 0x7CB2E008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB2E001, 0x7CB2E009, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7CB2E001, 0x7CB2E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7CB2E001, 0x7CB2E002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7CB2E001, 0x7CB2E003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CB2E001, 0x7CB2E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7CB2E001, 0x7CB2E005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7CB2E001, 0x7CB2E006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB2E001, 0x7CB2E007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB2E001, 0x7CB2E008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB2E001, 0x7CB2E009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7CB2E001, 0x7CB2E00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB2E002, 11533, 0xCB2E002E, 129.4467, 127.194, 207.9875, -0.9951363, 0, 0, -0.09850823,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -56,7 +56,7 @@ VALUES (0x7CB2E00B,  1542, 0xCB2E002A, 143.0763, 45.56656, 189.1607, 1, 0, 0, 0,
 /* @teleloc 0xCB2E002A [143.076300 45.566560 189.160700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB2E00B, 0x7CB2E00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CB2E00B, 0x7CB2E00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB2E00C, 22571, 0xCB2E002A, 143.0763, 45.56656, 189.1607, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

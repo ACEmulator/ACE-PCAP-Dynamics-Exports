@@ -5,12 +5,12 @@ VALUES (0x7C7AE001,  1154, 0xC7AE000A, 43.89476, 25.11081, 102.7761, 0.8883904, 
 /* @teleloc 0xC7AE000A [43.894760 25.110810 102.776100] 0.888390 0.000000 0.000000 -0.459089 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AE001, 0x7C7AE002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C7AE001, 0x7C7AE003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C7AE001, 0x7C7AE004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C7AE001, 0x7C7AE005, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C7AE001, 0x7C7AE006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C7AE001, 0x7C7AE007, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7C7AE001, 0x7C7AE002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C7AE001, 0x7C7AE003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C7AE001, 0x7C7AE004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C7AE001, 0x7C7AE005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C7AE001, 0x7C7AE006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C7AE001, 0x7C7AE007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AE002,  9253, 0xC7AE000A, 43.89476, 25.11081, 102.7761, 0.8883904, 0, 0, -0.4590888,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -41,7 +41,7 @@ VALUES (0x7C7AE008,  1542, 0xC7AE000A, 30.66816, 24.03985, 103.7806, 0.8883904, 
 /* @teleloc 0xC7AE000A [30.668160 24.039850 103.780600] 0.888390 0.000000 0.000000 -0.459089 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7AE008, 0x7C7AE009, '2019-02-10 00:00:00') /* Old Gravestone */;
+VALUES (0x7C7AE008, 0x7C7AE009, '2019-02-10 00:00:00') /* Old Gravestone (34129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7AE009, 34129, 0xC7AE000A, 30.66816, 24.03985, 103.7806, 0.8883904, 0, 0, -0.4590888,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

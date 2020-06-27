@@ -5,11 +5,11 @@ VALUES (0x722E2001,  1154, 0x22E20040, 174.7453, 168.6729, 50.25557, 0.9878985, 
 /* @teleloc 0x22E20040 [174.745300 168.672900 50.255570] 0.987899 0.000000 0.000000 -0.155102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E2001, 0x722E2002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x722E2001, 0x722E2003, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x722E2001, 0x722E2004, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x722E2001, 0x722E2005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x722E2001, 0x722E2006, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x722E2001, 0x722E2002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x722E2001, 0x722E2003, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x722E2001, 0x722E2004, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x722E2001, 0x722E2005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x722E2001, 0x722E2006, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E2002, 22809, 0x22E20040, 174.7453, 168.6729, 50.25557, 0.9878985, 0, 0, -0.1551016,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

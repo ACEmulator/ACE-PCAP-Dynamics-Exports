@@ -5,17 +5,17 @@ VALUES (0x77992001,  1154, 0x7992002C, 133.992, 75.52884, 98.02764, 0.9726713, 0
 /* @teleloc 0x7992002C [133.992000 75.528840 98.027640] 0.972671 0.000000 0.000000 -0.232186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77992001, 0x77992002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77992001, 0x77992003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77992001, 0x77992004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77992001, 0x77992005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77992001, 0x77992006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77992001, 0x77992007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77992001, 0x77992008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x77992001, 0x77992009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77992001, 0x7799200A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77992001, 0x7799200B, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x77992001, 0x7799200C, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x77992001, 0x77992002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77992001, 0x77992003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77992001, 0x77992004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77992001, 0x77992005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77992001, 0x77992006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77992001, 0x77992007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77992001, 0x77992008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x77992001, 0x77992009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77992001, 0x7799200A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77992001, 0x7799200B, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x77992001, 0x7799200C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77992002,     3, 0x7992002C, 133.992, 75.52884, 98.02764, 0.9726713, 0, 0, -0.2321863,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -66,8 +66,8 @@ VALUES (0x7799200D,  1542, 0x79920001, 18.4772, 17.88602, 98.44157, 1, 0, 0, 0, 
 /* @teleloc 0x79920001 [18.477200 17.886020 98.441570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7799200D, 0x7799200E, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7799200D, 0x7799200F, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7799200D, 0x7799200E, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7799200D, 0x7799200F, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7799200E,  8232, 0x79920001, 18.4772, 17.88602, 98.44157, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

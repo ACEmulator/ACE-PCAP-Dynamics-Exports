@@ -5,21 +5,21 @@ VALUES (0x73684001,  1154, 0x36840038, 164.7982, 190.4583, 56.03179, 0.75947, 0,
 /* @teleloc 0x36840038 [164.798200 190.458300 56.031790] 0.759470 0.000000 0.000000 -0.650542 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73684001, 0x73684002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73684001, 0x73684003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73684001, 0x73684004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73684001, 0x73684005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73684001, 0x73684006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73684001, 0x73684007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73684001, 0x73684008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73684001, 0x73684009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73684001, 0x7368400A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73684001, 0x7368400B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73684001, 0x7368400C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73684001, 0x7368400D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73684001, 0x7368400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x73684001, 0x7368400F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73684001, 0x73684010, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x73684001, 0x73684002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73684001, 0x73684003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73684001, 0x73684004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73684001, 0x73684005, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73684001, 0x73684006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73684001, 0x73684007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73684001, 0x73684008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x73684001, 0x73684009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73684001, 0x7368400A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73684001, 0x7368400B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73684001, 0x7368400C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73684001, 0x7368400D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73684001, 0x7368400E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x73684001, 0x7368400F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73684001, 0x73684010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73684002,  7081, 0x36840038, 164.7982, 190.4583, 56.03179, 0.75947, 0, 0, -0.6505423,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
@@ -86,7 +86,7 @@ VALUES (0x73684011,  1542, 0x3684003A, 168.4617, 37.72274, 32.81797, 1, 0, 0, 0,
 /* @teleloc 0x3684003A [168.461700 37.722740 32.817970] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73684011, 0x73684012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73684011, 0x73684012, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73684012, 22566, 0x3684003A, 168.4617, 37.72274, 32.81797, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

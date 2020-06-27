@@ -5,12 +5,12 @@ VALUES (0x79440001,  1154, 0x9440003D, 183.8707, 104.5056, 40.0055, 0.6063334, 0
 /* @teleloc 0x9440003D [183.870700 104.505600 40.005500] 0.606333 0.000000 0.000000 -0.795211 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79440001, 0x79440002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x79440001, 0x79440003, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79440001, 0x79440004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79440001, 0x79440005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79440001, 0x79440006, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x79440001, 0x79440007, '2019-02-10 00:00:00') /* Risen Soldier */;
+VALUES (0x79440001, 0x79440002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x79440001, 0x79440003, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79440001, 0x79440004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79440001, 0x79440005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79440001, 0x79440006, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x79440001, 0x79440007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79440002,   229, 0x9440003D, 183.8707, 104.5056, 40.0055, 0.6063334, 0, 0, -0.7952105,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

@@ -13,9 +13,9 @@ VALUES (0x77FDB002,  1154, 0x7FDB000E, 34.03953, 129.7816, 270.3399, 1, 0, 0, 0,
 /* @teleloc 0x7FDB000E [34.039530 129.781600 270.339900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FDB002, 0x77FDB003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x77FDB002, 0x77FDB004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77FDB002, 0x77FDB005, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x77FDB002, 0x77FDB003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x77FDB002, 0x77FDB004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77FDB002, 0x77FDB005, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FDB003, 11541, 0x7FDB000E, 34.03953, 129.7816, 270.3399, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plated Tusker */

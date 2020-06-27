@@ -5,13 +5,13 @@ VALUES (0x71A83001,  1154, 0x1A830029, 122.5062, 10.74864, 125.6373, 0.3439187, 
 /* @teleloc 0x1A830029 [122.506200 10.748640 125.637300] 0.343919 0.000000 0.000000 -0.939000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A83001, 0x71A83002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71A83001, 0x71A83003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A83001, 0x71A83004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A83001, 0x71A83005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71A83001, 0x71A83006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71A83001, 0x71A83007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71A83001, 0x71A83008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x71A83001, 0x71A83002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71A83001, 0x71A83003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A83001, 0x71A83004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A83001, 0x71A83005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71A83001, 0x71A83006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71A83001, 0x71A83007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71A83001, 0x71A83008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A83002, 28553, 0x1A830029, 122.5062, 10.74864, 125.6373, 0.3439187, 0, 0, -0.9389995,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

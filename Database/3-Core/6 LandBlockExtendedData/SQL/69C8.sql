@@ -5,12 +5,12 @@ VALUES (0x769C8001,  1154, 0x69C8003D, 174.8775, 104.746, 232.4246, 0.7071068, 0
 /* @teleloc 0x69C8003D [174.877500 104.746000 232.424600] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769C8001, 0x769C8002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x769C8001, 0x769C8003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x769C8001, 0x769C8004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x769C8001, 0x769C8005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x769C8001, 0x769C8006, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x769C8001, 0x769C8007, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x769C8001, 0x769C8002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x769C8001, 0x769C8003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x769C8001, 0x769C8004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x769C8001, 0x769C8005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x769C8001, 0x769C8006, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x769C8001, 0x769C8007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769C8002, 24275, 0x69C8003D, 174.8775, 104.746, 232.4246, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

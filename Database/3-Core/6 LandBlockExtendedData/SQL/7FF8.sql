@@ -5,17 +5,17 @@ VALUES (0x77FF8001,  1154, 0x7FF80021, 103.6525, 12.95652, -0.8999987, 0.1371937
 /* @teleloc 0x7FF80021 [103.652500 12.956520 -0.899999] 0.137194 0.000000 0.000000 -0.990544 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77FF8001, 0x77FF8002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77FF8001, 0x77FF8003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77FF8001, 0x77FF8004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x77FF8001, 0x77FF8005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x77FF8001, 0x77FF8006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x77FF8001, 0x77FF8007, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x77FF8001, 0x77FF8008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x77FF8001, 0x77FF8009, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77FF8001, 0x77FF800A, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x77FF8001, 0x77FF800B, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x77FF8001, 0x77FF800C, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x77FF8001, 0x77FF8002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77FF8001, 0x77FF8003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77FF8001, 0x77FF8004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x77FF8001, 0x77FF8005, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x77FF8001, 0x77FF8006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x77FF8001, 0x77FF8007, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x77FF8001, 0x77FF8008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x77FF8001, 0x77FF8009, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77FF8001, 0x77FF800A, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x77FF8001, 0x77FF800B, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x77FF8001, 0x77FF800C, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77FF8002,  7126, 0x7FF80021, 103.6525, 12.95652, -0.8999987, 0.1371937, 0, 0, -0.9905443,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

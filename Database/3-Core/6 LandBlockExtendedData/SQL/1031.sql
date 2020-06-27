@@ -5,11 +5,11 @@ VALUES (0x71031001,  1154, 0x10310003, 12.43606, 64.18015, -0.8899999, 0.1736482
 /* @teleloc 0x10310003 [12.436060 64.180150 -0.890000] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71031001, 0x71031002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71031001, 0x71031003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x71031001, 0x71031004, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71031001, 0x71031005, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x71031001, 0x71031006, '2019-02-10 00:00:00') /* Rendeath Shreth */;
+VALUES (0x71031001, 0x71031002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71031001, 0x71031003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71031001, 0x71031004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71031001, 0x71031005, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x71031001, 0x71031006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71031002,  7098, 0x10310003, 12.43606, 64.18015, -0.8899999, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Plasma Golem */

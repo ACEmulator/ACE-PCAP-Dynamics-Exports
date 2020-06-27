@@ -5,11 +5,11 @@ VALUES (0x794A5001,  1154, 0x94A50027, 119.7547, 153.5808, 70.83884, -0.9352705,
 /* @teleloc 0x94A50027 [119.754700 153.580800 70.838840] -0.935271 0.000000 0.000000 -0.353934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794A5001, 0x794A5002, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x794A5001, 0x794A5003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x794A5001, 0x794A5004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x794A5001, 0x794A5005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x794A5001, 0x794A5006, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x794A5001, 0x794A5002, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x794A5001, 0x794A5003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x794A5001, 0x794A5004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x794A5001, 0x794A5005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x794A5001, 0x794A5006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794A5002, 27254, 0x94A50027, 119.7547, 153.5808, 70.83884, -0.9352705, 0, 0, -0.3539338,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */

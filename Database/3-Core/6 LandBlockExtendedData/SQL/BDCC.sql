@@ -5,14 +5,14 @@ VALUES (0x7BDCC001,  1154, 0xBDCC0028, 106.5263, 179.0814, 389.5006, -0.1736482,
 /* @teleloc 0xBDCC0028 [106.526300 179.081400 389.500600] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDCC001, 0x7BDCC002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDCC001, 0x7BDCC003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDCC001, 0x7BDCC004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x7BDCC001, 0x7BDCC005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7BDCC001, 0x7BDCC006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BDCC001, 0x7BDCC007, '2019-02-10 00:00:00') /* Banished Lugian */
-     , (0x7BDCC001, 0x7BDCC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BDCC001, 0x7BDCC009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7BDCC001, 0x7BDCC002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDCC001, 0x7BDCC003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDCC001, 0x7BDCC004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7BDCC001, 0x7BDCC005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7BDCC001, 0x7BDCC006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BDCC001, 0x7BDCC007, '2019-02-10 00:00:00') /* Banished Lugian (30901) */
+     , (0x7BDCC001, 0x7BDCC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BDCC001, 0x7BDCC009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDCC002,  1629, 0xBDCC0028, 106.5263, 179.0814, 389.5006, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -51,7 +51,7 @@ VALUES (0x7BDCC00A,  1542, 0xBDCC0028, 114.6247, 180.7749, 388.548, 1, 0, 0, 0, 
 /* @teleloc 0xBDCC0028 [114.624700 180.774900 388.548000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDCC00A, 0x7BDCC00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BDCC00A, 0x7BDCC00B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDCC00B, 22567, 0xBDCC0028, 114.6247, 180.7749, 388.548, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

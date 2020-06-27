@@ -5,31 +5,31 @@ VALUES (0x7203D001,  1154, 0x203D001F, 83.68997, 156.7749, 0.007149994, -0.72973
 /* @teleloc 0x203D001F [83.689970 156.774900 0.007150] -0.729739 0.000000 0.000000 -0.683726 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7203D001, 0x7203D002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7203D001, 0x7203D003, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D004, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D005, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D006, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D007, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D008, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D009, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D00A, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D00B, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D00C, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7203D001, 0x7203D00D, '2019-02-10 00:00:00') /* Crystal Lord */
-     , (0x7203D001, 0x7203D00E, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D00F, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D010, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D011, '2019-02-10 00:00:00') /* Crystal Minion */
-     , (0x7203D001, 0x7203D012, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7203D001, 0x7203D013, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7203D001, 0x7203D014, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7203D001, 0x7203D015, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7203D001, 0x7203D016, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7203D001, 0x7203D017, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7203D001, 0x7203D018, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7203D001, 0x7203D019, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7203D001, 0x7203D01A, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7203D001, 0x7203D002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7203D001, 0x7203D003, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D004, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D005, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D006, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D007, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D008, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D009, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D00A, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D00B, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D00C, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7203D001, 0x7203D00D, '2019-02-10 00:00:00') /* Crystal Lord (14801) */
+     , (0x7203D001, 0x7203D00E, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D00F, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D010, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D011, '2019-02-10 00:00:00') /* Crystal Minion (14802) */
+     , (0x7203D001, 0x7203D012, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7203D001, 0x7203D013, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7203D001, 0x7203D014, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7203D001, 0x7203D015, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7203D001, 0x7203D016, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7203D001, 0x7203D017, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7203D001, 0x7203D018, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7203D001, 0x7203D019, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7203D001, 0x7203D01A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7203D002, 36819, 0x203D001F, 83.68997, 156.7749, 0.007149994, -0.7297392, 0, 0, -0.6837257,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -136,8 +136,8 @@ VALUES (0x7203D01B,  1542, 0x203D0034, 158.3525, 93.93752, 13.41626, 0.9990482, 
 /* @teleloc 0x203D0034 [158.352500 93.937520 13.416260] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7203D01B, 0x7203D01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7203D01B, 0x7203D01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7203D01B, 0x7203D01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7203D01B, 0x7203D01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7203D01C,  4179, 0x203D0034, 158.3525, 93.93752, 13.41626, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

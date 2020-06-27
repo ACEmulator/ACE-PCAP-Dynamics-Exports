@@ -5,15 +5,15 @@ VALUES (0x794D7001,  1154, 0x94D70030, 125.1186, 187.747, 126.3579, -0.5343731, 
 /* @teleloc 0x94D70030 [125.118600 187.747000 126.357900] -0.534373 0.000000 0.000000 -0.845249 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794D7001, 0x794D7002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x794D7001, 0x794D7003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x794D7001, 0x794D7004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x794D7001, 0x794D7005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D7001, 0x794D7006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D7001, 0x794D7007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x794D7001, 0x794D7008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x794D7001, 0x794D7009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x794D7001, 0x794D700A, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x794D7001, 0x794D7002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x794D7001, 0x794D7003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x794D7001, 0x794D7004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x794D7001, 0x794D7005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D7001, 0x794D7006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D7001, 0x794D7007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x794D7001, 0x794D7008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x794D7001, 0x794D7009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x794D7001, 0x794D700A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794D7002, 24289, 0x94D70030, 125.1186, 187.747, 126.3579, -0.5343731, 0, 0, -0.8452487,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

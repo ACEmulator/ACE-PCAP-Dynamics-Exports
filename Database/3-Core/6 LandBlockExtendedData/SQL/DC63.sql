@@ -1733,9 +1733,9 @@ VALUES (0x7DC631B0,  1154, 0xDC630028, 105.8615, 191.4606, 30.03205, 0.9063078, 
 /* @teleloc 0xDC630028 [105.861500 191.460600 30.032050] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC631B0, 0x7DC631B1, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7DC631B0, 0x7DC631B2, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7DC631B0, 0x7DC631B3, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7DC631B0, 0x7DC631B1, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7DC631B0, 0x7DC631B2, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7DC631B0, 0x7DC631B3, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC631B1, 26012, 0xDC630028, 105.8615, 191.4606, 30.03205, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Adept */
@@ -1754,7 +1754,7 @@ VALUES (0x7DC631B4,  1542, 0xDC630019, 83.03643, 19.87063, 29.0173, 0.06098734, 
 /* @teleloc 0xDC630019 [83.036430 19.870630 29.017300] 0.060987 0.000000 0.000000 -0.998139 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC631B4, 0x7DC631B5, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7DC631B4, 0x7DC631B5, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC631B5,  1955, 0xDC630019, 83.03643, 19.87063, 29.0173, 0.06098734, 0, 0, -0.9981385,  True, '2019-02-10 00:00:00'); /* Gateway */

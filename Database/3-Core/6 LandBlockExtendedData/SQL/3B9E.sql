@@ -5,11 +5,11 @@ VALUES (0x73B9E001,  1154, 0x3B9E0021, 101.8197, 15.28079, 26.03611, 0.5077835, 
 /* @teleloc 0x3B9E0021 [101.819700 15.280790 26.036110] 0.507784 0.000000 0.000000 -0.861485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B9E001, 0x73B9E002, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x73B9E001, 0x73B9E003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73B9E001, 0x73B9E004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73B9E001, 0x73B9E005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73B9E001, 0x73B9E006, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x73B9E001, 0x73B9E002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x73B9E001, 0x73B9E003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73B9E001, 0x73B9E004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73B9E001, 0x73B9E005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73B9E001, 0x73B9E006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B9E002, 26470, 0x3B9E0021, 101.8197, 15.28079, 26.03611, 0.5077835, 0, 0, -0.8614848,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
@@ -36,7 +36,7 @@ VALUES (0x73B9E007,  1542, 0x3B9E0029, 121.3861, 21.51015, 31.52298, 0.5077835, 
 /* @teleloc 0x3B9E0029 [121.386100 21.510150 31.522980] 0.507784 0.000000 0.000000 -0.861485 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B9E007, 0x73B9E008, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x73B9E007, 0x73B9E008, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B9E008,  8039, 0x3B9E0029, 121.3861, 21.51015, 31.52298, 0.5077835, 0, 0, -0.8614848,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

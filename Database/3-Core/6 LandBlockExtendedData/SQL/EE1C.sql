@@ -5,26 +5,26 @@ VALUES (0x7EE1C001,  1154, 0xEE1C0027, 118.827, 157.06, 0.006600022, 0.9009577, 
 /* @teleloc 0xEE1C0027 [118.827000 157.060000 0.006600] 0.900958 0.000000 0.000000 0.433907 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE1C001, 0x7EE1C002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EE1C001, 0x7EE1C006, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7EE1C001, 0x7EE1C007, '2019-02-10 00:00:00') /* Idol */
-     , (0x7EE1C001, 0x7EE1C008, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C009, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C00A, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C00B, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C00C, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C00D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C00E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C00F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C010, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C011, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C012, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7EE1C001, 0x7EE1C013, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7EE1C001, 0x7EE1C014, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7EE1C001, 0x7EE1C015, '2019-02-10 00:00:00') /* Mosswart Zealot */;
+VALUES (0x7EE1C001, 0x7EE1C002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EE1C001, 0x7EE1C006, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7EE1C001, 0x7EE1C007, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7EE1C001, 0x7EE1C008, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C009, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C00A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C00B, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C00C, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C00D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C00E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C00F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C010, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C011, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C012, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7EE1C001, 0x7EE1C013, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7EE1C001, 0x7EE1C014, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7EE1C001, 0x7EE1C015, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE1C002,  8428, 0xEE1C0027, 118.827, 157.06, 0.006600022, 0.9009577, 0, 0, 0.4339069,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */

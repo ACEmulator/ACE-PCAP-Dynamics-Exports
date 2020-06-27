@@ -5,14 +5,14 @@ VALUES (0x7CAD9001,  1154, 0xCAD90030, 132.9624, 181.6932, 32.26641, -0.820529, 
 /* @teleloc 0xCAD90030 [132.962400 181.693200 32.266410] -0.820529 0.000000 0.000000 -0.571605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAD9001, 0x7CAD9002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7CAD9001, 0x7CAD9003, '2019-02-10 00:00:00') /* Static */
-     , (0x7CAD9001, 0x7CAD9004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7CAD9001, 0x7CAD9005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7CAD9001, 0x7CAD9006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7CAD9001, 0x7CAD9007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CAD9001, 0x7CAD9008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7CAD9001, 0x7CAD9009, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7CAD9001, 0x7CAD9002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7CAD9001, 0x7CAD9003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7CAD9001, 0x7CAD9004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7CAD9001, 0x7CAD9005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7CAD9001, 0x7CAD9006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7CAD9001, 0x7CAD9007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CAD9001, 0x7CAD9008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7CAD9001, 0x7CAD9009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAD9002,  6380, 0xCAD90030, 132.9624, 181.6932, 32.26641, -0.820529, 0, 0, -0.5716048,  True, '2019-02-10 00:00:00'); /* Scintilla */

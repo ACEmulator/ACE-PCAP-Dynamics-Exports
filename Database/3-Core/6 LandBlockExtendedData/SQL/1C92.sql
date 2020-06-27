@@ -5,22 +5,22 @@ VALUES (0x71C92001,  1154, 0x1C920011, 59.35042, 17.49067, 30.0075, 0.7301839, 0
 /* @teleloc 0x1C920011 [59.350420 17.490670 30.007500] 0.730184 0.000000 0.000000 -0.683251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C92001, 0x71C92002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71C92001, 0x71C92003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71C92001, 0x71C92004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71C92001, 0x71C92005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71C92001, 0x71C92006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71C92001, 0x71C92007, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71C92001, 0x71C92008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71C92001, 0x71C92009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71C92001, 0x71C9200A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71C92001, 0x71C9200B, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x71C92001, 0x71C9200C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71C92001, 0x71C9200D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x71C92001, 0x71C9200E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C92001, 0x71C9200F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C92001, 0x71C92010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71C92001, 0x71C92011, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x71C92001, 0x71C92002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71C92001, 0x71C92003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71C92001, 0x71C92004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71C92001, 0x71C92005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71C92001, 0x71C92006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71C92001, 0x71C92007, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71C92001, 0x71C92008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71C92001, 0x71C92009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71C92001, 0x71C9200A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71C92001, 0x71C9200B, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x71C92001, 0x71C9200C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71C92001, 0x71C9200D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71C92001, 0x71C9200E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C92001, 0x71C9200F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C92001, 0x71C92010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71C92001, 0x71C92011, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C92002, 41534, 0x1C920011, 59.35042, 17.49067, 30.0075, 0.7301839, 0, 0, -0.6832507,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
@@ -91,9 +91,9 @@ VALUES (0x71C92012,  1542, 0x1C920031, 151.0376, 2.694067, 42.93231, 0.9990482, 
 /* @teleloc 0x1C920031 [151.037600 2.694067 42.932310] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C92012, 0x71C92013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71C92012, 0x71C92014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x71C92012, 0x71C92015, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C92012, 0x71C92013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71C92012, 0x71C92014, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x71C92012, 0x71C92015, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C92013,  4179, 0x1C920031, 151.0376, 2.694067, 42.93231, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -25,17 +25,17 @@ VALUES (0x7A0A7006,  1154, 0xA0A70023, 117.6252, 71.34673, 64.0121, 0.7071068, 0
 /* @teleloc 0xA0A70023 [117.625200 71.346730 64.012100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A7006, 0x7A0A7007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0A7006, 0x7A0A7008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0A7006, 0x7A0A7009, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7A0A7006, 0x7A0A700A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A0A7006, 0x7A0A700B, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A0A7006, 0x7A0A700C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A0A7006, 0x7A0A700D, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A0A7006, 0x7A0A700E, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A0A7006, 0x7A0A700F, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A0A7006, 0x7A0A7010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A0A7006, 0x7A0A7011, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A0A7006, 0x7A0A7007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0A7006, 0x7A0A7008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0A7006, 0x7A0A7009, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7A0A7006, 0x7A0A700A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A0A7006, 0x7A0A700B, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A0A7006, 0x7A0A700C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A0A7006, 0x7A0A700D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A0A7006, 0x7A0A700E, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A0A7006, 0x7A0A700F, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A0A7006, 0x7A0A7010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A0A7006, 0x7A0A7011, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A7007,  1627, 0xA0A70023, 117.6252, 71.34673, 64.0121, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -86,11 +86,11 @@ VALUES (0x7A0A7012,  1542, 0xA0A7002D, 131.1204, 109.9019, 64.2279, -0.282952, 0
 /* @teleloc 0xA0A7002D [131.120400 109.901900 64.227900] -0.282952 0.000000 0.000000 -0.959134 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0A7012, 0x7A0A7013, '2019-02-10 00:00:00') /* Wormwood */
-     , (0x7A0A7012, 0x7A0A7014, '2019-02-10 00:00:00') /* Mugwort */
-     , (0x7A0A7012, 0x7A0A7015, '2019-02-10 00:00:00') /* Mugwort */
-     , (0x7A0A7012, 0x7A0A7016, '2019-02-10 00:00:00') /* Amaranth */
-     , (0x7A0A7012, 0x7A0A7017, '2019-02-10 00:00:00') /* Amaranth */;
+VALUES (0x7A0A7012, 0x7A0A7013, '2019-02-10 00:00:00') /* Wormwood (780) */
+     , (0x7A0A7012, 0x7A0A7014, '2019-02-10 00:00:00') /* Mugwort (776) */
+     , (0x7A0A7012, 0x7A0A7015, '2019-02-10 00:00:00') /* Mugwort (776) */
+     , (0x7A0A7012, 0x7A0A7016, '2019-02-10 00:00:00') /* Amaranth (765) */
+     , (0x7A0A7012, 0x7A0A7017, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0A7013,   780, 0xA0A7002D, 131.1204, 109.9019, 64.2279, -0.282952, 0, 0, -0.959134,  True, '2019-02-10 00:00:00'); /* Wormwood */

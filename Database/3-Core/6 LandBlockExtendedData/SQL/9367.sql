@@ -5,9 +5,9 @@ VALUES (0x79367001,  1154, 0x93670009, 33.27097, 10.57578, 11.54766, -0.9981552,
 /* @teleloc 0x93670009 [33.270970 10.575780 11.547660] -0.998155 0.000000 0.000000 -0.060714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79367001, 0x79367002, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79367001, 0x79367003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x79367001, 0x79367004, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x79367001, 0x79367002, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79367001, 0x79367003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x79367001, 0x79367004, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79367002,  5683, 0x93670009, 33.27097, 10.57578, 11.54766, -0.9981552, 0, 0, -0.06071446,  True, '2019-02-10 00:00:00'); /* Seared Skeleton */

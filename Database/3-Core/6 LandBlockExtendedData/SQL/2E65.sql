@@ -5,11 +5,11 @@ VALUES (0x72E65001,  1154, 0x2E650019, 79.4973, 13.65937, 87.2411, 0.9238795, 0,
 /* @teleloc 0x2E650019 [79.497300 13.659370 87.241100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E65001, 0x72E65002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E65001, 0x72E65003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E65001, 0x72E65004, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72E65001, 0x72E65005, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72E65001, 0x72E65006, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x72E65001, 0x72E65002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E65001, 0x72E65003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E65001, 0x72E65004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72E65001, 0x72E65005, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72E65001, 0x72E65006, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E65002, 24497, 0x2E650019, 79.4973, 13.65937, 87.2411, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -36,7 +36,7 @@ VALUES (0x72E65007,  1542, 0x2E650019, 73.00981, 18.44607, 87.2411, 1, 0, 0, 0, 
 /* @teleloc 0x2E650019 [73.009810 18.446070 87.241100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E65007, 0x72E65008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72E65007, 0x72E65008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E65008,  4380, 0x2E650019, 73.00981, 18.44607, 87.2411, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

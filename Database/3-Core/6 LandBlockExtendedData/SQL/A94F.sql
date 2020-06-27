@@ -5,16 +5,16 @@ VALUES (0x7A94F001,  1154, 0xA94F0029, 137.8349, 12.53556, 28.0025, 0.7128826, 0
 /* @teleloc 0xA94F0029 [137.834900 12.535560 28.002500] 0.712883 0.000000 0.000000 -0.701283 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A94F001, 0x7A94F002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A94F001, 0x7A94F003, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A94F001, 0x7A94F004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A94F001, 0x7A94F005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A94F001, 0x7A94F006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A94F001, 0x7A94F007, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x7A94F001, 0x7A94F008, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A94F001, 0x7A94F009, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A94F001, 0x7A94F00A, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A94F001, 0x7A94F00B, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7A94F001, 0x7A94F002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A94F001, 0x7A94F003, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A94F001, 0x7A94F004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A94F001, 0x7A94F005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A94F001, 0x7A94F006, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A94F001, 0x7A94F007, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x7A94F001, 0x7A94F008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A94F001, 0x7A94F009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A94F001, 0x7A94F00A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A94F001, 0x7A94F00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A94F002,  8270, 0xA94F0029, 137.8349, 12.53556, 28.0025, 0.7128826, 0, 0, -0.7012834,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

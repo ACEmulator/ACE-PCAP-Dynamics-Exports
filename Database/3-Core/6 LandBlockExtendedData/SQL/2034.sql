@@ -5,10 +5,10 @@ VALUES (0x72034001,  1154, 0x20340016, 69.18449, 125.6627, 200.005, -0.3048897, 
 /* @teleloc 0x20340016 [69.184490 125.662700 200.005000] -0.304890 0.000000 0.000000 -0.952388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72034001, 0x72034002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72034001, 0x72034003, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72034001, 0x72034004, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72034001, 0x72034005, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x72034001, 0x72034002, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72034001, 0x72034003, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72034001, 0x72034004, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72034001, 0x72034005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72034002, 23562, 0x20340016, 69.18449, 125.6627, 200.005, -0.3048897, 0, 0, -0.9523877,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

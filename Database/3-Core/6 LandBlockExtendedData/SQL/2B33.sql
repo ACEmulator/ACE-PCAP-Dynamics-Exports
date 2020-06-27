@@ -5,14 +5,14 @@ VALUES (0x72B33001,  1154, 0x2B330001, 7.419034, 14.3661, 70.01, 0.04945699, 0, 
 /* @teleloc 0x2B330001 [7.419034 14.366100 70.010000] 0.049457 0.000000 0.000000 -0.998776 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B33001, 0x72B33002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72B33001, 0x72B33003, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72B33001, 0x72B33004, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x72B33001, 0x72B33005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72B33001, 0x72B33006, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x72B33001, 0x72B33007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72B33001, 0x72B33008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72B33001, 0x72B33009, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x72B33001, 0x72B33002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72B33001, 0x72B33003, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72B33001, 0x72B33004, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x72B33001, 0x72B33005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72B33001, 0x72B33006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x72B33001, 0x72B33007, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72B33001, 0x72B33008, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x72B33001, 0x72B33009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B33002, 14520, 0x2B330001, 7.419034, 14.3661, 70.01, 0.04945699, 0, 0, -0.9987763,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

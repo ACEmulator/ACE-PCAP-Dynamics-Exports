@@ -5,16 +5,16 @@ VALUES (0x721C8001,  1154, 0x21C80024, 116.0423, 79.53207, 13.78424, 0.2876345, 
 /* @teleloc 0x21C80024 [116.042300 79.532070 13.784240] 0.287635 0.000000 0.000000 -0.957740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C8001, 0x721C8002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x721C8001, 0x721C8003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x721C8001, 0x721C8004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x721C8001, 0x721C8005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C8001, 0x721C8006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x721C8001, 0x721C8007, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C8001, 0x721C8008, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x721C8001, 0x721C8009, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x721C8001, 0x721C800A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x721C8001, 0x721C800B, '2019-02-10 00:00:00') /* Copper Gromnie */;
+VALUES (0x721C8001, 0x721C8002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x721C8001, 0x721C8003, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x721C8001, 0x721C8004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x721C8001, 0x721C8005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C8001, 0x721C8006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x721C8001, 0x721C8007, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C8001, 0x721C8008, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x721C8001, 0x721C8009, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x721C8001, 0x721C800A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x721C8001, 0x721C800B, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C8002,  7340, 0x21C80024, 116.0423, 79.53207, 13.78424, 0.2876345, 0, 0, -0.9577402,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -61,8 +61,8 @@ VALUES (0x721C800C,  1542, 0x21C80015, 60.02777, 105.084, 11.76602, 0.9952965, 0
 /* @teleloc 0x21C80015 [60.027770 105.084000 11.766020] 0.995297 0.000000 0.000000 -0.096876 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C800C, 0x721C800D, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x721C800C, 0x721C800E, '2019-02-10 00:00:00') /* Atuakeh Plant */;
+VALUES (0x721C800C, 0x721C800D, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x721C800C, 0x721C800E, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C800D, 36066, 0x21C80015, 60.02777, 105.084, 11.76602, 0.9952965, 0, 0, -0.09687569,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

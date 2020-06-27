@@ -5,16 +5,16 @@ VALUES (0x7C460001,  1154, 0xC4600003, 9.723392, 48.50616, 5.5564, -0.8047809, 0
 /* @teleloc 0xC4600003 [9.723392 48.506160 5.556400] -0.804781 0.000000 0.000000 -0.593572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C460001, 0x7C460002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C460001, 0x7C460003, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C460001, 0x7C460004, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C460001, 0x7C460005, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C460001, 0x7C460006, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C460001, 0x7C460007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C460001, 0x7C460008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C460001, 0x7C460009, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C460001, 0x7C46000A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C460001, 0x7C46000B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */;
+VALUES (0x7C460001, 0x7C460002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C460001, 0x7C460003, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C460001, 0x7C460004, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C460001, 0x7C460005, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C460001, 0x7C460006, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C460001, 0x7C460007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C460001, 0x7C460008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C460001, 0x7C460009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C460001, 0x7C46000A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C460001, 0x7C46000B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C460002,  7180, 0xC4600003, 9.723392, 48.50616, 5.5564, -0.8047809, 0, 0, -0.593572,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

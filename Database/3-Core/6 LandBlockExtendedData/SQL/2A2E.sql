@@ -5,14 +5,14 @@ VALUES (0x72A2E001,  1154, 0x2A2E0018, 50.99326, 183.5146, 62.37079, 0.9990018, 
 /* @teleloc 0x2A2E0018 [50.993260 183.514600 62.370790] 0.999002 0.000000 0.000000 -0.044669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A2E001, 0x72A2E002, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72A2E001, 0x72A2E003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72A2E001, 0x72A2E004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72A2E001, 0x72A2E005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72A2E001, 0x72A2E006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72A2E001, 0x72A2E007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72A2E001, 0x72A2E008, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72A2E001, 0x72A2E009, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x72A2E001, 0x72A2E002, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72A2E001, 0x72A2E003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72A2E001, 0x72A2E004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72A2E001, 0x72A2E005, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72A2E001, 0x72A2E006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72A2E001, 0x72A2E007, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72A2E001, 0x72A2E008, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72A2E001, 0x72A2E009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A2E002,  7127, 0x2A2E0018, 50.99326, 183.5146, 62.37079, 0.9990018, 0, 0, -0.04466932,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */

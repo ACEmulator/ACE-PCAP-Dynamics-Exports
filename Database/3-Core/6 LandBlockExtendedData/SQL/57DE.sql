@@ -5,10 +5,10 @@ VALUES (0x757DE001,  1154, 0x57DE0014, 48.78566, 86.31824, 26.81331, 0.9238795, 
 /* @teleloc 0x57DE0014 [48.785660 86.318240 26.813310] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757DE001, 0x757DE002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757DE001, 0x757DE003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757DE001, 0x757DE004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x757DE001, 0x757DE005, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x757DE001, 0x757DE002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757DE001, 0x757DE003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757DE001, 0x757DE004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x757DE001, 0x757DE005, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757DE002, 10807, 0x57DE0014, 48.78566, 86.31824, 26.81331, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

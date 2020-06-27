@@ -5,9 +5,9 @@ VALUES (0x78ED5001,  1154, 0x8ED50021, 97.54718, 16.26962, 358.2234, 0.9768733, 
 /* @teleloc 0x8ED50021 [97.547180 16.269620 358.223400] 0.976873 0.000000 0.000000 -0.213819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED5001, 0x78ED5002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78ED5001, 0x78ED5003, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x78ED5001, 0x78ED5004, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x78ED5001, 0x78ED5002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78ED5001, 0x78ED5003, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x78ED5001, 0x78ED5004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED5002,  7088, 0x8ED50021, 97.54718, 16.26962, 358.2234, 0.9768733, 0, 0, -0.2138192,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -26,7 +26,7 @@ VALUES (0x78ED5005,  1542, 0x8ED50001, 1.219274, 4.257714, 367.442, 0.6755902, 0
 /* @teleloc 0x8ED50001 [1.219274 4.257714 367.442000] 0.675590 0.000000 0.000000 -0.737277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED5005, 0x78ED5006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78ED5005, 0x78ED5006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED5006,  4380, 0x8ED50001, 1.219274, 4.257714, 367.442, 0.6755902, 0, 0, -0.7372773,  True, '2019-02-10 00:00:00'); /* Bones */

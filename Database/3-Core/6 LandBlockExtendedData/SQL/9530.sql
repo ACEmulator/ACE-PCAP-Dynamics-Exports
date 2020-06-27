@@ -5,10 +5,10 @@ VALUES (0x79530001,  1154, 0x9530003C, 186.334, 84.01855, 119.6211, 0.9238795, 0
 /* @teleloc 0x9530003C [186.334000 84.018550 119.621100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79530001, 0x79530002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79530001, 0x79530003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79530001, 0x79530004, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x79530001, 0x79530005, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x79530001, 0x79530002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79530001, 0x79530003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79530001, 0x79530004, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x79530001, 0x79530005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79530002, 10770, 0x9530003C, 186.334, 84.01855, 119.6211, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

@@ -21,8 +21,8 @@ VALUES (0x79FB4005,  1154, 0x9FB4001E, 77.19453, 137.2202, 87.70173, -0.9978271,
 /* @teleloc 0x9FB4001E [77.194530 137.220200 87.701730] -0.997827 0.000000 0.000000 -0.065888 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB4005, 0x79FB4006, '2019-02-10 00:00:00') /* Nefarious Scarecrow */
-     , (0x79FB4005, 0x79FB4007, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79FB4005, 0x79FB4006, '2019-02-10 00:00:00') /* Nefarious Scarecrow (28879) */
+     , (0x79FB4005, 0x79FB4007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB4006, 28879, 0x9FB4001E, 77.19453, 137.2202, 87.70173, -0.9978271, 0, 0, -0.065888,  True, '2019-02-10 00:00:00'); /* Nefarious Scarecrow */
@@ -37,11 +37,11 @@ VALUES (0x79FB4008,  1542, 0x9FB4001E, 75.99077, 135.6482, 88.03085, 1, 0, 0, 0,
 /* @teleloc 0x9FB4001E [75.990770 135.648200 88.030850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB4008, 0x79FB4009, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79FB4008, 0x79FB400A, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79FB4008, 0x79FB400B, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x79FB4008, 0x79FB400C, '2019-02-10 00:00:00') /* Seeds of Anger */
-     , (0x79FB4008, 0x79FB400D, '2019-02-10 00:00:00') /* Seeds of Anger */;
+VALUES (0x79FB4008, 0x79FB4009, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79FB4008, 0x79FB400A, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79FB4008, 0x79FB400B, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79FB4008, 0x79FB400C, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */
+     , (0x79FB4008, 0x79FB400D, '2019-02-10 00:00:00') /* Seeds of Anger (32204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB4009,  8232, 0x9FB4001E, 75.99077, 135.6482, 88.03085, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

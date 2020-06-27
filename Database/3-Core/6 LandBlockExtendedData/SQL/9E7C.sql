@@ -5,9 +5,9 @@ VALUES (0x79E7C001,  1154, 0x9E7C0004, 14.37193, 83.76666, 29.83478, 0.2557221, 
 /* @teleloc 0x9E7C0004 [14.371930 83.766660 29.834780] 0.255722 0.000000 0.000000 -0.966750 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E7C001, 0x79E7C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79E7C001, 0x79E7C003, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x79E7C001, 0x79E7C004, '2019-02-10 00:00:00') /* Marionette */;
+VALUES (0x79E7C001, 0x79E7C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79E7C001, 0x79E7C003, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x79E7C001, 0x79E7C004, '2019-02-10 00:00:00') /* Marionette (9249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E7C002,   217, 0x9E7C0004, 14.37193, 83.76666, 29.83478, 0.2557221, 0, 0, -0.9667503,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

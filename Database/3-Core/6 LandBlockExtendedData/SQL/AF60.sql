@@ -5,15 +5,15 @@ VALUES (0x7AF60001,  1154, 0xAF60001E, 91.15778, 131.7887, 50.029, 0.9414102, 0,
 /* @teleloc 0xAF60001E [91.157780 131.788700 50.029000] 0.941410 0.000000 0.000000 -0.337264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF60001, 0x7AF60002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AF60001, 0x7AF60003, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF60001, 0x7AF60004, '2019-02-10 00:00:00') /* Auroch Fire Yearling */
-     , (0x7AF60001, 0x7AF60005, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x7AF60001, 0x7AF60006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AF60001, 0x7AF60007, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AF60001, 0x7AF60008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AF60001, 0x7AF60009, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7AF60001, 0x7AF6000A, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7AF60001, 0x7AF60002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AF60001, 0x7AF60003, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF60001, 0x7AF60004, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7AF60001, 0x7AF60005, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7AF60001, 0x7AF60006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AF60001, 0x7AF60007, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AF60001, 0x7AF60008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AF60001, 0x7AF60009, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7AF60001, 0x7AF6000A, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF60002,    23, 0xAF60001E, 91.15778, 131.7887, 50.029, 0.9414102, 0, 0, -0.3372638,  True, '2019-02-10 00:00:00'); /* Virindi Servant */

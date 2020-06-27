@@ -13,17 +13,17 @@ VALUES (0x7A1A7003,  1154, 0xA1A70031, 146.0094, 3.297866, 73.72517, -0.2442659,
 /* @teleloc 0xA1A70031 [146.009400 3.297866 73.725170] -0.244266 0.000000 0.000000 -0.969708 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A7003, 0x7A1A7004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1A7003, 0x7A1A7005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A1A7003, 0x7A1A7006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7A1A7003, 0x7A1A7007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1A7003, 0x7A1A7008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1A7003, 0x7A1A7009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A1A7003, 0x7A1A700A, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A1A7003, 0x7A1A700B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A1A7003, 0x7A1A700C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A1A7003, 0x7A1A700D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A1A7003, 0x7A1A700E, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7A1A7003, 0x7A1A7004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1A7003, 0x7A1A7005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A1A7003, 0x7A1A7006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7A1A7003, 0x7A1A7007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1A7003, 0x7A1A7008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1A7003, 0x7A1A7009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A1A7003, 0x7A1A700A, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A1A7003, 0x7A1A700B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A1A7003, 0x7A1A700C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A1A7003, 0x7A1A700D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A1A7003, 0x7A1A700E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A7004,     3, 0xA1A70031, 146.0094, 3.297866, 73.72517, -0.2442659, 0, 0, -0.9697083,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -74,7 +74,7 @@ VALUES (0x7A1A700F,  1154, 0xA1A7001C, 81.9715, 92.9501, 64.25916, 1, 0, 0, 0, F
 /* @teleloc 0xA1A7001C [81.971500 92.950100 64.259160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A700F, 0x7A1A7010, '2019-02-10 00:00:00') /* Lilly of Glenden Wood */;
+VALUES (0x7A1A700F, 0x7A1A7010, '2019-02-10 00:00:00') /* Lilly of Glenden Wood (2607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A7010,  2607, 0xA1A7001C, 81.9715, 92.9501, 64.25916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Lilly of Glenden Wood */

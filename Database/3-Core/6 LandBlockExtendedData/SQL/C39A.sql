@@ -5,18 +5,18 @@ VALUES (0x7C39A001,  1154, 0xC39A0036, 165.2084, 138.2571, 14.1267, -0.8401236, 
 /* @teleloc 0xC39A0036 [165.208400 138.257100 14.126700] -0.840124 0.000000 0.000000 -0.542395 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39A001, 0x7C39A002, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C39A001, 0x7C39A003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C39A001, 0x7C39A004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C39A001, 0x7C39A005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C39A001, 0x7C39A006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39A001, 0x7C39A007, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7C39A001, 0x7C39A008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C39A001, 0x7C39A009, '2019-02-10 00:00:00') /* Static */
-     , (0x7C39A001, 0x7C39A00A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39A001, 0x7C39A00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C39A001, 0x7C39A00C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C39A001, 0x7C39A00D, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7C39A001, 0x7C39A002, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C39A001, 0x7C39A003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C39A001, 0x7C39A004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C39A001, 0x7C39A005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C39A001, 0x7C39A006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39A001, 0x7C39A007, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7C39A001, 0x7C39A008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C39A001, 0x7C39A009, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7C39A001, 0x7C39A00A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39A001, 0x7C39A00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C39A001, 0x7C39A00C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C39A001, 0x7C39A00D, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39A002,   219, 0xC39A0036, 165.2084, 138.2571, 14.1267, -0.8401236, 0, 0, -0.542395,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -71,7 +71,7 @@ VALUES (0x7C39A00E,  1542, 0xC39A0038, 152.8294, 170.0959, 9.443334, 1, 0, 0, 0,
 /* @teleloc 0xC39A0038 [152.829400 170.095900 9.443334] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C39A00E, 0x7C39A00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C39A00E, 0x7C39A00F, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C39A00F, 22568, 0xC39A0038, 152.8294, 170.0959, 9.443334, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

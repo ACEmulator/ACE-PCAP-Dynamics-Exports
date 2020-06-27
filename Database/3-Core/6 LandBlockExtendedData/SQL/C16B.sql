@@ -5,11 +5,11 @@ VALUES (0x7C16B001,  1154, 0xC16B0032, 161.4988, 32.43516, 65.6314, -0.8356118, 
 /* @teleloc 0xC16B0032 [161.498800 32.435160 65.631400] -0.835612 0.000000 0.000000 -0.549320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16B001, 0x7C16B002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7C16B001, 0x7C16B003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7C16B001, 0x7C16B004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C16B001, 0x7C16B005, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7C16B001, 0x7C16B006, '2019-02-10 00:00:00') /* High Tumerok */;
+VALUES (0x7C16B001, 0x7C16B002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7C16B001, 0x7C16B003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7C16B001, 0x7C16B004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C16B001, 0x7C16B005, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7C16B001, 0x7C16B006, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16B002,  1626, 0xC16B0032, 161.4988, 32.43516, 65.6314, -0.8356118, 0, 0, -0.5493204,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -36,7 +36,7 @@ VALUES (0x7C16B007,  1542, 0xC16B0010, 37.75744, 172.1137, 66.34281, 1, 0, 0, 0,
 /* @teleloc 0xC16B0010 [37.757440 172.113700 66.342810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16B007, 0x7C16B008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7C16B007, 0x7C16B008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C16B008,  4380, 0xC16B0010, 37.75744, 172.1137, 66.34281, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,26 +5,26 @@ VALUES (0x7C27F001,  1154, 0xC27F0002, 2.112718, 45.51652, 31.76714, -0.2416091,
 /* @teleloc 0xC27F0002 [2.112718 45.516520 31.767140] -0.241609 0.000000 0.000000 -0.970374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C27F001, 0x7C27F002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C27F001, 0x7C27F003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F008, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C27F001, 0x7C27F009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C27F001, 0x7C27F00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F00C, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F00D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F00F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C27F001, 0x7C27F012, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F014, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C27F001, 0x7C27F015, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C27F001, 0x7C27F002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C27F001, 0x7C27F003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F008, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C27F001, 0x7C27F009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C27F001, 0x7C27F00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F00C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F00D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F00F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C27F001, 0x7C27F012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F014, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C27F001, 0x7C27F015, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C27F002,   232, 0xC27F0002, 2.112718, 45.51652, 31.76714, -0.2416091, 0, 0, -0.9703737,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -111,7 +111,7 @@ VALUES (0x7C27F016,  1542, 0xC27F0002, 13.79873, 43.00954, 32.31815, -0.2416091,
 /* @teleloc 0xC27F0002 [13.798730 43.009540 32.318150] -0.241609 0.000000 0.000000 -0.970374 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C27F016, 0x7C27F017, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7C27F016, 0x7C27F017, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C27F017,  8646, 0xC27F0002, 13.79873, 43.00954, 32.31815, -0.2416091, 0, 0, -0.9703737,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

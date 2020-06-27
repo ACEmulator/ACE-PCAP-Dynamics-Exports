@@ -5,15 +5,15 @@ VALUES (0x7C290001,  1154, 0xC290002F, 134.6168, 147.4685, 4.0055, -0.9874098, 0
 /* @teleloc 0xC290002F [134.616800 147.468500 4.005500] -0.987410 0.000000 0.000000 -0.158183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C290001, 0x7C290002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C290001, 0x7C290003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C290001, 0x7C290004, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C290001, 0x7C290005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C290001, 0x7C290006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C290001, 0x7C290007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C290001, 0x7C290008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C290001, 0x7C290009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C290001, 0x7C29000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C290001, 0x7C290002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C290001, 0x7C290003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C290001, 0x7C290004, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C290001, 0x7C290005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C290001, 0x7C290006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C290001, 0x7C290007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C290001, 0x7C290008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C290001, 0x7C290009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C290001, 0x7C29000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C290002,  2439, 0xC290002F, 134.6168, 147.4685, 4.0055, -0.9874098, 0, 0, -0.1581829,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */

@@ -5,22 +5,22 @@ VALUES (0x7A9BA001,  1154, 0xA9BA0003, 21.95098, 61.1599, 63.01172, -0.7428229, 
 /* @teleloc 0xA9BA0003 [21.950980 61.159900 63.011720] -0.742823 0.000000 0.000000 -0.669488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9BA001, 0x7A9BA002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7A9BA001, 0x7A9BA003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A9BA001, 0x7A9BA004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A9BA001, 0x7A9BA005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7A9BA001, 0x7A9BA006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7A9BA001, 0x7A9BA007, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A9BA001, 0x7A9BA008, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A9BA001, 0x7A9BA009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A9BA001, 0x7A9BA00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A9BA001, 0x7A9BA00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A9BA001, 0x7A9BA00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A9BA001, 0x7A9BA00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A9BA001, 0x7A9BA00E, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A9BA001, 0x7A9BA00F, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A9BA001, 0x7A9BA010, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A9BA001, 0x7A9BA011, '2019-02-10 00:00:00') /* Drudge Sneaker */;
+VALUES (0x7A9BA001, 0x7A9BA002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7A9BA001, 0x7A9BA003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A9BA001, 0x7A9BA004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A9BA001, 0x7A9BA005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7A9BA001, 0x7A9BA006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7A9BA001, 0x7A9BA007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A9BA001, 0x7A9BA008, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A9BA001, 0x7A9BA009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A9BA001, 0x7A9BA00A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A9BA001, 0x7A9BA00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A9BA001, 0x7A9BA00C, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A9BA001, 0x7A9BA00D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A9BA001, 0x7A9BA00E, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A9BA001, 0x7A9BA00F, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A9BA001, 0x7A9BA010, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A9BA001, 0x7A9BA011, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9BA002,   216, 0xA9BA0003, 21.95098, 61.1599, 63.01172, -0.7428229, 0, 0, -0.669488,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */
@@ -91,8 +91,8 @@ VALUES (0x7A9BA012,  1542, 0xA9BA0010, 24.76526, 186.9713, 75.91611, 0.8191521, 
 /* @teleloc 0xA9BA0010 [24.765260 186.971300 75.916110] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9BA012, 0x7A9BA013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A9BA012, 0x7A9BA014, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A9BA012, 0x7A9BA013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A9BA012, 0x7A9BA014, '2019-02-10 00:00:00') /* Corpse (4382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9BA013,  4380, 0xA9BA0010, 24.76526, 186.9713, 75.91611, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bones */

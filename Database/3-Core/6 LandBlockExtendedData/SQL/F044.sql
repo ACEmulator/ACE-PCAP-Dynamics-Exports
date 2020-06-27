@@ -5,15 +5,15 @@ VALUES (0x7F044001,  1154, 0xF0440022, 119.7277, 35.15477, 0.9255642, 0.6427876,
 /* @teleloc 0xF0440022 [119.727700 35.154770 0.925564] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F044001, 0x7F044002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7F044001, 0x7F044003, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7F044001, 0x7F044004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7F044001, 0x7F044005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F044001, 0x7F044006, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7F044001, 0x7F044007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7F044001, 0x7F044008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7F044001, 0x7F044009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7F044001, 0x7F04400A, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7F044001, 0x7F044002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7F044001, 0x7F044003, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7F044001, 0x7F044004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7F044001, 0x7F044005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F044001, 0x7F044006, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7F044001, 0x7F044007, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7F044001, 0x7F044008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7F044001, 0x7F044009, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7F044001, 0x7F04400A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F044002,  4109, 0xF0440022, 119.7277, 35.15477, 0.9255642, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

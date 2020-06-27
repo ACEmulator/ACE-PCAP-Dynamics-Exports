@@ -5,16 +5,16 @@ VALUES (0x73E98001,  1154, 0x3E980030, 136.6653, 173.2668, 11.92295, -0.3345854,
 /* @teleloc 0x3E980030 [136.665300 173.266800 11.922950] -0.334585 0.000000 0.000000 -0.942365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E98001, 0x73E98002, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E98001, 0x73E98003, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x73E98001, 0x73E98004, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E98001, 0x73E98005, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E98001, 0x73E98006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x73E98001, 0x73E98007, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E98001, 0x73E98008, '2019-02-10 00:00:00') /* Frost */
-     , (0x73E98001, 0x73E98009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x73E98001, 0x73E9800A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x73E98001, 0x73E9800B, '2019-02-10 00:00:00') /* Fire Shreth */;
+VALUES (0x73E98001, 0x73E98002, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E98001, 0x73E98003, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x73E98001, 0x73E98004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E98001, 0x73E98005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E98001, 0x73E98006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x73E98001, 0x73E98007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E98001, 0x73E98008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73E98001, 0x73E98009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x73E98001, 0x73E9800A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x73E98001, 0x73E9800B, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E98002, 14512, 0x3E980030, 136.6653, 173.2668, 11.92295, -0.3345854, 0, 0, -0.9423654,  True, '2019-02-10 00:00:00'); /* Frost */
@@ -61,7 +61,7 @@ VALUES (0x73E9800C,  1542, 0x3E98002D, 139.6243, 100.9289, -0.11, -0.8008075, 0,
 /* @teleloc 0x3E98002D [139.624300 100.928900 -0.110000] -0.800808 0.000000 0.000000 -0.598922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E9800C, 0x73E9800D, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x73E9800C, 0x73E9800D, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E9800D,  9287, 0x3E98002D, 139.6243, 100.9289, -0.11, -0.8008075, 0, 0, -0.5989219,  True, '2019-02-10 00:00:00'); /* Master's Holding */

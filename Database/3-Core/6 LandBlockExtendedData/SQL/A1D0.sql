@@ -5,16 +5,16 @@ VALUES (0x7A1D0001,  1154, 0xA1D0003F, 185.0815, 152.9146, 129.2671, -0.6489682,
 /* @teleloc 0xA1D0003F [185.081500 152.914600 129.267100] -0.648968 0.000000 0.000000 -0.760816 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D0001, 0x7A1D0002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A1D0001, 0x7A1D0003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D0001, 0x7A1D0004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A1D0001, 0x7A1D0005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A1D0001, 0x7A1D0006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7A1D0001, 0x7A1D0007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A1D0001, 0x7A1D0008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A1D0001, 0x7A1D0009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A1D0001, 0x7A1D000A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A1D0001, 0x7A1D000B, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x7A1D0001, 0x7A1D0002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A1D0001, 0x7A1D0003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D0001, 0x7A1D0004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1D0001, 0x7A1D0005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1D0001, 0x7A1D0006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7A1D0001, 0x7A1D0007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A1D0001, 0x7A1D0008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A1D0001, 0x7A1D0009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A1D0001, 0x7A1D000A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A1D0001, 0x7A1D000B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D0002, 38177, 0xA1D0003F, 185.0815, 152.9146, 129.2671, -0.6489682, 0, 0, -0.7608156,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -61,7 +61,7 @@ VALUES (0x7A1D000C,  1542, 0xA1D00012, 51.19901, 27.68226, 143.0392, 0.9948224, 
 /* @teleloc 0xA1D00012 [51.199010 27.682260 143.039200] 0.994822 0.000000 0.000000 -0.101628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D000C, 0x7A1D000D, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7A1D000C, 0x7A1D000D, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D000D,  8644, 0xA1D00012, 51.19901, 27.68226, 143.0392, 0.9948224, 0, 0, -0.1016283,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

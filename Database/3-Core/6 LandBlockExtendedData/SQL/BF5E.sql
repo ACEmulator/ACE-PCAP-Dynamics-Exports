@@ -5,12 +5,12 @@ VALUES (0x7BF5E001,  1154, 0xBF5E0022, 99.48027, 34.01842, 11.81328, -0.9999657,
 /* @teleloc 0xBF5E0022 [99.480270 34.018420 11.813280] -0.999966 0.000000 0.000000 -0.008286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5E001, 0x7BF5E002, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF5E001, 0x7BF5E003, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7BF5E001, 0x7BF5E004, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7BF5E001, 0x7BF5E005, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BF5E001, 0x7BF5E006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BF5E001, 0x7BF5E007, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7BF5E001, 0x7BF5E002, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF5E001, 0x7BF5E003, '2019-02-10 00:00:00') /* Exploration Marker (39799) */
+     , (0x7BF5E001, 0x7BF5E004, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7BF5E001, 0x7BF5E005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BF5E001, 0x7BF5E006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BF5E001, 0x7BF5E007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5E002,  4249, 0xBF5E0022, 99.48027, 34.01842, 11.81328, -0.9999657, 0, 0, -0.008286294,  True, '2019-02-10 00:00:00'); /* Young Mosswart */

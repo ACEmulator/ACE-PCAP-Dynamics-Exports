@@ -13,97 +13,97 @@ VALUES (0x702D405D,  1154, 0x02D4024F, 102.026, -26.7802, -6, 0.7072073, 0, 0, 0
 /* @teleloc 0x02D4024F [102.026000 -26.780200 -6.000000] 0.707207 0.000000 0.000000 0.707006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D405D, 0x702D405E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D405F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4060, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4061, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4062, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4063, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4064, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4065, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4066, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4067, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4068, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4069, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D406F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4070, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4071, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4072, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4073, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4074, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4075, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4076, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4077, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4078, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4079, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D407F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4080, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4081, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4082, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4083, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4084, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4085, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4086, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4087, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4088, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4089, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D408F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4090, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4091, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4092, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4093, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4094, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4095, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4096, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4097, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4098, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D4099, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409A, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409B, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409C, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409E, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D409F, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A0, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A1, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A2, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A3, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A4, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A5, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A6, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A7, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A8, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40A9, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AA, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AB, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AC, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AD, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AE, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40AF, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B0, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B1, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B2, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B3, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B4, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B5, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B6, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B7, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x702D405D, 0x702D40B8, '2019-02-10 00:00:00') /* Abhorrent Eater */;
+VALUES (0x702D405D, 0x702D405E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D405F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4060, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4061, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4062, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4063, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4064, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4065, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4066, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4067, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4068, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4069, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D406F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4070, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4071, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4072, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4073, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4074, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4075, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4076, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4077, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4078, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4079, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D407F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4080, '2019-02-10 00:00:00') /* Abhorrent Eater (28851) */
+     , (0x702D405D, 0x702D4081, '2019-02-10 00:00:00') /* Abhorrent Eater (28851) */
+     , (0x702D405D, 0x702D4082, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4083, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4084, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4085, '2019-02-10 00:00:00') /* Abhorrent Eater (28851) */
+     , (0x702D405D, 0x702D4086, '2019-02-10 00:00:00') /* Abhorrent Eater (28851) */
+     , (0x702D405D, 0x702D4087, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4088, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4089, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D408F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4090, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4091, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4092, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4093, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4094, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4095, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4096, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4097, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4098, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D4099, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409A, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409C, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D409F, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A0, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A1, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A2, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A3, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A4, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A5, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A6, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A7, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A8, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40A9, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AA, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AB, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AC, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AD, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AE, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40AF, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B0, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B1, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B2, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B3, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B4, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B5, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B6, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B7, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B8, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D405E, 28641, 0x02D4024F, 102.026, -26.7802, -6, 0.7072073, 0, 0, 0.7070063,  True, '2019-02-10 00:00:00'); /* Abhorrent Eater */
@@ -474,15 +474,15 @@ VALUES (0x702D40B9,  1542, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 
 /* @teleloc 0x02D4012B [75.223510 -109.728300 -96.063000] 0.710432 0.000000 0.000000 0.703766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D40B9, 0x702D40BA, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702D40B9, 0x702D40BB, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702D40B9, 0x702D40BC, '2019-02-10 00:00:00') /* Scroll of Archer's Bane */
-     , (0x702D40B9, 0x702D40BD, '2019-02-10 00:00:00') /* Aura of Infected Caress */
-     , (0x702D40B9, 0x702D40BE, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing */
-     , (0x702D40B9, 0x702D40BF, '2019-02-10 00:00:00') /* Scroll of Brittle Bones */
-     , (0x702D40B9, 0x702D40C0, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702D40B9, 0x702D40C1, '2019-02-10 00:00:00') /* Gateway */
-     , (0x702D40B9, 0x702D40C2, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x702D40B9, 0x702D40BA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40B9, 0x702D40BB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40B9, 0x702D40BC, '2019-02-10 00:00:00') /* Scroll of Archer's Bane (20423) */
+     , (0x702D40B9, 0x702D40BD, '2019-02-10 00:00:00') /* Aura of Infected Caress (20406) */
+     , (0x702D40B9, 0x702D40BE, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing (20427) */
+     , (0x702D40B9, 0x702D40BF, '2019-02-10 00:00:00') /* Scroll of Brittle Bones (20242) */
+     , (0x702D40B9, 0x702D40C0, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40B9, 0x702D40C1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40B9, 0x702D40C2, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D40BA,  1955, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655,  True, '2019-02-10 00:00:00'); /* Gateway */

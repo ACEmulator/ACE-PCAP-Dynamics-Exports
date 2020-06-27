@@ -9,9 +9,9 @@ VALUES (0x7B780003,  1154, 0xB7800013, 58.129, 68.9156, 24, -0.186294, 0, 0, 0.9
 /* @teleloc 0xB7800013 [58.129000 68.915600 24.000000] -0.186294 0.000000 0.000000 0.982494 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B780003, 0x7B780004, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7B780003, 0x7B780005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B780003, 0x7B780006, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x7B780003, 0x7B780004, '2019-02-10 00:00:00') /* Exploration Marker (39835) */
+     , (0x7B780003, 0x7B780005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B780003, 0x7B780006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B780004, 39835, 0xB7800013, 58.129, 68.9156, 24, -0.186294, 0, 0, 0.982494,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -30,7 +30,7 @@ VALUES (0x7B780007,  1154, 0xB7800013, 59.3315, 58.7778, 24.005, -0.202897, 0, 0
 /* @teleloc 0xB7800013 [59.331500 58.777800 24.005000] -0.202897 0.000000 0.000000 0.979200 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B780007, 0x7B780008, '2019-02-10 00:00:00') /* Xavier, Royal Guard */;
+VALUES (0x7B780007, 0x7B780008, '2019-02-10 00:00:00') /* Xavier, Royal Guard (25682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B780008, 25682, 0xB7800013, 59.3315, 58.7778, 24.005, -0.202897, 0, 0, 0.9792,  True, '2019-02-10 00:00:00'); /* Xavier, Royal Guard */

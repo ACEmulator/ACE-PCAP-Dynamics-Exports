@@ -5,13 +5,13 @@ VALUES (0x755A5001,  1154, 0x55A50033, 149.9415, 65.97462, 78.52159, -0.6784911,
 /* @teleloc 0x55A50033 [149.941500 65.974620 78.521590] -0.678491 0.000000 0.000000 -0.734609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755A5001, 0x755A5002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x755A5001, 0x755A5003, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x755A5001, 0x755A5004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x755A5001, 0x755A5005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x755A5001, 0x755A5006, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x755A5001, 0x755A5007, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x755A5001, 0x755A5008, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x755A5001, 0x755A5002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x755A5001, 0x755A5003, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x755A5001, 0x755A5004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x755A5001, 0x755A5005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x755A5001, 0x755A5006, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x755A5001, 0x755A5007, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x755A5001, 0x755A5008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755A5002,   231, 0x55A50033, 149.9415, 65.97462, 78.52159, -0.6784911, 0, 0, -0.7346086,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */

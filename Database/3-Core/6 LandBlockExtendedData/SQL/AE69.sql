@@ -5,9 +5,9 @@ VALUES (0x7AE69001,  1154, 0xAE690039, 175.3926, 6.701691, 36.011, -0.9384583, 0
 /* @teleloc 0xAE690039 [175.392600 6.701691 36.011000] -0.938458 0.000000 0.000000 -0.345393 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE69001, 0x7AE69002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AE69001, 0x7AE69003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7AE69001, 0x7AE69004, '2019-02-10 00:00:00') /* Scourge */;
+VALUES (0x7AE69001, 0x7AE69002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AE69001, 0x7AE69003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7AE69001, 0x7AE69004, '2019-02-10 00:00:00') /* Scourge (21160) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE69002,   195, 0xAE690039, 175.3926, 6.701691, 36.011, -0.9384583, 0, 0, -0.3453927,  True, '2019-02-10 00:00:00'); /* Granite Golem */

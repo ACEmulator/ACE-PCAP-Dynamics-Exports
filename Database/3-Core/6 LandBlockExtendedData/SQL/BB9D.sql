@@ -9,65 +9,65 @@ VALUES (0x7BB9D001,  1154, 0xBB9D003D, 183.8759, 108.4595, 15.49522, -0.8020728,
 /* @teleloc 0xBB9D003D [183.875900 108.459500 15.495220] -0.802073 0.000000 0.000000 -0.597226 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9D001, 0x7BB9D002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D003, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D005, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BB9D001, 0x7BB9D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D00B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D00C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D00D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D00E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D00F, '2019-02-10 00:00:00') /* Static */
-     , (0x7BB9D001, 0x7BB9D010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D011, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D012, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D013, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BB9D001, 0x7BB9D014, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BB9D001, 0x7BB9D015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D016, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D017, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D018, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7BB9D001, 0x7BB9D019, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D01B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D01D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D01E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D01F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D020, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D021, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BB9D001, 0x7BB9D022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D023, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D024, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D025, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D026, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BB9D001, 0x7BB9D027, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D028, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D029, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D02A, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BB9D001, 0x7BB9D02B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D02C, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BB9D001, 0x7BB9D02D, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB9D001, 0x7BB9D02E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB9D001, 0x7BB9D02F, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7BB9D001, 0x7BB9D030, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D031, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D032, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D033, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D034, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D035, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D036, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D037, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D038, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D039, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BB9D001, 0x7BB9D03A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D03B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BB9D001, 0x7BB9D03C, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7BB9D001, 0x7BB9D002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D005, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BB9D001, 0x7BB9D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D00B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D00C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D00D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D00E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D00F, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BB9D001, 0x7BB9D010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D012, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D013, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BB9D001, 0x7BB9D014, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BB9D001, 0x7BB9D015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D016, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D018, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7BB9D001, 0x7BB9D019, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D01B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D01D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D01E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D01F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D020, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D021, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BB9D001, 0x7BB9D022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D023, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D024, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D025, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D026, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BB9D001, 0x7BB9D027, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D028, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D029, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D02A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BB9D001, 0x7BB9D02B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D02C, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BB9D001, 0x7BB9D02D, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB9D001, 0x7BB9D02E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB9D001, 0x7BB9D02F, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB9D001, 0x7BB9D030, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D031, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D032, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D033, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D034, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D035, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D036, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D037, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D038, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D039, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D03A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D03B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D03C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9D002,  2566, 0xBB9D003D, 183.8759, 108.4595, 15.49522, -0.8020728, 0, 0, -0.5972263,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -310,42 +310,42 @@ VALUES (0x7BB9D03D,  1154, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0,
 /* @teleloc 0xBB9D0038 [157.828000 184.569000 35.614170] -0.950534 0.000000 0.000000 0.310620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9D03D, 0x7BB9D03E, '2019-02-10 00:00:00') /* Emissary of Asheron */
-     , (0x7BB9D03D, 0x7BB9D03F, '2019-02-10 00:00:00') /* Guardian Golem */
-     , (0x7BB9D03D, 0x7BB9D040, '2019-02-10 00:00:00') /* Guardian Golem */
-     , (0x7BB9D03D, 0x7BB9D041, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D042, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D043, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D044, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D045, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D046, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D047, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D048, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D049, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04A, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04B, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04C, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04D, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04E, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D04F, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D050, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D051, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D052, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D053, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D054, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D055, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D056, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D057, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D058, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D059, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05A, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05B, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05C, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05D, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05E, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D05F, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D060, '2019-02-10 00:00:00') /* Weakened Empyrean */
-     , (0x7BB9D03D, 0x7BB9D061, '2019-02-10 00:00:00') /* Weakened Empyrean */;
+VALUES (0x7BB9D03D, 0x7BB9D03E, '2019-02-10 00:00:00') /* Emissary of Asheron (43249) */
+     , (0x7BB9D03D, 0x7BB9D03F, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
+     , (0x7BB9D03D, 0x7BB9D040, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
+     , (0x7BB9D03D, 0x7BB9D041, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D042, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D03D, 0x7BB9D043, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D044, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D045, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D046, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D047, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D048, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D049, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D04A, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D04B, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D04C, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D04D, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D04E, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D04F, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D050, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D051, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D052, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D053, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D054, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D03D, 0x7BB9D055, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D056, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D057, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D058, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D059, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D05A, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D03D, 0x7BB9D05B, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D03D, 0x7BB9D05C, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D03D, 0x7BB9D05D, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D03D, 0x7BB9D05E, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D03D, 0x7BB9D05F, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D03D, 0x7BB9D060, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D03D, 0x7BB9D061, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9D03E, 43249, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Emissary of Asheron */
@@ -496,11 +496,11 @@ VALUES (0x7BB9D062,  1542, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 
 /* @teleloc 0xBB9D0040 [168.107200 187.216700 36.611040] 0.136077 0.000000 0.000000 -0.990698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9D062, 0x7BB9D063, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BB9D062, 0x7BB9D064, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BB9D062, 0x7BB9D065, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7BB9D062, 0x7BB9D066, '2019-02-10 00:00:00') /* Empyrean Over-robe */
-     , (0x7BB9D062, 0x7BB9D067, '2019-02-10 00:00:00') /* Egg */;
+VALUES (0x7BB9D062, 0x7BB9D063, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D062, 0x7BB9D064, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D062, 0x7BB9D065, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D062, 0x7BB9D066, '2019-02-10 00:00:00') /* Empyrean Over-robe (43274) */
+     , (0x7BB9D062, 0x7BB9D067, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9D063,  1955, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 0, 0, -0.9906983,  True, '2019-02-10 00:00:00'); /* Gateway */

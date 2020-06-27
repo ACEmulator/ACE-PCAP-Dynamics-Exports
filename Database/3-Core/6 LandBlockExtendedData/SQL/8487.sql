@@ -5,15 +5,15 @@ VALUES (0x78487001,  1154, 0x84870001, 18.02692, 21.85747, 154.0025, -0.9998259,
 /* @teleloc 0x84870001 [18.026920 21.857470 154.002500] -0.999826 0.000000 0.000000 -0.018660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78487001, 0x78487002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x78487001, 0x78487003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78487001, 0x78487004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78487001, 0x78487005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78487001, 0x78487006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78487001, 0x78487007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78487001, 0x78487008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78487001, 0x78487009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78487001, 0x7848700A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x78487001, 0x78487002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x78487001, 0x78487003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78487001, 0x78487004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78487001, 0x78487005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78487001, 0x78487006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78487001, 0x78487007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78487001, 0x78487008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78487001, 0x78487009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78487001, 0x7848700A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78487002, 22208, 0x84870001, 18.02692, 21.85747, 154.0025, -0.9998259, 0, 0, -0.01865985,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
@@ -56,7 +56,7 @@ VALUES (0x7848700B,  1542, 0x8487001B, 72.34193, 62.12228, 138.6419, 0.3865494, 
 /* @teleloc 0x8487001B [72.341930 62.122280 138.641900] 0.386549 0.000000 0.000000 -0.922269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7848700B, 0x7848700C, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7848700B, 0x7848700C, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7848700C, 15715, 0x8487001B, 72.34193, 62.12228, 138.6419, 0.3865494, 0, 0, -0.9222687,  True, '2019-02-10 00:00:00'); /* Sunflower */

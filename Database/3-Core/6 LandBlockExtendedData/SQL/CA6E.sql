@@ -5,12 +5,12 @@ VALUES (0x7CA6E001,  1154, 0xCA6E0040, 170.521, 190.6413, 59.89278, 0.8660254, 0
 /* @teleloc 0xCA6E0040 [170.521000 190.641300 59.892780] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA6E001, 0x7CA6E002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7CA6E001, 0x7CA6E003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CA6E001, 0x7CA6E004, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CA6E001, 0x7CA6E005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7CA6E001, 0x7CA6E006, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CA6E001, 0x7CA6E007, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7CA6E001, 0x7CA6E002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7CA6E001, 0x7CA6E003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CA6E001, 0x7CA6E004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CA6E001, 0x7CA6E005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7CA6E001, 0x7CA6E006, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CA6E001, 0x7CA6E007, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA6E002,   228, 0xCA6E0040, 170.521, 190.6413, 59.89278, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -41,7 +41,7 @@ VALUES (0x7CA6E008,  1542, 0xCA6E001E, 78.35435, 124.1772, 60.34668, 1, 0, 0, 0,
 /* @teleloc 0xCA6E001E [78.354350 124.177200 60.346680] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA6E008, 0x7CA6E009, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7CA6E008, 0x7CA6E009, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA6E009,   265, 0xCA6E001E, 78.35435, 124.1772, 60.34668, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

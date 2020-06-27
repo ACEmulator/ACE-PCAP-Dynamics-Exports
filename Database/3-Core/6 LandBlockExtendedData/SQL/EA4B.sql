@@ -5,22 +5,22 @@ VALUES (0x7EA4B001,  1154, 0xEA4B0003, 0.1030903, 57.39846, 19.59359, 0.3821805,
 /* @teleloc 0xEA4B0003 [0.103090 57.398460 19.593590] 0.382181 0.000000 0.000000 -0.924088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA4B001, 0x7EA4B002, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7EA4B001, 0x7EA4B003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EA4B001, 0x7EA4B004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EA4B001, 0x7EA4B005, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7EA4B001, 0x7EA4B006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7EA4B001, 0x7EA4B007, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7EA4B001, 0x7EA4B008, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7EA4B001, 0x7EA4B009, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7EA4B001, 0x7EA4B00A, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7EA4B001, 0x7EA4B00B, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7EA4B001, 0x7EA4B00C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7EA4B001, 0x7EA4B00D, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7EA4B001, 0x7EA4B00E, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7EA4B001, 0x7EA4B00F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7EA4B001, 0x7EA4B010, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7EA4B001, 0x7EA4B011, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7EA4B001, 0x7EA4B002, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7EA4B001, 0x7EA4B003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EA4B001, 0x7EA4B004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EA4B001, 0x7EA4B005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7EA4B001, 0x7EA4B006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7EA4B001, 0x7EA4B007, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7EA4B001, 0x7EA4B008, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7EA4B001, 0x7EA4B009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7EA4B001, 0x7EA4B00A, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7EA4B001, 0x7EA4B00B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7EA4B001, 0x7EA4B00C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7EA4B001, 0x7EA4B00D, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7EA4B001, 0x7EA4B00E, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7EA4B001, 0x7EA4B00F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7EA4B001, 0x7EA4B010, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7EA4B001, 0x7EA4B011, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA4B002,  1617, 0xEA4B0003, 0.1030903, 57.39846, 19.59359, 0.3821805, 0, 0, -0.9240877,  True, '2019-02-10 00:00:00'); /* Amploth Lugian */

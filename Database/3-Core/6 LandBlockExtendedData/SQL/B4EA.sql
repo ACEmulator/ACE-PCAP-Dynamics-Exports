@@ -5,18 +5,18 @@ VALUES (0x7B4EA001,  1154, 0xB4EA0027, 110.0543, 164.2746, 18.25185, 1, 0, 0, 0,
 /* @teleloc 0xB4EA0027 [110.054300 164.274600 18.251850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4EA001, 0x7B4EA002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B4EA001, 0x7B4EA003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B4EA001, 0x7B4EA004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B4EA001, 0x7B4EA005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B4EA001, 0x7B4EA006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B4EA001, 0x7B4EA007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B4EA001, 0x7B4EA008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B4EA001, 0x7B4EA009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B4EA001, 0x7B4EA00A, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B4EA001, 0x7B4EA00B, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B4EA001, 0x7B4EA00C, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B4EA001, 0x7B4EA00D, '2019-02-10 00:00:00') /* Black Phyntos Swarm */;
+VALUES (0x7B4EA001, 0x7B4EA002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B4EA001, 0x7B4EA003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B4EA001, 0x7B4EA004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B4EA001, 0x7B4EA005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B4EA001, 0x7B4EA006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B4EA001, 0x7B4EA007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B4EA001, 0x7B4EA008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B4EA001, 0x7B4EA009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B4EA001, 0x7B4EA00A, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B4EA001, 0x7B4EA00B, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B4EA001, 0x7B4EA00C, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B4EA001, 0x7B4EA00D, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4EA002,  7105, 0xB4EA0027, 110.0543, 164.2746, 18.25185, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -71,7 +71,7 @@ VALUES (0x7B4EA00E,  1542, 0xB4EA0020, 84.89574, 168.0633, 17.08519, 1, 0, 0, 0,
 /* @teleloc 0xB4EA0020 [84.895740 168.063300 17.085190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4EA00E, 0x7B4EA00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B4EA00E, 0x7B4EA00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4EA00F,  4179, 0xB4EA0020, 84.89574, 168.0633, 17.08519, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

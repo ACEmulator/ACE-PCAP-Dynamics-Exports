@@ -5,13 +5,13 @@ VALUES (0x7E33C001,  1154, 0xE33C002C, 127.6511, 83.81575, 104.0022, -0.2867691,
 /* @teleloc 0xE33C002C [127.651100 83.815750 104.002200] -0.286769 0.000000 0.000000 -0.958000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E33C001, 0x7E33C002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E33C001, 0x7E33C003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E33C001, 0x7E33C004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E33C001, 0x7E33C005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E33C001, 0x7E33C006, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7E33C001, 0x7E33C007, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7E33C001, 0x7E33C008, '2019-02-10 00:00:00') /* Gnawer Shreth */;
+VALUES (0x7E33C001, 0x7E33C002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E33C001, 0x7E33C003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E33C001, 0x7E33C004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E33C001, 0x7E33C005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E33C001, 0x7E33C006, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x7E33C001, 0x7E33C007, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */
+     , (0x7E33C001, 0x7E33C008, '2019-02-10 00:00:00') /* Gnawer Shreth (4108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33C002,  7991, 0xE33C002C, 127.6511, 83.81575, 104.0022, -0.2867691, 0, 0, -0.9579997,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

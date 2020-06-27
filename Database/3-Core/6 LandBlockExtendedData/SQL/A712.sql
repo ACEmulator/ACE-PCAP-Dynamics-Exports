@@ -5,9 +5,9 @@ VALUES (0x7A712001,  1154, 0xA712003C, 172.4868, 77.84959, 148.3452, 0.9238795, 
 /* @teleloc 0xA712003C [172.486800 77.849590 148.345200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A712001, 0x7A712002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A712001, 0x7A712003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7A712001, 0x7A712004, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7A712001, 0x7A712002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A712001, 0x7A712003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7A712001, 0x7A712004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A712002,  7090, 0xA712003C, 172.4868, 77.84959, 148.3452, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

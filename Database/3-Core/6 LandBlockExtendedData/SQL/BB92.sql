@@ -25,9 +25,9 @@ VALUES (0x7BB92005,  1154, 0xBB920028, 105.4071, 179.3256, 24.00765, -0.3946281,
 /* @teleloc 0xBB920028 [105.407100 179.325600 24.007650] -0.394628 0.000000 0.000000 -0.918841 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB92005, 0x7BB92006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BB92005, 0x7BB92007, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BB92005, 0x7BB92008, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7BB92005, 0x7BB92006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BB92005, 0x7BB92007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BB92005, 0x7BB92008, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB92006,   182, 0xBB920028, 105.4071, 179.3256, 24.00765, -0.3946281, 0, 0, -0.9188409,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -46,8 +46,8 @@ VALUES (0x7BB92009,  1542, 0xBB920005, 7.161499, 98.43431, 32.0057, -0.70215, 0,
 /* @teleloc 0xBB920005 [7.161499 98.434310 32.005700] -0.702150 0.000000 0.000000 -0.712029 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB92009, 0x7BB9200A, '2019-02-10 00:00:00') /* Cow */
-     , (0x7BB92009, 0x7BB9200B, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7BB92009, 0x7BB9200A, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7BB92009, 0x7BB9200B, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9200A,    14, 0xBB920005, 7.161499, 98.43431, 32.0057, -0.70215, 0, 0, -0.712029,  True, '2019-02-10 00:00:00'); /* Cow */

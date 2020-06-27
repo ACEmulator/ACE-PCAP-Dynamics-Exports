@@ -5,21 +5,21 @@ VALUES (0x7383A001,  1154, 0x383A0038, 160.5183, 184.548, 3.244068, 0.9238795, 0
 /* @teleloc 0x383A0038 [160.518300 184.548000 3.244068] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7383A001, 0x7383A002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7383A001, 0x7383A003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7383A001, 0x7383A004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7383A001, 0x7383A005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7383A001, 0x7383A006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7383A001, 0x7383A007, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7383A001, 0x7383A008, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7383A001, 0x7383A009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7383A001, 0x7383A00A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7383A001, 0x7383A00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7383A001, 0x7383A00C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7383A001, 0x7383A00D, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7383A001, 0x7383A00E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7383A001, 0x7383A00F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7383A001, 0x7383A010, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x7383A001, 0x7383A002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7383A001, 0x7383A003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7383A001, 0x7383A004, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7383A001, 0x7383A005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7383A001, 0x7383A006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7383A001, 0x7383A007, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7383A001, 0x7383A008, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7383A001, 0x7383A009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7383A001, 0x7383A00A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7383A001, 0x7383A00B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7383A001, 0x7383A00C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7383A001, 0x7383A00D, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7383A001, 0x7383A00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7383A001, 0x7383A00F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7383A001, 0x7383A010, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7383A002, 36821, 0x383A0038, 160.5183, 184.548, 3.244068, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
@@ -86,8 +86,8 @@ VALUES (0x7383A011,  1542, 0x383A0038, 161.4144, 188.0041, 2.450164, 1, 0, 0, 0,
 /* @teleloc 0x383A0038 [161.414400 188.004100 2.450164] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7383A011, 0x7383A012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7383A011, 0x7383A013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7383A011, 0x7383A012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7383A011, 0x7383A013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7383A012,  4179, 0x383A0038, 161.4144, 188.0041, 2.450164, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

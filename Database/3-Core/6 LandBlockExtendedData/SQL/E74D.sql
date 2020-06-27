@@ -21,12 +21,12 @@ VALUES (0x7E74D023,  1154, 0xE74D0032, 157.8269, 29.50342, 31.992, 0.9387308, 0,
 /* @teleloc 0xE74D0032 [157.826900 29.503420 31.992000] 0.938731 0.000000 0.000000 -0.344651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74D023, 0x7E74D024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E74D023, 0x7E74D025, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74D023, 0x7E74D026, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E74D023, 0x7E74D027, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E74D023, 0x7E74D028, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E74D023, 0x7E74D029, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7E74D023, 0x7E74D024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E74D023, 0x7E74D025, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74D023, 0x7E74D026, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E74D023, 0x7E74D027, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E74D023, 0x7E74D028, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E74D023, 0x7E74D029, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74D024, 24937, 0xE74D0032, 157.8269, 29.50342, 31.992, 0.9387308, 0, 0, -0.3446512,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -57,7 +57,7 @@ VALUES (0x7E74D02A,  1154, 0xE74D003F, 188.138, 159.424, 32.005, 0.98698, 0, 0, 
 /* @teleloc 0xE74D003F [188.138000 159.424000 32.005000] 0.986980 0.000000 0.000000 -0.160845 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74D02A, 0x7E74D02B, '2019-02-10 00:00:00') /* Kirina of the Celestial Hand */;
+VALUES (0x7E74D02A, 0x7E74D02B, '2019-02-10 00:00:00') /* Kirina of the Celestial Hand (38388) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74D02B, 38388, 0xE74D003F, 188.138, 159.424, 32.005, 0.98698, 0, 0, -0.160845,  True, '2019-02-10 00:00:00'); /* Kirina of the Celestial Hand */
@@ -68,9 +68,9 @@ VALUES (0x7E74D02C,  1542, 0xE74D0039, 183.9569, 4.505207, 32, 1, 0, 0, 0, False
 /* @teleloc 0xE74D0039 [183.956900 4.505207 32.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74D02C, 0x7E74D02D, '2019-02-10 00:00:00') /* Egg */
-     , (0x7E74D02C, 0x7E74D02E, '2019-02-10 00:00:00') /* Sanctum Residential Halls */
-     , (0x7E74D02C, 0x7E74D02F, '2019-02-10 00:00:00') /* Sanctum Residential Halls Portal */;
+VALUES (0x7E74D02C, 0x7E74D02D, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7E74D02C, 0x7E74D02E, '2019-02-10 00:00:00') /* Sanctum Residential Halls (16898) */
+     , (0x7E74D02C, 0x7E74D02F, '2019-02-10 00:00:00') /* Sanctum Residential Halls Portal (15837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74D02D,   546, 0xE74D0039, 183.9569, 4.505207, 32, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

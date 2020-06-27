@@ -5,12 +5,12 @@ VALUES (0x74521001,  1154, 0x4521001F, 83.00676, 162.46, 130, 0.9658972, 0, 0, -
 /* @teleloc 0x4521001F [83.006760 162.460000 130.000000] 0.965897 0.000000 0.000000 -0.258926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74521001, 0x74521002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x74521001, 0x74521003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x74521001, 0x74521004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74521001, 0x74521005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74521001, 0x74521006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74521001, 0x74521007, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x74521001, 0x74521002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x74521001, 0x74521003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74521001, 0x74521004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74521001, 0x74521005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74521001, 0x74521006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74521001, 0x74521007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74521002, 23482, 0x4521001F, 83.00676, 162.46, 130, 0.9658972, 0, 0, -0.2589258,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

@@ -5,15 +5,15 @@ VALUES (0x7C68D001,  1154, 0xC68D003D, 170.6827, 104.9745, 31.77644, -0.808381, 
 /* @teleloc 0xC68D003D [170.682700 104.974500 31.776440] -0.808381 0.000000 0.000000 -0.588660 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C68D001, 0x7C68D002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68D001, 0x7C68D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C68D001, 0x7C68D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C68D001, 0x7C68D005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C68D001, 0x7C68D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C68D001, 0x7C68D007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C68D001, 0x7C68D008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68D001, 0x7C68D009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C68D001, 0x7C68D00A, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C68D001, 0x7C68D002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68D001, 0x7C68D003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C68D001, 0x7C68D004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C68D001, 0x7C68D005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C68D001, 0x7C68D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C68D001, 0x7C68D007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C68D001, 0x7C68D008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68D001, 0x7C68D009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C68D001, 0x7C68D00A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C68D002,  2566, 0xC68D003D, 170.6827, 104.9745, 31.77644, -0.808381, 0, 0, -0.5886596,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

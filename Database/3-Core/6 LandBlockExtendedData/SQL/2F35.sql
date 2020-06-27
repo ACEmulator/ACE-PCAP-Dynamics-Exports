@@ -5,32 +5,32 @@ VALUES (0x72F35001,  1154, 0x2F350004, 12.85701, 75.86412, 28.01, 0.8191521, 0, 
 /* @teleloc 0x2F350004 [12.857010 75.864120 28.010000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F35001, 0x72F35002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72F35001, 0x72F35003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F35001, 0x72F35004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F35001, 0x72F35005, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x72F35001, 0x72F35006, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72F35001, 0x72F35007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72F35001, 0x72F35008, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72F35001, 0x72F35009, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F35001, 0x72F3500A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72F35001, 0x72F3500B, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72F35001, 0x72F3500C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F35001, 0x72F3500D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F35001, 0x72F3500E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F35001, 0x72F3500F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72F35001, 0x72F35010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72F35001, 0x72F35011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72F35001, 0x72F35012, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72F35001, 0x72F35013, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72F35001, 0x72F35014, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72F35001, 0x72F35015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F35001, 0x72F35016, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72F35001, 0x72F35017, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F35001, 0x72F35018, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72F35001, 0x72F35019, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72F35001, 0x72F3501A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x72F35001, 0x72F3501B, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x72F35001, 0x72F35002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72F35001, 0x72F35003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F35001, 0x72F35004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F35001, 0x72F35005, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x72F35001, 0x72F35006, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72F35001, 0x72F35007, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x72F35001, 0x72F35008, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72F35001, 0x72F35009, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F35001, 0x72F3500A, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72F35001, 0x72F3500B, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72F35001, 0x72F3500C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x72F35001, 0x72F3500D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F35001, 0x72F3500E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F35001, 0x72F3500F, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72F35001, 0x72F35010, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72F35001, 0x72F35011, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72F35001, 0x72F35012, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72F35001, 0x72F35013, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F35001, 0x72F35014, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F35001, 0x72F35015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F35001, 0x72F35016, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72F35001, 0x72F35017, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72F35001, 0x72F35018, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x72F35001, 0x72F35019, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72F35001, 0x72F3501A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72F35001, 0x72F3501B, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F35002,  7097, 0x2F350004, 12.85701, 75.86412, 28.01, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -141,8 +141,8 @@ VALUES (0x72F3501C,  1542, 0x2F350040, 171.8189, 172.3187, 74.2969, 1, 0, 0, 0, 
 /* @teleloc 0x2F350040 [171.818900 172.318700 74.296900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F3501C, 0x72F3501D, '2019-02-10 00:00:00') /* North Desert Edge */
-     , (0x72F3501C, 0x72F3501E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72F3501C, 0x72F3501D, '2019-02-10 00:00:00') /* North Desert Edge (1905) */
+     , (0x72F3501C, 0x72F3501E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F3501D,  1905, 0x2F350040, 171.8189, 172.3187, 74.2969, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */

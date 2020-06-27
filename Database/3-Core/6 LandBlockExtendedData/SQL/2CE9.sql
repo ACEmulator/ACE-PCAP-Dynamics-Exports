@@ -5,22 +5,22 @@ VALUES (0x72CE9001,  1154, 0x2CE90001, 8.312664, 12.67466, 30.00715, 0.03657665,
 /* @teleloc 0x2CE90001 [8.312664 12.674660 30.007150] 0.036577 0.000000 0.000000 -0.999331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CE9001, 0x72CE9002, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CE9001, 0x72CE9003, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CE9001, 0x72CE9004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72CE9001, 0x72CE9005, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72CE9001, 0x72CE9006, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72CE9001, 0x72CE9007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72CE9001, 0x72CE9008, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE9001, 0x72CE9009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x72CE9001, 0x72CE900A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CE9001, 0x72CE900B, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x72CE9001, 0x72CE900C, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE9001, 0x72CE900D, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72CE9001, 0x72CE900E, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72CE9001, 0x72CE900F, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CE9001, 0x72CE9010, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72CE9001, 0x72CE9011, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x72CE9001, 0x72CE9002, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CE9001, 0x72CE9003, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CE9001, 0x72CE9004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72CE9001, 0x72CE9005, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72CE9001, 0x72CE9006, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72CE9001, 0x72CE9007, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72CE9001, 0x72CE9008, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE9001, 0x72CE9009, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x72CE9001, 0x72CE900A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CE9001, 0x72CE900B, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x72CE9001, 0x72CE900C, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE9001, 0x72CE900D, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72CE9001, 0x72CE900E, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72CE9001, 0x72CE900F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CE9001, 0x72CE9010, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72CE9001, 0x72CE9011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CE9002,  7085, 0x2CE90001, 8.312664, 12.67466, 30.00715, 0.03657665, 0, 0, -0.9993309,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */

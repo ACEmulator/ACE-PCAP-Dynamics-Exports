@@ -5,9 +5,9 @@ VALUES (0x7F778001,  1154, 0xF7780001, 11.20325, 22.78389, 41.81976, -0.2310047,
 /* @teleloc 0xF7780001 [11.203250 22.783890 41.819760] -0.231005 0.000000 0.000000 -0.972953 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F778001, 0x7F778002, '2019-02-10 00:00:00') /* Spiny Chittick */
-     , (0x7F778001, 0x7F778003, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7F778001, 0x7F778004, '2019-02-10 00:00:00') /* Spiny Chittick */;
+VALUES (0x7F778001, 0x7F778002, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F778001, 0x7F778003, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7F778001, 0x7F778004, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F778002, 22508, 0xF7780001, 11.20325, 22.78389, 41.81976, -0.2310047, 0, 0, -0.9729526,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */

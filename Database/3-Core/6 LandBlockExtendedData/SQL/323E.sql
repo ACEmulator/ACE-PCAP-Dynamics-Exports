@@ -5,14 +5,14 @@ VALUES (0x7323E001,  1154, 0x323E003B, 187.1492, 51.48343, -0.002250075, -0.2543
 /* @teleloc 0x323E003B [187.149200 51.483430 -0.002250] -0.254361 0.000000 0.000000 -0.967109 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7323E001, 0x7323E002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7323E001, 0x7323E003, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7323E001, 0x7323E004, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7323E001, 0x7323E005, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7323E001, 0x7323E006, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7323E001, 0x7323E007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7323E001, 0x7323E008, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7323E001, 0x7323E009, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x7323E001, 0x7323E002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7323E001, 0x7323E003, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7323E001, 0x7323E004, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x7323E001, 0x7323E005, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7323E001, 0x7323E006, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7323E001, 0x7323E007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7323E001, 0x7323E008, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7323E001, 0x7323E009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323E002, 38180, 0x323E003B, 187.1492, 51.48343, -0.002250075, -0.2543611, 0, 0, -0.9671093,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */

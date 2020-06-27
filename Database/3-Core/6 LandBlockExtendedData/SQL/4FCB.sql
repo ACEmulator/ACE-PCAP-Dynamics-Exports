@@ -5,10 +5,10 @@ VALUES (0x74FCB001,  1154, 0x4FCB0030, 135.5752, 172.434, 40.45281, 0.9365942, 0
 /* @teleloc 0x4FCB0030 [135.575200 172.434000 40.452810] 0.936594 0.000000 0.000000 -0.350416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FCB001, 0x74FCB002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x74FCB001, 0x74FCB003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x74FCB001, 0x74FCB004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74FCB001, 0x74FCB005, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74FCB001, 0x74FCB002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x74FCB001, 0x74FCB003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74FCB001, 0x74FCB004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74FCB001, 0x74FCB005, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FCB002, 11540, 0x4FCB0030, 135.5752, 172.434, 40.45281, 0.9365942, 0, 0, -0.350416,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

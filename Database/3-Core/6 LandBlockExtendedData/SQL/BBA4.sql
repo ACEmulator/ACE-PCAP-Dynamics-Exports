@@ -5,9 +5,9 @@ VALUES (0x7BBA4001,  1154, 0xBBA4000A, 45.7497, 38.36226, 29.01483, 0.9238795, 0
 /* @teleloc 0xBBA4000A [45.749700 38.362260 29.014830] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA4001, 0x7BBA4002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BBA4001, 0x7BBA4003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BBA4001, 0x7BBA4004, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7BBA4001, 0x7BBA4002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BBA4001, 0x7BBA4003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BBA4001, 0x7BBA4004, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA4002,  2439, 0xBBA4000A, 45.7497, 38.36226, 29.01483, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -26,8 +26,8 @@ VALUES (0x7BBA4005,  1542, 0xBBA40012, 51.26072, 36.22951, 29.29085, 0.9990482, 
 /* @teleloc 0xBBA40012 [51.260720 36.229510 29.290850] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBA4005, 0x7BBA4006, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BBA4005, 0x7BBA4007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BBA4005, 0x7BBA4006, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BBA4005, 0x7BBA4007, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBA4006,  4179, 0xBBA40012, 51.26072, 36.22951, 29.29085, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

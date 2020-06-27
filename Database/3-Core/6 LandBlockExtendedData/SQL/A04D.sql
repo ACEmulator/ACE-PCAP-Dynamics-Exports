@@ -5,17 +5,17 @@ VALUES (0x7A04D001,  1154, 0xA04D001B, 77.27734, 56.39277, 72.03667, 0.9718446, 
 /* @teleloc 0xA04D001B [77.277340 56.392770 72.036670] 0.971845 0.000000 0.000000 -0.235623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A04D001, 0x7A04D002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x7A04D001, 0x7A04D003, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A04D001, 0x7A04D004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7A04D001, 0x7A04D005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A04D001, 0x7A04D006, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A04D001, 0x7A04D007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A04D001, 0x7A04D008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7A04D001, 0x7A04D009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A04D001, 0x7A04D00A, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A04D001, 0x7A04D00B, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A04D001, 0x7A04D00C, '2019-02-10 00:00:00') /* Pristine Doll */;
+VALUES (0x7A04D001, 0x7A04D002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7A04D001, 0x7A04D003, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A04D001, 0x7A04D004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7A04D001, 0x7A04D005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A04D001, 0x7A04D006, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A04D001, 0x7A04D007, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A04D001, 0x7A04D008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7A04D001, 0x7A04D009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A04D001, 0x7A04D00A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A04D001, 0x7A04D00B, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A04D001, 0x7A04D00C, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A04D002, 38179, 0xA04D001B, 77.27734, 56.39277, 72.03667, 0.9718446, 0, 0, -0.2356229,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

@@ -5,11 +5,11 @@ VALUES (0x765B1001,  1154, 0x65B1000F, 33.6951, 152.1687, 71.84064, -0.3565901, 
 /* @teleloc 0x65B1000F [33.695100 152.168700 71.840640] -0.356590 0.000000 0.000000 -0.934261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765B1001, 0x765B1002, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x765B1001, 0x765B1003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765B1001, 0x765B1004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x765B1001, 0x765B1005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x765B1001, 0x765B1006, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x765B1001, 0x765B1002, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x765B1001, 0x765B1003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765B1001, 0x765B1004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x765B1001, 0x765B1005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x765B1001, 0x765B1006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765B1002, 26468, 0x65B1000F, 33.6951, 152.1687, 71.84064, -0.3565901, 0, 0, -0.934261,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */

@@ -5,10 +5,10 @@ VALUES (0x71823001,  1154, 0x18230003, 21.86108, 50.74591, 0.3854864, -0.983157,
 /* @teleloc 0x18230003 [21.861080 50.745910 0.385486] -0.983157 0.000000 0.000000 -0.182763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71823001, 0x71823002, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x71823001, 0x71823003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x71823001, 0x71823004, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x71823001, 0x71823005, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x71823001, 0x71823002, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x71823001, 0x71823003, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x71823001, 0x71823004, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71823001, 0x71823005, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71823002, 23489, 0x18230003, 21.86108, 50.74591, 0.3854864, -0.983157, 0, 0, -0.1827628,  True, '2019-02-10 00:00:00'); /* Virindi Consul */

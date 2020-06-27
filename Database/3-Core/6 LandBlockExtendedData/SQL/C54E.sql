@@ -5,15 +5,15 @@ VALUES (0x7C54E001,  1154, 0xC54E002F, 125.0285, 155.9929, 14.5887, -0.4061779, 
 /* @teleloc 0xC54E002F [125.028500 155.992900 14.588700] -0.406178 0.000000 0.000000 -0.913794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C54E001, 0x7C54E002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C54E001, 0x7C54E003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C54E001, 0x7C54E004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C54E001, 0x7C54E005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C54E001, 0x7C54E006, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C54E001, 0x7C54E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C54E001, 0x7C54E008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C54E001, 0x7C54E009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C54E001, 0x7C54E00A, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7C54E001, 0x7C54E002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C54E001, 0x7C54E003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C54E001, 0x7C54E004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C54E001, 0x7C54E005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C54E001, 0x7C54E006, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C54E001, 0x7C54E007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C54E001, 0x7C54E008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C54E001, 0x7C54E009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C54E001, 0x7C54E00A, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C54E002, 22809, 0xC54E002F, 125.0285, 155.9929, 14.5887, -0.4061779, 0, 0, -0.913794,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

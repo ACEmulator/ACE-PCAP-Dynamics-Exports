@@ -5,14 +5,14 @@ VALUES (0x7C86E001,  1154, 0xC86E0026, 118.8109, 124.4202, 48.0025, 0.003107857,
 /* @teleloc 0xC86E0026 [118.810900 124.420200 48.002500] 0.003108 0.000000 0.000000 -0.999995 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C86E001, 0x7C86E002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C86E001, 0x7C86E003, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7C86E001, 0x7C86E004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7C86E001, 0x7C86E005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C86E001, 0x7C86E006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C86E001, 0x7C86E007, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C86E001, 0x7C86E008, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7C86E001, 0x7C86E009, '2019-02-10 00:00:00') /* Laigus Lugian */;
+VALUES (0x7C86E001, 0x7C86E002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C86E001, 0x7C86E003, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7C86E001, 0x7C86E004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7C86E001, 0x7C86E005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C86E001, 0x7C86E006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C86E001, 0x7C86E007, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C86E001, 0x7C86E008, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7C86E001, 0x7C86E009, '2019-02-10 00:00:00') /* Laigus Lugian (5) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C86E002, 22208, 0xC86E0026, 118.8109, 124.4202, 48.0025, 0.003107857, 0, 0, -0.9999952,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

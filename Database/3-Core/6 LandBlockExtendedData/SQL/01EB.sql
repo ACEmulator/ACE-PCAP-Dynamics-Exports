@@ -9,52 +9,52 @@ VALUES (0x701EB03C,  1154, 0x01EB033D, 81.2236, -19.6745, 0.006600082, 0.651251,
 /* @teleloc 0x01EB033D [81.223600 -19.674500 0.006600] 0.651251 0.000000 0.000000 -0.758862 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EB03C, 0x701EB03D, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB03E, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB03F, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB040, '2019-02-10 00:00:00') /* Arrogant Penguin */
-     , (0x701EB03C, 0x701EB041, '2019-02-10 00:00:00') /* Arrogant Penguin */
-     , (0x701EB03C, 0x701EB042, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB043, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB044, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB045, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB046, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB047, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB048, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB049, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB04A, '2019-02-10 00:00:00') /* Arrogant Penguin */
-     , (0x701EB03C, 0x701EB04B, '2019-02-10 00:00:00') /* Arrogant Penguin */
-     , (0x701EB03C, 0x701EB04C, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB04D, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB04E, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB04F, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB050, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB051, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB052, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB053, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB054, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB055, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB056, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB057, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB058, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB059, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB05A, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB05B, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB05C, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB05D, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB05E, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB05F, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB060, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB061, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB062, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB063, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB064, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x701EB03C, 0x701EB065, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB066, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB067, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB068, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB069, '2019-02-10 00:00:00') /* Sycophantic Penguin */
-     , (0x701EB03C, 0x701EB06A, '2019-02-10 00:00:00') /* Sycophantic Penguin */;
+VALUES (0x701EB03C, 0x701EB03D, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB03E, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB03F, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB040, '2019-02-10 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB03C, 0x701EB041, '2019-02-10 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB03C, 0x701EB042, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB043, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB044, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB045, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB046, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB047, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB048, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB049, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB04A, '2019-02-10 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB03C, 0x701EB04B, '2019-02-10 00:00:00') /* Arrogant Penguin (28663) */
+     , (0x701EB03C, 0x701EB04C, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB04D, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB04E, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB04F, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB050, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB051, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB052, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB053, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB054, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB055, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB056, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB057, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB058, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB059, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB05A, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB05B, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB05C, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB05D, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB05E, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB05F, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB060, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB061, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB062, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB063, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB064, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x701EB03C, 0x701EB065, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB066, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB067, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB068, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB069, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */
+     , (0x701EB03C, 0x701EB06A, '2019-02-10 00:00:00') /* Sycophantic Penguin (28658) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EB03D, 28671, 0x01EB033D, 81.2236, -19.6745, 0.006600082, 0.651251, 0, 0, -0.758862,  True, '2019-02-10 00:00:00'); /* Ruschk Shatterer */
@@ -245,7 +245,7 @@ VALUES (0x701EB06B,  1542, 0x01EB0210, 80.0435, -199.729, -28.9775, 0.999687, 0,
 /* @teleloc 0x01EB0210 [80.043500 -199.729000 -28.977500] 0.999687 0.000000 0.000000 -0.024997 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701EB06B, 0x701EB06C, '2019-02-10 00:00:00') /* Brewmaster's Pages */;
+VALUES (0x701EB06B, 0x701EB06C, '2019-02-10 00:00:00') /* Brewmaster's Pages (29207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701EB06C, 29207, 0x01EB0210, 80.0435, -199.729, -28.9775, 0.999687, 0, 0, -0.0249971,  True, '2019-02-10 00:00:00'); /* Brewmaster's Pages */

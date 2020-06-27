@@ -5,15 +5,15 @@ VALUES (0x72189001,  1154, 0x21890002, 2.453058, 29.05637, 82.01, -0.9998201, 0,
 /* @teleloc 0x21890002 [2.453058 29.056370 82.010000] -0.999820 0.000000 0.000000 -0.018967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72189001, 0x72189002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72189001, 0x72189003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72189001, 0x72189004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72189001, 0x72189005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72189001, 0x72189006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72189001, 0x72189007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72189001, 0x72189008, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72189001, 0x72189009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x72189001, 0x7218900A, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x72189001, 0x72189002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72189001, 0x72189003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72189001, 0x72189004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72189001, 0x72189005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72189001, 0x72189006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72189001, 0x72189007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72189001, 0x72189008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72189001, 0x72189009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x72189001, 0x7218900A, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72189002, 36829, 0x21890002, 2.453058, 29.05637, 82.01, -0.9998201, 0, 0, -0.01896664,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -56,8 +56,8 @@ VALUES (0x7218900B,  1542, 0x2189002E, 143.907, 141.1507, 67.50747, 1, 0, 0, 0, 
 /* @teleloc 0x2189002E [143.907000 141.150700 67.507470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7218900B, 0x7218900C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7218900B, 0x7218900D, '2019-02-10 00:00:00') /* Yew Talisman */;
+VALUES (0x7218900B, 0x7218900C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7218900B, 0x7218900D, '2019-02-10 00:00:00') /* Yew Talisman (752) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7218900C, 31445, 0x2189002E, 143.907, 141.1507, 67.50747, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

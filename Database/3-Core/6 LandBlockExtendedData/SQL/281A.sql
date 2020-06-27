@@ -9,8 +9,8 @@ VALUES (0x7281A001,  1154, 0x281A0014, 70.91788, 79.39944, 13.23203, -0.8634741,
 /* @teleloc 0x281A0014 [70.917880 79.399440 13.232030] -0.863474 0.000000 0.000000 -0.504393 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7281A001, 0x7281A002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7281A001, 0x7281A003, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7281A001, 0x7281A002, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7281A001, 0x7281A003, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7281A002, 30447, 0x281A0014, 70.91788, 79.39944, 13.23203, -0.8634741, 0, 0, -0.5043932,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */

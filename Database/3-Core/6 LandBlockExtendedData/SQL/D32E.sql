@@ -5,10 +5,10 @@ VALUES (0x7D32E001,  1154, 0xD32E0026, 102.4545, 121.1657, 117.4228, 0.9238795, 
 /* @teleloc 0xD32E0026 [102.454500 121.165700 117.422800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D32E001, 0x7D32E002, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D32E001, 0x7D32E003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D32E001, 0x7D32E004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D32E001, 0x7D32E005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7D32E001, 0x7D32E002, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D32E001, 0x7D32E003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D32E001, 0x7D32E004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D32E001, 0x7D32E005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D32E002,  7129, 0xD32E0026, 102.4545, 121.1657, 117.4228, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */

@@ -5,14 +5,14 @@ VALUES (0x77EF2001,  1154, 0x7EF20005, 19.37419, 112.295, 177.7422, 0.1241296, 0
 /* @teleloc 0x7EF20005 [19.374190 112.295000 177.742200] 0.124130 0.000000 0.000000 -0.992266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF2001, 0x77EF2002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x77EF2001, 0x77EF2003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EF2001, 0x77EF2004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EF2001, 0x77EF2005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EF2001, 0x77EF2006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77EF2001, 0x77EF2007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77EF2001, 0x77EF2008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x77EF2001, 0x77EF2009, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x77EF2001, 0x77EF2002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x77EF2001, 0x77EF2003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EF2001, 0x77EF2004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EF2001, 0x77EF2005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EF2001, 0x77EF2006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77EF2001, 0x77EF2007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77EF2001, 0x77EF2008, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x77EF2001, 0x77EF2009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF2002,  7126, 0x7EF20005, 19.37419, 112.295, 177.7422, 0.1241296, 0, 0, -0.992266,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -51,7 +51,7 @@ VALUES (0x77EF200A,  1542, 0x7EF20013, 69.23886, 62.66071, 200.088, 1, 0, 0, 0, 
 /* @teleloc 0x7EF20013 [69.238860 62.660710 200.088000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EF200A, 0x77EF200B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77EF200A, 0x77EF200B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EF200B, 22571, 0x7EF20013, 69.23886, 62.66071, 200.088, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,10 +5,10 @@ VALUES (0x7BB19001,  1154, 0xBB190005, 6.136027, 108.5899, 240.665, -0.9778392, 
 /* @teleloc 0xBB190005 [6.136027 108.589900 240.665000] -0.977839 0.000000 0.000000 -0.209358 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB19001, 0x7BB19002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BB19001, 0x7BB19003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB19001, 0x7BB19004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB19001, 0x7BB19005, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7BB19001, 0x7BB19002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BB19001, 0x7BB19003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB19001, 0x7BB19004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB19001, 0x7BB19005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB19002,  8141, 0xBB190005, 6.136027, 108.5899, 240.665, -0.9778392, 0, 0, -0.2093575,  True, '2019-02-10 00:00:00'); /* Lithos Raider */

@@ -5,19 +5,19 @@ VALUES (0x7B2A6001,  1154, 0xB2A6002A, 132.2632, 25.41592, 39.57187, 0.9588197, 
 /* @teleloc 0xB2A6002A [132.263200 25.415920 39.571870] 0.958820 0.000000 0.000000 -0.284015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2A6001, 0x7B2A6002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B2A6001, 0x7B2A6003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B2A6001, 0x7B2A6004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B2A6001, 0x7B2A6005, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7B2A6001, 0x7B2A6006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B2A6001, 0x7B2A6007, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B2A6001, 0x7B2A6008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B2A6001, 0x7B2A6009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A6001, 0x7B2A600A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A6001, 0x7B2A600B, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B2A6001, 0x7B2A600C, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B2A6001, 0x7B2A600D, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B2A6001, 0x7B2A600E, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7B2A6001, 0x7B2A6002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B2A6001, 0x7B2A6003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B2A6001, 0x7B2A6004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B2A6001, 0x7B2A6005, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B2A6001, 0x7B2A6006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B2A6001, 0x7B2A6007, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B2A6001, 0x7B2A6008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B2A6001, 0x7B2A6009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A6001, 0x7B2A600A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A6001, 0x7B2A600B, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B2A6001, 0x7B2A600C, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B2A6001, 0x7B2A600D, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B2A6001, 0x7B2A600E, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2A6002,    10, 0xB2A6002A, 132.2632, 25.41592, 39.57187, 0.9588197, 0, 0, -0.2840154,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

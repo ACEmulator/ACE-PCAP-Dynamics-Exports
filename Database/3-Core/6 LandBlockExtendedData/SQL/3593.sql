@@ -5,11 +5,11 @@ VALUES (0x73593001,  1154, 0x35930001, 6.115248, 17.50419, 27.30644, 0.8660254, 
 /* @teleloc 0x35930001 [6.115248 17.504190 27.306440] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73593001, 0x73593002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73593001, 0x73593003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73593001, 0x73593004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73593001, 0x73593005, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73593001, 0x73593006, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x73593001, 0x73593002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73593001, 0x73593003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73593001, 0x73593004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73593001, 0x73593005, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73593001, 0x73593006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73593002,  7982, 0x35930001, 6.115248, 17.50419, 27.30644, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

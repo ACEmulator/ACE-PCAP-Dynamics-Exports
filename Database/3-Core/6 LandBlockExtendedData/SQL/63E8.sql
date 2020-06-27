@@ -5,9 +5,9 @@ VALUES (0x763E8001,  1154, 0x63E80009, 36.52329, 13.41261, 71.28555, 0.9238795, 
 /* @teleloc 0x63E80009 [36.523290 13.412610 71.285550] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E8001, 0x763E8002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E8001, 0x763E8003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x763E8001, 0x763E8004, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x763E8001, 0x763E8002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E8001, 0x763E8003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x763E8001, 0x763E8004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E8002, 10807, 0x63E80009, 36.52329, 13.41261, 71.28555, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -26,8 +26,8 @@ VALUES (0x763E8005,  1154, 0x63E8002C, 125.249, 85.9626, 132.0425, -0.9952207, 0
 /* @teleloc 0x63E8002C [125.249000 85.962600 132.042500] -0.995221 0.000000 0.000000 0.097651 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E8005, 0x763E8006, '2019-02-10 00:00:00') /* Babe the Blue Auroch */
-     , (0x763E8005, 0x763E8007, '2019-02-10 00:00:00') /* Paul the Monouga */;
+VALUES (0x763E8005, 0x763E8006, '2019-02-10 00:00:00') /* Babe the Blue Auroch (8128) */
+     , (0x763E8005, 0x763E8007, '2019-02-10 00:00:00') /* Paul the Monouga (8129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E8006,  8128, 0x63E8002C, 125.249, 85.9626, 132.0425, -0.9952207, 0, 0, 0.09765107,  True, '2019-02-10 00:00:00'); /* Babe the Blue Auroch */
@@ -42,18 +42,18 @@ VALUES (0x763E8008,  1542, 0x63E8002C, 121.4025, 86.49016, 132, 0.7089556, 0, 0,
 /* @teleloc 0x63E8002C [121.402500 86.490160 132.000000] 0.708956 0.000000 0.000000 -0.705253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763E8008, 0x763E8009, '2019-02-10 00:00:00') /* Pack Grael */
-     , (0x763E8008, 0x763E800A, '2019-02-10 00:00:00') /* Gateway */
-     , (0x763E8008, 0x763E800B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x763E8008, 0x763E800C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x763E8008, 0x763E800D, '2019-02-10 00:00:00') /* Idol */
-     , (0x763E8008, 0x763E800E, '2019-02-10 00:00:00') /* Niffis */
-     , (0x763E8008, 0x763E800F, '2019-02-10 00:00:00') /* Mite */
-     , (0x763E8008, 0x763E8010, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x763E8008, 0x763E8011, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x763E8008, 0x763E8012, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x763E8008, 0x763E8013, '2019-02-10 00:00:00') /* Aged Legendary Key */
-     , (0x763E8008, 0x763E8014, '2019-02-10 00:00:00') /* Aged Legendary Key */;
+VALUES (0x763E8008, 0x763E8009, '2019-02-10 00:00:00') /* Pack Grael (33802) */
+     , (0x763E8008, 0x763E800A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x763E8008, 0x763E800B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x763E8008, 0x763E800C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x763E8008, 0x763E800D, '2019-02-10 00:00:00') /* Idol (44743) */
+     , (0x763E8008, 0x763E800E, '2019-02-10 00:00:00') /* Niffis (44755) */
+     , (0x763E8008, 0x763E800F, '2019-02-10 00:00:00') /* Mite (44749) */
+     , (0x763E8008, 0x763E8010, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x763E8008, 0x763E8011, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x763E8008, 0x763E8012, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x763E8008, 0x763E8013, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x763E8008, 0x763E8014, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763E8009, 33802, 0x63E8002C, 121.4025, 86.49016, 132, 0.7089556, 0, 0, -0.7052532,  True, '2019-02-10 00:00:00'); /* Pack Grael */

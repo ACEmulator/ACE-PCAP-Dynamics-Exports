@@ -5,22 +5,22 @@ VALUES (0x71A4D001,  1154, 0x1A4D0031, 146.9018, 0.0281385, 63.45424, 0.9238795,
 /* @teleloc 0x1A4D0031 [146.901800 0.028139 63.454240] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A4D001, 0x71A4D002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71A4D001, 0x71A4D003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71A4D001, 0x71A4D004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A4D001, 0x71A4D005, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71A4D001, 0x71A4D006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A4D001, 0x71A4D007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71A4D001, 0x71A4D008, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x71A4D001, 0x71A4D009, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71A4D001, 0x71A4D00A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71A4D001, 0x71A4D00B, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x71A4D001, 0x71A4D00C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A4D001, 0x71A4D00D, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A4D001, 0x71A4D00E, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71A4D001, 0x71A4D00F, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71A4D001, 0x71A4D010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71A4D001, 0x71A4D011, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x71A4D001, 0x71A4D002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71A4D001, 0x71A4D003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71A4D001, 0x71A4D004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A4D001, 0x71A4D005, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71A4D001, 0x71A4D006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71A4D001, 0x71A4D007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71A4D001, 0x71A4D008, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x71A4D001, 0x71A4D009, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71A4D001, 0x71A4D00A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71A4D001, 0x71A4D00B, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71A4D001, 0x71A4D00C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A4D001, 0x71A4D00D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A4D001, 0x71A4D00E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71A4D001, 0x71A4D00F, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71A4D001, 0x71A4D010, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71A4D001, 0x71A4D011, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A4D002, 36822, 0x1A4D0031, 146.9018, 0.0281385, 63.45424, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -91,7 +91,7 @@ VALUES (0x71A4D012,  1542, 0x1A4D001C, 87.80087, 83.15993, 60.08023, 0.9958689, 
 /* @teleloc 0x1A4D001C [87.800870 83.159930 60.080230] 0.995869 0.000000 0.000000 -0.090802 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71A4D012, 0x71A4D013, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x71A4D012, 0x71A4D013, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A4D013,  9288, 0x1A4D001C, 87.80087, 83.15993, 60.08023, 0.9958689, 0, 0, -0.09080239,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

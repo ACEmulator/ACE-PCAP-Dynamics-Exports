@@ -5,15 +5,15 @@ VALUES (0x7DE81001,  1154, 0xDE810026, 114.1237, 121.8017, 0.0004999638, 0.03974
 /* @teleloc 0xDE810026 [114.123700 121.801700 0.000500] 0.039741 0.000000 0.000000 -0.999210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE81001, 0x7DE81002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DE81001, 0x7DE81003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE81001, 0x7DE81004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE81001, 0x7DE81005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7DE81001, 0x7DE81006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DE81001, 0x7DE81007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DE81001, 0x7DE81008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DE81001, 0x7DE81009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DE81001, 0x7DE8100A, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7DE81001, 0x7DE81002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DE81001, 0x7DE81003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE81001, 0x7DE81004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE81001, 0x7DE81005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7DE81001, 0x7DE81006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DE81001, 0x7DE81007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DE81001, 0x7DE81008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DE81001, 0x7DE81009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DE81001, 0x7DE8100A, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE81002,  7987, 0xDE810026, 114.1237, 121.8017, 0.0004999638, 0.03974149, 0, 0, -0.99921,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

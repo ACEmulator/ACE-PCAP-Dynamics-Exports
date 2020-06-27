@@ -13,62 +13,62 @@ VALUES (0x7E733003,  1154, 0xE733010B, 66.0714, 108.685, 7.03666, -0.670805, 0, 
 /* @teleloc 0xE733010B [66.071400 108.685000 7.036660] -0.670805 0.000000 0.000000 -0.741634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E733003, 0x7E733004, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733005, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733006, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733007, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733008, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733009, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73300F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733010, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733011, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733012, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733013, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733014, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733015, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733016, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733017, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733018, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733019, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73301A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73301B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73301C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E733003, 0x7E73301D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E733003, 0x7E73301E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73301F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733020, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733021, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7E733003, 0x7E733022, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733023, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E733003, 0x7E733024, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733025, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733026, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733027, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733028, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E733003, 0x7E733029, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E733003, 0x7E73302A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E733003, 0x7E73302B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73302C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E73302D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E733003, 0x7E73302E, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E733003, 0x7E73302F, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7E733003, 0x7E733030, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E733003, 0x7E733031, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E733003, 0x7E733032, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E733003, 0x7E733033, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7E733003, 0x7E733034, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E733003, 0x7E733035, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E733003, 0x7E733036, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733037, '2019-02-10 00:00:00') /* Blighted Rank Moarsman */
-     , (0x7E733003, 0x7E733038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E733003, 0x7E733039, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E733003, 0x7E73303A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E733003, 0x7E73303B, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7E733003, 0x7E733004, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (39017) */
+     , (0x7E733003, 0x7E733005, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733006, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733007, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733008, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733009, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300D, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73300E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (39017) */
+     , (0x7E733003, 0x7E73300F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733010, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733011, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733012, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733013, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733014, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733015, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733016, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733017, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733018, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733019, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73301A, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73301B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73301C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E733003, 0x7E73301D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E733003, 0x7E73301E, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73301F, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733020, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733021, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7E733003, 0x7E733022, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733023, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E733003, 0x7E733024, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733025, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733026, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733027, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733028, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E733003, 0x7E733029, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E733003, 0x7E73302A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E733003, 0x7E73302B, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73302C, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E73302D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E733003, 0x7E73302E, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E733003, 0x7E73302F, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7E733003, 0x7E733030, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E733003, 0x7E733031, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E733003, 0x7E733032, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E733003, 0x7E733033, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7E733003, 0x7E733034, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E733003, 0x7E733035, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E733003, 0x7E733036, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733037, '2019-02-10 00:00:00') /* Blighted Rank Moarsman (37421) */
+     , (0x7E733003, 0x7E733038, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E733003, 0x7E733039, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E733003, 0x7E73303A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E733003, 0x7E73303B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E733004, 39017, 0xE733010B, 66.0714, 108.685, 7.03666, -0.670805, 0, 0, -0.741634,  True, '2019-02-10 00:00:00'); /* Blighted Rank Moarsman */
@@ -299,7 +299,7 @@ VALUES (0x7E73303C,  1542, 0xE733002A, 127.3612, 25.09005, -0.9, 0.9990482, 0, 0
 /* @teleloc 0xE733002A [127.361200 25.090050 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E73303C, 0x7E73303D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E73303C, 0x7E73303D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E73303D,  4179, 0xE733002A, 127.3612, 25.09005, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

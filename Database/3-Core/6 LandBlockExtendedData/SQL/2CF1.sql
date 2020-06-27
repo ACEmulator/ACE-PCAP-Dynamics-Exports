@@ -5,9 +5,9 @@ VALUES (0x72CF1001,  1154, 0x2CF10009, 31.9897, 9.012778, 6.761564, 0.999268, 0,
 /* @teleloc 0x2CF10009 [31.989700 9.012778 6.761564] 0.999268 0.000000 0.000000 -0.038255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CF1001, 0x72CF1002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CF1001, 0x72CF1003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72CF1001, 0x72CF1004, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x72CF1001, 0x72CF1002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CF1001, 0x72CF1003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72CF1001, 0x72CF1004, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CF1002, 38176, 0x2CF10009, 31.9897, 9.012778, 6.761564, 0.999268, 0, 0, -0.03825537,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

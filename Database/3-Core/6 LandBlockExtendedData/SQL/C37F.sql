@@ -5,11 +5,11 @@ VALUES (0x7C37F001,  1154, 0xC37F0014, 55.42988, 91.21954, 49.33778, 0.87164, 0,
 /* @teleloc 0xC37F0014 [55.429880 91.219540 49.337780] 0.871640 0.000000 0.000000 -0.490147 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C37F001, 0x7C37F002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C37F001, 0x7C37F003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C37F001, 0x7C37F004, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7C37F001, 0x7C37F005, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C37F001, 0x7C37F006, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x7C37F001, 0x7C37F002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C37F001, 0x7C37F003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C37F001, 0x7C37F004, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C37F001, 0x7C37F005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C37F001, 0x7C37F006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C37F002, 24937, 0xC37F0014, 55.42988, 91.21954, 49.33778, 0.87164, 0, 0, -0.4901467,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -36,7 +36,7 @@ VALUES (0x7C37F007,  1542, 0xC37F001B, 82.94094, 59.45548, 42.33319, 1, 0, 0, 0,
 /* @teleloc 0xC37F001B [82.940940 59.455480 42.333190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C37F007, 0x7C37F008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C37F007, 0x7C37F008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C37F008,  4179, 0xC37F001B, 82.94094, 59.45548, 42.33319, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

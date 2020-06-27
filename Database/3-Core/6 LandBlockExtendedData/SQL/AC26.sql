@@ -5,10 +5,10 @@ VALUES (0x7AC26001,  1154, 0xAC260001, 2.356277, 17.5049, 268.01, -0.7660444, 0,
 /* @teleloc 0xAC260001 [2.356277 17.504900 268.010000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC26001, 0x7AC26002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC26001, 0x7AC26003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC26001, 0x7AC26004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC26001, 0x7AC26005, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7AC26001, 0x7AC26002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC26001, 0x7AC26003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC26001, 0x7AC26004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC26001, 0x7AC26005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC26002, 24494, 0xAC260001, 2.356277, 17.5049, 268.01, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -31,9 +31,9 @@ VALUES (0x7AC26006,  1542, 0xAC260001, 8.349436, 17.99689, 268, 1, 0, 0, 0, Fals
 /* @teleloc 0xAC260001 [8.349436 17.996890 268.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC26006, 0x7AC26007, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AC26006, 0x7AC26008, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AC26006, 0x7AC26009, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7AC26006, 0x7AC26007, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AC26006, 0x7AC26008, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7AC26006, 0x7AC26009, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC26007,  4380, 0xAC260001, 8.349436, 17.99689, 268, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

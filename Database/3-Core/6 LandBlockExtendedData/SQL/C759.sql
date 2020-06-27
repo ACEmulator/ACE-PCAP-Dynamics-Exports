@@ -5,22 +5,22 @@ VALUES (0x7C759001,  1154, 0xC7590016, 68.44082, 123.8257, 6.889796, -0.6350247,
 /* @teleloc 0xC7590016 [68.440820 123.825700 6.889796] -0.635025 0.000000 0.000000 -0.772492 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C759001, 0x7C759002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7C759001, 0x7C759003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C759001, 0x7C759004, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C759001, 0x7C759005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C759001, 0x7C759006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C759001, 0x7C759007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C759001, 0x7C759008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C759001, 0x7C759009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7C759001, 0x7C75900A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C759001, 0x7C75900B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C759001, 0x7C75900C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C759001, 0x7C75900D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C759001, 0x7C75900E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C759001, 0x7C75900F, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C759001, 0x7C759010, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C759001, 0x7C759011, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7C759001, 0x7C759002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7C759001, 0x7C759003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C759001, 0x7C759004, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C759001, 0x7C759005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C759001, 0x7C759006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C759001, 0x7C759007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C759001, 0x7C759008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C759001, 0x7C759009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7C759001, 0x7C75900A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C759001, 0x7C75900B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C759001, 0x7C75900C, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C759001, 0x7C75900D, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C759001, 0x7C75900E, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C759001, 0x7C75900F, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C759001, 0x7C759010, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C759001, 0x7C759011, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C759002, 22010, 0xC7590016, 68.44082, 123.8257, 6.889796, -0.6350247, 0, 0, -0.7724919,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -91,7 +91,7 @@ VALUES (0x7C759012,  1542, 0xC759001C, 76.45753, 95.74447, 6, -0.96357, 0, 0, -0
 /* @teleloc 0xC759001C [76.457530 95.744470 6.000000] -0.963570 0.000000 0.000000 -0.267456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C759012, 0x7C759013, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7C759012, 0x7C759013, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C759013, 11554, 0xC759001C, 76.45753, 95.74447, 6, -0.96357, 0, 0, -0.2674562,  True, '2019-02-10 00:00:00'); /* Colban Plant */

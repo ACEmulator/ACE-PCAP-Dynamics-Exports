@@ -5,9 +5,9 @@ VALUES (0x789F6001,  1154, 0x89F6000E, 28.41661, 136.4974, 9.643949, 0.6008277, 
 /* @teleloc 0x89F6000E [28.416610 136.497400 9.643949] 0.600828 0.000000 0.000000 -0.799379 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789F6001, 0x789F6002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x789F6001, 0x789F6003, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x789F6001, 0x789F6004, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x789F6001, 0x789F6002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x789F6001, 0x789F6003, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x789F6001, 0x789F6004, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789F6002,  7105, 0x89F6000E, 28.41661, 136.4974, 9.643949, 0.6008277, 0, 0, -0.7993786,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

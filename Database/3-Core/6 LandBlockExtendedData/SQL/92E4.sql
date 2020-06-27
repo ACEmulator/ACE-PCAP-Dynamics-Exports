@@ -5,10 +5,10 @@ VALUES (0x792E4001,  1154, 0x92E4003A, 190.3967, 35.80165, 80.95747, -0.8643401,
 /* @teleloc 0x92E4003A [190.396700 35.801650 80.957470] -0.864340 0.000000 0.000000 -0.502908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792E4001, 0x792E4002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x792E4001, 0x792E4003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x792E4001, 0x792E4004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x792E4001, 0x792E4005, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x792E4001, 0x792E4002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792E4001, 0x792E4003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x792E4001, 0x792E4004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x792E4001, 0x792E4005, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792E4002, 24288, 0x92E4003A, 190.3967, 35.80165, 80.95747, -0.8643401, 0, 0, -0.5029077,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

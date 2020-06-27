@@ -5,10 +5,10 @@ VALUES (0x73D70001,  1154, 0x3D70002D, 137.6349, 101.7174, 31.16359, 0.6871632, 
 /* @teleloc 0x3D70002D [137.634900 101.717400 31.163590] 0.687163 0.000000 0.000000 -0.726503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D70001, 0x73D70002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73D70001, 0x73D70003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D70001, 0x73D70004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73D70001, 0x73D70005, '2019-02-10 00:00:00') /* Hyem */;
+VALUES (0x73D70001, 0x73D70002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73D70001, 0x73D70003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D70001, 0x73D70004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73D70001, 0x73D70005, '2019-02-10 00:00:00') /* Hyem (14875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D70002, 24958, 0x3D70002D, 137.6349, 101.7174, 31.16359, 0.6871632, 0, 0, -0.726503,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -31,7 +31,7 @@ VALUES (0x73D70006,  1542, 0x3D70003A, 184.5263, 24.00775, 41.18287, 0.6786032, 
 /* @teleloc 0x3D70003A [184.526300 24.007750 41.182870] 0.678603 0.000000 0.000000 -0.734505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D70006, 0x73D70007, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x73D70006, 0x73D70007, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D70007,  8644, 0x3D70003A, 184.5263, 24.00775, 41.18287, 0.6786032, 0, 0, -0.734505,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

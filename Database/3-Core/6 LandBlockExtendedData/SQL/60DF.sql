@@ -5,13 +5,13 @@ VALUES (0x760DF001,  1154, 0x60DF0029, 126.5465, 2.351199, 52.55269, -0.5238078,
 /* @teleloc 0x60DF0029 [126.546500 2.351199 52.552690] -0.523808 0.000000 0.000000 -0.851836 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760DF001, 0x760DF002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x760DF001, 0x760DF003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760DF001, 0x760DF004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760DF001, 0x760DF005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760DF001, 0x760DF006, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x760DF001, 0x760DF007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x760DF001, 0x760DF008, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x760DF001, 0x760DF002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x760DF001, 0x760DF003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760DF001, 0x760DF004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760DF001, 0x760DF005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760DF001, 0x760DF006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x760DF001, 0x760DF007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x760DF001, 0x760DF008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760DF002, 24275, 0x60DF0029, 126.5465, 2.351199, 52.55269, -0.5238078, 0, 0, -0.8518364,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */

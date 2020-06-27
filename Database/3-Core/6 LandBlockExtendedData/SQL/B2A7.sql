@@ -5,11 +5,11 @@ VALUES (0x7B2A7001,  1154, 0xB2A70022, 106.9566, 40.35257, 27.901, -0.9332276, 0
 /* @teleloc 0xB2A70022 [106.956600 40.352570 27.901000] -0.933228 0.000000 0.000000 -0.359286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2A7001, 0x7B2A7002, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B2A7001, 0x7B2A7003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A7001, 0x7B2A7004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B2A7001, 0x7B2A7005, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7B2A7001, 0x7B2A7006, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7B2A7001, 0x7B2A7002, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B2A7001, 0x7B2A7003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A7001, 0x7B2A7004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B2A7001, 0x7B2A7005, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B2A7001, 0x7B2A7006, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2A7002,  2578, 0xB2A70022, 106.9566, 40.35257, 27.901, -0.9332276, 0, 0, -0.3592857,  True, '2019-02-10 00:00:00'); /* Shallows Lurker */

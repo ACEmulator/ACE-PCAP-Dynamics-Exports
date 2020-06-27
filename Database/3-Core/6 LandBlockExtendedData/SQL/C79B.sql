@@ -5,17 +5,17 @@ VALUES (0x7C79B001,  1154, 0xC79B002A, 122.9515, 43.43192, 19.22, -4.371139E-08,
 /* @teleloc 0xC79B002A [122.951500 43.431920 19.220000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C79B001, 0x7C79B002, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C79B001, 0x7C79B003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C79B001, 0x7C79B004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C79B001, 0x7C79B005, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7C79B001, 0x7C79B006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C79B001, 0x7C79B007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7C79B001, 0x7C79B008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C79B001, 0x7C79B009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C79B001, 0x7C79B00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C79B001, 0x7C79B00B, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7C79B001, 0x7C79B00C, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7C79B001, 0x7C79B002, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C79B001, 0x7C79B003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C79B001, 0x7C79B004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C79B001, 0x7C79B005, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7C79B001, 0x7C79B006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C79B001, 0x7C79B007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7C79B001, 0x7C79B008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C79B001, 0x7C79B009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C79B001, 0x7C79B00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C79B001, 0x7C79B00B, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7C79B001, 0x7C79B00C, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C79B002,  2439, 0xC79B002A, 122.9515, 43.43192, 19.22, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
@@ -66,8 +66,8 @@ VALUES (0x7C79B00D,  1542, 0xC79B002C, 137.295, 93.25745, 21.04916, 1, 0, 0, 0, 
 /* @teleloc 0xC79B002C [137.295000 93.257450 21.049160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C79B00D, 0x7C79B00E, '2019-02-10 00:00:00') /* Meat */
-     , (0x7C79B00D, 0x7C79B00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C79B00D, 0x7C79B00E, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7C79B00D, 0x7C79B00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C79B00E,   265, 0xC79B002C, 137.295, 93.25745, 21.04916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

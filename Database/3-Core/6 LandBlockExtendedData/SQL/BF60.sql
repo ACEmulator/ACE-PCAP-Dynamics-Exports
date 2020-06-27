@@ -5,17 +5,17 @@ VALUES (0x7BF60001,  1154, 0xBF600031, 164.2258, 15.95103, 5.9045, 0.7071068, 0,
 /* @teleloc 0xBF600031 [164.225800 15.951030 5.904500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF60001, 0x7BF60002, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BF60001, 0x7BF60003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BF60001, 0x7BF60004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BF60001, 0x7BF60005, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF60001, 0x7BF60006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF60001, 0x7BF60007, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF60001, 0x7BF60008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BF60001, 0x7BF60009, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7BF60001, 0x7BF6000A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BF60001, 0x7BF6000B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BF60001, 0x7BF6000C, '2019-02-10 00:00:00') /* Undead */;
+VALUES (0x7BF60001, 0x7BF60002, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BF60001, 0x7BF60003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BF60001, 0x7BF60004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BF60001, 0x7BF60005, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF60001, 0x7BF60006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF60001, 0x7BF60007, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF60001, 0x7BF60008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BF60001, 0x7BF60009, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7BF60001, 0x7BF6000A, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BF60001, 0x7BF6000B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BF60001, 0x7BF6000C, '2019-02-10 00:00:00') /* Undead (16) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF60002,  1616, 0xBF600031, 164.2258, 15.95103, 5.9045, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */

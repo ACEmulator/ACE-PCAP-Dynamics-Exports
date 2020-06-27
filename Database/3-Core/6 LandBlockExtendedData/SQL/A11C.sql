@@ -9,19 +9,19 @@ VALUES (0x7A11C003,  1154, 0xA11C0009, 44.09692, 15.07026, 358.2424, -0.7652067,
 /* @teleloc 0xA11C0009 [44.096920 15.070260 358.242400] -0.765207 0.000000 0.000000 -0.643785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A11C003, 0x7A11C004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A11C003, 0x7A11C005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C006, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C007, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C008, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C009, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C00A, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C00B, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C00C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A11C003, 0x7A11C00D, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7A11C003, 0x7A11C00E, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A11C003, 0x7A11C00F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A11C003, 0x7A11C010, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7A11C003, 0x7A11C004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A11C003, 0x7A11C005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C006, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C007, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C008, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C009, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C00A, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C00B, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C00C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A11C003, 0x7A11C00D, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7A11C003, 0x7A11C00E, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A11C003, 0x7A11C00F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A11C003, 0x7A11C010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A11C004,  8141, 0xA11C0009, 44.09692, 15.07026, 358.2424, -0.7652067, 0, 0, -0.6437846,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -80,7 +80,7 @@ VALUES (0x7A11C011,  1542, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 
 /* @teleloc 0xA11C0024 [99.104930 85.573490 362.308200] 0.997199 0.000000 0.000000 -0.074799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A11C011, 0x7A11C012, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7A11C011, 0x7A11C012, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A11C012,  8648, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 0, 0, -0.07479911,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

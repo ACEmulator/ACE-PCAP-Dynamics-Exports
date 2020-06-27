@@ -5,13 +5,13 @@ VALUES (0x78061001,  1154, 0x80610008, 14.98737, 185.265, 10.00715, -0.9996253, 
 /* @teleloc 0x80610008 [14.987370 185.265000 10.007150] -0.999625 0.000000 0.000000 -0.027372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78061001, 0x78061002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x78061001, 0x78061003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x78061001, 0x78061004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x78061001, 0x78061005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x78061001, 0x78061006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x78061001, 0x78061007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x78061001, 0x78061008, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x78061001, 0x78061002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x78061001, 0x78061003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x78061001, 0x78061004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x78061001, 0x78061005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x78061001, 0x78061006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x78061001, 0x78061007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x78061001, 0x78061008, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78061002,     6, 0x80610008, 14.98737, 185.265, 10.00715, -0.9996253, 0, 0, -0.02737219,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

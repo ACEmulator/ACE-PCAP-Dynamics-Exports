@@ -17,48 +17,48 @@ VALUES (0x700CB0BB,  1154, 0x00CB01FD, 320, -80, -30, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x00CB01FD [320.000000 -80.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CB0BB, 0x700CB0BC, '2019-02-10 00:00:00') /* Sclavus Patrol */
-     , (0x700CB0BB, 0x700CB0BD, '2019-02-10 00:00:00') /* Moarsman Marauder */
-     , (0x700CB0BB, 0x700CB0BE, '2019-02-10 00:00:00') /* Sclavus Marauder */
-     , (0x700CB0BB, 0x700CB0BF, '2019-02-10 00:00:00') /* Falatacot Marauder */
-     , (0x700CB0BB, 0x700CB0C0, '2019-02-10 00:00:00') /* Patriarch's Executioner */
-     , (0x700CB0BB, 0x700CB0C1, '2019-02-10 00:00:00') /* Moarsman Raider */
-     , (0x700CB0BB, 0x700CB0C2, '2019-02-10 00:00:00') /* Sclavus Marauder */
-     , (0x700CB0BB, 0x700CB0C3, '2019-02-10 00:00:00') /* Moarsman Raider */
-     , (0x700CB0BB, 0x700CB0C4, '2019-02-10 00:00:00') /* Falatacot Raider */
-     , (0x700CB0BB, 0x700CB0C5, '2019-02-10 00:00:00') /* Sclavus Patrol */
-     , (0x700CB0BB, 0x700CB0C6, '2019-02-10 00:00:00') /* Sclavus Raider */
-     , (0x700CB0BB, 0x700CB0C7, '2019-02-10 00:00:00') /* Patriarch's Executioner */
-     , (0x700CB0BB, 0x700CB0C8, '2019-02-10 00:00:00') /* Moarsman Raider */
-     , (0x700CB0BB, 0x700CB0C9, '2019-02-10 00:00:00') /* Sclavus Marauder */
-     , (0x700CB0BB, 0x700CB0CA, '2019-02-10 00:00:00') /* Falatacot Marauder */
-     , (0x700CB0BB, 0x700CB0CB, '2019-02-10 00:00:00') /* Moarsman Raider */
-     , (0x700CB0BB, 0x700CB0CC, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0CD, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0CE, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0CF, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D0, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D1, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D2, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D3, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D4, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D5, '2019-02-10 00:00:00') /* Falatacot Patrol */
-     , (0x700CB0BB, 0x700CB0D6, '2019-02-10 00:00:00') /* Sclavus Patrol */
-     , (0x700CB0BB, 0x700CB0D7, '2019-02-10 00:00:00') /* Sclavus Patrol */
-     , (0x700CB0BB, 0x700CB0D8, '2019-02-10 00:00:00') /* Sclavus Patrol */
-     , (0x700CB0BB, 0x700CB0D9, '2019-02-10 00:00:00') /* Sclavus Marauder */
-     , (0x700CB0BB, 0x700CB0DA, '2019-02-10 00:00:00') /* Falatacot Marauder */
-     , (0x700CB0BB, 0x700CB0DB, '2019-02-10 00:00:00') /* Sclavus Raider */
-     , (0x700CB0BB, 0x700CB0DC, '2019-02-10 00:00:00') /* Patriarch's Executioner */
-     , (0x700CB0BB, 0x700CB0DD, '2019-02-10 00:00:00') /* Sclavus Marauder */
-     , (0x700CB0BB, 0x700CB0DE, '2019-02-10 00:00:00') /* Patriarch's Executioner */
-     , (0x700CB0BB, 0x700CB0DF, '2019-02-10 00:00:00') /* Moarsman Marauder */
-     , (0x700CB0BB, 0x700CB0E0, '2019-02-10 00:00:00') /* Moarsman Marauder */
-     , (0x700CB0BB, 0x700CB0E1, '2019-02-10 00:00:00') /* Falatacot Marauder */
-     , (0x700CB0BB, 0x700CB0E2, '2019-02-10 00:00:00') /* Moarsman Raider */
-     , (0x700CB0BB, 0x700CB0E3, '2019-02-10 00:00:00') /* Falatacot Marauder */
-     , (0x700CB0BB, 0x700CB0E4, '2019-02-10 00:00:00') /* Moarsman Marauder */
-     , (0x700CB0BB, 0x700CB0E5, '2019-02-10 00:00:00') /* Sclavus Patrol */;
+VALUES (0x700CB0BB, 0x700CB0BC, '2019-02-10 00:00:00') /* Sclavus Patrol (40255) */
+     , (0x700CB0BB, 0x700CB0BD, '2019-02-10 00:00:00') /* Moarsman Marauder (39137) */
+     , (0x700CB0BB, 0x700CB0BE, '2019-02-10 00:00:00') /* Sclavus Marauder (39149) */
+     , (0x700CB0BB, 0x700CB0BF, '2019-02-10 00:00:00') /* Falatacot Marauder (39168) */
+     , (0x700CB0BB, 0x700CB0C0, '2019-02-10 00:00:00') /* Patriarch's Executioner (39174) */
+     , (0x700CB0BB, 0x700CB0C1, '2019-02-10 00:00:00') /* Moarsman Raider (39147) */
+     , (0x700CB0BB, 0x700CB0C2, '2019-02-10 00:00:00') /* Sclavus Marauder (39156) */
+     , (0x700CB0BB, 0x700CB0C3, '2019-02-10 00:00:00') /* Moarsman Raider (39146) */
+     , (0x700CB0BB, 0x700CB0C4, '2019-02-10 00:00:00') /* Falatacot Raider (39171) */
+     , (0x700CB0BB, 0x700CB0C5, '2019-02-10 00:00:00') /* Sclavus Patrol (40278) */
+     , (0x700CB0BB, 0x700CB0C6, '2019-02-10 00:00:00') /* Sclavus Raider (39158) */
+     , (0x700CB0BB, 0x700CB0C7, '2019-02-10 00:00:00') /* Patriarch's Executioner (39196) */
+     , (0x700CB0BB, 0x700CB0C8, '2019-02-10 00:00:00') /* Moarsman Raider (39147) */
+     , (0x700CB0BB, 0x700CB0C9, '2019-02-10 00:00:00') /* Sclavus Marauder (39156) */
+     , (0x700CB0BB, 0x700CB0CA, '2019-02-10 00:00:00') /* Falatacot Marauder (39161) */
+     , (0x700CB0BB, 0x700CB0CB, '2019-02-10 00:00:00') /* Moarsman Raider (39146) */
+     , (0x700CB0BB, 0x700CB0CC, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0CD, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0CE, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0CF, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D0, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D1, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D2, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D3, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D4, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D5, '2019-02-10 00:00:00') /* Falatacot Patrol (40254) */
+     , (0x700CB0BB, 0x700CB0D6, '2019-02-10 00:00:00') /* Sclavus Patrol (40278) */
+     , (0x700CB0BB, 0x700CB0D7, '2019-02-10 00:00:00') /* Sclavus Patrol (40255) */
+     , (0x700CB0BB, 0x700CB0D8, '2019-02-10 00:00:00') /* Sclavus Patrol (40278) */
+     , (0x700CB0BB, 0x700CB0D9, '2019-02-10 00:00:00') /* Sclavus Marauder (39155) */
+     , (0x700CB0BB, 0x700CB0DA, '2019-02-10 00:00:00') /* Falatacot Marauder (39167) */
+     , (0x700CB0BB, 0x700CB0DB, '2019-02-10 00:00:00') /* Sclavus Raider (39157) */
+     , (0x700CB0BB, 0x700CB0DC, '2019-02-10 00:00:00') /* Patriarch's Executioner (39182) */
+     , (0x700CB0BB, 0x700CB0DD, '2019-02-10 00:00:00') /* Sclavus Marauder (39152) */
+     , (0x700CB0BB, 0x700CB0DE, '2019-02-10 00:00:00') /* Patriarch's Executioner (39193) */
+     , (0x700CB0BB, 0x700CB0DF, '2019-02-10 00:00:00') /* Moarsman Marauder (39140) */
+     , (0x700CB0BB, 0x700CB0E0, '2019-02-10 00:00:00') /* Moarsman Marauder (39143) */
+     , (0x700CB0BB, 0x700CB0E1, '2019-02-10 00:00:00') /* Falatacot Marauder (39167) */
+     , (0x700CB0BB, 0x700CB0E2, '2019-02-10 00:00:00') /* Moarsman Raider (39145) */
+     , (0x700CB0BB, 0x700CB0E3, '2019-02-10 00:00:00') /* Falatacot Marauder (39166) */
+     , (0x700CB0BB, 0x700CB0E4, '2019-02-10 00:00:00') /* Moarsman Marauder (39142) */
+     , (0x700CB0BB, 0x700CB0E5, '2019-02-10 00:00:00') /* Sclavus Patrol (40255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB0BC, 40255, 0x00CB01FD, 320, -80, -30, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sclavus Patrol */
@@ -233,7 +233,7 @@ VALUES (0x700CB0E6,  1542, 0x00CB0100, -3.94452, -3.9063, -29.943, 0.125324, 0, 
 /* @teleloc 0x00CB0100 [-3.944520 -3.906300 -29.943000] 0.125324 0.000000 0.000000 0.992116 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700CB0E6, 0x700CB0E7, '2019-02-10 00:00:00') /* Journal of Failed Vengeance */;
+VALUES (0x700CB0E6, 0x700CB0E7, '2019-02-10 00:00:00') /* Journal of Failed Vengeance (40257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700CB0E7, 40257, 0x00CB0100, -3.94452, -3.9063, -29.943, 0.125324, 0, 0, 0.9921159,  True, '2019-02-10 00:00:00'); /* Journal of Failed Vengeance */

@@ -5,22 +5,22 @@ VALUES (0x741F1001,  1154, 0x41F10004, 9.327003, 77.34386, 44.3321, 0.2979682, 0
 /* @teleloc 0x41F10004 [9.327003 77.343860 44.332100] 0.297968 0.000000 0.000000 -0.954576 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741F1001, 0x741F1002, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x741F1001, 0x741F1003, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F1001, 0x741F1004, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741F1001, 0x741F1005, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x741F1001, 0x741F1006, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x741F1001, 0x741F1007, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F1001, 0x741F1008, '2019-02-10 00:00:00') /* Undead Captain */
-     , (0x741F1001, 0x741F1009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x741F1001, 0x741F100A, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x741F1001, 0x741F100B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x741F1001, 0x741F100C, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x741F1001, 0x741F100D, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F1001, 0x741F100E, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741F1001, 0x741F100F, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x741F1001, 0x741F1010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x741F1001, 0x741F1011, '2019-02-10 00:00:00') /* Voracious Eater */;
+VALUES (0x741F1001, 0x741F1002, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x741F1001, 0x741F1003, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F1001, 0x741F1004, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741F1001, 0x741F1005, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x741F1001, 0x741F1006, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x741F1001, 0x741F1007, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F1001, 0x741F1008, '2019-02-10 00:00:00') /* Undead Captain (24321) */
+     , (0x741F1001, 0x741F1009, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x741F1001, 0x741F100A, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x741F1001, 0x741F100B, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x741F1001, 0x741F100C, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x741F1001, 0x741F100D, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F1001, 0x741F100E, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741F1001, 0x741F100F, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x741F1001, 0x741F1010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x741F1001, 0x741F1011, '2019-02-10 00:00:00') /* Voracious Eater (28639) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741F1002, 28639, 0x41F10004, 9.327003, 77.34386, 44.3321, 0.2979682, 0, 0, -0.9545758,  True, '2019-02-10 00:00:00'); /* Voracious Eater */

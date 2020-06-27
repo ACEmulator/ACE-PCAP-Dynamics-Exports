@@ -5,25 +5,25 @@ VALUES (0x79AD4001,  1154, 0x9AD40006, 12.24743, 135.6499, 167.4327, 0.3307749, 
 /* @teleloc 0x9AD40006 [12.247430 135.649900 167.432700] 0.330775 0.000000 0.000000 -0.943710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD4001, 0x79AD4002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x79AD4001, 0x79AD4003, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x79AD4001, 0x79AD4004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AD4001, 0x79AD4005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79AD4001, 0x79AD4006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79AD4001, 0x79AD4007, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x79AD4001, 0x79AD4008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79AD4001, 0x79AD4009, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AD4001, 0x79AD400A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x79AD4001, 0x79AD400B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x79AD4001, 0x79AD400C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x79AD4001, 0x79AD400D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79AD4001, 0x79AD400E, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x79AD4001, 0x79AD400F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AD4001, 0x79AD4010, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AD4001, 0x79AD4011, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79AD4001, 0x79AD4012, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x79AD4001, 0x79AD4013, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79AD4001, 0x79AD4014, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x79AD4001, 0x79AD4002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x79AD4001, 0x79AD4003, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x79AD4001, 0x79AD4004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AD4001, 0x79AD4005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79AD4001, 0x79AD4006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79AD4001, 0x79AD4007, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x79AD4001, 0x79AD4008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79AD4001, 0x79AD4009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AD4001, 0x79AD400A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x79AD4001, 0x79AD400B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x79AD4001, 0x79AD400C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x79AD4001, 0x79AD400D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79AD4001, 0x79AD400E, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x79AD4001, 0x79AD400F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AD4001, 0x79AD4010, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AD4001, 0x79AD4011, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79AD4001, 0x79AD4012, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x79AD4001, 0x79AD4013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79AD4001, 0x79AD4014, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD4002, 14518, 0x9AD40006, 12.24743, 135.6499, 167.4327, 0.3307749, 0, 0, -0.9437097,  True, '2019-02-10 00:00:00'); /* Shivver */
@@ -106,8 +106,8 @@ VALUES (0x79AD4015,  1542, 0x9AD4003C, 182.4239, 86.16728, 162.4017, -0.8708937,
 /* @teleloc 0x9AD4003C [182.423900 86.167280 162.401700] -0.870894 0.000000 0.000000 -0.491472 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AD4015, 0x79AD4016, '2019-02-10 00:00:00') /* Rock */
-     , (0x79AD4015, 0x79AD4017, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x79AD4015, 0x79AD4016, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x79AD4015, 0x79AD4017, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AD4016, 42528, 0x9AD4003C, 182.4239, 86.16728, 162.4017, -0.8708937, 0, 0, -0.4914715,  True, '2019-02-10 00:00:00'); /* Rock */

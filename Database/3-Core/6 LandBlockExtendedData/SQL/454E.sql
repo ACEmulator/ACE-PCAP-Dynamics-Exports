@@ -5,14 +5,14 @@ VALUES (0x7454E001,  1154, 0x454E0040, 175.1609, 191.6471, -0.09175003, 0.707106
 /* @teleloc 0x454E0040 [175.160900 191.647100 -0.091750] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454E001, 0x7454E002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7454E001, 0x7454E003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7454E001, 0x7454E004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7454E001, 0x7454E005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7454E001, 0x7454E006, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7454E001, 0x7454E007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7454E001, 0x7454E008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7454E001, 0x7454E009, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x7454E001, 0x7454E002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7454E001, 0x7454E003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7454E001, 0x7454E004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7454E001, 0x7454E005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x7454E001, 0x7454E006, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7454E001, 0x7454E007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7454E001, 0x7454E008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7454E001, 0x7454E009, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454E002, 24319, 0x454E0040, 175.1609, 191.6471, -0.09175003, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */

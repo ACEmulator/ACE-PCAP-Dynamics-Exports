@@ -5,36 +5,36 @@ VALUES (0x720C0001,  1154, 0x20C00003, 14.24487, 60.3398, 95.63435, 1, 0, 0, 0, 
 /* @teleloc 0x20C00003 [14.244870 60.339800 95.634350] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C0001, 0x720C0002, '2019-02-10 00:00:00') /* Synnast */
-     , (0x720C0001, 0x720C0003, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x720C0001, 0x720C0004, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x720C0001, 0x720C0005, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C0001, 0x720C0006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x720C0001, 0x720C0007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x720C0001, 0x720C0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C0001, 0x720C0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C0001, 0x720C000A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C0001, 0x720C000B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C0001, 0x720C000C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C0001, 0x720C000D, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C0001, 0x720C000E, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C0001, 0x720C000F, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x720C0001, 0x720C0010, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C0001, 0x720C0011, '2019-02-10 00:00:00') /* Synnast */
-     , (0x720C0001, 0x720C0012, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x720C0001, 0x720C0013, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x720C0001, 0x720C0014, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x720C0001, 0x720C0015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C0001, 0x720C0016, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x720C0001, 0x720C0017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C0001, 0x720C0018, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x720C0001, 0x720C0019, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x720C0001, 0x720C001A, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C0001, 0x720C001B, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x720C0001, 0x720C001C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C0001, 0x720C001D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C0001, 0x720C001E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x720C0001, 0x720C001F, '2019-02-10 00:00:00') /* Olthoi Legionary */;
+VALUES (0x720C0001, 0x720C0002, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x720C0001, 0x720C0003, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x720C0001, 0x720C0004, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x720C0001, 0x720C0005, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C0001, 0x720C0006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x720C0001, 0x720C0007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x720C0001, 0x720C0008, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C0001, 0x720C0009, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C0001, 0x720C000A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C0001, 0x720C000B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C0001, 0x720C000C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C0001, 0x720C000D, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C0001, 0x720C000E, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C0001, 0x720C000F, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x720C0001, 0x720C0010, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C0001, 0x720C0011, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x720C0001, 0x720C0012, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x720C0001, 0x720C0013, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x720C0001, 0x720C0014, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x720C0001, 0x720C0015, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C0001, 0x720C0016, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x720C0001, 0x720C0017, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C0001, 0x720C0018, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x720C0001, 0x720C0019, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x720C0001, 0x720C001A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C0001, 0x720C001B, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x720C0001, 0x720C001C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C0001, 0x720C001D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C0001, 0x720C001E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x720C0001, 0x720C001F, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C0002,  7094, 0x20C00003, 14.24487, 60.3398, 95.63435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
@@ -161,11 +161,11 @@ VALUES (0x720C0020,  1542, 0x20C00012, 67.93723, 44.98059, 96.36251, 1, 0, 0, 0,
 /* @teleloc 0x20C00012 [67.937230 44.980590 96.362510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C0020, 0x720C0021, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x720C0020, 0x720C0022, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x720C0020, 0x720C0023, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x720C0020, 0x720C0024, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x720C0020, 0x720C0025, '2019-02-10 00:00:00') /* Tiny Hive Portal */;
+VALUES (0x720C0020, 0x720C0021, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x720C0020, 0x720C0022, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x720C0020, 0x720C0023, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x720C0020, 0x720C0024, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x720C0020, 0x720C0025, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C0021, 11221, 0x20C00012, 67.93723, 44.98059, 96.36251, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

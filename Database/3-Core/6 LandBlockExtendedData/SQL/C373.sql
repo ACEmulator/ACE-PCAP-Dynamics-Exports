@@ -5,10 +5,10 @@ VALUES (0x7C373001,  1154, 0xC3730014, 70.79008, 93.53092, 37.80935, 0.3779832, 
 /* @teleloc 0xC3730014 [70.790080 93.530920 37.809350] 0.377983 0.000000 0.000000 -0.925812 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C373001, 0x7C373002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C373001, 0x7C373003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C373001, 0x7C373004, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7C373001, 0x7C373005, '2019-02-10 00:00:00') /* Shadow Sprite */;
+VALUES (0x7C373001, 0x7C373002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C373001, 0x7C373003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C373001, 0x7C373004, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7C373001, 0x7C373005, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C373002,   200, 0xC3730014, 70.79008, 93.53092, 37.80935, 0.3779832, 0, 0, -0.9258124,  True, '2019-02-10 00:00:00'); /* Mud Golem */

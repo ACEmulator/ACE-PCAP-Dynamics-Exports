@@ -5,24 +5,24 @@ VALUES (0x7CF86001,  1154, 0xCF86003B, 172.1558, 60.67048, 22.00765, 0.9900538, 
 /* @teleloc 0xCF86003B [172.155800 60.670480 22.007650] 0.990054 0.000000 0.000000 -0.140689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF86001, 0x7CF86002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7CF86001, 0x7CF86003, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CF86001, 0x7CF86004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF86001, 0x7CF86005, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF86001, 0x7CF86006, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CF86001, 0x7CF86007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CF86001, 0x7CF86008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7CF86001, 0x7CF86009, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CF86001, 0x7CF8600A, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CF86001, 0x7CF8600B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CF86001, 0x7CF8600C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CF86001, 0x7CF8600D, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CF86001, 0x7CF8600E, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CF86001, 0x7CF8600F, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7CF86001, 0x7CF86010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CF86001, 0x7CF86011, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CF86001, 0x7CF86012, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CF86001, 0x7CF86013, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7CF86001, 0x7CF86002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7CF86001, 0x7CF86003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CF86001, 0x7CF86004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF86001, 0x7CF86005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF86001, 0x7CF86006, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CF86001, 0x7CF86007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CF86001, 0x7CF86008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7CF86001, 0x7CF86009, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CF86001, 0x7CF8600A, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CF86001, 0x7CF8600B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CF86001, 0x7CF8600C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CF86001, 0x7CF8600D, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CF86001, 0x7CF8600E, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CF86001, 0x7CF8600F, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7CF86001, 0x7CF86010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CF86001, 0x7CF86011, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CF86001, 0x7CF86012, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CF86001, 0x7CF86013, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF86002,   182, 0xCF86003B, 172.1558, 60.67048, 22.00765, 0.9900538, 0, 0, -0.1406894,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */

@@ -5,21 +5,21 @@ VALUES (0x7C3F1001,  1154, 0xC3F1003D, 183.0193, 105.0474, -0.8890001, -0.952934
 /* @teleloc 0xC3F1003D [183.019300 105.047400 -0.889000] -0.952935 0.000000 0.000000 -0.303176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3F1001, 0x7C3F1002, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1003, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1004, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1005, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1006, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1008, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7C3F1001, 0x7C3F1009, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3F1001, 0x7C3F100A, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3F1001, 0x7C3F100B, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3F1001, 0x7C3F100C, '2019-02-10 00:00:00') /* Degenerate Shadow */
-     , (0x7C3F1001, 0x7C3F100D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3F1001, 0x7C3F100E, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3F1001, 0x7C3F100F, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */
-     , (0x7C3F1001, 0x7C3F1010, '2019-02-10 00:00:00') /* Shambling Undead Ruschk */;
+VALUES (0x7C3F1001, 0x7C3F1002, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3F1001, 0x7C3F1003, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F1001, 0x7C3F1004, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F1001, 0x7C3F1005, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F1001, 0x7C3F1006, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3F1001, 0x7C3F1007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F1001, 0x7C3F1008, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F1001, 0x7C3F1009, '2019-02-10 00:00:00') /* Degenerate Shadow (33730) */
+     , (0x7C3F1001, 0x7C3F100A, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3F1001, 0x7C3F100B, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3F1001, 0x7C3F100C, '2019-02-10 00:00:00') /* Degenerate Shadow (40292) */
+     , (0x7C3F1001, 0x7C3F100D, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C3F1001, 0x7C3F100E, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3F1001, 0x7C3F100F, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3F1001, 0x7C3F1010, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3F1002, 40149, 0xC3F1003D, 183.0193, 105.0474, -0.8890001, -0.9529346, 0, 0, -0.3031759,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */

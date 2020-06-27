@@ -5,15 +5,15 @@ VALUES (0x76FB4001,  1154, 0x6FB40010, 44.17535, 186.8543, 140.7799, -0.08715577
 /* @teleloc 0x6FB40010 [44.175350 186.854300 140.779900] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76FB4001, 0x76FB4002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x76FB4001, 0x76FB4003, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x76FB4001, 0x76FB4004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x76FB4001, 0x76FB4005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76FB4001, 0x76FB4006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76FB4001, 0x76FB4007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76FB4001, 0x76FB4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76FB4001, 0x76FB4009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x76FB4001, 0x76FB400A, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x76FB4001, 0x76FB4002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x76FB4001, 0x76FB4003, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x76FB4001, 0x76FB4004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x76FB4001, 0x76FB4005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76FB4001, 0x76FB4006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76FB4001, 0x76FB4007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76FB4001, 0x76FB4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76FB4001, 0x76FB4009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x76FB4001, 0x76FB400A, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FB4002, 24497, 0x6FB40010, 44.17535, 186.8543, 140.7799, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -56,7 +56,7 @@ VALUES (0x76FB400B,  1542, 0x6FB40010, 37.42025, 182.7281, 144.8352, 1, 0, 0, 0,
 /* @teleloc 0x6FB40010 [37.420250 182.728100 144.835200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76FB400B, 0x76FB400C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x76FB400B, 0x76FB400C, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76FB400C, 22567, 0x6FB40010, 37.42025, 182.7281, 144.8352, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

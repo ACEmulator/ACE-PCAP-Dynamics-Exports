@@ -5,15 +5,15 @@ VALUES (0x73811001,  1154, 0x38110018, 69.58179, 180.4945, 14.31293, -0.3432082,
 /* @teleloc 0x38110018 [69.581790 180.494500 14.312930] -0.343208 0.000000 0.000000 -0.939259 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73811001, 0x73811002, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x73811001, 0x73811003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73811001, 0x73811004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73811001, 0x73811005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73811001, 0x73811006, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x73811001, 0x73811007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73811001, 0x73811008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73811001, 0x73811009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73811001, 0x7381100A, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x73811001, 0x73811002, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x73811001, 0x73811003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73811001, 0x73811004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73811001, 0x73811005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73811001, 0x73811006, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x73811001, 0x73811007, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73811001, 0x73811008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73811001, 0x73811009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73811001, 0x7381100A, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73811002, 10814, 0x38110018, 69.58179, 180.4945, 14.31293, -0.3432082, 0, 0, -0.9392594,  True, '2019-02-10 00:00:00'); /* Virindi Inquisitor */
@@ -56,7 +56,7 @@ VALUES (0x7381100B,  1542, 0x38110020, 93.84457, 188.6623, 12.91552, -0.4087921,
 /* @teleloc 0x38110020 [93.844570 188.662300 12.915520] -0.408792 0.000000 0.000000 -0.912628 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7381100B, 0x7381100C, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7381100B, 0x7381100C, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7381100C, 11555, 0x38110020, 93.84457, 188.6623, 12.91552, -0.4087921, 0, 0, -0.9126275,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

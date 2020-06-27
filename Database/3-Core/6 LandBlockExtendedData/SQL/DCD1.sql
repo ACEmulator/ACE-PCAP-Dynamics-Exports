@@ -5,24 +5,24 @@ VALUES (0x7DCD1001,  1154, 0xDCD10034, 147.891, 88.20554, 0, 0.9823937, 0, 0, -0
 /* @teleloc 0xDCD10034 [147.891000 88.205540 0.000000] 0.982394 0.000000 0.000000 -0.186823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DCD1001, 0x7DCD1002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DCD1001, 0x7DCD1003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7DCD1001, 0x7DCD1004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DCD1001, 0x7DCD1005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DCD1001, 0x7DCD1006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DCD1001, 0x7DCD1007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DCD1001, 0x7DCD1008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DCD1001, 0x7DCD1009, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DCD1001, 0x7DCD100A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DCD1001, 0x7DCD100B, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DCD1001, 0x7DCD100C, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DCD1001, 0x7DCD100D, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DCD1001, 0x7DCD100E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7DCD1001, 0x7DCD100F, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DCD1001, 0x7DCD1010, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7DCD1001, 0x7DCD1011, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DCD1001, 0x7DCD1012, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7DCD1001, 0x7DCD1013, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7DCD1001, 0x7DCD1002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DCD1001, 0x7DCD1003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7DCD1001, 0x7DCD1004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DCD1001, 0x7DCD1005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DCD1001, 0x7DCD1006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DCD1001, 0x7DCD1007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DCD1001, 0x7DCD1008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DCD1001, 0x7DCD1009, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DCD1001, 0x7DCD100A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DCD1001, 0x7DCD100B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DCD1001, 0x7DCD100C, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DCD1001, 0x7DCD100D, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DCD1001, 0x7DCD100E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7DCD1001, 0x7DCD100F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DCD1001, 0x7DCD1010, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7DCD1001, 0x7DCD1011, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DCD1001, 0x7DCD1012, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7DCD1001, 0x7DCD1013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DCD1002, 11481, 0xDCD10034, 147.891, 88.20554, 0, 0.9823937, 0, 0, -0.1868226,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -101,7 +101,7 @@ VALUES (0x7DCD1014,  1542, 0xDCD1001E, 85.34388, 122.9225, 0, -0.9637272, 0, 0, 
 /* @teleloc 0xDCD1001E [85.343880 122.922500 0.000000] -0.963727 0.000000 0.000000 -0.266889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DCD1014, 0x7DCD1015, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7DCD1014, 0x7DCD1015, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DCD1015, 11555, 0xDCD1001E, 85.34388, 122.9225, 0, -0.9637272, 0, 0, -0.2668894,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

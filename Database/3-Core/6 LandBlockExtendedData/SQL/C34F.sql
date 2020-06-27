@@ -5,11 +5,11 @@ VALUES (0x7C34F001,  1154, 0xC34F000F, 27.74688, 153.9809, 30.31774, 1, 0, 0, 0,
 /* @teleloc 0xC34F000F [27.746880 153.980900 30.317740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C34F001, 0x7C34F002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C34F001, 0x7C34F003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C34F001, 0x7C34F004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C34F001, 0x7C34F005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C34F001, 0x7C34F006, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7C34F001, 0x7C34F002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C34F001, 0x7C34F003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C34F001, 0x7C34F004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C34F001, 0x7C34F005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C34F001, 0x7C34F006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C34F002,   231, 0xC34F000F, 27.74688, 153.9809, 30.31774, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -36,7 +36,7 @@ VALUES (0x7C34F007,  1542, 0xC34F000F, 26.35688, 153.7203, 31.19501, 1, 0, 0, 0,
 /* @teleloc 0xC34F000F [26.356880 153.720300 31.195010] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C34F007, 0x7C34F008, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C34F007, 0x7C34F008, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C34F008, 31443, 0xC34F000F, 26.35688, 153.7203, 31.19501, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

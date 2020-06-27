@@ -5,16 +5,16 @@ VALUES (0x7B33C001,  1154, 0xB33C0007, 22.23438, 162.0254, 45.9985, 0.8660254, 0
 /* @teleloc 0xB33C0007 [22.234380 162.025400 45.998500] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B33C001, 0x7B33C002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B33C001, 0x7B33C003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7B33C001, 0x7B33C004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B33C001, 0x7B33C005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7B33C001, 0x7B33C006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B33C001, 0x7B33C007, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B33C001, 0x7B33C008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7B33C001, 0x7B33C009, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B33C001, 0x7B33C00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7B33C001, 0x7B33C00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7B33C001, 0x7B33C002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B33C001, 0x7B33C003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B33C001, 0x7B33C004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B33C001, 0x7B33C005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7B33C001, 0x7B33C006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B33C001, 0x7B33C007, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B33C001, 0x7B33C008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7B33C001, 0x7B33C009, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B33C001, 0x7B33C00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7B33C001, 0x7B33C00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B33C002,  7978, 0xB33C0007, 22.23438, 162.0254, 45.9985, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -61,7 +61,7 @@ VALUES (0x7B33C00C,  1542, 0xB33C0039, 176.4716, 10.71818, 44, -0.9229127, 0, 0,
 /* @teleloc 0xB33C0039 [176.471600 10.718180 44.000000] -0.922913 0.000000 0.000000 -0.385009 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B33C00C, 0x7B33C00D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7B33C00C, 0x7B33C00D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B33C00D,  8037, 0xB33C0039, 176.4716, 10.71818, 44, -0.9229127, 0, 0, -0.3850092,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

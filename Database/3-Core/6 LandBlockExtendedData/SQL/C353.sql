@@ -5,11 +5,11 @@ VALUES (0x7C353001,  1154, 0xC3530033, 154.6245, 58.91647, 13.80718, -0.1949906,
 /* @teleloc 0xC3530033 [154.624500 58.916470 13.807180] -0.194991 0.000000 0.000000 -0.980805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C353001, 0x7C353002, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C353001, 0x7C353003, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C353001, 0x7C353004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C353001, 0x7C353005, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x7C353001, 0x7C353006, '2019-02-10 00:00:00') /* Brutish Monouga */;
+VALUES (0x7C353001, 0x7C353002, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C353001, 0x7C353003, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C353001, 0x7C353004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C353001, 0x7C353005, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7C353001, 0x7C353006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C353002,   235, 0xC3530033, 154.6245, 58.91647, 13.80718, -0.1949906, 0, 0, -0.9808051,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */

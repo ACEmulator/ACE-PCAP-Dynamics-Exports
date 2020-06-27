@@ -5,18 +5,18 @@ VALUES (0x79E26001,  1154, 0x9E26000F, 29.92236, 154.4998, 173.463, 0.9762409, 0
 /* @teleloc 0x9E26000F [29.922360 154.499800 173.463000] 0.976241 0.000000 0.000000 -0.216688 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E26001, 0x79E26002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x79E26001, 0x79E26003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79E26001, 0x79E26004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79E26001, 0x79E26005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79E26001, 0x79E26006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79E26001, 0x79E26007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79E26001, 0x79E26008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79E26001, 0x79E26009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79E26001, 0x79E2600A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79E26001, 0x79E2600B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79E26001, 0x79E2600C, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E26001, 0x79E2600D, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x79E26001, 0x79E26002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79E26001, 0x79E26003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79E26001, 0x79E26004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79E26001, 0x79E26005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79E26001, 0x79E26006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79E26001, 0x79E26007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79E26001, 0x79E26008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79E26001, 0x79E26009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79E26001, 0x79E2600A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79E26001, 0x79E2600B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79E26001, 0x79E2600C, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E26001, 0x79E2600D, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E26002,   619, 0x9E26000F, 29.92236, 154.4998, 173.463, 0.9762409, 0, 0, -0.2166882,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -71,7 +71,7 @@ VALUES (0x79E2600E,  1542, 0x9E260007, 13.09925, 153.8937, 167.2748, 1, 0, 0, 0,
 /* @teleloc 0x9E260007 [13.099250 153.893700 167.274800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E2600E, 0x79E2600F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79E2600E, 0x79E2600F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E2600F, 22571, 0x9E260007, 13.09925, 153.8937, 167.2748, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

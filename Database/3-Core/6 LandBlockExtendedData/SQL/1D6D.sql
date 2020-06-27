@@ -5,23 +5,23 @@ VALUES (0x71D6D001,  1154, 0x1D6D0015, 53.01023, 104.6407, 42.83904, 0.8870109, 
 /* @teleloc 0x1D6D0015 [53.010230 104.640700 42.839040] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6D001, 0x71D6D002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71D6D001, 0x71D6D003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6D001, 0x71D6D004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71D6D001, 0x71D6D005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71D6D001, 0x71D6D006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71D6D001, 0x71D6D007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71D6D001, 0x71D6D008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D6D001, 0x71D6D009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71D6D001, 0x71D6D00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71D6D001, 0x71D6D00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71D6D001, 0x71D6D00C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71D6D001, 0x71D6D00D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71D6D001, 0x71D6D00E, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71D6D001, 0x71D6D00F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D6D001, 0x71D6D010, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71D6D001, 0x71D6D011, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D6D001, 0x71D6D012, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x71D6D001, 0x71D6D002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71D6D001, 0x71D6D003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6D001, 0x71D6D004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71D6D001, 0x71D6D005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71D6D001, 0x71D6D006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71D6D001, 0x71D6D007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71D6D001, 0x71D6D008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D6D001, 0x71D6D009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71D6D001, 0x71D6D00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71D6D001, 0x71D6D00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71D6D001, 0x71D6D00C, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71D6D001, 0x71D6D00D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71D6D001, 0x71D6D00E, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71D6D001, 0x71D6D00F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D6D001, 0x71D6D010, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71D6D001, 0x71D6D011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D6D001, 0x71D6D012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D6D002,  4254, 0x1D6D0015, 53.01023, 104.6407, 42.83904, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -96,7 +96,7 @@ VALUES (0x71D6D013,  1542, 0x1D6D0021, 110.3117, 17.55188, 57.57793, 0.9941916, 
 /* @teleloc 0x1D6D0021 [110.311700 17.551880 57.577930] 0.994192 0.000000 0.000000 -0.107625 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D6D013, 0x71D6D014, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x71D6D013, 0x71D6D014, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D6D014,  8648, 0x1D6D0021, 110.3117, 17.55188, 57.57793, 0.9941916, 0, 0, -0.1076248,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

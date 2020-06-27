@@ -5,13 +5,13 @@ VALUES (0x73559001,  1154, 0x3559003C, 173.3514, 79.51176, 40.0085, 0.02311246, 
 /* @teleloc 0x3559003C [173.351400 79.511760 40.008500] 0.023112 0.000000 0.000000 -0.999733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73559001, 0x73559002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73559001, 0x73559003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73559001, 0x73559004, '2019-02-10 00:00:00') /* Flare */
-     , (0x73559001, 0x73559005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73559001, 0x73559006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73559001, 0x73559007, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73559001, 0x73559008, '2019-02-10 00:00:00') /* Direland Rat */;
+VALUES (0x73559001, 0x73559002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73559001, 0x73559003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73559001, 0x73559004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73559001, 0x73559005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73559001, 0x73559006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73559001, 0x73559007, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73559001, 0x73559008, '2019-02-10 00:00:00') /* Direland Rat (24310) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73559002,  5712, 0x3559003C, 173.3514, 79.51176, 40.0085, 0.02311246, 0, 0, -0.9997329,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -46,8 +46,8 @@ VALUES (0x73559009,  1542, 0x3559003B, 180.3712, 58.43891, 40, 0.02311246, 0, 0,
 /* @teleloc 0x3559003B [180.371200 58.438910 40.000000] 0.023112 0.000000 0.000000 -0.999733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73559009, 0x7355900A, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x73559009, 0x7355900B, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x73559009, 0x7355900A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x73559009, 0x7355900B, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7355900A, 11555, 0x3559003B, 180.3712, 58.43891, 40, 0.02311246, 0, 0, -0.9997329,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

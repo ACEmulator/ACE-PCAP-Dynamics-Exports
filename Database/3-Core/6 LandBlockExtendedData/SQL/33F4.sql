@@ -5,12 +5,12 @@ VALUES (0x733F4001,  1154, 0x33F40011, 71.11855, 18.00057, 81.64042, -0.8565408,
 /* @teleloc 0x33F40011 [71.118550 18.000570 81.640420] -0.856541 0.000000 0.000000 -0.516079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733F4001, 0x733F4002, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x733F4001, 0x733F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x733F4001, 0x733F4004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x733F4001, 0x733F4005, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x733F4001, 0x733F4006, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x733F4001, 0x733F4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x733F4001, 0x733F4002, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x733F4001, 0x733F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x733F4001, 0x733F4004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x733F4001, 0x733F4005, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x733F4001, 0x733F4006, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x733F4001, 0x733F4007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733F4002, 24322, 0x33F40011, 71.11855, 18.00057, 81.64042, -0.8565408, 0, 0, -0.5160793,  True, '2019-02-10 00:00:00'); /* Undead Lieutenant */

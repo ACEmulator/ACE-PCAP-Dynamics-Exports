@@ -5,8 +5,8 @@ VALUES (0x78ADB001,  1154, 0x8ADB002F, 138.7515, 152.7961, 136.7308, -0.9860426,
 /* @teleloc 0x8ADB002F [138.751500 152.796100 136.730800] -0.986043 0.000000 0.000000 -0.166493 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ADB001, 0x78ADB002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78ADB001, 0x78ADB003, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x78ADB001, 0x78ADB002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78ADB001, 0x78ADB003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ADB002,  7096, 0x8ADB002F, 138.7515, 152.7961, 136.7308, -0.9860426, 0, 0, -0.1664933,  True, '2019-02-10 00:00:00'); /* Gold Golem */

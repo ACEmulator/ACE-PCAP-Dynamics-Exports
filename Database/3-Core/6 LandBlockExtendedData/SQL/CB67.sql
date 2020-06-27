@@ -5,13 +5,13 @@ VALUES (0x7CB67001,  1154, 0xCB670010, 24.35515, 174.4603, 46.58095, -0.3121036,
 /* @teleloc 0xCB670010 [24.355150 174.460300 46.580950] -0.312104 0.000000 0.000000 -0.950048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB67001, 0x7CB67002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CB67001, 0x7CB67003, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB67001, 0x7CB67004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CB67001, 0x7CB67005, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB67001, 0x7CB67006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB67001, 0x7CB67007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CB67001, 0x7CB67008, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7CB67001, 0x7CB67002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CB67001, 0x7CB67003, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB67001, 0x7CB67004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CB67001, 0x7CB67005, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB67001, 0x7CB67006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB67001, 0x7CB67007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CB67001, 0x7CB67008, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB67002,   217, 0xCB670010, 24.35515, 174.4603, 46.58095, -0.3121036, 0, 0, -0.9500481,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

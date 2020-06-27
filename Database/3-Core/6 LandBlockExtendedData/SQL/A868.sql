@@ -5,9 +5,9 @@ VALUES (0x7A868001,  1154, 0xA868003E, 176.9377, 140.0075, 33.991, -0.4172697, 0
 /* @teleloc 0xA868003E [176.937700 140.007500 33.991000] -0.417270 0.000000 0.000000 -0.908783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A868001, 0x7A868002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A868001, 0x7A868003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A868001, 0x7A868004, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A868001, 0x7A868002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A868001, 0x7A868003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A868001, 0x7A868004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A868002,  9253, 0xA868003E, 176.9377, 140.0075, 33.991, -0.4172697, 0, 0, -0.9087827,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

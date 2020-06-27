@@ -5,23 +5,23 @@ VALUES (0x79B42001,  1154, 0x9B42003C, 179.1221, 84.88483, 116.2951, -0.2354484,
 /* @teleloc 0x9B42003C [179.122100 84.884830 116.295100] -0.235448 0.000000 0.000000 -0.971887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B42001, 0x79B42002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79B42001, 0x79B42003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B42004, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x79B42001, 0x79B42005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B42006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B42007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B42008, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x79B42001, 0x79B42009, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B4200A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B4200B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79B42001, 0x79B4200C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79B42001, 0x79B4200D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79B42001, 0x79B4200E, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79B42001, 0x79B4200F, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79B42001, 0x79B42010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79B42001, 0x79B42011, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x79B42001, 0x79B42012, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x79B42001, 0x79B42002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79B42001, 0x79B42003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B42004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x79B42001, 0x79B42005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B42006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B42007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B42008, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x79B42001, 0x79B42009, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B4200A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B4200B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79B42001, 0x79B4200C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79B42001, 0x79B4200D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79B42001, 0x79B4200E, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79B42001, 0x79B4200F, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79B42001, 0x79B42010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79B42001, 0x79B42011, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79B42001, 0x79B42012, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B42002, 38179, 0x9B42003C, 179.1221, 84.88483, 116.2951, -0.2354484, 0, 0, -0.9718869,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -96,8 +96,8 @@ VALUES (0x79B42013,  1542, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0
 /* @teleloc 0x9B420032 [157.309500 28.882340 109.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B42013, 0x79B42014, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x79B42013, 0x79B42015, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x79B42013, 0x79B42014, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x79B42013, 0x79B42015, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B42014,  8190, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

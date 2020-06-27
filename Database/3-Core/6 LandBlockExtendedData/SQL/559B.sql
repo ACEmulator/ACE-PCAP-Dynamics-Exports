@@ -5,11 +5,11 @@ VALUES (0x7559B001,  1154, 0x559B0005, 7.279891, 109.0145, 11.23186, 0.673125, 0
 /* @teleloc 0x559B0005 [7.279891 109.014500 11.231860] 0.673125 0.000000 0.000000 -0.739529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7559B001, 0x7559B002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559B001, 0x7559B003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559B001, 0x7559B004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559B001, 0x7559B005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7559B001, 0x7559B006, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x7559B001, 0x7559B002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559B001, 0x7559B003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559B001, 0x7559B004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559B001, 0x7559B005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7559B001, 0x7559B006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7559B002,  4255, 0x559B0005, 7.279891, 109.0145, 11.23186, 0.673125, 0, 0, -0.7395287,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

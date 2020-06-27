@@ -5,10 +5,10 @@ VALUES (0x72C83001,  1154, 0x2C830020, 88.98004, 186.1282, 145.2192, 0.8409003, 
 /* @teleloc 0x2C830020 [88.980040 186.128200 145.219200] 0.840900 0.000000 0.000000 -0.541190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C83001, 0x72C83002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x72C83001, 0x72C83003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72C83001, 0x72C83004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72C83001, 0x72C83005, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x72C83001, 0x72C83002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72C83001, 0x72C83003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72C83001, 0x72C83004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72C83001, 0x72C83005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C83002, 20189, 0x2C830020, 88.98004, 186.1282, 145.2192, 0.8409003, 0, 0, -0.5411901,  True, '2019-02-10 00:00:00'); /* Brumal */

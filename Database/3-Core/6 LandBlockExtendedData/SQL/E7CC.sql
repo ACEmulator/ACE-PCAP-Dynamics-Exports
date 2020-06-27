@@ -5,16 +5,16 @@ VALUES (0x7E7CC001,  1154, 0xE7CC0016, 69.60972, 133.4023, -0.4488, -0.9079527, 
 /* @teleloc 0xE7CC0016 [69.609720 133.402300 -0.448800] -0.907953 0.000000 0.000000 -0.419073 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E7CC001, 0x7E7CC002, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7CC001, 0x7E7CC003, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7CC001, 0x7E7CC004, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7E7CC001, 0x7E7CC005, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E7CC001, 0x7E7CC006, '2019-02-10 00:00:00') /* Aggressive Swarm */
-     , (0x7E7CC001, 0x7E7CC007, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E7CC001, 0x7E7CC008, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7CC001, 0x7E7CC009, '2019-02-10 00:00:00') /* Sand Lurker */
-     , (0x7E7CC001, 0x7E7CC00A, '2019-02-10 00:00:00') /* Black Coral Golem */
-     , (0x7E7CC001, 0x7E7CC00B, '2019-02-10 00:00:00') /* Aggressive Swarm */;
+VALUES (0x7E7CC001, 0x7E7CC002, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7CC001, 0x7E7CC003, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7CC001, 0x7E7CC004, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E7CC001, 0x7E7CC005, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E7CC001, 0x7E7CC006, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E7CC001, 0x7E7CC007, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E7CC001, 0x7E7CC008, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7CC001, 0x7E7CC009, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E7CC001, 0x7E7CC00A, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E7CC001, 0x7E7CC00B, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E7CC002, 40471, 0xE7CC0016, 69.60972, 133.4023, -0.4488, -0.9079527, 0, 0, -0.4190727,  True, '2019-02-10 00:00:00'); /* Sand Lurker */

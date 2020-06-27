@@ -5,10 +5,10 @@ VALUES (0x71378001,  1154, 0x13780018, 52.53397, 191.6034, 143.6255, -0.7503433,
 /* @teleloc 0x13780018 [52.533970 191.603400 143.625500] -0.750343 0.000000 0.000000 -0.661048 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71378001, 0x71378002, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71378001, 0x71378003, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x71378001, 0x71378004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71378001, 0x71378005, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x71378001, 0x71378002, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71378001, 0x71378003, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x71378001, 0x71378004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71378001, 0x71378005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71378002, 24279, 0x13780018, 52.53397, 191.6034, 143.6255, -0.7503433, 0, 0, -0.6610484,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
@@ -31,7 +31,7 @@ VALUES (0x71378006,  1542, 0x1378003D, 184.7897, 103.5056, 136.1317, 0.9557227, 
 /* @teleloc 0x1378003D [184.789700 103.505600 136.131700] 0.955723 0.000000 0.000000 -0.294269 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71378006, 0x71378007, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x71378006, 0x71378007, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71378007, 11554, 0x1378003D, 184.7897, 103.5056, 136.1317, 0.9557227, 0, 0, -0.2942688,  True, '2019-02-10 00:00:00'); /* Colban Plant */

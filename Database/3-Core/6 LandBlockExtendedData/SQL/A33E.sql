@@ -5,11 +5,11 @@ VALUES (0x7A33E001,  1154, 0xA33E0012, 69.0506, 40.82313, 66.08155, 0.9961947, 0
 /* @teleloc 0xA33E0012 [69.050600 40.823130 66.081550] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A33E001, 0x7A33E002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A33E001, 0x7A33E003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A33E001, 0x7A33E004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A33E001, 0x7A33E005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7A33E001, 0x7A33E006, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x7A33E001, 0x7A33E002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A33E001, 0x7A33E003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A33E001, 0x7A33E004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A33E001, 0x7A33E005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7A33E001, 0x7A33E006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A33E002,  1629, 0xA33E0012, 69.0506, 40.82313, 66.08155, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
@@ -36,7 +36,7 @@ VALUES (0x7A33E007,  1542, 0xA33E0012, 66.28008, 41.03333, 66.08155, 1, 0, 0, 0,
 /* @teleloc 0xA33E0012 [66.280080 41.033330 66.081550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A33E007, 0x7A33E008, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7A33E007, 0x7A33E008, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A33E008,  8999, 0xA33E0012, 66.28008, 41.03333, 66.08155, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

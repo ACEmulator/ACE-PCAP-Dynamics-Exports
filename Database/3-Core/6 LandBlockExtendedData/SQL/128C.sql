@@ -5,20 +5,20 @@ VALUES (0x7128C001,  1154, 0x128C0002, 15.23653, 43.66939, 34.72892, 0.7071068, 
 /* @teleloc 0x128C0002 [15.236530 43.669390 34.728920] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7128C001, 0x7128C002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7128C001, 0x7128C003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7128C001, 0x7128C004, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7128C001, 0x7128C005, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7128C001, 0x7128C006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7128C001, 0x7128C007, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7128C001, 0x7128C008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7128C001, 0x7128C009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7128C001, 0x7128C00A, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7128C001, 0x7128C00B, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7128C001, 0x7128C00C, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7128C001, 0x7128C00D, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7128C001, 0x7128C00E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7128C001, 0x7128C00F, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x7128C001, 0x7128C002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7128C001, 0x7128C003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7128C001, 0x7128C004, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7128C001, 0x7128C005, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7128C001, 0x7128C006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7128C001, 0x7128C007, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7128C001, 0x7128C008, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7128C001, 0x7128C009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7128C001, 0x7128C00A, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7128C001, 0x7128C00B, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7128C001, 0x7128C00C, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7128C001, 0x7128C00D, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7128C001, 0x7128C00E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7128C001, 0x7128C00F, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7128C002, 36820, 0x128C0002, 15.23653, 43.66939, 34.72892, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

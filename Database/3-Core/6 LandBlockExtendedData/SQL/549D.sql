@@ -5,10 +5,10 @@ VALUES (0x7549D001,  1154, 0x549D0017, 48.54079, 157.1044, 2.036066, -0.7141599,
 /* @teleloc 0x549D0017 [48.540790 157.104400 2.036066] -0.714160 0.000000 0.000000 -0.699983 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7549D001, 0x7549D002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7549D001, 0x7549D003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7549D001, 0x7549D004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7549D001, 0x7549D005, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7549D001, 0x7549D002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7549D001, 0x7549D003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7549D001, 0x7549D004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7549D001, 0x7549D005, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7549D002,  9253, 0x549D0017, 48.54079, 157.1044, 2.036066, -0.7141599, 0, 0, -0.6999826,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

@@ -9,8 +9,8 @@ VALUES (0x74418001,  1154, 0x44180016, 53.15553, 120.078, 120.0105, 0.9047213, 0
 /* @teleloc 0x44180016 [53.155530 120.078000 120.010500] 0.904721 0.000000 0.000000 -0.426004 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74418001, 0x74418002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74418001, 0x74418003, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x74418001, 0x74418002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74418001, 0x74418003, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74418002,  7081, 0x44180016, 53.15553, 120.078, 120.0105, 0.9047213, 0, 0, -0.426004,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

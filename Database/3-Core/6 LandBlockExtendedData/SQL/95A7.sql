@@ -5,14 +5,14 @@ VALUES (0x795A7001,  1154, 0x95A70029, 135.0602, 5.607647, 60.29068, -0.866513, 
 /* @teleloc 0x95A70029 [135.060200 5.607647 60.290680] -0.866513 0.000000 0.000000 -0.499155 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795A7001, 0x795A7002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x795A7001, 0x795A7003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x795A7001, 0x795A7004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x795A7001, 0x795A7005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x795A7001, 0x795A7006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x795A7001, 0x795A7007, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x795A7001, 0x795A7008, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x795A7001, 0x795A7009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x795A7001, 0x795A7002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x795A7001, 0x795A7003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x795A7001, 0x795A7004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x795A7001, 0x795A7005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x795A7001, 0x795A7006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x795A7001, 0x795A7007, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x795A7001, 0x795A7008, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x795A7001, 0x795A7009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795A7002,   217, 0x95A70029, 135.0602, 5.607647, 60.29068, -0.866513, 0, 0, -0.4991545,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -51,8 +51,8 @@ VALUES (0x795A700A,  1542, 0x95A7002A, 120.8281, 27.02817, 60.56767, 0.7071068, 
 /* @teleloc 0x95A7002A [120.828100 27.028170 60.567670] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795A700A, 0x795A700B, '2019-02-10 00:00:00') /* Wormwood */
-     , (0x795A700A, 0x795A700C, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x795A700A, 0x795A700B, '2019-02-10 00:00:00') /* Wormwood (780) */
+     , (0x795A700A, 0x795A700C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795A700B,   780, 0x95A7002A, 120.8281, 27.02817, 60.56767, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wormwood */

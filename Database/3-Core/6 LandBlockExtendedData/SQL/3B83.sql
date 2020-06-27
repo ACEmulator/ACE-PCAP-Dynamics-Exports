@@ -5,8 +5,8 @@ VALUES (0x73B83001,  1154, 0x3B830035, 154.0028, 99.65635, 0, -0.6119839, 0, 0, 
 /* @teleloc 0x3B830035 [154.002800 99.656350 0.000000] -0.611984 0.000000 0.000000 -0.790870 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B83001, 0x73B83002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x73B83001, 0x73B83003, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x73B83001, 0x73B83002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x73B83001, 0x73B83003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B83002, 28553, 0x3B830035, 154.0028, 99.65635, 0, -0.6119839, 0, 0, -0.7908702,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

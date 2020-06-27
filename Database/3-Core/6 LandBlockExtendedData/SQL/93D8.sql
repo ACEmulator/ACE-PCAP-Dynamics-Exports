@@ -5,14 +5,14 @@ VALUES (0x793D8001,  1154, 0x93D80001, 21.46812, 14.07838, 178.2181, 0.7353398, 
 /* @teleloc 0x93D80001 [21.468120 14.078380 178.218100] 0.735340 0.000000 0.000000 -0.677699 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x793D8001, 0x793D8002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x793D8001, 0x793D8003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x793D8001, 0x793D8004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x793D8001, 0x793D8005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x793D8001, 0x793D8006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x793D8001, 0x793D8007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x793D8001, 0x793D8008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x793D8001, 0x793D8009, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x793D8001, 0x793D8002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x793D8001, 0x793D8003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x793D8001, 0x793D8004, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x793D8001, 0x793D8005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x793D8001, 0x793D8006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x793D8001, 0x793D8007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x793D8001, 0x793D8008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x793D8001, 0x793D8009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x793D8002,  7333, 0x93D80001, 21.46812, 14.07838, 178.2181, 0.7353398, 0, 0, -0.6776986,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

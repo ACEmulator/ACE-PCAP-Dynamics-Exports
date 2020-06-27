@@ -5,11 +5,11 @@ VALUES (0x7AB45001,  1154, 0xAB450037, 149.3597, 163.9739, 13.68544, 0.2588191, 
 /* @teleloc 0xAB450037 [149.359700 163.973900 13.685440] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AB45001, 0x7AB45002, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7AB45001, 0x7AB45003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AB45001, 0x7AB45004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AB45001, 0x7AB45005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7AB45001, 0x7AB45006, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7AB45001, 0x7AB45002, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7AB45001, 0x7AB45003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AB45001, 0x7AB45004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AB45001, 0x7AB45005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7AB45001, 0x7AB45006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AB45002, 24941, 0xAB450037, 149.3597, 163.9739, 13.68544, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */

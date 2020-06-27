@@ -5,22 +5,22 @@ VALUES (0x7AC63001,  1154, 0xAC630009, 38.0861, 18.77114, 20.3985, 0.9238795, 0,
 /* @teleloc 0xAC630009 [38.086100 18.771140 20.398500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC63001, 0x7AC63002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AC63001, 0x7AC63003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7AC63001, 0x7AC63004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AC63001, 0x7AC63005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7AC63001, 0x7AC63006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7AC63001, 0x7AC63007, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7AC63001, 0x7AC63008, '2019-02-10 00:00:00') /* Innocuous Doll */
-     , (0x7AC63001, 0x7AC63009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AC63001, 0x7AC6300A, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC63001, 0x7AC6300B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC63001, 0x7AC6300C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7AC63001, 0x7AC6300D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7AC63001, 0x7AC6300E, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7AC63001, 0x7AC6300F, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AC63001, 0x7AC63010, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7AC63001, 0x7AC63011, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x7AC63001, 0x7AC63002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AC63001, 0x7AC63003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7AC63001, 0x7AC63004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AC63001, 0x7AC63005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7AC63001, 0x7AC63006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7AC63001, 0x7AC63007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7AC63001, 0x7AC63008, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
+     , (0x7AC63001, 0x7AC63009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AC63001, 0x7AC6300A, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC63001, 0x7AC6300B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC63001, 0x7AC6300C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7AC63001, 0x7AC6300D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7AC63001, 0x7AC6300E, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7AC63001, 0x7AC6300F, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AC63001, 0x7AC63010, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7AC63001, 0x7AC63011, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC63002,   229, 0xAC630009, 38.0861, 18.77114, 20.3985, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -91,8 +91,8 @@ VALUES (0x7AC63012,  1542, 0xAC630009, 39.46405, 16.23713, 21.75175, 0.9990482, 
 /* @teleloc 0xAC630009 [39.464050 16.237130 21.751750] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC63012, 0x7AC63013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AC63012, 0x7AC63014, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7AC63012, 0x7AC63013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AC63012, 0x7AC63014, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC63013,  4179, 0xAC630009, 39.46405, 16.23713, 21.75175, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,35 +5,35 @@ VALUES (0x7CE91001,  1154, 0xCE910004, 19.0268, 79.56731, 13.79132, 0.9109423, 0
 /* @teleloc 0xCE910004 [19.026800 79.567310 13.791320] 0.910942 0.000000 0.000000 -0.412534 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE91001, 0x7CE91002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE91001, 0x7CE91003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CE91001, 0x7CE91004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CE91001, 0x7CE91005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE91008, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CE91001, 0x7CE91009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE9100A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE9100B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE9100C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE9100D, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CE91001, 0x7CE9100E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE91001, 0x7CE9100F, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91010, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91011, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91012, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE91001, 0x7CE91013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE91001, 0x7CE91014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CE91001, 0x7CE91015, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CE91001, 0x7CE91016, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91017, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE91018, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CE91001, 0x7CE91019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE91001, 0x7CE9101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE91001, 0x7CE9101B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CE91001, 0x7CE9101C, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CE91001, 0x7CE9101D, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CE91001, 0x7CE9101E, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7CE91001, 0x7CE91002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE91001, 0x7CE91003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CE91001, 0x7CE91004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CE91001, 0x7CE91005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE91008, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CE91001, 0x7CE91009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE9100A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE9100B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE9100C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE9100D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CE91001, 0x7CE9100E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE91001, 0x7CE9100F, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91010, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91011, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91012, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE91001, 0x7CE91013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE91001, 0x7CE91014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CE91001, 0x7CE91015, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CE91001, 0x7CE91016, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91017, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE91018, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CE91001, 0x7CE91019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE91001, 0x7CE9101A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE91001, 0x7CE9101B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CE91001, 0x7CE9101C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CE91001, 0x7CE9101D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CE91001, 0x7CE9101E, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE91002,  1630, 0xCE910004, 19.0268, 79.56731, 13.79132, 0.9109423, 0, 0, -0.4125338,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -156,8 +156,8 @@ VALUES (0x7CE9101F,  1542, 0xCE91001F, 95.62182, 159.9772, 15.96999, 0.3688821, 
 /* @teleloc 0xCE91001F [95.621820 159.977200 15.969990] 0.368882 0.000000 0.000000 -0.929476 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9101F, 0x7CE91020, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7CE9101F, 0x7CE91021, '2019-02-10 00:00:00') /* Top */;
+VALUES (0x7CE9101F, 0x7CE91020, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7CE9101F, 0x7CE91021, '2019-02-10 00:00:00') /* Top (41488) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE91020, 15715, 0xCE91001F, 95.62182, 159.9772, 15.96999, 0.3688821, 0, 0, -0.9294762,  True, '2019-02-10 00:00:00'); /* Sunflower */

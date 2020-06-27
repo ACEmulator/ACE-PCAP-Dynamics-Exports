@@ -5,12 +5,12 @@ VALUES (0x7B177001,  1154, 0xB1770020, 72.22095, 171.1692, 20.0025, 0.251654, 0,
 /* @teleloc 0xB1770020 [72.220950 171.169200 20.002500] 0.251654 0.000000 0.000000 -0.967817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B177001, 0x7B177002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B177001, 0x7B177003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B177001, 0x7B177004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B177001, 0x7B177005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B177001, 0x7B177006, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7B177001, 0x7B177007, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7B177001, 0x7B177002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B177001, 0x7B177003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B177001, 0x7B177004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B177001, 0x7B177005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B177001, 0x7B177006, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7B177001, 0x7B177007, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B177002,  8270, 0xB1770020, 72.22095, 171.1692, 20.0025, 0.251654, 0, 0, -0.9678172,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */

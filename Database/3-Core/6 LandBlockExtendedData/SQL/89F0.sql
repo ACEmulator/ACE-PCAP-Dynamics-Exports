@@ -5,10 +5,10 @@ VALUES (0x789F0001,  1154, 0x89F00033, 153.7247, 57.07256, 43.72286, 0.5138198, 
 /* @teleloc 0x89F00033 [153.724700 57.072560 43.722860] 0.513820 0.000000 0.000000 -0.857898 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x789F0001, 0x789F0002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x789F0001, 0x789F0003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x789F0001, 0x789F0004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x789F0001, 0x789F0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x789F0001, 0x789F0002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x789F0001, 0x789F0003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x789F0001, 0x789F0004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x789F0001, 0x789F0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x789F0002,  9252, 0x89F00033, 153.7247, 57.07256, 43.72286, 0.5138198, 0, 0, -0.8578982,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */

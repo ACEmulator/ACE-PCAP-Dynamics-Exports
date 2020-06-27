@@ -5,17 +5,17 @@ VALUES (0x72D19001,  1154, 0x2D190020, 80.47189, 177.7856, 45.46463, -0.5436215,
 /* @teleloc 0x2D190020 [80.471890 177.785600 45.464630] -0.543622 0.000000 0.000000 -0.839331 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D19001, 0x72D19002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72D19001, 0x72D19003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D19001, 0x72D19004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72D19001, 0x72D19005, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72D19001, 0x72D19006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D19001, 0x72D19007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D19001, 0x72D19008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72D19001, 0x72D19009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72D19001, 0x72D1900A, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72D19001, 0x72D1900B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D19001, 0x72D1900C, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x72D19001, 0x72D19002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72D19001, 0x72D19003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D19001, 0x72D19004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72D19001, 0x72D19005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72D19001, 0x72D19006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D19001, 0x72D19007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D19001, 0x72D19008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72D19001, 0x72D19009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72D19001, 0x72D1900A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72D19001, 0x72D1900B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D19001, 0x72D1900C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D19002,  7340, 0x2D190020, 80.47189, 177.7856, 45.46463, -0.5436215, 0, 0, -0.8393305,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -66,8 +66,8 @@ VALUES (0x72D1900D,  1542, 0x2D190007, 20.15873, 151.0747, 56, 1, 0, 0, 0, False
 /* @teleloc 0x2D190007 [20.158730 151.074700 56.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D1900D, 0x72D1900E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72D1900D, 0x72D1900F, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72D1900D, 0x72D1900E, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72D1900D, 0x72D1900F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D1900E, 22566, 0x2D190007, 20.15873, 151.0747, 56, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

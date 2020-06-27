@@ -5,10 +5,10 @@ VALUES (0x7ADC3001,  1154, 0xADC30027, 97.67834, 148.1087, 180.2797, -0.3089397,
 /* @teleloc 0xADC30027 [97.678340 148.108700 180.279700] -0.308940 0.000000 0.000000 -0.951082 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADC3001, 0x7ADC3002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7ADC3001, 0x7ADC3003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ADC3001, 0x7ADC3004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7ADC3001, 0x7ADC3005, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x7ADC3001, 0x7ADC3002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7ADC3001, 0x7ADC3003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ADC3001, 0x7ADC3004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7ADC3001, 0x7ADC3005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADC3002,  9400, 0xADC30027, 97.67834, 148.1087, 180.2797, -0.3089397, 0, 0, -0.9510816,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

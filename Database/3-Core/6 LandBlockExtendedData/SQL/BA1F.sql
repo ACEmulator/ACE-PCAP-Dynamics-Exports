@@ -5,11 +5,11 @@ VALUES (0x7BA1F001,  1154, 0xBA1F0017, 71.65997, 146.766, 203.8929, 0.5395023, 0
 /* @teleloc 0xBA1F0017 [71.659970 146.766000 203.892900] 0.539502 0.000000 0.000000 -0.841984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA1F001, 0x7BA1F002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA1F001, 0x7BA1F003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA1F001, 0x7BA1F004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA1F001, 0x7BA1F005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA1F001, 0x7BA1F006, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7BA1F001, 0x7BA1F002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA1F001, 0x7BA1F003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA1F001, 0x7BA1F004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA1F001, 0x7BA1F005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA1F001, 0x7BA1F006, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA1F002,  8141, 0xBA1F0017, 71.65997, 146.766, 203.8929, 0.5395023, 0, 0, -0.8419842,  True, '2019-02-10 00:00:00'); /* Lithos Raider */

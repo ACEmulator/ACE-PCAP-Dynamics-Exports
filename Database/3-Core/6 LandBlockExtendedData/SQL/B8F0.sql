@@ -5,24 +5,24 @@ VALUES (0x7B8F0001,  1154, 0xB8F0003A, 191.9892, 32.89192, 103.2738, 0.7432712, 
 /* @teleloc 0xB8F0003A [191.989200 32.891920 103.273800] 0.743271 0.000000 0.000000 -0.668990 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8F0001, 0x7B8F0002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F0003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8F0001, 0x7B8F0004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F0005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F0006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8F0001, 0x7B8F0007, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F0008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8F0001, 0x7B8F0009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F000A, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F000B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F000C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8F0001, 0x7B8F000D, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F000E, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F000F, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7B8F0001, 0x7B8F0010, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F0011, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8F0001, 0x7B8F0012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B8F0001, 0x7B8F0013, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x7B8F0001, 0x7B8F0002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8F0001, 0x7B8F0004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F0006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8F0001, 0x7B8F0007, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8F0001, 0x7B8F0009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F000A, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F000B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F000C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8F0001, 0x7B8F000D, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F000E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F000F, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0010, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F0011, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8F0001, 0x7B8F0012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8F0001, 0x7B8F0013, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8F0002,  7092, 0xB8F0003A, 191.9892, 32.89192, 103.2738, 0.7432712, 0, 0, -0.6689902,  True, '2019-02-10 00:00:00'); /* Firestorm */

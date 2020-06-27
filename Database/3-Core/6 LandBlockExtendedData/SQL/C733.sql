@@ -5,9 +5,9 @@ VALUES (0x7C733001,  1154, 0xC7330035, 144.499, 109.0394, 220.182, -0.8459293, 0
 /* @teleloc 0xC7330035 [144.499000 109.039400 220.182000] -0.845929 0.000000 0.000000 -0.533295 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C733001, 0x7C733002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C733001, 0x7C733003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7C733001, 0x7C733004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7C733001, 0x7C733002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C733001, 0x7C733003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7C733001, 0x7C733004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C733002,  4254, 0xC7330035, 144.499, 109.0394, 220.182, -0.8459293, 0, 0, -0.5332952,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

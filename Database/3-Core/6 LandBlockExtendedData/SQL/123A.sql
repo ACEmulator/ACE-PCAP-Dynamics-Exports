@@ -5,23 +5,23 @@ VALUES (0x7123A001,  1154, 0x123A000A, 40.46231, 30.33005, 20.27146, 0.2588191, 
 /* @teleloc 0x123A000A [40.462310 30.330050 20.271460] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7123A001, 0x7123A002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7123A001, 0x7123A003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7123A001, 0x7123A004, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7123A001, 0x7123A005, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7123A001, 0x7123A006, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7123A001, 0x7123A007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7123A001, 0x7123A008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7123A001, 0x7123A009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7123A001, 0x7123A00A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7123A001, 0x7123A00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7123A001, 0x7123A00C, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7123A001, 0x7123A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7123A001, 0x7123A00E, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7123A001, 0x7123A00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123A001, 0x7123A010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7123A001, 0x7123A011, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7123A001, 0x7123A012, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x7123A001, 0x7123A002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7123A001, 0x7123A003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7123A001, 0x7123A004, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7123A001, 0x7123A005, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7123A001, 0x7123A006, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7123A001, 0x7123A007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7123A001, 0x7123A008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7123A001, 0x7123A009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7123A001, 0x7123A00A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7123A001, 0x7123A00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7123A001, 0x7123A00C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7123A001, 0x7123A00D, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7123A001, 0x7123A00E, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7123A001, 0x7123A00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123A001, 0x7123A010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7123A001, 0x7123A011, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7123A001, 0x7123A012, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123A002, 36839, 0x123A000A, 40.46231, 30.33005, 20.27146, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

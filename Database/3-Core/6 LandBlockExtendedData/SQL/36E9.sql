@@ -5,24 +5,24 @@ VALUES (0x736E9001,  1154, 0x36E90007, 22.05901, 157.5963, 10.00679, 0.6199121, 
 /* @teleloc 0x36E90007 [22.059010 157.596300 10.006790] 0.619912 0.000000 0.000000 -0.784671 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736E9001, 0x736E9002, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x736E9001, 0x736E9003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x736E9001, 0x736E9004, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x736E9001, 0x736E9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x736E9001, 0x736E9006, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x736E9001, 0x736E9007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x736E9001, 0x736E9008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x736E9001, 0x736E9009, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x736E9001, 0x736E900A, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x736E9001, 0x736E900B, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736E9001, 0x736E900C, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736E9001, 0x736E900D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736E9001, 0x736E900E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x736E9001, 0x736E900F, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736E9001, 0x736E9010, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x736E9001, 0x736E9011, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x736E9001, 0x736E9012, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736E9001, 0x736E9013, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x736E9001, 0x736E9002, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x736E9001, 0x736E9003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x736E9001, 0x736E9004, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x736E9001, 0x736E9005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x736E9001, 0x736E9006, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x736E9001, 0x736E9007, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x736E9001, 0x736E9008, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x736E9001, 0x736E9009, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x736E9001, 0x736E900A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x736E9001, 0x736E900B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736E9001, 0x736E900C, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736E9001, 0x736E900D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736E9001, 0x736E900E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736E9001, 0x736E900F, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736E9001, 0x736E9010, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736E9001, 0x736E9011, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x736E9001, 0x736E9012, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736E9001, 0x736E9013, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736E9002, 28653, 0x36E90007, 22.05901, 157.5963, 10.00679, 0.6199121, 0, 0, -0.7846712,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */

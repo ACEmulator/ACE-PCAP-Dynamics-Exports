@@ -5,11 +5,11 @@ VALUES (0x74865001,  1154, 0x4865000B, 31.91222, 64.37006, -0.895, 0.5533604, 0,
 /* @teleloc 0x4865000B [31.912220 64.370060 -0.895000] 0.553360 0.000000 0.000000 -0.832942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74865001, 0x74865002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74865001, 0x74865003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74865001, 0x74865004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74865001, 0x74865005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74865001, 0x74865006, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x74865001, 0x74865002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74865001, 0x74865003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74865001, 0x74865004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74865001, 0x74865005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74865001, 0x74865006, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74865002, 23563, 0x4865000B, 31.91222, 64.37006, -0.895, 0.5533604, 0, 0, -0.8329419,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

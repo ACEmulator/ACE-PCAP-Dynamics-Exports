@@ -5,11 +5,11 @@ VALUES (0x7A680001,  1154, 0xA6800035, 159.935, 108.4575, 36.0025, -0.4332432, 0
 /* @teleloc 0xA6800035 [159.935000 108.457500 36.002500] -0.433243 0.000000 0.000000 -0.901277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A680001, 0x7A680002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A680001, 0x7A680003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A680001, 0x7A680004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A680001, 0x7A680005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A680001, 0x7A680006, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7A680001, 0x7A680002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A680001, 0x7A680003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A680001, 0x7A680004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A680001, 0x7A680005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A680001, 0x7A680006, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A680002,  1756, 0xA6800035, 159.935, 108.4575, 36.0025, -0.4332432, 0, 0, -0.9012771,  True, '2019-02-10 00:00:00'); /* Shadow Child */

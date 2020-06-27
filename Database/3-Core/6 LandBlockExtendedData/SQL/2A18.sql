@@ -5,15 +5,15 @@ VALUES (0x72A18001,  1154, 0x2A18002A, 126.1655, 35.37022, 52.85006, 0.3987491, 
 /* @teleloc 0x2A18002A [126.165500 35.370220 52.850060] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A18001, 0x72A18002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72A18001, 0x72A18003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72A18001, 0x72A18004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72A18001, 0x72A18005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72A18001, 0x72A18006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A18001, 0x72A18007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A18001, 0x72A18008, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72A18001, 0x72A18009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A18001, 0x72A1800A, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x72A18001, 0x72A18002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72A18001, 0x72A18003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72A18001, 0x72A18004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72A18001, 0x72A18005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72A18001, 0x72A18006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A18001, 0x72A18007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A18001, 0x72A18008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72A18001, 0x72A18009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A18001, 0x72A1800A, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A18002, 24326, 0x2A18002A, 126.1655, 35.37022, 52.85006, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -56,7 +56,7 @@ VALUES (0x72A1800B,  1542, 0x2A18002A, 127.7642, 30.65703, 54.32278, -4.371139E-
 /* @teleloc 0x2A18002A [127.764200 30.657030 54.322780] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A1800B, 0x72A1800C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72A1800B, 0x72A1800C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A1800C,  4380, 0x2A18002A, 127.7642, 30.65703, 54.32278, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

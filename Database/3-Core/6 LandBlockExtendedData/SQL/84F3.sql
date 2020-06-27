@@ -5,9 +5,9 @@ VALUES (0x784F3001,  1154, 0x84F30009, 27.98806, 23.0178, 100.5893, 0.9435116, 0
 /* @teleloc 0x84F30009 [27.988060 23.017800 100.589300] 0.943512 0.000000 0.000000 -0.331339 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784F3001, 0x784F3002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x784F3001, 0x784F3003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x784F3001, 0x784F3004, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x784F3001, 0x784F3002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x784F3001, 0x784F3003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x784F3001, 0x784F3004, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784F3002, 23617, 0x84F30009, 27.98806, 23.0178, 100.5893, 0.9435116, 0, 0, -0.3313394,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -26,7 +26,7 @@ VALUES (0x784F3005,  1542, 0x84F3000E, 47.54997, 141.6992, 113.7333, -0.980646, 
 /* @teleloc 0x84F3000E [47.549970 141.699200 113.733300] -0.980646 0.000000 0.000000 -0.195789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784F3005, 0x784F3006, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x784F3005, 0x784F3006, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784F3006, 11555, 0x84F3000E, 47.54997, 141.6992, 113.7333, -0.980646, 0, 0, -0.1957892,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

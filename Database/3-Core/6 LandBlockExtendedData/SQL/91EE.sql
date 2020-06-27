@@ -5,17 +5,17 @@ VALUES (0x791EE001,  1154, 0x91EE0038, 164.8247, 179.7674, 2.01, 0.01046551, 0, 
 /* @teleloc 0x91EE0038 [164.824700 179.767400 2.010000] 0.010466 0.000000 0.000000 -0.999945 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791EE001, 0x791EE002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x791EE001, 0x791EE003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x791EE001, 0x791EE004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x791EE001, 0x791EE005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x791EE001, 0x791EE006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x791EE001, 0x791EE007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x791EE001, 0x791EE008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x791EE001, 0x791EE009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x791EE001, 0x791EE00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x791EE001, 0x791EE00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x791EE001, 0x791EE00C, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x791EE001, 0x791EE002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791EE001, 0x791EE003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x791EE001, 0x791EE004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x791EE001, 0x791EE005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x791EE001, 0x791EE006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x791EE001, 0x791EE007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x791EE001, 0x791EE008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x791EE001, 0x791EE009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x791EE001, 0x791EE00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x791EE001, 0x791EE00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x791EE001, 0x791EE00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791EE002, 38177, 0x91EE0038, 164.8247, 179.7674, 2.01, 0.01046551, 0, 0, -0.9999452,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -66,7 +66,7 @@ VALUES (0x791EE00D,  1542, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0,
 /* @teleloc 0x91EE000E [42.640980 131.602900 1.553415] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791EE00D, 0x791EE00E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x791EE00D, 0x791EE00E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791EE00E, 22567, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

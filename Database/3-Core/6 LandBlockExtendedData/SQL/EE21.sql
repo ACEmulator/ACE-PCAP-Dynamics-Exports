@@ -5,28 +5,28 @@ VALUES (0x7EE21001,  1154, 0xEE210002, 17.6898, 42.30977, 18.0054, -0.9940223, 0
 /* @teleloc 0xEE210002 [17.689800 42.309770 18.005400] -0.994022 0.000000 0.000000 -0.109177 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EE21001, 0x7EE21002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE21001, 0x7EE21003, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EE21001, 0x7EE21004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE21005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE21006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE21007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE21008, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE21001, 0x7EE21009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE21001, 0x7EE2100A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EE21001, 0x7EE2100B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE2100C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE2100D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7EE21001, 0x7EE2100E, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EE21001, 0x7EE2100F, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EE21001, 0x7EE21010, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE21001, 0x7EE21011, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE21001, 0x7EE21012, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7EE21001, 0x7EE21013, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7EE21001, 0x7EE21014, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE21001, 0x7EE21015, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7EE21001, 0x7EE21016, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7EE21001, 0x7EE21017, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7EE21001, 0x7EE21002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE21001, 0x7EE21003, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EE21001, 0x7EE21004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE21005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE21006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE21007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE21008, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE21001, 0x7EE21009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE21001, 0x7EE2100A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EE21001, 0x7EE2100B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE2100C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE2100D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EE21001, 0x7EE2100E, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EE21001, 0x7EE2100F, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EE21001, 0x7EE21010, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE21001, 0x7EE21011, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE21001, 0x7EE21012, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7EE21001, 0x7EE21013, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7EE21001, 0x7EE21014, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE21001, 0x7EE21015, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7EE21001, 0x7EE21016, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE21001, 0x7EE21017, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE21002,  4247, 0xEE210002, 17.6898, 42.30977, 18.0054, -0.9940223, 0, 0, -0.1091774,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

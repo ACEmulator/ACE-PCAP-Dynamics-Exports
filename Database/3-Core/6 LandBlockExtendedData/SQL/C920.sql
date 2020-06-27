@@ -5,11 +5,11 @@ VALUES (0x7C920001,  1154, 0xC9200027, 112.0873, 149.8263, 114.604, -0.9981704, 
 /* @teleloc 0xC9200027 [112.087300 149.826300 114.604000] -0.998170 0.000000 0.000000 -0.060463 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C920001, 0x7C920002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7C920001, 0x7C920003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7C920001, 0x7C920004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7C920001, 0x7C920005, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x7C920001, 0x7C920006, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7C920001, 0x7C920002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7C920001, 0x7C920003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7C920001, 0x7C920004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7C920001, 0x7C920005, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x7C920001, 0x7C920006, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C920002,  7334, 0xC9200027, 112.0873, 149.8263, 114.604, -0.9981704, 0, 0, -0.06046268,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */

@@ -5,22 +5,22 @@ VALUES (0x75AA3001,  1154, 0x5AA30039, 188.8588, 18.03911, 41.73097, -0.4468239,
 /* @teleloc 0x5AA30039 [188.858800 18.039110 41.730970] -0.446824 0.000000 0.000000 -0.894622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA3001, 0x75AA3002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75AA3001, 0x75AA3003, '2019-02-10 00:00:00') /* Static */
-     , (0x75AA3001, 0x75AA3004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75AA3001, 0x75AA3005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75AA3001, 0x75AA3006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75AA3001, 0x75AA3007, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75AA3001, 0x75AA3008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75AA3001, 0x75AA3009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA3001, 0x75AA300A, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA3001, 0x75AA300B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA3001, 0x75AA300C, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75AA3001, 0x75AA300D, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75AA3001, 0x75AA300E, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x75AA3001, 0x75AA300F, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75AA3001, 0x75AA3010, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75AA3001, 0x75AA3011, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x75AA3001, 0x75AA3002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75AA3001, 0x75AA3003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75AA3001, 0x75AA3004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75AA3001, 0x75AA3005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75AA3001, 0x75AA3006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75AA3001, 0x75AA3007, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75AA3001, 0x75AA3008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75AA3001, 0x75AA3009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA3001, 0x75AA300A, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA3001, 0x75AA300B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA3001, 0x75AA300C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75AA3001, 0x75AA300D, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75AA3001, 0x75AA300E, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x75AA3001, 0x75AA300F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75AA3001, 0x75AA3010, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75AA3001, 0x75AA3011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA3002,  6380, 0x5AA30039, 188.8588, 18.03911, 41.73097, -0.4468239, 0, 0, -0.894622,  True, '2019-02-10 00:00:00'); /* Scintilla */

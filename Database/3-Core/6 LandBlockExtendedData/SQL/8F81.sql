@@ -5,9 +5,9 @@ VALUES (0x78F81001,  1154, 0x8F81000B, 27.51538, 58.95404, 46.30395, -0.8079495,
 /* @teleloc 0x8F81000B [27.515380 58.954040 46.303950] -0.807950 0.000000 0.000000 -0.589252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F81001, 0x78F81002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78F81001, 0x78F81003, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x78F81001, 0x78F81004, '2019-02-10 00:00:00') /* Dark Marionette */;
+VALUES (0x78F81001, 0x78F81002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78F81001, 0x78F81003, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x78F81001, 0x78F81004, '2019-02-10 00:00:00') /* Dark Marionette (9250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F81002,   195, 0x8F81000B, 27.51538, 58.95404, 46.30395, -0.8079495, 0, 0, -0.5892517,  True, '2019-02-10 00:00:00'); /* Granite Golem */

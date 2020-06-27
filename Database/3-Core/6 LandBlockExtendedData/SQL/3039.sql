@@ -5,18 +5,18 @@ VALUES (0x73039001,  1154, 0x30390022, 117.6233, 44.10391, 98.32243, 0.2495214, 
 /* @teleloc 0x30390022 [117.623300 44.103910 98.322430] 0.249521 0.000000 0.000000 -0.968369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73039001, 0x73039002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73039001, 0x73039003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73039001, 0x73039004, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73039001, 0x73039005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x73039001, 0x73039006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x73039001, 0x73039007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73039001, 0x73039008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73039001, 0x73039009, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x73039001, 0x7303900A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73039001, 0x7303900B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73039001, 0x7303900C, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x73039001, 0x7303900D, '2019-02-10 00:00:00') /* Tempest Wisp */;
+VALUES (0x73039001, 0x73039002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73039001, 0x73039003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73039001, 0x73039004, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73039001, 0x73039005, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x73039001, 0x73039006, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x73039001, 0x73039007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73039001, 0x73039008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x73039001, 0x73039009, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x73039001, 0x7303900A, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x73039001, 0x7303900B, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73039001, 0x7303900C, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x73039001, 0x7303900D, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73039002, 38180, 0x30390022, 117.6233, 44.10391, 98.32243, 0.2495214, 0, 0, -0.9683693,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -71,7 +71,7 @@ VALUES (0x7303900E,  1542, 0x30390022, 96.90457, 41.34145, 94.44565, 1, 0, 0, 0,
 /* @teleloc 0x30390022 [96.904570 41.341450 94.445650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7303900E, 0x7303900F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7303900E, 0x7303900F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7303900F, 22566, 0x30390022, 96.90457, 41.34145, 94.44565, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

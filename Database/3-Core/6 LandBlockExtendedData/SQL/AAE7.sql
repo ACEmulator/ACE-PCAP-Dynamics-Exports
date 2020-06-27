@@ -5,12 +5,12 @@ VALUES (0x7AAE7001,  1154, 0xAAE70021, 103.6977, 13.10086, 12.91826, -0.03825927
 /* @teleloc 0xAAE70021 [103.697700 13.100860 12.918260] -0.038259 0.000000 0.000000 -0.999268 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAE7001, 0x7AAE7002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7AAE7001, 0x7AAE7003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AAE7001, 0x7AAE7004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AAE7001, 0x7AAE7005, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7AAE7001, 0x7AAE7006, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7AAE7001, 0x7AAE7007, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7AAE7001, 0x7AAE7002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7AAE7001, 0x7AAE7003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AAE7001, 0x7AAE7004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AAE7001, 0x7AAE7005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7AAE7001, 0x7AAE7006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7AAE7001, 0x7AAE7007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAE7002,   199, 0xAAE70021, 103.6977, 13.10086, 12.91826, -0.03825927, 0, 0, -0.9992678,  True, '2019-02-10 00:00:00'); /* Magma Golem */

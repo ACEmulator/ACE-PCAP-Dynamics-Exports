@@ -5,19 +5,19 @@ VALUES (0x720BC001,  1154, 0x20BC001E, 72.71204, 124.9643, 102.183, 1, 0, 0, 0, 
 /* @teleloc 0x20BC001E [72.712040 124.964300 102.183000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BC001, 0x720BC002, '2019-02-10 00:00:00') /* Cultist */
-     , (0x720BC001, 0x720BC003, '2019-02-10 00:00:00') /* Poacher */
-     , (0x720BC001, 0x720BC004, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x720BC001, 0x720BC005, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x720BC001, 0x720BC006, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x720BC001, 0x720BC007, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x720BC001, 0x720BC008, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x720BC001, 0x720BC009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x720BC001, 0x720BC00A, '2019-02-10 00:00:00') /* Cultist */
-     , (0x720BC001, 0x720BC00B, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x720BC001, 0x720BC00C, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x720BC001, 0x720BC00D, '2019-02-10 00:00:00') /* Cultist */
-     , (0x720BC001, 0x720BC00E, '2019-02-10 00:00:00') /* Aun Nualuan */;
+VALUES (0x720BC001, 0x720BC002, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x720BC001, 0x720BC003, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x720BC001, 0x720BC004, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x720BC001, 0x720BC005, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x720BC001, 0x720BC006, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x720BC001, 0x720BC007, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x720BC001, 0x720BC008, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x720BC001, 0x720BC009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x720BC001, 0x720BC00A, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x720BC001, 0x720BC00B, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x720BC001, 0x720BC00C, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x720BC001, 0x720BC00D, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x720BC001, 0x720BC00E, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BC002, 11501, 0x20BC001E, 72.71204, 124.9643, 102.183, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist */
@@ -76,14 +76,14 @@ VALUES (0x720BC00F,  1542, 0x20BC002E, 141.3666, 127.1195, 107.7176, 1, 0, 0, 0,
 /* @teleloc 0x20BC002E [141.366600 127.119500 107.717600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BC00F, 0x720BC010, '2019-02-10 00:00:00') /* Small Hive Portal */
-     , (0x720BC00F, 0x720BC011, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x720BC00F, 0x720BC012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BC00F, 0x720BC013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x720BC00F, 0x720BC014, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x720BC00F, 0x720BC015, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x720BC00F, 0x720BC016, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x720BC00F, 0x720BC017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x720BC00F, 0x720BC010, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */
+     , (0x720BC00F, 0x720BC011, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x720BC00F, 0x720BC012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BC00F, 0x720BC013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x720BC00F, 0x720BC014, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x720BC00F, 0x720BC015, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x720BC00F, 0x720BC016, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x720BC00F, 0x720BC017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BC010, 11221, 0x20BC002E, 141.3666, 127.1195, 107.7176, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

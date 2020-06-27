@@ -5,16 +5,16 @@ VALUES (0x758D3001,  1154, 0x58D3000C, 35.04047, 92.98044, 51.02495, 0.1905765, 
 /* @teleloc 0x58D3000C [35.040470 92.980440 51.024950] 0.190577 0.000000 0.000000 -0.981672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758D3001, 0x758D3002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x758D3001, 0x758D3003, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x758D3001, 0x758D3004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x758D3001, 0x758D3005, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x758D3001, 0x758D3006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x758D3001, 0x758D3007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x758D3001, 0x758D3008, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x758D3001, 0x758D3009, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x758D3001, 0x758D300A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758D3001, 0x758D300B, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x758D3001, 0x758D3002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x758D3001, 0x758D3003, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x758D3001, 0x758D3004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x758D3001, 0x758D3005, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x758D3001, 0x758D3006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x758D3001, 0x758D3007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x758D3001, 0x758D3008, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x758D3001, 0x758D3009, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x758D3001, 0x758D300A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758D3001, 0x758D300B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758D3002, 10810, 0x58D3000C, 35.04047, 92.98044, 51.02495, 0.1905765, 0, 0, -0.9816723,  True, '2019-02-10 00:00:00'); /* Rampager */

@@ -5,11 +5,11 @@ VALUES (0x78EC6001,  1154, 0x8EC60028, 119.2875, 181.2605, 77.80191, 0.9717037, 
 /* @teleloc 0x8EC60028 [119.287500 181.260500 77.801910] 0.971704 0.000000 0.000000 -0.236203 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EC6001, 0x78EC6002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EC6001, 0x78EC6003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78EC6001, 0x78EC6004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EC6001, 0x78EC6005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78EC6001, 0x78EC6006, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x78EC6001, 0x78EC6002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EC6001, 0x78EC6003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78EC6001, 0x78EC6004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EC6001, 0x78EC6005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78EC6001, 0x78EC6006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EC6002,  7105, 0x8EC60028, 119.2875, 181.2605, 77.80191, 0.9717037, 0, 0, -0.2362031,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

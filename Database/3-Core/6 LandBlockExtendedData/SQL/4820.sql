@@ -5,14 +5,14 @@ VALUES (0x74820001,  1154, 0x48200033, 156.5707, 53.61153, 78.94026, 0.5604928, 
 /* @teleloc 0x48200033 [156.570700 53.611530 78.940260] 0.560493 0.000000 0.000000 -0.828159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74820001, 0x74820002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74820001, 0x74820003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x74820001, 0x74820004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74820001, 0x74820005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74820001, 0x74820006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74820001, 0x74820007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x74820001, 0x74820008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74820001, 0x74820009, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x74820001, 0x74820002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74820001, 0x74820003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x74820001, 0x74820004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74820001, 0x74820005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74820001, 0x74820006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74820001, 0x74820007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x74820001, 0x74820008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74820001, 0x74820009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74820002, 23563, 0x48200033, 156.5707, 53.61153, 78.94026, 0.5604928, 0, 0, -0.8281593,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -51,7 +51,7 @@ VALUES (0x7482000A,  1542, 0x48200033, 165.4455, 57.12109, 79.52019, -4.371139E-
 /* @teleloc 0x48200033 [165.445500 57.121090 79.520190] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482000A, 0x7482000B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7482000A, 0x7482000B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482000B,  4380, 0x48200033, 165.4455, 57.12109, 79.52019, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

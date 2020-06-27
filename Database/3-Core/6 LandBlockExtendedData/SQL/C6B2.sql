@@ -9,27 +9,27 @@ VALUES (0x7C6B2001,  1154, 0xC6B20031, 164.4531, 9.821417, 323.138, -0.08715577,
 /* @teleloc 0xC6B20031 [164.453100 9.821417 323.138000] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C6B2001, 0x7C6B2002, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C6B2001, 0x7C6B2003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C6B2001, 0x7C6B2005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7C6B2001, 0x7C6B2006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C6B2001, 0x7C6B2007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2008, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C6B2001, 0x7C6B2009, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B200A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C6B2001, 0x7C6B200B, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C6B2001, 0x7C6B200C, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B200D, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B200E, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C6B2001, 0x7C6B200F, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2010, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2011, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2012, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2013, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C6B2001, 0x7C6B2014, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C6B2001, 0x7C6B2015, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C6B2001, 0x7C6B2016, '2019-02-10 00:00:00') /* Dread Mattekar */;
+VALUES (0x7C6B2001, 0x7C6B2002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C6B2001, 0x7C6B2003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C6B2001, 0x7C6B2005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7C6B2001, 0x7C6B2006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C6B2001, 0x7C6B2007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2008, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C6B2001, 0x7C6B2009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B200A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C6B2001, 0x7C6B200B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C6B2001, 0x7C6B200C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B200D, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B200E, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C6B2001, 0x7C6B200F, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2010, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2011, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2012, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2013, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C6B2001, 0x7C6B2014, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C6B2001, 0x7C6B2015, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C6B2001, 0x7C6B2016, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C6B2002,  2582, 0xC6B20031, 164.4531, 9.821417, 323.138, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Great Mattekar */

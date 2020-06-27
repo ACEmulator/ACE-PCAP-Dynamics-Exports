@@ -5,9 +5,9 @@ VALUES (0x72E81001,  1154, 0x2E81001E, 86.41706, 143.8974, 29.60171, 0.07704538,
 /* @teleloc 0x2E81001E [86.417060 143.897400 29.601710] 0.077045 0.000000 0.000000 -0.997028 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E81001, 0x72E81002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x72E81001, 0x72E81003, '2019-02-10 00:00:00') /* Frost */
-     , (0x72E81001, 0x72E81004, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x72E81001, 0x72E81002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x72E81001, 0x72E81003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72E81001, 0x72E81004, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E81002, 24281, 0x2E81001E, 86.41706, 143.8974, 29.60171, 0.07704538, 0, 0, -0.9970276,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

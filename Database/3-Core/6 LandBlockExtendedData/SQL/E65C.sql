@@ -5,12 +5,12 @@ VALUES (0x7E65C001,  1154, 0xE65C001C, 93.55315, 76.25828, -0.08949995, -0.83284
 /* @teleloc 0xE65C001C [93.553150 76.258280 -0.089500] -0.832848 0.000000 0.000000 -0.553502 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E65C001, 0x7E65C002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E65C001, 0x7E65C003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E65C001, 0x7E65C004, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E65C001, 0x7E65C005, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E65C001, 0x7E65C006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E65C001, 0x7E65C007, '2019-02-10 00:00:00') /* Ashen Moarsman */;
+VALUES (0x7E65C001, 0x7E65C002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E65C001, 0x7E65C003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E65C001, 0x7E65C004, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E65C001, 0x7E65C005, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E65C001, 0x7E65C006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E65C001, 0x7E65C007, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E65C002,  7082, 0xE65C001C, 93.55315, 76.25828, -0.08949995, -0.8328476, 0, 0, -0.5535024,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

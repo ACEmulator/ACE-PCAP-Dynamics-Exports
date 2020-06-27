@@ -5,25 +5,25 @@ VALUES (0x7112D001,  1154, 0x112D001E, 90.7213, 138.7127, -0.09, 0.9646018, 0, 0
 /* @teleloc 0x112D001E [90.721300 138.712700 -0.090000] 0.964602 0.000000 0.000000 -0.263711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7112D001, 0x7112D002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7112D001, 0x7112D003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7112D001, 0x7112D004, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7112D001, 0x7112D005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7112D001, 0x7112D006, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7112D001, 0x7112D007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7112D001, 0x7112D008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7112D001, 0x7112D009, '2019-02-10 00:00:00') /* Diamond Golem Suzerain */
-     , (0x7112D001, 0x7112D00A, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7112D001, 0x7112D00B, '2019-02-10 00:00:00') /* Synnast */
-     , (0x7112D001, 0x7112D00C, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7112D001, 0x7112D00D, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7112D001, 0x7112D00E, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7112D001, 0x7112D00F, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7112D001, 0x7112D010, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7112D001, 0x7112D011, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7112D001, 0x7112D012, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7112D001, 0x7112D013, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7112D001, 0x7112D014, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x7112D001, 0x7112D002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7112D001, 0x7112D003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7112D001, 0x7112D004, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7112D001, 0x7112D005, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7112D001, 0x7112D006, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7112D001, 0x7112D007, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x7112D001, 0x7112D008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7112D001, 0x7112D009, '2019-02-10 00:00:00') /* Diamond Golem Suzerain (19543) */
+     , (0x7112D001, 0x7112D00A, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7112D001, 0x7112D00B, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x7112D001, 0x7112D00C, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7112D001, 0x7112D00D, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7112D001, 0x7112D00E, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7112D001, 0x7112D00F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7112D001, 0x7112D010, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7112D001, 0x7112D011, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7112D001, 0x7112D012, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7112D001, 0x7112D013, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7112D001, 0x7112D014, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7112D002, 14520, 0x112D001E, 90.7213, 138.7127, -0.09, 0.9646018, 0, 0, -0.2637107,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -106,8 +106,8 @@ VALUES (0x7112D015,  1542, 0x112D0034, 167.6049, 76.31489, -0.09999999, 1, 0, 0,
 /* @teleloc 0x112D0034 [167.604900 76.314890 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7112D015, 0x7112D016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7112D015, 0x7112D017, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7112D015, 0x7112D016, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7112D015, 0x7112D017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7112D016, 22566, 0x112D0034, 167.6049, 76.31489, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

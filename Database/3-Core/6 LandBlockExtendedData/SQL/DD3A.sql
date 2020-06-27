@@ -5,18 +5,18 @@ VALUES (0x7DD3A001,  1154, 0xDD3A0003, 8.667778, 71.33022, 14, -0.9999584, 0, 0,
 /* @teleloc 0xDD3A0003 [8.667778 71.330220 14.000000] -0.999958 0.000000 0.000000 -0.009123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD3A001, 0x7DD3A002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7DD3A001, 0x7DD3A003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7DD3A001, 0x7DD3A004, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DD3A001, 0x7DD3A005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DD3A001, 0x7DD3A006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DD3A001, 0x7DD3A007, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7DD3A001, 0x7DD3A008, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7DD3A001, 0x7DD3A009, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DD3A001, 0x7DD3A00A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DD3A001, 0x7DD3A00B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7DD3A001, 0x7DD3A00C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7DD3A001, 0x7DD3A00D, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7DD3A001, 0x7DD3A002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7DD3A001, 0x7DD3A003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7DD3A001, 0x7DD3A004, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DD3A001, 0x7DD3A005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DD3A001, 0x7DD3A006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DD3A001, 0x7DD3A007, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7DD3A001, 0x7DD3A008, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7DD3A001, 0x7DD3A009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DD3A001, 0x7DD3A00A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DD3A001, 0x7DD3A00B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7DD3A001, 0x7DD3A00C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7DD3A001, 0x7DD3A00D, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD3A002,  1989, 0xDD3A0003, 8.667778, 71.33022, 14, -0.9999584, 0, 0, -0.009123111,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -71,8 +71,8 @@ VALUES (0x7DD3A00E,  1542, 0xDD3A001D, 95.26813, 108.1721, 21.01434, 0.9990482, 
 /* @teleloc 0xDD3A001D [95.268130 108.172100 21.014340] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD3A00E, 0x7DD3A00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7DD3A00E, 0x7DD3A010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7DD3A00E, 0x7DD3A00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7DD3A00E, 0x7DD3A010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD3A00F,  4179, 0xDD3A001D, 95.26813, 108.1721, 21.01434, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

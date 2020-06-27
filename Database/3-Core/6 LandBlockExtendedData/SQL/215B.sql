@@ -5,9 +5,9 @@ VALUES (0x7215B001,  1154, 0x215B001E, 80.44129, 127.9258, 0.709941, -0.990359, 
 /* @teleloc 0x215B001E [80.441290 127.925800 0.709941] -0.990359 0.000000 0.000000 -0.138525 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215B001, 0x7215B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7215B001, 0x7215B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7215B001, 0x7215B004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7215B001, 0x7215B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7215B001, 0x7215B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7215B001, 0x7215B004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215B002,  7119, 0x215B001E, 80.44129, 127.9258, 0.709941, -0.990359, 0, 0, -0.1385246,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -26,8 +26,8 @@ VALUES (0x7215B005,  1542, 0x215B002E, 132.1018, 135.9481, 6.674984, 1, 0, 0, 0,
 /* @teleloc 0x215B002E [132.101800 135.948100 6.674984] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7215B005, 0x7215B006, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7215B005, 0x7215B007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7215B005, 0x7215B006, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7215B005, 0x7215B007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7215B006, 22567, 0x215B002E, 132.1018, 135.9481, 6.674984, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

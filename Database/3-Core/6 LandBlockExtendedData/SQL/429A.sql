@@ -5,11 +5,11 @@ VALUES (0x7429A001,  1154, 0x429A0028, 98.8144, 169.5465, 8.99056, -0.7417116, 0
 /* @teleloc 0x429A0028 [98.814400 169.546500 8.990560] -0.741712 0.000000 0.000000 -0.670719 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7429A001, 0x7429A002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7429A001, 0x7429A003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7429A001, 0x7429A004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7429A001, 0x7429A005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7429A001, 0x7429A006, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7429A001, 0x7429A002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7429A001, 0x7429A003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7429A001, 0x7429A004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7429A001, 0x7429A005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7429A001, 0x7429A006, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7429A002,   228, 0x429A0028, 98.8144, 169.5465, 8.99056, -0.7417116, 0, 0, -0.670719,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -36,7 +36,7 @@ VALUES (0x7429A007,  1542, 0x429A0028, 98.51178, 169.295, 8.85029, 1, 0, 0, 0, F
 /* @teleloc 0x429A0028 [98.511780 169.295000 8.850290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7429A007, 0x7429A008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7429A007, 0x7429A008, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7429A008, 22567, 0x429A0028, 98.51178, 169.295, 8.85029, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

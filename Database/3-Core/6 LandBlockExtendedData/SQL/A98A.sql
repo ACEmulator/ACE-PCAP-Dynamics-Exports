@@ -5,12 +5,12 @@ VALUES (0x7A98A001,  1154, 0xA98A0034, 146.9838, 83.74662, 36.25865, -0.651608, 
 /* @teleloc 0xA98A0034 [146.983800 83.746620 36.258650] -0.651608 0.000000 0.000000 -0.758556 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A98A001, 0x7A98A002, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7A98A001, 0x7A98A003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A98A001, 0x7A98A004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A98A001, 0x7A98A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7A98A001, 0x7A98A006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A98A001, 0x7A98A007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7A98A001, 0x7A98A002, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7A98A001, 0x7A98A003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A98A001, 0x7A98A004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A98A001, 0x7A98A005, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7A98A001, 0x7A98A006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A98A001, 0x7A98A007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A98A002,     5, 0xA98A0034, 146.9838, 83.74662, 36.25865, -0.651608, 0, 0, -0.7585558,  True, '2019-02-10 00:00:00'); /* Laigus Lugian */

@@ -5,23 +5,23 @@ VALUES (0x77A9A001,  1154, 0x7A9A000A, 33.7666, 34.46798, 173.9334, -0.5807581, 
 /* @teleloc 0x7A9A000A [33.766600 34.467980 173.933400] -0.580758 0.000000 0.000000 -0.814076 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A9A001, 0x77A9A002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77A9A001, 0x77A9A003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77A9A001, 0x77A9A004, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77A9A001, 0x77A9A005, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x77A9A001, 0x77A9A006, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x77A9A001, 0x77A9A007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77A9A001, 0x77A9A008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77A9A001, 0x77A9A009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77A9A001, 0x77A9A00A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77A9A001, 0x77A9A00B, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x77A9A001, 0x77A9A00C, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77A9A001, 0x77A9A00D, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x77A9A001, 0x77A9A00E, '2019-02-10 00:00:00') /* Old Zombie */
-     , (0x77A9A001, 0x77A9A00F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77A9A001, 0x77A9A010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77A9A001, 0x77A9A011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77A9A001, 0x77A9A012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x77A9A001, 0x77A9A002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77A9A001, 0x77A9A003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77A9A001, 0x77A9A004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77A9A001, 0x77A9A005, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x77A9A001, 0x77A9A006, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x77A9A001, 0x77A9A007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77A9A001, 0x77A9A008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77A9A001, 0x77A9A009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77A9A001, 0x77A9A00A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77A9A001, 0x77A9A00B, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x77A9A001, 0x77A9A00C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77A9A001, 0x77A9A00D, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x77A9A001, 0x77A9A00E, '2019-02-10 00:00:00') /* Old Zombie (34102) */
+     , (0x77A9A001, 0x77A9A00F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77A9A001, 0x77A9A010, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77A9A001, 0x77A9A011, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77A9A001, 0x77A9A012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A9A002,   217, 0x7A9A000A, 33.7666, 34.46798, 173.9334, -0.5807581, 0, 0, -0.8140762,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -96,8 +96,8 @@ VALUES (0x77A9A013,  1542, 0x7A9A0035, 161.7108, 119.9385, 224, 0.5654852, 0, 0,
 /* @teleloc 0x7A9A0035 [161.710800 119.938500 224.000000] 0.565485 0.000000 0.000000 -0.824758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77A9A013, 0x77A9A014, '2019-02-10 00:00:00') /* Old Gravestone */
-     , (0x77A9A013, 0x77A9A015, '2019-02-10 00:00:00') /* Candy Corn */;
+VALUES (0x77A9A013, 0x77A9A014, '2019-02-10 00:00:00') /* Old Gravestone (34130) */
+     , (0x77A9A013, 0x77A9A015, '2019-02-10 00:00:00') /* Candy Corn (32207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A9A014, 34130, 0x7A9A0035, 161.7108, 119.9385, 224, 0.5654852, 0, 0, -0.8247584,  True, '2019-02-10 00:00:00'); /* Old Gravestone */

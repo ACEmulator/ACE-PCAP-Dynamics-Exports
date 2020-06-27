@@ -5,12 +5,12 @@ VALUES (0x7D951001,  1154, 0xD951003B, 173.7286, 55.65222, 26.88913, 0.04939698,
 /* @teleloc 0xD951003B [173.728600 55.652220 26.889130] 0.049397 0.000000 0.000000 -0.998779 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D951001, 0x7D951002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D951001, 0x7D951003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D951001, 0x7D951004, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D951001, 0x7D951005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D951001, 0x7D951006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7D951001, 0x7D951007, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7D951001, 0x7D951002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D951001, 0x7D951003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D951001, 0x7D951004, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D951001, 0x7D951005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D951001, 0x7D951006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D951001, 0x7D951007, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D951002,   940, 0xD951003B, 173.7286, 55.65222, 26.88913, 0.04939698, 0, 0, -0.9987792,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */

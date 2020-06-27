@@ -5,63 +5,63 @@ VALUES (0x71D12001,  1154, 0x1D12002E, 128.696, 129.551, -0.09000003, 0.4888327,
 /* @teleloc 0x1D12002E [128.696000 129.551000 -0.090000] 0.488833 0.000000 0.000000 0.872378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D12001, 0x71D12002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12003, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12004, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12005, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12006, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12007, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12008, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12009, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1200A, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1200B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1200C, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D1200D, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D1200E, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1200F, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12010, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12011, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12012, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12013, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12014, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12015, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12016, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12017, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12018, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12019, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1201A, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D1201B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1201C, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1201D, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1201E, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1201F, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12020, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12021, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12022, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12023, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12024, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12025, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12026, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12027, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12028, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12029, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1202A, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1202B, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1202C, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1202D, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1202E, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D1202F, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12030, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12031, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12032, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12033, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12034, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12035, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12036, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12037, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D12038, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71D12001, 0x71D12039, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71D12001, 0x71D1203A, '2019-02-10 00:00:00') /* Withered Raider Justicar */;
+VALUES (0x71D12001, 0x71D12002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12004, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12006, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12007, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12008, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12009, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1200A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1200B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1200C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D1200D, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D1200E, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1200F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12010, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12011, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12012, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12013, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12014, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12015, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12016, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12017, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12018, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12019, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1201A, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D1201B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1201C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1201D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1201E, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1201F, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12020, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12021, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12022, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12023, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12024, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12025, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12026, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12027, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12028, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12029, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1202A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1202B, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1202C, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1202D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1202E, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D1202F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12030, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12031, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12032, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12033, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12034, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12035, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12036, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12037, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D12038, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71D12001, 0x71D12039, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71D12001, 0x71D1203A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D12002, 35833, 0x1D12002E, 128.696, 129.551, -0.09000003, 0.4888327, 0, 0, 0.8723775,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
@@ -296,9 +296,9 @@ VALUES (0x71D1203B,  1542, 0x1D120035, 164.0269, 104.4167, -0.9629999, -0.863930
 /* @teleloc 0x1D120035 [164.026900 104.416700 -0.963000] -0.863931 0.000000 0.000000 -0.503611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D1203B, 0x71D1203C, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71D1203B, 0x71D1203D, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71D1203B, 0x71D1203E, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x71D1203B, 0x71D1203C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71D1203B, 0x71D1203D, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71D1203B, 0x71D1203E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D1203C,  1955, 0x1D120035, 164.0269, 104.4167, -0.9629999, -0.8639305, 0, 0, -0.5036111,  True, '2019-02-10 00:00:00'); /* Gateway */

@@ -5,10 +5,10 @@ VALUES (0x7A9C7001,  1154, 0xA9C70026, 96.67453, 121.7104, 108.5249, -0.9985194,
 /* @teleloc 0xA9C70026 [96.674530 121.710400 108.524900] -0.998519 0.000000 0.000000 -0.054397 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9C7001, 0x7A9C7002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7A9C7001, 0x7A9C7003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A9C7001, 0x7A9C7004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A9C7001, 0x7A9C7005, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x7A9C7001, 0x7A9C7002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7A9C7001, 0x7A9C7003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A9C7001, 0x7A9C7004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A9C7001, 0x7A9C7005, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9C7002,  7128, 0xA9C70026, 96.67453, 121.7104, 108.5249, -0.9985194, 0, 0, -0.05439733,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -31,7 +31,7 @@ VALUES (0x7A9C7006,  1542, 0xA9C7003E, 190.2401, 125.6285, 135.7067, 1, 0, 0, 0,
 /* @teleloc 0xA9C7003E [190.240100 125.628500 135.706700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9C7006, 0x7A9C7007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A9C7006, 0x7A9C7007, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9C7007, 22576, 0xA9C7003E, 190.2401, 125.6285, 135.7067, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

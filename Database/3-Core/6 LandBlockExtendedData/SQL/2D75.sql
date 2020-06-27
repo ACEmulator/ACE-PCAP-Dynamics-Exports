@@ -5,22 +5,22 @@ VALUES (0x72D75001,  1154, 0x2D750023, 114.8979, 57.06984, 139.915, 0.9473355, 0
 /* @teleloc 0x2D750023 [114.897900 57.069840 139.915000] 0.947336 0.000000 0.000000 -0.320243 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D75001, 0x72D75002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D75001, 0x72D75003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72D75001, 0x72D75004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D75001, 0x72D75005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D75001, 0x72D75006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D75001, 0x72D75007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D75001, 0x72D75008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D75001, 0x72D75009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72D75001, 0x72D7500A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72D75001, 0x72D7500B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72D75001, 0x72D7500C, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72D75001, 0x72D7500D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72D75001, 0x72D7500E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D75001, 0x72D7500F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72D75001, 0x72D75010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D75001, 0x72D75011, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x72D75001, 0x72D75002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D75001, 0x72D75003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D75001, 0x72D75004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D75001, 0x72D75005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D75001, 0x72D75006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D75001, 0x72D75007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D75001, 0x72D75008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D75001, 0x72D75009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D75001, 0x72D7500A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72D75001, 0x72D7500B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72D75001, 0x72D7500C, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72D75001, 0x72D7500D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72D75001, 0x72D7500E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D75001, 0x72D7500F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72D75001, 0x72D75010, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72D75001, 0x72D75011, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D75002, 36830, 0x2D750023, 114.8979, 57.06984, 139.915, 0.9473355, 0, 0, -0.3202426,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -91,7 +91,7 @@ VALUES (0x72D75012,  1542, 0x2D75003D, 184.925, 111.7109, 148.0058, 1, 0, 0, 0, 
 /* @teleloc 0x2D75003D [184.925000 111.710900 148.005800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D75012, 0x72D75013, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72D75012, 0x72D75013, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D75013,  4380, 0x2D75003D, 184.925, 111.7109, 148.0058, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

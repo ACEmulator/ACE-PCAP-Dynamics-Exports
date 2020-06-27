@@ -5,12 +5,12 @@ VALUES (0x762E7001,  1154, 0x62E7003D, 181.9559, 112.2681, 66.51817, 0.2588191, 
 /* @teleloc 0x62E7003D [181.955900 112.268100 66.518170] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x762E7001, 0x762E7002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x762E7001, 0x762E7003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x762E7001, 0x762E7004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x762E7001, 0x762E7005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x762E7001, 0x762E7006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x762E7001, 0x762E7007, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x762E7001, 0x762E7002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x762E7001, 0x762E7003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x762E7001, 0x762E7004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x762E7001, 0x762E7005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x762E7001, 0x762E7006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x762E7001, 0x762E7007, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x762E7002, 24277, 0x62E7003D, 181.9559, 112.2681, 66.51817, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

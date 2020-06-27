@@ -5,18 +5,18 @@ VALUES (0x7AFCF001,  1154, 0xAFCF000E, 45.11136, 136.8707, 82.09823, 0.2588191, 
 /* @teleloc 0xAFCF000E [45.111360 136.870700 82.098230] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFCF001, 0x7AFCF002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AFCF001, 0x7AFCF003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AFCF001, 0x7AFCF004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7AFCF001, 0x7AFCF005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7AFCF001, 0x7AFCF006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AFCF001, 0x7AFCF007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AFCF001, 0x7AFCF008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AFCF001, 0x7AFCF009, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AFCF001, 0x7AFCF00A, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AFCF001, 0x7AFCF00B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7AFCF001, 0x7AFCF00C, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7AFCF001, 0x7AFCF00D, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x7AFCF001, 0x7AFCF002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AFCF001, 0x7AFCF003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AFCF001, 0x7AFCF004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7AFCF001, 0x7AFCF005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7AFCF001, 0x7AFCF006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AFCF001, 0x7AFCF007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AFCF001, 0x7AFCF008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AFCF001, 0x7AFCF009, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AFCF001, 0x7AFCF00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AFCF001, 0x7AFCF00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7AFCF001, 0x7AFCF00C, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x7AFCF001, 0x7AFCF00D, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFCF002, 24294, 0xAFCF000E, 45.11136, 136.8707, 82.09823, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

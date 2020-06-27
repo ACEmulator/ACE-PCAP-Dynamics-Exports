@@ -5,9 +5,9 @@ VALUES (0x717B9001,  1154, 0x17B9000F, 34.32998, 159.8128, 22.005, 0.4245333, 0,
 /* @teleloc 0x17B9000F [34.329980 159.812800 22.005000] 0.424533 0.000000 0.000000 -0.905412 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B9001, 0x717B9002, '2019-02-10 00:00:00') /* Assassin */
-     , (0x717B9001, 0x717B9003, '2019-02-10 00:00:00') /* Assassin */
-     , (0x717B9001, 0x717B9004, '2019-02-10 00:00:00') /* Assassin */;
+VALUES (0x717B9001, 0x717B9002, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x717B9001, 0x717B9003, '2019-02-10 00:00:00') /* Assassin (11498) */
+     , (0x717B9001, 0x717B9004, '2019-02-10 00:00:00') /* Assassin (11498) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B9002, 11498, 0x17B9000F, 34.32998, 159.8128, 22.005, 0.4245333, 0, 0, -0.9054123,  True, '2019-02-10 00:00:00'); /* Assassin */
@@ -26,8 +26,8 @@ VALUES (0x717B9005,  1542, 0x17B9000F, 35.94634, 159.4188, 22.06, 1, 0, 0, 0, Fa
 /* @teleloc 0x17B9000F [35.946340 159.418800 22.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x717B9005, 0x717B9006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x717B9005, 0x717B9007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x717B9005, 0x717B9006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x717B9005, 0x717B9007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x717B9006,  9024, 0x17B9000F, 35.94634, 159.4188, 22.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -9,18 +9,18 @@ VALUES (0x79E3E001,  1154, 0x9E3E0019, 78.74319, 6.090032, 91.04443, 0.5317183, 
 /* @teleloc 0x9E3E0019 [78.743190 6.090032 91.044430] 0.531718 0.000000 0.000000 -0.846921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E3E001, 0x79E3E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E3E001, 0x79E3E003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79E3E001, 0x79E3E004, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79E3E001, 0x79E3E005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79E3E001, 0x79E3E006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79E3E001, 0x79E3E007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79E3E001, 0x79E3E008, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x79E3E001, 0x79E3E009, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x79E3E001, 0x79E3E00A, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x79E3E001, 0x79E3E00B, '2019-02-10 00:00:00') /* Auroch Fire Cow */
-     , (0x79E3E001, 0x79E3E00C, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79E3E001, 0x79E3E00D, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x79E3E001, 0x79E3E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E3E001, 0x79E3E003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79E3E001, 0x79E3E004, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79E3E001, 0x79E3E005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79E3E001, 0x79E3E006, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x79E3E001, 0x79E3E007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79E3E001, 0x79E3E008, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x79E3E001, 0x79E3E009, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x79E3E001, 0x79E3E00A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x79E3E001, 0x79E3E00B, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x79E3E001, 0x79E3E00C, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79E3E001, 0x79E3E00D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E3E002,  1758, 0x9E3E0019, 78.74319, 6.090032, 91.04443, 0.5317183, 0, 0, -0.8469213,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -75,7 +75,7 @@ VALUES (0x79E3E00E,  1542, 0x9E3E0018, 55.36921, 184.5632, 106.61, 0.1839519, 0,
 /* @teleloc 0x9E3E0018 [55.369210 184.563200 106.610000] 0.183952 0.000000 0.000000 -0.982935 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E3E00E, 0x79E3E00F, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x79E3E00E, 0x79E3E00F, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E3E00F, 15715, 0x9E3E0018, 55.36921, 184.5632, 106.61, 0.1839519, 0, 0, -0.9829352,  True, '2019-02-10 00:00:00'); /* Sunflower */

@@ -5,41 +5,41 @@ VALUES (0x73FEE001,  1154, 0x3FEE0018, 65.47446, 176.0043, 11.28102, 0.9265208, 
 /* @teleloc 0x3FEE0018 [65.474460 176.004300 11.281020] 0.926521 0.000000 0.000000 -0.376244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FEE001, 0x73FEE002, '2019-02-10 00:00:00') /* Voracious Eater */
-     , (0x73FEE001, 0x73FEE003, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FEE001, 0x73FEE004, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FEE001, 0x73FEE005, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FEE001, 0x73FEE006, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FEE001, 0x73FEE007, '2019-02-10 00:00:00') /* Viamontian War Wizard */
-     , (0x73FEE001, 0x73FEE008, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FEE001, 0x73FEE009, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FEE001, 0x73FEE00A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FEE001, 0x73FEE00B, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FEE001, 0x73FEE00C, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73FEE001, 0x73FEE00D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73FEE001, 0x73FEE00E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x73FEE001, 0x73FEE00F, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x73FEE001, 0x73FEE010, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FEE001, 0x73FEE011, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73FEE001, 0x73FEE012, '2019-02-10 00:00:00') /* Floeshark */
-     , (0x73FEE001, 0x73FEE013, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE014, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FEE001, 0x73FEE015, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE016, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE017, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73FEE001, 0x73FEE018, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x73FEE001, 0x73FEE019, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x73FEE001, 0x73FEE01A, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x73FEE001, 0x73FEE01B, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73FEE001, 0x73FEE01C, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73FEE001, 0x73FEE01D, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73FEE001, 0x73FEE01E, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x73FEE001, 0x73FEE01F, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE020, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE021, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x73FEE001, 0x73FEE022, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE023, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x73FEE001, 0x73FEE024, '2019-02-10 00:00:00') /* Voracious Eater */;
+VALUES (0x73FEE001, 0x73FEE002, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x73FEE001, 0x73FEE003, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FEE001, 0x73FEE004, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FEE001, 0x73FEE005, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FEE001, 0x73FEE006, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FEE001, 0x73FEE007, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x73FEE001, 0x73FEE008, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FEE001, 0x73FEE009, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FEE001, 0x73FEE00A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FEE001, 0x73FEE00B, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FEE001, 0x73FEE00C, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73FEE001, 0x73FEE00D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73FEE001, 0x73FEE00E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73FEE001, 0x73FEE00F, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x73FEE001, 0x73FEE010, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FEE001, 0x73FEE011, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73FEE001, 0x73FEE012, '2019-02-10 00:00:00') /* Floeshark (29355) */
+     , (0x73FEE001, 0x73FEE013, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE014, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FEE001, 0x73FEE015, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE016, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE017, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73FEE001, 0x73FEE018, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x73FEE001, 0x73FEE019, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x73FEE001, 0x73FEE01A, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73FEE001, 0x73FEE01B, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73FEE001, 0x73FEE01C, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x73FEE001, 0x73FEE01D, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73FEE001, 0x73FEE01E, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x73FEE001, 0x73FEE01F, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE020, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE021, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73FEE001, 0x73FEE022, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE023, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x73FEE001, 0x73FEE024, '2019-02-10 00:00:00') /* Voracious Eater (28639) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FEE002, 28639, 0x3FEE0018, 65.47446, 176.0043, 11.28102, 0.9265208, 0, 0, -0.3762436,  True, '2019-02-10 00:00:00'); /* Voracious Eater */

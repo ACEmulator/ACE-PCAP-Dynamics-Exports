@@ -5,32 +5,32 @@ VALUES (0x7E04D001,  1154, 0xE04D0007, 12.94377, 163.4331, 20, -0.258819, 0, 0, 
 /* @teleloc 0xE04D0007 [12.943770 163.433100 20.000000] -0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E04D001, 0x7E04D002, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E04D001, 0x7E04D005, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E04D001, 0x7E04D006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E04D001, 0x7E04D007, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D008, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E04D001, 0x7E04D009, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E04D001, 0x7E04D00A, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E04D001, 0x7E04D00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E04D001, 0x7E04D00C, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E04D001, 0x7E04D00D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E04D001, 0x7E04D00E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E04D001, 0x7E04D00F, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E04D001, 0x7E04D010, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E04D001, 0x7E04D011, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E04D001, 0x7E04D012, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D013, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D014, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E04D001, 0x7E04D015, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E04D001, 0x7E04D016, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E04D001, 0x7E04D017, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E04D001, 0x7E04D018, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E04D001, 0x7E04D019, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E04D001, 0x7E04D01A, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E04D001, 0x7E04D01B, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7E04D001, 0x7E04D002, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E04D001, 0x7E04D005, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E04D001, 0x7E04D006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E04D001, 0x7E04D007, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D008, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E04D001, 0x7E04D009, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E04D001, 0x7E04D00A, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E04D001, 0x7E04D00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E04D001, 0x7E04D00C, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E04D001, 0x7E04D00D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E04D001, 0x7E04D00E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E04D001, 0x7E04D00F, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E04D001, 0x7E04D010, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E04D001, 0x7E04D011, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E04D001, 0x7E04D012, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D013, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D014, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E04D001, 0x7E04D015, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E04D001, 0x7E04D016, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E04D001, 0x7E04D017, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E04D001, 0x7E04D018, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E04D001, 0x7E04D019, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E04D001, 0x7E04D01A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E04D001, 0x7E04D01B, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E04D002,  2580, 0xE04D0007, 12.94377, 163.4331, 20, -0.258819, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* White Mattekar */
@@ -141,8 +141,8 @@ VALUES (0x7E04D01C,  1542, 0xE04D001D, 75.5323, 113.5147, 22, 0.8660254, 0, 0, -
 /* @teleloc 0xE04D001D [75.532300 113.514700 22.000000] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E04D01C, 0x7E04D01D, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E04D01C, 0x7E04D01E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E04D01C, 0x7E04D01D, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E04D01C, 0x7E04D01E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E04D01D,  4382, 0xE04D001D, 75.5323, 113.5147, 22, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */

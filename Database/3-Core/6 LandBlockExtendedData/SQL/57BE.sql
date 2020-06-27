@@ -5,17 +5,17 @@ VALUES (0x757BE001,  1154, 0x57BE000A, 39.75736, 24.9147, 0.006500006, 0.9238795
 /* @teleloc 0x57BE000A [39.757360 24.914700 0.006500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757BE001, 0x757BE002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757BE001, 0x757BE003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x757BE001, 0x757BE004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x757BE001, 0x757BE005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x757BE001, 0x757BE006, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x757BE001, 0x757BE007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x757BE001, 0x757BE008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x757BE001, 0x757BE009, '2019-02-10 00:00:00') /* Rampager */
-     , (0x757BE001, 0x757BE00A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x757BE001, 0x757BE00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x757BE001, 0x757BE00C, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x757BE001, 0x757BE002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757BE001, 0x757BE003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x757BE001, 0x757BE004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x757BE001, 0x757BE005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x757BE001, 0x757BE006, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x757BE001, 0x757BE007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x757BE001, 0x757BE008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x757BE001, 0x757BE009, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x757BE001, 0x757BE00A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x757BE001, 0x757BE00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x757BE001, 0x757BE00C, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757BE002, 10807, 0x57BE000A, 39.75736, 24.9147, 0.006500006, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -66,9 +66,9 @@ VALUES (0x757BE00D,  1542, 0x57BE0033, 154.5011, 51.16737, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x57BE0033 [154.501100 51.167370 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757BE00D, 0x757BE00E, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x757BE00D, 0x757BE00F, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x757BE00D, 0x757BE010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x757BE00D, 0x757BE00E, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x757BE00D, 0x757BE00F, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x757BE00D, 0x757BE010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757BE00E,  8999, 0x57BE0033, 154.5011, 51.16737, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

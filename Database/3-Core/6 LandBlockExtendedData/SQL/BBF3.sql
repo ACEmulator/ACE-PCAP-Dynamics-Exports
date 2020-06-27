@@ -5,13 +5,13 @@ VALUES (0x7BBF3001,  1154, 0xBBF3001B, 81.14883, 53.95752, 15.617, 0.9238795, 0,
 /* @teleloc 0xBBF3001B [81.148830 53.957520 15.617000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBF3001, 0x7BBF3002, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF3001, 0x7BBF3003, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF3001, 0x7BBF3004, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF3001, 0x7BBF3005, '2019-02-10 00:00:00') /* Haunt */
-     , (0x7BBF3001, 0x7BBF3006, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF3001, 0x7BBF3007, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BBF3001, 0x7BBF3008, '2019-02-10 00:00:00') /* Ancient Diamond Golem */;
+VALUES (0x7BBF3001, 0x7BBF3002, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF3001, 0x7BBF3003, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF3001, 0x7BBF3004, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF3001, 0x7BBF3005, '2019-02-10 00:00:00') /* Haunt (28243) */
+     , (0x7BBF3001, 0x7BBF3006, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF3001, 0x7BBF3007, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BBF3001, 0x7BBF3008, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBF3002, 27798, 0xBBF3001B, 81.14883, 53.95752, 15.617, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Diamond Golem */

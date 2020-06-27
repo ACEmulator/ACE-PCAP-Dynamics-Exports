@@ -5,16 +5,16 @@ VALUES (0x7914E001,  1154, 0x914E0008, 6.361084, 178.4441, 11.81066, 0.8943182, 
 /* @teleloc 0x914E0008 [6.361084 178.444100 11.810660] 0.894318 0.000000 0.000000 -0.447431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7914E001, 0x7914E002, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7914E001, 0x7914E003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7914E001, 0x7914E004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7914E001, 0x7914E005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7914E001, 0x7914E006, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7914E001, 0x7914E007, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7914E001, 0x7914E008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7914E001, 0x7914E009, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7914E001, 0x7914E00A, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x7914E001, 0x7914E00B, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x7914E001, 0x7914E002, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7914E001, 0x7914E003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7914E001, 0x7914E004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7914E001, 0x7914E005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7914E001, 0x7914E006, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7914E001, 0x7914E007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7914E001, 0x7914E008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7914E001, 0x7914E009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7914E001, 0x7914E00A, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x7914E001, 0x7914E00B, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7914E002,  9250, 0x914E0008, 6.361084, 178.4441, 11.81066, 0.8943182, 0, 0, -0.4474314,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
@@ -61,7 +61,7 @@ VALUES (0x7914E00C,  1542, 0x914E000D, 43.13864, 99.30797, 13.36156, 1, 0, 0, 0,
 /* @teleloc 0x914E000D [43.138640 99.307970 13.361560] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7914E00C, 0x7914E00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7914E00C, 0x7914E00D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7914E00D, 22576, 0x914E000D, 43.13864, 99.30797, 13.36156, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

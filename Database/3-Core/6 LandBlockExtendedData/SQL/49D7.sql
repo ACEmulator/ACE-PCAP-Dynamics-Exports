@@ -5,9 +5,9 @@ VALUES (0x749D7001,  1154, 0x49D70038, 166.6689, 173.3408, 72.01112, -0.9720849,
 /* @teleloc 0x49D70038 [166.668900 173.340800 72.011120] -0.972085 0.000000 0.000000 -0.234629 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x749D7001, 0x749D7002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x749D7001, 0x749D7003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x749D7001, 0x749D7004, '2019-02-10 00:00:00') /* Banderling Slayer */;
+VALUES (0x749D7001, 0x749D7002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x749D7001, 0x749D7003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x749D7001, 0x749D7004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749D7002, 21549, 0x49D70038, 166.6689, 173.3408, 72.01112, -0.9720849, 0, 0, -0.2346294,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

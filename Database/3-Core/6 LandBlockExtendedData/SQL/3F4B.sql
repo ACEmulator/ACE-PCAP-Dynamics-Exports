@@ -5,28 +5,28 @@ VALUES (0x73F4B001,  1154, 0x3F4B0004, 6.108597, 77.42284, 4.737321, -0.5885177,
 /* @teleloc 0x3F4B0004 [6.108597 77.422840 4.737321] -0.588518 0.000000 0.000000 -0.808484 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4B001, 0x73F4B002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F4B001, 0x73F4B003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73F4B001, 0x73F4B004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73F4B001, 0x73F4B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73F4B001, 0x73F4B006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73F4B001, 0x73F4B007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73F4B001, 0x73F4B008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73F4B001, 0x73F4B009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73F4B001, 0x73F4B00A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73F4B001, 0x73F4B00B, '2019-02-10 00:00:00') /* Cold One */
-     , (0x73F4B001, 0x73F4B00C, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73F4B001, 0x73F4B00D, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73F4B001, 0x73F4B00E, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73F4B001, 0x73F4B00F, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73F4B001, 0x73F4B010, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x73F4B001, 0x73F4B011, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73F4B001, 0x73F4B012, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73F4B001, 0x73F4B013, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73F4B001, 0x73F4B014, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73F4B001, 0x73F4B015, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73F4B001, 0x73F4B016, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x73F4B001, 0x73F4B017, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x73F4B001, 0x73F4B002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F4B001, 0x73F4B003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x73F4B001, 0x73F4B004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73F4B001, 0x73F4B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73F4B001, 0x73F4B006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73F4B001, 0x73F4B007, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73F4B001, 0x73F4B008, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x73F4B001, 0x73F4B009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73F4B001, 0x73F4B00A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73F4B001, 0x73F4B00B, '2019-02-10 00:00:00') /* Cold One (12020) */
+     , (0x73F4B001, 0x73F4B00C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73F4B001, 0x73F4B00D, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73F4B001, 0x73F4B00E, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73F4B001, 0x73F4B00F, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73F4B001, 0x73F4B010, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x73F4B001, 0x73F4B011, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73F4B001, 0x73F4B012, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73F4B001, 0x73F4B013, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73F4B001, 0x73F4B014, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73F4B001, 0x73F4B015, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73F4B001, 0x73F4B016, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x73F4B001, 0x73F4B017, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4B002,  7112, 0x3F4B0004, 6.108597, 77.42284, 4.737321, -0.5885177, 0, 0, -0.8084843,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -121,9 +121,9 @@ VALUES (0x73F4B018,  1542, 0x3F4B003B, 175.5283, 64.04031, -0.09999999, 0.999048
 /* @teleloc 0x3F4B003B [175.528300 64.040310 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4B018, 0x73F4B019, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73F4B018, 0x73F4B01A, '2019-02-10 00:00:00') /* Bones */
-     , (0x73F4B018, 0x73F4B01B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73F4B018, 0x73F4B019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73F4B018, 0x73F4B01A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73F4B018, 0x73F4B01B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4B019,  4179, 0x3F4B003B, 175.5283, 64.04031, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

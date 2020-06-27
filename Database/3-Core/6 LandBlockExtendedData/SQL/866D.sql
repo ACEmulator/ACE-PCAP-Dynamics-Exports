@@ -17,24 +17,24 @@ VALUES (0x7866D003,  1154, 0x866D003A, 176.5479, 45.98035, 14.0084, 1, 0, 0, 0, 
 /* @teleloc 0x866D003A [176.547900 45.980350 14.008400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7866D003, 0x7866D004, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7866D003, 0x7866D005, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7866D003, 0x7866D006, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7866D003, 0x7866D007, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7866D003, 0x7866D008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7866D003, 0x7866D009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7866D003, 0x7866D00A, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7866D003, 0x7866D00B, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7866D003, 0x7866D00C, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7866D003, 0x7866D00D, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7866D003, 0x7866D00E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7866D003, 0x7866D00F, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7866D003, 0x7866D010, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7866D003, 0x7866D011, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x7866D003, 0x7866D012, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x7866D003, 0x7866D013, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7866D003, 0x7866D014, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x7866D003, 0x7866D015, '2019-02-10 00:00:00') /* Charred Skeleton */;
+VALUES (0x7866D003, 0x7866D004, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7866D003, 0x7866D005, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7866D003, 0x7866D006, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7866D003, 0x7866D007, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7866D003, 0x7866D008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7866D003, 0x7866D009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7866D003, 0x7866D00A, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7866D003, 0x7866D00B, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7866D003, 0x7866D00C, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7866D003, 0x7866D00D, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7866D003, 0x7866D00E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7866D003, 0x7866D00F, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7866D003, 0x7866D010, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7866D003, 0x7866D011, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x7866D003, 0x7866D012, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x7866D003, 0x7866D013, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7866D003, 0x7866D014, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x7866D003, 0x7866D015, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7866D004,   218, 0x866D003A, 176.5479, 45.98035, 14.0084, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -113,7 +113,7 @@ VALUES (0x7866D016,  1542, 0x866D003A, 172.9574, 31.58001, 14, 0.9914449, 0, 0, 
 /* @teleloc 0x866D003A [172.957400 31.580010 14.000000] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7866D016, 0x7866D017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7866D016, 0x7866D017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7866D017,  4380, 0x866D003A, 172.9574, 31.58001, 14, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

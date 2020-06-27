@@ -5,36 +5,36 @@ VALUES (0x7298A001,  1154, 0x298A0021, 113.3855, 15.16585, 102.005, 0.4975263, 0
 /* @teleloc 0x298A0021 [113.385500 15.165850 102.005000] 0.497526 0.000000 0.000000 -0.867449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298A001, 0x7298A002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7298A001, 0x7298A003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298A001, 0x7298A004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7298A001, 0x7298A005, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7298A001, 0x7298A006, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7298A001, 0x7298A007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7298A001, 0x7298A008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7298A001, 0x7298A009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7298A001, 0x7298A00A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A00B, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A00C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A00D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298A001, 0x7298A00E, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7298A001, 0x7298A00F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7298A001, 0x7298A010, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7298A001, 0x7298A011, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A012, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298A001, 0x7298A013, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A014, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A015, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298A001, 0x7298A016, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298A001, 0x7298A017, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A018, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7298A001, 0x7298A019, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A01A, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7298A001, 0x7298A01B, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7298A001, 0x7298A01C, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7298A001, 0x7298A01D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7298A001, 0x7298A01E, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7298A001, 0x7298A01F, '2019-02-10 00:00:00') /* Dire Champion Monouga */;
+VALUES (0x7298A001, 0x7298A002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7298A001, 0x7298A003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298A001, 0x7298A004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7298A001, 0x7298A005, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7298A001, 0x7298A006, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7298A001, 0x7298A007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7298A001, 0x7298A008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7298A001, 0x7298A009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7298A001, 0x7298A00A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A00B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A00C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A00D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298A001, 0x7298A00E, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x7298A001, 0x7298A00F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7298A001, 0x7298A010, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7298A001, 0x7298A011, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A012, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298A001, 0x7298A013, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A014, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A015, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298A001, 0x7298A016, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298A001, 0x7298A017, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A018, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7298A001, 0x7298A019, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A01A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7298A001, 0x7298A01B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7298A001, 0x7298A01C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7298A001, 0x7298A01D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7298A001, 0x7298A01E, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7298A001, 0x7298A01F, '2019-02-10 00:00:00') /* Dire Champion Monouga (36841) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298A002, 23564, 0x298A0021, 113.3855, 15.16585, 102.005, 0.4975263, 0, 0, -0.8674489,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -161,9 +161,9 @@ VALUES (0x7298A020,  1542, 0x298A001D, 75.97785, 112.9497, 102, 1, 0, 0, 0, Fals
 /* @teleloc 0x298A001D [75.977850 112.949700 102.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7298A020, 0x7298A021, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7298A020, 0x7298A022, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7298A020, 0x7298A023, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7298A020, 0x7298A021, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7298A020, 0x7298A022, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7298A020, 0x7298A023, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298A021, 22571, 0x298A001D, 75.97785, 112.9497, 102, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

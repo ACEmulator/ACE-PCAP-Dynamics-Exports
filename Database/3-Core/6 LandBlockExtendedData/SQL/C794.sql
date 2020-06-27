@@ -1737,7 +1737,7 @@ VALUES (0x7C7941B2,  1542, 0xC7940103, 126.5283, 35.97031, 1.833625, -0.8694654,
 /* @teleloc 0xC7940103 [126.528300 35.970310 1.833625] -0.869465 0.000000 0.000000 -0.493994 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7941B2, 0x7C7941B3, '2019-02-10 00:00:00') /* Pack */;
+VALUES (0x7C7941B2, 0x7C7941B3, '2019-02-10 00:00:00') /* Pack (136) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7941B3,   136, 0xC7940103, 126.5283, 35.97031, 1.833625, -0.8694654, 0, 0, -0.4939939,  True, '2019-02-10 00:00:00'); /* Pack */

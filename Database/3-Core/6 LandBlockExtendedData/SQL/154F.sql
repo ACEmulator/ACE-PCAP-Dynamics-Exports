@@ -5,40 +5,40 @@ VALUES (0x7154F001,  1154, 0x154F0017, 50.15774, 159.9327, 42.35962, -0.3664658,
 /* @teleloc 0x154F0017 [50.157740 159.932700 42.359620] -0.366466 0.000000 0.000000 -0.930432 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154F001, 0x7154F002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7154F001, 0x7154F003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7154F001, 0x7154F004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7154F001, 0x7154F005, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7154F001, 0x7154F006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7154F001, 0x7154F007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7154F001, 0x7154F008, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7154F001, 0x7154F009, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7154F001, 0x7154F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7154F001, 0x7154F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7154F001, 0x7154F00C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7154F001, 0x7154F00D, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7154F001, 0x7154F00E, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7154F001, 0x7154F00F, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154F001, 0x7154F010, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154F001, 0x7154F011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154F001, 0x7154F012, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7154F001, 0x7154F013, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7154F001, 0x7154F014, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7154F001, 0x7154F015, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7154F001, 0x7154F016, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7154F001, 0x7154F017, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7154F001, 0x7154F018, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7154F001, 0x7154F019, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7154F001, 0x7154F01A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7154F001, 0x7154F01B, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7154F001, 0x7154F01C, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7154F001, 0x7154F01D, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7154F001, 0x7154F01E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7154F001, 0x7154F01F, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7154F001, 0x7154F020, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7154F001, 0x7154F021, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7154F001, 0x7154F022, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7154F001, 0x7154F023, '2019-02-10 00:00:00') /* Bane Grievver */;
+VALUES (0x7154F001, 0x7154F002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7154F001, 0x7154F003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7154F001, 0x7154F004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7154F001, 0x7154F005, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7154F001, 0x7154F006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7154F001, 0x7154F007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7154F001, 0x7154F008, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7154F001, 0x7154F009, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7154F001, 0x7154F00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7154F001, 0x7154F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7154F001, 0x7154F00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7154F001, 0x7154F00D, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7154F001, 0x7154F00E, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7154F001, 0x7154F00F, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154F001, 0x7154F010, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154F001, 0x7154F011, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154F001, 0x7154F012, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7154F001, 0x7154F013, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7154F001, 0x7154F014, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7154F001, 0x7154F015, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7154F001, 0x7154F016, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7154F001, 0x7154F017, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7154F001, 0x7154F018, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7154F001, 0x7154F019, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7154F001, 0x7154F01A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7154F001, 0x7154F01B, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7154F001, 0x7154F01C, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7154F001, 0x7154F01D, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7154F001, 0x7154F01E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7154F001, 0x7154F01F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7154F001, 0x7154F020, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7154F001, 0x7154F021, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7154F001, 0x7154F022, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7154F001, 0x7154F023, '2019-02-10 00:00:00') /* Bane Grievver (7983) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154F002, 23481, 0x154F0017, 50.15774, 159.9327, 42.35962, -0.3664658, 0, 0, -0.9304315,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -181,7 +181,7 @@ VALUES (0x7154F024,  1542, 0x154F001E, 87.81204, 131.5653, 47.31767, 1, 0, 0, 0,
 /* @teleloc 0x154F001E [87.812040 131.565300 47.317670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7154F024, 0x7154F025, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7154F024, 0x7154F025, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7154F025,  4179, 0x154F001E, 87.81204, 131.5653, 47.31767, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

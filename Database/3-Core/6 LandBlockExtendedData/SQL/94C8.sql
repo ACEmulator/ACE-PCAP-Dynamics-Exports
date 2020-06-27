@@ -5,12 +5,12 @@ VALUES (0x794C8001,  1154, 0x94C80037, 153.267, 149.8856, 84.15871, 0.2791361, 0
 /* @teleloc 0x94C80037 [153.267000 149.885600 84.158710] 0.279136 0.000000 0.000000 -0.960252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C8001, 0x794C8002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x794C8001, 0x794C8003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x794C8001, 0x794C8004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x794C8001, 0x794C8005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x794C8001, 0x794C8006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x794C8001, 0x794C8007, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x794C8001, 0x794C8002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x794C8001, 0x794C8003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x794C8001, 0x794C8004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x794C8001, 0x794C8005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x794C8001, 0x794C8006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x794C8001, 0x794C8007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C8002, 28551, 0x94C80037, 153.267, 149.8856, 84.15871, 0.2791361, 0, 0, -0.9602516,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -41,12 +41,12 @@ VALUES (0x794C8008,  1542, 0x94C8003E, 172.4989, 139.8501, 82.76552, 1, 0, 0, 0,
 /* @teleloc 0x94C8003E [172.498900 139.850100 82.765520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794C8008, 0x794C8009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x794C8008, 0x794C800A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x794C8008, 0x794C800B, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x794C8008, 0x794C800C, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x794C8008, 0x794C800D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x794C8008, 0x794C800E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x794C8008, 0x794C8009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x794C8008, 0x794C800A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x794C8008, 0x794C800B, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x794C8008, 0x794C800C, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x794C8008, 0x794C800D, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x794C8008, 0x794C800E, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794C8009,  9024, 0x94C8003E, 172.4989, 139.8501, 82.76552, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

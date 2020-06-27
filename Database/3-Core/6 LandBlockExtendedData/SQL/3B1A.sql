@@ -5,10 +5,10 @@ VALUES (0x73B1A001,  1154, 0x3B1A000A, 31.38877, 46.77068, 11.23796, 0.2588191, 
 /* @teleloc 0x3B1A000A [31.388770 46.770680 11.237960] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B1A001, 0x73B1A002, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73B1A001, 0x73B1A003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73B1A001, 0x73B1A004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x73B1A001, 0x73B1A005, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x73B1A001, 0x73B1A002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73B1A001, 0x73B1A003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73B1A001, 0x73B1A004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x73B1A001, 0x73B1A005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B1A002,  7117, 0x3B1A000A, 31.38877, 46.77068, 11.23796, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */

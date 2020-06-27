@@ -5,24 +5,24 @@ VALUES (0x7142D001,  1154, 0x142D002A, 138.8656, 36.14944, 19.57214, 0.8432333, 
 /* @teleloc 0x142D002A [138.865600 36.149440 19.572140] 0.843233 0.000000 0.000000 -0.537548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142D001, 0x7142D002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142D001, 0x7142D003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7142D001, 0x7142D004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7142D001, 0x7142D005, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142D001, 0x7142D006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7142D001, 0x7142D007, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7142D001, 0x7142D008, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x7142D001, 0x7142D009, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x7142D001, 0x7142D00A, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7142D001, 0x7142D00B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7142D001, 0x7142D00C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142D001, 0x7142D00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7142D001, 0x7142D00E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7142D001, 0x7142D00F, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7142D001, 0x7142D010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7142D001, 0x7142D011, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7142D001, 0x7142D012, '2019-02-10 00:00:00') /* Raider Juggernaut */
-     , (0x7142D001, 0x7142D013, '2019-02-10 00:00:00') /* Raider Juggernaut */;
+VALUES (0x7142D001, 0x7142D002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142D001, 0x7142D003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7142D001, 0x7142D004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7142D001, 0x7142D005, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142D001, 0x7142D006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7142D001, 0x7142D007, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7142D001, 0x7142D008, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x7142D001, 0x7142D009, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x7142D001, 0x7142D00A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7142D001, 0x7142D00B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7142D001, 0x7142D00C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142D001, 0x7142D00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7142D001, 0x7142D00E, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x7142D001, 0x7142D00F, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7142D001, 0x7142D010, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7142D001, 0x7142D011, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7142D001, 0x7142D012, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7142D001, 0x7142D013, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142D002, 23481, 0x142D002A, 138.8656, 36.14944, 19.57214, 0.8432333, 0, 0, -0.5375476,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -101,10 +101,10 @@ VALUES (0x7142D014,  1542, 0x142D000D, 27.56859, 108.967, 13.52833, -4.371139E-0
 /* @teleloc 0x142D000D [27.568590 108.967000 13.528330] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7142D014, 0x7142D015, '2019-02-10 00:00:00') /* Bones */
-     , (0x7142D014, 0x7142D016, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7142D014, 0x7142D017, '2019-02-10 00:00:00') /* Bones */
-     , (0x7142D014, 0x7142D018, '2019-02-10 00:00:00') /* Sturdy Steel Chest */;
+VALUES (0x7142D014, 0x7142D015, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7142D014, 0x7142D016, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7142D014, 0x7142D017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7142D014, 0x7142D018, '2019-02-10 00:00:00') /* Sturdy Steel Chest (24476) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142D015,  4380, 0x142D000D, 27.56859, 108.967, 13.52833, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

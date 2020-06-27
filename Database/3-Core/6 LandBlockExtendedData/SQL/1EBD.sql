@@ -5,15 +5,15 @@ VALUES (0x71EBD001,  1154, 0x1EBD0040, 168.6967, 175.2161, 87.03654, 1, 0, 0, 0,
 /* @teleloc 0x1EBD0040 [168.696700 175.216100 87.036540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBD001, 0x71EBD002, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71EBD001, 0x71EBD003, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBD001, 0x71EBD004, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBD001, 0x71EBD005, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71EBD001, 0x71EBD006, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBD001, 0x71EBD007, '2019-02-10 00:00:00') /* Poacher */
-     , (0x71EBD001, 0x71EBD008, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBD001, 0x71EBD009, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71EBD001, 0x71EBD00A, '2019-02-10 00:00:00') /* Aun Nualuan */;
+VALUES (0x71EBD001, 0x71EBD002, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71EBD001, 0x71EBD003, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBD001, 0x71EBD004, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBD001, 0x71EBD005, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71EBD001, 0x71EBD006, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBD001, 0x71EBD007, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x71EBD001, 0x71EBD008, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBD001, 0x71EBD009, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71EBD001, 0x71EBD00A, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBD002, 11510, 0x1EBD0040, 168.6967, 175.2161, 87.03654, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Itealuan */
@@ -56,9 +56,9 @@ VALUES (0x71EBD00B,  1542, 0x1EBD0030, 135.5014, 187.6768, 73.46441, 1, 0, 0, 0,
 /* @teleloc 0x1EBD0030 [135.501400 187.676800 73.464410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EBD00B, 0x71EBD00C, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71EBD00B, 0x71EBD00D, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71EBD00B, 0x71EBD00E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71EBD00B, 0x71EBD00C, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71EBD00B, 0x71EBD00D, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71EBD00B, 0x71EBD00E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EBD00C, 11225, 0x1EBD0030, 135.5014, 187.6768, 73.46441, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

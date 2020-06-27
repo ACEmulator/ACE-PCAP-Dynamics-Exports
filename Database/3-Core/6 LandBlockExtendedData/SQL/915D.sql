@@ -5,18 +5,18 @@ VALUES (0x7915D001,  1154, 0x915D0005, 1.974998, 99.20353, 28.29596, 0.9945716, 
 /* @teleloc 0x915D0005 [1.974998 99.203530 28.295960] 0.994572 0.000000 0.000000 -0.104054 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7915D001, 0x7915D002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7915D001, 0x7915D003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7915D001, 0x7915D004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7915D001, 0x7915D005, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7915D001, 0x7915D006, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x7915D001, 0x7915D007, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7915D001, 0x7915D008, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x7915D001, 0x7915D009, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7915D001, 0x7915D00A, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7915D001, 0x7915D00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7915D001, 0x7915D00C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7915D001, 0x7915D00D, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7915D001, 0x7915D002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7915D001, 0x7915D003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7915D001, 0x7915D004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7915D001, 0x7915D005, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7915D001, 0x7915D006, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x7915D001, 0x7915D007, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7915D001, 0x7915D008, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x7915D001, 0x7915D009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7915D001, 0x7915D00A, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7915D001, 0x7915D00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7915D001, 0x7915D00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7915D001, 0x7915D00D, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7915D002, 10770, 0x915D0005, 1.974998, 99.20353, 28.29596, 0.9945716, 0, 0, -0.1040541,  True, '2019-02-10 00:00:00'); /* Beaten Doll */
@@ -71,8 +71,8 @@ VALUES (0x7915D00E,  1542, 0x915D0031, 164.4844, 19.85759, 30.30683, 0.9238795, 
 /* @teleloc 0x915D0031 [164.484400 19.857590 30.306830] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7915D00E, 0x7915D00F, '2019-02-10 00:00:00') /* Leather Jerkin */
-     , (0x7915D00E, 0x7915D010, '2019-02-10 00:00:00') /* Gem */;
+VALUES (0x7915D00E, 0x7915D00F, '2019-02-10 00:00:00') /* Leather Jerkin (25639) */
+     , (0x7915D00E, 0x7915D010, '2019-02-10 00:00:00') /* Gem (2417) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7915D00F, 25639, 0x915D0031, 164.4844, 19.85759, 30.30683, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Leather Jerkin */

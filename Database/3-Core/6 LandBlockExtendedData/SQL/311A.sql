@@ -5,10 +5,10 @@ VALUES (0x7311A001,  1154, 0x311A0039, 181.413, 13.6524, 56.00825, 0.9508108, 0,
 /* @teleloc 0x311A0039 [181.413000 13.652400 56.008250] 0.950811 0.000000 0.000000 -0.309772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7311A001, 0x7311A002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7311A001, 0x7311A003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7311A001, 0x7311A004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7311A001, 0x7311A005, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x7311A001, 0x7311A002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7311A001, 0x7311A003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7311A001, 0x7311A004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7311A001, 0x7311A005, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7311A002, 24320, 0x311A0039, 181.413, 13.6524, 56.00825, 0.9508108, 0, 0, -0.3097723,  True, '2019-02-10 00:00:00'); /* Great Revenant */

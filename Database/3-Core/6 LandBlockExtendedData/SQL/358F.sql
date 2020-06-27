@@ -5,8 +5,8 @@ VALUES (0x7358F001,  1154, 0x358F003F, 180.2947, 157.1513, 18.09964, 1, 0, 0, 0,
 /* @teleloc 0x358F003F [180.294700 157.151300 18.099640] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7358F001, 0x7358F002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7358F001, 0x7358F003, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7358F001, 0x7358F002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7358F001, 0x7358F003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7358F002, 23566, 0x358F003F, 180.2947, 157.1513, 18.09964, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -21,7 +21,7 @@ VALUES (0x7358F004,  1542, 0x358F003F, 182.6128, 157.3714, 17.35546, 1, 0, 0, 0,
 /* @teleloc 0x358F003F [182.612800 157.371400 17.355460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7358F004, 0x7358F005, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7358F004, 0x7358F005, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7358F005, 31445, 0x358F003F, 182.6128, 157.3714, 17.35546, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

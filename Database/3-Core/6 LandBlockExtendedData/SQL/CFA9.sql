@@ -5,9 +5,9 @@ VALUES (0x7CFA9001,  1154, 0xCFA9002A, 130.0292, 40.26599, 37.3605, 0.8870109, 0
 /* @teleloc 0xCFA9002A [130.029200 40.265990 37.360500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA9001, 0x7CFA9002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7CFA9001, 0x7CFA9003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CFA9001, 0x7CFA9004, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7CFA9001, 0x7CFA9002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7CFA9001, 0x7CFA9003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CFA9001, 0x7CFA9004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA9002,  1757, 0xCFA9002A, 130.0292, 40.26599, 37.3605, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -26,7 +26,7 @@ VALUES (0x7CFA9005,  1542, 0xCFA9002A, 124.6157, 40.22113, 37.61536, 1, 0, 0, 0,
 /* @teleloc 0xCFA9002A [124.615700 40.221130 37.615360] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA9005, 0x7CFA9006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CFA9005, 0x7CFA9006, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA9006, 22570, 0xCFA9002A, 124.6157, 40.22113, 37.61536, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

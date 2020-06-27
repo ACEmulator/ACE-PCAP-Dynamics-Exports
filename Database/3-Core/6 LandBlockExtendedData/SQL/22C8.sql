@@ -5,14 +5,14 @@ VALUES (0x722C8001,  1154, 0x22C8000B, 46.23412, 60.91409, 13.99481, -0.1603844,
 /* @teleloc 0x22C8000B [46.234120 60.914090 13.994810] -0.160384 0.000000 0.000000 -0.987055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C8001, 0x722C8002, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C8001, 0x722C8003, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x722C8001, 0x722C8004, '2019-02-10 00:00:00') /* Untamed Siraluun */
-     , (0x722C8001, 0x722C8005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x722C8001, 0x722C8006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x722C8001, 0x722C8007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C8001, 0x722C8008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x722C8001, 0x722C8009, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x722C8001, 0x722C8002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C8001, 0x722C8003, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x722C8001, 0x722C8004, '2019-02-10 00:00:00') /* Untamed Siraluun (27713) */
+     , (0x722C8001, 0x722C8005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x722C8001, 0x722C8006, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x722C8001, 0x722C8007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C8001, 0x722C8008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x722C8001, 0x722C8009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C8002, 27708, 0x22C8000B, 46.23412, 60.91409, 13.99481, -0.1603844, 0, 0, -0.9870546,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -51,7 +51,7 @@ VALUES (0x722C800A,  1542, 0x22C80031, 157.8899, 0.07246515, 6.683572, 0.4305658
 /* @teleloc 0x22C80031 [157.889900 0.072465 6.683572] 0.430566 0.000000 0.000000 -0.902559 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C800A, 0x722C800B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x722C800A, 0x722C800B, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C800B, 27719, 0x22C80031, 157.8899, 0.07246515, 6.683572, 0.4305658, 0, 0, -0.9025592,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

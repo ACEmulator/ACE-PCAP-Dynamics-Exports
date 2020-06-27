@@ -5,14 +5,14 @@ VALUES (0x788C0001,  1154, 0x88C0003B, 183.9743, 59.85778, 101.0054, -0.258787, 
 /* @teleloc 0x88C0003B [183.974300 59.857780 101.005400] -0.258787 0.000000 0.000000 -0.965934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788C0001, 0x788C0002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x788C0001, 0x788C0003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x788C0001, 0x788C0004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x788C0001, 0x788C0005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x788C0001, 0x788C0006, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x788C0001, 0x788C0007, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788C0001, 0x788C0008, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x788C0001, 0x788C0009, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x788C0001, 0x788C0002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x788C0001, 0x788C0003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x788C0001, 0x788C0004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x788C0001, 0x788C0005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x788C0001, 0x788C0006, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x788C0001, 0x788C0007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788C0001, 0x788C0008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788C0001, 0x788C0009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788C0002, 11481, 0x88C0003B, 183.9743, 59.85778, 101.0054, -0.258787, 0, 0, -0.9659344,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

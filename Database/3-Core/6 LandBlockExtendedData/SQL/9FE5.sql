@@ -5,9 +5,9 @@ VALUES (0x79FE5001,  1154, 0x9FE50040, 181, 174.5906, 123.4579, 0.3706889, 0, 0,
 /* @teleloc 0x9FE50040 [181.000000 174.590600 123.457900] 0.370689 0.000000 0.000000 -0.928757 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE5001, 0x79FE5002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x79FE5001, 0x79FE5003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79FE5001, 0x79FE5004, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x79FE5001, 0x79FE5002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x79FE5001, 0x79FE5003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79FE5001, 0x79FE5004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE5002, 22810, 0x9FE50040, 181, 174.5906, 123.4579, 0.3706889, 0, 0, -0.9287571,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
@@ -26,8 +26,8 @@ VALUES (0x79FE5005,  1542, 0x9FE5003D, 170.6257, 97.39017, 126, -0.6884924, 0, 0
 /* @teleloc 0x9FE5003D [170.625700 97.390170 126.000000] -0.688492 0.000000 0.000000 -0.725244 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE5005, 0x79FE5006, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x79FE5005, 0x79FE5007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79FE5005, 0x79FE5006, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x79FE5005, 0x79FE5007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE5006,  8646, 0x9FE5003D, 170.6257, 97.39017, 126, -0.6884924, 0, 0, -0.7252436,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

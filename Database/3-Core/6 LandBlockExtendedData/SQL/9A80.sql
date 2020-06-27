@@ -5,20 +5,20 @@ VALUES (0x79A80001,  1154, 0x9A800007, 8.590127, 147.8655, 34.72409, -0.6559726,
 /* @teleloc 0x9A800007 [8.590127 147.865500 34.724090] -0.655973 0.000000 0.000000 -0.754785 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A80001, 0x79A80002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79A80001, 0x79A80003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A80001, 0x79A80004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A80001, 0x79A80005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79A80001, 0x79A80006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79A80001, 0x79A80007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79A80001, 0x79A80008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79A80001, 0x79A80009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79A80001, 0x79A8000A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x79A80001, 0x79A8000B, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x79A80001, 0x79A8000C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x79A80001, 0x79A8000D, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79A80001, 0x79A8000E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79A80001, 0x79A8000F, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x79A80001, 0x79A80002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79A80001, 0x79A80003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A80001, 0x79A80004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A80001, 0x79A80005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79A80001, 0x79A80006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79A80001, 0x79A80007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79A80001, 0x79A80008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79A80001, 0x79A80009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x79A80001, 0x79A8000A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x79A80001, 0x79A8000B, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x79A80001, 0x79A8000C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x79A80001, 0x79A8000D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79A80001, 0x79A8000E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79A80001, 0x79A8000F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A80002,  8673, 0x9A800007, 8.590127, 147.8655, 34.72409, -0.6559726, 0, 0, -0.7547847,  True, '2019-02-10 00:00:00'); /* Risen Knight */
@@ -81,7 +81,7 @@ VALUES (0x79A80010,  1542, 0x9A800012, 53.16696, 32.92811, 38.74185, 1, 0, 0, 0,
 /* @teleloc 0x9A800012 [53.166960 32.928110 38.741850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A80010, 0x79A80011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x79A80010, 0x79A80011, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A80011, 31443, 0x9A800012, 53.16696, 32.92811, 38.74185, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

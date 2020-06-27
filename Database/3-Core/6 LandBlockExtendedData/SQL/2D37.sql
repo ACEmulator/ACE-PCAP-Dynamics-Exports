@@ -5,18 +5,18 @@ VALUES (0x72D37001,  1154, 0x2D370034, 167.1567, 75.39565, 92.29298, 0.621418, 0
 /* @teleloc 0x2D370034 [167.156700 75.395650 92.292980] 0.621418 0.000000 0.000000 -0.783479 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D37001, 0x72D37002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x72D37001, 0x72D37003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72D37001, 0x72D37004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72D37001, 0x72D37005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72D37001, 0x72D37006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72D37001, 0x72D37007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72D37001, 0x72D37008, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x72D37001, 0x72D37009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D37001, 0x72D3700A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x72D37001, 0x72D3700B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72D37001, 0x72D3700C, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72D37001, 0x72D3700D, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x72D37001, 0x72D37002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72D37001, 0x72D37003, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72D37001, 0x72D37004, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72D37001, 0x72D37005, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72D37001, 0x72D37006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72D37001, 0x72D37007, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72D37001, 0x72D37008, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x72D37001, 0x72D37009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D37001, 0x72D3700A, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x72D37001, 0x72D3700B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72D37001, 0x72D3700C, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72D37001, 0x72D3700D, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D37002,  7097, 0x2D370034, 167.1567, 75.39565, 92.29298, 0.621418, 0, 0, -0.7834792,  True, '2019-02-10 00:00:00'); /* Platinum Golem */

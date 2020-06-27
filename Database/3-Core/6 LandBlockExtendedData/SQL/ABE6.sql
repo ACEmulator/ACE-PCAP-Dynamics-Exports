@@ -5,25 +5,25 @@ VALUES (0x7ABE6001,  1154, 0xABE6003B, 172.2699, 54.19655, 3.136048, 0.668077, 0
 /* @teleloc 0xABE6003B [172.269900 54.196550 3.136048] 0.668077 0.000000 0.000000 -0.744092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABE6001, 0x7ABE6002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ABE6001, 0x7ABE6003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7ABE6001, 0x7ABE6004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7ABE6001, 0x7ABE6005, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ABE6001, 0x7ABE6006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7ABE6001, 0x7ABE6007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ABE6001, 0x7ABE6008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ABE6001, 0x7ABE6009, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7ABE6001, 0x7ABE600A, '2019-02-10 00:00:00') /* Ember */
-     , (0x7ABE6001, 0x7ABE600B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ABE6001, 0x7ABE600C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ABE6001, 0x7ABE600D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ABE6001, 0x7ABE600E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7ABE6001, 0x7ABE600F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABE6001, 0x7ABE6010, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7ABE6001, 0x7ABE6011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7ABE6001, 0x7ABE6012, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7ABE6001, 0x7ABE6013, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ABE6001, 0x7ABE6014, '2019-02-10 00:00:00') /* Malus Shreth */;
+VALUES (0x7ABE6001, 0x7ABE6002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ABE6001, 0x7ABE6003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7ABE6001, 0x7ABE6004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7ABE6001, 0x7ABE6005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ABE6001, 0x7ABE6006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7ABE6001, 0x7ABE6007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ABE6001, 0x7ABE6008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ABE6001, 0x7ABE6009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7ABE6001, 0x7ABE600A, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7ABE6001, 0x7ABE600B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ABE6001, 0x7ABE600C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ABE6001, 0x7ABE600D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ABE6001, 0x7ABE600E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7ABE6001, 0x7ABE600F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABE6001, 0x7ABE6010, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7ABE6001, 0x7ABE6011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7ABE6001, 0x7ABE6012, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7ABE6001, 0x7ABE6013, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ABE6001, 0x7ABE6014, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABE6002,  4217, 0xABE6003B, 172.2699, 54.19655, 3.136048, 0.668077, 0, 0, -0.7440922,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

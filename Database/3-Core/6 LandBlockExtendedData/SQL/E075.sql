@@ -5,15 +5,15 @@ VALUES (0x7E075001,  1154, 0xE075001C, 83.87203, 81.70165, 0.001199961, 0.819152
 /* @teleloc 0xE075001C [83.872030 81.701650 0.001200] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E075001, 0x7E075002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E075001, 0x7E075003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E075001, 0x7E075004, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7E075001, 0x7E075005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E075001, 0x7E075006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E075001, 0x7E075007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7E075001, 0x7E075008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E075001, 0x7E075009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E075001, 0x7E07500A, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7E075001, 0x7E075002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E075001, 0x7E075003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E075001, 0x7E075004, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7E075001, 0x7E075005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E075001, 0x7E075006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E075001, 0x7E075007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7E075001, 0x7E075008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E075001, 0x7E075009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E075001, 0x7E07500A, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E075002,  7109, 0xE075001C, 83.87203, 81.70165, 0.001199961, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
@@ -56,7 +56,7 @@ VALUES (0x7E07500B,  1542, 0xE075001C, 95.75394, 80.64356, 0, -0.1736482, 0, 0, 
 /* @teleloc 0xE075001C [95.753940 80.643560 0.000000] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E07500B, 0x7E07500C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7E07500B, 0x7E07500C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E07500C,  4180, 0xE075001C, 95.75394, 80.64356, 0, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

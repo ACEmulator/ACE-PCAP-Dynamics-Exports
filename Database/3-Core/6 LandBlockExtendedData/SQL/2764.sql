@@ -5,17 +5,17 @@ VALUES (0x72764001,  1154, 0x2764000D, 24.30861, 112.7229, 86.9754, -0.3663846, 
 /* @teleloc 0x2764000D [24.308610 112.722900 86.975400] -0.366385 0.000000 0.000000 -0.930464 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72764001, 0x72764002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72764001, 0x72764003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72764001, 0x72764004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72764001, 0x72764005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72764001, 0x72764006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72764001, 0x72764007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72764001, 0x72764008, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72764001, 0x72764009, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72764001, 0x7276400A, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72764001, 0x7276400B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72764001, 0x7276400C, '2019-02-10 00:00:00') /* Maelstrom Shadow */;
+VALUES (0x72764001, 0x72764002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72764001, 0x72764003, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72764001, 0x72764004, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72764001, 0x72764005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72764001, 0x72764006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72764001, 0x72764007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72764001, 0x72764008, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72764001, 0x72764009, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72764001, 0x7276400A, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72764001, 0x7276400B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72764001, 0x7276400C, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72764002, 41535, 0x2764000D, 24.30861, 112.7229, 86.9754, -0.3663846, 0, 0, -0.9304635,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -66,7 +66,7 @@ VALUES (0x7276400D,  1542, 0x27640002, 19.48116, 46.19297, 62.9459, 1, 0, 0, 0, 
 /* @teleloc 0x27640002 [19.481160 46.192970 62.945900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7276400D, 0x7276400E, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7276400D, 0x7276400E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7276400E, 22571, 0x27640002, 19.48116, 46.19297, 62.9459, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

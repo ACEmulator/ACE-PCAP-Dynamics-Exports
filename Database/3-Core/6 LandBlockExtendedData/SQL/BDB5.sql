@@ -5,18 +5,18 @@ VALUES (0x7BDB5001,  1154, 0xBDB50032, 162.3948, 37.1539, 285.6832, -0.9156415, 
 /* @teleloc 0xBDB50032 [162.394800 37.153900 285.683200] -0.915642 0.000000 0.000000 -0.401996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDB5001, 0x7BDB5002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BDB5001, 0x7BDB5003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BDB5001, 0x7BDB5004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB5001, 0x7BDB5005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB5001, 0x7BDB5006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BDB5001, 0x7BDB5007, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7BDB5001, 0x7BDB5008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BDB5001, 0x7BDB5009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7BDB5001, 0x7BDB500A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7BDB5001, 0x7BDB500B, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BDB5001, 0x7BDB500C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BDB5001, 0x7BDB500D, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7BDB5001, 0x7BDB5002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BDB5001, 0x7BDB5003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BDB5001, 0x7BDB5004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB5001, 0x7BDB5005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB5001, 0x7BDB5006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BDB5001, 0x7BDB5007, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7BDB5001, 0x7BDB5008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BDB5001, 0x7BDB5009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7BDB5001, 0x7BDB500A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7BDB5001, 0x7BDB500B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BDB5001, 0x7BDB500C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BDB5001, 0x7BDB500D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDB5002,   937, 0xBDB50032, 162.3948, 37.1539, 285.6832, -0.9156415, 0, 0, -0.4019958,  True, '2019-02-10 00:00:00'); /* Banderling Guard */

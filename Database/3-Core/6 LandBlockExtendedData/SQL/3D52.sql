@@ -5,8 +5,8 @@ VALUES (0x73D52001,  1154, 0x3D520040, 174.1221, 174.0504, 33.03382, -0.9255835,
 /* @teleloc 0x3D520040 [174.122100 174.050400 33.033820] -0.925584 0.000000 0.000000 -0.378543 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D52001, 0x73D52002, '2019-02-10 00:00:00') /* Unstable Rift */
-     , (0x73D52001, 0x73D52003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73D52001, 0x73D52002, '2019-02-10 00:00:00') /* Unstable Rift (10802) */
+     , (0x73D52001, 0x73D52003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D52002, 10802, 0x3D520040, 174.1221, 174.0504, 33.03382, -0.9255835, 0, 0, -0.3785434,  True, '2019-02-10 00:00:00'); /* Unstable Rift */

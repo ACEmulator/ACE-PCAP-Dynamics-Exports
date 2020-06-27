@@ -5,27 +5,27 @@ VALUES (0x70B6E001,  1154, 0x0B6E0007, 6.150816, 150.7961, 57.03229, 0.4018879, 
 /* @teleloc 0x0B6E0007 [6.150816 150.796100 57.032290] 0.401888 0.000000 0.000000 -0.915689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B6E001, 0x70B6E002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6E001, 0x70B6E003, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70B6E001, 0x70B6E004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70B6E001, 0x70B6E005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70B6E001, 0x70B6E006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x70B6E001, 0x70B6E007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B6E001, 0x70B6E008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B6E001, 0x70B6E009, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70B6E001, 0x70B6E00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B6E001, 0x70B6E00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B6E001, 0x70B6E00C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B6E001, 0x70B6E00D, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70B6E001, 0x70B6E00E, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6E001, 0x70B6E00F, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6E001, 0x70B6E010, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6E001, 0x70B6E011, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70B6E001, 0x70B6E012, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x70B6E001, 0x70B6E013, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70B6E001, 0x70B6E014, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B6E001, 0x70B6E015, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x70B6E001, 0x70B6E016, '2019-02-10 00:00:00') /* Lacerator */;
+VALUES (0x70B6E001, 0x70B6E002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6E001, 0x70B6E003, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70B6E001, 0x70B6E004, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70B6E001, 0x70B6E005, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70B6E001, 0x70B6E006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x70B6E001, 0x70B6E007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B6E001, 0x70B6E008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B6E001, 0x70B6E009, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70B6E001, 0x70B6E00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B6E001, 0x70B6E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B6E001, 0x70B6E00C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B6E001, 0x70B6E00D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70B6E001, 0x70B6E00E, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6E001, 0x70B6E00F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6E001, 0x70B6E010, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6E001, 0x70B6E011, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70B6E001, 0x70B6E012, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x70B6E001, 0x70B6E013, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70B6E001, 0x70B6E014, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B6E001, 0x70B6E015, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x70B6E001, 0x70B6E016, '2019-02-10 00:00:00') /* Lacerator (24957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B6E002, 36820, 0x0B6E0007, 6.150816, 150.7961, 57.03229, 0.4018879, 0, 0, -0.9156889,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */

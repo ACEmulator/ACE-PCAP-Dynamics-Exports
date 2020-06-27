@@ -9,12 +9,12 @@ VALUES (0x7BB70001,  1154, 0xBB700016, 48.70102, 141.4036, 11.95258, -0.9745487,
 /* @teleloc 0xBB700016 [48.701020 141.403600 11.952580] -0.974549 0.000000 0.000000 -0.224176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB70001, 0x7BB70002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BB70001, 0x7BB70003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BB70001, 0x7BB70004, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB70001, 0x7BB70005, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BB70001, 0x7BB70006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7BB70001, 0x7BB70007, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7BB70001, 0x7BB70002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BB70001, 0x7BB70003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BB70001, 0x7BB70004, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB70001, 0x7BB70005, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BB70001, 0x7BB70006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7BB70001, 0x7BB70007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB70002,   200, 0xBB700016, 48.70102, 141.4036, 11.95258, -0.9745487, 0, 0, -0.2241758,  True, '2019-02-10 00:00:00'); /* Mud Golem */
@@ -45,7 +45,7 @@ VALUES (0x7BB70008,  1542, 0xBB70001F, 88.68298, 167.7424, 10, -4.371139E-08, 0,
 /* @teleloc 0xBB70001F [88.682980 167.742400 10.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB70008, 0x7BB70009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7BB70008, 0x7BB70009, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB70009,  4381, 0xBB70001F, 88.68298, 167.7424, 10, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Corpse */

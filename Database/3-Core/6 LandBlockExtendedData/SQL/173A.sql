@@ -5,23 +5,23 @@ VALUES (0x7173A001,  1154, 0x173A0014, 52.21545, 73.87282, 36.04415, -0.9984528,
 /* @teleloc 0x173A0014 [52.215450 73.872820 36.044150] -0.998453 0.000000 0.000000 -0.055605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7173A001, 0x7173A002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7173A001, 0x7173A003, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x7173A001, 0x7173A004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7173A001, 0x7173A005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7173A001, 0x7173A006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7173A001, 0x7173A007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7173A001, 0x7173A008, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7173A001, 0x7173A009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7173A001, 0x7173A00A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7173A001, 0x7173A00B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7173A001, 0x7173A00C, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7173A001, 0x7173A00D, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7173A001, 0x7173A00E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7173A001, 0x7173A00F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7173A001, 0x7173A010, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7173A001, 0x7173A011, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7173A001, 0x7173A012, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7173A001, 0x7173A002, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7173A001, 0x7173A003, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x7173A001, 0x7173A004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7173A001, 0x7173A005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7173A001, 0x7173A006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7173A001, 0x7173A007, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7173A001, 0x7173A008, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7173A001, 0x7173A009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7173A001, 0x7173A00A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7173A001, 0x7173A00B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7173A001, 0x7173A00C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7173A001, 0x7173A00D, '2019-02-10 00:00:00') /* Virindi Consul (23489) */
+     , (0x7173A001, 0x7173A00E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7173A001, 0x7173A00F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7173A001, 0x7173A010, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7173A001, 0x7173A011, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7173A001, 0x7173A012, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173A002, 23090, 0x173A0014, 52.21545, 73.87282, 36.04415, -0.9984528, 0, 0, -0.05560524,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
@@ -96,7 +96,7 @@ VALUES (0x7173A013,  1542, 0x173A003F, 187.9391, 167.4675, 10.29984, -4.371139E-
 /* @teleloc 0x173A003F [187.939100 167.467500 10.299840] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7173A013, 0x7173A014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7173A013, 0x7173A014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173A014,  4380, 0x173A003F, 187.9391, 167.4675, 10.29984, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

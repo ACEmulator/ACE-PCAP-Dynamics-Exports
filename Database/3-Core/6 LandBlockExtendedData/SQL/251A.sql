@@ -13,32 +13,32 @@ VALUES (0x7251A015,  1154, 0x251A0101, 157.42, 152.255, 12.0025, 0.970727, 0, 0,
 /* @teleloc 0x251A0101 [157.420000 152.255000 12.002500] 0.970727 0.000000 0.000000 0.240187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251A015, 0x7251A016, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7251A015, 0x7251A017, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A018, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A019, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A01A, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A01B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A01C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A01D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7251A015, 0x7251A01E, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7251A015, 0x7251A01F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A020, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x7251A015, 0x7251A021, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7251A015, 0x7251A022, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7251A015, 0x7251A023, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7251A015, 0x7251A024, '2019-02-10 00:00:00') /* Scoriscant */
-     , (0x7251A015, 0x7251A025, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7251A015, 0x7251A026, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7251A015, 0x7251A027, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7251A015, 0x7251A028, '2019-02-10 00:00:00') /* Conflagration */
-     , (0x7251A015, 0x7251A029, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7251A015, 0x7251A02A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7251A015, 0x7251A02B, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7251A015, 0x7251A02C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7251A015, 0x7251A02D, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7251A015, 0x7251A02E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7251A015, 0x7251A02F, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x7251A015, 0x7251A016, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7251A015, 0x7251A017, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A018, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A019, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A01A, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A01B, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A01C, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A01D, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A015, 0x7251A01E, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A015, 0x7251A01F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A020, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x7251A015, 0x7251A021, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7251A015, 0x7251A022, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7251A015, 0x7251A023, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7251A015, 0x7251A024, '2019-02-10 00:00:00') /* Scoriscant (19540) */
+     , (0x7251A015, 0x7251A025, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7251A015, 0x7251A026, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7251A015, 0x7251A027, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7251A015, 0x7251A028, '2019-02-10 00:00:00') /* Conflagration (19539) */
+     , (0x7251A015, 0x7251A029, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7251A015, 0x7251A02A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7251A015, 0x7251A02B, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7251A015, 0x7251A02C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7251A015, 0x7251A02D, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x7251A015, 0x7251A02E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7251A015, 0x7251A02F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251A016, 24317, 0x251A0101, 157.42, 152.255, 12.0025, 0.970727, 0, 0, 0.240187,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */

@@ -5,16 +5,16 @@ VALUES (0x75A13001,  1154, 0x5A130007, 4.559236, 149.6478, 123.2447, 0.8433914, 
 /* @teleloc 0x5A130007 [4.559236 149.647800 123.244700] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A13001, 0x75A13002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75A13001, 0x75A13003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x75A13001, 0x75A13004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x75A13001, 0x75A13005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75A13001, 0x75A13006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75A13001, 0x75A13007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x75A13001, 0x75A13008, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75A13001, 0x75A13009, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75A13001, 0x75A1300A, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x75A13001, 0x75A1300B, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x75A13001, 0x75A13002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75A13001, 0x75A13003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x75A13001, 0x75A13004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x75A13001, 0x75A13005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75A13001, 0x75A13006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75A13001, 0x75A13007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x75A13001, 0x75A13008, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75A13001, 0x75A13009, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75A13001, 0x75A1300A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x75A13001, 0x75A1300B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A13002,  1610, 0x5A130007, 4.559236, 149.6478, 123.2447, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -61,8 +61,8 @@ VALUES (0x75A1300C,  1542, 0x5A13001C, 74.38343, 94.71955, 75.20552, 1, 0, 0, 0,
 /* @teleloc 0x5A13001C [74.383430 94.719550 75.205520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75A1300C, 0x75A1300D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75A1300C, 0x75A1300E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x75A1300C, 0x75A1300D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75A1300C, 0x75A1300E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A1300D,  4179, 0x5A13001C, 74.38343, 94.71955, 75.20552, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

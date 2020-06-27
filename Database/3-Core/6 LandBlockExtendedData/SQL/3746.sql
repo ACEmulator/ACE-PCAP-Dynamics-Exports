@@ -5,16 +5,16 @@ VALUES (0x73746001,  1154, 0x3746001C, 79.75097, 87.04844, 73.23617, 0.9929572, 
 /* @teleloc 0x3746001C [79.750970 87.048440 73.236170] 0.992957 0.000000 0.000000 -0.118474 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73746001, 0x73746002, '2019-02-10 00:00:00') /* Enthralled Zealot */
-     , (0x73746001, 0x73746003, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73746001, 0x73746004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73746001, 0x73746005, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73746001, 0x73746006, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x73746001, 0x73746007, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73746001, 0x73746008, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x73746001, 0x73746009, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73746001, 0x7374600A, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73746001, 0x7374600B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */;
+VALUES (0x73746001, 0x73746002, '2019-02-10 00:00:00') /* Enthralled Zealot (27423) */
+     , (0x73746001, 0x73746003, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73746001, 0x73746004, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73746001, 0x73746005, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73746001, 0x73746006, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73746001, 0x73746007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73746001, 0x73746008, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73746001, 0x73746009, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73746001, 0x7374600A, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73746001, 0x7374600B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73746002, 27423, 0x3746001C, 79.75097, 87.04844, 73.23617, 0.9929572, 0, 0, -0.1184739,  True, '2019-02-10 00:00:00'); /* Enthralled Zealot */

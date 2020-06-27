@@ -5,10 +5,10 @@ VALUES (0x7E257001,  1154, 0xE2570038, 152.0924, 173.1861, 5.328959, 0.4226182, 
 /* @teleloc 0xE2570038 [152.092400 173.186100 5.328959] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E257001, 0x7E257002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E257001, 0x7E257003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E257001, 0x7E257004, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7E257001, 0x7E257005, '2019-02-10 00:00:00') /* Grey Rat */;
+VALUES (0x7E257001, 0x7E257002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E257001, 0x7E257003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E257001, 0x7E257004, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7E257001, 0x7E257005, '2019-02-10 00:00:00') /* Grey Rat (219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E257002,   193, 0xE2570038, 152.0924, 173.1861, 5.328959, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

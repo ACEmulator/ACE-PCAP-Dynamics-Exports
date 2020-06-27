@@ -5,19 +5,19 @@ VALUES (0x73EB4001,  1154, 0x3EB4002D, 126.2215, 112.64, -0.8946, -0.9996324, 0,
 /* @teleloc 0x3EB4002D [126.221500 112.640000 -0.894600] -0.999632 0.000000 0.000000 -0.027111 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EB4001, 0x73EB4002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EB4001, 0x73EB4003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73EB4001, 0x73EB4004, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x73EB4001, 0x73EB4005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73EB4001, 0x73EB4006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x73EB4001, 0x73EB4007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73EB4001, 0x73EB4008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EB4001, 0x73EB4009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73EB4001, 0x73EB400A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73EB4001, 0x73EB400B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73EB4001, 0x73EB400C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x73EB4001, 0x73EB400D, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x73EB4001, 0x73EB400E, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x73EB4001, 0x73EB4002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EB4001, 0x73EB4003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73EB4001, 0x73EB4004, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x73EB4001, 0x73EB4005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73EB4001, 0x73EB4006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x73EB4001, 0x73EB4007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73EB4001, 0x73EB4008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EB4001, 0x73EB4009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73EB4001, 0x73EB400A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73EB4001, 0x73EB400B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73EB4001, 0x73EB400C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x73EB4001, 0x73EB400D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x73EB4001, 0x73EB400E, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EB4002,  4247, 0x3EB4002D, 126.2215, 112.64, -0.8946, -0.9996324, 0, 0, -0.02711113,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -76,13 +76,13 @@ VALUES (0x73EB400F,  1542, 0x3EB4003A, 191.6888, 30.87922, -0.1025, -0.9714263, 
 /* @teleloc 0x3EB4003A [191.688800 30.879220 -0.102500] -0.971426 0.000000 0.000000 -0.237341 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EB400F, 0x73EB4010, '2019-02-10 00:00:00') /* Heaume */
-     , (0x73EB400F, 0x73EB4011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73EB400F, 0x73EB4012, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73EB400F, 0x73EB4013, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73EB400F, 0x73EB4014, '2019-02-10 00:00:00') /* Gateway */
-     , (0x73EB400F, 0x73EB4015, '2019-02-10 00:00:00') /* Corpse */
-     , (0x73EB400F, 0x73EB4016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73EB400F, 0x73EB4010, '2019-02-10 00:00:00') /* Heaume (8489) */
+     , (0x73EB400F, 0x73EB4011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73EB400F, 0x73EB4012, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73EB400F, 0x73EB4013, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73EB400F, 0x73EB4014, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73EB400F, 0x73EB4015, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x73EB400F, 0x73EB4016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EB4010,  8489, 0x3EB4003A, 191.6888, 30.87922, -0.1025, -0.9714263, 0, 0, -0.2373413,  True, '2019-02-10 00:00:00'); /* Heaume */

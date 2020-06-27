@@ -5,37 +5,37 @@ VALUES (0x796DA001,  1154, 0x96DA001E, 84.56997, 132.7131, 131.2643, 0.8706747, 
 /* @teleloc 0x96DA001E [84.569970 132.713100 131.264300] 0.870675 0.000000 0.000000 -0.491859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DA001, 0x796DA002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x796DA001, 0x796DA003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DA001, 0x796DA004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DA001, 0x796DA005, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x796DA001, 0x796DA006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DA001, 0x796DA007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796DA001, 0x796DA008, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796DA001, 0x796DA009, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DA001, 0x796DA00A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DA001, 0x796DA00B, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DA001, 0x796DA00C, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x796DA001, 0x796DA00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DA001, 0x796DA00E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x796DA001, 0x796DA00F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DA001, 0x796DA010, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x796DA001, 0x796DA011, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x796DA001, 0x796DA012, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x796DA001, 0x796DA013, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DA001, 0x796DA014, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796DA001, 0x796DA015, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x796DA001, 0x796DA016, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DA001, 0x796DA017, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DA001, 0x796DA018, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x796DA001, 0x796DA019, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x796DA001, 0x796DA01A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DA001, 0x796DA01B, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x796DA001, 0x796DA01C, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x796DA001, 0x796DA01D, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x796DA001, 0x796DA01E, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x796DA001, 0x796DA01F, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x796DA001, 0x796DA020, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x796DA001, 0x796DA002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x796DA001, 0x796DA003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DA001, 0x796DA004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DA001, 0x796DA005, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x796DA001, 0x796DA006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DA001, 0x796DA007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796DA001, 0x796DA008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796DA001, 0x796DA009, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DA001, 0x796DA00A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DA001, 0x796DA00B, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DA001, 0x796DA00C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x796DA001, 0x796DA00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x796DA001, 0x796DA00E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x796DA001, 0x796DA00F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DA001, 0x796DA010, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x796DA001, 0x796DA011, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x796DA001, 0x796DA012, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x796DA001, 0x796DA013, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DA001, 0x796DA014, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796DA001, 0x796DA015, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x796DA001, 0x796DA016, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DA001, 0x796DA017, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DA001, 0x796DA018, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x796DA001, 0x796DA019, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x796DA001, 0x796DA01A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DA001, 0x796DA01B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DA001, 0x796DA01C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x796DA001, 0x796DA01D, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x796DA001, 0x796DA01E, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x796DA001, 0x796DA01F, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x796DA001, 0x796DA020, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DA002,  9252, 0x96DA001E, 84.56997, 132.7131, 131.2643, 0.8706747, 0, 0, -0.4918593,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -166,17 +166,17 @@ VALUES (0x796DA021,  1542, 0x96DA0038, 158.6456, 180.5756, 162.5007, 1, 0, 0, 0,
 /* @teleloc 0x96DA0038 [158.645600 180.575600 162.500700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DA021, 0x796DA022, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x796DA021, 0x796DA023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796DA021, 0x796DA024, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x796DA021, 0x796DA025, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x796DA021, 0x796DA026, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x796DA021, 0x796DA027, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x796DA021, 0x796DA028, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x796DA021, 0x796DA029, '2019-02-10 00:00:00') /* Rock */
-     , (0x796DA021, 0x796DA02A, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x796DA021, 0x796DA02B, '2019-02-10 00:00:00') /* Bones */
-     , (0x796DA021, 0x796DA02C, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x796DA021, 0x796DA022, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x796DA021, 0x796DA023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DA021, 0x796DA024, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x796DA021, 0x796DA025, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x796DA021, 0x796DA026, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x796DA021, 0x796DA027, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x796DA021, 0x796DA028, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DA021, 0x796DA029, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x796DA021, 0x796DA02A, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x796DA021, 0x796DA02B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x796DA021, 0x796DA02C, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DA022,  9024, 0x96DA0038, 158.6456, 180.5756, 162.5007, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

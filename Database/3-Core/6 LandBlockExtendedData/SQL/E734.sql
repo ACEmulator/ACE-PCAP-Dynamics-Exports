@@ -5,13 +5,13 @@ VALUES (0x7E734001,  1154, 0xE7340011, 62.85392, 20.43454, 6.178818, 0.3629057, 
 /* @teleloc 0xE7340011 [62.853920 20.434540 6.178818] 0.362906 0.000000 0.000000 -0.931826 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E734001, 0x7E734002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7E734001, 0x7E734003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E734001, 0x7E734004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E734001, 0x7E734005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E734001, 0x7E734006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7E734001, 0x7E734007, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E734001, 0x7E734008, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E734001, 0x7E734002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7E734001, 0x7E734003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E734001, 0x7E734004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E734001, 0x7E734005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E734001, 0x7E734006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7E734001, 0x7E734007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E734001, 0x7E734008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E734002,  8429, 0xE7340011, 62.85392, 20.43454, 6.178818, 0.3629057, 0, 0, -0.9318259,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

@@ -9,14 +9,14 @@ VALUES (0x74BB7001,  1154, 0x4BB70006, 20.23214, 130.8284, 240.011, 0.9238795, 0
 /* @teleloc 0x4BB70006 [20.232140 130.828400 240.011000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BB7001, 0x74BB7002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x74BB7001, 0x74BB7003, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x74BB7001, 0x74BB7004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74BB7001, 0x74BB7005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74BB7001, 0x74BB7006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74BB7001, 0x74BB7007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x74BB7001, 0x74BB7008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x74BB7001, 0x74BB7009, '2019-02-10 00:00:00') /* Dire Ursuin */;
+VALUES (0x74BB7001, 0x74BB7002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x74BB7001, 0x74BB7003, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x74BB7001, 0x74BB7004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74BB7001, 0x74BB7005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74BB7001, 0x74BB7006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74BB7001, 0x74BB7007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x74BB7001, 0x74BB7008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x74BB7001, 0x74BB7009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB7002,  1628, 0x4BB70006, 20.23214, 130.8284, 240.011, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

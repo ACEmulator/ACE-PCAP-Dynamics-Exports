@@ -9,19 +9,19 @@ VALUES (0x7CC5E001,  1154, 0xCC5E0002, 2.482437, 24.72293, 13.95176, -0.7401202,
 /* @teleloc 0xCC5E0002 [2.482437 24.722930 13.951760] -0.740120 0.000000 0.000000 -0.672475 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC5E001, 0x7CC5E002, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7CC5E001, 0x7CC5E003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CC5E001, 0x7CC5E004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7CC5E001, 0x7CC5E005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5E001, 0x7CC5E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5E001, 0x7CC5E007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7CC5E001, 0x7CC5E008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5E001, 0x7CC5E009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5E001, 0x7CC5E00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CC5E001, 0x7CC5E00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC5E001, 0x7CC5E00C, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CC5E001, 0x7CC5E00D, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7CC5E001, 0x7CC5E00E, '2019-02-10 00:00:00') /* Essa Sclavus */;
+VALUES (0x7CC5E001, 0x7CC5E002, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7CC5E001, 0x7CC5E003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CC5E001, 0x7CC5E004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7CC5E001, 0x7CC5E005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5E001, 0x7CC5E006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5E001, 0x7CC5E007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7CC5E001, 0x7CC5E008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5E001, 0x7CC5E009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5E001, 0x7CC5E00A, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CC5E001, 0x7CC5E00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC5E001, 0x7CC5E00C, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CC5E001, 0x7CC5E00D, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7CC5E001, 0x7CC5E00E, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC5E002,  7106, 0xCC5E0002, 2.482437, 24.72293, 13.95176, -0.7401202, 0, 0, -0.6724746,  True, '2019-02-10 00:00:00'); /* Sewer Rat */

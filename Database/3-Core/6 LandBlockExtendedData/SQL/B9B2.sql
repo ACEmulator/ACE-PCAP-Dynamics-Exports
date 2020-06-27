@@ -5,9 +5,9 @@ VALUES (0x7B9B2001,  1154, 0xB9B2001D, 78.38246, 113.1746, 104.1338, 0.9541183, 
 /* @teleloc 0xB9B2001D [78.382460 113.174600 104.133800] 0.954118 0.000000 0.000000 -0.299430 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9B2001, 0x7B9B2002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B9B2001, 0x7B9B2003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B9B2001, 0x7B9B2004, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7B9B2001, 0x7B9B2002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B9B2001, 0x7B9B2003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B9B2001, 0x7B9B2004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9B2002,  1609, 0xB9B2001D, 78.38246, 113.1746, 104.1338, 0.9541183, 0, 0, -0.2994299,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

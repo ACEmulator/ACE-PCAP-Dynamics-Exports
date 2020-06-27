@@ -13,15 +13,15 @@ VALUES (0x7388C004,  1154, 0x388C0022, 109.065, 43.0157, 82.01, 0.990024, 0, 0, 
 /* @teleloc 0x388C0022 [109.065000 43.015700 82.010000] 0.990024 0.000000 0.000000 -0.140899 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388C004, 0x7388C005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7388C004, 0x7388C006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7388C004, 0x7388C007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7388C004, 0x7388C008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7388C004, 0x7388C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7388C004, 0x7388C00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7388C004, 0x7388C00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7388C004, 0x7388C00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7388C004, 0x7388C00D, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7388C004, 0x7388C005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7388C004, 0x7388C006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7388C004, 0x7388C007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7388C004, 0x7388C008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7388C004, 0x7388C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7388C004, 0x7388C00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7388C004, 0x7388C00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7388C004, 0x7388C00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7388C004, 0x7388C00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388C005,   202, 0x388C0022, 109.065, 43.0157, 82.01, 0.990024, 0, 0, -0.140899,  True, '2019-02-10 00:00:00'); /* Sandstone Golem */
@@ -64,7 +64,7 @@ VALUES (0x7388C00E,  1542, 0x388C0020, 74.65226, 171.122, 40.08083, 0.9990482, 0
 /* @teleloc 0x388C0020 [74.652260 171.122000 40.080830] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388C00E, 0x7388C00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7388C00E, 0x7388C00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388C00F,  4179, 0x388C0020, 74.65226, 171.122, 40.08083, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

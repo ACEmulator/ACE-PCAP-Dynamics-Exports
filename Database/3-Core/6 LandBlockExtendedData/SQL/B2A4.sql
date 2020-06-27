@@ -5,21 +5,21 @@ VALUES (0x7B2A4001,  1154, 0xB2A4003F, 179.0904, 149.6474, 30.005, 0.6427876, 0,
 /* @teleloc 0xB2A4003F [179.090400 149.647400 30.005000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2A4001, 0x7B2A4002, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B2A4001, 0x7B2A4003, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B2A4001, 0x7B2A4004, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B2A4001, 0x7B2A4005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7B2A4001, 0x7B2A4006, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A4001, 0x7B2A4007, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B2A4001, 0x7B2A4008, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7B2A4001, 0x7B2A4009, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B2A4001, 0x7B2A400A, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B2A4001, 0x7B2A400B, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B2A4001, 0x7B2A400C, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7B2A4001, 0x7B2A400D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B2A4001, 0x7B2A400E, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B2A4001, 0x7B2A400F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B2A4001, 0x7B2A4010, '2019-02-10 00:00:00') /* Banderling Breeder */;
+VALUES (0x7B2A4001, 0x7B2A4002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B2A4001, 0x7B2A4003, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B2A4001, 0x7B2A4004, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B2A4001, 0x7B2A4005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B2A4001, 0x7B2A4006, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A4001, 0x7B2A4007, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B2A4001, 0x7B2A4008, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B2A4001, 0x7B2A4009, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B2A4001, 0x7B2A400A, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B2A4001, 0x7B2A400B, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B2A4001, 0x7B2A400C, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B2A4001, 0x7B2A400D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B2A4001, 0x7B2A400E, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B2A4001, 0x7B2A400F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B2A4001, 0x7B2A4010, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2A4002,    10, 0xB2A4003F, 179.0904, 149.6474, 30.005, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mite Scamp */

@@ -5,10 +5,10 @@ VALUES (0x79DD9001,  1154, 0x9DD90022, 108.0404, 27.06149, 52, -0.3124548, 0, 0,
 /* @teleloc 0x9DD90022 [108.040400 27.061490 52.000000] -0.312455 0.000000 0.000000 -0.949933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DD9001, 0x79DD9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x79DD9001, 0x79DD9003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79DD9001, 0x79DD9004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79DD9001, 0x79DD9005, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x79DD9001, 0x79DD9002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x79DD9001, 0x79DD9003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79DD9001, 0x79DD9004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79DD9001, 0x79DD9005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DD9002, 28551, 0x9DD90022, 108.0404, 27.06149, 52, -0.3124548, 0, 0, -0.9499326,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
@@ -31,7 +31,7 @@ VALUES (0x79DD9006,  1542, 0x9DD90022, 116.5688, 36.72133, 51.937, -0.3124548, 0
 /* @teleloc 0x9DD90022 [116.568800 36.721330 51.937000] -0.312455 0.000000 0.000000 -0.949933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DD9006, 0x79DD9007, '2019-02-10 00:00:00') /* Humming Crystal Portal */;
+VALUES (0x79DD9006, 0x79DD9007, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DD9007,  9071, 0x9DD90022, 116.5688, 36.72133, 51.937, -0.3124548, 0, 0, -0.9499326,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */

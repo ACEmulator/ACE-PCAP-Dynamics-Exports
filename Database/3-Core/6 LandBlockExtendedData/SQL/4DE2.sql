@@ -5,12 +5,12 @@ VALUES (0x74DE2001,  1154, 0x4DE20009, 35.33695, 5.374332, 75.68594, 0.9396926, 
 /* @teleloc 0x4DE20009 [35.336950 5.374332 75.685940] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DE2001, 0x74DE2002, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74DE2001, 0x74DE2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74DE2001, 0x74DE2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x74DE2001, 0x74DE2005, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74DE2001, 0x74DE2006, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x74DE2001, 0x74DE2007, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x74DE2001, 0x74DE2002, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74DE2001, 0x74DE2003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74DE2001, 0x74DE2004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x74DE2001, 0x74DE2005, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74DE2001, 0x74DE2006, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x74DE2001, 0x74DE2007, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DE2002, 37098, 0x4DE20009, 35.33695, 5.374332, 75.68594, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Raider */

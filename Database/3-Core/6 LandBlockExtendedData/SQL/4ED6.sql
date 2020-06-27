@@ -5,10 +5,10 @@ VALUES (0x74ED6001,  1154, 0x4ED60034, 164.012, 90.58659, 26.91321, -0.6838723, 
 /* @teleloc 0x4ED60034 [164.012000 90.586590 26.913210] -0.683872 0.000000 0.000000 -0.729602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74ED6001, 0x74ED6002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74ED6001, 0x74ED6003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74ED6001, 0x74ED6004, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74ED6001, 0x74ED6005, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x74ED6001, 0x74ED6002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74ED6001, 0x74ED6003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74ED6001, 0x74ED6004, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74ED6001, 0x74ED6005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74ED6002,  7340, 0x4ED60034, 164.012, 90.58659, 26.91321, -0.6838723, 0, 0, -0.7296017,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -31,7 +31,7 @@ VALUES (0x74ED6006,  1542, 0x4ED60021, 96.92262, 3.815485, 16.07688, 1, 0, 0, 0,
 /* @teleloc 0x4ED60021 [96.922620 3.815485 16.076880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74ED6006, 0x74ED6007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x74ED6006, 0x74ED6007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74ED6007, 22567, 0x4ED60021, 96.92262, 3.815485, 16.07688, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

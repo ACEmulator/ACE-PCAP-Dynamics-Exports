@@ -5,18 +5,18 @@ VALUES (0x7947B001,  1154, 0x947B0001, 10.3979, 0.3683352, 39.1492, 0.5739136, 0
 /* @teleloc 0x947B0001 [10.397900 0.368335 39.149200] 0.573914 0.000000 0.000000 -0.818916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7947B001, 0x7947B002, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x7947B001, 0x7947B003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7947B001, 0x7947B004, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7947B001, 0x7947B005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7947B001, 0x7947B006, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7947B001, 0x7947B007, '2019-02-10 00:00:00') /* Undead */
-     , (0x7947B001, 0x7947B008, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7947B001, 0x7947B009, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x7947B001, 0x7947B00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7947B001, 0x7947B00B, '2019-02-10 00:00:00') /* Spark */
-     , (0x7947B001, 0x7947B00C, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7947B001, 0x7947B00D, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7947B001, 0x7947B002, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x7947B001, 0x7947B003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7947B001, 0x7947B004, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7947B001, 0x7947B005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7947B001, 0x7947B006, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7947B001, 0x7947B007, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7947B001, 0x7947B008, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7947B001, 0x7947B009, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x7947B001, 0x7947B00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7947B001, 0x7947B00B, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7947B001, 0x7947B00C, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7947B001, 0x7947B00D, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947B002,  5683, 0x947B0001, 10.3979, 0.3683352, 39.1492, 0.5739136, 0, 0, -0.8189158,  True, '2019-02-10 00:00:00'); /* Seared Skeleton */
@@ -71,8 +71,8 @@ VALUES (0x7947B00E,  1542, 0x947B000E, 34.56976, 135.1695, 46.97406, 0.9990482, 
 /* @teleloc 0x947B000E [34.569760 135.169500 46.974060] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7947B00E, 0x7947B00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7947B00E, 0x7947B010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7947B00E, 0x7947B00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7947B00E, 0x7947B010, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947B00F,  4179, 0x947B000E, 34.56976, 135.1695, 46.97406, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

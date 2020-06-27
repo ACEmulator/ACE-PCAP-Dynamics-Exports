@@ -5,10 +5,10 @@ VALUES (0x7A9D0001,  1154, 0xA9D00029, 140.8513, 10.20648, 134.0421, 0.6735497, 
 /* @teleloc 0xA9D00029 [140.851300 10.206480 134.042100] 0.673550 0.000000 0.000000 -0.739142 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9D0001, 0x7A9D0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7A9D0001, 0x7A9D0003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D0001, 0x7A9D0004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A9D0001, 0x7A9D0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7A9D0001, 0x7A9D0002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7A9D0001, 0x7A9D0003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D0001, 0x7A9D0004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A9D0001, 0x7A9D0005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9D0002, 28551, 0xA9D00029, 140.8513, 10.20648, 134.0421, 0.6735497, 0, 0, -0.7391419,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

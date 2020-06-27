@@ -5,11 +5,11 @@ VALUES (0x7591B001,  1154, 0x591B0026, 100.3572, 132.0329, -0.1, 0.8826587, 0, 0
 /* @teleloc 0x591B0026 [100.357200 132.032900 -0.100000] 0.882659 0.000000 0.000000 -0.470015 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7591B001, 0x7591B002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7591B001, 0x7591B003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7591B001, 0x7591B004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7591B001, 0x7591B005, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x7591B001, 0x7591B006, '2019-02-10 00:00:00') /* Subtle Simulacrum */;
+VALUES (0x7591B001, 0x7591B002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7591B001, 0x7591B003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7591B001, 0x7591B004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7591B001, 0x7591B005, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x7591B001, 0x7591B006, '2019-02-10 00:00:00') /* Subtle Simulacrum (12135) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7591B002, 32483, 0x591B0026, 100.3572, 132.0329, -0.1, 0.8826587, 0, 0, -0.4700145,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

@@ -5,11 +5,11 @@ VALUES (0x7B214001,  1154, 0xB2140011, 64.15136, 8.653341, 120.249, 0.1731104, 0
 /* @teleloc 0xB2140011 [64.151360 8.653341 120.249000] 0.173110 0.000000 0.000000 -0.984902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B214001, 0x7B214002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B214001, 0x7B214003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B214001, 0x7B214004, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7B214001, 0x7B214005, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B214001, 0x7B214006, '2019-02-10 00:00:00') /* K'nath N'osaj */;
+VALUES (0x7B214001, 0x7B214002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B214001, 0x7B214003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B214001, 0x7B214004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7B214001, 0x7B214005, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B214001, 0x7B214006, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B214002,   199, 0xB2140011, 64.15136, 8.653341, 120.249, 0.1731104, 0, 0, -0.9849024,  True, '2019-02-10 00:00:00'); /* Magma Golem */

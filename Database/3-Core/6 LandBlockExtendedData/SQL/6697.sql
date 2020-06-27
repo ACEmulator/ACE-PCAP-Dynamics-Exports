@@ -5,15 +5,15 @@ VALUES (0x76697001,  1154, 0x66970037, 145.5585, 154.6902, 20.25075, 0.9490052, 
 /* @teleloc 0x66970037 [145.558500 154.690200 20.250750] 0.949005 0.000000 0.000000 -0.315261 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76697001, 0x76697002, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x76697001, 0x76697003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x76697001, 0x76697004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x76697001, 0x76697005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76697001, 0x76697006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x76697001, 0x76697007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76697001, 0x76697008, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76697001, 0x76697009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x76697001, 0x7669700A, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x76697001, 0x76697002, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x76697001, 0x76697003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x76697001, 0x76697004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x76697001, 0x76697005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76697001, 0x76697006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x76697001, 0x76697007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76697001, 0x76697008, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76697001, 0x76697009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x76697001, 0x7669700A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76697002,  9252, 0x66970037, 145.5585, 154.6902, 20.25075, 0.9490052, 0, 0, -0.3152605,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7669700B,  1542, 0x66970020, 78.70136, 188.942, 14.1356, 0.9990482, 0,
 /* @teleloc 0x66970020 [78.701360 188.942000 14.135600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7669700B, 0x7669700C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7669700B, 0x7669700C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7669700C,  4179, 0x66970020, 78.70136, 188.942, 14.1356, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

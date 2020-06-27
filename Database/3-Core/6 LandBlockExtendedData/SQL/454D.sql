@@ -5,9 +5,9 @@ VALUES (0x7454D001,  1154, 0x454D0008, 10.66488, 170.0426, 4.548314, 0.7950836, 
 /* @teleloc 0x454D0008 [10.664880 170.042600 4.548314] 0.795084 0.000000 0.000000 -0.606500 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7454D001, 0x7454D002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7454D001, 0x7454D003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x7454D001, 0x7454D004, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x7454D001, 0x7454D002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7454D001, 0x7454D003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7454D001, 0x7454D004, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7454D002, 23616, 0x454D0008, 10.66488, 170.0426, 4.548314, 0.7950836, 0, 0, -0.6064999,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

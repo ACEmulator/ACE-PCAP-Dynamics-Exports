@@ -5,11 +5,11 @@ VALUES (0x7992C001,  1154, 0x992C001B, 93.20114, 71.23909, 58.10507, 0.6293204, 
 /* @teleloc 0x992C001B [93.201140 71.239090 58.105070] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7992C001, 0x7992C002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7992C001, 0x7992C003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7992C001, 0x7992C004, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7992C001, 0x7992C005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7992C001, 0x7992C006, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7992C001, 0x7992C002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7992C001, 0x7992C003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7992C001, 0x7992C004, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7992C001, 0x7992C005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7992C001, 0x7992C006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7992C002,  4255, 0x992C001B, 93.20114, 71.23909, 58.10507, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -36,7 +36,7 @@ VALUES (0x7992C007,  1542, 0x992C001C, 95.18936, 72.76453, 59.13728, -0.1736482,
 /* @teleloc 0x992C001C [95.189360 72.764530 59.137280] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7992C007, 0x7992C008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7992C007, 0x7992C008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7992C008,  4180, 0x992C001C, 95.18936, 72.76453, 59.13728, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

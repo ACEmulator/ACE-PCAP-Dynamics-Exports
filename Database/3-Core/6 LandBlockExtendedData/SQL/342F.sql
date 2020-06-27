@@ -5,15 +5,15 @@ VALUES (0x7342F001,  1154, 0x342F0005, 15.57631, 116.1483, 90.71517, 0.9400204, 
 /* @teleloc 0x342F0005 [15.576310 116.148300 90.715170] 0.940020 0.000000 0.000000 -0.341118 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7342F001, 0x7342F002, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7342F001, 0x7342F003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7342F001, 0x7342F004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7342F001, 0x7342F005, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7342F001, 0x7342F006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7342F001, 0x7342F007, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7342F001, 0x7342F008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7342F001, 0x7342F009, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7342F001, 0x7342F00A, '2019-02-10 00:00:00') /* Virindi Adjudicator */;
+VALUES (0x7342F001, 0x7342F002, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7342F001, 0x7342F003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x7342F001, 0x7342F004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7342F001, 0x7342F005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7342F001, 0x7342F006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7342F001, 0x7342F007, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7342F001, 0x7342F008, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7342F001, 0x7342F009, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7342F001, 0x7342F00A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7342F002, 10810, 0x342F0005, 15.57631, 116.1483, 90.71517, 0.9400204, 0, 0, -0.3411184,  True, '2019-02-10 00:00:00'); /* Rampager */

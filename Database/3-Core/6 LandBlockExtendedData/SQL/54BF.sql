@@ -5,42 +5,42 @@ VALUES (0x754BF001,  1154, 0x54BF0033, 161.8428, 49.57068, 0.002499998, 0.819152
 /* @teleloc 0x54BF0033 [161.842800 49.570680 0.002500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754BF001, 0x754BF002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x754BF001, 0x754BF003, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x754BF001, 0x754BF004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x754BF001, 0x754BF005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x754BF001, 0x754BF006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x754BF001, 0x754BF007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x754BF001, 0x754BF008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x754BF001, 0x754BF009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x754BF001, 0x754BF00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x754BF001, 0x754BF00B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x754BF001, 0x754BF00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x754BF001, 0x754BF00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x754BF001, 0x754BF00E, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x754BF001, 0x754BF00F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x754BF001, 0x754BF010, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x754BF001, 0x754BF011, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x754BF001, 0x754BF012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x754BF001, 0x754BF013, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x754BF001, 0x754BF014, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x754BF001, 0x754BF015, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x754BF001, 0x754BF016, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x754BF001, 0x754BF017, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x754BF001, 0x754BF018, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x754BF001, 0x754BF019, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x754BF001, 0x754BF01A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x754BF001, 0x754BF01B, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x754BF001, 0x754BF01C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x754BF001, 0x754BF01D, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x754BF001, 0x754BF01E, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x754BF001, 0x754BF01F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x754BF001, 0x754BF020, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x754BF001, 0x754BF021, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x754BF001, 0x754BF022, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x754BF001, 0x754BF023, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x754BF001, 0x754BF024, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x754BF001, 0x754BF025, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x754BF001, 0x754BF002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x754BF001, 0x754BF003, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x754BF001, 0x754BF004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x754BF001, 0x754BF005, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x754BF001, 0x754BF006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x754BF001, 0x754BF007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x754BF001, 0x754BF008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x754BF001, 0x754BF009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x754BF001, 0x754BF00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x754BF001, 0x754BF00B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x754BF001, 0x754BF00C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x754BF001, 0x754BF00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x754BF001, 0x754BF00E, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x754BF001, 0x754BF00F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x754BF001, 0x754BF010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x754BF001, 0x754BF011, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x754BF001, 0x754BF012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x754BF001, 0x754BF013, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x754BF001, 0x754BF014, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x754BF001, 0x754BF015, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x754BF001, 0x754BF016, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x754BF001, 0x754BF017, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x754BF001, 0x754BF018, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x754BF001, 0x754BF019, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x754BF001, 0x754BF01A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x754BF001, 0x754BF01B, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x754BF001, 0x754BF01C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x754BF001, 0x754BF01D, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x754BF001, 0x754BF01E, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x754BF001, 0x754BF01F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x754BF001, 0x754BF020, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x754BF001, 0x754BF021, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x754BF001, 0x754BF022, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x754BF001, 0x754BF023, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x754BF001, 0x754BF024, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x754BF001, 0x754BF025, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754BF002,  7334, 0x54BF0033, 161.8428, 49.57068, 0.002499998, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -191,13 +191,13 @@ VALUES (0x754BF026,  1542, 0x54BF0033, 160.028, 50.41477, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x54BF0033 [160.028000 50.414770 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x754BF026, 0x754BF027, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x754BF026, 0x754BF028, '2019-02-10 00:00:00') /* Bones */
-     , (0x754BF026, 0x754BF029, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x754BF026, 0x754BF02A, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x754BF026, 0x754BF02B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x754BF026, 0x754BF02C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x754BF026, 0x754BF02D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x754BF026, 0x754BF027, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x754BF026, 0x754BF028, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x754BF026, 0x754BF029, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x754BF026, 0x754BF02A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x754BF026, 0x754BF02B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x754BF026, 0x754BF02C, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x754BF026, 0x754BF02D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x754BF027, 22566, 0x54BF0033, 160.028, 50.41477, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

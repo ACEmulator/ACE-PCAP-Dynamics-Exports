@@ -5,8 +5,8 @@ VALUES (0x7CB9E001,  1154, 0xCB9E0001, 15.60051, 10.59294, 22.60696, 0.5475105, 
 /* @teleloc 0xCB9E0001 [15.600510 10.592940 22.606960] 0.547511 0.000000 0.000000 -0.836799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB9E001, 0x7CB9E002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CB9E001, 0x7CB9E003, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x7CB9E001, 0x7CB9E002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CB9E001, 0x7CB9E003, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB9E002,  7345, 0xCB9E0001, 15.60051, 10.59294, 22.60696, 0.5475105, 0, 0, -0.8367988,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

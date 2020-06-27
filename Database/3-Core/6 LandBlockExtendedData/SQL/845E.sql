@@ -5,11 +5,11 @@ VALUES (0x7845E001,  1154, 0x845E0040, 171.5485, 187.742, 11.64766, 0.9238795, 0
 /* @teleloc 0x845E0040 [171.548500 187.742000 11.647660] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7845E001, 0x7845E002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7845E001, 0x7845E003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7845E001, 0x7845E004, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7845E001, 0x7845E005, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7845E001, 0x7845E006, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7845E001, 0x7845E002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7845E001, 0x7845E003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7845E001, 0x7845E004, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7845E001, 0x7845E005, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7845E001, 0x7845E006, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7845E002,  1759, 0x845E0040, 171.5485, 187.742, 11.64766, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -36,7 +36,7 @@ VALUES (0x7845E007,  1542, 0x845E0040, 174.4817, 185.0224, 11.41853, 0.9914449, 
 /* @teleloc 0x845E0040 [174.481700 185.022400 11.418530] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7845E007, 0x7845E008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7845E007, 0x7845E008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7845E008,  4380, 0x845E0040, 174.4817, 185.0224, 11.41853, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

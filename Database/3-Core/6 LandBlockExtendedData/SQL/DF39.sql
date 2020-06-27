@@ -5,13 +5,13 @@ VALUES (0x7DF39001,  1154, 0xDF390007, 17.673, 144.4309, 21.50866, -0.6526139, 0
 /* @teleloc 0xDF390007 [17.673000 144.430900 21.508660] -0.652614 0.000000 0.000000 -0.757691 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF39001, 0x7DF39002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DF39001, 0x7DF39003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF39001, 0x7DF39004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7DF39001, 0x7DF39005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DF39001, 0x7DF39006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7DF39001, 0x7DF39007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7DF39001, 0x7DF39008, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7DF39001, 0x7DF39002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DF39001, 0x7DF39003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF39001, 0x7DF39004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7DF39001, 0x7DF39005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DF39001, 0x7DF39006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7DF39001, 0x7DF39007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7DF39001, 0x7DF39008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF39002,     3, 0xDF390007, 17.673, 144.4309, 21.50866, -0.6526139, 0, 0, -0.7576906,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -46,7 +46,7 @@ VALUES (0x7DF39009,  1542, 0xDF390006, 17.69702, 121.1752, 21.55592, 0.7071068, 
 /* @teleloc 0xDF390006 [17.697020 121.175200 21.555920] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF39009, 0x7DF3900A, '2019-02-10 00:00:00') /* Ginseng */;
+VALUES (0x7DF39009, 0x7DF3900A, '2019-02-10 00:00:00') /* Ginseng (625) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3900A,   625, 0xDF390006, 17.69702, 121.1752, 21.55592, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ginseng */

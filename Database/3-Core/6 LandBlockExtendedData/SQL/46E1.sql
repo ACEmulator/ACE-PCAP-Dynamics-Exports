@@ -5,11 +5,11 @@ VALUES (0x746E1001,  1154, 0x46E10008, 16.89845, 185.8393, 26.60854, 0.7660445, 
 /* @teleloc 0x46E10008 [16.898450 185.839300 26.608540] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746E1001, 0x746E1002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x746E1001, 0x746E1003, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x746E1001, 0x746E1004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x746E1001, 0x746E1005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x746E1001, 0x746E1006, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x746E1001, 0x746E1002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x746E1001, 0x746E1003, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x746E1001, 0x746E1004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x746E1001, 0x746E1005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x746E1001, 0x746E1006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746E1002,  7121, 0x46E10008, 16.89845, 185.8393, 26.60854, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -36,7 +36,7 @@ VALUES (0x746E1007,  1542, 0x46E10008, 2.484858, 176.5157, 20.24757, 1, 0, 0, 0,
 /* @teleloc 0x46E10008 [2.484858 176.515700 20.247570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746E1007, 0x746E1008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x746E1007, 0x746E1008, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746E1008, 22567, 0x46E10008, 2.484858, 176.5157, 20.24757, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

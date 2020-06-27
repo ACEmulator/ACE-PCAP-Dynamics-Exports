@@ -5,16 +5,16 @@ VALUES (0x70C73001,  1154, 0x0C73003F, 172.077, 150.6498, 89.99776, 0.8191521, 0
 /* @teleloc 0x0C73003F [172.077000 150.649800 89.997760] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C73001, 0x70C73002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70C73001, 0x70C73003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70C73001, 0x70C73004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70C73001, 0x70C73005, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70C73001, 0x70C73006, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70C73001, 0x70C73007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C73001, 0x70C73008, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70C73001, 0x70C73009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70C73001, 0x70C7300A, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70C73001, 0x70C7300B, '2019-02-10 00:00:00') /* Pandemonium Shadow */;
+VALUES (0x70C73001, 0x70C73002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70C73001, 0x70C73003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70C73001, 0x70C73004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70C73001, 0x70C73005, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70C73001, 0x70C73006, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70C73001, 0x70C73007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C73001, 0x70C73008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70C73001, 0x70C73009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70C73001, 0x70C7300A, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70C73001, 0x70C7300B, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C73002,  7983, 0x0C73003F, 172.077, 150.6498, 89.99776, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Bane Grievver */

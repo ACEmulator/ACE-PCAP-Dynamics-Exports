@@ -5,89 +5,89 @@ VALUES (0x72AEF001,  1154, 0x2AEF001A, 83.35863, 46.1767, 50.42127, 0.9461625, 0
 /* @teleloc 0x2AEF001A [83.358630 46.176700 50.421270] 0.946163 0.000000 0.000000 -0.323692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AEF001, 0x72AEF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF004, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AEF001, 0x72AEF007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF008, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF00A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF00B, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF00C, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF00D, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF00E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF00F, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF011, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF012, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF013, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF014, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF015, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEF001, 0x72AEF016, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF017, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF018, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF019, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF01A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF01B, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF01C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF01D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AEF001, 0x72AEF01E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF01F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF020, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF021, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF022, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF023, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AEF001, 0x72AEF024, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF025, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF026, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF027, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF028, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF029, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF02A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF02B, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF02C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEF001, 0x72AEF02D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEF001, 0x72AEF02E, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF02F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF030, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEF001, 0x72AEF031, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF032, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF033, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF034, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF035, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF036, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF037, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF038, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF039, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF03A, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF03B, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF03C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF03D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF03E, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF03F, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF040, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF041, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72AEF001, 0x72AEF042, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72AEF001, 0x72AEF043, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF044, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF045, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF046, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF047, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF048, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72AEF001, 0x72AEF049, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF04A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72AEF001, 0x72AEF04B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF04C, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF04D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72AEF001, 0x72AEF04E, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72AEF001, 0x72AEF04F, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72AEF001, 0x72AEF050, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72AEF001, 0x72AEF051, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF052, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x72AEF001, 0x72AEF053, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72AEF001, 0x72AEF054, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x72AEF001, 0x72AEF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF004, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF006, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AEF001, 0x72AEF007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF008, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF00A, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF00B, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF00C, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF00D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF00E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF00F, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF011, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF012, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF013, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF014, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF015, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEF001, 0x72AEF016, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF017, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF018, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF019, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF01A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF01B, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF01C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF01D, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AEF001, 0x72AEF01E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF01F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF020, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF021, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF022, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF023, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AEF001, 0x72AEF024, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF025, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF026, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF027, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF028, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF029, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF02A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF02B, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF02C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEF001, 0x72AEF02D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEF001, 0x72AEF02E, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF02F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF030, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEF001, 0x72AEF031, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF032, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF033, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF034, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF035, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF036, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF037, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF038, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF039, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF03A, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF03B, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF03C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF03D, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF03E, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF03F, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF040, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF041, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72AEF001, 0x72AEF042, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72AEF001, 0x72AEF043, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF044, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF045, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF046, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF047, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF048, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72AEF001, 0x72AEF049, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF04A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72AEF001, 0x72AEF04B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF04C, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF04D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72AEF001, 0x72AEF04E, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72AEF001, 0x72AEF04F, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AEF001, 0x72AEF050, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72AEF001, 0x72AEF051, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF052, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x72AEF001, 0x72AEF053, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72AEF001, 0x72AEF054, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AEF002, 38176, 0x2AEF001A, 83.35863, 46.1767, 50.42127, 0.9461625, 0, 0, -0.3236919,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

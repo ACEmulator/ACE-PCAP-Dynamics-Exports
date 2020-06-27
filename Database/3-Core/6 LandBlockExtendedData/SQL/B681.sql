@@ -5,11 +5,11 @@ VALUES (0x7B681001,  1154, 0xB681002F, 135.5746, 145.8298, 28.53463, 0.9994482, 
 /* @teleloc 0xB681002F [135.574600 145.829800 28.534630] 0.999448 0.000000 0.000000 -0.033216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B681001, 0x7B681002, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B681001, 0x7B681003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7B681001, 0x7B681004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B681001, 0x7B681005, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7B681001, 0x7B681006, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7B681001, 0x7B681002, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B681001, 0x7B681003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7B681001, 0x7B681004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B681001, 0x7B681005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7B681001, 0x7B681006, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B681002,  8014, 0xB681002F, 135.5746, 145.8298, 28.53463, 0.9994482, 0, 0, -0.03321562,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -36,7 +36,7 @@ VALUES (0x7B681007,  1542, 0xB681002F, 125.7602, 164.3219, 28.42386, 0.9990482, 
 /* @teleloc 0xB681002F [125.760200 164.321900 28.423860] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B681007, 0x7B681008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B681007, 0x7B681008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B681008,  4179, 0xB681002F, 125.7602, 164.3219, 28.42386, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

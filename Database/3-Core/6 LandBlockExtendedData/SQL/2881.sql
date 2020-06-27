@@ -5,12 +5,12 @@ VALUES (0x72881001,  1154, 0x28810030, 125.6812, 180.7238, 150, -0.9329447, 0, 0
 /* @teleloc 0x28810030 [125.681200 180.723800 150.000000] -0.932945 0.000000 0.000000 -0.360020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72881001, 0x72881002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72881001, 0x72881003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72881001, 0x72881004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72881001, 0x72881005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72881001, 0x72881006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72881001, 0x72881007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x72881001, 0x72881002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72881001, 0x72881003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72881001, 0x72881004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72881001, 0x72881005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72881001, 0x72881006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72881001, 0x72881007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72881002, 23482, 0x28810030, 125.6812, 180.7238, 150, -0.9329447, 0, 0, -0.3600196,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -41,7 +41,7 @@ VALUES (0x72881008,  1542, 0x28810025, 104.6472, 107.9988, 144, 0.7772716, 0, 0,
 /* @teleloc 0x28810025 [104.647200 107.998800 144.000000] 0.777272 0.000000 0.000000 -0.629165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72881008, 0x72881009, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x72881008, 0x72881009, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72881009, 11555, 0x28810025, 104.6472, 107.9988, 144, 0.7772716, 0, 0, -0.6291652,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

@@ -25,17 +25,17 @@ VALUES (0x7ED33005,  1154, 0xED330103, 108.306, 182.212, 60.011, -0.16832, 0, 0,
 /* @teleloc 0xED330103 [108.306000 182.212000 60.011000] -0.168320 0.000000 0.000000 -0.985732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED33005, 0x7ED33006, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7ED33005, 0x7ED33007, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7ED33005, 0x7ED33008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7ED33005, 0x7ED33009, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7ED33005, 0x7ED3300A, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7ED33005, 0x7ED3300B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7ED33005, 0x7ED3300C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7ED33005, 0x7ED3300D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7ED33005, 0x7ED3300E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED33005, 0x7ED3300F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED33005, 0x7ED33010, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7ED33005, 0x7ED33006, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7ED33005, 0x7ED33007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7ED33005, 0x7ED33008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7ED33005, 0x7ED33009, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7ED33005, 0x7ED3300A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7ED33005, 0x7ED3300B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7ED33005, 0x7ED3300C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ED33005, 0x7ED3300D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ED33005, 0x7ED3300E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED33005, 0x7ED3300F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED33005, 0x7ED33010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED33006,   195, 0xED330103, 108.306, 182.212, 60.011, -0.16832, 0, 0, -0.985732,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -86,7 +86,7 @@ VALUES (0x7ED33011,  1542, 0xED330018, 63.34818, 180.1835, 59.71258, -0.9986845,
 /* @teleloc 0xED330018 [63.348180 180.183500 59.712580] -0.998685 0.000000 0.000000 -0.051277 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED33011, 0x7ED33012, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7ED33011, 0x7ED33012, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED33012, 42528, 0xED330018, 63.34818, 180.1835, 59.71258, -0.9986845, 0, 0, -0.05127699,  True, '2019-02-10 00:00:00'); /* Rock */

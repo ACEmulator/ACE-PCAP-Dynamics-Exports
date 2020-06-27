@@ -5,11 +5,11 @@ VALUES (0x7DB28001,  1154, 0xDB28003D, 185.0237, 109.9754, 136.0083, -0.9320998,
 /* @teleloc 0xDB28003D [185.023700 109.975400 136.008300] -0.932100 0.000000 0.000000 -0.362202 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB28001, 0x7DB28002, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DB28001, 0x7DB28003, '2019-02-10 00:00:00') /* Ember */
-     , (0x7DB28001, 0x7DB28004, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7DB28001, 0x7DB28005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7DB28001, 0x7DB28006, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7DB28001, 0x7DB28002, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DB28001, 0x7DB28003, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7DB28001, 0x7DB28004, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7DB28001, 0x7DB28005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7DB28001, 0x7DB28006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB28002,   619, 0xDB28003D, 185.0237, 109.9754, 136.0083, -0.9320998, 0, 0, -0.3622016,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -36,7 +36,7 @@ VALUES (0x7DB28007,  1542, 0xDB28003D, 179.3774, 119.5617, 136, 1, 0, 0, 0, Fals
 /* @teleloc 0xDB28003D [179.377400 119.561700 136.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB28007, 0x7DB28008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DB28007, 0x7DB28008, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB28008, 22571, 0xDB28003D, 179.3774, 119.5617, 136, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

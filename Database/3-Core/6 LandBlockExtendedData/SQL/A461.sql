@@ -5,20 +5,20 @@ VALUES (0x7A461001,  1154, 0xA4610020, 95.10408, 173.5013, 25.87968, -0.4883124,
 /* @teleloc 0xA4610020 [95.104080 173.501300 25.879680] -0.488312 0.000000 0.000000 -0.872669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A461001, 0x7A461002, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A461001, 0x7A461003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7A461001, 0x7A461004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A461001, 0x7A461005, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x7A461001, 0x7A461006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7A461001, 0x7A461007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A461001, 0x7A461008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A461001, 0x7A461009, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7A461001, 0x7A46100A, '2019-02-10 00:00:00') /* Marionette */
-     , (0x7A461001, 0x7A46100B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A461001, 0x7A46100C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A461001, 0x7A46100D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A461001, 0x7A46100E, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x7A461001, 0x7A46100F, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7A461001, 0x7A461002, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A461001, 0x7A461003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7A461001, 0x7A461004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A461001, 0x7A461005, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A461001, 0x7A461006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7A461001, 0x7A461007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A461001, 0x7A461008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A461001, 0x7A461009, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7A461001, 0x7A46100A, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x7A461001, 0x7A46100B, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7A461001, 0x7A46100C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A461001, 0x7A46100D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A461001, 0x7A46100E, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A461001, 0x7A46100F, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A461002,    23, 0xA4610020, 95.10408, 173.5013, 25.87968, -0.4883124, 0, 0, -0.8726689,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -81,7 +81,7 @@ VALUES (0x7A461010,  1542, 0xA461000F, 46.59378, 150.2684, 20, 1, 0, 0, 0, False
 /* @teleloc 0xA461000F [46.593780 150.268400 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A461010, 0x7A461011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A461010, 0x7A461011, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A461011, 22570, 0xA461000F, 46.59378, 150.2684, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

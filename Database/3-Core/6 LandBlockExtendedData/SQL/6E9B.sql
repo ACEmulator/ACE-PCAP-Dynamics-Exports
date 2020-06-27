@@ -5,10 +5,10 @@ VALUES (0x76E9B001,  1154, 0x6E9B002A, 126.3699, 24.21106, 86.09348, -0.9041879,
 /* @teleloc 0x6E9B002A [126.369900 24.211060 86.093480] -0.904188 0.000000 0.000000 -0.427135 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76E9B001, 0x76E9B002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x76E9B001, 0x76E9B003, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x76E9B001, 0x76E9B004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x76E9B001, 0x76E9B005, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x76E9B001, 0x76E9B002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x76E9B001, 0x76E9B003, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x76E9B001, 0x76E9B004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x76E9B001, 0x76E9B005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76E9B002, 24289, 0x6E9B002A, 126.3699, 24.21106, 86.09348, -0.9041879, 0, 0, -0.427135,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

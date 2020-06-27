@@ -5,13 +5,13 @@ VALUES (0x7BEEE001,  1154, 0xBEEE0019, 72.27586, 23.38081, 69.45643, 0.3987491, 
 /* @teleloc 0xBEEE0019 [72.275860 23.380810 69.456430] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BEEE001, 0x7BEEE002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BEEE001, 0x7BEEE003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BEEE001, 0x7BEEE004, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7BEEE001, 0x7BEEE005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BEEE001, 0x7BEEE006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BEEE001, 0x7BEEE007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BEEE001, 0x7BEEE008, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x7BEEE001, 0x7BEEE002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BEEE001, 0x7BEEE003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BEEE001, 0x7BEEE004, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7BEEE001, 0x7BEEE005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BEEE001, 0x7BEEE006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BEEE001, 0x7BEEE007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BEEE001, 0x7BEEE008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BEEE002,  7088, 0xBEEE0019, 72.27586, 23.38081, 69.45643, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

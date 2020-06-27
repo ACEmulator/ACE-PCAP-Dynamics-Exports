@@ -5,13 +5,13 @@ VALUES (0x7CB87001,  1154, 0xCB870018, 58.49326, 182.9493, 3.108925, -0.7546921,
 /* @teleloc 0xCB870018 [58.493260 182.949300 3.108925] -0.754692 0.000000 0.000000 -0.656079 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB87001, 0x7CB87002, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7CB87001, 0x7CB87003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CB87001, 0x7CB87004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7CB87001, 0x7CB87005, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7CB87001, 0x7CB87006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7CB87001, 0x7CB87007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CB87001, 0x7CB87008, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7CB87001, 0x7CB87002, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7CB87001, 0x7CB87003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CB87001, 0x7CB87004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7CB87001, 0x7CB87005, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7CB87001, 0x7CB87006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7CB87001, 0x7CB87007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CB87001, 0x7CB87008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB87002,   177, 0xCB870018, 58.49326, 182.9493, 3.108925, -0.7546921, 0, 0, -0.6560791,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */

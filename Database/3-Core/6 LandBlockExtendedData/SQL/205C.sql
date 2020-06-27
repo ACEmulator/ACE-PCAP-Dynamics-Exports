@@ -5,9 +5,9 @@ VALUES (0x7205C001,  1154, 0x205C003A, 189.1701, 38.56923, 14.63058, -0.01649882
 /* @teleloc 0x205C003A [189.170100 38.569230 14.630580] -0.016499 0.000000 0.000000 -0.999864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7205C001, 0x7205C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7205C001, 0x7205C003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7205C001, 0x7205C004, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x7205C001, 0x7205C002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7205C001, 0x7205C003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7205C001, 0x7205C004, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7205C002, 36829, 0x205C003A, 189.1701, 38.56923, 14.63058, -0.01649882, 0, 0, -0.9998639,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

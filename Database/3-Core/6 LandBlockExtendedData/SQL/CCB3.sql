@@ -5,33 +5,33 @@ VALUES (0x7CCB3001,  1154, 0xCCB30037, 165.3225, 155.3691, 221.8271, 1, 0, 0, 0,
 /* @teleloc 0xCCB30037 [165.322500 155.369100 221.827100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCB3001, 0x7CCB3002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CCB3001, 0x7CCB3003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CCB3001, 0x7CCB3004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CCB3001, 0x7CCB3005, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CCB3001, 0x7CCB3006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CCB3001, 0x7CCB3007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CCB3001, 0x7CCB3008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CCB3001, 0x7CCB3009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CCB3001, 0x7CCB300A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CCB3001, 0x7CCB300B, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CCB3001, 0x7CCB300C, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CCB3001, 0x7CCB300D, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CCB3001, 0x7CCB300E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CCB3001, 0x7CCB300F, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7CCB3001, 0x7CCB3010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CCB3001, 0x7CCB3011, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CCB3001, 0x7CCB3012, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CCB3001, 0x7CCB3013, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CCB3001, 0x7CCB3014, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CCB3001, 0x7CCB3015, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7CCB3001, 0x7CCB3016, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CCB3001, 0x7CCB3017, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7CCB3001, 0x7CCB3018, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CCB3001, 0x7CCB3019, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7CCB3001, 0x7CCB301A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CCB3001, 0x7CCB301B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CCB3001, 0x7CCB301C, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7CCB3001, 0x7CCB3002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CCB3001, 0x7CCB3003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CCB3001, 0x7CCB3004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CCB3001, 0x7CCB3005, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CCB3001, 0x7CCB3006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CCB3001, 0x7CCB3007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CCB3001, 0x7CCB3008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CCB3001, 0x7CCB3009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CCB3001, 0x7CCB300A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CCB3001, 0x7CCB300B, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CCB3001, 0x7CCB300C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CCB3001, 0x7CCB300D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CCB3001, 0x7CCB300E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CCB3001, 0x7CCB300F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7CCB3001, 0x7CCB3010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CCB3001, 0x7CCB3011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CCB3001, 0x7CCB3012, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CCB3001, 0x7CCB3013, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CCB3001, 0x7CCB3014, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CCB3001, 0x7CCB3015, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CCB3001, 0x7CCB3016, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CCB3001, 0x7CCB3017, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CCB3001, 0x7CCB3018, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CCB3001, 0x7CCB3019, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7CCB3001, 0x7CCB301A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CCB3001, 0x7CCB301B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CCB3001, 0x7CCB301C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCB3002,   231, 0xCCB30037, 165.3225, 155.3691, 221.8271, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -146,11 +146,11 @@ VALUES (0x7CCB301D,  1542, 0xCCB30037, 165.283, 153.9554, 222.346, 1, 0, 0, 0, F
 /* @teleloc 0xCCB30037 [165.283000 153.955400 222.346000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCB301D, 0x7CCB301E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7CCB301D, 0x7CCB301F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CCB301D, 0x7CCB3020, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CCB301D, 0x7CCB3021, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CCB301D, 0x7CCB3022, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CCB301D, 0x7CCB301E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7CCB301D, 0x7CCB301F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CCB301D, 0x7CCB3020, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CCB301D, 0x7CCB3021, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CCB301D, 0x7CCB3022, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCB301E, 31443, 0xCCB30037, 165.283, 153.9554, 222.346, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

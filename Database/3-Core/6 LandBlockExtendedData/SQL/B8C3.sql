@@ -5,11 +5,11 @@ VALUES (0x7B8C3001,  1154, 0xB8C30021, 97.09711, 20.37817, 257.6139, 0.9924349, 
 /* @teleloc 0xB8C30021 [97.097110 20.378170 257.613900] 0.992435 0.000000 0.000000 -0.122772 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8C3001, 0x7B8C3002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7B8C3001, 0x7B8C3003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B8C3001, 0x7B8C3004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B8C3001, 0x7B8C3005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B8C3001, 0x7B8C3006, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7B8C3001, 0x7B8C3002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7B8C3001, 0x7B8C3003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B8C3001, 0x7B8C3004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B8C3001, 0x7B8C3005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B8C3001, 0x7B8C3006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8C3002, 22809, 0xB8C30021, 97.09711, 20.37817, 257.6139, 0.9924349, 0, 0, -0.1227722,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -36,7 +36,7 @@ VALUES (0x7B8C3007,  1542, 0xB8C3000A, 34.45808, 42.71134, 272.9447, 1, 0, 0, 0,
 /* @teleloc 0xB8C3000A [34.458080 42.711340 272.944700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8C3007, 0x7B8C3008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B8C3007, 0x7B8C3008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8C3008,  4380, 0xB8C3000A, 34.45808, 42.71134, 272.9447, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

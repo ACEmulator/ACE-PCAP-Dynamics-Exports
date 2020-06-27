@@ -5,11 +5,11 @@ VALUES (0x74148001,  1154, 0x41480008, 14.30963, 191.1612, 19.72039, -0.5567436,
 /* @teleloc 0x41480008 [14.309630 191.161200 19.720390] -0.556744 0.000000 0.000000 -0.830684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74148001, 0x74148002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74148001, 0x74148003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74148001, 0x74148004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74148001, 0x74148005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74148001, 0x74148006, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74148001, 0x74148002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74148001, 0x74148003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x74148001, 0x74148004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74148001, 0x74148005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74148001, 0x74148006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74148002, 23616, 0x41480008, 14.30963, 191.1612, 19.72039, -0.5567436, 0, 0, -0.8306844,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

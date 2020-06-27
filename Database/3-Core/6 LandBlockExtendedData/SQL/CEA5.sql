@@ -5,12 +5,12 @@ VALUES (0x7CEA5001,  1154, 0xCEA50004, 6.989292, 80.8988, 40.74907, 0.976296, 0,
 /* @teleloc 0xCEA50004 [6.989292 80.898800 40.749070] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CEA5001, 0x7CEA5002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CEA5001, 0x7CEA5003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CEA5001, 0x7CEA5004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CEA5001, 0x7CEA5005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CEA5001, 0x7CEA5006, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CEA5001, 0x7CEA5007, '2019-02-10 00:00:00') /* Charge */;
+VALUES (0x7CEA5001, 0x7CEA5002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CEA5001, 0x7CEA5003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CEA5001, 0x7CEA5004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CEA5001, 0x7CEA5005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CEA5001, 0x7CEA5006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CEA5001, 0x7CEA5007, '2019-02-10 00:00:00') /* Charge (21168) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CEA5002,  1630, 0xCEA50004, 6.989292, 80.8988, 40.74907, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */

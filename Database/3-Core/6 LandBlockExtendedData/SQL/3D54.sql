@@ -5,13 +5,13 @@ VALUES (0x73D54001,  1154, 0x3D54000D, 37.3863, 118.8736, 36.79886, -0.03005914,
 /* @teleloc 0x3D54000D [37.386300 118.873600 36.798860] -0.030059 0.000000 0.000000 -0.999548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D54001, 0x73D54002, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73D54001, 0x73D54003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73D54001, 0x73D54004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73D54001, 0x73D54005, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73D54001, 0x73D54006, '2019-02-10 00:00:00') /* Flare */
-     , (0x73D54001, 0x73D54007, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73D54001, 0x73D54008, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x73D54001, 0x73D54002, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73D54001, 0x73D54003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73D54001, 0x73D54004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73D54001, 0x73D54005, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73D54001, 0x73D54006, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x73D54001, 0x73D54007, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73D54001, 0x73D54008, '2019-02-10 00:00:00') /* Flamma (5711) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D54002, 24325, 0x3D54000D, 37.3863, 118.8736, 36.79886, -0.03005914, 0, 0, -0.9995481,  True, '2019-02-10 00:00:00'); /* Phantasm */

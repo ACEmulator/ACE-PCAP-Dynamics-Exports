@@ -13,39 +13,39 @@ VALUES (0x703FE038,  1154, 0x03FE0224, 211.387, -128.261, 0.004949987, -0.756179
 /* @teleloc 0x03FE0224 [211.387000 -128.261000 0.004950] -0.756179 0.000000 0.000000 -0.654365 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703FE038, 0x703FE039, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE03A, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE03B, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE03C, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x703FE038, 0x703FE03D, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x703FE038, 0x703FE03E, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x703FE038, 0x703FE03F, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x703FE038, 0x703FE040, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x703FE038, 0x703FE041, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x703FE038, 0x703FE042, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x703FE038, 0x703FE043, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x703FE038, 0x703FE044, '2019-02-10 00:00:00') /* Brown Rat */
-     , (0x703FE038, 0x703FE045, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE046, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE047, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE048, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE049, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE04A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE04B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE04C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x703FE038, 0x703FE04D, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE04E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x703FE038, 0x703FE04F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE050, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x703FE038, 0x703FE051, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE052, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE053, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE054, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE055, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE056, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE057, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE058, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x703FE038, 0x703FE059, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x703FE038, 0x703FE039, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE03A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE03B, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE03C, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x703FE038, 0x703FE03D, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x703FE038, 0x703FE03E, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x703FE038, 0x703FE03F, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x703FE038, 0x703FE040, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x703FE038, 0x703FE041, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x703FE038, 0x703FE042, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x703FE038, 0x703FE043, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x703FE038, 0x703FE044, '2019-02-10 00:00:00') /* Brown Rat (220) */
+     , (0x703FE038, 0x703FE045, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE046, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE047, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE048, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE049, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE04A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE04B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE04C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x703FE038, 0x703FE04D, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE04E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x703FE038, 0x703FE04F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE050, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x703FE038, 0x703FE051, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE052, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE053, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE054, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE055, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE056, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE057, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE058, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x703FE038, 0x703FE059, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703FE039,   948, 0x03FE0224, 211.387, -128.261, 0.004949987, -0.756179, 0, 0, -0.654365,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */
@@ -184,10 +184,10 @@ VALUES (0x703FE05A,  1542, 0x03FE0114, 5.55157, -5.74302, -15.7257, 0.95267, 0, 
 /* @teleloc 0x03FE0114 [5.551570 -5.743020 -15.725700] 0.952670 0.000000 0.000000 0.304005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x703FE05A, 0x703FE05B, '2019-02-10 00:00:00') /* Mossy Herb */
-     , (0x703FE05A, 0x703FE05C, '2019-02-10 00:00:00') /* Mossy Herb */
-     , (0x703FE05A, 0x703FE05D, '2019-02-10 00:00:00') /* Mossy Herb */
-     , (0x703FE05A, 0x703FE05E, '2019-02-10 00:00:00') /* Mossy Herb */;
+VALUES (0x703FE05A, 0x703FE05B, '2019-02-10 00:00:00') /* Mossy Herb (28830) */
+     , (0x703FE05A, 0x703FE05C, '2019-02-10 00:00:00') /* Mossy Herb (28830) */
+     , (0x703FE05A, 0x703FE05D, '2019-02-10 00:00:00') /* Mossy Herb (28830) */
+     , (0x703FE05A, 0x703FE05E, '2019-02-10 00:00:00') /* Mossy Herb (28830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x703FE05B, 28830, 0x03FE0114, 5.55157, -5.74302, -15.7257, 0.95267, 0, 0, 0.304005,  True, '2019-02-10 00:00:00'); /* Mossy Herb */

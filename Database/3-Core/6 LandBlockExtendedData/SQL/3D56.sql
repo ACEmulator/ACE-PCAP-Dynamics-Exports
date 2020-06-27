@@ -5,10 +5,10 @@ VALUES (0x73D56001,  1154, 0x3D56002F, 139.8297, 160.2025, 40.00825, -0.5929734,
 /* @teleloc 0x3D56002F [139.829700 160.202500 40.008250] -0.592973 0.000000 0.000000 -0.805222 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D56001, 0x73D56002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73D56001, 0x73D56003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x73D56001, 0x73D56004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73D56001, 0x73D56005, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x73D56001, 0x73D56002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73D56001, 0x73D56003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x73D56001, 0x73D56004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73D56001, 0x73D56005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D56002, 24320, 0x3D56002F, 139.8297, 160.2025, 40.00825, -0.5929734, 0, 0, -0.805222,  True, '2019-02-10 00:00:00'); /* Great Revenant */

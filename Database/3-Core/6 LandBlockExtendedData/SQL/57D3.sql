@@ -5,11 +5,11 @@ VALUES (0x757D3001,  1154, 0x57D3001D, 78.28648, 109.9089, 62.54621, -0.5023174,
 /* @teleloc 0x57D3001D [78.286480 109.908900 62.546210] -0.502317 0.000000 0.000000 -0.864683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757D3001, 0x757D3002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x757D3001, 0x757D3003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x757D3001, 0x757D3004, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x757D3001, 0x757D3005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757D3001, 0x757D3006, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x757D3001, 0x757D3002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x757D3001, 0x757D3003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x757D3001, 0x757D3004, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x757D3001, 0x757D3005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757D3001, 0x757D3006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757D3002, 10806, 0x57D3001D, 78.28648, 109.9089, 62.54621, -0.5023174, 0, 0, -0.8646833,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

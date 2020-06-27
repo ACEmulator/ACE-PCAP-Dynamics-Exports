@@ -5,10 +5,10 @@ VALUES (0x7ABE9001,  1154, 0xABE9000D, 26.24637, 116.8698, -0.895, -0.997639, 0,
 /* @teleloc 0xABE9000D [26.246370 116.869800 -0.895000] -0.997639 0.000000 0.000000 -0.068676 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABE9001, 0x7ABE9002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7ABE9001, 0x7ABE9003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ABE9001, 0x7ABE9004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7ABE9001, 0x7ABE9005, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7ABE9001, 0x7ABE9002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7ABE9001, 0x7ABE9003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ABE9001, 0x7ABE9004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7ABE9001, 0x7ABE9005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABE9002, 11526, 0xABE9000D, 26.24637, 116.8698, -0.895, -0.997639, 0, 0, -0.0686764,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

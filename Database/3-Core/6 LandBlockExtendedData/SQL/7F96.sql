@@ -5,13 +5,13 @@ VALUES (0x77F96001,  1154, 0x7F96002A, 129.7848, 42.72126, 150.6786, -0.6840879,
 /* @teleloc 0x7F96002A [129.784800 42.721260 150.678600] -0.684088 0.000000 0.000000 -0.729400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F96001, 0x77F96002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x77F96001, 0x77F96003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x77F96001, 0x77F96004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77F96001, 0x77F96005, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x77F96001, 0x77F96006, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77F96001, 0x77F96007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x77F96001, 0x77F96008, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x77F96001, 0x77F96002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x77F96001, 0x77F96003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x77F96001, 0x77F96004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77F96001, 0x77F96005, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x77F96001, 0x77F96006, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77F96001, 0x77F96007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x77F96001, 0x77F96008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F96002,  1609, 0x7F96002A, 129.7848, 42.72126, 150.6786, -0.6840879, 0, 0, -0.7293995,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

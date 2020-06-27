@@ -5,23 +5,23 @@ VALUES (0x7AAE9001,  1154, 0xAAE9002B, 120.8916, 55.36927, 3.304096, 0.7071068, 
 /* @teleloc 0xAAE9002B [120.891600 55.369270 3.304096] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAE9001, 0x7AAE9002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AAE9001, 0x7AAE9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AAE9001, 0x7AAE9004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7AAE9001, 0x7AAE9005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7AAE9001, 0x7AAE9006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7AAE9001, 0x7AAE9007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7AAE9001, 0x7AAE9008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7AAE9001, 0x7AAE9009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7AAE9001, 0x7AAE900A, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7AAE9001, 0x7AAE900B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7AAE9001, 0x7AAE900C, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7AAE9001, 0x7AAE900D, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7AAE9001, 0x7AAE900E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7AAE9001, 0x7AAE900F, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x7AAE9001, 0x7AAE9010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AAE9001, 0x7AAE9011, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7AAE9001, 0x7AAE9012, '2019-02-10 00:00:00') /* Tumerok Warrior */;
+VALUES (0x7AAE9001, 0x7AAE9002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AAE9001, 0x7AAE9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AAE9001, 0x7AAE9004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7AAE9001, 0x7AAE9005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7AAE9001, 0x7AAE9006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7AAE9001, 0x7AAE9007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7AAE9001, 0x7AAE9008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7AAE9001, 0x7AAE9009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7AAE9001, 0x7AAE900A, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7AAE9001, 0x7AAE900B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7AAE9001, 0x7AAE900C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7AAE9001, 0x7AAE900D, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7AAE9001, 0x7AAE900E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7AAE9001, 0x7AAE900F, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x7AAE9001, 0x7AAE9010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AAE9001, 0x7AAE9011, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7AAE9001, 0x7AAE9012, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAE9002, 24294, 0xAAE9002B, 120.8916, 55.36927, 3.304096, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -96,10 +96,10 @@ VALUES (0x7AAE9013,  1542, 0xAAE90019, 93.11763, 7.893865, 4, 0.2519832, 0, 0, -
 /* @teleloc 0xAAE90019 [93.117630 7.893865 4.000000] 0.251983 0.000000 0.000000 -0.967732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAE9013, 0x7AAE9014, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7AAE9013, 0x7AAE9015, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AAE9013, 0x7AAE9016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AAE9013, 0x7AAE9017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7AAE9013, 0x7AAE9014, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7AAE9013, 0x7AAE9015, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7AAE9013, 0x7AAE9016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AAE9013, 0x7AAE9017, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAE9014,  8039, 0xAAE90019, 93.11763, 7.893865, 4, 0.2519832, 0, 0, -0.9677316,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

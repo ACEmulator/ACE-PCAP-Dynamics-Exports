@@ -5,16 +5,16 @@ VALUES (0x7B9A3001,  1154, 0xB9A30031, 164.3174, 8.396468, 2, 0.1701299, 0, 0, -
 /* @teleloc 0xB9A30031 [164.317400 8.396468 2.000000] 0.170130 0.000000 0.000000 -0.985422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A3001, 0x7B9A3002, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7B9A3001, 0x7B9A3003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B9A3001, 0x7B9A3004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B9A3001, 0x7B9A3005, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7B9A3001, 0x7B9A3006, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7B9A3001, 0x7B9A3007, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B9A3001, 0x7B9A3008, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B9A3001, 0x7B9A3009, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7B9A3001, 0x7B9A300A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B9A3001, 0x7B9A300B, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7B9A3001, 0x7B9A3002, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B9A3001, 0x7B9A3003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B9A3001, 0x7B9A3004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B9A3001, 0x7B9A3005, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7B9A3001, 0x7B9A3006, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7B9A3001, 0x7B9A3007, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B9A3001, 0x7B9A3008, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B9A3001, 0x7B9A3009, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7B9A3001, 0x7B9A300A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B9A3001, 0x7B9A300B, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A3002,  7986, 0xB9A30031, 164.3174, 8.396468, 2, 0.1701299, 0, 0, -0.9854217,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
@@ -61,8 +61,8 @@ VALUES (0x7B9A300C,  1542, 0xB9A3003E, 172.3585, 141.3217, 35.03796, 0.4601018, 
 /* @teleloc 0xB9A3003E [172.358500 141.321700 35.037960] 0.460102 0.000000 0.000000 -0.887866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9A300C, 0x7B9A300D, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7B9A300C, 0x7B9A300E, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7B9A300C, 0x7B9A300D, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7B9A300C, 0x7B9A300E, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9A300D, 31686, 0xB9A3003E, 172.3585, 141.3217, 35.03796, 0.4601018, 0, 0, -0.8878661,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

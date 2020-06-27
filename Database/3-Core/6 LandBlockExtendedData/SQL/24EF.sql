@@ -5,25 +5,25 @@ VALUES (0x724EF001,  1154, 0x24EF002C, 142.0059, 86.60522, 7.678156, 0.3581419, 
 /* @teleloc 0x24EF002C [142.005900 86.605220 7.678156] 0.358142 0.000000 0.000000 -0.933667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724EF001, 0x724EF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x724EF001, 0x724EF003, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x724EF001, 0x724EF004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x724EF001, 0x724EF005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x724EF001, 0x724EF006, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x724EF001, 0x724EF007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x724EF001, 0x724EF008, '2019-02-10 00:00:00') /* Dread Mu-miyah */
-     , (0x724EF001, 0x724EF009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x724EF001, 0x724EF00A, '2019-02-10 00:00:00') /* Eater */
-     , (0x724EF001, 0x724EF00B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x724EF001, 0x724EF00C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x724EF001, 0x724EF00D, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x724EF001, 0x724EF00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x724EF001, 0x724EF00F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x724EF001, 0x724EF010, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x724EF001, 0x724EF011, '2019-02-10 00:00:00') /* Eater */
-     , (0x724EF001, 0x724EF012, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x724EF001, 0x724EF013, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x724EF001, 0x724EF014, '2019-02-10 00:00:00') /* Paroxysm Shadow */;
+VALUES (0x724EF001, 0x724EF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x724EF001, 0x724EF003, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x724EF001, 0x724EF004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x724EF001, 0x724EF005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x724EF001, 0x724EF006, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x724EF001, 0x724EF007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x724EF001, 0x724EF008, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x724EF001, 0x724EF009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x724EF001, 0x724EF00A, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x724EF001, 0x724EF00B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x724EF001, 0x724EF00C, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x724EF001, 0x724EF00D, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x724EF001, 0x724EF00E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x724EF001, 0x724EF00F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x724EF001, 0x724EF010, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x724EF001, 0x724EF011, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x724EF001, 0x724EF012, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x724EF001, 0x724EF013, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x724EF001, 0x724EF014, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724EF002, 38176, 0x24EF002C, 142.0059, 86.60522, 7.678156, 0.3581419, 0, 0, -0.9336672,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

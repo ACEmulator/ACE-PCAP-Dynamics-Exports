@@ -5,14 +5,14 @@ VALUES (0x7394B001,  1154, 0x394B0034, 167.2746, 93.48855, 18.39607, -0.6715068,
 /* @teleloc 0x394B0034 [167.274600 93.488550 18.396070] -0.671507 0.000000 0.000000 -0.740998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7394B001, 0x7394B002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7394B001, 0x7394B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7394B001, 0x7394B004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7394B001, 0x7394B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7394B001, 0x7394B006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x7394B001, 0x7394B007, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7394B001, 0x7394B008, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7394B001, 0x7394B009, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x7394B001, 0x7394B002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7394B001, 0x7394B003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7394B001, 0x7394B004, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7394B001, 0x7394B005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7394B001, 0x7394B006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7394B001, 0x7394B007, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7394B001, 0x7394B008, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7394B001, 0x7394B009, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7394B002, 36828, 0x394B0034, 167.2746, 93.48855, 18.39607, -0.6715068, 0, 0, -0.7409984,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -51,7 +51,7 @@ VALUES (0x7394B00A,  1542, 0x394B002E, 127.5843, 129.5969, 5.832279, 0.9990482, 
 /* @teleloc 0x394B002E [127.584300 129.596900 5.832279] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7394B00A, 0x7394B00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7394B00A, 0x7394B00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7394B00B,  4179, 0x394B002E, 127.5843, 129.5969, 5.832279, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

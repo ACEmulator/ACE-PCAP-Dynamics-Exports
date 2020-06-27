@@ -5,12 +5,12 @@ VALUES (0x7C479001,  1154, 0xC479000B, 34.09109, 61.44275, 22.0014, 0.8950597, 0
 /* @teleloc 0xC479000B [34.091090 61.442750 22.001400] 0.895060 0.000000 0.000000 -0.445946 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C479001, 0x7C479002, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C479001, 0x7C479003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C479001, 0x7C479004, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C479001, 0x7C479005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C479001, 0x7C479006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C479001, 0x7C479007, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7C479001, 0x7C479002, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C479001, 0x7C479003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C479001, 0x7C479004, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C479001, 0x7C479005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C479001, 0x7C479006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C479001, 0x7C479007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C479002,   221, 0xC479000B, 34.09109, 61.44275, 22.0014, 0.8950597, 0, 0, -0.4459463,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */

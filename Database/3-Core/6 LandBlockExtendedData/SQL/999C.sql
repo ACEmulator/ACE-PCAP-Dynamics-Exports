@@ -5,12 +5,12 @@ VALUES (0x7999C001,  1154, 0x999C002B, 142.9668, 71.74758, 53.99196, -0.7069817,
 /* @teleloc 0x999C002B [142.966800 71.747580 53.991960] -0.706982 0.000000 0.000000 -0.707232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7999C001, 0x7999C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7999C001, 0x7999C003, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7999C001, 0x7999C004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7999C001, 0x7999C005, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7999C001, 0x7999C006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7999C001, 0x7999C007, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7999C001, 0x7999C002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7999C001, 0x7999C003, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7999C001, 0x7999C004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7999C001, 0x7999C005, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7999C001, 0x7999C006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7999C001, 0x7999C007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7999C002,   217, 0x999C002B, 142.9668, 71.74758, 53.99196, -0.7069817, 0, 0, -0.7072319,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -41,7 +41,7 @@ VALUES (0x7999C008,  1542, 0x999C001B, 82.88474, 49.44824, 50, 1, 0, 0, 0, False
 /* @teleloc 0x999C001B [82.884740 49.448240 50.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7999C008, 0x7999C009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7999C008, 0x7999C009, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7999C009, 22576, 0x999C001B, 82.88474, 49.44824, 50, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

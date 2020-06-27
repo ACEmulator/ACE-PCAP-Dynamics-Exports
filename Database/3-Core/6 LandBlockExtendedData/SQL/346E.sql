@@ -5,19 +5,19 @@ VALUES (0x7346E001,  1154, 0x346E0006, 14.92692, 135.4246, 135.8756, 0.8267547, 
 /* @teleloc 0x346E0006 [14.926920 135.424600 135.875600] 0.826755 0.000000 0.000000 -0.562563 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346E001, 0x7346E002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x7346E001, 0x7346E003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7346E001, 0x7346E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7346E001, 0x7346E005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7346E001, 0x7346E006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7346E001, 0x7346E007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7346E001, 0x7346E008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7346E001, 0x7346E009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7346E001, 0x7346E00A, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7346E001, 0x7346E00B, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7346E001, 0x7346E00C, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7346E001, 0x7346E00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7346E001, 0x7346E00E, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7346E001, 0x7346E002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x7346E001, 0x7346E003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7346E001, 0x7346E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7346E001, 0x7346E005, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7346E001, 0x7346E006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7346E001, 0x7346E007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7346E001, 0x7346E008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7346E001, 0x7346E009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7346E001, 0x7346E00A, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7346E001, 0x7346E00B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7346E001, 0x7346E00C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7346E001, 0x7346E00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7346E001, 0x7346E00E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346E002, 36844, 0x346E0006, 14.92692, 135.4246, 135.8756, 0.8267547, 0, 0, -0.5625626,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -76,11 +76,11 @@ VALUES (0x7346E00F,  1542, 0x346E0031, 146.003, 2.024657, 65.97811, 0.9153666, 0
 /* @teleloc 0x346E0031 [146.003000 2.024657 65.978110] 0.915367 0.000000 0.000000 -0.402622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7346E00F, 0x7346E010, '2019-02-10 00:00:00') /* Rock */
-     , (0x7346E00F, 0x7346E011, '2019-02-10 00:00:00') /* Rock */
-     , (0x7346E00F, 0x7346E012, '2019-02-10 00:00:00') /* Bones */
-     , (0x7346E00F, 0x7346E013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7346E00F, 0x7346E014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7346E00F, 0x7346E010, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7346E00F, 0x7346E011, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7346E00F, 0x7346E012, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7346E00F, 0x7346E013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7346E00F, 0x7346E014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7346E010, 42528, 0x346E0031, 146.003, 2.024657, 65.97811, 0.9153666, 0, 0, -0.4026215,  True, '2019-02-10 00:00:00'); /* Rock */

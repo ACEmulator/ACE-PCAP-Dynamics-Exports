@@ -5,21 +5,21 @@ VALUES (0x7323D001,  1154, 0x323D003C, 177.1685, 88.27333, 11.28778, 0.7681909, 
 /* @teleloc 0x323D003C [177.168500 88.273330 11.287780] 0.768191 0.000000 0.000000 -0.640221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7323D001, 0x7323D002, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7323D001, 0x7323D003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323D001, 0x7323D004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7323D001, 0x7323D005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323D001, 0x7323D006, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7323D001, 0x7323D007, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7323D001, 0x7323D008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7323D001, 0x7323D009, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7323D001, 0x7323D00A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7323D001, 0x7323D00B, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7323D001, 0x7323D00C, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7323D001, 0x7323D00D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7323D001, 0x7323D00E, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7323D001, 0x7323D00F, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7323D001, 0x7323D010, '2019-02-10 00:00:00') /* Affliction Wisp */;
+VALUES (0x7323D001, 0x7323D002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7323D001, 0x7323D003, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7323D001, 0x7323D004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7323D001, 0x7323D005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7323D001, 0x7323D006, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7323D001, 0x7323D007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7323D001, 0x7323D008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7323D001, 0x7323D009, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7323D001, 0x7323D00A, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7323D001, 0x7323D00B, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x7323D001, 0x7323D00C, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7323D001, 0x7323D00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7323D001, 0x7323D00E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7323D001, 0x7323D00F, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7323D001, 0x7323D010, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323D002, 11536, 0x323D003C, 177.1685, 88.27333, 11.28778, 0.7681909, 0, 0, -0.6402209,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */

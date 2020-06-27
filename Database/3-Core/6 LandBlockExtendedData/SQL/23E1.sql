@@ -5,12 +5,12 @@ VALUES (0x723E1001,  1154, 0x23E1001F, 78.21006, 148.6833, 40.39328, 0.519413, 0
 /* @teleloc 0x23E1001F [78.210060 148.683300 40.393280] 0.519413 0.000000 0.000000 -0.854523 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723E1001, 0x723E1002, '2019-02-10 00:00:00') /* Horripal */
-     , (0x723E1001, 0x723E1003, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x723E1001, 0x723E1004, '2019-02-10 00:00:00') /* Revenant */
-     , (0x723E1001, 0x723E1005, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x723E1001, 0x723E1006, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x723E1001, 0x723E1007, '2019-02-10 00:00:00') /* Beefsteak Thrungus */;
+VALUES (0x723E1001, 0x723E1002, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x723E1001, 0x723E1003, '2019-02-10 00:00:00') /* Banderling Rogue (1462) */
+     , (0x723E1001, 0x723E1004, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x723E1001, 0x723E1005, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x723E1001, 0x723E1006, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x723E1001, 0x723E1007, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E1002, 20191, 0x23E1001F, 78.21006, 148.6833, 40.39328, 0.519413, 0, 0, -0.8545234,  True, '2019-02-10 00:00:00'); /* Horripal */

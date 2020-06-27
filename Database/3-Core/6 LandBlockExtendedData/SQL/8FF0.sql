@@ -5,42 +5,42 @@ VALUES (0x78FF0001,  1154, 0x8FF00033, 164.7876, 59.48656, 11.58819, 0.1736482, 
 /* @teleloc 0x8FF00033 [164.787600 59.486560 11.588190] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FF0001, 0x78FF0002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FF0001, 0x78FF0003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FF0001, 0x78FF0004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78FF0001, 0x78FF0005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78FF0001, 0x78FF0006, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78FF0001, 0x78FF0007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FF0001, 0x78FF0008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FF0001, 0x78FF0009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x78FF0001, 0x78FF000A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x78FF0001, 0x78FF000B, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x78FF0001, 0x78FF000C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x78FF0001, 0x78FF000D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FF0001, 0x78FF000E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x78FF0001, 0x78FF000F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FF0001, 0x78FF0010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x78FF0001, 0x78FF0011, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78FF0001, 0x78FF0012, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78FF0001, 0x78FF0013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78FF0001, 0x78FF0014, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78FF0001, 0x78FF0015, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78FF0001, 0x78FF0016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78FF0001, 0x78FF0017, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78FF0001, 0x78FF0018, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78FF0001, 0x78FF0019, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78FF0001, 0x78FF001A, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78FF0001, 0x78FF001B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78FF0001, 0x78FF001C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78FF0001, 0x78FF001D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78FF0001, 0x78FF001E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78FF0001, 0x78FF001F, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x78FF0001, 0x78FF0020, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x78FF0001, 0x78FF0021, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78FF0001, 0x78FF0022, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x78FF0001, 0x78FF0023, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78FF0001, 0x78FF0024, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x78FF0001, 0x78FF0025, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x78FF0001, 0x78FF0002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FF0001, 0x78FF0003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FF0001, 0x78FF0004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78FF0001, 0x78FF0005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78FF0001, 0x78FF0006, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78FF0001, 0x78FF0007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FF0001, 0x78FF0008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FF0001, 0x78FF0009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x78FF0001, 0x78FF000A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x78FF0001, 0x78FF000B, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x78FF0001, 0x78FF000C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x78FF0001, 0x78FF000D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FF0001, 0x78FF000E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x78FF0001, 0x78FF000F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FF0001, 0x78FF0010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x78FF0001, 0x78FF0011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78FF0001, 0x78FF0012, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78FF0001, 0x78FF0013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78FF0001, 0x78FF0014, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78FF0001, 0x78FF0015, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78FF0001, 0x78FF0016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78FF0001, 0x78FF0017, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78FF0001, 0x78FF0018, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78FF0001, 0x78FF0019, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78FF0001, 0x78FF001A, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78FF0001, 0x78FF001B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78FF0001, 0x78FF001C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78FF0001, 0x78FF001D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78FF0001, 0x78FF001E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78FF0001, 0x78FF001F, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x78FF0001, 0x78FF0020, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x78FF0001, 0x78FF0021, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78FF0001, 0x78FF0022, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x78FF0001, 0x78FF0023, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78FF0001, 0x78FF0024, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78FF0001, 0x78FF0025, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FF0002,  7096, 0x8FF00033, 164.7876, 59.48656, 11.58819, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -191,10 +191,10 @@ VALUES (0x78FF0026,  1542, 0x8FF00005, 17.43874, 111.5359, 18.70534, 1, 0, 0, 0,
 /* @teleloc 0x8FF00005 [17.438740 111.535900 18.705340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FF0026, 0x78FF0027, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78FF0026, 0x78FF0028, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78FF0026, 0x78FF0029, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78FF0026, 0x78FF002A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78FF0026, 0x78FF0027, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78FF0026, 0x78FF0028, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x78FF0026, 0x78FF0029, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78FF0026, 0x78FF002A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FF0027, 22567, 0x8FF00005, 17.43874, 111.5359, 18.70534, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

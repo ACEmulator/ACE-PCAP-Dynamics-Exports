@@ -5,11 +5,11 @@ VALUES (0x79538001,  1154, 0x95380015, 56.60139, 100.4654, 27.81169, -0.2588531,
 /* @teleloc 0x95380015 [56.601390 100.465400 27.811690] -0.258853 0.000000 0.000000 -0.965917 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79538001, 0x79538002, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x79538001, 0x79538003, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x79538001, 0x79538004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x79538001, 0x79538005, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79538001, 0x79538006, '2019-02-10 00:00:00') /* Tumerok Scout */;
+VALUES (0x79538001, 0x79538002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x79538001, 0x79538003, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x79538001, 0x79538004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x79538001, 0x79538005, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79538001, 0x79538006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79538002,  9254, 0x95380015, 56.60139, 100.4654, 27.81169, -0.2588531, 0, 0, -0.9659167,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */
@@ -36,7 +36,7 @@ VALUES (0x79538007,  1542, 0x95380021, 112.8386, 18.94904, 40, 0.7109216, 0, 0, 
 /* @teleloc 0x95380021 [112.838600 18.949040 40.000000] 0.710922 0.000000 0.000000 -0.703271 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79538007, 0x79538008, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79538007, 0x79538008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79538008,  8041, 0x95380021, 112.8386, 18.94904, 40, 0.7109216, 0, 0, -0.7032712,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

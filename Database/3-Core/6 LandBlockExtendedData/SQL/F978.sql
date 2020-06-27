@@ -5,12 +5,12 @@ VALUES (0x7F978001,  1154, 0xF9780006, 19.22636, 123.9691, 0.7966061, 0.7315878,
 /* @teleloc 0xF9780006 [19.226360 123.969100 0.796606] 0.731588 0.000000 0.000000 -0.681747 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F978001, 0x7F978002, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F978001, 0x7F978003, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F978001, 0x7F978004, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F978001, 0x7F978005, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F978001, 0x7F978006, '2019-02-10 00:00:00') /* Reedshark Stripling */
-     , (0x7F978001, 0x7F978007, '2019-02-10 00:00:00') /* Tusker Kin */;
+VALUES (0x7F978001, 0x7F978002, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F978001, 0x7F978003, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F978001, 0x7F978004, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F978001, 0x7F978005, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F978001, 0x7F978006, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F978001, 0x7F978007, '2019-02-10 00:00:00') /* Tusker Kin (22509) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F978002, 22748, 0xF9780006, 19.22636, 123.9691, 0.7966061, 0.7315878, 0, 0, -0.6817473,  True, '2019-02-10 00:00:00'); /* Reedshark Stripling */

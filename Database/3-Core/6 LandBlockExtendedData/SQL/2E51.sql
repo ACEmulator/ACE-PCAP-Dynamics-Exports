@@ -5,15 +5,15 @@ VALUES (0x72E51001,  1154, 0x2E510032, 158.3798, 25.77271, 5.17661, -0.8930845, 
 /* @teleloc 0x2E510032 [158.379800 25.772710 5.176610] -0.893085 0.000000 0.000000 -0.449889 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E51001, 0x72E51002, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72E51001, 0x72E51003, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72E51001, 0x72E51004, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x72E51001, 0x72E51005, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x72E51001, 0x72E51006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72E51001, 0x72E51007, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72E51001, 0x72E51008, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72E51001, 0x72E51009, '2019-02-10 00:00:00') /* Drudge Seraph Mystic */
-     , (0x72E51001, 0x72E5100A, '2019-02-10 00:00:00') /* Drudge Seraph */;
+VALUES (0x72E51001, 0x72E51002, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E51001, 0x72E51003, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72E51001, 0x72E51004, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72E51001, 0x72E51005, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E51001, 0x72E51006, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72E51001, 0x72E51007, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72E51001, 0x72E51008, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72E51001, 0x72E51009, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x72E51001, 0x72E5100A, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E51002, 22902, 0x2E510032, 158.3798, 25.77271, 5.17661, -0.8930845, 0, 0, -0.449889,  True, '2019-02-10 00:00:00'); /* Olthoi Primordial */

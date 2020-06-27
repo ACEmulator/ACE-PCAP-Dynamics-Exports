@@ -5,22 +5,22 @@ VALUES (0x7207B001,  1154, 0x207B002A, 126.6362, 47.34492, 79.04359, 0.7071068, 
 /* @teleloc 0x207B002A [126.636200 47.344920 79.043590] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7207B001, 0x7207B002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7207B001, 0x7207B003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7207B001, 0x7207B004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7207B001, 0x7207B005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7207B001, 0x7207B006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7207B001, 0x7207B007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7207B001, 0x7207B008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7207B001, 0x7207B009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7207B001, 0x7207B00A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7207B001, 0x7207B00B, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7207B001, 0x7207B00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7207B001, 0x7207B00D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7207B001, 0x7207B00E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7207B001, 0x7207B00F, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7207B001, 0x7207B010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7207B001, 0x7207B011, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x7207B001, 0x7207B002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7207B001, 0x7207B003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7207B001, 0x7207B004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7207B001, 0x7207B005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7207B001, 0x7207B006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7207B001, 0x7207B007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7207B001, 0x7207B008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7207B001, 0x7207B009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7207B001, 0x7207B00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7207B001, 0x7207B00B, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7207B001, 0x7207B00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7207B001, 0x7207B00D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7207B001, 0x7207B00E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7207B001, 0x7207B00F, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7207B001, 0x7207B010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7207B001, 0x7207B011, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7207B002,  7086, 0x207B002A, 126.6362, 47.34492, 79.04359, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -91,8 +91,8 @@ VALUES (0x7207B012,  1542, 0x207B002A, 125.6159, 43.33258, 79.04359, -4.371139E-
 /* @teleloc 0x207B002A [125.615900 43.332580 79.043590] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7207B012, 0x7207B013, '2019-02-10 00:00:00') /* Bones */
-     , (0x7207B012, 0x7207B014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7207B012, 0x7207B013, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7207B012, 0x7207B014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7207B013,  4380, 0x207B002A, 125.6159, 43.33258, 79.04359, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

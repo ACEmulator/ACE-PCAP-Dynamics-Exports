@@ -5,11 +5,11 @@ VALUES (0x7C49B001,  1154, 0xC49B003D, 169.8139, 118.2536, 1.112, -0.8897102, 0,
 /* @teleloc 0xC49B003D [169.813900 118.253600 1.112000] -0.889710 0.000000 0.000000 -0.456526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C49B001, 0x7C49B002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C49B001, 0x7C49B003, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7C49B001, 0x7C49B004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C49B001, 0x7C49B005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C49B001, 0x7C49B006, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7C49B001, 0x7C49B002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C49B001, 0x7C49B003, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7C49B001, 0x7C49B004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C49B001, 0x7C49B005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C49B001, 0x7C49B006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C49B002,   215, 0xC49B003D, 169.8139, 118.2536, 1.112, -0.8897102, 0, 0, -0.4565258,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -36,7 +36,7 @@ VALUES (0x7C49B007,  1542, 0xC49B0034, 165.2292, 95.88498, 1.1, -0.8897102, 0, 0
 /* @teleloc 0xC49B0034 [165.229200 95.884980 1.100000] -0.889710 0.000000 0.000000 -0.456526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C49B007, 0x7C49B008, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7C49B007, 0x7C49B008, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C49B008,  8644, 0xC49B0034, 165.2292, 95.88498, 1.1, -0.8897102, 0, 0, -0.4565258,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

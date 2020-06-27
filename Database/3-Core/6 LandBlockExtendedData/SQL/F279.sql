@@ -5,18 +5,18 @@ VALUES (0x7F279001,  1154, 0xF2790030, 120.0432, 184.8396, 12.005, 0.9725542, 0,
 /* @teleloc 0xF2790030 [120.043200 184.839600 12.005000] 0.972554 0.000000 0.000000 -0.232676 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F279001, 0x7F279002, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F279001, 0x7F279003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F279001, 0x7F279004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F279001, 0x7F279005, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F279001, 0x7F279006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F279001, 0x7F279007, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F279001, 0x7F279008, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F279001, 0x7F279009, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F279001, 0x7F27900A, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F279001, 0x7F27900B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7F279001, 0x7F27900C, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F279001, 0x7F27900D, '2019-02-10 00:00:00') /* Jungle Reaver */;
+VALUES (0x7F279001, 0x7F279002, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F279001, 0x7F279003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F279001, 0x7F279004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F279001, 0x7F279005, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F279001, 0x7F279006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F279001, 0x7F279007, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F279001, 0x7F279008, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F279001, 0x7F279009, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F279001, 0x7F27900A, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F279001, 0x7F27900B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F279001, 0x7F27900C, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F279001, 0x7F27900D, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F279002, 22512, 0xF2790030, 120.0432, 184.8396, 12.005, 0.9725542, 0, 0, -0.2326764,  True, '2019-02-10 00:00:00'); /* Tusker Minion */

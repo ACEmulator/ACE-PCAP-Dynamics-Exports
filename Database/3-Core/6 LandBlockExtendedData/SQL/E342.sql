@@ -5,16 +5,16 @@ VALUES (0x7E342001,  1154, 0xE3420038, 149.3783, 171.4538, 40.77332, 0.9063078, 
 /* @teleloc 0xE3420038 [149.378300 171.453800 40.773320] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E342001, 0x7E342002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E342001, 0x7E342003, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E342001, 0x7E342004, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E342001, 0x7E342005, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E342001, 0x7E342006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E342001, 0x7E342007, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E342001, 0x7E342008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E342001, 0x7E342009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E342001, 0x7E34200A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7E342001, 0x7E34200B, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7E342001, 0x7E342002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E342001, 0x7E342003, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E342001, 0x7E342004, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E342001, 0x7E342005, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E342001, 0x7E342006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E342001, 0x7E342007, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E342001, 0x7E342008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E342001, 0x7E342009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E342001, 0x7E34200A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7E342001, 0x7E34200B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E342002,     6, 0xE3420038, 149.3783, 171.4538, 40.77332, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -61,7 +61,7 @@ VALUES (0x7E34200C,  1542, 0xE3420005, 9.516574, 110.4322, 30.79305, 1, 0, 0, 0,
 /* @teleloc 0xE3420005 [9.516574 110.432200 30.793050] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E34200C, 0x7E34200D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7E34200C, 0x7E34200D, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E34200D, 22568, 0xE3420005, 9.516574, 110.4322, 30.79305, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

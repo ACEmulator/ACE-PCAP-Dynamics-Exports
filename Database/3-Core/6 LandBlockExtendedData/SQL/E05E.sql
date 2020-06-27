@@ -5,14 +5,14 @@ VALUES (0x7E05E001,  1154, 0xE05E0004, 12.212, 72.21601, 11.9346, -0.6691307, 0,
 /* @teleloc 0xE05E0004 [12.212000 72.216010 11.934600] -0.669131 0.000000 0.000000 -0.743145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E05E001, 0x7E05E002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E05E001, 0x7E05E003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E05E001, 0x7E05E004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E05E001, 0x7E05E005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E05E001, 0x7E05E006, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E05E001, 0x7E05E007, '2019-02-10 00:00:00') /* Lich */
-     , (0x7E05E001, 0x7E05E008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E05E001, 0x7E05E009, '2019-02-10 00:00:00') /* Aste Sclavus */;
+VALUES (0x7E05E001, 0x7E05E002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E05E001, 0x7E05E003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E05E001, 0x7E05E004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E05E001, 0x7E05E005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E05E001, 0x7E05E006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E05E001, 0x7E05E007, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7E05E001, 0x7E05E008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E05E001, 0x7E05E009, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E05E002,  8427, 0xE05E0004, 12.212, 72.21601, 11.9346, -0.6691307, 0, 0, -0.7431448,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */

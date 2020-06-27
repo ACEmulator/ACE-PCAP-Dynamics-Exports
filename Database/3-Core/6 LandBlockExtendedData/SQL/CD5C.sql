@@ -5,17 +5,17 @@ VALUES (0x7CD5C001,  1154, 0xCD5C0011, 69.22086, 14.13089, 20.11444, 0.8901997, 
 /* @teleloc 0xCD5C0011 [69.220860 14.130890 20.114440] 0.890200 0.000000 0.000000 -0.455570 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD5C001, 0x7CD5C002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CD5C001, 0x7CD5C003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7CD5C001, 0x7CD5C006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7CD5C001, 0x7CD5C00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD5C001, 0x7CD5C00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CD5C001, 0x7CD5C00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CD5C001, 0x7CD5C002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CD5C001, 0x7CD5C003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7CD5C001, 0x7CD5C006, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C007, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C008, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C009, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7CD5C001, 0x7CD5C00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD5C001, 0x7CD5C00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CD5C001, 0x7CD5C00C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD5C002,  7180, 0xCD5C0011, 69.22086, 14.13089, 20.11444, 0.8901997, 0, 0, -0.4555704,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

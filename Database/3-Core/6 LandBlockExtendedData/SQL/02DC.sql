@@ -29,218 +29,218 @@ VALUES (0x702DC0D6,  1154, 0x02DC025D, 287.049, -137.923, -29.995, -0.164704, 0,
 /* @teleloc 0x02DC025D [287.049000 -137.923000 -29.995000] -0.164704 0.000000 0.000000 0.986343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702DC0D6, 0x702DC0D7, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0D8, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0D9, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0DA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0DB, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0DC, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0DD, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0DE, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0DF, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0E0, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0E1, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0E2, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0E3, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0E4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0E5, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0E6, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0E7, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0E8, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0E9, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0EA, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0EB, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0EC, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0ED, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0EE, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0EF, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F0, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0F1, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F2, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0F3, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F5, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F6, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0F7, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0F8, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0F9, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0FA, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0FB, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0FC, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC0FD, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC0FE, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC0FF, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC100, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC101, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC102, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC103, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC104, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC105, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC106, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC107, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC108, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC109, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC10A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC10B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC10C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC10D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC10E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC10F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC110, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC111, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC112, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC113, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC114, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC115, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC116, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC117, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC118, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC119, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC11A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC11B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC11C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC11D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC11E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC11F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC120, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC121, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC122, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC123, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC124, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC125, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC126, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC127, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC128, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC129, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC12A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC12B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC12C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC12D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC12E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC12F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC130, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC131, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC132, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC133, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC134, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC135, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC136, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC137, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC138, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC139, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC13A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC13B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC13C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC13D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC13E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC13F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC140, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC141, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC142, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC143, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC144, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC145, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC146, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC147, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC148, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC149, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC14A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC14B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC14C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC14D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC14E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC14F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC150, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC151, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC152, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC153, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC154, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC155, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC156, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC157, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC158, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC159, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC15A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC15B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC15C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC15D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC15E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC15F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC160, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC161, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC162, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC163, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC164, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC165, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC166, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC167, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC168, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC169, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC16A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC16B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC16C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC16D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC16E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC16F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC170, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC171, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC172, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC173, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC174, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC175, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC176, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC177, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC178, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC179, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC17A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC17B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC17C, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC17D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC17E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC17F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC180, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC181, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC182, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC183, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC184, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC185, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC186, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC187, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC188, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC189, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC18A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC18B, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC18C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC18D, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC18E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC18F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC190, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC191, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC192, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC193, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC194, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC195, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC196, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC197, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC198, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC199, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC19A, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC19B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC19C, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC19D, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC19E, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC19F, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A0, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC1A1, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A2, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A3, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A4, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC1A5, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x702DC0D6, 0x702DC1A6, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A7, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x702DC0D6, 0x702DC1A8, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1A9, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x702DC0D6, 0x702DC1AA, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x702DC0D6, 0x702DC0D7, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0D8, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0D9, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0DA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0DB, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0DC, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0DD, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0DE, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0DF, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0E0, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0E1, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0E2, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0E3, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0E4, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0E5, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0E6, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0E7, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0E8, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0E9, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0EA, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0EB, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0EC, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0ED, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0EE, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0EF, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F0, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0F1, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F2, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0F3, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F4, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F5, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F6, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0F7, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0F8, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0F9, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0FA, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0FB, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0FC, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC0FD, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC0FE, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC0FF, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC100, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC101, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC102, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC103, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC104, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC105, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC106, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC107, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC108, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC109, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC10A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC10B, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC10C, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC10D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC10E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC10F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC110, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC111, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC112, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC113, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC114, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC115, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC116, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC117, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC118, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC119, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC11A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC11B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC11C, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC11D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC11E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC11F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC120, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC121, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC122, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC123, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC124, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC125, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC126, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC127, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC128, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC129, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC12A, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC12B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC12C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC12D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC12E, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC12F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC130, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC131, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC132, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC133, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC134, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC135, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC136, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC137, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC138, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC139, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC13A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC13B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC13C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC13D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC13E, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC13F, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC140, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC141, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC142, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC143, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC144, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC145, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC146, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC147, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC148, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC149, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC14A, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC14B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC14C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC14D, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC14E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC14F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC150, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC151, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC152, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC153, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC154, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC155, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC156, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC157, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC158, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC159, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC15A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC15B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC15C, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC15D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC15E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC15F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC160, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC161, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC162, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC163, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC164, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC165, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC166, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC167, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC168, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC169, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC16A, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC16B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC16C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC16D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC16E, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC16F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC170, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC171, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC172, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC173, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC174, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC175, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC176, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC177, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC178, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC179, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC17A, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC17B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC17C, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC17D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC17E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC17F, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC180, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC181, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC182, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC183, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC184, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC185, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC186, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC187, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC188, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC189, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC18A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC18B, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC18C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC18D, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC18E, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC18F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC190, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC191, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC192, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC193, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC194, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC195, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC196, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC197, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC198, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC199, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC19A, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC19B, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC19C, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC19D, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC19E, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC19F, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A0, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC1A1, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A2, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A3, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A4, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC1A5, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x702DC0D6, 0x702DC1A6, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A7, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */
+     , (0x702DC0D6, 0x702DC1A8, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1A9, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x702DC0D6, 0x702DC1AA, '2019-02-10 00:00:00') /* Shadow Lieutenant (8268) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702DC0D7,  8268, 0x02DC025D, 287.049, -137.923, -29.995, -0.164704, 0, 0, 0.986343,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

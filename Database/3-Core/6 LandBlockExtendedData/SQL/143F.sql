@@ -5,15 +5,15 @@ VALUES (0x7143F001,  1154, 0x143F0008, 18.92492, 172.6314, 14.40417, -0.1736482,
 /* @teleloc 0x143F0008 [18.924920 172.631400 14.404170] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7143F001, 0x7143F002, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7143F001, 0x7143F003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7143F001, 0x7143F004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7143F001, 0x7143F005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7143F001, 0x7143F006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7143F001, 0x7143F007, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7143F001, 0x7143F008, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7143F001, 0x7143F009, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7143F001, 0x7143F00A, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x7143F001, 0x7143F002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7143F001, 0x7143F003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7143F001, 0x7143F004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7143F001, 0x7143F005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7143F001, 0x7143F006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7143F001, 0x7143F007, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7143F001, 0x7143F008, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7143F001, 0x7143F009, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7143F001, 0x7143F00A, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7143F002,  7114, 0x143F0008, 18.92492, 172.6314, 14.40417, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -56,8 +56,8 @@ VALUES (0x7143F00B,  1542, 0x143F0008, 17.37949, 174.4893, 14.55171, -0.1736482,
 /* @teleloc 0x143F0008 [17.379490 174.489300 14.551710] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7143F00B, 0x7143F00C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7143F00B, 0x7143F00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7143F00B, 0x7143F00C, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7143F00B, 0x7143F00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7143F00C,  4381, 0x143F0008, 17.37949, 174.4893, 14.55171, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

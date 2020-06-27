@@ -5,17 +5,17 @@ VALUES (0x7422B001,  1154, 0x422B0027, 112.7351, 145.9533, 94.0025, 0.9158894, 0
 /* @teleloc 0x422B0027 [112.735100 145.953300 94.002500] 0.915889 0.000000 0.000000 -0.401431 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7422B001, 0x7422B002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7422B001, 0x7422B003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7422B001, 0x7422B004, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7422B001, 0x7422B005, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7422B001, 0x7422B006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7422B001, 0x7422B007, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7422B001, 0x7422B008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7422B001, 0x7422B009, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7422B001, 0x7422B00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7422B001, 0x7422B00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7422B001, 0x7422B00C, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x7422B001, 0x7422B002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7422B001, 0x7422B003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7422B001, 0x7422B004, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7422B001, 0x7422B005, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7422B001, 0x7422B006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7422B001, 0x7422B007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7422B001, 0x7422B008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7422B001, 0x7422B009, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7422B001, 0x7422B00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7422B001, 0x7422B00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7422B001, 0x7422B00C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422B002, 36858, 0x422B0027, 112.7351, 145.9533, 94.0025, 0.9158894, 0, 0, -0.4014305,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -66,9 +66,9 @@ VALUES (0x7422B00D,  1542, 0x422B003B, 169.6742, 67.30534, 9.7483, 1, 0, 0, 0, F
 /* @teleloc 0x422B003B [169.674200 67.305340 9.748300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7422B00D, 0x7422B00E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7422B00D, 0x7422B00F, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x7422B00D, 0x7422B010, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7422B00D, 0x7422B00E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7422B00D, 0x7422B00F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7422B00D, 0x7422B010, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422B00E, 22567, 0x422B003B, 169.6742, 67.30534, 9.7483, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

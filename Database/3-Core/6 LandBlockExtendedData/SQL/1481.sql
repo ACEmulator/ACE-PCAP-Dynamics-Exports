@@ -5,11 +5,11 @@ VALUES (0x71481001,  1154, 0x14810025, 96.06122, 106.2795, 44.26762, 0.5096753, 
 /* @teleloc 0x14810025 [96.061220 106.279500 44.267620] 0.509675 0.000000 0.000000 -0.860367 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71481001, 0x71481002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71481001, 0x71481003, '2019-02-10 00:00:00') /* Frost */
-     , (0x71481001, 0x71481004, '2019-02-10 00:00:00') /* Frost */
-     , (0x71481001, 0x71481005, '2019-02-10 00:00:00') /* Gelid */
-     , (0x71481001, 0x71481006, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x71481001, 0x71481002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71481001, 0x71481003, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71481001, 0x71481004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71481001, 0x71481005, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x71481001, 0x71481006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71481002, 36829, 0x14810025, 96.06122, 106.2795, 44.26762, 0.5096753, 0, 0, -0.8603668,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -36,7 +36,7 @@ VALUES (0x71481007,  1542, 0x14810029, 129.7532, 4.972202, 41.98993, 1, 0, 0, 0,
 /* @teleloc 0x14810029 [129.753200 4.972202 41.989930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71481007, 0x71481008, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x71481007, 0x71481008, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71481008, 31445, 0x14810029, 129.7532, 4.972202, 41.98993, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

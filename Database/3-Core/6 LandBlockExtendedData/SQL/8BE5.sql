@@ -5,10 +5,10 @@ VALUES (0x78BE5001,  1154, 0x8BE5001F, 81.56812, 159.4755, 41.78906, -0.619882, 
 /* @teleloc 0x8BE5001F [81.568120 159.475500 41.789060] -0.619882 0.000000 0.000000 -0.784695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BE5001, 0x78BE5002, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x78BE5001, 0x78BE5003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78BE5001, 0x78BE5004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78BE5001, 0x78BE5005, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x78BE5001, 0x78BE5002, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x78BE5001, 0x78BE5003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78BE5001, 0x78BE5004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78BE5001, 0x78BE5005, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE5002,  7333, 0x8BE5001F, 81.56812, 159.4755, 41.78906, -0.619882, 0, 0, -0.784695,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */

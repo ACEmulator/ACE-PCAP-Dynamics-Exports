@@ -5,18 +5,18 @@ VALUES (0x7355A001,  1154, 0x355A0009, 41.51213, 19.87944, 37.98998, -0.6806832,
 /* @teleloc 0x355A0009 [41.512130 19.879440 37.989980] -0.680683 0.000000 0.000000 -0.732578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7355A001, 0x7355A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7355A001, 0x7355A003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7355A001, 0x7355A004, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7355A001, 0x7355A005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7355A001, 0x7355A006, '2019-02-10 00:00:00') /* Flare */
-     , (0x7355A001, 0x7355A007, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x7355A001, 0x7355A008, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x7355A001, 0x7355A009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7355A001, 0x7355A00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7355A001, 0x7355A00B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7355A001, 0x7355A00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7355A001, 0x7355A00D, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7355A001, 0x7355A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7355A001, 0x7355A003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7355A001, 0x7355A004, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7355A001, 0x7355A005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7355A001, 0x7355A006, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7355A001, 0x7355A007, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7355A001, 0x7355A008, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x7355A001, 0x7355A009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7355A001, 0x7355A00A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7355A001, 0x7355A00B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7355A001, 0x7355A00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7355A001, 0x7355A00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7355A002,  7119, 0x355A0009, 41.51213, 19.87944, 37.98998, -0.6806832, 0, 0, -0.7325779,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -71,8 +71,8 @@ VALUES (0x7355A00E,  1542, 0x355A0025, 118.8664, 108.7104, 35.95339, -0.24738, 0
 /* @teleloc 0x355A0025 [118.866400 108.710400 35.953390] -0.247380 0.000000 0.000000 -0.968919 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7355A00E, 0x7355A00F, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x7355A00E, 0x7355A010, '2019-02-10 00:00:00') /* Plateau Portal */;
+VALUES (0x7355A00E, 0x7355A00F, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x7355A00E, 0x7355A010, '2019-02-10 00:00:00') /* Plateau Portal (42812) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7355A00F, 11555, 0x355A0025, 118.8664, 108.7104, 35.95339, -0.24738, 0, 0, -0.9689186,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

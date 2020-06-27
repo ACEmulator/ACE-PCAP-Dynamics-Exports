@@ -5,10 +5,10 @@ VALUES (0x76BE3001,  1154, 0x6BE30028, 111.8196, 182.3917, 158.479, 0.9238795, 0
 /* @teleloc 0x6BE30028 [111.819600 182.391700 158.479000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BE3001, 0x76BE3002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x76BE3001, 0x76BE3003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x76BE3001, 0x76BE3004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x76BE3001, 0x76BE3005, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x76BE3001, 0x76BE3002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x76BE3001, 0x76BE3003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x76BE3001, 0x76BE3004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x76BE3001, 0x76BE3005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BE3002, 10807, 0x6BE30028, 111.8196, 182.3917, 158.479, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -31,7 +31,7 @@ VALUES (0x76BE3006,  1542, 0x6BE30028, 114.5442, 184.4157, 159.5494, 1, 0, 0, 0,
 /* @teleloc 0x6BE30028 [114.544200 184.415700 159.549400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76BE3006, 0x76BE3007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x76BE3006, 0x76BE3007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76BE3007,  4179, 0x6BE30028, 114.5442, 184.4157, 159.5494, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

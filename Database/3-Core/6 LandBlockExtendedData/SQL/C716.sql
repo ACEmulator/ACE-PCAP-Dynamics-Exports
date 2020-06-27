@@ -5,18 +5,18 @@ VALUES (0x7C716001,  1154, 0xC716001C, 78.45126, 86.3783, 126.012, -0.5223066, 0
 /* @teleloc 0xC716001C [78.451260 86.378300 126.012000] -0.522307 0.000000 0.000000 -0.852758 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C716001, 0x7C716002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7C716001, 0x7C716003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C716001, 0x7C716004, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7C716001, 0x7C716005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7C716001, 0x7C716006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7C716001, 0x7C716007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C716001, 0x7C716008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7C716001, 0x7C716009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C716001, 0x7C71600A, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7C716001, 0x7C71600B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C716001, 0x7C71600C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7C716001, 0x7C71600D, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7C716001, 0x7C716002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7C716001, 0x7C716003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C716001, 0x7C716004, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7C716001, 0x7C716005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7C716001, 0x7C716006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7C716001, 0x7C716007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C716001, 0x7C716008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7C716001, 0x7C716009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C716001, 0x7C71600A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7C716001, 0x7C71600B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C716001, 0x7C71600C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7C716001, 0x7C71600D, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C716002,  7105, 0xC716001C, 78.45126, 86.3783, 126.012, -0.5223066, 0, 0, -0.8527578,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -71,8 +71,8 @@ VALUES (0x7C71600E,  1542, 0xC7160021, 105.8874, 9.546713, 10.6591, -0.9309674, 
 /* @teleloc 0xC7160021 [105.887400 9.546713 10.659100] -0.930967 0.000000 0.000000 -0.365102 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C71600E, 0x7C71600F, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7C71600E, 0x7C716010, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7C71600E, 0x7C71600F, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7C71600E, 0x7C716010, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C71600F,  8037, 0xC7160021, 105.8874, 9.546713, 10.6591, -0.9309674, 0, 0, -0.3651024,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

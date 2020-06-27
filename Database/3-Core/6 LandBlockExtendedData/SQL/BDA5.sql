@@ -5,12 +5,12 @@ VALUES (0x7BDA5001,  1154, 0xBDA5003A, 180.1904, 29.138, 44.7018, 0.8760805, 0, 
 /* @teleloc 0xBDA5003A [180.190400 29.138000 44.701800] 0.876081 0.000000 0.000000 -0.482165 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDA5001, 0x7BDA5002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7BDA5001, 0x7BDA5003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BDA5001, 0x7BDA5004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BDA5001, 0x7BDA5005, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7BDA5001, 0x7BDA5006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BDA5001, 0x7BDA5007, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7BDA5001, 0x7BDA5002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7BDA5001, 0x7BDA5003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BDA5001, 0x7BDA5004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BDA5001, 0x7BDA5005, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7BDA5001, 0x7BDA5006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BDA5001, 0x7BDA5007, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDA5002,   944, 0xBDA5003A, 180.1904, 29.138, 44.7018, 0.8760805, 0, 0, -0.4821649,  True, '2019-02-10 00:00:00'); /* Mite Digger */

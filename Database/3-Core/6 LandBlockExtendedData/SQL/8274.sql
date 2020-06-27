@@ -5,9 +5,9 @@ VALUES (0x78274001,  1154, 0x82740021, 114.3591, 8.052928, 19.82063, -0.8129766,
 /* @teleloc 0x82740021 [114.359100 8.052928 19.820630] -0.812977 0.000000 0.000000 -0.582296 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78274001, 0x78274002, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78274001, 0x78274003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78274001, 0x78274004, '2019-02-10 00:00:00') /* Desert Rat */;
+VALUES (0x78274001, 0x78274002, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78274001, 0x78274003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78274001, 0x78274004, '2019-02-10 00:00:00') /* Desert Rat (1623) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78274002,   218, 0x82740021, 114.3591, 8.052928, 19.82063, -0.8129766, 0, 0, -0.5822964,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -26,7 +26,7 @@ VALUES (0x78274005,  1542, 0x82740011, 69.62379, 5.51411, 14, 0.9914449, 0, 0, -
 /* @teleloc 0x82740011 [69.623790 5.514110 14.000000] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78274005, 0x78274006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78274005, 0x78274006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78274006,  4380, 0x82740011, 69.62379, 5.51411, 14, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,53 +5,53 @@ VALUES (0x765D6001,  1154, 0x65D60033, 161.2205, 51.93236, 70.48452, 0.9469336, 
 /* @teleloc 0x65D60033 [161.220500 51.932360 70.484520] 0.946934 0.000000 0.000000 -0.321429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765D6001, 0x765D6002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x765D6001, 0x765D6003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x765D6001, 0x765D6004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D6001, 0x765D6005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D6001, 0x765D6006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D6001, 0x765D6007, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x765D6001, 0x765D6008, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765D6001, 0x765D6009, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x765D6001, 0x765D600A, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765D6001, 0x765D600B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x765D6001, 0x765D600C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x765D6001, 0x765D600D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x765D6001, 0x765D600E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x765D6001, 0x765D600F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x765D6001, 0x765D6010, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x765D6001, 0x765D6011, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x765D6001, 0x765D6012, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765D6001, 0x765D6013, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765D6001, 0x765D6014, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x765D6001, 0x765D6015, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765D6001, 0x765D6016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x765D6001, 0x765D6017, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x765D6001, 0x765D6018, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x765D6001, 0x765D6019, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x765D6001, 0x765D601A, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x765D6001, 0x765D601B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x765D6001, 0x765D601C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x765D6001, 0x765D601D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x765D6001, 0x765D601E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x765D6001, 0x765D601F, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x765D6001, 0x765D6020, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x765D6001, 0x765D6021, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x765D6001, 0x765D6022, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x765D6001, 0x765D6023, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x765D6001, 0x765D6024, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x765D6001, 0x765D6025, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x765D6001, 0x765D6026, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x765D6001, 0x765D6027, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x765D6001, 0x765D6028, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765D6001, 0x765D6029, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x765D6001, 0x765D602A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x765D6001, 0x765D602B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x765D6001, 0x765D602C, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765D6001, 0x765D602D, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x765D6001, 0x765D602E, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x765D6001, 0x765D602F, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x765D6001, 0x765D6030, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x765D6001, 0x765D6002, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x765D6001, 0x765D6003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x765D6001, 0x765D6004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x765D6001, 0x765D6005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x765D6001, 0x765D6006, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x765D6001, 0x765D6007, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x765D6001, 0x765D6008, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765D6001, 0x765D6009, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x765D6001, 0x765D600A, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765D6001, 0x765D600B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x765D6001, 0x765D600C, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x765D6001, 0x765D600D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x765D6001, 0x765D600E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x765D6001, 0x765D600F, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x765D6001, 0x765D6010, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x765D6001, 0x765D6011, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x765D6001, 0x765D6012, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765D6001, 0x765D6013, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765D6001, 0x765D6014, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x765D6001, 0x765D6015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765D6001, 0x765D6016, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x765D6001, 0x765D6017, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x765D6001, 0x765D6018, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x765D6001, 0x765D6019, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x765D6001, 0x765D601A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x765D6001, 0x765D601B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x765D6001, 0x765D601C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x765D6001, 0x765D601D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x765D6001, 0x765D601E, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x765D6001, 0x765D601F, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x765D6001, 0x765D6020, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x765D6001, 0x765D6021, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x765D6001, 0x765D6022, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x765D6001, 0x765D6023, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x765D6001, 0x765D6024, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x765D6001, 0x765D6025, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x765D6001, 0x765D6026, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x765D6001, 0x765D6027, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x765D6001, 0x765D6028, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765D6001, 0x765D6029, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x765D6001, 0x765D602A, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x765D6001, 0x765D602B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x765D6001, 0x765D602C, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765D6001, 0x765D602D, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x765D6001, 0x765D602E, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x765D6001, 0x765D602F, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x765D6001, 0x765D6030, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765D6002,  4216, 0x65D60033, 161.2205, 51.93236, 70.48452, 0.9469336, 0, 0, -0.3214293,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -246,11 +246,11 @@ VALUES (0x765D6031,  1542, 0x65D60032, 167.4534, 38.18602, 72.54459, -4.371139E-
 /* @teleloc 0x65D60032 [167.453400 38.186020 72.544590] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765D6031, 0x765D6032, '2019-02-10 00:00:00') /* Bones */
-     , (0x765D6031, 0x765D6033, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x765D6031, 0x765D6034, '2019-02-10 00:00:00') /* Bones */
-     , (0x765D6031, 0x765D6035, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x765D6031, 0x765D6036, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x765D6031, 0x765D6032, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x765D6031, 0x765D6033, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x765D6031, 0x765D6034, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x765D6031, 0x765D6035, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x765D6031, 0x765D6036, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765D6032,  4380, 0x65D60032, 167.4534, 38.18602, 72.54459, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

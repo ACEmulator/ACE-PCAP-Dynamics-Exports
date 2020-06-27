@@ -5,15 +5,15 @@ VALUES (0x7BED2001,  1154, 0xBED20030, 130.0612, 186.3088, 158.2712, -0.5865172,
 /* @teleloc 0xBED20030 [130.061200 186.308800 158.271200] -0.586517 0.000000 0.000000 -0.809937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED2001, 0x7BED2002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x7BED2001, 0x7BED2003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BED2001, 0x7BED2004, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BED2001, 0x7BED2005, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BED2001, 0x7BED2006, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BED2001, 0x7BED2007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BED2001, 0x7BED2008, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7BED2001, 0x7BED2009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7BED2001, 0x7BED200A, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x7BED2001, 0x7BED2002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x7BED2001, 0x7BED2003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BED2001, 0x7BED2004, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BED2001, 0x7BED2005, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BED2001, 0x7BED2006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BED2001, 0x7BED2007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BED2001, 0x7BED2008, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7BED2001, 0x7BED2009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7BED2001, 0x7BED200A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED2002, 38177, 0xBED20030, 130.0612, 186.3088, 158.2712, -0.5865172, 0, 0, -0.8099368,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -56,7 +56,7 @@ VALUES (0x7BED200B,  1542, 0xBED20030, 136.1137, 190.7797, 157.6494, 0.5633561, 
 /* @teleloc 0xBED20030 [136.113700 190.779700 157.649400] 0.563356 0.000000 0.000000 -0.826214 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BED200B, 0x7BED200C, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x7BED200B, 0x7BED200C, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BED200C, 22837, 0xBED20030, 136.1137, 190.7797, 157.6494, 0.5633561, 0, 0, -0.8262142,  True, '2019-02-10 00:00:00'); /* Snowflower */

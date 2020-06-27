@@ -5,13 +5,13 @@ VALUES (0x78369001,  1154, 0x8369001C, 78.40879, 78.90746, 15.42688, 0.8870109, 
 /* @teleloc 0x8369001C [78.408790 78.907460 15.426880] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78369001, 0x78369002, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78369001, 0x78369003, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x78369001, 0x78369004, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x78369001, 0x78369005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78369001, 0x78369006, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x78369001, 0x78369007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x78369001, 0x78369008, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x78369001, 0x78369002, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78369001, 0x78369003, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x78369001, 0x78369004, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x78369001, 0x78369005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78369001, 0x78369006, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x78369001, 0x78369007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x78369001, 0x78369008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78369002,  1759, 0x8369001C, 78.40879, 78.90746, 15.42688, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -46,7 +46,7 @@ VALUES (0x78369009,  1542, 0x8369001C, 79.08376, 87.01145, 14.74904, 0.9990482, 
 /* @teleloc 0x8369001C [79.083760 87.011450 14.749040] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78369009, 0x7836900A, '2019-02-10 00:00:00') /* Chest */;
+VALUES (0x78369009, 0x7836900A, '2019-02-10 00:00:00') /* Chest (1913) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7836900A,  1913, 0x8369001C, 79.08376, 87.01145, 14.74904, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */

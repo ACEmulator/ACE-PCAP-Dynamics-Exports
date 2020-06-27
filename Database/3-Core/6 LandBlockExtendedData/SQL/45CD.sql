@@ -5,12 +5,12 @@ VALUES (0x745CD001,  1154, 0x45CD003A, 176.7567, 33.67421, 48.80618, -0.1923539,
 /* @teleloc 0x45CD003A [176.756700 33.674210 48.806180] -0.192354 0.000000 0.000000 -0.981326 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745CD001, 0x745CD002, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x745CD001, 0x745CD003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x745CD001, 0x745CD004, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x745CD001, 0x745CD005, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x745CD001, 0x745CD006, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x745CD001, 0x745CD007, '2019-02-10 00:00:00') /* Great Skeleton */;
+VALUES (0x745CD001, 0x745CD002, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x745CD001, 0x745CD003, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x745CD001, 0x745CD004, '2019-02-10 00:00:00') /* Great Skeleton (7122) */
+     , (0x745CD001, 0x745CD005, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x745CD001, 0x745CD006, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x745CD001, 0x745CD007, '2019-02-10 00:00:00') /* Great Skeleton (7122) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745CD002, 32483, 0x45CD003A, 176.7567, 33.67421, 48.80618, -0.1923539, 0, 0, -0.9813256,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */

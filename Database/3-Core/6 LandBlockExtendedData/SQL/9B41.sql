@@ -5,9 +5,9 @@ VALUES (0x79B41001,  1154, 0x9B410008, 11.54506, 172.0465, 67.27951, -0.5386912,
 /* @teleloc 0x9B410008 [11.545060 172.046500 67.279510] -0.538691 0.000000 0.000000 -0.842503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B41001, 0x79B41002, '2019-02-10 00:00:00') /* Horrible Mu-miyah */
-     , (0x79B41001, 0x79B41003, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79B41001, 0x79B41004, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x79B41001, 0x79B41002, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x79B41001, 0x79B41003, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79B41001, 0x79B41004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B41002,  1765, 0x9B410008, 11.54506, 172.0465, 67.27951, -0.5386912, 0, 0, -0.8425033,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */

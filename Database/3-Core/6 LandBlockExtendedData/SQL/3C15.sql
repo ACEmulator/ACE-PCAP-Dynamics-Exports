@@ -5,21 +5,21 @@ VALUES (0x73C15001,  1154, 0x3C150024, 105.5977, 74.12491, -0.8899999, 0.8703179
 /* @teleloc 0x3C150024 [105.597700 74.124910 -0.890000] 0.870318 0.000000 0.000000 -0.492490 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C15001, 0x73C15002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C15001, 0x73C15003, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C15001, 0x73C15004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C15001, 0x73C15005, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C15001, 0x73C15006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x73C15001, 0x73C15007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C15001, 0x73C15008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C15001, 0x73C15009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73C15001, 0x73C1500A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C15001, 0x73C1500B, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C15001, 0x73C1500C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73C15001, 0x73C1500D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73C15001, 0x73C1500E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73C15001, 0x73C1500F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C15001, 0x73C15010, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x73C15001, 0x73C15002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C15001, 0x73C15003, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C15001, 0x73C15004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C15001, 0x73C15005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C15001, 0x73C15006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x73C15001, 0x73C15007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C15001, 0x73C15008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C15001, 0x73C15009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73C15001, 0x73C1500A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C15001, 0x73C1500B, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C15001, 0x73C1500C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73C15001, 0x73C1500D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73C15001, 0x73C1500E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73C15001, 0x73C1500F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C15001, 0x73C15010, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C15002, 36830, 0x3C150024, 105.5977, 74.12491, -0.8899999, 0.8703179, 0, 0, -0.4924903,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -86,10 +86,10 @@ VALUES (0x73C15011,  1542, 0x3C15003A, 169.3106, 39.47407, -0.91, -0.2188129, 0,
 /* @teleloc 0x3C15003A [169.310600 39.474070 -0.910000] -0.218813 0.000000 0.000000 -0.975767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C15011, 0x73C15012, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x73C15011, 0x73C15013, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x73C15011, 0x73C15014, '2019-02-10 00:00:00') /* Bones */
-     , (0x73C15011, 0x73C15015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73C15011, 0x73C15012, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x73C15011, 0x73C15013, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x73C15011, 0x73C15014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73C15011, 0x73C15015, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C15012,  9286, 0x3C15003A, 169.3106, 39.47407, -0.91, -0.2188129, 0, 0, -0.9757668,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

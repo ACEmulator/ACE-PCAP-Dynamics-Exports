@@ -5,16 +5,16 @@ VALUES (0x736EB001,  1154, 0x36EB000A, 44.37269, 36.35952, 19.38466, 0.7272716, 
 /* @teleloc 0x36EB000A [44.372690 36.359520 19.384660] 0.727272 0.000000 0.000000 -0.686350 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736EB001, 0x736EB002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736EB001, 0x736EB003, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x736EB001, 0x736EB004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x736EB001, 0x736EB005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x736EB001, 0x736EB006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x736EB001, 0x736EB007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736EB001, 0x736EB008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x736EB001, 0x736EB009, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x736EB001, 0x736EB00A, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736EB001, 0x736EB00B, '2019-02-10 00:00:00') /* Polar Ursuin */;
+VALUES (0x736EB001, 0x736EB002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736EB001, 0x736EB003, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x736EB001, 0x736EB004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x736EB001, 0x736EB005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x736EB001, 0x736EB006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736EB001, 0x736EB007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736EB001, 0x736EB008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x736EB001, 0x736EB009, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x736EB001, 0x736EB00A, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736EB001, 0x736EB00B, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736EB002, 24294, 0x36EB000A, 44.37269, 36.35952, 19.38466, 0.7272716, 0, 0, -0.6863498,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

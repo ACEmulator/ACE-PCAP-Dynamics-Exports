@@ -5,8 +5,8 @@ VALUES (0x7DDCD001,  1154, 0xDDCD0038, 154.8437, 190.8436, 19.2891, -0.4400031, 
 /* @teleloc 0xDDCD0038 [154.843700 190.843600 19.289100] -0.440003 0.000000 0.000000 -0.897996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DDCD001, 0x7DDCD002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDCD001, 0x7DDCD003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */;
+VALUES (0x7DDCD001, 0x7DDCD002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDCD001, 0x7DDCD003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DDCD002,   214, 0xDDCD0038, 154.8437, 190.8436, 19.2891, -0.4400031, 0, 0, -0.8979962,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

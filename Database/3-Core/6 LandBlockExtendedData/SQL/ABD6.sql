@@ -5,15 +5,15 @@ VALUES (0x7ABD6001,  1154, 0xABD60014, 60.05384, 74.29221, 103.415, -0.4205615, 
 /* @teleloc 0xABD60014 [60.053840 74.292210 103.415000] -0.420562 0.000000 0.000000 -0.907264 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABD6001, 0x7ABD6002, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7ABD6001, 0x7ABD6003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7ABD6001, 0x7ABD6004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7ABD6001, 0x7ABD6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7ABD6001, 0x7ABD6006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7ABD6001, 0x7ABD6007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7ABD6001, 0x7ABD6008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7ABD6001, 0x7ABD6009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7ABD6001, 0x7ABD600A, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7ABD6001, 0x7ABD6002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7ABD6001, 0x7ABD6003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABD6001, 0x7ABD6004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7ABD6001, 0x7ABD6005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7ABD6001, 0x7ABD6006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7ABD6001, 0x7ABD6007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7ABD6001, 0x7ABD6008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7ABD6001, 0x7ABD6009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7ABD6001, 0x7ABD600A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABD6002,   227, 0xABD60014, 60.05384, 74.29221, 103.415, -0.4205615, 0, 0, -0.9072641,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */

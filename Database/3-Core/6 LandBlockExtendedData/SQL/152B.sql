@@ -5,15 +5,15 @@ VALUES (0x7152B001,  1154, 0x152B002B, 127.8513, 59.66304, -0.8899999, 0.1736482
 /* @teleloc 0x152B002B [127.851300 59.663040 -0.890000] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7152B001, 0x7152B002, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7152B001, 0x7152B003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7152B001, 0x7152B004, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x7152B001, 0x7152B005, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7152B001, 0x7152B006, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7152B001, 0x7152B007, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7152B001, 0x7152B008, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7152B001, 0x7152B009, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7152B001, 0x7152B00A, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x7152B001, 0x7152B002, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7152B001, 0x7152B003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7152B001, 0x7152B004, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7152B001, 0x7152B005, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7152B001, 0x7152B006, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7152B001, 0x7152B007, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7152B001, 0x7152B008, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7152B001, 0x7152B009, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7152B001, 0x7152B00A, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7152B002,  7098, 0x152B002B, 127.8513, 59.66304, -0.8899999, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Plasma Golem */
@@ -56,7 +56,7 @@ VALUES (0x7152B00B,  1542, 0x152B0023, 115.396, 61.9943, -0.9, 1, 0, 0, 0, False
 /* @teleloc 0x152B0023 [115.396000 61.994300 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7152B00B, 0x7152B00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7152B00B, 0x7152B00C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7152B00C, 22566, 0x152B0023, 115.396, 61.9943, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

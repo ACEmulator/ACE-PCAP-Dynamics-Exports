@@ -21,59 +21,59 @@ VALUES (0x702A103B,  1154, 0x02A10170, 270.259, -82.8185, -35.99545, -0.999152, 
 /* @teleloc 0x02A10170 [270.259000 -82.818500 -35.995450] -0.999152 0.000000 0.000000 -0.041178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A103B, 0x702A103C, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A103D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A103E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A103F, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x702A103B, 0x702A1040, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1041, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1042, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x702A103B, 0x702A1043, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1044, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A1045, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1046, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x702A103B, 0x702A1047, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A1048, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A1049, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A104A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A104B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A104C, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x702A103B, 0x702A104D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A104E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A104F, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x702A103B, 0x702A1050, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1051, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1052, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1053, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1054, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1055, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1056, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1057, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x702A103B, 0x702A1058, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x702A103B, 0x702A1059, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A105A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A105B, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A105C, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A105D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A105E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A105F, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A1060, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A1061, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1062, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1063, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1064, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1065, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x702A103B, 0x702A1066, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A1067, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1068, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1069, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A106A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A106B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x702A103B, 0x702A106C, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A106D, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x702A103B, 0x702A106E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A106F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x702A103B, 0x702A1070, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x702A103B, 0x702A103C, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A103D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A103E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A103F, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x702A103B, 0x702A1040, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1041, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1042, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x702A103B, 0x702A1043, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1044, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A1045, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1046, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x702A103B, 0x702A1047, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A1048, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A1049, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A104A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A104B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A104C, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x702A103B, 0x702A104D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A104E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A104F, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x702A103B, 0x702A1050, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1051, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1052, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1053, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1054, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1055, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1056, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1057, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702A103B, 0x702A1058, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x702A103B, 0x702A1059, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A105A, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A105B, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A105C, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A105D, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A105E, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A105F, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A1060, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A1061, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1062, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1063, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1064, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1065, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x702A103B, 0x702A1066, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A1067, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1068, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1069, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A106A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A106B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x702A103B, 0x702A106C, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A106D, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x702A103B, 0x702A106E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A106F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x702A103B, 0x702A1070, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A103C,  1610, 0x02A10170, 270.259, -82.8185, -35.99545, -0.999152, 0, 0, -0.0411779,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
@@ -292,7 +292,7 @@ VALUES (0x702A1071,  1542, 0x02A102A6, 98.48756, -212.2181, 17.937, 0.9979295, 0
 /* @teleloc 0x02A102A6 [98.487560 -212.218100 17.937000] 0.997930 0.000000 0.000000 0.064317 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702A1071, 0x702A1072, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x702A1071, 0x702A1072, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702A1072,  1955, 0x02A102A6, 98.48756, -212.2181, 17.937, 0.9979295, 0, 0, 0.06431708,  True, '2019-02-10 00:00:00'); /* Gateway */

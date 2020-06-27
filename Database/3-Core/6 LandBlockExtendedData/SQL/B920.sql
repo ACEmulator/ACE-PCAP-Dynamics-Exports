@@ -5,12 +5,12 @@ VALUES (0x7B920001,  1154, 0xB9200003, 17.49488, 48.44517, 288, 0.6502652, 0, 0,
 /* @teleloc 0xB9200003 [17.494880 48.445170 288.000000] 0.650265 0.000000 0.000000 -0.759707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B920001, 0x7B920002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B920001, 0x7B920003, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7B920001, 0x7B920004, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B920001, 0x7B920005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B920001, 0x7B920006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B920001, 0x7B920007, '2019-02-10 00:00:00') /* Shadow Lieutenant */;
+VALUES (0x7B920001, 0x7B920002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B920001, 0x7B920003, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7B920001, 0x7B920004, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B920001, 0x7B920005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B920001, 0x7B920006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B920001, 0x7B920007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B920002,  9400, 0xB9200003, 17.49488, 48.44517, 288, 0.6502652, 0, 0, -0.7597073,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

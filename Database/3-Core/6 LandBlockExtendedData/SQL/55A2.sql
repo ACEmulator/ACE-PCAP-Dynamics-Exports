@@ -5,9 +5,9 @@ VALUES (0x755A2001,  1154, 0x55A20002, 17.63596, 38.34394, 54.53859, -0.5724084,
 /* @teleloc 0x55A20002 [17.635960 38.343940 54.538590] -0.572408 0.000000 0.000000 -0.819969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x755A2001, 0x755A2002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x755A2001, 0x755A2003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x755A2001, 0x755A2004, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x755A2001, 0x755A2002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x755A2001, 0x755A2003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x755A2001, 0x755A2004, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x755A2002,  4217, 0x55A20002, 17.63596, 38.34394, 54.53859, -0.5724084, 0, 0, -0.8199687,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

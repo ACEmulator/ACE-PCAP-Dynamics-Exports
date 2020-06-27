@@ -5,21 +5,21 @@ VALUES (0x7BBD0001,  1154, 0xBBD0000D, 39.30235, 107.3854, 69.38412, 0.9176099, 
 /* @teleloc 0xBBD0000D [39.302350 107.385400 69.384120] 0.917610 0.000000 0.000000 -0.397482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD0001, 0x7BBD0002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x7BBD0001, 0x7BBD0003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BBD0001, 0x7BBD0004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BBD0001, 0x7BBD0005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBD0001, 0x7BBD0006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7BBD0001, 0x7BBD0007, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BBD0001, 0x7BBD0008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BBD0001, 0x7BBD0009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BBD0001, 0x7BBD000A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7BBD0001, 0x7BBD000B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BBD0001, 0x7BBD000C, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BBD0001, 0x7BBD000D, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7BBD0001, 0x7BBD000E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BBD0001, 0x7BBD000F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BBD0001, 0x7BBD0010, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7BBD0001, 0x7BBD0002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BBD0001, 0x7BBD0003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BBD0001, 0x7BBD0004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BBD0001, 0x7BBD0005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBD0001, 0x7BBD0006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BBD0001, 0x7BBD0007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BBD0001, 0x7BBD0008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BBD0001, 0x7BBD0009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BBD0001, 0x7BBD000A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BBD0001, 0x7BBD000B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BBD0001, 0x7BBD000C, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BBD0001, 0x7BBD000D, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BBD0001, 0x7BBD000E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BBD0001, 0x7BBD000F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BBD0001, 0x7BBD0010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD0002,  6380, 0xBBD0000D, 39.30235, 107.3854, 69.38412, 0.9176099, 0, 0, -0.3974822,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -86,7 +86,7 @@ VALUES (0x7BBD0011,  1542, 0xBBD0003F, 183.1863, 152.9078, 72.5232, 1, 0, 0, 0, 
 /* @teleloc 0xBBD0003F [183.186300 152.907800 72.523200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBD0011, 0x7BBD0012, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BBD0011, 0x7BBD0012, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD0012, 22571, 0xBBD0003F, 183.1863, 152.9078, 72.5232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

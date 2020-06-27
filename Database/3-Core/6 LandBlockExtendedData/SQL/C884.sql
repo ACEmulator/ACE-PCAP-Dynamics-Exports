@@ -9,26 +9,26 @@ VALUES (0x7C88400B,  1154, 0xC8840005, 20.75773, 97.48708, 53.60939, -0.5919833,
 /* @teleloc 0xC8840005 [20.757730 97.487080 53.609390] -0.591983 0.000000 0.000000 0.805950 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C88400B, 0x7C88400C, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C88400B, 0x7C88400D, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C88400B, 0x7C88400E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88400B, 0x7C88400F, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C88400B, 0x7C884010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C88400B, 0x7C884011, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C88400B, 0x7C884012, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88400B, 0x7C884013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88400B, 0x7C884014, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7C88400B, 0x7C884015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88400B, 0x7C884016, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7C88400B, 0x7C884017, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7C88400B, 0x7C884018, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C88400B, 0x7C884019, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C88400B, 0x7C88401A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C88400B, 0x7C88401B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C88400B, 0x7C88401C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C88400B, 0x7C88401D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C88400B, 0x7C88401E, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C88400B, 0x7C88401F, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7C88400B, 0x7C88400C, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x7C88400B, 0x7C88400D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C88400B, 0x7C88400E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88400B, 0x7C88400F, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C88400B, 0x7C884010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C88400B, 0x7C884011, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C88400B, 0x7C884012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88400B, 0x7C884013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88400B, 0x7C884014, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7C88400B, 0x7C884015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88400B, 0x7C884016, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7C88400B, 0x7C884017, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7C88400B, 0x7C884018, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C88400B, 0x7C884019, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C88400B, 0x7C88401A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C88400B, 0x7C88401B, '2019-02-10 00:00:00') /* Drudge Slinker (1468) */
+     , (0x7C88400B, 0x7C88401C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C88400B, 0x7C88401D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C88400B, 0x7C88401E, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C88400B, 0x7C88401F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C88400C,  1468, 0xC8840005, 20.75773, 97.48708, 53.60939, -0.5919833, 0, 0, 0.8059503,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

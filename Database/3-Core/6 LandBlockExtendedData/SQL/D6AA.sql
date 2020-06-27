@@ -5,11 +5,11 @@ VALUES (0x7D6AA001,  1154, 0xD6AA002A, 123.0563, 41.87087, -0.0934, -0.5023988, 
 /* @teleloc 0xD6AA002A [123.056300 41.870870 -0.093400] -0.502399 0.000000 0.000000 -0.864636 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D6AA001, 0x7D6AA002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D6AA001, 0x7D6AA003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D6AA001, 0x7D6AA004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D6AA001, 0x7D6AA005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D6AA001, 0x7D6AA006, '2019-02-10 00:00:00') /* Mosswart Fanatic */;
+VALUES (0x7D6AA001, 0x7D6AA002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D6AA001, 0x7D6AA003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D6AA001, 0x7D6AA004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D6AA001, 0x7D6AA005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D6AA001, 0x7D6AA006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D6AA002,  8429, 0xD6AA002A, 123.0563, 41.87087, -0.0934, -0.5023988, 0, 0, -0.864636,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

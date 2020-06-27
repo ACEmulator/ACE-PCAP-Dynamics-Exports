@@ -5,11 +5,11 @@ VALUES (0x73A45001,  1154, 0x3A45003E, 170.1973, 121.1822, 70.77193, 0.5203317, 
 /* @teleloc 0x3A45003E [170.197300 121.182200 70.771930] 0.520332 0.000000 0.000000 -0.853964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A45001, 0x73A45002, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73A45001, 0x73A45003, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73A45001, 0x73A45004, '2019-02-10 00:00:00') /* Burun Ruuk Fiend */
-     , (0x73A45001, 0x73A45005, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73A45001, 0x73A45006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73A45001, 0x73A45002, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73A45001, 0x73A45003, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73A45001, 0x73A45004, '2019-02-10 00:00:00') /* Burun Ruuk Fiend (26014) */
+     , (0x73A45001, 0x73A45005, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73A45001, 0x73A45006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A45002, 24320, 0x3A45003E, 170.1973, 121.1822, 70.77193, 0.5203317, 0, 0, -0.8539642,  True, '2019-02-10 00:00:00'); /* Great Revenant */

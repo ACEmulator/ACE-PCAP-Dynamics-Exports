@@ -9,18 +9,18 @@ VALUES (0x790AF004,  1154, 0x90AF0031, 144.6661, 5.388572, 48.01, -0.7006451, 0,
 /* @teleloc 0x90AF0031 [144.666100 5.388572 48.010000] -0.700645 0.000000 0.000000 -0.713510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790AF004, 0x790AF005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x790AF004, 0x790AF006, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x790AF004, 0x790AF007, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x790AF004, 0x790AF008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x790AF004, 0x790AF009, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x790AF004, 0x790AF00A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x790AF004, 0x790AF00B, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x790AF004, 0x790AF00C, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x790AF004, 0x790AF00D, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x790AF004, 0x790AF00E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790AF004, 0x790AF00F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x790AF004, 0x790AF010, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x790AF004, 0x790AF005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x790AF004, 0x790AF006, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x790AF004, 0x790AF007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x790AF004, 0x790AF008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x790AF004, 0x790AF009, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x790AF004, 0x790AF00A, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x790AF004, 0x790AF00B, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x790AF004, 0x790AF00C, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x790AF004, 0x790AF00D, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x790AF004, 0x790AF00E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790AF004, 0x790AF00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790AF004, 0x790AF010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790AF005, 38177, 0x90AF0031, 144.6661, 5.388572, 48.01, -0.7006451, 0, 0, -0.7135099,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -75,8 +75,8 @@ VALUES (0x790AF011,  1542, 0x90AF0015, 58.93288, 102.4442, 47.9, 0.188187, 0, 0,
 /* @teleloc 0x90AF0015 [58.932880 102.444200 47.900000] 0.188187 0.000000 0.000000 -0.982133 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790AF011, 0x790AF012, '2019-02-10 00:00:00') /* Fish */
-     , (0x790AF011, 0x790AF013, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x790AF011, 0x790AF012, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x790AF011, 0x790AF013, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790AF012,   263, 0x90AF0015, 58.93288, 102.4442, 47.9, 0.188187, 0, 0, -0.9821332,  True, '2019-02-10 00:00:00'); /* Fish */

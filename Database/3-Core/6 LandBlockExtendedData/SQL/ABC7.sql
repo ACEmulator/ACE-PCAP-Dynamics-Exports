@@ -5,9 +5,9 @@ VALUES (0x7ABC7001,  1154, 0xABC7002C, 141.8837, 76.28574, 88.17635, 0.3359014, 
 /* @teleloc 0xABC7002C [141.883700 76.285740 88.176350] 0.335901 0.000000 0.000000 -0.941897 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABC7001, 0x7ABC7002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7ABC7001, 0x7ABC7003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7ABC7001, 0x7ABC7004, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7ABC7001, 0x7ABC7002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7ABC7001, 0x7ABC7003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7ABC7001, 0x7ABC7004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABC7002,     3, 0xABC7002C, 141.8837, 76.28574, 88.17635, 0.3359014, 0, 0, -0.9418972,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -26,7 +26,7 @@ VALUES (0x7ABC7005,  1542, 0xABC70035, 159.8722, 114.9323, 89.57768, 0.9990482, 
 /* @teleloc 0xABC70035 [159.872200 114.932300 89.577680] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABC7005, 0x7ABC7006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ABC7005, 0x7ABC7006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABC7006,  4179, 0xABC70035, 159.8722, 114.9323, 89.57768, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

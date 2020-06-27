@@ -5,12 +5,12 @@ VALUES (0x72FDF001,  1154, 0x2FDF0018, 54.61452, 169.1759, 13.75325, 0.07292641,
 /* @teleloc 0x2FDF0018 [54.614520 169.175900 13.753250] 0.072926 0.000000 0.000000 -0.997337 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72FDF001, 0x72FDF002, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x72FDF001, 0x72FDF003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x72FDF001, 0x72FDF004, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72FDF001, 0x72FDF005, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72FDF001, 0x72FDF006, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x72FDF001, 0x72FDF007, '2019-02-10 00:00:00') /* Button Thrungus */;
+VALUES (0x72FDF001, 0x72FDF002, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x72FDF001, 0x72FDF003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x72FDF001, 0x72FDF004, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72FDF001, 0x72FDF005, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72FDF001, 0x72FDF006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x72FDF001, 0x72FDF007, '2019-02-10 00:00:00') /* Button Thrungus (28672) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72FDF002,    19, 0x2FDF0018, 54.61452, 169.1759, 13.75325, 0.07292641, 0, 0, -0.9973373,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */

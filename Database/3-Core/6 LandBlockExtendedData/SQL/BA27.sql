@@ -5,16 +5,16 @@ VALUES (0x7BA27001,  1154, 0xBA270038, 146.1159, 174.5126, 235.1116, 0.3521799, 
 /* @teleloc 0xBA270038 [146.115900 174.512600 235.111600] 0.352180 0.000000 0.000000 -0.935932 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA27001, 0x7BA27002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA27001, 0x7BA27003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA27001, 0x7BA27004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA27001, 0x7BA27005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA27001, 0x7BA27006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA27001, 0x7BA27007, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BA27001, 0x7BA27008, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BA27001, 0x7BA27009, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BA27001, 0x7BA2700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BA27001, 0x7BA2700B, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7BA27001, 0x7BA27002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA27001, 0x7BA27003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA27001, 0x7BA27004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA27001, 0x7BA27005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA27001, 0x7BA27006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA27001, 0x7BA27007, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BA27001, 0x7BA27008, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BA27001, 0x7BA27009, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BA27001, 0x7BA2700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BA27001, 0x7BA2700B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA27002, 14518, 0xBA270038, 146.1159, 174.5126, 235.1116, 0.3521799, 0, 0, -0.9359323,  True, '2019-02-10 00:00:00'); /* Shivver */
@@ -61,7 +61,7 @@ VALUES (0x7BA2700C,  1542, 0xBA27001C, 76.52908, 82.25025, 196.3774, 1, 0, 0, 0,
 /* @teleloc 0xBA27001C [76.529080 82.250250 196.377400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA2700C, 0x7BA2700D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7BA2700C, 0x7BA2700D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA2700D, 22567, 0xBA27001C, 76.52908, 82.25025, 196.3774, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

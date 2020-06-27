@@ -5,10 +5,10 @@ VALUES (0x719AF001,  1154, 0x19AF0010, 37.13973, 179.7653, 0, -0.9550003, 0, 0, 
 /* @teleloc 0x19AF0010 [37.139730 179.765300 0.000000] -0.955000 0.000000 0.000000 -0.296605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719AF001, 0x719AF002, '2019-02-10 00:00:00') /* Carenzi Burrower */
-     , (0x719AF001, 0x719AF003, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x719AF001, 0x719AF004, '2019-02-10 00:00:00') /* Carenzi Stalker */
-     , (0x719AF001, 0x719AF005, '2019-02-10 00:00:00') /* Littoral Siraluun */;
+VALUES (0x719AF001, 0x719AF002, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x719AF001, 0x719AF003, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x719AF001, 0x719AF004, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x719AF001, 0x719AF005, '2019-02-10 00:00:00') /* Littoral Siraluun (11487) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719AF002, 11492, 0x19AF0010, 37.13973, 179.7653, 0, -0.9550003, 0, 0, -0.296605,  True, '2019-02-10 00:00:00'); /* Carenzi Burrower */
@@ -31,7 +31,7 @@ VALUES (0x719AF006,  1542, 0x19AF0018, 61.62953, 168.2591, -0.75, -0.9550003, 0,
 /* @teleloc 0x19AF0018 [61.629530 168.259100 -0.750000] -0.955000 0.000000 0.000000 -0.296605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719AF006, 0x719AF007, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator */;
+VALUES (0x719AF006, 0x719AF007, '2019-02-10 00:00:00') /* Carenzi Stalker Camp Generator (11568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719AF007, 11568, 0x19AF0018, 61.62953, 168.2591, -0.75, -0.9550003, 0, 0, -0.296605,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker Camp Generator */

@@ -5,17 +5,17 @@ VALUES (0x737F3001,  1154, 0x37F30018, 49.78234, 176.1149, 70.9799, 0.3444687, 0
 /* @teleloc 0x37F30018 [49.782340 176.114900 70.979900] 0.344469 0.000000 0.000000 -0.938798 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x737F3001, 0x737F3002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x737F3001, 0x737F3003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737F3001, 0x737F3004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737F3001, 0x737F3005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x737F3001, 0x737F3006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x737F3001, 0x737F3007, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x737F3001, 0x737F3008, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x737F3001, 0x737F3009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x737F3001, 0x737F300A, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x737F3001, 0x737F300B, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x737F3001, 0x737F300C, '2019-02-10 00:00:00') /* Acidic Coral Golem */;
+VALUES (0x737F3001, 0x737F3002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x737F3001, 0x737F3003, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737F3001, 0x737F3004, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737F3001, 0x737F3005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x737F3001, 0x737F3006, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x737F3001, 0x737F3007, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x737F3001, 0x737F3008, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x737F3001, 0x737F3009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x737F3001, 0x737F300A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x737F3001, 0x737F300B, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x737F3001, 0x737F300C, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x737F3002, 28668, 0x37F30018, 49.78234, 176.1149, 70.9799, 0.3444687, 0, 0, -0.9387978,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

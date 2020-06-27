@@ -5,12 +5,12 @@ VALUES (0x725E2001,  1154, 0x25E20007, 18.74984, 148.7993, 56.80238, 0.5350382, 
 /* @teleloc 0x25E20007 [18.749840 148.799300 56.802380] 0.535038 0.000000 0.000000 -0.844828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725E2001, 0x725E2002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x725E2001, 0x725E2003, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x725E2001, 0x725E2004, '2019-02-10 00:00:00') /* Ruschk Fiend */
-     , (0x725E2001, 0x725E2005, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x725E2001, 0x725E2006, '2019-02-10 00:00:00') /* Horripal */
-     , (0x725E2001, 0x725E2007, '2019-02-10 00:00:00') /* Banderling Bandit */;
+VALUES (0x725E2001, 0x725E2002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x725E2001, 0x725E2003, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x725E2001, 0x725E2004, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
+     , (0x725E2001, 0x725E2005, '2019-02-10 00:00:00') /* Banderling Rogue (1462) */
+     , (0x725E2001, 0x725E2006, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x725E2001, 0x725E2007, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E2002,  1762, 0x25E20007, 18.74984, 148.7993, 56.80238, 0.5350382, 0, 0, -0.8448278,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

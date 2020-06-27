@@ -5,9 +5,9 @@ VALUES (0x760D3001,  1154, 0x60D30028, 103.0405, 182.0069, 49.31984, 0.9595399, 
 /* @teleloc 0x60D30028 [103.040500 182.006900 49.319840] 0.959540 0.000000 0.000000 -0.281573 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D3001, 0x760D3002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760D3001, 0x760D3003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x760D3001, 0x760D3004, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x760D3001, 0x760D3002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x760D3001, 0x760D3003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x760D3001, 0x760D3004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D3002,  7096, 0x60D30028, 103.0405, 182.0069, 49.31984, 0.9595399, 0, 0, -0.2815725,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -26,7 +26,7 @@ VALUES (0x760D3005,  1542, 0x60D3003C, 190.1125, 79.11348, 47.43805, -0.1109174,
 /* @teleloc 0x60D3003C [190.112500 79.113480 47.438050] -0.110917 0.000000 0.000000 -0.993830 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D3005, 0x760D3006, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x760D3005, 0x760D3006, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D3006, 31687, 0x60D3003C, 190.1125, 79.11348, 47.43805, -0.1109174, 0, 0, -0.9938296,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

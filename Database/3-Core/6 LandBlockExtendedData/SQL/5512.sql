@@ -5,11 +5,11 @@ VALUES (0x75512001,  1154, 0x55120011, 68.94975, 3.284088, 82.75941, 0.213765, 0
 /* @teleloc 0x55120011 [68.949750 3.284088 82.759410] 0.213765 0.000000 0.000000 -0.976885 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75512001, 0x75512002, '2019-02-10 00:00:00') /* Virindi Councillor */
-     , (0x75512001, 0x75512003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75512001, 0x75512004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x75512001, 0x75512005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion */
-     , (0x75512001, 0x75512006, '2019-02-10 00:00:00') /* Ethereal Rift */;
+VALUES (0x75512001, 0x75512002, '2019-02-10 00:00:00') /* Virindi Councillor (23490) */
+     , (0x75512001, 0x75512003, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75512001, 0x75512004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x75512001, 0x75512005, '2019-02-10 00:00:00') /* Tumideon Hollow Minion (8269) */
+     , (0x75512001, 0x75512006, '2019-02-10 00:00:00') /* Ethereal Rift (10798) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75512002, 23490, 0x55120011, 68.94975, 3.284088, 82.75941, 0.213765, 0, 0, -0.9768851,  True, '2019-02-10 00:00:00'); /* Virindi Councillor */

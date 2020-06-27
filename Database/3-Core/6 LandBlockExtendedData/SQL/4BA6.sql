@@ -5,25 +5,25 @@ VALUES (0x74BA6001,  1154, 0x4BA60023, 104.4836, 48.74536, 55.8711, -4.371139E-0
 /* @teleloc 0x4BA60023 [104.483600 48.745360 55.871100] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74BA6001, 0x74BA6002, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74BA6001, 0x74BA6003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74BA6001, 0x74BA6004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74BA6001, 0x74BA6005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74BA6001, 0x74BA6006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74BA6001, 0x74BA6007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74BA6001, 0x74BA6008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x74BA6001, 0x74BA6009, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74BA6001, 0x74BA600A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74BA6001, 0x74BA600B, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x74BA6001, 0x74BA600C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x74BA6001, 0x74BA600D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74BA6001, 0x74BA600E, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74BA6001, 0x74BA600F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74BA6001, 0x74BA6010, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74BA6001, 0x74BA6011, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74BA6001, 0x74BA6012, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x74BA6001, 0x74BA6013, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x74BA6001, 0x74BA6014, '2019-02-10 00:00:00') /* Scintilla */;
+VALUES (0x74BA6001, 0x74BA6002, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74BA6001, 0x74BA6003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74BA6001, 0x74BA6004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74BA6001, 0x74BA6005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74BA6001, 0x74BA6006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74BA6001, 0x74BA6007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74BA6001, 0x74BA6008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x74BA6001, 0x74BA6009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74BA6001, 0x74BA600A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74BA6001, 0x74BA600B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74BA6001, 0x74BA600C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x74BA6001, 0x74BA600D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74BA6001, 0x74BA600E, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74BA6001, 0x74BA600F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74BA6001, 0x74BA6010, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74BA6001, 0x74BA6011, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74BA6001, 0x74BA6012, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x74BA6001, 0x74BA6013, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x74BA6001, 0x74BA6014, '2019-02-10 00:00:00') /* Scintilla (6380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BA6002, 24288, 0x4BA60023, 104.4836, 48.74536, 55.8711, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */

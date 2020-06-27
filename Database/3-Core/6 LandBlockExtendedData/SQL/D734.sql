@@ -5,10 +5,10 @@ VALUES (0x7D734001,  1154, 0xD734000A, 46.5469, 33.68333, 68.93259, -0.8045122, 
 /* @teleloc 0xD734000A [46.546900 33.683330 68.932590] -0.804512 0.000000 0.000000 -0.593936 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D734001, 0x7D734002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D734001, 0x7D734003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D734001, 0x7D734004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7D734001, 0x7D734005, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7D734001, 0x7D734002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D734001, 0x7D734003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D734001, 0x7D734004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7D734001, 0x7D734005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D734002,  7089, 0xD734000A, 46.5469, 33.68333, 68.93259, -0.8045122, 0, 0, -0.5939361,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

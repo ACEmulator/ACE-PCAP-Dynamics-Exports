@@ -5,16 +5,16 @@ VALUES (0x78BEC001,  1154, 0x8BEC0035, 144.801, 112.857, 36.6719, -0.9853002, 0,
 /* @teleloc 0x8BEC0035 [144.801000 112.857000 36.671900] -0.985300 0.000000 0.000000 -0.170831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BEC001, 0x78BEC002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BEC001, 0x78BEC003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BEC001, 0x78BEC004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78BEC001, 0x78BEC005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78BEC001, 0x78BEC006, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78BEC001, 0x78BEC007, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78BEC001, 0x78BEC008, '2019-02-10 00:00:00') /* Frost */
-     , (0x78BEC001, 0x78BEC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78BEC001, 0x78BEC00A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78BEC001, 0x78BEC00B, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x78BEC001, 0x78BEC002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BEC001, 0x78BEC003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BEC001, 0x78BEC004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78BEC001, 0x78BEC005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78BEC001, 0x78BEC006, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78BEC001, 0x78BEC007, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78BEC001, 0x78BEC008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78BEC001, 0x78BEC009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78BEC001, 0x78BEC00A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78BEC001, 0x78BEC00B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BEC002, 22519, 0x8BEC0035, 144.801, 112.857, 36.6719, -0.9853002, 0, 0, -0.1708314,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

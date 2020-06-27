@@ -5,14 +5,14 @@ VALUES (0x70F5A001,  1154, 0x0F5A0022, 116.5042, 37.0085, 18.01, 0.7071068, 0, 0
 /* @teleloc 0x0F5A0022 [116.504200 37.008500 18.010000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F5A001, 0x70F5A002, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x70F5A001, 0x70F5A003, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x70F5A001, 0x70F5A004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x70F5A001, 0x70F5A005, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x70F5A001, 0x70F5A006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70F5A001, 0x70F5A007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70F5A001, 0x70F5A008, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70F5A001, 0x70F5A009, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x70F5A001, 0x70F5A002, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x70F5A001, 0x70F5A003, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x70F5A001, 0x70F5A004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x70F5A001, 0x70F5A005, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x70F5A001, 0x70F5A006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70F5A001, 0x70F5A007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70F5A001, 0x70F5A008, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70F5A001, 0x70F5A009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F5A002, 36837, 0x0F5A0022, 116.5042, 37.0085, 18.01, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
@@ -51,9 +51,9 @@ VALUES (0x70F5A00A,  1542, 0x0F5A0022, 115.2491, 41.53893, 18, -4.371139E-08, 0,
 /* @teleloc 0x0F5A0022 [115.249100 41.538930 18.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F5A00A, 0x70F5A00B, '2019-02-10 00:00:00') /* Bones */
-     , (0x70F5A00A, 0x70F5A00C, '2019-02-10 00:00:00') /* Bones */
-     , (0x70F5A00A, 0x70F5A00D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70F5A00A, 0x70F5A00B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70F5A00A, 0x70F5A00C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x70F5A00A, 0x70F5A00D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F5A00B,  4380, 0x0F5A0022, 115.2491, 41.53893, 18, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

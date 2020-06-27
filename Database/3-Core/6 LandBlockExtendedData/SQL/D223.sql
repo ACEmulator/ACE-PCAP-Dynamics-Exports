@@ -5,13 +5,13 @@ VALUES (0x7D223001,  1154, 0xD223003A, 184.3141, 36.04426, 63.35771, 0.8660254, 
 /* @teleloc 0xD223003A [184.314100 36.044260 63.357710] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D223001, 0x7D223002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D223001, 0x7D223003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D223001, 0x7D223004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7D223001, 0x7D223005, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7D223001, 0x7D223006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D223001, 0x7D223007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D223001, 0x7D223008, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7D223001, 0x7D223002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D223001, 0x7D223003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D223001, 0x7D223004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7D223001, 0x7D223005, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7D223001, 0x7D223006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D223001, 0x7D223007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D223001, 0x7D223008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D223002,  7980, 0xD223003A, 184.3141, 36.04426, 63.35771, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */

@@ -5,12 +5,12 @@ VALUES (0x72F4E001,  1154, 0x2F4E000A, 43.19963, 33.50268, -0.002399981, 0.54795
 /* @teleloc 0x2F4E000A [43.199630 33.502680 -0.002400] 0.547956 0.000000 0.000000 -0.836507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F4E001, 0x72F4E002, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72F4E001, 0x72F4E003, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72F4E001, 0x72F4E004, '2019-02-10 00:00:00') /* Bile Grievver */
-     , (0x72F4E001, 0x72F4E005, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x72F4E001, 0x72F4E006, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x72F4E001, 0x72F4E007, '2019-02-10 00:00:00') /* Virindi Paradox */;
+VALUES (0x72F4E001, 0x72F4E002, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72F4E001, 0x72F4E003, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72F4E001, 0x72F4E004, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72F4E001, 0x72F4E005, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72F4E001, 0x72F4E006, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72F4E001, 0x72F4E007, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F4E002, 22900, 0x2F4E000A, 43.19963, 33.50268, -0.002399981, 0.5479563, 0, 0, -0.836507,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
@@ -41,8 +41,8 @@ VALUES (0x72F4E008,  1542, 0x2F4E0011, 49.95793, 22.18245, 0, 0.5479563, 0, 0, -
 /* @teleloc 0x2F4E0011 [49.957930 22.182450 0.000000] 0.547956 0.000000 0.000000 -0.836507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F4E008, 0x72F4E009, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest */
-     , (0x72F4E008, 0x72F4E00A, '2019-02-10 00:00:00') /* Bloodroot Vine */;
+VALUES (0x72F4E008, 0x72F4E009, '2019-02-10 00:00:00') /* Reinforced Mahogany Chest (23085) */
+     , (0x72F4E008, 0x72F4E00A, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F4E009, 23085, 0x2F4E0011, 49.95793, 22.18245, 0, 0.5479563, 0, 0, -0.836507,  True, '2019-02-10 00:00:00'); /* Reinforced Mahogany Chest */

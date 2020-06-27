@@ -5,56 +5,56 @@ VALUES (0x7D9C4001,  1154, 0xD9C40029, 120.39, 3.834382, 124.006, 0.6658332, 0, 
 /* @teleloc 0xD9C40029 [120.390000 3.834382 124.006000] 0.665833 0.000000 0.000000 -0.746101 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9C4001, 0x7D9C4002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7D9C4001, 0x7D9C4003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7D9C4001, 0x7D9C4004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7D9C4001, 0x7D9C4005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7D9C4001, 0x7D9C4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7D9C4001, 0x7D9C4007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7D9C4001, 0x7D9C4008, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C400A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C400B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C400C, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7D9C4001, 0x7D9C400D, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7D9C4001, 0x7D9C400E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7D9C4001, 0x7D9C400F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C4010, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D9C4001, 0x7D9C4011, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7D9C4001, 0x7D9C4012, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D9C4001, 0x7D9C4013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7D9C4001, 0x7D9C4014, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C4016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C4017, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4018, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4019, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D9C4001, 0x7D9C401A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C401B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C401C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C401D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C401E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C401F, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D9C4001, 0x7D9C4020, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4021, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4022, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4023, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7D9C4001, 0x7D9C4024, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4025, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4026, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4027, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D9C4001, 0x7D9C4028, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7D9C4001, 0x7D9C4029, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7D9C4001, 0x7D9C402A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C402B, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7D9C4001, 0x7D9C402C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7D9C4001, 0x7D9C402D, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C402E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7D9C4001, 0x7D9C402F, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7D9C4001, 0x7D9C4030, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4031, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D9C4001, 0x7D9C4032, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D9C4001, 0x7D9C4033, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7D9C4001, 0x7D9C4002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7D9C4001, 0x7D9C4003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7D9C4001, 0x7D9C4004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7D9C4001, 0x7D9C4005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7D9C4001, 0x7D9C4006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7D9C4001, 0x7D9C4007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7D9C4001, 0x7D9C4008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C400A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C400B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C400C, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7D9C4001, 0x7D9C400D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x7D9C4001, 0x7D9C400E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x7D9C4001, 0x7D9C400F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C4010, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D9C4001, 0x7D9C4011, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7D9C4001, 0x7D9C4012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D9C4001, 0x7D9C4013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7D9C4001, 0x7D9C4014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C4016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C4017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4018, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4019, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D9C4001, 0x7D9C401A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C401B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C401C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C401D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C401E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C401F, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D9C4001, 0x7D9C4020, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4021, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4022, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4023, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7D9C4001, 0x7D9C4024, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4025, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4026, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4027, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D9C4001, 0x7D9C4028, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7D9C4001, 0x7D9C4029, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7D9C4001, 0x7D9C402A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C402B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7D9C4001, 0x7D9C402C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7D9C4001, 0x7D9C402D, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C402E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7D9C4001, 0x7D9C402F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7D9C4001, 0x7D9C4030, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4031, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D9C4001, 0x7D9C4032, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D9C4001, 0x7D9C4033, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9C4002, 35731, 0xD9C40029, 120.39, 3.834382, 124.006, 0.6658332, 0, 0, -0.7461006,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator Grub */
@@ -261,7 +261,7 @@ VALUES (0x7D9C4034,  1542, 0xD9C40040, 180.9543, 175.4126, 109.6675, 1, 0, 0, 0,
 /* @teleloc 0xD9C40040 [180.954300 175.412600 109.667500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D9C4034, 0x7D9C4035, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7D9C4034, 0x7D9C4035, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D9C4035, 31445, 0xD9C40040, 180.9543, 175.4126, 109.6675, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

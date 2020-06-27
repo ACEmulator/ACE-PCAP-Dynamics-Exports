@@ -5,11 +5,11 @@ VALUES (0x77E87001,  1154, 0x7E870030, 120.6064, 168.1868, 251.6582, -0.9846361,
 /* @teleloc 0x7E870030 [120.606400 168.186800 251.658200] -0.984636 0.000000 0.000000 -0.174619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E87001, 0x77E87002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x77E87001, 0x77E87003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x77E87001, 0x77E87004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x77E87001, 0x77E87005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x77E87001, 0x77E87006, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x77E87001, 0x77E87002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x77E87001, 0x77E87003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x77E87001, 0x77E87004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x77E87001, 0x77E87005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x77E87001, 0x77E87006, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E87002,  1630, 0x7E870030, 120.6064, 168.1868, 251.6582, -0.9846361, 0, 0, -0.1746191,  True, '2019-02-10 00:00:00'); /* Lich Lord */

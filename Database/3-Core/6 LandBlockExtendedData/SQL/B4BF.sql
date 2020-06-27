@@ -5,11 +5,11 @@ VALUES (0x7B4BF001,  1154, 0xB4BF0100, 19.87409, 32.81521, 144.805, -0.692221, 0
 /* @teleloc 0xB4BF0100 [19.874090 32.815210 144.805000] -0.692221 0.000000 0.000000 -0.721686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4BF001, 0x7B4BF002, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B4BF001, 0x7B4BF003, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7B4BF001, 0x7B4BF004, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7B4BF001, 0x7B4BF005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7B4BF001, 0x7B4BF006, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7B4BF001, 0x7B4BF002, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B4BF001, 0x7B4BF003, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7B4BF001, 0x7B4BF004, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7B4BF001, 0x7B4BF005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7B4BF001, 0x7B4BF006, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4BF002,   945, 0xB4BF0100, 19.87409, 32.81521, 144.805, -0.692221, 0, 0, -0.721686,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
@@ -36,12 +36,12 @@ VALUES (0x7B4BF007,  1542, 0xB4BF0100, 27.58587, 39.46143, 144.7975, 0.831205, 0
 /* @teleloc 0xB4BF0100 [27.585870 39.461430 144.797500] 0.831205 0.000000 0.000000 -0.555966 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B4BF007, 0x7B4BF008, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7B4BF007, 0x7B4BF009, '2019-02-10 00:00:00') /* Egg */
-     , (0x7B4BF007, 0x7B4BF00A, '2019-02-10 00:00:00') /* Cheese */
-     , (0x7B4BF007, 0x7B4BF00B, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B4BF007, 0x7B4BF00C, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7B4BF007, 0x7B4BF00D, '2019-02-10 00:00:00') /* Ring */;
+VALUES (0x7B4BF007, 0x7B4BF008, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7B4BF007, 0x7B4BF009, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7B4BF007, 0x7B4BF00A, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x7B4BF007, 0x7B4BF00B, '2019-02-10 00:00:00') /* Gem (2417) */
+     , (0x7B4BF007, 0x7B4BF00C, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7B4BF007, 0x7B4BF00D, '2019-02-10 00:00:00') /* Ring (297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B4BF008,   547, 0xB4BF0100, 27.58587, 39.46143, 144.7975, 0.831205, 0, 0, -0.555966,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */

@@ -5,12 +5,12 @@ VALUES (0x78E81001,  1154, 0x8E810036, 149.3974, 128.8171, 52.17942, 0.9238795, 
 /* @teleloc 0x8E810036 [149.397400 128.817100 52.179420] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E81001, 0x78E81002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x78E81001, 0x78E81003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E81001, 0x78E81004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78E81001, 0x78E81005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78E81001, 0x78E81006, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x78E81001, 0x78E81007, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x78E81001, 0x78E81002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78E81001, 0x78E81003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E81001, 0x78E81004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78E81001, 0x78E81005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78E81001, 0x78E81006, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x78E81001, 0x78E81007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E81002,  1758, 0x8E810036, 149.3974, 128.8171, 52.17942, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -41,8 +41,8 @@ VALUES (0x78E81008,  1542, 0x8E81003E, 182.0664, 143.5348, 58.5725, 0.9238795, 0
 /* @teleloc 0x8E81003E [182.066400 143.534800 58.572500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E81008, 0x78E81009, '2019-02-10 00:00:00') /* Bones */
-     , (0x78E81008, 0x78E8100A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78E81008, 0x78E81009, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x78E81008, 0x78E8100A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E81009,  4380, 0x8E81003E, 182.0664, 143.5348, 58.5725, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */

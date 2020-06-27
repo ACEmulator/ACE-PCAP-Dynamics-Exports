@@ -5,15 +5,15 @@ VALUES (0x7E933001,  1154, 0xE933001B, 73.87157, 54.48228, -0.8899999, 0.8240581
 /* @teleloc 0xE933001B [73.871570 54.482280 -0.890000] 0.824058 0.000000 0.000000 -0.566505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E933001, 0x7E933002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7E933001, 0x7E933003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E933001, 0x7E933004, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E933001, 0x7E933005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7E933001, 0x7E933006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E933001, 0x7E933007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E933001, 0x7E933008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E933001, 0x7E933009, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E933001, 0x7E93300A, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7E933001, 0x7E933002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7E933001, 0x7E933003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E933001, 0x7E933004, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E933001, 0x7E933005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7E933001, 0x7E933006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E933001, 0x7E933007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E933001, 0x7E933008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E933001, 0x7E933009, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E933001, 0x7E93300A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E933002, 11531, 0xE933001B, 73.87157, 54.48228, -0.8899999, 0.8240581, 0, 0, -0.5665054,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -56,7 +56,7 @@ VALUES (0x7E93300B,  1542, 0xE933000B, 47.32906, 62.61308, -0.902161, 1, 0, 0, 0
 /* @teleloc 0xE933000B [47.329060 62.613080 -0.902161] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E93300B, 0x7E93300C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7E93300B, 0x7E93300C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E93300C, 31443, 0xE933000B, 47.32906, 62.61308, -0.902161, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

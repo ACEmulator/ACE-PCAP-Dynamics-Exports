@@ -5,17 +5,17 @@ VALUES (0x74E9A001,  1154, 0x4E9A0007, 17.97846, 166.7596, 20.69849, 0.09618156,
 /* @teleloc 0x4E9A0007 [17.978460 166.759600 20.698490] 0.096182 0.000000 0.000000 -0.995364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E9A001, 0x74E9A002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74E9A001, 0x74E9A003, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x74E9A001, 0x74E9A004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x74E9A001, 0x74E9A005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74E9A001, 0x74E9A006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74E9A001, 0x74E9A007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x74E9A001, 0x74E9A008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74E9A001, 0x74E9A009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x74E9A001, 0x74E9A00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74E9A001, 0x74E9A00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x74E9A001, 0x74E9A00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x74E9A001, 0x74E9A002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74E9A001, 0x74E9A003, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x74E9A001, 0x74E9A004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x74E9A001, 0x74E9A005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74E9A001, 0x74E9A006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74E9A001, 0x74E9A007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x74E9A001, 0x74E9A008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74E9A001, 0x74E9A009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x74E9A001, 0x74E9A00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74E9A001, 0x74E9A00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x74E9A001, 0x74E9A00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E9A002,  1757, 0x4E9A0007, 17.97846, 166.7596, 20.69849, 0.09618156, 0, 0, -0.9953638,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -66,10 +66,10 @@ VALUES (0x74E9A00D,  1542, 0x4E9A0007, 18.64588, 159.9039, 21.14994, -4.371139E-
 /* @teleloc 0x4E9A0007 [18.645880 159.903900 21.149940] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74E9A00D, 0x74E9A00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x74E9A00D, 0x74E9A00F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x74E9A00D, 0x74E9A010, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x74E9A00D, 0x74E9A011, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x74E9A00D, 0x74E9A00E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74E9A00D, 0x74E9A00F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x74E9A00D, 0x74E9A010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x74E9A00D, 0x74E9A011, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E9A00E,  4380, 0x4E9A0007, 18.64588, 159.9039, 21.14994, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

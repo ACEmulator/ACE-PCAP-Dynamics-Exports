@@ -5,47 +5,47 @@ VALUES (0x7E64C001,  1154, 0xE64C000B, 35.27726, 52.93422, 31.985, -0.1168949, 0
 /* @teleloc 0xE64C000B [35.277260 52.934220 31.985000] -0.116895 0.000000 0.000000 -0.993144 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E64C001, 0x7E64C002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E64C001, 0x7E64C003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E64C001, 0x7E64C004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E64C001, 0x7E64C005, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E64C001, 0x7E64C006, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E64C001, 0x7E64C007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E64C001, 0x7E64C008, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E64C001, 0x7E64C009, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7E64C001, 0x7E64C00A, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E64C001, 0x7E64C00B, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E64C001, 0x7E64C00C, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E64C001, 0x7E64C00D, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E64C001, 0x7E64C00E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E64C001, 0x7E64C00F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E64C001, 0x7E64C010, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E64C001, 0x7E64C011, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E64C001, 0x7E64C012, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E64C001, 0x7E64C013, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E64C001, 0x7E64C014, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E64C001, 0x7E64C015, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E64C001, 0x7E64C016, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E64C001, 0x7E64C017, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E64C001, 0x7E64C018, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E64C001, 0x7E64C019, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E64C001, 0x7E64C01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7E64C001, 0x7E64C01B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7E64C001, 0x7E64C01C, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E64C001, 0x7E64C01D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E64C001, 0x7E64C01E, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E64C001, 0x7E64C01F, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E64C001, 0x7E64C020, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E64C001, 0x7E64C021, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E64C001, 0x7E64C022, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E64C001, 0x7E64C023, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7E64C001, 0x7E64C024, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E64C001, 0x7E64C025, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E64C001, 0x7E64C026, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E64C001, 0x7E64C027, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7E64C001, 0x7E64C028, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E64C001, 0x7E64C029, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E64C001, 0x7E64C02A, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7E64C001, 0x7E64C002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E64C001, 0x7E64C003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E64C001, 0x7E64C004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E64C001, 0x7E64C005, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E64C001, 0x7E64C006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E64C001, 0x7E64C007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E64C001, 0x7E64C008, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E64C001, 0x7E64C009, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7E64C001, 0x7E64C00A, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E64C001, 0x7E64C00B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E64C001, 0x7E64C00C, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E64C001, 0x7E64C00D, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E64C001, 0x7E64C00E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E64C001, 0x7E64C00F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E64C001, 0x7E64C010, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E64C001, 0x7E64C011, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E64C001, 0x7E64C012, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E64C001, 0x7E64C013, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E64C001, 0x7E64C014, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E64C001, 0x7E64C015, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E64C001, 0x7E64C016, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E64C001, 0x7E64C017, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E64C001, 0x7E64C018, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E64C001, 0x7E64C019, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E64C001, 0x7E64C01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E64C001, 0x7E64C01B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7E64C001, 0x7E64C01C, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E64C001, 0x7E64C01D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E64C001, 0x7E64C01E, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E64C001, 0x7E64C01F, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E64C001, 0x7E64C020, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E64C001, 0x7E64C021, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E64C001, 0x7E64C022, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E64C001, 0x7E64C023, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E64C001, 0x7E64C024, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E64C001, 0x7E64C025, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E64C001, 0x7E64C026, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E64C001, 0x7E64C027, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7E64C001, 0x7E64C028, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E64C001, 0x7E64C029, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E64C001, 0x7E64C02A, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64C002,  4111, 0xE64C000B, 35.27726, 52.93422, 31.985, -0.1168949, 0, 0, -0.9931443,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -216,8 +216,8 @@ VALUES (0x7E64C02B,  1542, 0xE64C000C, 35.00478, 86.7638, 32, -0.4587, 0, 0, -0.
 /* @teleloc 0xE64C000C [35.004780 86.763800 32.000000] -0.458700 0.000000 0.000000 -0.888591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E64C02B, 0x7E64C02C, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7E64C02B, 0x7E64C02D, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7E64C02B, 0x7E64C02C, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E64C02B, 0x7E64C02D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64C02C,  8037, 0xE64C000C, 35.00478, 86.7638, 32, -0.4587, 0, 0, -0.8885912,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

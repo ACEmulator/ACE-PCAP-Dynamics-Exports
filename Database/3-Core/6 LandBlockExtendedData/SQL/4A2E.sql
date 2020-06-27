@@ -5,17 +5,17 @@ VALUES (0x74A2E001,  1154, 0x4A2E0009, 41.26603, 9.871201, 5.6492, 0.8870109, 0,
 /* @teleloc 0x4A2E0009 [41.266030 9.871201 5.649200] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A2E001, 0x74A2E002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74A2E001, 0x74A2E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74A2E001, 0x74A2E004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74A2E001, 0x74A2E005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74A2E001, 0x74A2E006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74A2E001, 0x74A2E007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74A2E001, 0x74A2E008, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x74A2E001, 0x74A2E009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x74A2E001, 0x74A2E00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x74A2E001, 0x74A2E00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x74A2E001, 0x74A2E00C, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x74A2E001, 0x74A2E002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74A2E001, 0x74A2E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74A2E001, 0x74A2E004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74A2E001, 0x74A2E005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74A2E001, 0x74A2E006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74A2E001, 0x74A2E007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74A2E001, 0x74A2E008, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x74A2E001, 0x74A2E009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74A2E001, 0x74A2E00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74A2E001, 0x74A2E00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74A2E001, 0x74A2E00C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A2E002,  4254, 0x4A2E0009, 41.26603, 9.871201, 5.6492, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

@@ -5,17 +5,17 @@ VALUES (0x71DC8001,  1154, 0x1DC80019, 88.62454, 4.879502, 0, 0.8420801, 0, 0, -
 /* @teleloc 0x1DC80019 [88.624540 4.879502 0.000000] 0.842080 0.000000 0.000000 -0.539353 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC8001, 0x71DC8002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC8003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC8004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC8005, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC8001, 0x71DC8006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC8001, 0x71DC8007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC8008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC8009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC800A, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC8001, 0x71DC800B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x71DC8001, 0x71DC800C, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x71DC8001, 0x71DC8002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC8003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC8004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC8005, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC8001, 0x71DC8006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC8001, 0x71DC8007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC8008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC8009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC800A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC8001, 0x71DC800B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x71DC8001, 0x71DC800C, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC8002, 22505, 0x1DC80019, 88.62454, 4.879502, 0, 0.8420801, 0, 0, -0.5393525,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */

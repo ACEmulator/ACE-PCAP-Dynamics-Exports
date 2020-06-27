@@ -5,11 +5,11 @@ VALUES (0x7DC29001,  1154, 0xDC290005, 16.7911, 118.6394, 156.5717, 0.8949174, 0
 /* @teleloc 0xDC290005 [16.791100 118.639400 156.571700] 0.894917 0.000000 0.000000 -0.446232 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC29001, 0x7DC29002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7DC29001, 0x7DC29003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DC29001, 0x7DC29004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7DC29001, 0x7DC29005, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7DC29001, 0x7DC29006, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x7DC29001, 0x7DC29002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7DC29001, 0x7DC29003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DC29001, 0x7DC29004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7DC29001, 0x7DC29005, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7DC29001, 0x7DC29006, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC29002,  6041, 0xDC290005, 16.7911, 118.6394, 156.5717, 0.8949174, 0, 0, -0.4462319,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

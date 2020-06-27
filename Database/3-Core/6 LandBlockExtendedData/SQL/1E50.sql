@@ -5,12 +5,12 @@ VALUES (0x71E50001,  1154, 0x1E500038, 151.61, 180.3178, 64.00455, 0.2588191, 0,
 /* @teleloc 0x1E500038 [151.610000 180.317800 64.004550] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E50001, 0x71E50002, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71E50001, 0x71E50003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71E50001, 0x71E50004, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71E50001, 0x71E50005, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x71E50001, 0x71E50006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71E50001, 0x71E50007, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x71E50001, 0x71E50002, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71E50001, 0x71E50003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71E50001, 0x71E50004, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71E50001, 0x71E50005, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71E50001, 0x71E50006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71E50001, 0x71E50007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E50002, 36822, 0x1E500038, 151.61, 180.3178, 64.00455, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */

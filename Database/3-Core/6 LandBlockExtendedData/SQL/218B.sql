@@ -5,11 +5,11 @@ VALUES (0x7218B001,  1154, 0x218B0012, 70.30598, 44.51344, 53.47099, 0.3987491, 
 /* @teleloc 0x218B0012 [70.305980 44.513440 53.470990] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7218B001, 0x7218B002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7218B001, 0x7218B003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7218B001, 0x7218B004, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7218B001, 0x7218B005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7218B001, 0x7218B006, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x7218B001, 0x7218B002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7218B001, 0x7218B003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7218B001, 0x7218B004, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7218B001, 0x7218B005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7218B001, 0x7218B006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7218B002, 36843, 0x218B0012, 70.30598, 44.51344, 53.47099, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */

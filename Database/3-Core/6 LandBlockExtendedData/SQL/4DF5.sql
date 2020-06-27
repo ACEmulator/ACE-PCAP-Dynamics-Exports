@@ -5,20 +5,20 @@ VALUES (0x74DF5001,  1154, 0x4DF50001, 4.344131, 4.304548, 17.08623, -0.8883513,
 /* @teleloc 0x4DF50001 [4.344131 4.304548 17.086230] -0.888351 0.000000 0.000000 -0.459164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DF5001, 0x74DF5002, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74DF5001, 0x74DF5003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x74DF5001, 0x74DF5004, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74DF5001, 0x74DF5005, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x74DF5001, 0x74DF5006, '2019-02-10 00:00:00') /* Viamontian Hand */
-     , (0x74DF5001, 0x74DF5007, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x74DF5001, 0x74DF5008, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74DF5001, 0x74DF5009, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x74DF5001, 0x74DF500A, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x74DF5001, 0x74DF500B, '2019-02-10 00:00:00') /* Sapphire Golem */
-     , (0x74DF5001, 0x74DF500C, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x74DF5001, 0x74DF500D, '2019-02-10 00:00:00') /* Viamontian Lord */
-     , (0x74DF5001, 0x74DF500E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x74DF5001, 0x74DF500F, '2019-02-10 00:00:00') /* Ravenous Eater */;
+VALUES (0x74DF5001, 0x74DF5002, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74DF5001, 0x74DF5003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x74DF5001, 0x74DF5004, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74DF5001, 0x74DF5005, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x74DF5001, 0x74DF5006, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x74DF5001, 0x74DF5007, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x74DF5001, 0x74DF5008, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74DF5001, 0x74DF5009, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x74DF5001, 0x74DF500A, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x74DF5001, 0x74DF500B, '2019-02-10 00:00:00') /* Sapphire Golem (28247) */
+     , (0x74DF5001, 0x74DF500C, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x74DF5001, 0x74DF500D, '2019-02-10 00:00:00') /* Viamontian Lord (28656) */
+     , (0x74DF5001, 0x74DF500E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x74DF5001, 0x74DF500F, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DF5002, 28655, 0x4DF50001, 4.344131, 4.304548, 17.08623, -0.8883513, 0, 0, -0.4591643,  True, '2019-02-10 00:00:00'); /* Viamontian Hand */
@@ -81,7 +81,7 @@ VALUES (0x74DF5010,  1542, 0x4DF5000E, 26.70254, 142.7471, 32.45042, 0.8552679, 
 /* @teleloc 0x4DF5000E [26.702540 142.747100 32.450420] 0.855268 0.000000 0.000000 -0.518186 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74DF5010, 0x74DF5011, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x74DF5010, 0x74DF5011, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74DF5011, 31032, 0x4DF5000E, 26.70254, 142.7471, 32.45042, 0.8552679, 0, 0, -0.5181861,  True, '2019-02-10 00:00:00'); /* Snow Lily */

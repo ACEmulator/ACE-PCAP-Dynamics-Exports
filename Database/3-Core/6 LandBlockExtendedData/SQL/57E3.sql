@@ -5,14 +5,14 @@ VALUES (0x757E3001,  1154, 0x57E3001E, 93.65593, 135.846, 58.97832, 0.7660445, 0
 /* @teleloc 0x57E3001E [93.655930 135.846000 58.978320] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E3001, 0x757E3002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757E3001, 0x757E3003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757E3001, 0x757E3004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x757E3001, 0x757E3005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x757E3001, 0x757E3006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x757E3001, 0x757E3007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757E3001, 0x757E3008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x757E3001, 0x757E3009, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x757E3001, 0x757E3002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757E3001, 0x757E3003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757E3001, 0x757E3004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x757E3001, 0x757E3005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x757E3001, 0x757E3006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x757E3001, 0x757E3007, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757E3001, 0x757E3008, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x757E3001, 0x757E3009, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E3002,  7096, 0x57E3001E, 93.65593, 135.846, 58.97832, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -51,7 +51,7 @@ VALUES (0x757E300A,  1542, 0x57E3001B, 81.94295, 56.53123, 66.64768, -4.371139E-
 /* @teleloc 0x57E3001B [81.942950 56.531230 66.647680] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757E300A, 0x757E300B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x757E300A, 0x757E300B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757E300B,  4380, 0x57E3001B, 81.94295, 56.53123, 66.64768, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

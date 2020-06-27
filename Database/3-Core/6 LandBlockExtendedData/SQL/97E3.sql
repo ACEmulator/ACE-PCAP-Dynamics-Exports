@@ -5,24 +5,24 @@ VALUES (0x797E3001,  1154, 0x97E3000E, 35.87863, 121.3955, 151.6237, 1, 0, 0, 0,
 /* @teleloc 0x97E3000E [35.878630 121.395500 151.623700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E3001, 0x797E3002, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x797E3001, 0x797E3003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797E3001, 0x797E3004, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x797E3001, 0x797E3005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x797E3001, 0x797E3006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E3001, 0x797E3007, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E3001, 0x797E3008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E3001, 0x797E3009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x797E3001, 0x797E300A, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x797E3001, 0x797E300B, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x797E3001, 0x797E300C, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797E3001, 0x797E300D, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x797E3001, 0x797E300E, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797E3001, 0x797E300F, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x797E3001, 0x797E3010, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x797E3001, 0x797E3011, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x797E3001, 0x797E3012, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x797E3001, 0x797E3013, '2019-02-10 00:00:00') /* Shivver */;
+VALUES (0x797E3001, 0x797E3002, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x797E3001, 0x797E3003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797E3001, 0x797E3004, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x797E3001, 0x797E3005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x797E3001, 0x797E3006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E3001, 0x797E3007, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E3001, 0x797E3008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E3001, 0x797E3009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x797E3001, 0x797E300A, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x797E3001, 0x797E300B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x797E3001, 0x797E300C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797E3001, 0x797E300D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x797E3001, 0x797E300E, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797E3001, 0x797E300F, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x797E3001, 0x797E3010, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x797E3001, 0x797E3011, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x797E3001, 0x797E3012, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x797E3001, 0x797E3013, '2019-02-10 00:00:00') /* Shivver (14518) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E3002, 22810, 0x97E3000E, 35.87863, 121.3955, 151.6237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
@@ -101,13 +101,13 @@ VALUES (0x797E3014,  1542, 0x97E3001C, 73.9186, 79.31865, 171.0467, 1, 0, 0, 0, 
 /* @teleloc 0x97E3001C [73.918600 79.318650 171.046700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797E3014, 0x797E3015, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x797E3014, 0x797E3016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x797E3014, 0x797E3017, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x797E3014, 0x797E3018, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x797E3014, 0x797E3019, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x797E3014, 0x797E301A, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */
-     , (0x797E3014, 0x797E301B, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse */;
+VALUES (0x797E3014, 0x797E3015, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x797E3014, 0x797E3016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x797E3014, 0x797E3017, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x797E3014, 0x797E3018, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x797E3014, 0x797E3019, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x797E3014, 0x797E301A, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x797E3014, 0x797E301B, '2019-02-10 00:00:00') /* Shreth-Gnawed Corpse (25957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797E3015,  9024, 0x97E3001C, 73.9186, 79.31865, 171.0467, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

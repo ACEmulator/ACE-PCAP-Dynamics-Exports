@@ -5,9 +5,9 @@ VALUES (0x71B38001,  1154, 0x1B380017, 55.45554, 165.6427, 60.64756, -0.46324, 0
 /* @teleloc 0x1B380017 [55.455540 165.642700 60.647560] -0.463240 0.000000 0.000000 -0.886233 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71B38001, 0x71B38002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71B38001, 0x71B38003, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71B38001, 0x71B38004, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x71B38001, 0x71B38002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71B38001, 0x71B38003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71B38001, 0x71B38004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71B38002,  7982, 0x1B380017, 55.45554, 165.6427, 60.64756, -0.46324, 0, 0, -0.8862329,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

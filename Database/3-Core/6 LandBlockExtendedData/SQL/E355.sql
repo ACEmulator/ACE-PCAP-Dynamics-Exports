@@ -17,23 +17,23 @@ VALUES (0x7E355003,  1154, 0xE3550039, 168.0511, 5.838968, 6.003325, 0.1219777, 
 /* @teleloc 0xE3550039 [168.051100 5.838968 6.003325] 0.121978 0.000000 0.000000 -0.992533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E355003, 0x7E355004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E355003, 0x7E355005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7E355003, 0x7E355006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E355003, 0x7E355007, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E355003, 0x7E355008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E355003, 0x7E355009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E355003, 0x7E35500A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E355003, 0x7E35500B, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E355003, 0x7E35500C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E355003, 0x7E35500D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E355003, 0x7E35500E, '2019-02-10 00:00:00') /* Static */
-     , (0x7E355003, 0x7E35500F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E355003, 0x7E355010, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E355003, 0x7E355011, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E355003, 0x7E355012, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7E355003, 0x7E355013, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7E355003, 0x7E355014, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7E355003, 0x7E355004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E355003, 0x7E355005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7E355003, 0x7E355006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E355003, 0x7E355007, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E355003, 0x7E355008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E355003, 0x7E355009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E355003, 0x7E35500A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E355003, 0x7E35500B, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E355003, 0x7E35500C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E355003, 0x7E35500D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E355003, 0x7E35500E, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7E355003, 0x7E35500F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E355003, 0x7E355010, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E355003, 0x7E355011, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E355003, 0x7E355012, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7E355003, 0x7E355013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E355003, 0x7E355014, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E355004,   193, 0xE3550039, 168.0511, 5.838968, 6.003325, 0.1219777, 0, 0, -0.9925328,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -108,7 +108,7 @@ VALUES (0x7E355015,  1542, 0xE3550015, 55.54688, 100.2639, 3.726415, -0.8065669,
 /* @teleloc 0xE3550015 [55.546880 100.263900 3.726415] -0.806567 0.000000 0.000000 -0.591143 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E355015, 0x7E355016, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7E355015, 0x7E355016, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E355016, 14789, 0xE3550015, 55.54688, 100.2639, 3.726415, -0.8065669, 0, 0, -0.5911428,  True, '2019-02-10 00:00:00'); /* Ginger */

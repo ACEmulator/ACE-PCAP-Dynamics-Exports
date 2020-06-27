@@ -5,11 +5,11 @@ VALUES (0x7243B001,  1154, 0x243B0028, 113.8876, 179.3873, 33.46831, 0.3987491, 
 /* @teleloc 0x243B0028 [113.887600 179.387300 33.468310] 0.398749 0.000000 0.000000 -0.917060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7243B001, 0x7243B002, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7243B001, 0x7243B003, '2019-02-10 00:00:00') /* Gotrok Juggernaut */
-     , (0x7243B001, 0x7243B004, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7243B001, 0x7243B005, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7243B001, 0x7243B006, '2019-02-10 00:00:00') /* Gotrok Juggernaut */;
+VALUES (0x7243B001, 0x7243B002, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7243B001, 0x7243B003, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x7243B001, 0x7243B004, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7243B001, 0x7243B005, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7243B001, 0x7243B006, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7243B002, 36839, 0x243B0028, 113.8876, 179.3873, 33.46831, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */

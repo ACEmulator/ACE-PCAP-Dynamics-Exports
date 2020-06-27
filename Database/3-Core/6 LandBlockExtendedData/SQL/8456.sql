@@ -5,10 +5,10 @@ VALUES (0x78456001,  1154, 0x8456002D, 136.1801, 106.0398, 8.681689, -0.5458686,
 /* @teleloc 0x8456002D [136.180100 106.039800 8.681689] -0.545869 0.000000 0.000000 -0.837871 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78456001, 0x78456002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x78456001, 0x78456003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x78456001, 0x78456004, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x78456001, 0x78456005, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x78456001, 0x78456002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x78456001, 0x78456003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x78456001, 0x78456004, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x78456001, 0x78456005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78456002,  4110, 0x8456002D, 136.1801, 106.0398, 8.681689, -0.5458686, 0, 0, -0.8378708,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

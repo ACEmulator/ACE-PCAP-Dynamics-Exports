@@ -5,16 +5,16 @@ VALUES (0x72C59001,  1154, 0x2C59002B, 142.2588, 68.17996, 145.5328, -0.7181305,
 /* @teleloc 0x2C59002B [142.258800 68.179960 145.532800] -0.718131 0.000000 0.000000 -0.695909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C59001, 0x72C59002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72C59001, 0x72C59003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72C59001, 0x72C59004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72C59001, 0x72C59005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72C59001, 0x72C59006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72C59001, 0x72C59007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72C59001, 0x72C59008, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72C59001, 0x72C59009, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72C59001, 0x72C5900A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72C59001, 0x72C5900B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72C59001, 0x72C59002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72C59001, 0x72C59003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C59001, 0x72C59004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72C59001, 0x72C59005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72C59001, 0x72C59006, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72C59001, 0x72C59007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72C59001, 0x72C59008, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72C59001, 0x72C59009, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72C59001, 0x72C5900A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72C59001, 0x72C5900B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C59002, 23563, 0x2C59002B, 142.2588, 68.17996, 145.5328, -0.7181305, 0, 0, -0.6959085,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

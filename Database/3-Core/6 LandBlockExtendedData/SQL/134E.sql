@@ -5,20 +5,20 @@ VALUES (0x7134E001,  1154, 0x134E0010, 32.18464, 169.8681, -0.4399999, 0.878212,
 /* @teleloc 0x134E0010 [32.184640 169.868100 -0.440000] 0.878212 0.000000 0.000000 -0.478272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7134E001, 0x7134E002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7134E001, 0x7134E003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7134E001, 0x7134E004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7134E001, 0x7134E005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7134E001, 0x7134E006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7134E001, 0x7134E007, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7134E001, 0x7134E008, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7134E001, 0x7134E009, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7134E001, 0x7134E00A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7134E001, 0x7134E00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7134E001, 0x7134E00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7134E001, 0x7134E00D, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7134E001, 0x7134E00E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7134E001, 0x7134E00F, '2019-02-10 00:00:00') /* Tsuric */;
+VALUES (0x7134E001, 0x7134E002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7134E001, 0x7134E003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7134E001, 0x7134E004, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7134E001, 0x7134E005, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7134E001, 0x7134E006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7134E001, 0x7134E007, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7134E001, 0x7134E008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7134E001, 0x7134E009, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7134E001, 0x7134E00A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7134E001, 0x7134E00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7134E001, 0x7134E00C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7134E001, 0x7134E00D, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7134E001, 0x7134E00E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7134E001, 0x7134E00F, '2019-02-10 00:00:00') /* Tsuric (14877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7134E002, 14520, 0x134E0010, 32.18464, 169.8681, -0.4399999, 0.878212, 0, 0, -0.4782715,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -81,7 +81,7 @@ VALUES (0x7134E010,  1542, 0x134E003F, 176.2432, 160.0476, -0.4599999, 0.7003884
 /* @teleloc 0x134E003F [176.243200 160.047600 -0.460000] 0.700388 0.000000 0.000000 -0.713762 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7134E010, 0x7134E011, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7134E010, 0x7134E011, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7134E011,  9288, 0x134E003F, 176.2432, 160.0476, -0.4599999, 0.7003884, 0, 0, -0.7137619,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

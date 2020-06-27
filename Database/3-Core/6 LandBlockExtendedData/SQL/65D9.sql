@@ -5,10 +5,10 @@ VALUES (0x765D9001,  1154, 0x65D90012, 58.37082, 46.84288, 119.3059, -0.963029, 
 /* @teleloc 0x65D90012 [58.370820 46.842880 119.305900] -0.963029 0.000000 0.000000 -0.269398 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765D9001, 0x765D9002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x765D9001, 0x765D9003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D9001, 0x765D9004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x765D9001, 0x765D9005, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x765D9001, 0x765D9002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x765D9001, 0x765D9003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x765D9001, 0x765D9004, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x765D9001, 0x765D9005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765D9002, 36842, 0x65D90012, 58.37082, 46.84288, 119.3059, -0.963029, 0, 0, -0.2693976,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

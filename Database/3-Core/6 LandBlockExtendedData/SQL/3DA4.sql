@@ -5,21 +5,21 @@ VALUES (0x73DA4001,  1154, 0x3DA40033, 153.655, 59.84964, 0.008249998, 0.9946998
 /* @teleloc 0x3DA40033 [153.655000 59.849640 0.008250] 0.994700 0.000000 0.000000 -0.102822 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DA4001, 0x73DA4002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x73DA4001, 0x73DA4003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x73DA4001, 0x73DA4004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73DA4001, 0x73DA4005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73DA4001, 0x73DA4006, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x73DA4001, 0x73DA4007, '2019-02-10 00:00:00') /* Frost */
-     , (0x73DA4001, 0x73DA4008, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x73DA4001, 0x73DA4009, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73DA4001, 0x73DA400A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73DA4001, 0x73DA400B, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x73DA4001, 0x73DA400C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73DA4001, 0x73DA400D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x73DA4001, 0x73DA400E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x73DA4001, 0x73DA400F, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x73DA4001, 0x73DA4010, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x73DA4001, 0x73DA4002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x73DA4001, 0x73DA4003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x73DA4001, 0x73DA4004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73DA4001, 0x73DA4005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73DA4001, 0x73DA4006, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x73DA4001, 0x73DA4007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x73DA4001, 0x73DA4008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x73DA4001, 0x73DA4009, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73DA4001, 0x73DA400A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73DA4001, 0x73DA400B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x73DA4001, 0x73DA400C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73DA4001, 0x73DA400D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x73DA4001, 0x73DA400E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x73DA4001, 0x73DA400F, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73DA4001, 0x73DA4010, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DA4002,  4217, 0x3DA40033, 153.655, 59.84964, 0.008249998, 0.9946998, 0, 0, -0.1028221,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -86,7 +86,7 @@ VALUES (0x73DA4011,  1542, 0x3DA4002A, 124.9119, 35.24269, 1.063109, 0.9990482, 
 /* @teleloc 0x3DA4002A [124.911900 35.242690 1.063109] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DA4011, 0x73DA4012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73DA4011, 0x73DA4012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DA4012,  4179, 0x3DA4002A, 124.9119, 35.24269, 1.063109, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

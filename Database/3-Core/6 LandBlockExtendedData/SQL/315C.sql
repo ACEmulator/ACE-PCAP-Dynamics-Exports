@@ -5,18 +5,18 @@ VALUES (0x7315C001,  1154, 0x315C001C, 94.45791, 75.73819, 11.69498, -0.4473035,
 /* @teleloc 0x315C001C [94.457910 75.738190 11.694980] -0.447304 0.000000 0.000000 -0.894382 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315C001, 0x7315C002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7315C001, 0x7315C003, '2019-02-10 00:00:00') /* Flare */
-     , (0x7315C001, 0x7315C004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7315C001, 0x7315C005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7315C001, 0x7315C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7315C001, 0x7315C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7315C001, 0x7315C008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7315C001, 0x7315C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7315C001, 0x7315C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7315C001, 0x7315C00B, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x7315C001, 0x7315C00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7315C001, 0x7315C00D, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7315C001, 0x7315C002, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7315C001, 0x7315C003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7315C001, 0x7315C004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7315C001, 0x7315C005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7315C001, 0x7315C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7315C001, 0x7315C007, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7315C001, 0x7315C008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7315C001, 0x7315C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7315C001, 0x7315C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7315C001, 0x7315C00B, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x7315C001, 0x7315C00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7315C001, 0x7315C00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315C002,  5711, 0x315C001C, 94.45791, 75.73819, 11.69498, -0.4473035, 0, 0, -0.8943822,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -71,7 +71,7 @@ VALUES (0x7315C00E,  1542, 0x315C0036, 159.368, 137.0128, 3.822537, -0.9319843, 
 /* @teleloc 0x315C0036 [159.368000 137.012800 3.822537] -0.931984 0.000000 0.000000 -0.362499 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7315C00E, 0x7315C00F, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7315C00E, 0x7315C00F, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7315C00F,  9286, 0x315C0036, 159.368, 137.0128, 3.822537, -0.9319843, 0, 0, -0.3624987,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

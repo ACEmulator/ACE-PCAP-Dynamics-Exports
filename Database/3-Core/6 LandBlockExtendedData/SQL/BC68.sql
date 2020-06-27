@@ -5,17 +5,17 @@ VALUES (0x7BC68001,  1154, 0xBC68000A, 43.24186, 34.35675, 5.5555, 0.03101157, 0
 /* @teleloc 0xBC68000A [43.241860 34.356750 5.555500] 0.031012 0.000000 0.000000 -0.999519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC68001, 0x7BC68002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC68001, 0x7BC68003, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BC68001, 0x7BC68004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BC68001, 0x7BC68005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BC68001, 0x7BC68006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BC68001, 0x7BC68007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BC68001, 0x7BC68008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BC68001, 0x7BC68009, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BC68001, 0x7BC6800A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC68001, 0x7BC6800B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BC68001, 0x7BC6800C, '2019-02-10 00:00:00') /* Mosswart Shaman */;
+VALUES (0x7BC68001, 0x7BC68002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC68001, 0x7BC68003, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BC68001, 0x7BC68004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BC68001, 0x7BC68005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BC68001, 0x7BC68006, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BC68001, 0x7BC68007, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BC68001, 0x7BC68008, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BC68001, 0x7BC68009, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BC68001, 0x7BC6800A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC68001, 0x7BC6800B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BC68001, 0x7BC6800C, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC68002,   947, 0xBC68000A, 43.24186, 34.35675, 5.5555, 0.03101157, 0, 0, -0.9995191,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -66,9 +66,9 @@ VALUES (0x7BC6800D,  1542, 0xBC680015, 61.38633, 113.5161, 6, 1, 0, 0, 0, False,
 /* @teleloc 0xBC680015 [61.386330 113.516100 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC6800D, 0x7BC6800E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BC6800D, 0x7BC6800F, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BC6800D, 0x7BC68010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BC6800D, 0x7BC6800E, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7BC6800D, 0x7BC6800F, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BC6800D, 0x7BC68010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC6800E, 22568, 0xBC680015, 61.38633, 113.5161, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

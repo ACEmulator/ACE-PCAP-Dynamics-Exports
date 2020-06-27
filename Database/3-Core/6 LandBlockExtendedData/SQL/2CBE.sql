@@ -5,10 +5,10 @@ VALUES (0x72CBE001,  1154, 0x2CBE003F, 177.0413, 152.9406, 38.49474, -0.239849, 
 /* @teleloc 0x2CBE003F [177.041300 152.940600 38.494740] -0.239849 0.000000 0.000000 -0.970810 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CBE001, 0x72CBE002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CBE001, 0x72CBE003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72CBE001, 0x72CBE004, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72CBE001, 0x72CBE005, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x72CBE001, 0x72CBE002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CBE001, 0x72CBE003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72CBE001, 0x72CBE004, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72CBE001, 0x72CBE005, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CBE002, 23082, 0x2CBE003F, 177.0413, 152.9406, 38.49474, -0.239849, 0, 0, -0.9708102,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

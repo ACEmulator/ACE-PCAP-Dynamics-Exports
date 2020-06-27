@@ -5,23 +5,23 @@ VALUES (0x7C415001,  1154, 0xC4150002, 18.34195, 29.9793, 0.0004999638, 0.707106
 /* @teleloc 0xC4150002 [18.341950 29.979300 0.000500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C415001, 0x7C415002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C415001, 0x7C415003, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C415001, 0x7C415004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7C415001, 0x7C415005, '2019-02-10 00:00:00') /* Banished Mu-miyah */
-     , (0x7C415001, 0x7C415006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C415001, 0x7C415007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C415001, 0x7C415008, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C415001, 0x7C415009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C415001, 0x7C41500A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7C415001, 0x7C41500B, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C415001, 0x7C41500C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C415001, 0x7C41500D, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7C415001, 0x7C41500E, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C415001, 0x7C41500F, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C415001, 0x7C415010, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7C415001, 0x7C415011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C415001, 0x7C415012, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7C415001, 0x7C415002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C415001, 0x7C415003, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C415001, 0x7C415004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7C415001, 0x7C415005, '2019-02-10 00:00:00') /* Banished Mu-miyah (30902) */
+     , (0x7C415001, 0x7C415006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C415001, 0x7C415007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C415001, 0x7C415008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C415001, 0x7C415009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C415001, 0x7C41500A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C415001, 0x7C41500B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C415001, 0x7C41500C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C415001, 0x7C41500D, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7C415001, 0x7C41500E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C415001, 0x7C41500F, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C415001, 0x7C415010, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7C415001, 0x7C415011, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C415001, 0x7C415012, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C415002,  7987, 0xC4150002, 18.34195, 29.9793, 0.0004999638, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -96,7 +96,7 @@ VALUES (0x7C415013,  1542, 0xC4150002, 12.44943, 26.98845, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xC4150002 [12.449430 26.988450 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C415013, 0x7C415014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C415013, 0x7C415014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C415014,  4179, 0xC4150002, 12.44943, 26.98845, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

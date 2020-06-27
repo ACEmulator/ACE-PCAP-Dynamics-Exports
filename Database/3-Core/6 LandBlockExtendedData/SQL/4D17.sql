@@ -5,14 +5,14 @@ VALUES (0x74D17001,  1154, 0x4D170030, 132.9672, 170.9315, 68.0025, 0.7933533, 0
 /* @teleloc 0x4D170030 [132.967200 170.931500 68.002500] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D17001, 0x74D17002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74D17001, 0x74D17003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74D17001, 0x74D17004, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74D17001, 0x74D17005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74D17001, 0x74D17006, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74D17001, 0x74D17007, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74D17001, 0x74D17008, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74D17001, 0x74D17009, '2019-02-10 00:00:00') /* Rufous Grievver */;
+VALUES (0x74D17001, 0x74D17002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74D17001, 0x74D17003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74D17001, 0x74D17004, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74D17001, 0x74D17005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74D17001, 0x74D17006, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74D17001, 0x74D17007, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74D17001, 0x74D17008, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74D17001, 0x74D17009, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D17002, 36858, 0x4D170030, 132.9672, 170.9315, 68.0025, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -51,8 +51,8 @@ VALUES (0x74D1700A,  1542, 0x4D17001C, 73.59679, 80.31007, 67.9763, -0.4470024, 
 /* @teleloc 0x4D17001C [73.596790 80.310070 67.976300] -0.447002 0.000000 0.000000 -0.894533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D1700A, 0x74D1700B, '2019-02-10 00:00:00') /* Rock */
-     , (0x74D1700A, 0x74D1700C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74D1700A, 0x74D1700B, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x74D1700A, 0x74D1700C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D1700B, 42528, 0x4D17001C, 73.59679, 80.31007, 67.9763, -0.4470024, 0, 0, -0.8945327,  True, '2019-02-10 00:00:00'); /* Rock */

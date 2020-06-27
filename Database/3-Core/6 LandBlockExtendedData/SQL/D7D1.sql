@@ -5,23 +5,23 @@ VALUES (0x7D7D1001,  1154, 0xD7D1000D, 32.71203, 108.516, 32.05299, -0.3022734, 
 /* @teleloc 0xD7D1000D [32.712030 108.516000 32.052990] -0.302273 0.000000 0.000000 -0.953221 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7D1001, 0x7D7D1002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D1001, 0x7D7D1003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7D7D1001, 0x7D7D1004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x7D7D1001, 0x7D7D1005, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D1001, 0x7D7D1006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7D7D1001, 0x7D7D1007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D1001, 0x7D7D1008, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D1001, 0x7D7D1009, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7D7D1001, 0x7D7D100A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D1001, 0x7D7D100B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D1001, 0x7D7D100C, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D7D1001, 0x7D7D100D, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D7D1001, 0x7D7D100E, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D1001, 0x7D7D100F, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7D7D1001, 0x7D7D1010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D7D1001, 0x7D7D1011, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D7D1001, 0x7D7D1012, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7D7D1001, 0x7D7D1002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D1001, 0x7D7D1003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D7D1001, 0x7D7D1004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x7D7D1001, 0x7D7D1005, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D1001, 0x7D7D1006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7D7D1001, 0x7D7D1007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D1001, 0x7D7D1008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D1001, 0x7D7D1009, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7D7D1001, 0x7D7D100A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D1001, 0x7D7D100B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D1001, 0x7D7D100C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D7D1001, 0x7D7D100D, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D7D1001, 0x7D7D100E, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D1001, 0x7D7D100F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7D7D1001, 0x7D7D1010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D7D1001, 0x7D7D1011, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D7D1001, 0x7D7D1012, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7D1002,     3, 0xD7D1000D, 32.71203, 108.516, 32.05299, -0.3022734, 0, 0, -0.9532213,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

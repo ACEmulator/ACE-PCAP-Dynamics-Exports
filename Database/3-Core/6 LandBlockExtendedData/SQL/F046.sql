@@ -9,14 +9,14 @@ VALUES (0x7F046001,  1154, 0xF0460031, 155.6038, 19.68342, 70.36192, 0.2446067, 
 /* @teleloc 0xF0460031 [155.603800 19.683420 70.361920] 0.244607 0.000000 0.000000 -0.969622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F046001, 0x7F046002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7F046001, 0x7F046003, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7F046001, 0x7F046004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7F046001, 0x7F046005, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7F046001, 0x7F046006, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7F046001, 0x7F046007, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7F046001, 0x7F046008, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7F046001, 0x7F046009, '2019-02-10 00:00:00') /* Tiofor Ursuin */;
+VALUES (0x7F046001, 0x7F046002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7F046001, 0x7F046003, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7F046001, 0x7F046004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7F046001, 0x7F046005, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7F046001, 0x7F046006, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7F046001, 0x7F046007, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7F046001, 0x7F046008, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7F046001, 0x7F046009, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F046002,  7991, 0xF0460031, 155.6038, 19.68342, 70.36192, 0.2446067, 0, 0, -0.9696224,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */
@@ -55,7 +55,7 @@ VALUES (0x7F04600A,  1542, 0xF0460008, 21.20829, 186.8975, 22.61778, 1, 0, 0, 0,
 /* @teleloc 0xF0460008 [21.208290 186.897500 22.617780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F04600A, 0x7F04600B, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7F04600A, 0x7F04600B, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F04600B,  4380, 0xF0460008, 21.20829, 186.8975, 22.61778, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

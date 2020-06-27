@@ -5,18 +5,18 @@ VALUES (0x735F2001,  1154, 0x35F2000F, 46.20525, 154.9593, 22.52481, -0.6631478,
 /* @teleloc 0x35F2000F [46.205250 154.959300 22.524810] -0.663148 0.000000 0.000000 -0.748489 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x735F2001, 0x735F2002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735F2001, 0x735F2003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x735F2001, 0x735F2004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x735F2001, 0x735F2005, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x735F2001, 0x735F2006, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x735F2001, 0x735F2007, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x735F2001, 0x735F2008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x735F2001, 0x735F2009, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x735F2001, 0x735F200A, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x735F2001, 0x735F200B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x735F2001, 0x735F200C, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x735F2001, 0x735F200D, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x735F2001, 0x735F2002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735F2001, 0x735F2003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x735F2001, 0x735F2004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x735F2001, 0x735F2005, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x735F2001, 0x735F2006, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735F2001, 0x735F2007, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735F2001, 0x735F2008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x735F2001, 0x735F2009, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x735F2001, 0x735F200A, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x735F2001, 0x735F200B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735F2001, 0x735F200C, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x735F2001, 0x735F200D, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735F2002, 24281, 0x35F2000F, 46.20525, 154.9593, 22.52481, -0.6631478, 0, 0, -0.7484885,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

@@ -5,29 +5,29 @@ VALUES (0x7CF8A001,  1154, 0xCF8A0015, 48.38009, 106.8523, 26.01667, -0.9719539,
 /* @teleloc 0xCF8A0015 [48.380090 106.852300 26.016670] -0.971954 0.000000 0.000000 -0.235172 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF8A001, 0x7CF8A002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CF8A001, 0x7CF8A003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CF8A001, 0x7CF8A004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CF8A001, 0x7CF8A005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7CF8A001, 0x7CF8A006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A008, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A00A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A00B, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CF8A001, 0x7CF8A00C, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7CF8A001, 0x7CF8A00D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7CF8A001, 0x7CF8A00E, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF8A001, 0x7CF8A00F, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7CF8A001, 0x7CF8A010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CF8A001, 0x7CF8A011, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7CF8A001, 0x7CF8A012, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CF8A001, 0x7CF8A013, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF8A001, 0x7CF8A014, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CF8A001, 0x7CF8A015, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CF8A001, 0x7CF8A016, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF8A001, 0x7CF8A017, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CF8A001, 0x7CF8A018, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7CF8A001, 0x7CF8A002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CF8A001, 0x7CF8A003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CF8A001, 0x7CF8A004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CF8A001, 0x7CF8A005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7CF8A001, 0x7CF8A006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A008, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A00A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A00B, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CF8A001, 0x7CF8A00C, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7CF8A001, 0x7CF8A00D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7CF8A001, 0x7CF8A00E, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF8A001, 0x7CF8A00F, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7CF8A001, 0x7CF8A010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CF8A001, 0x7CF8A011, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7CF8A001, 0x7CF8A012, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CF8A001, 0x7CF8A013, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF8A001, 0x7CF8A014, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CF8A001, 0x7CF8A015, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CF8A001, 0x7CF8A016, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF8A001, 0x7CF8A017, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CF8A001, 0x7CF8A018, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF8A002,  4111, 0xCF8A0015, 48.38009, 106.8523, 26.01667, -0.9719539, 0, 0, -0.2351717,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -126,7 +126,7 @@ VALUES (0x7CF8A019,  1542, 0xCF8A0015, 58.0941, 98.31356, 26.85217, 0.8392448, 0
 /* @teleloc 0xCF8A0015 [58.094100 98.313560 26.852170] 0.839245 0.000000 0.000000 -0.543754 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF8A019, 0x7CF8A01A, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7CF8A019, 0x7CF8A01A, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF8A01A, 31686, 0xCF8A0015, 58.0941, 98.31356, 26.85217, 0.8392448, 0, 0, -0.5437537,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

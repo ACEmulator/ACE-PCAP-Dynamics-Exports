@@ -5,10 +5,10 @@ VALUES (0x7E937001,  1154, 0xE9370015, 60.05429, 115.823, 79.29029, -0.5648664, 
 /* @teleloc 0xE9370015 [60.054290 115.823000 79.290290] -0.564866 0.000000 0.000000 -0.825182 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E937001, 0x7E937002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E937001, 0x7E937003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7E937001, 0x7E937004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7E937001, 0x7E937005, '2019-02-10 00:00:00') /* Gotrok Obeloth */;
+VALUES (0x7E937001, 0x7E937002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E937001, 0x7E937003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E937001, 0x7E937004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7E937001, 0x7E937005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E937002,  1609, 0xE9370015, 60.05429, 115.823, 79.29029, -0.5648664, 0, 0, -0.8251823,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

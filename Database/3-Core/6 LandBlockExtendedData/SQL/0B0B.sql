@@ -5,9 +5,9 @@ VALUES (0x70B0B001,  1154, 0x0B0B002B, 121.8582, 59.04077, 42.40231, 1, 0, 0, 0,
 /* @teleloc 0x0B0B002B [121.858200 59.040770 42.402310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B0B001, 0x70B0B002, '2019-02-10 00:00:00') /* Biaka */
-     , (0x70B0B001, 0x70B0B003, '2019-02-10 00:00:00') /* Cursed Marionette */
-     , (0x70B0B001, 0x70B0B004, '2019-02-10 00:00:00') /* Cursed Marionette */;
+VALUES (0x70B0B001, 0x70B0B002, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x70B0B001, 0x70B0B003, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x70B0B001, 0x70B0B004, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0B002, 25859, 0x0B0B002B, 121.8582, 59.04077, 42.40231, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */

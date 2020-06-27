@@ -21,11 +21,11 @@ VALUES (0x7B99C008,  1154, 0xB99C0039, 183.5083, 13.07244, 28.87138, 0.7638963, 
 /* @teleloc 0xB99C0039 [183.508300 13.072440 28.871380] 0.763896 0.000000 0.000000 -0.645339 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B99C008, 0x7B99C009, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B99C008, 0x7B99C00A, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B99C008, 0x7B99C00B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B99C008, 0x7B99C00C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B99C008, 0x7B99C00D, '2019-02-10 00:00:00') /* Sandy Armoredillo */;
+VALUES (0x7B99C008, 0x7B99C009, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B99C008, 0x7B99C00A, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B99C008, 0x7B99C00B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B99C008, 0x7B99C00C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B99C008, 0x7B99C00D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C009,  4110, 0xB99C0039, 183.5083, 13.07244, 28.87138, 0.7638963, 0, 0, -0.645339,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -52,20 +52,20 @@ VALUES (0x7B99C00E,  1542, 0xB99C0106, 31.65229, 156.1345, 60.079, -0.891702, 0,
 /* @teleloc 0xB99C0106 [31.652290 156.134500 60.079000] -0.891702 0.000000 0.000000 -0.452623 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B99C00E, 0x7B99C00F, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7B99C00E, 0x7B99C010, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C011, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C012, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C013, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7B99C00E, 0x7B99C014, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7B99C00E, 0x7B99C015, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7B99C00E, 0x7B99C016, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C017, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C018, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7B99C00E, 0x7B99C019, '2019-02-10 00:00:00') /* Cow */
-     , (0x7B99C00E, 0x7B99C01A, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7B99C00E, 0x7B99C01B, '2019-02-10 00:00:00') /* A torn note  */
-     , (0x7B99C00E, 0x7B99C01C, '2019-02-10 00:00:00') /* An old note  */;
+VALUES (0x7B99C00E, 0x7B99C00F, '2019-02-10 00:00:00') /* An old note  (1420) */
+     , (0x7B99C00E, 0x7B99C010, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C011, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C012, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C013, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7B99C00E, 0x7B99C014, '2019-02-10 00:00:00') /* Rumor (1515) */
+     , (0x7B99C00E, 0x7B99C015, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7B99C00E, 0x7B99C016, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C017, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C018, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7B99C00E, 0x7B99C019, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x7B99C00E, 0x7B99C01A, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7B99C00E, 0x7B99C01B, '2019-02-10 00:00:00') /* A torn note  (1417) */
+     , (0x7B99C00E, 0x7B99C01C, '2019-02-10 00:00:00') /* An old note  (1418) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C00F,  1420, 0xB99C0106, 31.65229, 156.1345, 60.079, -0.891702, 0, 0, -0.452623,  True, '2019-02-10 00:00:00'); /* An old note  */

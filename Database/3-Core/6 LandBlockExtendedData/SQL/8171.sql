@@ -5,9 +5,9 @@ VALUES (0x78171001,  1154, 0x81710007, 19.81052, 157.7137, 15.02396, 0.9453677, 
 /* @teleloc 0x81710007 [19.810520 157.713700 15.023960] 0.945368 0.000000 0.000000 -0.326006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78171001, 0x78171002, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x78171001, 0x78171003, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x78171001, 0x78171004, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x78171001, 0x78171002, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x78171001, 0x78171003, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x78171001, 0x78171004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78171002,  1632, 0x81710007, 19.81052, 157.7137, 15.02396, 0.9453677, 0, 0, -0.326006,  True, '2019-02-10 00:00:00'); /* Drudge Slave */

@@ -5,19 +5,19 @@ VALUES (0x7BA15001,  1154, 0xBA150025, 112.6022, 104.6604, 96.88275, 0.04506571,
 /* @teleloc 0xBA150025 [112.602200 104.660400 96.882750] 0.045066 0.000000 0.000000 -0.998984 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA15001, 0x7BA15002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA15001, 0x7BA15003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA15001, 0x7BA15004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA15001, 0x7BA15005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA15001, 0x7BA15006, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BA15001, 0x7BA15007, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA15001, 0x7BA15008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA15001, 0x7BA15009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA15001, 0x7BA1500A, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA15001, 0x7BA1500B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA15001, 0x7BA1500C, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA15001, 0x7BA1500D, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7BA15001, 0x7BA1500E, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x7BA15001, 0x7BA15002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA15001, 0x7BA15003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA15001, 0x7BA15004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA15001, 0x7BA15005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA15001, 0x7BA15006, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BA15001, 0x7BA15007, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA15001, 0x7BA15008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA15001, 0x7BA15009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA15001, 0x7BA1500A, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA15001, 0x7BA1500B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA15001, 0x7BA1500C, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA15001, 0x7BA1500D, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BA15001, 0x7BA1500E, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA15002,  7084, 0xBA150025, 112.6022, 104.6604, 96.88275, 0.04506571, 0, 0, -0.998984,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -76,8 +76,8 @@ VALUES (0x7BA1500F,  1542, 0xBA150026, 98.62035, 123.4324, 94.94112, 1, 0, 0, 0,
 /* @teleloc 0xBA150026 [98.620350 123.432400 94.941120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA1500F, 0x7BA15010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BA1500F, 0x7BA15011, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x7BA1500F, 0x7BA15010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BA1500F, 0x7BA15011, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA15010,  4179, 0xBA150026, 98.62035, 123.4324, 94.94112, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

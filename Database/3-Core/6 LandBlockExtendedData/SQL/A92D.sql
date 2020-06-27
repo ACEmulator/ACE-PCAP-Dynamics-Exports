@@ -5,9 +5,9 @@ VALUES (0x7A92D001,  1154, 0xA92D002B, 125.9084, 66.41069, 72.38206, -0.994316, 
 /* @teleloc 0xA92D002B [125.908400 66.410690 72.382060] -0.994316 0.000000 0.000000 -0.106469 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A92D001, 0x7A92D002, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7A92D001, 0x7A92D003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A92D001, 0x7A92D004, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7A92D001, 0x7A92D002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7A92D001, 0x7A92D003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A92D001, 0x7A92D004, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A92D002,  5748, 0xA92D002B, 125.9084, 66.41069, 72.38206, -0.994316, 0, 0, -0.1064691,  True, '2019-02-10 00:00:00'); /* Fire Wisp */

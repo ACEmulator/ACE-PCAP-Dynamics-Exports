@@ -5,12 +5,12 @@ VALUES (0x72F93001,  1154, 0x2F93000B, 36.98397, 48.55892, 13.27513, 0.9887667, 
 /* @teleloc 0x2F93000B [36.983970 48.558920 13.275130] 0.988767 0.000000 0.000000 -0.149467 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F93001, 0x72F93002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72F93001, 0x72F93003, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72F93001, 0x72F93004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F93001, 0x72F93005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F93001, 0x72F93006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F93001, 0x72F93007, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x72F93001, 0x72F93002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72F93001, 0x72F93003, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72F93001, 0x72F93004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F93001, 0x72F93005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F93001, 0x72F93006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F93001, 0x72F93007, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F93002,  7112, 0x2F93000B, 36.98397, 48.55892, 13.27513, 0.9887667, 0, 0, -0.1494674,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

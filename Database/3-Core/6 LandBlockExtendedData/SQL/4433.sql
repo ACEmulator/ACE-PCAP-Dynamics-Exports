@@ -5,15 +5,15 @@ VALUES (0x74433001,  1154, 0x44330014, 49.29735, 85.11921, 68.005, 0.7071068, 0,
 /* @teleloc 0x44330014 [49.297350 85.119210 68.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74433001, 0x74433002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74433001, 0x74433003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74433001, 0x74433004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74433001, 0x74433005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74433001, 0x74433006, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74433001, 0x74433007, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74433001, 0x74433008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74433001, 0x74433009, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x74433001, 0x7443300A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x74433001, 0x74433002, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x74433001, 0x74433003, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x74433001, 0x74433004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x74433001, 0x74433005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74433001, 0x74433006, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74433001, 0x74433007, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x74433001, 0x74433008, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x74433001, 0x74433009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x74433001, 0x7443300A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74433002, 36853, 0x44330014, 49.29735, 85.11921, 68.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -56,8 +56,8 @@ VALUES (0x7443300B,  1542, 0x44330018, 53.2072, 171.0171, 68, 1, 0, 0, 0, False,
 /* @teleloc 0x44330018 [53.207200 171.017100 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7443300B, 0x7443300C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7443300B, 0x7443300D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7443300B, 0x7443300C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7443300B, 0x7443300D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7443300C, 22571, 0x44330018, 53.2072, 171.0171, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

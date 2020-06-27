@@ -5,13 +5,13 @@ VALUES (0x7D053001,  1154, 0xD0530022, 118.2266, 30.46618, 237.9812, 0.9937985, 
 /* @teleloc 0xD0530022 [118.226600 30.466180 237.981200] 0.993799 0.000000 0.000000 -0.111196 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D053001, 0x7D053002, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7D053001, 0x7D053003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7D053001, 0x7D053004, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7D053001, 0x7D053005, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7D053001, 0x7D053006, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7D053001, 0x7D053007, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7D053001, 0x7D053008, '2019-02-10 00:00:00') /* Broken Fragment */;
+VALUES (0x7D053001, 0x7D053002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7D053001, 0x7D053003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7D053001, 0x7D053004, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7D053001, 0x7D053005, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7D053001, 0x7D053006, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7D053001, 0x7D053007, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7D053001, 0x7D053008, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D053002,  4112, 0xD0530022, 118.2266, 30.46618, 237.9812, 0.9937985, 0, 0, -0.111196,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */

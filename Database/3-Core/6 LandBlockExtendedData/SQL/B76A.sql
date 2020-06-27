@@ -9,25 +9,25 @@ VALUES (0x7B76A001,  1154, 0xB76A0101, 106.7786, 36.86052, 14.00495, -0.375427, 
 /* @teleloc 0xB76A0101 [106.778600 36.860520 14.004950] -0.375427 0.000000 0.000000 -0.926852 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B76A001, 0x7B76A002, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B76A001, 0x7B76A004, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B76A001, 0x7B76A005, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A006, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B76A001, 0x7B76A007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A008, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B76A001, 0x7B76A009, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B76A001, 0x7B76A00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B76A001, 0x7B76A00B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B76A001, 0x7B76A00C, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B76A001, 0x7B76A00D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B76A001, 0x7B76A00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7B76A001, 0x7B76A010, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7B76A001, 0x7B76A011, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A012, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B76A001, 0x7B76A013, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B76A001, 0x7B76A014, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7B76A001, 0x7B76A002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B76A001, 0x7B76A004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B76A001, 0x7B76A005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A006, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B76A001, 0x7B76A007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B76A001, 0x7B76A009, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B76A001, 0x7B76A00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B76A001, 0x7B76A00B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B76A001, 0x7B76A00C, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B76A001, 0x7B76A00D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B76A001, 0x7B76A00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B76A001, 0x7B76A010, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B76A001, 0x7B76A011, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A012, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B76A001, 0x7B76A013, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B76A001, 0x7B76A014, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B76A002,     8, 0xB76A0101, 106.7786, 36.86052, 14.00495, -0.375427, 0, 0, -0.926852,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -110,31 +110,31 @@ VALUES (0x7B76A015,  1542, 0xB76A0100, 104.6217, 38.07638, 18.44221, 0.671199, 0
 /* @teleloc 0xB76A0100 [104.621700 38.076380 18.442210] 0.671199 0.000000 0.000000 0.741278 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B76A015, 0x7B76A016, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7B76A015, 0x7B76A017, '2019-02-10 00:00:00') /* Studded Leather Basinet */
-     , (0x7B76A015, 0x7B76A018, '2019-02-10 00:00:00') /* Plain Lockpick */
-     , (0x7B76A015, 0x7B76A019, '2019-02-10 00:00:00') /* Studded Leather Breastplate */
-     , (0x7B76A015, 0x7B76A01A, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7B76A015, 0x7B76A01B, '2019-02-10 00:00:00') /* Ring */
-     , (0x7B76A015, 0x7B76A01C, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7B76A015, 0x7B76A01D, '2019-02-10 00:00:00') /* Vest */
-     , (0x7B76A015, 0x7B76A01E, '2019-02-10 00:00:00') /* Scroll of Jumping Mastery Other */
-     , (0x7B76A015, 0x7B76A01F, '2019-02-10 00:00:00') /* Scroll of Missile Weapon Mastery Self IV */
-     , (0x7B76A015, 0x7B76A020, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B76A015, 0x7B76A021, '2019-02-10 00:00:00') /* Heavy Bracelet */
-     , (0x7B76A015, 0x7B76A022, '2019-02-10 00:00:00') /* Gifted Healing Kit */
-     , (0x7B76A015, 0x7B76A023, '2019-02-10 00:00:00') /* Chainmail Bracers */
-     , (0x7B76A015, 0x7B76A024, '2019-02-10 00:00:00') /* Adept Healing Kit */
-     , (0x7B76A015, 0x7B76A025, '2019-02-10 00:00:00') /* Scroll of Deception Mastery Other II */
-     , (0x7B76A015, 0x7B76A026, '2019-02-10 00:00:00') /* Lightning Quarter Staff */
-     , (0x7B76A015, 0x7B76A027, '2019-02-10 00:00:00') /* Reliable Lockpick */
-     , (0x7B76A015, 0x7B76A028, '2019-02-10 00:00:00') /* Scroll of Sneak Attack Mastery Other III */
-     , (0x7B76A015, 0x7B76A029, '2019-02-10 00:00:00') /* Scalemail Bracers */
-     , (0x7B76A015, 0x7B76A02A, '2019-02-10 00:00:00') /* Scroll of Feeblemind Other III */
-     , (0x7B76A015, 0x7B76A02B, '2019-02-10 00:00:00') /* Studded Leather Sleeves */
-     , (0x7B76A015, 0x7B76A02C, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B76A015, 0x7B76A02D, '2019-02-10 00:00:00') /* Studded Leather Cowl */
-     , (0x7B76A015, 0x7B76A02E, '2019-02-10 00:00:00') /* Chainmail Sleeves */;
+VALUES (0x7B76A015, 0x7B76A016, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7B76A015, 0x7B76A017, '2019-02-10 00:00:00') /* Studded Leather Basinet (554) */
+     , (0x7B76A015, 0x7B76A018, '2019-02-10 00:00:00') /* Plain Lockpick (513) */
+     , (0x7B76A015, 0x7B76A019, '2019-02-10 00:00:00') /* Studded Leather Breastplate (42) */
+     , (0x7B76A015, 0x7B76A01A, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7B76A015, 0x7B76A01B, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7B76A015, 0x7B76A01C, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7B76A015, 0x7B76A01D, '2019-02-10 00:00:00') /* Vest (28609) */
+     , (0x7B76A015, 0x7B76A01E, '2019-02-10 00:00:00') /* Scroll of Jumping Mastery Other (1710) */
+     , (0x7B76A015, 0x7B76A01F, '2019-02-10 00:00:00') /* Scroll of Missile Weapon Mastery Self IV (3185) */
+     , (0x7B76A015, 0x7B76A020, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x7B76A015, 0x7B76A021, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7B76A015, 0x7B76A022, '2019-02-10 00:00:00') /* Gifted Healing Kit (630) */
+     , (0x7B76A015, 0x7B76A023, '2019-02-10 00:00:00') /* Chainmail Bracers (413) */
+     , (0x7B76A015, 0x7B76A024, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */
+     , (0x7B76A015, 0x7B76A025, '2019-02-10 00:00:00') /* Scroll of Deception Mastery Other II (3238) */
+     , (0x7B76A015, 0x7B76A026, '2019-02-10 00:00:00') /* Lightning Quarter Staff (22165) */
+     , (0x7B76A015, 0x7B76A027, '2019-02-10 00:00:00') /* Reliable Lockpick (545) */
+     , (0x7B76A015, 0x7B76A028, '2019-02-10 00:00:00') /* Scroll of Sneak Attack Mastery Other III (45342) */
+     , (0x7B76A015, 0x7B76A029, '2019-02-10 00:00:00') /* Scalemail Bracers (37) */
+     , (0x7B76A015, 0x7B76A02A, '2019-02-10 00:00:00') /* Scroll of Feeblemind Other III (2670) */
+     , (0x7B76A015, 0x7B76A02B, '2019-02-10 00:00:00') /* Studded Leather Sleeves (105) */
+     , (0x7B76A015, 0x7B76A02C, '2019-02-10 00:00:00') /* Gem (2433) */
+     , (0x7B76A015, 0x7B76A02D, '2019-02-10 00:00:00') /* Studded Leather Cowl (723) */
+     , (0x7B76A015, 0x7B76A02E, '2019-02-10 00:00:00') /* Chainmail Sleeves (101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B76A016,   622, 0xB76A0100, 104.6217, 38.07638, 18.44221, 0.671199, 0, 0, 0.741278,  True, '2019-02-10 00:00:00'); /* Necklace */

@@ -5,23 +5,23 @@ VALUES (0x71D89001,  1154, 0x1D89003A, 190.0922, 26.39688, 50.7476, -4.371139E-0
 /* @teleloc 0x1D89003A [190.092200 26.396880 50.747600] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D89001, 0x71D89002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71D89001, 0x71D89003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71D89001, 0x71D89004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71D89001, 0x71D89005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x71D89001, 0x71D89006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71D89001, 0x71D89007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71D89001, 0x71D89008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71D89001, 0x71D89009, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71D89001, 0x71D8900A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D89001, 0x71D8900B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71D89001, 0x71D8900C, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71D89001, 0x71D8900D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71D89001, 0x71D8900E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71D89001, 0x71D8900F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D89001, 0x71D89010, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71D89001, 0x71D89011, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71D89001, 0x71D89012, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x71D89001, 0x71D89002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71D89001, 0x71D89003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71D89001, 0x71D89004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71D89001, 0x71D89005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x71D89001, 0x71D89006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71D89001, 0x71D89007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71D89001, 0x71D89008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71D89001, 0x71D89009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71D89001, 0x71D8900A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D89001, 0x71D8900B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71D89001, 0x71D8900C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71D89001, 0x71D8900D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71D89001, 0x71D8900E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71D89001, 0x71D8900F, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D89001, 0x71D89010, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71D89001, 0x71D89011, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71D89001, 0x71D89012, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D89002, 36844, 0x1D89003A, 190.0922, 26.39688, 50.7476, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -96,7 +96,7 @@ VALUES (0x71D89013,  1542, 0x1D890013, 50.37095, 57.09407, 103.4407, -4.371139E-
 /* @teleloc 0x1D890013 [50.370950 57.094070 103.440700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D89013, 0x71D89014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71D89013, 0x71D89014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D89014,  4380, 0x1D890013, 50.37095, 57.09407, 103.4407, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

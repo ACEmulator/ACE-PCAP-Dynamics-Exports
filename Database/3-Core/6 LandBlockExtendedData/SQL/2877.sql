@@ -5,11 +5,11 @@ VALUES (0x72877001,  1154, 0x2877003F, 185.8456, 154.2904, 129.5119, 0.7071068, 
 /* @teleloc 0x2877003F [185.845600 154.290400 129.511900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72877001, 0x72877002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72877001, 0x72877003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72877001, 0x72877004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72877001, 0x72877005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72877001, 0x72877006, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72877001, 0x72877002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72877001, 0x72877003, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72877001, 0x72877004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72877001, 0x72877005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72877001, 0x72877006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72877002, 36830, 0x2877003F, 185.8456, 154.2904, 129.5119, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -36,7 +36,7 @@ VALUES (0x72877007,  1542, 0x2877003F, 182.3393, 148.8271, 125.5735, 0.1032635, 
 /* @teleloc 0x2877003F [182.339300 148.827100 125.573500] 0.103264 0.000000 0.000000 -0.994654 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72877007, 0x72877008, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x72877007, 0x72877008, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72877008, 42528, 0x2877003F, 182.3393, 148.8271, 125.5735, 0.1032635, 0, 0, -0.9946541,  True, '2019-02-10 00:00:00'); /* Rock */

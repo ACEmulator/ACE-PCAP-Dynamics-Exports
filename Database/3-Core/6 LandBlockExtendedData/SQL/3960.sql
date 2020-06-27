@@ -17,65 +17,65 @@ VALUES (0x7396002B,  1154, 0x39600285, 66, 175, -3.588, 1, 0, 0, 0, False, '2019
 /* @teleloc 0x39600285 [66.000000 175.000000 -3.588000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7396002B, 0x7396002C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396002D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396002E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396002F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960030, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960031, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960032, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960033, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960034, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960035, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960036, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960037, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960038, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960039, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003A, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003B, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396003F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960040, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960041, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960042, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960043, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960044, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960045, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960046, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960047, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960048, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960049, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396004A, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396004B, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x7396004C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396004D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396004E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x7396004F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960050, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960051, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960052, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960053, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960054, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x73960055, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x73960056, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960057, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960058, '2019-02-10 00:00:00') /* Apostate Excavation Foreman */
-     , (0x7396002B, 0x73960059, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x7396005A, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x7396005B, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x7396005C, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x7396005D, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x7396005E, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x7396005F, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper */
-     , (0x7396002B, 0x73960060, '2019-02-10 00:00:00') /* Apostate Excavation Master */
-     , (0x7396002B, 0x73960061, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960062, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960063, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960064, '2019-02-10 00:00:00') /* Apostate Sapper */
-     , (0x7396002B, 0x73960065, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */
-     , (0x7396002B, 0x73960066, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner */;
+VALUES (0x7396002B, 0x7396002C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396002D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396002E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396002F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960030, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960031, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960032, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960033, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960034, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960035, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960036, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960037, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960038, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960039, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003A, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003B, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396003F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960040, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960041, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960042, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960043, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960044, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960045, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960046, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960047, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960048, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960049, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396004A, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396004B, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x7396004C, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396004D, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396004E, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x7396004F, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960050, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960051, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960052, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960053, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960054, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x73960055, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x73960056, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960057, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960058, '2019-02-10 00:00:00') /* Apostate Excavation Foreman (41191) */
+     , (0x7396002B, 0x73960059, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x7396005A, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x7396005B, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x7396005C, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x7396005D, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x7396005E, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x7396005F, '2019-02-10 00:00:00') /* Hea Apostate Shock Trooper (40495) */
+     , (0x7396002B, 0x73960060, '2019-02-10 00:00:00') /* Apostate Excavation Master (41190) */
+     , (0x7396002B, 0x73960061, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960062, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960063, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960064, '2019-02-10 00:00:00') /* Apostate Sapper (41193) */
+     , (0x7396002B, 0x73960065, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */
+     , (0x7396002B, 0x73960066, '2019-02-10 00:00:00') /* Gotrok Aetherium Miner (40492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7396002C, 40492, 0x39600285, 66, 175, -3.588, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gotrok Aetherium Miner */
@@ -318,7 +318,7 @@ VALUES (0x73960067,  1542, 0x3960017C, 276.7334, -235.7891, -15.663, 0.9995894, 
 /* @teleloc 0x3960017C [276.733400 -235.789100 -15.663000] 0.999589 0.000000 0.000000 -0.028653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73960067, 0x73960068, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x73960067, 0x73960068, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73960068,  1955, 0x3960017C, 276.7334, -235.7891, -15.663, 0.9995894, 0, 0, -0.02865309,  True, '2019-02-10 00:00:00'); /* Gateway */

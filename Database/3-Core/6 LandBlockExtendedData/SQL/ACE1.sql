@@ -5,14 +5,14 @@ VALUES (0x7ACE1001,  1154, 0xACE1003B, 182.2394, 59.6428, 4.791633, 0.6293204, 0
 /* @teleloc 0xACE1003B [182.239400 59.642800 4.791633] 0.629320 0.000000 0.000000 -0.777146 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACE1001, 0x7ACE1002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7ACE1001, 0x7ACE1003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ACE1001, 0x7ACE1004, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7ACE1001, 0x7ACE1005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7ACE1001, 0x7ACE1006, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7ACE1001, 0x7ACE1007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7ACE1001, 0x7ACE1008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7ACE1001, 0x7ACE1009, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7ACE1001, 0x7ACE1002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7ACE1001, 0x7ACE1003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ACE1001, 0x7ACE1004, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7ACE1001, 0x7ACE1005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7ACE1001, 0x7ACE1006, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7ACE1001, 0x7ACE1007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7ACE1001, 0x7ACE1008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7ACE1001, 0x7ACE1009, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACE1002,  4255, 0xACE1003B, 182.2394, 59.6428, 4.791633, 0.6293204, 0, 0, -0.7771459,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

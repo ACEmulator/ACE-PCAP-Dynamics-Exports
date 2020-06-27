@@ -13,11 +13,11 @@ VALUES (0x74A1B002,  1154, 0x4A1B0005, 8.856339, 113.949, 41.27467, -0.7359091, 
 /* @teleloc 0x4A1B0005 [8.856339 113.949000 41.274670] -0.735909 0.000000 0.000000 -0.677080 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A1B002, 0x74A1B003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x74A1B002, 0x74A1B004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74A1B002, 0x74A1B005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x74A1B002, 0x74A1B006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74A1B002, 0x74A1B007, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x74A1B002, 0x74A1B003, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x74A1B002, 0x74A1B004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74A1B002, 0x74A1B005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x74A1B002, 0x74A1B006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74A1B002, 0x74A1B007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A1B003, 36833, 0x4A1B0005, 8.856339, 113.949, 41.27467, -0.7359091, 0, 0, -0.6770803,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -44,7 +44,7 @@ VALUES (0x74A1B008,  1542, 0x4A1B0027, 111.1298, 148.8435, 42.85503, 1, 0, 0, 0,
 /* @teleloc 0x4A1B0027 [111.129800 148.843500 42.855030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A1B008, 0x74A1B009, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x74A1B008, 0x74A1B009, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A1B009, 31445, 0x4A1B0027, 111.1298, 148.8435, 42.85503, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

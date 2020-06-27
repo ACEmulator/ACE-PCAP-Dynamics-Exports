@@ -45,16 +45,16 @@ VALUES (0x7730206D,  1154, 0x7302023A, 60.9185, -20.011, 0.009000003, -0.715311,
 /* @teleloc 0x7302023A [60.918500 -20.011000 0.009000] -0.715311 0.000000 0.000000 -0.698806 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7730206D, 0x7730206E, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x7730206F, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302070, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302071, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302072, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302073, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302074, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302075, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302076, '2019-02-10 00:00:00') /* Sparring Golem */
-     , (0x7730206D, 0x77302077, '2019-02-10 00:00:00') /* Sparring Golem */;
+VALUES (0x7730206D, 0x7730206E, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x7730206F, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302070, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302071, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302072, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302073, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302074, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302075, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302076, '2019-02-10 00:00:00') /* Sparring Golem (12698) */
+     , (0x7730206D, 0x77302077, '2019-02-10 00:00:00') /* Sparring Golem (12698) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7730206E, 12698, 0x7302023A, 60.9185, -20.011, 0.009000003, -0.715311, 0, 0, -0.698806,  True, '2019-02-10 00:00:00'); /* Sparring Golem */
@@ -101,10 +101,10 @@ VALUES (0x77302078,  1154, 0x730201B0, 22.1139, -19.142, 0.004999995, 0.254402, 
 /* @teleloc 0x730201B0 [22.113900 -19.142000 0.005000] 0.254402 0.000000 0.000000 0.967099 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77302078, 0x77302079, '2019-02-10 00:00:00') /* Jonathan */
-     , (0x77302078, 0x7730207A, '2019-02-10 00:00:00') /* Society Greeter */
-     , (0x77302078, 0x7730207B, '2019-02-10 00:00:00') /* Samuel */
-     , (0x77302078, 0x7730207C, '2019-02-10 00:00:00') /* Training Master */;
+VALUES (0x77302078, 0x77302079, '2019-02-10 00:00:00') /* Jonathan (29325) */
+     , (0x77302078, 0x7730207A, '2019-02-10 00:00:00') /* Society Greeter (30991) */
+     , (0x77302078, 0x7730207B, '2019-02-10 00:00:00') /* Samuel (29322) */
+     , (0x77302078, 0x7730207C, '2019-02-10 00:00:00') /* Training Master (29320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77302079, 29325, 0x730201B0, 22.1139, -19.142, 0.004999995, 0.254402, 0, 0, 0.967099,  True, '2019-02-10 00:00:00'); /* Jonathan */
@@ -127,11 +127,11 @@ VALUES (0x7730207D,  1542, 0x730201B6, 17.7939, -41.728, -0.002500013, -0.481744
 /* @teleloc 0x730201B6 [17.793900 -41.728000 -0.002500] -0.481744 0.000000 0.000000 -0.876312 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7730207D, 0x7730207E, '2019-02-10 00:00:00') /* Leather Leggings */
-     , (0x7730207D, 0x7730207F, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7730207D, 0x77302080, '2019-02-10 00:00:00') /* Restoring the Training Academies */
-     , (0x7730207D, 0x77302081, '2019-02-10 00:00:00') /* Leather Cap */
-     , (0x7730207D, 0x77302082, '2019-02-10 00:00:00') /* Bruised Apple */;
+VALUES (0x7730207D, 0x7730207E, '2019-02-10 00:00:00') /* Leather Leggings (13241) */
+     , (0x7730207D, 0x7730207F, '2019-02-10 00:00:00') /* Leather Gauntlets (13240) */
+     , (0x7730207D, 0x77302080, '2019-02-10 00:00:00') /* Restoring the Training Academies (13237) */
+     , (0x7730207D, 0x77302081, '2019-02-10 00:00:00') /* Leather Cap (13239) */
+     , (0x7730207D, 0x77302082, '2019-02-10 00:00:00') /* Bruised Apple (5090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7730207E, 13241, 0x730201B6, 17.7939, -41.728, -0.002500013, -0.481744, 0, 0, -0.876312,  True, '2019-02-10 00:00:00'); /* Leather Leggings */

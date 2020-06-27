@@ -5,14 +5,14 @@ VALUES (0x72674001,  1154, 0x26740004, 10.87345, 80.22638, 90.71836, 0.9620123, 
 /* @teleloc 0x26740004 [10.873450 80.226380 90.718360] 0.962012 0.000000 0.000000 -0.273006 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72674001, 0x72674002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72674001, 0x72674003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72674001, 0x72674004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72674001, 0x72674005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72674001, 0x72674006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72674001, 0x72674007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72674001, 0x72674008, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72674001, 0x72674009, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72674001, 0x72674002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72674001, 0x72674003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72674001, 0x72674004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72674001, 0x72674005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72674001, 0x72674006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72674001, 0x72674007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72674001, 0x72674008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72674001, 0x72674009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72674002, 23482, 0x26740004, 10.87345, 80.22638, 90.71836, 0.9620123, 0, 0, -0.2730061,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

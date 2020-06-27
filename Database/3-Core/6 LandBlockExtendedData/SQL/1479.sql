@@ -5,9 +5,9 @@ VALUES (0x71479001,  1154, 0x1479003A, 185.9377, 32.69119, 150.0023, 0.9990748, 
 /* @teleloc 0x1479003A [185.937700 32.691190 150.002300] 0.999075 0.000000 0.000000 -0.043005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71479001, 0x71479002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71479001, 0x71479003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x71479001, 0x71479004, '2019-02-10 00:00:00') /* Murk Drudge */;
+VALUES (0x71479001, 0x71479002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71479001, 0x71479003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71479001, 0x71479004, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71479002, 24134, 0x1479003A, 185.9377, 32.69119, 150.0023, 0.9990748, 0, 0, -0.04300532,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */

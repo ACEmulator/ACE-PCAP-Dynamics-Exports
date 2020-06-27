@@ -5,51 +5,51 @@ VALUES (0x7CC40001,  1154, 0xCC40002F, 135.7428, 165.3353, 48.21406, 1, 0, 0, 0,
 /* @teleloc 0xCC40002F [135.742800 165.335300 48.214060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC40001, 0x7CC40002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC40001, 0x7CC40004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC40001, 0x7CC40005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC40001, 0x7CC40007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC40001, 0x7CC40008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC40001, 0x7CC40009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC4000A, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC40001, 0x7CC4000B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC40001, 0x7CC4000C, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CC40001, 0x7CC4000D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC4000E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC4000F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40010, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC40001, 0x7CC40011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40012, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC40013, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CC40001, 0x7CC40014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40015, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC40016, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC40001, 0x7CC40017, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC40001, 0x7CC40018, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC40001, 0x7CC40019, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC40001, 0x7CC4001A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC4001B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC4001C, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CC40001, 0x7CC4001D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC4001E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC4001F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC40020, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7CC40001, 0x7CC40021, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CC40001, 0x7CC40022, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC40001, 0x7CC40023, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC40001, 0x7CC40024, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC40025, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40026, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC40001, 0x7CC40028, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC40029, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CC40001, 0x7CC4002A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7CC40001, 0x7CC4002B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CC40001, 0x7CC4002C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC40001, 0x7CC4002D, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7CC40001, 0x7CC4002E, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7CC40001, 0x7CC40002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC40001, 0x7CC40004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC40001, 0x7CC40005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC40001, 0x7CC40007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC40001, 0x7CC40008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC40001, 0x7CC40009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC4000A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC40001, 0x7CC4000B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC40001, 0x7CC4000C, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CC40001, 0x7CC4000D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC4000E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC4000F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40010, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC40001, 0x7CC40011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40012, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC40013, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CC40001, 0x7CC40014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40015, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC40016, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC40001, 0x7CC40017, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC40001, 0x7CC40018, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC40001, 0x7CC40019, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC40001, 0x7CC4001A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC4001B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC4001C, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CC40001, 0x7CC4001D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC4001E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC4001F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC40020, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7CC40001, 0x7CC40021, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CC40001, 0x7CC40022, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC40001, 0x7CC40023, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC40001, 0x7CC40024, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC40025, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40026, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40027, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC40001, 0x7CC40028, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC40029, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CC40001, 0x7CC4002A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7CC40001, 0x7CC4002B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CC40001, 0x7CC4002C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC40001, 0x7CC4002D, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7CC40001, 0x7CC4002E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC40002, 24937, 0xCC40002F, 135.7428, 165.3353, 48.21406, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -236,8 +236,8 @@ VALUES (0x7CC4002F,  1542, 0xCC400037, 147.8633, 165.8614, 48.55931, 0.9990482, 
 /* @teleloc 0xCC400037 [147.863300 165.861400 48.559310] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC4002F, 0x7CC40030, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7CC4002F, 0x7CC40031, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x7CC4002F, 0x7CC40030, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7CC4002F, 0x7CC40031, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC40030,  6117, 0xCC400037, 147.8633, 165.8614, 48.55931, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

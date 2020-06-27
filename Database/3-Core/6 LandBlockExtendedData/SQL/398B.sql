@@ -5,14 +5,14 @@ VALUES (0x7398B001,  1154, 0x398B0040, 170.7159, 181.3125, 26.01, -0.7660444, 0,
 /* @teleloc 0x398B0040 [170.715900 181.312500 26.010000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7398B001, 0x7398B002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7398B001, 0x7398B003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7398B001, 0x7398B004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7398B001, 0x7398B005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7398B001, 0x7398B006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7398B001, 0x7398B007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7398B001, 0x7398B008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7398B001, 0x7398B009, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7398B001, 0x7398B002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7398B001, 0x7398B003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7398B001, 0x7398B004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7398B001, 0x7398B005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7398B001, 0x7398B006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7398B001, 0x7398B007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7398B001, 0x7398B008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7398B001, 0x7398B009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7398B002, 24494, 0x398B0040, 170.7159, 181.3125, 26.01, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -51,9 +51,9 @@ VALUES (0x7398B00A,  1542, 0x398B0040, 169.0279, 175.8964, 26, 1, 0, 0, 0, False
 /* @teleloc 0x398B0040 [169.027900 175.896400 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7398B00A, 0x7398B00B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7398B00A, 0x7398B00C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7398B00A, 0x7398B00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7398B00A, 0x7398B00B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7398B00A, 0x7398B00C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7398B00A, 0x7398B00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7398B00B, 22566, 0x398B0040, 169.0279, 175.8964, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,20 +5,20 @@ VALUES (0x73B33001,  1154, 0x3B33003A, 172.4914, 38.15194, 160.0045, 0.6394944, 
 /* @teleloc 0x3B33003A [172.491400 38.151940 160.004500] 0.639494 0.000000 0.000000 -0.768796 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B33001, 0x73B33002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x73B33001, 0x73B33003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73B33001, 0x73B33004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73B33001, 0x73B33005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73B33001, 0x73B33006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x73B33001, 0x73B33007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73B33001, 0x73B33008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73B33001, 0x73B33009, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x73B33001, 0x73B3300A, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x73B33001, 0x73B3300B, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x73B33001, 0x73B3300C, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73B33001, 0x73B3300D, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x73B33001, 0x73B3300E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73B33001, 0x73B3300F, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x73B33001, 0x73B33002, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x73B33001, 0x73B33003, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73B33001, 0x73B33004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73B33001, 0x73B33005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73B33001, 0x73B33006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x73B33001, 0x73B33007, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73B33001, 0x73B33008, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73B33001, 0x73B33009, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x73B33001, 0x73B3300A, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x73B33001, 0x73B3300B, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x73B33001, 0x73B3300C, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x73B33001, 0x73B3300D, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x73B33001, 0x73B3300E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73B33001, 0x73B3300F, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B33002,  7091, 0x3B33003A, 172.4914, 38.15194, 160.0045, 0.6394944, 0, 0, -0.7687958,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

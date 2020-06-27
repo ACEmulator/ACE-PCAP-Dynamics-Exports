@@ -5,11 +5,11 @@ VALUES (0x745D1001,  1154, 0x45D10024, 117.9092, 95.60812, 4.000001, -0.5154487,
 /* @teleloc 0x45D10024 [117.909200 95.608120 4.000001] -0.515449 0.000000 0.000000 -0.856920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745D1001, 0x745D1002, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x745D1001, 0x745D1003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x745D1001, 0x745D1004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x745D1001, 0x745D1005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x745D1001, 0x745D1006, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x745D1001, 0x745D1002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x745D1001, 0x745D1003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x745D1001, 0x745D1004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x745D1001, 0x745D1005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x745D1001, 0x745D1006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745D1002,  7126, 0x45D10024, 117.9092, 95.60812, 4.000001, -0.5154487, 0, 0, -0.8569204,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */

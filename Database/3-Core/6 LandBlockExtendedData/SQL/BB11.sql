@@ -5,32 +5,32 @@ VALUES (0x7BB11001,  1154, 0xBB110014, 69.93709, 83.68726, -0.09499999, 0.459423
 /* @teleloc 0xBB110014 [69.937090 83.687260 -0.095000] 0.459423 0.000000 0.000000 -0.888217 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB11001, 0x7BB11002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BB11001, 0x7BB11003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7BB11001, 0x7BB11004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BB11001, 0x7BB11005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BB11001, 0x7BB11006, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BB11001, 0x7BB11007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BB11001, 0x7BB11008, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BB11001, 0x7BB11009, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BB11001, 0x7BB1100A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BB11001, 0x7BB1100B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BB11001, 0x7BB1100C, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BB11001, 0x7BB1100D, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BB11001, 0x7BB1100E, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7BB11001, 0x7BB1100F, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BB11001, 0x7BB11010, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BB11001, 0x7BB11011, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BB11001, 0x7BB11012, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BB11001, 0x7BB11013, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BB11001, 0x7BB11014, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7BB11001, 0x7BB11015, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB11001, 0x7BB11016, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB11001, 0x7BB11017, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BB11001, 0x7BB11018, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BB11001, 0x7BB11019, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7BB11001, 0x7BB1101A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7BB11001, 0x7BB1101B, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7BB11001, 0x7BB11002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BB11001, 0x7BB11003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7BB11001, 0x7BB11004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BB11001, 0x7BB11005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BB11001, 0x7BB11006, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BB11001, 0x7BB11007, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BB11001, 0x7BB11008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BB11001, 0x7BB11009, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BB11001, 0x7BB1100A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BB11001, 0x7BB1100B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BB11001, 0x7BB1100C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BB11001, 0x7BB1100D, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BB11001, 0x7BB1100E, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7BB11001, 0x7BB1100F, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BB11001, 0x7BB11010, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BB11001, 0x7BB11011, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BB11001, 0x7BB11012, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BB11001, 0x7BB11013, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BB11001, 0x7BB11014, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7BB11001, 0x7BB11015, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB11001, 0x7BB11016, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BB11001, 0x7BB11017, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BB11001, 0x7BB11018, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BB11001, 0x7BB11019, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7BB11001, 0x7BB1101A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7BB11001, 0x7BB1101B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB11002,  1757, 0xBB110014, 69.93709, 83.68726, -0.09499999, 0.4594234, 0, 0, -0.8882174,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -141,8 +141,8 @@ VALUES (0x7BB1101C,  1542, 0xBB110028, 104.6873, 186.9319, -0.45, 0.9990482, 0, 
 /* @teleloc 0xBB110028 [104.687300 186.931900 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB1101C, 0x7BB1101D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BB1101C, 0x7BB1101E, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7BB1101C, 0x7BB1101D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BB1101C, 0x7BB1101E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB1101D,  4179, 0xBB110028, 104.6873, 186.9319, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

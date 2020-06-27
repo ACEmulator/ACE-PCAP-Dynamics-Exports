@@ -5,19 +5,19 @@ VALUES (0x73EA6001,  1154, 0x3EA60033, 156.3849, 67.93185, 12.13432, -0.1741706,
 /* @teleloc 0x3EA60033 [156.384900 67.931850 12.134320] -0.174171 0.000000 0.000000 -0.984716 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA6001, 0x73EA6002, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x73EA6001, 0x73EA6003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x73EA6001, 0x73EA6004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EA6001, 0x73EA6005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x73EA6001, 0x73EA6006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73EA6001, 0x73EA6007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73EA6001, 0x73EA6008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73EA6001, 0x73EA6009, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73EA6001, 0x73EA600A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x73EA6001, 0x73EA600B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73EA6001, 0x73EA600C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x73EA6001, 0x73EA600D, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x73EA6001, 0x73EA600E, '2019-02-10 00:00:00') /* Tumerok Major */;
+VALUES (0x73EA6001, 0x73EA6002, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x73EA6001, 0x73EA6003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x73EA6001, 0x73EA6004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EA6001, 0x73EA6005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x73EA6001, 0x73EA6006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73EA6001, 0x73EA6007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73EA6001, 0x73EA6008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73EA6001, 0x73EA6009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73EA6001, 0x73EA600A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x73EA6001, 0x73EA600B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73EA6001, 0x73EA600C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x73EA6001, 0x73EA600D, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x73EA6001, 0x73EA600E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA6002, 23565, 0x3EA60033, 156.3849, 67.93185, 12.13432, -0.1741706, 0, 0, -0.9847155,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -76,8 +76,8 @@ VALUES (0x73EA600F,  1542, 0x3EA6002B, 139.1332, 61.99486, 11.62062, 0.9990482, 
 /* @teleloc 0x3EA6002B [139.133200 61.994860 11.620620] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EA600F, 0x73EA6010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73EA600F, 0x73EA6011, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x73EA600F, 0x73EA6010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73EA600F, 0x73EA6011, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EA6010,  4179, 0x3EA6002B, 139.1332, 61.99486, 11.62062, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

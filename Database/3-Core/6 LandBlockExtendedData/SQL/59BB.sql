@@ -5,35 +5,35 @@ VALUES (0x759BB001,  1154, 0x59BB0035, 155.5586, 113.9455, 23.60904, 0.7071068, 
 /* @teleloc 0x59BB0035 [155.558600 113.945500 23.609040] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x759BB001, 0x759BB002, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x759BB001, 0x759BB003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x759BB001, 0x759BB004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x759BB001, 0x759BB005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x759BB001, 0x759BB006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x759BB001, 0x759BB007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x759BB001, 0x759BB008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x759BB001, 0x759BB009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x759BB001, 0x759BB00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x759BB001, 0x759BB00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x759BB001, 0x759BB00C, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x759BB001, 0x759BB00D, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x759BB001, 0x759BB00E, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x759BB001, 0x759BB00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x759BB001, 0x759BB010, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x759BB001, 0x759BB011, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x759BB001, 0x759BB012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x759BB001, 0x759BB013, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x759BB001, 0x759BB014, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x759BB001, 0x759BB015, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x759BB001, 0x759BB016, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x759BB001, 0x759BB017, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x759BB001, 0x759BB018, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x759BB001, 0x759BB019, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x759BB001, 0x759BB01A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x759BB001, 0x759BB01B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x759BB001, 0x759BB01C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x759BB001, 0x759BB01D, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x759BB001, 0x759BB01E, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x759BB001, 0x759BB002, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x759BB001, 0x759BB003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x759BB001, 0x759BB004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x759BB001, 0x759BB005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x759BB001, 0x759BB006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x759BB001, 0x759BB007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x759BB001, 0x759BB008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x759BB001, 0x759BB009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x759BB001, 0x759BB00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x759BB001, 0x759BB00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x759BB001, 0x759BB00C, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x759BB001, 0x759BB00D, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x759BB001, 0x759BB00E, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x759BB001, 0x759BB00F, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x759BB001, 0x759BB010, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x759BB001, 0x759BB011, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x759BB001, 0x759BB012, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x759BB001, 0x759BB013, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x759BB001, 0x759BB014, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x759BB001, 0x759BB015, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x759BB001, 0x759BB016, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759BB001, 0x759BB017, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759BB001, 0x759BB018, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x759BB001, 0x759BB019, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x759BB001, 0x759BB01A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x759BB001, 0x759BB01B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x759BB001, 0x759BB01C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x759BB001, 0x759BB01D, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x759BB001, 0x759BB01E, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759BB002, 10806, 0x59BB0035, 155.5586, 113.9455, 23.60904, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */

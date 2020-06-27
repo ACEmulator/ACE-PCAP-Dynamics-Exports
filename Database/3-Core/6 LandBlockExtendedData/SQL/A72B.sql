@@ -5,9 +5,9 @@ VALUES (0x7A72B001,  1154, 0xA72B0039, 179.2041, 22.76055, 110.007, 0.6322275, 0
 /* @teleloc 0xA72B0039 [179.204100 22.760550 110.007000] 0.632228 0.000000 0.000000 -0.774783 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A72B001, 0x7A72B002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A72B001, 0x7A72B003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A72B001, 0x7A72B004, '2019-02-10 00:00:00') /* K'nath S'tath */;
+VALUES (0x7A72B001, 0x7A72B002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A72B001, 0x7A72B003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A72B001, 0x7A72B004, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A72B002, 14517, 0xA72B0039, 179.2041, 22.76055, 110.007, 0.6322275, 0, 0, -0.7747828,  True, '2019-02-10 00:00:00'); /* Frost */

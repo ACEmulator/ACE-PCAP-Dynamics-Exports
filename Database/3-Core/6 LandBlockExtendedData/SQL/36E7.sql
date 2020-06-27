@@ -5,8 +5,8 @@ VALUES (0x736E7001,  1154, 0x36E70006, 23.68989, 142.6324, 1.9925, 0.9741638, 0,
 /* @teleloc 0x36E70006 [23.689890 142.632400 1.992500] 0.974164 0.000000 0.000000 -0.225843 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736E7001, 0x736E7002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x736E7001, 0x736E7003, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x736E7001, 0x736E7002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x736E7001, 0x736E7003, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736E7002, 24293, 0x36E70006, 23.68989, 142.6324, 1.9925, 0.9741638, 0, 0, -0.2258427,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */

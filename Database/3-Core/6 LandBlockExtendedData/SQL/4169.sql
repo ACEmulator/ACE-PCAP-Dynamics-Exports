@@ -5,11 +5,11 @@ VALUES (0x74169001,  1154, 0x4169003D, 188.6842, 111.4878, -0.4399999, 0.9167984
 /* @teleloc 0x4169003D [188.684200 111.487800 -0.440000] 0.916798 0.000000 0.000000 -0.399351 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74169001, 0x74169002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74169001, 0x74169003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x74169001, 0x74169004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74169001, 0x74169005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74169001, 0x74169006, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x74169001, 0x74169002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74169001, 0x74169003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74169001, 0x74169004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74169001, 0x74169005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74169001, 0x74169006, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74169002, 36827, 0x4169003D, 188.6842, 111.4878, -0.4399999, 0.9167984, 0, 0, -0.3993505,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */

@@ -5,14 +5,14 @@ VALUES (0x7AA39001,  1154, 0xAA390020, 95.53197, 176.1613, 45.40173, 0.978007, 0
 /* @teleloc 0xAA390020 [95.531970 176.161300 45.401730] 0.978007 0.000000 0.000000 -0.208572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA39001, 0x7AA39002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA39001, 0x7AA39003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA39001, 0x7AA39004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA39001, 0x7AA39005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA39001, 0x7AA39006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7AA39001, 0x7AA39007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7AA39001, 0x7AA39008, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7AA39001, 0x7AA39009, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7AA39001, 0x7AA39002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA39001, 0x7AA39003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA39001, 0x7AA39004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA39001, 0x7AA39005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA39001, 0x7AA39006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7AA39001, 0x7AA39007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7AA39001, 0x7AA39008, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7AA39001, 0x7AA39009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA39002,  1762, 0xAA390020, 95.53197, 176.1613, 45.40173, 0.978007, 0, 0, -0.208572,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

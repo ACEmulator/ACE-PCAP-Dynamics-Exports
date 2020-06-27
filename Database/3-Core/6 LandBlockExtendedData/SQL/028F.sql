@@ -13,31 +13,31 @@ VALUES (0x7028F01F,  1154, 0x028F016C, 62.3198, -28.737, -5.9986, -0.870797, 0, 
 /* @teleloc 0x028F016C [62.319800 -28.737000 -5.998600] -0.870797 0.000000 0.000000 -0.491643 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7028F01F, 0x7028F020, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7028F01F, 0x7028F021, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7028F01F, 0x7028F022, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7028F01F, 0x7028F023, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F024, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F025, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7028F01F, 0x7028F026, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7028F01F, 0x7028F027, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F028, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F029, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02D, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F02F, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F030, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7028F01F, 0x7028F031, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7028F01F, 0x7028F032, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7028F01F, 0x7028F033, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F034, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F035, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7028F01F, 0x7028F036, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7028F01F, 0x7028F037, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7028F01F, 0x7028F038, '2019-02-10 00:00:00') /* Jungle Reaver */;
+VALUES (0x7028F01F, 0x7028F020, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7028F01F, 0x7028F021, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7028F01F, 0x7028F022, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7028F01F, 0x7028F023, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F024, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F025, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7028F01F, 0x7028F026, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7028F01F, 0x7028F027, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F028, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F029, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02D, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F02F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F030, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7028F01F, 0x7028F031, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7028F01F, 0x7028F032, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7028F01F, 0x7028F033, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F034, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F035, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7028F01F, 0x7028F036, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7028F01F, 0x7028F037, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7028F01F, 0x7028F038, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028F020,   221, 0x028F016C, 62.3198, -28.737, -5.9986, -0.870797, 0, 0, -0.491643,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */
@@ -144,7 +144,7 @@ VALUES (0x7028F039,  1154, 0x028F0149, 69.636, -42.83916, -17.995, 0.6123623, 0,
 /* @teleloc 0x028F0149 [69.636000 -42.839160 -17.995000] 0.612362 0.000000 0.000000 -0.790577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7028F039, 0x7028F03A, '2019-02-10 00:00:00') /* Terese */;
+VALUES (0x7028F039, 0x7028F03A, '2019-02-10 00:00:00') /* Terese (11637) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028F03A, 11637, 0x028F0149, 69.636, -42.83916, -17.995, 0.6123623, 0, 0, -0.7905773,  True, '2019-02-10 00:00:00'); /* Terese */

@@ -5,36 +5,36 @@ VALUES (0x73C33001,  1154, 0x3C330029, 139.1639, 15.62425, 200.9898, -0.9736685,
 /* @teleloc 0x3C330029 [139.163900 15.624250 200.989800] -0.973669 0.000000 0.000000 -0.227969 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C33001, 0x73C33002, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C33001, 0x73C33003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73C33001, 0x73C33004, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73C33001, 0x73C33005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C33001, 0x73C33006, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73C33001, 0x73C33007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x73C33001, 0x73C33008, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73C33001, 0x73C33009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C33001, 0x73C3300A, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C33001, 0x73C3300B, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x73C33001, 0x73C3300C, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x73C33001, 0x73C3300D, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73C33001, 0x73C3300E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x73C33001, 0x73C3300F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C33001, 0x73C33010, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73C33001, 0x73C33011, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C33001, 0x73C33012, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73C33001, 0x73C33013, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73C33001, 0x73C33014, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73C33001, 0x73C33015, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73C33001, 0x73C33016, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73C33001, 0x73C33017, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73C33001, 0x73C33018, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73C33001, 0x73C33019, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73C33001, 0x73C3301A, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73C33001, 0x73C3301B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73C33001, 0x73C3301C, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73C33001, 0x73C3301D, '2019-02-10 00:00:00') /* Assailer */
-     , (0x73C33001, 0x73C3301E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73C33001, 0x73C3301F, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x73C33001, 0x73C33002, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C33001, 0x73C33003, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73C33001, 0x73C33004, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73C33001, 0x73C33005, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73C33001, 0x73C33006, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73C33001, 0x73C33007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x73C33001, 0x73C33008, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73C33001, 0x73C33009, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73C33001, 0x73C3300A, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C33001, 0x73C3300B, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x73C33001, 0x73C3300C, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
+     , (0x73C33001, 0x73C3300D, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73C33001, 0x73C3300E, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x73C33001, 0x73C3300F, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x73C33001, 0x73C33010, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x73C33001, 0x73C33011, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73C33001, 0x73C33012, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73C33001, 0x73C33013, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x73C33001, 0x73C33014, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x73C33001, 0x73C33015, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x73C33001, 0x73C33016, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73C33001, 0x73C33017, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73C33001, 0x73C33018, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73C33001, 0x73C33019, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73C33001, 0x73C3301A, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73C33001, 0x73C3301B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73C33001, 0x73C3301C, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73C33001, 0x73C3301D, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73C33001, 0x73C3301E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x73C33001, 0x73C3301F, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C33002, 38180, 0x3C330029, 139.1639, 15.62425, 200.9898, -0.9736685, 0, 0, -0.2279686,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -161,8 +161,8 @@ VALUES (0x73C33020,  1542, 0x3C330015, 48.78353, 100.441, 173.6952, 1, 0, 0, 0, 
 /* @teleloc 0x3C330015 [48.783530 100.441000 173.695200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C33020, 0x73C33021, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73C33020, 0x73C33022, '2019-02-10 00:00:00') /* Qalaba'r Portal */;
+VALUES (0x73C33020, 0x73C33021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73C33020, 0x73C33022, '2019-02-10 00:00:00') /* Qalaba'r Portal (42833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C33021,  4179, 0x3C330015, 48.78353, 100.441, 173.6952, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

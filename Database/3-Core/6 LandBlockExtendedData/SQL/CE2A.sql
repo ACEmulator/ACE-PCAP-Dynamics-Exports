@@ -5,11 +5,11 @@ VALUES (0x7CE2A001,  1154, 0xCE2A0003, 6.302323, 58.74894, 136.5327, 1, 0, 0, 0,
 /* @teleloc 0xCE2A0003 [6.302323 58.748940 136.532700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE2A001, 0x7CE2A002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7CE2A001, 0x7CE2A003, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7CE2A001, 0x7CE2A004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CE2A001, 0x7CE2A005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CE2A001, 0x7CE2A006, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7CE2A001, 0x7CE2A002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7CE2A001, 0x7CE2A003, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7CE2A001, 0x7CE2A004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CE2A001, 0x7CE2A005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CE2A001, 0x7CE2A006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE2A002,  7123, 0xCE2A0003, 6.302323, 58.74894, 136.5327, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -36,7 +36,7 @@ VALUES (0x7CE2A007,  1542, 0xCE2A0003, 7.92375, 58.59789, 136.6603, 0.9238795, 0
 /* @teleloc 0xCE2A0003 [7.923750 58.597890 136.660300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE2A007, 0x7CE2A008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7CE2A007, 0x7CE2A008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE2A008,  4180, 0xCE2A0003, 7.92375, 58.59789, 136.6603, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

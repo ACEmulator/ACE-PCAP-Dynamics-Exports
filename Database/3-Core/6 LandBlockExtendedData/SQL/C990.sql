@@ -9,14 +9,14 @@ VALUES (0x7C990002,  1154, 0xC9900030, 128.0959, 189.8662, 22.20893, 0.7280671, 
 /* @teleloc 0xC9900030 [128.095900 189.866200 22.208930] 0.728067 0.000000 0.000000 -0.685506 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C990002, 0x7C990003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C990002, 0x7C990004, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C990002, 0x7C990005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7C990002, 0x7C990006, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C990002, 0x7C990007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C990002, 0x7C990008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C990002, 0x7C990009, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7C990002, 0x7C99000A, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7C990002, 0x7C990003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C990002, 0x7C990004, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C990002, 0x7C990005, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7C990002, 0x7C990006, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C990002, 0x7C990007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C990002, 0x7C990008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C990002, 0x7C990009, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7C990002, 0x7C99000A, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C990003,     6, 0xC9900030, 128.0959, 189.8662, 22.20893, 0.7280671, 0, 0, -0.6855059,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -55,11 +55,11 @@ VALUES (0x7C99000B,  1542, 0xC9900018, 65.19719, 178.3983, 13.9975, 1, 0, 0, 0, 
 /* @teleloc 0xC9900018 [65.197190 178.398300 13.997500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C99000B, 0x7C99000C, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C99000B, 0x7C99000D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C99000B, 0x7C99000E, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C99000B, 0x7C99000F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7C99000B, 0x7C990010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C99000B, 0x7C99000C, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C99000B, 0x7C99000D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C99000B, 0x7C99000E, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C99000B, 0x7C99000F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7C99000B, 0x7C990010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C99000C,   547, 0xC9900018, 65.19719, 178.3983, 13.9975, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */

@@ -5,15 +5,15 @@ VALUES (0x7A328001,  1154, 0xA328000C, 38.15378, 83.45462, 253.9548, -0.9954132,
 /* @teleloc 0xA328000C [38.153780 83.454620 253.954800] -0.995413 0.000000 0.000000 -0.095669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A328001, 0x7A328002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A328001, 0x7A328003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7A328001, 0x7A328004, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x7A328001, 0x7A328005, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A328001, 0x7A328006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A328001, 0x7A328007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A328001, 0x7A328008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A328001, 0x7A328009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7A328001, 0x7A32800A, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7A328001, 0x7A328002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A328001, 0x7A328003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7A328001, 0x7A328004, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x7A328001, 0x7A328005, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A328001, 0x7A328006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A328001, 0x7A328007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A328001, 0x7A328008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A328001, 0x7A328009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A328001, 0x7A32800A, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A328002, 38181, 0xA328000C, 38.15378, 83.45462, 253.9548, -0.9954132, 0, 0, -0.09566903,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

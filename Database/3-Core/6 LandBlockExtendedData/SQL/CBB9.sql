@@ -5,16 +5,16 @@ VALUES (0x7CBB9001,  1154, 0xCBB9003F, 177.5095, 144.6216, 105.5754, -0.5168939,
 /* @teleloc 0xCBB9003F [177.509500 144.621600 105.575400] -0.516894 0.000000 0.000000 -0.856050 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CBB9001, 0x7CBB9002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7CBB9001, 0x7CBB9003, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB9001, 0x7CBB9004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CBB9001, 0x7CBB9005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CBB9001, 0x7CBB9006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB9001, 0x7CBB9007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB9001, 0x7CBB9008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB9001, 0x7CBB9009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CBB9001, 0x7CBB900A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7CBB9001, 0x7CBB900B, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x7CBB9001, 0x7CBB9002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7CBB9001, 0x7CBB9003, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB9001, 0x7CBB9004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CBB9001, 0x7CBB9005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CBB9001, 0x7CBB9006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB9001, 0x7CBB9007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB9001, 0x7CBB9008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB9001, 0x7CBB9009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CBB9001, 0x7CBB900A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7CBB9001, 0x7CBB900B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB9002, 24281, 0xCBB9003F, 177.5095, 144.6216, 105.5754, -0.5168939, 0, 0, -0.8560495,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

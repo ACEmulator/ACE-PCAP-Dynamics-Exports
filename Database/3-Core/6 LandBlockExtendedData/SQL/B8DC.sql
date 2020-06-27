@@ -5,32 +5,32 @@ VALUES (0x7B8DC001,  1154, 0xB8DC0037, 163.2574, 167.2683, -0.437, 0.8057999, 0,
 /* @teleloc 0xB8DC0037 [163.257400 167.268300 -0.437000] 0.805800 0.000000 0.000000 -0.592188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8DC001, 0x7B8DC002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B8DC001, 0x7B8DC003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B8DC001, 0x7B8DC004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B8DC001, 0x7B8DC005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7B8DC001, 0x7B8DC006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B8DC001, 0x7B8DC007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B8DC001, 0x7B8DC008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B8DC001, 0x7B8DC009, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B8DC001, 0x7B8DC00A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B8DC001, 0x7B8DC00B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B8DC001, 0x7B8DC00C, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7B8DC001, 0x7B8DC00D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7B8DC001, 0x7B8DC00E, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B8DC001, 0x7B8DC00F, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7B8DC001, 0x7B8DC010, '2019-02-10 00:00:00') /* Frost */
-     , (0x7B8DC001, 0x7B8DC011, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7B8DC001, 0x7B8DC012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B8DC001, 0x7B8DC013, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B8DC001, 0x7B8DC014, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B8DC001, 0x7B8DC015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8DC001, 0x7B8DC016, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8DC001, 0x7B8DC017, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8DC001, 0x7B8DC018, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B8DC001, 0x7B8DC019, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B8DC001, 0x7B8DC01A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7B8DC001, 0x7B8DC01B, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7B8DC001, 0x7B8DC002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B8DC001, 0x7B8DC003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B8DC001, 0x7B8DC004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B8DC001, 0x7B8DC005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7B8DC001, 0x7B8DC006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B8DC001, 0x7B8DC007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B8DC001, 0x7B8DC008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B8DC001, 0x7B8DC009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B8DC001, 0x7B8DC00A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B8DC001, 0x7B8DC00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B8DC001, 0x7B8DC00C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7B8DC001, 0x7B8DC00D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7B8DC001, 0x7B8DC00E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B8DC001, 0x7B8DC00F, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7B8DC001, 0x7B8DC010, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7B8DC001, 0x7B8DC011, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7B8DC001, 0x7B8DC012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B8DC001, 0x7B8DC013, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B8DC001, 0x7B8DC014, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B8DC001, 0x7B8DC015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8DC001, 0x7B8DC016, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8DC001, 0x7B8DC017, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8DC001, 0x7B8DC018, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B8DC001, 0x7B8DC019, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B8DC001, 0x7B8DC01A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7B8DC001, 0x7B8DC01B, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8DC002,  7183, 0xB8DC0037, 163.2574, 167.2683, -0.437, 0.8057999, 0, 0, -0.5921879,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -141,7 +141,7 @@ VALUES (0x7B8DC01C,  1542, 0xB8DC001F, 84.85637, 153.2731, -0.11, -0.9788502, 0,
 /* @teleloc 0xB8DC001F [84.856370 153.273100 -0.110000] -0.978850 0.000000 0.000000 -0.204578 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8DC01C, 0x7B8DC01D, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x7B8DC01C, 0x7B8DC01D, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8DC01D,  9287, 0xB8DC001F, 84.85637, 153.2731, -0.11, -0.9788502, 0, 0, -0.2045783,  True, '2019-02-10 00:00:00'); /* Master's Holding */

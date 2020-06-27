@@ -5,9 +5,9 @@ VALUES (0x7CCD7001,  1154, 0xCCD7002B, 136.7444, 67.20198, 14.2048, 0.2179395, 0
 /* @teleloc 0xCCD7002B [136.744400 67.201980 14.204800] 0.217940 0.000000 0.000000 -0.975962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CCD7001, 0x7CCD7002, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CCD7001, 0x7CCD7003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CCD7001, 0x7CCD7004, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7CCD7001, 0x7CCD7002, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CCD7001, 0x7CCD7003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CCD7001, 0x7CCD7004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCD7002,   214, 0xCCD7002B, 136.7444, 67.20198, 14.2048, 0.2179395, 0, 0, -0.9759623,  True, '2019-02-10 00:00:00'); /* Olthoi Soldier */

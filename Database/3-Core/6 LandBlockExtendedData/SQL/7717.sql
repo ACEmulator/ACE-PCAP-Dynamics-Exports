@@ -5,9 +5,9 @@ VALUES (0x77717001,  1154, 0x7717003B, 168.3423, 63.81944, 30.58174, 0.9238795, 
 /* @teleloc 0x7717003B [168.342300 63.819440 30.581740] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77717001, 0x77717002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77717001, 0x77717003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x77717001, 0x77717004, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x77717001, 0x77717002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77717001, 0x77717003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77717001, 0x77717004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77717002,  7123, 0x7717003B, 168.3423, 63.81944, 30.58174, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -26,12 +26,12 @@ VALUES (0x77717005,  1542, 0x77170008, 6.55785, 170.7522, 10.04413, 1, 0, 0, 0, 
 /* @teleloc 0x77170008 [6.557850 170.752200 10.044130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77717005, 0x77717006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x77717005, 0x77717007, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77717005, 0x77717008, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x77717005, 0x77717009, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x77717005, 0x7771700A, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x77717005, 0x7771700B, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x77717005, 0x77717006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x77717005, 0x77717007, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77717005, 0x77717008, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x77717005, 0x77717009, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x77717005, 0x7771700A, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x77717005, 0x7771700B, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77717006,  9024, 0x77170008, 6.55785, 170.7522, 10.04413, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

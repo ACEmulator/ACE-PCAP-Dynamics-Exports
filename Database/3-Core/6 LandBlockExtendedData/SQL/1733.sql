@@ -5,9 +5,9 @@ VALUES (0x71733001,  1154, 0x1733001E, 74.895, 125.4364, 0.7014356, -0.8827789, 
 /* @teleloc 0x1733001E [74.895000 125.436400 0.701436] -0.882779 0.000000 0.000000 -0.469789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71733001, 0x71733002, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71733001, 0x71733003, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71733001, 0x71733004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71733001, 0x71733002, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71733001, 0x71733003, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71733001, 0x71733004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71733002, 36818, 0x1733001E, 74.895, 125.4364, 0.7014356, -0.8827789, 0, 0, -0.4697886,  True, '2019-02-10 00:00:00'); /* Banderling Predator */

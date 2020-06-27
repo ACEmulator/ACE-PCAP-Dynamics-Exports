@@ -9,37 +9,37 @@ VALUES (0x7F127001,  1154, 0xF127001B, 82.47137, 59.91052, -0.09880006, 0.953716
 /* @teleloc 0xF127001B [82.471370 59.910520 -0.098800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F127001, 0x7F127002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F127001, 0x7F127003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F127004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F127005, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F127001, 0x7F127006, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F127001, 0x7F127007, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F127001, 0x7F127008, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7F127001, 0x7F127009, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7F127001, 0x7F12700A, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F127001, 0x7F12700B, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7F127001, 0x7F12700C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F127001, 0x7F12700D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F127001, 0x7F12700E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F127001, 0x7F12700F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F127001, 0x7F127010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F127001, 0x7F127011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F127001, 0x7F127012, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F127013, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F127014, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F127015, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F127001, 0x7F127016, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F127001, 0x7F127017, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7F127001, 0x7F127018, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F127001, 0x7F127019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F127001, 0x7F12701A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F127001, 0x7F12701B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7F127001, 0x7F12701C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F127001, 0x7F12701D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F127001, 0x7F12701E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7F127001, 0x7F12701F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7F127001, 0x7F127020, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x7F127001, 0x7F127002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F127001, 0x7F127003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F127004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F127005, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F127001, 0x7F127006, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F127001, 0x7F127007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F127001, 0x7F127008, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7F127001, 0x7F127009, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7F127001, 0x7F12700A, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F127001, 0x7F12700B, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7F127001, 0x7F12700C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F127001, 0x7F12700D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F127001, 0x7F12700E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F127001, 0x7F12700F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F127001, 0x7F127010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F127001, 0x7F127011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F127001, 0x7F127012, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F127013, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F127014, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F127015, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F127001, 0x7F127016, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F127001, 0x7F127017, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7F127001, 0x7F127018, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F127001, 0x7F127019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F127001, 0x7F12701A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F127001, 0x7F12701B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F127001, 0x7F12701C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F127001, 0x7F12701D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F127001, 0x7F12701E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F127001, 0x7F12701F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F127001, 0x7F127020, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F127002,  7108, 0xF127001B, 82.47137, 59.91052, -0.09880006, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -170,7 +170,7 @@ VALUES (0x7F127021,  1542, 0xF127002E, 125.2674, 138.2641, -3.72529E-09, 1, 0, 0
 /* @teleloc 0xF127002E [125.267400 138.264100 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F127021, 0x7F127022, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7F127021, 0x7F127022, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F127022,  4379, 0xF127002E, 125.2674, 138.2641, -3.72529E-09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

@@ -5,10 +5,10 @@ VALUES (0x7DE3C001,  1154, 0xDE3C0012, 67.6087, 37.02871, 18.55833, 0.9238795, 0
 /* @teleloc 0xDE3C0012 [67.608700 37.028710 18.558330] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE3C001, 0x7DE3C002, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DE3C001, 0x7DE3C003, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7DE3C001, 0x7DE3C004, '2019-02-10 00:00:00') /* Forest Lord */
-     , (0x7DE3C001, 0x7DE3C005, '2019-02-10 00:00:00') /* Wood Golem */;
+VALUES (0x7DE3C001, 0x7DE3C002, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DE3C001, 0x7DE3C003, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7DE3C001, 0x7DE3C004, '2019-02-10 00:00:00') /* Forest Lord (11992) */
+     , (0x7DE3C001, 0x7DE3C005, '2019-02-10 00:00:00') /* Wood Golem (942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE3C002, 24940, 0xDE3C0012, 67.6087, 37.02871, 18.55833, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
@@ -31,7 +31,7 @@ VALUES (0x7DE3C006,  1542, 0xDE3C0012, 60.54471, 37.30518, 17.93663, 1, 0, 0, 0,
 /* @teleloc 0xDE3C0012 [60.544710 37.305180 17.936630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE3C006, 0x7DE3C007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DE3C006, 0x7DE3C007, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE3C007, 22576, 0xDE3C0012, 60.54471, 37.30518, 17.93663, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,30 +5,30 @@ VALUES (0x7403C001,  1154, 0x403C0040, 168.401, 181.0655, 33.25585, -0.7954348, 
 /* @teleloc 0x403C0040 [168.401000 181.065500 33.255850] -0.795435 0.000000 0.000000 -0.606039 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7403C001, 0x7403C002, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7403C001, 0x7403C003, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7403C001, 0x7403C004, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7403C001, 0x7403C005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x7403C001, 0x7403C006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7403C001, 0x7403C007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7403C001, 0x7403C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7403C001, 0x7403C009, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7403C001, 0x7403C00A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7403C001, 0x7403C00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x7403C001, 0x7403C00C, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x7403C001, 0x7403C00D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7403C001, 0x7403C00E, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7403C001, 0x7403C00F, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x7403C001, 0x7403C010, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7403C001, 0x7403C011, '2019-02-10 00:00:00') /* Diamond Lord */
-     , (0x7403C001, 0x7403C012, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7403C001, 0x7403C013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7403C001, 0x7403C014, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7403C001, 0x7403C015, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7403C001, 0x7403C016, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x7403C001, 0x7403C017, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7403C001, 0x7403C018, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7403C001, 0x7403C019, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7403C001, 0x7403C002, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7403C001, 0x7403C003, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7403C001, 0x7403C004, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7403C001, 0x7403C005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7403C001, 0x7403C006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7403C001, 0x7403C007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7403C001, 0x7403C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7403C001, 0x7403C009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7403C001, 0x7403C00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7403C001, 0x7403C00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x7403C001, 0x7403C00C, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x7403C001, 0x7403C00D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7403C001, 0x7403C00E, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7403C001, 0x7403C00F, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x7403C001, 0x7403C010, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7403C001, 0x7403C011, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
+     , (0x7403C001, 0x7403C012, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7403C001, 0x7403C013, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7403C001, 0x7403C014, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7403C001, 0x7403C015, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7403C001, 0x7403C016, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7403C001, 0x7403C017, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7403C001, 0x7403C018, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7403C001, 0x7403C019, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7403C002, 23485, 0x403C0040, 168.401, 181.0655, 33.25585, -0.7954348, 0, 0, -0.6060392,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */
@@ -131,7 +131,7 @@ VALUES (0x7403C01A,  1542, 0x403C0011, 65.03053, 15.98824, 2.076857, 0.1885254, 
 /* @teleloc 0x403C0011 [65.030530 15.988240 2.076857] 0.188525 0.000000 0.000000 -0.982068 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7403C01A, 0x7403C01B, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x7403C01A, 0x7403C01B, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7403C01B,  9286, 0x403C0011, 65.03053, 15.98824, 2.076857, 0.1885254, 0, 0, -0.9820683,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

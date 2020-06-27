@@ -13,22 +13,22 @@ VALUES (0x7F483002,  1154, 0xF4830003, 10.54552, 60.89944, 7.526175, -0.337052, 
 /* @teleloc 0xF4830003 [10.545520 60.899440 7.526175] -0.337052 0.000000 0.000000 -0.941486 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F483002, 0x7F483003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F483002, 0x7F483004, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F483002, 0x7F483005, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F483002, 0x7F483006, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F483002, 0x7F483007, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F483002, 0x7F483008, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F483002, 0x7F483009, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F483002, 0x7F48300A, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F483002, 0x7F48300B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F483002, 0x7F48300C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F483002, 0x7F48300D, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F483002, 0x7F48300E, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7F483002, 0x7F48300F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F483002, 0x7F483010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7F483002, 0x7F483011, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x7F483002, 0x7F483012, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x7F483002, 0x7F483003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F483002, 0x7F483004, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F483002, 0x7F483005, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F483002, 0x7F483006, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F483002, 0x7F483007, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F483002, 0x7F483008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F483002, 0x7F483009, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F483002, 0x7F48300A, '2019-02-10 00:00:00') /* Tusker Worshipper (22515) */
+     , (0x7F483002, 0x7F48300B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F483002, 0x7F48300C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F483002, 0x7F48300D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F483002, 0x7F48300E, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F483002, 0x7F48300F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F483002, 0x7F483010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F483002, 0x7F483011, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7F483002, 0x7F483012, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F483003,  1628, 0xF4830003, 10.54552, 60.89944, 7.526175, -0.337052, 0, 0, -0.9414861,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

@@ -5,10 +5,10 @@ VALUES (0x736EC001,  1154, 0x36EC000F, 35.93486, 161.196, 87.74934, 0.1606243, 0
 /* @teleloc 0x36EC000F [35.934860 161.196000 87.749340] 0.160624 0.000000 0.000000 -0.987016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736EC001, 0x736EC002, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x736EC001, 0x736EC003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x736EC001, 0x736EC004, '2019-02-10 00:00:00') /* Banderling Explorer */
-     , (0x736EC001, 0x736EC005, '2019-02-10 00:00:00') /* Undead Lieutenant */;
+VALUES (0x736EC001, 0x736EC002, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x736EC001, 0x736EC003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736EC001, 0x736EC004, '2019-02-10 00:00:00') /* Banderling Explorer (29351) */
+     , (0x736EC001, 0x736EC005, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736EC002, 22909, 0x36EC000F, 35.93486, 161.196, 87.74934, 0.1606243, 0, 0, -0.9870156,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */

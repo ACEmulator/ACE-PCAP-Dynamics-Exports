@@ -5,11 +5,11 @@ VALUES (0x77B91001,  1154, 0x7B910001, 19.00616, 11.41736, 113.3286, 0.4093273, 
 /* @teleloc 0x7B910001 [19.006160 11.417360 113.328600] 0.409327 0.000000 0.000000 -0.912388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B91001, 0x77B91002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x77B91001, 0x77B91003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x77B91001, 0x77B91004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77B91001, 0x77B91005, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77B91001, 0x77B91006, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x77B91001, 0x77B91002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x77B91001, 0x77B91003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x77B91001, 0x77B91004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77B91001, 0x77B91005, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77B91001, 0x77B91006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B91002,  7978, 0x7B910001, 19.00616, 11.41736, 113.3286, 0.4093273, 0, 0, -0.9123876,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -36,7 +36,7 @@ VALUES (0x77B91007,  1542, 0x7B910024, 96.5238, 88.29585, 122.7463, 0.9990482, 0
 /* @teleloc 0x7B910024 [96.523800 88.295850 122.746300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B91007, 0x77B91008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x77B91007, 0x77B91008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B91008,  4179, 0x7B910024, 96.5238, 88.29585, 122.7463, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

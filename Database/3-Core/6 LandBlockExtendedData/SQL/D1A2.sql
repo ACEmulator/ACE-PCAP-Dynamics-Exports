@@ -5,23 +5,23 @@ VALUES (0x7D1A2001,  1154, 0xD1A20001, 6.319948, 18.32241, -0.09750003, 0.707106
 /* @teleloc 0xD1A20001 [6.319948 18.322410 -0.097500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A2001, 0x7D1A2002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D1A2001, 0x7D1A2003, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D1A2001, 0x7D1A2004, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7D1A2001, 0x7D1A2005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A2001, 0x7D1A2006, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D1A2001, 0x7D1A2007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D1A2001, 0x7D1A2008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D1A2001, 0x7D1A2009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D1A2001, 0x7D1A200A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D1A2001, 0x7D1A200B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A2001, 0x7D1A200C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A2001, 0x7D1A200D, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D1A2001, 0x7D1A200E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D1A2001, 0x7D1A200F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D1A2001, 0x7D1A2010, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D1A2001, 0x7D1A2011, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D1A2001, 0x7D1A2012, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7D1A2001, 0x7D1A2002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D1A2001, 0x7D1A2003, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D1A2001, 0x7D1A2004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7D1A2001, 0x7D1A2005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A2001, 0x7D1A2006, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D1A2001, 0x7D1A2007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D1A2001, 0x7D1A2008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D1A2001, 0x7D1A2009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D1A2001, 0x7D1A200A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D1A2001, 0x7D1A200B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A2001, 0x7D1A200C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A2001, 0x7D1A200D, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D1A2001, 0x7D1A200E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D1A2001, 0x7D1A200F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D1A2001, 0x7D1A2010, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D1A2001, 0x7D1A2011, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D1A2001, 0x7D1A2012, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A2002,  1762, 0xD1A20001, 6.319948, 18.32241, -0.09750003, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -96,7 +96,7 @@ VALUES (0x7D1A2013,  1542, 0xD1A2001C, 78.8143, 85.50236, -0.9, 0.9990482, 0, 0,
 /* @teleloc 0xD1A2001C [78.814300 85.502360 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A2013, 0x7D1A2014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D1A2013, 0x7D1A2014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A2014,  4179, 0xD1A2001C, 78.8143, 85.50236, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

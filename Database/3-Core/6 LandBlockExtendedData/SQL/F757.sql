@@ -17,19 +17,19 @@ VALUES (0x7F75700B,  1154, 0xF757003C, 183.0114, 74.93239, 0.004599988, 0.904409
 /* @teleloc 0xF757003C [183.011400 74.932390 0.004600] 0.904409 0.000000 0.000000 -0.426667 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75700B, 0x7F75700C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7F75700B, 0x7F75700D, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7F75700B, 0x7F75700E, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x7F75700B, 0x7F75700F, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7F75700B, 0x7F757010, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F75700B, 0x7F757011, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7F75700B, 0x7F757012, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F75700B, 0x7F757013, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7F75700B, 0x7F757014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7F75700B, 0x7F757015, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F75700B, 0x7F757016, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7F75700B, 0x7F757017, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7F75700B, 0x7F757018, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7F75700B, 0x7F75700C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7F75700B, 0x7F75700D, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7F75700B, 0x7F75700E, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x7F75700B, 0x7F75700F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7F75700B, 0x7F757010, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F75700B, 0x7F757011, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F75700B, 0x7F757012, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F75700B, 0x7F757013, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7F75700B, 0x7F757014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7F75700B, 0x7F757015, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F75700B, 0x7F757016, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7F75700B, 0x7F757017, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7F75700B, 0x7F757018, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75700C,  4246, 0xF757003C, 183.0114, 74.93239, 0.004599988, 0.904409, 0, 0, -0.4266666,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */

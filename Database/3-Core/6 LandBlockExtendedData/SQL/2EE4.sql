@@ -5,12 +5,12 @@ VALUES (0x72EE4001,  1154, 0x2EE4000C, 42.47619, 87.66115, 6.390028, 0.873852, 0
 /* @teleloc 0x2EE4000C [42.476190 87.661150 6.390028] 0.873852 0.000000 0.000000 -0.486192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EE4001, 0x72EE4002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72EE4001, 0x72EE4003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x72EE4001, 0x72EE4004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x72EE4001, 0x72EE4005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x72EE4001, 0x72EE4006, '2019-02-10 00:00:00') /* Porcini Thrungus */
-     , (0x72EE4001, 0x72EE4007, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x72EE4001, 0x72EE4002, '2019-02-10 00:00:00') /* Skeleton Captain (7821) */
+     , (0x72EE4001, 0x72EE4003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x72EE4001, 0x72EE4004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x72EE4001, 0x72EE4005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x72EE4001, 0x72EE4006, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
+     , (0x72EE4001, 0x72EE4007, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EE4002,  7821, 0x2EE4000C, 42.47619, 87.66115, 6.390028, 0.873852, 0, 0, -0.486192,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

@@ -9,18 +9,18 @@ VALUES (0x7519D002,  1154, 0x519D0100, 147.498, 13.72156, 22.80715, -0.1836659, 
 /* @teleloc 0x519D0100 [147.498000 13.721560 22.807150] -0.183666 0.000000 0.000000 -0.982989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7519D002, 0x7519D003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7519D002, 0x7519D004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7519D002, 0x7519D005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7519D002, 0x7519D006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7519D002, 0x7519D007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7519D002, 0x7519D008, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7519D002, 0x7519D009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7519D002, 0x7519D00A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7519D002, 0x7519D00B, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x7519D002, 0x7519D00C, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7519D002, 0x7519D00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7519D002, 0x7519D00E, '2019-02-10 00:00:00') /* Ashen Bones */;
+VALUES (0x7519D002, 0x7519D003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7519D002, 0x7519D004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7519D002, 0x7519D005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7519D002, 0x7519D006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7519D002, 0x7519D007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7519D002, 0x7519D008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7519D002, 0x7519D009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7519D002, 0x7519D00A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7519D002, 0x7519D00B, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x7519D002, 0x7519D00C, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7519D002, 0x7519D00D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7519D002, 0x7519D00E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7519D003,   937, 0x519D0100, 147.498, 13.72156, 22.80715, -0.1836659, 0, 0, -0.9829887,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -75,7 +75,7 @@ VALUES (0x7519D00F,  1542, 0x519D0039, 168.8231, 13.00629, 28.0057, 0.6161196, 0
 /* @teleloc 0x519D0039 [168.823100 13.006290 28.005700] 0.616120 0.000000 0.000000 0.787653 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7519D00F, 0x7519D010, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x7519D00F, 0x7519D010, '2019-02-10 00:00:00') /* Cow (14) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7519D010,    14, 0x519D0039, 168.8231, 13.00629, 28.0057, 0.6161196, 0, 0, 0.7876526,  True, '2019-02-10 00:00:00'); /* Cow */

@@ -5,20 +5,20 @@ VALUES (0x7D5A7001,  1154, 0xD5A70014, 62.73287, 88.74093, 0.001199961, 0.953716
 /* @teleloc 0xD5A70014 [62.732870 88.740930 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5A7001, 0x7D5A7002, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D5A7001, 0x7D5A7003, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D5A7001, 0x7D5A7004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D5A7001, 0x7D5A7005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D5A7001, 0x7D5A7006, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D5A7001, 0x7D5A7007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D5A7001, 0x7D5A7008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D5A7001, 0x7D5A7009, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D5A7001, 0x7D5A700A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D5A7001, 0x7D5A700B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D5A7001, 0x7D5A700C, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D5A7001, 0x7D5A700D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D5A7001, 0x7D5A700E, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D5A7001, 0x7D5A700F, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7D5A7001, 0x7D5A7002, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D5A7001, 0x7D5A7003, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D5A7001, 0x7D5A7004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D5A7001, 0x7D5A7005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D5A7001, 0x7D5A7006, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D5A7001, 0x7D5A7007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D5A7001, 0x7D5A7008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D5A7001, 0x7D5A7009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D5A7001, 0x7D5A700A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D5A7001, 0x7D5A700B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D5A7001, 0x7D5A700C, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D5A7001, 0x7D5A700D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D5A7001, 0x7D5A700E, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D5A7001, 0x7D5A700F, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5A7002,  7108, 0xD5A70014, 62.73287, 88.74093, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -81,7 +81,7 @@ VALUES (0x7D5A7010,  1542, 0xD5A70014, 53.53386, 77.76724, 0, 0.9990482, 0, 0, -
 /* @teleloc 0xD5A70014 [53.533860 77.767240 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5A7010, 0x7D5A7011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D5A7010, 0x7D5A7011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5A7011,  4179, 0xD5A70014, 53.53386, 77.76724, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

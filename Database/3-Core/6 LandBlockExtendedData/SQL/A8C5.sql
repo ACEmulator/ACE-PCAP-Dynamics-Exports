@@ -5,9 +5,9 @@ VALUES (0x7A8C5001,  1154, 0xA8C50023, 115.136, 57.91711, 191.1393, 0.9544916, 0
 /* @teleloc 0xA8C50023 [115.136000 57.917110 191.139300] 0.954492 0.000000 0.000000 -0.298238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8C5001, 0x7A8C5002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A8C5001, 0x7A8C5003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A8C5001, 0x7A8C5004, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x7A8C5001, 0x7A8C5002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A8C5001, 0x7A8C5003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A8C5001, 0x7A8C5004, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8C5002,   217, 0xA8C50023, 115.136, 57.91711, 191.1393, 0.9544916, 0, 0, -0.2982378,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */

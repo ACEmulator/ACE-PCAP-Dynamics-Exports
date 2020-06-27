@@ -5,14 +5,14 @@ VALUES (0x71188001,  1154, 0x11880031, 161.3683, 8.789119, 90.00715, -0.9643573,
 /* @teleloc 0x11880031 [161.368300 8.789119 90.007150] -0.964357 0.000000 0.000000 -0.264604 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71188001, 0x71188002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x71188001, 0x71188003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71188001, 0x71188004, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x71188001, 0x71188005, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71188001, 0x71188006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71188001, 0x71188007, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x71188001, 0x71188008, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71188001, 0x71188009, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x71188001, 0x71188002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71188001, 0x71188003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71188001, 0x71188004, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x71188001, 0x71188005, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71188001, 0x71188006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x71188001, 0x71188007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x71188001, 0x71188008, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71188001, 0x71188009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71188002, 36819, 0x11880031, 161.3683, 8.789119, 90.00715, -0.9643573, 0, 0, -0.2646036,  True, '2019-02-10 00:00:00'); /* Banderling Savage */

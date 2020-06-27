@@ -5,10 +5,10 @@ VALUES (0x7BAF2001,  1154, 0xBAF2003F, 169.4965, 144.851, 93.84929, 1, 0, 0, 0, 
 /* @teleloc 0xBAF2003F [169.496500 144.851000 93.849290] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAF2001, 0x7BAF2002, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7BAF2001, 0x7BAF2003, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BAF2001, 0x7BAF2004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BAF2001, 0x7BAF2005, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x7BAF2001, 0x7BAF2002, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7BAF2001, 0x7BAF2003, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BAF2001, 0x7BAF2004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BAF2001, 0x7BAF2005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF2002, 28245, 0xBAF2003F, 169.4965, 144.851, 93.84929, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Poltergeist */

@@ -5,9 +5,9 @@ VALUES (0x73F6D001,  1154, 0x3F6D0025, 99.7172, 96.43881, 13.3539, 0.0788408, 0,
 /* @teleloc 0x3F6D0025 [99.717200 96.438810 13.353900] 0.078841 0.000000 0.000000 -0.996887 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F6D001, 0x73F6D002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73F6D001, 0x73F6D003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73F6D001, 0x73F6D004, '2019-02-10 00:00:00') /* Great Revenant */;
+VALUES (0x73F6D001, 0x73F6D002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x73F6D001, 0x73F6D003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73F6D001, 0x73F6D004, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F6D002, 36827, 0x3F6D0025, 99.7172, 96.43881, 13.3539, 0.0788408, 0, 0, -0.9968872,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
@@ -26,7 +26,7 @@ VALUES (0x73F6D005,  1542, 0x3F6D0008, 4.581933, 190.7323, 21.34199, -0.06251766
 /* @teleloc 0x3F6D0008 [4.581933 190.732300 21.341990] -0.062518 0.000000 0.000000 -0.998044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F6D005, 0x73F6D006, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x73F6D005, 0x73F6D006, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F6D006,  8644, 0x3F6D0008, 4.581933, 190.7323, 21.34199, -0.06251766, 0, 0, -0.9980438,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

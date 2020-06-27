@@ -5,8 +5,8 @@ VALUES (0x7183A001,  1154, 0x183A000A, 42.85775, 30.90001, -0.002250075, 0.40253
 /* @teleloc 0x183A000A [42.857750 30.900010 -0.002250] 0.402535 0.000000 0.000000 -0.915405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183A001, 0x7183A002, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7183A001, 0x7183A003, '2019-02-10 00:00:00') /* Virindi Consul */;
+VALUES (0x7183A001, 0x7183A002, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7183A001, 0x7183A003, '2019-02-10 00:00:00') /* Virindi Consul (23489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183A002,  7983, 0x183A000A, 42.85775, 30.90001, -0.002250075, 0.4025345, 0, 0, -0.9154049,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
@@ -21,7 +21,7 @@ VALUES (0x7183A004,  1542, 0x183A0035, 165.7507, 99.62171, 36, 1, 0, 0, 0, False
 /* @teleloc 0x183A0035 [165.750700 99.621710 36.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7183A004, 0x7183A005, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7183A004, 0x7183A005, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7183A005,  4380, 0x183A0035, 165.7507, 99.62171, 36, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

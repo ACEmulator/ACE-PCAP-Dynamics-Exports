@@ -5,10 +5,10 @@ VALUES (0x73352001,  1154, 0x33520035, 156.1982, 100.3362, 64.63214, 0.8518039, 
 /* @teleloc 0x33520035 [156.198200 100.336200 64.632140] 0.851804 0.000000 0.000000 -0.523861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73352001, 0x73352002, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73352001, 0x73352003, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x73352001, 0x73352004, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x73352001, 0x73352005, '2019-02-10 00:00:00') /* Raider Prefect */;
+VALUES (0x73352001, 0x73352002, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73352001, 0x73352003, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x73352001, 0x73352004, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x73352001, 0x73352005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73352002, 23087, 0x33520035, 156.1982, 100.3362, 64.63214, 0.8518039, 0, 0, -0.5238608,  True, '2019-02-10 00:00:00'); /* Raider Justicar */

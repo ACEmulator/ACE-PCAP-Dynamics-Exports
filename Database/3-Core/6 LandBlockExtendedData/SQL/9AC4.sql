@@ -5,26 +5,26 @@ VALUES (0x79AC4001,  1154, 0x9AC40031, 149.1992, 13.93458, 38.32243, 0.1496448, 
 /* @teleloc 0x9AC40031 [149.199200 13.934580 38.322430] 0.149645 0.000000 0.000000 -0.988740 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AC4001, 0x79AC4002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79AC4001, 0x79AC4003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79AC4001, 0x79AC4004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79AC4001, 0x79AC4005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79AC4001, 0x79AC4006, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AC4001, 0x79AC4007, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x79AC4001, 0x79AC4008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79AC4001, 0x79AC4009, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x79AC4001, 0x79AC400A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x79AC4001, 0x79AC400B, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x79AC4001, 0x79AC400C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x79AC4001, 0x79AC400D, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79AC4001, 0x79AC400E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79AC4001, 0x79AC400F, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x79AC4001, 0x79AC4010, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79AC4001, 0x79AC4011, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79AC4001, 0x79AC4012, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79AC4001, 0x79AC4013, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79AC4001, 0x79AC4014, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79AC4001, 0x79AC4015, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x79AC4001, 0x79AC4002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79AC4001, 0x79AC4003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79AC4001, 0x79AC4004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79AC4001, 0x79AC4005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79AC4001, 0x79AC4006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AC4001, 0x79AC4007, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x79AC4001, 0x79AC4008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79AC4001, 0x79AC4009, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x79AC4001, 0x79AC400A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x79AC4001, 0x79AC400B, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x79AC4001, 0x79AC400C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x79AC4001, 0x79AC400D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79AC4001, 0x79AC400E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79AC4001, 0x79AC400F, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x79AC4001, 0x79AC4010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79AC4001, 0x79AC4011, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79AC4001, 0x79AC4012, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79AC4001, 0x79AC4013, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79AC4001, 0x79AC4014, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79AC4001, 0x79AC4015, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AC4002,  1989, 0x9AC40031, 149.1992, 13.93458, 38.32243, 0.1496448, 0, 0, -0.9887398,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -111,9 +111,9 @@ VALUES (0x79AC4016,  1542, 0x9AC40036, 165.5103, 128.7086, 54.17714, 1, 0, 0, 0,
 /* @teleloc 0x9AC40036 [165.510300 128.708600 54.177140] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AC4016, 0x79AC4017, '2019-02-10 00:00:00') /* Bones */
-     , (0x79AC4016, 0x79AC4018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x79AC4016, 0x79AC4019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79AC4016, 0x79AC4017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79AC4016, 0x79AC4018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79AC4016, 0x79AC4019, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AC4017,  4380, 0x9AC40036, 165.5103, 128.7086, 54.17714, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

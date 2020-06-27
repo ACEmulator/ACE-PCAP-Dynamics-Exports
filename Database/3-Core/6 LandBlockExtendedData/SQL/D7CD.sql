@@ -5,11 +5,11 @@ VALUES (0x7D7CD001,  1154, 0xD7CD0006, 5.8436, 128.2166, 77.9824, -0.8298489, 0,
 /* @teleloc 0xD7CD0006 [5.843600 128.216600 77.982400] -0.829849 0.000000 0.000000 -0.557988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7CD001, 0x7D7CD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7D7CD001, 0x7D7CD003, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7D7CD001, 0x7D7CD004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D7CD001, 0x7D7CD005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D7CD001, 0x7D7CD006, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x7D7CD001, 0x7D7CD002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7D7CD001, 0x7D7CD003, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7D7CD001, 0x7D7CD004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D7CD001, 0x7D7CD005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D7CD001, 0x7D7CD006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7CD002, 11478, 0xD7CD0006, 5.8436, 128.2166, 77.9824, -0.8298489, 0, 0, -0.5579881,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
@@ -36,7 +36,7 @@ VALUES (0x7D7CD007,  1542, 0xD7CD003D, 168.0437, 102.0476, 140.9702, 0.9990482, 
 /* @teleloc 0xD7CD003D [168.043700 102.047600 140.970200] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D7CD007, 0x7D7CD008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D7CD007, 0x7D7CD008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7CD008,  4179, 0xD7CD003D, 168.0437, 102.0476, 140.9702, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

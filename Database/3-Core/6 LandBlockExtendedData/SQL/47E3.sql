@@ -5,11 +5,11 @@ VALUES (0x747E3001,  1154, 0x47E30019, 95.67698, 0.5650304, 8.041168, 0.7071068,
 /* @teleloc 0x47E30019 [95.676980 0.565030 8.041168] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747E3001, 0x747E3002, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x747E3001, 0x747E3003, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x747E3001, 0x747E3004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x747E3001, 0x747E3005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x747E3001, 0x747E3006, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x747E3001, 0x747E3002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x747E3001, 0x747E3003, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x747E3001, 0x747E3004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x747E3001, 0x747E3005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x747E3001, 0x747E3006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747E3002, 24326, 0x47E30019, 95.67698, 0.5650304, 8.041168, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -36,7 +36,7 @@ VALUES (0x747E3007,  1542, 0x47E30019, 94.21905, 4.439876, 8.075248, -4.371139E-
 /* @teleloc 0x47E30019 [94.219050 4.439876 8.075248] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747E3007, 0x747E3008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x747E3007, 0x747E3008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747E3008,  4380, 0x47E30019, 94.21905, 4.439876, 8.075248, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

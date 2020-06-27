@@ -5,26 +5,26 @@ VALUES (0x7FA2F001,  1154, 0xFA2F001B, 88.35331, 64.65182, 0.004999995, 0.238918
 /* @teleloc 0xFA2F001B [88.353310 64.651820 0.005000] 0.238919 0.000000 0.000000 -0.971040 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FA2F001, 0x7FA2F002, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2F001, 0x7FA2F003, '2019-02-10 00:00:00') /* Ardent Moarsman */
-     , (0x7FA2F001, 0x7FA2F004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA2F001, 0x7FA2F005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F009, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F00A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F00B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp */
-     , (0x7FA2F001, 0x7FA2F00C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x7FA2F001, 0x7FA2F00D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA2F001, 0x7FA2F00E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x7FA2F001, 0x7FA2F00F, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2F001, 0x7FA2F010, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2F001, 0x7FA2F011, '2019-02-10 00:00:00') /* Bandit Mana Hunter */
-     , (0x7FA2F001, 0x7FA2F012, '2019-02-10 00:00:00') /* Ardent Moar */
-     , (0x7FA2F001, 0x7FA2F013, '2019-02-10 00:00:00') /* Verdant Moar */
-     , (0x7FA2F001, 0x7FA2F014, '2019-02-10 00:00:00') /* Blessed Moar */
-     , (0x7FA2F001, 0x7FA2F015, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7FA2F001, 0x7FA2F002, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2F001, 0x7FA2F003, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7FA2F001, 0x7FA2F004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA2F001, 0x7FA2F005, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F006, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F007, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F008, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F009, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F00A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F00B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7FA2F001, 0x7FA2F00C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA2F001, 0x7FA2F00D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA2F001, 0x7FA2F00E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA2F001, 0x7FA2F00F, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2F001, 0x7FA2F010, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2F001, 0x7FA2F011, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA2F001, 0x7FA2F012, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA2F001, 0x7FA2F013, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA2F001, 0x7FA2F014, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA2F001, 0x7FA2F015, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA2F002, 40297, 0xFA2F001B, 88.35331, 64.65182, 0.004999995, 0.2389187, 0, 0, -0.9710396,  True, '2019-02-10 00:00:00'); /* Bandit Mana Hunter */

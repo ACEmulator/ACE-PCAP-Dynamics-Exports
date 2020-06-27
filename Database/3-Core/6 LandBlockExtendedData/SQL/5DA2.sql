@@ -5,27 +5,27 @@ VALUES (0x75DA2001,  1154, 0x5DA2000C, 44.09957, 93.90381, 95.18275, -0.2951677,
 /* @teleloc 0x5DA2000C [44.099570 93.903810 95.182750] -0.295168 0.000000 0.000000 -0.955446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA2001, 0x75DA2002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75DA2001, 0x75DA2003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75DA2001, 0x75DA2004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75DA2001, 0x75DA2005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75DA2001, 0x75DA2006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75DA2001, 0x75DA2007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x75DA2001, 0x75DA2008, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75DA2001, 0x75DA2009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75DA2001, 0x75DA200A, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x75DA2001, 0x75DA200B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75DA2001, 0x75DA200C, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75DA2001, 0x75DA200D, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75DA2001, 0x75DA200E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75DA2001, 0x75DA200F, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75DA2001, 0x75DA2010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x75DA2001, 0x75DA2011, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x75DA2001, 0x75DA2012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x75DA2001, 0x75DA2013, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75DA2001, 0x75DA2014, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x75DA2001, 0x75DA2015, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75DA2001, 0x75DA2016, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x75DA2001, 0x75DA2002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75DA2001, 0x75DA2003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75DA2001, 0x75DA2004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75DA2001, 0x75DA2005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75DA2001, 0x75DA2006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75DA2001, 0x75DA2007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x75DA2001, 0x75DA2008, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75DA2001, 0x75DA2009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75DA2001, 0x75DA200A, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x75DA2001, 0x75DA200B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75DA2001, 0x75DA200C, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75DA2001, 0x75DA200D, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75DA2001, 0x75DA200E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75DA2001, 0x75DA200F, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75DA2001, 0x75DA2010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x75DA2001, 0x75DA2011, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x75DA2001, 0x75DA2012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x75DA2001, 0x75DA2013, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75DA2001, 0x75DA2014, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x75DA2001, 0x75DA2015, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75DA2001, 0x75DA2016, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA2002,  7124, 0x5DA2000C, 44.09957, 93.90381, 95.18275, -0.2951677, 0, 0, -0.9554455,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -116,9 +116,9 @@ VALUES (0x75DA2017,  1542, 0x5DA2001A, 92.70938, 24.44562, 78.93406, 0.9990482, 
 /* @teleloc 0x5DA2001A [92.709380 24.445620 78.934060] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75DA2017, 0x75DA2018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75DA2017, 0x75DA2019, '2019-02-10 00:00:00') /* Bones */
-     , (0x75DA2017, 0x75DA201A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x75DA2017, 0x75DA2018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75DA2017, 0x75DA2019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75DA2017, 0x75DA201A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75DA2018,  4179, 0x5DA2001A, 92.70938, 24.44562, 78.93406, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,33 +5,33 @@ VALUES (0x7C5B5001,  1154, 0xC5B50018, 61.83875, 191.5459, 222.1164, 0.1076186, 
 /* @teleloc 0xC5B50018 [61.838750 191.545900 222.116400] 0.107619 0.000000 0.000000 -0.994192 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5B5001, 0x7C5B5002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B5003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator */
-     , (0x7C5B5001, 0x7C5B5004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B5005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior */
-     , (0x7C5B5001, 0x7C5B5006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B5007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C5B5001, 0x7C5B5008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C5B5001, 0x7C5B5009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C5B5001, 0x7C5B500A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B500B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B500C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B500D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B500E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B500F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator */
-     , (0x7C5B5001, 0x7C5B5010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble */
-     , (0x7C5B5001, 0x7C5B5011, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B5012, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph */
-     , (0x7C5B5001, 0x7C5B5013, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B5014, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B5015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B5016, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B5017, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B5018, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B5019, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7C5B5001, 0x7C5B501A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub */
-     , (0x7C5B5001, 0x7C5B501B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub */
-     , (0x7C5B5001, 0x7C5B501C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior */;
+VALUES (0x7C5B5001, 0x7C5B5002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B5003, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C5B5001, 0x7C5B5004, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B5005, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C5B5001, 0x7C5B5006, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B5007, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C5B5001, 0x7C5B5008, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C5B5001, 0x7C5B5009, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C5B5001, 0x7C5B500A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B500B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B500C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B500D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B500E, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B500F, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */
+     , (0x7C5B5001, 0x7C5B5010, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble (35884) */
+     , (0x7C5B5001, 0x7C5B5011, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B5012, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior Nymph (35735) */
+     , (0x7C5B5001, 0x7C5B5013, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B5014, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B5015, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B5016, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B5017, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B5018, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B5019, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C5B5001, 0x7C5B501A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
+     , (0x7C5B5001, 0x7C5B501B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
+     , (0x7C5B5001, 0x7C5B501C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5B5002, 35732, 0xC5B50018, 61.83875, 191.5459, 222.1164, 0.1076186, 0, 0, -0.9941922,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Noble Grub */

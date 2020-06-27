@@ -5,12 +5,12 @@ VALUES (0x71D7D001,  1154, 0x1D7D002C, 141.8938, 83.34283, 320.0075, 0.1386378, 
 /* @teleloc 0x1D7D002C [141.893800 83.342830 320.007500] 0.138638 0.000000 0.000000 -0.990343 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D7D001, 0x71D7D002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71D7D001, 0x71D7D003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71D7D001, 0x71D7D004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x71D7D001, 0x71D7D005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71D7D001, 0x71D7D006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D7D001, 0x71D7D007, '2019-02-10 00:00:00') /* Stasis Wisp */;
+VALUES (0x71D7D001, 0x71D7D002, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71D7D001, 0x71D7D003, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71D7D001, 0x71D7D004, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x71D7D001, 0x71D7D005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71D7D001, 0x71D7D006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D7D001, 0x71D7D007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D7D002, 41534, 0x1D7D002C, 141.8938, 83.34283, 320.0075, 0.1386378, 0, 0, -0.9903432,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */

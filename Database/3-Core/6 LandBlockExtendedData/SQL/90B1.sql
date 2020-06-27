@@ -5,13 +5,13 @@ VALUES (0x790B1001,  1154, 0x90B10034, 149.3232, 93.35022, 40.45938, -0.853659, 
 /* @teleloc 0x90B10034 [149.323200 93.350220 40.459380] -0.853659 0.000000 0.000000 -0.520832 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790B1001, 0x790B1002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x790B1001, 0x790B1003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x790B1001, 0x790B1004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x790B1001, 0x790B1005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x790B1001, 0x790B1006, '2019-02-10 00:00:00') /* Banished Shadow */
-     , (0x790B1001, 0x790B1007, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x790B1001, 0x790B1008, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x790B1001, 0x790B1002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x790B1001, 0x790B1003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x790B1001, 0x790B1004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x790B1001, 0x790B1005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x790B1001, 0x790B1006, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x790B1001, 0x790B1007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x790B1001, 0x790B1008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790B1002,  1628, 0x90B10034, 149.3232, 93.35022, 40.45938, -0.853659, 0, 0, -0.5208324,  True, '2019-02-10 00:00:00'); /* Tusker Slave */

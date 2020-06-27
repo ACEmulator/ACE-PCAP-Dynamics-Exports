@@ -9,9 +9,9 @@ VALUES (0x7856C001,  1154, 0x856C000F, 41.18945, 166.559, 16.86991, 0.9108679, 0
 /* @teleloc 0x856C000F [41.189450 166.559000 16.869910] 0.910868 0.000000 0.000000 -0.412698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7856C001, 0x7856C002, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7856C001, 0x7856C003, '2019-02-10 00:00:00') /* Town Crier */
-     , (0x7856C001, 0x7856C004, '2019-02-10 00:00:00') /* Town Crier */;
+VALUES (0x7856C001, 0x7856C002, '2019-02-10 00:00:00') /* Town Crier (5774) */
+     , (0x7856C001, 0x7856C003, '2019-02-10 00:00:00') /* Town Crier (5774) */
+     , (0x7856C001, 0x7856C004, '2019-02-10 00:00:00') /* Town Crier (5774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7856C002,  5774, 0x856C000F, 41.18945, 166.559, 16.86991, 0.9108679, 0, 0, -0.412698,  True, '2019-02-10 00:00:00'); /* Town Crier */

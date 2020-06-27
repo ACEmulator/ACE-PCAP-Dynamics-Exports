@@ -5,21 +5,21 @@ VALUES (0x774BC001,  1154, 0x74BC0029, 132.6746, 16.39042, 114.16, 0.9290586, 0,
 /* @teleloc 0x74BC0029 [132.674600 16.390420 114.160000] 0.929059 0.000000 0.000000 -0.369933 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774BC001, 0x774BC002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x774BC001, 0x774BC003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x774BC001, 0x774BC004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BC001, 0x774BC005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BC001, 0x774BC006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x774BC001, 0x774BC007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x774BC001, 0x774BC008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BC001, 0x774BC009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BC001, 0x774BC00A, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x774BC001, 0x774BC00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774BC001, 0x774BC00C, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x774BC001, 0x774BC00D, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x774BC001, 0x774BC00E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x774BC001, 0x774BC00F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x774BC001, 0x774BC010, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x774BC001, 0x774BC002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x774BC001, 0x774BC003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x774BC001, 0x774BC004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BC001, 0x774BC005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BC001, 0x774BC006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x774BC001, 0x774BC007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x774BC001, 0x774BC008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BC001, 0x774BC009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BC001, 0x774BC00A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x774BC001, 0x774BC00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774BC001, 0x774BC00C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x774BC001, 0x774BC00D, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x774BC001, 0x774BC00E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x774BC001, 0x774BC00F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x774BC001, 0x774BC010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774BC002,  4217, 0x74BC0029, 132.6746, 16.39042, 114.16, 0.9290586, 0, 0, -0.3699326,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -86,14 +86,14 @@ VALUES (0x774BC011,  1542, 0x74BC0005, 10.02374, 114.187, 91.31973, 1, 0, 0, 0, 
 /* @teleloc 0x74BC0005 [10.023740 114.187000 91.319730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774BC011, 0x774BC012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x774BC011, 0x774BC013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x774BC011, 0x774BC014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x774BC011, 0x774BC015, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x774BC011, 0x774BC016, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x774BC011, 0x774BC017, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x774BC011, 0x774BC018, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x774BC011, 0x774BC019, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x774BC011, 0x774BC012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x774BC011, 0x774BC013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x774BC011, 0x774BC014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x774BC011, 0x774BC015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x774BC011, 0x774BC016, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x774BC011, 0x774BC017, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x774BC011, 0x774BC018, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x774BC011, 0x774BC019, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774BC012,  4179, 0x74BC0005, 10.02374, 114.187, 91.31973, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

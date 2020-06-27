@@ -5,18 +5,18 @@ VALUES (0x7940E001,  1154, 0x940E0002, 18.00751, 24.49892, -0.8993001, -0.952411
 /* @teleloc 0x940E0002 [18.007510 24.498920 -0.899300] -0.952411 0.000000 0.000000 -0.304817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7940E001, 0x7940E002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7940E001, 0x7940E003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7940E001, 0x7940E004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7940E001, 0x7940E005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7940E001, 0x7940E006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7940E001, 0x7940E007, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7940E001, 0x7940E008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7940E001, 0x7940E009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7940E001, 0x7940E00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7940E001, 0x7940E00B, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7940E001, 0x7940E00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7940E001, 0x7940E00D, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x7940E001, 0x7940E002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7940E001, 0x7940E003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7940E001, 0x7940E004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7940E001, 0x7940E005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7940E001, 0x7940E006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7940E001, 0x7940E007, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7940E001, 0x7940E008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7940E001, 0x7940E009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7940E001, 0x7940E00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7940E001, 0x7940E00B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7940E001, 0x7940E00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7940E001, 0x7940E00D, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7940E002,  7988, 0x940E0002, 18.00751, 24.49892, -0.8993001, -0.9524111, 0, 0, -0.3048167,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

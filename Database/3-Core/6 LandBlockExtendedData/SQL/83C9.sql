@@ -5,15 +5,15 @@ VALUES (0x783C9001,  1154, 0x83C90021, 114.1001, 12.70637, 50.97013, 0.6427876, 
 /* @teleloc 0x83C90021 [114.100100 12.706370 50.970130] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C9001, 0x783C9002, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x783C9001, 0x783C9003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x783C9001, 0x783C9004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x783C9001, 0x783C9005, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x783C9001, 0x783C9006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x783C9001, 0x783C9007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x783C9001, 0x783C9008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x783C9001, 0x783C9009, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x783C9001, 0x783C900A, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x783C9001, 0x783C9002, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x783C9001, 0x783C9003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x783C9001, 0x783C9004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x783C9001, 0x783C9005, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x783C9001, 0x783C9006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x783C9001, 0x783C9007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x783C9001, 0x783C9008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x783C9001, 0x783C9009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x783C9001, 0x783C900A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C9002,   238, 0x83C90021, 114.1001, 12.70637, 50.97013, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Virindi Puppet */
@@ -56,12 +56,12 @@ VALUES (0x783C900B,  1542, 0x83C90039, 184.9335, 23.63037, 54.71928, 1, 0, 0, 0,
 /* @teleloc 0x83C90039 [184.933500 23.630370 54.719280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783C900B, 0x783C900C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x783C900B, 0x783C900D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x783C900B, 0x783C900E, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x783C900B, 0x783C900F, '2019-02-10 00:00:00') /* Ursuin Head */
-     , (0x783C900B, 0x783C9010, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow */
-     , (0x783C900B, 0x783C9011, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter */;
+VALUES (0x783C900B, 0x783C900C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x783C900B, 0x783C900D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x783C900B, 0x783C900E, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x783C900B, 0x783C900F, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x783C900B, 0x783C9010, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x783C900B, 0x783C9011, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783C900C,  9024, 0x83C90039, 184.9335, 23.63037, 54.71928, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

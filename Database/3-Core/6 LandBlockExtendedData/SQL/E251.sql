@@ -5,10 +5,10 @@ VALUES (0x7E251001,  1154, 0xE251003B, 168.393, 48.60821, 9.996, 0.6114081, 0, 0
 /* @teleloc 0xE251003B [168.393000 48.608210 9.996000] 0.611408 0.000000 0.000000 -0.791315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E251001, 0x7E251002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7E251001, 0x7E251003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7E251001, 0x7E251004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E251001, 0x7E251005, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7E251001, 0x7E251002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7E251001, 0x7E251003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E251001, 0x7E251004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E251001, 0x7E251005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E251002,  4109, 0xE251003B, 168.393, 48.60821, 9.996, 0.6114081, 0, 0, -0.7913154,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

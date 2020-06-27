@@ -5,8 +5,8 @@ VALUES (0x79B35001,  1154, 0x9B35000F, 36.51981, 144.2005, 75.12846, -0.6896254,
 /* @teleloc 0x9B35000F [36.519810 144.200500 75.128460] -0.689625 0.000000 0.000000 -0.724166 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B35001, 0x79B35002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79B35001, 0x79B35003, '2019-02-10 00:00:00') /* Sufut Zefir */;
+VALUES (0x79B35001, 0x79B35002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79B35001, 0x79B35003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B35002,  7978, 0x9B35000F, 36.51981, 144.2005, 75.12846, -0.6896254, 0, 0, -0.7241662,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

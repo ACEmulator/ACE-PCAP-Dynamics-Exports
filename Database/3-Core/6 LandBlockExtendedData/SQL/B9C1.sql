@@ -5,17 +5,17 @@ VALUES (0x7B9C1001,  1154, 0xB9C1000D, 36.81976, 104.8741, 227.2979, 0.9238795, 
 /* @teleloc 0xB9C1000D [36.819760 104.874100 227.297900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9C1001, 0x7B9C1002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9C1001, 0x7B9C1003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B9C1001, 0x7B9C1004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B9C1001, 0x7B9C1005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B9C1001, 0x7B9C1006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7B9C1001, 0x7B9C1007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B9C1001, 0x7B9C1008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B9C1001, 0x7B9C1009, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7B9C1001, 0x7B9C100A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B9C1001, 0x7B9C100B, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B9C1001, 0x7B9C100C, '2019-02-10 00:00:00') /* Wily Monouga */;
+VALUES (0x7B9C1001, 0x7B9C1002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9C1001, 0x7B9C1003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B9C1001, 0x7B9C1004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B9C1001, 0x7B9C1005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B9C1001, 0x7B9C1006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7B9C1001, 0x7B9C1007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B9C1001, 0x7B9C1008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B9C1001, 0x7B9C1009, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B9C1001, 0x7B9C100A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B9C1001, 0x7B9C100B, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B9C1001, 0x7B9C100C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9C1002,   195, 0xB9C1000D, 36.81976, 104.8741, 227.2979, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */

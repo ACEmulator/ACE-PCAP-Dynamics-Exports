@@ -5,11 +5,11 @@ VALUES (0x76CE5001,  1154, 0x6CE50039, 189.4569, 11.50682, 193.247, -4.371139E-0
 /* @teleloc 0x6CE50039 [189.456900 11.506820 193.247000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76CE5001, 0x76CE5002, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x76CE5001, 0x76CE5003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x76CE5001, 0x76CE5004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76CE5001, 0x76CE5005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x76CE5001, 0x76CE5006, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x76CE5001, 0x76CE5002, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x76CE5001, 0x76CE5003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x76CE5001, 0x76CE5004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76CE5001, 0x76CE5005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x76CE5001, 0x76CE5006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76CE5002, 36843, 0x6CE50039, 189.4569, 11.50682, 193.247, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */

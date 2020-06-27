@@ -5,14 +5,14 @@ VALUES (0x75420001,  1154, 0x5420000A, 26.85984, 27.90055, 116.321, 0.2588191, 0
 /* @teleloc 0x5420000A [26.859840 27.900550 116.321000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75420001, 0x75420002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75420001, 0x75420003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x75420001, 0x75420004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75420001, 0x75420005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x75420001, 0x75420006, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x75420001, 0x75420007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x75420001, 0x75420008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x75420001, 0x75420009, '2019-02-10 00:00:00') /* Firestorm */;
+VALUES (0x75420001, 0x75420002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75420001, 0x75420003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x75420001, 0x75420004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75420001, 0x75420005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x75420001, 0x75420006, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x75420001, 0x75420007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x75420001, 0x75420008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x75420001, 0x75420009, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75420002,  7088, 0x5420000A, 26.85984, 27.90055, 116.321, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -51,8 +51,8 @@ VALUES (0x7542000A,  1542, 0x5420000A, 34.02497, 29.19953, 96.0481, 1, 0, 0, 0, 
 /* @teleloc 0x5420000A [34.024970 29.199530 96.048100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7542000A, 0x7542000B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7542000A, 0x7542000C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7542000A, 0x7542000B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7542000A, 0x7542000C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7542000B, 22566, 0x5420000A, 34.02497, 29.19953, 96.0481, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

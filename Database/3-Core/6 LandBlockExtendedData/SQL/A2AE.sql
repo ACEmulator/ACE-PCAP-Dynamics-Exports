@@ -5,9 +5,9 @@ VALUES (0x7A2AE001,  1154, 0xA2AE0034, 158.7664, 78.98545, 56.12355, 0.3315089, 
 /* @teleloc 0xA2AE0034 [158.766400 78.985450 56.123550] 0.331509 0.000000 0.000000 -0.943452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2AE001, 0x7A2AE002, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7A2AE001, 0x7A2AE003, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A2AE001, 0x7A2AE004, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7A2AE001, 0x7A2AE002, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7A2AE001, 0x7A2AE003, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A2AE001, 0x7A2AE004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2AE002,  6535, 0xA2AE0034, 158.7664, 78.98545, 56.12355, 0.3315089, 0, 0, -0.9434521,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */
@@ -26,8 +26,8 @@ VALUES (0x7A2AE005,  1542, 0xA2AE003B, 170.7294, 70.74469, 53.72594, 0.3315089, 
 /* @teleloc 0xA2AE003B [170.729400 70.744690 53.725940] 0.331509 0.000000 0.000000 -0.943452 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2AE005, 0x7A2AE006, '2019-02-10 00:00:00') /* Circlet */
-     , (0x7A2AE005, 0x7A2AE007, '2019-02-10 00:00:00') /* Lightning Quarter Staff */;
+VALUES (0x7A2AE005, 0x7A2AE006, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x7A2AE005, 0x7A2AE007, '2019-02-10 00:00:00') /* Lightning Quarter Staff (22165) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2AE006, 31865, 0xA2AE003B, 170.7294, 70.74469, 53.72594, 0.3315089, 0, 0, -0.9434521,  True, '2019-02-10 00:00:00'); /* Circlet */

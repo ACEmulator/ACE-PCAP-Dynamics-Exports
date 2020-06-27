@@ -9,12 +9,12 @@ VALUES (0x78E68011,  1154, 0x8E680100, 59.2739, 35.8623, 13.7025, -0.550603, 0, 
 /* @teleloc 0x8E680100 [59.273900 35.862300 13.702500] -0.550603 0.000000 0.000000 0.834767 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E68011, 0x78E68012, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78E68011, 0x78E68013, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78E68011, 0x78E68014, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78E68011, 0x78E68015, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x78E68011, 0x78E68016, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78E68011, 0x78E68017, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x78E68011, 0x78E68012, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78E68011, 0x78E68013, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78E68011, 0x78E68014, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78E68011, 0x78E68015, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x78E68011, 0x78E68016, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78E68011, 0x78E68017, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E68012,  1762, 0x8E680100, 59.2739, 35.8623, 13.7025, -0.550603, 0, 0, 0.834767,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

@@ -5,13 +5,13 @@ VALUES (0x797D5001,  1154, 0x97D50018, 65.50667, 175.3028, 93.01663, 0.7071068, 
 /* @teleloc 0x97D50018 [65.506670 175.302800 93.016630] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797D5001, 0x797D5002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x797D5001, 0x797D5003, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797D5001, 0x797D5004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x797D5001, 0x797D5005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x797D5001, 0x797D5006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x797D5001, 0x797D5007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x797D5001, 0x797D5008, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x797D5001, 0x797D5002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x797D5001, 0x797D5003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797D5001, 0x797D5004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x797D5001, 0x797D5005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x797D5001, 0x797D5006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x797D5001, 0x797D5007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x797D5001, 0x797D5008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797D5002, 24289, 0x97D50018, 65.50667, 175.3028, 93.01663, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

@@ -25,49 +25,49 @@ VALUES (0x7001803A,  1154, 0x0018012A, 88.0939, -79.6324, -5.993732, 0.998268, 0
 /* @teleloc 0x0018012A [88.093900 -79.632400 -5.993732] 0.998268 0.000000 0.000000 -0.058831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7001803A, 0x7001803B, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x7001803C, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x7001803D, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7001803A, 0x7001803E, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001803F, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x70018040, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x70018041, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x70018042, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x70018043, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x70018044, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7001803A, 0x70018045, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7001803A, 0x70018046, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x70018047, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018048, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x7001803A, 0x70018049, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x7001804A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001804B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001804C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001804D, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x7001804E, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x7001804F, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x70018050, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x70018051, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x70018052, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x7001803A, 0x70018053, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x70018054, '2019-02-10 00:00:00') /* Viamontian Executioner */
-     , (0x7001803A, 0x70018055, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018056, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x70018057, '2019-02-10 00:00:00') /* Copper Legion Quartermaster */
-     , (0x7001803A, 0x70018058, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018059, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001805A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001805B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x7001805C, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x7001805D, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x7001805E, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x7001803A, 0x7001805F, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018060, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018061, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018062, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018063, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018064, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x7001803A, 0x70018065, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */;
+VALUES (0x7001803A, 0x7001803B, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x7001803C, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x7001803D, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x7001803A, 0x7001803E, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001803A, 0x7001803F, '2019-02-10 00:00:00') /* Viamontian Mage (30299) */
+     , (0x7001803A, 0x70018040, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x70018041, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x70018042, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x70018043, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x70018044, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x7001803A, 0x70018045, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x7001803A, 0x70018046, '2019-02-10 00:00:00') /* Viamontian Mage (30299) */
+     , (0x7001803A, 0x70018047, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001803A, 0x70018048, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x7001803A, 0x70018049, '2019-02-10 00:00:00') /* Viamontian Mage (30299) */
+     , (0x7001803A, 0x7001804A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001803A, 0x7001804B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (30294) */
+     , (0x7001803A, 0x7001804C, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x7001804D, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x7001804E, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x7001804F, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x70018050, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x70018051, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x70018052, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x7001803A, 0x70018053, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x70018054, '2019-02-10 00:00:00') /* Viamontian Executioner (29362) */
+     , (0x7001803A, 0x70018055, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018056, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7001803A, 0x70018057, '2019-02-10 00:00:00') /* Copper Legion Quartermaster (29422) */
+     , (0x7001803A, 0x70018058, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018059, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x7001805A, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x7001805B, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x7001805C, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7001803A, 0x7001805D, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7001803A, 0x7001805E, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x7001803A, 0x7001805F, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018060, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018061, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018062, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018063, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018064, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x7001803A, 0x70018065, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001803B, 28651, 0x0018012A, 88.0939, -79.6324, -5.993732, 0.998268, 0, 0, -0.0588313,  True, '2019-02-10 00:00:00'); /* Viamontian Mercenary */

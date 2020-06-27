@@ -5,16 +5,16 @@ VALUES (0x7132F001,  1154, 0x132F003F, 191.8833, 147.0538, -0.8899999, -0.820641
 /* @teleloc 0x132F003F [191.883300 147.053800 -0.890000] -0.820641 0.000000 0.000000 -0.571444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132F001, 0x7132F002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7132F001, 0x7132F003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7132F001, 0x7132F004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7132F001, 0x7132F005, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7132F001, 0x7132F006, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7132F001, 0x7132F007, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7132F001, 0x7132F008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7132F001, 0x7132F009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7132F001, 0x7132F00A, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7132F001, 0x7132F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7132F001, 0x7132F002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7132F001, 0x7132F003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7132F001, 0x7132F004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7132F001, 0x7132F005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7132F001, 0x7132F006, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7132F001, 0x7132F007, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7132F001, 0x7132F008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7132F001, 0x7132F009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7132F001, 0x7132F00A, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7132F001, 0x7132F00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132F002,  7097, 0x132F003F, 191.8833, 147.0538, -0.8899999, -0.8206413, 0, 0, -0.5714436,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -61,8 +61,8 @@ VALUES (0x7132F00C,  1542, 0x132F003E, 182.5444, 132.5941, -0.9, 1, 0, 0, 0, Fal
 /* @teleloc 0x132F003E [182.544400 132.594100 -0.900000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132F00C, 0x7132F00D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7132F00C, 0x7132F00E, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7132F00C, 0x7132F00D, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7132F00C, 0x7132F00E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132F00D, 22566, 0x132F003E, 182.5444, 132.5941, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

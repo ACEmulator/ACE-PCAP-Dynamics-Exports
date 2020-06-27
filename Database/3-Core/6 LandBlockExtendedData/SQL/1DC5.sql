@@ -5,10 +5,10 @@ VALUES (0x71DC5001,  1154, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.8706556, 
 /* @teleloc 0x1DC50019 [84.490370 10.798320 33.246140] 0.870656 0.000000 0.000000 -0.491893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC5001, 0x71DC5002, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC5001, 0x71DC5003, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC5001, 0x71DC5004, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71DC5001, 0x71DC5005, '2019-02-10 00:00:00') /* Rabid Eater */;
+VALUES (0x71DC5001, 0x71DC5002, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC5001, 0x71DC5003, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC5001, 0x71DC5004, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71DC5001, 0x71DC5005, '2019-02-10 00:00:00') /* Rabid Eater (28636) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC5002, 12186, 0x1DC50019, 84.49037, 10.79832, 33.24614, 0.8706556, 0, 0, -0.4918931,  True, '2019-02-10 00:00:00'); /* Zharalim */
@@ -31,8 +31,8 @@ VALUES (0x71DC5006,  1542, 0x1DC50019, 89.69351, 23.79581, 32.46432, 1, 0, 0, 0,
 /* @teleloc 0x1DC50019 [89.693510 23.795810 32.464320] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC5006, 0x71DC5007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC5006, 0x71DC5008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71DC5006, 0x71DC5007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC5006, 0x71DC5008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC5007,  9024, 0x1DC50019, 89.69351, 23.79581, 32.46432, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

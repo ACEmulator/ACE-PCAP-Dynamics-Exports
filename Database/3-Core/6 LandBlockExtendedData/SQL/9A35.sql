@@ -5,11 +5,11 @@ VALUES (0x79A35001,  1154, 0x9A35000A, 41.58596, 26.82627, 58.77335, 0.7071068, 
 /* @teleloc 0x9A35000A [41.585960 26.826270 58.773350] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A35001, 0x79A35002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79A35001, 0x79A35003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79A35001, 0x79A35004, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79A35001, 0x79A35005, '2019-02-10 00:00:00') /* Lich */
-     , (0x79A35001, 0x79A35006, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x79A35001, 0x79A35002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79A35001, 0x79A35003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79A35001, 0x79A35004, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79A35001, 0x79A35005, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79A35001, 0x79A35006, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A35002,  1608, 0x9A35000A, 41.58596, 26.82627, 58.77335, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -36,7 +36,7 @@ VALUES (0x79A35007,  1542, 0x9A35000A, 42.02327, 25.36575, 58.61187, 1, 0, 0, 0,
 /* @teleloc 0x9A35000A [42.023270 25.365750 58.611870] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A35007, 0x79A35008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x79A35007, 0x79A35008, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A35008, 22570, 0x9A35000A, 42.02327, 25.36575, 58.61187, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

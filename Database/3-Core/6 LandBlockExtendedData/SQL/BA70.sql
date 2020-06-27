@@ -29,30 +29,30 @@ VALUES (0x7BA70008,  1154, 0xBA700017, 54.7291, 153.5426, 16, 0.2342912, 0, 0, -
 /* @teleloc 0xBA700017 [54.729100 153.542600 16.000000] 0.234291 0.000000 0.000000 -0.972167 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA70008, 0x7BA70009, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA70008, 0x7BA7000A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA70008, 0x7BA7000B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA70008, 0x7BA7000C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA70008, 0x7BA7000D, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BA70008, 0x7BA7000E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BA70008, 0x7BA7000F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA70008, 0x7BA70010, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7BA70008, 0x7BA70011, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BA70008, 0x7BA70012, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BA70008, 0x7BA70013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA70008, 0x7BA70014, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BA70008, 0x7BA70015, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BA70008, 0x7BA70016, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7BA70008, 0x7BA70017, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BA70008, 0x7BA70018, '2019-02-10 00:00:00') /* Static */
-     , (0x7BA70008, 0x7BA70019, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA70008, 0x7BA7001A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7BA70008, 0x7BA7001B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BA70008, 0x7BA7001C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA70008, 0x7BA7001D, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7BA70008, 0x7BA7001E, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7BA70008, 0x7BA7001F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BA70008, 0x7BA70020, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7BA70008, 0x7BA70009, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA70008, 0x7BA7000A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA70008, 0x7BA7000B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA70008, 0x7BA7000C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA70008, 0x7BA7000D, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BA70008, 0x7BA7000E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BA70008, 0x7BA7000F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA70008, 0x7BA70010, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7BA70008, 0x7BA70011, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BA70008, 0x7BA70012, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BA70008, 0x7BA70013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA70008, 0x7BA70014, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BA70008, 0x7BA70015, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BA70008, 0x7BA70016, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7BA70008, 0x7BA70017, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BA70008, 0x7BA70018, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BA70008, 0x7BA70019, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA70008, 0x7BA7001A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7BA70008, 0x7BA7001B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BA70008, 0x7BA7001C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA70008, 0x7BA7001D, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BA70008, 0x7BA7001E, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BA70008, 0x7BA7001F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BA70008, 0x7BA70020, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA70009,  2567, 0xBA700017, 54.7291, 153.5426, 16, 0.2342912, 0, 0, -0.9721665,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -155,16 +155,16 @@ VALUES (0x7BA70021,  1542, 0xBA700105, 163.9272, 130.6355, 14.084, -0.0351699, 0
 /* @teleloc 0xBA700105 [163.927200 130.635500 14.084000] -0.035170 0.000000 0.000000 0.999381 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA70021, 0x7BA70022, '2019-02-10 00:00:00') /* Crumpled Note */
-     , (0x7BA70021, 0x7BA70023, '2019-02-10 00:00:00') /* Pile of Short Sticks */
-     , (0x7BA70021, 0x7BA70024, '2019-02-10 00:00:00') /* Cow */
-     , (0x7BA70021, 0x7BA70025, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7BA70021, 0x7BA70026, '2019-02-10 00:00:00') /* An odd note  */
-     , (0x7BA70021, 0x7BA70027, '2019-02-10 00:00:00') /* An old note  */
-     , (0x7BA70021, 0x7BA70028, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7BA70021, 0x7BA70029, '2019-02-10 00:00:00') /* Rumor */
-     , (0x7BA70021, 0x7BA7002A, '2019-02-10 00:00:00') /* A torn note  */
-     , (0x7BA70021, 0x7BA7002B, '2019-02-10 00:00:00') /* A torn note  */;
+VALUES (0x7BA70021, 0x7BA70022, '2019-02-10 00:00:00') /* Crumpled Note (3606) */
+     , (0x7BA70021, 0x7BA70023, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */
+     , (0x7BA70021, 0x7BA70024, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x7BA70021, 0x7BA70025, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7BA70021, 0x7BA70026, '2019-02-10 00:00:00') /* An odd note  (1419) */
+     , (0x7BA70021, 0x7BA70027, '2019-02-10 00:00:00') /* An old note  (1420) */
+     , (0x7BA70021, 0x7BA70028, '2019-02-10 00:00:00') /* Rumor (1514) */
+     , (0x7BA70021, 0x7BA70029, '2019-02-10 00:00:00') /* Rumor (1514) */
+     , (0x7BA70021, 0x7BA7002A, '2019-02-10 00:00:00') /* A torn note  (1417) */
+     , (0x7BA70021, 0x7BA7002B, '2019-02-10 00:00:00') /* A torn note  (1417) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA70022,  3606, 0xBA700105, 163.9272, 130.6355, 14.084, -0.0351699, 0, 0, 0.999381,  True, '2019-02-10 00:00:00'); /* Crumpled Note */

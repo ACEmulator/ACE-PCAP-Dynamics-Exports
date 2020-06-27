@@ -5,15 +5,15 @@ VALUES (0x7A641001,  1154, 0xA641003F, 186.8139, 165.6545, 2.8331, -0.476985, 0,
 /* @teleloc 0xA641003F [186.813900 165.654500 2.833100] -0.476985 0.000000 0.000000 -0.878911 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A641001, 0x7A641002, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A641001, 0x7A641003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A641001, 0x7A641004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A641001, 0x7A641005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7A641001, 0x7A641006, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A641001, 0x7A641007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A641001, 0x7A641008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A641001, 0x7A641009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A641001, 0x7A64100A, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A641001, 0x7A641002, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A641001, 0x7A641003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A641001, 0x7A641004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A641001, 0x7A641005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A641001, 0x7A641006, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A641001, 0x7A641007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A641001, 0x7A641008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A641001, 0x7A641009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A641001, 0x7A64100A, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A641002,  8143, 0xA641003F, 186.8139, 165.6545, 2.8331, -0.476985, 0, 0, -0.8789114,  True, '2019-02-10 00:00:00'); /* Amploth Raider */
@@ -56,7 +56,7 @@ VALUES (0x7A64100B,  1542, 0xA6410007, 9.566288, 152.5809, 11.69055, 1, 0, 0, 0,
 /* @teleloc 0xA6410007 [9.566288 152.580900 11.690550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A64100B, 0x7A64100C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A64100B, 0x7A64100C, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A64100C, 22570, 0xA6410007, 9.566288, 152.5809, 11.69055, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

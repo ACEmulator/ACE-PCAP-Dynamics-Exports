@@ -5,20 +5,20 @@ VALUES (0x7E72C001,  1154, 0xE72C0009, 29.33044, 17.29649, 21.44027, -0.5205067,
 /* @teleloc 0xE72C0009 [29.330440 17.296490 21.440270] -0.520507 0.000000 0.000000 -0.853858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E72C001, 0x7E72C002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7E72C001, 0x7E72C003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7E72C001, 0x7E72C004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7E72C001, 0x7E72C005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7E72C001, 0x7E72C006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7E72C001, 0x7E72C007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7E72C001, 0x7E72C008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7E72C001, 0x7E72C009, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7E72C001, 0x7E72C00A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E72C001, 0x7E72C00B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7E72C001, 0x7E72C00C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E72C001, 0x7E72C00D, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E72C001, 0x7E72C00E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7E72C001, 0x7E72C00F, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7E72C001, 0x7E72C002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7E72C001, 0x7E72C003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7E72C001, 0x7E72C004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7E72C001, 0x7E72C005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7E72C001, 0x7E72C006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7E72C001, 0x7E72C007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7E72C001, 0x7E72C008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7E72C001, 0x7E72C009, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7E72C001, 0x7E72C00A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E72C001, 0x7E72C00B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7E72C001, 0x7E72C00C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E72C001, 0x7E72C00D, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E72C001, 0x7E72C00E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7E72C001, 0x7E72C00F, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E72C002,  7089, 0xE72C0009, 29.33044, 17.29649, 21.44027, -0.5205067, 0, 0, -0.8538576,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

@@ -5,15 +5,15 @@ VALUES (0x750AC001,  1154, 0x50AC0022, 107.7722, 32.03006, 60.67665, -0.01131264
 /* @teleloc 0x50AC0022 [107.772200 32.030060 60.676650] -0.011313 0.000000 0.000000 -0.999936 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750AC001, 0x750AC002, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x750AC001, 0x750AC003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x750AC001, 0x750AC004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x750AC001, 0x750AC005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x750AC001, 0x750AC006, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x750AC001, 0x750AC007, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x750AC001, 0x750AC008, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x750AC001, 0x750AC009, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x750AC001, 0x750AC00A, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x750AC001, 0x750AC002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x750AC001, 0x750AC003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x750AC001, 0x750AC004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x750AC001, 0x750AC005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x750AC001, 0x750AC006, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x750AC001, 0x750AC007, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x750AC001, 0x750AC008, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x750AC001, 0x750AC009, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x750AC001, 0x750AC00A, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750AC002, 11533, 0x50AC0022, 107.7722, 32.03006, 60.67665, -0.01131264, 0, 0, -0.999936,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -56,7 +56,7 @@ VALUES (0x750AC00B,  1542, 0x50AC0018, 51.67962, 184.222, 84.80337, 0.9537169, 0
 /* @teleloc 0x50AC0018 [51.679620 184.222000 84.803370] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x750AC00B, 0x750AC00C, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x750AC00B, 0x750AC00C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x750AC00C,  5779, 0x50AC0018, 51.67962, 184.222, 84.80337, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */

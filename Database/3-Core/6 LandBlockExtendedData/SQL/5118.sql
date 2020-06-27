@@ -9,8 +9,8 @@ VALUES (0x75118001,  1154, 0x51180007, 6.74263, 159.2396, 119.9979, -0.9920443, 
 /* @teleloc 0x51180007 [6.742630 159.239600 119.997900] -0.992044 0.000000 0.000000 -0.125890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75118001, 0x75118002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75118001, 0x75118003, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x75118001, 0x75118002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75118001, 0x75118003, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75118002,  7982, 0x51180007, 6.74263, 159.2396, 119.9979, -0.9920443, 0, 0, -0.1258895,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */

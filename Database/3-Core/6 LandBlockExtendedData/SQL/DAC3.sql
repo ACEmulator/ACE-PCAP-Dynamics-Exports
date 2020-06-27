@@ -5,10 +5,10 @@ VALUES (0x7DAC3001,  1154, 0xDAC30007, 9.225421, 167.0289, 116.6994, 0.9729776, 
 /* @teleloc 0xDAC30007 [9.225421 167.028900 116.699400] 0.972978 0.000000 0.000000 -0.230900 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DAC3001, 0x7DAC3002, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7DAC3001, 0x7DAC3003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x7DAC3001, 0x7DAC3004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7DAC3001, 0x7DAC3005, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x7DAC3001, 0x7DAC3002, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7DAC3001, 0x7DAC3003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7DAC3001, 0x7DAC3004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7DAC3001, 0x7DAC3005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DAC3002, 14872, 0xDAC30007, 9.225421, 167.0289, 116.6994, 0.9729776, 0, 0, -0.2308997,  True, '2019-02-10 00:00:00'); /* Altered Olthoi */

@@ -5,12 +5,12 @@ VALUES (0x79B24001,  1154, 0x9B240007, 11.03251, 166.7969, 90.92188, 0.7660445, 
 /* @teleloc 0x9B240007 [11.032510 166.796900 90.921880] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B24001, 0x79B24002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79B24001, 0x79B24003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x79B24001, 0x79B24004, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x79B24001, 0x79B24005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x79B24001, 0x79B24006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79B24001, 0x79B24007, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x79B24001, 0x79B24002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79B24001, 0x79B24003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79B24001, 0x79B24004, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79B24001, 0x79B24005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79B24001, 0x79B24006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79B24001, 0x79B24007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B24002,  7334, 0x9B240007, 11.03251, 166.7969, 90.92188, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -41,9 +41,9 @@ VALUES (0x79B24008,  1542, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169,
 /* @teleloc 0x9B24002C [139.154700 87.103550 83.482730] -0.222417 0.000000 0.000000 -0.974952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B24008, 0x79B24009, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x79B24008, 0x79B2400A, '2019-02-10 00:00:00') /* Bones */
-     , (0x79B24008, 0x79B2400B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x79B24008, 0x79B24009, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x79B24008, 0x79B2400A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79B24008, 0x79B2400B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B24009,  8039, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169, 0, 0, -0.9749516,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

@@ -5,14 +5,14 @@ VALUES (0x713B8001,  1154, 0x13B8003D, 188.2147, 104.2302, 15.00129, 0.9825491, 
 /* @teleloc 0x13B8003D [188.214700 104.230200 15.001290] 0.982549 0.000000 0.000000 -0.186003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713B8001, 0x713B8002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713B8001, 0x713B8003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713B8001, 0x713B8004, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x713B8001, 0x713B8005, '2019-02-10 00:00:00') /* Poacher */
-     , (0x713B8001, 0x713B8006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713B8001, 0x713B8007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713B8001, 0x713B8008, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x713B8001, 0x713B8009, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x713B8001, 0x713B8002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713B8001, 0x713B8003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713B8001, 0x713B8004, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x713B8001, 0x713B8005, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x713B8001, 0x713B8006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713B8001, 0x713B8007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713B8001, 0x713B8008, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x713B8001, 0x713B8009, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713B8002, 11493, 0x13B8003D, 188.2147, 104.2302, 15.00129, 0.9825491, 0, 0, -0.1860032,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
@@ -51,8 +51,8 @@ VALUES (0x713B800A,  1542, 0x13B80007, 17.27293, 163.1326, 15.09379, 1, 0, 0, 0,
 /* @teleloc 0x13B80007 [17.272930 163.132600 15.093790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x713B800A, 0x713B800B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x713B800A, 0x713B800C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x713B800A, 0x713B800B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x713B800A, 0x713B800C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713B800B,  9024, 0x13B80007, 17.27293, 163.1326, 15.09379, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

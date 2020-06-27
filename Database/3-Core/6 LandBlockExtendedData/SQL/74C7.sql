@@ -5,12 +5,12 @@ VALUES (0x774C7001,  1154, 0x74C7000F, 38.85814, 145.7512, 200.335, 0.7071068, 0
 /* @teleloc 0x74C7000F [38.858140 145.751200 200.335000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774C7001, 0x774C7002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774C7001, 0x774C7003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774C7001, 0x774C7004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x774C7001, 0x774C7005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x774C7001, 0x774C7006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x774C7001, 0x774C7007, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x774C7001, 0x774C7002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774C7001, 0x774C7003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774C7001, 0x774C7004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x774C7001, 0x774C7005, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x774C7001, 0x774C7006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x774C7001, 0x774C7007, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774C7002,  7090, 0x74C7000F, 38.85814, 145.7512, 200.335, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
@@ -41,8 +41,8 @@ VALUES (0x774C7008,  1542, 0x74C70018, 62.85806, 169.6317, 199.9324, 0.9981738, 
 /* @teleloc 0x74C70018 [62.858060 169.631700 199.932400] 0.998174 0.000000 0.000000 -0.060407 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774C7008, 0x774C7009, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x774C7008, 0x774C700A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x774C7008, 0x774C7009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x774C7008, 0x774C700A, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774C7009,  8646, 0x74C70018, 62.85806, 169.6317, 199.9324, 0.9981738, 0, 0, -0.06040747,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

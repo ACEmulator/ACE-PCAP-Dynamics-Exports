@@ -5,25 +5,25 @@ VALUES (0x7251B001,  1154, 0x251B0021, 114.4175, 11.2809, 14.01, 0.7879676, 0, 0
 /* @teleloc 0x251B0021 [114.417500 11.280900 14.010000] 0.787968 0.000000 0.000000 -0.615717 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251B001, 0x7251B002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7251B001, 0x7251B003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7251B001, 0x7251B004, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7251B001, 0x7251B005, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7251B001, 0x7251B006, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x7251B001, 0x7251B007, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x7251B001, 0x7251B008, '2019-02-10 00:00:00') /* Quiddity Rift */
-     , (0x7251B001, 0x7251B009, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7251B001, 0x7251B00A, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7251B001, 0x7251B00B, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7251B001, 0x7251B00C, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x7251B001, 0x7251B00D, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7251B001, 0x7251B00E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7251B001, 0x7251B00F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7251B001, 0x7251B010, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7251B001, 0x7251B011, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x7251B001, 0x7251B012, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7251B001, 0x7251B013, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x7251B001, 0x7251B014, '2019-02-10 00:00:00') /* Shadow Wraith */;
+VALUES (0x7251B001, 0x7251B002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7251B001, 0x7251B003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7251B001, 0x7251B004, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7251B001, 0x7251B005, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7251B001, 0x7251B006, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x7251B001, 0x7251B007, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x7251B001, 0x7251B008, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */
+     , (0x7251B001, 0x7251B009, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x7251B001, 0x7251B00A, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7251B001, 0x7251B00B, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7251B001, 0x7251B00C, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x7251B001, 0x7251B00D, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7251B001, 0x7251B00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7251B001, 0x7251B00F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7251B001, 0x7251B010, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x7251B001, 0x7251B011, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7251B001, 0x7251B012, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7251B001, 0x7251B013, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x7251B001, 0x7251B014, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251B002,  7097, 0x251B0021, 114.4175, 11.2809, 14.01, 0.7879676, 0, 0, -0.6157168,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -106,7 +106,7 @@ VALUES (0x7251B015,  1542, 0x251B001D, 92.32898, 106.1504, 11.76597, 0.9990482, 
 /* @teleloc 0x251B001D [92.328980 106.150400 11.765970] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7251B015, 0x7251B016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7251B015, 0x7251B016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7251B016,  4179, 0x251B001D, 92.32898, 106.1504, 11.76597, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,15 +5,15 @@ VALUES (0x7A86B001,  1154, 0xA86B0034, 164.2468, 92.71382, 28.003, 0.632898, 0, 
 /* @teleloc 0xA86B0034 [164.246800 92.713820 28.003000] 0.632898 0.000000 0.000000 -0.774235 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A86B001, 0x7A86B002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A86B001, 0x7A86B003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A86B001, 0x7A86B004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7A86B001, 0x7A86B005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A86B001, 0x7A86B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A86B001, 0x7A86B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A86B001, 0x7A86B008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A86B001, 0x7A86B009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A86B001, 0x7A86B00A, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7A86B001, 0x7A86B002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A86B001, 0x7A86B003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A86B001, 0x7A86B004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A86B001, 0x7A86B005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A86B001, 0x7A86B006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A86B001, 0x7A86B007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A86B001, 0x7A86B008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A86B001, 0x7A86B009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A86B001, 0x7A86B00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A86B002, 21168, 0xA86B0034, 164.2468, 92.71382, 28.003, 0.632898, 0, 0, -0.7742352,  True, '2019-02-10 00:00:00'); /* Charge */

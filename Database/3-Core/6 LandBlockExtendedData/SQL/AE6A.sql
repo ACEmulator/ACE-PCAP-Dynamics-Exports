@@ -5,15 +5,15 @@ VALUES (0x7AE6A001,  1154, 0xAE6A001D, 74.71582, 109.0422, 34.0075, -0.5181326, 
 /* @teleloc 0xAE6A001D [74.715820 109.042200 34.007500] -0.518133 0.000000 0.000000 -0.855300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE6A001, 0x7AE6A002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE6A001, 0x7AE6A003, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AE6A001, 0x7AE6A004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AE6A001, 0x7AE6A005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE6A001, 0x7AE6A006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AE6A001, 0x7AE6A007, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE6A001, 0x7AE6A008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE6A001, 0x7AE6A009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AE6A001, 0x7AE6A00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */;
+VALUES (0x7AE6A001, 0x7AE6A002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE6A001, 0x7AE6A003, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AE6A001, 0x7AE6A004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AE6A001, 0x7AE6A005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE6A001, 0x7AE6A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AE6A001, 0x7AE6A007, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE6A001, 0x7AE6A008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE6A001, 0x7AE6A009, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AE6A001, 0x7AE6A00A, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE6A002,  1630, 0xAE6A001D, 74.71582, 109.0422, 34.0075, -0.5181326, 0, 0, -0.8553003,  True, '2019-02-10 00:00:00'); /* Lich Lord */

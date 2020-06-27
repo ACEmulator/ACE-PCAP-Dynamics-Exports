@@ -5,10 +5,10 @@ VALUES (0x786A3001,  1154, 0x86A3000D, 34.6755, 108.9508, 76.16846, 0.8059373, 0
 /* @teleloc 0x86A3000D [34.675500 108.950800 76.168460] 0.805937 0.000000 0.000000 -0.592001 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x786A3001, 0x786A3002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x786A3001, 0x786A3003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x786A3001, 0x786A3004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x786A3001, 0x786A3005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x786A3001, 0x786A3002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x786A3001, 0x786A3003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x786A3001, 0x786A3004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x786A3001, 0x786A3005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786A3002, 11528, 0x86A3000D, 34.6755, 108.9508, 76.16846, 0.8059373, 0, 0, -0.5920009,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

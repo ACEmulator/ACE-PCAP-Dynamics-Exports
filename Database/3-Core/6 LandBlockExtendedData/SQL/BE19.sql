@@ -5,14 +5,14 @@ VALUES (0x7BE19001,  1154, 0xBE190014, 69.69603, 75.14304, -0.897, 0.8806317, 0,
 /* @teleloc 0xBE190014 [69.696030 75.143040 -0.897000] 0.880632 0.000000 0.000000 -0.473801 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE19001, 0x7BE19002, '2019-02-10 00:00:00') /* Buillic */
-     , (0x7BE19001, 0x7BE19003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE19001, 0x7BE19004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE19001, 0x7BE19005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BE19001, 0x7BE19006, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE19001, 0x7BE19007, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7BE19001, 0x7BE19008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7BE19001, 0x7BE19009, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7BE19001, 0x7BE19002, '2019-02-10 00:00:00') /* Buillic (20187) */
+     , (0x7BE19001, 0x7BE19003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE19001, 0x7BE19004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE19001, 0x7BE19005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BE19001, 0x7BE19006, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE19001, 0x7BE19007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7BE19001, 0x7BE19008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7BE19001, 0x7BE19009, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE19002, 20187, 0xBE190014, 69.69603, 75.14304, -0.897, 0.8806317, 0, 0, -0.4738014,  True, '2019-02-10 00:00:00'); /* Buillic */
@@ -51,12 +51,12 @@ VALUES (0x7BE1900A,  1542, 0xBE190016, 69.3288, 131.7227, 1, 1, 0, 0, 0, False, 
 /* @teleloc 0xBE190016 [69.328800 131.722700 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE1900A, 0x7BE1900B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BE1900A, 0x7BE1900C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BE1900A, 0x7BE1900D, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BE1900A, 0x7BE1900E, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7BE1900A, 0x7BE1900F, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7BE1900A, 0x7BE19010, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7BE1900A, 0x7BE1900B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BE1900A, 0x7BE1900C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BE1900A, 0x7BE1900D, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BE1900A, 0x7BE1900E, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7BE1900A, 0x7BE1900F, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7BE1900A, 0x7BE19010, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE1900B,  9024, 0xBE190016, 69.3288, 131.7227, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

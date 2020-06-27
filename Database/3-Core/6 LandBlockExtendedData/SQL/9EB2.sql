@@ -5,19 +5,19 @@ VALUES (0x79EB2001,  1154, 0x9EB20031, 150.1027, 11.37923, 78.4316, -0.1736482, 
 /* @teleloc 0x9EB20031 [150.102700 11.379230 78.431600] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EB2001, 0x79EB2002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79EB2001, 0x79EB2003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79EB2001, 0x79EB2004, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EB2001, 0x79EB2005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EB2001, 0x79EB2006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB2001, 0x79EB2007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB2001, 0x79EB2008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB2001, 0x79EB2009, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EB2001, 0x79EB200A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79EB2001, 0x79EB200B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EB2001, 0x79EB200C, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EB2001, 0x79EB200D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79EB2001, 0x79EB200E, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x79EB2001, 0x79EB2002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79EB2001, 0x79EB2003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79EB2001, 0x79EB2004, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EB2001, 0x79EB2005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EB2001, 0x79EB2006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB2001, 0x79EB2007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB2001, 0x79EB2008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB2001, 0x79EB2009, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EB2001, 0x79EB200A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79EB2001, 0x79EB200B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EB2001, 0x79EB200C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EB2001, 0x79EB200D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79EB2001, 0x79EB200E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EB2002,  2575, 0x9EB20031, 150.1027, 11.37923, 78.4316, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

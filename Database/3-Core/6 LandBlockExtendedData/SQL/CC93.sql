@@ -5,33 +5,33 @@ VALUES (0x7CC93001,  1154, 0xCC93002E, 123.0271, 126.6275, 20.25226, 0.2901881, 
 /* @teleloc 0xCC93002E [123.027100 126.627500 20.252260] 0.290188 0.000000 0.000000 -0.956970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC93001, 0x7CC93002, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7CC93001, 0x7CC93003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC93001, 0x7CC93004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CC93001, 0x7CC93005, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC93001, 0x7CC93006, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CC93001, 0x7CC93007, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC93001, 0x7CC93008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC93001, 0x7CC93009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC93001, 0x7CC9300A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CC93001, 0x7CC9300B, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CC93001, 0x7CC9300C, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CC93001, 0x7CC9300D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CC93001, 0x7CC9300E, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7CC93001, 0x7CC9300F, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC93001, 0x7CC93010, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC93001, 0x7CC93011, '2019-02-10 00:00:00') /* Charge */
-     , (0x7CC93001, 0x7CC93012, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC93001, 0x7CC93013, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7CC93001, 0x7CC93014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC93001, 0x7CC93015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC93001, 0x7CC93016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC93001, 0x7CC93017, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC93001, 0x7CC93018, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CC93001, 0x7CC93019, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CC93001, 0x7CC9301A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC93001, 0x7CC9301B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC93001, 0x7CC9301C, '2019-02-10 00:00:00') /* Crude Monouga */;
+VALUES (0x7CC93001, 0x7CC93002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7CC93001, 0x7CC93003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC93001, 0x7CC93004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CC93001, 0x7CC93005, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC93001, 0x7CC93006, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CC93001, 0x7CC93007, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC93001, 0x7CC93008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC93001, 0x7CC93009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC93001, 0x7CC9300A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CC93001, 0x7CC9300B, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CC93001, 0x7CC9300C, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CC93001, 0x7CC9300D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CC93001, 0x7CC9300E, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7CC93001, 0x7CC9300F, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC93001, 0x7CC93010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC93001, 0x7CC93011, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7CC93001, 0x7CC93012, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC93001, 0x7CC93013, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7CC93001, 0x7CC93014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC93001, 0x7CC93015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC93001, 0x7CC93016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC93001, 0x7CC93017, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC93001, 0x7CC93018, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CC93001, 0x7CC93019, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CC93001, 0x7CC9301A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC93001, 0x7CC9301B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC93001, 0x7CC9301C, '2019-02-10 00:00:00') /* Crude Monouga (2575) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC93002,  1989, 0xCC93002E, 123.0271, 126.6275, 20.25226, 0.2901881, 0, 0, -0.9569696,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -146,8 +146,8 @@ VALUES (0x7CC9301D,  1542, 0xCC93002F, 138.7569, 158.5134, 20.35363, 1, 0, 0, 0,
 /* @teleloc 0xCC93002F [138.756900 158.513400 20.353630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC9301D, 0x7CC9301E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CC9301D, 0x7CC9301F, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x7CC9301D, 0x7CC9301E, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CC9301D, 0x7CC9301F, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC9301E, 22570, 0xCC93002F, 138.7569, 158.5134, 20.35363, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

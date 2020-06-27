@@ -5,12 +5,12 @@ VALUES (0x7D161001,  1154, 0xD1610027, 119.3514, 153.3814, 5.550001, 0.3334353, 
 /* @teleloc 0xD1610027 [119.351400 153.381400 5.550001] 0.333435 0.000000 0.000000 -0.942773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D161001, 0x7D161002, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7D161001, 0x7D161003, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7D161001, 0x7D161004, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7D161001, 0x7D161005, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7D161001, 0x7D161006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7D161001, 0x7D161007, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7D161001, 0x7D161002, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7D161001, 0x7D161003, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7D161001, 0x7D161004, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7D161001, 0x7D161005, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7D161001, 0x7D161006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7D161001, 0x7D161007, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D161002,  1987, 0xD1610027, 119.3514, 153.3814, 5.550001, 0.3334353, 0, 0, -0.942773,  True, '2019-02-10 00:00:00'); /* Ghost Wisp */

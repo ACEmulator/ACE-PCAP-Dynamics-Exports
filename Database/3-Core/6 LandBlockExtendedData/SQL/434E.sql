@@ -5,13 +5,13 @@ VALUES (0x7434E001,  1154, 0x434E0003, 11.60155, 61.66787, -0.09359992, 0.887179
 /* @teleloc 0x434E0003 [11.601550 61.667870 -0.093600] 0.887180 0.000000 0.000000 -0.461424 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7434E001, 0x7434E002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7434E001, 0x7434E003, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7434E001, 0x7434E004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7434E001, 0x7434E005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7434E001, 0x7434E006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7434E001, 0x7434E007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7434E001, 0x7434E008, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x7434E001, 0x7434E002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7434E001, 0x7434E003, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7434E001, 0x7434E004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7434E001, 0x7434E005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7434E001, 0x7434E006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7434E001, 0x7434E007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7434E001, 0x7434E008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434E002,  7181, 0x434E0003, 11.60155, 61.66787, -0.09359992, 0.8871797, 0, 0, -0.4614241,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */

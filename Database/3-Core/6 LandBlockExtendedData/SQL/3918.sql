@@ -5,12 +5,12 @@ VALUES (0x73918001,  1154, 0x39180011, 61.65291, 16.81127, 12.80838, -0.9956391,
 /* @teleloc 0x39180011 [61.652910 16.811270 12.808380] -0.995639 0.000000 0.000000 -0.093288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73918001, 0x73918002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73918001, 0x73918003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73918001, 0x73918004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73918001, 0x73918005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73918001, 0x73918006, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73918001, 0x73918007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x73918001, 0x73918002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73918001, 0x73918003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73918001, 0x73918004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73918001, 0x73918005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73918001, 0x73918006, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73918001, 0x73918007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73918002,  7119, 0x39180011, 61.65291, 16.81127, 12.80838, -0.9956391, 0, 0, -0.09328815,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -41,7 +41,7 @@ VALUES (0x73918008,  1542, 0x39180005, 13.14261, 102.0942, 45.52354, 1, 0, 0, 0,
 /* @teleloc 0x39180005 [13.142610 102.094200 45.523540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73918008, 0x73918009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73918008, 0x73918009, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73918009, 22567, 0x39180005, 13.14261, 102.0942, 45.52354, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

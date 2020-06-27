@@ -93,69 +93,69 @@ VALUES (0x7E44D018,  1154, 0xE44D0100, 174.875, 110.128, 17.655, 0.92388, 0, 0, 
 /* @teleloc 0xE44D0100 [174.875000 110.128000 17.655000] 0.923880 0.000000 0.000000 -0.382683 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44D018, 0x7E44D019, '2019-02-10 00:00:00') /* Garbage Barrel */
-     , (0x7E44D018, 0x7E44D01A, '2019-02-10 00:00:00') /* Garbage Barrel */
-     , (0x7E44D018, 0x7E44D01B, '2019-02-10 00:00:00') /* Garbage Barrel */
-     , (0x7E44D018, 0x7E44D01C, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E44D018, 0x7E44D01D, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D01E, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44D018, 0x7E44D01F, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E44D018, 0x7E44D020, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E44D018, 0x7E44D021, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E44D018, 0x7E44D022, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E44D018, 0x7E44D023, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7E44D018, 0x7E44D024, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E44D018, 0x7E44D025, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E44D018, 0x7E44D026, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D027, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44D018, 0x7E44D028, '2019-02-10 00:00:00') /* Amploth Lugian */
-     , (0x7E44D018, 0x7E44D029, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7E44D018, 0x7E44D02A, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7E44D018, 0x7E44D02B, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E44D018, 0x7E44D02C, '2019-02-10 00:00:00') /* Mountain Rat */
-     , (0x7E44D018, 0x7E44D02D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44D018, 0x7E44D02E, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E44D018, 0x7E44D02F, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E44D018, 0x7E44D030, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E44D018, 0x7E44D031, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7E44D018, 0x7E44D032, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7E44D018, 0x7E44D033, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E44D018, 0x7E44D034, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7E44D018, 0x7E44D035, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44D018, 0x7E44D036, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E44D018, 0x7E44D037, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44D018, 0x7E44D038, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7E44D018, 0x7E44D039, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7E44D018, 0x7E44D03A, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7E44D018, 0x7E44D03B, '2019-02-10 00:00:00') /* Obeloth Lugian */
-     , (0x7E44D018, 0x7E44D03C, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E44D018, 0x7E44D03D, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E44D018, 0x7E44D03E, '2019-02-10 00:00:00') /* Snowy Mattekar */
-     , (0x7E44D018, 0x7E44D03F, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E44D018, 0x7E44D040, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7E44D018, 0x7E44D041, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E44D018, 0x7E44D042, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E44D018, 0x7E44D043, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44D018, 0x7E44D044, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44D018, 0x7E44D045, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7E44D018, 0x7E44D046, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E44D018, 0x7E44D047, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44D018, 0x7E44D048, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E44D018, 0x7E44D049, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7E44D018, 0x7E44D04A, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D04B, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D04C, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D04D, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7E44D018, 0x7E44D04E, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7E44D018, 0x7E44D04F, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44D018, 0x7E44D050, '2019-02-10 00:00:00') /* Limestone Golem */
-     , (0x7E44D018, 0x7E44D051, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7E44D018, 0x7E44D052, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7E44D018, 0x7E44D053, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D054, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7E44D018, 0x7E44D055, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7E44D018, 0x7E44D056, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7E44D018, 0x7E44D057, '2019-02-10 00:00:00') /* Jade Gromnie */;
+VALUES (0x7E44D018, 0x7E44D019, '2019-02-10 00:00:00') /* Garbage Barrel (34726) */
+     , (0x7E44D018, 0x7E44D01A, '2019-02-10 00:00:00') /* Garbage Barrel (34726) */
+     , (0x7E44D018, 0x7E44D01B, '2019-02-10 00:00:00') /* Garbage Barrel (34726) */
+     , (0x7E44D018, 0x7E44D01C, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E44D018, 0x7E44D01D, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D01E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44D018, 0x7E44D01F, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E44D018, 0x7E44D020, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E44D018, 0x7E44D021, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E44D018, 0x7E44D022, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E44D018, 0x7E44D023, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7E44D018, 0x7E44D024, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E44D018, 0x7E44D025, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E44D018, 0x7E44D026, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D027, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44D018, 0x7E44D028, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
+     , (0x7E44D018, 0x7E44D029, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7E44D018, 0x7E44D02A, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7E44D018, 0x7E44D02B, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E44D018, 0x7E44D02C, '2019-02-10 00:00:00') /* Mountain Rat (1625) */
+     , (0x7E44D018, 0x7E44D02D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44D018, 0x7E44D02E, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7E44D018, 0x7E44D02F, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E44D018, 0x7E44D030, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E44D018, 0x7E44D031, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7E44D018, 0x7E44D032, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7E44D018, 0x7E44D033, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E44D018, 0x7E44D034, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7E44D018, 0x7E44D035, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44D018, 0x7E44D036, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E44D018, 0x7E44D037, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44D018, 0x7E44D038, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7E44D018, 0x7E44D039, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7E44D018, 0x7E44D03A, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7E44D018, 0x7E44D03B, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E44D018, 0x7E44D03C, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E44D018, 0x7E44D03D, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E44D018, 0x7E44D03E, '2019-02-10 00:00:00') /* Snowy Mattekar (2581) */
+     , (0x7E44D018, 0x7E44D03F, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E44D018, 0x7E44D040, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E44D018, 0x7E44D041, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E44D018, 0x7E44D042, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E44D018, 0x7E44D043, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44D018, 0x7E44D044, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44D018, 0x7E44D045, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7E44D018, 0x7E44D046, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E44D018, 0x7E44D047, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44D018, 0x7E44D048, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E44D018, 0x7E44D049, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7E44D018, 0x7E44D04A, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D04B, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D04C, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D04D, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7E44D018, 0x7E44D04E, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7E44D018, 0x7E44D04F, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44D018, 0x7E44D050, '2019-02-10 00:00:00') /* Limestone Golem (198) */
+     , (0x7E44D018, 0x7E44D051, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E44D018, 0x7E44D052, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7E44D018, 0x7E44D053, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D054, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E44D018, 0x7E44D055, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E44D018, 0x7E44D056, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7E44D018, 0x7E44D057, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D019, 34726, 0xE44D0100, 174.875, 110.128, 17.655, 0.92388, 0, 0, -0.382683,  True, '2019-02-10 00:00:00'); /* Garbage Barrel */
@@ -414,9 +414,9 @@ VALUES (0x7E44D058,  1154, 0xE44D0103, 177.324, 134.578, 24.06958, -0.373304, 0,
 /* @teleloc 0xE44D0103 [177.324000 134.578000 24.069580] -0.373304 0.000000 0.000000 0.927709 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44D058, 0x7E44D059, '2019-02-10 00:00:00') /* Component Exchanger */
-     , (0x7E44D058, 0x7E44D05A, '2019-02-10 00:00:00') /* Arcanum Quota Officer */
-     , (0x7E44D058, 0x7E44D05B, '2019-02-10 00:00:00') /* Arcanum Mana-smith */;
+VALUES (0x7E44D058, 0x7E44D059, '2019-02-10 00:00:00') /* Component Exchanger (40770) */
+     , (0x7E44D058, 0x7E44D05A, '2019-02-10 00:00:00') /* Arcanum Quota Officer (38921) */
+     , (0x7E44D058, 0x7E44D05B, '2019-02-10 00:00:00') /* Arcanum Mana-smith (38461) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D059, 40770, 0xE44D0103, 177.324, 134.578, 24.06958, -0.373304, 0, 0, 0.927709,  True, '2019-02-10 00:00:00'); /* Component Exchanger */
@@ -435,14 +435,14 @@ VALUES (0x7E44D05C,  1542, 0xE44D0008, 0.3405192, 179.3072, 22.02838, 0.8912854,
 /* @teleloc 0xE44D0008 [0.340519 179.307200 22.028380] 0.891285 0.000000 0.000000 -0.453443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E44D05C, 0x7E44D05D, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7E44D05C, 0x7E44D05E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E44D05C, 0x7E44D05F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7E44D05C, 0x7E44D060, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E44D05C, 0x7E44D061, '2019-02-10 00:00:00') /* Bones */
-     , (0x7E44D05C, 0x7E44D062, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7E44D05C, 0x7E44D063, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E44D05C, 0x7E44D064, '2019-02-10 00:00:00') /* Ginger */;
+VALUES (0x7E44D05C, 0x7E44D05D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E44D05C, 0x7E44D05E, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7E44D05C, 0x7E44D05F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7E44D05C, 0x7E44D060, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7E44D05C, 0x7E44D061, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E44D05C, 0x7E44D062, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7E44D05C, 0x7E44D063, '2019-02-10 00:00:00') /* Corpse (4381) */
+     , (0x7E44D05C, 0x7E44D064, '2019-02-10 00:00:00') /* Ginger (14789) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E44D05D,  8037, 0xE44D0008, 0.3405192, 179.3072, 22.02838, 0.8912854, 0, 0, -0.4534428,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

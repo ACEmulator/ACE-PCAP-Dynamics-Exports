@@ -5,18 +5,18 @@ VALUES (0x7464F001,  1154, 0x464F0020, 75.37264, 177.5061, 10.01, -0.1523941, 0,
 /* @teleloc 0x464F0020 [75.372640 177.506100 10.010000] -0.152394 0.000000 0.000000 -0.988320 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7464F001, 0x7464F002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7464F001, 0x7464F003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7464F001, 0x7464F004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7464F001, 0x7464F005, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7464F001, 0x7464F006, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7464F001, 0x7464F007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7464F001, 0x7464F008, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7464F001, 0x7464F009, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7464F001, 0x7464F00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7464F001, 0x7464F00B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7464F001, 0x7464F00C, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7464F001, 0x7464F00D, '2019-02-10 00:00:00') /* Dark Master */;
+VALUES (0x7464F001, 0x7464F002, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7464F001, 0x7464F003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7464F001, 0x7464F004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7464F001, 0x7464F005, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7464F001, 0x7464F006, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7464F001, 0x7464F007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7464F001, 0x7464F008, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7464F001, 0x7464F009, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7464F001, 0x7464F00A, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7464F001, 0x7464F00B, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7464F001, 0x7464F00C, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x7464F001, 0x7464F00D, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7464F002, 36828, 0x464F0020, 75.37264, 177.5061, 10.01, -0.1523941, 0, 0, -0.9883198,  True, '2019-02-10 00:00:00'); /* Coral Golem */

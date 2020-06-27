@@ -5,11 +5,11 @@ VALUES (0x7C863001,  1154, 0xC863003B, 181.7272, 56.83374, 13.04255, -0.6935415,
 /* @teleloc 0xC863003B [181.727200 56.833740 13.042550] -0.693542 0.000000 0.000000 -0.720417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C863001, 0x7C863002, '2019-02-10 00:00:00') /* Mox */
-     , (0x7C863001, 0x7C863003, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7C863001, 0x7C863004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C863001, 0x7C863005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7C863001, 0x7C863006, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7C863001, 0x7C863002, '2019-02-10 00:00:00') /* Mox (20188) */
+     , (0x7C863001, 0x7C863003, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7C863001, 0x7C863004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C863001, 0x7C863005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7C863001, 0x7C863006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C863002, 20188, 0xC863003B, 181.7272, 56.83374, 13.04255, -0.6935415, 0, 0, -0.7204167,  True, '2019-02-10 00:00:00'); /* Mox */

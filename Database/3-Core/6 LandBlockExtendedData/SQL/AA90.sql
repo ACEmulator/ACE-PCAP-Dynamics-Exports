@@ -5,12 +5,12 @@ VALUES (0x7AA90001,  1154, 0xAA90000C, 26.06794, 80.00893, 37.83044, -0.4438842,
 /* @teleloc 0xAA90000C [26.067940 80.008930 37.830440] -0.443884 0.000000 0.000000 -0.896084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA90001, 0x7AA90002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7AA90001, 0x7AA90003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7AA90001, 0x7AA90004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AA90001, 0x7AA90005, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AA90001, 0x7AA90006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7AA90001, 0x7AA90007, '2019-02-10 00:00:00') /* Skeleton Captain */;
+VALUES (0x7AA90001, 0x7AA90002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7AA90001, 0x7AA90003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7AA90001, 0x7AA90004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AA90001, 0x7AA90005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AA90001, 0x7AA90006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7AA90001, 0x7AA90007, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA90002,  1757, 0xAA90000C, 26.06794, 80.00893, 37.83044, -0.4438842, 0, 0, -0.8960842,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

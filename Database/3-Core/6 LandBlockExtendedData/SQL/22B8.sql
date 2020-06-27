@@ -5,20 +5,20 @@ VALUES (0x722B8001,  1154, 0x22B80004, 20.5189, 83.7489, 97.7169, 1, 0, 0, 0, Fa
 /* @teleloc 0x22B80004 [20.518900 83.748900 97.716900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B8001, 0x722B8002, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722B8001, 0x722B8003, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x722B8001, 0x722B8004, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x722B8001, 0x722B8005, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722B8001, 0x722B8006, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x722B8001, 0x722B8007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722B8001, 0x722B8008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x722B8001, 0x722B8009, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x722B8001, 0x722B800A, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x722B8001, 0x722B800B, '2019-02-10 00:00:00') /* Poacher */
-     , (0x722B8001, 0x722B800C, '2019-02-10 00:00:00') /* Poacher */
-     , (0x722B8001, 0x722B800D, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722B8001, 0x722B800E, '2019-02-10 00:00:00') /* Kithless Siraluun */
-     , (0x722B8001, 0x722B800F, '2019-02-10 00:00:00') /* Mercenary */;
+VALUES (0x722B8001, 0x722B8002, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722B8001, 0x722B8003, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x722B8001, 0x722B8004, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x722B8001, 0x722B8005, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722B8001, 0x722B8006, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x722B8001, 0x722B8007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722B8001, 0x722B8008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x722B8001, 0x722B8009, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x722B8001, 0x722B800A, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x722B8001, 0x722B800B, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x722B8001, 0x722B800C, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x722B8001, 0x722B800D, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722B8001, 0x722B800E, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x722B8001, 0x722B800F, '2019-02-10 00:00:00') /* Mercenary (11504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B8002, 11511, 0x22B80004, 20.5189, 83.7489, 97.7169, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Nualuan */
@@ -81,11 +81,11 @@ VALUES (0x722B8010,  1542, 0x22B8002A, 138.868, 47.36794, 103, 1, 0, 0, 0, False
 /* @teleloc 0x22B8002A [138.868000 47.367940 103.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722B8010, 0x722B8011, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722B8010, 0x722B8012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x722B8010, 0x722B8013, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x722B8010, 0x722B8014, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x722B8010, 0x722B8015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x722B8010, 0x722B8011, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722B8010, 0x722B8012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x722B8010, 0x722B8013, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x722B8010, 0x722B8014, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x722B8010, 0x722B8015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722B8011,  9024, 0x22B8002A, 138.868, 47.36794, 103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

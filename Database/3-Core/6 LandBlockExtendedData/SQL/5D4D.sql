@@ -57,142 +57,142 @@ VALUES (0x75D4D08E,  1154, 0x5D4D0323, -2.48898, -89.42, -11.997, 0.678557, 0, 0
 /* @teleloc 0x5D4D0323 [-2.488980 -89.420000 -11.997000] 0.678557 0.000000 0.000000 -0.734548 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D08E, 0x75D4D08F, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D090, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D091, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D092, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D093, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D094, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D095, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D096, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D097, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D098, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D099, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D09A, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D09B, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D09C, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D09D, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D09E, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D09F, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0A0, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0A1, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0A2, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0A3, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0A4, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0A5, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0A6, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0A7, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0A8, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0A9, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0AA, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0AB, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0AC, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0AD, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0AE, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0AF, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0B0, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0B1, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0B2, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0B3, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0B4, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0B5, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0B6, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0B7, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0B8, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0B9, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0BA, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0BB, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0BC, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0BD, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0BE, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0BF, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0C0, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0C1, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0C2, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0C3, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0C4, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0C5, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0C6, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0C7, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0C8, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0C9, '2019-02-10 00:00:00') /* Demilich */
-     , (0x75D4D08E, 0x75D4D0CA, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0CB, '2019-02-10 00:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D08E, 0x75D4D0CC, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0CD, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D0CE, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0CF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0D0, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0D1, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0D2, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D0D3, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0D4, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0D5, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0D6, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0D7, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0D8, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0D9, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DA, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DD, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DE, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0DF, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0E0, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0E1, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0E2, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0E3, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0E4, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0E5, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0E6, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0E7, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0E8, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0E9, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0EA, '2019-02-10 00:00:00') /* Skeletal Fiend */
-     , (0x75D4D08E, 0x75D4D0EB, '2019-02-10 00:00:00') /* Elite Revenant */
-     , (0x75D4D08E, 0x75D4D0EC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0ED, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */
-     , (0x75D4D08E, 0x75D4D0EE, '2019-02-10 00:00:00') /* Armored Skeleton Lord */
-     , (0x75D4D08E, 0x75D4D0EF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F0, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F1, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F2, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F3, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F4, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D0F5, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F6, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F7, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F8, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0F9, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D0FA, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D0FB, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0FC, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0FD, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0FE, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D0FF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D100, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D101, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D102, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D103, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D104, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D105, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D106, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D107, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D108, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D109, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D10A, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior */
-     , (0x75D4D08E, 0x75D4D10B, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D10C, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D10D, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D10E, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D10F, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D110, '2019-02-10 00:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D08E, 0x75D4D111, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D112, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian */
-     , (0x75D4D08E, 0x75D4D113, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D114, '2019-02-10 00:00:00') /* Olthoi Brood Matron */
-     , (0x75D4D08E, 0x75D4D115, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x75D4D08E, 0x75D4D116, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator */;
+VALUES (0x75D4D08E, 0x75D4D08F, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D090, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D091, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D092, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D093, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D094, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D095, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D096, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D097, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D098, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D099, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D09A, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D09B, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D09C, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D09D, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D09E, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D09F, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0A0, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0A1, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0A2, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0A3, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0A4, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0A5, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0A6, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0A7, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0A8, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0A9, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0AA, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0AB, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0AC, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0AD, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0AE, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0AF, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0B0, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0B1, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0B2, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0B3, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0B4, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0B5, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0B6, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0B7, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0B8, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0B9, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0BA, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0BB, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0BC, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0BD, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0BE, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0BF, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0C0, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0C1, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0C2, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0C3, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0C4, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0C5, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0C6, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0C7, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0C8, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0C9, '2019-02-10 00:00:00') /* Demilich (25808) */
+     , (0x75D4D08E, 0x75D4D0CA, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0CB, '2019-02-10 00:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D08E, 0x75D4D0CC, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0CD, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D0CE, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0CF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0D0, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0D1, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0D2, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D0D3, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0D4, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0D5, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0D6, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0D7, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0D8, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0D9, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DA, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DB, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DD, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DE, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0DF, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0E0, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0E1, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0E2, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0E3, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0E4, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0E5, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0E6, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0E7, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0E8, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0E9, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0EA, '2019-02-10 00:00:00') /* Skeletal Fiend (25805) */
+     , (0x75D4D08E, 0x75D4D0EB, '2019-02-10 00:00:00') /* Elite Revenant (25809) */
+     , (0x75D4D08E, 0x75D4D0EC, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0ED, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x75D4D08E, 0x75D4D0EE, '2019-02-10 00:00:00') /* Armored Skeleton Lord (25804) */
+     , (0x75D4D08E, 0x75D4D0EF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F0, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F1, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F2, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F3, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F4, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D0F5, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F6, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F7, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F8, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0F9, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D0FA, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D0FB, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0FC, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0FD, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0FE, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D0FF, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D100, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D101, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D102, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D103, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D104, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D105, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D106, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D107, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D108, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D109, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D10A, '2019-02-10 00:00:00') /* Olthoi Swarm Warrior (24305) */
+     , (0x75D4D08E, 0x75D4D10B, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D10C, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D10D, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D10E, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D10F, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D110, '2019-02-10 00:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D08E, 0x75D4D111, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D112, '2019-02-10 00:00:00') /* Olthoi Swarm Guardian (23987) */
+     , (0x75D4D08E, 0x75D4D113, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D114, '2019-02-10 00:00:00') /* Olthoi Brood Matron (24296) */
+     , (0x75D4D08E, 0x75D4D115, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x75D4D08E, 0x75D4D116, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D08F, 25804, 0x5D4D0323, -2.48898, -89.42, -11.997, 0.678557, 0, 0, -0.734548,  True, '2019-02-10 00:00:00'); /* Armored Skeleton Lord */
@@ -743,7 +743,7 @@ VALUES (0x75D4D117,  1542, 0x5D4D013A, 120.192, -491.471, -47.921, -0.949508, 0,
 /* @teleloc 0x5D4D013A [120.192000 -491.471000 -47.921000] -0.949508 0.000000 0.000000 -0.313743 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D4D117, 0x75D4D118, '2019-02-10 00:00:00') /* Untranslated Note */;
+VALUES (0x75D4D117, 0x75D4D118, '2019-02-10 00:00:00') /* Untranslated Note (25697) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D4D118, 25697, 0x5D4D013A, 120.192, -491.471, -47.921, -0.949508, 0, 0, -0.313743,  True, '2019-02-10 00:00:00'); /* Untranslated Note */

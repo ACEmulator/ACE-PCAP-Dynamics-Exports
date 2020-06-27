@@ -5,16 +5,16 @@ VALUES (0x744C3001,  1154, 0x44C30004, 5.996001, 72.72515, 5.589762, 0.8191521, 
 /* @teleloc 0x44C30004 [5.996001 72.725150 5.589762] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744C3001, 0x744C3002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x744C3001, 0x744C3003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x744C3001, 0x744C3004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x744C3001, 0x744C3005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x744C3001, 0x744C3006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x744C3001, 0x744C3007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x744C3001, 0x744C3008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x744C3001, 0x744C3009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x744C3001, 0x744C300A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x744C3001, 0x744C300B, '2019-02-10 00:00:00') /* Gauloth Shreth */;
+VALUES (0x744C3001, 0x744C3002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x744C3001, 0x744C3003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x744C3001, 0x744C3004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x744C3001, 0x744C3005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x744C3001, 0x744C3006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x744C3001, 0x744C3007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x744C3001, 0x744C3008, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x744C3001, 0x744C3009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x744C3001, 0x744C300A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x744C3001, 0x744C300B, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744C3002,  7340, 0x44C30004, 5.996001, 72.72515, 5.589762, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

@@ -5,12 +5,12 @@ VALUES (0x7C988001,  1154, 0xC9880007, 19.40748, 144.2408, 24.37471, -0.9818757,
 /* @teleloc 0xC9880007 [19.407480 144.240800 24.374710] -0.981876 0.000000 0.000000 -0.189526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C988001, 0x7C988002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C988001, 0x7C988003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C988001, 0x7C988004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C988001, 0x7C988005, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C988001, 0x7C988006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C988001, 0x7C988007, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7C988001, 0x7C988002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C988001, 0x7C988003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C988001, 0x7C988004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C988001, 0x7C988005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C988001, 0x7C988006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C988001, 0x7C988007, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C988002, 24937, 0xC9880007, 19.40748, 144.2408, 24.37471, -0.9818757, 0, 0, -0.1895263,  True, '2019-02-10 00:00:00'); /* Chicken */

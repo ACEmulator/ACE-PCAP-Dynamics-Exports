@@ -5,23 +5,23 @@ VALUES (0x7155C001,  1154, 0x155C0021, 117.8279, 8.105173, 57.15071, 0.9919766, 
 /* @teleloc 0x155C0021 [117.827900 8.105173 57.150710] 0.991977 0.000000 0.000000 -0.126422 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7155C001, 0x7155C002, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7155C001, 0x7155C003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7155C001, 0x7155C004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7155C001, 0x7155C005, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7155C001, 0x7155C006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x7155C001, 0x7155C007, '2019-02-10 00:00:00') /* Gotrok Titan */
-     , (0x7155C001, 0x7155C008, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7155C001, 0x7155C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7155C001, 0x7155C00A, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7155C001, 0x7155C00B, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x7155C001, 0x7155C00C, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7155C001, 0x7155C00D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7155C001, 0x7155C00E, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x7155C001, 0x7155C00F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7155C001, 0x7155C010, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7155C001, 0x7155C011, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7155C001, 0x7155C012, '2019-02-10 00:00:00') /* Banderling Scalper */;
+VALUES (0x7155C001, 0x7155C002, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7155C001, 0x7155C003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7155C001, 0x7155C004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7155C001, 0x7155C005, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x7155C001, 0x7155C006, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x7155C001, 0x7155C007, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x7155C001, 0x7155C008, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7155C001, 0x7155C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7155C001, 0x7155C00A, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7155C001, 0x7155C00B, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x7155C001, 0x7155C00C, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7155C001, 0x7155C00D, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7155C001, 0x7155C00E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x7155C001, 0x7155C00F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7155C001, 0x7155C010, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x7155C001, 0x7155C011, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7155C001, 0x7155C012, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7155C002, 36820, 0x155C0021, 117.8279, 8.105173, 57.15071, 0.9919766, 0, 0, -0.1264215,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
@@ -96,8 +96,8 @@ VALUES (0x7155C013,  1542, 0x155C0021, 101.688, 5.991469, 55.92412, 0.9990482, 0
 /* @teleloc 0x155C0021 [101.688000 5.991469 55.924120] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7155C013, 0x7155C014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7155C013, 0x7155C015, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7155C013, 0x7155C014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7155C013, 0x7155C015, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7155C014,  4179, 0x155C0021, 101.688, 5.991469, 55.92412, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

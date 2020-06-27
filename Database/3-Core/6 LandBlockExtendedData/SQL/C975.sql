@@ -5,9 +5,9 @@ VALUES (0x7C975001,  1154, 0xC9750010, 33.38958, 181.9621, 22.0085, -0.02653578,
 /* @teleloc 0xC9750010 [33.389580 181.962100 22.008500] -0.026536 0.000000 0.000000 -0.999648 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C975001, 0x7C975002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C975001, 0x7C975003, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C975001, 0x7C975004, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x7C975001, 0x7C975002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C975001, 0x7C975003, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C975001, 0x7C975004, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C975002,   181, 0xC9750010, 33.38958, 181.9621, 22.0085, -0.02653578, 0, 0, -0.9996479,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

@@ -5,11 +5,11 @@ VALUES (0x7BAC2001,  1154, 0xBAC20036, 160.9183, 122.2003, 262.8508, 0.7071068, 
 /* @teleloc 0xBAC20036 [160.918300 122.200300 262.850800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAC2001, 0x7BAC2002, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7BAC2001, 0x7BAC2003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BAC2001, 0x7BAC2004, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BAC2001, 0x7BAC2005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7BAC2001, 0x7BAC2006, '2019-02-10 00:00:00') /* Northern Black Claw Raider */;
+VALUES (0x7BAC2001, 0x7BAC2002, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7BAC2001, 0x7BAC2003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BAC2001, 0x7BAC2004, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BAC2001, 0x7BAC2005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7BAC2001, 0x7BAC2006, '2019-02-10 00:00:00') /* Northern Black Claw Raider (10710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAC2002,  2574, 0xBAC20036, 160.9183, 122.2003, 262.8508, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rough Monouga */
@@ -36,7 +36,7 @@ VALUES (0x7BAC2007,  1542, 0xBAC20036, 162.9347, 120.2888, 263.5057, 0.9990482, 
 /* @teleloc 0xBAC20036 [162.934700 120.288800 263.505700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAC2007, 0x7BAC2008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BAC2007, 0x7BAC2008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAC2008,  4179, 0xBAC20036, 162.9347, 120.2888, 263.5057, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

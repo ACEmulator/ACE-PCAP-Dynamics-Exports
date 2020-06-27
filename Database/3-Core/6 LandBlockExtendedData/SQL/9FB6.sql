@@ -5,12 +5,12 @@ VALUES (0x79FB6001,  1154, 0x9FB6000B, 46.10317, 69.67082, 98.55626, 0.7281229, 
 /* @teleloc 0x9FB6000B [46.103170 69.670820 98.556260] 0.728123 0.000000 0.000000 -0.685447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB6001, 0x79FB6002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x79FB6001, 0x79FB6003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79FB6001, 0x79FB6004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FB6001, 0x79FB6005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79FB6001, 0x79FB6006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FB6001, 0x79FB6007, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x79FB6001, 0x79FB6002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x79FB6001, 0x79FB6003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79FB6001, 0x79FB6004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FB6001, 0x79FB6005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79FB6001, 0x79FB6006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FB6001, 0x79FB6007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB6002, 11528, 0x9FB6000B, 46.10317, 69.67082, 98.55626, 0.7281229, 0, 0, -0.6854466,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

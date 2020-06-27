@@ -5,30 +5,30 @@ VALUES (0x71D70001,  1154, 0x1D700026, 111.6164, 133.2647, 47.80633, -0.727764, 
 /* @teleloc 0x1D700026 [111.616400 133.264700 47.806330] -0.727764 0.000000 0.000000 -0.685828 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D70001, 0x71D70002, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x71D70001, 0x71D70003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71D70001, 0x71D70004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71D70001, 0x71D70005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71D70001, 0x71D70006, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71D70001, 0x71D70007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71D70001, 0x71D70008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71D70001, 0x71D70009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71D70001, 0x71D7000A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71D70001, 0x71D7000B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x71D70001, 0x71D7000C, '2019-02-10 00:00:00') /* Brumal */
-     , (0x71D70001, 0x71D7000D, '2019-02-10 00:00:00') /* Horripal */
-     , (0x71D70001, 0x71D7000E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71D70001, 0x71D7000F, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71D70001, 0x71D70010, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71D70001, 0x71D70011, '2019-02-10 00:00:00') /* Hyem */
-     , (0x71D70001, 0x71D70012, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71D70001, 0x71D70013, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71D70001, 0x71D70014, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71D70001, 0x71D70015, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71D70001, 0x71D70016, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71D70001, 0x71D70017, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71D70001, 0x71D70018, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71D70001, 0x71D70019, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x71D70001, 0x71D70002, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x71D70001, 0x71D70003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71D70001, 0x71D70004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71D70001, 0x71D70005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71D70001, 0x71D70006, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71D70001, 0x71D70007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71D70001, 0x71D70008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71D70001, 0x71D70009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71D70001, 0x71D7000A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71D70001, 0x71D7000B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x71D70001, 0x71D7000C, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x71D70001, 0x71D7000D, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x71D70001, 0x71D7000E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71D70001, 0x71D7000F, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71D70001, 0x71D70010, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71D70001, 0x71D70011, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x71D70001, 0x71D70012, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71D70001, 0x71D70013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71D70001, 0x71D70014, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71D70001, 0x71D70015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71D70001, 0x71D70016, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71D70001, 0x71D70017, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71D70001, 0x71D70018, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71D70001, 0x71D70019, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D70002, 24134, 0x1D700026, 111.6164, 133.2647, 47.80633, -0.727764, 0, 0, -0.6858276,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
@@ -131,8 +131,8 @@ VALUES (0x71D7001A,  1542, 0x1D70003E, 182.5439, 130.6634, 50.42398, 0.8127266, 
 /* @teleloc 0x1D70003E [182.543900 130.663400 50.423980] 0.812727 0.000000 0.000000 -0.582645 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71D7001A, 0x71D7001B, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x71D7001A, 0x71D7001C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x71D7001A, 0x71D7001B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x71D7001A, 0x71D7001C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D7001B,  8646, 0x1D70003E, 182.5439, 130.6634, 50.42398, 0.8127266, 0, 0, -0.5826452,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

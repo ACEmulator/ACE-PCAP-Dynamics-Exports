@@ -5,36 +5,36 @@ VALUES (0x7BF82001,  1154, 0xBF820021, 119.7497, 16.28765, 34.64269, -0.8741596,
 /* @teleloc 0xBF820021 [119.749700 16.287650 34.642690] -0.874160 0.000000 0.000000 -0.485639 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF82001, 0x7BF82002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF82001, 0x7BF82003, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7BF82001, 0x7BF82004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BF82001, 0x7BF82008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BF82001, 0x7BF82009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF8200A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF8200B, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7BF82001, 0x7BF8200C, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF82001, 0x7BF8200D, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7BF82001, 0x7BF8200E, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7BF82001, 0x7BF8200F, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BF82001, 0x7BF82010, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF82001, 0x7BF82011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BF82001, 0x7BF82012, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82013, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF82001, 0x7BF82014, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BF82001, 0x7BF82015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82016, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82017, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7BF82001, 0x7BF82018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BF82001, 0x7BF82019, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF82001, 0x7BF8201A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF82001, 0x7BF8201B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BF82001, 0x7BF8201C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF82001, 0x7BF8201D, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF82001, 0x7BF8201E, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF82001, 0x7BF8201F, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7BF82001, 0x7BF82002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF82001, 0x7BF82003, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7BF82001, 0x7BF82004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BF82001, 0x7BF82008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BF82001, 0x7BF82009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF8200A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF8200B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BF82001, 0x7BF8200C, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF82001, 0x7BF8200D, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7BF82001, 0x7BF8200E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7BF82001, 0x7BF8200F, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BF82001, 0x7BF82010, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF82001, 0x7BF82011, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BF82001, 0x7BF82012, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82013, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF82001, 0x7BF82014, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BF82001, 0x7BF82015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82016, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82017, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BF82001, 0x7BF82018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BF82001, 0x7BF82019, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF82001, 0x7BF8201A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF82001, 0x7BF8201B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BF82001, 0x7BF8201C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF82001, 0x7BF8201D, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF82001, 0x7BF8201E, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF82001, 0x7BF8201F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF82002,  2566, 0xBF820021, 119.7497, 16.28765, 34.64269, -0.8741596, 0, 0, -0.4856388,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -161,7 +161,7 @@ VALUES (0x7BF82020,  1542, 0xBF82000B, 24.84996, 68.20035, 39.60195, 1, 0, 0, 0,
 /* @teleloc 0xBF82000B [24.849960 68.200350 39.601950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF82020, 0x7BF82021, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7BF82020, 0x7BF82021, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF82021,   265, 0xBF82000B, 24.84996, 68.20035, 39.60195, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

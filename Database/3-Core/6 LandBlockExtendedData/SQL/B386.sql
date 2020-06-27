@@ -5,13 +5,13 @@ VALUES (0x7B386001,  1154, 0xB386002E, 132.3627, 140.2162, 48.36814, 0.09348083,
 /* @teleloc 0xB386002E [132.362700 140.216200 48.368140] 0.093481 0.000000 0.000000 -0.995621 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B386001, 0x7B386002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B386001, 0x7B386003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7B386001, 0x7B386004, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7B386001, 0x7B386005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B386001, 0x7B386006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B386001, 0x7B386007, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7B386001, 0x7B386008, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x7B386001, 0x7B386002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B386001, 0x7B386003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7B386001, 0x7B386004, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7B386001, 0x7B386005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B386001, 0x7B386006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B386001, 0x7B386007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7B386001, 0x7B386008, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B386002,  5497, 0xB386002E, 132.3627, 140.2162, 48.36814, 0.09348083, 0, 0, -0.9956211,  True, '2019-02-10 00:00:00'); /* Virindi Director */

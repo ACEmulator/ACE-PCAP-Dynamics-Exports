@@ -5,19 +5,19 @@ VALUES (0x78E4C001,  1154, 0x8E4C0100, 58.6697, 83.1872, 9.995, -0.8990285, 0, 0
 /* @teleloc 0x8E4C0100 [58.669700 83.187200 9.995000] -0.899029 0.000000 0.000000 -0.437890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E4C001, 0x78E4C002, '2019-02-10 00:00:00') /* Odd Looking Vine */
-     , (0x78E4C001, 0x78E4C003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E4C001, 0x78E4C004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E4C001, 0x78E4C005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78E4C001, 0x78E4C006, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x78E4C001, 0x78E4C007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78E4C001, 0x78E4C008, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x78E4C001, 0x78E4C009, '2019-02-10 00:00:00') /* Dune Reaver */
-     , (0x78E4C001, 0x78E4C00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78E4C001, 0x78E4C00B, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x78E4C001, 0x78E4C00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x78E4C001, 0x78E4C00D, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78E4C001, 0x78E4C00E, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x78E4C001, 0x78E4C002, '2019-02-10 00:00:00') /* Odd Looking Vine (27174) */
+     , (0x78E4C001, 0x78E4C003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E4C001, 0x78E4C004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E4C001, 0x78E4C005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78E4C001, 0x78E4C006, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x78E4C001, 0x78E4C007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78E4C001, 0x78E4C008, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x78E4C001, 0x78E4C009, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x78E4C001, 0x78E4C00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78E4C001, 0x78E4C00B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x78E4C001, 0x78E4C00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x78E4C001, 0x78E4C00D, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78E4C001, 0x78E4C00E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E4C002, 27174, 0x8E4C0100, 58.6697, 83.1872, 9.995, -0.8990285, 0, 0, -0.4378902,  True, '2019-02-10 00:00:00'); /* Odd Looking Vine */
@@ -76,7 +76,7 @@ VALUES (0x78E4C00F,  1154, 0x8E4C0014, 65.287, 94.7705, 10.029, -0.167572, 0, 0,
 /* @teleloc 0x8E4C0014 [65.287000 94.770500 10.029000] -0.167572 0.000000 0.000000 0.985860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E4C00F, 0x78E4C010, '2019-02-10 00:00:00') /* Watcher of the Dead */;
+VALUES (0x78E4C00F, 0x78E4C010, '2019-02-10 00:00:00') /* Watcher of the Dead (29709) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E4C010, 29709, 0x8E4C0014, 65.287, 94.7705, 10.029, -0.167572, 0, 0, 0.9858599,  True, '2019-02-10 00:00:00'); /* Watcher of the Dead */
@@ -87,8 +87,8 @@ VALUES (0x78E4C011,  1542, 0x8E4C0017, 57.77125, 148.4636, 13.17427, 1, 0, 0, 0,
 /* @teleloc 0x8E4C0017 [57.771250 148.463600 13.174270] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E4C011, 0x78E4C012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78E4C011, 0x78E4C013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x78E4C011, 0x78E4C012, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x78E4C011, 0x78E4C013, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E4C012, 22576, 0x8E4C0017, 57.77125, 148.4636, 13.17427, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

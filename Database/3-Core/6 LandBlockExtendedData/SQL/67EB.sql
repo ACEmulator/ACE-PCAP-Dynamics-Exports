@@ -5,10 +5,10 @@ VALUES (0x767EB001,  1154, 0x67EB0028, 116.6703, 180.3928, 0.004999995, 0.891874
 /* @teleloc 0x67EB0028 [116.670300 180.392800 0.005000] 0.891874 0.000000 0.000000 -0.452284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767EB001, 0x767EB002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x767EB001, 0x767EB003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x767EB001, 0x767EB004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x767EB001, 0x767EB005, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x767EB001, 0x767EB002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x767EB001, 0x767EB003, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x767EB001, 0x767EB004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x767EB001, 0x767EB005, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767EB002, 23564, 0x67EB0028, 116.6703, 180.3928, 0.004999995, 0.891874, 0, 0, -0.4522839,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

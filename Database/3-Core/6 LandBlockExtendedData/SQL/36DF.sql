@@ -13,8 +13,8 @@ VALUES (0x736DF002,  1154, 0x36DF0011, 53.25285, 0.2885742, 1.960952, -0.9711986
 /* @teleloc 0x36DF0011 [53.252850 0.288574 1.960952] -0.971199 0.000000 0.000000 -0.238272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x736DF002, 0x736DF003, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x736DF002, 0x736DF004, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x736DF002, 0x736DF003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x736DF002, 0x736DF004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736DF003,  4110, 0x36DF0011, 53.25285, 0.2885742, 1.960952, -0.9711986, 0, 0, -0.2382715,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

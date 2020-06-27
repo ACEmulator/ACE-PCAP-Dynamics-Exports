@@ -5,16 +5,16 @@ VALUES (0x774CD001,  1154, 0x74CD0011, 52.14181, 2.14679, 242.3371, 0.9238795, 0
 /* @teleloc 0x74CD0011 [52.141810 2.146790 242.337100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x774CD001, 0x774CD002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774CD001, 0x774CD003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x774CD001, 0x774CD004, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x774CD001, 0x774CD005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774CD001, 0x774CD006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x774CD001, 0x774CD007, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x774CD001, 0x774CD008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x774CD001, 0x774CD009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x774CD001, 0x774CD00A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x774CD001, 0x774CD00B, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x774CD001, 0x774CD002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774CD001, 0x774CD003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x774CD001, 0x774CD004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x774CD001, 0x774CD005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774CD001, 0x774CD006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x774CD001, 0x774CD007, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x774CD001, 0x774CD008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x774CD001, 0x774CD009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x774CD001, 0x774CD00A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x774CD001, 0x774CD00B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x774CD002,  7090, 0x74CD0011, 52.14181, 2.14679, 242.3371, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

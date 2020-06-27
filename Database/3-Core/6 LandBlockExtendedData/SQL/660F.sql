@@ -5,14 +5,14 @@ VALUES (0x7660F001,  1154, 0x660F0020, 85.43419, 181.525, -0.09749997, -0.014675
 /* @teleloc 0x660F0020 [85.434190 181.525000 -0.097500] -0.014675 0.000000 0.000000 -0.999892 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7660F001, 0x7660F002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7660F001, 0x7660F003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7660F001, 0x7660F004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7660F001, 0x7660F005, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7660F001, 0x7660F006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7660F001, 0x7660F007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7660F001, 0x7660F008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7660F001, 0x7660F009, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7660F001, 0x7660F002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7660F001, 0x7660F003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7660F001, 0x7660F004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7660F001, 0x7660F005, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7660F001, 0x7660F006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7660F001, 0x7660F007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7660F001, 0x7660F008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7660F001, 0x7660F009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7660F002,  7179, 0x660F0020, 85.43419, 181.525, -0.09749997, -0.01467513, 0, 0, -0.9998923,  True, '2019-02-10 00:00:00'); /* Relic Bones */

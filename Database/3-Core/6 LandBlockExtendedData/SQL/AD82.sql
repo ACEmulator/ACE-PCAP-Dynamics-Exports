@@ -5,16 +5,16 @@ VALUES (0x7AD82001,  1154, 0xAD82003F, 170.0061, 146.6008, 32.12011, -0.775462, 
 /* @teleloc 0xAD82003F [170.006100 146.600800 32.120110] -0.775462 0.000000 0.000000 -0.631394 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD82001, 0x7AD82002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AD82001, 0x7AD82003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD82001, 0x7AD82004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AD82001, 0x7AD82005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7AD82001, 0x7AD82006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD82001, 0x7AD82007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD82001, 0x7AD82008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7AD82001, 0x7AD82009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD82001, 0x7AD8200A, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AD82001, 0x7AD8200B, '2019-02-10 00:00:00') /* Innocuous Doll */;
+VALUES (0x7AD82001, 0x7AD82002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AD82001, 0x7AD82003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD82001, 0x7AD82004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AD82001, 0x7AD82005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7AD82001, 0x7AD82006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7AD82001, 0x7AD82007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD82001, 0x7AD82008, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7AD82001, 0x7AD82009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD82001, 0x7AD8200A, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AD82001, 0x7AD8200B, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD82002,  1756, 0xAD82003F, 170.0061, 146.6008, 32.12011, -0.775462, 0, 0, -0.6313941,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -61,9 +61,9 @@ VALUES (0x7AD8200C,  1542, 0xAD82003C, 171.7776, 85.55111, 31.7567, 1, 0, 0, 0, 
 /* @teleloc 0xAD82003C [171.777600 85.551110 31.756700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD8200C, 0x7AD8200D, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7AD8200C, 0x7AD8200E, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7AD8200C, 0x7AD8200F, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7AD8200C, 0x7AD8200D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7AD8200C, 0x7AD8200E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7AD8200C, 0x7AD8200F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD8200D, 31443, 0xAD82003C, 171.7776, 85.55111, 31.7567, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

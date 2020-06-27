@@ -5,81 +5,81 @@ VALUES (0x777EA001,  1154, 0x77EA0011, 63.02828, 22.07939, 145.5063, 0.7142731, 
 /* @teleloc 0x77EA0011 [63.028280 22.079390 145.506300] 0.714273 0.000000 0.000000 -0.699867 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777EA001, 0x777EA002, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA003, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA004, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA005, '2019-02-10 00:00:00') /* Snow Tuskie */
-     , (0x777EA001, 0x777EA006, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA007, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA008, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA009, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA00A, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA00B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777EA001, 0x777EA00C, '2019-02-10 00:00:00') /* Snow Tusker */
-     , (0x777EA001, 0x777EA00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777EA001, 0x777EA00E, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x777EA001, 0x777EA00F, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA010, '2019-02-10 00:00:00') /* Snow Tuskie */
-     , (0x777EA001, 0x777EA011, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA012, '2019-02-10 00:00:00') /* Snow Tuskie */
-     , (0x777EA001, 0x777EA013, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA014, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x777EA001, 0x777EA015, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x777EA001, 0x777EA016, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x777EA001, 0x777EA017, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x777EA001, 0x777EA018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x777EA001, 0x777EA019, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x777EA001, 0x777EA01A, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA01B, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA01C, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA01D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EA001, 0x777EA01E, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA01F, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA020, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EA001, 0x777EA021, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x777EA001, 0x777EA022, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x777EA001, 0x777EA023, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x777EA001, 0x777EA024, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x777EA001, 0x777EA025, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA026, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA027, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x777EA001, 0x777EA028, '2019-02-10 00:00:00') /* Snow Tuskie */
-     , (0x777EA001, 0x777EA029, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA02A, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA02B, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA02C, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA02D, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA02E, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA02F, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA030, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA031, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA032, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA033, '2019-02-10 00:00:00') /* Gurog Minion */
-     , (0x777EA001, 0x777EA034, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA035, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777EA001, 0x777EA036, '2019-02-10 00:00:00') /* Snow Tusker Warrior */
-     , (0x777EA001, 0x777EA037, '2019-02-10 00:00:00') /* Snow Tuskie */
-     , (0x777EA001, 0x777EA038, '2019-02-10 00:00:00') /* Snow Tusker Warrior */
-     , (0x777EA001, 0x777EA039, '2019-02-10 00:00:00') /* Snow Tusker Warrior */
-     , (0x777EA001, 0x777EA03A, '2019-02-10 00:00:00') /* Snow Tusker Warrior */
-     , (0x777EA001, 0x777EA03B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x777EA001, 0x777EA03C, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA03D, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA03E, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA03F, '2019-02-10 00:00:00') /* Snow Tusker Warrior */
-     , (0x777EA001, 0x777EA040, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA041, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA042, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA043, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA044, '2019-02-10 00:00:00') /* Gurog Soldier */
-     , (0x777EA001, 0x777EA045, '2019-02-10 00:00:00') /* Gurog Henchman */
-     , (0x777EA001, 0x777EA046, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA047, '2019-02-10 00:00:00') /* Frozen Wight */
-     , (0x777EA001, 0x777EA048, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA049, '2019-02-10 00:00:00') /* Snow Tusker Leader */
-     , (0x777EA001, 0x777EA04A, '2019-02-10 00:00:00') /* Snow Tusker */
-     , (0x777EA001, 0x777EA04B, '2019-02-10 00:00:00') /* Snow Tusker */
-     , (0x777EA001, 0x777EA04C, '2019-02-10 00:00:00') /* Gurog Henchman */;
+VALUES (0x777EA001, 0x777EA002, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA003, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA004, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA005, '2019-02-10 00:00:00') /* Snow Tuskie (51435) */
+     , (0x777EA001, 0x777EA006, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA007, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA008, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA009, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA00A, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA00B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777EA001, 0x777EA00C, '2019-02-10 00:00:00') /* Snow Tusker (43592) */
+     , (0x777EA001, 0x777EA00D, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777EA001, 0x777EA00E, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x777EA001, 0x777EA00F, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA010, '2019-02-10 00:00:00') /* Snow Tuskie (51435) */
+     , (0x777EA001, 0x777EA011, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA012, '2019-02-10 00:00:00') /* Snow Tuskie (51435) */
+     , (0x777EA001, 0x777EA013, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA014, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x777EA001, 0x777EA015, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x777EA001, 0x777EA016, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x777EA001, 0x777EA017, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x777EA001, 0x777EA018, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x777EA001, 0x777EA019, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x777EA001, 0x777EA01A, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA01B, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA01C, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA01D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EA001, 0x777EA01E, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA01F, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA020, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EA001, 0x777EA021, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x777EA001, 0x777EA022, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x777EA001, 0x777EA023, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x777EA001, 0x777EA024, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x777EA001, 0x777EA025, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA026, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA027, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x777EA001, 0x777EA028, '2019-02-10 00:00:00') /* Snow Tuskie (51435) */
+     , (0x777EA001, 0x777EA029, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA02A, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA02B, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA02C, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA02D, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA02E, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA02F, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA030, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA031, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA032, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA033, '2019-02-10 00:00:00') /* Gurog Minion (43395) */
+     , (0x777EA001, 0x777EA034, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA035, '2019-02-10 00:00:00') /* Frost Golem (43163) */
+     , (0x777EA001, 0x777EA036, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43593) */
+     , (0x777EA001, 0x777EA037, '2019-02-10 00:00:00') /* Snow Tuskie (51435) */
+     , (0x777EA001, 0x777EA038, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43593) */
+     , (0x777EA001, 0x777EA039, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43593) */
+     , (0x777EA001, 0x777EA03A, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43593) */
+     , (0x777EA001, 0x777EA03B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x777EA001, 0x777EA03C, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA03D, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA03E, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA03F, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43593) */
+     , (0x777EA001, 0x777EA040, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA041, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA042, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA043, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA044, '2019-02-10 00:00:00') /* Gurog Soldier (43396) */
+     , (0x777EA001, 0x777EA045, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */
+     , (0x777EA001, 0x777EA046, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA047, '2019-02-10 00:00:00') /* Frozen Wight (43822) */
+     , (0x777EA001, 0x777EA048, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA049, '2019-02-10 00:00:00') /* Snow Tusker Leader (43594) */
+     , (0x777EA001, 0x777EA04A, '2019-02-10 00:00:00') /* Snow Tusker (43592) */
+     , (0x777EA001, 0x777EA04B, '2019-02-10 00:00:00') /* Snow Tusker (43592) */
+     , (0x777EA001, 0x777EA04C, '2019-02-10 00:00:00') /* Gurog Henchman (43394) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777EA002, 43163, 0x77EA0011, 63.02828, 22.07939, 145.5063, 0.7142731, 0, 0, -0.6998671,  True, '2019-02-10 00:00:00'); /* Frost Golem */
@@ -386,8 +386,8 @@ VALUES (0x777EA04D,  1542, 0x77EA0010, 47.91725, 180.9166, 203.9077, -4.371139E-
 /* @teleloc 0x77EA0010 [47.917250 180.916600 203.907700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777EA04D, 0x777EA04E, '2019-02-10 00:00:00') /* Bones */
-     , (0x777EA04D, 0x777EA04F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x777EA04D, 0x777EA04E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x777EA04D, 0x777EA04F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777EA04E,  4380, 0x77EA0010, 47.91725, 180.9166, 203.9077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

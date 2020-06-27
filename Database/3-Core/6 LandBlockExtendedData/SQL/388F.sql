@@ -5,26 +5,26 @@ VALUES (0x7388F001,  1154, 0x388F0015, 58.7599, 104.6344, 48.35881, 0.8028538, 0
 /* @teleloc 0x388F0015 [58.759900 104.634400 48.358810] 0.802854 0.000000 0.000000 -0.596176 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388F001, 0x7388F002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7388F001, 0x7388F003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7388F001, 0x7388F004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7388F001, 0x7388F005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7388F001, 0x7388F006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7388F001, 0x7388F007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7388F001, 0x7388F008, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7388F001, 0x7388F009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7388F001, 0x7388F00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x7388F001, 0x7388F00B, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7388F001, 0x7388F00C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7388F001, 0x7388F00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7388F001, 0x7388F00E, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7388F001, 0x7388F00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7388F001, 0x7388F010, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7388F001, 0x7388F011, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7388F001, 0x7388F012, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7388F001, 0x7388F013, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7388F001, 0x7388F014, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7388F001, 0x7388F015, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x7388F001, 0x7388F002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7388F001, 0x7388F003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7388F001, 0x7388F004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7388F001, 0x7388F005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7388F001, 0x7388F006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7388F001, 0x7388F007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7388F001, 0x7388F008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7388F001, 0x7388F009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7388F001, 0x7388F00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x7388F001, 0x7388F00B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7388F001, 0x7388F00C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7388F001, 0x7388F00D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7388F001, 0x7388F00E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7388F001, 0x7388F00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7388F001, 0x7388F010, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7388F001, 0x7388F011, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7388F001, 0x7388F012, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7388F001, 0x7388F013, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7388F001, 0x7388F014, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7388F001, 0x7388F015, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388F002, 24283, 0x388F0015, 58.7599, 104.6344, 48.35881, 0.8028538, 0, 0, -0.596176,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
@@ -111,7 +111,7 @@ VALUES (0x7388F016,  1542, 0x388F003C, 169.4268, 87.30104, 93.79359, -4.371139E-
 /* @teleloc 0x388F003C [169.426800 87.301040 93.793590] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388F016, 0x7388F017, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7388F016, 0x7388F017, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388F017,  4380, 0x388F003C, 169.4268, 87.30104, 93.79359, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

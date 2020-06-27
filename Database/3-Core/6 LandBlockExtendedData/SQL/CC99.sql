@@ -5,25 +5,25 @@ VALUES (0x7CC99001,  1154, 0xCC990002, 6.067713, 30.64579, 19.43868, 0.8870109, 
 /* @teleloc 0xCC990002 [6.067713 30.645790 19.438680] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC99001, 0x7CC99002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC99001, 0x7CC99003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CC99001, 0x7CC99004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7CC99001, 0x7CC99005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC99001, 0x7CC99006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC99001, 0x7CC99007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CC99001, 0x7CC99008, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CC99001, 0x7CC99009, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CC99001, 0x7CC9900A, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CC99001, 0x7CC9900B, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CC99001, 0x7CC9900C, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CC99001, 0x7CC9900D, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CC99001, 0x7CC9900E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CC99001, 0x7CC9900F, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC99001, 0x7CC99010, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC99001, 0x7CC99011, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CC99001, 0x7CC99012, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC99001, 0x7CC99013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CC99001, 0x7CC99014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CC99001, 0x7CC99002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC99001, 0x7CC99003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CC99001, 0x7CC99004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7CC99001, 0x7CC99005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC99001, 0x7CC99006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC99001, 0x7CC99007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CC99001, 0x7CC99008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CC99001, 0x7CC99009, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CC99001, 0x7CC9900A, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CC99001, 0x7CC9900B, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CC99001, 0x7CC9900C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CC99001, 0x7CC9900D, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CC99001, 0x7CC9900E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC99001, 0x7CC9900F, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CC99001, 0x7CC99010, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC99001, 0x7CC99011, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CC99001, 0x7CC99012, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC99001, 0x7CC99013, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CC99001, 0x7CC99014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC99002,  2576, 0xCC990002, 6.067713, 30.64579, 19.43868, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -106,9 +106,9 @@ VALUES (0x7CC99015,  1542, 0xCC990002, 9.453224, 31.88608, 19.34283, 0.9990482, 
 /* @teleloc 0xCC990002 [9.453224 31.886080 19.342830] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC99015, 0x7CC99016, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CC99015, 0x7CC99017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CC99015, 0x7CC99018, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7CC99015, 0x7CC99016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CC99015, 0x7CC99017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CC99015, 0x7CC99018, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC99016,  4179, 0xCC990002, 9.453224, 31.88608, 19.34283, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

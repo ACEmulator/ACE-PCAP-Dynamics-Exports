@@ -5,13 +5,13 @@ VALUES (0x71C51001,  1154, 0x1C510009, 32.51756, 6.845688, 0.5750239, 0.798454, 
 /* @teleloc 0x1C510009 [32.517560 6.845688 0.575024] 0.798454 0.000000 0.000000 -0.602056 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C51001, 0x71C51002, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C51001, 0x71C51003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71C51001, 0x71C51004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C51001, 0x71C51005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71C51001, 0x71C51006, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71C51001, 0x71C51007, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71C51001, 0x71C51008, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x71C51001, 0x71C51002, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C51001, 0x71C51003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71C51001, 0x71C51004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C51001, 0x71C51005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71C51001, 0x71C51006, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71C51001, 0x71C51007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71C51001, 0x71C51008, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C51002, 36825, 0x1C510009, 32.51756, 6.845688, 0.5750239, 0.798454, 0, 0, -0.6020557,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -46,9 +46,9 @@ VALUES (0x71C51009,  1542, 0x1C510010, 34.42595, 182.1149, 45.16624, 0.2709212, 
 /* @teleloc 0x1C510010 [34.425950 182.114900 45.166240] 0.270921 0.000000 0.000000 -0.962602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C51009, 0x71C5100A, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x71C51009, 0x71C5100B, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x71C51009, 0x71C5100C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71C51009, 0x71C5100A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x71C51009, 0x71C5100B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x71C51009, 0x71C5100C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C5100A,  9286, 0x1C510010, 34.42595, 182.1149, 45.16624, 0.2709212, 0, 0, -0.9626015,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

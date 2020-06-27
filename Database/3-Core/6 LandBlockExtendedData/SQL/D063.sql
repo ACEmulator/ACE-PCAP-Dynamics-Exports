@@ -5,10 +5,10 @@ VALUES (0x7D063001,  1154, 0xD0630025, 102.8472, 107.671, 6.0075, 0.9238795, 0, 
 /* @teleloc 0xD0630025 [102.847200 107.671000 6.007500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D063001, 0x7D063002, '2019-02-10 00:00:00') /* Lich */
-     , (0x7D063001, 0x7D063003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7D063001, 0x7D063004, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7D063001, 0x7D063005, '2019-02-10 00:00:00') /* Mosswart Idolator */;
+VALUES (0x7D063001, 0x7D063002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7D063001, 0x7D063003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D063001, 0x7D063004, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7D063001, 0x7D063005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D063002,   204, 0xD0630025, 102.8472, 107.671, 6.0075, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Lich */

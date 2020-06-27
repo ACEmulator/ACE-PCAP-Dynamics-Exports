@@ -5,19 +5,19 @@ VALUES (0x794EE001,  1154, 0x94EE001B, 82.42606, 53.21692, -0.09175003, 0.237597
 /* @teleloc 0x94EE001B [82.426060 53.216920 -0.091750] 0.237598 0.000000 0.000000 -0.971364 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794EE001, 0x794EE002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x794EE001, 0x794EE003, '2019-02-10 00:00:00') /* Revenant */
-     , (0x794EE001, 0x794EE004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794EE001, 0x794EE005, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x794EE001, 0x794EE006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x794EE001, 0x794EE007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x794EE001, 0x794EE008, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x794EE001, 0x794EE009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794EE001, 0x794EE00A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794EE001, 0x794EE00B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x794EE001, 0x794EE00C, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x794EE001, 0x794EE00D, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x794EE001, 0x794EE00E, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x794EE001, 0x794EE002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x794EE001, 0x794EE003, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x794EE001, 0x794EE004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794EE001, 0x794EE005, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x794EE001, 0x794EE006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x794EE001, 0x794EE007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x794EE001, 0x794EE008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x794EE001, 0x794EE009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794EE001, 0x794EE00A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794EE001, 0x794EE00B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x794EE001, 0x794EE00C, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x794EE001, 0x794EE00D, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x794EE001, 0x794EE00E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794EE002,  4217, 0x94EE001B, 82.42606, 53.21692, -0.09175003, 0.2375979, 0, 0, -0.9713636,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -76,7 +76,7 @@ VALUES (0x794EE00F,  1542, 0x94EE0011, 55.58066, 3.14357, 3.65568, 0.9829302, 0,
 /* @teleloc 0x94EE0011 [55.580660 3.143570 3.655680] 0.982930 0.000000 0.000000 -0.183979 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794EE00F, 0x794EE010, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x794EE00F, 0x794EE010, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794EE010, 31687, 0x94EE0011, 55.58066, 3.14357, 3.65568, 0.9829302, 0, 0, -0.183979,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

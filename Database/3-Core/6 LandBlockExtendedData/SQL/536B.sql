@@ -61,41 +61,41 @@ VALUES (0x7536B044,  1154, 0x536B020E, 55.25, -70.95, -5.76523, 1, 0, 0, 0, Fals
 /* @teleloc 0x536B020E [55.250000 -70.950000 -5.765230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536B044, 0x7536B045, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B046, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B047, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B048, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B049, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B04A, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B04B, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B04C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7536B044, 0x7536B04D, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B04E, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B04F, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B050, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B051, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B052, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B053, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B054, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician */
-     , (0x7536B044, 0x7536B055, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B056, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B057, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B058, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7536B044, 0x7536B059, '2019-02-10 00:00:00') /* Martinate Simulacrum */
-     , (0x7536B044, 0x7536B05A, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7536B044, 0x7536B05B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7536B044, 0x7536B05C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7536B044, 0x7536B05D, '2019-02-10 00:00:00') /* Theral */
-     , (0x7536B044, 0x7536B05E, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7536B044, 0x7536B05F, '2019-02-10 00:00:00') /* Sirrocco */
-     , (0x7536B044, 0x7536B060, '2019-02-10 00:00:00') /* Sirrocco */
-     , (0x7536B044, 0x7536B061, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7536B044, 0x7536B062, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536B044, 0x7536B063, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7536B044, 0x7536B064, '2019-02-10 00:00:00') /* Theral */
-     , (0x7536B044, 0x7536B065, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7536B044, 0x7536B066, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7536B044, 0x7536B067, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x7536B044, 0x7536B045, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B046, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B047, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B048, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B049, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B04A, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B04B, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536B044, 0x7536B04C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7536B044, 0x7536B04D, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B04E, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B04F, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B050, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B051, '2019-02-10 00:00:00') /* Virindi Master (8869) */
+     , (0x7536B044, 0x7536B052, '2019-02-10 00:00:00') /* Virindi Master (8869) */
+     , (0x7536B044, 0x7536B053, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B054, '2019-02-10 00:00:00') /* Martinate Simulacrum Magician (15300) */
+     , (0x7536B044, 0x7536B055, '2019-02-10 00:00:00') /* Virindi Master (8869) */
+     , (0x7536B044, 0x7536B056, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536B044, 0x7536B057, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B058, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7536B044, 0x7536B059, '2019-02-10 00:00:00') /* Martinate Simulacrum (15299) */
+     , (0x7536B044, 0x7536B05A, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7536B044, 0x7536B05B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7536B044, 0x7536B05C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7536B044, 0x7536B05D, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x7536B044, 0x7536B05E, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7536B044, 0x7536B05F, '2019-02-10 00:00:00') /* Sirrocco (14878) */
+     , (0x7536B044, 0x7536B060, '2019-02-10 00:00:00') /* Sirrocco (14878) */
+     , (0x7536B044, 0x7536B061, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7536B044, 0x7536B062, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7536B044, 0x7536B063, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7536B044, 0x7536B064, '2019-02-10 00:00:00') /* Theral (14880) */
+     , (0x7536B044, 0x7536B065, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536B044, 0x7536B066, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7536B044, 0x7536B067, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536B045, 15299, 0x536B020E, 55.25, -70.95, -5.76523, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Martinate Simulacrum */

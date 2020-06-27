@@ -5,16 +5,16 @@ VALUES (0x7363C001,  1154, 0x363C002F, 127.1089, 167.3339, -0.4399999, 0.552133,
 /* @teleloc 0x363C002F [127.108900 167.333900 -0.440000] 0.552133 0.000000 0.000000 -0.833756 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7363C001, 0x7363C002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7363C001, 0x7363C003, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7363C001, 0x7363C004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7363C001, 0x7363C005, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7363C001, 0x7363C006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7363C001, 0x7363C007, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x7363C001, 0x7363C008, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7363C001, 0x7363C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7363C001, 0x7363C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7363C001, 0x7363C00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7363C001, 0x7363C002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7363C001, 0x7363C003, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7363C001, 0x7363C004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7363C001, 0x7363C005, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7363C001, 0x7363C006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7363C001, 0x7363C007, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x7363C001, 0x7363C008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7363C001, 0x7363C009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7363C001, 0x7363C00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7363C001, 0x7363C00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7363C002, 14520, 0x363C002F, 127.1089, 167.3339, -0.4399999, 0.552133, 0, 0, -0.8337561,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

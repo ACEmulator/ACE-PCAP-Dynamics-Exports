@@ -13,14 +13,14 @@ VALUES (0x769AB002,  1154, 0x69AB0015, 66.5083, 117.4994, 240, -0.8281835, 0, 0,
 /* @teleloc 0x69AB0015 [66.508300 117.499400 240.000000] -0.828184 0.000000 0.000000 -0.560457 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769AB002, 0x769AB003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x769AB002, 0x769AB004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x769AB002, 0x769AB005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x769AB002, 0x769AB006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x769AB002, 0x769AB007, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x769AB002, 0x769AB008, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x769AB002, 0x769AB009, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x769AB002, 0x769AB00A, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x769AB002, 0x769AB003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x769AB002, 0x769AB004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x769AB002, 0x769AB005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x769AB002, 0x769AB006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x769AB002, 0x769AB007, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x769AB002, 0x769AB008, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x769AB002, 0x769AB009, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x769AB002, 0x769AB00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769AB003,     3, 0x69AB0015, 66.5083, 117.4994, 240, -0.8281835, 0, 0, -0.560457,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -59,7 +59,7 @@ VALUES (0x769AB00B,  1542, 0x69AB0015, 57.96873, 108.0121, 240, -0.9996306, 0, 0
 /* @teleloc 0x69AB0015 [57.968730 108.012100 240.000000] -0.999631 0.000000 0.000000 -0.027178 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769AB00B, 0x769AB00C, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x769AB00B, 0x769AB00C, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769AB00C,  8648, 0x69AB0015, 57.96873, 108.0121, 240, -0.9996306, 0, 0, -0.02717819,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

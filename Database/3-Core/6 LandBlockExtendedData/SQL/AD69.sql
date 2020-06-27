@@ -5,9 +5,9 @@ VALUES (0x7AD69001,  1154, 0xAD690031, 166.8041, 17.27627, 27.02696, 0.7327423, 
 /* @teleloc 0xAD690031 [166.804100 17.276270 27.026960] 0.732742 0.000000 0.000000 -0.680506 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD69001, 0x7AD69002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD69001, 0x7AD69003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7AD69001, 0x7AD69004, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7AD69001, 0x7AD69002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD69001, 0x7AD69003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7AD69001, 0x7AD69004, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD69002,   226, 0xAD690031, 166.8041, 17.27627, 27.02696, 0.7327423, 0, 0, -0.6805062,  True, '2019-02-10 00:00:00'); /* High Tumerok */

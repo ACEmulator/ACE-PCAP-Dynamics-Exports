@@ -5,17 +5,17 @@ VALUES (0x7880E001,  1154, 0x880E0010, 43.2631, 184.7988, -0.8974999, 0.9792528,
 /* @teleloc 0x880E0010 [43.263100 184.798800 -0.897500] 0.979253 0.000000 0.000000 -0.202643 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7880E001, 0x7880E002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7880E001, 0x7880E003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880E001, 0x7880E004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880E001, 0x7880E005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880E001, 0x7880E006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7880E001, 0x7880E007, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7880E001, 0x7880E008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7880E001, 0x7880E009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7880E001, 0x7880E00A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880E001, 0x7880E00B, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7880E001, 0x7880E00C, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7880E001, 0x7880E002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7880E001, 0x7880E003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880E001, 0x7880E004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880E001, 0x7880E005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880E001, 0x7880E006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7880E001, 0x7880E007, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7880E001, 0x7880E008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7880E001, 0x7880E009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7880E001, 0x7880E00A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880E001, 0x7880E00B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7880E001, 0x7880E00C, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880E002,  7179, 0x880E0010, 43.2631, 184.7988, -0.8974999, 0.9792528, 0, 0, -0.2026428,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -66,9 +66,9 @@ VALUES (0x7880E00D,  1542, 0x880E002D, 120.3753, 107.4429, -0.45, 0.9990482, 0, 
 /* @teleloc 0x880E002D [120.375300 107.442900 -0.450000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7880E00D, 0x7880E00E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7880E00D, 0x7880E00F, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7880E00D, 0x7880E010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7880E00D, 0x7880E00E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7880E00D, 0x7880E00F, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7880E00D, 0x7880E010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7880E00E,  4179, 0x880E002D, 120.3753, 107.4429, -0.45, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

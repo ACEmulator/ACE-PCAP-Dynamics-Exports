@@ -5,35 +5,35 @@ VALUES (0x7B74B001,  1154, 0xB74B0016, 54.76417, 132.0522, 9.982, 0.6948854, 0, 
 /* @teleloc 0xB74B0016 [54.764170 132.052200 9.982000] 0.694885 0.000000 0.000000 0.719120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B74B001, 0x7B74B002, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B74B001, 0x7B74B003, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B004, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B005, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B006, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B007, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B74B001, 0x7B74B008, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B009, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B00A, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B00B, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B00C, '2019-02-10 00:00:00') /* Zefir Thorn Poisoner */
-     , (0x7B74B001, 0x7B74B00D, '2019-02-10 00:00:00') /* Zefir Thorn Reaver */
-     , (0x7B74B001, 0x7B74B00E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B74B001, 0x7B74B00F, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B010, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B011, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B012, '2019-02-10 00:00:00') /* Sath'tik Eyestalk */
-     , (0x7B74B001, 0x7B74B013, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B014, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B015, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B016, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B017, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B018, '2019-02-10 00:00:00') /* Sath'tik Tendril */
-     , (0x7B74B001, 0x7B74B019, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie */
-     , (0x7B74B001, 0x7B74B01A, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B74B001, 0x7B74B01B, '2019-02-10 00:00:00') /* Zefir Thorn Ranger */
-     , (0x7B74B001, 0x7B74B01C, '2019-02-10 00:00:00') /* Vermilion War Gromnie */
-     , (0x7B74B001, 0x7B74B01D, '2019-02-10 00:00:00') /* Sath'tik Tentacle */
-     , (0x7B74B001, 0x7B74B01E, '2019-02-10 00:00:00') /* Sath'tik Tendril */;
+VALUES (0x7B74B001, 0x7B74B002, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B001, 0x7B74B003, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B004, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B005, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B006, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B007, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B001, 0x7B74B008, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B009, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B00A, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B00B, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B00C, '2019-02-10 00:00:00') /* Zefir Thorn Poisoner (52573) */
+     , (0x7B74B001, 0x7B74B00D, '2019-02-10 00:00:00') /* Zefir Thorn Reaver (52575) */
+     , (0x7B74B001, 0x7B74B00E, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B001, 0x7B74B00F, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B010, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B011, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B012, '2019-02-10 00:00:00') /* Sath'tik Eyestalk (53375) */
+     , (0x7B74B001, 0x7B74B013, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B014, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B015, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B016, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B017, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B018, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */
+     , (0x7B74B001, 0x7B74B019, '2019-02-10 00:00:00') /* Emerald Thorn Gromnie (53345) */
+     , (0x7B74B001, 0x7B74B01A, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B74B001, 0x7B74B01B, '2019-02-10 00:00:00') /* Zefir Thorn Ranger (52574) */
+     , (0x7B74B001, 0x7B74B01C, '2019-02-10 00:00:00') /* Vermilion War Gromnie (53348) */
+     , (0x7B74B001, 0x7B74B01D, '2019-02-10 00:00:00') /* Sath'tik Tentacle (53377) */
+     , (0x7B74B001, 0x7B74B01E, '2019-02-10 00:00:00') /* Sath'tik Tendril (53376) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B74B002, 53375, 0xB74B0016, 54.76417, 132.0522, 9.982, 0.6948854, 0, 0, 0.7191204,  True, '2019-02-10 00:00:00'); /* Sath'tik Eyestalk */
@@ -156,9 +156,9 @@ VALUES (0x7B74B01F,  1154, 0xB74B0009, 42.03335, 18.73529, 116, -0.9995965, 0, 0
 /* @teleloc 0xB74B0009 [42.033350 18.735290 116.000000] -0.999597 0.000000 0.000000 0.028405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B74B01F, 0x7B74B020, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B74B01F, 0x7B74B021, '2019-02-10 00:00:00') /* Blossoming Nightbloom */
-     , (0x7B74B01F, 0x7B74B022, '2019-02-10 00:00:00') /* Blossoming Nightbloom */;
+VALUES (0x7B74B01F, 0x7B74B020, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B74B01F, 0x7B74B021, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B74B01F, 0x7B74B022, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B74B020, 52986, 0xB74B0009, 42.03335, 18.73529, 116, -0.9995965, 0, 0, 0.02840492,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */

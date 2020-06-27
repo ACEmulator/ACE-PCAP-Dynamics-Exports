@@ -1737,18 +1737,18 @@ VALUES (0x7C27C1B2,  1542, 0xC27C001A, 83.43787, 42.72162, 29.995, -0.7589651, 0
 /* @teleloc 0xC27C001A [83.437870 42.721620 29.995000] -0.758965 0.000000 0.000000 0.651131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C27C1B2, 0x7C27C1B3, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7C27C1B2, 0x7C27C1B4, '2019-02-10 00:00:00') /* Compass */
-     , (0x7C27C1B2, 0x7C27C1B5, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C27C1B2, 0x7C27C1B6, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C27C1B2, 0x7C27C1B7, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C27C1B2, 0x7C27C1B8, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7C27C1B2, 0x7C27C1B9, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7C27C1B2, 0x7C27C1BA, '2019-02-10 00:00:00') /* Writ of Refuge */
-     , (0x7C27C1B2, 0x7C27C1BB, '2019-02-10 00:00:00') /* Crystal Fragment */
-     , (0x7C27C1B2, 0x7C27C1BC, '2019-02-10 00:00:00') /* Dark Sliver */
-     , (0x7C27C1B2, 0x7C27C1BD, '2019-02-10 00:00:00') /* Small Shard */
-     , (0x7C27C1B2, 0x7C27C1BE, '2019-02-10 00:00:00') /* Pack Bael'Zharon */;
+VALUES (0x7C27C1B2, 0x7C27C1B3, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7C27C1B2, 0x7C27C1B4, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7C27C1B2, 0x7C27C1B5, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C27C1B2, 0x7C27C1B6, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C27C1B2, 0x7C27C1B7, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C27C1B2, 0x7C27C1B8, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C27C1B2, 0x7C27C1B9, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7C27C1B2, 0x7C27C1BA, '2019-02-10 00:00:00') /* Writ of Refuge (11710) */
+     , (0x7C27C1B2, 0x7C27C1BB, '2019-02-10 00:00:00') /* Crystal Fragment (6623) */
+     , (0x7C27C1B2, 0x7C27C1BC, '2019-02-10 00:00:00') /* Dark Sliver (6059) */
+     , (0x7C27C1B2, 0x7C27C1BD, '2019-02-10 00:00:00') /* Small Shard (6056) */
+     , (0x7C27C1B2, 0x7C27C1BE, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C27C1B3,  2587, 0xC27C001A, 83.43787, 42.72162, 29.995, -0.7589651, 0, 0, 0.6511313,  True, '2019-02-10 00:00:00'); /* Shirt */

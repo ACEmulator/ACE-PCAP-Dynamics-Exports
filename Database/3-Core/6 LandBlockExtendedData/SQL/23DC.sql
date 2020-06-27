@@ -5,31 +5,31 @@ VALUES (0x723DC001,  1154, 0x23DC001A, 95.19007, 43.5645, 10.81129, 0.4019563, 0
 /* @teleloc 0x23DC001A [95.190070 43.564500 10.811290] 0.401956 0.000000 0.000000 -0.915659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723DC001, 0x723DC002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x723DC001, 0x723DC003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x723DC001, 0x723DC004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x723DC001, 0x723DC005, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x723DC001, 0x723DC006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x723DC001, 0x723DC007, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x723DC001, 0x723DC008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x723DC001, 0x723DC009, '2019-02-10 00:00:00') /* Mite Emissary */
-     , (0x723DC001, 0x723DC00A, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x723DC001, 0x723DC00B, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x723DC001, 0x723DC00C, '2019-02-10 00:00:00') /* Grizzled Monouga */
-     , (0x723DC001, 0x723DC00D, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x723DC001, 0x723DC00E, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x723DC001, 0x723DC00F, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x723DC001, 0x723DC010, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x723DC001, 0x723DC011, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x723DC001, 0x723DC012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x723DC001, 0x723DC013, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x723DC001, 0x723DC014, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x723DC001, 0x723DC015, '2019-02-10 00:00:00') /* Morel Thrungus */
-     , (0x723DC001, 0x723DC016, '2019-02-10 00:00:00') /* Crimini Thrungus */
-     , (0x723DC001, 0x723DC017, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x723DC001, 0x723DC018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x723DC001, 0x723DC019, '2019-02-10 00:00:00') /* Deathcap Thrungus */
-     , (0x723DC001, 0x723DC01A, '2019-02-10 00:00:00') /* Horripal */;
+VALUES (0x723DC001, 0x723DC002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x723DC001, 0x723DC003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x723DC001, 0x723DC004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x723DC001, 0x723DC005, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x723DC001, 0x723DC006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x723DC001, 0x723DC007, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x723DC001, 0x723DC008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x723DC001, 0x723DC009, '2019-02-10 00:00:00') /* Mite Emissary (29354) */
+     , (0x723DC001, 0x723DC00A, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x723DC001, 0x723DC00B, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x723DC001, 0x723DC00C, '2019-02-10 00:00:00') /* Grizzled Monouga (28555) */
+     , (0x723DC001, 0x723DC00D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x723DC001, 0x723DC00E, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x723DC001, 0x723DC00F, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x723DC001, 0x723DC010, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x723DC001, 0x723DC011, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x723DC001, 0x723DC012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x723DC001, 0x723DC013, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x723DC001, 0x723DC014, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x723DC001, 0x723DC015, '2019-02-10 00:00:00') /* Morel Thrungus (29298) */
+     , (0x723DC001, 0x723DC016, '2019-02-10 00:00:00') /* Crimini Thrungus (29299) */
+     , (0x723DC001, 0x723DC017, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x723DC001, 0x723DC018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x723DC001, 0x723DC019, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x723DC001, 0x723DC01A, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DC002,  1609, 0x23DC001A, 95.19007, 43.5645, 10.81129, 0.4019563, 0, 0, -0.9156588,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

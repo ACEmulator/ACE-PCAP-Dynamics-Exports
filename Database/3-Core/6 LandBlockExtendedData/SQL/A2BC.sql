@@ -5,9 +5,9 @@ VALUES (0x7A2BC001,  1154, 0xA2BC002A, 139.6337, 41.50941, 62.19784, -0.8775383,
 /* @teleloc 0xA2BC002A [139.633700 41.509410 62.197840] -0.877538 0.000000 0.000000 -0.479507 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2BC001, 0x7A2BC002, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7A2BC001, 0x7A2BC003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2BC001, 0x7A2BC004, '2019-02-10 00:00:00') /* Mite Digger */;
+VALUES (0x7A2BC001, 0x7A2BC002, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7A2BC001, 0x7A2BC003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2BC001, 0x7A2BC004, '2019-02-10 00:00:00') /* Mite Digger (944) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2BC002,   236, 0xA2BC002A, 139.6337, 41.50941, 62.19784, -0.8775383, 0, 0, -0.4795066,  True, '2019-02-10 00:00:00'); /* Female Tusker */

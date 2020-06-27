@@ -5,9 +5,9 @@ VALUES (0x73E36001,  1154, 0x3E36003E, 170.2919, 128.0143, 148.0065, 0.7857656, 
 /* @teleloc 0x3E36003E [170.291900 128.014300 148.006500] 0.785766 0.000000 0.000000 -0.618524 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E36001, 0x73E36002, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x73E36001, 0x73E36003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E36001, 0x73E36004, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x73E36001, 0x73E36002, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73E36001, 0x73E36003, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E36001, 0x73E36004, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E36002, 23617, 0x3E36003E, 170.2919, 128.0143, 148.0065, 0.7857656, 0, 0, -0.6185243,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */

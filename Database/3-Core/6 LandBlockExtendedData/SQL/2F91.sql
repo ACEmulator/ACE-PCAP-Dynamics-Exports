@@ -5,9 +5,9 @@ VALUES (0x72F91001,  1154, 0x2F91000B, 40.15396, 68.56896, 37.73717, -0.9253912,
 /* @teleloc 0x2F91000B [40.153960 68.568960 37.737170] -0.925391 0.000000 0.000000 -0.379013 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F91001, 0x72F91002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F91001, 0x72F91003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72F91001, 0x72F91004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72F91001, 0x72F91002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72F91001, 0x72F91003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72F91001, 0x72F91004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F91002, 36833, 0x2F91000B, 40.15396, 68.56896, 37.73717, -0.9253912, 0, 0, -0.3790134,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

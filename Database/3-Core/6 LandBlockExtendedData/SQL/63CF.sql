@@ -5,18 +5,18 @@ VALUES (0x763CF001,  1154, 0x63CF003D, 179.2006, 101.9284, 66.41711, 0.7071068, 
 /* @teleloc 0x63CF003D [179.200600 101.928400 66.417110] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763CF001, 0x763CF002, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763CF001, 0x763CF003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x763CF001, 0x763CF004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763CF001, 0x763CF005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763CF001, 0x763CF006, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763CF001, 0x763CF007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763CF001, 0x763CF008, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x763CF001, 0x763CF009, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x763CF001, 0x763CF00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x763CF001, 0x763CF00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x763CF001, 0x763CF00C, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x763CF001, 0x763CF00D, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x763CF001, 0x763CF002, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763CF001, 0x763CF003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x763CF001, 0x763CF004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763CF001, 0x763CF005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763CF001, 0x763CF006, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763CF001, 0x763CF007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763CF001, 0x763CF008, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x763CF001, 0x763CF009, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x763CF001, 0x763CF00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x763CF001, 0x763CF00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x763CF001, 0x763CF00C, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x763CF001, 0x763CF00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763CF002, 24275, 0x63CF003D, 179.2006, 101.9284, 66.41711, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -71,8 +71,8 @@ VALUES (0x763CF00E,  1542, 0x63CF003D, 179.535, 97.80187, 66.48878, -4.371139E-0
 /* @teleloc 0x63CF003D [179.535000 97.801870 66.488780] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763CF00E, 0x763CF00F, '2019-02-10 00:00:00') /* Bones */
-     , (0x763CF00E, 0x763CF010, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x763CF00E, 0x763CF00F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x763CF00E, 0x763CF010, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763CF00F,  4380, 0x63CF003D, 179.535, 97.80187, 66.48878, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

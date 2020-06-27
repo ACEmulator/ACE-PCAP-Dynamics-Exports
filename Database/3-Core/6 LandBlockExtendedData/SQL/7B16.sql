@@ -5,10 +5,10 @@ VALUES (0x77B16001,  1154, 0x7B16000E, 40.6813, 132.2042, 34.52138, 1, 0, 0, 0, 
 /* @teleloc 0x7B16000E [40.681300 132.204200 34.521380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B16001, 0x77B16002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x77B16001, 0x77B16003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77B16001, 0x77B16004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77B16001, 0x77B16005, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x77B16001, 0x77B16002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x77B16001, 0x77B16003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77B16001, 0x77B16004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77B16001, 0x77B16005, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B16002,  7107, 0x7B16000E, 40.6813, 132.2042, 34.52138, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

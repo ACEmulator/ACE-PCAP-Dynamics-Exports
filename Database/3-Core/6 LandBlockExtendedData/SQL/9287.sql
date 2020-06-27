@@ -5,11 +5,11 @@ VALUES (0x79287001,  1154, 0x92870009, 39.51587, 9.824308, 32.0025, 0.7660445, 0
 /* @teleloc 0x92870009 [39.515870 9.824308 32.002500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79287001, 0x79287002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x79287001, 0x79287003, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79287001, 0x79287004, '2019-02-10 00:00:00') /* Gout */
-     , (0x79287001, 0x79287005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79287001, 0x79287006, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x79287001, 0x79287002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x79287001, 0x79287003, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79287001, 0x79287004, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79287001, 0x79287005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79287001, 0x79287006, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79287002,  1761, 0x92870009, 39.51587, 9.824308, 32.0025, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

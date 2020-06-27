@@ -5,14 +5,14 @@ VALUES (0x7A8BD001,  1154, 0xA8BD003A, 189.7859, 27.58491, 76.31074, -0.02574342
 /* @teleloc 0xA8BD003A [189.785900 27.584910 76.310740] -0.025743 0.000000 0.000000 -0.999669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8BD001, 0x7A8BD002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A8BD001, 0x7A8BD003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A8BD001, 0x7A8BD004, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7A8BD001, 0x7A8BD005, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A8BD001, 0x7A8BD006, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A8BD001, 0x7A8BD007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A8BD001, 0x7A8BD008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A8BD001, 0x7A8BD009, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7A8BD001, 0x7A8BD002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A8BD001, 0x7A8BD003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A8BD001, 0x7A8BD004, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7A8BD001, 0x7A8BD005, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A8BD001, 0x7A8BD006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A8BD001, 0x7A8BD007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A8BD001, 0x7A8BD008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A8BD001, 0x7A8BD009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8BD002,   215, 0xA8BD003A, 189.7859, 27.58491, 76.31074, -0.02574342, 0, 0, -0.9996686,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */

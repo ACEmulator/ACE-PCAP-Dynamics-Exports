@@ -5,19 +5,19 @@ VALUES (0x777C3001,  1154, 0x77C30033, 157.2008, 69.94646, 157.923, 0.7071068, 0
 /* @teleloc 0x77C30033 [157.200800 69.946460 157.923000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C3001, 0x777C3002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x777C3001, 0x777C3003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x777C3001, 0x777C3004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x777C3001, 0x777C3005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x777C3001, 0x777C3006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x777C3001, 0x777C3007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x777C3001, 0x777C3008, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777C3001, 0x777C3009, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x777C3001, 0x777C300A, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x777C3001, 0x777C300B, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x777C3001, 0x777C300C, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x777C3001, 0x777C300D, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x777C3001, 0x777C300E, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x777C3001, 0x777C3002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x777C3001, 0x777C3003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x777C3001, 0x777C3004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x777C3001, 0x777C3005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x777C3001, 0x777C3006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x777C3001, 0x777C3007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x777C3001, 0x777C3008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777C3001, 0x777C3009, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x777C3001, 0x777C300A, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x777C3001, 0x777C300B, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x777C3001, 0x777C300C, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x777C3001, 0x777C300D, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x777C3001, 0x777C300E, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C3002, 36830, 0x77C30033, 157.2008, 69.94646, 157.923, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -76,8 +76,8 @@ VALUES (0x777C300F,  1542, 0x77C30034, 154.0515, 92.31417, 152.7333, 0.9990482, 
 /* @teleloc 0x77C30034 [154.051500 92.314170 152.733300] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777C300F, 0x777C3010, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x777C300F, 0x777C3011, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x777C300F, 0x777C3010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x777C300F, 0x777C3011, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777C3010,  4179, 0x77C30034, 154.0515, 92.31417, 152.7333, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

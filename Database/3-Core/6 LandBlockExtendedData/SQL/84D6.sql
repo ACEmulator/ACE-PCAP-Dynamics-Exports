@@ -5,20 +5,20 @@ VALUES (0x784D6001,  1154, 0x84D60036, 162.3907, 126.8043, 285.0293, -0.6357252,
 /* @teleloc 0x84D60036 [162.390700 126.804300 285.029300] -0.635725 0.000000 0.000000 -0.771916 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784D6001, 0x784D6002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x784D6001, 0x784D6003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x784D6001, 0x784D6004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x784D6001, 0x784D6005, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x784D6001, 0x784D6006, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x784D6001, 0x784D6007, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x784D6001, 0x784D6008, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x784D6001, 0x784D6009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x784D6001, 0x784D600A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x784D6001, 0x784D600B, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x784D6001, 0x784D600C, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x784D6001, 0x784D600D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x784D6001, 0x784D600E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x784D6001, 0x784D600F, '2019-02-10 00:00:00') /* Plated Tusker */;
+VALUES (0x784D6001, 0x784D6002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x784D6001, 0x784D6003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x784D6001, 0x784D6004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x784D6001, 0x784D6005, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x784D6001, 0x784D6006, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x784D6001, 0x784D6007, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x784D6001, 0x784D6008, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x784D6001, 0x784D6009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x784D6001, 0x784D600A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x784D6001, 0x784D600B, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x784D6001, 0x784D600C, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x784D6001, 0x784D600D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x784D6001, 0x784D600E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x784D6001, 0x784D600F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784D6002, 24958, 0x84D60036, 162.3907, 126.8043, 285.0293, -0.6357252, 0, 0, -0.7719155,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */

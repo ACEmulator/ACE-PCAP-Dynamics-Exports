@@ -5,27 +5,27 @@ VALUES (0x77EEF001,  1154, 0x7EEF0017, 65.80224, 165.0397, 127.3551, -0.7375628,
 /* @teleloc 0x7EEF0017 [65.802240 165.039700 127.355100] -0.737563 0.000000 0.000000 -0.675279 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EEF001, 0x77EEF002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x77EEF001, 0x77EEF003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEF001, 0x77EEF004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x77EEF001, 0x77EEF005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEF001, 0x77EEF006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x77EEF001, 0x77EEF007, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77EEF001, 0x77EEF008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEF001, 0x77EEF009, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77EEF001, 0x77EEF00A, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x77EEF001, 0x77EEF00B, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77EEF001, 0x77EEF00C, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77EEF001, 0x77EEF00D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEF001, 0x77EEF00E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x77EEF001, 0x77EEF00F, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77EEF001, 0x77EEF010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77EEF001, 0x77EEF011, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x77EEF001, 0x77EEF012, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x77EEF001, 0x77EEF013, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x77EEF001, 0x77EEF014, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x77EEF001, 0x77EEF015, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x77EEF001, 0x77EEF016, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x77EEF001, 0x77EEF002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x77EEF001, 0x77EEF003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EEF001, 0x77EEF004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x77EEF001, 0x77EEF005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EEF001, 0x77EEF006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x77EEF001, 0x77EEF007, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77EEF001, 0x77EEF008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EEF001, 0x77EEF009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77EEF001, 0x77EEF00A, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x77EEF001, 0x77EEF00B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77EEF001, 0x77EEF00C, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77EEF001, 0x77EEF00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x77EEF001, 0x77EEF00E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x77EEF001, 0x77EEF00F, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77EEF001, 0x77EEF010, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77EEF001, 0x77EEF011, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x77EEF001, 0x77EEF012, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x77EEF001, 0x77EEF013, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x77EEF001, 0x77EEF014, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x77EEF001, 0x77EEF015, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x77EEF001, 0x77EEF016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EEF002,  7092, 0x7EEF0017, 65.80224, 165.0397, 127.3551, -0.7375628, 0, 0, -0.6752785,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -116,8 +116,8 @@ VALUES (0x77EEF017,  1542, 0x7EEF0023, 97.32738, 62.81916, 115.0356, 1, 0, 0, 0,
 /* @teleloc 0x7EEF0023 [97.327380 62.819160 115.035600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77EEF017, 0x77EEF018, '2019-02-10 00:00:00') /* Bones */
-     , (0x77EEF017, 0x77EEF019, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77EEF017, 0x77EEF018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x77EEF017, 0x77EEF019, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77EEF018,  4380, 0x7EEF0023, 97.32738, 62.81916, 115.0356, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

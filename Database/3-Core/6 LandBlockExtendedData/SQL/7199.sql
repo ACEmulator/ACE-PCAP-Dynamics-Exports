@@ -5,9 +5,9 @@ VALUES (0x77199001,  1154, 0x7199001B, 86.47501, 71.94049, 72.41004, 0.8191521, 
 /* @teleloc 0x7199001B [86.475010 71.940490 72.410040] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77199001, 0x77199002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77199001, 0x77199003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x77199001, 0x77199004, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x77199001, 0x77199002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77199001, 0x77199003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x77199001, 0x77199004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77199002,  7179, 0x7199001B, 86.47501, 71.94049, 72.41004, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Relic Bones */

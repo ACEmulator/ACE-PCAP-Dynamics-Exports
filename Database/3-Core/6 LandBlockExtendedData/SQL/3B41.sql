@@ -5,12 +5,12 @@ VALUES (0x73B41001,  1154, 0x3B41001A, 73.05946, 24.58908, 80.29955, -0.8026558,
 /* @teleloc 0x3B41001A [73.059460 24.589080 80.299550] -0.802656 0.000000 0.000000 -0.596443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B41001, 0x73B41002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73B41001, 0x73B41003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B41001, 0x73B41004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B41001, 0x73B41005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B41001, 0x73B41006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73B41001, 0x73B41007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x73B41001, 0x73B41002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73B41001, 0x73B41003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B41001, 0x73B41004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B41001, 0x73B41005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B41001, 0x73B41006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73B41001, 0x73B41007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B41002, 23563, 0x3B41001A, 73.05946, 24.58908, 80.29955, -0.8026558, 0, 0, -0.5964426,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */

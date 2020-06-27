@@ -5,19 +5,19 @@ VALUES (0x723C6001,  1154, 0x23C6002C, 139.2944, 79.06543, 13.41004, 0.1408149, 
 /* @teleloc 0x23C6002C [139.294400 79.065430 13.410040] 0.140815 0.000000 0.000000 -0.990036 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723C6001, 0x723C6002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C6001, 0x723C6003, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C6001, 0x723C6004, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C6001, 0x723C6005, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C6001, 0x723C6006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723C6001, 0x723C6007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723C6001, 0x723C6008, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723C6001, 0x723C6009, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x723C6001, 0x723C600A, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x723C6001, 0x723C600B, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x723C6001, 0x723C600C, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x723C6001, 0x723C600D, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x723C6001, 0x723C600E, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x723C6001, 0x723C6002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C6001, 0x723C6003, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C6001, 0x723C6004, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C6001, 0x723C6005, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C6001, 0x723C6006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723C6001, 0x723C6007, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x723C6001, 0x723C6008, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723C6001, 0x723C6009, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x723C6001, 0x723C600A, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x723C6001, 0x723C600B, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x723C6001, 0x723C600C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x723C6001, 0x723C600D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x723C6001, 0x723C600E, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723C6002, 22505, 0x23C6002C, 139.2944, 79.06543, 13.41004, 0.1408149, 0, 0, -0.990036,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */
@@ -76,7 +76,7 @@ VALUES (0x723C600F,  1542, 0x23C6003A, 182.7854, 40.05844, 16.75328, 0.9171697, 
 /* @teleloc 0x23C6003A [182.785400 40.058440 16.753280] 0.917170 0.000000 0.000000 -0.398497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723C600F, 0x723C6010, '2019-02-10 00:00:00') /* Atuakeh Plant */;
+VALUES (0x723C600F, 0x723C6010, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723C6010, 36066, 0x23C6003A, 182.7854, 40.05844, 16.75328, 0.9171697, 0, 0, -0.3984968,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

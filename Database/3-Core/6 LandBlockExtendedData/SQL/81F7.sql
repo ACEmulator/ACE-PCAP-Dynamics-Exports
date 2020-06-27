@@ -5,23 +5,23 @@ VALUES (0x781F7001,  1154, 0x81F7001F, 88.15549, 144.9577, -0.09500003, -0.81131
 /* @teleloc 0x81F7001F [88.155490 144.957700 -0.095000] -0.811316 0.000000 0.000000 -0.584608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781F7001, 0x781F7002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x781F7001, 0x781F7003, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x781F7001, 0x781F7004, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x781F7001, 0x781F7005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x781F7001, 0x781F7006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x781F7001, 0x781F7007, '2019-02-10 00:00:00') /* Caustic */
-     , (0x781F7001, 0x781F7008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x781F7001, 0x781F7009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x781F7001, 0x781F700A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x781F7001, 0x781F700B, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x781F7001, 0x781F700C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x781F7001, 0x781F700D, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x781F7001, 0x781F700E, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x781F7001, 0x781F700F, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x781F7001, 0x781F7010, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x781F7001, 0x781F7011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x781F7001, 0x781F7012, '2019-02-10 00:00:00') /* Risen Lord */;
+VALUES (0x781F7001, 0x781F7002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x781F7001, 0x781F7003, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x781F7001, 0x781F7004, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x781F7001, 0x781F7005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x781F7001, 0x781F7006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x781F7001, 0x781F7007, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x781F7001, 0x781F7008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x781F7001, 0x781F7009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x781F7001, 0x781F700A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x781F7001, 0x781F700B, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x781F7001, 0x781F700C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x781F7001, 0x781F700D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x781F7001, 0x781F700E, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x781F7001, 0x781F700F, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x781F7001, 0x781F7010, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x781F7001, 0x781F7011, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x781F7001, 0x781F7012, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781F7002, 23564, 0x81F7001F, 88.15549, 144.9577, -0.09500003, -0.811316, 0, 0, -0.5846079,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -96,8 +96,8 @@ VALUES (0x781F7013,  1542, 0x81F70037, 153.8071, 144.9872, 2, 0.9990482, 0, 0, -
 /* @teleloc 0x81F70037 [153.807100 144.987200 2.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x781F7013, 0x781F7014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x781F7013, 0x781F7015, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x781F7013, 0x781F7014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x781F7013, 0x781F7015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x781F7014,  4179, 0x81F70037, 153.8071, 144.9872, 2, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

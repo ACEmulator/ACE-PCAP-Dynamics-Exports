@@ -5,14 +5,14 @@ VALUES (0x79736001,  1154, 0x9736000A, 39.09045, 44.16396, 31.58221, 0.8191521, 
 /* @teleloc 0x9736000A [39.090450 44.163960 31.582210] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79736001, 0x79736002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x79736001, 0x79736003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x79736001, 0x79736004, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x79736001, 0x79736005, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x79736001, 0x79736006, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79736001, 0x79736007, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79736001, 0x79736008, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79736001, 0x79736009, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79736001, 0x79736002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x79736001, 0x79736003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x79736001, 0x79736004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x79736001, 0x79736005, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79736001, 0x79736006, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79736001, 0x79736007, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79736001, 0x79736008, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79736001, 0x79736009, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79736002,  1615, 0x9736000A, 39.09045, 44.16396, 31.58221, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */
@@ -51,7 +51,7 @@ VALUES (0x7973600A,  1542, 0x9736000A, 35.59184, 41.46587, 31.5105, 0.9659258, 0
 /* @teleloc 0x9736000A [35.591840 41.465870 31.510500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7973600A, 0x7973600B, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7973600A, 0x7973600B, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7973600B,  4180, 0x9736000A, 35.59184, 41.46587, 31.5105, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

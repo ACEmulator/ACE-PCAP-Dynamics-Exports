@@ -5,24 +5,24 @@ VALUES (0x79FB2001,  1154, 0x9FB20021, 118.7678, 2.056961, 69.9985, -0.9420857, 
 /* @teleloc 0x9FB20021 [118.767800 2.056961 69.998500] -0.942086 0.000000 0.000000 -0.335372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FB2001, 0x79FB2002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79FB2001, 0x79FB2003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79FB2001, 0x79FB2004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79FB2001, 0x79FB2005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FB2001, 0x79FB2006, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x79FB2001, 0x79FB2007, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79FB2001, 0x79FB2008, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FB2001, 0x79FB2009, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79FB2001, 0x79FB200A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FB2001, 0x79FB200B, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FB2001, 0x79FB200C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79FB2001, 0x79FB200D, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79FB2001, 0x79FB200E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79FB2001, 0x79FB200F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79FB2001, 0x79FB2010, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79FB2001, 0x79FB2011, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x79FB2001, 0x79FB2012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79FB2001, 0x79FB2013, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x79FB2001, 0x79FB2002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79FB2001, 0x79FB2003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79FB2001, 0x79FB2004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79FB2001, 0x79FB2005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FB2001, 0x79FB2006, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x79FB2001, 0x79FB2007, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79FB2001, 0x79FB2008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FB2001, 0x79FB2009, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79FB2001, 0x79FB200A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FB2001, 0x79FB200B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FB2001, 0x79FB200C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79FB2001, 0x79FB200D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79FB2001, 0x79FB200E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79FB2001, 0x79FB200F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79FB2001, 0x79FB2010, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79FB2001, 0x79FB2011, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79FB2001, 0x79FB2012, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79FB2001, 0x79FB2013, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FB2002,  7979, 0x9FB20021, 118.7678, 2.056961, 69.9985, -0.9420857, 0, 0, -0.3353721,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

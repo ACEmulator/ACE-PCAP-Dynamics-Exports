@@ -5,21 +5,21 @@ VALUES (0x7A05B001,  1154, 0xA05B0033, 149.7089, 55.87563, 33.12995, 0.9671323, 
 /* @teleloc 0xA05B0033 [149.708900 55.875630 33.129950] 0.967132 0.000000 0.000000 -0.254274 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A05B001, 0x7A05B002, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A05B001, 0x7A05B003, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B004, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B005, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B006, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B007, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B008, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B009, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B00A, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B00B, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B00C, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B00D, '2019-02-10 00:00:00') /* Reedshark Skinner */
-     , (0x7A05B001, 0x7A05B00E, '2019-02-10 00:00:00') /* Old Scratchy */
-     , (0x7A05B001, 0x7A05B00F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A05B001, 0x7A05B010, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7A05B001, 0x7A05B002, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A05B001, 0x7A05B003, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B004, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B005, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B006, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B007, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B008, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B009, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B00A, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B00B, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B00C, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B00D, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
+     , (0x7A05B001, 0x7A05B00E, '2019-02-10 00:00:00') /* Old Scratchy (34000) */
+     , (0x7A05B001, 0x7A05B00F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A05B001, 0x7A05B010, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05B002,  9244, 0xA05B0033, 149.7089, 55.87563, 33.12995, 0.9671323, 0, 0, -0.2542737,  True, '2019-02-10 00:00:00'); /* Pristine Doll */

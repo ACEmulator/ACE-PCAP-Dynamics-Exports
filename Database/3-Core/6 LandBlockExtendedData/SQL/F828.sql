@@ -9,27 +9,27 @@ VALUES (0x7F828009,  1154, 0xF8280100, 16.2194, 88.3661, 13.2066, 0.138162, 0, 0
 /* @teleloc 0xF8280100 [16.219400 88.366100 13.206600] 0.138162 0.000000 0.000000 0.990410 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F828009, 0x7F82800A, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x7F828009, 0x7F82800B, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F82800C, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x7F828009, 0x7F82800D, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F82800E, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F82800F, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F828010, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F828011, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F828012, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x7F828009, 0x7F828013, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F828014, '2019-02-10 00:00:00') /* Mosswart Scrounger */
-     , (0x7F828009, 0x7F828015, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F828016, '2019-02-10 00:00:00') /* Mosswart Scavenger */
-     , (0x7F828009, 0x7F828017, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F828018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F828009, 0x7F828019, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F828009, 0x7F82801A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7F828009, 0x7F82801B, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F82801C, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F82801D, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F828009, 0x7F82801E, '2019-02-10 00:00:00') /* Ulu Sclavus */;
+VALUES (0x7F828009, 0x7F82800A, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828009, 0x7F82800B, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F82800C, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828009, 0x7F82800D, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F82800E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F82800F, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F828010, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F828011, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F828012, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828009, 0x7F828013, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F828014, '2019-02-10 00:00:00') /* Mosswart Scrounger (28001) */
+     , (0x7F828009, 0x7F828015, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F828016, '2019-02-10 00:00:00') /* Mosswart Scavenger (28000) */
+     , (0x7F828009, 0x7F828017, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F828018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F828009, 0x7F828019, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F828009, 0x7F82801A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7F828009, 0x7F82801B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F82801C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F82801D, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F828009, 0x7F82801E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F82800A, 28001, 0xF8280100, 16.2194, 88.3661, 13.2066, 0.138162, 0, 0, 0.99041,  True, '2019-02-10 00:00:00'); /* Mosswart Scrounger */

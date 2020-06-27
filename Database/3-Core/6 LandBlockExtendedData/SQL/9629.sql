@@ -5,18 +5,18 @@ VALUES (0x79629001,  1154, 0x96290018, 70.54001, 172.1892, 117.9479, 0.9238795, 
 /* @teleloc 0x96290018 [70.540010 172.189200 117.947900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79629001, 0x79629002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x79629001, 0x79629003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x79629001, 0x79629004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x79629001, 0x79629005, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x79629001, 0x79629006, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x79629001, 0x79629007, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x79629001, 0x79629008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79629001, 0x79629009, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79629001, 0x7962900A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79629001, 0x7962900B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79629001, 0x7962900C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79629001, 0x7962900D, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x79629001, 0x79629002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x79629001, 0x79629003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x79629001, 0x79629004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x79629001, 0x79629005, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x79629001, 0x79629006, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x79629001, 0x79629007, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x79629001, 0x79629008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79629001, 0x79629009, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79629001, 0x7962900A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79629001, 0x7962900B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79629001, 0x7962900C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79629001, 0x7962900D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79629002,   199, 0x96290018, 70.54001, 172.1892, 117.9479, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -71,13 +71,13 @@ VALUES (0x7962900E,  1542, 0x96290038, 166.1955, 181.5954, 117.133, 0.9659258, 0
 /* @teleloc 0x96290038 [166.195500 181.595400 117.133000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962900E, 0x7962900F, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7962900E, 0x79629010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7962900E, 0x79629011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7962900E, 0x79629012, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7962900E, 0x79629013, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7962900E, 0x79629014, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7962900E, 0x79629015, '2019-02-10 00:00:00') /* Hasina bint Rira */;
+VALUES (0x7962900E, 0x7962900F, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7962900E, 0x79629010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7962900E, 0x79629011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7962900E, 0x79629012, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7962900E, 0x79629013, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7962900E, 0x79629014, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7962900E, 0x79629015, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962900F,  9025, 0x96290038, 166.1955, 181.5954, 117.133, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Zairente's Cooking Pot */

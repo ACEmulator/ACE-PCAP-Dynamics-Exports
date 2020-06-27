@@ -5,9 +5,9 @@ VALUES (0x726C2001,  1154, 0x26C2002E, 126.7424, 122.6072, 76.3496, -0.9376798, 
 /* @teleloc 0x26C2002E [126.742400 122.607200 76.349600] -0.937680 0.000000 0.000000 -0.347501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x726C2001, 0x726C2002, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x726C2001, 0x726C2003, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x726C2001, 0x726C2004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */;
+VALUES (0x726C2001, 0x726C2002, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x726C2001, 0x726C2003, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x726C2001, 0x726C2004, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x726C2002, 29304, 0x26C2002E, 126.7424, 122.6072, 76.3496, -0.9376798, 0, 0, -0.3475007,  True, '2019-02-10 00:00:00'); /* Viamontian Mage */

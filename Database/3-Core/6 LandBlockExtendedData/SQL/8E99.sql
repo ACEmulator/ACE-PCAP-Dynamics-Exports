@@ -5,17 +5,17 @@ VALUES (0x78E99001,  1154, 0x8E99003D, 168.8719, 96.74576, 94.15433, -0.5690232,
 /* @teleloc 0x8E99003D [168.871900 96.745760 94.154330] -0.569023 0.000000 0.000000 -0.822322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E99001, 0x78E99002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x78E99001, 0x78E99003, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78E99001, 0x78E99004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78E99001, 0x78E99005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78E99001, 0x78E99006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E99001, 0x78E99007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E99001, 0x78E99008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78E99001, 0x78E99009, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78E99001, 0x78E9900A, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78E99001, 0x78E9900B, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78E99001, 0x78E9900C, '2019-02-10 00:00:00') /* Virulent Grievver */;
+VALUES (0x78E99001, 0x78E99002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x78E99001, 0x78E99003, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78E99001, 0x78E99004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78E99001, 0x78E99005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78E99001, 0x78E99006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E99001, 0x78E99007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E99001, 0x78E99008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78E99001, 0x78E99009, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78E99001, 0x78E9900A, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78E99001, 0x78E9900B, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78E99001, 0x78E9900C, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E99002,  7978, 0x8E99003D, 168.8719, 96.74576, 94.15433, -0.5690232, 0, 0, -0.8223215,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */

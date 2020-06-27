@@ -5,19 +5,19 @@ VALUES (0x7C183001,  1154, 0xC1830014, 64.25822, 79.64474, 36.012, 0.1859931, 0,
 /* @teleloc 0xC1830014 [64.258220 79.644740 36.012000] 0.185993 0.000000 0.000000 -0.982551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C183001, 0x7C183002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C183001, 0x7C183003, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C183001, 0x7C183004, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C183001, 0x7C183005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C183001, 0x7C183006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C183001, 0x7C183007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C183001, 0x7C183008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C183001, 0x7C183009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C183001, 0x7C18300A, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C183001, 0x7C18300B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C183001, 0x7C18300C, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C183001, 0x7C18300D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C183001, 0x7C18300E, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7C183001, 0x7C183002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C183001, 0x7C183003, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C183001, 0x7C183004, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C183001, 0x7C183005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C183001, 0x7C183006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C183001, 0x7C183007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C183001, 0x7C183008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C183001, 0x7C183009, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C183001, 0x7C18300A, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C183001, 0x7C18300B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C183001, 0x7C18300C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C183001, 0x7C18300D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C183001, 0x7C18300E, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C183002,   216, 0xC1830014, 64.25822, 79.64474, 36.012, 0.1859931, 0, 0, -0.982551,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

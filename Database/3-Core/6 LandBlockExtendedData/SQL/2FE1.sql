@@ -5,18 +5,18 @@ VALUES (0x72FE1001,  1154, 0x2FE1000E, 46.17116, 123.1714, 20.0075, -0.8377692, 
 /* @teleloc 0x2FE1000E [46.171160 123.171400 20.007500] -0.837769 0.000000 0.000000 -0.546025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72FE1001, 0x72FE1002, '2019-02-10 00:00:00') /* Zombie */
-     , (0x72FE1001, 0x72FE1003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x72FE1001, 0x72FE1004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x72FE1001, 0x72FE1005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x72FE1001, 0x72FE1006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x72FE1001, 0x72FE1007, '2019-02-10 00:00:00') /* Button Thrungus */
-     , (0x72FE1001, 0x72FE1008, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72FE1001, 0x72FE1009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x72FE1001, 0x72FE100A, '2019-02-10 00:00:00') /* Banderling Blade */
-     , (0x72FE1001, 0x72FE100B, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x72FE1001, 0x72FE100C, '2019-02-10 00:00:00') /* Chill */
-     , (0x72FE1001, 0x72FE100D, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x72FE1001, 0x72FE1002, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x72FE1001, 0x72FE1003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x72FE1001, 0x72FE1004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x72FE1001, 0x72FE1005, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x72FE1001, 0x72FE1006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x72FE1001, 0x72FE1007, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
+     , (0x72FE1001, 0x72FE1008, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x72FE1001, 0x72FE1009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x72FE1001, 0x72FE100A, '2019-02-10 00:00:00') /* Banderling Blade (7332) */
+     , (0x72FE1001, 0x72FE100B, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x72FE1001, 0x72FE100C, '2019-02-10 00:00:00') /* Chill (21165) */
+     , (0x72FE1001, 0x72FE100D, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72FE1002,   950, 0x2FE1000E, 46.17116, 123.1714, 20.0075, -0.8377692, 0, 0, -0.5460246,  True, '2019-02-10 00:00:00'); /* Zombie */

@@ -5,10 +5,10 @@ VALUES (0x71750001,  1154, 0x1750002B, 139.4017, 61.13757, 3.557809, 0.9669834, 
 /* @teleloc 0x1750002B [139.401700 61.137570 3.557809] 0.966983 0.000000 0.000000 -0.254839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71750001, 0x71750002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71750001, 0x71750003, '2019-02-10 00:00:00') /* Miasma */
-     , (0x71750001, 0x71750004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x71750001, 0x71750005, '2019-02-10 00:00:00') /* Drudge Cabalist */;
+VALUES (0x71750001, 0x71750002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71750001, 0x71750003, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x71750001, 0x71750004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71750001, 0x71750005, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71750002, 41004, 0x1750002B, 139.4017, 61.13757, 3.557809, 0.9669834, 0, 0, -0.2548394,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

@@ -5,17 +5,17 @@ VALUES (0x773ED001,  1154, 0x73ED0101, 154.909, 47.9009, 70.737, 0.0182167, 0, 0
 /* @teleloc 0x73ED0101 [154.909000 47.900900 70.737000] 0.018217 0.000000 0.000000 -0.999834 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773ED001, 0x773ED002, '2019-02-10 00:00:00') /* Dark Cavern */
-     , (0x773ED001, 0x773ED003, '2019-02-10 00:00:00') /* Hyem */
-     , (0x773ED001, 0x773ED004, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x773ED001, 0x773ED005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x773ED001, 0x773ED006, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x773ED001, 0x773ED007, '2019-02-10 00:00:00') /* Brumal */
-     , (0x773ED001, 0x773ED008, '2019-02-10 00:00:00') /* Horripal */
-     , (0x773ED001, 0x773ED009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x773ED001, 0x773ED00A, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x773ED001, 0x773ED00B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x773ED001, 0x773ED00C, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x773ED001, 0x773ED002, '2019-02-10 00:00:00') /* Dark Cavern (43788) */
+     , (0x773ED001, 0x773ED003, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x773ED001, 0x773ED004, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x773ED001, 0x773ED005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x773ED001, 0x773ED006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x773ED001, 0x773ED007, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x773ED001, 0x773ED008, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x773ED001, 0x773ED009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x773ED001, 0x773ED00A, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x773ED001, 0x773ED00B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x773ED001, 0x773ED00C, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773ED002, 43788, 0x73ED0101, 154.909, 47.9009, 70.737, 0.0182167, 0, 0, -0.9998341,  True, '2019-02-10 00:00:00'); /* Dark Cavern */
@@ -66,9 +66,9 @@ VALUES (0x773ED00D,  1542, 0x73ED002A, 136.6741, 40.93889, 78.9642, 0.7248563, 0
 /* @teleloc 0x73ED002A [136.674100 40.938890 78.964200] 0.724856 0.000000 0.000000 -0.688900 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773ED00D, 0x773ED00E, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x773ED00D, 0x773ED00F, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x773ED00D, 0x773ED010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x773ED00D, 0x773ED00E, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x773ED00D, 0x773ED00F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x773ED00D, 0x773ED010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773ED00E,  8644, 0x73ED002A, 136.6741, 40.93889, 78.9642, 0.7248563, 0, 0, -0.6889001,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

@@ -5,9 +5,9 @@ VALUES (0x7E844001,  1154, 0xE844001F, 92.12215, 151.0082, 77.49338, 0.8373513, 
 /* @teleloc 0xE844001F [92.122150 151.008200 77.493380] 0.837351 0.000000 0.000000 -0.546665 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E844001, 0x7E844002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7E844001, 0x7E844003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7E844001, 0x7E844004, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7E844001, 0x7E844002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7E844001, 0x7E844003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E844001, 0x7E844004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E844002,  7991, 0xE844001F, 92.12215, 151.0082, 77.49338, 0.8373513, 0, 0, -0.5466652,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

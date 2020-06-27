@@ -5,20 +5,20 @@ VALUES (0x77CF5001,  1154, 0x7CF50031, 166.0593, 16.684, 42.44794, -0.9868211, 0
 /* @teleloc 0x7CF50031 [166.059300 16.684000 42.447940] -0.986821 0.000000 0.000000 -0.161815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF5001, 0x77CF5002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x77CF5001, 0x77CF5003, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x77CF5001, 0x77CF5004, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77CF5001, 0x77CF5005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77CF5001, 0x77CF5006, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x77CF5001, 0x77CF5007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x77CF5001, 0x77CF5008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x77CF5001, 0x77CF5009, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x77CF5001, 0x77CF500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x77CF5001, 0x77CF500B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x77CF5001, 0x77CF500C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x77CF5001, 0x77CF500D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x77CF5001, 0x77CF500E, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x77CF5001, 0x77CF500F, '2019-02-10 00:00:00') /* Virindi Director */;
+VALUES (0x77CF5001, 0x77CF5002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x77CF5001, 0x77CF5003, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x77CF5001, 0x77CF5004, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77CF5001, 0x77CF5005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77CF5001, 0x77CF5006, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x77CF5001, 0x77CF5007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x77CF5001, 0x77CF5008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x77CF5001, 0x77CF5009, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x77CF5001, 0x77CF500A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */
+     , (0x77CF5001, 0x77CF500B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x77CF5001, 0x77CF500C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x77CF5001, 0x77CF500D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x77CF5001, 0x77CF500E, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x77CF5001, 0x77CF500F, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF5002, 23616, 0x7CF50031, 166.0593, 16.684, 42.44794, -0.9868211, 0, 0, -0.1618152,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -81,8 +81,8 @@ VALUES (0x77CF5010,  1542, 0x7CF50010, 38.33963, 176.3997, 17.40508, 0.9990482, 
 /* @teleloc 0x7CF50010 [38.339630 176.399700 17.405080] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77CF5010, 0x77CF5011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x77CF5010, 0x77CF5012, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x77CF5010, 0x77CF5011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x77CF5010, 0x77CF5012, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CF5011,  4179, 0x7CF50010, 38.33963, 176.3997, 17.40508, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

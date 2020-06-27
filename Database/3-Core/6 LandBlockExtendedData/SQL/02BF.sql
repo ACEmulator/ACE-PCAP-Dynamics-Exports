@@ -17,21 +17,21 @@ VALUES (0x702BF010,  1154, 0x02BF0110, 30, -30, -0.01800001, 1, 0, 0, 0, False, 
 /* @teleloc 0x02BF0110 [30.000000 -30.000000 -0.018000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702BF010, 0x702BF011, '2019-02-10 00:00:00') /* Slithayr Eye Stalk */
-     , (0x702BF010, 0x702BF012, '2019-02-10 00:00:00') /* Revenant */
-     , (0x702BF010, 0x702BF013, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x702BF010, 0x702BF014, '2019-02-10 00:00:00') /* Revenant */
-     , (0x702BF010, 0x702BF015, '2019-02-10 00:00:00') /* Revenant */
-     , (0x702BF010, 0x702BF016, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x702BF010, 0x702BF017, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x702BF010, 0x702BF018, '2019-02-10 00:00:00') /* Slithayr Tentacle */
-     , (0x702BF010, 0x702BF019, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x702BF010, 0x702BF01A, '2019-02-10 00:00:00') /* Slithayr Tendril */
-     , (0x702BF010, 0x702BF01B, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x702BF010, 0x702BF01C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x702BF010, 0x702BF01D, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x702BF010, 0x702BF01E, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x702BF010, 0x702BF01F, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x702BF010, 0x702BF011, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x702BF010, 0x702BF012, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x702BF010, 0x702BF013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x702BF010, 0x702BF014, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x702BF010, 0x702BF015, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x702BF010, 0x702BF016, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x702BF010, 0x702BF017, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x702BF010, 0x702BF018, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x702BF010, 0x702BF019, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x702BF010, 0x702BF01A, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x702BF010, 0x702BF01B, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BF010, 0x702BF01C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BF010, 0x702BF01D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BF010, 0x702BF01E, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x702BF010, 0x702BF01F, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702BF011,  4261, 0x02BF0110, 30, -30, -0.01800001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Slithayr Eye Stalk */

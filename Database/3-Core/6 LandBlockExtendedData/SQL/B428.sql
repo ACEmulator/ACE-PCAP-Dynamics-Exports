@@ -5,22 +5,22 @@ VALUES (0x7B428001,  1154, 0xB428000B, 39.03632, 63.46315, 225.8348, 0.9238795, 
 /* @teleloc 0xB428000B [39.036320 63.463150 225.834800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B428001, 0x7B428002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B428001, 0x7B428003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B428001, 0x7B428004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B428001, 0x7B428005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B428001, 0x7B428006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B428001, 0x7B428007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B428001, 0x7B428008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B428001, 0x7B428009, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B428001, 0x7B42800A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7B428001, 0x7B42800B, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B428001, 0x7B42800C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7B428001, 0x7B42800D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B428001, 0x7B42800E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B428001, 0x7B42800F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B428001, 0x7B428010, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B428001, 0x7B428011, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7B428001, 0x7B428002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B428001, 0x7B428003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B428001, 0x7B428004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B428001, 0x7B428005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B428001, 0x7B428006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B428001, 0x7B428007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B428001, 0x7B428008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B428001, 0x7B428009, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B428001, 0x7B42800A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7B428001, 0x7B42800B, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B428001, 0x7B42800C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7B428001, 0x7B42800D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B428001, 0x7B42800E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B428001, 0x7B42800F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B428001, 0x7B428010, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B428001, 0x7B428011, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B428002,  7089, 0xB428000B, 39.03632, 63.46315, 225.8348, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -91,7 +91,7 @@ VALUES (0x7B428012,  1542, 0xB4280036, 158.3711, 141.0079, 237.5928, 1, 0, 0, 0,
 /* @teleloc 0xB4280036 [158.371100 141.007900 237.592800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B428012, 0x7B428013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B428012, 0x7B428013, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B428013, 22571, 0xB4280036, 158.3711, 141.0079, 237.5928, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

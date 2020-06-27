@@ -5,15 +5,15 @@ VALUES (0x775D9001,  1154, 0x75D90004, 15.90054, 73.56451, 262.9439, 1, 0, 0, 0,
 /* @teleloc 0x75D90004 [15.900540 73.564510 262.943900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775D9001, 0x775D9002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x775D9001, 0x775D9003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x775D9001, 0x775D9004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x775D9001, 0x775D9005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x775D9001, 0x775D9006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x775D9001, 0x775D9007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x775D9001, 0x775D9008, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x775D9001, 0x775D9009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x775D9001, 0x775D900A, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x775D9001, 0x775D9002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x775D9001, 0x775D9003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x775D9001, 0x775D9004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x775D9001, 0x775D9005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x775D9001, 0x775D9006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x775D9001, 0x775D9007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x775D9001, 0x775D9008, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x775D9001, 0x775D9009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x775D9001, 0x775D900A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775D9002, 36830, 0x75D90004, 15.90054, 73.56451, 262.9439, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -56,7 +56,7 @@ VALUES (0x775D900B,  1542, 0x75D90021, 101.51, 8.756516, 256.9745, 1, 0, 0, 0, F
 /* @teleloc 0x75D90021 [101.510000 8.756516 256.974500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775D900B, 0x775D900C, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x775D900B, 0x775D900C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775D900C,  8646, 0x75D90021, 101.51, 8.756516, 256.9745, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

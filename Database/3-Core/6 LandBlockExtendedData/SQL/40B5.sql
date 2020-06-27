@@ -5,15 +5,15 @@ VALUES (0x740B5001,  1154, 0x40B50026, 110.373, 122.177, 6.037667, -0.7331546, 0
 /* @teleloc 0x40B50026 [110.373000 122.177000 6.037667] -0.733155 0.000000 0.000000 -0.680062 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740B5001, 0x740B5002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x740B5001, 0x740B5003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x740B5001, 0x740B5009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x740B5001, 0x740B500A, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x740B5001, 0x740B5002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x740B5001, 0x740B5003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x740B5001, 0x740B5009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x740B5001, 0x740B500A, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740B5002,  4253, 0x40B50026, 110.373, 122.177, 6.037667, -0.7331546, 0, 0, -0.680062,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

@@ -5,26 +5,26 @@ VALUES (0x7C0B7001,  1154, 0xC0B70013, 69.82588, 61.10017, 307.0884, -0.01251359
 /* @teleloc 0xC0B70013 [69.825880 61.100170 307.088400] -0.012514 0.000000 0.000000 -0.999922 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0B7001, 0x7C0B7002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C0B7001, 0x7C0B7003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C0B7001, 0x7C0B7005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7006, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7C0B7001, 0x7C0B7007, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7C0B7001, 0x7C0B7008, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C0B7001, 0x7C0B7009, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C0B7001, 0x7C0B700A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7C0B7001, 0x7C0B700B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B700C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C0B7001, 0x7C0B700D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B700E, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7C0B7001, 0x7C0B700F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7010, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7012, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7013, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7C0B7001, 0x7C0B7014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C0B7001, 0x7C0B7015, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7C0B7001, 0x7C0B7002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C0B7001, 0x7C0B7003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C0B7001, 0x7C0B7005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7006, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7C0B7001, 0x7C0B7007, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7C0B7001, 0x7C0B7008, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C0B7001, 0x7C0B7009, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C0B7001, 0x7C0B700A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7C0B7001, 0x7C0B700B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B700C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C0B7001, 0x7C0B700D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B700E, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7C0B7001, 0x7C0B700F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7010, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7012, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7013, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C0B7001, 0x7C0B7014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C0B7001, 0x7C0B7015, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0B7002,  1608, 0xC0B70013, 69.82588, 61.10017, 307.0884, -0.01251359, 0, 0, -0.9999217,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

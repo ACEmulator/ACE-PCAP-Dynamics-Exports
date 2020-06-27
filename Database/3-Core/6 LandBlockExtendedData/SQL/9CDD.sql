@@ -5,20 +5,20 @@ VALUES (0x79CDD001,  1154, 0x9CDD0010, 36.39058, 168.8713, 139.7817, 0.4934199, 
 /* @teleloc 0x9CDD0010 [36.390580 168.871300 139.781700] 0.493420 0.000000 0.000000 -0.869791 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CDD001, 0x79CDD002, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x79CDD001, 0x79CDD003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79CDD001, 0x79CDD004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79CDD001, 0x79CDD005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79CDD001, 0x79CDD006, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x79CDD001, 0x79CDD007, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79CDD001, 0x79CDD008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x79CDD001, 0x79CDD009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x79CDD001, 0x79CDD00A, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79CDD001, 0x79CDD00B, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79CDD001, 0x79CDD00C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79CDD001, 0x79CDD00D, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x79CDD001, 0x79CDD00E, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79CDD001, 0x79CDD00F, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x79CDD001, 0x79CDD002, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x79CDD001, 0x79CDD003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79CDD001, 0x79CDD004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79CDD001, 0x79CDD005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79CDD001, 0x79CDD006, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x79CDD001, 0x79CDD007, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79CDD001, 0x79CDD008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x79CDD001, 0x79CDD009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x79CDD001, 0x79CDD00A, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79CDD001, 0x79CDD00B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79CDD001, 0x79CDD00C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79CDD001, 0x79CDD00D, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x79CDD001, 0x79CDD00E, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79CDD001, 0x79CDD00F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CDD002, 24289, 0x9CDD0010, 36.39058, 168.8713, 139.7817, 0.4934199, 0, 0, -0.8697912,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */

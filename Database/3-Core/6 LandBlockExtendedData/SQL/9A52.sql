@@ -5,9 +5,9 @@ VALUES (0x79A52001,  1154, 0x9A52000A, 42.71213, 34.55739, 11.78856, 0.9238795, 
 /* @teleloc 0x9A52000A [42.712130 34.557390 11.788560] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A52001, 0x79A52002, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79A52001, 0x79A52003, '2019-02-10 00:00:00') /* Broken Doll */
-     , (0x79A52001, 0x79A52004, '2019-02-10 00:00:00') /* Beaten Doll */;
+VALUES (0x79A52001, 0x79A52002, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79A52001, 0x79A52003, '2019-02-10 00:00:00') /* Broken Doll (10773) */
+     , (0x79A52001, 0x79A52004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A52002, 10773, 0x9A52000A, 42.71213, 34.55739, 11.78856, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Broken Doll */
@@ -26,8 +26,8 @@ VALUES (0x79A52005,  1542, 0x9A520007, 10.77439, 156.7585, 21.2897, 0.8695229, 0
 /* @teleloc 0x9A520007 [10.774390 156.758500 21.289700] 0.869523 0.000000 0.000000 -0.493893 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A52005, 0x79A52006, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x79A52005, 0x79A52007, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x79A52005, 0x79A52006, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x79A52005, 0x79A52007, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A52006,  9286, 0x9A520007, 10.77439, 156.7585, 21.2897, 0.8695229, 0, 0, -0.4938927,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

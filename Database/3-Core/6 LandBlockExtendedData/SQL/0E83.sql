@@ -5,21 +5,21 @@ VALUES (0x70E83001,  1154, 0x0E830004, 22.95642, 73.21346, 45.565, 0.3955759, 0,
 /* @teleloc 0x0E830004 [22.956420 73.213460 45.565000] 0.395576 0.000000 0.000000 -0.918433 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E83001, 0x70E83002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x70E83001, 0x70E83003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E83001, 0x70E83004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70E83001, 0x70E83005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70E83001, 0x70E83006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x70E83001, 0x70E83007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70E83001, 0x70E83008, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x70E83001, 0x70E83009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E83001, 0x70E8300A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E83001, 0x70E8300B, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70E83001, 0x70E8300C, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70E83001, 0x70E8300D, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E83001, 0x70E8300E, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70E83001, 0x70E8300F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E83001, 0x70E83010, '2019-02-10 00:00:00') /* Quiddity Rift */;
+VALUES (0x70E83001, 0x70E83002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x70E83001, 0x70E83003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E83001, 0x70E83004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70E83001, 0x70E83005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70E83001, 0x70E83006, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x70E83001, 0x70E83007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x70E83001, 0x70E83008, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x70E83001, 0x70E83009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E83001, 0x70E8300A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E83001, 0x70E8300B, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70E83001, 0x70E8300C, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70E83001, 0x70E8300D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E83001, 0x70E8300E, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70E83001, 0x70E8300F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E83001, 0x70E83010, '2019-02-10 00:00:00') /* Quiddity Rift (10800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E83002, 23567, 0x0E830004, 22.95642, 73.21346, 45.565, 0.3955759, 0, 0, -0.9184332,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */

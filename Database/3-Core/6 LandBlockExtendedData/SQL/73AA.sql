@@ -5,9 +5,9 @@ VALUES (0x773AA001,  1154, 0x73AA0004, 16.56769, 92.24655, 59.99834, 0.8428051, 
 /* @teleloc 0x73AA0004 [16.567690 92.246550 59.998340] 0.842805 0.000000 0.000000 -0.538219 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x773AA001, 0x773AA002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x773AA001, 0x773AA003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x773AA001, 0x773AA004, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x773AA001, 0x773AA002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x773AA001, 0x773AA003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x773AA001, 0x773AA004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x773AA002,  7089, 0x73AA0004, 16.56769, 92.24655, 59.99834, 0.8428051, 0, 0, -0.5382189,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

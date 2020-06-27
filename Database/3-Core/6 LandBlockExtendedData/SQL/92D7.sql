@@ -5,28 +5,28 @@ VALUES (0x792D7001,  1154, 0x92D70018, 71.06464, 172.2489, 220.5568, 0.9238795, 
 /* @teleloc 0x92D70018 [71.064640 172.248900 220.556800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D7001, 0x792D7002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792D7001, 0x792D7003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792D7001, 0x792D7004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792D7001, 0x792D7005, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x792D7001, 0x792D7006, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792D7001, 0x792D7007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792D7001, 0x792D7008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x792D7001, 0x792D7009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x792D7001, 0x792D700A, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D7001, 0x792D700B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D7001, 0x792D700C, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D7001, 0x792D700D, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x792D7001, 0x792D700E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x792D7001, 0x792D700F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D7001, 0x792D7010, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x792D7001, 0x792D7011, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x792D7001, 0x792D7012, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x792D7001, 0x792D7013, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x792D7001, 0x792D7014, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D7001, 0x792D7015, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D7001, 0x792D7016, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x792D7001, 0x792D7017, '2019-02-10 00:00:00') /* Olthoi Eviscerator */;
+VALUES (0x792D7001, 0x792D7002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x792D7001, 0x792D7003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x792D7001, 0x792D7004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792D7001, 0x792D7005, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x792D7001, 0x792D7006, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792D7001, 0x792D7007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792D7001, 0x792D7008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x792D7001, 0x792D7009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x792D7001, 0x792D700A, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D7001, 0x792D700B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D7001, 0x792D700C, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D7001, 0x792D700D, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x792D7001, 0x792D700E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x792D7001, 0x792D700F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D7001, 0x792D7010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x792D7001, 0x792D7011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x792D7001, 0x792D7012, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x792D7001, 0x792D7013, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x792D7001, 0x792D7014, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D7001, 0x792D7015, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D7001, 0x792D7016, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x792D7001, 0x792D7017, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D7002,  7089, 0x92D70018, 71.06464, 172.2489, 220.5568, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
@@ -121,8 +121,8 @@ VALUES (0x792D7018,  1542, 0x92D70004, 10.4307, 80.27355, 201.2341, 0.9537169, 0
 /* @teleloc 0x92D70004 [10.430700 80.273550 201.234100] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x792D7018, 0x792D7019, '2019-02-10 00:00:00') /* North Direlands Valley Junction */
-     , (0x792D7018, 0x792D701A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x792D7018, 0x792D7019, '2019-02-10 00:00:00') /* North Direlands Valley Junction (8387) */
+     , (0x792D7018, 0x792D701A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792D7019,  8387, 0x92D70004, 10.4307, 80.27355, 201.2341, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* North Direlands Valley Junction */

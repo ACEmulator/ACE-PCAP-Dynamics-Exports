@@ -5,9 +5,9 @@ VALUES (0x7A7BE001,  1154, 0xA7BE001C, 75.33212, 87.8962, 83.6095, -0.9983512, 0
 /* @teleloc 0xA7BE001C [75.332120 87.896200 83.609500] -0.998351 0.000000 0.000000 -0.057401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7BE001, 0x7A7BE002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7A7BE001, 0x7A7BE003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A7BE001, 0x7A7BE004, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7A7BE001, 0x7A7BE002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7A7BE001, 0x7A7BE003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A7BE001, 0x7A7BE004, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7BE002,   183, 0xA7BE001C, 75.33212, 87.8962, 83.6095, -0.9983512, 0, 0, -0.05740147,  True, '2019-02-10 00:00:00'); /* Banderling Raver */

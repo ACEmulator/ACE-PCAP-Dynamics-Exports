@@ -5,14 +5,14 @@ VALUES (0x7B813001,  1154, 0xB8130026, 116.6363, 136.815, 49.105, -0.5074759, 0,
 /* @teleloc 0xB8130026 [116.636300 136.815000 49.105000] -0.507476 0.000000 0.000000 -0.861666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B813001, 0x7B813002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7B813001, 0x7B813003, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7B813001, 0x7B813004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B813001, 0x7B813005, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B813001, 0x7B813006, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7B813001, 0x7B813007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B813001, 0x7B813008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B813001, 0x7B813009, '2019-02-10 00:00:00') /* Buillic */;
+VALUES (0x7B813001, 0x7B813002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7B813001, 0x7B813003, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7B813001, 0x7B813004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B813001, 0x7B813005, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B813001, 0x7B813006, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7B813001, 0x7B813007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B813001, 0x7B813008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B813001, 0x7B813009, '2019-02-10 00:00:00') /* Buillic (20187) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B813002,  1757, 0xB8130026, 116.6363, 136.815, 49.105, -0.5074759, 0, 0, -0.861666,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */

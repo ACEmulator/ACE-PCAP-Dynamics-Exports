@@ -5,13 +5,13 @@ VALUES (0x73B30001,  1154, 0x3B30000D, 42.26158, 107.892, 123.1408, -0.7774143, 
 /* @teleloc 0x3B30000D [42.261580 107.892000 123.140800] -0.777414 0.000000 0.000000 -0.628989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B30001, 0x73B30002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x73B30001, 0x73B30003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73B30001, 0x73B30004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73B30001, 0x73B30005, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73B30001, 0x73B30006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73B30001, 0x73B30007, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x73B30001, 0x73B30008, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x73B30001, 0x73B30002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73B30001, 0x73B30003, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73B30001, 0x73B30004, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73B30001, 0x73B30005, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73B30001, 0x73B30006, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73B30001, 0x73B30007, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73B30001, 0x73B30008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B30002, 14520, 0x3B30000D, 42.26158, 107.892, 123.1408, -0.7774143, 0, 0, -0.6289889,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

@@ -5,16 +5,16 @@ VALUES (0x7B69E001,  1154, 0xB69E0012, 66.80364, 42.94859, 68.45011, -0.7165286,
 /* @teleloc 0xB69E0012 [66.803640 42.948590 68.450110] -0.716529 0.000000 0.000000 -0.697558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69E001, 0x7B69E002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7B69E001, 0x7B69E003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B69E001, 0x7B69E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B69E001, 0x7B69E005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B69E001, 0x7B69E006, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B69E001, 0x7B69E007, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B69E001, 0x7B69E008, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B69E001, 0x7B69E009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B69E001, 0x7B69E00A, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7B69E001, 0x7B69E00B, '2019-02-10 00:00:00') /* Banderling Raver */;
+VALUES (0x7B69E001, 0x7B69E002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7B69E001, 0x7B69E003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B69E001, 0x7B69E004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B69E001, 0x7B69E005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B69E001, 0x7B69E006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B69E001, 0x7B69E007, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B69E001, 0x7B69E008, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B69E001, 0x7B69E009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B69E001, 0x7B69E00A, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B69E001, 0x7B69E00B, '2019-02-10 00:00:00') /* Banderling Raver (183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69E002,   943, 0xB69E0012, 66.80364, 42.94859, 68.45011, -0.7165286, 0, 0, -0.6975577,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -61,10 +61,10 @@ VALUES (0x7B69E00C,  1542, 0xB69E001D, 84.61436, 105.0239, 65.14561, 1, 0, 0, 0,
 /* @teleloc 0xB69E001D [84.614360 105.023900 65.145610] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69E00C, 0x7B69E00D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B69E00C, 0x7B69E00E, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B69E00C, 0x7B69E00F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B69E00C, 0x7B69E010, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7B69E00C, 0x7B69E00D, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B69E00C, 0x7B69E00E, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7B69E00C, 0x7B69E00F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B69E00C, 0x7B69E010, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69E00D, 22568, 0xB69E001D, 84.61436, 105.0239, 65.14561, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

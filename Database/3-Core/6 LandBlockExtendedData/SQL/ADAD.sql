@@ -5,21 +5,21 @@ VALUES (0x7ADAD001,  1154, 0xADAD0009, 29.16347, 7.491043, 86.86258, -0.8015132,
 /* @teleloc 0xADAD0009 [29.163470 7.491043 86.862580] -0.801513 0.000000 0.000000 -0.597977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADAD001, 0x7ADAD002, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ADAD001, 0x7ADAD003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAD001, 0x7ADAD004, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAD001, 0x7ADAD005, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7ADAD001, 0x7ADAD006, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7ADAD001, 0x7ADAD007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAD001, 0x7ADAD008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAD001, 0x7ADAD009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7ADAD001, 0x7ADAD00A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7ADAD001, 0x7ADAD00B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ADAD001, 0x7ADAD00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADAD001, 0x7ADAD00D, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAD001, 0x7ADAD00E, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADAD001, 0x7ADAD00F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADAD001, 0x7ADAD010, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7ADAD001, 0x7ADAD002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ADAD001, 0x7ADAD003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAD001, 0x7ADAD004, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAD001, 0x7ADAD005, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7ADAD001, 0x7ADAD006, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7ADAD001, 0x7ADAD007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAD001, 0x7ADAD008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAD001, 0x7ADAD009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7ADAD001, 0x7ADAD00A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7ADAD001, 0x7ADAD00B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ADAD001, 0x7ADAD00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADAD001, 0x7ADAD00D, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAD001, 0x7ADAD00E, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADAD001, 0x7ADAD00F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADAD001, 0x7ADAD010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADAD002,  7990, 0xADAD0009, 29.16347, 7.491043, 86.86258, -0.8015132, 0, 0, -0.5979771,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -86,7 +86,7 @@ VALUES (0x7ADAD011,  1542, 0xADAD0011, 59.13146, 12.73701, 93.98787, 0.5, 0, 0, 
 /* @teleloc 0xADAD0011 [59.131460 12.737010 93.987870] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADAD011, 0x7ADAD012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ADAD011, 0x7ADAD012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADAD012,  4179, 0xADAD0011, 59.13146, 12.73701, 93.98787, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,11 +5,11 @@ VALUES (0x7B09C001,  1154, 0xB09C0024, 108.7422, 83.07408, 65.9919, 0.7382442, 0
 /* @teleloc 0xB09C0024 [108.742200 83.074080 65.991900] 0.738244 0.000000 0.000000 -0.674534 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B09C001, 0x7B09C002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7B09C001, 0x7B09C003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B09C001, 0x7B09C004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B09C001, 0x7B09C005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B09C001, 0x7B09C006, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B09C001, 0x7B09C002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7B09C001, 0x7B09C003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B09C001, 0x7B09C004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B09C001, 0x7B09C005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B09C001, 0x7B09C006, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B09C002,  2575, 0xB09C0024, 108.7422, 83.07408, 65.9919, 0.7382442, 0, 0, -0.6745335,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

@@ -5,44 +5,44 @@ VALUES (0x73F4F001,  1154, 0x3F4F001E, 87.23668, 142.2738, 22.54195, -0.2481572,
 /* @teleloc 0x3F4F001E [87.236680 142.273800 22.541950] -0.248157 0.000000 0.000000 -0.968720 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4F001, 0x73F4F002, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73F4F001, 0x73F4F003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x73F4F001, 0x73F4F004, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73F4F001, 0x73F4F005, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F4F001, 0x73F4F006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F4F001, 0x73F4F007, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73F4F001, 0x73F4F008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F4F001, 0x73F4F009, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73F4F001, 0x73F4F00A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F4F001, 0x73F4F00B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x73F4F001, 0x73F4F00C, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F4F001, 0x73F4F00D, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73F4F001, 0x73F4F00E, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F4F001, 0x73F4F00F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73F4F001, 0x73F4F010, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73F4F001, 0x73F4F011, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73F4F001, 0x73F4F012, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73F4F001, 0x73F4F013, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73F4F001, 0x73F4F014, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73F4F001, 0x73F4F015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73F4F001, 0x73F4F016, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x73F4F001, 0x73F4F017, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x73F4F001, 0x73F4F018, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73F4F001, 0x73F4F019, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73F4F001, 0x73F4F01A, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F4F001, 0x73F4F01B, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F4F001, 0x73F4F01C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73F4F001, 0x73F4F01D, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F4F001, 0x73F4F01E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73F4F001, 0x73F4F01F, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F4F001, 0x73F4F020, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x73F4F001, 0x73F4F021, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F4F001, 0x73F4F022, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F4F001, 0x73F4F023, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73F4F001, 0x73F4F024, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73F4F001, 0x73F4F025, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73F4F001, 0x73F4F026, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73F4F001, 0x73F4F027, '2019-02-10 00:00:00') /* Tumerok Trooper */;
+VALUES (0x73F4F001, 0x73F4F002, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73F4F001, 0x73F4F003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73F4F001, 0x73F4F004, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73F4F001, 0x73F4F005, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F4F001, 0x73F4F006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F4F001, 0x73F4F007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73F4F001, 0x73F4F008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F4F001, 0x73F4F009, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73F4F001, 0x73F4F00A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F4F001, 0x73F4F00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73F4F001, 0x73F4F00C, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F4F001, 0x73F4F00D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73F4F001, 0x73F4F00E, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F4F001, 0x73F4F00F, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x73F4F001, 0x73F4F010, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73F4F001, 0x73F4F011, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73F4F001, 0x73F4F012, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73F4F001, 0x73F4F013, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73F4F001, 0x73F4F014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73F4F001, 0x73F4F015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73F4F001, 0x73F4F016, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73F4F001, 0x73F4F017, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x73F4F001, 0x73F4F018, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73F4F001, 0x73F4F019, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73F4F001, 0x73F4F01A, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F4F001, 0x73F4F01B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F4F001, 0x73F4F01C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73F4F001, 0x73F4F01D, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F4F001, 0x73F4F01E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73F4F001, 0x73F4F01F, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F4F001, 0x73F4F020, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x73F4F001, 0x73F4F021, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F4F001, 0x73F4F022, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F4F001, 0x73F4F023, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73F4F001, 0x73F4F024, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73F4F001, 0x73F4F025, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73F4F001, 0x73F4F026, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73F4F001, 0x73F4F027, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4F002, 36856, 0x3F4F001E, 87.23668, 142.2738, 22.54195, -0.2481572, 0, 0, -0.9687198,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */
@@ -201,8 +201,8 @@ VALUES (0x73F4F028,  1542, 0x3F4F002F, 124.4202, 155.2801, 30.46007, 0.9990482, 
 /* @teleloc 0x3F4F002F [124.420200 155.280100 30.460070] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F4F028, 0x73F4F029, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x73F4F028, 0x73F4F02A, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x73F4F028, 0x73F4F029, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x73F4F028, 0x73F4F02A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F4F029,  4179, 0x3F4F002F, 124.4202, 155.2801, 30.46007, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

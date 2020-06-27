@@ -5,41 +5,41 @@ VALUES (0x7DE4F001,  1154, 0xDE4F003D, 174.9862, 112.4833, 23.36561, 0.4863853, 
 /* @teleloc 0xDE4F003D [174.986200 112.483300 23.365610] 0.486385 0.000000 0.000000 -0.873745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DE4F001, 0x7DE4F002, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F003, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DE4F001, 0x7DE4F004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7DE4F001, 0x7DE4F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7DE4F001, 0x7DE4F006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DE4F001, 0x7DE4F007, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DE4F001, 0x7DE4F008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DE4F001, 0x7DE4F009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F00A, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7DE4F001, 0x7DE4F00B, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DE4F001, 0x7DE4F00C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F00D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7DE4F001, 0x7DE4F00E, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DE4F001, 0x7DE4F00F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7DE4F001, 0x7DE4F010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7DE4F001, 0x7DE4F011, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7DE4F001, 0x7DE4F013, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7DE4F001, 0x7DE4F014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F015, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7DE4F001, 0x7DE4F016, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F017, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F019, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7DE4F001, 0x7DE4F01A, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F01B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DE4F001, 0x7DE4F01C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7DE4F001, 0x7DE4F01D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7DE4F001, 0x7DE4F01E, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F01F, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F020, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DE4F001, 0x7DE4F021, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7DE4F001, 0x7DE4F022, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7DE4F001, 0x7DE4F023, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7DE4F001, 0x7DE4F024, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7DE4F001, 0x7DE4F002, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F003, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DE4F001, 0x7DE4F004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7DE4F001, 0x7DE4F005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7DE4F001, 0x7DE4F006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DE4F001, 0x7DE4F007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DE4F001, 0x7DE4F008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DE4F001, 0x7DE4F009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F00A, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7DE4F001, 0x7DE4F00B, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DE4F001, 0x7DE4F00C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F00D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DE4F001, 0x7DE4F00E, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DE4F001, 0x7DE4F00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DE4F001, 0x7DE4F010, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7DE4F001, 0x7DE4F011, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7DE4F001, 0x7DE4F013, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DE4F001, 0x7DE4F014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F015, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7DE4F001, 0x7DE4F016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F019, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7DE4F001, 0x7DE4F01A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F01B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DE4F001, 0x7DE4F01C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7DE4F001, 0x7DE4F01D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DE4F001, 0x7DE4F01E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F01F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DE4F001, 0x7DE4F021, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7DE4F001, 0x7DE4F022, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7DE4F001, 0x7DE4F023, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7DE4F001, 0x7DE4F024, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE4F002, 24937, 0xDE4F003D, 174.9862, 112.4833, 23.36561, 0.4863853, 0, 0, -0.8737445,  True, '2019-02-10 00:00:00'); /* Chicken */

@@ -13,33 +13,33 @@ VALUES (0x7EC0E020,  1154, 0xEC0E0107, 156.027, 69.6019, 9.799999, 0.770172, 0, 
 /* @teleloc 0xEC0E0107 [156.027000 69.601900 9.799999] 0.770172 0.000000 0.000000 0.637837 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC0E020, 0x7EC0E021, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E022, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E023, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E024, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E025, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E026, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E027, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E028, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E029, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02B, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02C, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02D, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02E, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E02F, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E030, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E031, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E032, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E033, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E034, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E035, '2019-02-10 00:00:00') /* Sata Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E036, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E037, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E038, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0E020, 0x7EC0E039, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EC0E020, 0x7EC0E03A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x7EC0E020, 0x7EC0E03B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord */;
+VALUES (0x7EC0E020, 0x7EC0E021, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E020, 0x7EC0E022, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E020, 0x7EC0E023, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E020, 0x7EC0E024, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E025, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E026, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E027, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E020, 0x7EC0E028, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7EC0E020, 0x7EC0E029, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E02A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E02B, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E02C, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E02D, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7EC0E020, 0x7EC0E02E, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E020, 0x7EC0E02F, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E020, 0x7EC0E030, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x7EC0E020, 0x7EC0E031, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0E020, 0x7EC0E032, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E020, 0x7EC0E033, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E020, 0x7EC0E034, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E020, 0x7EC0E035, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x7EC0E020, 0x7EC0E036, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x7EC0E020, 0x7EC0E037, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */
+     , (0x7EC0E020, 0x7EC0E038, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0E020, 0x7EC0E039, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EC0E020, 0x7EC0E03A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x7EC0E020, 0x7EC0E03B, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC0E021, 23488, 0xEC0E0107, 156.027, 69.6019, 9.799999, 0.770172, 0, 0, 0.637837,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus Lord */

@@ -5,13 +5,13 @@ VALUES (0x7CF24001,  1154, 0xCF240008, 2.754392, 188.2925, 129.007, -0.9939872, 
 /* @teleloc 0xCF240008 [2.754392 188.292500 129.007000] -0.993987 0.000000 0.000000 -0.109497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CF24001, 0x7CF24002, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7CF24001, 0x7CF24003, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CF24001, 0x7CF24004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7CF24001, 0x7CF24005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CF24001, 0x7CF24006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7CF24001, 0x7CF24007, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7CF24001, 0x7CF24008, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x7CF24001, 0x7CF24002, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7CF24001, 0x7CF24003, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CF24001, 0x7CF24004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7CF24001, 0x7CF24005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CF24001, 0x7CF24006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CF24001, 0x7CF24007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7CF24001, 0x7CF24008, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CF24002,  1610, 0xCF240008, 2.754392, 188.2925, 129.007, -0.9939872, 0, 0, -0.1094966,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */

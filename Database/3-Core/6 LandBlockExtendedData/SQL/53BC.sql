@@ -5,17 +5,17 @@ VALUES (0x753BC001,  1154, 0x53BC0001, 1.495484, 16.14371, 35.17017, 0.7436756, 
 /* @teleloc 0x53BC0001 [1.495484 16.143710 35.170170] 0.743676 0.000000 0.000000 -0.668541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x753BC001, 0x753BC002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x753BC001, 0x753BC003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x753BC001, 0x753BC004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x753BC001, 0x753BC005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x753BC001, 0x753BC006, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x753BC001, 0x753BC007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x753BC001, 0x753BC008, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x753BC001, 0x753BC009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x753BC001, 0x753BC00A, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x753BC001, 0x753BC00B, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x753BC001, 0x753BC00C, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x753BC001, 0x753BC002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x753BC001, 0x753BC003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x753BC001, 0x753BC004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x753BC001, 0x753BC005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x753BC001, 0x753BC006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x753BC001, 0x753BC007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x753BC001, 0x753BC008, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x753BC001, 0x753BC009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x753BC001, 0x753BC00A, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x753BC001, 0x753BC00B, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x753BC001, 0x753BC00C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x753BC002, 22520, 0x53BC0001, 1.495484, 16.14371, 35.17017, 0.7436756, 0, 0, -0.6685406,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */

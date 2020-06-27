@@ -5,9 +5,9 @@ VALUES (0x78870001,  1154, 0x88700006, 21.57685, 120.8793, 21.34234, -0.9180881,
 /* @teleloc 0x88700006 [21.576850 120.879300 21.342340] -0.918088 0.000000 0.000000 -0.396376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78870001, 0x78870002, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x78870001, 0x78870003, '2019-02-10 00:00:00') /* Zombie */
-     , (0x78870001, 0x78870004, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x78870001, 0x78870002, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x78870001, 0x78870003, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x78870001, 0x78870004, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78870002,  1632, 0x88700006, 21.57685, 120.8793, 21.34234, -0.9180881, 0, 0, -0.3963763,  True, '2019-02-10 00:00:00'); /* Drudge Slave */

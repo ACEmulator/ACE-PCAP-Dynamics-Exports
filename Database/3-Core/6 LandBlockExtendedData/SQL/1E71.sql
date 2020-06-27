@@ -5,19 +5,19 @@ VALUES (0x71E71001,  1154, 0x1E710003, 11.58125, 64.2955, 50.07479, -0.9921987, 
 /* @teleloc 0x1E710003 [11.581250 64.295500 50.074790] -0.992199 0.000000 0.000000 -0.124666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E71001, 0x71E71002, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71E71001, 0x71E71003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x71E71001, 0x71E71004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71E71001, 0x71E71005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x71E71001, 0x71E71006, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E71001, 0x71E71007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E71001, 0x71E71008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71E71001, 0x71E71009, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71E71001, 0x71E7100A, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x71E71001, 0x71E7100B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71E71001, 0x71E7100C, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71E71001, 0x71E7100D, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71E71001, 0x71E7100E, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x71E71001, 0x71E71002, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71E71001, 0x71E71003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x71E71001, 0x71E71004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71E71001, 0x71E71005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x71E71001, 0x71E71006, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E71001, 0x71E71007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E71001, 0x71E71008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71E71001, 0x71E71009, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71E71001, 0x71E7100A, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x71E71001, 0x71E7100B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71E71001, 0x71E7100C, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71E71001, 0x71E7100D, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71E71001, 0x71E7100E, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E71002, 23563, 0x1E710003, 11.58125, 64.2955, 50.07479, -0.9921987, 0, 0, -0.1246664,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
@@ -76,7 +76,7 @@ VALUES (0x71E7100F,  1542, 0x1E710032, 152.1064, 30.60376, 82.40226, -4.371139E-
 /* @teleloc 0x1E710032 [152.106400 30.603760 82.402260] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E7100F, 0x71E71010, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x71E7100F, 0x71E71010, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E71010,  4380, 0x1E710032, 152.1064, 30.60376, 82.40226, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

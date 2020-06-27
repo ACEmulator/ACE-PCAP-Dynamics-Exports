@@ -5,51 +5,51 @@ VALUES (0x7400A001,  1154, 0x400A0010, 34.06596, 190.743, 3.249922, -0.9193116, 
 /* @teleloc 0x400A0010 [34.065960 190.743000 3.249922] -0.919312 0.000000 0.000000 -0.393530 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7400A001, 0x7400A002, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7400A001, 0x7400A003, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7400A001, 0x7400A004, '2019-02-10 00:00:00') /* Tendril of T'thuun */
-     , (0x7400A001, 0x7400A005, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A006, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A007, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A008, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A009, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A00A, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A00B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A00C, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x7400A001, 0x7400A00D, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A00E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x7400A001, 0x7400A00F, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7400A001, 0x7400A010, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A011, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A012, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A013, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A014, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A015, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A016, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7400A001, 0x7400A017, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A018, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7400A001, 0x7400A019, '2019-02-10 00:00:00') /* Corrupted Coral Golem */
-     , (0x7400A001, 0x7400A01A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A01B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A01C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A01D, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A01E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier */
-     , (0x7400A001, 0x7400A01F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x7400A001, 0x7400A020, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A021, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A022, '2019-02-10 00:00:00') /* Moguth Moarsman */
-     , (0x7400A001, 0x7400A023, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7400A001, 0x7400A024, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A025, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A026, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7400A001, 0x7400A027, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A028, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A029, '2019-02-10 00:00:00') /* Mogshuth Moarsman */
-     , (0x7400A001, 0x7400A02A, '2019-02-10 00:00:00') /* Shoguth Moarsman */
-     , (0x7400A001, 0x7400A02B, '2019-02-10 00:00:00') /* Shogshuth Moarsman */
-     , (0x7400A001, 0x7400A02C, '2019-02-10 00:00:00') /* Maguth Moarsman */
-     , (0x7400A001, 0x7400A02D, '2019-02-10 00:00:00') /* Magshuth Moarsman */
-     , (0x7400A001, 0x7400A02E, '2019-02-10 00:00:00') /* Shogshuth Moarsman */;
+VALUES (0x7400A001, 0x7400A002, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7400A001, 0x7400A003, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7400A001, 0x7400A004, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7400A001, 0x7400A005, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A006, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A007, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A008, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A009, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7400A001, 0x7400A00A, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A00B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A00C, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x7400A001, 0x7400A00D, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A00E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x7400A001, 0x7400A00F, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40465) */
+     , (0x7400A001, 0x7400A010, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A011, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A012, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A013, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A014, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A015, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A016, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7400A001, 0x7400A017, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A018, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40467) */
+     , (0x7400A001, 0x7400A019, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40466) */
+     , (0x7400A001, 0x7400A01A, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A01B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A01C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x7400A001, 0x7400A01D, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A01E, '2019-02-10 00:00:00') /* Illu Sclavus Soldier (40310) */
+     , (0x7400A001, 0x7400A01F, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7400A001, 0x7400A020, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A021, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A022, '2019-02-10 00:00:00') /* Moguth Moarsman (40481) */
+     , (0x7400A001, 0x7400A023, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7400A001, 0x7400A024, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A025, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A026, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7400A001, 0x7400A027, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A028, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A029, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7400A001, 0x7400A02A, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7400A001, 0x7400A02B, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7400A001, 0x7400A02C, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7400A001, 0x7400A02D, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7400A001, 0x7400A02E, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7400A002, 38830, 0x400A0010, 34.06596, 190.743, 3.249922, -0.9193116, 0, 0, -0.3935304,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */
@@ -236,7 +236,7 @@ VALUES (0x7400A02F,  1542, 0x400A0102, 83.9862, 164.768, -5.663, 1, 0, 0, 0, Fal
 /* @teleloc 0x400A0102 [83.986200 164.768000 -5.663000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7400A02F, 0x7400A030, '2019-02-10 00:00:00') /* Olthoi Tunnel */;
+VALUES (0x7400A02F, 0x7400A030, '2019-02-10 00:00:00') /* Olthoi Tunnel (43577) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7400A030, 43577, 0x400A0102, 83.9862, 164.768, -5.663, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */

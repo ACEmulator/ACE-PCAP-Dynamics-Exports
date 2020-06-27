@@ -13,17 +13,17 @@ VALUES (0x763D9002,  1154, 0x63D90022, 105.6228, 34.35676, 257.2753, 1, 0, 0, 0,
 /* @teleloc 0x63D90022 [105.622800 34.356760 257.275300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D9002, 0x763D9003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x763D9002, 0x763D9004, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x763D9002, 0x763D9005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x763D9002, 0x763D9006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x763D9002, 0x763D9007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x763D9002, 0x763D9008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x763D9002, 0x763D9009, '2019-02-10 00:00:00') /* Gelid */
-     , (0x763D9002, 0x763D900A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x763D9002, 0x763D900B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x763D9002, 0x763D900C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x763D9002, 0x763D900D, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x763D9002, 0x763D9003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x763D9002, 0x763D9004, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x763D9002, 0x763D9005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x763D9002, 0x763D9006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x763D9002, 0x763D9007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x763D9002, 0x763D9008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x763D9002, 0x763D9009, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x763D9002, 0x763D900A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x763D9002, 0x763D900B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x763D9002, 0x763D900C, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x763D9002, 0x763D900D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D9003, 21550, 0x63D90022, 105.6228, 34.35676, 257.2753, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -74,9 +74,9 @@ VALUES (0x763D900E,  1542, 0x63D9003C, 171.9111, 73.77736, 269.463, -0.4753596, 
 /* @teleloc 0x63D9003C [171.911100 73.777360 269.463000] -0.475360 0.000000 0.000000 -0.879792 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D900E, 0x763D900F, '2019-02-10 00:00:00') /* Gateway */
-     , (0x763D900E, 0x763D9010, '2019-02-10 00:00:00') /* Gateway */
-     , (0x763D900E, 0x763D9011, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x763D900E, 0x763D900F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x763D900E, 0x763D9010, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x763D900E, 0x763D9011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D900F,  1955, 0x63D9003C, 171.9111, 73.77736, 269.463, -0.4753596, 0, 0, -0.8797916,  True, '2019-02-10 00:00:00'); /* Gateway */

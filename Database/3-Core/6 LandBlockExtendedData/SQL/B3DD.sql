@@ -5,13 +5,13 @@ VALUES (0x7B3DD001,  1154, 0xB3DD0011, 62.93725, 0.3001099, -0.4449999, 0.956075
 /* @teleloc 0xB3DD0011 [62.937250 0.300110 -0.445000] 0.956075 0.000000 0.000000 -0.293122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3DD001, 0x7B3DD002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7B3DD001, 0x7B3DD003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B3DD001, 0x7B3DD004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B3DD001, 0x7B3DD005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7B3DD001, 0x7B3DD006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7B3DD001, 0x7B3DD007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B3DD001, 0x7B3DD008, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7B3DD001, 0x7B3DD002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7B3DD001, 0x7B3DD003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B3DD001, 0x7B3DD004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B3DD001, 0x7B3DD005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7B3DD001, 0x7B3DD006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7B3DD001, 0x7B3DD007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B3DD001, 0x7B3DD008, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3DD002, 11526, 0xB3DD0011, 62.93725, 0.3001099, -0.4449999, 0.956075, 0, 0, -0.2931223,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */

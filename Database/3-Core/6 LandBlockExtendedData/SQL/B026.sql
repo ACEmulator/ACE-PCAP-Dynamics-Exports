@@ -5,12 +5,12 @@ VALUES (0x7B026001,  1154, 0xB0260023, 116.7359, 50.37786, 259.9565, -0.1228167,
 /* @teleloc 0xB0260023 [116.735900 50.377860 259.956500] -0.122817 0.000000 0.000000 -0.992429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B026001, 0x7B026002, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7B026001, 0x7B026003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B026001, 0x7B026004, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B026001, 0x7B026005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B026001, 0x7B026006, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B026001, 0x7B026007, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7B026001, 0x7B026002, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7B026001, 0x7B026003, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B026001, 0x7B026004, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B026001, 0x7B026005, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B026001, 0x7B026006, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B026001, 0x7B026007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B026002, 14518, 0xB0260023, 116.7359, 50.37786, 259.9565, -0.1228167, 0, 0, -0.9924294,  True, '2019-02-10 00:00:00'); /* Shivver */

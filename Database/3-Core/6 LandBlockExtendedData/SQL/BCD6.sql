@@ -5,18 +5,18 @@ VALUES (0x7BCD6001,  1154, 0xBCD6001A, 79.41314, 34.6617, 98.39207, -0.450513, 0
 /* @teleloc 0xBCD6001A [79.413140 34.661700 98.392070] -0.450513 0.000000 0.000000 -0.892770 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD6001, 0x7BCD6002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD6001, 0x7BCD6003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD6001, 0x7BCD6004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD6001, 0x7BCD6005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD6001, 0x7BCD6006, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD6001, 0x7BCD6007, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD6001, 0x7BCD6008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD6001, 0x7BCD6009, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BCD6001, 0x7BCD600A, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BCD6001, 0x7BCD600B, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7BCD6001, 0x7BCD600C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BCD6001, 0x7BCD600D, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x7BCD6001, 0x7BCD6002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD6001, 0x7BCD6003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD6001, 0x7BCD6004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD6001, 0x7BCD6005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD6001, 0x7BCD6006, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD6001, 0x7BCD6007, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD6001, 0x7BCD6008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD6001, 0x7BCD6009, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BCD6001, 0x7BCD600A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BCD6001, 0x7BCD600B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7BCD6001, 0x7BCD600C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BCD6001, 0x7BCD600D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD6002,  4254, 0xBCD6001A, 79.41314, 34.6617, 98.39207, -0.450513, 0, 0, -0.8927699,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

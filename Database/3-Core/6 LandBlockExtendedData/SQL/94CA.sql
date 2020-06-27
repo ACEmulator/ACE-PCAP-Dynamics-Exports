@@ -5,9 +5,9 @@ VALUES (0x794CA001,  1154, 0x94CA0011, 58.56952, 15.48505, 139.1908, 0.7660445, 
 /* @teleloc 0x94CA0011 [58.569520 15.485050 139.190800] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794CA001, 0x794CA002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794CA001, 0x794CA003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x794CA001, 0x794CA004, '2019-02-10 00:00:00') /* Azael Zefir */;
+VALUES (0x794CA001, 0x794CA002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794CA001, 0x794CA003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x794CA001, 0x794CA004, '2019-02-10 00:00:00') /* Azael Zefir (11533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794CA002,  7096, 0x94CA0011, 58.56952, 15.48505, 139.1908, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */

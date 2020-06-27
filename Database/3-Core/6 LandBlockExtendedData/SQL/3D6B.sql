@@ -5,10 +5,10 @@ VALUES (0x73D6B001,  1154, 0x3D6B0031, 151.0894, 4.878138, 68.37504, -0.08715577
 /* @teleloc 0x3D6B0031 [151.089400 4.878138 68.375040] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D6B001, 0x73D6B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D6B001, 0x73D6B003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73D6B001, 0x73D6B004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x73D6B001, 0x73D6B005, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x73D6B001, 0x73D6B002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D6B001, 0x73D6B003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73D6B001, 0x73D6B004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x73D6B001, 0x73D6B005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D6B002,  7119, 0x3D6B0031, 151.0894, 4.878138, 68.37504, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -31,7 +31,7 @@ VALUES (0x73D6B006,  1542, 0x3D6B0009, 46.70378, 2.416681, 57.31711, -4.371139E-
 /* @teleloc 0x3D6B0009 [46.703780 2.416681 57.317110] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D6B006, 0x73D6B007, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73D6B006, 0x73D6B007, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D6B007,  4380, 0x3D6B0009, 46.70378, 2.416681, 57.31711, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

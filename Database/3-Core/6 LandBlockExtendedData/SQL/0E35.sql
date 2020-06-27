@@ -5,19 +5,19 @@ VALUES (0x70E35001,  1154, 0x0E35002A, 131.4811, 28.73179, 33.64024, 0.7071068, 
 /* @teleloc 0x0E35002A [131.481100 28.731790 33.640240] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70E35001, 0x70E35002, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70E35001, 0x70E35003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70E35001, 0x70E35004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E35001, 0x70E35005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E35001, 0x70E35006, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70E35001, 0x70E35007, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70E35001, 0x70E35008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70E35001, 0x70E35009, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70E35001, 0x70E3500A, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70E35001, 0x70E3500B, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70E35001, 0x70E3500C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70E35001, 0x70E3500D, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70E35001, 0x70E3500E, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x70E35001, 0x70E35002, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70E35001, 0x70E35003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70E35001, 0x70E35004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E35001, 0x70E35005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E35001, 0x70E35006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70E35001, 0x70E35007, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70E35001, 0x70E35008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70E35001, 0x70E35009, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70E35001, 0x70E3500A, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70E35001, 0x70E3500B, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70E35001, 0x70E3500C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70E35001, 0x70E3500D, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70E35001, 0x70E3500E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E35002, 36826, 0x0E35002A, 131.4811, 28.73179, 33.64024, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */

@@ -5,14 +5,14 @@ VALUES (0x78EA7001,  1154, 0x8EA70031, 147.7428, 8.9198, 49.17473, -0.9794165, 0
 /* @teleloc 0x8EA70031 [147.742800 8.919800 49.174730] -0.979417 0.000000 0.000000 -0.201849 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EA7001, 0x78EA7002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x78EA7001, 0x78EA7003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78EA7001, 0x78EA7004, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x78EA7001, 0x78EA7005, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78EA7001, 0x78EA7006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x78EA7001, 0x78EA7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78EA7001, 0x78EA7008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x78EA7001, 0x78EA7009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x78EA7001, 0x78EA7002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x78EA7001, 0x78EA7003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78EA7001, 0x78EA7004, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x78EA7001, 0x78EA7005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78EA7001, 0x78EA7006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x78EA7001, 0x78EA7007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78EA7001, 0x78EA7008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x78EA7001, 0x78EA7009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EA7002, 22010, 0x8EA70031, 147.7428, 8.9198, 49.17473, -0.9794165, 0, 0, -0.2018494,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */

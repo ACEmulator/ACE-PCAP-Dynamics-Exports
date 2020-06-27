@@ -1737,9 +1737,9 @@ VALUES (0x7DB631B2,  1542, 0xDB63001B, 90.53595, 52.85203, 32.00824, -0.9769974,
 /* @teleloc 0xDB63001B [90.535950 52.852030 32.008240] -0.976997 0.000000 0.000000 -0.213251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB631B2, 0x7DB631B3, '2019-02-10 00:00:00') /* Pack Burun Kukuur */
-     , (0x7DB631B2, 0x7DB631B4, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7DB631B2, 0x7DB631B5, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x7DB631B2, 0x7DB631B3, '2019-02-10 00:00:00') /* Pack Burun Kukuur (29919) */
+     , (0x7DB631B2, 0x7DB631B4, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7DB631B2, 0x7DB631B5, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB631B3, 29919, 0xDB63001B, 90.53595, 52.85203, 32.00824, -0.9769974, 0, 0, -0.213251,  True, '2019-02-10 00:00:00'); /* Pack Burun Kukuur */

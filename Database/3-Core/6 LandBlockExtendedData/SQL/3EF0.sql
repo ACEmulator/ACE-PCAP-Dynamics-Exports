@@ -17,11 +17,11 @@ VALUES (0x73EF0003,  1154, 0x3EF0003E, 172.8399, 134.5887, 17.97763, 0.9561387, 
 /* @teleloc 0x3EF0003E [172.839900 134.588700 17.977630] 0.956139 0.000000 0.000000 -0.292914 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EF0003, 0x73EF0004, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x73EF0003, 0x73EF0005, '2019-02-10 00:00:00') /* Insatiable Eater */
-     , (0x73EF0003, 0x73EF0006, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EF0003, 0x73EF0007, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x73EF0003, 0x73EF0008, '2019-02-10 00:00:00') /* Ruschk Kartak */;
+VALUES (0x73EF0003, 0x73EF0004, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x73EF0003, 0x73EF0005, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */
+     , (0x73EF0003, 0x73EF0006, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF0003, 0x73EF0007, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x73EF0003, 0x73EF0008, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EF0004, 28641, 0x3EF0003E, 172.8399, 134.5887, 17.97763, 0.9561387, 0, 0, -0.2929142,  True, '2019-02-10 00:00:00'); /* Abhorrent Eater */

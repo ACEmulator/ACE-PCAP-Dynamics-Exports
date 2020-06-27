@@ -5,14 +5,14 @@ VALUES (0x7E62C001,  1154, 0xE62C0039, 180.5268, 9.049294, 26.73735, 0.8191521, 
 /* @teleloc 0xE62C0039 [180.526800 9.049294 26.737350] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62C001, 0x7E62C002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7E62C001, 0x7E62C003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7E62C001, 0x7E62C004, '2019-02-10 00:00:00') /* Flare */
-     , (0x7E62C001, 0x7E62C005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7E62C001, 0x7E62C006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7E62C001, 0x7E62C007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7E62C001, 0x7E62C008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7E62C001, 0x7E62C009, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x7E62C001, 0x7E62C002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7E62C001, 0x7E62C003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7E62C001, 0x7E62C004, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7E62C001, 0x7E62C005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7E62C001, 0x7E62C006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7E62C001, 0x7E62C007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7E62C001, 0x7E62C008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7E62C001, 0x7E62C009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62C002,  7980, 0xE62C0039, 180.5268, 9.049294, 26.73735, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -51,7 +51,7 @@ VALUES (0x7E62C00A,  1542, 0xE62C0011, 56.40205, 7.626177, 45.68772, -0.7964373,
 /* @teleloc 0xE62C0011 [56.402050 7.626177 45.687720] -0.796437 0.000000 0.000000 -0.604721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E62C00A, 0x7E62C00B, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x7E62C00A, 0x7E62C00B, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E62C00B, 31687, 0xE62C0011, 56.40205, 7.626177, 45.68772, -0.7964373, 0, 0, -0.6047211,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

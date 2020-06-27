@@ -5,40 +5,40 @@ VALUES (0x7A70D001,  1154, 0xA70D0020, 83.87929, 171.9587, 5.992153, -0.04730871
 /* @teleloc 0xA70D0020 [83.879290 171.958700 5.992153] -0.047309 0.000000 0.000000 -0.998880 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A70D001, 0x7A70D002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7A70D001, 0x7A70D003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7A70D001, 0x7A70D004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7A70D001, 0x7A70D005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7A70D001, 0x7A70D006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7A70D001, 0x7A70D007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7A70D001, 0x7A70D008, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A70D001, 0x7A70D009, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A70D001, 0x7A70D00A, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7A70D001, 0x7A70D00B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A70D001, 0x7A70D00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A70D001, 0x7A70D00D, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A70D001, 0x7A70D00E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A70D001, 0x7A70D00F, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A70D001, 0x7A70D010, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A70D001, 0x7A70D011, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A70D001, 0x7A70D012, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7A70D001, 0x7A70D013, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A70D001, 0x7A70D014, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A70D001, 0x7A70D015, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A70D001, 0x7A70D016, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A70D001, 0x7A70D017, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7A70D001, 0x7A70D018, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7A70D001, 0x7A70D019, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A70D001, 0x7A70D01A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A70D001, 0x7A70D01B, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7A70D001, 0x7A70D01C, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7A70D001, 0x7A70D01D, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7A70D001, 0x7A70D01E, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A70D001, 0x7A70D01F, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A70D001, 0x7A70D020, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A70D001, 0x7A70D021, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A70D001, 0x7A70D022, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A70D001, 0x7A70D023, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7A70D001, 0x7A70D002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7A70D001, 0x7A70D003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7A70D001, 0x7A70D004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7A70D001, 0x7A70D005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7A70D001, 0x7A70D006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7A70D001, 0x7A70D007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7A70D001, 0x7A70D008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A70D001, 0x7A70D009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A70D001, 0x7A70D00A, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7A70D001, 0x7A70D00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A70D001, 0x7A70D00C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A70D001, 0x7A70D00D, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A70D001, 0x7A70D00E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A70D001, 0x7A70D00F, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A70D001, 0x7A70D010, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A70D001, 0x7A70D011, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A70D001, 0x7A70D012, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7A70D001, 0x7A70D013, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A70D001, 0x7A70D014, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A70D001, 0x7A70D015, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A70D001, 0x7A70D016, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A70D001, 0x7A70D017, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7A70D001, 0x7A70D018, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A70D001, 0x7A70D019, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A70D001, 0x7A70D01A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A70D001, 0x7A70D01B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7A70D001, 0x7A70D01C, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7A70D001, 0x7A70D01D, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7A70D001, 0x7A70D01E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A70D001, 0x7A70D01F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A70D001, 0x7A70D020, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A70D001, 0x7A70D021, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A70D001, 0x7A70D022, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7A70D001, 0x7A70D023, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A70D002,  7105, 0xA70D0020, 83.87929, 171.9587, 5.992153, -0.04730871, 0, 0, -0.9988803,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -181,17 +181,17 @@ VALUES (0x7A70D024,  1542, 0xA70D0027, 113.2031, 154.9821, 16.47043, -0.1256912,
 /* @teleloc 0xA70D0027 [113.203100 154.982100 16.470430] -0.125691 0.000000 0.000000 -0.992069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A70D024, 0x7A70D025, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7A70D024, 0x7A70D026, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A70D024, 0x7A70D027, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A70D024, 0x7A70D028, '2019-02-10 00:00:00') /* Bones */
-     , (0x7A70D024, 0x7A70D029, '2019-02-10 00:00:00') /* Rock */
-     , (0x7A70D024, 0x7A70D02A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7A70D024, 0x7A70D02B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A70D024, 0x7A70D02C, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7A70D024, 0x7A70D02D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7A70D024, 0x7A70D02E, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7A70D024, 0x7A70D02F, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7A70D024, 0x7A70D025, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7A70D024, 0x7A70D026, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7A70D024, 0x7A70D027, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A70D024, 0x7A70D028, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A70D024, 0x7A70D029, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A70D024, 0x7A70D02A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7A70D024, 0x7A70D02B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A70D024, 0x7A70D02C, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7A70D024, 0x7A70D02D, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7A70D024, 0x7A70D02E, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7A70D024, 0x7A70D02F, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A70D025,  8646, 0xA70D0027, 113.2031, 154.9821, 16.47043, -0.1256912, 0, 0, -0.9920694,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

@@ -5,20 +5,20 @@ VALUES (0x71E73001,  1154, 0x1E730011, 50.779, 1.681421, 112.5184, 0.7071068, 0,
 /* @teleloc 0x1E730011 [50.779000 1.681421 112.518400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E73001, 0x71E73002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E73001, 0x71E73003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71E73001, 0x71E73004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71E73001, 0x71E73005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x71E73001, 0x71E73006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71E73001, 0x71E73007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E73001, 0x71E73008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71E73001, 0x71E73009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71E73001, 0x71E7300A, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E73001, 0x71E7300B, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E73001, 0x71E7300C, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x71E73001, 0x71E7300D, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71E73001, 0x71E7300E, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x71E73001, 0x71E7300F, '2019-02-10 00:00:00') /* Gloom Drudge */;
+VALUES (0x71E73001, 0x71E73002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E73001, 0x71E73003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71E73001, 0x71E73004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71E73001, 0x71E73005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x71E73001, 0x71E73006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71E73001, 0x71E73007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E73001, 0x71E73008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71E73001, 0x71E73009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71E73001, 0x71E7300A, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E73001, 0x71E7300B, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E73001, 0x71E7300C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x71E73001, 0x71E7300D, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71E73001, 0x71E7300E, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71E73001, 0x71E7300F, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E73002, 36840, 0x1E730011, 50.779, 1.681421, 112.5184, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -81,7 +81,7 @@ VALUES (0x71E73010,  1542, 0x1E730011, 48.14207, 0.002177333, 113.8937, 0.549373
 /* @teleloc 0x1E730011 [48.142070 0.002177 113.893700] 0.549374 0.000000 0.000000 -0.835577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E73010, 0x71E73011, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x71E73010, 0x71E73011, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E73011, 31688, 0x1E730011, 48.14207, 0.002177333, 113.8937, 0.5493739, 0, 0, -0.8355767,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

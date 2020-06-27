@@ -5,9 +5,9 @@ VALUES (0x7924C001,  1154, 0x924C0031, 159.8284, 3.583649, 16.9442, 0.953564, 0,
 /* @teleloc 0x924C0031 [159.828400 3.583649 16.944200] 0.953564 0.000000 0.000000 -0.301190 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7924C001, 0x7924C002, '2019-02-10 00:00:00') /* Narrow Rift */
-     , (0x7924C001, 0x7924C003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7924C001, 0x7924C004, '2019-02-10 00:00:00') /* Dune Reaver */;
+VALUES (0x7924C001, 0x7924C002, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7924C001, 0x7924C003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7924C001, 0x7924C004, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7924C002, 10799, 0x924C0031, 159.8284, 3.583649, 16.9442, 0.953564, 0, 0, -0.3011903,  True, '2019-02-10 00:00:00'); /* Narrow Rift */

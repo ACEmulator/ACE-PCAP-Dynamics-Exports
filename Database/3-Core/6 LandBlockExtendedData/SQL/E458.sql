@@ -5,12 +5,12 @@ VALUES (0x7E458001,  1154, 0xE4580034, 152.405, 73.78046, 1.859128, -0.4355129, 
 /* @teleloc 0xE4580034 [152.405000 73.780460 1.859128] -0.435513 0.000000 0.000000 -0.900183 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E458001, 0x7E458002, '2019-02-10 00:00:00') /* Lich */
-     , (0x7E458001, 0x7E458003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7E458001, 0x7E458004, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7E458001, 0x7E458005, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E458001, 0x7E458006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7E458001, 0x7E458007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */;
+VALUES (0x7E458001, 0x7E458002, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7E458001, 0x7E458003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7E458001, 0x7E458004, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7E458001, 0x7E458005, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E458001, 0x7E458006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7E458001, 0x7E458007, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E458002,   204, 0xE4580034, 152.405, 73.78046, 1.859128, -0.4355129, 0, 0, -0.9001825,  True, '2019-02-10 00:00:00'); /* Lich */

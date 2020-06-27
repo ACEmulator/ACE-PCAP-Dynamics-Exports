@@ -5,12 +5,12 @@ VALUES (0x7E031001,  1154, 0xE031002D, 124.7227, 104.7148, 177.1451, 0.9396926, 
 /* @teleloc 0xE031002D [124.722700 104.714800 177.145100] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E031001, 0x7E031002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7E031001, 0x7E031003, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7E031001, 0x7E031004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7E031001, 0x7E031005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7E031001, 0x7E031006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7E031001, 0x7E031007, '2019-02-10 00:00:00') /* Nalif Zefir */;
+VALUES (0x7E031001, 0x7E031002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E031001, 0x7E031003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7E031001, 0x7E031004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7E031001, 0x7E031005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7E031001, 0x7E031006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7E031001, 0x7E031007, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E031002,  1609, 0xE031002D, 124.7227, 104.7148, 177.1451, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

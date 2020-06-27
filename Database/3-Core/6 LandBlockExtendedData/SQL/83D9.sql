@@ -9,12 +9,12 @@ VALUES (0x783D9001,  1154, 0x83D90003, 21.21459, 60.19506, 269.489, 1, 0, 0, 0, 
 /* @teleloc 0x83D90003 [21.214590 60.195060 269.489000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x783D9001, 0x783D9002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x783D9001, 0x783D9003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x783D9001, 0x783D9004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x783D9001, 0x783D9005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x783D9001, 0x783D9006, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x783D9001, 0x783D9007, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x783D9001, 0x783D9002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x783D9001, 0x783D9003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x783D9001, 0x783D9004, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x783D9001, 0x783D9005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x783D9001, 0x783D9006, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x783D9001, 0x783D9007, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783D9002,  7092, 0x83D90003, 21.21459, 60.19506, 269.489, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Firestorm */

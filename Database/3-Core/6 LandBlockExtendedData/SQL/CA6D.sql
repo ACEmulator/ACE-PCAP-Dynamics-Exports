@@ -5,13 +5,13 @@ VALUES (0x7CA6D001,  1154, 0xCA6D000B, 25.67479, 65.37259, 58.72085, 0.9251585, 
 /* @teleloc 0xCA6D000B [25.674790 65.372590 58.720850] 0.925159 0.000000 0.000000 -0.379581 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA6D001, 0x7CA6D002, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7CA6D001, 0x7CA6D003, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7CA6D001, 0x7CA6D004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7CA6D001, 0x7CA6D005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7CA6D001, 0x7CA6D006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CA6D001, 0x7CA6D007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CA6D001, 0x7CA6D008, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7CA6D001, 0x7CA6D002, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7CA6D001, 0x7CA6D003, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7CA6D001, 0x7CA6D004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7CA6D001, 0x7CA6D005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7CA6D001, 0x7CA6D006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CA6D001, 0x7CA6D007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CA6D001, 0x7CA6D008, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA6D002,  9242, 0xCA6D000B, 25.67479, 65.37259, 58.72085, 0.9251585, 0, 0, -0.379581,  True, '2019-02-10 00:00:00'); /* Innocent Doll */

@@ -17,182 +17,182 @@ VALUES (0x702AE04F,  1154, 0x02AE02C3, 130, -54.3788, 0.0165, 1, 0, 0, -4.37114E
 /* @teleloc 0x02AE02C3 [130.000000 -54.378800 0.016500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702AE04F, 0x702AE050, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE051, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE052, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE053, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE054, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE055, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE056, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE057, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE058, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE059, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE05A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE05B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE05C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE05D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE05E, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE05F, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE060, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE061, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE062, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE064, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE065, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE066, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE067, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE068, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE069, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE06A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE06B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE06C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE06D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE06E, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE06F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE070, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE071, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE072, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE073, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE074, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE075, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE076, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE077, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE078, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE079, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE07A, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE07B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE07C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE07D, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE07E, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE07F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE080, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE081, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE082, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE083, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE084, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE085, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE086, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE087, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE088, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE089, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE08A, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE08B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE08C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE08D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE08E, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x702AE04F, 0x702AE08F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE090, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE091, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE092, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE093, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE094, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE095, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE096, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE097, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE098, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE099, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE09A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE09B, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE09C, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE09D, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE09E, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE09F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0A0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0A1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0A2, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0A3, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0A4, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE0A5, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE0A6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0A7, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0A8, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0A9, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0AA, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE0AB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0AC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0AD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0AE, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0AF, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0B0, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE0B1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0B2, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE0B3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0B4, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE0B5, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0B6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0B7, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x702AE04F, 0x702AE0B8, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0B9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0BA, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0BB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0BC, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0BD, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0BE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0BF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C2, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0C3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C5, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0C6, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0C7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0C8, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0C9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0CA, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0CB, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0CC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0CD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0CE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0CF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0D0, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0D1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0D2, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0D3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0D4, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0D5, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0D6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0D7, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0D8, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0D9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0DA, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0DB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0DC, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0DD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0DE, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0DF, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E0, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE0E1, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E2, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E3, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0E5, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0E7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0E8, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0E9, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0EA, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0EB, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0EC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0ED, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0EE, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0EF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0F0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0F1, '2019-02-10 00:00:00') /* Virindi Preceptor */
-     , (0x702AE04F, 0x702AE0F2, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0F3, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0F4, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0F5, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0F6, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0F7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0F8, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0F9, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x702AE04F, 0x702AE0FA, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0FB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0FC, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0FD, '2019-02-10 00:00:00') /* Assailer */
-     , (0x702AE04F, 0x702AE0FE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x702AE04F, 0x702AE0FF, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x702AE04F, 0x702AE050, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE051, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE052, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE053, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE054, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE055, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE056, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE057, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE058, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE059, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE05A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE05B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE05C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE05D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE05E, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE05F, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE060, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE061, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE062, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE063, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE064, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE065, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE066, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE067, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE068, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE069, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE06A, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE06B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE06C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE06D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE06E, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE06F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE070, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE071, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE072, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE073, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE074, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE075, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE076, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE077, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE078, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE079, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE07A, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE07B, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE07C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE07D, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE07E, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE07F, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE080, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE081, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE082, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE083, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE084, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE085, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE086, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE087, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE088, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE089, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE08A, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE08B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE08C, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE08D, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE08E, '2019-02-10 00:00:00') /* Virindi Adjudicator (23569) */
+     , (0x702AE04F, 0x702AE08F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE090, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE091, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE092, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE093, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE094, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE095, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE096, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE097, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE098, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE099, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE09A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE09B, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE09C, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE09D, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE09E, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE09F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0A0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0A1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0A2, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0A3, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0A4, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE0A5, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE0A6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0A7, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0A8, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0A9, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0AA, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE0AB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0AC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0AD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0AE, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0AF, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0B0, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE0B1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0B2, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE0B3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0B4, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE0B5, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0B6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0B7, '2019-02-10 00:00:00') /* Virindi Inquisitor (10815) */
+     , (0x702AE04F, 0x702AE0B8, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0B9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0BA, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0BB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0BC, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0BD, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0BE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0BF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C2, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0C3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C5, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0C6, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0C7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0C8, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0C9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0CA, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0CB, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0CC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0CD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0CE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0CF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0D0, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0D1, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0D2, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0D3, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0D4, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0D5, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0D6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0D7, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0D8, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0D9, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0DA, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0DB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0DC, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0DD, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0DE, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0DF, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E0, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE0E1, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E2, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E3, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E4, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0E5, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E6, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0E7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0E8, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0E9, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0EA, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0EB, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0EC, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0ED, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0EE, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0EF, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0F0, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0F1, '2019-02-10 00:00:00') /* Virindi Preceptor (23769) */
+     , (0x702AE04F, 0x702AE0F2, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0F3, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0F4, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0F5, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0F6, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0F7, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0F8, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0F9, '2019-02-10 00:00:00') /* Virindi Adjudicator (23569) */
+     , (0x702AE04F, 0x702AE0FA, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0FB, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0FC, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0FD, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x702AE04F, 0x702AE0FE, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x702AE04F, 0x702AE0FF, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AE050, 22053, 0x02AE02C3, 130, -54.3788, 0.0165, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Assailer */

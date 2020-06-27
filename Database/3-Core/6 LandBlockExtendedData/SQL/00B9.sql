@@ -85,19 +85,19 @@ VALUES (0x700B9038,  1154, 0x00B90100, 64.995, -55.034, -30.05756, 0, 0, 0, -1, 
 /* @teleloc 0x00B90100 [64.995000 -55.034000 -30.057560] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B9038, 0x700B9039, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x700B9038, 0x700B903A, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x700B9038, 0x700B903B, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B903C, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B903D, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x700B9038, 0x700B903E, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x700B9038, 0x700B903F, '2019-02-10 00:00:00') /* Wailing Statue */
-     , (0x700B9038, 0x700B9040, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B9041, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B9042, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B9043, '2019-02-10 00:00:00') /* Pyreal Target Drudge */
-     , (0x700B9038, 0x700B9044, '2019-02-10 00:00:00') /* Master Statue of 'Moarsman City' Transport */
-     , (0x700B9038, 0x700B9045, '2019-02-10 00:00:00') /* Master Statue of 'Freebooter Isle' Transport */;
+VALUES (0x700B9038, 0x700B9039, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
+     , (0x700B9038, 0x700B903A, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x700B9038, 0x700B903B, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B903C, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B903D, '2019-02-10 00:00:00') /* Wailing Statue (26543) */
+     , (0x700B9038, 0x700B903E, '2019-02-10 00:00:00') /* Wailing Statue (26544) */
+     , (0x700B9038, 0x700B903F, '2019-02-10 00:00:00') /* Wailing Statue (26568) */
+     , (0x700B9038, 0x700B9040, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B9041, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B9042, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B9043, '2019-02-10 00:00:00') /* Pyreal Target Drudge (24888) */
+     , (0x700B9038, 0x700B9044, '2019-02-10 00:00:00') /* Master Statue of 'Moarsman City' Transport (41176) */
+     , (0x700B9038, 0x700B9045, '2019-02-10 00:00:00') /* Master Statue of 'Freebooter Isle' Transport (41175) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B9039, 26544, 0x00B90100, 64.995, -55.034, -30.05756, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Wailing Statue */
@@ -156,55 +156,55 @@ VALUES (0x700B9046,  1154, 0x00B901E5, 97.1076, -101.666, -17.995, 0.9105912, 0,
 /* @teleloc 0x00B901E5 [97.107600 -101.666000 -17.995000] 0.910591 0.000000 0.000000 -0.413308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B9046, 0x700B9047, '2019-02-10 00:00:00') /* Master Rhan */
-     , (0x700B9046, 0x700B9048, '2019-02-10 00:00:00') /* Commendations Officer */
-     , (0x700B9046, 0x700B9049, '2019-02-10 00:00:00') /* Marek al-Evv */
-     , (0x700B9046, 0x700B904A, '2019-02-10 00:00:00') /* Society Vault Keeper */
-     , (0x700B9046, 0x700B904B, '2019-02-10 00:00:00') /* Promotions Officer */
-     , (0x700B9046, 0x700B904C, '2019-02-10 00:00:00') /* Keep Strategic Commander */
-     , (0x700B9046, 0x700B904D, '2019-02-10 00:00:00') /* Society Helm Armorsmith */
-     , (0x700B9046, 0x700B904E, '2019-02-10 00:00:00') /* Society Breastplate Armorsmith */
-     , (0x700B9046, 0x700B904F, '2019-02-10 00:00:00') /* Society Girth Armorsmith */
-     , (0x700B9046, 0x700B9050, '2019-02-10 00:00:00') /* Society Pauldrons Armorsmith */
-     , (0x700B9046, 0x700B9051, '2019-02-10 00:00:00') /* Tactical Officer */
-     , (0x700B9046, 0x700B9052, '2019-02-10 00:00:00') /* Kimberleigh */
-     , (0x700B9046, 0x700B9053, '2019-02-10 00:00:00') /* Gamri Nightshade */
-     , (0x700B9046, 0x700B9054, '2019-02-10 00:00:00') /* Brizinna du Corcosi */
-     , (0x700B9046, 0x700B9055, '2019-02-10 00:00:00') /* Society Vambraces Armorsmith */
-     , (0x700B9046, 0x700B9056, '2019-02-10 00:00:00') /* Society Tassets Armorsmith */
-     , (0x700B9046, 0x700B9057, '2019-02-10 00:00:00') /* Society Greaves Armorsmith */
-     , (0x700B9046, 0x700B9058, '2019-02-10 00:00:00') /* Society Gauntlets Armorsmith */
-     , (0x700B9046, 0x700B9059, '2019-02-10 00:00:00') /* Aun Quanah */
-     , (0x700B9046, 0x700B905A, '2019-02-10 00:00:00') /* Drocogst */
-     , (0x700B9046, 0x700B905B, '2019-02-10 00:00:00') /* Kylos Hunterson */
-     , (0x700B9046, 0x700B905C, '2019-02-10 00:00:00') /* Lunbal Dolicci */
-     , (0x700B9046, 0x700B905D, '2019-02-10 00:00:00') /* Elesandra Trembol */
-     , (0x700B9046, 0x700B905E, '2019-02-10 00:00:00') /* Berrando Piatelli */
-     , (0x700B9046, 0x700B905F, '2019-02-10 00:00:00') /* Kotaro Ueda */
-     , (0x700B9046, 0x700B9060, '2019-02-10 00:00:00') /* Akahana */
-     , (0x700B9046, 0x700B9061, '2019-02-10 00:00:00') /* Aldoro di Belleforte */
-     , (0x700B9046, 0x700B9062, '2019-02-10 00:00:00') /* Idaris bint Qumal */
-     , (0x700B9046, 0x700B9063, '2019-02-10 00:00:00') /* Cullum of Celdon */
-     , (0x700B9046, 0x700B9064, '2019-02-10 00:00:00') /* Rheda the Watcher */
-     , (0x700B9046, 0x700B9065, '2019-02-10 00:00:00') /* Takahara Masikawa */
-     , (0x700B9046, 0x700B9066, '2019-02-10 00:00:00') /* Mik */
-     , (0x700B9046, 0x700B9067, '2019-02-10 00:00:00') /* Ghali al-Fariq */
-     , (0x700B9046, 0x700B9068, '2019-02-10 00:00:00') /* Viviana Fortiore */
-     , (0x700B9046, 0x700B9069, '2019-02-10 00:00:00') /* Shien Genda of the Radiant Blood */
-     , (0x700B9046, 0x700B906A, '2019-02-10 00:00:00') /* Ti'alla bint Ashud */
-     , (0x700B9046, 0x700B906B, '2019-02-10 00:00:00') /* Society Sollerets Armorsmith */
-     , (0x700B9046, 0x700B906C, '2019-02-10 00:00:00') /* Kenji */
-     , (0x700B9046, 0x700B906D, '2019-02-10 00:00:00') /* Payla bint Dumandi */
-     , (0x700B9046, 0x700B906E, '2019-02-10 00:00:00') /* Kalal ibn Dariz */
-     , (0x700B9046, 0x700B906F, '2019-02-10 00:00:00') /* Saphine Brauno */
-     , (0x700B9046, 0x700B9070, '2019-02-10 00:00:00') /* Agbeart */
-     , (0x700B9046, 0x700B9071, '2019-02-10 00:00:00') /* Rafin ibn Fezesh */
-     , (0x700B9046, 0x700B9072, '2019-02-10 00:00:00') /* Daisei Chirana */
-     , (0x700B9046, 0x700B9073, '2019-02-10 00:00:00') /* Ian Foefinder */
-     , (0x700B9046, 0x700B9074, '2019-02-10 00:00:00') /* Armand di Bellenesse */
-     , (0x700B9046, 0x700B9075, '2019-02-10 00:00:00') /* Pia du Cinghalle */
-     , (0x700B9046, 0x700B9076, '2019-02-10 00:00:00') /* Atsuko */
-     , (0x700B9046, 0x700B9077, '2019-02-10 00:00:00') /* Operations Aid */;
+VALUES (0x700B9046, 0x700B9047, '2019-02-10 00:00:00') /* Master Rhan (45873) */
+     , (0x700B9046, 0x700B9048, '2019-02-10 00:00:00') /* Commendations Officer (38233) */
+     , (0x700B9046, 0x700B9049, '2019-02-10 00:00:00') /* Marek al-Evv (39476) */
+     , (0x700B9046, 0x700B904A, '2019-02-10 00:00:00') /* Society Vault Keeper (38720) */
+     , (0x700B9046, 0x700B904B, '2019-02-10 00:00:00') /* Promotions Officer (38321) */
+     , (0x700B9046, 0x700B904C, '2019-02-10 00:00:00') /* Keep Strategic Commander (44388) */
+     , (0x700B9046, 0x700B904D, '2019-02-10 00:00:00') /* Society Helm Armorsmith (38569) */
+     , (0x700B9046, 0x700B904E, '2019-02-10 00:00:00') /* Society Breastplate Armorsmith (38565) */
+     , (0x700B9046, 0x700B904F, '2019-02-10 00:00:00') /* Society Girth Armorsmith (38567) */
+     , (0x700B9046, 0x700B9050, '2019-02-10 00:00:00') /* Society Pauldrons Armorsmith (38570) */
+     , (0x700B9046, 0x700B9051, '2019-02-10 00:00:00') /* Tactical Officer (39895) */
+     , (0x700B9046, 0x700B9052, '2019-02-10 00:00:00') /* Kimberleigh (51275) */
+     , (0x700B9046, 0x700B9053, '2019-02-10 00:00:00') /* Gamri Nightshade (38331) */
+     , (0x700B9046, 0x700B9054, '2019-02-10 00:00:00') /* Brizinna du Corcosi (38373) */
+     , (0x700B9046, 0x700B9055, '2019-02-10 00:00:00') /* Society Vambraces Armorsmith (38573) */
+     , (0x700B9046, 0x700B9056, '2019-02-10 00:00:00') /* Society Tassets Armorsmith (38572) */
+     , (0x700B9046, 0x700B9057, '2019-02-10 00:00:00') /* Society Greaves Armorsmith (38568) */
+     , (0x700B9046, 0x700B9058, '2019-02-10 00:00:00') /* Society Gauntlets Armorsmith (38566) */
+     , (0x700B9046, 0x700B9059, '2019-02-10 00:00:00') /* Aun Quanah (51274) */
+     , (0x700B9046, 0x700B905A, '2019-02-10 00:00:00') /* Drocogst (51273) */
+     , (0x700B9046, 0x700B905B, '2019-02-10 00:00:00') /* Kylos Hunterson (38278) */
+     , (0x700B9046, 0x700B905C, '2019-02-10 00:00:00') /* Lunbal Dolicci (38242) */
+     , (0x700B9046, 0x700B905D, '2019-02-10 00:00:00') /* Elesandra Trembol (38275) */
+     , (0x700B9046, 0x700B905E, '2019-02-10 00:00:00') /* Berrando Piatelli (38277) */
+     , (0x700B9046, 0x700B905F, '2019-02-10 00:00:00') /* Kotaro Ueda (38276) */
+     , (0x700B9046, 0x700B9060, '2019-02-10 00:00:00') /* Akahana (38274) */
+     , (0x700B9046, 0x700B9061, '2019-02-10 00:00:00') /* Aldoro di Belleforte (38699) */
+     , (0x700B9046, 0x700B9062, '2019-02-10 00:00:00') /* Idaris bint Qumal (38701) */
+     , (0x700B9046, 0x700B9063, '2019-02-10 00:00:00') /* Cullum of Celdon (38700) */
+     , (0x700B9046, 0x700B9064, '2019-02-10 00:00:00') /* Rheda the Watcher (38600) */
+     , (0x700B9046, 0x700B9065, '2019-02-10 00:00:00') /* Takahara Masikawa (38601) */
+     , (0x700B9046, 0x700B9066, '2019-02-10 00:00:00') /* Mik (41830) */
+     , (0x700B9046, 0x700B9067, '2019-02-10 00:00:00') /* Ghali al-Fariq (41829) */
+     , (0x700B9046, 0x700B9068, '2019-02-10 00:00:00') /* Viviana Fortiore (38710) */
+     , (0x700B9046, 0x700B9069, '2019-02-10 00:00:00') /* Shien Genda of the Radiant Blood (38644) */
+     , (0x700B9046, 0x700B906A, '2019-02-10 00:00:00') /* Ti'alla bint Ashud (38428) */
+     , (0x700B9046, 0x700B906B, '2019-02-10 00:00:00') /* Society Sollerets Armorsmith (38571) */
+     , (0x700B9046, 0x700B906C, '2019-02-10 00:00:00') /* Kenji (41828) */
+     , (0x700B9046, 0x700B906D, '2019-02-10 00:00:00') /* Payla bint Dumandi (38279) */
+     , (0x700B9046, 0x700B906E, '2019-02-10 00:00:00') /* Kalal ibn Dariz (38707) */
+     , (0x700B9046, 0x700B906F, '2019-02-10 00:00:00') /* Saphine Brauno (38706) */
+     , (0x700B9046, 0x700B9070, '2019-02-10 00:00:00') /* Agbeart (38609) */
+     , (0x700B9046, 0x700B9071, '2019-02-10 00:00:00') /* Rafin ibn Fezesh (38610) */
+     , (0x700B9046, 0x700B9072, '2019-02-10 00:00:00') /* Daisei Chirana (38608) */
+     , (0x700B9046, 0x700B9073, '2019-02-10 00:00:00') /* Ian Foefinder (38431) */
+     , (0x700B9046, 0x700B9074, '2019-02-10 00:00:00') /* Armand di Bellenesse (38427) */
+     , (0x700B9046, 0x700B9075, '2019-02-10 00:00:00') /* Pia du Cinghalle (38430) */
+     , (0x700B9046, 0x700B9076, '2019-02-10 00:00:00') /* Atsuko (38429) */
+     , (0x700B9046, 0x700B9077, '2019-02-10 00:00:00') /* Operations Aid (42337) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B9047, 45873, 0x00B901E5, 97.1076, -101.666, -17.995, 0.9105912, 0, 0, -0.4133081,  True, '2019-02-10 00:00:00'); /* Master Rhan */
@@ -407,10 +407,10 @@ VALUES (0x700B9078,  1542, 0x00B90121, 123.7925, -132.0519, -23.9946, 0.7209601,
 /* @teleloc 0x00B90121 [123.792500 -132.051900 -23.994600] 0.720960 0.000000 0.000000 -0.692977 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700B9078, 0x700B9079, '2019-02-10 00:00:00') /* Nether Staff */
-     , (0x700B9078, 0x700B907A, '2019-02-10 00:00:00') /* Tenassa Sleeves */
-     , (0x700B9078, 0x700B907B, '2019-02-10 00:00:00') /* Gateway */
-     , (0x700B9078, 0x700B907C, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x700B9078, 0x700B9079, '2019-02-10 00:00:00') /* Nether Staff (43383) */
+     , (0x700B9078, 0x700B907A, '2019-02-10 00:00:00') /* Tenassa Sleeves (28624) */
+     , (0x700B9078, 0x700B907B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700B9078, 0x700B907C, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700B9079, 43383, 0x00B90121, 123.7925, -132.0519, -23.9946, 0.7209601, 0, 0, -0.6929765,  True, '2019-02-10 00:00:00'); /* Nether Staff */

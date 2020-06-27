@@ -9,16 +9,16 @@ VALUES (0x7EF28001,  1154, 0xEF280100, 160.768, 3.39971, 16.8052, 0.967678, 0, 0
 /* @teleloc 0xEF280100 [160.768000 3.399710 16.805200] 0.967678 0.000000 0.000000 0.252187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF28001, 0x7EF28002, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EF28001, 0x7EF28003, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EF28001, 0x7EF28004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EF28001, 0x7EF28005, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7EF28001, 0x7EF28006, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EF28001, 0x7EF28007, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7EF28001, 0x7EF28008, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EF28001, 0x7EF28009, '2019-02-10 00:00:00') /* Disgusting Moarsman */
-     , (0x7EF28001, 0x7EF2800A, '2019-02-10 00:00:00') /* Viscous Moarsman */
-     , (0x7EF28001, 0x7EF2800B, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7EF28001, 0x7EF28002, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28001, 0x7EF28003, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EF28001, 0x7EF28004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF28001, 0x7EF28005, '2019-02-10 00:00:00') /* Exploration Marker (39780) */
+     , (0x7EF28001, 0x7EF28006, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28001, 0x7EF28007, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7EF28001, 0x7EF28008, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28001, 0x7EF28009, '2019-02-10 00:00:00') /* Disgusting Moarsman (27853) */
+     , (0x7EF28001, 0x7EF2800A, '2019-02-10 00:00:00') /* Viscous Moarsman (27862) */
+     , (0x7EF28001, 0x7EF2800B, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF28002, 27853, 0xEF280100, 160.768, 3.39971, 16.8052, 0.967678, 0, 0, 0.252187,  True, '2019-02-10 00:00:00'); /* Disgusting Moarsman */

@@ -17,16 +17,16 @@ VALUES (0x77B98011,  1154, 0x7B98002A, 122.1488, 47.38498, 114.2213, 0.973114, 0
 /* @teleloc 0x7B98002A [122.148800 47.384980 114.221300] 0.973114 0.000000 0.000000 -0.230324 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77B98011, 0x77B98012, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x77B98011, 0x77B98013, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x77B98011, 0x77B98014, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x77B98011, 0x77B98015, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77B98011, 0x77B98016, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x77B98011, 0x77B98017, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77B98011, 0x77B98018, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x77B98011, 0x77B98019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77B98011, 0x77B9801A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77B98011, 0x77B9801B, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x77B98011, 0x77B98012, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x77B98011, 0x77B98013, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x77B98011, 0x77B98014, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x77B98011, 0x77B98015, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77B98011, 0x77B98016, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x77B98011, 0x77B98017, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77B98011, 0x77B98018, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x77B98011, 0x77B98019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77B98011, 0x77B9801A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77B98011, 0x77B9801B, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77B98012,  9253, 0x7B98002A, 122.1488, 47.38498, 114.2213, 0.973114, 0, 0, -0.2303241,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

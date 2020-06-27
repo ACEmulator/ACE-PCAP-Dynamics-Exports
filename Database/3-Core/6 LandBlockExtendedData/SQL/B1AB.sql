@@ -5,30 +5,30 @@ VALUES (0x7B1AB001,  1154, 0xB1AB0039, 187.7117, 4.82023, 28.36936, -0.9117776, 
 /* @teleloc 0xB1AB0039 [187.711700 4.820230 28.369360] -0.911778 0.000000 0.000000 -0.410684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B1AB001, 0x7B1AB002, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B1AB001, 0x7B1AB003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B1AB001, 0x7B1AB004, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B1AB001, 0x7B1AB005, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7B1AB001, 0x7B1AB006, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B1AB001, 0x7B1AB007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B1AB001, 0x7B1AB008, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7B1AB001, 0x7B1AB009, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1AB001, 0x7B1AB00A, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1AB001, 0x7B1AB00B, '2019-02-10 00:00:00') /* Male Tusker */
-     , (0x7B1AB001, 0x7B1AB00C, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B1AB001, 0x7B1AB00D, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B1AB001, 0x7B1AB00E, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B1AB001, 0x7B1AB00F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B1AB001, 0x7B1AB010, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1AB001, 0x7B1AB011, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B1AB001, 0x7B1AB012, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7B1AB001, 0x7B1AB013, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7B1AB001, 0x7B1AB014, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B1AB001, 0x7B1AB015, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B1AB001, 0x7B1AB016, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7B1AB001, 0x7B1AB017, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B1AB001, 0x7B1AB018, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B1AB001, 0x7B1AB019, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7B1AB001, 0x7B1AB002, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B1AB001, 0x7B1AB003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B1AB001, 0x7B1AB004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B1AB001, 0x7B1AB005, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7B1AB001, 0x7B1AB006, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B1AB001, 0x7B1AB007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B1AB001, 0x7B1AB008, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B1AB001, 0x7B1AB009, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1AB001, 0x7B1AB00A, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1AB001, 0x7B1AB00B, '2019-02-10 00:00:00') /* Male Tusker (11) */
+     , (0x7B1AB001, 0x7B1AB00C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B1AB001, 0x7B1AB00D, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B1AB001, 0x7B1AB00E, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B1AB001, 0x7B1AB00F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B1AB001, 0x7B1AB010, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1AB001, 0x7B1AB011, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B1AB001, 0x7B1AB012, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7B1AB001, 0x7B1AB013, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B1AB001, 0x7B1AB014, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B1AB001, 0x7B1AB015, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B1AB001, 0x7B1AB016, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7B1AB001, 0x7B1AB017, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B1AB001, 0x7B1AB018, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B1AB001, 0x7B1AB019, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B1AB002,   216, 0xB1AB0039, 187.7117, 4.82023, 28.36936, -0.9117776, 0, 0, -0.4106843,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */

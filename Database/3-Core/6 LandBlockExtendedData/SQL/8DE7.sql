@@ -5,17 +5,17 @@ VALUES (0x78DE7001,  1154, 0x8DE70013, 51.79115, 56.35708, 50.26236, -0.3923794,
 /* @teleloc 0x8DE70013 [51.791150 56.357080 50.262360] -0.392379 0.000000 0.000000 -0.919804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DE7001, 0x78DE7002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78DE7001, 0x78DE7003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE7001, 0x78DE7004, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE7001, 0x78DE7005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78DE7001, 0x78DE7006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78DE7001, 0x78DE7007, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78DE7001, 0x78DE7008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x78DE7001, 0x78DE7009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DE7001, 0x78DE700A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DE7001, 0x78DE700B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78DE7001, 0x78DE700C, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x78DE7001, 0x78DE7002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78DE7001, 0x78DE7003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE7001, 0x78DE7004, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE7001, 0x78DE7005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78DE7001, 0x78DE7006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78DE7001, 0x78DE7007, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78DE7001, 0x78DE7008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x78DE7001, 0x78DE7009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DE7001, 0x78DE700A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DE7001, 0x78DE700B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78DE7001, 0x78DE700C, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DE7002,  1628, 0x8DE70013, 51.79115, 56.35708, 50.26236, -0.3923794, 0, 0, -0.9198035,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -66,7 +66,7 @@ VALUES (0x78DE700D,  1542, 0x8DE70006, 19.50881, 129.8169, 46.83314, 0.9990482, 
 /* @teleloc 0x8DE70006 [19.508810 129.816900 46.833140] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DE700D, 0x78DE700E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78DE700D, 0x78DE700E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DE700E,  4179, 0x8DE70006, 19.50881, 129.8169, 46.83314, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

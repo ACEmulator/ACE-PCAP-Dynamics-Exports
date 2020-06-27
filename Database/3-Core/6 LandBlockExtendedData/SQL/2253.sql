@@ -5,11 +5,11 @@ VALUES (0x72253001,  1154, 0x2253003D, 173.4116, 99.14714, 0.9084308, -0.9811357
 /* @teleloc 0x2253003D [173.411600 99.147140 0.908431] -0.981136 0.000000 0.000000 -0.193321 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72253001, 0x72253002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72253001, 0x72253003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x72253001, 0x72253004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72253001, 0x72253005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x72253001, 0x72253006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x72253001, 0x72253002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72253001, 0x72253003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x72253001, 0x72253004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72253001, 0x72253005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x72253001, 0x72253006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72253002,  7119, 0x2253003D, 173.4116, 99.14714, 0.9084308, -0.9811357, 0, 0, -0.1933206,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */

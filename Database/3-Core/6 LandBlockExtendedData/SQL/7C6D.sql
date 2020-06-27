@@ -5,13 +5,13 @@ VALUES (0x77C6D001,  1154, 0x7C6D003E, 178.8695, 136.7381, 18.9831, 0.2588191, 0
 /* @teleloc 0x7C6D003E [178.869500 136.738100 18.983100] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C6D001, 0x77C6D002, '2019-02-10 00:00:00') /* Tumerok Worker */
-     , (0x77C6D001, 0x77C6D003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x77C6D001, 0x77C6D004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x77C6D001, 0x77C6D005, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x77C6D001, 0x77C6D006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x77C6D001, 0x77C6D007, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x77C6D001, 0x77C6D008, '2019-02-10 00:00:00') /* Stony Armoredillo */;
+VALUES (0x77C6D001, 0x77C6D002, '2019-02-10 00:00:00') /* Tumerok Worker (234) */
+     , (0x77C6D001, 0x77C6D003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x77C6D001, 0x77C6D004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x77C6D001, 0x77C6D005, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x77C6D001, 0x77C6D006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x77C6D001, 0x77C6D007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x77C6D001, 0x77C6D008, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6D002,   234, 0x7C6D003E, 178.8695, 136.7381, 18.9831, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Tumerok Worker */
@@ -46,7 +46,7 @@ VALUES (0x77C6D009,  1542, 0x7C6D003E, 175.5855, 138.8513, 20.04124, 0.9990482, 
 /* @teleloc 0x7C6D003E [175.585500 138.851300 20.041240] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77C6D009, 0x77C6D00A, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x77C6D009, 0x77C6D00A, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77C6D00A,  6118, 0x7C6D003E, 175.5855, 138.8513, 20.04124, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

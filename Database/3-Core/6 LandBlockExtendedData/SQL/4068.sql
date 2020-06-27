@@ -5,14 +5,14 @@ VALUES (0x74068001,  1154, 0x40680040, 174.6177, 174.6467, 20.006, 0.7071068, 0,
 /* @teleloc 0x40680040 [174.617700 174.646700 20.006000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74068001, 0x74068002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74068001, 0x74068003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x74068001, 0x74068004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74068001, 0x74068005, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74068001, 0x74068006, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74068001, 0x74068007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74068001, 0x74068008, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x74068001, 0x74068009, '2019-02-10 00:00:00') /* Virindi Observer */;
+VALUES (0x74068001, 0x74068002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74068001, 0x74068003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74068001, 0x74068004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74068001, 0x74068005, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74068001, 0x74068006, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74068001, 0x74068007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74068001, 0x74068008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74068001, 0x74068009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74068002,   228, 0x40680040, 174.6177, 174.6467, 20.006, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
@@ -51,9 +51,9 @@ VALUES (0x7406800A,  1542, 0x40680040, 177.966, 182.1825, 20.06187, 0.9990482, 0
 /* @teleloc 0x40680040 [177.966000 182.182500 20.061870] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7406800A, 0x7406800B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7406800A, 0x7406800C, '2019-02-10 00:00:00') /* Iron Scarab */
-     , (0x7406800A, 0x7406800D, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x7406800A, 0x7406800B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7406800A, 0x7406800C, '2019-02-10 00:00:00') /* Iron Scarab (689) */
+     , (0x7406800A, 0x7406800D, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7406800B,  4179, 0x40680040, 177.966, 182.1825, 20.06187, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

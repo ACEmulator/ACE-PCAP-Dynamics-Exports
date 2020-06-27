@@ -5,20 +5,20 @@ VALUES (0x7D0A2001,  1154, 0xD0A20021, 118.4354, 22.81591, 0.1369863, -0.4360933
 /* @teleloc 0xD0A20021 [118.435400 22.815910 0.136986] -0.436093 0.000000 0.000000 -0.899901 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A2001, 0x7D0A2002, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D0A2001, 0x7D0A2003, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D0A2001, 0x7D0A2004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D0A2001, 0x7D0A2005, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7D0A2001, 0x7D0A2006, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D0A2001, 0x7D0A2007, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7D0A2001, 0x7D0A2008, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7D0A2001, 0x7D0A2009, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D0A2001, 0x7D0A200A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D0A2001, 0x7D0A200B, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7D0A2001, 0x7D0A200C, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D0A2001, 0x7D0A200D, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7D0A2001, 0x7D0A200E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7D0A2001, 0x7D0A200F, '2019-02-10 00:00:00') /* Shore Armoredillo */;
+VALUES (0x7D0A2001, 0x7D0A2002, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D0A2001, 0x7D0A2003, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D0A2001, 0x7D0A2004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D0A2001, 0x7D0A2005, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D0A2001, 0x7D0A2006, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D0A2001, 0x7D0A2007, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7D0A2001, 0x7D0A2008, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D0A2001, 0x7D0A2009, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D0A2001, 0x7D0A200A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D0A2001, 0x7D0A200B, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D0A2001, 0x7D0A200C, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D0A2001, 0x7D0A200D, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D0A2001, 0x7D0A200E, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7D0A2001, 0x7D0A200F, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A2002,  8428, 0xD0A20021, 118.4354, 22.81591, 0.1369863, -0.4360933, 0, 0, -0.8999014,  True, '2019-02-10 00:00:00'); /* Mosswart Idolator */
@@ -81,7 +81,7 @@ VALUES (0x7D0A2010,  1542, 0xD0A20023, 119.0514, 59.74969, 2, 0.9990482, 0, 0, -
 /* @teleloc 0xD0A20023 [119.051400 59.749690 2.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0A2010, 0x7D0A2011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D0A2010, 0x7D0A2011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0A2011,  4179, 0xD0A20023, 119.0514, 59.74969, 2, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,20 +5,20 @@ VALUES (0x71FB5001,  1154, 0x1FB50029, 127.8049, 7.345245, 90.0065, 1, 0, 0, 0, 
 /* @teleloc 0x1FB50029 [127.804900 7.345245 90.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB5001, 0x71FB5002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71FB5001, 0x71FB5003, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71FB5001, 0x71FB5004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x71FB5001, 0x71FB5005, '2019-02-10 00:00:00') /* Summoned Pulsar Wisp */
-     , (0x71FB5001, 0x71FB5006, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x71FB5001, 0x71FB5007, '2019-02-10 00:00:00') /* Synnast */
-     , (0x71FB5001, 0x71FB5008, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71FB5001, 0x71FB5009, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x71FB5001, 0x71FB500A, '2019-02-10 00:00:00') /* Dark Vapor */
-     , (0x71FB5001, 0x71FB500B, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB5001, 0x71FB500C, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB5001, 0x71FB500D, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71FB5001, 0x71FB500E, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71FB5001, 0x71FB500F, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x71FB5001, 0x71FB5002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71FB5001, 0x71FB5003, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71FB5001, 0x71FB5004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x71FB5001, 0x71FB5005, '2019-02-10 00:00:00') /* Summoned Pulsar Wisp (9099) */
+     , (0x71FB5001, 0x71FB5006, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x71FB5001, 0x71FB5007, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x71FB5001, 0x71FB5008, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71FB5001, 0x71FB5009, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x71FB5001, 0x71FB500A, '2019-02-10 00:00:00') /* Dark Vapor (25667) */
+     , (0x71FB5001, 0x71FB500B, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB5001, 0x71FB500C, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB5001, 0x71FB500D, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71FB5001, 0x71FB500E, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71FB5001, 0x71FB500F, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB5002,  6380, 0x1FB50029, 127.8049, 7.345245, 90.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -81,12 +81,12 @@ VALUES (0x71FB5010,  1542, 0x1FB50020, 92.84954, 178.7706, 90, 1, 0, 0, 0, False
 /* @teleloc 0x1FB50020 [92.849540 178.770600 90.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FB5010, 0x71FB5011, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x71FB5010, 0x71FB5012, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB5010, 0x71FB5013, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FB5010, 0x71FB5014, '2019-02-10 00:00:00') /* Gateway */
-     , (0x71FB5010, 0x71FB5015, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FB5010, 0x71FB5016, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x71FB5010, 0x71FB5011, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x71FB5010, 0x71FB5012, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB5010, 0x71FB5013, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FB5010, 0x71FB5014, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x71FB5010, 0x71FB5015, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FB5010, 0x71FB5016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FB5011, 11556, 0x1FB50020, 92.84954, 178.7706, 90, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */

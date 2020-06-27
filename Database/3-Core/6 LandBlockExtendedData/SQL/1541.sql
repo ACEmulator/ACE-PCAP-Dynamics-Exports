@@ -5,14 +5,14 @@ VALUES (0x71541001,  1154, 0x1541000A, 46.58269, 42.7716, 11.59843, 0.9404421, 0
 /* @teleloc 0x1541000A [46.582690 42.771600 11.598430] 0.940442 0.000000 0.000000 -0.339954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71541001, 0x71541002, '2019-02-10 00:00:00') /* Resonant Portal */
-     , (0x71541001, 0x71541003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71541001, 0x71541004, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71541001, 0x71541005, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71541001, 0x71541006, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x71541001, 0x71541007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71541001, 0x71541008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x71541001, 0x71541009, '2019-02-10 00:00:00') /* Banderling Predator */;
+VALUES (0x71541001, 0x71541002, '2019-02-10 00:00:00') /* Resonant Portal (41004) */
+     , (0x71541001, 0x71541003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71541001, 0x71541004, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71541001, 0x71541005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71541001, 0x71541006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x71541001, 0x71541007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71541001, 0x71541008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71541001, 0x71541009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71541002, 41004, 0x1541000A, 46.58269, 42.7716, 11.59843, 0.9404421, 0, 0, -0.3399538,  True, '2019-02-10 00:00:00'); /* Resonant Portal */

@@ -5,24 +5,24 @@ VALUES (0x7277C001,  1154, 0x277C003D, 185.0723, 101.3959, 257.7592, -0.3661343,
 /* @teleloc 0x277C003D [185.072300 101.395900 257.759200] -0.366134 0.000000 0.000000 -0.930562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277C001, 0x7277C002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7277C001, 0x7277C003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7277C001, 0x7277C004, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7277C001, 0x7277C005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx */
-     , (0x7277C001, 0x7277C006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x7277C001, 0x7277C007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x7277C001, 0x7277C008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7277C001, 0x7277C009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277C001, 0x7277C00A, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7277C001, 0x7277C00B, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7277C001, 0x7277C00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7277C001, 0x7277C00D, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7277C001, 0x7277C00E, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7277C001, 0x7277C00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7277C001, 0x7277C010, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7277C001, 0x7277C011, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7277C001, 0x7277C012, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7277C001, 0x7277C013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x7277C001, 0x7277C002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7277C001, 0x7277C003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7277C001, 0x7277C004, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7277C001, 0x7277C005, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x7277C001, 0x7277C006, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7277C001, 0x7277C007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7277C001, 0x7277C008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7277C001, 0x7277C009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277C001, 0x7277C00A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7277C001, 0x7277C00B, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7277C001, 0x7277C00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7277C001, 0x7277C00D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7277C001, 0x7277C00E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7277C001, 0x7277C00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7277C001, 0x7277C010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7277C001, 0x7277C011, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277C001, 0x7277C012, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7277C001, 0x7277C013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277C002, 41535, 0x277C003D, 185.0723, 101.3959, 257.7592, -0.3661343, 0, 0, -0.930562,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -101,7 +101,7 @@ VALUES (0x7277C014,  1542, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 
 /* @teleloc 0x277C003D [173.080400 118.285800 250.690500] 0.587137 0.000000 0.000000 -0.809488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277C014, 0x7277C015, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7277C014, 0x7277C015, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277C015, 42528, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 0, 0, -0.8094879,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,13 +5,13 @@ VALUES (0x7CED8001,  1154, 0xCED8000C, 42.95691, 82.81596, 21.57974, -0.8599534,
 /* @teleloc 0xCED8000C [42.956910 82.815960 21.579740] -0.859953 0.000000 0.000000 -0.510373 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CED8001, 0x7CED8002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CED8001, 0x7CED8003, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7CED8001, 0x7CED8004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CED8001, 0x7CED8005, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7CED8001, 0x7CED8006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7CED8001, 0x7CED8007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7CED8001, 0x7CED8008, '2019-02-10 00:00:00') /* Olthoi Noble */;
+VALUES (0x7CED8001, 0x7CED8002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CED8001, 0x7CED8003, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7CED8001, 0x7CED8004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CED8001, 0x7CED8005, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7CED8001, 0x7CED8006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7CED8001, 0x7CED8007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7CED8001, 0x7CED8008, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CED8002,     3, 0xCED8000C, 42.95691, 82.81596, 21.57974, -0.8599534, 0, 0, -0.5103726,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -46,7 +46,7 @@ VALUES (0x7CED8009,  1542, 0xCED80006, 18.06118, 126.2851, 9.717816, 0.3697518, 
 /* @teleloc 0xCED80006 [18.061180 126.285100 9.717816] 0.369752 0.000000 0.000000 -0.929131 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CED8009, 0x7CED800A, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x7CED8009, 0x7CED800A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CED800A, 11555, 0xCED80006, 18.06118, 126.2851, 9.717816, 0.3697518, 0, 0, -0.9291306,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

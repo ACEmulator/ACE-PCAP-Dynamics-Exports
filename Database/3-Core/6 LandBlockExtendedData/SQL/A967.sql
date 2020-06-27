@@ -5,11 +5,11 @@ VALUES (0x7A967001,  1154, 0xA9670026, 96.6332, 133.7315, 46.35334, 1, 0, 0, 0, 
 /* @teleloc 0xA9670026 [96.633200 133.731500 46.353340] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A967001, 0x7A967002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A967001, 0x7A967003, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A967001, 0x7A967004, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7A967001, 0x7A967005, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7A967001, 0x7A967006, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x7A967001, 0x7A967002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A967001, 0x7A967003, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A967001, 0x7A967004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7A967001, 0x7A967005, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7A967001, 0x7A967006, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A967002,  1626, 0xA9670026, 96.6332, 133.7315, 46.35334, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -36,7 +36,7 @@ VALUES (0x7A967007,  1542, 0xA967001E, 92.532, 131.9482, 46.04413, 1, 0, 0, 0, F
 /* @teleloc 0xA967001E [92.532000 131.948200 46.044130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A967007, 0x7A967008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A967007, 0x7A967008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A967008,  4180, 0xA967001E, 92.532, 131.9482, 46.04413, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

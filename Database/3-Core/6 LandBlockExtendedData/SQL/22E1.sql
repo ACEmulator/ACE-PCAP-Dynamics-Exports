@@ -5,16 +5,16 @@ VALUES (0x722E1001,  1154, 0x22E10021, 109.9788, 14.70825, 20.00825, 0.2699807, 
 /* @teleloc 0x22E10021 [109.978800 14.708250 20.008250] 0.269981 0.000000 0.000000 -0.962866 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722E1001, 0x722E1002, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x722E1001, 0x722E1003, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x722E1001, 0x722E1004, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x722E1001, 0x722E1005, '2019-02-10 00:00:00') /* Ruschk Shatterer */
-     , (0x722E1001, 0x722E1006, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722E1001, 0x722E1007, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x722E1001, 0x722E1008, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722E1001, 0x722E1009, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x722E1001, 0x722E100A, '2019-02-10 00:00:00') /* Ruschk Slayer */
-     , (0x722E1001, 0x722E100B, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x722E1001, 0x722E1002, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x722E1001, 0x722E1003, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x722E1001, 0x722E1004, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x722E1001, 0x722E1005, '2019-02-10 00:00:00') /* Ruschk Shatterer (28671) */
+     , (0x722E1001, 0x722E1006, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E1001, 0x722E1007, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x722E1001, 0x722E1008, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E1001, 0x722E1009, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x722E1001, 0x722E100A, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E1001, 0x722E100B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E1002,  8673, 0x22E10021, 109.9788, 14.70825, 20.00825, 0.2699807, 0, 0, -0.9628658,  True, '2019-02-10 00:00:00'); /* Risen Knight */

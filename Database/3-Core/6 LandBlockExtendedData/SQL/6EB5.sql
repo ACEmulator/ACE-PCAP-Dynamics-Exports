@@ -5,13 +5,13 @@ VALUES (0x76EB5001,  1154, 0x6EB50016, 52.37524, 139.2344, 111.9757, -0.3364034,
 /* @teleloc 0x6EB50016 [52.375240 139.234400 111.975700] -0.336403 0.000000 0.000000 -0.941718 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76EB5001, 0x76EB5002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x76EB5001, 0x76EB5003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76EB5001, 0x76EB5004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76EB5001, 0x76EB5005, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EB5001, 0x76EB5006, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EB5001, 0x76EB5007, '2019-02-10 00:00:00') /* Frost */
-     , (0x76EB5001, 0x76EB5008, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x76EB5001, 0x76EB5002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x76EB5001, 0x76EB5003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76EB5001, 0x76EB5004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76EB5001, 0x76EB5005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EB5001, 0x76EB5006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EB5001, 0x76EB5007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x76EB5001, 0x76EB5008, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76EB5002,  4217, 0x6EB50016, 52.37524, 139.2344, 111.9757, -0.3364034, 0, 0, -0.941718,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

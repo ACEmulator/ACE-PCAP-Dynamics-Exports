@@ -5,20 +5,20 @@ VALUES (0x7B586001,  1154, 0xB5860016, 55.60024, 137.302, 38.80786, -0.5411343, 
 /* @teleloc 0xB5860016 [55.600240 137.302000 38.807860] -0.541134 0.000000 0.000000 -0.840936 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B586001, 0x7B586002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7B586001, 0x7B586003, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7B586001, 0x7B586004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B586001, 0x7B586005, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B586001, 0x7B586006, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B586001, 0x7B586007, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x7B586001, 0x7B586008, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B586001, 0x7B586009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B586001, 0x7B58600A, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B586001, 0x7B58600B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B586001, 0x7B58600C, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7B586001, 0x7B58600D, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7B586001, 0x7B58600E, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B586001, 0x7B58600F, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7B586001, 0x7B586002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B586001, 0x7B586003, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7B586001, 0x7B586004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B586001, 0x7B586005, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B586001, 0x7B586006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B586001, 0x7B586007, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7B586001, 0x7B586008, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B586001, 0x7B586009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B586001, 0x7B58600A, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B586001, 0x7B58600B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B586001, 0x7B58600C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B586001, 0x7B58600D, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7B586001, 0x7B58600E, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B586001, 0x7B58600F, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B586002,  1758, 0xB5860016, 55.60024, 137.302, 38.80786, -0.5411343, 0, 0, -0.8409362,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -81,8 +81,8 @@ VALUES (0x7B586010,  1542, 0xB586000E, 36.03818, 143.6424, 36.25631, 1, 0, 0, 0,
 /* @teleloc 0xB586000E [36.038180 143.642400 36.256310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B586010, 0x7B586011, '2019-02-10 00:00:00') /* Vat */
-     , (0x7B586010, 0x7B586012, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7B586010, 0x7B586011, '2019-02-10 00:00:00') /* Vat (4383) */
+     , (0x7B586010, 0x7B586012, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B586011,  4383, 0xB586000E, 36.03818, 143.6424, 36.25631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vat */

@@ -5,35 +5,35 @@ VALUES (0x75AA4001,  1154, 0x5AA4000B, 43.36969, 70.905, 54.30286, -0.804629, 0,
 /* @teleloc 0x5AA4000B [43.369690 70.905000 54.302860] -0.804629 0.000000 0.000000 -0.593778 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA4001, 0x75AA4002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75AA4001, 0x75AA4003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x75AA4001, 0x75AA4004, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75AA4001, 0x75AA4005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x75AA4001, 0x75AA4006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75AA4001, 0x75AA4007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75AA4001, 0x75AA4008, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x75AA4001, 0x75AA4009, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75AA4001, 0x75AA400A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75AA4001, 0x75AA400B, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75AA4001, 0x75AA400C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75AA4001, 0x75AA400D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA4001, 0x75AA400E, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA4001, 0x75AA400F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x75AA4001, 0x75AA4010, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75AA4001, 0x75AA4011, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x75AA4001, 0x75AA4012, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75AA4001, 0x75AA4013, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA4001, 0x75AA4014, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x75AA4001, 0x75AA4015, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75AA4001, 0x75AA4016, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x75AA4001, 0x75AA4017, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x75AA4001, 0x75AA4018, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75AA4001, 0x75AA4019, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x75AA4001, 0x75AA401A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x75AA4001, 0x75AA401B, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x75AA4001, 0x75AA401C, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75AA4001, 0x75AA401D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x75AA4001, 0x75AA401E, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x75AA4001, 0x75AA4002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75AA4001, 0x75AA4003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x75AA4001, 0x75AA4004, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75AA4001, 0x75AA4005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x75AA4001, 0x75AA4006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75AA4001, 0x75AA4007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75AA4001, 0x75AA4008, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x75AA4001, 0x75AA4009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75AA4001, 0x75AA400A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75AA4001, 0x75AA400B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75AA4001, 0x75AA400C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75AA4001, 0x75AA400D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA4001, 0x75AA400E, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA4001, 0x75AA400F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x75AA4001, 0x75AA4010, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75AA4001, 0x75AA4011, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x75AA4001, 0x75AA4012, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75AA4001, 0x75AA4013, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA4001, 0x75AA4014, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x75AA4001, 0x75AA4015, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75AA4001, 0x75AA4016, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x75AA4001, 0x75AA4017, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x75AA4001, 0x75AA4018, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75AA4001, 0x75AA4019, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x75AA4001, 0x75AA401A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x75AA4001, 0x75AA401B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x75AA4001, 0x75AA401C, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75AA4001, 0x75AA401D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x75AA4001, 0x75AA401E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA4002,  4217, 0x5AA4000B, 43.36969, 70.905, 54.30286, -0.804629, 0, 0, -0.5937778,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -156,7 +156,7 @@ VALUES (0x75AA401F,  1542, 0x5AA40003, 9.900992, 56.22823, 54.19646, 0.09630366,
 /* @teleloc 0x5AA40003 [9.900992 56.228230 54.196460] 0.096304 0.000000 0.000000 -0.995352 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AA401F, 0x75AA4020, '2019-02-10 00:00:00') /* Hennacin Plant */;
+VALUES (0x75AA401F, 0x75AA4020, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AA4020,  8039, 0x5AA40003, 9.900992, 56.22823, 54.19646, 0.09630366, 0, 0, -0.995352,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

@@ -5,99 +5,99 @@ VALUES (0x72F0D001,  1154, 0x2F0D000D, 45.50143, 106.6285, 46.04568, 0.7071068, 
 /* @teleloc 0x2F0D000D [45.501430 106.628500 46.045680] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F0D001, 0x72F0D002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72F0D001, 0x72F0D005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D006, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x72F0D001, 0x72F0D007, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F0D001, 0x72F0D008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F0D001, 0x72F0D009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F0D001, 0x72F0D00A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F0D001, 0x72F0D00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72F0D001, 0x72F0D00C, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72F0D001, 0x72F0D00D, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72F0D001, 0x72F0D00E, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D00F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F0D001, 0x72F0D010, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D011, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D012, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D014, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D015, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D016, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D017, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72F0D001, 0x72F0D018, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D019, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F0D001, 0x72F0D01A, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F0D001, 0x72F0D01B, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72F0D001, 0x72F0D01C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72F0D001, 0x72F0D01D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F0D001, 0x72F0D01E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F0D001, 0x72F0D01F, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72F0D001, 0x72F0D020, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72F0D001, 0x72F0D021, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72F0D001, 0x72F0D022, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72F0D001, 0x72F0D023, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72F0D001, 0x72F0D024, '2019-02-10 00:00:00') /* Caustic */
-     , (0x72F0D001, 0x72F0D025, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D026, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72F0D001, 0x72F0D027, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x72F0D001, 0x72F0D028, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D029, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D02A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72F0D001, 0x72F0D02B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F0D001, 0x72F0D02C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D02D, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F0D001, 0x72F0D02E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72F0D001, 0x72F0D02F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72F0D001, 0x72F0D030, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72F0D001, 0x72F0D031, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72F0D001, 0x72F0D032, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D033, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D034, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D035, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D036, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D037, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F0D001, 0x72F0D038, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D039, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D03A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F0D001, 0x72F0D03B, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D03C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F0D001, 0x72F0D03D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x72F0D001, 0x72F0D03E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F0D001, 0x72F0D03F, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72F0D001, 0x72F0D040, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D041, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F0D001, 0x72F0D042, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D043, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F0D001, 0x72F0D044, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D045, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F0D001, 0x72F0D046, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72F0D001, 0x72F0D047, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F0D001, 0x72F0D048, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F0D001, 0x72F0D049, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F0D001, 0x72F0D04A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D04B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D04C, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72F0D001, 0x72F0D04D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72F0D001, 0x72F0D04E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72F0D001, 0x72F0D04F, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72F0D001, 0x72F0D050, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72F0D001, 0x72F0D051, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x72F0D001, 0x72F0D052, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72F0D001, 0x72F0D053, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72F0D001, 0x72F0D054, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x72F0D001, 0x72F0D055, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72F0D001, 0x72F0D056, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72F0D001, 0x72F0D057, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72F0D001, 0x72F0D058, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F0D001, 0x72F0D059, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F0D001, 0x72F0D05A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F0D001, 0x72F0D05B, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72F0D001, 0x72F0D05C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72F0D001, 0x72F0D05D, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x72F0D001, 0x72F0D05E, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x72F0D001, 0x72F0D002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72F0D001, 0x72F0D005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D006, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x72F0D001, 0x72F0D007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F0D001, 0x72F0D008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F0D001, 0x72F0D009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F0D001, 0x72F0D00A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F0D001, 0x72F0D00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72F0D001, 0x72F0D00C, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72F0D001, 0x72F0D00D, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72F0D001, 0x72F0D00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D00F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F0D001, 0x72F0D010, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D011, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D012, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D013, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D014, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D015, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D016, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D017, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72F0D001, 0x72F0D018, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D019, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F0D001, 0x72F0D01A, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F0D001, 0x72F0D01B, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72F0D001, 0x72F0D01C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72F0D001, 0x72F0D01D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F0D001, 0x72F0D01E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F0D001, 0x72F0D01F, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72F0D001, 0x72F0D020, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72F0D001, 0x72F0D021, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72F0D001, 0x72F0D022, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72F0D001, 0x72F0D023, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72F0D001, 0x72F0D024, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x72F0D001, 0x72F0D025, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D026, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72F0D001, 0x72F0D027, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x72F0D001, 0x72F0D028, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D029, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D02A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72F0D001, 0x72F0D02B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F0D001, 0x72F0D02C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D02D, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F0D001, 0x72F0D02E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72F0D001, 0x72F0D02F, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72F0D001, 0x72F0D030, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F0D001, 0x72F0D031, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72F0D001, 0x72F0D032, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D033, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D034, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D035, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D036, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D037, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F0D001, 0x72F0D038, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D039, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D03A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F0D001, 0x72F0D03B, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D03C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F0D001, 0x72F0D03D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72F0D001, 0x72F0D03E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F0D001, 0x72F0D03F, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72F0D001, 0x72F0D040, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D041, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F0D001, 0x72F0D042, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D043, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F0D001, 0x72F0D044, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D045, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F0D001, 0x72F0D046, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72F0D001, 0x72F0D047, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F0D001, 0x72F0D048, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F0D001, 0x72F0D049, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F0D001, 0x72F0D04A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D04B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D04C, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72F0D001, 0x72F0D04D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72F0D001, 0x72F0D04E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72F0D001, 0x72F0D04F, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72F0D001, 0x72F0D050, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72F0D001, 0x72F0D051, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72F0D001, 0x72F0D052, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72F0D001, 0x72F0D053, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72F0D001, 0x72F0D054, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72F0D001, 0x72F0D055, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72F0D001, 0x72F0D056, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72F0D001, 0x72F0D057, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72F0D001, 0x72F0D058, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F0D001, 0x72F0D059, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F0D001, 0x72F0D05A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F0D001, 0x72F0D05B, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72F0D001, 0x72F0D05C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72F0D001, 0x72F0D05D, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x72F0D001, 0x72F0D05E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F0D002,  7184, 0x2F0D000D, 45.50143, 106.6285, 46.04568, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -476,13 +476,13 @@ VALUES (0x72F0D05F,  1542, 0x2F0D0024, 109.8714, 78.86929, 41.14272, 1, 0, 0, 0,
 /* @teleloc 0x2F0D0024 [109.871400 78.869290 41.142720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F0D05F, 0x72F0D060, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x72F0D05F, 0x72F0D061, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F0D05F, 0x72F0D062, '2019-02-10 00:00:00') /* Colban Plant */
-     , (0x72F0D05F, 0x72F0D063, '2019-02-10 00:00:00') /* Steel Chest */
-     , (0x72F0D05F, 0x72F0D064, '2019-02-10 00:00:00') /* Bones */
-     , (0x72F0D05F, 0x72F0D065, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72F0D05F, 0x72F0D066, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x72F0D05F, 0x72F0D060, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x72F0D05F, 0x72F0D061, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x72F0D05F, 0x72F0D062, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x72F0D05F, 0x72F0D063, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72F0D05F, 0x72F0D064, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72F0D05F, 0x72F0D065, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72F0D05F, 0x72F0D066, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F0D060, 31445, 0x2F0D0024, 109.8714, 78.86929, 41.14272, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

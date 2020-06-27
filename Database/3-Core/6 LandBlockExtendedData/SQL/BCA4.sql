@@ -5,12 +5,12 @@ VALUES (0x7BCA4001,  1154, 0xBCA4000E, 36.0152, 140.2955, 33.69269, 0.8486286, 0
 /* @teleloc 0xBCA4000E [36.015200 140.295500 33.692690] 0.848629 0.000000 0.000000 -0.528989 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCA4001, 0x7BCA4002, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7BCA4001, 0x7BCA4003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BCA4001, 0x7BCA4004, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7BCA4001, 0x7BCA4005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BCA4001, 0x7BCA4006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BCA4001, 0x7BCA4007, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7BCA4001, 0x7BCA4002, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7BCA4001, 0x7BCA4003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BCA4001, 0x7BCA4004, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7BCA4001, 0x7BCA4005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BCA4001, 0x7BCA4006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BCA4001, 0x7BCA4007, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCA4002,    18, 0xBCA4000E, 36.0152, 140.2955, 33.69269, 0.8486286, 0, 0, -0.528989,  True, '2019-02-10 00:00:00'); /* Reedshark Elder */
@@ -41,7 +41,7 @@ VALUES (0x7BCA4008,  1542, 0xBCA4000E, 46.60548, 123.2665, 32.27221, 0.5, 0, 0, 
 /* @teleloc 0xBCA4000E [46.605480 123.266500 32.272210] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCA4008, 0x7BCA4009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BCA4008, 0x7BCA4009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCA4009,  4179, 0xBCA4000E, 46.60548, 123.2665, 32.27221, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

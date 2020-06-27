@@ -5,9 +5,9 @@ VALUES (0x74226001,  1154, 0x42260032, 151.4561, 45.94877, 2.170936, 0.6216157, 
 /* @teleloc 0x42260032 [151.456100 45.948770 2.170936] 0.621616 0.000000 0.000000 -0.783322 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74226001, 0x74226002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x74226001, 0x74226003, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x74226001, 0x74226004, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x74226001, 0x74226002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x74226001, 0x74226003, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x74226001, 0x74226004, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74226002, 23616, 0x42260032, 151.4561, 45.94877, 2.170936, 0.6216157, 0, 0, -0.7833224,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

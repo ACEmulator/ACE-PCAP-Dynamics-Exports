@@ -5,12 +5,12 @@ VALUES (0x79AB7001,  1154, 0x9AB70009, 47.20392, 20.16057, 147.5485, 0.9789363, 
 /* @teleloc 0x9AB70009 [47.203920 20.160570 147.548500] 0.978936 0.000000 0.000000 -0.204166 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AB7001, 0x79AB7002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79AB7001, 0x79AB7003, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x79AB7001, 0x79AB7004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79AB7001, 0x79AB7005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79AB7001, 0x79AB7006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79AB7001, 0x79AB7007, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x79AB7001, 0x79AB7002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79AB7001, 0x79AB7003, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x79AB7001, 0x79AB7004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79AB7001, 0x79AB7005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79AB7001, 0x79AB7006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79AB7001, 0x79AB7007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AB7002,  1608, 0x9AB70009, 47.20392, 20.16057, 147.5485, 0.9789363, 0, 0, -0.2041662,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

@@ -5,10 +5,10 @@ VALUES (0x766C2001,  1154, 0x66C2000D, 28.41133, 103.3576, 79.76163, 0.7071068, 
 /* @teleloc 0x66C2000D [28.411330 103.357600 79.761630] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766C2001, 0x766C2002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x766C2001, 0x766C2003, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x766C2001, 0x766C2004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x766C2001, 0x766C2005, '2019-02-10 00:00:00') /* Banderling Thrasher */;
+VALUES (0x766C2001, 0x766C2002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x766C2001, 0x766C2003, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x766C2001, 0x766C2004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x766C2001, 0x766C2005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766C2002,  7086, 0x66C2000D, 28.41133, 103.3576, 79.76163, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -31,7 +31,7 @@ VALUES (0x766C2006,  1542, 0x66C2000D, 31.74896, 105.1183, 81.14774, 0.9990482, 
 /* @teleloc 0x66C2000D [31.748960 105.118300 81.147740] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766C2006, 0x766C2007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x766C2006, 0x766C2007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766C2007,  4179, 0x66C2000D, 31.74896, 105.1183, 81.14774, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

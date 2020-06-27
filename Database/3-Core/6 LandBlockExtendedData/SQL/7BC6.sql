@@ -5,17 +5,17 @@ VALUES (0x77BC6001,  1154, 0x7BC6001E, 74.91838, 138.4059, 115.4233, 0.7071068, 
 /* @teleloc 0x7BC6001E [74.918380 138.405900 115.423300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BC6001, 0x77BC6002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x77BC6001, 0x77BC6003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x77BC6001, 0x77BC6004, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77BC6001, 0x77BC6005, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x77BC6001, 0x77BC6006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x77BC6001, 0x77BC6007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77BC6001, 0x77BC6008, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x77BC6001, 0x77BC6009, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77BC6001, 0x77BC600A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x77BC6001, 0x77BC600B, '2019-02-10 00:00:00') /* Flamma */
-     , (0x77BC6001, 0x77BC600C, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x77BC6001, 0x77BC6002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x77BC6001, 0x77BC6003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x77BC6001, 0x77BC6004, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77BC6001, 0x77BC6005, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x77BC6001, 0x77BC6006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x77BC6001, 0x77BC6007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77BC6001, 0x77BC6008, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x77BC6001, 0x77BC6009, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77BC6001, 0x77BC600A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x77BC6001, 0x77BC600B, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x77BC6001, 0x77BC600C, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BC6002, 24280, 0x7BC6001E, 74.91838, 138.4059, 115.4233, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -66,8 +66,8 @@ VALUES (0x77BC600D,  1542, 0x7BC60004, 6.095459, 75.28185, 125.1553, 1, 0, 0, 0,
 /* @teleloc 0x7BC60004 [6.095459 75.281850 125.155300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77BC600D, 0x77BC600E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x77BC600D, 0x77BC600F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x77BC600D, 0x77BC600E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x77BC600D, 0x77BC600F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77BC600E, 31445, 0x7BC60004, 6.095459, 75.28185, 125.1553, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

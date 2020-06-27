@@ -5,10 +5,10 @@ VALUES (0x7B781001,  1154, 0xB7810006, 2.136902, 142.2737, 24.005, 0.7400211, 0,
 /* @teleloc 0xB7810006 [2.136902 142.273700 24.005000] 0.740021 0.000000 0.000000 -0.672584 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B781001, 0x7B781002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7B781001, 0x7B781003, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B781001, 0x7B781004, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7B781001, 0x7B781005, '2019-02-10 00:00:00') /* Gotrok Amploth */;
+VALUES (0x7B781001, 0x7B781002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7B781001, 0x7B781003, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B781001, 0x7B781004, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7B781001, 0x7B781005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B781002,   232, 0xB7810006, 2.136902, 142.2737, 24.005, 0.7400211, 0, 0, -0.6725837,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -31,7 +31,7 @@ VALUES (0x7B781006,  1542, 0xB7810007, 9.976185, 155.8833, 24, 1, 0, 0, 0, False
 /* @teleloc 0xB7810007 [9.976185 155.883300 24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B781006, 0x7B781007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7B781006, 0x7B781007, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B781007, 22568, 0xB7810007, 9.976185, 155.8833, 24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

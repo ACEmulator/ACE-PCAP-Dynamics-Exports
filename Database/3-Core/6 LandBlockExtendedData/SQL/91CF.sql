@@ -5,33 +5,33 @@ VALUES (0x791CF001,  1154, 0x91CF0001, 2.686265, 9.18841, 567.3547, -0.5433143, 
 /* @teleloc 0x91CF0001 [2.686265 9.188410 567.354700] -0.543314 0.000000 0.000000 -0.839529 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791CF001, 0x791CF002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x791CF001, 0x791CF003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x791CF001, 0x791CF004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x791CF001, 0x791CF005, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x791CF001, 0x791CF006, '2019-02-10 00:00:00') /* Frost */
-     , (0x791CF001, 0x791CF007, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x791CF001, 0x791CF008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x791CF001, 0x791CF009, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x791CF001, 0x791CF00A, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x791CF001, 0x791CF00B, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x791CF001, 0x791CF00C, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x791CF001, 0x791CF00D, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x791CF001, 0x791CF00E, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x791CF001, 0x791CF00F, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x791CF001, 0x791CF010, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x791CF001, 0x791CF011, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x791CF001, 0x791CF012, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x791CF001, 0x791CF013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x791CF001, 0x791CF014, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x791CF001, 0x791CF015, '2019-02-10 00:00:00') /* Frost */
-     , (0x791CF001, 0x791CF016, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x791CF001, 0x791CF017, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x791CF001, 0x791CF018, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x791CF001, 0x791CF019, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x791CF001, 0x791CF01A, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x791CF001, 0x791CF01B, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x791CF001, 0x791CF01C, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x791CF001, 0x791CF002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x791CF001, 0x791CF003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791CF001, 0x791CF004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x791CF001, 0x791CF005, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x791CF001, 0x791CF006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x791CF001, 0x791CF007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x791CF001, 0x791CF008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x791CF001, 0x791CF009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x791CF001, 0x791CF00A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x791CF001, 0x791CF00B, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x791CF001, 0x791CF00C, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x791CF001, 0x791CF00D, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x791CF001, 0x791CF00E, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x791CF001, 0x791CF00F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x791CF001, 0x791CF010, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x791CF001, 0x791CF011, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x791CF001, 0x791CF012, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x791CF001, 0x791CF013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x791CF001, 0x791CF014, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x791CF001, 0x791CF015, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x791CF001, 0x791CF016, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x791CF001, 0x791CF017, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x791CF001, 0x791CF018, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x791CF001, 0x791CF019, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x791CF001, 0x791CF01A, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x791CF001, 0x791CF01B, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x791CF001, 0x791CF01C, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791CF002, 22520, 0x91CF0001, 2.686265, 9.18841, 567.3547, -0.5433143, 0, 0, -0.8395294,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -146,10 +146,10 @@ VALUES (0x791CF01D,  1542, 0x91CF001E, 84.64084, 137.0834, 589.9207, 0.9990482, 
 /* @teleloc 0x91CF001E [84.640840 137.083400 589.920700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791CF01D, 0x791CF01E, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x791CF01D, 0x791CF01F, '2019-02-10 00:00:00') /* Rock */
-     , (0x791CF01D, 0x791CF020, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x791CF01D, 0x791CF021, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x791CF01D, 0x791CF01E, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x791CF01D, 0x791CF01F, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x791CF01D, 0x791CF020, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x791CF01D, 0x791CF021, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791CF01E,  6117, 0x91CF001E, 84.64084, 137.0834, 589.9207, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

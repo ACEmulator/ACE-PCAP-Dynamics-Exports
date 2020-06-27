@@ -5,8 +5,8 @@ VALUES (0x7432D001,  1154, 0x432D0004, 10.26792, 79.12136, 2.00715, 0.7071068, 0
 /* @teleloc 0x432D0004 [10.267920 79.121360 2.007150] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432D001, 0x7432D002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7432D001, 0x7432D003, '2019-02-10 00:00:00') /* Banderling Mauler */;
+VALUES (0x7432D001, 0x7432D002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7432D001, 0x7432D003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432D002,  7088, 0x432D0004, 10.26792, 79.12136, 2.00715, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -21,8 +21,8 @@ VALUES (0x7432D004,  1542, 0x432D0004, 7.381808, 76.88731, 2, 1, 0, 0, 0, False,
 /* @teleloc 0x432D0004 [7.381808 76.887310 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7432D004, 0x7432D005, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7432D004, 0x7432D006, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7432D004, 0x7432D005, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7432D004, 0x7432D006, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432D005, 22566, 0x432D0004, 7.381808, 76.88731, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

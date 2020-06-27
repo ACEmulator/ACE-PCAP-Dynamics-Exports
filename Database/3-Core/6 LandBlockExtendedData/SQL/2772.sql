@@ -5,18 +5,18 @@ VALUES (0x72772001,  1154, 0x27720009, 24.19893, 8.740705, 86.7263, 0.7127802, 0
 /* @teleloc 0x27720009 [24.198930 8.740705 86.726300] 0.712780 0.000000 0.000000 -0.701388 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72772001, 0x72772002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72772001, 0x72772003, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72772001, 0x72772004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72772001, 0x72772005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72772001, 0x72772006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72772001, 0x72772007, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72772001, 0x72772008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72772001, 0x72772009, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x72772001, 0x7277200A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72772001, 0x7277200B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72772001, 0x7277200C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72772001, 0x7277200D, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x72772001, 0x72772002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72772001, 0x72772003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72772001, 0x72772004, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72772001, 0x72772005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72772001, 0x72772006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72772001, 0x72772007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72772001, 0x72772008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72772001, 0x72772009, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72772001, 0x7277200A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72772001, 0x7277200B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72772001, 0x7277200C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72772001, 0x7277200D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72772002,  7982, 0x27720009, 24.19893, 8.740705, 86.7263, 0.7127802, 0, 0, -0.7013875,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -71,7 +71,7 @@ VALUES (0x7277200E,  1542, 0x27720012, 50.02737, 44.61145, 84.71001, 0.9794472, 
 /* @teleloc 0x27720012 [50.027370 44.611450 84.710010] 0.979447 0.000000 0.000000 -0.201701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277200E, 0x7277200F, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7277200E, 0x7277200F, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277200F, 42528, 0x27720012, 50.02737, 44.61145, 84.71001, 0.9794472, 0, 0, -0.2017008,  True, '2019-02-10 00:00:00'); /* Rock */

@@ -5,15 +5,15 @@ VALUES (0x78CB0001,  1154, 0x8CB0001A, 95.02048, 43.63081, 55.6459, 0.8357388, 0
 /* @teleloc 0x8CB0001A [95.020480 43.630810 55.645900] 0.835739 0.000000 0.000000 -0.549127 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CB0001, 0x78CB0002, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78CB0001, 0x78CB0003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CB0001, 0x78CB0004, '2019-02-10 00:00:00') /* Banished Olthoi */
-     , (0x78CB0001, 0x78CB0005, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x78CB0001, 0x78CB0006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x78CB0001, 0x78CB0007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78CB0001, 0x78CB0008, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CB0001, 0x78CB0009, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x78CB0001, 0x78CB000A, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x78CB0001, 0x78CB0002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CB0001, 0x78CB0003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CB0001, 0x78CB0004, '2019-02-10 00:00:00') /* Banished Olthoi (30903) */
+     , (0x78CB0001, 0x78CB0005, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x78CB0001, 0x78CB0006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x78CB0001, 0x78CB0007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78CB0001, 0x78CB0008, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CB0001, 0x78CB0009, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78CB0001, 0x78CB000A, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CB0002, 38177, 0x8CB0001A, 95.02048, 43.63081, 55.6459, 0.8357388, 0, 0, -0.5491271,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */

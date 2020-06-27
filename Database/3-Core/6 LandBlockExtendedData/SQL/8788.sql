@@ -9,9 +9,9 @@ VALUES (0x78788001,  1154, 0x8788001D, 80.81134, 113.2071, 85.25761, -0.1927569,
 /* @teleloc 0x8788001D [80.811340 113.207100 85.257610] -0.192757 0.000000 0.000000 -0.981247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78788001, 0x78788002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x78788001, 0x78788003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78788001, 0x78788004, '2019-02-10 00:00:00') /* Ursuin Slasher */;
+VALUES (0x78788001, 0x78788002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x78788001, 0x78788003, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78788001, 0x78788004, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78788002,  2575, 0x8788001D, 80.81134, 113.2071, 85.25761, -0.1927569, 0, 0, -0.9812465,  True, '2019-02-10 00:00:00'); /* Crude Monouga */

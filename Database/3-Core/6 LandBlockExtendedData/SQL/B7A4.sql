@@ -5,12 +5,12 @@ VALUES (0x7B7A4001,  1154, 0xB7A40039, 168.077, 9.73027, 86.79586, -0.5683927, 0
 /* @teleloc 0xB7A40039 [168.077000 9.730270 86.795860] -0.568393 0.000000 0.000000 -0.822757 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7A4001, 0x7B7A4002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B7A4001, 0x7B7A4003, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A4001, 0x7B7A4004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A4001, 0x7B7A4005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B7A4001, 0x7B7A4006, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7B7A4001, 0x7B7A4007, '2019-02-10 00:00:00') /* Ivory Gromnie */;
+VALUES (0x7B7A4001, 0x7B7A4002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B7A4001, 0x7B7A4003, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A4001, 0x7B7A4004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A4001, 0x7B7A4005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B7A4001, 0x7B7A4006, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7B7A4001, 0x7B7A4007, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7A4002,  4111, 0xB7A40039, 168.077, 9.73027, 86.79586, -0.5683927, 0, 0, -0.8227574,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */

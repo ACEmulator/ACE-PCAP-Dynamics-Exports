@@ -5,11 +5,11 @@ VALUES (0x7E05B001,  1154, 0xE05B0003, 2.818159, 58.51718, 14.23935, 0.7071068, 
 /* @teleloc 0xE05B0003 [2.818159 58.517180 14.239350] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E05B001, 0x7E05B002, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E05B001, 0x7E05B003, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7E05B001, 0x7E05B004, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7E05B001, 0x7E05B005, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E05B001, 0x7E05B006, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7E05B001, 0x7E05B002, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E05B001, 0x7E05B003, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E05B001, 0x7E05B004, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7E05B001, 0x7E05B005, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E05B001, 0x7E05B006, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E05B002,  1612, 0xE05B0003, 2.818159, 58.51718, 14.23935, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

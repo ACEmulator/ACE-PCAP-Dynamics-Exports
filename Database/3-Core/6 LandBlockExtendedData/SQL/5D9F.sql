@@ -5,18 +5,18 @@ VALUES (0x75D9F001,  1154, 0x5D9F003A, 170.8141, 37.15329, 54.18729, -0.8184676,
 /* @teleloc 0x5D9F003A [170.814100 37.153290 54.187290] -0.818468 0.000000 0.000000 -0.574553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D9F001, 0x75D9F002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75D9F001, 0x75D9F003, '2019-02-10 00:00:00') /* Static */
-     , (0x75D9F001, 0x75D9F004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x75D9F001, 0x75D9F005, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75D9F001, 0x75D9F006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x75D9F001, 0x75D9F007, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75D9F001, 0x75D9F008, '2019-02-10 00:00:00') /* Static */
-     , (0x75D9F001, 0x75D9F009, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75D9F001, 0x75D9F00A, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x75D9F001, 0x75D9F00B, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x75D9F001, 0x75D9F00C, '2019-02-10 00:00:00') /* Static */
-     , (0x75D9F001, 0x75D9F00D, '2019-02-10 00:00:00') /* Ember */;
+VALUES (0x75D9F001, 0x75D9F002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75D9F001, 0x75D9F003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75D9F001, 0x75D9F004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x75D9F001, 0x75D9F005, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75D9F001, 0x75D9F006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x75D9F001, 0x75D9F007, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75D9F001, 0x75D9F008, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75D9F001, 0x75D9F009, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75D9F001, 0x75D9F00A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x75D9F001, 0x75D9F00B, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x75D9F001, 0x75D9F00C, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x75D9F001, 0x75D9F00D, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D9F002,   231, 0x5D9F003A, 170.8141, 37.15329, 54.18729, -0.8184676, 0, 0, -0.5745528,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -71,7 +71,7 @@ VALUES (0x75D9F00E,  1542, 0x5D9F0022, 118.3446, 42.29802, 44.86778, -0.9324547,
 /* @teleloc 0x5D9F0022 [118.344600 42.298020 44.867780] -0.932455 0.000000 0.000000 -0.361287 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75D9F00E, 0x75D9F00F, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x75D9F00E, 0x75D9F00F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75D9F00F,  8041, 0x5D9F0022, 118.3446, 42.29802, 44.86778, -0.9324547, 0, 0, -0.3612869,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

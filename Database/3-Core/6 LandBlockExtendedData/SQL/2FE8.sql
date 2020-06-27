@@ -5,22 +5,22 @@ VALUES (0x72FE8001,  1154, 0x2FE80006, 20.68129, 134.6463, 3.995492, -0.08347625
 /* @teleloc 0x2FE80006 [20.681290 134.646300 3.995492] -0.083476 0.000000 0.000000 -0.996510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72FE8001, 0x72FE8002, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72FE8001, 0x72FE8003, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72FE8001, 0x72FE8004, '2019-02-10 00:00:00') /* Eater */
-     , (0x72FE8001, 0x72FE8005, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72FE8001, 0x72FE8006, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72FE8001, 0x72FE8007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72FE8001, 0x72FE8008, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72FE8001, 0x72FE8009, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72FE8001, 0x72FE800A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp */
-     , (0x72FE8001, 0x72FE800B, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72FE8001, 0x72FE800C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72FE8001, 0x72FE800D, '2019-02-10 00:00:00') /* Auroch Ravager */
-     , (0x72FE8001, 0x72FE800E, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72FE8001, 0x72FE800F, '2019-02-10 00:00:00') /* Ferocious Ursuin */
-     , (0x72FE8001, 0x72FE8010, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72FE8001, 0x72FE8011, '2019-02-10 00:00:00') /* Demented Fiun */;
+VALUES (0x72FE8001, 0x72FE8002, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72FE8001, 0x72FE8003, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72FE8001, 0x72FE8004, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72FE8001, 0x72FE8005, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72FE8001, 0x72FE8006, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72FE8001, 0x72FE8007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72FE8001, 0x72FE8008, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72FE8001, 0x72FE8009, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72FE8001, 0x72FE800A, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72FE8001, 0x72FE800B, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72FE8001, 0x72FE800C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72FE8001, 0x72FE800D, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */
+     , (0x72FE8001, 0x72FE800E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72FE8001, 0x72FE800F, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x72FE8001, 0x72FE8010, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72FE8001, 0x72FE8011, '2019-02-10 00:00:00') /* Demented Fiun (28650) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72FE8002, 28647, 0x2FE80006, 20.68129, 134.6463, 3.995492, -0.08347625, 0, 0, -0.9965098,  True, '2019-02-10 00:00:00'); /* Raving Fiun */

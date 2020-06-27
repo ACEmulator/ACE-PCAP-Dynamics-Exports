@@ -5,15 +5,15 @@ VALUES (0x7118E001,  1154, 0x118E0024, 103.7662, 88.55775, -0.4499986, -0.800949
 /* @teleloc 0x118E0024 [103.766200 88.557750 -0.449999] -0.800949 0.000000 0.000000 -0.598732 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7118E001, 0x7118E002, '2019-02-10 00:00:00') /* Affliction Wisp */
-     , (0x7118E001, 0x7118E003, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7118E001, 0x7118E004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7118E001, 0x7118E005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7118E001, 0x7118E006, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7118E001, 0x7118E007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7118E001, 0x7118E008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7118E001, 0x7118E009, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7118E001, 0x7118E00A, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x7118E001, 0x7118E002, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7118E001, 0x7118E003, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7118E001, 0x7118E004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7118E001, 0x7118E005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7118E001, 0x7118E006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7118E001, 0x7118E007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7118E001, 0x7118E008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7118E001, 0x7118E009, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7118E001, 0x7118E00A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7118E002,  7125, 0x118E0024, 103.7662, 88.55775, -0.4499986, -0.8009494, 0, 0, -0.5987321,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */

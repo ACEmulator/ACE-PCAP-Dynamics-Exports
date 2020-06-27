@@ -5,31 +5,31 @@ VALUES (0x798EC001,  1154, 0x98EC0008, 4.914598, 187.0855, 2.457781, 0.8191521, 
 /* @teleloc 0x98EC0008 [4.914598 187.085500 2.457781] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798EC001, 0x798EC002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x798EC001, 0x798EC003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x798EC001, 0x798EC004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x798EC001, 0x798EC005, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x798EC001, 0x798EC006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x798EC001, 0x798EC007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x798EC001, 0x798EC008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x798EC001, 0x798EC009, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x798EC001, 0x798EC00A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x798EC001, 0x798EC00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x798EC001, 0x798EC00C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x798EC001, 0x798EC00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x798EC001, 0x798EC00E, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x798EC001, 0x798EC00F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x798EC001, 0x798EC010, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x798EC001, 0x798EC011, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x798EC001, 0x798EC012, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x798EC001, 0x798EC013, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x798EC001, 0x798EC014, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x798EC001, 0x798EC015, '2019-02-10 00:00:00') /* Mighty Oak Golem */
-     , (0x798EC001, 0x798EC016, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x798EC001, 0x798EC017, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x798EC001, 0x798EC018, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x798EC001, 0x798EC019, '2019-02-10 00:00:00') /* Revenant */
-     , (0x798EC001, 0x798EC01A, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x798EC001, 0x798EC002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x798EC001, 0x798EC003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x798EC001, 0x798EC004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x798EC001, 0x798EC005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x798EC001, 0x798EC006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x798EC001, 0x798EC007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x798EC001, 0x798EC008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x798EC001, 0x798EC009, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x798EC001, 0x798EC00A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x798EC001, 0x798EC00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x798EC001, 0x798EC00C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x798EC001, 0x798EC00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x798EC001, 0x798EC00E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x798EC001, 0x798EC00F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x798EC001, 0x798EC010, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x798EC001, 0x798EC011, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x798EC001, 0x798EC012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x798EC001, 0x798EC013, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x798EC001, 0x798EC014, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x798EC001, 0x798EC015, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x798EC001, 0x798EC016, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x798EC001, 0x798EC017, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x798EC001, 0x798EC018, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x798EC001, 0x798EC019, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x798EC001, 0x798EC01A, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798EC002,  7987, 0x98EC0008, 4.914598, 187.0855, 2.457781, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -136,9 +136,9 @@ VALUES (0x798EC01B,  1542, 0x98EC0024, 99.95519, 95.25603, 20.34799, 0.9990482, 
 /* @teleloc 0x98EC0024 [99.955190 95.256030 20.347990] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798EC01B, 0x798EC01C, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x798EC01B, 0x798EC01D, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x798EC01B, 0x798EC01E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x798EC01B, 0x798EC01C, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x798EC01B, 0x798EC01D, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x798EC01B, 0x798EC01E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798EC01C,  6117, 0x98EC0024, 99.95519, 95.25603, 20.34799, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

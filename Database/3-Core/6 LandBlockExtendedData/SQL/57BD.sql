@@ -5,15 +5,15 @@ VALUES (0x757BD001,  1154, 0x57BD0016, 63.48753, 143.1689, -0.007499933, 0.25881
 /* @teleloc 0x57BD0016 [63.487530 143.168900 -0.007500] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x757BD001, 0x757BD002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x757BD001, 0x757BD003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x757BD001, 0x757BD004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x757BD001, 0x757BD005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x757BD001, 0x757BD006, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x757BD001, 0x757BD007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x757BD001, 0x757BD008, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x757BD001, 0x757BD009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x757BD001, 0x757BD00A, '2019-02-10 00:00:00') /* Tumerok Gladiator */;
+VALUES (0x757BD001, 0x757BD002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x757BD001, 0x757BD003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x757BD001, 0x757BD004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x757BD001, 0x757BD005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x757BD001, 0x757BD006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x757BD001, 0x757BD007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x757BD001, 0x757BD008, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x757BD001, 0x757BD009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x757BD001, 0x757BD00A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x757BD002, 24294, 0x57BD0016, 63.48753, 143.1689, -0.007499933, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

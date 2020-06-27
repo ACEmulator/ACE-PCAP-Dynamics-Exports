@@ -5,19 +5,19 @@ VALUES (0x7C916001,  1154, 0xC916002E, 141.4854, 141.4743, 21.8932, -0.9983457, 
 /* @teleloc 0xC916002E [141.485400 141.474300 21.893200] -0.998346 0.000000 0.000000 -0.057497 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C916001, 0x7C916002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7C916001, 0x7C916003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7C916001, 0x7C916004, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7C916001, 0x7C916005, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7C916001, 0x7C916006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7C916001, 0x7C916007, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7C916001, 0x7C916008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7C916001, 0x7C916009, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7C916001, 0x7C91600A, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7C916001, 0x7C91600B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7C916001, 0x7C91600C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7C916001, 0x7C91600D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7C916001, 0x7C91600E, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7C916001, 0x7C916002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7C916001, 0x7C916003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C916001, 0x7C916004, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7C916001, 0x7C916005, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7C916001, 0x7C916006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7C916001, 0x7C916007, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7C916001, 0x7C916008, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7C916001, 0x7C916009, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7C916001, 0x7C91600A, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7C916001, 0x7C91600B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C916001, 0x7C91600C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7C916001, 0x7C91600D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7C916001, 0x7C91600E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C916002,   199, 0xC916002E, 141.4854, 141.4743, 21.8932, -0.9983457, 0, 0, -0.05749716,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -76,9 +76,9 @@ VALUES (0x7C91600F,  1542, 0xC9160013, 48.53347, 55.99358, 55.99519, 0.9238795, 
 /* @teleloc 0xC9160013 [48.533470 55.993580 55.995190] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C91600F, 0x7C916010, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C91600F, 0x7C916011, '2019-02-10 00:00:00') /* Rock */
-     , (0x7C91600F, 0x7C916012, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7C91600F, 0x7C916010, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C91600F, 0x7C916011, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7C91600F, 0x7C916012, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C916010,  4180, 0xC9160013, 48.53347, 55.99358, 55.99519, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

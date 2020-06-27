@@ -5,11 +5,11 @@ VALUES (0x79CD3001,  1154, 0x9CD30007, 16.41888, 163.029, 235.4557, 0.7497477, 0
 /* @teleloc 0x9CD30007 [16.418880 163.029000 235.455700] 0.749748 0.000000 0.000000 -0.661724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CD3001, 0x79CD3002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x79CD3001, 0x79CD3003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x79CD3001, 0x79CD3004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79CD3001, 0x79CD3005, '2019-02-10 00:00:00') /* Banderling Rogue */
-     , (0x79CD3001, 0x79CD3006, '2019-02-10 00:00:00') /* Blighted Oak Golem */;
+VALUES (0x79CD3001, 0x79CD3002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x79CD3001, 0x79CD3003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x79CD3001, 0x79CD3004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79CD3001, 0x79CD3005, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
+     , (0x79CD3001, 0x79CD3006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CD3002, 24960, 0x9CD30007, 16.41888, 163.029, 235.4557, 0.7497477, 0, 0, -0.6617238,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
@@ -36,7 +36,7 @@ VALUES (0x79CD3007,  1542, 0x9CD30037, 165.3152, 160.0366, 177.3424, 1, 0, 0, 0,
 /* @teleloc 0x9CD30037 [165.315200 160.036600 177.342400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CD3007, 0x79CD3008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x79CD3007, 0x79CD3008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CD3008,  4179, 0x9CD30037, 165.3152, 160.0366, 177.3424, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

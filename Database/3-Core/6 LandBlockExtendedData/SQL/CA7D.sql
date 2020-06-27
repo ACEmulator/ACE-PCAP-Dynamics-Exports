@@ -5,10 +5,10 @@ VALUES (0x7CA7D001,  1154, 0xCA7D0004, 13.88391, 76.30002, 31.00977, 0.0593713, 
 /* @teleloc 0xCA7D0004 [13.883910 76.300020 31.009770] 0.059371 0.000000 0.000000 -0.998236 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA7D001, 0x7CA7D002, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7CA7D001, 0x7CA7D003, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CA7D001, 0x7CA7D004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7CA7D001, 0x7CA7D005, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7CA7D001, 0x7CA7D002, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7CA7D001, 0x7CA7D003, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7CA7D001, 0x7CA7D004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7CA7D001, 0x7CA7D005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA7D002,  8010, 0xCA7D0004, 13.88391, 76.30002, 31.00977, 0.0593713, 0, 0, -0.9982359,  True, '2019-02-10 00:00:00'); /* Broken Fragment */

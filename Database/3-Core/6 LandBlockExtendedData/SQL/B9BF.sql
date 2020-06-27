@@ -5,11 +5,11 @@ VALUES (0x7B9BF001,  1154, 0xB9BF0031, 150.6295, 4.68891, 193.8483, 0.9238795, 0
 /* @teleloc 0xB9BF0031 [150.629500 4.688910 193.848300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9BF001, 0x7B9BF002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B9BF001, 0x7B9BF003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B9BF001, 0x7B9BF004, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7B9BF001, 0x7B9BF005, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7B9BF001, 0x7B9BF006, '2019-02-10 00:00:00') /* Olthoi Drone */;
+VALUES (0x7B9BF001, 0x7B9BF002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B9BF001, 0x7B9BF003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B9BF001, 0x7B9BF004, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7B9BF001, 0x7B9BF005, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7B9BF001, 0x7B9BF006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9BF002,   194, 0xB9BF0031, 150.6295, 4.68891, 193.8483, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */

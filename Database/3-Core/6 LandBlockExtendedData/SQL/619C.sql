@@ -5,17 +5,17 @@ VALUES (0x7619C001,  1154, 0x619C002F, 125.2741, 165.4166, 21.79222, 0.9238795, 
 /* @teleloc 0x619C002F [125.274100 165.416600 21.792220] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7619C001, 0x7619C002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7619C001, 0x7619C003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7619C001, 0x7619C004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7619C001, 0x7619C005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7619C001, 0x7619C006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7619C001, 0x7619C007, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7619C001, 0x7619C008, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7619C001, 0x7619C009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7619C001, 0x7619C00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7619C001, 0x7619C00B, '2019-02-10 00:00:00') /* Static */
-     , (0x7619C001, 0x7619C00C, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x7619C001, 0x7619C002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7619C001, 0x7619C003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7619C001, 0x7619C004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7619C001, 0x7619C005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7619C001, 0x7619C006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7619C001, 0x7619C007, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7619C001, 0x7619C008, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7619C001, 0x7619C009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7619C001, 0x7619C00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7619C001, 0x7619C00B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7619C001, 0x7619C00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7619C002,  7124, 0x619C002F, 125.2741, 165.4166, 21.79222, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -66,7 +66,7 @@ VALUES (0x7619C00D,  1542, 0x619C002F, 125.0511, 167.8394, 21.98662, 0.9238795, 
 /* @teleloc 0x619C002F [125.051100 167.839400 21.986620] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7619C00D, 0x7619C00E, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7619C00D, 0x7619C00E, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7619C00E,  4180, 0x619C002F, 125.0511, 167.8394, 21.98662, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

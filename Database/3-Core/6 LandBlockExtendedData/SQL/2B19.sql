@@ -5,15 +5,15 @@ VALUES (0x72B19001,  1154, 0x2B19002B, 129.2318, 62.57535, 83.33009, 0.4226182, 
 /* @teleloc 0x2B19002B [129.231800 62.575350 83.330090] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B19001, 0x72B19002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B19001, 0x72B19003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B19001, 0x72B19004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72B19001, 0x72B19005, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72B19001, 0x72B19006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72B19001, 0x72B19007, '2019-02-10 00:00:00') /* Inferno */
-     , (0x72B19001, 0x72B19008, '2019-02-10 00:00:00') /* Flamma */
-     , (0x72B19001, 0x72B19009, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72B19001, 0x72B1900A, '2019-02-10 00:00:00') /* Flare */;
+VALUES (0x72B19001, 0x72B19002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B19001, 0x72B19003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B19001, 0x72B19004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72B19001, 0x72B19005, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72B19001, 0x72B19006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72B19001, 0x72B19007, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x72B19001, 0x72B19008, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x72B19001, 0x72B19009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72B19001, 0x72B1900A, '2019-02-10 00:00:00') /* Flare (5710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B19002,  8431, 0x2B19002B, 129.2318, 62.57535, 83.33009, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -56,7 +56,7 @@ VALUES (0x72B1900B,  1542, 0x2B190010, 34.60078, 176.3024, 59.33098, 1, 0, 0, 0,
 /* @teleloc 0x2B190010 [34.600780 176.302400 59.330980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B1900B, 0x72B1900C, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x72B1900B, 0x72B1900C, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B1900C, 31445, 0x2B190010, 34.60078, 176.3024, 59.33098, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

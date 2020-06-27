@@ -5,26 +5,26 @@ VALUES (0x71F93001,  1154, 0x1F930020, 74.32915, 169.551, 29.35373, -0.8667601, 
 /* @teleloc 0x1F930020 [74.329150 169.551000 29.353730] -0.866760 0.000000 0.000000 -0.498725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F93001, 0x71F93002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F93003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71F93001, 0x71F93004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x71F93001, 0x71F93005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71F93001, 0x71F93006, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x71F93001, 0x71F93007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F93008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71F93001, 0x71F93009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F9300A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F9300B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F9300C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x71F93001, 0x71F9300D, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F93001, 0x71F9300E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F93001, 0x71F9300F, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F93001, 0x71F93010, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71F93001, 0x71F93011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71F93001, 0x71F93012, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x71F93001, 0x71F93013, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71F93001, 0x71F93014, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x71F93001, 0x71F93015, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x71F93001, 0x71F93002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F93003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71F93001, 0x71F93004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x71F93001, 0x71F93005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71F93001, 0x71F93006, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x71F93001, 0x71F93007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F93008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71F93001, 0x71F93009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F9300A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F9300B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F9300C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71F93001, 0x71F9300D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F93001, 0x71F9300E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F93001, 0x71F9300F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F93001, 0x71F93010, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71F93001, 0x71F93011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71F93001, 0x71F93012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x71F93001, 0x71F93013, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71F93001, 0x71F93014, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x71F93001, 0x71F93015, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F93002, 23482, 0x1F930020, 74.32915, 169.551, 29.35373, -0.8667601, 0, 0, -0.4987253,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -111,7 +111,7 @@ VALUES (0x71F93016,  1542, 0x1F930009, 45.07489, 16.06522, 61.21879, 1, 0, 0, 0,
 /* @teleloc 0x1F930009 [45.074890 16.065220 61.218790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71F93016, 0x71F93017, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71F93016, 0x71F93017, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F93017, 22567, 0x1F930009, 45.07489, 16.06522, 61.21879, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x70D76001,  1154, 0x0D76003D, 191.2207, 114.4308, 67.94506, 0.961485, 0
 /* @teleloc 0x0D76003D [191.220700 114.430800 67.945060] 0.961485 0.000000 0.000000 -0.274858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D76001, 0x70D76002, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70D76001, 0x70D76003, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70D76001, 0x70D76004, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x70D76001, 0x70D76002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70D76001, 0x70D76003, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70D76001, 0x70D76004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D76002, 15267, 0x0D76003D, 191.2207, 114.4308, 67.94506, 0.961485, 0, 0, -0.2748575,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -26,7 +26,7 @@ VALUES (0x70D76005,  1542, 0x0D760039, 184.9976, 8.086676, 86.62055, 0.2260626, 
 /* @teleloc 0x0D760039 [184.997600 8.086676 86.620550] 0.226063 0.000000 0.000000 -0.974113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D76005, 0x70D76006, '2019-02-10 00:00:00') /* Directive's Cache */;
+VALUES (0x70D76005, 0x70D76006, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D76006,  9286, 0x0D760039, 184.9976, 8.086676, 86.62055, 0.2260626, 0, 0, -0.9741127,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

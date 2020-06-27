@@ -5,23 +5,23 @@ VALUES (0x7DECB001,  1154, 0xDECB0031, 154.127, 18.89646, 0.0006999969, 0.996194
 /* @teleloc 0xDECB0031 [154.127000 18.896460 0.000700] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DECB001, 0x7DECB002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DECB001, 0x7DECB003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7DECB001, 0x7DECB004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DECB001, 0x7DECB005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DECB001, 0x7DECB006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECB001, 0x7DECB007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DECB001, 0x7DECB008, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DECB001, 0x7DECB009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7DECB001, 0x7DECB00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECB001, 0x7DECB00B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECB001, 0x7DECB00C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECB001, 0x7DECB00D, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7DECB001, 0x7DECB00E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DECB001, 0x7DECB00F, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7DECB001, 0x7DECB010, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DECB001, 0x7DECB011, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7DECB001, 0x7DECB012, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x7DECB001, 0x7DECB002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DECB001, 0x7DECB003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7DECB001, 0x7DECB004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DECB001, 0x7DECB005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DECB001, 0x7DECB006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECB001, 0x7DECB007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DECB001, 0x7DECB008, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DECB001, 0x7DECB009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7DECB001, 0x7DECB00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECB001, 0x7DECB00B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECB001, 0x7DECB00C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECB001, 0x7DECB00D, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7DECB001, 0x7DECB00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DECB001, 0x7DECB00F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7DECB001, 0x7DECB010, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DECB001, 0x7DECB011, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7DECB001, 0x7DECB012, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DECB002,  7988, 0xDECB0031, 154.127, 18.89646, 0.0006999969, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

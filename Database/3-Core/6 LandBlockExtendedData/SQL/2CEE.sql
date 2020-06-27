@@ -5,26 +5,26 @@ VALUES (0x72CEE001,  1154, 0x2CEE0040, 179.3579, 169.4913, 28.83222, 0.9800324, 
 /* @teleloc 0x2CEE0040 [179.357900 169.491300 28.832220] 0.980032 0.000000 0.000000 -0.198838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CEE001, 0x72CEE002, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72CEE001, 0x72CEE003, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72CEE001, 0x72CEE004, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEE001, 0x72CEE005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72CEE001, 0x72CEE006, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72CEE001, 0x72CEE007, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72CEE001, 0x72CEE008, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEE001, 0x72CEE009, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CEE001, 0x72CEE00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEE001, 0x72CEE00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEE001, 0x72CEE00C, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEE001, 0x72CEE00D, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x72CEE001, 0x72CEE00E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEE001, 0x72CEE00F, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x72CEE001, 0x72CEE010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72CEE001, 0x72CEE011, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72CEE001, 0x72CEE012, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x72CEE001, 0x72CEE013, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72CEE001, 0x72CEE014, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x72CEE001, 0x72CEE015, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x72CEE001, 0x72CEE002, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72CEE001, 0x72CEE003, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72CEE001, 0x72CEE004, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEE001, 0x72CEE005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72CEE001, 0x72CEE006, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72CEE001, 0x72CEE007, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72CEE001, 0x72CEE008, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEE001, 0x72CEE009, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CEE001, 0x72CEE00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEE001, 0x72CEE00B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEE001, 0x72CEE00C, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEE001, 0x72CEE00D, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x72CEE001, 0x72CEE00E, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEE001, 0x72CEE00F, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x72CEE001, 0x72CEE010, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72CEE001, 0x72CEE011, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72CEE001, 0x72CEE012, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x72CEE001, 0x72CEE013, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72CEE001, 0x72CEE014, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x72CEE001, 0x72CEE015, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CEE002, 23082, 0x2CEE0040, 179.3579, 169.4913, 28.83222, 0.9800324, 0, 0, -0.1988379,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */

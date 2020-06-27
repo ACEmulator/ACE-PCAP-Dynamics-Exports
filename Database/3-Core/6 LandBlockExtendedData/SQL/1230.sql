@@ -5,9 +5,9 @@ VALUES (0x71230001,  1154, 0x12300020, 81.77184, 191.6756, 16.40294, 0.6336775, 
 /* @teleloc 0x12300020 [81.771840 191.675600 16.402940] 0.633678 0.000000 0.000000 -0.773597 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71230001, 0x71230002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x71230001, 0x71230003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x71230001, 0x71230004, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71230001, 0x71230002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x71230001, 0x71230003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71230001, 0x71230004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71230002, 36821, 0x12300020, 81.77184, 191.6756, 16.40294, 0.6336775, 0, 0, -0.7735974,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

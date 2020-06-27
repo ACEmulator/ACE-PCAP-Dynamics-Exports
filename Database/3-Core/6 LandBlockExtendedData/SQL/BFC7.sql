@@ -5,18 +5,18 @@ VALUES (0x7BFC7001,  1154, 0xBFC70002, 18.09868, 47.28688, 162.3999, 0.9238795, 
 /* @teleloc 0xBFC70002 [18.098680 47.286880 162.399900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BFC7001, 0x7BFC7002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BFC7001, 0x7BFC7003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7BFC7001, 0x7BFC7004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BFC7001, 0x7BFC7005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7BFC7001, 0x7BFC7006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BFC7001, 0x7BFC7007, '2019-02-10 00:00:00') /* Altered Olthoi */
-     , (0x7BFC7001, 0x7BFC7008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BFC7001, 0x7BFC7009, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7BFC7001, 0x7BFC700A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7BFC7001, 0x7BFC700B, '2019-02-10 00:00:00') /* Augmented Olthoi */
-     , (0x7BFC7001, 0x7BFC700C, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BFC7001, 0x7BFC700D, '2019-02-10 00:00:00') /* Glacial Golem */;
+VALUES (0x7BFC7001, 0x7BFC7002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BFC7001, 0x7BFC7003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7BFC7001, 0x7BFC7004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BFC7001, 0x7BFC7005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7BFC7001, 0x7BFC7006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BFC7001, 0x7BFC7007, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7BFC7001, 0x7BFC7008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BFC7001, 0x7BFC7009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7BFC7001, 0x7BFC700A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7BFC7001, 0x7BFC700B, '2019-02-10 00:00:00') /* Augmented Olthoi (14874) */
+     , (0x7BFC7001, 0x7BFC700C, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BFC7001, 0x7BFC700D, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFC7002,   194, 0xBFC70002, 18.09868, 47.28688, 162.3999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */

@@ -5,13 +5,13 @@ VALUES (0x7DB35001,  1154, 0xDB35001C, 75.77415, 90.8363, 90.32661, 0.7071068, 0
 /* @teleloc 0xDB35001C [75.774150 90.836300 90.326610] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB35001, 0x7DB35002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DB35001, 0x7DB35003, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DB35001, 0x7DB35004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7DB35001, 0x7DB35005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7DB35001, 0x7DB35006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DB35001, 0x7DB35007, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7DB35001, 0x7DB35008, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7DB35001, 0x7DB35002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DB35001, 0x7DB35003, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DB35001, 0x7DB35004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7DB35001, 0x7DB35005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7DB35001, 0x7DB35006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DB35001, 0x7DB35007, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7DB35001, 0x7DB35008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB35002,  1627, 0xDB35001C, 75.77415, 90.8363, 90.32661, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -46,7 +46,7 @@ VALUES (0x7DB35009,  1542, 0xDB35001B, 73.81034, 48.20628, 92.23367, 0.9990482, 
 /* @teleloc 0xDB35001B [73.810340 48.206280 92.233670] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB35009, 0x7DB3500A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7DB35009, 0x7DB3500A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3500A,  6117, 0xDB35001B, 73.81034, 48.20628, 92.23367, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

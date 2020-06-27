@@ -5,8 +5,8 @@ VALUES (0x724EB001,  1154, 0x24EB003F, 168.5213, 162.1158, 6.218846, 0.9498814, 
 /* @teleloc 0x24EB003F [168.521300 162.115800 6.218846] 0.949881 0.000000 0.000000 -0.312611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724EB001, 0x724EB002, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x724EB001, 0x724EB003, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x724EB001, 0x724EB002, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x724EB001, 0x724EB003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724EB002,  7116, 0x24EB003F, 168.5213, 162.1158, 6.218846, 0.9498814, 0, 0, -0.3126105,  True, '2019-02-10 00:00:00'); /* High Mu-miyah */

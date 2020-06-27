@@ -9,159 +9,159 @@ VALUES (0x7B8E8003,  1154, 0xB8E80103, 176.763, 133.81, -1.788, -0.334854, 0, 0,
 /* @teleloc 0xB8E80103 [176.763000 133.810000 -1.788000] -0.334854 0.000000 0.000000 0.942270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8E8003, 0x7B8E8004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E8005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B8E8003, 0x7B8E8006, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x7B8E8003, 0x7B8E8007, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8008, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8009, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x7B8E8003, 0x7B8E800A, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x7B8E8003, 0x7B8E800B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E800C, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7B8E8003, 0x7B8E800D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E800E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E800F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E8010, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E8011, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8012, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E8013, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E8014, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8015, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B8E8003, 0x7B8E8016, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B8E8003, 0x7B8E8017, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B8E8003, 0x7B8E8018, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E8019, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7B8E8003, 0x7B8E801A, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7B8E8003, 0x7B8E801B, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E801C, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E801D, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E801E, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E801F, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8020, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8021, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8022, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E8023, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8024, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8025, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7B8E8003, 0x7B8E8026, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8027, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8028, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8029, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E802A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E802B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E802C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E802D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E802E, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E802F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8030, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8031, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8032, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8033, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8034, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7B8E8003, 0x7B8E8035, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8036, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E8037, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8038, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E8039, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E803A, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E803B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E803C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E803D, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E803E, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E803F, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8040, '2019-02-10 00:00:00') /* Spirit */
-     , (0x7B8E8003, 0x7B8E8041, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8042, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8043, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8044, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8045, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8046, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8047, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8048, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8049, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E804A, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E804B, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E804C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E804D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E804E, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E804F, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8050, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8051, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8052, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8053, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8054, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8055, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8056, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8057, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8058, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8059, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E805A, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E805B, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E805C, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E805D, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E805E, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E805F, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7B8E8003, 0x7B8E8060, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E8061, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8062, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8063, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8064, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8065, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8066, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8067, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8E8003, 0x7B8E8068, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8E8003, 0x7B8E8069, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8E8003, 0x7B8E806A, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E806B, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7B8E8003, 0x7B8E806C, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E806D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E806E, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E806F, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8070, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8071, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8072, '2019-02-10 00:00:00') /* Blighted Pyreal Golem */
-     , (0x7B8E8003, 0x7B8E8073, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8074, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8075, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E8076, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8E8003, 0x7B8E8077, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B8E8003, 0x7B8E8078, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8079, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7B8E8003, 0x7B8E807A, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E807B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E807C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B8E8003, 0x7B8E807D, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E807E, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7B8E8003, 0x7B8E807F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8080, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8081, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8082, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8083, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8084, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8085, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8086, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8087, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E8088, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E8089, '2019-02-10 00:00:00') /* Black Phyntos Hive */
-     , (0x7B8E8003, 0x7B8E808A, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E808B, '2019-02-10 00:00:00') /* Black Phyntos Swarm */
-     , (0x7B8E8003, 0x7B8E808C, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E808D, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E808E, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E808F, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8090, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8091, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8092, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8093, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7B8E8003, 0x7B8E8094, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8095, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7B8E8003, 0x7B8E8096, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E8097, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8098, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7B8E8003, 0x7B8E8099, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E809A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7B8E8003, 0x7B8E809B, '2019-02-10 00:00:00') /* Specter */
-     , (0x7B8E8003, 0x7B8E809C, '2019-02-10 00:00:00') /* Black Phyntos Wasp */;
+VALUES (0x7B8E8003, 0x7B8E8004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E8005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8003, 0x7B8E8006, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
+     , (0x7B8E8003, 0x7B8E8007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8009, '2019-02-10 00:00:00') /* Exploration Marker (39829) */
+     , (0x7B8E8003, 0x7B8E800A, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x7B8E8003, 0x7B8E800B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E800C, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8003, 0x7B8E800D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E800E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E800F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E8010, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E8011, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8012, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E8013, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E8014, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8015, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8003, 0x7B8E8016, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8003, 0x7B8E8017, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B8E8003, 0x7B8E8018, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E8019, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8003, 0x7B8E801A, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7B8E8003, 0x7B8E801B, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E801C, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E801D, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E801E, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E801F, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8020, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8021, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8022, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E8023, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8024, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8025, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7B8E8003, 0x7B8E8026, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8027, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8028, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8029, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E802A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E802B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E802C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E802D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E802E, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E802F, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E8030, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E8031, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8032, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E8033, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8034, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7B8E8003, 0x7B8E8035, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8036, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E8037, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8038, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E8039, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E803A, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E803B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E803C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E803D, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E803E, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E803F, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8040, '2019-02-10 00:00:00') /* Spirit (28246) */
+     , (0x7B8E8003, 0x7B8E8041, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8042, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8043, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8044, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8045, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8046, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8047, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8048, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8049, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E804A, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E804B, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E804C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E804D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E804E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E804F, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8050, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8051, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8052, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8053, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8054, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8055, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8056, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8057, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8058, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E8059, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E805A, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E805B, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E805C, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E805D, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E805E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E805F, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7B8E8003, 0x7B8E8060, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E8061, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8062, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8063, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8064, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8065, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8066, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8067, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8E8003, 0x7B8E8068, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8E8003, 0x7B8E8069, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8E8003, 0x7B8E806A, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E806B, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7B8E8003, 0x7B8E806C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E806D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E806E, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E806F, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8070, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8071, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8072, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7B8E8003, 0x7B8E8073, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E8074, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E8075, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E8076, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8E8003, 0x7B8E8077, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B8E8003, 0x7B8E8078, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E8079, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7B8E8003, 0x7B8E807A, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E807B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E807C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B8E8003, 0x7B8E807D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E807E, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7B8E8003, 0x7B8E807F, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E8080, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8081, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8082, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8083, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8084, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8085, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8086, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8087, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E8088, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E8089, '2019-02-10 00:00:00') /* Black Phyntos Hive (28249) */
+     , (0x7B8E8003, 0x7B8E808A, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E808B, '2019-02-10 00:00:00') /* Black Phyntos Swarm (28250) */
+     , (0x7B8E8003, 0x7B8E808C, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E808D, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E808E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E808F, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E8090, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E8091, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8092, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x7B8E8003, 0x7B8E8093, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B8E8003, 0x7B8E8094, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8095, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7B8E8003, 0x7B8E8096, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E8097, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8098, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7B8E8003, 0x7B8E8099, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7B8E8003, 0x7B8E809A, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7B8E8003, 0x7B8E809B, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B8E8003, 0x7B8E809C, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8E8004,  7107, 0xB8E80103, 176.763, 133.81, -1.788, -0.334854, 0, 0, 0.94227,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -780,10 +780,10 @@ VALUES (0x7B8E809D,  1542, 0xB8E8000F, 37.87613, 147.0054, 19.9845, 0.9990482, 0
 /* @teleloc 0xB8E8000F [37.876130 147.005400 19.984500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8E809D, 0x7B8E809E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B8E809D, 0x7B8E809F, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B8E809D, 0x7B8E80A0, '2019-02-10 00:00:00') /* Bones */
-     , (0x7B8E809D, 0x7B8E80A1, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B8E809D, 0x7B8E809E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B8E809D, 0x7B8E809F, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B8E809D, 0x7B8E80A0, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B8E809D, 0x7B8E80A1, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8E809E,  4179, 0xB8E8000F, 37.87613, 147.0054, 19.9845, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

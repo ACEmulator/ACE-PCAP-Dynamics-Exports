@@ -5,52 +5,52 @@ VALUES (0x71FC1001,  1154, 0x1FC1003B, 174.0007, 64.36544, 102.6362, 1, 0, 0, 0,
 /* @teleloc 0x1FC1003B [174.000700 64.365440 102.636200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC1001, 0x71FC1002, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1003, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1004, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC1006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC1007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71FC1001, 0x71FC1008, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC1009, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC100A, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC100B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC100C, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71FC1001, 0x71FC100D, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71FC1001, 0x71FC100E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC100F, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC1010, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC1011, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1012, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1013, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71FC1001, 0x71FC1014, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x71FC1001, 0x71FC1015, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1016, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1017, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1018, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1019, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC101A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC101B, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC101C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC101D, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC101E, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC101F, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1020, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC1021, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC1022, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x71FC1001, 0x71FC1023, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1024, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1025, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1026, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1027, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71FC1001, 0x71FC1028, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC1029, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC102A, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC102B, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC102C, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC102D, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71FC1001, 0x71FC102E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71FC1001, 0x71FC102F, '2019-02-10 00:00:00') /* Hea Champion */;
+VALUES (0x71FC1001, 0x71FC1002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1003, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1004, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC1006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC1007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71FC1001, 0x71FC1008, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC1009, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC100A, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC100B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC100C, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71FC1001, 0x71FC100D, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71FC1001, 0x71FC100E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC100F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC1010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC1011, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1012, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1013, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71FC1001, 0x71FC1014, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x71FC1001, 0x71FC1015, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1016, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1017, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1018, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1019, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC101A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC101B, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC101C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC101D, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC101E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC101F, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1020, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC1021, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC1022, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71FC1001, 0x71FC1023, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1024, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1025, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1026, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1027, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71FC1001, 0x71FC1028, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC1029, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC102A, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC102B, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC102C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC102D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC102E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x71FC1001, 0x71FC102F, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC1002, 27708, 0x1FC1003B, 174.0007, 64.36544, 102.6362, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -241,13 +241,13 @@ VALUES (0x71FC1030,  1542, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0,
 /* @teleloc 0x1FC1003B [173.029100 69.700270 102.341600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC1030, 0x71FC1031, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71FC1030, 0x71FC1032, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71FC1030, 0x71FC1033, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71FC1030, 0x71FC1034, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71FC1030, 0x71FC1035, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71FC1030, 0x71FC1036, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71FC1030, 0x71FC1037, '2019-02-10 00:00:00') /* Simple Hive Portal */;
+VALUES (0x71FC1030, 0x71FC1031, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71FC1030, 0x71FC1032, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FC1030, 0x71FC1033, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FC1030, 0x71FC1034, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71FC1030, 0x71FC1035, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71FC1030, 0x71FC1036, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71FC1030, 0x71FC1037, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC1031, 27719, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */

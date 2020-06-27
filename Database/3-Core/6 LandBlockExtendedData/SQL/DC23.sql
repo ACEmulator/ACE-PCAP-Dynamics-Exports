@@ -5,11 +5,11 @@ VALUES (0x7DC23001,  1154, 0xDC230039, 186.8801, 15.10451, 54.0025, 0.8191521, 0
 /* @teleloc 0xDC230039 [186.880100 15.104510 54.002500] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC23001, 0x7DC23002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DC23001, 0x7DC23003, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DC23001, 0x7DC23004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7DC23001, 0x7DC23005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7DC23001, 0x7DC23006, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7DC23001, 0x7DC23002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DC23001, 0x7DC23003, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DC23001, 0x7DC23004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7DC23001, 0x7DC23005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7DC23001, 0x7DC23006, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC23002,  7334, 0xDC230039, 186.8801, 15.10451, 54.0025, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -36,7 +36,7 @@ VALUES (0x7DC23007,  1542, 0xDC230039, 184.5991, 16.50523, 54, 1, 0, 0, 0, False
 /* @teleloc 0xDC230039 [184.599100 16.505230 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC23007, 0x7DC23008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7DC23007, 0x7DC23008, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC23008, 22567, 0xDC230039, 184.5991, 16.50523, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,15 +5,15 @@ VALUES (0x7C2A0001,  1154, 0xC2A00040, 189.2756, 171.1128, 10.03951, -0.7660139,
 /* @teleloc 0xC2A00040 [189.275600 171.112800 10.039510] -0.766014 0.000000 0.000000 -0.642824 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2A0001, 0x7C2A0002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7C2A0001, 0x7C2A0003, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7C2A0001, 0x7C2A0004, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7C2A0001, 0x7C2A0005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C2A0001, 0x7C2A0006, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C2A0001, 0x7C2A0007, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7C2A0001, 0x7C2A0008, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C2A0001, 0x7C2A0009, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C2A0001, 0x7C2A000A, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x7C2A0001, 0x7C2A0002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7C2A0001, 0x7C2A0003, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7C2A0001, 0x7C2A0004, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7C2A0001, 0x7C2A0005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C2A0001, 0x7C2A0006, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C2A0001, 0x7C2A0007, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7C2A0001, 0x7C2A0008, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C2A0001, 0x7C2A0009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C2A0001, 0x7C2A000A, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2A0002,     6, 0xC2A00040, 189.2756, 171.1128, 10.03951, -0.7660139, 0, 0, -0.6428239,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

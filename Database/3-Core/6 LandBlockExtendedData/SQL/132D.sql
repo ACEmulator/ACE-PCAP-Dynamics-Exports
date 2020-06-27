@@ -5,29 +5,29 @@ VALUES (0x7132D001,  1154, 0x132D001A, 93.09219, 29.06748, 3.849028, 0.8704512, 
 /* @teleloc 0x132D001A [93.092190 29.067480 3.849028] 0.870451 0.000000 0.000000 -0.492255 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132D001, 0x7132D002, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7132D001, 0x7132D003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7132D001, 0x7132D004, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7132D001, 0x7132D005, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7132D001, 0x7132D006, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7132D001, 0x7132D007, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7132D001, 0x7132D008, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7132D001, 0x7132D009, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7132D001, 0x7132D00A, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7132D001, 0x7132D00B, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7132D001, 0x7132D00C, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7132D001, 0x7132D00D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7132D001, 0x7132D00E, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x7132D001, 0x7132D00F, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7132D001, 0x7132D010, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7132D001, 0x7132D011, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7132D001, 0x7132D012, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7132D001, 0x7132D013, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7132D001, 0x7132D014, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7132D001, 0x7132D015, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7132D001, 0x7132D016, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7132D001, 0x7132D017, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7132D001, 0x7132D018, '2019-02-10 00:00:00') /* Chaos Wisp */;
+VALUES (0x7132D001, 0x7132D002, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7132D001, 0x7132D003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7132D001, 0x7132D004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7132D001, 0x7132D005, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7132D001, 0x7132D006, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7132D001, 0x7132D007, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7132D001, 0x7132D008, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x7132D001, 0x7132D009, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7132D001, 0x7132D00A, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7132D001, 0x7132D00B, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7132D001, 0x7132D00C, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7132D001, 0x7132D00D, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x7132D001, 0x7132D00E, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x7132D001, 0x7132D00F, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x7132D001, 0x7132D010, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x7132D001, 0x7132D011, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x7132D001, 0x7132D012, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7132D001, 0x7132D013, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x7132D001, 0x7132D014, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7132D001, 0x7132D015, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7132D001, 0x7132D016, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7132D001, 0x7132D017, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7132D001, 0x7132D018, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132D002, 22914, 0x132D001A, 93.09219, 29.06748, 3.849028, 0.8704512, 0, 0, -0.4922547,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
@@ -126,8 +126,8 @@ VALUES (0x7132D019,  1542, 0x132D001A, 80.39222, 37.32126, 4.190544, 1, 0, 0, 0,
 /* @teleloc 0x132D001A [80.392220 37.321260 4.190544] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7132D019, 0x7132D01A, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7132D019, 0x7132D01B, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7132D019, 0x7132D01A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7132D019, 0x7132D01B, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7132D01A, 22566, 0x132D001A, 80.39222, 37.32126, 4.190544, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

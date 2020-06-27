@@ -5,17 +5,17 @@ VALUES (0x7A1D8001,  1154, 0xA1D80017, 61.20806, 160.6844, 97.42601, -0.7071068,
 /* @teleloc 0xA1D80017 [61.208060 160.684400 97.426010] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D8001, 0x7A1D8002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A1D8001, 0x7A1D8003, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A1D8001, 0x7A1D8004, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7A1D8001, 0x7A1D8005, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7A1D8001, 0x7A1D8006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A1D8001, 0x7A1D8007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A1D8001, 0x7A1D8008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A1D8001, 0x7A1D8009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A1D8001, 0x7A1D800A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7A1D8001, 0x7A1D800B, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7A1D8001, 0x7A1D800C, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7A1D8001, 0x7A1D8002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A1D8001, 0x7A1D8003, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A1D8001, 0x7A1D8004, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7A1D8001, 0x7A1D8005, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7A1D8001, 0x7A1D8006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A1D8001, 0x7A1D8007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7A1D8001, 0x7A1D8008, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A1D8001, 0x7A1D8009, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A1D8001, 0x7A1D800A, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7A1D8001, 0x7A1D800B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7A1D8001, 0x7A1D800C, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D8002,  4247, 0xA1D80017, 61.20806, 160.6844, 97.42601, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -66,8 +66,8 @@ VALUES (0x7A1D800D,  1542, 0xA1D80017, 57.69773, 159.0217, 97.11267, 0.9990482, 
 /* @teleloc 0xA1D80017 [57.697730 159.021700 97.112670] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1D800D, 0x7A1D800E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A1D800D, 0x7A1D800F, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7A1D800D, 0x7A1D800E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A1D800D, 0x7A1D800F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1D800E,  4179, 0xA1D80017, 57.69773, 159.0217, 97.11267, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

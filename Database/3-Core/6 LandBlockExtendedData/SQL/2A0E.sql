@@ -5,15 +5,15 @@ VALUES (0x72A0E001,  1154, 0x2A0E0031, 156.8577, 6.099111, 16.01, -0.9210531, 0,
 /* @teleloc 0x2A0E0031 [156.857700 6.099111 16.010000] -0.921053 0.000000 0.000000 -0.389437 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A0E001, 0x72A0E002, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72A0E001, 0x72A0E003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A0E001, 0x72A0E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72A0E001, 0x72A0E005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72A0E001, 0x72A0E006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x72A0E001, 0x72A0E007, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72A0E001, 0x72A0E008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72A0E001, 0x72A0E009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72A0E001, 0x72A0E00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x72A0E001, 0x72A0E002, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72A0E001, 0x72A0E003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A0E001, 0x72A0E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A0E001, 0x72A0E005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72A0E001, 0x72A0E006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x72A0E001, 0x72A0E007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72A0E001, 0x72A0E008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A0E001, 0x72A0E009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72A0E001, 0x72A0E00A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A0E002, 36830, 0x2A0E0031, 156.8577, 6.099111, 16.01, -0.9210531, 0, 0, -0.389437,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -56,7 +56,7 @@ VALUES (0x72A0E00B,  1542, 0x2A0E003B, 175.4971, 50.7434, 13.54277, 1, 0, 0, 0, 
 /* @teleloc 0x2A0E003B [175.497100 50.743400 13.542770] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A0E00B, 0x72A0E00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72A0E00B, 0x72A0E00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A0E00C, 22571, 0x2A0E003B, 175.4971, 50.7434, 13.54277, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

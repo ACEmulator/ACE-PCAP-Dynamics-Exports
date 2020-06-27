@@ -5,10 +5,10 @@ VALUES (0x79974001,  1154, 0x99740017, 57.51369, 148.4436, 34.0075, 0.5831932, 0
 /* @teleloc 0x99740017 [57.513690 148.443600 34.007500] 0.583193 0.000000 0.000000 -0.812334 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79974001, 0x79974002, '2019-02-10 00:00:00') /* Undead */
-     , (0x79974001, 0x79974003, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79974001, 0x79974004, '2019-02-10 00:00:00') /* Bronze Armoredillo */
-     , (0x79974001, 0x79974005, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x79974001, 0x79974002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79974001, 0x79974003, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79974001, 0x79974004, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
+     , (0x79974001, 0x79974005, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79974002,    16, 0x99740017, 57.51369, 148.4436, 34.0075, 0.5831932, 0, 0, -0.8123335,  True, '2019-02-10 00:00:00'); /* Undead */

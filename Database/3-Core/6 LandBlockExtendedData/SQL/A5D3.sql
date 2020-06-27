@@ -5,49 +5,49 @@ VALUES (0x7A5D3001,  1154, 0xA5D30012, 52.33899, 28.84367, 353.187, -0.2149948, 
 /* @teleloc 0xA5D30012 [52.338990 28.843670 353.187000] -0.214995 0.000000 0.000000 -0.976615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D3001, 0x7A5D3002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A5D3001, 0x7A5D3003, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7A5D3001, 0x7A5D3004, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x7A5D3001, 0x7A5D3005, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7A5D3001, 0x7A5D3006, '2019-02-10 00:00:00') /* Northern Pedestal */
-     , (0x7A5D3001, 0x7A5D3007, '2019-02-10 00:00:00') /* Eastern Pedestal */
-     , (0x7A5D3001, 0x7A5D3008, '2019-02-10 00:00:00') /* Western Pedestal */
-     , (0x7A5D3001, 0x7A5D3009, '2019-02-10 00:00:00') /* Portal to Bur */
-     , (0x7A5D3001, 0x7A5D300A, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A5D3001, 0x7A5D300B, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A5D3001, 0x7A5D300C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D300D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D300E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D300F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A5D3001, 0x7A5D3010, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D3001, 0x7A5D3011, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A5D3001, 0x7A5D3012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A5D3001, 0x7A5D3013, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7A5D3001, 0x7A5D3014, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x7A5D3001, 0x7A5D3015, '2019-02-10 00:00:00') /* Warlock of the Blood */
-     , (0x7A5D3001, 0x7A5D3016, '2019-02-10 00:00:00') /* Banished Phyntos Wasp */
-     , (0x7A5D3001, 0x7A5D3017, '2019-02-10 00:00:00') /* Dread Ursuin */
-     , (0x7A5D3001, 0x7A5D3018, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D3001, 0x7A5D3019, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7A5D3001, 0x7A5D301A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A5D3001, 0x7A5D301B, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D301C, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D301D, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D301E, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7A5D3001, 0x7A5D301F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A5D3001, 0x7A5D3020, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7A5D3001, 0x7A5D3021, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A5D3001, 0x7A5D3022, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A5D3001, 0x7A5D3023, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A5D3001, 0x7A5D3024, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A5D3001, 0x7A5D3025, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A5D3001, 0x7A5D3026, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7A5D3001, 0x7A5D3027, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7A5D3001, 0x7A5D3028, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A5D3001, 0x7A5D3029, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A5D3001, 0x7A5D302A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A5D3001, 0x7A5D302B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7A5D3001, 0x7A5D302C, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x7A5D3001, 0x7A5D3002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A5D3001, 0x7A5D3003, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7A5D3001, 0x7A5D3004, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x7A5D3001, 0x7A5D3005, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7A5D3001, 0x7A5D3006, '2019-02-10 00:00:00') /* Northern Pedestal (34743) */
+     , (0x7A5D3001, 0x7A5D3007, '2019-02-10 00:00:00') /* Eastern Pedestal (34746) */
+     , (0x7A5D3001, 0x7A5D3008, '2019-02-10 00:00:00') /* Western Pedestal (34744) */
+     , (0x7A5D3001, 0x7A5D3009, '2019-02-10 00:00:00') /* Portal to Bur (34593) */
+     , (0x7A5D3001, 0x7A5D300A, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A5D3001, 0x7A5D300B, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A5D3001, 0x7A5D300C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D300D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D300E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D300F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A5D3001, 0x7A5D3010, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D3001, 0x7A5D3011, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A5D3001, 0x7A5D3012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A5D3001, 0x7A5D3013, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7A5D3001, 0x7A5D3014, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7A5D3001, 0x7A5D3015, '2019-02-10 00:00:00') /* Warlock of the Blood (20633) */
+     , (0x7A5D3001, 0x7A5D3016, '2019-02-10 00:00:00') /* Banished Phyntos Wasp (30904) */
+     , (0x7A5D3001, 0x7A5D3017, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x7A5D3001, 0x7A5D3018, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D3001, 0x7A5D3019, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7A5D3001, 0x7A5D301A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A5D3001, 0x7A5D301B, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D301C, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D301D, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D301E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7A5D3001, 0x7A5D301F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A5D3001, 0x7A5D3020, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7A5D3001, 0x7A5D3021, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A5D3001, 0x7A5D3022, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A5D3001, 0x7A5D3023, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A5D3001, 0x7A5D3024, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A5D3001, 0x7A5D3025, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A5D3001, 0x7A5D3026, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7A5D3001, 0x7A5D3027, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A5D3001, 0x7A5D3028, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A5D3001, 0x7A5D3029, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A5D3001, 0x7A5D302A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A5D3001, 0x7A5D302B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7A5D3001, 0x7A5D302C, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D3002,   212, 0xA5D30012, 52.33899, 28.84367, 353.187, -0.2149948, 0, 0, -0.9766152,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -226,9 +226,9 @@ VALUES (0x7A5D302D,  1154, 0xA5D30027, 116.5833, 152.5926, 404.01, -0.7071068, 0
 /* @teleloc 0xA5D30027 [116.583300 152.592600 404.010000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D302D, 0x7A5D302E, '2019-02-10 00:00:00') /* Portal Servitor */
-     , (0x7A5D302D, 0x7A5D302F, '2019-02-10 00:00:00') /* Portal Servitor */
-     , (0x7A5D302D, 0x7A5D3030, '2019-02-10 00:00:00') /* Portal Servitor */;
+VALUES (0x7A5D302D, 0x7A5D302E, '2019-02-10 00:00:00') /* Portal Servitor (34467) */
+     , (0x7A5D302D, 0x7A5D302F, '2019-02-10 00:00:00') /* Portal Servitor (34467) */
+     , (0x7A5D302D, 0x7A5D3030, '2019-02-10 00:00:00') /* Portal Servitor (34467) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D302E, 34467, 0xA5D30027, 116.5833, 152.5926, 404.01, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Portal Servitor */
@@ -247,14 +247,14 @@ VALUES (0x7A5D3031,  1542, 0xA5D30026, 107.5, 141, 405.6, 1, 0, 0, 0, False, '20
 /* @teleloc 0xA5D30026 [107.500000 141.000000 405.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5D3031, 0x7A5D3032, '2019-02-10 00:00:00') /* Magical Orb */
-     , (0x7A5D3031, 0x7A5D3033, '2019-02-10 00:00:00') /* Magical Orb */
-     , (0x7A5D3031, 0x7A5D3034, '2019-02-10 00:00:00') /* Magical Orb */
-     , (0x7A5D3031, 0x7A5D3035, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x7A5D3031, 0x7A5D3036, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7A5D3031, 0x7A5D3037, '2019-02-10 00:00:00') /* Gateway */
-     , (0x7A5D3031, 0x7A5D3038, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A5D3031, 0x7A5D3039, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A5D3031, 0x7A5D3032, '2019-02-10 00:00:00') /* Magical Orb (34731) */
+     , (0x7A5D3031, 0x7A5D3033, '2019-02-10 00:00:00') /* Magical Orb (34731) */
+     , (0x7A5D3031, 0x7A5D3034, '2019-02-10 00:00:00') /* Magical Orb (34731) */
+     , (0x7A5D3031, 0x7A5D3035, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7A5D3031, 0x7A5D3036, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7A5D3031, 0x7A5D3037, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A5D3031, 0x7A5D3038, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A5D3031, 0x7A5D3039, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5D3032, 34731, 0xA5D30026, 107.5, 141, 405.6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Magical Orb */

@@ -5,11 +5,11 @@ VALUES (0x72961001,  1154, 0x29610018, 58.05525, 168.2142, 49.91725, -0.9653217,
 /* @teleloc 0x29610018 [58.055250 168.214200 49.917250] -0.965322 0.000000 0.000000 -0.261063 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72961001, 0x72961002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x72961001, 0x72961003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72961001, 0x72961004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72961001, 0x72961005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72961001, 0x72961006, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x72961001, 0x72961002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x72961001, 0x72961003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72961001, 0x72961004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72961001, 0x72961005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72961001, 0x72961006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72961002, 10807, 0x29610018, 58.05525, 168.2142, 49.91725, -0.9653217, 0, 0, -0.2610631,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */

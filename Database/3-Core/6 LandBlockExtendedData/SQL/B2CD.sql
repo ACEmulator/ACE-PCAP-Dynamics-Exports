@@ -29,11 +29,11 @@ VALUES (0x7B2CD006,  1154, 0xB2CD0100, 74.2434, 35.5892, 109.6575, -0.887834, 0,
 /* @teleloc 0xB2CD0100 [74.243400 35.589200 109.657500] -0.887834 0.000000 0.000000 -0.460163 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2CD006, 0x7B2CD007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7B2CD006, 0x7B2CD008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7B2CD006, 0x7B2CD009, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7B2CD006, 0x7B2CD00A, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7B2CD006, 0x7B2CD00B, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7B2CD006, 0x7B2CD007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7B2CD006, 0x7B2CD008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7B2CD006, 0x7B2CD009, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7B2CD006, 0x7B2CD00A, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7B2CD006, 0x7B2CD00B, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2CD007,  1759, 0xB2CD0100, 74.2434, 35.5892, 109.6575, -0.887834, 0, 0, -0.460163,  True, '2019-02-10 00:00:00'); /* Skeleton */

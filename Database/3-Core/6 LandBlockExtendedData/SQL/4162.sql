@@ -5,9 +5,9 @@ VALUES (0x74162001,  1154, 0x41620035, 159.34, 107.5178, 20.00825, 0.7071068, 0,
 /* @teleloc 0x41620035 [159.340000 107.517800 20.008250] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74162001, 0x74162002, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74162001, 0x74162003, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74162001, 0x74162004, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x74162001, 0x74162002, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74162001, 0x74162003, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74162001, 0x74162004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74162002, 24319, 0x41620035, 159.34, 107.5178, 20.00825, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */

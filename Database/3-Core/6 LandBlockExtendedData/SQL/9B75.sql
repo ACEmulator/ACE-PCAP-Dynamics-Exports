@@ -5,13 +5,13 @@ VALUES (0x79B75001,  1154, 0x9B750024, 109.0651, 84.08786, 29.991, 0.9940079, 0,
 /* @teleloc 0x9B750024 [109.065100 84.087860 29.991000] 0.994008 0.000000 0.000000 -0.109309 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B75001, 0x79B75002, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x79B75001, 0x79B75003, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x79B75001, 0x79B75004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79B75001, 0x79B75005, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x79B75001, 0x79B75006, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79B75001, 0x79B75007, '2019-02-10 00:00:00') /* Lich */
-     , (0x79B75001, 0x79B75008, '2019-02-10 00:00:00') /* Silt Lurker */;
+VALUES (0x79B75001, 0x79B75002, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x79B75001, 0x79B75003, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x79B75001, 0x79B75004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79B75001, 0x79B75005, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x79B75001, 0x79B75006, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79B75001, 0x79B75007, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x79B75001, 0x79B75008, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B75002,  2574, 0x9B750024, 109.0651, 84.08786, 29.991, 0.9940079, 0, 0, -0.1093086,  True, '2019-02-10 00:00:00'); /* Rough Monouga */

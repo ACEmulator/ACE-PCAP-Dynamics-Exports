@@ -5,28 +5,28 @@ VALUES (0x7CDCC001,  1154, 0xCDCC002A, 120.3497, 34.06339, 51.16138, 0.6254573, 
 /* @teleloc 0xCDCC002A [120.349700 34.063390 51.161380] 0.625457 0.000000 0.000000 -0.780258 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CDCC001, 0x7CDCC002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CDCC001, 0x7CDCC004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7CDCC001, 0x7CDCC005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC007, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC008, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CDCC001, 0x7CDCC009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7CDCC001, 0x7CDCC00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7CDCC001, 0x7CDCC00B, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7CDCC001, 0x7CDCC00C, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7CDCC001, 0x7CDCC00D, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7CDCC001, 0x7CDCC00E, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7CDCC001, 0x7CDCC00F, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7CDCC001, 0x7CDCC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDCC001, 0x7CDCC011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC012, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CDCC001, 0x7CDCC013, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CDCC001, 0x7CDCC014, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CDCC001, 0x7CDCC015, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC016, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CDCC001, 0x7CDCC017, '2019-02-10 00:00:00') /* Olthoi Warrior */;
+VALUES (0x7CDCC001, 0x7CDCC002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC003, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CDCC001, 0x7CDCC004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7CDCC001, 0x7CDCC005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC007, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CDCC001, 0x7CDCC009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7CDCC001, 0x7CDCC00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7CDCC001, 0x7CDCC00B, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7CDCC001, 0x7CDCC00C, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7CDCC001, 0x7CDCC00D, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7CDCC001, 0x7CDCC00E, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7CDCC001, 0x7CDCC00F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7CDCC001, 0x7CDCC010, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDCC001, 0x7CDCC011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC012, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CDCC001, 0x7CDCC013, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CDCC001, 0x7CDCC014, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CDCC001, 0x7CDCC015, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC016, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CDCC001, 0x7CDCC017, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDCC002, 23482, 0xCDCC002A, 120.3497, 34.06339, 51.16138, 0.6254573, 0, 0, -0.7802584,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */

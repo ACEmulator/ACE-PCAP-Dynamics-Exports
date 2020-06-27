@@ -5,13 +5,13 @@ VALUES (0x73E1C001,  1154, 0x3E1C003A, 169.4761, 46.61565, 37.06516, -0.4383497,
 /* @teleloc 0x3E1C003A [169.476100 46.615650 37.065160] -0.438350 0.000000 0.000000 -0.898805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E1C001, 0x73E1C002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73E1C001, 0x73E1C003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73E1C001, 0x73E1C004, '2019-02-10 00:00:00') /* Dark Myrmidon */
-     , (0x73E1C001, 0x73E1C005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x73E1C001, 0x73E1C006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73E1C001, 0x73E1C007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73E1C001, 0x73E1C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x73E1C001, 0x73E1C002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73E1C001, 0x73E1C003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73E1C001, 0x73E1C004, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x73E1C001, 0x73E1C005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x73E1C001, 0x73E1C006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73E1C001, 0x73E1C007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73E1C001, 0x73E1C008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E1C002,  7179, 0x3E1C003A, 169.4761, 46.61565, 37.06516, -0.4383497, 0, 0, -0.8988045,  True, '2019-02-10 00:00:00'); /* Relic Bones */

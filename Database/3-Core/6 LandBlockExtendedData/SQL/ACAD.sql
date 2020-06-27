@@ -5,29 +5,29 @@ VALUES (0x7ACAD001,  1154, 0xACAD0019, 76.1363, 18.37704, 74.005, -0.9999949, 0,
 /* @teleloc 0xACAD0019 [76.136300 18.377040 74.005000] -0.999995 0.000000 0.000000 -0.003199 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACAD001, 0x7ACAD002, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ACAD001, 0x7ACAD003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAD001, 0x7ACAD004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAD001, 0x7ACAD005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7ACAD001, 0x7ACAD006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ACAD001, 0x7ACAD007, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAD001, 0x7ACAD008, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ACAD001, 0x7ACAD009, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ACAD001, 0x7ACAD00A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7ACAD001, 0x7ACAD00B, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7ACAD001, 0x7ACAD00C, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAD001, 0x7ACAD00D, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ACAD001, 0x7ACAD00E, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAD001, 0x7ACAD00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ACAD001, 0x7ACAD010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ACAD001, 0x7ACAD011, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ACAD001, 0x7ACAD012, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACAD001, 0x7ACAD013, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7ACAD001, 0x7ACAD014, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7ACAD001, 0x7ACAD015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ACAD001, 0x7ACAD016, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7ACAD001, 0x7ACAD017, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ACAD001, 0x7ACAD018, '2019-02-10 00:00:00') /* Auroch Bull */;
+VALUES (0x7ACAD001, 0x7ACAD002, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ACAD001, 0x7ACAD003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAD001, 0x7ACAD004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAD001, 0x7ACAD005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7ACAD001, 0x7ACAD006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ACAD001, 0x7ACAD007, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAD001, 0x7ACAD008, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ACAD001, 0x7ACAD009, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ACAD001, 0x7ACAD00A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7ACAD001, 0x7ACAD00B, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7ACAD001, 0x7ACAD00C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAD001, 0x7ACAD00D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ACAD001, 0x7ACAD00E, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAD001, 0x7ACAD00F, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ACAD001, 0x7ACAD010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ACAD001, 0x7ACAD011, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ACAD001, 0x7ACAD012, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACAD001, 0x7ACAD013, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7ACAD001, 0x7ACAD014, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7ACAD001, 0x7ACAD015, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ACAD001, 0x7ACAD016, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7ACAD001, 0x7ACAD017, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ACAD001, 0x7ACAD018, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACAD002,   946, 0xACAD0019, 76.1363, 18.37704, 74.005, -0.9999949, 0, 0, -0.003198769,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -126,7 +126,7 @@ VALUES (0x7ACAD019,  1542, 0xACAD0033, 158.4461, 69.99261, 77.20384, 1, 0, 0, 0,
 /* @teleloc 0xACAD0033 [158.446100 69.992610 77.203840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACAD019, 0x7ACAD01A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ACAD019, 0x7ACAD01A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACAD01A,  4179, 0xACAD0033, 158.4461, 69.99261, 77.20384, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

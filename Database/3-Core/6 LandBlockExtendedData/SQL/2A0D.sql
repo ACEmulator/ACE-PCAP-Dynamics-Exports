@@ -5,18 +5,18 @@ VALUES (0x72A0D001,  1154, 0x2A0D0006, 1.405859, 143.0908, 9.850963, -0.984395, 
 /* @teleloc 0x2A0D0006 [1.405859 143.090800 9.850963] -0.984395 0.000000 0.000000 -0.175973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A0D001, 0x72A0D002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72A0D001, 0x72A0D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x72A0D001, 0x72A0D004, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72A0D001, 0x72A0D005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72A0D001, 0x72A0D006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x72A0D001, 0x72A0D007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72A0D001, 0x72A0D008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A0D001, 0x72A0D009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A0D001, 0x72A0D00A, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x72A0D001, 0x72A0D00B, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72A0D001, 0x72A0D00C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72A0D001, 0x72A0D00D, '2019-02-10 00:00:00') /* Skeletal Hero */;
+VALUES (0x72A0D001, 0x72A0D002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72A0D001, 0x72A0D003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A0D001, 0x72A0D004, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72A0D001, 0x72A0D005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72A0D001, 0x72A0D006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x72A0D001, 0x72A0D007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72A0D001, 0x72A0D008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A0D001, 0x72A0D009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A0D001, 0x72A0D00A, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x72A0D001, 0x72A0D00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72A0D001, 0x72A0D00C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72A0D001, 0x72A0D00D, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A0D002, 36859, 0x2A0D0006, 1.405859, 143.0908, 9.850963, -0.984395, 0, 0, -0.1759728,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -71,7 +71,7 @@ VALUES (0x72A0D00E,  1542, 0x2A0D001B, 80.70704, 70.64603, -0.09999999, 0.976281
 /* @teleloc 0x2A0D001B [80.707040 70.646030 -0.100000] 0.976282 0.000000 0.000000 -0.216504 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A0D00E, 0x72A0D00F, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x72A0D00E, 0x72A0D00F, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A0D00F, 11554, 0x2A0D001B, 80.70704, 70.64603, -0.09999999, 0.9762818, 0, 0, -0.2165039,  True, '2019-02-10 00:00:00'); /* Colban Plant */

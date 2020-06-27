@@ -5,13 +5,13 @@ VALUES (0x7CFA2001,  1154, 0xCFA2000C, 39.53691, 81.40516, 17.9245, 0.8027186, 0
 /* @teleloc 0xCFA2000C [39.536910 81.405160 17.924500] 0.802719 0.000000 0.000000 -0.596358 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA2001, 0x7CFA2002, '2019-02-10 00:00:00') /* Gout */
-     , (0x7CFA2001, 0x7CFA2003, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CFA2001, 0x7CFA2004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CFA2001, 0x7CFA2005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CFA2001, 0x7CFA2006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CFA2001, 0x7CFA2007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7CFA2001, 0x7CFA2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7CFA2001, 0x7CFA2002, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7CFA2001, 0x7CFA2003, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CFA2001, 0x7CFA2004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CFA2001, 0x7CFA2005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CFA2001, 0x7CFA2006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CFA2001, 0x7CFA2007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7CFA2001, 0x7CFA2008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA2002, 21164, 0xCFA2000C, 39.53691, 81.40516, 17.9245, 0.8027186, 0, 0, -0.596358,  True, '2019-02-10 00:00:00'); /* Gout */
@@ -46,7 +46,7 @@ VALUES (0x7CFA2009,  1542, 0xCFA20015, 66.3254, 109.3945, 14.47288, 1, 0, 0, 0, 
 /* @teleloc 0xCFA20015 [66.325400 109.394500 14.472880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA2009, 0x7CFA200A, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7CFA2009, 0x7CFA200A, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA200A,  8232, 0xCFA20015, 66.3254, 109.3945, 14.47288, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

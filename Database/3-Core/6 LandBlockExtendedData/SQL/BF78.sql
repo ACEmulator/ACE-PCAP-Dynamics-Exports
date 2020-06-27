@@ -5,9 +5,9 @@ VALUES (0x7BF78001,  1154, 0xBF78000A, 41.15134, 42.52677, 22.4583, 0.0871558, 0
 /* @teleloc 0xBF78000A [41.151340 42.526770 22.458300] 0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF78001, 0x7BF78002, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF78001, 0x7BF78003, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7BF78001, 0x7BF78004, '2019-02-10 00:00:00') /* Auroch Cow */;
+VALUES (0x7BF78001, 0x7BF78002, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF78001, 0x7BF78003, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BF78001, 0x7BF78004, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF78002,  7991, 0xBF78000A, 41.15134, 42.52677, 22.4583, 0.0871558, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */

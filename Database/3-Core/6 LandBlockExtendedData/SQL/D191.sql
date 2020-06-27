@@ -5,18 +5,18 @@ VALUES (0x7D191001,  1154, 0xD191000D, 45.2098, 100.629, 16.63127, -0.9402428, 0
 /* @teleloc 0xD191000D [45.209800 100.629000 16.631270] -0.940243 0.000000 0.000000 -0.340505 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D191001, 0x7D191002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7D191001, 0x7D191003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D191001, 0x7D191004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D191001, 0x7D191005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D191001, 0x7D191006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D191001, 0x7D191007, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7D191001, 0x7D191008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D191001, 0x7D191009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D191001, 0x7D19100A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7D191001, 0x7D19100B, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D191001, 0x7D19100C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7D191001, 0x7D19100D, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7D191001, 0x7D191002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7D191001, 0x7D191003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D191001, 0x7D191004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D191001, 0x7D191005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D191001, 0x7D191006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D191001, 0x7D191007, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7D191001, 0x7D191008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D191001, 0x7D191009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D191001, 0x7D19100A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7D191001, 0x7D19100B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D191001, 0x7D19100C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D191001, 0x7D19100D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D191002,   217, 0xD191000D, 45.2098, 100.629, 16.63127, -0.9402428, 0, 0, -0.3405046,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -71,7 +71,7 @@ VALUES (0x7D19100E,  1542, 0xD1910020, 88.13856, 186.0427, 20.65512, 0.9990482, 
 /* @teleloc 0xD1910020 [88.138560 186.042700 20.655120] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D19100E, 0x7D19100F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7D19100E, 0x7D19100F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D19100F,  4179, 0xD1910020, 88.13856, 186.0427, 20.65512, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

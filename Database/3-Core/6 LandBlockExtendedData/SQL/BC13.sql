@@ -5,14 +5,14 @@ VALUES (0x7BC13001,  1154, 0xBC13003D, 184.8, 96.19268, -0.4434, -0.6939666, 0, 
 /* @teleloc 0xBC13003D [184.800000 96.192680 -0.443400] -0.693967 0.000000 0.000000 -0.720007 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BC13001, 0x7BC13002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BC13001, 0x7BC13003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BC13001, 0x7BC13004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BC13001, 0x7BC13005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BC13001, 0x7BC13006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BC13001, 0x7BC13007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BC13001, 0x7BC13008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7BC13001, 0x7BC13009, '2019-02-10 00:00:00') /* Faisi Sclavus */;
+VALUES (0x7BC13001, 0x7BC13002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BC13001, 0x7BC13003, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BC13001, 0x7BC13004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BC13001, 0x7BC13005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (9163) */
+     , (0x7BC13001, 0x7BC13006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BC13001, 0x7BC13007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BC13001, 0x7BC13008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7BC13001, 0x7BC13009, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC13002,  7103, 0xBC13003D, 184.8, 96.19268, -0.4434, -0.6939666, 0, 0, -0.7200072,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */

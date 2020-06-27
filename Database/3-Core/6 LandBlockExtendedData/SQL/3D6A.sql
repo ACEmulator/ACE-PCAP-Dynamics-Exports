@@ -5,26 +5,26 @@ VALUES (0x73D6A001,  1154, 0x3D6A0003, 7.721091, 70.14536, 86.72065, 0.9991993, 
 /* @teleloc 0x3D6A0003 [7.721091 70.145360 86.720650] 0.999199 0.000000 0.000000 -0.040010 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D6A001, 0x73D6A002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73D6A001, 0x73D6A003, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73D6A001, 0x73D6A004, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73D6A001, 0x73D6A005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73D6A001, 0x73D6A006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73D6A001, 0x73D6A007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73D6A001, 0x73D6A008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x73D6A001, 0x73D6A009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73D6A001, 0x73D6A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x73D6A001, 0x73D6A00B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73D6A001, 0x73D6A00C, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73D6A001, 0x73D6A00D, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x73D6A001, 0x73D6A00E, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x73D6A001, 0x73D6A00F, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73D6A001, 0x73D6A010, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D6A001, 0x73D6A011, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D6A001, 0x73D6A012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x73D6A001, 0x73D6A013, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73D6A001, 0x73D6A014, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73D6A001, 0x73D6A015, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x73D6A001, 0x73D6A002, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73D6A001, 0x73D6A003, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73D6A001, 0x73D6A004, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73D6A001, 0x73D6A005, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73D6A001, 0x73D6A006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73D6A001, 0x73D6A007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73D6A001, 0x73D6A008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73D6A001, 0x73D6A009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73D6A001, 0x73D6A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x73D6A001, 0x73D6A00B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73D6A001, 0x73D6A00C, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73D6A001, 0x73D6A00D, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x73D6A001, 0x73D6A00E, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x73D6A001, 0x73D6A00F, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73D6A001, 0x73D6A010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D6A001, 0x73D6A011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D6A001, 0x73D6A012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x73D6A001, 0x73D6A013, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73D6A001, 0x73D6A014, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73D6A001, 0x73D6A015, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D6A002, 41535, 0x3D6A0003, 7.721091, 70.14536, 86.72065, 0.9991993, 0, 0, -0.0400099,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */

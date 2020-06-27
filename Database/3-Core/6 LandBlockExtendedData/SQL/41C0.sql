@@ -5,14 +5,14 @@ VALUES (0x741C0001,  1154, 0x41C0003E, 184.176, 133.3725, 0.006500006, -0.748129
 /* @teleloc 0x41C0003E [184.176000 133.372500 0.006500] -0.748130 0.000000 0.000000 -0.663553 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741C0001, 0x741C0002, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x741C0001, 0x741C0003, '2019-02-10 00:00:00') /* Static */
-     , (0x741C0001, 0x741C0004, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x741C0001, 0x741C0005, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x741C0001, 0x741C0006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x741C0001, 0x741C0007, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x741C0001, 0x741C0008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x741C0001, 0x741C0009, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x741C0001, 0x741C0002, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x741C0001, 0x741C0003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x741C0001, 0x741C0004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x741C0001, 0x741C0005, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x741C0001, 0x741C0006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x741C0001, 0x741C0007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x741C0001, 0x741C0008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x741C0001, 0x741C0009, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741C0002,  6380, 0x41C0003E, 184.176, 133.3725, 0.006500006, -0.7481296, 0, 0, -0.6635526,  True, '2019-02-10 00:00:00'); /* Scintilla */

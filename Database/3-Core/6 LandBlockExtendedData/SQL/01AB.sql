@@ -25,40 +25,40 @@ VALUES (0x701AB027,  1154, 0x01AB0149, 53.55269, 0.8325801, 0.00999999, 0.707107
 /* @teleloc 0x01AB0149 [53.552690 0.832580 0.010000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AB027, 0x701AB028, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB029, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB02A, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB02B, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB02C, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB02D, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB02E, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB02F, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x701AB027, 0x701AB030, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x701AB027, 0x701AB031, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB032, '2019-02-10 00:00:00') /* Gotrok Amploth */
-     , (0x701AB027, 0x701AB033, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB034, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x701AB027, 0x701AB035, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB036, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB037, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB038, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB039, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB03A, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB03B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB03C, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB03D, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB03E, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB03F, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB040, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB041, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB042, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x701AB027, 0x701AB043, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x701AB027, 0x701AB044, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB045, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x701AB027, 0x701AB046, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB047, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x701AB027, 0x701AB048, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x701AB027, 0x701AB049, '2019-02-10 00:00:00') /* Gotrok Lithos */;
+VALUES (0x701AB027, 0x701AB028, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB029, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB02A, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB02B, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB02C, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB02D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB02E, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB02F, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x701AB027, 0x701AB030, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701AB027, 0x701AB031, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB032, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x701AB027, 0x701AB033, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB034, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701AB027, 0x701AB035, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB036, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB037, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB038, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB039, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB03A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB03B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB03C, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB03D, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB03E, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB03F, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB040, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB041, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB042, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x701AB027, 0x701AB043, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x701AB027, 0x701AB044, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB045, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x701AB027, 0x701AB046, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB047, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x701AB027, 0x701AB048, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x701AB027, 0x701AB049, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AB028, 24941, 0x01AB0149, 53.55269, 0.8325801, 0.00999999, 0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
@@ -201,13 +201,13 @@ VALUES (0x701AB04A,  1542, 0x01AB0148, 42.52489, -131.0891, -0.004999995, 0.7071
 /* @teleloc 0x01AB0148 [42.524890 -131.089100 -0.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701AB04A, 0x701AB04B, '2019-02-10 00:00:00') /* Shirt */
-     , (0x701AB04A, 0x701AB04C, '2019-02-10 00:00:00') /* Turban */
-     , (0x701AB04A, 0x701AB04D, '2019-02-10 00:00:00') /* Iron Scarab */
-     , (0x701AB04A, 0x701AB04E, '2019-02-10 00:00:00') /* Slippers */
-     , (0x701AB04A, 0x701AB04F, '2019-02-10 00:00:00') /* Jerkin */
-     , (0x701AB04A, 0x701AB050, '2019-02-10 00:00:00') /* Breeches */
-     , (0x701AB04A, 0x701AB051, '2019-02-10 00:00:00') /* Iron Scarab */;
+VALUES (0x701AB04A, 0x701AB04B, '2019-02-10 00:00:00') /* Shirt (130) */
+     , (0x701AB04A, 0x701AB04C, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x701AB04A, 0x701AB04D, '2019-02-10 00:00:00') /* Iron Scarab (689) */
+     , (0x701AB04A, 0x701AB04E, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x701AB04A, 0x701AB04F, '2019-02-10 00:00:00') /* Jerkin (124) */
+     , (0x701AB04A, 0x701AB050, '2019-02-10 00:00:00') /* Breeches (117) */
+     , (0x701AB04A, 0x701AB051, '2019-02-10 00:00:00') /* Iron Scarab (689) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701AB04B,   130, 0x01AB0148, 42.52489, -131.0891, -0.004999995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shirt */

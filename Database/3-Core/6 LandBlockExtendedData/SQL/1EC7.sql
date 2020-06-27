@@ -5,19 +5,19 @@ VALUES (0x71EC7001,  1154, 0x1EC7002B, 126.2035, 53.0154, 27.68406, -0.389042, 0
 /* @teleloc 0x1EC7002B [126.203500 53.015400 27.684060] -0.389042 0.000000 0.000000 -0.921220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC7001, 0x71EC7002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71EC7001, 0x71EC7003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71EC7001, 0x71EC7004, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC7001, 0x71EC7005, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC7001, 0x71EC7006, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71EC7001, 0x71EC7007, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71EC7001, 0x71EC7008, '2019-02-10 00:00:00') /* Badlands Siraluun */
-     , (0x71EC7001, 0x71EC7009, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x71EC7001, 0x71EC700A, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC7001, 0x71EC700B, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC7001, 0x71EC700C, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC7001, 0x71EC700D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71EC7001, 0x71EC700E, '2019-02-10 00:00:00') /* Savage Carenzi */;
+VALUES (0x71EC7001, 0x71EC7002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71EC7001, 0x71EC7003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x71EC7001, 0x71EC7004, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC7001, 0x71EC7005, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC7001, 0x71EC7006, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71EC7001, 0x71EC7007, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71EC7001, 0x71EC7008, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71EC7001, 0x71EC7009, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x71EC7001, 0x71EC700A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC7001, 0x71EC700B, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC7001, 0x71EC700C, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC7001, 0x71EC700D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71EC7001, 0x71EC700E, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC7002, 27711, 0x1EC7002B, 126.2035, 53.0154, 27.68406, -0.389042, 0, 0, -0.92122,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
@@ -76,8 +76,8 @@ VALUES (0x71EC700F,  1542, 0x1EC7002F, 141.2466, 161.6673, 21.44506, 0.9208036, 
 /* @teleloc 0x1EC7002F [141.246600 161.667300 21.445060] 0.920804 0.000000 0.000000 -0.390027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71EC700F, 0x71EC7010, '2019-02-10 00:00:00') /* Atuakeh Plant */
-     , (0x71EC700F, 0x71EC7011, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */;
+VALUES (0x71EC700F, 0x71EC7010, '2019-02-10 00:00:00') /* Atuakeh Plant (36066) */
+     , (0x71EC700F, 0x71EC7011, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EC7010, 36066, 0x1EC7002F, 141.2466, 161.6673, 21.44506, 0.9208036, 0, 0, -0.3900265,  True, '2019-02-10 00:00:00'); /* Atuakeh Plant */

@@ -5,11 +5,11 @@ VALUES (0x7A354001,  1154, 0xA3540032, 153.4458, 37.46561, 67.9454, -0.9998434, 
 /* @teleloc 0xA3540032 [153.445800 37.465610 67.945400] -0.999843 0.000000 0.000000 -0.017696 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A354001, 0x7A354002, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7A354001, 0x7A354003, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x7A354001, 0x7A354004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A354001, 0x7A354005, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x7A354001, 0x7A354006, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7A354001, 0x7A354002, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A354001, 0x7A354003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A354001, 0x7A354004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A354001, 0x7A354005, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x7A354001, 0x7A354006, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A354002,  8672, 0xA3540032, 153.4458, 37.46561, 67.9454, -0.9998434, 0, 0, -0.01769632,  True, '2019-02-10 00:00:00'); /* Risen Soldier */

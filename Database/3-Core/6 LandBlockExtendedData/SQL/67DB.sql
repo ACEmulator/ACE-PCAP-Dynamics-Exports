@@ -5,9 +5,9 @@ VALUES (0x767DB001,  1154, 0x67DB002F, 131.8262, 164.6421, 213.8219, -0.5429876,
 /* @teleloc 0x67DB002F [131.826200 164.642100 213.821900] -0.542988 0.000000 0.000000 -0.839741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x767DB001, 0x767DB002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x767DB001, 0x767DB003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x767DB001, 0x767DB004, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x767DB001, 0x767DB002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x767DB001, 0x767DB003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x767DB001, 0x767DB004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x767DB002, 28553, 0x67DB002F, 131.8262, 164.6421, 213.8219, -0.5429876, 0, 0, -0.8397408,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

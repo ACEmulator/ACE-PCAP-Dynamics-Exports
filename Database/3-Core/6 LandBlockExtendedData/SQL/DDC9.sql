@@ -5,13 +5,13 @@ VALUES (0x7DDC9001,  1154, 0xDDC90025, 107.1128, 99.33346, 49.03998, 0.9999843, 
 /* @teleloc 0xDDC90025 [107.112800 99.333460 49.039980] 0.999984 0.000000 0.000000 -0.005602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DDC9001, 0x7DDC9002, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7DDC9001, 0x7DDC9003, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC9001, 0x7DDC9004, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC9001, 0x7DDC9005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7DDC9001, 0x7DDC9006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7DDC9001, 0x7DDC9007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7DDC9001, 0x7DDC9008, '2019-02-10 00:00:00') /* Olthoi Soldier */;
+VALUES (0x7DDC9001, 0x7DDC9002, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7DDC9001, 0x7DDC9003, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC9001, 0x7DDC9004, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC9001, 0x7DDC9005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7DDC9001, 0x7DDC9006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7DDC9001, 0x7DDC9007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7DDC9001, 0x7DDC9008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DDC9002,  7090, 0xDDC90025, 107.1128, 99.33346, 49.03998, 0.9999843, 0, 0, -0.00560248,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */

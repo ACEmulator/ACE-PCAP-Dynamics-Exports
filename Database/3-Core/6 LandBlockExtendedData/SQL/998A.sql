@@ -5,13 +5,13 @@ VALUES (0x7998A001,  1154, 0x998A0031, 162.778, 6.69556, 45.57199, 0.9759378, 0,
 /* @teleloc 0x998A0031 [162.778000 6.695560 45.571990] 0.975938 0.000000 0.000000 -0.218049 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7998A001, 0x7998A002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7998A001, 0x7998A003, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7998A001, 0x7998A004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7998A001, 0x7998A005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7998A001, 0x7998A006, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7998A001, 0x7998A007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7998A001, 0x7998A008, '2019-02-10 00:00:00') /* Panumbris Shadow */;
+VALUES (0x7998A001, 0x7998A002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7998A001, 0x7998A003, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7998A001, 0x7998A004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7998A001, 0x7998A005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7998A001, 0x7998A006, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7998A001, 0x7998A007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7998A001, 0x7998A008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7998A002, 22809, 0x998A0031, 162.778, 6.69556, 45.57199, 0.9759378, 0, 0, -0.2180489,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
@@ -46,8 +46,8 @@ VALUES (0x7998A009,  1542, 0x998A001B, 75.07172, 64.23277, 44, 0.9990482, 0, 0, 
 /* @teleloc 0x998A001B [75.071720 64.232770 44.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7998A009, 0x7998A00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7998A009, 0x7998A00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7998A009, 0x7998A00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7998A009, 0x7998A00B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7998A00A,  4179, 0x998A001B, 75.07172, 64.23277, 44, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

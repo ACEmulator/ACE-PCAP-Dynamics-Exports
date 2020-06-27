@@ -5,9 +5,9 @@ VALUES (0x79CCC001,  1154, 0x9CCC0032, 148.4477, 31.36398, 102.7704, 0.7660445, 
 /* @teleloc 0x9CCC0032 [148.447700 31.363980 102.770400] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CCC001, 0x79CCC002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79CCC001, 0x79CCC003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x79CCC001, 0x79CCC004, '2019-02-10 00:00:00') /* Tusker Liberator */;
+VALUES (0x79CCC001, 0x79CCC002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79CCC001, 0x79CCC003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x79CCC001, 0x79CCC004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CCC002,  7096, 0x9CCC0032, 148.4477, 31.36398, 102.7704, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */

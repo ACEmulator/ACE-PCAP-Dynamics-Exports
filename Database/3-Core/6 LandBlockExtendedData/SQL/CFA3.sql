@@ -5,9 +5,9 @@ VALUES (0x7CFA3001,  1154, 0xCFA30026, 115.3328, 135.9056, 21.82874, 0.7660445, 
 /* @teleloc 0xCFA30026 [115.332800 135.905600 21.828740] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA3001, 0x7CFA3002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CFA3001, 0x7CFA3003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CFA3001, 0x7CFA3004, '2019-02-10 00:00:00') /* Naughty Scarecrow */;
+VALUES (0x7CFA3001, 0x7CFA3002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CFA3001, 0x7CFA3003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CFA3001, 0x7CFA3004, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA3002,   195, 0xCFA30026, 115.3328, 135.9056, 21.82874, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -26,8 +26,8 @@ VALUES (0x7CFA3005,  1542, 0xCFA3003E, 179.6392, 139.7076, 11.7647, 1, 0, 0, 0, 
 /* @teleloc 0xCFA3003E [179.639200 139.707600 11.764700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CFA3005, 0x7CFA3006, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CFA3005, 0x7CFA3007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CFA3005, 0x7CFA3006, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CFA3005, 0x7CFA3007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CFA3006,  8232, 0xCFA3003E, 179.6392, 139.7076, 11.7647, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

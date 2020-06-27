@@ -5,180 +5,180 @@ VALUES (0x7B66F001,  1154, 0xB66F000A, 46.893, 37.32178, 39.12015, 0.3052475, 0,
 /* @teleloc 0xB66F000A [46.893000 37.321780 39.120150] 0.305248 0.000000 0.000000 -0.952273 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66F001, 0x7B66F002, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B66F001, 0x7B66F003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F004, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66F001, 0x7B66F005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F006, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F007, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B66F001, 0x7B66F008, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66F001, 0x7B66F009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F00B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F00C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F00D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F00F, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B66F001, 0x7B66F010, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B66F001, 0x7B66F011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F012, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F013, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F014, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B66F001, 0x7B66F015, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F016, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F017, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F018, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F019, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F01A, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B66F001, 0x7B66F01B, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B66F001, 0x7B66F01C, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B66F001, 0x7B66F01D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F01E, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F01F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F020, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F021, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B66F001, 0x7B66F022, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F023, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B66F001, 0x7B66F024, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F025, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F026, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7B66F001, 0x7B66F027, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F028, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66F001, 0x7B66F029, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F02A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F02B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F02C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F02D, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F02E, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B66F001, 0x7B66F02F, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F030, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F031, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F032, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B66F001, 0x7B66F033, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66F001, 0x7B66F034, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F035, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B66F001, 0x7B66F036, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B66F001, 0x7B66F037, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F038, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F039, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F03A, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F03B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B66F001, 0x7B66F03C, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F03D, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66F001, 0x7B66F03E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B66F001, 0x7B66F03F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B66F001, 0x7B66F040, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B66F001, 0x7B66F041, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F042, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7B66F001, 0x7B66F043, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F044, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B66F001, 0x7B66F045, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F046, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B66F001, 0x7B66F047, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F048, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F049, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66F001, 0x7B66F04A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F04B, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F04C, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B66F001, 0x7B66F04D, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7B66F001, 0x7B66F04E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F04F, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F050, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F051, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F052, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F053, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66F001, 0x7B66F054, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F055, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F056, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B66F001, 0x7B66F057, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F058, '2019-02-10 00:00:00') /* Tiofor Ursuin */
-     , (0x7B66F001, 0x7B66F059, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F05A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66F001, 0x7B66F05B, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F05C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F05D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F05E, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66F001, 0x7B66F05F, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F060, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7B66F001, 0x7B66F061, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F062, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F063, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F064, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B66F001, 0x7B66F065, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F066, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B66F001, 0x7B66F067, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F068, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B66F001, 0x7B66F069, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F06A, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B66F001, 0x7B66F06B, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F06C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F06D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B66F001, 0x7B66F06E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F06F, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F070, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B66F001, 0x7B66F071, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F072, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F073, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F074, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B66F001, 0x7B66F075, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F076, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66F001, 0x7B66F077, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F078, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F079, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B66F001, 0x7B66F07A, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B66F001, 0x7B66F07B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B66F001, 0x7B66F07C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B66F001, 0x7B66F07D, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F07E, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F07F, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B66F001, 0x7B66F080, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F081, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F082, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7B66F001, 0x7B66F083, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B66F001, 0x7B66F084, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F085, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B66F001, 0x7B66F086, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7B66F001, 0x7B66F087, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F088, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66F001, 0x7B66F089, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F08A, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F08B, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66F001, 0x7B66F08C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F08D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F08E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F08F, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F090, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7B66F001, 0x7B66F091, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7B66F001, 0x7B66F092, '2019-02-10 00:00:00') /* Spark */
-     , (0x7B66F001, 0x7B66F093, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B66F001, 0x7B66F094, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B66F001, 0x7B66F095, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F096, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F097, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F098, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F099, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7B66F001, 0x7B66F09A, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F09B, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F09C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F09D, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66F001, 0x7B66F09E, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F09F, '2019-02-10 00:00:00') /* Static */
-     , (0x7B66F001, 0x7B66F0A0, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B66F001, 0x7B66F0A1, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7B66F001, 0x7B66F0A2, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B66F001, 0x7B66F0A3, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F0A4, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66F001, 0x7B66F0A5, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B66F001, 0x7B66F0A6, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7B66F001, 0x7B66F0A7, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x7B66F001, 0x7B66F0A8, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7B66F001, 0x7B66F0A9, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B66F001, 0x7B66F0AA, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B66F001, 0x7B66F0AB, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B66F001, 0x7B66F0AC, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7B66F001, 0x7B66F0AD, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B66F001, 0x7B66F0AE, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7B66F001, 0x7B66F0AF, '2019-02-10 00:00:00') /* Reedshark Elder */;
+VALUES (0x7B66F001, 0x7B66F002, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B66F001, 0x7B66F003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66F001, 0x7B66F005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F006, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F007, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B66F001, 0x7B66F008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66F001, 0x7B66F009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F00B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F00C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F00D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F00F, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B66F001, 0x7B66F010, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B66F001, 0x7B66F011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F012, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F014, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B66F001, 0x7B66F015, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F016, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F017, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F018, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F019, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F01A, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B66F001, 0x7B66F01B, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B66F001, 0x7B66F01C, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B66F001, 0x7B66F01D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F01E, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F01F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F020, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F021, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B66F001, 0x7B66F022, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F023, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B66F001, 0x7B66F024, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F025, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F026, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B66F001, 0x7B66F027, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F028, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66F001, 0x7B66F029, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F02A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F02B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F02C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F02D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F02E, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B66F001, 0x7B66F02F, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F030, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F031, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F032, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B66F001, 0x7B66F033, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66F001, 0x7B66F034, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F035, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B66F001, 0x7B66F036, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B66F001, 0x7B66F037, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F038, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F039, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F03A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F03B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B66F001, 0x7B66F03C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F03D, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66F001, 0x7B66F03E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B66F001, 0x7B66F03F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B66F001, 0x7B66F040, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B66F001, 0x7B66F041, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F042, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B66F001, 0x7B66F043, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F044, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B66F001, 0x7B66F045, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F046, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B66F001, 0x7B66F047, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F048, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F049, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66F001, 0x7B66F04A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F04B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F04C, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B66F001, 0x7B66F04D, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B66F001, 0x7B66F04E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F04F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F050, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F051, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F052, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F053, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66F001, 0x7B66F054, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F055, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F056, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B66F001, 0x7B66F057, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F058, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7B66F001, 0x7B66F059, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F05A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66F001, 0x7B66F05B, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F05C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F05D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F05E, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66F001, 0x7B66F05F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F060, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B66F001, 0x7B66F061, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F062, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F063, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F064, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B66F001, 0x7B66F065, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F066, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B66F001, 0x7B66F067, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F068, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B66F001, 0x7B66F069, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F06A, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B66F001, 0x7B66F06B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F06C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F06D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B66F001, 0x7B66F06E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F06F, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F070, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B66F001, 0x7B66F071, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F072, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F073, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F074, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B66F001, 0x7B66F075, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F076, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66F001, 0x7B66F077, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F078, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F079, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B66F001, 0x7B66F07A, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B66F001, 0x7B66F07B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B66F001, 0x7B66F07C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B66F001, 0x7B66F07D, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F07E, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F07F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B66F001, 0x7B66F080, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F081, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F082, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7B66F001, 0x7B66F083, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B66F001, 0x7B66F084, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F085, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7B66F001, 0x7B66F086, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B66F001, 0x7B66F087, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F088, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66F001, 0x7B66F089, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F08A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F08B, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66F001, 0x7B66F08C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F08D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F08E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F08F, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F090, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7B66F001, 0x7B66F091, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B66F001, 0x7B66F092, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7B66F001, 0x7B66F093, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B66F001, 0x7B66F094, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B66F001, 0x7B66F095, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F096, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F097, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F098, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F099, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B66F001, 0x7B66F09A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F09B, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F09C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F09D, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66F001, 0x7B66F09E, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F09F, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7B66F001, 0x7B66F0A0, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B66F001, 0x7B66F0A1, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7B66F001, 0x7B66F0A2, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B66F001, 0x7B66F0A3, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F0A4, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66F001, 0x7B66F0A5, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B66F001, 0x7B66F0A6, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B66F001, 0x7B66F0A7, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7B66F001, 0x7B66F0A8, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7B66F001, 0x7B66F0A9, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B66F001, 0x7B66F0AA, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B66F001, 0x7B66F0AB, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B66F001, 0x7B66F0AC, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B66F001, 0x7B66F0AD, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B66F001, 0x7B66F0AE, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B66F001, 0x7B66F0AF, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66F002,  4132, 0xB66F000A, 46.893, 37.32178, 39.12015, 0.3052475, 0, 0, -0.952273,  True, '2019-02-10 00:00:00'); /* Russet Rat */
@@ -881,105 +881,105 @@ VALUES (0x7B66F0B0,  1542, 0xB66F0024, 100.494, 93.93993, 41.71051, 0.9877784, 0
 /* @teleloc 0xB66F0024 [100.494000 93.939930 41.710510] 0.987778 0.000000 0.000000 -0.155865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66F0B0, 0x7B66F0B1, '2019-02-10 00:00:00') /* Scroll of Frost Bane V */
-     , (0x7B66F0B0, 0x7B66F0B2, '2019-02-10 00:00:00') /* Scroll of Void Magic Mastery Self III */
-     , (0x7B66F0B0, 0x7B66F0B3, '2019-02-10 00:00:00') /* Ring */
-     , (0x7B66F0B0, 0x7B66F0B4, '2019-02-10 00:00:00') /* Trident */
-     , (0x7B66F0B0, 0x7B66F0B5, '2019-02-10 00:00:00') /* Studded Leather Cuirass */
-     , (0x7B66F0B0, 0x7B66F0B6, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Self IV */
-     , (0x7B66F0B0, 0x7B66F0B7, '2019-02-10 00:00:00') /* Aura of Hermetic Link Self III */
-     , (0x7B66F0B0, 0x7B66F0B8, '2019-02-10 00:00:00') /* Hood */
-     , (0x7B66F0B0, 0x7B66F0B9, '2019-02-10 00:00:00') /* Ring */
-     , (0x7B66F0B0, 0x7B66F0BA, '2019-02-10 00:00:00') /* Potion of Healing */
-     , (0x7B66F0B0, 0x7B66F0BB, '2019-02-10 00:00:00') /* Scroll of Hermetic Void V */
-     , (0x7B66F0B0, 0x7B66F0BC, '2019-02-10 00:00:00') /* Shoes */
-     , (0x7B66F0B0, 0x7B66F0BD, '2019-02-10 00:00:00') /* Frost Hammer */
-     , (0x7B66F0B0, 0x7B66F0BE, '2019-02-10 00:00:00') /* Platemail Gauntlets */
-     , (0x7B66F0B0, 0x7B66F0BF, '2019-02-10 00:00:00') /* Light Crossbow */
-     , (0x7B66F0B0, 0x7B66F0C0, '2019-02-10 00:00:00') /* Scalemail Gauntlets */
-     , (0x7B66F0B0, 0x7B66F0C1, '2019-02-10 00:00:00') /* Coalesced Mana */
-     , (0x7B66F0B0, 0x7B66F0C2, '2019-02-10 00:00:00') /* Scalemail Cuirass */
-     , (0x7B66F0B0, 0x7B66F0C3, '2019-02-10 00:00:00') /* Flaming Mace */
-     , (0x7B66F0B0, 0x7B66F0C4, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7B66F0B0, 0x7B66F0C5, '2019-02-10 00:00:00') /* Naginata */
-     , (0x7B66F0B0, 0x7B66F0C6, '2019-02-10 00:00:00') /* Mana Tincture */
-     , (0x7B66F0B0, 0x7B66F0C7, '2019-02-10 00:00:00') /* Platemail Pauldrons */
-     , (0x7B66F0B0, 0x7B66F0C8, '2019-02-10 00:00:00') /* Tower Shield */
-     , (0x7B66F0B0, 0x7B66F0C9, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B66F0B0, 0x7B66F0CA, '2019-02-10 00:00:00') /* Greataxe */
-     , (0x7B66F0B0, 0x7B66F0CB, '2019-02-10 00:00:00') /* Good Lockpick */
-     , (0x7B66F0B0, 0x7B66F0CC, '2019-02-10 00:00:00') /* Chainmail Hauberk */
-     , (0x7B66F0B0, 0x7B66F0CD, '2019-02-10 00:00:00') /* Lightning War Hammer */
-     , (0x7B66F0B0, 0x7B66F0CE, '2019-02-10 00:00:00') /* Electric Trident */
-     , (0x7B66F0B0, 0x7B66F0CF, '2019-02-10 00:00:00') /* Scalemail Greaves */
-     , (0x7B66F0B0, 0x7B66F0D0, '2019-02-10 00:00:00') /* War Hammer */
-     , (0x7B66F0B0, 0x7B66F0D1, '2019-02-10 00:00:00') /* Shirt */
-     , (0x7B66F0B0, 0x7B66F0D2, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B66F0B0, 0x7B66F0D3, '2019-02-10 00:00:00') /* Scroll of Blade Protection Self V */
-     , (0x7B66F0B0, 0x7B66F0D4, '2019-02-10 00:00:00') /* Mana Stone */
-     , (0x7B66F0B0, 0x7B66F0D5, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B66F0B0, 0x7B66F0D6, '2019-02-10 00:00:00') /* Flaming Tofun */
-     , (0x7B66F0B0, 0x7B66F0D7, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7B66F0B0, 0x7B66F0D8, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B66F0B0, 0x7B66F0D9, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B66F0B0, 0x7B66F0DA, '2019-02-10 00:00:00') /* Necklace */
-     , (0x7B66F0B0, 0x7B66F0DB, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B66F0B0, 0x7B66F0DC, '2019-02-10 00:00:00') /* Leather Pants */
-     , (0x7B66F0B0, 0x7B66F0DD, '2019-02-10 00:00:00') /* Khanjar */
-     , (0x7B66F0B0, 0x7B66F0DE, '2019-02-10 00:00:00') /* Scalemail Sleeves */
-     , (0x7B66F0B0, 0x7B66F0DF, '2019-02-10 00:00:00') /* Adept Healing Kit */
-     , (0x7B66F0B0, 0x7B66F0E0, '2019-02-10 00:00:00') /* Studded Leather Bracers */
-     , (0x7B66F0B0, 0x7B66F0E1, '2019-02-10 00:00:00') /* Acid Claw */
-     , (0x7B66F0B0, 0x7B66F0E2, '2019-02-10 00:00:00') /* Acid Pike */
-     , (0x7B66F0B0, 0x7B66F0E3, '2019-02-10 00:00:00') /* Lace Shirt */
-     , (0x7B66F0B0, 0x7B66F0E4, '2019-02-10 00:00:00') /* Studded Leather Greaves */
-     , (0x7B66F0B0, 0x7B66F0E5, '2019-02-10 00:00:00') /* Leather Cap */
-     , (0x7B66F0B0, 0x7B66F0E6, '2019-02-10 00:00:00') /* Budiaq */
-     , (0x7B66F0B0, 0x7B66F0E7, '2019-02-10 00:00:00') /* Stamina Elixir */
-     , (0x7B66F0B0, 0x7B66F0E8, '2019-02-10 00:00:00') /* Baggy Shirt */
-     , (0x7B66F0B0, 0x7B66F0E9, '2019-02-10 00:00:00') /* Encapsulated Spirit */
-     , (0x7B66F0B0, 0x7B66F0EA, '2019-02-10 00:00:00') /* Top */
-     , (0x7B66F0B0, 0x7B66F0EB, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other IV */
-     , (0x7B66F0B0, 0x7B66F0EC, '2019-02-10 00:00:00') /* Chainmail Bracers */
-     , (0x7B66F0B0, 0x7B66F0ED, '2019-02-10 00:00:00') /* Scroll of Strengthen Lock IV */
-     , (0x7B66F0B0, 0x7B66F0EE, '2019-02-10 00:00:00') /* Nabut */
-     , (0x7B66F0B0, 0x7B66F0EF, '2019-02-10 00:00:00') /* Lightning Shashqa */
-     , (0x7B66F0B0, 0x7B66F0F0, '2019-02-10 00:00:00') /* Acid Greataxe */
-     , (0x7B66F0B0, 0x7B66F0F1, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7B66F0B0, 0x7B66F0F2, '2019-02-10 00:00:00') /* Pocket Watch */
-     , (0x7B66F0B0, 0x7B66F0F3, '2019-02-10 00:00:00') /* Long Leather Gauntlets */
-     , (0x7B66F0B0, 0x7B66F0F4, '2019-02-10 00:00:00') /* Lightning Nabut */
-     , (0x7B66F0B0, 0x7B66F0F5, '2019-02-10 00:00:00') /* Leather Cuirass */
-     , (0x7B66F0B0, 0x7B66F0F6, '2019-02-10 00:00:00') /* Hammer */
-     , (0x7B66F0B0, 0x7B66F0F7, '2019-02-10 00:00:00') /* Scroll of Mana Mastery Self III */
-     , (0x7B66F0B0, 0x7B66F0F8, '2019-02-10 00:00:00') /* Studded Leather Boots */
-     , (0x7B66F0B0, 0x7B66F0F9, '2019-02-10 00:00:00') /* Turban */
-     , (0x7B66F0B0, 0x7B66F0FA, '2019-02-10 00:00:00') /* Crown */
-     , (0x7B66F0B0, 0x7B66F0FB, '2019-02-10 00:00:00') /* Scroll of Fire Vulnerability Other V */
-     , (0x7B66F0B0, 0x7B66F0FC, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B66F0B0, 0x7B66F0FD, '2019-02-10 00:00:00') /* Leather Vest */
-     , (0x7B66F0B0, 0x7B66F0FE, '2019-02-10 00:00:00') /* Flaming Greataxe */
-     , (0x7B66F0B0, 0x7B66F0FF, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x7B66F0B0, 0x7B66F100, '2019-02-10 00:00:00') /* Scroll of Fire Protection Self IV */
-     , (0x7B66F0B0, 0x7B66F101, '2019-02-10 00:00:00') /* Scroll of Lure Blade IV */
-     , (0x7B66F0B0, 0x7B66F102, '2019-02-10 00:00:00') /* Scroll of Item Enchantment Mastery Self IV */
-     , (0x7B66F0B0, 0x7B66F103, '2019-02-10 00:00:00') /* Royal Atlatl */
-     , (0x7B66F0B0, 0x7B66F104, '2019-02-10 00:00:00') /* Leather Gauntlets */
-     , (0x7B66F0B0, 0x7B66F105, '2019-02-10 00:00:00') /* Acid Hand Wraps */
-     , (0x7B66F0B0, 0x7B66F106, '2019-02-10 00:00:00') /* Gloves */
-     , (0x7B66F0B0, 0x7B66F107, '2019-02-10 00:00:00') /* Round Shield */
-     , (0x7B66F0B0, 0x7B66F108, '2019-02-10 00:00:00') /* Scroll of Blade Lure V */
-     , (0x7B66F0B0, 0x7B66F109, '2019-02-10 00:00:00') /* Slippers */
-     , (0x7B66F0B0, 0x7B66F10A, '2019-02-10 00:00:00') /* Scroll of Shock Wave IV */
-     , (0x7B66F0B0, 0x7B66F10B, '2019-02-10 00:00:00') /* Acid Knife */
-     , (0x7B66F0B0, 0x7B66F10C, '2019-02-10 00:00:00') /* Baigha */
-     , (0x7B66F0B0, 0x7B66F10D, '2019-02-10 00:00:00') /* Nekode */
-     , (0x7B66F0B0, 0x7B66F10E, '2019-02-10 00:00:00') /* Spadone */
-     , (0x7B66F0B0, 0x7B66F10F, '2019-02-10 00:00:00') /* Compass */
-     , (0x7B66F0B0, 0x7B66F110, '2019-02-10 00:00:00') /* Doublet */
-     , (0x7B66F0B0, 0x7B66F111, '2019-02-10 00:00:00') /* Staff */
-     , (0x7B66F0B0, 0x7B66F112, '2019-02-10 00:00:00') /* Scroll of Health to Mana Self IV */
-     , (0x7B66F0B0, 0x7B66F113, '2019-02-10 00:00:00') /* Health Tincture */;
+VALUES (0x7B66F0B0, 0x7B66F0B1, '2019-02-10 00:00:00') /* Scroll of Frost Bane V (2825) */
+     , (0x7B66F0B0, 0x7B66F0B2, '2019-02-10 00:00:00') /* Scroll of Void Magic Mastery Self III (43369) */
+     , (0x7B66F0B0, 0x7B66F0B3, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7B66F0B0, 0x7B66F0B4, '2019-02-10 00:00:00') /* Trident (7772) */
+     , (0x7B66F0B0, 0x7B66F0B5, '2019-02-10 00:00:00') /* Studded Leather Cuirass (53) */
+     , (0x7B66F0B0, 0x7B66F0B6, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Self IV (28005) */
+     , (0x7B66F0B0, 0x7B66F0B7, '2019-02-10 00:00:00') /* Aura of Hermetic Link Self III (2888) */
+     , (0x7B66F0B0, 0x7B66F0B8, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x7B66F0B0, 0x7B66F0B9, '2019-02-10 00:00:00') /* Ring (297) */
+     , (0x7B66F0B0, 0x7B66F0BA, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7B66F0B0, 0x7B66F0BB, '2019-02-10 00:00:00') /* Scroll of Hermetic Void V (2840) */
+     , (0x7B66F0B0, 0x7B66F0BC, '2019-02-10 00:00:00') /* Shoes (132) */
+     , (0x7B66F0B0, 0x7B66F0BD, '2019-02-10 00:00:00') /* Frost Hammer (45117) */
+     , (0x7B66F0B0, 0x7B66F0BE, '2019-02-10 00:00:00') /* Platemail Gauntlets (57) */
+     , (0x7B66F0B0, 0x7B66F0BF, '2019-02-10 00:00:00') /* Light Crossbow (312) */
+     , (0x7B66F0B0, 0x7B66F0C0, '2019-02-10 00:00:00') /* Scalemail Gauntlets (58) */
+     , (0x7B66F0B0, 0x7B66F0C1, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
+     , (0x7B66F0B0, 0x7B66F0C2, '2019-02-10 00:00:00') /* Scalemail Cuirass (52) */
+     , (0x7B66F0B0, 0x7B66F0C3, '2019-02-10 00:00:00') /* Flaming Mace (3836) */
+     , (0x7B66F0B0, 0x7B66F0C4, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7B66F0B0, 0x7B66F0C5, '2019-02-10 00:00:00') /* Naginata (7771) */
+     , (0x7B66F0B0, 0x7B66F0C6, '2019-02-10 00:00:00') /* Mana Tincture (27322) */
+     , (0x7B66F0B0, 0x7B66F0C7, '2019-02-10 00:00:00') /* Platemail Pauldrons (87) */
+     , (0x7B66F0B0, 0x7B66F0C8, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x7B66F0B0, 0x7B66F0C9, '2019-02-10 00:00:00') /* Gem (2396) */
+     , (0x7B66F0B0, 0x7B66F0CA, '2019-02-10 00:00:00') /* Greataxe (41052) */
+     , (0x7B66F0B0, 0x7B66F0CB, '2019-02-10 00:00:00') /* Good Lockpick (512) */
+     , (0x7B66F0B0, 0x7B66F0CC, '2019-02-10 00:00:00') /* Chainmail Hauberk (71) */
+     , (0x7B66F0B0, 0x7B66F0CD, '2019-02-10 00:00:00') /* Lightning War Hammer (3906) */
+     , (0x7B66F0B0, 0x7B66F0CE, '2019-02-10 00:00:00') /* Electric Trident (7794) */
+     , (0x7B66F0B0, 0x7B66F0CF, '2019-02-10 00:00:00') /* Scalemail Greaves (67) */
+     , (0x7B66F0B0, 0x7B66F0D0, '2019-02-10 00:00:00') /* War Hammer (359) */
+     , (0x7B66F0B0, 0x7B66F0D1, '2019-02-10 00:00:00') /* Shirt (2587) */
+     , (0x7B66F0B0, 0x7B66F0D2, '2019-02-10 00:00:00') /* Gem (2414) */
+     , (0x7B66F0B0, 0x7B66F0D3, '2019-02-10 00:00:00') /* Scroll of Blade Protection Self V (2996) */
+     , (0x7B66F0B0, 0x7B66F0D4, '2019-02-10 00:00:00') /* Mana Stone (2435) */
+     , (0x7B66F0B0, 0x7B66F0D5, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B66F0B0, 0x7B66F0D6, '2019-02-10 00:00:00') /* Flaming Tofun (3899) */
+     , (0x7B66F0B0, 0x7B66F0D7, '2019-02-10 00:00:00') /* Leather Gauntlets (25642) */
+     , (0x7B66F0B0, 0x7B66F0D8, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B66F0B0, 0x7B66F0D9, '2019-02-10 00:00:00') /* Gem (2419) */
+     , (0x7B66F0B0, 0x7B66F0DA, '2019-02-10 00:00:00') /* Necklace (622) */
+     , (0x7B66F0B0, 0x7B66F0DB, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B66F0B0, 0x7B66F0DC, '2019-02-10 00:00:00') /* Leather Pants (25647) */
+     , (0x7B66F0B0, 0x7B66F0DD, '2019-02-10 00:00:00') /* Khanjar (45431) */
+     , (0x7B66F0B0, 0x7B66F0DE, '2019-02-10 00:00:00') /* Scalemail Sleeves (104) */
+     , (0x7B66F0B0, 0x7B66F0DF, '2019-02-10 00:00:00') /* Adept Healing Kit (629) */
+     , (0x7B66F0B0, 0x7B66F0E0, '2019-02-10 00:00:00') /* Studded Leather Bracers (38) */
+     , (0x7B66F0B0, 0x7B66F0E1, '2019-02-10 00:00:00') /* Acid Claw (31785) */
+     , (0x7B66F0B0, 0x7B66F0E2, '2019-02-10 00:00:00') /* Acid Pike (41047) */
+     , (0x7B66F0B0, 0x7B66F0E3, '2019-02-10 00:00:00') /* Lace Shirt (28607) */
+     , (0x7B66F0B0, 0x7B66F0E4, '2019-02-10 00:00:00') /* Studded Leather Greaves (68) */
+     , (0x7B66F0B0, 0x7B66F0E5, '2019-02-10 00:00:00') /* Leather Cap (45) */
+     , (0x7B66F0B0, 0x7B66F0E6, '2019-02-10 00:00:00') /* Budiaq (308) */
+     , (0x7B66F0B0, 0x7B66F0E7, '2019-02-10 00:00:00') /* Stamina Elixir (2470) */
+     , (0x7B66F0B0, 0x7B66F0E8, '2019-02-10 00:00:00') /* Baggy Shirt (2590) */
+     , (0x7B66F0B0, 0x7B66F0E9, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */
+     , (0x7B66F0B0, 0x7B66F0EA, '2019-02-10 00:00:00') /* Top (41488) */
+     , (0x7B66F0B0, 0x7B66F0EB, '2019-02-10 00:00:00') /* Aura of Spirit Drinker Other IV (46871) */
+     , (0x7B66F0B0, 0x7B66F0EC, '2019-02-10 00:00:00') /* Chainmail Bracers (413) */
+     , (0x7B66F0B0, 0x7B66F0ED, '2019-02-10 00:00:00') /* Scroll of Strengthen Lock IV (2879) */
+     , (0x7B66F0B0, 0x7B66F0EE, '2019-02-10 00:00:00') /* Nabut (22163) */
+     , (0x7B66F0B0, 0x7B66F0EF, '2019-02-10 00:00:00') /* Lightning Shashqa (41069) */
+     , (0x7B66F0B0, 0x7B66F0F0, '2019-02-10 00:00:00') /* Acid Greataxe (41053) */
+     , (0x7B66F0B0, 0x7B66F0F1, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7B66F0B0, 0x7B66F0F2, '2019-02-10 00:00:00') /* Pocket Watch (41485) */
+     , (0x7B66F0B0, 0x7B66F0F3, '2019-02-10 00:00:00') /* Long Leather Gauntlets (25646) */
+     , (0x7B66F0B0, 0x7B66F0F4, '2019-02-10 00:00:00') /* Lightning Nabut (22160) */
+     , (0x7B66F0B0, 0x7B66F0F5, '2019-02-10 00:00:00') /* Leather Cuirass (25641) */
+     , (0x7B66F0B0, 0x7B66F0F6, '2019-02-10 00:00:00') /* Hammer (45113) */
+     , (0x7B66F0B0, 0x7B66F0F7, '2019-02-10 00:00:00') /* Scroll of Mana Mastery Self III (3434) */
+     , (0x7B66F0B0, 0x7B66F0F8, '2019-02-10 00:00:00') /* Studded Leather Boots (116) */
+     , (0x7B66F0B0, 0x7B66F0F9, '2019-02-10 00:00:00') /* Turban (135) */
+     , (0x7B66F0B0, 0x7B66F0FA, '2019-02-10 00:00:00') /* Crown (296) */
+     , (0x7B66F0B0, 0x7B66F0FB, '2019-02-10 00:00:00') /* Scroll of Fire Vulnerability Other V (3046) */
+     , (0x7B66F0B0, 0x7B66F0FC, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7B66F0B0, 0x7B66F0FD, '2019-02-10 00:00:00') /* Leather Vest (25638) */
+     , (0x7B66F0B0, 0x7B66F0FE, '2019-02-10 00:00:00') /* Flaming Greataxe (41055) */
+     , (0x7B66F0B0, 0x7B66F0FF, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x7B66F0B0, 0x7B66F100, '2019-02-10 00:00:00') /* Scroll of Fire Protection Self IV (3040) */
+     , (0x7B66F0B0, 0x7B66F101, '2019-02-10 00:00:00') /* Scroll of Lure Blade IV (2864) */
+     , (0x7B66F0B0, 0x7B66F102, '2019-02-10 00:00:00') /* Scroll of Item Enchantment Mastery Self IV (3315) */
+     , (0x7B66F0B0, 0x7B66F103, '2019-02-10 00:00:00') /* Royal Atlatl (20640) */
+     , (0x7B66F0B0, 0x7B66F104, '2019-02-10 00:00:00') /* Leather Gauntlets (25642) */
+     , (0x7B66F0B0, 0x7B66F105, '2019-02-10 00:00:00') /* Acid Hand Wraps (45119) */
+     , (0x7B66F0B0, 0x7B66F106, '2019-02-10 00:00:00') /* Gloves (121) */
+     , (0x7B66F0B0, 0x7B66F107, '2019-02-10 00:00:00') /* Round Shield (93) */
+     , (0x7B66F0B0, 0x7B66F108, '2019-02-10 00:00:00') /* Scroll of Blade Lure V (2780) */
+     , (0x7B66F0B0, 0x7B66F109, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7B66F0B0, 0x7B66F10A, '2019-02-10 00:00:00') /* Scroll of Shock Wave IV (2965) */
+     , (0x7B66F0B0, 0x7B66F10B, '2019-02-10 00:00:00') /* Acid Knife (45417) */
+     , (0x7B66F0B0, 0x7B66F10C, '2019-02-10 00:00:00') /* Baigha (550) */
+     , (0x7B66F0B0, 0x7B66F10D, '2019-02-10 00:00:00') /* Nekode (4195) */
+     , (0x7B66F0B0, 0x7B66F10E, '2019-02-10 00:00:00') /* Spadone (40618) */
+     , (0x7B66F0B0, 0x7B66F10F, '2019-02-10 00:00:00') /* Compass (41483) */
+     , (0x7B66F0B0, 0x7B66F110, '2019-02-10 00:00:00') /* Doublet (2596) */
+     , (0x7B66F0B0, 0x7B66F111, '2019-02-10 00:00:00') /* Staff (2547) */
+     , (0x7B66F0B0, 0x7B66F112, '2019-02-10 00:00:00') /* Scroll of Health to Mana Self IV (9632) */
+     , (0x7B66F0B0, 0x7B66F113, '2019-02-10 00:00:00') /* Health Tincture (27319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66F0B1,  2825, 0xB66F0024, 100.494, 93.93993, 41.71051, 0.9877784, 0, 0, -0.1558651,  True, '2019-02-10 00:00:00'); /* Scroll of Frost Bane V */

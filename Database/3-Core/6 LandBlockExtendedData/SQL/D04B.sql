@@ -5,11 +5,11 @@ VALUES (0x7D04B001,  1154, 0xD04B0004, 2.8434, 78.16341, 84.23695, 0.8433455, 0,
 /* @teleloc 0xD04B0004 [2.843400 78.163410 84.236950] 0.843346 0.000000 0.000000 -0.537372 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D04B001, 0x7D04B002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7D04B001, 0x7D04B003, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7D04B001, 0x7D04B004, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7D04B001, 0x7D04B005, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7D04B001, 0x7D04B006, '2019-02-10 00:00:00') /* Laigus Raider */;
+VALUES (0x7D04B001, 0x7D04B002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7D04B001, 0x7D04B003, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7D04B001, 0x7D04B004, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7D04B001, 0x7D04B005, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7D04B001, 0x7D04B006, '2019-02-10 00:00:00') /* Laigus Raider (8140) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D04B002,  9400, 0xD04B0004, 2.8434, 78.16341, 84.23695, 0.8433455, 0, 0, -0.5373717,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

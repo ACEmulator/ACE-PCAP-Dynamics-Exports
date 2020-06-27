@@ -9,11 +9,11 @@ VALUES (0x78767001,  1154, 0x87670023, 104.1657, 51.48919, 8.689676, 1, 0, 0, 0,
 /* @teleloc 0x87670023 [104.165700 51.489190 8.689676] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78767001, 0x78767002, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x78767001, 0x78767003, '2019-02-10 00:00:00') /* Black Rat */
-     , (0x78767001, 0x78767004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x78767001, 0x78767005, '2019-02-10 00:00:00') /* Greater Mu-miyah */
-     , (0x78767001, 0x78767006, '2019-02-10 00:00:00') /* Charred Skeleton */;
+VALUES (0x78767001, 0x78767002, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78767001, 0x78767003, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x78767001, 0x78767004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x78767001, 0x78767005, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
+     , (0x78767001, 0x78767006, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78767002,   949, 0x87670023, 104.1657, 51.48919, 8.689676, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Red Rat */
@@ -40,7 +40,7 @@ VALUES (0x78767007,  1542, 0x87670032, 159.404, 35.5373, 16.89844, 0.0888629, 0,
 /* @teleloc 0x87670032 [159.404000 35.537300 16.898440] 0.088863 0.000000 0.000000 -0.996044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78767007, 0x78767008, '2019-02-10 00:00:00') /* Foundry of Izexi */;
+VALUES (0x78767007, 0x78767008, '2019-02-10 00:00:00') /* Foundry of Izexi (47155) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78767008, 47155, 0x87670032, 159.404, 35.5373, 16.89844, 0.0888629, 0, 0, -0.9960439,  True, '2019-02-10 00:00:00'); /* Foundry of Izexi */

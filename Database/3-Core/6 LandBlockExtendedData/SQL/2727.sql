@@ -5,8 +5,8 @@ VALUES (0x72727001,  1154, 0x27270025, 100.6444, 111.9253, 20.0065, 0.218695, 0,
 /* @teleloc 0x27270025 [100.644400 111.925300 20.006500] 0.218695 0.000000 0.000000 -0.975793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72727001, 0x72727002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72727001, 0x72727003, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x72727001, 0x72727002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72727001, 0x72727003, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72727002, 23567, 0x27270025, 100.6444, 111.9253, 20.0065, 0.218695, 0, 0, -0.9757932,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */

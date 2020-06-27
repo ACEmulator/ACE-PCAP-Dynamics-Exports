@@ -5,14 +5,14 @@ VALUES (0x7C554001,  1154, 0xC554000A, 27.4593, 26.30497, 18, -0.6627192, 0, 0, 
 /* @teleloc 0xC554000A [27.459300 26.304970 18.000000] -0.662719 0.000000 0.000000 -0.748868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C554001, 0x7C554002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C554001, 0x7C554003, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C554001, 0x7C554004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7C554001, 0x7C554005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7C554001, 0x7C554006, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C554001, 0x7C554007, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C554001, 0x7C554008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C554001, 0x7C554009, '2019-02-10 00:00:00') /* Tusker Crimsonback */;
+VALUES (0x7C554001, 0x7C554002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C554001, 0x7C554003, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C554001, 0x7C554004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7C554001, 0x7C554005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7C554001, 0x7C554006, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C554001, 0x7C554007, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C554001, 0x7C554008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C554001, 0x7C554009, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C554002,     3, 0xC554000A, 27.4593, 26.30497, 18, -0.6627192, 0, 0, -0.748868,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -51,8 +51,8 @@ VALUES (0x7C55400A,  1542, 0xC5540002, 23.14204, 44.71133, 18, 1, 0, 0, 0, False
 /* @teleloc 0xC5540002 [23.142040 44.711330 18.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C55400A, 0x7C55400B, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C55400A, 0x7C55400C, '2019-02-10 00:00:00') /* Strange Stick */;
+VALUES (0x7C55400A, 0x7C55400B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C55400A, 0x7C55400C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C55400B,  4380, 0xC5540002, 23.14204, 44.71133, 18, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

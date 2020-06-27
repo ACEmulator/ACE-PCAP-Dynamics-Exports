@@ -5,14 +5,14 @@ VALUES (0x71470001,  1154, 0x1470003F, 168.8778, 145.8726, 73.46605, 0.6631783, 
 /* @teleloc 0x1470003F [168.877800 145.872600 73.466050] 0.663178 0.000000 0.000000 -0.748461 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71470001, 0x71470002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71470001, 0x71470003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71470001, 0x71470004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71470001, 0x71470005, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71470001, 0x71470006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71470001, 0x71470007, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x71470001, 0x71470008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71470001, 0x71470009, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x71470001, 0x71470002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71470001, 0x71470003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71470001, 0x71470004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71470001, 0x71470005, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71470001, 0x71470006, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71470001, 0x71470007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x71470001, 0x71470008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71470001, 0x71470009, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71470002, 36842, 0x1470003F, 168.8778, 145.8726, 73.46605, 0.6631783, 0, 0, -0.7484614,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */

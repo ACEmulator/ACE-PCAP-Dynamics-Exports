@@ -5,8 +5,8 @@ VALUES (0x79063001,  1154, 0x90630029, 133.7776, 17.40411, 12.27645, 0.2568328, 
 /* @teleloc 0x90630029 [133.777600 17.404110 12.276450] 0.256833 0.000000 0.000000 -0.966456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79063001, 0x79063002, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x79063001, 0x79063003, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x79063001, 0x79063002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x79063001, 0x79063003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79063002, 10770, 0x90630029, 133.7776, 17.40411, 12.27645, 0.2568328, 0, 0, -0.9664559,  True, '2019-02-10 00:00:00'); /* Beaten Doll */

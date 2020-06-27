@@ -5,11 +5,11 @@ VALUES (0x72E85001,  1154, 0x2E850023, 104.3409, 59.93839, 36.24496, 0.03328014,
 /* @teleloc 0x2E850023 [104.340900 59.938390 36.244960] 0.033280 0.000000 0.000000 -0.999446 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E85001, 0x72E85002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E85001, 0x72E85003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72E85001, 0x72E85004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72E85001, 0x72E85005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x72E85001, 0x72E85006, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72E85001, 0x72E85002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72E85001, 0x72E85003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72E85001, 0x72E85004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72E85001, 0x72E85005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72E85001, 0x72E85006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E85002, 23564, 0x2E850023, 104.3409, 59.93839, 36.24496, 0.03328014, 0, 0, -0.999446,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

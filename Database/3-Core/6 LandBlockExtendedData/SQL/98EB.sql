@@ -5,18 +5,18 @@ VALUES (0x798EB001,  1154, 0x98EB001F, 75.9023, 162.5119, 36.78804, 0.9238795, 0
 /* @teleloc 0x98EB001F [75.902300 162.511900 36.788040] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798EB001, 0x798EB002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x798EB001, 0x798EB003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x798EB001, 0x798EB004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x798EB001, 0x798EB005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x798EB001, 0x798EB006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x798EB001, 0x798EB007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x798EB001, 0x798EB008, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x798EB001, 0x798EB009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x798EB001, 0x798EB00A, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x798EB001, 0x798EB00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x798EB001, 0x798EB00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x798EB001, 0x798EB00D, '2019-02-10 00:00:00') /* Terrible Monouga */;
+VALUES (0x798EB001, 0x798EB002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x798EB001, 0x798EB003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x798EB001, 0x798EB004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x798EB001, 0x798EB005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x798EB001, 0x798EB006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x798EB001, 0x798EB007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x798EB001, 0x798EB008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x798EB001, 0x798EB009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x798EB001, 0x798EB00A, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x798EB001, 0x798EB00B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x798EB001, 0x798EB00C, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x798EB001, 0x798EB00D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798EB002,   231, 0x98EB001F, 75.9023, 162.5119, 36.78804, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -71,7 +71,7 @@ VALUES (0x798EB00E,  1542, 0x98EB0004, 7.172506, 74.07753, 34.42458, 0.2818465, 
 /* @teleloc 0x98EB0004 [7.172506 74.077530 34.424580] 0.281847 0.000000 0.000000 -0.959460 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798EB00E, 0x798EB00F, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x798EB00E, 0x798EB00F, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798EB00F, 11554, 0x98EB0004, 7.172506, 74.07753, 34.42458, 0.2818465, 0, 0, -0.9594595,  True, '2019-02-10 00:00:00'); /* Colban Plant */

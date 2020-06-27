@@ -5,11 +5,11 @@ VALUES (0x7D934001,  1154, 0xD9340032, 158.1373, 38.63918, 72.79007, -0.904943, 
 /* @teleloc 0xD9340032 [158.137300 38.639180 72.790070] -0.904943 0.000000 0.000000 -0.425533 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D934001, 0x7D934002, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7D934001, 0x7D934003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D934001, 0x7D934004, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7D934001, 0x7D934005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D934001, 0x7D934006, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7D934001, 0x7D934002, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7D934001, 0x7D934003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D934001, 0x7D934004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7D934001, 0x7D934005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D934001, 0x7D934006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D934002,  8139, 0xD9340032, 158.1373, 38.63918, 72.79007, -0.904943, 0, 0, -0.4255328,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -36,7 +36,7 @@ VALUES (0x7D934007,  1542, 0xD9340009, 31.91594, 6.858823, 68.26427, -0.738969, 
 /* @teleloc 0xD9340009 [31.915940 6.858823 68.264270] -0.738969 0.000000 0.000000 -0.673739 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D934007, 0x7D934008, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7D934007, 0x7D934008, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D934008,  8037, 0xD9340009, 31.91594, 6.858823, 68.26427, -0.738969, 0, 0, -0.6737394,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,19 +5,19 @@ VALUES (0x73637001,  1154, 0x36370036, 166.9285, 122.2625, 52.11421, 0.9238795, 
 /* @teleloc 0x36370036 [166.928500 122.262500 52.114210] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73637001, 0x73637002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x73637001, 0x73637003, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x73637001, 0x73637004, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73637001, 0x73637005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73637001, 0x73637006, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73637001, 0x73637007, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73637001, 0x73637008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73637001, 0x73637009, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x73637001, 0x7363700A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x73637001, 0x7363700B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x73637001, 0x7363700C, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73637001, 0x7363700D, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73637001, 0x7363700E, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x73637001, 0x73637002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73637001, 0x73637003, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x73637001, 0x73637004, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x73637001, 0x73637005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73637001, 0x73637006, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73637001, 0x73637007, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x73637001, 0x73637008, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73637001, 0x73637009, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x73637001, 0x7363700A, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73637001, 0x7363700B, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x73637001, 0x7363700C, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73637001, 0x7363700D, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73637001, 0x7363700E, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73637002, 36845, 0x36370036, 166.9285, 122.2625, 52.11421, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */

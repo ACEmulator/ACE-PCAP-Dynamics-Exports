@@ -9,38 +9,38 @@ VALUES (0x7DC3A006,  1154, 0xDC3A0002, 23.71318, 44.45322, 13.992, 0.9985723, 0,
 /* @teleloc 0xDC3A0002 [23.713180 44.453220 13.992000] 0.998572 0.000000 0.000000 -0.053416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3A006, 0x7DC3A007, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A008, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A009, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A00A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A00B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A00C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A00D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A00E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A00F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A010, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A012, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A013, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A015, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A016, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A017, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A018, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A019, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A01B, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A01C, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A01D, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A01E, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A01F, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A020, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A021, '2019-02-10 00:00:00') /* Brown Rabbit */
-     , (0x7DC3A006, 0x7DC3A022, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A023, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A025, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7DC3A006, 0x7DC3A026, '2019-02-10 00:00:00') /* Brown Rabbit */;
+VALUES (0x7DC3A006, 0x7DC3A007, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A008, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A00A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A00B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A00C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A00D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A00E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A012, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A013, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A019, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A01B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A01C, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A01D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A01E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A01F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A020, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A021, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DC3A006, 0x7DC3A022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A023, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A025, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DC3A006, 0x7DC3A026, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC3A007, 24937, 0xDC3A0002, 23.71318, 44.45322, 13.992, 0.9985723, 0, 0, -0.05341588,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -175,7 +175,7 @@ VALUES (0x7DC3A027,  1154, 0xDC3A0100, 83.4148, 187.428, 6.805, 0.0287517, 0, 0,
 /* @teleloc 0xDC3A0100 [83.414800 187.428000 6.805000] 0.028752 0.000000 0.000000 -0.999587 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC3A027, 0x7DC3A028, '2019-02-10 00:00:00') /* Balthazar, Royal Guardian */;
+VALUES (0x7DC3A027, 0x7DC3A028, '2019-02-10 00:00:00') /* Balthazar, Royal Guardian (15774) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC3A028, 15774, 0xDC3A0100, 83.4148, 187.428, 6.805, 0.0287517, 0, 0, -0.999587,  True, '2019-02-10 00:00:00'); /* Balthazar, Royal Guardian */

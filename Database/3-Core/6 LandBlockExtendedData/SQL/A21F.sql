@@ -9,18 +9,18 @@ VALUES (0x7A21F00F,  1154, 0xA21F0039, 173.197, 21.8614, 524.7229, -0.9880316, 0
 /* @teleloc 0xA21F0039 [173.197000 21.861400 524.722900] -0.988032 0.000000 0.000000 -0.154252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A21F00F, 0x7A21F010, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A21F00F, 0x7A21F011, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7A21F00F, 0x7A21F012, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7A21F00F, 0x7A21F013, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21F00F, 0x7A21F014, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21F00F, 0x7A21F015, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21F00F, 0x7A21F016, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21F00F, 0x7A21F017, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A21F00F, 0x7A21F018, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A21F00F, 0x7A21F019, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7A21F00F, 0x7A21F01A, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7A21F00F, 0x7A21F01B, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x7A21F00F, 0x7A21F010, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21F00F, 0x7A21F011, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7A21F00F, 0x7A21F012, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7A21F00F, 0x7A21F013, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F00F, 0x7A21F014, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F00F, 0x7A21F015, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F00F, 0x7A21F016, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F00F, 0x7A21F017, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A21F00F, 0x7A21F018, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A21F00F, 0x7A21F019, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7A21F00F, 0x7A21F01A, '2019-02-10 00:00:00') /* Tiatus Raider (8137) */
+     , (0x7A21F00F, 0x7A21F01B, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21F010,  8142, 0xA21F0039, 173.197, 21.8614, 524.7229, -0.9880316, 0, 0, -0.1542519,  True, '2019-02-10 00:00:00'); /* Obeloth Raider */

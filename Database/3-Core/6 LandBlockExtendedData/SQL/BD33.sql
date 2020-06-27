@@ -5,9 +5,9 @@ VALUES (0x7BD33001,  1154, 0xBD330024, 96.15583, 83.73911, 72.10255, 0.9190168, 
 /* @teleloc 0xBD330024 [96.155830 83.739110 72.102550] 0.919017 0.000000 0.000000 -0.394218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD33001, 0x7BD33002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BD33001, 0x7BD33003, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BD33001, 0x7BD33004, '2019-02-10 00:00:00') /* Hoary Mattekar */;
+VALUES (0x7BD33001, 0x7BD33002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BD33001, 0x7BD33003, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BD33001, 0x7BD33004, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD33002, 38181, 0xBD330024, 96.15583, 83.73911, 72.10255, 0.9190168, 0, 0, -0.3942184,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */

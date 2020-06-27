@@ -5,9 +5,9 @@ VALUES (0x75ABA001,  1154, 0x5ABA0030, 129.1965, 185.4532, -0.09500003, 0.707106
 /* @teleloc 0x5ABA0030 [129.196500 185.453200 -0.095000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ABA001, 0x75ABA002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75ABA001, 0x75ABA003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x75ABA001, 0x75ABA004, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x75ABA001, 0x75ABA002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75ABA001, 0x75ABA003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x75ABA001, 0x75ABA004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ABA002,  1758, 0x5ABA0030, 129.1965, 185.4532, -0.09500003, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

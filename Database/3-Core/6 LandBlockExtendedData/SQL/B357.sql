@@ -5,13 +5,13 @@ VALUES (0x7B357001,  1154, 0xB357003C, 181.2274, 90.69073, 35.55072, -0.9674936,
 /* @teleloc 0xB357003C [181.227400 90.690730 35.550720] -0.967494 0.000000 0.000000 -0.252896 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B357001, 0x7B357002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B357001, 0x7B357003, '2019-02-10 00:00:00') /* Virindi Master */
-     , (0x7B357001, 0x7B357004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7B357001, 0x7B357005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7B357001, 0x7B357006, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7B357001, 0x7B357007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7B357001, 0x7B357008, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7B357001, 0x7B357002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B357001, 0x7B357003, '2019-02-10 00:00:00') /* Virindi Master (237) */
+     , (0x7B357001, 0x7B357004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B357001, 0x7B357005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B357001, 0x7B357006, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B357001, 0x7B357007, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7B357001, 0x7B357008, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B357002,   226, 0xB357003C, 181.2274, 90.69073, 35.55072, -0.9674936, 0, 0, -0.2528955,  True, '2019-02-10 00:00:00'); /* High Tumerok */

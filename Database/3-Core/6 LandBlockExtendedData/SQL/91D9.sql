@@ -5,13 +5,13 @@ VALUES (0x791D9001,  1154, 0x91D90033, 161.1594, 61.93791, 173.1225, 0.08345561,
 /* @teleloc 0x91D90033 [161.159400 61.937910 173.122500] 0.083456 0.000000 0.000000 -0.996512 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791D9001, 0x791D9002, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x791D9001, 0x791D9003, '2019-02-10 00:00:00') /* Sentient Fragment */
-     , (0x791D9001, 0x791D9004, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x791D9001, 0x791D9005, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x791D9001, 0x791D9006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x791D9001, 0x791D9007, '2019-02-10 00:00:00') /* Frost */
-     , (0x791D9001, 0x791D9008, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x791D9001, 0x791D9002, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x791D9001, 0x791D9003, '2019-02-10 00:00:00') /* Sentient Fragment (11987) */
+     , (0x791D9001, 0x791D9004, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x791D9001, 0x791D9005, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x791D9001, 0x791D9006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x791D9001, 0x791D9007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x791D9001, 0x791D9008, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791D9002, 11478, 0x91D90033, 161.1594, 61.93791, 173.1225, 0.08345561, 0, 0, -0.9965115,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */

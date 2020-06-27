@@ -5,17 +5,17 @@ VALUES (0x71873001,  1154, 0x18730028, 98.34493, 176.354, 153.8284, 0.7071068, 0
 /* @teleloc 0x18730028 [98.344930 176.354000 153.828400] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71873001, 0x71873002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71873001, 0x71873003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71873001, 0x71873004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71873001, 0x71873005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x71873001, 0x71873006, '2019-02-10 00:00:00') /* Enku Zefir */
-     , (0x71873001, 0x71873007, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x71873001, 0x71873008, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x71873001, 0x71873009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71873001, 0x7187300A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71873001, 0x7187300B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x71873001, 0x7187300C, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */;
+VALUES (0x71873001, 0x71873002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71873001, 0x71873003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71873001, 0x71873004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71873001, 0x71873005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71873001, 0x71873006, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
+     , (0x71873001, 0x71873007, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x71873001, 0x71873008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x71873001, 0x71873009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71873001, 0x7187300A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71873001, 0x7187300B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71873001, 0x7187300C, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71873002, 36842, 0x18730028, 98.34493, 176.354, 153.8284, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -66,7 +66,7 @@ VALUES (0x7187300D,  1542, 0x18730028, 102.965, 178.7151, 153.8284, 0.9990482, 0
 /* @teleloc 0x18730028 [102.965000 178.715100 153.828400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7187300D, 0x7187300E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7187300D, 0x7187300E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7187300E,  4179, 0x18730028, 102.965, 178.7151, 153.8284, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,23 +5,23 @@ VALUES (0x721C4001,  1154, 0x21C4003D, 175.2798, 104.1221, 47.89015, -0.9094466,
 /* @teleloc 0x21C4003D [175.279800 104.122100 47.890150] -0.909447 0.000000 0.000000 -0.415821 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x721C4001, 0x721C4002, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x721C4001, 0x721C4003, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x721C4001, 0x721C4004, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C4001, 0x721C4005, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C4001, 0x721C4006, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x721C4001, 0x721C4007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x721C4001, 0x721C4008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x721C4001, 0x721C4009, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x721C4001, 0x721C400A, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x721C4001, 0x721C400B, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C4001, 0x721C400C, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x721C4001, 0x721C400D, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x721C4001, 0x721C400E, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x721C4001, 0x721C400F, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C4001, 0x721C4010, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x721C4001, 0x721C4011, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x721C4001, 0x721C4012, '2019-02-10 00:00:00') /* Viamontian Knight */;
+VALUES (0x721C4001, 0x721C4002, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x721C4001, 0x721C4003, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x721C4001, 0x721C4004, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C4001, 0x721C4005, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C4001, 0x721C4006, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x721C4001, 0x721C4007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x721C4001, 0x721C4008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x721C4001, 0x721C4009, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x721C4001, 0x721C400A, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x721C4001, 0x721C400B, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C4001, 0x721C400C, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x721C4001, 0x721C400D, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x721C4001, 0x721C400E, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x721C4001, 0x721C400F, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C4001, 0x721C4010, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x721C4001, 0x721C4011, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x721C4001, 0x721C4012, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C4002, 28636, 0x21C4003D, 175.2798, 104.1221, 47.89015, -0.9094466, 0, 0, -0.4158207,  True, '2019-02-10 00:00:00'); /* Rabid Eater */

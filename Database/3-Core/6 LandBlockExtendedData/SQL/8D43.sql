@@ -5,14 +5,14 @@ VALUES (0x78D43001,  1154, 0x8D430009, 40.33065, 23.82178, 13.36589, 0.3682814, 
 /* @teleloc 0x8D430009 [40.330650 23.821780 13.365890] 0.368281 0.000000 0.000000 -0.929714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D43001, 0x78D43002, '2019-02-10 00:00:00') /* Ash Gromnie */
-     , (0x78D43001, 0x78D43003, '2019-02-10 00:00:00') /* Marionette */
-     , (0x78D43001, 0x78D43004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x78D43001, 0x78D43005, '2019-02-10 00:00:00') /* Pure One */
-     , (0x78D43001, 0x78D43006, '2019-02-10 00:00:00') /* Pristine Doll */
-     , (0x78D43001, 0x78D43007, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x78D43001, 0x78D43008, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x78D43001, 0x78D43009, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x78D43001, 0x78D43002, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x78D43001, 0x78D43003, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x78D43001, 0x78D43004, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x78D43001, 0x78D43005, '2019-02-10 00:00:00') /* Pure One (11988) */
+     , (0x78D43001, 0x78D43006, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
+     , (0x78D43001, 0x78D43007, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x78D43001, 0x78D43008, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x78D43001, 0x78D43009, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D43002,  1615, 0x8D430009, 40.33065, 23.82178, 13.36589, 0.3682814, 0, 0, -0.9297144,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */

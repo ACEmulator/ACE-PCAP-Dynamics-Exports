@@ -9,27 +9,27 @@ VALUES (0x729F1001,  1154, 0x29F1000A, 32.25039, 30.27923, 30.7958, -0.6942846, 
 /* @teleloc 0x29F1000A [32.250390 30.279230 30.795800] -0.694285 0.000000 0.000000 -0.719701 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x729F1001, 0x729F1002, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x729F1001, 0x729F1003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x729F1001, 0x729F1004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x729F1001, 0x729F1005, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729F1001, 0x729F1006, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x729F1001, 0x729F1007, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x729F1001, 0x729F1008, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x729F1001, 0x729F1009, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x729F1001, 0x729F100A, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x729F1001, 0x729F100B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x729F1001, 0x729F100C, '2019-02-10 00:00:00') /* Vile Ruschk */
-     , (0x729F1001, 0x729F100D, '2019-02-10 00:00:00') /* Arctic Mattekar */
-     , (0x729F1001, 0x729F100E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x729F1001, 0x729F100F, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x729F1001, 0x729F1010, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x729F1001, 0x729F1011, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x729F1001, 0x729F1012, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x729F1001, 0x729F1013, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x729F1001, 0x729F1014, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x729F1001, 0x729F1015, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x729F1001, 0x729F1016, '2019-02-10 00:00:00') /* Nubilous Golem */;
+VALUES (0x729F1001, 0x729F1002, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x729F1001, 0x729F1003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x729F1001, 0x729F1004, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x729F1001, 0x729F1005, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729F1001, 0x729F1006, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729F1001, 0x729F1007, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x729F1001, 0x729F1008, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x729F1001, 0x729F1009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x729F1001, 0x729F100A, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x729F1001, 0x729F100B, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x729F1001, 0x729F100C, '2019-02-10 00:00:00') /* Vile Ruschk (28667) */
+     , (0x729F1001, 0x729F100D, '2019-02-10 00:00:00') /* Arctic Mattekar (29353) */
+     , (0x729F1001, 0x729F100E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729F1001, 0x729F100F, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x729F1001, 0x729F1010, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x729F1001, 0x729F1011, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729F1001, 0x729F1012, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x729F1001, 0x729F1013, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729F1001, 0x729F1014, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729F1001, 0x729F1015, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x729F1001, 0x729F1016, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729F1002, 28667, 0x29F1000A, 32.25039, 30.27923, 30.7958, -0.6942846, 0, 0, -0.7197005,  True, '2019-02-10 00:00:00'); /* Vile Ruschk */

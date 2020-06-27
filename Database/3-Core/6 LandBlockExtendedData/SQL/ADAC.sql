@@ -5,31 +5,31 @@ VALUES (0x7ADAC001,  1154, 0xADAC0011, 63.39749, 21.33262, 88.55125, 0.7372774, 
 /* @teleloc 0xADAC0011 [63.397490 21.332620 88.551250] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADAC001, 0x7ADAC002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAC001, 0x7ADAC003, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAC001, 0x7ADAC004, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7ADAC001, 0x7ADAC005, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ADAC001, 0x7ADAC006, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7ADAC001, 0x7ADAC007, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7ADAC001, 0x7ADAC008, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAC001, 0x7ADAC009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADAC001, 0x7ADAC00A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADAC001, 0x7ADAC00B, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADAC001, 0x7ADAC00C, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADAC001, 0x7ADAC00D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADAC001, 0x7ADAC00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADAC001, 0x7ADAC00F, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ADAC001, 0x7ADAC010, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADAC001, 0x7ADAC011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ADAC001, 0x7ADAC012, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7ADAC001, 0x7ADAC013, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7ADAC001, 0x7ADAC014, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7ADAC001, 0x7ADAC015, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7ADAC001, 0x7ADAC016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADAC001, 0x7ADAC017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ADAC001, 0x7ADAC018, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ADAC001, 0x7ADAC019, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADAC001, 0x7ADAC01A, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7ADAC001, 0x7ADAC002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAC001, 0x7ADAC003, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAC001, 0x7ADAC004, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7ADAC001, 0x7ADAC005, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ADAC001, 0x7ADAC006, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7ADAC001, 0x7ADAC007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7ADAC001, 0x7ADAC008, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAC001, 0x7ADAC009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADAC001, 0x7ADAC00A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADAC001, 0x7ADAC00B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADAC001, 0x7ADAC00C, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADAC001, 0x7ADAC00D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADAC001, 0x7ADAC00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADAC001, 0x7ADAC00F, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7ADAC001, 0x7ADAC010, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADAC001, 0x7ADAC011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ADAC001, 0x7ADAC012, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7ADAC001, 0x7ADAC013, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7ADAC001, 0x7ADAC014, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7ADAC001, 0x7ADAC015, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7ADAC001, 0x7ADAC016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADAC001, 0x7ADAC017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ADAC001, 0x7ADAC018, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ADAC001, 0x7ADAC019, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADAC001, 0x7ADAC01A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADAC002,  4111, 0xADAC0011, 63.39749, 21.33262, 88.55125, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -136,9 +136,9 @@ VALUES (0x7ADAC01B,  1542, 0xADAC003B, 185.8185, 63.2746, 113.7275, 0.4226182, 0
 /* @teleloc 0xADAC003B [185.818500 63.274600 113.727500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADAC01B, 0x7ADAC01C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7ADAC01B, 0x7ADAC01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ADAC01B, 0x7ADAC01E, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7ADAC01B, 0x7ADAC01C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7ADAC01B, 0x7ADAC01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ADAC01B, 0x7ADAC01E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADAC01C,  4380, 0xADAC003B, 185.8185, 63.2746, 113.7275, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Bones */

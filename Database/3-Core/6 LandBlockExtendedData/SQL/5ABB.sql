@@ -5,32 +5,32 @@ VALUES (0x75ABB001,  1154, 0x5ABB003E, 176.5581, 140.886, 0.002499998, 0.7660445
 /* @teleloc 0x5ABB003E [176.558100 140.886000 0.002500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ABB001, 0x75ABB002, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x75ABB001, 0x75ABB003, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75ABB001, 0x75ABB004, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75ABB001, 0x75ABB005, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75ABB001, 0x75ABB006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75ABB001, 0x75ABB007, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75ABB001, 0x75ABB008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x75ABB001, 0x75ABB009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75ABB001, 0x75ABB00A, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75ABB001, 0x75ABB00B, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x75ABB001, 0x75ABB00C, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x75ABB001, 0x75ABB00D, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75ABB001, 0x75ABB00E, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75ABB001, 0x75ABB00F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x75ABB001, 0x75ABB010, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75ABB001, 0x75ABB011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x75ABB001, 0x75ABB012, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ABB001, 0x75ABB013, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ABB001, 0x75ABB014, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x75ABB001, 0x75ABB015, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x75ABB001, 0x75ABB016, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x75ABB001, 0x75ABB017, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75ABB001, 0x75ABB018, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75ABB001, 0x75ABB019, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75ABB001, 0x75ABB01A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x75ABB001, 0x75ABB01B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x75ABB001, 0x75ABB002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x75ABB001, 0x75ABB003, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75ABB001, 0x75ABB004, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75ABB001, 0x75ABB005, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75ABB001, 0x75ABB006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75ABB001, 0x75ABB007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75ABB001, 0x75ABB008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x75ABB001, 0x75ABB009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75ABB001, 0x75ABB00A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75ABB001, 0x75ABB00B, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x75ABB001, 0x75ABB00C, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x75ABB001, 0x75ABB00D, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75ABB001, 0x75ABB00E, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75ABB001, 0x75ABB00F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x75ABB001, 0x75ABB010, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75ABB001, 0x75ABB011, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x75ABB001, 0x75ABB012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ABB001, 0x75ABB013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ABB001, 0x75ABB014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75ABB001, 0x75ABB015, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x75ABB001, 0x75ABB016, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x75ABB001, 0x75ABB017, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75ABB001, 0x75ABB018, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x75ABB001, 0x75ABB019, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75ABB001, 0x75ABB01A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x75ABB001, 0x75ABB01B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ABB002,  7334, 0x5ABB003E, 176.5581, 140.886, 0.002499998, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -141,9 +141,9 @@ VALUES (0x75ABB01C,  1542, 0x5ABB003E, 175.3091, 142.5856, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x5ABB003E [175.309100 142.585600 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75ABB01C, 0x75ABB01D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x75ABB01C, 0x75ABB01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x75ABB01C, 0x75ABB01F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x75ABB01C, 0x75ABB01D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x75ABB01C, 0x75ABB01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x75ABB01C, 0x75ABB01F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75ABB01D, 22571, 0x5ABB003E, 175.3091, 142.5856, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -33,8 +33,8 @@ VALUES (0x78C5800D,  1154, 0x8C58003C, 186.1253, 78.1968, 30.5164, -0.396952, 0,
 /* @teleloc 0x8C58003C [186.125300 78.196800 30.516400] -0.396952 0.000000 0.000000 -0.917839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C5800D, 0x78C5800E, '2019-02-10 00:00:00') /* Desert Rabbit */
-     , (0x78C5800D, 0x78C5800F, '2019-02-10 00:00:00') /* Desert Rabbit */;
+VALUES (0x78C5800D, 0x78C5800E, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78C5800D, 0x78C5800F, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C5800E,  5429, 0x8C58003C, 186.1253, 78.1968, 30.5164, -0.396952, 0, 0, -0.9178393,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -49,7 +49,7 @@ VALUES (0x78C58010,  1154, 0x8C580119, 183.895, 58.562, 30.005, -0.707107, 0, 0,
 /* @teleloc 0x8C580119 [183.895000 58.562000 30.005000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C58010, 0x78C58011, '2019-02-10 00:00:00') /* Nurbaha bint Dah */;
+VALUES (0x78C58010, 0x78C58011, '2019-02-10 00:00:00') /* Nurbaha bint Dah (5153) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C58011,  5153, 0x8C580119, 183.895, 58.562, 30.005, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Nurbaha bint Dah */

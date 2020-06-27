@@ -5,12 +5,12 @@ VALUES (0x7455D001,  1154, 0x455D0005, 4.163836, 99.20969, 37.76796, 0.9411365, 
 /* @teleloc 0x455D0005 [4.163836 99.209690 37.767960] 0.941137 0.000000 0.000000 -0.338027 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455D001, 0x7455D002, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7455D001, 0x7455D003, '2019-02-10 00:00:00') /* Inferno */
-     , (0x7455D001, 0x7455D004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x7455D001, 0x7455D005, '2019-02-10 00:00:00') /* Flare */
-     , (0x7455D001, 0x7455D006, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7455D001, 0x7455D007, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7455D001, 0x7455D002, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7455D001, 0x7455D003, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x7455D001, 0x7455D004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x7455D001, 0x7455D005, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7455D001, 0x7455D006, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7455D001, 0x7455D007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455D002,  5711, 0x455D0005, 4.163836, 99.20969, 37.76796, 0.9411365, 0, 0, -0.3380268,  True, '2019-02-10 00:00:00'); /* Flamma */
@@ -41,7 +41,7 @@ VALUES (0x7455D008,  1542, 0x455D0020, 86.33542, 175.5441, 31.20006, 0.2115823, 
 /* @teleloc 0x455D0020 [86.335420 175.544100 31.200060] 0.211582 0.000000 0.000000 -0.977360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455D008, 0x7455D009, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7455D008, 0x7455D009, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7455D009,  9288, 0x455D0020, 86.33542, 175.5441, 31.20006, 0.2115823, 0, 0, -0.9773602,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

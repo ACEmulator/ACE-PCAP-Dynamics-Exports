@@ -9,11 +9,11 @@ VALUES (0x7A432001,  1154, 0xA432001C, 82.71957, 93.90218, 163.7146, 0.6584276, 
 /* @teleloc 0xA432001C [82.719570 93.902180 163.714600] 0.658428 0.000000 0.000000 -0.752644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A432001, 0x7A432002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A432001, 0x7A432003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A432001, 0x7A432004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7A432001, 0x7A432005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A432001, 0x7A432006, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7A432001, 0x7A432002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A432001, 0x7A432003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A432001, 0x7A432004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7A432001, 0x7A432005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A432001, 0x7A432006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A432002,  7084, 0xA432001C, 82.71957, 93.90218, 163.7146, 0.6584276, 0, 0, -0.7526441,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -40,7 +40,7 @@ VALUES (0x7A432007,  1542, 0xA432001C, 81.49448, 76.42186, 166.1136, 1, 0, 0, 0,
 /* @teleloc 0xA432001C [81.494480 76.421860 166.113600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A432007, 0x7A432008, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7A432007, 0x7A432008, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A432008,  4180, 0xA432001C, 81.49448, 76.42186, 166.1136, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

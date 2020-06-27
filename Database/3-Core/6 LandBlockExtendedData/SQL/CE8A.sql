@@ -5,33 +5,33 @@ VALUES (0x7CE8A001,  1154, 0xCE8A0021, 115.5646, 22.53307, 26.37727, 0.7050987, 
 /* @teleloc 0xCE8A0021 [115.564600 22.533070 26.377270] 0.705099 0.000000 0.000000 -0.709109 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE8A001, 0x7CE8A002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7CE8A001, 0x7CE8A003, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CE8A001, 0x7CE8A004, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7CE8A001, 0x7CE8A005, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7CE8A001, 0x7CE8A006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE8A001, 0x7CE8A007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE8A001, 0x7CE8A008, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CE8A001, 0x7CE8A009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CE8A001, 0x7CE8A00A, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7CE8A001, 0x7CE8A00B, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7CE8A001, 0x7CE8A00C, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7CE8A001, 0x7CE8A00D, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CE8A001, 0x7CE8A00E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CE8A001, 0x7CE8A00F, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7CE8A001, 0x7CE8A010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7CE8A001, 0x7CE8A011, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7CE8A001, 0x7CE8A012, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE8A001, 0x7CE8A013, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE8A001, 0x7CE8A014, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7CE8A001, 0x7CE8A015, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7CE8A001, 0x7CE8A016, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7CE8A001, 0x7CE8A017, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7CE8A001, 0x7CE8A018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7CE8A001, 0x7CE8A019, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7CE8A001, 0x7CE8A01A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7CE8A001, 0x7CE8A01B, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7CE8A001, 0x7CE8A01C, '2019-02-10 00:00:00') /* Tumerok Fighter */;
+VALUES (0x7CE8A001, 0x7CE8A002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7CE8A001, 0x7CE8A003, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CE8A001, 0x7CE8A004, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7CE8A001, 0x7CE8A005, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7CE8A001, 0x7CE8A006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE8A001, 0x7CE8A007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE8A001, 0x7CE8A008, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CE8A001, 0x7CE8A009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CE8A001, 0x7CE8A00A, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7CE8A001, 0x7CE8A00B, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7CE8A001, 0x7CE8A00C, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7CE8A001, 0x7CE8A00D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CE8A001, 0x7CE8A00E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CE8A001, 0x7CE8A00F, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7CE8A001, 0x7CE8A010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7CE8A001, 0x7CE8A011, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7CE8A001, 0x7CE8A012, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE8A001, 0x7CE8A013, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE8A001, 0x7CE8A014, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7CE8A001, 0x7CE8A015, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7CE8A001, 0x7CE8A016, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7CE8A001, 0x7CE8A017, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7CE8A001, 0x7CE8A018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7CE8A001, 0x7CE8A019, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7CE8A001, 0x7CE8A01A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7CE8A001, 0x7CE8A01B, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7CE8A001, 0x7CE8A01C, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE8A002,   182, 0xCE8A0021, 115.5646, 22.53307, 26.37727, 0.7050987, 0, 0, -0.7091091,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -146,12 +146,12 @@ VALUES (0x7CE8A01D,  1542, 0xCE8A003E, 176.0251, 126.6773, 26, 0.9990482, 0, 0, 
 /* @teleloc 0xCE8A003E [176.025100 126.677300 26.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE8A01D, 0x7CE8A01E, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7CE8A01D, 0x7CE8A01F, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CE8A01D, 0x7CE8A020, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CE8A01D, 0x7CE8A021, '2019-02-10 00:00:00') /* Pile of Long Sticks */
-     , (0x7CE8A01D, 0x7CE8A022, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7CE8A01D, 0x7CE8A023, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7CE8A01D, 0x7CE8A01E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CE8A01D, 0x7CE8A01F, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7CE8A01D, 0x7CE8A020, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7CE8A01D, 0x7CE8A021, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */
+     , (0x7CE8A01D, 0x7CE8A022, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7CE8A01D, 0x7CE8A023, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE8A01E,  4179, 0xCE8A003E, 176.0251, 126.6773, 26, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

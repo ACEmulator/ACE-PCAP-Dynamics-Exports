@@ -5,39 +5,39 @@ VALUES (0x73DCB001,  1154, 0x3DCB002E, 122.2423, 124.0986, 2.005, -0.8799747, 0,
 /* @teleloc 0x3DCB002E [122.242300 124.098600 2.005000] -0.879975 0.000000 0.000000 -0.475021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCB001, 0x73DCB002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73DCB001, 0x73DCB003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DCB001, 0x73DCB004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DCB001, 0x73DCB005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB006, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB007, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCB001, 0x73DCB009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x73DCB001, 0x73DCB00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCB001, 0x73DCB00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCB001, 0x73DCB00C, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73DCB001, 0x73DCB00D, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73DCB001, 0x73DCB00E, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DCB001, 0x73DCB00F, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DCB001, 0x73DCB010, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73DCB001, 0x73DCB011, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73DCB001, 0x73DCB012, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73DCB001, 0x73DCB013, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB014, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB015, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73DCB001, 0x73DCB016, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCB001, 0x73DCB017, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73DCB001, 0x73DCB018, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73DCB001, 0x73DCB019, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73DCB001, 0x73DCB01A, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73DCB001, 0x73DCB01B, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73DCB001, 0x73DCB01C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73DCB001, 0x73DCB01D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73DCB001, 0x73DCB01E, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73DCB001, 0x73DCB01F, '2019-02-10 00:00:00') /* Caustic */
-     , (0x73DCB001, 0x73DCB020, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73DCB001, 0x73DCB021, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73DCB001, 0x73DCB022, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x73DCB001, 0x73DCB002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73DCB001, 0x73DCB003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DCB001, 0x73DCB004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DCB001, 0x73DCB005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB006, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB007, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCB001, 0x73DCB009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x73DCB001, 0x73DCB00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCB001, 0x73DCB00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCB001, 0x73DCB00C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73DCB001, 0x73DCB00D, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73DCB001, 0x73DCB00E, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DCB001, 0x73DCB00F, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DCB001, 0x73DCB010, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x73DCB001, 0x73DCB011, '2019-02-10 00:00:00') /* Armored Skeleton (24313) */
+     , (0x73DCB001, 0x73DCB012, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73DCB001, 0x73DCB013, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB014, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB015, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73DCB001, 0x73DCB016, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73DCB001, 0x73DCB017, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73DCB001, 0x73DCB018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73DCB001, 0x73DCB019, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73DCB001, 0x73DCB01A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73DCB001, 0x73DCB01B, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73DCB001, 0x73DCB01C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73DCB001, 0x73DCB01D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73DCB001, 0x73DCB01E, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73DCB001, 0x73DCB01F, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x73DCB001, 0x73DCB020, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x73DCB001, 0x73DCB021, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x73DCB001, 0x73DCB022, '2019-02-10 00:00:00') /* Coral Golem (7626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCB002, 23564, 0x3DCB002E, 122.2423, 124.0986, 2.005, -0.8799747, 0, 0, -0.4750206,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
@@ -176,7 +176,7 @@ VALUES (0x73DCB023,  1542, 0x3DCB0032, 166.4567, 35.8867, 2, -4.371139E-08, 0, 0
 /* @teleloc 0x3DCB0032 [166.456700 35.886700 2.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73DCB023, 0x73DCB024, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73DCB023, 0x73DCB024, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73DCB024,  4380, 0x3DCB0032, 166.4567, 35.8867, 2, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

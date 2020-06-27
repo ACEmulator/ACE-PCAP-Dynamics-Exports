@@ -5,11 +5,11 @@ VALUES (0x7E15F001,  1154, 0xE15F0021, 110.5142, 14.44375, 0.7976316, -0.8044432
 /* @teleloc 0xE15F0021 [110.514200 14.443750 0.797632] -0.804443 0.000000 0.000000 -0.594030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E15F001, 0x7E15F002, '2019-02-10 00:00:00') /* Master of the Swamp */
-     , (0x7E15F001, 0x7E15F003, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7E15F001, 0x7E15F004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E15F001, 0x7E15F005, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7E15F001, 0x7E15F006, '2019-02-10 00:00:00') /* Sewer Rat */;
+VALUES (0x7E15F001, 0x7E15F002, '2019-02-10 00:00:00') /* Master of the Swamp (12007) */
+     , (0x7E15F001, 0x7E15F003, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7E15F001, 0x7E15F004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E15F001, 0x7E15F005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7E15F001, 0x7E15F006, '2019-02-10 00:00:00') /* Sewer Rat (7106) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E15F002, 12007, 0xE15F0021, 110.5142, 14.44375, 0.7976316, -0.8044432, 0, 0, -0.5940295,  True, '2019-02-10 00:00:00'); /* Master of the Swamp */

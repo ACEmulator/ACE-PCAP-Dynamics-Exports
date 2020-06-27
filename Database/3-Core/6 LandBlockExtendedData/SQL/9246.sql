@@ -5,8 +5,8 @@ VALUES (0x79246001,  1154, 0x92460005, 6.158752, 96.43768, 13.02896, 0.9332756, 
 /* @teleloc 0x92460005 [6.158752 96.437680 13.028960] 0.933276 0.000000 0.000000 -0.359161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79246001, 0x79246002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion */
-     , (0x79246001, 0x79246003, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x79246001, 0x79246002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x79246001, 0x79246003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79246002, 38179, 0x92460005, 6.158752, 96.43768, 13.02896, 0.9332756, 0, 0, -0.359161,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */

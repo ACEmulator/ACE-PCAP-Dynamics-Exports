@@ -5,13 +5,13 @@ VALUES (0x75FD7001,  1154, 0x5FD70002, 3.562054, 40.63169, 203.1994, -0.747977, 
 /* @teleloc 0x5FD70002 [3.562054 40.631690 203.199400] -0.747977 0.000000 0.000000 -0.663725 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FD7001, 0x75FD7002, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x75FD7001, 0x75FD7003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75FD7001, 0x75FD7004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75FD7001, 0x75FD7005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x75FD7001, 0x75FD7006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75FD7001, 0x75FD7007, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x75FD7001, 0x75FD7008, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x75FD7001, 0x75FD7002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x75FD7001, 0x75FD7003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x75FD7001, 0x75FD7004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x75FD7001, 0x75FD7005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x75FD7001, 0x75FD7006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x75FD7001, 0x75FD7007, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x75FD7001, 0x75FD7008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FD7002, 36844, 0x5FD70002, 3.562054, 40.63169, 203.1994, -0.747977, 0, 0, -0.6637247,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */

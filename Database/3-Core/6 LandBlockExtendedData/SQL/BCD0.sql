@@ -5,71 +5,71 @@ VALUES (0x7BCD0001,  1154, 0xBCD0003E, 177.2339, 121.4943, 110.7477, 0.5592321, 
 /* @teleloc 0xBCD0003E [177.233900 121.494300 110.747700] 0.559232 0.000000 0.000000 -0.829011 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD0001, 0x7BCD0002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD0001, 0x7BCD0003, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BCD0001, 0x7BCD0004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD0001, 0x7BCD0005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BCD0001, 0x7BCD0006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD0007, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD0001, 0x7BCD0008, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x7BCD0001, 0x7BCD0009, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD000A, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7BCD0001, 0x7BCD000B, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BCD0001, 0x7BCD000C, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD000D, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD000E, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD000F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD0010, '2019-02-10 00:00:00') /* Tumerok Taskmaster */
-     , (0x7BCD0001, 0x7BCD0011, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD0012, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD0013, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BCD0001, 0x7BCD0014, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD0015, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BCD0001, 0x7BCD0016, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BCD0001, 0x7BCD0017, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BCD0001, 0x7BCD0018, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD0019, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD001A, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BCD0001, 0x7BCD001B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD001C, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD001D, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BCD0001, 0x7BCD001E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD0001, 0x7BCD001F, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD0001, 0x7BCD0020, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BCD0001, 0x7BCD0021, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BCD0001, 0x7BCD0022, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD0001, 0x7BCD0023, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD0001, 0x7BCD0024, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD0001, 0x7BCD0025, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD0001, 0x7BCD0026, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BCD0001, 0x7BCD0027, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x7BCD0001, 0x7BCD0028, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD0029, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD002A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BCD0001, 0x7BCD002B, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7BCD0001, 0x7BCD002C, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7BCD0001, 0x7BCD002D, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BCD0001, 0x7BCD002E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BCD0001, 0x7BCD002F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BCD0001, 0x7BCD0030, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BCD0001, 0x7BCD0031, '2019-02-10 00:00:00') /* Fire Shreth */
-     , (0x7BCD0001, 0x7BCD0032, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BCD0001, 0x7BCD0033, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BCD0001, 0x7BCD0034, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BCD0001, 0x7BCD0035, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BCD0001, 0x7BCD0036, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BCD0001, 0x7BCD0037, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BCD0001, 0x7BCD0038, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BCD0001, 0x7BCD0039, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BCD0001, 0x7BCD003A, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD0001, 0x7BCD003B, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x7BCD0001, 0x7BCD003C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7BCD0001, 0x7BCD003D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BCD0001, 0x7BCD003E, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BCD0001, 0x7BCD003F, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BCD0001, 0x7BCD0040, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7BCD0001, 0x7BCD0041, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7BCD0001, 0x7BCD0042, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x7BCD0001, 0x7BCD0002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD0001, 0x7BCD0003, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BCD0001, 0x7BCD0004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD0001, 0x7BCD0005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BCD0001, 0x7BCD0006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD0007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD0001, 0x7BCD0008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x7BCD0001, 0x7BCD0009, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD000A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BCD0001, 0x7BCD000B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BCD0001, 0x7BCD000C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD000D, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD000E, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD000F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD0010, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BCD0001, 0x7BCD0011, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD0012, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD0013, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BCD0001, 0x7BCD0014, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD0015, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BCD0001, 0x7BCD0016, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BCD0001, 0x7BCD0017, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BCD0001, 0x7BCD0018, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD0019, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD001A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BCD0001, 0x7BCD001B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD001C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD001D, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BCD0001, 0x7BCD001E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD0001, 0x7BCD001F, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD0001, 0x7BCD0020, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BCD0001, 0x7BCD0021, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BCD0001, 0x7BCD0022, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD0001, 0x7BCD0023, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD0001, 0x7BCD0024, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD0001, 0x7BCD0025, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD0001, 0x7BCD0026, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD0001, 0x7BCD0027, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x7BCD0001, 0x7BCD0028, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD0029, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD002A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BCD0001, 0x7BCD002B, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7BCD0001, 0x7BCD002C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BCD0001, 0x7BCD002D, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BCD0001, 0x7BCD002E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BCD0001, 0x7BCD002F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BCD0001, 0x7BCD0030, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BCD0001, 0x7BCD0031, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BCD0001, 0x7BCD0032, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BCD0001, 0x7BCD0033, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BCD0001, 0x7BCD0034, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BCD0001, 0x7BCD0035, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BCD0001, 0x7BCD0036, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BCD0001, 0x7BCD0037, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BCD0001, 0x7BCD0038, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BCD0001, 0x7BCD0039, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BCD0001, 0x7BCD003A, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD0001, 0x7BCD003B, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x7BCD0001, 0x7BCD003C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7BCD0001, 0x7BCD003D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BCD0001, 0x7BCD003E, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BCD0001, 0x7BCD003F, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BCD0001, 0x7BCD0040, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7BCD0001, 0x7BCD0041, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD0001, 0x7BCD0042, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD0002,  4255, 0xBCD0003E, 177.2339, 121.4943, 110.7477, 0.5592321, 0, 0, -0.8290112,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -336,9 +336,9 @@ VALUES (0x7BCD0043,  1542, 0xBCD00033, 163.6507, 52.6156, 104.1063, 0.303572, 0,
 /* @teleloc 0xBCD00033 [163.650700 52.615600 104.106300] 0.303572 0.000000 0.000000 -0.952809 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD0043, 0x7BCD0044, '2019-02-10 00:00:00') /* Hennacin Plant */
-     , (0x7BCD0043, 0x7BCD0045, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BCD0043, 0x7BCD0046, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BCD0043, 0x7BCD0044, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7BCD0043, 0x7BCD0045, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BCD0043, 0x7BCD0046, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD0044,  8039, 0xBCD00033, 163.6507, 52.6156, 104.1063, 0.303572, 0, 0, -0.9528085,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */

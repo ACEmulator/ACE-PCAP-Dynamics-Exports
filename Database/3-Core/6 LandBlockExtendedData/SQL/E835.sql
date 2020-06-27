@@ -5,23 +5,23 @@ VALUES (0x7E835001,  1154, 0xE8350012, 55.31726, 30.13657, 3.296438, -0.9998534,
 /* @teleloc 0xE8350012 [55.317260 30.136570 3.296438] -0.999853 0.000000 0.000000 0.017120 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E835001, 0x7E835002, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E835001, 0x7E835003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7E835001, 0x7E835004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E835001, 0x7E835005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7E835001, 0x7E835006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7E835001, 0x7E835007, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7E835001, 0x7E835008, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E835001, 0x7E835009, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E835001, 0x7E83500A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7E835001, 0x7E83500B, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E835001, 0x7E83500C, '2019-02-10 00:00:00') /* Shore Armoredillo */
-     , (0x7E835001, 0x7E83500D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E835001, 0x7E83500E, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7E835001, 0x7E83500F, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7E835001, 0x7E835010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7E835001, 0x7E835011, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7E835001, 0x7E835012, '2019-02-10 00:00:00') /* Shallows Destroyer */;
+VALUES (0x7E835001, 0x7E835002, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E835001, 0x7E835003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7E835001, 0x7E835004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E835001, 0x7E835005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7E835001, 0x7E835006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7E835001, 0x7E835007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7E835001, 0x7E835008, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E835001, 0x7E835009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E835001, 0x7E83500A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7E835001, 0x7E83500B, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E835001, 0x7E83500C, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7E835001, 0x7E83500D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E835001, 0x7E83500E, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7E835001, 0x7E83500F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7E835001, 0x7E835010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7E835001, 0x7E835011, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7E835001, 0x7E835012, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E835002,  4246, 0xE8350012, 55.31726, 30.13657, 3.296438, -0.9998534, 0, 0, 0.01712029,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
@@ -96,7 +96,7 @@ VALUES (0x7E835013,  1542, 0xE835001B, 86.01964, 69.42383, -3.72529E-09, 1, 0, 0
 /* @teleloc 0xE835001B [86.019640 69.423830 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E835013, 0x7E835014, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E835013, 0x7E835014, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E835014,  4379, 0xE835001B, 86.01964, 69.42383, -3.72529E-09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

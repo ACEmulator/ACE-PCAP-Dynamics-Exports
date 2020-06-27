@@ -9,15 +9,15 @@ VALUES (0x734F7001,  1154, 0x34F70024, 110.118, 92.45003, -0.4474001, -0.7843198
 /* @teleloc 0x34F70024 [110.118000 92.450030 -0.447400] -0.784320 0.000000 0.000000 -0.620357 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x734F7001, 0x734F7002, '2019-02-10 00:00:00') /* Polar Ursuin */
-     , (0x734F7001, 0x734F7003, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x734F7001, 0x734F7004, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x734F7001, 0x734F7005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x734F7001, 0x734F7006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x734F7001, 0x734F7007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x734F7001, 0x734F7008, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x734F7001, 0x734F7009, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x734F7001, 0x734F700A, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x734F7001, 0x734F7002, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
+     , (0x734F7001, 0x734F7003, '2019-02-10 00:00:00') /* Exploration Marker (39814) */
+     , (0x734F7001, 0x734F7004, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x734F7001, 0x734F7005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x734F7001, 0x734F7006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x734F7001, 0x734F7007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x734F7001, 0x734F7008, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x734F7001, 0x734F7009, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x734F7001, 0x734F700A, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x734F7002, 29346, 0x34F70024, 110.118, 92.45003, -0.4474001, -0.7843198, 0, 0, -0.6203567,  True, '2019-02-10 00:00:00'); /* Polar Ursuin */

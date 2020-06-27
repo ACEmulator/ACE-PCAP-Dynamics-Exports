@@ -5,21 +5,21 @@ VALUES (0x775BA001,  1154, 0x75BA0009, 45.88535, 22.89409, 98.10276, -0.6917554,
 /* @teleloc 0x75BA0009 [45.885350 22.894090 98.102760] -0.691755 0.000000 0.000000 -0.722132 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775BA001, 0x775BA002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x775BA001, 0x775BA003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x775BA001, 0x775BA004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x775BA001, 0x775BA005, '2019-02-10 00:00:00') /* Frost */
-     , (0x775BA001, 0x775BA006, '2019-02-10 00:00:00') /* Frost */
-     , (0x775BA001, 0x775BA007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x775BA001, 0x775BA008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x775BA001, 0x775BA009, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x775BA001, 0x775BA00A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x775BA001, 0x775BA00B, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x775BA001, 0x775BA00C, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x775BA001, 0x775BA00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x775BA001, 0x775BA00E, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x775BA001, 0x775BA00F, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x775BA001, 0x775BA010, '2019-02-10 00:00:00') /* Tusker Redeemer */;
+VALUES (0x775BA001, 0x775BA002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x775BA001, 0x775BA003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x775BA001, 0x775BA004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x775BA001, 0x775BA005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x775BA001, 0x775BA006, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x775BA001, 0x775BA007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x775BA001, 0x775BA008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x775BA001, 0x775BA009, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x775BA001, 0x775BA00A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x775BA001, 0x775BA00B, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x775BA001, 0x775BA00C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x775BA001, 0x775BA00D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x775BA001, 0x775BA00E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x775BA001, 0x775BA00F, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x775BA001, 0x775BA010, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775BA002,  7179, 0x75BA0009, 45.88535, 22.89409, 98.10276, -0.6917554, 0, 0, -0.7221318,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -86,8 +86,8 @@ VALUES (0x775BA011,  1542, 0x75BA001F, 87.08546, 144.256, 125.2785, 1, 0, 0, 0, 
 /* @teleloc 0x75BA001F [87.085460 144.256000 125.278500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x775BA011, 0x775BA012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x775BA011, 0x775BA013, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x775BA011, 0x775BA012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x775BA011, 0x775BA013, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x775BA012,  4179, 0x75BA001F, 87.08546, 144.256, 125.2785, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

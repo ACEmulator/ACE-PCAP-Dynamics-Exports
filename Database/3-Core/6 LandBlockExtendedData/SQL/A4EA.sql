@@ -5,15 +5,15 @@ VALUES (0x7A4EA001,  1154, 0xA4EA0033, 149.153, 68.0752, 28.95, 1, 0, 0, 0, Fals
 /* @teleloc 0xA4EA0033 [149.153000 68.075200 28.950000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4EA001, 0x7A4EA002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A4EA001, 0x7A4EA003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A4EA001, 0x7A4EA004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A4EA001, 0x7A4EA005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A4EA001, 0x7A4EA006, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x7A4EA001, 0x7A4EA007, '2019-02-10 00:00:00') /* Ember */
-     , (0x7A4EA001, 0x7A4EA008, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A4EA001, 0x7A4EA009, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7A4EA001, 0x7A4EA00A, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7A4EA001, 0x7A4EA002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A4EA001, 0x7A4EA003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A4EA001, 0x7A4EA004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A4EA001, 0x7A4EA005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A4EA001, 0x7A4EA006, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7A4EA001, 0x7A4EA007, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x7A4EA001, 0x7A4EA008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A4EA001, 0x7A4EA009, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7A4EA001, 0x7A4EA00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4EA002,  7123, 0xA4EA0033, 149.153, 68.0752, 28.95, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -56,7 +56,7 @@ VALUES (0x7A4EA00B,  1542, 0xA4EA0031, 147.0049, 20.1898, 32.32043, 0.7071068, 0
 /* @teleloc 0xA4EA0031 [147.004900 20.189800 32.320430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4EA00B, 0x7A4EA00C, '2019-02-10 00:00:00') /* Yew Talisman */;
+VALUES (0x7A4EA00B, 0x7A4EA00C, '2019-02-10 00:00:00') /* Yew Talisman (752) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4EA00C,   752, 0xA4EA0031, 147.0049, 20.1898, 32.32043, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Yew Talisman */

@@ -5,23 +5,23 @@ VALUES (0x7A1A2001,  1154, 0xA1A20024, 107.5024, 92.637, 149.6065, 0.1736482, 0,
 /* @teleloc 0xA1A20024 [107.502400 92.637000 149.606500] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A2001, 0x7A1A2002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A1A2001, 0x7A1A2003, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A1A2001, 0x7A1A2004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A1A2001, 0x7A1A2005, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1A2001, 0x7A1A2006, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7A1A2001, 0x7A1A2007, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A1A2001, 0x7A1A2008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A1A2001, 0x7A1A2009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A1A2001, 0x7A1A200A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7A1A2001, 0x7A1A200B, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A1A2001, 0x7A1A200C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A1A2001, 0x7A1A200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A1A2001, 0x7A1A200E, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A1A2001, 0x7A1A200F, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A1A2001, 0x7A1A2010, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A1A2001, 0x7A1A2011, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7A1A2001, 0x7A1A2012, '2019-02-10 00:00:00') /* Olthoi Nymph */;
+VALUES (0x7A1A2001, 0x7A1A2002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A1A2001, 0x7A1A2003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A1A2001, 0x7A1A2004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A1A2001, 0x7A1A2005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1A2001, 0x7A1A2006, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7A1A2001, 0x7A1A2007, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A1A2001, 0x7A1A2008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A1A2001, 0x7A1A2009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7A1A2001, 0x7A1A200A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A1A2001, 0x7A1A200B, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A1A2001, 0x7A1A200C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A1A2001, 0x7A1A200D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A1A2001, 0x7A1A200E, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A1A2001, 0x7A1A200F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A1A2001, 0x7A1A2010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A1A2001, 0x7A1A2011, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7A1A2001, 0x7A1A2012, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A2002,  1609, 0xA1A20024, 107.5024, 92.637, 149.6065, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -96,10 +96,10 @@ VALUES (0x7A1A2013,  1542, 0xA1A2003A, 186.1837, 27.04398, 165.6675, -0.181425, 
 /* @teleloc 0xA1A2003A [186.183700 27.043980 165.667500] -0.181425 0.000000 0.000000 -0.983405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1A2013, 0x7A1A2014, '2019-02-10 00:00:00') /* Yellow Monster Seed */
-     , (0x7A1A2013, 0x7A1A2015, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7A1A2013, 0x7A1A2016, '2019-02-10 00:00:00') /* Strange Stick */
-     , (0x7A1A2013, 0x7A1A2017, '2019-02-10 00:00:00') /* Amaranth */;
+VALUES (0x7A1A2013, 0x7A1A2014, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x7A1A2013, 0x7A1A2015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7A1A2013, 0x7A1A2016, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7A1A2013, 0x7A1A2017, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A2014, 31686, 0xA1A2003A, 186.1837, 27.04398, 165.6675, -0.181425, 0, 0, -0.9834048,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

@@ -5,20 +5,20 @@ VALUES (0x70B68001,  1154, 0x0B680020, 84.38123, 177.0397, -0.09749997, 0.715353
 /* @teleloc 0x0B680020 [84.381230 177.039700 -0.097500] 0.715353 0.000000 0.000000 -0.698763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B68001, 0x70B68002, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70B68001, 0x70B68003, '2019-02-10 00:00:00') /* Unconquered Drudge */
-     , (0x70B68001, 0x70B68004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x70B68001, 0x70B68005, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B68001, 0x70B68006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B68001, 0x70B68007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x70B68001, 0x70B68008, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70B68001, 0x70B68009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70B68001, 0x70B6800A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70B68001, 0x70B6800B, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70B68001, 0x70B6800C, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70B68001, 0x70B6800D, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70B68001, 0x70B6800E, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70B68001, 0x70B6800F, '2019-02-10 00:00:00') /* Banderling Aggressor */;
+VALUES (0x70B68001, 0x70B68002, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70B68001, 0x70B68003, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */
+     , (0x70B68001, 0x70B68004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x70B68001, 0x70B68005, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B68001, 0x70B68006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B68001, 0x70B68007, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x70B68001, 0x70B68008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70B68001, 0x70B68009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70B68001, 0x70B6800A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70B68001, 0x70B6800B, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70B68001, 0x70B6800C, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70B68001, 0x70B6800D, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70B68001, 0x70B6800E, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70B68001, 0x70B6800F, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B68002, 24317, 0x0B680020, 84.38123, 177.0397, -0.09749997, 0.7153534, 0, 0, -0.6987628,  True, '2019-02-10 00:00:00'); /* Primeval Skeleton */
@@ -81,7 +81,7 @@ VALUES (0x70B68010,  1542, 0x0B68002D, 138.4481, 115.0121, 10.62349, 1, 0, 0, 0,
 /* @teleloc 0x0B68002D [138.448100 115.012100 10.623490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B68010, 0x70B68011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x70B68010, 0x70B68011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B68011,  4179, 0x0B68002D, 138.4481, 115.0121, 10.62349, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

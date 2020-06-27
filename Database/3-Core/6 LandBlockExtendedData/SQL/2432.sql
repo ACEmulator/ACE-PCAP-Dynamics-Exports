@@ -5,11 +5,11 @@ VALUES (0x72432001,  1154, 0x24320039, 191.9093, 7.985793, 46.67098, 0.9961947, 
 /* @teleloc 0x24320039 [191.909300 7.985793 46.670980] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72432001, 0x72432002, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72432001, 0x72432003, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72432001, 0x72432004, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72432001, 0x72432005, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72432001, 0x72432006, '2019-02-10 00:00:00') /* Shadow Phantom */;
+VALUES (0x72432001, 0x72432002, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72432001, 0x72432003, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72432001, 0x72432004, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72432001, 0x72432005, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72432001, 0x72432006, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72432002, 36854, 0x24320039, 191.9093, 7.985793, 46.67098, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */

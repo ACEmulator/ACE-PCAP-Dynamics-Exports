@@ -5,20 +5,20 @@ VALUES (0x78EE8001,  1154, 0x8EE80010, 44.08375, 186.9528, 41.59815, 0.9238795, 
 /* @teleloc 0x8EE80010 [44.083750 186.952800 41.598150] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EE8001, 0x78EE8002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EE8001, 0x78EE8003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EE8001, 0x78EE8004, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x78EE8001, 0x78EE8005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78EE8001, 0x78EE8006, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78EE8001, 0x78EE8007, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78EE8001, 0x78EE8008, '2019-02-10 00:00:00') /* Frost */
-     , (0x78EE8001, 0x78EE8009, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78EE8001, 0x78EE800A, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x78EE8001, 0x78EE800B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EE8001, 0x78EE800C, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78EE8001, 0x78EE800D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78EE8001, 0x78EE800E, '2019-02-10 00:00:00') /* Frost */
-     , (0x78EE8001, 0x78EE800F, '2019-02-10 00:00:00') /* Banderling Berserker */;
+VALUES (0x78EE8001, 0x78EE8002, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EE8001, 0x78EE8003, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EE8001, 0x78EE8004, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x78EE8001, 0x78EE8005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78EE8001, 0x78EE8006, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78EE8001, 0x78EE8007, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78EE8001, 0x78EE8008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78EE8001, 0x78EE8009, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78EE8001, 0x78EE800A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x78EE8001, 0x78EE800B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EE8001, 0x78EE800C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78EE8001, 0x78EE800D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78EE8001, 0x78EE800E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78EE8001, 0x78EE800F, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EE8002,  7096, 0x8EE80010, 44.08375, 186.9528, 41.59815, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -81,8 +81,8 @@ VALUES (0x78EE8010,  1542, 0x8EE8003C, 182.8729, 79.15897, 58.80684, 0.9990482, 
 /* @teleloc 0x8EE8003C [182.872900 79.158970 58.806840] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78EE8010, 0x78EE8011, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78EE8010, 0x78EE8012, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x78EE8010, 0x78EE8011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78EE8010, 0x78EE8012, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EE8011,  4179, 0x8EE8003C, 182.8729, 79.15897, 58.80684, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

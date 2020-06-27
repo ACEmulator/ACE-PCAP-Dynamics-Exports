@@ -5,30 +5,30 @@ VALUES (0x7C3A6001,  1154, 0xC3A60037, 164.7979, 164.148, 54.003, 0.9295792, 0, 
 /* @teleloc 0xC3A60037 [164.797900 164.148000 54.003000] 0.929579 0.000000 0.000000 -0.368622 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A6001, 0x7C3A6002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C3A6001, 0x7C3A6003, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7C3A6001, 0x7C3A6004, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7C3A6001, 0x7C3A6005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C3A6001, 0x7C3A6006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7C3A6001, 0x7C3A6007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C3A6001, 0x7C3A6008, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C3A6001, 0x7C3A6009, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C3A6001, 0x7C3A600A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3A6001, 0x7C3A600B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3A6001, 0x7C3A600C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C3A6001, 0x7C3A600D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C3A6001, 0x7C3A600E, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C3A6001, 0x7C3A600F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7C3A6001, 0x7C3A6010, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C3A6001, 0x7C3A6011, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7C3A6001, 0x7C3A6012, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7C3A6001, 0x7C3A6013, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7C3A6001, 0x7C3A6014, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7C3A6001, 0x7C3A6015, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C3A6001, 0x7C3A6016, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C3A6001, 0x7C3A6017, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C3A6001, 0x7C3A6018, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C3A6001, 0x7C3A6019, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7C3A6001, 0x7C3A6002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C3A6001, 0x7C3A6003, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7C3A6001, 0x7C3A6004, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7C3A6001, 0x7C3A6005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C3A6001, 0x7C3A6006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7C3A6001, 0x7C3A6007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C3A6001, 0x7C3A6008, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C3A6001, 0x7C3A6009, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C3A6001, 0x7C3A600A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3A6001, 0x7C3A600B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3A6001, 0x7C3A600C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C3A6001, 0x7C3A600D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C3A6001, 0x7C3A600E, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C3A6001, 0x7C3A600F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C3A6001, 0x7C3A6010, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C3A6001, 0x7C3A6011, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7C3A6001, 0x7C3A6012, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7C3A6001, 0x7C3A6013, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C3A6001, 0x7C3A6014, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7C3A6001, 0x7C3A6015, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C3A6001, 0x7C3A6016, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C3A6001, 0x7C3A6017, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C3A6001, 0x7C3A6018, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C3A6001, 0x7C3A6019, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A6002, 21168, 0xC3A60037, 164.7979, 164.148, 54.003, 0.9295792, 0, 0, -0.3686224,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -131,10 +131,10 @@ VALUES (0x7C3A601A,  1542, 0xC3A6003F, 171.8396, 152.6175, 54, 0.9990482, 0, 0, 
 /* @teleloc 0xC3A6003F [171.839600 152.617500 54.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C3A601A, 0x7C3A601B, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C3A601A, 0x7C3A601C, '2019-02-10 00:00:00') /* Bones */
-     , (0x7C3A601A, 0x7C3A601D, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x7C3A601A, 0x7C3A601E, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C3A601A, 0x7C3A601B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C3A601A, 0x7C3A601C, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7C3A601A, 0x7C3A601D, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x7C3A601A, 0x7C3A601E, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3A601B,  4179, 0xC3A6003F, 171.8396, 152.6175, 54, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

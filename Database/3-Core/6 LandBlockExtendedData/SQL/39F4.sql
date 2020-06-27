@@ -5,13 +5,13 @@ VALUES (0x739F4001,  1154, 0x39F4003D, 191.6801, 103.5171, 184.2481, -0.5919675,
 /* @teleloc 0x39F4003D [191.680100 103.517100 184.248100] -0.591968 0.000000 0.000000 -0.805962 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x739F4001, 0x739F4002, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x739F4001, 0x739F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x739F4001, 0x739F4004, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739F4001, 0x739F4005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x739F4001, 0x739F4006, '2019-02-10 00:00:00') /* Undead Lieutenant */
-     , (0x739F4001, 0x739F4007, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x739F4001, 0x739F4008, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x739F4001, 0x739F4002, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x739F4001, 0x739F4003, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x739F4001, 0x739F4004, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739F4001, 0x739F4005, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x739F4001, 0x739F4006, '2019-02-10 00:00:00') /* Undead Lieutenant (24322) */
+     , (0x739F4001, 0x739F4007, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x739F4001, 0x739F4008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x739F4002, 28668, 0x39F4003D, 191.6801, 103.5171, 184.2481, -0.5919675, 0, 0, -0.8059618,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */

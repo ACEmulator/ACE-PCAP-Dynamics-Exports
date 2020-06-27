@@ -5,19 +5,19 @@ VALUES (0x7B2DD001,  1154, 0xB2DD001A, 79.92501, 41.82499, -0.09750003, 0.793353
 /* @teleloc 0xB2DD001A [79.925010 41.824990 -0.097500] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2DD001, 0x7B2DD002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B2DD001, 0x7B2DD003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B2DD001, 0x7B2DD004, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7B2DD001, 0x7B2DD005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7B2DD001, 0x7B2DD006, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7B2DD001, 0x7B2DD007, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B2DD001, 0x7B2DD008, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7B2DD001, 0x7B2DD009, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B2DD001, 0x7B2DD00A, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7B2DD001, 0x7B2DD00B, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7B2DD001, 0x7B2DD00C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7B2DD001, 0x7B2DD00D, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7B2DD001, 0x7B2DD00E, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7B2DD001, 0x7B2DD002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B2DD001, 0x7B2DD003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B2DD001, 0x7B2DD004, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7B2DD001, 0x7B2DD005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7B2DD001, 0x7B2DD006, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7B2DD001, 0x7B2DD007, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B2DD001, 0x7B2DD008, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7B2DD001, 0x7B2DD009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B2DD001, 0x7B2DD00A, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7B2DD001, 0x7B2DD00B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7B2DD001, 0x7B2DD00C, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7B2DD001, 0x7B2DD00D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7B2DD001, 0x7B2DD00E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2DD002,  7179, 0xB2DD001A, 79.92501, 41.82499, -0.09750003, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */

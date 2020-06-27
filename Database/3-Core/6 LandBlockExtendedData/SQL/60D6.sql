@@ -9,11 +9,11 @@ VALUES (0x760D6001,  1154, 0x60D60019, 93.95653, 18.06743, 166.1968, 0.1736482, 
 /* @teleloc 0x60D60019 [93.956530 18.067430 166.196800] 0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D6001, 0x760D6002, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760D6001, 0x760D6003, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x760D6001, 0x760D6004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x760D6001, 0x760D6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x760D6001, 0x760D6006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x760D6001, 0x760D6002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x760D6001, 0x760D6003, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x760D6001, 0x760D6004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x760D6001, 0x760D6005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x760D6001, 0x760D6006, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D6002, 36832, 0x60D60019, 93.95653, 18.06743, 166.1968, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -40,7 +40,7 @@ VALUES (0x760D6007,  1542, 0x60D6000F, 24.586, 156.676, 175.0563, 0.9950165, 0, 
 /* @teleloc 0x60D6000F [24.586000 156.676000 175.056300] 0.995017 0.000000 0.000000 0.099711 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x760D6007, 0x760D6008, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x760D6007, 0x760D6008, '2019-02-10 00:00:00') /* Snowman (5765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x760D6008,  5765, 0x60D6000F, 24.586, 156.676, 175.0563, 0.9950165, 0, 0, 0.09971084,  True, '2019-02-10 00:00:00'); /* Snowman */

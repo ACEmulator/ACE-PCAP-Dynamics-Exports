@@ -13,39 +13,39 @@ VALUES (0x72D5A110,  1154, 0x2D5A014D, 134.11, 95.15, -20.8, -0.742445, 0, 0, -0
 /* @teleloc 0x2D5A014D [134.110000 95.150000 -20.800000] -0.742445 0.000000 0.000000 -0.669907 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5A110, 0x72D5A111, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x72D5A110, 0x72D5A112, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x72D5A110, 0x72D5A113, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x72D5A110, 0x72D5A114, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x72D5A110, 0x72D5A115, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x72D5A110, 0x72D5A116, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x72D5A110, 0x72D5A117, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x72D5A110, 0x72D5A118, '2019-02-10 00:00:00') /* Reedshark Ravager */
-     , (0x72D5A110, 0x72D5A119, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A11A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5A110, 0x72D5A11B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A11C, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5A110, 0x72D5A11D, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5A110, 0x72D5A11E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A11F, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A120, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5A110, 0x72D5A121, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A122, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72D5A110, 0x72D5A123, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A124, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A125, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A126, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A127, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5A110, 0x72D5A128, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5A110, 0x72D5A129, '2019-02-10 00:00:00') /* Tumerok Champion Renegade */
-     , (0x72D5A110, 0x72D5A12A, '2019-02-10 00:00:00') /* Tumerok Champion Renegade */
-     , (0x72D5A110, 0x72D5A12B, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x72D5A110, 0x72D5A12C, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x72D5A110, 0x72D5A12D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5A110, 0x72D5A12E, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72D5A110, 0x72D5A12F, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x72D5A110, 0x72D5A130, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */
-     , (0x72D5A110, 0x72D5A131, '2019-02-10 00:00:00') /* Gotrok Fortress Guard */;
+VALUES (0x72D5A110, 0x72D5A111, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x72D5A110, 0x72D5A112, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x72D5A110, 0x72D5A113, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x72D5A110, 0x72D5A114, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x72D5A110, 0x72D5A115, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x72D5A110, 0x72D5A116, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x72D5A110, 0x72D5A117, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x72D5A110, 0x72D5A118, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x72D5A110, 0x72D5A119, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A11A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5A110, 0x72D5A11B, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A11C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5A110, 0x72D5A11D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5A110, 0x72D5A11E, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A11F, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A120, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5A110, 0x72D5A121, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A122, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D5A110, 0x72D5A123, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A124, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A125, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A126, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A127, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5A110, 0x72D5A128, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5A110, 0x72D5A129, '2019-02-10 00:00:00') /* Tumerok Champion Renegade (24498) */
+     , (0x72D5A110, 0x72D5A12A, '2019-02-10 00:00:00') /* Tumerok Champion Renegade (24498) */
+     , (0x72D5A110, 0x72D5A12B, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x72D5A110, 0x72D5A12C, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x72D5A110, 0x72D5A12D, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5A110, 0x72D5A12E, '2019-02-10 00:00:00') /* Tumerok High Priest (6012) */
+     , (0x72D5A110, 0x72D5A12F, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x72D5A110, 0x72D5A130, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */
+     , (0x72D5A110, 0x72D5A131, '2019-02-10 00:00:00') /* Gotrok Fortress Guard (27460) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5A111,  9401, 0x2D5A014D, 134.11, 95.15, -20.8, -0.742445, 0, 0, -0.669907,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -184,7 +184,7 @@ VALUES (0x72D5A132,  1154, 0x2D5A0130, 120.802, 117.383, -10.39, -0.403597, 0, 0
 /* @teleloc 0x2D5A0130 [120.802000 117.383000 -10.390000] -0.403597 0.000000 0.000000 0.914937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5A132, 0x72D5A133, '2019-02-10 00:00:00') /* Toberik */;
+VALUES (0x72D5A132, 0x72D5A133, '2019-02-10 00:00:00') /* Toberik (28473) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5A133, 28473, 0x2D5A0130, 120.802, 117.383, -10.39, -0.403597, 0, 0, 0.914937,  True, '2019-02-10 00:00:00'); /* Toberik */
@@ -195,11 +195,11 @@ VALUES (0x72D5A134,  1542, 0x2D5A001E, 80.809, 136.783, 0.005699992, -0.7796912,
 /* @teleloc 0x2D5A001E [80.809000 136.783000 0.005700] -0.779691 0.000000 0.000000 -0.626164 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D5A134, 0x72D5A135, '2019-02-10 00:00:00') /* Cow */
-     , (0x72D5A134, 0x72D5A136, '2019-02-10 00:00:00') /* Cow */
-     , (0x72D5A134, 0x72D5A137, '2019-02-10 00:00:00') /* Cow */
-     , (0x72D5A134, 0x72D5A138, '2019-02-10 00:00:00') /* Cow */
-     , (0x72D5A134, 0x72D5A139, '2019-02-10 00:00:00') /* Cow */;
+VALUES (0x72D5A134, 0x72D5A135, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x72D5A134, 0x72D5A136, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x72D5A134, 0x72D5A137, '2019-02-10 00:00:00') /* Cow (14) */
+     , (0x72D5A134, 0x72D5A138, '2019-02-10 00:00:00') /* Cow (618) */
+     , (0x72D5A134, 0x72D5A139, '2019-02-10 00:00:00') /* Cow (618) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D5A135,   618, 0x2D5A001E, 80.809, 136.783, 0.005699992, -0.7796912, 0, 0, -0.6261642,  True, '2019-02-10 00:00:00'); /* Cow */

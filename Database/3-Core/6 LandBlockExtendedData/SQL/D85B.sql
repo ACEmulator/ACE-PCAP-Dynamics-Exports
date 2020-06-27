@@ -5,41 +5,41 @@ VALUES (0x7D85B001,  1154, 0xD85B0029, 137.0025, 19.50725, 7.169748, 0.3270621, 
 /* @teleloc 0xD85B0029 [137.002500 19.507250 7.169748] 0.327062 0.000000 0.000000 -0.945003 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D85B001, 0x7D85B002, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D85B001, 0x7D85B003, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D85B001, 0x7D85B004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D85B001, 0x7D85B005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7D85B001, 0x7D85B006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D85B001, 0x7D85B007, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D85B001, 0x7D85B008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D85B001, 0x7D85B009, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7D85B001, 0x7D85B00A, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B00B, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D85B001, 0x7D85B00C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D85B001, 0x7D85B00D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D85B001, 0x7D85B00E, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7D85B001, 0x7D85B00F, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D85B001, 0x7D85B010, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D85B001, 0x7D85B011, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D85B001, 0x7D85B012, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7D85B001, 0x7D85B013, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D85B001, 0x7D85B014, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D85B001, 0x7D85B015, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B016, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7D85B001, 0x7D85B017, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B018, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D85B001, 0x7D85B019, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D85B001, 0x7D85B01A, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B01B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D85B001, 0x7D85B01C, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7D85B001, 0x7D85B01D, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B01E, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7D85B001, 0x7D85B01F, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B020, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D85B001, 0x7D85B021, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7D85B001, 0x7D85B022, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D85B001, 0x7D85B023, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D85B001, 0x7D85B024, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7D85B001, 0x7D85B002, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D85B001, 0x7D85B003, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D85B001, 0x7D85B004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D85B001, 0x7D85B005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7D85B001, 0x7D85B006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D85B001, 0x7D85B007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D85B001, 0x7D85B008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D85B001, 0x7D85B009, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7D85B001, 0x7D85B00A, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B00B, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D85B001, 0x7D85B00C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D85B001, 0x7D85B00D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D85B001, 0x7D85B00E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D85B001, 0x7D85B00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D85B001, 0x7D85B010, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D85B001, 0x7D85B011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D85B001, 0x7D85B012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D85B001, 0x7D85B013, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D85B001, 0x7D85B014, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D85B001, 0x7D85B015, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B016, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D85B001, 0x7D85B017, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B018, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D85B001, 0x7D85B019, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D85B001, 0x7D85B01A, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B01B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D85B001, 0x7D85B01C, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7D85B001, 0x7D85B01D, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B01E, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D85B001, 0x7D85B01F, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B020, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B021, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7D85B001, 0x7D85B022, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D85B001, 0x7D85B023, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D85B001, 0x7D85B024, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D85B002,   192, 0xD85B0029, 137.0025, 19.50725, 7.169748, 0.3270621, 0, 0, -0.9450029,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */

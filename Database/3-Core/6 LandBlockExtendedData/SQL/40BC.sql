@@ -5,61 +5,61 @@ VALUES (0x740BC001,  1154, 0x40BC0028, 117.9214, 189.4397, 3.646061, -0.1198991,
 /* @teleloc 0x40BC0028 [117.921400 189.439700 3.646061] -0.119899 0.000000 0.000000 -0.992786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BC001, 0x740BC002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x740BC001, 0x740BC003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x740BC001, 0x740BC004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x740BC001, 0x740BC005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x740BC001, 0x740BC00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x740BC001, 0x740BC00B, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x740BC001, 0x740BC00C, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x740BC001, 0x740BC00D, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x740BC001, 0x740BC00E, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x740BC001, 0x740BC00F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BC001, 0x740BC010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC011, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x740BC001, 0x740BC012, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x740BC001, 0x740BC013, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x740BC001, 0x740BC014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x740BC001, 0x740BC015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x740BC001, 0x740BC016, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x740BC001, 0x740BC017, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x740BC001, 0x740BC018, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x740BC001, 0x740BC019, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BC001, 0x740BC01A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BC001, 0x740BC01B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x740BC001, 0x740BC01C, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x740BC001, 0x740BC01D, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x740BC001, 0x740BC01E, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BC001, 0x740BC01F, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x740BC001, 0x740BC020, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC021, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC023, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x740BC001, 0x740BC028, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740BC001, 0x740BC029, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x740BC001, 0x740BC02A, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x740BC001, 0x740BC02B, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x740BC001, 0x740BC02C, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x740BC001, 0x740BC02D, '2019-02-10 00:00:00') /* Static */
-     , (0x740BC001, 0x740BC02E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x740BC001, 0x740BC02F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x740BC001, 0x740BC030, '2019-02-10 00:00:00') /* Banished Phyntos Wasp */
-     , (0x740BC001, 0x740BC031, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x740BC001, 0x740BC032, '2019-02-10 00:00:00') /* Frost */
-     , (0x740BC001, 0x740BC033, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x740BC001, 0x740BC034, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x740BC001, 0x740BC035, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x740BC001, 0x740BC036, '2019-02-10 00:00:00') /* Revenant */
-     , (0x740BC001, 0x740BC037, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x740BC001, 0x740BC038, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x740BC001, 0x740BC002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x740BC001, 0x740BC003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x740BC001, 0x740BC004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x740BC001, 0x740BC005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x740BC001, 0x740BC00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x740BC001, 0x740BC00B, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x740BC001, 0x740BC00C, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x740BC001, 0x740BC00D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x740BC001, 0x740BC00E, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x740BC001, 0x740BC00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BC001, 0x740BC010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC011, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x740BC001, 0x740BC012, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x740BC001, 0x740BC013, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x740BC001, 0x740BC014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x740BC001, 0x740BC015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x740BC001, 0x740BC016, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x740BC001, 0x740BC017, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x740BC001, 0x740BC018, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x740BC001, 0x740BC019, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BC001, 0x740BC01A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BC001, 0x740BC01B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x740BC001, 0x740BC01C, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x740BC001, 0x740BC01D, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x740BC001, 0x740BC01E, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BC001, 0x740BC01F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x740BC001, 0x740BC020, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC021, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC023, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x740BC001, 0x740BC028, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740BC001, 0x740BC029, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x740BC001, 0x740BC02A, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x740BC001, 0x740BC02B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x740BC001, 0x740BC02C, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x740BC001, 0x740BC02D, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x740BC001, 0x740BC02E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x740BC001, 0x740BC02F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x740BC001, 0x740BC030, '2019-02-10 00:00:00') /* Banished Phyntos Wasp (30904) */
+     , (0x740BC001, 0x740BC031, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x740BC001, 0x740BC032, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x740BC001, 0x740BC033, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x740BC001, 0x740BC034, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x740BC001, 0x740BC035, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x740BC001, 0x740BC036, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x740BC001, 0x740BC037, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x740BC001, 0x740BC038, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BC002, 24294, 0x40BC0028, 117.9214, 189.4397, 3.646061, -0.1198991, 0, 0, -0.992786,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -286,7 +286,7 @@ VALUES (0x740BC039,  1542, 0x40BC0019, 72.06564, 7.613545, 0.01647028, -0.325210
 /* @teleloc 0x40BC0019 [72.065640 7.613545 0.016470] -0.325211 0.000000 0.000000 -0.945642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740BC039, 0x740BC03A, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x740BC039, 0x740BC03A, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740BC03A, 31687, 0x40BC0019, 72.06564, 7.613545, 0.01647028, -0.3252106, 0, 0, -0.9456416,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

@@ -5,18 +5,18 @@ VALUES (0x7EC12001,  1154, 0xEC12002A, 132.086, 41.0797, 104.0066, -0.9753221, 0
 /* @teleloc 0xEC12002A [132.086000 41.079700 104.006600] -0.975322 0.000000 0.000000 0.220787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EC12001, 0x7EC12002, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12001, 0x7EC12003, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC12004, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC12005, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12001, 0x7EC12006, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC12007, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC12008, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12001, 0x7EC12009, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC1200A, '2019-02-10 00:00:00') /* Mosswart Cringer */
-     , (0x7EC12001, 0x7EC1200B, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12001, 0x7EC1200C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */
-     , (0x7EC12001, 0x7EC1200D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker */;
+VALUES (0x7EC12001, 0x7EC12002, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12001, 0x7EC12003, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC12004, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC12005, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12001, 0x7EC12006, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC12007, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC12008, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12001, 0x7EC12009, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC1200A, '2019-02-10 00:00:00') /* Mosswart Cringer (27863) */
+     , (0x7EC12001, 0x7EC1200B, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12001, 0x7EC1200C, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */
+     , (0x7EC12001, 0x7EC1200D, '2019-02-10 00:00:00') /* Mosswart Muck Stalker (27864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EC12002, 27864, 0xEC12002A, 132.086, 41.0797, 104.0066, -0.9753221, 0, 0, 0.220787,  True, '2019-02-10 00:00:00'); /* Mosswart Muck Stalker */

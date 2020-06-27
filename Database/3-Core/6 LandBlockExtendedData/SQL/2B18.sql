@@ -5,11 +5,11 @@ VALUES (0x72B18001,  1154, 0x2B180001, 3.530203, 18.36083, 54.6002, 0.2588191, 0
 /* @teleloc 0x2B180001 [3.530203 18.360830 54.600200] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B18001, 0x72B18002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B18001, 0x72B18003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x72B18001, 0x72B18004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72B18001, 0x72B18005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x72B18001, 0x72B18006, '2019-02-10 00:00:00') /* Phantasm */;
+VALUES (0x72B18001, 0x72B18002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B18001, 0x72B18003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72B18001, 0x72B18004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72B18001, 0x72B18005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x72B18001, 0x72B18006, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B18002, 24497, 0x2B180001, 3.530203, 18.36083, 54.6002, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -36,8 +36,8 @@ VALUES (0x72B18007,  1542, 0x2B18000A, 47.00078, 32.49435, 55.937, 1, 0, 0, 0, F
 /* @teleloc 0x2B18000A [47.000780 32.494350 55.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B18007, 0x72B18008, '2019-02-10 00:00:00') /* Sawato Portal */
-     , (0x72B18007, 0x72B18009, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72B18007, 0x72B18008, '2019-02-10 00:00:00') /* Sawato Portal (42849) */
+     , (0x72B18007, 0x72B18009, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B18008, 42849, 0x2B18000A, 47.00078, 32.49435, 55.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Sawato Portal */

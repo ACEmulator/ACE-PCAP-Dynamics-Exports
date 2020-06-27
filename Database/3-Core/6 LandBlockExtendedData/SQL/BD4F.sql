@@ -5,9 +5,9 @@ VALUES (0x7BD4F001,  1154, 0xBD4F0039, 177.756, 19.63467, 36.00687, -0.9465326, 
 /* @teleloc 0xBD4F0039 [177.756000 19.634670 36.006870] -0.946533 0.000000 0.000000 -0.322608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD4F001, 0x7BD4F002, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7BD4F001, 0x7BD4F003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7BD4F001, 0x7BD4F004, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7BD4F001, 0x7BD4F002, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7BD4F001, 0x7BD4F003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7BD4F001, 0x7BD4F004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD4F002,  7345, 0xBD4F0039, 177.756, 19.63467, 36.00687, -0.9465326, 0, 0, -0.3226082,  True, '2019-02-10 00:00:00'); /* Banderling Striker */

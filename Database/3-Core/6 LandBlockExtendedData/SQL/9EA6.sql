@@ -5,23 +5,23 @@ VALUES (0x79EA6001,  1154, 0x9EA60003, 1.681671, 61.29339, 74.49584, -0.9682709,
 /* @teleloc 0x9EA60003 [1.681671 61.293390 74.495840] -0.968271 0.000000 0.000000 -0.249903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA6001, 0x79EA6002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x79EA6001, 0x79EA6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA6001, 0x79EA6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA6001, 0x79EA6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79EA6001, 0x79EA6006, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x79EA6001, 0x79EA6007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EA6001, 0x79EA6008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x79EA6001, 0x79EA6009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79EA6001, 0x79EA600A, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EA6001, 0x79EA600B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA6001, 0x79EA600C, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79EA6001, 0x79EA600D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79EA6001, 0x79EA600E, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x79EA6001, 0x79EA600F, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA6001, 0x79EA6010, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79EA6001, 0x79EA6011, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x79EA6001, 0x79EA6012, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x79EA6001, 0x79EA6002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x79EA6001, 0x79EA6003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA6001, 0x79EA6004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA6001, 0x79EA6005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79EA6001, 0x79EA6006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79EA6001, 0x79EA6007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EA6001, 0x79EA6008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79EA6001, 0x79EA6009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79EA6001, 0x79EA600A, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EA6001, 0x79EA600B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA6001, 0x79EA600C, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79EA6001, 0x79EA600D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79EA6001, 0x79EA600E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79EA6001, 0x79EA600F, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA6001, 0x79EA6010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79EA6001, 0x79EA6011, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x79EA6001, 0x79EA6012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA6002, 22010, 0x9EA60003, 1.681671, 61.29339, 74.49584, -0.9682709, 0, 0, -0.249903,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -96,9 +96,9 @@ VALUES (0x79EA6013,  1542, 0x9EA60035, 158.6491, 113.2956, 70.77924, 1, 0, 0, 0,
 /* @teleloc 0x9EA60035 [158.649100 113.295600 70.779240] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EA6013, 0x79EA6014, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79EA6013, 0x79EA6015, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79EA6013, 0x79EA6016, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x79EA6013, 0x79EA6014, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x79EA6013, 0x79EA6015, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79EA6013, 0x79EA6016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EA6014, 22576, 0x9EA60035, 158.6491, 113.2956, 70.77924, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

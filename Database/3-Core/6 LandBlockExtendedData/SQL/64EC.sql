@@ -5,24 +5,24 @@ VALUES (0x764EC001,  1154, 0x64EC001C, 88.11524, 79.268, 0.002499998, 0.9745542,
 /* @teleloc 0x64EC001C [88.115240 79.268000 0.002500] 0.974554 0.000000 0.000000 -0.224152 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764EC001, 0x764EC002, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x764EC001, 0x764EC003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x764EC001, 0x764EC004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x764EC001, 0x764EC005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x764EC001, 0x764EC006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x764EC001, 0x764EC007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x764EC001, 0x764EC008, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x764EC001, 0x764EC009, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x764EC001, 0x764EC00A, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x764EC001, 0x764EC00B, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x764EC001, 0x764EC00C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x764EC001, 0x764EC00D, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x764EC001, 0x764EC00E, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x764EC001, 0x764EC00F, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x764EC001, 0x764EC010, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x764EC001, 0x764EC011, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x764EC001, 0x764EC012, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x764EC001, 0x764EC013, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x764EC001, 0x764EC002, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x764EC001, 0x764EC003, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x764EC001, 0x764EC004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x764EC001, 0x764EC005, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x764EC001, 0x764EC006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x764EC001, 0x764EC007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x764EC001, 0x764EC008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x764EC001, 0x764EC009, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x764EC001, 0x764EC00A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x764EC001, 0x764EC00B, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x764EC001, 0x764EC00C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x764EC001, 0x764EC00D, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x764EC001, 0x764EC00E, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x764EC001, 0x764EC00F, '2019-02-10 00:00:00') /* Skeletal Champion (24314) */
+     , (0x764EC001, 0x764EC010, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x764EC001, 0x764EC011, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x764EC001, 0x764EC012, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x764EC001, 0x764EC013, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764EC002, 24315, 0x64EC001C, 88.11524, 79.268, 0.002499998, 0.9745542, 0, 0, -0.2241519,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */

@@ -5,9 +5,9 @@ VALUES (0x77888001,  1154, 0x78880005, 19.0993, 113.8174, -0.887, 0.0904166, 0, 
 /* @teleloc 0x78880005 [19.099300 113.817400 -0.887000] 0.090417 0.000000 0.000000 -0.995904 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77888001, 0x77888002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77888001, 0x77888003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x77888001, 0x77888004, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x77888001, 0x77888002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77888001, 0x77888003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x77888001, 0x77888004, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77888002,   217, 0x78880005, 19.0993, 113.8174, -0.887, 0.0904166, 0, 0, -0.995904,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -26,7 +26,7 @@ VALUES (0x77888005,  1542, 0x7888002B, 136.1125, 62.57559, 0.5683448, -0.6905007
 /* @teleloc 0x7888002B [136.112500 62.575590 0.568345] -0.690501 0.000000 0.000000 -0.723332 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77888005, 0x77888006, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x77888005, 0x77888006, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77888006, 31686, 0x7888002B, 136.1125, 62.57559, 0.5683448, -0.6905007, 0, 0, -0.7233317,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

@@ -5,27 +5,27 @@ VALUES (0x72F73001,  1154, 0x2F730039, 171.2292, 4.595703, 36.01, 0.8431826, 0, 
 /* @teleloc 0x2F730039 [171.229200 4.595703 36.010000] 0.843183 0.000000 0.000000 -0.537627 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F73001, 0x72F73002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72F73001, 0x72F73003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F73001, 0x72F73004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72F73001, 0x72F73005, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F73001, 0x72F73006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F73001, 0x72F73007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72F73001, 0x72F73008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x72F73001, 0x72F73009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72F73001, 0x72F7300A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72F73001, 0x72F7300B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x72F73001, 0x72F7300C, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x72F73001, 0x72F7300D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72F73001, 0x72F7300E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72F73001, 0x72F7300F, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72F73001, 0x72F73010, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72F73001, 0x72F73011, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F73001, 0x72F73012, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F73001, 0x72F73013, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x72F73001, 0x72F73014, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F73001, 0x72F73015, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72F73001, 0x72F73016, '2019-02-10 00:00:00') /* Banderling Antagonist */;
+VALUES (0x72F73001, 0x72F73002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72F73001, 0x72F73003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F73001, 0x72F73004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72F73001, 0x72F73005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F73001, 0x72F73006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F73001, 0x72F73007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72F73001, 0x72F73008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72F73001, 0x72F73009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72F73001, 0x72F7300A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72F73001, 0x72F7300B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x72F73001, 0x72F7300C, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x72F73001, 0x72F7300D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72F73001, 0x72F7300E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72F73001, 0x72F7300F, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72F73001, 0x72F73010, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72F73001, 0x72F73011, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F73001, 0x72F73012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F73001, 0x72F73013, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F73001, 0x72F73014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F73001, 0x72F73015, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72F73001, 0x72F73016, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F73002, 36833, 0x2F730039, 171.2292, 4.595703, 36.01, 0.8431826, 0, 0, -0.5376273,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -116,8 +116,8 @@ VALUES (0x72F73017,  1542, 0x2F730006, 15.69456, 140.4852, 75.52441, 1, 0, 0, 0,
 /* @teleloc 0x2F730006 [15.694560 140.485200 75.524410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F73017, 0x72F73018, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x72F73017, 0x72F73019, '2019-02-10 00:00:00') /* Minalim Plant */;
+VALUES (0x72F73017, 0x72F73018, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x72F73017, 0x72F73019, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F73018, 22567, 0x2F730006, 15.69456, 140.4852, 75.52441, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

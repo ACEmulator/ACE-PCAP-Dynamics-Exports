@@ -5,13 +5,13 @@ VALUES (0x71E15001,  1154, 0x1E150027, 113.1407, 152.8737, 53.79156, 0.1693741, 
 /* @teleloc 0x1E150027 [113.140700 152.873700 53.791560] 0.169374 0.000000 0.000000 -0.985552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E15001, 0x71E15002, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71E15001, 0x71E15003, '2019-02-10 00:00:00') /* Withered Raider Prefect */
-     , (0x71E15001, 0x71E15004, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71E15001, 0x71E15005, '2019-02-10 00:00:00') /* Withered Raider Justicar */
-     , (0x71E15001, 0x71E15006, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E15001, 0x71E15007, '2019-02-10 00:00:00') /* Withered Banderling Paragon */
-     , (0x71E15001, 0x71E15008, '2019-02-10 00:00:00') /* Withered Banderling Paragon */;
+VALUES (0x71E15001, 0x71E15002, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71E15001, 0x71E15003, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
+     , (0x71E15001, 0x71E15004, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71E15001, 0x71E15005, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71E15001, 0x71E15006, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E15001, 0x71E15007, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
+     , (0x71E15001, 0x71E15008, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E15002, 35833, 0x1E150027, 113.1407, 152.8737, 53.79156, 0.1693741, 0, 0, -0.9855518,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */

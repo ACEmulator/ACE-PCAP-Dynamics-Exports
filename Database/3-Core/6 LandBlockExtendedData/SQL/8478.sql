@@ -5,12 +5,12 @@ VALUES (0x78478001,  1154, 0x8478002E, 121.9958, 126.577, 16.0025, 0.4900925, 0,
 /* @teleloc 0x8478002E [121.995800 126.577000 16.002500] 0.490093 0.000000 0.000000 -0.871670 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78478001, 0x78478002, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x78478001, 0x78478003, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x78478001, 0x78478004, '2019-02-10 00:00:00') /* Stony Armoredillo */
-     , (0x78478001, 0x78478005, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x78478001, 0x78478006, '2019-02-10 00:00:00') /* Charred Skeleton */
-     , (0x78478001, 0x78478007, '2019-02-10 00:00:00') /* Greater Mu-miyah */;
+VALUES (0x78478001, 0x78478002, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x78478001, 0x78478003, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x78478001, 0x78478004, '2019-02-10 00:00:00') /* Stony Armoredillo (1766) */
+     , (0x78478001, 0x78478005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x78478001, 0x78478006, '2019-02-10 00:00:00') /* Charred Skeleton (5682) */
+     , (0x78478001, 0x78478007, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78478002,  4266, 0x8478002E, 121.9958, 126.577, 16.0025, 0.4900925, 0, 0, -0.8716704,  True, '2019-02-10 00:00:00'); /* Old Bones */

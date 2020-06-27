@@ -5,9 +5,9 @@ VALUES (0x7B765001,  1154, 0xB765003A, 173.4692, 36.00322, 5.99675, -0.7434554, 
 /* @teleloc 0xB765003A [173.469200 36.003220 5.996750] -0.743455 0.000000 0.000000 -0.668786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B765001, 0x7B765002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B765001, 0x7B765003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7B765001, 0x7B765004, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7B765001, 0x7B765002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B765001, 0x7B765003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7B765001, 0x7B765004, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B765002, 24938, 0xB765003A, 173.4692, 36.00322, 5.99675, -0.7434554, 0, 0, -0.6687856,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */

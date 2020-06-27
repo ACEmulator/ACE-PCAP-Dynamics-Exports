@@ -5,17 +5,17 @@ VALUES (0x70B67001,  1154, 0x0B670027, 114.4515, 164.6885, 4.275958, -0.1663928,
 /* @teleloc 0x0B670027 [114.451500 164.688500 4.275958] -0.166393 0.000000 0.000000 -0.986060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B67001, 0x70B67002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70B67001, 0x70B67003, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70B67001, 0x70B67004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B67001, 0x70B67005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B67001, 0x70B67006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B67001, 0x70B67007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B67001, 0x70B67008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B67001, 0x70B67009, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x70B67001, 0x70B6700A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B67001, 0x70B6700B, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70B67001, 0x70B6700C, '2019-02-10 00:00:00') /* Ascendant Drudge */;
+VALUES (0x70B67001, 0x70B67002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70B67001, 0x70B67003, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70B67001, 0x70B67004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B67001, 0x70B67005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B67001, 0x70B67006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B67001, 0x70B67007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B67001, 0x70B67008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B67001, 0x70B67009, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x70B67001, 0x70B6700A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B67001, 0x70B6700B, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70B67001, 0x70B6700C, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B67002, 24133, 0x0B670027, 114.4515, 164.6885, 4.275958, -0.1663928, 0, 0, -0.9860595,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

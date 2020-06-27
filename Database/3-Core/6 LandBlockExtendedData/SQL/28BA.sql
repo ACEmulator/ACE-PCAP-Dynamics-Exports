@@ -5,11 +5,11 @@ VALUES (0x728BA001,  1154, 0x28BA000F, 42.71296, 160.2143, 25.95144, -0.8376335,
 /* @teleloc 0x28BA000F [42.712960 160.214300 25.951440] -0.837634 0.000000 0.000000 -0.546233 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728BA001, 0x728BA002, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x728BA001, 0x728BA003, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x728BA001, 0x728BA004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x728BA001, 0x728BA005, '2019-02-10 00:00:00') /* Marae Ursuin */
-     , (0x728BA001, 0x728BA006, '2019-02-10 00:00:00') /* Strand Siraluun */;
+VALUES (0x728BA001, 0x728BA002, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x728BA001, 0x728BA003, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x728BA001, 0x728BA004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x728BA001, 0x728BA005, '2019-02-10 00:00:00') /* Marae Ursuin (11538) */
+     , (0x728BA001, 0x728BA006, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728BA002, 11502, 0x28BA000F, 42.71296, 160.2143, 25.95144, -0.8376335, 0, 0, -0.5462327,  True, '2019-02-10 00:00:00'); /* Cutthroat */
@@ -36,8 +36,8 @@ VALUES (0x728BA007,  1542, 0x28BA000F, 38.71105, 160.5141, 25.93147, 1, 0, 0, 0,
 /* @teleloc 0x28BA000F [38.711050 160.514100 25.931470] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x728BA007, 0x728BA008, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x728BA007, 0x728BA009, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x728BA007, 0x728BA008, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x728BA007, 0x728BA009, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728BA008,  9024, 0x28BA000F, 38.71105, 160.5141, 25.93147, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

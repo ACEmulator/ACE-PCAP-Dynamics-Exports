@@ -5,36 +5,36 @@ VALUES (0x7D0D7001,  1154, 0xD0D7002B, 133.2718, 70.27012, 2.131357, -0.07329268
 /* @teleloc 0xD0D7002B [133.271800 70.270120 2.131357] -0.073293 0.000000 0.000000 -0.997311 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0D7001, 0x7D0D7002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph */
-     , (0x7D0D7001, 0x7D0D7003, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D0D7001, 0x7D0D7004, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7D0D7001, 0x7D0D7005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D0D7001, 0x7D0D7006, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7D0D7001, 0x7D0D7007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D0D7001, 0x7D0D7008, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7D0D7001, 0x7D0D7009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D0D7001, 0x7D0D700A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D0D7001, 0x7D0D700B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D0D7001, 0x7D0D700C, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D0D7001, 0x7D0D700D, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D0D7001, 0x7D0D700E, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7D0D7001, 0x7D0D700F, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D0D7001, 0x7D0D7010, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D0D7001, 0x7D0D7011, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7D0D7001, 0x7D0D7012, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D0D7001, 0x7D0D7013, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D0D7001, 0x7D0D7014, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x7D0D7001, 0x7D0D7015, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D0D7001, 0x7D0D7016, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D0D7001, 0x7D0D7017, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D0D7001, 0x7D0D7018, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D0D7001, 0x7D0D7019, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D0D7001, 0x7D0D701A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D0D7001, 0x7D0D701B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x7D0D7001, 0x7D0D701C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph */
-     , (0x7D0D7001, 0x7D0D701D, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x7D0D7001, 0x7D0D701E, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D0D7001, 0x7D0D701F, '2019-02-10 00:00:00') /* Olthoi Piercer */;
+VALUES (0x7D0D7001, 0x7D0D7002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7D0D7001, 0x7D0D7003, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D0D7001, 0x7D0D7004, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7D0D7001, 0x7D0D7005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D0D7001, 0x7D0D7006, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7D0D7001, 0x7D0D7007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D0D7001, 0x7D0D7008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7D0D7001, 0x7D0D7009, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D0D7001, 0x7D0D700A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D0D7001, 0x7D0D700B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D0D7001, 0x7D0D700C, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D0D7001, 0x7D0D700D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D0D7001, 0x7D0D700E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7D0D7001, 0x7D0D700F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D0D7001, 0x7D0D7010, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D0D7001, 0x7D0D7011, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7D0D7001, 0x7D0D7012, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D0D7001, 0x7D0D7013, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D0D7001, 0x7D0D7014, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7D0D7001, 0x7D0D7015, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D0D7001, 0x7D0D7016, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D0D7001, 0x7D0D7017, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D0D7001, 0x7D0D7018, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D0D7001, 0x7D0D7019, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D0D7001, 0x7D0D701A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D0D7001, 0x7D0D701B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x7D0D7001, 0x7D0D701C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Flyer Nymph (35734) */
+     , (0x7D0D7001, 0x7D0D701D, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x7D0D7001, 0x7D0D701E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D0D7001, 0x7D0D701F, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0D7002, 35733, 0xD0D7002B, 133.2718, 70.27012, 2.131357, -0.07329268, 0, 0, -0.9973105,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
@@ -161,7 +161,7 @@ VALUES (0x7D0D7020,  1542, 0xD0D70012, 69.00156, 33.35612, 4, 1, 0, 0, 0, False,
 /* @teleloc 0xD0D70012 [69.001560 33.356120 4.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D0D7020, 0x7D0D7021, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7D0D7020, 0x7D0D7021, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0D7021, 22576, 0xD0D70012, 69.00156, 33.35612, 4, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

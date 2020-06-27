@@ -5,36 +5,36 @@ VALUES (0x7B85F001,  1154, 0xB85F0004, 2.768415, 91.24937, 14, -0.6301897, 0, 0,
 /* @teleloc 0xB85F0004 [2.768415 91.249370 14.000000] -0.630190 0.000000 0.000000 -0.776441 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85F001, 0x7B85F002, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B85F001, 0x7B85F003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F004, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F005, '2019-02-10 00:00:00') /* Undead */
-     , (0x7B85F001, 0x7B85F006, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B85F001, 0x7B85F007, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B85F001, 0x7B85F008, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7B85F001, 0x7B85F009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B85F001, 0x7B85F00A, '2019-02-10 00:00:00') /* Undead */
-     , (0x7B85F001, 0x7B85F00B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F00C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F00D, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F00E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F00F, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F010, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F011, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B85F001, 0x7B85F012, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B85F001, 0x7B85F013, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B85F001, 0x7B85F014, '2019-02-10 00:00:00') /* Ethereal Wisp */
-     , (0x7B85F001, 0x7B85F015, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B85F001, 0x7B85F016, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B85F001, 0x7B85F017, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7B85F001, 0x7B85F018, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B85F001, 0x7B85F019, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B85F001, 0x7B85F01A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7B85F001, 0x7B85F01B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7B85F001, 0x7B85F01C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7B85F001, 0x7B85F01D, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7B85F001, 0x7B85F01E, '2019-02-10 00:00:00') /* Se Sclavus */
-     , (0x7B85F001, 0x7B85F01F, '2019-02-10 00:00:00') /* Zombie */;
+VALUES (0x7B85F001, 0x7B85F002, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B85F001, 0x7B85F003, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F004, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F005, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7B85F001, 0x7B85F006, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B85F001, 0x7B85F007, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B85F001, 0x7B85F008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B85F001, 0x7B85F009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B85F001, 0x7B85F00A, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7B85F001, 0x7B85F00B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F00C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F00D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F00E, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F00F, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F010, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F011, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B85F001, 0x7B85F012, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B85F001, 0x7B85F013, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B85F001, 0x7B85F014, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B85F001, 0x7B85F015, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B85F001, 0x7B85F016, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B85F001, 0x7B85F017, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7B85F001, 0x7B85F018, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B85F001, 0x7B85F019, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B85F001, 0x7B85F01A, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7B85F001, 0x7B85F01B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7B85F001, 0x7B85F01C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7B85F001, 0x7B85F01D, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7B85F001, 0x7B85F01E, '2019-02-10 00:00:00') /* Se Sclavus (2583) */
+     , (0x7B85F001, 0x7B85F01F, '2019-02-10 00:00:00') /* Zombie (950) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85F002,  1535, 0xB85F0004, 2.768415, 91.24937, 14, -0.6301897, 0, 0, -0.7764413,  True, '2019-02-10 00:00:00'); /* Ethereal Wisp */
@@ -161,12 +161,12 @@ VALUES (0x7B85F020,  1542, 0xB85F0005, 22.19411, 111.1797, 12.15049, -0.02398408
 /* @teleloc 0xB85F0005 [22.194110 111.179700 12.150490] -0.023984 0.000000 0.000000 -0.999712 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B85F020, 0x7B85F021, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x7B85F020, 0x7B85F022, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B85F020, 0x7B85F023, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7B85F020, 0x7B85F024, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7B85F020, 0x7B85F025, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7B85F020, 0x7B85F026, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B85F020, 0x7B85F021, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7B85F020, 0x7B85F022, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B85F020, 0x7B85F023, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x7B85F020, 0x7B85F024, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B85F020, 0x7B85F025, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7B85F020, 0x7B85F026, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B85F021,  8041, 0xB85F0005, 22.19411, 111.1797, 12.15049, -0.02398408, 0, 0, -0.9997123,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

@@ -5,18 +5,18 @@ VALUES (0x723DB001,  1154, 0x23DB000C, 30.4067, 88.7401, 7.991, -0.7823901, 0, 0
 /* @teleloc 0x23DB000C [30.406700 88.740100 7.991000] -0.782390 0.000000 0.000000 -0.622789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723DB001, 0x723DB002, '2019-02-10 00:00:00') /* Brutish Monouga */
-     , (0x723DB001, 0x723DB003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x723DB001, 0x723DB004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x723DB001, 0x723DB005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x723DB001, 0x723DB006, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x723DB001, 0x723DB007, '2019-02-10 00:00:00') /* Portobello Thrungus */
-     , (0x723DB001, 0x723DB008, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x723DB001, 0x723DB009, '2019-02-10 00:00:00') /* Frost */
-     , (0x723DB001, 0x723DB00A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x723DB001, 0x723DB00B, '2019-02-10 00:00:00') /* Esper Ursuin */
-     , (0x723DB001, 0x723DB00C, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x723DB001, 0x723DB00D, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x723DB001, 0x723DB002, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x723DB001, 0x723DB003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x723DB001, 0x723DB004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x723DB001, 0x723DB005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x723DB001, 0x723DB006, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x723DB001, 0x723DB007, '2019-02-10 00:00:00') /* Portobello Thrungus (28675) */
+     , (0x723DB001, 0x723DB008, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x723DB001, 0x723DB009, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x723DB001, 0x723DB00A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x723DB001, 0x723DB00B, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x723DB001, 0x723DB00C, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x723DB001, 0x723DB00D, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DB002,  9251, 0x23DB000C, 30.4067, 88.7401, 7.991, -0.7823901, 0, 0, -0.6227886,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */

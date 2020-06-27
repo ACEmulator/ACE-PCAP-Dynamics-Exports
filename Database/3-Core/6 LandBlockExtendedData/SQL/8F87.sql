@@ -5,9 +5,9 @@ VALUES (0x78F87001,  1154, 0x8F87000A, 45.56732, 30.30376, 64.93327, 0.7071068, 
 /* @teleloc 0x8F87000A [45.567320 30.303760 64.933270] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F87001, 0x78F87002, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x78F87001, 0x78F87003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x78F87001, 0x78F87004, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x78F87001, 0x78F87002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x78F87001, 0x78F87003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x78F87001, 0x78F87004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F87002,  1762, 0x8F87000A, 45.56732, 30.30376, 64.93327, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */

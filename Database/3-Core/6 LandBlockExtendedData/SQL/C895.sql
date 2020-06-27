@@ -5,8 +5,8 @@ VALUES (0x7C895001,  1154, 0xC8950015, 51.19188, 111.4976, 10.27099, -0.8657007,
 /* @teleloc 0xC8950015 [51.191880 111.497600 10.270990] -0.865701 0.000000 0.000000 -0.500562 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C895001, 0x7C895002, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7C895001, 0x7C895003, '2019-02-10 00:00:00') /* Field Ursuin */;
+VALUES (0x7C895001, 0x7C895002, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7C895001, 0x7C895003, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C895002,   944, 0xC8950015, 51.19188, 111.4976, 10.27099, -0.8657007, 0, 0, -0.500562,  True, '2019-02-10 00:00:00'); /* Mite Digger */

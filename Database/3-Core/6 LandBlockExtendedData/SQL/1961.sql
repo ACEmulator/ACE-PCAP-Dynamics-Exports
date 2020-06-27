@@ -5,15 +5,15 @@ VALUES (0x71961001,  1154, 0x1961000F, 46.07561, 158.7893, 30.77406, 0.6427876, 
 /* @teleloc 0x1961000F [46.075610 158.789300 30.774060] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71961001, 0x71961002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x71961001, 0x71961003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71961001, 0x71961004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x71961001, 0x71961005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x71961001, 0x71961006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x71961001, 0x71961007, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x71961001, 0x71961008, '2019-02-10 00:00:00') /* Lesser Void Knight */
-     , (0x71961001, 0x71961009, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x71961001, 0x7196100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x71961001, 0x71961002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x71961001, 0x71961003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71961001, 0x71961004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x71961001, 0x71961005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x71961001, 0x71961006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x71961001, 0x71961007, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71961001, 0x71961008, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x71961001, 0x71961009, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x71961001, 0x7196100A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71961002,  8431, 0x1961000F, 46.07561, 158.7893, 30.77406, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -56,7 +56,7 @@ VALUES (0x7196100B,  1542, 0x19610018, 52.10804, 185.3605, 30.34234, 0.9990482, 
 /* @teleloc 0x19610018 [52.108040 185.360500 30.342340] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7196100B, 0x7196100C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7196100B, 0x7196100C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7196100C,  4179, 0x19610018, 52.10804, 185.3605, 30.34234, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

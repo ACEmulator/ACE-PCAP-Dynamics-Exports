@@ -5,9 +5,9 @@ VALUES (0x742AF001,  1154, 0x42AF001D, 84.05561, 116.3842, 72.29955, -0.7836931,
 /* @teleloc 0x42AF001D [84.055610 116.384200 72.299550] -0.783693 0.000000 0.000000 -0.621148 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742AF001, 0x742AF002, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x742AF001, 0x742AF003, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x742AF001, 0x742AF004, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x742AF001, 0x742AF002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x742AF001, 0x742AF003, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x742AF001, 0x742AF004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742AF002,  7123, 0x42AF001D, 84.05561, 116.3842, 72.29955, -0.7836931, 0, 0, -0.6211482,  True, '2019-02-10 00:00:00'); /* Dark Leech */

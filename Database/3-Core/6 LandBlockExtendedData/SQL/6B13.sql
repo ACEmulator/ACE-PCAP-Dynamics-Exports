@@ -5,10 +5,10 @@ VALUES (0x76B13001,  1154, 0x6B130037, 151.3456, 162.5836, 12.005, 0.8111286, 0,
 /* @teleloc 0x6B130037 [151.345600 162.583600 12.005000] 0.811129 0.000000 0.000000 -0.584868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76B13001, 0x76B13002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76B13001, 0x76B13003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x76B13001, 0x76B13004, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x76B13001, 0x76B13005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x76B13001, 0x76B13002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76B13001, 0x76B13003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x76B13001, 0x76B13004, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x76B13001, 0x76B13005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76B13002,  4253, 0x6B130037, 151.3456, 162.5836, 12.005, 0.8111286, 0, 0, -0.5848678,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

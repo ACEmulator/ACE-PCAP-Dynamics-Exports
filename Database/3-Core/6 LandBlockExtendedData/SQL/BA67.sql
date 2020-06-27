@@ -5,16 +5,16 @@ VALUES (0x7BA67001,  1154, 0xBA670035, 155.3139, 102.1106, 5.1045, -0.8137748, 0
 /* @teleloc 0xBA670035 [155.313900 102.110600 5.104500] -0.813775 0.000000 0.000000 -0.581180 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA67001, 0x7BA67002, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA67001, 0x7BA67003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA67001, 0x7BA67004, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BA67001, 0x7BA67005, '2019-02-10 00:00:00') /* Stringent */
-     , (0x7BA67001, 0x7BA67006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BA67001, 0x7BA67007, '2019-02-10 00:00:00') /* Swamp Gromnie */
-     , (0x7BA67001, 0x7BA67008, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA67001, 0x7BA67009, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7BA67001, 0x7BA6700A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA67001, 0x7BA6700B, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7BA67001, 0x7BA67002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA67001, 0x7BA67003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA67001, 0x7BA67004, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BA67001, 0x7BA67005, '2019-02-10 00:00:00') /* Stringent (21162) */
+     , (0x7BA67001, 0x7BA67006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BA67001, 0x7BA67007, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7BA67001, 0x7BA67008, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA67001, 0x7BA67009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BA67001, 0x7BA6700A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA67001, 0x7BA6700B, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA67002,  1614, 0xBA670035, 155.3139, 102.1106, 5.1045, -0.8137748, 0, 0, -0.5811803,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */

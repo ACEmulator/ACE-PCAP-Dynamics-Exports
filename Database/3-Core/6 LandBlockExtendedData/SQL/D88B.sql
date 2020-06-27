@@ -5,22 +5,22 @@ VALUES (0x7D88B001,  1154, 0xD88B0031, 153.0975, 7.295792, 1.251875, 0.788815, 0
 /* @teleloc 0xD88B0031 [153.097500 7.295792 1.251875] 0.788815 0.000000 0.000000 -0.614631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D88B001, 0x7D88B002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D88B001, 0x7D88B003, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D88B001, 0x7D88B004, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88B001, 0x7D88B005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D88B001, 0x7D88B006, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7D88B001, 0x7D88B007, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88B001, 0x7D88B008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7D88B001, 0x7D88B009, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7D88B001, 0x7D88B00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7D88B001, 0x7D88B00B, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7D88B001, 0x7D88B00C, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7D88B001, 0x7D88B00D, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D88B001, 0x7D88B00E, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D88B001, 0x7D88B00F, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7D88B001, 0x7D88B010, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x7D88B001, 0x7D88B011, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7D88B001, 0x7D88B002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D88B001, 0x7D88B003, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D88B001, 0x7D88B004, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88B001, 0x7D88B005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D88B001, 0x7D88B006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D88B001, 0x7D88B007, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88B001, 0x7D88B008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7D88B001, 0x7D88B009, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7D88B001, 0x7D88B00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7D88B001, 0x7D88B00B, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D88B001, 0x7D88B00C, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7D88B001, 0x7D88B00D, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D88B001, 0x7D88B00E, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D88B001, 0x7D88B00F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7D88B001, 0x7D88B010, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x7D88B001, 0x7D88B011, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D88B002, 11531, 0xD88B0031, 153.0975, 7.295792, 1.251875, 0.788815, 0, 0, -0.6146307,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -91,7 +91,7 @@ VALUES (0x7D88B012,  1542, 0xD88B003A, 173.5137, 46.98412, 0, 1, 0, 0, 0, False,
 /* @teleloc 0xD88B003A [173.513700 46.984120 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D88B012, 0x7D88B013, '2019-02-10 00:00:00') /* Idol */;
+VALUES (0x7D88B012, 0x7D88B013, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D88B013,  8588, 0xD88B003A, 173.5137, 46.98412, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

@@ -5,9 +5,9 @@ VALUES (0x7DA26001,  1154, 0xDA260011, 65.74327, 9.502118, 270.5169, -0.5266701,
 /* @teleloc 0xDA260011 [65.743270 9.502118 270.516900] -0.526670 0.000000 0.000000 -0.850070 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DA26001, 0x7DA26002, '2019-02-10 00:00:00') /* Frost */
-     , (0x7DA26001, 0x7DA26003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7DA26001, 0x7DA26004, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7DA26001, 0x7DA26002, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7DA26001, 0x7DA26003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7DA26001, 0x7DA26004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DA26002, 14517, 0xDA260011, 65.74327, 9.502118, 270.5169, -0.5266701, 0, 0, -0.8500698,  True, '2019-02-10 00:00:00'); /* Frost */

@@ -13,93 +13,93 @@ VALUES (0x79EE5002,  1154, 0x9EE50107, 107.923, 35.9326, 82.0066, 0.327922, 0, 0
 /* @teleloc 0x9EE50107 [107.923000 35.932600 82.006600] 0.327922 0.000000 0.000000 -0.944705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EE5002, 0x79EE5003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5008, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5009, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE500A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE500B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE500C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE500D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE500E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE500F, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard */
-     , (0x79EE5002, 0x79EE5010, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5016, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5019, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE501F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5020, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5021, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5022, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5023, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire */
-     , (0x79EE5002, 0x79EE5024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5025, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5026, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5029, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE502A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE502B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE502C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE502D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE502E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE502F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5030, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5031, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5032, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5033, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5034, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5035, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5036, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5037, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5038, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5039, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE503A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE503B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE503C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE503D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE503E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE503F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5040, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5041, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5042, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5043, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower */
-     , (0x79EE5002, 0x79EE5044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5046, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE5047, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x79EE5002, 0x79EE5048, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5049, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE504A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE504B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE504C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE504D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE504E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman */
-     , (0x79EE5002, 0x79EE504F, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5050, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5051, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5052, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5053, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5054, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman */
-     , (0x79EE5002, 0x79EE5055, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier */
-     , (0x79EE5002, 0x79EE5057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */
-     , (0x79EE5002, 0x79EE5059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun */;
+VALUES (0x79EE5002, 0x79EE5003, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5004, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5005, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5006, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5007, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5008, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5009, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE500A, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE500B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE500C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE500D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE500E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE500F, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Courtyard (38107) */
+     , (0x79EE5002, 0x79EE5010, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5011, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5012, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5013, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5014, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5016, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5019, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE501B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE501C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE501D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE501F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5020, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5021, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5022, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5023, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Spire (38113) */
+     , (0x79EE5002, 0x79EE5024, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5025, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5026, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5029, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE502A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE502D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE502E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE502F, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5030, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5031, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5032, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5033, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5034, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5035, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5036, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5037, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5038, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5039, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE503A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE503B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE503C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE503D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE503E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE503F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5040, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5041, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5042, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5043, '2019-02-10 00:00:00') /* Creeping Blight Banner of the Tower (38119) */
+     , (0x79EE5002, 0x79EE5044, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5045, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE5046, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE5047, '2019-02-10 00:00:00') /* Exploration Marker (39773) */
+     , (0x79EE5002, 0x79EE5048, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5049, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE504A, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE504B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE504C, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE504D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE504E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE504F, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5050, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5051, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5052, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5053, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5054, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE5055, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38873) */
+     , (0x79EE5002, 0x79EE5056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE5057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE5058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
+     , (0x79EE5002, 0x79EE5059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5003, 38872, 0x9EE50107, 107.923, 35.9326, 82.0066, 0.327922, 0, 0, -0.944705,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */

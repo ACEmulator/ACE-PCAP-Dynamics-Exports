@@ -5,23 +5,23 @@ VALUES (0x7CC92001,  1154, 0xCC920030, 140.2132, 175.3067, 24.62303, -0.673155, 
 /* @teleloc 0xCC920030 [140.213200 175.306700 24.623030] -0.673155 0.000000 0.000000 -0.739501 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC92001, 0x7CC92002, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC92001, 0x7CC92003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CC92001, 0x7CC92004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CC92001, 0x7CC92005, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CC92001, 0x7CC92006, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x7CC92001, 0x7CC92007, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC92001, 0x7CC92008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC92001, 0x7CC92009, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC92001, 0x7CC9200A, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC92001, 0x7CC9200B, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x7CC92001, 0x7CC9200C, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7CC92001, 0x7CC9200D, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7CC92001, 0x7CC9200E, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7CC92001, 0x7CC9200F, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC92001, 0x7CC92010, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7CC92001, 0x7CC92011, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CC92001, 0x7CC92012, '2019-02-10 00:00:00') /* Skeleton Warrior */;
+VALUES (0x7CC92001, 0x7CC92002, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC92001, 0x7CC92003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CC92001, 0x7CC92004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CC92001, 0x7CC92005, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CC92001, 0x7CC92006, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x7CC92001, 0x7CC92007, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC92001, 0x7CC92008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC92001, 0x7CC92009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC92001, 0x7CC9200A, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC92001, 0x7CC9200B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x7CC92001, 0x7CC9200C, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7CC92001, 0x7CC9200D, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7CC92001, 0x7CC9200E, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7CC92001, 0x7CC9200F, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC92001, 0x7CC92010, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7CC92001, 0x7CC92011, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CC92001, 0x7CC92012, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC92002,  2575, 0xCC920030, 140.2132, 175.3067, 24.62303, -0.673155, 0, 0, -0.7395014,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -96,7 +96,7 @@ VALUES (0x7CC92013,  1542, 0xCC920033, 145.0088, 55.97796, 21.91743, -0.3529807,
 /* @teleloc 0xCC920033 [145.008800 55.977960 21.917430] -0.352981 0.000000 0.000000 -0.935631 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC92013, 0x7CC92014, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7CC92013, 0x7CC92014, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC92014, 15715, 0xCC920033, 145.0088, 55.97796, 21.91743, -0.3529807, 0, 0, -0.9356306,  True, '2019-02-10 00:00:00'); /* Sunflower */

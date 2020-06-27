@@ -9,16 +9,16 @@ VALUES (0x7C48D001,  1154, 0xC48D000E, 24.37743, 139.1588, 16.40794, 0.7071068, 
 /* @teleloc 0xC48D000E [24.377430 139.158800 16.407940] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C48D001, 0x7C48D002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C48D001, 0x7C48D003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C48D001, 0x7C48D004, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C48D001, 0x7C48D005, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C48D001, 0x7C48D006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C48D001, 0x7C48D007, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C48D001, 0x7C48D008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C48D001, 0x7C48D009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C48D001, 0x7C48D00A, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C48D001, 0x7C48D00B, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7C48D001, 0x7C48D002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C48D001, 0x7C48D003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C48D001, 0x7C48D004, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C48D001, 0x7C48D005, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C48D001, 0x7C48D006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C48D001, 0x7C48D007, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C48D001, 0x7C48D008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C48D001, 0x7C48D009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C48D001, 0x7C48D00A, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C48D001, 0x7C48D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C48D002,  1613, 0xC48D000E, 24.37743, 139.1588, 16.40794, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */

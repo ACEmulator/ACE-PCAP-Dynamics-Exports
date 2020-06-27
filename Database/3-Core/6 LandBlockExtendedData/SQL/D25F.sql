@@ -5,10 +5,10 @@ VALUES (0x7D25F001,  1154, 0xD25F0038, 149.4678, 186.8399, 5.5555, 0.7248181, 0,
 /* @teleloc 0xD25F0038 [149.467800 186.839900 5.555500] 0.724818 0.000000 0.000000 -0.688940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D25F001, 0x7D25F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D25F001, 0x7D25F003, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7D25F001, 0x7D25F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D25F001, 0x7D25F005, '2019-02-10 00:00:00') /* Barker Mosswart */;
+VALUES (0x7D25F001, 0x7D25F002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D25F001, 0x7D25F003, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7D25F001, 0x7D25F004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D25F001, 0x7D25F005, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D25F002,   211, 0xD25F0038, 149.4678, 186.8399, 5.5555, 0.7248181, 0, 0, -0.6889403,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */

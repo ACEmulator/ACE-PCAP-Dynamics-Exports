@@ -5,16 +5,16 @@ VALUES (0x7C59B001,  1154, 0xC59B0025, 99.07018, 113.2565, 2.264773, 0.6230119, 
 /* @teleloc 0xC59B0025 [99.070180 113.256500 2.264773] 0.623012 0.000000 0.000000 -0.782212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C59B001, 0x7C59B002, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C59B001, 0x7C59B003, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7C59B001, 0x7C59B004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C59B001, 0x7C59B005, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C59B001, 0x7C59B006, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C59B001, 0x7C59B007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C59B001, 0x7C59B008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C59B001, 0x7C59B009, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C59B001, 0x7C59B00A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C59B001, 0x7C59B00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */;
+VALUES (0x7C59B001, 0x7C59B002, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C59B001, 0x7C59B003, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7C59B001, 0x7C59B004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C59B001, 0x7C59B005, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C59B001, 0x7C59B006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C59B001, 0x7C59B007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C59B001, 0x7C59B008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C59B001, 0x7C59B009, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C59B001, 0x7C59B00A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C59B001, 0x7C59B00B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C59B002,   177, 0xC59B0025, 99.07018, 113.2565, 2.264773, 0.6230119, 0, 0, -0.7822123,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
@@ -61,7 +61,7 @@ VALUES (0x7C59B00C,  1542, 0xC59B003C, 190.193, 93.22076, 2, 1, 0, 0, 0, False, 
 /* @teleloc 0xC59B003C [190.193000 93.220760 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C59B00C, 0x7C59B00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C59B00C, 0x7C59B00D, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C59B00D, 22572, 0xC59B003C, 190.193, 93.22076, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

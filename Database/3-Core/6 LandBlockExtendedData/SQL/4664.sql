@@ -5,13 +5,13 @@ VALUES (0x74664001,  1154, 0x4664003C, 191.7337, 93.71265, 34, 0.9659258, 0, 0, 
 /* @teleloc 0x4664003C [191.733700 93.712650 34.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74664001, 0x74664002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x74664001, 0x74664003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74664001, 0x74664004, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74664001, 0x74664005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74664001, 0x74664006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x74664001, 0x74664007, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74664001, 0x74664008, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x74664001, 0x74664002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x74664001, 0x74664003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74664001, 0x74664004, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74664001, 0x74664005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74664001, 0x74664006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x74664001, 0x74664007, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74664001, 0x74664008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74664002,  5497, 0x4664003C, 191.7337, 93.71265, 34, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Director */

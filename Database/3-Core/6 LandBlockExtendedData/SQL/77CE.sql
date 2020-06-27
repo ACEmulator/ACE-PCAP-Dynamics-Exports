@@ -5,9 +5,9 @@ VALUES (0x777CE001,  1154, 0x77CE0017, 55.55082, 164.3499, 216.3087, 0.7071068, 
 /* @teleloc 0x77CE0017 [55.550820 164.349900 216.308700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777CE001, 0x777CE002, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x777CE001, 0x777CE003, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x777CE001, 0x777CE004, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x777CE001, 0x777CE002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x777CE001, 0x777CE003, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x777CE001, 0x777CE004, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777CE002, 24280, 0x77CE0017, 55.55082, 164.3499, 216.3087, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Murk Drudge */

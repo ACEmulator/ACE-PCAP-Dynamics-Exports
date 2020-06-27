@@ -5,18 +5,18 @@ VALUES (0x71482001,  1154, 0x14820017, 68.49154, 156.1849, 106.8643, -0.145572, 
 /* @teleloc 0x14820017 [68.491540 156.184900 106.864300] -0.145572 0.000000 0.000000 -0.989348 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71482001, 0x71482002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x71482001, 0x71482003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71482001, 0x71482004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71482001, 0x71482005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x71482001, 0x71482006, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x71482001, 0x71482007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71482001, 0x71482008, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x71482001, 0x71482009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x71482001, 0x7148200A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x71482001, 0x7148200B, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71482001, 0x7148200C, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x71482001, 0x7148200D, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x71482001, 0x71482002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x71482001, 0x71482003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71482001, 0x71482004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71482001, 0x71482005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71482001, 0x71482006, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71482001, 0x71482007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71482001, 0x71482008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x71482001, 0x71482009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x71482001, 0x7148200A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x71482001, 0x7148200B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71482001, 0x7148200C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x71482001, 0x7148200D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71482002, 36833, 0x14820017, 68.49154, 156.1849, 106.8643, -0.145572, 0, 0, -0.9893476,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

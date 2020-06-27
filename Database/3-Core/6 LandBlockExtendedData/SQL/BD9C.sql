@@ -5,18 +5,18 @@ VALUES (0x7BD9C001,  1154, 0xBD9C0006, 18.75125, 135.2596, 9.625805, -0.9995866,
 /* @teleloc 0xBD9C0006 [18.751250 135.259600 9.625805] -0.999587 0.000000 0.000000 -0.028749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD9C001, 0x7BD9C002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD9C001, 0x7BD9C003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD9C001, 0x7BD9C004, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7BD9C001, 0x7BD9C005, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD9C001, 0x7BD9C006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD9C001, 0x7BD9C007, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD9C001, 0x7BD9C008, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD9C001, 0x7BD9C009, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BD9C001, 0x7BD9C00A, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BD9C001, 0x7BD9C00B, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD9C001, 0x7BD9C00C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD9C001, 0x7BD9C00D, '2019-02-10 00:00:00') /* Azure Gromnie */;
+VALUES (0x7BD9C001, 0x7BD9C002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD9C001, 0x7BD9C003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD9C001, 0x7BD9C004, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7BD9C001, 0x7BD9C005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD9C001, 0x7BD9C006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD9C001, 0x7BD9C007, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD9C001, 0x7BD9C008, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD9C001, 0x7BD9C009, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BD9C001, 0x7BD9C00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BD9C001, 0x7BD9C00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD9C001, 0x7BD9C00C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD9C001, 0x7BD9C00D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD9C002,  4109, 0xBD9C0006, 18.75125, 135.2596, 9.625805, -0.9995866, 0, 0, -0.02874875,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */

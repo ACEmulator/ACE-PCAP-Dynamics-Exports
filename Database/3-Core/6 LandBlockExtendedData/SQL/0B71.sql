@@ -5,12 +5,12 @@ VALUES (0x70B71001,  1154, 0x0B71002F, 129.4482, 156.0426, 90.00455, -0.991998, 
 /* @teleloc 0x0B71002F [129.448200 156.042600 90.004550] -0.991998 0.000000 0.000000 -0.126253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B71001, 0x70B71002, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70B71001, 0x70B71003, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x70B71001, 0x70B71004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70B71001, 0x70B71005, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70B71001, 0x70B71006, '2019-02-10 00:00:00') /* Bane Grievver */
-     , (0x70B71001, 0x70B71007, '2019-02-10 00:00:00') /* Destroyer Grievver */;
+VALUES (0x70B71001, 0x70B71002, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70B71001, 0x70B71003, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x70B71001, 0x70B71004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70B71001, 0x70B71005, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70B71001, 0x70B71006, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x70B71001, 0x70B71007, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B71002, 36821, 0x0B71002F, 129.4482, 156.0426, 90.00455, -0.991998, 0, 0, -0.1262533,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */

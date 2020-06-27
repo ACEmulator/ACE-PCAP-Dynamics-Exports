@@ -5,19 +5,19 @@ VALUES (0x7DF7D001,  1154, 0xDF7D0034, 152.7063, 76.69449, -0.8988001, 0.9537169
 /* @teleloc 0xDF7D0034 [152.706300 76.694490 -0.898800] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DF7D001, 0x7DF7D002, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7DF7D001, 0x7DF7D003, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DF7D001, 0x7DF7D004, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7DF7D001, 0x7DF7D005, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DF7D001, 0x7DF7D006, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DF7D001, 0x7DF7D007, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7DF7D001, 0x7DF7D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DF7D001, 0x7DF7D009, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x7DF7D001, 0x7DF7D00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DF7D001, 0x7DF7D00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DF7D001, 0x7DF7D00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7DF7D001, 0x7DF7D00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7DF7D001, 0x7DF7D00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x7DF7D001, 0x7DF7D002, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7DF7D001, 0x7DF7D003, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DF7D001, 0x7DF7D004, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7DF7D001, 0x7DF7D005, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DF7D001, 0x7DF7D006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DF7D001, 0x7DF7D007, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7DF7D001, 0x7DF7D008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DF7D001, 0x7DF7D009, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x7DF7D001, 0x7DF7D00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DF7D001, 0x7DF7D00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DF7D001, 0x7DF7D00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7DF7D001, 0x7DF7D00D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7DF7D001, 0x7DF7D00E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF7D002,  7109, 0xDF7D0034, 152.7063, 76.69449, -0.8988001, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */

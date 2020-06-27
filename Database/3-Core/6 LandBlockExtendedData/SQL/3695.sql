@@ -5,11 +5,11 @@ VALUES (0x73695001,  1154, 0x36950003, 19.60876, 67.00925, 31.01261, -0.7115857,
 /* @teleloc 0x36950003 [19.608760 67.009250 31.012610] -0.711586 0.000000 0.000000 -0.702599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73695001, 0x73695002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73695001, 0x73695003, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x73695001, 0x73695004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73695001, 0x73695005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73695001, 0x73695006, '2019-02-10 00:00:00') /* Sinister Shadow */;
+VALUES (0x73695001, 0x73695002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73695001, 0x73695003, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73695001, 0x73695004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73695001, 0x73695005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73695001, 0x73695006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73695002,  7081, 0x36950003, 19.60876, 67.00925, 31.01261, -0.7115857, 0, 0, -0.7025993,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

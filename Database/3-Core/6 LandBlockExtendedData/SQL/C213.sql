@@ -5,16 +5,16 @@ VALUES (0x7C213001,  1154, 0xC2130039, 176.6941, 23.82012, -0.8993001, 0.7071068
 /* @teleloc 0xC2130039 [176.694100 23.820120 -0.899300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C213001, 0x7C213002, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C213001, 0x7C213003, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C213001, 0x7C213004, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C213001, 0x7C213005, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7C213001, 0x7C213006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7C213001, 0x7C213007, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x7C213001, 0x7C213008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7C213001, 0x7C213009, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7C213001, 0x7C21300A, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7C213001, 0x7C21300B, '2019-02-10 00:00:00') /* Opor Niffis */;
+VALUES (0x7C213001, 0x7C213002, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C213001, 0x7C213003, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C213001, 0x7C213004, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C213001, 0x7C213005, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7C213001, 0x7C213006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7C213001, 0x7C213007, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x7C213001, 0x7C213008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7C213001, 0x7C213009, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7C213001, 0x7C21300A, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7C213001, 0x7C21300B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C213002,  7988, 0xC2130039, 176.6941, 23.82012, -0.8993001, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */

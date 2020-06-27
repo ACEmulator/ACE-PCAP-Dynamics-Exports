@@ -5,11 +5,11 @@ VALUES (0x71E35001,  1154, 0x1E350013, 62.85832, 49.6416, 126, 0.9659258, 0, 0, 
 /* @teleloc 0x1E350013 [62.858320 49.641600 126.000000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71E35001, 0x71E35002, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71E35001, 0x71E35003, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71E35001, 0x71E35004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x71E35001, 0x71E35005, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x71E35001, 0x71E35006, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x71E35001, 0x71E35002, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71E35001, 0x71E35003, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71E35001, 0x71E35004, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x71E35001, 0x71E35005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x71E35001, 0x71E35006, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71E35002, 36850, 0x1E350013, 62.85832, 49.6416, 126, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */

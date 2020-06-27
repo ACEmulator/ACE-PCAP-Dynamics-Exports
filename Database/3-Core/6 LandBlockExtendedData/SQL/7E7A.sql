@@ -5,22 +5,22 @@ VALUES (0x77E7A001,  1154, 0x7E7A0024, 99.28564, 79.48147, 50.49642, -0.3370183,
 /* @teleloc 0x7E7A0024 [99.285640 79.481470 50.496420] -0.337018 0.000000 0.000000 -0.941498 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E7A001, 0x77E7A002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x77E7A001, 0x77E7A003, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x77E7A001, 0x77E7A004, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x77E7A001, 0x77E7A005, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x77E7A001, 0x77E7A006, '2019-02-10 00:00:00') /* Gout */
-     , (0x77E7A001, 0x77E7A007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x77E7A001, 0x77E7A008, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x77E7A001, 0x77E7A009, '2019-02-10 00:00:00') /* Two Headed Snowman */
-     , (0x77E7A001, 0x77E7A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77E7A001, 0x77E7A00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77E7A001, 0x77E7A00C, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x77E7A001, 0x77E7A00D, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x77E7A001, 0x77E7A00E, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x77E7A001, 0x77E7A00F, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x77E7A001, 0x77E7A010, '2019-02-10 00:00:00') /* Fragment */
-     , (0x77E7A001, 0x77E7A011, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x77E7A001, 0x77E7A002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x77E7A001, 0x77E7A003, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x77E7A001, 0x77E7A004, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x77E7A001, 0x77E7A005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x77E7A001, 0x77E7A006, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x77E7A001, 0x77E7A007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x77E7A001, 0x77E7A008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x77E7A001, 0x77E7A009, '2019-02-10 00:00:00') /* Two Headed Snowman (14466) */
+     , (0x77E7A001, 0x77E7A00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77E7A001, 0x77E7A00B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77E7A001, 0x77E7A00C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x77E7A001, 0x77E7A00D, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x77E7A001, 0x77E7A00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x77E7A001, 0x77E7A00F, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x77E7A001, 0x77E7A010, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x77E7A001, 0x77E7A011, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E7A002, 19439, 0x7E7A0024, 99.28564, 79.48147, 50.49642, -0.3370183, 0, 0, -0.9414981,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */
@@ -91,7 +91,7 @@ VALUES (0x77E7A012,  1542, 0x7E7A003B, 173.5207, 54.72321, 41.22075, 1, 0, 0, 0,
 /* @teleloc 0x7E7A003B [173.520700 54.723210 41.220750] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77E7A012, 0x77E7A013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x77E7A012, 0x77E7A013, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77E7A013, 22570, 0x7E7A003B, 173.5207, 54.72321, 41.22075, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7C657001,  1154, 0xC6570028, 108.5465, 184.287, 11.9961, 0.9997593, 0,
 /* @teleloc 0xC6570028 [108.546500 184.287000 11.996100] 0.999759 0.000000 0.000000 -0.021938 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C657001, 0x7C657002, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7C657001, 0x7C657003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C657001, 0x7C657004, '2019-02-10 00:00:00') /* Olthoi Needler */;
+VALUES (0x7C657001, 0x7C657002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7C657001, 0x7C657003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C657001, 0x7C657004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C657002, 24959, 0xC6570028, 108.5465, 184.287, 11.9961, 0.9997593, 0, 0, -0.02193789,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */

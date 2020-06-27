@@ -5,10 +5,10 @@ VALUES (0x7EA48001,  1154, 0xEA48000F, 37.1689, 166.8567, 10.01, 0.9020733, 0, 0
 /* @teleloc 0xEA48000F [37.168900 166.856700 10.010000] 0.902073 0.000000 0.000000 -0.431583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA48001, 0x7EA48002, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7EA48001, 0x7EA48003, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7EA48001, 0x7EA48004, '2019-02-10 00:00:00') /* Great Mattekar */
-     , (0x7EA48001, 0x7EA48005, '2019-02-10 00:00:00') /* Red Rat */;
+VALUES (0x7EA48001, 0x7EA48002, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7EA48001, 0x7EA48003, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7EA48001, 0x7EA48004, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7EA48001, 0x7EA48005, '2019-02-10 00:00:00') /* Red Rat (949) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA48002,   942, 0xEA48000F, 37.1689, 166.8567, 10.01, 0.9020733, 0, 0, -0.4315829,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -31,7 +31,7 @@ VALUES (0x7EA48006,  1542, 0xEA480008, 18.74056, 187.8436, 10, 0.7071068, 0, 0, 
 /* @teleloc 0xEA480008 [18.740560 187.843600 10.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA48006, 0x7EA48007, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7EA48006, 0x7EA48007, '2019-02-10 00:00:00') /* Snowman (9008) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA48007,  9008, 0xEA480008, 18.74056, 187.8436, 10, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */

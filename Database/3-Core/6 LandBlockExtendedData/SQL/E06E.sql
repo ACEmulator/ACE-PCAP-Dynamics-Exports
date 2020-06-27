@@ -5,14 +5,14 @@ VALUES (0x7E06E001,  1154, 0xE06E0018, 53.00274, 183.992, 0.0004999638, -0.95691
 /* @teleloc 0xE06E0018 [53.002740 183.992000 0.000500] -0.956915 0.000000 0.000000 -0.290369 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E06E001, 0x7E06E002, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x7E06E001, 0x7E06E003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7E06E001, 0x7E06E004, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7E06E001, 0x7E06E005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7E06E001, 0x7E06E006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E06E001, 0x7E06E007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7E06E001, 0x7E06E008, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7E06E001, 0x7E06E009, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7E06E001, 0x7E06E002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x7E06E001, 0x7E06E003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7E06E001, 0x7E06E004, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E06E001, 0x7E06E005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7E06E001, 0x7E06E006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E06E001, 0x7E06E007, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7E06E001, 0x7E06E008, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7E06E001, 0x7E06E009, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E06E002,  7987, 0xE06E0018, 53.00274, 183.992, 0.0004999638, -0.9569148, 0, 0, -0.2903689,  True, '2019-02-10 00:00:00'); /* Opor Niffis */

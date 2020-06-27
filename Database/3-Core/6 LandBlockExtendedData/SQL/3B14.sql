@@ -5,15 +5,15 @@ VALUES (0x73B14001,  1154, 0x3B140026, 105.9321, 120.1975, 119.9812, 0.7372774, 
 /* @teleloc 0x3B140026 [105.932100 120.197500 119.981200] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B14001, 0x73B14002, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73B14001, 0x73B14003, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73B14001, 0x73B14004, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73B14001, 0x73B14005, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x73B14001, 0x73B14006, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x73B14001, 0x73B14007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73B14001, 0x73B14008, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73B14001, 0x73B14009, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x73B14001, 0x73B1400A, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x73B14001, 0x73B14002, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73B14001, 0x73B14003, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73B14001, 0x73B14004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73B14001, 0x73B14005, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73B14001, 0x73B14006, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x73B14001, 0x73B14007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73B14001, 0x73B14008, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73B14001, 0x73B14009, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x73B14001, 0x73B1400A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B14002,  7113, 0x3B140026, 105.9321, 120.1975, 119.9812, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Gauloth Shreth */

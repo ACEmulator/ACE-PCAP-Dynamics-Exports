@@ -5,23 +5,23 @@ VALUES (0x72D7B001,  1154, 0x2D7B002E, 135.7133, 133.8681, 230.556, 0.4035526, 0
 /* @teleloc 0x2D7B002E [135.713300 133.868100 230.556000] 0.403553 0.000000 0.000000 -0.914957 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D7B001, 0x72D7B002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D7B001, 0x72D7B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72D7B001, 0x72D7B004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72D7B001, 0x72D7B005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72D7B001, 0x72D7B006, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D7B001, 0x72D7B007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72D7B001, 0x72D7B008, '2019-02-10 00:00:00') /* Pugnacious Monouga */
-     , (0x72D7B001, 0x72D7B009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x72D7B001, 0x72D7B00A, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D7B001, 0x72D7B00B, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72D7B001, 0x72D7B00C, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D7B001, 0x72D7B00D, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D7B001, 0x72D7B00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x72D7B001, 0x72D7B00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72D7B001, 0x72D7B010, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72D7B001, 0x72D7B011, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72D7B001, 0x72D7B012, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x72D7B001, 0x72D7B002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D7B001, 0x72D7B003, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72D7B001, 0x72D7B004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72D7B001, 0x72D7B005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72D7B001, 0x72D7B006, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D7B001, 0x72D7B007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72D7B001, 0x72D7B008, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72D7B001, 0x72D7B009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72D7B001, 0x72D7B00A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D7B001, 0x72D7B00B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D7B001, 0x72D7B00C, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72D7B001, 0x72D7B00D, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D7B001, 0x72D7B00E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72D7B001, 0x72D7B00F, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72D7B001, 0x72D7B010, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D7B001, 0x72D7B011, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D7B001, 0x72D7B012, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D7B002, 23482, 0x2D7B002E, 135.7133, 133.8681, 230.556, 0.4035526, 0, 0, -0.9149565,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -96,7 +96,7 @@ VALUES (0x72D7B013,  1542, 0x2D7B0031, 145.4476, 7.005367, 223.3968, 1, 0, 0, 0,
 /* @teleloc 0x2D7B0031 [145.447600 7.005367 223.396800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D7B013, 0x72D7B014, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72D7B013, 0x72D7B014, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D7B014, 22571, 0x2D7B0031, 145.4476, 7.005367, 223.3968, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

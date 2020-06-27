@@ -5,11 +5,11 @@ VALUES (0x74CB2001,  1154, 0x4CB20028, 100.376, 169.5016, 89.1447, 0.9741567, 0,
 /* @teleloc 0x4CB20028 [100.376000 169.501600 89.144700] 0.974157 0.000000 0.000000 -0.225873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CB2001, 0x74CB2002, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74CB2001, 0x74CB2003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74CB2001, 0x74CB2004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x74CB2001, 0x74CB2005, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x74CB2001, 0x74CB2006, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x74CB2001, 0x74CB2002, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74CB2001, 0x74CB2003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74CB2001, 0x74CB2004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x74CB2001, 0x74CB2005, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x74CB2001, 0x74CB2006, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CB2002, 22519, 0x4CB20028, 100.376, 169.5016, 89.1447, 0.9741567, 0, 0, -0.225873,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */

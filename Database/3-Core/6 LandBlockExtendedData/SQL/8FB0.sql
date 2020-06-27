@@ -5,12 +5,12 @@ VALUES (0x78FB0001,  1154, 0x8FB00029, 135.8279, 2.25093, 48.00715, -0.5535513, 
 /* @teleloc 0x8FB00029 [135.827900 2.250930 48.007150] -0.553551 0.000000 0.000000 -0.832815 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78FB0001, 0x78FB0002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x78FB0001, 0x78FB0003, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78FB0001, 0x78FB0004, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x78FB0001, 0x78FB0005, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x78FB0001, 0x78FB0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x78FB0001, 0x78FB0007, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x78FB0001, 0x78FB0002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78FB0001, 0x78FB0003, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78FB0001, 0x78FB0004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78FB0001, 0x78FB0005, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78FB0001, 0x78FB0006, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x78FB0001, 0x78FB0007, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78FB0002,  7088, 0x8FB00029, 135.8279, 2.25093, 48.00715, -0.5535513, 0, 0, -0.8328151,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

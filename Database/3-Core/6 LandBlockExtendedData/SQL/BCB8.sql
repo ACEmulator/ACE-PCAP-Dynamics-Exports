@@ -5,11 +5,11 @@ VALUES (0x7BCB8001,  1154, 0xBCB80040, 175.4063, 176.2049, 207.4493, -0.7660444,
 /* @teleloc 0xBCB80040 [175.406300 176.204900 207.449300] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCB8001, 0x7BCB8002, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BCB8001, 0x7BCB8003, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7BCB8001, 0x7BCB8004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7BCB8001, 0x7BCB8005, '2019-02-10 00:00:00') /* Glacial Golem */
-     , (0x7BCB8001, 0x7BCB8006, '2019-02-10 00:00:00') /* Great Mattekar */;
+VALUES (0x7BCB8001, 0x7BCB8002, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BCB8001, 0x7BCB8003, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7BCB8001, 0x7BCB8004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7BCB8001, 0x7BCB8005, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7BCB8001, 0x7BCB8006, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCB8002,  9400, 0xBCB80040, 175.4063, 176.2049, 207.4493, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */

@@ -5,38 +5,38 @@ VALUES (0x71ABA001,  1154, 0x1ABA001F, 73.30733, 153.8307, 131.6165, 1, 0, 0, 0,
 /* @teleloc 0x1ABA001F [73.307330 153.830700 131.616500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABA001, 0x71ABA002, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA003, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA004, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA005, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA006, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA007, '2019-02-10 00:00:00') /* Feral Carenzi */
-     , (0x71ABA001, 0x71ABA008, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABA001, 0x71ABA009, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABA001, 0x71ABA00A, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABA001, 0x71ABA00B, '2019-02-10 00:00:00') /* Poacher */
-     , (0x71ABA001, 0x71ABA00C, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71ABA001, 0x71ABA00D, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71ABA001, 0x71ABA00E, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71ABA001, 0x71ABA00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA010, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71ABA001, 0x71ABA011, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x71ABA001, 0x71ABA012, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71ABA001, 0x71ABA013, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA014, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA015, '2019-02-10 00:00:00') /* Cultist */
-     , (0x71ABA001, 0x71ABA016, '2019-02-10 00:00:00') /* Aun Itealuan */
-     , (0x71ABA001, 0x71ABA017, '2019-02-10 00:00:00') /* Voltarc */
-     , (0x71ABA001, 0x71ABA018, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA019, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA01A, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x71ABA001, 0x71ABA01B, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x71ABA001, 0x71ABA01C, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71ABA001, 0x71ABA01D, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71ABA001, 0x71ABA01E, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71ABA001, 0x71ABA01F, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71ABA001, 0x71ABA020, '2019-02-10 00:00:00') /* Scintilla */
-     , (0x71ABA001, 0x71ABA021, '2019-02-10 00:00:00') /* Static */;
+VALUES (0x71ABA001, 0x71ABA002, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA003, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA007, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x71ABA001, 0x71ABA008, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABA001, 0x71ABA009, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABA001, 0x71ABA00A, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABA001, 0x71ABA00B, '2019-02-10 00:00:00') /* Poacher (11505) */
+     , (0x71ABA001, 0x71ABA00C, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71ABA001, 0x71ABA00D, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71ABA001, 0x71ABA00E, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71ABA001, 0x71ABA00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA010, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71ABA001, 0x71ABA011, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x71ABA001, 0x71ABA012, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71ABA001, 0x71ABA013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA014, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA015, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x71ABA001, 0x71ABA016, '2019-02-10 00:00:00') /* Aun Itealuan (11510) */
+     , (0x71ABA001, 0x71ABA017, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x71ABA001, 0x71ABA018, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA019, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA01A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x71ABA001, 0x71ABA01B, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x71ABA001, 0x71ABA01C, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71ABA001, 0x71ABA01D, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABA001, 0x71ABA01E, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71ABA001, 0x71ABA01F, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71ABA001, 0x71ABA020, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x71ABA001, 0x71ABA021, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABA002, 11493, 0x1ABA001F, 73.30733, 153.8307, 131.6165, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
@@ -171,17 +171,17 @@ VALUES (0x71ABA022,  1542, 0x1ABA0030, 122.1912, 187.5244, 129.7941, 1, 0, 0, 0,
 /* @teleloc 0x1ABA0030 [122.191200 187.524400 129.794100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71ABA022, 0x71ABA023, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x71ABA022, 0x71ABA024, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71ABA022, 0x71ABA025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71ABA022, 0x71ABA026, '2019-02-10 00:00:00') /* Simple Hive Portal */
-     , (0x71ABA022, 0x71ABA027, '2019-02-10 00:00:00') /* Cultist Altar */
-     , (0x71ABA022, 0x71ABA028, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x71ABA022, 0x71ABA029, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x71ABA022, 0x71ABA02A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71ABA022, 0x71ABA02B, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71ABA022, 0x71ABA02C, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x71ABA022, 0x71ABA02D, '2019-02-10 00:00:00') /* New Hive Portal */;
+VALUES (0x71ABA022, 0x71ABA023, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x71ABA022, 0x71ABA024, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71ABA022, 0x71ABA025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71ABA022, 0x71ABA026, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */
+     , (0x71ABA022, 0x71ABA027, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x71ABA022, 0x71ABA028, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x71ABA022, 0x71ABA029, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x71ABA022, 0x71ABA02A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71ABA022, 0x71ABA02B, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71ABA022, 0x71ABA02C, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x71ABA022, 0x71ABA02D, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABA023, 11227, 0x1ABA0030, 122.1912, 187.5244, 129.7941, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */

@@ -5,9 +5,9 @@ VALUES (0x779F3001,  1154, 0x79F30004, 7.954922, 86.34944, 79.36416, 0.8191521, 
 /* @teleloc 0x79F30004 [7.954922 86.349440 79.364160] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779F3001, 0x779F3002, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x779F3001, 0x779F3003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x779F3001, 0x779F3004, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x779F3001, 0x779F3002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x779F3001, 0x779F3003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x779F3001, 0x779F3004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779F3002, 23566, 0x79F30004, 7.954922, 86.34944, 79.36416, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -26,7 +26,7 @@ VALUES (0x779F3005,  1542, 0x79F30038, 166.7816, 180.5638, 46.85904, 1, 0, 0, 0,
 /* @teleloc 0x79F30038 [166.781600 180.563800 46.859040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779F3005, 0x779F3006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x779F3005, 0x779F3006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779F3006, 22571, 0x79F30038, 166.7816, 180.5638, 46.85904, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

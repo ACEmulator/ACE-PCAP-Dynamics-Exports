@@ -5,19 +5,19 @@ VALUES (0x72C3B001,  1154, 0x2C3B002D, 123.0246, 97.41541, 184.0004, -0.4959543,
 /* @teleloc 0x2C3B002D [123.024600 97.415410 184.000400] -0.495954 0.000000 0.000000 -0.868349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72C3B001, 0x72C3B002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72C3B001, 0x72C3B003, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C3B001, 0x72C3B004, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C3B001, 0x72C3B005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72C3B001, 0x72C3B006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x72C3B001, 0x72C3B007, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C3B001, 0x72C3B008, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C3B001, 0x72C3B009, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72C3B001, 0x72C3B00A, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x72C3B001, 0x72C3B00B, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72C3B001, 0x72C3B00C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72C3B001, 0x72C3B00D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x72C3B001, 0x72C3B00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver */;
+VALUES (0x72C3B001, 0x72C3B002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72C3B001, 0x72C3B003, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */
+     , (0x72C3B001, 0x72C3B004, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72C3B001, 0x72C3B005, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72C3B001, 0x72C3B006, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72C3B001, 0x72C3B007, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72C3B001, 0x72C3B008, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72C3B001, 0x72C3B009, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x72C3B001, 0x72C3B00A, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72C3B001, 0x72C3B00B, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72C3B001, 0x72C3B00C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72C3B001, 0x72C3B00D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72C3B001, 0x72C3B00E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C3B002, 22053, 0x2C3B002D, 123.0246, 97.41541, 184.0004, -0.4959543, 0, 0, -0.8683487,  True, '2019-02-10 00:00:00'); /* Assailer */

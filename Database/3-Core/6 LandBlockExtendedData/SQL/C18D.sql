@@ -5,23 +5,23 @@ VALUES (0x7C18D001,  1154, 0xC18D0027, 116.9783, 146.8967, 39.50403, 0.2518576, 
 /* @teleloc 0xC18D0027 [116.978300 146.896700 39.504030] 0.251858 0.000000 0.000000 -0.967764 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C18D001, 0x7C18D002, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C18D001, 0x7C18D003, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C18D001, 0x7C18D004, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C18D001, 0x7C18D005, '2019-02-10 00:00:00') /* Russet Rat */
-     , (0x7C18D001, 0x7C18D006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C18D001, 0x7C18D007, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C18D001, 0x7C18D008, '2019-02-10 00:00:00') /* Vorous Shreth */
-     , (0x7C18D001, 0x7C18D009, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C18D001, 0x7C18D00A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C18D001, 0x7C18D00B, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7C18D001, 0x7C18D00C, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C18D001, 0x7C18D00D, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7C18D001, 0x7C18D00E, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C18D001, 0x7C18D00F, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7C18D001, 0x7C18D010, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7C18D001, 0x7C18D011, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7C18D001, 0x7C18D012, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7C18D001, 0x7C18D002, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C18D001, 0x7C18D003, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C18D001, 0x7C18D004, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C18D001, 0x7C18D005, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7C18D001, 0x7C18D006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C18D001, 0x7C18D007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C18D001, 0x7C18D008, '2019-02-10 00:00:00') /* Vorous Shreth (4112) */
+     , (0x7C18D001, 0x7C18D009, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C18D001, 0x7C18D00A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C18D001, 0x7C18D00B, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7C18D001, 0x7C18D00C, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C18D001, 0x7C18D00D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C18D001, 0x7C18D00E, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C18D001, 0x7C18D00F, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7C18D001, 0x7C18D010, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7C18D001, 0x7C18D011, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7C18D001, 0x7C18D012, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C18D002,   182, 0xC18D0027, 116.9783, 146.8967, 39.50403, 0.2518576, 0, 0, -0.9677643,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -96,7 +96,7 @@ VALUES (0x7C18D013,  1542, 0xC18D003E, 178.4845, 136.7413, 41.91651, 1, 0, 0, 0,
 /* @teleloc 0xC18D003E [178.484500 136.741300 41.916510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C18D013, 0x7C18D014, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C18D013, 0x7C18D014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C18D014,  4179, 0xC18D003E, 178.4845, 136.7413, 41.91651, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

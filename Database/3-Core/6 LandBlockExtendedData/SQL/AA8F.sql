@@ -5,8 +5,8 @@ VALUES (0x7AA8F001,  1154, 0xAA8F0039, 185.769, 16.83675, 43.69993, -0.8880407, 
 /* @teleloc 0xAA8F0039 [185.769000 16.836750 43.699930] -0.888041 0.000000 0.000000 -0.459765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AA8F001, 0x7AA8F002, '2019-02-10 00:00:00') /* Lithos Lugian */
-     , (0x7AA8F001, 0x7AA8F003, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7AA8F001, 0x7AA8F002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
+     , (0x7AA8F001, 0x7AA8F003, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AA8F002,   206, 0xAA8F0039, 185.769, 16.83675, 43.69993, -0.8880407, 0, 0, -0.4597649,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */

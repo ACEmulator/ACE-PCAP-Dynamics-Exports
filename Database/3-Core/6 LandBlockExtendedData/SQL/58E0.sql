@@ -5,10 +5,10 @@ VALUES (0x758E0001,  1154, 0x58E0000E, 29.33135, 121.3829, 32.24368, 0.5664063, 
 /* @teleloc 0x58E0000E [29.331350 121.382900 32.243680] 0.566406 0.000000 0.000000 -0.824126 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758E0001, 0x758E0002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758E0001, 0x758E0003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758E0001, 0x758E0004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x758E0001, 0x758E0005, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x758E0001, 0x758E0002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758E0001, 0x758E0003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758E0001, 0x758E0004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x758E0001, 0x758E0005, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758E0002,  7184, 0x58E0000E, 29.33135, 121.3829, 32.24368, 0.5664063, 0, 0, -0.8241262,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -31,7 +31,7 @@ VALUES (0x758E0006,  1542, 0x58E00003, 17.36158, 64.27417, 22.71236, 0.9828544, 
 /* @teleloc 0x58E00003 [17.361580 64.274170 22.712360] 0.982854 0.000000 0.000000 -0.184384 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x758E0006, 0x758E0007, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x758E0006, 0x758E0007, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x758E0007, 11555, 0x58E00003, 17.36158, 64.27417, 22.71236, 0.9828544, 0, 0, -0.1843837,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

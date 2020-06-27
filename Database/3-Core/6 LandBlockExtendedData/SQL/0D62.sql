@@ -5,38 +5,38 @@ VALUES (0x70D62001,  1154, 0x0D620001, 10.36057, 23.23427, 4.201433, -0.4220968,
 /* @teleloc 0x0D620001 [10.360570 23.234270 4.201433] -0.422097 0.000000 0.000000 -0.906551 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D62001, 0x70D62002, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D62001, 0x70D62003, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70D62001, 0x70D62004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70D62001, 0x70D62005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70D62001, 0x70D62006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D62001, 0x70D62007, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D62001, 0x70D62008, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70D62001, 0x70D62009, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70D62001, 0x70D6200A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D62001, 0x70D6200B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70D62001, 0x70D6200C, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70D62001, 0x70D6200D, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70D62001, 0x70D6200E, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D62001, 0x70D6200F, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70D62001, 0x70D62010, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D62001, 0x70D62011, '2019-02-10 00:00:00') /* Banderling Aggressor */
-     , (0x70D62001, 0x70D62012, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x70D62001, 0x70D62013, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70D62001, 0x70D62014, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70D62001, 0x70D62015, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x70D62001, 0x70D62016, '2019-02-10 00:00:00') /* Plasma Golem */
-     , (0x70D62001, 0x70D62017, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x70D62001, 0x70D62018, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x70D62001, 0x70D62019, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D62001, 0x70D6201A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D62001, 0x70D6201B, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x70D62001, 0x70D6201C, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70D62001, 0x70D6201D, '2019-02-10 00:00:00') /* Platinum Golem */
-     , (0x70D62001, 0x70D6201E, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D62001, 0x70D6201F, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x70D62001, 0x70D62020, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70D62001, 0x70D62021, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x70D62001, 0x70D62002, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D62001, 0x70D62003, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70D62001, 0x70D62004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70D62001, 0x70D62005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70D62001, 0x70D62006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D62001, 0x70D62007, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D62001, 0x70D62008, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70D62001, 0x70D62009, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70D62001, 0x70D6200A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D62001, 0x70D6200B, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70D62001, 0x70D6200C, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70D62001, 0x70D6200D, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70D62001, 0x70D6200E, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D62001, 0x70D6200F, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70D62001, 0x70D62010, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D62001, 0x70D62011, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x70D62001, 0x70D62012, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x70D62001, 0x70D62013, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70D62001, 0x70D62014, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70D62001, 0x70D62015, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70D62001, 0x70D62016, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x70D62001, 0x70D62017, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x70D62001, 0x70D62018, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x70D62001, 0x70D62019, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D62001, 0x70D6201A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D62001, 0x70D6201B, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x70D62001, 0x70D6201C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70D62001, 0x70D6201D, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x70D62001, 0x70D6201E, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D62001, 0x70D6201F, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x70D62001, 0x70D62020, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70D62001, 0x70D62021, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D62002,  7097, 0x0D620001, 10.36057, 23.23427, 4.201433, -0.4220968, 0, 0, -0.9065508,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
@@ -171,9 +171,9 @@ VALUES (0x70D62022,  1542, 0x0D620016, 70.53691, 130.3397, 1.723284, 0.9990482, 
 /* @teleloc 0x0D620016 [70.536910 130.339700 1.723284] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D62022, 0x70D62023, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x70D62022, 0x70D62024, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x70D62022, 0x70D62025, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x70D62022, 0x70D62023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x70D62022, 0x70D62024, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x70D62022, 0x70D62025, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D62023,  4179, 0x0D620016, 70.53691, 130.3397, 1.723284, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,60 +5,60 @@ VALUES (0x7BE1A001,  1154, 0xBE1A0022, 103.9924, 31.84525, -0.4469999, 0.7106558
 /* @teleloc 0xBE1A0022 [103.992400 31.845250 -0.447000] 0.710656 0.000000 0.000000 -0.703540 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE1A001, 0x7BE1A002, '2019-02-10 00:00:00') /* Buillic */
-     , (0x7BE1A001, 0x7BE1A003, '2019-02-10 00:00:00') /* Swamp King */
-     , (0x7BE1A001, 0x7BE1A004, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE1A001, 0x7BE1A005, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE1A001, 0x7BE1A006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE1A001, 0x7BE1A007, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A008, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A009, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE1A001, 0x7BE1A00A, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BE1A001, 0x7BE1A00B, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A00C, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x7BE1A001, 0x7BE1A00D, '2019-02-10 00:00:00') /* Sata Sclavus */
-     , (0x7BE1A001, 0x7BE1A00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE1A001, 0x7BE1A00F, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BE1A001, 0x7BE1A010, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BE1A001, 0x7BE1A011, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BE1A001, 0x7BE1A012, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7BE1A001, 0x7BE1A013, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7BE1A001, 0x7BE1A014, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7BE1A001, 0x7BE1A015, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BE1A001, 0x7BE1A016, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BE1A001, 0x7BE1A017, '2019-02-10 00:00:00') /* Swamp King */
-     , (0x7BE1A001, 0x7BE1A018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BE1A001, 0x7BE1A019, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BE1A001, 0x7BE1A01A, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BE1A001, 0x7BE1A01B, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BE1A001, 0x7BE1A01C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A01D, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BE1A001, 0x7BE1A01E, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x7BE1A001, 0x7BE1A01F, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BE1A001, 0x7BE1A020, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BE1A001, 0x7BE1A021, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BE1A001, 0x7BE1A022, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE1A001, 0x7BE1A023, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE1A001, 0x7BE1A024, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE1A001, 0x7BE1A025, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7BE1A001, 0x7BE1A026, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE1A001, 0x7BE1A027, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x7BE1A001, 0x7BE1A028, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BE1A001, 0x7BE1A029, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BE1A001, 0x7BE1A02A, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A02B, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BE1A001, 0x7BE1A02C, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BE1A001, 0x7BE1A02D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A02E, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BE1A001, 0x7BE1A02F, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE1A001, 0x7BE1A030, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE1A001, 0x7BE1A031, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BE1A001, 0x7BE1A032, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BE1A001, 0x7BE1A033, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BE1A001, 0x7BE1A034, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BE1A001, 0x7BE1A035, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BE1A001, 0x7BE1A036, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BE1A001, 0x7BE1A037, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7BE1A001, 0x7BE1A002, '2019-02-10 00:00:00') /* Buillic (20187) */
+     , (0x7BE1A001, 0x7BE1A003, '2019-02-10 00:00:00') /* Swamp King (12006) */
+     , (0x7BE1A001, 0x7BE1A004, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE1A001, 0x7BE1A005, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE1A001, 0x7BE1A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE1A001, 0x7BE1A007, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A008, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE1A001, 0x7BE1A00A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BE1A001, 0x7BE1A00B, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A00C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x7BE1A001, 0x7BE1A00D, '2019-02-10 00:00:00') /* Sata Sclavus (2586) */
+     , (0x7BE1A001, 0x7BE1A00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE1A001, 0x7BE1A00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BE1A001, 0x7BE1A010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BE1A001, 0x7BE1A011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BE1A001, 0x7BE1A012, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7BE1A001, 0x7BE1A013, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x7BE1A001, 0x7BE1A014, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */
+     , (0x7BE1A001, 0x7BE1A015, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BE1A001, 0x7BE1A016, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BE1A001, 0x7BE1A017, '2019-02-10 00:00:00') /* Swamp King (12006) */
+     , (0x7BE1A001, 0x7BE1A018, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BE1A001, 0x7BE1A019, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BE1A001, 0x7BE1A01A, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BE1A001, 0x7BE1A01B, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BE1A001, 0x7BE1A01C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A01D, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BE1A001, 0x7BE1A01E, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x7BE1A001, 0x7BE1A01F, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BE1A001, 0x7BE1A020, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BE1A001, 0x7BE1A021, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BE1A001, 0x7BE1A022, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE1A001, 0x7BE1A023, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE1A001, 0x7BE1A024, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE1A001, 0x7BE1A025, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7BE1A001, 0x7BE1A026, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE1A001, 0x7BE1A027, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x7BE1A001, 0x7BE1A028, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BE1A001, 0x7BE1A029, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BE1A001, 0x7BE1A02A, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A02B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BE1A001, 0x7BE1A02C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BE1A001, 0x7BE1A02D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A02E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BE1A001, 0x7BE1A02F, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE1A001, 0x7BE1A030, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE1A001, 0x7BE1A031, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BE1A001, 0x7BE1A032, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BE1A001, 0x7BE1A033, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BE1A001, 0x7BE1A034, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BE1A001, 0x7BE1A035, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BE1A001, 0x7BE1A036, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BE1A001, 0x7BE1A037, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE1A002, 20187, 0xBE1A0022, 103.9924, 31.84525, -0.4469999, 0.7106558, 0, 0, -0.7035398,  True, '2019-02-10 00:00:00'); /* Buillic */

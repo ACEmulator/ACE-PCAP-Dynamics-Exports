@@ -9,8 +9,8 @@ VALUES (0x746F4004,  1154, 0x46F40008, 17.303, 176.667, 169.3778, 0.99525, 0, 0,
 /* @teleloc 0x46F40008 [17.303000 176.667000 169.377800] 0.995250 0.000000 0.000000 0.097352 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x746F4004, 0x746F4005, '2019-02-10 00:00:00') /* Kalakh */
-     , (0x746F4004, 0x746F4006, '2019-02-10 00:00:00') /* Torgash */;
+VALUES (0x746F4004, 0x746F4005, '2019-02-10 00:00:00') /* Kalakh (34063) */
+     , (0x746F4004, 0x746F4006, '2019-02-10 00:00:00') /* Torgash (34036) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x746F4005, 34063, 0x46F40008, 17.303, 176.667, 169.3778, 0.99525, 0, 0, 0.0973522,  True, '2019-02-10 00:00:00'); /* Kalakh */

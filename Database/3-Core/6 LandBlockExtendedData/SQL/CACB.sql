@@ -5,19 +5,19 @@ VALUES (0x7CACB001,  1154, 0xCACB0011, 64.445, 10.83464, 91.59161, 0.7269327, 0,
 /* @teleloc 0xCACB0011 [64.445000 10.834640 91.591610] 0.726933 0.000000 0.000000 -0.686709 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CACB001, 0x7CACB002, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CACB001, 0x7CACB003, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACB001, 0x7CACB004, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CACB001, 0x7CACB005, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACB001, 0x7CACB006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7CACB001, 0x7CACB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CACB001, 0x7CACB008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7CACB001, 0x7CACB009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CACB001, 0x7CACB00A, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7CACB001, 0x7CACB00B, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7CACB001, 0x7CACB00C, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x7CACB001, 0x7CACB00D, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7CACB001, 0x7CACB00E, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7CACB001, 0x7CACB002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CACB001, 0x7CACB003, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACB001, 0x7CACB004, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CACB001, 0x7CACB005, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACB001, 0x7CACB006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7CACB001, 0x7CACB007, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CACB001, 0x7CACB008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7CACB001, 0x7CACB009, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CACB001, 0x7CACB00A, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7CACB001, 0x7CACB00B, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7CACB001, 0x7CACB00C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7CACB001, 0x7CACB00D, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7CACB001, 0x7CACB00E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CACB002, 24958, 0xCACB0011, 64.445, 10.83464, 91.59161, 0.7269327, 0, 0, -0.6867087,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -76,8 +76,8 @@ VALUES (0x7CACB00F,  1542, 0xCACB0039, 173.5785, 14.81295, 108.7279, 1, 0, 0, 0,
 /* @teleloc 0xCACB0039 [173.578500 14.812950 108.727900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CACB00F, 0x7CACB010, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7CACB00F, 0x7CACB011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CACB00F, 0x7CACB010, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7CACB00F, 0x7CACB011, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CACB010, 31445, 0xCACB0039, 173.5785, 14.81295, 108.7279, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,8 +5,8 @@ VALUES (0x7A45E001,  1154, 0xA45E0024, 110.2855, 93.35292, 28.81454, 0.02482369,
 /* @teleloc 0xA45E0024 [110.285500 93.352920 28.814540] 0.024824 0.000000 0.000000 -0.999692 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A45E001, 0x7A45E002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A45E001, 0x7A45E003, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x7A45E001, 0x7A45E002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A45E001, 0x7A45E003, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A45E002,  1758, 0xA45E0024, 110.2855, 93.35292, 28.81454, 0.02482369, 0, 0, -0.9996918,  True, '2019-02-10 00:00:00'); /* Shadow */

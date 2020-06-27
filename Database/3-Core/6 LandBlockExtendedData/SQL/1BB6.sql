@@ -5,10 +5,10 @@ VALUES (0x71BB6001,  1154, 0x1BB60019, 92.68926, 12.83291, 90.10891, 1, 0, 0, 0,
 /* @teleloc 0x1BB60019 [92.689260 12.832910 90.108910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB6001, 0x71BB6002, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71BB6001, 0x71BB6003, '2019-02-10 00:00:00') /* Hea Itealuan */
-     , (0x71BB6001, 0x71BB6004, '2019-02-10 00:00:00') /* Hea Nualuan */
-     , (0x71BB6001, 0x71BB6005, '2019-02-10 00:00:00') /* Hea Itealuan */;
+VALUES (0x71BB6001, 0x71BB6002, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71BB6001, 0x71BB6003, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71BB6001, 0x71BB6004, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
+     , (0x71BB6001, 0x71BB6005, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB6002, 11519, 0x1BB60019, 92.68926, 12.83291, 90.10891, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
@@ -31,7 +31,7 @@ VALUES (0x71BB6006,  1542, 0x1BB60007, 21.24553, 166.4274, 89.937, 1, 0, 0, 0, F
 /* @teleloc 0x1BB60007 [21.245530 166.427400 89.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71BB6006, 0x71BB6007, '2019-02-10 00:00:00') /* Small Hive Portal */;
+VALUES (0x71BB6006, 0x71BB6007, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BB6007, 11221, 0x1BB60007, 21.24553, 166.4274, 89.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */

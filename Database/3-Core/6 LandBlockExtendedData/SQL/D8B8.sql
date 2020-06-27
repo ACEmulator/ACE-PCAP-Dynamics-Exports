@@ -5,12 +5,12 @@ VALUES (0x7D8B8001,  1154, 0xD8B8001F, 84.8581, 158.5745, -0.4446, 0.2852638, 0,
 /* @teleloc 0xD8B8001F [84.858100 158.574500 -0.444600] 0.285264 0.000000 0.000000 -0.958449 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D8B8001, 0x7D8B8002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D8B8001, 0x7D8B8003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8B8001, 0x7D8B8004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7D8B8001, 0x7D8B8005, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7D8B8001, 0x7D8B8006, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7D8B8001, 0x7D8B8007, '2019-02-10 00:00:00') /* Mist Golem */;
+VALUES (0x7D8B8001, 0x7D8B8002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D8B8001, 0x7D8B8003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8B8001, 0x7D8B8004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7D8B8001, 0x7D8B8005, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7D8B8001, 0x7D8B8006, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7D8B8001, 0x7D8B8007, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D8B8002,  4247, 0xD8B8001F, 84.8581, 158.5745, -0.4446, 0.2852638, 0, 0, -0.958449,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */

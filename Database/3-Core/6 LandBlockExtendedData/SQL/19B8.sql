@@ -5,10 +5,10 @@ VALUES (0x719B8001,  1154, 0x19B80038, 148.055, 188.1424, 102.6594, 1, 0, 0, 0, 
 /* @teleloc 0x19B80038 [148.055000 188.142400 102.659400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B8001, 0x719B8002, '2019-02-10 00:00:00') /* Rabid Carenzi */
-     , (0x719B8001, 0x719B8003, '2019-02-10 00:00:00') /* Mercenary */
-     , (0x719B8001, 0x719B8004, '2019-02-10 00:00:00') /* Cultist */
-     , (0x719B8001, 0x719B8005, '2019-02-10 00:00:00') /* Rabid Carenzi */;
+VALUES (0x719B8001, 0x719B8002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x719B8001, 0x719B8003, '2019-02-10 00:00:00') /* Mercenary (11504) */
+     , (0x719B8001, 0x719B8004, '2019-02-10 00:00:00') /* Cultist (11501) */
+     , (0x719B8001, 0x719B8005, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B8002, 11495, 0x19B80038, 148.055, 188.1424, 102.6594, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
@@ -31,9 +31,9 @@ VALUES (0x719B8006,  1542, 0x19B8003A, 184.0894, 30.57055, 101.0434, 1, 0, 0, 0,
 /* @teleloc 0x19B8003A [184.089400 30.570550 101.043400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B8006, 0x719B8007, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x719B8006, 0x719B8008, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x719B8006, 0x719B8009, '2019-02-10 00:00:00') /* Simple Hive Portal */;
+VALUES (0x719B8006, 0x719B8007, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x719B8006, 0x719B8008, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x719B8006, 0x719B8009, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B8007,  9024, 0x19B8003A, 184.0894, 30.57055, 101.0434, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

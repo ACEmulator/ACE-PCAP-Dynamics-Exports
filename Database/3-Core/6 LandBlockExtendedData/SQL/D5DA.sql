@@ -57,50 +57,50 @@ VALUES (0x7D5DA023,  1154, 0xD5DA014E, 181.583, 177.099, 0.007499993, -0.932999,
 /* @teleloc 0xD5DA014E [181.583000 177.099000 0.007500] -0.932999 0.000000 0.000000 -0.359879 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D5DA023, 0x7D5DA024, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA025, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA026, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA027, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA028, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA029, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA02A, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA02B, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA02C, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA02D, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA02E, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA02F, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA030, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA031, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DA023, 0x7D5DA032, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DA023, 0x7D5DA033, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DA023, 0x7D5DA034, '2019-02-10 00:00:00') /* Shrine to Xik Minru */
-     , (0x7D5DA023, 0x7D5DA035, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DA023, 0x7D5DA036, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA037, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DA023, 0x7D5DA038, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA039, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA03A, '2019-02-10 00:00:00') /* Shambling Adherent */
-     , (0x7D5DA023, 0x7D5DA03B, '2019-02-10 00:00:00') /* Mucky Moarsman */
-     , (0x7D5DA023, 0x7D5DA03C, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA03D, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA03E, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA03F, '2019-02-10 00:00:00') /* Sodden Cadaver */
-     , (0x7D5DA023, 0x7D5DA040, '2019-02-10 00:00:00') /* High Priestess Xik Minru */
-     , (0x7D5DA023, 0x7D5DA041, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DA023, 0x7D5DA042, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DA023, 0x7D5DA043, '2019-02-10 00:00:00') /* Shrine to Xik Minru */
-     , (0x7D5DA023, 0x7D5DA044, '2019-02-10 00:00:00') /* Shrine to Xik Minru */
-     , (0x7D5DA023, 0x7D5DA045, '2019-02-10 00:00:00') /* Scummy Moarsman */
-     , (0x7D5DA023, 0x7D5DA046, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA047, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA048, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA049, '2019-02-10 00:00:00') /* Grimy Moarsman */
-     , (0x7D5DA023, 0x7D5DA04A, '2019-02-10 00:00:00') /* Ghastly Priestess */
-     , (0x7D5DA023, 0x7D5DA04B, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA04C, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA04D, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA04E, '2019-02-10 00:00:00') /* Worm Feast */
-     , (0x7D5DA023, 0x7D5DA04F, '2019-02-10 00:00:00') /* Shrine to Xik Minru */;
+VALUES (0x7D5DA023, 0x7D5DA024, '2019-02-10 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x7D5DA023, 0x7D5DA025, '2019-02-10 00:00:00') /* Worm Feast (32003) */
+     , (0x7D5DA023, 0x7D5DA026, '2019-02-10 00:00:00') /* Shambling Adherent (32004) */
+     , (0x7D5DA023, 0x7D5DA027, '2019-02-10 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x7D5DA023, 0x7D5DA028, '2019-02-10 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x7D5DA023, 0x7D5DA029, '2019-02-10 00:00:00') /* Worm Feast (32003) */
+     , (0x7D5DA023, 0x7D5DA02A, '2019-02-10 00:00:00') /* Shambling Adherent (32004) */
+     , (0x7D5DA023, 0x7D5DA02B, '2019-02-10 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x7D5DA023, 0x7D5DA02C, '2019-02-10 00:00:00') /* Shambling Adherent (32004) */
+     , (0x7D5DA023, 0x7D5DA02D, '2019-02-10 00:00:00') /* Shambling Adherent (32004) */
+     , (0x7D5DA023, 0x7D5DA02E, '2019-02-10 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x7D5DA023, 0x7D5DA02F, '2019-02-10 00:00:00') /* Ghastly Priestess (32002) */
+     , (0x7D5DA023, 0x7D5DA030, '2019-02-10 00:00:00') /* Sodden Cadaver (32005) */
+     , (0x7D5DA023, 0x7D5DA031, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DA023, 0x7D5DA032, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DA023, 0x7D5DA033, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DA023, 0x7D5DA034, '2019-02-10 00:00:00') /* Shrine to Xik Minru (31975) */
+     , (0x7D5DA023, 0x7D5DA035, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DA023, 0x7D5DA036, '2019-02-10 00:00:00') /* Shambling Adherent (32012) */
+     , (0x7D5DA023, 0x7D5DA037, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DA023, 0x7D5DA038, '2019-02-10 00:00:00') /* Shambling Adherent (32012) */
+     , (0x7D5DA023, 0x7D5DA039, '2019-02-10 00:00:00') /* Shambling Adherent (32012) */
+     , (0x7D5DA023, 0x7D5DA03A, '2019-02-10 00:00:00') /* Shambling Adherent (32012) */
+     , (0x7D5DA023, 0x7D5DA03B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D5DA023, 0x7D5DA03C, '2019-02-10 00:00:00') /* Sodden Cadaver (32011) */
+     , (0x7D5DA023, 0x7D5DA03D, '2019-02-10 00:00:00') /* Sodden Cadaver (32011) */
+     , (0x7D5DA023, 0x7D5DA03E, '2019-02-10 00:00:00') /* Sodden Cadaver (32011) */
+     , (0x7D5DA023, 0x7D5DA03F, '2019-02-10 00:00:00') /* Sodden Cadaver (32011) */
+     , (0x7D5DA023, 0x7D5DA040, '2019-02-10 00:00:00') /* High Priestess Xik Minru (32007) */
+     , (0x7D5DA023, 0x7D5DA041, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DA023, 0x7D5DA042, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DA023, 0x7D5DA043, '2019-02-10 00:00:00') /* Shrine to Xik Minru (31975) */
+     , (0x7D5DA023, 0x7D5DA044, '2019-02-10 00:00:00') /* Shrine to Xik Minru (31975) */
+     , (0x7D5DA023, 0x7D5DA045, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D5DA023, 0x7D5DA046, '2019-02-10 00:00:00') /* Ghastly Priestess (32006) */
+     , (0x7D5DA023, 0x7D5DA047, '2019-02-10 00:00:00') /* Ghastly Priestess (32006) */
+     , (0x7D5DA023, 0x7D5DA048, '2019-02-10 00:00:00') /* Ghastly Priestess (32006) */
+     , (0x7D5DA023, 0x7D5DA049, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D5DA023, 0x7D5DA04A, '2019-02-10 00:00:00') /* Ghastly Priestess (32006) */
+     , (0x7D5DA023, 0x7D5DA04B, '2019-02-10 00:00:00') /* Worm Feast (32008) */
+     , (0x7D5DA023, 0x7D5DA04C, '2019-02-10 00:00:00') /* Worm Feast (32008) */
+     , (0x7D5DA023, 0x7D5DA04D, '2019-02-10 00:00:00') /* Worm Feast (32008) */
+     , (0x7D5DA023, 0x7D5DA04E, '2019-02-10 00:00:00') /* Worm Feast (32008) */
+     , (0x7D5DA023, 0x7D5DA04F, '2019-02-10 00:00:00') /* Shrine to Xik Minru (31975) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D5DA024, 32002, 0xD5DA014E, 181.583, 177.099, 0.007499993, -0.932999, 0, 0, -0.359879,  True, '2019-02-10 00:00:00'); /* Ghastly Priestess */

@@ -5,26 +5,26 @@ VALUES (0x7BD13001,  1154, 0xBD13000E, 45.49094, 121.8329, -0.4449999, -0.998492
 /* @teleloc 0xBD13000E [45.490940 121.832900 -0.445000] -0.998493 0.000000 0.000000 -0.054883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD13001, 0x7BD13002, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7BD13001, 0x7BD13003, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BD13001, 0x7BD13004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7BD13001, 0x7BD13005, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BD13001, 0x7BD13006, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7BD13001, 0x7BD13007, '2019-02-10 00:00:00') /* Dire Ursuin */
-     , (0x7BD13001, 0x7BD13008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BD13001, 0x7BD13009, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7BD13001, 0x7BD1300A, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BD13001, 0x7BD1300B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BD13001, 0x7BD1300C, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BD13001, 0x7BD1300D, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x7BD13001, 0x7BD1300E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x7BD13001, 0x7BD1300F, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x7BD13001, 0x7BD13010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BD13001, 0x7BD13011, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BD13001, 0x7BD13012, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7BD13001, 0x7BD13013, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BD13001, 0x7BD13014, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BD13001, 0x7BD13015, '2019-02-10 00:00:00') /* Sephal Niffis */;
+VALUES (0x7BD13001, 0x7BD13002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7BD13001, 0x7BD13003, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BD13001, 0x7BD13004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BD13001, 0x7BD13005, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BD13001, 0x7BD13006, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BD13001, 0x7BD13007, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x7BD13001, 0x7BD13008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BD13001, 0x7BD13009, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7BD13001, 0x7BD1300A, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BD13001, 0x7BD1300B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BD13001, 0x7BD1300C, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BD13001, 0x7BD1300D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BD13001, 0x7BD1300E, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x7BD13001, 0x7BD1300F, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x7BD13001, 0x7BD13010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BD13001, 0x7BD13011, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BD13001, 0x7BD13012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7BD13001, 0x7BD13013, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BD13001, 0x7BD13014, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BD13001, 0x7BD13015, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD13002, 11526, 0xBD13000E, 45.49094, 121.8329, -0.4449999, -0.9984928, 0, 0, -0.05488251,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -111,15 +111,15 @@ VALUES (0x7BD13016,  1542, 0xBD130025, 104.534, 105.0165, 1, 1, 0, 0, 0, False, 
 /* @teleloc 0xBD130025 [104.534000 105.016500 1.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD13016, 0x7BD13017, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BD13016, 0x7BD13018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BD13016, 0x7BD13019, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BD13016, 0x7BD1301A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7BD13016, 0x7BD1301B, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7BD13016, 0x7BD1301C, '2019-02-10 00:00:00') /* Zairente Ra-Yao */
-     , (0x7BD13016, 0x7BD1301D, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x7BD13016, 0x7BD1301E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BD13016, 0x7BD1301F, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7BD13016, 0x7BD13017, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BD13016, 0x7BD13018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BD13016, 0x7BD13019, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BD13016, 0x7BD1301A, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7BD13016, 0x7BD1301B, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7BD13016, 0x7BD1301C, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */
+     , (0x7BD13016, 0x7BD1301D, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x7BD13016, 0x7BD1301E, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BD13016, 0x7BD1301F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD13017,  9024, 0xBD130025, 104.534, 105.0165, 1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

@@ -5,17 +5,17 @@ VALUES (0x78E26001,  1154, 0x8E26001B, 75.29372, 70.62057, 28.10114, -0.3776048,
 /* @teleloc 0x8E26001B [75.293720 70.620570 28.101140] -0.377605 0.000000 0.000000 -0.925967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78E26001, 0x78E26002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78E26001, 0x78E26003, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x78E26001, 0x78E26004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78E26001, 0x78E26005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78E26001, 0x78E26006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x78E26001, 0x78E26007, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x78E26001, 0x78E26008, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78E26001, 0x78E26009, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x78E26001, 0x78E2600A, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x78E26001, 0x78E2600B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x78E26001, 0x78E2600C, '2019-02-10 00:00:00') /* Shallows Devourer */;
+VALUES (0x78E26001, 0x78E26002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78E26001, 0x78E26003, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x78E26001, 0x78E26004, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78E26001, 0x78E26005, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78E26001, 0x78E26006, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x78E26001, 0x78E26007, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x78E26001, 0x78E26008, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78E26001, 0x78E26009, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x78E26001, 0x78E2600A, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78E26001, 0x78E2600B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x78E26001, 0x78E2600C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E26002,  7105, 0x8E26001B, 75.29372, 70.62057, 28.10114, -0.3776048, 0, 0, -0.9259669,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

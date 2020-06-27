@@ -5,22 +5,22 @@ VALUES (0x7962D001,  1154, 0x962D0034, 147.8321, 73.75223, 39.53463, -0.8128573,
 /* @teleloc 0x962D0034 [147.832100 73.752230 39.534630] -0.812857 0.000000 0.000000 -0.582463 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962D001, 0x7962D002, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7962D001, 0x7962D003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7962D001, 0x7962D004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7962D001, 0x7962D005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7962D001, 0x7962D006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7962D001, 0x7962D007, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7962D001, 0x7962D008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7962D001, 0x7962D009, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7962D001, 0x7962D00A, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7962D001, 0x7962D00B, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7962D001, 0x7962D00C, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7962D001, 0x7962D00D, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7962D001, 0x7962D00E, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7962D001, 0x7962D00F, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7962D001, 0x7962D010, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x7962D001, 0x7962D011, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x7962D001, 0x7962D002, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7962D001, 0x7962D003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7962D001, 0x7962D004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7962D001, 0x7962D005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7962D001, 0x7962D006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7962D001, 0x7962D007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7962D001, 0x7962D008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7962D001, 0x7962D009, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7962D001, 0x7962D00A, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7962D001, 0x7962D00B, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7962D001, 0x7962D00C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7962D001, 0x7962D00D, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7962D001, 0x7962D00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7962D001, 0x7962D00F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7962D001, 0x7962D010, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7962D001, 0x7962D011, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962D002, 22010, 0x962D0034, 147.8321, 73.75223, 39.53463, -0.8128573, 0, 0, -0.5824628,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
@@ -91,7 +91,7 @@ VALUES (0x7962D012,  1542, 0x962D0008, 12.68697, 170.9931, 49.29379, 0.6903208, 
 /* @teleloc 0x962D0008 [12.686970 170.993100 49.293790] 0.690321 0.000000 0.000000 -0.723503 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7962D012, 0x7962D013, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7962D012, 0x7962D013, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7962D013,  8037, 0x962D0008, 12.68697, 170.9931, 49.29379, 0.6903208, 0, 0, -0.7235034,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

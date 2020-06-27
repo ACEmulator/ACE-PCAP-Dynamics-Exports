@@ -5,17 +5,17 @@ VALUES (0x72D85001,  1154, 0x2D850022, 100.9099, 46.39366, 96.01, -0.6672085, 0,
 /* @teleloc 0x2D850022 [100.909900 46.393660 96.010000] -0.667209 0.000000 0.000000 -0.744871 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D85001, 0x72D85002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D85001, 0x72D85003, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D85001, 0x72D85004, '2019-02-10 00:00:00') /* Gelid */
-     , (0x72D85001, 0x72D85005, '2019-02-10 00:00:00') /* Frost */
-     , (0x72D85001, 0x72D85006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x72D85001, 0x72D85007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x72D85001, 0x72D85008, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72D85001, 0x72D85009, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x72D85001, 0x72D8500A, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x72D85001, 0x72D8500B, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x72D85001, 0x72D8500C, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x72D85001, 0x72D85002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72D85001, 0x72D85003, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D85001, 0x72D85004, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x72D85001, 0x72D85005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x72D85001, 0x72D85006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72D85001, 0x72D85007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x72D85001, 0x72D85008, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72D85001, 0x72D85009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D85001, 0x72D8500A, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x72D85001, 0x72D8500B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x72D85001, 0x72D8500C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D85002, 36833, 0x2D850022, 100.9099, 46.39366, 96.01, -0.6672085, 0, 0, -0.744871,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -66,7 +66,7 @@ VALUES (0x72D8500D,  1542, 0x2D85000E, 41.75987, 129.9879, 127.9763, -0.5272616,
 /* @teleloc 0x2D85000E [41.759870 129.987900 127.976300] -0.527262 0.000000 0.000000 -0.849703 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D8500D, 0x72D8500E, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x72D8500D, 0x72D8500E, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D8500E, 42528, 0x2D85000E, 41.75987, 129.9879, 127.9763, -0.5272616, 0, 0, -0.849703,  True, '2019-02-10 00:00:00'); /* Rock */

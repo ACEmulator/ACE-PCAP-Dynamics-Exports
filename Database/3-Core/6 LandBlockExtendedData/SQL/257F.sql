@@ -5,15 +5,15 @@ VALUES (0x7257F001,  1154, 0x257F0030, 139.455, 178.61, 138.161, 0.9794589, 0, 0
 /* @teleloc 0x257F0030 [139.455000 178.610000 138.161000] 0.979459 0.000000 0.000000 -0.201644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257F001, 0x7257F002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7257F001, 0x7257F003, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7257F001, 0x7257F004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7257F001, 0x7257F005, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x7257F001, 0x7257F006, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x7257F001, 0x7257F007, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7257F001, 0x7257F008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7257F001, 0x7257F009, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7257F001, 0x7257F00A, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7257F001, 0x7257F002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7257F001, 0x7257F003, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7257F001, 0x7257F004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7257F001, 0x7257F005, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7257F001, 0x7257F006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7257F001, 0x7257F007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7257F001, 0x7257F008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7257F001, 0x7257F009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7257F001, 0x7257F00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257F002, 36840, 0x257F0030, 139.455, 178.61, 138.161, 0.9794589, 0, 0, -0.2016439,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -56,7 +56,7 @@ VALUES (0x7257F00B,  1542, 0x257F0031, 161.6474, 16.76682, 72.88203, 1, 0, 0, 0,
 /* @teleloc 0x257F0031 [161.647400 16.766820 72.882030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7257F00B, 0x7257F00C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7257F00B, 0x7257F00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7257F00C, 22571, 0x257F0031, 161.6474, 16.76682, 72.88203, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

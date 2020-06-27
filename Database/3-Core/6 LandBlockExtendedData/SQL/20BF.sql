@@ -17,27 +17,27 @@ VALUES (0x720BF006,  1154, 0x20BF0104, 39.5023, 100.8, 64.01, 0.779625, 0, 0, -0
 /* @teleloc 0x20BF0104 [39.502300 100.800000 64.010000] 0.779625 0.000000 0.000000 -0.626247 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720BF006, 0x720BF007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x720BF006, 0x720BF008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x720BF006, 0x720BF009, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x720BF006, 0x720BF00A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF00B, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF00C, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF00D, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF00E, '2019-02-10 00:00:00') /* Exploration Marker */
-     , (0x720BF006, 0x720BF00F, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF010, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF011, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF012, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF013, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF014, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF015, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF016, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF017, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF018, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF019, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF01A, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x720BF006, 0x720BF01B, '2019-02-10 00:00:00') /* Ebon Gromnie */;
+VALUES (0x720BF006, 0x720BF007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x720BF006, 0x720BF008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x720BF006, 0x720BF009, '2019-02-10 00:00:00') /* Olthoi Legionary (11695) */
+     , (0x720BF006, 0x720BF00A, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF00B, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF00C, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF00D, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF00E, '2019-02-10 00:00:00') /* Exploration Marker (39800) */
+     , (0x720BF006, 0x720BF00F, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF010, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF011, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF012, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF013, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF014, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x720BF006, 0x720BF015, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF016, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF017, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF018, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF019, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF01A, '2019-02-10 00:00:00') /* Olthoi Soldier (6640) */
+     , (0x720BF006, 0x720BF01B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BF007,  7099, 0x20BF0104, 39.5023, 100.8, 64.01, 0.779625, 0, 0, -0.626247,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

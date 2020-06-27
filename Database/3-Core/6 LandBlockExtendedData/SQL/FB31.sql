@@ -5,13 +5,13 @@ VALUES (0x7FB31001,  1154, 0xFB310001, 5.692549, 2.6263, -0.09359992, -0.1484005
 /* @teleloc 0xFB310001 [5.692549 2.626300 -0.093600] -0.148401 0.000000 0.000000 -0.988927 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7FB31001, 0x7FB31002, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB31001, 0x7FB31003, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB31001, 0x7FB31004, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB31001, 0x7FB31005, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB31001, 0x7FB31006, '2019-02-10 00:00:00') /* Blessed Moarsman */
-     , (0x7FB31001, 0x7FB31007, '2019-02-10 00:00:00') /* Ashris Niffis */
-     , (0x7FB31001, 0x7FB31008, '2019-02-10 00:00:00') /* Ashris Niffis */;
+VALUES (0x7FB31001, 0x7FB31002, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB31001, 0x7FB31003, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB31001, 0x7FB31004, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB31001, 0x7FB31005, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB31001, 0x7FB31006, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FB31001, 0x7FB31007, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7FB31001, 0x7FB31008, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FB31002, 40304, 0xFB310001, 5.692549, 2.6263, -0.09359992, -0.1484005, 0, 0, -0.9889274,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */

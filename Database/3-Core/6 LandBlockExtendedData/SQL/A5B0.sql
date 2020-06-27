@@ -9,34 +9,34 @@ VALUES (0x7A5B0002,  1154, 0xA5B00100, 60.9005, 152.528, 42.00715, -0.959195, 0,
 /* @teleloc 0xA5B00100 [60.900500 152.528000 42.007150] -0.959195 0.000000 0.000000 0.282744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5B0002, 0x7A5B0003, '2019-02-10 00:00:00') /* Banderling Chief */
-     , (0x7A5B0002, 0x7A5B0004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A5B0002, 0x7A5B0005, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7A5B0002, 0x7A5B0006, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A5B0002, 0x7A5B0007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7A5B0002, 0x7A5B0008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A5B0002, 0x7A5B0009, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A5B0002, 0x7A5B000A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A5B0002, 0x7A5B000B, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5B0002, 0x7A5B000C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A5B0002, 0x7A5B000D, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A5B0002, 0x7A5B000E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7A5B0002, 0x7A5B000F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5B0002, 0x7A5B0010, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A5B0002, 0x7A5B0011, '2019-02-10 00:00:00') /* Mite Squib */
-     , (0x7A5B0002, 0x7A5B0012, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A5B0002, 0x7A5B0013, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A5B0002, 0x7A5B0014, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A5B0002, 0x7A5B0015, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A5B0002, 0x7A5B0016, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A5B0002, 0x7A5B0017, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A5B0002, 0x7A5B0018, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7A5B0002, 0x7A5B0019, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A5B0002, 0x7A5B001A, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7A5B0002, 0x7A5B001B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7A5B0002, 0x7A5B001C, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5B0002, 0x7A5B001D, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A5B0002, 0x7A5B001E, '2019-02-10 00:00:00') /* Green Phyntos Wasp */;
+VALUES (0x7A5B0002, 0x7A5B0003, '2019-02-10 00:00:00') /* Banderling Chief (1669) */
+     , (0x7A5B0002, 0x7A5B0004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A5B0002, 0x7A5B0005, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7A5B0002, 0x7A5B0006, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A5B0002, 0x7A5B0007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7A5B0002, 0x7A5B0008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A5B0002, 0x7A5B0009, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A5B0002, 0x7A5B000A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A5B0002, 0x7A5B000B, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5B0002, 0x7A5B000C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A5B0002, 0x7A5B000D, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A5B0002, 0x7A5B000E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7A5B0002, 0x7A5B000F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5B0002, 0x7A5B0010, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A5B0002, 0x7A5B0011, '2019-02-10 00:00:00') /* Mite Squib (209) */
+     , (0x7A5B0002, 0x7A5B0012, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A5B0002, 0x7A5B0013, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A5B0002, 0x7A5B0014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A5B0002, 0x7A5B0015, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A5B0002, 0x7A5B0016, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A5B0002, 0x7A5B0017, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A5B0002, 0x7A5B0018, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7A5B0002, 0x7A5B0019, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A5B0002, 0x7A5B001A, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7A5B0002, 0x7A5B001B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7A5B0002, 0x7A5B001C, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5B0002, 0x7A5B001D, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A5B0002, 0x7A5B001E, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5B0003,  1669, 0xA5B00100, 60.9005, 152.528, 42.00715, -0.959195, 0, 0, 0.282744,  True, '2019-02-10 00:00:00'); /* Banderling Chief */
@@ -155,8 +155,8 @@ VALUES (0x7A5B001F,  1542, 0xA5B00004, 13.32618, 91.63931, 42, 0.5, 0, 0, -0.866
 /* @teleloc 0xA5B00004 [13.326180 91.639310 42.000000] 0.500000 0.000000 0.000000 -0.866025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A5B001F, 0x7A5B0020, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7A5B001F, 0x7A5B0021, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7A5B001F, 0x7A5B0020, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A5B001F, 0x7A5B0021, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A5B0020,  4179, 0xA5B00004, 13.32618, 91.63931, 42, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Bonfire */

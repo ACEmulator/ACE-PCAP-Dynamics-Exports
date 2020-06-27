@@ -5,18 +5,18 @@ VALUES (0x79D7B001,  1154, 0x9D7B0103, 106.4427, 132.5262, 23.71, -0.00412451, 0
 /* @teleloc 0x9D7B0103 [106.442700 132.526200 23.710000] -0.004125 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D7B001, 0x79D7B002, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7B001, 0x79D7B003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7B001, 0x79D7B004, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7B001, 0x79D7B005, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7B001, 0x79D7B006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x79D7B001, 0x79D7B007, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x79D7B001, 0x79D7B008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79D7B001, 0x79D7B009, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79D7B001, 0x79D7B00A, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79D7B001, 0x79D7B00B, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x79D7B001, 0x79D7B00C, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x79D7B001, 0x79D7B00D, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x79D7B001, 0x79D7B002, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7B001, 0x79D7B003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7B001, 0x79D7B004, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7B001, 0x79D7B005, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7B001, 0x79D7B006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x79D7B001, 0x79D7B007, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x79D7B001, 0x79D7B008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79D7B001, 0x79D7B009, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79D7B001, 0x79D7B00A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79D7B001, 0x79D7B00B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x79D7B001, 0x79D7B00C, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x79D7B001, 0x79D7B00D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D7B002,   219, 0x9D7B0103, 106.4427, 132.5262, 23.71, -0.00412451, 0, 0, -0.999991,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -71,12 +71,12 @@ VALUES (0x79D7B00E,  1542, 0x9D7B0100, 133.8173, 133.8547, 23.6975, 0.906254, 0,
 /* @teleloc 0x9D7B0100 [133.817300 133.854700 23.697500] 0.906254 0.000000 0.000000 -0.422733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D7B00E, 0x79D7B00F, '2019-02-10 00:00:00') /* Viamontian Pants */
-     , (0x79D7B00E, 0x79D7B010, '2019-02-10 00:00:00') /* Bracelet */
-     , (0x79D7B00E, 0x79D7B011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x79D7B00E, 0x79D7B012, '2019-02-10 00:00:00') /* Puzzle Box */
-     , (0x79D7B00E, 0x79D7B013, '2019-02-10 00:00:00') /* Gem */
-     , (0x79D7B00E, 0x79D7B014, '2019-02-10 00:00:00') /* Heavy Bracelet */;
+VALUES (0x79D7B00E, 0x79D7B00F, '2019-02-10 00:00:00') /* Viamontian Pants (28606) */
+     , (0x79D7B00E, 0x79D7B010, '2019-02-10 00:00:00') /* Bracelet (295) */
+     , (0x79D7B00E, 0x79D7B011, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x79D7B00E, 0x79D7B012, '2019-02-10 00:00:00') /* Puzzle Box (41486) */
+     , (0x79D7B00E, 0x79D7B013, '2019-02-10 00:00:00') /* Gem (2400) */
+     , (0x79D7B00E, 0x79D7B014, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D7B00F, 28606, 0x9D7B0100, 133.8173, 133.8547, 23.6975, 0.906254, 0, 0, -0.422733,  True, '2019-02-10 00:00:00'); /* Viamontian Pants */

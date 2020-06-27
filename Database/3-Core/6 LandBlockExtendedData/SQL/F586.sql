@@ -5,13 +5,13 @@ VALUES (0x7F586001,  1154, 0xF5860001, 15.28998, 23.66265, 11.9808, 0.7999608, 0
 /* @teleloc 0xF5860001 [15.289980 23.662650 11.980800] 0.799961 0.000000 0.000000 -0.600052 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F586001, 0x7F586002, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F586001, 0x7F586003, '2019-02-10 00:00:00') /* Stinging Chittick */
-     , (0x7F586001, 0x7F586004, '2019-02-10 00:00:00') /* Tusker Worshipper */
-     , (0x7F586001, 0x7F586005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7F586001, 0x7F586006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F586001, 0x7F586007, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x7F586001, 0x7F586008, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7F586001, 0x7F586002, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F586001, 0x7F586003, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F586001, 0x7F586004, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F586001, 0x7F586005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F586001, 0x7F586006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F586001, 0x7F586007, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F586001, 0x7F586008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F586002,  4244, 0xF5860001, 15.28998, 23.66265, 11.9808, 0.7999608, 0, 0, -0.6000522,  True, '2019-02-10 00:00:00'); /* Stinging Chittick */

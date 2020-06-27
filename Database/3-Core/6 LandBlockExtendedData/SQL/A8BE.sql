@@ -5,12 +5,12 @@ VALUES (0x7A8BE001,  1154, 0xA8BE0017, 60.84518, 157.0445, 112.746, 0.3248976, 0
 /* @teleloc 0xA8BE0017 [60.845180 157.044500 112.746000] 0.324898 0.000000 0.000000 -0.945749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8BE001, 0x7A8BE002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A8BE001, 0x7A8BE003, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A8BE001, 0x7A8BE004, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A8BE001, 0x7A8BE005, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7A8BE001, 0x7A8BE006, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7A8BE001, 0x7A8BE007, '2019-02-10 00:00:00') /* Banderling Raider */;
+VALUES (0x7A8BE001, 0x7A8BE002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A8BE001, 0x7A8BE003, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A8BE001, 0x7A8BE004, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A8BE001, 0x7A8BE005, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7A8BE001, 0x7A8BE006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7A8BE001, 0x7A8BE007, '2019-02-10 00:00:00') /* Banderling Raider (938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8BE002,     6, 0xA8BE0017, 60.84518, 157.0445, 112.746, 0.3248976, 0, 0, -0.9457492,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

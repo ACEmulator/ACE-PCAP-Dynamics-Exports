@@ -5,13 +5,13 @@ VALUES (0x7532A001,  1154, 0x532A000D, 45.17595, 114.2003, -0.4399999, -0.476889
 /* @teleloc 0x532A000D [45.175950 114.200300 -0.440000] -0.476890 0.000000 0.000000 -0.878963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7532A001, 0x7532A002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7532A001, 0x7532A003, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7532A001, 0x7532A004, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x7532A001, 0x7532A005, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7532A001, 0x7532A006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7532A001, 0x7532A007, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x7532A001, 0x7532A008, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x7532A001, 0x7532A002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7532A001, 0x7532A003, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7532A001, 0x7532A004, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x7532A001, 0x7532A005, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7532A001, 0x7532A006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7532A001, 0x7532A007, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x7532A001, 0x7532A008, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7532A002, 36834, 0x532A000D, 45.17595, 114.2003, -0.4399999, -0.4768899, 0, 0, -0.8789631,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

@@ -5,13 +5,13 @@ VALUES (0x78B5A001,  1154, 0x8B5A000A, 30.5486, 24.08511, 16.54282, 0.9961947, 0
 /* @teleloc 0x8B5A000A [30.548600 24.085110 16.542820] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B5A001, 0x78B5A002, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x78B5A001, 0x78B5A003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x78B5A001, 0x78B5A004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x78B5A001, 0x78B5A005, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x78B5A001, 0x78B5A006, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x78B5A001, 0x78B5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x78B5A001, 0x78B5A008, '2019-02-10 00:00:00') /* Listris Niffis */;
+VALUES (0x78B5A001, 0x78B5A002, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x78B5A001, 0x78B5A003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x78B5A001, 0x78B5A004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x78B5A001, 0x78B5A005, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x78B5A001, 0x78B5A006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x78B5A001, 0x78B5A007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x78B5A001, 0x78B5A008, '2019-02-10 00:00:00') /* Listris Niffis (7985) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B5A002,   940, 0x8B5A000A, 30.5486, 24.08511, 16.54282, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -46,8 +46,8 @@ VALUES (0x78B5A009,  1542, 0x8B5A0009, 31.28755, 21.97467, 16.94485, 1, 0, 0, 0,
 /* @teleloc 0x8B5A0009 [31.287550 21.974670 16.944850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B5A009, 0x78B5A00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x78B5A009, 0x78B5A00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78B5A009, 0x78B5A00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x78B5A009, 0x78B5A00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B5A00A,  4179, 0x8B5A0009, 31.28755, 21.97467, 16.94485, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

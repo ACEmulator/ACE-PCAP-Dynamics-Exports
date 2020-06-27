@@ -25,16 +25,16 @@ VALUES (0x70F34005,  1154, 0x0F34001C, 73.44939, 86.15682, 0.6994835, -0.9761795
 /* @teleloc 0x0F34001C [73.449390 86.156820 0.699484] -0.976180 0.000000 0.000000 -0.216965 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F34005, 0x70F34006, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x70F34005, 0x70F34007, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x70F34005, 0x70F34008, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x70F34005, 0x70F34009, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x70F34005, 0x70F3400A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F34005, 0x70F3400B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x70F34005, 0x70F3400C, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x70F34005, 0x70F3400D, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x70F34005, 0x70F3400E, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x70F34005, 0x70F3400F, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x70F34005, 0x70F34006, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x70F34005, 0x70F34007, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x70F34005, 0x70F34008, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x70F34005, 0x70F34009, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x70F34005, 0x70F3400A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F34005, 0x70F3400B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x70F34005, 0x70F3400C, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x70F34005, 0x70F3400D, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x70F34005, 0x70F3400E, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x70F34005, 0x70F3400F, '2019-02-10 00:00:00') /* Virindi Profane (22914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F34006, 11535, 0x0F34001C, 73.44939, 86.15682, 0.6994835, -0.9761795, 0, 0, -0.2169646,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -81,7 +81,7 @@ VALUES (0x70F34010,  1542, 0x0F340039, 175.9373, 15.70286, -0.513, -0.9880077, 0
 /* @teleloc 0x0F340039 [175.937300 15.702860 -0.513000] -0.988008 0.000000 0.000000 -0.154405 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70F34010, 0x70F34011, '2019-02-10 00:00:00') /* Gateway */;
+VALUES (0x70F34010, 0x70F34011, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70F34011,  1955, 0x0F340039, 175.9373, 15.70286, -0.513, -0.9880077, 0, 0, -0.1544047,  True, '2019-02-10 00:00:00'); /* Gateway */

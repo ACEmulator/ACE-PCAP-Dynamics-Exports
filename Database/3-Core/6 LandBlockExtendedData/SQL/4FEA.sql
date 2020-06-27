@@ -5,16 +5,16 @@ VALUES (0x74FEA001,  1154, 0x4FEA001A, 89.08109, 44.52169, -0.895, -0.9876696, 0
 /* @teleloc 0x4FEA001A [89.081090 44.521690 -0.895000] -0.987670 0.000000 0.000000 -0.156552 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74FEA001, 0x74FEA002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x74FEA001, 0x74FEA003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74FEA001, 0x74FEA004, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x74FEA001, 0x74FEA005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x74FEA001, 0x74FEA006, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74FEA001, 0x74FEA007, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74FEA001, 0x74FEA008, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x74FEA001, 0x74FEA009, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x74FEA001, 0x74FEA00A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x74FEA001, 0x74FEA00B, '2019-02-10 00:00:00') /* Strife Wisp */;
+VALUES (0x74FEA001, 0x74FEA002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x74FEA001, 0x74FEA003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74FEA001, 0x74FEA004, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x74FEA001, 0x74FEA005, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x74FEA001, 0x74FEA006, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74FEA001, 0x74FEA007, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x74FEA001, 0x74FEA008, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x74FEA001, 0x74FEA009, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74FEA001, 0x74FEA00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x74FEA001, 0x74FEA00B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74FEA002, 23564, 0x4FEA001A, 89.08109, 44.52169, -0.895, -0.9876696, 0, 0, -0.1565524,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

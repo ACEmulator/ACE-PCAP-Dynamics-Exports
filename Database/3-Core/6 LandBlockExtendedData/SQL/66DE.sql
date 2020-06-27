@@ -5,11 +5,11 @@ VALUES (0x766DE001,  1154, 0x66DE003A, 169.1649, 31.92194, 49.4159, 0.8191521, 0
 /* @teleloc 0x66DE003A [169.164900 31.921940 49.415900] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x766DE001, 0x766DE002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x766DE001, 0x766DE003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x766DE001, 0x766DE004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x766DE001, 0x766DE005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x766DE001, 0x766DE006, '2019-02-10 00:00:00') /* Scrawed Grievver */;
+VALUES (0x766DE001, 0x766DE002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x766DE001, 0x766DE003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x766DE001, 0x766DE004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x766DE001, 0x766DE005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x766DE001, 0x766DE006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766DE002,  7979, 0x66DE003A, 169.1649, 31.92194, 49.4159, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

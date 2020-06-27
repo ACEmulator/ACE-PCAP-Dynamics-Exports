@@ -5,12 +5,12 @@ VALUES (0x7BA0E001,  1154, 0xBA0E003A, 190.8927, 45.11103, 56.02596, 0.8004643, 
 /* @teleloc 0xBA0E003A [190.892700 45.111030 56.025960] 0.800464 0.000000 0.000000 -0.599380 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA0E001, 0x7BA0E002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA0E001, 0x7BA0E003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA0E001, 0x7BA0E004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA0E001, 0x7BA0E005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA0E001, 0x7BA0E006, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA0E001, 0x7BA0E007, '2019-02-10 00:00:00') /* Crystal Golem */;
+VALUES (0x7BA0E001, 0x7BA0E002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA0E001, 0x7BA0E003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA0E001, 0x7BA0E004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA0E001, 0x7BA0E005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA0E001, 0x7BA0E006, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA0E001, 0x7BA0E007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA0E002,   201, 0xBA0E003A, 190.8927, 45.11103, 56.02596, 0.8004643, 0, 0, -0.5993804,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
@@ -41,12 +41,12 @@ VALUES (0x7BA0E008,  1542, 0xBA0E003C, 176.4978, 92.91969, 82.06, 1, 0, 0, 0, Fa
 /* @teleloc 0xBA0E003C [176.497800 92.919690 82.060000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA0E008, 0x7BA0E009, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BA0E008, 0x7BA0E00A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BA0E008, 0x7BA0E00B, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BA0E008, 0x7BA0E00C, '2019-02-10 00:00:00') /* Zairente's Cooking Pot */
-     , (0x7BA0E008, 0x7BA0E00D, '2019-02-10 00:00:00') /* Zairente's Frying Pan */
-     , (0x7BA0E008, 0x7BA0E00E, '2019-02-10 00:00:00') /* Zairente Ra-Yao */;
+VALUES (0x7BA0E008, 0x7BA0E009, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BA0E008, 0x7BA0E00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BA0E008, 0x7BA0E00B, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BA0E008, 0x7BA0E00C, '2019-02-10 00:00:00') /* Zairente's Cooking Pot (9025) */
+     , (0x7BA0E008, 0x7BA0E00D, '2019-02-10 00:00:00') /* Zairente's Frying Pan (9041) */
+     , (0x7BA0E008, 0x7BA0E00E, '2019-02-10 00:00:00') /* Zairente Ra-Yao (9020) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA0E009,  9024, 0xBA0E003C, 176.4978, 92.91969, 82.06, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

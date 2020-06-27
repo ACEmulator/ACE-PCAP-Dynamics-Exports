@@ -5,10 +5,10 @@ VALUES (0x76815001,  1154, 0x68150005, 22.89798, 98.46597, 73.50467, 0.9238795, 
 /* @teleloc 0x68150005 [22.897980 98.465970 73.504670] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76815001, 0x76815002, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x76815001, 0x76815003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76815001, 0x76815004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x76815001, 0x76815005, '2019-02-10 00:00:00') /* Guardian Mu-miyah */;
+VALUES (0x76815001, 0x76815002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x76815001, 0x76815003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76815001, 0x76815004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x76815001, 0x76815005, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76815002,  7124, 0x68150005, 22.89798, 98.46597, 73.50467, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -31,7 +31,7 @@ VALUES (0x76815006,  1542, 0x68150010, 37.79878, 178.3611, 56.89871, -0.7691817,
 /* @teleloc 0x68150010 [37.798780 178.361100 56.898710] -0.769182 0.000000 0.000000 -0.639030 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76815006, 0x76815007, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x76815006, 0x76815007, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76815007,  9287, 0x68150010, 37.79878, 178.3611, 56.89871, -0.7691817, 0, 0, -0.6390302,  True, '2019-02-10 00:00:00'); /* Master's Holding */

@@ -5,18 +5,18 @@ VALUES (0x7335A001,  1154, 0x335A0040, 169.4892, 179.9199, 20.004, 0.8870109, 0,
 /* @teleloc 0x335A0040 [169.489200 179.919900 20.004000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335A001, 0x7335A002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7335A001, 0x7335A003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7335A001, 0x7335A004, '2019-02-10 00:00:00') /* Rampager */
-     , (0x7335A001, 0x7335A005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7335A001, 0x7335A006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7335A001, 0x7335A007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7335A001, 0x7335A008, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7335A001, 0x7335A009, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x7335A001, 0x7335A00A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7335A001, 0x7335A00B, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7335A001, 0x7335A00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */
-     , (0x7335A001, 0x7335A00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah */;
+VALUES (0x7335A001, 0x7335A002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7335A001, 0x7335A003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7335A001, 0x7335A004, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7335A001, 0x7335A005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7335A001, 0x7335A006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7335A001, 0x7335A007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7335A001, 0x7335A008, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7335A001, 0x7335A009, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x7335A001, 0x7335A00A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7335A001, 0x7335A00B, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7335A001, 0x7335A00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
+     , (0x7335A001, 0x7335A00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335A002,  4254, 0x335A0040, 169.4892, 179.9199, 20.004, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -71,7 +71,7 @@ VALUES (0x7335A00E,  1542, 0x335A0038, 164.1783, 179.3894, 20, 1, 0, 0, 0, False
 /* @teleloc 0x335A0038 [164.178300 179.389400 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7335A00E, 0x7335A00F, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7335A00E, 0x7335A00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7335A00F, 22567, 0x335A0038, 164.1783, 179.3894, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

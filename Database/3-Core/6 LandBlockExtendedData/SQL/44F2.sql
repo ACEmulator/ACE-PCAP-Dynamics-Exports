@@ -5,17 +5,17 @@ VALUES (0x744F2001,  1154, 0x44F2003F, 182.4795, 145.7431, 64.2973, -0.6684204, 
 /* @teleloc 0x44F2003F [182.479500 145.743100 64.297300] -0.668420 0.000000 0.000000 -0.743784 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744F2001, 0x744F2002, '2019-02-10 00:00:00') /* Viamontian Tribune */
-     , (0x744F2001, 0x744F2003, '2019-02-10 00:00:00') /* Royal Thaumaturge */
-     , (0x744F2001, 0x744F2004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x744F2001, 0x744F2005, '2019-02-10 00:00:00') /* Ruschk Totem */
-     , (0x744F2001, 0x744F2006, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x744F2001, 0x744F2007, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x744F2001, 0x744F2008, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x744F2001, 0x744F2009, '2019-02-10 00:00:00') /* Viamontian Commander */
-     , (0x744F2001, 0x744F200A, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x744F2001, 0x744F200B, '2019-02-10 00:00:00') /* Viamontian Counselor */
-     , (0x744F2001, 0x744F200C, '2019-02-10 00:00:00') /* Viamontian Tribune */;
+VALUES (0x744F2001, 0x744F2002, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
+     , (0x744F2001, 0x744F2003, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
+     , (0x744F2001, 0x744F2004, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x744F2001, 0x744F2005, '2019-02-10 00:00:00') /* Ruschk Totem (31035) */
+     , (0x744F2001, 0x744F2006, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x744F2001, 0x744F2007, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x744F2001, 0x744F2008, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x744F2001, 0x744F2009, '2019-02-10 00:00:00') /* Viamontian Commander (28654) */
+     , (0x744F2001, 0x744F200A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x744F2001, 0x744F200B, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
+     , (0x744F2001, 0x744F200C, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F2002, 28652, 0x44F2003F, 182.4795, 145.7431, 64.2973, -0.6684204, 0, 0, -0.7437837,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */
@@ -66,7 +66,7 @@ VALUES (0x744F200D,  1154, 0x44F20008, 6.20114, 179.558, 275.5632, -0.417352, 0,
 /* @teleloc 0x44F20008 [6.201140 179.558000 275.563200] -0.417352 0.000000 0.000000 -0.908745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744F200D, 0x744F200E, '2019-02-10 00:00:00') /* Ruschk Challenger */;
+VALUES (0x744F200D, 0x744F200E, '2019-02-10 00:00:00') /* Ruschk Challenger (31036) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F200E, 31036, 0x44F20008, 6.20114, 179.558, 275.5632, -0.417352, 0, 0, -0.908745,  True, '2019-02-10 00:00:00'); /* Ruschk Challenger */

@@ -5,12 +5,12 @@ VALUES (0x7F246001,  1154, 0xF2460027, 107.5835, 158.0776, 0.006400108, 0.884446
 /* @teleloc 0xF2460027 [107.583500 158.077600 0.006400] 0.884447 0.000000 0.000000 -0.466642 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F246001, 0x7F246002, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F246001, 0x7F246003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F246001, 0x7F246004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7F246001, 0x7F246005, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F246001, 0x7F246006, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F246001, 0x7F246007, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7F246001, 0x7F246002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F246001, 0x7F246003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F246001, 0x7F246004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7F246001, 0x7F246005, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F246001, 0x7F246006, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F246001, 0x7F246007, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F246002,  7180, 0xF2460027, 107.5835, 158.0776, 0.006400108, 0.8844465, 0, 0, -0.4666415,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */

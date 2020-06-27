@@ -13,23 +13,23 @@ VALUES (0x7F47A002,  1154, 0xF47A000F, 27.16226, 144.5348, 33.64549, -0.9350461,
 /* @teleloc 0xF47A000F [27.162260 144.534800 33.645490] -0.935046 0.000000 0.000000 -0.354526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F47A002, 0x7F47A003, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F47A002, 0x7F47A004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F47A002, 0x7F47A005, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F47A002, 0x7F47A006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F47A002, 0x7F47A007, '2019-02-10 00:00:00') /* Tuskie Thrower */
-     , (0x7F47A002, 0x7F47A008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F47A002, 0x7F47A009, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F47A002, 0x7F47A00A, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F47A002, 0x7F47A00B, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F47A002, 0x7F47A00C, '2019-02-10 00:00:00') /* Horned Chittick */
-     , (0x7F47A002, 0x7F47A00D, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F47A002, 0x7F47A00E, '2019-02-10 00:00:00') /* Tusker Minion */
-     , (0x7F47A002, 0x7F47A00F, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x7F47A002, 0x7F47A010, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F47A002, 0x7F47A011, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F47A002, 0x7F47A012, '2019-02-10 00:00:00') /* Jungle Reaver */
-     , (0x7F47A002, 0x7F47A013, '2019-02-10 00:00:00') /* Tuskie Thrower */;
+VALUES (0x7F47A002, 0x7F47A003, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F47A002, 0x7F47A004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F47A002, 0x7F47A005, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F47A002, 0x7F47A006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F47A002, 0x7F47A007, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F47A002, 0x7F47A008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F47A002, 0x7F47A009, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F47A002, 0x7F47A00A, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F47A002, 0x7F47A00B, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F47A002, 0x7F47A00C, '2019-02-10 00:00:00') /* Horned Chittick (4243) */
+     , (0x7F47A002, 0x7F47A00D, '2019-02-10 00:00:00') /* Tusker Minion (22512) */
+     , (0x7F47A002, 0x7F47A00E, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F47A002, 0x7F47A00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F47A002, 0x7F47A010, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F47A002, 0x7F47A011, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F47A002, 0x7F47A012, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */
+     , (0x7F47A002, 0x7F47A013, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F47A003, 22745, 0xF47A000F, 27.16226, 144.5348, 33.64549, -0.9350461, 0, 0, -0.354526,  True, '2019-02-10 00:00:00'); /* Jungle Reaver */

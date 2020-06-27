@@ -5,16 +5,16 @@ VALUES (0x7876A001,  1154, 0x876A001F, 78.18297, 149.8725, 12.469, -0.4970969, 0
 /* @teleloc 0x876A001F [78.182970 149.872500 12.469000] -0.497097 0.000000 0.000000 -0.867695 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7876A001, 0x7876A002, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x7876A001, 0x7876A003, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7876A001, 0x7876A004, '2019-02-10 00:00:00') /* Sandstone Golem */
-     , (0x7876A001, 0x7876A005, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7876A001, 0x7876A006, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7876A001, 0x7876A007, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x7876A001, 0x7876A008, '2019-02-10 00:00:00') /* Shallow Rift */
-     , (0x7876A001, 0x7876A009, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7876A001, 0x7876A00A, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7876A001, 0x7876A00B, '2019-02-10 00:00:00') /* Sandstone Golem */;
+VALUES (0x7876A001, 0x7876A002, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x7876A001, 0x7876A003, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7876A001, 0x7876A004, '2019-02-10 00:00:00') /* Sandstone Golem (202) */
+     , (0x7876A001, 0x7876A005, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7876A001, 0x7876A006, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7876A001, 0x7876A007, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x7876A001, 0x7876A008, '2019-02-10 00:00:00') /* Shallow Rift (10801) */
+     , (0x7876A001, 0x7876A009, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7876A001, 0x7876A00A, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7876A001, 0x7876A00B, '2019-02-10 00:00:00') /* Sandstone Golem (202) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7876A002,  1763, 0x876A001F, 78.18297, 149.8725, 12.469, -0.4970969, 0, 0, -0.867695,  True, '2019-02-10 00:00:00'); /* Lesser Mu-miyah */
@@ -61,7 +61,7 @@ VALUES (0x7876A00C,  1542, 0x876A0012, 66.27648, 24.54005, 20.18217, 0.5606257, 
 /* @teleloc 0x876A0012 [66.276480 24.540050 20.182170] 0.560626 0.000000 0.000000 -0.828069 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7876A00C, 0x7876A00D, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7876A00C, 0x7876A00D, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7876A00D,  8041, 0x876A0012, 66.27648, 24.54005, 20.18217, 0.5606257, 0, 0, -0.8280693,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

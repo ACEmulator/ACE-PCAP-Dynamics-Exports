@@ -5,18 +5,18 @@ VALUES (0x7A774001,  1154, 0xA774000D, 37.14811, 108.4692, 33.04625, -0.9419315,
 /* @teleloc 0xA774000D [37.148110 108.469200 33.046250] -0.941932 0.000000 0.000000 -0.335805 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A774001, 0x7A774002, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A774001, 0x7A774003, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A774001, 0x7A774004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A774001, 0x7A774005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7A774001, 0x7A774006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A774001, 0x7A774007, '2019-02-10 00:00:00') /* Charge */
-     , (0x7A774001, 0x7A774008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A774001, 0x7A774009, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7A774001, 0x7A77400A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A774001, 0x7A77400B, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7A774001, 0x7A77400C, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7A774001, 0x7A77400D, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A774001, 0x7A774002, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A774001, 0x7A774003, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A774001, 0x7A774004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A774001, 0x7A774005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7A774001, 0x7A774006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A774001, 0x7A774007, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7A774001, 0x7A774008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A774001, 0x7A774009, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7A774001, 0x7A77400A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A774001, 0x7A77400B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7A774001, 0x7A77400C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7A774001, 0x7A77400D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A774002, 22809, 0xA774000D, 37.14811, 108.4692, 33.04625, -0.9419315, 0, 0, -0.3358049,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */

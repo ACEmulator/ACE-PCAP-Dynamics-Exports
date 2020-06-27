@@ -57,7 +57,7 @@ VALUES (0x7526C072,  1154, 0x526C0380, 129.9174, -96.17555, -11.971, 1, 0, 0, 0,
 /* @teleloc 0x526C0380 [129.917400 -96.175550 -11.971000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526C072, 0x7526C073, '2019-02-10 00:00:00') /* Vibrant Virindi Energy Cluster */;
+VALUES (0x7526C072, 0x7526C073, '2019-02-10 00:00:00') /* Vibrant Virindi Energy Cluster (14558) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526C073, 14558, 0x526C0380, 129.9174, -96.17555, -11.971, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vibrant Virindi Energy Cluster */

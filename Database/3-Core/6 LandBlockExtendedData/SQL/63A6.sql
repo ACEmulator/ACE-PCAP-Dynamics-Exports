@@ -5,9 +5,9 @@ VALUES (0x763A6001,  1154, 0x63A60005, 23.48123, 108.2997, 80.00715, 0.7071068, 
 /* @teleloc 0x63A60005 [23.481230 108.299700 80.007150] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763A6001, 0x763A6002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x763A6001, 0x763A6003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x763A6001, 0x763A6004, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x763A6001, 0x763A6002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x763A6001, 0x763A6003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x763A6001, 0x763A6004, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763A6002,  7088, 0x63A60005, 23.48123, 108.2997, 80.00715, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -26,7 +26,7 @@ VALUES (0x763A6005,  1542, 0x63A60005, 20.63438, 104.5981, 80, 1, 0, 0, 0, False
 /* @teleloc 0x63A60005 [20.634380 104.598100 80.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763A6005, 0x763A6006, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x763A6005, 0x763A6006, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763A6006, 22571, 0x63A60005, 20.63438, 104.5981, 80, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

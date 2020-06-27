@@ -5,17 +5,17 @@ VALUES (0x7AC16001,  1154, 0xAC160017, 59.53913, 155.0689, 209.0831, 0.5977688, 
 /* @teleloc 0xAC160017 [59.539130 155.068900 209.083100] 0.597769 0.000000 0.000000 -0.801669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC16001, 0x7AC16002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AC16001, 0x7AC16003, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7AC16001, 0x7AC16004, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AC16001, 0x7AC16005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AC16001, 0x7AC16006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC16001, 0x7AC16007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC16001, 0x7AC16008, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7AC16001, 0x7AC16009, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7AC16001, 0x7AC1600A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7AC16001, 0x7AC1600B, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7AC16001, 0x7AC1600C, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x7AC16001, 0x7AC16002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AC16001, 0x7AC16003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7AC16001, 0x7AC16004, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AC16001, 0x7AC16005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AC16001, 0x7AC16006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC16001, 0x7AC16007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC16001, 0x7AC16008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7AC16001, 0x7AC16009, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7AC16001, 0x7AC1600A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7AC16001, 0x7AC1600B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7AC16001, 0x7AC1600C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC16002,  4254, 0xAC160017, 59.53913, 155.0689, 209.0831, 0.5977688, 0, 0, -0.8016685,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -66,9 +66,9 @@ VALUES (0x7AC1600D,  1542, 0xAC160015, 61.65418, 113.394, 206.3125, 1, 0, 0, 0, 
 /* @teleloc 0xAC160015 [61.654180 113.394000 206.312500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC1600D, 0x7AC1600E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7AC1600D, 0x7AC1600F, '2019-02-10 00:00:00') /* Bones */
-     , (0x7AC1600D, 0x7AC16010, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7AC1600D, 0x7AC1600E, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x7AC1600D, 0x7AC1600F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7AC1600D, 0x7AC16010, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC1600E, 22567, 0xAC160015, 61.65418, 113.394, 206.3125, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

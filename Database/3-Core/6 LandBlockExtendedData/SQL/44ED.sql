@@ -5,9 +5,9 @@ VALUES (0x744ED001,  1154, 0x44ED0010, 27.74379, 175.0947, 31.46829, -0.4313799,
 /* @teleloc 0x44ED0010 [27.743790 175.094700 31.468290] -0.431380 0.000000 0.000000 -0.902170 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x744ED001, 0x744ED002, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x744ED001, 0x744ED003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x744ED001, 0x744ED004, '2019-02-10 00:00:00') /* Pestilence Rat */;
+VALUES (0x744ED001, 0x744ED002, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x744ED001, 0x744ED003, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x744ED001, 0x744ED004, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744ED002, 29344, 0x44ED0010, 27.74379, 175.0947, 31.46829, -0.4313799, 0, 0, -0.9021704,  True, '2019-02-10 00:00:00'); /* Ruschk Sadist */

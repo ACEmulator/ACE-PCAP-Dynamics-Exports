@@ -5,21 +5,21 @@ VALUES (0x7BA58001,  1154, 0xBA580011, 67.63423, 4.820679, 38.84387, -0.03260146
 /* @teleloc 0xBA580011 [67.634230 4.820679 38.843870] -0.032601 0.000000 0.000000 -0.999468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA58001, 0x7BA58002, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7BA58001, 0x7BA58003, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BA58001, 0x7BA58004, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BA58001, 0x7BA58005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7BA58001, 0x7BA58006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BA58001, 0x7BA58007, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BA58001, 0x7BA58008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7BA58001, 0x7BA58009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800A, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800B, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800C, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800D, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800E, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA5800F, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7BA58001, 0x7BA58010, '2019-02-10 00:00:00') /* Mud Golem */;
+VALUES (0x7BA58001, 0x7BA58002, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7BA58001, 0x7BA58003, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BA58001, 0x7BA58004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BA58001, 0x7BA58005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7BA58001, 0x7BA58006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BA58001, 0x7BA58007, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BA58001, 0x7BA58008, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7BA58001, 0x7BA58009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800A, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800B, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800D, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800E, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA5800F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA58010, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA58002,  7979, 0xBA580011, 67.63423, 4.820679, 38.84387, -0.03260146, 0, 0, -0.9994684,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */

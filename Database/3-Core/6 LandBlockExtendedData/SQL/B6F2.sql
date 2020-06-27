@@ -5,15 +5,15 @@ VALUES (0x7B6F2001,  1154, 0xB6F2003D, 187.6142, 99.86877, 20.99687, 0.7071068, 
 /* @teleloc 0xB6F2003D [187.614200 99.868770 20.996870] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6F2001, 0x7B6F2002, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F2001, 0x7B6F2003, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7B6F2001, 0x7B6F2004, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7B6F2001, 0x7B6F2005, '2019-02-10 00:00:00') /* Poltergeist */
-     , (0x7B6F2001, 0x7B6F2006, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x7B6F2001, 0x7B6F2007, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7B6F2001, 0x7B6F2008, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7B6F2001, 0x7B6F2009, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7B6F2001, 0x7B6F200A, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */;
+VALUES (0x7B6F2001, 0x7B6F2002, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F2001, 0x7B6F2003, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7B6F2001, 0x7B6F2004, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7B6F2001, 0x7B6F2005, '2019-02-10 00:00:00') /* Poltergeist (28245) */
+     , (0x7B6F2001, 0x7B6F2006, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x7B6F2001, 0x7B6F2007, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7B6F2001, 0x7B6F2008, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7B6F2001, 0x7B6F2009, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7B6F2001, 0x7B6F200A, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6F2002,  7086, 0xB6F2003D, 187.6142, 99.86877, 20.99687, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -56,7 +56,7 @@ VALUES (0x7B6F200B,  1542, 0xB6F2003D, 184.4142, 97.86877, 21.05639, 0.9990482, 
 /* @teleloc 0xB6F2003D [184.414200 97.868770 21.056390] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6F200B, 0x7B6F200C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B6F200B, 0x7B6F200C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6F200C,  4179, 0xB6F2003D, 184.4142, 97.86877, 21.05639, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

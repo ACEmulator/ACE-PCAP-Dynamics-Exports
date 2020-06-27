@@ -5,23 +5,23 @@ VALUES (0x7288C001,  1154, 0x288C0039, 175.7005, 21.98694, 113.9979, -0.8524206,
 /* @teleloc 0x288C0039 [175.700500 21.986940 113.997900] -0.852421 0.000000 0.000000 -0.522857 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288C001, 0x7288C002, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x7288C001, 0x7288C003, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7288C001, 0x7288C004, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x7288C001, 0x7288C005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7288C001, 0x7288C006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x7288C001, 0x7288C007, '2019-02-10 00:00:00') /* Frost */
-     , (0x7288C001, 0x7288C008, '2019-02-10 00:00:00') /* Frost */
-     , (0x7288C001, 0x7288C009, '2019-02-10 00:00:00') /* Gelid */
-     , (0x7288C001, 0x7288C00A, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7288C001, 0x7288C00B, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7288C001, 0x7288C00C, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7288C001, 0x7288C00D, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x7288C001, 0x7288C00E, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7288C001, 0x7288C00F, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7288C001, 0x7288C010, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7288C001, 0x7288C011, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7288C001, 0x7288C012, '2019-02-10 00:00:00') /* Diamond Golem */;
+VALUES (0x7288C001, 0x7288C002, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x7288C001, 0x7288C003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7288C001, 0x7288C004, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7288C001, 0x7288C005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7288C001, 0x7288C006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7288C001, 0x7288C007, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7288C001, 0x7288C008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7288C001, 0x7288C009, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x7288C001, 0x7288C00A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7288C001, 0x7288C00B, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7288C001, 0x7288C00C, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7288C001, 0x7288C00D, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x7288C001, 0x7288C00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7288C001, 0x7288C00F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7288C001, 0x7288C010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7288C001, 0x7288C011, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7288C001, 0x7288C012, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288C002,  7981, 0x288C0039, 175.7005, 21.98694, 113.9979, -0.8524206, 0, 0, -0.5228566,  True, '2019-02-10 00:00:00'); /* Harrower Grievver */
@@ -96,8 +96,8 @@ VALUES (0x7288C013,  1542, 0x288C001C, 80.46179, 93.05351, 135.4617, 1, 0, 0, 0,
 /* @teleloc 0x288C001C [80.461790 93.053510 135.461700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7288C013, 0x7288C014, '2019-02-10 00:00:00') /* Bones */
-     , (0x7288C013, 0x7288C015, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7288C013, 0x7288C014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7288C013, 0x7288C015, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7288C014,  4380, 0x288C001C, 80.46179, 93.05351, 135.4617, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

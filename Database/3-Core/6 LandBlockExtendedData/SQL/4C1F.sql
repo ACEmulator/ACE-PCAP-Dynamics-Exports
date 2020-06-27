@@ -5,14 +5,14 @@ VALUES (0x74C1F001,  1154, 0x4C1F0031, 156.1952, 18.07761, 70.17404, 0.3882013, 
 /* @teleloc 0x4C1F0031 [156.195200 18.077610 70.174040] 0.388201 0.000000 0.000000 -0.921575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C1F001, 0x74C1F002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x74C1F001, 0x74C1F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x74C1F001, 0x74C1F004, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74C1F001, 0x74C1F005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74C1F001, 0x74C1F006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x74C1F001, 0x74C1F007, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x74C1F001, 0x74C1F008, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x74C1F001, 0x74C1F009, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x74C1F001, 0x74C1F002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x74C1F001, 0x74C1F003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74C1F001, 0x74C1F004, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74C1F001, 0x74C1F005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74C1F001, 0x74C1F006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74C1F001, 0x74C1F007, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x74C1F001, 0x74C1F008, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x74C1F001, 0x74C1F009, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C1F002,  8138, 0x4C1F0031, 156.1952, 18.07761, 70.17404, 0.3882013, 0, 0, -0.9215746,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -51,7 +51,7 @@ VALUES (0x74C1F00A,  1542, 0x4C1F002F, 130.9359, 155.0796, 120.9013, 0.956808, 0
 /* @teleloc 0x4C1F002F [130.935900 155.079600 120.901300] 0.956808 0.000000 0.000000 -0.290721 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C1F00A, 0x74C1F00B, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x74C1F00A, 0x74C1F00B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C1F00B,  9288, 0x4C1F002F, 130.9359, 155.0796, 120.9013, 0.956808, 0, 0, -0.2907206,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

@@ -5,14 +5,14 @@ VALUES (0x7AF5A001,  1154, 0xAF5A0006, 10.08057, 121.8069, 12.0014, 0.9537169, 0
 /* @teleloc 0xAF5A0006 [10.080570 121.806900 12.001400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF5A001, 0x7AF5A002, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF5A001, 0x7AF5A003, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF5A001, 0x7AF5A004, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7AF5A001, 0x7AF5A005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7AF5A001, 0x7AF5A006, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7AF5A001, 0x7AF5A007, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AF5A001, 0x7AF5A008, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AF5A001, 0x7AF5A009, '2019-02-10 00:00:00') /* Amploth Raider */;
+VALUES (0x7AF5A001, 0x7AF5A002, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF5A001, 0x7AF5A003, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF5A001, 0x7AF5A004, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7AF5A001, 0x7AF5A005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7AF5A001, 0x7AF5A006, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7AF5A001, 0x7AF5A007, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AF5A001, 0x7AF5A008, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AF5A001, 0x7AF5A009, '2019-02-10 00:00:00') /* Amploth Raider (8143) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF5A002,   222, 0xAF5A0006, 10.08057, 121.8069, 12.0014, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
@@ -51,8 +51,8 @@ VALUES (0x7AF5A00A,  1542, 0xAF5A0006, 8.028108, 122.6943, 11.999, 1, 0, 0, 0, F
 /* @teleloc 0xAF5A0006 [8.028108 122.694300 11.999000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF5A00A, 0x7AF5A00B, '2019-02-10 00:00:00') /* Meat */
-     , (0x7AF5A00A, 0x7AF5A00C, '2019-02-10 00:00:00') /* Vat */;
+VALUES (0x7AF5A00A, 0x7AF5A00B, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7AF5A00A, 0x7AF5A00C, '2019-02-10 00:00:00') /* Vat (4383) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF5A00B,   265, 0xAF5A0006, 8.028108, 122.6943, 11.999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */

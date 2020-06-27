@@ -5,11 +5,11 @@ VALUES (0x7A0C5001,  1154, 0xA0C50006, 9.608812, 141.4568, 79.86289, 0.493995, 0
 /* @teleloc 0xA0C50006 [9.608812 141.456800 79.862890] 0.493995 0.000000 0.000000 -0.869465 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0C5001, 0x7A0C5002, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7A0C5001, 0x7A0C5003, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7A0C5001, 0x7A0C5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A0C5001, 0x7A0C5005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7A0C5001, 0x7A0C5006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7A0C5001, 0x7A0C5002, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7A0C5001, 0x7A0C5003, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7A0C5001, 0x7A0C5004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A0C5001, 0x7A0C5005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A0C5001, 0x7A0C5006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0C5002, 28878, 0xA0C50006, 9.608812, 141.4568, 79.86289, 0.493995, 0, 0, -0.8694648,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
@@ -36,7 +36,7 @@ VALUES (0x7A0C5007,  1542, 0xA0C50006, 7.890768, 142.4807, 79.86289, 1, 0, 0, 0,
 /* @teleloc 0xA0C50006 [7.890768 142.480700 79.862890] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0C5007, 0x7A0C5008, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x7A0C5007, 0x7A0C5008, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0C5008,  8232, 0xA0C50006, 7.890768, 142.4807, 79.86289, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */

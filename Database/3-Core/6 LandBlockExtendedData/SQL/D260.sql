@@ -5,12 +5,12 @@ VALUES (0x7D260001,  1154, 0xD260003F, 189.7408, 154.8408, 6.0055, 0.9238795, 0,
 /* @teleloc 0xD260003F [189.740800 154.840800 6.005500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D260001, 0x7D260002, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D260001, 0x7D260003, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7D260001, 0x7D260004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D260001, 0x7D260005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D260001, 0x7D260006, '2019-02-10 00:00:00') /* Virtuous Doll */
-     , (0x7D260001, 0x7D260007, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7D260001, 0x7D260002, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D260001, 0x7D260003, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7D260001, 0x7D260004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D260001, 0x7D260005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D260001, 0x7D260006, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */
+     , (0x7D260001, 0x7D260007, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D260002,   211, 0xD260003F, 189.7408, 154.8408, 6.0055, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
@@ -41,7 +41,7 @@ VALUES (0x7D260008,  1542, 0xD260003F, 185.1441, 151.0463, 6.1, 0.9990482, 0, 0,
 /* @teleloc 0xD260003F [185.144100 151.046300 6.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D260008, 0x7D260009, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7D260008, 0x7D260009, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D260009,  6117, 0xD260003F, 185.1441, 151.0463, 6.1, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

@@ -17,11 +17,11 @@ VALUES (0x78613003,  1154, 0x8613003A, 178.0251, 43.50917, 192.7521, 0.275402, 0
 /* @teleloc 0x8613003A [178.025100 43.509170 192.752100] 0.275402 0.000000 0.000000 -0.961329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78613003, 0x78613004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x78613003, 0x78613005, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x78613003, 0x78613006, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x78613003, 0x78613007, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x78613003, 0x78613008, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x78613003, 0x78613004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x78613003, 0x78613005, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x78613003, 0x78613006, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x78613003, 0x78613007, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x78613003, 0x78613008, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78613004,   199, 0x8613003A, 178.0251, 43.50917, 192.7521, 0.275402, 0, 0, -0.9613292,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -48,8 +48,8 @@ VALUES (0x78613009,  1542, 0x8613000B, 30.39695, 69.75774, 261.937, 0.8433914, 0
 /* @teleloc 0x8613000B [30.396950 69.757740 261.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78613009, 0x7861300A, '2019-02-10 00:00:00') /* The Floating City */
-     , (0x78613009, 0x7861300B, '2019-02-10 00:00:00') /* Golem Sanctum Portal */;
+VALUES (0x78613009, 0x7861300A, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x78613009, 0x7861300B, '2019-02-10 00:00:00') /* Golem Sanctum Portal (7934) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7861300A,  8190, 0x8613000B, 30.39695, 69.75774, 261.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */

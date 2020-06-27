@@ -5,9 +5,9 @@ VALUES (0x725B6001,  1154, 0x25B60031, 162.2214, 11.80246, 20.48755, 1, 0, 0, 0,
 /* @teleloc 0x25B60031 [162.221400 11.802460 20.487550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725B6001, 0x725B6002, '2019-02-10 00:00:00') /* Hea Windreave */
-     , (0x725B6001, 0x725B6003, '2019-02-10 00:00:00') /* Strand Siraluun */
-     , (0x725B6001, 0x725B6004, '2019-02-10 00:00:00') /* Poacher */;
+VALUES (0x725B6001, 0x725B6002, '2019-02-10 00:00:00') /* Hea Windreave (11524) */
+     , (0x725B6001, 0x725B6003, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
+     , (0x725B6001, 0x725B6004, '2019-02-10 00:00:00') /* Poacher (11505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B6002, 11524, 0x25B60031, 162.2214, 11.80246, 20.48755, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Windreave */
@@ -26,8 +26,8 @@ VALUES (0x725B6005,  1542, 0x25B6001F, 78.5192, 151.5615, 85, 1, 0, 0, 0, False,
 /* @teleloc 0x25B6001F [78.519200 151.561500 85.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725B6005, 0x725B6006, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x725B6005, 0x725B6007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x725B6005, 0x725B6006, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x725B6005, 0x725B6007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B6006,  9024, 0x25B6001F, 78.5192, 151.5615, 85, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

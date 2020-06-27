@@ -5,9 +5,9 @@ VALUES (0x78AED001,  1154, 0x8AED0032, 161.8535, 26.90649, 16.2625, -0.587355, 0
 /* @teleloc 0x8AED0032 [161.853500 26.906490 16.262500] -0.587355 0.000000 0.000000 -0.809329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78AED001, 0x78AED002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x78AED001, 0x78AED003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78AED001, 0x78AED004, '2019-02-10 00:00:00') /* Mighty Oak Golem */;
+VALUES (0x78AED001, 0x78AED002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x78AED001, 0x78AED003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78AED001, 0x78AED004, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78AED002, 24294, 0x8AED0032, 161.8535, 26.90649, 16.2625, -0.587355, 0, 0, -0.8093294,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

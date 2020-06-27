@@ -5,33 +5,33 @@ VALUES (0x7D41B001,  1154, 0xD41B0019, 95.92881, 20.052, 30.0392, 0.4700918, 0, 
 /* @teleloc 0xD41B0019 [95.928810 20.052000 30.039200] 0.470092 0.000000 0.000000 -0.882618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D41B001, 0x7D41B002, '2019-02-10 00:00:00') /* Flare */
-     , (0x7D41B001, 0x7D41B003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x7D41B001, 0x7D41B004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D41B001, 0x7D41B005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D41B001, 0x7D41B006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D41B001, 0x7D41B007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7D41B001, 0x7D41B008, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D41B001, 0x7D41B009, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D41B001, 0x7D41B00A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D41B001, 0x7D41B00B, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7D41B001, 0x7D41B00C, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D41B001, 0x7D41B00D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D41B001, 0x7D41B00E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D41B001, 0x7D41B00F, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D41B001, 0x7D41B010, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7D41B001, 0x7D41B011, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D41B001, 0x7D41B012, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D41B001, 0x7D41B013, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7D41B001, 0x7D41B014, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7D41B001, 0x7D41B015, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7D41B001, 0x7D41B016, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D41B001, 0x7D41B017, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7D41B001, 0x7D41B018, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7D41B001, 0x7D41B019, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x7D41B001, 0x7D41B01A, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7D41B001, 0x7D41B01B, '2019-02-10 00:00:00') /* Revenant */
-     , (0x7D41B001, 0x7D41B01C, '2019-02-10 00:00:00') /* Revenant */;
+VALUES (0x7D41B001, 0x7D41B002, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x7D41B001, 0x7D41B003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x7D41B001, 0x7D41B004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D41B001, 0x7D41B005, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D41B001, 0x7D41B006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D41B001, 0x7D41B007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7D41B001, 0x7D41B008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D41B001, 0x7D41B009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D41B001, 0x7D41B00A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D41B001, 0x7D41B00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7D41B001, 0x7D41B00C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D41B001, 0x7D41B00D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D41B001, 0x7D41B00E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D41B001, 0x7D41B00F, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D41B001, 0x7D41B010, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7D41B001, 0x7D41B011, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D41B001, 0x7D41B012, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D41B001, 0x7D41B013, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7D41B001, 0x7D41B014, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7D41B001, 0x7D41B015, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7D41B001, 0x7D41B016, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D41B001, 0x7D41B017, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7D41B001, 0x7D41B018, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7D41B001, 0x7D41B019, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7D41B001, 0x7D41B01A, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7D41B001, 0x7D41B01B, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D41B001, 0x7D41B01C, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D41B002,  5710, 0xD41B0019, 95.92881, 20.052, 30.0392, 0.4700918, 0, 0, -0.8826175,  True, '2019-02-10 00:00:00'); /* Flare */
@@ -146,8 +146,8 @@ VALUES (0x7D41B01D,  1542, 0xD41B0038, 144.0625, 191.9998, 25.93261, -0.6166192,
 /* @teleloc 0xD41B0038 [144.062500 191.999800 25.932610] -0.616619 0.000000 0.000000 -0.787262 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D41B01D, 0x7D41B01E, '2019-02-10 00:00:00') /* Ginger */
-     , (0x7D41B01D, 0x7D41B01F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7D41B01D, 0x7D41B01E, '2019-02-10 00:00:00') /* Ginger (14789) */
+     , (0x7D41B01D, 0x7D41B01F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D41B01E, 14789, 0xD41B0038, 144.0625, 191.9998, 25.93261, -0.6166192, 0, 0, -0.7872616,  True, '2019-02-10 00:00:00'); /* Ginger */

@@ -5,10 +5,10 @@ VALUES (0x7B92A001,  1154, 0xB92A0023, 117.0874, 56.45571, 213.4663, 0.9238795, 
 /* @teleloc 0xB92A0023 [117.087400 56.455710 213.466300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B92A001, 0x7B92A002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B92A001, 0x7B92A003, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B92A001, 0x7B92A004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B92A001, 0x7B92A005, '2019-02-10 00:00:00') /* Magma Golem */;
+VALUES (0x7B92A001, 0x7B92A002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B92A001, 0x7B92A003, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B92A001, 0x7B92A004, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B92A001, 0x7B92A005, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B92A002,   199, 0xB92A0023, 117.0874, 56.45571, 213.4663, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Magma Golem */

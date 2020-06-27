@@ -5,13 +5,13 @@ VALUES (0x79DAA001,  1154, 0x9DAA003C, 181.3127, 95.71413, 80.69897, 0.8237365, 
 /* @teleloc 0x9DAA003C [181.312700 95.714130 80.698970] 0.823737 0.000000 0.000000 -0.566973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DAA001, 0x79DAA002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x79DAA001, 0x79DAA003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79DAA001, 0x79DAA004, '2019-02-10 00:00:00') /* Olthoi Needler */
-     , (0x79DAA001, 0x79DAA005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79DAA001, 0x79DAA006, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79DAA001, 0x79DAA007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x79DAA001, 0x79DAA008, '2019-02-10 00:00:00') /* Drudge Stalker */;
+VALUES (0x79DAA001, 0x79DAA002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x79DAA001, 0x79DAA003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79DAA001, 0x79DAA004, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x79DAA001, 0x79DAA005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79DAA001, 0x79DAA006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79DAA001, 0x79DAA007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79DAA001, 0x79DAA008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DAA002,  1608, 0x9DAA003C, 181.3127, 95.71413, 80.69897, 0.8237365, 0, 0, -0.5669727,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

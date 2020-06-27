@@ -5,20 +5,20 @@ VALUES (0x7ABB0001,  1154, 0xABB0003E, 172.2089, 125.2223, 63.65376, -0.5070376,
 /* @teleloc 0xABB0003E [172.208900 125.222300 63.653760] -0.507038 0.000000 0.000000 -0.861924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB0001, 0x7ABB0002, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB0001, 0x7ABB0003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB0001, 0x7ABB0004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB0001, 0x7ABB0005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB0001, 0x7ABB0006, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB0001, 0x7ABB0007, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB0001, 0x7ABB0008, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB0001, 0x7ABB0009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB0001, 0x7ABB000A, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB0001, 0x7ABB000B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB0001, 0x7ABB000C, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB0001, 0x7ABB000D, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB0001, 0x7ABB000E, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB0001, 0x7ABB000F, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7ABB0001, 0x7ABB0002, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB0001, 0x7ABB0003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB0001, 0x7ABB0004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB0001, 0x7ABB0005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB0001, 0x7ABB0006, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB0001, 0x7ABB0007, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB0001, 0x7ABB0008, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB0001, 0x7ABB0009, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB0001, 0x7ABB000A, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB0001, 0x7ABB000B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB0001, 0x7ABB000C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB0001, 0x7ABB000D, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB0001, 0x7ABB000E, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB0001, 0x7ABB000F, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB0002, 19260, 0xABB0003E, 172.2089, 125.2223, 63.65376, -0.5070376, 0, 0, -0.8619239,  True, '2019-02-10 00:00:00'); /* Mite Snippet */

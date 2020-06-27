@@ -5,14 +5,14 @@ VALUES (0x797C2001,  1154, 0x97C20039, 173.0613, 15.97218, 69.46241, 0.9451409, 
 /* @teleloc 0x97C20039 [173.061300 15.972180 69.462410] 0.945141 0.000000 0.000000 -0.326663 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797C2001, 0x797C2002, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x797C2001, 0x797C2003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x797C2001, 0x797C2004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x797C2001, 0x797C2005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x797C2001, 0x797C2006, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x797C2001, 0x797C2007, '2019-02-10 00:00:00') /* Pumpkin Lord */
-     , (0x797C2001, 0x797C2008, '2019-02-10 00:00:00') /* Pumpkin Kin */
-     , (0x797C2001, 0x797C2009, '2019-02-10 00:00:00') /* Pumpkin Kin */;
+VALUES (0x797C2001, 0x797C2002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x797C2001, 0x797C2003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x797C2001, 0x797C2004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x797C2001, 0x797C2005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x797C2001, 0x797C2006, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x797C2001, 0x797C2007, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
+     , (0x797C2001, 0x797C2008, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797C2001, 0x797C2009, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797C2002,     3, 0x97C20039, 173.0613, 15.97218, 69.46241, 0.9451409, 0, 0, -0.326663,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */

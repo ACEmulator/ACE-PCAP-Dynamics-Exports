@@ -5,18 +5,18 @@ VALUES (0x7BD82001,  1154, 0xBD820023, 103.9448, 69.70985, 39.51598, 1, 0, 0, 0,
 /* @teleloc 0xBD820023 [103.944800 69.709850 39.515980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD82001, 0x7BD82002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BD82001, 0x7BD82003, '2019-02-10 00:00:00') /* Static */
-     , (0x7BD82001, 0x7BD82004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7BD82001, 0x7BD82005, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD82001, 0x7BD82006, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BD82001, 0x7BD82007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD82001, 0x7BD82008, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD82001, 0x7BD82009, '2019-02-10 00:00:00') /* Spark */
-     , (0x7BD82001, 0x7BD8200A, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BD82001, 0x7BD8200B, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7BD82001, 0x7BD8200C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7BD82001, 0x7BD8200D, '2019-02-10 00:00:00') /* Drudge Skulker */;
+VALUES (0x7BD82001, 0x7BD82002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BD82001, 0x7BD82003, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7BD82001, 0x7BD82004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BD82001, 0x7BD82005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD82001, 0x7BD82006, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BD82001, 0x7BD82007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD82001, 0x7BD82008, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD82001, 0x7BD82009, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7BD82001, 0x7BD8200A, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BD82001, 0x7BD8200B, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7BD82001, 0x7BD8200C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BD82001, 0x7BD8200D, '2019-02-10 00:00:00') /* Drudge Skulker (7) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD82002,   223, 0xBD820023, 103.9448, 69.70985, 39.51598, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -71,8 +71,8 @@ VALUES (0x7BD8200E,  1542, 0xBD820029, 143.7061, 21.65472, 52.36638, 1, 0, 0, 0,
 /* @teleloc 0xBD820029 [143.706100 21.654720 52.366380] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD8200E, 0x7BD8200F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BD8200E, 0x7BD82010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD8200E, 0x7BD8200F, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7BD8200E, 0x7BD82010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD8200F, 22572, 0xBD820029, 143.7061, 21.65472, 52.36638, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

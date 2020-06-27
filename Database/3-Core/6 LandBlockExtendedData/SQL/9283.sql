@@ -5,10 +5,10 @@ VALUES (0x79283001,  1154, 0x92830001, 16.8192, 8.388101, 39.985, 0.1414867, 0, 
 /* @teleloc 0x92830001 [16.819200 8.388101 39.985000] 0.141487 0.000000 0.000000 -0.989940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79283001, 0x79283002, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79283001, 0x79283003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x79283001, 0x79283004, '2019-02-10 00:00:00') /* Gout */
-     , (0x79283001, 0x79283005, '2019-02-10 00:00:00') /* Crystal Spur */;
+VALUES (0x79283001, 0x79283002, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79283001, 0x79283003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79283001, 0x79283004, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79283001, 0x79283005, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79283002, 28552, 0x92830001, 16.8192, 8.388101, 39.985, 0.1414867, 0, 0, -0.9899402,  True, '2019-02-10 00:00:00'); /* Crystal Spur */

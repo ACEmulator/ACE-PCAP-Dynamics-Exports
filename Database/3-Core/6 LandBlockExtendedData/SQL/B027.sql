@@ -5,15 +5,15 @@ VALUES (0x7B027001,  1154, 0xB0270021, 111.7576, 11.5866, 199.2551, 1, 0, 0, 0, 
 /* @teleloc 0xB0270021 [111.757600 11.586600 199.255100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B027001, 0x7B027002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B027001, 0x7B027003, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7B027001, 0x7B027004, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x7B027001, 0x7B027005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B027001, 0x7B027006, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7B027001, 0x7B027007, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x7B027001, 0x7B027008, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7B027001, 0x7B027009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7B027001, 0x7B02700A, '2019-02-10 00:00:00') /* Lithos Raider */;
+VALUES (0x7B027001, 0x7B027002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B027001, 0x7B027003, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7B027001, 0x7B027004, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x7B027001, 0x7B027005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B027001, 0x7B027006, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7B027001, 0x7B027007, '2019-02-10 00:00:00') /* Acolyte of Wind (34565) */
+     , (0x7B027001, 0x7B027008, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7B027001, 0x7B027009, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7B027001, 0x7B02700A, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B027002,  7107, 0xB0270021, 111.7576, 11.5866, 199.2551, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -56,7 +56,7 @@ VALUES (0x7B02700B,  1542, 0xB0270021, 108.4467, 14.5929, 199.2551, 1, 0, 0, 0, 
 /* @teleloc 0xB0270021 [108.446700 14.592900 199.255100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B02700B, 0x7B02700C, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7B02700B, 0x7B02700C, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B02700C,  4379, 0xB0270021, 108.4467, 14.5929, 199.2551, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

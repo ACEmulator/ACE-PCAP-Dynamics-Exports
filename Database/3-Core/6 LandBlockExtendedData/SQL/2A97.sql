@@ -5,17 +5,17 @@ VALUES (0x72A97001,  1154, 0x2A97003A, 185.0383, 28.84779, -0.8899999, 0.8920777
 /* @teleloc 0x2A97003A [185.038300 28.847790 -0.890000] 0.892078 0.000000 0.000000 -0.451882 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A97001, 0x72A97002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72A97001, 0x72A97003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x72A97001, 0x72A97004, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72A97001, 0x72A97005, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72A97001, 0x72A97006, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72A97001, 0x72A97007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x72A97001, 0x72A97008, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x72A97001, 0x72A97009, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A97001, 0x72A9700A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x72A97001, 0x72A9700B, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x72A97001, 0x72A9700C, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x72A97001, 0x72A97002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x72A97001, 0x72A97003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72A97001, 0x72A97004, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72A97001, 0x72A97005, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72A97001, 0x72A97006, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72A97001, 0x72A97007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72A97001, 0x72A97008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72A97001, 0x72A97009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A97001, 0x72A9700A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x72A97001, 0x72A9700B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72A97001, 0x72A9700C, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A97002, 36834, 0x2A97003A, 185.0383, 28.84779, -0.8899999, 0.8920777, 0, 0, -0.451882,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

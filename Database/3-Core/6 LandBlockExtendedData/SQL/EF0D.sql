@@ -25,20 +25,20 @@ VALUES (0x7EF0D01C,  1154, 0xEF0D0012, 60, 33.2, 173.8, 1, 0, 0, 0, False, '2019
 /* @teleloc 0xEF0D0012 [60.000000 33.200000 173.800000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF0D01C, 0x7EF0D01D, '2019-02-10 00:00:00') /* Font Guardian */
-     , (0x7EF0D01C, 0x7EF0D01E, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7EF0D01C, 0x7EF0D01F, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7EF0D01C, 0x7EF0D020, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7EF0D01C, 0x7EF0D021, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7EF0D01C, 0x7EF0D022, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7EF0D01C, 0x7EF0D023, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7EF0D01C, 0x7EF0D024, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x7EF0D01C, 0x7EF0D025, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7EF0D01C, 0x7EF0D026, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7EF0D01C, 0x7EF0D027, '2019-02-10 00:00:00') /* Small Mud Golem */
-     , (0x7EF0D01C, 0x7EF0D028, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7EF0D01C, 0x7EF0D029, '2019-02-10 00:00:00') /* Small Water Golem */
-     , (0x7EF0D01C, 0x7EF0D02A, '2019-02-10 00:00:00') /* Small Water Golem */;
+VALUES (0x7EF0D01C, 0x7EF0D01D, '2019-02-10 00:00:00') /* Font Guardian (29730) */
+     , (0x7EF0D01C, 0x7EF0D01E, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x7EF0D01C, 0x7EF0D01F, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7EF0D01C, 0x7EF0D020, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D01C, 0x7EF0D021, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D01C, 0x7EF0D022, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D01C, 0x7EF0D023, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D01C, 0x7EF0D024, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7EF0D01C, 0x7EF0D025, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D01C, 0x7EF0D026, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D01C, 0x7EF0D027, '2019-02-10 00:00:00') /* Small Mud Golem (24482) */
+     , (0x7EF0D01C, 0x7EF0D028, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D01C, 0x7EF0D029, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x7EF0D01C, 0x7EF0D02A, '2019-02-10 00:00:00') /* Small Water Golem (24485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF0D01D, 29730, 0xEF0D0012, 60, 33.2, 173.8, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Font Guardian */

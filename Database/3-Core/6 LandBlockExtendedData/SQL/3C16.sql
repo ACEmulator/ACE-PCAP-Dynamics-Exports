@@ -5,31 +5,31 @@ VALUES (0x73C16001,  1154, 0x3C16003E, 182.8488, 130.5352, -0.8935001, 0.4226182
 /* @teleloc 0x3C16003E [182.848800 130.535200 -0.893500] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C16001, 0x73C16002, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C16001, 0x73C16003, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C16001, 0x73C16004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x73C16001, 0x73C16005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C16001, 0x73C16006, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x73C16001, 0x73C16007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x73C16001, 0x73C16008, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x73C16001, 0x73C16009, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C16001, 0x73C1600A, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x73C16001, 0x73C1600B, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C16001, 0x73C1600C, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C16001, 0x73C1600D, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73C16001, 0x73C1600E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x73C16001, 0x73C1600F, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73C16001, 0x73C16010, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x73C16001, 0x73C16011, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C16001, 0x73C16012, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C16001, 0x73C16013, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73C16001, 0x73C16014, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x73C16001, 0x73C16015, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73C16001, 0x73C16016, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73C16001, 0x73C16017, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73C16001, 0x73C16018, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x73C16001, 0x73C16019, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x73C16001, 0x73C1601A, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x73C16001, 0x73C16002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C16001, 0x73C16003, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C16001, 0x73C16004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x73C16001, 0x73C16005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C16001, 0x73C16006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x73C16001, 0x73C16007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C16001, 0x73C16008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73C16001, 0x73C16009, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C16001, 0x73C1600A, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x73C16001, 0x73C1600B, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C16001, 0x73C1600C, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C16001, 0x73C1600D, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73C16001, 0x73C1600E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x73C16001, 0x73C1600F, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73C16001, 0x73C16010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x73C16001, 0x73C16011, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C16001, 0x73C16012, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C16001, 0x73C16013, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73C16001, 0x73C16014, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x73C16001, 0x73C16015, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73C16001, 0x73C16016, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73C16001, 0x73C16017, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73C16001, 0x73C16018, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x73C16001, 0x73C16019, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x73C16001, 0x73C1601A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C16002,  8431, 0x3C16003E, 182.8488, 130.5352, -0.8935001, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -136,8 +136,8 @@ VALUES (0x73C1601B,  1542, 0x3C16000F, 46.47936, 161.2564, -0.00999999, -0.01733
 /* @teleloc 0x3C16000F [46.479360 161.256400 -0.010000] -0.017333 0.000000 0.000000 -0.999850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73C1601B, 0x73C1601C, '2019-02-10 00:00:00') /* Singularity Trove */
-     , (0x73C1601B, 0x73C1601D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x73C1601B, 0x73C1601C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x73C1601B, 0x73C1601D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C1601C,  9288, 0x3C16000F, 46.47936, 161.2564, -0.00999999, -0.0173328, 0, 0, -0.9998498,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

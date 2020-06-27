@@ -5,17 +5,17 @@ VALUES (0x75EDE001,  1154, 0x5EDE0005, 4.659528, 117.5737, 77.17488, -0.5403214,
 /* @teleloc 0x5EDE0005 [4.659528 117.573700 77.174880] -0.540321 0.000000 0.000000 -0.841459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EDE001, 0x75EDE002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x75EDE001, 0x75EDE003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75EDE001, 0x75EDE004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x75EDE001, 0x75EDE005, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EDE001, 0x75EDE006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EDE001, 0x75EDE007, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x75EDE001, 0x75EDE008, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x75EDE001, 0x75EDE009, '2019-02-10 00:00:00') /* Viamontian Warcaster */
-     , (0x75EDE001, 0x75EDE00A, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x75EDE001, 0x75EDE00B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x75EDE001, 0x75EDE00C, '2019-02-10 00:00:00') /* Ascendant Tumerok */;
+VALUES (0x75EDE001, 0x75EDE002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x75EDE001, 0x75EDE003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75EDE001, 0x75EDE004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x75EDE001, 0x75EDE005, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EDE001, 0x75EDE006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EDE001, 0x75EDE007, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x75EDE001, 0x75EDE008, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x75EDE001, 0x75EDE009, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
+     , (0x75EDE001, 0x75EDE00A, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x75EDE001, 0x75EDE00B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x75EDE001, 0x75EDE00C, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EDE002, 14520, 0x5EDE0005, 4.659528, 117.5737, 77.17488, -0.5403214, 0, 0, -0.8414587,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -66,8 +66,8 @@ VALUES (0x75EDE00D,  1542, 0x5EDE000C, 36.67167, 91.73501, 81.99784, 1, 0, 0, 0,
 /* @teleloc 0x5EDE000C [36.671670 91.735010 81.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75EDE00D, 0x75EDE00E, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x75EDE00D, 0x75EDE00F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75EDE00D, 0x75EDE00E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x75EDE00D, 0x75EDE00F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75EDE00E, 31445, 0x5EDE000C, 36.67167, 91.73501, 81.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

@@ -5,11 +5,11 @@ VALUES (0x798DE001,  1154, 0x98DE002D, 123.0632, 108.5076, 137.3822, -0.6235064,
 /* @teleloc 0x98DE002D [123.063200 108.507600 137.382200] -0.623506 0.000000 0.000000 -0.781818 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x798DE001, 0x798DE002, '2019-02-10 00:00:00') /* Olthoi Legionary */
-     , (0x798DE001, 0x798DE003, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x798DE001, 0x798DE004, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x798DE001, 0x798DE005, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x798DE001, 0x798DE006, '2019-02-10 00:00:00') /* Tusker Slave */;
+VALUES (0x798DE001, 0x798DE002, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x798DE001, 0x798DE003, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x798DE001, 0x798DE004, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x798DE001, 0x798DE005, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x798DE001, 0x798DE006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798DE002, 11481, 0x98DE002D, 123.0632, 108.5076, 137.3822, -0.6235064, 0, 0, -0.7818183,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */

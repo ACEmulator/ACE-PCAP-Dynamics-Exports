@@ -5,12 +5,12 @@ VALUES (0x752B3001,  1154, 0x52B30038, 154.521, 180.184, 86.82642, 0.2062011, 0,
 /* @teleloc 0x52B30038 [154.521000 180.184000 86.826420] 0.206201 0.000000 0.000000 -0.978510 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x752B3001, 0x752B3002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x752B3001, 0x752B3003, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x752B3001, 0x752B3004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x752B3001, 0x752B3005, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x752B3001, 0x752B3006, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x752B3001, 0x752B3007, '2019-02-10 00:00:00') /* Banderling Mangler */;
+VALUES (0x752B3001, 0x752B3002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x752B3001, 0x752B3003, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x752B3001, 0x752B3004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x752B3001, 0x752B3005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x752B3001, 0x752B3006, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x752B3001, 0x752B3007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x752B3002,  1629, 0x52B30038, 154.521, 180.184, 86.82642, 0.2062011, 0, 0, -0.9785097,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

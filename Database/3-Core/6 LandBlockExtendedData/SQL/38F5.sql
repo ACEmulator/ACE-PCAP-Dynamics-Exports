@@ -5,13 +5,13 @@ VALUES (0x738F5001,  1154, 0x38F50030, 125.9304, 186.4807, 108.9199, 0.9894232, 
 /* @teleloc 0x38F50030 [125.930400 186.480700 108.919900] 0.989423 0.000000 0.000000 -0.145058 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x738F5001, 0x738F5002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x738F5001, 0x738F5003, '2019-02-10 00:00:00') /* Ancient Coral Golem */
-     , (0x738F5001, 0x738F5004, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x738F5001, 0x738F5005, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x738F5001, 0x738F5006, '2019-02-10 00:00:00') /* Ruschk Warlord */
-     , (0x738F5001, 0x738F5007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x738F5001, 0x738F5008, '2019-02-10 00:00:00') /* Coral Golem */;
+VALUES (0x738F5001, 0x738F5002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x738F5001, 0x738F5003, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */
+     , (0x738F5001, 0x738F5004, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x738F5001, 0x738F5005, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x738F5001, 0x738F5006, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x738F5001, 0x738F5007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x738F5001, 0x738F5008, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F5002, 23616, 0x38F50030, 125.9304, 186.4807, 108.9199, 0.9894232, 0, 0, -0.1450578,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

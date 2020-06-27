@@ -5,13 +5,13 @@ VALUES (0x7A0AF001,  1154, 0xA0AF0032, 164.9266, 29.12681, 100.1783, -0.9557472,
 /* @teleloc 0xA0AF0032 [164.926600 29.126810 100.178300] -0.955747 0.000000 0.000000 -0.294189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A0AF001, 0x7A0AF002, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7A0AF001, 0x7A0AF003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0AF001, 0x7A0AF004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7A0AF001, 0x7A0AF005, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7A0AF001, 0x7A0AF006, '2019-02-10 00:00:00') /* Jibrit Zefir */
-     , (0x7A0AF001, 0x7A0AF007, '2019-02-10 00:00:00') /* Banderling Raider */
-     , (0x7A0AF001, 0x7A0AF008, '2019-02-10 00:00:00') /* Male Tusker */;
+VALUES (0x7A0AF001, 0x7A0AF002, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7A0AF001, 0x7A0AF003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0AF001, 0x7A0AF004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7A0AF001, 0x7A0AF005, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7A0AF001, 0x7A0AF006, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7A0AF001, 0x7A0AF007, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7A0AF001, 0x7A0AF008, '2019-02-10 00:00:00') /* Male Tusker (11) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A0AF002,   183, 0xA0AF0032, 164.9266, 29.12681, 100.1783, -0.9557472, 0, 0, -0.2941892,  True, '2019-02-10 00:00:00'); /* Banderling Raver */

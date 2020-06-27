@@ -5,13 +5,13 @@ VALUES (0x788D7001,  1154, 0x88D70003, 16.5479, 59.57095, 172.8405, -0.1736482, 
 /* @teleloc 0x88D70003 [16.547900 59.570950 172.840500] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D7001, 0x788D7002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x788D7001, 0x788D7003, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x788D7001, 0x788D7004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x788D7001, 0x788D7005, '2019-02-10 00:00:00') /* Three Eyed Snowman */
-     , (0x788D7001, 0x788D7006, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x788D7001, 0x788D7007, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x788D7001, 0x788D7008, '2019-02-10 00:00:00') /* Olthoi Lancer */;
+VALUES (0x788D7001, 0x788D7002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x788D7001, 0x788D7003, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x788D7001, 0x788D7004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x788D7001, 0x788D7005, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
+     , (0x788D7001, 0x788D7006, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x788D7001, 0x788D7007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x788D7001, 0x788D7008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D7002,  7184, 0x88D70003, 16.5479, 59.57095, 172.8405, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -46,7 +46,7 @@ VALUES (0x788D7009,  1542, 0x88D70003, 12.01477, 49.22828, 173.1118, 0.9238795, 
 /* @teleloc 0x88D70003 [12.014770 49.228280 173.111800] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x788D7009, 0x788D700A, '2019-02-10 00:00:00') /* Pile of Short Sticks */;
+VALUES (0x788D7009, 0x788D700A, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788D700A,  6118, 0x88D70003, 12.01477, 49.22828, 173.1118, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */

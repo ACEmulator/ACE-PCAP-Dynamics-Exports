@@ -5,10 +5,10 @@ VALUES (0x794E7001,  1154, 0x94E70040, 168.7032, 169.194, 31.07825, -0.543182, 0
 /* @teleloc 0x94E70040 [168.703200 169.194000 31.078250] -0.543182 0.000000 0.000000 -0.839615 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E7001, 0x794E7002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x794E7001, 0x794E7003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x794E7001, 0x794E7004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x794E7001, 0x794E7005, '2019-02-10 00:00:00') /* White Phyntos Wasp */;
+VALUES (0x794E7001, 0x794E7002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x794E7001, 0x794E7003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x794E7001, 0x794E7004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x794E7001, 0x794E7005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E7002,  4255, 0x94E70040, 168.7032, 169.194, 31.07825, -0.543182, 0, 0, -0.839615,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

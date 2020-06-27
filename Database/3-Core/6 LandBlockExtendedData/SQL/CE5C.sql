@@ -5,21 +5,21 @@ VALUES (0x7CE5C001,  1154, 0xCE5C000C, 25.591, 75.00455, 23.74962, 0.002086475, 
 /* @teleloc 0xCE5C000C [25.591000 75.004550 23.749620] 0.002086 0.000000 0.000000 -0.999998 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE5C001, 0x7CE5C002, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CE5C001, 0x7CE5C003, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CE5C001, 0x7CE5C004, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7CE5C001, 0x7CE5C005, '2019-02-10 00:00:00') /* Virulent Grievver */
-     , (0x7CE5C001, 0x7CE5C006, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CE5C001, 0x7CE5C007, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CE5C001, 0x7CE5C008, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CE5C001, 0x7CE5C009, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CE5C001, 0x7CE5C00A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CE5C001, 0x7CE5C00B, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7CE5C001, 0x7CE5C00C, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CE5C001, 0x7CE5C00D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CE5C001, 0x7CE5C00E, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7CE5C001, 0x7CE5C00F, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7CE5C001, 0x7CE5C010, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7CE5C001, 0x7CE5C002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CE5C001, 0x7CE5C003, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CE5C001, 0x7CE5C004, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7CE5C001, 0x7CE5C005, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x7CE5C001, 0x7CE5C006, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CE5C001, 0x7CE5C007, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CE5C001, 0x7CE5C008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CE5C001, 0x7CE5C009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CE5C001, 0x7CE5C00A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CE5C001, 0x7CE5C00B, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7CE5C001, 0x7CE5C00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CE5C001, 0x7CE5C00D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CE5C001, 0x7CE5C00E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7CE5C001, 0x7CE5C00F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7CE5C001, 0x7CE5C010, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE5C002, 22009, 0xCE5C000C, 25.591, 75.00455, 23.74962, 0.002086475, 0, 0, -0.9999978,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -86,10 +86,10 @@ VALUES (0x7CE5C011,  1542, 0xCE5C0015, 60.88496, 97.50611, 22.82273, -0.4776603,
 /* @teleloc 0xCE5C0015 [60.884960 97.506110 22.822730] -0.477660 0.000000 0.000000 -0.878545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE5C011, 0x7CE5C012, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CE5C011, 0x7CE5C013, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7CE5C011, 0x7CE5C014, '2019-02-10 00:00:00') /* Bones */
-     , (0x7CE5C011, 0x7CE5C015, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7CE5C011, 0x7CE5C012, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CE5C011, 0x7CE5C013, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CE5C011, 0x7CE5C014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7CE5C011, 0x7CE5C015, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE5C012,  8037, 0xCE5C0015, 60.88496, 97.50611, 22.82273, -0.4776603, 0, 0, -0.8785446,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

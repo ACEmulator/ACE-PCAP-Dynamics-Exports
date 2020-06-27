@@ -5,17 +5,17 @@ VALUES (0x7B314001,  1154, 0xB314000F, 32.83275, 148.1845, 172.1263, 0.4645541, 
 /* @teleloc 0xB314000F [32.832750 148.184500 172.126300] 0.464554 0.000000 0.000000 -0.885545 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B314001, 0x7B314002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7B314001, 0x7B314003, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B314001, 0x7B314004, '2019-02-10 00:00:00') /* Banished Banderling */
-     , (0x7B314001, 0x7B314005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B314001, 0x7B314006, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7B314001, 0x7B314007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7B314001, 0x7B314008, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7B314001, 0x7B314009, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7B314001, 0x7B31400A, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7B314001, 0x7B31400B, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7B314001, 0x7B31400C, '2019-02-10 00:00:00') /* Oak Golem */;
+VALUES (0x7B314001, 0x7B314002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7B314001, 0x7B314003, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B314001, 0x7B314004, '2019-02-10 00:00:00') /* Banished Banderling (30898) */
+     , (0x7B314001, 0x7B314005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B314001, 0x7B314006, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7B314001, 0x7B314007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7B314001, 0x7B314008, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7B314001, 0x7B314009, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7B314001, 0x7B31400A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7B314001, 0x7B31400B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7B314001, 0x7B31400C, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B314002,  4253, 0xB314000F, 32.83275, 148.1845, 172.1263, 0.4645541, 0, 0, -0.8855447,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -66,8 +66,8 @@ VALUES (0x7B31400D,  1542, 0xB3140006, 3.692074, 143.0293, 159.0452, 0.9779738, 
 /* @teleloc 0xB3140006 [3.692074 143.029300 159.045200] 0.977974 0.000000 0.000000 -0.208728 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B31400D, 0x7B31400E, '2019-02-10 00:00:00') /* Rock */
-     , (0x7B31400D, 0x7B31400F, '2019-02-10 00:00:00') /* Argenory Plant */;
+VALUES (0x7B31400D, 0x7B31400E, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B31400D, 0x7B31400F, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B31400E, 42528, 0xB3140006, 3.692074, 143.0293, 159.0452, 0.9779738, 0, 0, -0.2087277,  True, '2019-02-10 00:00:00'); /* Rock */

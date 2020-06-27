@@ -5,32 +5,32 @@ VALUES (0x7F81E001,  1154, 0xF81E0019, 74.53577, 12.63525, 32.33219, 0.9914449, 
 /* @teleloc 0xF81E0019 [74.535770 12.635250 32.332190] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F81E001, 0x7F81E002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F81E001, 0x7F81E003, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7F81E001, 0x7F81E004, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F81E001, 0x7F81E005, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x7F81E001, 0x7F81E006, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F81E001, 0x7F81E007, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E008, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x7F81E001, 0x7F81E00A, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x7F81E001, 0x7F81E00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E00C, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F81E001, 0x7F81E00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F81E001, 0x7F81E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F81E001, 0x7F81E00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F81E001, 0x7F81E010, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F81E001, 0x7F81E011, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x7F81E001, 0x7F81E012, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E013, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7F81E001, 0x7F81E014, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E015, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E016, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E017, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E018, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E019, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7F81E001, 0x7F81E01A, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x7F81E001, 0x7F81E01B, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x7F81E001, 0x7F81E002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F81E001, 0x7F81E003, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7F81E001, 0x7F81E004, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F81E001, 0x7F81E005, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x7F81E001, 0x7F81E006, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F81E001, 0x7F81E007, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E008, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E009, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (46780) */
+     , (0x7F81E001, 0x7F81E00A, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F81E001, 0x7F81E00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E00C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F81E001, 0x7F81E00D, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F81E001, 0x7F81E00E, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F81E001, 0x7F81E00F, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F81E001, 0x7F81E010, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F81E001, 0x7F81E011, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7F81E001, 0x7F81E012, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E013, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F81E001, 0x7F81E014, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E015, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E016, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E017, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E018, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E019, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F81E001, 0x7F81E01A, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7F81E001, 0x7F81E01B, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81E002,  7128, 0xF81E0019, 74.53577, 12.63525, 32.33219, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -141,13 +141,13 @@ VALUES (0x7F81E01C,  1154, 0xF81E0100, 131.161, 55.1381, 29.7065, -0.999373, 0, 
 /* @teleloc 0xF81E0100 [131.161000 55.138100 29.706500] -0.999373 0.000000 0.000000 -0.035419 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F81E01C, 0x7F81E01D, '2019-02-10 00:00:00') /* Lugian Miner */
-     , (0x7F81E01C, 0x7F81E01E, '2019-02-10 00:00:00') /* Lugian Miner */
-     , (0x7F81E01C, 0x7F81E01F, '2019-02-10 00:00:00') /* Lugian Miner */
-     , (0x7F81E01C, 0x7F81E020, '2019-02-10 00:00:00') /* Shah-hi */
-     , (0x7F81E01C, 0x7F81E021, '2019-02-10 00:00:00') /* Lugian Miner */
-     , (0x7F81E01C, 0x7F81E022, '2019-02-10 00:00:00') /* Lugian Miner */
-     , (0x7F81E01C, 0x7F81E023, '2019-02-10 00:00:00') /* Lugian Miner */;
+VALUES (0x7F81E01C, 0x7F81E01D, '2019-02-10 00:00:00') /* Lugian Miner (46885) */
+     , (0x7F81E01C, 0x7F81E01E, '2019-02-10 00:00:00') /* Lugian Miner (46885) */
+     , (0x7F81E01C, 0x7F81E01F, '2019-02-10 00:00:00') /* Lugian Miner (46885) */
+     , (0x7F81E01C, 0x7F81E020, '2019-02-10 00:00:00') /* Shah-hi (46806) */
+     , (0x7F81E01C, 0x7F81E021, '2019-02-10 00:00:00') /* Lugian Miner (46885) */
+     , (0x7F81E01C, 0x7F81E022, '2019-02-10 00:00:00') /* Lugian Miner (46885) */
+     , (0x7F81E01C, 0x7F81E023, '2019-02-10 00:00:00') /* Lugian Miner (46885) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81E01D, 46885, 0xF81E0100, 131.161, 55.1381, 29.7065, -0.999373, 0, 0, -0.0354193,  True, '2019-02-10 00:00:00'); /* Lugian Miner */
@@ -182,12 +182,12 @@ VALUES (0x7F81E024,  1542, 0xF81E0005, 18.74061, 114.1324, 57.02206, 0.9990482, 
 /* @teleloc 0xF81E0005 [18.740610 114.132400 57.022060] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F81E024, 0x7F81E025, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F81E024, 0x7F81E026, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F81E024, 0x7F81E027, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F81E024, 0x7F81E028, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F81E024, 0x7F81E029, '2019-02-10 00:00:00') /* Nutmeg */
-     , (0x7F81E024, 0x7F81E02A, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7F81E024, 0x7F81E025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F81E024, 0x7F81E026, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F81E024, 0x7F81E027, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F81E024, 0x7F81E028, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F81E024, 0x7F81E029, '2019-02-10 00:00:00') /* Nutmeg (14795) */
+     , (0x7F81E024, 0x7F81E02A, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F81E025,  4179, 0xF81E0005, 18.74061, 114.1324, 57.02206, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

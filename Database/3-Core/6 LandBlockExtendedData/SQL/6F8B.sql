@@ -1905,7 +1905,7 @@ VALUES (0x76F8B1DC,  1542, 0x6F8B0009, 42.26084, 20.64812, 1.648896, -0.6941049,
 /* @teleloc 0x6F8B0009 [42.260840 20.648120 1.648896] -0.694105 -0.694105 -0.134976 -0.134976 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F8B1DC, 0x76F8B1DD, '2019-02-10 00:00:00') /* Deadly Hollow Spear */;
+VALUES (0x76F8B1DC, 0x76F8B1DD, '2019-02-10 00:00:00') /* Deadly Hollow Spear (15449) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F8B1DD, 15449, 0x6F8B0009, 42.26084, 20.64812, 1.648896, -0.6941049, -0.6941049, -0.1349756, -0.1349756,  True, '2019-02-10 00:00:00'); /* Deadly Hollow Spear */

@@ -5,8 +5,8 @@ VALUES (0x73E18001,  1154, 0x3E180018, 58.37906, 189.5058, 174.3634, 0.5548949, 
 /* @teleloc 0x3E180018 [58.379060 189.505800 174.363400] 0.554895 0.000000 0.000000 -0.831921 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E18001, 0x73E18002, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73E18001, 0x73E18003, '2019-02-10 00:00:00') /* Augmented Tumerok */;
+VALUES (0x73E18001, 0x73E18002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73E18001, 0x73E18003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E18002,  8138, 0x3E180018, 58.37906, 189.5058, 174.3634, 0.5548949, 0, 0, -0.8319205,  True, '2019-02-10 00:00:00'); /* Extas Raider */

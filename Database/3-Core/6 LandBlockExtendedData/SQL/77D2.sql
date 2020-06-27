@@ -5,10 +5,10 @@ VALUES (0x777D2001,  1154, 0x77D20007, 11.20645, 150.0004, 243.4675, 1, 0, 0, 0,
 /* @teleloc 0x77D20007 [11.206450 150.000400 243.467500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777D2001, 0x777D2002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x777D2001, 0x777D2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x777D2001, 0x777D2004, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x777D2001, 0x777D2005, '2019-02-10 00:00:00') /* Banderling Enforcer */;
+VALUES (0x777D2001, 0x777D2002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x777D2001, 0x777D2003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x777D2001, 0x777D2004, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x777D2001, 0x777D2005, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777D2002, 24281, 0x77D20007, 11.20645, 150.0004, 243.4675, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
@@ -31,7 +31,7 @@ VALUES (0x777D2006,  1542, 0x77D2001E, 77.87508, 132.3154, 214.5312, 1, 0, 0, 0,
 /* @teleloc 0x77D2001E [77.875080 132.315400 214.531200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777D2006, 0x777D2007, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x777D2006, 0x777D2007, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777D2007, 22567, 0x77D2001E, 77.87508, 132.3154, 214.5312, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

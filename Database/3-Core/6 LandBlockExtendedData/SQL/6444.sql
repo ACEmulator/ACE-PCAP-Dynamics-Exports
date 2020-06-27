@@ -193,24 +193,24 @@ VALUES (0x764440E6,  1154, 0x644401B0, 80.0077, -250.61, -17.99, -0.9998351, 0, 
 /* @teleloc 0x644401B0 [80.007700 -250.610000 -17.990000] -0.999835 0.000000 0.000000 0.018160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764440E6, 0x764440E7, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440E8, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440E9, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440EA, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440EB, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440EC, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440ED, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440EE, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440EF, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F0, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F1, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F2, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F3, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F4, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F5, '2019-02-10 00:00:00') /* Bookshelf */
-     , (0x764440E6, 0x764440F6, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F7, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x764440E6, 0x764440F8, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x764440E6, 0x764440E7, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440E8, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440E9, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440EA, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440EB, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440EC, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440ED, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440EE, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440EF, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F0, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F1, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F2, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F3, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F4, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F5, '2019-02-10 00:00:00') /* Bookshelf (23996) */
+     , (0x764440E6, 0x764440F6, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F7, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x764440E6, 0x764440F8, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764440E7, 15267, 0x644401B0, 80.0077, -250.61, -17.99, -0.9998351, 0, 0, 0.0181599,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -289,7 +289,7 @@ VALUES (0x764440F9,  1154, 0x64440143, 90, -288, -23.99, 0, 0, 0, -1, False, '20
 /* @teleloc 0x64440143 [90.000000 -288.000000 -23.990000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764440F9, 0x764440FA, '2019-02-10 00:00:00') /* Arikas, Warden of Knorr */;
+VALUES (0x764440F9, 0x764440FA, '2019-02-10 00:00:00') /* Arikas, Warden of Knorr (24001) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764440FA, 24001, 0x64440143, 90, -288, -23.99, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Arikas, Warden of Knorr */
@@ -300,15 +300,15 @@ VALUES (0x764440FB,  1542, 0x64440361, 64.2, -43.79706, 18.06954, 0.7071068, 0, 
 /* @teleloc 0x64440361 [64.200000 -43.797060 18.069540] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x764440FB, 0x764440FC, '2019-02-10 00:00:00') /* Weathered Tome */
-     , (0x764440FB, 0x764440FD, '2019-02-10 00:00:00') /* Hidden Tome */
-     , (0x764440FB, 0x764440FE, '2019-02-10 00:00:00') /* Worn Tome */
-     , (0x764440FB, 0x764440FF, '2019-02-10 00:00:00') /* Old Tome */
-     , (0x764440FB, 0x76444100, '2019-02-10 00:00:00') /* Decrepit Tome */
-     , (0x764440FB, 0x76444101, '2019-02-10 00:00:00') /* Aged Tome */
-     , (0x764440FB, 0x76444102, '2019-02-10 00:00:00') /* Key to the Elder Cache */
-     , (0x764440FB, 0x76444103, '2019-02-10 00:00:00') /* Key to the Sentinel Cache */
-     , (0x764440FB, 0x76444104, '2019-02-10 00:00:00') /* Key to the Defender Cache */;
+VALUES (0x764440FB, 0x764440FC, '2019-02-10 00:00:00') /* Weathered Tome (24107) */
+     , (0x764440FB, 0x764440FD, '2019-02-10 00:00:00') /* Hidden Tome (24117) */
+     , (0x764440FB, 0x764440FE, '2019-02-10 00:00:00') /* Worn Tome (24119) */
+     , (0x764440FB, 0x764440FF, '2019-02-10 00:00:00') /* Old Tome (24113) */
+     , (0x764440FB, 0x76444100, '2019-02-10 00:00:00') /* Decrepit Tome (24121) */
+     , (0x764440FB, 0x76444101, '2019-02-10 00:00:00') /* Aged Tome (24111) */
+     , (0x764440FB, 0x76444102, '2019-02-10 00:00:00') /* Key to the Elder Cache (23994) */
+     , (0x764440FB, 0x76444103, '2019-02-10 00:00:00') /* Key to the Sentinel Cache (23995) */
+     , (0x764440FB, 0x76444104, '2019-02-10 00:00:00') /* Key to the Defender Cache (23993) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x764440FC, 24107, 0x64440361, 64.2, -43.79706, 18.06954, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Weathered Tome */

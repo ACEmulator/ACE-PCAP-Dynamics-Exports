@@ -5,9 +5,9 @@ VALUES (0x7AC94001,  1154, 0xAC940006, 22.21484, 141.3248, 49.48204, 0.8870109, 
 /* @teleloc 0xAC940006 [22.214840 141.324800 49.482040] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AC94001, 0x7AC94002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AC94001, 0x7AC94003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AC94001, 0x7AC94004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AC94001, 0x7AC94002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AC94001, 0x7AC94003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AC94001, 0x7AC94004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AC94002,  1756, 0xAC940006, 22.21484, 141.3248, 49.48204, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */

@@ -5,12 +5,12 @@ VALUES (0x7941E001,  1154, 0x941E0029, 127.6216, 23.12234, 290.272, 0.861479, 0,
 /* @teleloc 0x941E0029 [127.621600 23.122340 290.272000] 0.861479 0.000000 0.000000 -0.507793 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7941E001, 0x7941E002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7941E001, 0x7941E003, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7941E001, 0x7941E004, '2019-02-10 00:00:00') /* Frost */
-     , (0x7941E001, 0x7941E005, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7941E001, 0x7941E006, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7941E001, 0x7941E007, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7941E001, 0x7941E002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7941E001, 0x7941E003, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7941E001, 0x7941E004, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7941E001, 0x7941E005, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7941E001, 0x7941E006, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7941E001, 0x7941E007, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7941E002,  7107, 0x941E0029, 127.6216, 23.12234, 290.272, 0.861479, 0, 0, -0.5077931,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */

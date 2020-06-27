@@ -5,71 +5,71 @@ VALUES (0x7BB64001,  1154, 0xBB64001C, 78.34844, 90.05965, 5.5555, -0.3579695, 0
 /* @teleloc 0xBB64001C [78.348440 90.059650 5.555500] -0.357970 0.000000 0.000000 -0.933733 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB64001, 0x7BB64002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB64001, 0x7BB64003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB64001, 0x7BB64004, '2019-02-10 00:00:00') /* Zombie */
-     , (0x7BB64001, 0x7BB64005, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64006, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64007, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64008, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64009, '2019-02-10 00:00:00') /* Odd Looking Vine */
-     , (0x7BB64001, 0x7BB6400A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6400B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6400C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6400D, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6400E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6400F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64010, '2019-02-10 00:00:00') /* Undead */
-     , (0x7BB64001, 0x7BB64011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB64001, 0x7BB64012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7BB64001, 0x7BB64013, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64014, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64015, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64016, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BB64001, 0x7BB64018, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64019, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6401A, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6401B, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6401C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6401D, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6401E, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB64001, 0x7BB6401F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB64001, 0x7BB64020, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7BB64001, 0x7BB64021, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7BB64001, 0x7BB64022, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64023, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64024, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64025, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64026, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64027, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64028, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64029, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6402A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6402B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6402C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6402D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6402E, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7BB64001, 0x7BB6402F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64030, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64031, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BB64001, 0x7BB64032, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64033, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64034, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64035, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB64036, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64037, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64038, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64039, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6403A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6403B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6403C, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6403D, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7BB64001, 0x7BB6403E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB6403F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */
-     , (0x7BB64001, 0x7BB64040, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7BB64001, 0x7BB64041, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7BB64001, 0x7BB64042, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian */;
+VALUES (0x7BB64001, 0x7BB64002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB64001, 0x7BB64003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB64001, 0x7BB64004, '2019-02-10 00:00:00') /* Zombie (950) */
+     , (0x7BB64001, 0x7BB64005, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64006, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64007, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64009, '2019-02-10 00:00:00') /* Odd Looking Vine (26587) */
+     , (0x7BB64001, 0x7BB6400A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6400B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6400C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6400D, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6400E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6400F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64010, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x7BB64001, 0x7BB64011, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB64001, 0x7BB64012, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7BB64001, 0x7BB64013, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64014, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64015, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64016, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB64001, 0x7BB64018, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64019, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6401A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6401B, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6401C, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6401D, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6401E, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB64001, 0x7BB6401F, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB64001, 0x7BB64020, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7BB64001, 0x7BB64021, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7BB64001, 0x7BB64022, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64023, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64024, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64025, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64026, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64027, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64028, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64029, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6402A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6402B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6402C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6402D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6402E, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BB64001, 0x7BB6402F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64030, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64031, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BB64001, 0x7BB64032, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64033, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64034, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64035, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB64036, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64037, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64038, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64039, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6403A, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6403B, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6403C, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6403D, '2019-02-10 00:00:00') /* Burun Ruuk Adept (27097) */
+     , (0x7BB64001, 0x7BB6403E, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB6403F, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */
+     , (0x7BB64001, 0x7BB64040, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BB64001, 0x7BB64041, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (27100) */
+     , (0x7BB64001, 0x7BB64042, '2019-02-10 00:00:00') /* Burun Ruuk Ruffian (27099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB64002,   947, 0xBB64001C, 78.34844, 90.05965, 5.5555, -0.3579695, 0, 0, -0.9337333,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
@@ -336,7 +336,7 @@ VALUES (0x7BB64043,  1154, 0xBB64010D, 0.22789, 82.5841, 1.229, -0.049253, 0, 0,
 /* @teleloc 0xBB64010D [0.227890 82.584100 1.229000] -0.049253 0.000000 0.000000 -0.998786 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB64043, 0x7BB64044, '2019-02-10 00:00:00') /* Watcher of the Dead */;
+VALUES (0x7BB64043, 0x7BB64044, '2019-02-10 00:00:00') /* Watcher of the Dead (29743) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB64044, 29743, 0xBB64010D, 0.22789, 82.5841, 1.229, -0.049253, 0, 0, -0.998786,  True, '2019-02-10 00:00:00'); /* Watcher of the Dead */
@@ -347,7 +347,7 @@ VALUES (0x7BB64045,  1542, 0xBB640035, 164.1611, 115.1645, 6, -0.8773839, 0, 0, 
 /* @teleloc 0xBB640035 [164.161100 115.164500 6.000000] -0.877384 0.000000 0.000000 -0.479789 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB64045, 0x7BB64046, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7BB64045, 0x7BB64046, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB64046,  8037, 0xBB640035, 164.1611, 115.1645, 6, -0.8773839, 0, 0, -0.4797891,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,10 +5,10 @@ VALUES (0x73F68001,  1154, 0x3F680008, 13.54492, 191.3642, 39.7351, 0.688526, 0,
 /* @teleloc 0x3F680008 [13.544920 191.364200 39.735100] 0.688526 0.000000 0.000000 -0.725212 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73F68001, 0x73F68002, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73F68001, 0x73F68003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x73F68001, 0x73F68004, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73F68001, 0x73F68005, '2019-02-10 00:00:00') /* Shadow Phantom */;
+VALUES (0x73F68001, 0x73F68002, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73F68001, 0x73F68003, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x73F68001, 0x73F68004, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73F68001, 0x73F68005, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F68002, 33309, 0x3F680008, 13.54492, 191.3642, 39.7351, 0.688526, 0, 0, -0.7252116,  True, '2019-02-10 00:00:00'); /* Shadow Storm */

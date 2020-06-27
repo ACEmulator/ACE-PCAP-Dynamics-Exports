@@ -21,7 +21,7 @@ VALUES (0x75854006,  1154, 0x58540129, 20, -20, 24, 1, 0, 0, -4.37114E-08, False
 /* @teleloc 0x58540129 [20.000000 -20.000000 24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75854006, 0x75854007, '2019-02-10 00:00:00') /* Gaerlan's Phylacteric Prison */;
+VALUES (0x75854006, 0x75854007, '2019-02-10 00:00:00') /* Gaerlan's Phylacteric Prison (46937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75854007, 46937, 0x58540129, 20, -20, 24, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Gaerlan's Phylacteric Prison */
@@ -32,14 +32,14 @@ VALUES (0x75854008,  1542, 0x5854012D, 26.51597, -16.75307, 24, -0.9886337, 0, 0
 /* @teleloc 0x5854012D [26.515970 -16.753070 24.000000] -0.988634 0.000000 0.000000 -0.150344 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75854008, 0x75854009, '2019-02-10 00:00:00') /* Modified Iasparailaun */
-     , (0x75854008, 0x7585400A, '2019-02-10 00:00:00') /* Modified Elemental Master Robe */
-     , (0x75854008, 0x7585400B, '2019-02-10 00:00:00') /* Nefane Pearl */
-     , (0x75854008, 0x7585400C, '2019-02-10 00:00:00') /* Heavy Necklace */
-     , (0x75854008, 0x7585400D, '2019-02-10 00:00:00') /* Ring */
-     , (0x75854008, 0x7585400E, '2019-02-10 00:00:00') /* Halved Cloak */
-     , (0x75854008, 0x7585400F, '2019-02-10 00:00:00') /* Aetheria */
-     , (0x75854008, 0x75854010, '2019-02-10 00:00:00') /* Aetheria */;
+VALUES (0x75854008, 0x75854009, '2019-02-10 00:00:00') /* Modified Iasparailaun (46959) */
+     , (0x75854008, 0x7585400A, '2019-02-10 00:00:00') /* Modified Elemental Master Robe (46949) */
+     , (0x75854008, 0x7585400B, '2019-02-10 00:00:00') /* Nefane Pearl (25894) */
+     , (0x75854008, 0x7585400C, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x75854008, 0x7585400D, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x75854008, 0x7585400E, '2019-02-10 00:00:00') /* Halved Cloak (44855) */
+     , (0x75854008, 0x7585400F, '2019-02-10 00:00:00') /* Aetheria (42636) */
+     , (0x75854008, 0x75854010, '2019-02-10 00:00:00') /* Aetheria (42635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75854009, 46959, 0x5854012D, 26.51597, -16.75307, 24, -0.9886337, 0, 0, -0.1503443,  True, '2019-02-10 00:00:00'); /* Modified Iasparailaun */

@@ -5,10 +5,10 @@ VALUES (0x76910001,  1154, 0x69100025, 114.7511, 115.6094, -0.8934, -0.8556587, 
 /* @teleloc 0x69100025 [114.751100 115.609400 -0.893400] -0.855659 0.000000 0.000000 -0.517541 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76910001, 0x76910002, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x76910001, 0x76910003, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x76910001, 0x76910004, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x76910001, 0x76910005, '2019-02-10 00:00:00') /* Sable Gromnie */;
+VALUES (0x76910001, 0x76910002, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x76910001, 0x76910003, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x76910001, 0x76910004, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x76910001, 0x76910005, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76910002,  7103, 0x69100025, 114.7511, 115.6094, -0.8934, -0.8556587, 0, 0, -0.5175405,  True, '2019-02-10 00:00:00'); /* Mosswart Clinger */

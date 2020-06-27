@@ -5,11 +5,11 @@ VALUES (0x7A1B1001,  1154, 0xA1B1002F, 141.4011, 151.575, 50.61625, 0.8635567, 0
 /* @teleloc 0xA1B1002F [141.401100 151.575000 50.616250] 0.863557 0.000000 0.000000 -0.504252 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B1001, 0x7A1B1002, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A1B1001, 0x7A1B1003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A1B1001, 0x7A1B1004, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7A1B1001, 0x7A1B1005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A1B1001, 0x7A1B1006, '2019-02-10 00:00:00') /* Young Banderling */;
+VALUES (0x7A1B1001, 0x7A1B1002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A1B1001, 0x7A1B1003, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A1B1001, 0x7A1B1004, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7A1B1001, 0x7A1B1005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A1B1001, 0x7A1B1006, '2019-02-10 00:00:00') /* Young Banderling (939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B1002,  4111, 0xA1B1002F, 141.4011, 151.575, 50.61625, 0.8635567, 0, 0, -0.5042517,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -36,7 +36,7 @@ VALUES (0x7A1B1007,  1542, 0xA1B10020, 93.83062, 174.2689, 54.70319, 1, 0, 0, 0,
 /* @teleloc 0xA1B10020 [93.830620 174.268900 54.703190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A1B1007, 0x7A1B1008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A1B1007, 0x7A1B1008, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1B1008, 22572, 0xA1B10020, 93.83062, 174.2689, 54.70319, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

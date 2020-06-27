@@ -5,18 +5,18 @@ VALUES (0x7F64F001,  1154, 0xF64F0039, 178.4124, 23.74401, -0.08949995, 0.766044
 /* @teleloc 0xF64F0039 [178.412400 23.744010 -0.089500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F64F001, 0x7F64F002, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64F001, 0x7F64F003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64F001, 0x7F64F004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F64F001, 0x7F64F005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F64F001, 0x7F64F006, '2019-02-10 00:00:00') /* Idol */
-     , (0x7F64F001, 0x7F64F007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F64F001, 0x7F64F008, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F64F001, 0x7F64F009, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7F64F001, 0x7F64F00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F64F001, 0x7F64F00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7F64F001, 0x7F64F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F64F001, 0x7F64F00D, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7F64F001, 0x7F64F002, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64F001, 0x7F64F003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64F001, 0x7F64F004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F64F001, 0x7F64F005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F64F001, 0x7F64F006, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7F64F001, 0x7F64F007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F64F001, 0x7F64F008, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F64F001, 0x7F64F009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F64F001, 0x7F64F00A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F64F001, 0x7F64F00B, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7F64F001, 0x7F64F00C, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F64F001, 0x7F64F00D, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F64F002,  7082, 0xF64F0039, 178.4124, 23.74401, -0.08949995, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */

@@ -5,9 +5,9 @@ VALUES (0x7BD92001,  1154, 0xBD92000C, 28.34707, 74.50351, 19.78812, -0.2700204,
 /* @teleloc 0xBD92000C [28.347070 74.503510 19.788120] -0.270020 0.000000 0.000000 -0.962855 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD92001, 0x7BD92002, '2019-02-10 00:00:00') /* Olthoi Nettler */
-     , (0x7BD92001, 0x7BD92003, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD92001, 0x7BD92004, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7BD92001, 0x7BD92002, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
+     , (0x7BD92001, 0x7BD92003, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD92001, 0x7BD92004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD92002, 24938, 0xBD92000C, 28.34707, 74.50351, 19.78812, -0.2700204, 0, 0, -0.9628546,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
@@ -26,8 +26,8 @@ VALUES (0x7BD92005,  1542, 0xBD92003E, 187.5045, 125.0838, 10.07559, -0.9876053,
 /* @teleloc 0xBD92003E [187.504500 125.083800 10.075590] -0.987605 0.000000 0.000000 -0.156958 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD92005, 0x7BD92006, '2019-02-10 00:00:00') /* Iron Pea */
-     , (0x7BD92005, 0x7BD92007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BD92005, 0x7BD92006, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x7BD92005, 0x7BD92007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD92006,  8328, 0xBD92003E, 187.5045, 125.0838, 10.07559, -0.9876053, 0, 0, -0.1569579,  True, '2019-02-10 00:00:00'); /* Iron Pea */

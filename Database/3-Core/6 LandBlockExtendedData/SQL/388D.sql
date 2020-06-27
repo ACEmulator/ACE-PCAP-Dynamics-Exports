@@ -5,14 +5,14 @@ VALUES (0x7388D001,  1154, 0x388D003F, 171.6021, 149.2645, 35.54119, 0.945825, 0
 /* @teleloc 0x388D003F [171.602100 149.264500 35.541190] 0.945825 0.000000 0.000000 -0.324677 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388D001, 0x7388D002, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7388D001, 0x7388D003, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7388D001, 0x7388D004, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7388D001, 0x7388D005, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7388D001, 0x7388D006, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7388D001, 0x7388D007, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7388D001, 0x7388D008, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7388D001, 0x7388D009, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x7388D001, 0x7388D002, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7388D001, 0x7388D003, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7388D001, 0x7388D004, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7388D001, 0x7388D005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7388D001, 0x7388D006, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7388D001, 0x7388D007, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7388D001, 0x7388D008, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7388D001, 0x7388D009, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388D002, 20191, 0x388D003F, 171.6021, 149.2645, 35.54119, 0.945825, 0, 0, -0.3246769,  True, '2019-02-10 00:00:00'); /* Horripal */

@@ -5,13 +5,13 @@ VALUES (0x7A3D2001,  1154, 0xA3D2003A, 176.2689, 44.88681, 215.4041, -0.3899953,
 /* @teleloc 0xA3D2003A [176.268900 44.886810 215.404100] -0.389995 0.000000 0.000000 -0.920817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3D2001, 0x7A3D2002, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D2001, 0x7A3D2003, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D2001, 0x7A3D2004, '2019-02-10 00:00:00') /* Tusker Redeemer */
-     , (0x7A3D2001, 0x7A3D2005, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A3D2001, 0x7A3D2006, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A3D2001, 0x7A3D2007, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x7A3D2001, 0x7A3D2008, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x7A3D2001, 0x7A3D2002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D2001, 0x7A3D2003, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D2001, 0x7A3D2004, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7A3D2001, 0x7A3D2005, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A3D2001, 0x7A3D2006, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A3D2001, 0x7A3D2007, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A3D2001, 0x7A3D2008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3D2002, 22520, 0xA3D2003A, 176.2689, 44.88681, 215.4041, -0.3899953, 0, 0, -0.9208168,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -46,7 +46,7 @@ VALUES (0x7A3D2009,  1542, 0xA3D20035, 153.601, 111.381, 204.1506, 0.9990482, 0,
 /* @teleloc 0xA3D20035 [153.601000 111.381000 204.150600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3D2009, 0x7A3D200A, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7A3D2009, 0x7A3D200A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3D200A,  6117, 0xA3D20035, 153.601, 111.381, 204.1506, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */

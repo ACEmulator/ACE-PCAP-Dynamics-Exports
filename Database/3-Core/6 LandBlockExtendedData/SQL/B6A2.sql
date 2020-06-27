@@ -5,31 +5,31 @@ VALUES (0x7B6A2001,  1154, 0xB6A20011, 58.74293, 14.41739, 2.01, 0.401029, 0, 0,
 /* @teleloc 0xB6A20011 [58.742930 14.417390 2.010000] 0.401029 0.000000 0.000000 -0.916065 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A2001, 0x7B6A2002, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7B6A2001, 0x7B6A2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B6A2001, 0x7B6A2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B6A2001, 0x7B6A2005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2006, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2007, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2008, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2009, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7B6A2001, 0x7B6A200A, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B6A2001, 0x7B6A200B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7B6A2001, 0x7B6A200C, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B6A2001, 0x7B6A200D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B6A2001, 0x7B6A200E, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7B6A2001, 0x7B6A200F, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B6A2001, 0x7B6A2010, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7B6A2001, 0x7B6A2011, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7B6A2001, 0x7B6A2012, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2013, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7B6A2001, 0x7B6A2014, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B6A2001, 0x7B6A2015, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B6A2001, 0x7B6A2016, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7B6A2001, 0x7B6A2017, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7B6A2001, 0x7B6A2018, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B6A2001, 0x7B6A2019, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7B6A2001, 0x7B6A201A, '2019-02-10 00:00:00') /* Shallows Lurker */;
+VALUES (0x7B6A2001, 0x7B6A2002, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B6A2001, 0x7B6A2003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B6A2001, 0x7B6A2004, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B6A2001, 0x7B6A2005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2006, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2008, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2009, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7B6A2001, 0x7B6A200A, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B6A2001, 0x7B6A200B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B6A2001, 0x7B6A200C, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B6A2001, 0x7B6A200D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B6A2001, 0x7B6A200E, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B6A2001, 0x7B6A200F, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B6A2001, 0x7B6A2010, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7B6A2001, 0x7B6A2011, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7B6A2001, 0x7B6A2012, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2013, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B6A2001, 0x7B6A2014, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B6A2001, 0x7B6A2015, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B6A2001, 0x7B6A2016, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7B6A2001, 0x7B6A2017, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7B6A2001, 0x7B6A2018, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B6A2001, 0x7B6A2019, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7B6A2001, 0x7B6A201A, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A2002,   941, 0xB6A20011, 58.74293, 14.41739, 2.01, 0.401029, 0, 0, -0.9160654,  True, '2019-02-10 00:00:00'); /* Water Golem */
@@ -136,7 +136,7 @@ VALUES (0x7B6A201B,  1542, 0xB6A20011, 63.7897, 7.93404, 2, 1, 0, 0, 0, False, '
 /* @teleloc 0xB6A20011 [63.789700 7.934040 2.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B6A201B, 0x7B6A201C, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7B6A201B, 0x7B6A201C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B6A201C,  4179, 0xB6A20011, 63.7897, 7.93404, 2, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

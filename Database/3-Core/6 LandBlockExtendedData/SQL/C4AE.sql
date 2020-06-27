@@ -5,9 +5,9 @@ VALUES (0x7C4AE001,  1154, 0xC4AE0012, 70.60574, 34.81345, 108.0602, 0.7121105, 
 /* @teleloc 0xC4AE0012 [70.605740 34.813450 108.060200] 0.712111 0.000000 0.000000 -0.702067 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C4AE001, 0x7C4AE002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7C4AE001, 0x7C4AE003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7C4AE001, 0x7C4AE004, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7C4AE001, 0x7C4AE002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7C4AE001, 0x7C4AE003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7C4AE001, 0x7C4AE004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C4AE002,  9253, 0xC4AE0012, 70.60574, 34.81345, 108.0602, 0.7121105, 0, 0, -0.7020674,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

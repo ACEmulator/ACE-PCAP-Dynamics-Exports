@@ -5,21 +5,21 @@ VALUES (0x7C9CC001,  1154, 0xC9CC0008, 8.001452, 168.6148, 59.389, 0.9238795, 0,
 /* @teleloc 0xC9CC0008 [8.001452 168.614800 59.389000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9CC001, 0x7C9CC002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9CC001, 0x7C9CC003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9CC001, 0x7C9CC004, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9CC001, 0x7C9CC005, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9CC001, 0x7C9CC006, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7C9CC001, 0x7C9CC007, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7C9CC001, 0x7C9CC008, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7C9CC001, 0x7C9CC009, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x7C9CC001, 0x7C9CC00A, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7C9CC001, 0x7C9CC00B, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x7C9CC001, 0x7C9CC00C, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x7C9CC001, 0x7C9CC00D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7C9CC001, 0x7C9CC00E, '2019-02-10 00:00:00') /* Olthoi Eviscerator */
-     , (0x7C9CC001, 0x7C9CC00F, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7C9CC001, 0x7C9CC010, '2019-02-10 00:00:00') /* Drudge Sage */;
+VALUES (0x7C9CC001, 0x7C9CC002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C9CC001, 0x7C9CC003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7C9CC001, 0x7C9CC004, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9CC001, 0x7C9CC005, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C9CC001, 0x7C9CC006, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7C9CC001, 0x7C9CC007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7C9CC001, 0x7C9CC008, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7C9CC001, 0x7C9CC009, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x7C9CC001, 0x7C9CC00A, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7C9CC001, 0x7C9CC00B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x7C9CC001, 0x7C9CC00C, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7C9CC001, 0x7C9CC00D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C9CC001, 0x7C9CC00E, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C9CC001, 0x7C9CC00F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9CC001, 0x7C9CC010, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9CC002,  7089, 0xC9CC0008, 8.001452, 168.6148, 59.389, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

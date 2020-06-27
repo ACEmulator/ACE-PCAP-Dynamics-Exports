@@ -5,13 +5,13 @@ VALUES (0x73963001,  1154, 0x39630018, 58.86714, 185.6763, 40.005, 0.6775687, 0,
 /* @teleloc 0x39630018 [58.867140 185.676300 40.005000] 0.677569 0.000000 0.000000 -0.735459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73963001, 0x73963002, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73963001, 0x73963003, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x73963001, 0x73963004, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73963001, 0x73963005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x73963001, 0x73963006, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x73963001, 0x73963007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x73963001, 0x73963008, '2019-02-10 00:00:00') /* Reedshark Slasher */;
+VALUES (0x73963001, 0x73963002, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73963001, 0x73963003, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x73963001, 0x73963004, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73963001, 0x73963005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x73963001, 0x73963006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x73963001, 0x73963007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x73963001, 0x73963008, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73963002, 23564, 0x39630018, 58.86714, 185.6763, 40.005, 0.6775687, 0, 0, -0.7354594,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */

@@ -5,10 +5,10 @@ VALUES (0x79F33001,  1154, 0x9F330015, 61.87819, 116.7276, 52.32513, 0.5746765, 
 /* @teleloc 0x9F330015 [61.878190 116.727600 52.325130] 0.574677 0.000000 0.000000 -0.818381 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F33001, 0x79F33002, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x79F33001, 0x79F33003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79F33001, 0x79F33004, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x79F33001, 0x79F33005, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x79F33001, 0x79F33002, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x79F33001, 0x79F33003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79F33001, 0x79F33004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79F33001, 0x79F33005, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F33002,  1627, 0x9F330015, 61.87819, 116.7276, 52.32513, 0.5746765, 0, 0, -0.8183807,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -31,9 +31,9 @@ VALUES (0x79F33006,  1542, 0x9F33001D, 86.09765, 110.6596, 56.67789, 0.7101052, 
 /* @teleloc 0x9F33001D [86.097650 110.659600 56.677890] 0.710105 0.000000 0.000000 -0.704096 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79F33006, 0x79F33007, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79F33006, 0x79F33008, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x79F33006, 0x79F33009, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79F33006, 0x79F33007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79F33006, 0x79F33008, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79F33006, 0x79F33009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79F33007,  8037, 0x9F33001D, 86.09765, 110.6596, 56.67789, 0.7101052, 0, 0, -0.7040956,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

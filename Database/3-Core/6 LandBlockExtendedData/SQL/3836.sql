@@ -5,9 +5,9 @@ VALUES (0x73836001,  1154, 0x38360030, 139.6568, 178.471, 63.96039, -0.9452318, 
 /* @teleloc 0x38360030 [139.656800 178.471000 63.960390] -0.945232 0.000000 0.000000 -0.326400 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73836001, 0x73836002, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x73836001, 0x73836003, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x73836001, 0x73836004, '2019-02-10 00:00:00') /* Dire Champion Shadow */;
+VALUES (0x73836001, 0x73836002, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73836001, 0x73836003, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x73836001, 0x73836004, '2019-02-10 00:00:00') /* Dire Champion Shadow (36846) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73836002, 23481, 0x38360030, 139.6568, 178.471, 63.96039, -0.9452318, 0, 0, -0.3263998,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */

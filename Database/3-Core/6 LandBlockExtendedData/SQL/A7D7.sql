@@ -5,13 +5,13 @@ VALUES (0x7A7D7001,  1154, 0xA7D70008, 1.554245, 185.0394, 116.9111, 0.2358837, 
 /* @teleloc 0xA7D70008 [1.554245 185.039400 116.911100] 0.235884 0.000000 0.000000 -0.971781 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7D7001, 0x7A7D7002, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7A7D7001, 0x7A7D7003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7A7D7001, 0x7A7D7004, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A7D7001, 0x7A7D7005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A7D7001, 0x7A7D7006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A7D7001, 0x7A7D7007, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A7D7001, 0x7A7D7008, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7A7D7001, 0x7A7D7002, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7A7D7001, 0x7A7D7003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7A7D7001, 0x7A7D7004, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A7D7001, 0x7A7D7005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A7D7001, 0x7A7D7006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A7D7001, 0x7A7D7007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A7D7001, 0x7A7D7008, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7D7002,   199, 0xA7D70008, 1.554245, 185.0394, 116.9111, 0.2358837, 0, 0, -0.9717813,  True, '2019-02-10 00:00:00'); /* Magma Golem */

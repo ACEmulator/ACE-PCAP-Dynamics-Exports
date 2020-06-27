@@ -5,9 +5,9 @@ VALUES (0x794AD001,  1154, 0x94AD003D, 178.938, 107.0415, 94.91263, 0.8870109, 0
 /* @teleloc 0x94AD003D [178.938000 107.041500 94.912630] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794AD001, 0x794AD002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x794AD001, 0x794AD003, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x794AD001, 0x794AD004, '2019-02-10 00:00:00') /* Harvest Reaper */;
+VALUES (0x794AD001, 0x794AD002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x794AD001, 0x794AD003, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x794AD001, 0x794AD004, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794AD002,  2576, 0x94AD003D, 178.938, 107.0415, 94.91263, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -26,7 +26,7 @@ VALUES (0x794AD005,  1542, 0x94AD003D, 183.37, 107.0087, 94.91739, 0.9990482, 0,
 /* @teleloc 0x94AD003D [183.370000 107.008700 94.917390] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794AD005, 0x794AD006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x794AD005, 0x794AD006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794AD006,  4179, 0x94AD003D, 183.37, 107.0087, 94.91739, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

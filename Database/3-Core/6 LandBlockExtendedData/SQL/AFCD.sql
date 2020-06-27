@@ -5,10 +5,10 @@ VALUES (0x7AFCD001,  1154, 0xAFCD002B, 141.8446, 70.0776, 133.8577, 0.8891374, 0
 /* @teleloc 0xAFCD002B [141.844600 70.077600 133.857700] 0.889137 0.000000 0.000000 -0.457640 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFCD001, 0x7AFCD002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AFCD001, 0x7AFCD003, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AFCD001, 0x7AFCD004, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7AFCD001, 0x7AFCD005, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x7AFCD001, 0x7AFCD002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AFCD001, 0x7AFCD003, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AFCD001, 0x7AFCD004, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7AFCD001, 0x7AFCD005, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFCD002,  7978, 0xAFCD002B, 141.8446, 70.0776, 133.8577, 0.8891374, 0, 0, -0.4576402,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -31,7 +31,7 @@ VALUES (0x7AFCD006,  1542, 0xAFCD002A, 131.2901, 35.20587, 132.6157, 0.9990482, 
 /* @teleloc 0xAFCD002A [131.290100 35.205870 132.615700] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFCD006, 0x7AFCD007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7AFCD006, 0x7AFCD007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFCD007,  4179, 0xAFCD002A, 131.2901, 35.20587, 132.6157, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

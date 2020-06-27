@@ -5,13 +5,13 @@ VALUES (0x78B8D001,  1154, 0x8B8D001A, 77.86185, 33.45401, 47.02902, -0.8790963,
 /* @teleloc 0x8B8D001A [77.861850 33.454010 47.029020] -0.879096 0.000000 0.000000 -0.476644 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78B8D001, 0x78B8D002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x78B8D001, 0x78B8D003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78B8D001, 0x78B8D004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78B8D001, 0x78B8D005, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x78B8D001, 0x78B8D006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x78B8D001, 0x78B8D007, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x78B8D001, 0x78B8D008, '2019-02-10 00:00:00') /* Drudge Slave */;
+VALUES (0x78B8D001, 0x78B8D002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78B8D001, 0x78B8D003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78B8D001, 0x78B8D004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78B8D001, 0x78B8D005, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78B8D001, 0x78B8D006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x78B8D001, 0x78B8D007, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x78B8D001, 0x78B8D008, '2019-02-10 00:00:00') /* Drudge Slave (1632) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78B8D002,   226, 0x8B8D001A, 77.86185, 33.45401, 47.02902, -0.8790963, 0, 0, -0.4766442,  True, '2019-02-10 00:00:00'); /* High Tumerok */

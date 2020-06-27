@@ -5,11 +5,11 @@ VALUES (0x7C18C001,  1154, 0xC18C0036, 167.9535, 137.7426, 33.66854, 0.977385, 0
 /* @teleloc 0xC18C0036 [167.953500 137.742600 33.668540] 0.977385 0.000000 0.000000 -0.211468 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C18C001, 0x7C18C002, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C18C001, 0x7C18C003, '2019-02-10 00:00:00') /* Tan Rat */
-     , (0x7C18C001, 0x7C18C004, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C18C001, 0x7C18C005, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C18C001, 0x7C18C006, '2019-02-10 00:00:00') /* Snowman */;
+VALUES (0x7C18C001, 0x7C18C002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C18C001, 0x7C18C003, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7C18C001, 0x7C18C004, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C18C001, 0x7C18C005, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C18C001, 0x7C18C006, '2019-02-10 00:00:00') /* Snowman (5761) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C18C002,  4110, 0xC18C0036, 167.9535, 137.7426, 33.66854, 0.977385, 0, 0, -0.2114678,  True, '2019-02-10 00:00:00'); /* Blood Shreth */

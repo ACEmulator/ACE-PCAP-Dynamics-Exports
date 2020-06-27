@@ -5,18 +5,18 @@ VALUES (0x7ED3D001,  1154, 0xED3D0007, 17.66966, 145.4756, 0.5235286, 0.02600098
 /* @teleloc 0xED3D0007 [17.669660 145.475600 0.523529] 0.026001 0.000000 0.000000 -0.999662 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED3D001, 0x7ED3D002, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ED3D001, 0x7ED3D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ED3D001, 0x7ED3D004, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7ED3D001, 0x7ED3D005, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7ED3D001, 0x7ED3D006, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7ED3D001, 0x7ED3D007, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7ED3D001, 0x7ED3D008, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7ED3D001, 0x7ED3D009, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7ED3D001, 0x7ED3D00A, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7ED3D001, 0x7ED3D00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ED3D001, 0x7ED3D00C, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7ED3D001, 0x7ED3D00D, '2019-02-10 00:00:00') /* Creeper Mosswart */;
+VALUES (0x7ED3D001, 0x7ED3D002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ED3D001, 0x7ED3D003, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ED3D001, 0x7ED3D004, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7ED3D001, 0x7ED3D005, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7ED3D001, 0x7ED3D006, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7ED3D001, 0x7ED3D007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7ED3D001, 0x7ED3D008, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7ED3D001, 0x7ED3D009, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7ED3D001, 0x7ED3D00A, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7ED3D001, 0x7ED3D00B, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ED3D001, 0x7ED3D00C, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7ED3D001, 0x7ED3D00D, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED3D002,  4109, 0xED3D0007, 17.66966, 145.4756, 0.5235286, 0.02600098, 0, 0, -0.9996619,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -71,7 +71,7 @@ VALUES (0x7ED3D00E,  1542, 0xED3D0027, 99.95224, 158.462, 0, 0.8870109, 0, 0, -0
 /* @teleloc 0xED3D0027 [99.952240 158.462000 0.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED3D00E, 0x7ED3D00F, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7ED3D00E, 0x7ED3D00F, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED3D00F,  4180, 0xED3D0027, 99.95224, 158.462, 0, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Corpse */

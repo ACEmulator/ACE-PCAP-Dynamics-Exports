@@ -9,66 +9,66 @@ VALUES (0x7ED1E001,  1154, 0xED1E000A, 24.36552, 27.31953, 33.17672, -0.6691307,
 /* @teleloc 0xED1E000A [24.365520 27.319530 33.176720] -0.669131 0.000000 0.000000 -0.743145 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED1E001, 0x7ED1E002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E004, '2019-02-10 00:00:00') /* Idol */
-     , (0x7ED1E001, 0x7ED1E005, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E006, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1E001, 0x7ED1E008, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1E001, 0x7ED1E009, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E00E, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E00F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E014, '2019-02-10 00:00:00') /* Ghost Wisp */
-     , (0x7ED1E001, 0x7ED1E015, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED1E001, 0x7ED1E016, '2019-02-10 00:00:00') /* Slithis Eye Stalk */
-     , (0x7ED1E001, 0x7ED1E017, '2019-02-10 00:00:00') /* Slithis Tentacle */
-     , (0x7ED1E001, 0x7ED1E018, '2019-02-10 00:00:00') /* Slithis Tendril */
-     , (0x7ED1E001, 0x7ED1E019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E01B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E01C, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7ED1E001, 0x7ED1E01D, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7ED1E001, 0x7ED1E01E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7ED1E001, 0x7ED1E01F, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7ED1E001, 0x7ED1E020, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED1E001, 0x7ED1E021, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7ED1E001, 0x7ED1E022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E023, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7ED1E001, 0x7ED1E024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E028, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7ED1E001, 0x7ED1E029, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E02A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7ED1E001, 0x7ED1E02B, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED1E001, 0x7ED1E02C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED1E001, 0x7ED1E02D, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1E001, 0x7ED1E02E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1E001, 0x7ED1E02F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7ED1E001, 0x7ED1E030, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7ED1E001, 0x7ED1E031, '2019-02-10 00:00:00') /* Idol */
-     , (0x7ED1E001, 0x7ED1E032, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED1E001, 0x7ED1E033, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED1E001, 0x7ED1E034, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E035, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E036, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E037, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E038, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED1E001, 0x7ED1E039, '2019-02-10 00:00:00') /* Kilif Zefir */
-     , (0x7ED1E001, 0x7ED1E03A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E03B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x7ED1E001, 0x7ED1E03C, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED1E001, 0x7ED1E03D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x7ED1E001, 0x7ED1E002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E004, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7ED1E001, 0x7ED1E005, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E006, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1E001, 0x7ED1E008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1E001, 0x7ED1E009, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E00A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E00B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E00C, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E00D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E00E, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E00F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E010, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E011, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E012, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E014, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
+     , (0x7ED1E001, 0x7ED1E015, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED1E001, 0x7ED1E016, '2019-02-10 00:00:00') /* Slithis Eye Stalk (4258) */
+     , (0x7ED1E001, 0x7ED1E017, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7ED1E001, 0x7ED1E018, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
+     , (0x7ED1E001, 0x7ED1E019, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E01A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E01B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E01C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7ED1E001, 0x7ED1E01D, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7ED1E001, 0x7ED1E01E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7ED1E001, 0x7ED1E01F, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7ED1E001, 0x7ED1E020, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED1E001, 0x7ED1E021, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7ED1E001, 0x7ED1E022, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E023, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7ED1E001, 0x7ED1E024, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E025, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E026, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E027, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E028, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7ED1E001, 0x7ED1E029, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E02A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7ED1E001, 0x7ED1E02B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED1E001, 0x7ED1E02C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED1E001, 0x7ED1E02D, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1E001, 0x7ED1E02E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1E001, 0x7ED1E02F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7ED1E001, 0x7ED1E030, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7ED1E001, 0x7ED1E031, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7ED1E001, 0x7ED1E032, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED1E001, 0x7ED1E033, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED1E001, 0x7ED1E034, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E035, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E036, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E037, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E038, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED1E001, 0x7ED1E039, '2019-02-10 00:00:00') /* Kilif Zefir (2610) */
+     , (0x7ED1E001, 0x7ED1E03A, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E03B, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7ED1E001, 0x7ED1E03C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED1E001, 0x7ED1E03D, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED1E002,  8427, 0xED1E000A, 24.36552, 27.31953, 33.17672, -0.6691307, 0, 0, -0.7431448,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -315,10 +315,10 @@ VALUES (0x7ED1E03E,  1542, 0xED1E000B, 44.14243, 65.92671, 23.19686, 1, 0, 0, 0,
 /* @teleloc 0xED1E000B [44.142430 65.926710 23.196860] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED1E03E, 0x7ED1E03F, '2019-02-10 00:00:00') /* Idol */
-     , (0x7ED1E03E, 0x7ED1E040, '2019-02-10 00:00:00') /* Idol */
-     , (0x7ED1E03E, 0x7ED1E041, '2019-02-10 00:00:00') /* Idol */
-     , (0x7ED1E03E, 0x7ED1E042, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7ED1E03E, 0x7ED1E03F, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7ED1E03E, 0x7ED1E040, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7ED1E03E, 0x7ED1E041, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7ED1E03E, 0x7ED1E042, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED1E03F,  8588, 0xED1E000B, 44.14243, 65.92671, 23.19686, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

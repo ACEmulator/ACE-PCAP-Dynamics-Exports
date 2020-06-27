@@ -25,27 +25,27 @@ VALUES (0x7CE9C006,  1154, 0xCE9C0109, 101.1026, 179.1588, 0.01000011, 0.422098,
 /* @teleloc 0xCE9C0109 [101.102600 179.158800 0.010000] 0.422098 0.000000 0.000000 -0.906550 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9C006, 0x7CE9C007, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7CE9C006, 0x7CE9C008, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7CE9C006, 0x7CE9C009, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7CE9C006, 0x7CE9C00A, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CE9C006, 0x7CE9C00B, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CE9C006, 0x7CE9C00C, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CE9C006, 0x7CE9C00D, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CE9C006, 0x7CE9C00E, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7CE9C006, 0x7CE9C00F, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7CE9C006, 0x7CE9C010, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7CE9C006, 0x7CE9C011, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7CE9C006, 0x7CE9C012, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7CE9C006, 0x7CE9C013, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CE9C006, 0x7CE9C014, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CE9C006, 0x7CE9C015, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7CE9C006, 0x7CE9C016, '2019-02-10 00:00:00') /* Nasty Scarecrow */
-     , (0x7CE9C006, 0x7CE9C017, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x7CE9C006, 0x7CE9C018, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7CE9C006, 0x7CE9C019, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7CE9C006, 0x7CE9C01A, '2019-02-10 00:00:00') /* Naughty Scarecrow */
-     , (0x7CE9C006, 0x7CE9C01B, '2019-02-10 00:00:00') /* Gout */;
+VALUES (0x7CE9C006, 0x7CE9C007, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7CE9C006, 0x7CE9C008, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7CE9C006, 0x7CE9C009, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7CE9C006, 0x7CE9C00A, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CE9C006, 0x7CE9C00B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CE9C006, 0x7CE9C00C, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CE9C006, 0x7CE9C00D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CE9C006, 0x7CE9C00E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CE9C006, 0x7CE9C00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7CE9C006, 0x7CE9C010, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7CE9C006, 0x7CE9C011, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7CE9C006, 0x7CE9C012, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7CE9C006, 0x7CE9C013, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CE9C006, 0x7CE9C014, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CE9C006, 0x7CE9C015, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CE9C006, 0x7CE9C016, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x7CE9C006, 0x7CE9C017, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7CE9C006, 0x7CE9C018, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7CE9C006, 0x7CE9C019, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7CE9C006, 0x7CE9C01A, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */
+     , (0x7CE9C006, 0x7CE9C01B, '2019-02-10 00:00:00') /* Gout (21164) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9C007,   219, 0xCE9C0109, 101.1026, 179.1588, 0.01000011, 0.422098, 0, 0, -0.90655,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -136,11 +136,11 @@ VALUES (0x7CE9C01C,  1542, 0xCE9C0010, 43.52904, 184.703, 10.50966, 1, 0, 0, 0, 
 /* @teleloc 0xCE9C0010 [43.529040 184.703000 10.509660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CE9C01C, 0x7CE9C01D, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7CE9C01C, 0x7CE9C01E, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CE9C01C, 0x7CE9C01F, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CE9C01C, 0x7CE9C020, '2019-02-10 00:00:00') /* Pumpkin */
-     , (0x7CE9C01C, 0x7CE9C021, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7CE9C01C, 0x7CE9C01D, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7CE9C01C, 0x7CE9C01E, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CE9C01C, 0x7CE9C01F, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CE9C01C, 0x7CE9C020, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x7CE9C01C, 0x7CE9C021, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CE9C01D, 22570, 0xCE9C0010, 43.52904, 184.703, 10.50966, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

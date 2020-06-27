@@ -13,64 +13,64 @@ VALUES (0x71C13002,  1154, 0x1C130039, 187.34, 3.44382, 40.58047, 0.223605, 0, 0
 /* @teleloc 0x1C130039 [187.340000 3.443820 40.580470] 0.223605 0.000000 0.000000 -0.974680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71C13002, 0x71C13003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13004, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13007, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1300A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1300B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1300C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1300D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1300E, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1300F, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13010, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13014, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13015, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13016, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13017, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13018, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13019, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1301A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1301B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1301C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1301D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1301E, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1301F, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13020, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13021, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13022, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13023, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13024, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13025, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13026, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13027, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13028, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13029, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1302A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1302B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1302C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1302D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1302E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1302F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13030, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13031, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13032, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13033, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13034, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13035, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13036, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13037, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C13038, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C13039, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok */
-     , (0x71C13002, 0x71C1303A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1303B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */
-     , (0x71C13002, 0x71C1303C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman */;
+VALUES (0x71C13002, 0x71C13003, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13004, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13005, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13006, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13007, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13008, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13009, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1300A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1300B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1300C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1300D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1300E, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1300F, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13010, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13012, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13014, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13015, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13016, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13017, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13018, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13019, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1301A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1301B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1301C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1301D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1301E, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1301F, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13020, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13021, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13022, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13023, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13024, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13025, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13026, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13027, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13028, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13029, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1302A, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1302B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1302C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1302D, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1302E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1302F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13030, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13031, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13032, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13033, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13034, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13035, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13036, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13037, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C13038, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C13039, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71C13002, 0x71C1303A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1303B, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71C13002, 0x71C1303C, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71C13003, 30687, 0x1C130039, 187.34, 3.44382, 40.58047, 0.223605, 0, 0, -0.9746798,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */

@@ -5,14 +5,14 @@ VALUES (0x7C7A6001,  1154, 0xC7A6000B, 43.19048, 57.83019, 66.78302, 0.9386125, 
 /* @teleloc 0xC7A6000B [43.190480 57.830190 66.783020] 0.938613 0.000000 0.000000 -0.344973 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A6001, 0x7C7A6002, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C7A6001, 0x7C7A6003, '2019-02-10 00:00:00') /* Charge */
-     , (0x7C7A6001, 0x7C7A6004, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A6001, 0x7C7A6005, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C7A6001, 0x7C7A6006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C7A6001, 0x7C7A6007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C7A6001, 0x7C7A6008, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7C7A6001, 0x7C7A6009, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C7A6001, 0x7C7A6002, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C7A6001, 0x7C7A6003, '2019-02-10 00:00:00') /* Charge (21168) */
+     , (0x7C7A6001, 0x7C7A6004, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A6001, 0x7C7A6005, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C7A6001, 0x7C7A6006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C7A6001, 0x7C7A6007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C7A6001, 0x7C7A6008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7C7A6001, 0x7C7A6009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A6002, 21168, 0xC7A6000B, 43.19048, 57.83019, 66.78302, 0.9386125, 0, 0, -0.3449732,  True, '2019-02-10 00:00:00'); /* Charge */
@@ -51,8 +51,8 @@ VALUES (0x7C7A600A,  1542, 0xC7A6003F, 183.7943, 159.5786, 69.4435, -0.9898536, 
 /* @teleloc 0xC7A6003F [183.794300 159.578600 69.443500] -0.989854 0.000000 0.000000 -0.142091 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C7A600A, 0x7C7A600B, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7C7A600A, 0x7C7A600C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7C7A600A, 0x7C7A600B, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7C7A600A, 0x7C7A600C, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7A600B, 15715, 0xC7A6003F, 183.7943, 159.5786, 69.4435, -0.9898536, 0, 0, -0.1420912,  True, '2019-02-10 00:00:00'); /* Sunflower */

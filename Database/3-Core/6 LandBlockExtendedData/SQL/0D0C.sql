@@ -5,13 +5,13 @@ VALUES (0x70D0C001,  1154, 0x0D0C0019, 89.28529, 7.901764, 38.012, -0.06828669, 
 /* @teleloc 0x0D0C0019 [89.285290 7.901764 38.012000] -0.068287 0.000000 0.000000 -0.997666 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70D0C001, 0x70D0C002, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0C001, 0x70D0C003, '2019-02-10 00:00:00') /* Pestilence Rat */
-     , (0x70D0C001, 0x70D0C004, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D0C001, 0x70D0C005, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D0C001, 0x70D0C006, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D0C001, 0x70D0C007, '2019-02-10 00:00:00') /* Mottled Carenzi */
-     , (0x70D0C001, 0x70D0C008, '2019-02-10 00:00:00') /* Mottled Carenzi */;
+VALUES (0x70D0C001, 0x70D0C002, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0C001, 0x70D0C003, '2019-02-10 00:00:00') /* Pestilence Rat (25879) */
+     , (0x70D0C001, 0x70D0C004, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D0C001, 0x70D0C005, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D0C001, 0x70D0C006, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D0C001, 0x70D0C007, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
+     , (0x70D0C001, 0x70D0C008, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70D0C002, 25879, 0x0D0C0019, 89.28529, 7.901764, 38.012, -0.06828669, 0, 0, -0.9976658,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */

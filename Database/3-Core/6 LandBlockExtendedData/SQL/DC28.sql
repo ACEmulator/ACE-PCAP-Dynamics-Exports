@@ -5,17 +5,17 @@ VALUES (0x7DC28001,  1154, 0xDC280022, 109.7858, 41.64079, 80.005, 0.9396926, 0,
 /* @teleloc 0xDC280022 [109.785800 41.640790 80.005000] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC28001, 0x7DC28002, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7DC28001, 0x7DC28003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7DC28001, 0x7DC28004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7DC28001, 0x7DC28005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7DC28001, 0x7DC28006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7DC28001, 0x7DC28007, '2019-02-10 00:00:00') /* Sable Gromnie */
-     , (0x7DC28001, 0x7DC28008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7DC28001, 0x7DC28009, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7DC28001, 0x7DC2800A, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7DC28001, 0x7DC2800B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7DC28001, 0x7DC2800C, '2019-02-10 00:00:00') /* Shroud Cabal Forager */;
+VALUES (0x7DC28001, 0x7DC28002, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7DC28001, 0x7DC28003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7DC28001, 0x7DC28004, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7DC28001, 0x7DC28005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7DC28001, 0x7DC28006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7DC28001, 0x7DC28007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x7DC28001, 0x7DC28008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7DC28001, 0x7DC28009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7DC28001, 0x7DC2800A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7DC28001, 0x7DC2800B, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7DC28001, 0x7DC2800C, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC28002, 37100, 0xDC280022, 109.7858, 41.64079, 80.005, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
@@ -66,7 +66,7 @@ VALUES (0x7DC2800D,  1542, 0xDC280008, 17.54279, 190.3309, 144.6045, -0.1094488,
 /* @teleloc 0xDC280008 [17.542790 190.330900 144.604500] -0.109449 0.000000 0.000000 -0.993992 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC2800D, 0x7DC2800E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7DC2800D, 0x7DC2800E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC2800E,  8037, 0xDC280008, 17.54279, 190.3309, 144.6045, -0.1094488, 0, 0, -0.9939924,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

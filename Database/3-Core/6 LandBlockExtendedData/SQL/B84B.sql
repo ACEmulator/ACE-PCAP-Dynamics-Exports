@@ -5,19 +5,19 @@ VALUES (0x7B84B001,  1154, 0xB84B000D, 29.3008, 103.9477, 29.55677, 0.9659258, 0
 /* @teleloc 0xB84B000D [29.300800 103.947700 29.556770] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B84B001, 0x7B84B002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7B84B001, 0x7B84B003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7B84B001, 0x7B84B004, '2019-02-10 00:00:00') /* Beaten Doll */
-     , (0x7B84B001, 0x7B84B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7B84B001, 0x7B84B006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7B84B001, 0x7B84B007, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7B84B001, 0x7B84B008, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7B84B001, 0x7B84B009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7B84B001, 0x7B84B00A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B84B001, 0x7B84B00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7B84B001, 0x7B84B00C, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7B84B001, 0x7B84B00D, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7B84B001, 0x7B84B00E, '2019-02-10 00:00:00') /* Obeloth Raider */;
+VALUES (0x7B84B001, 0x7B84B002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B84B001, 0x7B84B003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B84B001, 0x7B84B004, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
+     , (0x7B84B001, 0x7B84B005, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7B84B001, 0x7B84B006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7B84B001, 0x7B84B007, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7B84B001, 0x7B84B008, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7B84B001, 0x7B84B009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7B84B001, 0x7B84B00A, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7B84B001, 0x7B84B00B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7B84B001, 0x7B84B00C, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7B84B001, 0x7B84B00D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B84B001, 0x7B84B00E, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B84B002,   195, 0xB84B000D, 29.3008, 103.9477, 29.55677, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -76,11 +76,11 @@ VALUES (0x7B84B00F,  1542, 0xB84B000D, 34.74245, 106.4752, 30.66681, 0.7660445, 
 /* @teleloc 0xB84B000D [34.742450 106.475200 30.666810] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B84B00F, 0x7B84B010, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B84B00F, 0x7B84B011, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B84B00F, 0x7B84B012, '2019-02-10 00:00:00') /* Gem */
-     , (0x7B84B00F, 0x7B84B013, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7B84B00F, 0x7B84B014, '2019-02-10 00:00:00') /* Chainmail Pauldrons */;
+VALUES (0x7B84B00F, 0x7B84B010, '2019-02-10 00:00:00') /* Gem (2423) */
+     , (0x7B84B00F, 0x7B84B011, '2019-02-10 00:00:00') /* Gem (2418) */
+     , (0x7B84B00F, 0x7B84B012, '2019-02-10 00:00:00') /* Gem (2432) */
+     , (0x7B84B00F, 0x7B84B013, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7B84B00F, 0x7B84B014, '2019-02-10 00:00:00') /* Chainmail Pauldrons (416) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B84B010,  2423, 0xB84B000D, 34.74245, 106.4752, 30.66681, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gem */

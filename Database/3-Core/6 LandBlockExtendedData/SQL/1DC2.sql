@@ -5,23 +5,23 @@ VALUES (0x71DC2001,  1154, 0x1DC20002, 10.71511, 24.16084, 20.89593, 0.8438429, 
 /* @teleloc 0x1DC20002 [10.715110 24.160840 20.895930] 0.843843 0.000000 0.000000 -0.536590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC2001, 0x71DC2002, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC2001, 0x71DC2003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC2001, 0x71DC2004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC2001, 0x71DC2005, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC2001, 0x71DC2006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC2001, 0x71DC2007, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC2001, 0x71DC2008, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71DC2001, 0x71DC2009, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71DC2001, 0x71DC200A, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71DC2001, 0x71DC200B, '2019-02-10 00:00:00') /* Great Elariwood Golem */
-     , (0x71DC2001, 0x71DC200C, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC2001, 0x71DC200D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC2001, 0x71DC200E, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC2001, 0x71DC200F, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC2001, 0x71DC2010, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC2001, 0x71DC2011, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x71DC2001, 0x71DC2012, '2019-02-10 00:00:00') /* Hea Elder Shaman */;
+VALUES (0x71DC2001, 0x71DC2002, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC2001, 0x71DC2003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC2001, 0x71DC2004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC2001, 0x71DC2005, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC2001, 0x71DC2006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC2001, 0x71DC2007, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC2001, 0x71DC2008, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC2001, 0x71DC2009, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71DC2001, 0x71DC200A, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71DC2001, 0x71DC200B, '2019-02-10 00:00:00') /* Great Elariwood Golem (27709) */
+     , (0x71DC2001, 0x71DC200C, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC2001, 0x71DC200D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC200E, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC200F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC2010, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC2011, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC2012, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC2002, 27710, 0x1DC20002, 10.71511, 24.16084, 20.89593, 0.8438429, 0, 0, -0.5365903,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */

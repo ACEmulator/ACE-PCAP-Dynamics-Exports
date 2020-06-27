@@ -5,9 +5,9 @@ VALUES (0x761CD001,  1154, 0x61CD003D, 177.1253, 108.058, 59.24605, 0.9238795, 0
 /* @teleloc 0x61CD003D [177.125300 108.058000 59.246050] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761CD001, 0x761CD002, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x761CD001, 0x761CD003, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x761CD001, 0x761CD004, '2019-02-10 00:00:00') /* Abominable Snowman */;
+VALUES (0x761CD001, 0x761CD002, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x761CD001, 0x761CD003, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x761CD001, 0x761CD004, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761CD002, 10807, 0x61CD003D, 177.1253, 108.058, 59.24605, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -26,7 +26,7 @@ VALUES (0x761CD005,  1542, 0x61CD003D, 175.8297, 108.6249, 59.34752, 1, 0, 0, 0,
 /* @teleloc 0x61CD003D [175.829700 108.624900 59.347520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761CD005, 0x761CD006, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x761CD005, 0x761CD006, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761CD006,  4179, 0x61CD003D, 175.8297, 108.6249, 59.34752, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

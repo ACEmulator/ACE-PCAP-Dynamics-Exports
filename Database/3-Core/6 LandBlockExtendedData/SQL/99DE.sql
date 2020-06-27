@@ -5,17 +5,17 @@ VALUES (0x799DE001,  1154, 0x99DE0003, 16.32542, 57.93678, 134.8929, 0.9238795, 
 /* @teleloc 0x99DE0003 [16.325420 57.936780 134.892900] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799DE001, 0x799DE002, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799DE001, 0x799DE003, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799DE001, 0x799DE004, '2019-02-10 00:00:00') /* Banished Drudge */
-     , (0x799DE001, 0x799DE005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x799DE001, 0x799DE006, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x799DE001, 0x799DE007, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x799DE001, 0x799DE008, '2019-02-10 00:00:00') /* Olthoi Soldier */
-     , (0x799DE001, 0x799DE009, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x799DE001, 0x799DE00A, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x799DE001, 0x799DE00B, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x799DE001, 0x799DE00C, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x799DE001, 0x799DE002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799DE001, 0x799DE003, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799DE001, 0x799DE004, '2019-02-10 00:00:00') /* Banished Drudge (30899) */
+     , (0x799DE001, 0x799DE005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x799DE001, 0x799DE006, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x799DE001, 0x799DE007, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x799DE001, 0x799DE008, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x799DE001, 0x799DE009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799DE001, 0x799DE00A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x799DE001, 0x799DE00B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799DE001, 0x799DE00C, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799DE002,  1628, 0x99DE0003, 16.32542, 57.93678, 134.8929, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -66,7 +66,7 @@ VALUES (0x799DE00D,  1542, 0x99DE0026, 112.6778, 142.8274, 154.2273, -0.9406905,
 /* @teleloc 0x99DE0026 [112.677800 142.827400 154.227300] -0.940691 0.000000 0.000000 -0.339266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799DE00D, 0x799DE00E, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x799DE00D, 0x799DE00E, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799DE00E, 22837, 0x99DE0026, 112.6778, 142.8274, 154.2273, -0.9406905, 0, 0, -0.339266,  True, '2019-02-10 00:00:00'); /* Snowflower */

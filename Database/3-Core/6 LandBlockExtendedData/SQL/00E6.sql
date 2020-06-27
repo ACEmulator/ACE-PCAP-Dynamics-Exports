@@ -13,594 +13,594 @@ VALUES (0x700E60B3,  1154, 0x00E603BA, 135.97, -99.9194, -5.998757, 0.6967069, 0
 /* @teleloc 0x00E603BA [135.970000 -99.919400 -5.998757] 0.696707 0.000000 0.000000 0.717356 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E60B3, 0x700E60B4, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60B5, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60B6, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60B7, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60B8, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60B9, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60BA, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60BB, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60BC, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60BD, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60BE, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60BF, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C0, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C1, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C2, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C3, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C4, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C5, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E60C6, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60C7, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60C8, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E60C9, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E60CA, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60CB, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60CC, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E60CD, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60CE, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60CF, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60D0, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60D1, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60D2, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60D3, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60D4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60D5, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60D6, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60D7, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60D8, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60D9, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60DA, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60DB, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60DC, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60DD, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60DE, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60DF, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60E0, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E60E1, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E60E2, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60E3, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60E4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60E5, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60E6, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60E7, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60E8, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60E9, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E60EA, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60EB, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60EC, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60ED, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E60EE, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60EF, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60F0, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60F1, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60F2, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60F3, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E60F4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60F5, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60F6, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60F7, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60F8, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60F9, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E60FA, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60FB, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60FC, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E60FD, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60FE, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E60FF, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6100, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6101, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6102, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6103, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6104, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6105, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6106, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E6107, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6108, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E6109, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E610A, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E610B, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E610C, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E610D, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E610E, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E610F, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6110, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6111, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6112, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6113, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6114, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6115, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6116, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6117, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6118, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6119, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E611A, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E611B, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E611C, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E611D, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E611E, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E611F, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6120, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6121, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6122, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6123, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6124, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6125, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E6126, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6127, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6128, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6129, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E612A, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E612B, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E612C, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E612D, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E612E, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E612F, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6130, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6131, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6132, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6133, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6134, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6135, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6136, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6137, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6138, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6139, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E613A, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E613B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E613C, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E613D, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E613E, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E613F, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6140, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6141, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6142, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6143, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6144, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6145, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6146, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6147, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6148, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6149, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E614A, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E614B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E614C, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E614D, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E614E, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E614F, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6150, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6151, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6152, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6153, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6154, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6155, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6156, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6157, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6158, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6159, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E615A, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E615B, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E615C, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E615D, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E615E, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E615F, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6160, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6161, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6162, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6163, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6164, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6165, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6166, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6167, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6168, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6169, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E616A, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E616B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E616C, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E616D, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E616E, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E616F, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6170, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6171, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6172, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6173, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6174, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6175, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6176, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6177, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6178, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6179, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E617A, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E617B, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E617C, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E617D, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E617E, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E617F, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6180, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6181, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6182, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6183, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6184, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6185, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6186, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6187, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6188, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6189, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E618A, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E618B, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E618C, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E618D, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E618E, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E618F, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6190, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6191, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6192, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6193, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6194, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6195, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6196, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6197, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6198, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6199, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E619A, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E619B, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E619C, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E619D, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E619E, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E619F, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E61A0, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E61A1, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E61A2, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x700E60B3, 0x700E61A3, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61A4, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan */
-     , (0x700E60B3, 0x700E61A5, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61A6, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61A7, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61A8, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61A9, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61AA, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61AB, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61AC, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61AD, '2019-02-10 00:00:00') /* Kirienne Palacost */
-     , (0x700E60B3, 0x700E61AE, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E61AF, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61B0, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61B1, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E61B2, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E61B3, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61B4, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61B5, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61B6, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61B7, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61B8, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61B9, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61BA, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61BB, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61BC, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61BD, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61BE, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61BF, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61C0, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61C1, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61C2, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61C3, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61C4, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61C5, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61C6, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61C7, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61C8, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61C9, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E61CA, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61CB, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E61CC, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E61CD, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61CE, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61CF, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61D0, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E61D1, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61D2, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E61D3, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61D4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61D5, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61D6, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61D7, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61D8, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61D9, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61DA, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61DB, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61DC, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61DD, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61DE, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61DF, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61E0, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61E1, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61E2, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61E3, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61E4, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61E5, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61E6, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61E7, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61E8, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61E9, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61EA, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61EB, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61EC, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61ED, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E61EE, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61EF, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61F0, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61F1, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61F2, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E61F3, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61F4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61F5, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61F6, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61F7, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61F8, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61F9, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61FA, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61FB, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E61FC, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E61FD, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E61FE, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E61FF, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6200, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6201, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6202, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6203, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6204, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6205, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6206, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6207, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6208, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6209, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E620A, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E620B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E620C, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E620D, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E620E, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E620F, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6210, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6211, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6212, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6213, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6214, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6215, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6216, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6217, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6218, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6219, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E621A, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E621B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E621C, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E621D, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E621E, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E621F, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E6220, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E6221, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6222, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6223, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6224, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6225, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6226, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x700E60B3, 0x700E6227, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan */
-     , (0x700E60B3, 0x700E6228, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6229, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622A, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622B, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622C, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622D, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622E, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E622F, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6230, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6231, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6232, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6233, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E6234, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E6235, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6236, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E6237, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6238, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6239, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E623A, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E623B, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E623C, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E623D, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E623E, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E623F, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6240, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6241, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6242, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6243, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6244, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6245, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6246, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6247, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6248, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6249, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E624A, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E624B, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E624C, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E624D, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E624E, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E624F, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6250, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6251, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6252, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6253, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6254, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6255, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6256, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6257, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6258, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6259, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E625A, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E625B, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E625C, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E625D, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E625E, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E625F, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6260, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6261, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6262, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6263, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6264, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E6265, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6266, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6267, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6268, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6269, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E626A, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E626B, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E626C, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E626D, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E626E, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E626F, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6270, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6271, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6272, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E6273, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6274, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E6275, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E6276, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E6277, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E6278, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E6279, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E627A, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x700E60B3, 0x700E627B, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan */
-     , (0x700E60B3, 0x700E627C, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E627D, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E627E, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E627F, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6280, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E6281, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E6282, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6283, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6284, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6285, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6286, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6287, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E6288, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6289, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E628A, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E628B, '2019-02-10 00:00:00') /* Wretched Child */
-     , (0x700E60B3, 0x700E628C, '2019-02-10 00:00:00') /* Biaka */
-     , (0x700E60B3, 0x700E628D, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E628E, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E628F, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6290, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6291, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6292, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6293, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6294, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6295, '2019-02-10 00:00:00') /* The Black Breath */
-     , (0x700E60B3, 0x700E6296, '2019-02-10 00:00:00') /* Tempest Shadow */
-     , (0x700E60B3, 0x700E6297, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E6298, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E6299, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E629A, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E629B, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E629C, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E629D, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E629E, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E629F, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62A0, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62A1, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62A2, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62A3, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62A4, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62A5, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62A6, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62A7, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62A8, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62A9, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62AA, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62AB, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62AC, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62AD, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62AE, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62AF, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62B0, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62B1, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62B2, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62B3, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62B4, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62B5, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62B6, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62B7, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62B8, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62B9, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62BA, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62BB, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62BC, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62BD, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62BE, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62BF, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62C0, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62C1, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62C2, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62C3, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62C4, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62C5, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62C6, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62C7, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62C8, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62C9, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62CA, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62CB, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62CC, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62CD, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62CE, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62CF, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E62D0, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E62D1, '2019-02-10 00:00:00') /* Shadow Sorceress */
-     , (0x700E60B3, 0x700E62D2, '2019-02-10 00:00:00') /* Shadow Commander */
-     , (0x700E60B3, 0x700E62D3, '2019-02-10 00:00:00') /* A Shadow of Black Ferah */
-     , (0x700E60B3, 0x700E62D4, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62D5, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan */
-     , (0x700E60B3, 0x700E62D6, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62D7, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62D8, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62D9, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62DA, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62DB, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62DC, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E62DD, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E62DE, '2019-02-10 00:00:00') /* Forsaken Child */
-     , (0x700E60B3, 0x700E62DF, '2019-02-10 00:00:00') /* Wretched */
-     , (0x700E60B3, 0x700E62E0, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62E1, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62E2, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62E3, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62E4, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62E5, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62E6, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62E7, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62E8, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62E9, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62EA, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62EB, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62EC, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62ED, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62EE, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62EF, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62F0, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62F1, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62F2, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62F3, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62F4, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62F5, '2019-02-10 00:00:00') /* Penumbral Shadowmage */
-     , (0x700E60B3, 0x700E62F6, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62F7, '2019-02-10 00:00:00') /* Shadow Eddy */
-     , (0x700E60B3, 0x700E62F8, '2019-02-10 00:00:00') /* Shadow Knight Hand */
-     , (0x700E60B3, 0x700E62F9, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62FA, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62FB, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62FC, '2019-02-10 00:00:00') /* Black Flame */
-     , (0x700E60B3, 0x700E62FD, '2019-02-10 00:00:00') /* Shadow Captain */
-     , (0x700E60B3, 0x700E62FE, '2019-02-10 00:00:00') /* Penumbral Terror */
-     , (0x700E60B3, 0x700E62FF, '2019-02-10 00:00:00') /* Shadow Knight Hand */;
+VALUES (0x700E60B3, 0x700E60B4, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60B5, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60B6, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60B7, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60B8, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60B9, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60BA, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60BB, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60BC, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60BD, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60BE, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60BF, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C0, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C1, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C2, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C3, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C4, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C5, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E60C6, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60C7, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60C8, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E60C9, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E60CA, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60CB, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60CC, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E60CD, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60CE, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60CF, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60D0, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60D1, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60D2, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60D3, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60D4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60D5, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60D6, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60D7, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60D8, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60D9, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60DA, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60DB, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60DC, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60DD, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60DE, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60DF, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60E0, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E60E1, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E60E2, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60E3, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60E4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60E5, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60E6, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60E7, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60E8, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60E9, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E60EA, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60EB, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60EC, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60ED, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E60EE, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60EF, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60F0, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60F1, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60F2, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60F3, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E60F4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60F5, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60F6, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60F7, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60F8, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60F9, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E60FA, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60FB, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60FC, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E60FD, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60FE, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E60FF, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6100, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6101, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6102, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6103, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6104, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6105, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6106, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E6107, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6108, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E6109, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E610A, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E610B, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E610C, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E610D, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E610E, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E610F, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6110, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6111, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6112, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6113, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6114, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6115, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6116, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6117, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6118, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6119, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E611A, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E611B, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E611C, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E611D, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E611E, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E611F, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6120, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6121, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6122, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6123, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6124, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6125, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E6126, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6127, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6128, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6129, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E612A, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E612B, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E612C, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E612D, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E612E, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E612F, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6130, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6131, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6132, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6133, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6134, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6135, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6136, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6137, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6138, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6139, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E613A, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E613B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E613C, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E613D, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E613E, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E613F, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6140, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6141, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6142, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6143, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6144, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6145, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6146, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6147, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6148, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6149, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E614A, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E614B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E614C, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E614D, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E614E, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E614F, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6150, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6151, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6152, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6153, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6154, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6155, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6156, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6157, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6158, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6159, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E615A, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E615B, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E615C, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E615D, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E615E, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E615F, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6160, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6161, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6162, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6163, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6164, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6165, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6166, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6167, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6168, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6169, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E616A, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E616B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E616C, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E616D, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E616E, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E616F, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6170, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6171, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6172, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6173, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6174, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6175, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6176, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6177, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6178, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6179, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E617A, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E617B, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E617C, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E617D, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E617E, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E617F, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6180, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6181, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6182, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6183, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6184, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6185, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6186, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6187, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6188, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6189, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E618A, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E618B, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E618C, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E618D, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E618E, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E618F, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6190, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6191, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6192, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6193, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6194, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6195, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6196, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6197, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6198, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6199, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E619A, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E619B, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E619C, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E619D, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E619E, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E619F, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E61A0, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E61A1, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E61A2, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (35985) */
+     , (0x700E60B3, 0x700E61A3, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61A4, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan (35986) */
+     , (0x700E60B3, 0x700E61A5, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61A6, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61A7, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61A8, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61A9, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61AA, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61AB, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61AC, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61AD, '2019-02-10 00:00:00') /* Kirienne Palacost (35991) */
+     , (0x700E60B3, 0x700E61AE, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E61AF, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61B0, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61B1, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E61B2, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E61B3, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61B4, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61B5, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61B6, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61B7, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61B8, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61B9, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61BA, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61BB, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61BC, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61BD, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61BE, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61BF, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61C0, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61C1, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61C2, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61C3, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61C4, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61C5, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61C6, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61C7, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61C8, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61C9, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E61CA, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61CB, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E61CC, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E61CD, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61CE, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61CF, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61D0, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E61D1, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61D2, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E61D3, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61D4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61D5, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61D6, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61D7, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61D8, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61D9, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61DA, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61DB, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61DC, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61DD, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61DE, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61DF, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61E0, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61E1, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61E2, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61E3, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61E4, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61E5, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61E6, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61E7, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61E8, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61E9, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61EA, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61EB, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61EC, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61ED, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E61EE, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61EF, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61F0, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61F1, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61F2, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E61F3, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61F4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61F5, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61F6, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61F7, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61F8, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61F9, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61FA, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61FB, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E61FC, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E61FD, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E61FE, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E61FF, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6200, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6201, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6202, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6203, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6204, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6205, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6206, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6207, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6208, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6209, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E620A, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E620B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E620C, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E620D, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E620E, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E620F, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6210, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6211, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6212, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6213, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6214, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6215, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6216, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6217, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6218, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6219, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E621A, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E621B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E621C, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E621D, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E621E, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E621F, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E6220, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E6221, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6222, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6223, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6224, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6225, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6226, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (35985) */
+     , (0x700E60B3, 0x700E6227, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan (35986) */
+     , (0x700E60B3, 0x700E6228, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6229, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622A, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622B, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622C, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622D, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622E, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E622F, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6230, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6231, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6232, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6233, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E6234, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E6235, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6236, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E6237, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6238, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6239, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E623A, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E623B, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E623C, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E623D, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E623E, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E623F, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6240, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6241, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6242, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6243, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6244, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6245, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6246, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6247, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6248, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6249, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E624A, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E624B, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E624C, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E624D, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E624E, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E624F, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6250, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6251, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6252, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6253, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6254, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6255, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6256, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6257, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6258, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6259, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E625A, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E625B, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E625C, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E625D, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E625E, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E625F, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6260, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6261, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6262, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6263, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6264, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E6265, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6266, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6267, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6268, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6269, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E626A, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E626B, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E626C, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E626D, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E626E, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E626F, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6270, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6271, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6272, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E6273, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6274, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E6275, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E6276, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E6277, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E6278, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E6279, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E627A, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (35985) */
+     , (0x700E60B3, 0x700E627B, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan (35986) */
+     , (0x700E60B3, 0x700E627C, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E627D, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E627E, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E627F, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6280, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E6281, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E6282, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6283, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6284, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6285, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6286, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6287, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E6288, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6289, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E628A, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E628B, '2019-02-10 00:00:00') /* Wretched Child (27288) */
+     , (0x700E60B3, 0x700E628C, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x700E60B3, 0x700E628D, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E628E, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E628F, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6290, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6291, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6292, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6293, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6294, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6295, '2019-02-10 00:00:00') /* The Black Breath (8583) */
+     , (0x700E60B3, 0x700E6296, '2019-02-10 00:00:00') /* Tempest Shadow (35559) */
+     , (0x700E60B3, 0x700E6297, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E6298, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E6299, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E629A, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E629B, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E629C, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E629D, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E629E, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E629F, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62A0, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62A1, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62A2, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62A3, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62A4, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62A5, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62A6, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62A7, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62A8, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62A9, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62AA, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62AB, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62AC, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62AD, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62AE, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62AF, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62B0, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62B1, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62B2, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62B3, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62B4, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62B5, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62B6, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62B7, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62B8, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62B9, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62BA, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62BB, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62BC, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62BD, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62BE, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62BF, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62C0, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62C1, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62C2, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62C3, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62C4, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62C5, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62C6, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62C7, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62C8, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62C9, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62CA, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62CB, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62CC, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62CD, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62CE, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62CF, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E62D0, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E62D1, '2019-02-10 00:00:00') /* Shadow Sorceress (35993) */
+     , (0x700E60B3, 0x700E62D2, '2019-02-10 00:00:00') /* Shadow Commander (35988) */
+     , (0x700E60B3, 0x700E62D3, '2019-02-10 00:00:00') /* A Shadow of Black Ferah (35985) */
+     , (0x700E60B3, 0x700E62D4, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62D5, '2019-02-10 00:00:00') /* A Shadow of Ler Rhan (35986) */
+     , (0x700E60B3, 0x700E62D6, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62D7, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62D8, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62D9, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62DA, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62DB, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62DC, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E62DD, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E62DE, '2019-02-10 00:00:00') /* Forsaken Child (27286) */
+     , (0x700E60B3, 0x700E62DF, '2019-02-10 00:00:00') /* Wretched (25665) */
+     , (0x700E60B3, 0x700E62E0, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62E1, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62E2, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62E3, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62E4, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62E5, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62E6, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62E7, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62E8, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62E9, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62EA, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62EB, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62EC, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62ED, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62EE, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62EF, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62F0, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62F1, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62F2, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62F3, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62F4, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62F5, '2019-02-10 00:00:00') /* Penumbral Shadowmage (35990) */
+     , (0x700E60B3, 0x700E62F6, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62F7, '2019-02-10 00:00:00') /* Shadow Eddy (33531) */
+     , (0x700E60B3, 0x700E62F8, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */
+     , (0x700E60B3, 0x700E62F9, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62FA, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62FB, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62FC, '2019-02-10 00:00:00') /* Black Flame (33844) */
+     , (0x700E60B3, 0x700E62FD, '2019-02-10 00:00:00') /* Shadow Captain (35987) */
+     , (0x700E60B3, 0x700E62FE, '2019-02-10 00:00:00') /* Penumbral Terror (35983) */
+     , (0x700E60B3, 0x700E62FF, '2019-02-10 00:00:00') /* Shadow Knight Hand (35989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E60B4, 25859, 0x00E603BA, 135.97, -99.9194, -5.998757, 0.6967069, 0, 0, 0.7173559,  True, '2019-02-10 00:00:00'); /* Biaka */
@@ -2959,8 +2959,8 @@ VALUES (0x700E6300,  1154, 0x00E6041D, 190, 0, 0.002499998, 1, 0, 0, 0, False, '
 /* @teleloc 0x00E6041D [190.000000 0.000000 0.002500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E6300, 0x700E6301, '2019-02-10 00:00:00') /* Kirienne Palacost */
-     , (0x700E6300, 0x700E6302, '2019-02-10 00:00:00') /* Kirienne Palacost */;
+VALUES (0x700E6300, 0x700E6301, '2019-02-10 00:00:00') /* Kirienne Palacost (36011) */
+     , (0x700E6300, 0x700E6302, '2019-02-10 00:00:00') /* Kirienne Palacost (36011) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E6301, 36011, 0x00E6041D, 190, 0, 0.002499998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kirienne Palacost */
@@ -2975,57 +2975,57 @@ VALUES (0x700E6303,  1542, 0x00E60131, 130.026, -100.004, -0.07000001, -4.371139
 /* @teleloc 0x00E60131 [130.026000 -100.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700E6303, 0x700E6304, '2019-02-10 00:00:00') /* Fire Compound Bow */
-     , (0x700E6303, 0x700E6305, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6306, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6307, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6308, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6309, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E630A, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E630B, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E630C, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E630D, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E630E, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E630F, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6310, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6311, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6312, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6313, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6314, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6315, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6316, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6317, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6318, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6319, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631A, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631B, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631C, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631D, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631E, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E631F, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6320, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6321, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6322, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6323, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6324, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6325, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6326, '2019-02-10 00:00:00') /* Rabbit */
-     , (0x700E6303, 0x700E6327, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6328, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6329, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632A, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632B, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632C, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632D, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632E, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E632F, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6330, '2019-02-10 00:00:00') /* Burning Earth */
-     , (0x700E6303, 0x700E6331, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6332, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6333, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6334, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6335, '2019-02-10 00:00:00') /* Dark Vortex */
-     , (0x700E6303, 0x700E6336, '2019-02-10 00:00:00') /* Dark Vortex */;
+VALUES (0x700E6303, 0x700E6304, '2019-02-10 00:00:00') /* Fire Compound Bow (31802) */
+     , (0x700E6303, 0x700E6305, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6306, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6307, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6308, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6309, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E630A, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E630B, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E630C, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E630D, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E630E, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E630F, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6310, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6311, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6312, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6313, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6314, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6315, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6316, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6317, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6318, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6319, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631A, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631B, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631C, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631D, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631E, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E631F, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6320, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6321, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6322, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6323, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6324, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6325, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6326, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x700E6303, 0x700E6327, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6328, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6329, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632A, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632B, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632C, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632D, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632E, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E632F, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6330, '2019-02-10 00:00:00') /* Burning Earth (33526) */
+     , (0x700E6303, 0x700E6331, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6332, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6333, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6334, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6335, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
+     , (0x700E6303, 0x700E6336, '2019-02-10 00:00:00') /* Dark Vortex (33498) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700E6304, 31802, 0x00E60131, 130.026, -100.004, -0.07000001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Fire Compound Bow */

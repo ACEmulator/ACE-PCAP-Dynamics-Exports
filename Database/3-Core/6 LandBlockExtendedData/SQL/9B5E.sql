@@ -5,9 +5,9 @@ VALUES (0x79B5E001,  1154, 0x9B5E001C, 90.3656, 88.43147, 12.74958, 0.9659258, 0
 /* @teleloc 0x9B5E001C [90.365600 88.431470 12.749580] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B5E001, 0x79B5E002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79B5E001, 0x79B5E003, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x79B5E001, 0x79B5E004, '2019-02-10 00:00:00') /* Rust Gromnie */;
+VALUES (0x79B5E001, 0x79B5E002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79B5E001, 0x79B5E003, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x79B5E001, 0x79B5E004, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B5E002,   200, 0x9B5E001C, 90.3656, 88.43147, 12.74958, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Mud Golem */

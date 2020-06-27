@@ -5,19 +5,19 @@ VALUES (0x7E250001,  1154, 0xE2500025, 107.4174, 100.8036, 9.600703, 0.7071068, 
 /* @teleloc 0xE2500025 [107.417400 100.803600 9.600703] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E250001, 0x7E250002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7E250001, 0x7E250003, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7E250001, 0x7E250004, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E250005, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7E250001, 0x7E250006, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E250007, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E250008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E250009, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7E250001, 0x7E25000A, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E25000B, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7E250001, 0x7E25000C, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7E250001, 0x7E25000D, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7E250001, 0x7E25000E, '2019-02-10 00:00:00') /* Virtuous Doll */;
+VALUES (0x7E250001, 0x7E250002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7E250001, 0x7E250003, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7E250001, 0x7E250004, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E250005, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7E250001, 0x7E250006, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E250007, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E250008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E250009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7E250001, 0x7E25000A, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E25000B, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7E250001, 0x7E25000C, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7E250001, 0x7E25000D, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7E250001, 0x7E25000E, '2019-02-10 00:00:00') /* Virtuous Doll (11537) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E250002,   223, 0xE2500025, 107.4174, 100.8036, 9.600703, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -76,8 +76,8 @@ VALUES (0x7E25000F,  1542, 0xE2500026, 114.8759, 128.2795, 9.116961, 0.9238795, 
 /* @teleloc 0xE2500026 [114.875900 128.279500 9.116961] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E25000F, 0x7E250010, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7E25000F, 0x7E250011, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7E25000F, 0x7E250010, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E25000F, 0x7E250011, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E250010,  4382, 0xE2500026, 114.8759, 128.2795, 9.116961, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */

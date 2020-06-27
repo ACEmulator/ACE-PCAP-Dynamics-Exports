@@ -5,21 +5,21 @@ VALUES (0x7C09A001,  1154, 0xC09A003D, 183.6862, 101.1404, 9.924871, 0.9528597, 
 /* @teleloc 0xC09A003D [183.686200 101.140400 9.924871] 0.952860 0.000000 0.000000 -0.303411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C09A001, 0x7C09A002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C09A001, 0x7C09A003, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C09A001, 0x7C09A004, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C09A001, 0x7C09A005, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C09A001, 0x7C09A006, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C09A001, 0x7C09A007, '2019-02-10 00:00:00') /* Spark */
-     , (0x7C09A001, 0x7C09A008, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7C09A001, 0x7C09A009, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C09A001, 0x7C09A00A, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C09A001, 0x7C09A00B, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C09A001, 0x7C09A00C, '2019-02-10 00:00:00') /* Drudge Robber */
-     , (0x7C09A001, 0x7C09A00D, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C09A001, 0x7C09A00E, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C09A001, 0x7C09A00F, '2019-02-10 00:00:00') /* Scavenger Ursuin */
-     , (0x7C09A001, 0x7C09A010, '2019-02-10 00:00:00') /* Glissnal Niffis */;
+VALUES (0x7C09A001, 0x7C09A002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C09A001, 0x7C09A003, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C09A001, 0x7C09A004, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C09A001, 0x7C09A005, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C09A001, 0x7C09A006, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C09A001, 0x7C09A007, '2019-02-10 00:00:00') /* Spark (6381) */
+     , (0x7C09A001, 0x7C09A008, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7C09A001, 0x7C09A009, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C09A001, 0x7C09A00A, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C09A001, 0x7C09A00B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C09A001, 0x7C09A00C, '2019-02-10 00:00:00') /* Drudge Robber (1464) */
+     , (0x7C09A001, 0x7C09A00D, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C09A001, 0x7C09A00E, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C09A001, 0x7C09A00F, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7C09A001, 0x7C09A010, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C09A002,   193, 0xC09A003D, 183.6862, 101.1404, 9.924871, 0.9528597, 0, 0, -0.3034112,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -86,10 +86,10 @@ VALUES (0x7C09A011,  1542, 0xC09A0040, 182.3938, 189.4187, 13.38335, 1, 0, 0, 0,
 /* @teleloc 0xC09A0040 [182.393800 189.418700 13.383350] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C09A011, 0x7C09A012, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C09A011, 0x7C09A013, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C09A011, 0x7C09A014, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7C09A011, 0x7C09A015, '2019-02-10 00:00:00') /* Chest */;
+VALUES (0x7C09A011, 0x7C09A012, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7C09A011, 0x7C09A013, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C09A011, 0x7C09A014, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C09A011, 0x7C09A015, '2019-02-10 00:00:00') /* Chest (1918) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C09A012, 22572, 0xC09A0040, 182.3938, 189.4187, 13.38335, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

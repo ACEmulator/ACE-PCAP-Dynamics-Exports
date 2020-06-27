@@ -57,43 +57,43 @@ VALUES (0x7CB8A00D,  1154, 0xCB8A0031, 153.6911, 22.94321, 17.19956, -4.371139E-
 /* @teleloc 0xCB8A0031 [153.691100 22.943210 17.199560] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CB8A00D, 0x7CB8A00E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7CB8A00D, 0x7CB8A00F, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7CB8A00D, 0x7CB8A010, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7CB8A00D, 0x7CB8A011, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A012, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A013, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A014, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A015, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A016, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A017, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A018, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A019, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CB8A00D, 0x7CB8A01A, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A01B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A01C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A01D, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A01E, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7CB8A00D, 0x7CB8A01F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A020, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A021, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A022, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7CB8A00D, 0x7CB8A023, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7CB8A00D, 0x7CB8A024, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A025, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A026, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A027, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CB8A00D, 0x7CB8A028, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A029, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A02A, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CB8A00D, 0x7CB8A02B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A02C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A02D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7CB8A00D, 0x7CB8A02E, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB8A00D, 0x7CB8A02F, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB8A00D, 0x7CB8A030, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7CB8A00D, 0x7CB8A031, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7CB8A00D, 0x7CB8A032, '2019-02-10 00:00:00') /* Black Rabbit */;
+VALUES (0x7CB8A00D, 0x7CB8A00E, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7CB8A00D, 0x7CB8A00F, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7CB8A00D, 0x7CB8A010, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7CB8A00D, 0x7CB8A011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A012, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A014, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A015, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A016, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A018, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A019, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CB8A00D, 0x7CB8A01A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A01B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A01C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A01D, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A01E, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7CB8A00D, 0x7CB8A01F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A020, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A021, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A022, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7CB8A00D, 0x7CB8A023, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7CB8A00D, 0x7CB8A024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A025, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A026, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A027, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CB8A00D, 0x7CB8A028, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A029, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A02A, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CB8A00D, 0x7CB8A02B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A02C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A02D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7CB8A00D, 0x7CB8A02E, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB8A00D, 0x7CB8A02F, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB8A00D, 0x7CB8A030, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7CB8A00D, 0x7CB8A031, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7CB8A00D, 0x7CB8A032, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB8A00E,   939, 0xCB8A0031, 153.6911, 22.94321, 17.19956, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Young Banderling */

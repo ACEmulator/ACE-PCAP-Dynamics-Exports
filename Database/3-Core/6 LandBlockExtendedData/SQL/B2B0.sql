@@ -5,13 +5,13 @@ VALUES (0x7B2B0001,  1154, 0xB2B00039, 169.2726, 5.128942, 77.76482, 0.2588191, 
 /* @teleloc 0xB2B00039 [169.272600 5.128942 77.764820] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B2B0001, 0x7B2B0002, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2B0001, 0x7B2B0003, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7B2B0001, 0x7B2B0004, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7B2B0001, 0x7B2B0005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7B2B0001, 0x7B2B0006, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7B2B0001, 0x7B2B0007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7B2B0001, 0x7B2B0008, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7B2B0001, 0x7B2B0002, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2B0001, 0x7B2B0003, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B2B0001, 0x7B2B0004, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B2B0001, 0x7B2B0005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7B2B0001, 0x7B2B0006, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7B2B0001, 0x7B2B0007, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B2B0001, 0x7B2B0008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B2B0002,   937, 0xB2B00039, 169.2726, 5.128942, 77.76482, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Guard */

@@ -13,26 +13,26 @@ VALUES (0x7DB56006,  1154, 0xDB560023, 116.5267, 68.79169, 20.0044, -0.782477, 0
 /* @teleloc 0xDB560023 [116.526700 68.791690 20.004400] -0.782477 0.000000 0.000000 -0.622680 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB56006, 0x7DB56007, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB56006, 0x7DB56008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB56006, 0x7DB56009, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB56006, 0x7DB5600A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB56006, 0x7DB5600B, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB56006, 0x7DB5600C, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7DB56006, 0x7DB5600D, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7DB56006, 0x7DB5600E, '2019-02-10 00:00:00') /* Big Red Olthoi */
-     , (0x7DB56006, 0x7DB5600F, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB56006, 0x7DB56010, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7DB56006, 0x7DB56011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DB56006, 0x7DB56012, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7DB56006, 0x7DB56013, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DB56006, 0x7DB56014, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB56006, 0x7DB56015, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7DB56006, 0x7DB56016, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB56006, 0x7DB56017, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7DB56006, 0x7DB56018, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7DB56006, 0x7DB56019, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7DB56006, 0x7DB5601A, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7DB56006, 0x7DB56007, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB56006, 0x7DB56008, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB56006, 0x7DB56009, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB56006, 0x7DB5600A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB56006, 0x7DB5600B, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB56006, 0x7DB5600C, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7DB56006, 0x7DB5600D, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7DB56006, 0x7DB5600E, '2019-02-10 00:00:00') /* Big Red Olthoi (43480) */
+     , (0x7DB56006, 0x7DB5600F, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB56006, 0x7DB56010, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB56006, 0x7DB56011, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DB56006, 0x7DB56012, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7DB56006, 0x7DB56013, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DB56006, 0x7DB56014, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB56006, 0x7DB56015, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DB56006, 0x7DB56016, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB56006, 0x7DB56017, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DB56006, 0x7DB56018, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7DB56006, 0x7DB56019, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB56006, 0x7DB5601A, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB56007, 19262, 0xDB560023, 116.5267, 68.79169, 20.0044, -0.782477, 0, 0, -0.6226795,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -119,24 +119,24 @@ VALUES (0x7DB5601B,  1154, 0xDB560100, 8.49244, 82.3928, 20.005, 0.346304, 0, 0,
 /* @teleloc 0xDB560100 [8.492440 82.392800 20.005000] 0.346304 0.000000 0.000000 -0.938122 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB5601B, 0x7DB5601C, '2019-02-10 00:00:00') /* Sir Tenshin */
-     , (0x7DB5601B, 0x7DB5601D, '2019-02-10 00:00:00') /* Royal Guard */
-     , (0x7DB5601B, 0x7DB5601E, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB5601F, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56020, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56021, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56022, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56023, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56024, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56025, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56026, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56027, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56028, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB56029, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB5602A, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB5602B, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB5602C, '2019-02-10 00:00:00') /* Sentry */
-     , (0x7DB5601B, 0x7DB5602D, '2019-02-10 00:00:00') /* Sentry */;
+VALUES (0x7DB5601B, 0x7DB5601C, '2019-02-10 00:00:00') /* Sir Tenshin (14414) */
+     , (0x7DB5601B, 0x7DB5601D, '2019-02-10 00:00:00') /* Royal Guard (33805) */
+     , (0x7DB5601B, 0x7DB5601E, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB5601F, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56020, '2019-02-10 00:00:00') /* Sentry (12725) */
+     , (0x7DB5601B, 0x7DB56021, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56022, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB56023, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB56024, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56025, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56026, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56027, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB56028, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB56029, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB5602A, '2019-02-10 00:00:00') /* Sentry (14460) */
+     , (0x7DB5601B, 0x7DB5602B, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB5602C, '2019-02-10 00:00:00') /* Sentry (14459) */
+     , (0x7DB5601B, 0x7DB5602D, '2019-02-10 00:00:00') /* Sentry (14459) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB5601C, 14414, 0xDB560100, 8.49244, 82.3928, 20.005, 0.346304, 0, 0, -0.938122,  True, '2019-02-10 00:00:00'); /* Sir Tenshin */
@@ -215,7 +215,7 @@ VALUES (0x7DB5602E,  1542, 0xDB560101, 12.1426, 84.707, 19.937, 0.9085418, 0, 0,
 /* @teleloc 0xDB560101 [12.142600 84.707000 19.937000] 0.908542 0.000000 0.000000 -0.417794 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB5602E, 0x7DB5602F, '2019-02-10 00:00:00') /* Underground Passage */;
+VALUES (0x7DB5602E, 0x7DB5602F, '2019-02-10 00:00:00') /* Underground Passage (14449) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB5602F, 14449, 0xDB560101, 12.1426, 84.707, 19.937, 0.9085418, 0, 0, -0.4177939,  True, '2019-02-10 00:00:00'); /* Underground Passage */

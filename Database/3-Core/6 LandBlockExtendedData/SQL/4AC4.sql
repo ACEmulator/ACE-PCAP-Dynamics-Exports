@@ -5,17 +5,17 @@ VALUES (0x74AC4001,  1154, 0x4AC40027, 98.33812, 167.7581, 1.815157, -0.9661205,
 /* @teleloc 0x4AC40027 [98.338120 167.758100 1.815157] -0.966121 0.000000 0.000000 -0.258092 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AC4001, 0x74AC4002, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x74AC4001, 0x74AC4003, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74AC4001, 0x74AC4004, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x74AC4001, 0x74AC4005, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74AC4001, 0x74AC4006, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74AC4001, 0x74AC4007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x74AC4001, 0x74AC4008, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x74AC4001, 0x74AC4009, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AC4001, 0x74AC400A, '2019-02-10 00:00:00') /* Gauloth Shreth */
-     , (0x74AC4001, 0x74AC400B, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x74AC4001, 0x74AC400C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */;
+VALUES (0x74AC4001, 0x74AC4002, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x74AC4001, 0x74AC4003, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74AC4001, 0x74AC4004, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74AC4001, 0x74AC4005, '2019-02-10 00:00:00') /* Merciless Monouga (24291) */
+     , (0x74AC4001, 0x74AC4006, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74AC4001, 0x74AC4007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x74AC4001, 0x74AC4008, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74AC4001, 0x74AC4009, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AC4001, 0x74AC400A, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x74AC4001, 0x74AC400B, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x74AC4001, 0x74AC400C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (24287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AC4002, 14520, 0x4AC40027, 98.33812, 167.7581, 1.815157, -0.9661205, 0, 0, -0.2580916,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */

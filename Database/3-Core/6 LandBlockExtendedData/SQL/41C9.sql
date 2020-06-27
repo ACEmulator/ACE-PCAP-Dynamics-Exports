@@ -5,11 +5,11 @@ VALUES (0x741C9001,  1154, 0x41C9002A, 132.9126, 46.57636, 13.80939, -0.2791408,
 /* @teleloc 0x41C9002A [132.912600 46.576360 13.809390] -0.279141 0.000000 0.000000 -0.960250 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741C9001, 0x741C9002, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x741C9001, 0x741C9003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x741C9001, 0x741C9004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741C9001, 0x741C9005, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x741C9001, 0x741C9006, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x741C9001, 0x741C9002, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x741C9001, 0x741C9003, '2019-02-10 00:00:00') /* Insidious Monouga (24290) */
+     , (0x741C9001, 0x741C9004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741C9001, 0x741C9005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x741C9001, 0x741C9006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741C9002, 11541, 0x41C9002A, 132.9126, 46.57636, 13.80939, -0.2791408, 0, 0, -0.9602502,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -36,7 +36,7 @@ VALUES (0x741C9007,  1542, 0x41C9003C, 179.893, 76.96608, 22.82768, 0.1069347, 0
 /* @teleloc 0x41C9003C [179.893000 76.966080 22.827680] 0.106935 0.000000 0.000000 -0.994266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741C9007, 0x741C9008, '2019-02-10 00:00:00') /* Relanim Plant */;
+VALUES (0x741C9007, 0x741C9008, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741C9008, 11555, 0x41C9003C, 179.893, 76.96608, 22.82768, 0.1069347, 0, 0, -0.994266,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

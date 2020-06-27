@@ -5,13 +5,13 @@ VALUES (0x776DA001,  1154, 0x76DA0021, 111.1714, 1.335842, 223.9394, 0.2588191, 
 /* @teleloc 0x76DA0021 [111.171400 1.335842 223.939400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776DA001, 0x776DA002, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x776DA001, 0x776DA003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x776DA001, 0x776DA004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x776DA001, 0x776DA005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x776DA001, 0x776DA006, '2019-02-10 00:00:00') /* Brumal */
-     , (0x776DA001, 0x776DA007, '2019-02-10 00:00:00') /* Horripal */
-     , (0x776DA001, 0x776DA008, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x776DA001, 0x776DA002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x776DA001, 0x776DA003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x776DA001, 0x776DA004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x776DA001, 0x776DA005, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x776DA001, 0x776DA006, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x776DA001, 0x776DA007, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x776DA001, 0x776DA008, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776DA002, 24494, 0x76DA0021, 111.1714, 1.335842, 223.9394, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -46,10 +46,10 @@ VALUES (0x776DA009,  1542, 0x76DA0003, 0.6723633, 55.75045, 252.6459, 1, 0, 0, 0
 /* @teleloc 0x76DA0003 [0.672363 55.750450 252.645900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x776DA009, 0x776DA00A, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x776DA009, 0x776DA00B, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x776DA009, 0x776DA00C, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x776DA009, 0x776DA00D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x776DA009, 0x776DA00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x776DA009, 0x776DA00B, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x776DA009, 0x776DA00C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x776DA009, 0x776DA00D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x776DA00A,  8646, 0x76DA0003, 0.6723633, 55.75045, 252.6459, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minalim Plant */

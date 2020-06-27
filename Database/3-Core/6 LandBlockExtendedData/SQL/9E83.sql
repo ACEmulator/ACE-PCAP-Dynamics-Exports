@@ -5,8 +5,8 @@ VALUES (0x79E83001,  1154, 0x9E830032, 147.8067, 28.59144, 60.52341, -0.9998958,
 /* @teleloc 0x9E830032 [147.806700 28.591440 60.523410] -0.999896 0.000000 0.000000 -0.014439 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E83001, 0x79E83002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x79E83001, 0x79E83003, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x79E83001, 0x79E83002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x79E83001, 0x79E83003, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E83002,   194, 0x9E830032, 147.8067, 28.59144, 60.52341, -0.9998958, 0, 0, -0.01443899,  True, '2019-02-10 00:00:00'); /* Copper Golem */

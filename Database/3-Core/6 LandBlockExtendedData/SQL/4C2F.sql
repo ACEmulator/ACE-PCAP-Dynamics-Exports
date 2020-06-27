@@ -5,10 +5,10 @@ VALUES (0x74C2F001,  1154, 0x4C2F0034, 144.4327, 77.39082, 129.7128, 0.7071068, 
 /* @teleloc 0x4C2F0034 [144.432700 77.390820 129.712800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C2F001, 0x74C2F002, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x74C2F001, 0x74C2F003, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74C2F001, 0x74C2F004, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x74C2F001, 0x74C2F005, '2019-02-10 00:00:00') /* Flamma */;
+VALUES (0x74C2F001, 0x74C2F002, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x74C2F001, 0x74C2F003, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74C2F001, 0x74C2F004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x74C2F001, 0x74C2F005, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C2F002, 36842, 0x4C2F0034, 144.4327, 77.39082, 129.7128, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -31,8 +31,8 @@ VALUES (0x74C2F006,  1542, 0x4C2F002C, 139.26, 77.00064, 130.7064, 0.9990482, 0,
 /* @teleloc 0x4C2F002C [139.260000 77.000640 130.706400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74C2F006, 0x74C2F007, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x74C2F006, 0x74C2F008, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x74C2F006, 0x74C2F007, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74C2F006, 0x74C2F008, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74C2F007,  4179, 0x4C2F002C, 139.26, 77.00064, 130.7064, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

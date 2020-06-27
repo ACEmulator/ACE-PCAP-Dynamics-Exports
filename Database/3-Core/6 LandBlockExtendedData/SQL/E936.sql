@@ -5,14 +5,14 @@ VALUES (0x7E936001,  1154, 0xE9360036, 146.3696, 123.1882, 0.006600042, -0.99753
 /* @teleloc 0xE9360036 [146.369600 123.188200 0.006600] -0.997532 0.000000 0.000000 -0.070210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E936001, 0x7E936002, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E936001, 0x7E936003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E936001, 0x7E936004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7E936001, 0x7E936005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7E936001, 0x7E936006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7E936001, 0x7E936007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E936001, 0x7E936008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E936001, 0x7E936009, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7E936001, 0x7E936002, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E936001, 0x7E936003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E936001, 0x7E936004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7E936001, 0x7E936005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7E936001, 0x7E936006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7E936001, 0x7E936007, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E936001, 0x7E936008, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E936001, 0x7E936009, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E936002,  8427, 0xE9360036, 146.3696, 123.1882, 0.006600042, -0.9975322, 0, 0, -0.07020971,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
@@ -51,9 +51,9 @@ VALUES (0x7E93600A,  1542, 0xE936002D, 140.7374, 119.8335, 0.01387155, 1, 0, 0, 
 /* @teleloc 0xE936002D [140.737400 119.833500 0.013872] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E93600A, 0x7E93600B, '2019-02-10 00:00:00') /* Idol */
-     , (0x7E93600A, 0x7E93600C, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7E93600A, 0x7E93600D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7E93600A, 0x7E93600B, '2019-02-10 00:00:00') /* Idol (8588) */
+     , (0x7E93600A, 0x7E93600C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7E93600A, 0x7E93600D, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E93600B,  8588, 0xE936002D, 140.7374, 119.8335, 0.01387155, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Idol */

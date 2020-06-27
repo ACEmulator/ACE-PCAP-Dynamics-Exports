@@ -5,13 +5,13 @@ VALUES (0x7ED48001,  1154, 0xED480016, 64.29216, 136.3263, 29.92128, -0.3616263,
 /* @teleloc 0xED480016 [64.292160 136.326300 29.921280] -0.361626 0.000000 0.000000 -0.932323 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED48001, 0x7ED48002, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7ED48001, 0x7ED48003, '2019-02-10 00:00:00') /* White Mattekar */
-     , (0x7ED48001, 0x7ED48004, '2019-02-10 00:00:00') /* Dark Wisp */
-     , (0x7ED48001, 0x7ED48005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord */
-     , (0x7ED48001, 0x7ED48006, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7ED48001, 0x7ED48007, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7ED48001, 0x7ED48008, '2019-02-10 00:00:00') /* White Mattekar */;
+VALUES (0x7ED48001, 0x7ED48002, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7ED48001, 0x7ED48003, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7ED48001, 0x7ED48004, '2019-02-10 00:00:00') /* Dark Wisp (1988) */
+     , (0x7ED48001, 0x7ED48005, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
+     , (0x7ED48001, 0x7ED48006, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7ED48001, 0x7ED48007, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7ED48001, 0x7ED48008, '2019-02-10 00:00:00') /* White Mattekar (2580) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED48002,  2580, 0xED480016, 64.29216, 136.3263, 29.92128, -0.3616263, 0, 0, -0.9323232,  True, '2019-02-10 00:00:00'); /* White Mattekar */

@@ -5,20 +5,20 @@ VALUES (0x7388E001,  1154, 0x388E0038, 156.0085, 188.3123, 87.69059, 0.8660254, 
 /* @teleloc 0x388E0038 [156.008500 188.312300 87.690590] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388E001, 0x7388E002, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7388E001, 0x7388E003, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7388E001, 0x7388E004, '2019-02-10 00:00:00') /* Scathisa */
-     , (0x7388E001, 0x7388E005, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7388E001, 0x7388E006, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x7388E001, 0x7388E007, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x7388E001, 0x7388E008, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7388E001, 0x7388E009, '2019-02-10 00:00:00') /* Merciless Monouga */
-     , (0x7388E001, 0x7388E00A, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7388E001, 0x7388E00B, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7388E001, 0x7388E00C, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7388E001, 0x7388E00D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7388E001, 0x7388E00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7388E001, 0x7388E00F, '2019-02-10 00:00:00') /* Pugnacious Monouga */;
+VALUES (0x7388E001, 0x7388E002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7388E001, 0x7388E003, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7388E001, 0x7388E004, '2019-02-10 00:00:00') /* Scathisa (7095) */
+     , (0x7388E001, 0x7388E005, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7388E001, 0x7388E006, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x7388E001, 0x7388E007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x7388E001, 0x7388E008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7388E001, 0x7388E009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7388E001, 0x7388E00A, '2019-02-10 00:00:00') /* Virindi Profatrix (22054) */
+     , (0x7388E001, 0x7388E00B, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7388E001, 0x7388E00C, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7388E001, 0x7388E00D, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7388E001, 0x7388E00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7388E001, 0x7388E00F, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388E002,  7982, 0x388E0038, 156.0085, 188.3123, 87.69059, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -81,7 +81,7 @@ VALUES (0x7388E010,  1542, 0x388E003D, 177.0941, 115.9138, 58.44124, 0.0592623, 
 /* @teleloc 0x388E003D [177.094100 115.913800 58.441240] 0.059262 0.000000 0.000000 -0.998242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7388E010, 0x7388E011, '2019-02-10 00:00:00') /* Colban Plant */;
+VALUES (0x7388E010, 0x7388E011, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7388E011, 11554, 0x388E003D, 177.0941, 115.9138, 58.44124, 0.0592623, 0, 0, -0.9982424,  True, '2019-02-10 00:00:00'); /* Colban Plant */

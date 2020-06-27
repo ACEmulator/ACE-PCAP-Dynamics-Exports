@@ -5,9 +5,9 @@ VALUES (0x72CDA001,  1154, 0x2CDA0027, 106.3324, 167.4443, 39.96084, -0.03338746
 /* @teleloc 0x2CDA0027 [106.332400 167.444300 39.960840] -0.033387 0.000000 0.000000 -0.999443 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72CDA001, 0x72CDA002, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x72CDA001, 0x72CDA003, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x72CDA001, 0x72CDA004, '2019-02-10 00:00:00') /* Drudge Slinker */;
+VALUES (0x72CDA001, 0x72CDA002, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x72CDA001, 0x72CDA003, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x72CDA001, 0x72CDA004, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72CDA002, 19256, 0x2CDA0027, 106.3324, 167.4443, 39.96084, -0.03338746, 0, 0, -0.9994425,  True, '2019-02-10 00:00:00'); /* Young Banderling */

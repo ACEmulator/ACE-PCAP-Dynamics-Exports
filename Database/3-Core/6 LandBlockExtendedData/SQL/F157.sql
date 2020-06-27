@@ -5,27 +5,27 @@ VALUES (0x7F157001,  1154, 0xF157003D, 188.8835, 110.9585, 5.750292, 0.1201762, 
 /* @teleloc 0xF157003D [188.883500 110.958500 5.750292] 0.120176 0.000000 0.000000 -0.992753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F157001, 0x7F157002, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7F157001, 0x7F157003, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F157001, 0x7F157004, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F157001, 0x7F157005, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F157001, 0x7F157006, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F157001, 0x7F157007, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7F157001, 0x7F157008, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7F157001, 0x7F157009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7F157001, 0x7F15700A, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F157001, 0x7F15700B, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7F157001, 0x7F15700C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F157001, 0x7F15700D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F157001, 0x7F15700E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F157001, 0x7F15700F, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7F157001, 0x7F157010, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7F157001, 0x7F157011, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7F157001, 0x7F157012, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F157001, 0x7F157013, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7F157001, 0x7F157014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7F157001, 0x7F157015, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7F157001, 0x7F157016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7F157001, 0x7F157002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7F157001, 0x7F157003, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F157001, 0x7F157004, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F157001, 0x7F157005, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F157001, 0x7F157006, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F157001, 0x7F157007, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7F157001, 0x7F157008, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7F157001, 0x7F157009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7F157001, 0x7F15700A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F157001, 0x7F15700B, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7F157001, 0x7F15700C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F157001, 0x7F15700D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F157001, 0x7F15700E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F157001, 0x7F15700F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7F157001, 0x7F157010, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7F157001, 0x7F157011, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7F157001, 0x7F157012, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7F157001, 0x7F157013, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7F157001, 0x7F157014, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7F157001, 0x7F157015, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7F157001, 0x7F157016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F157002, 11528, 0xF157003D, 188.8835, 110.9585, 5.750292, 0.1201762, 0, 0, -0.9927526,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -116,8 +116,8 @@ VALUES (0x7F157017,  1542, 0xF157003A, 185.8895, 46.9408, 14.5296, 0.9990482, 0,
 /* @teleloc 0xF157003A [185.889500 46.940800 14.529600] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F157017, 0x7F157018, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7F157017, 0x7F157019, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7F157017, 0x7F157018, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7F157017, 0x7F157019, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F157018,  4179, 0xF157003A, 185.8895, 46.9408, 14.5296, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

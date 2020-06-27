@@ -5,8 +5,8 @@ VALUES (0x761E1001,  1154, 0x61E10009, 27.71498, 7.299033, 36.93589, -0.8550693,
 /* @teleloc 0x61E10009 [27.714980 7.299033 36.935890] -0.855069 0.000000 0.000000 -0.518514 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761E1001, 0x761E1002, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x761E1001, 0x761E1003, '2019-02-10 00:00:00') /* Armored Tusker */;
+VALUES (0x761E1001, 0x761E1002, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x761E1001, 0x761E1003, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761E1002, 24277, 0x61E10009, 27.71498, 7.299033, 36.93589, -0.8550693, 0, 0, -0.5185137,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */

@@ -5,16 +5,16 @@ VALUES (0x74D14001,  1154, 0x4D140031, 166.5398, 10.78698, 68.0085, -0.7536389, 
 /* @teleloc 0x4D140031 [166.539800 10.786980 68.008500] -0.753639 0.000000 0.000000 -0.657289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D14001, 0x74D14002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x74D14001, 0x74D14003, '2019-02-10 00:00:00') /* Flamma */
-     , (0x74D14001, 0x74D14004, '2019-02-10 00:00:00') /* Nomad Mu-miyah */
-     , (0x74D14001, 0x74D14005, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74D14001, 0x74D14006, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74D14001, 0x74D14007, '2019-02-10 00:00:00') /* Direland Rat */
-     , (0x74D14001, 0x74D14008, '2019-02-10 00:00:00') /* Horripal */
-     , (0x74D14001, 0x74D14009, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74D14001, 0x74D1400A, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x74D14001, 0x74D1400B, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x74D14001, 0x74D14002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x74D14001, 0x74D14003, '2019-02-10 00:00:00') /* Flamma (5711) */
+     , (0x74D14001, 0x74D14004, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74D14001, 0x74D14005, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74D14001, 0x74D14006, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74D14001, 0x74D14007, '2019-02-10 00:00:00') /* Direland Rat (24310) */
+     , (0x74D14001, 0x74D14008, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x74D14001, 0x74D14009, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74D14001, 0x74D1400A, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74D14001, 0x74D1400B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D14002,  5712, 0x4D140031, 166.5398, 10.78698, 68.0085, -0.7536389, 0, 0, -0.6572887,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -61,7 +61,7 @@ VALUES (0x74D1400C,  1542, 0x4D140033, 146.8107, 51.98313, 68, 1, 0, 0, 0, False
 /* @teleloc 0x4D140033 [146.810700 51.983130 68.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74D1400C, 0x74D1400D, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x74D1400C, 0x74D1400D, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74D1400D,  8999, 0x4D140033, 146.8107, 51.98313, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

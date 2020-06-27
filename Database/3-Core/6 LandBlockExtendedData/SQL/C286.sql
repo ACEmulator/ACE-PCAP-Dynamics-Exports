@@ -5,14 +5,14 @@ VALUES (0x7C286001,  1154, 0xC2860036, 158.7607, 127.2929, 48.90216, -0.8298981,
 /* @teleloc 0xC2860036 [158.760700 127.292900 48.902160] -0.829898 0.000000 0.000000 -0.557915 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C286001, 0x7C286002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C286001, 0x7C286003, '2019-02-10 00:00:00') /* Grey Rat */
-     , (0x7C286001, 0x7C286004, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7C286001, 0x7C286005, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C286001, 0x7C286006, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C286001, 0x7C286007, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7C286001, 0x7C286008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C286001, 0x7C286009, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7C286001, 0x7C286002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C286001, 0x7C286003, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7C286001, 0x7C286004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7C286001, 0x7C286005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C286001, 0x7C286006, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C286001, 0x7C286007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7C286001, 0x7C286008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C286001, 0x7C286009, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C286002,   232, 0xC2860036, 158.7607, 127.2929, 48.90216, -0.8298981, 0, 0, -0.5579151,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

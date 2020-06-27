@@ -5,12 +5,12 @@ VALUES (0x70978001,  1154, 0x09780019, 91.27203, 17.41587, -0.09000003, 0.766044
 /* @teleloc 0x09780019 [91.272030 17.415870 -0.090000] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70978001, 0x70978002, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70978001, 0x70978003, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70978001, 0x70978004, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70978001, 0x70978005, '2019-02-10 00:00:00') /* Primeval Skeleton */
-     , (0x70978001, 0x70978006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x70978001, 0x70978007, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x70978001, 0x70978002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70978001, 0x70978003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70978001, 0x70978004, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70978001, 0x70978005, '2019-02-10 00:00:00') /* Primeval Skeleton (24317) */
+     , (0x70978001, 0x70978006, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x70978001, 0x70978007, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70978002, 36834, 0x09780019, 91.27203, 17.41587, -0.09000003, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Vapor Golem */

@@ -5,20 +5,20 @@ VALUES (0x71593001,  1154, 0x15930001, 1.035456, 2.154033, 7.028125, 0.8191521, 
 /* @teleloc 0x15930001 [1.035456 2.154033 7.028125] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71593001, 0x71593002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x71593001, 0x71593003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x71593001, 0x71593004, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x71593001, 0x71593005, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71593001, 0x71593006, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x71593001, 0x71593007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x71593001, 0x71593008, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x71593001, 0x71593009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71593001, 0x7159300A, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71593001, 0x7159300B, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71593001, 0x7159300C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71593001, 0x7159300D, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71593001, 0x7159300E, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x71593001, 0x7159300F, '2019-02-10 00:00:00') /* Crystal Moiety */;
+VALUES (0x71593001, 0x71593002, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x71593001, 0x71593003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x71593001, 0x71593004, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x71593001, 0x71593005, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71593001, 0x71593006, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x71593001, 0x71593007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x71593001, 0x71593008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x71593001, 0x71593009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71593001, 0x7159300A, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71593001, 0x7159300B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71593001, 0x7159300C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71593001, 0x7159300D, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71593001, 0x7159300E, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x71593001, 0x7159300F, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71593002, 36852, 0x15930001, 1.035456, 2.154033, 7.028125, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
@@ -81,7 +81,7 @@ VALUES (0x71593010,  1542, 0x15930001, 1.674121, 3.537135, 6.402425, 1, 0, 0, 0,
 /* @teleloc 0x15930001 [1.674121 3.537135 6.402425] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71593010, 0x71593011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x71593010, 0x71593011, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71593011, 22566, 0x15930001, 1.674121, 3.537135, 6.402425, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

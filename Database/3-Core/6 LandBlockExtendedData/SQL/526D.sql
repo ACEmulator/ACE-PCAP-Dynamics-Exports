@@ -177,61 +177,61 @@ VALUES (0x7526D0BE,  1154, 0x526D023C, 130, -120, 0.00999999, 1, 0, 0, 0, False,
 /* @teleloc 0x526D023C [130.000000 -120.000000 0.010000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7526D0BE, 0x7526D0BF, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C0, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C1, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C2, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0C3, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0C4, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C5, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0C6, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C7, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0C8, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0C9, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0CA, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0CB, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0CC, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0CD, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0CE, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0CF, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0D0, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0D1, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0D2, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0D3, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0D4, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0D5, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0D6, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0D7, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0D8, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0D9, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7526D0BE, 0x7526D0DA, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7526D0BE, 0x7526D0DB, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7526D0BE, 0x7526D0DC, '2019-02-10 00:00:00') /* Miasma */
-     , (0x7526D0BE, 0x7526D0DD, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0DE, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0DF, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0E0, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0E1, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0E2, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0E3, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0E4, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0E5, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0E6, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0E7, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0E8, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0E9, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0EA, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0EB, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0EC, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0ED, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0EE, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0EF, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0F0, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0F1, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x7526D0BE, 0x7526D0F2, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0F3, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7526D0BE, 0x7526D0F4, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7526D0BE, 0x7526D0F5, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x7526D0BE, 0x7526D0BF, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C0, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C1, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C2, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0C3, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0C4, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C5, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0C6, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C7, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0C8, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0C9, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0CA, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0CB, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0CC, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0CD, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0CE, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0CF, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0D0, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0D1, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0D2, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0D3, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0D4, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0D5, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0D6, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0D7, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0D8, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0D9, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7526D0BE, 0x7526D0DA, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7526D0BE, 0x7526D0DB, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7526D0BE, 0x7526D0DC, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7526D0BE, 0x7526D0DD, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0DE, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0DF, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0E0, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0E1, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0E2, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0E3, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0E4, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0E5, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0E6, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0E7, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0E8, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0E9, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0EA, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0EB, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0EC, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0ED, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0EE, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0EF, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0F0, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0F1, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x7526D0BE, 0x7526D0F2, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0F3, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7526D0BE, 0x7526D0F4, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x7526D0BE, 0x7526D0F5, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7526D0BF, 15267, 0x526D023C, 130, -120, 0.00999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */

@@ -5,25 +5,25 @@ VALUES (0x7A8B4001,  1154, 0xA8B40006, 9.86554, 137.4315, 28.82213, -0.9495176, 
 /* @teleloc 0xA8B40006 [9.865540 137.431500 28.822130] -0.949518 0.000000 0.000000 -0.313714 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B4001, 0x7A8B4002, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4003, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B4004, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B4005, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4006, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B4007, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4008, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4009, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B400A, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B400B, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B400C, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B400D, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7A8B4001, 0x7A8B400E, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B400F, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4010, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4011, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4012, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4013, '2019-02-10 00:00:00') /* Black Rabbit */
-     , (0x7A8B4001, 0x7A8B4014, '2019-02-10 00:00:00') /* Chicken */;
+VALUES (0x7A8B4001, 0x7A8B4002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4003, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B4004, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B4005, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4006, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B4007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B400A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B400B, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B400C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B400D, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7A8B4001, 0x7A8B400E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B400F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4010, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4013, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B4001, 0x7A8B4014, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B4002,  2566, 0xA8B40006, 9.86554, 137.4315, 28.82213, -0.9495176, 0, 0, -0.3137138,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -106,18 +106,18 @@ VALUES (0x7A8B4015,  1542, 0xA8B40006, 18.46276, 141.528, 29.54044, 1, 0, 0, 0, 
 /* @teleloc 0xA8B40006 [18.462760 141.528000 29.540440] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B4015, 0x7A8B4016, '2019-02-10 00:00:00') /* Egg */
-     , (0x7A8B4015, 0x7A8B4017, '2019-02-10 00:00:00') /* Qafiya */
-     , (0x7A8B4015, 0x7A8B4018, '2019-02-10 00:00:00') /* Platemail Pauldrons */
-     , (0x7A8B4015, 0x7A8B4019, '2019-02-10 00:00:00') /* Sollerets */
-     , (0x7A8B4015, 0x7A8B401A, '2019-02-10 00:00:00') /* Platemail Leggings */
-     , (0x7A8B4015, 0x7A8B401B, '2019-02-10 00:00:00') /* Platemail Gauntlets */
-     , (0x7A8B4015, 0x7A8B401C, '2019-02-10 00:00:00') /* Platemail Vambraces */
-     , (0x7A8B4015, 0x7A8B401D, '2019-02-10 00:00:00') /* Platemail Girth */
-     , (0x7A8B4015, 0x7A8B401E, '2019-02-10 00:00:00') /* Platemail Breastplate */
-     , (0x7A8B4015, 0x7A8B401F, '2019-02-10 00:00:00') /* Egg */
-     , (0x7A8B4015, 0x7A8B4020, '2019-02-10 00:00:00') /* Egg */
-     , (0x7A8B4015, 0x7A8B4021, '2019-02-10 00:00:00') /* Academy Coat */;
+VALUES (0x7A8B4015, 0x7A8B4016, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7A8B4015, 0x7A8B4017, '2019-02-10 00:00:00') /* Qafiya (76) */
+     , (0x7A8B4015, 0x7A8B4018, '2019-02-10 00:00:00') /* Platemail Pauldrons (87) */
+     , (0x7A8B4015, 0x7A8B4019, '2019-02-10 00:00:00') /* Sollerets (107) */
+     , (0x7A8B4015, 0x7A8B401A, '2019-02-10 00:00:00') /* Platemail Leggings (82) */
+     , (0x7A8B4015, 0x7A8B401B, '2019-02-10 00:00:00') /* Platemail Gauntlets (57) */
+     , (0x7A8B4015, 0x7A8B401C, '2019-02-10 00:00:00') /* Platemail Vambraces (114) */
+     , (0x7A8B4015, 0x7A8B401D, '2019-02-10 00:00:00') /* Platemail Girth (61) */
+     , (0x7A8B4015, 0x7A8B401E, '2019-02-10 00:00:00') /* Platemail Breastplate (40) */
+     , (0x7A8B4015, 0x7A8B401F, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7A8B4015, 0x7A8B4020, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7A8B4015, 0x7A8B4021, '2019-02-10 00:00:00') /* Academy Coat (13213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B4016,   546, 0xA8B40006, 18.46276, 141.528, 29.54044, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */

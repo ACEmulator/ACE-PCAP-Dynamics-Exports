@@ -5,43 +5,43 @@ VALUES (0x7BD94001,  1154, 0xBD940027, 104.0062, 145.4645, 1.1011, 0.9537169, 0,
 /* @teleloc 0xBD940027 [104.006200 145.464500 1.101100] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BD94001, 0x7BD94002, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD94001, 0x7BD94003, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7BD94001, 0x7BD94004, '2019-02-10 00:00:00') /* Shallows Shark */
-     , (0x7BD94001, 0x7BD94005, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BD94001, 0x7BD94006, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD94001, 0x7BD94007, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7BD94001, 0x7BD94008, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7BD94001, 0x7BD94009, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD94001, 0x7BD9400A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD94001, 0x7BD9400B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD94001, 0x7BD9400C, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD94001, 0x7BD9400D, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD94001, 0x7BD9400E, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD94001, 0x7BD9400F, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD94001, 0x7BD94010, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7BD94001, 0x7BD94011, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7BD94001, 0x7BD94012, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BD94001, 0x7BD94013, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD94001, 0x7BD94014, '2019-02-10 00:00:00') /* Sandy Armoredillo */
-     , (0x7BD94001, 0x7BD94015, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD94001, 0x7BD94016, '2019-02-10 00:00:00') /* Water Golem */
-     , (0x7BD94001, 0x7BD94017, '2019-02-10 00:00:00') /* Shallows Lurker */
-     , (0x7BD94001, 0x7BD94018, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7BD94001, 0x7BD94019, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BD94001, 0x7BD9401A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD94001, 0x7BD9401B, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7BD94001, 0x7BD9401C, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7BD94001, 0x7BD9401D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7BD94001, 0x7BD9401E, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7BD94001, 0x7BD9401F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7BD94001, 0x7BD94020, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BD94001, 0x7BD94021, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7BD94001, 0x7BD94022, '2019-02-10 00:00:00') /* Listris Niffis */
-     , (0x7BD94001, 0x7BD94023, '2019-02-10 00:00:00') /* Carrion Shreth */
-     , (0x7BD94001, 0x7BD94024, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD94001, 0x7BD94025, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BD94001, 0x7BD94026, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7BD94001, 0x7BD94002, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD94001, 0x7BD94003, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BD94001, 0x7BD94004, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7BD94001, 0x7BD94005, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BD94001, 0x7BD94006, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD94001, 0x7BD94007, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BD94001, 0x7BD94008, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7BD94001, 0x7BD94009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD94001, 0x7BD9400A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD94001, 0x7BD9400B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD94001, 0x7BD9400C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD94001, 0x7BD9400D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD94001, 0x7BD9400E, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD94001, 0x7BD9400F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD94001, 0x7BD94010, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7BD94001, 0x7BD94011, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7BD94001, 0x7BD94012, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BD94001, 0x7BD94013, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD94001, 0x7BD94014, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BD94001, 0x7BD94015, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD94001, 0x7BD94016, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7BD94001, 0x7BD94017, '2019-02-10 00:00:00') /* Shallows Lurker (2578) */
+     , (0x7BD94001, 0x7BD94018, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7BD94001, 0x7BD94019, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BD94001, 0x7BD9401A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD94001, 0x7BD9401B, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7BD94001, 0x7BD9401C, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BD94001, 0x7BD9401D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7BD94001, 0x7BD9401E, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BD94001, 0x7BD9401F, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BD94001, 0x7BD94020, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BD94001, 0x7BD94021, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7BD94001, 0x7BD94022, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
+     , (0x7BD94001, 0x7BD94023, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7BD94001, 0x7BD94024, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD94001, 0x7BD94025, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BD94001, 0x7BD94026, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD94002,  2577, 0xBD940027, 104.0062, 145.4645, 1.1011, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Shark */

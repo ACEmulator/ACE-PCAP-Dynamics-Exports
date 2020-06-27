@@ -5,11 +5,11 @@ VALUES (0x7B0C7001,  1154, 0xB0C7002E, 128.8889, 142.5725, 129.8992, 0.9507779, 
 /* @teleloc 0xB0C7002E [128.888900 142.572500 129.899200] 0.950778 0.000000 0.000000 -0.309873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0C7001, 0x7B0C7002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7B0C7001, 0x7B0C7003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7B0C7001, 0x7B0C7004, '2019-02-10 00:00:00') /* Olthoi Nymph */
-     , (0x7B0C7001, 0x7B0C7005, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7B0C7001, 0x7B0C7006, '2019-02-10 00:00:00') /* Olthoi Servant */;
+VALUES (0x7B0C7001, 0x7B0C7002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7B0C7001, 0x7B0C7003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7B0C7001, 0x7B0C7004, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7B0C7001, 0x7B0C7005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7B0C7001, 0x7B0C7006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0C7002,  1756, 0xB0C7002E, 128.8889, 142.5725, 129.8992, 0.9507779, 0, 0, -0.309873,  True, '2019-02-10 00:00:00'); /* Shadow Child */

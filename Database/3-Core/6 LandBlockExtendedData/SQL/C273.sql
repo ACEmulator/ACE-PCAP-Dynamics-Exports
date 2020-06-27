@@ -5,9 +5,9 @@ VALUES (0x7C273001,  1154, 0xC2730031, 149.5581, 7.533216, 37.37773, -0.9960437,
 /* @teleloc 0xC2730031 [149.558100 7.533216 37.377730] -0.996044 0.000000 0.000000 -0.088864 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C273001, 0x7C273002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C273001, 0x7C273003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp */
-     , (0x7C273001, 0x7C273004, '2019-02-10 00:00:00') /* Young Mosswart */;
+VALUES (0x7C273001, 0x7C273002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C273001, 0x7C273003, '2019-02-10 00:00:00') /* Mire Phyntos Wasp (1622) */
+     , (0x7C273001, 0x7C273004, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C273002,   947, 0xC2730031, 149.5581, 7.533216, 37.37773, -0.9960437, 0, 0, -0.08886416,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

@@ -5,14 +5,14 @@ VALUES (0x7384A001,  1154, 0x384A0034, 166.5523, 93.4408, 0.006500006, -0.746056
 /* @teleloc 0x384A0034 [166.552300 93.440800 0.006500] -0.746057 0.000000 0.000000 -0.665883 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7384A001, 0x7384A002, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x7384A001, 0x7384A003, '2019-02-10 00:00:00') /* Caustic */
-     , (0x7384A001, 0x7384A004, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x7384A001, 0x7384A005, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7384A001, 0x7384A006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x7384A001, 0x7384A007, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x7384A001, 0x7384A008, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x7384A001, 0x7384A009, '2019-02-10 00:00:00') /* Guruk Heavy */;
+VALUES (0x7384A001, 0x7384A002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x7384A001, 0x7384A003, '2019-02-10 00:00:00') /* Caustic (14516) */
+     , (0x7384A001, 0x7384A004, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7384A001, 0x7384A005, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7384A001, 0x7384A006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x7384A001, 0x7384A007, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x7384A001, 0x7384A008, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7384A001, 0x7384A009, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7384A002, 21549, 0x384A0034, 166.5523, 93.4408, 0.006500006, -0.7460566, 0, 0, -0.6658826,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */

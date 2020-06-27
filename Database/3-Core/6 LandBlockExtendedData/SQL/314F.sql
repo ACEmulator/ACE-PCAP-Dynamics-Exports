@@ -5,34 +5,34 @@ VALUES (0x7314F001,  1154, 0x314F0002, 0.9118949, 28.79944, 5.777026, -0.4776115
 /* @teleloc 0x314F0002 [0.911895 28.799440 5.777026] -0.477612 0.000000 0.000000 -0.878571 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7314F001, 0x7314F002, '2019-02-10 00:00:00') /* Void Knight */
-     , (0x7314F001, 0x7314F003, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7314F001, 0x7314F004, '2019-02-10 00:00:00') /* Banderling Paragon */
-     , (0x7314F001, 0x7314F005, '2019-02-10 00:00:00') /* Virindi Quidiox */
-     , (0x7314F001, 0x7314F006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7314F001, 0x7314F007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7314F001, 0x7314F008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox */
-     , (0x7314F001, 0x7314F009, '2019-02-10 00:00:00') /* Drudge Seraph */
-     , (0x7314F001, 0x7314F00A, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie */
-     , (0x7314F001, 0x7314F00B, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie */
-     , (0x7314F001, 0x7314F00C, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie */
-     , (0x7314F001, 0x7314F00D, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie */
-     , (0x7314F001, 0x7314F00E, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7314F001, 0x7314F00F, '2019-02-10 00:00:00') /* Raider Prefect */
-     , (0x7314F001, 0x7314F010, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7314F001, 0x7314F011, '2019-02-10 00:00:00') /* Raider Justicar */
-     , (0x7314F001, 0x7314F012, '2019-02-10 00:00:00') /* Dreadful Ursuin */
-     , (0x7314F001, 0x7314F013, '2019-02-10 00:00:00') /* Tremendous Monouga */
-     , (0x7314F001, 0x7314F014, '2019-02-10 00:00:00') /* Transcendent Tumerok */
-     , (0x7314F001, 0x7314F015, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7314F001, 0x7314F016, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x7314F001, 0x7314F017, '2019-02-10 00:00:00') /* Olthoi Sentinel */
-     , (0x7314F001, 0x7314F018, '2019-02-10 00:00:00') /* Olthoi Primordial */
-     , (0x7314F001, 0x7314F019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7314F001, 0x7314F01A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox */
-     , (0x7314F001, 0x7314F01B, '2019-02-10 00:00:00') /* Virindi Paradox */
-     , (0x7314F001, 0x7314F01C, '2019-02-10 00:00:00') /* Titanium Armoredillo */
-     , (0x7314F001, 0x7314F01D, '2019-02-10 00:00:00') /* Titanium Armoredillo */;
+VALUES (0x7314F001, 0x7314F002, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7314F001, 0x7314F003, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7314F001, 0x7314F004, '2019-02-10 00:00:00') /* Banderling Paragon (22898) */
+     , (0x7314F001, 0x7314F005, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x7314F001, 0x7314F006, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7314F001, 0x7314F007, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7314F001, 0x7314F008, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x7314F001, 0x7314F009, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7314F001, 0x7314F00A, '2019-02-10 00:00:00') /* Adolescent Ash Gromnie (23551) */
+     , (0x7314F001, 0x7314F00B, '2019-02-10 00:00:00') /* Adolescent Rust Gromnie (23554) */
+     , (0x7314F001, 0x7314F00C, '2019-02-10 00:00:00') /* Adolescent Ivory Gromnie (23553) */
+     , (0x7314F001, 0x7314F00D, '2019-02-10 00:00:00') /* Adolescent Azure Gromnie (23552) */
+     , (0x7314F001, 0x7314F00E, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7314F001, 0x7314F00F, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7314F001, 0x7314F010, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7314F001, 0x7314F011, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7314F001, 0x7314F012, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x7314F001, 0x7314F013, '2019-02-10 00:00:00') /* Tremendous Monouga (4212) */
+     , (0x7314F001, 0x7314F014, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x7314F001, 0x7314F015, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7314F001, 0x7314F016, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x7314F001, 0x7314F017, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x7314F001, 0x7314F018, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x7314F001, 0x7314F019, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7314F001, 0x7314F01A, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
+     , (0x7314F001, 0x7314F01B, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
+     , (0x7314F001, 0x7314F01C, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7314F001, 0x7314F01D, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7314F002, 25663, 0x314F0002, 0.9118949, 28.79944, 5.777026, -0.4776115, 0, 0, -0.8785712,  True, '2019-02-10 00:00:00'); /* Void Knight */

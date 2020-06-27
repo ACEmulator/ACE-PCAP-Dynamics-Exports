@@ -5,13 +5,13 @@ VALUES (0x777E6001,  1154, 0x77E6001E, 81.43163, 127.7085, 171.5719, 0.7537947, 
 /* @teleloc 0x77E6001E [81.431630 127.708500 171.571900] 0.753795 0.000000 0.000000 -0.657110 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x777E6001, 0x777E6002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x777E6001, 0x777E6003, '2019-02-10 00:00:00') /* Frost Golem */
-     , (0x777E6001, 0x777E6004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x777E6001, 0x777E6005, '2019-02-10 00:00:00') /* Harrower Grievver */
-     , (0x777E6001, 0x777E6006, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x777E6001, 0x777E6007, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x777E6001, 0x777E6008, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x777E6001, 0x777E6002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x777E6001, 0x777E6003, '2019-02-10 00:00:00') /* Frost Golem (52285) */
+     , (0x777E6001, 0x777E6004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x777E6001, 0x777E6005, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
+     , (0x777E6001, 0x777E6006, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x777E6001, 0x777E6007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x777E6001, 0x777E6008, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777E6002, 23616, 0x77E6001E, 81.43163, 127.7085, 171.5719, 0.7537947, 0, 0, -0.65711,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

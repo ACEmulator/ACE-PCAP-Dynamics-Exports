@@ -5,18 +5,18 @@ VALUES (0x71983001,  1154, 0x19830002, 22.04561, 40.79267, 148.1564, 0.2588191, 
 /* @teleloc 0x19830002 [22.045610 40.792670 148.156400] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71983001, 0x71983002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71983001, 0x71983003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x71983001, 0x71983004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x71983001, 0x71983005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x71983001, 0x71983006, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71983001, 0x71983007, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x71983001, 0x71983008, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x71983001, 0x71983009, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71983001, 0x7198300A, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x71983001, 0x7198300B, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71983001, 0x7198300C, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x71983001, 0x7198300D, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x71983001, 0x71983002, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71983001, 0x71983003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71983001, 0x71983004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x71983001, 0x71983005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x71983001, 0x71983006, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71983001, 0x71983007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x71983001, 0x71983008, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x71983001, 0x71983009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71983001, 0x7198300A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71983001, 0x7198300B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71983001, 0x7198300C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71983001, 0x7198300D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71983002, 36840, 0x19830002, 22.04561, 40.79267, 148.1564, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
@@ -71,7 +71,7 @@ VALUES (0x7198300E,  1542, 0x19830014, 55.80529, 82.65437, 147.8405, 0.9990482, 
 /* @teleloc 0x19830014 [55.805290 82.654370 147.840500] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7198300E, 0x7198300F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7198300E, 0x7198300F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7198300F,  4179, 0x19830014, 55.80529, 82.65437, 147.8405, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

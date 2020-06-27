@@ -5,26 +5,26 @@ VALUES (0x72DE9001,  1154, 0x2DE90030, 136.1347, 191.5966, 20.52898, -0.758303, 
 /* @teleloc 0x2DE90030 [136.134700 191.596600 20.528980] -0.758303 0.000000 0.000000 -0.651902 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DE9001, 0x72DE9002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x72DE9001, 0x72DE9003, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x72DE9001, 0x72DE9004, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x72DE9001, 0x72DE9005, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72DE9001, 0x72DE9006, '2019-02-10 00:00:00') /* Spiked Grievver */
-     , (0x72DE9001, 0x72DE9007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x72DE9001, 0x72DE9008, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x72DE9001, 0x72DE9009, '2019-02-10 00:00:00') /* Nubilous Golem */
-     , (0x72DE9001, 0x72DE900A, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x72DE9001, 0x72DE900B, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72DE9001, 0x72DE900C, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x72DE9001, 0x72DE900D, '2019-02-10 00:00:00') /* Eater */
-     , (0x72DE9001, 0x72DE900E, '2019-02-10 00:00:00') /* Cursed Bones */
-     , (0x72DE9001, 0x72DE900F, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x72DE9001, 0x72DE9010, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x72DE9001, 0x72DE9011, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72DE9001, 0x72DE9012, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x72DE9001, 0x72DE9013, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x72DE9001, 0x72DE9014, '2019-02-10 00:00:00') /* High Mu-miyah */
-     , (0x72DE9001, 0x72DE9015, '2019-02-10 00:00:00') /* Engorged Eater */;
+VALUES (0x72DE9001, 0x72DE9002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72DE9001, 0x72DE9003, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x72DE9001, 0x72DE9004, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x72DE9001, 0x72DE9005, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72DE9001, 0x72DE9006, '2019-02-10 00:00:00') /* Spiked Grievver (28554) */
+     , (0x72DE9001, 0x72DE9007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x72DE9001, 0x72DE9008, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72DE9001, 0x72DE9009, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x72DE9001, 0x72DE900A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x72DE9001, 0x72DE900B, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72DE9001, 0x72DE900C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72DE9001, 0x72DE900D, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x72DE9001, 0x72DE900E, '2019-02-10 00:00:00') /* Cursed Bones (8595) */
+     , (0x72DE9001, 0x72DE900F, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x72DE9001, 0x72DE9010, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72DE9001, 0x72DE9011, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72DE9001, 0x72DE9012, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72DE9001, 0x72DE9013, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x72DE9001, 0x72DE9014, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
+     , (0x72DE9001, 0x72DE9015, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DE9002, 28553, 0x2DE90030, 136.1347, 191.5966, 20.52898, -0.758303, 0, 0, -0.6519023,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

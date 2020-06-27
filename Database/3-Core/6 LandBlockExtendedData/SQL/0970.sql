@@ -5,14 +5,14 @@ VALUES (0x70970001,  1154, 0x09700007, 15.86965, 146.3012, -0.1, -0.1837979, 0, 
 /* @teleloc 0x09700007 [15.869650 146.301200 -0.100000] -0.183798 0.000000 0.000000 -0.982964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70970001, 0x70970002, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70970001, 0x70970003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x70970001, 0x70970004, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x70970001, 0x70970005, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x70970001, 0x70970006, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x70970001, 0x70970007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70970001, 0x70970008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x70970001, 0x70970009, '2019-02-10 00:00:00') /* Plasma Golem */;
+VALUES (0x70970001, 0x70970002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70970001, 0x70970003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x70970001, 0x70970004, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x70970001, 0x70970005, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x70970001, 0x70970006, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x70970001, 0x70970007, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70970001, 0x70970008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x70970001, 0x70970009, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70970002, 23482, 0x09700007, 15.86965, 146.3012, -0.1, -0.1837979, 0, 0, -0.982964,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -51,7 +51,7 @@ VALUES (0x7097000A,  1542, 0x0970000E, 32.8351, 132.2966, 0.011, -0.1837979, 0, 
 /* @teleloc 0x0970000E [32.835100 132.296600 0.011000] -0.183798 0.000000 0.000000 -0.982964 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7097000A, 0x7097000B, '2019-02-10 00:00:00') /* Red Monster Seed */;
+VALUES (0x7097000A, 0x7097000B, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7097000B, 31688, 0x0970000E, 32.8351, 132.2966, 0.011, -0.1837979, 0, 0, -0.982964,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */

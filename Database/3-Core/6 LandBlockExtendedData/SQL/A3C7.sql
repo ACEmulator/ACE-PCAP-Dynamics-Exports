@@ -5,15 +5,15 @@ VALUES (0x7A3C7001,  1154, 0xA3C7002F, 124.8178, 151.9479, 38.67785, 0.0923092, 
 /* @teleloc 0xA3C7002F [124.817800 151.947900 38.677850] 0.092309 0.000000 0.000000 -0.995730 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3C7001, 0x7A3C7002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A3C7001, 0x7A3C7003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A3C7001, 0x7A3C7004, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7A3C7001, 0x7A3C7005, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3C7001, 0x7A3C7006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A3C7001, 0x7A3C7007, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7A3C7001, 0x7A3C7008, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3C7001, 0x7A3C7009, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7A3C7001, 0x7A3C700A, '2019-02-10 00:00:00') /* Drudge Lurker */;
+VALUES (0x7A3C7001, 0x7A3C7002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A3C7001, 0x7A3C7003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A3C7001, 0x7A3C7004, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7A3C7001, 0x7A3C7005, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3C7001, 0x7A3C7006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A3C7001, 0x7A3C7007, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7A3C7001, 0x7A3C7008, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3C7001, 0x7A3C7009, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7A3C7001, 0x7A3C700A, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3C7002,  1756, 0xA3C7002F, 124.8178, 151.9479, 38.67785, 0.0923092, 0, 0, -0.9957304,  True, '2019-02-10 00:00:00'); /* Shadow Child */

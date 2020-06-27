@@ -5,12 +5,12 @@ VALUES (0x72934001,  1154, 0x29340037, 145.6672, 157.4733, 89.01285, 0.9659258, 
 /* @teleloc 0x29340037 [145.667200 157.473300 89.012850] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72934001, 0x72934002, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72934001, 0x72934003, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72934001, 0x72934004, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x72934001, 0x72934005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72934001, 0x72934006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72934001, 0x72934007, '2019-02-10 00:00:00') /* Drudge Bloodletter */;
+VALUES (0x72934001, 0x72934002, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72934001, 0x72934003, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72934001, 0x72934004, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72934001, 0x72934005, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72934001, 0x72934006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72934001, 0x72934007, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72934002, 36860, 0x29340037, 145.6672, 157.4733, 89.01285, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */

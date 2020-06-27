@@ -5,16 +5,16 @@ VALUES (0x725EF001,  1154, 0x25EF0001, 16.55035, 14.63659, 0.01050007, 0.9513846
 /* @teleloc 0x25EF0001 [16.550350 14.636590 0.010500] 0.951385 0.000000 0.000000 -0.308005 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725EF001, 0x725EF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo */
-     , (0x725EF001, 0x725EF003, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x725EF001, 0x725EF004, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EF001, 0x725EF005, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x725EF001, 0x725EF006, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x725EF001, 0x725EF007, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x725EF001, 0x725EF008, '2019-02-10 00:00:00') /* Engorged Eater */
-     , (0x725EF001, 0x725EF009, '2019-02-10 00:00:00') /* Viamontian Mercenary */
-     , (0x725EF001, 0x725EF00A, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x725EF001, 0x725EF00B, '2019-02-10 00:00:00') /* Truffle Thrungus */;
+VALUES (0x725EF001, 0x725EF002, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x725EF001, 0x725EF003, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x725EF001, 0x725EF004, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EF001, 0x725EF005, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x725EF001, 0x725EF006, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x725EF001, 0x725EF007, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x725EF001, 0x725EF008, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x725EF001, 0x725EF009, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x725EF001, 0x725EF00A, '2019-02-10 00:00:00') /* Dual Fragment (8012) */
+     , (0x725EF001, 0x725EF00B, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725EF002, 38176, 0x25EF0001, 16.55035, 14.63659, 0.01050007, 0.9513846, 0, 0, -0.3080054,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */

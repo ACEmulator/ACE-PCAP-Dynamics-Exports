@@ -5,15 +5,15 @@ VALUES (0x7ABAA001,  1154, 0xABAA000C, 45.26911, 91.46194, 120.5934, 0.9537169, 
 /* @teleloc 0xABAA000C [45.269110 91.461940 120.593400] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABAA001, 0x7ABAA002, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABAA001, 0x7ABAA003, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABAA001, 0x7ABAA004, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABAA001, 0x7ABAA005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7ABAA001, 0x7ABAA006, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ABAA001, 0x7ABAA007, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7ABAA001, 0x7ABAA008, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7ABAA001, 0x7ABAA009, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7ABAA001, 0x7ABAA00A, '2019-02-10 00:00:00') /* Dark Wisp */;
+VALUES (0x7ABAA001, 0x7ABAA002, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ABAA001, 0x7ABAA003, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ABAA001, 0x7ABAA004, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ABAA001, 0x7ABAA005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7ABAA001, 0x7ABAA006, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ABAA001, 0x7ABAA007, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7ABAA001, 0x7ABAA008, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7ABAA001, 0x7ABAA009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7ABAA001, 0x7ABAA00A, '2019-02-10 00:00:00') /* Dark Wisp (1988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABAA002,   943, 0xABAA000C, 45.26911, 91.46194, 120.5934, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Mite Scion */

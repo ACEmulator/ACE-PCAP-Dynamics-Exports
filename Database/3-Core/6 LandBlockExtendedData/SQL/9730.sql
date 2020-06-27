@@ -5,18 +5,18 @@ VALUES (0x79730001,  1154, 0x97300001, 21.011, 14.20269, 123.0705, 0.8870109, 0,
 /* @teleloc 0x97300001 [21.011000 14.202690 123.070500] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79730001, 0x79730002, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79730001, 0x79730003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x79730001, 0x79730004, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x79730001, 0x79730005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x79730001, 0x79730006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79730001, 0x79730007, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79730001, 0x79730008, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79730001, 0x79730009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79730001, 0x7973000A, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x79730001, 0x7973000B, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x79730001, 0x7973000C, '2019-02-10 00:00:00') /* Dark Marionette */
-     , (0x79730001, 0x7973000D, '2019-02-10 00:00:00') /* Virindi Master */;
+VALUES (0x79730001, 0x79730002, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79730001, 0x79730003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79730001, 0x79730004, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x79730001, 0x79730005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x79730001, 0x79730006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79730001, 0x79730007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79730001, 0x79730008, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79730001, 0x79730009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79730001, 0x7973000A, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x79730001, 0x7973000B, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x79730001, 0x7973000C, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79730001, 0x7973000D, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79730002,  1757, 0x97300001, 21.011, 14.20269, 123.0705, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -71,8 +71,8 @@ VALUES (0x7973000E,  1542, 0x97300001, 16.99635, 12.78855, 123.5179, 1, 0, 0, 0,
 /* @teleloc 0x97300001 [16.996350 12.788550 123.517900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7973000E, 0x7973000F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7973000E, 0x79730010, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x7973000E, 0x7973000F, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7973000E, 0x79730010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7973000F, 22570, 0x97300001, 16.99635, 12.78855, 123.5179, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -21,32 +21,32 @@ VALUES (0x74AE3012,  1154, 0x4AE30029, 126.2562, 12.31566, 211.4099, -0.9975764,
 /* @teleloc 0x4AE30029 [126.256200 12.315660 211.409900] -0.997576 0.000000 0.000000 -0.069580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AE3012, 0x74AE3013, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3014, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE3012, 0x74AE3015, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE3012, 0x74AE3016, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3017, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3018, '2019-02-10 00:00:00') /* Spectral Claw Master */
-     , (0x74AE3012, 0x74AE3019, '2019-02-10 00:00:00') /* Lock */
-     , (0x74AE3012, 0x74AE301A, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE3012, 0x74AE301B, '2019-02-10 00:00:00') /* Bronze Golem Samurai */
-     , (0x74AE3012, 0x74AE301C, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE3012, 0x74AE301D, '2019-02-10 00:00:00') /* Spectral Minion */
-     , (0x74AE3012, 0x74AE301E, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE3012, 0x74AE301F, '2019-02-10 00:00:00') /* Spectral Blade Adept */
-     , (0x74AE3012, 0x74AE3020, '2019-02-10 00:00:00') /* Spectral Bushi */
-     , (0x74AE3012, 0x74AE3021, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3022, '2019-02-10 00:00:00') /* Spectral Samurai */
-     , (0x74AE3012, 0x74AE3023, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3024, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3025, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3026, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3027, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3028, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE3029, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE302A, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE302B, '2019-02-10 00:00:00') /* Spectral Archer */
-     , (0x74AE3012, 0x74AE302C, '2019-02-10 00:00:00') /* Spectral Archer */;
+VALUES (0x74AE3012, 0x74AE3013, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74AE3012, 0x74AE3014, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE3012, 0x74AE3015, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE3012, 0x74AE3016, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE3017, '2019-02-10 00:00:00') /* Spectral Archer (46503) */
+     , (0x74AE3012, 0x74AE3018, '2019-02-10 00:00:00') /* Spectral Claw Master (46523) */
+     , (0x74AE3012, 0x74AE3019, '2019-02-10 00:00:00') /* Lock (46456) */
+     , (0x74AE3012, 0x74AE301A, '2019-02-10 00:00:00') /* Spectral Bushi (46517) */
+     , (0x74AE3012, 0x74AE301B, '2019-02-10 00:00:00') /* Bronze Golem Samurai (46651) */
+     , (0x74AE3012, 0x74AE301C, '2019-02-10 00:00:00') /* Spectral Minion (46529) */
+     , (0x74AE3012, 0x74AE301D, '2019-02-10 00:00:00') /* Spectral Minion (46525) */
+     , (0x74AE3012, 0x74AE301E, '2019-02-10 00:00:00') /* Spectral Samurai (46541) */
+     , (0x74AE3012, 0x74AE301F, '2019-02-10 00:00:00') /* Spectral Blade Adept (46507) */
+     , (0x74AE3012, 0x74AE3020, '2019-02-10 00:00:00') /* Spectral Bushi (46515) */
+     , (0x74AE3012, 0x74AE3021, '2019-02-10 00:00:00') /* Spectral Archer (46502) */
+     , (0x74AE3012, 0x74AE3022, '2019-02-10 00:00:00') /* Spectral Samurai (46537) */
+     , (0x74AE3012, 0x74AE3023, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE3012, 0x74AE3024, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE3012, 0x74AE3025, '2019-02-10 00:00:00') /* Spectral Archer (46500) */
+     , (0x74AE3012, 0x74AE3026, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE3027, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE3028, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE3029, '2019-02-10 00:00:00') /* Spectral Archer (46504) */
+     , (0x74AE3012, 0x74AE302A, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE302B, '2019-02-10 00:00:00') /* Spectral Archer (46498) */
+     , (0x74AE3012, 0x74AE302C, '2019-02-10 00:00:00') /* Spectral Archer (46504) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AE3013, 46500, 0x4AE30029, 126.2562, 12.31566, 211.4099, -0.9975764, 0, 0, -0.06958009,  True, '2019-02-10 00:00:00'); /* Spectral Archer */

@@ -5,13 +5,13 @@ VALUES (0x73FD9001,  1154, 0x3FD90036, 161.5451, 126.2792, -0.8899999, 0.9238795
 /* @teleloc 0x3FD90036 [161.545100 126.279200 -0.890000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FD9001, 0x73FD9002, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73FD9001, 0x73FD9003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73FD9001, 0x73FD9004, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73FD9001, 0x73FD9005, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73FD9001, 0x73FD9006, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x73FD9001, 0x73FD9007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73FD9001, 0x73FD9008, '2019-02-10 00:00:00') /* Vapor Golem */;
+VALUES (0x73FD9001, 0x73FD9002, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73FD9001, 0x73FD9003, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x73FD9001, 0x73FD9004, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73FD9001, 0x73FD9005, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73FD9001, 0x73FD9006, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x73FD9001, 0x73FD9007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73FD9001, 0x73FD9008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FD9002,  7507, 0x3FD90036, 161.5451, 126.2792, -0.8899999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Coral Golem */
@@ -46,7 +46,7 @@ VALUES (0x73FD9009,  1542, 0x3FD90037, 164.1987, 144.8846, -0.8889999, 0.3433425
 /* @teleloc 0x3FD90037 [164.198700 144.884600 -0.889000] 0.343343 0.000000 0.000000 -0.939210 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FD9009, 0x73FD900A, '2019-02-10 00:00:00') /* Orange Monster Seed */;
+VALUES (0x73FD9009, 0x73FD900A, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FD900A, 31687, 0x3FD90037, 164.1987, 144.8846, -0.8889999, 0.3433425, 0, 0, -0.9392102,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

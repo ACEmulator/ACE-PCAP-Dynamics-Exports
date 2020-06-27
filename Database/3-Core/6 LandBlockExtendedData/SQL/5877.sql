@@ -9,30 +9,30 @@ VALUES (0x75877002,  1154, 0x5877026C, 237.098, -147.5319, 0.02899998, 1, 0, 0, 
 /* @teleloc 0x5877026C [237.098000 -147.531900 0.029000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75877002, 0x75877003, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x75877004, '2019-02-10 00:00:00') /* Corrupt Minion */
-     , (0x75877002, 0x75877005, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x75877006, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x75877007, '2019-02-10 00:00:00') /* Corrupt Slayer */
-     , (0x75877002, 0x75877008, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x75877009, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x7587700A, '2019-02-10 00:00:00') /* Corrupt Minion */
-     , (0x75877002, 0x7587700B, '2019-02-10 00:00:00') /* Corrupt Minion */
-     , (0x75877002, 0x7587700C, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x7587700D, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x7587700E, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x7587700F, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x75877010, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x75877011, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x75877012, '2019-02-10 00:00:00') /* Corrupt Slayer */
-     , (0x75877002, 0x75877013, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x75877014, '2019-02-10 00:00:00') /* Dread Figment */
-     , (0x75877002, 0x75877015, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x75877016, '2019-02-10 00:00:00') /* Corrupt Lugian */
-     , (0x75877002, 0x75877017, '2019-02-10 00:00:00') /* Dread Figment */
-     , (0x75877002, 0x75877018, '2019-02-10 00:00:00') /* Corrupt Minion */
-     , (0x75877002, 0x75877019, '2019-02-10 00:00:00') /* Corrupt Minion of Rage */
-     , (0x75877002, 0x7587701A, '2019-02-10 00:00:00') /* Corrupt Lugian */;
+VALUES (0x75877002, 0x75877003, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x75877004, '2019-02-10 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75877002, 0x75877005, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x75877006, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x75877007, '2019-02-10 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75877002, 0x75877008, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x75877009, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x7587700A, '2019-02-10 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75877002, 0x7587700B, '2019-02-10 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75877002, 0x7587700C, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x7587700D, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x7587700E, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x7587700F, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x75877010, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x75877011, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x75877012, '2019-02-10 00:00:00') /* Corrupt Slayer (51609) */
+     , (0x75877002, 0x75877013, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x75877014, '2019-02-10 00:00:00') /* Dread Figment (51693) */
+     , (0x75877002, 0x75877015, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x75877016, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */
+     , (0x75877002, 0x75877017, '2019-02-10 00:00:00') /* Dread Figment (51694) */
+     , (0x75877002, 0x75877018, '2019-02-10 00:00:00') /* Corrupt Minion (51607) */
+     , (0x75877002, 0x75877019, '2019-02-10 00:00:00') /* Corrupt Minion of Rage (51608) */
+     , (0x75877002, 0x7587701A, '2019-02-10 00:00:00') /* Corrupt Lugian (51684) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75877003, 51608, 0x5877026C, 237.098, -147.5319, 0.02899998, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corrupt Minion of Rage */
@@ -135,12 +135,12 @@ VALUES (0x7587701B,  1154, 0x5877026E, 240, -170, 0.004999995, 1, 0, 0, 0, False
 /* @teleloc 0x5877026E [240.000000 -170.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7587701B, 0x7587701C, '2019-02-10 00:00:00') /* Shadow Captive */
-     , (0x7587701B, 0x7587701D, '2019-02-10 00:00:00') /* Shadow Captive */
-     , (0x7587701B, 0x7587701E, '2019-02-10 00:00:00') /* Shadow Captive */
-     , (0x7587701B, 0x7587701F, '2019-02-10 00:00:00') /* Shadow Captive */
-     , (0x7587701B, 0x75877020, '2019-02-10 00:00:00') /* Shadow Captive */
-     , (0x7587701B, 0x75877021, '2019-02-10 00:00:00') /* Shadow Captive */;
+VALUES (0x7587701B, 0x7587701C, '2019-02-10 00:00:00') /* Shadow Captive (51683) */
+     , (0x7587701B, 0x7587701D, '2019-02-10 00:00:00') /* Shadow Captive (51683) */
+     , (0x7587701B, 0x7587701E, '2019-02-10 00:00:00') /* Shadow Captive (51682) */
+     , (0x7587701B, 0x7587701F, '2019-02-10 00:00:00') /* Shadow Captive (51682) */
+     , (0x7587701B, 0x75877020, '2019-02-10 00:00:00') /* Shadow Captive (51683) */
+     , (0x7587701B, 0x75877021, '2019-02-10 00:00:00') /* Shadow Captive (51682) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7587701C, 51683, 0x5877026E, 240, -170, 0.004999995, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shadow Captive */
@@ -171,7 +171,7 @@ VALUES (0x75877022,  1542, 0x58770315, 368.1014, -114.098, 0, 0.7071068, 0, 0, -
 /* @teleloc 0x58770315 [368.101400 -114.098000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75877022, 0x75877023, '2019-02-10 00:00:00') /* Chorizite Chest */;
+VALUES (0x75877022, 0x75877023, '2019-02-10 00:00:00') /* Chorizite Chest (51687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75877023, 51687, 0x58770315, 368.1014, -114.098, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chorizite Chest */

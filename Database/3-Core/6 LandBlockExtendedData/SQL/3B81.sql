@@ -5,20 +5,20 @@ VALUES (0x73B81001,  1154, 0x3B81000C, 24.47421, 84.42701, 47.92746, -0.8060561,
 /* @teleloc 0x3B81000C [24.474210 84.427010 47.927460] -0.806056 0.000000 0.000000 -0.591839 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B81001, 0x73B81002, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73B81001, 0x73B81003, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73B81001, 0x73B81004, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x73B81001, 0x73B81005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73B81001, 0x73B81006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B81001, 0x73B81007, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73B81001, 0x73B81008, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x73B81001, 0x73B81009, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x73B81001, 0x73B8100A, '2019-02-10 00:00:00') /* Olthoi Lancer */
-     , (0x73B81001, 0x73B8100B, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B81001, 0x73B8100C, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x73B81001, 0x73B8100D, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x73B81001, 0x73B8100E, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73B81001, 0x73B8100F, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x73B81001, 0x73B81002, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73B81001, 0x73B81003, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73B81001, 0x73B81004, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73B81001, 0x73B81005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73B81001, 0x73B81006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B81001, 0x73B81007, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73B81001, 0x73B81008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73B81001, 0x73B81009, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x73B81001, 0x73B8100A, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73B81001, 0x73B8100B, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B81001, 0x73B8100C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73B81001, 0x73B8100D, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x73B81001, 0x73B8100E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73B81001, 0x73B8100F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B81002, 21550, 0x3B81000C, 24.47421, 84.42701, 47.92746, -0.8060561, 0, 0, -0.5918391,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
@@ -81,7 +81,7 @@ VALUES (0x73B81010,  1542, 0x3B81000C, 36.50606, 93.66368, 45.9135, 1, 0, 0, 0, 
 /* @teleloc 0x3B81000C [36.506060 93.663680 45.913500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B81010, 0x73B81011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x73B81010, 0x73B81011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B81011, 31445, 0x3B81000C, 36.50606, 93.66368, 45.9135, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

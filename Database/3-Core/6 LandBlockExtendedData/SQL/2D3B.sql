@@ -5,27 +5,27 @@ VALUES (0x72D3B001,  1154, 0x2D3B001E, 72.96786, 136.3703, 182.611, 0.8191521, 0
 /* @teleloc 0x2D3B001E [72.967860 136.370300 182.611000] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72D3B001, 0x72D3B002, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72D3B001, 0x72D3B003, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D3B001, 0x72D3B004, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x72D3B001, 0x72D3B005, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x72D3B001, 0x72D3B006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72D3B001, 0x72D3B007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72D3B001, 0x72D3B008, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D3B001, 0x72D3B009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72D3B001, 0x72D3B00A, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72D3B001, 0x72D3B00B, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72D3B001, 0x72D3B00C, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x72D3B001, 0x72D3B00D, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72D3B001, 0x72D3B00E, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72D3B001, 0x72D3B00F, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D3B001, 0x72D3B010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72D3B001, 0x72D3B011, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72D3B001, 0x72D3B012, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72D3B001, 0x72D3B013, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x72D3B001, 0x72D3B014, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72D3B001, 0x72D3B015, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72D3B001, 0x72D3B016, '2019-02-10 00:00:00') /* Virindi Profane */;
+VALUES (0x72D3B001, 0x72D3B002, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72D3B001, 0x72D3B003, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D3B001, 0x72D3B004, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x72D3B001, 0x72D3B005, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x72D3B001, 0x72D3B006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72D3B001, 0x72D3B007, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72D3B001, 0x72D3B008, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72D3B001, 0x72D3B009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72D3B001, 0x72D3B00A, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72D3B001, 0x72D3B00B, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72D3B001, 0x72D3B00C, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x72D3B001, 0x72D3B00D, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72D3B001, 0x72D3B00E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72D3B001, 0x72D3B00F, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D3B001, 0x72D3B010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72D3B001, 0x72D3B011, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D3B001, 0x72D3B012, '2019-02-10 00:00:00') /* Pandemonium Shadow (36848) */
+     , (0x72D3B001, 0x72D3B013, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72D3B001, 0x72D3B014, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72D3B001, 0x72D3B015, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x72D3B001, 0x72D3B016, '2019-02-10 00:00:00') /* Virindi Profane (36864) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D3B002, 36852, 0x2D3B001E, 72.96786, 136.3703, 182.611, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */

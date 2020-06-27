@@ -5,21 +5,21 @@ VALUES (0x7153E001,  1154, 0x153E0037, 144.6018, 163.2639, 0.006999969, 0.067443
 /* @teleloc 0x153E0037 [144.601800 163.263900 0.007000] 0.067444 0.000000 0.000000 -0.997723 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7153E001, 0x7153E002, '2019-02-10 00:00:00') /* Tsuric */
-     , (0x7153E001, 0x7153E003, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7153E001, 0x7153E004, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7153E001, 0x7153E005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153E001, 0x7153E006, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153E001, 0x7153E007, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x7153E001, 0x7153E008, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153E001, 0x7153E009, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7153E001, 0x7153E00A, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7153E001, 0x7153E00B, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7153E001, 0x7153E00C, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7153E001, 0x7153E00D, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7153E001, 0x7153E00E, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7153E001, 0x7153E00F, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7153E001, 0x7153E010, '2019-02-10 00:00:00') /* Unconquered Drudge */;
+VALUES (0x7153E001, 0x7153E002, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x7153E001, 0x7153E003, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7153E001, 0x7153E004, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7153E001, 0x7153E005, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153E001, 0x7153E006, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153E001, 0x7153E007, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x7153E001, 0x7153E008, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153E001, 0x7153E009, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x7153E001, 0x7153E00A, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7153E001, 0x7153E00B, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7153E001, 0x7153E00C, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7153E001, 0x7153E00D, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7153E001, 0x7153E00E, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7153E001, 0x7153E00F, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x7153E001, 0x7153E010, '2019-02-10 00:00:00') /* Unconquered Drudge (36826) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7153E002, 14877, 0x153E0037, 144.6018, 163.2639, 0.006999969, 0.06744371, 0, 0, -0.9977231,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -86,8 +86,8 @@ VALUES (0x7153E011,  1542, 0x153E0010, 32.00824, 168.877, 0, 1, 0, 0, 0, False, 
 /* @teleloc 0x153E0010 [32.008240 168.877000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7153E011, 0x7153E012, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7153E011, 0x7153E013, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7153E011, 0x7153E012, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7153E011, 0x7153E013, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7153E012,  4179, 0x153E0010, 32.00824, 168.877, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

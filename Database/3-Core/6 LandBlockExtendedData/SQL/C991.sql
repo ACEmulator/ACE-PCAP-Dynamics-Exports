@@ -5,15 +5,15 @@ VALUES (0x7C991001,  1154, 0xC9910015, 60.87624, 107.8794, 10.0045, 0.7071068, 0
 /* @teleloc 0xC9910015 [60.876240 107.879400 10.004500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C991001, 0x7C991002, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C991001, 0x7C991003, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C991001, 0x7C991004, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7C991001, 0x7C991005, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7C991001, 0x7C991006, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x7C991001, 0x7C991007, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C991001, 0x7C991008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C991001, 0x7C991009, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7C991001, 0x7C99100A, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7C991001, 0x7C991002, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C991001, 0x7C991003, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C991001, 0x7C991004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C991001, 0x7C991005, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7C991001, 0x7C991006, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7C991001, 0x7C991007, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C991001, 0x7C991008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C991001, 0x7C991009, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7C991001, 0x7C99100A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C991002,  1613, 0xC9910015, 60.87624, 107.8794, 10.0045, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */
@@ -56,8 +56,8 @@ VALUES (0x7C99100B,  1542, 0xC9910015, 62.2212, 110.3106, 9.992547, 0.9659258, 0
 /* @teleloc 0xC9910015 [62.221200 110.310600 9.992547] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C99100B, 0x7C99100C, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7C99100B, 0x7C99100D, '2019-02-10 00:00:00') /* Meat */;
+VALUES (0x7C99100B, 0x7C99100C, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7C99100B, 0x7C99100D, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C99100C,  4180, 0xC9910015, 62.2212, 110.3106, 9.992547, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Corpse */

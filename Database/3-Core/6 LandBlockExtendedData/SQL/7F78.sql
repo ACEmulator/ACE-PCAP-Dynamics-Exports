@@ -5,11 +5,11 @@ VALUES (0x77F78001,  1154, 0x7F78001F, 76.89536, 152.3042, 11.32, 0.4318619, 0, 
 /* @teleloc 0x7F78001F [76.895360 152.304200 11.320000] 0.431862 0.000000 0.000000 -0.901940 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F78001, 0x77F78002, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x77F78001, 0x77F78003, '2019-02-10 00:00:00') /* Rust Gromnie */
-     , (0x77F78001, 0x77F78004, '2019-02-10 00:00:00') /* Undead */
-     , (0x77F78001, 0x77F78005, '2019-02-10 00:00:00') /* Red Rat */
-     , (0x77F78001, 0x77F78006, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x77F78001, 0x77F78002, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x77F78001, 0x77F78003, '2019-02-10 00:00:00') /* Rust Gromnie (1611) */
+     , (0x77F78001, 0x77F78004, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x77F78001, 0x77F78005, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x77F78001, 0x77F78006, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F78002,  1623, 0x7F78001F, 76.89536, 152.3042, 11.32, 0.4318619, 0, 0, -0.9019397,  True, '2019-02-10 00:00:00'); /* Desert Rat */

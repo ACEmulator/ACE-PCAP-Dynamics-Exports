@@ -5,17 +5,17 @@ VALUES (0x7C151001,  1154, 0xC151003D, 171.8428, 109.2766, 26.90862, 0.9983618, 
 /* @teleloc 0xC151003D [171.842800 109.276600 26.908620] 0.998362 0.000000 0.000000 -0.057216 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C151001, 0x7C151002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C151001, 0x7C151003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C151001, 0x7C151004, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C151001, 0x7C151005, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7C151001, 0x7C151006, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C151001, 0x7C151007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7C151001, 0x7C151008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C151001, 0x7C151009, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C151001, 0x7C15100A, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7C151001, 0x7C15100B, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C151001, 0x7C15100C, '2019-02-10 00:00:00') /* Wild Monouga */;
+VALUES (0x7C151001, 0x7C151002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C151001, 0x7C151003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C151001, 0x7C151004, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C151001, 0x7C151005, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7C151001, 0x7C151006, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C151001, 0x7C151007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7C151001, 0x7C151008, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C151001, 0x7C151009, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C151001, 0x7C15100A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7C151001, 0x7C15100B, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C151001, 0x7C15100C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C151002,  7128, 0xC151003D, 171.8428, 109.2766, 26.90862, 0.9983618, 0, 0, -0.05721578,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -66,7 +66,7 @@ VALUES (0x7C15100D,  1542, 0xC1510001, 20.82623, 18.16236, 35.19321, -0.5794494,
 /* @teleloc 0xC1510001 [20.826230 18.162360 35.193210] -0.579449 0.000000 0.000000 -0.815008 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C15100D, 0x7C15100E, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x7C15100D, 0x7C15100E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C15100E,  8037, 0xC1510001, 20.82623, 18.16236, 35.19321, -0.5794494, 0, 0, -0.8150083,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

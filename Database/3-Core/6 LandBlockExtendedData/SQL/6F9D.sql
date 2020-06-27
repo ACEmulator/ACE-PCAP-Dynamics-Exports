@@ -5,15 +5,15 @@ VALUES (0x76F9D001,  1154, 0x6F9D0038, 144.3549, 177.5864, 113.5493, -0.2750827,
 /* @teleloc 0x6F9D0038 [144.354900 177.586400 113.549300] -0.275083 0.000000 0.000000 -0.961421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F9D001, 0x76F9D002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76F9D001, 0x76F9D003, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x76F9D001, 0x76F9D004, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x76F9D001, 0x76F9D005, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x76F9D001, 0x76F9D006, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76F9D001, 0x76F9D007, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x76F9D001, 0x76F9D008, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x76F9D001, 0x76F9D009, '2019-02-10 00:00:00') /* Acolyte of Wind */
-     , (0x76F9D001, 0x76F9D00A, '2019-02-10 00:00:00') /* Acolyte of Storms */;
+VALUES (0x76F9D001, 0x76F9D002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76F9D001, 0x76F9D003, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x76F9D001, 0x76F9D004, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x76F9D001, 0x76F9D005, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x76F9D001, 0x76F9D006, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76F9D001, 0x76F9D007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x76F9D001, 0x76F9D008, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x76F9D001, 0x76F9D009, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x76F9D001, 0x76F9D00A, '2019-02-10 00:00:00') /* Acolyte of Storms (34563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F9D002,  4253, 0x6F9D0038, 144.3549, 177.5864, 113.5493, -0.2750827, 0, 0, -0.9614206,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

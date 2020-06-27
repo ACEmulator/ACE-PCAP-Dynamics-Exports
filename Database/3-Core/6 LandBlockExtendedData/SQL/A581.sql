@@ -5,10 +5,10 @@ VALUES (0x7A581001,  1154, 0xA5810039, 182.558, 5.982272, 33.07922, 0.8805555, 0
 /* @teleloc 0xA5810039 [182.558000 5.982272 33.079220] 0.880556 0.000000 0.000000 -0.473943 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A581001, 0x7A581002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7A581001, 0x7A581003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7A581001, 0x7A581004, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7A581001, 0x7A581005, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7A581001, 0x7A581002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A581001, 0x7A581003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7A581001, 0x7A581004, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7A581001, 0x7A581005, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A581002,  8141, 0xA5810039, 182.558, 5.982272, 33.07922, 0.8805555, 0, 0, -0.4739431,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -31,7 +31,7 @@ VALUES (0x7A581006,  1542, 0xA5810030, 125.2169, 182.6632, 28, 0.7071068, 0, 0, 
 /* @teleloc 0xA5810030 [125.216900 182.663200 28.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A581006, 0x7A581007, '2019-02-10 00:00:00') /* Chest */;
+VALUES (0x7A581006, 0x7A581007, '2019-02-10 00:00:00') /* Chest (1919) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A581007,  1919, 0xA5810030, 125.2169, 182.6632, 28, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chest */

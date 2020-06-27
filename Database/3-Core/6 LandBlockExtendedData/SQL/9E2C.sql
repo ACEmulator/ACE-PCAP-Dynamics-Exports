@@ -5,15 +5,15 @@ VALUES (0x79E2C001,  1154, 0x9E2C0007, 23.2516, 148.2405, 116.4668, 0.7071068, 0
 /* @teleloc 0x9E2C0007 [23.251600 148.240500 116.466800] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E2C001, 0x79E2C002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79E2C001, 0x79E2C003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x79E2C001, 0x79E2C004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x79E2C001, 0x79E2C005, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x79E2C001, 0x79E2C006, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x79E2C001, 0x79E2C007, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x79E2C001, 0x79E2C008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79E2C001, 0x79E2C009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x79E2C001, 0x79E2C00A, '2019-02-10 00:00:00') /* Altered Drudge */;
+VALUES (0x79E2C001, 0x79E2C002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79E2C001, 0x79E2C003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x79E2C001, 0x79E2C004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79E2C001, 0x79E2C005, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x79E2C001, 0x79E2C006, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x79E2C001, 0x79E2C007, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x79E2C001, 0x79E2C008, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x79E2C001, 0x79E2C009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x79E2C001, 0x79E2C00A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E2C002,  1758, 0x9E2C0007, 23.2516, 148.2405, 116.4668, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

@@ -5,11 +5,11 @@ VALUES (0x74592001,  1154, 0x45920023, 114.6344, 70.98719, 24.11806, -0.5402936,
 /* @teleloc 0x45920023 [114.634400 70.987190 24.118060] -0.540294 0.000000 0.000000 -0.841477 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74592001, 0x74592002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74592001, 0x74592003, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x74592001, 0x74592004, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x74592001, 0x74592005, '2019-02-10 00:00:00') /* Dark Magus */
-     , (0x74592001, 0x74592006, '2019-02-10 00:00:00') /* Dark Magus */;
+VALUES (0x74592001, 0x74592002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74592001, 0x74592003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x74592001, 0x74592004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x74592001, 0x74592005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74592001, 0x74592006, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74592002,  9253, 0x45920023, 114.6344, 70.98719, 24.11806, -0.5402936, 0, 0, -0.8414766,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -36,8 +36,8 @@ VALUES (0x74592007,  1542, 0x45920025, 106.5311, 119.8488, 35.47257, 0.9996445, 
 /* @teleloc 0x45920025 [106.531100 119.848800 35.472570] 0.999645 0.000000 0.000000 -0.026664 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74592007, 0x74592008, '2019-02-10 00:00:00') /* Berimphur Plant */
-     , (0x74592007, 0x74592009, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x74592007, 0x74592008, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x74592007, 0x74592009, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74592008,  8041, 0x45920025, 106.5311, 119.8488, 35.47257, 0.9996445, 0, 0, -0.02666374,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */

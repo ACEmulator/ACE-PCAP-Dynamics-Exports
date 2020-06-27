@@ -5,14 +5,14 @@ VALUES (0x7B522001,  1154, 0xB522000D, 39.05653, 112.4562, 256.7982, 0.2286339, 
 /* @teleloc 0xB522000D [39.056530 112.456200 256.798200] 0.228634 0.000000 0.000000 -0.973513 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B522001, 0x7B522002, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7B522001, 0x7B522003, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B522001, 0x7B522004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B522001, 0x7B522005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */
-     , (0x7B522001, 0x7B522006, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B522001, 0x7B522007, '2019-02-10 00:00:00') /* Tundra Mattekar */
-     , (0x7B522001, 0x7B522008, '2019-02-10 00:00:00') /* Dire Mattekar */
-     , (0x7B522001, 0x7B522009, '2019-02-10 00:00:00') /* Hoary Armoredillo */;
+VALUES (0x7B522001, 0x7B522002, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7B522001, 0x7B522003, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B522001, 0x7B522004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B522001, 0x7B522005, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7B522001, 0x7B522006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B522001, 0x7B522007, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
+     , (0x7B522001, 0x7B522008, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7B522001, 0x7B522009, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B522002,  8141, 0xB522000D, 39.05653, 112.4562, 256.7982, 0.2286339, 0, 0, -0.9735125,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -51,7 +51,7 @@ VALUES (0x7B52200A,  1542, 0xB5220025, 119.1746, 107.1922, 280.9956, -0.8651353,
 /* @teleloc 0xB5220025 [119.174600 107.192200 280.995600] -0.865135 0.000000 0.000000 -0.501539 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B52200A, 0x7B52200B, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7B52200A, 0x7B52200B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B52200B,  8644, 0xB5220025, 119.1746, 107.1922, 280.9956, -0.8651353, 0, 0, -0.5015385,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

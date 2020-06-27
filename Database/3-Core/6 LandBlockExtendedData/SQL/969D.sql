@@ -5,14 +5,14 @@ VALUES (0x7969D001,  1154, 0x969D0032, 145.4, 26.85325, 28.35294, -0.4203192, 0,
 /* @teleloc 0x969D0032 [145.400000 26.853250 28.352940] -0.420319 0.000000 0.000000 -0.907376 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7969D001, 0x7969D002, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7969D001, 0x7969D003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7969D001, 0x7969D004, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7969D001, 0x7969D005, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7969D001, 0x7969D006, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7969D001, 0x7969D007, '2019-02-10 00:00:00') /* Rough Monouga */
-     , (0x7969D001, 0x7969D008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7969D001, 0x7969D009, '2019-02-10 00:00:00') /* Goldenback Tusker */;
+VALUES (0x7969D001, 0x7969D002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7969D001, 0x7969D003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7969D001, 0x7969D004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7969D001, 0x7969D005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7969D001, 0x7969D006, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7969D001, 0x7969D007, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7969D001, 0x7969D008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7969D001, 0x7969D009, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7969D002,  7978, 0x969D0032, 145.4, 26.85325, 28.35294, -0.4203192, 0, 0, -0.9073763,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -51,7 +51,7 @@ VALUES (0x7969D00A,  1542, 0x969D0037, 166.4944, 162.0088, 38.51836, 0.9990482, 
 /* @teleloc 0x969D0037 [166.494400 162.008800 38.518360] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7969D00A, 0x7969D00B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7969D00A, 0x7969D00B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7969D00B,  4179, 0x969D0037, 166.4944, 162.0088, 38.51836, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

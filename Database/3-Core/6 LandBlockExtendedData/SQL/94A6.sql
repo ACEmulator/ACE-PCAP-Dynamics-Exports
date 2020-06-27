@@ -13,30 +13,30 @@ VALUES (0x794A601D,  1154, 0x94A60018, 61.2493, 182.7547, 61.205, 0.384599, 0, 0
 /* @teleloc 0x94A60018 [61.249300 182.754700 61.205000] 0.384599 0.000000 0.000000 -0.923084 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794A601D, 0x794A601E, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A601F, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6020, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6021, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6022, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6023, '2019-02-10 00:00:00') /* Banderling Breeder */
-     , (0x794A601D, 0x794A6024, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6025, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6026, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6027, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6028, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A6029, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x794A601D, 0x794A602A, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A602B, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A602C, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x794A601D, 0x794A602D, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x794A601D, 0x794A602E, '2019-02-10 00:00:00') /* Shadow */
-     , (0x794A601D, 0x794A602F, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x794A601D, 0x794A6030, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x794A601D, 0x794A6031, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x794A601D, 0x794A6032, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x794A601D, 0x794A6033, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x794A601D, 0x794A6034, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x794A601D, 0x794A6035, '2019-02-10 00:00:00') /* Nasty Scarecrow */;
+VALUES (0x794A601D, 0x794A601E, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A601F, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6020, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6021, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6022, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6023, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x794A601D, 0x794A6024, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6025, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6026, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6027, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6028, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A6029, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x794A601D, 0x794A602A, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A602B, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A602C, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x794A601D, 0x794A602D, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x794A601D, 0x794A602E, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x794A601D, 0x794A602F, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x794A601D, 0x794A6030, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x794A601D, 0x794A6031, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x794A601D, 0x794A6032, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x794A601D, 0x794A6033, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x794A601D, 0x794A6034, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x794A601D, 0x794A6035, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794A601E,   183, 0x94A60018, 61.2493, 182.7547, 61.205, 0.384599, 0, 0, -0.923084,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -139,8 +139,8 @@ VALUES (0x794A6036,  1542, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0,
 /* @teleloc 0x94A6000A [33.642120 42.683870 59.246520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794A6036, 0x794A6037, '2019-02-10 00:00:00') /* Great Pumpkin */
-     , (0x794A6036, 0x794A6038, '2019-02-10 00:00:00') /* Pumpkin */;
+VALUES (0x794A6036, 0x794A6037, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x794A6036, 0x794A6038, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794A6037, 22247, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Great Pumpkin */

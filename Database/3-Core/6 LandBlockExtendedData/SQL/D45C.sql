@@ -21,12 +21,12 @@ VALUES (0x7D45C005,  1154, 0xD45C010B, 161.7608, 129.9128, 16.5084, 0.961595, 0,
 /* @teleloc 0xD45C010B [161.760800 129.912800 16.508400] 0.961595 0.000000 0.000000 0.274471 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D45C005, 0x7D45C006, '2019-02-10 00:00:00') /* White Rat */
-     , (0x7D45C005, 0x7D45C007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D45C005, 0x7D45C008, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D45C005, 0x7D45C009, '2019-02-10 00:00:00') /* White Rat */
-     , (0x7D45C005, 0x7D45C00A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7D45C005, 0x7D45C00B, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D45C005, 0x7D45C006, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x7D45C005, 0x7D45C007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D45C005, 0x7D45C008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D45C005, 0x7D45C009, '2019-02-10 00:00:00') /* White Rat (13) */
+     , (0x7D45C005, 0x7D45C00A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7D45C005, 0x7D45C00B, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D45C006,    13, 0xD45C010B, 161.7608, 129.9128, 16.5084, 0.961595, 0, 0, 0.274471,  True, '2019-02-10 00:00:00'); /* White Rat */

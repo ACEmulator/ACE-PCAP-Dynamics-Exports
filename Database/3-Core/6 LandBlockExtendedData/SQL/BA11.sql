@@ -5,28 +5,28 @@ VALUES (0x7BA11001,  1154, 0xBA110026, 117.448, 141.6539, 80.72196, 0.9063078, 0
 /* @teleloc 0xBA110026 [117.448000 141.653900 80.721960] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA11001, 0x7BA11002, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA11001, 0x7BA11003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA11001, 0x7BA11004, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7BA11001, 0x7BA11005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BA11001, 0x7BA11006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA11001, 0x7BA11007, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA11001, 0x7BA11008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA11001, 0x7BA11009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA11001, 0x7BA1100A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA11001, 0x7BA1100B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BA11001, 0x7BA1100C, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA11001, 0x7BA1100D, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA11001, 0x7BA1100E, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA11001, 0x7BA1100F, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA11001, 0x7BA11010, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA11001, 0x7BA11011, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA11001, 0x7BA11012, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA11001, 0x7BA11013, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA11001, 0x7BA11014, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA11001, 0x7BA11015, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA11001, 0x7BA11016, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA11001, 0x7BA11017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7BA11001, 0x7BA11002, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA11001, 0x7BA11003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA11001, 0x7BA11004, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7BA11001, 0x7BA11005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BA11001, 0x7BA11006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA11001, 0x7BA11007, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA11001, 0x7BA11008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA11001, 0x7BA11009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA11001, 0x7BA1100A, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7BA11001, 0x7BA1100B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BA11001, 0x7BA1100C, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA11001, 0x7BA1100D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA11001, 0x7BA1100E, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA11001, 0x7BA1100F, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA11001, 0x7BA11010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA11001, 0x7BA11011, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA11001, 0x7BA11012, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA11001, 0x7BA11013, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA11001, 0x7BA11014, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA11001, 0x7BA11015, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA11001, 0x7BA11016, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA11001, 0x7BA11017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA11002,  7084, 0xBA110026, 117.448, 141.6539, 80.72196, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -121,7 +121,7 @@ VALUES (0x7BA11018,  1542, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0,
 /* @teleloc 0xBA11002F [126.726100 158.209400 80.365160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA11018, 0x7BA11019, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BA11018, 0x7BA11019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA11019,  4179, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

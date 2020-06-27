@@ -5,28 +5,28 @@ VALUES (0x7A2B6001,  1154, 0xA2B60033, 160.1163, 70.41674, 67.87521, 0.7071068, 
 /* @teleloc 0xA2B60033 [160.116300 70.416740 67.875210] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A2B6001, 0x7A2B6002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B6001, 0x7A2B6003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7A2B6001, 0x7A2B6004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7A2B6001, 0x7A2B6005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7A2B6001, 0x7A2B6006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7A2B6001, 0x7A2B6007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7A2B6001, 0x7A2B6008, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B6001, 0x7A2B6009, '2019-02-10 00:00:00') /* Outcast Lord */
-     , (0x7A2B6001, 0x7A2B600A, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A2B6001, 0x7A2B600B, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7A2B6001, 0x7A2B600C, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7A2B6001, 0x7A2B600D, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7A2B6001, 0x7A2B600E, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7A2B6001, 0x7A2B600F, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A2B6001, 0x7A2B6010, '2019-02-10 00:00:00') /* Drudge Servant */
-     , (0x7A2B6001, 0x7A2B6011, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A2B6001, 0x7A2B6012, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7A2B6001, 0x7A2B6013, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B6001, 0x7A2B6014, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7A2B6001, 0x7A2B6015, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7A2B6001, 0x7A2B6016, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7A2B6001, 0x7A2B6017, '2019-02-10 00:00:00') /* Banderling Scout */;
+VALUES (0x7A2B6001, 0x7A2B6002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B6001, 0x7A2B6003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A2B6001, 0x7A2B6004, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7A2B6001, 0x7A2B6005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7A2B6001, 0x7A2B6006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7A2B6001, 0x7A2B6007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7A2B6001, 0x7A2B6008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B6001, 0x7A2B6009, '2019-02-10 00:00:00') /* Outcast Lord (12004) */
+     , (0x7A2B6001, 0x7A2B600A, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A2B6001, 0x7A2B600B, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7A2B6001, 0x7A2B600C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7A2B6001, 0x7A2B600D, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7A2B6001, 0x7A2B600E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7A2B6001, 0x7A2B600F, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A2B6001, 0x7A2B6010, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
+     , (0x7A2B6001, 0x7A2B6011, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A2B6001, 0x7A2B6012, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7A2B6001, 0x7A2B6013, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B6001, 0x7A2B6014, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7A2B6001, 0x7A2B6015, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7A2B6001, 0x7A2B6016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7A2B6001, 0x7A2B6017, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2B6002,     6, 0xA2B60033, 160.1163, 70.41674, 67.87521, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

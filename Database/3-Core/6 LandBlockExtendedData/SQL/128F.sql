@@ -5,28 +5,28 @@ VALUES (0x7128F001,  1154, 0x128F0016, 60.1311, 127.3304, 7.481736, 0.7358583, 0
 /* @teleloc 0x128F0016 [60.131100 127.330400 7.481736] 0.735858 0.000000 0.000000 -0.677136 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7128F001, 0x7128F002, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x7128F001, 0x7128F003, '2019-02-10 00:00:00') /* Maelstrom */
-     , (0x7128F001, 0x7128F004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7128F001, 0x7128F005, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7128F001, 0x7128F006, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7128F001, 0x7128F007, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7128F001, 0x7128F008, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7128F001, 0x7128F009, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7128F001, 0x7128F00A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7128F001, 0x7128F00B, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7128F001, 0x7128F00C, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7128F001, 0x7128F00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7128F001, 0x7128F00E, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7128F001, 0x7128F00F, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7128F001, 0x7128F010, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7128F001, 0x7128F011, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7128F001, 0x7128F012, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7128F001, 0x7128F013, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7128F001, 0x7128F014, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x7128F001, 0x7128F015, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7128F001, 0x7128F016, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7128F001, 0x7128F017, '2019-02-10 00:00:00') /* Tumerok War Monger */;
+VALUES (0x7128F001, 0x7128F002, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x7128F001, 0x7128F003, '2019-02-10 00:00:00') /* Maelstrom (14876) */
+     , (0x7128F001, 0x7128F004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7128F001, 0x7128F005, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7128F001, 0x7128F006, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7128F001, 0x7128F007, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7128F001, 0x7128F008, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7128F001, 0x7128F009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7128F001, 0x7128F00A, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7128F001, 0x7128F00B, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7128F001, 0x7128F00C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7128F001, 0x7128F00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7128F001, 0x7128F00E, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7128F001, 0x7128F00F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7128F001, 0x7128F010, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7128F001, 0x7128F011, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7128F001, 0x7128F012, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7128F001, 0x7128F013, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7128F001, 0x7128F014, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x7128F001, 0x7128F015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7128F001, 0x7128F016, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7128F001, 0x7128F017, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7128F002, 23091, 0x128F0016, 60.1311, 127.3304, 7.481736, 0.7358583, 0, 0, -0.6771356,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
@@ -121,8 +121,8 @@ VALUES (0x7128F018,  1542, 0x128F0009, 42.07655, 3.577417, -0.00999999, -0.50443
 /* @teleloc 0x128F0009 [42.076550 3.577417 -0.010000] -0.504435 0.000000 0.000000 -0.863450 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7128F018, 0x7128F019, '2019-02-10 00:00:00') /* Directive's Cache */
-     , (0x7128F018, 0x7128F01A, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7128F018, 0x7128F019, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
+     , (0x7128F018, 0x7128F01A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7128F019,  9286, 0x128F0009, 42.07655, 3.577417, -0.00999999, -0.5044354, 0, 0, -0.8634495,  True, '2019-02-10 00:00:00'); /* Directive's Cache */

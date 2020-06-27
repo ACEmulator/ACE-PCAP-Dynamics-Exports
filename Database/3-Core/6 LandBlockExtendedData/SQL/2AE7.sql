@@ -5,10 +5,10 @@ VALUES (0x72AE7001,  1154, 0x2AE70037, 144.7515, 165.3621, 0.257, -0.8317694, 0,
 /* @teleloc 0x2AE70037 [144.751500 165.362100 0.257000] -0.831769 0.000000 0.000000 -0.555121 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72AE7001, 0x72AE7002, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72AE7001, 0x72AE7003, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72AE7001, 0x72AE7004, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x72AE7001, 0x72AE7005, '2019-02-10 00:00:00') /* Dread Mu-miyah */;
+VALUES (0x72AE7001, 0x72AE7002, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72AE7001, 0x72AE7003, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AE7001, 0x72AE7004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x72AE7001, 0x72AE7005, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE7002, 22910, 0x2AE70037, 144.7515, 165.3621, 0.257, -0.8317694, 0, 0, -0.5551212,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */

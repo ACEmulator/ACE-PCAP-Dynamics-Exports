@@ -5,13 +5,13 @@ VALUES (0x7A7D8001,  1154, 0xA7D80001, 20.76103, 17.69089, 111.3254, 0.8870109, 
 /* @teleloc 0xA7D80001 [20.761030 17.690890 111.325400] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7D8001, 0x7A7D8002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A7D8001, 0x7A7D8003, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A7D8001, 0x7A7D8004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A7D8001, 0x7A7D8005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7A7D8001, 0x7A7D8006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7A7D8001, 0x7A7D8007, '2019-02-10 00:00:00') /* Static */
-     , (0x7A7D8001, 0x7A7D8008, '2019-02-10 00:00:00') /* Scintilla */;
+VALUES (0x7A7D8001, 0x7A7D8002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A7D8001, 0x7A7D8003, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A7D8001, 0x7A7D8004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A7D8001, 0x7A7D8005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7A7D8001, 0x7A7D8006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7A7D8001, 0x7A7D8007, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7A7D8001, 0x7A7D8008, '2019-02-10 00:00:00') /* Scintilla (6380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7D8002,  4254, 0xA7D80001, 20.76103, 17.69089, 111.3254, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

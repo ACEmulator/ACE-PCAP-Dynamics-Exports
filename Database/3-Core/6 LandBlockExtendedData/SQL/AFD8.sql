@@ -5,11 +5,11 @@ VALUES (0x7AFD8001,  1154, 0xAFD8003E, 168.4441, 122.1884, 20.02951, 0.7112221, 
 /* @teleloc 0xAFD8003E [168.444100 122.188400 20.029510] 0.711222 0.000000 0.000000 -0.702967 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AFD8001, 0x7AFD8002, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7AFD8001, 0x7AFD8003, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x7AFD8001, 0x7AFD8004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7AFD8001, 0x7AFD8005, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7AFD8001, 0x7AFD8006, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x7AFD8001, 0x7AFD8002, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7AFD8001, 0x7AFD8003, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7AFD8001, 0x7AFD8004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7AFD8001, 0x7AFD8005, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7AFD8001, 0x7AFD8006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFD8002, 24294, 0xAFD8003E, 168.4441, 122.1884, 20.02951, 0.7112221, 0, 0, -0.7029674,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */

@@ -5,13 +5,13 @@ VALUES (0x723B1001,  1154, 0x23B10015, 49.07632, 112.0366, 6.095193, 0.9973341, 
 /* @teleloc 0x23B10015 [49.076320 112.036600 6.095193] 0.997334 0.000000 0.000000 -0.072970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723B1001, 0x723B1002, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x723B1001, 0x723B1003, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x723B1001, 0x723B1004, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x723B1001, 0x723B1005, '2019-02-10 00:00:00') /* Tidal Siraluun */
-     , (0x723B1001, 0x723B1006, '2019-02-10 00:00:00') /* Hea Hunter */
-     , (0x723B1001, 0x723B1007, '2019-02-10 00:00:00') /* Hea Drumspeaker */
-     , (0x723B1001, 0x723B1008, '2019-02-10 00:00:00') /* Hea Drumspeaker */;
+VALUES (0x723B1001, 0x723B1002, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x723B1001, 0x723B1003, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x723B1001, 0x723B1004, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x723B1001, 0x723B1005, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x723B1001, 0x723B1006, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x723B1001, 0x723B1007, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */
+     , (0x723B1001, 0x723B1008, '2019-02-10 00:00:00') /* Hea Drumspeaker (11516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723B1002, 11516, 0x23B10015, 49.07632, 112.0366, 6.095193, 0.9973341, 0, 0, -0.07297019,  True, '2019-02-10 00:00:00'); /* Hea Drumspeaker */

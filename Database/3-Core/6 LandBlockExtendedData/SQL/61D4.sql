@@ -5,27 +5,27 @@ VALUES (0x761D4001,  1154, 0x61D4003C, 169.0534, 81.29443, 40.10098, 0.7071068, 
 /* @teleloc 0x61D4003C [169.053400 81.294430 40.100980] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761D4001, 0x761D4002, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D4003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D4004, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D4005, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x761D4001, 0x761D4006, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x761D4001, 0x761D4007, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x761D4001, 0x761D4008, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x761D4001, 0x761D4009, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x761D4001, 0x761D400A, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D400B, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D400C, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x761D4001, 0x761D400D, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x761D4001, 0x761D400E, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x761D4001, 0x761D400F, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x761D4001, 0x761D4010, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x761D4001, 0x761D4011, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x761D4001, 0x761D4012, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x761D4001, 0x761D4013, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x761D4001, 0x761D4014, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x761D4001, 0x761D4015, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x761D4001, 0x761D4016, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x761D4001, 0x761D4002, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D4003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D4004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D4005, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x761D4001, 0x761D4006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x761D4001, 0x761D4007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x761D4001, 0x761D4008, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x761D4001, 0x761D4009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x761D4001, 0x761D400A, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D400B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D400C, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x761D4001, 0x761D400D, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x761D4001, 0x761D400E, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x761D4001, 0x761D400F, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x761D4001, 0x761D4010, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x761D4001, 0x761D4011, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x761D4001, 0x761D4012, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x761D4001, 0x761D4013, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x761D4001, 0x761D4014, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x761D4001, 0x761D4015, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x761D4001, 0x761D4016, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761D4002,  7184, 0x61D4003C, 169.0534, 81.29443, 40.10098, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -116,7 +116,7 @@ VALUES (0x761D4017,  1542, 0x61D40034, 165.8578, 83.66957, 39.82149, 1, 0, 0, 0,
 /* @teleloc 0x61D40034 [165.857800 83.669570 39.821490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761D4017, 0x761D4018, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x761D4017, 0x761D4018, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761D4018, 22566, 0x61D40034, 165.8578, 83.66957, 39.82149, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

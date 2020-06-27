@@ -5,17 +5,17 @@ VALUES (0x73A8E001,  1154, 0x3A8E0020, 92.74444, 173.1457, 44.90589, 0.9969964, 
 /* @teleloc 0x3A8E0020 [92.744440 173.145700 44.905890] 0.996996 0.000000 0.000000 -0.077448 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A8E001, 0x73A8E002, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x73A8E001, 0x73A8E003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73A8E001, 0x73A8E004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x73A8E001, 0x73A8E005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73A8E001, 0x73A8E006, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73A8E001, 0x73A8E007, '2019-02-10 00:00:00') /* Gelid */
-     , (0x73A8E001, 0x73A8E008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx */
-     , (0x73A8E001, 0x73A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x73A8E001, 0x73A8E00A, '2019-02-10 00:00:00') /* Horripal */
-     , (0x73A8E001, 0x73A8E00B, '2019-02-10 00:00:00') /* Frost */
-     , (0x73A8E001, 0x73A8E00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem */;
+VALUES (0x73A8E001, 0x73A8E002, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x73A8E001, 0x73A8E003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73A8E001, 0x73A8E004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x73A8E001, 0x73A8E005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73A8E001, 0x73A8E006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73A8E001, 0x73A8E007, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x73A8E001, 0x73A8E008, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x73A8E001, 0x73A8E009, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x73A8E001, 0x73A8E00A, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x73A8E001, 0x73A8E00B, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x73A8E001, 0x73A8E00C, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A8E002, 24283, 0x3A8E0020, 92.74444, 173.1457, 44.90589, 0.9969964, 0, 0, -0.07744759,  True, '2019-02-10 00:00:00'); /* Drudge Sage */

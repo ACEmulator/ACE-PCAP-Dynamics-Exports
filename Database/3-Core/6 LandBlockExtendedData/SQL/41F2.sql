@@ -5,28 +5,28 @@ VALUES (0x741F2001,  1154, 0x41F20006, 2.692963, 130.1086, 5.675698, -0.6206918,
 /* @teleloc 0x41F20006 [2.692963 130.108600 5.675698] -0.620692 0.000000 0.000000 -0.784055 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741F2001, 0x741F2002, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x741F2001, 0x741F2003, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x741F2001, 0x741F2004, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741F2001, 0x741F2005, '2019-02-10 00:00:00') /* Spectral Wisp */
-     , (0x741F2001, 0x741F2006, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x741F2001, 0x741F2007, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x741F2001, 0x741F2008, '2019-02-10 00:00:00') /* Skeletal Mate */
-     , (0x741F2001, 0x741F2009, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F2001, 0x741F200A, '2019-02-10 00:00:00') /* Ruschk Sadist */
-     , (0x741F2001, 0x741F200B, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F2001, 0x741F200C, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F2001, 0x741F200D, '2019-02-10 00:00:00') /* Ruschk Draktehn */
-     , (0x741F2001, 0x741F200E, '2019-02-10 00:00:00') /* Ravenous Eater */
-     , (0x741F2001, 0x741F200F, '2019-02-10 00:00:00') /* Ruschk Laktar */
-     , (0x741F2001, 0x741F2010, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x741F2001, 0x741F2011, '2019-02-10 00:00:00') /* Ruschk Kartak */
-     , (0x741F2001, 0x741F2012, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x741F2001, 0x741F2013, '2019-02-10 00:00:00') /* Maniacal Fiun */
-     , (0x741F2001, 0x741F2014, '2019-02-10 00:00:00') /* Abhorrent Eater */
-     , (0x741F2001, 0x741F2015, '2019-02-10 00:00:00') /* Repugnant Eater */
-     , (0x741F2001, 0x741F2016, '2019-02-10 00:00:00') /* Frenzied Fiun */
-     , (0x741F2001, 0x741F2017, '2019-02-10 00:00:00') /* Ruschk Draktehn */;
+VALUES (0x741F2001, 0x741F2002, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x741F2001, 0x741F2003, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x741F2001, 0x741F2004, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741F2001, 0x741F2005, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
+     , (0x741F2001, 0x741F2006, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x741F2001, 0x741F2007, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x741F2001, 0x741F2008, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x741F2001, 0x741F2009, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F2001, 0x741F200A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
+     , (0x741F2001, 0x741F200B, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F2001, 0x741F200C, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F2001, 0x741F200D, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x741F2001, 0x741F200E, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x741F2001, 0x741F200F, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x741F2001, 0x741F2010, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x741F2001, 0x741F2011, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x741F2001, 0x741F2012, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x741F2001, 0x741F2013, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
+     , (0x741F2001, 0x741F2014, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x741F2001, 0x741F2015, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x741F2001, 0x741F2016, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x741F2001, 0x741F2017, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741F2002, 29344, 0x41F20006, 2.692963, 130.1086, 5.675698, -0.6206918, 0, 0, -0.7840546,  True, '2019-02-10 00:00:00'); /* Ruschk Sadist */
@@ -121,7 +121,7 @@ VALUES (0x741F2018,  1542, 0x41F20024, 104.6308, 85.13115, 0, -0.928633, 0, 0, -
 /* @teleloc 0x41F20024 [104.630800 85.131150 0.000000] -0.928633 0.000000 0.000000 -0.371000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x741F2018, 0x741F2019, '2019-02-10 00:00:00') /* Snow Lily */;
+VALUES (0x741F2018, 0x741F2019, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x741F2019, 31032, 0x41F20024, 104.6308, 85.13115, 0, -0.928633, 0, 0, -0.3709995,  True, '2019-02-10 00:00:00'); /* Snow Lily */

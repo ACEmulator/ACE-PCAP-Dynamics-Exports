@@ -129,138 +129,138 @@ VALUES (0x7BA17034,  1154, 0xBA170039, 179.528, 13.12267, 164.3063, -0.9650867, 
 /* @teleloc 0xBA170039 [179.528000 13.122670 164.306300] -0.965087 0.000000 0.000000 -0.261931 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA17034, 0x7BA17035, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BA17034, 0x7BA17036, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17037, '2019-02-10 00:00:00') /* Banished Grievver */
-     , (0x7BA17034, 0x7BA17038, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BA17034, 0x7BA17039, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BA17034, 0x7BA1703A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BA17034, 0x7BA1703B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA1703C, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BA17034, 0x7BA1703D, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1703E, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1703F, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA17034, 0x7BA17040, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17041, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA17042, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA17043, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17044, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA17034, 0x7BA17045, '2019-02-10 00:00:00') /* Hoary Mattekar */
-     , (0x7BA17034, 0x7BA17046, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA17034, 0x7BA17047, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA17048, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BA17034, 0x7BA17049, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1704A, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BA17034, 0x7BA1704B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA1704C, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA1704D, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA1704E, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA1704F, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA17034, 0x7BA17050, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17051, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17052, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17053, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17054, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA17055, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA17034, 0x7BA17056, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA17057, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA17034, 0x7BA17058, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA17059, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7BA17034, 0x7BA1705A, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1705B, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA1705C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA17034, 0x7BA1705D, '2019-02-10 00:00:00') /* Lithos Raider */
-     , (0x7BA17034, 0x7BA1705E, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1705F, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BA17034, 0x7BA17060, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA17034, 0x7BA17061, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA17062, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA17063, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17064, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x7BA17034, 0x7BA17065, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BA17034, 0x7BA17066, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA17067, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BA17034, 0x7BA17068, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BA17034, 0x7BA17069, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BA17034, 0x7BA1706A, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BA17034, 0x7BA1706B, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA1706C, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BA17034, 0x7BA1706D, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BA17034, 0x7BA1706E, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BA17034, 0x7BA1706F, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA17070, '2019-02-10 00:00:00') /* K'nath D'Nob */
-     , (0x7BA17034, 0x7BA17071, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA17034, 0x7BA17072, '2019-02-10 00:00:00') /* Ebon Mattekar */
-     , (0x7BA17034, 0x7BA17073, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA17074, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA17075, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BA17034, 0x7BA17076, '2019-02-10 00:00:00') /* Lugian Warlord */
-     , (0x7BA17034, 0x7BA17077, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7BA17034, 0x7BA17078, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BA17034, 0x7BA17079, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7BA17034, 0x7BA1707A, '2019-02-10 00:00:00') /* Gotrok Gigas */
-     , (0x7BA17034, 0x7BA1707B, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7BA17034, 0x7BA1707C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA17034, 0x7BA1707D, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA17034, 0x7BA1707E, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x7BA17034, 0x7BA1707F, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x7BA17034, 0x7BA17080, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BA17034, 0x7BA17081, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17082, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA17083, '2019-02-10 00:00:00') /* Abominable Snowman */
-     , (0x7BA17034, 0x7BA17084, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA17085, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BA17034, 0x7BA17086, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17087, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17088, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA17034, 0x7BA17089, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA1708A, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7BA17034, 0x7BA1708B, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BA17034, 0x7BA1708C, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA17034, 0x7BA1708D, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA17034, 0x7BA1708E, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BA17034, 0x7BA1708F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA17090, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17091, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA17092, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA17093, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA17034, 0x7BA17094, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BA17034, 0x7BA17095, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA17096, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA17034, 0x7BA17097, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA17034, 0x7BA17098, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA17034, 0x7BA17099, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA17034, 0x7BA1709A, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BA17034, 0x7BA1709B, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA17034, 0x7BA1709C, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA17034, 0x7BA1709D, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA17034, 0x7BA1709E, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA17034, 0x7BA1709F, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x7BA17034, 0x7BA170A0, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7BA17034, 0x7BA170A1, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA170A2, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA170A3, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA17034, 0x7BA170A4, '2019-02-10 00:00:00') /* Oak Golem */
-     , (0x7BA17034, 0x7BA170A5, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7BA17034, 0x7BA170A6, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x7BA17034, 0x7BA170A7, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x7BA17034, 0x7BA170A8, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA170A9, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7BA17034, 0x7BA170AA, '2019-02-10 00:00:00') /* Blighted Dire Ursuin */
-     , (0x7BA17034, 0x7BA170AB, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7BA17034, 0x7BA170AC, '2019-02-10 00:00:00') /* K'nath T'aed */
-     , (0x7BA17034, 0x7BA170AD, '2019-02-10 00:00:00') /* K'nath N'gell */
-     , (0x7BA17034, 0x7BA170AE, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BA17034, 0x7BA170AF, '2019-02-10 00:00:00') /* K'nath N'osaj */
-     , (0x7BA17034, 0x7BA170B0, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BA17034, 0x7BA170B1, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA170B2, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7BA17034, 0x7BA170B3, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7BA17034, 0x7BA170B4, '2019-02-10 00:00:00') /* K'nath Z'bog */
-     , (0x7BA17034, 0x7BA170B5, '2019-02-10 00:00:00') /* K'nath S'tath */
-     , (0x7BA17034, 0x7BA170B6, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA17034, 0x7BA170B7, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7BA17034, 0x7BA170B8, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7BA17034, 0x7BA17035, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BA17034, 0x7BA17036, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17037, '2019-02-10 00:00:00') /* Banished Grievver (30900) */
+     , (0x7BA17034, 0x7BA17038, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BA17034, 0x7BA17039, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BA17034, 0x7BA1703A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BA17034, 0x7BA1703B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA1703C, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BA17034, 0x7BA1703D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1703E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1703F, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA17034, 0x7BA17040, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17041, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA17042, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA17043, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17044, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA17034, 0x7BA17045, '2019-02-10 00:00:00') /* Hoary Mattekar (5890) */
+     , (0x7BA17034, 0x7BA17046, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA17034, 0x7BA17047, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA17048, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BA17034, 0x7BA17049, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1704A, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BA17034, 0x7BA1704B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA1704C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA1704D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA17034, 0x7BA1704E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA17034, 0x7BA1704F, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA17034, 0x7BA17050, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17051, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17052, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17053, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17054, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA17055, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA17034, 0x7BA17056, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA17057, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA17034, 0x7BA17058, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA17059, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7BA17034, 0x7BA1705A, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1705B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA1705C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA17034, 0x7BA1705D, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7BA17034, 0x7BA1705E, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1705F, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BA17034, 0x7BA17060, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA17034, 0x7BA17061, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA17034, 0x7BA17062, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA17034, 0x7BA17063, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17064, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7BA17034, 0x7BA17065, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BA17034, 0x7BA17066, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA17067, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BA17034, 0x7BA17068, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BA17034, 0x7BA17069, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BA17034, 0x7BA1706A, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BA17034, 0x7BA1706B, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA1706C, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BA17034, 0x7BA1706D, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BA17034, 0x7BA1706E, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BA17034, 0x7BA1706F, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA17070, '2019-02-10 00:00:00') /* K'nath D'Nob (2572) */
+     , (0x7BA17034, 0x7BA17071, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA17034, 0x7BA17072, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7BA17034, 0x7BA17073, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x7BA17034, 0x7BA17074, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA17034, 0x7BA17075, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BA17034, 0x7BA17076, '2019-02-10 00:00:00') /* Lugian Warlord (11996) */
+     , (0x7BA17034, 0x7BA17077, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7BA17034, 0x7BA17078, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BA17034, 0x7BA17079, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7BA17034, 0x7BA1707A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7BA17034, 0x7BA1707B, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7BA17034, 0x7BA1707C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA17034, 0x7BA1707D, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA17034, 0x7BA1707E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x7BA17034, 0x7BA1707F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x7BA17034, 0x7BA17080, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BA17034, 0x7BA17081, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17082, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA17083, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */
+     , (0x7BA17034, 0x7BA17084, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA17085, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BA17034, 0x7BA17086, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17087, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17088, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA17034, 0x7BA17089, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA1708A, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7BA17034, 0x7BA1708B, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BA17034, 0x7BA1708C, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA17034, 0x7BA1708D, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA17034, 0x7BA1708E, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BA17034, 0x7BA1708F, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA17090, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17091, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA17034, 0x7BA17092, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA17093, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA17034, 0x7BA17094, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BA17034, 0x7BA17095, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA17096, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BA17034, 0x7BA17097, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BA17034, 0x7BA17098, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BA17034, 0x7BA17099, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BA17034, 0x7BA1709A, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BA17034, 0x7BA1709B, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA17034, 0x7BA1709C, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA17034, 0x7BA1709D, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA17034, 0x7BA1709E, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA17034, 0x7BA1709F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7BA17034, 0x7BA170A0, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7BA17034, 0x7BA170A1, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA170A2, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA170A3, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA17034, 0x7BA170A4, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BA17034, 0x7BA170A5, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7BA17034, 0x7BA170A6, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7BA17034, 0x7BA170A7, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x7BA17034, 0x7BA170A8, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA170A9, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7BA17034, 0x7BA170AA, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7BA17034, 0x7BA170AB, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7BA17034, 0x7BA170AC, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */
+     , (0x7BA17034, 0x7BA170AD, '2019-02-10 00:00:00') /* K'nath N'gell (2569) */
+     , (0x7BA17034, 0x7BA170AE, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BA17034, 0x7BA170AF, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
+     , (0x7BA17034, 0x7BA170B0, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA17034, 0x7BA170B1, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA170B2, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BA17034, 0x7BA170B3, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7BA17034, 0x7BA170B4, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
+     , (0x7BA17034, 0x7BA170B5, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7BA17034, 0x7BA170B6, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA17034, 0x7BA170B7, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7BA17034, 0x7BA170B8, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA17035,  8139, 0xBA170039, 179.528, 13.12267, 164.3063, -0.9650867, 0, 0, -0.2619307,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
@@ -795,14 +795,14 @@ VALUES (0x7BA170B9,  1154, 0xBA17011C, 88.9983, 84.2855, 136.805, 0.689521, 0, 0
 /* @teleloc 0xBA17011C [88.998300 84.285500 136.805000] 0.689521 0.000000 0.000000 0.724266 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA170B9, 0x7BA170BA, '2019-02-10 00:00:00') /* Esmond Fielding */
-     , (0x7BA170B9, 0x7BA170BB, '2019-02-10 00:00:00') /* Ansar El-Kerdany */
-     , (0x7BA170B9, 0x7BA170BC, '2019-02-10 00:00:00') /* Niccolo De Luca */
-     , (0x7BA170B9, 0x7BA170BD, '2019-02-10 00:00:00') /* Grularr Wa'ydo */
-     , (0x7BA170B9, 0x7BA170BE, '2019-02-10 00:00:00') /* Leather Crafter */
-     , (0x7BA170B9, 0x7BA170BF, '2019-02-10 00:00:00') /* Miko Li, Jojii Adherent */
-     , (0x7BA170B9, 0x7BA170C0, '2019-02-10 00:00:00') /* Journeyman Alchemist */
-     , (0x7BA170B9, 0x7BA170C1, '2019-02-10 00:00:00') /* Agent of the Arcanum */;
+VALUES (0x7BA170B9, 0x7BA170BA, '2019-02-10 00:00:00') /* Esmond Fielding (43030) */
+     , (0x7BA170B9, 0x7BA170BB, '2019-02-10 00:00:00') /* Ansar El-Kerdany (43028) */
+     , (0x7BA170B9, 0x7BA170BC, '2019-02-10 00:00:00') /* Niccolo De Luca (43029) */
+     , (0x7BA170B9, 0x7BA170BD, '2019-02-10 00:00:00') /* Grularr Wa'ydo (48777) */
+     , (0x7BA170B9, 0x7BA170BE, '2019-02-10 00:00:00') /* Leather Crafter (4214) */
+     , (0x7BA170B9, 0x7BA170BF, '2019-02-10 00:00:00') /* Miko Li, Jojii Adherent (25827) */
+     , (0x7BA170B9, 0x7BA170C0, '2019-02-10 00:00:00') /* Journeyman Alchemist (28919) */
+     , (0x7BA170B9, 0x7BA170C1, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA170BA, 43030, 0xBA17011C, 88.9983, 84.2855, 136.805, 0.689521, 0, 0, 0.724266,  True, '2019-02-10 00:00:00'); /* Esmond Fielding */
@@ -841,26 +841,26 @@ VALUES (0x7BA170C2,  1542, 0xBA170034, 162.2599, 73.60643, 135.0368, 1, 0, 0, 0,
 /* @teleloc 0xBA170034 [162.259900 73.606430 135.036800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA170C2, 0x7BA170C3, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BA170C2, 0x7BA170C4, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x7BA170C2, 0x7BA170C5, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7BA170C2, 0x7BA170C6, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle */
-     , (0x7BA170C2, 0x7BA170C7, '2019-02-10 00:00:00') /* Wandering Vendor Backback */
-     , (0x7BA170C2, 0x7BA170C8, '2019-02-10 00:00:00') /* Hasina's Alembic */
-     , (0x7BA170C2, 0x7BA170C9, '2019-02-10 00:00:00') /* Hasina bint Rira */
-     , (0x7BA170C2, 0x7BA170CA, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA170C2, 0x7BA170CB, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA170C2, 0x7BA170CC, '2019-02-10 00:00:00') /* Minalim Plant */
-     , (0x7BA170C2, 0x7BA170CD, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BA170C2, 0x7BA170CE, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7BA170C2, 0x7BA170CF, '2019-02-10 00:00:00') /* Humming Crystal Portal */
-     , (0x7BA170C2, 0x7BA170D0, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA170C2, 0x7BA170D1, '2019-02-10 00:00:00') /* Rock */
-     , (0x7BA170C2, 0x7BA170D2, '2019-02-10 00:00:00') /* Bones */
-     , (0x7BA170C2, 0x7BA170D3, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7BA170C2, 0x7BA170D4, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7BA170C2, 0x7BA170D5, '2019-02-10 00:00:00') /* Corpse */
-     , (0x7BA170C2, 0x7BA170D6, '2019-02-10 00:00:00') /* Rock */;
+VALUES (0x7BA170C2, 0x7BA170C3, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BA170C2, 0x7BA170C4, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x7BA170C2, 0x7BA170C5, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BA170C2, 0x7BA170C6, '2019-02-10 00:00:00') /* Hasina's Mortar and Pestle (9061) */
+     , (0x7BA170C2, 0x7BA170C7, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x7BA170C2, 0x7BA170C8, '2019-02-10 00:00:00') /* Hasina's Alembic (9016) */
+     , (0x7BA170C2, 0x7BA170C9, '2019-02-10 00:00:00') /* Hasina bint Rira (9018) */
+     , (0x7BA170C2, 0x7BA170CA, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BA170C2, 0x7BA170CB, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7BA170C2, 0x7BA170CC, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7BA170C2, 0x7BA170CD, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BA170C2, 0x7BA170CE, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7BA170C2, 0x7BA170CF, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7BA170C2, 0x7BA170D0, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7BA170C2, 0x7BA170D1, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7BA170C2, 0x7BA170D2, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7BA170C2, 0x7BA170D3, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7BA170C2, 0x7BA170D4, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7BA170C2, 0x7BA170D5, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BA170C2, 0x7BA170D6, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA170C3, 22571, 0xBA170034, 162.2599, 73.60643, 135.0368, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

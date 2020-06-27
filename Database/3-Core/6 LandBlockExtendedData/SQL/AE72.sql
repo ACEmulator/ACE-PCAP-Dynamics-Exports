@@ -5,10 +5,10 @@ VALUES (0x7AE72001,  1154, 0xAE720033, 148.2462, 48.69236, 24.0867, -0.9854982, 
 /* @teleloc 0xAE720033 [148.246200 48.692360 24.086700] -0.985498 0.000000 0.000000 -0.169686 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE72001, 0x7AE72002, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7AE72001, 0x7AE72003, '2019-02-10 00:00:00') /* Scrawed Grievver */
-     , (0x7AE72001, 0x7AE72004, '2019-02-10 00:00:00') /* Static */
-     , (0x7AE72001, 0x7AE72005, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7AE72001, 0x7AE72002, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7AE72001, 0x7AE72003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7AE72001, 0x7AE72004, '2019-02-10 00:00:00') /* Static (6382) */
+     , (0x7AE72001, 0x7AE72005, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE72002, 10767, 0xAE720033, 148.2462, 48.69236, 24.0867, -0.9854982, 0, 0, -0.1696859,  True, '2019-02-10 00:00:00'); /* Battered Doll */

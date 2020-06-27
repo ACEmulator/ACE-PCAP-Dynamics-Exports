@@ -5,10 +5,10 @@ VALUES (0x74248001,  1154, 0x42480006, 22.01, 127.2057, 18.24534, -4.371139E-08,
 /* @teleloc 0x42480006 [22.010000 127.205700 18.245340] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74248001, 0x74248002, '2019-02-10 00:00:00') /* True Believer */
-     , (0x74248001, 0x74248003, '2019-02-10 00:00:00') /* True Believer */
-     , (0x74248001, 0x74248004, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x74248001, 0x74248005, '2019-02-10 00:00:00') /* Desolation Moarsman */;
+VALUES (0x74248001, 0x74248002, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x74248001, 0x74248003, '2019-02-10 00:00:00') /* True Believer (27422) */
+     , (0x74248001, 0x74248004, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74248001, 0x74248005, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74248002, 27422, 0x42480006, 22.01, 127.2057, 18.24534, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* True Believer */
@@ -31,7 +31,7 @@ VALUES (0x74248006,  1542, 0x4248000D, 24.20057, 102.1673, 19.48606, 0.9990482, 
 /* @teleloc 0x4248000D [24.200570 102.167300 19.486060] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74248006, 0x74248007, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74248006, 0x74248007, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74248007,  4179, 0x4248000D, 24.20057, 102.1673, 19.48606, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

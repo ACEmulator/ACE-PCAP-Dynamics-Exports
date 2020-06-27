@@ -5,12 +5,12 @@ VALUES (0x742CA001,  1154, 0x42CA001C, 77.93087, 92.83366, 18.25938, -0.4782161,
 /* @teleloc 0x42CA001C [77.930870 92.833660 18.259380] -0.478216 0.000000 0.000000 -0.878242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742CA001, 0x742CA002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x742CA001, 0x742CA003, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x742CA001, 0x742CA004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain */
-     , (0x742CA001, 0x742CA005, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x742CA001, 0x742CA006, '2019-02-10 00:00:00') /* Shroud Cabal Raider */
-     , (0x742CA001, 0x742CA007, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x742CA001, 0x742CA002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x742CA001, 0x742CA003, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x742CA001, 0x742CA004, '2019-02-10 00:00:00') /* Shroud Cabal Raider Captain (37099) */
+     , (0x742CA001, 0x742CA005, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x742CA001, 0x742CA006, '2019-02-10 00:00:00') /* Shroud Cabal Raider (37098) */
+     , (0x742CA001, 0x742CA007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742CA002,  7340, 0x42CA001C, 77.93087, 92.83366, 18.25938, -0.4782161, 0, 0, -0.8782422,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -41,7 +41,7 @@ VALUES (0x742CA008,  1542, 0x42CA0040, 176.0878, 177.5622, 29.87713, 1, 0, 0, 0,
 /* @teleloc 0x42CA0040 [176.087800 177.562200 29.877130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x742CA008, 0x742CA009, '2019-02-10 00:00:00') /* Steel Chest */;
+VALUES (0x742CA008, 0x742CA009, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742CA009,  8999, 0x42CA0040, 176.0878, 177.5622, 29.87713, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */

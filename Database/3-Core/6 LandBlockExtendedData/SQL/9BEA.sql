@@ -5,12 +5,12 @@ VALUES (0x79BEA001,  1154, 0x9BEA002F, 126.8033, 153.4162, 110.576, 0.05865051, 
 /* @teleloc 0x9BEA002F [126.803300 153.416200 110.576000] 0.058651 0.000000 0.000000 -0.998279 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEA001, 0x79BEA002, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79BEA001, 0x79BEA003, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79BEA001, 0x79BEA004, '2019-02-10 00:00:00') /* Cruel Monouga */
-     , (0x79BEA001, 0x79BEA005, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79BEA001, 0x79BEA006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x79BEA001, 0x79BEA007, '2019-02-10 00:00:00') /* Gotrok Tiatus */;
+VALUES (0x79BEA001, 0x79BEA002, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79BEA001, 0x79BEA003, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79BEA001, 0x79BEA004, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x79BEA001, 0x79BEA005, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79BEA001, 0x79BEA006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x79BEA001, 0x79BEA007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEA002,   212, 0x9BEA002F, 126.8033, 153.4162, 110.576, 0.05865051, 0, 0, -0.9982786,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
@@ -41,8 +41,8 @@ VALUES (0x79BEA008,  1542, 0x9BEA001E, 78.34211, 138.4671, 97.93462, -0.2604715,
 /* @teleloc 0x9BEA001E [78.342110 138.467100 97.934620] -0.260472 0.000000 0.000000 -0.965482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEA008, 0x79BEA009, '2019-02-10 00:00:00') /* Rock */
-     , (0x79BEA008, 0x79BEA00A, '2019-02-10 00:00:00') /* Snowflower */;
+VALUES (0x79BEA008, 0x79BEA009, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x79BEA008, 0x79BEA00A, '2019-02-10 00:00:00') /* Snowflower (22837) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEA009, 42528, 0x9BEA001E, 78.34211, 138.4671, 97.93462, -0.2604715, 0, 0, -0.9654815,  True, '2019-02-10 00:00:00'); /* Rock */

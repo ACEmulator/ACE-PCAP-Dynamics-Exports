@@ -5,10 +5,10 @@ VALUES (0x79A72001,  1154, 0x9A72000E, 34.95807, 142.7448, 28.1121, -0.7919586, 
 /* @teleloc 0x9A72000E [34.958070 142.744800 28.112100] -0.791959 0.000000 0.000000 -0.610575 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A72001, 0x79A72002, '2019-02-10 00:00:00') /* Undead */
-     , (0x79A72001, 0x79A72003, '2019-02-10 00:00:00') /* Seared Skeleton */
-     , (0x79A72001, 0x79A72004, '2019-02-10 00:00:00') /* Snowman */
-     , (0x79A72001, 0x79A72005, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x79A72001, 0x79A72002, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79A72001, 0x79A72003, '2019-02-10 00:00:00') /* Seared Skeleton (5683) */
+     , (0x79A72001, 0x79A72004, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x79A72001, 0x79A72005, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A72002,    16, 0x9A72000E, 34.95807, 142.7448, 28.1121, -0.7919586, 0, 0, -0.6105747,  True, '2019-02-10 00:00:00'); /* Undead */

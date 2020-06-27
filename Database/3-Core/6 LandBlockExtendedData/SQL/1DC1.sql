@@ -9,58 +9,58 @@ VALUES (0x71DC1001,  1154, 0x1DC1002C, 137.5716, 80.74583, 74.5647, 1, 0, 0, 0, 
 /* @teleloc 0x1DC1002C [137.571600 80.745830 74.564700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC1001, 0x71DC1002, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71DC1001, 0x71DC1003, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC1001, 0x71DC1004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC1001, 0x71DC1005, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC1006, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC1007, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC1008, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC1009, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC100A, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC100B, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC100C, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC100D, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC100E, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71DC1001, 0x71DC100F, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71DC1001, 0x71DC1010, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71DC1001, 0x71DC1011, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71DC1001, 0x71DC1012, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71DC1001, 0x71DC1013, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71DC1001, 0x71DC1014, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x71DC1001, 0x71DC1015, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71DC1001, 0x71DC1016, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x71DC1001, 0x71DC1017, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1018, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1019, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC101A, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC101B, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC101C, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC101D, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC1001, 0x71DC101E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC1001, 0x71DC101F, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1020, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1021, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71DC1001, 0x71DC1022, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1023, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1024, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71DC1001, 0x71DC1025, '2019-02-10 00:00:00') /* Plated Tusker */
-     , (0x71DC1001, 0x71DC1026, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC1027, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC1028, '2019-02-10 00:00:00') /* Brass Gromnie */
-     , (0x71DC1001, 0x71DC1029, '2019-02-10 00:00:00') /* Hea Elder Shaman */
-     , (0x71DC1001, 0x71DC102A, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC1001, 0x71DC102B, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC1001, 0x71DC102C, '2019-02-10 00:00:00') /* Carnivorous Carenzi */
-     , (0x71DC1001, 0x71DC102D, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x71DC1001, 0x71DC102E, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x71DC1001, 0x71DC102F, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1030, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1031, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1032, '2019-02-10 00:00:00') /* Zharalim */
-     , (0x71DC1001, 0x71DC1033, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC1034, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71DC1001, 0x71DC1035, '2019-02-10 00:00:00') /* Aun Elder Shaman */;
+VALUES (0x71DC1001, 0x71DC1002, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71DC1001, 0x71DC1003, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC1001, 0x71DC1004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC1001, 0x71DC1005, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC1006, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC1007, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC1008, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC1009, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC100A, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC100B, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC100C, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC100D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC100E, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71DC1001, 0x71DC100F, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71DC1001, 0x71DC1010, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71DC1001, 0x71DC1011, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71DC1001, 0x71DC1012, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC1001, 0x71DC1013, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC1001, 0x71DC1014, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC1001, 0x71DC1015, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71DC1001, 0x71DC1016, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x71DC1001, 0x71DC1017, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC1018, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC1019, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC101A, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC101B, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC101C, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC101D, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC1001, 0x71DC101E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC1001, 0x71DC101F, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC1020, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC1021, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DC1001, 0x71DC1022, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC1023, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC1024, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71DC1001, 0x71DC1025, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
+     , (0x71DC1001, 0x71DC1026, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC1027, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC1028, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x71DC1001, 0x71DC1029, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DC1001, 0x71DC102A, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC1001, 0x71DC102B, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC1001, 0x71DC102C, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
+     , (0x71DC1001, 0x71DC102D, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71DC1001, 0x71DC102E, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71DC1001, 0x71DC102F, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC1030, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC1031, '2019-02-10 00:00:00') /* Zharalim (11506) */
+     , (0x71DC1001, 0x71DC1032, '2019-02-10 00:00:00') /* Zharalim (12186) */
+     , (0x71DC1001, 0x71DC1033, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC1034, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71DC1001, 0x71DC1035, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC1002, 10954, 0x1DC1002C, 137.5716, 80.74583, 74.5647, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -275,23 +275,23 @@ VALUES (0x71DC1036,  1542, 0x1DC10022, 104.8983, 30.79118, 75.937, 1, 0, 0, 0, F
 /* @teleloc 0x1DC10022 [104.898300 30.791180 75.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71DC1036, 0x71DC1037, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x71DC1036, 0x71DC1038, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x71DC1036, 0x71DC1039, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC1036, 0x71DC103A, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71DC1036, 0x71DC103B, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x71DC1036, 0x71DC103C, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC1036, 0x71DC103D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71DC1036, 0x71DC103E, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x71DC1036, 0x71DC103F, '2019-02-10 00:00:00') /* New Hive Portal */
-     , (0x71DC1036, 0x71DC1040, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC1036, 0x71DC1041, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71DC1036, 0x71DC1042, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator */
-     , (0x71DC1036, 0x71DC1043, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC1036, 0x71DC1044, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71DC1036, 0x71DC1045, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x71DC1036, 0x71DC1046, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x71DC1036, 0x71DC1047, '2019-02-10 00:00:00') /* Shallow Hive Portal */;
+VALUES (0x71DC1036, 0x71DC1037, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71DC1036, 0x71DC1038, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x71DC1036, 0x71DC1039, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC1036, 0x71DC103A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71DC1036, 0x71DC103B, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x71DC1036, 0x71DC103C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC1036, 0x71DC103D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71DC1036, 0x71DC103E, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x71DC1036, 0x71DC103F, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
+     , (0x71DC1036, 0x71DC1040, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC1036, 0x71DC1041, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71DC1036, 0x71DC1042, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71DC1036, 0x71DC1043, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC1036, 0x71DC1044, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71DC1036, 0x71DC1045, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71DC1036, 0x71DC1046, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71DC1036, 0x71DC1047, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC1037, 11225, 0x1DC10022, 104.8983, 30.79118, 75.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

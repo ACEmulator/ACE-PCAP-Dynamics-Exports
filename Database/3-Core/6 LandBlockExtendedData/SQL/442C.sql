@@ -5,11 +5,11 @@ VALUES (0x7442C001,  1154, 0x442C0034, 165.1614, 89.68913, 4.762456, 0.7248038, 
 /* @teleloc 0x442C0034 [165.161400 89.689130 4.762456] 0.724804 0.000000 0.000000 -0.688955 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7442C001, 0x7442C002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7442C001, 0x7442C003, '2019-02-10 00:00:00') /* Insidious Monouga */
-     , (0x7442C001, 0x7442C004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7442C001, 0x7442C005, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x7442C001, 0x7442C006, '2019-02-10 00:00:00') /* Tenebrous Shadow */;
+VALUES (0x7442C001, 0x7442C002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7442C001, 0x7442C003, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7442C001, 0x7442C004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7442C001, 0x7442C005, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7442C001, 0x7442C006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7442C002, 23616, 0x442C0034, 165.1614, 89.68913, 4.762456, 0.7248038, 0, 0, -0.6889553,  True, '2019-02-10 00:00:00'); /* Crystal Shard */

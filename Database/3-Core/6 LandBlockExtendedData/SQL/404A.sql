@@ -5,20 +5,20 @@ VALUES (0x7404A001,  1154, 0x404A000D, 39.10524, 105.4979, 18.59818, 0.3734014, 
 /* @teleloc 0x404A000D [39.105240 105.497900 18.598180] 0.373401 0.000000 0.000000 -0.927670 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7404A001, 0x7404A002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7404A001, 0x7404A003, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x7404A001, 0x7404A004, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7404A001, 0x7404A005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7404A001, 0x7404A006, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x7404A001, 0x7404A007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord */
-     , (0x7404A001, 0x7404A008, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7404A001, 0x7404A009, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x7404A001, 0x7404A00A, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x7404A001, 0x7404A00B, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x7404A001, 0x7404A00C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7404A001, 0x7404A00D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x7404A001, 0x7404A00E, '2019-02-10 00:00:00') /* Coral Golem Viceroy */
-     , (0x7404A001, 0x7404A00F, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x7404A001, 0x7404A002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7404A001, 0x7404A003, '2019-02-10 00:00:00') /* Coral Golem (36828) */
+     , (0x7404A001, 0x7404A004, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7404A001, 0x7404A005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7404A001, 0x7404A006, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7404A001, 0x7404A007, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x7404A001, 0x7404A008, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7404A001, 0x7404A009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x7404A001, 0x7404A00A, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x7404A001, 0x7404A00B, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x7404A001, 0x7404A00C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7404A001, 0x7404A00D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x7404A001, 0x7404A00E, '2019-02-10 00:00:00') /* Coral Golem Viceroy (27564) */
+     , (0x7404A001, 0x7404A00F, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7404A002, 23616, 0x404A000D, 39.10524, 105.4979, 18.59818, 0.3734014, 0, 0, -0.9276699,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -81,7 +81,7 @@ VALUES (0x7404A010,  1542, 0x404A0032, 157.7142, 27.91038, 9.897839, 1, 0, 0, 0,
 /* @teleloc 0x404A0032 [157.714200 27.910380 9.897839] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7404A010, 0x7404A011, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7404A010, 0x7404A011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7404A011, 31445, 0x404A0032, 157.7142, 27.91038, 9.897839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

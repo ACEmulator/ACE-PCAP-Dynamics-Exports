@@ -5,13 +5,13 @@ VALUES (0x79C5D001,  1154, 0x9C5D001F, 88.30531, 144.7606, 20.09, 0.7071068, 0, 
 /* @teleloc 0x9C5D001F [88.305310 144.760600 20.090000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C5D001, 0x79C5D002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79C5D001, 0x79C5D003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x79C5D001, 0x79C5D004, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x79C5D001, 0x79C5D005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79C5D001, 0x79C5D006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79C5D001, 0x79C5D007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x79C5D001, 0x79C5D008, '2019-02-10 00:00:00') /* Innocent Doll */;
+VALUES (0x79C5D001, 0x79C5D002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79C5D001, 0x79C5D003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x79C5D001, 0x79C5D004, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x79C5D001, 0x79C5D005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79C5D001, 0x79C5D006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79C5D001, 0x79C5D007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79C5D001, 0x79C5D008, '2019-02-10 00:00:00') /* Innocent Doll (9242) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C5D002,  1758, 0x9C5D001F, 88.30531, 144.7606, 20.09, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */

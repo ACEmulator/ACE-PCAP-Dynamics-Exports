@@ -5,10 +5,10 @@ VALUES (0x76796001,  1154, 0x67960038, 145.0718, 184.1023, 35.83585, 0.7071068, 
 /* @teleloc 0x67960038 [145.071800 184.102300 35.835850] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76796001, 0x76796002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x76796001, 0x76796003, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x76796001, 0x76796004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x76796001, 0x76796005, '2019-02-10 00:00:00') /* Umbris Shadow */;
+VALUES (0x76796001, 0x76796002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x76796001, 0x76796003, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x76796001, 0x76796004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x76796001, 0x76796005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76796002,  4253, 0x67960038, 145.0718, 184.1023, 35.83585, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */

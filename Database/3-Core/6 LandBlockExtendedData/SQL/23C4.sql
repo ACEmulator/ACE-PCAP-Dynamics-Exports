@@ -5,16 +5,16 @@ VALUES (0x723C4001,  1154, 0x23C40032, 161.2257, 42.25106, 39.08492, 0.9961947, 
 /* @teleloc 0x23C40032 [161.225700 42.251060 39.084920] 0.996195 0.000000 0.000000 -0.087156 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x723C4001, 0x723C4002, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x723C4001, 0x723C4003, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x723C4001, 0x723C4004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723C4001, 0x723C4005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x723C4001, 0x723C4006, '2019-02-10 00:00:00') /* Hea Champion */
-     , (0x723C4001, 0x723C4007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x723C4001, 0x723C4008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C4001, 0x723C4009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C4001, 0x723C400A, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x723C4001, 0x723C400B, '2019-02-10 00:00:00') /* Savage Carenzi */;
+VALUES (0x723C4001, 0x723C4002, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x723C4001, 0x723C4003, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x723C4001, 0x723C4004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723C4001, 0x723C4005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x723C4001, 0x723C4006, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x723C4001, 0x723C4007, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x723C4001, 0x723C4008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C4001, 0x723C4009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C4001, 0x723C400A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x723C4001, 0x723C400B, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723C4002, 27717, 0x23C40032, 161.2257, 42.25106, 39.08492, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */

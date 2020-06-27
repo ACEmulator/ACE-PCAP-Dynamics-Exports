@@ -5,49 +5,49 @@ VALUES (0x72E2D001,  1154, 0x2E2D0020, 85.61471, 175.6701, 31.44791, -0.9995909,
 /* @teleloc 0x2E2D0020 [85.614710 175.670100 31.447910] -0.999591 0.000000 0.000000 -0.028601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E2D001, 0x72E2D002, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x72E2D001, 0x72E2D003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D004, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x72E2D001, 0x72E2D005, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x72E2D001, 0x72E2D006, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E2D001, 0x72E2D007, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E2D001, 0x72E2D008, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72E2D001, 0x72E2D009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E2D001, 0x72E2D00A, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x72E2D001, 0x72E2D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2D001, 0x72E2D00C, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2D001, 0x72E2D00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72E2D001, 0x72E2D00E, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E2D001, 0x72E2D00F, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D010, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D011, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D012, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x72E2D001, 0x72E2D013, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x72E2D001, 0x72E2D014, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72E2D001, 0x72E2D015, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72E2D001, 0x72E2D016, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D017, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D018, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x72E2D001, 0x72E2D019, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2D001, 0x72E2D01A, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D01B, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72E2D001, 0x72E2D01C, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x72E2D001, 0x72E2D01D, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x72E2D001, 0x72E2D01E, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x72E2D001, 0x72E2D01F, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x72E2D001, 0x72E2D020, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72E2D001, 0x72E2D021, '2019-02-10 00:00:00') /* Shadow Wraith */
-     , (0x72E2D001, 0x72E2D022, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D023, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72E2D001, 0x72E2D024, '2019-02-10 00:00:00') /* Nightmare Wisp */
-     , (0x72E2D001, 0x72E2D025, '2019-02-10 00:00:00') /* Ascendant Drudge */
-     , (0x72E2D001, 0x72E2D026, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x72E2D001, 0x72E2D027, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x72E2D001, 0x72E2D028, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2D001, 0x72E2D029, '2019-02-10 00:00:00') /* Assailer */
-     , (0x72E2D001, 0x72E2D02A, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72E2D001, 0x72E2D02B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x72E2D001, 0x72E2D02C, '2019-02-10 00:00:00') /* Virindi Desecrator */;
+VALUES (0x72E2D001, 0x72E2D002, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x72E2D001, 0x72E2D003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D004, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x72E2D001, 0x72E2D005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x72E2D001, 0x72E2D006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E2D001, 0x72E2D007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E2D001, 0x72E2D008, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72E2D001, 0x72E2D009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E2D001, 0x72E2D00A, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x72E2D001, 0x72E2D00B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2D001, 0x72E2D00C, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2D001, 0x72E2D00D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72E2D001, 0x72E2D00E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E2D001, 0x72E2D00F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D010, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D011, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D012, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x72E2D001, 0x72E2D013, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x72E2D001, 0x72E2D014, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72E2D001, 0x72E2D015, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72E2D001, 0x72E2D016, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D017, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D018, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72E2D001, 0x72E2D019, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2D001, 0x72E2D01A, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D01B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72E2D001, 0x72E2D01C, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72E2D001, 0x72E2D01D, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x72E2D001, 0x72E2D01E, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72E2D001, 0x72E2D01F, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72E2D001, 0x72E2D020, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72E2D001, 0x72E2D021, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72E2D001, 0x72E2D022, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D023, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72E2D001, 0x72E2D024, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72E2D001, 0x72E2D025, '2019-02-10 00:00:00') /* Ascendant Drudge (7091) */
+     , (0x72E2D001, 0x72E2D026, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x72E2D001, 0x72E2D027, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72E2D001, 0x72E2D028, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2D001, 0x72E2D029, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E2D001, 0x72E2D02A, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72E2D001, 0x72E2D02B, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x72E2D001, 0x72E2D02C, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E2D002, 36865, 0x2E2D0020, 85.61471, 175.6701, 31.44791, -0.9995909, 0, 0, -0.02860052,  True, '2019-02-10 00:00:00'); /* Virindi Profatrix */
@@ -226,8 +226,8 @@ VALUES (0x72E2D02D,  1542, 0x2E2D0020, 86.21369, 189.8887, 34.9273, -0.9995909, 
 /* @teleloc 0x2E2D0020 [86.213690 189.888700 34.927300] -0.999591 0.000000 0.000000 -0.028601 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E2D02D, 0x72E2D02E, '2019-02-10 00:00:00') /* Relanim Plant */
-     , (0x72E2D02D, 0x72E2D02F, '2019-02-10 00:00:00') /* Uziz Portal */;
+VALUES (0x72E2D02D, 0x72E2D02E, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x72E2D02D, 0x72E2D02F, '2019-02-10 00:00:00') /* Uziz Portal (42821) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E2D02E, 11555, 0x2E2D0020, 86.21369, 189.8887, 34.9273, -0.9995909, 0, 0, -0.02860052,  True, '2019-02-10 00:00:00'); /* Relanim Plant */

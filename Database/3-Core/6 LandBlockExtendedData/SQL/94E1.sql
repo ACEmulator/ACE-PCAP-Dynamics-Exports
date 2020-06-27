@@ -5,19 +5,19 @@ VALUES (0x794E1001,  1154, 0x94E10029, 142.9747, 8.237664, 131.2381, 0.1709041, 
 /* @teleloc 0x94E10029 [142.974700 8.237664 131.238100] 0.170904 0.000000 0.000000 -0.985288 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E1001, 0x794E1002, '2019-02-10 00:00:00') /* Basalt Golem */
-     , (0x794E1001, 0x794E1003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794E1001, 0x794E1004, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794E1001, 0x794E1005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x794E1001, 0x794E1006, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794E1001, 0x794E1007, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794E1001, 0x794E1008, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x794E1001, 0x794E1009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x794E1001, 0x794E100A, '2019-02-10 00:00:00') /* Shivver */
-     , (0x794E1001, 0x794E100B, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x794E1001, 0x794E100C, '2019-02-10 00:00:00') /* Acolyte of Breath */
-     , (0x794E1001, 0x794E100D, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x794E1001, 0x794E100E, '2019-02-10 00:00:00') /* Augmented Drudge */;
+VALUES (0x794E1001, 0x794E1002, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
+     , (0x794E1001, 0x794E1003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794E1001, 0x794E1004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794E1001, 0x794E1005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x794E1001, 0x794E1006, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794E1001, 0x794E1007, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794E1001, 0x794E1008, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x794E1001, 0x794E1009, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x794E1001, 0x794E100A, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x794E1001, 0x794E100B, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x794E1001, 0x794E100C, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x794E1001, 0x794E100D, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x794E1001, 0x794E100E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E1002, 11994, 0x94E10029, 142.9747, 8.237664, 131.2381, 0.1709041, 0, 0, -0.9852877,  True, '2019-02-10 00:00:00'); /* Basalt Golem */
@@ -76,7 +76,7 @@ VALUES (0x794E100F,  1542, 0x94E10005, 20.74039, 109.5162, 87.51351, -0.2604375,
 /* @teleloc 0x94E10005 [20.740390 109.516200 87.513510] -0.260438 0.000000 0.000000 -0.965491 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794E100F, 0x794E1010, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x794E100F, 0x794E1010, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794E1010,  8644, 0x94E10005, 20.74039, 109.5162, 87.51351, -0.2604375, 0, 0, -0.9654907,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

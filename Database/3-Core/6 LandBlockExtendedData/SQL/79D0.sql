@@ -5,18 +5,18 @@ VALUES (0x779D0001,  1154, 0x79D00037, 165.3422, 145.7843, 161.9782, 0.9238795, 
 /* @teleloc 0x79D00037 [165.342200 145.784300 161.978200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779D0001, 0x779D0002, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D0001, 0x779D0003, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D0001, 0x779D0004, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D0001, 0x779D0005, '2019-02-10 00:00:00') /* Murk Drudge */
-     , (0x779D0001, 0x779D0006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x779D0001, 0x779D0007, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x779D0001, 0x779D0008, '2019-02-10 00:00:00') /* Drudge Sage */
-     , (0x779D0001, 0x779D0009, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D0001, 0x779D000A, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x779D0001, 0x779D000B, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x779D0001, 0x779D000C, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x779D0001, 0x779D000D, '2019-02-10 00:00:00') /* Rampager */;
+VALUES (0x779D0001, 0x779D0002, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D0001, 0x779D0003, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x779D0001, 0x779D0004, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D0001, 0x779D0005, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x779D0001, 0x779D0006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x779D0001, 0x779D0007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x779D0001, 0x779D0008, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x779D0001, 0x779D0009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
+     , (0x779D0001, 0x779D000A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x779D0001, 0x779D000B, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x779D0001, 0x779D000C, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x779D0001, 0x779D000D, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779D0002,  7089, 0x79D00037, 165.3422, 145.7843, 161.9782, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */

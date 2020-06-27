@@ -5,25 +5,25 @@ VALUES (0x7CA50001,  1154, 0xCA500034, 164.4209, 72.24044, 50.02003, -0.9997357,
 /* @teleloc 0xCA500034 [164.420900 72.240440 50.020030] -0.999736 0.000000 0.000000 -0.022988 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA50001, 0x7CA50002, '2019-02-10 00:00:00') /* Dread Mattekar */
-     , (0x7CA50001, 0x7CA50003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7CA50001, 0x7CA50004, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CA50001, 0x7CA50005, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CA50001, 0x7CA50006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7CA50001, 0x7CA50007, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CA50001, 0x7CA50008, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CA50001, 0x7CA50009, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CA50001, 0x7CA5000A, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7CA50001, 0x7CA5000B, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CA50001, 0x7CA5000C, '2019-02-10 00:00:00') /* Linvak Ursuin */
-     , (0x7CA50001, 0x7CA5000D, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CA50001, 0x7CA5000E, '2019-02-10 00:00:00') /* Tusker Shrine Statue */
-     , (0x7CA50001, 0x7CA5000F, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7CA50001, 0x7CA50010, '2019-02-10 00:00:00') /* Olthoi Drone */
-     , (0x7CA50001, 0x7CA50011, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7CA50001, 0x7CA50012, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7CA50001, 0x7CA50013, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7CA50001, 0x7CA50014, '2019-02-10 00:00:00') /* Gotrok Laigus */;
+VALUES (0x7CA50001, 0x7CA50002, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
+     , (0x7CA50001, 0x7CA50003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7CA50001, 0x7CA50004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CA50001, 0x7CA50005, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CA50001, 0x7CA50006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CA50001, 0x7CA50007, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CA50001, 0x7CA50008, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CA50001, 0x7CA50009, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7CA50001, 0x7CA5000A, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7CA50001, 0x7CA5000B, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CA50001, 0x7CA5000C, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7CA50001, 0x7CA5000D, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CA50001, 0x7CA5000E, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7CA50001, 0x7CA5000F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7CA50001, 0x7CA50010, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x7CA50001, 0x7CA50011, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7CA50001, 0x7CA50012, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7CA50001, 0x7CA50013, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7CA50001, 0x7CA50014, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA50002,  9401, 0xCA500034, 164.4209, 72.24044, 50.02003, -0.9997357, 0, 0, -0.02298835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
@@ -106,8 +106,8 @@ VALUES (0x7CA50015,  1542, 0xCA500006, 22.22903, 139.8866, 55.33103, 1, 0, 0, 0,
 /* @teleloc 0xCA500006 [22.229030 139.886600 55.331030] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA50015, 0x7CA50016, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7CA50015, 0x7CA50017, '2019-02-10 00:00:00') /* Wormwood */;
+VALUES (0x7CA50015, 0x7CA50016, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7CA50015, 0x7CA50017, '2019-02-10 00:00:00') /* Wormwood (780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA50016, 31443, 0xCA500006, 22.22903, 139.8866, 55.33103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

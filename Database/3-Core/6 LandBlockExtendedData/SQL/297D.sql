@@ -5,13 +5,13 @@ VALUES (0x7297D001,  1154, 0x297D0020, 83.19578, 177.9361, 176.607, -0.9322796, 
 /* @teleloc 0x297D0020 [83.195780 177.936100 176.607000] -0.932280 0.000000 0.000000 -0.361738 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7297D001, 0x7297D002, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7297D001, 0x7297D003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga */
-     , (0x7297D001, 0x7297D004, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x7297D001, 0x7297D005, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x7297D001, 0x7297D006, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x7297D001, 0x7297D007, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x7297D001, 0x7297D008, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7297D001, 0x7297D002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7297D001, 0x7297D003, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7297D001, 0x7297D004, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x7297D001, 0x7297D005, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x7297D001, 0x7297D006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7297D001, 0x7297D007, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x7297D001, 0x7297D008, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7297D002, 24497, 0x297D0020, 83.19578, 177.9361, 176.607, -0.9322796, 0, 0, -0.3617384,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */

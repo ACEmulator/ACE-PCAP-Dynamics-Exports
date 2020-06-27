@@ -5,13 +5,13 @@ VALUES (0x77983001,  1154, 0x79830019, 85.58122, 19.93227, 10.1412, 0.9238795, 0
 /* @teleloc 0x79830019 [85.581220 19.932270 10.141200] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77983001, 0x77983002, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x77983001, 0x77983003, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x77983001, 0x77983004, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x77983001, 0x77983005, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x77983001, 0x77983006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x77983001, 0x77983007, '2019-02-10 00:00:00') /* Fragment */
-     , (0x77983001, 0x77983008, '2019-02-10 00:00:00') /* Risen Knight */;
+VALUES (0x77983001, 0x77983002, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x77983001, 0x77983003, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x77983001, 0x77983004, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x77983001, 0x77983005, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x77983001, 0x77983006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77983001, 0x77983007, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x77983001, 0x77983008, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77983002,  2612, 0x79830019, 85.58122, 19.93227, 10.1412, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */

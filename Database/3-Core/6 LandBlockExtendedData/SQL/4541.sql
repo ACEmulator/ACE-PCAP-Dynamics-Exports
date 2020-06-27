@@ -5,11 +5,11 @@ VALUES (0x74541001,  1154, 0x45410039, 189.8542, 15.12543, -0.4399999, -0.948778
 /* @teleloc 0x45410039 [189.854200 15.125430 -0.440000] -0.948779 0.000000 0.000000 -0.315942 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74541001, 0x74541002, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x74541001, 0x74541003, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x74541001, 0x74541004, '2019-02-10 00:00:00') /* Guruk Boor */
-     , (0x74541001, 0x74541005, '2019-02-10 00:00:00') /* Guruk Miscreant */
-     , (0x74541001, 0x74541006, '2019-02-10 00:00:00') /* Guruk Miscreant */;
+VALUES (0x74541001, 0x74541002, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x74541001, 0x74541003, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x74541001, 0x74541004, '2019-02-10 00:00:00') /* Guruk Boor (27981) */
+     , (0x74541001, 0x74541005, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
+     , (0x74541001, 0x74541006, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74541002, 36827, 0x45410039, 189.8542, 15.12543, -0.4399999, -0.9487785, 0, 0, -0.3159421,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */

@@ -5,12 +5,12 @@ VALUES (0x7B5D9001,  1154, 0xB5D9003F, 191.3194, 164.8763, 47.66123, 0.7372774, 
 /* @teleloc 0xB5D9003F [191.319400 164.876300 47.661230] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B5D9001, 0x7B5D9002, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B5D9001, 0x7B5D9003, '2019-02-10 00:00:00') /* Malus Shreth */
-     , (0x7B5D9001, 0x7B5D9004, '2019-02-10 00:00:00') /* Fleshless Warrior */
-     , (0x7B5D9001, 0x7B5D9005, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7B5D9001, 0x7B5D9006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7B5D9001, 0x7B5D9007, '2019-02-10 00:00:00') /* Cruel Monouga */;
+VALUES (0x7B5D9001, 0x7B5D9002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B5D9001, 0x7B5D9003, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7B5D9001, 0x7B5D9004, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7B5D9001, 0x7B5D9005, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B5D9001, 0x7B5D9006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7B5D9001, 0x7B5D9007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B5D9002,  4255, 0xB5D9003F, 191.3194, 164.8763, 47.66123, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */

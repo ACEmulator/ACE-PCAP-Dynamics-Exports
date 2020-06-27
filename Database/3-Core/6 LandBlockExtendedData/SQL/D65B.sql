@@ -5,14 +5,14 @@ VALUES (0x7D65B001,  1154, 0xD65B002F, 137.758, 152.6149, 13.24307, -0.4587066, 
 /* @teleloc 0xD65B002F [137.758000 152.614900 13.243070] -0.458707 0.000000 0.000000 -0.888588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D65B001, 0x7D65B002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D65B001, 0x7D65B003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7D65B001, 0x7D65B004, '2019-02-10 00:00:00') /* Blood Shreth */
-     , (0x7D65B001, 0x7D65B005, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7D65B001, 0x7D65B006, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D65B001, 0x7D65B007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D65B001, 0x7D65B008, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D65B001, 0x7D65B009, '2019-02-10 00:00:00') /* Skeleton */;
+VALUES (0x7D65B001, 0x7D65B002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D65B001, 0x7D65B003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D65B001, 0x7D65B004, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7D65B001, 0x7D65B005, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D65B001, 0x7D65B006, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D65B001, 0x7D65B007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D65B001, 0x7D65B008, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D65B001, 0x7D65B009, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D65B002,   232, 0xD65B002F, 137.758, 152.6149, 13.24307, -0.4587066, 0, 0, -0.8885878,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

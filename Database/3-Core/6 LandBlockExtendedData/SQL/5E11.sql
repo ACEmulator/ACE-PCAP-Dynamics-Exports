@@ -5,18 +5,18 @@ VALUES (0x75E11001,  1154, 0x5E110021, 119.0195, 12.63095, -0.89175, -0.9931951,
 /* @teleloc 0x5E110021 [119.019500 12.630950 -0.891750] -0.993195 0.000000 0.000000 -0.116462 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75E11001, 0x75E11002, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75E11001, 0x75E11003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x75E11001, 0x75E11004, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x75E11001, 0x75E11005, '2019-02-10 00:00:00') /* Frost */
-     , (0x75E11001, 0x75E11006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75E11001, 0x75E11007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75E11001, 0x75E11008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75E11001, 0x75E11009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75E11001, 0x75E1100A, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75E11001, 0x75E1100B, '2019-02-10 00:00:00') /* Mosswart Clinger */
-     , (0x75E11001, 0x75E1100C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */
-     , (0x75E11001, 0x75E1100D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch */;
+VALUES (0x75E11001, 0x75E11002, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75E11001, 0x75E11003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x75E11001, 0x75E11004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x75E11001, 0x75E11005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x75E11001, 0x75E11006, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75E11001, 0x75E11007, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75E11001, 0x75E11008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75E11001, 0x75E11009, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75E11001, 0x75E1100A, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75E11001, 0x75E1100B, '2019-02-10 00:00:00') /* Mosswart Clinger (7103) */
+     , (0x75E11001, 0x75E1100C, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */
+     , (0x75E11001, 0x75E1100D, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7102) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E11002,  4217, 0x5E110021, 119.0195, 12.63095, -0.89175, -0.9931951, 0, 0, -0.1164621,  True, '2019-02-10 00:00:00'); /* Dark Revenant */

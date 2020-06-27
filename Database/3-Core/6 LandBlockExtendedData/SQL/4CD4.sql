@@ -5,17 +5,17 @@ VALUES (0x74CD4001,  1154, 0x4CD4000A, 35.13424, 40.33226, 46.00529, -0.9881393,
 /* @teleloc 0x4CD4000A [35.134240 40.332260 46.005290] -0.988139 0.000000 0.000000 -0.153560 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74CD4001, 0x74CD4002, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x74CD4001, 0x74CD4003, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74CD4001, 0x74CD4004, '2019-02-10 00:00:00') /* Rabid Eater */
-     , (0x74CD4001, 0x74CD4005, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74CD4001, 0x74CD4006, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74CD4001, 0x74CD4007, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x74CD4001, 0x74CD4008, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CD4001, 0x74CD4009, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74CD4001, 0x74CD400A, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x74CD4001, 0x74CD400B, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74CD4001, 0x74CD400C, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74CD4001, 0x74CD4002, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x74CD4001, 0x74CD4003, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74CD4001, 0x74CD4004, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
+     , (0x74CD4001, 0x74CD4005, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74CD4001, 0x74CD4006, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74CD4001, 0x74CD4007, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x74CD4001, 0x74CD4008, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CD4001, 0x74CD4009, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74CD4001, 0x74CD400A, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74CD4001, 0x74CD400B, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74CD4001, 0x74CD400C, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74CD4002, 29304, 0x4CD4000A, 35.13424, 40.33226, 46.00529, -0.9881393, 0, 0, -0.15356,  True, '2019-02-10 00:00:00'); /* Viamontian Mage */

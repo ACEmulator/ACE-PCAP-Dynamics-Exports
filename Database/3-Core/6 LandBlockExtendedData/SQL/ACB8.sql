@@ -5,15 +5,15 @@ VALUES (0x7ACB8001,  1154, 0xACB8000E, 24.01705, 124.6539, 90.00715, 0.05906083,
 /* @teleloc 0xACB8000E [24.017050 124.653900 90.007150] 0.059061 0.000000 0.000000 -0.998254 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ACB8001, 0x7ACB8002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACB8001, 0x7ACB8003, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB8001, 0x7ACB8004, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ACB8001, 0x7ACB8005, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7ACB8001, 0x7ACB8006, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7ACB8001, 0x7ACB8007, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7ACB8001, 0x7ACB8008, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7ACB8001, 0x7ACB8009, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ACB8001, 0x7ACB800A, '2019-02-10 00:00:00') /* Reedshark Pup */;
+VALUES (0x7ACB8001, 0x7ACB8002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACB8001, 0x7ACB8003, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB8001, 0x7ACB8004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ACB8001, 0x7ACB8005, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7ACB8001, 0x7ACB8006, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7ACB8001, 0x7ACB8007, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7ACB8001, 0x7ACB8008, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7ACB8001, 0x7ACB8009, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ACB8001, 0x7ACB800A, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ACB8002,     6, 0xACB8000E, 24.01705, 124.6539, 90.00715, 0.05906083, 0, 0, -0.9982544,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

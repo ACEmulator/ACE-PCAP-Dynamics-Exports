@@ -5,8 +5,8 @@ VALUES (0x73A30001,  1154, 0x3A300040, 180.3217, 180.5608, 118.3186, -0.1615713,
 /* @teleloc 0x3A300040 [180.321700 180.560800 118.318600] -0.161571 0.000000 0.000000 -0.986861 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A30001, 0x73A30002, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x73A30001, 0x73A30003, '2019-02-10 00:00:00') /* Tempest Wisp */;
+VALUES (0x73A30001, 0x73A30002, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73A30001, 0x73A30003, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A30002, 24281, 0x3A300040, 180.3217, 180.5608, 118.3186, -0.1615713, 0, 0, -0.9868611,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */

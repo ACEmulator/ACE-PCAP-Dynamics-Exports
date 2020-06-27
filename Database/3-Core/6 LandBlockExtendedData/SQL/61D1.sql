@@ -5,11 +5,11 @@ VALUES (0x761D1001,  1154, 0x61D10027, 119.1363, 157.2456, 54, 0.05483791, 0, 0,
 /* @teleloc 0x61D10027 [119.136300 157.245600 54.000000] 0.054838 0.000000 0.000000 -0.998495 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761D1001, 0x761D1002, '2019-02-10 00:00:00') /* Crystal Shard */
-     , (0x761D1001, 0x761D1003, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x761D1001, 0x761D1004, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x761D1001, 0x761D1005, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x761D1001, 0x761D1006, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x761D1001, 0x761D1002, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x761D1001, 0x761D1003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x761D1001, 0x761D1004, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x761D1001, 0x761D1005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x761D1001, 0x761D1006, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761D1002, 23616, 0x61D10027, 119.1363, 157.2456, 54, 0.05483791, 0, 0, -0.9984953,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -36,7 +36,7 @@ VALUES (0x761D1007,  1542, 0x61D10026, 117.2524, 135.2683, 54, 1, 0, 0, 0, False
 /* @teleloc 0x61D10026 [117.252400 135.268300 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x761D1007, 0x761D1008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x761D1007, 0x761D1008, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x761D1008, 22566, 0x61D10026, 117.2524, 135.2683, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,11 +5,11 @@ VALUES (0x7BB4C001,  1154, 0xBB4C0036, 147.7009, 143.2843, 38.37354, -0.8699595,
 /* @teleloc 0xBB4C0036 [147.700900 143.284300 38.373540] -0.869960 0.000000 0.000000 -0.493123 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB4C001, 0x7BB4C002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7BB4C001, 0x7BB4C003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7BB4C001, 0x7BB4C004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion */
-     , (0x7BB4C001, 0x7BB4C005, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7BB4C001, 0x7BB4C006, '2019-02-10 00:00:00') /* Granite Golem */;
+VALUES (0x7BB4C001, 0x7BB4C002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7BB4C001, 0x7BB4C003, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7BB4C001, 0x7BB4C004, '2019-02-10 00:00:00') /* Sotiris Hollow Minion (8270) */
+     , (0x7BB4C001, 0x7BB4C005, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7BB4C001, 0x7BB4C006, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB4C002,   229, 0xBB4C0036, 147.7009, 143.2843, 38.37354, -0.8699595, 0, 0, -0.4931232,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */

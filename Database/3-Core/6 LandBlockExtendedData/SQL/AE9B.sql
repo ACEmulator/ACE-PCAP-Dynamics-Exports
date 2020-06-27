@@ -5,32 +5,32 @@ VALUES (0x7AE9B001,  1154, 0xAE9B001B, 84.7748, 56.92326, 68.01, -0.2671342, 0, 
 /* @teleloc 0xAE9B001B [84.774800 56.923260 68.010000] -0.267134 0.000000 0.000000 -0.963659 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9B001, 0x7AE9B002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7AE9B001, 0x7AE9B003, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AE9B001, 0x7AE9B004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9B001, 0x7AE9B005, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7AE9B001, 0x7AE9B006, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9B001, 0x7AE9B007, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x7AE9B001, 0x7AE9B008, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7AE9B001, 0x7AE9B009, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7AE9B001, 0x7AE9B00A, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7AE9B001, 0x7AE9B00B, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AE9B001, 0x7AE9B00C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AE9B001, 0x7AE9B00D, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9B001, 0x7AE9B00E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7AE9B001, 0x7AE9B00F, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7AE9B001, 0x7AE9B010, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7AE9B001, 0x7AE9B011, '2019-02-10 00:00:00') /* Idol */
-     , (0x7AE9B001, 0x7AE9B012, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7AE9B001, 0x7AE9B013, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7AE9B001, 0x7AE9B014, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9B001, 0x7AE9B015, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7AE9B001, 0x7AE9B016, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7AE9B001, 0x7AE9B017, '2019-02-10 00:00:00') /* Harvest Reaper */
-     , (0x7AE9B001, 0x7AE9B018, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7AE9B001, 0x7AE9B019, '2019-02-10 00:00:00') /* Crystal Spur */
-     , (0x7AE9B001, 0x7AE9B01A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AE9B001, 0x7AE9B01B, '2019-02-10 00:00:00') /* Shadow Child */;
+VALUES (0x7AE9B001, 0x7AE9B002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7AE9B001, 0x7AE9B003, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AE9B001, 0x7AE9B004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9B001, 0x7AE9B005, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7AE9B001, 0x7AE9B006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9B001, 0x7AE9B007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7AE9B001, 0x7AE9B008, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7AE9B001, 0x7AE9B009, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7AE9B001, 0x7AE9B00A, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7AE9B001, 0x7AE9B00B, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AE9B001, 0x7AE9B00C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AE9B001, 0x7AE9B00D, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9B001, 0x7AE9B00E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7AE9B001, 0x7AE9B00F, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7AE9B001, 0x7AE9B010, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7AE9B001, 0x7AE9B011, '2019-02-10 00:00:00') /* Idol (8466) */
+     , (0x7AE9B001, 0x7AE9B012, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7AE9B001, 0x7AE9B013, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7AE9B001, 0x7AE9B014, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9B001, 0x7AE9B015, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7AE9B001, 0x7AE9B016, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7AE9B001, 0x7AE9B017, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
+     , (0x7AE9B001, 0x7AE9B018, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7AE9B001, 0x7AE9B019, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7AE9B001, 0x7AE9B01A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AE9B001, 0x7AE9B01B, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9B002, 11531, 0xAE9B001B, 84.7748, 56.92326, 68.01, -0.2671342, 0, 0, -0.9636593,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -141,8 +141,8 @@ VALUES (0x7AE9B01C,  1542, 0xAE9B001A, 85.98992, 34.18151, 68, 0.9990482, 0, 0, 
 /* @teleloc 0xAE9B001A [85.989920 34.181510 68.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AE9B01C, 0x7AE9B01D, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7AE9B01C, 0x7AE9B01E, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7AE9B01C, 0x7AE9B01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7AE9B01C, 0x7AE9B01E, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE9B01D,  4179, 0xAE9B001A, 85.98992, 34.18151, 68, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

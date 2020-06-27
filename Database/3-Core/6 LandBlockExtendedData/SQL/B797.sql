@@ -5,12 +5,12 @@ VALUES (0x7B797001,  1154, 0xB7970031, 154.521, 0.7810803, 26.81266, 1, 0, 0, 0,
 /* @teleloc 0xB7970031 [154.521000 0.781080 26.812660] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B797001, 0x7B797002, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7B797001, 0x7B797003, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B797001, 0x7B797004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7B797001, 0x7B797005, '2019-02-10 00:00:00') /* Drudge Prowler */
-     , (0x7B797001, 0x7B797006, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7B797001, 0x7B797007, '2019-02-10 00:00:00') /* Drudge Prowler */;
+VALUES (0x7B797001, 0x7B797002, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B797001, 0x7B797003, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B797001, 0x7B797004, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
+     , (0x7B797001, 0x7B797005, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B797001, 0x7B797006, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B797001, 0x7B797007, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B797002,   223, 0xB7970031, 154.521, 0.7810803, 26.81266, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
@@ -41,9 +41,9 @@ VALUES (0x7B797008,  1542, 0xB797002B, 135.4834, 67.88964, 28, 1, 0, 0, 0, False
 /* @teleloc 0xB797002B [135.483400 67.889640 28.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B797008, 0x7B797009, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7B797008, 0x7B79700A, '2019-02-10 00:00:00') /* Diamond Shield */
-     , (0x7B797008, 0x7B79700B, '2019-02-10 00:00:00') /* Diamond Shield */;
+VALUES (0x7B797008, 0x7B797009, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B797008, 0x7B79700A, '2019-02-10 00:00:00') /* Diamond Shield (94) */
+     , (0x7B797008, 0x7B79700B, '2019-02-10 00:00:00') /* Diamond Shield (94) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B797009,  4179, 0xB797002B, 135.4834, 67.88964, 28, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

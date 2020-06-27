@@ -5,33 +5,33 @@ VALUES (0x7ABB4001,  1154, 0xABB4001F, 79.90533, 149.3561, 27.10333, 0.2890881, 
 /* @teleloc 0xABB4001F [79.905330 149.356100 27.103330] 0.289088 0.000000 0.000000 -0.957303 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB4001, 0x7ABB4002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB4001, 0x7ABB4003, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB4001, 0x7ABB4004, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB4001, 0x7ABB4005, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB4001, 0x7ABB4006, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB4001, 0x7ABB4007, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB4001, 0x7ABB4008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABB4001, 0x7ABB4009, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB4001, 0x7ABB400A, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB4001, 0x7ABB400B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABB4001, 0x7ABB400C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABB4001, 0x7ABB400D, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB4001, 0x7ABB400E, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB4001, 0x7ABB400F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB4001, 0x7ABB4010, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB4001, 0x7ABB4011, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB4001, 0x7ABB4012, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB4001, 0x7ABB4013, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ABB4001, 0x7ABB4014, '2019-02-10 00:00:00') /* Gnawer Shreth */
-     , (0x7ABB4001, 0x7ABB4015, '2019-02-10 00:00:00') /* Mite Snippet */
-     , (0x7ABB4001, 0x7ABB4016, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ABB4001, 0x7ABB4017, '2019-02-10 00:00:00') /* Drudge Skulker */
-     , (0x7ABB4001, 0x7ABB4018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABB4001, 0x7ABB4019, '2019-02-10 00:00:00') /* Young Mosswart */
-     , (0x7ABB4001, 0x7ABB401A, '2019-02-10 00:00:00') /* Creeper Mosswart */
-     , (0x7ABB4001, 0x7ABB401B, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ABB4001, 0x7ABB401C, '2019-02-10 00:00:00') /* Mite Scion */;
+VALUES (0x7ABB4001, 0x7ABB4002, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB4001, 0x7ABB4003, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB4001, 0x7ABB4004, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB4001, 0x7ABB4005, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB4001, 0x7ABB4006, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB4001, 0x7ABB4007, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB4001, 0x7ABB4008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABB4001, 0x7ABB4009, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB4001, 0x7ABB400A, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB4001, 0x7ABB400B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABB4001, 0x7ABB400C, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABB4001, 0x7ABB400D, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB4001, 0x7ABB400E, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB4001, 0x7ABB400F, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB4001, 0x7ABB4010, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB4001, 0x7ABB4011, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB4001, 0x7ABB4012, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB4001, 0x7ABB4013, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7ABB4001, 0x7ABB4014, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB4001, 0x7ABB4015, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB4001, 0x7ABB4016, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7ABB4001, 0x7ABB4017, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7ABB4001, 0x7ABB4018, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABB4001, 0x7ABB4019, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7ABB4001, 0x7ABB401A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7ABB4001, 0x7ABB401B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB4001, 0x7ABB401C, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB4002, 19258, 0xABB4001F, 79.90533, 149.3561, 27.10333, 0.2890881, 0, 0, -0.9573025,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -146,10 +146,10 @@ VALUES (0x7ABB401D,  1542, 0xABB4001B, 81.76611, 60.80253, 28.1725, -0.949218, 0
 /* @teleloc 0xABB4001B [81.766110 60.802530 28.172500] -0.949218 0.000000 0.000000 0.314619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABB401D, 0x7ABB401E, '2019-02-10 00:00:00') /* Fish */
-     , (0x7ABB401D, 0x7ABB401F, '2019-02-10 00:00:00') /* Fish */
-     , (0x7ABB401D, 0x7ABB4020, '2019-02-10 00:00:00') /* Fish */
-     , (0x7ABB401D, 0x7ABB4021, '2019-02-10 00:00:00') /* Fish */;
+VALUES (0x7ABB401D, 0x7ABB401E, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7ABB401D, 0x7ABB401F, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7ABB401D, 0x7ABB4020, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7ABB401D, 0x7ABB4021, '2019-02-10 00:00:00') /* Fish (263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB401E,   263, 0xABB4001B, 81.76611, 60.80253, 28.1725, -0.949218, 0, 0, 0.314619,  True, '2019-02-10 00:00:00'); /* Fish */

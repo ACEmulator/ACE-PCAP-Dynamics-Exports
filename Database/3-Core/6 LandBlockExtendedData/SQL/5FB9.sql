@@ -5,16 +5,16 @@ VALUES (0x75FB9001,  1154, 0x5FB9003B, 173.5349, 70.77821, 1.890684, 0.7071068, 
 /* @teleloc 0x5FB9003B [173.534900 70.778210 1.890684] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FB9001, 0x75FB9002, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x75FB9001, 0x75FB9003, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FB9001, 0x75FB9004, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x75FB9001, 0x75FB9005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75FB9001, 0x75FB9006, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75FB9001, 0x75FB9007, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75FB9001, 0x75FB9008, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x75FB9001, 0x75FB9009, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x75FB9001, 0x75FB900A, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x75FB9001, 0x75FB900B, '2019-02-10 00:00:00') /* Relic Bones */;
+VALUES (0x75FB9001, 0x75FB9002, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x75FB9001, 0x75FB9003, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FB9001, 0x75FB9004, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x75FB9001, 0x75FB9005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75FB9001, 0x75FB9006, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75FB9001, 0x75FB9007, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75FB9001, 0x75FB9008, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x75FB9001, 0x75FB9009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x75FB9001, 0x75FB900A, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x75FB9001, 0x75FB900B, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FB9002, 24293, 0x5FB9003B, 173.5349, 70.77821, 1.890684, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -61,7 +61,7 @@ VALUES (0x75FB900C,  1542, 0x5FB90024, 107.7875, 89.40471, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x5FB90024 [107.787500 89.404710 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75FB900C, 0x75FB900D, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x75FB900C, 0x75FB900D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75FB900D,  4179, 0x5FB90024, 107.7875, 89.40471, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

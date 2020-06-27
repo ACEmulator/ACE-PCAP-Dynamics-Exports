@@ -5,8 +5,8 @@ VALUES (0x7114E001,  1154, 0x114E0013, 66.78756, 51.62277, -0.871, -0.8228765, 0
 /* @teleloc 0x114E0013 [66.787560 51.622770 -0.871000] -0.822877 0.000000 0.000000 -0.568220 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7114E001, 0x7114E002, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7114E001, 0x7114E003, '2019-02-10 00:00:00') /* Maelstrom */;
+VALUES (0x7114E001, 0x7114E002, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x7114E001, 0x7114E003, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7114E002, 30447, 0x114E0013, 66.78756, 51.62277, -0.871, -0.8228765, 0, 0, -0.5682203,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */

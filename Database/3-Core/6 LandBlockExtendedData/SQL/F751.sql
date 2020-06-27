@@ -5,14 +5,14 @@ VALUES (0x7F751001,  1154, 0xF751000B, 42.17491, 63.17228, -0.4425, 1, 0, 0, 0, 
 /* @teleloc 0xF751000B [42.174910 63.172280 -0.442500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F751001, 0x7F751002, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7F751001, 0x7F751003, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F751001, 0x7F751004, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7F751001, 0x7F751005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper */
-     , (0x7F751001, 0x7F751006, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7F751001, 0x7F751007, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F751001, 0x7F751008, '2019-02-10 00:00:00') /* Mosswart Fanatic */
-     , (0x7F751001, 0x7F751009, '2019-02-10 00:00:00') /* Sand Golem */;
+VALUES (0x7F751001, 0x7F751002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7F751001, 0x7F751003, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F751001, 0x7F751004, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7F751001, 0x7F751005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
+     , (0x7F751001, 0x7F751006, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7F751001, 0x7F751007, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F751001, 0x7F751008, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x7F751001, 0x7F751009, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F751002,  1630, 0xF751000B, 42.17491, 63.17228, -0.4425, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -51,7 +51,7 @@ VALUES (0x7F75100A,  1542, 0xF7510018, 63.92323, 171.6955, -0.089, -0.5294023, 0
 /* @teleloc 0xF7510018 [63.923230 171.695500 -0.089000] -0.529402 0.000000 0.000000 -0.848371 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F75100A, 0x7F75100B, '2019-02-10 00:00:00') /* Yellow Monster Seed */;
+VALUES (0x7F75100A, 0x7F75100B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F75100B, 31686, 0xF7510018, 63.92323, 171.6955, -0.089, -0.5294023, 0, 0, -0.848371,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */

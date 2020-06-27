@@ -5,11 +5,11 @@ VALUES (0x7BBB5001,  1154, 0xBBB50033, 150.6568, 67.65444, 187.8644, -0.2943935,
 /* @teleloc 0xBBB50033 [150.656800 67.654440 187.864400] -0.294394 0.000000 0.000000 -0.955684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BBB5001, 0x7BBB5002, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BBB5001, 0x7BBB5003, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BBB5001, 0x7BBB5004, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7BBB5001, 0x7BBB5005, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BBB5001, 0x7BBB5006, '2019-02-10 00:00:00') /* Olthoi Worker */;
+VALUES (0x7BBB5001, 0x7BBB5002, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BBB5001, 0x7BBB5003, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BBB5001, 0x7BBB5004, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7BBB5001, 0x7BBB5005, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BBB5001, 0x7BBB5006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBB5002,   195, 0xBBB50033, 150.6568, 67.65444, 187.8644, -0.2943935, 0, 0, -0.9556843,  True, '2019-02-10 00:00:00'); /* Granite Golem */

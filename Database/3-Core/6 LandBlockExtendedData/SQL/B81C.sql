@@ -5,12 +5,12 @@ VALUES (0x7B81C001,  1154, 0xB81C0038, 165.8896, 185.2239, 205.116, 0.6425019, 0
 /* @teleloc 0xB81C0038 [165.889600 185.223900 205.116000] 0.642502 0.000000 0.000000 -0.766284 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B81C001, 0x7B81C002, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7B81C001, 0x7B81C003, '2019-02-10 00:00:00') /* Extas Lugian */
-     , (0x7B81C001, 0x7B81C004, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B81C001, 0x7B81C005, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B81C001, 0x7B81C006, '2019-02-10 00:00:00') /* Shroud Cabal Forager */
-     , (0x7B81C001, 0x7B81C007, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain */;
+VALUES (0x7B81C001, 0x7B81C002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7B81C001, 0x7B81C003, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
+     , (0x7B81C001, 0x7B81C004, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B81C001, 0x7B81C005, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B81C001, 0x7B81C006, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7B81C001, 0x7B81C007, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B81C002,  4254, 0xB81C0038, 165.8896, 185.2239, 205.116, 0.6425019, 0, 0, -0.7662841,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */

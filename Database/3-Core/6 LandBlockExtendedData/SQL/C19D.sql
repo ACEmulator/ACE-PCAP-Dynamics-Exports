@@ -5,8 +5,8 @@ VALUES (0x7C19D001,  1154, 0xC19D0006, 22.94643, 120.1075, 1.103325, 0.5944127, 
 /* @teleloc 0xC19D0006 [22.946430 120.107500 1.103325] 0.594413 0.000000 0.000000 -0.804160 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C19D001, 0x7C19D002, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C19D001, 0x7C19D003, '2019-02-10 00:00:00') /* Water Golem */;
+VALUES (0x7C19D001, 0x7C19D002, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C19D001, 0x7C19D003, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C19D002,   193, 0xC19D0006, 22.94643, 120.1075, 1.103325, 0.5944127, 0, 0, -0.8041601,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */

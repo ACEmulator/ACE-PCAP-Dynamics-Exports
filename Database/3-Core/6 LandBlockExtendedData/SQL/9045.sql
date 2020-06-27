@@ -5,8 +5,8 @@ VALUES (0x79045001,  1154, 0x9045003C, 181.2606, 75.03236, 15.10545, 0.1565406, 
 /* @teleloc 0x9045003C [181.260600 75.032360 15.105450] 0.156541 0.000000 0.000000 -0.987672 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79045001, 0x79045002, '2019-02-10 00:00:00') /* Marionette */
-     , (0x79045001, 0x79045003, '2019-02-10 00:00:00') /* Ash Gromnie */;
+VALUES (0x79045001, 0x79045002, '2019-02-10 00:00:00') /* Marionette (9249) */
+     , (0x79045001, 0x79045003, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79045002,  9249, 0x9045003C, 181.2606, 75.03236, 15.10545, 0.1565406, 0, 0, -0.9876716,  True, '2019-02-10 00:00:00'); /* Marionette */

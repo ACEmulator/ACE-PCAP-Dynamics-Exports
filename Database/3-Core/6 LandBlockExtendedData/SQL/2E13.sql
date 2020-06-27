@@ -9,17 +9,17 @@ VALUES (0x72E13006,  1154, 0x2E13001B, 80.47781, 51.11029, 16.26919, 0.3785447, 
 /* @teleloc 0x2E13001B [80.477810 51.110290 16.269190] 0.378545 0.000000 0.000000 -0.925583 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E13006, 0x72E13007, '2019-02-10 00:00:00') /* Extas Raider */
-     , (0x72E13006, 0x72E13008, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E13006, 0x72E13009, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x72E13006, 0x72E1300A, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E13006, 0x72E1300B, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E13006, 0x72E1300C, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E13006, 0x72E1300D, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E13006, 0x72E1300E, '2019-02-10 00:00:00') /* Tumerok Trooper */
-     , (0x72E13006, 0x72E1300F, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72E13006, 0x72E13010, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72E13006, 0x72E13011, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x72E13006, 0x72E13007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72E13006, 0x72E13008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E13006, 0x72E13009, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72E13006, 0x72E1300A, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E13006, 0x72E1300B, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E13006, 0x72E1300C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E13006, 0x72E1300D, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E13006, 0x72E1300E, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x72E13006, 0x72E1300F, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72E13006, 0x72E13010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72E13006, 0x72E13011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E13007,  8138, 0x2E13001B, 80.47781, 51.11029, 16.26919, 0.3785447, 0, 0, -0.925583,  True, '2019-02-10 00:00:00'); /* Extas Raider */

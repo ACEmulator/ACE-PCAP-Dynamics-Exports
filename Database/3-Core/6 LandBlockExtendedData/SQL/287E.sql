@@ -5,18 +5,18 @@ VALUES (0x7287E001,  1154, 0x287E0034, 147.865, 77.05922, 54.03002, 0.997898, 0,
 /* @teleloc 0x287E0034 [147.865000 77.059220 54.030020] 0.997898 0.000000 0.000000 -0.064804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7287E001, 0x7287E002, '2019-02-10 00:00:00') /* Brumal */
-     , (0x7287E001, 0x7287E003, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7287E001, 0x7287E004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287E001, 0x7287E005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287E001, 0x7287E006, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287E001, 0x7287E007, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7287E001, 0x7287E008, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x7287E001, 0x7287E009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7287E001, 0x7287E00A, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x7287E001, 0x7287E00B, '2019-02-10 00:00:00') /* Hyem */
-     , (0x7287E001, 0x7287E00C, '2019-02-10 00:00:00') /* Drudge Mystic */
-     , (0x7287E001, 0x7287E00D, '2019-02-10 00:00:00') /* Plate Armoredillo */;
+VALUES (0x7287E001, 0x7287E002, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x7287E001, 0x7287E003, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7287E001, 0x7287E004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287E001, 0x7287E005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287E001, 0x7287E006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287E001, 0x7287E007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7287E001, 0x7287E008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7287E001, 0x7287E009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7287E001, 0x7287E00A, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x7287E001, 0x7287E00B, '2019-02-10 00:00:00') /* Hyem (14875) */
+     , (0x7287E001, 0x7287E00C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7287E001, 0x7287E00D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7287E002, 20189, 0x287E0034, 147.865, 77.05922, 54.03002, 0.997898, 0, 0, -0.06480364,  True, '2019-02-10 00:00:00'); /* Brumal */
@@ -71,8 +71,8 @@ VALUES (0x7287E00E,  1542, 0x287E0017, 61.75206, 165.4967, 33.04303, 0.5568661, 
 /* @teleloc 0x287E0017 [61.752060 165.496700 33.043030] 0.556866 0.000000 0.000000 -0.830602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7287E00E, 0x7287E00F, '2019-02-10 00:00:00') /* Lapyan Plant */
-     , (0x7287E00E, 0x7287E010, '2019-02-10 00:00:00') /* Lapyan Plant */;
+VALUES (0x7287E00E, 0x7287E00F, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7287E00E, 0x7287E010, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7287E00F,  8644, 0x287E0017, 61.75206, 165.4967, 33.04303, 0.5568661, 0, 0, -0.8306023,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */

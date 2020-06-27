@@ -5,10 +5,10 @@ VALUES (0x79E80001,  1154, 0x9E800022, 116.1332, 42.88952, 47.47308, 0.3735622, 
 /* @teleloc 0x9E800022 [116.133200 42.889520 47.473080] 0.373562 0.000000 0.000000 -0.927605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E80001, 0x79E80002, '2019-02-10 00:00:00') /* Ursuin Slasher */
-     , (0x79E80001, 0x79E80003, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x79E80001, 0x79E80004, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x79E80001, 0x79E80005, '2019-02-10 00:00:00') /* Skeleton Lord */;
+VALUES (0x79E80001, 0x79E80002, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x79E80001, 0x79E80003, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x79E80001, 0x79E80004, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x79E80001, 0x79E80005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E80002, 19439, 0x9E800022, 116.1332, 42.88952, 47.47308, 0.3735622, 0, 0, -0.9276051,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */
@@ -31,7 +31,7 @@ VALUES (0x79E80006,  1542, 0x9E80002D, 136.2031, 108.8701, 55.40586, 0.200181, 0
 /* @teleloc 0x9E80002D [136.203100 108.870100 55.405860] 0.200181 0.000000 0.000000 -0.979759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E80006, 0x79E80007, '2019-02-10 00:00:00') /* Verdalim Plant */;
+VALUES (0x79E80006, 0x79E80007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E80007,  8037, 0x9E80002D, 136.2031, 108.8701, 55.40586, 0.200181, 0, 0, -0.9797589,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

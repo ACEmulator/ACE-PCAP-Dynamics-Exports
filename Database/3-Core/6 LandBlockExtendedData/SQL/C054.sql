@@ -5,10 +5,10 @@ VALUES (0x7C054001,  1154, 0xC054003C, 169.1702, 75.63808, 30.11252, -0.5225237,
 /* @teleloc 0xC054003C [169.170200 75.638080 30.112520] -0.522524 0.000000 0.000000 -0.852625 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C054001, 0x7C054002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7C054001, 0x7C054003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7C054001, 0x7C054004, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7C054001, 0x7C054005, '2019-02-10 00:00:00') /* Shadow Wisp */;
+VALUES (0x7C054001, 0x7C054002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7C054001, 0x7C054003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7C054001, 0x7C054004, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7C054001, 0x7C054005, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C054002,  7128, 0xC054003C, 169.1702, 75.63808, 30.11252, -0.5225237, 0, 0, -0.8526248,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

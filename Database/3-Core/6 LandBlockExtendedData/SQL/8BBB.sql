@@ -5,15 +5,15 @@ VALUES (0x78BBB001,  1154, 0x8BBB0021, 119.373, 0.514679, 101.5141, 0.6401646, 0
 /* @teleloc 0x8BBB0021 [119.373000 0.514679 101.514100] 0.640165 0.000000 0.000000 -0.768238 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BBB001, 0x78BBB002, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x78BBB001, 0x78BBB003, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BBB001, 0x78BBB004, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BBB001, 0x78BBB005, '2019-02-10 00:00:00') /* Tusker Liberator */
-     , (0x78BBB001, 0x78BBB006, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78BBB001, 0x78BBB007, '2019-02-10 00:00:00') /* Virindi Puppet */
-     , (0x78BBB001, 0x78BBB008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78BBB001, 0x78BBB009, '2019-02-10 00:00:00') /* Tusker Slave */
-     , (0x78BBB001, 0x78BBB00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x78BBB001, 0x78BBB002, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x78BBB001, 0x78BBB003, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BBB001, 0x78BBB004, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BBB001, 0x78BBB005, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x78BBB001, 0x78BBB006, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78BBB001, 0x78BBB007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x78BBB001, 0x78BBB008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78BBB001, 0x78BBB009, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x78BBB001, 0x78BBB00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BBB002,  6041, 0x8BBB0021, 119.373, 0.514679, 101.5141, 0.6401646, 0, 0, -0.7682378,  True, '2019-02-10 00:00:00'); /* Dual Fragment */

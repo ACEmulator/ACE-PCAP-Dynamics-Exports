@@ -5,14 +5,14 @@ VALUES (0x70C0F001,  1154, 0x0C0F000D, 35.21215, 99.12686, 367.267, 1, 0, 0, 0, 
 /* @teleloc 0x0C0F000D [35.212150 99.126860 367.267000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C0F001, 0x70C0F002, '2019-02-10 00:00:00') /* Cursed Marionette */
-     , (0x70C0F001, 0x70C0F003, '2019-02-10 00:00:00') /* Hellion */
-     , (0x70C0F001, 0x70C0F004, '2019-02-10 00:00:00') /* Ravager */
-     , (0x70C0F001, 0x70C0F005, '2019-02-10 00:00:00') /* Damned Marionette */
-     , (0x70C0F001, 0x70C0F006, '2019-02-10 00:00:00') /* Monstrous Mite */
-     , (0x70C0F001, 0x70C0F007, '2019-02-10 00:00:00') /* Monstrous Mite */
-     , (0x70C0F001, 0x70C0F008, '2019-02-10 00:00:00') /* Monstrous Mite */
-     , (0x70C0F001, 0x70C0F009, '2019-02-10 00:00:00') /* Monstrous Mite */;
+VALUES (0x70C0F001, 0x70C0F002, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x70C0F001, 0x70C0F003, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x70C0F001, 0x70C0F004, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x70C0F001, 0x70C0F005, '2019-02-10 00:00:00') /* Damned Marionette (25866) */
+     , (0x70C0F001, 0x70C0F006, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70C0F001, 0x70C0F007, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70C0F001, 0x70C0F008, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70C0F001, 0x70C0F009, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C0F002, 25865, 0x0C0F000D, 35.21215, 99.12686, 367.267, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cursed Marionette */

@@ -5,9 +5,9 @@ VALUES (0x7CD27001,  1154, 0xCD270007, 11.548, 145.2984, 112.3557, -0.8105503, 0
 /* @teleloc 0xCD270007 [11.548000 145.298400 112.355700] -0.810550 0.000000 0.000000 -0.585669 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CD27001, 0x7CD27002, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7CD27001, 0x7CD27003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x7CD27001, 0x7CD27004, '2019-02-10 00:00:00') /* Ebon Mattekar */;
+VALUES (0x7CD27001, 0x7CD27002, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7CD27001, 0x7CD27003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x7CD27001, 0x7CD27004, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD27002,  7980, 0xCD270007, 11.548, 145.2984, 112.3557, -0.8105503, 0, 0, -0.585669,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */

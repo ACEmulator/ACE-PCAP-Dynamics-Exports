@@ -5,36 +5,36 @@ VALUES (0x7343B001,  1154, 0x343B0007, 15.85508, 161.437, 191.9244, -0.7838976, 
 /* @teleloc 0x343B0007 [15.855080 161.437000 191.924400] -0.783898 0.000000 0.000000 -0.620890 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7343B001, 0x7343B002, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343B001, 0x7343B003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343B001, 0x7343B004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7343B001, 0x7343B005, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x7343B001, 0x7343B006, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7343B001, 0x7343B007, '2019-02-10 00:00:00') /* Virindi Profatrix */
-     , (0x7343B001, 0x7343B008, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7343B001, 0x7343B009, '2019-02-10 00:00:00') /* Paroxysm Shadow */
-     , (0x7343B001, 0x7343B00A, '2019-02-10 00:00:00') /* Pandemonium Shadow */
-     , (0x7343B001, 0x7343B00B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x7343B001, 0x7343B00C, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343B001, 0x7343B00D, '2019-02-10 00:00:00') /* Chaos Wisp */
-     , (0x7343B001, 0x7343B00E, '2019-02-10 00:00:00') /* Tempest Wisp */
-     , (0x7343B001, 0x7343B00F, '2019-02-10 00:00:00') /* Virindi Desecrator */
-     , (0x7343B001, 0x7343B010, '2019-02-10 00:00:00') /* Virindi Consul */
-     , (0x7343B001, 0x7343B011, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x7343B001, 0x7343B012, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x7343B001, 0x7343B013, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7343B001, 0x7343B014, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x7343B001, 0x7343B015, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x7343B001, 0x7343B016, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7343B001, 0x7343B017, '2019-02-10 00:00:00') /* Shadow Phantom */
-     , (0x7343B001, 0x7343B018, '2019-02-10 00:00:00') /* Virindi Profane */
-     , (0x7343B001, 0x7343B019, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x7343B001, 0x7343B01A, '2019-02-10 00:00:00') /* Blighted Bane Grievver */
-     , (0x7343B001, 0x7343B01B, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x7343B001, 0x7343B01C, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x7343B001, 0x7343B01D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion */
-     , (0x7343B001, 0x7343B01E, '2019-02-10 00:00:00') /* Pyreal Golem */
-     , (0x7343B001, 0x7343B01F, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x7343B001, 0x7343B002, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343B001, 0x7343B003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343B001, 0x7343B004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7343B001, 0x7343B005, '2019-02-10 00:00:00') /* Drudge Bloodletter (23480) */
+     , (0x7343B001, 0x7343B006, '2019-02-10 00:00:00') /* Banderling Predator (23478) */
+     , (0x7343B001, 0x7343B007, '2019-02-10 00:00:00') /* Virindi Profatrix (36865) */
+     , (0x7343B001, 0x7343B008, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7343B001, 0x7343B009, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x7343B001, 0x7343B00A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x7343B001, 0x7343B00B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7343B001, 0x7343B00C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343B001, 0x7343B00D, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x7343B001, 0x7343B00E, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x7343B001, 0x7343B00F, '2019-02-10 00:00:00') /* Virindi Desecrator (36862) */
+     , (0x7343B001, 0x7343B010, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x7343B001, 0x7343B011, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x7343B001, 0x7343B012, '2019-02-10 00:00:00') /* Banderling Savage (24276) */
+     , (0x7343B001, 0x7343B013, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7343B001, 0x7343B014, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x7343B001, 0x7343B015, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x7343B001, 0x7343B016, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7343B001, 0x7343B017, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x7343B001, 0x7343B018, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x7343B001, 0x7343B019, '2019-02-10 00:00:00') /* Maelstrom Shadow (36847) */
+     , (0x7343B001, 0x7343B01A, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x7343B001, 0x7343B01B, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7343B001, 0x7343B01C, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7343B001, 0x7343B01D, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7343B001, 0x7343B01E, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x7343B001, 0x7343B01F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343B002, 22053, 0x343B0007, 15.85508, 161.437, 191.9244, -0.7838976, 0, 0, -0.6208901,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -161,7 +161,7 @@ VALUES (0x7343B020,  1542, 0x343B0020, 77.74167, 180.6497, 211.3427, 1, 0, 0, 0,
 /* @teleloc 0x343B0020 [77.741670 180.649700 211.342700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7343B020, 0x7343B021, '2019-02-10 00:00:00') /* Plateau Portal */;
+VALUES (0x7343B020, 0x7343B021, '2019-02-10 00:00:00') /* Plateau Portal (42812) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343B021, 42812, 0x343B0020, 77.74167, 180.6497, 211.3427, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plateau Portal */

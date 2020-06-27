@@ -5,23 +5,23 @@ VALUES (0x7C29E001,  1154, 0xC29E0032, 148.9408, 24.05931, 1.111, -0.9638059, 0,
 /* @teleloc 0xC29E0032 [148.940800 24.059310 1.111000] -0.963806 0.000000 0.000000 -0.266605 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C29E001, 0x7C29E002, '2019-02-10 00:00:00') /* Mud Golem */
-     , (0x7C29E001, 0x7C29E003, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C29E001, 0x7C29E004, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C29E001, 0x7C29E005, '2019-02-10 00:00:00') /* Reedshark Pup */
-     , (0x7C29E001, 0x7C29E006, '2019-02-10 00:00:00') /* Water Wisp */
-     , (0x7C29E001, 0x7C29E007, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C29E001, 0x7C29E008, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C29E001, 0x7C29E009, '2019-02-10 00:00:00') /* Spiny Armoredillo */
-     , (0x7C29E001, 0x7C29E00A, '2019-02-10 00:00:00') /* Shadow Sprite */
-     , (0x7C29E001, 0x7C29E00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7C29E001, 0x7C29E00C, '2019-02-10 00:00:00') /* Azure Gromnie */
-     , (0x7C29E001, 0x7C29E00D, '2019-02-10 00:00:00') /* Drudge Sneaker */
-     , (0x7C29E001, 0x7C29E00E, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C29E001, 0x7C29E00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7C29E001, 0x7C29E010, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7C29E001, 0x7C29E011, '2019-02-10 00:00:00') /* Broken Fragment */
-     , (0x7C29E001, 0x7C29E012, '2019-02-10 00:00:00') /* Auroch Yearling */;
+VALUES (0x7C29E001, 0x7C29E002, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C29E001, 0x7C29E003, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C29E001, 0x7C29E004, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C29E001, 0x7C29E005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7C29E001, 0x7C29E006, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7C29E001, 0x7C29E007, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C29E001, 0x7C29E008, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C29E001, 0x7C29E009, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
+     , (0x7C29E001, 0x7C29E00A, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7C29E001, 0x7C29E00B, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7C29E001, 0x7C29E00C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7C29E001, 0x7C29E00D, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7C29E001, 0x7C29E00E, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C29E001, 0x7C29E00F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7C29E001, 0x7C29E010, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7C29E001, 0x7C29E011, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7C29E001, 0x7C29E012, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C29E002,   200, 0xC29E0032, 148.9408, 24.05931, 1.111, -0.9638059, 0, 0, -0.2666052,  True, '2019-02-10 00:00:00'); /* Mud Golem */

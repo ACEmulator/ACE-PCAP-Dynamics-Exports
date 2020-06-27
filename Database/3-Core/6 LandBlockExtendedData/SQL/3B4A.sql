@@ -5,21 +5,21 @@ VALUES (0x73B4A001,  1154, 0x3B4A0039, 178.1295, 23.24701, 20.0064, -0.9127836, 
 /* @teleloc 0x3B4A0039 [178.129500 23.247010 20.006400] -0.912784 0.000000 0.000000 -0.408444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4A001, 0x73B4A002, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A003, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73B4A001, 0x73B4A005, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4A001, 0x73B4A006, '2019-02-10 00:00:00') /* Reedshark Slasher */
-     , (0x73B4A001, 0x73B4A007, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A008, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A009, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A00A, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A00B, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x73B4A001, 0x73B4A00C, '2019-02-10 00:00:00') /* Coral Golem */
-     , (0x73B4A001, 0x73B4A00D, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A00E, '2019-02-10 00:00:00') /* Desolation Moarsman */
-     , (0x73B4A001, 0x73B4A00F, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73B4A001, 0x73B4A010, '2019-02-10 00:00:00') /* Putrid Moarsman */;
+VALUES (0x73B4A001, 0x73B4A002, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A003, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73B4A001, 0x73B4A005, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4A001, 0x73B4A006, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73B4A001, 0x73B4A007, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A008, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A009, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A00A, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A00B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x73B4A001, 0x73B4A00C, '2019-02-10 00:00:00') /* Coral Golem (7626) */
+     , (0x73B4A001, 0x73B4A00D, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A00E, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x73B4A001, 0x73B4A00F, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73B4A001, 0x73B4A010, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4A002,  7181, 0x3B4A0039, 178.1295, 23.24701, 20.0064, -0.9127836, 0, 0, -0.4084435,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -86,7 +86,7 @@ VALUES (0x73B4A011,  1542, 0x3B4A0016, 65.82276, 126.035, 0.5147699, 0.9990482, 
 /* @teleloc 0x3B4A0016 [65.822760 126.035000 0.514770] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73B4A011, 0x73B4A012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73B4A011, 0x73B4A012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B4A012,  4179, 0x3B4A0016, 65.82276, 126.035, 0.5147699, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -9,16 +9,16 @@ VALUES (0x7A3E9001,  1154, 0xA3E9003E, 178.3673, 124.0801, 33.66999, -0.9361795,
 /* @teleloc 0xA3E9003E [178.367300 124.080100 33.669990] -0.936180 0.000000 0.000000 -0.351522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A3E9001, 0x7A3E9002, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A3E9001, 0x7A3E9003, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A3E9001, 0x7A3E9004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7A3E9001, 0x7A3E9005, '2019-02-10 00:00:00') /* Tumerok Gladiator */
-     , (0x7A3E9001, 0x7A3E9006, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A3E9001, 0x7A3E9007, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7A3E9001, 0x7A3E9008, '2019-02-10 00:00:00') /* Tumerok Major */
-     , (0x7A3E9001, 0x7A3E9009, '2019-02-10 00:00:00') /* Unruly Monouga */
-     , (0x7A3E9001, 0x7A3E900A, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A3E9001, 0x7A3E900B, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7A3E9001, 0x7A3E9002, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A3E9001, 0x7A3E9003, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A3E9001, 0x7A3E9004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7A3E9001, 0x7A3E9005, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7A3E9001, 0x7A3E9006, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A3E9001, 0x7A3E9007, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7A3E9001, 0x7A3E9008, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7A3E9001, 0x7A3E9009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7A3E9001, 0x7A3E900A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A3E9001, 0x7A3E900B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A3E9002,   201, 0xA3E9003E, 178.3673, 124.0801, 33.66999, -0.9361795, 0, 0, -0.3515224,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */

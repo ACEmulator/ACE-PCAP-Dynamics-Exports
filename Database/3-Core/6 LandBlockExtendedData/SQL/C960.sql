@@ -5,20 +5,20 @@ VALUES (0x7C960001,  1154, 0xC960001F, 81.31491, 155.8716, 5.5525, 0.9884271, 0,
 /* @teleloc 0xC960001F [81.314910 155.871600 5.552500] 0.988427 0.000000 0.000000 -0.151697 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C960001, 0x7C960002, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C960001, 0x7C960003, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7C960001, 0x7C960004, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7C960001, 0x7C960005, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7C960001, 0x7C960006, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C960001, 0x7C960007, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C960001, 0x7C960008, '2019-02-10 00:00:00') /* Aste Sclavus */
-     , (0x7C960001, 0x7C960009, '2019-02-10 00:00:00') /* Essa Sclavus */
-     , (0x7C960001, 0x7C96000A, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C960001, 0x7C96000B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C960001, 0x7C96000C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7C960001, 0x7C96000D, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C960001, 0x7C96000E, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7C960001, 0x7C96000F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */;
+VALUES (0x7C960001, 0x7C960002, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C960001, 0x7C960003, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7C960001, 0x7C960004, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7C960001, 0x7C960005, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7C960001, 0x7C960006, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C960001, 0x7C960007, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C960001, 0x7C960008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C960001, 0x7C960009, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
+     , (0x7C960001, 0x7C96000A, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C960001, 0x7C96000B, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C960001, 0x7C96000C, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7C960001, 0x7C96000D, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C960001, 0x7C96000E, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C960001, 0x7C96000F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C960002, 22208, 0xC960001F, 81.31491, 155.8716, 5.5525, 0.9884271, 0, 0, -0.1516965,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */

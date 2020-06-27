@@ -5,12 +5,12 @@ VALUES (0x7ABBC001,  1154, 0xABBC0005, 10.51363, 98.31824, 129.0765, 0.6427876, 
 /* @teleloc 0xABBC0005 [10.513630 98.318240 129.076500] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABBC001, 0x7ABBC002, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ABBC001, 0x7ABBC003, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x7ABBC001, 0x7ABBC004, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ABBC001, 0x7ABBC005, '2019-02-10 00:00:00') /* Banderling Scout */
-     , (0x7ABBC001, 0x7ABBC006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */
-     , (0x7ABBC001, 0x7ABBC007, '2019-02-10 00:00:00') /* Outcast Monouga */;
+VALUES (0x7ABBC001, 0x7ABBC002, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ABBC001, 0x7ABBC003, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x7ABBC001, 0x7ABBC004, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ABBC001, 0x7ABBC005, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7ABBC001, 0x7ABBC006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7ABBC001, 0x7ABBC007, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABBC002,     6, 0xABBC0005, 10.51363, 98.31824, 129.0765, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Banderling Scout */

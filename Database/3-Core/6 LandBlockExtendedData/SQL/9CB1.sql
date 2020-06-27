@@ -5,9 +5,9 @@ VALUES (0x79CB1001,  1154, 0x9CB10023, 99.88387, 66.7283, 90.02647, -0.6548174, 
 /* @teleloc 0x9CB10023 [99.883870 66.728300 90.026470] -0.654817 0.000000 0.000000 -0.755787 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79CB1001, 0x79CB1002, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x79CB1001, 0x79CB1003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79CB1001, 0x79CB1004, '2019-02-10 00:00:00') /* Shadow */;
+VALUES (0x79CB1001, 0x79CB1002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x79CB1001, 0x79CB1003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79CB1001, 0x79CB1004, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79CB1002,  7128, 0x9CB10023, 99.88387, 66.7283, 90.02647, -0.6548174, 0, 0, -0.7557871,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */

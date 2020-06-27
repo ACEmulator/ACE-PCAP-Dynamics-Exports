@@ -5,58 +5,58 @@ VALUES (0x795E9001,  1154, 0x95E90020, 95.0522, 171.418, 71.75034, 0.06473228, 0
 /* @teleloc 0x95E90020 [95.052200 171.418000 71.750340] 0.064732 0.000000 0.000000 0.997903 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795E9001, 0x795E9002, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9003, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9004, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9005, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x795E9001, 0x795E9007, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9008, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9009, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E900A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E900B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E900C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E900D, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x795E9001, 0x795E900E, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x795E9001, 0x795E900F, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x795E9001, 0x795E9010, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795E9001, 0x795E9011, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795E9001, 0x795E9012, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795E9001, 0x795E9013, '2019-02-10 00:00:00') /* Banderling Striker */
-     , (0x795E9001, 0x795E9014, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9015, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9016, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9017, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9018, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9019, '2019-02-10 00:00:00') /* An Empyrean device */
-     , (0x795E9001, 0x795E901A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E901B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E901C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E901D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E901E, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E901F, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9020, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9021, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9022, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9023, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9024, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9025, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9026, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9027, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9028, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9029, '2019-02-10 00:00:00') /* Augmented Drudge */
-     , (0x795E9001, 0x795E902A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E902B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E902C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E902D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E902E, '2019-02-10 00:00:00') /* Cunning Monouga */
-     , (0x795E9001, 0x795E902F, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x795E9001, 0x795E9030, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor */
-     , (0x795E9001, 0x795E9031, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */
-     , (0x795E9001, 0x795E9032, '2019-02-10 00:00:00') /* Azael Zefir */
-     , (0x795E9001, 0x795E9033, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x795E9001, 0x795E9034, '2019-02-10 00:00:00') /* Nalif Zefir */
-     , (0x795E9001, 0x795E9035, '2019-02-10 00:00:00') /* Apostate Rift Aggressor */;
+VALUES (0x795E9001, 0x795E9002, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9003, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9004, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9005, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x795E9001, 0x795E9007, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9008, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9009, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E900A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E900B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E900C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E900D, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x795E9001, 0x795E900E, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x795E9001, 0x795E900F, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x795E9001, 0x795E9010, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795E9001, 0x795E9011, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795E9001, 0x795E9012, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795E9001, 0x795E9013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x795E9001, 0x795E9014, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9015, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9016, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9017, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9018, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9019, '2019-02-10 00:00:00') /* An Empyrean device (43076) */
+     , (0x795E9001, 0x795E901A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E901B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E901C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E901D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E901E, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E901F, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9020, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9021, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9022, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9023, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9024, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9025, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9026, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9027, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9028, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9029, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795E9001, 0x795E902A, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E902B, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E902C, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E902D, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E902E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x795E9001, 0x795E902F, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x795E9001, 0x795E9030, '2019-02-10 00:00:00') /* Apostate Virindi Aggressor (43082) */
+     , (0x795E9001, 0x795E9031, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43079) */
+     , (0x795E9001, 0x795E9032, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
+     , (0x795E9001, 0x795E9033, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x795E9001, 0x795E9034, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x795E9001, 0x795E9035, '2019-02-10 00:00:00') /* Apostate Rift Aggressor (43079) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795E9002, 43082, 0x95E90020, 95.0522, 171.418, 71.75034, 0.06473228, 0, 0, 0.9979027,  True, '2019-02-10 00:00:00'); /* Apostate Virindi Aggressor */
@@ -271,8 +271,8 @@ VALUES (0x795E9036,  1542, 0x95E90014, 60.70271, 79.254, 72.6155, 0.4119913, 0, 
 /* @teleloc 0x95E90014 [60.702710 79.254000 72.615500] 0.411991 0.000000 0.000000 -0.911188 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795E9036, 0x795E9037, '2019-02-10 00:00:00') /* Orange Monster Seed */
-     , (0x795E9036, 0x795E9038, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x795E9036, 0x795E9037, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x795E9036, 0x795E9038, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795E9037, 31687, 0x95E90014, 60.70271, 79.254, 72.6155, 0.4119913, 0, 0, -0.9111878,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */

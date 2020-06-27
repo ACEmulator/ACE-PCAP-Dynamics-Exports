@@ -5,19 +5,19 @@ VALUES (0x7BAD0001,  1154, 0xBAD00011, 55.10706, 7.447063, 67.38541, 0.9669112, 
 /* @teleloc 0xBAD00011 [55.107060 7.447063 67.385410] 0.966911 0.000000 0.000000 -0.255113 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BAD0001, 0x7BAD0002, '2019-02-10 00:00:00') /* Tumerok High Priest */
-     , (0x7BAD0001, 0x7BAD0003, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7BAD0001, 0x7BAD0004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BAD0001, 0x7BAD0005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7BAD0001, 0x7BAD0006, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7BAD0001, 0x7BAD0007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x7BAD0001, 0x7BAD0008, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x7BAD0001, 0x7BAD0009, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BAD0001, 0x7BAD000A, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7BAD0001, 0x7BAD000B, '2019-02-10 00:00:00') /* Shadow Lieutenant */
-     , (0x7BAD0001, 0x7BAD000C, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x7BAD0001, 0x7BAD000D, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7BAD0001, 0x7BAD000E, '2019-02-10 00:00:00') /* Tumerok High Priest */;
+VALUES (0x7BAD0001, 0x7BAD0002, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x7BAD0001, 0x7BAD0003, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7BAD0001, 0x7BAD0004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BAD0001, 0x7BAD0005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7BAD0001, 0x7BAD0006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7BAD0001, 0x7BAD0007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x7BAD0001, 0x7BAD0008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x7BAD0001, 0x7BAD0009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BAD0001, 0x7BAD000A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BAD0001, 0x7BAD000B, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x7BAD0001, 0x7BAD000C, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7BAD0001, 0x7BAD000D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7BAD0001, 0x7BAD000E, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAD0002,   228, 0xBAD00011, 55.10706, 7.447063, 67.38541, 0.9669112, 0, 0, -0.2551132,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */

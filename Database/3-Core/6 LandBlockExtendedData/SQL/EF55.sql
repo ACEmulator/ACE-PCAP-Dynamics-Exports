@@ -5,23 +5,23 @@ VALUES (0x7EF55001,  1154, 0xEF550008, 1.771452, 176.7933, 0.01050007, 0.9238795
 /* @teleloc 0xEF550008 [1.771452 176.793300 0.010500] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF55001, 0x7EF55002, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EF55001, 0x7EF55003, '2019-02-10 00:00:00') /* Risen Soldier */
-     , (0x7EF55001, 0x7EF55004, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7EF55001, 0x7EF55005, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7EF55001, 0x7EF55006, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7EF55001, 0x7EF55007, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7EF55001, 0x7EF55008, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7EF55001, 0x7EF55009, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EF55001, 0x7EF5500A, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EF55001, 0x7EF5500B, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EF55001, 0x7EF5500C, '2019-02-10 00:00:00') /* Ashen Moarsman */
-     , (0x7EF55001, 0x7EF5500D, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7EF55001, 0x7EF5500E, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7EF55001, 0x7EF5500F, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7EF55001, 0x7EF55010, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EF55001, 0x7EF55011, '2019-02-10 00:00:00') /* Freshwater Armoredillo */
-     , (0x7EF55001, 0x7EF55012, '2019-02-10 00:00:00') /* Freshwater Armoredillo */;
+VALUES (0x7EF55001, 0x7EF55002, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EF55001, 0x7EF55003, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7EF55001, 0x7EF55004, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7EF55001, 0x7EF55005, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7EF55001, 0x7EF55006, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7EF55001, 0x7EF55007, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7EF55001, 0x7EF55008, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7EF55001, 0x7EF55009, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EF55001, 0x7EF5500A, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EF55001, 0x7EF5500B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EF55001, 0x7EF5500C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7EF55001, 0x7EF5500D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7EF55001, 0x7EF5500E, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7EF55001, 0x7EF5500F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7EF55001, 0x7EF55010, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EF55001, 0x7EF55011, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7EF55001, 0x7EF55012, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF55002,  2564, 0xEF550008, 1.771452, 176.7933, 0.01050007, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
@@ -96,7 +96,7 @@ VALUES (0x7EF55013,  1542, 0xEF550003, 19.28104, 71.89039, 3.235763, 1, 0, 0, 0,
 /* @teleloc 0xEF550003 [19.281040 71.890390 3.235763] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EF55013, 0x7EF55014, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7EF55013, 0x7EF55014, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF55014, 31443, 0xEF550003, 19.28104, 71.89039, 3.235763, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

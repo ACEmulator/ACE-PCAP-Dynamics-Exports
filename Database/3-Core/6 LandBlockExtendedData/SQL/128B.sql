@@ -5,14 +5,14 @@ VALUES (0x7128B001,  1154, 0x128B0002, 11.57081, 37.48627, 7.680755, -0.3341261,
 /* @teleloc 0x128B0002 [11.570810 37.486270 7.680755] -0.334126 0.000000 0.000000 -0.942528 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7128B001, 0x7128B002, '2019-02-10 00:00:00') /* Crystal Moiety */
-     , (0x7128B001, 0x7128B003, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7128B001, 0x7128B004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7128B001, 0x7128B005, '2019-02-10 00:00:00') /* Tenebrous Shadow */
-     , (0x7128B001, 0x7128B006, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7128B001, 0x7128B007, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x7128B001, 0x7128B008, '2019-02-10 00:00:00') /* Shadow Storm */
-     , (0x7128B001, 0x7128B009, '2019-02-10 00:00:00') /* Abyssal Shadow */;
+VALUES (0x7128B001, 0x7128B002, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x7128B001, 0x7128B003, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7128B001, 0x7128B004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7128B001, 0x7128B005, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7128B001, 0x7128B006, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7128B001, 0x7128B007, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x7128B001, 0x7128B008, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x7128B001, 0x7128B009, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7128B002, 24133, 0x128B0002, 11.57081, 37.48627, 7.680755, -0.3341261, 0, 0, -0.9425284,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */

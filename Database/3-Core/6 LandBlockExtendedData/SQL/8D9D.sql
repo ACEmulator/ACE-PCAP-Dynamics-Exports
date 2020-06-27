@@ -1269,8 +1269,8 @@ VALUES (0x78D9D13C,  1154, 0x8D9D0009, 45.61686, 6.904678, 43.45501, 0.06518479,
 /* @teleloc 0x8D9D0009 [45.616860 6.904678 43.455010] 0.065185 0.000000 0.000000 -0.997873 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78D9D13C, 0x78D9D13D, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x78D9D13C, 0x78D9D13E, '2019-02-10 00:00:00') /* Elaniwood Golem */;
+VALUES (0x78D9D13C, 0x78D9D13D, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x78D9D13C, 0x78D9D13E, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D9D13D, 11528, 0x8D9D0009, 45.61686, 6.904678, 43.45501, 0.06518479, 0, 0, -0.9978732,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */

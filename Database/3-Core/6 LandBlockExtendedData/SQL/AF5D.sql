@@ -5,10 +5,10 @@ VALUES (0x7AF5D001,  1154, 0xAF5D0032, 148.0368, 28.70502, 26.00332, -0.473285, 
 /* @teleloc 0xAF5D0032 [148.036800 28.705020 26.003320] -0.473285 0.000000 0.000000 -0.880909 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AF5D001, 0x7AF5D002, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7AF5D001, 0x7AF5D003, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7AF5D001, 0x7AF5D004, '2019-02-10 00:00:00') /* Skeleton Lord */
-     , (0x7AF5D001, 0x7AF5D005, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7AF5D001, 0x7AF5D002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7AF5D001, 0x7AF5D003, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7AF5D001, 0x7AF5D004, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
+     , (0x7AF5D001, 0x7AF5D005, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AF5D002,  1608, 0xAF5D0032, 148.0368, 28.70502, 26.00332, -0.473285, 0, 0, -0.8809094,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */

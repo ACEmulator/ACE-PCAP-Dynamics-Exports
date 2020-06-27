@@ -5,12 +5,12 @@ VALUES (0x79354001,  1154, 0x93540032, 162.3111, 27.45724, 13.05734, 0.8361648, 
 /* @teleloc 0x93540032 [162.311100 27.457240 13.057340] 0.836165 0.000000 0.000000 -0.548478 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79354001, 0x79354002, '2019-02-10 00:00:00') /* Lesser Mu-miyah */
-     , (0x79354001, 0x79354003, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79354001, 0x79354004, '2019-02-10 00:00:00') /* Desert Rat */
-     , (0x79354001, 0x79354005, '2019-02-10 00:00:00') /* Old Bones */
-     , (0x79354001, 0x79354006, '2019-02-10 00:00:00') /* Brown Armoredillo */
-     , (0x79354001, 0x79354007, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x79354001, 0x79354002, '2019-02-10 00:00:00') /* Lesser Mu-miyah (1763) */
+     , (0x79354001, 0x79354003, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79354001, 0x79354004, '2019-02-10 00:00:00') /* Desert Rat (1623) */
+     , (0x79354001, 0x79354005, '2019-02-10 00:00:00') /* Old Bones (4266) */
+     , (0x79354001, 0x79354006, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x79354001, 0x79354007, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79354002,  1763, 0x93540032, 162.3111, 27.45724, 13.05734, 0.8361648, 0, 0, -0.5484783,  True, '2019-02-10 00:00:00'); /* Lesser Mu-miyah */
@@ -41,9 +41,9 @@ VALUES (0x79354008,  1542, 0x93540026, 107.403, 137.215, 16.02252, 1, 0, 0, 0, F
 /* @teleloc 0x93540026 [107.403000 137.215000 16.022520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79354008, 0x79354009, '2019-02-10 00:00:00') /* Gem */
-     , (0x79354008, 0x7935400A, '2019-02-10 00:00:00') /* Gem */
-     , (0x79354008, 0x7935400B, '2019-02-10 00:00:00') /* Scroll of Drain Stamina Other II */;
+VALUES (0x79354008, 0x79354009, '2019-02-10 00:00:00') /* Gem (2418) */
+     , (0x79354008, 0x7935400A, '2019-02-10 00:00:00') /* Gem (2413) */
+     , (0x79354008, 0x7935400B, '2019-02-10 00:00:00') /* Scroll of Drain Stamina Other II (3726) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79354009,  2418, 0x93540026, 107.403, 137.215, 16.02252, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gem */

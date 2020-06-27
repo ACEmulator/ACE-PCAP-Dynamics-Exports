@@ -5,12 +5,12 @@ VALUES (0x79BEE001,  1154, 0x9BEE002A, 135.0265, 31.35477, -0.8974999, 0.7071068
 /* @teleloc 0x9BEE002A [135.026500 31.354770 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEE001, 0x79BEE002, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79BEE001, 0x79BEE003, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x79BEE001, 0x79BEE004, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x79BEE001, 0x79BEE005, '2019-02-10 00:00:00') /* Faisi Sclavus */
-     , (0x79BEE001, 0x79BEE006, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x79BEE001, 0x79BEE007, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x79BEE001, 0x79BEE002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79BEE001, 0x79BEE003, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x79BEE001, 0x79BEE004, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x79BEE001, 0x79BEE005, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x79BEE001, 0x79BEE006, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x79BEE001, 0x79BEE007, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEE002,  7179, 0x9BEE002A, 135.0265, 31.35477, -0.8974999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -41,7 +41,7 @@ VALUES (0x79BEE008,  1542, 0x9BEE0032, 151.3926, 29.03488, -0.91, -0.986354, 0, 
 /* @teleloc 0x9BEE0032 [151.392600 29.034880 -0.910000] -0.986354 0.000000 0.000000 -0.164638 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEE008, 0x79BEE009, '2019-02-10 00:00:00') /* Master's Holding */;
+VALUES (0x79BEE008, 0x79BEE009, '2019-02-10 00:00:00') /* Master's Holding (9287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEE009,  9287, 0x9BEE0032, 151.3926, 29.03488, -0.91, -0.986354, 0, 0, -0.1646384,  True, '2019-02-10 00:00:00'); /* Master's Holding */

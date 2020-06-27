@@ -5,20 +5,20 @@ VALUES (0x74AD4001,  1154, 0x4AD40026, 106.6145, 127.929, 47.34425, -0.8985487, 
 /* @teleloc 0x4AD40026 [106.614500 127.929000 47.344250] -0.898549 0.000000 0.000000 -0.438874 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AD4001, 0x74AD4002, '2019-02-10 00:00:00') /* Viamontian Mage */
-     , (0x74AD4001, 0x74AD4003, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x74AD4001, 0x74AD4004, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74AD4001, 0x74AD4005, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x74AD4001, 0x74AD4006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x74AD4001, 0x74AD4007, '2019-02-10 00:00:00') /* Viamontian Knight */
-     , (0x74AD4001, 0x74AD4008, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74AD4001, 0x74AD4009, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74AD4001, 0x74AD400A, '2019-02-10 00:00:00') /* Banderling Enforcer */
-     , (0x74AD4001, 0x74AD400B, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AD4001, 0x74AD400C, '2019-02-10 00:00:00') /* Augmented Tumerok */
-     , (0x74AD4001, 0x74AD400D, '2019-02-10 00:00:00') /* Banderling Thrasher */
-     , (0x74AD4001, 0x74AD400E, '2019-02-10 00:00:00') /* Gold Golem */
-     , (0x74AD4001, 0x74AD400F, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x74AD4001, 0x74AD4002, '2019-02-10 00:00:00') /* Viamontian Mage (29304) */
+     , (0x74AD4001, 0x74AD4003, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x74AD4001, 0x74AD4004, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74AD4001, 0x74AD4005, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74AD4001, 0x74AD4006, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x74AD4001, 0x74AD4007, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x74AD4001, 0x74AD4008, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74AD4001, 0x74AD4009, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74AD4001, 0x74AD400A, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x74AD4001, 0x74AD400B, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AD4001, 0x74AD400C, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
+     , (0x74AD4001, 0x74AD400D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x74AD4001, 0x74AD400E, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x74AD4001, 0x74AD400F, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AD4002, 29304, 0x4AD40026, 106.6145, 127.929, 47.34425, -0.8985487, 0, 0, -0.4388738,  True, '2019-02-10 00:00:00'); /* Viamontian Mage */
@@ -81,8 +81,8 @@ VALUES (0x74AD4010,  1542, 0x4AD40037, 157.33, 147.1995, 46, 1, 0, 0, 0, False, 
 /* @teleloc 0x4AD40037 [157.330000 147.199500 46.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74AD4010, 0x74AD4011, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x74AD4010, 0x74AD4012, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x74AD4010, 0x74AD4011, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x74AD4010, 0x74AD4012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74AD4011, 22566, 0x4AD40037, 157.33, 147.1995, 46, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

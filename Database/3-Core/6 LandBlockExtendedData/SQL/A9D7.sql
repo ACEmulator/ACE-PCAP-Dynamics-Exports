@@ -5,12 +5,12 @@ VALUES (0x7A9D7001,  1154, 0xA9D70016, 51.9556, 139.6828, 68.05128, -0.9728891, 
 /* @teleloc 0xA9D70016 [51.955600 139.682800 68.051280] -0.972889 0.000000 0.000000 -0.231272 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9D7001, 0x7A9D7002, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x7A9D7001, 0x7A9D7003, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x7A9D7001, 0x7A9D7004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A9D7001, 0x7A9D7005, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A9D7001, 0x7A9D7006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A9D7001, 0x7A9D7007, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x7A9D7001, 0x7A9D7002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7A9D7001, 0x7A9D7003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7A9D7001, 0x7A9D7004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A9D7001, 0x7A9D7005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A9D7001, 0x7A9D7006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A9D7001, 0x7A9D7007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9D7002,  9253, 0xA9D70016, 51.9556, 139.6828, 68.05128, -0.9728891, 0, 0, -0.2312721,  True, '2019-02-10 00:00:00'); /* Wily Monouga */

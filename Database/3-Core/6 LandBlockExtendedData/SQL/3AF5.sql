@@ -5,12 +5,12 @@ VALUES (0x73AF5001,  1154, 0x3AF50038, 153.3232, 185.1939, 1.225571, 0.1925273, 
 /* @teleloc 0x3AF50038 [153.323200 185.193900 1.225571] 0.192527 0.000000 0.000000 -0.981292 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73AF5001, 0x73AF5002, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73AF5001, 0x73AF5003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x73AF5001, 0x73AF5004, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x73AF5001, 0x73AF5005, '2019-02-10 00:00:00') /* Stasis Wisp */
-     , (0x73AF5001, 0x73AF5006, '2019-02-10 00:00:00') /* Small Coral Golem */
-     , (0x73AF5001, 0x73AF5007, '2019-02-10 00:00:00') /* Unruly Monouga */;
+VALUES (0x73AF5001, 0x73AF5002, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73AF5001, 0x73AF5003, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x73AF5001, 0x73AF5004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AF5001, 0x73AF5005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73AF5001, 0x73AF5006, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x73AF5001, 0x73AF5007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF5002, 24478, 0x3AF50038, 153.3232, 185.1939, 1.225571, 0.1925273, 0, 0, -0.9812916,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */

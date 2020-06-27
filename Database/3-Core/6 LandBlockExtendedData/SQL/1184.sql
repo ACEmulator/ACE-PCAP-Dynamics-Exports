@@ -5,11 +5,11 @@ VALUES (0x71184001,  1154, 0x11840024, 101.4193, 87.26308, 77.29684, -0.06911407
 /* @teleloc 0x11840024 [101.419300 87.263080 77.296840] -0.069114 0.000000 0.000000 -0.997609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71184001, 0x71184002, '2019-02-10 00:00:00') /* Tumerok War Monger */
-     , (0x71184001, 0x71184003, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x71184001, 0x71184004, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x71184001, 0x71184005, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x71184001, 0x71184006, '2019-02-10 00:00:00') /* Olthoi Mutilator */;
+VALUES (0x71184001, 0x71184002, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x71184001, 0x71184003, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x71184001, 0x71184004, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x71184001, 0x71184005, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71184001, 0x71184006, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71184002, 23567, 0x11840024, 101.4193, 87.26308, 77.29684, -0.06911407, 0, 0, -0.9976088,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */

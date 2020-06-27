@@ -5,14 +5,14 @@ VALUES (0x79C0D001,  1154, 0x9C0D003F, 184.4995, 159.1774, -0.8934, -0.8788171, 
 /* @teleloc 0x9C0D003F [184.499500 159.177400 -0.893400] -0.878817 0.000000 0.000000 -0.477159 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C0D001, 0x79C0D002, '2019-02-10 00:00:00') /* Mosswart Zealot */
-     , (0x79C0D001, 0x79C0D003, '2019-02-10 00:00:00') /* Dread Idol */
-     , (0x79C0D001, 0x79C0D004, '2019-02-10 00:00:00') /* Shadow */
-     , (0x79C0D001, 0x79C0D005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x79C0D001, 0x79C0D006, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79C0D001, 0x79C0D007, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79C0D001, 0x79C0D008, '2019-02-10 00:00:00') /* Sephal Niffis */
-     , (0x79C0D001, 0x79C0D009, '2019-02-10 00:00:00') /* Dark Revenant */;
+VALUES (0x79C0D001, 0x79C0D002, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
+     , (0x79C0D001, 0x79C0D003, '2019-02-10 00:00:00') /* Dread Idol (8467) */
+     , (0x79C0D001, 0x79C0D004, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79C0D001, 0x79C0D005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79C0D001, 0x79C0D006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79C0D001, 0x79C0D007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79C0D001, 0x79C0D008, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x79C0D001, 0x79C0D009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C0D002,  8429, 0x9C0D003F, 184.4995, 159.1774, -0.8934, -0.8788171, 0, 0, -0.4771587,  True, '2019-02-10 00:00:00'); /* Mosswart Zealot */

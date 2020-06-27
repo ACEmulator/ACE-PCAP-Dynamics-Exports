@@ -5,13 +5,13 @@ VALUES (0x7A83C001,  1154, 0xA83C003C, 190.1346, 91.90976, 36.00455, 0.9997487, 
 /* @teleloc 0xA83C003C [190.134600 91.909760 36.004550] 0.999749 0.000000 0.000000 -0.022418 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A83C001, 0x7A83C002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7A83C001, 0x7A83C003, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A83C001, 0x7A83C004, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x7A83C001, 0x7A83C005, '2019-02-10 00:00:00') /* Outcast Monouga */
-     , (0x7A83C001, 0x7A83C006, '2019-02-10 00:00:00') /* Olthoi Worker */
-     , (0x7A83C001, 0x7A83C007, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7A83C001, 0x7A83C008, '2019-02-10 00:00:00') /* Gotrok Gigas */;
+VALUES (0x7A83C001, 0x7A83C002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7A83C001, 0x7A83C003, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A83C001, 0x7A83C004, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x7A83C001, 0x7A83C005, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7A83C001, 0x7A83C006, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7A83C001, 0x7A83C007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7A83C001, 0x7A83C008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A83C002,  1609, 0xA83C003C, 190.1346, 91.90976, 36.00455, 0.9997487, 0, 0, -0.02241771,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -46,8 +46,8 @@ VALUES (0x7A83C009,  1542, 0xA83C003D, 168.3649, 103.3416, 36.03041, -0.9739017,
 /* @teleloc 0xA83C003D [168.364900 103.341600 36.030410] -0.973902 0.000000 0.000000 -0.226970 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A83C009, 0x7A83C00A, '2019-02-10 00:00:00') /* Verdalim Plant */
-     , (0x7A83C009, 0x7A83C00B, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A83C009, 0x7A83C00A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7A83C009, 0x7A83C00B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A83C00A,  8037, 0xA83C003D, 168.3649, 103.3416, 36.03041, -0.9739017, 0, 0, -0.2269701,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */

@@ -5,13 +5,13 @@ VALUES (0x78CE5001,  1154, 0x8CE50021, 114.6142, 3.325027, 33.73392, -0.292756, 
 /* @teleloc 0x8CE50021 [114.614200 3.325027 33.733920] -0.292756 0.000000 0.000000 -0.956187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CE5001, 0x78CE5002, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x78CE5001, 0x78CE5003, '2019-02-10 00:00:00') /* Ferocious Monouga */
-     , (0x78CE5001, 0x78CE5004, '2019-02-10 00:00:00') /* Banderling Berserker */
-     , (0x78CE5001, 0x78CE5005, '2019-02-10 00:00:00') /* Terrible Monouga */
-     , (0x78CE5001, 0x78CE5006, '2019-02-10 00:00:00') /* Crystal Golem */
-     , (0x78CE5001, 0x78CE5007, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x78CE5001, 0x78CE5008, '2019-02-10 00:00:00') /* Dual Fragment */;
+VALUES (0x78CE5001, 0x78CE5002, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x78CE5001, 0x78CE5003, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78CE5001, 0x78CE5004, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78CE5001, 0x78CE5005, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x78CE5001, 0x78CE5006, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
+     , (0x78CE5001, 0x78CE5007, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78CE5001, 0x78CE5008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CE5002,  1629, 0x8CE50021, 114.6142, 3.325027, 33.73392, -0.292756, 0, 0, -0.9561872,  True, '2019-02-10 00:00:00'); /* Tusker Guard */

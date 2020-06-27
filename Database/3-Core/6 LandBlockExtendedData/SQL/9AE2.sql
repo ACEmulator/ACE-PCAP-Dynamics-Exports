@@ -5,14 +5,14 @@ VALUES (0x79AE2001,  1154, 0x9AE20018, 55.29869, 178.1222, 191.5565, -0.8172714,
 /* @teleloc 0x9AE20018 [55.298690 178.122200 191.556500] -0.817271 0.000000 0.000000 -0.576253 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79AE2001, 0x79AE2002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AE2001, 0x79AE2003, '2019-02-10 00:00:00') /* Olthoi Noble */
-     , (0x79AE2001, 0x79AE2004, '2019-02-10 00:00:00') /* Blighted Oak Golem */
-     , (0x79AE2001, 0x79AE2005, '2019-02-10 00:00:00') /* Frost */
-     , (0x79AE2001, 0x79AE2006, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x79AE2001, 0x79AE2007, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x79AE2001, 0x79AE2008, '2019-02-10 00:00:00') /* Tusker Guard */
-     , (0x79AE2001, 0x79AE2009, '2019-02-10 00:00:00') /* Tusker Guard */;
+VALUES (0x79AE2001, 0x79AE2002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AE2001, 0x79AE2003, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x79AE2001, 0x79AE2004, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x79AE2001, 0x79AE2005, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x79AE2001, 0x79AE2006, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x79AE2001, 0x79AE2007, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x79AE2001, 0x79AE2008, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x79AE2001, 0x79AE2009, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79AE2002,  7088, 0x9AE20018, 55.29869, 178.1222, 191.5565, -0.8172714, 0, 0, -0.5762529,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */

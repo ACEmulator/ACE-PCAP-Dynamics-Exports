@@ -5,53 +5,53 @@ VALUES (0x7ED25001,  1154, 0xED250019, 78.52554, 18.29488, -0.09460002, -0.83360
 /* @teleloc 0xED250019 [78.525540 18.294880 -0.094600] -0.833606 0.000000 0.000000 -0.552360 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED25001, 0x7ED25002, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED25001, 0x7ED25003, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25004, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25005, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25006, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25007, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25008, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED25009, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED2500A, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7ED25001, 0x7ED2500B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED2500C, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED2500D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED2500E, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED2500F, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25010, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED25011, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED25012, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ED25001, 0x7ED25013, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ED25001, 0x7ED25014, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED25001, 0x7ED25015, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED25016, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED25017, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ED25001, 0x7ED25018, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25019, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED2501A, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED2501B, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED2501C, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED2501D, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED25001, 0x7ED2501E, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED2501F, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED25020, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED25001, 0x7ED25021, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25022, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED25023, '2019-02-10 00:00:00') /* Ulu Sclavus */
-     , (0x7ED25001, 0x7ED25024, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7ED25001, 0x7ED25025, '2019-02-10 00:00:00') /* Sufut Zefir */
-     , (0x7ED25001, 0x7ED25026, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7ED25001, 0x7ED25027, '2019-02-10 00:00:00') /* Rank Moarsman */
-     , (0x7ED25001, 0x7ED25028, '2019-02-10 00:00:00') /* Shallows Destroyer */
-     , (0x7ED25001, 0x7ED25029, '2019-02-10 00:00:00') /* Foul Moarsman */
-     , (0x7ED25001, 0x7ED2502A, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x7ED25001, 0x7ED2502B, '2019-02-10 00:00:00') /* Shallows Devourer */
-     , (0x7ED25001, 0x7ED2502C, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED2502D, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED2502E, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED2502F, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7ED25001, 0x7ED25030, '2019-02-10 00:00:00') /* Foul Moarsman */;
+VALUES (0x7ED25001, 0x7ED25002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED25001, 0x7ED25003, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25004, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25005, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25006, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED25009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED2500A, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7ED25001, 0x7ED2500B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED2500C, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED2500D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED2500E, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED2500F, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED25011, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED25012, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ED25001, 0x7ED25013, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ED25001, 0x7ED25014, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED25001, 0x7ED25015, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED25016, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED25017, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ED25001, 0x7ED25018, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25019, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED2501A, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED2501B, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED2501C, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED2501D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED25001, 0x7ED2501E, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED2501F, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED25020, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED25001, 0x7ED25021, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25022, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED25023, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7ED25001, 0x7ED25024, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7ED25001, 0x7ED25025, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
+     , (0x7ED25001, 0x7ED25026, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7ED25001, 0x7ED25027, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7ED25001, 0x7ED25028, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7ED25001, 0x7ED25029, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */
+     , (0x7ED25001, 0x7ED2502A, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7ED25001, 0x7ED2502B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7ED25001, 0x7ED2502C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED2502D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED2502E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED2502F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7ED25001, 0x7ED25030, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED25002,  4247, 0xED250019, 78.52554, 18.29488, -0.09460002, -0.8336055, 0, 0, -0.5523604,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -246,9 +246,9 @@ VALUES (0x7ED25031,  1542, 0xED25001D, 89.47649, 100.5965, -3.72529E-09, 1, 0, 0
 /* @teleloc 0xED25001D [89.476490 100.596500 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ED25031, 0x7ED25032, '2019-02-10 00:00:00') /* Bones */
-     , (0x7ED25031, 0x7ED25033, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ED25031, 0x7ED25034, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x7ED25031, 0x7ED25032, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7ED25031, 0x7ED25033, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ED25031, 0x7ED25034, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED25032,  4379, 0xED25001D, 89.47649, 100.5965, -3.72529E-09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */

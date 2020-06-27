@@ -5,18 +5,18 @@ VALUES (0x73A16001,  1154, 0x3A160029, 127.4442, 12.23649, 44.0085, 0.6143113, 0
 /* @teleloc 0x3A160029 [127.444200 12.236490 44.008500] 0.614311 0.000000 0.000000 -0.789064 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A16001, 0x73A16002, '2019-02-10 00:00:00') /* Inferno */
-     , (0x73A16001, 0x73A16003, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73A16001, 0x73A16004, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A16001, 0x73A16005, '2019-02-10 00:00:00') /* Skeletal Champion */
-     , (0x73A16001, 0x73A16006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A16001, 0x73A16007, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x73A16001, 0x73A16008, '2019-02-10 00:00:00') /* Cursed Wisp */
-     , (0x73A16001, 0x73A16009, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A16001, 0x73A1600A, '2019-02-10 00:00:00') /* Dire Champion Skeleton */
-     , (0x73A16001, 0x73A1600B, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x73A16001, 0x73A1600C, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x73A16001, 0x73A1600D, '2019-02-10 00:00:00') /* Extas Raider */;
+VALUES (0x73A16001, 0x73A16002, '2019-02-10 00:00:00') /* Inferno (5712) */
+     , (0x73A16001, 0x73A16003, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73A16001, 0x73A16004, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A16001, 0x73A16005, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x73A16001, 0x73A16006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A16001, 0x73A16007, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x73A16001, 0x73A16008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x73A16001, 0x73A16009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A16001, 0x73A1600A, '2019-02-10 00:00:00') /* Dire Champion Skeleton (36857) */
+     , (0x73A16001, 0x73A1600B, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x73A16001, 0x73A1600C, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x73A16001, 0x73A1600D, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A16002,  5712, 0x3A160029, 127.4442, 12.23649, 44.0085, 0.6143113, 0, 0, -0.7890638,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -71,8 +71,8 @@ VALUES (0x73A1600E,  1542, 0x3A160034, 147.2505, 89.17199, 43.19, -4.371139E-08,
 /* @teleloc 0x3A160034 [147.250500 89.171990 43.190000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73A1600E, 0x73A1600F, '2019-02-10 00:00:00') /* Bones */
-     , (0x73A1600E, 0x73A16010, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x73A1600E, 0x73A1600F, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x73A1600E, 0x73A16010, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A1600F,  4380, 0x3A160034, 147.2505, 89.17199, 43.19, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */

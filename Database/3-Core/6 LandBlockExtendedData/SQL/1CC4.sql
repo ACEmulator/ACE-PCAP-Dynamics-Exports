@@ -5,11 +5,11 @@ VALUES (0x71CC4001,  1154, 0x1CC4003A, 171.8536, 37.34303, 34.79378, 0.8191521, 
 /* @teleloc 0x1CC4003A [171.853600 37.343030 34.793780] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71CC4001, 0x71CC4002, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC4001, 0x71CC4003, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC4001, 0x71CC4004, '2019-02-10 00:00:00') /* Copper Gromnie */
-     , (0x71CC4001, 0x71CC4005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms */
-     , (0x71CC4001, 0x71CC4006, '2019-02-10 00:00:00') /* Virindi Executor */;
+VALUES (0x71CC4001, 0x71CC4002, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC4001, 0x71CC4003, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC4001, 0x71CC4004, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x71CC4001, 0x71CC4005, '2019-02-10 00:00:00') /* Viamontian Man-at-Arms (28657) */
+     , (0x71CC4001, 0x71CC4006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71CC4002, 27711, 0x1CC4003A, 171.8536, 37.34303, 34.79378, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */

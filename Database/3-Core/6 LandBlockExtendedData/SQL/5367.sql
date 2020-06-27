@@ -173,8 +173,8 @@ VALUES (0x7536702A,  1542, 0x53670123, 28.72262, -29.23579, -0.071, 0.469753, 0.
 /* @teleloc 0x53670123 [28.722620 -29.235790 -0.071000] 0.469753 0.469753 -0.528519 -0.528519 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7536702A, 0x7536702B, '2019-02-10 00:00:00') /* Peerless Smoldering Atlan Sword */
-     , (0x7536702A, 0x7536702C, '2019-02-10 00:00:00') /* Writ of Refuge */;
+VALUES (0x7536702A, 0x7536702B, '2019-02-10 00:00:00') /* Peerless Smoldering Atlan Sword (6294) */
+     , (0x7536702A, 0x7536702C, '2019-02-10 00:00:00') /* Writ of Refuge (11710) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7536702B,  6294, 0x53670123, 28.72262, -29.23579, -0.071, 0.469753, 0.469753, -0.5285188, -0.5285188,  True, '2019-02-10 00:00:00'); /* Peerless Smoldering Atlan Sword */

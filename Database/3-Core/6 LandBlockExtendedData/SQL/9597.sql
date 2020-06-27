@@ -17,11 +17,11 @@ VALUES (0x79597004,  1154, 0x95970016, 69.18528, 120.0562, 224.0055, 1, 0, 0, 0,
 /* @teleloc 0x95970016 [69.185280 120.056200 224.005500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79597004, 0x79597005, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x79597004, 0x79597006, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x79597004, 0x79597007, '2019-02-10 00:00:00') /* Crude Monouga */
-     , (0x79597004, 0x79597008, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x79597004, 0x79597009, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x79597004, 0x79597005, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x79597004, 0x79597006, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x79597004, 0x79597007, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
+     , (0x79597004, 0x79597008, '2019-02-10 00:00:00') /* Young Banderling (42433) */
+     , (0x79597004, 0x79597009, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79597005,   231, 0x95970016, 69.18528, 120.0562, 224.0055, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -48,12 +48,12 @@ VALUES (0x7959700A,  1542, 0x95970016, 70.13697, 122.0837, 223.9978, 1, 0, 0, 0,
 /* @teleloc 0x95970016 [70.136970 122.083700 223.997800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7959700A, 0x7959700B, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7959700A, 0x7959700C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7959700A, 0x7959700D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7959700A, 0x7959700E, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7959700A, 0x7959700F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */
-     , (0x7959700A, 0x79597010, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom */;
+VALUES (0x7959700A, 0x7959700B, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7959700A, 0x7959700C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7959700A, 0x7959700D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7959700A, 0x7959700E, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7959700A, 0x7959700F, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7959700A, 0x79597010, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7959700B, 31443, 0x95970016, 70.13697, 122.0837, 223.9978, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

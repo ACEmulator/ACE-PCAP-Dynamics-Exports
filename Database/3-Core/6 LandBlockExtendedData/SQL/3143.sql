@@ -5,13 +5,13 @@ VALUES (0x73143001,  1154, 0x31430032, 161.9034, 42.19976, 4.381371, -0.629558, 
 /* @teleloc 0x31430032 [161.903400 42.199760 4.381371] -0.629558 0.000000 0.000000 -0.776954 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73143001, 0x73143002, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73143001, 0x73143003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x73143001, 0x73143004, '2019-02-10 00:00:00') /* Guardian Mu-miyah */
-     , (0x73143001, 0x73143005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x73143001, 0x73143006, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73143001, 0x73143007, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x73143001, 0x73143008, '2019-02-10 00:00:00') /* Cursed Wisp */;
+VALUES (0x73143001, 0x73143002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73143001, 0x73143003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73143001, 0x73143004, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
+     , (0x73143001, 0x73143005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x73143001, 0x73143006, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73143001, 0x73143007, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x73143001, 0x73143008, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73143002,  7119, 0x31430032, 161.9034, 42.19976, 4.381371, -0.629558, 0, 0, -0.7769535,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -46,7 +46,7 @@ VALUES (0x73143009,  1542, 0x3143000D, 32.68114, 100.9588, 0, 1, 0, 0, 0, False,
 /* @teleloc 0x3143000D [32.681140 100.958800 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73143009, 0x7314300A, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x73143009, 0x7314300A, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7314300A, 22567, 0x3143000D, 32.68114, 100.9588, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

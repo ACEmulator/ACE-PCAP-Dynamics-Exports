@@ -5,17 +5,17 @@ VALUES (0x72617001,  1154, 0x26170039, 183.4705, 2.414356, 12.78462, 0.8870109, 
 /* @teleloc 0x26170039 [183.470500 2.414356 12.784620] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72617001, 0x72617002, '2019-02-10 00:00:00') /* Abyssal Shadow */
-     , (0x72617001, 0x72617003, '2019-02-10 00:00:00') /* Shadow Spectre */
-     , (0x72617001, 0x72617004, '2019-02-10 00:00:00') /* Virindi Inquisitor */
-     , (0x72617001, 0x72617005, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72617001, 0x72617006, '2019-02-10 00:00:00') /* Rampager */
-     , (0x72617001, 0x72617007, '2019-02-10 00:00:00') /* Virindi Adjudicator */
-     , (0x72617001, 0x72617008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion */
-     , (0x72617001, 0x72617009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x72617001, 0x7261700A, '2019-02-10 00:00:00') /* Entropy Wisp */
-     , (0x72617001, 0x7261700B, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x72617001, 0x7261700C, '2019-02-10 00:00:00') /* Theral */;
+VALUES (0x72617001, 0x72617002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72617001, 0x72617003, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x72617001, 0x72617004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x72617001, 0x72617005, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72617001, 0x72617006, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72617001, 0x72617007, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x72617001, 0x72617008, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
+     , (0x72617001, 0x72617009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72617001, 0x7261700A, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
+     , (0x72617001, 0x7261700B, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x72617001, 0x7261700C, '2019-02-10 00:00:00') /* Theral (14880) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72617002, 36845, 0x26170039, 183.4705, 2.414356, 12.78462, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -66,7 +66,7 @@ VALUES (0x7261700D,  1542, 0x26170011, 65.50242, 2.284895, 12.53146, 0.7720109, 
 /* @teleloc 0x26170011 [65.502420 2.284895 12.531460] 0.772011 0.000000 0.000000 -0.635609 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7261700D, 0x7261700E, '2019-02-10 00:00:00') /* Singularity Trove */;
+VALUES (0x7261700D, 0x7261700E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7261700E,  9288, 0x26170011, 65.50242, 2.284895, 12.53146, 0.7720109, 0, 0, -0.6356093,  True, '2019-02-10 00:00:00'); /* Singularity Trove */

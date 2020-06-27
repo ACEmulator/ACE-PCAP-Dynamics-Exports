@@ -5,26 +5,26 @@ VALUES (0x7ADBC001,  1154, 0xADBC0032, 147.0306, 30.12111, 125.2727, 0.7071068, 
 /* @teleloc 0xADBC0032 [147.030600 30.121110 125.272700] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADBC001, 0x7ADBC002, '2019-02-10 00:00:00') /* Snowman */
-     , (0x7ADBC001, 0x7ADBC003, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADBC001, 0x7ADBC004, '2019-02-10 00:00:00') /* Mite Digger */
-     , (0x7ADBC001, 0x7ADBC005, '2019-02-10 00:00:00') /* Small Shadow Child */
-     , (0x7ADBC001, 0x7ADBC006, '2019-02-10 00:00:00') /* Female Tusker */
-     , (0x7ADBC001, 0x7ADBC007, '2019-02-10 00:00:00') /* Banderling Raver */
-     , (0x7ADBC001, 0x7ADBC008, '2019-02-10 00:00:00') /* Banderling Captain */
-     , (0x7ADBC001, 0x7ADBC009, '2019-02-10 00:00:00') /* Hunter Shreth */
-     , (0x7ADBC001, 0x7ADBC00A, '2019-02-10 00:00:00') /* Mite Scamp */
-     , (0x7ADBC001, 0x7ADBC00B, '2019-02-10 00:00:00') /* Wood Golem */
-     , (0x7ADBC001, 0x7ADBC00C, '2019-02-10 00:00:00') /* Jade Gromnie */
-     , (0x7ADBC001, 0x7ADBC00D, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ADBC001, 0x7ADBC00E, '2019-02-10 00:00:00') /* Mite Sentry */
-     , (0x7ADBC001, 0x7ADBC00F, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADBC001, 0x7ADBC010, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADBC001, 0x7ADBC011, '2019-02-10 00:00:00') /* Drudge Slinker */
-     , (0x7ADBC001, 0x7ADBC012, '2019-02-10 00:00:00') /* Young Banderling */
-     , (0x7ADBC001, 0x7ADBC013, '2019-02-10 00:00:00') /* Mite Scion */
-     , (0x7ADBC001, 0x7ADBC014, '2019-02-10 00:00:00') /* Mite Squire */
-     , (0x7ADBC001, 0x7ADBC015, '2019-02-10 00:00:00') /* Hunter Shreth */;
+VALUES (0x7ADBC001, 0x7ADBC002, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x7ADBC001, 0x7ADBC003, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADBC001, 0x7ADBC004, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7ADBC001, 0x7ADBC005, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7ADBC001, 0x7ADBC006, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7ADBC001, 0x7ADBC007, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7ADBC001, 0x7ADBC008, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7ADBC001, 0x7ADBC009, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7ADBC001, 0x7ADBC00A, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ADBC001, 0x7ADBC00B, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7ADBC001, 0x7ADBC00C, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7ADBC001, 0x7ADBC00D, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ADBC001, 0x7ADBC00E, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7ADBC001, 0x7ADBC00F, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADBC001, 0x7ADBC010, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADBC001, 0x7ADBC011, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7ADBC001, 0x7ADBC012, '2019-02-10 00:00:00') /* Young Banderling (939) */
+     , (0x7ADBC001, 0x7ADBC013, '2019-02-10 00:00:00') /* Mite Scion (943) */
+     , (0x7ADBC001, 0x7ADBC014, '2019-02-10 00:00:00') /* Mite Squire (946) */
+     , (0x7ADBC001, 0x7ADBC015, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADBC002,  5766, 0xADBC0032, 147.0306, 30.12111, 125.2727, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -111,8 +111,8 @@ VALUES (0x7ADBC016,  1542, 0xADBC0023, 100.0693, 59.77916, 127.2839, 1, 0, 0, 0,
 /* @teleloc 0xADBC0023 [100.069300 59.779160 127.283900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADBC016, 0x7ADBC017, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x7ADBC016, 0x7ADBC018, '2019-02-10 00:00:00') /* Pile of Long Sticks */;
+VALUES (0x7ADBC016, 0x7ADBC017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7ADBC016, 0x7ADBC018, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADBC017,  4179, 0xADBC0023, 100.0693, 59.77916, 127.2839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

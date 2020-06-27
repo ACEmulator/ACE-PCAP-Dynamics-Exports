@@ -5,13 +5,13 @@ VALUES (0x79525001,  1154, 0x95250036, 147.2532, 131.269, 147.4668, 1, 0, 0, 0, 
 /* @teleloc 0x95250036 [147.253200 131.269000 147.466800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79525001, 0x79525002, '2019-02-10 00:00:00') /* Wasteland Rat */
-     , (0x79525001, 0x79525003, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x79525001, 0x79525004, '2019-02-10 00:00:00') /* Fire Wisp */
-     , (0x79525001, 0x79525005, '2019-02-10 00:00:00') /* Relic Bones */
-     , (0x79525001, 0x79525006, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79525001, 0x79525007, '2019-02-10 00:00:00') /* Dual Fragment */
-     , (0x79525001, 0x79525008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x79525001, 0x79525002, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79525001, 0x79525003, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79525001, 0x79525004, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79525001, 0x79525005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79525001, 0x79525006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79525001, 0x79525007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79525001, 0x79525008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79525002,  7107, 0x95250036, 147.2532, 131.269, 147.4668, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
@@ -46,8 +46,8 @@ VALUES (0x79525009,  1542, 0x95250036, 152.1647, 132.2676, 147.6547, 1, 0, 0, 0,
 /* @teleloc 0x95250036 [152.164700 132.267600 147.654700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79525009, 0x7952500A, '2019-02-10 00:00:00') /* Corpse */
-     , (0x79525009, 0x7952500B, '2019-02-10 00:00:00') /* Berimphur Plant */;
+VALUES (0x79525009, 0x7952500A, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79525009, 0x7952500B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7952500A,  4180, 0x95250036, 152.1647, 132.2676, 147.6547, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */

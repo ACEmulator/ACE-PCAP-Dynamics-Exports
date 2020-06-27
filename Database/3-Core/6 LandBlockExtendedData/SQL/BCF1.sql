@@ -5,22 +5,22 @@ VALUES (0x7BCF1001,  1154, 0xBCF10032, 146.3105, 31.85001, -0.00544389, 1, 0, 0,
 /* @teleloc 0xBCF10032 [146.310500 31.850010 -0.005444] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCF1001, 0x7BCF1002, '2019-02-10 00:00:00') /* Giant Phyntos Hive */
-     , (0x7BCF1001, 0x7BCF1003, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BCF1001, 0x7BCF1004, '2019-02-10 00:00:00') /* Giant Phyntos Swarm */
-     , (0x7BCF1001, 0x7BCF1005, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BCF1001, 0x7BCF1006, '2019-02-10 00:00:00') /* Gloom Drudge */
-     , (0x7BCF1001, 0x7BCF1007, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF1001, 0x7BCF1008, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF1001, 0x7BCF1009, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BCF1001, 0x7BCF100A, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BCF1001, 0x7BCF100B, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BCF1001, 0x7BCF100C, '2019-02-10 00:00:00') /* Ancient Diamond Golem */
-     , (0x7BCF1001, 0x7BCF100D, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF1001, 0x7BCF100E, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF1001, 0x7BCF100F, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x7BCF1001, 0x7BCF1010, '2019-02-10 00:00:00') /* Phantom */
-     , (0x7BCF1001, 0x7BCF1011, '2019-02-10 00:00:00') /* Nightmare Wisp */;
+VALUES (0x7BCF1001, 0x7BCF1002, '2019-02-10 00:00:00') /* Giant Phyntos Hive (28254) */
+     , (0x7BCF1001, 0x7BCF1003, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BCF1001, 0x7BCF1004, '2019-02-10 00:00:00') /* Giant Phyntos Swarm (28255) */
+     , (0x7BCF1001, 0x7BCF1005, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BCF1001, 0x7BCF1006, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7BCF1001, 0x7BCF1007, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF1001, 0x7BCF1008, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF1001, 0x7BCF1009, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BCF1001, 0x7BCF100A, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BCF1001, 0x7BCF100B, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BCF1001, 0x7BCF100C, '2019-02-10 00:00:00') /* Ancient Diamond Golem (27798) */
+     , (0x7BCF1001, 0x7BCF100D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF1001, 0x7BCF100E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF1001, 0x7BCF100F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x7BCF1001, 0x7BCF1010, '2019-02-10 00:00:00') /* Phantom (28244) */
+     , (0x7BCF1001, 0x7BCF1011, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCF1002, 28254, 0xBCF10032, 146.3105, 31.85001, -0.00544389, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Giant Phyntos Hive */
@@ -91,7 +91,7 @@ VALUES (0x7BCF1012,  1542, 0xBCF10026, 116.796, 141.8681, 12.801, 1, 0, 0, 0, Fa
 /* @teleloc 0xBCF10026 [116.796000 141.868100 12.801000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCF1012, 0x7BCF1013, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7BCF1012, 0x7BCF1013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCF1013,  4179, 0xBCF10026, 116.796, 141.8681, 12.801, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */

@@ -5,12 +5,12 @@ VALUES (0x75CDA001,  1154, 0x5CDA000E, 42.05429, 121.9313, 199.1931, 0.7660445, 
 /* @teleloc 0x5CDA000E [42.054290 121.931300 199.193100] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75CDA001, 0x75CDA002, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75CDA001, 0x75CDA003, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75CDA001, 0x75CDA004, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x75CDA001, 0x75CDA005, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75CDA001, 0x75CDA006, '2019-02-10 00:00:00') /* Plate Armoredillo */
-     , (0x75CDA001, 0x75CDA007, '2019-02-10 00:00:00') /* Pyreal Golem */;
+VALUES (0x75CDA001, 0x75CDA002, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75CDA001, 0x75CDA003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75CDA001, 0x75CDA004, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x75CDA001, 0x75CDA005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75CDA001, 0x75CDA006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x75CDA001, 0x75CDA007, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75CDA002,  7081, 0x5CDA000E, 42.05429, 121.9313, 199.1931, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */

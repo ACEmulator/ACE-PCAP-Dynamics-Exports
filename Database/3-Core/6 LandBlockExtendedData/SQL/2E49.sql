@@ -5,9 +5,9 @@ VALUES (0x72E49001,  1154, 0x2E490016, 55.42851, 141.9945, 29.38946, 0.9992386, 
 /* @teleloc 0x2E490016 [55.428510 141.994500 29.389460] 0.999239 0.000000 0.000000 -0.039016 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E49001, 0x72E49002, '2019-02-10 00:00:00') /* Firestorm */
-     , (0x72E49001, 0x72E49003, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x72E49001, 0x72E49004, '2019-02-10 00:00:00') /* Silver Tusker */;
+VALUES (0x72E49001, 0x72E49002, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72E49001, 0x72E49003, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72E49001, 0x72E49004, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E49002,  7092, 0x2E490016, 55.42851, 141.9945, 29.38946, 0.9992386, 0, 0, -0.03901597,  True, '2019-02-10 00:00:00'); /* Firestorm */

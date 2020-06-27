@@ -5,9 +5,9 @@ VALUES (0x7EB4E001,  1154, 0xEB4E0019, 93.85445, 7.878513, 0.0003000498, -0.1437
 /* @teleloc 0xEB4E0019 [93.854450 7.878513 0.000300] -0.143792 0.000000 0.000000 -0.989608 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB4E001, 0x7EB4E002, '2019-02-10 00:00:00') /* Parfal Niffis */
-     , (0x7EB4E001, 0x7EB4E003, '2019-02-10 00:00:00') /* Glissnal Niffis */
-     , (0x7EB4E001, 0x7EB4E004, '2019-02-10 00:00:00') /* Carrion Shreth */;
+VALUES (0x7EB4E001, 0x7EB4E002, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7EB4E001, 0x7EB4E003, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7EB4E001, 0x7EB4E004, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB4E002,  7984, 0xEB4E0019, 93.85445, 7.878513, 0.0003000498, -0.1437916, 0, 0, -0.989608,  True, '2019-02-10 00:00:00'); /* Parfal Niffis */

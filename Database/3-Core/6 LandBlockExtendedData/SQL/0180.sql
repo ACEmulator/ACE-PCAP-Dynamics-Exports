@@ -17,16 +17,16 @@ VALUES (0x7018004E,  1154, 0x018001FA, 52.4782, -201.465, 12.0065, 0.878483, 0, 
 /* @teleloc 0x018001FA [52.478200 -201.465000 12.006500] 0.878483 0.000000 0.000000 0.477773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7018004E, 0x7018004F, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7018004E, 0x70180050, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7018004E, 0x70180051, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7018004E, 0x70180052, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7018004E, 0x70180053, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x7018004E, 0x70180054, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7018004E, 0x70180055, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7018004E, 0x70180056, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7018004E, 0x70180057, '2019-02-10 00:00:00') /* Tumerok Champion */
-     , (0x7018004E, 0x70180058, '2019-02-10 00:00:00') /* Tumerok Champion */;
+VALUES (0x7018004E, 0x7018004F, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7018004E, 0x70180050, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7018004E, 0x70180051, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7018004E, 0x70180052, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7018004E, 0x70180053, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7018004E, 0x70180054, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7018004E, 0x70180055, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7018004E, 0x70180056, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7018004E, 0x70180057, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x7018004E, 0x70180058, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018004F, 23617, 0x018001FA, 52.4782, -201.465, 12.0065, 0.878483, 0, 0, 0.477773,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
@@ -73,7 +73,7 @@ VALUES (0x70180059,  1542, 0x018001A8, 53.594, -249.853, 0.06344, -0.788216, 0, 
 /* @teleloc 0x018001A8 [53.594000 -249.853000 0.063440] -0.788216 0.000000 0.000000 0.615399 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70180059, 0x7018005A, '2019-02-10 00:00:00') /* Report to Niarltah */;
+VALUES (0x70180059, 0x7018005A, '2019-02-10 00:00:00') /* Report to Niarltah (28123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018005A, 28123, 0x018001A8, 53.594, -249.853, 0.06344, -0.788216, 0, 0, 0.615399,  True, '2019-02-10 00:00:00'); /* Report to Niarltah */

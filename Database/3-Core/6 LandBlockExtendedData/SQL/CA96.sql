@@ -5,15 +5,15 @@ VALUES (0x7CA96001,  1154, 0xCA960027, 107.2292, 154.2687, 32.214, 0.5374544, 0,
 /* @teleloc 0xCA960027 [107.229200 154.268700 32.214000] 0.537454 0.000000 0.000000 -0.843293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA96001, 0x7CA96002, '2019-02-10 00:00:00') /* Tumerok Officer */
-     , (0x7CA96001, 0x7CA96003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7CA96001, 0x7CA96004, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7CA96001, 0x7CA96005, '2019-02-10 00:00:00') /* Tumerok Warrior */
-     , (0x7CA96001, 0x7CA96006, '2019-02-10 00:00:00') /* Drudge Slave */
-     , (0x7CA96001, 0x7CA96007, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7CA96001, 0x7CA96008, '2019-02-10 00:00:00') /* Banderling Bandit */
-     , (0x7CA96001, 0x7CA96009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7CA96001, 0x7CA9600A, '2019-02-10 00:00:00') /* Tumerok Officer */;
+VALUES (0x7CA96001, 0x7CA96002, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7CA96001, 0x7CA96003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7CA96001, 0x7CA96004, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7CA96001, 0x7CA96005, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x7CA96001, 0x7CA96006, '2019-02-10 00:00:00') /* Drudge Slave (1632) */
+     , (0x7CA96001, 0x7CA96007, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7CA96001, 0x7CA96008, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7CA96001, 0x7CA96009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7CA96001, 0x7CA9600A, '2019-02-10 00:00:00') /* Tumerok Officer (229) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA96002,   229, 0xCA960027, 107.2292, 154.2687, 32.214, 0.5374544, 0, 0, -0.8432928,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
@@ -56,8 +56,8 @@ VALUES (0x7CA9600B,  1542, 0xCA96002F, 125.2656, 158.553, 32.93537, 0.5374544, 0
 /* @teleloc 0xCA96002F [125.265600 158.553000 32.935370] 0.537454 0.000000 0.000000 -0.843293 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CA9600B, 0x7CA9600C, '2019-02-10 00:00:00') /* Sunflower */
-     , (0x7CA9600B, 0x7CA9600D, '2019-02-10 00:00:00') /* The Floating City */;
+VALUES (0x7CA9600B, 0x7CA9600C, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7CA9600B, 0x7CA9600D, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA9600C, 15715, 0xCA96002F, 125.2656, 158.553, 32.93537, 0.5374544, 0, 0, -0.8432928,  True, '2019-02-10 00:00:00'); /* Sunflower */

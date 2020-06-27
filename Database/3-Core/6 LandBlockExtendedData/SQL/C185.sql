@@ -5,18 +5,18 @@ VALUES (0x7C185001,  1154, 0xC185002D, 121.7568, 117.9361, 41.60012, 0.9063078, 
 /* @teleloc 0xC185002D [121.756800 117.936100 41.600120] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C185001, 0x7C185002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C185001, 0x7C185003, '2019-02-10 00:00:00') /* Tumerok Fighter */
-     , (0x7C185001, 0x7C185004, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7C185001, 0x7C185005, '2019-02-10 00:00:00') /* Auroch Bull */
-     , (0x7C185001, 0x7C185006, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x7C185001, 0x7C185007, '2019-02-10 00:00:00') /* Field Ursuin */
-     , (0x7C185001, 0x7C185008, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7C185001, 0x7C185009, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C185001, 0x7C18500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C185001, 0x7C18500B, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C185001, 0x7C18500C, '2019-02-10 00:00:00') /* Green Phyntos Wasp */
-     , (0x7C185001, 0x7C18500D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp */;
+VALUES (0x7C185001, 0x7C185002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C185001, 0x7C185003, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C185001, 0x7C185004, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7C185001, 0x7C185005, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x7C185001, 0x7C185006, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7C185001, 0x7C185007, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7C185001, 0x7C185008, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7C185001, 0x7C185009, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C185001, 0x7C18500A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C185001, 0x7C18500B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C185001, 0x7C18500C, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C185001, 0x7C18500D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C185002,   232, 0xC185002D, 121.7568, 117.9361, 41.60012, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
@@ -71,7 +71,7 @@ VALUES (0x7C18500E,  1542, 0xC185002E, 127.1593, 122.9573, 41.60012, 0.9990482, 
 /* @teleloc 0xC185002E [127.159300 122.957300 41.600120] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C18500E, 0x7C18500F, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7C18500E, 0x7C18500F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C18500F,  4179, 0xC185002E, 127.1593, 122.9573, 41.60012, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

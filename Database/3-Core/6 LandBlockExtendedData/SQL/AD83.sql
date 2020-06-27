@@ -5,16 +5,16 @@ VALUES (0x7AD83001,  1154, 0xAD83000F, 27.04104, 158.4932, 27.7206, -0.9346696, 
 /* @teleloc 0xAD83000F [27.041040 158.493200 27.720600] -0.934670 0.000000 0.000000 -0.355518 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AD83001, 0x7AD83002, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7AD83001, 0x7AD83003, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AD83001, 0x7AD83004, '2019-02-10 00:00:00') /* Virindi Servant */
-     , (0x7AD83001, 0x7AD83005, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7AD83001, 0x7AD83006, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AD83001, 0x7AD83007, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7AD83001, 0x7AD83008, '2019-02-10 00:00:00') /* Adult Reedshark */
-     , (0x7AD83001, 0x7AD83009, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7AD83001, 0x7AD8300A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7AD83001, 0x7AD8300B, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7AD83001, 0x7AD83002, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7AD83001, 0x7AD83003, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AD83001, 0x7AD83004, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x7AD83001, 0x7AD83005, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7AD83001, 0x7AD83006, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AD83001, 0x7AD83007, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7AD83001, 0x7AD83008, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7AD83001, 0x7AD83009, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7AD83001, 0x7AD8300A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7AD83001, 0x7AD8300B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD83002,   226, 0xAD83000F, 27.04104, 158.4932, 27.7206, -0.9346696, 0, 0, -0.3555177,  True, '2019-02-10 00:00:00'); /* High Tumerok */

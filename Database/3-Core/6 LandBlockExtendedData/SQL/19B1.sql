@@ -5,13 +5,13 @@ VALUES (0x719B1001,  1154, 0x19B10019, 85.87438, 11.0827, 30.8488, 0.2990362, 0,
 /* @teleloc 0x19B10019 [85.874380 11.082700 30.848800] 0.299036 0.000000 0.000000 -0.954242 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B1001, 0x719B1002, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x719B1001, 0x719B1003, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x719B1001, 0x719B1004, '2019-02-10 00:00:00') /* Highwayman */
-     , (0x719B1001, 0x719B1005, '2019-02-10 00:00:00') /* Cutthroat */
-     , (0x719B1001, 0x719B1006, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x719B1001, 0x719B1007, '2019-02-10 00:00:00') /* Hea Warrior */
-     , (0x719B1001, 0x719B1008, '2019-02-10 00:00:00') /* Hea Windreave */;
+VALUES (0x719B1001, 0x719B1002, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x719B1001, 0x719B1003, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x719B1001, 0x719B1004, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x719B1001, 0x719B1005, '2019-02-10 00:00:00') /* Cutthroat (11502) */
+     , (0x719B1001, 0x719B1006, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x719B1001, 0x719B1007, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
+     , (0x719B1001, 0x719B1008, '2019-02-10 00:00:00') /* Hea Windreave (11524) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B1002, 11503, 0x19B10019, 85.87438, 11.0827, 30.8488, 0.2990362, 0, 0, -0.9542418,  True, '2019-02-10 00:00:00'); /* Highwayman */
@@ -46,8 +46,8 @@ VALUES (0x719B1009,  1542, 0x19B10019, 88.30931, 8.590275, 31.57246, 1, 0, 0, 0,
 /* @teleloc 0x19B10019 [88.309310 8.590275 31.572460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x719B1009, 0x719B100A, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x719B1009, 0x719B100B, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x719B1009, 0x719B100A, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x719B1009, 0x719B100B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719B100A,  9024, 0x19B10019, 88.30931, 8.590275, 31.57246, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */

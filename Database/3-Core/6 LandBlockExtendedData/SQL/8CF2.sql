@@ -5,16 +5,16 @@ VALUES (0x78CF2001,  1154, 0x8CF20024, 113.3893, 77.96658, -0.8825002, 0.2250042
 /* @teleloc 0x8CF20024 [113.389300 77.966580 -0.882500] 0.225004 0.000000 0.000000 -0.974358 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CF2001, 0x78CF2002, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CF2001, 0x78CF2003, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF2004, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF2005, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF2006, '2019-02-10 00:00:00') /* Glacial Golem Margrave */
-     , (0x78CF2001, 0x78CF2007, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF2008, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF2009, '2019-02-10 00:00:00') /* Frost */
-     , (0x78CF2001, 0x78CF200A, '2019-02-10 00:00:00') /* Dark Leech */
-     , (0x78CF2001, 0x78CF200B, '2019-02-10 00:00:00') /* Dark Leech */;
+VALUES (0x78CF2001, 0x78CF2002, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CF2001, 0x78CF2003, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF2004, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF2005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF2006, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x78CF2001, 0x78CF2007, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF2008, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF2009, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CF2001, 0x78CF200A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x78CF2001, 0x78CF200B, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CF2002, 27565, 0x8CF20024, 113.3893, 77.96658, -0.8825002, 0.2250042, 0, 0, -0.9743578,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */

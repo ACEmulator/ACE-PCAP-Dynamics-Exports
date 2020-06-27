@@ -5,8 +5,8 @@ VALUES (0x745D2001,  1154, 0x45D2001B, 72.21159, 58.62789, 26.7215, -0.9687383, 
 /* @teleloc 0x45D2001B [72.211590 58.627890 26.721500] -0.968738 0.000000 0.000000 -0.248085 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x745D2001, 0x745D2002, '2019-02-10 00:00:00') /* Rufous Grievver */
-     , (0x745D2001, 0x745D2003, '2019-02-10 00:00:00') /* Gold Golem */;
+VALUES (0x745D2001, 0x745D2002, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x745D2001, 0x745D2003, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x745D2002, 28553, 0x45D2001B, 72.21159, 58.62789, 26.7215, -0.9687383, 0, 0, -0.2480848,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */

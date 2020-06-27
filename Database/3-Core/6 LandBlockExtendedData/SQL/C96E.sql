@@ -5,33 +5,33 @@ VALUES (0x7C96E001,  1154, 0xC96E003A, 179.6998, 39.87209, 59.35167, -0.9854994,
 /* @teleloc 0xC96E003A [179.699800 39.872090 59.351670] -0.985499 0.000000 0.000000 -0.169679 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C96E001, 0x7C96E002, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7C96E001, 0x7C96E003, '2019-02-10 00:00:00') /* Battered Doll */
-     , (0x7C96E001, 0x7C96E004, '2019-02-10 00:00:00') /* Laigus Lugian */
-     , (0x7C96E001, 0x7C96E005, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C96E001, 0x7C96E006, '2019-02-10 00:00:00') /* Gotrok Lithos */
-     , (0x7C96E001, 0x7C96E007, '2019-02-10 00:00:00') /* Amploth Raider */
-     , (0x7C96E001, 0x7C96E008, '2019-02-10 00:00:00') /* Fragment */
-     , (0x7C96E001, 0x7C96E009, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C96E001, 0x7C96E00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7C96E001, 0x7C96E00B, '2019-02-10 00:00:00') /* Obeloth Raider */
-     , (0x7C96E001, 0x7C96E00C, '2019-02-10 00:00:00') /* Gotrok Laigus */
-     , (0x7C96E001, 0x7C96E00D, '2019-02-10 00:00:00') /* Skeleton Wraith */
-     , (0x7C96E001, 0x7C96E00E, '2019-02-10 00:00:00') /* Innocent Doll */
-     , (0x7C96E001, 0x7C96E00F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C96E001, 0x7C96E010, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7C96E001, 0x7C96E011, '2019-02-10 00:00:00') /* Risen Knight */
-     , (0x7C96E001, 0x7C96E012, '2019-02-10 00:00:00') /* Drudge Lurker */
-     , (0x7C96E001, 0x7C96E013, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7C96E001, 0x7C96E014, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7C96E001, 0x7C96E015, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7C96E001, 0x7C96E016, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C96E001, 0x7C96E017, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7C96E001, 0x7C96E018, '2019-02-10 00:00:00') /* Master of the Pack */
-     , (0x7C96E001, 0x7C96E019, '2019-02-10 00:00:00') /* Reedshark Elder */
-     , (0x7C96E001, 0x7C96E01A, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C96E001, 0x7C96E01B, '2019-02-10 00:00:00') /* Veteran Reedshark */
-     , (0x7C96E001, 0x7C96E01C, '2019-02-10 00:00:00') /* Silver Rat */;
+VALUES (0x7C96E001, 0x7C96E002, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7C96E001, 0x7C96E003, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7C96E001, 0x7C96E004, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7C96E001, 0x7C96E005, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C96E001, 0x7C96E006, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
+     , (0x7C96E001, 0x7C96E007, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
+     , (0x7C96E001, 0x7C96E008, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7C96E001, 0x7C96E009, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C96E001, 0x7C96E00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7C96E001, 0x7C96E00B, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7C96E001, 0x7C96E00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7C96E001, 0x7C96E00D, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7C96E001, 0x7C96E00E, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
+     , (0x7C96E001, 0x7C96E00F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C96E001, 0x7C96E010, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7C96E001, 0x7C96E011, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7C96E001, 0x7C96E012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7C96E001, 0x7C96E013, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7C96E001, 0x7C96E014, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7C96E001, 0x7C96E015, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7C96E001, 0x7C96E016, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7C96E001, 0x7C96E017, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7C96E001, 0x7C96E018, '2019-02-10 00:00:00') /* Master of the Pack (12018) */
+     , (0x7C96E001, 0x7C96E019, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7C96E001, 0x7C96E01A, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C96E001, 0x7C96E01B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7C96E001, 0x7C96E01C, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C96E002,  5497, 0xC96E003A, 179.6998, 39.87209, 59.35167, -0.9854994, 0, 0, -0.1696786,  True, '2019-02-10 00:00:00'); /* Virindi Director */
@@ -146,9 +146,9 @@ VALUES (0x7C96E01D,  1542, 0xC96E0031, 154.8562, 20.00892, 58, 1, 0, 0, 0, False
 /* @teleloc 0xC96E0031 [154.856200 20.008920 58.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C96E01D, 0x7C96E01E, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C96E01D, 0x7C96E01F, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x7C96E01D, 0x7C96E020, '2019-02-10 00:00:00') /* Dirty Old Crate */;
+VALUES (0x7C96E01D, 0x7C96E01E, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7C96E01D, 0x7C96E01F, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7C96E01D, 0x7C96E020, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C96E01E, 22576, 0xC96E0031, 154.8562, 20.00892, 58, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

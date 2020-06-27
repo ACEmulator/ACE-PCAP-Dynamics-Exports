@@ -5,11 +5,11 @@ VALUES (0x74A17001,  1154, 0x4A170002, 2.051178, 37.73282, 44.87853, 0.9824632, 
 /* @teleloc 0x4A170002 [2.051178 37.732820 44.878530] 0.982463 0.000000 0.000000 -0.186456 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74A17001, 0x74A17002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x74A17001, 0x74A17003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74A17001, 0x74A17004, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x74A17001, 0x74A17005, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x74A17001, 0x74A17006, '2019-02-10 00:00:00') /* Imperial Mu-miyah */;
+VALUES (0x74A17001, 0x74A17002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x74A17001, 0x74A17003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74A17001, 0x74A17004, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x74A17001, 0x74A17005, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x74A17001, 0x74A17006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74A17002,  7340, 0x4A170002, 2.051178, 37.73282, 44.87853, 0.9824632, 0, 0, -0.1864564,  True, '2019-02-10 00:00:00'); /* Virindi Observer */

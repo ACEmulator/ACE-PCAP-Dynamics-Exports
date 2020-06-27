@@ -5,12 +5,12 @@ VALUES (0x7EB6D001,  1154, 0xEB6D0010, 46.28892, 179.2368, -0.08349991, 0.979032
 /* @teleloc 0xEB6D0010 [46.288920 179.236800 -0.083500] 0.979032 0.000000 0.000000 -0.203707 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EB6D001, 0x7EB6D002, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6D001, 0x7EB6D003, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6D001, 0x7EB6D004, '2019-02-10 00:00:00') /* Assailer */
-     , (0x7EB6D001, 0x7EB6D005, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6D001, 0x7EB6D006, '2019-02-10 00:00:00') /* Devastator */
-     , (0x7EB6D001, 0x7EB6D007, '2019-02-10 00:00:00') /* Assailer */;
+VALUES (0x7EB6D001, 0x7EB6D002, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6D001, 0x7EB6D003, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6D001, 0x7EB6D004, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EB6D001, 0x7EB6D005, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6D001, 0x7EB6D006, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7EB6D001, 0x7EB6D007, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB6D002, 22518, 0xEB6D0010, 46.28892, 179.2368, -0.08349991, 0.979032, 0, 0, -0.2037066,  True, '2019-02-10 00:00:00'); /* Devastator */

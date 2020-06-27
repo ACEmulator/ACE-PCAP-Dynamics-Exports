@@ -5,13 +5,13 @@ VALUES (0x78BEB001,  1154, 0x8BEB0017, 53.55799, 153.5616, 48.4184, -0.7324146, 
 /* @teleloc 0x8BEB0017 [53.557990 153.561600 48.418400] -0.732415 0.000000 0.000000 -0.680859 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78BEB001, 0x78BEB002, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78BEB001, 0x78BEB003, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78BEB001, 0x78BEB004, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78BEB001, 0x78BEB005, '2019-02-10 00:00:00') /* White Phyntos Wasp */
-     , (0x78BEB001, 0x78BEB006, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x78BEB001, 0x78BEB007, '2019-02-10 00:00:00') /* Drudge Ravener */
-     , (0x78BEB001, 0x78BEB008, '2019-02-10 00:00:00') /* Drudge Ravener */;
+VALUES (0x78BEB001, 0x78BEB002, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78BEB001, 0x78BEB003, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78BEB001, 0x78BEB004, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78BEB001, 0x78BEB005, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x78BEB001, 0x78BEB006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x78BEB001, 0x78BEB007, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78BEB001, 0x78BEB008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BEB002,  7105, 0x8BEB0017, 53.55799, 153.5616, 48.4184, -0.7324146, 0, 0, -0.6808589,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */

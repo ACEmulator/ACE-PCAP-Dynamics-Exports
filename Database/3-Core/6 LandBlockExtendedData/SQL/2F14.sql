@@ -5,15 +5,15 @@ VALUES (0x72F14001,  1154, 0x2F140038, 149.9092, 188.4079, 14.91138, -0.5827861,
 /* @teleloc 0x2F140038 [149.909200 188.407900 14.911380] -0.582786 0.000000 0.000000 -0.812626 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F14001, 0x72F14002, '2019-02-10 00:00:00') /* Great Skeleton */
-     , (0x72F14001, 0x72F14003, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72F14001, 0x72F14004, '2019-02-10 00:00:00') /* Diamond Golem */
-     , (0x72F14001, 0x72F14005, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72F14001, 0x72F14006, '2019-02-10 00:00:00') /* Skeletal Hero */
-     , (0x72F14001, 0x72F14007, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72F14001, 0x72F14008, '2019-02-10 00:00:00') /* Strife Wisp */
-     , (0x72F14001, 0x72F14009, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x72F14001, 0x72F1400A, '2019-02-10 00:00:00') /* Skeleton Bone Knight */;
+VALUES (0x72F14001, 0x72F14002, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72F14001, 0x72F14003, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72F14001, 0x72F14004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72F14001, 0x72F14005, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72F14001, 0x72F14006, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x72F14001, 0x72F14007, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72F14001, 0x72F14008, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x72F14001, 0x72F14009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72F14001, 0x72F1400A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F14002, 36858, 0x2F140038, 149.9092, 188.4079, 14.91138, -0.5827861, 0, 0, -0.8126256,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -56,7 +56,7 @@ VALUES (0x72F1400B,  1542, 0x2F140039, 175.3033, 22.69018, 14.60861, 1, 0, 0, 0,
 /* @teleloc 0x2F140039 [175.303300 22.690180 14.608610] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72F1400B, 0x72F1400C, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x72F1400B, 0x72F1400C, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F1400C, 22566, 0x2F140039, 175.3033, 22.69018, 14.60861, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

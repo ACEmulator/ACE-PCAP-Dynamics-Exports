@@ -5,9 +5,9 @@ VALUES (0x7A93F001,  1154, 0xA93F0025, 110.1182, 101.3491, 35.1304, 0.890276, 0,
 /* @teleloc 0xA93F0025 [110.118200 101.349100 35.130400] 0.890276 0.000000 0.000000 -0.455421 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A93F001, 0x7A93F002, '2019-02-10 00:00:00') /* Silver Rat */
-     , (0x7A93F001, 0x7A93F003, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7A93F001, 0x7A93F004, '2019-02-10 00:00:00') /* Copper Golem */;
+VALUES (0x7A93F001, 0x7A93F002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A93F001, 0x7A93F003, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7A93F001, 0x7A93F004, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A93F002,  1626, 0xA93F0025, 110.1182, 101.3491, 35.1304, 0.890276, 0, 0, -0.4554213,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -26,7 +26,7 @@ VALUES (0x7A93F005,  1542, 0xA93F0024, 109.6824, 80.71457, 36.81926, -0.3200186,
 /* @teleloc 0xA93F0024 [109.682400 80.714570 36.819260] -0.320019 0.000000 0.000000 -0.947411 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A93F005, 0x7A93F006, '2019-02-10 00:00:00') /* Sunflower */;
+VALUES (0x7A93F005, 0x7A93F006, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A93F006, 15715, 0xA93F0024, 109.6824, 80.71457, 36.81926, -0.3200186, 0, 0, -0.9474113,  True, '2019-02-10 00:00:00'); /* Sunflower */

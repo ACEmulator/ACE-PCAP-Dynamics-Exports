@@ -5,20 +5,20 @@ VALUES (0x720C9001,  1154, 0x20C90019, 74.06853, 7.939764, 0, 0.3130382, 0, 0, -
 /* @teleloc 0x20C90019 [74.068530 7.939764 0.000000] 0.313038 0.000000 0.000000 -0.949741 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x720C9001, 0x720C9002, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C9003, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x720C9001, 0x720C9004, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C9001, 0x720C9005, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x720C9001, 0x720C9006, '2019-02-10 00:00:00') /* Vapor Golem */
-     , (0x720C9001, 0x720C9007, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C9008, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C9009, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C900A, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x720C9001, 0x720C900B, '2019-02-10 00:00:00') /* Raging Ursuin */
-     , (0x720C9001, 0x720C900C, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C900D, '2019-02-10 00:00:00') /* Savage Carenzi */
-     , (0x720C9001, 0x720C900E, '2019-02-10 00:00:00') /* Ursuin Slicer */
-     , (0x720C9001, 0x720C900F, '2019-02-10 00:00:00') /* Ursuin Slicer */;
+VALUES (0x720C9001, 0x720C9002, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C9003, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x720C9001, 0x720C9004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C9001, 0x720C9005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x720C9001, 0x720C9006, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x720C9001, 0x720C9007, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C9008, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C9009, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C900A, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x720C9001, 0x720C900B, '2019-02-10 00:00:00') /* Raging Ursuin (27716) */
+     , (0x720C9001, 0x720C900C, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C900D, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x720C9001, 0x720C900E, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x720C9001, 0x720C900F, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720C9002, 22505, 0x20C90019, 74.06853, 7.939764, 0, 0.3130382, 0, 0, -0.9497405,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */

@@ -5,19 +5,19 @@ VALUES (0x7A22A001,  1154, 0xA22A0020, 82.1171, 169.2642, 167.1932, 0.7071068, 0
 /* @teleloc 0xA22A0020 [82.117100 169.264200 167.193200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A22A001, 0x7A22A002, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A22A001, 0x7A22A003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22A001, 0x7A22A004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22A001, 0x7A22A005, '2019-02-10 00:00:00') /* Gigas Raider */
-     , (0x7A22A001, 0x7A22A006, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22A001, 0x7A22A007, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7A22A001, 0x7A22A008, '2019-02-10 00:00:00') /* Altered Drudge */
-     , (0x7A22A001, 0x7A22A009, '2019-02-10 00:00:00') /* Shadow */
-     , (0x7A22A001, 0x7A22A00A, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7A22A001, 0x7A22A00B, '2019-02-10 00:00:00') /* Acolyte of Storms */
-     , (0x7A22A001, 0x7A22A00C, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A22A001, 0x7A22A00D, '2019-02-10 00:00:00') /* Gotrok Extas */
-     , (0x7A22A001, 0x7A22A00E, '2019-02-10 00:00:00') /* Gotrok Extas */;
+VALUES (0x7A22A001, 0x7A22A002, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A22A001, 0x7A22A003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22A001, 0x7A22A004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22A001, 0x7A22A005, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
+     , (0x7A22A001, 0x7A22A006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22A001, 0x7A22A007, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7A22A001, 0x7A22A008, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7A22A001, 0x7A22A009, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A22A001, 0x7A22A00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A22A001, 0x7A22A00B, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x7A22A001, 0x7A22A00C, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A22A001, 0x7A22A00D, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A22A001, 0x7A22A00E, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A22A002,  1758, 0xA22A0020, 82.1171, 169.2642, 167.1932, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -76,8 +76,8 @@ VALUES (0x7A22A00F,  1542, 0xA22A0036, 155.8418, 125.6947, 147.0509, 0.4127369, 
 /* @teleloc 0xA22A0036 [155.841800 125.694700 147.050900] 0.412737 0.000000 0.000000 -0.910850 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A22A00F, 0x7A22A010, '2019-02-10 00:00:00') /* Argenory Plant */
-     , (0x7A22A00F, 0x7A22A011, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7A22A00F, 0x7A22A010, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
+     , (0x7A22A00F, 0x7A22A011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A22A010,  8648, 0xA22A0036, 155.8418, 125.6947, 147.0509, 0.4127369, 0, 0, -0.9108503,  True, '2019-02-10 00:00:00'); /* Argenory Plant */

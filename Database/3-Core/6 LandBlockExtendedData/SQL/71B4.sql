@@ -5,10 +5,10 @@ VALUES (0x771B4001,  1154, 0x71B4003F, 180.6906, 166.4207, 99.84252, 0.7071068, 
 /* @teleloc 0x71B4003F [180.690600 166.420700 99.842520] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771B4001, 0x771B4002, '2019-02-10 00:00:00') /* Banderling Mauler */
-     , (0x771B4001, 0x771B4003, '2019-02-10 00:00:00') /* Banderling Mangler */
-     , (0x771B4001, 0x771B4004, '2019-02-10 00:00:00') /* Wily Monouga */
-     , (0x771B4001, 0x771B4005, '2019-02-10 00:00:00') /* Skeleton Bone Lord */;
+VALUES (0x771B4001, 0x771B4002, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x771B4001, 0x771B4003, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x771B4001, 0x771B4004, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x771B4001, 0x771B4005, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771B4002,  7088, 0x71B4003F, 180.6906, 166.4207, 99.84252, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
@@ -31,8 +31,8 @@ VALUES (0x771B4006,  1542, 0x71B4003C, 171.2741, 89.30206, 96.84562, 0.9537169, 
 /* @teleloc 0x71B4003C [171.274100 89.302060 96.845620] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x771B4006, 0x771B4007, '2019-02-10 00:00:00') /* Direlands Southeast Shore */
-     , (0x771B4006, 0x771B4008, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x771B4006, 0x771B4007, '2019-02-10 00:00:00') /* Direlands Southeast Shore (8385) */
+     , (0x771B4006, 0x771B4008, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x771B4007,  8385, 0x71B4003C, 171.2741, 89.30206, 96.84562, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southeast Shore */

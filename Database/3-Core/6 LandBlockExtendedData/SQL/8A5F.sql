@@ -5,10 +5,10 @@ VALUES (0x78A5F001,  1154, 0x8A5F0018, 71.04848, 172.8644, 9.923207, -1, 0, 0, -
 /* @teleloc 0x8A5F0018 [71.048480 172.864400 9.923207] -1.000000 0.000000 0.000000 -0.000032 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A5F001, 0x78A5F002, '2019-02-10 00:00:00') /* Shadow Child */
-     , (0x78A5F001, 0x78A5F003, '2019-02-10 00:00:00') /* Flare */
-     , (0x78A5F001, 0x78A5F004, '2019-02-10 00:00:00') /* Banderling Guard */
-     , (0x78A5F001, 0x78A5F005, '2019-02-10 00:00:00') /* Banderling Captain */;
+VALUES (0x78A5F001, 0x78A5F002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x78A5F001, 0x78A5F003, '2019-02-10 00:00:00') /* Flare (5710) */
+     , (0x78A5F001, 0x78A5F004, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x78A5F001, 0x78A5F005, '2019-02-10 00:00:00') /* Banderling Captain (184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A5F002,  1756, 0x8A5F0018, 71.04848, 172.8644, 9.923207, -1, 0, 0, -3.162225E-05,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -31,8 +31,8 @@ VALUES (0x78A5F006,  1542, 0x8A5F0017, 65.84556, 156.1927, 9.487129, 1, 0, 0, 0,
 /* @teleloc 0x8A5F0017 [65.845560 156.192700 9.487129] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78A5F006, 0x78A5F007, '2019-02-10 00:00:00') /* Runed Chest */
-     , (0x78A5F006, 0x78A5F008, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x78A5F006, 0x78A5F007, '2019-02-10 00:00:00') /* Runed Chest (22568) */
+     , (0x78A5F006, 0x78A5F008, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78A5F007, 22568, 0x8A5F0017, 65.84556, 156.1927, 9.487129, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

@@ -5,9 +5,9 @@ VALUES (0x7C8A6001,  1154, 0xC8A60012, 60.05366, 33.36072, 48.79006, 0.9663395, 
 /* @teleloc 0xC8A60012 [60.053660 33.360720 48.790060] 0.966340 0.000000 0.000000 -0.257270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C8A6001, 0x7C8A6002, '2019-02-10 00:00:00') /* Sand Golem */
-     , (0x7C8A6001, 0x7C8A6003, '2019-02-10 00:00:00') /* Island Armoredillo */
-     , (0x7C8A6001, 0x7C8A6004, '2019-02-10 00:00:00') /* Island Armoredillo */;
+VALUES (0x7C8A6001, 0x7C8A6002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7C8A6001, 0x7C8A6003, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7C8A6001, 0x7C8A6004, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8A6002, 11531, 0xC8A60012, 60.05366, 33.36072, 48.79006, 0.9663395, 0, 0, -0.2572704,  True, '2019-02-10 00:00:00'); /* Sand Golem */

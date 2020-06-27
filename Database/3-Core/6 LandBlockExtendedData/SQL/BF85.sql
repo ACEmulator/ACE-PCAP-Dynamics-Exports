@@ -5,13 +5,13 @@ VALUES (0x7BF85001,  1154, 0xBF850001, 18.33138, 17.77691, 58.395, 0.9889215, 0,
 /* @teleloc 0xBF850001 [18.331380 17.776910 58.395000] 0.988922 0.000000 0.000000 -0.148440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF85001, 0x7BF85002, '2019-02-10 00:00:00') /* Auroch Cow */
-     , (0x7BF85001, 0x7BF85003, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF85001, 0x7BF85004, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF85001, 0x7BF85005, '2019-02-10 00:00:00') /* Red Phyntos Wasp */
-     , (0x7BF85001, 0x7BF85006, '2019-02-10 00:00:00') /* Auroch Yearling */
-     , (0x7BF85001, 0x7BF85007, '2019-02-10 00:00:00') /* Ivory Gromnie */
-     , (0x7BF85001, 0x7BF85008, '2019-02-10 00:00:00') /* Olthoi Nettler */;
+VALUES (0x7BF85001, 0x7BF85002, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7BF85001, 0x7BF85003, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF85001, 0x7BF85004, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF85001, 0x7BF85005, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
+     , (0x7BF85001, 0x7BF85006, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BF85001, 0x7BF85007, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7BF85001, 0x7BF85008, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF85002,   181, 0xBF850001, 18.33138, 17.77691, 58.395, 0.9889215, 0, 0, -0.1484397,  True, '2019-02-10 00:00:00'); /* Auroch Cow */

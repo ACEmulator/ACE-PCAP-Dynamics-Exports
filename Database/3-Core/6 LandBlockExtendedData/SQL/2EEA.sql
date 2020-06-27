@@ -5,15 +5,15 @@ VALUES (0x72EEA001,  1154, 0x2EEA0005, 6.988047, 103.3057, 5.160125, 0.4440041, 
 /* @teleloc 0x2EEA0005 [6.988047 103.305700 5.160125] 0.444004 0.000000 0.000000 -0.896025 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72EEA001, 0x72EEA002, '2019-02-10 00:00:00') /* Olthoi Piercer */
-     , (0x72EEA001, 0x72EEA003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x72EEA001, 0x72EEA004, '2019-02-10 00:00:00') /* Raving Fiun */
-     , (0x72EEA001, 0x72EEA005, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72EEA001, 0x72EEA006, '2019-02-10 00:00:00') /* Ashen Bones */
-     , (0x72EEA001, 0x72EEA007, '2019-02-10 00:00:00') /* Demented Fiun */
-     , (0x72EEA001, 0x72EEA008, '2019-02-10 00:00:00') /* Black Phyntos Wasp */
-     , (0x72EEA001, 0x72EEA009, '2019-02-10 00:00:00') /* Truffle Thrungus */
-     , (0x72EEA001, 0x72EEA00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */;
+VALUES (0x72EEA001, 0x72EEA002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x72EEA001, 0x72EEA003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x72EEA001, 0x72EEA004, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72EEA001, 0x72EEA005, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72EEA001, 0x72EEA006, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x72EEA001, 0x72EEA007, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
+     , (0x72EEA001, 0x72EEA008, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x72EEA001, 0x72EEA009, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x72EEA001, 0x72EEA00A, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72EEA002, 24960, 0x2EEA0005, 6.988047, 103.3057, 5.160125, 0.4440041, 0, 0, -0.8960248,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */

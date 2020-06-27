@@ -5,12 +5,12 @@ VALUES (0x7BE44001,  1154, 0xBE44000B, 34.27804, 69.68786, 33.32867, -0.1729155,
 /* @teleloc 0xBE44000B [34.278040 69.687860 33.328670] -0.172916 0.000000 0.000000 -0.984937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BE44001, 0x7BE44002, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7BE44001, 0x7BE44003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BE44001, 0x7BE44004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BE44001, 0x7BE44005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp */
-     , (0x7BE44001, 0x7BE44006, '2019-02-10 00:00:00') /* Elaniwood Golem */
-     , (0x7BE44001, 0x7BE44007, '2019-02-10 00:00:00') /* Banderling Striker */;
+VALUES (0x7BE44001, 0x7BE44002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7BE44001, 0x7BE44003, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BE44001, 0x7BE44004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BE44001, 0x7BE44005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7BE44001, 0x7BE44006, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7BE44001, 0x7BE44007, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE44002,  2576, 0xBE44000B, 34.27804, 69.68786, 33.32867, -0.1729155, 0, 0, -0.9849367,  True, '2019-02-10 00:00:00'); /* Wild Monouga */

@@ -5,16 +5,16 @@ VALUES (0x7924A001,  1154, 0x924A0038, 153.6485, 182.8173, 19.63669, 0.597515, 0
 /* @teleloc 0x924A0038 [153.648500 182.817300 19.636690] 0.597515 0.000000 0.000000 -0.801858 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7924A001, 0x7924A002, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7924A001, 0x7924A003, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7924A001, 0x7924A004, '2019-02-10 00:00:00') /* Magma Golem */
-     , (0x7924A001, 0x7924A005, '2019-02-10 00:00:00') /* Ancient Mu-miyah */
-     , (0x7924A001, 0x7924A006, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7924A001, 0x7924A007, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7924A001, 0x7924A008, '2019-02-10 00:00:00') /* Silt Lurker */
-     , (0x7924A001, 0x7924A009, '2019-02-10 00:00:00') /* Virindi Director */
-     , (0x7924A001, 0x7924A00A, '2019-02-10 00:00:00') /* Lich Lord */
-     , (0x7924A001, 0x7924A00B, '2019-02-10 00:00:00') /* Lich Lord */;
+VALUES (0x7924A001, 0x7924A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7924A001, 0x7924A003, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7924A001, 0x7924A004, '2019-02-10 00:00:00') /* Magma Golem (6645) */
+     , (0x7924A001, 0x7924A005, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7924A001, 0x7924A006, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7924A001, 0x7924A007, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7924A001, 0x7924A008, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7924A001, 0x7924A009, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7924A001, 0x7924A00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7924A001, 0x7924A00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7924A002,   194, 0x924A0038, 153.6485, 182.8173, 19.63669, 0.597515, 0, 0, -0.8018577,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -61,7 +61,7 @@ VALUES (0x7924A00C,  1542, 0x924A0038, 148.7929, 175.2546, 19.80573, 1, 0, 0, 0,
 /* @teleloc 0x924A0038 [148.792900 175.254600 19.805730] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7924A00C, 0x7924A00D, '2019-02-10 00:00:00') /* Runed Chest */;
+VALUES (0x7924A00C, 0x7924A00D, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7924A00D, 22576, 0x924A0038, 148.7929, 175.2546, 19.80573, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */

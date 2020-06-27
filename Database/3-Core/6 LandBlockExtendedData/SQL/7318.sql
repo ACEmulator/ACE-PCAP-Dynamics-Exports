@@ -5,11 +5,11 @@ VALUES (0x77318001,  1154, 0x7318000D, 35.45965, 102.5377, 4.368076, 0.7933533, 
 /* @teleloc 0x7318000D [35.459650 102.537700 4.368076] 0.793353 0.000000 0.000000 -0.608761 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77318001, 0x77318002, '2019-02-10 00:00:00') /* Skeleton Bone Lord */
-     , (0x77318001, 0x77318003, '2019-02-10 00:00:00') /* Skeleton Bone Knight */
-     , (0x77318001, 0x77318004, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x77318001, 0x77318005, '2019-02-10 00:00:00') /* Mist Golem */
-     , (0x77318001, 0x77318006, '2019-02-10 00:00:00') /* Fire Wisp */;
+VALUES (0x77318001, 0x77318002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x77318001, 0x77318003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x77318001, 0x77318004, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x77318001, 0x77318005, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x77318001, 0x77318006, '2019-02-10 00:00:00') /* Fire Wisp (5748) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77318002,  7121, 0x7318000D, 35.45965, 102.5377, 4.368076, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */

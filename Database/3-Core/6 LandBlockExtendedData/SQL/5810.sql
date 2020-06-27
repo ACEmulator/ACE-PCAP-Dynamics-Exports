@@ -5,13 +5,13 @@ VALUES (0x75810001,  1154, 0x58100035, 145.5817, 106.7292, -0.8870001, -0.552866
 /* @teleloc 0x58100035 [145.581700 106.729200 -0.887000] -0.552867 0.000000 0.000000 -0.833270 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75810001, 0x75810002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75810001, 0x75810003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75810001, 0x75810004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */
-     , (0x75810001, 0x75810005, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x75810001, 0x75810006, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75810001, 0x75810007, '2019-02-10 00:00:00') /* Opor Niffis */
-     , (0x75810001, 0x75810008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp */;
+VALUES (0x75810001, 0x75810002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75810001, 0x75810003, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75810001, 0x75810004, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x75810001, 0x75810005, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x75810001, 0x75810006, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75810001, 0x75810007, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x75810001, 0x75810008, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75810002,  7183, 0x58100035, 145.5817, 106.7292, -0.8870001, -0.5528669, 0, 0, -0.8332696,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */

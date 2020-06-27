@@ -5,17 +5,17 @@ VALUES (0x725B8001,  1154, 0x25B80005, 9.824121, 96.27056, 114.8031, 1, 0, 0, 0,
 /* @teleloc 0x25B80005 [9.824121 96.270560 114.803100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725B8001, 0x725B8002, '2019-02-10 00:00:00') /* Aun Elder Shaman */
-     , (0x725B8001, 0x725B8003, '2019-02-10 00:00:00') /* Ebon Gromnie */
-     , (0x725B8001, 0x725B8004, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x725B8001, 0x725B8005, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x725B8001, 0x725B8006, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x725B8001, 0x725B8007, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x725B8001, 0x725B8008, '2019-02-10 00:00:00') /* Aun Nualuan */
-     , (0x725B8001, 0x725B8009, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x725B8001, 0x725B800A, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x725B8001, 0x725B800B, '2019-02-10 00:00:00') /* Virindi Executor */
-     , (0x725B8001, 0x725B800C, '2019-02-10 00:00:00') /* Aun Nualuan */;
+VALUES (0x725B8001, 0x725B8002, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */
+     , (0x725B8001, 0x725B8003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x725B8001, 0x725B8004, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x725B8001, 0x725B8005, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x725B8001, 0x725B8006, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x725B8001, 0x725B8007, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x725B8001, 0x725B8008, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */
+     , (0x725B8001, 0x725B8009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x725B8001, 0x725B800A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x725B8001, 0x725B800B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x725B8001, 0x725B800C, '2019-02-10 00:00:00') /* Aun Nualuan (11511) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B8002, 11508, 0x25B80005, 9.824121, 96.27056, 114.8031, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Elder Shaman */
@@ -66,10 +66,10 @@ VALUES (0x725B800D,  1542, 0x25B80011, 70.96036, 8.403356, 105.3376, 1, 0, 0, 0,
 /* @teleloc 0x25B80011 [70.960360 8.403356 105.337600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x725B800D, 0x725B800E, '2019-02-10 00:00:00') /* Shallow Hive Portal */
-     , (0x725B800D, 0x725B800F, '2019-02-10 00:00:00') /* Tiny Hive Portal */
-     , (0x725B800D, 0x725B8010, '2019-02-10 00:00:00') /* Cooking Gear */
-     , (0x725B800D, 0x725B8011, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x725B800D, 0x725B800E, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x725B800D, 0x725B800F, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */
+     , (0x725B800D, 0x725B8010, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x725B800D, 0x725B8011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B800E, 11225, 0x25B80011, 70.96036, 8.403356, 105.3376, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */

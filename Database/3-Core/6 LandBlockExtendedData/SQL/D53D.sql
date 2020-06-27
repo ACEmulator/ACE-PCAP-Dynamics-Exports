@@ -21,14 +21,14 @@ VALUES (0x7D53D014,  1154, 0xD53D0100, 33.6664, 182.378, 345.7282, -0.38788, 0, 
 /* @teleloc 0xD53D0100 [33.666400 182.378000 345.728200] -0.387880 0.000000 0.000000 0.921710 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D53D014, 0x7D53D015, '2019-02-10 00:00:00') /* Shadow Wisp */
-     , (0x7D53D014, 0x7D53D016, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7D53D014, 0x7D53D017, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7D53D014, 0x7D53D018, '2019-02-10 00:00:00') /* Sewer Rat */
-     , (0x7D53D014, 0x7D53D019, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7D53D014, 0x7D53D01A, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D53D014, 0x7D53D01B, '2019-02-10 00:00:00') /* Dark Revenant */
-     , (0x7D53D014, 0x7D53D01C, '2019-02-10 00:00:00') /* Obsidian Golem */;
+VALUES (0x7D53D014, 0x7D53D015, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7D53D014, 0x7D53D016, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7D53D014, 0x7D53D017, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7D53D014, 0x7D53D018, '2019-02-10 00:00:00') /* Sewer Rat (7106) */
+     , (0x7D53D014, 0x7D53D019, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7D53D014, 0x7D53D01A, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D53D014, 0x7D53D01B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7D53D014, 0x7D53D01C, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D53D015,  1989, 0xD53D0100, 33.6664, 182.378, 345.7282, -0.38788, 0, 0, 0.92171,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */

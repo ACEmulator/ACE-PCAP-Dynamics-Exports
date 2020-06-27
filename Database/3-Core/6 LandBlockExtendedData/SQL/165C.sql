@@ -5,15 +5,15 @@ VALUES (0x7165C001,  1154, 0x165C0040, 173.0755, 182.7751, 2.472521, -0.1317049,
 /* @teleloc 0x165C0040 [173.075500 182.775100 2.472521] -0.131705 0.000000 0.000000 -0.991289 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165C001, 0x7165C002, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x7165C001, 0x7165C003, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x7165C001, 0x7165C004, '2019-02-10 00:00:00') /* Lacerator */
-     , (0x7165C001, 0x7165C005, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x7165C001, 0x7165C006, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x7165C001, 0x7165C007, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7165C001, 0x7165C008, '2019-02-10 00:00:00') /* Rendeath Shreth */
-     , (0x7165C001, 0x7165C009, '2019-02-10 00:00:00') /* Olthoi Mutilator */
-     , (0x7165C001, 0x7165C00A, '2019-02-10 00:00:00') /* Lacerator */;
+VALUES (0x7165C001, 0x7165C002, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x7165C001, 0x7165C003, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x7165C001, 0x7165C004, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7165C001, 0x7165C005, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x7165C001, 0x7165C006, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7165C001, 0x7165C007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7165C001, 0x7165C008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x7165C001, 0x7165C009, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7165C001, 0x7165C00A, '2019-02-10 00:00:00') /* Lacerator (24957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165C002, 36838, 0x165C0040, 173.0755, 182.7751, 2.472521, -0.1317049, 0, 0, -0.991289,  True, '2019-02-10 00:00:00'); /* Tiatus Raider */
@@ -56,7 +56,7 @@ VALUES (0x7165C00B,  1542, 0x165C0039, 173.0771, 13.84128, 24.53968, -0.1736482,
 /* @teleloc 0x165C0039 [173.077100 13.841280 24.539680] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7165C00B, 0x7165C00C, '2019-02-10 00:00:00') /* Corpse */;
+VALUES (0x7165C00B, 0x7165C00C, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7165C00C,  4381, 0x165C0039, 173.0771, 13.84128, 24.53968, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */

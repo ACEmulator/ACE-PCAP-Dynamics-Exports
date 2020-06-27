@@ -5,12 +5,12 @@ VALUES (0x7C75C001,  1154, 0xC75C000F, 25.1412, 166.6204, 5.582046, 0.7071068, 0
 /* @teleloc 0xC75C000F [25.141200 166.620400 5.582046] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75C001, 0x7C75C002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C75C001, 0x7C75C003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C75C001, 0x7C75C004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp */
-     , (0x7C75C001, 0x7C75C005, '2019-02-10 00:00:00') /* Chicken */
-     , (0x7C75C001, 0x7C75C006, '2019-02-10 00:00:00') /* Lich */
-     , (0x7C75C001, 0x7C75C007, '2019-02-10 00:00:00') /* Lich */;
+VALUES (0x7C75C001, 0x7C75C002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C75C001, 0x7C75C003, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C75C001, 0x7C75C004, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C75C001, 0x7C75C005, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7C75C001, 0x7C75C006, '2019-02-10 00:00:00') /* Lich (204) */
+     , (0x7C75C001, 0x7C75C007, '2019-02-10 00:00:00') /* Lich (204) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75C002, 26018, 0xC75C000F, 25.1412, 166.6204, 5.582046, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */

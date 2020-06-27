@@ -5,9 +5,9 @@ VALUES (0x7D42C001,  1154, 0xD42C0027, 97.2943, 164.9756, 133.1512, -0.5441539, 
 /* @teleloc 0xD42C0027 [97.294300 164.975600 133.151200] -0.544154 0.000000 0.000000 -0.838985 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D42C001, 0x7D42C002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment */
-     , (0x7D42C001, 0x7D42C003, '2019-02-10 00:00:00') /* Venomous Grievver */
-     , (0x7D42C001, 0x7D42C004, '2019-02-10 00:00:00') /* Venomous Grievver */;
+VALUES (0x7D42C001, 0x7D42C002, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x7D42C001, 0x7D42C003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x7D42C001, 0x7D42C004, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D42C002, 28551, 0xD42C0027, 97.2943, 164.9756, 133.1512, -0.5441539, 0, 0, -0.8389854,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */

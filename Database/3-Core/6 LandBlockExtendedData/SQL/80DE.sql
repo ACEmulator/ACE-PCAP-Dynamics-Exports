@@ -5,12 +5,12 @@ VALUES (0x780DE001,  1154, 0x80DE002E, 134.6257, 126.6126, 136.1299, -0.9632329,
 /* @teleloc 0x80DE002E [134.625700 126.612600 136.129900] -0.963233 0.000000 0.000000 -0.268668 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x780DE001, 0x780DE002, '2019-02-10 00:00:00') /* Armored Tusker */
-     , (0x780DE001, 0x780DE003, '2019-02-10 00:00:00') /* Banderling Slayer */
-     , (0x780DE001, 0x780DE004, '2019-02-10 00:00:00') /* Banderling Antagonist */
-     , (0x780DE001, 0x780DE005, '2019-02-10 00:00:00') /* Rampager */
-     , (0x780DE001, 0x780DE006, '2019-02-10 00:00:00') /* Silver Tusker */
-     , (0x780DE001, 0x780DE007, '2019-02-10 00:00:00') /* Crystal Shard */;
+VALUES (0x780DE001, 0x780DE002, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x780DE001, 0x780DE003, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x780DE001, 0x780DE004, '2019-02-10 00:00:00') /* Banderling Antagonist (24275) */
+     , (0x780DE001, 0x780DE005, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x780DE001, 0x780DE006, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x780DE001, 0x780DE007, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x780DE002, 11540, 0x80DE002E, 134.6257, 126.6126, 136.1299, -0.9632329, 0, 0, -0.2686676,  True, '2019-02-10 00:00:00'); /* Armored Tusker */

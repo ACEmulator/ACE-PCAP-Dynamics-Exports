@@ -5,11 +5,11 @@ VALUES (0x7AEBF001,  1154, 0xAEBF000E, 39.71189, 126.3947, 150.3797, -0.9466313,
 /* @teleloc 0xAEBF000E [39.711890 126.394700 150.379700] -0.946631 0.000000 0.000000 -0.322319 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AEBF001, 0x7AEBF002, '2019-02-10 00:00:00') /* Drudge Stalker */
-     , (0x7AEBF001, 0x7AEBF003, '2019-02-10 00:00:00') /* Olthoi Servant */
-     , (0x7AEBF001, 0x7AEBF004, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AEBF001, 0x7AEBF005, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7AEBF001, 0x7AEBF006, '2019-02-10 00:00:00') /* Fragment */;
+VALUES (0x7AEBF001, 0x7AEBF002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7AEBF001, 0x7AEBF003, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7AEBF001, 0x7AEBF004, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AEBF001, 0x7AEBF005, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7AEBF001, 0x7AEBF006, '2019-02-10 00:00:00') /* Fragment (8014) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEBF002,  1609, 0xAEBF000E, 39.71189, 126.3947, 150.3797, -0.9466313, 0, 0, -0.3223186,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */

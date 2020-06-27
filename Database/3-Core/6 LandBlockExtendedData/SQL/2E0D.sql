@@ -5,31 +5,31 @@ VALUES (0x72E0D001,  1154, 0x2E0D0015, 54.29065, 97.66637, 23.4079, -0.7661927, 
 /* @teleloc 0x2E0D0015 [54.290650 97.666370 23.407900] -0.766193 0.000000 0.000000 -0.642611 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0D001, 0x72E0D002, '2019-02-10 00:00:00') /* Virindi Observer */
-     , (0x72E0D001, 0x72E0D003, '2019-02-10 00:00:00') /* Acidic Coral Golem */
-     , (0x72E0D001, 0x72E0D004, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x72E0D001, 0x72E0D005, '2019-02-10 00:00:00') /* Great Revenant */
-     , (0x72E0D001, 0x72E0D006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72E0D001, 0x72E0D007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx */
-     , (0x72E0D001, 0x72E0D008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx */
-     , (0x72E0D001, 0x72E0D009, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72E0D001, 0x72E0D00A, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72E0D001, 0x72E0D00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah */
-     , (0x72E0D001, 0x72E0D00C, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E0D001, 0x72E0D00D, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0D001, 0x72E0D00E, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0D001, 0x72E0D00F, '2019-02-10 00:00:00') /* Risen Lord */
-     , (0x72E0D001, 0x72E0D010, '2019-02-10 00:00:00') /* Dark Master */
-     , (0x72E0D001, 0x72E0D011, '2019-02-10 00:00:00') /* Phantasm */
-     , (0x72E0D001, 0x72E0D012, '2019-02-10 00:00:00') /* Corrosion Wisp */
-     , (0x72E0D001, 0x72E0D013, '2019-02-10 00:00:00') /* Sinister Shadow */
-     , (0x72E0D001, 0x72E0D014, '2019-02-10 00:00:00') /* Maelstrom Shadow */
-     , (0x72E0D001, 0x72E0D015, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E0D001, 0x72E0D016, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E0D001, 0x72E0D017, '2019-02-10 00:00:00') /* Gotrok Tiatus */
-     , (0x72E0D001, 0x72E0D018, '2019-02-10 00:00:00') /* Armored Skeleton */
-     , (0x72E0D001, 0x72E0D019, '2019-02-10 00:00:00') /* Putrid Moarsman */
-     , (0x72E0D001, 0x72E0D01A, '2019-02-10 00:00:00') /* Caustic */;
+VALUES (0x72E0D001, 0x72E0D002, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72E0D001, 0x72E0D003, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
+     , (0x72E0D001, 0x72E0D004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x72E0D001, 0x72E0D005, '2019-02-10 00:00:00') /* Great Revenant (24320) */
+     , (0x72E0D001, 0x72E0D006, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72E0D001, 0x72E0D007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72E0D001, 0x72E0D008, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72E0D001, 0x72E0D009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72E0D001, 0x72E0D00A, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72E0D001, 0x72E0D00B, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72E0D001, 0x72E0D00C, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E0D001, 0x72E0D00D, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0D001, 0x72E0D00E, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0D001, 0x72E0D00F, '2019-02-10 00:00:00') /* Risen Lord (24326) */
+     , (0x72E0D001, 0x72E0D010, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x72E0D001, 0x72E0D011, '2019-02-10 00:00:00') /* Phantasm (24325) */
+     , (0x72E0D001, 0x72E0D012, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x72E0D001, 0x72E0D013, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72E0D001, 0x72E0D014, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x72E0D001, 0x72E0D015, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E0D001, 0x72E0D016, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E0D001, 0x72E0D017, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72E0D001, 0x72E0D018, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x72E0D001, 0x72E0D019, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x72E0D001, 0x72E0D01A, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0D002,  7340, 0x2E0D0015, 54.29065, 97.66637, 23.4079, -0.7661927, 0, 0, -0.6426108,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -136,8 +136,8 @@ VALUES (0x72E0D01B,  1542, 0x2E0D0039, 181.7736, 15.01852, 1.251543, 0.9990482, 
 /* @teleloc 0x2E0D0039 [181.773600 15.018520 1.251543] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E0D01B, 0x72E0D01C, '2019-02-10 00:00:00') /* Bonfire */
-     , (0x72E0D01B, 0x72E0D01D, '2019-02-10 00:00:00') /* Bones */;
+VALUES (0x72E0D01B, 0x72E0D01C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72E0D01B, 0x72E0D01D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E0D01C,  4179, 0x2E0D0039, 181.7736, 15.01852, 1.251543, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */

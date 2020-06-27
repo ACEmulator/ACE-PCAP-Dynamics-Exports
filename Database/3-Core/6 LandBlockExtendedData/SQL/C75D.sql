@@ -5,28 +5,28 @@ VALUES (0x7C75D001,  1154, 0xC75D0100, 109.2216, 110.9375, 7.6055, 0.2897171, 0,
 /* @teleloc 0xC75D0100 [109.221600 110.937500 7.605500] 0.289717 0.000000 0.000000 -0.957112 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C75D001, 0x7C75D002, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D003, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D004, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D005, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C75D001, 0x7C75D006, '2019-02-10 00:00:00') /* Mosswart Shaman */
-     , (0x7C75D001, 0x7C75D007, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D008, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C75D001, 0x7C75D009, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D00A, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D00B, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D00C, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D00D, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart */
-     , (0x7C75D001, 0x7C75D00F, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D010, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D011, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D012, '2019-02-10 00:00:00') /* Mosswart Feeder */
-     , (0x7C75D001, 0x7C75D013, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C75D001, 0x7C75D014, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C75D001, 0x7C75D015, '2019-02-10 00:00:00') /* Burun Ruuk Adept */
-     , (0x7C75D001, 0x7C75D016, '2019-02-10 00:00:00') /* Barker Mosswart */
-     , (0x7C75D001, 0x7C75D017, '2019-02-10 00:00:00') /* Mosswart Feeder */;
+VALUES (0x7C75D001, 0x7C75D002, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D003, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D004, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D005, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C75D001, 0x7C75D006, '2019-02-10 00:00:00') /* Mosswart Shaman (1619) */
+     , (0x7C75D001, 0x7C75D007, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x7C75D001, 0x7C75D008, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C75D001, 0x7C75D009, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C75D001, 0x7C75D00A, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D00B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D00C, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D00D, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C75D001, 0x7C75D00E, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7C75D001, 0x7C75D00F, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x7C75D001, 0x7C75D010, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */
+     , (0x7C75D001, 0x7C75D011, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D012, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
+     , (0x7C75D001, 0x7C75D013, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C75D001, 0x7C75D014, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C75D001, 0x7C75D015, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
+     , (0x7C75D001, 0x7C75D016, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C75D001, 0x7C75D017, '2019-02-10 00:00:00') /* Mosswart Feeder (1470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C75D002,   947, 0xC75D0100, 109.2216, 110.9375, 7.6055, 0.2897171, 0, 0, -0.9571123,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */

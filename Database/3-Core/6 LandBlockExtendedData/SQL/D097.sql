@@ -5,21 +5,21 @@ VALUES (0x7D097001,  1154, 0xD0970021, 107.4313, 23.22452, -0.8974999, 0.9522918
 /* @teleloc 0xD0970021 [107.431300 23.224520 -0.897500] 0.952292 0.000000 0.000000 -0.305189 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D097001, 0x7D097002, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D097001, 0x7D097003, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D097001, 0x7D097004, '2019-02-10 00:00:00') /* Mosswart Idolator */
-     , (0x7D097001, 0x7D097005, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D097001, 0x7D097006, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D097001, 0x7D097007, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D097001, 0x7D097008, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D097001, 0x7D097009, '2019-02-10 00:00:00') /* Copper Golem Kingpin */
-     , (0x7D097001, 0x7D09700A, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D097001, 0x7D09700B, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D097001, 0x7D09700C, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7D097001, 0x7D09700D, '2019-02-10 00:00:00') /* Skeleton Captain */
-     , (0x7D097001, 0x7D09700E, '2019-02-10 00:00:00') /* Skeleton */
-     , (0x7D097001, 0x7D09700F, '2019-02-10 00:00:00') /* Skeleton Warrior */
-     , (0x7D097001, 0x7D097010, '2019-02-10 00:00:00') /* Skeleton Wraith */;
+VALUES (0x7D097001, 0x7D097002, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D097001, 0x7D097003, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D097001, 0x7D097004, '2019-02-10 00:00:00') /* Mosswart Idolator (8428) */
+     , (0x7D097001, 0x7D097005, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D097001, 0x7D097006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D097001, 0x7D097007, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D097001, 0x7D097008, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D097001, 0x7D097009, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D097001, 0x7D09700A, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D097001, 0x7D09700B, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D097001, 0x7D09700C, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7D097001, 0x7D09700D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D097001, 0x7D09700E, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D097001, 0x7D09700F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D097001, 0x7D097010, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D097002,  1761, 0xD0970021, 107.4313, 23.22452, -0.8974999, 0.9522918, 0, 0, -0.3051889,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */

@@ -13,10 +13,10 @@ VALUES (0x7A41F006,  1154, 0xA41F0102, 156.633, 36.6861, 431.2105, 0.604645, 0, 
 /* @teleloc 0xA41F0102 [156.633000 36.686100 431.210500] 0.604645 0.000000 0.000000 -0.796495 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A41F006, 0x7A41F007, '2019-02-10 00:00:00') /* Hoary Armoredillo */
-     , (0x7A41F006, 0x7A41F008, '2019-02-10 00:00:00') /* Obsidian Golem */
-     , (0x7A41F006, 0x7A41F009, '2019-02-10 00:00:00') /* Shivver */
-     , (0x7A41F006, 0x7A41F00A, '2019-02-10 00:00:00') /* Wasteland Rat */;
+VALUES (0x7A41F006, 0x7A41F007, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A41F006, 0x7A41F008, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7A41F006, 0x7A41F009, '2019-02-10 00:00:00') /* Shivver (14518) */
+     , (0x7A41F006, 0x7A41F00A, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A41F007,  7084, 0xA41F0102, 156.633, 36.6861, 431.2105, 0.604645, 0, 0, -0.796495,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -39,16 +39,16 @@ VALUES (0x7A41F00B,  1542, 0xA41F0102, 157.3813, 35.54668, 431.224, 0.677398, 0,
 /* @teleloc 0xA41F0102 [157.381300 35.546680 431.224000] 0.677398 0.000000 0.000000 -0.735617 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A41F00B, 0x7A41F00C, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F00D, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F00E, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F00F, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F010, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F011, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F012, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F013, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F014, '2019-02-10 00:00:00') /* Apple */
-     , (0x7A41F00B, 0x7A41F015, '2019-02-10 00:00:00') /* Apple */;
+VALUES (0x7A41F00B, 0x7A41F00C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F00D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F00E, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F00F, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F010, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F011, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F012, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F013, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F014, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7A41F00B, 0x7A41F015, '2019-02-10 00:00:00') /* Apple (258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A41F00C,   258, 0xA41F0102, 157.3813, 35.54668, 431.224, 0.677398, 0, 0, -0.735617,  True, '2019-02-10 00:00:00'); /* Apple */

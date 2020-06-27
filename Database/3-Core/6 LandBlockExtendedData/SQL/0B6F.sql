@@ -5,23 +5,23 @@ VALUES (0x70B6F001,  1154, 0x0B6F0038, 158.3158, 173.3098, 90.00715, -0.3953694,
 /* @teleloc 0x0B6F0038 [158.315800 173.309800 90.007150] -0.395369 0.000000 0.000000 -0.918522 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B6F001, 0x70B6F002, '2019-02-10 00:00:00') /* Banderling Savage */
-     , (0x70B6F001, 0x70B6F003, '2019-02-10 00:00:00') /* Tiatus Raider */
-     , (0x70B6F001, 0x70B6F004, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F005, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F006, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6F001, 0x70B6F007, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F008, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F009, '2019-02-10 00:00:00') /* Olthoi Warrior */
-     , (0x70B6F001, 0x70B6F00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem */
-     , (0x70B6F001, 0x70B6F00B, '2019-02-10 00:00:00') /* Peerless Drudge */
-     , (0x70B6F001, 0x70B6F00C, '2019-02-10 00:00:00') /* Drudge Bloodletter */
-     , (0x70B6F001, 0x70B6F00D, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6F001, 0x70B6F00E, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F00F, '2019-02-10 00:00:00') /* Banderling Predator */
-     , (0x70B6F001, 0x70B6F010, '2019-02-10 00:00:00') /* Banderling Scalper */
-     , (0x70B6F001, 0x70B6F011, '2019-02-10 00:00:00') /* Drudge Cabalist */
-     , (0x70B6F001, 0x70B6F012, '2019-02-10 00:00:00') /* Platinum Golem */;
+VALUES (0x70B6F001, 0x70B6F002, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x70B6F001, 0x70B6F003, '2019-02-10 00:00:00') /* Tiatus Raider (36838) */
+     , (0x70B6F001, 0x70B6F004, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F005, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F006, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6F001, 0x70B6F007, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F008, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F009, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x70B6F001, 0x70B6F00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (15267) */
+     , (0x70B6F001, 0x70B6F00B, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x70B6F001, 0x70B6F00C, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
+     , (0x70B6F001, 0x70B6F00D, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6F001, 0x70B6F00E, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F00F, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x70B6F001, 0x70B6F010, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x70B6F001, 0x70B6F011, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x70B6F001, 0x70B6F012, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B6F002, 36819, 0x0B6F0038, 158.3158, 173.3098, 90.00715, -0.3953694, 0, 0, -0.9185222,  True, '2019-02-10 00:00:00'); /* Banderling Savage */

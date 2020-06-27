@@ -5,8 +5,8 @@ VALUES (0x79560001,  1154, 0x9560002E, 125.4297, 124.594, 17.86572, 0.4945211, 0
 /* @teleloc 0x9560002E [125.429700 124.594000 17.865720] 0.494521 0.000000 0.000000 -0.869166 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79560001, 0x79560002, '2019-02-10 00:00:00') /* Tumerok Scout */
-     , (0x79560001, 0x79560003, '2019-02-10 00:00:00') /* Black Rat */;
+VALUES (0x79560001, 0x79560002, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79560001, 0x79560003, '2019-02-10 00:00:00') /* Black Rat (218) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79560002,   232, 0x9560002E, 125.4297, 124.594, 17.86572, 0.4945211, 0, 0, -0.8691656,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */

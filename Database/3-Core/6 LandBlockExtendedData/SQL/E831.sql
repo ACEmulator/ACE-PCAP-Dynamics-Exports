@@ -5,26 +5,26 @@ VALUES (0x7E831001,  1154, 0xE831001F, 86.29279, 163.4148, 74.35237, 1, 0, 0, 0,
 /* @teleloc 0xE831001F [86.292790 163.414800 74.352370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E831001, 0x7E831002, '2019-02-10 00:00:00') /* Tumerok Priest */
-     , (0x7E831001, 0x7E831003, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E831001, 0x7E831004, '2019-02-10 00:00:00') /* High Tumerok */
-     , (0x7E831001, 0x7E831005, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7E831001, 0x7E831006, '2019-02-10 00:00:00') /* Copper Golem */
-     , (0x7E831001, 0x7E831007, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E831001, 0x7E831008, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E831001, 0x7E831009, '2019-02-10 00:00:00') /* Gigas Lugian */
-     , (0x7E831001, 0x7E83100A, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E831001, 0x7E83100B, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E831001, 0x7E83100C, '2019-02-10 00:00:00') /* Wild Monouga */
-     , (0x7E831001, 0x7E83100D, '2019-02-10 00:00:00') /* Tusker Crimsonback */
-     , (0x7E831001, 0x7E83100E, '2019-02-10 00:00:00') /* Horripal */
-     , (0x7E831001, 0x7E83100F, '2019-02-10 00:00:00') /* Gotrok Obeloth */
-     , (0x7E831001, 0x7E831010, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E831001, 0x7E831011, '2019-02-10 00:00:00') /* Goldenback Tusker */
-     , (0x7E831001, 0x7E831012, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E831001, 0x7E831013, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E831001, 0x7E831014, '2019-02-10 00:00:00') /* Granite Golem */
-     , (0x7E831001, 0x7E831015, '2019-02-10 00:00:00') /* Esper Ursuin */;
+VALUES (0x7E831001, 0x7E831002, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
+     , (0x7E831001, 0x7E831003, '2019-02-10 00:00:00') /* High Tumerok (4104) */
+     , (0x7E831001, 0x7E831004, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7E831001, 0x7E831005, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7E831001, 0x7E831006, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E831001, 0x7E831007, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E831001, 0x7E831008, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E831001, 0x7E831009, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
+     , (0x7E831001, 0x7E83100A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E831001, 0x7E83100B, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E831001, 0x7E83100C, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E831001, 0x7E83100D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E831001, 0x7E83100E, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7E831001, 0x7E83100F, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7E831001, 0x7E831010, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E831001, 0x7E831011, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
+     , (0x7E831001, 0x7E831012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E831001, 0x7E831013, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E831001, 0x7E831014, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7E831001, 0x7E831015, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E831002,   231, 0xE831001F, 86.29279, 163.4148, 74.35237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -111,8 +111,8 @@ VALUES (0x7E831016,  1542, 0xE831001F, 85.73119, 162.1168, 74.35237, 1, 0, 0, 0,
 /* @teleloc 0xE831001F [85.731190 162.116800 74.352370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E831016, 0x7E831017, '2019-02-10 00:00:00') /* Dirty Old Crate */
-     , (0x7E831016, 0x7E831018, '2019-02-10 00:00:00') /* Bonfire */;
+VALUES (0x7E831016, 0x7E831017, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7E831016, 0x7E831018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E831017, 31443, 0xE831001F, 85.73119, 162.1168, 74.35237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */

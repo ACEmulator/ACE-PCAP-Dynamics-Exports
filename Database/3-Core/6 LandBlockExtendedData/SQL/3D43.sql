@@ -5,16 +5,16 @@ VALUES (0x73D43001,  1154, 0x3D43000A, 45.20321, 32.14189, 45.24221, 0.6272247, 
 /* @teleloc 0x3D43000A [45.203210 32.141890 45.242210] 0.627225 0.000000 0.000000 -0.778838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D43001, 0x73D43002, '2019-02-10 00:00:00') /* Chomu Sclavus */
-     , (0x73D43001, 0x73D43003, '2019-02-10 00:00:00') /* Essa Sclavus Lord */
-     , (0x73D43001, 0x73D43004, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x73D43001, 0x73D43005, '2019-02-10 00:00:00') /* Guruk Heavy */
-     , (0x73D43001, 0x73D43006, '2019-02-10 00:00:00') /* Burun Ruuk Seer */
-     , (0x73D43001, 0x73D43007, '2019-02-10 00:00:00') /* Guruk Crusher */
-     , (0x73D43001, 0x73D43008, '2019-02-10 00:00:00') /* Destroyer Grievver */
-     , (0x73D43001, 0x73D43009, '2019-02-10 00:00:00') /* Aste Sclavus Lord */
-     , (0x73D43001, 0x73D4300A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord */
-     , (0x73D43001, 0x73D4300B, '2019-02-10 00:00:00') /* Skeletal Champion */;
+VALUES (0x73D43001, 0x73D43002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x73D43001, 0x73D43003, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73D43001, 0x73D43004, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x73D43001, 0x73D43005, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x73D43001, 0x73D43006, '2019-02-10 00:00:00') /* Burun Ruuk Seer (26019) */
+     , (0x73D43001, 0x73D43007, '2019-02-10 00:00:00') /* Guruk Crusher (27984) */
+     , (0x73D43001, 0x73D43008, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x73D43001, 0x73D43009, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x73D43001, 0x73D4300A, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73D43001, 0x73D4300B, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73D43002,  7112, 0x3D43000A, 45.20321, 32.14189, 45.24221, 0.6272247, 0, 0, -0.7788383,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */

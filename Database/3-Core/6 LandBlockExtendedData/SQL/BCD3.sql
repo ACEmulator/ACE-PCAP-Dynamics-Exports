@@ -5,11 +5,11 @@ VALUES (0x7BCD3001,  1154, 0xBCD30034, 160.4403, 95.77927, 71.52187, 0.7071068, 
 /* @teleloc 0xBCD30034 [160.440300 95.779270 71.521870] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD3001, 0x7BCD3002, '2019-02-10 00:00:00') /* Panumbris Shadow */
-     , (0x7BCD3001, 0x7BCD3003, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD3001, 0x7BCD3004, '2019-02-10 00:00:00') /* Umbris Shadow */
-     , (0x7BCD3001, 0x7BCD3005, '2019-02-10 00:00:00') /* Frost */
-     , (0x7BCD3001, 0x7BCD3006, '2019-02-10 00:00:00') /* Frost */;
+VALUES (0x7BCD3001, 0x7BCD3002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BCD3001, 0x7BCD3003, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD3001, 0x7BCD3004, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BCD3001, 0x7BCD3005, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD3001, 0x7BCD3006, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD3002,  4253, 0xBCD30034, 160.4403, 95.77927, 71.52187, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
